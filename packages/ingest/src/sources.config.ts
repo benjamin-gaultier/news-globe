@@ -187,6 +187,13 @@ export const INGEST_SETTINGS = {
   clusterThreshold: 0.3,
   /** Minimum shared tokens, so two very short titles can't merge on one word. */
   clusterMinSharedTokens: 2,
+  /**
+   * Average-linkage guard when merging two groups. On the 2026-10-06 feeds,
+   * 0.2 split the chained US "Supreme Court new term" + "climate case" group
+   * in two while every genuine multi-outlet story stayed whole; 0.25 began
+   * dropping real members.
+   */
+  clusterMinAverageLink: 0.2,
   maxClustersPerCountry: 15,
   descriptionMaxChars: 300,
   /** node-cron schedule for `pnpm ingest:watch`. */

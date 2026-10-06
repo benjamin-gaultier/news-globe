@@ -3,7 +3,11 @@ import { clusterArticles, titleSimilarity } from '../src/cluster';
 import { INGEST_SETTINGS } from '../src/sources.config';
 import { article } from './helpers';
 
-const opts = { threshold: INGEST_SETTINGS.clusterThreshold, minSharedTokens: INGEST_SETTINGS.clusterMinSharedTokens };
+const opts = {
+  threshold: INGEST_SETTINGS.clusterThreshold,
+  minSharedTokens: INGEST_SETTINGS.clusterMinSharedTokens,
+  minAverageLink: INGEST_SETTINGS.clusterMinAverageLink,
+};
 const T = '2026-10-06T08:00:00.000Z';
 
 function sameCluster(a: string, b: string): boolean {
@@ -76,5 +80,60 @@ describe('clusterArticles', () => {
     const groups = clusterArticles([a, b, c], opts);
     expect(groups).toHaveLength(1);
     expect(groups[0]).toEqual([a, b, c]);
+  });
+});
+
+// Real US headlines from 2026-10-06: two Supreme Court stories. NPR's climate
+// piece mentions the "new term" (Jaccard 0.30 with WaPo's term preview), which
+// was enough for single-linkage to chain both stories into one cluster.
+describe('clusterArticles: chaining guard (average linkage)', () => {
+  const bridge = article('npr', "Supreme Court's new term kicks off with blockbuster climate change case", T);
+  const climate = [
+    article('nyt', 'Supreme Court Tangles Over a Major Climate Change Case', T),
+    article('wapo', 'Supreme Court grapples with case on holding Big Oil liable for climate change', T),
+    article('pbs', 'Supreme Court hears case on holding energy companies liable for climate change', T),
+  ];
+  const newTerm = [
+    article('nyt', 'Will Midterm Elections Complicate the Supreme Court’s New Term?', T),
+    article('wapo', '6 things to watch in the Supreme Court’s new term', T),
+    article('npr', 'The Supreme Court faces another term jam-packed with controversy', T),
+  ];
+  const all = [...climate, bridge, ...newTerm];
+  const titles = (groups: ReturnType<typeof clusterArticles>) =>
+    groups.map((g) => g.map((a) => a.title).sort()).sort((a, b) => b.length - a.length);
+
+  it('without the guard, the bridging headline chains both stories together', () => {
+    const groups = clusterArticles(all, { ...opts, minAverageLink: 0 });
+    expect(groups).toHaveLength(1);
+  });
+
+  it('with the guard, the two stories stay separate', () => {
+    const groups = clusterArticles(all, opts);
+    expect(groups).toHaveLength(2);
+    const [big, small] = titles(groups);
+    expect(big).toEqual([...climate, bridge].map((a) => a.title).sort());
+    expect(small).toEqual(newTerm.map((a) => a.title).sort());
+  });
+
+  it('result does not depend on input order', () => {
+    expect(titles(clusterArticles([...all].reverse(), opts))).toEqual(titles(clusterArticles(all, opts)));
+  });
+
+  it('still keeps a genuinely shared story whole across many outlets', () => {
+    const hastert = [
+      article('nyt', 'Dennis Hastert, Powerful Politician Disgraced by Child Sexual Abuse, Dies', T),
+      article('wapo', 'Dennis Hastert, ex-House speaker whose sex abuse admission upended legacy, dies at 84', T),
+      article('npr', 'Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84', T),
+      article('cbs', 'Dennis Hastert, disgraced former House speaker, dies at 84', T),
+      article('abc', 'Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84', T),
+    ];
+    expect(clusterArticles(hastert, opts)).toHaveLength(1);
+  });
+
+  it('a lone bridging article joins only the group it is most similar to', () => {
+    const groups = clusterArticles(all, opts);
+    const withBridge = groups.find((g) => g.includes(bridge))!;
+    expect(withBridge).toEqual(expect.arrayContaining(climate));
+    expect(withBridge.some((a) => newTerm.includes(a))).toBe(false);
   });
 });

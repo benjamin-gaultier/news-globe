@@ -68,13 +68,13 @@ DATA_BASE_URL=https://dxxxx.cloudfront.net/news pnpm build
 | **Parse** | `rss-parser`. The adapter keeps title, link, the feed's `<description>` (HTML stripped, ~300 chars) and the date. Images come from `media:content`, then `media:thumbnail`, then `enclosure`, then the first `<img>`. `content:encoded` (often the full article) is never read into the stored description. |
 | **Normalize** | Canonical URL: strip `utm_*`, `fbclid`, `gclid`, `xtor`, `at_*`, `smid` and similar, drop the fragment, lowercase the host, sort the remaining params. `id` is 12 chars of base64url SHA-256 of the canonical URL. Future dates are clamped to now; articles older than 48 h are dropped. |
 | **Dedupe** | Exact match on canonical URL. Outlets often list the same article in two section feeds. |
-| **Cluster** | Titles are folded (NFD, accents stripped, lowercase, punctuation removed) and FR+EN stopwords and live-blog boilerplate ("EN DIRECT", "LIVE") are dropped. Light suffix folding means *inscrites* ≡ *inscrits* and *lycées* ≡ *lycée*. The pipeline then computes pairwise token-set Jaccard within a country and merges with union-find when similarity ≥ `clusterThreshold` (0.3) **and** the titles share ≥ 2 tokens. Two articles from the same outlet are never linked directly. |
+| **Cluster** | Titles are folded (NFD, accents stripped, lowercase, punctuation removed) and FR+EN stopwords and live-blog boilerplate ("EN DIRECT", "LIVE") are dropped. Light suffix folding means *inscrites* ≡ *inscrits* and *lycées* ≡ *lycée*. The pipeline then computes pairwise token-set Jaccard within a country. A cross-outlet pair is a candidate link when similarity ≥ `clusterThreshold` (0.3) **and** the titles share ≥ 2 tokens; two articles from the same outlet are never linked directly. Links are applied strongest first with union-find, and two existing groups only merge if their **average** pairwise similarity is ≥ `clusterMinAverageLink` (0.2). That guard stops one bridging headline from chaining two stories together. |
 | **Rank** | First by distinct outlets in the last 24 h, then by most recent article. The representative is the highest-authority outlet, with ties going to the earliest article. "+N other sources" shows one article per other outlet. The top 15 clusters are kept. |
 | **Write** | Atomic: write to a tmp file, then rename. If every feed for a country fails and nothing is cached, the previous file is kept rather than blanked. |
 
 **Why the threshold is 0.3, not 0.4:** on the live feeds (2026-10-06), headlines about the same story from different outlets mostly scored 0.3–0.5, because French headlines in particular are long and worded differently. On ~200 raw FR feed items, 0.4 produced 5 multi-outlet clusters and 0.3 produced 11. Only one of the 11 was borderline: two different Édouard Philippe pieces. The cluster tests use real headline pairs at the configured threshold.
 
-**Known limitation:** union-find is transitive, so two adjacent stories can chain into one cluster if a headline bridges them. Example: "Supreme Court's new term" and "Supreme Court hears climate case" joined through "Supreme Court term begins with cases on climate change". A centroid or average-link check would fix this; see next steps.
+**Chaining guard (average linkage):** plain union-find is transitive. On the live US feeds, NPR's "Supreme Court's new term kicks off with blockbuster climate change case" scored 0.30 against WaPo's "6 things to watch in the Supreme Court's new term". That one link merged the climate-case story and the new-term story into a single 15-article cluster, headlined by a midterms piece. Requiring an average similarity of 0.2 between the groups being merged splits them back into "climate case" (11) and "new term" (4), while every genuine multi-outlet story (e.g. Hastert, 6 outlets) stays whole. At 0.25, real members started dropping out. [cluster.test.ts](packages/ingest/test/cluster.test.ts) reproduces the chain with those real headlines.
 
 ## Data contract
 
@@ -169,7 +169,7 @@ curl -sA "NewsGlobeBot/0.1 (+https://github.com/benjamin-gaultier/news-globe; he
 2. Write `data/regions/{CC}-{REGION}.json` with the same cluster shape.
 3. On the globe, show admin-1 polygons (Natural Earth 10m/50m states & provinces) when zoomed into a covered country.
 
-**Clustering.** Add an average-link or centroid check before union so bridging headlines can't chain distinct stories, and include the snippet's top tokens as a weaker signal.
+**Clustering.** Use the snippet's top tokens as a weaker second signal, and add a time-decay so a story from 40 hours ago doesn't absorb today's follow-up.
 
 **Ops.** Run `ingest:watch` as a small container or cron job, sync `data/` to S3 with `Cache-Control: max-age=60`, and alert when a feed returns errors for more than an hour (`lastStatus` in the cache file).
 
