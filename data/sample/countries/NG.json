@@ -2,67 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "NG",
   "countryName": "Nigeria",
-  "updatedAt": "2026-10-06T14:35:42.831Z",
+  "updatedAt": "2026-10-06T15:01:56.292Z",
   "clusters": [
-    {
-      "id": "XyO1J69YLoNr",
-      "representative": {
-        "id": "XyO1J69YLoNr",
-        "url": "https://punchng.com/2027-inec-lists-states-with-highest-registered-voters/?utm_source=rss.punchng.com&utm_medium=web",
-        "canonicalUrl": "https://punchng.com/2027-inec-lists-states-with-highest-registered-voters/",
-        "title": "2027: INEC lists states with highest registered voters",
-        "description": "INEC has revealed that Lagos, Kano, and Kaduna have the highest number of registered voters ahead of the 2027 elections, with over 103 million voters now o Read More: https://punchng.com/2027-inec-lists-states-with-highest-registered-voters/",
-        "source": {
-          "id": "punch",
-          "name": "Punch"
-        },
-        "sourceCountry": "NG",
-        "language": "en",
-        "publishedAt": "2026-10-06T11:05:55.000Z",
-        "imageUrl": "https://cdn.punchng.com/wp-content/uploads/2020/08/18131509/punch-logo-500x179-1.png",
-        "countryCode": "NG",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "fU6rcsbxdnd_",
-          "url": "https://www.channelstv.com/2026/10/06/lagos-kano-kaduna-lead-top-10-states-as-inec-voters-register-hits-103-million/",
-          "canonicalUrl": "https://www.channelstv.com/2026/10/06/lagos-kano-kaduna-lead-top-10-states-as-inec-voters-register-hits-103-million/",
-          "title": "Lagos, Kano, Kaduna Lead Top 10 States As INEC Voters’ Register Hits 103 Million",
-          "description": "According to INEC Chairman, Professor Joash Amupitan, the 103 million voters now makes Nigeria the largest democracy in Africa. The post Lagos, Kano, Kaduna Lead Top 10 States As INEC Voters’ Register Hits 103 Million appeared first on Channels Television .",
-          "source": {
-            "id": "channelstv",
-            "name": "Channels TV"
-          },
-          "sourceCountry": "NG",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:42:43.000Z",
-          "imageUrl": null,
-          "countryCode": "NG",
-          "regionCode": null
-        },
-        {
-          "id": "7maJbRx6R3c7",
-          "url": "https://www.vanguardngr.com/2026/10/just-in-lagos-kano-kaduna-top-states-with-most-registered-voters-ahead-of-2027-elections/",
-          "canonicalUrl": "https://www.vanguardngr.com/2026/10/just-in-lagos-kano-kaduna-top-states-with-most-registered-voters-ahead-of-2027-elections/",
-          "title": "Just in: Lagos, Kano, Kaduna top states with most registered voters ahead of 2027 elections",
-          "description": "Lagos leads the 36 states and the Federal Capital Territory with 7,488,633 registered voters, followed by Kano with 6,570,276 and Kaduna with 4,662,640. The post Just in: Lagos, Kano, Kaduna top states with most registered voters ahead of 2027 elections appeared first on Vanguard News .",
-          "source": {
-            "id": "vanguard",
-            "name": "Vanguard"
-          },
-          "sourceCountry": "NG",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:00:31.000Z",
-          "imageUrl": null,
-          "countryCode": "NG",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:42:43.000Z"
-    },
     {
       "id": "wLmATga2CrzY",
       "representative": {
@@ -306,6 +247,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:08:58.000Z"
+    },
+    {
+      "id": "fU6rcsbxdnd_",
+      "representative": {
+        "id": "fU6rcsbxdnd_",
+        "url": "https://www.channelstv.com/2026/10/06/lagos-kano-kaduna-lead-top-10-states-as-inec-voters-register-hits-103-million/",
+        "canonicalUrl": "https://www.channelstv.com/2026/10/06/lagos-kano-kaduna-lead-top-10-states-as-inec-voters-register-hits-103-million/",
+        "title": "Lagos, Kano, Kaduna Lead Top 10 States As INEC Voters’ Register Hits 103 Million",
+        "description": "According to INEC Chairman, Professor Joash Amupitan, the 103 million voters now makes Nigeria the largest democracy in Africa. The post Lagos, Kano, Kaduna Lead Top 10 States As INEC Voters’ Register Hits 103 Million appeared first on Channels Television .",
+        "source": {
+          "id": "channelstv",
+          "name": "Channels TV"
+        },
+        "sourceCountry": "NG",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:42:43.000Z",
+        "imageUrl": null,
+        "countryCode": "NG",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "7maJbRx6R3c7",
+          "url": "https://www.vanguardngr.com/2026/10/just-in-lagos-kano-kaduna-top-states-with-most-registered-voters-ahead-of-2027-elections/",
+          "canonicalUrl": "https://www.vanguardngr.com/2026/10/just-in-lagos-kano-kaduna-top-states-with-most-registered-voters-ahead-of-2027-elections/",
+          "title": "Just in: Lagos, Kano, Kaduna top states with most registered voters ahead of 2027 elections",
+          "description": "Lagos leads the 36 states and the Federal Capital Territory with 7,488,633 registered voters, followed by Kano with 6,570,276 and Kaduna with 4,662,640. The post Just in: Lagos, Kano, Kaduna top states with most registered voters ahead of 2027 elections appeared first on Vanguard News .",
+          "source": {
+            "id": "vanguard",
+            "name": "Vanguard"
+          },
+          "sourceCountry": "NG",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:00:31.000Z",
+          "imageUrl": null,
+          "countryCode": "NG",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:42:43.000Z"
     },
     {
       "id": "aUgdGxZ4vhKF",

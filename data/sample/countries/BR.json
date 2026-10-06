@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BR",
   "countryName": "Brazil",
-  "updatedAt": "2026-10-06T14:35:42.831Z",
+  "updatedAt": "2026-10-06T15:01:56.292Z",
   "clusters": [
     {
       "id": "WGReK7rMfYcS",
@@ -138,6 +138,65 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-05T23:49:00.000Z"
+    },
+    {
+      "id": "vrVOUWkX87BW",
+      "representative": {
+        "id": "vrVOUWkX87BW",
+        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/deputados-federais-eleitos-no-brasil-veja-a-lista-com-todos-os-nomes.ghtml",
+        "canonicalUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/deputados-federais-eleitos-no-brasil-veja-a-lista-com-todos-os-nomes.ghtml",
+        "title": "Deputados federais eleitos no Brasil; veja a lista com todos os nomes",
+        "description": "Os eleitores brasileiros escolheram neste domingo (4) os 513 deputados federais que vão compor a Câmara dos Deputados a partir de 1º de fevereiro de 2027. As vagas são distribuídas entre partidos e federações pelo sistema proporcional: o número de cadeiras de cada legenda depende do total de votos…",
+        "source": {
+          "id": "g1",
+          "name": "g1"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-05T20:31:25.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/WYMP7oszosvB1EcIF3dhACe4JFg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/p/nJtFNjSwehmu8EnmEeEQ/formato-g1-30-.jpg",
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "pQ36d3dPHbca",
+          "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-em-minas-gerais.shtml",
+          "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-em-minas-gerais.shtml",
+          "title": "Confira os deputados federais eleitos em Minas Gerais",
+          "description": "Com 100% das urnas apuradas, 53 deputados federais foram eleitos em Minas Gerais (MG) neste domingo (4). Leia mais (10/05/2026 - 15h23)",
+          "source": {
+            "id": "folha",
+            "name": "Folha de S.Paulo"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-05T18:23:00.000Z",
+          "imageUrl": null,
+          "countryCode": "BR",
+          "regionCode": null
+        },
+        {
+          "id": "xMILAXiIR_TZ",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-veja-quem-sao-os-deputados-estaduais-eleitos-por-sp",
+          "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-veja-quem-sao-os-deputados-estaduais-eleitos-por-sp",
+          "title": "Eleições 2026: veja quem são os deputados estaduais eleitos por SP",
+          "description": "Neste domingo (4), no primeiro turno das Eleições 2026, os eleitores do estado de São Paulo foram às urnas para escolher presidente, senadores, governador, deputados federais e também estaduais. Os votantes elegeram 94 deputados para a Assembleia Legislativa paulista. Com 100% das urnas apuradas…",
+          "source": {
+            "id": "agenciabrasil",
+            "name": "Agência Brasil"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-05T17:24:00.000Z",
+          "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
+          "countryCode": "BR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-05T20:31:25.000Z"
     },
     {
       "id": "HCO9DjWGZt1D",
@@ -409,48 +468,6 @@
       "latestPublishedAt": "2026-10-05T21:00:00.000Z"
     },
     {
-      "id": "vrVOUWkX87BW",
-      "representative": {
-        "id": "vrVOUWkX87BW",
-        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/deputados-federais-eleitos-no-brasil-veja-a-lista-com-todos-os-nomes.ghtml",
-        "canonicalUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/deputados-federais-eleitos-no-brasil-veja-a-lista-com-todos-os-nomes.ghtml",
-        "title": "Deputados federais eleitos no Brasil; veja a lista com todos os nomes",
-        "description": "Os eleitores brasileiros escolheram neste domingo (4) os 513 deputados federais que vão compor a Câmara dos Deputados a partir de 1º de fevereiro de 2027. As vagas são distribuídas entre partidos e federações pelo sistema proporcional: o número de cadeiras de cada legenda depende do total de votos…",
-        "source": {
-          "id": "g1",
-          "name": "g1"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-05T20:31:25.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/WYMP7oszosvB1EcIF3dhACe4JFg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/p/nJtFNjSwehmu8EnmEeEQ/formato-g1-30-.jpg",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "pQ36d3dPHbca",
-          "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-em-minas-gerais.shtml",
-          "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-em-minas-gerais.shtml",
-          "title": "Confira os deputados federais eleitos em Minas Gerais",
-          "description": "Com 100% das urnas apuradas, 53 deputados federais foram eleitos em Minas Gerais (MG) neste domingo (4). Leia mais (10/05/2026 - 15h23)",
-          "source": {
-            "id": "folha",
-            "name": "Folha de S.Paulo"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T18:23:00.000Z",
-          "imageUrl": null,
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T20:31:25.000Z"
-    },
-    {
       "id": "nasx6jLLzhIJ",
       "representative": {
         "id": "nasx6jLLzhIJ",
@@ -577,48 +594,6 @@
       "latestPublishedAt": "2026-10-05T19:01:47.000Z"
     },
     {
-      "id": "CYVJnfkSPdma",
-      "representative": {
-        "id": "CYVJnfkSPdma",
-        "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/quem-sao-os-deputados-estaduais-eleitos-no-para-pa.shtml",
-        "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/quem-sao-os-deputados-estaduais-eleitos-no-para-pa.shtml",
-        "title": "Quem são os deputados estaduais eleitos no Pará (PA)",
-        "description": "O Pará (PA) foi às urnas neste domingo (4) e escolheu 41 representantes para sua Assembleia Legislativa . Leia mais (10/05/2026 - 00h01)",
-        "source": {
-          "id": "folha",
-          "name": "Folha de S.Paulo"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-05T03:01:00.000Z",
-        "imageUrl": null,
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "xMILAXiIR_TZ",
-          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-veja-quem-sao-os-deputados-estaduais-eleitos-por-sp",
-          "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-veja-quem-sao-os-deputados-estaduais-eleitos-por-sp",
-          "title": "Eleições 2026: veja quem são os deputados estaduais eleitos por SP",
-          "description": "Neste domingo (4), no primeiro turno das Eleições 2026, os eleitores do estado de São Paulo foram às urnas para escolher presidente, senadores, governador, deputados federais e também estaduais. Os votantes elegeram 94 deputados para a Assembleia Legislativa paulista. Com 100% das urnas apuradas…",
-          "source": {
-            "id": "agenciabrasil",
-            "name": "Agência Brasil"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T17:24:00.000Z",
-          "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T18:21:00.000Z"
-    },
-    {
       "id": "E3pneDXF4U6S",
       "representative": {
         "id": "E3pneDXF4U6S",
@@ -661,46 +636,52 @@
       "latestPublishedAt": "2026-10-05T17:21:31.000Z"
     },
     {
-      "id": "DTY6ckiKN093",
+      "id": "skbUenjYjQsL",
       "representative": {
-        "id": "DTY6ckiKN093",
-        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/com-108-mulheres-eleitas-camara-dos-deputados-tera-maior-bancada-feminina-da-historia.ghtml",
-        "canonicalUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/com-108-mulheres-eleitas-camara-dos-deputados-tera-maior-bancada-feminina-da-historia.ghtml",
-        "title": "Com 109 mulheres eleitas, Câmara dos Deputados terá maior bancada feminina da história",
-        "description": "Flávio Bolsonaro supera votação do pai em 2022 e 2018 no 1º turno A Câmara dos Deputados terá, a partir de 2027, a maior bancada feminina de sua história. Nesse domingo (4) foram 109 mulheres eleitas, um aumento de 1 cadeiras em comparação as eleições de 2022, quando 91 deputadas federais…",
+        "id": "skbUenjYjQsL",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-terca-feira-6",
+        "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-terca-feira-6",
+        "title": "Confira a agenda dos presidenciáveis nesta terça-feira (6)",
+        "description": "Os candidatos que disputam o segundo turno das eleições à Presidência da República participam de reuniões em Brasília e Goiânia nesta terça-feira (6). Flávio Bolsonaro (PL) Participa de reuniões internas de campanha em Brasília. Às 14h, tem encontro com Ronaldo Caiado (PSD) e Daniel Vilela (MDB)…",
+        "source": {
+          "id": "agenciabrasil",
+          "name": "Agência Brasil"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T13:10:00.000Z",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:10:00.000Z"
+    },
+    {
+      "id": "s3bCSaOc1EX3",
+      "representative": {
+        "id": "s3bCSaOc1EX3",
+        "url": "https://g1.globo.com/politica/noticia/2026/10/06/agu-defende-proibicao-das-bets-no-stf-e-pede-que-fux-ouca-pgr-antes-de-decidir.ghtml",
+        "canonicalUrl": "https://g1.globo.com/politica/noticia/2026/10/06/agu-defende-proibicao-das-bets-no-stf-e-pede-que-fux-ouca-pgr-antes-de-decidir.ghtml",
+        "title": "AGU defende proibição das bets no STF e pede que Fux ouça PGR antes de decidir",
+        "description": "A Advocacia-Geral da União (AGU) pediu ao Supremo Tribunal Federal (STF) nesta segunda-feira (5) que mantenha a proibição das bets no país. O órgão também defendeu que a Procuradoria-Geral da República (PGR) seja ouvida antes de Luiz Fux decidir sobre os pedidos do setor para derrubar a medida. A…",
         "source": {
           "id": "g1",
           "name": "g1"
         },
         "sourceCountry": "BR",
         "language": "pt",
-        "publishedAt": "2026-10-05T13:56:45.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/hV4sWENUCdPT0svV55p7JhPsi0s=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/d/uNWDBBRD2B2jq59FCMgg/globo-canal-4-20260812-2000-frame-42139.jpeg",
+        "publishedAt": "2026-10-06T13:06:00.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/Shjo9F5K5Ak25inLX3cyoHcSwas=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/u/kcBDhDT1Wk3VtJiJvWYQ/55238958793-4663f23a08-o.jpg",
         "countryCode": "BR",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "0L4VlOm66Coe",
-          "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/com-121-deputados-pl-tera-maior-bancada-da-camara-veja-eleitos-por-estado.shtml",
-          "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/com-121-deputados-pl-tera-maior-bancada-da-camara-veja-eleitos-por-estado.shtml",
-          "title": "Com 121 deputados, PL terá maior bancada da Câmara; veja eleitos por estado",
-          "description": "O PL (Partido Liberal) de Flávio Bolsonaro elegeu a maior bancada da Câmara dos Deputados na eleição 2026, com 121 deputados federais. O número corresponde a 24% das 513 cadeiras da Casa. Leia mais (10/05/2026 - 12h26)",
-          "source": {
-            "id": "folha",
-            "name": "Folha de S.Paulo"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T15:26:00.000Z",
-          "imageUrl": null,
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T15:26:00.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:06:00.000Z"
     }
   ]
 }

@@ -153,4 +153,9 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   EG: { code: 'EG', name: 'Egypt', lat: 26.8, lng: 30.8, altitude: 1.6 },
   SA: { code: 'SA', name: 'Saudi Arabia', lat: 24, lng: 45, altitude: 1.9 },
   LB: { code: 'LB', name: 'Lebanon', lat: 33.9, lng: 35.9, altitude: 0.6 },
+  VE: { code: 'VE', name: 'Venezuela', lat: 7, lng: -66, altitude: 1.5 },
+  GT: { code: 'GT', name: 'Guatemala', lat: 15.6, lng: -90.3, altitude: 0.8 },
+  DO: { code: 'DO', name: 'Dominican Republic', lat: 18.8, lng: -70.3, altitude: 0.7 },
+  EC: { code: 'EC', name: 'Ecuador', lat: -1.5, lng: -78.3, altitude: 1.0 },
+  CR: { code: 'CR', name: 'Costa Rica', lat: 9.8, lng: -84, altitude: 0.7 },
 };

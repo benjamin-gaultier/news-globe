@@ -411,6 +411,10 @@ export function titleTokens(title: string, language?: string): Set<string> {
   for (const raw of words) {
     if (!raw || stopwords.has(raw)) continue;
     if (raw.length < 2 && !/\d/.test(raw)) continue;
+    // Years carry almost no signal: "Cartas a Quito / 6 de octubre de 2026" and
+    // "Portada del 6 de octubre de 2026" merged on {6, 2026} on 2026-10-06.
+    // Only 20xx: "1906 presos" is a count, not a year.
+    if (/^20\d\d$/.test(raw)) continue;
     tokens.add(stem(raw, language));
   }
   return tokens;

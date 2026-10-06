@@ -25,14 +25,14 @@ const http = await HttpCache.load(join(DEFAULT_DATA_DIR, '.cache', 'http.json'),
 });
 
 const hours = (iso: string) => `${((now - Date.parse(iso)) / 3_600_000).toFixed(1)}h`;
-const results = await Promise.all(
+// Print each result as it arrives, so a feed that stalls is easy to spot.
+await Promise.all(
   urls.map(async (url) => {
     const r = await http.getItems(url, (body) => parseFeed(body, url));
     const dates = r.items.flatMap((i) => (i.publishedAt ? [i.publishedAt] : [])).sort();
     const age = dates.length ? `newest ${hours(dates.at(-1)!)} oldest ${hours(dates[0]!)}` : 'no dates';
     const undated = r.items.length - dates.length;
-    return `${r.outcome.padEnd(12)} ${String(r.items.length).padStart(3)} items  ${age}${undated ? ` (${undated} undated)` : ''}${r.error ? `  ${r.error}` : ''}  ${url}`;
+    console.log(`${r.outcome.padEnd(12)} ${String(r.items.length).padStart(3)} items  ${age}${undated ? ` (${undated} undated)` : ''}${r.error ? `  ${r.error}` : ''}  ${url}`);
   }),
 );
 await http.save();
-console.log(results.join('\n'));

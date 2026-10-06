@@ -957,9 +957,62 @@ The Maghreb countries use their French-language press, which the existing French
 
 An-Nahar and LBCI both run the same wire copy, so their shared stories merge as identical headlines.
 
-Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia and Tanzania (one usable feed each), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403).
+**Venezuela** (added 2026-10-06)
 
-**Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept.
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| El Nacional | main feed | 10 | ✅ (es) |
+| Últimas Noticias | main feed | 8 | ✅ (10 items, es) |
+| TalCual | main feed | 8 | ✅ (es) |
+| El Pitazo | main feed | 8 | ✅ (10 items, es) |
+| Crónica Uno | main feed | 7 | ✅ (10 items, es) |
+| ~~Efecto Cocuyo~~ | — | — | ❌ **dropped**: 403 for bots |
+
+**Guatemala** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Prensa Libre | main feed | 10 | ✅ (es) |
+| República | main feed | 8 | ✅ (es) |
+| La Hora | main feed | 8 | ✅ (10 items, es) |
+| Emisoras Unidas | main feed | 6 | ✅ (es; sports-heavy) |
+| ~~Soy502~~ | — | — | ❌ **dropped**: malformed beyond repair |
+| ~~AGN~~, ~~Plaza Pública~~, ~~Publinews~~ | — | — | ❌ **dropped**: 403 / 404 |
+
+**Dominican Republic** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Diario Libre | portada | 10 | ✅ (es) |
+| El Día | main feed | 8 | ✅ (15 items, es) |
+| N Digital | main feed | 7 | ✅ (14 items, es) |
+| ~~Listín Diario~~, ~~El Caribe~~, ~~CDN~~, ~~El Nuevo Diario~~, ~~Acento~~, ~~Hoy~~ | — | — | ❌ **dropped**: 403 / 404 / unreachable |
+
+**Ecuador** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| El Universo | main feed | 10 | ✅ (es) |
+| El Comercio | main feed | 9 | ✅ (20 items, es) |
+| El Mercurio (Cuenca) | main feed | 7 | ✅ (10 items, es) |
+| ~~Primicias~~ | — | — | ❌ **dropped**: malformed beyond repair |
+| ~~GK~~, ~~Expreso~~, ~~El Telégrafo~~, ~~La Hora~~, ~~Plan V~~, ~~Vistazo~~ | — | — | ❌ **dropped**: 403 / 404 |
+
+**Costa Rica** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Semanario Universidad | main feed | 9 | ✅ (10 items, es) |
+| Delfino | main feed | 8 | ✅ (es; dates ~6h ahead, clamped) |
+| El Observador | main feed | 7 | ✅ (12 items, es) |
+| El Mundo CR | main feed | 7 | ✅ (10 items, es) |
+| ~~La Nación~~, ~~CRHoy~~, ~~Teletica~~, ~~Amelia Rueda~~, ~~El Financiero~~, ~~Diario Extra~~ | — | — | ❌ **dropped**: 403 / 404 / malformed |
+
+Costa Rican feeds are small and update a few times a day, so the country has few multi-outlet stories.
+
+Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia and Tanzania (one usable feed each), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items) and El Salvador (Co Latino only).
+
+**Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
 

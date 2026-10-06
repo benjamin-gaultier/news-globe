@@ -159,6 +159,13 @@ describe('titleTokens: Greek, Bulgarian and other new lists', () => {
   });
 });
 
+describe('titleTokens: years', () => {
+  it('drops 20xx years but keeps other numbers', () => {
+    expect(titleTokens('Portada del 6 de octubre de 2026', 'es')).toEqual(new Set(['6', 'portada']));
+    expect(titleTokens('Liberan a 1906 presos', 'es').has('1906')).toBe(true);
+  });
+});
+
 describe('titleTokens: Arabic', () => {
   it('strips the article and clitics, and folds spelling variants', () => {
     // "the government" with and, with for, plain; ta marbuta vs ha; hamza on alef.

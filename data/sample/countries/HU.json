@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "HU",
   "countryName": "Hungary",
-  "updatedAt": "2026-10-06T14:35:42.831Z",
+  "updatedAt": "2026-10-06T15:01:56.292Z",
   "clusters": [
     {
       "id": "PXV5yug-2Sy6",
@@ -494,6 +494,65 @@
       "latestPublishedAt": "2026-10-06T08:45:26.000Z"
     },
     {
+      "id": "WptNIZz1-079",
+      "representative": {
+        "id": "WptNIZz1-079",
+        "url": "https://telex.hu/belfold/2026/10/06/hanko-balazs-nemzeti-kulturalis-alap-tamogatasok-miniszteri-keret",
+        "canonicalUrl": "https://telex.hu/belfold/2026/10/06/hanko-balazs-nemzeti-kulturalis-alap-tamogatasok-miniszteri-keret",
+        "title": "A kormány szerint 2 hónap alatt kétszer annyi NKA-pénzt osztott szét Hankó, mint 2025 egészében, a miniszteri keret harmada profitorientált szervezetekhez került",
+        "description": "A kormány részleteket közölt a Nemzeti Kulturális Alap miniszteri döntéseiről: az sem volt gond, ha egy szervezet több helyről kapott támogatást, és a Hankó nevéhez köthető döntések a választások előtti egy hónapban összesen 5,23 milliárd forintot tettek ki.",
+        "source": {
+          "id": "telex",
+          "name": "Telex"
+        },
+        "sourceCountry": "HU",
+        "language": "hu",
+        "publishedAt": "2026-10-06T07:40:03.000Z",
+        "imageUrl": "https://assets.telex.hu/images/20261004/1791098042-temp-n5ckpaeiv0ea2dimkcj_cimlap-normal.jpg",
+        "countryCode": "HU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "HU2rDi5StgsJ",
+          "url": "https://hvg.hu/itthon/20261006_hanko-balazs-nemzeti-kulturalis-alap-nka-tamogatas-miniszteri-keret-valasztas",
+          "canonicalUrl": "https://hvg.hu/itthon/20261006_hanko-balazs-nemzeti-kulturalis-alap-nka-tamogatas-miniszteri-keret-valasztas",
+          "title": "Hankó Balázs a választásokhoz közeledve egyre több pénzt osztott szét",
+          "description": "Április 12. után pedig nagyobb buzgalommal utalták ki a megítélt pénzeket, mint korábban.",
+          "source": {
+            "id": "hvg",
+            "name": "HVG"
+          },
+          "sourceCountry": "HU",
+          "language": "hu",
+          "publishedAt": "2026-10-06T08:40:19.000Z",
+          "imageUrl": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/c19c31f3-e539-4359-9c40-2c495e6f4842.jpg",
+          "countryCode": "HU",
+          "regionCode": null
+        },
+        {
+          "id": "dYvF8vs8-wc6",
+          "url": "https://444.hu/2026/10/06/a-kormany-szerint-hanko-ket-honap-alatt-tobb-nka-s-penzt-osztott-szet-mint-2025-egeszeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "canonicalUrl": "https://444.hu/2026/10/06/a-kormany-szerint-hanko-ket-honap-alatt-tobb-nka-s-penzt-osztott-szet-mint-2025-egeszeben",
+          "title": "A kormány szerint Hankó két hónap alatt több NKA-s pénzt osztott szét, mint 2025 egészében",
+          "description": "A Miniszterelnökség közleménye szerint a miniszteri keretből több mint kétmilliárd forintot ítéltek meg olyan szervezeteknek, amik korábban nem kaptak NKA-támogatást, a keret harmadát pedig profitorientált cégek kapták.",
+          "source": {
+            "id": "444",
+            "name": "444"
+          },
+          "sourceCountry": "HU",
+          "language": "hu",
+          "publishedAt": "2026-10-06T08:27:19.000Z",
+          "imageUrl": null,
+          "countryCode": "HU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T08:40:19.000Z"
+    },
+    {
       "id": "op79Ulc2NIIh",
       "representative": {
         "id": "op79Ulc2NIIh",
@@ -744,48 +803,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T10:23:36.000Z"
-    },
-    {
-      "id": "TTYLKCeecfFu",
-      "representative": {
-        "id": "TTYLKCeecfFu",
-        "url": "https://telex.hu/belfold/2026/10/06/gyorik-ferenc-twn-atv-uj-online-foszerkeszto",
-        "canonicalUrl": "https://telex.hu/belfold/2026/10/06/gyorik-ferenc-twn-atv-uj-online-foszerkeszto",
-        "title": "Még júniusban is Sarka Katáék bulvárlapjánál dolgozott az ATV új online főszerkesztője",
-        "description": "Nemrég derült ki, hogy Rogán-Szendrei Cecília és Sarka Kata kiszállt a milliárdos bevételeket produkáló cégből.",
-        "source": {
-          "id": "telex",
-          "name": "Telex"
-        },
-        "sourceCountry": "HU",
-        "language": "hu",
-        "publishedAt": "2026-10-06T09:06:29.000Z",
-        "imageUrl": "https://assets.telex.hu/images/20261006/1791275724-temp-g1b89t4vfqms7oadfni_cimlap-normal.jpg",
-        "countryCode": "HU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "i8DuVVbeC4oY",
-          "url": "https://hvg.hu/itthon/20261006_atv-uj-online-foszerkeszto-sarka-kata-rogan-szendrei-cecilia-top-news-hungary",
-          "canonicalUrl": "https://hvg.hu/itthon/20261006_atv-uj-online-foszerkeszto-sarka-kata-rogan-szendrei-cecilia-top-news-hungary",
-          "title": "A Sarka Kata és Rogán-Szendrei Cecília által alapított bulvárlapnál dolgozott az ATV online új főszerkesztője",
-          "description": "Idén nyáron még a Top News Hungaryt szerkesztette, majd a Németh S. Szilárdhoz tartozó naphire.hu-hoz került, szeptembertől pedig már az ATV online főszerkesztője lett.",
-          "source": {
-            "id": "hvg",
-            "name": "HVG"
-          },
-          "sourceCountry": "HU",
-          "language": "hu",
-          "publishedAt": "2026-10-06T08:06:23.000Z",
-          "imageUrl": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fcfd7472-c325-4870-b1e9-922cc5c6caa8.jpg",
-          "countryCode": "HU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:06:29.000Z"
     }
   ]
 }

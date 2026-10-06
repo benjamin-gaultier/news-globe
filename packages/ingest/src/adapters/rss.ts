@@ -43,17 +43,32 @@ function repairXml(body: string): string {
   return (start > 0 ? body.slice(start) : body).replace(/&(?!(?:[a-zA-Z][\w.-]*|#\d+|#x[\da-fA-F]+);)/g, '&amp;');
 }
 
+const PARSE_TIMEOUT_MS = 10_000;
+
+/**
+ * xml2js can drop its callback on some inputs, leaving the promise pending
+ * forever; with nothing else scheduled, Node then exits mid-run (code 13)
+ * without saving anything. The timer keeps the process alive and turns that
+ * into an ordinary feed error.
+ */
+function withTimeout<T>(promise: Promise<T>, ms = PARSE_TIMEOUT_MS): Promise<T> {
+  let timer: NodeJS.Timeout | undefined;
+  const timeout = new Promise<never>((_, reject) => {
+    timer = setTimeout(() => reject(new Error(`feed parse did not finish within ${ms} ms`)), ms);
+  });
+  return Promise.race([promise, timeout]).finally(() => clearTimeout(timer));
+}
 /** Strict parse, then repaired, then loose. Throws the strict error if all fail. */
 async function parseFeedXml(body: string) {
   try {
-    return await parser.parseString(body);
+    return await withTimeout(parser.parseString(body));
   } catch (strictError) {
     const repaired = repairXml(body);
     try {
-      return await parser.parseString(repaired);
+      return await withTimeout(parser.parseString(repaired));
     } catch {
       try {
-        return await looseParser.parseString(repaired);
+        return await withTimeout(looseParser.parseString(repaired));
       } catch {
         throw strictError;
       }
