@@ -276,6 +276,16 @@ const STOPWORDS_EL = `
 σεπτεμβριου οκτωβριου νοεμβριου δεκεμβριου βιντεο
 `;
 
+// Arabic, passed through arabicTokens like the titles. Includes Gregorian and
+// Levantine month names and "breaking"/"video" labels.
+const STOPWORDS_AR = `
+في من على الى عن مع هذا هذه ذلك تلك التي الذي الذين ان او ثم بعد قبل حتى عند بين كل غير منذ خلال حول
+ضد نحو كان كانت يكون قد لا ما لم لن هو هي هم له لها لهم به بها فيه فيها عليه عليها منه منها اليه
+تم يتم قال قالت يقول اول جديد جديده يوم امس غدا عام اثنين ثلاثاء اربعاء خميس جمعه سبت احد
+يناير فبراير مارس ابريل مايو يونيو يوليو اغسطس سبتمبر اكتوبر نوفمبر ديسمبر كانون تشرين شباط اذار
+نيسان ايار حزيران تموز اب ايلول عاجل فيديو صور بالفيديو بالصور مباشر
+`;
+
 // Calendar words in service headlines ("¿A qué hora juega…? hoy martes 6 de octubre",
 // "dólar blue hoy") merged unrelated Argentine stories on 2026-10-06.
 const CALENDAR_ES = `
@@ -322,6 +332,8 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   bg: wordSet(STOPWORDS_BG, STOPWORDS_EN, BOILERPLATE),
   el: wordSet(STOPWORDS_EL, STOPWORDS_EN, BOILERPLATE),
+  // Normalized the same way as titles, so the list can be written in plain spelling.
+  ar: new Set([...arabicTokens(STOPWORDS_AR), ...wordSet(STOPWORDS_EN, BOILERPLATE)]),
 };
 
 const HAN = /\p{Script=Han}/u;
@@ -351,6 +363,31 @@ function japaneseTokens(title: string): string[] {
 }
 
 /**
+ * Arabic words carry the article and clitics as prefixes (الحكومة, والحكومة,
+ * للحكومة are all "the government"), and spelling varies in hamza and final
+ * letters. Each word is normalized (alef forms → ا, ة → ه, ى → ي, tatweel
+ * and diacritics dropped, Arabic-Indic digits → ASCII), then one prefix of
+ * the article (ال with an optional و ف ب ك, or لل) is stripped if a stem of
+ * at least three letters remains. Single-letter و/ب/ل prefixes are left: too
+ * many roots start with those letters (وزير, بيان, لجنة).
+ */
+function arabicTokens(title: string): string[] {
+  // foldText's NFD also splits hamza off ؤ and ئ (رئيس → رييس), consistently.
+  const text = foldText(
+    title
+      .replace(/[\u0660-\u0669]/g, (d) => String(d.charCodeAt(0) - 0x0660))
+      .replace(/\u0640/g, '')
+      .replace(/[\u0622\u0623\u0625\u0671]/g, '\u0627')
+      .replace(/\u0629/g, '\u0647')
+      .replace(/\u0649/g, '\u064A'),
+  );
+  return text.split(' ').map((w) => {
+    const m = /^(?:[وفبك]?ال|لل)(.{3,})$/u.exec(w);
+    return m ? m[1]! : w;
+  });
+}
+
+/**
  * Crude suffix folding, not real stemming: drops a plural s/x, then a final
  * e, so "inscrites"/"inscrits", "lycees"/"lycee" and "charges"/"charge" match.
  * Short tokens are left alone to avoid collisions.
@@ -369,7 +406,8 @@ export function stem(token: string, language?: string): string {
 export function titleTokens(title: string, language?: string): Set<string> {
   const stopwords = (language && STOPWORDS_BY_LANGUAGE[language]) || STOPWORDS_FR_EN;
   const tokens = new Set<string>();
-  const words = language === 'ja' ? japaneseTokens(title) : foldText(title).split(' ');
+  const words =
+    language === 'ja' ? japaneseTokens(title) : language === 'ar' ? arabicTokens(title) : foldText(title).split(' ');
   for (const raw of words) {
     if (!raw || stopwords.has(raw)) continue;
     if (raw.length < 2 && !/\d/.test(raw)) continue;

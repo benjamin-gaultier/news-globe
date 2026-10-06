@@ -159,6 +159,27 @@ describe('titleTokens: Greek, Bulgarian and other new lists', () => {
   });
 });
 
+describe('titleTokens: Arabic', () => {
+  it('strips the article and clitics, and folds spelling variants', () => {
+    // "the government" with and, with for, plain; ta marbuta vs ha; hamza on alef.
+    expect(titleTokens('والحكومة تقر الموازنة', 'ar')).toEqual(titleTokens('الحكومه تقر موازنة', 'ar'));
+    expect(titleTokens('للحكومة', 'ar')).toEqual(new Set(['حكومه']));
+    expect(titleTokens('أعلن', 'ar')).toEqual(titleTokens('اعلن', 'ar'));
+    expect([...titleTokens('الرئيس المصري يستقبل وزير الخارجية في القاهرة اليوم', 'ar')].sort()).toEqual(
+      ['خارجيه', 'رييس', 'مصري', 'قاهره', 'وزير', 'يستقبل'].sort(),
+    );
+  });
+  it('keeps roots that start with و, ب or ل', () => {
+    expect(titleTokens('وزير بيان لجنة', 'ar')).toEqual(new Set(['وزير', 'بيان', 'لجنه']));
+  });
+  it('drops stopwords written in plain spelling', () => {
+    expect(titleTokens('هجوم على القافلة إلى الحدود', 'ar')).toEqual(new Set(['هجوم', 'قافله', 'حدود']));
+  });
+  it('maps Arabic-Indic digits to ASCII', () => {
+    expect(titleTokens('مقتل ١٢ شخصا', 'ar').has('12')).toBe(true);
+  });
+});
+
 describe('titleTokens: Japanese', () => {
   it('cuts kanji runs into bigrams, keeps katakana words and drops hiragana', () => {
     expect([...titleTokens('石破首相がワシントンを訪問', 'ja')].sort()).toEqual(

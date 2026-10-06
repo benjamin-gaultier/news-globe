@@ -13,15 +13,53 @@ interface CustomItem {
   description?: string;
 }
 
-const parser = new Parser<Record<string, never>, CustomItem>({
-  customFields: {
-    item: [
-      ['media:content', 'mediaContent', { keepArray: true }],
-      ['media:thumbnail', 'mediaThumbnail', { keepArray: true }],
-      'description',
-    ],
+const customFields = {
+  item: [
+    ['media:content', 'mediaContent', { keepArray: true }],
+    ['media:thumbnail', 'mediaThumbnail', { keepArray: true }],
+    'description',
+  ] as Parser.CustomFieldItem<CustomItem>[],
+};
+const parser = new Parser<Record<string, never>, CustomItem>({ customFields });
+// Last resort for malformed feeds (attributes without values, stray markup):
+// sax's loose mode, which uppercases names, so they are lowercased back (and
+// pubDate, the one camel-case tag rss-parser reads, restored).
+const lower = (name: string) => name.toLowerCase();
+const looseParser = new Parser<Record<string, never>, CustomItem>({
+  customFields,
+  xml2js: {
+    strict: false,
+    tagNameProcessors: [(name: string) => (lower(name) === 'pubdate' ? 'pubDate' : lower(name))],
+    attrNameProcessors: [lower],
   },
 });
+
+/**
+ * Cheap repairs for the most common breakage: anything before the first tag
+ * (BOM, whitespace, PHP notices) and bare `&` that isn't an entity.
+ */
+function repairXml(body: string): string {
+  const start = body.indexOf('<');
+  return (start > 0 ? body.slice(start) : body).replace(/&(?!(?:[a-zA-Z][\w.-]*|#\d+|#x[\da-fA-F]+);)/g, '&amp;');
+}
+
+/** Strict parse, then repaired, then loose. Throws the strict error if all fail. */
+async function parseFeedXml(body: string) {
+  try {
+    return await parser.parseString(body);
+  } catch (strictError) {
+    const repaired = repairXml(body);
+    try {
+      return await parser.parseString(repaired);
+    } catch {
+      try {
+        return await looseParser.parseString(repaired);
+      } catch {
+        throw strictError;
+      }
+    }
+  }
+}
 
 type ParsedItem = Parser.Item & CustomItem;
 
@@ -62,14 +100,15 @@ function absoluteHttpUrl(value: string | undefined, base: string): string | null
 
 /** Parse a feed body into metadata-only items. Exported for tests. */
 export async function parseFeed(body: string, feedUrl: string): Promise<RawItem[]> {
-  const feed = await parser.parseString(body);
+  const feed = await parseFeedXml(body);
   const items: RawItem[] = [];
   for (const item of feed.items as ParsedItem[]) {
     const url = absoluteHttpUrl(item.link ?? item.guid, feedUrl);
-    const title = item.title ? cleanTitle(item.title) : '';
+    // Loose parses can turn unescaped HTML into child elements: only take strings.
+    const title = typeof item.title === 'string' ? cleanTitle(item.title) : '';
     if (!url || !title) continue;
     // Prefer the feed's own summary; never fall back to content:encoded, which can be the full article.
-    const snippet = item.description ?? item.summary ?? item.contentSnippet;
+    const snippet = [item.description, item.summary, item.contentSnippet].find((v) => typeof v === 'string');
     const image = pickImage(item);
     items.push({
       title,
