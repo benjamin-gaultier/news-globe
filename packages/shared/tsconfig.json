@@ -1,4 +1,6 @@
 {
   "extends": "../../tsconfig.base.json",
+  // TextEncoder/TextDecoder (bundle.ts): globals in Node, browsers and Workers alike.
+  "compilerOptions": { "lib": ["ES2023", "DOM"] },
   "include": ["src"]
 }

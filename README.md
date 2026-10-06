@@ -33,7 +33,7 @@ apps/web/            React + Vite front end (react-globe.gl)
 packages/ingest/     Node worker: fetch → normalize → dedupe → cluster → rank → write JSON
   src/sources.config.ts            feeds, authority weights, pipeline settings
   src/adapters/                    SourceAdapter interface, RSS adapter, GDELT stub
-  src/publish.ts                   uploads changed JSON to Cloudflare KV after each run
+  src/publish.ts                   uploads the JSON to Cloudflare KV as one bundle after each run
 packages/shared/     Types for the data contract + country metadata (used by both sides)
 data/
   sample/            committed sample output (served until the first ingest)
@@ -69,16 +69,16 @@ Live at **https://news-globe.maze-td.workers.dev**.
 
 ```
  Raspberry Pi (systemd)                       Cloudflare (free tier)
-┌──────────────────────────┐  KV bulk write  ┌──────────────────────────────────────┐
+┌──────────────────────────┐  one KV write   ┌──────────────────────────────────────┐
 │ pnpm ingest:watch        │ ──────────────▶ │ KV "news-globe-data"                 │
-│  every 15 min → data/    │ changed files   │   index.json, countries/{CC}.json    │
-└──────────────────────────┘    only         │ Worker "news-globe"                  │
+│  every 15 min → data/    │  if changed     │   "bundle": index + all countries    │
+└──────────────────────────┘                 │ Worker "news-globe"                  │
                                              │   /data/*  → KV (max-age=60)         │
                                              │   anything else → static assets      │
                                              └──────────────────────────────────────┘
 ```
 
-Why the ingest runs on the Pi rather than on a Cloudflare Cron Trigger: a free-plan Worker gets 10 ms of CPU per invocation, and parsing ~25 feeds and clustering ~400 titles takes far more than that. KV's free tier allows 1,000 writes a day. The publisher only uploads files whose hash changed, which comes to at most 96 runs × (countries + 1) keys a day.
+Why the ingest runs on the Pi rather than on a Cloudflare Cron Trigger: a free-plan Worker gets 10 ms of CPU per invocation, and parsing ~25 feeds and clustering ~400 titles takes far more than that. KV's free tier allows 1,000 writes a day, so the publisher packs `index.json` and every `countries/{CC}.json` into a single `bundle` value (a JSON offset table, then the files back to back; see [bundle.ts](packages/shared/src/bundle.ts)) and uploads it only when its hash changed: at most 96 writes a day, whatever the number of countries. The Worker slices the requested file out of the bundle.
 
 ### Front end (Worker + static assets)
 
@@ -118,7 +118,7 @@ Runs on a Raspberry Pi 4 (64-bit Raspberry Pi OS / Debian 13). Steps 2–4 need 
    git clone github-news-globe:benjamin-gaultier/news-globe.git ~/news-globe
    cd ~/news-globe && pnpm install --frozen-lockfile
    cp .env.example .env && chmod 600 .env && nano .env   # paste the token into CLOUDFLARE_API_TOKEN
-   pnpm ingest                                         # should end with "[publish] uploaded ... to KV"
+   pnpm ingest                                         # should end with "[publish] uploaded ... as one bundle"
    ```
    When moving the ingest from another machine, copy its `data/.cache/` over first. The Pi then knows when each feed was last fetched (and its ETag), so the 15-minute limit holds across the switch.
 4. Install the service. [deploy/raspberry-pi/news-globe-ingest.service](deploy/raspberry-pi/news-globe-ingest.service) assumes user `pi`; replace `pi` with your user name:
@@ -132,7 +132,7 @@ Runs on a Raspberry Pi 4 (64-bit Raspberry Pi OS / Debian 13). Steps 2–4 need 
 
 Only one machine should run the ingest. Two pollers would double the requests to every feed.
 
-Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` and `CLOUDFLARE_API_TOKEN` are all set, either in the environment or in the repo-root `.env`. If none are set, the ingest only writes local files, as in development. If the upload fails (network, token), the run still writes `data/` and the next run retries; [publish.ts](packages/ingest/src/publish.ts) keeps its hashes in `data/.cache/publish.json`.
+Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` and `CLOUDFLARE_API_TOKEN` are all set, either in the environment or in the repo-root `.env`. If none are set, the ingest only writes local files, as in development. If the upload fails (network, token), the run still writes `data/` and the next run retries; [publish.ts](packages/ingest/src/publish.ts) keeps the last bundle's hash in `data/.cache/publish.json`.
 
 To update the Pi (e.g. after adding a country, which also needs a Worker redeploy): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile`. No restart is needed: the watcher starts every run as a fresh `cli.ts` process, so the next run uses the new code and feeds. Only a change to `watch.ts` itself, or to its schedule, needs `sudo systemctl restart news-globe-ingest`.
 

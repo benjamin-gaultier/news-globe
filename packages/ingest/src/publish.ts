@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { BUNDLE_KEY, encodeBundle } from '@news-globe/shared/bundle';
 import { writeJsonAtomic } from './write';
 
 /**
@@ -40,15 +41,22 @@ async function publicKeys(dataDir: string): Promise<string[]> {
   } catch {
     // No countries written yet.
   }
-  // Countries first: the bulk write isn't atomic, so index.json should never point at data that isn't there yet.
-  return [...countries.sort(), 'index.json'];
+  return ['index.json', ...countries.sort()];
 }
 
 export interface PublishResult {
-  uploaded: string[];
-  unchanged: string[];
+  /** Whether the bundle was written (false when nothing changed since the last write). */
+  uploaded: boolean;
+  /** The files in the bundle. */
+  keys: string[];
 }
 
+/**
+ * Packs every public file into one bundle (see @news-globe/shared/bundle) and
+ * writes it as a single KV value: one write per run whatever the number of
+ * countries, where one key per file ran past the free tier's 1,000 writes a
+ * day once there were ~100 countries.
+ */
 export async function publishToKv(
   dataDir: string,
   cfg: PublishConfig,
@@ -65,45 +73,39 @@ export async function publishToKv(
     // First publish.
   }
 
-  const changed: { key: string; value: string; hash: string }[] = [];
-  const unchanged: string[] = [];
+  const files: Record<string, string> = {};
   for (const key of await publicKeys(dataDir)) {
-    let value: string;
     try {
-      value = await readFile(join(dataDir, key), 'utf8');
+      files[key] = await readFile(join(dataDir, key), 'utf8');
     } catch {
-      continue;
+      // Listed but gone: leave it out.
     }
-    const hash = createHash('sha256').update(value).digest('hex');
-    if (published[key] === hash) unchanged.push(key);
-    else changed.push({ key, value, hash });
   }
-
-  if (changed.length === 0) {
+  const keys = Object.keys(files);
+  const bundle = encodeBundle(files);
+  const hash = createHash('sha256').update(bundle).digest('hex');
+  if (published[BUNDLE_KEY] === hash) {
     log('[publish] KV already up to date');
-    return { uploaded: [], unchanged };
+    return { uploaded: false, keys };
   }
 
-  // One request for all keys (KV bulk write); each key still counts as one write.
-  const url = `https://api.cloudflare.com/client/v4/accounts/${cfg.accountId}/storage/kv/namespaces/${cfg.namespaceId}/bulk`;
+  const url = `https://api.cloudflare.com/client/v4/accounts/${cfg.accountId}/storage/kv/namespaces/${cfg.namespaceId}/values/${BUNDLE_KEY}`;
   const res = await doFetch(url, {
     method: 'PUT',
-    headers: { Authorization: `Bearer ${cfg.apiToken}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify(changed.map(({ key, value }) => ({ key, value }))),
+    headers: { Authorization: `Bearer ${cfg.apiToken}`, 'Content-Type': 'application/octet-stream' },
+    body: bundle,
     signal: AbortSignal.timeout(30_000),
   });
   const body = (await res.json().catch(() => null)) as { success?: boolean; errors?: { message: string }[] } | null;
   if (!res.ok || !body?.success) {
     const detail = body?.errors?.map((e) => e.message).join('; ') || `HTTP ${res.status}`;
-    throw new Error(`KV bulk write failed: ${detail}`);
+    throw new Error(`KV write failed: ${detail}`);
   }
 
-  // Only remember hashes once Cloudflare confirmed the write, so failures retry next run.
-  for (const { key, hash } of changed) published[key] = hash;
-  await writeJsonAtomic(stateFile, published);
-  const uploaded = changed.map((c) => c.key);
-  log(`[publish] uploaded ${uploaded.join(', ')} to KV`);
-  return { uploaded, unchanged };
+  // Only remember the hash once Cloudflare confirmed the write, so failures retry next run.
+  await writeJsonAtomic(stateFile, { [BUNDLE_KEY]: hash });
+  log(`[publish] uploaded ${keys.length} files to KV as one bundle (${Math.round(bundle.length / 1024)} KiB)`);
+  return { uploaded: true, keys };
 }
 
 /** Publishes to KV when the Cloudflare env vars are set; never throws. */

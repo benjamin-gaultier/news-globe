@@ -12,7 +12,7 @@
   },
   "kv_namespaces": [
     {
-      // Published by the ingest worker (see README → Deploy). Keys: index.json, countries/{CC}.json
+      // Published by the ingest worker (see README → Deploy). Key: "bundle" (all public files in one value)
       "binding": "NEWS_DATA",
       "id": "deb7c288814748e393a3e6a801824f6d"
     }
