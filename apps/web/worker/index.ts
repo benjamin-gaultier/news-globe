@@ -3,9 +3,12 @@
  *
  * Static files (the Vite build in ../dist) are served by Workers Static Assets
  * without invoking this code. Only /data/* reaches the Worker (see
- * `run_worker_first` in wrangler.jsonc): those keys are read from the
- * NEWS_DATA KV namespace, which the ingest worker publishes to after each run.
+ * `run_worker_first` in wrangler.jsonc): those files are sliced out of the
+ * bundle the ingest worker writes to the NEWS_DATA KV namespace after each run
+ * (one KV value for all files; see @news-globe/shared/bundle).
  */
+
+import { BUNDLE_KEY, readBundleEntry } from '@news-globe/shared/bundle';
 
 interface Env {
   NEWS_DATA: KVNamespace;
@@ -29,8 +32,12 @@ export default {
     const key = url.pathname.slice('/data/'.length);
     if (!PUBLIC_KEY.test(key)) return new Response('Not found', { status: 404 });
 
-    // cacheTtl keeps hot keys in the colo's cache, saving KV reads.
-    const value = await env.NEWS_DATA.get(key, { type: 'stream', cacheTtl: MAX_AGE_S });
+    // cacheTtl keeps the bundle in the colo's cache, saving KV reads.
+    const bundle = await env.NEWS_DATA.get(BUNDLE_KEY, { type: 'arrayBuffer', cacheTtl: MAX_AGE_S });
+    // Before the first bundle was written, files were stored one key each; fall back to those.
+    const value = bundle
+      ? readBundleEntry(new Uint8Array(bundle), key)
+      : await env.NEWS_DATA.get(key, { type: 'stream', cacheTtl: MAX_AGE_S });
     if (value === null) return new Response('Not found', { status: 404 });
 
     return new Response(request.method === 'HEAD' ? null : value, {
