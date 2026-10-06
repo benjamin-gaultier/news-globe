@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "ES",
+  "countryName": "Spain",
+  "updatedAt": "2026-10-06T09:04:36.946Z",
+  "clusters": [
+    {
+      "id": "HV7AV09ZzCY4",
+      "representative": {
+        "id": "HV7AV09ZzCY4",
+        "url": "https://elpais.com/espana/2026-10-05/sanchez-adelanta-las-elecciones-al-29-de-noviembre-necesitamos-una-mayoria-progresista-mucho-mas-amplia.html",
+        "canonicalUrl": "https://elpais.com/espana/2026-10-05/sanchez-adelanta-las-elecciones-al-29-de-noviembre-necesitamos-una-mayoria-progresista-mucho-mas-amplia.html",
+        "title": "Sánchez adelanta las elecciones al 29 de noviembre: “Necesitamos una mayoría progresista mucho más amplia”",
+        "description": "El presidente del Gobierno hace balance de los logros de la coalición de izquierdas y lanza un dardo al Ejecutivo de Ayuso por el ático",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T08:14:18.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "E5EBQ2gikBUp",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
+          "title": "La comparecencia de Pedro Sánchez en directo y la última hora sobre las elecciones generales y el decreto de la vivienda",
+          "description": "El presidente del Gobierno ofrecerá una rueda de prensa tras la celebración del Consejo de Ministros",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T08:36:47.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/05/6ac3cded5b48f.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "MUrQZA1lqMBd",
+          "url": "https://www.abc.es/espana/comparecencia-pedro-sanchez-directo-posible-convocatoria-elecciones-20261005080806-di.html",
+          "canonicalUrl": "https://www.abc.es/espana/comparecencia-pedro-sanchez-directo-posible-convocatoria-elecciones-20261005080806-di.html",
+          "title": "Elecciones generales en España, en directo: comparecencia de Pedro Sánchez tras la aprobación de los decretos de vivienda y última hora hoy",
+          "description": "Sigue en directo hoy la última hora de la convocatoria de elecciones generales en España para el próximo 29 de noviembre, con la comparecencia de Pedro Sánchez tras el Consejo de Ministros donde se aprobarán los decretos de vivienda rechazados la semana pasada por el pleno del Congreso.",
+          "source": {
+            "id": "abc_es",
+            "name": "ABC"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T07:35:36.000Z",
+          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/05/pedror-U206319079190jG-U302059744511GbD-1200x840@diario_abc.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "y7BPtmffLJMa",
+          "url": "https://www.20minutos.es/nacional/por-que-sanchez-convoca-elecciones-ahora_7045196_3.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/por-que-sanchez-convoca-elecciones-ahora_7045196_3.html",
+          "title": "Por qué Pedro Sánchez convoca elecciones generales ahora",
+          "description": "El cambio de foco hacia la vivienda, la falta de preparación del espacio a la izquierda del PSOE y la evolución de la agenda judicial ayudan a explicar la decisión de Sánchez de adelantar las elecciones.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T18:41:54.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac34edb0c4363-37532459.png",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "1bHjpeJA-6c8",
+          "url": "https://www.elmundo.es/espana/2026/10/05/6ac3493de4d4d82d6e8b4580.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3493de4d4d82d6e8b4580.html",
+          "title": "Sánchez adelanta las elecciones al 29 de noviembre",
+          "description": "El Consejo de Ministros de este martes volverá a aprobar los decretos de vivienda que tumbó el Congreso con alguna modificación. Los deberá validar la Diputación Permanente, donde no necesitan a Junts para aprobarlos Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T13:51:56.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911838354075.png",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "VNO9Ea4Fzzqv",
+          "url": "https://www.eldiario.es/politica/consulta-discurso-completo-pedro-sanchez-elecciones-anticipadas_1_13561725.html",
+          "canonicalUrl": "https://www.eldiario.es/politica/consulta-discurso-completo-pedro-sanchez-elecciones-anticipadas_1_13561725.html",
+          "title": "Lee el discurso completo de Pedro Sánchez sobre las elecciones anticipadas",
+          "description": "Este ha sido el texto completo de la comparecencia del presidente del Gobierno a partir de las 9, cuando ha anunciado elecciones generales para el 29 de noviembre Pedro Sánchez convoca elecciones anticipadas el 29 de noviembre Las frases de la comparecencia de Sánchez: de la \"insatisfacción de la…",
+          "source": {
+            "id": "eldiario",
+            "name": "elDiario.es"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T07:30:40.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/930ce347-43cc-4483-b65c-1e9cbe7fa383_16-9-discover-aspect-ratio_default_0_x657y160.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 6,
+      "latestPublishedAt": "2026-10-06T08:36:47.000Z"
+    },
+    {
+      "id": "TDgbSrjFDsxM",
+      "representative": {
+        "id": "TDgbSrjFDsxM",
+        "url": "https://www.elmundo.es/espana/2026/10/06/6ac49b6321efa0541f8b45a8.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac49b6321efa0541f8b45a8.html",
+        "title": "Interior prorroga 15 días más, hasta el 22 de octubre, los controles fronterizos de viajeros procedentes de Italia",
+        "description": "El departamento que dirige el ministro Fernando Grande-Marlaska firmó el pasado jueves 1 de octubre la prorroga que oficializa hoy el BOE. Se trata de la tercera prórroga de estos controles que comenzaron en España el pasado 8 de agosto por \"razones de urgencia y de amenaza grave para el orden…",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T06:58:58.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912698937860.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "K9o0uVi0LXu5",
+          "url": "https://www.abc.es/espana/interior-prorroga-dias-octubre-controles-fronterizos-viajeros-20261006094246-nt.html",
+          "canonicalUrl": "https://www.abc.es/espana/interior-prorroga-dias-octubre-controles-fronterizos-viajeros-20261006094246-nt.html",
+          "title": "Interior prorroga 15 días más, hasta el 22 de octubre, los controles fronterizos de viajeros procedentes de Italia",
+          "description": "El ministerio del Interior ha prorrogado por 15 días más, hasta las 24:00 horas del 22 de octubre, los controles fronterizos de viajeros procedentes de Italia en fronteras interiores aéreas y marítimas, según se recoge en el Boletín Oficial del Estado (BOE) de este martes.El departamento que…",
+          "source": {
+            "id": "abc_es",
+            "name": "ABC"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T07:42:53.000Z",
+          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1498396720-kXJB-U302083719005pbG-1200x840@diario_abc.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T07:42:53.000Z"
+    },
+    {
+      "id": "TOS4TK4CoqdX",
+      "representative": {
+        "id": "TOS4TK4CoqdX",
+        "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-pp-inicia-la-precampana-con-un-video-en-el-que-se-burla-de-una-grave-lesion-de-oscar-puente-miedo-tu-esguince.html",
+        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-pp-inicia-la-precampana-con-un-video-en-el-que-se-burla-de-una-grave-lesion-de-oscar-puente-miedo-tu-esguince.html",
+        "title": "El PP inicia la precampaña con un vídeo en el que se burla de una lesión de Óscar Puente: “Miedo le tenías tú a un esguince”",
+        "description": "Los populares contestan al ministro de Transportes, que criticó la comparecencia de Feijóo tras el anuncio del adelanto electoral",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T07:23:23.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/CAILFN3B7JATZJ67ECLI2MBPPI.jpg?auth=24de060a64cebbd3049ecc41e9235e4531481c885eb01f08f75977316d479e31",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ECqK_a9FNtsz",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652092/pp-ataca-oscar-puente-video-momento-rompio-cuadriceps-miedo-le-tenias-esguince.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652092/pp-ataca-oscar-puente-video-momento-rompio-cuadriceps-miedo-le-tenias-esguince.html",
+          "title": "El PP ataca a Óscar Puente con un vídeo del momento en que se rompió el cuádriceps: “Miedo le tenías tú a un esguince”",
+          "description": "“Son la peor gentuza que habita este país”, responde el ministro junto a una imagen de la sutura",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T07:27:43.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac4a24e40b87.r_d.367-344-0.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T07:27:43.000Z"
+    },
+    {
+      "id": "9hgImfDXZhiw",
+      "representative": {
+        "id": "9hgImfDXZhiw",
+        "url": "https://www.lavanguardia.com/politica/20261006/11652057/son-diputados-eligen-provincia-e-n-elecciones-29-n.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652057/son-diputados-eligen-provincia-e-n-elecciones-29-n.html",
+        "title": "Estos son los diputados que se eligen por cada provincia en las elecciones del 29-N",
+        "description": "Madrid suma un diputado que pierde Cádiz, según el decreto publicado este martes en el BOE",
+        "source": {
+          "id": "lavanguardia",
+          "name": "La Vanguardia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T06:43:00.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac4a4676ae73.jpeg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "vupbYqANS6-z",
+          "url": "https://www.20minutos.es/nacional/un-nuevo-hemiciclo-las-provincias-que-ganan-escanos-las-que-los-pierden-cara-las-elecciones-29-n_7045106_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/un-nuevo-hemiciclo-las-provincias-que-ganan-escanos-las-que-los-pierden-cara-las-elecciones-29-n_7045106_0.html",
+          "title": "Un nuevo hemiciclo: las provincias que ganan escaños y las que los pierden de cara a las elecciones del 29-N",
+          "description": "La estimación provisional, realizada a partir de los últimos datos de población, sugiere modificaciones en el reparto de cuatro provincias, entre ellas: Madrid.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T03:00:27.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac3bc974578f3-84845876.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T06:43:00.000Z"
+    },
+    {
+      "id": "msRlwyrh3c7P",
+      "representative": {
+        "id": "msRlwyrh3c7P",
+        "url": "https://www.elmundo.es/espana/2026/10/05/6ac3f6fdfdddff4f438b458b.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3f6fdfdddff4f438b458b.html",
+        "title": "El adelanto electoral retrasará la imputación del PSOE como persona jurídica en el caso de las cloacas de Ferraz",
+        "description": "Anticorrupción no solicitará la investigación del partido antes de las generales para no interferir en la cita con las urnas Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T20:43:42.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912278373678.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "W7PD2W5EgwSe",
+          "url": "https://www.20minutos.es/nacional/adelanto-electoral-no-frenara-causa-las-cloacas-pero-aleja-escenario-posible-imputacion-psoe_7044989_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/adelanto-electoral-no-frenara-causa-las-cloacas-pero-aleja-escenario-posible-imputacion-psoe_7044989_0.html",
+          "title": "El adelanto electoral no frenará la causa de las cloacas pero aleja el escenario de la posible imputación del PSOE",
+          "description": "Los investigadores consideran que los hechos atribuidos a Santos Cerdán podrían arrastrar a la imputación del partido por cohecho y tráfico de influencias, pero descartan dar el paso antes de los comicios.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T03:00:00.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/02/6abfea3fdd9b46-96886472.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T03:00:00.000Z"
+    },
+    {
+      "id": "3h3_BD7sXpyT",
+      "representative": {
+        "id": "3h3_BD7sXpyT",
+        "url": "https://elpais.com/espana/elecciones-generales/2026-10-05/aznar-sobre-si-sanchez-vuelve-a-formar-gobierno-el-29-n-la-monarquia-que-hemos-conocido-se-terminaria.html",
+        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-05/aznar-sobre-si-sanchez-vuelve-a-formar-gobierno-el-29-n-la-monarquia-que-hemos-conocido-se-terminaria.html",
+        "title": "Aznar, sobre si Sánchez vuelve a formar Gobierno el 29-N: “La monarquía que hemos conocido se terminaría”",
+        "description": "El expresidente cree que la huelga general de las próximas semanas se hace contra el PP: “Es lo que faltaba por ver en España”",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T19:02:42.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "9JVqoSrohTnN",
+          "url": "https://www.elmundo.es/andalucia/2026/10/05/6ac3da51fc6c83265c8b459c.html",
+          "canonicalUrl": "https://www.elmundo.es/andalucia/2026/10/05/6ac3da51fc6c83265c8b459c.html",
+          "title": "Aznar: \"Si Pedro Sánchez puede formar gobierno tras las elecciones del 29 de noviembre, la Monarquía se terminaría\"",
+          "description": "El ex presidente del Gobierno critica la 'ley de nietos' porque trata de \"alterar el censo electoral para conseguir ventajas\" Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T20:08:40.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912295541330.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T20:08:40.000Z"
+    },
+    {
+      "id": "DXV7fv9gVYDZ",
+      "representative": {
+        "id": "DXV7fv9gVYDZ",
+        "url": "https://elpais.com/espana/2026-10-05/el-supremo-rechaza-pronunciarse-sobre-si-el-caso-montoro-debe-investigarse-en-madrid-o-tarragona.html",
+        "canonicalUrl": "https://elpais.com/espana/2026-10-05/el-supremo-rechaza-pronunciarse-sobre-si-el-caso-montoro-debe-investigarse-en-madrid-o-tarragona.html",
+        "title": "El Supremo rechaza pronunciarse sobre si el ‘caso Montoro’ debe investigarse en Madrid o Tarragona",
+        "description": "El alto tribunal devuelve a la Audiencia Provincial la decisión de si la causa debe continuar en el juzgado de la ciudad catalana",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T16:35:49.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/OYEUKTBL3BF3XD3YRT3CVX3KVQ.jpg?auth=2008f0860543fcd9f84951425ef5efa9ce779d2621cea123c60281d55994a12c",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "JvQNxm85Um2h",
+          "url": "https://www.eldiario.es/politica/supremo-rechaza-decidir-si-envia-caso-montoro-madrid-deja-cuestion-manos-audiencia-tarragona_1_13564150.html",
+          "canonicalUrl": "https://www.eldiario.es/politica/supremo-rechaza-decidir-si-envia-caso-montoro-madrid-deja-cuestion-manos-audiencia-tarragona_1_13564150.html",
+          "title": "El Supremo rechaza decidir si envía el 'caso Montoro' a Madrid y deja la cuestión en manos de la Audiencia de Tarragona",
+          "description": "El asunto vuelve a la Audiencia de Tarragona, que ya había rechazado pronunciarse y lo había remitido al Alto Tribunal al considerar que su conocimiento les correspondía a ellos La Audiencia de Tarragona avisa que la decisión sobre si el caso Montoro se debe investigar en Madrid depende del…",
+          "source": {
+            "id": "eldiario",
+            "name": "elDiario.es"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T17:04:10.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/cdfb1c6f-b741-4019-bbb0-1f28debec7d5_16-9-discover-aspect-ratio_default_0.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T17:04:10.000Z"
+    },
+    {
+      "id": "Gn2ZG-TNICym",
+      "representative": {
+        "id": "Gn2ZG-TNICym",
+        "url": "https://www.lavanguardia.com/politica/20261005/11651201/aritmetica-distinta-diputacion-permanente-permitiria-convalidar-decreto-vivienda.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261005/11651201/aritmetica-distinta-diputacion-permanente-permitiria-convalidar-decreto-vivienda.html",
+        "title": "La aritmética distinta de la Diputación Permanente que permitiría convalidar un decreto de vivienda",
+        "description": "Si se traslada la votación del viernes a este órgano el primer texto saldría adelante pero no el segundo",
+        "source": {
+          "id": "lavanguardia",
+          "name": "La Vanguardia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T09:25:37.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/08/26/6a8ec7ce1aa84.r_d.3075-1523-0.jpeg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "5UfAUh593pFk",
+          "url": "https://www.eldiario.es/politica/diputacion-permanente-decidira-nuevos-decretos-vivienda_1_13562507.html",
+          "canonicalUrl": "https://www.eldiario.es/politica/diputacion-permanente-decidira-nuevos-decretos-vivienda_1_13562507.html",
+          "title": "Qué es la Diputación Permanente que decidirá sobre los nuevos decretos de vivienda y por qué Junts no es decisivo",
+          "description": "El máximo órgano parlamentario fuera del periodo de sesiones o en periodo electoral cuenta con 68 miembros más Armengol y allí el Gobierno no necesita a Junts para convalidar los textos rechazados por el Pleno el pasado viernes El Gobierno volverá a aprobar los decretos de vivienda en el Consejo…",
+          "source": {
+            "id": "eldiario",
+            "name": "elDiario.es"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T10:59:26.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/1b6b472e-912d-4180-84df-6e8ed3473a80_16-9-discover-aspect-ratio_default_0_x1082y697.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T10:59:26.000Z"
+    },
+    {
+      "id": "c9dx8h9myzN5",
+      "representative": {
+        "id": "c9dx8h9myzN5",
+        "url": "https://www.eldiario.es/politica/borja-semper-contradice-ayuso-defiende-sistema-garantista-votar-correo_1_13565294.html",
+        "canonicalUrl": "https://www.eldiario.es/politica/borja-semper-contradice-ayuso-defiende-sistema-garantista-votar-correo_1_13565294.html",
+        "title": "Borja Sémper contradice a Ayuso y defiende el \"sistema garantista\" para votar por correo",
+        "description": "\"Hemos visto tantas cosas que entiendo que haya mucha gente que desconfíe de muchas cosas que pasan y de este Gobierno\", añade el portavoz del PP tratando de justificar que la presidenta madrileña alentara el fantasma del pucherazo Ayuso dibuja un escenario apocalíptico de cara a las generales con…",
+        "source": {
+          "id": "eldiario",
+          "name": "elDiario.es"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:01:59.000Z",
+        "imageUrl": "https://static.eldiario.es/clip/dc5a1873-da1f-47ed-86af-96db6d750a48_16-9-discover-aspect-ratio_default_0_x1299y478.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:01:59.000Z"
+    },
+    {
+      "id": "NQyJssTprsQQ",
+      "representative": {
+        "id": "NQyJssTprsQQ",
+        "url": "https://www.elconfidencial.com/espana/2026-10-06/dispositivo-policial-contra-narcotrafico-palma-1tna-1tps_4439184/",
+        "canonicalUrl": "https://www.elconfidencial.com/espana/2026-10-06/dispositivo-policial-contra-narcotrafico-palma-1tna-1tps_4439184/",
+        "title": "La Policía desarrolla en Mallorca un 0perativo contra el narcotráfico con 200 agentes",
+        "description": "La intervención se extiende también a Marratxí y moviliza unidades especializadas, medios aéreos y perros adiestrados, con varias detenciones previstas",
+        "source": {
+          "id": "elconfidencial",
+          "name": "El Confidencial"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T08:49:00.000Z",
+        "imageUrl": "https://images.ecestaticos.com/4ShkWkFu8DcK9c_CPehtSWUVwFY=/0x0:2272x1514/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F827%2F87a%2Fd8b%2F82787ad8b93ae950612cebb7fc09d76f.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:49:00.000Z"
+    },
+    {
+      "id": "EvxdeuFbEQ2g",
+      "representative": {
+        "id": "EvxdeuFbEQ2g",
+        "url": "https://www.elconfidencial.com/espana/2026-10-06/guardia-civil-intercepta-embarcaciones-cartagena-1tna-1tps_4439181/",
+        "canonicalUrl": "https://www.elconfidencial.com/espana/2026-10-06/guardia-civil-intercepta-embarcaciones-cartagena-1tna-1tps_4439181/",
+        "title": "Interceptan dos embarcaciones con 87 personas en Cartagena y La Unión (Murcia)",
+        "description": "Dos embarcaciones fueron localizadas en Cartagena y La Unión con 87 ocupantes, incluidos 12 menores y dos mujeres, que recibieron atención de Cruz Roja en buen estado de salud",
+        "source": {
+          "id": "elconfidencial",
+          "name": "El Confidencial"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T08:41:00.000Z",
+        "imageUrl": "https://images.ecestaticos.com/D1BDGuHVTmK8XNBtDrf-2H0Jh98=/0x0:2272x1533/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F45e%2F2b9%2Fde6%2F45e2b9de67240c525a654e86a22046aa.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:41:00.000Z"
+    },
+    {
+      "id": "1jQOvxx-gqku",
+      "representative": {
+        "id": "1jQOvxx-gqku",
+        "url": "https://www.abc.es/espana/andalucia/aemet-amplia-avisos-andalucia-granizo-zonas-afectadas-20261006103240-nts.html",
+        "canonicalUrl": "https://www.abc.es/espana/andalucia/aemet-amplia-avisos-andalucia-granizo-zonas-afectadas-20261006103240-nts.html",
+        "title": "La Aemet amplía los avisos en Andalucía y granizo: estas serán las zonas más afectadas y las peores horas",
+        "description": "La inestabilidad se ha instalado en Andalucía en este arranque de octubre después de un final de septiembre que estuvo marcado por temperaturas más propias del verano . El calor se ha dilatado hasta prácticamente despedir el mes, pero el cambio de mes ha traído consigo un escenario mucho más…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T08:32:40.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/turistas-granada-lluvia-efe-RSABaR2dqKMAJpFuzg2jiZO-1200x840@diario_abc.png",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:32:40.000Z"
+    },
+    {
+      "id": "eaNjtBTLSF1p",
+      "representative": {
+        "id": "eaNjtBTLSF1p",
+        "url": "https://www.eldiario.es/politica/audiencia-madrid-rechaza-intervenir-comunicaciones-alcaldesa-alcala-henares-revelacion-secretos_1_13565064.html",
+        "canonicalUrl": "https://www.eldiario.es/politica/audiencia-madrid-rechaza-intervenir-comunicaciones-alcaldesa-alcala-henares-revelacion-secretos_1_13565064.html",
+        "title": "La Audiencia de Madrid rechaza intervenir las comunicaciones de la alcaldesa de Alcalá por revelación de secretos",
+        "description": "El auto considera que las diligencias resultan \"desproporcionadas\" respecto de los hechos investigados La Fiscalía pide dos años y medio de inhabilitación para la alcaldesa de Alcalá por revelar secretos “para salvar” a Ayuso La Audiencia Provincial de Madrid ha rechazado la intervenci&oacute;n de…",
+        "source": {
+          "id": "eldiario",
+          "name": "elDiario.es"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T08:31:32.000Z",
+        "imageUrl": "https://static.eldiario.es/clip/b091cf27-155a-40c0-8436-9717f028f4bf_16-9-discover-aspect-ratio_default_0_x998y286.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:31:32.000Z"
+    },
+    {
+      "id": "WTn2XrWWrZEm",
+      "representative": {
+        "id": "WTn2XrWWrZEm",
+        "url": "https://www.abc.es/espana/castilla-la-mancha/toledo/agresion-verbal-intento-agresion-fisica-medico-paraplejicos-20261006103045-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/toledo/agresion-verbal-intento-agresion-fisica-medico-paraplejicos-20261006103045-nt.html",
+        "title": "Agresión verbal e intento de agresión física a un médico en Parapléjicos de Toledo",
+        "description": "La historia se repite. Insultos, amenazas y, en algunos casos, agresiones físicas forman parte de la realidad que afrontan los profesionales sanitarios en Castilla-La Mancha. Solo durante el pasado año se registraron más de 700 agresiones en el ámbito sanitario de la región, una cifra que podría…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T08:30:46.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1502076437-RavduAWcGLfDmiqTFxvjkMI-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:30:46.000Z"
+    },
+    {
+      "id": "b97Fd16M5bo4",
+      "representative": {
+        "id": "b97Fd16M5bo4",
+        "url": "https://www.abc.es/espana/andalucia/andalucia-pierde-diputado-cadiz-elecciones-generales-20261006102206-nts.html",
+        "canonicalUrl": "https://www.abc.es/espana/andalucia/andalucia-pierde-diputado-cadiz-elecciones-generales-20261006102206-nts.html",
+        "title": "Andalucía pierde un diputado por Cádiz en las elecciones generales",
+        "description": "Andalucía ha perdido un diputado en las elecciones generales del próximo 29 de noviembre, por lo que se quedará con 60 representantes, uno menos que tras los comicios de 2023.La comunidad autónoma resta uno por la provincia de Cádiz, que pierde un escaño por peso poblacional y elegirá ocho en…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T08:22:06.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/sanchez-congreso-elecciones-RIMCwWsSAOifsc5JbXKPnZM-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:22:06.000Z"
+    }
+  ]
+}

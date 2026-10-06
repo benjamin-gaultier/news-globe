@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "US",
   "countryName": "United States",
-  "updatedAt": "2026-10-06T08:57:04.017Z",
+  "updatedAt": "2026-10-06T09:04:36.946Z",
   "clusters": [
     {
       "id": "cNgRZmeXuur4",
@@ -220,7 +220,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 5,
+      "outletCount24h": 4,
       "outletCount": 6,
       "latestPublishedAt": "2026-10-06T07:13:04.000Z"
     },
@@ -738,70 +738,52 @@
       "latestPublishedAt": "2026-10-05T16:04:05.000Z"
     },
     {
-      "id": "h_DbvEx3DwpI",
+      "id": "XZhzwEuRItLQ",
       "representative": {
-        "id": "h_DbvEx3DwpI",
-        "url": "https://www.nytimes.com/video/us/100000011184795/will-midterm-elections-complicate-the-supreme-courts-new-term.html",
-        "canonicalUrl": "https://www.nytimes.com/video/us/100000011184795/will-midterm-elections-complicate-the-supreme-courts-new-term.html",
-        "title": "Will Midterm Elections Complicate the Supreme Court’s New Term?",
-        "description": "The Supreme Court is starting its new term already mired in election disputes. Our reporter Ann E. Marimow explains why the court is likely to get pulled into even more of these cases.",
+        "id": "XZhzwEuRItLQ",
+        "url": "https://www.nytimes.com/2026/10/06/us/in-the-florida-keys-floating-cocaine-remains-an-alluring-catch.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/06/us/in-the-florida-keys-floating-cocaine-remains-an-alluring-catch.html",
+        "title": "In the Florida Keys, Floating Cocaine Remains an Alluring Catch",
+        "description": "Bricks of cocaine frequently surface in the waters off the island chain. Despite the risks, some who discover “square grouper,” as they’re known, hang onto them.",
         "source": {
           "id": "nyt",
           "name": "The New York Times"
         },
         "sourceCountry": "US",
         "language": "en",
-        "publishedAt": "2026-10-05T10:21:41.000Z",
+        "publishedAt": "2026-10-06T09:01:59.000Z",
         "imageUrl": null,
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "dE5S8BIeDGBU",
-          "url": "https://www.washingtonpost.com/politics/2026/10/05/what-watch-supreme-courts-new-term/",
-          "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/05/what-watch-supreme-courts-new-term/",
-          "title": "6 things to watch in the Supreme Court’s new term",
-          "description": "Cases on religion, elections and immigration are likely to take the spotlight. And don’t forget to watch for a potential retirement.",
-          "source": {
-            "id": "wapo",
-            "name": "The Washington Post"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T09:00:00.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T12:57:25.000Z"
-    },
-    {
-      "id": "qXSABz54us3K",
-      "representative": {
-        "id": "qXSABz54us3K",
-        "url": "https://abcnews.com/Politics/wireStory/republicans-return-tough-crime-message-ahead-difficult-midterm-137023931",
-        "canonicalUrl": "https://abcnews.com/Politics/wireStory/republicans-return-tough-crime-message-ahead-difficult-midterm-137023931",
-        "title": "Republicans return to tough-on-crime message ahead of difficult midterm elections",
-        "description": "Republicans are focusing on crime and public disorder in midterm election campaigns, as voters grow frustrated with their handling of the cost of living and the war with Iran",
-        "source": {
-          "id": "abc",
-          "name": "ABC News"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T06:57:35.000Z",
-        "imageUrl": "https://s.abcnews.com/images/US/wirestory_4a181df89b301d65406a0f2235166be4_16x9_1600.jpg",
         "countryCode": "US",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T06:57:35.000Z"
+      "latestPublishedAt": "2026-10-06T09:01:59.000Z"
+    },
+    {
+      "id": "kiwfN_dcsISh",
+      "representative": {
+        "id": "kiwfN_dcsISh",
+        "url": "https://www.nytimes.com/2026/10/06/us/politics/alaska-fish-midterms.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/06/us/politics/alaska-fish-midterms.html",
+        "title": "How Alaska’s Fish Became a Defining Issue for the Midterms",
+        "description": "In the battle for an Alaska Senate seat and the governor’s mansion, the oil-dependent state’s declining fisheries loom large, but no one wants to look at the biggest culprit, climate change.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:00:55.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:00:55.000Z"
     }
   ]
 }

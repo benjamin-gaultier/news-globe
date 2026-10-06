@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T08:57:04.017Z",
+  "updatedAt": "2026-10-06T09:04:36.946Z",
   "clusters": [
     {
       "id": "rGUNBDm5Qeyw",
@@ -42,6 +42,23 @@
           "regionCode": null
         },
         {
+          "id": "TAF0PI6Z5BIK",
+          "url": "https://www.independent.co.uk/news/uk/home-news/trump-iran-raf-fairford-threats-b3061771.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/trump-iran-raf-fairford-threats-b3061771.html",
+          "title": "Trump says ‘threats’ led to US decision to remove bombers from RAF Fairford",
+          "description": "Donald Trump said he believed the Fairford plot may have been linked to Iran, without providing evidence",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T21:57:57.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/05/21/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
           "id": "eZSIut-mjzS1",
           "url": "https://news.sky.com/story/us-removes-all-air-force-bombers-from-raf-fairford-after-suspected-terror-plot-13595162",
           "canonicalUrl": "https://news.sky.com/story/us-removes-all-air-force-bombers-from-raf-fairford-after-suspected-terror-plot-13595162",
@@ -59,8 +76,8 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
-      "outletCount": 3,
+      "outletCount24h": 4,
+      "outletCount": 4,
       "latestPublishedAt": "2026-10-06T08:15:24.000Z"
     },
     {
@@ -101,6 +118,23 @@
           "regionCode": null
         },
         {
+          "id": "lhWZtFuXB-mI",
+          "url": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
+          "title": "Jeffrey Archer, novelist and former Conservative MP, dies aged 86",
+          "description": "Archer died peacefully at his home, his publisher said in a statement",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T21:33:08.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/05/21/c6d1176584779cce96089f8f067d0e32Y29udGVudHNlYXJjaGFwaSwxNzkxMzE4Mjgw-2.66559363.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
           "id": "PngCC-95JCSC",
           "url": "https://inews.co.uk/news/tributes-paid-after-former-mp-and-author-jeffrey-archer-dies-at-86-4811483",
           "canonicalUrl": "https://inews.co.uk/news/tributes-paid-after-former-mp-and-author-jeffrey-archer-dies-at-86-4811483",
@@ -118,9 +152,144 @@
           "regionCode": null
         }
       ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T03:19:57.000Z"
+    },
+    {
+      "id": "ul8mZBC34-rY",
+      "representative": {
+        "id": "ul8mZBC34-rY",
+        "url": "https://www.bbc.co.uk/news/videos/cv62yd93z906o?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/videos/cv62yd93z906o",
+        "title": "What we know about Andrew Mountbatten-Windsor's legal action against police",
+        "description": "Andrew Mountbatten-Windsor is taking legal action against Thames Valley Police over his arrest in February.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-05T13:09:42.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f0a/live/6eb37880-c0c2-11f1-a64c-550be9e3c66b.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "VEehAC9mMESJ",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
+          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
+          "title": "Buckingham Palace says it will not fund Andrew’s legal action against police",
+          "description": "Former Duke of York is attempting to quash search warrants that led to his arrest in February Andrew Mountbatten-Windsor has been warned not to use the king’s private money to fund his legal action against Thames Valley police. The former Duke of York is attempting to quash search warrants that…",
+          "source": {
+            "id": "guardian",
+            "name": "The Guardian"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T06:44:12.000Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/fb620b92234cda09d14da5f024f0bad4f7f7f877/32_0_1400_1120/master/1400.jpg?width=700&quality=85&auto=format&fit=max&s=015aef54658b9a3ac13a55ab64f76135",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
+          "id": "DGDxHQceu91c",
+          "url": "https://www.independent.co.uk/news/uk/crime/andrew-mountbatten-windsor-arrest-thames-valley-police-court-b3061309.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/andrew-mountbatten-windsor-arrest-thames-valley-police-court-b3061309.html",
+          "title": "Police apply to keep details of Andrew Mountbatten-Windsor legal claim secret",
+          "description": "A private High Court hearing will take place on Thursday",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T15:12:28.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/08/06/17/82771110cad463bbf6de0ebc78cd300fY29udGVudHNlYXJjaGFwaSwxNzg2MTIwMDA1-2.84707749.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
+          "id": "5OvmviPEdYhh",
+          "url": "https://www.standard.co.uk/news/uk/andrew-legal-action-thames-valley-police-searches-epstein-b1299528.html",
+          "canonicalUrl": "https://www.standard.co.uk/news/uk/andrew-legal-action-thames-valley-police-searches-epstein-b1299528.html",
+          "title": "Andrew Mountbatten-Windsor sues police over Epstein-related search warrants",
+          "description": "A private High Court hearing is taking place on Thursday",
+          "source": {
+            "id": "standard",
+            "name": "Evening Standard"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T08:56:45.000Z",
+          "imageUrl": "https://static.standard.co.uk/2026/07/13/18/7b950fe42c43a4daae517d9e3a103cbdY29udGVudHNlYXJjaGFwaSwxNzg0MDUwNDQw-2.72036863.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T06:44:12.000Z"
+    },
+    {
+      "id": "HF5jIIKaxEUM",
+      "representative": {
+        "id": "HF5jIIKaxEUM",
+        "url": "https://www.bbc.co.uk/news/articles/cm4g1dxe50nyo?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cm4g1dxe50nyo",
+        "title": "Jewish Greens chair says she could leave party over 'Zionism is racism' motion",
+        "description": "The motion, which has divided senior party figures, backs a \"single democratic Palestinian state in all of historic Palestine\".",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-05T11:23:02.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5ac/live/49bada10-c0b2-11f1-b026-53d1506ee826.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "fbMrc79CZpz8",
+          "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-england-wales-zionism-racism-vote-europe-germany",
+          "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/05/green-party-england-wales-zionism-racism-vote-europe-germany",
+          "title": "Green party of England and Wales facing international ostracism over ‘Zionism is racism’ vote",
+          "description": "European Green party says motion goes against its policy, with German Green co-leader calling it ‘intolerable and unacceptable’ Zack Polanski may rue lack of leadership when Greens needed him to act The English and Welsh Greens are facing international ostracism after adopting a policy declaring…",
+          "source": {
+            "id": "guardian",
+            "name": "The Guardian"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T19:10:43.000Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/0ed461b7ba5b99243767f518a70a802118d8f353/1788_279_6852_5481/master/6852.jpg?width=700&quality=85&auto=format&fit=max&s=dd980d83f9721799152413e212d9503e",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
+          "id": "J16iIaiAjdMN",
+          "url": "https://www.independent.co.uk/news/uk/politics/green-party-zionism-racism-labour-coalition-burnham-b3061677.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/green-party-zionism-racism-labour-coalition-burnham-b3061677.html",
+          "title": "Andy Burnham facing calls to rule out coalition deal with Greens after ‘Zionism is racism’ motion",
+          "description": "Exclusive: PM told motion should disqualify party from major public office",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T17:20:59.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/05/17/12/Burnham-Polanski-split.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
       "outletCount24h": 3,
       "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T03:19:57.000Z"
+      "latestPublishedAt": "2026-10-05T19:10:43.000Z"
     },
     {
       "id": "5dRx021srmUn",
@@ -165,65 +334,6 @@
       "latestPublishedAt": "2026-10-06T08:35:31.000Z"
     },
     {
-      "id": "ul8mZBC34-rY",
-      "representative": {
-        "id": "ul8mZBC34-rY",
-        "url": "https://www.bbc.co.uk/news/videos/cv62yd93z906o?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/videos/cv62yd93z906o",
-        "title": "What we know about Andrew Mountbatten-Windsor's legal action against police",
-        "description": "Andrew Mountbatten-Windsor is taking legal action against Thames Valley Police over his arrest in February.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T13:09:42.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f0a/live/6eb37880-c0c2-11f1-a64c-550be9e3c66b.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "VEehAC9mMESJ",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
-          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
-          "title": "Buckingham Palace says it will not fund Andrew’s legal action against police",
-          "description": "Former Duke of York is attempting to quash search warrants that led to his arrest in February Andrew Mountbatten-Windsor has been warned not to use the king’s private money to fund his legal action against Thames Valley police. The former Duke of York is attempting to quash search warrants that…",
-          "source": {
-            "id": "guardian",
-            "name": "The Guardian"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T06:44:12.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/fb620b92234cda09d14da5f024f0bad4f7f7f877/32_0_1400_1120/master/1400.jpg?width=700&quality=85&auto=format&fit=max&s=015aef54658b9a3ac13a55ab64f76135",
-          "countryCode": "GB",
-          "regionCode": null
-        },
-        {
-          "id": "5OvmviPEdYhh",
-          "url": "https://www.standard.co.uk/news/uk/andrew-legal-action-thames-valley-police-searches-epstein-b1299528.html",
-          "canonicalUrl": "https://www.standard.co.uk/news/uk/andrew-legal-action-thames-valley-police-searches-epstein-b1299528.html",
-          "title": "Andrew Mountbatten-Windsor sues police over Epstein-related search warrants",
-          "description": "A private High Court hearing is taking place on Thursday",
-          "source": {
-            "id": "standard",
-            "name": "Evening Standard"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T08:56:45.000Z",
-          "imageUrl": "https://static.standard.co.uk/2026/07/13/18/7b950fe42c43a4daae517d9e3a103cbdY29udGVudHNlYXJjaGFwaSwxNzg0MDUwNDQw-2.72036863.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T06:44:12.000Z"
-    },
-    {
       "id": "HNDBgHLC2alD",
       "representative": {
         "id": "HNDBgHLC2alD",
@@ -266,46 +376,172 @@
       "latestPublishedAt": "2026-10-06T05:44:23.000Z"
     },
     {
-      "id": "bAzOgkn9zxh3",
+      "id": "DG9j1vmozvjD",
       "representative": {
-        "id": "bAzOgkn9zxh3",
-        "url": "https://www.bbc.co.uk/news/videos/cke8r159n0d0o?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/videos/cke8r159n0d0o",
-        "title": "What is the Green Party's 'Zionism is racism' motion?",
-        "description": "Israel's foreign ministry says it has banned Green Party leader Zack Polanski from entering the country, after party members adopted a motion declaring Zionism a form of racism.",
+        "id": "DG9j1vmozvjD",
+        "url": "https://www.independent.co.uk/news/uk/crime/andrew-tristan-tate-women-pornography-romania-court-documents-b3061814.html",
+        "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/andrew-tristan-tate-women-pornography-romania-court-documents-b3061814.html",
+        "title": "Tate brothers lured women with ‘lover boy’ tactic before coercing them into porn, court documents allege",
+        "description": "Andrew and Tristan Tate have not appeared in ‌a British court to formally answer to the charges they face, which include rape and human trafficking, but they have denied wrongdoing",
         "source": {
-          "id": "bbc",
-          "name": "BBC News"
+          "id": "independent",
+          "name": "The Independent"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-05T14:07:02.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66a3/live/3dbabd00-c0c3-11f1-bc2e-018d645d8d21.jpg",
+        "publishedAt": "2026-10-05T23:46:42.000Z",
+        "imageUrl": "https://static.independent.co.uk/2026/10/05/22/2026-10-05T202035Z_2115922525_RC20IDA9HOZ2_RTRMADP_3_USA-TATE-BRITAIN.JPG?width=1200&auto=webp&trim=911%2C926%2C82%2C564",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [
         {
-          "id": "fbMrc79CZpz8",
-          "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-england-wales-zionism-racism-vote-europe-germany",
-          "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/05/green-party-england-wales-zionism-racism-vote-europe-germany",
-          "title": "Green party of England and Wales facing international ostracism over ‘Zionism is racism’ vote",
-          "description": "European Green party says motion goes against its policy, with German Green co-leader calling it ‘intolerable and unacceptable’ Zack Polanski may rue lack of leadership when Greens needed him to act The English and Welsh Greens are facing international ostracism after adopting a policy declaring…",
+          "id": "sSCTeZjSWNxR",
+          "url": "https://news.sky.com/story/tate-brothers-exploited-women-using-lover-boy-model-uk-alleges-13595592",
+          "canonicalUrl": "https://news.sky.com/story/tate-brothers-exploited-women-using-lover-boy-model-uk-alleges-13595592",
+          "title": "Tate brothers exploited women using 'lover boy' model, UK alleges",
+          "description": "Andrew and Tristan Tate used a \"lover boy\" model to attract and then exploit women, according to British authorities in court documents made public in the US.",
           "source": {
-            "id": "guardian",
-            "name": "The Guardian"
+            "id": "sky",
+            "name": "Sky News"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-05T19:10:43.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/0ed461b7ba5b99243767f518a70a802118d8f353/1788_279_6852_5481/master/6852.jpg?width=700&quality=85&auto=format&fit=max&s=dd980d83f9721799152413e212d9503e",
+          "publishedAt": "2026-10-06T01:02:00.000Z",
+          "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-tristan-tate-andrew-tate_7333351.jpg?20260828084335",
           "countryCode": "GB",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:10:43.000Z"
+      "latestPublishedAt": "2026-10-06T01:02:00.000Z"
+    },
+    {
+      "id": "uTDEV21Wf7iy",
+      "representative": {
+        "id": "uTDEV21Wf7iy",
+        "url": "https://www.independent.co.uk/news/uk/politics/badenoch-uk-iron-dome-brittania-shield-defence-spending-nato-b3061817.html",
+        "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/badenoch-uk-iron-dome-brittania-shield-defence-spending-nato-b3061817.html",
+        "title": "Kemi Badenoch vows to build £10bn ‘Britannia Shield’ to fend off missile attacks",
+        "description": "The leader of the opposition accused Labour of failing to keep the country safe",
+        "source": {
+          "id": "independent",
+          "name": "The Independent"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-05T23:51:05.000Z",
+        "imageUrl": "https://static.independent.co.uk/2026/10/05/15/2026-10-04T144139Z_298601495_RC2EWNA7ODZ5_RTRMADP_3_BRITAIN-POLITICS-CONSERVATIVES.JPG?width=1200&auto=webp&trim=3%2C0%2C3%2C0",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "KNpIsL1PsPn6",
+          "url": "https://inews.co.uk/news/politics/badenoch-britannia-dome-missile-shield-4810847",
+          "canonicalUrl": "https://inews.co.uk/news/politics/badenoch-britannia-dome-missile-shield-4810847",
+          "title": "Badenoch promises ‘Britannia Dome’ missile shield",
+          "description": "Tory shadow defence secretary says the cost will be £10bn – experts have said £80bn",
+          "source": {
+            "id": "inews",
+            "name": "The i Paper"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T21:00:00.000Z",
+          "imageUrl": "https://inews.co.uk/wp-content/uploads/2026/10/SEI_315429895.jpg",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T23:51:05.000Z"
+    },
+    {
+      "id": "w6gL1cT4O2Q5",
+      "representative": {
+        "id": "w6gL1cT4O2Q5",
+        "url": "https://www.bbc.co.uk/news/articles/cq0ldwr166ggo?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cq0ldwr166ggo",
+        "title": "It's been a terrible year for farming, Jeremy Clarkson tells Tory conference",
+        "description": "The former Top Gear presenter and star of Clarkson's Farm also said farmers were being \"attacked\" from every angle.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-05T17:46:59.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/959b/live/75fb8f20-c0da-11f1-bc2e-018d645d8d21.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "D9OvfMGA8d7A",
+          "url": "https://www.independent.co.uk/news/uk/politics/jeremy-clarkson-tory-conference-birmingham-farming-b3061723.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/jeremy-clarkson-tory-conference-birmingham-farming-b3061723.html",
+          "title": "Jeremy Clarkson says farmers being attacked ‘from everywhere’ amid ‘terrible’ year",
+          "description": "The star of Clarkson’s Farm on Amazon Prime asked: ‘Why would anybody set up a business in this country right now?’",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T17:32:31.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/05/16/2298708047..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T17:46:59.000Z"
+    },
+    {
+      "id": "SHXh2nnxmYKM",
+      "representative": {
+        "id": "SHXh2nnxmYKM",
+        "url": "https://www.bbc.co.uk/news/articles/c623dk217435o?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/c623dk217435o",
+        "title": "Katie Price's ex urged girl not to tell, court told",
+        "description": "Jurors at the trial of Kieran Hayler hear recorded police evidence from the alleged victim in court.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-05T17:32:18.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6488/live/bcefb870-c0d5-11f1-a5b0-6f550c662e91.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "rzH_r7cY2Ro4",
+          "url": "https://www.independent.co.uk/news/uk/crime/kieran-hayler-katie-price-trial-b3061689.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/kieran-hayler-katie-price-trial-b3061689.html",
+          "title": "Katie Price's ex-husband told teen rape victim to 'not tell anyone', court hears",
+          "description": "Kieran Hayler alleges that the accusations are part of a campaign his ex-wife has launched against him",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T16:51:38.000Z",
+          "imageUrl": "https://static.independent.co.uk/2025/12/17/12/17/SEI278279230.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T17:32:18.000Z"
     },
     {
       "id": "_YeBxFJ2xGcS",
@@ -350,196 +586,154 @@
       "latestPublishedAt": "2026-10-05T14:53:32.000Z"
     },
     {
-      "id": "ez1YmCF2CxDw",
+      "id": "6JTME2W41iI7",
       "representative": {
-        "id": "ez1YmCF2CxDw",
-        "url": "https://www.bbc.co.uk/news/articles/cglg04dd4nko?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cglg04dd4nko",
-        "title": "Man charged over Gosport migrant protest",
-        "description": "Protesters held a demonstration after 149 migrants were brought to Gosport on Sunday.",
+        "id": "6JTME2W41iI7",
+        "url": "https://www.bbc.co.uk/news/articles/cxvgd3j2qqnmo?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cxvgd3j2qqnmo",
+        "title": "Pickford 'almost caused crash' with careless driving",
+        "description": "The goalkeeper was pulled over by police after ignoring a give way sign, forcing two cars to brake.",
         "source": {
           "id": "bbc",
           "name": "BBC News"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T08:46:51.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ce7/live/5ec6b020-c150-11f1-a043-4511bb61bfac.jpg",
+        "publishedAt": "2026-10-05T14:42:28.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48c4/live/7f3ff650-c0c3-11f1-885f-4f9e8c6dce17.jpg",
         "countryCode": "GB",
         "regionCode": null
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:46:51.000Z"
+      "related": [
+        {
+          "id": "K4z74PQzsyRx",
+          "url": "https://www.independent.co.uk/news/uk/home-news/jordan-pickford-lamborghini-knutsford-court-b3061516.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/jordan-pickford-lamborghini-knutsford-court-b3061516.html",
+          "title": "Jordan Pickford ‘almost caused crash’ while driving £200,000 Lamborghini, court told",
+          "description": "The incident happened in Knutsford on April 14, sparking a criminal prosecution for driving without due care or attention",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T12:41:08.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/05/13/2298502814..?width=1200&auto=webp&trim=182%2C0%2C182%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T14:42:28.000Z"
     },
     {
-      "id": "ARscX0n3zj_n",
+      "id": "nPNR2zwSlYmt",
       "representative": {
-        "id": "ARscX0n3zj_n",
-        "url": "https://www.mirror.co.uk/news/uk-news/uks-most-beautiful-village-fed-37738966",
-        "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/uks-most-beautiful-village-fed-37738966",
-        "title": "UK's 'most beautiful village' fed up of tourists — 'this has got to stop'",
-        "description": "It has been named the most beautiful in the world but this 'double-edged sword' has led to a constant battle against over-tourism",
+        "id": "nPNR2zwSlYmt",
+        "url": "https://www.independent.co.uk/news/uk/home-news/gosport-anti-migrant-protests-english-channel-b3061267.html",
+        "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/gosport-anti-migrant-protests-english-channel-b3061267.html",
+        "title": "12 arrested after anti-migrant protesters clash with police over migrant dinghy arrival in UK seaside town",
+        "description": "The dinghy was shadowed by French rescue vessels until it entered English waters, where it was met by RNLI boats",
         "source": {
-          "id": "mirror",
-          "name": "Daily Mirror"
+          "id": "independent",
+          "name": "The Independent"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T08:33:28.000Z",
-        "imageUrl": "https://i2-prod.mirror.co.uk/news/uk-news/article37738962.ece/ALTERNATES/s615/0_Tourists-visiting-Arlington-Row-taking-pictures-and-selfies-on-5th-September-2023-in-Bibury.jpg",
+        "publishedAt": "2026-10-05T13:28:58.000Z",
+        "imageUrl": "https://static.independent.co.uk/2026/10/04/22/aa86d9019b4576fa21c44ab0a4938923Y29udGVudHNlYXJjaGFwaSwxNzkxMjM1Mjg4-2.86074964.jpg?width=1200&auto=webp&crop=3%3A2",
         "countryCode": "GB",
         "regionCode": null
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:33:28.000Z"
+      "related": [
+        {
+          "id": "LT5UNdnUk5mA",
+          "url": "https://www.standard.co.uk/news/uk/gosport-migrants-protest-rnli-hampshire-police-arrests-b1299515.html",
+          "canonicalUrl": "https://www.standard.co.uk/news/uk/gosport-migrants-protest-rnli-hampshire-police-arrests-b1299515.html",
+          "title": "Police make 12 arrests amid clashes with protesters over migrants arriving in Gosport",
+          "description": "Protesters gathered Gosport amid reports that authorities were preparing for the arrival of a boat",
+          "source": {
+            "id": "standard",
+            "name": "Evening Standard"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T12:30:52.000Z",
+          "imageUrl": "https://static.standard.co.uk/2026/10/04/22/aa86d9019b4576fa21c44ab0a4938923Y29udGVudHNlYXJjaGFwaSwxNzkxMjM1Mjg4-2.86074964.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T13:28:58.000Z"
     },
     {
-      "id": "uBhWCS6WhEM7",
+      "id": "ahJzsO96rfPj",
       "representative": {
-        "id": "uBhWCS6WhEM7",
-        "url": "https://www.bbc.co.uk/news/articles/cjy56yxxwy3po?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cjy56yxxwy3po",
-        "title": "I won't accept exclusion within Green Party, says Polanski after criticism of Zionism motion",
-        "description": "Labour MPs and the European Greens have demanded clarity from the Green Party over a \"Zionism is racism\" motion.",
+        "id": "ahJzsO96rfPj",
+        "url": "https://news.sky.com/story/uk-unprepared-for-food-emergencies-and-threats-to-supplies-experts-warn-13595286",
+        "canonicalUrl": "https://news.sky.com/story/uk-unprepared-for-food-emergencies-and-threats-to-supplies-experts-warn-13595286",
+        "title": "UK unprepared for food emergencies and threats to supplies, experts warn",
+        "description": "The government is unprepared for disruptions to food supplies which are exposed to \"shocks and threats\", experts have warned.",
         "source": {
-          "id": "bbc",
-          "name": "BBC News"
+          "id": "sky",
+          "name": "Sky News"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T08:32:44.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2988/live/77294f30-c126-11f1-a64c-550be9e3c66b.jpg",
+        "publishedAt": "2026-10-05T09:14:00.000Z",
+        "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-empty-shelves-supermarket_7368668.jpg?20261005113052",
         "countryCode": "GB",
         "regionCode": null
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:32:44.000Z"
+      "related": [
+        {
+          "id": "lIJ5TnlMnAcs",
+          "url": "https://www.independent.co.uk/news/uk/home-news/uk-food-shortages-warning-national-security-b3061312.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/uk-food-shortages-warning-national-security-b3061312.html",
+          "title": "UK’s preparation for food shortages is ‘woefully inadequate’, experts warn",
+          "description": "More than 150 experts warn the UK is ‘complacent’ over its food security crisis",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T10:02:35.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/09/25/14/01KBFQ87RP92HHERTV1RP0TH4C.jpg?width=1200&auto=webp&trim=196%2C0%2C196%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T10:02:35.000Z"
     },
     {
-      "id": "qpSwVbf5_2Jk",
+      "id": "cScDBNsXWUgy",
       "representative": {
-        "id": "qpSwVbf5_2Jk",
-        "url": "https://www.theguardian.com/politics/live/2026/oct/06/kemi-badenoch-conservatives-labour-reform-greens-uk-politics-latest-news",
-        "canonicalUrl": "https://www.theguardian.com/politics/live/2026/oct/06/kemi-badenoch-conservatives-labour-reform-greens-uk-politics-latest-news",
-        "title": "Badenoch disowns Tory claims that air defence plan amounts to ‘British Iron Dome’ - UK politics live",
-        "description": "Tory leader says ‘Britannia Shield’ will not be a similar scheme to that protecting Israel after repeated questions from broadcasters Asked if she will propose tax cuts in her speech tomorrow, Badenoch tells McCann that she will have to wait until her speech tomorrow at 11.15am. (This is getting…",
+        "id": "cScDBNsXWUgy",
+        "url": "https://www.independent.co.uk/news/uk/home-news/nhs-cancer-test-wgs-treatment-b3061971.html",
+        "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/nhs-cancer-test-wgs-treatment-b3061971.html",
+        "title": "New genetic cancer test for children slashes wait time to just days",
+        "description": "Two children avoided invasive treatment for benign tumours while two were able to have less extensive surgery",
         "source": {
-          "id": "guardian",
-          "name": "The Guardian"
+          "id": "independent",
+          "name": "The Independent"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T08:31:00.000Z",
-        "imageUrl": "https://i.guim.co.uk/img/media/cb4c23843ac6ba9050d75f187e5acc83f207b833/1065_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=27c670d9d2a5f5e4e16260ac15a26fac",
+        "publishedAt": "2026-10-06T09:00:45.000Z",
+        "imageUrl": "https://static.independent.co.uk/2025/04/15/10/04/FILE-CHILD-SICK-UNWELL.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:31:00.000Z"
-    },
-    {
-      "id": "FI4MmBiCjF2G",
-      "representative": {
-        "id": "FI4MmBiCjF2G",
-        "url": "https://www.theguardian.com/politics/2026/oct/06/badenoch-british-iron-dome-plan-tory-press-release",
-        "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/06/badenoch-british-iron-dome-plan-tory-press-release",
-        "title": "Badenoch denies ‘British Iron Dome’ plan – after Tories use phrase in press release",
-        "description": "Tory leader says proposed ‘Britannia Shield’ will not be comparable to Israeli missile defence system UK politics live – latest updates Kemi Badenoch has denied she compared a new air defence system proposed by the party to Israel’s Iron Dome, despite using the term in her press release and a…",
-        "source": {
-          "id": "guardian",
-          "name": "The Guardian"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T08:27:41.000Z",
-        "imageUrl": "https://i.guim.co.uk/img/media/e22a3307566c7be4de91bf4e4793404ab40e7f76/2364_0_4469_3575/master/4469.jpg?width=700&quality=85&auto=format&fit=max&s=439fcc2af143542b61e548de21310166",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:27:41.000Z"
-    },
-    {
-      "id": "q82-yUBWfD2C",
-      "representative": {
-        "id": "q82-yUBWfD2C",
-        "url": "https://www.mirror.co.uk/news/health/im-dying-cancer-solo-wedding-37738941",
-        "canonicalUrl": "https://www.mirror.co.uk/news/health/im-dying-cancer-solo-wedding-37738941",
-        "title": "'I'm dying of cancer so I had a solo wedding as I didn't want to die without being a bride'",
-        "description": "Amanda Barnes, 49, wore her dream wedding dress for a solo wedding celebration with 30 loved ones and no groom",
-        "source": {
-          "id": "mirror",
-          "name": "Daily Mirror"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T08:24:49.000Z",
-        "imageUrl": "https://i2-prod.mirror.co.uk/news/health/article37738937.ece/ALTERNATES/s615/1_woman-with-incu-1612164.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:24:49.000Z"
-    },
-    {
-      "id": "vIOvMd4TfVVB",
-      "representative": {
-        "id": "vIOvMd4TfVVB",
-        "url": "https://www.mirror.co.uk/news/uk-news/meet-britains-oldest-running-team-37738795",
-        "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/meet-britains-oldest-running-team-37738795",
-        "title": "Meet Britain’s oldest running team with a combined age of 321",
-        "description": "New research suggesting many British runners abandon the sport decades earlier, but sport brand Altra aim to turn things around and hope their newly-assembled team will provide inspiration",
-        "source": {
-          "id": "mirror",
-          "name": "Daily Mirror"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T08:21:40.000Z",
-        "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37738866.ece/ALTERNATES/s615/1_rc2593_1_peter-giles-82_55569478668_o.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:21:40.000Z"
-    },
-    {
-      "id": "dje8BfkGpDRD",
-      "representative": {
-        "id": "dje8BfkGpDRD",
-        "url": "https://www.standard.co.uk/news/uk/who-is-hamish-badenoch-banker-father-husband-tory-leader-kemi-b1191719.html",
-        "canonicalUrl": "https://www.standard.co.uk/news/uk/who-is-hamish-badenoch-banker-father-husband-tory-leader-kemi-b1191719.html",
-        "title": "Who is Hamish Badenoch? Banker, father and husband of Tory leader Kemi",
-        "description": "Hamish Badenoch has largely stayed in the background as his wife has climbed to the top of the political ladder",
-        "source": {
-          "id": "standard",
-          "name": "Evening Standard"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T08:16:53.000Z",
-        "imageUrl": "https://static.standard.co.uk/2026/10/04/10/01M41793H1Q61FMGYKVHY22EAP.jpg?width=1200&auto=webp&crop=3%3A2",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:16:53.000Z"
+      "latestPublishedAt": "2026-10-06T09:00:45.000Z"
     }
   ]
 }

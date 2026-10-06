@@ -162,7 +162,6 @@ export const SOURCES: SourceConfig[] = [
     authority: 7,
   },
   // ---- United Kingdom ----
-  // The Independent is dropped: its section feeds return a single item.
   // The Telegraph's feed is stale (newest item months old); The Times has no
   // public RSS; ITV's feed doesn't respond. The i Paper and the Mirror replace them.
   {
@@ -182,6 +181,15 @@ export const SOURCES: SourceConfig[] = [
     language: 'en',
     feedUrls: ['https://www.theguardian.com/uk-news/rss', 'https://www.theguardian.com/politics/rss'],
     authority: 9,
+  },
+  {
+    id: 'independent',
+    name: 'The Independent',
+    type: 'rss',
+    country: 'GB',
+    language: 'en',
+    feedUrls: ['https://www.independent.co.uk/news/uk/politics/rss', 'https://www.independent.co.uk/news/uk/rss'],
+    authority: 8,
   },
   {
     id: 'sky',
@@ -220,7 +228,6 @@ export const SOURCES: SourceConfig[] = [
     authority: 5,
   },
   // ---- Germany ----
-  // Süddeutsche Zeitung is dropped: its politics feed returns a single item.
   {
     id: 'tagesschau',
     name: 'tagesschau',
@@ -237,6 +244,15 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     feedUrls: ['https://www.spiegel.de/politik/deutschland/index.rss'],
+    authority: 9,
+  },
+  {
+    id: 'sz',
+    name: 'Süddeutsche Zeitung',
+    type: 'rss',
+    country: 'DE',
+    language: 'de',
+    feedUrls: ['https://rss.sueddeutsche.de/rss/Politik'],
     authority: 9,
   },
   {
@@ -274,6 +290,71 @@ export const SOURCES: SourceConfig[] = [
     language: 'de',
     feedUrls: ['https://www.n-tv.de/politik/rss'],
     authority: 6,
+  },
+  // ---- Spain ----
+  // RTVE's public feeds are stale (newest items from 2022); Europa Press doesn't respond.
+  {
+    id: 'elpais',
+    name: 'El País',
+    type: 'rss',
+    country: 'ES',
+    language: 'es',
+    feedUrls: ['https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada'],
+    authority: 10,
+  },
+  {
+    id: 'elmundo',
+    name: 'El Mundo',
+    type: 'rss',
+    country: 'ES',
+    language: 'es',
+    feedUrls: ['https://e00-elmundo.uecdn.es/elmundo/rss/espana.xml'],
+    authority: 9,
+  },
+  {
+    id: 'abc_es',
+    name: 'ABC',
+    type: 'rss',
+    country: 'ES',
+    language: 'es',
+    feedUrls: ['https://www.abc.es/rss/2.0/espana/'],
+    authority: 8,
+  },
+  {
+    id: 'lavanguardia',
+    name: 'La Vanguardia',
+    type: 'rss',
+    country: 'ES',
+    language: 'es',
+    feedUrls: ['https://www.lavanguardia.com/rss/politica.xml'],
+    authority: 7,
+  },
+  {
+    id: 'elconfidencial',
+    name: 'El Confidencial',
+    type: 'rss',
+    country: 'ES',
+    language: 'es',
+    feedUrls: ['https://rss.elconfidencial.com/espana/'],
+    authority: 7,
+  },
+  {
+    id: 'eldiario',
+    name: 'elDiario.es',
+    type: 'rss',
+    country: 'ES',
+    language: 'es',
+    feedUrls: ['https://www.eldiario.es/rss/politica/'],
+    authority: 6,
+  },
+  {
+    id: '20minutos_es',
+    name: '20minutos',
+    type: 'rss',
+    country: 'ES',
+    language: 'es',
+    feedUrls: ['https://www.20minutos.es/rss/nacional/'],
+    authority: 5,
   },
 ];
 

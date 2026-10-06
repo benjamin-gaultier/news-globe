@@ -108,6 +108,15 @@ ist sind war waren wird werden wurde wurden worden hat haben hatte hatten sei ka
 muss mussen will wollen darf alle alles viel viele dieser diese dieses diesem diesen jeder jede was wer
 wo warum wieso man neue neuer neuen neues erst ersten gibt geht laut heute mal`;
 
+const STOPWORDS_ES = `
+el la los las lo un una unos unas y o u e ni pero sino que de del al a en con por para sin sobre
+entre hasta desde hacia contra segun tras ante bajo como cuando donde quien quienes cual cuales
+se su sus le les me te nos os mi mis tu tus yo el ella ellos ellas usted ustedes este esta estos
+estas ese esa esos esas aquel aquella esto eso es son fue fueron ser sera seran ha han hay habia
+haber estar esta estan era eran muy mas menos ya no si tambien todo toda todos todas otro otra
+otros otras mismo misma tras durante cada asi aun nuevo nueva nuevos nuevas ultima hora directo
+dice dicen`;
+
 // Format markers that say nothing about the story ("EN DIRECT", "LIVE UPDATES", "VIDEO", "LIVE-TICKER").
 const BOILERPLATE = `direct live video videos photo photos watch updates update podcast replay liveblog ticker newsblog`;
 
@@ -122,6 +131,7 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   fr: STOPWORDS_FR_EN,
   en: STOPWORDS_FR_EN,
   de: wordSet(STOPWORDS_DE, STOPWORDS_EN, BOILERPLATE),
+  es: wordSet(STOPWORDS_ES, STOPWORDS_EN, BOILERPLATE),
 };
 
 /**

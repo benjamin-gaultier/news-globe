@@ -2,84 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "DE",
   "countryName": "Germany",
-  "updatedAt": "2026-10-06T08:57:04.017Z",
+  "updatedAt": "2026-10-06T09:04:36.946Z",
   "clusters": [
-    {
-      "id": "CXt0iMTPEvSP",
-      "representative": {
-        "id": "CXt0iMTPEvSP",
-        "url": "https://www.zeit.de/politik/deutschland/2026-10/august-hanning-bnd-festnahme-spionage-mitarbeiter",
-        "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/august-hanning-bnd-festnahme-spionage-mitarbeiter",
-        "title": "Spionageverdacht: Ehemaliger BND-Chef August Hanning festgenommen",
-        "description": "Der frühere Geheimdienstchef August Hanning wurde festgenommen. Ihm wird unter anderem Spionage vorgeworfen.",
-        "source": {
-          "id": "zeit",
-          "name": "ZEIT ONLINE"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T08:20:24.000Z",
-        "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/august-hanning-vor-nsa-untersuchungsausschuss-bild-2/original__640x360",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "FBjQvJMa9umW",
-          "url": "https://www.faz.net/aktuell/politik/inland/spionageverdacht-ehemaliger-bnd-chef-august-hanning-festgenommen-accg-201292036.html",
-          "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/spionageverdacht-ehemaliger-bnd-chef-august-hanning-festgenommen-accg-201292036.html",
-          "title": "Wegen Spionageverdachts: Ehemaliger BND-Präsident August Hanning festgenommen",
-          "description": "Der frühere Geheimdienstchef soll noch Jahre nach seinem Ausscheiden von seinem ehemaligen Büroleiter mit geheimen Informationen aus der Behörde versorgt worden sein.",
-          "source": {
-            "id": "faz",
-            "name": "Frankfurter Allgemeine"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T08:34:26.000Z",
-          "imageUrl": "https://media0.faz.net/image/49d165dd664e/w3000h1687x0y131/202510/43601.0.1414493528/der-fruehere-praesident-des.webp",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "P2ZccoEI-l-d",
-          "url": "https://www.n-tv.de/politik/Ehemaliger-BND-Chef-August-Hanning-wegen-Spionageverdachts-festgenommen-id31385873.html",
-          "canonicalUrl": "https://www.n-tv.de/politik/Ehemaliger-BND-Chef-August-Hanning-wegen-Spionageverdachts-festgenommen-id31385873.html",
-          "title": "Auch Ex-Mitarbeiter in Gewahrsam: Ehemaliger BND-Chef August Hanning wegen Spionageverdachts festgenommen",
-          "description": "Die Generalbundesanwaltschaft ermittelt gegen Ex-BND-Chef Hanning. Gegen diesen gibt es unter anderem den Verdacht des versuchten Landesverrats. Ein ehemaliger Mitarbeiter soll hochsensible Daten an Hanning weitergegeben haben.",
-          "source": {
-            "id": "ntv",
-            "name": "n-tv"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T08:10:33.000Z",
-          "imageUrl": "https://www.n-tv.de/img/31385878/1791281562/Img_4_3/250/62227989.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "iV8_Zq6c1D5s",
-          "url": "https://www.welt.de/politik/deutschland/article6ac4ab30321809b09dd0771d/ex-bnd-chef-august-hanning-wegen-spionageverdachts-festgenommen.html",
-          "canonicalUrl": "https://www.welt.de/politik/deutschland/article6ac4ab30321809b09dd0771d/ex-bnd-chef-august-hanning-wegen-spionageverdachts-festgenommen.html",
-          "title": "Ex-BND-Chef August Hanning wegen Spionageverdachts festgenommen",
-          "description": "Ermittler werfen dem früheren BND‑Präsidenten August Hanning das Ausspähen von Staatsgeheimnissen vor. Es gibt den Verdacht, er wollte Informationen verkaufen.",
-          "source": {
-            "id": "welt",
-            "name": "WELT"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T08:05:58.000Z",
-          "imageUrl": "https://images.welt.de/6ac4ab30321809b09dd0771d/59d2b8f1c9398cf4a3f0e298b324af33-master/ci23x11-w1200/dpa-com-20090101-251028-935-919221-jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T08:34:26.000Z"
-    },
     {
       "id": "fuOn7SLdX-n_",
       "representative": {
@@ -118,6 +42,23 @@
           "regionCode": null
         },
         {
+          "id": "4iy3uQvy84Xq",
+          "url": "https://www.sueddeutsche.de/politik/deutschland-zahl-wehrpflicht-kriegsdienst-verweigerer-anstieg-li.3558935",
+          "canonicalUrl": "https://www.sueddeutsche.de/politik/deutschland-zahl-wehrpflicht-kriegsdienst-verweigerer-anstieg-li.3558935",
+          "title": "Wehrpflicht: Zahl der Kriegsdienstverweigerer steigt sprunghaft an",
+          "description": "Die Wehrpflicht ist in Deutschland noch immer ausgesetzt. Doch die Zahl der Anträge auf Kriegsdienstverweigerung steigt stark an. Grund ist die verpflichtende Musterung für junge Männer vom kommenden Jahr an.",
+          "source": {
+            "id": "sz",
+            "name": "Süddeutsche Zeitung"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T00:38:47.000Z",
+          "imageUrl": "https://www.sueddeutsche.de/2026/10/06/a910033e-bee0-46ed-9d95-8bc7de84f41d.jpg?rect=272%2C0%2C3556%2C2667&width=1000&fm=jpg&q=60",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
           "id": "-arSIPf_Aqev",
           "url": "https://www.faz.net/aktuell/politik/inland/wehrdienst-zahl-der-kriegsdienstverweigerer-steigt-weiter-stark-an-201291263.html",
           "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/wehrdienst-zahl-der-kriegsdienstverweigerer-steigt-weiter-stark-an-201291263.html",
@@ -131,6 +72,23 @@
           "language": "de",
           "publishedAt": "2026-10-05T23:54:40.000Z",
           "imageUrl": "https://media0.faz.net/image/595cd1476b62/w5161h2903x0y0/202606/43601.0.2220605802/soldaten-der-bundeswehr.webp",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "nrrbdNLoNbPO",
+          "url": "https://www.n-tv.de/politik/Zahl-der-Kriegsdienstverweigerer-verdreifacht-sich-id31384513.html",
+          "canonicalUrl": "https://www.n-tv.de/politik/Zahl-der-Kriegsdienstverweigerer-verdreifacht-sich-id31384513.html",
+          "title": "Trotz ausgesetzter Wehrpflicht: Zahl der Kriegsdienstverweigerer verdreifacht sich",
+          "description": "Das Grundgesetz erlaubt es, den Dienst an der Waffe aus Gewissensgründen abzulehnen. Beim zuständigen Bundesamt stapeln sich die Anträge von Reservisten, Soldaten und Ungedienten. Beratungsstellen berichten von einem auffälligen Zulauf.",
+          "source": {
+            "id": "ntv",
+            "name": "n-tv"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-05T23:01:00.000Z",
+          "imageUrl": "https://www.n-tv.de/img/31384531/1791247063/Img_4_3/250/217574863.jpg",
           "countryCode": "DE",
           "regionCode": null
         },
@@ -152,9 +110,195 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
-      "outletCount": 4,
+      "outletCount24h": 6,
+      "outletCount": 6,
       "latestPublishedAt": "2026-10-06T03:25:07.000Z"
+    },
+    {
+      "id": "CqjQqYFdypSL",
+      "representative": {
+        "id": "CqjQqYFdypSL",
+        "url": "https://www.sueddeutsche.de/politik/hanning-festnahme-spionage-bnd-geheimnisverrat-verdacht-gba-li.3558640",
+        "canonicalUrl": "https://www.sueddeutsche.de/politik/hanning-festnahme-spionage-bnd-geheimnisverrat-verdacht-gba-li.3558640",
+        "title": "Affäre beim BND: Spionageverdacht: Ex-Geheimdienstchef August Hanning verhaftet",
+        "description": "Der frühere BND-Präsident soll noch Jahre nach seinem Ausscheiden von seinem ehemaligen Büroleiter mit geheimen Informationen aus der Behörde versorgt worden sein. Nun wird ermittelt, ob er sie an fremde Mächte verraten hat – es wäre einer der ganz großen Spionagefälle der Bundesrepublik.",
+        "source": {
+          "id": "sz",
+          "name": "Süddeutsche Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T07:59:32.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/5a4df196-1f4b-4af9-801b-4e02ae281954.jpg?rect=1506%2C33%2C1152%2C864&width=1000&fm=jpg&q=60",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "FBjQvJMa9umW",
+          "url": "https://www.faz.net/aktuell/politik/inland/spionageverdacht-ehemaliger-bnd-chef-august-hanning-festgenommen-accg-201292036.html",
+          "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/spionageverdacht-ehemaliger-bnd-chef-august-hanning-festgenommen-accg-201292036.html",
+          "title": "Wegen Spionageverdachts: Ehemaliger BND-Präsident August Hanning festgenommen",
+          "description": "Der frühere Geheimdienstchef soll noch Jahre nach seinem Ausscheiden von seinem ehemaligen Büroleiter mit geheimen Informationen aus der Behörde versorgt worden sein.",
+          "source": {
+            "id": "faz",
+            "name": "Frankfurter Allgemeine"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T08:34:26.000Z",
+          "imageUrl": "https://media0.faz.net/image/49d165dd664e/w3000h1687x0y131/202510/43601.0.1414493528/der-fruehere-praesident-des.webp",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "CXt0iMTPEvSP",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/august-hanning-bnd-festnahme-spionage-mitarbeiter",
+          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/august-hanning-bnd-festnahme-spionage-mitarbeiter",
+          "title": "Spionageverdacht: Ehemaliger BND-Chef August Hanning festgenommen",
+          "description": "Der frühere Geheimdienstchef August Hanning wurde festgenommen. Ihm wird unter anderem Spionage vorgeworfen.",
+          "source": {
+            "id": "zeit",
+            "name": "ZEIT ONLINE"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T08:20:24.000Z",
+          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/august-hanning-vor-nsa-untersuchungsausschuss-bild-2/original__640x360",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "P2ZccoEI-l-d",
+          "url": "https://www.n-tv.de/politik/Ehemaliger-BND-Chef-August-Hanning-wegen-Spionageverdachts-festgenommen-id31385873.html",
+          "canonicalUrl": "https://www.n-tv.de/politik/Ehemaliger-BND-Chef-August-Hanning-wegen-Spionageverdachts-festgenommen-id31385873.html",
+          "title": "Auch Ex-Mitarbeiter in Gewahrsam: Ehemaliger BND-Chef August Hanning wegen Spionageverdachts festgenommen",
+          "description": "Die Generalbundesanwaltschaft ermittelt gegen Ex-BND-Chef Hanning. Gegen diesen gibt es unter anderem den Verdacht des versuchten Landesverrats. Ein ehemaliger Mitarbeiter soll hochsensible Daten an Hanning weitergegeben haben.",
+          "source": {
+            "id": "ntv",
+            "name": "n-tv"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T08:10:33.000Z",
+          "imageUrl": "https://www.n-tv.de/img/31385878/1791281562/Img_4_3/250/62227989.jpg",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "iV8_Zq6c1D5s",
+          "url": "https://www.welt.de/politik/deutschland/article6ac4ab30321809b09dd0771d/ex-bnd-chef-august-hanning-wegen-spionageverdachts-festgenommen.html",
+          "canonicalUrl": "https://www.welt.de/politik/deutschland/article6ac4ab30321809b09dd0771d/ex-bnd-chef-august-hanning-wegen-spionageverdachts-festgenommen.html",
+          "title": "Ex-BND-Chef August Hanning wegen Spionageverdachts festgenommen",
+          "description": "Ermittler werfen dem früheren BND‑Präsidenten August Hanning das Ausspähen von Staatsgeheimnissen vor. Es gibt den Verdacht, er wollte Informationen verkaufen.",
+          "source": {
+            "id": "welt",
+            "name": "WELT"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T08:05:58.000Z",
+          "imageUrl": "https://images.welt.de/6ac4ab30321809b09dd0771d/59d2b8f1c9398cf4a3f0e298b324af33-master/ci23x11-w1200/dpa-com-20090101-251028-935-919221-jpg",
+          "countryCode": "DE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T08:34:26.000Z"
+    },
+    {
+      "id": "j1PnLPD2nIDH",
+      "representative": {
+        "id": "j1PnLPD2nIDH",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-schulze-bab-100.html",
+        "canonicalUrl": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-schulze-bab-100.html",
+        "title": "Schulze zu Sachsen-Anhalt: \"Es wird keiner von der CDU zur AfD wechseln\"",
+        "description": "Die AfD will nach der Wahl in Sachsen-Anhalt regieren, doch ihr fehlt bisher eine Mehrheit. CDU-Fraktionschef Schulze bekräftigte im Bericht aus Berlin, dass die AfD bei der Ministerpräsidentenwahl nicht auf CDU-Stimmen setzen könne.",
+        "source": {
+          "id": "tagesschau",
+          "name": "tagesschau"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-04T18:40:10.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "RKfwiWyZdhdQ",
+          "url": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-li.3556472",
+          "canonicalUrl": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-li.3556472",
+          "title": "Liveblog Sachsen-Anhalt: Gegendemonstranten versammeln sich vor dem Landtag – Sitzung beginnt um 11 Uhr",
+          "description": "Bei der konstituierenden Sitzung in Magdeburg soll Tobias Rausch zum ersten AfD-Landtagspräsidenten gewählt werden. Verfolgen Sie die Sitzung im Liveblog.",
+          "source": {
+            "id": "sz",
+            "name": "Süddeutsche Zeitung"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T08:59:11.000Z",
+          "imageUrl": "https://www.sueddeutsche.de/2026/10/06/1929232b-2b22-4bcf-8a4e-52a57b2a2d67.jpg?rect=793%2C116%2C2939%2C2204&width=1000&fm=jpg&q=60",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "KbEIEIVi-GfB",
+          "url": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-so-laeuft-die-erste-sitzung-im-neuen-landtag-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11#ref=rss",
+          "canonicalUrl": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-so-laeuft-die-erste-sitzung-im-neuen-landtag-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11",
+          "title": "Sachsen-Anhalt - Magdeburg: So läuft die erste Sitzung im neuen Landtag",
+          "description": "In Sachsen-Anhalt kommt erstmals der neu gewählte Landtag zusammen. Auf der Agenda steht eine wichtige Personalie: Erstmals könnte die AfD einen Landtagspräsidenten stellen. Die Sitzung in der Live-Analyse.",
+          "source": {
+            "id": "spiegel",
+            "name": "DER SPIEGEL"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T08:44:00.000Z",
+          "imageUrl": "https://cdn.prod.www.spiegel.de/images/258e477e-8a61-49bd-997f-a4915f5d4409_w520_r2.08_fpx33.34_fpy50.jpg",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "hc-Do-HnoZFm",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
+          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
+          "title": "Landtag von Sachsen-Anhalt: Wählt das erste Parlament einen AfD-Politiker zum Präsidenten?",
+          "description": "In Magdeburg konstituiert sich Sachsen-Anhalts neuer Landtag. Vor dem Parlamentsgebäude demonstrieren Hunderte gegen die rechtsextreme Wahlsiegerin AfD. Das Liveblog",
+          "source": {
+            "id": "zeit",
+            "name": "ZEIT ONLINE"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T08:43:52.000Z",
+          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live-bild2/original__640x360",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "qrivlcsidifR",
+          "url": "https://www.n-tv.de/politik/Wagenknecht-sieht-AfD-Landtagspraesident-als-Selbstverstaendlichkeit-id31384883.html",
+          "canonicalUrl": "https://www.n-tv.de/politik/Wagenknecht-sieht-AfD-Landtagspraesident-als-Selbstverstaendlichkeit-id31384883.html",
+          "title": "Wahl in Sachsen-Anhalt: Wagenknecht sieht AfD-Landtagspräsident als \"Selbstverständlichkeit\"",
+          "description": "Sachsen-Anhalt steht voraussichtlich vor einer Premiere: Die Wahl des Parlamentspräsidenten wird wohl erstmals ein AfD-Kandidat gewinnen. Möglich machen will dies das BSW. Gründerin Wagenknecht erklärt, sie löse damit ein Versprechen ein.",
+          "source": {
+            "id": "ntv",
+            "name": "n-tv"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T04:49:13.000Z",
+          "imageUrl": "https://www.n-tv.de/img/31384812/1791266092/Img_4_3/250/image.jpg",
+          "countryCode": "DE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T08:59:11.000Z"
     },
     {
       "id": "F35PzBoEuUI-",
@@ -275,46 +419,46 @@
       "latestPublishedAt": "2026-10-05T15:27:52.000Z"
     },
     {
-      "id": "PWPDxC23Ywkl",
+      "id": "gUZS5v-JG031",
       "representative": {
-        "id": "PWPDxC23Ywkl",
-        "url": "https://www.spiegel.de/politik/deutschland/news-afd-praesident-fuer-sachsen-anhalts-landtag-wachsende-staedte-vs-abgehaengte-doerfer-plan-fuer-die-bahn-a-f5f2ede2-cd79-4e9c-ae65-21d445aad2d1#ref=rss",
-        "canonicalUrl": "https://www.spiegel.de/politik/deutschland/news-afd-praesident-fuer-sachsen-anhalts-landtag-wachsende-staedte-vs-abgehaengte-doerfer-plan-fuer-die-bahn-a-f5f2ede2-cd79-4e9c-ae65-21d445aad2d1",
-        "title": "News: AfD-Präsident für Sachsen-Anhalts Landtag, wachsende Städte vs abgehängte Dörfer, Deutsche Bahn",
-        "description": "Die AfD will in Sachsen-Anhalt den ersten Schritt zur Macht gehen. Forscher erklären die demografische Lage der Nation. Und: Die Bahn hat jetzt einen Plan. Das ist die Lage am Dienstagmorgen.",
+        "id": "gUZS5v-JG031",
+        "url": "https://www.sueddeutsche.de/politik/news-iran-nahost-krieg-iran-usa-grossbritannien-gefahr-drohnenangriff-huthi-jemen-saudi-arabien-li.3530668",
+        "canonicalUrl": "https://www.sueddeutsche.de/politik/news-iran-nahost-krieg-iran-usa-grossbritannien-gefahr-drohnenangriff-huthi-jemen-saudi-arabien-li.3530668",
+        "title": "Newsblog zum Nahost-Krieg: Huthi melden Angriffe auf Ziele in Saudi-Arabien",
+        "description": "Darunter seien der internationale Flughafen in Riad und Abha, eine Erdöl-Raffinerie sowie ein Militärstützpunkt. Pakistan, Saudi-Arabien und die Türkei beschließen die Verlegung gemeinsamer Truppen nach Saudi-Arabien.",
         "source": {
-          "id": "spiegel",
-          "name": "DER SPIEGEL"
+          "id": "sz",
+          "name": "Süddeutsche Zeitung"
         },
         "sourceCountry": "DE",
         "language": "de",
-        "publishedAt": "2026-10-06T03:38:00.000Z",
-        "imageUrl": "https://cdn.prod.www.spiegel.de/images/dd17189a-707c-4b57-af32-bf59855d3d25_w520_r2.08_fpx28.09_fpy49.93.png",
+        "publishedAt": "2026-10-06T08:37:54.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/5fc3fa3d-681b-4983-b4f6-fbc9b1337c5b.jpg?rect=1201%2C897%2C1454%2C1090&width=1000&fm=jpg&q=60",
         "countryCode": "DE",
         "regionCode": null
       },
       "related": [
         {
-          "id": "hc-Do-HnoZFm",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
-          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
-          "title": "Landtag von Sachsen-Anhalt: Wählt das erste Parlament einen AfD-Politiker zum Präsidenten?",
-          "description": "In Magdeburg konstituiert sich Sachsen-Anhalts neuer Landtag. Vor dem Parlamentsgebäude demonstrieren Hunderte gegen die rechtsextreme Wahlsiegerin AfD. Das Liveblog",
+          "id": "HW7xxoCBlVwS",
+          "url": "https://www.n-tv.de/politik/Tuerkei-und-Pakistan-schicken-Truppen-nach-Saudi-Arabien-id31384347.html",
+          "canonicalUrl": "https://www.n-tv.de/politik/Tuerkei-und-Pakistan-schicken-Truppen-nach-Saudi-Arabien-id31384347.html",
+          "title": "Reaktion auf Angriffe der Huthis: Türkei und Pakistan schicken Truppen nach Saudi-Arabien",
+          "description": "Die sogenannte Mekka-Allianz aus Pakistan, Saudi-Arabien und der Türkei wertet den Angriff auf ein Mitgliedsland als Angriff auf alle. Die zunehmenden Angriffe der Huthi-Miliz - auch auf wichtige Stätten des Islams - führen nun zu einer ersten Truppenentsendung.",
           "source": {
-            "id": "zeit",
-            "name": "ZEIT ONLINE"
+            "id": "ntv",
+            "name": "n-tv"
           },
           "sourceCountry": "DE",
           "language": "de",
-          "publishedAt": "2026-10-06T08:43:52.000Z",
-          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live-bild2/original__640x360",
+          "publishedAt": "2026-10-05T19:40:50.000Z",
+          "imageUrl": "https://www.n-tv.de/img/31384353/1791234225/Img_4_3/250/AFP__20261005__D2B78NQ__v1__HighRes__SaudiTurkeyPakistanDiplomacyDefence.jpg",
           "countryCode": "DE",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:44:00.000Z"
+      "latestPublishedAt": "2026-10-06T08:37:54.000Z"
     },
     {
       "id": "GqDMmTwO83oe",
@@ -443,65 +587,6 @@
       "latestPublishedAt": "2026-10-06T04:49:51.000Z"
     },
     {
-      "id": "j1PnLPD2nIDH",
-      "representative": {
-        "id": "j1PnLPD2nIDH",
-        "url": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-schulze-bab-100.html",
-        "canonicalUrl": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-schulze-bab-100.html",
-        "title": "Schulze zu Sachsen-Anhalt: \"Es wird keiner von der CDU zur AfD wechseln\"",
-        "description": "Die AfD will nach der Wahl in Sachsen-Anhalt regieren, doch ihr fehlt bisher eine Mehrheit. CDU-Fraktionschef Schulze bekräftigte im Bericht aus Berlin, dass die AfD bei der Ministerpräsidentenwahl nicht auf CDU-Stimmen setzen könne.",
-        "source": {
-          "id": "tagesschau",
-          "name": "tagesschau"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-04T18:40:10.000Z",
-        "imageUrl": null,
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "qrivlcsidifR",
-          "url": "https://www.n-tv.de/politik/Wagenknecht-sieht-AfD-Landtagspraesident-als-Selbstverstaendlichkeit-id31384883.html",
-          "canonicalUrl": "https://www.n-tv.de/politik/Wagenknecht-sieht-AfD-Landtagspraesident-als-Selbstverstaendlichkeit-id31384883.html",
-          "title": "Wahl in Sachsen-Anhalt: Wagenknecht sieht AfD-Landtagspräsident als \"Selbstverständlichkeit\"",
-          "description": "Sachsen-Anhalt steht voraussichtlich vor einer Premiere: Die Wahl des Parlamentspräsidenten wird wohl erstmals ein AfD-Kandidat gewinnen. Möglich machen will dies das BSW. Gründerin Wagenknecht erklärt, sie löse damit ein Versprechen ein.",
-          "source": {
-            "id": "ntv",
-            "name": "n-tv"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T04:49:13.000Z",
-          "imageUrl": "https://www.n-tv.de/img/31384812/1791266092/Img_4_3/250/image.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "DYSSZiF79mhg",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/afd-bsw-landtag-sachsen-anhalt-kooperation-gxe",
-          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/afd-bsw-landtag-sachsen-anhalt-kooperation-gxe",
-          "title": "Sachsen-Anhalt: AfD und BSW wollen ersten AfD-Landtagspräsidenten wählen",
-          "description": "Mit der geplanten Wahl eines Landtagspräsidenten von der AfD möchte das BSW in Sachsen-Anhalt »parlamentarische Gepflogenheiten« achten. Andere Fraktionen äußern Kritik.",
-          "source": {
-            "id": "zeit",
-            "name": "ZEIT ONLINE"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-05T15:59:11.000Z",
-          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/afd-bsw-landtag-sachsen-anhalt-kooperation-bild2/original__640x360",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T04:49:13.000Z"
-    },
-    {
       "id": "HtMLH0u4SrmR",
       "representative": {
         "id": "HtMLH0u4SrmR",
@@ -610,6 +695,30 @@
       "latestPublishedAt": "2026-10-06T08:42:00.000Z"
     },
     {
+      "id": "sUq1DNsInepS",
+      "representative": {
+        "id": "sUq1DNsInepS",
+        "url": "https://www.sueddeutsche.de/politik/flydubai-co-pilot-israel-tel-aviv-flughafen-li.3559037",
+        "canonicalUrl": "https://www.sueddeutsche.de/politik/flydubai-co-pilot-israel-tel-aviv-flughafen-li.3559037",
+        "title": "Laut Medienberichten: Flydubai-Co-Pilot wollte wohl Tel Aviver Flughafen treffen",
+        "description": "Der Flughafen Ben Gurion soll das Ziel des mutmaßlichen Angreifers gewesen sein. Zuvor war der Co-Pilot laut US-Medien wegen Sicherheitsbedenken aufgefallen – offenbar galt für ihn in Oman sogar ein Flugverbot.",
+        "source": {
+          "id": "sz",
+          "name": "Süddeutsche Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T08:41:58.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/66349d2d-127c-4dcc-9416-3e4ae13f7e24.jpg?rect=0%2C0%2C2351%2C1763&width=1000&fm=jpg&q=60",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:41:58.000Z"
+    },
+    {
       "id": "YNF6cP5zrSRA",
       "representative": {
         "id": "YNF6cP5zrSRA",
@@ -656,30 +765,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T08:00:29.000Z"
-    },
-    {
-      "id": "DJ-3YaGyAPxL",
-      "representative": {
-        "id": "DJ-3YaGyAPxL",
-        "url": "https://www.welt.de/politik/deutschland/video6ac4a3878b65780eaf134a10/afd-demos-in-sachsen-anhalt-problematisch-wird-es-immer-dann-wenn-zwei-gegnerische-gruppen-aufeinandertreffen.html",
-        "canonicalUrl": "https://www.welt.de/politik/deutschland/video6ac4a3878b65780eaf134a10/afd-demos-in-sachsen-anhalt-problematisch-wird-es-immer-dann-wenn-zwei-gegnerische-gruppen-aufeinandertreffen.html",
-        "title": "„Problematisch wird es immer dann, wenn zwei gegnerische Gruppen aufeinandertreffen“",
-        "description": "Zur konstituierenden Landtagssitzung in Sachsen-Anhalt wurden vier Demonstrationen angekündigt. DPolG-Chef Heiko Teggatz erklärt, wie die Polizei ein Aufeinandertreffen von AfD-Befürwortern und Gegnern verhindern will.",
-        "source": {
-          "id": "welt",
-          "name": "WELT"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T07:56:07.000Z",
-        "imageUrl": "https://images.welt.de/6ac4a3878b65780eaf134a10/7351bac202dc0c1529284dfe589788e4-master/ci16x9-w1200/dpa-com-260912-936-90929-jpg",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T07:56:07.000Z"
     }
   ]
 }

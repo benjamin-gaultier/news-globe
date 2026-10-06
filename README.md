@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers **France (FR)**, the **United States (US)**, the **United Kingdom (GB)** and **Germany (DE)**. Other countries are greyed out and marked "coming soon".
+It covers **France (FR)**, the **United States (US)**, the **United Kingdom (GB)**, **Germany (DE)** and **Spain (ES)**. Other countries are greyed out and marked "coming soon".
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -203,12 +203,12 @@ The Hill (`thehill.com/homenews/feed/`) and NBC (`feeds.nbcnews.com/nbcnews/publ
 | --- | --- | --- | --- |
 | BBC News | UK, politics | 10 | ✅ |
 | The Guardian | uk-news, politics | 9 | ✅ |
+| The Independent | politics, UK | 8 | ✅ |
 | Sky News | UK, politics | 8 | ✅ (low volume: ~10 items per feed) |
 | The i Paper | news | 7 | ✅ (10 items) |
 | Evening Standard | UK news | 6 | ✅ |
 | Daily Mirror | UK news | 5 | ✅ |
 | ~~The Telegraph~~ | — | — | ❌ **dropped**: `news/rss.xml` responds but is stale (newest item from June 2026) |
-| ~~The Independent~~ | — | — | ❌ **dropped**: section feeds return a single item |
 | ~~The Times~~ / ~~ITV~~ / ~~FT~~ | — | — | ❌ no usable public RSS (HTML, timeout, single item) |
 
 **Germany** (added 2026-10-06)
@@ -217,15 +217,33 @@ The Hill (`thehill.com/homenews/feed/`) and NBC (`feeds.nbcnews.com/nbcnews/publ
 | --- | --- | --- | --- |
 | tagesschau | Innenpolitik, Inland | 10 | ✅ |
 | DER SPIEGEL | Politik Deutschland | 9 | ✅ |
+| Süddeutsche Zeitung | Politik | 9 | ✅ |
 | Frankfurter Allgemeine | Politik Inland | 8 | ✅ |
 | ZEIT ONLINE | Politik Deutschland | 8 | ✅ |
 | WELT | Politik Deutschland | 7 | ✅ |
 | n-tv | Politik | 6 | ✅ |
-| ~~Süddeutsche Zeitung~~ | — | — | ❌ **dropped**: `rss.sueddeutsche.de/rss/Politik` returns a single item |
 
 ZDF heute (`zdf.de/rss/zdf/nachrichten`) and Tagesspiegel (`tagesspiegel.de/contentexport/feed/politik`) also work, but mix in international news.
 
-German titles use their own stopword list ([normalize/text.ts](packages/ingest/src/normalize/text.ts), `STOPWORDS_BY_LANGUAGE`) and fold `-en` endings. The list is per-language because words like *die*, *war* and *man* are stopwords in German but carry meaning in English.
+German and Spanish titles use their own stopword lists ([normalize/text.ts](packages/ingest/src/normalize/text.ts), `STOPWORDS_BY_LANGUAGE`), and German also folds `-en` endings. The list is per-language because words like *die*, *war* and *man* are stopwords in German but carry meaning in English.
+
+**Spain** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| El País | España | 10 | ✅ |
+| El Mundo | España | 9 | ✅ |
+| ABC | España | 8 | ✅ |
+| La Vanguardia | Política | 7 | ✅ (high volume, ~100 items) |
+| El Confidencial | España | 7 | ✅ (Atom feed) |
+| elDiario.es | Política | 6 | ✅ |
+| 20minutos | Nacional | 5 | ✅ |
+| ~~RTVE~~ | — | — | ❌ **dropped**: public feeds are stale (newest items from 2022) |
+| ~~Europa Press~~ | — | — | ❌ **dropped**: no response |
+
+El Español (`elespanol.com/rss/espana/`) and Antena 3 also work and are good substitutes.
+
+When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`.
 
 Authority weights are editorial judgment calls. They only decide which outlet's headline represents a cluster, not ranking.
 

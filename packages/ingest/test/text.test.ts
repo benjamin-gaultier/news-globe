@@ -51,6 +51,19 @@ describe('titleTokens: per-language stopwords', () => {
     expect([...titleTokens('Former speaker dies at 84')]).toContain('dies');
   });
 
+  it('drops Spanish stopwords and live-blog markers for es', () => {
+    expect([...titleTokens('Sánchez adelanta las elecciones al 29 de noviembre', 'es')]).toEqual([
+      'sanchez',
+      'adelanta',
+      'eleccion',
+      '29',
+      'noviembr',
+    ]);
+    expect(titleTokens('Última hora: elecciones generales, en directo', 'es')).toEqual(
+      titleTokens('elecciones generales', 'es'),
+    );
+  });
+
   it('folds German -en inflections', () => {
     expect(titleTokens('Grünen Parteien Wahlen', 'de')).toEqual(titleTokens('Grüne Partei Wahl', 'de'));
   });
