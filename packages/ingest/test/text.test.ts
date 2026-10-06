@@ -202,6 +202,22 @@ describe('titleTokens: Chinese, Indonesian and Vietnamese', () => {
   });
 });
 
+describe('titleTokens: Armenian, Azerbaijani and Uzbek', () => {
+  it('drops Armenian stopwords', () => {
+    expect(titleTokens('Կառավարությունը հաստատել է բյուջեն այսօր', 'hy')).toEqual(new Set(['կառավարությունը', 'հաստատել', 'բյուջեն']));
+  });
+  it('folds Azerbaijani and drops stopwords', () => {
+    expect(titleTokens('Prezident İlham Əliyev Bakıda görüş keçirib və danışıb', 'az')).toEqual(
+      titleTokens('Prezident Ilham Əliyev Bakida gorus kecirib danisib', 'az'),
+    );
+    expect(titleTokens('Bu gün Bakıda', 'az').has('bu')).toBe(false);
+  });
+  it('makes Uzbek oʻ/gʻ spellings agree', () => {
+    expect(titleTokens('Fargʻona shahrida yangi boʻlim ochildi', 'uz')).toEqual(titleTokens("Farg'ona shahrida yangi bo’lim ochildi", 'uz'));
+    expect(titleTokens('Toshkentda yangi bino boʻldi', 'uz').has('boldi')).toBe(false);
+  });
+});
+
 describe('titleTokens: years', () => {
   it('drops French calendar words', () => {
     expect(titleTokens('Nécrologie du 06 octobre 2026', 'fr')).toEqual(new Set(['06', 'necrologi']));
