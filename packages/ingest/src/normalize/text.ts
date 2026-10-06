@@ -117,6 +117,14 @@ haber estar esta estan era eran muy mas menos ya no si tambien todo toda todos t
 otros otras mismo misma tras durante cada asi aun nuevo nueva nuevos nuevas ultima hora directo
 dice dicen`;
 
+const STOPWORDS_IT = `
+il lo la i gli le un uno una di a da in con su per tra fra del dello della dei degli delle al allo
+alla ai agli alle dal dallo dalla dai dagli dalle nel nello nella nei negli nelle sul sullo sulla
+sui sugli sulle e ed o ma anche se che chi cui non piu meno come dove quando perche quale quali
+questo questa questi queste quello quella quelli quelle suo sua suoi sue loro mi ti ci vi si ne
+lui lei noi voi essi e sono era erano stato stata stati essere ha hanno aveva avere fa fare dopo
+prima ancora gia solo tutto tutti tutta tutte molto poi cosa ecco oggi nuovo nuova ora diretta`;
+
 // Format markers that say nothing about the story ("EN DIRECT", "LIVE UPDATES", "VIDEO", "LIVE-TICKER").
 const BOILERPLATE = `direct live video videos photo photos watch updates update podcast replay liveblog ticker newsblog`;
 
@@ -132,6 +140,7 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   en: STOPWORDS_FR_EN,
   de: wordSet(STOPWORDS_DE, STOPWORDS_EN, BOILERPLATE),
   es: wordSet(STOPWORDS_ES, STOPWORDS_EN, BOILERPLATE),
+  it: wordSet(STOPWORDS_IT, STOPWORDS_EN, BOILERPLATE),
 };
 
 /**

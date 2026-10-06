@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "IT",
+  "countryName": "Italy",
+  "updatedAt": "2026-10-06T09:15:27.087Z",
+  "clusters": [
+    {
+      "id": "7VAJy-PSHyg7",
+      "representative": {
+        "id": "7VAJy-PSHyg7",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/05/il-governo-pone-la-fiducia-sugli-articoli-1-2-3-della-legge-elettorale_72f11e68-9571-4369-b4e3-aa0adcc85cdf.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/politica/2026/10/05/il-governo-pone-la-fiducia-sugli-articoli-1-2-3-della-legge-elettorale_72f11e68-9571-4369-b4e3-aa0adcc85cdf.html",
+        "title": "Il governo pone la fiducia sugli articoli 1-2-3 della legge elettorale",
+        "description": "L'ha chiesta il ministro per i rapporti con il Parlamento, Luca Ciriani",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T12:16:01.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "0-lX7LEzr0Dp",
+          "url": "https://tg24.sky.it/politica/2026/10/06/nuova-legge-elettorale-camera-oggi",
+          "canonicalUrl": "https://tg24.sky.it/politica/2026/10/06/nuova-legge-elettorale-camera-oggi",
+          "title": "Legge elettorale, ore decisive: oggi fiducia su 2 articoli, giovedì voto finale Camera",
+          "description": "Oggi e domani a Montecitorio si vota la fiducia sui primi tre articoli del testo, che sono stati modificati - insieme all'articolo 8 - al Senato. Giovedì 8 ottobre, alle 12.30, ci sarà il voto finale sulla riforma a scrutinio segreto. Un meccanismo che ha scatenato l’ira delle opposizioni, che…",
+          "source": {
+            "id": "skytg24",
+            "name": "Sky TG24"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T09:15:27.087Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": null
+        },
+        {
+          "id": "LBKKYB6lYoDK",
+          "url": "https://www.rainews.it/articoli/2026/10/legge-elettorale-il-governo-pone-la-fiducia-sui-primi-3-articoli-il-calendario-delle-votazioni-566ca898-895c-48d9-9a42-982bb742d314.html",
+          "canonicalUrl": "https://www.rainews.it/articoli/2026/10/legge-elettorale-il-governo-pone-la-fiducia-sui-primi-3-articoli-il-calendario-delle-votazioni-566ca898-895c-48d9-9a42-982bb742d314.html",
+          "title": "Legge elettorale, il governo pone la fiducia sui primi 3 articoli. Il calendario delle votazioni",
+          "description": "Si comincia oggi dalle 12. Voto finale giovedì, in tarda mattinata. Le opposizioni: schiaffo al Parlamento, la maggioranza ha paura. Donzelli: \"Se il governo va sotto, Meloni sale al Colle\"",
+          "source": {
+            "id": "rainews",
+            "name": "RaiNews"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T05:12:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2021/12/27/1640599142736_Immagine__.png",
+          "countryCode": "IT",
+          "regionCode": null
+        },
+        {
+          "id": "lH6OPp3rrikH",
+          "url": "https://www.repubblica.it/politica/2026/10/05/news/nuova_legge_elettorale_meloni_voto_oggi-425626857/?rss",
+          "canonicalUrl": "https://www.repubblica.it/politica/2026/10/05/news/nuova_legge_elettorale_meloni_voto_oggi-425626857/?rss=",
+          "title": "Legge elettorale: fiducia su 3 articoli, opposizione protesta. Tutte le tappe prima del voto finale",
+          "description": "L’ultimo atto del Melonellum è previsto, a scrutinio segreto, giovedì 8 ottobre con dichiarazioni in diretta tv. Malan (FdI): “Elezioni? Potrebbero aver senso a maggio con le Comunali”",
+          "source": {
+            "id": "repubblica",
+            "name": "la Repubblica"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T15:34:26.000Z",
+          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/130105858-e776d9da-ce40-4c5b-9bc2-b55eb2b25074.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        },
+        {
+          "id": "skFXmdI5g8Xg",
+          "url": "https://www.ilsole24ore.com/art/legge-elettorale-governo-pone-fiducia-articoli-1-2-e-3-giovedi-maggioranza-prova-voto-AJGbjdZB",
+          "canonicalUrl": "https://www.ilsole24ore.com/art/legge-elettorale-governo-pone-fiducia-articoli-1-2-e-3-giovedi-maggioranza-prova-voto-AJGbjdZB",
+          "title": "Legge elettorale: il governo pone la fiducia su tre articoli chiave. Giovedì voto finale",
+          "description": "Giovedì, 8 ottobre a partire dalle 10.30 si svolgeranno le dichiarazioni di voto finale sul provvedimento in diretta tv: la votazione finale è prevista non prima delle ore 12.30",
+          "source": {
+            "id": "sole24ore",
+            "name": "Il Sole 24 Ore"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T12:32:00.000Z",
+          "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/06/Immagini/Ritagli/d2b375a524efe0853c76adfc0506b905-U41841858227wUv-1440x752@IlSole24Ore-Web.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T09:15:27.087Z"
+    },
+    {
+      "id": "KbM4nGd0UOa2",
+      "representative": {
+        "id": "KbM4nGd0UOa2",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/05/ranucci-sospeso-per-dieci-giorni-dalla-rai_e34a2d9f-28d4-4952-a31a-af50123acf6a.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/politica/2026/10/05/ranucci-sospeso-per-dieci-giorni-dalla-rai_e34a2d9f-28d4-4952-a31a-af50123acf6a.html",
+        "title": "Ranucci sospeso per dieci giorni dalla Rai",
+        "description": "Quattro contestazioni disciplinari alla base della decisione",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T15:17:26.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "7ou98sDY4PQT",
+          "url": "https://www.repubblica.it/politica/2026/10/05/news/rai_sospende_ranucci_dieci_giorni-425627388/?rss",
+          "canonicalUrl": "https://www.repubblica.it/politica/2026/10/05/news/rai_sospende_ranucci_dieci_giorni-425627388/?rss=",
+          "title": "La Rai sospende Ranucci per dieci giorni: ecco le contestazioni",
+          "description": "La decisione dell’azienda nei confronti del giornalista ed ex conduttore di Report che cita De Gregori. L’avvocato: impugneremo il provvedimento",
+          "source": {
+            "id": "repubblica",
+            "name": "la Repubblica"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T18:44:20.000Z",
+          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/170048081-1ed59f4c-993e-4ef3-bb19-15ef88b297aa.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        },
+        {
+          "id": "0Av9UxMPvsDM",
+          "url": "https://www.ilpost.it/2026/10/05/rai-sospeso-sigfrido-ranucci/",
+          "canonicalUrl": "https://www.ilpost.it/2026/10/05/rai-sospeso-sigfrido-ranucci/",
+          "title": "La Rai ha sospeso Sigfrido Ranucci per dieci giorni",
+          "description": "Per via di quattro comportamenti ritenuti scorretti, secondo l'Ansa: l'avvocato di Ranucci ha già detto che faranno ricorso",
+          "source": {
+            "id": "ilpost",
+            "name": "Il Post"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T15:27:43.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": null
+        },
+        {
+          "id": "dcYR6yPwvaSA",
+          "url": "https://www.ilsole24ore.com/art/rai-sospende-sigfrido-ranucci-10-giorni-AJcJ9rZB",
+          "canonicalUrl": "https://www.ilsole24ore.com/art/rai-sospende-sigfrido-ranucci-10-giorni-AJcJ9rZB",
+          "title": "Rai sospende Sigfrido Ranucci per 10 giorni. La replica: «Impugneremo»",
+          "description": "Alla base del provvedimento quattro contestazioni disciplinari: dagli accessi di Cianfoni in azienda alla denigrazione di Presutti e Piervincenzi",
+          "source": {
+            "id": "sole24ore",
+            "name": "Il Sole 24 Ore"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T15:23:00.000Z",
+          "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/06/Immagini/Ritagli/7a59d701d041fb55b08bc2c0dfbb548d-U47118336655ulB-1440x752@IlSole24Ore-Web.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-05T18:44:20.000Z"
+    },
+    {
+      "id": "RTqlpag_5sMz",
+      "representative": {
+        "id": "RTqlpag_5sMz",
+        "url": "https://www.repubblica.it/politica/2026/10/05/news/giorgia_meloni_registra_suo_marchio_vocale_contro_cloni_ia_deepfake-425626542/?rss",
+        "canonicalUrl": "https://www.repubblica.it/politica/2026/10/05/news/giorgia_meloni_registra_suo_marchio_vocale_contro_cloni_ia_deepfake-425626542/?rss=",
+        "title": "\"Io sono Giorgia Meloni\". La premier registra il suo marchio vocale contro i cloni IA e i deepfake",
+        "description": "La presidente del Consiglio si rivolge all'Ufficio dell'Unione europea per la proprietà intellettuale e deposita il suo timbro",
+        "source": {
+          "id": "repubblica",
+          "name": "la Repubblica"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T09:37:17.000Z",
+        "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/113500339-12c30915-4789-4fc8-9313-d4a5d1065e30.jpg",
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "7Tt7RdhCgFaf",
+          "url": "https://www.ilsole24ore.com/art/io-sono-giorgia-meloni-premier-registra-sua-voce-all-ufficio-marchi-contro-fake-AJ9kGfZB",
+          "canonicalUrl": "https://www.ilsole24ore.com/art/io-sono-giorgia-meloni-premier-registra-sua-voce-all-ufficio-marchi-contro-fake-AJ9kGfZB",
+          "title": "«Io sono Giorgia Meloni»: la premier registra la sua voce all’ufficio marchi contro i fake",
+          "description": "Quattro secondi in cui viene detto: « Io sono Giorgia Meloni ». La presidente del Consiglio ha registrato oggi, 5 ottobre 2026, l’ audio da sottoporre all’esame dell’ Ufficio dell’Unione europea per la proprietà...",
+          "source": {
+            "id": "sole24ore",
+            "name": "Il Sole 24 Ore"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T12:57:00.000Z",
+          "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/06/Immagini/Ritagli/736cacf93dafc435be8e5b890a20c27e-U65328468860uVI-1440x752@IlSole24Ore-Web.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        },
+        {
+          "id": "Vxni5hLqYxSj",
+          "url": "https://tg24.sky.it/politica/video/2026/10/05/meloni-registra-sua-voce-a-ufficio-marchi-ue-contro-deepfake-1129409",
+          "canonicalUrl": "https://tg24.sky.it/politica/video/2026/10/05/meloni-registra-sua-voce-a-ufficio-marchi-ue-contro-deepfake-1129409",
+          "title": "Meloni registra sua voce a ufficio marchi UE contro deepfake",
+          "description": "Giorgia Meloni ha registrato il proprio timbro vocale presso l’Ufficio dell’Unione europea per la proprietà intellettuale. Palazzo Chigi ha confermato che l'iniziativa della premier è finalizzata a creare una tutela legale contro le clonazioni e la creazione di audio falsi realizzati con…",
+          "source": {
+            "id": "skytg24",
+            "name": "Sky TG24"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T12:00:00.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-05T23:00:00.000Z"
+    },
+    {
+      "id": "dXI8oF4HniKZ",
+      "representative": {
+        "id": "dXI8oF4HniKZ",
+        "url": "https://www.repubblica.it/cronaca/2026/10/05/news/richard_gere_matteo_salvini_video_migranti_lezioni_italiani-425628250/?rss",
+        "canonicalUrl": "https://www.repubblica.it/cronaca/2026/10/05/news/richard_gere_matteo_salvini_video_migranti_lezioni_italiani-425628250/?rss=",
+        "title": "Migranti, Salvini dopo il video di Richard Gere: “Fai l’attore, non dare lezioni agli italiani”",
+        "description": "La stella di Hollywood aveva registrato un filmato a sostegno di ActionAid. “Difendiamo la comune umanità”",
+        "source": {
+          "id": "repubblica",
+          "name": "la Repubblica"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T20:38:30.000Z",
+        "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/223817957-6c2293d2-534e-4cff-94b4-3fddd682db84.jpg",
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "rT9NuI4wH2_9",
+          "url": "https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere",
+          "canonicalUrl": "https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere",
+          "title": "Migranti, Salvini: \"Gere continui a fare l'attore senza dare lezioni agli italiani\"",
+          "description": "Lo ha scritto sui social il leader della Lega, a commento di un recente video sul tema dell'immigrazione che il popolare attore ed attivista americano ha diffuso a sostegno di ActionAid",
+          "source": {
+            "id": "skytg24",
+            "name": "Sky TG24"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T09:15:27.087Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:15:27.087Z"
+    },
+    {
+      "id": "ae9ODaFgrSIp",
+      "representative": {
+        "id": "ae9ODaFgrSIp",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/ucciso-in-casa-a-torino-arrestati-la-moglie-e-il-compagno_bc4a8eb2-ced7-418e-a194-175279df72e8.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/ucciso-in-casa-a-torino-arrestati-la-moglie-e-il-compagno_bc4a8eb2-ced7-418e-a194-175279df72e8.html",
+        "title": "Ucciso in casa a Torino, arrestati la moglie e il compagno",
+        "description": "La vittima era stata trovata morta a luglio, contestato l'omicidio premeditato",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T07:25:08.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "8uaBJ8WA4RSG",
+          "url": "https://torino.repubblica.it/cronaca/2026/10/06/news/torino_risoltoomicidio_mikel_rroku-425628524/?rss",
+          "canonicalUrl": "https://torino.repubblica.it/cronaca/2026/10/06/news/torino_risoltoomicidio_mikel_rroku-425628524/?rss=",
+          "title": "Torino, risolto il giallo di via Verolengo: arrestati la moglie e il suo compagno",
+          "description": "Il corpo di Mikel Rroku, pizzaiolo albanese di 55 anni, era stato trovato tre mesi fa nel suo appartamento di Lucento. Secondo l’accusa, la donna e il nuovo compagno avrebbero organizzato ed eseguito insieme il delitto.",
+          "source": {
+            "id": "repubblica",
+            "name": "la Repubblica"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T09:01:50.000Z",
+          "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-torino/2026/10/06/082535160-0f199da6-468e-402d-ae6a-16dd75e9e648.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:01:50.000Z"
+    },
+    {
+      "id": "pOXLR7cdzJoK",
+      "representative": {
+        "id": "pOXLR7cdzJoK",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/scontri-derby-torino-juventus-sono-una-ventina-le-misure-cautelari_05b09067-682f-4b80-97da-ba94a4ed6c7a.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/scontri-derby-torino-juventus-sono-una-ventina-le-misure-cautelari_05b09067-682f-4b80-97da-ba94a4ed6c7a.html",
+        "title": "Scontri derby Torino-Juventus, sono una ventina le misure cautelari",
+        "description": "In quel contesto venne ferito da un lacrimogeno un tifoso bianconero",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T07:21:30.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "zaXZxuffQmaO",
+          "url": "https://torino.repubblica.it/cronaca/2026/10/06/news/derby_torino-juve_misure_cautelari_scontri_24_maggio-425628552/?rss",
+          "canonicalUrl": "https://torino.repubblica.it/cronaca/2026/10/06/news/derby_torino-juve_misure_cautelari_scontri_24_maggio-425628552/?rss=",
+          "title": "Derby Torino-Juve, raffica di misure cautelari per gli scontri del 24 maggio",
+          "description": "La Digos sta eseguendo i provvedimenti in Piemonte e nel Nord Italia a oltre quattro mesi dalla guerriglia tra ultrà. Quel giorno il tifoso juventino Marco Basoccu fu gravemente ferito alla testa da un lacrimogeno",
+          "source": {
+            "id": "repubblica",
+            "name": "la Repubblica"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T08:28:02.000Z",
+          "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-torino/2026/10/06/083842688-d4f20d09-8915-42b5-b8fd-0730c16d4726.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T08:50:05.000Z"
+    },
+    {
+      "id": "9TdzNM0og1XC",
+      "representative": {
+        "id": "9TdzNM0og1XC",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/a-venezia-ceneri-di-cani-e-gatti-accanto-alle-tombe-dei-proprietari_4439a4a9-a800-4954-8127-937a2784b495.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/a-venezia-ceneri-di-cani-e-gatti-accanto-alle-tombe-dei-proprietari_4439a4a9-a800-4954-8127-937a2784b495.html",
+        "title": "A Venezia ceneri di cani e gatti accanto alle tombe dei proprietari",
+        "description": "La nuova disciplina del Comune comprende tutti gli animali d'affezione",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T12:23:56.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "VXBb5jEuMBU7",
+          "url": "https://www.repubblica.it/cronaca/2026/10/06/news/venezia_animali_sepolti_proprietari_cimitero-425628808/?rss",
+          "canonicalUrl": "https://www.repubblica.it/cronaca/2026/10/06/news/venezia_animali_sepolti_proprietari_cimitero-425628808/?rss=",
+          "title": "A Venezia cani, gatti e conigli sepolti con i proprietari. Ma è possibile anche in altre città",
+          "description": "La modifica del regolamento cimiteriale sugli animali",
+          "source": {
+            "id": "repubblica",
+            "name": "la Repubblica"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T08:44:39.000Z",
+          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/06/103816228-e7561f9a-510c-453a-bb23-d7aec794a690.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T08:44:39.000Z"
+    },
+    {
+      "id": "1xzAAv-eJfKe",
+      "representative": {
+        "id": "1xzAAv-eJfKe",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/esplosione-in-una-casa-a-bergamo-due-feriti-in-codice-rosso_75cbeddf-927f-4964-93b2-3ea23573c46f.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/esplosione-in-una-casa-a-bergamo-due-feriti-in-codice-rosso_75cbeddf-927f-4964-93b2-3ea23573c46f.html",
+        "title": "Esplosione in una casa a Bergamo, due feriti in codice rosso",
+        "description": "All'origine dello scoppio una probabile fuga di gas",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T19:00:08.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "PXbSLXcwKj3z",
+          "url": "https://www.ilsole24ore.com/art/bergamo-esplosione-una-palazzina-9-feriti-AJ4VmXaB",
+          "canonicalUrl": "https://www.ilsole24ore.com/art/bergamo-esplosione-una-palazzina-9-feriti-AJ4VmXaB",
+          "title": "Bergamo, esplosione in una palazzina: 9 feriti",
+          "description": "Cinquanta evacuati a Borgo Santa Cateria a causa dello scoppio di una cucina. Una coppia è in gravi condizioni",
+          "source": {
+            "id": "sole24ore",
+            "name": "Il Sole 24 Ore"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T06:22:13.000Z",
+          "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/07/Immagini/Ritagli/muvmt6mqzmkpjfnn5ll-U13546847668TJI-1440x752@IlSole24Ore-Web.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T06:22:13.000Z"
+    },
+    {
+      "id": "xcwLub2sxtwu",
+      "representative": {
+        "id": "xcwLub2sxtwu",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/sequestrati-377-animali-esotici-al-porto-di-pozzallo-trasporto-illegale_acf3abfe-78a8-43a4-b1d4-ee55a8e68a17.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/sequestrati-377-animali-esotici-al-porto-di-pozzallo-trasporto-illegale_acf3abfe-78a8-43a4-b1d4-ee55a8e68a17.html",
+        "title": "Sequestrati 377 animali esotici al porto di Pozzallo, 'trasporto illegale'",
+        "description": "Anche pappagalli di specie protette. Un uomo denunciato",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T12:15:32.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "zFvUHFXTRq4D",
+          "url": "https://www.ilpost.it/2026/10/05/animali-esotici-sequestro-sicilia/",
+          "canonicalUrl": "https://www.ilpost.it/2026/10/05/animali-esotici-sequestro-sicilia/",
+          "title": "Un uomo è stato fermato con 377 animali esotici vivi a bordo di un’auto al porto di Pozzallo, in Sicilia",
+          "description": null,
+          "source": {
+            "id": "ilpost",
+            "name": "Il Post"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T16:07:46.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T16:07:46.000Z"
+    },
+    {
+      "id": "XHQRGPUkq4oF",
+      "representative": {
+        "id": "XHQRGPUkq4oF",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/baby-gang-resti-in-carcere-grazie-a-rete-internazionale-e-andato-in-iraq_8002e910-fa8d-4196-963d-983e5eb67e0c.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/baby-gang-resti-in-carcere-grazie-a-rete-internazionale-e-andato-in-iraq_8002e910-fa8d-4196-963d-983e5eb67e0c.html",
+        "title": "Il gip: 'Baby Gang resti in carcere, grazie a una rete internazionale è andato in Iraq'",
+        "description": "'Per sparare con bazooka e altre armi da guerra'",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T10:36:27.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "syBYk_zJKaJn",
+          "url": "https://www.ilpost.it/2026/10/05/baby-gang-banda-criminale/",
+          "canonicalUrl": "https://www.ilpost.it/2026/10/05/baby-gang-banda-criminale/",
+          "title": "Il rapper Baby Gang rimarrà in carcere perché secondo il gip di Lecco fa parte di una rete criminale internazionale",
+          "description": null,
+          "source": {
+            "id": "ilpost",
+            "name": "Il Post"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T14:25:15.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T14:25:15.000Z"
+    },
+    {
+      "id": "azxUcTXSauTB",
+      "representative": {
+        "id": "azxUcTXSauTB",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/nobel-medicina-a-delsseroth-hegemann-e-nagel_29f4ad48-6ef1-4ee3-b6d3-9b17ae7dfadb.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/nobel-medicina-a-delsseroth-hegemann-e-nagel_29f4ad48-6ef1-4ee3-b6d3-9b17ae7dfadb.html",
+        "title": "Nobel Medicina a Delsseroth, Hegemann e Nagel",
+        "description": "Per avere gettato le basi dell'optogenetica",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T10:28:43.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "kbUrDLLx34AC",
+          "url": "https://www.repubblica.it/cronaca/2026/10/05/news/premio_nobel_medicina_2026_karl_deisseroth_peter_hegemann_georg_nagel-425626607/?rss",
+          "canonicalUrl": "https://www.repubblica.it/cronaca/2026/10/05/news/premio_nobel_medicina_2026_karl_deisseroth_peter_hegemann_georg_nagel-425626607/?rss=",
+          "title": "Nobel per la Medicina a Karl Deisseroth, Peter Hegemann e Georg Nagel sugli interruttori dei neuroni",
+          "description": "Sono studiosi del cervello e si sono occupati di optogenetica, una tecnica che permette di accendere e spegnere i neuroni nelle cavie. I premi sono arrivati alla 125esima edizione",
+          "source": {
+            "id": "repubblica",
+            "name": "la Repubblica"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T14:18:42.000Z",
+          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/123903654-1256d597-0635-4592-8d83-082816201195.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T14:18:42.000Z"
+    },
+    {
+      "id": "auLvPtaHjDmX",
+      "representative": {
+        "id": "auLvPtaHjDmX",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/a-novembre-arriva-il-diario-personale-di-papa-francesco_bbb6f22f-ba6b-4249-877d-c357300f756d.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/a-novembre-arriva-il-diario-personale-di-papa-francesco_bbb6f22f-ba6b-4249-877d-c357300f756d.html",
+        "title": "A novembre arriva 'Il Diario personale di Papa Francesco'",
+        "description": "Un libro del cardinale argentino Victor Fernandez edito dalla Lev",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T12:37:11.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "zgzJB5NzzZhj",
+          "url": "https://www.repubblica.it/cronaca/2026/10/05/news/diario_papa_francesco-425627013/?rss",
+          "canonicalUrl": "https://www.repubblica.it/cronaca/2026/10/05/news/diario_papa_francesco-425627013/?rss=",
+          "title": "Arriva il “diario personale” di papa Francesco, trentadue anni di appunti segreti",
+          "description": "Il volume sarà pubblicato dalla Libreria editrice vaticana il 24 novembre ed è curato dal cardinale argentino Fernandez, il suo figlio spirituale alla guida dell’ex Santo Uffizio. Contiene le note del pontefice dal 1992 al 2024",
+          "source": {
+            "id": "repubblica",
+            "name": "la Repubblica"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-05T12:42:57.000Z",
+          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/144245717-fcec1b51-c28a-4cc0-9f93-6a7a3aee9faf.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T12:42:57.000Z"
+    },
+    {
+      "id": "7eea3M02s_m4",
+      "representative": {
+        "id": "7eea3M02s_m4",
+        "url": "https://tg24.sky.it/politica/2026/10/06/elezioni-anticipate-giorgia-meloni",
+        "canonicalUrl": "https://tg24.sky.it/politica/2026/10/06/elezioni-anticipate-giorgia-meloni",
+        "title": "Elezioni anticipate, possibile voto a maggio 2027? Le ipotesi nella maggioranza",
+        "description": "Il capogruppo di Fratelli d'Italia al Senato, Lucio Malan, evoca l'election day con le Comunali, poi fa marcia indietro. Intanto, il destino della legislatura passa dal voto segreto sulla riforma elettorale alla Camera, previsto per giovedì",
+        "source": {
+          "id": "skytg24",
+          "name": "Sky TG24"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T09:15:27.087Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:15:27.087Z"
+    },
+    {
+      "id": "R2X7hZvXc67H",
+      "representative": {
+        "id": "R2X7hZvXc67H",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/06/conte-schlein-indisponibile-a-passo-indietro-ma-affrettiamoci-su-primarie_6ec0fd14-fe8d-4642-a774-70d794f24db5.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/politica/2026/10/06/conte-schlein-indisponibile-a-passo-indietro-ma-affrettiamoci-su-primarie_6ec0fd14-fe8d-4642-a774-70d794f24db5.html",
+        "title": "Conte: 'Schlein indisponibile ad un passo indietro, ma affrettiamoci sulle primarie'",
+        "description": "'L'ho invitata a valutare terza figura. Probabile voto in primavera, noi pronti per il programma'",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T09:13:03.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:13:03.000Z"
+    },
+    {
+      "id": "2NUEffCo8rkM",
+      "representative": {
+        "id": "2NUEffCo8rkM",
+        "url": "https://www.ilsole24ore.com/art/over65-redditi-bassi-entrate-contanti-chi-resta-fuori-pagamenti-digitali-AJNALeaB",
+        "canonicalUrl": "https://www.ilsole24ore.com/art/over65-redditi-bassi-entrate-contanti-chi-resta-fuori-pagamenti-digitali-AJNALeaB",
+        "title": "Over65, redditi bassi, entrate in contanti: chi resta fuori dai pagamenti digitali",
+        "description": "Il reddito entra in contanti e in contanti esce. È il circuito in cui si muove circa un consumatore italiano su dieci, secondo uno studio della Banca d’Italia che ha...",
+        "source": {
+          "id": "sole24ore",
+          "name": "Il Sole 24 Ore"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T09:07:53.000Z",
+        "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/07/Immagini/Ritagli/Imagoeconomica_1852962-U18037406644NAN-1440x752@IlSole24Ore-Web.jpg",
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:07:53.000Z"
+    }
+  ]
+}

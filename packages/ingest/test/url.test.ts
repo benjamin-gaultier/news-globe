@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { articleId, canonicalizeUrl } from '../src/normalize/url';
+import { articleId, canonicalizeUrl, dateFromUrl } from '../src/normalize/url';
 
 describe('canonicalizeUrl', () => {
   it('strips tracking params and the fragment', () => {
@@ -35,5 +35,23 @@ describe('articleId', () => {
     expect(id).toHaveLength(12);
     expect(articleId(canonicalizeUrl('https://EXAMPLE.com/a?utm_source=x#top'))).toBe(id);
     expect(articleId('https://example.com/b')).not.toBe(id);
+  });
+});
+
+describe('dateFromUrl', () => {
+  it('reads /YYYY/MM/DD/ and /YYYYMMDD/ paths', () => {
+    expect(dateFromUrl('https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere')).toBe(
+      '2026-10-06T12:00:00.000Z',
+    );
+    expect(dateFromUrl('https://www.elespanol.com/espana/politica/20261006/ultima-hora/1003744409738_10.html')).toBe(
+      '2026-10-06T12:00:00.000Z',
+    );
+  });
+
+  it('ignores paths without a valid date', () => {
+    expect(dateFromUrl('https://www.bbc.co.uk/news/articles/c4g0x2025')).toBeNull();
+    expect(dateFromUrl('https://example.com/2026/02/31/x')).toBeNull();
+    expect(dateFromUrl('https://example.com/id/1003744409738')).toBeNull();
+    expect(dateFromUrl('not a url')).toBeNull();
   });
 });

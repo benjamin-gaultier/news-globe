@@ -356,6 +356,64 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://www.20minutos.es/rss/nacional/'],
     authority: 5,
   },
+  // ---- Italy ----
+  // Corriere della Sera's feeds are abandoned (last built 2024); La Stampa's
+  // redirect to HTML; Il Fatto Quotidiano's section feed is empty.
+  // Sky TG24 items carry no dates: the date comes from the URL (dateFromUrl).
+  {
+    id: 'ansa',
+    name: 'ANSA',
+    type: 'rss',
+    country: 'IT',
+    language: 'it',
+    feedUrls: ['https://www.ansa.it/sito/notizie/politica/politica_rss.xml', 'https://www.ansa.it/sito/notizie/cronaca/cronaca_rss.xml'],
+    authority: 10,
+  },
+  {
+    id: 'repubblica',
+    name: 'la Repubblica',
+    type: 'rss',
+    country: 'IT',
+    language: 'it',
+    feedUrls: ['https://www.repubblica.it/rss/politica/rss2.0.xml', 'https://www.repubblica.it/rss/cronaca/rss2.0.xml'],
+    authority: 9,
+  },
+  {
+    id: 'rainews',
+    name: 'RaiNews',
+    type: 'rss',
+    country: 'IT',
+    language: 'it',
+    feedUrls: ['https://www.rainews.it/rss/politica'],
+    authority: 8,
+  },
+  {
+    id: 'sole24ore',
+    name: 'Il Sole 24 Ore',
+    type: 'rss',
+    country: 'IT',
+    language: 'it',
+    feedUrls: ['https://www.ilsole24ore.com/rss/italia.xml'],
+    authority: 7,
+  },
+  {
+    id: 'skytg24',
+    name: 'Sky TG24',
+    type: 'rss',
+    country: 'IT',
+    language: 'it',
+    feedUrls: ['https://tg24.sky.it/rss/tg24_politica.xml'],
+    authority: 7,
+  },
+  {
+    id: 'ilpost',
+    name: 'Il Post',
+    type: 'rss',
+    country: 'IT',
+    language: 'it',
+    feedUrls: ['https://www.ilpost.it/italia/feed/'],
+    authority: 6,
+  },
 ];
 
 export const INGEST_SETTINGS = {

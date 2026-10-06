@@ -64,6 +64,17 @@ describe('titleTokens: per-language stopwords', () => {
     );
   });
 
+  it('drops Italian stopwords for it', () => {
+    expect([...titleTokens('Il governo pone la fiducia sugli articoli della legge elettorale', 'it')]).toEqual([
+      'governo',
+      'pone',
+      'fiducia',
+      'articoli',
+      'legg',
+      'elettoral',
+    ]);
+  });
+
   it('folds German -en inflections', () => {
     expect(titleTokens('Grünen Parteien Wahlen', 'de')).toEqual(titleTokens('Grüne Partei Wahl', 'de'));
   });

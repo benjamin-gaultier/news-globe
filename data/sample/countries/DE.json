@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DE",
   "countryName": "Germany",
-  "updatedAt": "2026-10-06T09:04:36.946Z",
+  "updatedAt": "2026-10-06T09:15:27.087Z",
   "clusters": [
     {
       "id": "fuOn7SLdX-n_",
@@ -139,14 +139,14 @@
           "url": "https://www.faz.net/aktuell/politik/inland/spionageverdacht-ehemaliger-bnd-chef-august-hanning-festgenommen-accg-201292036.html",
           "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/spionageverdacht-ehemaliger-bnd-chef-august-hanning-festgenommen-accg-201292036.html",
           "title": "Wegen Spionageverdachts: Ehemaliger BND-Präsident August Hanning festgenommen",
-          "description": "Der frühere Geheimdienstchef soll noch Jahre nach seinem Ausscheiden von seinem ehemaligen Büroleiter mit geheimen Informationen aus der Behörde versorgt worden sein.",
+          "description": "Der frühere Geheimdienstchef soll unter anderem für einen fremden Nachrichtendienst eine Analyse erstellt haben. Es handelt sich nach F.A.Z.-Informationen nicht um einen russischen Dienst.",
           "source": {
             "id": "faz",
             "name": "Frankfurter Allgemeine"
           },
           "sourceCountry": "DE",
           "language": "de",
-          "publishedAt": "2026-10-06T08:34:26.000Z",
+          "publishedAt": "2026-10-06T09:06:25.000Z",
           "imageUrl": "https://media0.faz.net/image/49d165dd664e/w3000h1687x0y131/202510/43601.0.1414493528/der-fruehere-praesident-des.webp",
           "countryCode": "DE",
           "regionCode": null
@@ -205,28 +205,45 @@
       ],
       "outletCount24h": 5,
       "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T08:34:26.000Z"
+      "latestPublishedAt": "2026-10-06T09:06:25.000Z"
     },
     {
-      "id": "j1PnLPD2nIDH",
+      "id": "4bGMGAkftpDf",
       "representative": {
-        "id": "j1PnLPD2nIDH",
-        "url": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-schulze-bab-100.html",
-        "canonicalUrl": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-schulze-bab-100.html",
-        "title": "Schulze zu Sachsen-Anhalt: \"Es wird keiner von der CDU zur AfD wechseln\"",
-        "description": "Die AfD will nach der Wahl in Sachsen-Anhalt regieren, doch ihr fehlt bisher eine Mehrheit. CDU-Fraktionschef Schulze bekräftigte im Bericht aus Berlin, dass die AfD bei der Ministerpräsidentenwahl nicht auf CDU-Stimmen setzen könne.",
+        "id": "4bGMGAkftpDf",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-konstituierende-sitzung-100.html",
+        "canonicalUrl": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-konstituierende-sitzung-100.html",
+        "title": "Konstituierende Sitzung in Sachsen-Anhalt: Die AfD und die ganz große Bühne",
+        "description": "Heute richten sich erneut viele Blicke auf Sachsen-Anhalt: Der Landtag kommt zu seiner konstituierenden Sitzung zusammen. Die AfD will erstmals einen Parlamentspräsidenten stellen - und Regierungsfähigkeit beweisen. Von Torben Lehning.",
         "source": {
           "id": "tagesschau",
           "name": "tagesschau"
         },
         "sourceCountry": "DE",
         "language": "de",
-        "publishedAt": "2026-10-04T18:40:10.000Z",
+        "publishedAt": "2026-10-06T02:18:45.000Z",
         "imageUrl": null,
         "countryCode": "DE",
         "regionCode": null
       },
       "related": [
+        {
+          "id": "hc-Do-HnoZFm",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
+          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
+          "title": "Landtag von Sachsen-Anhalt: Konstituierende Sitzung des Landtags eröffnet",
+          "description": "In Magdeburg hat die konstituierende Sitzung des Landtags begonnen. Vor dem Parlament demonstrieren Hunderte gegen die rechtsextreme Wahlsiegerin AfD. Das Liveblog",
+          "source": {
+            "id": "zeit",
+            "name": "ZEIT ONLINE"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T09:04:10.000Z",
+          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live-bild2/original__640x360",
+          "countryCode": "DE",
+          "regionCode": null
+        },
         {
           "id": "RKfwiWyZdhdQ",
           "url": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-li.3556472",
@@ -249,7 +266,7 @@
           "url": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-so-laeuft-die-erste-sitzung-im-neuen-landtag-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11#ref=rss",
           "canonicalUrl": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-so-laeuft-die-erste-sitzung-im-neuen-landtag-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11",
           "title": "Sachsen-Anhalt - Magdeburg: So läuft die erste Sitzung im neuen Landtag",
-          "description": "In Sachsen-Anhalt kommt erstmals der neu gewählte Landtag zusammen. Auf der Agenda steht eine wichtige Personalie: Erstmals könnte die AfD einen Landtagspräsidenten stellen. Die Sitzung in der Live-Analyse.",
+          "description": "In Sachsen-Anhalt kommt erstmals der neu gewählte Landtag zusammen. Auf der Agenda steht eine wichtige Personalie: Erstmals könnte die AfD einen Landtagspräsidenten stellen. Die Sitzung im Stream und der Live-Analyse.",
           "source": {
             "id": "spiegel",
             "name": "DER SPIEGEL"
@@ -260,21 +277,46 @@
           "imageUrl": "https://cdn.prod.www.spiegel.de/images/258e477e-8a61-49bd-997f-a4915f5d4409_w520_r2.08_fpx33.34_fpy50.jpg",
           "countryCode": "DE",
           "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T09:04:10.000Z"
+    },
+    {
+      "id": "j1PnLPD2nIDH",
+      "representative": {
+        "id": "j1PnLPD2nIDH",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-schulze-bab-100.html",
+        "canonicalUrl": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-schulze-bab-100.html",
+        "title": "Schulze zu Sachsen-Anhalt: \"Es wird keiner von der CDU zur AfD wechseln\"",
+        "description": "Die AfD will nach der Wahl in Sachsen-Anhalt regieren, doch ihr fehlt bisher eine Mehrheit. CDU-Fraktionschef Schulze bekräftigte im Bericht aus Berlin, dass die AfD bei der Ministerpräsidentenwahl nicht auf CDU-Stimmen setzen könne.",
+        "source": {
+          "id": "tagesschau",
+          "name": "tagesschau"
         },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-04T18:40:10.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [
         {
-          "id": "hc-Do-HnoZFm",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
-          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
-          "title": "Landtag von Sachsen-Anhalt: Wählt das erste Parlament einen AfD-Politiker zum Präsidenten?",
-          "description": "In Magdeburg konstituiert sich Sachsen-Anhalts neuer Landtag. Vor dem Parlamentsgebäude demonstrieren Hunderte gegen die rechtsextreme Wahlsiegerin AfD. Das Liveblog",
+          "id": "bEq-0tYaCjBt",
+          "url": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-afd-wahlsieg-konstituierende-sitzung-folgen-li.3557695",
+          "canonicalUrl": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-afd-wahlsieg-konstituierende-sitzung-folgen-li.3557695",
+          "title": "Sachsen-Anhalt: Neue Sitzordnung im Parlament und erster Chefsessel für die AfD",
+          "description": "In Magdeburg konstituiert sich der neue Landtag. Für den Wahlsieger AfD ist es der erste Schritt zur Macht. Antworten auf die wichtigsten Fragen.",
           "source": {
-            "id": "zeit",
-            "name": "ZEIT ONLINE"
+            "id": "sz",
+            "name": "Süddeutsche Zeitung"
           },
           "sourceCountry": "DE",
           "language": "de",
-          "publishedAt": "2026-10-06T08:43:52.000Z",
-          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live-bild2/original__640x360",
+          "publishedAt": "2026-10-06T08:55:00.000Z",
+          "imageUrl": "https://www.sueddeutsche.de/2026/10/06/ce43b535-af51-4dc6-8bc9-1481e74c0512.jpg?rect=222%2C0%2C3556%2C2667&width=1000&fm=jpg&q=60",
           "countryCode": "DE",
           "regionCode": null
         },
@@ -294,11 +336,87 @@
           "imageUrl": "https://www.n-tv.de/img/31384812/1791266092/Img_4_3/250/image.jpg",
           "countryCode": "DE",
           "regionCode": null
+        },
+        {
+          "id": "DYSSZiF79mhg",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/afd-bsw-landtag-sachsen-anhalt-kooperation-gxe",
+          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/afd-bsw-landtag-sachsen-anhalt-kooperation-gxe",
+          "title": "Sachsen-Anhalt: AfD und BSW wollen ersten AfD-Landtagspräsidenten wählen",
+          "description": "Mit der geplanten Wahl eines Landtagspräsidenten von der AfD möchte das BSW in Sachsen-Anhalt »parlamentarische Gepflogenheiten« achten. Andere Fraktionen äußern Kritik.",
+          "source": {
+            "id": "zeit",
+            "name": "ZEIT ONLINE"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-05T15:59:11.000Z",
+          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/afd-bsw-landtag-sachsen-anhalt-kooperation-bild2/original__640x360",
+          "countryCode": "DE",
+          "regionCode": null
         }
       ],
-      "outletCount24h": 4,
-      "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T08:59:11.000Z"
+      "outletCount24h": 3,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T08:55:00.000Z"
+    },
+    {
+      "id": "GqDMmTwO83oe",
+      "representative": {
+        "id": "GqDMmTwO83oe",
+        "url": "https://www.zeit.de/politik/deutschland/2026-10/tobias-rausch-afd-landtagspraesident-sachsen-anhalt",
+        "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/tobias-rausch-afd-landtagspraesident-sachsen-anhalt",
+        "title": "Tobias Rausch: »Ich bin kein Hardliner«",
+        "description": "Er stand im Zentrum der Vetternwirtschaftsaffäre, heute soll er erster AfD-Landtagspräsident werden. Respekt vor dem hohen Amt? Tobias Rausch hat seine eigene Sichtweise.",
+        "source": {
+          "id": "zeit",
+          "name": "ZEIT ONLINE"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T06:42:43.000Z",
+        "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/tobias-rausch-afd-landtagspraesident-sachsen-anhalt-bild-3/original__640x360",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "uHljt7cVyIY5",
+          "url": "https://www.faz.net/aktuell/politik/inland/tobias-rausch-soll-in-sachsen-anhalt-erster-afd-landtagspraesident-werde-accg-201289186.html",
+          "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/tobias-rausch-soll-in-sachsen-anhalt-erster-afd-landtagspraesident-werde-accg-201289186.html",
+          "title": "Tobias Rausch: Er soll der erste Landtagspräsident der AfD werden",
+          "description": "Sein Vater war der erste Landtagsvizepräsident der AfD, nun soll Tobias Rausch in Magdeburg zu ihrem ersten Landtagspräsidenten gewählt werden. Belastet ist er durch die Verwandtenaffäre.",
+          "source": {
+            "id": "faz",
+            "name": "Frankfurter Allgemeine"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T08:53:48.000Z",
+          "imageUrl": "https://media0.faz.net/image/9443944dc84b/w3510h1974x665y979/202610/43601.0.2630538366/tobias-rausch-afd-spricht-am.webp",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "f1Gq8t_7LAny",
+          "url": "https://www.n-tv.de/politik/Dieser-Mann-wird-heute-erster-Landtagspraesident-der-AfD-id31385613.html",
+          "canonicalUrl": "https://www.n-tv.de/politik/Dieser-Mann-wird-heute-erster-Landtagspraesident-der-AfD-id31385613.html",
+          "title": "Tobias Rausch: Dieser Mann wird heute erster Landtagspräsident der AfD",
+          "description": "An diesem Dienstag dürfte der AfD-Politiker Tobias Rausch im Landtag von Sachsen-Anhalt zum ersten Parlamentspräsidenten seiner Partei gewählt werden. Fünf Gründe, warum die Partei damit ihren Einfluss deutlich vergrößert.",
+          "source": {
+            "id": "ntv",
+            "name": "n-tv"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T07:54:21.000Z",
+          "imageUrl": "https://www.n-tv.de/img/31385643/1791278627/Img_4_3/250/589102808.jpg",
+          "countryCode": "DE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T08:53:48.000Z"
     },
     {
       "id": "F35PzBoEuUI-",
@@ -461,90 +579,6 @@
       "latestPublishedAt": "2026-10-06T08:37:54.000Z"
     },
     {
-      "id": "GqDMmTwO83oe",
-      "representative": {
-        "id": "GqDMmTwO83oe",
-        "url": "https://www.zeit.de/politik/deutschland/2026-10/tobias-rausch-afd-landtagspraesident-sachsen-anhalt",
-        "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/tobias-rausch-afd-landtagspraesident-sachsen-anhalt",
-        "title": "Tobias Rausch: »Ich bin kein Hardliner«",
-        "description": "Er stand im Zentrum der Vetternwirtschaftsaffäre, heute soll er erster AfD-Landtagspräsident werden. Respekt vor dem hohen Amt? Tobias Rausch hat seine eigene Sichtweise.",
-        "source": {
-          "id": "zeit",
-          "name": "ZEIT ONLINE"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T06:42:43.000Z",
-        "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/tobias-rausch-afd-landtagspraesident-sachsen-anhalt-bild-3/original__640x360",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "-TCDLxq9ZMK0",
-          "url": "https://www.n-tv.de/politik/Tobias-Rausch-will-kein-Hardliner-sein-id31384039.html",
-          "canonicalUrl": "https://www.n-tv.de/politik/Tobias-Rausch-will-kein-Hardliner-sein-id31384039.html",
-          "title": "Erster AfD-Landtagspräsident?: Tobias Rausch will \"kein Hardliner\" sein",
-          "description": "AfD-Politiker Rausch arbeitet meist im Hintergrund und gilt als pragmatischer Verhandler. Nun soll er das höchste Amt im Landtag übernehmen, doch nicht alle Fraktionen wollen ihn unterstützen.",
-          "source": {
-            "id": "ntv",
-            "name": "n-tv"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-05T18:08:54.000Z",
-          "imageUrl": "https://www.n-tv.de/img/31384040/1791230928/Img_4_3/250/imago0846371293h.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:42:43.000Z"
-    },
-    {
-      "id": "qBAslYhMvwbo",
-      "representative": {
-        "id": "qBAslYhMvwbo",
-        "url": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-wagenknecht-afd-landtagspraesident-ist-eine-selbstverstaendlichkeit-faz-110093143.html",
-        "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-wagenknecht-afd-landtagspraesident-ist-eine-selbstverstaendlichkeit-faz-110093143.html",
-        "title": "Deutschland-Liveblog: Wagenknecht: „Das BSW beendet die Brandmauer-Idiotie“",
-        "description": "BSW-Gründerin: „Es steht kein Göring 2.0 zur Wahl“ +++ AfD schlägt Tillschneider als Landtagsvizepräsidenten vor +++ Ermittlungen gegen Niedersachsens SPD-Fraktionschef Politze +++ alle Entwicklungen im Liveblog",
-        "source": {
-          "id": "faz",
-          "name": "Frankfurter Allgemeine"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T05:36:03.000Z",
-        "imageUrl": "https://media0.faz.net/image/7271eaf8e050/w1767h994x0y0/202610/43601.0.2631997746/will-einen-vernuenftigen.webp",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "lUG6IBf6Kj7z",
-          "url": "https://www.welt.de/politik/deutschland/article6ac44e4b0a14891ddd2b3a1f/sachsen-anhalt-bsw-beendet-brandmauer-idiotie-wagenknecht-haelt-afd-landtagspraesidenten-fuer-selbstverstaendlich.html",
-          "canonicalUrl": "https://www.welt.de/politik/deutschland/article6ac44e4b0a14891ddd2b3a1f/sachsen-anhalt-bsw-beendet-brandmauer-idiotie-wagenknecht-haelt-afd-landtagspraesidenten-fuer-selbstverstaendlich.html",
-          "title": "„BSW beendet Brandmauer-Idiotie“ – Wagenknecht hält AfD-Landtagspräsidenten für selbstverständlich",
-          "description": "BSW-Gründerin Sahra Wagenknecht findet, dass die stärkste Fraktion eines Landtags auch den Landtagspräsidenten stellen sollte. Sie verteidigt die Zustimmung ihrer Partei zur voraussichtlich ersten Wahl eines AfD-Parlamentspräsidenten.",
-          "source": {
-            "id": "welt",
-            "name": "WELT"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T01:38:16.000Z",
-          "imageUrl": "https://images.welt.de/6ac44e4b0a14891ddd2b3a1f/1e6648f1e12eb6080b5c8c14b3c4279a/ci23x11-w1200/dpa-com-260816-935-1546911-jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T05:36:03.000Z"
-    },
-    {
       "id": "KaIL2FuUemd2",
       "representative": {
         "id": "KaIL2FuUemd2",
@@ -671,13 +705,13 @@
       "latestPublishedAt": "2026-10-05T12:29:07.000Z"
     },
     {
-      "id": "o6MAytQ9wOpA",
+      "id": "MdrBBttDn52U",
       "representative": {
-        "id": "o6MAytQ9wOpA",
-        "url": "https://www.welt.de/politik/deutschland/article6ac484158b65780eaf13474a/sachsen-anhalt-afd-spricht-von-zaesur-kandidat-rausch-will-als-landtagspraesident-ueberparteilich-agieren-liveticker.html",
-        "canonicalUrl": "https://www.welt.de/politik/deutschland/article6ac484158b65780eaf13474a/sachsen-anhalt-afd-spricht-von-zaesur-kandidat-rausch-will-als-landtagspraesident-ueberparteilich-agieren-liveticker.html",
-        "title": "AfD spricht von „Zäsur“ – Kandidat Rausch will als Landtagspräsident überparteilich agieren",
-        "description": "Der Landtag in Sachsen-Anhalt kommt zum ersten Mal nach der Wahl zusammen. Tobias Rausch soll zum ersten AfD-Landtagspräsidenten gewählt werden. Alle Entwicklungen im Liveticker.",
+        "id": "MdrBBttDn52U",
+        "url": "https://www.welt.de/politik/deutschland/article6ac484158b65780eaf13474a/sachsen-anhalt-alterspraesidentin-der-linken-eroeffnet-landtagssitzung-und-erinnert-an-kommunistin-liveticker.html",
+        "canonicalUrl": "https://www.welt.de/politik/deutschland/article6ac484158b65780eaf13474a/sachsen-anhalt-alterspraesidentin-der-linken-eroeffnet-landtagssitzung-und-erinnert-an-kommunistin-liveticker.html",
+        "title": "Alterspräsidentin der Linken eröffnet Landtagssitzung – und erinnert an Kommunistin",
+        "description": "In Magdeburg läuft die konstituierende Sitzung. Die AfD erwartet die Wahl des ersten Landtagspräsidenten aus ihrer Partei. Alle Entwicklungen im Liveticker.",
         "source": {
           "id": "welt",
           "name": "WELT"
@@ -685,7 +719,7 @@
         "sourceCountry": "DE",
         "language": "de",
         "publishedAt": "2026-10-06T08:42:00.000Z",
-        "imageUrl": "https://images.welt.de/6ac484158b65780eaf13474a/13b373aff1b6b1bc752610536b0619ed/ci23x11-w1200/600437081-jpg",
+        "imageUrl": "https://images.welt.de/6ac484158b65780eaf13474a/d056e1fc7453eedf2e93a20ac69b05dd/ci23x11-w1200/dpa-com-261006-936-112000-jpg",
         "countryCode": "DE",
         "regionCode": null
       },

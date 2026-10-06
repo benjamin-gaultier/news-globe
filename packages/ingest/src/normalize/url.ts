@@ -64,3 +64,21 @@ export function canonicalizeUrl(raw: string): string {
 export function articleId(canonicalUrl: string): string {
   return createHash('sha256').update(canonicalUrl).digest('base64url').slice(0, 12);
 }
+
+/**
+ * Publication date embedded in an article URL path (`/2026/10/06/` or
+ * `/20261006/`), as midday UTC. A fallback for feeds that omit item dates.
+ */
+export function dateFromUrl(raw: string): string | null {
+  let path: string;
+  try {
+    path = new URL(raw).pathname;
+  } catch {
+    return null;
+  }
+  const m = /\/(20\d\d)\/?(0[1-9]|1[0-2])\/?(0[1-9]|[12]\d|3[01])(?:\/|$|[^\d])/.exec(path);
+  if (!m) return null;
+  const iso = `${m[1]}-${m[2]}-${m[3]}T12:00:00.000Z`;
+  // Reject impossible dates like 2026-02-31, which Date would roll over.
+  return new Date(iso).toISOString().startsWith(`${m[1]}-${m[2]}-${m[3]}`) ? iso : null;
+}

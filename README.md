@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers **France (FR)**, the **United States (US)**, the **United Kingdom (GB)**, **Germany (DE)** and **Spain (ES)**. Other countries are greyed out and marked "coming soon".
+It covers **France (FR)**, the **United States (US)**, the **United Kingdom (GB)**, **Germany (DE)**, **Spain (ES)** and **Italy (IT)**. Other countries are greyed out and marked "coming soon".
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -232,7 +232,7 @@ The Hill (`thehill.com/homenews/feed/`) and NBC (`feeds.nbcnews.com/nbcnews/publ
 
 ZDF heute (`zdf.de/rss/zdf/nachrichten`) and Tagesspiegel (`tagesspiegel.de/contentexport/feed/politik`) also work, but mix in international news.
 
-German and Spanish titles use their own stopword lists ([normalize/text.ts](packages/ingest/src/normalize/text.ts), `STOPWORDS_BY_LANGUAGE`), and German also folds `-en` endings. The list is per-language because words like *die*, *war* and *man* are stopwords in German but carry meaning in English.
+German, Spanish and Italian titles use their own stopword lists ([normalize/text.ts](packages/ingest/src/normalize/text.ts), `STOPWORDS_BY_LANGUAGE`), and German also folds `-en` endings. The list is per-language because words like *die*, *war* and *man* are stopwords in German but carry meaning in English.
 
 **Spain** (added 2026-10-06)
 
@@ -250,7 +250,25 @@ German and Spanish titles use their own stopword lists ([normalize/text.ts](pack
 
 El Español (`elespanol.com/rss/espana/`) and Antena 3 also work and are good substitutes.
 
-When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`.
+**Italy** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| ANSA | politica, cronaca | 10 | ✅ |
+| la Repubblica | politica, cronaca | 9 | ✅ |
+| RaiNews | politica | 8 | ✅ |
+| Il Sole 24 Ore | Italia | 7 | ✅ |
+| Sky TG24 | politica | 7 | ✅ (items have no dates; taken from the URL, see below) |
+| Il Post | Italia | 6 | ✅ (10 items) |
+| ~~Corriere della Sera~~ | — | — | ❌ **dropped**: feeds are abandoned (`lastBuildDate` 2024, newest items months old) |
+| ~~La Stampa~~ | — | — | ❌ **dropped**: RSS URLs redirect to HTML |
+| ~~Il Fatto Quotidiano~~ | — | — | ❌ **dropped**: section feed is empty |
+
+TGcom24 (`tgcom24.mediaset.it/rss/politica.xml`) also works and is a good substitute.
+
+When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`. Also check that the newest item is recent: Corriere and The Telegraph return well-formed but stale feeds.
+
+Items without a date take the date from their URL (`/2026/10/06/` or `/20261006/`, see `dateFromUrl` in [normalize/url.ts](packages/ingest/src/normalize/url.ts)) and fall back to the fetch time only if there isn't one. Otherwise an undated feed like Sky TG24's would look entirely brand-new on every run.
 
 Authority weights are editorial judgment calls. They only decide which outlet's headline represents a cluster, not ranking.
 

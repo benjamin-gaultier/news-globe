@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T09:04:36.946Z",
+  "updatedAt": "2026-10-06T09:15:27.087Z",
   "clusters": [
     {
       "id": "rGUNBDm5Qeyw",
@@ -316,14 +316,14 @@
           "url": "https://www.mirror.co.uk/news/uk-news/nottingham-city-centre-fire-live-37738229",
           "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/nottingham-city-centre-fire-live-37738229",
           "title": "Nottingham fire live updates: 'Avoid the area at all costs' warning issued after huge city centre blaze",
-          "description": "A huge blaze has ripped through a building in Nottingham's city centre, with residents evacuated and the public warned 'avoid the area at all costs'",
+          "description": "A huge blaze ripped through a building in Nottingham's city centre, with residents evacuated and the public warned 'avoid the area at all costs'",
           "source": {
             "id": "mirror",
             "name": "Daily Mirror"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-06T08:35:31.000Z",
+          "publishedAt": "2026-10-06T08:56:53.000Z",
           "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37738226.ece/ALTERNATES/s615/0_IMG-20261005-WA0018.jpg",
           "countryCode": "GB",
           "regionCode": null
@@ -331,7 +331,7 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:35:31.000Z"
+      "latestPublishedAt": "2026-10-06T08:56:53.000Z"
     },
     {
       "id": "HNDBgHLC2alD",
@@ -670,70 +670,52 @@
       "latestPublishedAt": "2026-10-05T13:28:58.000Z"
     },
     {
-      "id": "ahJzsO96rfPj",
+      "id": "AYSLAiKo1UZA",
       "representative": {
-        "id": "ahJzsO96rfPj",
-        "url": "https://news.sky.com/story/uk-unprepared-for-food-emergencies-and-threats-to-supplies-experts-warn-13595286",
-        "canonicalUrl": "https://news.sky.com/story/uk-unprepared-for-food-emergencies-and-threats-to-supplies-experts-warn-13595286",
-        "title": "UK unprepared for food emergencies and threats to supplies, experts warn",
-        "description": "The government is unprepared for disruptions to food supplies which are exposed to \"shocks and threats\", experts have warned.",
+        "id": "AYSLAiKo1UZA",
+        "url": "https://www.mirror.co.uk/money/criteria-uk-bank-pay-select-37739303",
+        "canonicalUrl": "https://www.mirror.co.uk/money/criteria-uk-bank-pay-select-37739303",
+        "title": "Criteria as UK bank to pay 'select' customers £3,000 'to give head start'",
+        "description": "The amount will be paid tax-free",
         "source": {
-          "id": "sky",
-          "name": "Sky News"
+          "id": "mirror",
+          "name": "Daily Mirror"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-05T09:14:00.000Z",
-        "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-empty-shelves-supermarket_7368668.jpg?20261005113052",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "lIJ5TnlMnAcs",
-          "url": "https://www.independent.co.uk/news/uk/home-news/uk-food-shortages-warning-national-security-b3061312.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/uk-food-shortages-warning-national-security-b3061312.html",
-          "title": "UK’s preparation for food shortages is ‘woefully inadequate’, experts warn",
-          "description": "More than 150 experts warn the UK is ‘complacent’ over its food security crisis",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T10:02:35.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/09/25/14/01KBFQ87RP92HHERTV1RP0TH4C.jpg?width=1200&auto=webp&trim=196%2C0%2C196%2C0",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T10:02:35.000Z"
-    },
-    {
-      "id": "cScDBNsXWUgy",
-      "representative": {
-        "id": "cScDBNsXWUgy",
-        "url": "https://www.independent.co.uk/news/uk/home-news/nhs-cancer-test-wgs-treatment-b3061971.html",
-        "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/nhs-cancer-test-wgs-treatment-b3061971.html",
-        "title": "New genetic cancer test for children slashes wait time to just days",
-        "description": "Two children avoided invasive treatment for benign tumours while two were able to have less extensive surgery",
-        "source": {
-          "id": "independent",
-          "name": "The Independent"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:00:45.000Z",
-        "imageUrl": "https://static.independent.co.uk/2025/04/15/10/04/FILE-CHILD-SICK-UNWELL.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+        "publishedAt": "2026-10-06T09:08:40.000Z",
+        "imageUrl": "https://i2-prod.mirror.co.uk/money/article37739302.ece/ALTERNATES/s615/0_male-hands-inserts-a-credit-card-into-the-terminal.jpg",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:00:45.000Z"
+      "latestPublishedAt": "2026-10-06T09:08:40.000Z"
+    },
+    {
+      "id": "wtkCt6FaZv1a",
+      "representative": {
+        "id": "wtkCt6FaZv1a",
+        "url": "https://www.mirror.co.uk/news/health/embarrassed-army-sergeant-27-failed-37738725",
+        "canonicalUrl": "https://www.mirror.co.uk/news/health/embarrassed-army-sergeant-27-failed-37738725",
+        "title": "Embarrassed' army sergeant, 27, failed routine fitness test - then his word changed forever",
+        "description": "Chris Dawson thought his tiredness was down to being a new dad but there was another devastating reason",
+        "source": {
+          "id": "mirror",
+          "name": "Daily Mirror"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:00:59.000Z",
+        "imageUrl": "https://i2-prod.mirror.co.uk/news/health/article37738735.ece/ALTERNATES/s615/0_Chris-Dawson-Early-2025jfif.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:00:59.000Z"
     }
   ]
 }
