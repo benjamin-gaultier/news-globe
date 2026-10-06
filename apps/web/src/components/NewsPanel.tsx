@@ -2,6 +2,7 @@ import type { CountryFile, CountryMeta } from '@news-globe/shared';
 import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react';
 import type { AsyncState } from '../hooks/useAsync';
 import { relativeTime } from '../lib/time';
+import { canTranslateOnDevice, getTranslator, TARGET_LANGUAGE } from '../lib/translate';
 import { StoryItem } from './StoryItem';
 
 /** Bottom-sheet snap points, as a fraction of the viewport height. */
@@ -32,14 +33,41 @@ function Skeleton() {
   );
 }
 
-function Body({ state, now, onRetry, country }: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'country'>) {
-  // Keep showing the previous data for this country while it refreshes.
-  const data =
-    state.status === 'ready'
-      ? state.data
-      : state.status === 'loading' && state.previous?.countryCode === country.code
-        ? state.previous
-        : null;
+type LanguageMode = 'original' | 'en';
+const LANGUAGE_KEY = 'news-globe:language';
+
+function readLanguageMode(): LanguageMode {
+  try {
+    return localStorage.getItem(LANGUAGE_KEY) === 'en' ? 'en' : 'original';
+  } catch {
+    return 'original';
+  }
+}
+
+/** The file to render: fresh data, or the previous data for this country while it refreshes. */
+function visibleData(state: AsyncState<CountryFile>, country: CountryMeta): CountryFile | null {
+  if (state.status === 'ready') return state.data;
+  if (state.status === 'loading' && state.previous?.countryCode === country.code) return state.previous;
+  return null;
+}
+
+/** Languages other than English among the visible stories. */
+function foreignLanguages(file: CountryFile | null): string[] {
+  const langs = new Set<string>();
+  for (const c of file?.clusters ?? []) {
+    for (const a of [c.representative, ...c.related]) if (a.language !== TARGET_LANGUAGE) langs.add(a.language);
+  }
+  return [...langs];
+}
+
+function Body({
+  state,
+  now,
+  onRetry,
+  country,
+  english,
+}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'country'> & { english: boolean }) {
+  const data = visibleData(state, country);
 
   if (state.status === 'error') {
     return (
@@ -64,7 +92,7 @@ function Body({ state, now, onRetry, country }: Pick<NewsPanelProps, 'state' | '
   return (
     <ol className="story-list">
       {data.clusters.map((c) => (
-        <StoryItem key={c.id} cluster={c} now={now} />
+        <StoryItem key={c.id} cluster={c} now={now} english={english} />
       ))}
     </ol>
   );
@@ -76,6 +104,7 @@ export function NewsPanel({ country, state, now, isMobile, onClose, onRetry, onS
   // Live drag state lives in a ref: pointerup can fire before React re-renders after the last move.
   const drag = useRef<{ startY: number; startHeight: number; height: number; moved: boolean } | null>(null);
   const panelRef = useRef<HTMLElement>(null);
+  const [languageMode, setLanguageMode] = useState<LanguageMode>(readLanguageMode);
 
   useEffect(() => onSheetChange(isMobile ? SHEET_SNAPS[snap] : 0), [snap, isMobile, onSheetChange]);
 
@@ -128,6 +157,38 @@ export function NewsPanel({ country, state, now, isMobile, onClose, onRetry, onS
   };
 
   const file = state.status === 'ready' ? state.data : null;
+  const languages = foreignLanguages(visibleData(state, country));
+  const english = languageMode === 'en' && languages.length > 0;
+  const languagesKey = languages.join(',');
+  // Whether on-device translators exist for every language shown: drives the "Translating…" / fallback notes.
+  const [translation, setTranslation] = useState<'pending' | 'ready' | 'unavailable'>('pending');
+
+  useEffect(() => {
+    if (!english) return;
+    if (!canTranslateOnDevice) {
+      setTranslation('unavailable');
+      return;
+    }
+    let cancelled = false;
+    setTranslation('pending');
+    void Promise.all(languagesKey.split(',').map(getTranslator)).then((ts) => {
+      if (!cancelled) setTranslation(ts.every(Boolean) ? 'ready' : 'unavailable');
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [english, languagesKey]);
+
+  const chooseLanguage = (mode: LanguageMode) => {
+    setLanguageMode(mode);
+    try {
+      localStorage.setItem(LANGUAGE_KEY, mode);
+    } catch {
+      // Not persisted; the choice still applies for this visit.
+    }
+    // Create translators inside the click: downloading a model needs a user gesture.
+    if (mode === 'en') for (const lang of languages) void getTranslator(lang);
+  };
   const style = isMobile
     ? { height: dragHeight !== null ? `${dragHeight}px` : `${SHEET_SNAPS[snap] * 100}dvh` }
     : undefined;
@@ -153,6 +214,16 @@ export function NewsPanel({ country, state, now, isMobile, onClose, onRetry, onS
             Top national headlines
             {file && <> · updated {relativeTime(file.updatedAt, now)}</>}
           </p>
+          {languages.length > 0 && (
+            <div className="lang-toggle" role="group" aria-label="Headline language">
+              <button type="button" aria-pressed={!english} onClick={() => chooseLanguage('original')}>
+                Original
+              </button>
+              <button type="button" aria-pressed={english} onClick={() => chooseLanguage('en')}>
+                English
+              </button>
+            </div>
+          )}
         </div>
         <button type="button" className="icon-btn" onClick={onClose} aria-label="Close headlines">
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
@@ -161,7 +232,14 @@ export function NewsPanel({ country, state, now, isMobile, onClose, onRetry, onS
         </button>
       </div>
       <div className="panel-body">
-        <Body state={state} now={now} onRetry={onRetry} country={country} />
+        {english && translation === 'pending' && <p className="panel-note">Translating headlines on this device…</p>}
+        {english && translation === 'unavailable' && (
+          <p className="panel-note">
+            This browser can’t translate headlines on-device (Chrome 138+ on desktop can). Use “Read in English” to open
+            a translated copy of an article.
+          </p>
+        )}
+        <Body state={state} now={now} onRetry={onRetry} country={country} english={english} />
         <p className="panel-footnote">
           Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets
           and ranked by how many outlets covered them in the last 24 hours.

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "US",
   "countryName": "United States",
-  "updatedAt": "2026-10-06T08:38:12.659Z",
+  "updatedAt": "2026-10-06T12:44:26.411Z",
   "clusters": [
     {
       "id": "cNgRZmeXuur4",
@@ -115,116 +115,6 @@
       "latestPublishedAt": "2026-10-05T15:58:13.000Z"
     },
     {
-      "id": "gL-Nkq7ZcEKN",
-      "representative": {
-        "id": "gL-Nkq7ZcEKN",
-        "url": "https://www.nytimes.com/2026/10/05/us/politics/supreme-court-climate-change-oil.html",
-        "canonicalUrl": "https://www.nytimes.com/2026/10/05/us/politics/supreme-court-climate-change-oil.html",
-        "title": "Supreme Court Tangles Over a Major Climate Change Case",
-        "description": "The justices began their new term with a landmark dispute over whether local governments can hold oil companies liable for damages from climate change.",
-        "source": {
-          "id": "nyt",
-          "name": "The New York Times"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:13:04.000Z",
-        "imageUrl": "https://static01.nyt.com/images/2026/10/05/multimedia/05dc-scotus-suncor-topart-02-vfmw/05dc-scotus-suncor-topart-02-vfmw-mediumSquareAt3X.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "sqTvCzzGyACm",
-          "url": "https://www.cbsnews.com/news/supreme-court-climate-change-energy-companies-boulder-colorado-arguments/",
-          "canonicalUrl": "https://www.cbsnews.com/news/supreme-court-climate-change-energy-companies-boulder-colorado-arguments/",
-          "title": "Supreme Court wrestles with energy companies' bid to block major climate suit",
-          "description": "Eight of the nine justices heard nearly two hours of oral arguments in a case involving an effort by the city and county of Boulder, Colorado, to hold energy companies accountable for the effects of global climate change.",
-          "source": {
-            "id": "cbs",
-            "name": "CBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-06T02:35:48.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "eijppk4Wwhm7",
-          "url": "https://www.pbs.org/newshour/show/supreme-court-hears-case-on-holding-energy-companies-liable-for-climate-change",
-          "canonicalUrl": "https://www.pbs.org/newshour/show/supreme-court-hears-case-on-holding-energy-companies-liable-for-climate-change",
-          "title": "Supreme Court hears case on holding energy companies liable for climate change",
-          "description": "Supreme Court justices heard arguments in a major climate change case that could shape how communities hold industries accountable. Officials in Boulder, Colorado, are seeking compensation from energy companies for the costs of natural disasters they say are caused by climate change. Ali Rogin…",
-          "source": {
-            "id": "pbs",
-            "name": "PBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T22:55:51.000Z",
-          "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/new-term-1024x683.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "KD83YcPxnU3t",
-          "url": "https://www.washingtonpost.com/politics/2026/10/05/supreme-court-grapples-with-case-holding-big-oil-liable-climate-change/",
-          "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/05/supreme-court-grapples-with-case-holding-big-oil-liable-climate-change/",
-          "title": "Supreme Court grapples with case on holding Big Oil liable for climate change",
-          "description": "After more than two hours of argument, it was unclear whether the justices would green-light Boulder, Colorado’s novel lawsuit against ExxonMobil and Suncor Energy.",
-          "source": {
-            "id": "wapo",
-            "name": "The Washington Post"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T19:23:15.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "Zm9qwgRjRqir",
-          "url": "https://www.npr.org/2026/10/05/nx-s1-5970070/supreme-court-climate-change-boulder-county",
-          "canonicalUrl": "https://www.npr.org/2026/10/05/nx-s1-5970070/supreme-court-climate-change-boulder-county",
-          "title": "Supreme Court's new term kicks off with blockbuster climate change case",
-          "description": "The case centers on whether local governments can hold giant energy companies accountable for the local harms of climate change, but it has repercussions beyond climate.",
-          "source": {
-            "id": "npr",
-            "name": "NPR"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T09:00:00.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "koXHcbN2j3Nm",
-          "url": "https://abcnews.com/US/wireStory/new-supreme-court-term-begins-cases-climate-change-136995024",
-          "canonicalUrl": "https://abcnews.com/US/wireStory/new-supreme-court-term-begins-cases-climate-change-136995024",
-          "title": "Supreme Court term begins with cases on climate change, immigration and gun rights",
-          "description": "The Supreme Court begins a new term Monday with significant cases on climate change, religious rights, and immigration",
-          "source": {
-            "id": "abc",
-            "name": "ABC News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T07:06:28.000Z",
-          "imageUrl": "https://s.abcnews.com/images/US/wirestory_389e2c111d351361c406e5ed7e0728c5_16x9_1600.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 5,
-      "outletCount": 6,
-      "latestPublishedAt": "2026-10-06T07:13:04.000Z"
-    },
-    {
       "id": "OgyCJFkbZHgm",
       "representative": {
         "id": "OgyCJFkbZHgm",
@@ -301,6 +191,326 @@
       "latestPublishedAt": "2026-10-05T15:57:28.000Z"
     },
     {
+      "id": "edfDpG-qKOcf",
+      "representative": {
+        "id": "edfDpG-qKOcf",
+        "url": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
+        "canonicalUrl": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
+        "title": "News Wrap: Cornell students protest handling of alleged rape",
+        "description": "In our news wrap Monday, students at Cornell are staging protests over the university's handling of an alleged fraternity house gang rape in 2024, President Trump said a threat linked to Iran was the reason the U.S. withdrew its bombers from the Fairford airbase in the UK and Dennis Hastert, the…",
+        "source": {
+          "id": "pbs",
+          "name": "PBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T22:45:10.000Z",
+        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/newswrapcornell-1024x688.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "dvfhHr47lvNQ",
+          "url": "https://abcnews.com/US/wireStory/cornell-building-sprayed-graffiti-blasting-schools-response-gang-137008360",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/cornell-building-sprayed-graffiti-blasting-schools-response-gang-137008360",
+          "title": "A crowd of students protests Cornell's response to gang rape complaint",
+          "description": "Cornell students, professors and others are thronging a campus plaza to protest the university’s response to allegations of sexual assault at a fraternity house in 2024",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T08:42:14.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_70d74249bc779480975f3b2a4166ee97_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "H6lwnf1nHPbJ",
+          "url": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
+          "canonicalUrl": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
+          "title": "Cornell students vandalize on-campus wall over university's handling of alleged rape case",
+          "description": "There is growing backlash against Cornell University as more information comes out about the Ivy League school's original response to an alleged gang rape two years ago inside a frat house on campus. Lilia Luciano reports.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T23:49:05.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T08:42:14.000Z"
+    },
+    {
+      "id": "KD83YcPxnU3t",
+      "representative": {
+        "id": "KD83YcPxnU3t",
+        "url": "https://www.washingtonpost.com/politics/2026/10/05/supreme-court-grapples-with-case-holding-big-oil-liable-climate-change/",
+        "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/05/supreme-court-grapples-with-case-holding-big-oil-liable-climate-change/",
+        "title": "Supreme Court grapples with case on holding Big Oil liable for climate change",
+        "description": "After more than two hours of argument, it was unclear whether the justices would green-light Boulder, Colorado’s novel lawsuit against ExxonMobil and Suncor Energy.",
+        "source": {
+          "id": "wapo",
+          "name": "The Washington Post"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T19:23:15.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "sqTvCzzGyACm",
+          "url": "https://www.cbsnews.com/news/supreme-court-climate-change-energy-companies-boulder-colorado-arguments/",
+          "canonicalUrl": "https://www.cbsnews.com/news/supreme-court-climate-change-energy-companies-boulder-colorado-arguments/",
+          "title": "Supreme Court wrestles with energy companies' bid to block major climate suit",
+          "description": "Eight of the nine justices heard nearly two hours of oral arguments in a case involving an effort by the city and county of Boulder, Colorado, to hold energy companies accountable for the effects of global climate change.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T02:35:48.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "eijppk4Wwhm7",
+          "url": "https://www.pbs.org/newshour/show/supreme-court-hears-case-on-holding-energy-companies-liable-for-climate-change",
+          "canonicalUrl": "https://www.pbs.org/newshour/show/supreme-court-hears-case-on-holding-energy-companies-liable-for-climate-change",
+          "title": "Supreme Court hears case on holding energy companies liable for climate change",
+          "description": "Supreme Court justices heard arguments in a major climate change case that could shape how communities hold industries accountable. Officials in Boulder, Colorado, are seeking compensation from energy companies for the costs of natural disasters they say are caused by climate change. Ali Rogin…",
+          "source": {
+            "id": "pbs",
+            "name": "PBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T22:55:51.000Z",
+          "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/new-term-1024x683.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "Zm9qwgRjRqir",
+          "url": "https://www.npr.org/2026/10/05/nx-s1-5970070/supreme-court-climate-change-boulder-county",
+          "canonicalUrl": "https://www.npr.org/2026/10/05/nx-s1-5970070/supreme-court-climate-change-boulder-county",
+          "title": "Supreme Court's new term kicks off with blockbuster climate change case",
+          "description": "The case centers on whether local governments can hold giant energy companies accountable for the local harms of climate change, but it has repercussions beyond climate.",
+          "source": {
+            "id": "npr",
+            "name": "NPR"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T09:00:00.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "koXHcbN2j3Nm",
+          "url": "https://abcnews.com/US/wireStory/new-supreme-court-term-begins-cases-climate-change-136995024",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/new-supreme-court-term-begins-cases-climate-change-136995024",
+          "title": "Supreme Court term begins with cases on climate change, immigration and gun rights",
+          "description": "The Supreme Court begins a new term Monday with significant cases on climate change, religious rights, and immigration",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T07:06:28.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_389e2c111d351361c406e5ed7e0728c5_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T02:35:48.000Z"
+    },
+    {
+      "id": "BBxxZB0Zjndl",
+      "representative": {
+        "id": "BBxxZB0Zjndl",
+        "url": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
+        "title": "Fury in California After Trump Suggests Iran Could ‘Take Out’ L.A. or San Diego",
+        "description": "Gov. Gavin Newsom called the president “dangerous and deranged” after his remarks at a political rally, where Mr. Trump said the Iran war was necessary to “keep the world safe.”",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T07:11:57.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06xp-trump-strikes-mflg/06xp-trump-strikes-mflg-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Bg3pe2MmoDlY",
+          "url": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
+          "canonicalUrl": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
+          "title": "Trump suggests letting Iran \"take out\" LA, San Diego during rally",
+          "description": "Gov. Gavin Newsom called President Trump \"deranged and dangerous\" after he suggested letting Iran \"take out\" Los Angeles and San Diego.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:30:32.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:30:32.000Z"
+    },
+    {
+      "id": "fYd-yuTEmSFh",
+      "representative": {
+        "id": "fYd-yuTEmSFh",
+        "url": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
+        "canonicalUrl": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
+        "title": "Jim Bakker, who co-founded \"The PTL Club\" but fell into disgrace, dies at 86",
+        "description": "Jim Bakker, who along with his first wife Tammy Faye built an evangelical empire around \"The PTL Club\" TV show, only to lose it all over a sex scandal and financial crimes, has died at 86.",
+        "source": {
+          "id": "cbs",
+          "name": "CBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:05:00.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "jKJqQlX3lp6A",
+          "url": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
+          "title": "Jim Bakker, who built ‘PTL Club’ televangelism empire, has died at 86",
+          "description": "Jim Bakker, who along with his first-wife Tammy Faye built an evangelical empire around the hugely successful “The PTL Club” TV show, only to lose it all over a sex scandal and financial crimes, has died",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T10:12:50.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_ef6d58ffa0b511edba773c219cee77e8_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:12:50.000Z"
+    },
+    {
+      "id": "ayblcUrkAH7o",
+      "representative": {
+        "id": "ayblcUrkAH7o",
+        "url": "https://www.nytimes.com/2026/10/06/us/politics/democrats-house-races-spending.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/06/us/politics/democrats-house-races-spending.html",
+        "title": "Democrats Eyeing the House Face a Conundrum: Rent or Buy?",
+        "description": "With less money than G.O.P., Democrats are torn over where to spend in the final weeks. The party is making its biggest move in years against one of G.O.P.’s biggest blue-district survivors.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:03:34.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06pol-house-democrats-01-qfkg/06pol-house-democrats-01-qfkg-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "sZZ9TzVcH-f0",
+          "url": "https://www.washingtonpost.com/politics/2026/10/06/with-kamala-harris-democrats-face-conundrum/",
+          "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/06/with-kamala-harris-democrats-face-conundrum/",
+          "title": "With Kamala Harris, Democrats face a conundrum",
+          "description": "There is considerable admiration for the former vice president, but also some reservations if she runs again.",
+          "source": {
+            "id": "wapo",
+            "name": "The Washington Post"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:25:34.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:25:34.000Z"
+    },
+    {
+      "id": "5tXtW_C7RRIf",
+      "representative": {
+        "id": "5tXtW_C7RRIf",
+        "url": "https://www.nytimes.com/2026/10/06/business/media/disney-abc-fcc-lawsuit-court.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/06/business/media/disney-abc-fcc-lawsuit-court.html",
+        "title": "Battle Between Disney and the F.C.C. Moves to the Courts",
+        "description": "On Tuesday, a federal judge will begin hearing arguments in Disney’s effort to stop the agency from reviewing its broadcast licenses.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:03:19.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06biz-disney-fcc-kzcl/06biz-disney-fcc-kzcl-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "duvhrrEU8oHP",
+          "url": "https://www.npr.org/2026/10/06/nx-s1-5991831/disney-battles-fcc",
+          "canonicalUrl": "https://www.npr.org/2026/10/06/nx-s1-5991831/disney-battles-fcc",
+          "title": "Disney, ABC battle Trump's FCC in court over free speech protections",
+          "description": "President Trump has repeatedly called for Disney's ABC to fire late night comedian Jimmy Kimmel, for mocking him. Trump has also routinely denounced ABC's The View , accusing it of being unfair.",
+          "source": {
+            "id": "npr",
+            "name": "NPR"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:17:00.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:17:00.000Z"
+    },
+    {
       "id": "mdy5JYMM7-Pt",
       "representative": {
         "id": "mdy5JYMM7-Pt",
@@ -355,93 +565,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T02:21:45.000Z"
-    },
-    {
-      "id": "BBxxZB0Zjndl",
-      "representative": {
-        "id": "BBxxZB0Zjndl",
-        "url": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
-        "canonicalUrl": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
-        "title": "Fury in California After Trump Suggests Iran Could ‘Take Out’ L.A. or San Diego",
-        "description": "Gov. Gavin Newsom called the president “dangerous and deranged” after his remarks at a political rally, where Mr. Trump said the Iran war was necessary to “keep the world safe.”",
-        "source": {
-          "id": "nyt",
-          "name": "The New York Times"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:11:57.000Z",
-        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06xp-trump-strikes-mflg/06xp-trump-strikes-mflg-mediumSquareAt3X.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Bg3pe2MmoDlY",
-          "url": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
-          "canonicalUrl": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
-          "title": "Trump suggests letting Iran \"take out\" LA, San Diego during rally",
-          "description": "Gov. Gavin Newsom called President Trump \"deranged and dangerous\" after he suggested letting Iran \"take out\" Los Angeles and San Diego.",
-          "source": {
-            "id": "cbs",
-            "name": "CBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-06T05:41:07.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T07:11:57.000Z"
-    },
-    {
-      "id": "fYd-yuTEmSFh",
-      "representative": {
-        "id": "fYd-yuTEmSFh",
-        "url": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
-        "canonicalUrl": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
-        "title": "Jim Bakker, who co-founded \"The PTL Club\" but fell into disgrace, dies at 86",
-        "description": "Jim Bakker, who along with his first wife Tammy Faye built an evangelical empire around \"The PTL Club\" TV show, only to lose it all over a sex scandal and financial crimes, has died at 86.",
-        "source": {
-          "id": "cbs",
-          "name": "CBS News"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:05:00.000Z",
-        "imageUrl": null,
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "jKJqQlX3lp6A",
-          "url": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
-          "canonicalUrl": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
-          "title": "Jim Bakker, who built ‘PTL Club’ televangelism empire, has died at 86",
-          "description": "Jim Bakker, who along with his first-wife Tammy Faye built an evangelical empire around the hugely successful “The PTL Club” TV show, only to lose it all over a sex scandal and financial crimes, has died",
-          "source": {
-            "id": "abc",
-            "name": "ABC News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-06T06:20:39.000Z",
-          "imageUrl": "https://s.abcnews.com/images/US/wirestory_ef6d58ffa0b511edba773c219cee77e8_16x9_1600.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:20:39.000Z"
     },
     {
       "id": "WKhqKlefgEN9",
@@ -526,48 +652,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T01:16:28.000Z"
-    },
-    {
-      "id": "edfDpG-qKOcf",
-      "representative": {
-        "id": "edfDpG-qKOcf",
-        "url": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
-        "canonicalUrl": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
-        "title": "News Wrap: Cornell students protest handling of alleged rape",
-        "description": "In our news wrap Monday, students at Cornell are staging protests over the university's handling of an alleged fraternity house gang rape in 2024, President Trump said a threat linked to Iran was the reason the U.S. withdrew its bombers from the Fairford airbase in the UK and Dennis Hastert, the…",
-        "source": {
-          "id": "pbs",
-          "name": "PBS News"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-05T22:45:10.000Z",
-        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/newswrapcornell-1024x688.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "H6lwnf1nHPbJ",
-          "url": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
-          "canonicalUrl": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
-          "title": "Cornell students vandalize on-campus wall over university's handling of alleged rape case",
-          "description": "There is growing backlash against Cornell University as more information comes out about the Ivy League school's original response to an alleged gang rape two years ago inside a frat house on campus. Lilia Luciano reports.",
-          "source": {
-            "id": "cbs",
-            "name": "CBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T23:49:05.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T23:49:05.000Z"
     },
     {
       "id": "KQrrUBQDIU5E",
@@ -736,72 +820,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T16:04:05.000Z"
-    },
-    {
-      "id": "h_DbvEx3DwpI",
-      "representative": {
-        "id": "h_DbvEx3DwpI",
-        "url": "https://www.nytimes.com/video/us/100000011184795/will-midterm-elections-complicate-the-supreme-courts-new-term.html",
-        "canonicalUrl": "https://www.nytimes.com/video/us/100000011184795/will-midterm-elections-complicate-the-supreme-courts-new-term.html",
-        "title": "Will Midterm Elections Complicate the Supreme Court’s New Term?",
-        "description": "The Supreme Court is starting its new term already mired in election disputes. Our reporter Ann E. Marimow explains why the court is likely to get pulled into even more of these cases.",
-        "source": {
-          "id": "nyt",
-          "name": "The New York Times"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-05T10:21:41.000Z",
-        "imageUrl": null,
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "dE5S8BIeDGBU",
-          "url": "https://www.washingtonpost.com/politics/2026/10/05/what-watch-supreme-courts-new-term/",
-          "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/05/what-watch-supreme-courts-new-term/",
-          "title": "6 things to watch in the Supreme Court’s new term",
-          "description": "Cases on religion, elections and immigration are likely to take the spotlight. And don’t forget to watch for a potential retirement.",
-          "source": {
-            "id": "wapo",
-            "name": "The Washington Post"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T09:00:00.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T12:57:25.000Z"
-    },
-    {
-      "id": "qXSABz54us3K",
-      "representative": {
-        "id": "qXSABz54us3K",
-        "url": "https://abcnews.com/Politics/wireStory/republicans-return-tough-crime-message-ahead-difficult-midterm-137023931",
-        "canonicalUrl": "https://abcnews.com/Politics/wireStory/republicans-return-tough-crime-message-ahead-difficult-midterm-137023931",
-        "title": "Republicans return to tough-on-crime message ahead of difficult midterm elections",
-        "description": "Republicans are focusing on crime and public disorder in midterm election campaigns, as voters grow frustrated with their handling of the cost of living and the war with Iran",
-        "source": {
-          "id": "abc",
-          "name": "ABC News"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T06:57:35.000Z",
-        "imageUrl": "https://s.abcnews.com/images/US/wirestory_4a181df89b301d65406a0f2235166be4_16x9_1600.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T06:57:35.000Z"
     }
   ]
 }

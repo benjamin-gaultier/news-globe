@@ -1,15 +1,16 @@
 import type { Article } from '@news-globe/shared';
 import type { RawItem } from '../adapters/types';
 import type { SourceConfig } from '../sources.config';
-import { articleId, canonicalizeUrl } from './url';
+import { articleId, canonicalizeUrl, dateFromUrl } from './url';
 
 /**
- * Turn a raw feed item into an Article. Items without a date get the time
- * the feed was retrieved; dates in the future are clamped to `now`.
+ * Turn a raw feed item into an Article. Items without a date take the date in
+ * their URL if there is one (e.g. Sky TG24), else the time the feed was
+ * retrieved; dates in the future are clamped to `now`.
  */
 export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: string, now: number): Article {
   const canonicalUrl = canonicalizeUrl(item.url);
-  const published = Math.min(Date.parse(item.publishedAt ?? retrievedAt), now);
+  const published = Math.min(Date.parse(item.publishedAt ?? dateFromUrl(item.url) ?? retrievedAt), now);
   return {
     id: articleId(canonicalUrl),
     url: item.url,
@@ -24,6 +25,15 @@ export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: stri
     countryCode: source.country,
     regionCode: null,
   };
+}
+
+/**
+ * A title with U+FFFD replacement characters was decoded with the wrong charset
+ * (e.g. cached before feeds were decoded by their declared charset); skip it
+ * rather than show mojibake.
+ */
+export function isMisdecoded(title: string): boolean {
+  return title.includes('�');
 }
 
 /** Exact dedupe on canonical URL; the first occurrence wins. */

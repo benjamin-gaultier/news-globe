@@ -144,9 +144,21 @@ button {
 .country-picker {
   display: flex;
   gap: 6px;
+  /* One scrollable row as the country list grows, instead of wrapping over the globe. */
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.country-picker::-webkit-scrollbar {
+  display: none;
 }
 
 .chip {
+  flex: none;
+  white-space: nowrap;
   border: 1px solid var(--border);
   background: rgba(13, 22, 38, 0.75);
   border-radius: 999px;
@@ -571,4 +583,46 @@ button {
     translate: 24px 0;
     opacity: 0;
   }
+}
+
+/* ---------- Headline language toggle ---------- */
+
+.lang-toggle {
+  display: inline-flex;
+  margin-top: 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.lang-toggle button {
+  border: 0;
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.lang-toggle button[aria-pressed='true'] {
+  background: var(--accent-2);
+  color: #1a1206;
+  font-weight: 600;
+}
+
+.panel-note {
+  margin: 8px 16px 0;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.story-translate {
+  color: var(--text-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.story-translate:hover {
+  color: var(--text);
 }

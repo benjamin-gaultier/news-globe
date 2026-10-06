@@ -22,8 +22,8 @@ export function jaccard(a: Set<string>, b: Set<string>): { score: number; shared
   return { score: shared / (a.size + b.size - shared), shared };
 }
 
-export function titleSimilarity(a: string, b: string): { score: number; shared: number } {
-  return jaccard(titleTokens(a), titleTokens(b));
+export function titleSimilarity(a: string, b: string, language?: string): { score: number; shared: number } {
+  return jaccard(titleTokens(a, language), titleTokens(b, language));
 }
 
 class UnionFind {
@@ -71,7 +71,7 @@ class UnionFind {
  */
 export function clusterArticles(articles: Article[], opts: ClusterOptions): Article[][] {
   const n = articles.length;
-  const tokens = articles.map((a) => titleTokens(a.title));
+  const tokens = articles.map((a) => titleTokens(a.title, a.language));
   const sim: Float64Array = new Float64Array(n * n);
   const edges: { i: number; j: number; score: number }[] = [];
 

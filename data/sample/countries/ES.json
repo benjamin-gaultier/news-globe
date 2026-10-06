@@ -1,0 +1,736 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "ES",
+  "countryName": "Spain",
+  "updatedAt": "2026-10-06T12:44:26.411Z",
+  "clusters": [
+    {
+      "id": "2MGmVyB7Oqxv",
+      "representative": {
+        "id": "2MGmVyB7Oqxv",
+        "url": "https://elpais.com/espana/2026-10-06/el-supremo-levanta-la-orden-de-detencion-a-puigdemont.html",
+        "canonicalUrl": "https://elpais.com/espana/2026-10-06/el-supremo-levanta-la-orden-de-detencion-a-puigdemont.html",
+        "title": "El Supremo levanta la orden de detención a Puigdemont, pero no le aplica todavía la amnistía",
+        "description": "Llarena deja sin efecto el mandamiento de arresto que pesaba sobre el expresidente, Puig y Comín, pero no decidirá sobre la medida de gracia hasta que analice la sentencia del Constitucional",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:41:20.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/BM7P4X4DIFIZTNM6D6JNANF6XY.jpg?auth=0afff364c5fc257939aeefbd0852ad17914c51958def8ff81d804155f8c1f6ec",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "zQzxwZQLCQLG",
+          "url": "https://www.abc.es/espana/llarena-levanta-orden-detencion-puigdemont-tras-conocer-20261006125040-nt.html",
+          "canonicalUrl": "https://www.abc.es/espana/llarena-levanta-orden-detencion-puigdemont-tras-conocer-20261006125040-nt.html",
+          "title": "Llarena levanta la orden de detención de Puigdemont tras conocer el fallo del TC",
+          "description": "El magistrado de la Sala Penal del Supremo Pablo Llarena ha dejado sin efecto las órdenes nacionales de busca y captura y detención del expresidente de la Generalitat catalana Carles Puigdemont y de los exconsellers Antoni Comin y Lluis Puig, también huidos de la Justicia desde octubre de 2017.El…",
+          "source": {
+            "id": "abc_es",
+            "name": "ABC"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:50:46.000Z",
+          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518260037.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "AYvSwZ9a2Ymz",
+          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4c58c21efa0dc1f8b45ba.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4c58c21efa0dc1f8b45ba.html",
+          "title": "El Constitucional ampara a los líderes del 'procés' y Llarena levanta la orden de detención contra Puigdemont que podrá regresar ya a España",
+          "description": "El Pleno ampara a la ex consellera Dolors Bassa dividido entre conservadores y progresistas. La decisión del TC obliga a Llarena a levantar la orden de detención contra el ex presidente de la Generalitat. Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:25:01.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912808849496.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "1pgfSrYb3fwi",
+          "url": "https://www.20minutos.es/nacional/juez-llarena-levanta-orden-detencion-puigdemont-tras-conocer-fallo-constitucional_7045435_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/juez-llarena-levanta-orden-detencion-puigdemont-tras-conocer-fallo-constitucional_7045435_0.html",
+          "title": "El juez Llarena levanta la orden de detención de Puigdemont tras conocer el fallo del Constitucional",
+          "description": "El 'expresident' decide no regresar a España hasta que se le haya aplicado la amnistía y se archive el procedimiento, pese al alzamiento de la orden de detención.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:55:22.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac4d79f6ccd41-31581758.webp",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "yjbLoZYex9XZ",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652315/tc-ordena-aplicar-amnistia-llarena-levanta-orden-detencion-puigdemont-que.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652315/tc-ordena-aplicar-amnistia-llarena-levanta-orden-detencion-puigdemont-que.html",
+          "title": "El TC ordena aplicar la amnistía, Llarena levanta la orden de detención de Puigdemont: ¿Y ahora qué?",
+          "description": "La doctrina del Tribunal Constitucional debería llevar a una aplicación de la ley en cascada a todos los condenados, procesados o encausados por el 'procés'",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:51:11.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/09/23/6ab4007380eb7.r_d.2243-1262-0.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T11:50:46.000Z"
+    },
+    {
+      "id": "K5bUWXuCD0R_",
+      "representative": {
+        "id": "K5bUWXuCD0R_",
+        "url": "https://elpais.com/espana/2026-10-06/el-pp-pide-la-imputacion-del-psoe-a-la-audiencia-nacional-en-el-primer-dia-de-precampana.html",
+        "canonicalUrl": "https://elpais.com/espana/2026-10-06/el-pp-pide-la-imputacion-del-psoe-a-la-audiencia-nacional-en-el-primer-dia-de-precampana.html",
+        "title": "El PP pide la imputación del PSOE a la Audiencia Nacional en el primer día de precampaña",
+        "description": "Los populares solicitan al juez Pedraz, que preguntará antes a la Fiscalía, que actúe contra el partido del Gobierno por cinco delitos",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:03:09.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/SX5UMRVPZROWDHF6KYRZD6PEXY.jpg?auth=0b5cde5c6ee2e2d4d93c132c365fec3c68b9d2f8978c442e37ac9036f25e0239",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "sDa07kg2A4RQ",
+          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4cfc0e4d4d80a2f8b45a5.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4cfc0e4d4d80a2f8b45a5.html",
+          "title": "El PP pide en la Audiencia Nacional la imputación del PSOE por financiación ilegal",
+          "description": "Los 'populares' han registrado un escrito en el que reclaman que también se investigue a los socialistas por \"cohecho, malversación, tráfico de influencias y blanqueo de capitales\" Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:37:08.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912832360643.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "NbYf_JAp5QCr",
+          "url": "https://www.eldiario.es/politica/pp-pide-audiencia-nacional-imputacion-psoe-caso-leire-diez_1_13565841.html",
+          "canonicalUrl": "https://www.eldiario.es/politica/pp-pide-audiencia-nacional-imputacion-psoe-caso-leire-diez_1_13565841.html",
+          "title": "El PP pide a la Audiencia Nacional la imputación del PSOE en el caso Leire Díez",
+          "description": "La formación de Núñez Feijóo indica que la trama \"dispuso de los medios operativos, logísticos y financieros de esa formación para sufragar los gastos derivados de su ilícita actividad\" El juez deja fuera la hipótesis de la jueza Biedma sobre el hostigamiento de un clan de narcos: “No es posible…",
+          "source": {
+            "id": "eldiario",
+            "name": "elDiario.es"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:56:32.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/2a0a767d-d354-4d21-bf4e-7b0933f05ea0_16-9-discover-aspect-ratio_default_0_x1538y414.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "m3fjobm4U-j9",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652297/pp-pide-imputacion-psoe-caso-leire-investiga-audiencia-nacional.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652297/pp-pide-imputacion-psoe-caso-leire-investiga-audiencia-nacional.html",
+          "title": "El PP pide la imputación del PSOE en el caso Leire que se investiga en la Audiencia Nacional",
+          "description": "En el escrito, los populares piden que el juez sitúe como investigado a los socialistas por cohecho, malversación, tráfico de influencias, blanqueo de capitales y financiación ilegal",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:39:09.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/05/6ac388b736999.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:03:09.000Z"
+    },
+    {
+      "id": "Qc9o8waicRgf",
+      "representative": {
+        "id": "Qc9o8waicRgf",
+        "url": "https://www.elmundo.es/espana/2026/10/05/6ac3804021efa0152d8b4580.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3804021efa0152d8b4580.html",
+        "title": "¿Cómo funciona la Diputación Permanente y por qué la podría utilizar Sánchez para aprobar los decretos de vivienda antes de las elecciones?",
+        "description": "Este órgano es encargado de velar por los poderes de la Cámara de los Diputados cuando el Parlamento se ha disuelto Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T10:49:06.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911971549084.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "MUrQZA1lqMBd",
+          "url": "https://www.abc.es/espana/comparecencia-pedro-sanchez-directo-posible-convocatoria-elecciones-20261005080806-di.html",
+          "canonicalUrl": "https://www.abc.es/espana/comparecencia-pedro-sanchez-directo-posible-convocatoria-elecciones-20261005080806-di.html",
+          "title": "Elecciones generales en España, en directo: comparecencia de Pedro Sánchez tras la aprobación de los decretos de vivienda y última hora hoy",
+          "description": "Sigue en directo hoy la última hora de la convocatoria de elecciones generales en España para el próximo 29 de noviembre, con la comparecencia de Pedro Sánchez tras el Consejo de Ministros donde se aprobarán los decretos de vivienda rechazados la semana pasada por el pleno del Congreso.",
+          "source": {
+            "id": "abc_es",
+            "name": "ABC"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:01:09.000Z",
+          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/05/pedro-sanchez-ministro-U20978908959WTE-U302059744511GbD-1200x840@diario_abc.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "JTs6_ZlvxHGf",
+          "url": "https://www.20minutos.es/nacional/adelanto-electoral-sanchez-directo-sanchez-decide-si-convoca-elecciones-tras-un-fin-semana-reflexion-movilizaciones-las-calles_7044725_6.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/adelanto-electoral-sanchez-directo-sanchez-decide-si-convoca-elecciones-tras-un-fin-semana-reflexion-movilizaciones-las-calles_7044725_6.html",
+          "title": "Elecciones generales en España del 29N, en directo | Sánchez pide el apoyo de la Diputación Permanente a los decretos de vivienda: \"Es una cuestión de humanidad\"",
+          "description": "Última hora sobre el adelanto electoral al 29 de noviembre anunciado por Pedro Sánchez este lunes: reacciones políticas y protestas por la vivienda.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:00:32.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/10/06/6ac4d4ae003ae2-89754157.r_d.960-505-6400.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "E5EBQ2gikBUp",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
+          "title": "Última hora sobre Pedro Sánchez, las medidas de la vivienda y las elecciones anticipadas, en directo",
+          "description": "Pedro Sánchez anuncia avales y 680 millones para impulsar la construcción de vivienda",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:35:24.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac4dce5ef202.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:01:09.000Z"
+    },
+    {
+      "id": "dLtoBtn9yDMa",
+      "representative": {
+        "id": "dLtoBtn9yDMa",
+        "url": "https://elpais.com/espana/2026-10-06/finlandia-se-solidariza-con-espana-y-remarca-que-ahora-la-seguridad-del-sur-es-igual-de-importante-que-la-del-norte.html",
+        "canonicalUrl": "https://elpais.com/espana/2026-10-06/finlandia-se-solidariza-con-espana-y-remarca-que-ahora-la-seguridad-del-sur-es-igual-de-importante-que-la-del-norte.html",
+        "title": "Finlandia se solidariza con España y remarca que “ahora” la seguridad del sur es igual de importante que la del norte",
+        "description": "Felipe VI mantiene una reunión bilateral con el presidente del país nórdico, Alexander Stubb, en un viaje de Estado marcado por la defensa de la UE",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:16:51.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/77TRPS7UZZG2HJFIF5CWP3OT2U.jpg?auth=fe8cbdb8c980b3f8e488792602b646e2dc7db540a76d04d6811624d46797774e",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "qUVuQZi0cSdQ",
+          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4b65321efa0637c8b458b.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4b65321efa0637c8b458b.html",
+          "title": "Stubb reconoce a Felipe VI que \"la seguridad en el sur de España es igual de importante que en cualquier otra frontera\"",
+          "description": "El primer contacto de las delegaciones confirma el interés de España por reforzar la preocupación de la frontera sur de Europa Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T09:31:19.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912786752038.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "uiu_5S27-Fsc",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652200/rey-stubb-unidos-seguridad-sur-espana-frontera-finlandesa.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652200/rey-stubb-unidos-seguridad-sur-espana-frontera-finlandesa.html",
+          "title": "Stubb iguala ante el Rey la seguridad del sur de España a la de otras fronteras europeas",
+          "description": "Tras la bienvenida oficial a los Reyes, reivindican en Helsinki una estrategia en la UE y la OTAN ante amenazas que “no son solo una cuestión de defensa”",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T09:23:33.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac4bca6a3ebc.r_d.1027-1215-0.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T10:16:51.000Z"
+    },
+    {
+      "id": "XD3SNJPCfjtR",
+      "representative": {
+        "id": "XD3SNJPCfjtR",
+        "url": "https://www.elmundo.es/espana/2026/10/06/6ac4d1f5e85ece50618b45a0.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4d1f5e85ece50618b45a0.html",
+        "title": "María Jesús Montero no volverá a ir en la listas del PSOE al Congreso como número uno por Sevilla",
+        "description": "La líder andaluza despeja las dudas tras haber sido incluida por Sánchez en el comité electoral Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:00:32.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912836081126.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Hk1GzQ53RqDA",
+          "url": "https://www.abc.es/espana/andalucia/maria-jesus-montero-candidata-congreso-20261006124637-nts.html",
+          "canonicalUrl": "https://www.abc.es/espana/andalucia/maria-jesus-montero-candidata-congreso-20261006124637-nts.html",
+          "title": "María Jesús Montero: «No voy a ser candidata al Congreso»",
+          "description": "Primera comparecencia de María Jesús Montero tras la convocatoria electoral y después de que Pedro Sánchez haya pasado todo el fin de semana de reflexión sin realizar ninguna comparecencia pública . Este martes, algo más de 24 horas después de conocerse que la cita electoral será el próximo 29 de…",
+          "source": {
+            "id": "abc_es",
+            "name": "ABC"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:16:36.000Z",
+          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/maria-jesus-montero-Rpv6H8ubMUBgCrkxKRHvI9I-1200x840@diario_abc.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:16:36.000Z"
+    },
+    {
+      "id": "rDW7Bnw9txl6",
+      "representative": {
+        "id": "rDW7Bnw9txl6",
+        "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/genova-se-desmarca-de-ayuso-y-ve-garantista-el-sistema-de-voto-por-correo-que-vayan-a-votar-por-tierra-mar-y-aire.html",
+        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-06/genova-se-desmarca-de-ayuso-y-ve-garantista-el-sistema-de-voto-por-correo-que-vayan-a-votar-por-tierra-mar-y-aire.html",
+        "title": "Génova se distancia de Ayuso y ve “garantista” el sistema de voto por correo: “Que vayan a votar por tierra, mar y aire”",
+        "description": "La líder popular madrileña insiste en esparcir sospechas sobre las “trampas” del sistema: “Defiendo que no puede haber trucos, este es un Gobierno trilero”",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:19:22.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/5XHZ42GR4JMPTBWQ2FIO3RG5J4.jpg?auth=65ee17206c542d54e701f6dda199ebbce4620ba27e8b2abc729dec3061634f94",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "M0mlfJHg4qdm",
+          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4ba7ce4d4d8a07c8b45b9.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4ba7ce4d4d8a07c8b45b9.html",
+          "title": "Génova se desmarca de Ayuso y ve \"garantista\" el voto por correo mientras ella se reafirma: \"Todo el mundo tiene que ir a la urna\"",
+          "description": "Borja Sémper afirma que el sistema tiene controles que hacen que el procedimiento esté vigilado pero la presidenta madrileña pide \"estar atentos\" Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:32:43.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912778874595.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:32:43.000Z"
+    },
+    {
+      "id": "1bHjpeJA-6c8",
+      "representative": {
+        "id": "1bHjpeJA-6c8",
+        "url": "https://www.elmundo.es/espana/2026/10/05/6ac3493de4d4d82d6e8b4580.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3493de4d4d82d6e8b4580.html",
+        "title": "Sánchez adelanta las elecciones al 29 de noviembre",
+        "description": "El Consejo de Ministros de este martes volverá a aprobar los decretos de vivienda que tumbó el Congreso con alguna modificación. Los deberá validar la Diputación Permanente, donde no necesitan a Junts para aprobarlos Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T13:51:56.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911838354075.png",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "BdVdI2Tn1kxJ",
+          "url": "https://www.20minutos.es/nacional/motivos-puedes-faltar-mesa-electoral-elecciones-generales-noviembre_7045393_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/motivos-puedes-faltar-mesa-electoral-elecciones-generales-noviembre_7045393_0.html",
+          "title": "Los motivos por los que puedes faltar a la mesa electoral en las elecciones generales del 29 de noviembre",
+          "description": "La elección de los presidentes, vocales y suplentes se realiza mediante sorteo entre los electores que sepan leer y escribir, y sean menores de 70 años.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:16:24.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2025/12/21/6947c3a80bd750-66153532.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "7zYwfFeS76WY",
+          "url": "https://www.lavanguardia.com/politica/20261005/11651065/pedro-sanchez-adelanta-elecciones-generales-29-noviembre.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261005/11651065/pedro-sanchez-adelanta-elecciones-generales-29-noviembre.html",
+          "title": "Pedro Sánchez adelanta las elecciones generales al 29 de noviembre",
+          "description": "El presidente pone fin a la legislatura tras la derrota de los decretos de vivienda y las multitudinarias movilizaciones del sábado",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T07:09:37.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/05/6ac34fb2622a6.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T10:16:24.000Z"
+    },
+    {
+      "id": "3M4pigwXBPaP",
+      "representative": {
+        "id": "3M4pigwXBPaP",
+        "url": "https://www.elmundo.es/espana/2026/10/06/6ac4c791e85ece04468b45b3.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4c791e85ece04468b45b3.html",
+        "title": "La joyería Yanes hará una nueva pericial de las joyas de Zapatero: el juez Calama rechaza el recurso del ex presidente",
+        "description": "El magistrado de la Audiencia Nacional recuerda al imputado que si no está de acuerdo con la designación del experto puede encargar su propio análisis Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:08:26.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912812178342.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "LPgMw0pp_eKz",
+          "url": "https://www.eldiario.es/politica/juez-rechaza-pretension-zapatero-joyeria-yanes-no-tase-joyas_1_13565484.html",
+          "canonicalUrl": "https://www.eldiario.es/politica/juez-rechaza-pretension-zapatero-joyeria-yanes-no-tase-joyas_1_13565484.html",
+          "title": "El juez rechaza la pretensión de Zapatero de que la Joyería Yanes no tase sus joyas",
+          "description": "José Luis Calama le indica a la defensa del expresidente del Gobierno que tampoco acepta que un tasador elegido por él participe en la nueva pericial Zapatero traslada al juez que las joyas son un “obsequio” personal del rey de Arabia Saudí cuando era presidente El juez de la Audiencia Nacional…",
+          "source": {
+            "id": "eldiario",
+            "name": "elDiario.es"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:08:03.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/76023dab-02f1-4921-baf7-2c4db931e168_16-9-discover-aspect-ratio_default_0_x1150y333.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:08:26.000Z"
+    },
+    {
+      "id": "_C2CRR1W933m",
+      "representative": {
+        "id": "_C2CRR1W933m",
+        "url": "https://www.lavanguardia.com/politica/20261005/11651091/elecciones-generales-calendario-fechas-claves-proceso.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261005/11651091/elecciones-generales-calendario-fechas-claves-proceso.html",
+        "title": "Elecciones generales: calendario y fechas claves del proceso",
+        "description": "El 2 de noviembre se proclamarán las candidaturas y la campaña electoral empezará el 13 de noviembre",
+        "source": {
+          "id": "lavanguardia",
+          "name": "La Vanguardia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T07:52:17.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2023/07/22/64bc1d8acd6d3.r_d.2856-1904-0.jpeg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "T20U-8-BTfme",
+          "url": "https://www.20minutos.es/nacional/abre-plazo-pedir-voto-correo-elecciones-generales-29-noviembre-como-donde-solicitarlo_7045348_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/abre-plazo-pedir-voto-correo-elecciones-generales-29-noviembre-como-donde-solicitarlo_7045348_0.html",
+          "title": "Abre el plazo para pedir el voto por correo para las elecciones generales del 29 de noviembre: cómo y dónde solicitarlo",
+          "description": "Quienes voten por esta vía, podrán pedirlo de forma online o en cualquier oficina de Correos.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:04:12.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac4c6ca0aeba2-29735419.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "osBDi7mDP4k_",
+          "url": "https://www.elconfidencial.com/espana/2026-10-06/como-votar-correo-elecciones-generales-pedirlo-donde-1qrt_4439149/",
+          "canonicalUrl": "https://www.elconfidencial.com/espana/2026-10-06/como-votar-correo-elecciones-generales-pedirlo-donde-1qrt_4439149/",
+          "title": "Cómo votar por correo en las elecciones generales: plazos para pedirlo, dónde y cómo hacerlo",
+          "description": "La cita con las urnas el próximo 29 de noviembre obligarán a muchos ciudadanos a organizarse para participar si tienen un viaje previsto o no pueden desplazarse a su colegio electoral",
+          "source": {
+            "id": "elconfidencial",
+            "name": "El Confidencial"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T08:01:00.000Z",
+          "imageUrl": "https://images.ecestaticos.com/sqQcprcANoK9PL3SGq7hkVTafKQ=/0x0:2272x1443/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F92c%2Fc94%2Ff11%2F92cc94f1193ce82c83a7a8e19210b10a.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T10:04:12.000Z"
+    },
+    {
+      "id": "TOS4TK4CoqdX",
+      "representative": {
+        "id": "TOS4TK4CoqdX",
+        "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-pp-inicia-la-precampana-con-un-video-en-el-que-se-burla-de-una-grave-lesion-de-oscar-puente-miedo-tu-esguince.html",
+        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-pp-inicia-la-precampana-con-un-video-en-el-que-se-burla-de-una-grave-lesion-de-oscar-puente-miedo-tu-esguince.html",
+        "title": "El PP inicia la precampaña con un vídeo en el que se burla de una lesión de Óscar Puente: “Miedo le tenías tú a un esguince”",
+        "description": "Los populares contestan al ministro de Transportes, que criticó la comparecencia de Feijóo tras el anuncio del adelanto electoral",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T07:23:23.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/CAILFN3B7JATZJ67ECLI2MBPPI.jpg?auth=24de060a64cebbd3049ecc41e9235e4531481c885eb01f08f75977316d479e31",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ECqK_a9FNtsz",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652092/pp-ataca-oscar-puente-video-momento-rompio-cuadriceps-miedo-le-tenias-esguince.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652092/pp-ataca-oscar-puente-video-momento-rompio-cuadriceps-miedo-le-tenias-esguince.html",
+          "title": "El PP se burla de Óscar Puente con un vídeo del momento en que se rompió el cuádriceps: “Miedo le tenías tú a un esguince”",
+          "description": "“Son la peor gentuza que habita este país”, responde el ministro junto a una imagen de la sutura",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T07:27:43.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac4a24e40b87.r_d.367-344-0.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T07:27:43.000Z"
+    },
+    {
+      "id": "msRlwyrh3c7P",
+      "representative": {
+        "id": "msRlwyrh3c7P",
+        "url": "https://www.elmundo.es/espana/2026/10/05/6ac3f6fdfdddff4f438b458b.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3f6fdfdddff4f438b458b.html",
+        "title": "El adelanto electoral retrasará la imputación del PSOE como persona jurídica en el caso de las cloacas de Ferraz",
+        "description": "Anticorrupción no solicitará la investigación del partido antes de las generales para no interferir en la cita con las urnas Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T20:43:42.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912278373678.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "W7PD2W5EgwSe",
+          "url": "https://www.20minutos.es/nacional/adelanto-electoral-no-frenara-causa-las-cloacas-pero-aleja-escenario-posible-imputacion-psoe_7044989_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/adelanto-electoral-no-frenara-causa-las-cloacas-pero-aleja-escenario-posible-imputacion-psoe_7044989_0.html",
+          "title": "El adelanto electoral no frenará la causa de las cloacas pero aleja el escenario de la posible imputación del PSOE",
+          "description": "Los investigadores consideran que los hechos atribuidos a Santos Cerdán podrían arrastrar a la imputación del partido por cohecho y tráfico de influencias, pero descartan dar el paso antes de los comicios.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T03:00:00.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/02/6abfea3fdd9b46-96886472.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T03:00:00.000Z"
+    },
+    {
+      "id": "O5uMBmp0IYPd",
+      "representative": {
+        "id": "O5uMBmp0IYPd",
+        "url": "https://www.elmundo.es/espana/2026/10/06/6ac4de4ee4d4d810628b458d.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4de4ee4d4d810628b458d.html",
+        "title": "El voto particular de los cinco magistrados discrepantes: \"El Constitucional suplanta la labor del Tribunal Supremo en la apreciación de la amnistía\"",
+        "description": "Los miembros del sector conservador del TC critican los términos gruesos empleados por Conde-Pumpido sobre la actuación del Supremo. Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:39:10.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912884853223.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:39:10.000Z"
+    },
+    {
+      "id": "rJ7HAVCkOGST",
+      "representative": {
+        "id": "rJ7HAVCkOGST",
+        "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-partido-de-monica-garcia-exige-liderar-la-lista-por-madrid-a-las-generales-ante-las-opciones-de-colau.html",
+        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-partido-de-monica-garcia-exige-liderar-la-lista-por-madrid-a-las-generales-ante-las-opciones-de-colau.html",
+        "title": "El partido de Mónica García exige liderar la lista por Madrid a las generales ante las opciones de Colau",
+        "description": "“Hay que estudiar todas las formas posibles para que el Frente Amplio no deje a nadie fuera”, defiende Pisarello sobre las primarias que propone Podemos",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:31:52.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/36MIU2G2AVGNZP4NSZE5OQEOIQ.jpg?auth=c26845421cba07489040b3b299d60304fcf218dfdddf24a9d80b8fdc36405fb7",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:31:52.000Z"
+    },
+    {
+      "id": "WGNTeP_yLEbL",
+      "representative": {
+        "id": "WGNTeP_yLEbL",
+        "url": "https://www.lavanguardia.com/politica/20261006/11652447/vox-acata-amnistia-puigdemont-aboga-pasar-pagina-odio-separatismo.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652447/vox-acata-amnistia-puigdemont-aboga-pasar-pagina-odio-separatismo.html",
+        "title": "Vox “acata” la amnistía a Puigdemont y aboga por “pasar página del odio del separatismo”",
+        "description": "Joan Garriga denuncia la “politización” de algunos tribunales y que la ley “es un privilegio de políticos para políticos” y “una falta de respeto” para el resto de ciudadanos",
+        "source": {
+          "id": "lavanguardia",
+          "name": "La Vanguardia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:31:22.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/09/18/6aad8d1a8871f.jpeg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:31:22.000Z"
+    },
+    {
+      "id": "NveyNhBE1gZc",
+      "representative": {
+        "id": "NveyNhBE1gZc",
+        "url": "https://www.abc.es/espana/galicia/galicia-defiende-estrategia-pionera-violencia-digital-ante-20261006142641-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/galicia/galicia-defiende-estrategia-pionera-violencia-digital-ante-20261006142641-nt.html",
+        "title": "Galicia defiende su estrategia «pionera» contra la violencia digital ante los 'peros' de la oposición",
+        "description": "Proteger a los ciudadanos ante una de las principales amenazas a las que se enfrentan, los riesgos del entorno digital y el acoso online, es una de las preocupaciones actuales a las que el Gobierno gallego trata de dar solución. Para hacerlo, con un horizonte a medio y largo plazo, la Xunta inició…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:28:11.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/fabilla-RAqCXEMfnuny7uP3TP1SfAK-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:28:11.000Z"
+    }
+  ]
+}

@@ -75,6 +75,8 @@ export function foldText(input: string): string {
     .normalize('NFD')
     .replace(/\p{M}+/gu, '')
     .toLowerCase()
+    // Turkish dotless ı has no decomposition; fold it so "IĞDIR" and "Iğdır" match.
+    .replace(/ı/g, 'i')
     .replace(/[’'`]/g, ' ')
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim();
@@ -97,30 +99,93 @@ can will just should now is are was were be been being have has had having do do
 i me my we our you your he him his she her it its they them their what which who whom this that
 these those am would could says said say new amid vs`;
 
-// Format markers that say nothing about the story ("EN DIRECT", "LIVE UPDATES", "VIDEO").
-const BOILERPLATE = `direct live video videos photo photos watch updates update podcast replay`;
+// Umlauts fold to the bare vowel (für → fur). Kept out of the FR/EN set on
+// purpose: "die", "war", "man", "dies" and "hat" are real English words.
+const STOPWORDS_DE = `
+der die das den dem des ein eine einer einem einen eines und oder aber doch sondern als wie wenn weil
+dass ob zu zum zur im in ins am an auf aus bei mit nach von vor uber unter um durch fur gegen ohne
+bis seit wahrend ab ich du er sie es wir ihr ihm ihn ihnen sich sein seine ihre ihren ihrem unser
+nicht kein keine keinen auch noch schon nur sehr mehr so da dann hier dort jetzt nun wieder immer
+ist sind war waren wird werden wurde wurden worden hat haben hatte hatten sei kann konnen soll sollen
+muss mussen will wollen darf alle alles viel viele dieser diese dieses diesem diesen jeder jede was wer
+wo warum wieso man neue neuer neuen neues erst ersten gibt geht laut heute mal`;
 
-const STOPWORDS = new Set([STOPWORDS_FR, STOPWORDS_EN, BOILERPLATE].flatMap((list) => list.split(/\s+/)).filter(Boolean));
+const STOPWORDS_ES = `
+el la los las lo un una unos unas y o u e ni pero sino que de del al a en con por para sin sobre
+entre hasta desde hacia contra segun tras ante bajo como cuando donde quien quienes cual cuales
+se su sus le les me te nos os mi mis tu tus yo el ella ellos ellas usted ustedes este esta estos
+estas ese esa esos esas aquel aquella esto eso es son fue fueron ser sera seran ha han hay habia
+haber estar esta estan era eran muy mas menos ya no si tambien todo toda todos todas otro otra
+otros otras mismo misma tras durante cada asi aun nuevo nueva nuevos nuevas ultima hora directo
+dice dicen`;
+
+const STOPWORDS_IT = `
+il lo la i gli le un uno una di a da in con su per tra fra del dello della dei degli delle al allo
+alla ai agli alle dal dallo dalla dai dagli dalle nel nello nella nei negli nelle sul sullo sulla
+sui sugli sulle e ed o ma anche se che chi cui non piu meno come dove quando perche quale quali
+questo questa questi queste quello quella quelli quelle suo sua suoi sue loro mi ti ci vi si ne
+lui lei noi voi essi e sono era erano stato stata stati essere ha hanno aveva avere fa fare dopo
+prima ancora gia solo tutto tutti tutta tutte molto poi cosa ecco oggi nuovo nuova ora diretta`;
+
+const STOPWORDS_PT = `
+o a os as um uma uns umas e ou mas que de do da dos das em no na nos nas ao aos a as pelo pela pelos
+pelas por para com sem sobre entre ate apos contra desde se seu sua seus suas ele ela eles elas
+lhe isso isto esse essa este esta esses essas aquele aquela nao sim mais menos muito ja ainda
+tambem como quando onde quem qual quais e sao foi foram ser sera ter tem tinha ha diz dizem
+apos novo nova novos novas ao vivo agora hoje veja saiba leia confira entenda`;
+
+// Turkish suffixes split off by an apostrophe ("Erdoğan'ın" → erdogan + in) are listed too,
+// as are light verbs (etti, yaptı) and police-blotter formula words ("operasyon: 26
+// gözaltı"), which otherwise merged unrelated raids and visits on 2026-10-06.
+const STOPWORDS_TR = `
+ve ile bir bu su o da de ki mi mu icin gibi ama ancak fakat veya ya ne daha cok en cok olan olarak
+oldu olacak olan olur sonra once kadar uzere her hem ise diye dedi soyledi yeni son dakika canli
+in un nin nun ya ye ta te dan den tan ten yi yu la le na ne nda nde ndan nden yla yle
+etti edildi eden etmek yapti yapildi yapilan aldi alindi verdi kimdir nedir
+operasyon operasyonu gozalti gozaltina gozaltinda tutuklandi tutuklama supheli`;
+
+// Format markers that say nothing about the story ("EN DIRECT", "LIVE UPDATES", "VIDEO", "LIVE-TICKER").
+const BOILERPLATE = `direct live video videos photo photos watch updates update podcast replay liveblog ticker newsblog`;
+
+const wordSet = (...lists: string[]) => new Set(lists.flatMap((list) => list.split(/\s+/)).filter(Boolean));
+
+/**
+ * Stopwords per feed language. English is included everywhere: wire-style
+ * English words turn up in every country's titles ("live", "update").
+ */
+const STOPWORDS_FR_EN = wordSet(STOPWORDS_FR, STOPWORDS_EN, BOILERPLATE);
+const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
+  fr: STOPWORDS_FR_EN,
+  en: STOPWORDS_FR_EN,
+  de: wordSet(STOPWORDS_DE, STOPWORDS_EN, BOILERPLATE),
+  es: wordSet(STOPWORDS_ES, STOPWORDS_EN, BOILERPLATE),
+  it: wordSet(STOPWORDS_IT, STOPWORDS_EN, BOILERPLATE),
+  pt: wordSet(STOPWORDS_PT, STOPWORDS_EN, BOILERPLATE),
+  tr: wordSet(STOPWORDS_TR, STOPWORDS_EN, BOILERPLATE),
+};
 
 /**
  * Crude suffix folding, not real stemming: drops a plural s/x, then a final
  * e, so "inscrites"/"inscrits", "lycees"/"lycee" and "charges"/"charge" match.
  * Short tokens are left alone to avoid collisions.
  */
-export function stem(token: string): string {
+export function stem(token: string, language?: string): string {
   let t = token;
+  // German plurals and inflections: Grünen/Grüne, Parteien/Partei, Wahlen/Wahl.
+  if (language === 'de' && t.length > 5 && t.endsWith('en')) t = t.slice(0, -2);
   if (t.length > 4 && /[^s][sx]$/.test(t)) t = t.slice(0, -1);
   if (t.length > 4 && t.endsWith('e')) t = t.slice(0, -1);
   return t;
 }
 
-/** Normalized token set for title similarity. */
-export function titleTokens(title: string): Set<string> {
+/** Normalized token set for title similarity. `language` picks the stopword list (default: French + English). */
+export function titleTokens(title: string, language?: string): Set<string> {
+  const stopwords = (language && STOPWORDS_BY_LANGUAGE[language]) || STOPWORDS_FR_EN;
   const tokens = new Set<string>();
   for (const raw of foldText(title).split(' ')) {
-    if (!raw || STOPWORDS.has(raw)) continue;
+    if (!raw || stopwords.has(raw)) continue;
     if (raw.length < 2 && !/\d/.test(raw)) continue;
-    tokens.add(stem(raw));
+    tokens.add(stem(raw, language));
   }
   return tokens;
 }

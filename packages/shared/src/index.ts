@@ -96,4 +96,14 @@ export interface CountryMeta {
 export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   FR: { code: 'FR', name: 'France', lat: 46.6, lng: 2.4, altitude: 1.4 },
   US: { code: 'US', name: 'United States', lat: 39.5, lng: -98.4, altitude: 1.9 },
+  GB: { code: 'GB', name: 'United Kingdom', lat: 54.0, lng: -2.5, altitude: 1.3 },
+  DE: { code: 'DE', name: 'Germany', lat: 51.2, lng: 10.4, altitude: 1.3 },
+  ES: { code: 'ES', name: 'Spain', lat: 40.2, lng: -3.7, altitude: 1.3 },
+  IT: { code: 'IT', name: 'Italy', lat: 42.5, lng: 12.6, altitude: 1.3 },
+  CA: { code: 'CA', name: 'Canada', lat: 52, lng: -96, altitude: 2.0 },
+  BR: { code: 'BR', name: 'Brazil', lat: -12, lng: -52, altitude: 2.0 },
+  TR: { code: 'TR', name: 'Turkey', lat: 39, lng: 35, altitude: 1.4 },
+  AU: { code: 'AU', name: 'Australia', lat: -26, lng: 134, altitude: 2.0 },
+  IN: { code: 'IN', name: 'India', lat: 22, lng: 79, altitude: 1.9 },
+  MX: { code: 'MX', name: 'Mexico', lat: 23.6, lng: -102.5, altitude: 1.7 },
 };

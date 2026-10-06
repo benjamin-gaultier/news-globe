@@ -3,7 +3,8 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { RawItem } from '../src/adapters/types';
-import { HttpCache } from '../src/http';
+import { isMisdecoded } from '../src/normalize/article';
+import { decodeBody, HttpCache } from '../src/http';
 
 const URL_A = 'https://feeds.example/a.xml';
 const MIN = 60_000;
@@ -93,5 +94,31 @@ describe('HttpCache', () => {
     now += 1 * MIN;
     expect((await cache.getItems(URL_A, async () => [])).outcome).toBe('throttled');
     expect(fetchImpl).toHaveBeenCalledTimes(2);
+  });
+});
+
+describe('decodeBody', () => {
+  const latin1 = (text: string) => Uint8Array.from([...text].map((c) => c.charCodeAt(0)));
+
+  it('uses the charset from Content-Type', () => {
+    expect(decodeBody(latin1('<t>Flávio</t>'), 'text/xml; charset=ISO-8859-1')).toBe('<t>Flávio</t>');
+  });
+
+  it('falls back to the XML declaration', () => {
+    const body = '<?xml version="1.0" encoding="ISO-8859-1"?><t>São</t>';
+    expect(decodeBody(latin1(body), 'text/xml')).toBe(body);
+  });
+
+  it('defaults to UTF-8 and ignores unknown labels', () => {
+    const utf8 = new TextEncoder().encode('<t>Élysée</t>');
+    expect(decodeBody(utf8, null)).toBe('<t>Élysée</t>');
+    expect(decodeBody(utf8, 'text/xml; charset=x-bogus')).toBe('<t>Élysée</t>');
+  });
+});
+
+describe('isMisdecoded', () => {
+  it('flags titles holding U+FFFD replacement characters', () => {
+    expect(isMisdecoded('Pol�cia prende suspeito')).toBe(true);
+    expect(isMisdecoded('Polícia prende suspeito')).toBe(false);
   });
 });

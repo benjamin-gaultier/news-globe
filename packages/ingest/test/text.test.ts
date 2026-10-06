@@ -34,6 +34,76 @@ describe('titleTokens', () => {
   });
 });
 
+describe('titleTokens: per-language stopwords', () => {
+  it('drops German stopwords and folds umlauts for de', () => {
+    expect([...titleTokens('Die Zahl der Verweigerer steigt für den Wehrdienst', 'de')]).toEqual([
+      'zahl',
+      'verweigerer',
+      'steigt',
+      'wehrdienst',
+    ]);
+  });
+
+  it('keeps English words that are German stopwords', () => {
+    // "dies" and "war" are stopwords in German, but carry the story in English.
+    expect([...titleTokens('Former speaker dies at 84', 'en')]).toContain('dies');
+    expect([...titleTokens('War in Sudan enters third year', 'en')]).toContain('war');
+    expect([...titleTokens('Former speaker dies at 84')]).toContain('dies');
+  });
+
+  it('drops Spanish stopwords and live-blog markers for es', () => {
+    expect([...titleTokens('Sánchez adelanta las elecciones al 29 de noviembre', 'es')]).toEqual([
+      'sanchez',
+      'adelanta',
+      'eleccion',
+      '29',
+      'noviembr',
+    ]);
+    expect(titleTokens('Última hora: elecciones generales, en directo', 'es')).toEqual(
+      titleTokens('elecciones generales', 'es'),
+    );
+  });
+
+  it('drops Italian stopwords for it', () => {
+    expect([...titleTokens('Il governo pone la fiducia sugli articoli della legge elettorale', 'it')]).toEqual([
+      'governo',
+      'pone',
+      'fiducia',
+      'articoli',
+      'legg',
+      'elettoral',
+    ]);
+  });
+
+  it('drops Portuguese stopwords and "veja/saiba" list markers for pt', () => {
+    expect(titleTokens('Veja quem são os deputados estaduais eleitos', 'pt')).toEqual(
+      titleTokens('deputados estaduais eleitos', 'pt'),
+    );
+  });
+
+  it('folds Turkish letters, including dotless ı, and apostrophe suffixes for tr', () => {
+    expect(titleTokens("Erdoğan'ın IĞDIR ziyareti", 'tr')).toEqual(titleTokens('Erdogan Iğdır ziyareti', 'tr'));
+    expect([...titleTokens("Son dakika: Meclis'te bütçe görüşmeleri başladı", 'tr')]).toEqual([
+      'mecli', // the generic plural-s fold applies; harmless as it's consistent
+      'butc',
+      'gorusmeleri',
+      'basladi',
+    ]);
+  });
+
+  it('ignores Turkish light verbs and police-blotter formula words', () => {
+    // Two different raids on 2026-10-06 that used to merge on "suç örgütüne operasyon: N gözaltı".
+    expect(titleTokens('Daltonlar suç örgütüne operasyon: 26 gözaltı', 'tr')).toEqual(
+      titleTokens('Daltonlar suç örgütüne 26', 'tr'),
+    );
+    expect(titleTokens('Cumhurbaşkanı Erdoğan AileFest’i ziyaret etti', 'tr').has('etti')).toBe(false);
+  });
+
+  it('folds German -en inflections', () => {
+    expect(titleTokens('Grünen Parteien Wahlen', 'de')).toEqual(titleTokens('Grüne Partei Wahl', 'de'));
+  });
+});
+
 describe('HTML and truncation', () => {
   it('strips tags and decodes entities', () => {
     expect(stripHtml('<p>Un <b>vote</b>&nbsp;au S&#xE9;nat &amp; l&#8217;Assemblée</p><img src="x.jpg">')).toBe(

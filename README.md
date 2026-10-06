@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-The MVP covers **France (FR)** and the **United States (US)**. Other countries are greyed out and marked "coming soon".
+It covers **France (FR)**, the **United States (US)**, the **United Kingdom (GB)**, **Germany (DE)**, **Spain (ES)**, **Italy (IT)**, **Canada (CA)**, **Brazil (BR)** and **Turkey (TR)**. Other countries are greyed out and marked "coming soon".
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -130,6 +130,13 @@ To update the Pi: `git pull && pnpm install && sudo systemctl restart news-globe
 
 **Chaining guard (average linkage):** plain union-find is transitive. On the live US feeds, NPR's "Supreme Court's new term kicks off with blockbuster climate change case" scored 0.30 against WaPo's "6 things to watch in the Supreme Court's new term". That one link merged the climate-case story and the new-term story into a single 15-article cluster, headlined by a midterms piece. Requiring an average similarity of 0.2 between the groups being merged splits them back into "climate case" (11) and "new term" (4), while every genuine multi-outlet story (e.g. Hastert, 6 outlets) stays whole. At 0.25, real members started dropping out. [cluster.test.ts](packages/ingest/test/cluster.test.ts) reproduces the chain with those real headlines.
 
+### Headline language
+
+For non-English countries the panel has an **Original / English** toggle. The choice is remembered in `localStorage`.
+- Headlines and snippets are translated **in the browser** with the built-in [Translator API](https://developer.chrome.com/docs/ai/translator-api) (Chrome 138+ on desktop). The model runs on-device, nothing is sent to a translation service, and the ingest stays free of LLM and paid APIs ([lib/translate.ts](apps/web/src/lib/translate.ts)).
+- Headline links always go to the publisher. In English mode each foreign story also gets a "Read in English ↗" link that opens the article through Google Translate's web proxy.
+- Browsers without the API (Safari, Firefox, most phones) keep the original headlines and show a note pointing to that link.
+
 ## Data contract
 
 Types live in [packages/shared/src/index.ts](packages/shared/src/index.ts). `schemaVersion` is currently `1`, and the web app refuses other versions.
@@ -197,6 +204,156 @@ Every candidate feed was fetched and parsed with the real User-Agent on 2026-10-
 
 The Hill (`thehill.com/homenews/feed/`) and NBC (`feeds.nbcnews.com/nbcnews/public/politics`) also worked and are good substitutes if one of the above breaks.
 
+**United Kingdom** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| BBC News | UK, politics | 10 | ✅ |
+| The Guardian | uk-news, politics | 9 | ✅ |
+| The Independent | politics, UK | 8 | ✅ |
+| Sky News | UK, politics | 8 | ✅ (low volume: ~10 items per feed) |
+| The i Paper | news | 7 | ✅ (10 items) |
+| Evening Standard | UK news | 6 | ✅ |
+| Daily Mirror | UK news | 5 | ✅ |
+| ~~The Telegraph~~ | — | — | ❌ **dropped**: `news/rss.xml` responds but is stale (newest item from June 2026) |
+| ~~The Times~~ / ~~ITV~~ / ~~FT~~ | — | — | ❌ no usable public RSS (HTML, timeout, single item) |
+
+**Germany** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| tagesschau | Innenpolitik, Inland | 10 | ✅ |
+| DER SPIEGEL | Politik Deutschland | 9 | ✅ |
+| Süddeutsche Zeitung | Politik | 9 | ✅ |
+| Frankfurter Allgemeine | Politik Inland | 8 | ✅ |
+| ZEIT ONLINE | Politik Deutschland | 8 | ✅ |
+| WELT | Politik Deutschland | 7 | ✅ |
+| n-tv | Politik | 6 | ✅ |
+
+ZDF heute (`zdf.de/rss/zdf/nachrichten`) and Tagesspiegel (`tagesspiegel.de/contentexport/feed/politik`) also work, but mix in international news.
+
+German, Spanish, Italian, Portuguese and Turkish titles use their own stopword lists ([normalize/text.ts](packages/ingest/src/normalize/text.ts), `STOPWORDS_BY_LANGUAGE`), and German also folds `-en` endings. The list is per-language because words like *die*, *war* and *man* are stopwords in German but carry meaning in English.
+
+**Spain** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| El País | España | 10 | ✅ |
+| El Mundo | España | 9 | ✅ |
+| ABC | España | 8 | ✅ |
+| La Vanguardia | Política | 7 | ✅ (high volume, ~100 items) |
+| El Confidencial | España | 7 | ✅ (Atom feed) |
+| elDiario.es | Política | 6 | ✅ |
+| 20minutos | Nacional | 5 | ✅ |
+| ~~RTVE~~ | — | — | ❌ **dropped**: public feeds are stale (newest items from 2022) |
+| ~~Europa Press~~ | — | — | ❌ **dropped**: no response |
+
+El Español (`elespanol.com/rss/espana/`) and Antena 3 also work and are good substitutes.
+
+**Italy** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| ANSA | politica, cronaca | 10 | ✅ |
+| la Repubblica | politica, cronaca | 9 | ✅ |
+| RaiNews | politica | 8 | ✅ |
+| Il Sole 24 Ore | Italia | 7 | ✅ |
+| Sky TG24 | politica | 7 | ✅ (items have no dates; taken from the URL, see below) |
+| Il Post | Italia | 6 | ✅ (10 items) |
+| ~~Corriere della Sera~~ | — | — | ❌ **dropped**: feeds are abandoned (`lastBuildDate` 2024, newest items months old) |
+| ~~La Stampa~~ | — | — | ❌ **dropped**: RSS URLs redirect to HTML |
+| ~~Il Fatto Quotidiano~~ | — | — | ❌ **dropped**: section feed is empty |
+
+TGcom24 (`tgcom24.mediaset.it/rss/politica.xml`) also works and is a good substitute.
+
+**Canada** (added 2026-10-06)
+
+| Outlet | Feeds | Language | Authority | Status |
+| --- | --- | --- | --- | --- |
+| The Globe and Mail | politics, canada | en | 10 | ✅ |
+| CTV News | canada | en | 9 | ✅ |
+| Radio-Canada | ICI Info (4159) | fr | 9 | ✅ (general feed, includes some world news) |
+| Global News | politics, canada | en | 8 | ✅ (10 items each) |
+| National Post | politics, canada | en | 7 | ✅ (10 items each) |
+| La Presse | politique | fr | 7 | ✅ (10 items) |
+| ~~CBC News~~ | — | — | — | ❌ **dropped**: `cbc.ca/webfeed/rss/*` hangs for non-browser clients (HTTP/2 stream reset, then a timeout over HTTP/1.1), while `cbc.ca/news` responds |
+| ~~Toronto Star~~ | — | — | — | ❌ **dropped**: RSS search endpoint returns **429** |
+
+Canada is bilingual, and clustering only compares titles within a language, so a story covered in English and in French shows up as two clusters. Cross-language matching would need translation at ingest. Until then the French outlets add coverage but not outlet counts.
+
+**Brazil** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| g1 | política | 10 | ✅ (`/rss/g1/brasil/` dropped: stale since 2023) |
+| Folha de S.Paulo | poder, cotidiano | 9 | ✅ (ISO-8859-1 encoded, see below) |
+| Estadão | política | 9 | ✅ |
+| O Globo | main feed | 8 | ✅ (general feed, includes sport and world) |
+| Agência Brasil | política, geral | 7 | ✅ (10 items each) |
+| Poder360 | main feed | 7 | ✅ (10 items) |
+| ~~CNN Brasil~~ | — | — | ❌ **dropped**: section feed returns 404 |
+
+**Turkey** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Anadolu Ajansı | güncel | 10 | ✅ (state news agency; `cat=politika` dropped: stale) |
+| TRT Haber | gündem | 9 | ✅ (state broadcaster) |
+| Hürriyet | gündem | 8 | ✅ |
+| NTV | gündem | 8 | ✅ (Atom feed) |
+| Sözcü | gündem | 7 | ✅ (opposition) |
+| Cumhuriyet | son dakika | 7 | ✅ (opposition; breaking-news feed) |
+| CNN Türk | Türkiye | 7 | ✅ (dates are local time labelled GMT, ~3 h ahead; clamped to now) |
+| ~~T24~~ | — | — | ❌ **dropped**: feed is empty |
+
+Sabah, Milliyet, Habertürk and BBC Türkçe also work. Turkish folding maps dotless *ı* to *i*, and the stopword list includes the case suffixes that an apostrophe splits off proper nouns (*Erdoğan'ın*, *Meclis'te*). It also covers light verbs (*etti*, *yaptı*) and the formula words of police-blotter headlines (*operasyon: 26 gözaltı*), which otherwise merged unrelated raids.
+
+**Australia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| ABC News | just in | 10 | ✅ (public broadcaster) |
+| Guardian Australia | australia-news | 9 | ✅ |
+| Sydney Morning Herald | national | 9 | ✅ |
+| SBS News | australia | 8 | ✅ (public broadcaster) |
+| Australian Financial Review | main feed | 7 | ✅ |
+| ~~The Age~~ | — | — | ⏭️ **skipped**: shares most of its copy with the SMH (both Nine), so it would fake multi-outlet clusters |
+| ~~news.com.au~~, ~~9News~~ | — | — | ❌ **dropped**: feed is empty / 404 |
+
+**India** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| The Hindu | national | 10 | ✅ |
+| The Indian Express | india | 9 | ✅ |
+| Times of India | india | 9 | ✅ |
+| Hindustan Times | india-news | 8 | ✅ |
+| NDTV | india-news | 8 | ✅ |
+| Scroll.in | all articles | 6 | ✅ |
+| ~~Deccan Herald~~ | — | — | ❌ **dropped**: 404 |
+
+English-language press only. Hindi outlets would need Hindi stopwords.
+
+**Mexico** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| El Universal | nación | 10 | ✅ |
+| La Jornada | política | 9 | ✅ |
+| Reforma | portada | 9 | ✅ (only ~6 items) |
+| Excélsior | nacional | 8 | ✅ |
+| El Financiero | main feed | 8 | ✅ |
+| Expansión | main feed | 7 | ✅ |
+| El Sol de México | main feed | 7 | ✅ |
+| ~~Milenio~~, ~~Animal Político~~ | — | — | ❌ **dropped**: 404 |
+| ~~Proceso~~, ~~SinEmbargo~~ | — | — | ❌ **dropped**: 403 for bots |
+
+**Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
+
+When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`. Also check that the newest item is recent: Corriere and The Telegraph return well-formed but stale feeds.
+
+Items without a date take the date from their URL (`/2026/10/06/` or `/20261006/`, see `dateFromUrl` in [normalize/url.ts](packages/ingest/src/normalize/url.ts)) and fall back to the fetch time only if there isn't one. Otherwise an undated feed like Sky TG24's would look entirely brand-new on every run.
+
 Authority weights are editorial judgment calls. They only decide which outlet's headline represents a cluster, not ranking.
 
 ## Adding a feed or a country
@@ -211,7 +368,7 @@ curl -sA "NewsGlobeBot/0.1 (+https://github.com/benjamin-gaultier/news-globe; he
 
 1. Add it to `COUNTRIES` in [packages/shared/src/index.ts](packages/shared/src/index.ts) with its ISO 3166-1 alpha-2 code, name, and the camera `lat` / `lng` / `altitude` for the globe.
 2. Add 4–6 national outlets for it to `SOURCES`.
-3. If its language isn't French or English, add stopwords to [normalize/text.ts](packages/ingest/src/normalize/text.ts). Otherwise clustering will match on function words.
+3. If its language has no stopword list yet, add one to `STOPWORDS_BY_LANGUAGE` in [normalize/text.ts](packages/ingest/src/normalize/text.ts). Otherwise clustering will match on function words.
 4. Run `pnpm ingest`. The globe highlights every country listed in `index.json`, so nothing else changes in the front end.
 
 ## Next steps

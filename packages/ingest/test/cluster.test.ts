@@ -61,6 +61,25 @@ describe('clustering: shared topic word, different story', () => {
   });
 });
 
+describe('clustering: German headlines', () => {
+  const de = (src: string, title: string) => article(src, title, T, { language: 'de', countryCode: 'DE' });
+
+  it('groups the same story across outlets and keeps a different one apart', () => {
+    // Real headlines from 2026-10-06.
+    const groups = clusterArticles(
+      [
+        de('zeit', 'Spionageverdacht: Ehemaliger BND-Chef August Hanning festgenommen'),
+        de('welt', 'Ex-BND-Chef August Hanning wegen Spionageverdachts festgenommen'),
+        de('tagesschau', 'BND-Chef warnt vor "gewaltsamem Konflikt mit Russland"'),
+        de('spiegel', 'Wehrdienst: Zahl der Kriegsdienstverweigerer schnellt weiter nach oben'),
+        de('faz', 'Wehrdienst: Zahl der Kriegsdienstverweigerer steigt weiter stark an'),
+      ],
+      opts,
+    );
+    expect(groups.map((g) => g.map((a) => a.source.id))).toEqual([['zeit', 'welt'], ['tagesschau'], ['spiegel', 'faz']]);
+  });
+});
+
 describe('clusterArticles', () => {
   it('does not link two articles from the same outlet directly', () => {
     const groups = clusterArticles(

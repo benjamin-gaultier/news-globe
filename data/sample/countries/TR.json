@@ -1,0 +1,944 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "TR",
+  "countryName": "Turkey",
+  "updatedAt": "2026-10-06T12:44:26.411Z",
+  "clusters": [
+    {
+      "id": "Lt2yIt7GZh9N",
+      "representative": {
+        "id": "Lt2yIt7GZh9N",
+        "url": "https://www.ntv.com.tr/turkiye/bekir-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-1745073",
+        "canonicalUrl": "https://www.ntv.com.tr/turkiye/bekir-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-1745073",
+        "title": "Bekir Bozdağ TBMM Başkanvekilliği görevinden istifa etti",
+        "description": "AK Parti Şanlıurfa Milletvekili Bekir Bozdağ, Meclis Başkanvekilliği görevinden sağlık sorunları nedeniyle istifa etti.",
+        "source": {
+          "id": "ntv_tr",
+          "name": "NTV"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T10:13:52.000Z",
+        "imageUrl": "https://images.ntv.com.tr/images/thumbs_b_c_4cc81cecbaac10943de6e909cdc96a2b-793507.jpg?width=930&format=webp",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "nD8SZSpBo9Gk",
+          "url": "https://www.cnnturk.com/turkiye/ak-partili-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-3475599",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/ak-partili-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-3475599",
+          "title": "AK Parti'li Bozdağ, TBMM Başkanvekilliği görevinden istifa etti",
+          "description": "AK Parti Şanlıurfa Milletvekili Bekir Bozdağ, sağlık sorunları gerekçesiyle TBMM Başkanvekilliği görevinden istifa etti.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:30:12.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "jdot9go35NAJ",
+          "url": "https://www.hurriyet.com.tr/gundem/bekir-bozdag-tbmm-baskan-vekilligi-gorevinden-istifa-etti-43331430",
+          "canonicalUrl": "https://www.hurriyet.com.tr/gundem/bekir-bozdag-tbmm-baskan-vekilligi-gorevinden-istifa-etti-43331430",
+          "title": "Bekir Bozdağ, TBMM Başkan Vekilliği görevinden istifa etti",
+          "description": "AK Parti Şanlıurfa Milletvekili Bekir Bozdağ, Türkiye Büyük Millet Meclisi (TBMM) Başkan Vekilliği görevinden istifa etti",
+          "source": {
+            "id": "hurriyet",
+            "name": "Hürriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T10:36:04.000Z",
+          "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4cecd983ec8bbc1174f85.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "dgmZwl3hA2jD",
+          "url": "https://www.cumhuriyet.com.tr/siyaset/akp-li-bekir-bozdag-tbmm-baskanvekilligi-nden-istifa-etti-2544179",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/siyaset/akp-li-bekir-bozdag-tbmm-baskanvekilligi-nden-istifa-etti-2544179",
+          "title": "AKP'li Bekir Bozdağ, TBMM Başkanvekilliği'nden istifa etti",
+          "description": "AKP Şanlıurfa Milletvekili Bekir Bozdağ, TBMM Başkanvekilli görevinden istifa etti. Bozdağ'ın \"sağlık sorunlarını\" gerekçe gösterdiği öğrenildi.",
+          "source": {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T10:18:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/46c4e1c8-21ea-4606-8cef-5fe6280f3567.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "BHJPpmUx81Rf",
+          "url": "https://www.sozcu.com.tr/bekir-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-p366623",
+          "canonicalUrl": "https://www.sozcu.com.tr/bekir-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-p366623",
+          "title": "Bekir Bozdağ, TBMM Başkanvekilliği görevinden istifa etti",
+          "description": "AKP Şanlıurfa Milletvekili Bekir Bozdağ, sağlık sorunları gerekçesiyle TBMM Başkanvekilliği görevinden istifa etti.",
+          "source": {
+            "id": "sozcu",
+            "name": "Sözcü"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T10:06:59.000Z",
+          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/t25bozdagtbmmbaskanvekilli599webp-Z42s_RijTU6OIzLmO40eaQ.webp",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T12:30:12.000Z"
+    },
+    {
+      "id": "R58XjA88-uGy",
+      "representative": {
+        "id": "R58XjA88-uGy",
+        "url": "https://www.trthaber.com/haber/gundem/devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-959263.html",
+        "canonicalUrl": "https://www.trthaber.com/haber/gundem/devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-959263.html",
+        "title": "Devlet Bahçeli: Cumhurbaşkanı Erdoğan bir kez daha aday olmalı",
+        "description": "MHP Genel Başkanı Devlet Bahçeli, \"Cumhurbaşkanı Sayın Erdoğan'ın bir daha aday olabilmesi için TBMM'de uygun zamanda ve azami mutabakatla seçimlerin yenilenmesi kararı alınmalıdır\" dedi.",
+        "source": {
+          "id": "trthaber",
+          "name": "TRT Haber"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T08:08:00.000Z",
+        "imageUrl": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2450000/devlet-bahceli-aa-2451999.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "u0NiEjnS_cRw",
+          "url": "https://www.cnnturk.com/video/turkiye/son-dakika-devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-3475428",
+          "canonicalUrl": "https://www.cnnturk.com/video/turkiye/son-dakika-devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-3475428",
+          "title": "SON DAKİKA! Devlet Bahçeli: \"Cumhurbaşkanı Erdoğan bir kez daha aday olmalı\"",
+          "description": "Son dakika haberine göre; MHP Genel Başkanı Devlet Bahçeli, partisinin grup toplantısında açıklamalarda bulundu. Bahçeli, seçimlerin 2028 yılında yapılması gerektiğini söyledi. \"Erdoğan bir kez daha aday olmalı\" diye de ekledi.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:44:26.411Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "tDS1fD81Wo73",
+          "url": "https://www.ntv.com.tr/turkiye/mhp-genel-baskani-devlet-bahceli-erdogan-bir-kez-daha-aday-olmali-1745017",
+          "canonicalUrl": "https://www.ntv.com.tr/turkiye/mhp-genel-baskani-devlet-bahceli-erdogan-bir-kez-daha-aday-olmali-1745017",
+          "title": "MHP Genel Başkanı Devlet Bahçeli: Erdoğan bir kez daha aday olmalı",
+          "description": "MHP Genel Başkanı Bahçeli, Recep Tayyip Erdoğan'ın bir kez daha Cumhurbaşkanı adayı olması gerektiğine yönelik çağrıda bulunarak bunun için de gerekli hukuki ve toplumsal yapının bulunduğunu belirtti.",
+          "source": {
+            "id": "ntv_tr",
+            "name": "NTV"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T09:30:12.000Z",
+          "imageUrl": "https://images.ntv.com.tr/images/bahcelidevletbah%C3%A7eli-681529(13).jpg?width=930&format=webp",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "nIzGNaZqGzE-",
+          "url": "https://www.hurriyet.com.tr/gundem/mhp-grup-toplantisi-devlet-bahceliden-onemli-aciklamalar-43330974",
+          "canonicalUrl": "https://www.hurriyet.com.tr/gundem/mhp-grup-toplantisi-devlet-bahceliden-onemli-aciklamalar-43330974",
+          "title": "MHP Grup Toplantısı! Devlet Bahçeli: Cumhurbaşkanı Erdoğan bir kez daha aday olmalıdır",
+          "description": "MHP Genel Başkanı Devlet Bahçeli, partisinin TBMM'deki grup toplantısında iç ve dış siyasete dair önemli açıklamalarda bulundu. Devlet Bahçeli, \"Cumhurbaşkanı Erdoğan, bir kez daha aday olmalıdır. Adaylığı Türkiye ve bölgemiz hayrına olacaktır. Seçimler 2028 yılında yapılmalıdır.\" ifadelerini…",
+          "source": {
+            "id": "hurriyet",
+            "name": "Hürriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T07:35:00.000Z",
+          "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac498c13d67cfbce946f4b2.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:44:26.411Z"
+    },
+    {
+      "id": "vk026WA2ZZyC",
+      "representative": {
+        "id": "vk026WA2ZZyC",
+        "url": "https://www.hurriyet.com.tr/gundem/basaksehirde-ortaokulda-bicakli-saldiri-yarali-ogrenciler-var-43330956",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/basaksehirde-ortaokulda-bicakli-saldiri-yarali-ogrenciler-var-43330956",
+        "title": "Başakşehir'de ortaokulda bıçaklı saldırı: Yaralı öğrenciler var, 1 öğrenci hayatını kaybetti",
+        "description": "Başakşehir'de bir ortaokul gelen F.M.(15) öğrenci, 8 öğrenciyi bıçaklayarak yaraladı. Hastaneye kaldırılan yaralıların tedavisi sürerken olayı gerçekleştirdiği belirlenen F.M. (15) gözaltına alındı. Milli Eğitim Bakanlığı olayın araştırılması için 2 müfettiş görevlendirdi. Milli Eğitim Bakanı…",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T06:33:00.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac49789983ec8bbc1174cca.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "T790uBu9snj1",
+          "url": "https://www.cnnturk.com/turkiye/basaksehirde-ortaokulda-bicakli-saldiri-mebden-aciklama-8-ogrenci-yaralandi-konuyla-ilgili-sorusturma-baslatildi-3475605",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/basaksehirde-ortaokulda-bicakli-saldiri-mebden-aciklama-8-ogrenci-yaralandi-konuyla-ilgili-sorusturma-baslatildi-3475605",
+          "title": "Başakşehir'de ortaokulda bıçaklı saldırı! MEB'den açıklama: 8 öğrenci yaralandı, soruşturma başlatıldı",
+          "description": "Başakşehir'de bir ortaokulda meydana gelen bıçaklı saldırıya dair MEB'den yazılı açıklama geldi. Olayda 8 öğrencinin yaralandığı, bıçaklama olayını gerçekleştirdiği belirlenen lise öğrencisinin ise yakalandığı belirtildi. Açıklamada, \"konuyla ilgili adli ve idari soruşturma başlatılmıştır.\" denildi.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:44:26.411Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "mJbR3_gAOziZ",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-basaksehirde-ortaokulda-bicakli-saldiri-bir-can-kaybi-7-ogrenci-yarali-1745010",
+          "canonicalUrl": "https://www.ntv.com.tr/turkiye/galeri-basaksehirde-ortaokulda-bicakli-saldiri-bir-can-kaybi-7-ogrenci-yarali-1745010",
+          "title": "Başakşehir'de ortaokulda bıçaklı saldırı. Bir can kaybı, 7 öğrenci yaralı",
+          "description": "İstanbul Başakşehir'deki bir ortaokulda çıkan bıçaklı kavgada yaralanan öğrencilerden biri hayatını kaybetti. 7 öğrencinin ise tedavisi devam ediyor.",
+          "source": {
+            "id": "ntv_tr",
+            "name": "NTV"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:37:24.000Z",
+          "imageUrl": "https://images.ntv.com.tr/images/AW803523_05-951831.jpg?width=930&format=webp",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "8JVSoN6CswCe",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/istanbul-basaksehir-de-ortaokulda-bicakli-saldiri-yusuf-tekin-acikladi-bir-ogrenci-hayatini-kaybetti-2544229",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/istanbul-basaksehir-de-ortaokulda-bicakli-saldiri-yusuf-tekin-acikladi-bir-ogrenci-hayatini-kaybetti-2544229",
+          "title": "İstanbul Başakşehir'de ortaokulda bıçaklı saldırı... Yusuf Tekin açıkladı: Bir öğrenci hayatını kaybetti",
+          "description": "Son dakika haberi... Milli Eğitim Bakanı Yusuf Tekin, İstanbul Başakşehir'de bir okulda düzenlenen bıçaklı saldırı sonucu 1 öğrencinin hayatını kaybettiğini bildirdi.",
+          "source": {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:26:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/87cf0039-8ff5-4fdd-a8ba-06bc6623787f.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:44:26.411Z"
+    },
+    {
+      "id": "GGsv_ewBYRTY",
+      "representative": {
+        "id": "GGsv_ewBYRTY",
+        "url": "https://www.hurriyet.com.tr/gundem/mardinli-marilyn-monroe-davasinda-karar-cikti-1-yil-3-ay-hapis-cezasi-43331329",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/mardinli-marilyn-monroe-davasinda-karar-cikti-1-yil-3-ay-hapis-cezasi-43331329",
+        "title": "‘Mardinli Marilyn Monroe’ davasında karar çıktı: 1 yıl 3 ay hapis cezası",
+        "description": "Mardin’de ‘Marilyn Monroe’ olarak tanınan Melek Karahan (50), sosyal medya hesabından yaptığı paylaşım nedeniyle yargılandığı davada 1 yıl 3 ay hapis cezasına çarptırıldı.",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T09:29:38.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4bf2a3d67cfbce946f545.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "5jigKp_9NOBc",
+          "url": "https://www.ntv.com.tr/turkiye/mardinli-marilyn-monroeya-hapis-cezasi-1745084",
+          "canonicalUrl": "https://www.ntv.com.tr/turkiye/mardinli-marilyn-monroeya-hapis-cezasi-1745084",
+          "title": "Mardinli Marilyn Monroe'ya hapis cezası",
+          "description": "Mardinli Marilyn Monroe olarak bilinen Melek Karahan, bir sosyal medya paylaşımı gerekçe gösterilerek açılan davada 1 yıl 3 ay hapis cezasına çarptırıldı.",
+          "source": {
+            "id": "ntv_tr",
+            "name": "NTV"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T11:20:32.000Z",
+          "imageUrl": "https://images.ntv.com.tr/images/MardinliMarilynMonroe-185366.png?width=930&format=webp",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "vDc47J58pzwY",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/mardinli-marilyn-monroe-hapis-cezasina-carptirildi-2544168",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/mardinli-marilyn-monroe-hapis-cezasina-carptirildi-2544168",
+          "title": "‘Mardinli Marilyn Monroe’ hapis cezasına çarptırıldı",
+          "description": "Mardinli ‘Marilyn Monroe’ olarak bilinen Melek Karahan (50) FETÖ’nün 15 Temmuz darbe girişimine ilişkin sosyal medya hesabından yaptığı paylaşım nedeniyle yargılandığı davada 1 yıl 3 ay hapis cezasına çarptırıldı.",
+          "source": {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T09:52:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/fa262590-d145-4b73-b361-f3bb9998270e.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "AgPENNCXy1Qt",
+          "url": "https://www.sozcu.com.tr/mardinli-marilyn-monroe-ya-1-yil-3-ay-hapis-p366618",
+          "canonicalUrl": "https://www.sozcu.com.tr/mardinli-marilyn-monroe-ya-1-yil-3-ay-hapis-p366618",
+          "title": "‘Mardinli Marilyn Monroe’ya, 1 yıl 3 ay hapis!",
+          "description": "Mardinli ‘Marilyn Monroe’ olarak bilinen Melek Karahan (50), FETÖ’nün 15 Temmuz darbe girişimine ilişkin sanal medya hes...",
+          "source": {
+            "id": "sozcu",
+            "name": "Sözcü"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T09:30:08.000Z",
+          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/yeni-proje-20261006t122926635png-3JwEktGQT0KJeFvnbWEfDg.png",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T11:20:32.000Z"
+    },
+    {
+      "id": "_gxadCfi_3cm",
+      "representative": {
+        "id": "_gxadCfi_3cm",
+        "url": "https://www.aa.com.tr/tr/gundem/istanbulun-isgalden-kurtulusunun-103-yil-donumu-taksimde-torenle-kutlandi/4079521",
+        "canonicalUrl": "https://www.aa.com.tr/tr/gundem/istanbulun-isgalden-kurtulusunun-103-yil-donumu-taksimde-torenle-kutlandi/4079521",
+        "title": "İstanbul'un işgalden kurtuluşunun 103. yıl dönümü Taksim'de törenle kutlandı",
+        "description": "İstanbul Valiliğince, kentin düşman işgalinden kurtuluşunun 103'üncü yıl dönümü dolayısıyla Taksim Cumhuriyet Anıtı'nda tören düzenlendi.",
+        "source": {
+          "id": "aa",
+          "name": "Anadolu Ajansı"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T09:37:44.000Z",
+        "imageUrl": null,
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "_gWrKWokJSM6",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/taksim-de-imamoglu-suz-bir-toren-daha-istanbul-un-kurtulusunun-103-yildonumu-kutlandi-2544166",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/taksim-de-imamoglu-suz-bir-toren-daha-istanbul-un-kurtulusunun-103-yildonumu-kutlandi-2544166",
+          "title": "Taksim'de 'İmamoğlu'suz' bir tören daha: İstanbul’un kurtuluşunun 103. yıldönümü kutlandı",
+          "description": "İstanbul’un Kurtuluşu’nun 103. yılı, Taksim Cumhuriyet Anıtı’nda düzenlenen resmi törenle kutlandı. İBB Başkanvekili Nuri Aslan, duygularını Anıt Özel Defterine, “İstanbul'un muhafızlığını yapmaktan, bu aziz şehre hizmet etmekten onur duyuyoruz” ifadelerini kaydetti. Silivri'de tutuklu bulunan…",
+          "source": {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T09:48:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/2b235e43-c8c3-4261-9cf9-f35f89498350.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "fD5CH2ZTEr6c",
+          "url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-istanbulun-kurtulusunun-yil-donumunu-kutladi-43331291",
+          "canonicalUrl": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-istanbulun-kurtulusunun-yil-donumunu-kutladi-43331291",
+          "title": "Cumhurbaşkanı Erdoğan, İstanbul'un kurtuluşunun yıl dönümünü kutladı",
+          "description": "Cumhurbaşkanı Recep Tayyip Erdoğan, İstanbul'un düşman işgalinden kurtuluşunun 103'üncü yılını kutladı.",
+          "source": {
+            "id": "hurriyet",
+            "name": "Hürriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T09:12:00.000Z",
+          "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4bb7475376faf778498d5.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "YDCDWF7_9kCA",
+          "url": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-istanbulun-isgalden-kurtulusunun-103-yilini-kutladi-959281.html",
+          "canonicalUrl": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-istanbulun-isgalden-kurtulusunun-103-yilini-kutladi-959281.html",
+          "title": "Cumhurbaşkanı Erdoğan, İstanbul'un işgalden kurtuluşunun 103. yılını kutladı",
+          "description": "Cumhurbaşkanı Recep Tayyip Erdoğan, İstanbul'un düşman işgalinden kurtuluşunun 103'üncü yılını kutladı.",
+          "source": {
+            "id": "trthaber",
+            "name": "TRT Haber"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T09:09:00.000Z",
+          "imageUrl": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2468000/erdogan-aa-2469001.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T09:48:00.000Z"
+    },
+    {
+      "id": "eb0zYEP_TSHd",
+      "representative": {
+        "id": "eb0zYEP_TSHd",
+        "url": "https://www.hurriyet.com.tr/gundem/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-43331411",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-43331411",
+        "title": "Tokat'ta yol çöktü: 2 katlı ev tahliye edildi",
+        "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T10:27:20.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4cce9983ec8bbc1174f52.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "LQEGOppfUw85",
+          "url": "https://www.cnnturk.com/turkiye/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-3475620",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-3475620",
+          "title": "Tokat'ta yol çöktü, 2 katlı ev tahliye edildi",
+          "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:44:26.411Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "jzsiSeSQWMb-",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/tokat-ta-faciadan-donuldu-yol-coktu-2-katli-ev-tahliye-edildi-2544182",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/tokat-ta-faciadan-donuldu-yol-coktu-2-katli-ev-tahliye-edildi-2544182",
+          "title": "Tokat'ta faciadan dönüldü! Yol çöktü: 2 katlı ev tahliye edildi",
+          "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
+          "source": {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T10:32:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/1cb53bbe-f151-4c37-915a-8b22de4a8fd5.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T12:44:26.411Z"
+    },
+    {
+      "id": "wASwsAoJYe4J",
+      "representative": {
+        "id": "wASwsAoJYe4J",
+        "url": "https://www.hurriyet.com.tr/gundem/eski-mke-baskani-ismet-sayhana-tahliye-karari-askeri-casusluk-davasinda-ara-karar-aciklandi-43331487",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/eski-mke-baskani-ismet-sayhana-tahliye-karari-askeri-casusluk-davasinda-ara-karar-aciklandi-43331487",
+        "title": "Eski MKE Başkanı İsmet Sayhan'a tahliye kararı: Askeri casusluk davasında ara karar açıklandı",
+        "description": "ASSAN Group’a yönelik ‘askeri casusluk’ davasında eski Makine ve Kimya Endüstrisi Yönetim Kurulu Başkanı İsmet Sayhan’ın tahliyesine karar verildi. Duruşma ileri bir tarihe ertelendi.",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T11:20:41.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4d92f3d67cfbce946f5ee.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "5N8wWF6VxYnA",
+          "url": "https://www.cnnturk.com/turkiye/eski-mke-baskani-ismet-sayhan-hakkinda-tahliye-karari-3475647",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/eski-mke-baskani-ismet-sayhan-hakkinda-tahliye-karari-3475647",
+          "title": "Eski MKE Başkanı İsmet Sayhan hakkında tahliye kararı",
+          "description": "'ASSAN Group’a yönelik ‘askeri casusluk’ davasında eski Makine ve Kimya Endüstrisi Yönetim Kurulu Başkanı İsmet Sayhan’ın tahliyesine karar verildi. Duruşma ileri bir tarihe ertelendi.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:44:26.411Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "74tXDFdFeSji",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/askeri-casusluk-davasinda-yeni-gelisme-eski-mke-baskani-ismet-sayhan-a-tahliye-karari-2544204",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/askeri-casusluk-davasinda-yeni-gelisme-eski-mke-baskani-ismet-sayhan-a-tahliye-karari-2544204",
+          "title": "‘Askeri casusluk’ davasında yeni gelişme: Eski MKE Başkanı İsmet Sayhan'a tahliye kararı!",
+          "description": "‘ASSAN Group’a yönelik “askeri casusluk” davasında tutuklu yargılanan eski Makine ve Kimya Endüstrisi Yönetim Kurulu Başkanı İsmet Sayhan’ın tahliyesine karar verildi. Sayhan, hakkındaki suçlamaların TCK’nin 326’ncı maddesi kapsamında değerlendirilemeyeceğini savunarak tahliyesini talep etmişti.",
+          "source": {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T11:35:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/8b6154dd-c5fc-4112-a836-e15eaf510b25.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T12:44:26.411Z"
+    },
+    {
+      "id": "PZCsDHQRN68z",
+      "representative": {
+        "id": "PZCsDHQRN68z",
+        "url": "https://www.hurriyet.com.tr/gundem/rus-fenomen-tatiananin-olumunde-karar-cikti-asli-kusurlu-surucuye-2-yil-11-ay-hapis-43330980",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/rus-fenomen-tatiananin-olumunde-karar-cikti-asli-kusurlu-surucuye-2-yil-11-ay-hapis-43330980",
+        "title": "Rus fenomen Tatiana'nın ölümünde karar çıktı: Asli kusurlu sürücüye 2 yıl 11 ay hapis",
+        "description": "Muğla'da Rus sanal medya ünlüsü Tatiana Ozolina'nın hayatını kaybettiği motosiklet kazasında asli kusurlu bulunan Onur Obut, yargılandığı davada 2 yıl 11 ay hapis cezasına çarptırıldı.",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T07:09:00.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac49aad3d67cfbce946f4bb.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "4z501YudPrb9",
+          "url": "https://www.cnnturk.com/turkiye/rus-fenomen-tatiananin-olumune-neden-olan-surucuye-2-yil-11-ay-ceza-3475448",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/rus-fenomen-tatiananin-olumune-neden-olan-surucuye-2-yil-11-ay-ceza-3475448",
+          "title": "Rus fenomen Tatiana'nın ölümüne neden olan sürücüye 2 yıl 11 ay ceza",
+          "description": "Rus sanal medya ünlüsü Tatiana Ozolina'nın (38) Antalya'da hayatını kaybettiği motosiklet kazasında asli kusurlu bulunan Onur Obut (31), 2 yıl 11 ay hapis cezasına çarptırıldı.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T10:03:18.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "-Ci8iMM7bKny",
+          "url": "https://www.sozcu.com.tr/rus-fenomen-tatiana-ozolina-davasinda-karar-cikti-asli-kusurlu-surucuye-odul-gibi-ceza-p366560",
+          "canonicalUrl": "https://www.sozcu.com.tr/rus-fenomen-tatiana-ozolina-davasinda-karar-cikti-asli-kusurlu-surucuye-odul-gibi-ceza-p366560",
+          "title": "Rus fenomen Tatiana Ozolina davasında karar çıktı: Asli kusurlu sürücüye ödül gibi ceza!",
+          "description": "Rus sosyal medya fenomeni Tatiana Ozolina'nın Muğla'da hayatını kaybettiği motosiklet kazasına ilişkin davada karar açık...",
+          "source": {
+            "id": "sozcu",
+            "name": "Sözcü"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T08:05:53.000Z",
+          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/ruspng-CvOEz12Fe0GDRph7iWeCtg.png",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T10:03:18.000Z"
+    },
+    {
+      "id": "xla1PYTUxrGF",
+      "representative": {
+        "id": "xla1PYTUxrGF",
+        "url": "https://www.trthaber.com/haber/gundem/istanbulda-deas-ve-el-kaideye-operasyon-14-gozalti-959247.html",
+        "canonicalUrl": "https://www.trthaber.com/haber/gundem/istanbulda-deas-ve-el-kaideye-operasyon-14-gozalti-959247.html",
+        "title": "İstanbul'da DEAŞ ve El Kaide'ye operasyon: 14 gözaltı",
+        "description": "İstanbul'da, terör örgütleri DEAŞ ve El Kaide'ye yönelik operasyonda 14 şüpheli gözaltına alındı.",
+        "source": {
+          "id": "trthaber",
+          "name": "TRT Haber"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T06:41:00.000Z",
+        "imageUrl": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2426000/tem-2426028.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "u89wS9eC5l_I",
+          "url": "https://www.cnnturk.com/turkiye/istanbulda-deas-ve-el-kaide-operasyonu-14-gozalti-3475444",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/istanbulda-deas-ve-el-kaide-operasyonu-14-gozalti-3475444",
+          "title": "İstanbul’da DEAŞ ve El Kaide operasyonu: 14 gözaltı",
+          "description": "İstanbul’da DEAŞ ve El Kaide terör örgütleriyle bağlantılı olduğu değerlendirilen ve sanal medya hesaplarından örgütleri övücü paylaşımlar yaptığı belirlenen şüphelilere yönelik düzenlenen operasyonda 14 kişi gözaltına alındı.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T09:57:56.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "FR7Wyk6ZCEC7",
+          "url": "https://www.sozcu.com.tr/istanbul-da-isid-ve-el-kaide-operasyonu-14-supheli-gozaltinda-p366545",
+          "canonicalUrl": "https://www.sozcu.com.tr/istanbul-da-isid-ve-el-kaide-operasyonu-14-supheli-gozaltinda-p366545",
+          "title": "İstanbul'da IŞİD ve El Kaide operasyonu: 14 şüpheli gözaltında",
+          "description": "İstanbul'da terör örgütleri IŞİD ve El Kaide'ye yönelik operasyonda 14 şüpheli gözaltına alındı. Operasyonda çok sayıda ...",
+          "source": {
+            "id": "sozcu",
+            "name": "Sözcü"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T06:59:02.000Z",
+          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/tem1jpg-X-5XyiY8SkWPCdBjLvIA4A.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T09:57:56.000Z"
+    },
+    {
+      "id": "_kcFexsmA7XM",
+      "representative": {
+        "id": "_kcFexsmA7XM",
+        "url": "https://www.hurriyet.com.tr/gundem/mersinde-yolsuzluk-operasyonu-vahap-secer-dahil-36-kisinin-islemleri-devam-ediyor-43330900",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/mersinde-yolsuzluk-operasyonu-vahap-secer-dahil-36-kisinin-islemleri-devam-ediyor-43330900",
+        "title": "Mersin'de yolsuzluk operasyonu: Vahap Seçer tutuklandı",
+        "description": "Mersin Büyükşehir Belediyesi ile 2 merkez ilçe belediyesine yönelik düzenlenen ‘yolsuzluk’ operasyonunda gözaltına alınıp adliyeye sevk edilen 60 şüpheliden aralarında Yenişehir Belediye Başkanı Abdullah Özyiğit ve Mezitli Belediye Başkanı Ahmet Serkan Tuncer’in de bulunduğu 16 şüpheli tutuklandı…",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T04:57:00.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac47f48983ec8bbc1174bda.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "9hgLpFN4GMXu",
+          "url": "https://www.cnnturk.com/turkiye/son-dakika-mersin-buyuksehir-belediye-baskani-vahap-secer-tutuklandi-3475422",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/son-dakika-mersin-buyuksehir-belediye-baskani-vahap-secer-tutuklandi-3475422",
+          "title": "SON DAKİKA... Mersin Büyükşehir Belediye Başkanı Vahap Seçer tutuklandı!",
+          "description": "Son dakika haberine göre; Mersin Büyükşehir Belediyesi ile 2 merkez ilçe belediyesine yönelik düzenlenen ‘yolsuzluk’ operasyonunda gözaltına alınıp adliyeye sevk edilen Büyükşehir Belediye Başkanı Vahap Seçer, tutuklandı.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T09:42:01.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "j-v2eBWy1YK_",
+          "url": "https://www.sozcu.com.tr/mersin-buyuksehir-belediye-baskani-vahap-secer-tutuklandi-p366528",
+          "canonicalUrl": "https://www.sozcu.com.tr/mersin-buyuksehir-belediye-baskani-vahap-secer-tutuklandi-p366528",
+          "title": "Mersin Büyükşehir Belediye Başkanı Vahap Seçer tutuklandı",
+          "description": "Mersin Cumhuriyet Başsavcılığınca yürütülen soruşturma çerçevesinde gözaltına alınan Türkiye Belediyeler Birliği ve Mers...",
+          "source": {
+            "id": "sozcu",
+            "name": "Sözcü"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T06:31:43.000Z",
+          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/7eaafbf5dd984f7c8ff258260dde040cjpg-ZNt_vMA6CUytfCDwRMKThg.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T09:42:01.000Z"
+    },
+    {
+      "id": "hjqjQUFL4JfO",
+      "representative": {
+        "id": "hjqjQUFL4JfO",
+        "url": "https://www.hurriyet.com.tr/gundem/dugun-gunu-evlilikten-vazgecen-damada-yargitaydan-buyuk-sok-43331190",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/dugun-gunu-evlilikten-vazgecen-damada-yargitaydan-buyuk-sok-43331190",
+        "title": "Düğün günü evlilikten vazgeçen damada Yargıtay'dan büyük şok!",
+        "description": "İstanbul'da kına gecesi damadın eline konulacak altın konusunda tartışma çıkınca erkek tarafı ertesi gün evlilikten vazgeçti. Damat, geline telefon açıp \"Ben evlilikten korkuyorum, yapamayacağım\" diyerek düğüne gelmeyeceğini bildirdi. Bunun üzerine iki taraf da birbirine dava açtı. Yargıtay 2'nci…",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T08:30:00.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4b18475376faf7784979f.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Vle0eYsArlVA",
+          "url": "https://www.ntv.com.tr/turkiye/dugun-gunu-evlenmekten-vazgecen-tazminat-odeyecek-1745054",
+          "canonicalUrl": "https://www.ntv.com.tr/turkiye/dugun-gunu-evlenmekten-vazgecen-tazminat-odeyecek-1745054",
+          "title": "Düğün günü evlenmekten vazgeçen tazminat ödeyecek",
+          "description": "Yargıtay, düğün günü evlenmekten vazgeçen erkeğin nişanlısının kişilik haklarını ihlal ettiği gerekçesiyle manevi tazminat ödemesine karar verdi.",
+          "source": {
+            "id": "ntv_tr",
+            "name": "NTV"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T09:30:06.000Z",
+          "imageUrl": "https://images.ntv.com.tr/images/YARGITAY%E2%80%99DAN-DUGUN-GUNU-EVLENMEKTEN-VAZ_1539857_458279-525757.jpg?width=930&format=webp",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "yinF0kbj3Kn0",
+          "url": "https://www.sozcu.com.tr/dugun-gunu-telefon-acip-evlenmekten-vazgecen-damada-yargitay-dan-sok-p366596",
+          "canonicalUrl": "https://www.sozcu.com.tr/dugun-gunu-telefon-acip-evlenmekten-vazgecen-damada-yargitay-dan-sok-p366596",
+          "title": "Düğün günü telefon açıp evlenmekten vazgeçen damada Yargıtay'dan şok",
+          "description": "İstanbul'da düğün günü telefon açarak \"Evlilikten korkuyorum, yapamayacağım\" diyerek nişanı bozan erkek hakkında Yargıta...",
+          "source": {
+            "id": "sozcu",
+            "name": "Sözcü"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T08:34:50.000Z",
+          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/yeni-proje-20261006t113421530png-QUt07j5hWEGCXOkpXZYIUA.png",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T09:30:06.000Z"
+    },
+    {
+      "id": "d8lNswTI4w7P",
+      "representative": {
+        "id": "d8lNswTI4w7P",
+        "url": "https://www.trthaber.com/haber/gundem/daltonlar-suc-orgutune-operasyon-26-gozalti-959256.html",
+        "canonicalUrl": "https://www.trthaber.com/haber/gundem/daltonlar-suc-orgutune-operasyon-26-gozalti-959256.html",
+        "title": "Daltonlar suç örgütüne operasyon: 26 gözaltı",
+        "description": "Ankara Cumhuriyet Başsavcılığınca, kamuoyunda \"Daltonlar\" olarak bilinen suç örgütüyle bağlantılı şüphelilere yönelik yürütülen soruşturma kapsamında 26 zanlı gözaltına alındı.",
+        "source": {
+          "id": "trthaber",
+          "name": "TRT Haber"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T07:31:00.000Z",
+        "imageUrl": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1752000/gozalti-stok-1752516.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "dbrK8_wUQpAi",
+          "url": "https://www.sozcu.com.tr/daltonlar-suc-orgutune-dev-operasyon-aralarinda-cocuklarin-da-oldugu-26-kisi-yakalandi-p366568",
+          "canonicalUrl": "https://www.sozcu.com.tr/daltonlar-suc-orgutune-dev-operasyon-aralarinda-cocuklarin-da-oldugu-26-kisi-yakalandi-p366568",
+          "title": "'Daltonlar' suç örgütüne dev operasyon: Aralarında çocukların da olduğu 26 kişi yakalandı!",
+          "description": "Ankara merkezli 14 ilde 'Daltonlar' olarak bilinen suç örgütüne yönelik eş zamanlı dev operasyon düzenlendi. Çankaya’da ...",
+          "source": {
+            "id": "sozcu",
+            "name": "Sözcü"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T07:25:58.000Z",
+          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/tutuklama-gozalti-polis-aijpg-Hd5LzWjBnUypOolpjIQwdw.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "k1kmwid0j8QM",
+          "url": "https://www.hurriyet.com.tr/gundem/14-ilde-daltonlar-suc-orgutu-operasyonu-26-gozalti-43330979",
+          "canonicalUrl": "https://www.hurriyet.com.tr/gundem/14-ilde-daltonlar-suc-orgutu-operasyonu-26-gozalti-43330979",
+          "title": "14 ilde 'Daltonlar' suç örgütüyle bağlantılı 26 şüpheli gözaltına alındı",
+          "description": "Ankara Cumhuriyet Başsavcılığınca, kamuoyunda 'Daltonlar' olarak bilinen suç örgütüyle bağlantısı tespit edilen 12’si adli süreçteki çocuk olmak üzere 33 şüpheli hakkında gözaltı kararı verildi. Ankara merkezli 14 ilde düzenlenen eş zamanlı operasyonda 26 şüpheli gözaltına alındı.",
+          "source": {
+            "id": "hurriyet",
+            "name": "Hürriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T06:50:00.000Z",
+          "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac499ea75376faf77849656.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T07:31:00.000Z"
+    },
+    {
+      "id": "EjKCLvf9IOx-",
+      "representative": {
+        "id": "EjKCLvf9IOx-",
+        "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-yapay-zeka-emegi-devre-disi-birakti-1745088",
+        "canonicalUrl": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-yapay-zeka-emegi-devre-disi-birakti-1745088",
+        "title": "Cumhurbaşkanı Erdoğan: Yapay zeka emeği devre dışı bıraktı",
+        "description": "Cumhurbaşkanı Recep Tayyip Erdoğan, yapay zekanın emeği devre dışı bıraktığını ve sınayıcı olduğuna işaret edip \"Akademik süreçlerde de insan faktörü azalıyor.\" dedi.",
+        "source": {
+          "id": "ntv_tr",
+          "name": "NTV"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T12:29:23.000Z",
+        "imageUrl": "https://images.ntv.com.tr/images/AA-20261006-42664197-42664196-CUMHURBASKANI_RECEP_TAYYIP_ERDOGAN-237698.jpg?width=930&format=webp",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "R5UVlfC4UdZV",
+          "url": "https://www.cnnturk.com/turkiye/son-dakika-cumhurbaskani-erdogandan-aciklamalar-3475643",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/son-dakika-cumhurbaskani-erdogandan-aciklamalar-3475643",
+          "title": "SON DAKİKA... Cumhurbaşkanı Erdoğan'dan yapay zeka uyarısı: Emeği devre dışı bıraktı",
+          "description": "Son dakika haberine göre; Cumhurbaşkanı Erdoğan, Beştepe Millet Kongre ve Kültür Merkezi'nde “2026-2027 Akademik Yılı Açılış Töreni”ne katıldı. Erdoğan \"Yapay zekadaki baş döndürücü gelişmeler üniversitelerdeki bazı alanlarda sınayıcı hal aldı. Kaynağa ve bilgiye yapay zekâ modelleri üzerinden…",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:44:26.411Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:44:26.411Z"
+    },
+    {
+      "id": "NQl0K9ydaaif",
+      "representative": {
+        "id": "NQl0K9ydaaif",
+        "url": "https://www.hurriyet.com.tr/gundem/adalet-bakani-gurlek-gundeme-iliskin-sorulari-yanitliyor-43331116",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/adalet-bakani-gurlek-gundeme-iliskin-sorulari-yanitliyor-43331116",
+        "title": "Adalet Bakanı Gürlek'ten fon soruşturması açıklaması: Haksız kazançlar inceleniyor",
+        "description": "Adalet Bakanı Akın Gürlek, fon soruşturmasına ilişkin yaptığı açıklamada, \"Kısa sürede manipülatif hareketlerle, inanılmaz, mesela 2 ayda girilmiş çok yüksek miktarlarda çıkış yapmış. Yani bir kar çıkışı yapmış. Bunlarla ilgili bir çalışmamız var. Listemiz var. TMSF'de de bir hesap iadesi açıldı…",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T09:15:00.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4cba675376faf778498ee.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "K8EHecTPzicc",
+          "url": "https://www.cnnturk.com/video/turkiye/son-dakika-akin-gurlekten-fon-sorusturmasi-aciklamasi-haksiz-kazanclar-inceleniyor-3475595",
+          "canonicalUrl": "https://www.cnnturk.com/video/turkiye/son-dakika-akin-gurlekten-fon-sorusturmasi-aciklamasi-haksiz-kazanclar-inceleniyor-3475595",
+          "title": "SON DAKİKA! Akın Gürlek'ten fon soruşturması açıklaması: Haksız kazançlar inceleniyor",
+          "description": "Son dakika haberine göre; Adalet Bakanı Akın Gürlek, hakemler dosyası, nafaka tartışmaları ve şüpheli ölüm soruşturmalarına ilişkin önemli açıklamalarda bulundu. Fon krizine dair ise \"Haksız kazançlar inceleniyor\" dedi. İşte o açıklamanın detayları...",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:44:26.411Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:44:26.411Z"
+    },
+    {
+      "id": "o6Vyu9z8w0yT",
+      "representative": {
+        "id": "o6Vyu9z8w0yT",
+        "url": "https://www.cumhuriyet.com.tr/turkiye/marmara-denizi-ni-kirleten-kati-atik-tesisine-5-milyon-tl-ceza-2544244",
+        "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/marmara-denizi-ni-kirleten-kati-atik-tesisine-5-milyon-tl-ceza-2544244",
+        "title": "Marmara Denizi'ni kirleten katı atık tesisine 5 milyon TL ceza",
+        "description": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, katı atık depolama tesisinden kaynaklanan sızıntı sularının Marmara Denizi'ne karışması nedeniyle Yalova İli Yerel Yönetimleri Katı Atık Tesisleri Yapma ve İşletme Birliği'ne (YAKAB) 5 milyon 34 bin TL ceza uyguladı.",
+        "source": {
+          "id": "cumhuriyet",
+          "name": "Cumhuriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T12:36:00.000Z",
+        "imageUrl": "https://media.cumhuriyet.com.tr/Archive/15fa7eb7-a0e9-46d8-85f6-548c02a0f72f.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "8hrFvwbZHCo3",
+          "url": "https://www.cnnturk.com/turkiye/marmara-denizini-kirleten-tesise-iliskin-5-milyon-lira-idari-ceza-3475649",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/marmara-denizini-kirleten-tesise-iliskin-5-milyon-lira-idari-ceza-3475649",
+          "title": "Marmara Denizi'ni kirleten tesise ilişkin 5 milyon lira idari ceza",
+          "description": "Çevre Şehircilik ve İklim Değişikliği Bakanlığı, katı atık depolama tesisinden kaynaklanan sızıntı sularının Marmara Denizi'ne karışması nedeniyle Yalova İli Yerel Yönetimleri Katı Atık Tesisleri Yapma ve İşletme Birliği'ne (YAKAB) 5 milyon 34 bin TL ceza uyguladı.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:44:26.411Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:44:26.411Z"
+    }
+  ]
+}

@@ -103,26 +103,28 @@ export default function GlobeView({ available, selected, onSelect, onUnavailable
     globe.pointOfView({ lat: meta.lat + latOffset, lng: meta.lng, altitude: meta.altitude + (isMobile ? 0.6 : 0) }, 1000);
   }, [selected, isMobile, sheetFraction]);
 
+  // Features without an ISO code (Somaliland, N. Cyprus) must not match `selected === null`.
+  const isSelected = useCallback((f: CountryFeature) => !!selected && f.properties.iso2 === selected, [selected]);
   const isAvailable = useCallback((f: CountryFeature) => !!f.properties.iso2 && available.has(f.properties.iso2), [available]);
 
   const capColor = useCallback(
     (obj: object) => {
       const f = obj as CountryFeature;
-      if (f.properties.iso2 === selected) return COLORS.selected;
+      if (isSelected(f)) return COLORS.selected;
       if (!isAvailable(f)) return COLORS.unavailable;
       return f === hovered ? COLORS.availableHover : COLORS.available;
     },
-    [selected, hovered, isAvailable],
+    [isSelected, hovered, isAvailable],
   );
 
   const altitude = useCallback(
     (obj: object) => {
       const f = obj as CountryFeature;
-      if (f.properties.iso2 === selected) return 0.05;
+      if (isSelected(f)) return 0.05;
       if (!isAvailable(f)) return 0.005;
       return f === hovered ? 0.035 : 0.02;
     },
-    [selected, hovered, isAvailable],
+    [isSelected, hovered, isAvailable],
   );
 
   const label = useCallback(
