@@ -103,7 +103,7 @@ export class HttpCache {
         throw new Error(`HTTP ${res.status}`);
       }
 
-      const items = await parse(await res.text());
+      const items = await parse(decodeBody(new Uint8Array(await res.arrayBuffer()), res.headers.get('content-type')));
       next.items = items;
       next.retrievedAt = attemptAt;
       next.etag = res.headers.get('etag') ?? undefined;
@@ -116,4 +116,24 @@ export class HttpCache {
       return { outcome: 'error', items: next.items, retrievedAt: next.retrievedAt, error: message };
     }
   }
+}
+
+/**
+ * Decode a feed body using its declared charset: the Content-Type header,
+ * else the XML declaration, else UTF-8. Some feeds (Folha de S.Paulo) are
+ * ISO-8859-1, which `Response.text()` would mangle into U+FFFD.
+ */
+export function decodeBody(bytes: Uint8Array, contentType: string | null): string {
+  const fromHeader = /charset=["']?([\w-]+)/i.exec(contentType ?? '')?.[1];
+  const head = new TextDecoder('latin1').decode(bytes.subarray(0, 200));
+  const fromXml = /^\s*<\?xml[^>]*encoding=["']([\w-]+)["']/i.exec(head)?.[1];
+  for (const label of [fromHeader, fromXml]) {
+    if (!label) continue;
+    try {
+      return new TextDecoder(label).decode(bytes);
+    } catch {
+      // Unknown label: try the next source.
+    }
+  }
+  return new TextDecoder('utf-8').decode(bytes);
 }
