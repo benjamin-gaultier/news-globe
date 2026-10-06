@@ -96,7 +96,7 @@ export function foldText(input: string): string {
     .normalize('NFD')
     .replace(/\p{M}+/gu, '')
     // Soft hyphens and zero-width characters sit inside words (Vísir: "Guð­mundur").
-    .replace(/[­​-‍⁠﻿]/g, '')
+    .replace(/[\u00AD\u200B-\u200D\u2060\uFEFF]/g, '')
     .toLowerCase()
     // Turkish dotless ı has no decomposition; fold it so "IĞDIR" and "Iğdır" match.
     .replace(/ı/g, 'i')
@@ -336,6 +336,24 @@ sáu bảy chủ nhật việt nam
 `;
 // Chinese bigrams that are reporting boilerplate rather than story content.
 const STOPWORDS_ZH = `今日 今天 昨天 昨日 明天 明日 表示 指出 記者 報導 报道 快訊 快讯 影音 直播 獨家 独家 最新 新聞 新闻`;
+// Armenian, Azerbaijani and Uzbek (Latin), folded by foldedWords. Uzbek is
+// written after titleTokens drops the apostrophe in oʻ/gʻ ("boʻldi" → "boldi").
+const STOPWORDS_HY = `
+և ու է են էր էին եմ ես ենք որ ի մեջ համար հետ այս այդ այն նա իր իրենց մի մեկ չի չեն ոչ թե բայց կամ
+դեպի մասին ըստ պետք արդեն նաև այսօր երեկ վաղը տարի տարվա ով ինչ ինչու ինչպես երբ որտեղ շատ ավելի
+երկուշաբթի երեքշաբթի չորեքշաբթի հինգշաբթի ուրբաթ շաբաթ կիրակի հունվարի փետրվարի մարտի ապրիլի
+մայիսի հունիսի հուլիսի օգոստոսի սեպտեմբերի հոկտեմբերի նոյեմբերի դեկտեմբերի տեսանյութ լուսանկարներ
+`;
+const STOPWORDS_AZ = `
+və ilə üçün bu bir da də ki olan olub olunub edib edir etdi isə ən daha artıq haqqında sonra əvvəl
+qədər görə bugün dünən sabah il ilin ildə tarixində yanvar fevral mart aprel may iyun iyul avqust
+sentyabr oktyabr noyabr dekabr bazar ertəsi çərşənbə axşamı cümə şənbə foto
+`;
+const STOPWORDS_UZ = `
+va bilan uchun bu bir ham esa haqida kuni yil yilda yilning yili oy soat bugun kecha ertaga qilindi
+boldi boladi emas ekan kabi uning ular ularning edi yanvar fevral mart aprel may iyun iyul avgust
+sentabr oktabr noyabr dekabr dushanba seshanba chorshanba payshanba juma shanba yakshanba foto
+`;
 // Cyrillic й folds to и (NFD), hence "маи".
 const STOPWORDS_BG = `
 и в на за от с да се не е са по до при към като че но или ще бил била било това този тази тези които
@@ -413,6 +431,9 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   hr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   bs: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  hy: wordSet(foldedWords(STOPWORDS_HY), STOPWORDS_EN, BOILERPLATE),
+  az: wordSet(foldedWords(STOPWORDS_AZ), STOPWORDS_EN, BOILERPLATE),
+  uz: wordSet(foldedWords(STOPWORDS_UZ), STOPWORDS_EN, BOILERPLATE),
   id: wordSet(foldedWords(STOPWORDS_ID), STOPWORDS_EN, BOILERPLATE),
   vi: wordSet(foldedWords(STOPWORDS_VI), STOPWORDS_EN, BOILERPLATE),
   zh: wordSet(STOPWORDS_ZH, STOPWORDS_EN, BOILERPLATE),
@@ -506,6 +527,8 @@ export function stem(token: string, language?: string): string {
 export function titleTokens(title: string, language?: string): Set<string> {
   const stopwords = (language && STOPWORDS_BY_LANGUAGE[language]) || STOPWORDS_FR_EN;
   const tokens = new Set<string>();
+  // Uzbek outlets write oʻ/gʻ with ʻ, ' or ’; drop the mark inside words so they agree.
+  if (language === 'uz') title = title.replace(/(?<=\p{L})[ʻʼ'’‘`](?=\p{L})/gu, '');
   const words =
     language === 'ja'
       ? japaneseTokens(title)

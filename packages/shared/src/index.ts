@@ -181,4 +181,7 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   VN: { code: 'VN', name: 'Vietnam', lat: 16, lng: 107.5, altitude: 1.3 },
   TW: { code: 'TW', name: 'Taiwan', lat: 23.7, lng: 121, altitude: 0.6 },
   HK: { code: 'HK', name: 'Hong Kong', lat: 22.35, lng: 114.15, altitude: 0.3 },
+  AM: { code: 'AM', name: 'Armenia', lat: 40.2, lng: 45, altitude: 0.5 },
+  AZ: { code: 'AZ', name: 'Azerbaijan', lat: 40.3, lng: 47.7, altitude: 0.6 },
+  UZ: { code: 'UZ', name: 'Uzbekistan', lat: 41.4, lng: 64.5, altitude: 1.2 },
 };
