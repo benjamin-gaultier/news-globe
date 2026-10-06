@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IN",
   "countryName": "India",
-  "updatedAt": "2026-10-06T12:44:26.411Z",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
   "clusters": [
     {
       "id": "8eqCr04HRU1M",
@@ -24,6 +24,23 @@
         "regionCode": null
       },
       "related": [
+        {
+          "id": "Qdcg5MTCbKXm",
+          "url": "https://indianexpress.com/article/india/11-indians-injured-after-attack-on-ship-near-oman-mea-condemns-strike-10909226/",
+          "canonicalUrl": "https://indianexpress.com/article/india/11-indians-injured-after-attack-on-ship-near-oman-mea-condemns-strike-10909226/",
+          "title": "11 Indians injured after attack on ship near Oman, MEA condemns strike",
+          "description": null,
+          "source": {
+            "id": "indianexpress",
+            "name": "The Indian Express"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:46:50.000Z",
+          "imageUrl": "https://images.indianexpress.com/2026/10/hormuz-vessel.jpg",
+          "countryCode": "IN",
+          "regionCode": null
+        },
         {
           "id": "G1FEhTVGIG_j",
           "url": "https://www.ndtv.com/india-news/11-indians-injured-after-panama-flagged-vessel-attacked-in-hormuz-centre-12145899#publisher=newsstand",
@@ -76,68 +93,51 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T11:23:32.000Z"
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T12:46:50.000Z"
     },
     {
-      "id": "9h7copXjujXb",
+      "id": "-dTiS-U5D-vW",
       "representative": {
-        "id": "9h7copXjujXb",
-        "url": "https://www.thehindu.com/news/national/cjp-activists-getting-police-notices-being-pressured-not-to-join-october-10-delhi-protest-abhijit-dipke/article71550853.ece",
-        "canonicalUrl": "https://www.thehindu.com/news/national/cjp-activists-getting-police-notices-being-pressured-not-to-join-october-10-delhi-protest-abhijit-dipke/article71550853.ece",
-        "title": "CJP activists getting police notices, being pressured not to join October 10 Delhi protest: Abhijit Dipke",
-        "description": "CJP alleges police harassment and travel-subsidy scrutiny ahead of October 10 Delhi protest, dubbing it ‘dictatorship’",
+        "id": "-dTiS-U5D-vW",
+        "url": "https://www.thehindu.com/news/national/jharkhand/jharkhand-congress-youth-wing-activists-scuffle-with-police-during-protest-outside-ceo-office/article71551293.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/jharkhand/jharkhand-congress-youth-wing-activists-scuffle-with-police-during-protest-outside-ceo-office/article71551293.ece",
+        "title": "Jharkhand: Congress, youth wing activists scuffle with police during protest outside CEO office",
+        "description": "Agitators blackened the official name board of the Election Commission after being stopped from entering the premises, as leaders demanded the resignation of Chief Election Commissioner Gyanesh Kumar",
         "source": {
           "id": "thehindu",
           "name": "The Hindu"
         },
         "sourceCountry": "IN",
         "language": "en",
-        "publishedAt": "2026-10-06T10:09:00.000Z",
-        "imageUrl": "https://th-i.thgim.com/public/incoming/kk10ni/article71550865.ece/alternates/LANDSCAPE_1200/20261002459L.jpg",
+        "publishedAt": "2026-10-06T12:09:51.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/ydwzoe/article71551319.ece/alternates/LANDSCAPE_1200/20261006263L.jpg",
         "countryCode": "IN",
         "regionCode": null
       },
       "related": [
         {
-          "id": "Vm6RtS5w62Z2",
-          "url": "https://scroll.in/latest/1096221/maharashtra-police-pressuring-cjp-volunteers-against-joining-october-10-delhi-protest-alleges-dipke?utm_source=rss&utm_medium=public",
-          "canonicalUrl": "https://scroll.in/latest/1096221/maharashtra-police-pressuring-cjp-volunteers-against-joining-october-10-delhi-protest-alleges-dipke",
-          "title": "Maharashtra Police pressuring CJP volunteers not to join October 10 Delhi protest, alleges Dipke",
-          "description": "Abhijeet Dipke shared a photo of the notice issued to a supporter, which asked why he wanted to join the agitation and who was funding his participation.",
-          "source": {
-            "id": "scroll",
-            "name": "Scroll.in"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:20:52.000Z",
-          "imageUrl": "https://sc0.blr1.cdn.digitaloceanspaces.com/article/214747-hemkavyqel-1785210615.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        },
-        {
-          "id": "KgrG9vlOXwiR",
-          "url": "https://timesofindia.indiatimes.com/india/abhijeet-dipke-claims-cjp-activists-receiving-police-notices-threatening-october-10-protest-could-turn-violent/articleshow/134727079.cms",
-          "canonicalUrl": "https://timesofindia.indiatimes.com/india/abhijeet-dipke-claims-cjp-activists-receiving-police-notices-threatening-october-10-protest-could-turn-violent/articleshow/134727079.cms",
-          "title": "Abhijeet Dipke claims CJP activists receiving police notices threatening October 10 protest 'could turn violent'",
-          "description": null,
+          "id": "cGq_OVJ4Ougj",
+          "url": "https://timesofindia.indiatimes.com/india/jharkhand-protest-congress-workers-scuffle-with-police-outside-ceo-office/articleshow/134740655.cms",
+          "canonicalUrl": "https://timesofindia.indiatimes.com/india/jharkhand-protest-congress-workers-scuffle-with-police-outside-ceo-office/articleshow/134740655.cms",
+          "title": "Jharkhand protest: Congress workers scuffle with police outside CEO office",
+          "description": "In Ranchi, Congress workers in Jharkhand rallied outside the Chief Electoral Officer's office to protest against Gyanesh Kumar. The demonstration escalated as protestors clashed with police while attempting to breach barriers and defaced the commission's nameplate. Their aim was to draw attention…",
           "source": {
             "id": "toi",
             "name": "Times of India"
           },
           "sourceCountry": "IN",
           "language": "en",
-          "publishedAt": "2026-10-06T07:53:50.000Z",
-          "imageUrl": "https://static.toiimg.com/photo/msid-134727166,imgsize-149266.cms",
+          "publishedAt": "2026-10-06T12:39:52.000Z",
+          "imageUrl": "https://static.toiimg.com/photo/msid-134740897,imgsize-156344.cms",
           "countryCode": "IN",
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T11:20:52.000Z"
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:39:52.000Z"
     },
     {
       "id": "tjSCjbL0EazH",
@@ -180,6 +180,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:35:43.000Z"
+    },
+    {
+      "id": "Y4e_mcqeVQ7w",
+      "representative": {
+        "id": "Y4e_mcqeVQ7w",
+        "url": "https://timesofindia.indiatimes.com/india/once-a-skunk-always-a-skunk-dmk-questions-rahul-gandhis-stand-on-tamil-nadu-sir-deletions-amid-anti-cec-protest/articleshow/134739393.cms",
+        "canonicalUrl": "https://timesofindia.indiatimes.com/india/once-a-skunk-always-a-skunk-dmk-questions-rahul-gandhis-stand-on-tamil-nadu-sir-deletions-amid-anti-cec-protest/articleshow/134739393.cms",
+        "title": "'Once a skunk, always a skunk': DMK questions Rahul Gandhi's stand on Tamil Nadu SIR deletions amid anti-CEC protest",
+        "description": null,
+        "source": {
+          "id": "toi",
+          "name": "Times of India"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:27:01.000Z",
+        "imageUrl": "https://static.toiimg.com/photo/msid-134740509,imgsize-65584.cms",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "FWwZv1yQZfC_",
+          "url": "https://www.ndtv.com/india-news/what-about-sir-in-tamil-nadu-dmks-jibe-at-rahul-gandhi-amid-delhi-protest-12145872#publisher=newsstand",
+          "canonicalUrl": "https://www.ndtv.com/india-news/what-about-sir-in-tamil-nadu-dmks-jibe-at-rahul-gandhi-amid-delhi-protest-12145872",
+          "title": "What About SIR In Tamil Nadu: DMK's Jibe At Rahul Gandhi Amid Delhi Protest",
+          "description": "\"What is the stand of Rahul Gandhi with regard to the deletions through SIR in Tamil Nadu,\" DMK leader Saravanan Annadurai has questioned",
+          "source": {
+            "id": "ndtv",
+            "name": "NDTV"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:35:48.000Z",
+          "imageUrl": "https://c.ndtvimg.com/2026-10/ggv15mcc_rahul-gandhi-pgv_625x300_06_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+          "countryCode": "IN",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:27:01.000Z"
     },
     {
       "id": "7maRCEX37MCc",
@@ -308,6 +350,48 @@
       "latestPublishedAt": "2026-10-06T12:01:45.000Z"
     },
     {
+      "id": "KgrG9vlOXwiR",
+      "representative": {
+        "id": "KgrG9vlOXwiR",
+        "url": "https://timesofindia.indiatimes.com/india/abhijeet-dipke-claims-cjp-activists-receiving-police-notices-threatening-october-10-protest-could-turn-violent/articleshow/134727079.cms",
+        "canonicalUrl": "https://timesofindia.indiatimes.com/india/abhijeet-dipke-claims-cjp-activists-receiving-police-notices-threatening-october-10-protest-could-turn-violent/articleshow/134727079.cms",
+        "title": "Abhijeet Dipke claims CJP activists receiving police notices threatening October 10 protest 'could turn violent'",
+        "description": null,
+        "source": {
+          "id": "toi",
+          "name": "Times of India"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T07:53:50.000Z",
+        "imageUrl": "https://static.toiimg.com/photo/msid-134727166,imgsize-149266.cms",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Vm6RtS5w62Z2",
+          "url": "https://scroll.in/latest/1096221/maharashtra-police-pressuring-cjp-volunteers-against-joining-october-10-delhi-protest-alleges-dipke?utm_source=rss&utm_medium=public",
+          "canonicalUrl": "https://scroll.in/latest/1096221/maharashtra-police-pressuring-cjp-volunteers-against-joining-october-10-delhi-protest-alleges-dipke",
+          "title": "Maharashtra Police pressuring CJP volunteers not to join October 10 Delhi protest, alleges Dipke",
+          "description": "Abhijeet Dipke shared a photo of the notice issued to a supporter, which asked why he wanted to join the agitation and who was funding his participation.",
+          "source": {
+            "id": "scroll",
+            "name": "Scroll.in"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:20:52.000Z",
+          "imageUrl": "https://sc0.blr1.cdn.digitaloceanspaces.com/article/214747-hemkavyqel-1785210615.jpg",
+          "countryCode": "IN",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:20:52.000Z"
+    },
+    {
       "id": "ic4LNz2kAUik",
       "representative": {
         "id": "ic4LNz2kAUik",
@@ -348,48 +432,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T10:55:03.000Z"
-    },
-    {
-      "id": "H1WC4-WIIuM5",
-      "representative": {
-        "id": "H1WC4-WIIuM5",
-        "url": "https://timesofindia.indiatimes.com/india/delhi-court-grants-bail-to-17-students-journalists-arrested-during-cec-protest/articleshow/134722800.cms",
-        "canonicalUrl": "https://timesofindia.indiatimes.com/india/delhi-court-grants-bail-to-17-students-journalists-arrested-during-cec-protest/articleshow/134722800.cms",
-        "title": "Delhi court grants bail to 17 students, journalists arrested during CEC protest",
-        "description": null,
-        "source": {
-          "id": "toi",
-          "name": "Times of India"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T04:46:31.000Z",
-        "imageUrl": "https://static.toiimg.com/photo/msid-134723248,imgsize-261442.cms",
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "GkAU-FP9xMsJ",
-          "url": "https://scroll.in/latest/1096214/delhi-17-students-journalists-arrested-during-protests-against-cec-gyanesh-kumar-granted-bail?utm_source=rss&utm_medium=public",
-          "canonicalUrl": "https://scroll.in/latest/1096214/delhi-17-students-journalists-arrested-during-protests-against-cec-gyanesh-kumar-granted-bail",
-          "title": "Delhi: 17 students, journalists arrested during protests against CEC Gyanesh Kumar granted bail",
-          "description": "The accused persons were young and did not appear to be habitual offenders, the court noted.",
-          "source": {
-            "id": "scroll",
-            "name": "Scroll.in"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:45:18.000Z",
-          "imageUrl": "https://sc0.blr1.cdn.digitaloceanspaces.com/article/215848-nyqhcymruu-1790943584.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:45:18.000Z"
     },
     {
       "id": "jmRdd1Pad0hq",
@@ -602,52 +644,28 @@
       "latestPublishedAt": "2026-10-06T01:22:48.000Z"
     },
     {
-      "id": "7KvzzKD7le-u",
+      "id": "YmbMjwv2CHdn",
       "representative": {
-        "id": "7KvzzKD7le-u",
-        "url": "https://www.thehindu.com/news/cities/Visakhapatnam/navy-sailor-arrested-for-allegedly-leaking-classified-information-to-pakistani-intelligence-operative/article71544101.ece",
-        "canonicalUrl": "https://www.thehindu.com/news/cities/Visakhapatnam/navy-sailor-arrested-for-allegedly-leaking-classified-information-to-pakistani-intelligence-operative/article71544101.ece",
-        "title": "Navy sailor arrested for allegedly leaking classified information to Pakistani intelligence operative",
-        "description": "Sailor met female Pakistani operative on social media a few months ago and shared sensitive information with her; police found suspicious digital activity, placed him under surveillance before arrest in Coimbatore on October 3",
+        "id": "YmbMjwv2CHdn",
+        "url": "https://www.thehindu.com/news/national/arunachal-pradesh/anti-dam-protests-withdraw-forces-from-siang-belt-demands-arunachal-youth-body/article71551362.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/arunachal-pradesh/anti-dam-protests-withdraw-forces-from-siang-belt-demands-arunachal-youth-body/article71551362.ece",
+        "title": "Anti-dam protests: Withdraw forces from Siang belt, demands Arunachal youth body",
+        "description": "The youth body reacts to clashes between security personnel and people against the proposed Siang Upper Multipurpose Project, estimated to generate at least 11,000 MW of hydropower",
         "source": {
           "id": "thehindu",
           "name": "The Hindu"
         },
         "sourceCountry": "IN",
         "language": "en",
-        "publishedAt": "2026-10-06T12:37:23.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T12:57:55.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/o921c5/article71551596.ece/alternates/LANDSCAPE_1200/IMG_WhatsApp_Image_2025-_2_1_L2EEKIET.jpg",
         "countryCode": "IN",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:37:23.000Z"
-    },
-    {
-      "id": "zAEOG0uO_NF9",
-      "representative": {
-        "id": "zAEOG0uO_NF9",
-        "url": "https://www.thehindu.com/news/national/andhra-pradesh/arrested-navy-sailor-remanded-to-judicial-custody/article71548663.ece",
-        "canonicalUrl": "https://www.thehindu.com/news/national/andhra-pradesh/arrested-navy-sailor-remanded-to-judicial-custody/article71548663.ece",
-        "title": "Arrested Navy sailor remanded to judicial custody",
-        "description": null,
-        "source": {
-          "id": "thehindu",
-          "name": "The Hindu"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:37:17.000Z",
-        "imageUrl": null,
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:37:17.000Z"
+      "latestPublishedAt": "2026-10-06T12:57:55.000Z"
     }
   ]
 }

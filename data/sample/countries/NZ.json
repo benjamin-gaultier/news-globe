@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "NZ",
+  "countryName": "New Zealand",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "clusters": [
+    {
+      "id": "_IZhMEATaydQ",
+      "representative": {
+        "id": "_IZhMEATaydQ",
+        "url": "https://www.rnz.co.nz/news/crime-and-justice/1758112/woman-s-body-found-after-pair-jumped-into-otara-river-to-evade-police",
+        "canonicalUrl": "https://www.rnz.co.nz/news/crime-and-justice/1758112/woman-s-body-found-after-pair-jumped-into-otara-river-to-evade-police",
+        "title": "Woman's body found after pair jumped into Ōtara River to evade police",
+        "description": "The body was found in the water near Moutohorā Island, north of Whakatāne, earlier this afternoon.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:03:16.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "juzc6cnUlG3n",
+          "url": "https://www.nzherald.co.nz/bay-of-plenty-times/news/otara-river-search-man-found-in-gisborne-as-search-for-woman-continues/MDCE6XNMQZAXDHD3FUGPZ46SGE/",
+          "canonicalUrl": "https://www.nzherald.co.nz/bay-of-plenty-times/news/otara-river-search-man-found-in-gisborne-as-search-for-woman-continues/MDCE6XNMQZAXDHD3FUGPZ46SGE/",
+          "title": "Ōtara River search: Woman’s body found at sea, man arrested in Gisborne",
+          "description": "A 33-year-old man faces driving charges and has been remanded in custody.",
+          "source": {
+            "id": "nzherald",
+            "name": "NZ Herald"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T05:49:43.000Z",
+          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/3MR7K7TUXFBCRGB7TUJ23YERIY.jpg?auth=c17c1362a0c396891734933099f786867964becd48e55613faeebd16c5d9123a&smart=true&width=1280&height=720",
+          "countryCode": "NZ",
+          "regionCode": null
+        },
+        {
+          "id": "VUBnZs9-Hib0",
+          "url": "https://www.1news.co.nz/2026/10/06/body-found-in-search-for-woman-who-leapt-into-river-to-avoid-police/",
+          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/body-found-in-search-for-woman-who-leapt-into-river-to-avoid-police/",
+          "title": "Body of woman who leapt into river to avoid police found",
+          "description": "The body of the 36-year-old was found near Moutohorā Island, north of Whakatāne, this afternoon.",
+          "source": {
+            "id": "1news",
+            "name": "1News"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T05:03:01.000Z",
+          "imageUrl": "https://www.1news.co.nz/resizer/v2/NRUV2UCBKBEZVAUZB7M2PWD5GY.png?auth=10b5d1ad862eb0b2c1831a337f6951ff1aa7c98da608f452fc97e12f0b26a693&smart=true&width=716&height=403",
+          "countryCode": "NZ",
+          "regionCode": null
+        },
+        {
+          "id": "ZlBSImJcMcMc",
+          "url": "https://www.stuff.co.nz/nz-news/361043104/woman-found-dead-after-fleeing-police-jumping-river",
+          "canonicalUrl": "https://www.stuff.co.nz/nz-news/361043104/woman-found-dead-after-fleeing-police-jumping-river",
+          "title": "Woman found dead after fleeing police, jumping into river",
+          "description": "Police say their thoughts are with her whānau.",
+          "source": {
+            "id": "stuff",
+            "name": "Stuff"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T04:55:46.000Z",
+          "imageUrl": null,
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T05:49:43.000Z"
+    },
+    {
+      "id": "23vQCTVFbx5L",
+      "representative": {
+        "id": "23vQCTVFbx5L",
+        "url": "https://www.rnz.co.nz/news/emergencies_local/1758230/friend-of-missing-queenstown-woman-erika-rodrigues-coelho-remaining-optimistic",
+        "canonicalUrl": "https://www.rnz.co.nz/news/emergencies_local/1758230/friend-of-missing-queenstown-woman-erika-rodrigues-coelho-remaining-optimistic",
+        "title": "Friend of missing Queenstown woman Erika Rodrigues Coelho remaining optimistic",
+        "description": "Erika Rodrigues Coelho, 47, has not been seen or heard from since 18 September.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T00:23:05.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "yYOTjJAZwhpQ",
+          "url": "https://www.nzherald.co.nz/nz/search-for-missing-queenstown-woman-erika-rodrigues-coelho-paused-after-19-days/47TGQ2TKAJGABG7ZZ3X7EW7TYI/",
+          "canonicalUrl": "https://www.nzherald.co.nz/nz/search-for-missing-queenstown-woman-erika-rodrigues-coelho-paused-after-19-days/47TGQ2TKAJGABG7ZZ3X7EW7TYI/",
+          "title": "Search for missing Queenstown woman Erika Rodrigues Coelho paused after 19 days",
+          "description": "The family remain hopeful she could be sheltering somewhere and will be found safe.",
+          "source": {
+            "id": "nzherald",
+            "name": "NZ Herald"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T05:06:08.000Z",
+          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/MNNTJTWS6RH7PHCFOBO6WKD6HM.jpg?auth=828d78e629eec9b3c6f538714d57d6ad20aa46b2933cadec6a2ff41a497cf273&smart=true&width=1280&height=720",
+          "countryCode": "NZ",
+          "regionCode": null
+        },
+        {
+          "id": "r3TgFEbNixbd",
+          "url": "https://www.1news.co.nz/2026/10/06/search-paused-for-woman-missing-in-queenstown/",
+          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/search-paused-for-woman-missing-in-queenstown/",
+          "title": "Search paused for woman missing in Queenstown",
+          "description": "Brazilian national Erika Rodrigues Coelho, 47, was reported missing on September 20.",
+          "source": {
+            "id": "1news",
+            "name": "1News"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T04:50:27.000Z",
+          "imageUrl": "https://www.1news.co.nz/resizer/v2/ZBZBU4DEWBADHGACN6QAIPBSEI.png?auth=e17b823af91a9a271dc6d5d98fefb333da0f62a2cdc892d272fd949483f90d32&smart=true&width=1920&height=1080",
+          "countryCode": "NZ",
+          "regionCode": null
+        },
+        {
+          "id": "sf0hh_dEUBt6",
+          "url": "https://www.stuff.co.nz/nz-news/361043103/search-missing-surgeon-erika-rodrigues-coelho-suspended",
+          "canonicalUrl": "https://www.stuff.co.nz/nz-news/361043103/search-missing-surgeon-erika-rodrigues-coelho-suspended",
+          "title": "Search for missing surgeon in Queenstown suspended",
+          "description": "Police have paused the search for missing 47-year-old Erika Rodrigues Coelho, who has been missing since September 18.",
+          "source": {
+            "id": "stuff",
+            "name": "Stuff"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T04:45:37.000Z",
+          "imageUrl": null,
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T05:06:08.000Z"
+    },
+    {
+      "id": "PvypeTqP8WiR",
+      "representative": {
+        "id": "PvypeTqP8WiR",
+        "url": "https://www.1news.co.nz/2026/10/06/watch-live-tvnz-leaders-debate-chris-hipkins-v-christopher-luxon/",
+        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/watch-live-tvnz-leaders-debate-chris-hipkins-v-christopher-luxon/",
+        "title": "Watch again: TVNZ Leaders Debate, Chris Hipkins v Christopher Luxon",
+        "description": "The Labour and National party leaders went head to head in TVNZ's first debate, hosted by Jack Tame.",
+        "source": {
+          "id": "1news",
+          "name": "1News"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:50:16.000Z",
+        "imageUrl": "https://www.1news.co.nz/resizer/v2/7QV2I2FAZFD4PPDGV7GULH7GLA.png?auth=e081eaf6054675d953f2632262cdfbd184b4b685072696a5e30a13861185bd08&smart=true&width=1920&height=1080",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "1VOu4fh1f4jn",
+          "url": "https://newsroom.co.nz/2026/10/06/hipkins-edges-luxon-on-relatability-in-first-2026-election-leaders-debate/",
+          "canonicalUrl": "https://newsroom.co.nz/2026/10/06/hipkins-edges-luxon-on-relatability-in-first-2026-election-leaders-debate/",
+          "title": "Hipkins edges Luxon on relatability in first 2026 election leaders’ debate",
+          "description": "Analysis: Christopher Luxon kept his foot well clear of his mouth and Chris Hipkins leashed his attack dog temptations, but neither excelled in the debate The post Hipkins edges Luxon on relatability in first 2026 election leaders’ debate appeared first on Newsroom .",
+          "source": {
+            "id": "newsroom_nz",
+            "name": "Newsroom"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:35:45.000Z",
+          "imageUrl": "https://i0.wp.com/newsroom.co.nz/wp-content/uploads/2026/10/chris-hipkins-christopher-luxon-tvnz-leaders-debate-election-2026-nz-scaled.jpg?fit=1024%2C683&amp;ssl=1",
+          "countryCode": "NZ",
+          "regionCode": null
+        },
+        {
+          "id": "5LiNVZAk9hwA",
+          "url": "https://www.nzherald.co.nz/nz/politics/election-2026-herald-experts-pick-which-chris-won-the-tvnz-leaders-debate/premium/Y76GEYLRXZDY5ECGS5SNLZU7QA/",
+          "canonicalUrl": "https://www.nzherald.co.nz/nz/politics/election-2026-herald-experts-pick-which-chris-won-the-tvnz-leaders-debate/premium/Y76GEYLRXZDY5ECGS5SNLZU7QA/",
+          "title": "Election 2026: Herald experts pick which Chris won the TVNZ Leaders’ Debate",
+          "description": "Christopher Luxon and Chris Hipkins went head-to-head in TVNZ's first Leaders' Debate.",
+          "source": {
+            "id": "nzherald",
+            "name": "NZ Herald"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:09:28.000Z",
+          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/7BDM7PVXVBEEDJ6EN57VF5PRWQ.JPG?auth=739aaa94c73e9f25af898664e9179d5964507ab6753b9eb4a28beb73ac0f6a1a&smart=true&width=1280&height=720",
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T09:35:45.000Z"
+    },
+    {
+      "id": "972S4_jR1P8s",
+      "representative": {
+        "id": "972S4_jR1P8s",
+        "url": "https://www.rnz.co.nz/news/crime-and-justice/1756960/actor-cliff-curtis-charged-with-drink-driving-after-crash-on-auckland-s-waterfront",
+        "canonicalUrl": "https://www.rnz.co.nz/news/crime-and-justice/1756960/actor-cliff-curtis-charged-with-drink-driving-after-crash-on-auckland-s-waterfront",
+        "title": "Actor Cliff Curtis charged with drink driving after crash on Auckland's waterfront",
+        "description": "The actor released a statement through a public relations company after the crash, saying he had been hospitalised with internal injuries after the collision in late September.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T23:13:59.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "faiGbN9LzSpS",
+          "url": "https://www.1news.co.nz/2026/10/06/actor-cliff-curtis-charged-with-reckless-driving-after-auckland-crash/",
+          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/actor-cliff-curtis-charged-with-reckless-driving-after-auckland-crash/",
+          "title": "Actor Cliff Curtis charged with reckless driving after Auckland crash",
+          "description": "Police have confirmed a 58-year-old man has been summonsed for driving with excess blood alcohol and reckless driving.",
+          "source": {
+            "id": "1news",
+            "name": "1News"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T00:35:05.000Z",
+          "imageUrl": "https://www.1news.co.nz/resizer/v2/LR2F4W4PRVHSPKHRKRYFJ6NT5U.jpg?auth=04459a9cb1e80cc8ac15a186a933221732d238e1ba0698f24eb9ccad066e19ef&smart=true&width=1024&height=576",
+          "countryCode": "NZ",
+          "regionCode": null
+        },
+        {
+          "id": "yp61OwQCHCtz",
+          "url": "https://www.stuff.co.nz/nz-news/361042839/hollywood-actor-charged-drink-drinking-after-auckland-crash",
+          "canonicalUrl": "https://www.stuff.co.nz/nz-news/361042839/hollywood-actor-charged-drink-drinking-after-auckland-crash",
+          "title": "Watch: The aftermath of Cliff Curtis' crash as Kiwi actor charged with drink driving",
+          "description": "A 58-year-old man has been summonsed for reckless driving and driving with excess blood alcohol.",
+          "source": {
+            "id": "stuff",
+            "name": "Stuff"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-05T22:04:38.000Z",
+          "imageUrl": null,
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T00:35:05.000Z"
+    },
+    {
+      "id": "NO78IzpXlVmt",
+      "representative": {
+        "id": "NO78IzpXlVmt",
+        "url": "https://www.rnz.co.nz/news/emergencies_local/1758895/firefighters-battling-large-vegetation-fire-in-queenstown-stand-down-for-night",
+        "canonicalUrl": "https://www.rnz.co.nz/news/emergencies_local/1758895/firefighters-battling-large-vegetation-fire-in-queenstown-stand-down-for-night",
+        "title": "Firefighters battling large vegetation fire in Queenstown stand down for night",
+        "description": "The fire, which has been burning on steep slopes above the shores of Lake Wakatipu since Tuesday morning, is not yet contained or controlled.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T07:50:38.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "OcVliMQH2CAH",
+          "url": "https://www.stuff.co.nz/nz-news/361042958/helicopters-monsoon-buckets-tackle-queenstown-blaze",
+          "canonicalUrl": "https://www.stuff.co.nz/nz-news/361042958/helicopters-monsoon-buckets-tackle-queenstown-blaze",
+          "title": "Amazing images capture Queenstown vegetation fire as night falls",
+          "description": "A large vegetation fire has broken out on Walter Peak, on the shores of Lake Wakatipu near Queenstown.",
+          "source": {
+            "id": "stuff",
+            "name": "Stuff"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:24:24.000Z",
+          "imageUrl": null,
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:24:24.000Z"
+    },
+    {
+      "id": "iaQnXv9__3Cm",
+      "representative": {
+        "id": "iaQnXv9__3Cm",
+        "url": "https://www.1news.co.nz/2026/10/06/mayor-wayne-brown-paints-out-aucklands-dumbest-car-park/",
+        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/mayor-wayne-brown-paints-out-aucklands-dumbest-car-park/",
+        "title": "Mayor Wayne Brown paints out 'Auckland's dumbest car park'",
+        "description": "After taking control of local roads from Auckland Transport, the council leader was on the tools to swiftly wipe out what he described as a traffic impediment.",
+        "source": {
+          "id": "1news",
+          "name": "1News"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T23:43:13.000Z",
+        "imageUrl": "https://www.1news.co.nz/resizer/v2/N35LWBKO6NACDPMKFNZKLV5THM.jpg?auth=c0b2c5b549ef9cbd88741d84491a8db28e7415e3cc9862089f630fa1a008e107&smart=true&width=720&height=404",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "jy3hAJXvdEx8",
+          "url": "https://www.nzherald.co.nz/nz/auckland/mayor-wayne-brown-gets-on-tools-to-remove-aucklands-dumbest-car-park/PBNI5EB2F5BDBO4FSJXWFCFJAM/",
+          "canonicalUrl": "https://www.nzherald.co.nz/nz/auckland/mayor-wayne-brown-gets-on-tools-to-remove-aucklands-dumbest-car-park/PBNI5EB2F5BDBO4FSJXWFCFJAM/",
+          "title": "Mayor Wayne Brown gets on tools to remove Auckland’s ‘dumbest car park’",
+          "description": "Removal of car park space is part of the mayor’s Quick Fixes campaign.",
+          "source": {
+            "id": "nzherald",
+            "name": "NZ Herald"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T06:00:00.000Z",
+          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/QO5ROOO5TNCCZMJNFLJ7EPTITE.png?auth=d3a515e63c34a183d3b839286c0ff1373b4decdb0dfd2a4feb0e54cb3fb21dae&smart=true&width=1280&height=720",
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T06:00:00.000Z"
+    },
+    {
+      "id": "2MOZMa-FGKgy",
+      "representative": {
+        "id": "2MOZMa-FGKgy",
+        "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/",
+        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/",
+        "title": "Poll: Opportunity still in kingmaker seat as Greens hold strong",
+        "description": "National Party leader Christopher Luxon has ruled out working with Opportunity.",
+        "source": {
+          "id": "1news",
+          "name": "1News"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:25:12.000Z",
+        "imageUrl": "https://www.1news.co.nz/resizer/v2/TX26C763MNAE7AJCPYWFRL7FUQ.jpg?auth=f6d7b80dd6624e822e408b2900adf7cb21d6226ce43bb9920f034ea2f6dbdcfa&smart=true&width=1920&height=1080",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "BlovyRzxOauY",
+          "url": "https://www.stuff.co.nz/politics/361043134/opportunity-again-kingmaker-both-blocs-tie-latest-poll",
+          "canonicalUrl": "https://www.stuff.co.nz/politics/361043134/opportunity-again-kingmaker-both-blocs-tie-latest-poll",
+          "title": "Opportunity again the kingmaker as both blocs tie in latest poll",
+          "description": "Chris Hipkins and Christopher Luxon will need the Opportunity Party’s support to form a government, according to the latest poll.",
+          "source": {
+            "id": "stuff",
+            "name": "Stuff"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T05:58:33.000Z",
+          "imageUrl": null,
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T05:58:33.000Z"
+    },
+    {
+      "id": "a_QTN6SdwLTW",
+      "representative": {
+        "id": "a_QTN6SdwLTW",
+        "url": "https://www.rnz.co.nz/news/pacific/1758482/fiji-samoa-and-tonga-name-2026-rugby-league-world-cup-squads",
+        "canonicalUrl": "https://www.rnz.co.nz/news/pacific/1758482/fiji-samoa-and-tonga-name-2026-rugby-league-world-cup-squads",
+        "title": "Fiji, Samoa and Tonga name 2026 Rugby League World Cup squads",
+        "description": "Fiji, Samoa and Tonga have named their men's squads for the 2026 Rugby League World Cup.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T00:35:18.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "OovqiYKP8fIM",
+          "url": "https://www.stuff.co.nz/sport/361042600/kiwis-kiwi-ferns-squads-named-rugby-league-world-cups",
+          "canonicalUrl": "https://www.stuff.co.nz/sport/361042600/kiwis-kiwi-ferns-squads-named-rugby-league-world-cups",
+          "title": "Big names in as Kiwis, Kiwi Ferns name Rugby League World Cup squads",
+          "description": "Stacey Jones and Ricky Henry have revealed their chosen men and women, ahead of their opening matches next week.",
+          "source": {
+            "id": "stuff",
+            "name": "Stuff"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T05:30:00.000Z",
+          "imageUrl": null,
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T05:30:00.000Z"
+    },
+    {
+      "id": "2tVXAvuQpou9",
+      "representative": {
+        "id": "2tVXAvuQpou9",
+        "url": "https://www.rnz.co.nz/news/health/1749402/new-zealanders-getting-through-close-to-7kg-of-cocaine-a-week",
+        "canonicalUrl": "https://www.rnz.co.nz/news/health/1749402/new-zealanders-getting-through-close-to-7kg-of-cocaine-a-week",
+        "title": "New Zealanders getting through close to 7kg of cocaine a week",
+        "description": "Cheaper, more readily available cocaine, and increased social acceptance has lead to a steep increase in use in less than a decade, new research shows.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T04:15:07.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "9ZfvK86migz0",
+          "url": "https://www.1news.co.nz/2026/10/06/new-zealanders-getting-through-close-to-7kg-of-cocaine-a-week/",
+          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/new-zealanders-getting-through-close-to-7kg-of-cocaine-a-week/",
+          "title": "New Zealanders getting through close to 7kg of cocaine a week",
+          "description": "Once adjusted for inflation, the price of cocaine in New Zealand had dropped by almost a third between 2017 and 2026 - from $368 a gram to $247.",
+          "source": {
+            "id": "1news",
+            "name": "1News"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-05T18:19:50.000Z",
+          "imageUrl": "https://www.1news.co.nz/resizer/v2/G3B6TIGXA5C4VHE56SSZLF3UEU.jpg?auth=c54f876ee85365d6a42116748d22f1ea4d8d9871309d73132f44d75d9cbf4492&smart=true&width=963&height=541",
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T04:15:07.000Z"
+    },
+    {
+      "id": "hnCAPdbguOsz",
+      "representative": {
+        "id": "hnCAPdbguOsz",
+        "url": "https://www.rnz.co.nz/news/regions_auckland/1755618/buildings-evacuated-as-gas-main-ruptured-in-auckland-s-newmarket",
+        "canonicalUrl": "https://www.rnz.co.nz/news/regions_auckland/1755618/buildings-evacuated-as-gas-main-ruptured-in-auckland-s-newmarket",
+        "title": "Buildings evacuated as gas main ruptured in Auckland's Newmarket",
+        "description": "Fire trucks and a hazmat unit was at the scene of the gas leak on Khyber Pass Road.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T21:57:35.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "uCViQtW2-L4z",
+          "url": "https://www.1news.co.nz/2026/10/06/gas-leak-contained-after-buildings-evacuated-in-aucklands-newmarket/",
+          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/gas-leak-contained-after-buildings-evacuated-in-aucklands-newmarket/",
+          "title": "Gas leak contained after buildings evacuated in Auckland's Newmarket",
+          "description": "Police said the line near Khyber Pass Rd was damaged today while earth works were being carried out in the area.",
+          "source": {
+            "id": "1news",
+            "name": "1News"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T00:33:24.000Z",
+          "imageUrl": "https://www.1news.co.nz/resizer/v2/HEODKJWFBZBSZDNZX7JTDQUA5U.jpg?auth=37a8f58cb63c562b888845032bd3727c52695c4ecae8bac2690cace504b245e5&smart=true&width=4032&height=2268",
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T00:33:24.000Z"
+    },
+    {
+      "id": "bsZjXgJ-3Vvk",
+      "representative": {
+        "id": "bsZjXgJ-3Vvk",
+        "url": "https://www.rnz.co.nz/news/politics_election-2026/1754401/election-2026-national-promises-to-cut-foreign-aid-to-boost-pharmac-s-budget-cancer-screenings",
+        "canonicalUrl": "https://www.rnz.co.nz/news/politics_election-2026/1754401/election-2026-national-promises-to-cut-foreign-aid-to-boost-pharmac-s-budget-cancer-screenings",
+        "title": "Election 2026: National promises to cut foreign aid to boost Pharmac's budget, cancer screenings",
+        "description": "The policy touches on the turf of both its coalition partners.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T23:37:54.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "UHi5xWyDlYBj",
+          "url": "https://www.1news.co.nz/2026/10/06/national-says-it-will-cut-foreign-aid-to-boost-pharmac-medicines-budget/",
+          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/national-says-it-will-cut-foreign-aid-to-boost-pharmac-medicines-budget/",
+          "title": "National says it will cut foreign aid to boost Pharmac medicines budget",
+          "description": "The party announced today that it would invest $604 million to help Pharmac fund new medicines and expand access to those already funded.",
+          "source": {
+            "id": "1news",
+            "name": "1News"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-05T21:03:00.000Z",
+          "imageUrl": "https://www.1news.co.nz/resizer/v2/4HQNV6YUJBHDXFVJFE6DHSMPLU.jpg?auth=98e6ddcabf324c65305f76999e21b6b89dbc6f023f4fd2156857f12fdf5a4404&smart=true&width=1920&height=1080",
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T23:37:54.000Z"
+    },
+    {
+      "id": "-TsQjup-AZ8U",
+      "representative": {
+        "id": "-TsQjup-AZ8U",
+        "url": "https://www.1news.co.nz/2026/10/06/former-american-idol-singer-sentenced-to-life-in-prison-for-wifes-murder/",
+        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/former-american-idol-singer-sentenced-to-life-in-prison-for-wifes-murder/",
+        "title": "Former American Idol singer sentenced to life in prison for wife’s murder",
+        "description": "Prosecutors said Caleb Flynn, 40, staged a home invasion in February after shooting Ashley Flynn, a 37-year-old schoolteacher and volleyball coach.",
+        "source": {
+          "id": "1news",
+          "name": "1News"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T20:44:46.000Z",
+        "imageUrl": "https://www.1news.co.nz/resizer/v2/AREHM6WLZZBZNKHY2TM6MLNCZY.png?auth=4daff4c24daa8319beb89336fbdddbb4823679e90f025e91371971803ed04064&smart=true&width=1920&height=1080",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "4HGHUAKi7FwA",
+          "url": "https://www.stuff.co.nz/culture/361042893/former-american-idol-singer-caleb-flynn-sentenced-life",
+          "canonicalUrl": "https://www.stuff.co.nz/culture/361042893/former-american-idol-singer-caleb-flynn-sentenced-life",
+          "title": "Former American Idol singer sentenced to life in prison for wife’s murder",
+          "description": "A former music pastor in Ohio who appeared briefly on American Idol was sentenced on Monday (local time) to life in prison without the possibility of parole, after a jury convicted him last week of murdering his wife while he was having an affair.",
+          "source": {
+            "id": "stuff",
+            "name": "Stuff"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-05T23:31:10.000Z",
+          "imageUrl": null,
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T23:31:10.000Z"
+    },
+    {
+      "id": "YNjOP6YThh9p",
+      "representative": {
+        "id": "YNjOP6YThh9p",
+        "url": "https://www.rnz.co.nz/news/crime-and-justice/1752715/baby-in-critical-condition-after-woman-charged-with-attempted-murder-in-alleged-west-auckland-stabbing",
+        "canonicalUrl": "https://www.rnz.co.nz/news/crime-and-justice/1752715/baby-in-critical-condition-after-woman-charged-with-attempted-murder-in-alleged-west-auckland-stabbing",
+        "title": "Baby in critical condition after woman charged with attempted murder in alleged West Auckland stabbing",
+        "description": "Three people were injured at a home in Glendene, including a baby, late on Sunday night.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T23:17:17.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Rnil7KaEj7Df",
+          "url": "https://www.1news.co.nz/2026/10/06/woman-charged-with-attempted-murder-after-west-auckland-stabbing/",
+          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/woman-charged-with-attempted-murder-after-west-auckland-stabbing/",
+          "title": "Woman charged with attempted murder after West Auckland stabbing",
+          "description": "Police have praised neighbours who came to the aid of the injured.",
+          "source": {
+            "id": "1news",
+            "name": "1News"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-05T21:27:36.000Z",
+          "imageUrl": "https://www.1news.co.nz/resizer/v2/RZWYLRRMEJERRNEH5VJNWZE2CA.jpg?auth=79b81bffbd6d886fcddb426b7417a3c68a904019e9321674117fc3480ed08695&smart=true&width=1920&height=1080",
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T23:17:17.000Z"
+    },
+    {
+      "id": "xAOH_gBaCcK8",
+      "representative": {
+        "id": "xAOH_gBaCcK8",
+        "url": "https://www.rnz.co.nz/news/regions_canterbury/1752142/gunshot-victim-turns-up-at-christchurch-hospital",
+        "canonicalUrl": "https://www.rnz.co.nz/news/regions_canterbury/1752142/gunshot-victim-turns-up-at-christchurch-hospital",
+        "title": "Gunshot victim turns up at Christchurch Hospital",
+        "description": "Police say they're investigating what happened.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T19:11:15.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "oWpw1MeKD60U",
+          "url": "https://www.1news.co.nz/2026/10/06/person-arrives-at-christchurch-hospital-with-gunshot-wound/",
+          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/person-arrives-at-christchurch-hospital-with-gunshot-wound/",
+          "title": "Person arrives at Christchurch hospital with gunshot wound",
+          "description": "Circumstances surrounding the injury were being investigated by police.",
+          "source": {
+            "id": "1news",
+            "name": "1News"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-05T20:01:53.000Z",
+          "imageUrl": "https://www.1news.co.nz/resizer/v2/QTZIW2LOYRC7JJ63DNWIRP2UMU.jpg?auth=bc5cbe067dfedf0a2295311ea2f61de1692b72f739c79ad13ab6e9ca93520b63&smart=true&width=1477&height=831",
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T20:01:53.000Z"
+    },
+    {
+      "id": "UmOQgdFGAcGE",
+      "representative": {
+        "id": "UmOQgdFGAcGE",
+        "url": "https://www.1news.co.nz/2026/10/06/medvedev-disqualified-from-china-open-for-hitting-spectator-with-ball/",
+        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/medvedev-disqualified-from-china-open-for-hitting-spectator-with-ball/",
+        "title": "Medvedev disqualified from China Open for hitting spectator with ball",
+        "description": "Novac Djokovic was serving for the match at 7-5, 5-3 when Daniil Medvedev hit the ball into the stands in apparent frustration, striking a spectator in the eye.",
+        "source": {
+          "id": "1news",
+          "name": "1News"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T19:42:28.000Z",
+        "imageUrl": "https://www.1news.co.nz/resizer/v2/CSF5SRR3MFBHHH3RUYZOYAQDRU.jpg?auth=90093c55b4bbfb47216a2b97acdf9e103614a4075936290ad39a447155d52534&smart=true&width=6946&height=4631",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "a47uaCqfGRoA",
+          "url": "https://www.stuff.co.nz/sport/361042710/medvedev-disqualified-china-open-hitting-spectator",
+          "canonicalUrl": "https://www.stuff.co.nz/sport/361042710/medvedev-disqualified-china-open-hitting-spectator",
+          "title": "Watch: Medvedev disqualified after hitting spectator with ball",
+          "description": "Daniil Medvedev struck a spectator with a ball and was disqualified from his semifinal against Novak Djokovic at the China Open on Monday.",
+          "source": {
+            "id": "stuff",
+            "name": "Stuff"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-05T17:15:17.000Z",
+          "imageUrl": null,
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T19:42:28.000Z"
+    }
+  ]
+}

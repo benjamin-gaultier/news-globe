@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "IE",
+  "countryName": "Ireland",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "clusters": [
+    {
+      "id": "i_ezQjmDfveC",
+      "representative": {
+        "id": "i_ezQjmDfveC",
+        "url": "https://www.rte.ie/news/ulster/2026/1006/1594213-a5-road-ruling/",
+        "canonicalUrl": "https://www.rte.ie/news/ulster/2026/1006/1594213-a5-road-ruling/",
+        "title": "A5 upgrade can proceed following Court of Appeal ruling",
+        "description": "A court ruling that halted Northern Ireland's biggest roads project has been overturned.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:43:59.000Z",
+        "imageUrl": "https://www.rte.ie/images/0025203a-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "dXpq_RrZlTUB",
+          "url": "https://www.thejournal.ie/a5-road-upgrade-court-ruling-7183953-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/a5-road-upgrade-court-ruling-7183953-Oct2026/",
+          "title": "A5 road from the Tyrone border to Derry set for major upgrade after Belfast court ruling",
+          "description": "The plan was originally rejected by the Belfast High Court due to an apparent conflict with climate laws.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:47:11.000Z",
+          "imageUrl": "https://c2.thejournal.ie/media/2026/10/cross-border-projects-51b49555-840b-410a-b754-08faa92be685-630x419.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        },
+        {
+          "id": "Q1utnQ9x71dM",
+          "url": "https://www.irishmirror.ie/news/irish-news/appeal-court-quashes-ruling-a5-37740376",
+          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/appeal-court-quashes-ruling-a5-37740376",
+          "title": "Appeal Court quashes ruling that A5 project cannot proceed",
+          "description": "In the Appeal Court on Tuesday, Lady Chief Justice Dame Siobhan Keegan delivered judgment",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:23:50.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article37740419.ece/ALTERNATES/s615/0_01M489XYACB5QQFQAVQ7W9H07J.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        },
+        {
+          "id": "k00sJlDPWLr5",
+          "url": "https://www.irishtimes.com/ireland/2026/10/06/belfast-court-quashes-ruling-blocking-upgrade-of-a5-road/",
+          "canonicalUrl": "https://www.irishtimes.com/ireland/2026/10/06/belfast-court-quashes-ruling-blocking-upgrade-of-a5-road/",
+          "title": "Belfast appeals court quashes ruling blocking upgrade of A5 road",
+          "description": "€2 billion upgrade would be Northern Ireland’s largest ever road project",
+          "source": {
+            "id": "irishtimes",
+            "name": "The Irish Times"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T10:53:36.000Z",
+          "imageUrl": "https://www.irishtimes.com/resizer/v2/IO42GLNFOVWPSM37OTUAHHCRXQ.jpg?auth=abffffc214b86340604fe3a45f7e68f3367bc74bb4a36240c436d67ee8ea6857&smart=true&width=630&height=350",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:47:11.000Z"
+    },
+    {
+      "id": "Qat44xG8i5Wg",
+      "representative": {
+        "id": "Qat44xG8i5Wg",
+        "url": "https://www.irishtimes.com/crime-law/courts/2026/10/06/court-of-appeal-upholds-lisa-smiths-conviction-for-islamic-state-membership/",
+        "canonicalUrl": "https://www.irishtimes.com/crime-law/courts/2026/10/06/court-of-appeal-upholds-lisa-smiths-conviction-for-islamic-state-membership/",
+        "title": "Court of Appeal upholds Lisa Smith’s conviction for Islamic State membership",
+        "description": "Former soldier travelled to Syria in 2015 to join terrorist group, Special Criminal Court found in 2022",
+        "source": {
+          "id": "irishtimes",
+          "name": "The Irish Times"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:15:33.000Z",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/R6OCW6XNBVRYOTM7GJI6L345A4.jpg?auth=765a84493ebc3fdc6762fee5ba5f581fd3e338df5264e195fe164dc6af958e05&smart=true&width=630&height=350",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "fNAIRdQoN0qE",
+          "url": "https://www.thejournal.ie/courts-upholds-conviction-lisa-smith-membership-islamic-state-7183861-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/courts-upholds-conviction-lisa-smith-membership-islamic-state-7183861-Oct2026/",
+          "title": "Court upholds ex-soldier Lisa Smith's conviction for membership of terrorist group Islamic State",
+          "description": "The court rejected all grounds raised by Smith and her appeal was therefore dismissed.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:58:29.000Z",
+          "imageUrl": "https://c1.thejournal.ie/media/2026/10/river-74-3a6b7e5c-a72f-4f2d-a195-393fe3154c44-630x410.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        },
+        {
+          "id": "o1acpke9xXXV",
+          "url": "https://www.irishmirror.ie/news/irish-news/court-upholds-ex-soldier-lisa-37740499",
+          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/court-upholds-ex-soldier-lisa-37740499",
+          "title": "Court upholds ex-soldier Lisa Smith’s conviction for membership of terrorist group Islamic State",
+          "description": "The court rejected all grounds raised by Smith and her appeal was therefore dismissed",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:34:55.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article33840463.ece/ALTERNATES/s615/1_lisa-smith-dundalk.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        },
+        {
+          "id": "rSY6bCWvueUF",
+          "url": "https://www.independent.ie/irish-news/courts/court-upholds-ex-soldier-lisa-smiths-conviction-for-membership-of-terrorist-group-islamic-state/a/162654236.html",
+          "canonicalUrl": "https://www.independent.ie/irish-news/courts/court-upholds-ex-soldier-lisa-smiths-conviction-for-membership-of-terrorist-group-islamic-state/a/162654236.html",
+          "title": "Court upholds ex-soldier Lisa Smith’s conviction for membership of terrorist group Islamic State",
+          "description": null,
+          "source": {
+            "id": "independent_ie",
+            "name": "Irish Independent"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:30:00.000Z",
+          "imageUrl": "https://prod-img.independent.ie/public/incoming/pqte0v-lisa-smith-court-case/alternates/BASE_SIXTEEN_NINE/Lisa%20Smith%20court%20case",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:15:33.000Z"
+    },
+    {
+      "id": "KrGGDXa47_0m",
+      "representative": {
+        "id": "KrGGDXa47_0m",
+        "url": "https://www.rte.ie/news/courts/2026/1005/1594115-mosque-court/",
+        "canonicalUrl": "https://www.rte.ie/news/courts/2026/1005/1594115-mosque-court/",
+        "title": "Men in mosque plot warned of further attacks, court told",
+        "description": "Three men who admitted planning to blow up a mosque in Galway last year also threatened to attack anyone involved in mosques and accommodation for people seeking international protection, the Special Criminal Court has heard.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-05T17:13:00.000Z",
+        "imageUrl": "https://www.rte.ie/images/0024164e-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "LPZpnIfgJ6sm",
+          "url": "https://www.independent.ie/irish-news/crime/eye-for-an-eye-would-be-mosque-bombers-warned-of-further-attacks/a/162628327.html",
+          "canonicalUrl": "https://www.independent.ie/irish-news/crime/eye-for-an-eye-would-be-mosque-bombers-warned-of-further-attacks/a/162628327.html",
+          "title": "‘Eye for an eye’ – would-be mosque bombers warned of further attacks",
+          "description": null,
+          "source": {
+            "id": "independent_ie",
+            "name": "Irish Independent"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T04:30:00.000Z",
+          "imageUrl": "https://prod-img.independent.ie/public/incoming/3tsq1c-karolis-peckauskas-garrett-pollock-and-darren-gorman/alternates/BASE_SIXTEEN_NINE/Karolis%20Peckauskas%20Garrett%20Pollock%20and%20Darren%20Gorman",
+          "countryCode": "IE",
+          "regionCode": null
+        },
+        {
+          "id": "JGFXxqBDotCc",
+          "url": "https://www.irishmirror.ie/news/irish-news/would-irish-defence-army-mosque-37738075",
+          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/would-irish-defence-army-mosque-37738075",
+          "title": "'Irish Defence Army' would-be mosque bombers warned of further attacks",
+          "description": "The three-judge court also heard evidence today that the defendants had a Signal group chat called 'Shadows of Eire', in which they shared information on making improvised explosive devices (IEDs) and discussed their plans to attack a mosque",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-05T20:29:39.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article34988918.ece/ALTERNATES/s615/1_JS273407941.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T04:30:00.000Z"
+    },
+    {
+      "id": "rz6xgcHImDGX",
+      "representative": {
+        "id": "rz6xgcHImDGX",
+        "url": "https://www.rte.ie/news/2026/1006/1594242-watch-live-budget-2027/",
+        "canonicalUrl": "https://www.rte.ie/news/2026/1006/1594242-watch-live-budget-2027/",
+        "title": "Watch live: Special coverage for Budget 2027",
+        "description": "Watch live: Special coverage for Budget 2027",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:46:23.000Z",
+        "imageUrl": "https://www.rte.ie/images/00251f1b-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "UmL4S326X2-5",
+          "url": "https://www.irishmirror.ie/search/polls/poll-should-happy-budget-2027-37740814",
+          "canonicalUrl": "https://www.irishmirror.ie/search/polls/poll-should-happy-budget-2027-37740814",
+          "title": "Poll: Should we be happy with Budget 2027?",
+          "description": "Budget 2027 has been announced - have your say in our poll",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:52:36.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article37740899.ece/ALTERNATES/s615/0_budget-2027-25JPG.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:52:36.000Z"
+    },
+    {
+      "id": "_fvGggzXsbJ7",
+      "representative": {
+        "id": "_fvGggzXsbJ7",
+        "url": "https://www.independent.ie/irish-news/politics/fuel-childcare-social-welfare-income-tax-and-housing-heres-everything-we-know-so-far-about-budget-2027/a/162068101.html",
+        "canonicalUrl": "https://www.independent.ie/irish-news/politics/fuel-childcare-social-welfare-income-tax-and-housing-heres-everything-we-know-so-far-about-budget-2027/a/162068101.html",
+        "title": "Fuel, childcare, social welfare, income tax and housing – here’s everything we know so far about Budget 2027",
+        "description": "It is crunch time for the Coalition’s negotiations",
+        "source": {
+          "id": "independent_ie",
+          "name": "Irish Independent"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:30:00.000Z",
+        "imageUrl": "https://prod-img.independent.ie/public/incoming/jqcs8j-budget-2027/alternates/BASE_SIXTEEN_NINE/Budget%202027",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "clhA4NaQIBHD",
+          "url": "https://www.irishmirror.ie/news/irish-news/budget-2027-live-bring-you-37735551",
+          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/budget-2027-live-bring-you-37735551",
+          "title": "Budget 2027 live as changes incoming on pensions, childcare, social welfare and fuel prices",
+          "description": "Households nationwide will be hoping to be better off as the details of Budget 2027 are revealed and scrutinised",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:49:25.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article37740702.ece/ALTERNATES/s615/0_Irish-Budget-2027.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:49:25.000Z"
+    },
+    {
+      "id": "PmkkgdRRF7tC",
+      "representative": {
+        "id": "PmkkgdRRF7tC",
+        "url": "https://www.irishtimes.com/crime-law/courts/2026/10/06/armed-gardai-shot-xl-bully-dog-four-times-after-it-attacked-and-killed-owner-inquest-told/",
+        "canonicalUrl": "https://www.irishtimes.com/crime-law/courts/2026/10/06/armed-gardai-shot-xl-bully-dog-four-times-after-it-attacked-and-killed-owner-inquest-told/",
+        "title": "Armed gardaí shot XL Bully dog four times after it attacked and killed owner, inquest told",
+        "description": "Gardaí reviewed CCTV footage of the attack and the Director of Public Prosecutions ruled no criminal prosecution would follow",
+        "source": {
+          "id": "irishtimes",
+          "name": "The Irish Times"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:31:28.000Z",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/5V4K25GDK5EWRKXAR7YKHV6B5U.jpg?auth=21775ab86626d73a60517e424cdeca48b6e0428934c5a66ed7cda9c82e8f8e60&smart=true&width=630&height=350",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "g-Zs5g3G3hKs",
+          "url": "https://www.thejournal.ie/nicole-morey-inquest-7183970-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/nicole-morey-inquest-7183970-Oct2026/",
+          "title": "Armed gardaí shot an XL Bully dog after it killed Limerick woman, inquest hears",
+          "description": "Nicole Morey was killed in the fatal attack at her home in June 2024.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:45:54.000Z",
+          "imageUrl": "https://c2.thejournal.ie/media/2026/10/screenshot-2026-10-06-at-13-41-22-dacd2665-bd84-41d1-87c4-cfd0c593706d-630x392.png",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:45:54.000Z"
+    },
+    {
+      "id": "bfjm7XOdHXxW",
+      "representative": {
+        "id": "bfjm7XOdHXxW",
+        "url": "https://www.thejournal.ie/rental-tax-credit-budget-2027-7183984-Oct2026/",
+        "canonicalUrl": "https://www.thejournal.ie/rental-tax-credit-budget-2027-7183984-Oct2026/",
+        "title": "Rent tax credit increases by €150 and Rent-A-Room scheme extended to garden cabins",
+        "description": "This change brings the value of the credit to €1,150 for single people and €2,300 for couples.",
+        "source": {
+          "id": "thejournal",
+          "name": "TheJournal.ie"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:45:13.000Z",
+        "imageUrl": "https://c1.thejournal.ie/media/2026/10/river-31-e61eca68-2796-4980-92f3-242b475136a7-630x410.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "2BGcJtLAdju6",
+          "url": "https://www.irishmirror.ie/news/irish-news/politics/budget-2027-renters-likely-receive-37737771",
+          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/politics/budget-2027-renters-likely-receive-37737771",
+          "title": "Budget 2027: Renters to receive €150 increase in rent tax credit",
+          "description": "Renters currently receive €1,000 in tax-back a year, with a €150 increase to be announced",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-05T19:10:48.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article36044719.ece/ALTERNATES/s615/1_GettyImages-1133235657.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:45:13.000Z"
+    },
+    {
+      "id": "MpmBoBv1R5PZ",
+      "representative": {
+        "id": "MpmBoBv1R5PZ",
+        "url": "https://www.irishexaminer.com/news/munster/arid-41920213.html",
+        "canonicalUrl": "https://www.irishexaminer.com/news/munster/arid-41920213.html",
+        "title": "Cork man Patrick 'Patsy' O'Sullivan, missing since 1992, located deceased",
+        "description": "At the time of his vanishing, he had been working in county Kerry",
+        "source": {
+          "id": "examiner",
+          "name": "Irish Examiner"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T07:29:00.000Z",
+        "imageUrl": null,
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "TNo7SnUtDKI2",
+          "url": "https://www.thejournal.ie/cork-man-missing-1992-deceased-uk-patrick-patsy-osullivan-7183697-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/cork-man-missing-1992-deceased-uk-patrick-patsy-osullivan-7183697-Oct2026/",
+          "title": "'It's a closure for us': Cork man who went missing in 1992 is located deceased in the UK",
+          "description": "Patrick ‘Patsy’ O’Sullivan’s brother said he had been living in the UK under a new name.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:33:05.000Z",
+          "imageUrl": "https://c0.thejournal.ie/media/2026/10/6ac497027be4bc8e296-074f383d-bafd-4118-b7ac-cf3527a5ddb4-630x630.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:33:05.000Z"
+    },
+    {
+      "id": "qWwHRLUO0zQI",
+      "representative": {
+        "id": "qWwHRLUO0zQI",
+        "url": "https://www.irishtimes.com/crime-law/2026/10/05/man-forced-into-bin-and-pushed-on-to-railway-tracks-at-dublin-train-station/",
+        "canonicalUrl": "https://www.irishtimes.com/crime-law/2026/10/05/man-forced-into-bin-and-pushed-on-to-railway-tracks-at-dublin-train-station/",
+        "title": "‘Appalling attack’: Man forced into bin and pushed on to railway tracks at Dublin Dart station",
+        "description": "Gardaí appeal for witnesses to incident at Harmonstown station on Sunday night",
+        "source": {
+          "id": "irishtimes",
+          "name": "The Irish Times"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-05T18:41:30.000Z",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/XBROJZF44NGFLJSYZFS6KVVMHU.JPG?auth=666fe8d6823c64ca2ab66ea979857ee9442ca47913f8d7d09e003c57f8d6681d&smart=true&width=630&height=350",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "HXYXEN92DbKy",
+          "url": "https://www.independent.ie/county/dublin/man-allegedly-forced-into-bin-and-pushed-onto-tracks-at-dublin-dart-station/a/162639830.html",
+          "canonicalUrl": "https://www.independent.ie/county/dublin/man-allegedly-forced-into-bin-and-pushed-onto-tracks-at-dublin-dart-station/a/162639830.html",
+          "title": "Man allegedly forced into bin and pushed onto tracks at Dublin DART station",
+          "description": null,
+          "source": {
+            "id": "independent_ie",
+            "name": "Irish Independent"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T08:18:12.000Z",
+          "imageUrl": "https://prod-img.crimeworld.com/public/incoming/hoo57z-gettyimages-1197314089.jpg/alternates/BASE_SIXTEEN_NINE/GettyImages-1197314089.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T08:18:12.000Z"
+    },
+    {
+      "id": "FWNv8aDWpym-",
+      "representative": {
+        "id": "FWNv8aDWpym-",
+        "url": "https://www.irishtimes.com/ireland/2026/10/06/irish-rail-commuter-service-into-dublin-disrupted-by-signalling-issues/",
+        "canonicalUrl": "https://www.irishtimes.com/ireland/2026/10/06/irish-rail-commuter-service-into-dublin-disrupted-by-signalling-issues/",
+        "title": "Irish Rail services into Dublin from Newbridge disrupted by signalling issues",
+        "description": "Train services between Hazelhatch and Heuston have been affected, with delays of more than an hour",
+        "source": {
+          "id": "irishtimes",
+          "name": "The Irish Times"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T08:18:03.000Z",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/BOZOEB65UNHK3LRAICR2A73BZY.jpg?auth=2d6ceb8be8d71b45cc53f6ec23a8562469f6b955c0f3c8f737652216e9c5b38a&smart=true&width=630&height=350",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "9tpW5FEYbiIM",
+          "url": "https://www.independent.ie/irish-news/dublin-and-kildare-commuters-facing-significant-delays-on-rail-services-due-to-signalling-issue/a/162637898.html",
+          "canonicalUrl": "https://www.independent.ie/irish-news/dublin-and-kildare-commuters-facing-significant-delays-on-rail-services-due-to-signalling-issue/a/162637898.html",
+          "title": "Dublin and Kildare commuters facing significant delays on rail services due to signalling issue",
+          "description": null,
+          "source": {
+            "id": "independent_ie",
+            "name": "Irish Independent"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T07:44:00.000Z",
+          "imageUrl": "https://prod-img.independent.ie/public/incoming/31a369-file87bmwkveynpqp26zezz/alternates/BASE_SIXTEEN_NINE/file87bmwkveynpqp26zezz",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T08:18:03.000Z"
+    },
+    {
+      "id": "lOp6Fmwem6kc",
+      "representative": {
+        "id": "lOp6Fmwem6kc",
+        "url": "https://www.rte.ie/news/2026/1005/1593970-garvaghy-road-court/",
+        "canonicalUrl": "https://www.rte.ie/news/2026/1005/1593970-garvaghy-road-court/",
+        "title": "Court reserves judgment in appeal against Drumcree parade",
+        "description": "A ruling in a legal challenge against the decision to allow an Orange Order parade along the Garvaghy Road in Portadown has been reserved by the Northern Ireland Court of Appeal.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-05T05:00:01.000Z",
+        "imageUrl": "https://www.rte.ie/images/00251e97-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Nf6TIS_dlw7Z",
+          "url": "https://www.independent.ie/irish-news/courts/appeal-court-reserves-judgment-in-garvaghy-road-residents-challenge-to-parades-commission-decision/a/162629159.html",
+          "canonicalUrl": "https://www.independent.ie/irish-news/courts/appeal-court-reserves-judgment-in-garvaghy-road-residents-challenge-to-parades-commission-decision/a/162629159.html",
+          "title": "Appeal court reserves judgment in Garvaghy Road residents’ challenge to Parades Commission decision",
+          "description": "Judge pledges to deliver ‘swift’ verdict after hearing arguments from both sides",
+          "source": {
+            "id": "independent_ie",
+            "name": "Irish Independent"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T04:30:00.000Z",
+          "imageUrl": "https://prod-img.belfasttelegraph.co.uk/public/incoming/64x9oy-d8110b75-8f35-4efb-96af-c856a6b56114-1.jpg/alternates/BASE_SIXTEEN_NINE/d8110b75-8f35-4efb-96af-c856a6b56114%201.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        },
+        {
+          "id": "Db3kdxuyS1X0",
+          "url": "https://www.irishtimes.com/crime-law/courts/2026/10/05/judgment-reserved-in-legal-challenge-to-orange-order-parade-on-garvaghy-road/",
+          "canonicalUrl": "https://www.irishtimes.com/crime-law/courts/2026/10/05/judgment-reserved-in-legal-challenge-to-orange-order-parade-on-garvaghy-road/",
+          "title": "Judgment reserved in legal challenge to Orange Order parade on Garvaghy Road",
+          "description": "Drumcree standoff: Three senior judges promised to deliver verdict on latest legal challenge to the march ‘swiftly’, but did not provide a date",
+          "source": {
+            "id": "irishtimes",
+            "name": "The Irish Times"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-05T18:42:47.000Z",
+          "imageUrl": "https://www.irishtimes.com/resizer/v2/GLNMXYDSBWV56JIBRSNJRNADFM.jpg?auth=ad6067a8cd40fe9415929be3d225485ec6a70a5658bc7b9bc75f2dfac0a58507&smart=true&width=630&height=350",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T04:30:00.000Z"
+    },
+    {
+      "id": "_nFqR1eLBRLC",
+      "representative": {
+        "id": "_nFqR1eLBRLC",
+        "url": "https://www.rte.ie/news/uk/2026/1005/1594132-trump-fairford/",
+        "canonicalUrl": "https://www.rte.ie/news/uk/2026/1005/1594132-trump-fairford/",
+        "title": "'Threats' led US to pull bombers from UK base, Trump says",
+        "description": "Donald Trump has said there were \"some threats\" that led the United States to pull bombers from a UK base.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-05T20:26:59.000Z",
+        "imageUrl": "https://www.rte.ie/images/00251f79-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Ad9kSv3uVExb",
+          "url": "https://www.thejournal.ie/us-withdraws-bombers-uk-airbase-7182446-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/us-withdraws-bombers-uk-airbase-7182446-Oct2026/",
+          "title": "US bombers pulled from RAF Fairford in face of ‘some threats’, says Trump",
+          "description": "Speculation about the motives behind the incident ranged from terror threat to fuel thievery.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-05T21:40:00.000Z",
+          "imageUrl": "https://c2.thejournal.ie/media/2026/10/fairford-incident-a50ffaac-c3a8-4256-81a8-7b999ab40a97-630x420.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T21:40:00.000Z"
+    },
+    {
+      "id": "D6m8D6J29ONK",
+      "representative": {
+        "id": "D6m8D6J29ONK",
+        "url": "https://www.rte.ie/news/uk/2026/1005/1594134-jeffrey-archer-death/",
+        "canonicalUrl": "https://www.rte.ie/news/uk/2026/1005/1594134-jeffrey-archer-death/",
+        "title": "Former politician, novelist Jeffrey Archer dies aged 86",
+        "description": "Former politician and author Jeffrey Archer has died aged 86, his publisher said in a statement.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-05T20:56:50.000Z",
+        "imageUrl": "https://www.rte.ie/images/00251f83-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "WUP1WwmKtDUJ",
+          "url": "https://www.thejournal.ie/jeffrey-archer-dies-aged-86-7183272-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/jeffrey-archer-dies-aged-86-7183272-Oct2026/",
+          "title": "British novelist and former Conservative politician Jeffrey Archer dies aged 86",
+          "description": "His editor at Harper Collins said he was “phenomenally hard-working”.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-05T20:56:28.000Z",
+          "imageUrl": "https://c3.thejournal.ie/media/2026/10/anzac-day-2022-236063a0-a1b0-4fe6-bf63-9ce13ad772b1-630x450.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T20:56:50.000Z"
+    },
+    {
+      "id": "s-OZCGEEmI0d",
+      "representative": {
+        "id": "s-OZCGEEmI0d",
+        "url": "https://www.rte.ie/entertainment/2026/1005/1594129-niamh-obrien-dancer-and-wife-of-michael-flatley-dies/",
+        "canonicalUrl": "https://www.rte.ie/entertainment/2026/1005/1594129-niamh-obrien-dancer-and-wife-of-michael-flatley-dies/",
+        "title": "Niamh O'Brien, dancer and wife of Michael Flatley, dies",
+        "description": "Niamh O'Brien, who was the lead performer in Lord of the Dance and the wife of Riverdance star Michael Flatley, has died at the age of 52.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-05T19:34:35.000Z",
+        "imageUrl": "https://www.rte.ie/images/00251f74-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ub6HWPVREcyI",
+          "url": "https://www.thejournal.ie/niamh-o-brien-dies-irish-dancer-wife-michael-flatley-7183209-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/niamh-o-brien-dies-irish-dancer-wife-michael-flatley-7183209-Oct2026/",
+          "title": "'My heart is broken': Niamh O'Brien, Irish dancer and wife of Michael Flatley, dies aged 52",
+          "description": "“She was the most loving mother, wife and person, and our lives will never be the same without her,” Michael Flatley said in a statement.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-05T19:41:46.000Z",
+          "imageUrl": "https://c0.thejournal.ie/media/2026/10/guests-and-cast-attend-the-red-carpet-premiere-of-black-bird-written-by-directed-by-and-starring-michael-flatley-featuring-michael-flatley-niamh-obrien-where-london-united-kingdom-when-28-f1f358d8-2fa1-4103-ba5a-6a2c6d035028-630x414.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T19:41:46.000Z"
+    },
+    {
+      "id": "cYXMepA6T3jv",
+      "representative": {
+        "id": "cYXMepA6T3jv",
+        "url": "https://www.irishtimes.com/crime-law/courts/2026/10/05/daniel-kinahan-case-adjourned-for-one-week-to-allow-solicitor-apply-to-represent-him/",
+        "canonicalUrl": "https://www.irishtimes.com/crime-law/courts/2026/10/05/daniel-kinahan-case-adjourned-for-one-week-to-allow-solicitor-apply-to-represent-him/",
+        "title": "Daniel Kinahan case adjourned for one week to allow solicitor to apply to represent him",
+        "description": "Kinahan appears via video link for brief mention but will attend court next week",
+        "source": {
+          "id": "irishtimes",
+          "name": "The Irish Times"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-05T13:49:56.000Z",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/GJJ4EYVYRVCZJNCT3F3GR6NL6A.jpg?auth=466b1c2b8575b7ee1b8f0769bb0b3013308de1cdff0bfe62b4bc3264220bdd22&smart=true&width=630&height=350",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "BhYJB4IvsPrL",
+          "url": "https://www.rte.ie/news/2026/1005/1594079-kinahan-remanded-to-be-represented-by-belfast-solicitor/",
+          "canonicalUrl": "https://www.rte.ie/news/2026/1005/1594079-kinahan-remanded-to-be-represented-by-belfast-solicitor/",
+          "title": "Belfast solicitor to represent Daniel Kinahan, court told",
+          "description": "Daniel Kinahan is to be represented by a solicitor from Belfast, the Special Criminal Court has been told.",
+          "source": {
+            "id": "rte",
+            "name": "RTÉ News"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-05T13:59:57.000Z",
+          "imageUrl": "https://www.rte.ie/images/00251eec-800.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T13:59:57.000Z"
+    }
+  ]
+}

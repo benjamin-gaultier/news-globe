@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DE",
   "countryName": "Germany",
-  "updatedAt": "2026-10-06T12:44:26.411Z",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
   "clusters": [
     {
       "id": "j1PnLPD2nIDH",
@@ -97,7 +97,7 @@
           "url": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-landtagspraesident-tobias-rausch-li.3556472",
           "canonicalUrl": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-landtagspraesident-tobias-rausch-li.3556472",
           "title": "Liveblog Sachsen-Anhalt: Tobias Rausch zum ersten AfD-Landtagspräsidenten gewählt",
-          "description": "Der 35-Jährige erhält 48 von 82 abgegebenen Stimmen und damit vier mehr, als AfD und BSW zusammen haben. In der Sitzung provoziert AfD-Spitzenkandidat Ulrich Siegmund mit einer Botschaft auf seiner Tasse.",
+          "description": "Der 35-Jährige erhält 48 von 82 abgegebenen Stimmen und damit vier mehr, als AfD und BSW zusammen haben. In der Sitzung provoziert AfD-Fraktionschef Ulrich Siegmund mit einer Botschaft auf seiner Tasse.",
           "source": {
             "id": "sz",
             "name": "Süddeutsche Zeitung"
@@ -284,6 +284,48 @@
       "latestPublishedAt": "2026-10-06T03:25:07.000Z"
     },
     {
+      "id": "6Qr8vJmXLwez",
+      "representative": {
+        "id": "6Qr8vJmXLwez",
+        "url": "https://www.sueddeutsche.de/politik/schwarzes-meer-frachter-nach-drohnenangriff-vor-bulgarien-gesunken-li.3559390",
+        "canonicalUrl": "https://www.sueddeutsche.de/politik/schwarzes-meer-frachter-nach-drohnenangriff-vor-bulgarien-gesunken-li.3559390",
+        "title": "Schwarzes Meer: Frachter nach Drohnenangriff vor Bulgarien gesunken",
+        "description": null,
+        "source": {
+          "id": "sz",
+          "name": "Süddeutsche Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:19:24.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "9bny_68TqmEh",
+          "url": "https://www.n-tv.de/politik/Drohnen-treffen-zwei-Frachter-vor-Bulgarien-im-Schwarzen-Meer-id31387397.html",
+          "canonicalUrl": "https://www.n-tv.de/politik/Drohnen-treffen-zwei-Frachter-vor-Bulgarien-im-Schwarzen-Meer-id31387397.html",
+          "title": "Besatzung vermisst: Drohnen treffen zwei Frachter vor Bulgarien im Schwarzen Meer",
+          "description": "Die Explosion ist von einer Fähre aus zu sehen. Vor der bulgarischen Küste im Schwarzen Meer treffen Drohnen zwei Handelsschiffe - eines von ihnen sinkt. Noch ist vieles unklar, in Bulgarien herrscht Empörung.",
+          "source": {
+            "id": "ntv",
+            "name": "n-tv"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T13:02:08.000Z",
+          "imageUrl": "https://www.n-tv.de/img/31387287/1791293520/Img_4_3/250/2026-10-06T094436Z_1242540938_RC2LXNANQ4TT_RTRMADP_3_BULGARIA-INCIDENT.jpg",
+          "countryCode": "DE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:02:08.000Z"
+    },
+    {
       "id": "1tsah8b14zAG",
       "representative": {
         "id": "1tsah8b14zAG",
@@ -452,6 +494,126 @@
       "latestPublishedAt": "2026-10-05T19:39:18.000Z"
     },
     {
+      "id": "CH0MsLKmXIoM",
+      "representative": {
+        "id": "CH0MsLKmXIoM",
+        "url": "https://www.welt.de/politik/deutschland/video6ac4ee546a0860be6e2083b4/erster-afd-landtagspraesident-es-ist-kein-beinbruch-fuer-die-demokratie-und-fuer-den-parlamentarismus.html",
+        "canonicalUrl": "https://www.welt.de/politik/deutschland/video6ac4ee546a0860be6e2083b4/erster-afd-landtagspraesident-es-ist-kein-beinbruch-fuer-die-demokratie-und-fuer-den-parlamentarismus.html",
+        "title": "„Es ist kein Beinbruch für die Demokratie und für den Parlamentarismus“",
+        "description": "FDP-Politiker Wolfgang Kubicki hält die Wahl des AfD-Politikers Tobias Rausch zum Landtagspräsidenten in Sachsen-Anhalt für die „richtige Entscheidung“. Alle Alternativen hätten das Ergebnis der Landtagswahl auf den Kopf gestellt.",
+        "source": {
+          "id": "welt",
+          "name": "WELT"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:00:59.000Z",
+        "imageUrl": "https://images.welt.de/6ac4ee546a0860be6e2083b4/13173bf811fb99caf36f0d575b271f72/ci16x9-w1200/dpa-com-260921-936-99486-jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:59.000Z"
+    },
+    {
+      "id": "-1n9od8Uw_KP",
+      "representative": {
+        "id": "-1n9od8Uw_KP",
+        "url": "https://www.n-tv.de/politik/Der-AfD-gelingt-Doppelsieg-in-Runde-eins-id31385744.html",
+        "canonicalUrl": "https://www.n-tv.de/politik/Der-AfD-gelingt-Doppelsieg-in-Runde-eins-id31385744.html",
+        "title": "AfD-Mann ist Landtagspräsident: Der AfD gelingt Doppelsieg in Runde eins",
+        "description": "Die erste Sitzung des neuen Landtags von Sachsen-Anhalt gerät zum Triumph für die AfD. Nicht nur stellt sie mit Tobias Rausch erstmals einen Landtagspräsidenten, ihr Anführer Ulrich Siegmund darf sich dem Amt des Ministerpräsidenten auch näher denn je fühlen. Regierungschef Schulze erfährt eine…",
+        "source": {
+          "id": "ntv",
+          "name": "n-tv"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:56:48.000Z",
+        "imageUrl": "https://www.n-tv.de/img/31387942/1791298848/Img_4_3/250/623547856.jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:56:48.000Z"
+    },
+    {
+      "id": "hc-Do-HnoZFm",
+      "representative": {
+        "id": "hc-Do-HnoZFm",
+        "url": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
+        "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
+        "title": "Landtag von Sachsen-Anhalt: SPD, Grüne und Linke kritisieren Wahl von Rausch",
+        "description": "Die Wahl von Tobias Rausch zum Präsidenten löst in der Bundespolitik Empörung aus. Die Grünen vermuten Abweichler bei der CDU und kritisieren das BSW. Das Liveblog",
+        "source": {
+          "id": "zeit",
+          "name": "ZEIT ONLINE"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:53:59.000Z",
+        "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/germany-politics-vote-state-parliament-bild/original__640x360",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:53:59.000Z"
+    },
+    {
+      "id": "Y3sYQlXxD87Q",
+      "representative": {
+        "id": "Y3sYQlXxD87Q",
+        "url": "https://www.welt.de/politik/deutschland/plus6ac3572a95c283447e8628cc/bildungskrise-diese-zahlen-offenbaren-wo-es-bei-der-bildung-in-den-kitas-hapert.html",
+        "canonicalUrl": "https://www.welt.de/politik/deutschland/plus6ac3572a95c283447e8628cc/bildungskrise-diese-zahlen-offenbaren-wo-es-bei-der-bildung-in-den-kitas-hapert.html",
+        "title": "Diese Zahlen offenbaren, wo es bei der Bildung in den Kitas hapert",
+        "description": "Jeder Vierte findet, dass die Kitas in Deutschland nicht gut auf die Schule vorbereiten. Das zeigt eine Studie des Ifo‑Instituts. Fast die Hälfte der Bevölkerung will nicht, dass Familien mit Migrationshintergrund bei der Platzvergabe bevorzugt werden.",
+        "source": {
+          "id": "welt",
+          "name": "WELT"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:52:00.000Z",
+        "imageUrl": "https://images.welt.de/6ac3572a95c283447e8628cc/c7f82731f19917cb699cb9724bbedf4f-master/ci23x11-w1200/gettyimages-2271349842-jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:52:00.000Z"
+    },
+    {
+      "id": "FZyxa67nn-SG",
+      "representative": {
+        "id": "FZyxa67nn-SG",
+        "url": "https://www.sueddeutsche.de/projekte/artikel/politik/wirtschaftsministerin-reiche-interview-erneuerbare-innovation-e899175/",
+        "canonicalUrl": "https://www.sueddeutsche.de/projekte/artikel/politik/wirtschaftsministerin-reiche-interview-erneuerbare-innovation-e899175/",
+        "title": "Wirtschaftsministerin: „Wir müssen wieder gewinnen wollen“",
+        "description": "Die Deutschen, findet Bundeswirtschaftsministerin Katherina Reiche, reden Erfolge gern kaputt. Ein Gespräch über Aufbruch, die Kosten des kommenden Winters – und das Trainertalent des Kanzlers.",
+        "source": {
+          "id": "sz",
+          "name": "Süddeutsche Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:49:00.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/914ea95e-a62d-49f3-bb6f-dc91795080ab.jpg?rect=222%2C0%2C3556%2C2667&width=1000&fm=jpg&q=60",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:49:00.000Z"
+    },
+    {
       "id": "UmCpEhQKcfSb",
       "representative": {
         "id": "UmCpEhQKcfSb",
@@ -498,150 +660,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:38:16.000Z"
-    },
-    {
-      "id": "sYC1iKVabEDP",
-      "representative": {
-        "id": "sYC1iKVabEDP",
-        "url": "https://www.spiegel.de/politik/deutschland/nicht-invasiver-praenataltest-abgeordnete-von-union-spd-gruenen-und-linken-streiten-ueber-kassenleistung-a-43d790db-8a2c-47e6-8b9a-a970917e9ae3#ref=rss",
-        "canonicalUrl": "https://www.spiegel.de/politik/deutschland/nicht-invasiver-praenataltest-abgeordnete-von-union-spd-gruenen-und-linken-streiten-ueber-kassenleistung-a-43d790db-8a2c-47e6-8b9a-a970917e9ae3",
-        "title": "Nicht-invasiver Pränataltest: Abgeordnete von Union, SPD, Grünen und Linken streiten über Kassenleistung",
-        "description": "Welche Auswirkungen hat der nicht-invasive Pränataltest? Abgeordnete von Union, SPD, Grünen und Linken streiten, ob Schwangere den Test zu oft machen und die Krankenkasse ihn nicht mehr bezahlen soll.",
-        "source": {
-          "id": "spiegel",
-          "name": "DER SPIEGEL"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:33:00.000Z",
-        "imageUrl": "https://cdn.prod.www.spiegel.de/images/735e82ce-881d-4b4c-89bf-b160f3deac93_w520_r2.08_fpx53.32_fpy50.jpg",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:33:00.000Z"
-    },
-    {
-      "id": "W_ec6T80qZi4",
-      "representative": {
-        "id": "W_ec6T80qZi4",
-        "url": "https://www.welt.de/politik/deutschland/article6ac4d1c2967e8c06339d291a/ex-bnd-chef-august-hanning-schlimme-und-abgruendige-vorwuerfe-reaktionen-zur-festnahme.html",
-        "canonicalUrl": "https://www.welt.de/politik/deutschland/article6ac4d1c2967e8c06339d291a/ex-bnd-chef-august-hanning-schlimme-und-abgruendige-vorwuerfe-reaktionen-zur-festnahme.html",
-        "title": "„Schlimme und abgründige Vorwürfe“ – Grüne fordern nach Festnahme von Ex-BND-Chef Aufklärung",
-        "description": "Die Spionagevorwürfe gegen Ex-BND-Chef Hanning lösen eine Debatte um die Lobby-Tätigkeiten ehemaliger Spitzenbeamter aus. Die Linke geht noch weiter: Die deutschen Geheimdienste seien womöglich ein Sicherheitsrisiko.",
-        "source": {
-          "id": "welt",
-          "name": "WELT"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:32:06.000Z",
-        "imageUrl": "https://images.welt.de/6ac4d1c2967e8c06339d291a/d1656576f0c5a8e2a2bbba4b4a658109/ci23x11-w1200/dpa-com-261006-936-112349-jpg",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:32:06.000Z"
-    },
-    {
-      "id": "ZJ_BY-6wiWYp",
-      "representative": {
-        "id": "ZJ_BY-6wiWYp",
-        "url": "https://www.sueddeutsche.de/projekte/artikel/politik/schueleproteste-frankreich-e348907/",
-        "canonicalUrl": "https://www.sueddeutsche.de/projekte/artikel/politik/schueleproteste-frankreich-e348907/",
-        "title": "Frankreich: Schüler auf der Straße",
-        "description": "Blockaden, Tränengas, verletzte Jugendliche: Aufnahmen zeigen die Konfrontationen zwischen Demonstrierenden und Polizei.",
-        "source": {
-          "id": "sz",
-          "name": "Süddeutsche Zeitung"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:31:00.000Z",
-        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/77e4f159-a1ca-4331-b776-309c9800b257.jpg?rect=193%2C0%2C3556%2C2667&width=1000&fm=jpg&q=60",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:31:00.000Z"
-    },
-    {
-      "id": "KCDI8UIR7AVg",
-      "representative": {
-        "id": "KCDI8UIR7AVg",
-        "url": "https://www.welt.de/politik/deutschland/article6ac4d6bd321809b09dd07cc7/berlin-ueber-12-000-verfahren-zum-nahost-konflikt-ermittler-suchen-viele-taeter-vergeblich.html",
-        "canonicalUrl": "https://www.welt.de/politik/deutschland/article6ac4d6bd321809b09dd07cc7/berlin-ueber-12-000-verfahren-zum-nahost-konflikt-ermittler-suchen-viele-taeter-vergeblich.html",
-        "title": "Mehr als 12.000 Verfahren zum Nahost-Konflikt in Berlin – Ermittler suchen viele Täter vergeblich",
-        "description": "Verbotene Symbole, Volksverhetzung, Bedrohungen und Angriffe auf Polizisten: Tausende Strafverfahren mit Nahost-Bezug hat die Berliner Staatsanwaltschaft seit dem Hamas-Angriff erfasst.",
-        "source": {
-          "id": "welt",
-          "name": "WELT"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:25:02.000Z",
-        "imageUrl": "https://images.welt.de/6ac4d6bd321809b09dd07cc7/34c032f13421b03fc178792ce7809c97-master/ci23x11-w1200/dpa-com-261006-935-1657968-jpg",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:25:02.000Z"
-    },
-    {
-      "id": "T-2z4WV2yk9J",
-      "representative": {
-        "id": "T-2z4WV2yk9J",
-        "url": "https://www.welt.de/politik/deutschland/video6ac4e20a321809b09dd07de1/ex-bnd-chef-hanning-verhaftet-wir-zahlen-jetzt-die-zeche-fuer-zwanzig-dreissig-jahre-naivitaet.html",
-        "canonicalUrl": "https://www.welt.de/politik/deutschland/video6ac4e20a321809b09dd07de1/ex-bnd-chef-hanning-verhaftet-wir-zahlen-jetzt-die-zeche-fuer-zwanzig-dreissig-jahre-naivitaet.html",
-        "title": "„Wir zahlen jetzt die Zeche für zwanzig, dreißig Jahre Naivität“",
-        "description": "Nach der Festnahme von Ex-BND-Chef August Hanning wegen Spionageverdachts fordert der Vorsitzende des Parlamentarischen Kontrollgremiums, Marc Henrichmann (CDU), eine offensive Verfolgung des Falls: „Wir lassen uns Informationsabfluss nicht gefallen.“",
-        "source": {
-          "id": "welt",
-          "name": "WELT"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:22:04.000Z",
-        "imageUrl": "https://images.welt.de/6ac4e20a321809b09dd07de1/0d948b63b343983aea2a4b28efef691b/ci16x9-w1200/dpa-com-261006-99-869006-jpg",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:22:04.000Z"
-    },
-    {
-      "id": "6Qr8vJmXLwez",
-      "representative": {
-        "id": "6Qr8vJmXLwez",
-        "url": "https://www.sueddeutsche.de/politik/schwarzes-meer-frachter-nach-drohnenangriff-vor-bulgarien-gesunken-li.3559390",
-        "canonicalUrl": "https://www.sueddeutsche.de/politik/schwarzes-meer-frachter-nach-drohnenangriff-vor-bulgarien-gesunken-li.3559390",
-        "title": "Schwarzes Meer: Frachter nach Drohnenangriff vor Bulgarien gesunken",
-        "description": null,
-        "source": {
-          "id": "sz",
-          "name": "Süddeutsche Zeitung"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:19:24.000Z",
-        "imageUrl": null,
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:19:24.000Z"
     }
   ]
 }

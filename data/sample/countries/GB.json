@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T12:44:26.411Z",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
   "clusters": [
     {
       "id": "ThA_onaMV0Kf",
@@ -11,19 +11,36 @@
         "url": "https://www.theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
         "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
         "title": "British man arrested over suspected RAF Fairford terrorism plot",
-        "description": "Counter Terrorism Policing says 22-year-old arrested in London on suspicion of terrorism offences A 22-year-old British man has been arrested in London on suspicion of terrorism offences related to the suspected RAF Fairford terrorism plot, Counter Terrorism Policing said. More details soon ……",
+        "description": "Counter-terrorism policing says 22-year-old detained in London on suspicion of terrorism offences A seventh man has been arrested in London on suspicion of terrorism offences related to the suspected RAF Fairford terrorism plot, police have said. The 22-year-old British national was arrested in…",
         "source": {
           "id": "guardian",
           "name": "The Guardian"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T12:26:53.000Z",
+        "publishedAt": "2026-10-06T12:52:44.000Z",
         "imageUrl": "https://i.guim.co.uk/img/media/6ca240b08d8926f9887a3558ca6dfd664706da50/1272_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=66b635569abd0aa816f61766885d1a33",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [
+        {
+          "id": "EPznTMbRQGDL",
+          "url": "https://www.standard.co.uk/news/london/raf-fairford-arrest-seventh-man-donald-trump-terror-iran-b1299730.html",
+          "canonicalUrl": "https://www.standard.co.uk/news/london/raf-fairford-arrest-seventh-man-donald-trump-terror-iran-b1299730.html",
+          "title": "Seventh man arrested in London over RAF Fairford 'attack plot' as mystery deepens over Iran links",
+          "description": "Donald Trump has criticised the UK authorities over the bailing of suspects detained over the incident",
+          "source": {
+            "id": "standard",
+            "name": "Evening Standard"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:54:38.000Z",
+          "imageUrl": "https://static.standard.co.uk/2026/10/06/13/01M465GVV4ABBYP0WD0T20K1B9.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        },
         {
           "id": "iC09h76B8OiX",
           "url": "https://www.independent.co.uk/news/uk/crime/raf-fairford-arrest-terror-offences-london-b3062122.html",
@@ -36,7 +53,7 @@
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-06T12:32:39.000Z",
+          "publishedAt": "2026-10-06T12:44:24.000Z",
           "imageUrl": "https://static.independent.co.uk/2026/10/05/14/2026-10-04T211151Z_853467629_RC28SNA4H0MR_RTRMADP_3_BRITAIN-USA-FAIRFORD.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
           "countryCode": "GB",
           "regionCode": null
@@ -57,28 +74,11 @@
           "imageUrl": "https://i2-prod.dailystar.co.uk/incoming/article37738902.ece/ALTERNATES/s615/0_US-Bombers-Depart-RAF-Fairford-For-Home.jpg",
           "countryCode": "GB",
           "regionCode": null
-        },
-        {
-          "id": "S88RoOrMjHaZ",
-          "url": "https://www.standard.co.uk/news/uk/westminster-british-london-gloucestershire-raf-b1299731.html",
-          "canonicalUrl": "https://www.standard.co.uk/news/uk/westminster-british-london-gloucestershire-raf-b1299731.html",
-          "title": "Seventh man arrested by counter-terrorism police in RAF Fairford investigation",
-          "description": "Officers said they are continuing to look at multiple lines of inquiry as they investigate the suspected terror plot.",
-          "source": {
-            "id": "standard",
-            "name": "Evening Standard"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:25:30.000Z",
-          "imageUrl": "https://static.standard.co.uk/2026/10/06/13/e521965cdc9b648eed989efb023836a9Y29udGVudHNlYXJjaGFwaSwxNzkxMzc1ODEw-2.86002415.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
         }
       ],
       "outletCount24h": 4,
       "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:32:39.000Z"
+      "latestPublishedAt": "2026-10-06T12:54:38.000Z"
     },
     {
       "id": "rGUNBDm5Qeyw",
@@ -460,6 +460,48 @@
       "latestPublishedAt": "2026-10-06T12:16:48.000Z"
     },
     {
+      "id": "QmSfIZ-A6Y8f",
+      "representative": {
+        "id": "QmSfIZ-A6Y8f",
+        "url": "https://www.bbc.co.uk/news/articles/cwe8ldgzj277o?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cwe8ldgzj277o",
+        "title": "One million UK people who have never smoked are now vaping",
+        "description": "Latest statistics also show, for the second year in a row, more over-16s vape than smoke.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:09:28.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a98/live/87590fc0-c163-11f1-ae7b-cfc528a6c828.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "YMSQ7H_Dj0NS",
+          "url": "https://news.sky.com/story/one-million-people-who-have-never-smoked-are-now-vaping-13595762",
+          "canonicalUrl": "https://news.sky.com/story/one-million-people-who-have-never-smoked-are-now-vaping-13595762",
+          "title": "One million people who have never smoked now vaping",
+          "description": "More than a million people who have never tried a cigarette are now vaping, new figures suggest.",
+          "source": {
+            "id": "sky",
+            "name": "Sky News"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:56:00.000Z",
+          "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-vape-smoking_7369651.jpg?20261006132142",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:56:00.000Z"
+    },
+    {
       "id": "3DN_j3ZKmyAr",
       "representative": {
         "id": "3DN_j3ZKmyAr",
@@ -668,48 +710,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T11:18:38.000Z"
-    },
-    {
-      "id": "sSCTeZjSWNxR",
-      "representative": {
-        "id": "sSCTeZjSWNxR",
-        "url": "https://news.sky.com/story/tate-brothers-exploited-women-using-lover-boy-model-uk-alleges-13595592",
-        "canonicalUrl": "https://news.sky.com/story/tate-brothers-exploited-women-using-lover-boy-model-uk-alleges-13595592",
-        "title": "Tate brothers exploited women using 'lover boy' model, UK alleges",
-        "description": "Andrew and Tristan Tate used a \"lover boy\" model to attract and then exploit women, according to British authorities in court documents made public in the US.",
-        "source": {
-          "id": "sky",
-          "name": "Sky News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T01:02:00.000Z",
-        "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-tristan-tate-andrew-tate_7333351.jpg?20260828084335",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "DG9j1vmozvjD",
-          "url": "https://www.independent.co.uk/news/uk/crime/andrew-tristan-tate-women-pornography-romania-court-documents-b3061814.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/andrew-tristan-tate-women-pornography-romania-court-documents-b3061814.html",
-          "title": "Tate brothers lured women with ‘lover boy’ tactic before coercing them into porn, court documents allege",
-          "description": "Andrew and Tristan Tate have not appeared in ‌a British court to formally answer to the charges they face, but have denied wrongdoing",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:43:00.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/05/22/2026-10-05T202035Z_2115922525_RC20IDA9HOZ2_RTRMADP_3_USA-TATE-BRITAIN.JPG?width=1200&auto=webp&trim=911%2C926%2C82%2C564",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:43:00.000Z"
     },
     {
       "id": "h1x0LUcQUbgN",

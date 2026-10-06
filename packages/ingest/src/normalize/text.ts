@@ -145,6 +145,24 @@ etti edildi eden etmek yapti yapildi yapilan aldi alindi verdi kimdir nedir
 operasyon operasyonu gozalti gozaltina gozaltinda tutuklandi tutuklama supheli`;
 
 // Format markers that say nothing about the story ("EN DIRECT", "LIVE UPDATES", "VIDEO", "LIVE-TICKER").
+// Japanese is matched on kanji bigrams and katakana words (see japaneseTokens), so
+// its stopwords are those units: news-site labels and the most generic bigrams.
+const STOPWORDS_JA = `
+速報 動画 写真 独自 中継 詳報 更新 解説 一覧 発表 記者 会見 午前 午後 今日 明日 昨日 去年 今年 来年
+ニュース ライブ まとめ
+`;
+
+// Calendar words in service headlines ("¿A qué hora juega…? hoy martes 6 de octubre",
+// "dólar blue hoy") merged unrelated Argentine stories on 2026-10-06.
+const CALENDAR_ES = `
+hoy ayer manana lunes martes miercoles jueves viernes sabado domingo enero febrero marzo abril
+mayo junio julio agosto septiembre setiembre octubre noviembre diciembre hora horas cuanto
+`;
+const CALENDAR_PT = `
+hoje ontem amanha segunda terca quarta quinta sexta sabado domingo feira janeiro fevereiro marco
+abril maio junho julho agosto setembro outubro novembro dezembro
+`;
+
 const BOILERPLATE = `direct live video videos photo photos watch updates update podcast replay liveblog ticker newsblog`;
 
 const wordSet = (...lists: string[]) => new Set(lists.flatMap((list) => list.split(/\s+/)).filter(Boolean));
@@ -158,11 +176,38 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   fr: STOPWORDS_FR_EN,
   en: STOPWORDS_FR_EN,
   de: wordSet(STOPWORDS_DE, STOPWORDS_EN, BOILERPLATE),
-  es: wordSet(STOPWORDS_ES, STOPWORDS_EN, BOILERPLATE),
+  es: wordSet(STOPWORDS_ES, CALENDAR_ES, STOPWORDS_EN, BOILERPLATE),
   it: wordSet(STOPWORDS_IT, STOPWORDS_EN, BOILERPLATE),
-  pt: wordSet(STOPWORDS_PT, STOPWORDS_EN, BOILERPLATE),
+  pt: wordSet(STOPWORDS_PT, CALENDAR_PT, STOPWORDS_EN, BOILERPLATE),
   tr: wordSet(STOPWORDS_TR, STOPWORDS_EN, BOILERPLATE),
+  ja: wordSet(STOPWORDS_JA, STOPWORDS_EN, BOILERPLATE),
 };
+
+const HAN = /\p{Script=Han}/u;
+const KANA_OR_HAN = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}ー]/u;
+
+/**
+ * Japanese has no spaces between words, so a title is cut into script runs:
+ * kanji runs become overlapping bigrams (石破首相 → 石破, 破首, 首相), katakana
+ * runs stay whole (loanwords and foreign names), hiragana runs (particles,
+ * verb endings) are dropped, and Latin/digit runs are kept as words. Dakuten
+ * are kept (NFKC, not foldText's NFD + mark stripping), so バス ≠ パス.
+ */
+function japaneseTokens(title: string): string[] {
+  const text = title.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ');
+  const out: string[] = [];
+  const runs = /\p{Script=Han}+|[\p{Script=Katakana}ー]+|\p{Script=Hiragana}+|[^\s\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}ー]+/gu;
+  for (const [run] of text.matchAll(runs)) {
+    if (HAN.test(run)) {
+      for (let i = 0; i + 1 < run.length; i++) out.push(run.slice(i, i + 2));
+    } else if (/^[\p{Script=Katakana}ー]+$/u.test(run)) {
+      if (run.length >= 2) out.push(run);
+    } else if (!KANA_OR_HAN.test(run)) {
+      out.push(...foldText(run).split(' '));
+    }
+  }
+  return out;
+}
 
 /**
  * Crude suffix folding, not real stemming: drops a plural s/x, then a final
@@ -182,7 +227,8 @@ export function stem(token: string, language?: string): string {
 export function titleTokens(title: string, language?: string): Set<string> {
   const stopwords = (language && STOPWORDS_BY_LANGUAGE[language]) || STOPWORDS_FR_EN;
   const tokens = new Set<string>();
-  for (const raw of foldText(title).split(' ')) {
+  const words = language === 'ja' ? japaneseTokens(title) : foldText(title).split(' ');
+  for (const raw of words) {
     if (!raw || stopwords.has(raw)) continue;
     if (raw.length < 2 && !/\d/.test(raw)) continue;
     tokens.add(stem(raw, language));

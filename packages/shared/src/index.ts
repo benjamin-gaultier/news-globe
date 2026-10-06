@@ -106,4 +106,10 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   AU: { code: 'AU', name: 'Australia', lat: -26, lng: 134, altitude: 2.0 },
   IN: { code: 'IN', name: 'India', lat: 22, lng: 79, altitude: 1.9 },
   MX: { code: 'MX', name: 'Mexico', lat: 23.6, lng: -102.5, altitude: 1.7 },
+  JP: { code: 'JP', name: 'Japan', lat: 36.5, lng: 138, altitude: 1.5 },
+  IE: { code: 'IE', name: 'Ireland', lat: 53.4, lng: -8, altitude: 1.0 },
+  ZA: { code: 'ZA', name: 'South Africa', lat: -29, lng: 25, altitude: 1.5 },
+  NZ: { code: 'NZ', name: 'New Zealand', lat: -41, lng: 173, altitude: 1.3 },
+  AR: { code: 'AR', name: 'Argentina', lat: -36, lng: -64, altitude: 2.0 },
+  PT: { code: 'PT', name: 'Portugal', lat: 39.6, lng: -8.2, altitude: 1.1 },
 };

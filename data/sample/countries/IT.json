@@ -2,28 +2,62 @@
   "schemaVersion": 1,
   "countryCode": "IT",
   "countryName": "Italy",
-  "updatedAt": "2026-10-06T12:44:26.411Z",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
   "clusters": [
     {
-      "id": "7VAJy-PSHyg7",
+      "id": "JjekBcF_1Kfk",
       "representative": {
-        "id": "7VAJy-PSHyg7",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/05/il-governo-pone-la-fiducia-sugli-articoli-1-2-3-della-legge-elettorale_72f11e68-9571-4369-b4e3-aa0adcc85cdf.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/politica/2026/10/05/il-governo-pone-la-fiducia-sugli-articoli-1-2-3-della-legge-elettorale_72f11e68-9571-4369-b4e3-aa0adcc85cdf.html",
-        "title": "Il governo pone la fiducia sugli articoli 1-2-3 della legge elettorale",
-        "description": "L'ha chiesta il ministro per i rapporti con il Parlamento, Luca Ciriani",
+        "id": "JjekBcF_1Kfk",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/05/legge-elettorale-al-rush-finale-alla-camera-scontro-sulla-fiducia_178a8334-9b18-4417-881d-e05ab7c1a5fa.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/politica/2026/10/05/legge-elettorale-al-rush-finale-alla-camera-scontro-sulla-fiducia_178a8334-9b18-4417-881d-e05ab7c1a5fa.html",
+        "title": "Legge elettorale al rush finale alla Camera, scontro sulla fiducia",
+        "description": "Il meccanismo per blindare il voto. Le opposizioni: 'Schiaffo al Parlamento'. Magi scrive al Colle",
         "source": {
           "id": "ansa",
           "name": "ANSA"
         },
         "sourceCountry": "IT",
         "language": "it",
-        "publishedAt": "2026-10-05T12:16:01.000Z",
+        "publishedAt": "2026-10-05T17:58:36.000Z",
         "imageUrl": null,
         "countryCode": "IT",
         "regionCode": null
       },
       "related": [
+        {
+          "id": "gkmO7CWom7Um",
+          "url": "https://www.repubblica.it/politica/2026/10/06/news/legge_elettorale_voto_fiducia_camera-425629282/?rss",
+          "canonicalUrl": "https://www.repubblica.it/politica/2026/10/06/news/legge_elettorale_voto_fiducia_camera-425629282/?rss=",
+          "title": "Legge elettorale, approvata fiducia all’articolo 1. Romeo: “Urne anticipate? Solo dopo l'autonomia”",
+          "description": "Giovedì l’approvazione finale del provvedimento a scrutinio segreto, centrodestra in agitazione. Le opposizioni contrarie e appello alle deputate della maggioranza: “Così avremo un Parlamento mascolinizzato”",
+          "source": {
+            "id": "repubblica",
+            "name": "la Repubblica"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T12:57:24.000Z",
+          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/06/133249307-038547b5-6eb9-4971-89bd-67b4d060e782.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        },
+        {
+          "id": "6_kZUbAg6pYx",
+          "url": "https://www.ilsole24ore.com/art/legge-elettorale-ok-camera-fiducia-sull-articolo-1-AJgbkraB",
+          "canonicalUrl": "https://www.ilsole24ore.com/art/legge-elettorale-ok-camera-fiducia-sull-articolo-1-AJgbkraB",
+          "title": "Legge elettorale, ok della Camera alla fiducia sull’articolo 1",
+          "description": "L’Aula di Montecitorio ha approvato con 226 voti a favore e 147 contrari la fiducia posta dal governo sull’articolo 1 della legge elettorale. Tre gli astenuti. L’articolo, tra le altre...",
+          "source": {
+            "id": "sole24ore",
+            "name": "Il Sole 24 Ore"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T12:55:54.000Z",
+          "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/07/Immagini/Ritagli/cameramit-U05572070321TIz-1440x752@IlSole24Ore-Web.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        },
         {
           "id": "0-lX7LEzr0Dp",
           "url": "https://tg24.sky.it/politica/2026/10/06/nuova-legge-elettorale-camera-oggi",
@@ -42,43 +76,26 @@
           "regionCode": null
         },
         {
-          "id": "gkmO7CWom7Um",
-          "url": "https://www.repubblica.it/politica/2026/10/06/news/legge_elettorale_voto_fiducia_camera-425629282/?rss",
-          "canonicalUrl": "https://www.repubblica.it/politica/2026/10/06/news/legge_elettorale_voto_fiducia_camera-425629282/?rss=",
-          "title": "Legge elettorale, si vota la fiducia alla Camera. Romeo: “Urne anticipate? Solo dopo l'autonomia”",
-          "description": "Giovedì l’approvazione finale del provvedimento a scrutinio segreto, centrodestra in agitazione. Le opposizioni contrarie e appello alle deputate della maggioranza: “Così avremo un Parlamento mascolinizzato”",
-          "source": {
-            "id": "repubblica",
-            "name": "la Repubblica"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-06T11:37:00.000Z",
-          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/06/133249307-038547b5-6eb9-4971-89bd-67b4d060e782.jpg",
-          "countryCode": "IT",
-          "regionCode": null
-        },
-        {
-          "id": "EYSHif8k75ru",
-          "url": "https://www.rainews.it/maratona/2026/10/legge-elettorale-governo-pone-fiducia-sui-primi-3-articoli-giovedi-voto-finale-a-scrutinio-segreto-d02672c6-dee8-4d7a-8a73-13497b30c629.html",
-          "canonicalUrl": "https://www.rainews.it/maratona/2026/10/legge-elettorale-governo-pone-fiducia-sui-primi-3-articoli-giovedi-voto-finale-a-scrutinio-segreto-d02672c6-dee8-4d7a-8a73-13497b30c629.html",
-          "title": "DIRETTA - Legge elettorale, alla Camera il governo pone la fiducia sui primi 3 articoli",
-          "description": "Giovedì voto finale a scrutinio segreto. Le opposizioni: schiaffo al Parlamento, la maggioranza ha paura. Donzelli: \"Se il governo va sotto, Meloni sale al Colle\". Ipotesi voto anticipato a maggio",
+          "id": "LBKKYB6lYoDK",
+          "url": "https://www.rainews.it/articoli/2026/10/legge-elettorale-il-governo-pone-la-fiducia-sui-primi-3-articoli-il-calendario-delle-votazioni-566ca898-895c-48d9-9a42-982bb742d314.html",
+          "canonicalUrl": "https://www.rainews.it/articoli/2026/10/legge-elettorale-il-governo-pone-la-fiducia-sui-primi-3-articoli-il-calendario-delle-votazioni-566ca898-895c-48d9-9a42-982bb742d314.html",
+          "title": "Legge elettorale, il governo pone la fiducia sui primi 3 articoli. Il calendario delle votazioni",
+          "description": "Si comincia oggi dalle 12. Voto finale giovedì, in tarda mattinata. Le opposizioni: schiaffo al Parlamento, la maggioranza ha paura. Donzelli: \"Se il governo va sotto, Meloni sale al Colle\"",
           "source": {
             "id": "rainews",
             "name": "RaiNews"
           },
           "sourceCountry": "IT",
           "language": "it",
-          "publishedAt": "2026-10-06T10:43:00.000Z",
-          "imageUrl": "https://www.rainews.it/dl/img/2026/10/01/1790854460455_rainewsfeeabfacfccbadf.jpg",
+          "publishedAt": "2026-10-06T05:12:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2021/12/27/1640599142736_Immagine__.png",
           "countryCode": "IT",
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T12:57:24.000Z"
     },
     {
       "id": "KbM4nGd0UOa2",
@@ -573,7 +590,7 @@
         },
         "sourceCountry": "IT",
         "language": "it",
-        "publishedAt": "2026-10-06T12:39:38.000Z",
+        "publishedAt": "2026-10-06T12:57:24.000Z",
         "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/06/125146479-ed03dc91-a853-466e-953f-a96226de6149.jpg",
         "countryCode": "IT",
         "regionCode": null
@@ -581,23 +598,23 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:39:38.000Z"
+      "latestPublishedAt": "2026-10-06T12:57:24.000Z"
     },
     {
-      "id": "OhpSDjG-X_kc",
+      "id": "1JAyfr372Ahn",
       "representative": {
-        "id": "OhpSDjG-X_kc",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/cade-da-una-impalcatura-a-rimini-operaio-muore-in-ospedale_21349845-7d8e-4133-a994-d4737e02bd72.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/cade-da-una-impalcatura-a-rimini-operaio-muore-in-ospedale_21349845-7d8e-4133-a994-d4737e02bd72.html",
-        "title": "Cade da una impalcatura a Rimini, operaio muore in ospedale",
-        "description": "Sindaco, 'profondo cordoglio, morti bianche una piaga inaccettabile'",
+        "id": "1JAyfr372Ahn",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/morte-di-davis-rossi-il-fratello-suicidio-non-ci-avrebbe-mai-salutato-cosi_0f622011-5447-4d26-949e-c856a2e1c428.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/morte-di-davis-rossi-il-fratello-suicidio-non-ci-avrebbe-mai-salutato-cosi_0f622011-5447-4d26-949e-c856a2e1c428.html",
+        "title": "Morte di Davis Rossi, il fratello: 'Suicidio? Non ci avrebbe mai salutato così'",
+        "description": "'Le indagini sono state fatte male'",
         "source": {
           "id": "ansa",
           "name": "ANSA"
         },
         "sourceCountry": "IT",
         "language": "it",
-        "publishedAt": "2026-10-06T12:19:42.000Z",
+        "publishedAt": "2026-10-06T12:51:09.000Z",
         "imageUrl": null,
         "countryCode": "IT",
         "regionCode": null
@@ -605,23 +622,23 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:19:42.000Z"
+      "latestPublishedAt": "2026-10-06T12:51:09.000Z"
     },
     {
-      "id": "_1oseAo9C1s4",
+      "id": "T657OKEOVyql",
       "representative": {
-        "id": "_1oseAo9C1s4",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/muore-dopo-essere-stato-investito-da-un-bus-a-piombino_ffcd54df-b18d-4d0e-9c4d-20bba8889fdb.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/muore-dopo-essere-stato-investito-da-un-bus-a-piombino_ffcd54df-b18d-4d0e-9c4d-20bba8889fdb.html",
-        "title": "Muore dopo essere stato investito da un bus a Piombino",
-        "description": "Vittima è un 89enne",
+        "id": "T657OKEOVyql",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/non-punibile-chi-circuisce-il-coniuge-incapace-consulta-boccia-la-legge_5a656cd2-3793-4bb2-b3c5-cad6f3f9eb21.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/non-punibile-chi-circuisce-il-coniuge-incapace-consulta-boccia-la-legge_5a656cd2-3793-4bb2-b3c5-cad6f3f9eb21.html",
+        "title": "Non punibile chi circuisce il coniuge incapace, Consulta boccia la legge",
+        "description": "'E' anacronistica, bilanciare la tutela della famiglia ed i diritti dei singoli'",
         "source": {
           "id": "ansa",
           "name": "ANSA"
         },
         "sourceCountry": "IT",
         "language": "it",
-        "publishedAt": "2026-10-06T12:18:05.000Z",
+        "publishedAt": "2026-10-06T12:50:37.000Z",
         "imageUrl": null,
         "countryCode": "IT",
         "regionCode": null
@@ -629,7 +646,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:18:05.000Z"
+      "latestPublishedAt": "2026-10-06T12:50:37.000Z"
     }
   ]
 }

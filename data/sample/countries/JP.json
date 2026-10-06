@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "JP",
+  "countryName": "Japan",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "clusters": [
+    {
+      "id": "kfM_yhuQB6tI",
+      "representative": {
+        "id": "kfM_yhuQB6tI",
+        "url": "http://www.asahi.com/articles/ASVB61W2FVB6UTFL02XM.html?ref=rss",
+        "canonicalUrl": "http://www.asahi.com/articles/ASVB61W2FVB6UTFL02XM.html",
+        "title": "ノーベル物理学賞に米大教授のハルツェン氏 南極でニュートリノ研究",
+        "description": null,
+        "source": {
+          "id": "asahi",
+          "name": "Asahi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T10:47:00.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "WJ34gdPXzWe_",
+          "url": "https://mainichi.jp/articles/20261006/k00/00m/040/308000c",
+          "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/040/308000c",
+          "title": "「知恵の結集」アイスキューブ 千葉大も参加 ノーベル物理学賞",
+          "description": null,
+          "source": {
+            "id": "mainichi",
+            "name": "Mainichi Shimbun"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T12:43:07.000Z",
+          "imageUrl": null,
+          "countryCode": "JP",
+          "regionCode": null
+        },
+        {
+          "id": "hy60fWd1Dpf8",
+          "url": "https://www.jiji.com/jc/article?k=2026100600984&g=soc&m=rss",
+          "canonicalUrl": "https://www.jiji.com/jc/article?g=soc&k=2026100600984&m=rss",
+          "title": "アイスキューブにノーベル賞 南極でニュートリノ観測―物理学賞、千葉大も参加",
+          "description": null,
+          "source": {
+            "id": "jiji",
+            "name": "Jiji Press"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T12:38:00.000Z",
+          "imageUrl": null,
+          "countryCode": "JP",
+          "regionCode": null
+        },
+        {
+          "id": "nkrQ9RV_zigA",
+          "url": "https://newsdig.tbs.co.jp/articles/-/2994081",
+          "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994081",
+          "title": "ノーベル物理学賞 米・ウィスコンシン大学フランシス・ハルツェン教授 素粒子「ニュートリノ」観測の国際プロジェクト「アイスキューブ実験」主導",
+          "description": "今年のノーベル物理学賞が発表され、南極の氷を活用したニュートリノの観測実験を主導し、宇宙から届く高エネルギーのニュートリノを発見したアメリカの大学の研究者が選ばれました。今年のノーベル物理学賞には、ベルギー出身でアメリカ・ウィスコンシン大学マディソン校の教授、フランシス・ハルツェン",
+          "source": {
+            "id": "tbs",
+            "name": "TBS News Dig"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T12:15:41.000Z",
+          "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/3/b/1200xm/img_3bb98faf6d46dd4f7ea360e7de38215d109470.jpg",
+          "countryCode": "JP",
+          "regionCode": null
+        },
+        {
+          "id": "Bn5KqUlRGvqR",
+          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-KVIIG3NOEBITTI7QZDUC5ZMC3Q/",
+          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-KVIIG3NOEBITTI7QZDUC5ZMC3Q/",
+          "title": "ノーベル物理学賞に米フランシス・ハルツェン教授 ニュートリノ観測、千葉大も研究参加",
+          "description": "スウェーデンの王立科学アカデミーは6日、2026年のノーベル物理学賞を米ウィスコンシン大マディソン校のフランシス・ハルツェン教授に授与すると発表した。南極で高エネルギーの素粒子ニュートリノを観測する国際共同研究「アイスキューブ」で、宇宙を飛び交う宇宙線の起源を初めて特定したことなどが評価された。研究には日本から千葉大の研究者も参加している。",
+          "source": {
+            "id": "sankei",
+            "name": "Sankei Shimbun"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T10:32:16.000Z",
+          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-KVIIG3NOEBITTI7QZDUC5ZMC3Q/None/resizer/sCmJGY6N4FqgfwOYYfNichRhD2A=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/TGNPQK7DENHNHHBC67EHJBUVHY.jpg",
+          "countryCode": "JP",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T12:43:07.000Z"
+    },
+    {
+      "id": "9RbC_clTL36S",
+      "representative": {
+        "id": "9RbC_clTL36S",
+        "url": "http://www.asahi.com/articles/ASVB63TJNVB6PIHB00XM.html?ref=rss",
+        "canonicalUrl": "http://www.asahi.com/articles/ASVB63TJNVB6PIHB00XM.html",
+        "title": "兵庫県がフリー記者に会見参加認めない方針伝える 斎藤知事の判断",
+        "description": null,
+        "source": {
+          "id": "asahi",
+          "name": "Asahi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:30:00.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "SH59Ai3fHZ6N",
+          "url": "https://mainichi.jp/articles/20261006/k00/00m/010/288000c",
+          "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/010/288000c",
+          "title": "兵庫県、知事会見にフリー記者の参加認めず 記者クラブ再考要求",
+          "description": null,
+          "source": {
+            "id": "mainichi",
+            "name": "Mainichi Shimbun"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T12:39:43.000Z",
+          "imageUrl": null,
+          "countryCode": "JP",
+          "regionCode": null
+        },
+        {
+          "id": "X2hmvZCJVdDg",
+          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-EUPKEL545ZLFJHFOSAKSWVLT3I/",
+          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-EUPKEL545ZLFJHFOSAKSWVLT3I/",
+          "title": "斎藤元彦知事に「人殺し」発言のフリー記者、兵庫県が定例記者会見参加認めない方針伝達",
+          "description": "兵庫県は6日、斎藤元彦知事の定例記者会見で不規則発言をしたフリーの男性記者に対し、7日の会見への参加を認めない方針を伝えたと明らかにした。男性記者は6月3日の会見で、斎藤氏に対し「人殺しやないか」などと発言した。県は理由について、斎藤氏の意向を踏まえ「状況を総合的に勘案した」とした。",
+          "source": {
+            "id": "sankei",
+            "name": "Sankei Shimbun"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T09:41:46.000Z",
+          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-EUPKEL545ZLFJHFOSAKSWVLT3I/None/resizer/oplWepjV7Nk9u8k1YWNNpcnDd8s=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/CUXHVKPR3RICVPUOKA6FR3YUA4.jpg",
+          "countryCode": "JP",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T12:39:43.000Z"
+    },
+    {
+      "id": "Ja5qDLzjUzmb",
+      "representative": {
+        "id": "Ja5qDLzjUzmb",
+        "url": "https://mainichi.jp/articles/20261006/k00/00m/010/296000c",
+        "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/010/296000c",
+        "title": "簗農相、国交省に予算配分問い合わせ 対立候補応援の2市町分",
+        "description": null,
+        "source": {
+          "id": "mainichi",
+          "name": "Mainichi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:31:36.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "uZBLXZwYb9sx",
+          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-BWA3VXPI3NOFRJUJVBFHAK5NAQ/",
+          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-BWA3VXPI3NOFRJUJVBFHAK5NAQ/",
+          "title": "簗氏の対立候補を支援した2市町の予算減額判明 国交省が調査公表、働きかけは確認されず",
+          "description": "国土交通省は6日、簗和生農林水産相が地元の衆院栃木3区内で自治体の道路予算を恣意（しい）的に削減したとの発言を巡り、調査結果を公表した。2月の衆院選で首長が簗氏の対立候補を支援した那須烏山市、那珂川町の2市町は配分額が減額されたことが判明した。ただ国交省は、簗氏から減額を求める働きかけは確認されておらず、配分額の決定は「総合的に勘案した結果」だと説明した。",
+          "source": {
+            "id": "sankei",
+            "name": "Sankei Shimbun"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T10:59:35.000Z",
+          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-BWA3VXPI3NOFRJUJVBFHAK5NAQ/None/resizer/u421ythUAZwrdslrhUDNF3CIS0k=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/4JF273WGWNP6JMICDCVWJJ7XKU.jpg",
+          "countryCode": "JP",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:31:36.000Z"
+    },
+    {
+      "id": "bhrlSNgPX_59",
+      "representative": {
+        "id": "bhrlSNgPX_59",
+        "url": "http://www.asahi.com/articles/ASVB62G5NVB6ULOB00LM.html?ref=rss",
+        "canonicalUrl": "http://www.asahi.com/articles/ASVB62G5NVB6ULOB00LM.html",
+        "title": "2歳児が車にはねられ死亡 駐車場出る際に衝突か 神奈川県鎌倉市",
+        "description": null,
+        "source": {
+          "id": "asahi",
+          "name": "Asahi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:16:39.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "LEzX3GyLeEnH",
+          "url": "https://mainichi.jp/articles/20261006/k00/00m/310/293000c",
+          "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/310/293000c",
+          "title": "2歳男児が乗用車にはねられ死亡 駐車場で歩行中 神奈川・鎌倉",
+          "description": null,
+          "source": {
+            "id": "mainichi",
+            "name": "Mainichi Shimbun"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T12:01:51.000Z",
+          "imageUrl": null,
+          "countryCode": "JP",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:16:39.000Z"
+    },
+    {
+      "id": "7IAn9Ew18tTu",
+      "representative": {
+        "id": "7IAn9Ew18tTu",
+        "url": "https://mainichi.jp/articles/20261006/k00/00m/030/267000c",
+        "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/030/267000c",
+        "title": "リトアニア議会、核禁止撤廃の憲法改正案可決 1月に最終採決へ",
+        "description": null,
+        "source": {
+          "id": "mainichi",
+          "name": "Mainichi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T11:27:08.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "yHfFjlXNgN4z",
+          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-FEDG772M2NJX3G6J3A75BGGHEY/",
+          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-FEDG772M2NJX3G6J3A75BGGHEY/",
+          "title": "リトアニア議会、核配備禁止の条文削除の憲法改正案可決 1月に2度目の投票へ",
+          "description": "バルト三国の一つ、リトアニアの議会は6日、核兵器を含む大量破壊兵器の国内配備を禁止する条文を削除する憲法改正の議案を可決した。ロイター通信が報じた。改正には議会が2度の投票でそれぞれ議員141人のうち94人以上の賛成で可決する必要がある。2度目の投票は来年1月12日に実施される。",
+          "source": {
+            "id": "sankei",
+            "name": "Sankei Shimbun"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T09:36:00.000Z",
+          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-FEDG772M2NJX3G6J3A75BGGHEY/None/resizer/4iSRRQNMIp9g4V7PNCAZRuDnU14=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/NIWKMZQMEJPPPOPIK6FAUY4J2U.jpg",
+          "countryCode": "JP",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:27:08.000Z"
+    },
+    {
+      "id": "BeWiTyoDYmyU",
+      "representative": {
+        "id": "BeWiTyoDYmyU",
+        "url": "http://www.asahi.com/articles/ASVB63JSQVB6UTFK00RM.html?ref=rss",
+        "canonicalUrl": "http://www.asahi.com/articles/ASVB63JSQVB6UTFK00RM.html",
+        "title": "民主改革・階幹事長、立憲との合流目指す考え「中道の旗のもとなら」",
+        "description": null,
+        "source": {
+          "id": "asahi",
+          "name": "Asahi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T11:14:25.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "829feZPQXrGy",
+          "url": "https://www.jiji.com/jc/article?k=2026100601042&g=pol&m=rss",
+          "canonicalUrl": "https://www.jiji.com/jc/article?g=pol&k=2026100601042&m=rss",
+          "title": "立民との合流、政策受け入れが前提 民主改革・階幹事長「中道の旗尊重を」",
+          "description": null,
+          "source": {
+            "id": "jiji",
+            "name": "Jiji Press"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T11:10:00.000Z",
+          "imageUrl": null,
+          "countryCode": "JP",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:14:25.000Z"
+    },
+    {
+      "id": "YdC26zI3-6B0",
+      "representative": {
+        "id": "YdC26zI3-6B0",
+        "url": "https://mainichi.jp/articles/20261006/k00/00m/030/257000c",
+        "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/030/257000c",
+        "title": "前産経新聞台北支局長を襲撃か 香港マフィアを起訴 台湾検察",
+        "description": null,
+        "source": {
+          "id": "mainichi",
+          "name": "Mainichi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T11:12:07.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "JEoN7jnyRKm1",
+          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-5PLOFXRB2BKWTCNTGUMUS3YXLM/",
+          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-5PLOFXRB2BKWTCNTGUMUS3YXLM/",
+          "title": "元産経記者を殴打した香港マフィアの男を台湾検察が起訴 当初はガラス瓶で襲撃計画か",
+          "description": "【台北＝西見由章】産経新聞の前台北支局長で台湾を拠点とする「インド太平洋戦略シンクタンク」執行長の矢板明夫氏が台中市で男に暴行を受けた事件で、台中地方検察署（地検）は6日、傷害や組織犯罪防止条例違反などの罪で香港マフィア「和勝和」構成員の廖港発（りょうこうはつ）容疑者を起訴した。「言論を抑圧するために暴力を用いた」として起訴にあたり懲役5年を求刑した。",
+          "source": {
+            "id": "sankei",
+            "name": "Sankei Shimbun"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T09:13:17.000Z",
+          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-5PLOFXRB2BKWTCNTGUMUS3YXLM/None/resizer/0NgjQNM5teMsHwzp-6YMp-BQ0T4=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/RGVKYJVZEFJAVOFFGE3XJLOIL4.jpg",
+          "countryCode": "JP",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:12:07.000Z"
+    },
+    {
+      "id": "v0GlPmbvWBXC",
+      "representative": {
+        "id": "v0GlPmbvWBXC",
+        "url": "http://www.asahi.com/articles/ASVB62QQPVB6UTIL00ZM.html?ref=rss",
+        "canonicalUrl": "http://www.asahi.com/articles/ASVB62QQPVB6UTIL00ZM.html",
+        "title": "ピアニスト反田恭平氏、スピード違反で在宅起訴 144kmで運転か",
+        "description": null,
+        "source": {
+          "id": "asahi",
+          "name": "Asahi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T08:27:54.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "jmZLrlWlyVer",
+          "url": "https://www.jiji.com/jc/article?k=2026100600821&g=soc&m=rss",
+          "canonicalUrl": "https://www.jiji.com/jc/article?g=soc&k=2026100600821&m=rss",
+          "title": "ピアニスト反田恭平氏が８４キロの速度超過 在宅起訴、２９日判決―東京地裁",
+          "description": null,
+          "source": {
+            "id": "jiji",
+            "name": "Jiji Press"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T09:39:00.000Z",
+          "imageUrl": null,
+          "countryCode": "JP",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:39:00.000Z"
+    },
+    {
+      "id": "JDMQngsMnJY3",
+      "representative": {
+        "id": "JDMQngsMnJY3",
+        "url": "https://newsdig.tbs.co.jp/articles/-/2994092",
+        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994092",
+        "title": "SNSで知り合い「会おう」と持ちかけ…10代少女に性的暴行の疑い 会社員の男(41)逮捕 鹿児島",
+        "description": "SNSで知り合った鹿児島県内に住む10代の少女に性的暴行を加えた疑いで、会社員の男が逮捕されました。不同意性交等の疑いで逮捕されたのは、伊佐市大口小木原の会社員・竹内智史容疑者(41)です。警察によりますと、竹内容疑者は今年6月17日と7月18日に鹿児島県内で、10代の少女に性的暴",
+        "source": {
+          "id": "tbs",
+          "name": "TBS News Dig"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:52:43.000Z",
+        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/a/f/1200xm/img_af3fa107af795c1f259fee595b6324d2148172.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:52:43.000Z"
+    },
+    {
+      "id": "98NOt--u2TtY",
+      "representative": {
+        "id": "98NOt--u2TtY",
+        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/",
+        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/",
+        "title": "神戸・三宮の死傷事故の現場付近で交通安全呼び掛け 兵庫県警葺合署",
+        "description": "神戸・三宮中心部の県道交差点で1日、横断歩道を渡っていた歩行者ら4人が車にはねられ死傷した事故から1週間を前に、兵庫県警葺合署と兵庫県は6日、事故現場付近で通行人やドライバーに反射材を配るなどして交通安全を呼び掛けた。",
+        "source": {
+          "id": "sankei",
+          "name": "Sankei Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:49:37.000Z",
+        "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/None/resizer/0SEhg7kqLt1qs3phU7F6xv4ZCUY=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/MC4TRRJJ35K2XGRG4UBAAN6XS4.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:49:37.000Z"
+    },
+    {
+      "id": "laN1s_Xke9oM",
+      "representative": {
+        "id": "laN1s_Xke9oM",
+        "url": "https://newsdig.tbs.co.jp/articles/-/2994080",
+        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994080",
+        "title": "多文化共生の条例案に反発と不安の声「分断が広がっている印象」パブリックコメント7日締切 富山県",
+        "description": "富山県内に住む外国人の数は増加傾向にあります。そうしたなか、富山県は多文化共生の条例の制定に向けて、先月14日から県民、国民から広く意見を聞くためのパブリックコメントをはじめ、あす7日で締切を迎えます。県議会やSNSでは、条例への批判的な意見や懸念の声があがっています。パブリックコ",
+        "source": {
+          "id": "tbs",
+          "name": "TBS News Dig"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:47:51.000Z",
+        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/b/8/1200xm/img_b8d851531ca695996490b61c42fc5f3554871.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:47:51.000Z"
+    },
+    {
+      "id": "6v0I7y0cU_ZV",
+      "representative": {
+        "id": "6v0I7y0cU_ZV",
+        "url": "https://newsdig.tbs.co.jp/articles/-/2994082",
+        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994082",
+        "title": "【冒頭全文】「今年2月に問い合わせがあった」国交省が公表 簗農水大臣の“予算カット”発言めぐり 国交省から簗大臣に説明も",
+        "description": "簗和生・農林水産大臣が「自民党を支持しなかった自治体の道路予算を大幅にカットした」などと発言した問題について、国土交通省は「簗議員から今年2月に予算配分額について問い合わせがあった」と説明しました。冒頭部分を全文公開します。那須烏山市･那珂川町の実施事業は前年比で“減”道路予算にか",
+        "source": {
+          "id": "tbs",
+          "name": "TBS News Dig"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:45:28.000Z",
+        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/0/2/1200xm/img_026dbbd5828eb62782bf0f67f6311fe5878405.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:45:28.000Z"
+    },
+    {
+      "id": "xUIyNM6ETYIY",
+      "representative": {
+        "id": "xUIyNM6ETYIY",
+        "url": "https://newsdig.tbs.co.jp/articles/-/2994091",
+        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994091",
+        "title": "禁止命令中にSNSへフォロー申請か ストーカー規制法違反の疑いでHBCグループ会社社員の52歳男を逮捕「間違いありません」容疑認める",
+        "description": "禁止命令無視しSNSのフォロー申請を出した疑い HBCグループ会社社員を逮捕HBCのグループ会社の社員が、ストーカー規制法に基づく禁止命令を受けていたにもかかわらず、知人の20代の女性にSNSのフォロー申請を出した疑いで逮捕されました。逮捕されたのは、HBCフレックスの社員、瀧ケ平",
+        "source": {
+          "id": "tbs",
+          "name": "TBS News Dig"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:44:39.000Z",
+        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/b/a/1200xm/img_ba5361dbd927190df8ccbf35edb9b0c8294977.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:44:39.000Z"
+    },
+    {
+      "id": "MhvMbSI6fI-t",
+      "representative": {
+        "id": "MhvMbSI6fI-t",
+        "url": "http://www.asahi.com/articles/ASVB641B8VB6UTQP001M.html?ref=rss",
+        "canonicalUrl": "http://www.asahi.com/articles/ASVB641B8VB6UTQP001M.html",
+        "title": "「努力、信じる力。ケイはやり切った」 恩師マイケルの錦織への惜別",
+        "description": null,
+        "source": {
+          "id": "asahi",
+          "name": "Asahi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:42:39.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:42:39.000Z"
+    },
+    {
+      "id": "-l08XatiQUc_",
+      "representative": {
+        "id": "-l08XatiQUc_",
+        "url": "https://newsdig.tbs.co.jp/articles/-/2994044",
+        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994044",
+        "title": "「長期休み・奨学金肩代わり・豪華まかない」深刻な“人手不足”立ち向かう企業の対策…人件費高騰で倒産件数は過去最多に【Nスタ解説】",
+        "description": "10月5日、人手不足による企業の倒産が2026年4月～9月の上半期、過去最多になったことが分かりました。一番の要因「人件費の高騰」。埼玉にあるラーメン店では人手不足によって、“通常営業”さえままならない事態となっていました。人手不足が企業を直撃 人件費高騰などで倒産件数が過去最多に",
+        "source": {
+          "id": "tbs",
+          "name": "TBS News Dig"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:37:16.000Z",
+        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/b/a/1200xm/img_ba8c0499527a09875daf845cf15a0d3b732768.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:37:16.000Z"
+    }
+  ]
+}
