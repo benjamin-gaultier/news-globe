@@ -354,6 +354,21 @@ va bilan uchun bu bir ham esa haqida kuni yil yilda yilning yili oy soat bugun k
 boldi boladi emas ekan kabi uning ular ularning edi yanvar fevral mart aprel may iyun iyul avgust
 sentabr oktabr noyabr dekabr dushanba seshanba chorshanba payshanba juma shanba yakshanba foto
 `;
+// Persian, folded by foldedWords like titles (آ → ا, ZWNJ dropped: "سه‌شنبه" → "سهشنبه").
+// "ایران" is in every other title, like "việt nam" above; "قیمت" (price) heads the
+// daily gold, currency and fare listings.
+const STOPWORDS_FA = `
+و در به از که این با را برای آن است شد می شود شده کرد کرده کند های ها یک تا بر هم نیز اما یا پس
+پیش خود او آنها ما ایران امروز دیروز فردا سال روز ماه شنبه یکشنبه دوشنبه سه‌شنبه چهارشنبه پنجشنبه
+جمعه فروردین اردیبهشت خرداد تیر مرداد شهریور مهر آبان آذر دی بهمن اسفند گفت اعلام خبر ویدئو فیلم
+عکس قیمت
+`;
+// Nepali keeps its vowel signs (see devanagariTokens), so this list is not folded.
+const STOPWORDS_NE = `
+र को का की मा ले लाई बाट छ छन् हो भएको गरेको गर्न पनि यो त्यो एक भने गर्ने हुने थियो सम्म लागि
+साथ आज हिजो भोलि वर्ष साल आइतबार सोमबार मंगलबार बुधबार बिहीबार शुक्रबार शनिबार बैशाख जेठ असार
+साउन भदौ असोज कात्तिक मंसिर पुस माघ फागुन चैत भिडियो तस्बिर
+`;
 // Cyrillic й folds to и (NFD), hence "маи".
 const STOPWORDS_BG = `
 и в на за от с да се не е са по до при към като че но или ще бил била било това този тази тези които
@@ -431,6 +446,8 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   hr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   bs: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  fa: wordSet(foldedWords(STOPWORDS_FA), STOPWORDS_EN, BOILERPLATE),
+  ne: wordSet(STOPWORDS_NE, STOPWORDS_EN, BOILERPLATE),
   hy: wordSet(foldedWords(STOPWORDS_HY), STOPWORDS_EN, BOILERPLATE),
   az: wordSet(foldedWords(STOPWORDS_AZ), STOPWORDS_EN, BOILERPLATE),
   uz: wordSet(foldedWords(STOPWORDS_UZ), STOPWORDS_EN, BOILERPLATE),
@@ -509,6 +526,37 @@ function arabicTokens(title: string): string[] {
 }
 
 /**
+ * Persian: Arabic ي and ك become Persian ی and ک (outlets mix them), Persian and
+ * Arabic-Indic digits become ASCII, tatweel is dropped; foldText does the rest.
+ */
+function persianTokens(title: string): string[] {
+  return foldText(
+    title
+      .replace(/[\u06F0-\u06F9]/g, (d) => String(d.charCodeAt(0) - 0x06f0))
+      .replace(/[\u0660-\u0669]/g, (d) => String(d.charCodeAt(0) - 0x0660))
+      .replace(/\u064A/g, '\u06CC')
+      .replace(/\u0643/g, '\u06A9')
+      .replace(/\u0640/g, ''),
+  ).split(' ');
+}
+
+/**
+ * Devanagari vowel signs and viramas are combining marks, so foldText would
+ * strip them and leave bare consonants (नेपाल → नपल) that collide. Keep marks;
+ * only digits are converted and zero-width joiners dropped.
+ */
+function devanagariTokens(title: string): string[] {
+  return title
+    .normalize('NFC')
+    .replace(/[\u0966-\u096F]/g, (d) => String(d.charCodeAt(0) - 0x0966))
+    .replace(/[\u00AD\u200B-\u200D\u2060\uFEFF]/g, '')
+    .toLowerCase()
+    .replace(/[^\p{L}\p{M}\p{N}]+/gu, ' ')
+    .trim()
+    .split(' ');
+}
+
+/**
  * Crude suffix folding, not real stemming: drops a plural s/x, then a final
  * e, so "inscrites"/"inscrits", "lycees"/"lycee" and "charges"/"charge" match.
  * Short tokens are left alone to avoid collisions.
@@ -536,14 +584,19 @@ export function titleTokens(title: string, language?: string): Set<string> {
         ? chineseTokens(title)
         : language === 'ar'
           ? arabicTokens(title)
-          : foldText(title).split(' ');
+          : language === 'fa'
+            ? persianTokens(title)
+            : language === 'ne'
+              ? devanagariTokens(title)
+              : foldText(title).split(' ');
   for (const raw of words) {
     if (!raw || stopwords.has(raw)) continue;
     if (raw.length < 2 && !/\d/.test(raw)) continue;
     // Years carry almost no signal: "Cartas a Quito / 6 de octubre de 2026" and
     // "Portada del 6 de octubre de 2026" merged on {6, 2026} on 2026-10-06.
-    // Only 20xx: "1906 presos" is a count, not a year.
-    if (/^20\d\d$/.test(raw)) continue;
+    // Only 20xx: "1906 presos" is a count, not a year. Persian titles use the
+    // Solar Hijri year (1405), which merged gold and flight prices "۱۴ مهر ۱۴۰۵".
+    if (/^20\d\d$/.test(raw) || (language === 'fa' && /^14\d\d$/.test(raw))) continue;
     tokens.add(stem(raw, language));
   }
   return tokens;
