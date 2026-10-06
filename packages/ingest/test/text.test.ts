@@ -160,6 +160,9 @@ describe('titleTokens: Greek, Bulgarian and other new lists', () => {
 });
 
 describe('titleTokens: years', () => {
+  it('drops French calendar words', () => {
+    expect(titleTokens('Nécrologie du 06 octobre 2026', 'fr')).toEqual(new Set(['06', 'necrologi']));
+  });
   it('drops 20xx years but keeps other numbers', () => {
     expect(titleTokens('Portada del 6 de octubre de 2026', 'es')).toEqual(new Set(['6', 'portada']));
     expect(titleTokens('Liberan a 1906 presos', 'es').has('1906')).toBe(true);

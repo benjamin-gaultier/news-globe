@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BR",
   "countryName": "Brazil",
-  "updatedAt": "2026-10-06T15:01:56.292Z",
+  "updatedAt": "2026-10-06T15:32:48.958Z",
   "clusters": [
     {
       "id": "WGReK7rMfYcS",
@@ -426,48 +426,6 @@
       "latestPublishedAt": "2026-10-06T00:13:16.000Z"
     },
     {
-      "id": "YFJx_R9iOLQV",
-      "representative": {
-        "id": "YFJx_R9iOLQV",
-        "url": "https://g1.globo.com/politica/noticia/2026/10/05/pf-apreendeu-r-28-milhoes-em-bens-e-valores-no-dia-do-1o-turno-das-eleicoes.ghtml",
-        "canonicalUrl": "https://g1.globo.com/politica/noticia/2026/10/05/pf-apreendeu-r-28-milhoes-em-bens-e-valores-no-dia-do-1o-turno-das-eleicoes.ghtml",
-        "title": "PF apreende R$ 2,8 milhões em bens e valores no 1º turno das eleições",
-        "description": "A Polícia Federal (PF) apreendeu R$ 2,85 milhões em bens e valores durante a atuação no primeiro turno das eleições, realizado neste domingo (4), segundo balanço final divulgado nesta segunda-feira (5). Do total, R$ 520,5 mil eram em dinheiro vivo. Até as 23h59 de domingo, a PF também havia…",
-        "source": {
-          "id": "g1",
-          "name": "g1"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-05T15:05:43.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/1iwkYId-J-FScqSxl48USXlruzY=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/4/6/xe8sqMQ4CWbUGHfjbD9Q/img-2043.png",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "IAq74tAGsFU1",
-          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/policia-federal-apreende-r-28-milhoes-no-primeiro-turno-das-eleicoes",
-          "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/policia-federal-apreende-r-28-milhoes-no-primeiro-turno-das-eleicoes",
-          "title": "Polícia Federal apreende R$ 2,8 milhões no primeiro turno das eleições",
-          "description": "A Polícia Federal (PF) apreendeu R$ 2,8 milhões durante o primeiro turno das eleições, realizado nesse domingo (4). Do total, R$ 520 mil foram em espécie. O restante foi em forma de bens. A PF atuou na prevenção e repressão de crimes eleitorais. Até as 23h59 do domingo foram instaurados 49…",
-          "source": {
-            "id": "agenciabrasil",
-            "name": "Agência Brasil"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T21:00:00.000Z",
-          "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T21:00:00.000Z"
-    },
-    {
       "id": "nasx6jLLzhIJ",
       "representative": {
         "id": "nasx6jLLzhIJ",
@@ -682,6 +640,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:06:00.000Z"
+    },
+    {
+      "id": "BOWsxo7V46IH",
+      "representative": {
+        "id": "BOWsxo7V46IH",
+        "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/campanha-de-lula-vai-apostar-em-medo-de-fim-de-programas-sociais-para-aumentar-rejeicao-a-flavio.shtml",
+        "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/campanha-de-lula-vai-apostar-em-medo-de-fim-de-programas-sociais-para-aumentar-rejeicao-a-flavio.shtml",
+        "title": "Campanha de Lula vai apostar em medo de fim de programas sociais para aumentar rejeição a Flávio",
+        "description": "A campanha de reeleição do presidente Lula ( PT ) vai investir no medo de perda de programas sociais na tentativa de reverter a liderança de Flávio Bolsonaro ( PL -RJ), seu adversário no segundo turno . Leia mais (10/06/2026 - 10h02)",
+        "source": {
+          "id": "folha",
+          "name": "Folha de S.Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T13:02:00.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:02:00.000Z"
     }
   ]
 }

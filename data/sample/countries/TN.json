@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TN",
   "countryName": "Tunisia",
-  "updatedAt": "2026-10-06T15:01:56.292Z",
+  "updatedAt": "2026-10-06T15:32:48.958Z",
   "clusters": [
     {
       "id": "spmnZ8FX495b",
@@ -146,6 +146,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:05:05.000Z"
+    },
+    {
+      "id": "PT6vcLo2eSXc",
+      "representative": {
+        "id": "PT6vcLo2eSXc",
+        "url": "https://www.mosaiquefm.net/fr/national-tunisie/1532500/kais-saied-le-chomage-n-etait-pas-un-choix-mais-une-injustic",
+        "canonicalUrl": "https://www.mosaiquefm.net/fr/national-tunisie/1532500/kais-saied-le-chomage-n-etait-pas-un-choix-mais-une-injustic",
+        "title": "Kais Saïed: Le chômage n'était pas un choix mais une injustice",
+        "description": "Kais Saïed: Le chômage n'était pas un choix mais une injustice",
+        "source": {
+          "id": "mosaiquefm",
+          "name": "Mosaïque FM"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T06:18:00.000Z",
+        "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791268300.webp",
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "s_4aoegzYezL",
+          "url": "https://realites.com.tn/fr/kais-saied-le-chomeur-daujourdhui-netait-pas-chomeur-de-son-plein-gre/",
+          "canonicalUrl": "https://realites.com.tn/fr/kais-saied-le-chomeur-daujourdhui-netait-pas-chomeur-de-son-plein-gre/",
+          "title": "Kaïs Saïed : « Le chômeur d’aujourd’hui n’était pas chômeur de son plein gré »",
+          "description": "Le président de la République, Kaïs Saïed, a reçu lundi 5 octobre 2026 au palais de Carthage la cheffe du gouvernement, Sarra Zaafrani Zenzri, et le ministre de l’Emploi et… The post Kaïs Saïed : « Le chômeur d’aujourd’hui n’était pas chômeur de son plein gré » appeared first on Réalités Magazine .",
+          "source": {
+            "id": "realites",
+            "name": "Réalités"
+          },
+          "sourceCountry": "TN",
+          "language": "fr",
+          "publishedAt": "2026-10-06T10:54:39.000Z",
+          "imageUrl": null,
+          "countryCode": "TN",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:54:39.000Z"
     },
     {
       "id": "pIp8ReNCYNAv",
@@ -517,30 +559,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:22:48.000Z"
-    },
-    {
-      "id": "FYz7J5i6y7UH",
-      "representative": {
-        "id": "FYz7J5i6y7UH",
-        "url": "https://www.lapresse.tn/2026/10/06/golfe-le-detroit-dormuz-ferme-les-pays-producteurs-de-petrole-paient-le-prix-fort/",
-        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/golfe-le-detroit-dormuz-ferme-les-pays-producteurs-de-petrole-paient-le-prix-fort/",
-        "title": "Golfe : le détroit d’Ormuz fermé, les pays producteurs de pétrole paient le prix fort",
-        "description": "Pour une fois, le pétrole cher n’enrichit pas ceux qui l’exportent. Dans son bulletin « Combler les fossés, saisir les opportunités : l’intelligence artificielle, les emplois et la croissance », la Banque mondiale observe que le conflit du Golfe Persique fait des exportateurs d’hydrocarbures les…",
-        "source": {
-          "id": "lapresse_tn",
-          "name": "La Presse de Tunisie"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:16:15.000Z",
-        "imageUrl": null,
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:16:15.000Z"
     }
   ]
 }

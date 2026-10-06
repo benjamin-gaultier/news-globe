@@ -1010,7 +1010,103 @@ An-Nahar and LBCI both run the same wire copy, so their shared stories merge as 
 
 Costa Rican feeds are small and update a few times a day, so the country has few multi-outlet stories.
 
-Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia and Tanzania (one usable feed each), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items) and El Salvador (Co Latino only).
+**Senegal** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| APS | main feed | 10 | ✅ (fr) |
+| Le Soleil | main feed | 9 | ✅ (fr) |
+| Le Quotidien | main feed | 8 | ✅ (fr) |
+| Dakaractu | main feed | 8 | ✅ (fr) |
+| PressAfrik | main feed | 7 | ✅ (fr) |
+| E-Media | main feed | 7 | ✅ (fr) |
+| Senego | main feed | 6 | ✅ (fr) |
+| ~~Leral~~ | — | — | ❌ **skipped**: reprints other outlets' copy (Le Soleil) |
+| ~~Sud Quotidien~~ | — | — | ❌ **dropped**: unreachable |
+
+**Côte d'Ivoire** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| AIP | main feed | 10 | ✅ (10 items, fr) |
+| L'Infodrome | main feed | 8 | ✅ (fr) |
+| L'Intelligent d'Abidjan | main feed | 7 | ✅ (fr) |
+| Connection Ivoirienne | main feed | 7 | ✅ (fr) |
+| Le Banco | main feed | 6 | ✅ (fr) |
+| ~~Fraternité Matin~~, ~~7info~~ | — | — | ❌ **dropped**: 404 |
+
+**Burkina Faso** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Lefaso.net | main feed | 10 | ✅ (fr) |
+| Burkina24 | main feed | 8 | ✅ (6 items, fr) |
+| Wakat Séra | main feed | 7 | ✅ (10 items, fr) |
+| ~~Sidwaya~~, ~~AIB~~, ~~L'Observateur Paalga~~ | — | — | ❌ **dropped**: unreachable / 404 / malformed |
+
+**Mali** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Studio Tamani | main feed | 9 | ✅ (10 items, fr) |
+| Journal du Mali | main feed | 9 | ✅ (10 items, fr) |
+| Maliactu | main feed | 7 | ✅ (fr) |
+| Bamada | main feed | 6 | ✅ (fr) |
+| ~~Maliweb~~ | — | — | ❌ **dropped**: 403 for bots |
+
+**Benin** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| La Nouvelle Tribune | main feed | 9 | ✅ (fr) |
+| 24 Heures au Bénin | main feed | 8 | ✅ (fr) |
+| Bénin Web TV | main feed | 7 | ✅ (fr) |
+| Fraternité | main feed | 7 | ✅ (10 items, fr) |
+| ~~Banouto~~ | — | — | ❌ **dropped**: 404 |
+
+**Madagascar** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Midi Madagasikara | main feed | 9 | ✅ (fr) |
+| Newsmada | main feed | 8 | ✅ (5 items, fr) |
+| Madagascar Tribune | main feed | 8 | ✅ (10 items, fr) |
+| 2424.mg | main feed | 7 | ✅ (10 items, fr) |
+| ~~L'Express de Madagascar~~ | — | — | ❌ **dropped**: malformed beyond repair |
+
+**Zambia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Zambia Daily Mail | main feed | 9 | ✅ (10 items, en) |
+| Times of Zambia | main feed | 9 | ✅ (10 items, en) |
+| News Diggers! | main feed | 8 | ✅ (9 items, en) |
+| Lusaka Times | main feed | 7 | ✅ (10 items, en) |
+| Mwebantu | main feed | 6 | ✅ (10 items, en) |
+| ~~ZNBC~~ | — | — | ❌ **dropped**: unreachable |
+
+**Malawi** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| The Nation | main feed | 9 | ✅ (10 items, en) |
+| Times 360 Malawi | main feed | 9 | ✅ (10 items, en) |
+| Nyasa Times | main feed | 7 | ✅ (10 items, en) |
+| Malawi24 | main feed | 7 | ✅ (7 items, en) |
+
+**Sri Lanka** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| The Island | main feed | 9 | ✅ (10 items, en) |
+| EconomyNext | main feed | 8 | ✅ (en) |
+| Newswire | main feed | 7 | ✅ (en) |
+| ~~Ada Derana~~ | — | — | ❌ **dropped**: undated items |
+| ~~Daily Mirror~~, ~~Daily FT~~ | — | — | ❌ **dropped**: malformed beyond repair |
+
+The African and Sri Lankan feeds are small (often 10 items), so these countries show few multi-outlet stories.
+
+Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia and Tanzania (one usable feed each), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items), El Salvador (Co Latino only), Cameroon (Actu Cameroun only in French; Cameroon Tribune 403), Togo, Nepal (Kathmandu Post undated), Rwanda, Namibia, Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each).
 
 **Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 

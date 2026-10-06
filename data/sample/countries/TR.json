@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TR",
   "countryName": "Turkey",
-  "updatedAt": "2026-10-06T15:01:56.292Z",
+  "updatedAt": "2026-10-06T15:32:48.958Z",
   "clusters": [
     {
       "id": "Lt2yIt7GZh9N",
@@ -129,7 +129,7 @@
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T15:01:56.292Z",
+          "publishedAt": "2026-10-06T15:26:50.000Z",
           "imageUrl": null,
           "countryCode": "TR",
           "regionCode": null
@@ -171,7 +171,7 @@
       ],
       "outletCount24h": 4,
       "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T15:01:56.292Z"
+      "latestPublishedAt": "2026-10-06T15:26:50.000Z"
     },
     {
       "id": "vk026WA2ZZyC",
@@ -832,48 +832,6 @@
       "latestPublishedAt": "2026-10-06T07:31:00.000Z"
     },
     {
-      "id": "EjKCLvf9IOx-",
-      "representative": {
-        "id": "EjKCLvf9IOx-",
-        "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-yapay-zeka-emegi-devre-disi-birakti-1745088",
-        "canonicalUrl": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-yapay-zeka-emegi-devre-disi-birakti-1745088",
-        "title": "Cumhurbaşkanı Erdoğan: Yapay zeka emeği devre dışı bıraktı",
-        "description": "Cumhurbaşkanı Recep Tayyip Erdoğan, yapay zekanın emeği devre dışı bıraktığını ve sınayıcı olduğuna işaret edip \"Akademik süreçlerde de insan faktörü azalıyor.\" dedi.",
-        "source": {
-          "id": "ntv_tr",
-          "name": "NTV"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T12:29:23.000Z",
-        "imageUrl": "https://images.ntv.com.tr/images/AA-20261006-42664197-42664196-CUMHURBASKANI_RECEP_TAYYIP_ERDOGAN-237698.jpg?width=930&format=webp",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "R5UVlfC4UdZV",
-          "url": "https://www.cnnturk.com/turkiye/son-dakika-cumhurbaskani-erdogandan-aciklamalar-3475643",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/son-dakika-cumhurbaskani-erdogandan-aciklamalar-3475643",
-          "title": "SON DAKİKA... Cumhurbaşkanı Erdoğan'dan yapay zeka uyarısı: Emeği devre dışı bıraktı",
-          "description": "Son dakika haberine göre; Cumhurbaşkanı Erdoğan, Beştepe Millet Kongre ve Kültür Merkezi'nde “2026-2027 Akademik Yılı Açılış Töreni”ne katıldı. Erdoğan \"Yapay zekadaki baş döndürücü gelişmeler üniversitelerdeki bazı alanlarda sınayıcı hal aldı. Kaynağa ve bilgiye yapay zekâ modelleri üzerinden…",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T15:01:56.292Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:01:56.292Z"
-    },
-    {
       "id": "NQl0K9ydaaif",
       "representative": {
         "id": "NQl0K9ydaaif",
@@ -905,7 +863,7 @@
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T15:01:56.292Z",
+          "publishedAt": "2026-10-06T15:32:48.958Z",
           "imageUrl": null,
           "countryCode": "TR",
           "regionCode": null
@@ -913,7 +871,49 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:01:56.292Z"
+      "latestPublishedAt": "2026-10-06T15:32:48.958Z"
+    },
+    {
+      "id": "EjKCLvf9IOx-",
+      "representative": {
+        "id": "EjKCLvf9IOx-",
+        "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-yapay-zeka-emegi-devre-disi-birakti-1745088",
+        "canonicalUrl": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-yapay-zeka-emegi-devre-disi-birakti-1745088",
+        "title": "Cumhurbaşkanı Erdoğan: Yapay zeka emeği devre dışı bıraktı",
+        "description": "Cumhurbaşkanı Recep Tayyip Erdoğan, yapay zekanın emeği devre dışı bıraktığını ve sınayıcı olduğuna işaret edip \"Akademik süreçlerde de insan faktörü azalıyor.\" dedi.",
+        "source": {
+          "id": "ntv_tr",
+          "name": "NTV"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T12:29:23.000Z",
+        "imageUrl": "https://images.ntv.com.tr/images/AA-20261006-42664197-42664196-CUMHURBASKANI_RECEP_TAYYIP_ERDOGAN-237698.jpg?width=930&format=webp",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "R5UVlfC4UdZV",
+          "url": "https://www.cnnturk.com/turkiye/son-dakika-cumhurbaskani-erdogandan-aciklamalar-3475643",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/son-dakika-cumhurbaskani-erdogandan-aciklamalar-3475643",
+          "title": "SON DAKİKA... Cumhurbaşkanı Erdoğan'dan yapay zeka uyarısı: Emeği devre dışı bıraktı",
+          "description": "Son dakika haberine göre; Cumhurbaşkanı Erdoğan, Beştepe Millet Kongre ve Kültür Merkezi'nde “2026-2027 Akademik Yılı Açılış Töreni”ne katıldı. Erdoğan \"Yapay zekadaki baş döndürücü gelişmeler üniversitelerdeki bazı alanlarda sınayıcı hal aldı. Kaynağa ve bilgiye yapay zekâ modelleri üzerinden…",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T15:08:19.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:08:19.000Z"
     },
     {
       "id": "o6Vyu9z8w0yT",

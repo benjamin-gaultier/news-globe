@@ -292,6 +292,12 @@ const CALENDAR_ES = `
 hoy ayer manana lunes martes miercoles jueves viernes sabado domingo enero febrero marzo abril
 mayo junio julio agosto septiembre setiembre octubre noviembre diciembre hora horas cuanto
 `;
+// Same for French dated columns: "Nécrologie du 06 octobre 2026" and "Tir en
+// l'air du 06 octobre 2026" (Madagascar) merged on {06, octobre} on 2026-10-06.
+const CALENDAR_FR = `
+aujourd aujourdhui hui hier demain lundi mardi mercredi jeudi vendredi samedi dimanche janvier
+fevrier mars avril mai juin juillet aout septembre octobre novembre decembre
+`;
 const CALENDAR_PT = `
 hoje ontem amanha segunda terca quarta quinta sexta sabado domingo feira janeiro fevereiro marco
 abril maio junho julho agosto setembro outubro novembro dezembro
@@ -307,7 +313,7 @@ const wordSet = (...lists: string[]) => new Set(lists.flatMap((list) => list.spl
  */
 const STOPWORDS_FR_EN = wordSet(STOPWORDS_FR, STOPWORDS_EN, BOILERPLATE);
 const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
-  fr: STOPWORDS_FR_EN,
+  fr: wordSet(STOPWORDS_FR, CALENDAR_FR, STOPWORDS_EN, BOILERPLATE),
   en: STOPWORDS_FR_EN,
   de: wordSet(STOPWORDS_DE, STOPWORDS_EN, BOILERPLATE),
   es: wordSet(STOPWORDS_ES, CALENDAR_ES, STOPWORDS_EN, BOILERPLATE),
