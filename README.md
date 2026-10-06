@@ -130,6 +130,13 @@ To update the Pi: `git pull && pnpm install && sudo systemctl restart news-globe
 
 **Chaining guard (average linkage):** plain union-find is transitive. On the live US feeds, NPR's "Supreme Court's new term kicks off with blockbuster climate change case" scored 0.30 against WaPo's "6 things to watch in the Supreme Court's new term". That one link merged the climate-case story and the new-term story into a single 15-article cluster, headlined by a midterms piece. Requiring an average similarity of 0.2 between the groups being merged splits them back into "climate case" (11) and "new term" (4), while every genuine multi-outlet story (e.g. Hastert, 6 outlets) stays whole. At 0.25, real members started dropping out. [cluster.test.ts](packages/ingest/test/cluster.test.ts) reproduces the chain with those real headlines.
 
+### Headline language
+
+For non-English countries the panel has an **Original / English** toggle. The choice is remembered in `localStorage`.
+- Headlines and snippets are translated **in the browser** with the built-in [Translator API](https://developer.chrome.com/docs/ai/translator-api) (Chrome 138+ on desktop). The model runs on-device, nothing is sent to a translation service, and the ingest stays free of LLM and paid APIs ([lib/translate.ts](apps/web/src/lib/translate.ts)).
+- Headline links always go to the publisher. In English mode each foreign story also gets a "Read in English ↗" link that opens the article through Google Translate's web proxy.
+- Browsers without the API (Safari, Firefox, most phones) keep the original headlines and show a note pointing to that link.
+
 ## Data contract
 
 Types live in [packages/shared/src/index.ts](packages/shared/src/index.ts). `schemaVersion` is currently `1`, and the web app refuses other versions.
