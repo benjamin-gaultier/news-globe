@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "JP",
   "countryName": "Japan",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
       "id": "kfM_yhuQB6tI",
@@ -24,6 +24,23 @@
         "regionCode": null
       },
       "related": [
+        {
+          "id": "0C7nEt1IsEFv",
+          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-L4VIRWGSMZNF5A6P4JP3KKCELM/",
+          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-L4VIRWGSMZNF5A6P4JP3KKCELM/",
+          "title": "千葉大、検出器と解析で今年のノーベル物理学賞に貢献 これからも「歩みを止めず前進」",
+          "description": "今年のノーベル物理学賞の授賞対象となった国際共同研究「アイスキューブ」に参加する千葉大の研究チームは6日夜、千葉市稲毛区の同大で記者会見を開き、「われわれの仕事が評価され、すごく励みになる」と笑顔を見せた。日本唯一の参加機関として観測装置の開発とデータ解析でアイスキューブを支えてきた。",
+          "source": {
+            "id": "sankei",
+            "name": "Sankei Shimbun"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T13:17:57.000Z",
+          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-L4VIRWGSMZNF5A6P4JP3KKCELM/None/resizer/R1HwUjbyGO0kAHXLK7oL1pE18Es=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/4H3VF5PZCJIWPCSKIR3PPOMZHQ.jpg",
+          "countryCode": "JP",
+          "regionCode": null
+        },
         {
           "id": "WJ34gdPXzWe_",
           "url": "https://mainichi.jp/articles/20261006/k00/00m/040/308000c",
@@ -74,28 +91,11 @@
           "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/3/b/1200xm/img_3bb98faf6d46dd4f7ea360e7de38215d109470.jpg",
           "countryCode": "JP",
           "regionCode": null
-        },
-        {
-          "id": "Bn5KqUlRGvqR",
-          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-KVIIG3NOEBITTI7QZDUC5ZMC3Q/",
-          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-KVIIG3NOEBITTI7QZDUC5ZMC3Q/",
-          "title": "ノーベル物理学賞に米フランシス・ハルツェン教授 ニュートリノ観測、千葉大も研究参加",
-          "description": "スウェーデンの王立科学アカデミーは6日、2026年のノーベル物理学賞を米ウィスコンシン大マディソン校のフランシス・ハルツェン教授に授与すると発表した。南極で高エネルギーの素粒子ニュートリノを観測する国際共同研究「アイスキューブ」で、宇宙を飛び交う宇宙線の起源を初めて特定したことなどが評価された。研究には日本から千葉大の研究者も参加している。",
-          "source": {
-            "id": "sankei",
-            "name": "Sankei Shimbun"
-          },
-          "sourceCountry": "JP",
-          "language": "ja",
-          "publishedAt": "2026-10-06T10:32:16.000Z",
-          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-KVIIG3NOEBITTI7QZDUC5ZMC3Q/None/resizer/sCmJGY6N4FqgfwOYYfNichRhD2A=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/TGNPQK7DENHNHHBC67EHJBUVHY.jpg",
-          "countryCode": "JP",
-          "regionCode": null
         }
       ],
       "outletCount24h": 5,
       "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T12:43:07.000Z"
+      "latestPublishedAt": "2026-10-06T13:17:57.000Z"
     },
     {
       "id": "9RbC_clTL36S",
@@ -170,7 +170,7 @@
         },
         "sourceCountry": "JP",
         "language": "ja",
-        "publishedAt": "2026-10-06T12:31:36.000Z",
+        "publishedAt": "2026-10-06T13:18:53.000Z",
         "imageUrl": null,
         "countryCode": "JP",
         "regionCode": null
@@ -196,7 +196,7 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:31:36.000Z"
+      "latestPublishedAt": "2026-10-06T13:18:53.000Z"
     },
     {
       "id": "bhrlSNgPX_59",
@@ -409,140 +409,20 @@
       "latestPublishedAt": "2026-10-06T09:39:00.000Z"
     },
     {
-      "id": "JDMQngsMnJY3",
+      "id": "2VzgU5_aynld",
       "representative": {
-        "id": "JDMQngsMnJY3",
-        "url": "https://newsdig.tbs.co.jp/articles/-/2994092",
-        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994092",
-        "title": "SNSで知り合い「会おう」と持ちかけ…10代少女に性的暴行の疑い 会社員の男(41)逮捕 鹿児島",
-        "description": "SNSで知り合った鹿児島県内に住む10代の少女に性的暴行を加えた疑いで、会社員の男が逮捕されました。不同意性交等の疑いで逮捕されたのは、伊佐市大口小木原の会社員・竹内智史容疑者(41)です。警察によりますと、竹内容疑者は今年6月17日と7月18日に鹿児島県内で、10代の少女に性的暴",
-        "source": {
-          "id": "tbs",
-          "name": "TBS News Dig"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T12:52:43.000Z",
-        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/a/f/1200xm/img_af3fa107af795c1f259fee595b6324d2148172.jpg",
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:52:43.000Z"
-    },
-    {
-      "id": "98NOt--u2TtY",
-      "representative": {
-        "id": "98NOt--u2TtY",
-        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/",
-        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/",
-        "title": "神戸・三宮の死傷事故の現場付近で交通安全呼び掛け 兵庫県警葺合署",
-        "description": "神戸・三宮中心部の県道交差点で1日、横断歩道を渡っていた歩行者ら4人が車にはねられ死傷した事故から1週間を前に、兵庫県警葺合署と兵庫県は6日、事故現場付近で通行人やドライバーに反射材を配るなどして交通安全を呼び掛けた。",
+        "id": "2VzgU5_aynld",
+        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-SKFH325F5ZMAZARXARJT4BG7SI/",
+        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-SKFH325F5ZMAZARXARJT4BG7SI/",
+        "title": "「人類の未知未踏追求に貢献していく」 ノーベル物理学賞、重要機器製造の浜松ホトニクス",
+        "description": "ノーベル物理学賞の対象となった国際共同研究「アイスキューブ」の重要部品を製造した浜松ホトニクス（浜松市）は6日「お祝いの言葉とともに、偉大な研究実験に貢献できたことに感謝申し上げる。これからも人類の未知未踏を追求する科学プロジェクトに貢献していく」とのコメントを出した。",
         "source": {
           "id": "sankei",
           "name": "Sankei Shimbun"
         },
         "sourceCountry": "JP",
         "language": "ja",
-        "publishedAt": "2026-10-06T12:49:37.000Z",
-        "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/None/resizer/0SEhg7kqLt1qs3phU7F6xv4ZCUY=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/MC4TRRJJ35K2XGRG4UBAAN6XS4.jpg",
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:49:37.000Z"
-    },
-    {
-      "id": "laN1s_Xke9oM",
-      "representative": {
-        "id": "laN1s_Xke9oM",
-        "url": "https://newsdig.tbs.co.jp/articles/-/2994080",
-        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994080",
-        "title": "多文化共生の条例案に反発と不安の声「分断が広がっている印象」パブリックコメント7日締切 富山県",
-        "description": "富山県内に住む外国人の数は増加傾向にあります。そうしたなか、富山県は多文化共生の条例の制定に向けて、先月14日から県民、国民から広く意見を聞くためのパブリックコメントをはじめ、あす7日で締切を迎えます。県議会やSNSでは、条例への批判的な意見や懸念の声があがっています。パブリックコ",
-        "source": {
-          "id": "tbs",
-          "name": "TBS News Dig"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T12:47:51.000Z",
-        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/b/8/1200xm/img_b8d851531ca695996490b61c42fc5f3554871.jpg",
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:47:51.000Z"
-    },
-    {
-      "id": "6v0I7y0cU_ZV",
-      "representative": {
-        "id": "6v0I7y0cU_ZV",
-        "url": "https://newsdig.tbs.co.jp/articles/-/2994082",
-        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994082",
-        "title": "【冒頭全文】「今年2月に問い合わせがあった」国交省が公表 簗農水大臣の“予算カット”発言めぐり 国交省から簗大臣に説明も",
-        "description": "簗和生・農林水産大臣が「自民党を支持しなかった自治体の道路予算を大幅にカットした」などと発言した問題について、国土交通省は「簗議員から今年2月に予算配分額について問い合わせがあった」と説明しました。冒頭部分を全文公開します。那須烏山市･那珂川町の実施事業は前年比で“減”道路予算にか",
-        "source": {
-          "id": "tbs",
-          "name": "TBS News Dig"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T12:45:28.000Z",
-        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/0/2/1200xm/img_026dbbd5828eb62782bf0f67f6311fe5878405.jpg",
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:45:28.000Z"
-    },
-    {
-      "id": "xUIyNM6ETYIY",
-      "representative": {
-        "id": "xUIyNM6ETYIY",
-        "url": "https://newsdig.tbs.co.jp/articles/-/2994091",
-        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994091",
-        "title": "禁止命令中にSNSへフォロー申請か ストーカー規制法違反の疑いでHBCグループ会社社員の52歳男を逮捕「間違いありません」容疑認める",
-        "description": "禁止命令無視しSNSのフォロー申請を出した疑い HBCグループ会社社員を逮捕HBCのグループ会社の社員が、ストーカー規制法に基づく禁止命令を受けていたにもかかわらず、知人の20代の女性にSNSのフォロー申請を出した疑いで逮捕されました。逮捕されたのは、HBCフレックスの社員、瀧ケ平",
-        "source": {
-          "id": "tbs",
-          "name": "TBS News Dig"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T12:44:39.000Z",
-        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/b/a/1200xm/img_ba5361dbd927190df8ccbf35edb9b0c8294977.jpg",
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:44:39.000Z"
-    },
-    {
-      "id": "MhvMbSI6fI-t",
-      "representative": {
-        "id": "MhvMbSI6fI-t",
-        "url": "http://www.asahi.com/articles/ASVB641B8VB6UTQP001M.html?ref=rss",
-        "canonicalUrl": "http://www.asahi.com/articles/ASVB641B8VB6UTQP001M.html",
-        "title": "「努力、信じる力。ケイはやり切った」 恩師マイケルの錦織への惜別",
-        "description": null,
-        "source": {
-          "id": "asahi",
-          "name": "Asahi Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T12:42:39.000Z",
+        "publishedAt": "2026-10-06T13:18:15.000Z",
         "imageUrl": null,
         "countryCode": "JP",
         "regionCode": null
@@ -550,31 +430,151 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:42:39.000Z"
+      "latestPublishedAt": "2026-10-06T13:18:15.000Z"
     },
     {
-      "id": "-l08XatiQUc_",
+      "id": "qmKSQaQfpuLd",
       "representative": {
-        "id": "-l08XatiQUc_",
-        "url": "https://newsdig.tbs.co.jp/articles/-/2994044",
-        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994044",
-        "title": "「長期休み・奨学金肩代わり・豪華まかない」深刻な“人手不足”立ち向かう企業の対策…人件費高騰で倒産件数は過去最多に【Nスタ解説】",
-        "description": "10月5日、人手不足による企業の倒産が2026年4月～9月の上半期、過去最多になったことが分かりました。一番の要因「人件費の高騰」。埼玉にあるラーメン店では人手不足によって、“通常営業”さえままならない事態となっていました。人手不足が企業を直撃 人件費高騰などで倒産件数が過去最多に",
+        "id": "qmKSQaQfpuLd",
+        "url": "https://mainichi.jp/articles/20261006/k00/00m/040/259000c",
+        "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/040/259000c",
+        "title": "福岡の男児2人殺害 容疑の母親「育てるつもりなかった」と供述",
+        "description": null,
         "source": {
-          "id": "tbs",
-          "name": "TBS News Dig"
+          "id": "mainichi",
+          "name": "Mainichi Shimbun"
         },
         "sourceCountry": "JP",
         "language": "ja",
-        "publishedAt": "2026-10-06T12:37:16.000Z",
-        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/b/a/1200xm/img_ba8c0499527a09875daf845cf15a0d3b732768.jpg",
+        "publishedAt": "2026-10-06T13:18:14.000Z",
+        "imageUrl": null,
         "countryCode": "JP",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:37:16.000Z"
+      "latestPublishedAt": "2026-10-06T13:18:14.000Z"
+    },
+    {
+      "id": "486z8baRTdsa",
+      "representative": {
+        "id": "486z8baRTdsa",
+        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-EBES4EVVYBLORKBFMXOX6CC3ZA/",
+        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-EBES4EVVYBLORKBFMXOX6CC3ZA/",
+        "title": "パ・リーグのレギュラーシーズン終了 個人タイトルは2冠の栗原らソフトバンクから4人",
+        "description": "パ・リーグは6日、レギュラーシーズン全日程を終了し、3連覇を遂げたソフトバンクから40本塁打、118打点で2冠に輝いた栗原を含め4人がタイトルを獲得した。",
+        "source": {
+          "id": "sankei",
+          "name": "Sankei Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T13:12:04.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:12:04.000Z"
+    },
+    {
+      "id": "MUHsr4LEnR_7",
+      "representative": {
+        "id": "MUHsr4LEnR_7",
+        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-QA2CCOM3DFLNHJ2Q4NQR63F5QI/",
+        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-QA2CCOM3DFLNHJ2Q4NQR63F5QI/",
+        "title": "元独情報機関トップ逮捕 元部下から内部文書入手し外国機関向け報告書 スパイ容疑",
+        "description": "ドイツ検察は6日、国家反逆的なスパイ行為に関与した疑いなどで対外情報機関、連邦情報局（BND）のハニング元長官（80）を逮捕したと発表した。1998～2005年にBND長官を務めた。ドイツ内務省の高官を経て、最近はセキュリティー・コンサルタントとして活動していた。",
+        "source": {
+          "id": "sankei",
+          "name": "Sankei Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T13:09:48.000Z",
+        "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-QA2CCOM3DFLNHJ2Q4NQR63F5QI/None/resizer/v4VAEwIvmNPRkkQNNFJn3ADRq9U=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/OTAICGKIAZIHNAYI6HJ5PB4WGQ.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:09:48.000Z"
+    },
+    {
+      "id": "T2j_-CJAHVqK",
+      "representative": {
+        "id": "T2j_-CJAHVqK",
+        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4HJN4CZZYZJV3LOE2AIAIMIVSM/",
+        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4HJN4CZZYZJV3LOE2AIAIMIVSM/",
+        "title": "稲富修二元衆院議員が福岡市長選出馬へ 近く記者会見 2月衆院選に中道から出馬も、落選",
+        "description": "任期満了に伴う福岡市長選（11月1日告示、15日投開票）に関し、稲富修二元衆院議員が6日、無所属で立候補する意向を取材に明らかにした。「支援者の声を受け決断した」と述べた。近く記者会見して正式に表明する方針だ。",
+        "source": {
+          "id": "sankei",
+          "name": "Sankei Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T13:08:25.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:08:25.000Z"
+    },
+    {
+      "id": "NrfZ6ssBzaJM",
+      "representative": {
+        "id": "NrfZ6ssBzaJM",
+        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-Q4ZIJPTUWBJSJFRNXJJQNAGNIY/",
+        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-Q4ZIJPTUWBJSJFRNXJJQNAGNIY/",
+        "title": "すれ違いざまに女性2人の胸触る 容疑で神戸市立小教諭の男逮捕 兵庫県警",
+        "description": "すれ違いざまに女性2人の胸を触ったとして兵庫県警兵庫署は6日、不同意わいせつの疑いで、神戸市立小教諭の厚田和希容疑者（28）＝同市兵庫区下沢通＝を逮捕した。同署によると、「覚えていない」と容疑を否認している。",
+        "source": {
+          "id": "sankei",
+          "name": "Sankei Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T13:07:22.000Z",
+        "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-Q4ZIJPTUWBJSJFRNXJJQNAGNIY/None/resizer/f8CySpTbIHXL6e0QFovA29lI4wc=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/CBVMJBZPDFLSLCFHDZOFK2I22E.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:07:22.000Z"
+    },
+    {
+      "id": "Z2M0GH2MXqp6",
+      "representative": {
+        "id": "Z2M0GH2MXqp6",
+        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-PPYZTOTBOZLHZIFNVGV6QIQJ7E/",
+        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-PPYZTOTBOZLHZIFNVGV6QIQJ7E/",
+        "title": "鳥取1区基準、全知事に意見照会へ 衆院選挙区の区割り審、改定案作成で",
+        "description": "衆院選挙区画定審議会（区割り審）は6日、総務省で会合を開き、令和7年国勢調査確定値を踏まえた区割り改定案の作成に向け、全都道府県知事に意見照会する具体的な内容を決定した。「議員1人当たりの人口最少県の最少選挙区」である鳥取1区を基準とする方針案などについて尋ねる。11月中をめどに回答を求める方針。",
+        "source": {
+          "id": "sankei",
+          "name": "Sankei Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T13:04:12.000Z",
+        "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-PPYZTOTBOZLHZIFNVGV6QIQJ7E/None/resizer/WX2zk7FqaSaRwSqQqOJlOQqUBok=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/EUBQGNPBCZORZCERS73QVSQ244.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:04:12.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "FR",
   "countryName": "France",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
       "id": "dlwuXk8kNVcC",
@@ -241,48 +241,6 @@
       "latestPublishedAt": "2026-10-06T12:14:29.000Z"
     },
     {
-      "id": "o87k01ZFku-n",
-      "representative": {
-        "id": "o87k01ZFku-n",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/06/ecrits-antisemites-jordan-bardella-conteste-a-nouveau-formellement-les-elements-d-authentification-de-mediapart_6788982_823448.html",
-        "canonicalUrl": "https://www.lemonde.fr/politique/article/2026/10/06/ecrits-antisemites-jordan-bardella-conteste-a-nouveau-formellement-les-elements-d-authentification-de-mediapart_6788982_823448.html",
-        "title": "Ecrits antisémites : Jordan Bardella conteste à nouveau « formellement » les éléments d’authentification de « Mediapart »",
-        "description": "Alors que le RN tenait une conférence de presse pour présenter son contre-budget, mardi, la fin des échanges a été marquée par des questions sur les révélations du site d’investigation.",
-        "source": {
-          "id": "lemonde",
-          "name": "Le Monde"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T10:44:39.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/10/06/761/0/2000/1000/644/322/60/0/c28c426_upload-1-tvswzlp0pyls-cbir4540.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rjEL6YRywJnX",
-          "url": "https://www.liberation.fr/politique/ecrits-antisemites-jordan-bardella-assure-ne-plus-avoir-facebook-et-donc-ne-pas-pouvoir-verifier-les-informations-de-mediapart-20261006_LCX4UULFBFDTRO7ASAYC5SOEU4/",
-          "canonicalUrl": "https://www.liberation.fr/politique/ecrits-antisemites-jordan-bardella-assure-ne-plus-avoir-facebook-et-donc-ne-pas-pouvoir-verifier-les-informations-de-mediapart-20261006_LCX4UULFBFDTRO7ASAYC5SOEU4/",
-          "title": "Ecrits antisémites : Jordan Bardella assure «ne plus avoir Facebook» et donc ne pas pouvoir vérifier les informations de «Mediapart»",
-          "description": "Le président du Rassemblement national a de nouveau «formellement» contesté ce mardi les éléments d’authentification du média d’investigation.",
-          "source": {
-            "id": "liberation",
-            "name": "Libération"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T11:57:40.000Z",
-          "imageUrl": null,
-          "countryCode": "FR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:57:40.000Z"
-    },
-    {
       "id": "XtoKC54rvKyC",
       "representative": {
         "id": "XtoKC54rvKyC",
@@ -323,6 +281,150 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T04:59:45.000Z"
+    },
+    {
+      "id": "EAskgXdmb1-3",
+      "representative": {
+        "id": "EAskgXdmb1-3",
+        "url": "https://www.lefigaro.fr/politique/contestation-lyceenne-dette-carburants-le-gouvernement-lecornu-dans-la-tempete-20261005",
+        "canonicalUrl": "https://www.lefigaro.fr/politique/contestation-lyceenne-dette-carburants-le-gouvernement-lecornu-dans-la-tempete-20261005",
+        "title": "Contestation lycéenne, dette, carburants : le gouvernement Lecornu dans la tempête",
+        "description": "Le premier ministre, déjà accaparé par son projet de budget pour 2027 et par la flambée des prix à la pompe, cherche à éteindre la protestation lycéenne, en baisse lundi, et à éviter de nouvelles violences lors de la journée nationale de mobilisation prévue mardi.",
+        "source": {
+          "id": "lefigaro",
+          "name": "Le Figaro"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:13:27.000Z",
+        "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/10/05/639ff580e7b43677c436a5d95a9c81f760171efbffea4877f8b0c615c81e71c2.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:13:27.000Z"
+    },
+    {
+      "id": "7EyrXjBR5a5i",
+      "representative": {
+        "id": "7EyrXjBR5a5i",
+        "url": "https://www.lemonde.fr/disparitions/article/2026/10/06/la-mort-d-helene-hazera-journaliste-et-figure-majeure-du-militantisme-trans_6789004_3382.html",
+        "canonicalUrl": "https://www.lemonde.fr/disparitions/article/2026/10/06/la-mort-d-helene-hazera-journaliste-et-figure-majeure-du-militantisme-trans_6789004_3382.html",
+        "title": "La mort d’Hélène Hazera, journaliste et figure majeure du militantisme trans",
+        "description": "Elle avait longtemps travaillé à « Libération » avant d’animer, de 2012 à 2017 sur France-Culture, une émission sur la chanson, un de ses domaines de prédilection. Elle s’est éteinte lundi 5 octobre, à 74 ans.",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:13:21.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/06/249/0/2800/1400/644/322/60/0/2e0b765_upload-1-7r9ocjf6nr3h-prd0262662.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:13:21.000Z"
+    },
+    {
+      "id": "J6hYAs3Fecdf",
+      "representative": {
+        "id": "J6hYAs3Fecdf",
+        "url": "https://www.franceinfo.fr/france/bourgogne-franche-comte/yonne/yonne-au-marche-d-aillant-sur-tholon-des-places-gratuites-pour-les-commercants_8225146.html#xtor=RSS-3-%5Bgeneral%5D",
+        "canonicalUrl": "https://www.franceinfo.fr/france/bourgogne-franche-comte/yonne/yonne-au-marche-d-aillant-sur-tholon-des-places-gratuites-pour-les-commercants_8225146.html",
+        "title": "Yonne : au marché d'Aillant-sur-Tholon, des places gratuites pour les commerçants",
+        "description": "Dans l'Yonne, le maire de Montholon a décidé de dispenser les commerçants de la redevance dont ils s'acquittent pour vendre leurs produits sur le marché. Une façon de préserver ce rendez-vous qui fait vivre toute la commune.",
+        "source": {
+          "id": "franceinfo",
+          "name": "franceinfo"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:12:50.000Z",
+        "imageUrl": "https://www.franceinfo.fr/pictures/BQelJvcmbsvavnYMjuJReXhvDYo/0x92:1602x993/432x243/filters:format(jpg)/2026/10/06/6ac4ed9b0f3e9251595495.png",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:12:50.000Z"
+    },
+    {
+      "id": "3mVjHRHqxB6o",
+      "representative": {
+        "id": "3mVjHRHqxB6o",
+        "url": "https://www.20minutes.fr/societe/4251853-20261006-colere-lyceens-igpn-saisie-possible-agression-sexuelle-policier-jeune-manifestante?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251853-20261006-colere-lyceens-igpn-saisie-possible-agression-sexuelle-policier-jeune-manifestante",
+        "title": "Colère des lycéens : L’IGPN saisie d’une possible agression sexuelle d’un policier sur une jeune manifestante",
+        "description": "L’Inspection générale de la police nationale (IGPN) a été saisie après la diffusion d’une vidéo montrant un policier semblant toucher la poitrine et les cheveux d’une ado lors d’une interpellation à Metz. Le parquet a ouvert une enquête",
+        "source": {
+          "id": "20minutes",
+          "name": "20 Minutes"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:11:44.000Z",
+        "imageUrl": "https://img.20mn.fr/0AoetLASR5C6QOnOE7qW4Sk/1200x768_france-police-nationale-5-octobre-2021-illustrations-de-policiers-nationaux-en-uniforme-avec-camera-embarquee-a-rennes-le-1er-octobre-2021-lors-de-la-visite-de-jean-castex-gerald-darmanin-et-jean-michel-blanquer-images-d-illustrations-d-un-agent-de-la-police-nationale-en-uniforme-avec-la-camera-embarquee-a-rennes-le-1er-octobre-2021-lors-de-la-visite-de-jean-castex-gerald-darmanin-et-jean-michel-blanquer-pattiermathieu-pattier1291-2110050904",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:11:44.000Z"
+    },
+    {
+      "id": "eLZSpGno_PpN",
+      "representative": {
+        "id": "eLZSpGno_PpN",
+        "url": "https://www.liberation.fr/societe/education/en-direct-blocus-des-lycees-et-manifestation-une-journee-de-mobilisation-sous-tres-haute-surveillance-20261006_Q5JTNLV4ZJBBHKJFMAG3Q5RGA4/",
+        "canonicalUrl": "https://www.liberation.fr/societe/education/en-direct-blocus-des-lycees-et-manifestation-une-journee-de-mobilisation-sous-tres-haute-surveillance-20261006_Q5JTNLV4ZJBBHKJFMAG3Q5RGA4/",
+        "title": "EN DIRECT – Mobilisation lycéenne : 260 000 manifestants recensés à la mi-journée en France selon la CGT, le cortège parisien s’élance",
+        "description": "Les lycéens, soutenus par les organisations étudiantes et des syndicats, ont repris la rue ce mardi. Au total, 891 lycées, sur 3 700, ont vu leurs cours «être suspendus, soit totalement, soit partiellement, toutes causes confondues», selon le ministère de l’Education.",
+        "source": {
+          "id": "liberation",
+          "name": "Libération"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:11:17.000Z",
+        "imageUrl": null,
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:11:17.000Z"
+    },
+    {
+      "id": "IHFGjRql9ogc",
+      "representative": {
+        "id": "IHFGjRql9ogc",
+        "url": "https://www.20minutes.fr/societe/4251806-20261006-charente-maritime-maisons-renover-terrains-mis-vente-partir-1-800-euros?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251806-20261006-charente-maritime-maisons-renover-terrains-mis-vente-partir-1-800-euros",
+        "title": "Charente-Maritime : Des maisons à rénover et des terrains mis en vente à partir de 1.800 euros",
+        "description": "Maisons anciennes, parcelles ou terrains nus figurent parmi les propriétés actuellement proposées par le Département, selon « Actu La Rochelle »",
+        "source": {
+          "id": "20minutes",
+          "name": "20 Minutes"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:10:43.000Z",
+        "imageUrl": "https://img.20mn.fr/6kaUdYYtTNCPNQvqPesvFCk/1200x768_illustration-travaux-en-cours-sur-la-toiture-d-un-immeuble-le-long-de-la-promenade-des-anglais-a-nice-urman-18290001-2006081831-credit-lionel-urman-sipa-2006081832",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:10:43.000Z"
     },
     {
       "id": "cHa2o7uEUubQ",
@@ -373,30 +475,6 @@
       "latestPublishedAt": "2026-10-06T12:58:18.000Z"
     },
     {
-      "id": "eLZSpGno_PpN",
-      "representative": {
-        "id": "eLZSpGno_PpN",
-        "url": "https://www.liberation.fr/societe/education/en-direct-blocus-des-lycees-et-manifestation-une-journee-de-mobilisation-sous-tres-haute-surveillance-20261006_Q5JTNLV4ZJBBHKJFMAG3Q5RGA4/",
-        "canonicalUrl": "https://www.liberation.fr/societe/education/en-direct-blocus-des-lycees-et-manifestation-une-journee-de-mobilisation-sous-tres-haute-surveillance-20261006_Q5JTNLV4ZJBBHKJFMAG3Q5RGA4/",
-        "title": "EN DIRECT – Mobilisation lycéenne : 260 000 manifestants recensés à la mi-journée en France selon la CGT, le cortège parisien s’élance",
-        "description": "Les lycéens, soutenus par les organisations étudiantes et des syndicats, ont repris la rue ce mardi. Au total, 891 lycées, sur 3 700, ont vu leurs cours «être suspendus, soit totalement, soit partiellement, toutes causes confondues», selon le ministère de l’Education.",
-        "source": {
-          "id": "liberation",
-          "name": "Libération"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:56:45.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:56:45.000Z"
-    },
-    {
       "id": "OV3w4V_3NnoE",
       "representative": {
         "id": "OV3w4V_3NnoE",
@@ -443,102 +521,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:00.000Z"
-    },
-    {
-      "id": "OG5q_ifE43lZ",
-      "representative": {
-        "id": "OG5q_ifE43lZ",
-        "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/finistere-un-incendie-se-declenche-a-saint-nic-relativement-tard-dans-la-saison_8225134.html#xtor=RSS-3-%5Bgeneral%5D",
-        "canonicalUrl": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/finistere-un-incendie-se-declenche-a-saint-nic-relativement-tard-dans-la-saison_8225134.html",
-        "title": "Finistère : un incendie se déclenche à Saint-Nic, relativement tard dans la saison",
-        "description": "Dans le Finistère, un incendie, exceptionnel pour la période, s'est déclenché aux portes de la presqu'île de Crozon. Plus de 90 pompiers ont été mobilisés, et 15 hectares de végétation ont brûlé. L'origine du feu reste pour l'heure inconnue.",
-        "source": {
-          "id": "franceinfo",
-          "name": "franceinfo"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:54:53.000Z",
-        "imageUrl": "https://www.franceinfo.fr/pictures/7bxYAGjNwEsRyXmxPbS_eoERE7o/0x136:1550x1007/432x243/filters:format(jpg)/2026/10/06/6ac4ebd84d21b449844188.png",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:54:53.000Z"
-    },
-    {
-      "id": "fPxrDu9GI4Ez",
-      "representative": {
-        "id": "fPxrDu9GI4Ez",
-        "url": "https://www.20minutes.fr/societe/4251849-20261006-pyrenees-orientales-petite-route-devient-cauchemar-cause-waze-google-maps-mairie-passe-action?at_medium=display&at_campaign=149",
-        "canonicalUrl": "https://www.20minutes.fr/societe/4251849-20261006-pyrenees-orientales-petite-route-devient-cauchemar-cause-waze-google-maps-mairie-passe-action",
-        "title": "Pyrénées-Orientales : Cette petite route devient un cauchemar à cause de Waze et Google Maps, la mairie passe à l’action",
-        "description": "Face aux embouteillages et aux risques provoqués par les itinéraires de délestage, une commune des Pyrénées-Orientales saisit Waze et Google Maps, indique « L’indépendant »",
-        "source": {
-          "id": "20minutes",
-          "name": "20 Minutes"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:47:36.000Z",
-        "imageUrl": "https://img.20mn.fr/IfgJgmouTEOSDBEv58d5Syk/1200x768_illustration-de-l-application-gps-waze-sur-un-telephone-mobile-dans-une-voiture-lors-d-un-trajet-vers-toulon-benayacheadil-sipa-2891-2210121330-credit-adil-benayache-sipa-2210121342",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:47:36.000Z"
-    },
-    {
-      "id": "k_kanAecS6OB",
-      "representative": {
-        "id": "k_kanAecS6OB",
-        "url": "https://www.lemonde.fr/international/article/2026/10/06/l-espagne-leve-le-mandat-d-arret-visant-le-leader-independantiste-catalan-carles-puigdemont_6788997_3210.html",
-        "canonicalUrl": "https://www.lemonde.fr/international/article/2026/10/06/l-espagne-leve-le-mandat-d-arret-visant-le-leader-independantiste-catalan-carles-puigdemont_6788997_3210.html",
-        "title": "L’Espagne lève le mandat d’arrêt visant le leader indépendantiste catalan Carles Puigdemont",
-        "description": "Près de neuf ans après son départ vers la Belgique, qui a suivi la tentative de sécession de la Catalogne, M. Puigdemont peut désormais retourner en Espagne.",
-        "source": {
-          "id": "lemonde",
-          "name": "Le Monde"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:33:46.000Z",
-        "imageUrl": "https://img.lemde.fr/2023/11/10/400/0/5472/2736/644/322/60/0/58baa54_1699580062320-892079.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:33:46.000Z"
-    },
-    {
-      "id": "yCGAbv9tcI6u",
-      "representative": {
-        "id": "yCGAbv9tcI6u",
-        "url": "https://www.lefigaro.fr/actualite-france/il-a-une-capacite-a-reseauter-impressionnante-qui-est-ryad-rani-le-president-de-l-union-syndicale-lyceenne-proche-de-la-france-insoumise-20261006",
-        "canonicalUrl": "https://www.lefigaro.fr/actualite-france/il-a-une-capacite-a-reseauter-impressionnante-qui-est-ryad-rani-le-president-de-l-union-syndicale-lyceenne-proche-de-la-france-insoumise-20261006",
-        "title": "«Il a une capacité à réseauter impressionnante» : qui est Ryad Rani, le président de l’Union syndicale lycéenne, proche de La France Insoumise ?",
-        "description": "PORTRAIT – À seulement 18 ans, le jeune homme a été projeté sur le devant de la scène en devenant l’un des principaux porte-parole du mouvement lycéen.",
-        "source": {
-          "id": "lefigaro",
-          "name": "Le Figaro"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:29:51.000Z",
-        "imageUrl": "https://i.f1g.fr/media/cms/2850x1603_crop/2026/10/05/71d9cccca38b74a777c0ff0958cbd1e7f0a5a646cf6a22a34da075cd0828d3bc.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:29:51.000Z"
     }
   ]
 }

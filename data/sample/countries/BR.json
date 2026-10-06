@@ -2,8 +2,84 @@
   "schemaVersion": 1,
   "countryCode": "BR",
   "countryName": "Brazil",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
+    {
+      "id": "WGReK7rMfYcS",
+      "representative": {
+        "id": "WGReK7rMfYcS",
+        "url": "https://g1.globo.com/politica/noticia/2026/10/06/moraes-autoriza-progressao-de-debora-rodrigues-condenada-pelo-81-para-regime-semiaberto.ghtml",
+        "canonicalUrl": "https://g1.globo.com/politica/noticia/2026/10/06/moraes-autoriza-progressao-de-debora-rodrigues-condenada-pelo-81-para-regime-semiaberto.ghtml",
+        "title": "Moraes autoriza progressão de Débora Rodrigues, condenada pelo 8/1, para regime semiaberto",
+        "description": "Moraes autoriza semiaberto para 'Débora do Batom' O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), autorizou nesta terça-feira (6) que a cabeleireira Débora Rodrigues dos Santos, conhecida como \"Débora do Batom\", passe a cumprir pena no regime semiaberto. Ela ficou conhecida por…",
+        "source": {
+          "id": "g1",
+          "name": "g1"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:31:53.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/0XdVDiOh-wdQBcc7WuWA4Yv5HdQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/x/O/PiQv68TRChuuSyNVop9Q/mulher-batom-estatua-8-de-janeiro-1-.jpeg",
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "u_Se3N3WPLeB",
+          "url": "https://www.poder360.com.br/poder-justica/moraes-autoriza-regime-semiaberto-para-debora-do-batom/",
+          "canonicalUrl": "https://www.poder360.com.br/poder-justica/moraes-autoriza-regime-semiaberto-para-debora-do-batom/",
+          "title": "Moraes autoriza regime semiaberto para Débora do Batom",
+          "description": "Decisão do ministro do STF mantém a condenada em prisão domiciliar e abate 212 dias de sua pena",
+          "source": {
+            "id": "poder360",
+            "name": "Poder360"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-06T13:09:17.000Z",
+          "imageUrl": null,
+          "countryCode": "BR",
+          "regionCode": null
+        },
+        {
+          "id": "MnKzLZMPl33D",
+          "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/moraes-alivia-pena-de-debora-do-batom-apos-trabalho-e-aprovacao-no-enem.shtml",
+          "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/moraes-alivia-pena-de-debora-do-batom-apos-trabalho-e-aprovacao-no-enem.shtml",
+          "title": "Moraes alivia pena de 'Débora do Batom' após trabalho e aprovação no Enem",
+          "description": "O ministro Alexandre de Moraes , do STF (Supremo Tribunal Federal), decidiu que a cabeleireira Débora Rodrigues , conhecida como \"Débora do Batom\", cumpra o restante de sua pena no regime semiaberto, no âmbito da condenação pelos ataques golpistas de 8 de janeiro de 2023. Ela está em prisão…",
+          "source": {
+            "id": "folha",
+            "name": "Folha de S.Paulo"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-06T13:07:00.000Z",
+          "imageUrl": null,
+          "countryCode": "BR",
+          "regionCode": null
+        },
+        {
+          "id": "BpvBYLEBRYHH",
+          "url": "https://oglobo.globo.com/politica/noticia/2026/10/06/moraes-autoriza-que-debora-do-batom-cumpra-restante-da-pena-em-regime-semiaberto.ghtml",
+          "canonicalUrl": "https://oglobo.globo.com/politica/noticia/2026/10/06/moraes-autoriza-que-debora-do-batom-cumpra-restante-da-pena-em-regime-semiaberto.ghtml",
+          "title": "Moraes autoriza que 'Débora do Batom' cumpra restante da pena em regime semiaberto",
+          "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou que a cabeleireira Débora Rodrigues dos Santos, conhecida como \"Débora do Batom\", cumpra o restante da pena no regime semiaberto. Ela cumpre pena atualmente em regime domiciliar. Em julho, ele havia mandado a Secretaria…",
+          "source": {
+            "id": "oglobo",
+            "name": "O Globo"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-06T12:35:43.000Z",
+          "imageUrl": null,
+          "countryCode": "BR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T13:09:17.000Z"
+    },
     {
       "id": "bo1FqUKypL9a",
       "representative": {
@@ -24,23 +100,6 @@
         "regionCode": null
       },
       "related": [
-        {
-          "id": "GLzBoJS-m-G_",
-          "url": "https://oglobo.globo.com/blogs/malu-gaspar/post/2026/10/o-argumento-de-ronaldo-caiado-para-apoiar-flavio-bolsonaro-depois-de-chama-lo-de-ladrao.ghtml",
-          "canonicalUrl": "https://oglobo.globo.com/blogs/malu-gaspar/post/2026/10/o-argumento-de-ronaldo-caiado-para-apoiar-flavio-bolsonaro-depois-de-chama-lo-de-ladrao.ghtml",
-          "title": "Depois de chamar Flávio Bolsonaro de ladrão, Caiado anuncia apoio",
-          "description": "Depois de se contrapor a Flávio Bolsonaro durante toda a campanha, chegando a chamá-lo de ladrão, o candidato derrotado à Presidência da República Ronaldo Caiado (PSD) vai anunciar apoio ao senador do PL com o argumento de que “nunca foi de ficar em cima do muro”, que sempre foi contra o PT e não…",
-          "source": {
-            "id": "oglobo",
-            "name": "O Globo"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-06T07:00:01.000Z",
-          "imageUrl": "https://s2-oglobo.glbimg.com/z8z01hDP_QO8dmHpMo0ij_rtOxY=/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/y/Z/k5sIarT4WDMbsvtzmVew/arte-2026-10-05t230240.354.png",
-          "countryCode": "BR",
-          "regionCode": null
-        },
         {
           "id": "zFJVkMASHHMa",
           "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-busca-republicanos-para-ampliar-onda-de-apoios-no-2o-turno.shtml",
@@ -76,9 +135,51 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T07:00:01.000Z"
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-05T23:49:00.000Z"
+    },
+    {
+      "id": "HCO9DjWGZt1D",
+      "representative": {
+        "id": "HCO9DjWGZt1D",
+        "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/10/material-radioativo-roubado-de-van-e-achado-em-terreno-baldio-em-sao-paulo.shtml",
+        "canonicalUrl": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/10/material-radioativo-roubado-de-van-e-achado-em-terreno-baldio-em-sao-paulo.shtml",
+        "title": "Material radioativo roubado de van é achado em terreno baldio em São Paulo",
+        "description": "O material radioativo roubado de uma van na noite de quinta-feira (1º) na Vila Maria, em São Paulo , foi localizado pela Polícia Civil , na noite de segunda-feira (5), de acordo com a ANSN (Autoridade Nacional de Segurança Nuclear). Leia mais (10/06/2026 - 08h08)",
+        "source": {
+          "id": "folha",
+          "name": "Folha de S.Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T11:08:00.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "mUlK9i31qpPo",
+          "url": "https://www.poder360.com.br/poder-seguranca-publica/material-radioativo-roubado-e-recuperado-em-sao-paulo/",
+          "canonicalUrl": "https://www.poder360.com.br/poder-seguranca-publica/material-radioativo-roubado-e-recuperado-em-sao-paulo/",
+          "title": "Material radioativo roubado é recuperado em São Paulo",
+          "description": "Actínio-225 foi extraviado quando veículo que realizava seu transporte foi roubado; substância é usada no tratamento de câncer",
+          "source": {
+            "id": "poder360",
+            "name": "Poder360"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-06T13:16:45.000Z",
+          "imageUrl": null,
+          "countryCode": "BR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:16:45.000Z"
     },
     {
       "id": "L52U3QMChtjC",
@@ -135,51 +236,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T11:45:51.000Z"
-    },
-    {
-      "id": "WGReK7rMfYcS",
-      "representative": {
-        "id": "WGReK7rMfYcS",
-        "url": "https://g1.globo.com/politica/noticia/2026/10/06/moraes-autoriza-progressao-de-debora-rodrigues-condenada-pelo-81-para-regime-semiaberto.ghtml",
-        "canonicalUrl": "https://g1.globo.com/politica/noticia/2026/10/06/moraes-autoriza-progressao-de-debora-rodrigues-condenada-pelo-81-para-regime-semiaberto.ghtml",
-        "title": "Moraes autoriza progressão de Débora Rodrigues, condenada pelo 8/1, para regime semiaberto",
-        "description": "Moraes autoriza semiaberto para 'Débora do Batom' O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), autorizou nesta terça-feira (6) que a cabeleireira Débora Rodrigues dos Santos, conhecida como \"Débora do Batom\", passe a cumprir pena no regime semiaberto. Ela ficou conhecida por…",
-        "source": {
-          "id": "g1",
-          "name": "g1"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:31:53.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/0XdVDiOh-wdQBcc7WuWA4Yv5HdQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/x/O/PiQv68TRChuuSyNVop9Q/mulher-batom-estatua-8-de-janeiro-1-.jpeg",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "BpvBYLEBRYHH",
-          "url": "https://oglobo.globo.com/politica/noticia/2026/10/06/moraes-autoriza-que-debora-do-batom-cumpra-restante-da-pena-em-regime-semiaberto.ghtml",
-          "canonicalUrl": "https://oglobo.globo.com/politica/noticia/2026/10/06/moraes-autoriza-que-debora-do-batom-cumpra-restante-da-pena-em-regime-semiaberto.ghtml",
-          "title": "Moraes autoriza que 'Débora do Batom' cumpra restante da pena em regime semiaberto",
-          "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou que a cabeleireira Débora Rodrigues dos Santos, conhecida como \"Débora do Batom\", cumpra o restante da pena no regime semiaberto. Ela cumpre pena atualmente em regime domiciliar. Em julho, ele havia mandado a Secretaria…",
-          "source": {
-            "id": "oglobo",
-            "name": "O Globo"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-06T12:35:43.000Z",
-          "imageUrl": null,
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:35:43.000Z"
     },
     {
       "id": "Xed-m2ZRbn_I",
@@ -642,30 +701,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T15:26:00.000Z"
-    },
-    {
-      "id": "14EZEDXeWqO-",
-      "representative": {
-        "id": "14EZEDXeWqO-",
-        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/06/eleitos-mais-novos-mais-velhos-eleicoes-2026-1o-turno.ghtml",
-        "canonicalUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/06/eleitos-mais-novos-mais-velhos-eleicoes-2026-1o-turno.ghtml",
-        "title": "De 20 a 91 anos: veja os mais novos e os mais velhos eleitos no 1º turno",
-        "description": "Os cinco mais novos e os cinco mais velhos eleitos no primeiro turno de 2026. Acima, da esquerda para a direita: Alvinho Lira, Ana Elisa, Sandro Filho, Natália do Júnior Garimpeiro e Tulio Rezende. Abaixo, na mesma ordem: Luiza Erundina, Zé Teixeira, Eduardo Suplicy, Londres Machado e Barros…",
-        "source": {
-          "id": "g1",
-          "name": "g1"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:56:54.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/KjFe-0b-iMnSMQ2S92amLTtozxI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/v/UeDLbWQf26X5aVOqHZbQ/montagem-two-rows-1280x720px-2-.jpg",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:56:54.000Z"
     }
   ]
 }

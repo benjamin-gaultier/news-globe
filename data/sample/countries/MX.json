@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MX",
   "countryName": "Mexico",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
       "id": "5HUopp0WwYAv",
@@ -62,6 +62,48 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T08:49:54.000Z"
+    },
+    {
+      "id": "qjjiak0elBDJ",
+      "representative": {
+        "id": "qjjiak0elBDJ",
+        "url": "https://www.eluniversal.com.mx/nacion/cae-en-zapopan-el-tanque-operador-del-cjng-y-cercano-de-el-mencho-lo-ligan-a-ataque-de-helicoptero-del-ejercito-en-2015/",
+        "canonicalUrl": "https://www.eluniversal.com.mx/nacion/cae-en-zapopan-el-tanque-operador-del-cjng-y-cercano-de-el-mencho-lo-ligan-a-ataque-de-helicoptero-del-ejercito-en-2015/",
+        "title": "Cae en Zapopan \"El Tanque\", operador del CJNG y cercano de \"El Mencho\"; lo ligan a ataque de helicóptero del Ejército en 2015",
+        "description": null,
+        "source": {
+          "id": "eluniversal",
+          "name": "El Universal"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:14:07.000Z",
+        "imageUrl": "https://www.eluniversal.com.mx/resizer/v2/F3URK73ZFBFP5MMLWNWUID7PNI.jpg?auth=8f3ba88b113cd0088342973b7882cc57786b21bd4b70b70d00746c2dfc31f569&smart=true&width=500",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "mQb50FQYjSmj",
+          "url": "https://www.reforma.com/cae-el-tanque-lider-regional-del-cjng-y-cercano-al-mencho/ar3289057",
+          "canonicalUrl": "https://www.reforma.com/cae-el-tanque-lider-regional-del-cjng-y-cercano-al-mencho/ar3289057",
+          "title": "Cae 'El Tanque', líder regional del CJNG y cercano al Mencho",
+          "description": "Harfuch informó la detención de 'El Tanque', líder regional del CJNG en Veracruz, Oaxaca, Tabasco y Puebla, y cercano a 'El Mencho'.",
+          "source": {
+            "id": "reforma",
+            "name": "Reforma"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T13:12:26.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:14:07.000Z"
     },
     {
       "id": "dJSULXd3ufOW",
@@ -375,6 +417,54 @@
       "latestPublishedAt": "2026-10-05T15:06:35.000Z"
     },
     {
+      "id": "84j7ASHW7Klb",
+      "representative": {
+        "id": "84j7ASHW7Klb",
+        "url": "https://www.elfinanciero.com.mx/nacional/2026/10/06/claudia-sheinbaum-mananera-temas-hoy-6-de-octubre-de-2026-en-vivo/",
+        "canonicalUrl": "https://www.elfinanciero.com.mx/nacional/2026/10/06/claudia-sheinbaum-mananera-temas-hoy-6-de-octubre-de-2026-en-vivo/",
+        "title": "Conferencia ‘mañanera’ de Claudia Sheinbaum hoy 6 de octubre: Síguela aquí en vivo",
+        "description": "Estos fueron los temas más importantes de la mañanera de Claudia Sheinbaum este 6 de octubre.",
+        "source": {
+          "id": "elfinanciero",
+          "name": "El Financiero"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:13:40.000Z",
+        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/FDRP6yvokXtCpgTmZb7uNfEWQFg=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/KMW67DTL4BF2LF4ZJHPDRW7KOQ.jpg",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:13:40.000Z"
+    },
+    {
+      "id": "HnwZPGpECZeJ",
+      "representative": {
+        "id": "HnwZPGpECZeJ",
+        "url": "https://www.elfinanciero.com.mx/cartones/antonio-garci/2026/10/06/manual-de-control-y-manipulacion-del-bienestar/",
+        "canonicalUrl": "https://www.elfinanciero.com.mx/cartones/antonio-garci/2026/10/06/manual-de-control-y-manipulacion-del-bienestar/",
+        "title": "Manual de control y manipulación del Bienestar",
+        "description": null,
+        "source": {
+          "id": "elfinanciero",
+          "name": "El Financiero"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:10:26.000Z",
+        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/1hP2FiOhXr0Dia9LE-rxpda1AlI=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/JGTASBVCVRA7LGV53HK7BGFOLE.jpg",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:10:26.000Z"
+    },
+    {
       "id": "5hXR89UFwVld",
       "representative": {
         "id": "5hXR89UFwVld",
@@ -447,30 +537,6 @@
       "latestPublishedAt": "2026-10-06T12:46:29.000Z"
     },
     {
-      "id": "84j7ASHW7Klb",
-      "representative": {
-        "id": "84j7ASHW7Klb",
-        "url": "https://www.elfinanciero.com.mx/nacional/2026/10/06/claudia-sheinbaum-mananera-temas-hoy-6-de-octubre-de-2026-en-vivo/",
-        "canonicalUrl": "https://www.elfinanciero.com.mx/nacional/2026/10/06/claudia-sheinbaum-mananera-temas-hoy-6-de-octubre-de-2026-en-vivo/",
-        "title": "Conferencia ‘mañanera’ de Claudia Sheinbaum hoy 6 de octubre: Síguela aquí en vivo",
-        "description": "Estos fueron los temas más importantes de la mañanera de Claudia Sheinbaum este 6 de octubre.",
-        "source": {
-          "id": "elfinanciero",
-          "name": "El Financiero"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:30:00.000Z",
-        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/FDRP6yvokXtCpgTmZb7uNfEWQFg=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/KMW67DTL4BF2LF4ZJHPDRW7KOQ.jpg",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:30:00.000Z"
-    },
-    {
       "id": "vwQpC7JSC56s",
       "representative": {
         "id": "vwQpC7JSC56s",
@@ -493,54 +559,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:19:03.000Z"
-    },
-    {
-      "id": "-ai-cYsU0Smz",
-      "representative": {
-        "id": "-ai-cYsU0Smz",
-        "url": "https://www.elfinanciero.com.mx/opinion/alejo-sanchez-cano/2026/10/06/la-ultima-reeleccion/",
-        "canonicalUrl": "https://www.elfinanciero.com.mx/opinion/alejo-sanchez-cano/2026/10/06/la-ultima-reeleccion/",
-        "title": "La última reelección",
-        "description": "Ricardo Monreal declaró que hay entre 130 y 150 diputados federales de Morena —entre ellos Dolores Padierna y Alfonso Ramírez Cuéllar— que pretenden reelegirse en los comicios de 2027.",
-        "source": {
-          "id": "elfinanciero",
-          "name": "El Financiero"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:08:01.000Z",
-        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/vT6HI5EK50GCcmEnipJnZGsFVu0=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/T2DPUB5EQRFNJPPEJIWPHDP7QM.jpg",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:08:01.000Z"
-    },
-    {
-      "id": "ex3RywTCMMN_",
-      "representative": {
-        "id": "ex3RywTCMMN_",
-        "url": "https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2026/10/06/cidh-plantea-como-ejercer-el-presupuesto-de-salud/",
-        "canonicalUrl": "https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2026/10/06/cidh-plantea-como-ejercer-el-presupuesto-de-salud/",
-        "title": "CIDH plantea cómo ejercer el presupuesto de salud",
-        "description": "La CIDH plantea que la disciplina fiscal debe evitar subejercicios y garantizar la ejecución oportuna del gasto en servicios esenciales de salud.",
-        "source": {
-          "id": "elfinanciero",
-          "name": "El Financiero"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:00:00.000Z",
-        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/07q9bg4F6_9hEA26SeSEKI0t5-U=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/T52XG2KC3RA23C5ZWUHWLAGAWM.jpg",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
     }
   ]
 }

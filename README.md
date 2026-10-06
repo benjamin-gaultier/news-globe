@@ -452,6 +452,84 @@ Spanish and Portuguese stopwords include weekdays, months and *hoy*/*hoje*. Serv
 | ~~Expresso~~, ~~JN~~, ~~SIC Notícias~~ | — | — | ❌ **dropped**: 403 for bots |
 | ~~Diário de Notícias~~ | — | — | ❌ **dropped**: 404 |
 
+**Austria** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| ORF | news | 10 | ✅ (public broadcaster) |
+| Der Standard | Inland | 10 | ✅ |
+| Die Presse | Innenpolitik | 9 | ✅ |
+| Kurier | main feed | 8 | ✅ |
+| Kleine Zeitung | Politik | 7 | ✅ |
+| Kronen Zeitung | Nachrichten | 7 | ✅ |
+| ~~profil~~, ~~Heute~~ | — | — | ❌ **dropped**: 404 |
+
+**Switzerland** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| SRF News | Schweiz | 10 | ✅ (public broadcaster, de) |
+| NZZ | Schweiz | 9 | ✅ (de) |
+| RTS Info | Suisse | 9 | ✅ (public broadcaster, fr) |
+| Tages-Anzeiger | main feed | 8 | ✅ (de) |
+| Le Temps | articles | 8 | ✅ (fr) |
+| Blick | Schweiz | 7 | ✅ (de) |
+| watson | main feed | 6 | ✅ (de) |
+| ~~Swissinfo~~ | — | — | ❌ **dropped**: feed gone (410) |
+
+As with Canada, stories cluster only within a language.
+
+**Colombia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| El Tiempo | política | 10 | ✅ (10 items) |
+| Semana | main feed | 9 | ✅ |
+| Caracol Radio | main feed | 9 | ✅ |
+| El Colombiano | Colombia | 8 | ✅ |
+| La Silla Vacía | main feed | 7 | ✅ (10 items) |
+| Portafolio | economía | 6 | ✅ |
+| ~~El Espectador~~ | — | — | ❌ **dropped**: feed is empty |
+
+**Chile** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| La Tercera | main feed | 10 | ✅ |
+| Cooperativa | main feed | 9 | ✅ |
+| ADN Radio | main feed | 8 | ✅ |
+| La Nación | main feed | 7 | ✅ (10 items) |
+| Diario Financiero | main feed | 7 | ✅ |
+| The Clinic | main feed | 6 | ✅ (10 items) |
+| ~~Emol~~, ~~Meganoticias~~ | — | — | ❌ **dropped**: no answer to bots |
+| ~~BioBioChile~~, ~~El Mostrador~~, ~~24 Horas~~, ~~T13~~ | — | — | ❌ **dropped**: 404 |
+| ~~CNN Chile~~ | — | — | ❌ **dropped**: malformed XML |
+
+The first round found only three feeds; the second found ADN Radio, La Nación and The Clinic.
+
+**Nigeria** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Punch | main feed | 10 | ✅ |
+| Premium Times | main feed | 9 | ✅ |
+| Channels TV | main feed | 9 | ✅ |
+| Vanguard | main feed | 8 | ✅ |
+| Daily Trust | main feed | 8 | ✅ |
+| ~~The Guardian (NG)~~, ~~TheCable~~, ~~The Nation~~ | — | — | ❌ **dropped**: 403 for bots |
+
+**Kenya** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Daily Nation | Kenya | 10 | ✅ |
+| The Standard | headlines | 9 | ✅ |
+| Capital FM | news | 8 | ✅ (10 items) |
+| Kenyans.co.ke | news | 7 | ✅ |
+| Business Daily | main feed | 6 | ✅ |
+| Tuko | all | 6 | ✅ |
+| ~~The Star~~, ~~Citizen Digital~~ | — | — | ❌ **dropped**: 404 / 400 |
+
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
 
 When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`. Also check that the newest item is recent: Corriere and The Telegraph return well-formed but stale feeds.
@@ -462,18 +540,24 @@ Authority weights are editorial judgment calls. They only decide which outlet's 
 
 ## Adding a feed or a country
 
-**A feed for an existing country:** add an entry to `SOURCES` in [sources.config.ts](packages/ingest/src/sources.config.ts) with a stable `id`, display `name`, `country`, `language`, `feedUrls` and `authority`. Check it first:
+The Pi is the only machine that polls feeds. On a dev machine, probe the candidates once and then build from the cache:
 
 ```bash
-curl -sA "NewsGlobeBot/0.1 (+https://github.com/benjamin-gaultier/news-globe; headline metadata only)" -I <feed-url>
+pnpm probe <feed-url> [feed-url...]   # one polite request per URL: status, item count, newest/oldest item
+pnpm ingest --offline                 # rebuild data/ from data/.cache only: no requests, no publishing
 ```
+
+`pnpm probe` goes through the same cache as the ingest, so it records each request (the 15-minute limit holds) and keeps the parsed items for `--offline`. To test against current data, first copy the Pi's `data/.cache/http.json` to your machine.
+
+**A feed for an existing country:** add an entry to `SOURCES` in [sources.config.ts](packages/ingest/src/sources.config.ts) with a stable `id`, display `name`, `country`, `language`, `feedUrls` and `authority`.
 
 **A new country:**
 
 1. Add it to `COUNTRIES` in [packages/shared/src/index.ts](packages/shared/src/index.ts) with its ISO 3166-1 alpha-2 code, name, and the camera `lat` / `lng` / `altitude` for the globe.
-2. Add 4–6 national outlets for it to `SOURCES`.
+2. Probe candidate feeds and add 4–6 national outlets to `SOURCES`. Skip outlets that reprint another's copy (The Age/SMH, BusinessDay/TimesLIVE): they fake multi-outlet clusters.
 3. If its language has no stopword list yet, add one to `STOPWORDS_BY_LANGUAGE` in [normalize/text.ts](packages/ingest/src/normalize/text.ts). Otherwise clustering will match on function words.
-4. Run `pnpm ingest`. The globe highlights every country listed in `index.json`, so nothing else changes in the front end.
+4. Run `pnpm ingest --offline` and read the multi-outlet clusters.
+5. Merge, then redeploy the Worker (`COUNTRIES` is bundled into the front end). On the Pi, run `git pull && pnpm install --frozen-lockfile && sudo systemctl restart news-globe-ingest` at least 15 minutes after probing. The next run publishes the new country.
 
 ## Next steps
 

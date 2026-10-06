@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "CH",
+  "countryName": "Switzerland",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
+  "clusters": [
+    {
+      "id": "uAiKU_zZjUY1",
+      "representative": {
+        "id": "uAiKU_zZjUY1",
+        "url": "https://www.srf.ch/wissen/nobelpreise/nobelpreis-2026-physik-nobelpreis-geht-an-neutrinoforscher-francis-halzen",
+        "canonicalUrl": "https://www.srf.ch/wissen/nobelpreise/nobelpreis-2026-physik-nobelpreis-geht-an-neutrinoforscher-francis-halzen",
+        "title": "Nobelpreis 2026 – Physik-Nobelpreis geht an Neutrinoforscher Francis Halzen",
+        "description": "Er hat das Eis am Südpol in ein Teleskop für Geisterteilchen aus dem fernen All verwandelt.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:14:33.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/f5108a.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "-Fvp910mWc92",
+          "url": "https://www.tagesanzeiger.ch/physik-nobelpreis-2026-entscheidung-faellt-heute-in-stockholm-554159695770",
+          "canonicalUrl": "https://www.tagesanzeiger.ch/physik-nobelpreis-2026-entscheidung-faellt-heute-in-stockholm-554159695770",
+          "title": "Francis Halzen: Physik-Nobelpreis geht an belgisch-amerikanischen Neutrino-Forscher",
+          "description": "Francis Halzen wird für entscheidende Beiträge zum Neutrino-Observatorium «IceCube» und zur Entdeckung hochenergetischer Neutrinos astrophysikalischen Ursprungs ausgezeichnet.",
+          "source": {
+            "id": "tagesanzeiger",
+            "name": "Tages-Anzeiger"
+          },
+          "sourceCountry": "CH",
+          "language": "de",
+          "publishedAt": "2026-10-06T09:53:47.000Z",
+          "imageUrl": "https://cdn.unitycms.io/images/7zSU84RFa5J9ratYx188vM.jpg",
+          "countryCode": "CH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:14:33.000Z"
+    },
+    {
+      "id": "-qeyOUrrChQz",
+      "representative": {
+        "id": "-qeyOUrrChQz",
+        "url": "https://www.nzz.ch/schweiz/der-kronprinz-der-parteifuehrung-oder-die-vizepraesidentin-aus-dem-welschland-wer-guy-parmelin-nachfolgen-koennte-ld.10025132",
+        "canonicalUrl": "https://www.nzz.ch/schweiz/der-kronprinz-der-parteifuehrung-oder-die-vizepraesidentin-aus-dem-welschland-wer-guy-parmelin-nachfolgen-koennte-ld.10025132",
+        "title": "Guy Parmelins Nachfolge im Bundesrat: SVP Schwyz will Regierungsrat André Rüegsegger nominieren",
+        "description": "In der Schweizerischen Volkspartei positionieren sich die aussichtsreichsten Papabili. Das Kandidatenkarussell.",
+        "source": {
+          "id": "nzz",
+          "name": "NZZ"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T09:17:54.000Z",
+        "imageUrl": "https://img-msp-prod.nzz.ch/2026/09/23/b8a936dd-92ef-4ad0-8d1b-f8424931c263.jpg?width=200&height=200&fit=bounds&quality=75&auto=webp&crop=4869,4869,x1218,y0",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "iNLthgIhJDD-",
+          "url": "https://www.tagesanzeiger.ch/nachfolge-guy-parmelin-wer-wird-neuer-svp-bundesrat-468921088293",
+          "canonicalUrl": "https://www.tagesanzeiger.ch/nachfolge-guy-parmelin-wer-wird-neuer-svp-bundesrat-468921088293",
+          "title": "Nachfolge von Guy Parmelin: Wer wird neuer SVP-Bundesrat?",
+          "description": "Die SVP sucht einen Bundesrat. Die Findungskommission nimmt Vorschläge für die Ersatzwahl bis zum 23. Oktober entgegen. Wer kandidiert – und wer abgesagt hat.",
+          "source": {
+            "id": "tagesanzeiger",
+            "name": "Tages-Anzeiger"
+          },
+          "sourceCountry": "CH",
+          "language": "de",
+          "publishedAt": "2026-10-06T13:06:06.000Z",
+          "imageUrl": "https://cdn.unitycms.io/images/2Td2np964DsAJgesPHMLXK.webp",
+          "countryCode": "CH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:06:06.000Z"
+    },
+    {
+      "id": "2ljmTssXHN-Y",
+      "representative": {
+        "id": "2ljmTssXHN-Y",
+        "url": "https://www.srf.ch/sport/tennis/atp-tour/zverev-wird-die-nummer-1-sinner-muss-die-saison-vorzeitig-beenden",
+        "canonicalUrl": "https://www.srf.ch/sport/tennis/atp-tour/zverev-wird-die-nummer-1-sinner-muss-die-saison-vorzeitig-beenden",
+        "title": "Zverev wird die Nummer 1 – Sinner muss die Saison vorzeitig beenden",
+        "description": "Der Weltranglisten-Erste aus Italien bestreitet 2026 keine Spiele mehr.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T11:40:44.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e427bd.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "cbwxHkFAqE9Y",
+          "url": "https://www.tagesanzeiger.ch/sinner-verletzt-zverev-vor-weltranglisten-fuehrung-239932179556",
+          "canonicalUrl": "https://www.tagesanzeiger.ch/sinner-verletzt-zverev-vor-weltranglisten-fuehrung-239932179556",
+          "title": "Anhaltende Knieprobleme: Sinner bricht die Saison vorzeitig ab",
+          "description": "Jannik Sinner kehrt in diesem Jahr nicht mehr auf die Tour zurück. Damit steigen die Chancen für Alexander Zverev, Weltnummer 1 zu werden.",
+          "source": {
+            "id": "tagesanzeiger",
+            "name": "Tages-Anzeiger"
+          },
+          "sourceCountry": "CH",
+          "language": "de",
+          "publishedAt": "2026-10-06T09:27:15.000Z",
+          "imageUrl": "https://cdn.unitycms.io/images/BD5p0lsIaPr8JY7LpC386P.jpg",
+          "countryCode": "CH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:40:44.000Z"
+    },
+    {
+      "id": "aUNQVeStWR64",
+      "representative": {
+        "id": "aUNQVeStWR64",
+        "url": "https://www.srf.ch/kultur/literatur/roman-die-luecken-shida-bazyar-gewinnt-den-deutschen-buchpreis-2026",
+        "canonicalUrl": "https://www.srf.ch/kultur/literatur/roman-die-luecken-shida-bazyar-gewinnt-den-deutschen-buchpreis-2026",
+        "title": "Roman «Die Lücken» – Shida Bazyar gewinnt den Deutschen Buchpreis 2026",
+        "description": "Der Deutsche Buchpreis geht an Shida Bazyar für ihren Roman «Die Lücken».",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T08:02:01.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/27f963.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "NT8pwFI4qj_W",
+          "url": "https://www.tagesanzeiger.ch/deutscher-buchpreis-shida-bazyar-gewinnt-mit-die-luecken-462405553343",
+          "canonicalUrl": "https://www.tagesanzeiger.ch/deutscher-buchpreis-shida-bazyar-gewinnt-mit-die-luecken-462405553343",
+          "title": "Deutscher Buchpreis: Shida Bazyar erzählt in «Die Lücken» von den Traumata aus der NS-Zeit",
+          "description": "Shida Bazyars fein recherchiertes Epos über ein deutsches Dorf ist zum besten Roman des Jahres gekürt worden. Eine gute Wahl.",
+          "source": {
+            "id": "tagesanzeiger",
+            "name": "Tages-Anzeiger"
+          },
+          "sourceCountry": "CH",
+          "language": "de",
+          "publishedAt": "2026-10-06T11:38:26.000Z",
+          "imageUrl": "https://cdn.unitycms.io/images/FKMEMfWN41JAFLhstJVw_u.jpg",
+          "countryCode": "CH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:38:26.000Z"
+    },
+    {
+      "id": "SABU5iIgo4DB",
+      "representative": {
+        "id": "SABU5iIgo4DB",
+        "url": "https://www.srf.ch/news/international/sachsen-anhalt-deutschland-erster-afd-landtagspraesident-gewaehlt",
+        "canonicalUrl": "https://www.srf.ch/news/international/sachsen-anhalt-deutschland-erster-afd-landtagspraesident-gewaehlt",
+        "title": "Sachsen-Anhalt – Deutschland: Erster AfD-Landtagspräsident gewählt",
+        "description": "Mit Tobias Rausch wurde erstmals ein AfD-Politiker zum Präsidenten eines deutschen Landtags gewählt.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T10:49:40.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/2bab9a.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "nFXvPcWoJIyE",
+          "url": "https://www.tagesanzeiger.ch/afd-politiker-tobias-rausch-wird-landtagspraesident-in-sachsen-anhalt-944849016376",
+          "canonicalUrl": "https://www.tagesanzeiger.ch/afd-politiker-tobias-rausch-wird-landtagspraesident-in-sachsen-anhalt-944849016376",
+          "title": "Sachsen-Anhalt: Erster AfD-Präsident eines deutschen Landtags gewählt",
+          "description": "Der 35-jährige Tobias Rausch erhält im Magdeburger Landtag 48 von 82 Stimmen. Es ist das bislang höchste Amt, das die als rechtsextrem eingestufte Partei in einem Bundesland besetzt.",
+          "source": {
+            "id": "tagesanzeiger",
+            "name": "Tages-Anzeiger"
+          },
+          "sourceCountry": "CH",
+          "language": "de",
+          "publishedAt": "2026-10-06T11:21:20.000Z",
+          "imageUrl": "https://cdn.unitycms.io/images/E07-09y2qmrA-OC4b8S4MN.jpg",
+          "countryCode": "CH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:21:20.000Z"
+    },
+    {
+      "id": "Aswlk9kme9ph",
+      "representative": {
+        "id": "Aswlk9kme9ph",
+        "url": "https://www.srf.ch/news/schweiz/anklage-wegen-betrugs-ok-praesident-der-ski-wm-in-crans-montana-muss-vor-gericht",
+        "canonicalUrl": "https://www.srf.ch/news/schweiz/anklage-wegen-betrugs-ok-praesident-der-ski-wm-in-crans-montana-muss-vor-gericht",
+        "title": "Anklage wegen Betrugs – OK-Präsident der Ski-WM in Crans-Montana muss vor Gericht",
+        "description": "In wenigen Monaten steigt in Crans-Montana die Ski-Weltmeisterschaft. Doch ein Nebenschauplatz droht das Fest zu trüben.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T10:16:56.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/514545.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "CDb7EXfuiQAK",
+          "url": "https://www.blick.ch/schweiz/westschweiz/wallis/anklage-gegen-vizepraesident-von-swiss-ski-wegen-betrug/e2hc3xr",
+          "canonicalUrl": "https://www.blick.ch/schweiz/westschweiz/wallis/anklage-gegen-vizepraesident-von-swiss-ski-wegen-betrug/e2hc3xr",
+          "title": "Dem OK-Präsi der Ski-WM in Crans-Montana droht Knast",
+          "description": "Kurz vor der Ski-WM 2027 gerät OK-Präsident Claude-Alain Schmidhalter unter Druck: Die Walliser Staatsanwaltschaft wirft dem Vizepräsidenten von Swiss Ski vor, einen früheren Geschäftspartner um über 300’000 Franken geprellt zu haben.",
+          "source": {
+            "id": "blick",
+            "name": "Blick"
+          },
+          "sourceCountry": "CH",
+          "language": "de",
+          "publishedAt": "2026-10-05T15:49:30.000Z",
+          "imageUrl": "https://ocdn.eu/pulscms-transforms/1/PX3ktkuTURBXy81ZTUwODRjOS01YzcxLTQwNzctYjgyNi03ZDdlZTE4OTZjMzguanBlZ5KTBc0CWM0BO5MJpjgyNzc5NAY/efzqtbjdyjg.jpg",
+          "countryCode": "CH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:16:56.000Z"
+    },
+    {
+      "id": "P3kepUYV99Df",
+      "representative": {
+        "id": "P3kepUYV99Df",
+        "url": "https://www.srf.ch/news/dialog/laut-eth-studie-schlimmstes-klimaszenario-fuer-die-schweiz-wird-wahrscheinlicher",
+        "canonicalUrl": "https://www.srf.ch/news/dialog/laut-eth-studie-schlimmstes-klimaszenario-fuer-die-schweiz-wird-wahrscheinlicher",
+        "title": "Laut ETH-Studie – Schlimmstes Klimaszenario für die Schweiz wird wahrscheinlicher",
+        "description": "Neue Forschungsergebnisse deuten darauf hin, dass sich die Erde stärker erwärmt, als Prognosen bisher voraussagten.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T03:50:16.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d9a306.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "3fRu4pJdqddt",
+          "url": "https://www.tagesanzeiger.ch/eth-studie-erde-erwaermt-sich-bis-2100-um-3-25-grad-129688621725",
+          "canonicalUrl": "https://www.tagesanzeiger.ch/eth-studie-erde-erwaermt-sich-bis-2100-um-3-25-grad-129688621725",
+          "title": "Neue ETH-Studie: Globale Erwärmung um 3 Grad wird immer wahrscheinlicher – in der Schweiz soll es noch mehr sein",
+          "description": "Eine Studie der ETH korrigiert die Klimaprognosen massiv nach oben, weil die in der Atmosphäre gespeicherte Wärmemenge sich deutlich schneller erhöht als bisher angenommen.",
+          "source": {
+            "id": "tagesanzeiger",
+            "name": "Tages-Anzeiger"
+          },
+          "sourceCountry": "CH",
+          "language": "de",
+          "publishedAt": "2026-10-06T09:14:23.000Z",
+          "imageUrl": "https://cdn.unitycms.io/images/Bg3IRzLw4lIBJ6Ex46eA2f.jpg",
+          "countryCode": "CH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:14:23.000Z"
+    },
+    {
+      "id": "plyzxGcTPp0r",
+      "representative": {
+        "id": "plyzxGcTPp0r",
+        "url": "https://www.blick.ch/schweiz/ostschweiz/appenzell-ausserrhoden/schaf-alarm-in-niederteufen-ar/zfnzdg7",
+        "canonicalUrl": "https://www.blick.ch/schweiz/ostschweiz/appenzell-ausserrhoden/schaf-alarm-in-niederteufen-ar/zfnzdg7",
+        "title": "Schaf-Alarm in Niederteufen AR",
+        "description": "Um 00:30 Uhr standen am Dienstag in Niederteufen plötzlich rund 120 Schafe auf der Strasse. Die Herde hatte sich offenbar kollektiv für einen nächtlichen Ausflug entschieden und den wohl wolligsten Stau der Nacht verursacht.",
+        "source": {
+          "id": "blick",
+          "name": "Blick"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:06:07.000Z",
+        "imageUrl": "https://ocdn.eu/pulscms-transforms/1/tMIktkuTURBXy80NjA0ODA3MS01OTMyLTRkMTYtYjhhNy02NjdmM2EwMWZlOGIuanBlZ5KTBc0CWM0BO5MJpmQxZDkwMQY/sr66ryrb4d.jpg",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:06:07.000Z"
+    },
+    {
+      "id": "gPd24hke9Lxq",
+      "representative": {
+        "id": "gPd24hke9Lxq",
+        "url": "https://www.letemps.ch/articles/pares-au-mieux-pour-les-tiers-invisibles-grace-a-une-nouvelle-solution-de-paiement",
+        "canonicalUrl": "https://www.letemps.ch/articles/pares-au-mieux-pour-les-tiers-invisibles-grace-a-une-nouvelle-solution-de-paiement",
+        "title": "Parés au mieux pour les tiers invisibles – grâce à une nouvelle solution de paiement",
+        "description": "Les SCL Tigers ambitionnent de se hisser au sommet de l’élite suisse, et pas uniquement sur le plan sportif. Depuis cette saison, le club de hockey sur glace de l’Emmental mise sur Checkout, la solution d’encaissement de PostFinance, pour le traitement des paiements au stade. Après un essai pilote…",
+        "source": {
+          "id": "letemps",
+          "name": "Le Temps"
+        },
+        "sourceCountry": "CH",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:03:15.000Z",
+        "imageUrl": "https://letemps-17455.kxcdn.com/photos/8554c5d5-e529-4fb7-8928-ee98973d0f6b/medium",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:03:15.000Z"
+    },
+    {
+      "id": "G_1obQoDBvkE",
+      "representative": {
+        "id": "G_1obQoDBvkE",
+        "url": "https://www.letemps.ch/articles/l-affaire-jordan-bardella-etait-inscrite-dans-la-matrice-du-rassemblement-national",
+        "canonicalUrl": "https://www.letemps.ch/articles/l-affaire-jordan-bardella-etait-inscrite-dans-la-matrice-du-rassemblement-national",
+        "title": "L’affaire Jordan Bardella était inscrite dans la matrice du Rassemblement national",
+        "description": "CHRONIQUE. Que ce soit les élites, les juifs ou les immigrés, le Rassemblement national s’est toujours construit sur la dénonciation d’ennemis qui comploteraient contre le peuple français. Pour une formation dont la matrice est le populisme, il est impossible de rompre avec cela, sinon elle se…",
+        "source": {
+          "id": "letemps",
+          "name": "Le Temps"
+        },
+        "sourceCountry": "CH",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:01:36.000Z",
+        "imageUrl": "https://letemps-17455.kxcdn.com/photos/2cbcb9be-dbcf-4437-b874-59b3c1d1d7c2/medium",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:01:36.000Z"
+    },
+    {
+      "id": "f1UWKmQxNdon",
+      "representative": {
+        "id": "f1UWKmQxNdon",
+        "url": "https://www.tagesanzeiger.ch/schuelerproteste-in-frankreich-200000-demonstrierende-erwartet-947883588105",
+        "canonicalUrl": "https://www.tagesanzeiger.ch/schuelerproteste-in-frankreich-200000-demonstrierende-erwartet-947883588105",
+        "title": "1800 blockierte Gymnasien: Schülerproteste in Frankreich erreichen neuen Höhepunkt",
+        "description": "Schüler, Studenten, Eltern und Gewerkschaften – die Proteste für bessere Schulen weiten sich aus. Warum der Innenminister den Einsatz von Granaten und Gummigeschossen verteidigt.",
+        "source": {
+          "id": "tagesanzeiger",
+          "name": "Tages-Anzeiger"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:58:13.000Z",
+        "imageUrl": "https://cdn.unitycms.io/images/51lMoUwKaAv9WFp3h94xjz.jpg",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:58:13.000Z"
+    },
+    {
+      "id": "66r782M2P0W2",
+      "representative": {
+        "id": "66r782M2P0W2",
+        "url": "https://www.srf.ch/news/wirtschaft/neue-zahlen-zum-arbeitsmarkt-arbeitslosenquote-verharrt-im-september-auf-3-prozent",
+        "canonicalUrl": "https://www.srf.ch/news/wirtschaft/neue-zahlen-zum-arbeitsmarkt-arbeitslosenquote-verharrt-im-september-auf-3-prozent",
+        "title": "Neue Zahlen zum Arbeitsmarkt – Arbeitslosenquote verharrt im September auf 3 Prozent",
+        "description": "Insgesamt waren weniger Personen bei den regionalen Arbeitsvermittlungszentren (RAV) als arbeitslos gemeldet.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:51:49.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/b185de7.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:51:49.000Z"
+    },
+    {
+      "id": "nesSA5k4nPEK",
+      "representative": {
+        "id": "nesSA5k4nPEK",
+        "url": "https://www.srf.ch/news/dialog/stimmen-aus-der-community-dialog-community-die-gewaltfreie-erziehung-polarisiert",
+        "canonicalUrl": "https://www.srf.ch/news/dialog/stimmen-aus-der-community-dialog-community-die-gewaltfreie-erziehung-polarisiert",
+        "title": "Stimmen aus der Community – «dialog»-Community: Die gewaltfreie Erziehung polarisiert",
+        "description": "Was gilt als Gewalt in der Erziehung – und wo sind die Grenzen? Die «dialog»-Debatte zeigt viele offene Fragen.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:47:58.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/17e68a.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:47:58.000Z"
+    },
+    {
+      "id": "ctI_I2DC_PAt",
+      "representative": {
+        "id": "ctI_I2DC_PAt",
+        "url": "https://www.srf.ch/news/international/nahost/krieg-im-nahen-osten-mekka-allianz-beschliesst-truppeneinsatz-nach-huthi-angriff",
+        "canonicalUrl": "https://www.srf.ch/news/international/nahost/krieg-im-nahen-osten-mekka-allianz-beschliesst-truppeneinsatz-nach-huthi-angriff",
+        "title": "Krieg im Nahen Osten – Mekka-Allianz beschliesst Truppeneinsatz nach Huthi-Angriff",
+        "description": "Pakistan und Türkei unterstützen Saudi-Arabien militärisch. Hintergrund ist ein Huthi-Angriff auf Saudi-Arabien.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:47:33.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/60194f.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:47:33.000Z"
+    },
+    {
+      "id": "xpOct5AO8Z1Q",
+      "representative": {
+        "id": "xpOct5AO8Z1Q",
+        "url": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-selenski-hofft-auf-dreiertreffen-im-oktober",
+        "canonicalUrl": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-selenski-hofft-auf-dreiertreffen-im-oktober",
+        "title": "Krieg in der Ukraine – Selenski hofft auf Dreiertreffen im Oktober",
+        "description": "Das ukrainische Verhandlungsteam ist laut Selenski bereit, doch Russland müsse ebenfalls Gesprächsbereitschaft zeigen.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:47:05.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d66cb5.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:47:05.000Z"
+    }
+  ]
+}

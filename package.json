@@ -11,6 +11,7 @@
     "build": "pnpm --filter @news-globe/web build",
     "ingest": "pnpm --filter @news-globe/ingest ingest",
     "ingest:watch": "pnpm --filter @news-globe/ingest ingest:watch",
+    "probe": "pnpm --filter @news-globe/ingest probe",
     "test": "pnpm -r --if-present test",
     "typecheck": "pnpm -r --if-present typecheck"
   }

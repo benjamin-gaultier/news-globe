@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "US",
   "countryName": "United States",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
       "id": "cNgRZmeXuur4",
@@ -211,6 +211,23 @@
       },
       "related": [
         {
+          "id": "JxyrU8xIFys4",
+          "url": "https://www.cbsnews.com/video/cornell-faculty-students-protest-on-campus-over-alleged-frat-gang-rape/",
+          "canonicalUrl": "https://www.cbsnews.com/video/cornell-faculty-students-protest-on-campus-over-alleged-frat-gang-rape/",
+          "title": "Cornell faculty, students protest on campus over alleged frat gang rape",
+          "description": "Cornell students and faculty are protesting the university's handling of the alleged gang rape at the Chi Phi fraternity in 2024 that has caught the nation's attention. Lilia Luciano reports.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:55:35.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
           "id": "dvfhHr47lvNQ",
           "url": "https://abcnews.com/US/wireStory/cornell-building-sprayed-graffiti-blasting-schools-response-gang-137008360",
           "canonicalUrl": "https://abcnews.com/US/wireStory/cornell-building-sprayed-graffiti-blasting-schools-response-gang-137008360",
@@ -226,28 +243,11 @@
           "imageUrl": "https://s.abcnews.com/images/US/wirestory_70d74249bc779480975f3b2a4166ee97_16x9_1600.jpg",
           "countryCode": "US",
           "regionCode": null
-        },
-        {
-          "id": "H6lwnf1nHPbJ",
-          "url": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
-          "canonicalUrl": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
-          "title": "Cornell students vandalize on-campus wall over university's handling of alleged rape case",
-          "description": "There is growing backlash against Cornell University as more information comes out about the Ivy League school's original response to an alleged gang rape two years ago inside a frat house on campus. Lilia Luciano reports.",
-          "source": {
-            "id": "cbs",
-            "name": "CBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T23:49:05.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
         }
       ],
       "outletCount24h": 3,
       "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T08:42:14.000Z"
+      "latestPublishedAt": "2026-10-06T12:55:35.000Z"
     },
     {
       "id": "KD83YcPxnU3t",
@@ -440,7 +440,7 @@
         },
         "sourceCountry": "US",
         "language": "en",
-        "publishedAt": "2026-10-06T09:03:34.000Z",
+        "publishedAt": "2026-10-06T09:03:35.000Z",
         "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06pol-house-democrats-01-qfkg/06pol-house-democrats-01-qfkg-mediumSquareAt3X.jpg",
         "countryCode": "US",
         "regionCode": null
@@ -575,7 +575,7 @@
         "id": "WKhqKlefgEN9",
         "url": "https://www.pbs.org/newshour/politics/watch-live-trump-campaigns-with-ricketts-in-nebraska-where-ranchers-have-beef-with-his-import-plan",
         "canonicalUrl": "https://www.pbs.org/newshour/politics/watch-live-trump-campaigns-with-ricketts-in-nebraska-where-ranchers-have-beef-with-his-import-plan",
-        "title": "WATCH LIVE: Trump campaigns with Ricketts in Nebraska, where ranchers have beef with his import plan",
+        "title": "WATCH: Trump campaigns with Ricketts in Nebraska, where ranchers have beef with his import plan",
         "description": "The Trump administration's plan to allow more imports of foreign beef has particularly roiled the agriculture-rich state of Nebraska.",
         "source": {
           "id": "pbs",

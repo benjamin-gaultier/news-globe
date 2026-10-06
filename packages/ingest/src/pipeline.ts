@@ -27,6 +27,8 @@ export interface IngestOptions {
   settings?: typeof INGEST_SETTINGS;
   now?: () => number;
   log?: (msg: string) => void;
+  /** Build from the HTTP cache only, without any request. */
+  offline?: boolean;
 }
 
 export interface IngestSummary {
@@ -56,6 +58,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
     minIntervalMs: settings.minFetchIntervalMs - settings.fetchIntervalSlackMs,
     timeoutMs: settings.fetchTimeoutMs,
     now: () => runStart,
+    offline: opts.offline,
   });
 
   // Fetch: outlets in parallel, feeds within an outlet sequentially.

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IT",
   "countryName": "Italy",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
       "id": "JjekBcF_1Kfk",
@@ -36,7 +36,7 @@
           },
           "sourceCountry": "IT",
           "language": "it",
-          "publishedAt": "2026-10-06T12:57:24.000Z",
+          "publishedAt": "2026-10-06T13:16:57.000Z",
           "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/06/133249307-038547b5-6eb9-4971-89bd-67b4d060e782.jpg",
           "countryCode": "IT",
           "regionCode": null
@@ -46,14 +46,14 @@
           "url": "https://www.ilsole24ore.com/art/legge-elettorale-ok-camera-fiducia-sull-articolo-1-AJgbkraB",
           "canonicalUrl": "https://www.ilsole24ore.com/art/legge-elettorale-ok-camera-fiducia-sull-articolo-1-AJgbkraB",
           "title": "Legge elettorale, ok della Camera alla fiducia sull’articolo 1",
-          "description": "L’Aula di Montecitorio ha approvato con 226 voti a favore e 147 contrari la fiducia posta dal governo sull’articolo 1 della legge elettorale. Tre gli astenuti. L’articolo, tra le altre...",
+          "description": "L’Aula di Montecitorio ha approvato con 226 voti a favore e 147 contrari la fiducia posta dal governo sull’articolo 1 della legge elettorale. Tre gli astenuti. L’articolo contiene le regole...",
           "source": {
             "id": "sole24ore",
             "name": "Il Sole 24 Ore"
           },
           "sourceCountry": "IT",
           "language": "it",
-          "publishedAt": "2026-10-06T12:55:54.000Z",
+          "publishedAt": "2026-10-06T12:55:00.000Z",
           "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/07/Immagini/Ritagli/cameramit-U05572070321TIz-1440x752@IlSole24Ore-Web.jpg",
           "countryCode": "IT",
           "regionCode": null
@@ -95,7 +95,7 @@
       ],
       "outletCount24h": 5,
       "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T12:57:24.000Z"
+      "latestPublishedAt": "2026-10-06T13:16:57.000Z"
     },
     {
       "id": "KbM4nGd0UOa2",
@@ -577,6 +577,54 @@
       "latestPublishedAt": "2026-10-06T06:22:13.000Z"
     },
     {
+      "id": "XC66kgcywnLz",
+      "representative": {
+        "id": "XC66kgcywnLz",
+        "url": "https://bologna.repubblica.it/cronaca/2026/10/06/news/cgil_esposto_striscioni_nessuno_straniero_scuola-425629298/?rss",
+        "canonicalUrl": "https://bologna.repubblica.it/cronaca/2026/10/06/news/cgil_esposto_striscioni_nessuno_straniero_scuola-425629298/?rss=",
+        "title": "“A scuola nessuno è straniero”, esposto Cgil in Procura contro gli striscioni strappati o bruciati",
+        "description": "Non solo Casalecchio, dove oggi è stato riappeso: episodi anche a Bologna, Valsamoggia, Sant’Agata. Il sindacato: “Sarebbe importante che anche il provveditore denunciasse”. Conti: “Gesti assurdi e antistorici”",
+        "source": {
+          "id": "repubblica",
+          "name": "la Repubblica"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T13:12:02.000Z",
+        "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-bologna/2026/10/06/134316051-5792d072-d8c2-49b0-82e2-23c5d01c4d90.jpg",
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:12:02.000Z"
+    },
+    {
+      "id": "w8CYIB4UvQYG",
+      "representative": {
+        "id": "w8CYIB4UvQYG",
+        "url": "https://www.repubblica.it/politica/2026/10/06/news/violenza_donne_cyberbullismo_governo_meloni_pd_protesta-425629448/?rss",
+        "canonicalUrl": "https://www.repubblica.it/politica/2026/10/06/news/violenza_donne_cyberbullismo_governo_meloni_pd_protesta-425629448/?rss=",
+        "title": "Governo toglie 8 milioni a fondo contro violenza sulle donne per darli a cyberbullismo. Pd protesta",
+        "description": "La deputata De Biase attacca: \"Arrivati a questo punto, una domanda alla presidente del Consiglio appare urgente: ha un problema con la lotta alla violenza sulle donne?\"",
+        "source": {
+          "id": "repubblica",
+          "name": "la Repubblica"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T13:09:27.000Z",
+        "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/06/150916869-f346eef1-8989-474d-9f94-42821d773af1.jpg",
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:09:27.000Z"
+    },
+    {
       "id": "XqkrUAVxW7Rz",
       "representative": {
         "id": "XqkrUAVxW7Rz",
@@ -599,54 +647,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:57:24.000Z"
-    },
-    {
-      "id": "1JAyfr372Ahn",
-      "representative": {
-        "id": "1JAyfr372Ahn",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/morte-di-davis-rossi-il-fratello-suicidio-non-ci-avrebbe-mai-salutato-cosi_0f622011-5447-4d26-949e-c856a2e1c428.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/morte-di-davis-rossi-il-fratello-suicidio-non-ci-avrebbe-mai-salutato-cosi_0f622011-5447-4d26-949e-c856a2e1c428.html",
-        "title": "Morte di Davis Rossi, il fratello: 'Suicidio? Non ci avrebbe mai salutato così'",
-        "description": "'Le indagini sono state fatte male'",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-06T12:51:09.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:51:09.000Z"
-    },
-    {
-      "id": "T657OKEOVyql",
-      "representative": {
-        "id": "T657OKEOVyql",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/non-punibile-chi-circuisce-il-coniuge-incapace-consulta-boccia-la-legge_5a656cd2-3793-4bb2-b3c5-cad6f3f9eb21.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/non-punibile-chi-circuisce-il-coniuge-incapace-consulta-boccia-la-legge_5a656cd2-3793-4bb2-b3c5-cad6f3f9eb21.html",
-        "title": "Non punibile chi circuisce il coniuge incapace, Consulta boccia la legge",
-        "description": "'E' anacronistica, bilanciare la tutela della famiglia ed i diritti dei singoli'",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-06T12:50:37.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:50:37.000Z"
     }
   ]
 }

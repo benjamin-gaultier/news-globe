@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "KE",
+  "countryName": "Kenya",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
+  "clusters": [
+    {
+      "id": "6NaTt_HPy4nK",
+      "representative": {
+        "id": "6NaTt_HPy4nK",
+        "url": "https://nation.africa/kenya/videos/ebola-alert-kenya-registers-first-fatality-in-nairobi-5621282",
+        "canonicalUrl": "https://nation.africa/kenya/videos/ebola-alert-kenya-registers-first-fatality-in-nairobi-5621282",
+        "title": "Ebola alert: Kenya registers first fatality in Nairobi",
+        "description": null,
+        "source": {
+          "id": "nation_ke",
+          "name": "Daily Nation"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:07:44.000Z",
+        "imageUrl": null,
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "xkQSuLfvE99o",
+          "url": "https://capitalfm.africa/what-is-bundibugyo-ebola-the-strain-behind-kenyas-first-case/",
+          "canonicalUrl": "https://capitalfm.africa/what-is-bundibugyo-ebola-the-strain-behind-kenyas-first-case/",
+          "title": "What is Bundibugyo Ebola? The strain behind Kenya’s first case",
+          "description": "Kenya’s confirmed case involves Bundibugyo virus, a species first identified during an outbreak in Uganda’s Bundibugyo District in 2007.",
+          "source": {
+            "id": "capitalfm",
+            "name": "Capital FM"
+          },
+          "sourceCountry": "KE",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:12:47.000Z",
+          "imageUrl": null,
+          "countryCode": "KE",
+          "regionCode": null
+        },
+        {
+          "id": "1Qnc7H-54Ki6",
+          "url": "https://www.tuko.co.ke/kenya/642189-kenyas-ebola-patient-a-timeline-movements-drc-nairobi/",
+          "canonicalUrl": "https://www.tuko.co.ke/kenya/642189-kenyas-ebola-patient-a-timeline-movements-drc-nairobi/",
+          "title": "Kenya's first Ebola patient: A timeline of movements from DRC to Nairobi",
+          "description": "Kenya’s first Ebola patient travelled from the DRC via Uganda to Nairobi on October 3. Authorities are tracing 28 contacts and 23 flight passengers in Kenya.",
+          "source": {
+            "id": "tuko",
+            "name": "Tuko"
+          },
+          "sourceCountry": "KE",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:54:02.000Z",
+          "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/d4c6a2f2bf064e2c.jpeg?v=1",
+          "countryCode": "KE",
+          "regionCode": null
+        },
+        {
+          "id": "_zIu7Xx-2ljT",
+          "url": "https://www.kenyans.co.ke/news/127622-kenya-confirms-first-ebola-case-cs-duale-announces",
+          "canonicalUrl": "https://www.kenyans.co.ke/news/127622-kenya-confirms-first-ebola-case-cs-duale-announces",
+          "title": "Kenya Confirms First Ebola Case in Nairobi, CS Duale Announces",
+          "description": "Health CS Duale made the announcement while addressing the press on Tuesday, noting that the patient had passed away from the disease.",
+          "source": {
+            "id": "kenyans",
+            "name": "Kenyans.co.ke"
+          },
+          "sourceCountry": "KE",
+          "language": "en",
+          "publishedAt": "2026-10-06T08:22:29.000Z",
+          "imageUrl": null,
+          "countryCode": "KE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T13:12:47.000Z"
+    },
+    {
+      "id": "g9FrjI_8tulE",
+      "representative": {
+        "id": "g9FrjI_8tulE",
+        "url": "https://www.kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape",
+        "canonicalUrl": "https://www.kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape",
+        "title": "Kenya Railways Seeks Experts as Nairobi Electric Train Project Takes Shape",
+        "description": "Under the wider plan, the Ksh65 billion railway network is expected to serve parts of Nairobi, Kiambu, Machakos, Kajiado and Murang’a counties.",
+        "source": {
+          "id": "kenyans",
+          "name": "Kenyans.co.ke"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T07:53:12.000Z",
+        "imageUrl": null,
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "z8C9IYLBJGNT",
+          "url": "https://www.tuko.co.ke/business-economy/642178-kenya-railways-invites-experts-apply-nairobi-electric-train-project/",
+          "canonicalUrl": "https://www.tuko.co.ke/business-economy/642178-kenya-railways-invites-experts-apply-nairobi-electric-train-project/",
+          "title": "Kenya Railways invites experts to apply for KSh 65 billion Nairobi electric train project",
+          "description": "Kenya Railways seeks consultants for Nairobi commuter rail electrification, a KSh 65bn World Bank-backed project, and applications close on 26-27 October.",
+          "source": {
+            "id": "tuko",
+            "name": "Tuko"
+          },
+          "sourceCountry": "KE",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:06:37.000Z",
+          "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/9ecb08ed79afbef2.jpeg?v=1",
+          "countryCode": "KE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:06:37.000Z"
+    },
+    {
+      "id": "ErMRQn1ZLql4",
+      "representative": {
+        "id": "ErMRQn1ZLql4",
+        "url": "https://www.tuko.co.ke/world/africa/642183-ash-dykes-shares-preparations-plans-navigate-congo-basin-inflatable-kayak/",
+        "canonicalUrl": "https://www.tuko.co.ke/world/africa/642183-ash-dykes-shares-preparations-plans-navigate-congo-basin-inflatable-kayak/",
+        "title": "Ash Dykes shares preparations as he plans to navigate Congo Basin in an inflatable kayak",
+        "description": "Ash Dykes reveals plans for a 700km solo kayak expedition down the Sangha River, carrying an inflatable kayak to avoid hippos in the dangerous Congo Basin.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:17:13.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/97a584ce8d788e7d.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:17:13.000Z"
+    },
+    {
+      "id": "oUj3jjNayCPx",
+      "representative": {
+        "id": "oUj3jjNayCPx",
+        "url": "https://www.tuko.co.ke/kenya/642208-former-chief-justice-david-maragas-sister-dies-age-107/",
+        "canonicalUrl": "https://www.tuko.co.ke/kenya/642208-former-chief-justice-david-maragas-sister-dies-age-107/",
+        "title": "Former chief justice David Maraga's sister dies at age 107",
+        "description": "Former chief justice David Maraga mourned his sister, Sabina Kemunto Otiambo, who died aged 107. The family said she will be buried in Kericho county on October 9.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:14:17.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/66e5f87df207fdc8.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:14:17.000Z"
+    },
+    {
+      "id": "dGtiEscedcxA",
+      "representative": {
+        "id": "dGtiEscedcxA",
+        "url": "https://www.tuko.co.ke/people/family/642210-former-mp-dalmas-otienos-son-graduates-gsu-soldier/",
+        "canonicalUrl": "https://www.tuko.co.ke/people/family/642210-former-mp-dalmas-otienos-son-graduates-gsu-soldier/",
+        "title": "Former MP Dalmas Otieno's Son Graduates as GSU Soldier: \"He's Smiling on You\"",
+        "description": "Dalmas Otieno’s widow marked one year since his death as their son graduated from the GSU, calling the timing a poignant link to his father’s legacy and duty.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:10:35.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/f36deebe00982e64.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:10:35.000Z"
+    },
+    {
+      "id": "9UhwxBCW2Ch-",
+      "representative": {
+        "id": "9UhwxBCW2Ch-",
+        "url": "https://www.tuko.co.ke/people/642207-kenyan-graduate-education-degree-works-security-guard-sparks-debate/",
+        "canonicalUrl": "https://www.tuko.co.ke/people/642207-kenyan-graduate-education-degree-works-security-guard-sparks-debate/",
+        "title": "Kenyan graduate now working as security guard reveals harsh reality after earning degree",
+        "description": "A Kenyan graduate’s viral video contrasts a lecturer’s job guarantee with the reality of working as a security guard, highlighting graduate unemployment today.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:10:16.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/9fd89f343ae51cf6.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:10:16.000Z"
+    },
+    {
+      "id": "YkyInWoE2YLw",
+      "representative": {
+        "id": "YkyInWoE2YLw",
+        "url": "https://capitalfm.africa/nps-steps-up-road-safety-enforcement-after-salama-crash-as-accidents-rise/",
+        "canonicalUrl": "https://capitalfm.africa/nps-steps-up-road-safety-enforcement-after-salama-crash-as-accidents-rise/",
+        "title": "NPS steps up road safety enforcement after Salama crash as accidents rise",
+        "description": "NAIROBI, Kenya, Oct 6— The National Police Service has announced intensified road safety enforcement and targeted operations across the country following a recent surge in fatal crashes, including the Salama…",
+        "source": {
+          "id": "capitalfm",
+          "name": "Capital FM"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:03:58.000Z",
+        "imageUrl": null,
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:03:58.000Z"
+    },
+    {
+      "id": "bSBNqlnsG_6u",
+      "representative": {
+        "id": "bSBNqlnsG_6u",
+        "url": "https://www.tuko.co.ke/facts-lifehacks/guides/642196-types-police-uniforms-kenya-a-guide-colours-ranks-roles/",
+        "canonicalUrl": "https://www.tuko.co.ke/facts-lifehacks/guides/642196-types-police-uniforms-kenya-a-guide-colours-ranks-roles/",
+        "title": "Types of police uniforms in Kenya: A guide to colours, ranks, and roles",
+        "description": "Explore Kenya police uniforms, ranks and the 2026 changes, from the new light-blue KPS shirt to APS and GSU jungle green and DCI plainclothes and insignia.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:00:06.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/854f882578914e4c.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:06.000Z"
+    },
+    {
+      "id": "OHuDeoormU5u",
+      "representative": {
+        "id": "OHuDeoormU5u",
+        "url": "https://www.tuko.co.ke/people/family/642193-kenyan-woman-gulf-shows-rental-houses-family-built-money-home-god-restoration/",
+        "canonicalUrl": "https://www.tuko.co.ke/people/family/642193-kenyan-woman-gulf-shows-rental-houses-family-built-money-home-god-restoration/",
+        "title": "Kenyan woman shows rental houses family built with money she sent home from Gulf",
+        "description": "A Kenyan woman working in the Gulf has wowed netizens after showing rental houses her family built with money she sent home, calling it a season of restoration.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:57:30.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/c819acee68b285b2.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:57:30.000Z"
+    },
+    {
+      "id": "ts2ppeDN6vGH",
+      "representative": {
+        "id": "ts2ppeDN6vGH",
+        "url": "https://www.tuko.co.ke/entertainment/celebrities/642194-njugush-takes-kitchen-duties-kids-wholesome-family-video/",
+        "canonicalUrl": "https://www.tuko.co.ke/entertainment/celebrities/642194-njugush-takes-kitchen-duties-kids-wholesome-family-video/",
+        "title": "Njugush takes on kitchen duties with his kids in wholesome family video",
+        "description": "Njugush cooks ugali with his children in a funny kitchen video, as fans praised their banter and reflected on his life as a dad now after splitting from Wakavinye.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:51:57.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/1e399ee9b7712bf2.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:51:57.000Z"
+    },
+    {
+      "id": "Kw9HyuidqamO",
+      "representative": {
+        "id": "Kw9HyuidqamO",
+        "url": "https://www.tuko.co.ke/kenya/counties/642205-trans-nzoia-host-national-mazingira-day-2026-presidential-green-challenge/",
+        "canonicalUrl": "https://www.tuko.co.ke/kenya/counties/642205-trans-nzoia-host-national-mazingira-day-2026-presidential-green-challenge/",
+        "title": "Trans Nzoia to Host National Mazingira Day 2026 and Presidential Green Challenge",
+        "description": "Trans Nzoia hosts Kenya’s National Mazingira Day on 10 October, with a 5.1 million-tree Presidential Green Challenge supporting the 15 billion trees goal.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:44:41.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/797b940e8cdf8e5c.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:44:41.000Z"
+    },
+    {
+      "id": "ce5uttKtDU9w",
+      "representative": {
+        "id": "ce5uttKtDU9w",
+        "url": "https://capitalfm.africa/singoei-allays-fears-of-ebola-spread-says-mere-contact-does-not-lead-to-infection/",
+        "canonicalUrl": "https://capitalfm.africa/singoei-allays-fears-of-ebola-spread-says-mere-contact-does-not-lead-to-infection/",
+        "title": "Sing’oei allays fears of Ebola spread, says ‘mere contact does not lead to infection’",
+        "description": "NAIROBI, Kenya, Oct 6— Foreign Affairs Principal Secretary Korir Sing’oei has sought to reassure Kenyans following the death of the country’s first confirmed Ebola patient, saying “mere contact” with an…",
+        "source": {
+          "id": "capitalfm",
+          "name": "Capital FM"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:34:01.000Z",
+        "imageUrl": null,
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:34:01.000Z"
+    },
+    {
+      "id": "1W8N4-uzCIL0",
+      "representative": {
+        "id": "1W8N4-uzCIL0",
+        "url": "https://www.tuko.co.ke/business-economy/642192-sorrow-prominent-zimbabwean-businessman-dies-54/",
+        "canonicalUrl": "https://www.tuko.co.ke/business-economy/642192-sorrow-prominent-zimbabwean-businessman-dies-54/",
+        "title": "Sorrow as another prominent Zimbabwean businessman dies at 54",
+        "description": "Former Bikita West MP Munyaradzi Kereke has died aged 54 in Harare, months after completing a 10-year sentence, following a decline in his health in October.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:33:32.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/86773395ccc947c2.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:33:32.000Z"
+    },
+    {
+      "id": "XsfySDhJb78T",
+      "representative": {
+        "id": "XsfySDhJb78T",
+        "url": "https://capitalfm.africa/ebola-alert-can-money-food-or-handshakes-spread-ebola/",
+        "canonicalUrl": "https://capitalfm.africa/ebola-alert-can-money-food-or-handshakes-spread-ebola/",
+        "title": "Ebola alert: Can money, food or handshakes spread Ebola?",
+        "description": "NAIROBI, Kenya Oct 6 – Kenya on Tuesday confirmed its first imported case of Bundibugyo Ebola virus, triggering public concern over how easily the deadly disease can spread. The Ministry…",
+        "source": {
+          "id": "capitalfm",
+          "name": "Capital FM"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:32:57.000Z",
+        "imageUrl": null,
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:32:57.000Z"
+    },
+    {
+      "id": "IBQWcORMAmc0",
+      "representative": {
+        "id": "IBQWcORMAmc0",
+        "url": "https://www.tuko.co.ke/entertainment/celebrities/642175-machachari-actress-cindy-narrates-battle-alcoholism-shares-how-tv-show-led-addiction/",
+        "canonicalUrl": "https://www.tuko.co.ke/entertainment/celebrities/642175-machachari-actress-cindy-narrates-battle-alcoholism-shares-how-tv-show-led-addiction/",
+        "title": "Machachari actress Cindy narrates battle with alcoholism, shares how TV show led to addiction",
+        "description": "Machachari actress Cindy, who played Mama Stella, reveals how fame fuelled her alcohol addiction, the toll it took and the turning point that led to sobriety.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:25:20.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/a65f85da9323ebb8.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:25:20.000Z"
+    }
+  ]
+}

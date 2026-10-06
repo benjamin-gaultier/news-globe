@@ -19,7 +19,7 @@ interface CacheFile {
   entries: Record<string, CacheEntry>;
 }
 
-export type FetchOutcome = 'fetched' | 'not-modified' | 'throttled' | 'error';
+export type FetchOutcome = 'fetched' | 'not-modified' | 'throttled' | 'offline' | 'error';
 
 export interface CachedFetchResult {
   outcome: FetchOutcome;
@@ -35,6 +35,8 @@ export interface HttpCacheOptions {
   timeoutMs: number;
   fetchImpl?: typeof fetch;
   now?: () => number;
+  /** Serve cached items only and never touch the network (e.g. to test clustering on a dev machine). */
+  offline?: boolean;
 }
 
 /**
@@ -72,6 +74,9 @@ export class HttpCache {
     const now = this.opts.now?.() ?? Date.now();
     const entry = this.data.entries[url];
 
+    if (this.opts.offline) {
+      return { outcome: 'offline', items: entry?.items ?? [], retrievedAt: entry?.retrievedAt };
+    }
     if (entry && now - Date.parse(entry.lastAttemptAt) < this.opts.minIntervalMs) {
       return { outcome: 'throttled', items: entry.items, retrievedAt: entry.retrievedAt };
     }

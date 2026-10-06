@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "CL",
+  "countryName": "Chile",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
+  "clusters": [
+    {
+      "id": "XWCajd0ZCLM1",
+      "representative": {
+        "id": "XWCajd0ZCLM1",
+        "url": "https://www.latercera.com/nacional/noticia/carabinero-de-franco-frustra-a-disparos-robo-de-vehiculo-en-puente-alto/",
+        "canonicalUrl": "https://www.latercera.com/nacional/noticia/carabinero-de-franco-frustra-a-disparos-robo-de-vehiculo-en-puente-alto/",
+        "title": "Carabinero de franco frustra a disparos robo de vehículo en Puente Alto",
+        "description": "Tras los hechos, los sujetos se dieron a la fuga en dirección desconocida.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:11:01.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/ETZJYERA2RDIHC4RDANBZYNWAA.jpg?auth=cbab81f60df8c3b8692dbef9e4845656300e41bf005e7cda04cdc3c881999dce&smart=true&width=5552&height=3702",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Pee77ILhRip8",
+          "url": "https://www.lanacion.cl/carabinero-de-franco-frustro-a-disparos-robo-de-vehiculo-en-puente-alto-nina-de-tres-anos-iba-a-bordo/",
+          "canonicalUrl": "https://www.lanacion.cl/carabinero-de-franco-frustro-a-disparos-robo-de-vehiculo-en-puente-alto-nina-de-tres-anos-iba-a-bordo/",
+          "title": "Carabinero de franco frustró a disparos robo de vehículo en Puente Alto: niña de tres años iba a bordo",
+          "description": "Un funcionario de Carabineros que se encontraba de franco utilizó su arma particular para repeler un robo con intimidación en Puente Alto, durante las últimas horas del lunes. El hecho ocurrió en calle Juan de Dios Malebrán. En este lugar una familia había estacionado su vehículo para realizar…",
+          "source": {
+            "id": "lanacion_cl",
+            "name": "La Nación"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:14:00.000Z",
+          "imageUrl": null,
+          "countryCode": "CL",
+          "regionCode": null
+        },
+        {
+          "id": "ZN2mIS78jyX8",
+          "url": "https://www.cooperativa.cl/noticias/pais/policial/carabinero-de-franco-frustro-a-disparos-un-intento-de-robo-a-familia-en/2026-10-06/073108.html",
+          "canonicalUrl": "https://www.cooperativa.cl/noticias/pais/policial/carabinero-de-franco-frustro-a-disparos-un-intento-de-robo-a-familia-en/2026-10-06/073108.html",
+          "title": "Carabinero de franco frustró a disparos un intento de robo a familia en Puente Alto",
+          "description": "Un carabinero de franco frustró a disparos un intento de robo armado contra una familia durante la noche de este lunes en la capitalina comuna de Puente Alto , evitando la sustracción del auto en el que se trasladaban dos adultos y su hija de tres años. Según la información policial, el incidente…",
+          "source": {
+            "id": "cooperativa",
+            "name": "Cooperativa"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:31:08.000Z",
+          "imageUrl": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000320261006073108.jpg",
+          "countryCode": "CL",
+          "regionCode": null
+        },
+        {
+          "id": "bEP-0twbRiBj",
+          "url": "https://www.adnradio.cl/2026/10/06/carabinero-de-franco-frustra-a-disparos-encerrona-contra-matrimonio-en-puente-alto-nina-de-3-anos-iba-al-interior/",
+          "canonicalUrl": "https://www.adnradio.cl/2026/10/06/carabinero-de-franco-frustra-a-disparos-encerrona-contra-matrimonio-en-puente-alto-nina-de-3-anos-iba-al-interior/",
+          "title": "Carabinero de franco frustra a disparos encerrona contra matrimonio en Puente Alto: niña de 3 años iba al interior",
+          "description": "El funcionario policial presenció el asalto mientras estaba en su día libre y abrió fuego contra los cuatro sujetos armados",
+          "source": {
+            "id": "adnradio",
+            "name": "ADN Radio"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:22:33.000Z",
+          "imageUrl": "https://www.adnradio.cl/resizer/v2/6L7CAA7FBZC7ZGDE457AFER4FU.jpeg?auth=9e180c89a020fd5b2f346704e23399e51b8e198015822c5eaf1cfc5c0e0eea50&width=4920&height=3280&smart=true",
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:14:00.000Z"
+    },
+    {
+      "id": "Fe1ARI0c5cdp",
+      "representative": {
+        "id": "Fe1ARI0c5cdp",
+        "url": "https://www.latercera.com/nacional/noticia/detienen-a-cuatro-integrantes-de-banda-vinculada-a-robos-de-cobre-por-cerca-de-500-millones-en-antofagasta/",
+        "canonicalUrl": "https://www.latercera.com/nacional/noticia/detienen-a-cuatro-integrantes-de-banda-vinculada-a-robos-de-cobre-por-cerca-de-500-millones-en-antofagasta/",
+        "title": "Detienen a cuatro integrantes de banda vinculada a robos de cobre por cerca de $500 millones en Antofagasta",
+        "description": "Tres de los imputados integrarían el brazo operativo de la organización y el cuarto sería uno de los receptadores del metal sustraído desde faenas mineras, trenes y transportes de carga. Todos quedaron en prisión preventiva.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-05T23:03:19.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/3HKO7YUEYFGRDL5N334AOXL5XU.jpeg?auth=2c0dca9830e8337f52ca265aed02589416c5e10dfe12126a214b2331b9bea705&smart=true&width=1227&height=701",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "eUg_Bmpu_48Y",
+          "url": "https://www.lanacion.cl/capturan-a-brazo-operativo-de-banda-dedicada-al-robo-de-cobre-en-antofagasta/",
+          "canonicalUrl": "https://www.lanacion.cl/capturan-a-brazo-operativo-de-banda-dedicada-al-robo-de-cobre-en-antofagasta/",
+          "title": "Capturan a brazo operativo de banda dedicada al robo de cobre en Antofagasta",
+          "description": "Un importante golpe al mercado ilícito del robo de cobre concretaron la Fiscalía Regional de Antofagasta y Carabineros. Esto con la detención de cuatro integrantes de una organización que, al menos desde diciembre de 2024, operó entre las comunas de Mejillones y Calama, afectando tanto a faenas…",
+          "source": {
+            "id": "lanacion_cl",
+            "name": "La Nación"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T13:07:26.000Z",
+          "imageUrl": null,
+          "countryCode": "CL",
+          "regionCode": null
+        },
+        {
+          "id": "b4W3tXYG1aJn",
+          "url": "https://www.theclinic.cl/2026/10/06/cae-brazo-operativo-de-banda-dedicada-al-robo-de-cobre-desde-faenas-mineras-y-trenes-en-antofagasta-avaluo-alcanza-los-500-millones/",
+          "canonicalUrl": "https://www.theclinic.cl/2026/10/06/cae-brazo-operativo-de-banda-dedicada-al-robo-de-cobre-desde-faenas-mineras-y-trenes-en-antofagasta-avaluo-alcanza-los-500-millones/",
+          "title": "Cae brazo operativo de banda dedicada al robo de cobre desde faenas mineras y trenes en Antofagasta: Avalúo alcanza los $500 millones",
+          "description": "La investigación entre el Ministerio Público y el OS9 de Carabineros permitió identificar a cuatro sujetos que estarían vinculados con al menos 10 robos. De ellos, tres se encargaban de materializar los atracos, mientras que el restante recepcionaba los cátodos sustraídos. The post Cae brazo…",
+          "source": {
+            "id": "theclinic",
+            "name": "The Clinic"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T03:01:57.000Z",
+          "imageUrl": null,
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:07:26.000Z"
+    },
+    {
+      "id": "mdoTQ4ly4TmD",
+      "representative": {
+        "id": "mdoTQ4ly4TmD",
+        "url": "https://www.latercera.com/nacional/noticia/investigacion-por-hombre-baleado-en-penalolen-deriva-en-hallazgo-de-taller-clandestino-de-armas/",
+        "canonicalUrl": "https://www.latercera.com/nacional/noticia/investigacion-por-hombre-baleado-en-penalolen-deriva-en-hallazgo-de-taller-clandestino-de-armas/",
+        "title": "Investigación por hombre baleado en Peñalolén deriva en hallazgo de taller clandestino de armas",
+        "description": "El inmueble fue registrado por personal de Carabineros, tras ser sindicado como el lugar donde eventualmente se ocultaba el autor del ataque. En el lugar fueron halladas municiones, piezas y elementos destinados a fabricar o modificar armamento.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-05T22:31:17.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/PKDACC7LGVGDBIXNBX4OVMEBAY.jpeg?auth=9996dc2d7f415703f3a343f935fe6a415bcd5c66902299e8706b37001bffe88f&smart=true&width=1280&height=960",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "JUj193PHe3_G",
+          "url": "https://www.cooperativa.cl/noticias/pais/policial/carabineros-desbarato-taller-clandestino-de-armas-en-penalolen/2026-10-05/214652.html",
+          "canonicalUrl": "https://www.cooperativa.cl/noticias/pais/policial/carabineros-desbarato-taller-clandestino-de-armas-en-penalolen/2026-10-05/214652.html",
+          "title": "Carabineros desbarató taller clandestino de armas en Peñalolén",
+          "description": "Carabineros desbarató un taller clandestino de fabricación y modificación de armas de fuego en Peñalolén , luego que un hombre resultara herido en una de sus piernas. El mayor Nicolás Sepúlveda detalló que \"una persona adulta llega con dos impactos balísticos en una de sus extremidades inferiores…",
+          "source": {
+            "id": "cooperativa",
+            "name": "Cooperativa"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T00:46:52.000Z",
+          "imageUrl": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005214652.jpg",
+          "countryCode": "CL",
+          "regionCode": null
+        },
+        {
+          "id": "A1dbfZTsoS9U",
+          "url": "https://www.adnradio.cl/2026/10/05/operativo-por-hombre-baleado-termina-con-hallazgo-de-taller-clandestino-de-armas-en-penalolen/",
+          "canonicalUrl": "https://www.adnradio.cl/2026/10/05/operativo-por-hombre-baleado-termina-con-hallazgo-de-taller-clandestino-de-armas-en-penalolen/",
+          "title": "Operativo por hombre baleado termina con hallazgo de taller clandestino de armas en Peñalolén",
+          "description": "El registro de un domicilio permitió incautar armamento, municiones y herramientas, además de detener al encargado del inmueble.",
+          "source": {
+            "id": "adnradio",
+            "name": "ADN Radio"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T00:37:24.000Z",
+          "imageUrl": "https://www.adnradio.cl/resizer/v2/CYJSTS344ZDPXCK2YMPVEBE2BA.jpeg?auth=e49768b53df8430bc5126f786d745b29e8edd78e32ffdb08cf7c4b551f69c850&width=1280&height=960&smart=true",
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T00:46:52.000Z"
+    },
+    {
+      "id": "snw1nWzueleC",
+      "representative": {
+        "id": "snw1nWzueleC",
+        "url": "https://www.latercera.com/pulso/noticia/todos-los-fondos-de-pensiones-registran-perdidas-y-el-e-lidera-los-retrocesos/",
+        "canonicalUrl": "https://www.latercera.com/pulso/noticia/todos-los-fondos-de-pensiones-registran-perdidas-y-el-e-lidera-los-retrocesos/",
+        "title": "Todos los fondos de pensiones registran pérdidas y el E lidera los retrocesos",
+        "description": "Según el reporte mensual de la Superintendencia de Pensiones, la rentabilidad de los fondos tipo D y E fue la más golpeada por las pérdidas de las inversiones en renta fija local y la Bolsa chilena, llevándolos a cerrar con caídas en términos reales de 4,19% y 4,92%, respectivamente.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-05T21:39:03.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/4ZJK43ORTFCZNMND7C5FXPPKMA.JPG?auth=16d1ca562d75b099f709d5c1b3be0ec1e47bfbdf34d5c88093fe73cad983894d&smart=true&width=5488&height=3472",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "KCoXSrT7PyMD",
+          "url": "https://www.lanacion.cl/todos-los-fondos-de-pensiones-cerraron-septiembre-de-2026-con-perdidas/",
+          "canonicalUrl": "https://www.lanacion.cl/todos-los-fondos-de-pensiones-cerraron-septiembre-de-2026-con-perdidas/",
+          "title": "Todos los fondos de pensiones cerraron septiembre de 2026 con pérdidas",
+          "description": "Un entorno internacional desfavorable para la renta fija y mixto para la renta variable, pero principalmente el magro desempeño del mercado nacional de deuda y accionario, son los factores detrás de la caída generalizada de los fondos de pensiones chilenos en septiembre pasado. De acuerdo con los…",
+          "source": {
+            "id": "lanacion_cl",
+            "name": "La Nación"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:05:00.000Z",
+          "imageUrl": null,
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:05:00.000Z"
+    },
+    {
+      "id": "m4a4sFvSfPp3",
+      "representative": {
+        "id": "m4a4sFvSfPp3",
+        "url": "https://www.adnradio.cl/2026/10/06/por-su-descubrimiento-sobre-neutrinos-este-es-el-cientifico-ganador-del-premio-nobel-de-fisica-2026/",
+        "canonicalUrl": "https://www.adnradio.cl/2026/10/06/por-su-descubrimiento-sobre-neutrinos-este-es-el-cientifico-ganador-del-premio-nobel-de-fisica-2026/",
+        "title": "Por su descubrimiento sobre neutrinos: este es el científico ganador del Premio Nobel de Física 2026",
+        "description": "El físico belga Francis Halzen recibió el Nobel de Física 2026 por sus aportes al observatorio IceCube y al descubrimiento de neutrinos de alta energía.",
+        "source": {
+          "id": "adnradio",
+          "name": "ADN Radio"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:03:13.000Z",
+        "imageUrl": "https://www.adnradio.cl/resizer/v2/XHOKXGN2EFCGNIHPS5HZKIHET4.jpg?auth=30940caadcd22101ce79f19c5b05a201d415df70416e345ef42fa3803b770200&width=1024&height=768&focal=536%2C341",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "hu_zv4xkoB0C",
+          "url": "https://www.lanacion.cl/premio-nobel-de-fisica-es-otorgado-a-francis-halzen-por-el-descubrimiento-de-neutrinos-de-alta-energia-de-origen-astrofisico/",
+          "canonicalUrl": "https://www.lanacion.cl/premio-nobel-de-fisica-es-otorgado-a-francis-halzen-por-el-descubrimiento-de-neutrinos-de-alta-energia-de-origen-astrofisico/",
+          "title": "Premio Nobel de Física es otorgado a Francis Halzen por el descubrimiento de neutrinos de alta energía de origen astrofísico",
+          "description": "El científico belga, Francis Halzen, fue galardonado este martes con el Premio Nobel de Física 2026 por sus contribuciones al Observatorio de Neutrinos IceCube. Y por el descubrimiento de neutrinos de alta energía de origen astrofísico. “La Real Academia de Ciencias de Suecia ha decidido otorgar…",
+          "source": {
+            "id": "lanacion_cl",
+            "name": "La Nación"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:59:22.000Z",
+          "imageUrl": null,
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:59:22.000Z"
+    },
+    {
+      "id": "EujynB7yCLHq",
+      "representative": {
+        "id": "EujynB7yCLHq",
+        "url": "https://www.adnradio.cl/2026/10/06/nicolas-cordova-rompe-el-silencio-tras-la-polemica-con-marcelino-nunez-yo-no-lo-eche-de-la-seleccion/",
+        "canonicalUrl": "https://www.adnradio.cl/2026/10/06/nicolas-cordova-rompe-el-silencio-tras-la-polemica-con-marcelino-nunez-yo-no-lo-eche-de-la-seleccion/",
+        "title": "Nicolás Córdova rompe el silencio tras la polémica con Marcelino Núñez: “Yo no lo eché de la selección”",
+        "description": "Tras días de especulación, el entrenador de La Roja se refirió a la salida del futbolista del Ipswich Town de la convocatoria.",
+        "source": {
+          "id": "adnradio",
+          "name": "ADN Radio"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T03:30:37.000Z",
+        "imageUrl": "https://www.adnradio.cl/resizer/v2/74QUTQF6SVG65OVWU5PK6RJ6BU.jpg?auth=01c7a592585d9b9ff02c3350a63af9c2c6f7bbb90902b821d8d5c9a522458d14&width=1200&height=800&smart=true",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "tFx0LawCS0KK",
+          "url": "https://www.lanacion.cl/cordova-entrego-su-version-sobre-la-salida-de-marcelino-nunez-de-la-roja-no-es-que-yo-lo-eche-de-la-seleccion/",
+          "canonicalUrl": "https://www.lanacion.cl/cordova-entrego-su-version-sobre-la-salida-de-marcelino-nunez-de-la-roja-no-es-que-yo-lo-eche-de-la-seleccion/",
+          "title": "Córdova entregó su versión sobre la salida de Marcelino Núñez de La Roja: “No es que yo lo eché de la selección”",
+          "description": "El técnico interino de la selección chilena, Nicolás Córdova, habló en la antesala al amistoso de este martes ante México, y entregó su versión sobre la polémica salida de Marcelino Núñez de La Roja. Para seguir leyendo esta nota haz clic aquí, en el sitio web de Triunfo. The post Córdova entregó…",
+          "source": {
+            "id": "lanacion_cl",
+            "name": "La Nación"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:48:00.000Z",
+          "imageUrl": null,
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:48:00.000Z"
+    },
+    {
+      "id": "WZtQDCeluliD",
+      "representative": {
+        "id": "WZtQDCeluliD",
+        "url": "https://www.latercera.com/pulso/noticia/gobierno-ingresa-proyecto-de-presupuesto-con-solicitud-de-endeudamiento-por-us25-mil-millones/",
+        "canonicalUrl": "https://www.latercera.com/pulso/noticia/gobierno-ingresa-proyecto-de-presupuesto-con-solicitud-de-endeudamiento-por-us25-mil-millones/",
+        "title": "Gobierno ingresa proyecto de Ley de Presupuestos 2027 con solicitud de endeudamiento por US$25 mil millones",
+        "description": "Esta cifra es mayor a lo solicitado en el último presupuesto del gobierno de Gabriel Boric que fue de US$17.400 millones.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-05T20:36:37.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/IFRYBY4UBJDTRDUYAXBNQHZCAY.jpg?auth=0d975a963c650df3a0a4b8b6ed50111809e028b467904f1b5c7b7f113b2bdb9a&smart=true&width=2048&height=1365",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "9_nAtuQbo278",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-oposicion-cuestiono-solicitud-de-endeudamiento-por-25-mil/2026-10-06/080808.html",
+          "canonicalUrl": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-oposicion-cuestiono-solicitud-de-endeudamiento-por-25-mil/2026-10-06/080808.html",
+          "title": "Presupuesto: Oposición cuestionó solicitud de endeudamiento por 25 mil millones de dólares",
+          "description": "El Congreso da inicio este martes a la tramitación legislativa del proyecto de Ley de Presupuestos 2027 , iniciativa que contempla un erario fiscal superior a los 105,8 billones de pesos y casi 6.300 millones de dólares . El ingreso formal del texto desató una controversia política en el…",
+          "source": {
+            "id": "cooperativa",
+            "name": "Cooperativa"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:08:08.000Z",
+          "imageUrl": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000520261006080808.jpg",
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:08:08.000Z"
+    },
+    {
+      "id": "BJWwSrk-oiHV",
+      "representative": {
+        "id": "BJWwSrk-oiHV",
+        "url": "https://www.latercera.com/nacional/noticia/exsubsecretaria-de-la-mujer-daniela-castro-renuncia-a-rn-a-casi-cuatro-meses-de-su-salida-del-gobierno/",
+        "canonicalUrl": "https://www.latercera.com/nacional/noticia/exsubsecretaria-de-la-mujer-daniela-castro-renuncia-a-rn-a-casi-cuatro-meses-de-su-salida-del-gobierno/",
+        "title": "Exsubsecretaria de la Mujer Daniela Castro renuncia a RN a casi cuatro meses de su salida del gobierno",
+        "description": "La abogada comunicó su desafiliación tras 11 años en la colectividad. “Cierro esta etapa con tristeza, pero también con la tranquilidad de haber actuado de acuerdo con mis convicciones”, señaló.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T02:54:53.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/IMXPOYJDU5AVPCZNIPCDQMNSDU.jpeg?auth=912362fc873c421818aab256b20092d6d340c19d2376aa1301c9ffa6e39d6e3a&smart=true&width=1080&height=975",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "a5SV4mH0_3i8",
+          "url": "https://www.adnradio.cl/2026/10/05/exsubsecretaria-de-la-mujer-renuncia-a-renovacion-nacional-tras-salida-del-gobierno/",
+          "canonicalUrl": "https://www.adnradio.cl/2026/10/05/exsubsecretaria-de-la-mujer-renuncia-a-renovacion-nacional-tras-salida-del-gobierno/",
+          "title": "Exsubsecretaria de la Mujer renuncia a Renovación Nacional tras salida del Gobierno",
+          "description": "redes sociales, sin precisar los motivos de su determinación.",
+          "source": {
+            "id": "adnradio",
+            "name": "ADN Radio"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-05T23:51:28.000Z",
+          "imageUrl": "https://www.adnradio.cl/resizer/v2/AAMSZSIC2FAURHN2ZQ3YDVHGZ4.jpeg?auth=fc9ddbc1ae4b9d7967a39a62019780c46cf585bc928672501f09b049a637a7bd&width=1600&height=1066&smart=true",
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T02:54:53.000Z"
+    },
+    {
+      "id": "33RMxSMHA6On",
+      "representative": {
+        "id": "33RMxSMHA6On",
+        "url": "https://www.latercera.com/nacional/noticia/expareja-de-influencer-antofagastina-recibe-cadena-perpetua-calificada-por-su-femicidio/",
+        "canonicalUrl": "https://www.latercera.com/nacional/noticia/expareja-de-influencer-antofagastina-recibe-cadena-perpetua-calificada-por-su-femicidio/",
+        "title": "Expareja de influencer antofagastina recibe cadena perpetua calificada por femicidio",
+        "description": "Javiera Jiménez desapareció en agosto de 2022 cuando iba camino a Calama junto a Andrés Sutar. Tras darle muerte, el sujeto quemó el cuerpo en el desierto y lo ocultó con piedras. La búsqueda de la mujer se prolongó por más de un año.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-05T23:56:17.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/HVA4UXFI2JCFZLSQJ2QSK3XS2Q.jpg?auth=4b89d162a4f2a3e9d755e0698e4719c5a7d1138e94c634b25b361806a91857ca&smart=true&width=1950&height=1300",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "XX50T5WUtXRZ",
+          "url": "https://www.cooperativa.cl/noticias/pais/policial/femicidio/asesino-de-la-influencer-antofagastina-javiera-jimenez-recibio-cadena/2026-10-05/235302.html",
+          "canonicalUrl": "https://www.cooperativa.cl/noticias/pais/policial/femicidio/asesino-de-la-influencer-antofagastina-javiera-jimenez-recibio-cadena/2026-10-05/235302.html",
+          "title": "Asesino de la influencer antofagastina Javiera Jiménez recibió cadena perpetua",
+          "description": "El Tribunal de Juicio Oral en lo Penal de Antofagasta sentenció este lunes, por unanimidad, a Andrés Sutar Araya a la pena de presidio perpetuo calificado en calidad de autor del femicidio íntimo de Javiera Jiménez Galleguillos . La joven -que tenía 23 años y era conocida como influencer…",
+          "source": {
+            "id": "cooperativa",
+            "name": "Cooperativa"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T02:53:02.000Z",
+          "imageUrl": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005235302.jpeg",
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T02:53:02.000Z"
+    },
+    {
+      "id": "0Rkm8kR-qJ1K",
+      "representative": {
+        "id": "0Rkm8kR-qJ1K",
+        "url": "https://www.latercera.com/pulso/noticia/chile-sube-nueve-puestos-en-ranking-mundial-de-libertad-economica-y-recupera-el-liderato-de-la-region/",
+        "canonicalUrl": "https://www.latercera.com/pulso/noticia/chile-sube-nueve-puestos-en-ranking-mundial-de-libertad-economica-y-recupera-el-liderato-de-la-region/",
+        "title": "Chile sube nueve puestos en ranking mundial de libertad económica y recupera el liderato de la región",
+        "description": "El informe de Fraser Institute posiciona al país en el lugar 20, subiendo nueve puestos respecto a la medición pasada. Venezuela y Argentina son los países de Latinoamérica con peor desempeño en el ranking.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-05T23:46:13.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/SUOOAJFMAFHUDACRESZRGFJX7Q.png?auth=122451f7038b54100ac8295df0b714380f4364362746eb7d52d017bcbeba51be&smart=true&width=2842&height=1990",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "5GhFbPTs086j",
+          "url": "https://www.adnradio.cl/2026/10/05/chile-alcanza-el-puesto-20-mundial-y-recupera-el-liderazgo-regional-en-libertad-economica/",
+          "canonicalUrl": "https://www.adnradio.cl/2026/10/05/chile-alcanza-el-puesto-20-mundial-y-recupera-el-liderazgo-regional-en-libertad-economica/",
+          "title": "Chile alcanza el puesto 20 mundial y recupera el liderazgo regional en libertad económica",
+          "description": "El país elevó su puntaje a 7,85, con avances en cuatro de las cinco áreas evaluadas por el Fraser Institute.",
+          "source": {
+            "id": "adnradio",
+            "name": "ADN Radio"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-06T01:49:37.000Z",
+          "imageUrl": "https://www.adnradio.cl/resizer/v2/THWPASTV75CM7DWEBID56WTRUM.jpeg?auth=9d31261d0266c430f5163c183dc3e8882a8cb3adc989cce34ec96fd4778a3fdd&width=4000&height=2667&smart=true",
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T01:49:37.000Z"
+    },
+    {
+      "id": "i7xGiaa3LiJX",
+      "representative": {
+        "id": "i7xGiaa3LiJX",
+        "url": "https://www.latercera.com/el-deportivo/noticia/argentina-vs-benin-donde-y-a-que-hora-ver-la-despedida-de-lionel-messi-de-la-albiceleste/",
+        "canonicalUrl": "https://www.latercera.com/el-deportivo/noticia/argentina-vs-benin-donde-y-a-que-hora-ver-la-despedida-de-lionel-messi-de-la-albiceleste/",
+        "title": "Argentina vs. Benín: dónde y a qué hora ver la despedida de Lionel Messi de la Albiceleste",
+        "description": "Este martes se juega el último partido de la Pulga en el combinado de su país.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-05T21:17:51.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/33HGWH457ZCVTEIDB5FSZUK6VY.JPG?auth=c4c7ed9ecfa45810ef562f6ec74ffa87f74ddbcc82d5020975d1e8de37737435&smart=true&width=8112&height=5269",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "67Y76cZHPebq",
+          "url": "https://www.adnradio.cl/2026/10/05/messi-se-despide-de-la-seleccion-a-que-hora-es-que-canal-transmite-y-como-ver-en-vivo-el-argentina-vs-benin-en-chile/",
+          "canonicalUrl": "https://www.adnradio.cl/2026/10/05/messi-se-despide-de-la-seleccion-a-que-hora-es-que-canal-transmite-y-como-ver-en-vivo-el-argentina-vs-benin-en-chile/",
+          "title": "Messi se despide de la selección: a qué hora es, qué canal transmite y cómo ver en vivo el Argentina vs. Benín en Chile",
+          "description": "El “10” jugará su último partido con la camiseta albiceleste.",
+          "source": {
+            "id": "adnradio",
+            "name": "ADN Radio"
+          },
+          "sourceCountry": "CL",
+          "language": "es",
+          "publishedAt": "2026-10-05T23:28:24.000Z",
+          "imageUrl": "https://www.adnradio.cl/resizer/v2/LI55CI2IONDZTIO2XHXEZHR57I.jpg?auth=7aad794036f4d064af884c820d41b328d74e43f6419aa5333cb5ea83c0439b4f&width=4268&height=2845&smart=true",
+          "countryCode": "CL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T23:28:24.000Z"
+    },
+    {
+      "id": "0wlym_9ZuF05",
+      "representative": {
+        "id": "0wlym_9ZuF05",
+        "url": "http://www.df.cl/economia-y-politica/macro/banco-mundial-se-sube-a-ola-de-recortes-de-pib-para-chile-este-ano-pero",
+        "canonicalUrl": "http://www.df.cl/economia-y-politica/macro/banco-mundial-se-sube-a-ola-de-recortes-de-pib-para-chile-este-ano-pero",
+        "title": "Banco Mundial se sube a ola de recortes de PIB para Chile este año pero estima un repunte de hasta 3% en 2027",
+        "description": "El organismo ahora espera una expansión del Producto Interno Bruto de 0,8%, aún por encima de las oficiales del Banco Central y más altas que las del mercado.",
+        "source": {
+          "id": "df_cl",
+          "name": "Diario Financiero"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:25:15.000Z",
+        "imageUrl": null,
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:25:15.000Z"
+    },
+    {
+      "id": "PLCNoL8c3ic6",
+      "representative": {
+        "id": "PLCNoL8c3ic6",
+        "url": "https://www.theclinic.cl/2026/10/06/de-jair-a-flavio-bolsonaro-los-vinculos-de-kast-con-la-familia-que-podria-volver-al-poder-y-el-principe-que-se-convirtio-en-su-nexo-en-brasil/",
+        "canonicalUrl": "https://www.theclinic.cl/2026/10/06/de-jair-a-flavio-bolsonaro-los-vinculos-de-kast-con-la-familia-que-podria-volver-al-poder-y-el-principe-que-se-convirtio-en-su-nexo-en-brasil/",
+        "title": "De Jair a Flávio Bolsonaro: los vínculos de Kast con la familia que podría volver al poder y el “Príncipe” que se convirtió en su nexo en Brasil",
+        "description": "Desde el primer encuentro con Jair Bolsonaro en 2018 hasta el diálogo que sostuvo con Flávio el pasado 11 de marzo, el Presidente ha cultivado una relación con el clan brasileño que incluye a Eduardo Bolsonaro y al diputado Luiz Philippe de Orléans e Bragança, conocido como “el Príncipe”. En medio…",
+        "source": {
+          "id": "theclinic",
+          "name": "The Clinic"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:24:51.000Z",
+        "imageUrl": null,
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:24:51.000Z"
+    },
+    {
+      "id": "g8tBC2CYlJX0",
+      "representative": {
+        "id": "g8tBC2CYlJX0",
+        "url": "https://www.adnradio.cl/2026/10/06/kast-promulga-ley-que-amplia-plazo-de-flagrancia-y-pide-al-congreso-la-urgencia-necesaria-para-avanzar-en-seguridad/",
+        "canonicalUrl": "https://www.adnradio.cl/2026/10/06/kast-promulga-ley-que-amplia-plazo-de-flagrancia-y-pide-al-congreso-la-urgencia-necesaria-para-avanzar-en-seguridad/",
+        "title": "Kast promulga ley que amplía plazo de flagrancia y pide al Congreso “la urgencia necesaria” para avanzar en seguridad",
+        "description": "La normativa extiende los plazos de detención y permite a las policías requerir registros de cámaras y antecedentes de testigos sin instrucción previa del fiscal.",
+        "source": {
+          "id": "adnradio",
+          "name": "ADN Radio"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:24:35.000Z",
+        "imageUrl": "https://www.adnradio.cl/resizer/v2/T2YABDNMPBES3KIPHQKEV4IWNM.jpg?auth=075924b44e73d0b55b3ae04021a09ea1defb12fd508dbc34bc7e2fc1726e353a&width=5472&height=3648&smart=true",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:24:35.000Z"
+    },
+    {
+      "id": "_pIetm8GD1_I",
+      "representative": {
+        "id": "_pIetm8GD1_I",
+        "url": "https://www.lanacion.cl/copiloto-acusado-de-atacar-a-piloto-de-flydubai-estuvo-6-meses-formandose-en-nueva-zelanda-antes-del-incidente/",
+        "canonicalUrl": "https://www.lanacion.cl/copiloto-acusado-de-atacar-a-piloto-de-flydubai-estuvo-6-meses-formandose-en-nueva-zelanda-antes-del-incidente/",
+        "title": "Copiloto acusado de atacar a piloto de Flydubai estuvo 6 meses formándose en Nueva Zelanda antes del incidente",
+        "description": "El copiloto de un vuelo de Flydubai acusado de atacar al piloto pasó 175 días en Nueva Zelanda entre 2018 y 2019, donde completó parte de su formación aeronáutica. La información fue confirmada este martes por la Policía de Nueva Zelanda, que detalló que el hombre permaneció en el país con un…",
+        "source": {
+          "id": "lanacion_cl",
+          "name": "La Nación"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:24:19.000Z",
+        "imageUrl": null,
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:24:19.000Z"
+    }
+  ]
+}
