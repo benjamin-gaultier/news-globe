@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MX",
   "countryName": "Mexico",
-  "updatedAt": "2026-10-06T15:01:56.292Z",
+  "updatedAt": "2026-10-06T15:32:48.958Z",
   "clusters": [
     {
       "id": "5HUopp0WwYAv",
@@ -274,107 +274,6 @@
       "latestPublishedAt": "2026-10-05T21:28:35.000Z"
     },
     {
-      "id": "KtJUkOFOKHmz",
-      "representative": {
-        "id": "KtJUkOFOKHmz",
-        "url": "https://www.elfinanciero.com.mx/empresas/2026/10/05/registro-obligatorio-de-celulares-crt-suspende-22-millones-de-lineas-con-terminacion-3/",
-        "canonicalUrl": "https://www.elfinanciero.com.mx/empresas/2026/10/05/registro-obligatorio-de-celulares-crt-suspende-22-millones-de-lineas-con-terminacion-3/",
-        "title": "Registro obligatorio de celulares: CRT suspende 2.2 millones de líneas con terminación ‘3′",
-        "description": "Más de 9 millones de líneas celulares con terminación '3' fueron registradas, informó la Comisión Reguladora.",
-        "source": {
-          "id": "elfinanciero",
-          "name": "El Financiero"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-05T19:45:05.000Z",
-        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/DtNJGzy24eXBtyNoGvlOdf-rR5U=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/RFBHCRMK3RBIDDWBNYZGQ72AAA.png",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "L-xPm0Ru4gus",
-          "url": "https://oem.com.mx/elsoldemexico/finanzas/crt-reactiva-1-2-millones-de-lineas-terminadas-en-3-siguiente-corte-el-15-de-octubre-32445547",
-          "canonicalUrl": "https://oem.com.mx/elsoldemexico/finanzas/crt-reactiva-1-2-millones-de-lineas-terminadas-en-3-siguiente-corte-el-15-de-octubre-32445547",
-          "title": "CRT reactiva 1.2 millones de líneas terminadas en 3; siguiente corte el 15 de octubre",
-          "description": "La Comisión reportó 91.8 millones de números vinculados al 4 de octubre; 87.3 por ciento de las líneas con terminación 3 ya completó el trámite",
-          "source": {
-            "id": "soldemexico",
-            "name": "El Sol de México"
-          },
-          "sourceCountry": "MX",
-          "language": "es",
-          "publishedAt": "2026-10-05T15:09:26.000Z",
-          "imageUrl": null,
-          "countryCode": "MX",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:45:05.000Z"
-    },
-    {
-      "id": "atlvj88OYg1C",
-      "representative": {
-        "id": "atlvj88OYg1C",
-        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-no-hay-evidencia-de-disparos-en-contra-de-elementos-de-la-guardia-costera-de-eu-embajador-johnson-denuncio-el-hecho/",
-        "canonicalUrl": "https://www.eluniversal.com.mx/nacion/sheinbaum-no-hay-evidencia-de-disparos-en-contra-de-elementos-de-la-guardia-costera-de-eu-embajador-johnson-denuncio-el-hecho/",
-        "title": "Sheinbaum: no hay evidencia de disparos en contra de elementos de la Guardia Costera de EU; embajador Johnson denunció el hecho",
-        "description": null,
-        "source": {
-          "id": "eluniversal",
-          "name": "El Universal"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-05T15:31:30.000Z",
-        "imageUrl": "https://www.eluniversal.com.mx/resizer/v2/FIDQA5MSMBHGVGUUJAEFBOYOZQ.jpg?auth=0b5d225e7ca458797a69fe8c4b527762fcd8382f850dcfccf3a8083f2b2a64b6&smart=true&width=500",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Tg14P28PkgKG",
-          "url": "https://www.elfinanciero.com.mx/nacional/2026/10/05/hubo-disparos-desde-mexico-contra-la-guardia-costera-de-eu-sheinbaum-pide-pruebas/",
-          "canonicalUrl": "https://www.elfinanciero.com.mx/nacional/2026/10/05/hubo-disparos-desde-mexico-contra-la-guardia-costera-de-eu-sheinbaum-pide-pruebas/",
-          "title": "¿Hubo disparos desde México contra la Guardia Costera de EU? Sheinbaum pide pruebas",
-          "description": "La presidenta Sheinbaum recordó que México y EU realizan la 'Operación Espejo' en la frontera.",
-          "source": {
-            "id": "elfinanciero",
-            "name": "El Financiero"
-          },
-          "sourceCountry": "MX",
-          "language": "es",
-          "publishedAt": "2026-10-05T19:39:04.000Z",
-          "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/1uAC2PJPRBM3D8RR5_y46WMwaCQ=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/2EF2OONYKJGJLK4N44CBIN5BM4.jpg",
-          "countryCode": "MX",
-          "regionCode": null
-        },
-        {
-          "id": "7LTJDHhhGQby",
-          "url": "https://oem.com.mx/elsoldemexico/mexico/no-tenemos-evidencias-sheinbaum-sobre-presuntos-disparos-desde-mexico-contra-guardia-costera-de-eu-32443230",
-          "canonicalUrl": "https://oem.com.mx/elsoldemexico/mexico/no-tenemos-evidencias-sheinbaum-sobre-presuntos-disparos-desde-mexico-contra-guardia-costera-de-eu-32443230",
-          "title": "No tenemos evidencias: Sheinbaum sobre presuntos disparos desde México contra Guardia Costera de EU",
-          "description": "Indicó que las Fuerzas Armadas no tiene evidencias, pero efectuarán operativos espejos en la frontera",
-          "source": {
-            "id": "soldemexico",
-            "name": "El Sol de México"
-          },
-          "sourceCountry": "MX",
-          "language": "es",
-          "publishedAt": "2026-10-05T12:00:00.000Z",
-          "imageUrl": null,
-          "countryCode": "MX",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-05T19:39:04.000Z"
-    },
-    {
       "id": "84j7ASHW7Klb",
       "representative": {
         "id": "84j7ASHW7Klb",
@@ -541,6 +440,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:08:01.000Z"
+    },
+    {
+      "id": "ex3RywTCMMN_",
+      "representative": {
+        "id": "ex3RywTCMMN_",
+        "url": "https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2026/10/06/cidh-plantea-como-ejercer-el-presupuesto-de-salud/",
+        "canonicalUrl": "https://www.elfinanciero.com.mx/opinion/colaborador-invitado/2026/10/06/cidh-plantea-como-ejercer-el-presupuesto-de-salud/",
+        "title": "CIDH plantea cómo ejercer el presupuesto de salud",
+        "description": "La CIDH plantea que la disciplina fiscal debe evitar subejercicios y garantizar la ejecución oportuna del gasto en servicios esenciales de salud.",
+        "source": {
+          "id": "elfinanciero",
+          "name": "El Financiero"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:00:00.000Z",
+        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/07q9bg4F6_9hEA26SeSEKI0t5-U=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/T52XG2KC3RA23C5ZWUHWLAGAWM.jpg",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "Krp0FDrfJMPP",
+      "representative": {
+        "id": "Krp0FDrfJMPP",
+        "url": "https://expansion.mx/opinion/2026/10/06/nuestra-proxima-tasa-de-interes-podria-decidirla-un-algoritmo",
+        "canonicalUrl": "https://expansion.mx/opinion/2026/10/06/nuestra-proxima-tasa-de-interes-podria-decidirla-un-algoritmo",
+        "title": "Nuestra próxima tasa de interés podría decidirla un algoritmo",
+        "description": "La inteligencia artificial permitirá a los bancos calcular mejor el riesgo de cada cliente, pero también abre una pregunta: ¿podremos saber por qué nos cobran una determinada tasa?",
+        "source": {
+          "id": "expansion",
+          "name": "Expansión"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:59:45.000Z",
+        "imageUrl": "https://cdn-3.expansion.mx/dims4/default/9e212fb/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcherry-brightspot.s3.amazonaws.com%2Fmedia%2F2011%2F08%2F12%2Fespeculador-inversion-bolsa-indice.jpg",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:59:45.000Z"
     }
   ]
 }

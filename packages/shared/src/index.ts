@@ -158,4 +158,13 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   DO: { code: 'DO', name: 'Dominican Republic', lat: 18.8, lng: -70.3, altitude: 0.7 },
   EC: { code: 'EC', name: 'Ecuador', lat: -1.5, lng: -78.3, altitude: 1.0 },
   CR: { code: 'CR', name: 'Costa Rica', lat: 9.8, lng: -84, altitude: 0.7 },
+  SN: { code: 'SN', name: 'Senegal', lat: 14.5, lng: -14.5, altitude: 0.9 },
+  CI: { code: 'CI', name: "Côte d'Ivoire", lat: 7.5, lng: -5.5, altitude: 1.0 },
+  BF: { code: 'BF', name: 'Burkina Faso', lat: 12.3, lng: -1.6, altitude: 1.0 },
+  ML: { code: 'ML', name: 'Mali', lat: 17.5, lng: -4, altitude: 1.5 },
+  BJ: { code: 'BJ', name: 'Benin', lat: 9.3, lng: 2.3, altitude: 0.8 },
+  MG: { code: 'MG', name: 'Madagascar', lat: -19, lng: 46.7, altitude: 1.3 },
+  ZM: { code: 'ZM', name: 'Zambia', lat: -13.5, lng: 27.8, altitude: 1.3 },
+  MW: { code: 'MW', name: 'Malawi', lat: -13.3, lng: 34, altitude: 0.9 },
+  LK: { code: 'LK', name: 'Sri Lanka', lat: 7.8, lng: 80.7, altitude: 0.7 },
 };

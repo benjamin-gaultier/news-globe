@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "VE",
   "countryName": "Venezuela",
-  "updatedAt": "2026-10-06T15:01:56.292Z",
+  "updatedAt": "2026-10-06T15:32:48.958Z",
   "clusters": [
     {
       "id": "lGEtTq--cXu_",
@@ -188,48 +188,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:42:32.000Z"
-    },
-    {
-      "id": "AEbjqIlBFno9",
-      "representative": {
-        "id": "AEbjqIlBFno9",
-        "url": "https://www.elnacional.com/2026/10/cecodap-118-adolescentes-fueron-acusados-en-el-pais-por-delitos-de-odio-entre-2024-y-2025/",
-        "canonicalUrl": "https://www.elnacional.com/2026/10/cecodap-118-adolescentes-fueron-acusados-en-el-pais-por-delitos-de-odio-entre-2024-y-2025/",
-        "title": "Cecodap: 118 adolescentes fueron acusados en el país por delitos de odio entre 2024 y 2025",
-        "description": "\"No es solo una cifra. Son adolescentes que enfrentaron miedo, angustia e incertidumbre\", denunció el coordinador general de la ONG, Carlos Trapani. The post Cecodap: 118 adolescentes fueron acusados en el país por delitos de odio entre 2024 y 2025 appeared first on EL NACIONAL .",
-        "source": {
-          "id": "elnacional_ve",
-          "name": "El Nacional"
-        },
-        "sourceCountry": "VE",
-        "language": "es",
-        "publishedAt": "2026-10-05T15:05:00.000Z",
-        "imageUrl": null,
-        "countryCode": "VE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "HazrPkPVZ7lI",
-          "url": "https://talcualdigital.com/noticias/cecodap-reporta-118-adolescentes-acusados-por-la-ley-contra-el-odio-entre-2024-y-2025/",
-          "canonicalUrl": "https://talcualdigital.com/noticias/cecodap-reporta-118-adolescentes-acusados-por-la-ley-contra-el-odio-entre-2024-y-2025/",
-          "title": "Cecodap reporta 118 adolescentes acusados por la ley contra el odio entre 2024 y 2025",
-          "description": "El coordinador de la organización, Carlos Trapani, denunció la omisión de las garantías legales de la Lopnna en el Sistema Penal de Responsabilidad del Adolescente The post Cecodap reporta 118 adolescentes acusados por la ley contra el odio entre 2024 y 2025 appeared first on TalCual .",
-          "source": {
-            "id": "talcual",
-            "name": "TalCual"
-          },
-          "sourceCountry": "VE",
-          "language": "es",
-          "publishedAt": "2026-10-06T01:56:54.000Z",
-          "imageUrl": null,
-          "countryCode": "VE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T01:56:54.000Z"
     },
     {
       "id": "2U8tLPWj5_2Z",
@@ -488,6 +446,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:55:43.000Z"
+    },
+    {
+      "id": "1ekp4Kr8dO-d",
+      "representative": {
+        "id": "1ekp4Kr8dO-d",
+        "url": "https://www.elnacional.com/2026/10/trabajadores-electricos-de-lara-eligen-nueva-directiva-sindical-de-forma-autonoma-tras-15-anos-de-paralisis/",
+        "canonicalUrl": "https://www.elnacional.com/2026/10/trabajadores-electricos-de-lara-eligen-nueva-directiva-sindical-de-forma-autonoma-tras-15-anos-de-paralisis/",
+        "title": "Trabajadores eléctricos de Lara eligen nueva directiva sindical de forma autónoma tras 15 años de parálisis",
+        "description": "El proceso, llevado a cabo bajo el principio de autonomía sindical y sin la intermediación del CNE, movilizó a personal activo, jubilado y pensionado de Corpoelec en toda la entidad. The post Trabajadores eléctricos de Lara eligen nueva directiva sindical de forma autónoma tras 15 años de…",
+        "source": {
+          "id": "elnacional_ve",
+          "name": "El Nacional"
+        },
+        "sourceCountry": "VE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:52:00.000Z",
+        "imageUrl": null,
+        "countryCode": "VE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:52:00.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "UY",
   "countryName": "Uruguay",
-  "updatedAt": "2026-10-06T15:01:56.292Z",
+  "updatedAt": "2026-10-06T15:32:48.958Z",
   "clusters": [
     {
       "id": "ffnXnnbZGpvA",
@@ -87,48 +87,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T17:53:04.000Z"
-    },
-    {
-      "id": "mn2UI6BIGjtL",
-      "representative": {
-        "id": "mn2UI6BIGjtL",
-        "url": "https://ladiaria.com.uy/salud/articulo/2026/10/el-msp-reabre-este-lunes-la-agenda-para-vacunar-contra-el-meningococo-a-ninos-de-2-a-5-anos/",
-        "canonicalUrl": "https://ladiaria.com.uy/salud/articulo/2026/10/el-msp-reabre-este-lunes-la-agenda-para-vacunar-contra-el-meningococo-a-ninos-de-2-a-5-anos/",
-        "title": "El MSP reabre este lunes la agenda para vacunar contra el meningococo a niños de 2 a 5 años",
-        "description": "La vacunación contra la enfermedad ya alcanzó a más de 180.000 niños y adolescentes en todo el país. Este lunes, el Ministerio de Salud Pública (MSP) reabrirá, entre las 14.00 y las 17.00, la agenda para que los niños de entre 2 y 5 años puedan agendarse para recibir la vacuna contra el…",
-        "source": {
-          "id": "ladiaria",
-          "name": "la diaria"
-        },
-        "sourceCountry": "UY",
-        "language": "es",
-        "publishedAt": "2026-10-05T16:01:31.000Z",
-        "imageUrl": null,
-        "countryCode": "UY",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "e_46Y0PBplGD",
-          "url": "https://www.subrayado.com.uy/el-msp-abrio-la-agenda-vacuna-contra-el-meningococo-ninos-2-5-anos-n1019889",
-          "canonicalUrl": "https://www.subrayado.com.uy/el-msp-abrio-la-agenda-vacuna-contra-el-meningococo-ninos-2-5-anos-n1019889",
-          "title": "El MSP abrió la agenda de vacuna contra el meningococo para niños de 2 a 5 años",
-          "description": "El MSP anunció que la agenda abre este lunes a la hora 14. Es para niños de 2 a 5 años. Hasta ahora la agenda para vacuna contra el meningococo estaba abierta para niños y adolescentes de 6 a 15 años.",
-          "source": {
-            "id": "subrayado",
-            "name": "Subrayado"
-          },
-          "sourceCountry": "UY",
-          "language": "es",
-          "publishedAt": "2026-10-05T15:25:00.000Z",
-          "imageUrl": "https://media.subrayado.com.uy/p/743b924b290f157684b17e8f29ff9869/adjuntos/230/videos/004/103/0004103605/meningococo-msp.jpg",
-          "countryCode": "UY",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T16:01:31.000Z"
     },
     {
       "id": "qZwwNLG5SjYP",
@@ -417,6 +375,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:07:48.000Z"
+    },
+    {
+      "id": "A-lzXun3d5jC",
+      "representative": {
+        "id": "A-lzXun3d5jC",
+        "url": "https://www.montevideo.com.uy/auc.aspx?977659",
+        "canonicalUrl": "https://www.montevideo.com.uy/auc.aspx?977659=",
+        "title": "“Semaforicida” de Maldonado volvió a ser filmada: ahora quiso romper un foco en una plaza",
+        "description": "Vecinos grabaron a María Rosa frente a la calle Cisnes; días antes había roto otra vez las señales del cruce de avenida Lussich y Messina. Vecinos grabaron a María Rosa frente a la calle Cisnes; días antes había roto otra vez las señales del cruce de avenida Lussich y Messina.",
+        "source": {
+          "id": "montevideo",
+          "name": "Montevideo Portal"
+        },
+        "sourceCountry": "UY",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:43:00.000Z",
+        "imageUrl": "https://imagenes.montevideo.com.uy/imgnoticias/202610/_W620/974130.jpg",
+        "countryCode": "UY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:43:00.000Z"
     }
   ]
 }

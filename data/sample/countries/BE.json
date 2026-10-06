@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BE",
   "countryName": "Belgium",
-  "updatedAt": "2026-10-06T15:01:56.292Z",
+  "updatedAt": "2026-10-06T15:32:48.958Z",
   "clusters": [
     {
       "id": "kjDp6tU0_rVp",
@@ -121,6 +121,48 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T12:11:36.000Z"
+    },
+    {
+      "id": "L74mf0RyNogh",
+      "representative": {
+        "id": "L74mf0RyNogh",
+        "url": "https://www.rtbf.be/article/le-bureau-du-plan-rehausse-ses-previsions-d-inflation-la-prochaine-indexation-des-salaires-des-fonctionnaires-et-prestations-sociales-prevue-en-fevrier-11795824",
+        "canonicalUrl": "https://www.rtbf.be/article/le-bureau-du-plan-rehausse-ses-previsions-d-inflation-la-prochaine-indexation-des-salaires-des-fonctionnaires-et-prestations-sociales-prevue-en-fevrier-11795824",
+        "title": "Le Bureau du Plan rehausse ses prévisions d'inflation : la prochaine indexation des salaires des fonctionnaires et prestations sociales prévue en février",
+        "description": "Le Bureau fédéral du Plan a revu à la hausse ses prévisions d'inflation. Les prochains indices pivots devraient...",
+        "source": {
+          "id": "rtbf",
+          "name": "RTBF Info"
+        },
+        "sourceCountry": "BE",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:34:11.000Z",
+        "imageUrl": "https://static-content.rtbf.be/article/image/770x433/e/8/8/7edaf1a56b012c876705e9b25c2160f5.jpg",
+        "countryCode": "BE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "rmYtlMkgIcqa",
+          "url": "https://www.lavenir.net/actu/belgique/2026/10/06/le-bureau-du-plan-revoit-ses-previsions-dinflation-a-la-hausse-les-prochains-indices-pivots-devraient-egalement-etre-depasses-plus-tot-que-prevu-EFPHUAZSIJG33BUKZ6RI7LYL2I/",
+          "canonicalUrl": "https://www.lavenir.net/actu/belgique/2026/10/06/le-bureau-du-plan-revoit-ses-previsions-dinflation-a-la-hausse-les-prochains-indices-pivots-devraient-egalement-etre-depasses-plus-tot-que-prevu-EFPHUAZSIJG33BUKZ6RI7LYL2I/",
+          "title": "Le Bureau du Plan revoit ses prévisions d’inflation à la hausse, les prochains indices pivots devraient également être dépassés plus tôt que prévu",
+          "description": "Le Bureau fédéral du Plan table désormais sur une inflation moyenne de 3,7 % cette année et l’année prochaine, précise-t-on ce mardi 6 octobre 2026. Les prochains indices pivots devraient également être dépassés plus tôt que prévu. ...",
+          "source": {
+            "id": "lavenir",
+            "name": "L'Avenir"
+          },
+          "sourceCountry": "BE",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:31:46.000Z",
+          "imageUrl": "https://www.lavenir.net/resizer/v2/UJOGQ4S7WBHH7DY7SGOFYLJHU4.jpg?auth=a43ad774ac736e822737ba4ad43ac63fbeeb569ab2f08f02081d0c4412d48735&smart=true&width=1200&height=800",
+          "countryCode": "BE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:34:11.000Z"
     },
     {
       "id": "xk8QxBFHQ9Hh",
@@ -499,30 +541,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:25:00.000Z"
-    },
-    {
-      "id": "VCGm4Yi-h7_8",
-      "representative": {
-        "id": "VCGm4Yi-h7_8",
-        "url": "https://www.lavenir.net/regions/namur/sports/2026/10/06/football-p2b-p3c-lambiance-est-au-beau-fixe-a-gesves-PO7NM3YB55FFREVRZZF3XJTQYQ/",
-        "canonicalUrl": "https://www.lavenir.net/regions/namur/sports/2026/10/06/football-p2b-p3c-lambiance-est-au-beau-fixe-a-gesves-PO7NM3YB55FFREVRZZF3XJTQYQ/",
-        "title": "Football (P2B-P3C): L’ambiance est au beau fixe à Gesves",
-        "description": "Entre une P2 dans le haut du classement et une P3 leader, Matthéo Vanderschueren évoque la belle dynamique qui règne actuellement à Gesves. ...",
-        "source": {
-          "id": "lavenir",
-          "name": "L'Avenir"
-        },
-        "sourceCountry": "BE",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:24:00.000Z",
-        "imageUrl": "https://www.lavenir.net/resizer/v2/OOGBHX4J7BDN3BFA4VAHA277IQ.jpg?auth=ee706a9e80c52c98827927358085201bf983c1cf0e8cf2b5e27eea641a66fe00&smart=true&width=1200&height=800",
-        "countryCode": "BE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:24:00.000Z"
     }
   ]
 }
