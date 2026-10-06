@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T14:04:18.812Z",
+  "updatedAt": "2026-10-06T14:12:18.553Z",
   "clusters": [
     {
       "id": "gNIVgrBYxC0j",
@@ -248,65 +248,6 @@
       "outletCount24h": 3,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T08:15:24.000Z"
-    },
-    {
-      "id": "HF5jIIKaxEUM",
-      "representative": {
-        "id": "HF5jIIKaxEUM",
-        "url": "https://www.bbc.co.uk/news/articles/cm4g1dxe50nyo?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cm4g1dxe50nyo",
-        "title": "Jewish Greens chair says she could leave party over 'Zionism is racism' motion",
-        "description": "The motion, which has divided senior party figures, backs a \"single democratic Palestinian state in all of historic Palestine\".",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T11:23:02.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5ac/live/49bada10-c0b2-11f1-b026-53d1506ee826.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "fbMrc79CZpz8",
-          "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-england-wales-zionism-racism-vote-europe-germany",
-          "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/05/green-party-england-wales-zionism-racism-vote-europe-germany",
-          "title": "Green party of England and Wales facing international ostracism over ‘Zionism is racism’ vote",
-          "description": "European Green party says motion goes against its policy, with German Green co-leader calling it ‘intolerable and unacceptable’ Zack Polanski may rue lack of leadership when Greens needed him to act The English and Welsh Greens are facing international ostracism after adopting a policy declaring…",
-          "source": {
-            "id": "guardian",
-            "name": "The Guardian"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T19:10:43.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/0ed461b7ba5b99243767f518a70a802118d8f353/1788_279_6852_5481/master/6852.jpg?width=700&quality=85&auto=format&fit=max&s=dd980d83f9721799152413e212d9503e",
-          "countryCode": "GB",
-          "regionCode": null
-        },
-        {
-          "id": "J16iIaiAjdMN",
-          "url": "https://www.independent.co.uk/news/uk/politics/green-party-zionism-racism-labour-coalition-burnham-b3061677.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/green-party-zionism-racism-labour-coalition-burnham-b3061677.html",
-          "title": "Andy Burnham facing calls to rule out coalition deal with Greens after ‘Zionism is racism’ motion",
-          "description": "Exclusive: PM told motion should disqualify party from major public office",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T17:20:59.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/05/17/12/Burnham-Polanski-split.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-05T19:10:43.000Z"
     },
     {
       "id": "UN8LhbvlF3o6",
@@ -769,6 +710,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T09:51:02.000Z"
+    },
+    {
+      "id": "6ryb-NYcU2Br",
+      "representative": {
+        "id": "6ryb-NYcU2Br",
+        "url": "https://www.theguardian.com/music/2026/oct/06/george-fenton-oscar-nominated-british-composer-dies-aged-76-gandhi-groundhog-day-ken-loach",
+        "canonicalUrl": "https://www.theguardian.com/music/2026/oct/06/george-fenton-oscar-nominated-british-composer-dies-aged-76-gandhi-groundhog-day-ken-loach",
+        "title": "George Fenton, Oscar-nominated British composer for more than 100 films, dies aged 76",
+        "description": "Fenton’s successes include scores for Gandhi, Groundhog Day and 18 Ken Loach films, plus BBC TV news themes, Blue Planet and more George Fenton, the British composer who earned five Oscar nominations for scores to films such as Gandhi and Dangerous Liaisons, has died aged 76. A statement from his…",
+        "source": {
+          "id": "guardian",
+          "name": "The Guardian"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:24:56.000Z",
+        "imageUrl": "https://i.guim.co.uk/img/media/767b2ba56685ec09f4bbef89ab8ef7a0d6cb98cd/56_0_1388_1110/master/1388.jpg?width=700&quality=85&auto=format&fit=max&s=5718906b5509d36783fb62562b8087fb",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "LZM8SDbz1qRO",
+          "url": "https://www.standard.co.uk/news/uk/george-fenton-david-attenborough-jane-alan-bennett-ken-loach-b1299636.html",
+          "canonicalUrl": "https://www.standard.co.uk/news/uk/george-fenton-david-attenborough-jane-alan-bennett-ken-loach-b1299636.html",
+          "title": "Composer George Fenton dies aged 76",
+          "description": "Fenton died unexpectedly on Monday, CMG management said.",
+          "source": {
+            "id": "standard",
+            "name": "Evening Standard"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T22:01:01.000Z",
+          "imageUrl": "https://static.standard.co.uk/2026/10/05/20/6e2a5c1e588682e1b3f35fd8e95a0da4Y29udGVudHNlYXJjaGFwaSwxNzkxMzE0NDE4-2.81975361.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:24:56.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "NG",
   "countryName": "Nigeria",
-  "updatedAt": "2026-10-06T14:04:18.812Z",
+  "updatedAt": "2026-10-06T14:12:18.553Z",
   "clusters": [
     {
       "id": "XyO1J69YLoNr",
@@ -195,7 +195,7 @@
         },
         "sourceCountry": "NG",
         "language": "en",
-        "publishedAt": "2026-10-06T14:04:18.812Z",
+        "publishedAt": "2026-10-06T14:10:37.000Z",
         "imageUrl": "https://cdn.punchng.com/wp-content/uploads/2020/08/18131509/punch-logo-500x179-1.png",
         "countryCode": "NG",
         "regionCode": null
@@ -221,7 +221,7 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:04:18.812Z"
+      "latestPublishedAt": "2026-10-06T14:10:37.000Z"
     },
     {
       "id": "sgqG5xfVxZPH",
@@ -434,30 +434,6 @@
       "latestPublishedAt": "2026-10-06T10:53:31.000Z"
     },
     {
-      "id": "atz9d1BDuABs",
-      "representative": {
-        "id": "atz9d1BDuABs",
-        "url": "https://punchng.com/nuprc-5-my-friend-got-oil-block-without-political-connections-shettima/?utm_source=rss.punchng.com&utm_medium=web",
-        "canonicalUrl": "https://punchng.com/nuprc-5-my-friend-got-oil-block-without-political-connections-shettima/",
-        "title": "NUPRC @5: My friend got oil block without political connections – Shettima",
-        "description": "Vice President Kashim Shettima says Nigeria’s oil blocks are now awarded through open processes, citing a friend who secured one without political connecti Read More: https://punchng.com/nuprc-5-my-friend-got-oil-block-without-political-connections-shettima/",
-        "source": {
-          "id": "punch",
-          "name": "Punch"
-        },
-        "sourceCountry": "NG",
-        "language": "en",
-        "publishedAt": "2026-10-06T14:04:18.812Z",
-        "imageUrl": "https://cdn.punchng.com/wp-content/uploads/2020/08/18131509/punch-logo-500x179-1.png",
-        "countryCode": "NG",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:04:18.812Z"
-    },
-    {
       "id": "ra_vLkvPvjRV",
       "representative": {
         "id": "ra_vLkvPvjRV",
@@ -471,7 +447,7 @@
         },
         "sourceCountry": "NG",
         "language": "en",
-        "publishedAt": "2026-10-06T14:04:18.812Z",
+        "publishedAt": "2026-10-06T14:12:18.553Z",
         "imageUrl": "https://cdn.punchng.com/wp-content/uploads/2020/08/18131509/punch-logo-500x179-1.png",
         "countryCode": "NG",
         "regionCode": null
@@ -479,7 +455,31 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:04:18.812Z"
+      "latestPublishedAt": "2026-10-06T14:12:18.553Z"
+    },
+    {
+      "id": "atz9d1BDuABs",
+      "representative": {
+        "id": "atz9d1BDuABs",
+        "url": "https://punchng.com/nuprc-5-my-friend-got-oil-block-without-political-connections-shettima/?utm_source=rss.punchng.com&utm_medium=web",
+        "canonicalUrl": "https://punchng.com/nuprc-5-my-friend-got-oil-block-without-political-connections-shettima/",
+        "title": "NUPRC @5: My friend got oil block without political connections – Shettima",
+        "description": "Vice President Kashim Shettima says Nigeria’s oil blocks are now awarded through open processes, citing a friend who secured one without political connecti Read More: https://punchng.com/nuprc-5-my-friend-got-oil-block-without-political-connections-shettima/",
+        "source": {
+          "id": "punch",
+          "name": "Punch"
+        },
+        "sourceCountry": "NG",
+        "language": "en",
+        "publishedAt": "2026-10-06T14:09:53.000Z",
+        "imageUrl": "https://cdn.punchng.com/wp-content/uploads/2020/08/18131509/punch-logo-500x179-1.png",
+        "countryCode": "NG",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:09:53.000Z"
     },
     {
       "id": "KPI0k-il52ZO",

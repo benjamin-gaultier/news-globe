@@ -2,118 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "US",
   "countryName": "United States",
-  "updatedAt": "2026-10-06T14:04:18.812Z",
+  "updatedAt": "2026-10-06T14:12:18.553Z",
   "clusters": [
-    {
-      "id": "cNgRZmeXuur4",
-      "representative": {
-        "id": "cNgRZmeXuur4",
-        "url": "https://www.nytimes.com/2026/10/05/obituaries/dennis-hastert-dead.html",
-        "canonicalUrl": "https://www.nytimes.com/2026/10/05/obituaries/dennis-hastert-dead.html",
-        "title": "Dennis Hastert, Powerful Politician Disgraced by Child Sexual Abuse, Dies",
-        "description": "The longest-serving Republican speaker of the House admitted in 2016 to abusing teenage boys decades earlier. He was 84.",
-        "source": {
-          "id": "nyt",
-          "name": "The New York Times"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-05T14:09:01.000Z",
-        "imageUrl": "https://static01.nyt.com/images/2026/10/07/multimedia/00obit-hastert-01-fbkl-print1/00obit-hastert-01-fbkl-mediumSquareAt3X.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "25iNiaiLClVQ",
-          "url": "https://www.washingtonpost.com/obituaries/2026/10/05/dennis-hastert-ex-house-speaker-whose-sex-abuse-admission-upended-legacy-dies-84/",
-          "canonicalUrl": "https://www.washingtonpost.com/obituaries/2026/10/05/dennis-hastert-ex-house-speaker-whose-sex-abuse-admission-upended-legacy-dies-84/",
-          "title": "Dennis Hastert, ex-House speaker whose sex abuse admission upended legacy, dies at 84",
-          "description": "The Illinois Republican helped spearhead President George W. Bush’s legislative agenda before his career ended in disgrace.",
-          "source": {
-            "id": "wapo",
-            "name": "The Washington Post"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T15:58:13.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "31ZHA1aJh2Or",
-          "url": "https://www.pbs.org/newshour/politics/dennis-hastert-longtime-republican-house-speaker-who-went-to-prison-dies-at-age-84",
-          "canonicalUrl": "https://www.pbs.org/newshour/politics/dennis-hastert-longtime-republican-house-speaker-who-went-to-prison-dies-at-age-84",
-          "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
-          "description": "Hastert, who was speaker from 1999 until 2007 and spent more than a year in prison later in life, died Saturday of natural causes at his home while receiving hospice care.",
-          "source": {
-            "id": "pbs",
-            "name": "PBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T15:25:16.000Z",
-          "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/1999-03-26T000000Z_1610580925_RP1DRIKXCVAE_RTRMADP_3_YUGOSLAVIA-HASTERT-1-1024x688.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "CI0hpYycbERr",
-          "url": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
-          "canonicalUrl": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
-          "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
-          "description": "ennis Hastert, whose political legacy as Congress' longest-serving Republican House speaker was later fouled by allegations that he had molested high school athletes during his prior career as a teacher and wrestling coach, has died, a coroner said Monday. He was 84.",
-          "source": {
-            "id": "npr",
-            "name": "NPR"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T14:24:31.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "o4W1aC9mr237",
-          "url": "https://www.cbsnews.com/news/dennis-hastert-dies-former-house-speaker-illinois/",
-          "canonicalUrl": "https://www.cbsnews.com/news/dennis-hastert-dies-former-house-speaker-illinois/",
-          "title": "Dennis Hastert, disgraced former House speaker, dies at 84",
-          "description": "Former Speaker of the House Dennis Hastert represented Illinois for two decades in Congress and was later jailed on charges related to his concealment of hush money payments made to cover up sexual abuse.",
-          "source": {
-            "id": "cbs",
-            "name": "CBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T13:59:00.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "w5YtSN0xQQbi",
-          "url": "https://abcnews.com/Politics/wireStory/dennis-hastert-longtime-republican-house-speaker-prison-dies-137003116",
-          "canonicalUrl": "https://abcnews.com/Politics/wireStory/dennis-hastert-longtime-republican-house-speaker-prison-dies-137003116",
-          "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
-          "description": "Dennis Hastert, who served as House speaker longer than any other Republican but later was sent to prison in a hush-money case, has died",
-          "source": {
-            "id": "abc",
-            "name": "ABC News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T13:49:02.000Z",
-          "imageUrl": "https://s.abcnews.com/images/Politics/wirestory_4a04ca4b4c0741a38f4b4a7e0f2bc78c_16x9_1600.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 6,
-      "latestPublishedAt": "2026-10-05T15:58:13.000Z"
-    },
     {
       "id": "OgyCJFkbZHgm",
       "representative": {
@@ -343,6 +233,116 @@
       "latestPublishedAt": "2026-10-06T02:35:48.000Z"
     },
     {
+      "id": "cNgRZmeXuur4",
+      "representative": {
+        "id": "cNgRZmeXuur4",
+        "url": "https://www.nytimes.com/2026/10/05/obituaries/dennis-hastert-dead.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/05/obituaries/dennis-hastert-dead.html",
+        "title": "Dennis Hastert, Powerful Politician Disgraced by Child Sexual Abuse, Dies",
+        "description": "The longest-serving Republican speaker of the House admitted in 2016 to abusing teenage boys decades earlier. He was 84.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T14:09:01.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/07/multimedia/00obit-hastert-01-fbkl-print1/00obit-hastert-01-fbkl-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "25iNiaiLClVQ",
+          "url": "https://www.washingtonpost.com/obituaries/2026/10/05/dennis-hastert-ex-house-speaker-whose-sex-abuse-admission-upended-legacy-dies-84/",
+          "canonicalUrl": "https://www.washingtonpost.com/obituaries/2026/10/05/dennis-hastert-ex-house-speaker-whose-sex-abuse-admission-upended-legacy-dies-84/",
+          "title": "Dennis Hastert, ex-House speaker whose sex abuse admission upended legacy, dies at 84",
+          "description": "The Illinois Republican helped spearhead President George W. Bush’s legislative agenda before his career ended in disgrace.",
+          "source": {
+            "id": "wapo",
+            "name": "The Washington Post"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T15:58:13.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "31ZHA1aJh2Or",
+          "url": "https://www.pbs.org/newshour/politics/dennis-hastert-longtime-republican-house-speaker-who-went-to-prison-dies-at-age-84",
+          "canonicalUrl": "https://www.pbs.org/newshour/politics/dennis-hastert-longtime-republican-house-speaker-who-went-to-prison-dies-at-age-84",
+          "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
+          "description": "Hastert, who was speaker from 1999 until 2007 and spent more than a year in prison later in life, died Saturday of natural causes at his home while receiving hospice care.",
+          "source": {
+            "id": "pbs",
+            "name": "PBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T15:25:16.000Z",
+          "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/1999-03-26T000000Z_1610580925_RP1DRIKXCVAE_RTRMADP_3_YUGOSLAVIA-HASTERT-1-1024x688.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "CI0hpYycbERr",
+          "url": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
+          "canonicalUrl": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
+          "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
+          "description": "ennis Hastert, whose political legacy as Congress' longest-serving Republican House speaker was later fouled by allegations that he had molested high school athletes during his prior career as a teacher and wrestling coach, has died, a coroner said Monday. He was 84.",
+          "source": {
+            "id": "npr",
+            "name": "NPR"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T14:24:31.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "o4W1aC9mr237",
+          "url": "https://www.cbsnews.com/news/dennis-hastert-dies-former-house-speaker-illinois/",
+          "canonicalUrl": "https://www.cbsnews.com/news/dennis-hastert-dies-former-house-speaker-illinois/",
+          "title": "Dennis Hastert, disgraced former House speaker, dies at 84",
+          "description": "Former Speaker of the House Dennis Hastert represented Illinois for two decades in Congress and was later jailed on charges related to his concealment of hush money payments made to cover up sexual abuse.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T13:59:00.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "w5YtSN0xQQbi",
+          "url": "https://abcnews.com/Politics/wireStory/dennis-hastert-longtime-republican-house-speaker-prison-dies-137003116",
+          "canonicalUrl": "https://abcnews.com/Politics/wireStory/dennis-hastert-longtime-republican-house-speaker-prison-dies-137003116",
+          "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
+          "description": "Dennis Hastert, who served as House speaker longer than any other Republican but later was sent to prison in a hush-money case, has died",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T13:49:02.000Z",
+          "imageUrl": "https://s.abcnews.com/images/Politics/wirestory_4a04ca4b4c0741a38f4b4a7e0f2bc78c_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 6,
+      "latestPublishedAt": "2026-10-05T15:58:13.000Z"
+    },
+    {
       "id": "BBxxZB0Zjndl",
       "representative": {
         "id": "BBxxZB0Zjndl",
@@ -570,48 +570,6 @@
       "latestPublishedAt": "2026-10-06T02:21:45.000Z"
     },
     {
-      "id": "WKhqKlefgEN9",
-      "representative": {
-        "id": "WKhqKlefgEN9",
-        "url": "https://www.pbs.org/newshour/politics/watch-live-trump-campaigns-with-ricketts-in-nebraska-where-ranchers-have-beef-with-his-import-plan",
-        "canonicalUrl": "https://www.pbs.org/newshour/politics/watch-live-trump-campaigns-with-ricketts-in-nebraska-where-ranchers-have-beef-with-his-import-plan",
-        "title": "WATCH: Trump campaigns with Ricketts in Nebraska, where ranchers have beef with his import plan",
-        "description": "The Trump administration's plan to allow more imports of foreign beef has particularly roiled the agriculture-rich state of Nebraska.",
-        "source": {
-          "id": "pbs",
-          "name": "PBS News"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-05T14:09:24.000Z",
-        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-05T100050Z_1289964515_RC2PKNAVYI0M_RTRMADP_3_USA-ELECTION-ECONOMY-JOBS-1024x684.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "pGlVRJKjS-Wf",
-          "url": "https://abcnews.com/Politics/wireStory/trump-heads-nebraska-monday-plan-import-beef-angered-136995164",
-          "canonicalUrl": "https://abcnews.com/Politics/wireStory/trump-heads-nebraska-monday-plan-import-beef-angered-136995164",
-          "title": "Trump heads to Nebraska on Monday, where his plans for imports have angered ranchers",
-          "description": "President Donald Trump has taken his Republican midterm rescue mission to Nebraska",
-          "source": {
-            "id": "abc",
-            "name": "ABC News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-06T02:18:18.000Z",
-          "imageUrl": "https://s.abcnews.com/images/US/wirestory_106c5ad829c53b71bdf18a501fc6e07f_16x9_1600.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T02:18:18.000Z"
-    },
-    {
       "id": "LXuOAJKWinTV",
       "representative": {
         "id": "LXuOAJKWinTV",
@@ -820,6 +778,30 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T16:04:05.000Z"
+    },
+    {
+      "id": "_fJTph3p43x_",
+      "representative": {
+        "id": "_fJTph3p43x_",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-prices-yemen-red-sea-houthis-bab-el-mandeb/",
+        "canonicalUrl": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-prices-yemen-red-sea-houthis-bab-el-mandeb/",
+        "title": "Iran's Houthi allies deny losing ground as Mideast crisis engulfs Yemen",
+        "description": "Iran's Houthi allies deny losing ground to Yemen's Saudi-backed military, but oil prices ease despite the Middle East crisis erupting in a battle over control of another key waterway.",
+        "source": {
+          "id": "cbs",
+          "name": "CBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:14:38.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:14:38.000Z"
     }
   ]
 }
