@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ZA",
   "countryName": "South Africa",
-  "updatedAt": "2026-10-06T13:27:49.082Z",
+  "updatedAt": "2026-10-06T13:38:15.960Z",
   "clusters": [
     {
       "id": "cZ1xD6E6HQ2B",
@@ -333,30 +333,6 @@
       "latestPublishedAt": "2026-10-05T21:26:22.000Z"
     },
     {
-      "id": "mLMkVpz0t7E4",
-      "representative": {
-        "id": "mLMkVpz0t7E4",
-        "url": "https://www.dailymaverick.co.za/article/2026-10-06-senegal-vs-morocco-afcon-final-saga-set-to-be-heard-in-swiss-court/",
-        "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-senegal-vs-morocco-afcon-final-saga-set-to-be-heard-in-swiss-court/",
-        "title": "SOCCER INTEGRITY: Senegal vs Morocco Afcon final saga set to be heard in Swiss court",
-        "description": "On Thursday, 8 October, the Court of Arbitration for Sport will hear Senegal’s appeal against their stripping of the 2025 Africa Cup of Nations title by the Confederation of African Football. The title was retroactively handed to losing finalists Morocco, with Senegal punished for staging a…",
-        "source": {
-          "id": "dailymaverick",
-          "name": "Daily Maverick"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:27:49.082Z",
-        "imageUrl": "https://cdn.dailymaverick.co.za/i/R8fqwl6MlQZR6P4nTZY6HCCuJfc=/800x0/smart/filters:strip_exif()/file/attachments/orphans/Soccer-SenegalvsCAFMorocco11_480020.jpg",
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:27:49.082Z"
-    },
-    {
       "id": "NAHAZqTMH3H6",
       "representative": {
         "id": "NAHAZqTMH3H6",
@@ -370,7 +346,7 @@
         },
         "sourceCountry": "ZA",
         "language": "en",
-        "publishedAt": "2026-10-06T13:27:49.082Z",
+        "publishedAt": "2026-10-06T13:38:15.960Z",
         "imageUrl": "https://cdn.dailymaverick.co.za/i/rDBsmKViAia03A1GNd-drQ3KA5w=/800x0/smart/filters:strip_exif()/file/attachments/2998/GroundUp-Joburgpoolsmain_301353.jpeg",
         "countryCode": "ZA",
         "regionCode": null
@@ -378,7 +354,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:27:49.082Z"
+      "latestPublishedAt": "2026-10-06T13:38:15.960Z"
     },
     {
       "id": "VXA51BbNWudE",
@@ -394,7 +370,7 @@
         },
         "sourceCountry": "ZA",
         "language": "en",
-        "publishedAt": "2026-10-06T13:27:49.082Z",
+        "publishedAt": "2026-10-06T13:38:15.960Z",
         "imageUrl": "https://cdn.dailymaverick.co.za/i/-p-jNyoSnLKpSEXaROqhfBmaouk=/800x0/smart/filters:strip_exif()/file/attachments/2998/nuttawanjayawanvecteezy_137813.jpg",
         "countryCode": "ZA",
         "regionCode": null
@@ -402,7 +378,31 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:27:49.082Z"
+      "latestPublishedAt": "2026-10-06T13:38:15.960Z"
+    },
+    {
+      "id": "mLMkVpz0t7E4",
+      "representative": {
+        "id": "mLMkVpz0t7E4",
+        "url": "https://www.dailymaverick.co.za/article/2026-10-06-senegal-vs-morocco-afcon-final-saga-set-to-be-heard-in-swiss-court/",
+        "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-senegal-vs-morocco-afcon-final-saga-set-to-be-heard-in-swiss-court/",
+        "title": "SOCCER INTEGRITY: Senegal vs Morocco Afcon final saga set to be heard in Swiss court",
+        "description": "On Thursday, 8 October, the Court of Arbitration for Sport will hear Senegal’s appeal against their stripping of the 2025 Africa Cup of Nations title by the Confederation of African Football. The title was retroactively handed to losing finalists Morocco, with Senegal punished for staging a…",
+        "source": {
+          "id": "dailymaverick",
+          "name": "Daily Maverick"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:29:26.000Z",
+        "imageUrl": "https://cdn.dailymaverick.co.za/i/R8fqwl6MlQZR6P4nTZY6HCCuJfc=/800x0/smart/filters:strip_exif()/file/attachments/orphans/Soccer-SenegalvsCAFMorocco11_480020.jpg",
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:29:26.000Z"
     },
     {
       "id": "y8VpDrApedkT",

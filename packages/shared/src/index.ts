@@ -118,4 +118,12 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   CL: { code: 'CL', name: 'Chile', lat: -35, lng: -71, altitude: 2.0 },
   NG: { code: 'NG', name: 'Nigeria', lat: 9.1, lng: 8.7, altitude: 1.5 },
   KE: { code: 'KE', name: 'Kenya', lat: 0.2, lng: 37.9, altitude: 1.3 },
+  PE: { code: 'PE', name: 'Peru', lat: -9.2, lng: -75, altitude: 1.6 },
+  UY: { code: 'UY', name: 'Uruguay', lat: -32.8, lng: -56, altitude: 1.0 },
+  PH: { code: 'PH', name: 'Philippines', lat: 12.5, lng: 122, altitude: 1.5 },
+  SG: { code: 'SG', name: 'Singapore', lat: 1.35, lng: 103.8, altitude: 0.6 },
+  PK: { code: 'PK', name: 'Pakistan', lat: 30, lng: 69.5, altitude: 1.5 },
+  GH: { code: 'GH', name: 'Ghana', lat: 7.9, lng: -1.0, altitude: 1.1 },
+  NL: { code: 'NL', name: 'Netherlands', lat: 52.2, lng: 5.3, altitude: 0.9 },
+  BE: { code: 'BE', name: 'Belgium', lat: 50.6, lng: 4.6, altitude: 0.8 },
 };

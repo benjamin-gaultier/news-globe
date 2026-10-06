@@ -152,6 +152,16 @@ const STOPWORDS_JA = `
 ニュース ライブ まとめ
 `;
 
+// Dutch (Netherlands and Flanders), with weekdays and months.
+const STOPWORDS_NL = `
+de het een en of maar want dus dat die dit deze van in op aan met voor door bij naar over uit om tot als
+dan ook nog wel niet geen te er hij zij ze wij we jij je u ik zijn is was waren wordt worden werd werden
+heeft hebben had hadden kan kunnen zal zullen moet moeten wil willen gaat gaan meer meest veel alle al
+nieuw nieuwe eerste na onder tegen zonder sinds tijdens hoe wat wie waar waarom wanneer zo nu hier daar
+mee toe weer jaar jaren dag vandaag gisteren morgen maandag dinsdag woensdag donderdag vrijdag zaterdag
+zondag januari februari maart april mei juni juli augustus september oktober november december
+`;
+
 // Calendar words in service headlines ("¿A qué hora juega…? hoy martes 6 de octubre",
 // "dólar blue hoy") merged unrelated Argentine stories on 2026-10-06.
 const CALENDAR_ES = `
@@ -181,6 +191,7 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   pt: wordSet(STOPWORDS_PT, CALENDAR_PT, STOPWORDS_EN, BOILERPLATE),
   tr: wordSet(STOPWORDS_TR, STOPWORDS_EN, BOILERPLATE),
   ja: wordSet(STOPWORDS_JA, STOPWORDS_EN, BOILERPLATE),
+  nl: wordSet(STOPWORDS_NL, STOPWORDS_EN, BOILERPLATE),
 };
 
 const HAN = /\p{Script=Han}/u;
@@ -216,8 +227,9 @@ function japaneseTokens(title: string): string[] {
  */
 export function stem(token: string, language?: string): string {
   let t = token;
-  // German plurals and inflections: Grünen/Grüne, Parteien/Partei, Wahlen/Wahl.
-  if (language === 'de' && t.length > 5 && t.endsWith('en')) t = t.slice(0, -2);
+  // German and Dutch plurals and inflections: Grünen/Grüne, Parteien/Partei,
+  // Wahlen/Wahl, verkiezingen/verkiezing.
+  if ((language === 'de' || language === 'nl') && t.length > 5 && t.endsWith('en')) t = t.slice(0, -2);
   if (t.length > 4 && /[^s][sx]$/.test(t)) t = t.slice(0, -1);
   if (t.length > 4 && t.endsWith('e')) t = t.slice(0, -1);
   return t;

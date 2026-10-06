@@ -530,6 +530,108 @@ The first round found only three feeds; the second found ADN Radio, La Nación a
 | Tuko | all | 6 | ✅ |
 | ~~The Star~~, ~~Citizen Digital~~ | — | — | ❌ **dropped**: 404 / 400 |
 
+**Peru** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| El Comercio | política, perú | 10 | ✅ |
+| La República | política | 9 | ✅ |
+| RPP Noticias | main feed | 9 | ✅ |
+| Andina | agency feed | 8 | ✅ (state news agency) |
+| Gestión | main feed | 7 | ✅ |
+| ~~Perú21~~, ~~Correo~~ | — | — | ❌ **dropped**: 403 / no answer to bots |
+
+El Comercio's main feed carries foreign SEO pieces (Mexican exchange rates, Argentine TV listings) that clustered with Peruvian stories, so only its Política and Perú sections are used.
+
+**Uruguay** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| la diaria | articles | 9 | ✅ |
+| Montevideo Portal | news | 8 | ✅ (8 items) |
+| Subrayado | home | 8 | ✅ |
+| Teledoce | main feed | 7 | ✅ (10 items) |
+| ~~El País~~, ~~El Observador~~, ~~Búsqueda~~ | — | — | ❌ **dropped**: no feed (404 / not RSS) |
+| ~~LR21~~ | — | — | ❌ **dropped**: 403 for bots |
+
+**Philippines** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Philippine Daily Inquirer | newsinfo | 10 | ✅ (some dates ahead of now, clamped) |
+| Rappler | main feed | 9 | ✅ (10 items) |
+| GMA News | news | 9 | ✅ |
+| Philstar | headlines | 8 | ✅ (10 items) |
+| The Manila Times | news | 7 | ✅ |
+| ~~ABS-CBN~~, ~~Manila Bulletin~~ | — | — | ❌ **dropped**: 403 for bots |
+| ~~PNA~~, ~~Manila Standard~~ | — | — | ❌ **dropped**: malformed XML |
+
+**Singapore** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| The Straits Times | Singapore | 10 | ✅ |
+| CNA | Singapore | 10 | ✅ |
+| The Independent Singapore | main feed | 6 | ✅ |
+| ~~The Business Times~~ | — | — | ❌ **dropped**: reprints Straits Times copy (both SPH Media) |
+| ~~TODAY~~ | — | — | ❌ **dropped**: 403 for bots |
+| ~~Mothership~~ | — | — | ❌ **dropped**: malformed XML |
+
+**Pakistan** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Dawn | home | 10 | ✅ |
+| The Express Tribune | home | 9 | ✅ |
+| Geo News | main feed | 8 | ✅ |
+| Business Recorder | latest news | 7 | ✅ |
+| ~~The News~~ | — | — | ❌ **dropped**: stale feed (months old) |
+| ~~ARY News~~ | — | — | ❌ **dropped**: malformed XML |
+
+**Ghana** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| MyJoyOnline | main feed | 10 | ✅ |
+| Graphic Online | news | 9 | ✅ |
+| GBC Ghana | main feed | 9 | ✅ (public broadcaster) |
+| 3News | main feed | 8 | ✅ |
+| Daily Guide | main feed | 7 | ✅ |
+| The High Street Journal | main feed | 6 | ✅ (10 items) |
+| ~~Citi Newsroom~~ | — | — | ❌ **dropped**: malformed XML |
+| ~~GhanaWeb~~, ~~Modern Ghana~~, ~~Pulse~~ | — | — | ❌ **dropped**: 404 / 403 |
+
+**Netherlands** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| NOS | binnenland | 10 | ✅ (public broadcaster) |
+| NU.nl | algemeen | 9 | ✅ |
+| NRC | main feed | 9 | ✅ |
+| de Volkskrant | voorpagina | 9 | ✅ |
+| De Telegraaf | main feed | 8 | ✅ |
+| AD | home | 8 | ✅ |
+| RTL Nieuws | main feed | 8 | ✅ |
+| Trouw | voorpagina | 7 | ✅ |
+
+Dutch has its own stopword list (with weekdays and months), and `-en` plurals are folded as in German (*verkiezingen*/*verkiezing*).
+
+**Belgium** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| VRT NWS | articles | 10 | ✅ (public broadcaster, nl) |
+| RTBF Info | highlights | 10 | ✅ (public broadcaster, fr) |
+| HLN | home | 8 | ✅ (nl) |
+| De Morgen | nieuws | 8 | ✅ (nl) |
+| La Libre Belgique | Belgique | 8 | ✅ (fr) |
+| L'Avenir | main feed | 7 | ✅ (fr) |
+| Le Vif | main feed | 6 | ✅ (fr) |
+| ~~7sur7~~ | — | — | ❌ **skipped**: the French edition of HLN |
+| ~~De Standaard~~, ~~Le Soir~~, ~~Sudinfo~~ | — | — | ❌ **dropped**: 403 for bots |
+
+As with Canada and Switzerland, stories cluster only within a language.
+
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
 
 When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`. Also check that the newest item is recent: Corriere and The Telegraph return well-formed but stale feeds.

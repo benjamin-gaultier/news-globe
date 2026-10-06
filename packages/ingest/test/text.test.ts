@@ -112,6 +112,15 @@ describe('titleTokens: calendar words', () => {
   });
 });
 
+describe('titleTokens: Dutch', () => {
+  it('drops Dutch stopwords and folds -en plurals', () => {
+    expect(titleTokens('Kabinet valt na ruzie over de verkiezingen', 'nl')).toEqual(
+      titleTokens('Ruzie over verkiezing: kabinet valt', 'nl'),
+    );
+    expect(titleTokens('Het kabinet is gevallen', 'nl').has('het')).toBe(false);
+  });
+});
+
 describe('titleTokens: Japanese', () => {
   it('cuts kanji runs into bigrams, keeps katakana words and drops hiragana', () => {
     expect([...titleTokens('石破首相がワシントンを訪問', 'ja')].sort()).toEqual(
