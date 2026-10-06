@@ -256,6 +256,15 @@ describe('titleTokens: Korean, Thai and Bengali', () => {
   });
 });
 
+describe('titleTokens: Somali', () => {
+  it('drops particles so the same story matches across outlets', () => {
+    const a = titleTokens('Markabka Honour 25 oo la soo gaarsiiyay Boosaaso', 'so');
+    const b = titleTokens('Markabka laga soo furtay burcad-badeedda ee HONOUR 25 oo gaarey Boosaaso.', 'so');
+    expect(a).toEqual(new Set(['markabka', 'honour', '25', 'gaarsiiyay', 'boosaaso']));
+    expect(['markabka', 'honour', 'boosaaso'].every((t) => b.has(t))).toBe(true);
+  });
+});
+
 describe('titleTokens: years', () => {
   it('drops French calendar words', () => {
     expect(titleTokens('Nécrologie du 06 octobre 2026', 'fr')).toEqual(new Set(['06', 'necrologi']));

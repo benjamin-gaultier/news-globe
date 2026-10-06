@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PE",
   "countryName": "Peru",
-  "updatedAt": "2026-10-06T18:26:12.974Z",
+  "updatedAt": "2026-10-06T18:40:52.046Z",
   "clusters": [
     {
       "id": "-LP_bHDnIo5z",
@@ -645,48 +645,6 @@
       "latestPublishedAt": "2026-10-06T01:07:01.000Z"
     },
     {
-      "id": "_U-atDQdGGcF",
-      "representative": {
-        "id": "_U-atDQdGGcF",
-        "url": "https://elcomercio.pe/politica/onpe-procesa-el-100-de-actas-de-lima-metropolitana-y-cinco-regiones-ultimas-apuesplan-noticia/",
-        "canonicalUrl": "https://elcomercio.pe/politica/onpe-procesa-el-100-de-actas-de-lima-metropolitana-y-cinco-regiones-ultimas-apuesplan-noticia/",
-        "title": "ONPE procesa el 100 % de actas de Lima Metropolitana y cinco regiones",
-        "description": "La Oficina Nacional de Procesos Electorales (ONPE) culminó el procesamiento de todas las actas electorales correspondientes a las 26 351 mesas de sufragio que funcionaron en Lima Metropolitana durante la jornada del domingo 4 de octubre.",
-        "source": {
-          "id": "elcomercio",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-05T18:28:01.000Z",
-        "imageUrl": "https://elcomercio.pe/resizer/v2/VHNYJP5QABHJZAVKZYO7KWLKIU.jpg?auth=c78b1608ca6e4aa5df39f94417afe399ba3514b3292d1707093068870c73fa29&smart=true&width=5184&height=3456",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rTSYOgDlTQ55",
-          "url": "https://gestion.pe/peru/erm-2026-onpe-procesa-el-100-de-actas-de-lima-metropolitana-y-cinco-regiones-noticia/",
-          "canonicalUrl": "https://gestion.pe/peru/erm-2026-onpe-procesa-el-100-de-actas-de-lima-metropolitana-y-cinco-regiones-noticia/",
-          "title": "ERM 2026: ONPE procesa el 100% de actas de Lima Metropolitana y cinco regiones",
-          "description": "La Oficina Nacional de Procesos Electorales (ONPE) culminó este lunes, a las 10:19 horas, el procesamiento de las 26,351 actas electorales correspondientes a las mesas de sufragio que funcionaron en Lima Metropolitana durante las Elecciones Regionales y Municipales (ERM) 2026.",
-          "source": {
-            "id": "gestion",
-            "name": "Gestión"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-05T23:00:00.000Z",
-          "imageUrl": "https://gestion.pe/resizer/v2/7OGXNWBOW5E6PLIOW36JCIQTLY.jpg?auth=62cb4dbb28ff06b4528ebdae2816eb5f618e9b88c7709ba02e8e25c9bf3e17a0&smart=true&width=1200&height=801",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T23:00:00.000Z"
-    },
-    {
       "id": "CKUueeYyjA40",
       "representative": {
         "id": "CKUueeYyjA40",
@@ -733,6 +691,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:25:38.000Z"
+    },
+    {
+      "id": "3N54gsSTXqzl",
+      "representative": {
+        "id": "3N54gsSTXqzl",
+        "url": "https://andina.pe/agencia/noticia-natalia-cuglievan-quedo-lista-para-competir-el-panamericano-esqui-acuatico-1094816.aspx",
+        "canonicalUrl": "https://andina.pe/agencia/noticia-natalia-cuglievan-quedo-lista-para-competir-el-panamericano-esqui-acuatico-1094816.aspx",
+        "title": "Natalia Cuglievan quedó lista para competir en el Panamericano de Esquí Acuático",
+        "description": "La medallista de oro de los Juegos Odesur 2026, Natalia Cuglievan, integrante del Programa Lima 2027 del Instituto Peruano del Deporte (IPD), quedó lista para competir en el Campeonato Panamericano de Esquí Acuático IWWF 2026, que se desarrollará del martes 6 al sábado 10 de octubre en el Lago…",
+        "source": {
+          "id": "andina",
+          "name": "Andina"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:20:30.000Z",
+        "imageUrl": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2024/03/13/001046493W.webp",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:20:30.000Z"
     }
   ]
 }
