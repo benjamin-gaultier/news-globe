@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IT",
   "countryName": "Italy",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "JjekBcF_1Kfk",
@@ -392,48 +392,6 @@
       "latestPublishedAt": "2026-10-06T10:42:32.000Z"
     },
     {
-      "id": "SoGx_cSTnugS",
-      "representative": {
-        "id": "SoGx_cSTnugS",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/dodici-fondazioni-e-acri-lanciano-20-cammini-ditalia-per-fare-comunita_41683938-37de-4f78-8c2a-06a01427802b.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/dodici-fondazioni-e-acri-lanciano-20-cammini-ditalia-per-fare-comunita_41683938-37de-4f78-8c2a-06a01427802b.html",
-        "title": "Dodici Fondazioni e Acri lanciano 20 Cammini d'Italia 'per fare comunità'",
-        "description": "Obiettivo miglioramento dell'accessibilità e dei servizi per i viandanti",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-05T17:19:26.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "OCegEdGUm1b5",
-          "url": "https://www.ilsole24ore.com/art/al-via-paesaggio-che-vai-cammini-d-italia-fare-comunita-iniziativa-acri-e-12-fondazioni-bancarie-AJ0MWhaB",
-          "canonicalUrl": "https://www.ilsole24ore.com/art/al-via-paesaggio-che-vai-cammini-d-italia-fare-comunita-iniziativa-acri-e-12-fondazioni-bancarie-AJ0MWhaB",
-          "title": "Al via “Paesaggio che vai. Cammini d’Italia per fare comunità”, iniziativa di Acri e 12 Fondazioni Bancarie",
-          "description": "In cammino tra storia e cultura. Dal nord alle isole, passando in 11 regioni d’Italia, con l’intento di promuovere i cammini come spazi di partecipazione, sostenibilità e identità collettiva. È...",
-          "source": {
-            "id": "sole24ore",
-            "name": "Il Sole 24 Ore"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-06T09:34:52.000Z",
-          "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/06/Immagini/Ritagli/AdobeStock_343899508-U00150705601AMN-1440x752@IlSole24Ore-Web.jpeg",
-          "countryCode": "IT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:34:52.000Z"
-    },
-    {
       "id": "pOXLR7cdzJoK",
       "representative": {
         "id": "pOXLR7cdzJoK",
@@ -518,65 +476,6 @@
       "latestPublishedAt": "2026-10-06T06:22:13.000Z"
     },
     {
-      "id": "KbM4nGd0UOa2",
-      "representative": {
-        "id": "KbM4nGd0UOa2",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/05/ranucci-sospeso-per-dieci-giorni-dalla-rai_e34a2d9f-28d4-4952-a31a-af50123acf6a.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/politica/2026/10/05/ranucci-sospeso-per-dieci-giorni-dalla-rai_e34a2d9f-28d4-4952-a31a-af50123acf6a.html",
-        "title": "Ranucci sospeso per dieci giorni dalla Rai",
-        "description": "Quattro contestazioni disciplinari alla base della decisione",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-05T15:17:26.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "7ou98sDY4PQT",
-          "url": "https://www.repubblica.it/politica/2026/10/05/news/rai_sospende_ranucci_dieci_giorni-425627388/?rss",
-          "canonicalUrl": "https://www.repubblica.it/politica/2026/10/05/news/rai_sospende_ranucci_dieci_giorni-425627388/?rss=",
-          "title": "La Rai sospende Ranucci per dieci giorni: ecco le contestazioni",
-          "description": "La decisione dell’azienda nei confronti del giornalista ed ex conduttore di Report che cita De Gregori. L’avvocato: impugneremo il provvedimento",
-          "source": {
-            "id": "repubblica",
-            "name": "la Repubblica"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-05T18:44:20.000Z",
-          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/170048081-1ed59f4c-993e-4ef3-bb19-15ef88b297aa.jpg",
-          "countryCode": "IT",
-          "regionCode": null
-        },
-        {
-          "id": "0Av9UxMPvsDM",
-          "url": "https://www.ilpost.it/2026/10/05/rai-sospeso-sigfrido-ranucci/",
-          "canonicalUrl": "https://www.ilpost.it/2026/10/05/rai-sospeso-sigfrido-ranucci/",
-          "title": "La Rai ha sospeso Sigfrido Ranucci per dieci giorni",
-          "description": "Per via di quattro comportamenti ritenuti scorretti, secondo l'Ansa: l'avvocato di Ranucci ha già detto che faranno ricorso",
-          "source": {
-            "id": "ilpost",
-            "name": "Il Post"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-05T15:27:43.000Z",
-          "imageUrl": null,
-          "countryCode": "IT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-05T18:44:20.000Z"
-    },
-    {
       "id": "XC66kgcywnLz",
       "representative": {
         "id": "XC66kgcywnLz",
@@ -647,6 +546,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:57:24.000Z"
+    },
+    {
+      "id": "1JAyfr372Ahn",
+      "representative": {
+        "id": "1JAyfr372Ahn",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/morte-di-davis-rossi-il-fratello-suicidio-non-ci-avrebbe-mai-salutato-cosi_0f622011-5447-4d26-949e-c856a2e1c428.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/morte-di-davis-rossi-il-fratello-suicidio-non-ci-avrebbe-mai-salutato-cosi_0f622011-5447-4d26-949e-c856a2e1c428.html",
+        "title": "Morte di Davis Rossi, il fratello: 'Suicidio? Non ci avrebbe mai salutato così'",
+        "description": "'Le indagini sono state fatte male'",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T12:51:09.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:51:09.000Z"
+    },
+    {
+      "id": "T657OKEOVyql",
+      "representative": {
+        "id": "T657OKEOVyql",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/non-punibile-chi-circuisce-il-coniuge-incapace-consulta-boccia-la-legge_5a656cd2-3793-4bb2-b3c5-cad6f3f9eb21.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/non-punibile-chi-circuisce-il-coniuge-incapace-consulta-boccia-la-legge_5a656cd2-3793-4bb2-b3c5-cad6f3f9eb21.html",
+        "title": "Non punibile chi circuisce il coniuge incapace, Consulta boccia la legge",
+        "description": "'E' anacronistica, bilanciare la tutela della famiglia ed i diritti dei singoli'",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T12:50:37.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:50:37.000Z"
     }
   ]
 }

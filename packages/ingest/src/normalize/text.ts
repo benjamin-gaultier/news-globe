@@ -369,6 +369,13 @@ const STOPWORDS_NE = `
 साथ आज हिजो भोलि वर्ष साल आइतबार सोमबार मंगलबार बुधबार बिहीबार शुक्रबार शनिबार बैशाख जेठ असार
 साउन भदौ असोज कात्तिक मंसिर पुस माघ फागुन चैत भिडियो तस्बिर
 `;
+// Hebrew, checked after hebrewTokens strips a one-letter prefix from longer
+// words. "ישראל" is in every other title, like "ایران" above.
+const STOPWORDS_HE = `
+של את על עם זה זו זאת לא כי גם אבל או מה מי איך למה כל יותר אחרי לפני בין אל הוא היא הם הן אני
+אנחנו יש אין היה היתה היום אתמול מחר שנה שנים ישראל ראשון שני שלישי רביעי חמישי שישי שבת צפו
+תיעוד בלעדי
+`;
 // Cyrillic й folds to и (NFD), hence "маи".
 const STOPWORDS_BG = `
 и в на за от с да се не е са по до при към като че но или ще бил била било това този тази тези които
@@ -446,6 +453,7 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   hr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   bs: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  he: wordSet(STOPWORDS_HE, STOPWORDS_EN, BOILERPLATE),
   fa: wordSet(foldedWords(STOPWORDS_FA), STOPWORDS_EN, BOILERPLATE),
   ne: wordSet(STOPWORDS_NE, STOPWORDS_EN, BOILERPLATE),
   hy: wordSet(foldedWords(STOPWORDS_HY), STOPWORDS_EN, BOILERPLATE),
@@ -541,6 +549,17 @@ function persianTokens(title: string): string[] {
 }
 
 /**
+ * Hebrew: acronyms keep their gershayim (", ״ or '') as one word (צה"ל → צהל),
+ * and one prefix letter (ו ה ב ל מ ש כ: and, the, in, to, from, that, as) is
+ * dropped from words of five letters or more, so ונתניהו and נתניהו match.
+ * Words that merely start with those letters lose it too, consistently.
+ */
+function hebrewTokens(title: string): string[] {
+  const text = foldText(title.replace(/(?<=\p{Script=Hebrew})["״'׳]+(?=\p{Script=Hebrew})/gu, ''));
+  return text.split(' ').map((w) => (/^[ובלהמשכ]\p{Script=Hebrew}{4,}$/u.test(w) ? w.slice(1) : w));
+}
+
+/**
  * Devanagari vowel signs and viramas are combining marks, so foldText would
  * strip them and leave bare consonants (नेपाल → नपल) that collide. Keep marks;
  * only digits are converted and zero-width joiners dropped.
@@ -584,7 +603,9 @@ export function titleTokens(title: string, language?: string): Set<string> {
         ? chineseTokens(title)
         : language === 'ar'
           ? arabicTokens(title)
-          : language === 'fa'
+          : language === 'he'
+            ? hebrewTokens(title)
+            : language === 'fa'
             ? persianTokens(title)
             : language === 'ne'
               ? devanagariTokens(title)

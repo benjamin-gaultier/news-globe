@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IS",
   "countryName": "Iceland",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "Y90-XbcGmTNd",
@@ -129,48 +129,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T09:32:24.000Z"
-    },
-    {
-      "id": "76J5cJHXcmqp",
-      "representative": {
-        "id": "76J5cJHXcmqp",
-        "url": "https://www.visir.is/g/20262944324d/hafna-asokunum-um-svik-og-benda-a-stjornvold",
-        "canonicalUrl": "https://www.visir.is/g/20262944324d/hafna-asokunum-um-svik-og-benda-a-stjornvold",
-        "title": "Hafna á­sökunum um svik og benda á stjórn­völd",
-        "description": "Forsvarsmenn Samtaka atvinnulífisins hafna öllum ásökunum um svik. Þau hafi staðið að fullu við gerða samninga og kalla forsvarsmennirnir eftir því að umræðan um kjaramálin byggi á staðreyndum og gagnkvæmri virðingu.",
-        "source": {
-          "id": "visir",
-          "name": "Vísir"
-        },
-        "sourceCountry": "IS",
-        "language": "is",
-        "publishedAt": "2026-10-05T17:33:47.000Z",
-        "imageUrl": null,
-        "countryCode": "IS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "4IX5eI4S81xQ",
-          "url": "https://www.vb.is/frettir/sa-hafna-asokunum-um-svik/",
-          "canonicalUrl": "https://www.vb.is/frettir/sa-hafna-asokunum-um-svik/",
-          "title": "SA hafna ásökunum um svik",
-          "description": "„Það er ekki að skila auðu þótt niðurstaðan sé önnur en viðsemjendur okkar hefðu óskað.“",
-          "source": {
-            "id": "vb_is",
-            "name": "Viðskiptablaðið"
-          },
-          "sourceCountry": "IS",
-          "language": "is",
-          "publishedAt": "2026-10-05T17:27:28.000Z",
-          "imageUrl": null,
-          "countryCode": "IS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T17:33:47.000Z"
     },
     {
       "id": "WPkrx4iOR53B",
@@ -435,6 +393,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:21:05.000Z"
+    },
+    {
+      "id": "IfQv_Haelno6",
+      "representative": {
+        "id": "IfQv_Haelno6",
+        "url": "https://www.vb.is/frettir/sp500-i-methaedum/",
+        "canonicalUrl": "https://www.vb.is/frettir/sp500-i-methaedum/",
+        "title": "S&P 500 í methæðum",
+        "description": "Hlutabréfavísitalan hefur hækkað um 0,9% það sem af er degi.",
+        "source": {
+          "id": "vb_is",
+          "name": "Viðskiptablaðið"
+        },
+        "sourceCountry": "IS",
+        "language": "is",
+        "publishedAt": "2026-10-06T15:17:00.000Z",
+        "imageUrl": null,
+        "countryCode": "IS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:17:00.000Z"
     }
   ]
 }

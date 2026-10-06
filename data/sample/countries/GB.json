@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "gNIVgrBYxC0j",
@@ -670,48 +670,6 @@
       "latestPublishedAt": "2026-10-06T10:15:31.000Z"
     },
     {
-      "id": "VdMl90-Dwh-3",
-      "representative": {
-        "id": "VdMl90-Dwh-3",
-        "url": "https://www.theguardian.com/politics/2026/oct/05/tory-shadow-minister-luton-no-go-zones-white-people-blake-stephenson",
-        "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/05/tory-shadow-minister-luton-no-go-zones-white-people-blake-stephenson",
-        "title": "Tory shadow minister claims Luton has ‘no-go zones’ where ‘white people won’t go’",
-        "description": "Blake Stephenson tells fringe meeting at Tory conference that the town is ‘a very dangerous place’ with ‘ghettoes’ A shadow Conservative Home Office minister has claimed there are “no-go zones” in Luton where “white people won’t go”. Blake Stephenson, the MP for Mid Bedfordshire who was appointed…",
-        "source": {
-          "id": "guardian",
-          "name": "The Guardian"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T18:06:21.000Z",
-        "imageUrl": "https://i.guim.co.uk/img/media/2642155e1d7b8699e966accc02bbb6a6b550b1b8/316_408_3962_3168/master/3962.jpg?width=700&quality=85&auto=format&fit=max&s=065cd2383674a85405c64d75153b2a89",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "_0Vud1Pic3tT",
-          "url": "https://www.independent.co.uk/news/uk/politics/luton-no-go-zones-tories-blake-stephenson-tommy-robinson-b3061981.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/luton-no-go-zones-tories-blake-stephenson-tommy-robinson-b3061981.html",
-          "title": "Tory shadow minister criticised for claiming Luton has ‘no go zones’ where ‘white people won’t go’",
-          "description": "Shadow home office minister Blake Stephenson has been accused of peddling ‘the same rightwing nonsense’ as far-right activist Tommy Robinson",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T09:51:02.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/06/9/41/Blake-Stephenson.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:51:02.000Z"
-    },
-    {
       "id": "6ryb-NYcU2Br",
       "representative": {
         "id": "6ryb-NYcU2Br",
@@ -752,6 +710,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T09:24:56.000Z"
+    },
+    {
+      "id": "FI4MmBiCjF2G",
+      "representative": {
+        "id": "FI4MmBiCjF2G",
+        "url": "https://www.theguardian.com/politics/2026/oct/06/badenoch-british-iron-dome-plan-tory-press-release",
+        "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/06/badenoch-british-iron-dome-plan-tory-press-release",
+        "title": "Badenoch denies ‘British Iron Dome’ plan – after Tories use phrase in press release",
+        "description": "Tory leader says proposed ‘Britannia Shield’ would not be comparable to Israeli missile defence system UK politics live – latest updates Kemi Badenoch has denied she compared a new air defence system proposed by the party to Israel’s Iron Dome, despite using the term in her press release and a…",
+        "source": {
+          "id": "guardian",
+          "name": "The Guardian"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T08:27:41.000Z",
+        "imageUrl": "https://i.guim.co.uk/img/media/e22a3307566c7be4de91bf4e4793404ab40e7f76/1374_188_5460_4368/master/5460.jpg?width=700&quality=85&auto=format&fit=max&s=7def38338970f27e2c47b05d8ab790c3",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "DDdUMjSyDSfl",
+          "url": "https://www.independent.co.uk/news/uk/home-news/badenoch-iron-dome-enemy-missiles-tory-conference-b3061949.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/badenoch-iron-dome-enemy-missiles-tory-conference-b3061949.html",
+          "title": "Tories plan £10bn ‘British Iron Dome’ to protect UK – how would it work?",
+          "description": "The Tories pledged to build Britain its own £10bn ‘Iron Dome’ missile interception system – but now even the party leader is backtracking",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:19:45.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/06/08/2298836227..?width=1200&auto=webp&trim=0%2C0%2C1%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:19:45.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "FR",
   "countryName": "France",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "dlwuXk8kNVcC",
@@ -155,48 +155,6 @@
       "outletCount24h": 4,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T05:47:42.000Z"
-    },
-    {
-      "id": "l30sslwq3c1-",
-      "representative": {
-        "id": "l30sslwq3c1-",
-        "url": "https://www.franceinfo.fr/elections/senatoriales/infographie-senatoriales-2026-decouvrez-la-nouvelle-composition-de-l-hemicycle-avec-les-differents-groupes-politiques_8223352.html#xtor=RSS-3-%5Bgeneral%5D",
-        "canonicalUrl": "https://www.franceinfo.fr/elections/senatoriales/infographie-senatoriales-2026-decouvrez-la-nouvelle-composition-de-l-hemicycle-avec-les-differents-groupes-politiques_8223352.html",
-        "title": "INFOGRAPHIE. Sénatoriales 2026 : découvrez la nouvelle composition de l'Hémicycle avec les différents groupes politiques",
-        "description": "La majorité de droite et du centre conserve une très nette avance sur la gauche au sein de la chambre haute, où le RN est parvenu à se constituer un groupe pour la première fois de son histoire.",
-        "source": {
-          "id": "franceinfo",
-          "name": "franceinfo"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-05T17:41:16.000Z",
-        "imageUrl": "https://www.franceinfo.fr/pictures/oQO9aOHDhkw_RLBjuG-Uci4BkK8/0x615:5904x3936/432x243/filters:format(jpg)/2026/10/05/6ac3aee806739132803994.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "hYT_hhr1oTiR",
-          "url": "https://www.ouest-france.fr/elections/senatoriales/infographie-decouvrez-la-nouvelle-composition-des-groupes-au-senat-apres-les-elections-de-septembre-895f725a-c0b4-11f1-b7db-555e86a524f6?utm_source=fluxpublicfrance&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "canonicalUrl": "https://www.ouest-france.fr/elections/senatoriales/infographie-decouvrez-la-nouvelle-composition-des-groupes-au-senat-apres-les-elections-de-septembre-895f725a-c0b4-11f1-b7db-555e86a524f6",
-          "title": "INFOGRAPHIE. Découvrez la nouvelle composition des groupes au Sénat, après les élections de septembre",
-          "description": "Le Sénat a été renouvelé de moitié lors des élections sénatoriales fin septembre. Les groupes politiques ont été officiellement constitués ce lundi 5 octobre, dont le premier du Rassemblement national.",
-          "source": {
-            "id": "ouestfrance",
-            "name": "Ouest-France"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:21:08.000Z",
-          "imageUrl": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwOWYyMjk3YzkwOTU4NzgzNmQ5YjY0MTEwN2FmYTEzNzg?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=5fd57b50bd529cbb4d70148fe6de7d3404ee37867e8d1c0a557aeab3fe65fb4d",
-          "countryCode": "FR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:21:08.000Z"
     },
     {
       "id": "ruS8qEDY0Pkm",
@@ -538,6 +496,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:00.000Z"
+    },
+    {
+      "id": "OG5q_ifE43lZ",
+      "representative": {
+        "id": "OG5q_ifE43lZ",
+        "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/finistere-un-incendie-se-declenche-a-saint-nic-relativement-tard-dans-la-saison_8225134.html#xtor=RSS-3-%5Bgeneral%5D",
+        "canonicalUrl": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/finistere-un-incendie-se-declenche-a-saint-nic-relativement-tard-dans-la-saison_8225134.html",
+        "title": "Finistère : un incendie se déclenche à Saint-Nic, relativement tard dans la saison",
+        "description": "Dans le Finistère, un incendie, exceptionnel pour la période, s'est déclenché aux portes de la presqu'île de Crozon. Plus de 90 pompiers ont été mobilisés, et 15 hectares de végétation ont brûlé. L'origine du feu reste pour l'heure inconnue.",
+        "source": {
+          "id": "franceinfo",
+          "name": "franceinfo"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:54:53.000Z",
+        "imageUrl": "https://www.franceinfo.fr/pictures/7bxYAGjNwEsRyXmxPbS_eoERE7o/0x136:1550x1007/432x243/filters:format(jpg)/2026/10/06/6ac4ebd84d21b449844188.png",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:54:53.000Z"
     }
   ]
 }

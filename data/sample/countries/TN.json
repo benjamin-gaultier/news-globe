@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TN",
   "countryName": "Tunisia",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "spmnZ8FX495b",
@@ -274,90 +274,6 @@
       "latestPublishedAt": "2026-10-06T07:18:59.000Z"
     },
     {
-      "id": "01mQARE46RuC",
-      "representative": {
-        "id": "01mQARE46RuC",
-        "url": "https://www.mosaiquefm.net/fr/national-tunisie/1532478/viol-de-l-adolescente-de-mellassine-trois-nouveaux-suspects-arretes",
-        "canonicalUrl": "https://www.mosaiquefm.net/fr/national-tunisie/1532478/viol-de-l-adolescente-de-mellassine-trois-nouveaux-suspects-arretes",
-        "title": "Viol de l'adolescente de Mellassine : trois nouveaux suspects arrêtés",
-        "description": "Viol de l'adolescente de Mellassine : trois nouveaux suspects arrêtés",
-        "source": {
-          "id": "mosaiquefm",
-          "name": "Mosaïque FM"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-05T17:27:00.000Z",
-        "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791221451.webp",
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "uIFjh0RFjNF2",
-          "url": "https://www.webdo.tn/fr/actualite/divers/affaire-de-mellassine-trois-nouveaux-suspects-arretes/405043/",
-          "canonicalUrl": "https://www.webdo.tn/fr/actualite/divers/affaire-de-mellassine-trois-nouveaux-suspects-arretes/405043/",
-          "title": "Affaire de Mellassine : Trois nouveaux suspects arrêtés",
-          "description": "L’enquête sur l’agression sexuelle d’une mineure de 16 ans à Mellassine se poursuit avec l’arrestation de trois nouveaux suspects. Deux frères et leur mère ont été interpellés par les agents de la brigade spécialisée de lutte contre les violences faites aux femmes et aux enfants de la Garde…",
-          "source": {
-            "id": "webdo",
-            "name": "Webdo"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-05T17:52:09.000Z",
-          "imageUrl": null,
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T17:52:09.000Z"
-    },
-    {
-      "id": "s-WEI9EGsYIZ",
-      "representative": {
-        "id": "s-WEI9EGsYIZ",
-        "url": "https://www.mosaiquefm.net/fr/national-tunisie/1532479/interieur-des-campagnes-pour-eloigner-les-mineurs-des-cafes-et-bars",
-        "canonicalUrl": "https://www.mosaiquefm.net/fr/national-tunisie/1532479/interieur-des-campagnes-pour-eloigner-les-mineurs-des-cafes-et-bars",
-        "title": "Intérieur : Des campagnes pour éloigner les mineurs des cafés et bars",
-        "description": "Le ministère de l’Intérieur a indiqué que des opérations de contrôle périodiques sont menées dans les cafés et les bars à travers l’ensemble des régio",
-        "source": {
-          "id": "mosaiquefm",
-          "name": "Mosaïque FM"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-05T17:34:00.000Z",
-        "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791221638.webp",
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "v412IDj3LSVq",
-          "url": "https://www.webdo.tn/fr/actualite/national/mineurs-dans-les-cafes-le-ministere-de-linterieur-annonce-des-controles-reguliers/405036/",
-          "canonicalUrl": "https://www.webdo.tn/fr/actualite/national/mineurs-dans-les-cafes-le-ministere-de-linterieur-annonce-des-controles-reguliers/405036/",
-          "title": "Mineurs dans les cafés : Le ministère de l’Intérieur annonce des contrôles réguliers",
-          "description": "Le ministère de l’Intérieur affirme que des opérations de contrôle sont menées périodiquement dans les cafés et les bars à travers les différentes régions du pays afin de prévenir la présence de mineurs dans ces établissements. Les contrevenants s’exposent aux mesures prévues par la législation…",
-          "source": {
-            "id": "webdo",
-            "name": "Webdo"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-05T17:23:55.000Z",
-          "imageUrl": null,
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T17:34:00.000Z"
-    },
-    {
       "id": "XuqLwZEziD3O",
       "representative": {
         "id": "XuqLwZEziD3O",
@@ -524,6 +440,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:16:15.000Z"
+    },
+    {
+      "id": "tDK_kLtnFqpW",
+      "representative": {
+        "id": "tDK_kLtnFqpW",
+        "url": "https://www.mosaiquefm.net/fr/sports-individuels-tunisie/1532557/pekin-djokovic-decroche-le-102e-titre-de-sa-carriere",
+        "canonicalUrl": "https://www.mosaiquefm.net/fr/sports-individuels-tunisie/1532557/pekin-djokovic-decroche-le-102e-titre-de-sa-carriere",
+        "title": "Pékin: Djokovic décroche le 102e titre de sa carrière",
+        "description": "Le Serbe Novak Djokovic (11e mondial) a remporté, ce mardi, à Pékin le 102e titre de sa carrière, à 39 ans, après l'abandon en début de deuxième set d",
+        "source": {
+          "id": "mosaiquefm",
+          "name": "Mosaïque FM"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:08:00.000Z",
+        "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791292062.webp",
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:08:00.000Z"
+    },
+    {
+      "id": "dM9mfnxxXXTk",
+      "representative": {
+        "id": "dM9mfnxxXXTk",
+        "url": "https://www.lapresse.tn/2026/10/06/filiere-oleicole-en-guise-de-preparatifs-pour-la-saison-2026-2027-le-crda-de-monastir-retrousse-les-manches/",
+        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/filiere-oleicole-en-guise-de-preparatifs-pour-la-saison-2026-2027-le-crda-de-monastir-retrousse-les-manches/",
+        "title": "Filière oléicole : en guise de préparatifs pour la saison 2026-2027, le CRDA de Monastir retrousse les manches",
+        "description": "Une séance de travail s’est tenue hier, lundi 5 octobre 2026 au siège du Commissariat régional au développement agricole (CRDA) de Monastir. Celle-ci a été consacrée à la coordination entre les différents intervenants en vue des préparatifs de la saison oléicole 2026-2027 dans la région. Dans ce…",
+        "source": {
+          "id": "lapresse_tn",
+          "name": "La Presse de Tunisie"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:02:15.000Z",
+        "imageUrl": null,
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:02:15.000Z"
     }
   ]
 }

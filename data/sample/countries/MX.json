@@ -2,8 +2,50 @@
   "schemaVersion": 1,
   "countryCode": "MX",
   "countryName": "Mexico",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
+    {
+      "id": "qjjiak0elBDJ",
+      "representative": {
+        "id": "qjjiak0elBDJ",
+        "url": "https://www.eluniversal.com.mx/nacion/cae-en-zapopan-el-tanque-operador-del-cjng-y-cercano-de-el-mencho-lo-ligan-a-ataque-de-helicoptero-del-ejercito-en-2015/",
+        "canonicalUrl": "https://www.eluniversal.com.mx/nacion/cae-en-zapopan-el-tanque-operador-del-cjng-y-cercano-de-el-mencho-lo-ligan-a-ataque-de-helicoptero-del-ejercito-en-2015/",
+        "title": "Cae en Zapopan \"El Tanque\", operador del CJNG y cercano de \"El Mencho\"; lo ligan a ataque de helicóptero del Ejército en 2015",
+        "description": null,
+        "source": {
+          "id": "eluniversal",
+          "name": "El Universal"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:14:07.000Z",
+        "imageUrl": "https://www.eluniversal.com.mx/resizer/v2/F3URK73ZFBFP5MMLWNWUID7PNI.jpg?auth=8f3ba88b113cd0088342973b7882cc57786b21bd4b70b70d00746c2dfc31f569&smart=true&width=500",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "mQb50FQYjSmj",
+          "url": "https://www.reforma.com/cae-el-tanque-lider-regional-del-cjng-y-cercano-al-mencho/ar3289057",
+          "canonicalUrl": "https://www.reforma.com/cae-el-tanque-lider-regional-del-cjng-y-cercano-al-mencho/ar3289057",
+          "title": "Cae 'El Tanque', líder regional del CJNG y cercano al Mencho",
+          "description": "Harfuch informó la detención de 'El Tanque', líder regional del CJNG en Veracruz, Oaxaca, Tabasco y Puebla, y cercano a 'El Mencho'.",
+          "source": {
+            "id": "reforma",
+            "name": "Reforma"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T13:12:26.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:14:07.000Z"
+    },
     {
       "id": "5HUopp0WwYAv",
       "representative": {
@@ -59,51 +101,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T08:49:54.000Z"
-    },
-    {
-      "id": "qjjiak0elBDJ",
-      "representative": {
-        "id": "qjjiak0elBDJ",
-        "url": "https://www.eluniversal.com.mx/nacion/cae-en-zapopan-el-tanque-operador-del-cjng-y-cercano-de-el-mencho-lo-ligan-a-ataque-de-helicoptero-del-ejercito-en-2015/",
-        "canonicalUrl": "https://www.eluniversal.com.mx/nacion/cae-en-zapopan-el-tanque-operador-del-cjng-y-cercano-de-el-mencho-lo-ligan-a-ataque-de-helicoptero-del-ejercito-en-2015/",
-        "title": "Cae en Zapopan \"El Tanque\", operador del CJNG y cercano de \"El Mencho\"; lo ligan a ataque de helicóptero del Ejército en 2015",
-        "description": null,
-        "source": {
-          "id": "eluniversal",
-          "name": "El Universal"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:14:07.000Z",
-        "imageUrl": "https://www.eluniversal.com.mx/resizer/v2/F3URK73ZFBFP5MMLWNWUID7PNI.jpg?auth=8f3ba88b113cd0088342973b7882cc57786b21bd4b70b70d00746c2dfc31f569&smart=true&width=500",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "mQb50FQYjSmj",
-          "url": "https://www.reforma.com/cae-el-tanque-lider-regional-del-cjng-y-cercano-al-mencho/ar3289057",
-          "canonicalUrl": "https://www.reforma.com/cae-el-tanque-lider-regional-del-cjng-y-cercano-al-mencho/ar3289057",
-          "title": "Cae 'El Tanque', líder regional del CJNG y cercano al Mencho",
-          "description": "Harfuch informó la detención de 'El Tanque', líder regional del CJNG en Veracruz, Oaxaca, Tabasco y Puebla, y cercano a 'El Mencho'.",
-          "source": {
-            "id": "reforma",
-            "name": "Reforma"
-          },
-          "sourceCountry": "MX",
-          "language": "es",
-          "publishedAt": "2026-10-06T13:12:26.000Z",
-          "imageUrl": null,
-          "countryCode": "MX",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:14:07.000Z"
     },
     {
       "id": "m9uPAmO1R8oV",

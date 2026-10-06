@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "UY",
   "countryName": "Uruguay",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "ffnXnnbZGpvA",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T11:51:00.000Z"
-    },
-    {
-      "id": "SPgYdOag9cTU",
-      "representative": {
-        "id": "SPgYdOag9cTU",
-        "url": "https://ladiaria.com.uy/politica/articulo/2026/10/el-partido-nacional-suspendio-a-gomez-por-dos-anos-y-anuncio-que-el-edil-devolvera-el-dinero-que-recibio-su-asesor/",
-        "canonicalUrl": "https://ladiaria.com.uy/politica/articulo/2026/10/el-partido-nacional-suspendio-a-gomez-por-dos-anos-y-anuncio-que-el-edil-devolvera-el-dinero-que-recibio-su-asesor/",
-        "title": "El Partido Nacional suspendió a Gómez por dos años y anunció que el edil devolverá el dinero que recibió su asesor",
-        "description": "El senador Martín Lema informó que están “trabajando en propuestas y planteos alternativos” que permitan “más transparencia y mejoras en el funcionamiento de la Junta Departamental”. El directorio del Partido Nacional (PN) se reunió este lunes para tratar el caso del edil nacionalista de…",
-        "source": {
-          "id": "ladiaria",
-          "name": "la diaria"
-        },
-        "sourceCountry": "UY",
-        "language": "es",
-        "publishedAt": "2026-10-05T17:53:04.000Z",
-        "imageUrl": null,
-        "countryCode": "UY",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "08w4mUWyUMjU",
-          "url": "https://www.subrayado.com.uy/el-partido-nacional-desvinculo-al-edil-gonzalo-gomez-dos-anos-el-caso-su-asesor-condenado-lavado-activos-n1019904",
-          "canonicalUrl": "https://www.subrayado.com.uy/el-partido-nacional-desvinculo-al-edil-gonzalo-gomez-dos-anos-el-caso-su-asesor-condenado-lavado-activos-n1019904",
-          "title": "El Partido Nacional desvinculó al edil Gonzalo Gómez por dos años tras el caso de su asesor condenado por lavado de activos",
-          "description": "El edil Gonzalo Gómez deberá devolverle a la Junta de Montevideo todo el dinero que le pagó a su asesor sin asignarle ninguna tarea durante 10 meses. El asesor fue condenado por lavado de activos del narcotráfico.",
-          "source": {
-            "id": "subrayado",
-            "name": "Subrayado"
-          },
-          "sourceCountry": "UY",
-          "language": "es",
-          "publishedAt": "2026-10-05T17:03:00.000Z",
-          "imageUrl": "https://media.subrayado.com.uy/p/fbde0f05ceb282c53afcbca7fc4f9258/adjuntos/230/videos/004/103/0004103809/delgado-edil-gomez.jpg",
-          "countryCode": "UY",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T17:53:04.000Z"
     },
     {
       "id": "qZwwNLG5SjYP",
@@ -399,6 +357,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:43:00.000Z"
+    },
+    {
+      "id": "tWOE-HaiBq-z",
+      "representative": {
+        "id": "tWOE-HaiBq-z",
+        "url": "https://www.teledoce.com/telemundo/internacionales/a-nueve-anos-del-fallido-intento-secesionista-el-lider-independentista-catalan-carles-puigdemont-podra-regresar-a-espana-sin-ser-detenido/",
+        "canonicalUrl": "https://www.teledoce.com/telemundo/internacionales/a-nueve-anos-del-fallido-intento-secesionista-el-lider-independentista-catalan-carles-puigdemont-podra-regresar-a-espana-sin-ser-detenido/",
+        "title": "A nueve años del fallido intento secesionista, el líder independentista catalán Carles Puigdemont podrá regresar a España sin ser detenido",
+        "description": "El Tribunal Supremo español anunció este martes haber dejado sin efecto la orden de detención contra el líder independentista. La entrada A nueve años del fallido intento secesionista, el líder independentista catalán Carles Puigdemont podrá regresar a España sin ser detenido se publicó primero en…",
+        "source": {
+          "id": "teledoce",
+          "name": "Teledoce"
+        },
+        "sourceCountry": "UY",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:40:26.000Z",
+        "imageUrl": null,
+        "countryCode": "UY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:40:26.000Z"
     }
   ]
 }

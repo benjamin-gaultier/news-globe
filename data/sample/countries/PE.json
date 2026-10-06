@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PE",
   "countryName": "Peru",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "-LP_bHDnIo5z",
@@ -687,48 +687,6 @@
       "latestPublishedAt": "2026-10-05T23:00:00.000Z"
     },
     {
-      "id": "4rDLBNOHSXSN",
-      "representative": {
-        "id": "4rDLBNOHSXSN",
-        "url": "https://elcomercio.pe/elecciones/lima/roberto-burneo-maximo-primeros-dias-de-noviembre-ya-tendriamos-resultados-de-gobiernos-regionales-y-quizas-locales-apuesplan-ultimas-noticia/",
-        "canonicalUrl": "https://elcomercio.pe/elecciones/lima/roberto-burneo-maximo-primeros-dias-de-noviembre-ya-tendriamos-resultados-de-gobiernos-regionales-y-quizas-locales-apuesplan-ultimas-noticia/",
-        "title": "Roberto Burneo: “Máximo primeros días de noviembre ya tendríamos resultados de gobiernos regionales y quizás locales”",
-        "description": "El presidente del Jurado Nacional de Elecciones (JNE), Roberto Burneo, recordó ante la prensa que hay plazos establecidos para las siguientes etapas de las Elecciones Regionales y Municipales 2026 luego del sufragio de este 4 de octubre. Es así que estimó para los primeros días de noviembre que…",
-        "source": {
-          "id": "elcomercio",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-05T19:36:33.000Z",
-        "imageUrl": "https://elcomercio.pe/resizer/v2/P46VIOL77VH3TMR7GGHWRZLLOQ.jpg?auth=0e16fc616ebee21ddb75552695af58a6e1ffff2bf0e7228bfb600910068990da&smart=true&width=1200&height=755",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "eg7CQE2AjJVg",
-          "url": "https://larepublica.pe/politica/2026/10/05/roberto-burneo-estima-que-resultados-regionales-y-locales-se-conoceran-a-inicios-de-noviembre-hnews-287380",
-          "canonicalUrl": "https://larepublica.pe/politica/2026/10/05/roberto-burneo-estima-que-resultados-regionales-y-locales-se-conoceran-a-inicios-de-noviembre-hnews-287380",
-          "title": "Roberto Burneo estima que resultados regionales y locales se conocerán a inicios de noviembre",
-          "description": "El titular del JNE, Roberto Burneo, señaló que los recuentos de actas se realizarán hasta el 28 de octubre para acelerar la publicación de los resultados finales. Además, rechazó cualquier tipo de amenaza de actores políticos y evitó pronunciarse sobre casos de reelección para no adelantar opinión.",
-          "source": {
-            "id": "larepublica",
-            "name": "La República"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-05T17:14:07.000Z",
-          "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/05/6ac3d8c911bdb039f2040ce3.jpg",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:36:33.000Z"
-    },
-    {
       "id": "CKUueeYyjA40",
       "representative": {
         "id": "CKUueeYyjA40",
@@ -751,6 +709,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:26:34.000Z"
+    },
+    {
+      "id": "P16fgOIXAM6T",
+      "representative": {
+        "id": "P16fgOIXAM6T",
+        "url": "https://andina.pe/agencia/noticia-peru-presenta-proyectos-vivienda-sostenible-y-agua-roadshow-embajada-francia-1094814.aspx",
+        "canonicalUrl": "https://andina.pe/agencia/noticia-peru-presenta-proyectos-vivienda-sostenible-y-agua-roadshow-embajada-francia-1094814.aspx",
+        "title": "Perú presenta proyectos de vivienda sostenible y agua en roadshow de Embajada de Francia",
+        "description": "En una reunión con empresas y agencias de cooperación, organizada por la Embajada de Francia en el Perú, el ministro de Vivienda, Construcción y Saneamiento, Mauricio Arnillas, presentó una cartera de proyectos en vivienda sostenible, agua y saneamiento con el fin de propiciar un diálogo sobre…",
+        "source": {
+          "id": "andina",
+          "name": "Andina"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:25:38.000Z",
+        "imageUrl": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/06/001321279W.jpg",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:25:38.000Z"
     }
   ]
 }
