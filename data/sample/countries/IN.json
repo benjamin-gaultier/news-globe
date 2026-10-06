@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IN",
   "countryName": "India",
-  "updatedAt": "2026-10-06T14:35:42.831Z",
+  "updatedAt": "2026-10-06T15:01:56.292Z",
   "clusters": [
     {
       "id": "8eqCr04HRU1M",
@@ -138,48 +138,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:08:41.000Z"
-    },
-    {
-      "id": "tjSCjbL0EazH",
-      "representative": {
-        "id": "tjSCjbL0EazH",
-        "url": "https://www.thehindu.com/news/national/byelection-bypoll-voting-nandigram-rejinagar-madurantakam-dharapuram-thattanchavady-nagaon-live-updates-october-6-2026/article71549585.ece",
-        "canonicalUrl": "https://www.thehindu.com/news/national/byelection-bypoll-voting-nandigram-rejinagar-madurantakam-dharapuram-thattanchavady-nagaon-live-updates-october-6-2026/article71549585.ece",
-        "title": "Byelections 2026 LIVE updates: West Bengal's Nandigram records 79.39% polling, Rejinagar 78.42% by 5 p.m.",
-        "description": "The presence of TVK agent Saravanan in the polling booth at Kavundachipudur centre triggered a protest by DMK party members, leading to disruption of polling process in Dharapuram Assembly Constituency",
-        "source": {
-          "id": "thehindu",
-          "name": "The Hindu"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:01:22.000Z",
-        "imageUrl": null,
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "QOvAVxTJnzQ-",
-          "url": "https://indianexpress.com/article/india/by-election-2026-live-updates-polling-tamil-nadu-west-bengal-assam-puducherry-10908301/",
-          "canonicalUrl": "https://indianexpress.com/article/india/by-election-2026-live-updates-polling-tamil-nadu-west-bengal-assam-puducherry-10908301/",
-          "title": "By-Elections 2026 Live Updates: TN’s Madurantakam tops bypoll turnout at 83.86%, Bengal’s Nandigram records 79.39% until 5 PM",
-          "description": null,
-          "source": {
-            "id": "indianexpress",
-            "name": "The Indian Express"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T02:34:48.000Z",
-          "imageUrl": "https://images.indianexpress.com/2026/10/3.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:01:22.000Z"
     },
     {
       "id": "-dTiS-U5D-vW",
@@ -630,6 +588,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:08:21.000Z"
+    },
+    {
+      "id": "KdPXyNhPQ1Js",
+      "representative": {
+        "id": "KdPXyNhPQ1Js",
+        "url": "https://www.hindustantimes.com/india-news/youtuber-anurag-dobhal-3-others-arrested-for-allegedly-assaulting-brother-in-law-in-dehradun-101791292044243.html",
+        "canonicalUrl": "https://www.hindustantimes.com/india-news/youtuber-anurag-dobhal-3-others-arrested-for-allegedly-assaulting-brother-in-law-in-dehradun-101791292044243.html",
+        "title": "YouTuber Anurag Dobhal, 3 others held for assaulting brother-in-law in Dehradun: Police",
+        "description": "YouTuber Anurag Dobhal and three others were arrested after assaulting his wife’s cousin in Dehradun. Police said a case was also registered based on the victim’s complaint.",
+        "source": {
+          "id": "hindustantimes",
+          "name": "Hindustan Times"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:07:23.000Z",
+        "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/Police-said-Anurag-Dobhal-and-three-others-alleged_1791292154584_z2Nv.jpg",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:07:23.000Z"
     }
   ]
 }

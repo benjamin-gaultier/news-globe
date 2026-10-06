@@ -2,84 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "US",
   "countryName": "United States",
-  "updatedAt": "2026-10-06T14:35:42.831Z",
+  "updatedAt": "2026-10-06T15:01:56.292Z",
   "clusters": [
-    {
-      "id": "OgyCJFkbZHgm",
-      "representative": {
-        "id": "OgyCJFkbZHgm",
-        "url": "https://www.nytimes.com/2026/10/05/business/media/fox-news-karoline-leavitt.html",
-        "canonicalUrl": "https://www.nytimes.com/2026/10/05/business/media/fox-news-karoline-leavitt.html",
-        "title": "Karoline Leavitt, Trump’s ‘Machine Gun,’ Has a New Gig at Fox News",
-        "description": "A fierce and nimble speaker, Ms. Leavitt is the third of Mr. Trump’s former press secretaries to join the cable news network.",
-        "source": {
-          "id": "nyt",
-          "name": "The New York Times"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-05T15:57:28.000Z",
-        "imageUrl": "https://static01.nyt.com/images/2026/10/05/multimedia/05biz-fox-news-karoline-leavitt-qlbk/05biz-fox-news-karoline-leavitt-qlbk-mediumSquareAt3X.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "NaAVQszzhtvN",
-          "url": "https://abcnews.com/Politics/wireStory/former-press-secretary-karoline-leavitt-lands-gig-fox-137004427",
-          "canonicalUrl": "https://abcnews.com/Politics/wireStory/former-press-secretary-karoline-leavitt-lands-gig-fox-137004427",
-          "title": "Former press secretary Karoline Leavitt lands her next gig: Fox News contributor",
-          "description": "Former White House press secretary Karoline Leavitt is joining Fox News as an on-air contributor starting November 1",
-          "source": {
-            "id": "abc",
-            "name": "ABC News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T15:48:14.000Z",
-          "imageUrl": "https://s.abcnews.com/images/US/wirestory_29678b4186eefe6d4a5bf6fb3706cc43_16x9_1600.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "y0sIaDowapk4",
-          "url": "https://www.pbs.org/newshour/politics/former-white-house-press-secretary-karoline-leavitt-lands-her-next-gig-as-fox-news-contributor",
-          "canonicalUrl": "https://www.pbs.org/newshour/politics/former-white-house-press-secretary-karoline-leavitt-lands-her-next-gig-as-fox-news-contributor",
-          "title": "Former White House press secretary Karoline Leavitt lands her next gig as Fox News contributor",
-          "description": "Leavitt follows Kayleigh McEnany, the former press secretary who joined Fox in 2021.",
-          "source": {
-            "id": "pbs",
-            "name": "PBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T15:33:34.000Z",
-          "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-09-11T004951Z_1530837442_RC2OGNAUGPXT_RTRMADP_3_USA-ELECTION-REPUBLICANS-1024x683.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "B0gQnYUORR9h",
-          "url": "https://www.cbsnews.com/news/karoline-leavitt-fox-news/",
-          "canonicalUrl": "https://www.cbsnews.com/news/karoline-leavitt-fox-news/",
-          "title": "Karoline Leavitt joining Fox News as a contributor",
-          "description": "Former White House press secretary Karoline Leavitt will begin her new role at Fox News on Nov. 1.",
-          "source": {
-            "id": "cbs",
-            "name": "CBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T14:52:23.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-05T15:57:28.000Z"
-    },
     {
       "id": "edfDpG-qKOcf",
       "representative": {
@@ -231,6 +155,82 @@
       "outletCount24h": 3,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T02:35:48.000Z"
+    },
+    {
+      "id": "OgyCJFkbZHgm",
+      "representative": {
+        "id": "OgyCJFkbZHgm",
+        "url": "https://www.nytimes.com/2026/10/05/business/media/fox-news-karoline-leavitt.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/05/business/media/fox-news-karoline-leavitt.html",
+        "title": "Karoline Leavitt, Trump’s ‘Machine Gun,’ Has a New Gig at Fox News",
+        "description": "A fierce and nimble speaker, Ms. Leavitt is the third of Mr. Trump’s former press secretaries to join the cable news network.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T15:57:28.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/05/multimedia/05biz-fox-news-karoline-leavitt-qlbk/05biz-fox-news-karoline-leavitt-qlbk-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "NaAVQszzhtvN",
+          "url": "https://abcnews.com/Politics/wireStory/former-press-secretary-karoline-leavitt-lands-gig-fox-137004427",
+          "canonicalUrl": "https://abcnews.com/Politics/wireStory/former-press-secretary-karoline-leavitt-lands-gig-fox-137004427",
+          "title": "Former press secretary Karoline Leavitt lands her next gig: Fox News contributor",
+          "description": "Former White House press secretary Karoline Leavitt is joining Fox News as an on-air contributor starting November 1",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T15:48:14.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_29678b4186eefe6d4a5bf6fb3706cc43_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "y0sIaDowapk4",
+          "url": "https://www.pbs.org/newshour/politics/former-white-house-press-secretary-karoline-leavitt-lands-her-next-gig-as-fox-news-contributor",
+          "canonicalUrl": "https://www.pbs.org/newshour/politics/former-white-house-press-secretary-karoline-leavitt-lands-her-next-gig-as-fox-news-contributor",
+          "title": "Former White House press secretary Karoline Leavitt lands her next gig as Fox News contributor",
+          "description": "Leavitt follows Kayleigh McEnany, the former press secretary who joined Fox in 2021.",
+          "source": {
+            "id": "pbs",
+            "name": "PBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T15:33:34.000Z",
+          "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-09-11T004951Z_1530837442_RC2OGNAUGPXT_RTRMADP_3_USA-ELECTION-REPUBLICANS-1024x683.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "B0gQnYUORR9h",
+          "url": "https://www.cbsnews.com/news/karoline-leavitt-fox-news/",
+          "canonicalUrl": "https://www.cbsnews.com/news/karoline-leavitt-fox-news/",
+          "title": "Karoline Leavitt joining Fox News as a contributor",
+          "description": "Former White House press secretary Karoline Leavitt will begin her new role at Fox News on Nov. 1.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T14:52:23.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-05T15:57:28.000Z"
     },
     {
       "id": "BBxxZB0Zjndl",

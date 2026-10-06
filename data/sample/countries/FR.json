@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "FR",
   "countryName": "France",
-  "updatedAt": "2026-10-06T14:35:42.831Z",
+  "updatedAt": "2026-10-06T15:01:56.292Z",
   "clusters": [
     {
       "id": "dlwuXk8kNVcC",
@@ -157,6 +157,65 @@
       "latestPublishedAt": "2026-10-06T05:47:42.000Z"
     },
     {
+      "id": "XtoKC54rvKyC",
+      "representative": {
+        "id": "XtoKC54rvKyC",
+        "url": "https://www.franceinfo.fr/politique/front-national/le-rn-va-presenter-son-contre-budget-en-pleine-affaire-bardella_8223664.html#xtor=RSS-3-%5Bgeneral%5D",
+        "canonicalUrl": "https://www.franceinfo.fr/politique/front-national/le-rn-va-presenter-son-contre-budget-en-pleine-affaire-bardella_8223664.html",
+        "title": "Le RN va présenter son contre-budget, en pleine \"affaire Bardella\"",
+        "description": "Les deux dirigeants du Rassemblement national tiendront une conférence de presse mardi pour présenter le budget que Marine Le Pen défendra si elle arrive au pouvoir. Mais celle-ci risque d'être rattrapée par la polémique sur les propos antisémites attribués à Jordan Bardella.",
+        "source": {
+          "id": "franceinfo",
+          "name": "franceinfo"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T04:59:45.000Z",
+        "imageUrl": "https://www.franceinfo.fr/pictures/2k-bDaCejggqQEerbYn5qvbGWFQ/0x0:2482x1396/432x243/filters:format(jpg)/2026/10/05/6ac3c7694a2ab273831080.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ROe1HvFvqAsl",
+          "url": "https://www.ouest-france.fr/politique/rassemblement-national/presidentielle-2027-confronte-a-une-tempete-politique-le-rn-tente-de-convaincre-avec-ses-propositions-economiques-9619a514-c15a-11f1-97ef-829bf84bf59f?utm_source=fluxpublicfrance&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "canonicalUrl": "https://www.ouest-france.fr/politique/rassemblement-national/presidentielle-2027-confronte-a-une-tempete-politique-le-rn-tente-de-convaincre-avec-ses-propositions-economiques-9619a514-c15a-11f1-97ef-829bf84bf59f",
+          "title": "Présidentielle 2027 : le RN tente de convaincre avec ses propositions économiques, en pleine affaire Jordan Bardella",
+          "description": "En pleine tempête politique, ce mardi 6 octobre, Marine Le Pen a présenté les propositions économiques du Rassemblement national en cas de victoire à la présidentielle en 2027. Jordan Bardella, lui, a proposé un contre-budget pour 2027. Un exercice d’équilibriste compliqué auquel se sont prêtés…",
+          "source": {
+            "id": "ouestfrance",
+            "name": "Ouest-France"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T10:11:17.000Z",
+          "imageUrl": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwNGRhYTdhZDRmZTJiM2ViNWY3ZjYwMWE2YWY4MDUwMTI?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=025ebe3391e601cdaa04f99d24ba26757ed669f7d6ece51502de532f5e2c6636",
+          "countryCode": "FR",
+          "regionCode": null
+        },
+        {
+          "id": "u6nNTlfA4DeH",
+          "url": "https://www.liberation.fr/politique/en-quete-de-credibilite-le-rn-va-presenter-son-contre-budget-20261005_PUBTT7GPRBE3PNKA5KHOPVPTCY/",
+          "canonicalUrl": "https://www.liberation.fr/politique/en-quete-de-credibilite-le-rn-va-presenter-son-contre-budget-20261005_PUBTT7GPRBE3PNKA5KHOPVPTCY/",
+          "title": "En quête de crédibilité, le RN va présenter son contre-budget",
+          "description": "Alors que le parti a été ébranlé par les écrits antisémites de Jordan Bardella, le binôme du RN doit détailler son plan de 125 milliards, espérant ainsi convaincre de son sérieux.",
+          "source": {
+            "id": "liberation",
+            "name": "Libération"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T15:02:24.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T10:11:17.000Z"
+    },
+    {
       "id": "l30sslwq3c1-",
       "representative": {
         "id": "l30sslwq3c1-",
@@ -239,48 +298,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:14:29.000Z"
-    },
-    {
-      "id": "XtoKC54rvKyC",
-      "representative": {
-        "id": "XtoKC54rvKyC",
-        "url": "https://www.franceinfo.fr/politique/front-national/le-rn-va-presenter-son-contre-budget-en-pleine-affaire-bardella_8223664.html#xtor=RSS-3-%5Bgeneral%5D",
-        "canonicalUrl": "https://www.franceinfo.fr/politique/front-national/le-rn-va-presenter-son-contre-budget-en-pleine-affaire-bardella_8223664.html",
-        "title": "Le RN va présenter son contre-budget, en pleine \"affaire Bardella\"",
-        "description": "Les deux dirigeants du Rassemblement national tiendront une conférence de presse mardi pour présenter le budget que Marine Le Pen défendra si elle arrive au pouvoir. Mais celle-ci risque d'être rattrapée par la polémique sur les propos antisémites attribués à Jordan Bardella.",
-        "source": {
-          "id": "franceinfo",
-          "name": "franceinfo"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T04:59:45.000Z",
-        "imageUrl": "https://www.franceinfo.fr/pictures/2k-bDaCejggqQEerbYn5qvbGWFQ/0x0:2482x1396/432x243/filters:format(jpg)/2026/10/05/6ac3c7694a2ab273831080.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "u6nNTlfA4DeH",
-          "url": "https://www.liberation.fr/politique/en-quete-de-credibilite-le-rn-va-presenter-son-contre-budget-20261005_PUBTT7GPRBE3PNKA5KHOPVPTCY/",
-          "canonicalUrl": "https://www.liberation.fr/politique/en-quete-de-credibilite-le-rn-va-presenter-son-contre-budget-20261005_PUBTT7GPRBE3PNKA5KHOPVPTCY/",
-          "title": "En quête de crédibilité, le RN va présenter son contre-budget",
-          "description": "Alors que le parti a été ébranlé par les écrits antisémites de Jordan Bardella, le binôme du RN doit détailler son plan de 125 milliards, espérant ainsi convaincre de son sérieux.",
-          "source": {
-            "id": "liberation",
-            "name": "Libération"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-05T15:02:24.000Z",
-          "imageUrl": null,
-          "countryCode": "FR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T04:59:45.000Z"
     },
     {
       "id": "EAskgXdmb1-3",

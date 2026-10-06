@@ -2,8 +2,50 @@
   "schemaVersion": 1,
   "countryCode": "MA",
   "countryName": "Morocco",
-  "updatedAt": "2026-10-06T14:35:42.831Z",
+  "updatedAt": "2026-10-06T15:01:56.292Z",
   "clusters": [
+    {
+      "id": "WuRy8BpamyNw",
+      "representative": {
+        "id": "WuRy8BpamyNw",
+        "url": "https://telquel.ma/instant-t/2026/10/06/ciment-pres-de-11-millions-de-tonnes-de-livraisons-a-fin-septembre_2011640/",
+        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/06/ciment-pres-de-11-millions-de-tonnes-de-livraisons-a-fin-septembre_2011640/",
+        "title": "Ciment : près de 11 millions de tonnes de livraisons à fin septembre",
+        "description": "Les livraisons de ciment ont atteint près de 11 millions de tonnes (MT) à fin septembre 2026, en légère hausse de 1,17% par rapport à la même période une année auparavant, selon les données du ministère de l’Aménagement du territoire national, de l’Urbanisme, de l’Habitat et de la Politique de la…",
+        "source": {
+          "id": "telquel",
+          "name": "TelQuel"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:32:26.000Z",
+        "imageUrl": "https://static.telquel.ma/content/uploads/2014/04/cimenttt_.jpg",
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "oavxPZN2d3AU",
+          "url": "https://www.lavieeco.com/affaires/ciments-11-millions-de-tonnes-livres-a-fin-septembre/",
+          "canonicalUrl": "https://www.lavieeco.com/affaires/ciments-11-millions-de-tonnes-livres-a-fin-septembre/",
+          "title": "Ciments : 11 millions de tonnes livrées à fin septembre",
+          "description": "La consommation de ciment ressort en hausse de 1,17% sur un an. Le seul mois de septembre affiche toutefois une progression beaucoup plus marquée de 19,31%. L’article Ciments : 11 millions de tonnes livrées à fin septembre est apparu en premier sur La Vie éco .",
+          "source": {
+            "id": "lavieeco",
+            "name": "La Vie éco"
+          },
+          "sourceCountry": "MA",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:15:43.000Z",
+          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/Chargement-de-ciment-a-lusine-1024x683.png",
+          "countryCode": "MA",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:32:26.000Z"
+    },
     {
       "id": "nk3iJhXP7qLT",
       "representative": {
@@ -59,51 +101,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T13:15:36.000Z"
-    },
-    {
-      "id": "WuRy8BpamyNw",
-      "representative": {
-        "id": "WuRy8BpamyNw",
-        "url": "https://telquel.ma/instant-t/2026/10/06/ciment-pres-de-11-millions-de-tonnes-de-livraisons-a-fin-septembre_2011640/",
-        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/06/ciment-pres-de-11-millions-de-tonnes-de-livraisons-a-fin-septembre_2011640/",
-        "title": "Ciment : près de 11 millions de tonnes de livraisons à fin septembre",
-        "description": "Les livraisons de ciment ont atteint près de 11 millions de tonnes (MT) à fin septembre 2026, en légère hausse de 1,17% par rapport à la même période une année auparavant, selon les données du ministère de l’Aménagement du territoire national, de l’Urbanisme, de l’Habitat et de la Politique de la…",
-        "source": {
-          "id": "telquel",
-          "name": "TelQuel"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:32:26.000Z",
-        "imageUrl": "https://static.telquel.ma/content/uploads/2014/04/cimenttt_.jpg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "oavxPZN2d3AU",
-          "url": "https://www.lavieeco.com/affaires/ciments-11-millions-de-tonnes-livres-a-fin-septembre/",
-          "canonicalUrl": "https://www.lavieeco.com/affaires/ciments-11-millions-de-tonnes-livres-a-fin-septembre/",
-          "title": "Ciments : 11 millions de tonnes livrées à fin septembre",
-          "description": "La consommation de ciment ressort en hausse de 1,17% sur un an. Le seul mois de septembre affiche toutefois une progression beaucoup plus marquée de 19,31%. L’article Ciments : 11 millions de tonnes livrées à fin septembre est apparu en premier sur La Vie éco .",
-          "source": {
-            "id": "lavieeco",
-            "name": "La Vie éco"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:15:43.000Z",
-          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/Chargement-de-ciment-a-lusine-1024x683.png",
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:32:26.000Z"
     },
     {
       "id": "Vdm76472bdte",
@@ -400,48 +400,6 @@
       "latestPublishedAt": "2026-10-05T16:09:14.000Z"
     },
     {
-      "id": "6fin-wceQsL4",
-      "representative": {
-        "id": "6fin-wceQsL4",
-        "url": "https://telquel.ma/instant-t/2026/10/05/lonmt-et-gnv-vont-developper-les-flux-touristiques-maritimes-entre-litalie-et-le-maroc_2011472/",
-        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/05/lonmt-et-gnv-vont-developper-les-flux-touristiques-maritimes-entre-litalie-et-le-maroc_2011472/",
-        "title": "L'ONMT et GNV vont développer les flux touristiques maritimes entre l'Italie et le Maroc",
-        "description": "L’Office national marocain du tourisme (ONMT) a annoncé, lundi, la signature d’un accord avec la compagnie maritime italienne GNV visant à développer les flux touristiques entre l’Italie et le Maroc. L’Office national marocain du tourisme et la compagnie maritime italienne GNV s’engagent pour les…",
-        "source": {
-          "id": "telquel",
-          "name": "TelQuel"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-05T14:55:28.000Z",
-        "imageUrl": "https://static.telquel.ma/content/uploads/2020/07/GNV-bateau-ferry-genes-tanger.jpg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "YCxaboYiqe7u",
-          "url": "https://www.lavieeco.com/affaires/tourisme-lonmt-et-gnv-veulent-accelerer-les-flux-entre-litalie-et-le-maroc/",
-          "canonicalUrl": "https://www.lavieeco.com/affaires/tourisme-lonmt-et-gnv-veulent-accelerer-les-flux-entre-litalie-et-le-maroc/",
-          "title": "Tourisme : L’ONMT et GNV veulent accélérer les flux entre l’Italie et le Maroc",
-          "description": "L’ONMT et la compagnie maritime italienne GNV ont conclu un partenariat de trois ans pour renforcer la promotion du Maroc et développer les flux maritimes vers le Royaume, avec l’objectif d’atteindre 350.000 passagers au départ du marché italien. L’article Tourisme : L’ONMT et GNV veulent…",
-          "source": {
-            "id": "lavieeco",
-            "name": "La Vie éco"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-05T15:24:59.000Z",
-          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-05-at-15.17.20-1024x683.jpeg",
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T15:24:59.000Z"
-    },
-    {
       "id": "nOPh3ghabc8H",
       "representative": {
         "id": "nOPh3ghabc8H",
@@ -560,6 +518,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:25:32.000Z"
+    },
+    {
+      "id": "EfTRStOZ5M1C",
+      "representative": {
+        "id": "EfTRStOZ5M1C",
+        "url": "https://leseco.ma/business/prix-a-la-pompe-les-transporteurs-touristiques-a-sec.html",
+        "canonicalUrl": "https://leseco.ma/business/prix-a-la-pompe-les-transporteurs-touristiques-a-sec.html",
+        "title": "Prix à la pompe : les transporteurs touristiques à sec",
+        "description": "En franchissant le 1er octobre la barre des 16 dirhams, le gasoil coûte désormais plus cher que l’essence. The post Prix à la pompe : les transporteurs touristiques à sec appeared first on LesEco.ma .",
+        "source": {
+          "id": "leseco",
+          "name": "Les Inspirations ÉCO"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:11:26.000Z",
+        "imageUrl": null,
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:11:26.000Z"
     }
   ]
 }

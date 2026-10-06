@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PK",
   "countryName": "Pakistan",
-  "updatedAt": "2026-10-06T14:35:42.831Z",
+  "updatedAt": "2026-10-06T15:01:56.292Z",
   "clusters": [
     {
       "id": "mw_09x8TxHk7",
@@ -197,6 +197,48 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T10:16:12.000Z"
+    },
+    {
+      "id": "clBwRYjSkUd-",
+      "representative": {
+        "id": "clBwRYjSkUd-",
+        "url": "https://www.dawn.com/news/2035164/nobel-physics-prize-honours-work-on-ghost-messengers-from-space",
+        "canonicalUrl": "https://www.dawn.com/news/2035164/nobel-physics-prize-honours-work-on-ghost-messengers-from-space",
+        "title": "Nobel physics prize honours work on 'ghost messengers from space'",
+        "description": "Belgian physicist Francis Halzen on Tuesday won the Nobel Prize in Physics for work on subatomic particles at the South Pole, the award jury said. “This year’s prize is about ghostly messengers from space,” Ellen Moons, secretary general of the Royal Swedish Academy of Sciences, told a news…",
+        "source": {
+          "id": "dawn",
+          "name": "Dawn"
+        },
+        "sourceCountry": "PK",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:26:17.000Z",
+        "imageUrl": "https://i.dawn.com/large/2026/10/06152423c42cfe9.webp",
+        "countryCode": "PK",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "pA7TQuxuicPv",
+          "url": "https://www.brecorder.com/news/40442902/ghost-particle-hunter-francis-halzen-wins-2026-nobel-physics-prize",
+          "canonicalUrl": "https://www.brecorder.com/news/40442902/ghost-particle-hunter-francis-halzen-wins-2026-nobel-physics-prize",
+          "title": "'Ghost particle' hunter Francis Halzen wins 2026 Nobel Physics Prize",
+          "description": "STOCKHOLM: Belgian-American particle physicist Francis Halzen won the 2026 Nobel Prize in Physics for ground-breaking work creating an observatory to detect some of the universe’s most elusive particles, high-energy neutrinos, and how they ​are created. Halzen realised that ice at the South Pole…",
+          "source": {
+            "id": "brecorder",
+            "name": "Business Recorder"
+          },
+          "sourceCountry": "PK",
+          "language": "en",
+          "publishedAt": "2026-10-06T10:35:45.000Z",
+          "imageUrl": "https://i.brecorder.com/large/2026/10/0615313570d4a5d.gif",
+          "countryCode": "PK",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:35:45.000Z"
     },
     {
       "id": "RNkonVuWCgge",
@@ -550,48 +592,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:32:05.000Z"
-    },
-    {
-      "id": "beCMh1Jl1kuB",
-      "representative": {
-        "id": "beCMh1Jl1kuB",
-        "url": "https://www.dawn.com/news/2035130/pti-long-march-wont-be-allowed-beyond-attock-warns-kundi",
-        "canonicalUrl": "https://www.dawn.com/news/2035130/pti-long-march-wont-be-allowed-beyond-attock-warns-kundi",
-        "title": "PTI long march won’t be allowed beyond Attock, warns Kundi",
-        "description": "Khyber Pakhtunkhwa Governor Faisal Karim Kundi on Tuesday vowed that PTI’s long march would not be allowed to proceed beyond Attock in Punjab — which borders KP — saying the party “did not have the capacity” to do so. The opposition has gone ahead with its march despite warnings from the Centre…",
-        "source": {
-          "id": "dawn",
-          "name": "Dawn"
-        },
-        "sourceCountry": "PK",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:30:18.000Z",
-        "imageUrl": "https://i.dawn.com/large/2026/10/06112855cac0930.webp",
-        "countryCode": "PK",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "4N43saXGGClD",
-          "url": "https://www.geo.tv/latest/685034-islamabad-march-pti-caravan-led-by-cm-afridi-reaches-kps-karak",
-          "canonicalUrl": "https://www.geo.tv/latest/685034-islamabad-march-pti-caravan-led-by-cm-afridi-reaches-kps-karak",
-          "title": "KP governor says PTI lacks capacity to take long march beyond Punjab's Attock",
-          "description": null,
-          "source": {
-            "id": "geo",
-            "name": "Geo News"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-05T04:02:00.000Z",
-          "imageUrl": "https://www.geo.tv/assets/uploads/2026-10-05/685034_095243_updates.jpg",
-          "countryCode": "PK",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:30:18.000Z"
     }
   ]
 }

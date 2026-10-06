@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IE",
   "countryName": "Ireland",
-  "updatedAt": "2026-10-06T14:35:42.831Z",
+  "updatedAt": "2026-10-06T15:01:56.292Z",
   "clusters": [
     {
       "id": "i_ezQjmDfveC",
@@ -401,48 +401,6 @@
       "latestPublishedAt": "2026-10-06T13:15:00.000Z"
     },
     {
-      "id": "rz6xgcHImDGX",
-      "representative": {
-        "id": "rz6xgcHImDGX",
-        "url": "https://www.rte.ie/news/2026/1006/1594242-watch-live-budget-2027/",
-        "canonicalUrl": "https://www.rte.ie/news/2026/1006/1594242-watch-live-budget-2027/",
-        "title": "Watch live: Special coverage for Budget 2027",
-        "description": "Watch live: Special coverage for Budget 2027",
-        "source": {
-          "id": "rte",
-          "name": "RTÉ News"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-06T11:46:23.000Z",
-        "imageUrl": "https://www.rte.ie/images/00251f1b-800.jpg",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "UmL4S326X2-5",
-          "url": "https://www.irishmirror.ie/search/polls/poll-should-happy-budget-2027-37740814",
-          "canonicalUrl": "https://www.irishmirror.ie/search/polls/poll-should-happy-budget-2027-37740814",
-          "title": "Poll: Should we be happy with Budget 2027?",
-          "description": "Budget 2027 has been announced - have your say in our poll",
-          "source": {
-            "id": "irishmirror",
-            "name": "Irish Mirror"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:52:36.000Z",
-          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article37740899.ece/ALTERNATES/s615/0_budget-2027-25JPG.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:52:36.000Z"
-    },
-    {
       "id": "bfjm7XOdHXxW",
       "representative": {
         "id": "bfjm7XOdHXxW",
@@ -752,6 +710,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T21:40:00.000Z"
+    },
+    {
+      "id": "D6m8D6J29ONK",
+      "representative": {
+        "id": "D6m8D6J29ONK",
+        "url": "https://www.rte.ie/news/uk/2026/1005/1594134-jeffrey-archer-death/",
+        "canonicalUrl": "https://www.rte.ie/news/uk/2026/1005/1594134-jeffrey-archer-death/",
+        "title": "Former politician, novelist Jeffrey Archer dies aged 86",
+        "description": "Former politician and author Jeffrey Archer has died aged 86, his publisher said in a statement.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-05T20:56:50.000Z",
+        "imageUrl": "https://www.rte.ie/images/00251f83-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "WUP1WwmKtDUJ",
+          "url": "https://www.thejournal.ie/jeffrey-archer-dies-aged-86-7183272-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/jeffrey-archer-dies-aged-86-7183272-Oct2026/",
+          "title": "British novelist and former Conservative politician Jeffrey Archer dies aged 86",
+          "description": "His editor at Harper Collins said he was “phenomenally hard-working”.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-05T20:56:28.000Z",
+          "imageUrl": "https://c3.thejournal.ie/media/2026/10/anzac-day-2022-236063a0-a1b0-4fe6-bf63-9ce13ad772b1-630x450.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T20:56:50.000Z"
     }
   ]
 }
