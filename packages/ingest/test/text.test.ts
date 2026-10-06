@@ -187,6 +187,21 @@ describe('titleTokens: Russian, Macedonian and Albanian', () => {
   });
 });
 
+describe('titleTokens: Chinese, Indonesian and Vietnamese', () => {
+  it('splits Chinese into bigrams, cutting at grammatical characters', () => {
+    expect([...titleTokens('立法院通過了預算', 'zh')].sort()).toEqual(['法院', '立法', '院通', '通過', '預算'].sort());
+  });
+  it('drops Indonesian stopwords', () => {
+    expect(titleTokens('Presiden Prabowo resmikan bendungan di Jawa Tengah hari ini', 'id')).toEqual(
+      new Set(['presiden', 'prabowo', 'resmikan', 'bendungan', 'jawa', 'tengah']),
+    );
+  });
+  it('folds Vietnamese tones and drops stopwords', () => {
+    expect(titleTokens('Quốc hội thông qua luật đất đai', 'vi')).toEqual(titleTokens('Quoc hoi thong qua luat đat đai', 'vi'));
+    expect(titleTokens('Quốc hội thông qua luật', 'vi').has('qua')).toBe(false);
+  });
+});
+
 describe('titleTokens: years', () => {
   it('drops French calendar words', () => {
     expect(titleTokens('Nécrologie du 06 octobre 2026', 'fr')).toEqual(new Set(['06', 'necrologi']));
@@ -244,6 +259,9 @@ describe('HTML and truncation', () => {
       'Un vote au Sénat & l’Assemblée',
     );
     expect(decodeEntities('Trump&apos;s &quot;plan&quot;')).toBe('Trump\'s "plan"');
+    expect(decodeEntities('b&aacute;o ch&iacute; &Eacute;mile &Ouml;zil')).toBe('báo chí Émile Özil');
+    expect(decodeEntities('&bdquo;prane&scaron;ė&ldquo;')).toBe('„pranešė“');
+    expect(decodeEntities('Kandas, amp;nbsp;MK')).toBe('Kandas,  MK');
   });
 
   it('truncates at a word boundary with an ellipsis', () => {

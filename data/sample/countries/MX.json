@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MX",
   "countryName": "Mexico",
-  "updatedAt": "2026-10-06T16:19:35.154Z",
+  "updatedAt": "2026-10-06T16:38:16.084Z",
   "clusters": [
     {
       "id": "5HUopp0WwYAv",
@@ -104,48 +104,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:14:07.000Z"
-    },
-    {
-      "id": "dJSULXd3ufOW",
-      "representative": {
-        "id": "dJSULXd3ufOW",
-        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-confirma-cierre-temporal-de-inscripciones-a-jovenes-construyendo-el-futuro-nuevos-registros-seran-en-enero/",
-        "canonicalUrl": "https://www.eluniversal.com.mx/nacion/sheinbaum-confirma-cierre-temporal-de-inscripciones-a-jovenes-construyendo-el-futuro-nuevos-registros-seran-en-enero/",
-        "title": "Sheinbaum confirma cierre temporal de inscripciones a Jóvenes Construyendo el Futuro; nuevos registros serán en enero",
-        "description": "La Presidenta explicó que las nuevas inscripciones estarán sujetas a las metas previstas para el próximo año",
-        "source": {
-          "id": "eluniversal",
-          "name": "El Universal"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-05T16:35:55.000Z",
-        "imageUrl": "https://www.eluniversal.com.mx/resizer/v2/RZS7AWXHCRF7XMYPELV4AN3D7M.jpg?auth=d0f8fc26823454d1508e890462892d9ec969f9aa0c153d3afc6291a3b5f71ced&smart=true&width=500",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "tZUP0xnhINtX",
-          "url": "https://www.jornada.com.mx/2026/10/06/politica/010n1pol?partner=rss",
-          "canonicalUrl": "https://www.jornada.com.mx/2026/10/06/politica/010n1pol",
-          "title": "Este año ya se cumplió meta de Jóvenes Construyendo el Futuro, aclara Sheinbaum",
-          "description": "Al referirse a las críticas en redes sociales por la decisión de la Secretaría del Trabajo y Previsión Social de cerrar el portal de ingreso al programa Jóvenes Construyendo el Futuro, la presidenta Claudia Sheinbaum confirmó que por este año ya no habrá incorporaciones al proyecto de capacitación.",
-          "source": {
-            "id": "jornada",
-            "name": "La Jornada"
-          },
-          "sourceCountry": "MX",
-          "language": "es",
-          "publishedAt": "2026-10-06T08:49:54.000Z",
-          "imageUrl": null,
-          "countryCode": "MX",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:49:54.000Z"
     },
     {
       "id": "m9uPAmO1R8oV",
@@ -488,6 +446,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:59:45.000Z"
+    },
+    {
+      "id": "txZDdEjIPlKM",
+      "representative": {
+        "id": "txZDdEjIPlKM",
+        "url": "https://expansion.mx/opinion/2026/10/06/la-manufactura-frente-a-una-demanda-que-ya-no-espera",
+        "canonicalUrl": "https://expansion.mx/opinion/2026/10/06/la-manufactura-frente-a-una-demanda-que-ya-no-espera",
+        "title": "La manufactura frente a una demanda que ya no espera",
+        "description": "La capacidad de los proveedores será determinante para que las empresas mexicanas puedan aprovechar nuevas oportunidades en las cadenas globales de manufactura.",
+        "source": {
+          "id": "expansion",
+          "name": "Expansión"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:59:23.000Z",
+        "imageUrl": "https://cdn-3.expansion.mx/dims4/default/426b2f4/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F9c%2Fcb%2F8352993a45a5ad2f8aa2f5deeb60%2Fla-automatizacion-de-las-fabricas-empieza-con-datos-no-con-robots.jpg",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:59:23.000Z"
     }
   ]
 }

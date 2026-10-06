@@ -25,14 +25,35 @@ const NAMED_ENTITIES: Record<string, string> = {
   ucirc: 'û',
   ugrave: 'ù',
   euro: '€',
+  szlig: 'ß',
+  oslash: 'ø',
+  aelig: 'æ',
+  bdquo: '„',
+  sbquo: '‚',
 };
 
+/** Accented-letter entities (&aacute;, &Otilde;, &uuml;…) are a letter plus a combining mark. */
+const ENTITY_MARKS: Record<string, string> = {
+  acute: '\u0301',
+  grave: '\u0300',
+  circ: '\u0302',
+  tilde: '\u0303',
+  uml: '\u0308',
+  ring: '\u030A',
+  cedil: '\u0327',
+  caron: '\u030C',
+};
+const ACCENT_ENTITY = /^([a-z])(acute|grave|circ|tilde|uml|ring|cedil|caron)$/i;
+
 export function decodeEntities(input: string): string {
-  return input.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (match, body: string) => {
+  // Some feeds escape twice and lose the "&" ("Gibranamp;nbsp;"); restore it first.
+  return input.replace(/(?<!&)amp;(?=#?\w+;)/g, '&').replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (match, body: string) => {
     if (body[0] === '#') {
       const code = body[1] === 'x' || body[1] === 'X' ? parseInt(body.slice(2), 16) : parseInt(body.slice(1), 10);
       return Number.isFinite(code) && code > 0 && code <= 0x10ffff ? String.fromCodePoint(code) : match;
     }
+    const [, letter, mark] = ACCENT_ENTITY.exec(body) ?? [];
+    if (letter && mark) return (letter + ENTITY_MARKS[mark.toLowerCase()]).normalize('NFC');
     return NAMED_ENTITIES[body.toLowerCase()] ?? match;
   });
 }
@@ -300,6 +321,21 @@ para mbi kundër deri tek te sot dje nesër ky kjo këto këta ata ajo ai saj ti
 ku kur çfarë hënë martë mërkurë enjte premte shtunë diel janar shkurt mars prill maj qershor korrik
 gusht shtator tetor nëntor dhjetor
 `;
+// Indonesian and Vietnamese (folded by foldedWords; Vietnamese loses its tones,
+// so e.g. "nam" covers year, south and five: all too common to be useful).
+const STOPWORDS_ID = `
+yang di ke dari dan untuk dengan ini itu dalam pada akan tidak ada juga sudah atau oleh karena saat
+bagi para kepada telah bisa jadi masih lebih hari kemarin besok usai jelang soal kata sebut begini
+senin selasa rabu kamis jumat sabtu minggu januari februari maret april mei juni juli agustus
+september oktober november desember tahun
+`;
+const STOPWORDS_VI = `
+của và các những cho với trong không được là có người một đã sẽ này đến từ theo về khi tại sau trước
+năm ngày tháng hôm nay qua vào ra lên bị thì mà như để cũng còn rất nhiều đang vừa thứ hai ba tư
+sáu bảy chủ nhật việt nam
+`;
+// Chinese bigrams that are reporting boilerplate rather than story content.
+const STOPWORDS_ZH = `今日 今天 昨天 昨日 明天 明日 表示 指出 記者 報導 报道 快訊 快讯 影音 直播 獨家 独家 最新 新聞 新闻`;
 // Cyrillic й folds to и (NFD), hence "маи".
 const STOPWORDS_BG = `
 и в на за от с да се не е са по до при към като че но или ще бил била било това този тази тези които
@@ -377,6 +413,9 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   hr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   bs: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  id: wordSet(foldedWords(STOPWORDS_ID), STOPWORDS_EN, BOILERPLATE),
+  vi: wordSet(foldedWords(STOPWORDS_VI), STOPWORDS_EN, BOILERPLATE),
+  zh: wordSet(STOPWORDS_ZH, STOPWORDS_EN, BOILERPLATE),
   ru: wordSet(foldedWords(STOPWORDS_RU), STOPWORDS_EN, BOILERPLATE),
   mk: wordSet(foldedWords(STOPWORDS_MK), STOPWORDS_EN, BOILERPLATE),
   sq: wordSet(foldedWords(STOPWORDS_SQ), STOPWORDS_EN, BOILERPLATE),
@@ -412,6 +451,15 @@ function japaneseTokens(title: string): string[] {
     }
   }
   return out;
+}
+
+/**
+ * Chinese is all Han characters, so it uses the Japanese splitter (overlapping
+ * bigrams), after cutting runs at grammatical characters (的, 了, 是, 在…) so
+ * that bigrams like 的新 don't count as shared content.
+ */
+function chineseTokens(title: string): string[] {
+  return japaneseTokens(title.replace(/[的了是在和與与及也都就將将被把對对為为於于之其又並并]/g, ' '));
 }
 
 /**
@@ -459,7 +507,13 @@ export function titleTokens(title: string, language?: string): Set<string> {
   const stopwords = (language && STOPWORDS_BY_LANGUAGE[language]) || STOPWORDS_FR_EN;
   const tokens = new Set<string>();
   const words =
-    language === 'ja' ? japaneseTokens(title) : language === 'ar' ? arabicTokens(title) : foldText(title).split(' ');
+    language === 'ja'
+      ? japaneseTokens(title)
+      : language === 'zh'
+        ? chineseTokens(title)
+        : language === 'ar'
+          ? arabicTokens(title)
+          : foldText(title).split(' ');
   for (const raw of words) {
     if (!raw || stopwords.has(raw)) continue;
     if (raw.length < 2 && !/\d/.test(raw)) continue;

@@ -1,12 +1,15 @@
 import type { Article } from '@news-globe/shared';
 import type { RawItem } from '../adapters/types';
 import type { SourceConfig } from '../sources.config';
+import { decodeEntities } from './text';
 import { articleId, canonicalizeUrl, dateFromUrl } from './url';
 
 /**
  * Turn a raw feed item into an Article. Items without a date take the date in
  * their URL if there is one (e.g. Sky TG24), else the time the feed was
- * retrieved; dates in the future are clamped to `now`.
+ * retrieved; dates in the future are clamped to `now`. Titles and descriptions are
+ * decoded again for feeds that escape them twice (Thanh Niên's "&aacute;"), which also fixes
+ * items cached before the decoder knew those entities.
  */
 export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: string, now: number): Article {
   const canonicalUrl = canonicalizeUrl(item.url);
@@ -15,8 +18,8 @@ export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: stri
     id: articleId(canonicalUrl),
     url: item.url,
     canonicalUrl,
-    title: item.title,
-    description: item.description,
+    title: decodeEntities(item.title),
+    description: item.description && decodeEntities(item.description),
     source: { id: source.id, name: source.name },
     sourceCountry: source.country,
     language: source.language,
