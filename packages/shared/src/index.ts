@@ -190,4 +190,7 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   SD: { code: 'SD', name: 'Sudan', lat: 15.5, lng: 30, altitude: 1.5 },
   CU: { code: 'CU', name: 'Cuba', lat: 21.6, lng: -79.5, altitude: 0.8 },
   PR: { code: 'PR', name: 'Puerto Rico', lat: 18.2, lng: -66.5, altitude: 0.4 },
+  IL: { code: 'IL', name: 'Israel', lat: 31.4, lng: 35, altitude: 0.5 },
+  TJ: { code: 'TJ', name: 'Tajikistan', lat: 38.8, lng: 71, altitude: 0.8 },
+  AF: { code: 'AF', name: 'Afghanistan', lat: 34, lng: 66, altitude: 1.2 },
 };

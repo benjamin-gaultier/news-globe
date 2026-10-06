@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "NZ",
   "countryName": "New Zealand",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "_IZhMEATaydQ",
@@ -695,46 +695,28 @@
       "latestPublishedAt": "2026-10-05T20:01:53.000Z"
     },
     {
-      "id": "UmOQgdFGAcGE",
+      "id": "i58GC4jUmQZB",
       "representative": {
-        "id": "UmOQgdFGAcGE",
-        "url": "https://www.1news.co.nz/2026/10/06/medvedev-disqualified-from-china-open-for-hitting-spectator-with-ball/",
-        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/medvedev-disqualified-from-china-open-for-hitting-spectator-with-ball/",
-        "title": "Medvedev disqualified from China Open for hitting spectator with ball",
-        "description": "Novac Djokovic was serving for the match at 7-5, 5-3 when Daniil Medvedev hit the ball into the stands in apparent frustration, striking a spectator in the eye.",
+        "id": "i58GC4jUmQZB",
+        "url": "https://www.stuff.co.nz/world-news/361043217/how-russia-and-world-are-responding-possible-case-o",
+        "canonicalUrl": "https://www.stuff.co.nz/world-news/361043217/how-russia-and-world-are-responding-possible-case-o",
+        "title": "Watch: WHO says possible case of plague in Russia presents 'very low' risk outside of the country",
+        "description": "The World Health Organisation says a possible case of pneumonic plague in Russia presents a “very low” risk outside the country as investigators look into what caused the death from pneumonia of a lab employee there last week.",
         "source": {
-          "id": "1news",
-          "name": "1News"
+          "id": "stuff",
+          "name": "Stuff"
         },
         "sourceCountry": "NZ",
         "language": "en",
-        "publishedAt": "2026-10-05T19:42:28.000Z",
-        "imageUrl": "https://www.1news.co.nz/resizer/v2/CSF5SRR3MFBHHH3RUYZOYAQDRU.jpg?auth=90093c55b4bbfb47216a2b97acdf9e103614a4075936290ad39a447155d52534&smart=true&width=6946&height=4631",
+        "publishedAt": "2026-10-06T12:49:03.000Z",
+        "imageUrl": null,
         "countryCode": "NZ",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "a47uaCqfGRoA",
-          "url": "https://www.stuff.co.nz/sport/361042710/medvedev-disqualified-china-open-hitting-spectator",
-          "canonicalUrl": "https://www.stuff.co.nz/sport/361042710/medvedev-disqualified-china-open-hitting-spectator",
-          "title": "Watch: Medvedev disqualified after hitting spectator with ball",
-          "description": "Daniil Medvedev struck a spectator with a ball and was disqualified from his semifinal against Novak Djokovic at the China Open on Monday.",
-          "source": {
-            "id": "stuff",
-            "name": "Stuff"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-05T17:15:17.000Z",
-          "imageUrl": null,
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:42:28.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:49:03.000Z"
     }
   ]
 }

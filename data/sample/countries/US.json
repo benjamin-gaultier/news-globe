@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "US",
   "countryName": "United States",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "edfDpG-qKOcf",
@@ -468,48 +468,6 @@
       "latestPublishedAt": "2026-10-05T23:00:00.000Z"
     },
     {
-      "id": "2b9l3xHNyfHn",
-      "representative": {
-        "id": "2b9l3xHNyfHn",
-        "url": "https://www.pbs.org/newshour/politics/obama-to-campaign-with-el-sayed-in-detroit-as-ex-president-gets-more-involved-in-midterms",
-        "canonicalUrl": "https://www.pbs.org/newshour/politics/obama-to-campaign-with-el-sayed-in-detroit-as-ex-president-gets-more-involved-in-midterms",
-        "title": "Obama to campaign with El-Sayed in Detroit as ex-president gets more involved in midterms",
-        "description": "Obama is upping involvement in the midterm election. He taped two dozen ads last week for Democratic candidates for governor and Senate that will be released in the coming days and weeks.",
-        "source": {
-          "id": "pbs",
-          "name": "PBS News"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-05T17:17:30.000Z",
-        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-06-18T200920Z_228045044_RC2JWLAYLDNA_RTRMADP_3_USA-OBAMA-1-1024x683.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "njfcq4O3HVIM",
-          "url": "https://abcnews.com/Politics/wireStory/obama-el-sayed-detroit-president-gets-involved-midterms-137006722",
-          "canonicalUrl": "https://abcnews.com/Politics/wireStory/obama-el-sayed-detroit-president-gets-involved-midterms-137006722",
-          "title": "Obama to appear with El-Sayed in Detroit as he gets more involved in midterms",
-          "description": "Former President Barack Obama plans to appear with Democratic Senate candidate Abdul El-Sayed in Detroit this month",
-          "source": {
-            "id": "abc",
-            "name": "ABC News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T20:59:49.000Z",
-          "imageUrl": "https://s.abcnews.com/images/US/wirestory_349190ae8c747418e84bb65512d75461_16x9_1600.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T20:59:49.000Z"
-    },
-    {
       "id": "MoerQTT-olpY",
       "representative": {
         "id": "MoerQTT-olpY",
@@ -646,6 +604,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:30:00.000Z"
+    },
+    {
+      "id": "nTjOC21gozfj",
+      "representative": {
+        "id": "nTjOC21gozfj",
+        "url": "https://www.nytimes.com/2026/10/06/us/execution-methods.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/06/us/execution-methods.html",
+        "title": "Why These 5 Methods Used in Executions Have Stirred Debate",
+        "description": "Tennessee’s unsuccessful attempt to end the life of Christa Pike is spurring more scrutiny over capital punishment techniques, and whether the death penalty should exist at all.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:50:15.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/05/multimedia/05nat-death-row-tfbl/05nat-death-row-tfbl-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:50:15.000Z"
     }
   ]
 }

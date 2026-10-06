@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AR",
   "countryName": "Argentina",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "uJ83x2h7Ykzc",
@@ -325,65 +325,6 @@
       "latestPublishedAt": "2026-10-06T12:53:39.000Z"
     },
     {
-      "id": "2mVVPkb3vo-u",
-      "representative": {
-        "id": "2mVVPkb3vo-u",
-        "url": "https://www.lanacion.com.ar/el-mundo/flavio-bolsonaro-le-respondio-a-milei-tras-las-elecciones-en-brasil-dios-al-mando-nid05102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/el-mundo/flavio-bolsonaro-le-respondio-a-milei-tras-las-elecciones-en-brasil-dios-al-mando-nid05102026/",
-        "title": "Flavio Bolsonaro le respondió a Milei tras las elecciones en Brasil: “¡Dios al mando!\"",
-        "description": "El candidato conservador, que salió primero en los comicios, auguró que la relación bilateral se fortalecerá “muy pronto”",
-        "source": {
-          "id": "lanacion",
-          "name": "La Nación"
-        },
-        "sourceCountry": "AR",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:50:32.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/RWYZD5JMO5EAJEKFATBZS5LW5E.jpg?auth=07556c7bb991b64aa8de4d076e129f2eaeabe5c520311d826d007e8b92e39322&smart=true&width=4549&height=3032",
-        "countryCode": "AR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Ht153BaTDIma",
-          "url": "https://www.perfil.com/noticias/modo-fontevecchia/en-el-batlotaje-es-otra-eleccion-ahora-se-podra-comparar-a-bolsonaro-con-lula-cara-a-cara-modof.phtml",
-          "canonicalUrl": "https://www.perfil.com/noticias/modo-fontevecchia/en-el-batlotaje-es-otra-eleccion-ahora-se-podra-comparar-a-bolsonaro-con-lula-cara-a-cara-modof.phtml",
-          "title": "\"El balotaje es otra elección: ahora se podrá comparar a Bolsonaro con Lula, cara a cara\"",
-          "description": "El estratega y analista geopolítico Amauri Chamorro analizó el crecimiento del bolsonarismo, las dificultades de Lula para reconectar con parte del electorado y el nuevo escenario que plantea la segunda vuelta en Brasil. Leer más",
-          "source": {
-            "id": "perfil",
-            "name": "Perfil"
-          },
-          "sourceCountry": "AR",
-          "language": "es",
-          "publishedAt": "2026-10-05T17:01:45.000Z",
-          "imageUrl": "https://fotos.perfil.com/2024/11/05/trim/540/304/elecciones-en-brasil-1905407.jpg",
-          "countryCode": "AR",
-          "regionCode": null
-        },
-        {
-          "id": "HbFuR8p_k21n",
-          "url": "https://www.infobae.com/politica/2026/10/04/a-la-espera-de-los-primeros-resultados-milei-sigue-con-optimismo-la-eleccion-en-brasil-y-respaldo-a-bolsonaro-en-redes/",
-          "canonicalUrl": "https://www.infobae.com/politica/2026/10/04/a-la-espera-de-los-primeros-resultados-milei-sigue-con-optimismo-la-eleccion-en-brasil-y-respaldo-a-bolsonaro-en-redes/",
-          "title": "Milei sigue con optimismo la elección en Brasil y respaldó a Bolsonaro en redes",
-          "description": "El mandatario se muestra expectante ante la potencial segunda vuelta por la presidencia del país vecino. La invitación del candidato de derecha, las críticas a Lula y los planes regionales",
-          "source": {
-            "id": "infobae",
-            "name": "Infobae"
-          },
-          "sourceCountry": "AR",
-          "language": "es",
-          "publishedAt": "2026-10-05T00:12:23.000Z",
-          "imageUrl": "https://www.infobae.com/resizer/v2/NPRKTTKRIJEKJFPYPCQS67EILA.JPG?auth=4b7fa460c6d06b9eef248cc0a51f7c62c9890a611d3522ee1a42503f45033343&smart=true&width=2686&height=1791",
-          "countryCode": "AR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:51:32.000Z"
-    },
-    {
       "id": "hSFdWwarUwKs",
       "representative": {
         "id": "hSFdWwarUwKs",
@@ -646,6 +587,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:06:39.000Z"
+    },
+    {
+      "id": "a12IuNL3IPug",
+      "representative": {
+        "id": "a12IuNL3IPug",
+        "url": "https://tn.com.ar/deportes/automovilismo/2026/10/06/entradas-para-el-motogp-2027-en-buenos-aires-cuando-salen-a-la-venta-y-como-comprar/",
+        "canonicalUrl": "https://tn.com.ar/deportes/automovilismo/2026/10/06/entradas-para-el-motogp-2027-en-buenos-aires-cuando-salen-a-la-venta-y-como-comprar/",
+        "title": "Entradas para el MotoGP 2027 en Buenos Aires: cuándo salen a la venta y cómo comprar",
+        "description": null,
+        "source": {
+          "id": "tn",
+          "name": "TN"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:06:00.000Z",
+        "imageUrl": "https://tn.com.ar/resizer/v2/TUD2N5HTSRFJHPV6MF3IKRNK3U.png?auth=743b4062b14a8169f25633b4374ebcea2faf890134ef98e4f5e7f850be63785d",
+        "countryCode": "AR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:06:00.000Z"
     }
   ]
 }

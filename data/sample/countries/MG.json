@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "MG",
   "countryName": "Madagascar",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
-    {
-      "id": "I4dq5byykyDa",
-      "representative": {
-        "id": "I4dq5byykyDa",
-        "url": "https://www.madagascar-tribune.com/Cooperation-militaire-la-ministre-francaise-Catherine-Vautrin-en-visite.html",
-        "canonicalUrl": "https://www.madagascar-tribune.com/Cooperation-militaire-la-ministre-francaise-Catherine-Vautrin-en-visite.html",
-        "title": "Coopération militaire : la ministre française Catherine Vautrin en visite stratégique à Antananarivo",
-        "description": "Dans un contexte géopolitique régional en pleine mutation, la ministre française des Armées et des Anciens combattants, Catherine Vautrin, effectue une visite officielle particulièrement scrutable à Madagascar ce mardi. Ce déplacement, qui intervient en marge du déploiement opérationnel « Pégase…",
-        "source": {
-          "id": "madagascartribune",
-          "name": "Madagascar Tribune"
-        },
-        "sourceCountry": "MG",
-        "language": "fr",
-        "publishedAt": "2026-10-06T06:16:17.000Z",
-        "imageUrl": null,
-        "countryCode": "MG",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "CVs3Bx1EcdYe",
-          "url": "https://www.2424.mg/cooperation-la-ministre-francaise-des-armees-et-des-anciens-combattants-catherine-vautrin-en-visite-a-madagascar/",
-          "canonicalUrl": "https://www.2424.mg/cooperation-la-ministre-francaise-des-armees-et-des-anciens-combattants-catherine-vautrin-en-visite-a-madagascar/",
-          "title": "COOPÉRATION – La ministre française des Armées et des anciens combattants, Catherine Vautrin, en visite à Madagascar",
-          "description": "Escale à Madagascar. De passage dans l’océan Indien dans le cadre de la mission Pégase 2026, Catherine Vautrin, ministre française des Armées et des Anciens combattants, fera un crochet à sur la Grande île ce mardi. Une visite qu’elle a confirmée en marge d’une démonstration de vol effectuée par…",
-          "source": {
-            "id": "2424mg",
-            "name": "2424.mg"
-          },
-          "sourceCountry": "MG",
-          "language": "fr",
-          "publishedAt": "2026-10-05T17:37:15.000Z",
-          "imageUrl": null,
-          "countryCode": "MG",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:16:17.000Z"
-    },
     {
       "id": "Cn-ESl0SNoVg",
       "representative": {
@@ -309,6 +267,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T06:16:28.000Z"
+    },
+    {
+      "id": "I4dq5byykyDa",
+      "representative": {
+        "id": "I4dq5byykyDa",
+        "url": "https://www.madagascar-tribune.com/Cooperation-militaire-la-ministre-francaise-Catherine-Vautrin-en-visite.html",
+        "canonicalUrl": "https://www.madagascar-tribune.com/Cooperation-militaire-la-ministre-francaise-Catherine-Vautrin-en-visite.html",
+        "title": "Coopération militaire : la ministre française Catherine Vautrin en visite stratégique à Antananarivo",
+        "description": "Dans un contexte géopolitique régional en pleine mutation, la ministre française des Armées et des Anciens combattants, Catherine Vautrin, effectue une visite officielle particulièrement scrutable à Madagascar ce mardi. Ce déplacement, qui intervient en marge du déploiement opérationnel « Pégase…",
+        "source": {
+          "id": "madagascartribune",
+          "name": "Madagascar Tribune"
+        },
+        "sourceCountry": "MG",
+        "language": "fr",
+        "publishedAt": "2026-10-06T06:16:17.000Z",
+        "imageUrl": null,
+        "countryCode": "MG",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "CVs3Bx1EcdYe",
+          "url": "https://www.2424.mg/cooperation-la-ministre-francaise-des-armees-et-des-anciens-combattants-catherine-vautrin-en-visite-a-madagascar/",
+          "canonicalUrl": "https://www.2424.mg/cooperation-la-ministre-francaise-des-armees-et-des-anciens-combattants-catherine-vautrin-en-visite-a-madagascar/",
+          "title": "COOPÉRATION – La ministre française des Armées et des anciens combattants, Catherine Vautrin, en visite à Madagascar",
+          "description": "Escale à Madagascar. De passage dans l’océan Indien dans le cadre de la mission Pégase 2026, Catherine Vautrin, ministre française des Armées et des Anciens combattants, fera un crochet à sur la Grande île ce mardi. Une visite qu’elle a confirmée en marge d’une démonstration de vol effectuée par…",
+          "source": {
+            "id": "2424mg",
+            "name": "2424.mg"
+          },
+          "sourceCountry": "MG",
+          "language": "fr",
+          "publishedAt": "2026-10-05T17:37:15.000Z",
+          "imageUrl": null,
+          "countryCode": "MG",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T06:16:17.000Z"
     },
     {
       "id": "R7-p7bjvilCP",

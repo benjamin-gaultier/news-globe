@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BR",
   "countryName": "Brazil",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "WGReK7rMfYcS",
@@ -138,65 +138,6 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-05T23:49:00.000Z"
-    },
-    {
-      "id": "vrVOUWkX87BW",
-      "representative": {
-        "id": "vrVOUWkX87BW",
-        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/deputados-federais-eleitos-no-brasil-veja-a-lista-com-todos-os-nomes.ghtml",
-        "canonicalUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/deputados-federais-eleitos-no-brasil-veja-a-lista-com-todos-os-nomes.ghtml",
-        "title": "Deputados federais eleitos no Brasil; veja a lista com todos os nomes",
-        "description": "Os eleitores brasileiros escolheram neste domingo (4) os 513 deputados federais que vão compor a Câmara dos Deputados a partir de 1º de fevereiro de 2027. As vagas são distribuídas entre partidos e federações pelo sistema proporcional: o número de cadeiras de cada legenda depende do total de votos…",
-        "source": {
-          "id": "g1",
-          "name": "g1"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-05T20:31:25.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/WYMP7oszosvB1EcIF3dhACe4JFg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/p/nJtFNjSwehmu8EnmEeEQ/formato-g1-30-.jpg",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "pQ36d3dPHbca",
-          "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-em-minas-gerais.shtml",
-          "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-em-minas-gerais.shtml",
-          "title": "Confira os deputados federais eleitos em Minas Gerais",
-          "description": "Com 100% das urnas apuradas, 53 deputados federais foram eleitos em Minas Gerais (MG) neste domingo (4). Leia mais (10/05/2026 - 15h23)",
-          "source": {
-            "id": "folha",
-            "name": "Folha de S.Paulo"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T18:23:00.000Z",
-          "imageUrl": null,
-          "countryCode": "BR",
-          "regionCode": null
-        },
-        {
-          "id": "xMILAXiIR_TZ",
-          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-veja-quem-sao-os-deputados-estaduais-eleitos-por-sp",
-          "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-veja-quem-sao-os-deputados-estaduais-eleitos-por-sp",
-          "title": "Eleições 2026: veja quem são os deputados estaduais eleitos por SP",
-          "description": "Neste domingo (4), no primeiro turno das Eleições 2026, os eleitores do estado de São Paulo foram às urnas para escolher presidente, senadores, governador, deputados federais e também estaduais. Os votantes elegeram 94 deputados para a Assembleia Legislativa paulista. Com 100% das urnas apuradas…",
-          "source": {
-            "id": "agenciabrasil",
-            "name": "Agência Brasil"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T17:24:00.000Z",
-          "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-05T20:31:25.000Z"
     },
     {
       "id": "HCO9DjWGZt1D",
@@ -342,48 +283,6 @@
       "latestPublishedAt": "2026-10-06T11:40:26.000Z"
     },
     {
-      "id": "IcjaQNN3oCQ-",
-      "representative": {
-        "id": "IcjaQNN3oCQ-",
-        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/lula-venceu-flavio-bolsonaro-nos-nove-estados-do-nordeste-no-1o-turno-veja-votacao-em-cada-um.ghtml",
-        "canonicalUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/lula-venceu-flavio-bolsonaro-nos-nove-estados-do-nordeste-no-1o-turno-veja-votacao-em-cada-um.ghtml",
-        "title": "Lula venceu Flávio Bolsonaro nos nove estados do Nordeste no 1º turno; veja votação em cada um",
-        "description": "Flávio Bolsonaro e Lula Mateus Bonomi/Reuters; Roberto Sungi/Estadão Conteúdo No primeiro turno das eleições de 2026, realizado neste domingo (4), o presidente e candidato à reeleição Lula (PT) venceu Flávio Bolsonaro (PL) nos nove estados do Nordeste, mantendo a fidelidade eleitoral na região. A…",
-        "source": {
-          "id": "g1",
-          "name": "g1"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-05T04:59:54.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/Ha-nhQSvHTnGOppsRzH-exF-kMU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/7/BaLxKtSWOJOiyXhXeU8Q/fotojet-2026-10-04t134029.565.jpg",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "8ReCws8OsosM",
-          "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/10/lula-reforca-no-2o-turno-discurso-de-que-vitoria-de-flavio-fara-familia-bolsonaro-se-perpetuar-no-poder.shtml",
-          "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/10/lula-reforca-no-2o-turno-discurso-de-que-vitoria-de-flavio-fara-familia-bolsonaro-se-perpetuar-no-poder.shtml",
-          "title": "Lula reforça no 2º turno discurso de que vitória de Flávio fará família Bolsonaro se perpetuar no poder",
-          "description": "A campanha de reeleição de Luiz Inácio Lula da Silva ( PT ) pretende reforçar na disputa do segundo turno que, se Flávio Bolsonaro ( PL ) vencer a eleição, a família Bolsonaro vai se perpetuar no poder e nem mesmo outros candidatos da direita terão vez. Leia mais (10/05/2026 - 14h13)",
-          "source": {
-            "id": "folha",
-            "name": "Folha de S.Paulo"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T17:13:00.000Z",
-          "imageUrl": null,
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T03:30:00.000Z"
-    },
-    {
       "id": "LzL8brJeDLEJ",
       "representative": {
         "id": "LzL8brJeDLEJ",
@@ -426,88 +325,63 @@
       "latestPublishedAt": "2026-10-06T00:13:16.000Z"
     },
     {
-      "id": "RJvFT5TA4yvL",
+      "id": "vrVOUWkX87BW",
       "representative": {
-        "id": "RJvFT5TA4yvL",
-        "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/garotinho-desiste-de-recurso-ao-tse-e-abre-brecha-para-eleicao-de-douglas-ruas-no-rj.shtml",
-        "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/garotinho-desiste-de-recurso-ao-tse-e-abre-brecha-para-eleicao-de-douglas-ruas-no-rj.shtml",
-        "title": "Garotinho desiste de recurso ao TSE e amplia brecha para eleição de Douglas Ruas no RJ",
-        "description": "A defesa do ex-governador Anthony Garotinho (Republicanos) protocolou no TSE (Tribunal Superior Eleitoral) nesta segunda-feira (5) um pedido de desistência do recurso pelo qual pretendia validar seu registro de candidatura para o Governo do Rio de Janeiro . Leia mais (10/05/2026 - 14h57)",
-        "source": {
-          "id": "folha",
-          "name": "Folha de S.Paulo"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-05T17:57:00.000Z",
-        "imageUrl": null,
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "1hX1D-GovBNb",
-          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/garotinho-desiste-de-recurso-e-eleicao-do-rj-pode-acabar-em-1o-turno",
-          "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/garotinho-desiste-de-recurso-e-eleicao-do-rj-pode-acabar-em-1o-turno",
-          "title": "Garotinho desiste de recurso e eleição do RJ pode acabar em 1º turno",
-          "description": "O candidato ao governo do Rio de Janeiro Anthony Garotinho (Republicanos) anunciou, nesta segunda-feira (5), que desistiu do recurso que mantinha no Tribunal Superior Eleitoral (TSE) para se manter na disputa . A decisão foi anunciada pelo próprio candidato, o terceiro mais votado na eleição de…",
-          "source": {
-            "id": "agenciabrasil",
-            "name": "Agência Brasil"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T19:11:00.000Z",
-          "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:11:00.000Z"
-    },
-    {
-      "id": "1E1EbMxplrHo",
-      "representative": {
-        "id": "1E1EbMxplrHo",
-        "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/10/05/ana-elisa-deputada-mineira-eleita-com-21-anos-e-a-mais-jovem-brasileira-na-camara-desde-1994.ghtml",
-        "canonicalUrl": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/10/05/ana-elisa-deputada-mineira-eleita-com-21-anos-e-a-mais-jovem-brasileira-na-camara-desde-1994.ghtml",
-        "title": "Ana Elisa, deputada mineira eleita com 21 anos, é a mais jovem brasileira na Câmara desde pelo menos 1994",
-        "description": "Ana Elisa de Divinópolis, é a deputada mais jovem da Câmara de Deputados Ana Elisa/Reprodução Redes Sociais A deputada federal eleita por Minas Gerais neste domingo (4) Ana Elisa (PT) é a candidata mais nova a conquistar uma vaga na Câmara em pelo menos 32 anos. Ela também foi a segunda mais…",
+        "id": "vrVOUWkX87BW",
+        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/deputados-federais-eleitos-no-brasil-veja-a-lista-com-todos-os-nomes.ghtml",
+        "canonicalUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/deputados-federais-eleitos-no-brasil-veja-a-lista-com-todos-os-nomes.ghtml",
+        "title": "Deputados federais eleitos no Brasil; veja a lista com todos os nomes",
+        "description": "Os eleitores brasileiros escolheram neste domingo (4) os 513 deputados federais que vão compor a Câmara dos Deputados a partir de 1º de fevereiro de 2027. As vagas são distribuídas entre partidos e federações pelo sistema proporcional: o número de cadeiras de cada legenda depende do total de votos…",
         "source": {
           "id": "g1",
           "name": "g1"
         },
         "sourceCountry": "BR",
         "language": "pt",
-        "publishedAt": "2026-10-05T19:01:47.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/xDqshIPbLueER4jy62EtoPQ7eX0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/y/YPom7cQkaxdS453qbb0w/ana-elisa.jfif",
+        "publishedAt": "2026-10-05T20:31:25.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/WYMP7oszosvB1EcIF3dhACe4JFg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/p/nJtFNjSwehmu8EnmEeEQ/formato-g1-30-.jpg",
         "countryCode": "BR",
         "regionCode": null
       },
       "related": [
         {
-          "id": "T8lHoQ82MYho",
-          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mineira-de-21-anos-e-mulher-mais-jovem-a-ser-eleita-deputada-federal",
-          "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mineira-de-21-anos-e-mulher-mais-jovem-a-ser-eleita-deputada-federal",
-          "title": "Mineira de 21 anos é mulher mais jovem a ser eleita deputada federal",
-          "description": "A deputada federal mais jovem eleita na disputa deste domingo (4) por Minas Gerais foi Ana Elisa Santos Silva, 21 anos, do PT. Com 1, 9 milhão de seguidores em apenas uma rede social, ela se destaca por abordar temas como racismo, feminismo e direitos sociais. Negra e nascida em Divinópolis, além…",
+          "id": "pQ36d3dPHbca",
+          "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-em-minas-gerais.shtml",
+          "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-em-minas-gerais.shtml",
+          "title": "Confira os deputados federais eleitos em Minas Gerais",
+          "description": "Com 100% das urnas apuradas, 53 deputados federais foram eleitos em Minas Gerais (MG) neste domingo (4). Leia mais (10/05/2026 - 15h23)",
+          "source": {
+            "id": "folha",
+            "name": "Folha de S.Paulo"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-05T18:23:00.000Z",
+          "imageUrl": null,
+          "countryCode": "BR",
+          "regionCode": null
+        },
+        {
+          "id": "xMILAXiIR_TZ",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-veja-quem-sao-os-deputados-estaduais-eleitos-por-sp",
+          "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-veja-quem-sao-os-deputados-estaduais-eleitos-por-sp",
+          "title": "Eleições 2026: veja quem são os deputados estaduais eleitos por SP",
+          "description": "Neste domingo (4), no primeiro turno das Eleições 2026, os eleitores do estado de São Paulo foram às urnas para escolher presidente, senadores, governador, deputados federais e também estaduais. Os votantes elegeram 94 deputados para a Assembleia Legislativa paulista. Com 100% das urnas apuradas…",
           "source": {
             "id": "agenciabrasil",
             "name": "Agência Brasil"
           },
           "sourceCountry": "BR",
           "language": "pt",
-          "publishedAt": "2026-10-05T17:11:00.000Z",
+          "publishedAt": "2026-10-05T17:24:00.000Z",
           "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
           "countryCode": "BR",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:01:47.000Z"
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-05T20:31:25.000Z"
     },
     {
       "id": "skbUenjYjQsL",
@@ -628,6 +502,78 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:57:09.000Z"
+    },
+    {
+      "id": "14EZEDXeWqO-",
+      "representative": {
+        "id": "14EZEDXeWqO-",
+        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/06/eleitos-mais-novos-mais-velhos-eleicoes-2026-1o-turno.ghtml",
+        "canonicalUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/06/eleitos-mais-novos-mais-velhos-eleicoes-2026-1o-turno.ghtml",
+        "title": "De 20 a 91 anos: veja os mais novos e os mais velhos eleitos no 1º turno",
+        "description": "Os cinco mais novos e os cinco mais velhos eleitos no primeiro turno de 2026. Acima, da esquerda para a direita: Alvinho Lira, Ana Elisa, Sandro Filho, Natália do Júnior Garimpeiro e Tulio Rezende. Abaixo, na mesma ordem: Luiza Erundina, Zé Teixeira, Eduardo Suplicy, Londres Machado e Barros…",
+        "source": {
+          "id": "g1",
+          "name": "g1"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:56:54.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/KjFe-0b-iMnSMQ2S92amLTtozxI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/v/UeDLbWQf26X5aVOqHZbQ/montagem-two-rows-1280x720px-2-.jpg",
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:56:54.000Z"
+    },
+    {
+      "id": "5kvHsfYMRM0h",
+      "representative": {
+        "id": "5kvHsfYMRM0h",
+        "url": "https://oglobo.globo.com/cultura/noticia/2026/10/06/o-que-se-sabe-sobre-o-roubo-de-capa-de-livro-de-salvador-dali-de-museu-na-franca.ghtml",
+        "canonicalUrl": "https://oglobo.globo.com/cultura/noticia/2026/10/06/o-que-se-sabe-sobre-o-roubo-de-capa-de-livro-de-salvador-dali-de-museu-na-franca.ghtml",
+        "title": "O que se sabe sobre o roubo de capa de livro de Salvador Dalí de museu na França",
+        "description": "Uma peça criada por Salvador Dalí para uma edição especial do Livro do Apocalipse foi roubada durante a madrugada de domingo para segunda-feira do Centro de Arte Contemporânea de Issoire, no centro da França. A capa, feita de bronze e decorada com ouro, pedras preciosas e conchas, pesa 150 quilos…",
+        "source": {
+          "id": "oglobo",
+          "name": "O Globo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:55:48.000Z",
+        "imageUrl": "https://s2-oglobo.glbimg.com/Spm_Tigu2T0YJBg92O828x6jVpY=/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/P/b/BSNnWmRUaWPoXmJRbf4Q/ht8vko4xaaah8ls.jpg",
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:55:48.000Z"
+    },
+    {
+      "id": "jSOjYI9CB6wa",
+      "representative": {
+        "id": "jSOjYI9CB6wa",
+        "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/10/daniel-aarao-reis-filho-lembra-que-o-inventario-de-erros-do-pt-ja-comecou-e-continuara-no-futuro.ghtml",
+        "canonicalUrl": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/10/daniel-aarao-reis-filho-lembra-que-o-inventario-de-erros-do-pt-ja-comecou-e-continuara-no-futuro.ghtml",
+        "title": "Daniel Aarão Reis Filho lembra que o inventário de erros do PT já começou e continuará no futuro",
+        "description": "Ao analisar o resultado do primeiro turno da eleição presidencial, o historiador Daniel Aarão Reis Filho, professor da Universidade Federal Fluminense, lembrou que a vitória, \"com seus inúmeros pais\", encobre os erros cometidos. \"Mas a derrota, esta órfã, os evidencia e dispara a clássica caçada…",
+        "source": {
+          "id": "oglobo",
+          "name": "O Globo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:55:17.000Z",
+        "imageUrl": "https://s2-oglobo.glbimg.com/4wqSor2G9u65ngoA08p2j-IvC3E=/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/t/9/G2Tp82Qi6PaXg3ABSJtQ/116481163-brazils-president-and-re-election-candidate-for-the-workers-party-pt-luiz-inacio-lula-da.jpg",
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:55:17.000Z"
     }
   ]
 }

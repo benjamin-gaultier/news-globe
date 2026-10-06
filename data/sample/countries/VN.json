@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "VN",
   "countryName": "Vietnam",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "SpM7jxmCDSKV",
@@ -579,21 +579,21 @@
       "latestPublishedAt": "2026-10-06T07:37:00.000Z"
     },
     {
-      "id": "jWTR2EDrdRaA",
+      "id": "5PyFhZWqVzGZ",
       "representative": {
-        "id": "jWTR2EDrdRaA",
-        "url": "https://vietnamnet.vn/he-lo-dien-bien-vu-kiem-lam-vien-mat-tich-tren-song-hong-2561654.html",
-        "canonicalUrl": "https://vietnamnet.vn/he-lo-dien-bien-vu-kiem-lam-vien-mat-tich-tren-song-hong-2561654.html",
-        "title": "Hé lộ diễn biến vụ kiểm lâm viên mất tích trên sông Hồng",
-        "description": "Tối 4/10, Hạt Kiểm lâm khu vực Bát Xát (Lào Cai) đã có báo cáo làm rõ diễn biến trước khi một kiểm lâm viên mất tích trong lúc cùng tổ công tác thực hiện nhiệm vụ.",
+        "id": "5PyFhZWqVzGZ",
+        "url": "https://vietnamnet.vn/tim-thay-thi-the-kiem-lam-vien-mat-tich-2562015.html",
+        "canonicalUrl": "https://vietnamnet.vn/tim-thay-thi-the-kiem-lam-vien-mat-tich-2562015.html",
+        "title": "Tìm thấy thi thể kiểm lâm viên mất tích",
+        "description": "Thi thể kiểm lâm viên Lê Chí T. được tìm thấy tại chân cầu Phú Thịnh (phường Lào Cai) sau hơn một ngày mất tích khi làm nhiệm vụ ven sông Hồng ở Lào Cai.",
         "source": {
           "id": "vietnamnet",
           "name": "VietNamNet"
         },
         "sourceCountry": "VN",
         "language": "vi",
-        "publishedAt": "2026-10-04T17:05:00.000Z",
-        "imageUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/10/4/he-lo-dien-bien-vu-kiem-lam-vien-mat-tich-tren-song-hong-1946.jpg?width=0&s=vYMtlcOFx0x3UXeTYcicwg",
+        "publishedAt": "2026-10-06T01:45:47.000Z",
+        "imageUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/10/6/tim-thay-thi-the-kiem-lam-vien-mat-tich-415.jpg?width=0&s=eYonXP2lXy2m4MZXAaqKpw",
         "countryCode": "VN",
         "regionCode": null
       },
@@ -638,48 +638,6 @@
       "latestPublishedAt": "2026-10-06T02:20:27.000Z"
     },
     {
-      "id": "fMyCZ0DRvXML",
-      "representative": {
-        "id": "fMyCZ0DRvXML",
-        "url": "https://tuoitre.vn/may-thi-cong-du-an-rach-xuyen-tam-bat-ngo-do-xuong-duong-bui-huu-nghia-khong-thiet-hai-ve-nguoi-100261006181904061.htm",
-        "canonicalUrl": "https://tuoitre.vn/may-thi-cong-du-an-rach-xuyen-tam-bat-ngo-do-xuong-duong-bui-huu-nghia-khong-thiet-hai-ve-nguoi-100261006181904061.htm",
-        "title": "Máy thi công dự án rạch Xuyên Tâm bất ngờ đổ xuống đường Bùi Hữu Nghĩa, không thiệt hại về người",
-        "description": "Khoảng 16h15 ngày 6-10, một máy thi công gia cố nền xi măng đất (CDM) tại dự án nạo vét, cải tạo môi trường, xây dựng hạ tầng rạch Xuyên Tâm, đoạn qua đường Bùi Hữu Nghĩa (phường Gia Định, TP.HCM), bất ngờ đổ ra đường.",
-        "source": {
-          "id": "tuoitre",
-          "name": "Tuổi Trẻ"
-        },
-        "sourceCountry": "VN",
-        "language": "vi",
-        "publishedAt": "2026-10-06T16:51:44.051Z",
-        "imageUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/6/1791284322109206129914055798930774173747382004561438fee24f2ada16e5fafdab20b8812293c-1791285013412466950850-0-159-1440-2463-crop-1791285308000213926426.jpg",
-        "countryCode": "VN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "w-CGbA3DW-mX",
-          "url": "https://thanhnien.vn/nga-may-thi-cong-ra-duong-tai-du-an-rach-xuyen-tam-185261006180138585.htm",
-          "canonicalUrl": "https://thanhnien.vn/nga-may-thi-cong-ra-duong-tai-du-an-rach-xuyen-tam-185261006180138585.htm",
-          "title": "Ngã máy thi công ra đường tại dự án rạch Xuyên Tâm",
-          "description": "Một máy thi công gia cố nền thuộc dự án rạch Xuyên Tâm trong lúc lắp dựng bất ngờ bị gãy trục mâm, đổ nghiêng về phía đường Bùi Hữu Nghĩa, khiến giao thông qua đây bị gián đoạn tạm thời.",
-          "source": {
-            "id": "thanhnien",
-            "name": "Thanh Niên"
-          },
-          "sourceCountry": "VN",
-          "language": "vi",
-          "publishedAt": "2026-10-06T11:11:00.000Z",
-          "imageUrl": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/10/6/610-xuyen-tam-17912841422121372156721-9-0-1609-2560-crop-17912842003711757171217.jpg",
-          "countryCode": "VN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:51:44.051Z"
-    },
-    {
       "id": "lWbAgIyXxeMy",
       "representative": {
         "id": "lWbAgIyXxeMy",
@@ -693,7 +651,7 @@
         },
         "sourceCountry": "VN",
         "language": "vi",
-        "publishedAt": "2026-10-06T16:51:44.051Z",
+        "publishedAt": "2026-10-06T18:13:59.972Z",
         "imageUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/6/dsc9092-17912952064111707353996-36-0-1636-2560-crop-1791295814059783027387.jpg",
         "countryCode": "VN",
         "regionCode": null
@@ -719,7 +677,7 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:51:44.051Z"
+      "latestPublishedAt": "2026-10-06T18:13:59.972Z"
     },
     {
       "id": "pR2-r6CXZnml",
@@ -735,7 +693,7 @@
         },
         "sourceCountry": "VN",
         "language": "vi",
-        "publishedAt": "2026-10-06T16:51:44.051Z",
+        "publishedAt": "2026-10-06T18:09:00.000Z",
         "imageUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/6/doe-17912875259691245381373-0-0-600-960-crop-17912875821562065854948-0-0-273-437-crop-1791292355195544276776.jpg",
         "countryCode": "VN",
         "regionCode": null
@@ -761,7 +719,49 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:51:44.051Z"
+      "latestPublishedAt": "2026-10-06T18:09:00.000Z"
+    },
+    {
+      "id": "fMyCZ0DRvXML",
+      "representative": {
+        "id": "fMyCZ0DRvXML",
+        "url": "https://tuoitre.vn/may-thi-cong-du-an-rach-xuyen-tam-bat-ngo-do-xuong-duong-bui-huu-nghia-khong-thiet-hai-ve-nguoi-100261006181904061.htm",
+        "canonicalUrl": "https://tuoitre.vn/may-thi-cong-du-an-rach-xuyen-tam-bat-ngo-do-xuong-duong-bui-huu-nghia-khong-thiet-hai-ve-nguoi-100261006181904061.htm",
+        "title": "Máy thi công dự án rạch Xuyên Tâm bất ngờ đổ xuống đường Bùi Hữu Nghĩa, không thiệt hại về người",
+        "description": "Khoảng 16h15 ngày 6-10, một máy thi công gia cố nền xi măng đất (CDM) tại dự án nạo vét, cải tạo môi trường, xây dựng hạ tầng rạch Xuyên Tâm, đoạn qua đường Bùi Hữu Nghĩa (phường Gia Định, TP.HCM), bất ngờ đổ ra đường.",
+        "source": {
+          "id": "tuoitre",
+          "name": "Tuổi Trẻ"
+        },
+        "sourceCountry": "VN",
+        "language": "vi",
+        "publishedAt": "2026-10-06T17:44:00.000Z",
+        "imageUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/6/1791284322109206129914055798930774173747382004561438fee24f2ada16e5fafdab20b8812293c-1791285013412466950850-0-159-1440-2463-crop-1791285308000213926426.jpg",
+        "countryCode": "VN",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "w-CGbA3DW-mX",
+          "url": "https://thanhnien.vn/nga-may-thi-cong-ra-duong-tai-du-an-rach-xuyen-tam-185261006180138585.htm",
+          "canonicalUrl": "https://thanhnien.vn/nga-may-thi-cong-ra-duong-tai-du-an-rach-xuyen-tam-185261006180138585.htm",
+          "title": "Ngã máy thi công ra đường tại dự án rạch Xuyên Tâm",
+          "description": "Một máy thi công gia cố nền thuộc dự án rạch Xuyên Tâm trong lúc lắp dựng bất ngờ bị gãy trục mâm, đổ nghiêng về phía đường Bùi Hữu Nghĩa, khiến giao thông qua đây bị gián đoạn tạm thời.",
+          "source": {
+            "id": "thanhnien",
+            "name": "Thanh Niên"
+          },
+          "sourceCountry": "VN",
+          "language": "vi",
+          "publishedAt": "2026-10-06T11:11:00.000Z",
+          "imageUrl": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/10/6/610-xuyen-tam-17912841422121372156721-9-0-1609-2560-crop-17912842003711757171217.jpg",
+          "countryCode": "VN",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T17:44:00.000Z"
     },
     {
       "id": "tF2TkVH5aQDF",

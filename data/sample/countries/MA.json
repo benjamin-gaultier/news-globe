@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MA",
   "countryName": "Morocco",
-  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "updatedAt": "2026-10-06T18:13:59.972Z",
   "clusters": [
     {
       "id": "WuRy8BpamyNw",
@@ -188,90 +188,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T11:30:00.000Z"
-    },
-    {
-      "id": "E-JFeU7IO0y7",
-      "representative": {
-        "id": "E-JFeU7IO0y7",
-        "url": "https://telquel.ma/instant-t/2026/10/06/casablanca-settat-le-programme-de-developpement-regional-realise-a-hauteur-de-55-affirme-abdellatif-maazouz_2011564/",
-        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/06/casablanca-settat-le-programme-de-developpement-regional-realise-a-hauteur-de-55-affirme-abdellatif-maazouz_2011564/",
-        "title": "Casablanca-Settat : le Programme de développement régional réalisé à hauteur de 55%, affirme Abdellatif Maâzouz",
-        "description": "Le taux de réalisation du Programme de développement régional (PDR) 2022-2027 de Casablanca-Settat a atteint 55%, tandis que son taux de mise en œuvre a dépassé 96%, a affirmé, lundi, le président du Conseil de la région Casablanca-Settat, Abdellatif Maâzouz. Une enveloppe globale de 44,6…",
-        "source": {
-          "id": "telquel",
-          "name": "TelQuel"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T10:25:24.000Z",
-        "imageUrl": "https://static.telquel.ma/content/uploads/2026/09/dc8192b5c4c99430e1889c77970f05c2.jpg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "iLIPaHshcjJf",
-          "url": "https://www.lavieeco.com/affaires/casablanca-settat-le-programme-de-developpement-regional-realise-a-hauteur-de-55/",
-          "canonicalUrl": "https://www.lavieeco.com/affaires/casablanca-settat-le-programme-de-developpement-regional-realise-a-hauteur-de-55/",
-          "title": "Casablanca-Settat : Le Programme de développement régional réalisé à hauteur de 55%",
-          "description": "Abdellatif Maâzouz a indiqué lors de la session ordinaire d'octobre du Conseil de la région de Casablanca-Settat un taux de mise en œuvre de 96% et une enveloppe globale de 44,5 milliards de dirhams. L’article Casablanca-Settat : Le Programme de développement régional réalisé à hauteur de 55% est…",
-          "source": {
-            "id": "lavieeco",
-            "name": "La Vie éco"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-05T17:42:12.000Z",
-          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/maazouz.jpg",
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:25:24.000Z"
-    },
-    {
-      "id": "dZhJCbDRuoGz",
-      "representative": {
-        "id": "dZhJCbDRuoGz",
-        "url": "https://telquel.ma/instant-t/2026/10/06/cooperation-judiciaire-signature-a-rabat-de-trois-conventions-entre-le-maroc-et-le-liban_2011562/",
-        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/06/cooperation-judiciaire-signature-a-rabat-de-trois-conventions-entre-le-maroc-et-le-liban_2011562/",
-        "title": "Coopération judiciaire : signature à Rabat de trois conventions entre le Maroc et le Liban",
-        "description": "Le Royaume du Maroc et la République du Liban ont signé, lundi à Rabat, trois conventions de coopération judiciaire dans le domaine pénal à l’occasion de la visite de travail qu’effectue le ministre libanais de la Justice au Maroc. Paraphées par le ministre de la Justice, Abdellatif Ouahbi, et son…",
-        "source": {
-          "id": "telquel",
-          "name": "TelQuel"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T09:53:16.000Z",
-        "imageUrl": "https://static.telquel.ma/content/uploads/2024/06/7fdc1a630c238af0815181f9faa190f5.jpg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "4KdPMLc8g-PS",
-          "url": "https://www.lavieeco.com/pouvoirs/maroc-liban-trois-conventions-pour-renforcer-la-cooperation-judiciaire/",
-          "canonicalUrl": "https://www.lavieeco.com/pouvoirs/maroc-liban-trois-conventions-pour-renforcer-la-cooperation-judiciaire/",
-          "title": "Maroc-Liban : Trois conventions pour renforcer la coopération judiciaire",
-          "description": "Abdellatif Ouahbi et son homologue libanais Adel Amine Nassar ont paraphé trois accords destinés à renforcer la coopération judiciaire entre Rabat et Beyrouth, notamment dans la lutte contre la criminalité. L’article Maroc-Liban : Trois conventions pour renforcer la coopération judiciaire est…",
-          "source": {
-            "id": "lavieeco",
-            "name": "La Vie éco"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-05T17:54:36.000Z",
-          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/maroc-liban-1024x512.jpg",
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:53:16.000Z"
     },
     {
       "id": "nOPh3ghabc8H",
@@ -488,6 +404,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:52:00.000Z"
+    },
+    {
+      "id": "m2MaVuBbJJ-T",
+      "representative": {
+        "id": "m2MaVuBbJJ-T",
+        "url": "https://www.lavieeco.com/au-royaume/gst-fes-meknes-une-feuille-de-route-pour-harmoniser-les-soins-primaires/",
+        "canonicalUrl": "https://www.lavieeco.com/au-royaume/gst-fes-meknes-une-feuille-de-route-pour-harmoniser-les-soins-primaires/",
+        "title": "GST Fès-Meknès : Une feuille de route pour harmoniser les soins primaires",
+        "description": "Le GST Fès-Meknès passe à une nouvelle étape dans la territorialisation de l’offre de soins avec l’adoption d’une feuille de route régionale fondée sur la coordination, le suivi de la performance et l’équité territoriale. L’article GST Fès-Meknès : Une feuille de route pour harmoniser les soins…",
+        "source": {
+          "id": "lavieeco",
+          "name": "La Vie éco"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:46:30.000Z",
+        "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/santee.jpg",
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:46:30.000Z"
+    },
+    {
+      "id": "XS9WhDiBnJAT",
+      "representative": {
+        "id": "XS9WhDiBnJAT",
+        "url": "https://leseco.ma/business/commerce-exterieur-lenergie-rencherit-les-importations.html",
+        "canonicalUrl": "https://leseco.ma/business/commerce-exterieur-lenergie-rencherit-les-importations.html",
+        "title": "Commerce extérieur : l’énergie renchérit les importations",
+        "description": "Les indices des valeurs unitaires du commerce extérieur (ICE) augmentent de 10% à l’importation et de 10,9% à l’exportation au deuxième trimestre 2026, sur un an. The post Commerce extérieur : l’énergie renchérit les importations appeared first on LesEco.ma .",
+        "source": {
+          "id": "leseco",
+          "name": "Les Inspirations ÉCO"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:42:28.000Z",
+        "imageUrl": null,
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:42:28.000Z"
     }
   ]
 }

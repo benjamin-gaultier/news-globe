@@ -230,6 +230,14 @@ describe('titleTokens: Persian and Nepali', () => {
   });
 });
 
+describe('titleTokens: Hebrew', () => {
+  it('keeps acronyms whole, strips one prefix letter and drops stopwords', () => {
+    expect(titleTokens('ונתניהו נפגש עם ראש שב"כ', 'he')).toEqual(titleTokens('נתניהו נפגש עם ראש שב״כ', 'he'));
+    expect(titleTokens("בחו''ל", 'he')).toEqual(titleTokens('בחו"ל', 'he'));
+    expect(titleTokens('צה"ל תקף בלבנון היום', 'he')).toEqual(new Set(['צהל', 'תקף', 'לבנון']));
+  });
+});
+
 describe('titleTokens: years', () => {
   it('drops French calendar words', () => {
     expect(titleTokens('Nécrologie du 06 octobre 2026', 'fr')).toEqual(new Set(['06', 'necrologi']));
