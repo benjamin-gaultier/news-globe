@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "FR",
   "countryName": "France",
-  "updatedAt": "2026-10-06T09:15:27.087Z",
+  "updatedAt": "2026-10-06T09:19:45.780Z",
   "clusters": [
     {
       "id": "uOU2N-HGSEV-",
@@ -363,7 +363,7 @@
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T09:01:31.000Z",
+        "publishedAt": "2026-10-06T09:16:13.000Z",
         "imageUrl": null,
         "countryCode": "FR",
         "regionCode": null
@@ -371,7 +371,79 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:01:31.000Z"
+      "latestPublishedAt": "2026-10-06T09:16:13.000Z"
+    },
+    {
+      "id": "7Hk6DFnNkH0e",
+      "representative": {
+        "id": "7Hk6DFnNkH0e",
+        "url": "https://www.ouest-france.fr/economie/consommation/rappel-produit/ne-mangez-pas-ces-aubergines-elles-contiennent-trop-dacetamipride-ce-pesticide-tres-controverse-0b91f8d0-c162-11f1-ae29-63305582bdfe?utm_source=fluxpublicfrance&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+        "canonicalUrl": "https://www.ouest-france.fr/economie/consommation/rappel-produit/ne-mangez-pas-ces-aubergines-elles-contiennent-trop-dacetamipride-ce-pesticide-tres-controverse-0b91f8d0-c162-11f1-ae29-63305582bdfe",
+        "title": "Ne mangez pas ces aubergines : elles contiennent trop d’acétamipride, ce pesticide très controversé",
+        "description": "Des aubergines sont actuellement rappelées en raison du dépassement des limites autorisées d’un pesticide, l’acétamipride. Les produits concernés ont été vendus du 28 au 30 septembre dans trois régions de France : Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Centre-Val de Loire. Il ne faut pas…",
+        "source": {
+          "id": "ouestfrance",
+          "name": "Ouest-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T09:12:08.000Z",
+        "imageUrl": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwOWQ5ZmQ2NjU4ODAyOWJmNWVmZTg1Mzc5YWIyMDAwNmE?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=d1bf33231d5b88900fb04a5f660fe8090bbdbdc480a67627cac44cad39e244ea",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:12:08.000Z"
+    },
+    {
+      "id": "-4yeRnVRPkwX",
+      "representative": {
+        "id": "-4yeRnVRPkwX",
+        "url": "https://www.20minutes.fr/societe/4251742-20261006-dissuasion-sous-marin-nucleaire-vigilant-realise-succes-tir-nouveau-missile-balistique-m51?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251742-20261006-dissuasion-sous-marin-nucleaire-vigilant-realise-succes-tir-nouveau-missile-balistique-m51",
+        "title": "Dissuasion : Le sous-marin nucléaire Le Vigilant a réalisé avec succès un tir du nouveau missile balistique M51",
+        "description": "Ce missile, dépourvu de sa charge nucléaire, « a été tiré au large du Finistère depuis le SNLE Le Vigilant afin de valider la capacité du sous-marin à mettre en œuvre le M51 après son indisponibilité périodique » annonce le ministère des Armées",
+        "source": {
+          "id": "20minutes",
+          "name": "20 Minutes"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T09:10:39.000Z",
+        "imageUrl": "https://img.20mn.fr/1EMILEeeTtmrSoldL5Tq_ik/1200x768_chacun-des-quatre-snle-francais-embarque-16-missiles-strategiques-m51",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:10:39.000Z"
+    },
+    {
+      "id": "4BjxDr_Q5iWx",
+      "representative": {
+        "id": "4BjxDr_Q5iWx",
+        "url": "https://www.lemonde.fr/international/article/2026/10/06/soupcons-de-peste-en-siberie-les-autorites-russes-nient-la-mise-en-place-de-mesures-sanitaires_6788966_3210.html",
+        "canonicalUrl": "https://www.lemonde.fr/international/article/2026/10/06/soupcons-de-peste-en-siberie-les-autorites-russes-nient-la-mise-en-place-de-mesures-sanitaires_6788966_3210.html",
+        "title": "Soupçons de peste en Sibérie : les autorités russes nient la mise en place de mesures sanitaires",
+        "description": "L’agence de santé publique russe a dénoncé « une fausse information » selon laquelle « un régime sanitaire et épidémiologique renforcé et de restrictions strictes » aurait été instauré dans la région d’Irkoutsk à la suite de la mort d’une technicienne de l’Institut de lutte contre la peste.",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T09:10:39.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/05/343/0/5055/2527/644/322/60/0/88e9163_ftp-1-qt3iqasu34ez-2026-10-05t123259z-1087742687-rc2xwnawl4ph-rtrmadp-3-russia-siberia-plague.JPG",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:10:39.000Z"
     },
     {
       "id": "ZLFWTcXDxgsY",
@@ -379,8 +451,8 @@
         "id": "ZLFWTcXDxgsY",
         "url": "https://www.lemonde.fr/societe/article/2026/10/06/la-moitie-des-aidants-peinent-a-obtenir-le-repit-dont-ils-ont-besoin-j-etais-trop-epuisee-pour-prendre-le-temps-de-chercher_6788961_3224.html",
         "canonicalUrl": "https://www.lemonde.fr/societe/article/2026/10/06/la-moitie-des-aidants-peinent-a-obtenir-le-repit-dont-ils-ont-besoin-j-etais-trop-epuisee-pour-prendre-le-temps-de-chercher_6788961_3224.html",
-        "title": "La moitié des aidants peinent à obtenir le répit dont ils ont besoin : « J’étais trop épuisée pour prendre le temps de chercher »",
-        "description": "Seules 49 % des personnes qui aident un proche au quotidien obtiennent une pause quand ils en expriment le besoin, selon une étude publiée à l’occasion de la Journée nationale des aidants du 6 octobre. Les freins peuvent être administratifs, financiers, mais aussi liés à la définition même de…",
+        "title": "La moitié des aidants ayant besoin de répit peinent à l’obtenir : « J’étais trop épuisée pour prendre le temps de chercher »",
+        "description": "Seules 49 % des personnes qui aident un proche au quotidien et expriment le besoin de faire une pause l’obtiennent, selon une étude publiée à l’occasion de la Journée nationale des aidants du 6 octobre. Les freins peuvent être administratifs, financiers, mais aussi liés à la définition même de…",
         "source": {
           "id": "lemonde",
           "name": "Le Monde"
@@ -427,8 +499,8 @@
         "id": "S8IKUD_yFKPt",
         "url": "https://www.lemonde.fr/politique/article/2026/10/06/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-2032_6788959_823448.html",
         "canonicalUrl": "https://www.lemonde.fr/politique/article/2026/10/06/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-2032_6788959_823448.html",
-        "title": "Présidentielle 2027 : Marine Le Pen promet « 140 milliards d’euros nets d’économies » d’ici à 2032",
-        "description": "Cette trajectoire budgétaire « sera confortée par l’adoption d’une règle d’or budgétaire constitutionnelle adoptée par référendum », a précisé la cheffe de file du Rassemblement national lors d’une conférence de presse, mardi.",
+        "title": "Présidentielle 2027 : Marine Le Pen et le RN présentent leur contre-budget, avec « 140 milliards d’euros nets d’économies » en cinq ans",
+        "description": "Cette trajectoire budgétaire « sera confortée par l’adoption d’une règle d’or budgétaire constitutionnelle adoptée par référendum », a précisé la cheffe de file du parti d’extrême droite.",
         "source": {
           "id": "lemonde",
           "name": "Le Monde"
@@ -436,7 +508,7 @@
         "sourceCountry": "FR",
         "language": "fr",
         "publishedAt": "2026-10-06T08:26:03.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/10/06/431/0/5176/2588/644/322/60/0/8c2dfd6_ftp-1-y4gjwzljjqhx-2026-10-06t081433z-380118772-rc2kxna7ifvw-rtrmadp-3-france-politics-lepen.JPG",
+        "imageUrl": "https://img.lemde.fr/2026/10/06/196/0/3000/1500/644/322/60/0/3f1e50c_upload-1-xvtjnnerljyf-gj3a5266.jpg",
         "countryCode": "FR",
         "regionCode": null
       },
@@ -468,78 +540,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T08:20:19.000Z"
-    },
-    {
-      "id": "rEtqL3567uyf",
-      "representative": {
-        "id": "rEtqL3567uyf",
-        "url": "https://www.lemonde.fr/societe/live/2026/10/06/en-direct-blocage-des-lycees-actions-et-manifestations-partout-en-france-suivez-la-journee-de-mobilisation-avec-nos-envoyes-speciaux_6788487_3224.html",
-        "canonicalUrl": "https://www.lemonde.fr/societe/live/2026/10/06/en-direct-blocage-des-lycees-actions-et-manifestations-partout-en-france-suivez-la-journee-de-mobilisation-avec-nos-envoyes-speciaux_6788487_3224.html",
-        "title": "EN DIRECT, blocage des lycées : « Il y a déjà eu des manifestations étudiantes, mais jamais de blocage comme ça »… Suivez la journée de mobilisation avec nos envoyés spéciaux",
-        "description": "Des actions sont prévues partout en France, mardi, notamment à Lille, Paris, Marseille, Nîmes ou Clermont-Ferrand. Les lycéens seront parfois rejoints par des syndicats, des enseignants et des étudiants.",
-        "source": {
-          "id": "lemonde",
-          "name": "Le Monde"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T08:05:08.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/10/06/250/0/5364/2682/644/322/60/0/18550fd_ftp-1-tksbl98w1pzh-2026-10-06t082334z-1759290974-rc2kxnan0v3u-rtrmadp-3-france-protest.JPG",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:05:08.000Z"
-    },
-    {
-      "id": "rbuaNtx0TLNT",
-      "representative": {
-        "id": "rbuaNtx0TLNT",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/06/grand-paris-les-propositions-d-emmanuel-gregoire-pour-une-metropole-plus-visible-plus-lisible-et-plus-concrete_6788956_823448.html",
-        "canonicalUrl": "https://www.lemonde.fr/politique/article/2026/10/06/grand-paris-les-propositions-d-emmanuel-gregoire-pour-une-metropole-plus-visible-plus-lisible-et-plus-concrete_6788956_823448.html",
-        "title": "Grand Paris : les propositions d’Emmanuel Grégoire pour une métropole « plus visible, plus lisible et plus concrète »",
-        "description": "Nouveau nom pour le périphérique, convention citoyenne et conseil métropolitain pérenne : le maire de Paris avance ses idées pour « faire évoluer » la métropole du Grand Paris, dans un courrier adressé à son président.",
-        "source": {
-          "id": "lemonde",
-          "name": "Le Monde"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T07:59:20.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/09/25/458/0/5500/2750/644/322/60/0/a207cc7_ftp-1-fdmgq2adnqoz-2026-09-25t090343z-897244799-rc29qnav5uoi-rtrmadp-3-pope-france.JPG",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T07:59:20.000Z"
-    },
-    {
-      "id": "EAskgXdmb1-3",
-      "representative": {
-        "id": "EAskgXdmb1-3",
-        "url": "https://www.lefigaro.fr/politique/contestation-lyceenne-dette-carburants-le-gouvernement-lecornu-dans-la-tempete-20261005",
-        "canonicalUrl": "https://www.lefigaro.fr/politique/contestation-lyceenne-dette-carburants-le-gouvernement-lecornu-dans-la-tempete-20261005",
-        "title": "Contestation lycéenne, dette, carburants : le gouvernement Lecornu dans la tempête",
-        "description": "Le premier ministre, déjà accaparé par son projet de budget pour 2027 et par la flambée des prix à la pompe, cherche à éteindre la protestation lycéenne, en baisse lundi, et à éviter de nouvelles violences lors de la journée nationale de mobilisation prévue mardi.",
-        "source": {
-          "id": "lefigaro",
-          "name": "Le Figaro"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T07:51:24.000Z",
-        "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/10/05/639ff580e7b43677c436a5d95a9c81f760171efbffea4877f8b0c615c81e71c2.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T07:51:24.000Z"
     }
   ]
 }

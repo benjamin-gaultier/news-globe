@@ -414,6 +414,64 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://www.ilpost.it/italia/feed/'],
     authority: 6,
   },
+  // ---- Canada ----
+  // CBC's webfeed endpoints hang for non-browser clients (cbc.ca itself responds);
+  // the Toronto Star's RSS search returns 429. French-language outlets cluster
+  // separately from English ones (no cross-language matching).
+  {
+    id: 'globeandmail',
+    name: 'The Globe and Mail',
+    type: 'rss',
+    country: 'CA',
+    language: 'en',
+    feedUrls: ['https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/', 'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/'],
+    authority: 10,
+  },
+  {
+    id: 'ctv',
+    name: 'CTV News',
+    type: 'rss',
+    country: 'CA',
+    language: 'en',
+    feedUrls: ['https://www.ctvnews.ca/arc/outboundfeeds/rss/category/canada/?outputType=xml'],
+    authority: 9,
+  },
+  {
+    id: 'radiocanada',
+    name: 'Radio-Canada',
+    type: 'rss',
+    country: 'CA',
+    language: 'fr',
+    feedUrls: ['https://ici.radio-canada.ca/rss/4159'],
+    authority: 9,
+  },
+  {
+    id: 'globalnews',
+    name: 'Global News',
+    type: 'rss',
+    country: 'CA',
+    language: 'en',
+    feedUrls: ['https://globalnews.ca/politics/feed/', 'https://globalnews.ca/canada/feed/'],
+    authority: 8,
+  },
+  {
+    id: 'nationalpost',
+    name: 'National Post',
+    type: 'rss',
+    country: 'CA',
+    language: 'en',
+    feedUrls: ['https://nationalpost.com/category/news/politics/feed', 'https://nationalpost.com/category/news/canada/feed'],
+    authority: 7,
+  },
+  {
+    id: 'lapresse',
+    name: 'La Presse',
+    type: 'rss',
+    country: 'CA',
+    language: 'fr',
+    feedUrls: ['https://www.lapresse.ca/actualites/politique/rss'],
+    authority: 7,
+  },
 ];
 
 export const INGEST_SETTINGS = {

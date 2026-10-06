@@ -100,4 +100,5 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   DE: { code: 'DE', name: 'Germany', lat: 51.2, lng: 10.4, altitude: 1.3 },
   ES: { code: 'ES', name: 'Spain', lat: 40.2, lng: -3.7, altitude: 1.3 },
   IT: { code: 'IT', name: 'Italy', lat: 42.5, lng: 12.6, altitude: 1.3 },
+  CA: { code: 'CA', name: 'Canada', lat: 52, lng: -96, altitude: 2.0 },
 };

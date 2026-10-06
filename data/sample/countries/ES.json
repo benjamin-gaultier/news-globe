@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ES",
   "countryName": "Spain",
-  "updatedAt": "2026-10-06T09:15:27.087Z",
+  "updatedAt": "2026-10-06T09:19:45.780Z",
   "clusters": [
     {
       "id": "HV7AV09ZzCY4",
@@ -28,7 +28,7 @@
           "id": "E5EBQ2gikBUp",
           "url": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
           "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
-          "title": "La comparecencia de Pedro Sánchez en directo y la última hora sobre las elecciones generales y el decreto de la vivienda",
+          "title": "La comparecencia de Pedro Sánchez y la última hora sobre las elecciones generales y el decreto de la vivienda, en directo",
           "description": "El presidente del Gobierno ofrecerá una rueda de prensa tras la celebración del Consejo de Ministros",
           "source": {
             "id": "lavanguardia",
@@ -36,7 +36,7 @@
           },
           "sourceCountry": "ES",
           "language": "es",
-          "publishedAt": "2026-10-06T08:36:47.000Z",
+          "publishedAt": "2026-10-06T08:39:08.000Z",
           "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/05/6ac3cded5b48f.jpeg",
           "countryCode": "ES",
           "regionCode": null
@@ -112,7 +112,49 @@
       ],
       "outletCount24h": 4,
       "outletCount": 6,
-      "latestPublishedAt": "2026-10-06T08:36:47.000Z"
+      "latestPublishedAt": "2026-10-06T08:39:08.000Z"
+    },
+    {
+      "id": "zPC3pf5HN4d4",
+      "representative": {
+        "id": "zPC3pf5HN4d4",
+        "url": "https://www.abc.es/espana/andalucia/pedro-sanchez-arranca-campana-maria-jesus-montero-20261006105322-nts.html",
+        "canonicalUrl": "https://www.abc.es/espana/andalucia/pedro-sanchez-arranca-campana-maria-jesus-montero-20261006105322-nts.html",
+        "title": "Pedro Sánchez arranca la campaña con María Jesús Montero este sábado en Sevilla",
+        "description": "La campaña electoral de las elecciones generales, que tendrán lugar el próximo 29 de noviembre, arrancará en Sevilla. El presidente del Gobierno y candidato a la reelección , Pedro Sánchez, ha elegido la capital hispalense para iniciar una campaña en la que estará acompañado por la sevillana María…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:09:24.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/pedro-sanchez-montero-RjT4nbWdErjmSxXP9PErdHO-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "2OSPz-JJ6Ho1",
+          "url": "https://www.20minutos.es/nacional/sanchez-arranca-precampana-sevilla-con-un-acto-sabado-junto-maria-jesus-montero_7045151_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/sanchez-arranca-precampana-sevilla-con-un-acto-sabado-junto-maria-jesus-montero_7045151_0.html",
+          "title": "Sánchez arranca la precampaña en Sevilla con un acto el sábado junto a María Jesús Montero",
+          "description": "El presidente se estrenará junto a María Jesús Montero apenas cinco días después de convocar las elecciones y buscará plantear la campaña como un pulso entre dos bloques.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T16:50:13.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/10/05/6ac3d2f191be49-53928702.r_d.913-332-10000.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:09:24.000Z"
     },
     {
       "id": "TDgbSrjFDsxM",
@@ -180,7 +222,7 @@
           "id": "ECqK_a9FNtsz",
           "url": "https://www.lavanguardia.com/politica/20261006/11652092/pp-ataca-oscar-puente-video-momento-rompio-cuadriceps-miedo-le-tenias-esguince.html",
           "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652092/pp-ataca-oscar-puente-video-momento-rompio-cuadriceps-miedo-le-tenias-esguince.html",
-          "title": "El PP ataca a Óscar Puente con un vídeo del momento en que se rompió el cuádriceps: “Miedo le tenías tú a un esguince”",
+          "title": "El PP se burla de Óscar Puente con un vídeo del momento en que se rompió el cuádriceps: “Miedo le tenías tú a un esguince”",
           "description": "“Son la peor gentuza que habita este país”, responde el ministro junto a una imagen de la sutura",
           "source": {
             "id": "lavanguardia",
@@ -409,172 +451,148 @@
       "latestPublishedAt": "2026-10-05T10:59:26.000Z"
     },
     {
-      "id": "c9dx8h9myzN5",
+      "id": "mxSUNjo71GRP",
       "representative": {
-        "id": "c9dx8h9myzN5",
-        "url": "https://www.eldiario.es/politica/borja-semper-contradice-ayuso-defiende-sistema-garantista-votar-correo_1_13565294.html",
-        "canonicalUrl": "https://www.eldiario.es/politica/borja-semper-contradice-ayuso-defiende-sistema-garantista-votar-correo_1_13565294.html",
-        "title": "Borja Sémper contradice a Ayuso y defiende el \"sistema garantista\" para votar por correo",
-        "description": "\"Hemos visto tantas cosas que entiendo que haya mucha gente que desconfíe de muchas cosas que pasan y de este Gobierno\", añade el portavoz del PP tratando de justificar que la presidenta madrileña alentara el fantasma del pucherazo Ayuso dibuja un escenario apocalíptico de cara a las generales con…",
-        "source": {
-          "id": "eldiario",
-          "name": "elDiario.es"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:01:59.000Z",
-        "imageUrl": "https://static.eldiario.es/clip/dc5a1873-da1f-47ed-86af-96db6d750a48_16-9-discover-aspect-ratio_default_0_x1299y478.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:01:59.000Z"
-    },
-    {
-      "id": "NQyJssTprsQQ",
-      "representative": {
-        "id": "NQyJssTprsQQ",
-        "url": "https://www.elconfidencial.com/espana/2026-10-06/dispositivo-policial-contra-narcotrafico-palma-1tna-1tps_4439184/",
-        "canonicalUrl": "https://www.elconfidencial.com/espana/2026-10-06/dispositivo-policial-contra-narcotrafico-palma-1tna-1tps_4439184/",
-        "title": "La Policía desarrolla en Mallorca un 0perativo contra el narcotráfico con 200 agentes",
-        "description": "La intervención se extiende también a Marratxí y moviliza unidades especializadas, medios aéreos y perros adiestrados, con varias detenciones previstas",
-        "source": {
-          "id": "elconfidencial",
-          "name": "El Confidencial"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T08:49:00.000Z",
-        "imageUrl": "https://images.ecestaticos.com/4ShkWkFu8DcK9c_CPehtSWUVwFY=/0x0:2272x1514/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F827%2F87a%2Fd8b%2F82787ad8b93ae950612cebb7fc09d76f.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:49:00.000Z"
-    },
-    {
-      "id": "EvxdeuFbEQ2g",
-      "representative": {
-        "id": "EvxdeuFbEQ2g",
-        "url": "https://www.elconfidencial.com/espana/2026-10-06/guardia-civil-intercepta-embarcaciones-cartagena-1tna-1tps_4439181/",
-        "canonicalUrl": "https://www.elconfidencial.com/espana/2026-10-06/guardia-civil-intercepta-embarcaciones-cartagena-1tna-1tps_4439181/",
-        "title": "Interceptan dos embarcaciones con 87 personas en Cartagena y La Unión (Murcia)",
-        "description": "Dos embarcaciones fueron localizadas en Cartagena y La Unión con 87 ocupantes, incluidos 12 menores y dos mujeres, que recibieron atención de Cruz Roja en buen estado de salud",
-        "source": {
-          "id": "elconfidencial",
-          "name": "El Confidencial"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T08:41:00.000Z",
-        "imageUrl": "https://images.ecestaticos.com/D1BDGuHVTmK8XNBtDrf-2H0Jh98=/0x0:2272x1533/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F45e%2F2b9%2Fde6%2F45e2b9de67240c525a654e86a22046aa.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:41:00.000Z"
-    },
-    {
-      "id": "1jQOvxx-gqku",
-      "representative": {
-        "id": "1jQOvxx-gqku",
-        "url": "https://www.abc.es/espana/andalucia/aemet-amplia-avisos-andalucia-granizo-zonas-afectadas-20261006103240-nts.html",
-        "canonicalUrl": "https://www.abc.es/espana/andalucia/aemet-amplia-avisos-andalucia-granizo-zonas-afectadas-20261006103240-nts.html",
-        "title": "La Aemet amplía los avisos en Andalucía y granizo: estas serán las zonas más afectadas y las peores horas",
-        "description": "La inestabilidad se ha instalado en Andalucía en este arranque de octubre después de un final de septiembre que estuvo marcado por temperaturas más propias del verano . El calor se ha dilatado hasta prácticamente despedir el mes, pero el cambio de mes ha traído consigo un escenario mucho más…",
+        "id": "mxSUNjo71GRP",
+        "url": "https://www.abc.es/espana/comunidad-valenciana/pablo-motos-sobre-filosofia-enseno-juan-roig-20261005184751-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/comunidad-valenciana/pablo-motos-sobre-filosofia-enseno-juan-roig-20261005184751-nt.html",
+        "title": "Pablo Motos, sobre la filosofía que le enseñó Juan Roig, presidente de Mercadona: «Mi seguridad no está en la rama, está en mis alas»",
+        "description": "Pablo Motos y Juan Roig son dos hombres muy diferentes, pero tienen algo en común. Ambos han conseguido alcanzar el éxito en sus respectivos campos después de muchos años de esfuerzo y dedicación.Uno, como presidente de Mercadona , y el otro, como presentador de 'El Hormiguero' , los dos son un…",
         "source": {
           "id": "abc_es",
           "name": "ABC"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T08:32:40.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/turistas-granada-lluvia-efe-RSABaR2dqKMAJpFuzg2jiZO-1200x840@diario_abc.png",
+        "publishedAt": "2026-10-06T09:12:02.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/01/pablo-motos-juan-roig-ksHC-U301953417684yPH-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:32:40.000Z"
+      "latestPublishedAt": "2026-10-06T09:12:02.000Z"
     },
     {
-      "id": "eaNjtBTLSF1p",
+      "id": "bxhWaXBDrHgz",
       "representative": {
-        "id": "eaNjtBTLSF1p",
-        "url": "https://www.eldiario.es/politica/audiencia-madrid-rechaza-intervenir-comunicaciones-alcaldesa-alcala-henares-revelacion-secretos_1_13565064.html",
-        "canonicalUrl": "https://www.eldiario.es/politica/audiencia-madrid-rechaza-intervenir-comunicaciones-alcaldesa-alcala-henares-revelacion-secretos_1_13565064.html",
-        "title": "La Audiencia de Madrid rechaza intervenir las comunicaciones de la alcaldesa de Alcalá por revelación de secretos",
-        "description": "El auto considera que las diligencias resultan \"desproporcionadas\" respecto de los hechos investigados La Fiscalía pide dos años y medio de inhabilitación para la alcaldesa de Alcalá por revelar secretos “para salvar” a Ayuso La Audiencia Provincial de Madrid ha rechazado la intervenci&oacute;n de…",
-        "source": {
-          "id": "eldiario",
-          "name": "elDiario.es"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T08:31:32.000Z",
-        "imageUrl": "https://static.eldiario.es/clip/b091cf27-155a-40c0-8436-9717f028f4bf_16-9-discover-aspect-ratio_default_0_x998y286.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:31:32.000Z"
-    },
-    {
-      "id": "WTn2XrWWrZEm",
-      "representative": {
-        "id": "WTn2XrWWrZEm",
-        "url": "https://www.abc.es/espana/castilla-la-mancha/toledo/agresion-verbal-intento-agresion-fisica-medico-paraplejicos-20261006103045-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/toledo/agresion-verbal-intento-agresion-fisica-medico-paraplejicos-20261006103045-nt.html",
-        "title": "Agresión verbal e intento de agresión física a un médico en Parapléjicos de Toledo",
-        "description": "La historia se repite. Insultos, amenazas y, en algunos casos, agresiones físicas forman parte de la realidad que afrontan los profesionales sanitarios en Castilla-La Mancha. Solo durante el pasado año se registraron más de 700 agresiones en el ámbito sanitario de la región, una cifra que podría…",
+        "id": "bxhWaXBDrHgz",
+        "url": "https://www.abc.es/espana/andalucia/cordoba/conexion-colada-sierra-boyera-pendiente-recurso-resolver-20261006070535-nts.html",
+        "canonicalUrl": "https://www.abc.es/espana/andalucia/cordoba/conexion-colada-sierra-boyera-pendiente-recurso-resolver-20261006070535-nts.html",
+        "title": "La conexión entre La Colada y Sierra Boyera, otros seis meses de atasco con un recurso pediente de resolver",
+        "description": "No en la primera respuesta y una incógnita en la segunda. Han pasado más de cinco meses desde el momento en que la Diputación Provincial de Córdoba anunció un recurso a la negativa de conectar los embalses de L a Colada y Sierra Boyera y todavía no se conoce la resolución, que corresponde a la…",
         "source": {
           "id": "abc_es",
           "name": "ABC"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T08:30:46.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1502076437-RavduAWcGLfDmiqTFxvjkMI-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T09:11:31.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/respuestas-guadiana-colada-RRDlFZYp66WMjm9cQLVecVL-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:30:46.000Z"
+      "latestPublishedAt": "2026-10-06T09:11:31.000Z"
     },
     {
-      "id": "b97Fd16M5bo4",
+      "id": "E6BUFEdKN5Bf",
       "representative": {
-        "id": "b97Fd16M5bo4",
-        "url": "https://www.abc.es/espana/andalucia/andalucia-pierde-diputado-cadiz-elecciones-generales-20261006102206-nts.html",
-        "canonicalUrl": "https://www.abc.es/espana/andalucia/andalucia-pierde-diputado-cadiz-elecciones-generales-20261006102206-nts.html",
-        "title": "Andalucía pierde un diputado por Cádiz en las elecciones generales",
-        "description": "Andalucía ha perdido un diputado en las elecciones generales del próximo 29 de noviembre, por lo que se quedará con 60 representantes, uno menos que tras los comicios de 2023.La comunidad autónoma resta uno por la provincia de Cádiz, que pierde un escaño por peso poblacional y elegirá ocho en…",
+        "id": "E6BUFEdKN5Bf",
+        "url": "https://www.abc.es/espana/rey-presidente-finlandia-sellan-alianza-seguridad-360-20261006110243-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/rey-presidente-finlandia-sellan-alianza-seguridad-360-20261006110243-nt.html",
+        "title": "El Rey y el presidente de Finlandia sellan su alianza de seguridad 360 grados en la UE y la OTAN",
+        "description": "Los Reyes iniciaron esta mañana su visita de Estado en Helsinki, marcada por la seguridad y la geopolítica ártica. En su primera parada, Don Felipe y Doña Letizia fueron recibidos por el presidente de Finlandia, el liberal Alexander Stubb, y su esposa, Suzanne Innes-Stubb, en el Palacio…",
         "source": {
           "id": "abc_es",
           "name": "ABC"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T08:22:06.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/sanchez-congreso-elecciones-RIMCwWsSAOifsc5JbXKPnZM-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T09:11:25.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518357694-RDNG8iOBhv5zRVndpknIdAP-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:22:06.000Z"
+      "latestPublishedAt": "2026-10-06T09:11:25.000Z"
+    },
+    {
+      "id": "GsEh_tJanLbM",
+      "representative": {
+        "id": "GsEh_tJanLbM",
+        "url": "https://www.abc.es/espana/andalucia/malaga/detienen-miembro-banda-britanica-traficaba-cocaina-malaga-20261006095313-nts.html",
+        "canonicalUrl": "https://www.abc.es/espana/andalucia/malaga/detienen-miembro-banda-britanica-traficaba-cocaina-malaga-20261006095313-nts.html",
+        "title": "Cinco narcos fugados cuando iban a detenerlos en la Costa del Sol con una tonelada de cocaína",
+        "description": "La Guardia Civil ha realizado una operación contra una importante organización delictiva de origen británico dedicada al tráfico internacional de cocaína. Según ha informado la Benemérita, hay una persona detenida en Granada y se han emitido cinco órdenes internacionales de detención contra otros…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:08:25.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/foto-recur-gbtana-RQu3sLIhFwFI5h6tsVvS24N-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:08:25.000Z"
+    },
+    {
+      "id": "tHhztR9qDSqx",
+      "representative": {
+        "id": "tHhztR9qDSqx",
+        "url": "https://www.abc.es/espana/castilla-la-mancha/toledo/casco-antiguo-talavera-prepara-tres-dias-fiestas-20261006110732-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/toledo/casco-antiguo-talavera-prepara-tres-dias-fiestas-20261006110732-nt.html",
+        "title": "El Casco Antiguo de Talavera se prepara para tres días de fiestas, tradición y convivencia vecinal",
+        "description": "El Casco Antiguo de Talavera de la Reina volverá a convertirse este fin de semana en punto de encuentro para vecinos y visitantes. La Asociación de Vecinos San Jerónimo ha hecho público el programa de las Fiestas del Casco Antiguo 2026, tres jornadas que combinarán tradición, cultura, gastronomía…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:07:33.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/Plaza%20historica%20con%20iglesia%20y%20casa%20ocre-RrL7ddkoKragf2uwK2mGaYP-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:07:33.000Z"
+    },
+    {
+      "id": "D6JbcwUw4P6_",
+      "representative": {
+        "id": "D6JbcwUw4P6_",
+        "url": "https://www.abc.es/espana/cataluna/junqueras-carga-junts-psoe-reventar-legislatura-desactivar-20261006110243-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/cataluna/junqueras-carga-junts-psoe-reventar-legislatura-desactivar-20261006110243-nt.html",
+        "title": "Junqueras carga contra Junts y PSOE por «reventar» la legislatura y desactivar la quita del FLA y la financiación autonómica",
+        "description": "Oriol Junqueras, presidente de ERC, ha cargado hoy contra el PSOE y Junts por «reventar» la legislatura y, por lo tanto, desactivar varias reformas, como la quita de la deuda autonómica, la nueva financiación regional y el traspaso del Consorcio de la Zona Franca de Barcelona, que beneficiaban…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:03:59.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/oj00-RT1VrmV0HAiX4vgllEzid3J-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:03:59.000Z"
     }
   ]
 }

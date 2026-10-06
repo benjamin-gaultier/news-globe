@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers **France (FR)**, the **United States (US)**, the **United Kingdom (GB)**, **Germany (DE)**, **Spain (ES)** and **Italy (IT)**. Other countries are greyed out and marked "coming soon".
+It covers **France (FR)**, the **United States (US)**, the **United Kingdom (GB)**, **Germany (DE)**, **Spain (ES)**, **Italy (IT)** and **Canada (CA)**. Other countries are greyed out and marked "coming soon".
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -265,6 +265,21 @@ El Español (`elespanol.com/rss/espana/`) and Antena 3 also work and are good su
 | ~~Il Fatto Quotidiano~~ | — | — | ❌ **dropped**: section feed is empty |
 
 TGcom24 (`tgcom24.mediaset.it/rss/politica.xml`) also works and is a good substitute.
+
+**Canada** (added 2026-10-06)
+
+| Outlet | Feeds | Language | Authority | Status |
+| --- | --- | --- | --- | --- |
+| The Globe and Mail | politics, canada | en | 10 | ✅ |
+| CTV News | canada | en | 9 | ✅ |
+| Radio-Canada | ICI Info (4159) | fr | 9 | ✅ (general feed, includes some world news) |
+| Global News | politics, canada | en | 8 | ✅ (10 items each) |
+| National Post | politics, canada | en | 7 | ✅ (10 items each) |
+| La Presse | politique | fr | 7 | ✅ (10 items) |
+| ~~CBC News~~ | — | — | — | ❌ **dropped**: `cbc.ca/webfeed/rss/*` hangs for non-browser clients (HTTP/2 stream reset, then a timeout over HTTP/1.1), while `cbc.ca/news` responds |
+| ~~Toronto Star~~ | — | — | — | ❌ **dropped**: RSS search endpoint returns **429** |
+
+Canada is bilingual, and clustering only compares titles within a language, so a story covered in English and in French shows up as two clusters. Cross-language matching would need translation at ingest. Until then the French outlets add coverage but not outlet counts.
 
 When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`. Also check that the newest item is recent: Corriere and The Telegraph return well-formed but stale feeds.
 
