@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers **France (FR)**, the **United States (US)** and the **United Kingdom (GB)**. Other countries are greyed out and marked "coming soon".
+It covers **France (FR)**, the **United States (US)**, the **United Kingdom (GB)** and **Germany (DE)**. Other countries are greyed out and marked "coming soon".
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -211,6 +211,22 @@ The Hill (`thehill.com/homenews/feed/`) and NBC (`feeds.nbcnews.com/nbcnews/publ
 | ~~The Independent~~ | — | — | ❌ **dropped**: section feeds return a single item |
 | ~~The Times~~ / ~~ITV~~ / ~~FT~~ | — | — | ❌ no usable public RSS (HTML, timeout, single item) |
 
+**Germany** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| tagesschau | Innenpolitik, Inland | 10 | ✅ |
+| DER SPIEGEL | Politik Deutschland | 9 | ✅ |
+| Frankfurter Allgemeine | Politik Inland | 8 | ✅ |
+| ZEIT ONLINE | Politik Deutschland | 8 | ✅ |
+| WELT | Politik Deutschland | 7 | ✅ |
+| n-tv | Politik | 6 | ✅ |
+| ~~Süddeutsche Zeitung~~ | — | — | ❌ **dropped**: `rss.sueddeutsche.de/rss/Politik` returns a single item |
+
+ZDF heute (`zdf.de/rss/zdf/nachrichten`) and Tagesspiegel (`tagesspiegel.de/contentexport/feed/politik`) also work, but mix in international news.
+
+German titles use their own stopword list ([normalize/text.ts](packages/ingest/src/normalize/text.ts), `STOPWORDS_BY_LANGUAGE`) and fold `-en` endings. The list is per-language because words like *die*, *war* and *man* are stopwords in German but carry meaning in English.
+
 Authority weights are editorial judgment calls. They only decide which outlet's headline represents a cluster, not ranking.
 
 ## Adding a feed or a country
@@ -225,7 +241,7 @@ curl -sA "NewsGlobeBot/0.1 (+https://github.com/benjamin-gaultier/news-globe; he
 
 1. Add it to `COUNTRIES` in [packages/shared/src/index.ts](packages/shared/src/index.ts) with its ISO 3166-1 alpha-2 code, name, and the camera `lat` / `lng` / `altitude` for the globe.
 2. Add 4–6 national outlets for it to `SOURCES`.
-3. If its language isn't French or English, add stopwords to [normalize/text.ts](packages/ingest/src/normalize/text.ts). Otherwise clustering will match on function words.
+3. If its language has no stopword list yet, add one to `STOPWORDS_BY_LANGUAGE` in [normalize/text.ts](packages/ingest/src/normalize/text.ts). Otherwise clustering will match on function words.
 4. Run `pnpm ingest`. The globe highlights every country listed in `index.json`, so nothing else changes in the front end.
 
 ## Next steps

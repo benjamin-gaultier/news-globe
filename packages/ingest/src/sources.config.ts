@@ -219,6 +219,62 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://www.mirror.co.uk/news/uk-news/?service=rss'],
     authority: 5,
   },
+  // ---- Germany ----
+  // Süddeutsche Zeitung is dropped: its politics feed returns a single item.
+  {
+    id: 'tagesschau',
+    name: 'tagesschau',
+    type: 'rss',
+    country: 'DE',
+    language: 'de',
+    feedUrls: ['https://www.tagesschau.de/inland/innenpolitik/index~rss2.xml', 'https://www.tagesschau.de/inland/index~rss2.xml'],
+    authority: 10,
+  },
+  {
+    id: 'spiegel',
+    name: 'DER SPIEGEL',
+    type: 'rss',
+    country: 'DE',
+    language: 'de',
+    feedUrls: ['https://www.spiegel.de/politik/deutschland/index.rss'],
+    authority: 9,
+  },
+  {
+    id: 'faz',
+    name: 'Frankfurter Allgemeine',
+    type: 'rss',
+    country: 'DE',
+    language: 'de',
+    feedUrls: ['https://www.faz.net/rss/aktuell/politik/inland/'],
+    authority: 8,
+  },
+  {
+    id: 'zeit',
+    name: 'ZEIT ONLINE',
+    type: 'rss',
+    country: 'DE',
+    language: 'de',
+    feedUrls: ['https://newsfeed.zeit.de/politik/deutschland/index'],
+    authority: 8,
+  },
+  {
+    id: 'welt',
+    name: 'WELT',
+    type: 'rss',
+    country: 'DE',
+    language: 'de',
+    feedUrls: ['https://www.welt.de/feeds/section/politik/deutschland.rss'],
+    authority: 7,
+  },
+  {
+    id: 'ntv',
+    name: 'n-tv',
+    type: 'rss',
+    country: 'DE',
+    language: 'de',
+    feedUrls: ['https://www.n-tv.de/politik/rss'],
+    authority: 6,
+  },
 ];
 
 export const INGEST_SETTINGS = {

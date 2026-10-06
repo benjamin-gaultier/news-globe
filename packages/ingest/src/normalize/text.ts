@@ -97,30 +97,55 @@ can will just should now is are was were be been being have has had having do do
 i me my we our you your he him his she her it its they them their what which who whom this that
 these those am would could says said say new amid vs`;
 
-// Format markers that say nothing about the story ("EN DIRECT", "LIVE UPDATES", "VIDEO").
-const BOILERPLATE = `direct live video videos photo photos watch updates update podcast replay`;
+// Umlauts fold to the bare vowel (für → fur). Kept out of the FR/EN set on
+// purpose: "die", "war", "man", "dies" and "hat" are real English words.
+const STOPWORDS_DE = `
+der die das den dem des ein eine einer einem einen eines und oder aber doch sondern als wie wenn weil
+dass ob zu zum zur im in ins am an auf aus bei mit nach von vor uber unter um durch fur gegen ohne
+bis seit wahrend ab ich du er sie es wir ihr ihm ihn ihnen sich sein seine ihre ihren ihrem unser
+nicht kein keine keinen auch noch schon nur sehr mehr so da dann hier dort jetzt nun wieder immer
+ist sind war waren wird werden wurde wurden worden hat haben hatte hatten sei kann konnen soll sollen
+muss mussen will wollen darf alle alles viel viele dieser diese dieses diesem diesen jeder jede was wer
+wo warum wieso man neue neuer neuen neues erst ersten gibt geht laut heute mal`;
 
-const STOPWORDS = new Set([STOPWORDS_FR, STOPWORDS_EN, BOILERPLATE].flatMap((list) => list.split(/\s+/)).filter(Boolean));
+// Format markers that say nothing about the story ("EN DIRECT", "LIVE UPDATES", "VIDEO", "LIVE-TICKER").
+const BOILERPLATE = `direct live video videos photo photos watch updates update podcast replay liveblog ticker newsblog`;
+
+const wordSet = (...lists: string[]) => new Set(lists.flatMap((list) => list.split(/\s+/)).filter(Boolean));
+
+/**
+ * Stopwords per feed language. English is included everywhere: wire-style
+ * English words turn up in every country's titles ("live", "update").
+ */
+const STOPWORDS_FR_EN = wordSet(STOPWORDS_FR, STOPWORDS_EN, BOILERPLATE);
+const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
+  fr: STOPWORDS_FR_EN,
+  en: STOPWORDS_FR_EN,
+  de: wordSet(STOPWORDS_DE, STOPWORDS_EN, BOILERPLATE),
+};
 
 /**
  * Crude suffix folding, not real stemming: drops a plural s/x, then a final
  * e, so "inscrites"/"inscrits", "lycees"/"lycee" and "charges"/"charge" match.
  * Short tokens are left alone to avoid collisions.
  */
-export function stem(token: string): string {
+export function stem(token: string, language?: string): string {
   let t = token;
+  // German plurals and inflections: Grünen/Grüne, Parteien/Partei, Wahlen/Wahl.
+  if (language === 'de' && t.length > 5 && t.endsWith('en')) t = t.slice(0, -2);
   if (t.length > 4 && /[^s][sx]$/.test(t)) t = t.slice(0, -1);
   if (t.length > 4 && t.endsWith('e')) t = t.slice(0, -1);
   return t;
 }
 
-/** Normalized token set for title similarity. */
-export function titleTokens(title: string): Set<string> {
+/** Normalized token set for title similarity. `language` picks the stopword list (default: French + English). */
+export function titleTokens(title: string, language?: string): Set<string> {
+  const stopwords = (language && STOPWORDS_BY_LANGUAGE[language]) || STOPWORDS_FR_EN;
   const tokens = new Set<string>();
   for (const raw of foldText(title).split(' ')) {
-    if (!raw || STOPWORDS.has(raw)) continue;
+    if (!raw || stopwords.has(raw)) continue;
     if (raw.length < 2 && !/\d/.test(raw)) continue;
-    tokens.add(stem(raw));
+    tokens.add(stem(raw, language));
   }
   return tokens;
 }

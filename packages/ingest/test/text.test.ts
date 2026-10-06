@@ -34,6 +34,28 @@ describe('titleTokens', () => {
   });
 });
 
+describe('titleTokens: per-language stopwords', () => {
+  it('drops German stopwords and folds umlauts for de', () => {
+    expect([...titleTokens('Die Zahl der Verweigerer steigt für den Wehrdienst', 'de')]).toEqual([
+      'zahl',
+      'verweigerer',
+      'steigt',
+      'wehrdienst',
+    ]);
+  });
+
+  it('keeps English words that are German stopwords', () => {
+    // "dies" and "war" are stopwords in German, but carry the story in English.
+    expect([...titleTokens('Former speaker dies at 84', 'en')]).toContain('dies');
+    expect([...titleTokens('War in Sudan enters third year', 'en')]).toContain('war');
+    expect([...titleTokens('Former speaker dies at 84')]).toContain('dies');
+  });
+
+  it('folds German -en inflections', () => {
+    expect(titleTokens('Grünen Parteien Wahlen', 'de')).toEqual(titleTokens('Grüne Partei Wahl', 'de'));
+  });
+});
+
 describe('HTML and truncation', () => {
   it('strips tags and decodes entities', () => {
     expect(stripHtml('<p>Un <b>vote</b>&nbsp;au S&#xE9;nat &amp; l&#8217;Assemblée</p><img src="x.jpg">')).toBe(

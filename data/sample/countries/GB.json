@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T08:52:05.189Z",
+  "updatedAt": "2026-10-06T08:57:04.017Z",
   "clusters": [
     {
       "id": "rGUNBDm5Qeyw",
@@ -62,65 +62,6 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T08:15:24.000Z"
-    },
-    {
-      "id": "ul8mZBC34-rY",
-      "representative": {
-        "id": "ul8mZBC34-rY",
-        "url": "https://www.bbc.co.uk/news/videos/cv62yd93z906o?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/videos/cv62yd93z906o",
-        "title": "What we know about Andrew Mountbatten-Windsor's legal action against police",
-        "description": "Andrew Mountbatten-Windsor is taking legal action against Thames Valley Police over his arrest in February.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T13:09:42.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f0a/live/6eb37880-c0c2-11f1-a64c-550be9e3c66b.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "VEehAC9mMESJ",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
-          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
-          "title": "Buckingham Palace says it will not fund Andrew’s legal action against police",
-          "description": "Former Duke of York is attempting to quash search warrants that led to his arrest in February Andrew Mountbatten-Windsor has been warned not to use the king’s private money to fund his legal action against Thames Valley police. The former Duke of York is attempting to quash search warrants that…",
-          "source": {
-            "id": "guardian",
-            "name": "The Guardian"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T06:44:12.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/fb620b92234cda09d14da5f024f0bad4f7f7f877/32_0_1400_1120/master/1400.jpg?width=700&quality=85&auto=format&fit=max&s=015aef54658b9a3ac13a55ab64f76135",
-          "countryCode": "GB",
-          "regionCode": null
-        },
-        {
-          "id": "5OvmviPEdYhh",
-          "url": "https://www.standard.co.uk/news/uk/andrew-legal-action-thames-valley-police-searches-epstein-b1299528.html",
-          "canonicalUrl": "https://www.standard.co.uk/news/uk/andrew-legal-action-thames-valley-police-searches-epstein-b1299528.html",
-          "title": "Andrew Mountbatten-Windsor sues police over Epstein-related search warrants",
-          "description": "A private High Court hearing is taking place on Thursday",
-          "source": {
-            "id": "standard",
-            "name": "Evening Standard"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T08:56:45.000Z",
-          "imageUrl": "https://static.standard.co.uk/2026/07/13/18/7b950fe42c43a4daae517d9e3a103cbdY29udGVudHNlYXJjaGFwaSwxNzg0MDUwNDQw-2.72036863.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T06:44:12.000Z"
     },
     {
       "id": "lvuSNuPg4Ipy",
@@ -222,6 +163,65 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T08:35:31.000Z"
+    },
+    {
+      "id": "ul8mZBC34-rY",
+      "representative": {
+        "id": "ul8mZBC34-rY",
+        "url": "https://www.bbc.co.uk/news/videos/cv62yd93z906o?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/videos/cv62yd93z906o",
+        "title": "What we know about Andrew Mountbatten-Windsor's legal action against police",
+        "description": "Andrew Mountbatten-Windsor is taking legal action against Thames Valley Police over his arrest in February.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-05T13:09:42.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f0a/live/6eb37880-c0c2-11f1-a64c-550be9e3c66b.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "VEehAC9mMESJ",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
+          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
+          "title": "Buckingham Palace says it will not fund Andrew’s legal action against police",
+          "description": "Former Duke of York is attempting to quash search warrants that led to his arrest in February Andrew Mountbatten-Windsor has been warned not to use the king’s private money to fund his legal action against Thames Valley police. The former Duke of York is attempting to quash search warrants that…",
+          "source": {
+            "id": "guardian",
+            "name": "The Guardian"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T06:44:12.000Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/fb620b92234cda09d14da5f024f0bad4f7f7f877/32_0_1400_1120/master/1400.jpg?width=700&quality=85&auto=format&fit=max&s=015aef54658b9a3ac13a55ab64f76135",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
+          "id": "5OvmviPEdYhh",
+          "url": "https://www.standard.co.uk/news/uk/andrew-legal-action-thames-valley-police-searches-epstein-b1299528.html",
+          "canonicalUrl": "https://www.standard.co.uk/news/uk/andrew-legal-action-thames-valley-police-searches-epstein-b1299528.html",
+          "title": "Andrew Mountbatten-Windsor sues police over Epstein-related search warrants",
+          "description": "A private High Court hearing is taking place on Thursday",
+          "source": {
+            "id": "standard",
+            "name": "Evening Standard"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T08:56:45.000Z",
+          "imageUrl": "https://static.standard.co.uk/2026/07/13/18/7b950fe42c43a4daae517d9e3a103cbdY29udGVudHNlYXJjaGFwaSwxNzg0MDUwNDQw-2.72036863.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T06:44:12.000Z"
     },
     {
       "id": "HNDBgHLC2alD",

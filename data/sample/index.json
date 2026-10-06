@@ -1,23 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T08:52:05.189Z",
+  "updatedAt": "2026-10-06T08:57:04.017Z",
   "countries": [
     {
       "code": "FR",
       "name": "France",
-      "updatedAt": "2026-10-06T08:52:05.189Z",
+      "updatedAt": "2026-10-06T08:57:04.017Z",
       "clusterCount": 15
     },
     {
       "code": "US",
       "name": "United States",
-      "updatedAt": "2026-10-06T08:52:05.189Z",
+      "updatedAt": "2026-10-06T08:57:04.017Z",
       "clusterCount": 15
     },
     {
       "code": "GB",
       "name": "United Kingdom",
-      "updatedAt": "2026-10-06T08:52:05.189Z",
+      "updatedAt": "2026-10-06T08:57:04.017Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "updatedAt": "2026-10-06T08:57:04.017Z",
       "clusterCount": 15
     }
   ]
