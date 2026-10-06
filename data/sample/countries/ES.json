@@ -2,8 +2,84 @@
   "schemaVersion": 1,
   "countryCode": "ES",
   "countryName": "Spain",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
+    {
+      "id": "3M4pigwXBPaP",
+      "representative": {
+        "id": "3M4pigwXBPaP",
+        "url": "https://www.elmundo.es/espana/2026/10/06/6ac4c791e85ece04468b45b3.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4c791e85ece04468b45b3.html",
+        "title": "La joyería Yanes hará una nueva pericial de las joyas de Zapatero: el juez Calama rechaza el recurso del ex presidente",
+        "description": "El magistrado de la Audiencia Nacional recuerda al imputado que si no está de acuerdo con la designación del experto puede encargar su propio análisis Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:08:26.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912812178342.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "VpxZePJoQJ_V",
+          "url": "https://www.abc.es/espana/juez-plus-ultra-confirma-yanes-tasara-joyas-20261006113147-nt.html",
+          "canonicalUrl": "https://www.abc.es/espana/juez-plus-ultra-confirma-yanes-tasara-joyas-20261006113147-nt.html",
+          "title": "El juez del caso Plus Ultra confirma que Yanes tasará las joyas de Zapatero y rechaza el recurso del expresidente",
+          "description": "El juez de la Audiencia Nacional que instruye el caso Plus Ultra, José Luis Calama, ha rechazado el recurso del expresidente del Gobierno José Luis Rodríguez Zapatero contra la designación de la joyería Yanes para la elaboración de un nuevo informe pericial sobre las piezas encontradas en su…",
+          "source": {
+            "id": "abc_es",
+            "name": "ABC"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T13:13:52.000Z",
+          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1513339884-RqPTpFubOHkHfr1qXuNn0wL-1200x840@diario_abc.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "cTkoz5dgZ2cw",
+          "url": "https://www.20minutos.es/nacional/juez-rechaza-intento-zapatero-suspender-nueva-tasacion-las-joyas-caso-plus-ultra_7045407_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/juez-rechaza-intento-zapatero-suspender-nueva-tasacion-las-joyas-caso-plus-ultra_7045407_0.html",
+          "title": "El juez del caso Plus Ultra rechaza el intento de Zapatero de suspender la nueva tasación de las joyas halladas en su despacho",
+          "description": "El expresidente cuestionaba la imparcialidad de la joyería encargada del nuevo peritaje de las más de 60 piezas, valoradas inicialmente en más de 1,3 millones.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:09:38.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/09/20/6aafaf952f6122-89025480.r_d.1502-951-6400.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "LPgMw0pp_eKz",
+          "url": "https://www.eldiario.es/politica/juez-rechaza-pretension-zapatero-joyeria-yanes-no-tase-joyas_1_13565484.html",
+          "canonicalUrl": "https://www.eldiario.es/politica/juez-rechaza-pretension-zapatero-joyeria-yanes-no-tase-joyas_1_13565484.html",
+          "title": "El juez rechaza la pretensión de Zapatero de que la Joyería Yanes no tase sus joyas",
+          "description": "José Luis Calama le indica a la defensa del expresidente del Gobierno que tampoco acepta que un tasador elegido por él participe en la nueva pericial Zapatero traslada al juez que las joyas son un “obsequio” personal del rey de Arabia Saudí cuando era presidente El juez de la Audiencia Nacional…",
+          "source": {
+            "id": "eldiario",
+            "name": "elDiario.es"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:08:03.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/76023dab-02f1-4921-baf7-2c4db931e168_16-9-discover-aspect-ratio_default_0_x1150y333.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T13:13:52.000Z"
+    },
     {
       "id": "K5bUWXuCD0R_",
       "representative": {
@@ -18,7 +94,7 @@
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T12:50:35.000Z",
+        "publishedAt": "2026-10-06T13:00:36.000Z",
         "imageUrl": "https://imagenes.elpais.com/resizer/v2/SX5UMRVPZROWDHF6KYRZD6PEXY.jpg?auth=0b5cde5c6ee2e2d4d93c132c365fec3c68b9d2f8978c442e37ac9036f25e0239",
         "countryCode": "ES",
         "regionCode": null
@@ -78,83 +154,7 @@
       ],
       "outletCount24h": 4,
       "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:50:35.000Z"
-    },
-    {
-      "id": "P0ZCQC3LRSU9",
-      "representative": {
-        "id": "P0ZCQC3LRSU9",
-        "url": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
-        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
-        "title": "Así ha sido el discurso íntegro de Pedro Sánchez con el que ha convocado elecciones",
-        "description": "El discurso del presidente se ha centrado en la complejidad para negociar durante esta legislatura, la dureza de la oposición y los logros conseguidos Leer",
-        "source": {
-          "id": "elmundo",
-          "name": "El Mundo"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-05T08:26:00.000Z",
-        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911887360643.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "MUrQZA1lqMBd",
-          "url": "https://www.abc.es/espana/comparecencia-pedro-sanchez-directo-posible-convocatoria-elecciones-20261005080806-di.html",
-          "canonicalUrl": "https://www.abc.es/espana/comparecencia-pedro-sanchez-directo-posible-convocatoria-elecciones-20261005080806-di.html",
-          "title": "Elecciones generales en España, en directo: comparecencia de Pedro Sánchez tras la aprobación de los decretos de vivienda y última hora hoy",
-          "description": "Sigue en directo hoy la última hora de la convocatoria de elecciones generales en España para el próximo 29 de noviembre, con la comparecencia de Pedro Sánchez tras el Consejo de Ministros donde se aprobarán los decretos de vivienda rechazados la semana pasada por el pleno del Congreso.",
-          "source": {
-            "id": "abc_es",
-            "name": "ABC"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:01:09.000Z",
-          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/05/pedro-sanchez-ministro-U20978908959WTE-U302059744511GbD-1200x840@diario_abc.jpg",
-          "countryCode": "ES",
-          "regionCode": null
-        },
-        {
-          "id": "JTs6_ZlvxHGf",
-          "url": "https://www.20minutos.es/nacional/adelanto-electoral-sanchez-directo-sanchez-decide-si-convoca-elecciones-tras-un-fin-semana-reflexion-movilizaciones-las-calles_7044725_6.html",
-          "canonicalUrl": "https://www.20minutos.es/nacional/adelanto-electoral-sanchez-directo-sanchez-decide-si-convoca-elecciones-tras-un-fin-semana-reflexion-movilizaciones-las-calles_7044725_6.html",
-          "title": "Elecciones generales en España del 29N, en directo | Sánchez pide el apoyo de la Diputación Permanente a los decretos de vivienda: \"Es una cuestión de humanidad\"",
-          "description": "Última hora sobre el adelanto electoral al 29 de noviembre anunciado por Pedro Sánchez este lunes: reacciones políticas y protestas por la vivienda.",
-          "source": {
-            "id": "20minutos_es",
-            "name": "20minutos"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:00:32.000Z",
-          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/10/06/6ac4d4ae003ae2-89754157.r_d.960-505-6400.jpeg",
-          "countryCode": "ES",
-          "regionCode": null
-        },
-        {
-          "id": "E5EBQ2gikBUp",
-          "url": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
-          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
-          "title": "Última hora sobre Pedro Sánchez, las medidas de la vivienda y las elecciones anticipadas, en directo",
-          "description": "Pedro Sánchez anuncia avales y 680 millones para impulsar la construcción de vivienda",
-          "source": {
-            "id": "lavanguardia",
-            "name": "La Vanguardia"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:35:24.000Z",
-          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac4dce5ef202.jpeg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:01:09.000Z"
+      "latestPublishedAt": "2026-10-06T13:00:36.000Z"
     },
     {
       "id": "2MGmVyB7Oqxv",
@@ -171,7 +171,7 @@
         "sourceCountry": "ES",
         "language": "es",
         "publishedAt": "2026-10-06T10:41:20.000Z",
-        "imageUrl": "https://imagenes.elpais.com/resizer/v2/BM7P4X4DIFIZTNM6D6JNANF6XY.jpg?auth=0afff364c5fc257939aeefbd0852ad17914c51958def8ff81d804155f8c1f6ec",
+        "imageUrl": null,
         "countryCode": "ES",
         "regionCode": null
       },
@@ -292,6 +292,48 @@
       "latestPublishedAt": "2026-10-06T10:16:51.000Z"
     },
     {
+      "id": "TvYUQ5Mh9f1x",
+      "representative": {
+        "id": "TvYUQ5Mh9f1x",
+        "url": "https://www.abc.es/espana/supremo-horas-partes-presenten-alegaciones-decidir-sobre-20261006151643-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/supremo-horas-partes-presenten-alegaciones-decidir-sobre-20261006151643-nt.html",
+        "title": "El Supremo da 48 horas a las partes para que presenten alegaciones antes de decidir sobre la 'ley de nietos'",
+        "description": "La Sala de lo Contencioso-Administrativo del Tribunal Supremo ha dado a las partes un plazo improrrogable de 48 horas, en concreto hasta las tres de la tarde del jueves, para que formulen las alegaciones que consideren oportunas tras el registro, ayer, de los nuevos escritos de Iustitia Europa y…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:17:44.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518371613-R5By3kijVuAL5frsJWKxUFL-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "fVp-Q_AOgjXK",
+          "url": "https://www.elconfidencial.com/espana/2026-10-06/supremo-48-horas-alegaciones-resolver-ley-nietos_4439499/",
+          "canonicalUrl": "https://www.elconfidencial.com/espana/2026-10-06/supremo-48-horas-alegaciones-resolver-ley-nietos_4439499/",
+          "title": "El Supremo da 48 horas de plazo para las alegaciones antes de resolver sobre la ley de nietos",
+          "description": "Tras los nuevos escritos de Iustitia Europa y Vox en relación a las inscripciones en el censo electoral de residentes ausentes en el extranjero (CERA) de personas que han adquirido la nacionalidad",
+          "source": {
+            "id": "elconfidencial",
+            "name": "El Confidencial"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T13:11:00.000Z",
+          "imageUrl": "https://images.ecestaticos.com/SOpgK0Ci7ha639MhSlItOaW_8jc=/0x0:2272x1515/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F80c%2Fbd7%2F62c%2F80cbd762c4a89948248e5f820d29cf19.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:17:44.000Z"
+    },
+    {
       "id": "XD3SNJPCfjtR",
       "representative": {
         "id": "XD3SNJPCfjtR",
@@ -323,7 +365,7 @@
           },
           "sourceCountry": "ES",
           "language": "es",
-          "publishedAt": "2026-10-06T12:16:36.000Z",
+          "publishedAt": "2026-10-06T13:10:45.000Z",
           "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/maria-jesus-montero-Rpv6H8ubMUBgCrkxKRHvI9I-1200x840@diario_abc.jpg",
           "countryCode": "ES",
           "regionCode": null
@@ -331,150 +373,175 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:16:36.000Z"
+      "latestPublishedAt": "2026-10-06T13:10:45.000Z"
     },
     {
-      "id": "rDW7Bnw9txl6",
+      "id": "t-tJOzBTHeIi",
       "representative": {
-        "id": "rDW7Bnw9txl6",
-        "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/genova-se-desmarca-de-ayuso-y-ve-garantista-el-sistema-de-voto-por-correo-que-vayan-a-votar-por-tierra-mar-y-aire.html",
-        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-06/genova-se-desmarca-de-ayuso-y-ve-garantista-el-sistema-de-voto-por-correo-que-vayan-a-votar-por-tierra-mar-y-aire.html",
-        "title": "Génova se distancia de Ayuso y ve “garantista” el sistema de voto por correo: “Que vayan a votar por tierra, mar y aire”",
-        "description": "La líder popular madrileña insiste en esparcir sospechas sobre las “trampas” del sistema: “Defiendo que no puede haber trucos, este es un Gobierno trilero”",
-        "source": {
-          "id": "elpais",
-          "name": "El País"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T10:19:22.000Z",
-        "imageUrl": "https://imagenes.elpais.com/resizer/v2/5XHZ42GR4JMPTBWQ2FIO3RG5J4.jpg?auth=65ee17206c542d54e701f6dda199ebbce4620ba27e8b2abc729dec3061634f94",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "M0mlfJHg4qdm",
-          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4ba7ce4d4d8a07c8b45b9.html",
-          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4ba7ce4d4d8a07c8b45b9.html",
-          "title": "Génova se desmarca de Ayuso y ve \"garantista\" el voto por correo mientras ella se reafirma: \"Todo el mundo tiene que ir a la urna\"",
-          "description": "Borja Sémper afirma que el sistema tiene controles que hacen que el procedimiento esté vigilado pero la presidenta madrileña pide \"estar atentos\" Leer",
-          "source": {
-            "id": "elmundo",
-            "name": "El Mundo"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T10:32:43.000Z",
-          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912778874595.jpg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:32:43.000Z"
-    },
-    {
-      "id": "3M4pigwXBPaP",
-      "representative": {
-        "id": "3M4pigwXBPaP",
-        "url": "https://www.elmundo.es/espana/2026/10/06/6ac4c791e85ece04468b45b3.html",
-        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4c791e85ece04468b45b3.html",
-        "title": "La joyería Yanes hará una nueva pericial de las joyas de Zapatero: el juez Calama rechaza el recurso del ex presidente",
-        "description": "El magistrado de la Audiencia Nacional recuerda al imputado que si no está de acuerdo con la designación del experto puede encargar su propio análisis Leer",
-        "source": {
-          "id": "elmundo",
-          "name": "El Mundo"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T10:08:26.000Z",
-        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912812178342.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "LPgMw0pp_eKz",
-          "url": "https://www.eldiario.es/politica/juez-rechaza-pretension-zapatero-joyeria-yanes-no-tase-joyas_1_13565484.html",
-          "canonicalUrl": "https://www.eldiario.es/politica/juez-rechaza-pretension-zapatero-joyeria-yanes-no-tase-joyas_1_13565484.html",
-          "title": "El juez rechaza la pretensión de Zapatero de que la Joyería Yanes no tase sus joyas",
-          "description": "José Luis Calama le indica a la defensa del expresidente del Gobierno que tampoco acepta que un tasador elegido por él participe en la nueva pericial Zapatero traslada al juez que las joyas son un “obsequio” personal del rey de Arabia Saudí cuando era presidente El juez de la Audiencia Nacional…",
-          "source": {
-            "id": "eldiario",
-            "name": "elDiario.es"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T10:08:03.000Z",
-          "imageUrl": "https://static.eldiario.es/clip/76023dab-02f1-4921-baf7-2c4db931e168_16-9-discover-aspect-ratio_default_0_x1150y333.jpg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:08:26.000Z"
-    },
-    {
-      "id": "_C2CRR1W933m",
-      "representative": {
-        "id": "_C2CRR1W933m",
-        "url": "https://www.lavanguardia.com/politica/20261005/11651091/elecciones-generales-calendario-fechas-claves-proceso.html",
-        "canonicalUrl": "https://www.lavanguardia.com/politica/20261005/11651091/elecciones-generales-calendario-fechas-claves-proceso.html",
-        "title": "Elecciones generales: calendario y fechas claves del proceso",
-        "description": "El 2 de noviembre se proclamarán las candidaturas y la campaña electoral empezará el 13 de noviembre",
+        "id": "t-tJOzBTHeIi",
+        "url": "https://www.lavanguardia.com/politica/20261006/11652467/gobierno-aprueba-10-000-millones-euros-financiacion-compra-primera-vivienda.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652467/gobierno-aprueba-10-000-millones-euros-financiacion-compra-primera-vivienda.html",
+        "title": "El Gobierno aprueba 10.000 millones de euros de financiación para la compra de primera vivienda",
+        "description": "“Ni tiramos la toalla ni dejamos tirada a la gente”, reivindica Sánchez ante los decretos ley aprobados de nuevo por el Consejo de Ministros, que ya no requieren del voto de Junts para su convalidación en el Congreso",
         "source": {
           "id": "lavanguardia",
           "name": "La Vanguardia"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-05T07:52:17.000Z",
-        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2023/07/22/64bc1d8acd6d3.r_d.2856-1904-0.jpeg",
+        "publishedAt": "2026-10-06T13:06:20.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac4e2e642d3f.jpeg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [
         {
-          "id": "T20U-8-BTfme",
-          "url": "https://www.20minutos.es/nacional/abre-plazo-pedir-voto-correo-elecciones-generales-29-noviembre-como-donde-solicitarlo_7045348_0.html",
-          "canonicalUrl": "https://www.20minutos.es/nacional/abre-plazo-pedir-voto-correo-elecciones-generales-29-noviembre-como-donde-solicitarlo_7045348_0.html",
-          "title": "Abre el plazo para pedir el voto por correo para las elecciones generales del 29 de noviembre: cómo y dónde solicitarlo",
-          "description": "Quienes voten por esta vía, podrán pedirlo de forma online o en cualquier oficina de Correos.",
+          "id": "kHekiCLROK4_",
+          "url": "https://www.20minutos.es/nacional/gobierno-vuelve-aprobar-los-dos-decretos-vivienda-con-10-000-millones-para-compra-vivienda-400-millones-para-construccion_7045416_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/gobierno-vuelve-aprobar-los-dos-decretos-vivienda-con-10-000-millones-para-compra-vivienda-400-millones-para-construccion_7045416_0.html",
+          "title": "El Gobierno vuelve a aprobar los dos decretos de vivienda con 10.000 millones para compra de vivienda y 400 millones para construcción",
+          "description": "Esta vez la entrada en vigor del decreto de los contratos indefinidos se pospone a su votación en la Diputación Permanente. Si todos los partidos mantienen su posición, se repetiría el 'no' y, por tanto, nunca llegaría a aplicarse.",
           "source": {
             "id": "20minutos_es",
             "name": "20minutos"
           },
           "sourceCountry": "ES",
           "language": "es",
-          "publishedAt": "2026-10-06T10:04:12.000Z",
-          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac4c6ca0aeba2-29735419.jpeg",
+          "publishedAt": "2026-10-06T11:11:52.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac4d6b72d7461-75753516.jpeg",
           "countryCode": "ES",
           "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:06:20.000Z"
+    },
+    {
+      "id": "znjdSrlmvjPC",
+      "representative": {
+        "id": "znjdSrlmvjPC",
+        "url": "https://www.abc.es/espana/baleares/golpe-narcotrafico-palma-detenidos-operacion-200-agentes-20261006145818-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/baleares/golpe-narcotrafico-palma-detenidos-operacion-200-agentes-20261006145818-nt.html",
+        "title": "Golpe al narcotráfico en Palma: 12 detenidos en una operación con más de 200 agentes",
+        "description": "Una macrooperación contra el narcotráfico desplegada este martes en Mallorca se ha saldado, por el momento, con al menos 12 detenidos y 14 registros en Palma y Marratxí . Más de 200 efectivos de la Policía Nacional y del Servicio de Vigilancia Aduanera de la Agencia Tributaria han participado en…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
         },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:58:18.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/policia%20nacional-RTP3HxF91VZ1Jw8w4dHGLaN-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
         {
-          "id": "osBDi7mDP4k_",
-          "url": "https://www.elconfidencial.com/espana/2026-10-06/como-votar-correo-elecciones-generales-pedirlo-donde-1qrt_4439149/",
-          "canonicalUrl": "https://www.elconfidencial.com/espana/2026-10-06/como-votar-correo-elecciones-generales-pedirlo-donde-1qrt_4439149/",
-          "title": "Cómo votar por correo en las elecciones generales: plazos para pedirlo, dónde y cómo hacerlo",
-          "description": "La cita con las urnas el próximo 29 de noviembre obligarán a muchos ciudadanos a organizarse para participar si tienen un viaje previsto o no pueden desplazarse a su colegio electoral",
+          "id": "NQyJssTprsQQ",
+          "url": "https://www.elconfidencial.com/espana/2026-10-06/dispositivo-policial-contra-narcotrafico-palma-1tna-1tps_4439184/",
+          "canonicalUrl": "https://www.elconfidencial.com/espana/2026-10-06/dispositivo-policial-contra-narcotrafico-palma-1tna-1tps_4439184/",
+          "title": "Al menos 12 detenidos en una operación contra el narcotráfico en Palma de Mallorca",
+          "description": "La intervención se extiende también a Marratxí y moviliza unidades especializadas, medios aéreos y perros adiestrados, con varias detenciones previstas",
           "source": {
             "id": "elconfidencial",
             "name": "El Confidencial"
           },
           "sourceCountry": "ES",
           "language": "es",
-          "publishedAt": "2026-10-06T08:01:00.000Z",
-          "imageUrl": "https://images.ecestaticos.com/sqQcprcANoK9PL3SGq7hkVTafKQ=/0x0:2272x1443/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F92c%2Fc94%2Ff11%2F92cc94f1193ce82c83a7a8e19210b10a.jpg",
+          "publishedAt": "2026-10-06T08:49:00.000Z",
+          "imageUrl": "https://images.ecestaticos.com/4ShkWkFu8DcK9c_CPehtSWUVwFY=/0x0:2272x1514/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F827%2F87a%2Fd8b%2F82787ad8b93ae950612cebb7fc09d76f.jpg",
           "countryCode": "ES",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T10:04:12.000Z"
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:58:18.000Z"
+    },
+    {
+      "id": "Rc-AssBfzS-W",
+      "representative": {
+        "id": "Rc-AssBfzS-W",
+        "url": "https://www.abc.es/espana/pp-cree-fallo-supremo-fin-transaccion-gobierno-20261006135411-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/pp-cree-fallo-supremo-fin-transaccion-gobierno-20261006135411-nt.html",
+        "title": "Feijóo, sobre el fallo de TC: «Nada puede borrar que la amnistía es otro engaño más de Sánchez»",
+        "description": "«Otro engaño de Pedro Sánchez ». De esta forma describe el presidente del Partido Popular (PP), Alberto Núñez Feijóo, el fallo del Tribunal Constitucional que borra la malversación de 'procés', provocando el levantamiento de la orden de detención de Carles Puigdemont. Mediante su cuenta de X…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:48:18.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518367821-RDwlbjsE9dBVrsslC3lueZM-1200x840@diario_abc.JPG",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "sAqSfwF5ryrd",
+          "url": "https://www.20minutos.es/nacional/aval-constitucional-amnistia-directo-tc-se-dispone-avalar-amnistia-malversacion-proces-que-sienta-las-bases-para-regreso-puigdemont_7045295_6.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/aval-constitucional-amnistia-directo-tc-se-dispone-avalar-amnistia-malversacion-proces-que-sienta-las-bases-para-regreso-puigdemont_7045295_6.html",
+          "title": "Aval del Constitucional a la amnistía, en directo | Feijóo acata la decisión del TC, pero dice que la amnistía fue un engaño de Sánchez \"que debe castigarse en las urnas\"",
+          "description": "Últimas noticias de la decisión del Tribunal Constitucional sobre los independentistas Turull y Bassa, que allana el retorno del presidente de Junts.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T09:00:06.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/01/24/6974c3fb054ea8-04771831.r_d.1507-787-6400.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:48:18.000Z"
+    },
+    {
+      "id": "P0ZCQC3LRSU9",
+      "representative": {
+        "id": "P0ZCQC3LRSU9",
+        "url": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
+        "title": "Así ha sido el discurso íntegro de Pedro Sánchez con el que ha convocado elecciones",
+        "description": "El discurso del presidente se ha centrado en la complejidad para negociar durante esta legislatura, la dureza de la oposición y los logros conseguidos Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T08:26:00.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911887360643.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "E5EBQ2gikBUp",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
+          "title": "Última hora sobre Pedro Sánchez, las medidas de la vivienda y las elecciones anticipadas, en directo",
+          "description": "Pedro Sánchez anuncia avales y 680 millones para impulsar la construcción de vivienda",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:35:24.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac4e2f4cb6c5.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:35:24.000Z"
     },
     {
       "id": "TOS4TK4CoqdX",
@@ -491,7 +558,7 @@
         "sourceCountry": "ES",
         "language": "es",
         "publishedAt": "2026-10-06T07:23:23.000Z",
-        "imageUrl": "https://imagenes.elpais.com/resizer/v2/CAILFN3B7JATZJ67ECLI2MBPPI.jpg?auth=24de060a64cebbd3049ecc41e9235e4531481c885eb01f08f75977316d479e31",
+        "imageUrl": null,
         "countryCode": "ES",
         "regionCode": null
       },
@@ -561,6 +628,54 @@
       "latestPublishedAt": "2026-10-06T03:00:00.000Z"
     },
     {
+      "id": "ciXoNhFVgP8P",
+      "representative": {
+        "id": "ciXoNhFVgP8P",
+        "url": "https://www.abc.es/espana/castilla-leon/reconocimiento-labor-silenciosa-policia-nacional-vocacion-servicio-20261006151346-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/castilla-leon/reconocimiento-labor-silenciosa-policia-nacional-vocacion-servicio-20261006151346-nt.html",
+        "title": "Reconocimiento a la labor «silenciosa» de la Policía Nacional y «su vocación de servicio público»",
+        "description": "El delegado del Gobierno, Nicanor Sen, destacaba este martes que en la mayoría de los casos el éxito del trabajo policial es silencioso y «sin reconocimiento», por lo que aseguraba que este día enmarcado en la celebración de los Santos Ángeles Custodios, que tuvo lugar el pasado 2 de octubre, debe…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:14:39.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/celebracion-policia-Rle7sUydoxAAPT7iuMQsl8J-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:14:39.000Z"
+    },
+    {
+      "id": "tZfQeHHBa1d4",
+      "representative": {
+        "id": "tZfQeHHBa1d4",
+        "url": "https://www.abc.es/espana/juez-pide-anticorrupcion-pronuncie-sobre-peticion-pp-20261006145822-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/juez-pide-anticorrupcion-pronuncie-sobre-peticion-pp-20261006145822-nt.html",
+        "title": "El juez pide a Anticorrupción que se pronuncie sobre la petición del PP para imputar ya al PSOE",
+        "description": "El juez de la Audiencia Nacional Santiago Pedraz ha pedido a la Fiscalía Anticorrupción un informe para que se pronuncie sobre la procedencia de investigar al PSOE como persona jurídica después de que lo haya solicitado el PP, que aglutina a las acusaciones populares tanto en el caso de Leire Díez…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:14:35.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518333309-ReqSEnPap0UGc2LzUfaoyLJ-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:14:35.000Z"
+    },
+    {
       "id": "yEBl3dCGFaJg",
       "representative": {
         "id": "yEBl3dCGFaJg",
@@ -574,7 +689,7 @@
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T12:47:18.000Z",
+        "publishedAt": "2026-10-06T13:14:32.000Z",
         "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/20261005%20INVESSTIGADO%20INCENDIO%20SEPRONA-RPdFap9AdRnrl6VP4sIXALP-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
@@ -582,103 +697,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:47:18.000Z"
-    },
-    {
-      "id": "WCjYkraoQ7qZ",
-      "representative": {
-        "id": "WCjYkraoQ7qZ",
-        "url": "https://www.abc.es/espana/castilla-la-mancha/agricultores-ganaderos-acceso-120-millones-modernizar-explotaciones-20261006144551-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/agricultores-ganaderos-acceso-120-millones-modernizar-explotaciones-20261006144551-nt.html",
-        "title": "Agricultores y ganaderos tendrán acceso a más de 120 millones para modernizar sus explotaciones",
-        "description": "El campo de Castilla-La Mancha contará con una nueva vía para afrontar inversiones y modernizar sus explotaciones. La Junta ha puesto en marcha, junto a siete entidades financieras, un instrumento que permitirá movilizar más de 120 millones de euros en financiación para agricultores, ganaderos e…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:45:51.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/55572894829_b0d8cd64b2_k-RjzdMnQICHSahnbccX36nlO-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:45:51.000Z"
-    },
-    {
-      "id": "CWbCTEDpWy_x",
-      "representative": {
-        "id": "CWbCTEDpWy_x",
-        "url": "https://www.abc.es/espana/castilla-la-mancha/campo-exige-libertad-politicas-conservacionistas-mayor-dano-20261006143236-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/campo-exige-libertad-politicas-conservacionistas-mayor-dano-20261006143236-nt.html",
-        "title": "El campo exige «libertad» y no políticas conservacionistas: «Son el mayor daño que se puede hacer»",
-        "description": "Unos 2.000 agricultores y ganaderos y unos 90 tractores han tomado este martes los alrededores de la Consejería de Desarrollo Sostenible, en Toledo, convocados por Asaja Castilla-La Mancha para exigir «libertad» y rechazar «las políticas conservacionistas que nos han llevado hasta aquí, que son el…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:44:52.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/Portada%20Asaja-RtYZ85WZVko4QJh3ap7nZQM-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:44:52.000Z"
-    },
-    {
-      "id": "jCsUBOcXb9vf",
-      "representative": {
-        "id": "jCsUBOcXb9vf",
-        "url": "https://www.abc.es/espana/castilla-la-mancha/toledo/pueblos/escalona-revive-pasado-medieval-octubre-100-actividades-20261006140413-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/toledo/pueblos/escalona-revive-pasado-medieval-octubre-100-actividades-20261006140413-nt.html",
-        "title": "Escalona revive su pasado medieval del 16 al 18 de octubre con más de 100 actividades",
-        "description": "Escalona se transformará en una villa medieval del 16 al 18 de octubre con la celebración de sus V Jornadas Medievales, una cita que este año supera las 100 actividades e incorpora un nuevo escenario patrimonial: el convento de Santa Beatriz de Silva. La programación combinará espectáculos…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:40:10.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/escalona-RyOEsA20WAdRzXfL5Wl0BeN-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:40:10.000Z"
-    },
-    {
-      "id": "O5uMBmp0IYPd",
-      "representative": {
-        "id": "O5uMBmp0IYPd",
-        "url": "https://www.elmundo.es/espana/2026/10/06/6ac4de4ee4d4d810628b458d.html",
-        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4de4ee4d4d810628b458d.html",
-        "title": "El voto particular de los cinco magistrados discrepantes: \"El Constitucional suplanta la labor del Tribunal Supremo en la apreciación de la amnistía\"",
-        "description": "Los miembros del sector conservador del TC critican los términos gruesos empleados por Conde-Pumpido sobre la actuación del Supremo. Leer",
-        "source": {
-          "id": "elmundo",
-          "name": "El Mundo"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:39:10.000Z",
-        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912884853223.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:39:10.000Z"
+      "latestPublishedAt": "2026-10-06T13:14:32.000Z"
     }
   ]
 }

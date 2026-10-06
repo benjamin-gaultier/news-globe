@@ -2,24 +2,24 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
-      "id": "ThA_onaMV0Kf",
+      "id": "gNIVgrBYxC0j",
       "representative": {
-        "id": "ThA_onaMV0Kf",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
-        "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
-        "title": "British man arrested over suspected RAF Fairford terrorism plot",
-        "description": "Counter-terrorism policing says 22-year-old detained in London on suspicion of terrorism offences A seventh man has been arrested in London on suspicion of terrorism offences related to the suspected RAF Fairford terrorism plot, police have said. The 22-year-old British national was arrested in…",
+        "id": "gNIVgrBYxC0j",
+        "url": "https://www.bbc.co.uk/news/articles/cqlye0xd72wdo?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cqlye0xd72wdo",
+        "title": "British national arrested in connection with RAF Fairford incident",
+        "description": "It is the seventh arrest in connection to the incident near RAF Fairford last month.",
         "source": {
-          "id": "guardian",
-          "name": "The Guardian"
+          "id": "bbc",
+          "name": "BBC News"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T12:52:44.000Z",
-        "imageUrl": "https://i.guim.co.uk/img/media/6ca240b08d8926f9887a3558ca6dfd664706da50/1272_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=66b635569abd0aa816f61766885d1a33",
+        "publishedAt": "2026-10-06T13:14:29.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b53/live/fc7bdb70-bf15-11f1-9947-0584c244b963.jpg",
         "countryCode": "GB",
         "regionCode": null
       },
@@ -28,7 +28,7 @@
           "id": "EPznTMbRQGDL",
           "url": "https://www.standard.co.uk/news/london/raf-fairford-arrest-seventh-man-donald-trump-terror-iran-b1299730.html",
           "canonicalUrl": "https://www.standard.co.uk/news/london/raf-fairford-arrest-seventh-man-donald-trump-terror-iran-b1299730.html",
-          "title": "Seventh man arrested in London over RAF Fairford 'attack plot' as mystery deepens over Iran links",
+          "title": "Seventh man arrested in London over RAF Fairford 'terror plot' as mystery deepens over Iran links",
           "description": "Donald Trump has criticised the UK authorities over the bailing of suspects detained over the incident",
           "source": {
             "id": "standard",
@@ -36,8 +36,25 @@
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-06T12:54:38.000Z",
+          "publishedAt": "2026-10-06T12:56:57.000Z",
           "imageUrl": "https://static.standard.co.uk/2026/10/06/13/01M465GVV4ABBYP0WD0T20K1B9.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
+          "id": "ThA_onaMV0Kf",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
+          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
+          "title": "British man arrested over suspected RAF Fairford terrorism plot",
+          "description": "Counter-terrorism policing says 22-year-old detained in London on suspicion of terrorism offences A seventh man has been arrested in London on suspicion of terrorism offences related to the suspected RAF Fairford terrorism plot, police have said. The 22-year-old British national was arrested in…",
+          "source": {
+            "id": "guardian",
+            "name": "The Guardian"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:52:44.000Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/6ca240b08d8926f9887a3558ca6dfd664706da50/1272_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=66b635569abd0aa816f61766885d1a33",
           "countryCode": "GB",
           "regionCode": null
         },
@@ -74,11 +91,87 @@
           "imageUrl": "https://i2-prod.dailystar.co.uk/incoming/article37738902.ece/ALTERNATES/s615/0_US-Bombers-Depart-RAF-Fairford-For-Home.jpg",
           "countryCode": "GB",
           "regionCode": null
+        },
+        {
+          "id": "c9lND8zDjWZq",
+          "url": "https://news.sky.com/story/police-make-further-arrest-over-raf-fairford-incident-13595771",
+          "canonicalUrl": "https://news.sky.com/story/police-make-further-arrest-over-raf-fairford-incident-13595771",
+          "title": "Police make further arrest over RAF Fairford incident",
+          "description": "Counter terror police have made a seventh arrest in connection with the incident which took place close to RAF Fairford on 27 September.",
+          "source": {
+            "id": "sky",
+            "name": "Sky News"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:18:00.000Z",
+          "imageUrl": "https://e3.365dm.com/26/09/1920x1080/skynews-fairford-raf-police_7363058.jpg?20260928091929",
+          "countryCode": "GB",
+          "regionCode": null
         }
       ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:54:38.000Z"
+      "outletCount24h": 6,
+      "outletCount": 6,
+      "latestPublishedAt": "2026-10-06T13:14:29.000Z"
+    },
+    {
+      "id": "lvuSNuPg4Ipy",
+      "representative": {
+        "id": "lvuSNuPg4Ipy",
+        "url": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo",
+        "title": "Author and former politician Jeffrey Archer dies aged 86",
+        "description": "Archer sold more than 300 million books in his five-decade writing career, and his last book, Adam and Eve, was due to be released later this month.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:17:05.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b61/live/11641640-c15c-11f1-babe-4199b0e7ccea.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "IsKKEPKA8Xqe",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
+          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
+          "title": "Jeffrey Archer, former Conservative politician and novelist, dies aged 86",
+          "description": "Publisher says author died peacefully at home ‘between writing sessions’ Jeffrey Archer, the bestselling author and former MP whose political career ended in disgrace when he was imprisoned for perjury, has died at the age of 86. Archer, who was a Conservative MP for five years before serving as…",
+          "source": {
+            "id": "guardian",
+            "name": "The Guardian"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T22:31:47.000Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/bc73da7e3d57ad9ebd762af793298118083bc159/944_270_3786_3031/master/3786.jpg?width=700&quality=85&auto=format&fit=max&s=6d886213c7a7236a65d4fbf0764347cd",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
+          "id": "lhWZtFuXB-mI",
+          "url": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
+          "title": "Jeffrey Archer, novelist and former Conservative MP, dies aged 86",
+          "description": "Archer died peacefully at his home, his publisher said in a statement",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T21:33:08.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/05/21/c6d1176584779cce96089f8f067d0e32Y29udGVudHNlYXJjaGFwaSwxNzkxMzE4Mjgw-2.66559363.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T09:17:05.000Z"
     },
     {
       "id": "rGUNBDm5Qeyw",
@@ -152,127 +245,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
+      "outletCount24h": 3,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T08:15:24.000Z"
-    },
-    {
-      "id": "lvuSNuPg4Ipy",
-      "representative": {
-        "id": "lvuSNuPg4Ipy",
-        "url": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo",
-        "title": "Author and former politician Jeffrey Archer dies aged 86",
-        "description": "Archer sold more than 300 million books in his five-decade writing career, and his last book, Adam and Eve, was due to be released later this month.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:17:05.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b61/live/11641640-c15c-11f1-babe-4199b0e7ccea.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "IsKKEPKA8Xqe",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
-          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
-          "title": "Jeffrey Archer, former Conservative politician and novelist, dies aged 86",
-          "description": "Publisher says author died peacefully at home ‘between writing sessions’ Jeffrey Archer, the bestselling author and former MP whose political career ended in disgrace when he was imprisoned for perjury, has died at the age of 86. Archer, who was a Conservative MP for five years before serving as…",
-          "source": {
-            "id": "guardian",
-            "name": "The Guardian"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T22:31:47.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/bc73da7e3d57ad9ebd762af793298118083bc159/944_270_3786_3031/master/3786.jpg?width=700&quality=85&auto=format&fit=max&s=6d886213c7a7236a65d4fbf0764347cd",
-          "countryCode": "GB",
-          "regionCode": null
-        },
-        {
-          "id": "lhWZtFuXB-mI",
-          "url": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
-          "title": "Jeffrey Archer, novelist and former Conservative MP, dies aged 86",
-          "description": "Archer died peacefully at his home, his publisher said in a statement",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T21:33:08.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/05/21/c6d1176584779cce96089f8f067d0e32Y29udGVudHNlYXJjaGFwaSwxNzkxMzE4Mjgw-2.66559363.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T09:17:05.000Z"
-    },
-    {
-      "id": "ul8mZBC34-rY",
-      "representative": {
-        "id": "ul8mZBC34-rY",
-        "url": "https://www.bbc.co.uk/news/videos/cv62yd93z906o?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/videos/cv62yd93z906o",
-        "title": "What we know about Andrew Mountbatten-Windsor's legal action against police",
-        "description": "Andrew Mountbatten-Windsor is taking legal action against Thames Valley Police over his arrest in February.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T13:09:42.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f0a/live/6eb37880-c0c2-11f1-a64c-550be9e3c66b.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "VEehAC9mMESJ",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
-          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
-          "title": "Buckingham Palace says it will not fund Andrew’s legal action against police",
-          "description": "Former Duke of York is attempting to quash search warrants that led to his arrest in February Andrew Mountbatten-Windsor has been warned not to use the king’s private money to fund his legal action against Thames Valley police. The former Duke of York is attempting to quash search warrants that…",
-          "source": {
-            "id": "guardian",
-            "name": "The Guardian"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T06:44:12.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/fb620b92234cda09d14da5f024f0bad4f7f7f877/32_0_1400_1120/master/1400.jpg?width=700&quality=85&auto=format&fit=max&s=015aef54658b9a3ac13a55ab64f76135",
-          "countryCode": "GB",
-          "regionCode": null
-        },
-        {
-          "id": "DGDxHQceu91c",
-          "url": "https://www.independent.co.uk/news/uk/crime/andrew-mountbatten-windsor-arrest-thames-valley-police-court-b3061309.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/andrew-mountbatten-windsor-arrest-thames-valley-police-court-b3061309.html",
-          "title": "Police apply to keep details of Andrew Mountbatten-Windsor legal claim secret",
-          "description": "A private High Court hearing will take place on Thursday",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T15:12:28.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/08/06/17/82771110cad463bbf6de0ebc78cd300fY29udGVudHNlYXJjaGFwaSwxNzg2MTIwMDA1-2.84707749.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T06:44:12.000Z"
     },
     {
       "id": "HF5jIIKaxEUM",
@@ -365,7 +340,7 @@
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-06T12:37:26.000Z",
+          "publishedAt": "2026-10-06T13:15:05.000Z",
           "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37232384.ece/ALTERNATES/s615/1_GettyImages-2237921959.jpg",
           "countryCode": "GB",
           "regionCode": null
@@ -373,7 +348,49 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:37:26.000Z"
+      "latestPublishedAt": "2026-10-06T13:15:05.000Z"
+    },
+    {
+      "id": "k5JhOOR6MRLZ",
+      "representative": {
+        "id": "k5JhOOR6MRLZ",
+        "url": "https://www.bbc.co.uk/news/articles/ckz65w2jwe0do?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckz65w2jwe0do",
+        "title": "Dad saw son fall to death from Cyprus hotel window, court told",
+        "description": "Joshua Foster placed his son on a sill for the view, believing the window was closed.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:58:17.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a53/live/8b0b1840-c184-11f1-b95a-f59dbce5c8a6.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ZNGm8sIreOEJ",
+          "url": "https://www.mirror.co.uk/news/uk-news/cyprus-hotel-window-boy-death-37740464",
+          "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/cyprus-hotel-window-boy-death-37740464",
+          "title": "Boy, 2, fell to his death from Cyprus hotel window when dad 'lost control' of toddler",
+          "description": "The boy fell nearly 40ft at the five-star King Evelthon Beach Hotel and Resort in Chlorakas in July on the first day of a family holiday in Cyprus",
+          "source": {
+            "id": "mirror",
+            "name": "Daily Mirror"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:19:20.000Z",
+          "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37740717.ece/ALTERNATES/s615/3_Cyprus-British-Man-Court-26278252310311.jpg",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:58:17.000Z"
     },
     {
       "id": "Ey-5a_capDjh",
@@ -416,48 +433,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:36:13.000Z"
-    },
-    {
-      "id": "GLOchBhb8fwM",
-      "representative": {
-        "id": "GLOchBhb8fwM",
-        "url": "https://www.independent.co.uk/news/uk/home-news/elmley-castle-missing-girl-dead-police-update-pershore-b3062106.html",
-        "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/elmley-castle-missing-girl-dead-police-update-pershore-b3062106.html",
-        "title": "Police give update on ‘unexplained’ death of missing girl, 11, at Worcestershire park",
-        "description": "The girl was reported missing on Sunday night and her body was later discovered in the park",
-        "source": {
-          "id": "independent",
-          "name": "The Independent"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:16:48.000Z",
-        "imageUrl": "https://static.independent.co.uk/2026/10/06/13/01M45TD0ERM6GD5D0908WTN3D1.jpg?width=1200&auto=webp&trim=168%2C0%2C168%2C0",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "gEB54VNfLZaO",
-          "url": "https://www.standard.co.uk/news/uk/west-mercia-police-police-worcestershire-flowers-press-association-b1299584.html",
-          "canonicalUrl": "https://www.standard.co.uk/news/uk/west-mercia-police-police-worcestershire-flowers-press-association-b1299584.html",
-          "title": "Death of girl, 11, ‘unexplained’ after body found in park",
-          "description": "The girl was reported missing at around 11.20pm on Sunday.",
-          "source": {
-            "id": "standard",
-            "name": "Evening Standard"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T13:15:11.000Z",
-          "imageUrl": "https://static.standard.co.uk/2026/10/05/14/1c29a7aa5217570b880ba26865f828b8Y29udGVudHNlYXJjaGFwaSwxNzkxMjkyMDY1-2.86081667.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:16:48.000Z"
     },
     {
       "id": "QmSfIZ-A6Y8f",
@@ -628,13 +603,13 @@
       "latestPublishedAt": "2026-10-06T11:29:55.000Z"
     },
     {
-      "id": "5dRx021srmUn",
+      "id": "ALdkzmwshPx0",
       "representative": {
-        "id": "5dRx021srmUn",
-        "url": "https://news.sky.com/story/fire-shuts-down-nottingham-city-centre-as-residents-evacuated-from-building-13595607",
-        "canonicalUrl": "https://news.sky.com/story/fire-shuts-down-nottingham-city-centre-as-residents-evacuated-from-building-13595607",
-        "title": "Fire shuts down Nottingham city centre",
-        "description": "Trams have been stopped and roads closed through Nottingham city centre as firefighters battle a blaze at a residential property.",
+        "id": "ALdkzmwshPx0",
+        "url": "https://news.sky.com/story/boys-aged-12-and-14-arrested-after-fire-in-nottingham-city-centre-13595607",
+        "canonicalUrl": "https://news.sky.com/story/boys-aged-12-and-14-arrested-after-fire-in-nottingham-city-centre-13595607",
+        "title": "Boys aged 12 and 14 arrested after fire in Nottingham city centre",
+        "description": "Two boys aged 12 and 14 have been arrested on suspicion of arson after a large fire in Nottingham city centre.",
         "source": {
           "id": "sky",
           "name": "Sky News"
@@ -752,6 +727,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T10:15:31.000Z"
+    },
+    {
+      "id": "VdMl90-Dwh-3",
+      "representative": {
+        "id": "VdMl90-Dwh-3",
+        "url": "https://www.theguardian.com/politics/2026/oct/05/tory-shadow-minister-luton-no-go-zones-white-people-blake-stephenson",
+        "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/05/tory-shadow-minister-luton-no-go-zones-white-people-blake-stephenson",
+        "title": "Tory shadow minister claims Luton has ‘no-go zones’ where ‘white people won’t go’",
+        "description": "Blake Stephenson tells fringe meeting at Tory conference that the town is ‘a very dangerous place’ with ‘ghettoes’ A shadow Conservative Home Office minister has claimed there are “no-go zones” in Luton where “white people won’t go”. Blake Stephenson, the MP for Mid Bedfordshire who was appointed…",
+        "source": {
+          "id": "guardian",
+          "name": "The Guardian"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-05T18:06:21.000Z",
+        "imageUrl": "https://i.guim.co.uk/img/media/2642155e1d7b8699e966accc02bbb6a6b550b1b8/316_408_3962_3168/master/3962.jpg?width=700&quality=85&auto=format&fit=max&s=065cd2383674a85405c64d75153b2a89",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "_0Vud1Pic3tT",
+          "url": "https://www.independent.co.uk/news/uk/politics/luton-no-go-zones-tories-blake-stephenson-tommy-robinson-b3061981.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/luton-no-go-zones-tories-blake-stephenson-tommy-robinson-b3061981.html",
+          "title": "Tory shadow minister criticised for claiming Luton has ‘no go zones’ where ‘white people won’t go’",
+          "description": "Shadow home office minister Blake Stephenson has been accused of peddling ‘the same rightwing nonsense’ as far-right activist Tommy Robinson",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:51:02.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/06/9/41/Blake-Stephenson.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:51:02.000Z"
     }
   ]
 }

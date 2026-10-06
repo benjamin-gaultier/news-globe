@@ -95,6 +95,29 @@ describe('HttpCache', () => {
     expect((await cache.getItems(URL_A, async () => [])).outcome).toBe('throttled');
     expect(fetchImpl).toHaveBeenCalledTimes(2);
   });
+
+  it('serves cached items offline without any request, even when the throttle has expired', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const first = await makeCache(fetchImpl);
+    await first.getItems(URL_A, async () => [item('one')]);
+    await first.save();
+
+    now += 60 * MIN;
+    const offline = await HttpCache.load(join(dir, 'http.json'), {
+      userAgent: 'TestBot/1.0',
+      minIntervalMs: 15 * MIN,
+      timeoutMs: 1000,
+      fetchImpl,
+      now: () => now,
+      offline: true,
+    });
+    expect(await offline.getItems(URL_A, async () => [])).toMatchObject({ outcome: 'offline', items: [item('one')] });
+    expect(await offline.getItems('https://feeds.example/never-fetched.xml', async () => [])).toMatchObject({
+      outcome: 'offline',
+      items: [],
+    });
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
 });
 
 describe('decodeBody', () => {

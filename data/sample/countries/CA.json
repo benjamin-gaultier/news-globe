@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CA",
   "countryName": "Canada",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
       "id": "IVZaH0wgm3Su",
@@ -203,7 +203,7 @@
         },
         "sourceCountry": "CA",
         "language": "en",
-        "publishedAt": "2026-10-06T13:05:38.879Z",
+        "publishedAt": "2026-10-06T13:27:49.082Z",
         "imageUrl": "https://www.ctvnews.ca/resizer/v2/45MTOAKPSXWGQD7VOOOLRVRUEI.jpg?auth=6a097b3ad50abd6768bf700b4f91143f4374bd44aca864aae96024e76de58e4a&smart=true&width=1400&height=809",
         "countryCode": "CA",
         "regionCode": null
@@ -211,7 +211,79 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:05:38.879Z"
+      "latestPublishedAt": "2026-10-06T13:27:49.082Z"
+    },
+    {
+      "id": "j2VzeQ1IINZk",
+      "representative": {
+        "id": "j2VzeQ1IINZk",
+        "url": "https://ici.radio-canada.ca/nouvelle/2291058/jim-bakker-mort-televangeliste-americain",
+        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291058/jim-bakker-mort-televangeliste-americain",
+        "title": "Le célèbre télévangéliste des années 1980, Jim Bakker, est mort",
+        "description": "Jim Bakker a été l'un des télévangélistes les plus connus des États-Unis avant l'ère des réseaux sociaux.",
+        "source": {
+          "id": "radiocanada",
+          "name": "Radio-Canada"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:13:47.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/televangeliste-predicatuer-jimm-bakker.jpg",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:13:47.000Z"
+    },
+    {
+      "id": "rZgwy9jWj0H5",
+      "representative": {
+        "id": "rZgwy9jWj0H5",
+        "url": "https://www.theglobeandmail.com/canada/article-st-francis-xavier-university-off-campus-sign/",
+        "canonicalUrl": "https://www.theglobeandmail.com/canada/article-st-francis-xavier-university-off-campus-sign/",
+        "title": "‘Degrading’ off-campus sign near St. Francis Xavier University prompts backlash",
+        "description": "A sheet draped over the window of a home in Antigonish with a spray-painted message read: ‘Drop-off zone: Acadia girlfriends’",
+        "source": {
+          "id": "globeandmail",
+          "name": "The Globe and Mail"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:11:25.000Z",
+        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/QVOG7A2IHZGMHPHLPXAOCTKCKM.jpg?auth=3e68b72cfb8b6a360250f6491200b286411a731b95a10fb32beb9aea509ea8e1&smart=true&width=4031&height=2594",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:11:25.000Z"
+    },
+    {
+      "id": "gdP3HBSuE96O",
+      "representative": {
+        "id": "gdP3HBSuE96O",
+        "url": "https://ici.radio-canada.ca/info/en-direct/1014557/elections-quebec-victoire-parti-quebecois",
+        "canonicalUrl": "https://ici.radio-canada.ca/info/en-direct/1014557/elections-quebec-victoire-parti-quebecois",
+        "title": "Élections : la poussière commence à retomber au lendemain de la victoire du PQ",
+        "description": "Les chefs doivent prendre la parole au fil de la journée pour faire le point sur les résultats d'hier.",
+        "source": {
+          "id": "radiocanada",
+          "name": "Radio-Canada"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:09:56.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/pq-pspp-paul-st-pierre-plamondon-parti-quebecois-soiree-electorale-victoire-politique-quebecoise.jpg",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:09:56.000Z"
     },
     {
       "id": "wDEl15GihmKe",
@@ -236,30 +308,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:56:41.000Z"
-    },
-    {
-      "id": "gdP3HBSuE96O",
-      "representative": {
-        "id": "gdP3HBSuE96O",
-        "url": "https://ici.radio-canada.ca/info/en-direct/1014557/elections-quebec-victoire-parti-quebecois",
-        "canonicalUrl": "https://ici.radio-canada.ca/info/en-direct/1014557/elections-quebec-victoire-parti-quebecois",
-        "title": "Élections : la poussière commence à retomber au lendemain de la victoire du PQ",
-        "description": "Les chefs doivent prendre la parole au fil de la journée pour faire le point sur les résultats d'hier.",
-        "source": {
-          "id": "radiocanada",
-          "name": "Radio-Canada"
-        },
-        "sourceCountry": "CA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:48:38.000Z",
-        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/pq-pspp-paul-st-pierre-plamondon-parti-quebecois-soiree-electorale-victoire-politique-quebecoise.jpg",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:48:38.000Z"
     },
     {
       "id": "tbi1lUEz0rnX",
@@ -404,54 +452,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:39:47.000Z"
-    },
-    {
-      "id": "4AIDvEQANplF",
-      "representative": {
-        "id": "4AIDvEQANplF",
-        "url": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-physics-francis-halzen/",
-        "canonicalUrl": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-physics-francis-halzen/",
-        "title": "Neutrino experiment pioneer Francis Halzen wins Nobel Prize in Physics",
-        "description": "University of Wisconsin-Madison professor is best known for his work establishing the IceCube Neutrino Observatory at the South Pole",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:27:01.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/VBZI4CBNNNFDJBCGYAABJE6EDA.JPG?auth=4b649f4065fdfd5515ac3f40984020ca6f94393803ae2af1e4317a5451277dc0&smart=true&width=1632&height=1089",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:27:01.000Z"
-    },
-    {
-      "id": "n7Knuich-2SS",
-      "representative": {
-        "id": "n7Knuich-2SS",
-        "url": "https://nationalpost.com/news/canada/parliaments-crane-operators-face-unique-challenges-at-lofty-heights",
-        "canonicalUrl": "https://nationalpost.com/news/canada/parliaments-crane-operators-face-unique-challenges-at-lofty-heights",
-        "title": "Parliament's crane operators face unique challenges at lofty heights",
-        "description": "Main construction will be complete between 2030 and 2031. The Centre Block will reopen about one year later",
-        "source": {
-          "id": "nationalpost",
-          "name": "National Post"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:00:43.000Z",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/10/hcp_stockbuildingsign_009_300892992.jpg",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:00:43.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IE",
   "countryName": "Ireland",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
       "id": "i_ezQjmDfveC",
@@ -157,6 +157,65 @@
       "latestPublishedAt": "2026-10-06T12:15:33.000Z"
     },
     {
+      "id": "PmkkgdRRF7tC",
+      "representative": {
+        "id": "PmkkgdRRF7tC",
+        "url": "https://www.irishtimes.com/crime-law/courts/2026/10/06/armed-gardai-shot-xl-bully-dog-four-times-after-it-attacked-and-killed-owner-inquest-told/",
+        "canonicalUrl": "https://www.irishtimes.com/crime-law/courts/2026/10/06/armed-gardai-shot-xl-bully-dog-four-times-after-it-attacked-and-killed-owner-inquest-told/",
+        "title": "Armed gardaí shot XL Bully dog four times after it attacked and killed owner, inquest told",
+        "description": "Gardaí reviewed CCTV footage of the attack and the Director of Public Prosecutions ruled no criminal prosecution would follow",
+        "source": {
+          "id": "irishtimes",
+          "name": "The Irish Times"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:31:28.000Z",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/5V4K25GDK5EWRKXAR7YKHV6B5U.jpg?auth=21775ab86626d73a60517e424cdeca48b6e0428934c5a66ed7cda9c82e8f8e60&smart=true&width=630&height=350",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "KKBfy8WaRc8A",
+          "url": "https://www.independent.ie/irish-news/courts/armed-gardai-shot-xl-bully-dog-four-times-after-attack-that-killed-nicole-morey-inquest-told/a/162657976.html",
+          "canonicalUrl": "https://www.independent.ie/irish-news/courts/armed-gardai-shot-xl-bully-dog-four-times-after-attack-that-killed-nicole-morey-inquest-told/a/162657976.html",
+          "title": "Armed gardaí shot XL Bully dog four times after attack that killed Nicole Morey, inquest told",
+          "description": "Limerick woman’s death was one of the inciting incidents in move to ban breed",
+          "source": {
+            "id": "independent_ie",
+            "name": "Irish Independent"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:02:49.000Z",
+          "imageUrl": "https://prod-img.independent.ie/public/incoming/ooxyeu-nicole-morey-was-23-when-she-died./alternates/BASE_SIXTEEN_NINE/Nicole%20Morey%20was%2023%20when%20she%20died.",
+          "countryCode": "IE",
+          "regionCode": null
+        },
+        {
+          "id": "g-Zs5g3G3hKs",
+          "url": "https://www.thejournal.ie/nicole-morey-inquest-7183970-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/nicole-morey-inquest-7183970-Oct2026/",
+          "title": "Armed gardaí shot an XL Bully dog after it killed Limerick woman, inquest hears",
+          "description": "Nicole Morey was killed in the fatal attack at her home in June 2024.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:45:54.000Z",
+          "imageUrl": "https://c2.thejournal.ie/media/2026/10/screenshot-2026-10-06-at-13-41-22-dacd2665-bd84-41d1-87c4-cfd0c593706d-630x392.png",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:02:49.000Z"
+    },
+    {
       "id": "KrGGDXa47_0m",
       "representative": {
         "id": "KrGGDXa47_0m",
@@ -216,6 +275,132 @@
       "latestPublishedAt": "2026-10-06T04:30:00.000Z"
     },
     {
+      "id": "_fvGggzXsbJ7",
+      "representative": {
+        "id": "_fvGggzXsbJ7",
+        "url": "https://www.independent.ie/irish-news/politics/fuel-childcare-social-welfare-income-tax-and-housing-heres-everything-we-know-so-far-about-budget-2027/a/162068101.html",
+        "canonicalUrl": "https://www.independent.ie/irish-news/politics/fuel-childcare-social-welfare-income-tax-and-housing-heres-everything-we-know-so-far-about-budget-2027/a/162068101.html",
+        "title": "Fuel, childcare, social welfare, income tax and housing – here’s everything we know so far about Budget 2027",
+        "description": "It is crunch time for the Coalition’s negotiations",
+        "source": {
+          "id": "independent_ie",
+          "name": "Irish Independent"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:30:00.000Z",
+        "imageUrl": "https://prod-img.independent.ie/public/incoming/jqcs8j-budget-2027/alternates/BASE_SIXTEEN_NINE/Budget%202027",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "clhA4NaQIBHD",
+          "url": "https://www.irishmirror.ie/news/irish-news/budget-2027-live-bring-you-37735551",
+          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/budget-2027-live-bring-you-37735551",
+          "title": "Budget 2027 live as changes incoming on pensions, childcare, social welfare and fuel prices",
+          "description": "Households nationwide will be hoping to be better off as the details of Budget 2027 are revealed and scrutinised",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:17:52.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article37740702.ece/ALTERNATES/s615/0_Irish-Budget-2027.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:17:52.000Z"
+    },
+    {
+      "id": "LPKgfcDHphhF",
+      "representative": {
+        "id": "LPKgfcDHphhF",
+        "url": "https://www.rte.ie/news/budget-2027/2026/1006/1594222-education-budget-2027/",
+        "canonicalUrl": "https://www.rte.ie/news/budget-2027/2026/1006/1594222-education-budget-2027/",
+        "title": "Third level student contribution fee to be cut by €150",
+        "description": "The student contribution fee at third level will be permanently reduced by €150 under a range of measures aimed at the education sector in Budget 2027.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:13:38.000Z",
+        "imageUrl": "https://www.rte.ie/images/001720c2-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "DvoZSvPDDBhG",
+          "url": "https://www.thejournal.ie/budget-2027-student-fees-cut-susi-grants-7183773-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/budget-2027-student-fees-cut-susi-grants-7183773-Oct2026/",
+          "title": "Government announces €150 cut to annual student contribution fee in budget",
+          "description": "There is no change to annual PhD stipends.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:16:08.000Z",
+          "imageUrl": "https://c2.thejournal.ie/media/2026/10/college_-university_-students-1-alamy-960b5a3f-340c-439c-a73e-fc8425ef6d3d-630x419.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:16:08.000Z"
+    },
+    {
+      "id": "UbXPP9R9Y6Lz",
+      "representative": {
+        "id": "UbXPP9R9Y6Lz",
+        "url": "https://www.irishexaminer.com/news/politics/arid-41920438.html",
+        "canonicalUrl": "https://www.irishexaminer.com/news/politics/arid-41920438.html",
+        "title": "Budget 2027: Social welfare rates to rise by €10 a week as disability supports increase",
+        "description": "The measures include increases to welfare rates, Fuel Allowance and Living Alone Allowance, alongside targeted child poverty supports",
+        "source": {
+          "id": "examiner",
+          "name": "Irish Examiner"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:15:00.000Z",
+        "imageUrl": null,
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "PcxHvaNCHRPd",
+          "url": "https://www.irishmirror.ie/news/irish-news/politics/budget-2027-full-list-social-37740456",
+          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/politics/budget-2027-full-list-social-37740456",
+          "title": "Budget 2027: Full list of social welfare payments as €10 rise announced",
+          "description": "Core social welfare rates will rise by €10, it has been announced in Budget 2027",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:07:06.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/news/irish-news/article37677098.ece/ALTERNATES/s615/0_PA-62919169.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:15:00.000Z"
+    },
+    {
       "id": "rz6xgcHImDGX",
       "representative": {
         "id": "rz6xgcHImDGX",
@@ -258,97 +443,13 @@
       "latestPublishedAt": "2026-10-06T12:52:36.000Z"
     },
     {
-      "id": "_fvGggzXsbJ7",
-      "representative": {
-        "id": "_fvGggzXsbJ7",
-        "url": "https://www.independent.ie/irish-news/politics/fuel-childcare-social-welfare-income-tax-and-housing-heres-everything-we-know-so-far-about-budget-2027/a/162068101.html",
-        "canonicalUrl": "https://www.independent.ie/irish-news/politics/fuel-childcare-social-welfare-income-tax-and-housing-heres-everything-we-know-so-far-about-budget-2027/a/162068101.html",
-        "title": "Fuel, childcare, social welfare, income tax and housing – here’s everything we know so far about Budget 2027",
-        "description": "It is crunch time for the Coalition’s negotiations",
-        "source": {
-          "id": "independent_ie",
-          "name": "Irish Independent"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:30:00.000Z",
-        "imageUrl": "https://prod-img.independent.ie/public/incoming/jqcs8j-budget-2027/alternates/BASE_SIXTEEN_NINE/Budget%202027",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "clhA4NaQIBHD",
-          "url": "https://www.irishmirror.ie/news/irish-news/budget-2027-live-bring-you-37735551",
-          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/budget-2027-live-bring-you-37735551",
-          "title": "Budget 2027 live as changes incoming on pensions, childcare, social welfare and fuel prices",
-          "description": "Households nationwide will be hoping to be better off as the details of Budget 2027 are revealed and scrutinised",
-          "source": {
-            "id": "irishmirror",
-            "name": "Irish Mirror"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:49:25.000Z",
-          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article37740702.ece/ALTERNATES/s615/0_Irish-Budget-2027.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:49:25.000Z"
-    },
-    {
-      "id": "PmkkgdRRF7tC",
-      "representative": {
-        "id": "PmkkgdRRF7tC",
-        "url": "https://www.irishtimes.com/crime-law/courts/2026/10/06/armed-gardai-shot-xl-bully-dog-four-times-after-it-attacked-and-killed-owner-inquest-told/",
-        "canonicalUrl": "https://www.irishtimes.com/crime-law/courts/2026/10/06/armed-gardai-shot-xl-bully-dog-four-times-after-it-attacked-and-killed-owner-inquest-told/",
-        "title": "Armed gardaí shot XL Bully dog four times after it attacked and killed owner, inquest told",
-        "description": "Gardaí reviewed CCTV footage of the attack and the Director of Public Prosecutions ruled no criminal prosecution would follow",
-        "source": {
-          "id": "irishtimes",
-          "name": "The Irish Times"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:31:28.000Z",
-        "imageUrl": "https://www.irishtimes.com/resizer/v2/5V4K25GDK5EWRKXAR7YKHV6B5U.jpg?auth=21775ab86626d73a60517e424cdeca48b6e0428934c5a66ed7cda9c82e8f8e60&smart=true&width=630&height=350",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "g-Zs5g3G3hKs",
-          "url": "https://www.thejournal.ie/nicole-morey-inquest-7183970-Oct2026/",
-          "canonicalUrl": "https://www.thejournal.ie/nicole-morey-inquest-7183970-Oct2026/",
-          "title": "Armed gardaí shot an XL Bully dog after it killed Limerick woman, inquest hears",
-          "description": "Nicole Morey was killed in the fatal attack at her home in June 2024.",
-          "source": {
-            "id": "thejournal",
-            "name": "TheJournal.ie"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:45:54.000Z",
-          "imageUrl": "https://c2.thejournal.ie/media/2026/10/screenshot-2026-10-06-at-13-41-22-dacd2665-bd84-41d1-87c4-cfd0c593706d-630x392.png",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:45:54.000Z"
-    },
-    {
       "id": "bfjm7XOdHXxW",
       "representative": {
         "id": "bfjm7XOdHXxW",
         "url": "https://www.thejournal.ie/rental-tax-credit-budget-2027-7183984-Oct2026/",
         "canonicalUrl": "https://www.thejournal.ie/rental-tax-credit-budget-2027-7183984-Oct2026/",
-        "title": "Rent tax credit increases by €150 and Rent-A-Room scheme extended to garden cabins",
-        "description": "This change brings the value of the credit to €1,150 for single people and €2,300 for couples.",
+        "title": "Are you a renter? Your tax credit will increase by €150 next year",
+        "description": "This change brings the value of the credit to €1,150 for single people and €2,300 for couples from 2027.",
         "source": {
           "id": "thejournal",
           "name": "TheJournal.ie"
@@ -382,6 +483,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:45:13.000Z"
+    },
+    {
+      "id": "1b-5UvvURCjJ",
+      "representative": {
+        "id": "1b-5UvvURCjJ",
+        "url": "https://www.independent.ie/county/kerry/south-kerry-news/we-know-he-had-a-happy-life-case-of-irish-man-missing-for-34-years-finally-resolved/a/162653717.html",
+        "canonicalUrl": "https://www.independent.ie/county/kerry/south-kerry-news/we-know-he-had-a-happy-life-case-of-irish-man-missing-for-34-years-finally-resolved/a/162653717.html",
+        "title": "‘We know he had a happy life’: Case of Irish man missing for 34 years finally resolved",
+        "description": null,
+        "source": {
+          "id": "independent_ie",
+          "name": "Irish Independent"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:45:00.000Z",
+        "imageUrl": "https://prod-img.independent.ie/public/incoming/i2gvxw-ks-patsy-missing.png/alternates/BASE_SIXTEEN_NINE/ks%20Patsy%20Missing.png",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "SMtXzBCluDpt",
+          "url": "https://www.irishmirror.ie/news/irish-news/mystery-missing-irish-man-ends-37738022",
+          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/mystery-missing-irish-man-ends-37738022",
+          "title": "Mystery of missing Irish man ends in tragedy after 34 years",
+          "description": "Patrick 'Patsy' O'Sullivan was 35 years old when he went missing in Co Cork 34 years ago",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-05T20:05:49.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article34162496.ece/ALTERNATES/s615/1_Screenshot-2024-11-21-at-193344.png",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:45:00.000Z"
     },
     {
       "id": "MpmBoBv1R5PZ",
@@ -609,132 +752,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T21:40:00.000Z"
-    },
-    {
-      "id": "D6m8D6J29ONK",
-      "representative": {
-        "id": "D6m8D6J29ONK",
-        "url": "https://www.rte.ie/news/uk/2026/1005/1594134-jeffrey-archer-death/",
-        "canonicalUrl": "https://www.rte.ie/news/uk/2026/1005/1594134-jeffrey-archer-death/",
-        "title": "Former politician, novelist Jeffrey Archer dies aged 86",
-        "description": "Former politician and author Jeffrey Archer has died aged 86, his publisher said in a statement.",
-        "source": {
-          "id": "rte",
-          "name": "RTÉ News"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-05T20:56:50.000Z",
-        "imageUrl": "https://www.rte.ie/images/00251f83-800.jpg",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "WUP1WwmKtDUJ",
-          "url": "https://www.thejournal.ie/jeffrey-archer-dies-aged-86-7183272-Oct2026/",
-          "canonicalUrl": "https://www.thejournal.ie/jeffrey-archer-dies-aged-86-7183272-Oct2026/",
-          "title": "British novelist and former Conservative politician Jeffrey Archer dies aged 86",
-          "description": "His editor at Harper Collins said he was “phenomenally hard-working”.",
-          "source": {
-            "id": "thejournal",
-            "name": "TheJournal.ie"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-05T20:56:28.000Z",
-          "imageUrl": "https://c3.thejournal.ie/media/2026/10/anzac-day-2022-236063a0-a1b0-4fe6-bf63-9ce13ad772b1-630x450.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T20:56:50.000Z"
-    },
-    {
-      "id": "s-OZCGEEmI0d",
-      "representative": {
-        "id": "s-OZCGEEmI0d",
-        "url": "https://www.rte.ie/entertainment/2026/1005/1594129-niamh-obrien-dancer-and-wife-of-michael-flatley-dies/",
-        "canonicalUrl": "https://www.rte.ie/entertainment/2026/1005/1594129-niamh-obrien-dancer-and-wife-of-michael-flatley-dies/",
-        "title": "Niamh O'Brien, dancer and wife of Michael Flatley, dies",
-        "description": "Niamh O'Brien, who was the lead performer in Lord of the Dance and the wife of Riverdance star Michael Flatley, has died at the age of 52.",
-        "source": {
-          "id": "rte",
-          "name": "RTÉ News"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-05T19:34:35.000Z",
-        "imageUrl": "https://www.rte.ie/images/00251f74-800.jpg",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ub6HWPVREcyI",
-          "url": "https://www.thejournal.ie/niamh-o-brien-dies-irish-dancer-wife-michael-flatley-7183209-Oct2026/",
-          "canonicalUrl": "https://www.thejournal.ie/niamh-o-brien-dies-irish-dancer-wife-michael-flatley-7183209-Oct2026/",
-          "title": "'My heart is broken': Niamh O'Brien, Irish dancer and wife of Michael Flatley, dies aged 52",
-          "description": "“She was the most loving mother, wife and person, and our lives will never be the same without her,” Michael Flatley said in a statement.",
-          "source": {
-            "id": "thejournal",
-            "name": "TheJournal.ie"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-05T19:41:46.000Z",
-          "imageUrl": "https://c0.thejournal.ie/media/2026/10/guests-and-cast-attend-the-red-carpet-premiere-of-black-bird-written-by-directed-by-and-starring-michael-flatley-featuring-michael-flatley-niamh-obrien-where-london-united-kingdom-when-28-f1f358d8-2fa1-4103-ba5a-6a2c6d035028-630x414.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:41:46.000Z"
-    },
-    {
-      "id": "cYXMepA6T3jv",
-      "representative": {
-        "id": "cYXMepA6T3jv",
-        "url": "https://www.irishtimes.com/crime-law/courts/2026/10/05/daniel-kinahan-case-adjourned-for-one-week-to-allow-solicitor-apply-to-represent-him/",
-        "canonicalUrl": "https://www.irishtimes.com/crime-law/courts/2026/10/05/daniel-kinahan-case-adjourned-for-one-week-to-allow-solicitor-apply-to-represent-him/",
-        "title": "Daniel Kinahan case adjourned for one week to allow solicitor to apply to represent him",
-        "description": "Kinahan appears via video link for brief mention but will attend court next week",
-        "source": {
-          "id": "irishtimes",
-          "name": "The Irish Times"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-05T13:49:56.000Z",
-        "imageUrl": "https://www.irishtimes.com/resizer/v2/GJJ4EYVYRVCZJNCT3F3GR6NL6A.jpg?auth=466b1c2b8575b7ee1b8f0769bb0b3013308de1cdff0bfe62b4bc3264220bdd22&smart=true&width=630&height=350",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "BhYJB4IvsPrL",
-          "url": "https://www.rte.ie/news/2026/1005/1594079-kinahan-remanded-to-be-represented-by-belfast-solicitor/",
-          "canonicalUrl": "https://www.rte.ie/news/2026/1005/1594079-kinahan-remanded-to-be-represented-by-belfast-solicitor/",
-          "title": "Belfast solicitor to represent Daniel Kinahan, court told",
-          "description": "Daniel Kinahan is to be represented by a solicitor from Belfast, the Special Criminal Court has been told.",
-          "source": {
-            "id": "rte",
-            "name": "RTÉ News"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-05T13:59:57.000Z",
-          "imageUrl": "https://www.rte.ie/images/00251eec-800.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T13:59:57.000Z"
     }
   ]
 }

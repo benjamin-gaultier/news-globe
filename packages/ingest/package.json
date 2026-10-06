@@ -6,6 +6,7 @@
   "scripts": {
     "ingest": "tsx src/cli.ts",
     "ingest:watch": "tsx src/watch.ts",
+    "probe": "tsx src/probe.ts",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json"
   },

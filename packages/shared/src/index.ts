@@ -112,4 +112,10 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   NZ: { code: 'NZ', name: 'New Zealand', lat: -41, lng: 173, altitude: 1.3 },
   AR: { code: 'AR', name: 'Argentina', lat: -36, lng: -64, altitude: 2.0 },
   PT: { code: 'PT', name: 'Portugal', lat: 39.6, lng: -8.2, altitude: 1.1 },
+  AT: { code: 'AT', name: 'Austria', lat: 47.6, lng: 14.1, altitude: 1.0 },
+  CH: { code: 'CH', name: 'Switzerland', lat: 46.8, lng: 8.2, altitude: 0.9 },
+  CO: { code: 'CO', name: 'Colombia', lat: 4.5, lng: -74, altitude: 1.6 },
+  CL: { code: 'CL', name: 'Chile', lat: -35, lng: -71, altitude: 2.0 },
+  NG: { code: 'NG', name: 'Nigeria', lat: 9.1, lng: 8.7, altitude: 1.5 },
+  KE: { code: 'KE', name: 'Kenya', lat: 0.2, lng: 37.9, altitude: 1.3 },
 };

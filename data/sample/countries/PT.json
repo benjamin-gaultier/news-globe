@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PT",
   "countryName": "Portugal",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
       "id": "Y-sDuMvqkYp7",
@@ -146,6 +146,54 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T10:55:12.000Z"
+    },
+    {
+      "id": "GwZ2Zpqh4Axv",
+      "representative": {
+        "id": "GwZ2Zpqh4Axv",
+        "url": "https://observador.pt/especiais/ps-quis-fechar-depressa-o-orcamento-e-agora-quer-evitar-o-atoleiro-da-especialidade/",
+        "canonicalUrl": "https://observador.pt/especiais/ps-quis-fechar-depressa-o-orcamento-e-agora-quer-evitar-o-atoleiro-da-especialidade/",
+        "title": "PS quis fechar rápido OE. Mas ainda tem \"atoleiro\" a evitar",
+        "description": "Carneiro quis evitar uma novela e deu sinal de viabilização mesmo sem conhecer o documento — contrariando o que sempre disse. No partido, o alívio convive com avisos sobre a batalha na especialidade.",
+        "source": {
+          "id": "observador",
+          "name": "Observador"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T13:17:13.000Z",
+        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:3142:1766:nowe:0:164/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/02/19160147/jporfirio-debate-quinzenal-luis-montenegro-19-02-03-2.jpg",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:17:13.000Z"
+    },
+    {
+      "id": "ZUGoBhvq69Yn",
+      "representative": {
+        "id": "ZUGoBhvq69Yn",
+        "url": "https://observador.pt/programas/noticiario/as-noticias-das-14h-2495/",
+        "canonicalUrl": "https://observador.pt/programas/noticiario/as-noticias-das-14h-2495/",
+        "title": "As notícias das 14h",
+        "description": "As notícias na Rádio Observador. Aconteça o que acontecer.",
+        "source": {
+          "id": "observador",
+          "name": "Observador"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T13:16:33.000Z",
+        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/06/15153459/770-podcast-noticiario.png",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:16:33.000Z"
     },
     {
       "id": "iMO42VMpQk5w",
@@ -386,54 +434,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:30:44.000Z"
-    },
-    {
-      "id": "3FWprOOYLg3s",
-      "representative": {
-        "id": "3FWprOOYLg3s",
-        "url": "https://eco.sapo.pt/2026/10/06/parlamento-europeu-aprova-programa-financeiro-de-115-milhoes-para-defesa/",
-        "canonicalUrl": "https://eco.sapo.pt/2026/10/06/parlamento-europeu-aprova-programa-financeiro-de-115-milhoes-para-defesa/",
-        "title": "Parlamento Europeu aprova programa financeiro de 115 milhões para defesa",
-        "description": "O Parlamento Europeu (PE) aprovou esta terça-feira a criação do programa financeiro na área da defesa AGILE, com 115 milhões de euros para responder ao novo ambiente de segurança e apoiar tecnologias inovadoras. A legislação, adotada esta terça-feira em sessão plenária do PE por 536 votos a favor…",
-        "source": {
-          "id": "eco",
-          "name": "ECO"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:30:10.000Z",
-        "imageUrl": "https://eco.imgix.net/uploads/2026/10/cropped-47892086-scaled-1.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:30:10.000Z"
-    },
-    {
-      "id": "7wB4w7aNAdhS",
-      "representative": {
-        "id": "7wB4w7aNAdhS",
-        "url": "https://observador.pt/programas/justica-cega/nao-basta-reformar-tambem-e-preciso-investir-na-justica/",
-        "canonicalUrl": "https://observador.pt/programas/justica-cega/nao-basta-reformar-tambem-e-preciso-investir-na-justica/",
-        "title": "\"Não basta reformar, também é preciso investir na Justiça\"",
-        "description": "Rafael Vale Reis e Pedro Marinho Falcão elogiam várias medidas da reforma da Justiça Administrativa e Fiscal proposta pelo Governo mas alertam: são necessários mais juízes e oficiais de justiça.",
-        "source": {
-          "id": "observador",
-          "name": "Observador"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:26:37.000Z",
-        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/01/29144757/770-podcast-justica-cega.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:26:37.000Z"
     }
   ]
 }

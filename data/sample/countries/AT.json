@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "AT",
+  "countryName": "Austria",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
+  "clusters": [
+    {
+      "id": "HkGyfdFFUnK7",
+      "representative": {
+        "id": "HkGyfdFFUnK7",
+        "url": "https://orf.at/stories/3444268/",
+        "canonicalUrl": "https://orf.at/stories/3444268/",
+        "title": "Babler wendet sich an SPÖ-Mitglieder",
+        "description": "Der scheidende SPÖ-Chef Andreas Babler hat sich am Dienstag erstmals nach Ankündigung seines Rückzugs an die Parteimitglieder gewendet. In einem Video auf Instagram fasste er die Ereignisse der vergangenen Tage zusammen und lobte den beschlossenen „geordneten Übergang“ in der Partei als…",
+        "source": {
+          "id": "orf",
+          "name": "ORF"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:12:26.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "UmBDrjkmeGNN",
+          "url": "https://www.krone.at/4322829",
+          "canonicalUrl": "https://www.krone.at/4322829",
+          "title": "„Riesenerfolg“: Babler feiert sich & SPÖ in Video",
+          "description": "Nach den turbulenten letzten Tagen und Wochen innerhalb der Bundes-SPÖ hat sich (Noch)-Parteichef Andreas Babler in einem Video an seine Wählerschaft gewandt. Darin zeigte er sich stolz, was er in den vergangenen dreieinhalb Jahren innerhalb der Sozialdemokratie geschaffen habe. Die angekündigten…",
+          "source": {
+            "id": "krone",
+            "name": "Kronen Zeitung"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-06T13:06:03.000Z",
+          "imageUrl": null,
+          "countryCode": "AT",
+          "regionCode": null
+        },
+        {
+          "id": "R82T-lPCJN7W",
+          "url": "https://www.kleinezeitung.at/artikel/41331235/video-an-parteivolk-babler-wendet-sich-an-mitglieder",
+          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41331235/video-an-parteivolk-babler-wendet-sich-an-mitglieder",
+          "title": "Video an Parteivolk: Babler wendet sich an Mitglieder",
+          "description": "Mit einem Video meldet sich Noch-SPÖ-Chef und Noch-Vizekanzler Andreas Babler an das Parteivolk. Und spricht auch von einem „Riesenerfolg“.",
+          "source": {
+            "id": "kleinezeitung",
+            "name": "Kleine Zeitung"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-06T11:54:47.000Z",
+          "imageUrl": "https://img.kleinezeitung.at/public/incoming/hbajef-22730394795428164bldhiresjpg/alternates/BASE_LANDSCAPE/22730394795428164_BLD_HiRes.jpg",
+          "countryCode": "AT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:06:03.000Z"
+    },
+    {
+      "id": "VNTkhAd0jDO6",
+      "representative": {
+        "id": "VNTkhAd0jDO6",
+        "url": "https://orf.at/stories/3444265/",
+        "canonicalUrl": "https://orf.at/stories/3444265/",
+        "title": "Sachsen-Anhalt: Erster AfD-Landtagspräsident Deutschlands",
+        "description": null,
+        "source": {
+          "id": "orf",
+          "name": "ORF"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T11:04:43.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "WmEduydKH-Nz",
+          "url": "https://www.krone.at/4322893",
+          "canonicalUrl": "https://www.krone.at/4322893",
+          "title": "Historisch! AfD-Mann zu Landtagspräsident gewählt",
+          "description": "Der AfD-Mann Tobias Rausch ist von einer Mehrheit in Sachsen-Anhalt zum Landtagspräsidenten gewählt worden – auch Abgeordnete anderer Parteien stimmten für den rechtsextremen Politiker.",
+          "source": {
+            "id": "krone",
+            "name": "Kronen Zeitung"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-06T11:14:40.000Z",
+          "imageUrl": null,
+          "countryCode": "AT",
+          "regionCode": null
+        },
+        {
+          "id": "p4teyyJ1L1KZ",
+          "url": "https://www.kleinezeitung.at/artikel/41330895/erster-afd-landtagspraesident-deutschlands-gewaehlt",
+          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41330895/erster-afd-landtagspraesident-deutschlands-gewaehlt",
+          "title": "Erster AfD-Landtagspräsident Deutschlands gewählt",
+          "description": "Tobias Rausch ist in Sachsen-Anhalt ein AfD-Politiker zum Landtagspräsidenten gewählt worden. Der 35-Jährige erhielt 48 Stimmen im Magdeburger Landtag.",
+          "source": {
+            "id": "kleinezeitung",
+            "name": "Kleine Zeitung"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-06T10:56:46.000Z",
+          "imageUrl": "https://img.kleinezeitung.at/public/politik/c43kl1-92870011495453440bldonlinejpg/alternates/BASE_LANDSCAPE/92870011495453440_BLD_Online.jpg",
+          "countryCode": "AT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T11:14:40.000Z"
+    },
+    {
+      "id": "3E3StfqY6HoR",
+      "representative": {
+        "id": "3E3StfqY6HoR",
+        "url": "https://kurier.at/politik/ausland/katalanischer-separatistenfuehrer-puigdemont-darf-nach-spanien/403196261",
+        "canonicalUrl": "https://kurier.at/politik/ausland/katalanischer-separatistenfuehrer-puigdemont-darf-nach-spanien/403196261",
+        "title": "Carles Puigdemont: Haftbefehl in Spanien aufgehoben",
+        "description": "Der Haftbefehl wurde nach Entscheidung von Verfassungsgericht aufgehoben.",
+        "source": {
+          "id": "kurier",
+          "name": "Kurier"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:03:13.000Z",
+        "imageUrl": "https://image.kurier.at/images/original/9354558/46-234257630.jpg?versionId=a17119c6a392",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "iILnr2YmO7on",
+          "url": "https://www.kleinezeitung.at/artikel/41331239/katalanenfuehrer-puigdemont-darf-wieder-nach-spanien",
+          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41331239/katalanenfuehrer-puigdemont-darf-wieder-nach-spanien",
+          "title": "Katalanenführer Puigdemont darf wieder nach Spanien",
+          "description": "Nach neun Jahren im Exil darf der katalanische Separatistenführer Carles Puigdemont wieder zurück nach Spanien. Das Oberste Gericht in Madrid hat am Dienstag...",
+          "source": {
+            "id": "kleinezeitung",
+            "name": "Kleine Zeitung"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-06T11:51:52.000Z",
+          "imageUrl": "https://img.kleinezeitung.at/public/politik/seoiu-92870011495454666bldonlinejpg/alternates/BASE_LANDSCAPE/92870011495454666_BLD_Online.jpg",
+          "countryCode": "AT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:03:13.000Z"
+    },
+    {
+      "id": "VtZgb2p4ujXQ",
+      "representative": {
+        "id": "VtZgb2p4ujXQ",
+        "url": "https://www.derstandard.at/story/3000000342935/wehrpflicht-f252r-fp214-verhandlungen-vorerst-gescheitert?ref=rss",
+        "canonicalUrl": "https://www.derstandard.at/story/3000000342935/wehrpflicht-f252r-fp214-verhandlungen-vorerst-gescheitert",
+        "title": "Verhandlungen über Wehrpflicht für FPÖ vorerst gescheitert",
+        "description": "Für die Freiheitlichen bleibt die Verlängerung des Zivildiensts der Knackpunkt. Auch die Grünen wollen erst weiter verhandeln, wenn das Gesetz in Begutachtung ist",
+        "source": {
+          "id": "derstandard",
+          "name": "Der Standard"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T11:48:52.000Z",
+        "imageUrl": "https://i.ds.at/eQof2A/rs:fill:150:0/plain/lido-images/2026/10/06/29df074e-b25d-4ab6-9cd6-bdeab8b73368.jpg",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "aIiWWYjh417c",
+          "url": "https://orf.at/stories/3444273/",
+          "canonicalUrl": "https://orf.at/stories/3444273/",
+          "title": "FPÖ sieht Verhandlungen zu Wehrpflicht vorerst gescheitert",
+          "description": null,
+          "source": {
+            "id": "orf",
+            "name": "ORF"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-06T12:26:10.000Z",
+          "imageUrl": null,
+          "countryCode": "AT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:26:10.000Z"
+    },
+    {
+      "id": "kFFLLX4u8WCK",
+      "representative": {
+        "id": "kFFLLX4u8WCK",
+        "url": "https://orf.at/stories/3444255/",
+        "canonicalUrl": "https://orf.at/stories/3444255/",
+        "title": "SPÖ-Turbulenzen: FPÖ fordert Eingreifen Van der Bellens",
+        "description": null,
+        "source": {
+          "id": "orf",
+          "name": "ORF"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T09:51:06.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "AWI0R67qWmMH",
+          "url": "https://www.diepresse.com/41330541/spoe-krise-fpoe-fordert-van-der-bellen-zum-eingreifen-auf",
+          "canonicalUrl": "https://www.diepresse.com/41330541/spoe-krise-fpoe-fordert-van-der-bellen-zum-eingreifen-auf",
+          "title": "SPÖ-Krise: FPÖ fordert Van der Bellen zum Eingreifen auf",
+          "description": "Angesichts von knapp 100 offenen Regierungsvorhaben fordert die FPÖ das Staatsoberhaupt auf, einzugreifen. Niederösterreichs Landeschefin Mikl-Leitner betont indes: „Ein Stillstand kommt jedenfalls nicht in Frage.“",
+          "source": {
+            "id": "diepresse",
+            "name": "Die Presse"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-06T09:39:33.000Z",
+          "imageUrl": null,
+          "countryCode": "AT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:51:06.000Z"
+    },
+    {
+      "id": "a3ktVWKpfVhN",
+      "representative": {
+        "id": "a3ktVWKpfVhN",
+        "url": "https://orf.at/stories/3444238/",
+        "canonicalUrl": "https://orf.at/stories/3444238/",
+        "title": "Spionageverdacht: Ex-BND-Chef Hanning festgenommen",
+        "description": null,
+        "source": {
+          "id": "orf",
+          "name": "ORF"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T08:29:54.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "SmHFxZCOCg4j",
+          "url": "https://www.kleinezeitung.at/artikel/41330192/deutscher-ex-geheimdienstchef-hanning-festgenommen",
+          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41330192/deutscher-ex-geheimdienstchef-hanning-festgenommen",
+          "title": "Deutscher Ex-Geheimdienstchef Hanning festgenommen",
+          "description": "Außer dem 80-Jährigen wurde auch sein ehemaliger Büroleiter festgenommen.",
+          "source": {
+            "id": "kleinezeitung",
+            "name": "Kleine Zeitung"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-06T08:30:38.000Z",
+          "imageUrl": "https://img.kleinezeitung.at/public/politik/ufd9t9-hanning-august/alternates/BASE_LANDSCAPE/Hanning%20august",
+          "countryCode": "AT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:19:35.000Z"
+    },
+    {
+      "id": "YrThvVSYXI0Q",
+      "representative": {
+        "id": "YrThvVSYXI0Q",
+        "url": "https://orf.at/stories/3444234/",
+        "canonicalUrl": "https://orf.at/stories/3444234/",
+        "title": "US-Militäramokläufer soll vor Erschießungskommando kommen",
+        "description": null,
+        "source": {
+          "id": "orf",
+          "name": "ORF"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T07:17:10.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "iDm1_qXhmYTs",
+          "url": "https://www.kleinezeitung.at/artikel/41329534/amoklaeufer-soll-durch-us-militaer-hingerichtet-werden",
+          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41329534/amoklaeufer-soll-durch-us-militaer-hingerichtet-werden",
+          "title": "Amokläufer soll durch US-Erschießungskommando hingerichtet werden",
+          "description": "Der damalige Armeepsychiater Hasan, ein muslimischer US-Bürger palästinensischer Herkunft, hatte 2009 auf dem Armeestützpunkt Fort Hood im Bundesstaat Texas bei seinem Amoklauf zwölf Soldaten und einen Zivilisten erschossen sowie 30 Soldaten verletzt.",
+          "source": {
+            "id": "kleinezeitung",
+            "name": "Kleine Zeitung"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-06T01:57:52.000Z",
+          "imageUrl": "https://img.kleinezeitung.at/public/politik/rr5wrm-nidal-hasan/alternates/BASE_LANDSCAPE/Nidal%20Hasan%20",
+          "countryCode": "AT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T07:17:10.000Z"
+    },
+    {
+      "id": "fky7IkJejvvN",
+      "representative": {
+        "id": "fky7IkJejvvN",
+        "url": "https://www.kleinezeitung.at/artikel/41329548/israels-kriege-mehrere-fronten-kein-ende-in-sicht",
+        "canonicalUrl": "https://www.kleinezeitung.at/artikel/41329548/israels-kriege-mehrere-fronten-kein-ende-in-sicht",
+        "title": "Israels Kriege - Mehrere Fronten, kein Ende in Sicht",
+        "description": "Vor drei Jahren löste der terroristische Großangriff der islamistischen Hamas eine massive israelische Militäroperation in Gaza aus. Seitdem kämpft Jerusalem...",
+        "source": {
+          "id": "kleinezeitung",
+          "name": "Kleine Zeitung"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T03:05:01.000Z",
+        "imageUrl": "https://img.kleinezeitung.at/public/politik/ihsn92-92870011495347420bldonlinejpg/alternates/BASE_LANDSCAPE/92870011495347420_BLD_Online.jpg",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "kD43WOsc2LTl",
+          "url": "https://www.krone.at/4322524",
+          "canonicalUrl": "https://www.krone.at/4322524",
+          "title": "„Endloskriege“: Israel kämpft an mehreren Fronten",
+          "description": "Vor drei Jahren löste der terroristische Großangriff der islamistischen Hamas eine massive israelische Militäroperation in Gaza aus. Seitdem kämpft Jerusalem an mehreren Fronten gegen Gegner, die vom Iran gestützt werden. Analysten warnen vor „Endloskriegen“.",
+          "source": {
+            "id": "krone",
+            "name": "Kronen Zeitung"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-06T07:01:30.000Z",
+          "imageUrl": null,
+          "countryCode": "AT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T07:01:30.000Z"
+    },
+    {
+      "id": "hKh8Jj5CI6hy",
+      "representative": {
+        "id": "hKh8Jj5CI6hy",
+        "url": "https://www.derstandard.at/story/3000000342719/eva-maria-holzleitner-die-feministin-und-brueckenbauerin?ref=rss",
+        "canonicalUrl": "https://www.derstandard.at/story/3000000342719/eva-maria-holzleitner-die-feministin-und-brueckenbauerin",
+        "title": "Eva-Maria Holzleitner: Die Feministin und Brückenbauerin",
+        "description": "Mit erst 33 Jahren, aber jeder Menge politischer Erfahrung ist die Oberösterreicherin als künftige Co-Parteichefin der Gegenentwurf zu Gerhard Zeiler",
+        "source": {
+          "id": "derstandard",
+          "name": "Der Standard"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-05T15:09:22.000Z",
+        "imageUrl": "https://i.ds.at/dc_bkg/rs:fill:150:0/plain/lido-images/2026/10/05/1fdf265f-b703-49ae-b081-c726bc61b484.jpg",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "QAzvolqPHRLk",
+          "url": "https://www.kleinezeitung.at/artikel/41328671/eva-maria-holzleitner-eine-die-eigentlich-nicht-zur-verfuegung-stand",
+          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41328671/eva-maria-holzleitner-eine-die-eigentlich-nicht-zur-verfuegung-stand",
+          "title": "Eva-Maria Holzleitner: Eine, die eigentlich nicht zur Verfügung stand",
+          "description": "Nicht zum ersten Mal winkte Eva-Maria Holzleitner ab, eine Chefinnenrolle einzunehmen. Nun aber hat sie als ehemalige Rendi-Wagner-Unterstützerin diese dennoch über. Nur auf Zeit, wie sie betont.",
+          "source": {
+            "id": "kleinezeitung",
+            "name": "Kleine Zeitung"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-05T13:34:18.000Z",
+          "imageUrl": "https://img.kleinezeitung.at/public/incoming/1rft3h-kein-titel/alternates/BASE_LANDSCAPE/kein%20Titel",
+          "countryCode": "AT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T15:09:22.000Z"
+    },
+    {
+      "id": "oxIvoq36LR9l",
+      "representative": {
+        "id": "oxIvoq36LR9l",
+        "url": "https://www.derstandard.at/story/3000000342777/tiroler-oevp-politiker-tritt-nach-rassistischem-sager-auf-oktoberfest-zurueck?ref=rss",
+        "canonicalUrl": "https://www.derstandard.at/story/3000000342777/tiroler-oevp-politiker-tritt-nach-rassistischem-sager-auf-oktoberfest-zurueck",
+        "title": "Tiroler ÖVP-Politiker tritt nach rassistischem Sager auf Oktoberfest zurück",
+        "description": "Der Funktionär hatte auf dem Oktoberfest in München zu einem schwarzen Creator gesagt: \"Du bist hier nicht zu Hause\"",
+        "source": {
+          "id": "derstandard",
+          "name": "Der Standard"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-05T14:04:04.000Z",
+        "imageUrl": "https://i.ds.at/0xgCUg/rs:fill:150:0/plain/lido-images/2026/10/05/9382999a-d322-4c21-aef6-9a899152bdc7.jpg",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "jxJgT6YwjVaE",
+          "url": "https://www.kleinezeitung.at/artikel/41323068/oevp-funktionaer-sorgt-auf-dem-oktoberfest-fuer-rassismus-eklat",
+          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41323068/oevp-funktionaer-sorgt-auf-dem-oktoberfest-fuer-rassismus-eklat",
+          "title": "ÖVP-Funktionär tritt nach Rassismus-Eklat auf Oktoberfest zurück",
+          "description": "Ein Video auf Social Media sorgt für Aufregung, in dem ein Tiroler Gemüsebauer und ÖVP-Lokalpolitiker einen deutschen Influencer auf dem Münchner Oktoberfest mehrfach rassistisch beleidigt.",
+          "source": {
+            "id": "kleinezeitung",
+            "name": "Kleine Zeitung"
+          },
+          "sourceCountry": "AT",
+          "language": "de",
+          "publishedAt": "2026-10-05T13:46:39.000Z",
+          "imageUrl": "https://img.kleinezeitung.at/public/incoming/h1auvi-ap21695aptopixgermanyoktoberfest41158jpg/alternates/BASE_LANDSCAPE/AP21695_APTOPIX_Germany_Oktoberfest_41158.jpg",
+          "countryCode": "AT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T14:04:04.000Z"
+    },
+    {
+      "id": "quFjuJbujPnm",
+      "representative": {
+        "id": "quFjuJbujPnm",
+        "url": "https://www.krone.at/4322956",
+        "canonicalUrl": "https://www.krone.at/4322956",
+        "title": "Wirtschaftskammer verpasst sich neue Gehaltsregeln",
+        "description": "Sie kosteten Harald Mahrer den Job als WKO-Chef und sind aktuell ein Fall für das Höchstgericht: Jetzt sollen die Gehaltsregeln der Wirtschaftskammer neu aufgestellt werden. Auch neue Compliance-Regeln stehen auf dem Beschlussplan für das Präsidium am Mittwoch.",
+        "source": {
+          "id": "krone",
+          "name": "Kronen Zeitung"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:25:34.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:25:34.000Z"
+    },
+    {
+      "id": "13hps_IY8aAS",
+      "representative": {
+        "id": "13hps_IY8aAS",
+        "url": "https://orf.at/stories/3444285/",
+        "canonicalUrl": "https://orf.at/stories/3444285/",
+        "title": "Eine Tote und Verletzte bei Messerangriff an Schule in Istanbul",
+        "description": null,
+        "source": {
+          "id": "orf",
+          "name": "ORF"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:24:43.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:24:43.000Z"
+    },
+    {
+      "id": "i9qVA7Ar1SLj",
+      "representative": {
+        "id": "i9qVA7Ar1SLj",
+        "url": "https://orf.at/stories/3444284/",
+        "canonicalUrl": "https://orf.at/stories/3444284/",
+        "title": "WKO gibt sich neue Regeln für Gehälter und Compliance",
+        "description": null,
+        "source": {
+          "id": "orf",
+          "name": "ORF"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:20:58.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:20:58.000Z"
+    },
+    {
+      "id": "mbgZluDPzgDI",
+      "representative": {
+        "id": "mbgZluDPzgDI",
+        "url": "https://www.krone.at/4323098",
+        "canonicalUrl": "https://www.krone.at/4323098",
+        "title": "Minderjährige mit intimen Videos erpresst",
+        "description": "Ein jugendliches Paar machte intime Aufnahmen. Als sie in Streit gerieten, benutzte ein 17-Jähriger – gemeinsam mit einem Komplizen (21) – die Videos, um seine ehemalige Liebschaft zu erpressen. Zuerst verlangte das Duo 5000 Euro, danach weitere 10.000 Euro. Vor Gericht gaben sie die Erpressung zu.",
+        "source": {
+          "id": "krone",
+          "name": "Kronen Zeitung"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:20:11.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:20:11.000Z"
+    },
+    {
+      "id": "7K_4qx74ADUU",
+      "representative": {
+        "id": "7K_4qx74ADUU",
+        "url": "https://www.derstandard.at/story/3000000342848/neuwahlen-nur-bei-blauen-waehlern-beliebt-fpoe-kratzt-an-der-40-prozent-marke?ref=rss",
+        "canonicalUrl": "https://www.derstandard.at/story/3000000342848/neuwahlen-nur-bei-blauen-waehlern-beliebt-fpoe-kratzt-an-der-40-prozent-marke",
+        "title": "Neuwahlen nur bei blauen Wählern beliebt, FPÖ kratzt an der 40-Prozent-Marke",
+        "description": "Eine vorgezogene Nationalratswahl käme für ÖVP, SPÖ und Neos zur absoluten Unzeit. Die Regierung ist deshalb um Zusammenhalt bemüht, sprechen die Umfragen doch gegen sie",
+        "source": {
+          "id": "derstandard",
+          "name": "Der Standard"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:18:30.000Z",
+        "imageUrl": "https://i.ds.at/rdbqjQ/rs:fill:150:0/plain/lido-images/2026/09/01/e74b18ee-b910-4ec5-9b38-d19aa3ac77bc.jpg",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:18:30.000Z"
+    }
+  ]
+}

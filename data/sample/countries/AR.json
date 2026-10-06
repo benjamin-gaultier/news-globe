@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AR",
   "countryName": "Argentina",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
       "id": "uJ83x2h7Ykzc",
@@ -98,6 +98,107 @@
       "latestPublishedAt": "2026-10-06T12:51:57.000Z"
     },
     {
+      "id": "VU4jDrvBM2oO",
+      "representative": {
+        "id": "VU4jDrvBM2oO",
+        "url": "https://www.clarin.com/mundo/eeuu-senadores-democratas-acusan-trump-interferir-elecciones-brasil-ponen-argentina-antecedente_0_HimbKYgPS2.html",
+        "canonicalUrl": "https://www.clarin.com/mundo/eeuu-senadores-democratas-acusan-trump-interferir-elecciones-brasil-ponen-argentina-antecedente_0_HimbKYgPS2.html",
+        "title": "EE.UU.: senadores demócratas acusan a Trump de interferir en las elecciones de Brasil y ponen a la Argentina como antecedente",
+        "description": "Tres influyentes senadores acusaron al gobierno de Trump de seguir un “patrón profundamente preocupante de interferencia” electoral en América Latina. Mencionaron expresamente a la Argentina como uno de los antecedentes de injerencia en el caso de los comicios legislativos de 2025.",
+        "source": {
+          "id": "clarin",
+          "name": "Clarín"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:57:27.000Z",
+        "imageUrl": "https://www.clarin.com/img/2026/10/06/tdTQFjFeC_1200x630__1.jpg",
+        "countryCode": "AR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "U43SXXMT6bVw",
+          "url": "https://www.perfil.com/noticias/internacional/eeuu-senadores-democratas-acusan-a-trump-de-interferir-en-las-elecciones-de-brasil-y-mecionan-como-antecedente-a-la-argentina.phtml",
+          "canonicalUrl": "https://www.perfil.com/noticias/internacional/eeuu-senadores-democratas-acusan-a-trump-de-interferir-en-las-elecciones-de-brasil-y-mecionan-como-antecedente-a-la-argentina.phtml",
+          "title": "EE.UU: senadores demócratas acusan a Trump de interferir en las elecciones de Brasil y mecionan como antecedente a la Argentina",
+          "description": "Al apuntar al mandatario estadounidense hablaron de \"un patrón profundamente preocupante de interferencia\". Leer más",
+          "source": {
+            "id": "perfil",
+            "name": "Perfil"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:15:31.000Z",
+          "imageUrl": "https://fotos.perfil.com/2026/10/02/trim/540/304/trump-2339690.jpg",
+          "countryCode": "AR",
+          "regionCode": null
+        },
+        {
+          "id": "FBawYGSb3df_",
+          "url": "https://tn.com.ar/politica/2026/10/06/senadores-democratas-acusaron-a-trump-de-interferir-en-las-elecciones-de-brasil-y-recordaron-las-legislativas-argentinas-en-2025/",
+          "canonicalUrl": "https://tn.com.ar/politica/2026/10/06/senadores-democratas-acusaron-a-trump-de-interferir-en-las-elecciones-de-brasil-y-recordaron-las-legislativas-argentinas-en-2025/",
+          "title": "Senadores demócratas acusaron a Trump de interferir en las elecciones de Brasil y recordaron las legislativas de la Argentina en 2025",
+          "description": null,
+          "source": {
+            "id": "tn",
+            "name": "TN"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:56:59.000Z",
+          "imageUrl": "https://tn.com.ar/resizer/v2/TARHU7AMOVENTNONBEJ6YD5JBQ.jpg?auth=76db201ec4dbf57643cb175fa9b88df24d2b7acf3dc769715cb6896ccd1ff7c8",
+          "countryCode": "AR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T12:15:31.000Z"
+    },
+    {
+      "id": "OMlKNanhzPKv",
+      "representative": {
+        "id": "OMlKNanhzPKv",
+        "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid06102026/",
+        "canonicalUrl": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid06102026/",
+        "title": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 6 de octubre, minuto a minuto",
+        "description": "Ayer, la divisa oficial operó a $1540 para la venta en el Banco Nación; el dólar blue cotizó a $1545 para esa operación; qué pasa con el MEP y el CCL",
+        "source": {
+          "id": "lanacion",
+          "name": "La Nación"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:05:00.000Z",
+        "imageUrl": "https://resizer.glanacion.com/resizer/v2/IYEY5GXXZJFPRK5XWHSQY47HMA.jpg?auth=4ef2027c71a711410a369f8e88fddcf2c754735ea001c725cb7094bb89d09667&smart=true&width=2000&height=1333",
+        "countryCode": "AR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "4I23sOcuh-S_",
+          "url": "https://tn.com.ar/economia/2026/10/06/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-martes-6-de-octubre/",
+          "canonicalUrl": "https://tn.com.ar/economia/2026/10/06/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-martes-6-de-octubre/",
+          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este martes 6 de octubre",
+          "description": null,
+          "source": {
+            "id": "tn",
+            "name": "TN"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:54:33.000Z",
+          "imageUrl": "https://tn.com.ar/resizer/v2/QNFTEZJ2NFB77CWOCHGSYRXXBI.jpg?auth=0e065ed7ac9cc54f223e03048806b6b54d7a46fda9c1f5030609c5a109f09658",
+          "countryCode": "AR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:05:00.000Z"
+    },
+    {
       "id": "1vLQpoPZMmaC",
       "representative": {
         "id": "1vLQpoPZMmaC",
@@ -129,7 +230,7 @@
           },
           "sourceCountry": "AR",
           "language": "es",
-          "publishedAt": "2026-10-06T12:23:04.000Z",
+          "publishedAt": "2026-10-06T13:02:00.000Z",
           "imageUrl": "https://tn.com.ar/resizer/v2/3YRBIK4RCVHBPD5GCMUUGU32LQ.jpg?auth=32146d2c3b57e4a004b727e895e94a449ec39d5e97316fafc181867e3976a677",
           "countryCode": "AR",
           "regionCode": null
@@ -137,49 +238,49 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:59:26.000Z"
+      "latestPublishedAt": "2026-10-06T13:02:00.000Z"
     },
     {
-      "id": "OMlKNanhzPKv",
+      "id": "jPFHnaDbo16w",
       "representative": {
-        "id": "OMlKNanhzPKv",
-        "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid06102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid06102026/",
-        "title": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 6 de octubre, minuto a minuto",
-        "description": "Ayer, la divisa oficial operó a $1540 para la venta en el Banco Nación; el dólar blue cotizó a $1545 para esa operación; qué pasa con el MEP y el CCL",
+        "id": "jPFHnaDbo16w",
+        "url": "https://tn.com.ar/politica/2026/10/06/avanza-en-diputados-el-debate-por-la-soberania-de-malvinas-piden-la-expulsion-de-grabois-y-exponen-funcionarios-del-ejecutivo/",
+        "canonicalUrl": "https://tn.com.ar/politica/2026/10/06/avanza-en-diputados-el-debate-por-la-soberania-de-malvinas-piden-la-expulsion-de-grabois-y-exponen-funcionarios-del-ejecutivo/",
+        "title": "Tras el escándalo de Grabois, Diputados reanuda el debate por los proyectos sobre Malvinas",
+        "description": null,
         "source": {
-          "id": "lanacion",
-          "name": "La Nación"
+          "id": "tn",
+          "name": "TN"
         },
         "sourceCountry": "AR",
         "language": "es",
-        "publishedAt": "2026-10-06T12:54:34.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/IYEY5GXXZJFPRK5XWHSQY47HMA.jpg?auth=4ef2027c71a711410a369f8e88fddcf2c754735ea001c725cb7094bb89d09667&smart=true&width=2000&height=1333",
+        "publishedAt": "2026-10-06T08:53:00.000Z",
+        "imageUrl": "https://tn.com.ar/resizer/v2/XM7NSL267NC57JNHOHQBVOKYJ4.JPG?auth=a00de6991bb830997d235fce9d95fab7774c5d4e636a05626dd763849a9eaa69",
         "countryCode": "AR",
         "regionCode": null
       },
       "related": [
         {
-          "id": "4I23sOcuh-S_",
-          "url": "https://tn.com.ar/economia/2026/10/06/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-martes-6-de-octubre/",
-          "canonicalUrl": "https://tn.com.ar/economia/2026/10/06/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-martes-6-de-octubre/",
-          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este martes 6 de octubre",
-          "description": null,
+          "id": "T99-Ew1AnyWd",
+          "url": "https://www.perfil.com/noticias/politica/diputados-retoma-el-debate-por-malvinas-tras-el-escandalo-en-el-plenario.phtml",
+          "canonicalUrl": "https://www.perfil.com/noticias/politica/diputados-retoma-el-debate-por-malvinas-tras-el-escandalo-en-el-plenario.phtml",
+          "title": "Diputados retoma el debate por Malvinas tras el escándalo con Grabois en el plenario",
+          "description": "Las comisiones de Defensa, Legislación Penal y Relaciones Exteriores volverán a reunirse este martes para analizar el proyecto enviado por el Gobierno. El encuentro anterior terminó con fuertes cruces entre oficialistas y opositores y derivó en pedidos para sancionar a Juan Grabois. Leer más",
           "source": {
-            "id": "tn",
-            "name": "TN"
+            "id": "perfil",
+            "name": "Perfil"
           },
           "sourceCountry": "AR",
           "language": "es",
-          "publishedAt": "2026-10-06T12:54:33.000Z",
-          "imageUrl": "https://tn.com.ar/resizer/v2/QNFTEZJ2NFB77CWOCHGSYRXXBI.jpg?auth=0e065ed7ac9cc54f223e03048806b6b54d7a46fda9c1f5030609c5a109f09658",
+          "publishedAt": "2026-10-06T13:00:00.000Z",
+          "imageUrl": "https://fotos.perfil.com/2026/10/06/trim/540/304/escandalo-en-el-plenario-de-las-comisones-de-diputados-por-malvinas-2341858.jpg",
           "countryCode": "AR",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:54:34.000Z"
+      "latestPublishedAt": "2026-10-06T13:00:00.000Z"
     },
     {
       "id": "fpmUT5Tyg_TO",
@@ -264,48 +365,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:51:24.000Z"
-    },
-    {
-      "id": "VU4jDrvBM2oO",
-      "representative": {
-        "id": "VU4jDrvBM2oO",
-        "url": "https://www.clarin.com/mundo/eeuu-senadores-democratas-acusan-trump-interferir-elecciones-brasil-ponen-argentina-antecedente_0_HimbKYgPS2.html",
-        "canonicalUrl": "https://www.clarin.com/mundo/eeuu-senadores-democratas-acusan-trump-interferir-elecciones-brasil-ponen-argentina-antecedente_0_HimbKYgPS2.html",
-        "title": "EE.UU.: senadores demócratas acusan a Trump de interferir en las elecciones de Brasil y ponen a la Argentina como antecedente",
-        "description": "Tres influyentes senadores acusaron al gobierno de Trump de seguir un “patrón profundamente preocupante de interferencia” electoral en América Latina. Mencionaron expresamente a la Argentina como uno de los antecedentes de injerencia en el caso de los comicios legislativos de 2025.",
-        "source": {
-          "id": "clarin",
-          "name": "Clarín"
-        },
-        "sourceCountry": "AR",
-        "language": "es",
-        "publishedAt": "2026-10-06T10:57:27.000Z",
-        "imageUrl": "https://www.clarin.com/img/2026/10/06/tdTQFjFeC_1200x630__1.jpg",
-        "countryCode": "AR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "FBawYGSb3df_",
-          "url": "https://tn.com.ar/politica/2026/10/06/senadores-democratas-acusaron-a-trump-de-interferir-en-las-elecciones-de-brasil-y-recordaron-las-legislativas-argentinas-en-2025/",
-          "canonicalUrl": "https://tn.com.ar/politica/2026/10/06/senadores-democratas-acusaron-a-trump-de-interferir-en-las-elecciones-de-brasil-y-recordaron-las-legislativas-argentinas-en-2025/",
-          "title": "Senadores demócratas acusaron a Trump de interferir en las elecciones de Brasil y recordaron las legislativas de la Argentina en 2025",
-          "description": null,
-          "source": {
-            "id": "tn",
-            "name": "TN"
-          },
-          "sourceCountry": "AR",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:56:59.000Z",
-          "imageUrl": "https://tn.com.ar/resizer/v2/TARHU7AMOVENTNONBEJ6YD5JBQ.jpg?auth=76db201ec4dbf57643cb175fa9b88df24d2b7acf3dc769715cb6896ccd1ff7c8",
-          "countryCode": "AR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:56:59.000Z"
     },
     {
       "id": "xAvr7ePrGAI3",
@@ -434,166 +493,124 @@
       "latestPublishedAt": "2026-10-06T10:42:32.000Z"
     },
     {
-      "id": "4Ryxje0N13ze",
+      "id": "9fVXzOzhlxDZ",
       "representative": {
-        "id": "4Ryxje0N13ze",
-        "url": "https://www.infobae.com/politica/2026/10/05/zurdos-empobrecedores-corranse-que-estamos-intentando-darle-brillo-al-continente-el-mensaje-de-milei-para-celebrar-el-traspie-de-lula-en-brasil/",
-        "canonicalUrl": "https://www.infobae.com/politica/2026/10/05/zurdos-empobrecedores-corranse-que-estamos-intentando-darle-brillo-al-continente-el-mensaje-de-milei-para-celebrar-el-traspie-de-lula-en-brasil/",
-        "title": "\"Zurdos empobrecedores, córranse que estamos intentando darle brillo al continente\": el mensaje de Milei para celebrar el traspié de Lula en Brasil",
-        "description": "El presidente argentino usó las redes para atacar al izquierdismo y festejar la suba de los mercados tras la primera vuelta en Brasil, donde el senador conservador venció al mandatario pero deberá disputar el balotaje del 25 de octubre",
+        "id": "9fVXzOzhlxDZ",
+        "url": "https://tn.com.ar/sociedad/2026/10/06/natalia-lartitegui-espanola-de-26-anos-lleva-mas-de-9000-km-en-bicicleta-por-africa-hay-tramos-de-300-km-sin-sombra/",
+        "canonicalUrl": "https://tn.com.ar/sociedad/2026/10/06/natalia-lartitegui-espanola-de-26-anos-lleva-mas-de-9000-km-en-bicicleta-por-africa-hay-tramos-de-300-km-sin-sombra/",
+        "title": "Natalia Lartitegui, española de 26 años, lleva más de 9000 km en bicicleta por África: “Hay tramos de 300 km sin sombra”",
+        "description": null,
         "source": {
-          "id": "infobae",
-          "name": "Infobae"
+          "id": "tn",
+          "name": "TN"
         },
         "sourceCountry": "AR",
         "language": "es",
-        "publishedAt": "2026-10-05T17:33:28.000Z",
-        "imageUrl": "https://www.infobae.com/resizer/v2/TTJFEHOHUJEK3DKS4PCUBR2KBA.jpg?auth=91c2d76b952493064d8532255a2b953e91f03e4a3a71d5df27af1f2edea289d0&smart=true&width=4549&height=3032",
-        "countryCode": "AR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "bJYx9k-CAoUD",
-          "url": "https://www.perfil.com/noticias/politica/javier-milei-paso-de-felicitar-a-bolsonaro-a-ir-con-todo-contra-lula-zurdos-empobrecedores-corranse-tras-las-elecciones-de-brasil.phtml",
-          "canonicalUrl": "https://www.perfil.com/noticias/politica/javier-milei-paso-de-felicitar-a-bolsonaro-a-ir-con-todo-contra-lula-zurdos-empobrecedores-corranse-tras-las-elecciones-de-brasil.phtml",
-          "title": "Javier Milei pasó de felicitar a Bolsonaro a ir con todo contra Lula: “Zurdos empobrecedores, córranse” tras las elecciones de Brasil",
-          "description": "El Presidente argentino volvió a respaldar al candidato del Partido Liberal, quien obtuvo el 47,03% de los votos frente al 45,16% del mandatario brasileño. Ambos competirán por la Presidencia en el balotaje del 25 de octubre. Leer más",
-          "source": {
-            "id": "perfil",
-            "name": "Perfil"
-          },
-          "sourceCountry": "AR",
-          "language": "es",
-          "publishedAt": "2026-10-05T13:15:00.000Z",
-          "imageUrl": "https://fotos.perfil.com/2026/10/05/trim/540/304/javier-milei-y-flavio-bolsonaro-2341211.jpg",
-          "countryCode": "AR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T17:33:28.000Z"
-    },
-    {
-      "id": "d8CDLoDM1h2d",
-      "representative": {
-        "id": "d8CDLoDM1h2d",
-        "url": "https://www.lanacion.com.ar/el-mundo/elecciones-en-brasil-en-vivo-que-se-sabe-del-balotaje-entre-lula-y-bolsonaro-encuestas-y-ultimas-nid06102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/el-mundo/elecciones-en-brasil-en-vivo-que-se-sabe-del-balotaje-entre-lula-y-bolsonaro-encuestas-y-ultimas-nid06102026/",
-        "title": "Elecciones en Brasil, EN VIVO: qué se sabe del balotaje entre Lula y Bolsonaro, encuestas y últimas noticias",
-        "description": "El Tribunal Superior Electoral confirmó la segunda vuelta que enfrentará al actual presidente con el líder del Partido Liberal, quien quedó primero; el futuro del país vecino se definirá el domingo 25 de octubre",
-        "source": {
-          "id": "lanacion",
-          "name": "La Nación"
-        },
-        "sourceCountry": "AR",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:59:23.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/2UQ53DH22BGZJHIUDJV4ZXDUSI.jpg?auth=d81566af09bb52bf4a02aa2f04724efdb7a533a8d32fb69740e0c165022d5188&smart=true&width=2000&height=1333",
+        "publishedAt": "2026-10-06T13:10:32.000Z",
+        "imageUrl": "https://tn.com.ar/resizer/v2/5UYOOXNKCRB6PAANXQXVRC3SL4.png?auth=1a3e1dcb189326690eed2cb48d10d4b21e78da0594c080c798c3d7400342a68b",
         "countryCode": "AR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:59:23.000Z"
+      "latestPublishedAt": "2026-10-06T13:10:32.000Z"
     },
     {
-      "id": "jieHHr3R4Yci",
+      "id": "F-pIIl0gMfA-",
       "representative": {
-        "id": "jieHHr3R4Yci",
-        "url": "https://www.lanacion.com.ar/sociedad/se-aproxima-un-nuevo-ingreso-de-aire-frio-desde-el-sur-que-provocara-en-48-horas-un-marcado-nid06102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/sociedad/se-aproxima-un-nuevo-ingreso-de-aire-frio-desde-el-sur-que-provocara-en-48-horas-un-marcado-nid06102026/",
-        "title": "Se aproxima un nuevo ingreso de aire frío desde el sur que provocará en 48 horas un marcado contraste térmico, lluvias abundantes y registros de agua de hasta 100 mm: las zonas afectadas",
-        "description": "El descenso de las temperaturas se hará especialmente evidente el miércoles en el centro y sur del país; el noreste concentrará las mayores precipitaciones, con acumulados que podrían superar ese umbral hacia el sábado",
+        "id": "F-pIIl0gMfA-",
+        "url": "https://tn.com.ar/internacional/2026/10/06/estados-unidos-y-la-oms-elevan-la-presion-para-que-rusia-comparta-informacion-sobre-el-presunto-brote-de-peste-neumonica/",
+        "canonicalUrl": "https://tn.com.ar/internacional/2026/10/06/estados-unidos-y-la-oms-elevan-la-presion-para-que-rusia-comparta-informacion-sobre-el-presunto-brote-de-peste-neumonica/",
+        "title": "Estados Unidos y la OMS elevan la presión para que Rusia comparta información sobre el presunto brote de peste neumónica",
+        "description": null,
         "source": {
-          "id": "lanacion",
-          "name": "La Nación"
+          "id": "tn",
+          "name": "TN"
         },
         "sourceCountry": "AR",
         "language": "es",
-        "publishedAt": "2026-10-06T12:59:21.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/DBVWG4V5ANAMJJMJBLYMEWQL3U.png?auth=dc5668563e9e136aa9ad81c89f4d52d6268e27eba8d51d3f1dd5aaab036ae028&smart=true&width=1200&height=800",
+        "publishedAt": "2026-10-06T13:08:39.000Z",
+        "imageUrl": "https://tn.com.ar/resizer/v2/KHJQOHY2EVEEPMFTALO6U4IB2Q.979fvp?auth=3c90924bb16a892ec94c8d03cd4f6697719fe1647d3f470a70abeccabb04df42",
         "countryCode": "AR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:59:21.000Z"
+      "latestPublishedAt": "2026-10-06T13:08:39.000Z"
     },
     {
-      "id": "duYiz7dHQmkM",
+      "id": "E-Q6EMGUymEO",
       "representative": {
-        "id": "duYiz7dHQmkM",
-        "url": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicoanalista-sobre-el-presente-la-vida-deja-de-tener-sentido-cuando-alguien-busca-la-nid04102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicoanalista-sobre-el-presente-la-vida-deja-de-tener-sentido-cuando-alguien-busca-la-nid04102026/",
-        "title": "Gabriel Rolón, psicoanalista, sobre el presente: “La vida deja de tener sentido cuando alguien busca la felicidad en el pasado”",
-        "description": "En una entrevista para LA NACION, el psicólogo analizó la importancia de esa construcción en el presente; aseguró que las personas deben abandonar la espera de un destino idealizado para abrazar la realidad",
+        "id": "E-Q6EMGUymEO",
+        "url": "https://www.lanacion.com.ar/sociedad/el-comunicado-oficial-de-nordelta-tras-la-difusion-de-los-videos-de-un-vecino-que-disparo-a-los-nid06102026/",
+        "canonicalUrl": "https://www.lanacion.com.ar/sociedad/el-comunicado-oficial-de-nordelta-tras-la-difusion-de-los-videos-de-un-vecino-que-disparo-a-los-nid06102026/",
+        "title": "El comunicado oficial de Nordelta tras la difusión de los videos de un vecino que disparó a los carpinchos del barrio",
+        "description": "La administración del complejo repudió el accionar de uno de los habitantes; el hombre fue identificado como Sebastián Favre, expiloto de Aerolíneas Argentinas",
         "source": {
           "id": "lanacion",
           "name": "La Nación"
         },
         "sourceCountry": "AR",
         "language": "es",
-        "publishedAt": "2026-10-06T12:59:11.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/RWSKZQGI3VHWZH5ZJWI3XP4ZD4.jpg?auth=1171a73c101f7d38fd73e43f9428b2b6c7e949f84a862dddbbcd931d73661407&smart=true&width=2000&height=1333",
+        "publishedAt": "2026-10-06T13:07:27.000Z",
+        "imageUrl": "https://resizer.glanacion.com/resizer/v2/HMFOSO4OJNGU3A4NNKQTJAYTFE.jpg?auth=cf4d690f624ddc3bb21833550f749dad99495c4957c927d29bef1a6fc2064570&smart=true&width=453&height=317",
         "countryCode": "AR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:59:11.000Z"
+      "latestPublishedAt": "2026-10-06T13:07:27.000Z"
     },
     {
-      "id": "4rKulPPsudb4",
+      "id": "JclJOxAPDXxW",
       "representative": {
-        "id": "4rKulPPsudb4",
-        "url": "https://www.lanacion.com.ar/sociedad/super-nino-2026-que-se-sabe-del-fenomeno-que-cambiara-por-completo-el-clima-en-la-argentina-y-nid05102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/sociedad/super-nino-2026-que-se-sabe-del-fenomeno-que-cambiara-por-completo-el-clima-en-la-argentina-y-nid05102026/",
-        "title": "Súper Niño 2026: qué se sabe del fenómeno que cambiará por completo el clima en la Argentina y llegará a su pico máximo",
-        "description": "Este escenario mantendrá la amenaza de lluvias abundantes, olas de calor y tormentas severas hasta febrero del año próximo; el Gobierno informó cómo prepararse y qué tener en cuenta en el avance de la primavera",
+        "id": "JclJOxAPDXxW",
+        "url": "https://tn.com.ar/show/hollywood/2026/10/06/salio-a-la-luz-el-terrible-drama-detras-de-la-familia-de-fiona-la-sobrina-de-rob-lowe-que-murio-a-los-13-anos/",
+        "canonicalUrl": "https://tn.com.ar/show/hollywood/2026/10/06/salio-a-la-luz-el-terrible-drama-detras-de-la-familia-de-fiona-la-sobrina-de-rob-lowe-que-murio-a-los-13-anos/",
+        "title": "Salió a la luz el terrible drama detrás de la familia de Fiona, la sobrina de Rob Lowe que murió a los 13 años",
+        "description": null,
         "source": {
-          "id": "lanacion",
-          "name": "La Nación"
+          "id": "tn",
+          "name": "TN"
         },
         "sourceCountry": "AR",
         "language": "es",
-        "publishedAt": "2026-10-06T12:59:08.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/RBYLIIAH4ZEO3JXQP6NWPKL64I.png?auth=8baf680ac209d93fb9f93ffd51096e2a407a42b82854be969d869eaafb5b1775&smart=true&width=1536&height=1024",
+        "publishedAt": "2026-10-06T13:06:39.000Z",
+        "imageUrl": "https://tn.com.ar/resizer/v2/IJ6Y6NJPINDUTLOREOEYVHXPDE.jpg?auth=aa46316ffa71a81f8452fe3e4f5e476e06b52556f7a5ebd97f03ec5318c13662",
         "countryCode": "AR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:59:08.000Z"
+      "latestPublishedAt": "2026-10-06T13:06:39.000Z"
     },
     {
-      "id": "syf_9pVH4Xud",
+      "id": "a12IuNL3IPug",
       "representative": {
-        "id": "syf_9pVH4Xud",
-        "url": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicoanalista-sobre-las-parejas-a-toda-media-naranja-le-falta-al-menos-un-gajo-porque-nid05102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicoanalista-sobre-las-parejas-a-toda-media-naranja-le-falta-al-menos-un-gajo-porque-nid05102026/",
-        "title": "Gabriel Rolón, psicoanalista, sobre las parejas: “A toda media naranja le falta al menos un gajo, porque esa ilusión de completud no está”",
-        "description": "En una entrevista exclusiva para LN+, el psicólogo y escritor reflexionó sobre la naturaleza humana y propuso una mirada cruda sobre el amor, la muerte y la persistencia de los mandatos sociales",
+        "id": "a12IuNL3IPug",
+        "url": "https://tn.com.ar/deportes/automovilismo/2026/10/06/entradas-para-el-motogp-2027-en-buenos-aires-cuando-salen-a-la-venta-y-como-comprar/",
+        "canonicalUrl": "https://tn.com.ar/deportes/automovilismo/2026/10/06/entradas-para-el-motogp-2027-en-buenos-aires-cuando-salen-a-la-venta-y-como-comprar/",
+        "title": "Entradas para el MotoGP 2027 en Buenos Aires: cuándo salen a la venta y cómo comprar",
+        "description": null,
         "source": {
-          "id": "lanacion",
-          "name": "La Nación"
+          "id": "tn",
+          "name": "TN"
         },
         "sourceCountry": "AR",
         "language": "es",
-        "publishedAt": "2026-10-06T12:59:02.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/24XO7QCTKBDYXFGG4WENNIDOV4.png?auth=2edc3da6bd2cfb9435d8b20bd9a31ae1eec25a55f8b51af139853e1dd9839483&smart=true&width=2000&height=1333",
+        "publishedAt": "2026-10-06T13:06:00.000Z",
+        "imageUrl": "https://tn.com.ar/resizer/v2/TUD2N5HTSRFJHPV6MF3IKRNK3U.png?auth=743b4062b14a8169f25633b4374ebcea2faf890134ef98e4f5e7f850be63785d",
         "countryCode": "AR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:59:02.000Z"
+      "latestPublishedAt": "2026-10-06T13:06:00.000Z"
     }
   ]
 }

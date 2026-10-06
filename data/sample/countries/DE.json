@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DE",
   "countryName": "Germany",
-  "updatedAt": "2026-10-06T13:05:38.879Z",
+  "updatedAt": "2026-10-06T13:27:49.082Z",
   "clusters": [
     {
       "id": "j1PnLPD2nIDH",
@@ -24,6 +24,23 @@
         "regionCode": null
       },
       "related": [
+        {
+          "id": "Jmjcd_AOeiag",
+          "url": "https://www.sueddeutsche.de/politik/landtag-sachsen-anhalt-landtagspraesident-rausch-afd-li.3558847",
+          "canonicalUrl": "https://www.sueddeutsche.de/politik/landtag-sachsen-anhalt-landtagspraesident-rausch-afd-li.3558847",
+          "title": "Sachsen-Anhalt: AfD stellt zum ersten Mal Landtagspräsidenten",
+          "description": "Der 35-jährige Abgeordnete Tobias Rausch wird in Magdeburg mit überraschend deutlicher Mehrheit in das protokollarisch höchste Amt von Sachsen-Anhalt gewählt: Die Stimmen kamen nicht nur aus den Reihen von AfD und BSW.",
+          "source": {
+            "id": "sz",
+            "name": "Süddeutsche Zeitung"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T13:08:36.000Z",
+          "imageUrl": "https://www.sueddeutsche.de/2026/10/06/0af54ae5-c67e-4019-a197-2fa45ebf1db2.jpg?rect=162%2C0%2C2585%2C1939&width=1000&fm=jpg&q=60",
+          "countryCode": "DE",
+          "regionCode": null
+        },
         {
           "id": "b6ZdJHQ0MB0l",
           "url": "https://www.n-tv.de/politik/Gruene-nach-Rausch-Wahl-Heute-wurde-eine-Grenze-ueberschritten-id31387465.html",
@@ -91,28 +108,11 @@
           "imageUrl": "https://media0.faz.net/image/9f19ef7c3e2c/w2675h1505x0y30/202610/43601.0.2633278856/tobias-rausch-am-dienstag-im.webp",
           "countryCode": "DE",
           "regionCode": null
-        },
-        {
-          "id": "OxYcUlsTE1fZ",
-          "url": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-landtagspraesident-tobias-rausch-li.3556472",
-          "canonicalUrl": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-landtagspraesident-tobias-rausch-li.3556472",
-          "title": "Liveblog Sachsen-Anhalt: Tobias Rausch zum ersten AfD-Landtagspräsidenten gewählt",
-          "description": "Der 35-Jährige erhält 48 von 82 abgegebenen Stimmen und damit vier mehr, als AfD und BSW zusammen haben. In der Sitzung provoziert AfD-Fraktionschef Ulrich Siegmund mit einer Botschaft auf seiner Tasse.",
-          "source": {
-            "id": "sz",
-            "name": "Süddeutsche Zeitung"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T10:40:14.000Z",
-          "imageUrl": "https://www.sueddeutsche.de/2026/10/06/a2b91d5e-46b5-4e5d-8a0b-725a4b22ff26.jpg?rect=222%2C0%2C3556%2C2667&width=1000&fm=jpg&q=60",
-          "countryCode": "DE",
-          "regionCode": null
         }
       ],
       "outletCount24h": 6,
       "outletCount": 6,
-      "latestPublishedAt": "2026-10-06T12:12:21.000Z"
+      "latestPublishedAt": "2026-10-06T13:08:36.000Z"
     },
     {
       "id": "CqjQqYFdypSL",
@@ -368,48 +368,6 @@
       "latestPublishedAt": "2026-10-06T11:51:27.000Z"
     },
     {
-      "id": "gUZS5v-JG031",
-      "representative": {
-        "id": "gUZS5v-JG031",
-        "url": "https://www.sueddeutsche.de/politik/news-iran-nahost-krieg-iran-usa-grossbritannien-gefahr-drohnenangriff-huthi-jemen-saudi-arabien-li.3530668",
-        "canonicalUrl": "https://www.sueddeutsche.de/politik/news-iran-nahost-krieg-iran-usa-grossbritannien-gefahr-drohnenangriff-huthi-jemen-saudi-arabien-li.3530668",
-        "title": "Newsblog zum Nahost-Krieg: Huthi melden Angriffe auf Ziele in Saudi-Arabien",
-        "description": "Darunter seien der internationale Flughafen in Riad und Abha, eine Erdöl-Raffinerie sowie ein Militärstützpunkt. Pakistan, Saudi-Arabien und die Türkei beschließen die Verlegung gemeinsamer Truppen nach Saudi-Arabien.",
-        "source": {
-          "id": "sz",
-          "name": "Süddeutsche Zeitung"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T08:37:54.000Z",
-        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/5fc3fa3d-681b-4983-b4f6-fbc9b1337c5b.jpg?rect=1201%2C897%2C1454%2C1090&width=1000&fm=jpg&q=60",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "HW7xxoCBlVwS",
-          "url": "https://www.n-tv.de/politik/Tuerkei-und-Pakistan-schicken-Truppen-nach-Saudi-Arabien-id31384347.html",
-          "canonicalUrl": "https://www.n-tv.de/politik/Tuerkei-und-Pakistan-schicken-Truppen-nach-Saudi-Arabien-id31384347.html",
-          "title": "Reaktion auf Angriffe der Huthis: Türkei und Pakistan schicken Truppen nach Saudi-Arabien",
-          "description": "Die sogenannte Mekka-Allianz aus Pakistan, Saudi-Arabien und der Türkei wertet den Angriff auf ein Mitgliedsland als Angriff auf alle. Die zunehmenden Angriffe der Huthi-Miliz - auch auf wichtige Stätten des Islams - führen nun zu einer ersten Truppenentsendung.",
-          "source": {
-            "id": "ntv",
-            "name": "n-tv"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-05T19:40:50.000Z",
-          "imageUrl": "https://www.n-tv.de/img/31384353/1791234225/Img_4_3/250/AFP__20261005__D2B78NQ__v1__HighRes__SaudiTurkeyPakistanDiplomacyDefence.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:37:54.000Z"
-    },
-    {
       "id": "KaIL2FuUemd2",
       "representative": {
         "id": "KaIL2FuUemd2",
@@ -494,6 +452,102 @@
       "latestPublishedAt": "2026-10-05T19:39:18.000Z"
     },
     {
+      "id": "YsJWB4YemDKC",
+      "representative": {
+        "id": "YsJWB4YemDKC",
+        "url": "https://www.n-tv.de/politik/Le-Pen-geht-mit-radikalem-Sparversprechen-in-den-Wahlkampf-id31387748.html",
+        "canonicalUrl": "https://www.n-tv.de/politik/Le-Pen-geht-mit-radikalem-Sparversprechen-in-den-Wahlkampf-id31387748.html",
+        "title": "140 Milliarden in fünf Jahren: Le Pen geht mit radikalem Sparversprechen in den Wahlkampf",
+        "description": "Frankreich ist hoch verschuldet und bricht die Regeln der EU deutlich. Im Wahlkampf tritt Rechtspopulistin Le Pen nun als Sparerin auf und kündigt an, den Haushalt radikal zu kürzen - vor allem um Ausgaben bei der Einwanderungspolitik.",
+        "source": {
+          "id": "ntv",
+          "name": "n-tv"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:19:18.000Z",
+        "imageUrl": "https://www.n-tv.de/img/31387778/1791297387/Img_4_3/250/623569858.jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:19:18.000Z"
+    },
+    {
+      "id": "Z_cWAVi8ehfB",
+      "representative": {
+        "id": "Z_cWAVi8ehfB",
+        "url": "https://www.n-tv.de/politik/Maulwuerfe-und-Sicherheitsluecken-der-BND-blickt-auf-einige-Fehltritte-zurueck-id31387510.html",
+        "canonicalUrl": "https://www.n-tv.de/politik/Maulwuerfe-und-Sicherheitsluecken-der-BND-blickt-auf-einige-Fehltritte-zurueck-id31387510.html",
+        "title": "Hanning unter Spionageverdacht: Maulwürfe und Sicherheitslücken - der BND blickt auf einige Fehltritte zurück",
+        "description": "Der ehemalige Chef des Bundesnachrichtendienstes ist verhaftet worden. Es ist nicht die einzige Affäre in Deutschlands Auslandsgeheimdienst. Verratsfälle beim BND reichen bis in die frühen 1960er Jahre zurück.",
+        "source": {
+          "id": "ntv",
+          "name": "n-tv"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:18:29.000Z",
+        "imageUrl": "https://www.n-tv.de/img/31387679/1791296649/Img_4_3/250/623571217.jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:18:29.000Z"
+    },
+    {
+      "id": "d_ESgL-GXvTH",
+      "representative": {
+        "id": "d_ESgL-GXvTH",
+        "url": "https://www.welt.de/politik/deutschland/video6ac4dcde73cfe42b5b025cb5/ermittlungen-gegen-ex-bnd-chef-wir-reden-hier-ueber-ungefaehr-zweitausend-dokumente-mit-vertraulichen-informationen.html",
+        "canonicalUrl": "https://www.welt.de/politik/deutschland/video6ac4dcde73cfe42b5b025cb5/ermittlungen-gegen-ex-bnd-chef-wir-reden-hier-ueber-ungefaehr-zweitausend-dokumente-mit-vertraulichen-informationen.html",
+        "title": "„Wir reden hier über ungefähr zweitausend Dokumente mit vertraulichen Informationen“",
+        "description": "Der ehemalige BND-Präsident August Hanning ist wegen Spionageverdachts festgenommen worden. „Das ist absolut einzigartig in der Geschichte der Bundesrepublik“, so WELT-Investigativ-Ressortleiter Alexander Dinger.",
+        "source": {
+          "id": "welt",
+          "name": "WELT"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:10:16.000Z",
+        "imageUrl": "https://images.welt.de/6ac4dcde73cfe42b5b025cb5/ab34f0552d379d988c78e04f69d2f22b/ci16x9-w1200/dpapicture-2-62227977-jbh-jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:10:16.000Z"
+    },
+    {
+      "id": "qUhUMHurCO2B",
+      "representative": {
+        "id": "qUhUMHurCO2B",
+        "url": "https://www.n-tv.de/politik/RTL-ntv-Trendbarometer-Wuest-beliebter-als-Soeder-besonders-bei-Gruenen-id31387056.html",
+        "canonicalUrl": "https://www.n-tv.de/politik/RTL-ntv-Trendbarometer-Wuest-beliebter-als-Soeder-besonders-bei-Gruenen-id31387056.html",
+        "title": "RTL/ntv-Trendbarometer: Wüst oder Söder? Wähler haben klaren Kanzler-Favoriten",
+        "description": "Bundeskanzler Merz bleibt im Amt, doch seine Autorität ist angeknackst und seine Beliebtheit im Keller. Die Nachfolge-Diskussion läuft seit Wochen. Das Trendbarometer zeigt eine klare Tendenz.",
+        "source": {
+          "id": "ntv",
+          "name": "n-tv"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:09:22.000Z",
+        "imageUrl": "https://www.n-tv.de/img/31387103/1791291659/Img_4_3/250/621649765.jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:09:22.000Z"
+    },
+    {
       "id": "CH0MsLKmXIoM",
       "representative": {
         "id": "CH0MsLKmXIoM",
@@ -542,6 +596,30 @@
       "latestPublishedAt": "2026-10-06T12:56:48.000Z"
     },
     {
+      "id": "jcoy4mDpewBy",
+      "representative": {
+        "id": "jcoy4mDpewBy",
+        "url": "https://www.sueddeutsche.de/politik/spanien-wahl-2026-neuwahlen-alberto-nunez-feijoo-profil-li.3559062",
+        "canonicalUrl": "https://www.sueddeutsche.de/politik/spanien-wahl-2026-neuwahlen-alberto-nunez-feijoo-profil-li.3559062",
+        "title": "Spaniens Opposition: Große Koalition mit Pedro Sánchez? Nicht mit ihm",
+        "description": "Alberto Núñez Feijóo und sein konservativer Partido Popular können laut Umfragen auf einen Sieg bei der Parlamentswahl am 29. November hoffen. Um zu regieren, würde er sich wohl Hilfe rechts außen holen.",
+        "source": {
+          "id": "sz",
+          "name": "Süddeutsche Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:56:39.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/69df8941-cb24-41fa-a56b-5cf7f7fdc44a.jpg?rect=194%2C0%2C3112%2C2334&width=1000&fm=jpg&q=60",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:56:39.000Z"
+    },
+    {
       "id": "hc-Do-HnoZFm",
       "representative": {
         "id": "hc-Do-HnoZFm",
@@ -564,102 +642,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:53:59.000Z"
-    },
-    {
-      "id": "Y3sYQlXxD87Q",
-      "representative": {
-        "id": "Y3sYQlXxD87Q",
-        "url": "https://www.welt.de/politik/deutschland/plus6ac3572a95c283447e8628cc/bildungskrise-diese-zahlen-offenbaren-wo-es-bei-der-bildung-in-den-kitas-hapert.html",
-        "canonicalUrl": "https://www.welt.de/politik/deutschland/plus6ac3572a95c283447e8628cc/bildungskrise-diese-zahlen-offenbaren-wo-es-bei-der-bildung-in-den-kitas-hapert.html",
-        "title": "Diese Zahlen offenbaren, wo es bei der Bildung in den Kitas hapert",
-        "description": "Jeder Vierte findet, dass die Kitas in Deutschland nicht gut auf die Schule vorbereiten. Das zeigt eine Studie des Ifo‑Instituts. Fast die Hälfte der Bevölkerung will nicht, dass Familien mit Migrationshintergrund bei der Platzvergabe bevorzugt werden.",
-        "source": {
-          "id": "welt",
-          "name": "WELT"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:52:00.000Z",
-        "imageUrl": "https://images.welt.de/6ac3572a95c283447e8628cc/c7f82731f19917cb699cb9724bbedf4f-master/ci23x11-w1200/gettyimages-2271349842-jpg",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:52:00.000Z"
-    },
-    {
-      "id": "FZyxa67nn-SG",
-      "representative": {
-        "id": "FZyxa67nn-SG",
-        "url": "https://www.sueddeutsche.de/projekte/artikel/politik/wirtschaftsministerin-reiche-interview-erneuerbare-innovation-e899175/",
-        "canonicalUrl": "https://www.sueddeutsche.de/projekte/artikel/politik/wirtschaftsministerin-reiche-interview-erneuerbare-innovation-e899175/",
-        "title": "Wirtschaftsministerin: „Wir müssen wieder gewinnen wollen“",
-        "description": "Die Deutschen, findet Bundeswirtschaftsministerin Katherina Reiche, reden Erfolge gern kaputt. Ein Gespräch über Aufbruch, die Kosten des kommenden Winters – und das Trainertalent des Kanzlers.",
-        "source": {
-          "id": "sz",
-          "name": "Süddeutsche Zeitung"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:49:00.000Z",
-        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/914ea95e-a62d-49f3-bb6f-dc91795080ab.jpg?rect=222%2C0%2C3556%2C2667&width=1000&fm=jpg&q=60",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:49:00.000Z"
-    },
-    {
-      "id": "UmCpEhQKcfSb",
-      "representative": {
-        "id": "UmCpEhQKcfSb",
-        "url": "https://www.faz.net/aktuell/politik/inland/ex-bnd-chef-hanning-der-ruestige-aufstocker-201293046.html",
-        "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/ex-bnd-chef-hanning-der-ruestige-aufstocker-201293046.html",
-        "title": "Festnahme Hannings: Der rüstige Aufstocker – Mission impossible",
-        "description": "Eine neue Dimension: Ein ehemaliger Präsident des BND und ein Dauer-Büroleiter stehen im Verdacht der Spionage. Der Schaden ist kaum zu ermessen.",
-        "source": {
-          "id": "faz",
-          "name": "Frankfurter Allgemeine"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:39:59.000Z",
-        "imageUrl": "https://media0.faz.net/image/6cb2433c1080/w6144h3456x0y640/202610/43601.0.2633474020/unter-spionageverdacht-in.webp",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:39:59.000Z"
-    },
-    {
-      "id": "CnR8qKWt7pve",
-      "representative": {
-        "id": "CnR8qKWt7pve",
-        "url": "https://www.sueddeutsche.de/politik/ruestung-frankreich-testet-modernisierte-atomrakete-li.3559443",
-        "canonicalUrl": "https://www.sueddeutsche.de/politik/ruestung-frankreich-testet-modernisierte-atomrakete-li.3559443",
-        "title": "Rüstung: Frankreich testet modernisierte Atomrakete",
-        "description": null,
-        "source": {
-          "id": "sz",
-          "name": "Süddeutsche Zeitung"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:38:16.000Z",
-        "imageUrl": null,
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:38:16.000Z"
     }
   ]
 }
