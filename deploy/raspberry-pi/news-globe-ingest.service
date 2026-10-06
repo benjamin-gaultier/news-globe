@@ -1,6 +1,7 @@
 # systemd unit: runs the ingest every 15 minutes and publishes to Cloudflare KV.
-# Install: see README "Deploy" section. Adjust User/WorkingDirectory and the
-# corepack path (`command -v corepack`) if yours differ.
+# Install: see README "Ingest on a Raspberry Pi". Assumes user `pi` with Node in
+# ~/.local/node (nodejs.org tarball) and pnpm shims from `corepack enable
+# --install-directory ~/.local/bin`; the README's sed command swaps in your user.
 [Unit]
 Description=news-globe ingest (RSS -> JSON -> Cloudflare KV)
 Wants=network-online.target
@@ -12,9 +13,10 @@ User=pi
 WorkingDirectory=/home/pi/news-globe
 # Cloudflare credentials etc. (the ingest also reads this file itself).
 EnvironmentFile=/home/pi/news-globe/.env
+Environment=PATH=/home/pi/.local/bin:/home/pi/.local/node/bin:/usr/local/bin:/usr/bin:/bin
 Environment=NODE_ENV=production
 Environment=COREPACK_ENABLE_DOWNLOAD_PROMPT=0
-ExecStart=/usr/bin/corepack pnpm ingest:watch
+ExecStart=/home/pi/.local/bin/pnpm ingest:watch
 Restart=on-failure
 RestartSec=60
 # A Pi has little RAM to spare; the ingest peaks well under this.

@@ -92,27 +92,49 @@ pnpm --filter @news-globe/web preview:worker   # local Worker (uses a local KV)
 
 ### Ingest on a Raspberry Pi
 
-1. Create an API token at dash.cloudflare.com → My Profile → API Tokens → *Create custom token*. Give it one permission, **Account → Workers KV Storage → Edit**, limited to your account.
-2. On the Pi (64-bit Raspberry Pi OS, Node ≥ 20.11):
+Runs on a Raspberry Pi 4 (64-bit Raspberry Pi OS / Debian 13). Steps 2–4 need no sudo.
+
+1. Create an API token at dash.cloudflare.com → My Profile → API Tokens → *Create custom token*. Give it one permission, **Account → Workers KV Storage → Edit**, limited to your account. (It is a user token: check it with `/user/tokens/verify`, not the account endpoint.)
+2. Install Node 24 from the official tarball into your home folder (Debian's `nodejs` package is 20.x and lacks corepack):
    ```bash
-   git clone https://github.com/benjamin-gaultier/news-globe.git ~/news-globe
-   cd ~/news-globe
-   sudo corepack enable
-   pnpm install
-   cp .env.example .env && nano .env      # paste the token into CLOUDFLARE_API_TOKEN
-   pnpm ingest                            # should end with "[publish] uploaded ... to KV"
+   V=v24.21.0; F=node-$V-linux-arm64.tar.xz
+   cd /tmp && curl -fsSLO https://nodejs.org/dist/$V/$F
+   curl -fsSL https://nodejs.org/dist/$V/SHASUMS256.txt | grep " $F$" | sha256sum -c -
+   mkdir -p ~/.local/node && tar -xJf $F -C ~/.local/node --strip-components=1
+   echo 'export PATH=$HOME/.local/bin:$HOME/.local/node/bin:$PATH' >> ~/.profile && . ~/.profile
+   mkdir -p ~/.local/bin && corepack enable --install-directory ~/.local/bin
    ```
-3. Install the service ([deploy/raspberry-pi/news-globe-ingest.service](deploy/raspberry-pi/news-globe-ingest.service)). Adjust `User` and the paths if you're not user `pi`.
+3. The repo is private, so give the Pi a **read-only deploy key** for this repo only:
    ```bash
-   sudo cp deploy/raspberry-pi/news-globe-ingest.service /etc/systemd/system/
+   ssh-keygen -t ed25519 -N "" -f ~/.ssh/news_globe_deploy
+   printf "Host github-news-globe
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/news_globe_deploy
+  IdentitiesOnly yes
+" >> ~/.ssh/config
+   # then add ~/.ssh/news_globe_deploy.pub on GitHub (repo → Settings → Deploy keys, write access off),
+   # or from a machine with gh: gh repo deploy-key add news_globe_deploy.pub --title "pi (read-only)"
+   git clone github-news-globe:benjamin-gaultier/news-globe.git ~/news-globe
+   cd ~/news-globe && pnpm install --frozen-lockfile
+   cp .env.example .env && chmod 600 .env && nano .env   # paste the token into CLOUDFLARE_API_TOKEN
+   pnpm ingest                                         # should end with "[publish] uploaded ... to KV"
+   ```
+   When moving the ingest from another machine, copy its `data/.cache/` over first. The Pi then knows when each feed was last fetched (and its ETag), so the 15-minute limit holds across the switch.
+4. Install the service. [deploy/raspberry-pi/news-globe-ingest.service](deploy/raspberry-pi/news-globe-ingest.service) assumes user `pi`; replace `pi` with your user name:
+   ```bash
+   sed "s#/home/pi#$HOME#g; s#^User=pi#User=$USER#" deploy/raspberry-pi/news-globe-ingest.service > /tmp/news-globe-ingest.service
+   sudo cp /tmp/news-globe-ingest.service /etc/systemd/system/
    sudo systemctl daemon-reload
    sudo systemctl enable --now news-globe-ingest
    journalctl -u news-globe-ingest -f
    ```
 
+Only one machine should run the ingest. Two pollers would double the requests to every feed.
+
 Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` and `CLOUDFLARE_API_TOKEN` are all set, either in the environment or in the repo-root `.env`. If none are set, the ingest only writes local files, as in development. If the upload fails (network, token), the run still writes `data/` and the next run retries; [publish.ts](packages/ingest/src/publish.ts) keeps its hashes in `data/.cache/publish.json`.
 
-To update the Pi: `git pull && pnpm install && sudo systemctl restart news-globe-ingest`.
+To update the Pi (e.g. after adding a country, which also needs a Worker redeploy): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile && sudo systemctl restart news-globe-ingest`.
 
 ### Pipeline details
 
