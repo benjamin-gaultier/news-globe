@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-The MVP covers **France (FR)** and the **United States (US)**. Other countries are greyed out and marked "coming soon".
+It covers **France (FR)**, the **United States (US)** and the **United Kingdom (GB)**. Other countries are greyed out and marked "coming soon".
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -196,6 +196,20 @@ Every candidate feed was fetched and parsed with the real User-Agent on 2026-10-
 | ~~AP~~ | — | — | ❌ **dropped**: AP publishes no official RSS, and `apnews.com/*.rss` / `?format=rss` return **403** |
 
 The Hill (`thehill.com/homenews/feed/`) and NBC (`feeds.nbcnews.com/nbcnews/public/politics`) also worked and are good substitutes if one of the above breaks.
+
+**United Kingdom** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| BBC News | UK, politics | 10 | ✅ |
+| The Guardian | uk-news, politics | 9 | ✅ |
+| Sky News | UK, politics | 8 | ✅ (low volume: ~10 items per feed) |
+| The i Paper | news | 7 | ✅ (10 items) |
+| Evening Standard | UK news | 6 | ✅ |
+| Daily Mirror | UK news | 5 | ✅ |
+| ~~The Telegraph~~ | — | — | ❌ **dropped**: `news/rss.xml` responds but is stale (newest item from June 2026) |
+| ~~The Independent~~ | — | — | ❌ **dropped**: section feeds return a single item |
+| ~~The Times~~ / ~~ITV~~ / ~~FT~~ | — | — | ❌ no usable public RSS (HTML, timeout, single item) |
 
 Authority weights are editorial judgment calls. They only decide which outlet's headline represents a cluster, not ranking.
 

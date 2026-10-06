@@ -161,6 +161,64 @@ export const SOURCES: SourceConfig[] = [
     ],
     authority: 7,
   },
+  // ---- United Kingdom ----
+  // The Independent is dropped: its section feeds return a single item.
+  // The Telegraph's feed is stale (newest item months old); The Times has no
+  // public RSS; ITV's feed doesn't respond. The i Paper and the Mirror replace them.
+  {
+    id: 'bbc',
+    name: 'BBC News',
+    type: 'rss',
+    country: 'GB',
+    language: 'en',
+    feedUrls: ['https://feeds.bbci.co.uk/news/uk/rss.xml', 'https://feeds.bbci.co.uk/news/politics/rss.xml'],
+    authority: 10,
+  },
+  {
+    id: 'guardian',
+    name: 'The Guardian',
+    type: 'rss',
+    country: 'GB',
+    language: 'en',
+    feedUrls: ['https://www.theguardian.com/uk-news/rss', 'https://www.theguardian.com/politics/rss'],
+    authority: 9,
+  },
+  {
+    id: 'sky',
+    name: 'Sky News',
+    type: 'rss',
+    country: 'GB',
+    language: 'en',
+    feedUrls: ['https://feeds.skynews.com/feeds/rss/uk.xml', 'https://feeds.skynews.com/feeds/rss/politics.xml'],
+    authority: 8,
+  },
+  {
+    id: 'inews',
+    name: 'The i Paper',
+    type: 'rss',
+    country: 'GB',
+    language: 'en',
+    feedUrls: ['https://inews.co.uk/news/feed'],
+    authority: 7,
+  },
+  {
+    id: 'standard',
+    name: 'Evening Standard',
+    type: 'rss',
+    country: 'GB',
+    language: 'en',
+    feedUrls: ['https://www.standard.co.uk/news/uk/rss'],
+    authority: 6,
+  },
+  {
+    id: 'mirror',
+    name: 'Daily Mirror',
+    type: 'rss',
+    country: 'GB',
+    language: 'en',
+    feedUrls: ['https://www.mirror.co.uk/news/uk-news/?service=rss'],
+    authority: 5,
+  },
 ];
 
 export const INGEST_SETTINGS = {

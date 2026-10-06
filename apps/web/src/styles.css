@@ -144,9 +144,21 @@ button {
 .country-picker {
   display: flex;
   gap: 6px;
+  /* One scrollable row as the country list grows, instead of wrapping over the globe. */
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.country-picker::-webkit-scrollbar {
+  display: none;
 }
 
 .chip {
+  flex: none;
+  white-space: nowrap;
   border: 1px solid var(--border);
   background: rgba(13, 22, 38, 0.75);
   border-radius: 999px;

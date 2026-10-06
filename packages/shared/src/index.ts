@@ -96,4 +96,5 @@ export interface CountryMeta {
 export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   FR: { code: 'FR', name: 'France', lat: 46.6, lng: 2.4, altitude: 1.4 },
   US: { code: 'US', name: 'United States', lat: 39.5, lng: -98.4, altitude: 1.9 },
+  GB: { code: 'GB', name: 'United Kingdom', lat: 54.0, lng: -2.5, altitude: 1.3 },
 };
