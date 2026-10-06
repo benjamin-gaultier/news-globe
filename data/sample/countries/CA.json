@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CA",
   "countryName": "Canada",
-  "updatedAt": "2026-10-06T09:54:16.528Z",
+  "updatedAt": "2026-10-06T09:59:35.791Z",
   "clusters": [
     {
       "id": "IVZaH0wgm3Su",
@@ -188,48 +188,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T19:56:47.000Z"
-    },
-    {
-      "id": "jPre5WUIg3vf",
-      "representative": {
-        "id": "jPre5WUIg3vf",
-        "url": "https://www.theglobeandmail.com/canada/article-mps-to-debate-economic-and-labour-bill-plus-new-plans-for-national/",
-        "canonicalUrl": "https://www.theglobeandmail.com/canada/article-mps-to-debate-economic-and-labour-bill-plus-new-plans-for-national/",
-        "title": "MPs debate merits, consequences of Bill C-39 in return to Parliament",
-        "description": "So-called Building Canada Strong Act proposes to create one-year timeline for federal project decisions, and change when jobs minister can intervene in labour disputes",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-05T09:55:27.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/PH4B6HICLZEVFFYLEZLIYIF7YI.jpg?auth=ae5ee0c27bd91f4baac71857cab07d2ed184ef8d07bcf7919583162dd5cc2c9b&smart=true&width=7066&height=4711",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "e2k5YIoGea6g",
-          "url": "https://globalnews.ca/news/12087723/carney-major-projects-bill-parliament/",
-          "canonicalUrl": "https://globalnews.ca/news/12087723/carney-major-projects-bill-parliament/",
-          "title": "Carney’s major projects bill up for debate as MPs return to Parliament",
-          "description": "The government's key piece of economic legislation, Bill C-39, proposes measures to create a one-year timeline for federal project decisions.",
-          "source": {
-            "id": "globalnews",
-            "name": "Global News"
-          },
-          "sourceCountry": "CA",
-          "language": "en",
-          "publishedAt": "2026-10-05T12:25:48.000Z",
-          "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/House-of-Commons-returns.jpg?quality=65&strip=all",
-          "countryCode": "CA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T12:25:48.000Z"
     },
     {
       "id": "hBDr6pYUi1A-",
@@ -470,6 +428,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T05:49:32.000Z"
+    },
+    {
+      "id": "Zlz7AdRcaTjz",
+      "representative": {
+        "id": "Zlz7AdRcaTjz",
+        "url": "https://ici.radio-canada.ca/nouvelle/2290991/plq-charles-milliard-orford-resultat-liberal",
+        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2290991/plq-charles-milliard-orford-resultat-liberal",
+        "title": "Le PLQ a plus d’une raison de célébrer",
+        "description": "Le chef libéral, Charles Milliard a gagné son siège à l’Assemblée nationale et le PLQ a doublé son caucus.",
+        "source": {
+          "id": "radiocanada",
+          "name": "Radio-Canada"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T05:03:10.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/chef-liberal-charles-milliard-victoire-magog-elections.jpg",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T05:03:10.000Z"
     }
   ]
 }

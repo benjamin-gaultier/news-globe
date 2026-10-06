@@ -2,24 +2,24 @@
   "schemaVersion": 1,
   "countryCode": "ES",
   "countryName": "Spain",
-  "updatedAt": "2026-10-06T09:54:16.528Z",
+  "updatedAt": "2026-10-06T09:59:35.791Z",
   "clusters": [
     {
-      "id": "HV7AV09ZzCY4",
+      "id": "P0ZCQC3LRSU9",
       "representative": {
-        "id": "HV7AV09ZzCY4",
-        "url": "https://elpais.com/espana/2026-10-05/sanchez-adelanta-las-elecciones-al-29-de-noviembre-necesitamos-una-mayoria-progresista-mucho-mas-amplia.html",
-        "canonicalUrl": "https://elpais.com/espana/2026-10-05/sanchez-adelanta-las-elecciones-al-29-de-noviembre-necesitamos-una-mayoria-progresista-mucho-mas-amplia.html",
-        "title": "Sánchez adelanta las elecciones al 29 de noviembre: “Necesitamos una mayoría progresista mucho más amplia”",
-        "description": "El presidente del Gobierno hace balance de los logros de la coalición de izquierdas y lanza un dardo al Ejecutivo de Ayuso por el ático",
+        "id": "P0ZCQC3LRSU9",
+        "url": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
+        "title": "Así ha sido el discurso íntegro de Pedro Sánchez con el que ha convocado elecciones",
+        "description": "El discurso del presidente se ha centrado en la complejidad para negociar durante esta legislatura, la dureza de la oposición y los logros conseguidos Leer",
         "source": {
-          "id": "elpais",
-          "name": "El País"
+          "id": "elmundo",
+          "name": "El Mundo"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-05T08:14:18.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-05T08:26:00.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911887360643.jpg",
         "countryCode": "ES",
         "regionCode": null
       },
@@ -42,23 +42,6 @@
           "regionCode": null
         },
         {
-          "id": "MUrQZA1lqMBd",
-          "url": "https://www.abc.es/espana/comparecencia-pedro-sanchez-directo-posible-convocatoria-elecciones-20261005080806-di.html",
-          "canonicalUrl": "https://www.abc.es/espana/comparecencia-pedro-sanchez-directo-posible-convocatoria-elecciones-20261005080806-di.html",
-          "title": "Elecciones generales en España, en directo: comparecencia de Pedro Sánchez tras la aprobación de los decretos de vivienda y última hora hoy",
-          "description": "Sigue en directo hoy la última hora de la convocatoria de elecciones generales en España para el próximo 29 de noviembre, con la comparecencia de Pedro Sánchez tras el Consejo de Ministros donde se aprobarán los decretos de vivienda rechazados la semana pasada por el pleno del Congreso.",
-          "source": {
-            "id": "abc_es",
-            "name": "ABC"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T07:35:36.000Z",
-          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/05/pedror-U206319079190jG-U302059744511GbD-1200x840@diario_abc.jpg",
-          "countryCode": "ES",
-          "regionCode": null
-        },
-        {
           "id": "y7BPtmffLJMa",
           "url": "https://www.20minutos.es/nacional/por-que-sanchez-convoca-elecciones-ahora_7045196_3.html",
           "canonicalUrl": "https://www.20minutos.es/nacional/por-que-sanchez-convoca-elecciones-ahora_7045196_3.html",
@@ -72,23 +55,6 @@
           "language": "es",
           "publishedAt": "2026-10-05T18:41:54.000Z",
           "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac34edb0c4363-37532459.png",
-          "countryCode": "ES",
-          "regionCode": null
-        },
-        {
-          "id": "1bHjpeJA-6c8",
-          "url": "https://www.elmundo.es/espana/2026/10/05/6ac3493de4d4d82d6e8b4580.html",
-          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3493de4d4d82d6e8b4580.html",
-          "title": "Sánchez adelanta las elecciones al 29 de noviembre",
-          "description": "El Consejo de Ministros de este martes volverá a aprobar los decretos de vivienda que tumbó el Congreso con alguna modificación. Los deberá validar la Diputación Permanente, donde no necesitan a Junts para aprobarlos Leer",
-          "source": {
-            "id": "elmundo",
-            "name": "El Mundo"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-05T13:51:56.000Z",
-          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911838354075.png",
           "countryCode": "ES",
           "regionCode": null
         },
@@ -110,9 +76,68 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
-      "outletCount": 6,
+      "outletCount24h": 3,
+      "outletCount": 4,
       "latestPublishedAt": "2026-10-06T08:39:08.000Z"
+    },
+    {
+      "id": "BIzWeGw5yhVh",
+      "representative": {
+        "id": "BIzWeGw5yhVh",
+        "url": "https://www.abc.es/espana/voto-correo-elecciones-generales-29n-fechas-plazos-20261005111422-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/voto-correo-elecciones-generales-29n-fechas-plazos-20261005111422-nt.html",
+        "title": "Ya se puede solicitar el voto por correo para las elecciones generales del 29-N: fechas, plazos, dónde se solicita y día tope para enviarlo",
+        "description": "Se ha cumplido lo que muchos esperaban: este lunes 5 de octubre, el presidente del Gobierno, Pedro Sánchez , ha anunciado su decisión de convocar elecciones anticipadas el próximo 29 de noviembre. Lo ha anunciado desde Moncloa atendiendo a la necesidad de que los españoles decidan sobre el futuro…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:49:24.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/05/correos-voto-k3FI-U302062137996fIH-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "-msLwNm-s0z2",
+          "url": "https://www.lavanguardia.com/politica/elecciones/20261005/11651224/cuando-podra-pedir-voto-correo-elecciones-generales-29-n.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/elecciones/20261005/11651224/cuando-podra-pedir-voto-correo-elecciones-generales-29-n.html",
+          "title": "Cuándo se podrá pedir el voto por correo para las elecciones generales del 29-N",
+          "description": "En los comicios de 2023, más de 2,4 millones de españoles emitieron su voto a través de Correos",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T10:32:40.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2025/09/27/68d7a8ef7e2fc.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "1KnhIv7NTCgG",
+          "url": "https://www.20minutos.es/nacional/calendario-elecciones-generales-29n-voto-correo-campana-electoral-otras-fechas-claves_7044311_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/calendario-elecciones-generales-29n-voto-correo-campana-electoral-otras-fechas-claves_7044311_0.html",
+          "title": "Calendario de las elecciones generales 29-N: inicio de campaña electoral, cuándo solicitar el voto por correo y otras fechas claves",
+          "description": "El presidente Pedro Sánchez ha convocado elecciones generales para el próximo domingo 29 de noviembre.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T08:36:24.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac386ded59428-57442438.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T09:49:24.000Z"
     },
     {
       "id": "zPC3pf5HN4d4",
@@ -155,48 +180,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T09:09:24.000Z"
-    },
-    {
-      "id": "TDgbSrjFDsxM",
-      "representative": {
-        "id": "TDgbSrjFDsxM",
-        "url": "https://www.elmundo.es/espana/2026/10/06/6ac49b6321efa0541f8b45a8.html",
-        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac49b6321efa0541f8b45a8.html",
-        "title": "Interior prorroga 15 días más, hasta el 22 de octubre, los controles fronterizos de viajeros procedentes de Italia",
-        "description": "El departamento que dirige el ministro Fernando Grande-Marlaska firmó el pasado jueves 1 de octubre la prorroga que oficializa hoy el BOE. Se trata de la tercera prórroga de estos controles que comenzaron en España el pasado 8 de agosto por \"razones de urgencia y de amenaza grave para el orden…",
-        "source": {
-          "id": "elmundo",
-          "name": "El Mundo"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T06:58:58.000Z",
-        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912698937860.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "K9o0uVi0LXu5",
-          "url": "https://www.abc.es/espana/interior-prorroga-dias-octubre-controles-fronterizos-viajeros-20261006094246-nt.html",
-          "canonicalUrl": "https://www.abc.es/espana/interior-prorroga-dias-octubre-controles-fronterizos-viajeros-20261006094246-nt.html",
-          "title": "Interior prorroga 15 días más, hasta el 22 de octubre, los controles fronterizos de viajeros procedentes de Italia",
-          "description": "El ministerio del Interior ha prorrogado por 15 días más, hasta las 24:00 horas del 22 de octubre, los controles fronterizos de viajeros procedentes de Italia en fronteras interiores aéreas y marítimas, según se recoge en el Boletín Oficial del Estado (BOE) de este martes.El departamento que…",
-          "source": {
-            "id": "abc_es",
-            "name": "ABC"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T07:42:53.000Z",
-          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1498396720-kXJB-U302083719005pbG-1200x840@diario_abc.jpg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T07:42:53.000Z"
     },
     {
       "id": "TOS4TK4CoqdX",
@@ -325,142 +308,100 @@
       "latestPublishedAt": "2026-10-05T20:08:40.000Z"
     },
     {
-      "id": "DXV7fv9gVYDZ",
+      "id": "BDe5mZ3_apso",
       "representative": {
-        "id": "DXV7fv9gVYDZ",
-        "url": "https://elpais.com/espana/2026-10-05/el-supremo-rechaza-pronunciarse-sobre-si-el-caso-montoro-debe-investigarse-en-madrid-o-tarragona.html",
-        "canonicalUrl": "https://elpais.com/espana/2026-10-05/el-supremo-rechaza-pronunciarse-sobre-si-el-caso-montoro-debe-investigarse-en-madrid-o-tarragona.html",
-        "title": "El Supremo rechaza pronunciarse sobre si el ‘caso Montoro’ debe investigarse en Madrid o Tarragona",
-        "description": "El alto tribunal devuelve a la Audiencia Provincial la decisión de si la causa debe continuar en el juzgado de la ciudad catalana",
-        "source": {
-          "id": "elpais",
-          "name": "El País"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-05T16:35:49.000Z",
-        "imageUrl": "https://imagenes.elpais.com/resizer/v2/OYEUKTBL3BF3XD3YRT3CVX3KVQ.jpg?auth=2008f0860543fcd9f84951425ef5efa9ce779d2621cea123c60281d55994a12c",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "JvQNxm85Um2h",
-          "url": "https://www.eldiario.es/politica/supremo-rechaza-decidir-si-envia-caso-montoro-madrid-deja-cuestion-manos-audiencia-tarragona_1_13564150.html",
-          "canonicalUrl": "https://www.eldiario.es/politica/supremo-rechaza-decidir-si-envia-caso-montoro-madrid-deja-cuestion-manos-audiencia-tarragona_1_13564150.html",
-          "title": "El Supremo rechaza decidir si envía el 'caso Montoro' a Madrid y deja la cuestión en manos de la Audiencia de Tarragona",
-          "description": "El asunto vuelve a la Audiencia de Tarragona, que ya había rechazado pronunciarse y lo había remitido al Alto Tribunal al considerar que su conocimiento les correspondía a ellos La Audiencia de Tarragona avisa que la decisión sobre si el caso Montoro se debe investigar en Madrid depende del…",
-          "source": {
-            "id": "eldiario",
-            "name": "elDiario.es"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-05T17:04:10.000Z",
-          "imageUrl": "https://static.eldiario.es/clip/cdfb1c6f-b741-4019-bbb0-1f28debec7d5_16-9-discover-aspect-ratio_default_0.jpg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T17:04:10.000Z"
-    },
-    {
-      "id": "fXfk_dWG0dxC",
-      "representative": {
-        "id": "fXfk_dWG0dxC",
-        "url": "https://www.lavanguardia.com/politica/20261006/11652015/resolucion-tribunal-constitucional-ley-de-amnistia-ultima-hora-hoy-en-directo.html",
-        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652015/resolucion-tribunal-constitucional-ley-de-amnistia-ultima-hora-hoy-en-directo.html",
-        "title": "Sentencia del Tribunal Constitucional sobre la amnistía, en directo: última hora de Puigdemont y reacciones",
-        "description": "“Los asuntos ya señalados hay que resolverlos”, afirman en el Tribunal Constitucional respecto a la convocatoria de elecciones generales",
-        "source": {
-          "id": "lavanguardia",
-          "name": "La Vanguardia"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:29:35.000Z",
-        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2025/11/13/6915c438295cf.jpeg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:29:35.000Z"
-    },
-    {
-      "id": "uiu_5S27-Fsc",
-      "representative": {
-        "id": "uiu_5S27-Fsc",
-        "url": "https://www.lavanguardia.com/politica/20261006/11652200/rey-stubb-unidos-seguridad-sur-espana-frontera-finlandesa.html",
-        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652200/rey-stubb-unidos-seguridad-sur-espana-frontera-finlandesa.html",
-        "title": "Stubb iguala ante el Rey la seguridad del sur de España a la de otras fronteras europeas",
-        "description": "Tras la bienvenida oficial a los Reyes, reivindican en Helsinki una estrategia en la UE y la OTAN ante amenazas que “no son solo una cuestión de defensa”",
-        "source": {
-          "id": "lavanguardia",
-          "name": "La Vanguardia"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:23:33.000Z",
-        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac4bca6a3ebc.jpeg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:23:33.000Z"
-    },
-    {
-      "id": "E6BUFEdKN5Bf",
-      "representative": {
-        "id": "E6BUFEdKN5Bf",
-        "url": "https://www.abc.es/espana/rey-presidente-finlandia-sellan-alianza-seguridad-360-20261006110243-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/rey-presidente-finlandia-sellan-alianza-seguridad-360-20261006110243-nt.html",
-        "title": "El Rey y el presidente de Finlandia sellan su alianza de seguridad «360 grados» en la UE y la OTAN",
-        "description": "Los Reyes iniciaron esta mañana su visita de Estado en Helsinki, marcada por la seguridad y la geopolítica ártica. En su primera parada, Don Felipe y Doña Letizia fueron recibidos por el presidente de Finlandia, el liberal Alexander Stubb, y su esposa, Suzanne Innes-Stubb, en el Palacio…",
+        "id": "BDe5mZ3_apso",
+        "url": "https://www.abc.es/espana/cataluna/angel-gonzalez-abad-entraremos-campana-20261006115711-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/cataluna/angel-gonzalez-abad-entraremos-campana-20261006115711-nt.html",
+        "title": "¿Entraremos en campaña?",
+        "description": "La Monumental de Barcelona sigue ahí, imponente y silenciosa. Sin un uso presente ni futuro que inquiete a gobernantes. En calma para todos los niveles administrativos, local, autonómico y nacional. Para todos menos para la resistencia que mantiene viva la pasión por volver a ocupar sus…",
         "source": {
           "id": "abc_es",
           "name": "ABC"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:21:35.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518357694-RDNG8iOBhv5zRVndpknIdAP-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T09:57:11.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/DAMBin%20(1)-RkOXrD8mb5zICu6UQdkk4hL-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:21:35.000Z"
+      "latestPublishedAt": "2026-10-06T09:57:11.000Z"
     },
     {
-      "id": "4wX1r8S5LN1G",
+      "id": "BIRWPmk5pA2A",
       "representative": {
-        "id": "4wX1r8S5LN1G",
-        "url": "https://www.abc.es/espana/madrid/entradas-ultimo-concierto-shakira-espana-hora-salen-precio-20261006051500-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/madrid/entradas-ultimo-concierto-shakira-espana-hora-salen-precio-20261006051500-nt.html",
-        "title": "Entradas del último concierto de Shakira en España hoy: a qué hora salen a la venta, precio y cómo comprar",
-        "description": "La altísima demanda de entradas en la residencia de Shakira en Madrid ha provocado que la artista colombiana haya anunciado un último concierto en el Macondo Park, el recinto construido ad hoc en el espacio Iberdrola Music de Villaverde.Aprovechando la festividad nacional con motivo del Día de la…",
+        "id": "BIRWPmk5pA2A",
+        "url": "https://www.abc.es/espana/castilla-la-mancha/produccion-industrial-crece-castillala-mancha-puntos-espana-20261006115518-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/produccion-industrial-crece-castillala-mancha-puntos-espana-20261006115518-nt.html",
+        "title": "La producción industrial crece un 7,2% en Castilla-La Mancha, 5,6 puntos más que en España",
+        "description": "La producción industrial creció en Castilla-La Mancha un 7,2% en agosto respecto al mismo mes del año anterior, 5,6 puntos por encima del incremento registrado en el conjunto de España, donde el avance interanual se situó en el 1,6%.El Índice de Producción Industrial de Castilla-La Mancha alcanzó…",
         "source": {
           "id": "abc_es",
           "name": "ABC"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:21:32.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/shakira-concierto-madrid-macondo-kezG-U302077714645d6E-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T09:55:19.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518358218-RQtFaYhLlxvSJVwEGuiwGTM-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:21:32.000Z"
+      "latestPublishedAt": "2026-10-06T09:55:19.000Z"
+    },
+    {
+      "id": "l8ksClmtdlvn",
+      "representative": {
+        "id": "l8ksClmtdlvn",
+        "url": "https://www.abc.es/espana/andalucia/cordoba/festival-piano-rafael-orozco-cordoba-consagra-vocacion-20261006114417-nts.html",
+        "canonicalUrl": "https://www.abc.es/espana/andalucia/cordoba/festival-piano-rafael-orozco-cordoba-consagra-vocacion-20261006114417-nts.html",
+        "title": "El Festival de Piano Rafael Orozco de Córdoba consagra su vocación internacional: músicos, fechas y lugares",
+        "description": "La edición número 24 del Festival de Piano Rafael Orozco será la de los aniversarios. Es su hilo conductor: 80 años del nacimiento del intérprete que la da nombre, 30 de su muerte, 60 de su consagración en el Festival de Leeds y 150 del nacimiento de Manuel de Falla . E incluso los 50 años del…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:55:10.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/festival-rafael-orozco-RZqK4EVLM6f7ay5FrpIJkRL-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:55:10.000Z"
+    },
+    {
+      "id": "7xWroNpSnwob",
+      "representative": {
+        "id": "7xWroNpSnwob",
+        "url": "https://www.abc.es/espana/galicia/incidencia-sistemas-regulacion-trafico-interrumpe-circulacion-trenes-20261006115140-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/galicia/incidencia-sistemas-regulacion-trafico-interrumpe-circulacion-trenes-20261006115140-nt.html",
+        "title": "Una incidencia en los sistemas de regulación del tráfico interrumpe la circulación de los trenes entre Santiago y Vigo",
+        "description": "Una incidencia en los sistemas de regulación del tráfico ha afectado a los trenes que circulan entre Santiago de Compostela, Pontevedra y Vigo. Según informa el Administrador de Infraestructuras Ferroviarias (Adif), la avería ha motivado que desde antes de las 11,00 horas se interrumpa la…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:51:40.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1506510306-RnOvptSnjIfCUdgrpYVhBfL-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:51:40.000Z"
     },
     {
       "id": "ojEYLZF1dZHX",
@@ -476,7 +417,7 @@
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:18:49.000Z",
+        "publishedAt": "2026-10-06T09:48:36.000Z",
         "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518358592-R9DyBGV7GSW3n58kZLH1dGM-1200x840@diario_abc.JPG",
         "countryCode": "ES",
         "regionCode": null
@@ -484,7 +425,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:18:49.000Z"
+      "latestPublishedAt": "2026-10-06T09:48:36.000Z"
     },
     {
       "id": "xsk3hSJubPuf",
@@ -500,7 +441,7 @@
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:16:44.000Z",
+        "publishedAt": "2026-10-06T09:47:16.000Z",
         "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/viajes-1200x840-kfxB-U3020713041294l-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
@@ -508,7 +449,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:16:44.000Z"
+      "latestPublishedAt": "2026-10-06T09:47:16.000Z"
     },
     {
       "id": "GsEh_tJanLbM",
@@ -524,7 +465,7 @@
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:14:25.000Z",
+        "publishedAt": "2026-10-06T09:45:16.000Z",
         "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/foto-recur-gbtana-RQu3sLIhFwFI5h6tsVvS24N-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
@@ -532,31 +473,55 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:14:25.000Z"
+      "latestPublishedAt": "2026-10-06T09:45:16.000Z"
     },
     {
-      "id": "bz5Gp3hP2aLJ",
+      "id": "KuPWyfpAJlZP",
       "representative": {
-        "id": "bz5Gp3hP2aLJ",
-        "url": "https://www.abc.es/espana/andalucia/granada/embalses-granada-comienzan-ano-hidrologico-doble-agua-20261006110000-nts.html",
-        "canonicalUrl": "https://www.abc.es/espana/andalucia/granada/embalses-granada-comienzan-ano-hidrologico-doble-agua-20261006110000-nts.html",
-        "title": "Los embalses de Granada comienzan el año hidrológico con el doble de agua que en 2025",
-        "description": "El año hidrológico comenzó el pasado 1 de octubre y en Granada lo hace con unos números magníficos: los once embalses de la provincia acumulan 700 hectómetros cúbicos, lo que significa casi el doble que el año pasado por estas fechas. El consumo está garantizado.Según datos de la Confederación…",
+        "id": "KuPWyfpAJlZP",
+        "url": "https://www.abc.es/espana/andalucia/cordoba/izquierda-unida-inmerso-proceso-interno-elegir-candidato-20261006114052-nts.html",
+        "canonicalUrl": "https://www.abc.es/espana/andalucia/cordoba/izquierda-unida-inmerso-proceso-interno-elegir-candidato-20261006114052-nts.html",
+        "title": "Izquierda Unida está inmerso en «un proceso interno» para elegir a su candidato a la Alcaldía de Córdoba",
+        "description": "A poco menos de dos meses de que los españoles estén llamados a las urnas en unas elecciones generales, en Córdoba las miradas de los partidos siguen puestas en las municipales del próximo mes de mayo. Las formaciones avanzan en sus procesos internos para elegir a los candidatos que concurrirán a…",
         "source": {
           "id": "abc_es",
           "name": "ABC"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:13:24.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/Lecr%c3%adn%20desde%20Rules%202%20m%c3%ada-RZbMT6kHxJvnWE7f0QWGk4J-1200x840@diario_abc.jpeg",
+        "publishedAt": "2026-10-06T09:40:52.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1517444246-RBg0SFEJoafbqqUg0RMZZIK-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:13:24.000Z"
+      "latestPublishedAt": "2026-10-06T09:40:52.000Z"
+    },
+    {
+      "id": "W86JpiBU7JSP",
+      "representative": {
+        "id": "W86JpiBU7JSP",
+        "url": "https://www.abc.es/espana/madrid/dos-ejecutores-tia-gordo-maya-enfrentan-anos-20261006114033-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/madrid/dos-ejecutores-tia-gordo-maya-enfrentan-anos-20261006114033-nt.html",
+        "title": "Los dos ejecutores de la tía del Gordo Maya se enfrentan a 22 años de cárcel cada uno",
+        "description": "Ocurrió la desapacible noche del 8 de enero de 2024, en la calle del Lago Maracaibo. Natalia S., de 43 años y miembro del clan de los Silva (también conocido como los Cucos ) fue asaeteada a tiros a las 21.30 horas en las inmediaciones de su casa . Al menos, once disparos que la dejaron allí…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:40:34.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1469039773-R9H8gBpnxRByA44kaIMUyRL-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:40:34.000Z"
     }
   ]
 }

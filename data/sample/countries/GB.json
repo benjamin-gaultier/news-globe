@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T09:54:16.528Z",
+  "updatedAt": "2026-10-06T09:59:35.791Z",
   "clusters": [
     {
       "id": "lvuSNuPg4Ipy",
@@ -170,7 +170,7 @@
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T08:04:07.000Z",
+        "publishedAt": "2026-10-06T09:50:54.000Z",
         "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cc5/live/105c8760-c106-11f1-9ff2-3b6c88884537.jpg",
         "countryCode": "GB",
         "regionCode": null
@@ -213,7 +213,7 @@
       ],
       "outletCount24h": 3,
       "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T09:19:45.000Z"
+      "latestPublishedAt": "2026-10-06T09:50:54.000Z"
     },
     {
       "id": "ul8mZBC34-rY",
@@ -332,6 +332,90 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-05T19:10:43.000Z"
+    },
+    {
+      "id": "qpSwVbf5_2Jk",
+      "representative": {
+        "id": "qpSwVbf5_2Jk",
+        "url": "https://www.theguardian.com/politics/live/2026/oct/06/kemi-badenoch-conservatives-labour-reform-greens-uk-politics-latest-news",
+        "canonicalUrl": "https://www.theguardian.com/politics/live/2026/oct/06/kemi-badenoch-conservatives-labour-reform-greens-uk-politics-latest-news",
+        "title": "Badenoch disowns Tory claims that air defence plan amounts to ‘British Iron Dome’ - UK politics live",
+        "description": "Tory leader says ‘Britannia Shield’ will not be a similar scheme to that protecting Israel after repeated questions from broadcasters Asked if she will propose tax cuts in her speech tomorrow, Badenoch tells McCann that she will have to wait until her speech tomorrow at 11.15am. (This is getting…",
+        "source": {
+          "id": "guardian",
+          "name": "The Guardian"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:49:19.000Z",
+        "imageUrl": "https://i.guim.co.uk/img/media/cb4c23843ac6ba9050d75f187e5acc83f207b833/1065_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=27c670d9d2a5f5e4e16260ac15a26fac",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "saD_7BPQjK9Z",
+          "url": "https://www.independent.co.uk/news/uk/politics/badenoch-iron-dome-missiles-israel-tory-conference-b3062026.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/badenoch-iron-dome-missiles-israel-tory-conference-b3062026.html",
+          "title": "Kemi Badenoch disowns own party’s claim of building British ‘Iron Dome’",
+          "description": "Conservative leader insists ‘we are not building the Iron Dome’ – despite the Tories’ own press release comparing it to Israel’s system",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:55:08.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/06/09/2298844259..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:55:08.000Z"
+    },
+    {
+      "id": "VdMl90-Dwh-3",
+      "representative": {
+        "id": "VdMl90-Dwh-3",
+        "url": "https://www.theguardian.com/politics/2026/oct/05/tory-shadow-minister-luton-no-go-zones-white-people-blake-stephenson",
+        "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/05/tory-shadow-minister-luton-no-go-zones-white-people-blake-stephenson",
+        "title": "Tory shadow minister claims Luton has ‘no-go zones’ where ‘white people won’t go’",
+        "description": "Blake Stephenson tells fringe meeting at Tory conference that the town is ‘a very dangerous place’ with ‘ghettoes’ A shadow Conservative Home Office minister has claimed there are “no-go zones” in Luton where “white people won’t go”. Blake Stephenson, the MP for Mid Bedfordshire who was appointed…",
+        "source": {
+          "id": "guardian",
+          "name": "The Guardian"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-05T18:06:21.000Z",
+        "imageUrl": "https://i.guim.co.uk/img/media/2642155e1d7b8699e966accc02bbb6a6b550b1b8/316_408_3962_3168/master/3962.jpg?width=700&quality=85&auto=format&fit=max&s=065cd2383674a85405c64d75153b2a89",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "_0Vud1Pic3tT",
+          "url": "https://www.independent.co.uk/news/uk/politics/luton-no-go-zones-tories-blake-stephenson-tommy-robinson-b3061981.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/luton-no-go-zones-tories-blake-stephenson-tommy-robinson-b3061981.html",
+          "title": "Tory shadow minister criticised for claiming Luton has ‘no go zones’ where ‘white people won’t go’",
+          "description": "Shadow home office minister Blake Stephenson has been accused of peddling ‘the same rightwing nonsense’ as far-right activist Tommy Robinson",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:51:02.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/06/9/41/Blake-Stephenson.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:51:02.000Z"
     },
     {
       "id": "6ryb-NYcU2Br",
@@ -668,54 +752,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T13:28:58.000Z"
-    },
-    {
-      "id": "rJ_LhxhADx3O",
-      "representative": {
-        "id": "rJ_LhxhADx3O",
-        "url": "https://www.independent.co.uk/news/uk/crime/hannah-terry-murder-death-sandringham-norfolk-b3062027.html",
-        "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/hannah-terry-murder-death-sandringham-norfolk-b3062027.html",
-        "title": "GP found dead in home near Sandringham Estate named locally as murder investigation continues",
-        "description": "A man in his 40s was arrested on suspicion of murder and taken to King’s Lynn Police Investigation Centre for questioning",
-        "source": {
-          "id": "independent",
-          "name": "The Independent"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:39:28.000Z",
-        "imageUrl": "https://static.independent.co.uk/2026/10/06/9/18/geograph-4275584-by-Mat-Fascione.jpeg?width=1200&auto=webp&trim=2%2C0%2C2%2C0",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:39:28.000Z"
-    },
-    {
-      "id": "zIFHR_nGIAUc",
-      "representative": {
-        "id": "zIFHR_nGIAUc",
-        "url": "https://www.mirror.co.uk/news/health/bbc-morning-live-doctor-issues-37739081",
-        "canonicalUrl": "https://www.mirror.co.uk/news/health/bbc-morning-live-doctor-issues-37739081",
-        "title": "BBC Morning Live doctor issues advice amid suspected 'medieval' plague concerns",
-        "description": "BBC's Dr Ranj says there is a very big reason why the plague isn't another Covid",
-        "source": {
-          "id": "mirror",
-          "name": "Daily Mirror"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:37:43.000Z",
-        "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37739471.ece/ALTERNATES/s615/1_BBC-Morning-Live.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:37:43.000Z"
     }
   ]
 }

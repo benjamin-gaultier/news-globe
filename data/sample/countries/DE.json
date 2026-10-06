@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DE",
   "countryName": "Germany",
-  "updatedAt": "2026-10-06T09:54:16.528Z",
+  "updatedAt": "2026-10-06T09:59:35.791Z",
   "clusters": [
     {
       "id": "fuOn7SLdX-n_",
@@ -316,7 +316,7 @@
           "sourceCountry": "DE",
           "language": "de",
           "publishedAt": "2026-10-06T08:53:48.000Z",
-          "imageUrl": "https://media0.faz.net/image/9443944dc84b/w3510h1974x665y979/202610/43601.0.2630538366/tobias-rausch-afd-spricht-am.webp",
+          "imageUrl": "https://media0.faz.net/image/eb40ce166034/w4436h2495x0y32/202610/43601.0.2633002293/tobias-rausch-am-dienstag-im.webp",
           "countryCode": "DE",
           "regionCode": null
         },
@@ -671,6 +671,30 @@
       "latestPublishedAt": "2026-10-05T12:29:07.000Z"
     },
     {
+      "id": "mBF9nyql9dzs",
+      "representative": {
+        "id": "mBF9nyql9dzs",
+        "url": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-sachsen-anhalt-von-angern-zu-siegmund-das-war-kein-guter-start-faz-110093143.html",
+        "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-sachsen-anhalt-von-angern-zu-siegmund-das-war-kein-guter-start-faz-110093143.html",
+        "title": "Magdeburger Landtag: Von Angern zu Siegmund: „Das war kein guter Start“",
+        "description": "Alterspräsidentin eröffnet konstituierende Sitzung des Landtags in Sachsen-Anhalt +++ Siegmund hofft bei Wahl des Landtagspräsidenten auf „jede Stimme mehr“ +++ alle Entwicklungen im Liveblog",
+        "source": {
+          "id": "faz",
+          "name": "Frankfurter Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T09:52:42.000Z",
+        "imageUrl": "https://media0.faz.net/image/45454fae2ea7/w7424h4176x0y129/202610/43601.0.2633052445/die-linkenpolitikerin-eva-von.webp",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:52:42.000Z"
+    },
+    {
       "id": "aPKj0FSTcEB-",
       "representative": {
         "id": "aPKj0FSTcEB-",
@@ -685,7 +709,7 @@
         "sourceCountry": "DE",
         "language": "de",
         "publishedAt": "2026-10-06T09:41:39.000Z",
-        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/f1da3c42-9102-404d-9c69-fbfe0fa63a0f.jpg?rect=217%2C605%2C2669%2C2002&width=1000&fm=jpg&q=60",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/1acd16c8-07bf-41f1-a4bc-ccaa1520ffb8.jpg?rect=196%2C0%2C3108%2C2331&width=1000&fm=jpg&q=60",
         "countryCode": "DE",
         "regionCode": null
       },
@@ -693,30 +717,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:41:39.000Z"
-    },
-    {
-      "id": "TfwYhuXbnWEQ",
-      "representative": {
-        "id": "TfwYhuXbnWEQ",
-        "url": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-alterspraesidentin-eroeffnet-konstituierende-sitzung-des-landtags-in-sachsen-anhalt-faz-110093143.html",
-        "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-alterspraesidentin-eroeffnet-konstituierende-sitzung-des-landtags-in-sachsen-anhalt-faz-110093143.html",
-        "title": "Deutschland-Liveblog: Von Angern: Selbstbewusste Parlamente sind „keine ewig gewissen Einrichtungen“",
-        "description": "Alterspräsidentin eröffnet konstituierende Sitzung des Landtags in Sachsen-Anhalt +++ Siegmund hofft bei Wahl des Landtagspräsidenten auf „jede Stimme mehr“ +++ alle Entwicklungen im Liveblog",
-        "source": {
-          "id": "faz",
-          "name": "Frankfurter Allgemeine"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T09:39:04.000Z",
-        "imageUrl": "https://media0.faz.net/image/45454fae2ea7/w7424h4176x0y129/202610/43601.0.2633052445/die-linkenpolitikerin-eva-von.webp",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:39:04.000Z"
     },
     {
       "id": "OVZH7AeO2s36",
