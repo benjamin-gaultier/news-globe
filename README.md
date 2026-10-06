@@ -880,6 +880,46 @@ All Serbian outlets here publish in Latin script. Croatian and Serbian share one
 
 Hungarian, Finnish, Estonian, Latvian, Lithuanian, Slovak, Bulgarian and Greek have short stopword lists. These languages inflect heavily, so clustering leans on names and places, and fewer stories reach two outlets (Finland, Slovakia, Estonia and Lithuania especially).
 
+**Morocco** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Hespress FR | main feed | 10 | ✅ (10 items, fr) |
+| TelQuel | main feed | 9 | ✅ (fr) |
+| Le Desk | main feed | 8 | ✅ (10 items, fr) |
+| Les Inspirations ÉCO | main feed | 8 | ✅ (fr) |
+| La Vie éco | main feed | 7 | ✅ (fr) |
+| Yabiladi | news | 7 | ✅ (8 items, fr) |
+| ~~Le360~~, ~~Médias24~~, ~~Le Matin~~, ~~H24~~, ~~MAP~~, ~~SNRT~~ | — | — | ❌ **dropped**: 403 / 404 |
+
+**Algeria** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| TSA Algérie | main feed | 10 | ✅ (10 items, fr) |
+| Algérie360 | main feed | 8 | ✅ (fr) |
+| Algérie Patriotique | main feed | 7 | ✅ (10 items, fr) |
+| Le Jeune Indépendant | main feed | 7 | ✅ (10 items, fr) |
+| Algérie Eco | main feed | 6 | ✅ (10 items, fr) |
+| Observalgérie | main feed | 6 | ✅ (5 items, fr) |
+| ~~El Watan~~, ~~APS~~, ~~Le Quotidien d'Oran~~ | — | — | ❌ **dropped**: unreachable or not RSS |
+| ~~Le Soir d'Algérie~~, ~~L'Expression~~, ~~El Moudjahid~~ | — | — | ❌ **dropped**: 403 for bots |
+| ~~Radio Algérie~~ | — | — | ❌ **dropped**: stale feed (years old) |
+
+**Tunisia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| La Presse de Tunisie | main feed | 10 | ✅ (10 items, fr) |
+| Mosaïque FM | fr | 9 | ✅ (fr) |
+| Business News | main feed | 8 | ✅ (10 items, fr) |
+| Webdo | fr | 7 | ✅ (fr) |
+| Réalités | fr | 7 | ✅ (fr) |
+| Leaders | main feed | 7 | ✅ (fr) |
+| ~~Kapitalis~~, ~~TAP~~, ~~L'Économiste Maghrébin~~ | — | — | ❌ **dropped**: 404 / unreachable |
+
+The Maghreb countries use their French-language press, which the existing French stopwords cover. Arabic-language outlets would need their own tokenizer.
+
 Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Egypt (Ahram 403, three thin feeds), Thailand (three feeds of 5–10 items), the UAE (two feeds) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia, Tanzania and Saudi Arabia (one usable feed each).
 
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").

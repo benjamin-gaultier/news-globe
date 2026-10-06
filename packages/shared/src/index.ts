@@ -147,4 +147,7 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   EE: { code: 'EE', name: 'Estonia', lat: 58.7, lng: 25, altitude: 0.8 },
   LV: { code: 'LV', name: 'Latvia', lat: 56.9, lng: 24.6, altitude: 0.8 },
   LT: { code: 'LT', name: 'Lithuania', lat: 55.3, lng: 23.9, altitude: 0.8 },
+  MA: { code: 'MA', name: 'Morocco', lat: 31.8, lng: -7.1, altitude: 1.4 },
+  DZ: { code: 'DZ', name: 'Algeria', lat: 28, lng: 2.6, altitude: 1.8 },
+  TN: { code: 'TN', name: 'Tunisia', lat: 34, lng: 9.5, altitude: 1.0 },
 };
