@@ -134,7 +134,7 @@ Only one machine should run the ingest. Two pollers would double the requests to
 
 Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` and `CLOUDFLARE_API_TOKEN` are all set, either in the environment or in the repo-root `.env`. If none are set, the ingest only writes local files, as in development. If the upload fails (network, token), the run still writes `data/` and the next run retries; [publish.ts](packages/ingest/src/publish.ts) keeps its hashes in `data/.cache/publish.json`.
 
-To update the Pi (e.g. after adding a country, which also needs a Worker redeploy): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile && sudo systemctl restart news-globe-ingest`.
+To update the Pi (e.g. after adding a country, which also needs a Worker redeploy): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile`. No restart is needed: the watcher starts every run as a fresh `cli.ts` process, so the next run uses the new code and feeds. Only a change to `watch.ts` itself, or to its schedule, needs `sudo systemctl restart news-globe-ingest`.
 
 ### Pipeline details
 
@@ -725,7 +725,8 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 2. Probe candidate feeds and add 4–6 national outlets to `SOURCES`. Skip outlets that reprint another's copy (The Age/SMH, BusinessDay/TimesLIVE): they fake multi-outlet clusters.
 3. If its language has no stopword list yet, add one to `STOPWORDS_BY_LANGUAGE` in [normalize/text.ts](packages/ingest/src/normalize/text.ts). Otherwise clustering will match on function words.
 4. Run `pnpm ingest --offline` and read the multi-outlet clusters.
-5. Merge, then redeploy the Worker (`COUNTRIES` is bundled into the front end). On the Pi, run `git pull && pnpm install --frozen-lockfile && sudo systemctl restart news-globe-ingest` at least 15 minutes after probing. The next run publishes the new country.
+5. Merge, then redeploy the Worker (`COUNTRIES` is bundled into the front end).
+6. Hand your probe history to the Pi, so it won't fetch a feed you probed less than 15 minutes ago: copy your `data/.cache/http.json` to the Pi (e.g. `scp data/.cache/http.json pi:/tmp/probe-cache.json`) and run `pnpm cache:merge /tmp/probe-cache.json` there, between two runs (not on a :00/:15/:30/:45 boundary). Then `git pull && pnpm install --frozen-lockfile`. The next run publishes the new country.
 
 ## Next steps
 
