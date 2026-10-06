@@ -218,6 +218,18 @@ describe('titleTokens: Armenian, Azerbaijani and Uzbek', () => {
   });
 });
 
+describe('titleTokens: Persian and Nepali', () => {
+  it('unifies Arabic and Persian letters and drops Persian stopwords', () => {
+    expect(titleTokens('مجلس بودجه ۱۴۰۵ را تصویب کرد', 'fa')).toEqual(titleTokens('مجلس بودجه 1405 را تصويب كرد', 'fa'));
+    expect(titleTokens('مجلس بودجه را تصویب کرد', 'fa')).toEqual(new Set(['مجلس', 'بودجه', 'تصویب']));
+    expect(titleTokens('قیمت طلا امروز سه‌شنبه ۱۴ مهر ۱۴۰۵', 'fa')).toEqual(new Set(['طلا', '14']));
+  });
+  it('keeps Devanagari vowel signs and drops Nepali stopwords', () => {
+    expect(titleTokens('संसदमा बजेट पारित भएको छ', 'ne')).toEqual(new Set(['संसदमा', 'बजेट', 'पारित']));
+    expect(titleTokens('नेपाल', 'ne')).not.toEqual(titleTokens('नपल', 'ne'));
+  });
+});
+
 describe('titleTokens: years', () => {
   it('drops French calendar words', () => {
     expect(titleTokens('Nécrologie du 06 octobre 2026', 'fr')).toEqual(new Set(['06', 'necrologi']));

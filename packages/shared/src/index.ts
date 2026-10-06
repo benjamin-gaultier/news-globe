@@ -184,4 +184,6 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   AM: { code: 'AM', name: 'Armenia', lat: 40.2, lng: 45, altitude: 0.5 },
   AZ: { code: 'AZ', name: 'Azerbaijan', lat: 40.3, lng: 47.7, altitude: 0.6 },
   UZ: { code: 'UZ', name: 'Uzbekistan', lat: 41.4, lng: 64.5, altitude: 1.2 },
+  IR: { code: 'IR', name: 'Iran', lat: 32.5, lng: 54, altitude: 1.6 },
+  NP: { code: 'NP', name: 'Nepal', lat: 28.3, lng: 84, altitude: 0.8 },
 };

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AZ",
   "countryName": "Azerbaijan",
-  "updatedAt": "2026-10-06T16:42:33.362Z",
+  "updatedAt": "2026-10-06T16:48:21.577Z",
   "clusters": [
     {
       "id": "XdzDuDxM2Vts",
@@ -173,30 +173,6 @@
       "latestPublishedAt": "2026-10-06T13:49:00.000Z"
     },
     {
-      "id": "8F_grfCXaN1E",
-      "representative": {
-        "id": "8F_grfCXaN1E",
-        "url": "https://www.qafqazinfo.az/news/detail/hollivudda-tarixi-razilasma-110-milyardliq-neheng-sirket-quruldu-524115",
-        "canonicalUrl": "https://www.qafqazinfo.az/news/detail/hollivudda-tarixi-razilasma-110-milyardliq-neheng-sirket-quruldu-524115",
-        "title": "Hollivudda tarixi razılaşma",
-        "description": null,
-        "source": {
-          "id": "qafqazinfo",
-          "name": "Qafqazinfo"
-        },
-        "sourceCountry": "AZ",
-        "language": "az",
-        "publishedAt": "2026-10-06T16:42:33.362Z",
-        "imageUrl": null,
-        "countryCode": "AZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:42:33.362Z"
-    },
-    {
       "id": "AfDkOZlqXAkC",
       "representative": {
         "id": "AfDkOZlqXAkC",
@@ -210,7 +186,7 @@
         },
         "sourceCountry": "AZ",
         "language": "az",
-        "publishedAt": "2026-10-06T16:42:33.362Z",
+        "publishedAt": "2026-10-06T16:48:21.577Z",
         "imageUrl": null,
         "countryCode": "AZ",
         "regionCode": null
@@ -218,7 +194,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:42:33.362Z"
+      "latestPublishedAt": "2026-10-06T16:48:21.577Z"
     },
     {
       "id": "E91rF84mSHcW",
@@ -234,7 +210,7 @@
         },
         "sourceCountry": "AZ",
         "language": "az",
-        "publishedAt": "2026-10-06T16:42:33.362Z",
+        "publishedAt": "2026-10-06T16:48:21.577Z",
         "imageUrl": null,
         "countryCode": "AZ",
         "regionCode": null
@@ -242,7 +218,31 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:42:33.362Z"
+      "latestPublishedAt": "2026-10-06T16:48:21.577Z"
+    },
+    {
+      "id": "8F_grfCXaN1E",
+      "representative": {
+        "id": "8F_grfCXaN1E",
+        "url": "https://www.qafqazinfo.az/news/detail/hollivudda-tarixi-razilasma-110-milyardliq-neheng-sirket-quruldu-524115",
+        "canonicalUrl": "https://www.qafqazinfo.az/news/detail/hollivudda-tarixi-razilasma-110-milyardliq-neheng-sirket-quruldu-524115",
+        "title": "Hollivudda tarixi razılaşma",
+        "description": null,
+        "source": {
+          "id": "qafqazinfo",
+          "name": "Qafqazinfo"
+        },
+        "sourceCountry": "AZ",
+        "language": "az",
+        "publishedAt": "2026-10-06T16:46:00.000Z",
+        "imageUrl": null,
+        "countryCode": "AZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:46:00.000Z"
     },
     {
       "id": "-Uvd2P5dfy0Y",
