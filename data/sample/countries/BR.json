@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BR",
   "countryName": "Brazil",
-  "updatedAt": "2026-10-06T18:13:59.972Z",
+  "updatedAt": "2026-10-06T18:26:12.974Z",
   "clusters": [
     {
       "id": "WGReK7rMfYcS",
@@ -325,65 +325,6 @@
       "latestPublishedAt": "2026-10-06T00:13:16.000Z"
     },
     {
-      "id": "vrVOUWkX87BW",
-      "representative": {
-        "id": "vrVOUWkX87BW",
-        "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/deputados-federais-eleitos-no-brasil-veja-a-lista-com-todos-os-nomes.ghtml",
-        "canonicalUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/deputados-federais-eleitos-no-brasil-veja-a-lista-com-todos-os-nomes.ghtml",
-        "title": "Deputados federais eleitos no Brasil; veja a lista com todos os nomes",
-        "description": "Os eleitores brasileiros escolheram neste domingo (4) os 513 deputados federais que vão compor a Câmara dos Deputados a partir de 1º de fevereiro de 2027. As vagas são distribuídas entre partidos e federações pelo sistema proporcional: o número de cadeiras de cada legenda depende do total de votos…",
-        "source": {
-          "id": "g1",
-          "name": "g1"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-05T20:31:25.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/WYMP7oszosvB1EcIF3dhACe4JFg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/p/nJtFNjSwehmu8EnmEeEQ/formato-g1-30-.jpg",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "pQ36d3dPHbca",
-          "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-em-minas-gerais.shtml",
-          "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-em-minas-gerais.shtml",
-          "title": "Confira os deputados federais eleitos em Minas Gerais",
-          "description": "Com 100% das urnas apuradas, 53 deputados federais foram eleitos em Minas Gerais (MG) neste domingo (4). Leia mais (10/05/2026 - 15h23)",
-          "source": {
-            "id": "folha",
-            "name": "Folha de S.Paulo"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T18:23:00.000Z",
-          "imageUrl": null,
-          "countryCode": "BR",
-          "regionCode": null
-        },
-        {
-          "id": "xMILAXiIR_TZ",
-          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-veja-quem-sao-os-deputados-estaduais-eleitos-por-sp",
-          "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-2026-veja-quem-sao-os-deputados-estaduais-eleitos-por-sp",
-          "title": "Eleições 2026: veja quem são os deputados estaduais eleitos por SP",
-          "description": "Neste domingo (4), no primeiro turno das Eleições 2026, os eleitores do estado de São Paulo foram às urnas para escolher presidente, senadores, governador, deputados federais e também estaduais. Os votantes elegeram 94 deputados para a Assembleia Legislativa paulista. Com 100% das urnas apuradas…",
-          "source": {
-            "id": "agenciabrasil",
-            "name": "Agência Brasil"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T17:24:00.000Z",
-          "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-05T20:31:25.000Z"
-    },
-    {
       "id": "skbUenjYjQsL",
       "representative": {
         "id": "skbUenjYjQsL",
@@ -574,6 +515,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:17.000Z"
+    },
+    {
+      "id": "a_Y9Yno8b6H3",
+      "representative": {
+        "id": "a_Y9Yno8b6H3",
+        "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/bets-comecam-sair-do-ar-nesta-terca-feira",
+        "canonicalUrl": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/bets-comecam-sair-do-ar-nesta-terca-feira",
+        "title": "Bets começam a sair do ar nesta terça-feira",
+        "description": "Os sites e aplicativos de apostas esportivas e jogos online , conhecidos como bets, começam a sair do ar em todo o país nesta terça-feira (6). A medida cumpre o previsto na MP 1.394/2026 , que proibiu a exploração, a oferta, a intermediação e a publicidade dessas atividades no Brasil. O prazo para…",
+        "source": {
+          "id": "agenciabrasil",
+          "name": "Agência Brasil"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:55:00.000Z",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:55:00.000Z"
     }
   ]
 }

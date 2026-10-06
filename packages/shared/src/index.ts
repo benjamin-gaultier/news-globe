@@ -193,4 +193,7 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   IL: { code: 'IL', name: 'Israel', lat: 31.4, lng: 35, altitude: 0.5 },
   TJ: { code: 'TJ', name: 'Tajikistan', lat: 38.8, lng: 71, altitude: 0.8 },
   AF: { code: 'AF', name: 'Afghanistan', lat: 34, lng: 66, altitude: 1.2 },
+  KR: { code: 'KR', name: 'South Korea', lat: 36.3, lng: 127.8, altitude: 0.7 },
+  TH: { code: 'TH', name: 'Thailand', lat: 15, lng: 101, altitude: 1.1 },
+  BD: { code: 'BD', name: 'Bangladesh', lat: 23.8, lng: 90.3, altitude: 0.7 },
 };

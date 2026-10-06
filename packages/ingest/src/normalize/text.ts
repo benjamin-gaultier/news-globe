@@ -363,7 +363,7 @@ const STOPWORDS_FA = `
 جمعه فروردین اردیبهشت خرداد تیر مرداد شهریور مهر آبان آذر دی بهمن اسفند گفت اعلام خبر ویدئو فیلم
 عکس قیمت
 `;
-// Nepali keeps its vowel signs (see devanagariTokens), so this list is not folded.
+// Nepali keeps its vowel signs (see indicTokens), so this list is not folded.
 const STOPWORDS_NE = `
 र को का की मा ले लाई बाट छ छन् हो भएको गरेको गर्न पनि यो त्यो एक भने गर्ने हुने थियो सम्म लागि
 साथ आज हिजो भोलि वर्ष साल आइतबार सोमबार मंगलबार बुधबार बिहीबार शुक्रबार शनिबार बैशाख जेठ असार
@@ -375,6 +375,18 @@ const STOPWORDS_HE = `
 של את על עם זה זו זאת לא כי גם אבל או מה מי איך למה כל יותר אחרי לפני בין אל הוא היא הם הן אני
 אנחנו יש אין היה היתה היום אתמול מחר שנה שנים ישראל ראשון שני שלישי רביעי חמישי שישי שבת צפו
 תיעוד בלעדי
+`;
+// Korean syllable pairs (see koreanTokens) that are newsroom labels, not content.
+const STOPWORDS_KO = `속보 종합 단독 포토 영상 오늘 내일 어제 기자 사진`;
+// Thai words as Intl.Segmenter splits them (see thaiTokens).
+const STOPWORDS_TH = `
+ที่ และ ใน ของ ให้ ได้ เป็น มี ไม่ จาก กับ ว่า แล้ว จะ คน การ ความ วัน นี้ ล่าสุด ไป มา อยู่ ถึง หลัง
+ก่อน เพื่อ โดย ยัง ต่อ ด้วย ทั้ง เมื่อ หรือ แต่ อีก ปี เดือน
+`;
+// Bengali keeps its vowel signs (see indicTokens), so this list is not folded.
+const STOPWORDS_BN = `
+এবং এর না কে করে হয়েছে থেকে জন্য বলে সঙ্গে একটি আজ নিয়ে দিয়ে করা হবে হয় ছিল তার তিনি এই সেই
+বা আর কি কী যে পর আগে মধ্যে দিকে বছর ভিডিও ছবি
 `;
 // Cyrillic й folds to и (NFD), hence "маи".
 const STOPWORDS_BG = `
@@ -453,6 +465,9 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   hr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   bs: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  ko: wordSet(STOPWORDS_KO, STOPWORDS_EN, BOILERPLATE),
+  th: wordSet(STOPWORDS_TH, STOPWORDS_EN, BOILERPLATE),
+  bn: wordSet(STOPWORDS_BN, STOPWORDS_EN, BOILERPLATE),
   he: wordSet(STOPWORDS_HE, STOPWORDS_EN, BOILERPLATE),
   fa: wordSet(foldedWords(STOPWORDS_FA), STOPWORDS_EN, BOILERPLATE),
   ne: wordSet(STOPWORDS_NE, STOPWORDS_EN, BOILERPLATE),
@@ -549,6 +564,37 @@ function persianTokens(title: string): string[] {
 }
 
 /**
+ * Korean words carry their particles (대통령이, 대통령은, 대통령과), so each
+ * Hangul word is split into overlapping syllable pairs, as for Japanese
+ * kanji. Hangul must not go through foldText: NFD splits syllables into jamo.
+ */
+function koreanTokens(title: string): string[] {
+  const out: string[] = [];
+  for (const [run] of title.normalize('NFC').toLowerCase().matchAll(/\p{Script=Hangul}+|[^\s\p{Script=Hangul}]+/gu)) {
+    if (/\p{Script=Hangul}/u.test(run)) {
+      if (run.length === 1) continue;
+      for (let i = 0; i + 1 < run.length; i++) out.push(run.slice(i, i + 2));
+    } else {
+      out.push(...foldText(run).split(' '));
+    }
+  }
+  return out;
+}
+
+/**
+ * Thai has no spaces between words; ICU's dictionary-based word segmenter
+ * (Intl.Segmenter, built into Node) splits them. Tone and vowel marks are
+ * kept: they distinguish words.
+ */
+const THAI_SEGMENTER = new Intl.Segmenter('th', { granularity: 'word' });
+function thaiTokens(title: string): string[] {
+  const text = title.normalize('NFC').replace(/[\u0E50-\u0E59]/g, (d) => String(d.charCodeAt(0) - 0x0e50));
+  return [...THAI_SEGMENTER.segment(text)]
+    .filter((seg) => seg.isWordLike)
+    .flatMap((seg) => (/\p{Script=Thai}/u.test(seg.segment) ? [seg.segment] : foldText(seg.segment).split(' ')));
+}
+
+/**
  * Hebrew: acronyms keep their gershayim (", ״ or '') as one word (צה"ל → צהל),
  * and one prefix letter (ו ה ב ל מ ש כ: and, the, in, to, from, that, as) is
  * dropped from words of five letters or more, so ונתניהו and נתניהו match.
@@ -560,14 +606,15 @@ function hebrewTokens(title: string): string[] {
 }
 
 /**
- * Devanagari vowel signs and viramas are combining marks, so foldText would
- * strip them and leave bare consonants (नेपाल → नपल) that collide. Keep marks;
- * only digits are converted and zero-width joiners dropped.
+ * Devanagari and Bengali vowel signs and viramas are combining marks, so
+ * foldText would strip them and leave bare consonants (नेपाल → नपल) that
+ * collide. Keep marks; only digits are converted and zero-width joiners dropped.
  */
-function devanagariTokens(title: string): string[] {
+function indicTokens(title: string): string[] {
   return title
     .normalize('NFC')
     .replace(/[\u0966-\u096F]/g, (d) => String(d.charCodeAt(0) - 0x0966))
+    .replace(/[\u09E6-\u09EF]/g, (d) => String(d.charCodeAt(0) - 0x09e6))
     .replace(/[\u00AD\u200B-\u200D\u2060\uFEFF]/g, '')
     .toLowerCase()
     .replace(/[^\p{L}\p{M}\p{N}]+/gu, ' ')
@@ -607,8 +654,12 @@ export function titleTokens(title: string, language?: string): Set<string> {
             ? hebrewTokens(title)
             : language === 'fa'
             ? persianTokens(title)
-            : language === 'ne'
-              ? devanagariTokens(title)
+            : language === 'ne' || language === 'bn'
+              ? indicTokens(title)
+              : language === 'ko'
+                ? koreanTokens(title)
+                : language === 'th'
+                  ? thaiTokens(title)
               : foldText(title).split(' ');
   for (const raw of words) {
     if (!raw || stopwords.has(raw)) continue;

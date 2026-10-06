@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DZ",
   "countryName": "Algeria",
-  "updatedAt": "2026-10-06T18:13:59.972Z",
+  "updatedAt": "2026-10-06T18:26:12.974Z",
   "clusters": [
     {
       "id": "EE4LuwJ6MMLh",
@@ -96,82 +96,6 @@
       "outletCount24h": 5,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-05T21:14:00.000Z"
-    },
-    {
-      "id": "F0QAVWiQ0Sj0",
-      "representative": {
-        "id": "F0QAVWiQ0Sj0",
-        "url": "https://www.tsa-algerie.com/algerie-le-calendrier-des-examens-et-des-vacances-scolaires-devoile/",
-        "canonicalUrl": "https://www.tsa-algerie.com/algerie-le-calendrier-des-examens-et-des-vacances-scolaires-devoile/",
-        "title": "Algérie : le calendrier des examens et des vacances scolaires dévoilé",
-        "description": "Les élèves algériens sont fixés sur les dates des examens et des vacances de l’année scolaire 2026-2027. Le calendrier a été dévoilé ce lundi 5 octobre par le ministère de l’Éducation nationale. Pour le primaire, les examens du premier trimestre se dérouleront du 6 au 10 décembre 2026, ceux du…",
-        "source": {
-          "id": "tsa",
-          "name": "TSA Algérie"
-        },
-        "sourceCountry": "DZ",
-        "language": "fr",
-        "publishedAt": "2026-10-05T20:01:03.000Z",
-        "imageUrl": null,
-        "countryCode": "DZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "2gWa2_OCYZYu",
-          "url": "https://algerie-eco.com/2026/10/05/education-le-calendrier-des-examens-et-vacances-scolaires-devoile/",
-          "canonicalUrl": "https://algerie-eco.com/2026/10/05/education-le-calendrier-des-examens-et-vacances-scolaires-devoile/",
-          "title": "Education : le calendrier des examens et vacances scolaires annoncé",
-          "description": "Le ministère de l’Education nationale a annoncé, lundi dans un communiqué, le calendrier des examens trimestriels des trois cycles d’enseignement ainsi que des vacances scolaires de l’année 2026-2027. Pour le cycle de l’enseignement primaire, les examens du premier trimestre se dérouleront du 6 au…",
-          "source": {
-            "id": "algerieeco",
-            "name": "Algérie Eco"
-          },
-          "sourceCountry": "DZ",
-          "language": "fr",
-          "publishedAt": "2026-10-05T21:15:37.000Z",
-          "imageUrl": null,
-          "countryCode": "DZ",
-          "regionCode": null
-        },
-        {
-          "id": "9DDnF6p8fA2w",
-          "url": "https://www.jeune-independant.net/162251-2/",
-          "canonicalUrl": "https://www.jeune-independant.net/162251-2/",
-          "title": "Examens et vacances scolaires : Le calendrier fixé",
-          "description": "Le ministère de l’Éducation nationale a fixé la programmation des examens trimestriels et le calendrier des vacances scolaires au titre de l’année scolaire 2026-2027. Cette programmation intervient dans le cadre des préparatifs liés à l’organisation des examens scolaires nationaux pour les trois…",
-          "source": {
-            "id": "jeuneindependant",
-            "name": "Le Jeune Indépendant"
-          },
-          "sourceCountry": "DZ",
-          "language": "fr",
-          "publishedAt": "2026-10-05T18:25:38.000Z",
-          "imageUrl": null,
-          "countryCode": "DZ",
-          "regionCode": null
-        },
-        {
-          "id": "eqAJZXPR9AdP",
-          "url": "https://www.algerie360.com/calendrier-examens-trimestriels-2026-2027-education/",
-          "canonicalUrl": "https://www.algerie360.com/calendrier-examens-trimestriels-2026-2027-education/",
-          "title": "Éducation : le calendrier des examens trimestriels 2026-2027 dévoilé",
-          "description": "Le ministère de l’Éducation nationale a arrêté le calendrier des évaluations trimestrielles pour l’année scolaire 2026-2027. Les dates des vacances scolaires et du congé annuel […] L’article Éducation : le calendrier des examens trimestriels 2026-2027 dévoilé est apparu en premier sur .",
-          "source": {
-            "id": "algerie360",
-            "name": "Algérie360"
-          },
-          "sourceCountry": "DZ",
-          "language": "fr",
-          "publishedAt": "2026-10-05T17:56:40.000Z",
-          "imageUrl": "https://www.algerie360.com/wp-content/uploads/2026/09/ABCD-2026-09-04T225736.493.jpg",
-          "countryCode": "DZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-05T21:15:37.000Z"
     },
     {
       "id": "pSdZ_M3Ctegn",
@@ -298,6 +222,82 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T06:50:34.000Z"
+    },
+    {
+      "id": "F0QAVWiQ0Sj0",
+      "representative": {
+        "id": "F0QAVWiQ0Sj0",
+        "url": "https://www.tsa-algerie.com/algerie-le-calendrier-des-examens-et-des-vacances-scolaires-devoile/",
+        "canonicalUrl": "https://www.tsa-algerie.com/algerie-le-calendrier-des-examens-et-des-vacances-scolaires-devoile/",
+        "title": "Algérie : le calendrier des examens et des vacances scolaires dévoilé",
+        "description": "Les élèves algériens sont fixés sur les dates des examens et des vacances de l’année scolaire 2026-2027. Le calendrier a été dévoilé ce lundi 5 octobre par le ministère de l’Éducation nationale. Pour le primaire, les examens du premier trimestre se dérouleront du 6 au 10 décembre 2026, ceux du…",
+        "source": {
+          "id": "tsa",
+          "name": "TSA Algérie"
+        },
+        "sourceCountry": "DZ",
+        "language": "fr",
+        "publishedAt": "2026-10-05T20:01:03.000Z",
+        "imageUrl": null,
+        "countryCode": "DZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "2gWa2_OCYZYu",
+          "url": "https://algerie-eco.com/2026/10/05/education-le-calendrier-des-examens-et-vacances-scolaires-devoile/",
+          "canonicalUrl": "https://algerie-eco.com/2026/10/05/education-le-calendrier-des-examens-et-vacances-scolaires-devoile/",
+          "title": "Education : le calendrier des examens et vacances scolaires annoncé",
+          "description": "Le ministère de l’Education nationale a annoncé, lundi dans un communiqué, le calendrier des examens trimestriels des trois cycles d’enseignement ainsi que des vacances scolaires de l’année 2026-2027. Pour le cycle de l’enseignement primaire, les examens du premier trimestre se dérouleront du 6 au…",
+          "source": {
+            "id": "algerieeco",
+            "name": "Algérie Eco"
+          },
+          "sourceCountry": "DZ",
+          "language": "fr",
+          "publishedAt": "2026-10-05T21:15:37.000Z",
+          "imageUrl": null,
+          "countryCode": "DZ",
+          "regionCode": null
+        },
+        {
+          "id": "9DDnF6p8fA2w",
+          "url": "https://www.jeune-independant.net/162251-2/",
+          "canonicalUrl": "https://www.jeune-independant.net/162251-2/",
+          "title": "Examens et vacances scolaires : Le calendrier fixé",
+          "description": "Le ministère de l’Éducation nationale a fixé la programmation des examens trimestriels et le calendrier des vacances scolaires au titre de l’année scolaire 2026-2027. Cette programmation intervient dans le cadre des préparatifs liés à l’organisation des examens scolaires nationaux pour les trois…",
+          "source": {
+            "id": "jeuneindependant",
+            "name": "Le Jeune Indépendant"
+          },
+          "sourceCountry": "DZ",
+          "language": "fr",
+          "publishedAt": "2026-10-05T18:25:38.000Z",
+          "imageUrl": null,
+          "countryCode": "DZ",
+          "regionCode": null
+        },
+        {
+          "id": "eqAJZXPR9AdP",
+          "url": "https://www.algerie360.com/calendrier-examens-trimestriels-2026-2027-education/",
+          "canonicalUrl": "https://www.algerie360.com/calendrier-examens-trimestriels-2026-2027-education/",
+          "title": "Éducation : le calendrier des examens trimestriels 2026-2027 dévoilé",
+          "description": "Le ministère de l’Éducation nationale a arrêté le calendrier des évaluations trimestrielles pour l’année scolaire 2026-2027. Les dates des vacances scolaires et du congé annuel […] L’article Éducation : le calendrier des examens trimestriels 2026-2027 dévoilé est apparu en premier sur .",
+          "source": {
+            "id": "algerie360",
+            "name": "Algérie360"
+          },
+          "sourceCountry": "DZ",
+          "language": "fr",
+          "publishedAt": "2026-10-05T17:56:40.000Z",
+          "imageUrl": "https://www.algerie360.com/wp-content/uploads/2026/09/ABCD-2026-09-04T225736.493.jpg",
+          "countryCode": "DZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-05T21:15:37.000Z"
     },
     {
       "id": "UgOqlqaTL5ir",

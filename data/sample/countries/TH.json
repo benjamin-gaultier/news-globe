@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "TH",
+  "countryName": "Thailand",
+  "updatedAt": "2026-10-06T18:26:12.974Z",
+  "clusters": [
+    {
+      "id": "ae7sl6flmS1L",
+      "representative": {
+        "id": "ae7sl6flmS1L",
+        "url": "https://www.thairath.co.th/news/politic/2964584",
+        "canonicalUrl": "https://www.thairath.co.th/news/politic/2964584",
+        "title": "“ทวี”แท็กทีมเอกชนซับน้ำตา “ไรเดอร์” ลุยเปลี่ยนน้ำมันเครื่องฟรีหลังน้ำท่วมรามคำแหง",
+        "description": "“ทวี” ชูสปิริตยามยากไม่ทิ้งกัน แท็กทีมเอกชนซับน้ำตา “ไรเดอร์” ลุยเปลี่ยนน้ำมันเครื่องฟรีหลังน้ำท่วมรามคำแหง พร้อมเดินหน้าดัน พ.ร.บ.คุ้มครองไรเดอร์",
+        "source": {
+          "id": "thairath",
+          "name": "Thairath"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T14:57:47.000Z",
+        "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2FDrROsi9zYgCq.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "whHwEsyWSwIh",
+          "url": "https://www.matichon.co.th/local/news_5921968",
+          "canonicalUrl": "https://www.matichon.co.th/local/news_5921968",
+          "title": "ทวี แท็กทีมเอกชน ซับน้ำตา ‘ไรเดอร์’ ลุยเปลี่ยนน้ำมันเครื่องฟรี หลังน้ำท่วมรามคำแหง",
+          "description": "ทวี ชูสปิริตยามยากไม่ทิ้งกัน แท็กทีมเอกชนซับน้ำตา &#821 […]",
+          "source": {
+            "id": "matichon",
+            "name": "Matichon"
+          },
+          "sourceCountry": "TH",
+          "language": "th",
+          "publishedAt": "2026-10-06T15:16:22.000Z",
+          "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/yamyarkkkk1.jpg",
+          "countryCode": "TH",
+          "regionCode": null
+        },
+        {
+          "id": "s06noxxNHuFO",
+          "url": "https://www.khaosod.co.th/politics/news_10427998",
+          "canonicalUrl": "https://www.khaosod.co.th/politics/news_10427998",
+          "title": "‘ทวี สอดส่อง’ ชูสปิริตยามยากไม่ทิ้งกัน แท็กทีมเอกชนซับน้ำตา ‘ไรเดอร์’ เปลี่ยนน้ำมันเครื่องฟรีหลังน้ำท่วม",
+          "description": "‘ทวี สอดส่อง’ ชูสปิริตยามยากไม่ทิ้งกัน แท็กทีมเอกชนซับน้ำตา ‘ไรเดอร์’ ลุยเปลี่ยนน้ำมันเครื่องฟรีหลังน้ำท่วมรามคำแหง พร้อมเดินหน้าดัน พ.ร.บ.คุ้มครองไรเดอร์ วันที่ 6 ต.ค.69 ที่ศูนย์ดารุลกุรอาน รามคำแหง 81 กลุ่มไรเดอร์จัดโครงการเปลี่ยนถ่ายน้ำมันเครื่องฟรี…",
+          "source": {
+            "id": "khaosod",
+            "name": "Khaosod"
+          },
+          "sourceCountry": "TH",
+          "language": "th",
+          "publishedAt": "2026-10-06T14:50:00.000Z",
+          "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/atatatha.jpg",
+          "countryCode": "TH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T15:16:22.000Z"
+    },
+    {
+      "id": "7vIHp1LH07w1",
+      "representative": {
+        "id": "7vIHp1LH07w1",
+        "url": "https://www.thairath.co.th/news/crime/2964559",
+        "canonicalUrl": "https://www.thairath.co.th/news/crime/2964559",
+        "title": "“พล.ต.อ.สำราญ” แต่งตั้ง “พล.ต.ต.ศิริวัฒน์ ดีพอ” โฆษก ตร.คนใหม่ มีปรับทัพทีมสื่อสาร",
+        "description": "ผบ.ตร.แต่งตั้ง “พล.ต.ต.ศิริวัฒน์ ดีพอ” โฆษก ตร.คนใหม่ ปรับทัพทีมสื่อสาร เปิดตัว 5 รองโฆษก ตร. เข้าถึงทุกเจเนอเรชัน พร้อมชูวิสัยทัศน์ “สื่อสารเชิงรุก เตือนชัดทุกภัย ใส่ใจทุกปัญหา”",
+        "source": {
+          "id": "thairath",
+          "name": "Thairath"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T11:15:03.000Z",
+        "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2E9Kzce49K9ArP.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "huermpJcA93q",
+          "url": "https://www.khaosod.co.th/crime/news_10427914",
+          "canonicalUrl": "https://www.khaosod.co.th/crime/news_10427914",
+          "title": "ผบ.ตร. แต่งตั้ง ทีมโฆษกตร.ชุดใหม่ ปรับทัพทีมสื่อสารรุ่นใหม่ เน้นเชิงรุก ทันสถานการณ์",
+          "description": "ผบ.ตร. แต่งตั้ง ทีมโฆษกตร.ชุดใหม่ ปรับทัพทีมสื่อสารรุ่นใหม่ เน้นเชิงรุก ทันสถานการณ์ มอบ“พล.ต.ต.ศิริวัฒน์ ดีพอ” รองจเรตำรวจ นำทัพทีมสื่อสาร วันที่ 6 ต.ค.2569 พล.ต.อ.สำราญ นวลมา ผบ.ตร. มีคำสั่งแต่งตั้งทีมโฆษกสำนักงานตำรวจแห่งชาติ โดยแต่งตั้ง “พล.ต.ต.ศิริวัฒน์ ดีพอ” รองจเรตำรวจ เป็น…",
+          "source": {
+            "id": "khaosod",
+            "name": "Khaosod"
+          },
+          "sourceCountry": "TH",
+          "language": "th",
+          "publishedAt": "2026-10-06T13:32:49.000Z",
+          "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/polcall1.jpg",
+          "countryCode": "TH",
+          "regionCode": null
+        },
+        {
+          "id": "Mv8ooZU7fX9X",
+          "url": "https://www.matichon.co.th/local/crime/news_5921734",
+          "canonicalUrl": "https://www.matichon.co.th/local/crime/news_5921734",
+          "title": "ผบ.ตร. ตั้ง ศิริวัฒน์ ดีพอ นั่งโฆษก ตร.คนใหม่ เปิดทีม 5 รองโฆษกฯ ชูสื่อสารเชิงรุก",
+          "description": "ผบ.ตร. ตั้ง ศิริวัฒน์ ดีพอ นั่งโฆษก ตร.คนใหม่ เปิดทีม 5 […]",
+          "source": {
+            "id": "matichon",
+            "name": "Matichon"
+          },
+          "sourceCountry": "TH",
+          "language": "th",
+          "publishedAt": "2026-10-06T11:54:05.000Z",
+          "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/perdtuaaa1.jpg",
+          "countryCode": "TH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:32:49.000Z"
+    },
+    {
+      "id": "WvnBvxEeFd5v",
+      "representative": {
+        "id": "WvnBvxEeFd5v",
+        "url": "https://www.matichon.co.th/sport/news_5921989",
+        "canonicalUrl": "https://www.matichon.co.th/sport/news_5921989",
+        "title": "RoV ประกาศแบนนักแข่งโปรลีก ตลอดชีวิต หลังเอี่ยวพนัน-ล็อกผลแข่งขัน",
+        "description": "RoV ประกาศแบนนักแข่งโปรลีก ตลอดชีวิต หลังเอี่ยวพนัน-ล็อ […]",
+        "source": {
+          "id": "matichon",
+          "name": "Matichon"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T15:25:52.000Z",
+        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/a26-2.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "hDvgh0txxFbQ",
+          "url": "https://www.khaosod.co.th/sports/game-esport/news_10428003",
+          "canonicalUrl": "https://www.khaosod.co.th/sports/game-esport/news_10428003",
+          "title": "RoV ประกาศแบนนักแข่งโปร ลีก ตลอดชีวิต หลังเอี่ยวพนัน-ล็อกผลการแข่งขัน",
+          "description": "ฝ่ายจัดการแข่งขัน RoV Pro League ลีกอีสปอร์ตระดับอาชีพของเกม RoV ออกมาประกาศลงโทษหนึ่งในนักกีฬาของสโมสร Hydra Esports หลังตรวจพบว่ามีพฤติกรรมเกี่ยวข้องกับการพนัน และล็อกผลการแข่งขัน (Match Fixing) จากความผิดดังกล่าวทำให้ทางฝ่ายจัดการแข่งขันได้ตัดสินลงโทษนักกีฬาคนดังกล่าวโดยแบนจากการแข่งขัน RoV Pro…",
+          "source": {
+            "id": "khaosod",
+            "name": "Khaosod"
+          },
+          "sourceCountry": "TH",
+          "language": "th",
+          "publishedAt": "2026-10-06T14:59:58.000Z",
+          "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/rpl2026.jpg",
+          "countryCode": "TH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:25:52.000Z"
+    },
+    {
+      "id": "Xr4zzHf0xD2B",
+      "representative": {
+        "id": "Xr4zzHf0xD2B",
+        "url": "https://www.matichon.co.th/entertainment/thai-entertainment/news_5921857",
+        "canonicalUrl": "https://www.matichon.co.th/entertainment/thai-entertainment/news_5921857",
+        "title": "เสก โลโซ โพสต์ภาพคู่ ทักษิณ แคปชั่นสั้นๆ ‘ใจสั่งมา’ แฟนคลับแห่ขอเพลง",
+        "description": "เสก โลโซ โพสต์ภาพคู่ ทักษิณ แคปชั่นสั้นๆ ‘ใจสั่งม […]",
+        "source": {
+          "id": "matichon",
+          "name": "Matichon"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T13:34:13.000Z",
+        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/a16-2.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "kiQ7_ReTszjF",
+          "url": "https://www.thairath.co.th/news/politic/2964587",
+          "canonicalUrl": "https://www.thairath.co.th/news/politic/2964587",
+          "title": "“เสก โลโซ” โชว์ภาพจับไมค์ควงคู่ “ทักษิณ” บอก “ใจสั่งมา”",
+          "description": "“เสก โลโซ” โชว์ภาพจับไมค์ควงคู่ “ทักษิณ”พร้อมโพสต์บอก“ใจสั่งมา”",
+          "source": {
+            "id": "thairath",
+            "name": "Thairath"
+          },
+          "sourceCountry": "TH",
+          "language": "th",
+          "publishedAt": "2026-10-06T15:06:46.000Z",
+          "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2FDrOCUzebUmgP.jpg",
+          "countryCode": "TH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:06:46.000Z"
+    },
+    {
+      "id": "FwI-dWGdBkiU",
+      "representative": {
+        "id": "FwI-dWGdBkiU",
+        "url": "https://www.khaosod.co.th/monitor-news/news_10428006",
+        "canonicalUrl": "https://www.khaosod.co.th/monitor-news/news_10428006",
+        "title": "น้อมรำลึกถึงสมเด็จย่า เรียนรู้พื้นที่แห่งพระเมตตา ไร่แม่ฟ้าหลวง ในนิทรรศการ ‘คิดถึงสมเด็จย่า’ ครั้งที่ 29",
+        "description": "บริษัท ไอคอนสยาม จำกัด ซึ่งเป็นบริษัทในเครือสยามพิวรรธน์กรุ๊ป ร่วมกับ มูลนิธิแม่ฟ้าหลวง ในพระบรมราชูปถัมภ์ บริษัท ไทยเบฟเวอเรจ จำกัด (มหาชน) และบริษัท เฟรเซอร์ส พร็อพเพอร์ตี้ (ประเทศไทย) จำกัด (มหาชน) ร่วมน้อมรำลึกถึงพระมหากรุณาธิคุณของสมเด็จพระศรีนครินทราบรมราชชนนี จัดนิทรรศการ “คิดถึงสมเด็จย่า…",
+        "source": {
+          "id": "khaosod",
+          "name": "Khaosod"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T15:05:43.000Z",
+        "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/ya.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "jbpAc-pAqX1W",
+          "url": "https://www.prachachat.net/biz-movement/news-2077098",
+          "canonicalUrl": "https://www.prachachat.net/biz-movement/news-2077098",
+          "title": "น้อมรำลึกถึงสมเด็จย่า เรียนรู้พื้นที่แห่งพระเมตตา“ไร่แม่ฟ้าหลวง” ในนิทรรศการ“คิดถึงสมเด็จย่า” ครั้งที่ 29",
+          "description": "บริษัท ไอคอนสยาม จำกัด ในเครือสยามพิวรรธน์กรุ๊ป ร่วมกับ มูลนิธิแม่ฟ้าหลวง ในพระบรมราชูปถัมภ์ บริษัท ไทยเบฟเวอเรจ จำกัด (มหาชน) และบริษัท เฟรเซอร์ส พร็อพเพอร์ตี้ (ประเทศไทย) จำกัด (มหาชน) ร่วมน้อมรำลึกถึงพระมหากรุณาธิคุณของสมเด็จพระศรีนครินทราบรมราชชน … อ่านข่าวต้นฉบับ: น้อมรำลึกถึงสมเด็จย่า…",
+          "source": {
+            "id": "prachachat",
+            "name": "Prachachat"
+          },
+          "sourceCountry": "TH",
+          "language": "th",
+          "publishedAt": "2026-10-06T08:36:10.000Z",
+          "imageUrl": "https://www.prachachat.net/wp-content/uploads/2026/10/%E0%B8%9B%E0%B8%81.jpg",
+          "countryCode": "TH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:05:43.000Z"
+    },
+    {
+      "id": "0_MXtvHshbwC",
+      "representative": {
+        "id": "0_MXtvHshbwC",
+        "url": "https://www.thairath.co.th/news/governmentpolicy/2964578",
+        "canonicalUrl": "https://www.thairath.co.th/news/governmentpolicy/2964578",
+        "title": "เปิดวิ่งฟรี มอเตอร์เวย์ M6 ช่วงบางปะอิน-หินกอง เลี่ยงเส้นทางน้ำท่วม 6-11 ต.ค. 69",
+        "description": "กรมทางหลวงเปิดให้วิ่งฟรี มอเตอร์เวย์ M6 ช่วงบางปะอิน-หินกอง ทั้งไปและกลับ เพื่อเลี่ยงเส้นทางน้ำท่วม เริ่ม 6 - 11 ต.ค. 69 หรือจนกว่าสถานการณ์จะคลี่คลาย ย้ำผู้ใช้รถขับขี่ด้วยความระมัดระวัง",
+        "source": {
+          "id": "thairath",
+          "name": "Thairath"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T13:19:46.000Z",
+        "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2E8k6BJ674UoAr.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "DFKOtMnPdC51",
+          "url": "https://www.khaosod.co.th/economics/news_10427956",
+          "canonicalUrl": "https://www.khaosod.co.th/economics/news_10427956",
+          "title": "เพิ่มทางเลือกเลี่ยงพื้นที่น้ำท่วม วิ่งฟรี มอเตอร์เวย์ M6 บางปะอิน-หินกอง เริ่ม 6-11 ต.ค.",
+          "description": "เพิ่มทางเลือกเลี่ยงพื้นที่น้ำท่วม เปิดวิ่งฟรี มอเตอร์เวย์ M6 ช่วงบางปะอิน-หินกอง ทั้งไปและกลับ เริ่ม 6-11 ต.ค. หรือจนกว่าสถานการณ์คลี่คลาย วันที่ 6 ต.ค.69 กรมทางหลวง โดยกองทางหลวงพิเศษระหว่างเมือง ขานรับนโยบายกระทรวงคมนาคมในการอำนวยความสะดวกและบรรเทาความเดือดร้อนของประชาชนจากสถานการณ์น้ำท่วม…",
+          "source": {
+            "id": "khaosod",
+            "name": "Khaosod"
+          },
+          "sourceCountry": "TH",
+          "language": "th",
+          "publishedAt": "2026-10-06T14:06:31.000Z",
+          "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/errghhtht.jpg",
+          "countryCode": "TH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:06:31.000Z"
+    },
+    {
+      "id": "7kv8edgv3xlD",
+      "representative": {
+        "id": "7kv8edgv3xlD",
+        "url": "https://www.thairath.co.th/news/crime/2964575",
+        "canonicalUrl": "https://www.thairath.co.th/news/crime/2964575",
+        "title": "ไล่ล่า 3 คนร้าย บุกปล้นบ้านหรูชลบุรี กวาดเงิน-โรเล็กซ์ บังคับโอนคริปโต เสียหาย 37 ล้าน",
+        "description": "ผบช.ภ.2 นำทีมลงพื้นที่ สภ.หนองปรือ จ.ชลบุรี ติดตามคดี 3 คนร้ายบุกบ้านพักหรูย่านหนองปรือ ใช้ปืนข่มขู่ชาวต่างชาติ ก่อนกวาดเงินสด-นาฬิกา Rolex 3 เรือน และบังคับโอนคริปโตเคอร์เรนซี",
+        "source": {
+          "id": "thairath",
+          "name": "Thairath"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T12:48:19.000Z",
+        "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2E8j1PdbgbQAeg.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "BjtM2I0xR7QF",
+          "url": "https://www.khaosod.co.th/around-thailand/news_10427845",
+          "canonicalUrl": "https://www.khaosod.co.th/around-thailand/news_10427845",
+          "title": "อุกอาจ 3คนร้ายควงปืน บุกปล้นบ้านหรู กวาดเงิน-นาฬิกาโรเล็กซ์ เสียหายเกือบ 30 ล้าน",
+          "description": "อุกอาจ 3คนร้ายควงปืน บุกปล้นบ้านหรู กวาดเงิน-นาฬิกาโรเล็กซ์ เสียหายเกือบ 30 ล้าน บังคับผู้เสียหายให้โอนคริปโต ตร.เร่งตามล่าตัว เมื่อเวลา 15.30 น. วันที่ 6 ต.ค.2569 พล.ต.ท.วสันต์ เตชะอัครเกษม ผบช.ภ.2 พร้อมด้วย พล.ต.ต.ชาตรี สุขศิริ ผบก.ภ.จว.ชลบุรี และ พล.ต.ต.เกียรติศักดิ์ สระทองออย ผบก.สส.ภ.2…",
+          "source": {
+            "id": "khaosod",
+            "name": "Khaosod"
+          },
+          "sourceCountry": "TH",
+          "language": "th",
+          "publishedAt": "2026-10-06T12:46:55.000Z",
+          "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/thifehome1.jpg",
+          "countryCode": "TH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:48:19.000Z"
+    },
+    {
+      "id": "z2st7eLWmfKI",
+      "representative": {
+        "id": "z2st7eLWmfKI",
+        "url": "https://www.matichon.co.th/sport/thai-sport/news_5921749",
+        "canonicalUrl": "https://www.matichon.co.th/sport/thai-sport/news_5921749",
+        "title": "บู๋ พัทยา ซิวแชมป์พูลประเทศไทย สมัย 5 บิ๊กฮงอ้าแขนรับสปอนเซอร์จัดอาชีพปีหน้า",
+        "description": "บู๋ พัทยา ซิวแชมป์พูลประเทศไทย สมัย 5 บิ๊กฮงอ้าแขนรับสป […]",
+        "source": {
+          "id": "matichon",
+          "name": "Matichon"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T12:00:00.000Z",
+        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/punsong_20261006_185214_0000.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Stnwmvcw_WVh",
+          "url": "https://www.khaosod.co.th/sports/news_10427855",
+          "canonicalUrl": "https://www.khaosod.co.th/sports/news_10427855",
+          "title": "บู๋ พัทยา ซิวแชมป์พูล ประเทศไทย สมัย 5 – น้ำ พัทยา แชมป์ฝ่ายหญิง",
+          "description": "“บู๋ พัทยา” โชว์ฟอร์มสด ไล่บี้คู่ปรับ “โอ๊ด ระนอง” ขาดลอย 13-8 แรค คว้าแชมป์พูล 9 ลูกประเทศไทย เป็นสมัยที่ 5 ด้าย น้ำ พัทยา ฝีมือเยี่ยม ทิ่ม ติ๊งต่าง ทีบีซี 13-8 แรค ซิวแชมป์หญิง “บิ๊กฮง” ย้ำปีหน้าวางแผนไว้อย่างยิ่งใหญ่ หวังสร้างนักสอยคิวฝีมือดีติดทีมชาติอีกมากมาย การแข่งขันพูล 9 ลูก…",
+          "source": {
+            "id": "khaosod",
+            "name": "Khaosod"
+          },
+          "sourceCountry": "TH",
+          "language": "th",
+          "publishedAt": "2026-10-06T12:24:41.000Z",
+          "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/pool1.jpg",
+          "countryCode": "TH",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:24:41.000Z"
+    },
+    {
+      "id": "xJCdQi_6KwMN",
+      "representative": {
+        "id": "xJCdQi_6KwMN",
+        "url": "https://www.matichon.co.th/sport/footballlocal/news_5921947",
+        "canonicalUrl": "https://www.matichon.co.th/sport/footballlocal/news_5921947",
+        "title": "จับติ้วแล้ว ช้าง เอฟเอ คัพ บุรีรัมย์ พบทีมน้องเล็กไทยลีก 3 เปิดสนาม 20 ต.ค.นี้",
+        "description": "จับติ้วแล้ว ช้าง เอฟเอ คัพ บุรีรัมย์ พบทีมน้องเล็กไทยลี […]",
+        "source": {
+          "id": "matichon",
+          "name": "Matichon"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T18:00:31.000Z",
+        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/11111111.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:00:31.000Z"
+    },
+    {
+      "id": "w-IWb65KCvMP",
+      "representative": {
+        "id": "w-IWb65KCvMP",
+        "url": "https://www.khaosod.co.th/around-thailand/news_10428043",
+        "canonicalUrl": "https://www.khaosod.co.th/around-thailand/news_10428043",
+        "title": "บางน้ำเปรี้ยวอ่วม! มวลน้ำนครนายกไหลมาสมทบ ท่วมสูง 1.50 เมตร",
+        "description": "บางน้ำเปรี้ยวอ่วม! มวลน้ำนครนายกไหลมาสมทบ ระดับน้ำท่วมสูง 1.50 เมตร บางครอบครัวเก็บของไม่ทัน หลายบ้านเตรียมอพยพเพิ่ม หากต้องตัดกระแสไฟฟ้า 6 ต.ค. 69 – สถานการณ์น้ำท่วมในพื้นที่ จ.ฉะเชิงเทรา ยังคงน่าเป็นห่วง หลังเกือบทุกอำเภอยังมีน้ำท่วมสูง โดยเฉพาะที่ อ.บางน้ำเปรี้ยวใน…",
+        "source": {
+          "id": "khaosod",
+          "name": "Khaosod"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T17:35:50.000Z",
+        "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/bnp.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:35:50.000Z"
+    },
+    {
+      "id": "uY98ZibT0ELx",
+      "representative": {
+        "id": "uY98ZibT0ELx",
+        "url": "https://www.matichon.co.th/sport/thai-sport/news_5921496",
+        "canonicalUrl": "https://www.matichon.co.th/sport/thai-sport/news_5921496",
+        "title": "เกรซ กาญจน์เกล้า – รัศมีแข ปลุกพลังนักวิ่งกว่า 4,600 คน กับ สปอนเซอร์ รัน 2026",
+        "description": "เกรซ กาญจน์เกล้า – รัศมีแข ปลุกพลังนักวิ่งกว่า 4, […]",
+        "source": {
+          "id": "matichon",
+          "name": "Matichon"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T17:17:33.000Z",
+        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/964.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:17:33.000Z"
+    },
+    {
+      "id": "qzfuI4_iB2bS",
+      "representative": {
+        "id": "qzfuI4_iB2bS",
+        "url": "https://www.thairath.co.th/news/foreign/2964597",
+        "canonicalUrl": "https://www.thairath.co.th/news/foreign/2964597",
+        "title": "สหรัฐฯ อนุมัติขายอาวุธมูลค่า 1 พันล้านดอลลาร์ให้สหรัฐอาหรับเอมิเรตส์",
+        "description": "สหรัฐฯ อนุมัติขายอาวุธมูลค่า 1 พันล้านดอลลาร์ให้แก่สหรัฐอาหรับเอมิเรตส์ เพิ่มเสริมขีดความสามารถในการป้องกันประเทศจากการโจมตีของอิหร่าน ท่ามกลางภาวะสงครามที่ยังคงไม่จบสิ้น",
+        "source": {
+          "id": "thairath",
+          "name": "Thairath"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T17:00:39.000Z",
+        "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2FDaHGwMocLQpr.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:00:39.000Z"
+    },
+    {
+      "id": "8jMiYVGJMzsH",
+      "representative": {
+        "id": "8jMiYVGJMzsH",
+        "url": "https://www.khaosod.co.th/around-thailand/news_10428040",
+        "canonicalUrl": "https://www.khaosod.co.th/around-thailand/news_10428040",
+        "title": "รวบหมอดู ลืมดูดวงตัวเอง ตั้งแผงขาย ‘บุหรี่เถื่อน’ ในงานวัด",
+        "description": "รวบหมอดู ลืมดูดวงตัวเอง ตั้งแผงขาย ‘บุหรี่เถื่อน’ ในงานวัด เจ้าหน้าที่ตำรวจได้รับแจ้งเยาวชนมาซื้ออื้อ จึงบุกจับพร้อมของกลาง 6 ต.ค. 69 – เจ้าหน้าที่ตำรวจชุดสืบสวน สภ.สัตหีบ จ.ชลบุรี วางแผนล่อซื้อบุหรี่ต่างประเทศไม่ติดแสตมป์ยาสูบ ก่อนเข้าจับกุม นายสานิตย์ อายุ 68 ปี ซึ่งประกอบอาชีพหมอดู…",
+        "source": {
+          "id": "khaosod",
+          "name": "Khaosod"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T16:43:08.000Z",
+        "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/sth.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:43:08.000Z"
+    },
+    {
+      "id": "2WbiE4mdz6dq",
+      "representative": {
+        "id": "2WbiE4mdz6dq",
+        "url": "https://www.matichon.co.th/politics/news_5922024",
+        "canonicalUrl": "https://www.matichon.co.th/politics/news_5922024",
+        "title": "ทนายเมย์ ฝากสภาฯ ฟังเสียงปชช.พิจารณาร่าง พ.ร.บ.เลิกคำสั่ง ฉ.41 ไมใช่ลบอดีต แต่เพื่ออนาคต",
+        "description": "ทนายเมย์ ฝากสภาฯ ฟังเสียงปชช.พิจารณาร่าง พ.ร.บ.เลิกคำสั […]",
+        "source": {
+          "id": "matichon",
+          "name": "Matichon"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T16:02:47.000Z",
+        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/jeeespa1.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:02:47.000Z"
+    },
+    {
+      "id": "-XF9OROPsI2F",
+      "representative": {
+        "id": "-XF9OROPsI2F",
+        "url": "https://www.matichon.co.th/sport/thai-sport/news_5921453",
+        "canonicalUrl": "https://www.matichon.co.th/sport/thai-sport/news_5921453",
+        "title": "น้ำ พัทยา สวย-เก่ง-โหด ต้อน ติ๊งต่าง ซิวแชมป์พูล 2026",
+        "description": "น้ำ พัทยา สวย-เก่ง-โหด ต้อน ติ๊งต่าง ซิวแชมป์พูล 2026 ก […]",
+        "source": {
+          "id": "matichon",
+          "name": "Matichon"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T16:01:32.000Z",
+        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/11484439.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:01:32.000Z"
+    }
+  ]
+}
