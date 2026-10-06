@@ -30,6 +30,7 @@ function ArticleLink({ article, className, english }: { article: Article; classN
       target="_blank"
       rel="noopener noreferrer"
       lang={title.translated ? TARGET_LANGUAGE : article.language}
+      dir="auto"
       title={title.translated ? article.title : undefined}
     >
       {title.text}
@@ -71,7 +72,7 @@ export function StoryItem({ cluster, now, english }: { cluster: StoryCluster; no
             )}
           </div>
           {description.text && (
-            <p className="story-desc" lang={description.translated ? TARGET_LANGUAGE : rep.language}>
+            <p className="story-desc" lang={description.translated ? TARGET_LANGUAGE : rep.language} dir="auto">
               {description.text}
             </p>
           )}

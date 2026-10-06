@@ -387,6 +387,8 @@ English-language press only. Hindi outlets would need Hindi stopwords.
 
 Japanese is written without spaces, so titles are not split on whitespace. Kanji runs become overlapping character bigrams (石破首相 → 石破, 破首, 首相), katakana runs are kept whole (loanwords and foreign names), and hiragana (particles and verb endings) is dropped (`japaneseTokens` in [text.ts](packages/ingest/src/normalize/text.ts)). Titles are NFKC-normalized so full-width Ｇ７ and １１ match G7 and 11, and dakuten are kept, so バス and パス stay distinct.
 
+Arabic attaches the article and some prepositions to the word (الحكومة, والحكومة, للحكومة are all "the government"), and spelling varies in hamza forms and final letters. `arabicTokens` in [text.ts](packages/ingest/src/normalize/text.ts) maps alef variants to ا, ة to ه and ى to ي, drops tatweel and diacritics, turns Arabic-Indic digits into ASCII, then strips one article prefix (ال with an optional و ف ب ك, or لل) if at least three letters remain. Single-letter و/ب/ل prefixes are left alone because too many roots start with them (وزير, بيان, لجنة). The Arabic stopword list goes through the same normalization. Headlines and snippets render with `dir="auto"`, so Arabic text runs right to left.
+
 **Ireland** (added 2026-10-06)
 
 | Outlet | Feeds | Authority | Status |
@@ -918,9 +920,46 @@ Hungarian, Finnish, Estonian, Latvian, Lithuanian, Slovak, Bulgarian and Greek h
 | Leaders | main feed | 7 | ✅ (fr) |
 | ~~Kapitalis~~, ~~TAP~~, ~~L'Économiste Maghrébin~~ | — | — | ❌ **dropped**: 404 / unreachable |
 
-The Maghreb countries use their French-language press, which the existing French stopwords cover. Arabic-language outlets would need their own tokenizer.
+The Maghreb countries use their French-language press, which the existing French stopwords cover.
 
-Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Egypt (Ahram 403, three thin feeds), Thailand (three feeds of 5–10 items), the UAE (two feeds) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia, Tanzania and Saudi Arabia (one usable feed each).
+**Egypt** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Al-Masry Al-Youm | main feed | 10 | ✅ (ar) |
+| Al-Shorouk | egypt | 9 | ✅ (9 items, ar) |
+| Sada El Balad | main feed | 7 | ✅ (ar) |
+| Veto | main feed | 7 | ✅ (ar; dates ~3h ahead, clamped) |
+| Al-Bawaba News | main feed | 6 | ✅ (ar; dates ~3h ahead, clamped) |
+| ~~Al-Ahram~~, ~~Akhbar El Yom~~, ~~Cairo 24~~, ~~Al-Wafd~~, ~~Al-Dostor~~ | — | — | ❌ **dropped**: 403 for bots |
+| ~~Youm7~~ | — | — | ❌ **dropped**: undated items |
+| ~~Masrawy~~ | — | — | ❌ **dropped**: serves an HTML page |
+
+**Saudi Arabia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Asharq Al-Awsat | main feed | 10 | ✅ (ar; pan-Arab, Saudi-owned) |
+| Okaz | main feed | 9 | ✅ (ar) |
+| Al-Watan | main feed | 8 | ✅ (ar) |
+| Al-Madina | main feed | 7 | ✅ (ar) |
+| ~~Sabq~~, ~~Al Arabiya~~, ~~Arab News~~ | — | — | ❌ **dropped**: 403 for bots |
+
+**Lebanon** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| An-Nahar | main feed | 10 | ✅ (ar) |
+| LBCI | latest news | 9 | ✅ (20 items, ar) |
+| Al-Modon | main feed | 8 | ✅ (ar) |
+| ~~Al-Akhbar~~, ~~Al-Joumhouria~~ | — | — | ❌ **dropped**: 403 for bots |
+| ~~Al Jadeed~~ | — | — | ❌ **dropped**: serves an HTML page |
+
+An-Nahar and LBCI both run the same wire copy, so their shared stories merge as identical headlines.
+
+Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia and Tanzania (one usable feed each), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403).
+
+**Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept.
 
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
 

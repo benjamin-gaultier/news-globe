@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GH",
   "countryName": "Ghana",
-  "updatedAt": "2026-10-06T14:12:18.553Z",
+  "updatedAt": "2026-10-06T14:35:42.831Z",
   "clusters": [
     {
       "id": "C7-0Wk2CxuHt",
@@ -213,48 +213,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T11:27:35.000Z"
-    },
-    {
-      "id": "tSCoekfGwXoN",
-      "representative": {
-        "id": "tSCoekfGwXoN",
-        "url": "https://www.myjoyonline.com/rahim-ibrahim-extends-contract-with-slovan-bratislava-until-2030/",
-        "canonicalUrl": "https://www.myjoyonline.com/rahim-ibrahim-extends-contract-with-slovan-bratislava-until-2030/",
-        "title": "Rahim Ibrahim extends contract with Slovan Bratislava until 2030",
-        "description": "Ghana midfielder Rahim Ibrahim has signed a contract extension with Slovan Bratislava that will keep him at the club until 2030. The 25-year-old has put pen to paper on a new deal after establishing himself as a key player for the Slovakian side. Rahim, who joined Slovan Bratislava in 2025, has…",
-        "source": {
-          "id": "myjoyonline",
-          "name": "MyJoyOnline"
-        },
-        "sourceCountry": "GH",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:58:37.000Z",
-        "imageUrl": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Rahim-Ibrahim.jpg",
-        "countryCode": "GH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "SgYYWsTbvcZ_",
-          "url": "https://3news.com/sports/rahim-ibrahim-promises-to-give-his-all-for-slovan-after-contract-extension",
-          "canonicalUrl": "https://3news.com/sports/rahim-ibrahim-promises-to-give-his-all-for-slovan-after-contract-extension",
-          "title": "Rahim Ibrahim promises to give his all for Slovan after contract extension",
-          "description": "Ghanaian midfielder Rahim Ibrahim has vowed to repay the faith shown in him by Slovan Bratislava after committing his future to the Slovakian giants until 2030.",
-          "source": {
-            "id": "3news",
-            "name": "3News"
-          },
-          "sourceCountry": "GH",
-          "language": "en",
-          "publishedAt": "2026-10-05T14:14:51.000Z",
-          "imageUrl": "https://media.3news.com/Screenshot_2026-10-05-15-06-35-410_com.instagram.android-edit-800x806.webp",
-          "countryCode": "GH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:58:37.000Z"
     },
     {
       "id": "ltjJJw3j323A",
@@ -525,6 +483,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:09:51.000Z"
+    },
+    {
+      "id": "MC1zvTmlPFSI",
+      "representative": {
+        "id": "MC1zvTmlPFSI",
+        "url": "https://3news.com/business/uk-ghana-trade-resource-centre-launched-to-help-businesses-tap-export-opportunities",
+        "canonicalUrl": "https://3news.com/business/uk-ghana-trade-resource-centre-launched-to-help-businesses-tap-export-opportunities",
+        "title": "UK-Ghana Trade Resource Centre launched to help businesses tap export opportunities",
+        "description": "The UK-Ghana Chamber of Commerce has launched a Trade Resource Centre to help businesses navigate export rules, find partners, and use the UK-Ghana TPA.",
+        "source": {
+          "id": "3news",
+          "name": "3News"
+        },
+        "sourceCountry": "GH",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:09:26.000Z",
+        "imageUrl": "https://media.3news.com/WhatsApp%20Image%202026-10-06%20at%2012.24.52%20PM-1200x800.webp",
+        "countryCode": "GH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:09:26.000Z"
     }
   ]
 }

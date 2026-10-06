@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CA",
   "countryName": "Canada",
-  "updatedAt": "2026-10-06T14:12:18.553Z",
+  "updatedAt": "2026-10-06T14:35:42.831Z",
   "clusters": [
     {
       "id": "IVZaH0wgm3Su",
@@ -106,48 +106,6 @@
       "latestPublishedAt": "2026-10-06T01:47:15.000Z"
     },
     {
-      "id": "tDguBP1_RuXX",
-      "representative": {
-        "id": "tDguBP1_RuXX",
-        "url": "https://www.theglobeandmail.com/canada/toronto/article-trial-begins-for-man-accused-in-pearson-gold-heist/",
-        "canonicalUrl": "https://www.theglobeandmail.com/canada/toronto/article-trial-begins-for-man-accused-in-pearson-gold-heist/",
-        "title": "Trial begins for man accused in Pearson gold heist",
-        "description": "Parmpal Sidhu charged with theft over $5,000 and conspiracy to commit an indictable offence",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-05T14:33:40.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/4NC6RQEEOVBKLOFSFTROQOGPR4.jpg?auth=e88c67cb33d79201ab82a167629d10531838bdf8f7086a02f7a78ffe5485b194&smart=true&width=4662&height=2980",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "0x2-ZF_pPQql",
-          "url": "https://www.ctvnews.ca/canada/article/trial-begins-for-man-accused-in-massive-gold-heist-at-torontos-pearson-airport/",
-          "canonicalUrl": "https://www.ctvnews.ca/canada/article/trial-begins-for-man-accused-in-massive-gold-heist-at-torontos-pearson-airport/",
-          "title": "Trial begins for man accused in massive gold heist at Toronto’s Pearson airport",
-          "description": "Prosecutors allege an Air Canada employee provided a doctored waybill that allowed another man to pick up more than $22 million in gold and currency from a Toronto Pearson airport cargo bay in what investigators have called one of the largest gold heists in Canadian history.",
-          "source": {
-            "id": "ctv",
-            "name": "CTV News"
-          },
-          "sourceCountry": "CA",
-          "language": "en",
-          "publishedAt": "2026-10-05T22:45:14.000Z",
-          "imageUrl": "https://www.ctvnews.ca/resizer/v2/ZZGWG7WESNGONCYKBK5QKJCGOU.jpg?auth=78f431de29f861c0b2283996e80ea93f902de4c48def156241496c2eeecec293&smart=true&width=4662&height=2980",
-          "countryCode": "CA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T22:45:14.000Z"
-    },
-    {
       "id": "2WvHfrKWvBrI",
       "representative": {
         "id": "2WvHfrKWvBrI",
@@ -203,7 +161,7 @@
         },
         "sourceCountry": "CA",
         "language": "en",
-        "publishedAt": "2026-10-06T14:12:18.553Z",
+        "publishedAt": "2026-10-06T14:35:42.831Z",
         "imageUrl": "https://www.ctvnews.ca/resizer/v2/45MTOAKPSXWGQD7VOOOLRVRUEI.jpg?auth=6a097b3ad50abd6768bf700b4f91143f4374bd44aca864aae96024e76de58e4a&smart=true&width=1400&height=809",
         "countryCode": "CA",
         "regionCode": null
@@ -211,7 +169,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:12:18.553Z"
+      "latestPublishedAt": "2026-10-06T14:35:42.831Z"
     },
     {
       "id": "j2VzeQ1IINZk",
@@ -452,6 +410,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:39:47.000Z"
+    },
+    {
+      "id": "4AIDvEQANplF",
+      "representative": {
+        "id": "4AIDvEQANplF",
+        "url": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-physics-francis-halzen/",
+        "canonicalUrl": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-physics-francis-halzen/",
+        "title": "Neutrino experiment pioneer Francis Halzen wins Nobel Prize in Physics",
+        "description": "University of Wisconsin-Madison professor is best known for his work establishing the IceCube Neutrino Observatory at the South Pole",
+        "source": {
+          "id": "globeandmail",
+          "name": "The Globe and Mail"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:27:01.000Z",
+        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/VBZI4CBNNNFDJBCGYAABJE6EDA.JPG?auth=4b649f4065fdfd5515ac3f40984020ca6f94393803ae2af1e4317a5451277dc0&smart=true&width=1632&height=1089",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:27:01.000Z"
     }
   ]
 }

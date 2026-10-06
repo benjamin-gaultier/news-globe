@@ -40,3 +40,29 @@ describe('parseFeed', () => {
     expect(items[1]).toMatchObject({ imageUrl: 'https://img.example.fr/b.png', publishedAt: null, description: null });
   });
 });
+
+describe('parseFeed: malformed feeds', () => {
+  const item = (extra = '') => `<item><title>Titre &amp; sous-titre</title><link>https://www.example.ma/a</link>
+    <pubDate>Tue, 06 Oct 2026 06:30:00 GMT</pubDate>${extra}
+    <enclosure url="https://img.example.ma/a.jpg" type="image/jpeg"/></item>`;
+
+  it('repairs bare ampersands and junk before the first tag', async () => {
+    const body = `\uFEFF\n Notice: undefined index\n<?xml version="1.0"?><rss version="2.0"><channel><title>X</title>
+      <item><title>Q&A sur le budget</title><link>https://www.example.ma/b?x=1&y=2</link></item></channel></rss>`;
+    const items = await parseFeed(body, 'https://www.example.ma/rss');
+    expect(items.map((i) => [i.title, i.url])).toEqual([['Q&A sur le budget', 'https://www.example.ma/b?x=1&y=2']]);
+  });
+
+  it('falls back to a loose parse, keeping images', async () => {
+    const body = `<?xml version="1.0"?><rss version="2.0"><channel><title>X</title>
+      ${item('<description><iframe allowfullscreen src="x"></iframe></description>')}</channel></rss>`;
+    const items = await parseFeed(body, 'https://www.example.ma/rss');
+    expect(items).toHaveLength(1);
+    expect(items[0]).toMatchObject({
+      title: 'Titre & sous-titre',
+      url: 'https://www.example.ma/a',
+      publishedAt: '2026-10-06T06:30:00.000Z',
+      imageUrl: 'https://img.example.ma/a.jpg',
+    });
+  });
+});
