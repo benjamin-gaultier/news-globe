@@ -1,0 +1,23 @@
+{
+  "name": "@news-globe/ingest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ingest": "tsx src/cli.ts",
+    "ingest:watch": "tsx src/watch.ts",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@news-globe/shared": "workspace:*",
+    "node-cron": "^4.6.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

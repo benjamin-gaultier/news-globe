@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "FR",
+  "countryName": "France",
+  "updatedAt": "2026-10-06T08:26:48.325Z",
+  "clusters": [
+    {
+      "id": "uOU2N-HGSEV-",
+      "representative": {
+        "id": "uOU2N-HGSEV-",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/06/primaire-a-gauche-plus-de-140-000-inscrits-appeles-a-designer-leur-candidat-a-la-presidentielle_6788654_823448.html",
+        "canonicalUrl": "https://www.lemonde.fr/politique/article/2026/10/06/primaire-a-gauche-plus-de-140-000-inscrits-appeles-a-designer-leur-candidat-a-la-presidentielle_6788654_823448.html",
+        "title": "Primaire à gauche : plus de 140 000 personnes se sont inscrites pour désigner leur candidat à la présidentielle",
+        "description": "Le premier tour de la primaire sociale-démocrate, qui oppose Olivier Faure, Raphaël Glucksmann, Jérôme Guedj, Emmanuel Maurel et Ségolène Royal, se déroulera vendredi et samedi, après une campagne marquée par de nombreuses passes d’armes.",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T00:01:47.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/01/872/0/7379/3689/644/322/60/0/2df7a5f_ftp-1-9j5phcjsqev2-5240898-01-06.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "jaWmwLW2xTGO",
+          "url": "https://www.liberation.fr/politique/elections/plus-de-140-000-inscrits-a-la-primaire-de-la-gauche-cest-tres-au-dela-de-nos-previsions-20261006_NWQ42SOQ25HMHJ52LOES36CARY/",
+          "canonicalUrl": "https://www.liberation.fr/politique/elections/plus-de-140-000-inscrits-a-la-primaire-de-la-gauche-cest-tres-au-dela-de-nos-previsions-20261006_NWQ42SOQ25HMHJ52LOES36CARY/",
+          "title": "Plus de 140 000 inscrits à la primaire de la gauche : «C’est très au-delà de nos prévisions»",
+          "description": "Grand ouf de soulagement au Parti socialiste et à Place publique qui ont annoncé lundi soir à minuit un nombre de votants plus important qu’espéré pour départager leurs cinq candidats. Premier tour du scrutin, les 9 et 10 octobre.",
+          "source": {
+            "id": "liberation",
+            "name": "Libération"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T05:47:42.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": null
+        },
+        {
+          "id": "8hJ7mSs_bPGu",
+          "url": "https://www.franceinfo.fr/elections/presidentielle/primaire-socialiste-pres-de-128-000-personnes-sont-inscrites-pour-voter-selon-un-chiffre-preliminaire_8223943.html#xtor=RSS-3-%5Bgeneral%5D",
+          "canonicalUrl": "https://www.franceinfo.fr/elections/presidentielle/primaire-socialiste-pres-de-128-000-personnes-sont-inscrites-pour-voter-selon-un-chiffre-preliminaire_8223943.html",
+          "title": "Plus de 140 000 personnes inscrites pour voter à la primaire socialiste pour la présidentielle 2027",
+          "description": "Les inscriptions étaient ouvertes jusqu'à lundi 23h59. Ils seront précisément 140 282 inscrits en mesure d'aller voter au premier tour les 9 et 10 octobre pour départager Ségolène Royal, Emmanuel Maurel, Raphaël Glucksmann, Olivier Faure et Jérôme Guedj.",
+          "source": {
+            "id": "franceinfo",
+            "name": "franceinfo"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T05:30:34.000Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/Kmvm8Vm6IwUEjTgP1L4HdGOqIXg/0x66:1024x642/432x243/filters:format(jpg)/2026/10/05/6ac3f877b585c031808225.jpg",
+          "countryCode": "FR",
+          "regionCode": null
+        },
+        {
+          "id": "fW0bwLtGzfE3",
+          "url": "https://www.20minutes.fr/politique/4251626-20261005-primaire-gauche-pres-130-000-personnes-inscrites-voter-9-10-octobre?at_medium=display&at_campaign=149",
+          "canonicalUrl": "https://www.20minutes.fr/politique/4251626-20261005-primaire-gauche-pres-130-000-personnes-inscrites-voter-9-10-octobre",
+          "title": "Primaire de la gauche : Plus de 140.000 personnes inscrites pour voter les 9 et 10 octobre",
+          "description": "Quelque 140.000 électeurs sont appelés à départager Ségolène Royal, Emmanuel Maurel, Raphaël Glucksmann, Olivier Faure et Jérôme Guedj lors du scrutin des 9 et 10 octobre",
+          "source": {
+            "id": "20minutes",
+            "name": "20 Minutes"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T18:30:41.000Z",
+          "imageUrl": "https://img.20mn.fr/DDVTg1seTsKDDpHT4rexAyk/1200x768_les-candidats-du-ps-socialiste-et-des-partis-de-centre-gauche-place-publique-pp-priment-avant-l-election-presidentielle-francaise-de-2027-de-gauche-a-droite-olivier-faure-emmanuel-maurel-segolene-royal-raphael-glucksmann-et-jerome-guedj-se-tiennent-devant-le-debut-d-un-debat-televise-et-radiophonique-en-direct-avec-quatre-autres-candidats-a-la-presidentielle-diffuse-sur-la-chaine-de-television-publique-francaise-france-2-et-la-radio-publique-france-inter-a-la-maison-de-la-radio-et-de-la-musique-siege-de-radio-france-a-paris-le-1er-octobre-2026-accorsinijeanne-debate-0033-credit-jeanne-accorsini-sipa-2610012245",
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T05:47:42.000Z"
+    },
+    {
+      "id": "bFfAtMOSbfff",
+      "representative": {
+        "id": "bFfAtMOSbfff",
+        "url": "https://www.lemonde.fr/societe/video/2026/10/05/blocage-de-lycee-a-lens-ce-que-l-on-sait-du-jeune-homme-qui-a-eu-la-main-arrachee-par-une-grenade_6788576_3224.html",
+        "canonicalUrl": "https://www.lemonde.fr/societe/video/2026/10/05/blocage-de-lycee-a-lens-ce-que-l-on-sait-du-jeune-homme-qui-a-eu-la-main-arrachee-par-une-grenade_6788576_3224.html",
+        "title": "Blocage de lycée à Lens : ce que l’on sait de l’adolescent qui a eu la main arrachée par une grenade",
+        "description": "Plusieurs vidéos montrent le garçon de 15 ans mutilé, et une enquête a été confiée à l’IGPN. « Le Monde » a pu contacter un témoin, qui décrit une explosion compatible avec une GM2L, grenade particulièrement dangereuse qu’emploient les forces de l’ordre françaises.",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-05T18:15:28.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/05/246/0/1080/540/644/322/60/0/aff11b8_upload-1-07enbv5dkk74-v-montage-00-03-40-06-still001.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "AIXFZIiNPx2T",
+          "url": "https://www.20minutes.fr/societe/4251598-20261005-blocus-lycees-adolescent-gravement-blesse-main-arrachee-lens?at_medium=display&at_campaign=149",
+          "canonicalUrl": "https://www.20minutes.fr/societe/4251598-20261005-blocus-lycees-adolescent-gravement-blesse-main-arrachee-lens",
+          "title": "Colère des lycéens : Un adolescent gravement blessé, avec une main arrachée, à Lens",
+          "description": "A Lens, un adolescent a vu sa main arrachée pendant une manifestation. La gauche remet en cause la doctrine de maintien de l’ordre et interpelle Laurent Nuñez",
+          "source": {
+            "id": "20minutes",
+            "name": "20 Minutes"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T17:14:55.000Z",
+          "imageUrl": "https://img.20mn.fr/R99VmDeBQ-apeftPFPaRUSk/1200x768_des-policiers-lancent-des-gaz-lacrymogenes-sur-des-lyceens-qui-manifestent-a-clermont-ferrand-en-france-le-2-octobre-2026-depuis-fin-septembre-les-eleves-francais-organisent-des-manifestations-devant-leurs-ecoles-pour-attirer-l-attention-sur-divers-problemes-notamment-les-horaires-et-les-salles-de-classe-surcharges-ou-le-manque-d-enseignants-photo-d-adrien-fillon-hans-lucas-via-afp",
+          "countryCode": "FR",
+          "regionCode": null
+        },
+        {
+          "id": "SSDD5g4Fxf1_",
+          "url": "https://www.liberation.fr/societe/police-justice/mouvement-des-lyceens-a-lens-un-adolescent-a-eu-la-main-arrachee-par-une-grenade-de-desencerclement-20261005_RFVLTSYOPJGD3BKL4H5H6P67HE/",
+          "canonicalUrl": "https://www.liberation.fr/societe/police-justice/mouvement-des-lyceens-a-lens-un-adolescent-a-eu-la-main-arrachee-par-une-grenade-de-desencerclement-20261005_RFVLTSYOPJGD3BKL4H5H6P67HE/",
+          "title": "A Lens, un lycéen a eu une main arrachée, l’IGPN saisie",
+          "description": "L’élève de 15 ans, scolarisé en seconde, a été blessé ce lundi 5 octobre par une grenade, sans qu’on connaisse les circonstances précises. Le procureur de Béthune a saisi l’IGPN.",
+          "source": {
+            "id": "liberation",
+            "name": "Libération"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T13:02:51.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-05T18:15:28.000Z"
+    },
+    {
+      "id": "XtoKC54rvKyC",
+      "representative": {
+        "id": "XtoKC54rvKyC",
+        "url": "https://www.franceinfo.fr/politique/front-national/le-rn-va-presenter-son-contre-budget-en-pleine-affaire-bardella_8223664.html#xtor=RSS-3-%5Bgeneral%5D",
+        "canonicalUrl": "https://www.franceinfo.fr/politique/front-national/le-rn-va-presenter-son-contre-budget-en-pleine-affaire-bardella_8223664.html",
+        "title": "Le RN va présenter son contre-budget, en pleine \"affaire Bardella\"",
+        "description": "Les deux dirigeants du Rassemblement national tiendront une conférence de presse mardi pour présenter le budget que Marine Le Pen défendra si elle arrive au pouvoir. Mais celle-ci risque d'être rattrapée par la polémique sur les propos antisémites attribués à Jordan Bardella.",
+        "source": {
+          "id": "franceinfo",
+          "name": "franceinfo"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T04:59:45.000Z",
+        "imageUrl": "https://www.franceinfo.fr/pictures/2k-bDaCejggqQEerbYn5qvbGWFQ/0x0:2482x1396/432x243/filters:format(jpg)/2026/10/05/6ac3c7694a2ab273831080.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "u6nNTlfA4DeH",
+          "url": "https://www.liberation.fr/politique/en-quete-de-credibilite-le-rn-va-presenter-son-contre-budget-20261005_PUBTT7GPRBE3PNKA5KHOPVPTCY/",
+          "canonicalUrl": "https://www.liberation.fr/politique/en-quete-de-credibilite-le-rn-va-presenter-son-contre-budget-20261005_PUBTT7GPRBE3PNKA5KHOPVPTCY/",
+          "title": "En quête de crédibilité, le RN va présenter son contre-budget",
+          "description": "Alors que le parti a été ébranlé par les écrits antisémites de Jordan Bardella, le binôme du RN doit détailler son plan de 125 milliards, espérant ainsi convaincre de son sérieux.",
+          "source": {
+            "id": "liberation",
+            "name": "Libération"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T15:02:24.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T04:59:45.000Z"
+    },
+    {
+      "id": "Iu-e85TkCKf-",
+      "representative": {
+        "id": "Iu-e85TkCKf-",
+        "url": "https://www.lemonde.fr/societe/article/2026/10/05/a-lyon-jean-bernard-plessy-l-ancien-directeur-des-chartreux-en-garde-a-vue-dans-une-enquete-pour-viol-aggrave_6788563_3224.html",
+        "canonicalUrl": "https://www.lemonde.fr/societe/article/2026/10/05/a-lyon-jean-bernard-plessy-l-ancien-directeur-des-chartreux-en-garde-a-vue-dans-une-enquete-pour-viol-aggrave_6788563_3224.html",
+        "title": "A Lyon, Jean-Bernard Plessy, l’ancien directeur des Chartreux, en garde à vue dans une enquête pour viol aggravé",
+        "description": "L’ancien supérieur de la très réputée école catholique est suspecté d’avoir exercé une emprise pour obtenir des relations sexuelles de la part d’une élève durant plusieurs mois. Il avait été démis de ses fonctions par l’archevêque Olivier de Germay après la révélation de l’affaire.",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-05T16:49:56.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/05/312/0/2160/1080/644/322/60/0/36f1935_upload-1-j2amhlexesho-maxnewsspecialtwo722183.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "PP7KfxwCtOt-",
+          "url": "https://www.liberation.fr/societe/police-justice/lyon-accuse-de-viols-lex-directeur-de-letablissement-catholique-des-chartreux-place-en-garde-a-vue-20261005_V5YYZTO7IJHSRIHNVCI7OF722Q/",
+          "canonicalUrl": "https://www.liberation.fr/societe/police-justice/lyon-accuse-de-viols-lex-directeur-de-letablissement-catholique-des-chartreux-place-en-garde-a-vue-20261005_V5YYZTO7IJHSRIHNVCI7OF722Q/",
+          "title": "Lyon : accusé de viols, l’ex-directeur de l’établissement catholique des Chartreux placé en garde à vue",
+          "description": "Visé par une plainte déposée par une étudiante, l’homme de 63 ans a été évincé de la direction de l’institution. Il a été entendu par la police ce lundi 5 octobre et conteste les faits qui lui sont reprochés.",
+          "source": {
+            "id": "liberation",
+            "name": "Libération"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T19:08:57.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T19:08:57.000Z"
+    },
+    {
+      "id": "vfdBIroiXYyw",
+      "representative": {
+        "id": "vfdBIroiXYyw",
+        "url": "https://www.lefigaro.fr/faits-divers/meurtre-de-federico-martin-aramburu-a-paris-condamne-a-26-ans-de-prison-loik-le-priol-fait-appel-20261005",
+        "canonicalUrl": "https://www.lefigaro.fr/faits-divers/meurtre-de-federico-martin-aramburu-a-paris-condamne-a-26-ans-de-prison-loik-le-priol-fait-appel-20261005",
+        "title": "Meurtre de Federico Martin Aramburu à Paris : condamné à 26 ans de prison, Loïk Le Priol fait appel",
+        "description": "INFO LE FIGARO - Trois jours après son comparse Romain Bouvier et après être allé au bout du délai imparti, l’ancien militaire de 32 ans a décidé de relancer le bras de fer judiciaire.",
+        "source": {
+          "id": "lefigaro",
+          "name": "Le Figaro"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-05T10:15:38.000Z",
+        "imageUrl": "https://i.f1g.fr/media/cms/2576x1449_crop/2026/10/05/8f6f3d84dfa9d7cd9e10701a3af4d14643aa5d85484eb7a0c0ef6ad239ce7977.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "J5Pu1zg7_dgt",
+          "url": "https://www.liberation.fr/societe/police-justice/meurtre-de-federico-martin-aramburu-condamnes-en-premiere-instance-le-priol-et-bouvier-ont-fait-appel-20261005_MUDVAP2YVJGTDP27JWZDG4E2RA/",
+          "canonicalUrl": "https://www.liberation.fr/societe/police-justice/meurtre-de-federico-martin-aramburu-condamnes-en-premiere-instance-le-priol-et-bouvier-ont-fait-appel-20261005_MUDVAP2YVJGTDP27JWZDG4E2RA/",
+          "title": "Meurtre de Federico Martín Aramburú : condamnés en première instance, Le Priol et Bouvier ont fait appel",
+          "description": "Les deux militants de l’ultradroite parisienne radicale et violente ont été condamnés à 26 et 19 années de réclusion le 25 septembre, à l’issue de trois semaines de procès.",
+          "source": {
+            "id": "liberation",
+            "name": "Libération"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T16:58:05.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T16:58:05.000Z"
+    },
+    {
+      "id": "DJnPiZRU---0",
+      "representative": {
+        "id": "DJnPiZRU---0",
+        "url": "https://www.franceinfo.fr/faits-divers/un-mort-cinq-blesses-dans-le-haut-rhin-un-immeuble-ravage-par-un-incendie-meurtrier_8223373.html#xtor=RSS-3-%5Bgeneral%5D",
+        "canonicalUrl": "https://www.franceinfo.fr/faits-divers/un-mort-cinq-blesses-dans-le-haut-rhin-un-immeuble-ravage-par-un-incendie-meurtrier_8223373.html",
+        "title": "Un mort, cinq blessés : dans le Haut-Rhin, un immeuble ravagé par un incendie meurtrier",
+        "description": "Un violent incendie s'est déclaré en pleine nuit, lundi 5 octobre, dans un immeuble d'habitation à Gunsbach, dans le Haut-Rhin. Les flammes ont rapidement gagné les combles, piégeant plusieurs habitants dans les étages. Un voisin est parvenu à faire évacuer deux familles, dont trois enfants. Le…",
+        "source": {
+          "id": "franceinfo",
+          "name": "franceinfo"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-05T12:24:01.000Z",
+        "imageUrl": "https://www.franceinfo.fr/pictures/3aoUGoOPghGYRzsndSBH5kOZ-sc/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/05/6ac396cdb12d9820920132.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "G8bKGL0QWCXd",
+          "url": "https://www.liberation.fr/societe/police-justice/dans-le-haut-rhin-lincendie-dun-immeuble-ancien-fait-deux-morts-20261005_SE3RBRZ5DVEXDCXTIEW3TSVPNY/",
+          "canonicalUrl": "https://www.liberation.fr/societe/police-justice/dans-le-haut-rhin-lincendie-dun-immeuble-ancien-fait-deux-morts-20261005_SE3RBRZ5DVEXDCXTIEW3TSVPNY/",
+          "title": "Dans le Haut-Rhin, l’incendie d’un immeuble ancien fait deux morts",
+          "description": "Le feu s’est déclaré ce lundi 5 octobre dans la nuit dans un immeuble résidentiel à Gunsbach dans le Haut-Rhin. Deux personnes sont mortes et une femme est sérieusement blessée.",
+          "source": {
+            "id": "liberation",
+            "name": "Libération"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T16:21:53.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T16:21:53.000Z"
+    },
+    {
+      "id": "aW9n8G6k16Ni",
+      "representative": {
+        "id": "aW9n8G6k16Ni",
+        "url": "https://www.franceinfo.fr/societe/harcelement-sexuel/deux-footballeurs-de-l-as-nancy-lorraine-mis-en-examen-et-places-en-detention-provisoire-pour-viol-en-reunion_8222986.html#xtor=RSS-3-%5Bgeneral%5D",
+        "canonicalUrl": "https://www.franceinfo.fr/societe/harcelement-sexuel/deux-footballeurs-de-l-as-nancy-lorraine-mis-en-examen-et-places-en-detention-provisoire-pour-viol-en-reunion_8222986.html",
+        "title": "Deux footballeurs de l'AS Nancy Lorraine mis en examen et placés en détention provisoire pour \"viol en réunion\"",
+        "description": "La plaignante est âgée de 22 ans. Les faits dénoncés datent de la nuit du 25 au 26 septembre.",
+        "source": {
+          "id": "franceinfo",
+          "name": "franceinfo"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-05T12:35:17.000Z",
+        "imageUrl": "https://www.franceinfo.fr/pictures/3TOlMTqJ0z1Q_0ldSi4QGS4vPHA/0x112:1200x787/432x243/filters:format(jpg)/2026/10/05/6ac34ec51b798504462563.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "XLunEf4XKZ5-",
+          "url": "https://www.liberation.fr/sports/football/deux-joueurs-du-club-de-foot-de-las-nancy-lorraine-accuses-de-viol-en-reunion-et-places-en-detention-20261005_7FFGQ6MPKRAM3L6NVCEVT2NINA/",
+          "canonicalUrl": "https://www.liberation.fr/sports/football/deux-joueurs-du-club-de-foot-de-las-nancy-lorraine-accuses-de-viol-en-reunion-et-places-en-detention-20261005_7FFGQ6MPKRAM3L6NVCEVT2NINA/",
+          "title": "Deux joueurs du club de foot de l’AS Nancy-Lorraine accusés de «viol en réunion» et placés en détention",
+          "description": "Les deux hommes, dont l’identité n’a pas été révélée mais qui évoluent selon le club au sein de l’équipe réserve, sont incarcérés provisoirement depuis vendredi. Les faits auraient eu lieu fin septembre, à l’encontre d’une femme de 22 ans.",
+          "source": {
+            "id": "liberation",
+            "name": "Libération"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T15:09:22.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T15:09:22.000Z"
+    },
+    {
+      "id": "dNqTqd9X1Cai",
+      "representative": {
+        "id": "dNqTqd9X1Cai",
+        "url": "https://www.lefigaro.fr/politique/affaire-alstom-l-ancien-procureur-americain-daniel-kahn-invite-en-grand-temoin-a-l-assemblee-nationale-20261005",
+        "canonicalUrl": "https://www.lefigaro.fr/politique/affaire-alstom-l-ancien-procureur-americain-daniel-kahn-invite-en-grand-temoin-a-l-assemblee-nationale-20261005",
+        "title": "Affaire Alstom : l’ancien procureur américain Daniel Kahn invité en «grand témoin» à l’Assemblée nationale",
+        "description": "Le juriste américain qui a instruit le dossier Alstom sera invité à l’hôtel de Lassay, résidence officielle des présidents de l’Assemblée, le 20 octobre. Il y sera question du «nouvel équilibre des relations franco-américaines», «10 ans après la loi Sapin II».",
+        "source": {
+          "id": "lefigaro",
+          "name": "Le Figaro"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T08:20:19.000Z",
+        "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/10/02/d3f3cb3f43c5948f4b8a948e24e69a7aed3cc052a563ae50a9f5a1b91a220f6b.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:20:19.000Z"
+    },
+    {
+      "id": "eLZSpGno_PpN",
+      "representative": {
+        "id": "eLZSpGno_PpN",
+        "url": "https://www.liberation.fr/societe/education/en-direct-blocus-des-lycees-et-manifestation-une-journee-de-mobilisation-sous-tres-haute-surveillance-20261006_Q5JTNLV4ZJBBHKJFMAG3Q5RGA4/",
+        "canonicalUrl": "https://www.liberation.fr/societe/education/en-direct-blocus-des-lycees-et-manifestation-une-journee-de-mobilisation-sous-tres-haute-surveillance-20261006_Q5JTNLV4ZJBBHKJFMAG3Q5RGA4/",
+        "title": "EN DIRECT – Mobilisation lycéenne : «quelques dizaines de blocages» selon le ministre de l’Intérieur, une journée sous très haute surveillance",
+        "description": "Les lycéens, soutenus ce mardi par les organisations étudiantes et des syndicats, reprennent la rue. Des dizaines de milliers de personnes sont attendues dans une trentaine de villes. L’encadrement des forces de l’ordre sera particulièrement scruté alors que les accusations de violences policières…",
+        "source": {
+          "id": "liberation",
+          "name": "Libération"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T08:17:53.000Z",
+        "imageUrl": null,
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:17:53.000Z"
+    },
+    {
+      "id": "rEtqL3567uyf",
+      "representative": {
+        "id": "rEtqL3567uyf",
+        "url": "https://www.lemonde.fr/societe/live/2026/10/06/en-direct-blocage-des-lycees-actions-et-manifestations-partout-en-france-suivez-la-journee-de-mobilisation-avec-nos-envoyes-speciaux_6788487_3224.html",
+        "canonicalUrl": "https://www.lemonde.fr/societe/live/2026/10/06/en-direct-blocage-des-lycees-actions-et-manifestations-partout-en-france-suivez-la-journee-de-mobilisation-avec-nos-envoyes-speciaux_6788487_3224.html",
+        "title": "EN DIRECT, blocage des lycées : actions et manifestations partout en France, suivez la journée de mobilisation avec nos envoyés spéciaux",
+        "description": "Des dizaines de milliers de lycéens vont de nouveau manifester mardi, notamment à Paris, Nîmes ou Clermont-Ferrand. Ils seront rejoints par des syndicats, des enseignants et des étudiants dans une logique de convergence des luttes.",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T08:05:08.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/06/574/0/3333/1666/644/322/60/0/68eb8ea_upload-1-4i5hzoc5deiw-lewisjoly-lemonde-lyce-esnimes-015.JPG",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:05:08.000Z"
+    },
+    {
+      "id": "rbuaNtx0TLNT",
+      "representative": {
+        "id": "rbuaNtx0TLNT",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/06/grand-paris-les-propositions-d-emmanuel-gregoire-pour-une-metropole-plus-visible-plus-lisible-et-plus-concrete_6788956_823448.html",
+        "canonicalUrl": "https://www.lemonde.fr/politique/article/2026/10/06/grand-paris-les-propositions-d-emmanuel-gregoire-pour-une-metropole-plus-visible-plus-lisible-et-plus-concrete_6788956_823448.html",
+        "title": "Grand Paris : les propositions d’Emmanuel Grégoire pour une métropole « plus visible, plus lisible et plus concrète »",
+        "description": "Nouveau nom pour le périphérique, convention citoyenne et conseil métropolitain pérenne : le maire de Paris avance ses idées pour « faire évoluer » la métropole du Grand Paris, dans un courrier adressé à son président.",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T07:59:20.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/09/25/458/0/5500/2750/644/322/60/0/a207cc7_ftp-1-fdmgq2adnqoz-2026-09-25t090343z-897244799-rc29qnav5uoi-rtrmadp-3-pope-france.JPG",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T07:59:20.000Z"
+    },
+    {
+      "id": "EAskgXdmb1-3",
+      "representative": {
+        "id": "EAskgXdmb1-3",
+        "url": "https://www.lefigaro.fr/politique/contestation-lyceenne-dette-carburants-le-gouvernement-lecornu-dans-la-tempete-20261005",
+        "canonicalUrl": "https://www.lefigaro.fr/politique/contestation-lyceenne-dette-carburants-le-gouvernement-lecornu-dans-la-tempete-20261005",
+        "title": "Contestation lycéenne, dette, carburants : le gouvernement Lecornu dans la tempête",
+        "description": "Le premier ministre, déjà accaparé par son projet de budget pour 2027 et par la flambée des prix à la pompe, cherche à éteindre la protestation lycéenne, en baisse lundi, et à éviter de nouvelles violences lors de la journée nationale de mobilisation prévue mardi.",
+        "source": {
+          "id": "lefigaro",
+          "name": "Le Figaro"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T07:51:24.000Z",
+        "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/10/05/639ff580e7b43677c436a5d95a9c81f760171efbffea4877f8b0c615c81e71c2.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T07:51:24.000Z"
+    },
+    {
+      "id": "ASa347V8evQ1",
+      "representative": {
+        "id": "ASa347V8evQ1",
+        "url": "https://www.lefigaro.fr/actualite-france/melenchon-est-quelqu-un-de-mechant-qui-est-nathanael-combary-figure-du-blocus-des-lycees-visee-par-lfi-20261005",
+        "canonicalUrl": "https://www.lefigaro.fr/actualite-france/melenchon-est-quelqu-un-de-mechant-qui-est-nathanael-combary-figure-du-blocus-des-lycees-visee-par-lfi-20261005",
+        "title": "«Mélenchon est quelqu’un de méchant» : qui est Nathanaël Combary, figure du blocus des lycées visée par LFI ?",
+        "description": "PORTRAIT - À 18 ans, le président du conseil d’administration de Renouveau lycéen est devenu l’un des principaux porte-parole de la mobilisation qui touche les établissements depuis une semaine. Adhérent de Renaissance, il est accusé par Jean-Luc Mélenchon de masquer ses engagements politiques.",
+        "source": {
+          "id": "lefigaro",
+          "name": "Le Figaro"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T07:47:40.000Z",
+        "imageUrl": "https://i.f1g.fr/media/cms/2995x1685_crop/2026/10/05/7807d12caaae3cf8d2012f5a810e85e2c97e2c1aadef1e8719abd9cfe46c2b1a.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T07:47:40.000Z"
+    },
+    {
+      "id": "-osFc1x19DnI",
+      "representative": {
+        "id": "-osFc1x19DnI",
+        "url": "https://www.20minutes.fr/societe/4251709-20261006-prix-carburants-ariegeois-roule-huile-friture?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251709-20261006-prix-carburants-ariegeois-roule-huile-friture",
+        "title": "Prix des carburants : Cet Ariégeois roule à l’huile de friture",
+        "description": "L’utilisation d’huile de friture usagée comme carburant séduit des adeptes face à la hausse des prix du gazole, une pratique officiellement interdite qui ne peut concerner qu’un nombre très limité de véhicules, principalement les vieux diesels",
+        "source": {
+          "id": "20minutes",
+          "name": "20 Minutes"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T07:47:08.000Z",
+        "imageUrl": "https://img.20mn.fr/xus0hVhqREmKZjATMZCmqCk/1200x768_gaza-city-gaza-13-mai-les-palestiniens-produisent-du-diesel-et-de-l-essence-en-transformant-des-dechets-plastiques-dans-le-cadre-des-attaques-brutales-et-destructrices-d-israel-et-du-blocus-total-qui-ont-entraine-une-crise-energetique-dans-la-ville-de-gaza-a-gaza-le-13-mai-2025-saeed-mohammad-anadolu-photo-de-saeed-mohammad-anadolu-via-afp",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T07:47:08.000Z"
+    },
+    {
+      "id": "N-1fCXQcfHic",
+      "representative": {
+        "id": "N-1fCXQcfHic",
+        "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/secheresse/ca-inquiete-tout-le-monde-dans-la-meuse-des-villages-approvisionnes-en-eau-par-camions-citernes-a-cause-de-la-secheresse_8224681.html#xtor=RSS-3-%5Bgeneral%5D",
+        "canonicalUrl": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/secheresse/ca-inquiete-tout-le-monde-dans-la-meuse-des-villages-approvisionnes-en-eau-par-camions-citernes-a-cause-de-la-secheresse_8224681.html",
+        "title": "\"Ça inquiète tout le monde\" : dans la Meuse, des villages approvisionnés en eau par camions-citernes à cause de la sécheresse",
+        "description": "La sécheresse commence à peser lourdement sur l'approvisionnement en eau potable dans la Meuse. Les nappes phréatiques ont atteint des niveaux très bas et plusieurs villages dépendent désormais de livraisons régulières par camions-citernes. Une situation qui inquiète les habitants et fait grimper…",
+        "source": {
+          "id": "franceinfo",
+          "name": "franceinfo"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T07:45:07.000Z",
+        "imageUrl": "https://www.franceinfo.fr/pictures/WnPDq2sHBbmuVESnmUy4U5fQFw0/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/06/6ac4a6d601f4e171690595.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T07:45:07.000Z"
+    }
+  ]
+}
