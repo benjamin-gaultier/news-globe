@@ -29,13 +29,16 @@ After the first `pnpm ingest`, the dev server serves your fresh output instead o
 ```
 apps/web/            React + Vite front end (react-globe.gl)
   src/assets/countries-110m.json   Natural Earth 110m countries, trimmed (scripts/prepare-countries.mjs)
+  worker/index.ts, wrangler.jsonc  Cloudflare Worker: static assets + /data/* from KV
 packages/ingest/     Node worker: fetch → normalize → dedupe → cluster → rank → write JSON
   src/sources.config.ts            feeds, authority weights, pipeline settings
   src/adapters/                    SourceAdapter interface, RSS adapter, GDELT stub
+  src/publish.ts                   uploads changed JSON to Cloudflare KV after each run
 packages/shared/     Types for the data contract + country metadata (used by both sides)
 data/
   sample/            committed sample output (served until the first ingest)
-  index.json, countries/*.json, .cache/http.json   generated, gitignored
+  index.json, countries/*.json, .cache/   generated, gitignored
+deploy/raspberry-pi/ systemd unit for the ingest
 ```
 
 ## Architecture
@@ -54,11 +57,62 @@ The work is precomputed, so a click never triggers a query.
                                                                          └─────────────────────┘
 ```
 
-The front end only fetches `${DATA_BASE_URL}/index.json` and `${DATA_BASE_URL}/countries/{CC}.json`. `DATA_BASE_URL` defaults to `/data`. In dev, a small Vite plugin ([apps/web/vite.config.ts](apps/web/vite.config.ts)) serves those two paths from the repo-root `data/` directory and falls back to `data/sample/`. Nothing else is exposed: `data/.cache` returns 404. To host the data on S3/CloudFront, upload the same files and build with:
+The front end only fetches `${DATA_BASE_URL}/index.json` and `${DATA_BASE_URL}/countries/{CC}.json`. `DATA_BASE_URL` defaults to `/data`. In dev, a small Vite plugin ([apps/web/vite.config.ts](apps/web/vite.config.ts)) serves those two paths from the repo-root `data/` directory and falls back to `data/sample/`. Nothing else is exposed: `data/.cache` returns 404. In production the same two paths are served by a Cloudflare Worker from KV (see [Deploy](#deploy)). To host the data somewhere else instead, upload the same files and build with:
 
 ```bash
 DATA_BASE_URL=https://dxxxx.cloudfront.net/news pnpm build
 ```
+
+## Deploy
+
+Live at **https://news-globe.maze-td.workers.dev**.
+
+```
+ Raspberry Pi (systemd)                       Cloudflare (free tier)
+┌──────────────────────────┐  KV bulk write  ┌──────────────────────────────────────┐
+│ pnpm ingest:watch        │ ──────────────▶ │ KV "news-globe-data"                 │
+│  every 15 min → data/    │ changed files   │   index.json, countries/{CC}.json    │
+└──────────────────────────┘    only         │ Worker "news-globe"                  │
+                                             │   /data/*  → KV (max-age=60)         │
+                                             │   anything else → static assets      │
+                                             └──────────────────────────────────────┘
+```
+
+Why the ingest runs on the Pi rather than on a Cloudflare Cron Trigger: a free-plan Worker gets 10 ms of CPU per invocation, and parsing ~25 feeds and clustering ~400 titles takes far more than that. KV's free tier allows 1,000 writes a day. The publisher only uploads files whose hash changed, which comes to at most 96 runs × (countries + 1) keys a day.
+
+### Front end (Worker + static assets)
+
+Config is in [apps/web/wrangler.jsonc](apps/web/wrangler.jsonc) and the Worker in [apps/web/worker/index.ts](apps/web/worker/index.ts). Static files never invoke the Worker; only `/data/*` does (`run_worker_first`), and it serves only the two public key shapes.
+
+```bash
+npx wrangler login                          # once, from apps/web
+pnpm --filter @news-globe/web run deploy    # typecheck + vite build + wrangler deploy
+pnpm --filter @news-globe/web preview:worker   # local Worker (uses a local KV)
+```
+
+### Ingest on a Raspberry Pi
+
+1. Create an API token at dash.cloudflare.com → My Profile → API Tokens → *Create custom token*. Give it one permission, **Account → Workers KV Storage → Edit**, limited to your account.
+2. On the Pi (64-bit Raspberry Pi OS, Node ≥ 20.11):
+   ```bash
+   git clone https://github.com/benjamin-gaultier/news-globe.git ~/news-globe
+   cd ~/news-globe
+   sudo corepack enable
+   pnpm install
+   cp .env.example .env && nano .env      # paste the token into CLOUDFLARE_API_TOKEN
+   pnpm ingest                            # should end with "[publish] uploaded ... to KV"
+   ```
+3. Install the service ([deploy/raspberry-pi/news-globe-ingest.service](deploy/raspberry-pi/news-globe-ingest.service)). Adjust `User` and the paths if you're not user `pi`.
+   ```bash
+   sudo cp deploy/raspberry-pi/news-globe-ingest.service /etc/systemd/system/
+   sudo systemctl daemon-reload
+   sudo systemctl enable --now news-globe-ingest
+   journalctl -u news-globe-ingest -f
+   ```
+
+Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` and `CLOUDFLARE_API_TOKEN` are all set, either in the environment or in the repo-root `.env`. If none are set, the ingest only writes local files, as in development. If the upload fails (network, token), the run still writes `data/` and the next run retries; [publish.ts](packages/ingest/src/publish.ts) keeps its hashes in `data/.cache/publish.json`.
+
+To update the Pi: `git pull && pnpm install && sudo systemctl restart news-globe-ingest`.
 
 ### Pipeline details
 
@@ -171,7 +225,7 @@ curl -sA "NewsGlobeBot/0.1 (+https://github.com/benjamin-gaultier/news-globe; he
 
 **Clustering.** Use the snippet's top tokens as a weaker second signal, and add a time-decay so a story from 40 hours ago doesn't absorb today's follow-up.
 
-**Ops.** Run `ingest:watch` as a small container or cron job, sync `data/` to S3 with `Cache-Control: max-age=60`, and alert when a feed returns errors for more than an hour (`lastStatus` in the cache file).
+**Ops.** Alert when a feed returns errors for more than an hour (`lastStatus` in the cache file) or when `index.json` in KV goes stale (the Pi is offline). Later, move the ingest off the Pi, e.g. to a Workers Paid cron trigger with feeds fanned out across invocations.
 
 ## Notes
 

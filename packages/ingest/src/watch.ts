@@ -1,5 +1,7 @@
+import './env';
 import cron from 'node-cron';
-import { runIngest } from './pipeline';
+import { DEFAULT_DATA_DIR, runIngest } from './pipeline';
+import { publishIfConfigured } from './publish';
 import { INGEST_SETTINGS } from './sources.config';
 
 let running = false;
@@ -14,6 +16,7 @@ async function tick(): Promise<void> {
   console.log(`[ingest:watch] run at ${started.toISOString()}`);
   try {
     await runIngest();
+    await publishIfConfigured(DEFAULT_DATA_DIR);
   } catch (err) {
     console.error('[ingest:watch] run failed:', err);
   } finally {
