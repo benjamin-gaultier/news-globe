@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IT",
   "countryName": "Italy",
-  "updatedAt": "2026-10-06T09:19:45.780Z",
+  "updatedAt": "2026-10-06T09:54:16.528Z",
   "clusters": [
     {
       "id": "7VAJy-PSHyg7",
@@ -36,7 +36,7 @@
           },
           "sourceCountry": "IT",
           "language": "it",
-          "publishedAt": "2026-10-06T09:19:45.780Z",
+          "publishedAt": "2026-10-06T09:54:16.528Z",
           "imageUrl": null,
           "countryCode": "IT",
           "regionCode": null
@@ -74,28 +74,11 @@
           "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/130105858-e776d9da-ce40-4c5b-9bc2-b55eb2b25074.jpg",
           "countryCode": "IT",
           "regionCode": null
-        },
-        {
-          "id": "skFXmdI5g8Xg",
-          "url": "https://www.ilsole24ore.com/art/legge-elettorale-governo-pone-fiducia-articoli-1-2-e-3-giovedi-maggioranza-prova-voto-AJGbjdZB",
-          "canonicalUrl": "https://www.ilsole24ore.com/art/legge-elettorale-governo-pone-fiducia-articoli-1-2-e-3-giovedi-maggioranza-prova-voto-AJGbjdZB",
-          "title": "Legge elettorale: il governo pone la fiducia su tre articoli chiave. Giovedì voto finale",
-          "description": "Giovedì, 8 ottobre a partire dalle 10.30 si svolgeranno le dichiarazioni di voto finale sul provvedimento in diretta tv: la votazione finale è prevista non prima delle ore 12.30",
-          "source": {
-            "id": "sole24ore",
-            "name": "Il Sole 24 Ore"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-05T12:32:00.000Z",
-          "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/06/Immagini/Ritagli/d2b375a524efe0853c76adfc0506b905-U41841858227wUv-1440x752@IlSole24Ore-Web.jpg",
-          "countryCode": "IT",
-          "regionCode": null
         }
       ],
-      "outletCount24h": 5,
-      "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T09:19:45.780Z"
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T09:54:16.528Z"
     },
     {
       "id": "KbM4nGd0UOa2",
@@ -264,7 +247,7 @@
           },
           "sourceCountry": "IT",
           "language": "it",
-          "publishedAt": "2026-10-06T09:19:45.780Z",
+          "publishedAt": "2026-10-06T09:54:16.528Z",
           "imageUrl": null,
           "countryCode": "IT",
           "regionCode": null
@@ -272,7 +255,91 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:19:45.780Z"
+      "latestPublishedAt": "2026-10-06T09:54:16.528Z"
+    },
+    {
+      "id": "SoGx_cSTnugS",
+      "representative": {
+        "id": "SoGx_cSTnugS",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/dodici-fondazioni-e-acri-lanciano-20-cammini-ditalia-per-fare-comunita_41683938-37de-4f78-8c2a-06a01427802b.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/dodici-fondazioni-e-acri-lanciano-20-cammini-ditalia-per-fare-comunita_41683938-37de-4f78-8c2a-06a01427802b.html",
+        "title": "Dodici Fondazioni e Acri lanciano 20 Cammini d'Italia 'per fare comunità'",
+        "description": "Obiettivo miglioramento dell'accessibilità e dei servizi per i viandanti",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T17:19:26.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "OCegEdGUm1b5",
+          "url": "https://www.ilsole24ore.com/art/al-via-paesaggio-che-vai-cammini-d-italia-fare-comunita-iniziativa-acri-e-12-fondazioni-bancarie-AJ0MWhaB",
+          "canonicalUrl": "https://www.ilsole24ore.com/art/al-via-paesaggio-che-vai-cammini-d-italia-fare-comunita-iniziativa-acri-e-12-fondazioni-bancarie-AJ0MWhaB",
+          "title": "Al via “Paesaggio che vai. Cammini d’Italia per fare comunità”, iniziativa di Acri e 12 Fondazioni Bancarie",
+          "description": "In cammino tra storia e cultura. Dal nord alle isole, passando in 11 regioni d’Italia, con l’intento di promuovere i cammini come spazi di partecipazione, sostenibilità e identità collettiva. È...",
+          "source": {
+            "id": "sole24ore",
+            "name": "Il Sole 24 Ore"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T09:34:52.000Z",
+          "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/06/Immagini/Ritagli/AdobeStock_343899508-U00150705601AMN-1440x752@IlSole24Ore-Web.jpeg",
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:34:52.000Z"
+    },
+    {
+      "id": "pOXLR7cdzJoK",
+      "representative": {
+        "id": "pOXLR7cdzJoK",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/scontri-derby-torino-juventus-sono-una-ventina-le-misure-cautelari_05b09067-682f-4b80-97da-ba94a4ed6c7a.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/scontri-derby-torino-juventus-sono-una-ventina-le-misure-cautelari_05b09067-682f-4b80-97da-ba94a4ed6c7a.html",
+        "title": "Scontri derby Torino-Juventus, sono una ventina le misure cautelari",
+        "description": "In quel contesto venne ferito da un lacrimogeno un tifoso bianconero",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T07:21:30.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "zaXZxuffQmaO",
+          "url": "https://torino.repubblica.it/cronaca/2026/10/06/news/derby_torino-juve_misure_cautelari_scontri_24_maggio-425628552/?rss",
+          "canonicalUrl": "https://torino.repubblica.it/cronaca/2026/10/06/news/derby_torino-juve_misure_cautelari_scontri_24_maggio-425628552/?rss=",
+          "title": "Derby Torino-Juve, 22 mmisure cautelari per gli scontri del 24 maggio",
+          "description": "La Digos sta eseguendo 22 provvedimenti in Piemonte e nel Nord Italia a oltre quattro mesi dalla guerriglia tra ultrà. Quel giorno il tifoso juventino Marco Basoccu fu gravemente ferito alla testa da un lacrimogeno",
+          "source": {
+            "id": "repubblica",
+            "name": "la Repubblica"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T09:31:51.000Z",
+          "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-torino/2026/10/06/083842688-d4f20d09-8915-42b5-b8fd-0730c16d4726.jpg",
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:31:51.000Z"
     },
     {
       "id": "ae9ODaFgrSIp",
@@ -306,7 +373,7 @@
           },
           "sourceCountry": "IT",
           "language": "it",
-          "publishedAt": "2026-10-06T09:01:50.000Z",
+          "publishedAt": "2026-10-06T09:28:19.000Z",
           "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-torino/2026/10/06/082535160-0f199da6-468e-402d-ae6a-16dd75e9e648.jpg",
           "countryCode": "IT",
           "regionCode": null
@@ -314,49 +381,49 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:01:50.000Z"
+      "latestPublishedAt": "2026-10-06T09:28:19.000Z"
     },
     {
-      "id": "pOXLR7cdzJoK",
+      "id": "MBmfOYGwGRo8",
       "representative": {
-        "id": "pOXLR7cdzJoK",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/scontri-derby-torino-juventus-sono-una-ventina-le-misure-cautelari_05b09067-682f-4b80-97da-ba94a4ed6c7a.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/scontri-derby-torino-juventus-sono-una-ventina-le-misure-cautelari_05b09067-682f-4b80-97da-ba94a4ed6c7a.html",
-        "title": "Scontri derby Torino-Juventus, sono una ventina le misure cautelari",
-        "description": "In quel contesto venne ferito da un lacrimogeno un tifoso bianconero",
+        "id": "MBmfOYGwGRo8",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/in-arrivo-due-fronti-perturbati-con-piogge-da-nord-a-sud_63adcf40-cad8-4aa9-a16b-c23233533256.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/in-arrivo-due-fronti-perturbati-con-piogge-da-nord-a-sud_63adcf40-cad8-4aa9-a16b-c23233533256.html",
+        "title": "In arrivo due fronti perturbati con piogge da Nord a Sud",
+        "description": "iLMeteo.it, rovesci anche intensi fino a venerdì",
         "source": {
           "id": "ansa",
           "name": "ANSA"
         },
         "sourceCountry": "IT",
         "language": "it",
-        "publishedAt": "2026-10-06T07:21:30.000Z",
+        "publishedAt": "2026-10-06T09:03:46.000Z",
         "imageUrl": null,
         "countryCode": "IT",
         "regionCode": null
       },
       "related": [
         {
-          "id": "zaXZxuffQmaO",
-          "url": "https://torino.repubblica.it/cronaca/2026/10/06/news/derby_torino-juve_misure_cautelari_scontri_24_maggio-425628552/?rss",
-          "canonicalUrl": "https://torino.repubblica.it/cronaca/2026/10/06/news/derby_torino-juve_misure_cautelari_scontri_24_maggio-425628552/?rss=",
-          "title": "Derby Torino-Juve, raffica di misure cautelari per gli scontri del 24 maggio",
-          "description": "La Digos sta eseguendo i provvedimenti in Piemonte e nel Nord Italia a oltre quattro mesi dalla guerriglia tra ultrà. Quel giorno il tifoso juventino Marco Basoccu fu gravemente ferito alla testa da un lacrimogeno",
+          "id": "Bh5uuUd8xUcp",
+          "url": "https://www.repubblica.it/cronaca/2026/10/06/news/previsioni_meteo_piogge_nord_centro_sud-425628218/?rss",
+          "canonicalUrl": "https://www.repubblica.it/cronaca/2026/10/06/news/previsioni_meteo_piogge_nord_centro_sud-425628218/?rss=",
+          "title": "Previsioni meteo, cambio di circolazione: in arrivo due fronti perturbati con piogge da Nord a Sud",
+          "description": "Rovesci anche intensi tra Liguria, Toscana, Lazio e Sardegna, con successiva estensione verso la Campania",
           "source": {
             "id": "repubblica",
             "name": "la Repubblica"
           },
           "sourceCountry": "IT",
           "language": "it",
-          "publishedAt": "2026-10-06T08:28:02.000Z",
-          "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-torino/2026/10/06/083842688-d4f20d09-8915-42b5-b8fd-0730c16d4726.jpg",
+          "publishedAt": "2026-10-05T22:01:00.000Z",
+          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/221525896-dfd11e08-4157-4790-820a-e684aa103ef3.jpg",
           "countryCode": "IT",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:50:05.000Z"
+      "latestPublishedAt": "2026-10-06T09:03:46.000Z"
     },
     {
       "id": "9TdzNM0og1XC",
@@ -611,20 +678,20 @@
       "latestPublishedAt": "2026-10-05T12:42:57.000Z"
     },
     {
-      "id": "7eea3M02s_m4",
+      "id": "--Uc9vl9ADB5",
       "representative": {
-        "id": "7eea3M02s_m4",
-        "url": "https://tg24.sky.it/politica/2026/10/06/elezioni-anticipate-giorgia-meloni",
-        "canonicalUrl": "https://tg24.sky.it/politica/2026/10/06/elezioni-anticipate-giorgia-meloni",
-        "title": "Elezioni anticipate, possibile voto a maggio 2027? Le ipotesi nella maggioranza",
-        "description": "Il capogruppo di Fratelli d'Italia al Senato, Lucio Malan, evoca l'election day con le Comunali, poi fa marcia indietro. Intanto, il destino della legislatura passa dal voto segreto sulla riforma elettorale alla Camera, previsto per giovedì",
+        "id": "--Uc9vl9ADB5",
+        "url": "https://tg24.sky.it/politica/video/2026/10/06/legge-elettorale-bonetti-atto-violento-contro-le-donne-1129492",
+        "canonicalUrl": "https://tg24.sky.it/politica/video/2026/10/06/legge-elettorale-bonetti-atto-violento-contro-le-donne-1129492",
+        "title": "Legge elettorale, Bonetti: \"Atto violento contro le donne\"",
+        "description": "“Si parla tanto di violenza contro le donne e ditemi se non è violento l’atteggiamento di uomini che, siccome sanno che ci saranno pochi posti per essere rieletti in Parlamento, decidono che quei posti debbano essere riservati solamente a loro. Questa legge elettorale prevede come scenario…",
         "source": {
           "id": "skytg24",
           "name": "Sky TG24"
         },
         "sourceCountry": "IT",
         "language": "it",
-        "publishedAt": "2026-10-06T09:19:45.780Z",
+        "publishedAt": "2026-10-06T09:54:16.528Z",
         "imageUrl": null,
         "countryCode": "IT",
         "regionCode": null
@@ -632,55 +699,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:19:45.780Z"
-    },
-    {
-      "id": "R2X7hZvXc67H",
-      "representative": {
-        "id": "R2X7hZvXc67H",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/06/conte-schlein-indisponibile-a-passo-indietro-ma-affrettiamoci-su-primarie_6ec0fd14-fe8d-4642-a774-70d794f24db5.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/politica/2026/10/06/conte-schlein-indisponibile-a-passo-indietro-ma-affrettiamoci-su-primarie_6ec0fd14-fe8d-4642-a774-70d794f24db5.html",
-        "title": "Conte: 'Schlein indisponibile ad un passo indietro, ma affrettiamoci sulle primarie'",
-        "description": "'L'ho invitata a valutare terza figura. Probabile voto in primavera, noi pronti per il programma'",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-06T09:13:03.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:13:03.000Z"
-    },
-    {
-      "id": "2NUEffCo8rkM",
-      "representative": {
-        "id": "2NUEffCo8rkM",
-        "url": "https://www.ilsole24ore.com/art/over65-redditi-bassi-entrate-contanti-chi-resta-fuori-pagamenti-digitali-AJNALeaB",
-        "canonicalUrl": "https://www.ilsole24ore.com/art/over65-redditi-bassi-entrate-contanti-chi-resta-fuori-pagamenti-digitali-AJNALeaB",
-        "title": "Over65, redditi bassi, entrate in contanti: chi resta fuori dai pagamenti digitali",
-        "description": "Il reddito entra in contanti e in contanti esce. È il circuito in cui si muove circa un consumatore italiano su dieci, secondo uno studio della Banca d’Italia che ha...",
-        "source": {
-          "id": "sole24ore",
-          "name": "Il Sole 24 Ore"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-06T09:07:53.000Z",
-        "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/07/Immagini/Ritagli/Imagoeconomica_1852962-U18037406644NAN-1440x752@IlSole24Ore-Web.jpg",
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:07:53.000Z"
+      "latestPublishedAt": "2026-10-06T09:54:16.528Z"
     }
   ]
 }

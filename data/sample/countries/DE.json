@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DE",
   "countryName": "Germany",
-  "updatedAt": "2026-10-06T09:19:45.780Z",
+  "updatedAt": "2026-10-06T09:54:16.528Z",
   "clusters": [
     {
       "id": "fuOn7SLdX-n_",
@@ -121,7 +121,7 @@
         "url": "https://www.sueddeutsche.de/politik/hanning-festnahme-spionage-bnd-geheimnisverrat-verdacht-gba-li.3558640",
         "canonicalUrl": "https://www.sueddeutsche.de/politik/hanning-festnahme-spionage-bnd-geheimnisverrat-verdacht-gba-li.3558640",
         "title": "Affäre beim BND: Spionageverdacht: Ex-Geheimdienstchef August Hanning verhaftet",
-        "description": "Der frühere BND-Präsident soll noch Jahre nach seinem Ausscheiden von seinem ehemaligen Büroleiter mit geheimen Informationen aus der Behörde versorgt worden sein. Nun wird ermittelt, ob er sie an fremde Mächte verraten hat – es wäre einer der ganz großen Spionagefälle der Bundesrepublik.",
+        "description": "Der frühere BND-Präsident soll noch Jahre nach seinem Ausscheiden geheime Informationen aus der Behörde erhalten und möglicherweise verkauft haben – an fremde Mächte? Es wäre einer der ganz großen Spionagefälle der Bundesrepublik.",
         "source": {
           "id": "sz",
           "name": "Süddeutsche Zeitung"
@@ -134,6 +134,23 @@
         "regionCode": null
       },
       "related": [
+        {
+          "id": "CXt0iMTPEvSP",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/august-hanning-bnd-festnahme-spionage-mitarbeiter",
+          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/august-hanning-bnd-festnahme-spionage-mitarbeiter",
+          "title": "Spionageverdacht: Ehemaliger BND-Chef August Hanning festgenommen",
+          "description": "Der frühere Geheimdienstchef August Hanning wurde verhaftet. Ihm wird Spionage vorgeworfen. Ermittlungsarbeiten im Block-Prozess hatten den Fall ins Rollen gebracht.",
+          "source": {
+            "id": "zeit",
+            "name": "ZEIT ONLINE"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T09:33:37.000Z",
+          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/august-hanning-vor-nsa-untersuchungsausschuss-bild-2/original__640x360",
+          "countryCode": "DE",
+          "regionCode": null
+        },
         {
           "id": "FBjQvJMa9umW",
           "url": "https://www.faz.net/aktuell/politik/inland/spionageverdacht-ehemaliger-bnd-chef-august-hanning-festgenommen-accg-201292036.html",
@@ -148,23 +165,6 @@
           "language": "de",
           "publishedAt": "2026-10-06T09:06:25.000Z",
           "imageUrl": "https://media0.faz.net/image/49d165dd664e/w3000h1687x0y131/202510/43601.0.1414493528/der-fruehere-praesident-des.webp",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "CXt0iMTPEvSP",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/august-hanning-bnd-festnahme-spionage-mitarbeiter",
-          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/august-hanning-bnd-festnahme-spionage-mitarbeiter",
-          "title": "Spionageverdacht: Ehemaliger BND-Chef August Hanning festgenommen",
-          "description": "Der frühere Geheimdienstchef August Hanning wurde festgenommen. Ihm wird unter anderem Spionage vorgeworfen.",
-          "source": {
-            "id": "zeit",
-            "name": "ZEIT ONLINE"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T08:20:24.000Z",
-          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/august-hanning-vor-nsa-untersuchungsausschuss-bild-2/original__640x360",
           "countryCode": "DE",
           "regionCode": null
         },
@@ -198,90 +198,14 @@
           "sourceCountry": "DE",
           "language": "de",
           "publishedAt": "2026-10-06T08:05:58.000Z",
-          "imageUrl": "https://images.welt.de/6ac4ab30321809b09dd0771d/59d2b8f1c9398cf4a3f0e298b324af33-master/ci23x11-w1200/dpa-com-20090101-251028-935-919221-jpg",
+          "imageUrl": "https://images.welt.de/6ac4ab30321809b09dd0771d/242b29fc966ba60ecfb01ffd49a7c61c/ci23x11-w1200/dpa-com-20090101-251028-935-919221-jpg",
           "countryCode": "DE",
           "regionCode": null
         }
       ],
       "outletCount24h": 5,
       "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T09:06:25.000Z"
-    },
-    {
-      "id": "4bGMGAkftpDf",
-      "representative": {
-        "id": "4bGMGAkftpDf",
-        "url": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-konstituierende-sitzung-100.html",
-        "canonicalUrl": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-konstituierende-sitzung-100.html",
-        "title": "Konstituierende Sitzung in Sachsen-Anhalt: Die AfD und die ganz große Bühne",
-        "description": "Heute richten sich erneut viele Blicke auf Sachsen-Anhalt: Der Landtag kommt zu seiner konstituierenden Sitzung zusammen. Die AfD will erstmals einen Parlamentspräsidenten stellen - und Regierungsfähigkeit beweisen. Von Torben Lehning.",
-        "source": {
-          "id": "tagesschau",
-          "name": "tagesschau"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T02:18:45.000Z",
-        "imageUrl": null,
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "hc-Do-HnoZFm",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
-          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
-          "title": "Landtag von Sachsen-Anhalt: Konstituierende Sitzung des Landtags eröffnet",
-          "description": "In Magdeburg hat die konstituierende Sitzung des Landtags begonnen. Vor dem Parlament demonstrieren Hunderte gegen die rechtsextreme Wahlsiegerin AfD. Das Liveblog",
-          "source": {
-            "id": "zeit",
-            "name": "ZEIT ONLINE"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T09:04:10.000Z",
-          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live-bild2/original__640x360",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "RKfwiWyZdhdQ",
-          "url": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-li.3556472",
-          "canonicalUrl": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-li.3556472",
-          "title": "Liveblog Sachsen-Anhalt: Gegendemonstranten versammeln sich vor Landtag – Linke eröffnet Sitzung",
-          "description": "Bei der konstituierenden Sitzung in Magdeburg soll Tobias Rausch zum ersten AfD-Landtagspräsidenten gewählt werden. Verfolgen Sie die Sitzung im Liveblog.",
-          "source": {
-            "id": "sz",
-            "name": "Süddeutsche Zeitung"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T09:02:15.000Z",
-          "imageUrl": "https://www.sueddeutsche.de/2026/10/06/1929232b-2b22-4bcf-8a4e-52a57b2a2d67.jpg?rect=793%2C116%2C2939%2C2204&width=1000&fm=jpg&q=60",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "KbEIEIVi-GfB",
-          "url": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-so-laeuft-die-erste-sitzung-im-neuen-landtag-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11#ref=rss",
-          "canonicalUrl": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-so-laeuft-die-erste-sitzung-im-neuen-landtag-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11",
-          "title": "Sachsen-Anhalt - Magdeburg: So läuft die erste Sitzung im neuen Landtag",
-          "description": "In Sachsen-Anhalt kommt erstmals der neu gewählte Landtag zusammen. Auf der Agenda steht eine wichtige Personalie: Erstmals könnte die AfD einen Landtagspräsidenten stellen. Die Sitzung im Stream und der Live-Analyse.",
-          "source": {
-            "id": "spiegel",
-            "name": "DER SPIEGEL"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T08:44:00.000Z",
-          "imageUrl": "https://cdn.prod.www.spiegel.de/images/258e477e-8a61-49bd-997f-a4915f5d4409_w520_r2.08_fpx33.34_fpy50.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T09:04:10.000Z"
+      "latestPublishedAt": "2026-10-06T09:33:37.000Z"
     },
     {
       "id": "j1PnLPD2nIDH",
@@ -537,6 +461,48 @@
       "latestPublishedAt": "2026-10-05T15:27:52.000Z"
     },
     {
+      "id": "KbEIEIVi-GfB",
+      "representative": {
+        "id": "KbEIEIVi-GfB",
+        "url": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-so-laeuft-die-erste-sitzung-im-neuen-landtag-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11#ref=rss",
+        "canonicalUrl": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-so-laeuft-die-erste-sitzung-im-neuen-landtag-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11",
+        "title": "Sachsen-Anhalt - Magdeburg: So läuft die erste Sitzung im neuen Landtag",
+        "description": "In Sachsen-Anhalt kommt erstmals der neu gewählte Landtag zusammen. Alterspräsidentin Eva von Angern zitiert zum Auftakt aus »Spider-Man«. Die Sitzung im Stream und der Liveanalyse.",
+        "source": {
+          "id": "spiegel",
+          "name": "DER SPIEGEL"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T08:44:00.000Z",
+        "imageUrl": "https://cdn.prod.www.spiegel.de/images/9ca86647-34b6-421b-8870-68fd008a7202_w520_r2.08_fpx45.34_fpy52.99.jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "doWaZ1DUQnPc",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-wahl-landtagspraesident-tobias-rausch-live",
+          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-wahl-landtagspraesident-tobias-rausch-live",
+          "title": "Sachsen-Anhalt: Jetzt live: Die historische Landtagssitzung in Magdeburg",
+          "description": "Der Landtag von Sachsen-Anhalt konstituiert sich. Erstmals könnte ein AfD-Politiker zum Landtagspräsidenten gewählt werden. Sehen Sie die Sitzung hier live.",
+          "source": {
+            "id": "zeit",
+            "name": "ZEIT ONLINE"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T09:03:56.000Z",
+          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/inaugural-session-of-the-afd-party-faction-after-the-saxony-anhalt-state-elections-in-magdeburg-bild/original__640x360",
+          "countryCode": "DE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:03:56.000Z"
+    },
+    {
       "id": "gUZS5v-JG031",
       "representative": {
         "id": "gUZS5v-JG031",
@@ -705,100 +671,100 @@
       "latestPublishedAt": "2026-10-05T12:29:07.000Z"
     },
     {
-      "id": "MdrBBttDn52U",
+      "id": "aPKj0FSTcEB-",
       "representative": {
-        "id": "MdrBBttDn52U",
-        "url": "https://www.welt.de/politik/deutschland/article6ac484158b65780eaf13474a/sachsen-anhalt-alterspraesidentin-der-linken-eroeffnet-landtagssitzung-und-erinnert-an-kommunistin-liveticker.html",
-        "canonicalUrl": "https://www.welt.de/politik/deutschland/article6ac484158b65780eaf13474a/sachsen-anhalt-alterspraesidentin-der-linken-eroeffnet-landtagssitzung-und-erinnert-an-kommunistin-liveticker.html",
-        "title": "Alterspräsidentin der Linken eröffnet Landtagssitzung – und erinnert an Kommunistin",
-        "description": "In Magdeburg läuft die konstituierende Sitzung. Die AfD erwartet die Wahl des ersten Landtagspräsidenten aus ihrer Partei. Alle Entwicklungen im Liveticker.",
-        "source": {
-          "id": "welt",
-          "name": "WELT"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T08:42:00.000Z",
-        "imageUrl": "https://images.welt.de/6ac484158b65780eaf13474a/d056e1fc7453eedf2e93a20ac69b05dd/ci23x11-w1200/dpa-com-261006-936-112000-jpg",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:42:00.000Z"
-    },
-    {
-      "id": "KATXzvppiqsy",
-      "representative": {
-        "id": "KATXzvppiqsy",
-        "url": "https://www.sueddeutsche.de/politik/flydubai-co-pilot-israel-ziel-tel-aviv-flughafen-li.3559037",
-        "canonicalUrl": "https://www.sueddeutsche.de/politik/flydubai-co-pilot-israel-ziel-tel-aviv-flughafen-li.3559037",
-        "title": "Laut Medienberichten: Flydubai-Co-Pilot wollte wohl Tel Aviver Flughafen treffen",
-        "description": "Der Flughafen Ben Gurion soll das Ziel des mutmaßlichen Angreifers gewesen sein. Zuvor war der Co-Pilot laut US-Medien wegen Sicherheitsbedenken aufgefallen – offenbar galt für ihn in Oman sogar ein Flugverbot.",
+        "id": "aPKj0FSTcEB-",
+        "url": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-rede-von-angern-li.3556472",
+        "canonicalUrl": "https://www.sueddeutsche.de/politik/sachsen-anhalt-landtag-news-liveblog-konstituierende-sitzung-rede-von-angern-li.3556472",
+        "title": "Liveblog Sachsen-Anhalt: Von Angern appelliert an Abgeordnete: „Wir sind Vorbild, im Guten wie im Schlechten“",
+        "description": "Die Alterspräsidentin der Linke erinnert bei der konstituierenden Sitzung in Magdeburg an Verantwortung für die Demokratie. Tobias Rausch will zum ersten AfD-Landtagspräsidenten gewählt werden. Verfolgen Sie die Sitzung im Liveblog.",
         "source": {
           "id": "sz",
           "name": "Süddeutsche Zeitung"
         },
         "sourceCountry": "DE",
         "language": "de",
-        "publishedAt": "2026-10-06T08:41:58.000Z",
-        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/66349d2d-127c-4dcc-9416-3e4ae13f7e24.jpg?rect=0%2C0%2C2351%2C1763&width=1000&fm=jpg&q=60",
+        "publishedAt": "2026-10-06T09:41:39.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/f1da3c42-9102-404d-9c69-fbfe0fa63a0f.jpg?rect=217%2C605%2C2669%2C2002&width=1000&fm=jpg&q=60",
         "countryCode": "DE",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:41:58.000Z"
+      "latestPublishedAt": "2026-10-06T09:41:39.000Z"
     },
     {
-      "id": "YNF6cP5zrSRA",
+      "id": "TfwYhuXbnWEQ",
       "representative": {
-        "id": "YNF6cP5zrSRA",
-        "url": "https://www.welt.de/politik/deutschland/plus6abbd3112660ba1a21b06b28/reservistenverband-steuergeld-millionen-fuer-einen-verein-im-visier-der-rechnungspruefer.html",
-        "canonicalUrl": "https://www.welt.de/politik/deutschland/plus6abbd3112660ba1a21b06b28/reservistenverband-steuergeld-millionen-fuer-einen-verein-im-visier-der-rechnungspruefer.html",
-        "title": "Steuergeld-Millionen für einen Verein im Visier der Rechnungsprüfer",
-        "description": "Der Reservistenverband steht im Verdacht, nicht gerade sparsam mit Steuergeld umzugehen. Das Verteidigungsministerium prüft sogar eine faktische Verstaatlichung. Dennoch sind für 2027 weitere Millionen eingeplant.",
-        "source": {
-          "id": "welt",
-          "name": "WELT"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T08:11:01.000Z",
-        "imageUrl": "https://images.welt.de/6abbd3112660ba1a21b06b28/5111d3114519fcfc4a9c0d390530cdf4/ci23x11-w1200/608540513-jpg",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:11:01.000Z"
-    },
-    {
-      "id": "03yI7tBxIBOr",
-      "representative": {
-        "id": "03yI7tBxIBOr",
-        "url": "https://www.faz.net/aktuell/politik/inland/ifo-bildungsbarometer-2026-was-eltern-am-meisten-sorgen-bereitet-accg-201291534.html",
-        "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/ifo-bildungsbarometer-2026-was-eltern-am-meisten-sorgen-bereitet-accg-201291534.html",
-        "title": "bildungsbarometer: Ein Viertel der Eltern hat Schwierigkeiten, einen Kita-Platz zu finden",
-        "description": "In der frühkindlichen Bildung sehen die Deutschen den Mangel an Kita-Plätzen und einen schlechten Betreuungsschlüssel als dringendste Probleme. Welche Ideen gibt es dagegen?",
+        "id": "TfwYhuXbnWEQ",
+        "url": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-alterspraesidentin-eroeffnet-konstituierende-sitzung-des-landtags-in-sachsen-anhalt-faz-110093143.html",
+        "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-alterspraesidentin-eroeffnet-konstituierende-sitzung-des-landtags-in-sachsen-anhalt-faz-110093143.html",
+        "title": "Deutschland-Liveblog: Von Angern: Selbstbewusste Parlamente sind „keine ewig gewissen Einrichtungen“",
+        "description": "Alterspräsidentin eröffnet konstituierende Sitzung des Landtags in Sachsen-Anhalt +++ Siegmund hofft bei Wahl des Landtagspräsidenten auf „jede Stimme mehr“ +++ alle Entwicklungen im Liveblog",
         "source": {
           "id": "faz",
           "name": "Frankfurter Allgemeine"
         },
         "sourceCountry": "DE",
         "language": "de",
-        "publishedAt": "2026-10-06T08:00:29.000Z",
-        "imageUrl": "https://media0.faz.net/image/613e218641f4/w6048h3402x0y0/202609/43601.0.2613630411/kinder-basteln-gemeinsam-in.webp",
+        "publishedAt": "2026-10-06T09:39:04.000Z",
+        "imageUrl": "https://media0.faz.net/image/45454fae2ea7/w7424h4176x0y129/202610/43601.0.2633052445/die-linkenpolitikerin-eva-von.webp",
         "countryCode": "DE",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:00:29.000Z"
+      "latestPublishedAt": "2026-10-06T09:39:04.000Z"
+    },
+    {
+      "id": "OVZH7AeO2s36",
+      "representative": {
+        "id": "OVZH7AeO2s36",
+        "url": "https://www.spiegel.de/politik/deutschland/august-hanning-geheimdienstkontrolleur-von-notz-fordert-nach-festnahme-schnelle-konsequenzen-a-bea79a96-9f72-4842-b4a5-948cb0220da6#ref=rss",
+        "canonicalUrl": "https://www.spiegel.de/politik/deutschland/august-hanning-geheimdienstkontrolleur-von-notz-fordert-nach-festnahme-schnelle-konsequenzen-a-bea79a96-9f72-4842-b4a5-948cb0220da6",
+        "title": "August Hanning: Geheimdienstkontrolleur von Notz fordert nach Festnahme schnelle Konsequenzen",
+        "description": "Der Grünenpolitiker Konstantin von Notz will den Fall Hanning »zügig und vollständig« aufklären lassen. Hochrangige Geheimdienstmitarbeiter sollten nach ihrer Amtszeit nicht als Lobbyisten arbeiten dürfen, sagt er.",
+        "source": {
+          "id": "spiegel",
+          "name": "DER SPIEGEL"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T09:33:00.000Z",
+        "imageUrl": "https://cdn.prod.www.spiegel.de/images/de5ab7ca-33e8-433a-ad2b-54c6c24834e2_w520_r2.08_fpx56.16_fpy54.97.jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:33:00.000Z"
+    },
+    {
+      "id": "hc-Do-HnoZFm",
+      "representative": {
+        "id": "hc-Do-HnoZFm",
+        "url": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
+        "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierung-afd-bsw-live",
+        "title": "Landtag von Sachsen-Anhalt: Alterspräsidentin betont »Antifaklausel« der Landesverfassung",
+        "description": "In Magdeburg hat die konstituierende Sitzung des Landtags begonnen. Die Alterspräsidentin erinnert an die deutschen Diktaturen und zitiert aus »Spiderman«. Das Liveblog",
+        "source": {
+          "id": "zeit",
+          "name": "ZEIT ONLINE"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T09:32:44.000Z",
+        "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/konstituierende-landtagssitzung-in-sachsen-anhalt-bild/original__640x360",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:32:44.000Z"
     }
   ]
 }

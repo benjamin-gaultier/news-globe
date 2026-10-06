@@ -75,6 +75,8 @@ export function foldText(input: string): string {
     .normalize('NFD')
     .replace(/\p{M}+/gu, '')
     .toLowerCase()
+    // Turkish dotless ı has no decomposition; fold it so "IĞDIR" and "Iğdır" match.
+    .replace(/ı/g, 'i')
     .replace(/[’'`]/g, ' ')
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim();
@@ -125,6 +127,23 @@ questo questa questi queste quello quella quelli quelle suo sua suoi sue loro mi
 lui lei noi voi essi e sono era erano stato stata stati essere ha hanno aveva avere fa fare dopo
 prima ancora gia solo tutto tutti tutta tutte molto poi cosa ecco oggi nuovo nuova ora diretta`;
 
+const STOPWORDS_PT = `
+o a os as um uma uns umas e ou mas que de do da dos das em no na nos nas ao aos a as pelo pela pelos
+pelas por para com sem sobre entre ate apos contra desde se seu sua seus suas ele ela eles elas
+lhe isso isto esse essa este esta esses essas aquele aquela nao sim mais menos muito ja ainda
+tambem como quando onde quem qual quais e sao foi foram ser sera ter tem tinha ha diz dizem
+apos novo nova novos novas ao vivo agora hoje veja saiba leia confira entenda`;
+
+// Turkish suffixes split off by an apostrophe ("Erdoğan'ın" → erdogan + in) are listed too,
+// as are light verbs (etti, yaptı) and police-blotter formula words ("operasyon: 26
+// gözaltı"), which otherwise merged unrelated raids and visits on 2026-10-06.
+const STOPWORDS_TR = `
+ve ile bir bu su o da de ki mi mu icin gibi ama ancak fakat veya ya ne daha cok en cok olan olarak
+oldu olacak olan olur sonra once kadar uzere her hem ise diye dedi soyledi yeni son dakika canli
+in un nin nun ya ye ta te dan den tan ten yi yu la le na ne nda nde ndan nden yla yle
+etti edildi eden etmek yapti yapildi yapilan aldi alindi verdi kimdir nedir
+operasyon operasyonu gozalti gozaltina gozaltinda tutuklandi tutuklama supheli`;
+
 // Format markers that say nothing about the story ("EN DIRECT", "LIVE UPDATES", "VIDEO", "LIVE-TICKER").
 const BOILERPLATE = `direct live video videos photo photos watch updates update podcast replay liveblog ticker newsblog`;
 
@@ -141,6 +160,8 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   de: wordSet(STOPWORDS_DE, STOPWORDS_EN, BOILERPLATE),
   es: wordSet(STOPWORDS_ES, STOPWORDS_EN, BOILERPLATE),
   it: wordSet(STOPWORDS_IT, STOPWORDS_EN, BOILERPLATE),
+  pt: wordSet(STOPWORDS_PT, STOPWORDS_EN, BOILERPLATE),
+  tr: wordSet(STOPWORDS_TR, STOPWORDS_EN, BOILERPLATE),
 };
 
 /**

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "US",
   "countryName": "United States",
-  "updatedAt": "2026-10-06T09:19:45.780Z",
+  "updatedAt": "2026-10-06T09:54:16.528Z",
   "clusters": [
     {
       "id": "cNgRZmeXuur4",
@@ -341,6 +341,90 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T02:21:45.000Z"
+    },
+    {
+      "id": "ayblcUrkAH7o",
+      "representative": {
+        "id": "ayblcUrkAH7o",
+        "url": "https://www.nytimes.com/2026/10/06/us/politics/democrats-house-races-spending.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/06/us/politics/democrats-house-races-spending.html",
+        "title": "Democrats Eyeing the House Face a Conundrum: Rent or Buy?",
+        "description": "With less money than G.O.P., Democrats are torn over where to spend in the final weeks. The party is making its biggest move in years against one of G.O.P.’s biggest blue-district survivors.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:03:34.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06pol-house-democrats-01-qfkg/06pol-house-democrats-01-qfkg-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "sZZ9TzVcH-f0",
+          "url": "https://www.washingtonpost.com/politics/2026/10/06/with-kamala-harris-democrats-face-conundrum/",
+          "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/06/with-kamala-harris-democrats-face-conundrum/",
+          "title": "With Kamala Harris, Democrats face a conundrum",
+          "description": "There is considerable admiration for the former vice president, but also some reservations if she runs again.",
+          "source": {
+            "id": "wapo",
+            "name": "The Washington Post"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:25:34.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:25:34.000Z"
+    },
+    {
+      "id": "5tXtW_C7RRIf",
+      "representative": {
+        "id": "5tXtW_C7RRIf",
+        "url": "https://www.nytimes.com/2026/10/06/business/media/disney-abc-fcc-lawsuit-court.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/06/business/media/disney-abc-fcc-lawsuit-court.html",
+        "title": "Battle Between Disney and the F.C.C. Moves to the Courts",
+        "description": "On Tuesday, a federal judge will begin hearing arguments in Disney’s effort to stop the agency from reviewing its broadcast licenses.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:03:19.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06biz-disney-fcc-kzcl/06biz-disney-fcc-kzcl-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "duvhrrEU8oHP",
+          "url": "https://www.npr.org/2026/10/06/nx-s1-5991831/disney-battles-fcc",
+          "canonicalUrl": "https://www.npr.org/2026/10/06/nx-s1-5991831/disney-battles-fcc",
+          "title": "Disney, ABC battle Trump's FCC in court over free speech protections",
+          "description": "President Trump has repeatedly called for Disney's ABC to fire late night comedian Jimmy Kimmel, for mocking him. Trump has also routinely denounced ABC's The View , accusing it of being unfair.",
+          "source": {
+            "id": "npr",
+            "name": "NPR"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:17:00.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:17:00.000Z"
     },
     {
       "id": "BBxxZB0Zjndl",
@@ -719,54 +803,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T16:04:05.000Z"
-    },
-    {
-      "id": "nTjOC21gozfj",
-      "representative": {
-        "id": "nTjOC21gozfj",
-        "url": "https://www.nytimes.com/2026/10/06/us/execution-methods.html",
-        "canonicalUrl": "https://www.nytimes.com/2026/10/06/us/execution-methods.html",
-        "title": "After a Failed Execution, Scrutiny of the 5 Methods Used to Kill",
-        "description": "Tennessee’s unsuccessful attempt to end the life of Christa Pike with a lethal injection is spurring debate over capital punishment techniques, and whether the death penalty should exist at all.",
-        "source": {
-          "id": "nyt",
-          "name": "The New York Times"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:03:39.000Z",
-        "imageUrl": "https://static01.nyt.com/images/2026/10/05/multimedia/05nat-death-row-tfbl/05nat-death-row-tfbl-mediumSquareAt3X.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:03:39.000Z"
-    },
-    {
-      "id": "ayblcUrkAH7o",
-      "representative": {
-        "id": "ayblcUrkAH7o",
-        "url": "https://www.nytimes.com/2026/10/06/us/politics/democrats-house-races-spending.html",
-        "canonicalUrl": "https://www.nytimes.com/2026/10/06/us/politics/democrats-house-races-spending.html",
-        "title": "Democrats Eyeing the House Face a Conundrum: Rent or Buy?",
-        "description": "With less money than G.O.P., Democrats are torn over where to spend in the final weeks. The party is making its biggest move in years against one of G.O.P.’s biggest blue-district survivors.",
-        "source": {
-          "id": "nyt",
-          "name": "The New York Times"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:03:34.000Z",
-        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06pol-house-democrats-01-qfkg/06pol-house-democrats-01-qfkg-mediumSquareAt3X.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:03:34.000Z"
     }
   ]
 }

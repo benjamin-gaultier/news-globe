@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ES",
   "countryName": "Spain",
-  "updatedAt": "2026-10-06T09:19:45.780Z",
+  "updatedAt": "2026-10-06T09:54:16.528Z",
   "clusters": [
     {
       "id": "HV7AV09ZzCY4",
@@ -241,48 +241,6 @@
       "latestPublishedAt": "2026-10-06T07:27:43.000Z"
     },
     {
-      "id": "9hgImfDXZhiw",
-      "representative": {
-        "id": "9hgImfDXZhiw",
-        "url": "https://www.lavanguardia.com/politica/20261006/11652057/son-diputados-eligen-provincia-e-n-elecciones-29-n.html",
-        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652057/son-diputados-eligen-provincia-e-n-elecciones-29-n.html",
-        "title": "Estos son los diputados que se eligen por cada provincia en las elecciones del 29-N",
-        "description": "Madrid suma un diputado que pierde Cádiz, según el decreto publicado este martes en el BOE",
-        "source": {
-          "id": "lavanguardia",
-          "name": "La Vanguardia"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T06:43:00.000Z",
-        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac4a4676ae73.jpeg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "vupbYqANS6-z",
-          "url": "https://www.20minutos.es/nacional/un-nuevo-hemiciclo-las-provincias-que-ganan-escanos-las-que-los-pierden-cara-las-elecciones-29-n_7045106_0.html",
-          "canonicalUrl": "https://www.20minutos.es/nacional/un-nuevo-hemiciclo-las-provincias-que-ganan-escanos-las-que-los-pierden-cara-las-elecciones-29-n_7045106_0.html",
-          "title": "Un nuevo hemiciclo: las provincias que ganan escaños y las que los pierden de cara a las elecciones del 29-N",
-          "description": "La estimación provisional, realizada a partir de los últimos datos de población, sugiere modificaciones en el reparto de cuatro provincias, entre ellas: Madrid.",
-          "source": {
-            "id": "20minutos_es",
-            "name": "20minutos"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T03:00:27.000Z",
-          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac3bc974578f3-84845876.jpeg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:43:00.000Z"
-    },
-    {
       "id": "msRlwyrh3c7P",
       "representative": {
         "id": "msRlwyrh3c7P",
@@ -409,94 +367,52 @@
       "latestPublishedAt": "2026-10-05T17:04:10.000Z"
     },
     {
-      "id": "Gn2ZG-TNICym",
+      "id": "fXfk_dWG0dxC",
       "representative": {
-        "id": "Gn2ZG-TNICym",
-        "url": "https://www.lavanguardia.com/politica/20261005/11651201/aritmetica-distinta-diputacion-permanente-permitiria-convalidar-decreto-vivienda.html",
-        "canonicalUrl": "https://www.lavanguardia.com/politica/20261005/11651201/aritmetica-distinta-diputacion-permanente-permitiria-convalidar-decreto-vivienda.html",
-        "title": "La aritmética distinta de la Diputación Permanente que permitiría convalidar un decreto de vivienda",
-        "description": "Si se traslada la votación del viernes a este órgano el primer texto saldría adelante pero no el segundo",
+        "id": "fXfk_dWG0dxC",
+        "url": "https://www.lavanguardia.com/politica/20261006/11652015/resolucion-tribunal-constitucional-ley-de-amnistia-ultima-hora-hoy-en-directo.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652015/resolucion-tribunal-constitucional-ley-de-amnistia-ultima-hora-hoy-en-directo.html",
+        "title": "Sentencia del Tribunal Constitucional sobre la amnistía, en directo: última hora de Puigdemont y reacciones",
+        "description": "“Los asuntos ya señalados hay que resolverlos”, afirman en el Tribunal Constitucional respecto a la convocatoria de elecciones generales",
         "source": {
           "id": "lavanguardia",
           "name": "La Vanguardia"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-05T09:25:37.000Z",
-        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/08/26/6a8ec7ce1aa84.r_d.3075-1523-0.jpeg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "5UfAUh593pFk",
-          "url": "https://www.eldiario.es/politica/diputacion-permanente-decidira-nuevos-decretos-vivienda_1_13562507.html",
-          "canonicalUrl": "https://www.eldiario.es/politica/diputacion-permanente-decidira-nuevos-decretos-vivienda_1_13562507.html",
-          "title": "Qué es la Diputación Permanente que decidirá sobre los nuevos decretos de vivienda y por qué Junts no es decisivo",
-          "description": "El máximo órgano parlamentario fuera del periodo de sesiones o en periodo electoral cuenta con 68 miembros más Armengol y allí el Gobierno no necesita a Junts para convalidar los textos rechazados por el Pleno el pasado viernes El Gobierno volverá a aprobar los decretos de vivienda en el Consejo…",
-          "source": {
-            "id": "eldiario",
-            "name": "elDiario.es"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-05T10:59:26.000Z",
-          "imageUrl": "https://static.eldiario.es/clip/1b6b472e-912d-4180-84df-6e8ed3473a80_16-9-discover-aspect-ratio_default_0_x1082y697.jpg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T10:59:26.000Z"
-    },
-    {
-      "id": "mxSUNjo71GRP",
-      "representative": {
-        "id": "mxSUNjo71GRP",
-        "url": "https://www.abc.es/espana/comunidad-valenciana/pablo-motos-sobre-filosofia-enseno-juan-roig-20261005184751-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/comunidad-valenciana/pablo-motos-sobre-filosofia-enseno-juan-roig-20261005184751-nt.html",
-        "title": "Pablo Motos, sobre la filosofía que le enseñó Juan Roig, presidente de Mercadona: «Mi seguridad no está en la rama, está en mis alas»",
-        "description": "Pablo Motos y Juan Roig son dos hombres muy diferentes, pero tienen algo en común. Ambos han conseguido alcanzar el éxito en sus respectivos campos después de muchos años de esfuerzo y dedicación.Uno, como presidente de Mercadona , y el otro, como presentador de 'El Hormiguero' , los dos son un…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:12:02.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/01/pablo-motos-juan-roig-ksHC-U301953417684yPH-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T09:29:35.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2025/11/13/6915c438295cf.jpeg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:12:02.000Z"
+      "latestPublishedAt": "2026-10-06T09:29:35.000Z"
     },
     {
-      "id": "bxhWaXBDrHgz",
+      "id": "uiu_5S27-Fsc",
       "representative": {
-        "id": "bxhWaXBDrHgz",
-        "url": "https://www.abc.es/espana/andalucia/cordoba/conexion-colada-sierra-boyera-pendiente-recurso-resolver-20261006070535-nts.html",
-        "canonicalUrl": "https://www.abc.es/espana/andalucia/cordoba/conexion-colada-sierra-boyera-pendiente-recurso-resolver-20261006070535-nts.html",
-        "title": "La conexión entre La Colada y Sierra Boyera, otros seis meses de atasco con un recurso pediente de resolver",
-        "description": "No en la primera respuesta y una incógnita en la segunda. Han pasado más de cinco meses desde el momento en que la Diputación Provincial de Córdoba anunció un recurso a la negativa de conectar los embalses de L a Colada y Sierra Boyera y todavía no se conoce la resolución, que corresponde a la…",
+        "id": "uiu_5S27-Fsc",
+        "url": "https://www.lavanguardia.com/politica/20261006/11652200/rey-stubb-unidos-seguridad-sur-espana-frontera-finlandesa.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652200/rey-stubb-unidos-seguridad-sur-espana-frontera-finlandesa.html",
+        "title": "Stubb iguala ante el Rey la seguridad del sur de España a la de otras fronteras europeas",
+        "description": "Tras la bienvenida oficial a los Reyes, reivindican en Helsinki una estrategia en la UE y la OTAN ante amenazas que “no son solo una cuestión de defensa”",
         "source": {
-          "id": "abc_es",
-          "name": "ABC"
+          "id": "lavanguardia",
+          "name": "La Vanguardia"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:11:31.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/respuestas-guadiana-colada-RRDlFZYp66WMjm9cQLVecVL-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T09:23:33.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac4bca6a3ebc.jpeg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:11:31.000Z"
+      "latestPublishedAt": "2026-10-06T09:23:33.000Z"
     },
     {
       "id": "E6BUFEdKN5Bf",
@@ -504,7 +420,7 @@
         "id": "E6BUFEdKN5Bf",
         "url": "https://www.abc.es/espana/rey-presidente-finlandia-sellan-alianza-seguridad-360-20261006110243-nt.html",
         "canonicalUrl": "https://www.abc.es/espana/rey-presidente-finlandia-sellan-alianza-seguridad-360-20261006110243-nt.html",
-        "title": "El Rey y el presidente de Finlandia sellan su alianza de seguridad 360 grados en la UE y la OTAN",
+        "title": "El Rey y el presidente de Finlandia sellan su alianza de seguridad «360 grados» en la UE y la OTAN",
         "description": "Los Reyes iniciaron esta mañana su visita de Estado en Helsinki, marcada por la seguridad y la geopolítica ártica. En su primera parada, Don Felipe y Doña Letizia fueron recibidos por el presidente de Finlandia, el liberal Alexander Stubb, y su esposa, Suzanne Innes-Stubb, en el Palacio…",
         "source": {
           "id": "abc_es",
@@ -512,7 +428,7 @@
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:11:25.000Z",
+        "publishedAt": "2026-10-06T09:21:35.000Z",
         "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518357694-RDNG8iOBhv5zRVndpknIdAP-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
@@ -520,7 +436,79 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:11:25.000Z"
+      "latestPublishedAt": "2026-10-06T09:21:35.000Z"
+    },
+    {
+      "id": "4wX1r8S5LN1G",
+      "representative": {
+        "id": "4wX1r8S5LN1G",
+        "url": "https://www.abc.es/espana/madrid/entradas-ultimo-concierto-shakira-espana-hora-salen-precio-20261006051500-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/madrid/entradas-ultimo-concierto-shakira-espana-hora-salen-precio-20261006051500-nt.html",
+        "title": "Entradas del último concierto de Shakira en España hoy: a qué hora salen a la venta, precio y cómo comprar",
+        "description": "La altísima demanda de entradas en la residencia de Shakira en Madrid ha provocado que la artista colombiana haya anunciado un último concierto en el Macondo Park, el recinto construido ad hoc en el espacio Iberdrola Music de Villaverde.Aprovechando la festividad nacional con motivo del Día de la…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:21:32.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/shakira-concierto-madrid-macondo-kezG-U302077714645d6E-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:21:32.000Z"
+    },
+    {
+      "id": "ojEYLZF1dZHX",
+      "representative": {
+        "id": "ojEYLZF1dZHX",
+        "url": "https://www.abc.es/espana/vox-pide-movilizar-funcionarios-cotejar-concesion-nacionalidades-20261006111824-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/vox-pide-movilizar-funcionarios-cotejar-concesion-nacionalidades-20261006111824-nt.html",
+        "title": "Vox pide movilizar funcionarios para cotejar la concesión de nacionalidades de la 'ley de nietos'",
+        "description": "La 'ley de nietos' será uno de los pilares principales de la campaña electoral de Vox. Un día después de la convocatoria electoral por Pedro Sánchez, los de Santiago Abascal han exigido ya la revisión por parte de los órganos públicos de las nacionalizaciones mediante la norma que formen parte del…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:18:49.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518358592-R9DyBGV7GSW3n58kZLH1dGM-1200x840@diario_abc.JPG",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:18:49.000Z"
+    },
+    {
+      "id": "xsk3hSJubPuf",
+      "representative": {
+        "id": "xsk3hSJubPuf",
+        "url": "https://www.abc.es/espana/carnicero-presento-gastos-manipulados-transportes-autorizo-20261006214502-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/carnicero-presento-gastos-manipulados-transportes-autorizo-20261006214502-nt.html",
+        "title": "Iñaqui Carnicero presentó «gastos manipulados» que Transportes autorizó",
+        "description": "El actual secretario general de Agenda Urbana, Vivienda y Arquitectura, Iñaqui Carnicero , presentó «gastos manipulados» en el Ministerio de Transportes, durante su etapa como director general de Agenda Urbana y Arquitectura. Así lo desvelan las fuentes ministeriales consultadas por ABC y así lo…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:16:44.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/viajes-1200x840-kfxB-U3020713041294l-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:16:44.000Z"
     },
     {
       "id": "GsEh_tJanLbM",
@@ -529,14 +517,14 @@
         "url": "https://www.abc.es/espana/andalucia/malaga/detienen-miembro-banda-britanica-traficaba-cocaina-malaga-20261006095313-nts.html",
         "canonicalUrl": "https://www.abc.es/espana/andalucia/malaga/detienen-miembro-banda-britanica-traficaba-cocaina-malaga-20261006095313-nts.html",
         "title": "Cinco narcos fugados cuando iban a detenerlos en la Costa del Sol con una tonelada de cocaína",
-        "description": "La Guardia Civil ha realizado una operación contra una importante organización delictiva de origen británico dedicada al tráfico internacional de cocaína. Según ha informado la Benemérita, hay una persona detenida en Granada y se han emitido cinco órdenes internacionales de detención contra otros…",
+        "description": "Cinco narcos británicos desaparecieron antes de ser detenidos en la Costa del Sol. Cuando la Guardia Civil entró en sus residencias y las zonas de 'guardería' de la droga ya no estaban. La detención de un cargamento en Baza (Granada) los puso en alerta. Escaparon antes de que se derrumbara la…",
         "source": {
           "id": "abc_es",
           "name": "ABC"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:08:25.000Z",
+        "publishedAt": "2026-10-06T09:14:25.000Z",
         "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/foto-recur-gbtana-RQu3sLIhFwFI5h6tsVvS24N-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
@@ -544,55 +532,31 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:08:25.000Z"
+      "latestPublishedAt": "2026-10-06T09:14:25.000Z"
     },
     {
-      "id": "tHhztR9qDSqx",
+      "id": "bz5Gp3hP2aLJ",
       "representative": {
-        "id": "tHhztR9qDSqx",
-        "url": "https://www.abc.es/espana/castilla-la-mancha/toledo/casco-antiguo-talavera-prepara-tres-dias-fiestas-20261006110732-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/toledo/casco-antiguo-talavera-prepara-tres-dias-fiestas-20261006110732-nt.html",
-        "title": "El Casco Antiguo de Talavera se prepara para tres días de fiestas, tradición y convivencia vecinal",
-        "description": "El Casco Antiguo de Talavera de la Reina volverá a convertirse este fin de semana en punto de encuentro para vecinos y visitantes. La Asociación de Vecinos San Jerónimo ha hecho público el programa de las Fiestas del Casco Antiguo 2026, tres jornadas que combinarán tradición, cultura, gastronomía…",
+        "id": "bz5Gp3hP2aLJ",
+        "url": "https://www.abc.es/espana/andalucia/granada/embalses-granada-comienzan-ano-hidrologico-doble-agua-20261006110000-nts.html",
+        "canonicalUrl": "https://www.abc.es/espana/andalucia/granada/embalses-granada-comienzan-ano-hidrologico-doble-agua-20261006110000-nts.html",
+        "title": "Los embalses de Granada comienzan el año hidrológico con el doble de agua que en 2025",
+        "description": "El año hidrológico comenzó el pasado 1 de octubre y en Granada lo hace con unos números magníficos: los once embalses de la provincia acumulan 700 hectómetros cúbicos, lo que significa casi el doble que el año pasado por estas fechas. El consumo está garantizado.Según datos de la Confederación…",
         "source": {
           "id": "abc_es",
           "name": "ABC"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:07:33.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/Plaza%20historica%20con%20iglesia%20y%20casa%20ocre-RrL7ddkoKragf2uwK2mGaYP-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T09:13:24.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/Lecr%c3%adn%20desde%20Rules%202%20m%c3%ada-RZbMT6kHxJvnWE7f0QWGk4J-1200x840@diario_abc.jpeg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:07:33.000Z"
-    },
-    {
-      "id": "D6JbcwUw4P6_",
-      "representative": {
-        "id": "D6JbcwUw4P6_",
-        "url": "https://www.abc.es/espana/cataluna/junqueras-carga-junts-psoe-reventar-legislatura-desactivar-20261006110243-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/cataluna/junqueras-carga-junts-psoe-reventar-legislatura-desactivar-20261006110243-nt.html",
-        "title": "Junqueras carga contra Junts y PSOE por «reventar» la legislatura y desactivar la quita del FLA y la financiación autonómica",
-        "description": "Oriol Junqueras, presidente de ERC, ha cargado hoy contra el PSOE y Junts por «reventar» la legislatura y, por lo tanto, desactivar varias reformas, como la quita de la deuda autonómica, la nueva financiación regional y el traspaso del Consorcio de la Zona Franca de Barcelona, que beneficiaban…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:03:59.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/oj00-RT1VrmV0HAiX4vgllEzid3J-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:03:59.000Z"
+      "latestPublishedAt": "2026-10-06T09:13:24.000Z"
     }
   ]
 }

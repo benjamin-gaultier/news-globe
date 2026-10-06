@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers **France (FR)**, the **United States (US)**, the **United Kingdom (GB)**, **Germany (DE)**, **Spain (ES)**, **Italy (IT)** and **Canada (CA)**. Other countries are greyed out and marked "coming soon".
+It covers **France (FR)**, the **United States (US)**, the **United Kingdom (GB)**, **Germany (DE)**, **Spain (ES)**, **Italy (IT)**, **Canada (CA)**, **Brazil (BR)** and **Turkey (TR)**. Other countries are greyed out and marked "coming soon".
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -232,7 +232,7 @@ The Hill (`thehill.com/homenews/feed/`) and NBC (`feeds.nbcnews.com/nbcnews/publ
 
 ZDF heute (`zdf.de/rss/zdf/nachrichten`) and Tagesspiegel (`tagesspiegel.de/contentexport/feed/politik`) also work, but mix in international news.
 
-German, Spanish and Italian titles use their own stopword lists ([normalize/text.ts](packages/ingest/src/normalize/text.ts), `STOPWORDS_BY_LANGUAGE`), and German also folds `-en` endings. The list is per-language because words like *die*, *war* and *man* are stopwords in German but carry meaning in English.
+German, Spanish, Italian, Portuguese and Turkish titles use their own stopword lists ([normalize/text.ts](packages/ingest/src/normalize/text.ts), `STOPWORDS_BY_LANGUAGE`), and German also folds `-en` endings. The list is per-language because words like *die*, *war* and *man* are stopwords in German but carry meaning in English.
 
 **Spain** (added 2026-10-06)
 
@@ -280,6 +280,35 @@ TGcom24 (`tgcom24.mediaset.it/rss/politica.xml`) also works and is a good substi
 | ~~Toronto Star~~ | — | — | — | ❌ **dropped**: RSS search endpoint returns **429** |
 
 Canada is bilingual, and clustering only compares titles within a language, so a story covered in English and in French shows up as two clusters. Cross-language matching would need translation at ingest. Until then the French outlets add coverage but not outlet counts.
+
+**Brazil** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| g1 | política | 10 | ✅ (`/rss/g1/brasil/` dropped: stale since 2023) |
+| Folha de S.Paulo | poder, cotidiano | 9 | ✅ (ISO-8859-1 encoded, see below) |
+| Estadão | política | 9 | ✅ |
+| O Globo | main feed | 8 | ✅ (general feed, includes sport and world) |
+| Agência Brasil | política, geral | 7 | ✅ (10 items each) |
+| Poder360 | main feed | 7 | ✅ (10 items) |
+| ~~CNN Brasil~~ | — | — | ❌ **dropped**: section feed returns 404 |
+
+**Turkey** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Anadolu Ajansı | güncel | 10 | ✅ (state news agency; `cat=politika` dropped: stale) |
+| TRT Haber | gündem | 9 | ✅ (state broadcaster) |
+| Hürriyet | gündem | 8 | ✅ |
+| NTV | gündem | 8 | ✅ (Atom feed) |
+| Sözcü | gündem | 7 | ✅ (opposition) |
+| Cumhuriyet | son dakika | 7 | ✅ (opposition; breaking-news feed) |
+| CNN Türk | Türkiye | 7 | ✅ (dates are local time labelled GMT, ~3 h ahead; clamped to now) |
+| ~~T24~~ | — | — | ❌ **dropped**: feed is empty |
+
+Sabah, Milliyet, Habertürk and BBC Türkçe also work. Turkish folding maps dotless *ı* to *i*, and the stopword list includes the case suffixes that an apostrophe splits off proper nouns (*Erdoğan'ın*, *Meclis'te*). It also covers light verbs (*etti*, *yaptı*) and the formula words of police-blotter headlines (*operasyon: 26 gözaltı*), which otherwise merged unrelated raids.
+
+**Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
 
 When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`. Also check that the newest item is recent: Corriere and The Telegraph return well-formed but stale feeds.
 

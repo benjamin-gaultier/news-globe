@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "FR",
   "countryName": "France",
-  "updatedAt": "2026-10-06T09:19:45.780Z",
+  "updatedAt": "2026-10-06T09:54:16.528Z",
   "clusters": [
     {
       "id": "uOU2N-HGSEV-",
@@ -140,6 +140,48 @@
       "latestPublishedAt": "2026-10-05T18:15:28.000Z"
     },
     {
+      "id": "rEtqL3567uyf",
+      "representative": {
+        "id": "rEtqL3567uyf",
+        "url": "https://www.lemonde.fr/societe/live/2026/10/06/en-direct-blocage-des-lycees-actions-et-manifestations-partout-en-france-suivez-la-journee-de-mobilisation-avec-nos-envoyes-speciaux_6788487_3224.html",
+        "canonicalUrl": "https://www.lemonde.fr/societe/live/2026/10/06/en-direct-blocage-des-lycees-actions-et-manifestations-partout-en-france-suivez-la-journee-de-mobilisation-avec-nos-envoyes-speciaux_6788487_3224.html",
+        "title": "EN DIRECT, blocage des lycées | « On se mobilise pour les revendications des élèves, qui sont aussi les nôtres » : devant beaucoup de lycées, parents et enseignants soutiennent les actions",
+        "description": "Des actions sont prévues partout en France, mardi, notamment à Lille, Paris, Nîmes, Toulouse ou Clermont-Ferrand. Des cortèges, avec les syndicats et les étudiants, défilent à Marseille et Lyon. Suivez la journée de mobilisation avec nos envoyés spéciaux.",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T08:05:08.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/06/1041/0/2500/1250/644/322/60/0/d8e8042_upload-1-9zt5r4c4tjoe-lewisjoly-lemonde-lyce-esnimes-021.JPG",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "9aBe2rkUawg8",
+          "url": "https://www.franceinfo.fr/societe/education/beaucoup-de-parents-sont-inquiets-devant-les-lycees-la-securite-est-renforcee-pour-eviter-les-blocages_8223325.html#xtor=RSS-3-%5Bgeneral%5D",
+          "canonicalUrl": "https://www.franceinfo.fr/societe/education/beaucoup-de-parents-sont-inquiets-devant-les-lycees-la-securite-est-renforcee-pour-eviter-les-blocages_8223325.html",
+          "title": "\"Beaucoup de parents sont inquiets\" : devant les lycées, la sécurité est renforcée pour éviter les blocages",
+          "description": "Le mouvement lycéen se poursuit, lundi 5 octobre, tandis que les autorités cherchent à éviter les blocages et les rassemblements devant les établissements. À Valbonne, dans les Alpes-Maritimes, policiers, proviseur et parents d'élèves se mobilisent pour sécuriser l'accès au lycée.",
+          "source": {
+            "id": "franceinfo",
+            "name": "franceinfo"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T11:35:57.000Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/tJ8vXPBBMok6DEQDAlP3p_v1oSM/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/05/6ac38b68217c5453296022.jpg",
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T08:05:08.000Z"
+    },
+    {
       "id": "XtoKC54rvKyC",
       "representative": {
         "id": "XtoKC54rvKyC",
@@ -180,48 +222,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T04:59:45.000Z"
-    },
-    {
-      "id": "Iu-e85TkCKf-",
-      "representative": {
-        "id": "Iu-e85TkCKf-",
-        "url": "https://www.lemonde.fr/societe/article/2026/10/05/a-lyon-jean-bernard-plessy-l-ancien-directeur-des-chartreux-en-garde-a-vue-dans-une-enquete-pour-viol-aggrave_6788563_3224.html",
-        "canonicalUrl": "https://www.lemonde.fr/societe/article/2026/10/05/a-lyon-jean-bernard-plessy-l-ancien-directeur-des-chartreux-en-garde-a-vue-dans-une-enquete-pour-viol-aggrave_6788563_3224.html",
-        "title": "A Lyon, Jean-Bernard Plessy, l’ancien directeur des Chartreux, en garde à vue dans une enquête pour viol aggravé",
-        "description": "L’ancien supérieur de la très réputée école catholique est suspecté d’avoir exercé une emprise pour obtenir des relations sexuelles de la part d’une élève durant plusieurs mois. Il avait été démis de ses fonctions par l’archevêque Olivier de Germay après la révélation de l’affaire.",
-        "source": {
-          "id": "lemonde",
-          "name": "Le Monde"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-05T16:49:56.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/10/05/312/0/2160/1080/644/322/60/0/36f1935_upload-1-j2amhlexesho-maxnewsspecialtwo722183.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "PP7KfxwCtOt-",
-          "url": "https://www.liberation.fr/societe/police-justice/lyon-accuse-de-viols-lex-directeur-de-letablissement-catholique-des-chartreux-place-en-garde-a-vue-20261005_V5YYZTO7IJHSRIHNVCI7OF722Q/",
-          "canonicalUrl": "https://www.liberation.fr/societe/police-justice/lyon-accuse-de-viols-lex-directeur-de-letablissement-catholique-des-chartreux-place-en-garde-a-vue-20261005_V5YYZTO7IJHSRIHNVCI7OF722Q/",
-          "title": "Lyon : accusé de viols, l’ex-directeur de l’établissement catholique des Chartreux placé en garde à vue",
-          "description": "Visé par une plainte déposée par une étudiante, l’homme de 63 ans a été évincé de la direction de l’institution. Il a été entendu par la police ce lundi 5 octobre et conteste les faits qui lui sont reprochés.",
-          "source": {
-            "id": "liberation",
-            "name": "Libération"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-05T19:08:57.000Z",
-          "imageUrl": null,
-          "countryCode": "FR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:08:57.000Z"
     },
     {
       "id": "vfdBIroiXYyw",
@@ -350,6 +350,102 @@
       "latestPublishedAt": "2026-10-05T15:09:22.000Z"
     },
     {
+      "id": "oxCoSaewbvDi",
+      "representative": {
+        "id": "oxCoSaewbvDi",
+        "url": "https://www.liberation.fr/politique/alsace-la-justice-annule-lelection-de-lunique-maire-rn-de-la-region-20261006_FIQEXCPEKRFIZDWOGKBROLAFQI/",
+        "canonicalUrl": "https://www.liberation.fr/politique/alsace-la-justice-annule-lelection-de-lunique-maire-rn-de-la-region-20261006_FIQEXCPEKRFIZDWOGKBROLAFQI/",
+        "title": "Alsace : la justice annule l’élection de l’unique maire RN de la région",
+        "description": "Après décision des juges rendue publique ce mardi 6 octobre, la mairie de Wittelsheim, ville de la banlieue de Mulhouse, échappe à l’élue d’extrême droite.",
+        "source": {
+          "id": "liberation",
+          "name": "Libération"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T09:39:32.000Z",
+        "imageUrl": null,
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:39:32.000Z"
+    },
+    {
+      "id": "Ef9rkobnakH-",
+      "representative": {
+        "id": "Ef9rkobnakH-",
+        "url": "https://www.lemonde.fr/afrique/article/2026/10/06/ebola-le-kenya-annonce-son-premier-mort-lie-au-virus_6788972_3212.html",
+        "canonicalUrl": "https://www.lemonde.fr/afrique/article/2026/10/06/ebola-le-kenya-annonce-son-premier-mort-lie-au-virus_6788972_3212.html",
+        "title": "Ebola : le Kenya annonce son premier mort lié au virus",
+        "description": "Le ministre de la santé a déclaré que ce citoyen kenyan, arrivé samedi dans le pays en provenance de RDC via l’Ouganda, avait été placé en isolement à l’hôpital de Nairobi, avant d’y mourir lundi soir.",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T09:37:40.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/06/606/0/5500/2750/644/322/60/0/3ca0e1d_ftp-1-hdonadniomaj-2026-10-06t085139z-339030955-rc2kxnawitcg-rtrmadp-3-kenya-ebola.JPG",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:37:40.000Z"
+    },
+    {
+      "id": "D6-o1B8LNtqD",
+      "representative": {
+        "id": "D6-o1B8LNtqD",
+        "url": "https://www.20minutes.fr/societe/4251744-20261006-loiret-orleans-metropole-prepare-habitants-risque-crue-majeure-loire?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251744-20261006-loiret-orleans-metropole-prepare-habitants-risque-crue-majeure-loire",
+        "title": "Loiret : Orléans Métropole prépare les habitants au risque d’une crue majeure de la Loire",
+        "description": "Les habitants pourront participer à un jeu collaboratif pour mieux comprendre les conséquences d’une importante inondation et savoir comment s’y préparer, annonce « Orléans Métropole »",
+        "source": {
+          "id": "20minutes",
+          "name": "20 Minutes"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T09:34:19.000Z",
+        "imageUrl": "https://img.20mn.fr/4b_fML8tTWy6dJ2rHqKFvik/1200x768_les-eaux-de-crue-de-la-garonne-inondent-les-rues-de-la-reole-a-la-suite-de-la-tempete-nils-a-la-reole-gironde-le-12-fevrier-2025-amezugo-001645-credit-ugo-amez-sipa-2602121450",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:34:19.000Z"
+    },
+    {
+      "id": "zrw-HAMYsL4A",
+      "representative": {
+        "id": "zrw-HAMYsL4A",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/06/municipales-a-wittelsheim-l-election-de-la-seule-maire-rn-d-alsace-annulee-par-le-tribunal-administratif_6788970_823448.html",
+        "canonicalUrl": "https://www.lemonde.fr/politique/article/2026/10/06/municipales-a-wittelsheim-l-election-de-la-seule-maire-rn-d-alsace-annulee-par-le-tribunal-administratif_6788970_823448.html",
+        "title": "Municipales à Wittelsheim : l’élection de la seule maire RN d’Alsace annulée par le tribunal administratif",
+        "description": "La justice a retenu deux irrégularités qui ont « altéré la sincérité du scrutin et justifient, ainsi, l’annulation des opérations électorales de la commune, eu égard notamment au faible écart de voix entre la première et la deuxième liste ».",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T09:32:49.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/02/25/125/0/1500/750/644/322/60/0/20323ff_upload-1-hdyaafygvbv8-frame-987.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:32:49.000Z"
+    },
+    {
       "id": "eLZSpGno_PpN",
       "representative": {
         "id": "eLZSpGno_PpN",
@@ -363,7 +459,7 @@
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T09:16:13.000Z",
+        "publishedAt": "2026-10-06T09:32:46.000Z",
         "imageUrl": null,
         "countryCode": "FR",
         "regionCode": null
@@ -371,103 +467,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:16:13.000Z"
-    },
-    {
-      "id": "7Hk6DFnNkH0e",
-      "representative": {
-        "id": "7Hk6DFnNkH0e",
-        "url": "https://www.ouest-france.fr/economie/consommation/rappel-produit/ne-mangez-pas-ces-aubergines-elles-contiennent-trop-dacetamipride-ce-pesticide-tres-controverse-0b91f8d0-c162-11f1-ae29-63305582bdfe?utm_source=fluxpublicfrance&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-        "canonicalUrl": "https://www.ouest-france.fr/economie/consommation/rappel-produit/ne-mangez-pas-ces-aubergines-elles-contiennent-trop-dacetamipride-ce-pesticide-tres-controverse-0b91f8d0-c162-11f1-ae29-63305582bdfe",
-        "title": "Ne mangez pas ces aubergines : elles contiennent trop d’acétamipride, ce pesticide très controversé",
-        "description": "Des aubergines sont actuellement rappelées en raison du dépassement des limites autorisées d’un pesticide, l’acétamipride. Les produits concernés ont été vendus du 28 au 30 septembre dans trois régions de France : Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Centre-Val de Loire. Il ne faut pas…",
-        "source": {
-          "id": "ouestfrance",
-          "name": "Ouest-France"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T09:12:08.000Z",
-        "imageUrl": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwOWQ5ZmQ2NjU4ODAyOWJmNWVmZTg1Mzc5YWIyMDAwNmE?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=d1bf33231d5b88900fb04a5f660fe8090bbdbdc480a67627cac44cad39e244ea",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:12:08.000Z"
-    },
-    {
-      "id": "-4yeRnVRPkwX",
-      "representative": {
-        "id": "-4yeRnVRPkwX",
-        "url": "https://www.20minutes.fr/societe/4251742-20261006-dissuasion-sous-marin-nucleaire-vigilant-realise-succes-tir-nouveau-missile-balistique-m51?at_medium=display&at_campaign=149",
-        "canonicalUrl": "https://www.20minutes.fr/societe/4251742-20261006-dissuasion-sous-marin-nucleaire-vigilant-realise-succes-tir-nouveau-missile-balistique-m51",
-        "title": "Dissuasion : Le sous-marin nucléaire Le Vigilant a réalisé avec succès un tir du nouveau missile balistique M51",
-        "description": "Ce missile, dépourvu de sa charge nucléaire, « a été tiré au large du Finistère depuis le SNLE Le Vigilant afin de valider la capacité du sous-marin à mettre en œuvre le M51 après son indisponibilité périodique » annonce le ministère des Armées",
-        "source": {
-          "id": "20minutes",
-          "name": "20 Minutes"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T09:10:39.000Z",
-        "imageUrl": "https://img.20mn.fr/1EMILEeeTtmrSoldL5Tq_ik/1200x768_chacun-des-quatre-snle-francais-embarque-16-missiles-strategiques-m51",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:10:39.000Z"
-    },
-    {
-      "id": "4BjxDr_Q5iWx",
-      "representative": {
-        "id": "4BjxDr_Q5iWx",
-        "url": "https://www.lemonde.fr/international/article/2026/10/06/soupcons-de-peste-en-siberie-les-autorites-russes-nient-la-mise-en-place-de-mesures-sanitaires_6788966_3210.html",
-        "canonicalUrl": "https://www.lemonde.fr/international/article/2026/10/06/soupcons-de-peste-en-siberie-les-autorites-russes-nient-la-mise-en-place-de-mesures-sanitaires_6788966_3210.html",
-        "title": "Soupçons de peste en Sibérie : les autorités russes nient la mise en place de mesures sanitaires",
-        "description": "L’agence de santé publique russe a dénoncé « une fausse information » selon laquelle « un régime sanitaire et épidémiologique renforcé et de restrictions strictes » aurait été instauré dans la région d’Irkoutsk à la suite de la mort d’une technicienne de l’Institut de lutte contre la peste.",
-        "source": {
-          "id": "lemonde",
-          "name": "Le Monde"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T09:10:39.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/10/05/343/0/5055/2527/644/322/60/0/88e9163_ftp-1-qt3iqasu34ez-2026-10-05t123259z-1087742687-rc2xwnawl4ph-rtrmadp-3-russia-siberia-plague.JPG",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:10:39.000Z"
-    },
-    {
-      "id": "ZLFWTcXDxgsY",
-      "representative": {
-        "id": "ZLFWTcXDxgsY",
-        "url": "https://www.lemonde.fr/societe/article/2026/10/06/la-moitie-des-aidants-peinent-a-obtenir-le-repit-dont-ils-ont-besoin-j-etais-trop-epuisee-pour-prendre-le-temps-de-chercher_6788961_3224.html",
-        "canonicalUrl": "https://www.lemonde.fr/societe/article/2026/10/06/la-moitie-des-aidants-peinent-a-obtenir-le-repit-dont-ils-ont-besoin-j-etais-trop-epuisee-pour-prendre-le-temps-de-chercher_6788961_3224.html",
-        "title": "La moitié des aidants ayant besoin de répit peinent à l’obtenir : « J’étais trop épuisée pour prendre le temps de chercher »",
-        "description": "Seules 49 % des personnes qui aident un proche au quotidien et expriment le besoin de faire une pause l’obtiennent, selon une étude publiée à l’occasion de la Journée nationale des aidants du 6 octobre. Les freins peuvent être administratifs, financiers, mais aussi liés à la définition même de…",
-        "source": {
-          "id": "lemonde",
-          "name": "Le Monde"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T08:45:07.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/07/15/591/0/7087/3543/644/322/60/0/c83e41d_upload-1-sp8r1jmdol95-jmh-7283.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:45:07.000Z"
+      "latestPublishedAt": "2026-10-06T09:32:46.000Z"
     },
     {
       "id": "Z0jxJtlFPgs-",
@@ -475,15 +475,15 @@
         "id": "Z0jxJtlFPgs-",
         "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/pour-repondre-a-la-colere-lyceenne-xavier-bertrand-propose-une-plateforme-pour-les-urgences-avec-reponse-sous-48-heures_8224717.html#xtor=RSS-3-%5Bgeneral%5D",
         "canonicalUrl": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/pour-repondre-a-la-colere-lyceenne-xavier-bertrand-propose-une-plateforme-pour-les-urgences-avec-reponse-sous-48-heures_8224717.html",
-        "title": "Pour répondre à la colère lycéenne, Xavier Bertrand propose une plateforme pour les urgences avec réponse \"sous 48 heures\"",
-        "description": "Dans les Hauts-de-France, le président de région fait valoir que \"plus d'un milliard d'euros ont déjà été consacrés\" à la rénovation des établissements scolaires, l'une des revendications des lycéens.",
+        "title": "Xavier Bertrand veut proposer aux lycéens un système pour interpeller la région sur des travaux urgents, avec réponse \"sous 48 heures\"",
+        "description": "Dans les Hauts-de-France, le président de région fait valoir que \"plus d'un milliard d'euros ont déjà été consacrés\" à la rénovation des établissements scolaires, l'une des revendications des lycéens. Il regrette un manque de dialogue direct avec les jeunes.",
         "source": {
           "id": "franceinfo",
           "name": "franceinfo"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T08:26:24.000Z",
+        "publishedAt": "2026-10-06T09:31:18.000Z",
         "imageUrl": "https://www.franceinfo.fr/pictures/7XRXGdA7AeJrkvGVMnqfDCuDQ_c/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/06/6ac4b02ddfdef870277364.png",
         "countryCode": "FR",
         "regionCode": null
@@ -491,55 +491,55 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:26:24.000Z"
+      "latestPublishedAt": "2026-10-06T09:31:18.000Z"
     },
     {
-      "id": "S8IKUD_yFKPt",
+      "id": "SjPs54gMXSW4",
       "representative": {
-        "id": "S8IKUD_yFKPt",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/06/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-2032_6788959_823448.html",
-        "canonicalUrl": "https://www.lemonde.fr/politique/article/2026/10/06/presidentielle-2027-marine-le-pen-promet-140-milliards-d-euros-nets-d-economies-d-ici-2032_6788959_823448.html",
-        "title": "Présidentielle 2027 : Marine Le Pen et le RN présentent leur contre-budget, avec « 140 milliards d’euros nets d’économies » en cinq ans",
-        "description": "Cette trajectoire budgétaire « sera confortée par l’adoption d’une règle d’or budgétaire constitutionnelle adoptée par référendum », a précisé la cheffe de file du parti d’extrême droite.",
+        "id": "SjPs54gMXSW4",
+        "url": "https://www.liberation.fr/politique/cest-un-echec-le-ps-retrograde-de-la-2e-a-la-3e-place-au-senat-20261006_5GWJ5A6PNFDOHL4C2TJ6TOT3QU/",
+        "canonicalUrl": "https://www.liberation.fr/politique/cest-un-echec-le-ps-retrograde-de-la-2e-a-la-3e-place-au-senat-20261006_5GWJ5A6PNFDOHL4C2TJ6TOT3QU/",
+        "title": "«C’est un échec» : le PS rétrogradé de la 2e à la 3e place au Sénat",
+        "description": "Les roses reculent d’un cran à la Chambre haute, devancés par les centristes. Leur président, Patrick Kanner, est critiqué pour ne pas avoir su attirer au-delà des rangs du PS.",
         "source": {
-          "id": "lemonde",
-          "name": "Le Monde"
+          "id": "liberation",
+          "name": "Libération"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T08:26:03.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/10/06/196/0/3000/1500/644/322/60/0/3f1e50c_upload-1-xvtjnnerljyf-gj3a5266.jpg",
+        "publishedAt": "2026-10-06T09:27:10.000Z",
+        "imageUrl": null,
         "countryCode": "FR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:26:03.000Z"
+      "latestPublishedAt": "2026-10-06T09:27:10.000Z"
     },
     {
-      "id": "dNqTqd9X1Cai",
+      "id": "8Wdm69HOx5Ke",
       "representative": {
-        "id": "dNqTqd9X1Cai",
-        "url": "https://www.lefigaro.fr/politique/affaire-alstom-l-ancien-procureur-americain-daniel-kahn-invite-en-grand-temoin-a-l-assemblee-nationale-20261005",
-        "canonicalUrl": "https://www.lefigaro.fr/politique/affaire-alstom-l-ancien-procureur-americain-daniel-kahn-invite-en-grand-temoin-a-l-assemblee-nationale-20261005",
-        "title": "Affaire Alstom : l’ancien procureur américain Daniel Kahn invité en «grand témoin» à l’Assemblée nationale",
-        "description": "Le juriste américain qui a instruit le dossier Alstom sera invité à l’hôtel de Lassay, résidence officielle des présidents de l’Assemblée, le 20 octobre. Il y sera question du «nouvel équilibre des relations franco-américaines», «10 ans après la loi Sapin II».",
+        "id": "8Wdm69HOx5Ke",
+        "url": "https://www.franceinfo.fr/replay-radio/histoire-du-jour/le-vol-de-l-apocalypse-le-livre-le-plus-lourd-du-monde-relance-le-debat-sur-la-securite-des-musees_8224459.html#xtor=RSS-3-%5Bgeneral%5D",
+        "canonicalUrl": "https://www.franceinfo.fr/replay-radio/histoire-du-jour/le-vol-de-l-apocalypse-le-livre-le-plus-lourd-du-monde-relance-le-debat-sur-la-securite-des-musees_8224459.html",
+        "title": "Le vol de \"L'Apocalypse\", le livre le plus lourd du monde, relance le débat sur la sécurité des musées",
+        "description": "Réalisé par 14 artistes de renom comme Dali ou Cocteau, cette pièce unique de 210 kilos a été dérobée dans un petit musée privé du Puy-de-Dôme, à Issoire, dans la nuit de dimanche à lundi.",
         "source": {
-          "id": "lefigaro",
-          "name": "Le Figaro"
+          "id": "franceinfo",
+          "name": "franceinfo"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T08:20:19.000Z",
-        "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/10/02/d3f3cb3f43c5948f4b8a948e24e69a7aed3cc052a563ae50a9f5a1b91a220f6b.jpg",
+        "publishedAt": "2026-10-06T09:25:45.000Z",
+        "imageUrl": "https://www.franceinfo.fr/pictures/Q1pbxRy70gN-AcTYP6rTrMIXsAk/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/06/6ac4bd81c3469132665316.jpg",
         "countryCode": "FR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:20:19.000Z"
+      "latestPublishedAt": "2026-10-06T09:25:45.000Z"
     }
   ]
 }

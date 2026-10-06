@@ -27,6 +27,15 @@ export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: stri
   };
 }
 
+/**
+ * A title with U+FFFD replacement characters was decoded with the wrong charset
+ * (e.g. cached before feeds were decoded by their declared charset); skip it
+ * rather than show mojibake.
+ */
+export function isMisdecoded(title: string): boolean {
+  return title.includes('�');
+}
+
 /** Exact dedupe on canonical URL; the first occurrence wins. */
 export function dedupeByCanonicalUrl(articles: Article[]): Article[] {
   const seen = new Set<string>();

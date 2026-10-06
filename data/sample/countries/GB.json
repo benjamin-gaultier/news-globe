@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T09:19:45.780Z",
+  "updatedAt": "2026-10-06T09:54:16.528Z",
   "clusters": [
     {
       "id": "lvuSNuPg4Ipy",
@@ -157,6 +157,65 @@
       "latestPublishedAt": "2026-10-06T08:15:24.000Z"
     },
     {
+      "id": "P6JKvB-nj4rE",
+      "representative": {
+        "id": "P6JKvB-nj4rE",
+        "url": "https://www.bbc.co.uk/news/articles/cxvgdl5npl86o?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cxvgdl5npl86o",
+        "title": "Tories pledge £10bn British 'Iron Dome' air defence system",
+        "description": "The Conservatives say their plan would protect the UK at a time when Nato allies have warned of Russian drone incursions.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T08:04:07.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cc5/live/105c8760-c106-11f1-9ff2-3b6c88884537.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "DDdUMjSyDSfl",
+          "url": "https://www.independent.co.uk/news/uk/home-news/badenoch-iron-dome-enemy-missiles-tory-conference-b3061949.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/badenoch-iron-dome-enemy-missiles-tory-conference-b3061949.html",
+          "title": "Tories plan £10bn ‘British Iron Dome’ to protect UK – how would it work?",
+          "description": "The Tories pledged to build Britain its own £10bn ‘Iron Dome’ missile interception system – but now even the party leader is backtracking",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:19:45.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/06/08/2298836227..?width=1200&auto=webp&trim=0%2C0%2C1%2C0",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
+          "id": "FI4MmBiCjF2G",
+          "url": "https://www.theguardian.com/politics/2026/oct/06/badenoch-british-iron-dome-plan-tory-press-release",
+          "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/06/badenoch-british-iron-dome-plan-tory-press-release",
+          "title": "Badenoch denies ‘British Iron Dome’ plan – after Tories use phrase in press release",
+          "description": "Tory leader says proposed ‘Britannia Shield’ would not be comparable to Israeli missile defence system UK politics live – latest updates Kemi Badenoch has denied she compared a new air defence system proposed by the party to Israel’s Iron Dome, despite using the term in her press release and a…",
+          "source": {
+            "id": "guardian",
+            "name": "The Guardian"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T08:27:41.000Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/e22a3307566c7be4de91bf4e4793404ab40e7f76/1374_188_5460_4368/master/5460.jpg?width=700&quality=85&auto=format&fit=max&s=7def38338970f27e2c47b05d8ab790c3",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T09:19:45.000Z"
+    },
+    {
       "id": "ul8mZBC34-rY",
       "representative": {
         "id": "ul8mZBC34-rY",
@@ -275,6 +334,48 @@
       "latestPublishedAt": "2026-10-05T19:10:43.000Z"
     },
     {
+      "id": "6ryb-NYcU2Br",
+      "representative": {
+        "id": "6ryb-NYcU2Br",
+        "url": "https://www.theguardian.com/music/2026/oct/06/george-fenton-oscar-nominated-british-composer-dies-aged-76-gandhi-groundhog-day-ken-loach",
+        "canonicalUrl": "https://www.theguardian.com/music/2026/oct/06/george-fenton-oscar-nominated-british-composer-dies-aged-76-gandhi-groundhog-day-ken-loach",
+        "title": "George Fenton, Oscar-nominated British composer for more than 100 films, dies aged 76",
+        "description": "Fenton’s successes include scores for Gandhi, Groundhog Day and 18 Ken Loach films, plus BBC TV news themes, Blue Planet and more George Fenton, the British composer who earned five Oscar nominations for scores to films such as Gandhi and Dangerous Liaisons, has died aged 76. A statement from his…",
+        "source": {
+          "id": "guardian",
+          "name": "The Guardian"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:24:56.000Z",
+        "imageUrl": "https://i.guim.co.uk/img/media/767b2ba56685ec09f4bbef89ab8ef7a0d6cb98cd/56_0_1388_1110/master/1388.jpg?width=700&quality=85&auto=format&fit=max&s=5718906b5509d36783fb62562b8087fb",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "LZM8SDbz1qRO",
+          "url": "https://www.standard.co.uk/news/uk/george-fenton-david-attenborough-jane-alan-bennett-ken-loach-b1299636.html",
+          "canonicalUrl": "https://www.standard.co.uk/news/uk/george-fenton-david-attenborough-jane-alan-bennett-ken-loach-b1299636.html",
+          "title": "Composer George Fenton dies aged 76",
+          "description": "Fenton died unexpectedly on Monday, CMG management said.",
+          "source": {
+            "id": "standard",
+            "name": "Evening Standard"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T22:01:01.000Z",
+          "imageUrl": "https://static.standard.co.uk/2026/10/05/20/6e2a5c1e588682e1b3f35fd8e95a0da4Y29udGVudHNlYXJjaGFwaSwxNzkxMzE0NDE4-2.81975361.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:24:56.000Z"
+    },
+    {
       "id": "5dRx021srmUn",
       "representative": {
         "id": "5dRx021srmUn",
@@ -317,48 +418,6 @@
       "latestPublishedAt": "2026-10-06T08:56:53.000Z"
     },
     {
-      "id": "HNDBgHLC2alD",
-      "representative": {
-        "id": "HNDBgHLC2alD",
-        "url": "https://news.sky.com/story/lord-jeffrey-archer-dies-13594813",
-        "canonicalUrl": "https://news.sky.com/story/lord-jeffrey-archer-dies-13594813",
-        "title": "Lord Jeffrey Archer dies 'suddenly and peacefully'",
-        "description": "Lord Jeffrey Archer has died aged 86.",
-        "source": {
-          "id": "sky",
-          "name": "Sky News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T14:19:00.000Z",
-        "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-jeffrey-archer-lord-archer_7369212.jpg?20261005214414",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "dxmqZT7EKN-P",
-          "url": "https://www.standard.co.uk/news/uk/jeffrey-archer-death-author-final-novel-adam-and-eve-b1299646.html",
-          "canonicalUrl": "https://www.standard.co.uk/news/uk/jeffrey-archer-death-author-final-novel-adam-and-eve-b1299646.html",
-          "title": "Jeffrey Archer, 86, dies 'suddenly and peacefully at his home' after completing final novel",
-          "description": "Jeffrey Archer, 86, died ‘suddenly and peacefully at his home between writing sessions,’ his publisher confirmed",
-          "source": {
-            "id": "standard",
-            "name": "Evening Standard"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T05:44:23.000Z",
-          "imageUrl": "https://static.standard.co.uk/2026/10/05/22/891eb962348bbab60a558818df998bdeY29udGVudHNlYXJjaGFwaSwxNzkxMzIxMDkz-2.86070085.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T05:44:23.000Z"
-    },
-    {
       "id": "DG9j1vmozvjD",
       "representative": {
         "id": "DG9j1vmozvjD",
@@ -399,48 +458,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T01:02:00.000Z"
-    },
-    {
-      "id": "uTDEV21Wf7iy",
-      "representative": {
-        "id": "uTDEV21Wf7iy",
-        "url": "https://www.independent.co.uk/news/uk/politics/badenoch-uk-iron-dome-brittania-shield-defence-spending-nato-b3061817.html",
-        "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/badenoch-uk-iron-dome-brittania-shield-defence-spending-nato-b3061817.html",
-        "title": "Kemi Badenoch vows to build £10bn ‘Britannia Shield’ to fend off missile attacks",
-        "description": "The leader of the opposition accused Labour of failing to keep the country safe",
-        "source": {
-          "id": "independent",
-          "name": "The Independent"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T23:51:05.000Z",
-        "imageUrl": "https://static.independent.co.uk/2026/10/05/15/2026-10-04T144139Z_298601495_RC2EWNA7ODZ5_RTRMADP_3_BRITAIN-POLITICS-CONSERVATIVES.JPG?width=1200&auto=webp&trim=3%2C0%2C3%2C0",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "KNpIsL1PsPn6",
-          "url": "https://inews.co.uk/news/politics/badenoch-britannia-dome-missile-shield-4810847",
-          "canonicalUrl": "https://inews.co.uk/news/politics/badenoch-britannia-dome-missile-shield-4810847",
-          "title": "Badenoch promises ‘Britannia Dome’ missile shield",
-          "description": "Tory shadow defence secretary says the cost will be £10bn – experts have said £80bn",
-          "source": {
-            "id": "inews",
-            "name": "The i Paper"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T21:00:00.000Z",
-          "imageUrl": "https://inews.co.uk/wp-content/uploads/2026/10/SEI_315429895.jpg",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T23:51:05.000Z"
     },
     {
       "id": "w6gL1cT4O2Q5",
@@ -653,52 +670,52 @@
       "latestPublishedAt": "2026-10-05T13:28:58.000Z"
     },
     {
-      "id": "xxzYui_fBfp3",
+      "id": "rJ_LhxhADx3O",
       "representative": {
-        "id": "xxzYui_fBfp3",
-        "url": "https://www.independent.co.uk/tv/news/jeffrey-archer-death-kemi-badenoch-b3061994.html",
-        "canonicalUrl": "https://www.independent.co.uk/tv/news/jeffrey-archer-death-kemi-badenoch-b3061994.html",
-        "title": "Kemi Badenoch reveals final message Jeffrey Archer sent her on the day he died",
-        "description": "Kemi Badenoch said Jeffrey Archer complimented her on her opening speech at the Conservative Party conference in his final message to her before his death at age 86.",
+        "id": "rJ_LhxhADx3O",
+        "url": "https://www.independent.co.uk/news/uk/crime/hannah-terry-murder-death-sandringham-norfolk-b3062027.html",
+        "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/hannah-terry-murder-death-sandringham-norfolk-b3062027.html",
+        "title": "GP found dead in home near Sandringham Estate named locally as murder investigation continues",
+        "description": "A man in his 40s was arrested on suspicion of murder and taken to King’s Lynn Police Investigation Centre for questioning",
         "source": {
           "id": "independent",
           "name": "The Independent"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T09:14:09.000Z",
-        "imageUrl": "https://static.independent.co.uk/2026/10/06/08/2026-10-05T204904Z_733338921_RC28XNAK8WS9_RTRMADP_3_PEOPLE-JEFFREY-ARCHER.JPG?width=1200&auto=webp&trim=0%2C58%2C0%2C58",
+        "publishedAt": "2026-10-06T09:39:28.000Z",
+        "imageUrl": "https://static.independent.co.uk/2026/10/06/9/18/geograph-4275584-by-Mat-Fascione.jpeg?width=1200&auto=webp&trim=2%2C0%2C2%2C0",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:14:09.000Z"
+      "latestPublishedAt": "2026-10-06T09:39:28.000Z"
     },
     {
-      "id": "AYSLAiKo1UZA",
+      "id": "zIFHR_nGIAUc",
       "representative": {
-        "id": "AYSLAiKo1UZA",
-        "url": "https://www.mirror.co.uk/money/criteria-uk-bank-pay-select-37739303",
-        "canonicalUrl": "https://www.mirror.co.uk/money/criteria-uk-bank-pay-select-37739303",
-        "title": "Criteria as UK bank to pay 'select' customers £3,000 'to give head start'",
-        "description": "The amount will be paid tax-free",
+        "id": "zIFHR_nGIAUc",
+        "url": "https://www.mirror.co.uk/news/health/bbc-morning-live-doctor-issues-37739081",
+        "canonicalUrl": "https://www.mirror.co.uk/news/health/bbc-morning-live-doctor-issues-37739081",
+        "title": "BBC Morning Live doctor issues advice amid suspected 'medieval' plague concerns",
+        "description": "BBC's Dr Ranj says there is a very big reason why the plague isn't another Covid",
         "source": {
           "id": "mirror",
           "name": "Daily Mirror"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T09:08:40.000Z",
-        "imageUrl": "https://i2-prod.mirror.co.uk/money/article37739302.ece/ALTERNATES/s615/0_male-hands-inserts-a-credit-card-into-the-terminal.jpg",
+        "publishedAt": "2026-10-06T09:37:43.000Z",
+        "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37739471.ece/ALTERNATES/s615/1_BBC-Morning-Live.jpg",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:08:40.000Z"
+      "latestPublishedAt": "2026-10-06T09:37:43.000Z"
     }
   ]
 }

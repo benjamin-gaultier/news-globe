@@ -101,4 +101,6 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   ES: { code: 'ES', name: 'Spain', lat: 40.2, lng: -3.7, altitude: 1.3 },
   IT: { code: 'IT', name: 'Italy', lat: 42.5, lng: 12.6, altitude: 1.3 },
   CA: { code: 'CA', name: 'Canada', lat: 52, lng: -96, altitude: 2.0 },
+  BR: { code: 'BR', name: 'Brazil', lat: -12, lng: -52, altitude: 2.0 },
+  TR: { code: 'TR', name: 'Turkey', lat: 39, lng: 35, altitude: 1.4 },
 };
