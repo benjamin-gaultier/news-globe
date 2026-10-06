@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MA",
   "countryName": "Morocco",
-  "updatedAt": "2026-10-06T15:32:48.958Z",
+  "updatedAt": "2026-10-06T15:57:23.644Z",
   "clusters": [
     {
       "id": "WuRy8BpamyNw",
@@ -190,48 +190,6 @@
       "latestPublishedAt": "2026-10-06T11:30:00.000Z"
     },
     {
-      "id": "56fYvTbOoNoE",
-      "representative": {
-        "id": "56fYvTbOoNoE",
-        "url": "https://telquel.ma/instant-t/2026/10/05/chambre-des-representants-le-ffd-le-pe-le-pnd-et-le-pud-forment-un-groupement-parlementaire_2011483/",
-        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/05/chambre-des-representants-le-ffd-le-pe-le-pnd-et-le-pud-forment-un-groupement-parlementaire_2011483/",
-        "title": "Chambre des représentants : le FFD, le PE, le PND et le PUD forment un groupement parlementaire",
-        "description": "Le Front des Forces Démocratiques (FFD), le Parti de l’Équité (PE), le Parti des Néo-Démocrates (PND) et le Parti de l’Unité et de la Démocratie (PUD) ont annoncé la formation d’un groupement parlementaire commun à la Chambre des représentants, au regard des résultats des dernières élections…",
-        "source": {
-          "id": "telquel",
-          "name": "TelQuel"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-05T15:46:20.000Z",
-        "imageUrl": "https://static.telquel.ma/content/uploads/2025/10/692996e6277094393a992cdd51a09839.jpg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "5KnDerA6KYOC",
-          "url": "https://leseco.ma/maroc/chambre-des-representants-quatre-partis-sunissent-dans-un-groupement-parlementaire.html",
-          "canonicalUrl": "https://leseco.ma/maroc/chambre-des-representants-quatre-partis-sunissent-dans-un-groupement-parlementaire.html",
-          "title": "Chambre des représentants : quatre partis s’unissent dans un groupement parlementaire",
-          "description": "Le Front des Forces Démocratiques (FFD), le Parti de l’Équité (PE), le Parti des Néo-Démocrates (PND) et le Parti de l’Unité et de la Démocratie (PUD) ont annoncé la création d’un groupement parlementaire commun à la Chambre des représentants. The post Chambre des représentants : quatre partis…",
-          "source": {
-            "id": "leseco",
-            "name": "Les Inspirations ÉCO"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-06T10:55:11.000Z",
-          "imageUrl": null,
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:55:11.000Z"
-    },
-    {
       "id": "E-JFeU7IO0y7",
       "representative": {
         "id": "E-JFeU7IO0y7",
@@ -356,48 +314,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T16:52:22.000Z"
-    },
-    {
-      "id": "TTqZBwrrZY4W",
-      "representative": {
-        "id": "TTqZBwrrZY4W",
-        "url": "https://telquel.ma/instant-t/2026/10/05/reseaux-sociaux-entre-influence-politique-et-desinformation-les-alertes-de-la-haca_2011474/",
-        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/05/reseaux-sociaux-entre-influence-politique-et-desinformation-les-alertes-de-la-haca_2011474/",
-        "title": "Réseaux sociaux : entre influence politique et désinformation, les alertes de la HACA",
-        "description": "Une nouvelle étude intitulée « Les réseaux sociaux et la communication politique : entre opportunités d’influence et risques de désinformation », vient d’être publiée par le groupe de travail « Régulation et médias numériques » de la Haute autorité de la communication audiovisuelle (HACA). Cette…",
-        "source": {
-          "id": "telquel",
-          "name": "TelQuel"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-05T16:09:14.000Z",
-        "imageUrl": "https://static.telquel.ma/content/uploads/2026/08/188b41cf554a6f434fb074521b017965.jpg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "CpXBjYao-PHr",
-          "url": "https://www.lavieeco.com/au-royaume/scans/politique-et-reseaux-sociaux-la-haca-etudie-la-dynamique-digitale-des-partis/",
-          "canonicalUrl": "https://www.lavieeco.com/au-royaume/scans/politique-et-reseaux-sociaux-la-haca-etudie-la-dynamique-digitale-des-partis/",
-          "title": "Politique et réseaux sociaux : La HACA étudie la dynamique digitale des partis",
-          "description": "Une nouvelle étude du Conseil supérieur de la communication audiovisuelle passe au crible les pratiques numériques des partis politiques. Plus de 5.000 publications et vidéos issues de Facebook, TikTok, YouTube et X ont été étudiées et analysées. L’article Politique et réseaux sociaux : La HACA…",
-          "source": {
-            "id": "lavieeco",
-            "name": "La Vie éco"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-05T15:49:38.000Z",
-          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/HACA.jpeg",
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T16:09:14.000Z"
     },
     {
       "id": "nOPh3ghabc8H",
@@ -542,6 +458,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:11:26.000Z"
+    },
+    {
+      "id": "6V0TZWAvCq9W",
+      "representative": {
+        "id": "6V0TZWAvCq9W",
+        "url": "https://www.yabiladi.com/articles/details/204326/reunit-agences-voyages-marrakech-annonce.html?utm_source=rss_yabiladi",
+        "canonicalUrl": "https://www.yabiladi.com/articles/details/204326/reunit-agences-voyages-marrakech-annonce.html",
+        "title": "GNV réunit les agences de voyages à Marrakech et annonce 2,2 millions de passagers en 2026",
+        "description": "La compagnie maritime GNV, filiale du groupe italien MSC, a réuni à Marrakech ses agences de voyages partenaires à l’occasion de la septième édition des GNV Awards. Organisé durant le week-end, l’événement a rassemblé environ 120 représentants d’agences de voyages italiennes et internationales.",
+        "source": {
+          "id": "yabiladi",
+          "name": "Yabiladi"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:08:00.000Z",
+        "imageUrl": "https://static.yabiladi.com/files/articles/yabiladi.8ee739c7c06484a735ba7bc8bdf5711920261006150537150.webp",
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:08:00.000Z"
+    },
+    {
+      "id": "43DVLNxgjRJu",
+      "representative": {
+        "id": "43DVLNxgjRJu",
+        "url": "https://fr.hespress.com/491259-pps-opposition-ou-participation-un-choix-sous-conditions.html",
+        "canonicalUrl": "https://fr.hespress.com/491259-pps-opposition-ou-participation-un-choix-sous-conditions.html",
+        "title": "PPS : opposition ou participation, un choix sous conditions",
+        "description": "Réuni en session extraordinaire ce mardi, le comité central du Parti du progrès et du socialisme (PPS) examine deux options après les législatives du 23 septembre : rejoindre la prochaine majorité ou siéger dans l’opposition. Le bureau politique, qui n’a pas arrêté de choix, demande à l’instance…",
+        "source": {
+          "id": "hespress_fr",
+          "name": "Hespress FR"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:05:28.000Z",
+        "imageUrl": "https://f2.hespress.com/wp-content/uploads/2026/10/PPS-Benabdallah.jpg",
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:05:28.000Z"
     }
   ]
 }

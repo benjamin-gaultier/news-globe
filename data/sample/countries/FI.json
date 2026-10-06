@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "FI",
   "countryName": "Finland",
-  "updatedAt": "2026-10-06T15:32:48.958Z",
+  "updatedAt": "2026-10-06T15:57:23.644Z",
   "clusters": [
     {
       "id": "664bQ0BSRZdw",
@@ -81,6 +81,107 @@
       "latestPublishedAt": "2026-10-06T12:27:59.000Z"
     },
     {
+      "id": "sZO6aQ9Bx98N",
+      "representative": {
+        "id": "sZO6aQ9Bx98N",
+        "url": "https://www.hs.fi/maailma/art-2000012323661.html",
+        "canonicalUrl": "https://www.hs.fi/maailma/art-2000012323661.html",
+        "title": "Bulgaria | Droonit upottivat aluksen Mustalla­merellä Bulgarian edustalla, miehistö kateissa",
+        "description": "Droonit vaurioittivat myös toista kauppa-alusta.",
+        "source": {
+          "id": "hs",
+          "name": "Helsingin Sanomat"
+        },
+        "sourceCountry": "FI",
+        "language": "fi",
+        "publishedAt": "2026-10-06T11:09:00.000Z",
+        "imageUrl": "https://images.sanoma-sndp.fi/01432d642d03a38971981d581ae60294/normal/1440.jpg",
+        "countryCode": "FI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "U7iRXegwJQS9",
+          "url": "https://www.mtvuutiset.fi/artikkeli/droonit-upottivat-kauppalaivan-mustallamerella-bulgarian-edustalla-taysin-hyvaksymatonta/9402998",
+          "canonicalUrl": "https://www.mtvuutiset.fi/artikkeli/droonit-upottivat-kauppalaivan-mustallamerella-bulgarian-edustalla-taysin-hyvaksymatonta/9402998",
+          "title": "Droonit upottivat kauppalaivan Mustallamerellä Bulgarian edustalla – \"Täysin hyväksymätöntä\"",
+          "description": "Bulgarian pääministeri tuomitsee hyökkäyksen räikeänä loukkauksena kansainvälisiä lakeja kohtaan.",
+          "source": {
+            "id": "mtvuutiset",
+            "name": "MTV Uutiset"
+          },
+          "sourceCountry": "FI",
+          "language": "fi",
+          "publishedAt": "2026-10-06T12:00:08.000Z",
+          "imageUrl": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9403004/data/4ba2cb6fe8715518839ad2c44eead344/landscape16_9/1024/oma-bulgaria-kauppalaivat-lokakuu-2026.png",
+          "countryCode": "FI",
+          "regionCode": null
+        },
+        {
+          "id": "29bVi-OluTCa",
+          "url": "https://www.is.fi/ulkomaat/art-2000012276672.html",
+          "canonicalUrl": "https://www.is.fi/ulkomaat/art-2000012276672.html",
+          "title": "Drooni-isku upotti aluksen Bulgarian edustalla – miehistö kateissa",
+          "description": "IS seuraa tässä artikkelissa tilannetta Ukrainan sodassa sekä siihen liittyviä tapahtumia.",
+          "source": {
+            "id": "iltasanomat",
+            "name": "Ilta-Sanomat"
+          },
+          "sourceCountry": "FI",
+          "language": "fi",
+          "publishedAt": "2026-10-06T10:26:00.000Z",
+          "imageUrl": "https://images.sanoma-sndp.fi/8902b408821f4e5c5efb89f185a8940f/normal/1440.jpg",
+          "countryCode": "FI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T12:00:08.000Z"
+    },
+    {
+      "id": "FgcrG8czkIp7",
+      "representative": {
+        "id": "FgcrG8czkIp7",
+        "url": "https://www.is.fi/ulkomaat/art-2000012324925.html",
+        "canonicalUrl": "https://www.is.fi/ulkomaat/art-2000012324925.html",
+        "title": "Uusi pidätys lento­tukikohdan terrori­epäilystä",
+        "description": "Aiemmin oli otettu kiinni kuusi epäiltyä.",
+        "source": {
+          "id": "iltasanomat",
+          "name": "Ilta-Sanomat"
+        },
+        "sourceCountry": "FI",
+        "language": "fi",
+        "publishedAt": "2026-10-06T13:42:00.000Z",
+        "imageUrl": "https://images.sanoma-sndp.fi/3899eba9653337384277ff3e02c43fe7/normal/1440.jpg",
+        "countryCode": "FI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "GY9eT5huJ2Zr",
+          "url": "https://www.mtvuutiset.fi/artikkeli/uusi-pidatys-britanniassa-lentotukikohdan-terroritutkinnassa/9403036",
+          "canonicalUrl": "https://www.mtvuutiset.fi/artikkeli/uusi-pidatys-britanniassa-lentotukikohdan-terroritutkinnassa/9403036",
+          "title": "Uusi pidätys Britanniassa lentotukikohdan terroritutkinnassa",
+          "description": "Kyse on jo seitsemännestä pidätyksestä tapauksessa.",
+          "source": {
+            "id": "mtvuutiset",
+            "name": "MTV Uutiset"
+          },
+          "sourceCountry": "FI",
+          "language": "fi",
+          "publishedAt": "2026-10-06T13:42:12.000Z",
+          "imageUrl": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9403038/data/449c06b378cd5f0fae9bc084ddf6bb87/landscape16_9/1024/aop-fairford.jpg",
+          "countryCode": "FI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:42:12.000Z"
+    },
+    {
       "id": "h8f5k01eGvr8",
       "representative": {
         "id": "h8f5k01eGvr8",
@@ -123,46 +224,46 @@
       "latestPublishedAt": "2026-10-06T11:13:00.000Z"
     },
     {
-      "id": "sZO6aQ9Bx98N",
+      "id": "vzn8omvLXjN8",
       "representative": {
-        "id": "sZO6aQ9Bx98N",
-        "url": "https://www.hs.fi/maailma/art-2000012323661.html",
-        "canonicalUrl": "https://www.hs.fi/maailma/art-2000012323661.html",
-        "title": "Bulgaria | Droonit upottivat aluksen Mustalla­merellä Bulgarian edustalla, miehistö kateissa",
-        "description": "Droonit vaurioittivat myös toista kauppa-alusta.",
+        "id": "vzn8omvLXjN8",
+        "url": "https://www.hs.fi/politiikka/art-2000012323090.html",
+        "canonicalUrl": "https://www.hs.fi/politiikka/art-2000012323090.html",
+        "title": "Stea-leikkaukset | Suomen Pakolais­apu käynnistää muutos­neuvottelut",
+        "description": "Muutosneuvotteluiden taustalla ovat sote-järjestöjen valtion­avustus­leikkaukset.",
         "source": {
           "id": "hs",
           "name": "Helsingin Sanomat"
         },
         "sourceCountry": "FI",
         "language": "fi",
-        "publishedAt": "2026-10-06T11:09:00.000Z",
-        "imageUrl": "https://images.sanoma-sndp.fi/01432d642d03a38971981d581ae60294/normal/1440.jpg",
+        "publishedAt": "2026-10-06T06:58:00.000Z",
+        "imageUrl": null,
         "countryCode": "FI",
         "regionCode": null
       },
       "related": [
         {
-          "id": "29bVi-OluTCa",
-          "url": "https://www.is.fi/ulkomaat/art-2000012276672.html",
-          "canonicalUrl": "https://www.is.fi/ulkomaat/art-2000012276672.html",
-          "title": "Drooni-isku upotti aluksen Bulgarian edustalla – miehistö kateissa",
-          "description": "IS seuraa tässä artikkelissa tilannetta Ukrainan sodassa sekä siihen liittyviä tapahtumia.",
+          "id": "QxQsAk6t3FcF",
+          "url": "https://www.is.fi/taloussanomat/art-2000012323093.html",
+          "canonicalUrl": "https://www.is.fi/taloussanomat/art-2000012323093.html",
+          "title": "Suomen Pakolaisapu aloittaa muutosneuvottelut – STEA-leikkaukset uhkaavat 15 työpaikkaa",
+          "description": "Järjestön mukaan rahoitus vähenee merkittävästi.",
           "source": {
             "id": "iltasanomat",
             "name": "Ilta-Sanomat"
           },
           "sourceCountry": "FI",
           "language": "fi",
-          "publishedAt": "2026-10-06T10:26:00.000Z",
-          "imageUrl": "https://images.sanoma-sndp.fi/8902b408821f4e5c5efb89f185a8940f/normal/1440.jpg",
+          "publishedAt": "2026-10-06T06:39:00.000Z",
+          "imageUrl": "https://images.sanoma-sndp.fi/a6787e4e79c7c8071d174f0880ebc987/normal/1440.jpg",
           "countryCode": "FI",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:09:00.000Z"
+      "latestPublishedAt": "2026-10-06T06:58:00.000Z"
     },
     {
       "id": "X9MccM0pACDr",
@@ -283,54 +384,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:45:00.000Z"
-    },
-    {
-      "id": "GY9eT5huJ2Zr",
-      "representative": {
-        "id": "GY9eT5huJ2Zr",
-        "url": "https://www.mtvuutiset.fi/artikkeli/uusi-pidatys-britanniassa-lentotukikohdan-terroritutkinnassa/9403036",
-        "canonicalUrl": "https://www.mtvuutiset.fi/artikkeli/uusi-pidatys-britanniassa-lentotukikohdan-terroritutkinnassa/9403036",
-        "title": "Uusi pidätys Britanniassa lentotukikohdan terroritutkinnassa",
-        "description": "Kyse on jo seitsemännestä pidätyksestä tapauksessa.",
-        "source": {
-          "id": "mtvuutiset",
-          "name": "MTV Uutiset"
-        },
-        "sourceCountry": "FI",
-        "language": "fi",
-        "publishedAt": "2026-10-06T13:42:12.000Z",
-        "imageUrl": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9403038/data/449c06b378cd5f0fae9bc084ddf6bb87/landscape16_9/1024/aop-fairford.jpg",
-        "countryCode": "FI",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:42:12.000Z"
-    },
-    {
-      "id": "FgcrG8czkIp7",
-      "representative": {
-        "id": "FgcrG8czkIp7",
-        "url": "https://www.is.fi/ulkomaat/art-2000012324925.html",
-        "canonicalUrl": "https://www.is.fi/ulkomaat/art-2000012324925.html",
-        "title": "Uusi pidätys lento­tukikohdan terrori­epäilystä",
-        "description": "Aiemmin oli otettu kiinni kuusi epäiltyä.",
-        "source": {
-          "id": "iltasanomat",
-          "name": "Ilta-Sanomat"
-        },
-        "sourceCountry": "FI",
-        "language": "fi",
-        "publishedAt": "2026-10-06T13:42:00.000Z",
-        "imageUrl": "https://images.sanoma-sndp.fi/3899eba9653337384277ff3e02c43fe7/normal/1440.jpg",
-        "countryCode": "FI",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:42:00.000Z"
     },
     {
       "id": "sJh_ETabQOuC",

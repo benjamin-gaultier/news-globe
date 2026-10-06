@@ -167,4 +167,10 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   ZM: { code: 'ZM', name: 'Zambia', lat: -13.5, lng: 27.8, altitude: 1.3 },
   MW: { code: 'MW', name: 'Malawi', lat: -13.3, lng: 34, altitude: 0.9 },
   LK: { code: 'LK', name: 'Sri Lanka', lat: 7.8, lng: 80.7, altitude: 0.7 },
+  SI: { code: 'SI', name: 'Slovenia', lat: 46.1, lng: 14.8, altitude: 0.7 },
+  BA: { code: 'BA', name: 'Bosnia and Herzegovina', lat: 44.2, lng: 17.8, altitude: 0.8 },
+  IS: { code: 'IS', name: 'Iceland', lat: 64.9, lng: -18.6, altitude: 1.0 },
+  CY: { code: 'CY', name: 'Cyprus', lat: 35, lng: 33.2, altitude: 0.5 },
+  LU: { code: 'LU', name: 'Luxembourg', lat: 49.8, lng: 6.1, altitude: 0.4 },
+  MD: { code: 'MD', name: 'Moldova', lat: 47.2, lng: 28.5, altitude: 0.7 },
 };

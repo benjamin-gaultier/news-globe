@@ -1,0 +1,721 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "SI",
+  "countryName": "Slovenia",
+  "updatedAt": "2026-10-06T15:57:23.644Z",
+  "clusters": [
+    {
+      "id": "UIG5ZfNi4DWc",
+      "representative": {
+        "id": "UIG5ZfNi4DWc",
+        "url": "https://www.rtvslo.si/crna-kronika/v-crnomlju-med-nudenjem-pomoci-napadli-in-lazje-poskodovali-resevalko/796027",
+        "canonicalUrl": "https://www.rtvslo.si/crna-kronika/v-crnomlju-med-nudenjem-pomoci-napadli-in-lazje-poskodovali-resevalko/796027",
+        "title": "V Črnomlju med nudenjem pomoči napadli in lažje poškodovali reševalko",
+        "description": "Pred tednom so reševalci ZD-ja Črnomelj v naselju Lokve nudili pomoč oboleli osebi. Ena od navzočih oseb se s tem ni strinjala. Eno od reševalk je prijela za ramena in jo trikrat potisnila proti reševalnemu vozilu, utrpela je lažje poškodbe.",
+        "source": {
+          "id": "rtvslo",
+          "name": "RTV Slovenija"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T15:35:25.000Z",
+        "imageUrl": "https://img.rtvcdn.si/_up/upload/2026/01/01/67007161.jpg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "WO-YOJhvnIn9",
+          "url": "https://www.24ur.com/novice/crna-kronika/med-nudenjem-pomoci-obolelemu-napadli-in-lazje-poskodovali-resevalko-zd-crnomelj.html",
+          "canonicalUrl": "https://www.24ur.com/novice/crna-kronika/med-nudenjem-pomoci-obolelemu-napadli-in-lazje-poskodovali-resevalko-zd-crnomelj.html",
+          "title": "Med nudenjem pomoči obolelemu napadli in lažje poškodovali reševalko ZD Črnomelj",
+          "description": "Reševalci ZD Črnomelj so odzvali na klic o oboleli osebi v naselju Lokve. Po prihodu so osebi začeli nuditi pomoč, pri čemer so naleteli na nestrinjanje ene od navzočih oseb. Ta je ovirala njihovo delo, eno od reševalk je tudi prijela za ramena in jo trikrat porinila proti reševalnemu vozilu. Pri…",
+          "source": {
+            "id": "24ur",
+            "name": "24ur"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T14:28:17.000Z",
+          "imageUrl": "https://images.24ur.com/media/images/213xX/Jul2025/6704d953948d398e0d65_63444279.jpg?v=d3e1&fop=fp:0.48:0.38",
+          "countryCode": "SI",
+          "regionCode": null
+        },
+        {
+          "id": "M7a3ZIubRw_S",
+          "url": "https://siol.net/novice/slovenija/med-nudenjem-pomoci-obolelemu-napadli-in-lazje-poskodovali-resevalko-zd-crnomelj-703343",
+          "canonicalUrl": "https://siol.net/novice/slovenija/med-nudenjem-pomoci-obolelemu-napadli-in-lazje-poskodovali-resevalko-zd-crnomelj-703343",
+          "title": "Med nudenjem pomoči obolelemu napadli in lažje poškodovali reševalko ZD Črnomelj",
+          "description": "Reševalci ZD Črnomelj so se pred tednom dni odzvali na klic o oboleli osebi v naselju Lokve. Po prihodu so osebi začeli nuditi pomoč, pri čemer so naleteli na nestrinjanje ene od navzočih oseb. Ta je ovirala njihovo delo, eno od reševalk je tudi prijela za ramena in jo trikrat porinila proti…",
+          "source": {
+            "id": "siol",
+            "name": "Siol.net"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T14:23:00.000Z",
+          "imageUrl": "https://siol.net/media/img/1c/15/1a778ff4eeda2a608eee.jpeg",
+          "countryCode": "SI",
+          "regionCode": null
+        },
+        {
+          "id": "NooJmmDLNYCJ",
+          "url": "https://n1info.si/novice/slovenija/v-crnomlju-med-nudenjem-pomoci-napadli-resevalko/",
+          "canonicalUrl": "https://n1info.si/novice/slovenija/v-crnomlju-med-nudenjem-pomoci-napadli-resevalko/",
+          "title": "V Črnomlju med nudenjem pomoči napadli reševalko",
+          "description": "Reševalko ZD Črnomelj je med intervencijo ena od oseb prijela za ramena in jo trikrat porinila proti reševalnemu vozilu. Utrpela je lažje poškodbe.",
+          "source": {
+            "id": "n1_si",
+            "name": "N1 Slovenija"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T14:13:49.000Z",
+          "imageUrl": "https://n1info.si/media/images/1680539836-resilec.width-1200.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T15:35:25.000Z"
+    },
+    {
+      "id": "2SnKo2Dugv1h",
+      "representative": {
+        "id": "2SnKo2Dugv1h",
+        "url": "https://www.rtvslo.si/slovenija/kpk-bo-preveril-domnevno-sporno-oglasevanje-zdravstvenega-ministrstva-na-planet-tv-ju/795993",
+        "canonicalUrl": "https://www.rtvslo.si/slovenija/kpk-bo-preveril-domnevno-sporno-oglasevanje-zdravstvenega-ministrstva-na-planet-tv-ju/795993",
+        "title": "KPK bo preveril domnevno sporno oglaševanje zdravstvenega ministrstva na Planet TV-ju",
+        "description": "KPK je prejel prijavo domnevno spornega oglaševanja ministrstva za zdravje na televiziji Planet TV. V predhodnem preizkusu bodo preverili, ali obstajajo sumi kršitev iz pristojnosti KPK-ja oz. kršitev zakona o integriteti in preprečevanju korupcije.",
+        "source": {
+          "id": "rtvslo",
+          "name": "RTV Slovenija"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T12:34:50.000Z",
+        "imageUrl": "https://img.rtvcdn.si/_up/upload/2026/07/13/67060985.jpg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "d2kfv850Swoa",
+          "url": "https://n1info.si/novice/slovenija/kpk-o-domnevnem-prijateljskem-oglasevanju-ministrstva-za-zdravje-na-planet-tv/",
+          "canonicalUrl": "https://n1info.si/novice/slovenija/kpk-o-domnevnem-prijateljskem-oglasevanju-ministrstva-za-zdravje-na-planet-tv/",
+          "title": "KPK o domnevnem prijateljskem oglaševanju ministrstva za zdravje na Planet TV",
+          "description": "Planet TV naj bi petino oglasov, ki jih je za 25.000 evrov zakupilo ministrstvo, predvajal med drugo in šesto uro zjutraj, navaja portal Necenzurirano",
+          "source": {
+            "id": "n1_si",
+            "name": "N1 Slovenija"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T12:27:20.000Z",
+          "imageUrl": "https://n1info.si/media/images/1704293777-pLANET-tv-1.width-1200.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        },
+        {
+          "id": "gBaHLL07qpcl",
+          "url": "https://vecer.com/slovenija/kpk-prijava-ministrstvo-za-zdravje-sporno-oglasevanje-tadej-ostrc-10429499",
+          "canonicalUrl": "https://vecer.com/slovenija/kpk-prijava-ministrstvo-za-zdravje-sporno-oglasevanje-tadej-ostrc-10429499",
+          "title": "KPK prejela prijavo domnevno spornega oglaševanja zdravstvenega ministrstva na Planet TV",
+          "description": "SLOVENIJA",
+          "source": {
+            "id": "vecer",
+            "name": "Večer"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T12:06:00.000Z",
+          "imageUrl": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/39/43/99/13/39439913q4347E66AECAFA3CA6BCD62741D7436DE_1200.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        },
+        {
+          "id": "Npmku02YnnnH",
+          "url": "https://www.delo.si/novice/slovenija/kpk-pod-drobnogled-vzela-oglasevanje-ministrstva-za-zdravje-na-planet-tv",
+          "canonicalUrl": "https://www.delo.si/novice/slovenija/kpk-pod-drobnogled-vzela-oglasevanje-ministrstva-za-zdravje-na-planet-tv",
+          "title": "KPK pod drobnogled vzela oglaševanje ministrstva za zdravje na Planet TV",
+          "description": "Komisija preverja prijavo zaradi 25.000 evrov vrednega zakupa oglasov za zVem; del spotov naj bi bil predvajan ponoči, ko televizije ne gleda skoraj nihče.",
+          "source": {
+            "id": "delo",
+            "name": "Delo"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T12:05:00.000Z",
+          "imageUrl": "https://www.delo.si/media/images/20261006/3741779.width-660.format-webp.webp",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:34:50.000Z"
+    },
+    {
+      "id": "NNOfGOTDQTeJ",
+      "representative": {
+        "id": "NNOfGOTDQTeJ",
+        "url": "https://www.delo.si/novice/svet/trump-po-65-letih-odobril-usmrtitev-s-strelskim-vodom",
+        "canonicalUrl": "https://www.delo.si/novice/svet/trump-po-65-letih-odobril-usmrtitev-s-strelskim-vodom",
+        "title": "Trump po 65 letih odobril usmrtitev s strelskim vodom",
+        "description": "Nidal Hasan je bil obsojen na smrt zaradi umora 13 ljudi v napadu v oporišču v Teksasu leta 2009.",
+        "source": {
+          "id": "delo",
+          "name": "Delo"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T09:26:00.000Z",
+        "imageUrl": "https://www.delo.si/media/images/20261006/3741440.width-660.format-webp.webp",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "t9K5IEe28cMp",
+          "url": "https://nova24tv.si/trump-odobril-usmrtitev-islamisticnega-strelca-iz-fort-hooda-s-strelskim-vodom/",
+          "canonicalUrl": "https://nova24tv.si/trump-odobril-usmrtitev-islamisticnega-strelca-iz-fort-hooda-s-strelskim-vodom/",
+          "title": "Trump odobril usmrtitev islamističnega strelca iz Fort Hooda s strelskim vodom",
+          "description": "Predsednik ZDA Donald Trump je odobril usmrtitev nekdanjega majorja ameriške vojske Nidala Malika Hasana s strelskim vodom. To je v ponedeljek zvečer sporočil tiskovni predstavnik Pentagona Sean Parnell. Če bo kazen izvršena, bo to prva usmrtitev pripadnika ameriške vojske po letu 1961 in prva s…",
+          "source": {
+            "id": "nova24tv",
+            "name": "Nova24TV"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T15:44:36.000Z",
+          "imageUrl": "https://nova24tv.si/wp-content/uploads/2026/10/NIDAL-1024x652.png",
+          "countryCode": "SI",
+          "regionCode": null
+        },
+        {
+          "id": "UamRNoOZEuzD",
+          "url": "https://vecer.com/svet/vojaska-usmrtitev-s-strelskim-vodom-nidal-malik-hasan-trump-10429437",
+          "canonicalUrl": "https://vecer.com/svet/vojaska-usmrtitev-s-strelskim-vodom-nidal-malik-hasan-trump-10429437",
+          "title": "Trump odobril prvo vojaško usmrtitev s strelskim vodom po drugi svetovni vojni",
+          "description": "SVET",
+          "source": {
+            "id": "vecer",
+            "name": "Večer"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T07:55:00.000Z",
+          "imageUrl": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/42/77/61/38/42776138qF51DF48FFA4883A1B605C6845966F49F_1200.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T15:44:36.000Z"
+    },
+    {
+      "id": "D2NmCdwtlZ3w",
+      "representative": {
+        "id": "D2NmCdwtlZ3w",
+        "url": "https://www.24ur.com/novice/slovenija/sindikati-zbrali-43000-podpisov-jansa-demagogija-ki-gori-do-neba.html",
+        "canonicalUrl": "https://www.24ur.com/novice/slovenija/sindikati-zbrali-43000-podpisov-jansa-demagogija-ki-gori-do-neba.html",
+        "title": "Sindikati zbrali 43.000 podpisov. Janša: Demagogija, ki gori do neba",
+        "description": "V sindikatih so po neuradnih podatkih ZSSS od 1. septembra do 5. oktobra zbrali okoli 43.000 podpisov v podporo referendumu o interventnem zakonu za razvoj Slovenije. Kot so pojasnili v KS 90, pa se zdaj boj za socialno državo šele začenja. Premier Janez Janša je medtem argumente proti zakonu…",
+        "source": {
+          "id": "24ur",
+          "name": "24ur"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T10:34:31.000Z",
+        "imageUrl": "https://images.24ur.com/media/images/213xX/Sep2026/8b0d3bc1201133bdddb6_63640590.jpg?v=9b6b&fop=fp:0.49:0.39",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "kt1I9VCfr1kH",
+          "url": "https://n1info.si/novice/slovenija/sindikati-zbrali-43000-podpisov-vojna-za-ohranitev-socialne-drzave-se-ni-dobljena/",
+          "canonicalUrl": "https://n1info.si/novice/slovenija/sindikati-zbrali-43000-podpisov-vojna-za-ohranitev-socialne-drzave-se-ni-dobljena/",
+          "title": "Sindikati zbrali 43.000 podpisov: \"Vojna za ohranitev socialne države še ni dobljena\"",
+          "description": "V sindikatih so po neuradnih podatkih ZSSS od 1. septembra do 5. oktobra zbrali okoli 43.000 podpisov v podporo referendumu o interventnem zakonu za r",
+          "source": {
+            "id": "n1_si",
+            "name": "N1 Slovenija"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T13:07:11.000Z",
+          "imageUrl": "https://n1info.si/media/images/2026/10/6/1791291875_POL20260518_AI5_2618.width-1200.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        },
+        {
+          "id": "BY91ciqwQuDf",
+          "url": "https://www.zurnal24.si/slovenija/sindikati-zbrali-podpise-jansa-pa-demagogija-ki-gori-do-neba-466267",
+          "canonicalUrl": "https://www.zurnal24.si/slovenija/sindikati-zbrali-podpise-jansa-pa-demagogija-ki-gori-do-neba-466267",
+          "title": "Sindikati zbrali podpise, Janša pa: \"Demagogija, ki gori do neba\"",
+          "description": "V sindikatih so po neuradnih podatkih ZSSS od 1. septembra do 5. oktobra zbrali okoli 43.000 podpisov v podporo referendumu o interventnem zakonu za razvoj Slovenije. Kot so pojasnili v KS 90, pa se zdaj boj za socialno državo šele začenja. Premier Janez Janša je medtem argumente proti zakonu…",
+          "source": {
+            "id": "zurnal24",
+            "name": "Žurnal24"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T12:15:00.000Z",
+          "imageUrl": "https://www.zurnal24.si/media/img/a6/fb/6c993c9899af30b5582e.jpeg",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:07:11.000Z"
+    },
+    {
+      "id": "O44au7YS0Cjy",
+      "representative": {
+        "id": "O44au7YS0Cjy",
+        "url": "https://www.delo.si/novice/svet/stevilo-smrtnih-zrtev-je-v-omisu-naraslo-na-stiri",
+        "canonicalUrl": "https://www.delo.si/novice/svet/stevilo-smrtnih-zrtev-je-v-omisu-naraslo-na-stiri",
+        "title": "Še četrta žrtev uničujočega požara v Omišu, opekline usodne za 42-letno žensko",
+        "description": "Žensko so zaradi hudih opeklin zdravili v Zagrebu. V požaru, ki je sredi avgusta zajel hrvaško mesto, je bilo poškodovanih več kot 40 ljudi.",
+        "source": {
+          "id": "delo",
+          "name": "Delo"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T10:06:00.000Z",
+        "imageUrl": "https://www.delo.si/media/images/20261006/3741540.width-660.format-webp.webp",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "MbcxJ-rMop8n",
+          "url": "https://n1info.si/novice/svet/zaradi-hudih-opeklin-umrla-se-cetrta-zrtev-unicujocega-pozara-pri-omisu/",
+          "canonicalUrl": "https://n1info.si/novice/svet/zaradi-hudih-opeklin-umrla-se-cetrta-zrtev-unicujocega-pozara-pri-omisu/",
+          "title": "Zaradi hudih opeklin umrla še četrta žrtev uničujočega požara pri Omišu",
+          "description": "Zaradi hudih poškodb, ki jih je utrpela v uničujočem požaru na območju Omiša sredi avgusta, je v zagrebški bolnišnici umrla 42-letna ženska, danes por",
+          "source": {
+            "id": "n1_si",
+            "name": "N1 Slovenija"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T09:46:03.000Z",
+          "imageUrl": "https://n1info.si/media/images/2026/8/14/1786694157_DOGPXL_140826_156648811_aPwexU9.width-1200.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        },
+        {
+          "id": "uHJRQ-g9xwHE",
+          "url": "https://vecer.com/svet/omis-zrtve-stevilo-opekline-10429465",
+          "canonicalUrl": "https://vecer.com/svet/omis-zrtve-stevilo-opekline-10429465",
+          "title": "Umrla četrta žrtev požara pri Omišu",
+          "description": "SVET",
+          "source": {
+            "id": "vecer",
+            "name": "Večer"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T09:42:00.000Z",
+          "imageUrl": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/41/38/54/75/41385475qAEABB611684DC064C7CE61AED729FAE6_1200.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T10:06:00.000Z"
+    },
+    {
+      "id": "85Lqywf2CtAj",
+      "representative": {
+        "id": "85Lqywf2CtAj",
+        "url": "https://www.rtvslo.si/slovenija/lokalne-volitve-2026/mestne-obcine/ptuj/andrej-cus-vlozil-kandidaturo-za-ptujskega-zupana/796026",
+        "canonicalUrl": "https://www.rtvslo.si/slovenija/lokalne-volitve-2026/mestne-obcine/ptuj/andrej-cus-vlozil-kandidaturo-za-ptujskega-zupana/796026",
+        "title": "Andrej Čuš vložil kandidaturo za ptujskega župana",
+        "description": "Lista Andreja Čuša - Skupaj za Ptuj je vložila kandidaturo Andreja Čuša za župana Ptuja ter kandidatne liste za mestni svet in svete četrtnih skupnosti. Kot je ob tem povedal Čuš, je program rezultat večletnega dela v mestnem svetu in pogovorov z občani.",
+        "source": {
+          "id": "rtvslo",
+          "name": "RTV Slovenija"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T15:21:06.000Z",
+        "imageUrl": "https://img.rtvcdn.si/_up/upload/2021/03/18/65873165.jpg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "IbyHwe6LA1Kw",
+          "url": "https://vecer.com/podravje/andrej-cus-uradno-vlozil-kandidaturo-za-zupana-ptuja-10429487",
+          "canonicalUrl": "https://vecer.com/podravje/andrej-cus-uradno-vlozil-kandidaturo-za-zupana-ptuja-10429487",
+          "title": "Andrej Čuš uradno vložil kandidaturo za župana Ptuja",
+          "description": "Podravje",
+          "source": {
+            "id": "vecer",
+            "name": "Večer"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T11:34:00.000Z",
+          "imageUrl": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/42/78/60/94/42786094qD85065FF83F2713A3144A920545C375C_1200.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:21:06.000Z"
+    },
+    {
+      "id": "fDwnnBo-e2xP",
+      "representative": {
+        "id": "fDwnnBo-e2xP",
+        "url": "https://www.delo.si/novice/crna-kronika/napad-na-resevalko-iz-zd-crnomelj",
+        "canonicalUrl": "https://www.delo.si/novice/crna-kronika/napad-na-resevalko-iz-zd-crnomelj",
+        "title": "Napad na reševalko iz ZD Črnomelj",
+        "description": "Reševalka je utrpela psihični pretres in lažje telesne poškodbe. Kdo je bil napadalec policija ne razkriva.",
+        "source": {
+          "id": "delo",
+          "name": "Delo"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T15:00:00.000Z",
+        "imageUrl": "https://www.delo.si/media/images/20261006/3742041.width-660.format-webp.webp",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "CgOyhRAjFUDc",
+          "url": "https://nova24tv.si/crnomelj-rom-napadel-resevalko/",
+          "canonicalUrl": "https://nova24tv.si/crnomelj-rom-napadel-resevalko/",
+          "title": "Črnomelj: Rom napadel reševalko",
+          "description": "V torek, 29. septembra, nekaj čez 19. uro, je na črnomaljski obvoznici prišlo do napada Roma na reševalko Zdravstvenega doma Črnomelj. Dispečerska služba Maribor je nekaj pred tem prejela klic iz Lokev pri Črnomlju, da potrebujejo zdravniško pomoč. Ker so v službi ugotovili, da gre za romsko…",
+          "source": {
+            "id": "nova24tv",
+            "name": "Nova24TV"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T09:00:47.000Z",
+          "imageUrl": "https://nova24tv.si/wp-content/uploads/2026/10/DOG20241107MIL_3224-1024x681.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:00:00.000Z"
+    },
+    {
+      "id": "E_z2QiwDYSIw",
+      "representative": {
+        "id": "E_z2QiwDYSIw",
+        "url": "https://www.24ur.com/novice/tujina/prvic-afd-dobila-predsednika-dezelnega-parlamenta.html",
+        "canonicalUrl": "https://www.24ur.com/novice/tujina/prvic-afd-dobila-predsednika-dezelnega-parlamenta.html",
+        "title": "Prvič: AfD dobila predsednika deželnega parlamenta",
+        "description": "Nemška AfD je dosegla nov politični mejnik. Tobias Rausch je postal prvi politik te stranke na čelu katerega od nemških deželnih parlamentov. Za 35-letnika je na ustanovni seji parlamenta Saške-Anhalt glasovalo 48 od 82 poslancev, čeprav ima AfD le 39 mandatov. Nekaj ur pozneje je stranki uspelo…",
+        "source": {
+          "id": "24ur",
+          "name": "24ur"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T14:56:10.000Z",
+        "imageUrl": "https://images.24ur.com/media/images/213xX/Jun2026/3202bf4efa8e27228e8c_63610552.jpg?v=e97a&fop=fp:0.46:0.34",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ydlkWrR8M06h",
+          "url": "https://n1info.si/novice/svet/skrajno-desna-afd-prvic-v-zgodovini-dobila-predsednika-dezelnega-parlamenta/",
+          "canonicalUrl": "https://n1info.si/novice/svet/skrajno-desna-afd-prvic-v-zgodovini-dobila-predsednika-dezelnega-parlamenta/",
+          "title": "Skrajno desna AfD prvič v zgodovini dobila predsednika deželnega parlamenta",
+          "description": "Tobias Rausch iz nemške skrajno desne stranke Alternativa za Nemčijo (AfD) je bil danes izvoljen za predsednika parlamenta zvezne dežele Saška-Anhalt.",
+          "source": {
+            "id": "n1_si",
+            "name": "N1 Slovenija"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T12:49:42.000Z",
+          "imageUrl": "https://n1info.si/media/images/2026/10/6/1791290944_profimedia-1140970816.width-1200.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:56:10.000Z"
+    },
+    {
+      "id": "Ycebyl_8RLpN",
+      "representative": {
+        "id": "Ycebyl_8RLpN",
+        "url": "https://www.rtvslo.si/svet/vojna-v-ukrajini/ukrajina-z-vec-sto-letalniki-nad-moskvo-in-okolico/796011",
+        "canonicalUrl": "https://www.rtvslo.si/svet/vojna-v-ukrajini/ukrajina-z-vec-sto-letalniki-nad-moskvo-in-okolico/796011",
+        "title": "Ukrajina z več sto letalniki nad Moskvo in okolico",
+        "description": "Ukrajinska vojska je ponoči izvedla obsežen napad z brezpilotnimi letalniki na Moskvo in okoliško regijo. Po navedbah moskovskega župana Sergeja Sobjanina je proti Moskvi in okolici poletelo okoli 650 letalnikov, pri čemer sta umrla najmanj dva človeka.",
+        "source": {
+          "id": "rtvslo",
+          "name": "RTV Slovenija"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T13:59:00.000Z",
+        "imageUrl": "https://img.rtvcdn.si/_up/upload/2026/10/06/67110215.jpg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "XSgCW-h-_zp3",
+          "url": "https://www.delo.si/novice/svet/ukrajina-z-vec-sto-droni-nad-moskvo-in-okolico-ena-smrtna-zrtev-vec-ranjenih",
+          "canonicalUrl": "https://www.delo.si/novice/svet/ukrajina-z-vec-sto-droni-nad-moskvo-in-okolico-ena-smrtna-zrtev-vec-ranjenih",
+          "title": "Ukrajina z več sto droni nad Moskvo in okolico, ena smrtna žrtev, več ranjenih",
+          "description": "Poletelo je okoli 650 brezpilotnikov, večino so jih menda prestregli, še preden so se približali Moskvi. Umrl je 20-letni moški, ranjenih je bilo šest oseb.",
+          "source": {
+            "id": "delo",
+            "name": "Delo"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T05:58:00.000Z",
+          "imageUrl": "https://www.delo.si/media/images/20261006/3741198.width-660.format-webp.webp",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:59:00.000Z"
+    },
+    {
+      "id": "_Zss2Z-O3Rlx",
+      "representative": {
+        "id": "_Zss2Z-O3Rlx",
+        "url": "https://vecer.com/sport/robetr-kranjec-szs-razhod-nesreca-10429509",
+        "canonicalUrl": "https://vecer.com/sport/robetr-kranjec-szs-razhod-nesreca-10429509",
+        "title": "Šokantno razkritje Robija Kranjca o Smučarski zvezi Slovenije: \"Na dan nesreče so z mano zaključili\"",
+        "description": "Šport",
+        "source": {
+          "id": "vecer",
+          "name": "Večer"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T13:08:00.000Z",
+        "imageUrl": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/42/79/11/09/42791109q6402334F4145062385A2C71E537DF241_1200.jpg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "EEhFdWg4VEQt",
+          "url": "https://www.zurnal24.si/sport/zimski-sporti/na-dan-nesrece-so-na-szs-zakljucili-z-mano-466270",
+          "canonicalUrl": "https://www.zurnal24.si/sport/zimski-sporti/na-dan-nesrece-so-na-szs-zakljucili-z-mano-466270",
+          "title": "\"Na dan nesreče so na SZS zaključili z mano\"",
+          "description": "\"Trudim pa se iz dneva v dan, da bi stvari šle na bolje.\"",
+          "source": {
+            "id": "zurnal24",
+            "name": "Žurnal24"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T13:09:00.000Z",
+          "imageUrl": "https://www.zurnal24.si/media/img/d2/f7/0a642ae89416bff0bbac.jpeg",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:09:00.000Z"
+    },
+    {
+      "id": "lJMDnjteoPUR",
+      "representative": {
+        "id": "lJMDnjteoPUR",
+        "url": "https://www.delo.si/novice/svet/ob-obali-bolgarije-droni-zadeli-dve-trgovski-ladji-ena-od-njiju-je-potonila",
+        "canonicalUrl": "https://www.delo.si/novice/svet/ob-obali-bolgarije-droni-zadeli-dve-trgovski-ladji-ena-od-njiju-je-potonila",
+        "title": "Ob bolgarski obali droni zadeli dve trgovski ladji, ena od njiju je potonila",
+        "description": "Reševalci v iskanju pogrešanih mornarjev preiskujejo območje, ki je od obalnega mesta Byala oddaljeno približno 150 kilometrov.",
+        "source": {
+          "id": "delo",
+          "name": "Delo"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T10:49:00.000Z",
+        "imageUrl": "https://www.delo.si/media/images/20261006/3741659.width-660.format-webp.webp",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "E4TAOT90a63c",
+          "url": "https://www.zurnal24.si/svet/droni-zadeli-dve-ladji-ob-obali-bolgarije-466239",
+          "canonicalUrl": "https://www.zurnal24.si/svet/droni-zadeli-dve-ladji-ob-obali-bolgarije-466239",
+          "title": "Droni zadeli dve ladji ob obali Bolgarije",
+          "description": "V Črnem morju ob obali Bolgarije so droni zadeli dve trgovski ladji, pri čemer je ena od njiju potonila, je danes sporočila bolgarska vlada. Po navedbah reševalcev pogrešajo mornarje s potopljene ladje, medtem ko so jih z druge ladje že evakuirali, navaja francoska tiskovna agencija AFP.",
+          "source": {
+            "id": "zurnal24",
+            "name": "Žurnal24"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T08:37:00.000Z",
+          "imageUrl": "https://www.zurnal24.si/media/img/dc/8f/55b42bd84674de1dfb56.jpeg",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:49:00.000Z"
+    },
+    {
+      "id": "WTY4aG_IucFq",
+      "representative": {
+        "id": "WTY4aG_IucFq",
+        "url": "https://vecer.com/kronika/lenart-ptuj-divjanje-cesta-voznik-10429434",
+        "canonicalUrl": "https://vecer.com/kronika/lenart-ptuj-divjanje-cesta-voznik-10429434",
+        "title": "(FOTO) Divjanje po regionalni cesti: Med Lenartom in Ptujem vozil kar 191 kilometrov na uro, kazen je vrtoglava",
+        "description": "KRONIKA",
+        "source": {
+          "id": "vecer",
+          "name": "Večer"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T07:23:00.000Z",
+        "imageUrl": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/42/77/35/45/42773545q9FE88CC230A2D2CA2584442FCCE5544C_1200.jpg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "oxNyd6xPFRQI",
+          "url": "https://n1info.si/novice/crna-kronika/na-cesti-med-lenartom-in-ptujem-divjal-s-191-kilometri-na-uro/",
+          "canonicalUrl": "https://n1info.si/novice/crna-kronika/na-cesti-med-lenartom-in-ptujem-divjal-s-191-kilometri-na-uro/",
+          "title": "Na cesti med Lenartom in Ptujem divjal s 191 kilometri na uro",
+          "description": "Policisti so v nedeljo med izvajanjem poostrenega nadzora s civilnim službenim vozilom policije, ki ima vgrajen videonadzorni sistem Provida, na regio",
+          "source": {
+            "id": "n1_si",
+            "name": "N1 Slovenija"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T07:44:23.000Z",
+          "imageUrl": "https://n1info.si/media/images/2026/10/6/1791272563_Provida.width-1200.JPG",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T07:44:23.000Z"
+    },
+    {
+      "id": "xevGRSWQ-hJa",
+      "representative": {
+        "id": "xevGRSWQ-hJa",
+        "url": "https://n1info.si/novice/crna-kronika/policija-isce-voznika-ki-je-pri-mariborski-supernovi-trcil-v-otroka/",
+        "canonicalUrl": "https://n1info.si/novice/crna-kronika/policija-isce-voznika-ki-je-pri-mariborski-supernovi-trcil-v-otroka/",
+        "title": "Policija išče voznika, ki je pri mariborski Supernovi trčil v otroka",
+        "description": "Mariborski policisti iščejo očividce prometne nesreče, ki se je v ponedeljek popoldne zgodila pri Supernovi. V trčenju z neznanim voznikom sivega Merc",
+        "source": {
+          "id": "n1_si",
+          "name": "N1 Slovenija"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T06:02:28.000Z",
+        "imageUrl": "https://n1info.si/media/images/1650043863-PRO20181018_GIL1391gf.width-1200.jpg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "5JqTKmGkKJo4",
+          "url": "https://vecer.com/kronika/supernova-maribor-nesreca-otrok-pobeg-price-ocividci-policija-10429428",
+          "canonicalUrl": "https://vecer.com/kronika/supernova-maribor-nesreca-otrok-pobeg-price-ocividci-policija-10429428",
+          "title": "Nesreča pri mariborski Supernovi: Voznik Mercedesa trčil v otroka in odpeljal",
+          "description": "KRONIKA",
+          "source": {
+            "id": "vecer",
+            "name": "Večer"
+          },
+          "sourceCountry": "SI",
+          "language": "sl",
+          "publishedAt": "2026-10-06T06:19:00.000Z",
+          "imageUrl": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/35/74/64/22/35746422qD0740329F0629096AA5AB3EBA931F6BD_1200.jpg",
+          "countryCode": "SI",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T06:19:00.000Z"
+    },
+    {
+      "id": "aFj2wOGNfrOV",
+      "representative": {
+        "id": "aFj2wOGNfrOV",
+        "url": "https://www.rtvslo.si/kultura/citat/andrina-mracnikar/796029",
+        "canonicalUrl": "https://www.rtvslo.si/kultura/citat/andrina-mracnikar/796029",
+        "title": "Andrina Mračnikar",
+        "description": "Kakšna je korist jezika? Kaj imam od jezika, ki ga nihče drug ne govori? Korist jezika je tu, dokler so tu drugi, ki ga govorijo. In to je sistemsko vprašanje, vprašanje vrtcev, šol, politične drže.",
+        "source": {
+          "id": "rtvslo",
+          "name": "RTV Slovenija"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T15:52:39.000Z",
+        "imageUrl": "https://img.rtvcdn.si/_up/upload/2023/05/29/66086639.jpg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:52:39.000Z"
+    },
+    {
+      "id": "LgOOPgmq0zcV",
+      "representative": {
+        "id": "LgOOPgmq0zcV",
+        "url": "https://www.24ur.com/novice/slovenija/golob-referendum-o-javnem-sektorju-poskus-grozenj-zaposlenim-pred-politicnim-udejstvovanjem.html",
+        "canonicalUrl": "https://www.24ur.com/novice/slovenija/golob-referendum-o-javnem-sektorju-poskus-grozenj-zaposlenim-pred-politicnim-udejstvovanjem.html",
+        "title": "Svoboda poziva k zimskemu energetskemu dodatku",
+        "description": "Največja opozicijska stranka Svoboda je po drugi seji tako imenovane vlade v senci vlado Janeza Janše pozvala, naj pripravi podlago za izplačilo zimskega energetskega dodatka, ki bi ublažil energetsko revščino. DZ pa so pozvali, naj pred poletjem pripravi spremembe zakona o Skoku. Kritični so tudi…",
+        "source": {
+          "id": "24ur",
+          "name": "24ur"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T15:48:29.000Z",
+        "imageUrl": "https://images.24ur.com/media/images/213xX/Oct2026/f53522da1de9aa54bb82_63659359.jpg?v=7bd3&fop=fp:0.54:0.36",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:48:29.000Z"
+    }
+  ]
+}

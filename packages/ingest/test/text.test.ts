@@ -159,6 +159,21 @@ describe('titleTokens: Greek, Bulgarian and other new lists', () => {
   });
 });
 
+describe('titleTokens: Slovenian and Icelandic', () => {
+  it('folds and drops Slovenian stopwords', () => {
+    expect(titleTokens('Vlada je včeraj sprejela proračun', 'sl')).toEqual(titleTokens('Vlada sprejela proracun', 'sl'));
+  });
+  it('ignores soft hyphens inside words', () => {
+    expect(titleTokens('Guð­mundur opnar setur', 'is')).toEqual(titleTokens('Guðmundur opnar setur', 'is'));
+  });
+  it('drops Icelandic stopwords and keeps ð/þ', () => {
+    const tokens = titleTokens('Þingið samþykkti fjárlögin í gær', 'is');
+    expect(tokens.has('i')).toBe(false);
+    expect(tokens.has('gær')).toBe(false);
+    expect([...tokens].some((t) => t.startsWith('þing'))).toBe(true);
+  });
+});
+
 describe('titleTokens: years', () => {
   it('drops French calendar words', () => {
     expect(titleTokens('Nécrologie du 06 octobre 2026', 'fr')).toEqual(new Set(['06', 'necrologi']));

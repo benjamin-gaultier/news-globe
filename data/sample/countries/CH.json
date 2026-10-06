@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CH",
   "countryName": "Switzerland",
-  "updatedAt": "2026-10-06T15:32:48.958Z",
+  "updatedAt": "2026-10-06T15:57:23.644Z",
   "clusters": [
     {
       "id": "uAiKU_zZjUY1",
@@ -213,48 +213,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T11:21:20.000Z"
-    },
-    {
-      "id": "Aswlk9kme9ph",
-      "representative": {
-        "id": "Aswlk9kme9ph",
-        "url": "https://www.srf.ch/news/schweiz/anklage-wegen-betrugs-ok-praesident-der-ski-wm-in-crans-montana-muss-vor-gericht",
-        "canonicalUrl": "https://www.srf.ch/news/schweiz/anklage-wegen-betrugs-ok-praesident-der-ski-wm-in-crans-montana-muss-vor-gericht",
-        "title": "Anklage wegen Betrugs – OK-Präsident der Ski-WM in Crans-Montana muss vor Gericht",
-        "description": "In wenigen Monaten steigt in Crans-Montana die Ski-Weltmeisterschaft. Doch ein Nebenschauplatz droht das Fest zu trüben.",
-        "source": {
-          "id": "srf",
-          "name": "SRF News"
-        },
-        "sourceCountry": "CH",
-        "language": "de",
-        "publishedAt": "2026-10-06T10:16:56.000Z",
-        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/514545.webp",
-        "countryCode": "CH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "CDb7EXfuiQAK",
-          "url": "https://www.blick.ch/schweiz/westschweiz/wallis/anklage-gegen-vizepraesident-von-swiss-ski-wegen-betrug/e2hc3xr",
-          "canonicalUrl": "https://www.blick.ch/schweiz/westschweiz/wallis/anklage-gegen-vizepraesident-von-swiss-ski-wegen-betrug/e2hc3xr",
-          "title": "Dem OK-Präsi der Ski-WM in Crans-Montana droht Knast",
-          "description": "Kurz vor der Ski-WM 2027 gerät OK-Präsident Claude-Alain Schmidhalter unter Druck: Die Walliser Staatsanwaltschaft wirft dem Vizepräsidenten von Swiss Ski vor, einen früheren Geschäftspartner um über 300’000 Franken geprellt zu haben.",
-          "source": {
-            "id": "blick",
-            "name": "Blick"
-          },
-          "sourceCountry": "CH",
-          "language": "de",
-          "publishedAt": "2026-10-05T15:49:30.000Z",
-          "imageUrl": "https://ocdn.eu/pulscms-transforms/1/PX3ktkuTURBXy81ZTUwODRjOS01YzcxLTQwNzctYjgyNi03ZDdlZTE4OTZjMzguanBlZ5KTBc0CWM0BO5MJpjgyNzc5NAY/efzqtbjdyjg.jpg",
-          "countryCode": "CH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:16:56.000Z"
     },
     {
       "id": "P3kepUYV99Df",
@@ -489,6 +447,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:47:05.000Z"
+    },
+    {
+      "id": "VoO3MLzw1dF_",
+      "representative": {
+        "id": "VoO3MLzw1dF_",
+        "url": "https://www.tagesanzeiger.ch/krebs-sieben-arten-bei-unter-50-jaehrigen-nehmen-zu-583214030503",
+        "canonicalUrl": "https://www.tagesanzeiger.ch/krebs-sieben-arten-bei-unter-50-jaehrigen-nehmen-zu-583214030503",
+        "title": "Krebsforschung: Sieben Krebsarten nehmen bei unter 50-Jährigen drastisch zu",
+        "description": "Eine internationale Studie zeigt: Prostatakrebs bei jungen Männern hat sich in England fast vervierfacht, Nieren- und Darmkrebs verdoppelt. Lebensstil und Umweltgifte gelten als Haupttreiber.",
+        "source": {
+          "id": "tagesanzeiger",
+          "name": "Tages-Anzeiger"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:42:58.000Z",
+        "imageUrl": "https://cdn.unitycms.io/images/Bh6aABNdaiM8XVhsY6MUZj.jpg",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:42:58.000Z"
     }
   ]
 }

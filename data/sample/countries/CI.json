@@ -2,92 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "CI",
   "countryName": "Côte d'Ivoire",
-  "updatedAt": "2026-10-06T15:32:48.958Z",
+  "updatedAt": "2026-10-06T15:57:23.644Z",
   "clusters": [
-    {
-      "id": "RLey5ch4LJwt",
-      "representative": {
-        "id": "RLey5ch4LJwt",
-        "url": "https://www.linfodrome.com/politique/126137-nouvel-organe-electoral-le-pdci-absent-l-opposition-divisee",
-        "canonicalUrl": "https://www.linfodrome.com/politique/126137-nouvel-organe-electoral-le-pdci-absent-l-opposition-divisee",
-        "title": "Nouvel organe électoral : le PDCI absent, l’opposition divisée ?",
-        "description": "Le PPA-CI, l’ADCI, la CAP-CI et le groupement HCE ont déposé ce lundi 5 octobre une proposition commune au ministère de l’Intérieur. Le PDCI-RDA, lui, a choisi de présenter séparément ses propositions.",
-        "source": {
-          "id": "linfodrome",
-          "name": "L'Infodrome"
-        },
-        "sourceCountry": "CI",
-        "language": "fr",
-        "publishedAt": "2026-10-05T14:01:00.000Z",
-        "imageUrl": "https://www.linfodrome.com/media/article/images/src/126137-img-5366.webp",
-        "countryCode": "CI",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "91aBMb219ITT",
-          "url": "https://connectionivoirienne.net/2026/10/05/opposition-ivoirienne-une-proposition-commune-pour-un-nouvel-organe-electoral-remise-au-ministre-de-linterieur/",
-          "canonicalUrl": "https://connectionivoirienne.net/2026/10/05/opposition-ivoirienne-une-proposition-commune-pour-un-nouvel-organe-electoral-remise-au-ministre-de-linterieur/",
-          "title": "Opposition ivoirienne: une proposition commune pour un nouvel organe électoral remise au ministre de l’Intérieur",
-          "description": "Une délégation de partis politiques de l’opposition et d’organisations de la société civile a officiellement remis, ce lundi 5 octobre […] L’article Opposition ivoirienne: une proposition commune pour un nouvel organe électoral remise au ministre de l’Intérieur est apparu en premier sur…",
-          "source": {
-            "id": "connectionivoirienne",
-            "name": "Connection Ivoirienne"
-          },
-          "sourceCountry": "CI",
-          "language": "fr",
-          "publishedAt": "2026-10-05T15:40:12.000Z",
-          "imageUrl": null,
-          "countryCode": "CI",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:23:00.000Z"
-    },
-    {
-      "id": "Za9uXko3DKuV",
-      "representative": {
-        "id": "Za9uXko3DKuV",
-        "url": "https://connectionivoirienne.net/2026/10/05/autoroute-du-nord-9-morts-et-plusieurs-blesses-dans-un-accident/",
-        "canonicalUrl": "https://connectionivoirienne.net/2026/10/05/autoroute-du-nord-9-morts-et-plusieurs-blesses-dans-un-accident/",
-        "title": "Autoroute du Nord: 9 morts et plusieurs blessés dans un accident",
-        "description": "Un accident de la circulation survenu sur l’autoroute du Nord, au PK 124, entre un car de transport et un […] L’article Autoroute du Nord: 9 morts et plusieurs blessés dans un accident est apparu en premier sur Connectionivoirienne .",
-        "source": {
-          "id": "connectionivoirienne",
-          "name": "Connection Ivoirienne"
-        },
-        "sourceCountry": "CI",
-        "language": "fr",
-        "publishedAt": "2026-10-05T15:35:15.000Z",
-        "imageUrl": null,
-        "countryCode": "CI",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "JjV3eBI1MkeR",
-          "url": "https://lebanco.net/news/51973-cote-divoire-autoroute-du-nord-un-accident-de-la-route-fait-9-morts-et-plusieurs-blesses.html",
-          "canonicalUrl": "https://lebanco.net/news/51973-cote-divoire-autoroute-du-nord-un-accident-de-la-route-fait-9-morts-et-plusieurs-blesses.html",
-          "title": "Côte d’Ivoire : Autoroute du Nord, un accident de la route fait 9 morts et plusieurs blessés",
-          "description": null,
-          "source": {
-            "id": "lebanco",
-            "name": "Le Banco"
-          },
-          "sourceCountry": "CI",
-          "language": "fr",
-          "publishedAt": "2026-10-06T06:38:00.000Z",
-          "imageUrl": "https://lebanco.net/images/repository/actuimages/6ac4cfe15152d_actuimage.jpg",
-          "countryCode": "CI",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:38:00.000Z"
-    },
     {
       "id": "hLV7vwZo3ld1",
       "representative": {
@@ -417,6 +333,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:57:00.000Z"
+    },
+    {
+      "id": "7Pq95Xf1ymuD",
+      "representative": {
+        "id": "7Pq95Xf1ymuD",
+        "url": "https://www.linfodrome.com/politique/126176-levee-de-l-immunite-d-un-depute-rhdp-le-porte-parole-du-pdci-evoque-le-vote-a-bulletin-secret",
+        "canonicalUrl": "https://www.linfodrome.com/politique/126176-levee-de-l-immunite-d-un-depute-rhdp-le-porte-parole-du-pdci-evoque-le-vote-a-bulletin-secret",
+        "title": "Levée de l’immunité d’un député RHDP : le porte-parole du PDCI évoque le vote à bulletin secret",
+        "description": "Interrogé mardi 6 octobre sur les informations annonçant la levée de l’immunité parlementaire de Diabagaté Moussa, Soumaïla Bredoumy a confirmé à demi-mot, tout en appelant à attendre une communication officielle de l’Assemblée nationale.",
+        "source": {
+          "id": "linfodrome",
+          "name": "L'Infodrome"
+        },
+        "sourceCountry": "CI",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:50:00.000Z",
+        "imageUrl": "https://www.linfodrome.com/media/article/images/src/126176-img-5421.webp",
+        "countryCode": "CI",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:50:00.000Z"
+    },
+    {
+      "id": "mA0ipQmO8OyG",
+      "representative": {
+        "id": "mA0ipQmO8OyG",
+        "url": "https://www.aip.ci/cote-divoire-aip-le-prefet-de-buyo-annonce-des-operations-hebdomadaires-contre-lorpaillage-illegal/?utm_source=rss&utm_medium=rss&utm_campaign=cote-divoire-aip-le-prefet-de-buyo-annonce-des-operations-hebdomadaires-contre-lorpaillage-illegal",
+        "canonicalUrl": "https://www.aip.ci/cote-divoire-aip-le-prefet-de-buyo-annonce-des-operations-hebdomadaires-contre-lorpaillage-illegal/",
+        "title": "Côte d’Ivoire-AIP/Le préfet de Buyo annonce des opérations hebdomadaires contre l’orpaillage illégal",
+        "description": "Soubré, 6 oct 2026 (AIP) – Le préfet du département de Buyo, Gohoré Bi Tibé, a annoncé le renforcement des opérations contre l’orpaillage illégal, avec le déploiement hebdomadaire des forces de défense et de sécurité sur les sites clandestins, lors de la cérémonie de salut aux couleurs tenue lundi…",
+        "source": {
+          "id": "aip_ci",
+          "name": "AIP"
+        },
+        "sourceCountry": "CI",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:49:51.000Z",
+        "imageUrl": null,
+        "countryCode": "CI",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:49:51.000Z"
     }
   ]
 }

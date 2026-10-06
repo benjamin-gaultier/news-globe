@@ -2,8 +2,101 @@
   "schemaVersion": 1,
   "countryCode": "SE",
   "countryName": "Sweden",
-  "updatedAt": "2026-10-06T15:32:48.958Z",
+  "updatedAt": "2026-10-06T15:57:23.644Z",
   "clusters": [
+    {
+      "id": "kQfyzmTqYVk6",
+      "representative": {
+        "id": "kQfyzmTqYVk6",
+        "url": "https://www.svd.se/a/4O7BL9/rodgrona-overens-om-stopp-for-tonarsutvisningar?utm_medium=rss",
+        "canonicalUrl": "https://www.svd.se/a/4O7BL9/rodgrona-overens-om-stopp-for-tonarsutvisningar",
+        "title": "Rödgröna överens om stopp för tonårsutvisningar",
+        "description": "De rödgröna partierna S, V, C och MP är överens om en stopplag mot tonårsutvisningarna.",
+        "source": {
+          "id": "svd",
+          "name": "Svenska Dagbladet"
+        },
+        "sourceCountry": "SE",
+        "language": "sv",
+        "publishedAt": "2026-10-06T10:06:22.000Z",
+        "imageUrl": "https://akamai.vgc.no/v2/images/99117f4c-6f7f-3ef9-8f0f-d225d86c8b41?format=auto&w=1000&s=e4c808d4c0373afdf37eda220f5db9f86fde8428",
+        "countryCode": "SE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "rBYTG6eU5Vrl",
+          "url": "https://www.expressen.se/nyheter/politik/strommers-stod-till-de-rodgrona-om-tonarsutvisningarna/",
+          "canonicalUrl": "https://www.expressen.se/nyheter/politik/strommers-stod-till-de-rodgrona-om-tonarsutvisningarna/",
+          "title": "Strömmers stöd till de rödgröna – om tonårsutvisningarna",
+          "description": "De rödgröna partierna har enats för att stoppa tonårsutvisningarna. Nu får de stöd från justitieminister Gunnar Strömmer (M). – Det finns en väldigt stor öppenhet att åstadkomma det.",
+          "source": {
+            "id": "expressen",
+            "name": "Expressen"
+          },
+          "sourceCountry": "SE",
+          "language": "sv",
+          "publishedAt": "2026-10-06T13:41:03.000Z",
+          "imageUrl": "https://static.bonniernews.se/images/6d/6c/6d6c3632bdcd49abb8f24780077e6517/16x9/265@70.png",
+          "countryCode": "SE",
+          "regionCode": null
+        },
+        {
+          "id": "b9DtsGddunmN",
+          "url": "https://www.sverigesradio.se/artikel/9314048",
+          "canonicalUrl": "https://www.sverigesradio.se/artikel/9314048",
+          "title": "De rödgröna överens om stopplag för tonårsutvisningar",
+          "description": "Socialdemokraterna, Vänsterpartiet, Miljöpartiet och Centerpartiet enades under tisdagen om att ta fram ett förslag till stopplag till de uppmärksammade tonårsutvisningarna. Det är den första frågan som de rödgröna är överens om efter valet. ”Vi har enats om det bland de fyra partierna. Det här…",
+          "source": {
+            "id": "ekot",
+            "name": "Ekot (Sveriges Radio)"
+          },
+          "sourceCountry": "SE",
+          "language": "sv",
+          "publishedAt": "2026-10-06T11:41:00.000Z",
+          "imageUrl": "https://static-cdn.sr.se/images/83/05bb1f1d-29bb-440a-9e43-d527e1ab3369.jpg?preset=api-default-rectangle",
+          "countryCode": "SE",
+          "regionCode": null
+        },
+        {
+          "id": "s2SJgKqtLdYv",
+          "url": "https://www.dn.se/sverige/de-rodgrona-overens-tonarsutvisningarna-stoppas/",
+          "canonicalUrl": "https://www.dn.se/sverige/de-rodgrona-overens-tonarsutvisningarna-stoppas/",
+          "title": "De rödgröna överens: Tonårsutvisningarna stoppas",
+          "description": "De fyra rödgröna partierna är överens om att tillfälligt stoppa de så kallade tonårsutvisningarna. – Det här är ett väldigt tydligt besked om att Sveriges riksdag så fort som möjligt vill sätta stopp för de här utvisningarna, säger V-ledaren Nooshi Dadgostar.",
+          "source": {
+            "id": "dn",
+            "name": "Dagens Nyheter"
+          },
+          "sourceCountry": "SE",
+          "language": "sv",
+          "publishedAt": "2026-10-06T11:15:37.000Z",
+          "imageUrl": "https://static.bonniernews.se/ba/9cc5f678-2370-4223-b923-f89f37bdbf37.jpeg?io=1&width=1000",
+          "countryCode": "SE",
+          "regionCode": null
+        },
+        {
+          "id": "H102eiORo3OD",
+          "url": "https://www.aftonbladet.se/nyheter/a/OgroEV/rodgrona-overens-om-stopp-for-tonarsutvisningar?utm_medium=rss",
+          "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/OgroEV/rodgrona-overens-om-stopp-for-tonarsutvisningar",
+          "title": "Rödgröna överens om stopp för tonårsutvisningar",
+          "description": "De rödgröna partierna S, V, C och MP är överens om en stopplag mot tonårsutvisningarna.",
+          "source": {
+            "id": "aftonbladet",
+            "name": "Aftonbladet"
+          },
+          "sourceCountry": "SE",
+          "language": "sv",
+          "publishedAt": "2026-10-06T10:06:22.000Z",
+          "imageUrl": "https://akamai.vgc.no/v2/images/99117f4c-6f7f-3ef9-8f0f-d225d86c8b41?format=auto&w=1000&s=e4c808d4c0373afdf37eda220f5db9f86fde8428",
+          "countryCode": "SE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T13:41:03.000Z"
+    },
     {
       "id": "eLdccxGcb4_b",
       "representative": {
@@ -155,141 +248,6 @@
       "outletCount24h": 4,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T12:01:30.000Z"
-    },
-    {
-      "id": "kQfyzmTqYVk6",
-      "representative": {
-        "id": "kQfyzmTqYVk6",
-        "url": "https://www.svd.se/a/4O7BL9/rodgrona-overens-om-stopp-for-tonarsutvisningar?utm_medium=rss",
-        "canonicalUrl": "https://www.svd.se/a/4O7BL9/rodgrona-overens-om-stopp-for-tonarsutvisningar",
-        "title": "Rödgröna överens om stopp för tonårsutvisningar",
-        "description": "De rödgröna partierna S, V, C och MP är överens om en stopplag mot tonårsutvisningarna.",
-        "source": {
-          "id": "svd",
-          "name": "Svenska Dagbladet"
-        },
-        "sourceCountry": "SE",
-        "language": "sv",
-        "publishedAt": "2026-10-06T10:06:22.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/99117f4c-6f7f-3ef9-8f0f-d225d86c8b41?format=auto&w=1000&s=e4c808d4c0373afdf37eda220f5db9f86fde8428",
-        "countryCode": "SE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "b9DtsGddunmN",
-          "url": "https://www.sverigesradio.se/artikel/9314048",
-          "canonicalUrl": "https://www.sverigesradio.se/artikel/9314048",
-          "title": "De rödgröna överens om stopplag för tonårsutvisningar",
-          "description": "Socialdemokraterna, Vänsterpartiet, Miljöpartiet och Centerpartiet enades under tisdagen om att ta fram ett förslag till stopplag till de uppmärksammade tonårsutvisningarna. Det är den första frågan som de rödgröna är överens om efter valet. ”Vi har enats om det bland de fyra partierna. Det här…",
-          "source": {
-            "id": "ekot",
-            "name": "Ekot (Sveriges Radio)"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T11:41:00.000Z",
-          "imageUrl": "https://static-cdn.sr.se/images/83/05bb1f1d-29bb-440a-9e43-d527e1ab3369.jpg?preset=api-default-rectangle",
-          "countryCode": "SE",
-          "regionCode": null
-        },
-        {
-          "id": "irVezuNtAKB5",
-          "url": "https://www.expressen.se/nyheter/politik/allt-om-valet-2026-folj-direktrapporten/?post=08703a87-6528-46f7-a8e4-a770c8479baf",
-          "canonicalUrl": "https://www.expressen.se/nyheter/politik/allt-om-valet-2026-folj-direktrapporten/?post=08703a87-6528-46f7-a8e4-a770c8479baf",
-          "title": "Stopp för tonårsutvisningar",
-          "description": "De rödgröna är överens",
-          "source": {
-            "id": "expressen",
-            "name": "Expressen"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T10:16:49.000Z",
-          "imageUrl": null,
-          "countryCode": "SE",
-          "regionCode": null
-        },
-        {
-          "id": "H102eiORo3OD",
-          "url": "https://www.aftonbladet.se/nyheter/a/OgroEV/rodgrona-overens-om-stopp-for-tonarsutvisningar?utm_medium=rss",
-          "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/OgroEV/rodgrona-overens-om-stopp-for-tonarsutvisningar",
-          "title": "Rödgröna överens om stopp för tonårsutvisningar",
-          "description": "De rödgröna partierna S, V, C och MP är överens om en stopplag mot tonårsutvisningarna.",
-          "source": {
-            "id": "aftonbladet",
-            "name": "Aftonbladet"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T10:06:22.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/99117f4c-6f7f-3ef9-8f0f-d225d86c8b41?format=auto&w=1000&s=e4c808d4c0373afdf37eda220f5db9f86fde8428",
-          "countryCode": "SE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T11:41:00.000Z"
-    },
-    {
-      "id": "s2SJgKqtLdYv",
-      "representative": {
-        "id": "s2SJgKqtLdYv",
-        "url": "https://www.dn.se/sverige/de-rodgrona-overens-tonarsutvisningarna-stoppas/",
-        "canonicalUrl": "https://www.dn.se/sverige/de-rodgrona-overens-tonarsutvisningarna-stoppas/",
-        "title": "De rödgröna överens: Tonårsutvisningarna stoppas",
-        "description": "De fyra rödgröna partierna är överens om att tillfälligt stoppa de så kallade tonårsutvisningarna. – Det här är ett väldigt tydligt besked om att Sveriges riksdag så fort som möjligt vill sätta stopp för de här utvisningarna, säger V-ledaren Nooshi Dadgostar.",
-        "source": {
-          "id": "dn",
-          "name": "Dagens Nyheter"
-        },
-        "sourceCountry": "SE",
-        "language": "sv",
-        "publishedAt": "2026-10-06T11:15:37.000Z",
-        "imageUrl": "https://static.bonniernews.se/ba/9cc5f678-2370-4223-b923-f89f37bdbf37.jpeg?io=1&width=1000",
-        "countryCode": "SE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rBYTG6eU5Vrl",
-          "url": "https://www.expressen.se/nyheter/politik/strommers-stod-till-de-rodgrona-om-tonarsutvisningarna/",
-          "canonicalUrl": "https://www.expressen.se/nyheter/politik/strommers-stod-till-de-rodgrona-om-tonarsutvisningarna/",
-          "title": "Strömmers stöd till de rödgröna – om tonårsutvisningarna",
-          "description": "De rödgröna partierna har enats för att stoppa tonårsutvisningarna. Nu får de stöd från justitieminister Gunnar Strömmer (M). – Det finns en väldigt stor öppenhet att åstadkomma det.",
-          "source": {
-            "id": "expressen",
-            "name": "Expressen"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T13:41:03.000Z",
-          "imageUrl": "https://static.bonniernews.se/images/6d/6c/6d6c3632bdcd49abb8f24780077e6517/16x9/265@70.png",
-          "countryCode": "SE",
-          "regionCode": null
-        },
-        {
-          "id": "hhDg4PAD4AdS",
-          "url": "https://www.aftonbladet.se/nyheter/a/lKV3pk/initiativ-kring-tonarsutvisningar-inlamnat?utm_medium=rss",
-          "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/lKV3pk/initiativ-kring-tonarsutvisningar-inlamnat",
-          "title": "Så ska tonårs­utvisningarna stoppas – rödgröna är överens",
-          "description": "Rödgröna kräver stopplag för ungas utvisningar",
-          "source": {
-            "id": "aftonbladet",
-            "name": "Aftonbladet"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T10:02:27.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/6f82d3a4-78c4-35ef-95d6-260cd8f333d6?format=auto&w=1000&s=2ba030f6cc6e61cd761dc64464ef10d6f80953f9",
-          "countryCode": "SE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:41:03.000Z"
     },
     {
       "id": "2WNunPnjXTRN",
@@ -750,6 +708,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:39:00.000Z"
+    },
+    {
+      "id": "6l5ia8wyj8Sa",
+      "representative": {
+        "id": "6l5ia8wyj8Sa",
+        "url": "https://www.aftonbladet.se/nyheter/a/MA1Qj5/bussolyckan-mellan-alvesta-och-vaxjo-har-en-gemensam-faktor-med-tidigare-bussolyckor?utm_medium=rss",
+        "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/MA1Qj5/bussolyckan-mellan-alvesta-och-vaxjo-har-en-gemensam-faktor-med-tidigare-bussolyckor",
+        "title": "Experten: Kusliga likheterna mellan bussolyckorna",
+        "description": "Återkommande faktor",
+        "source": {
+          "id": "aftonbladet",
+          "name": "Aftonbladet"
+        },
+        "sourceCountry": "SE",
+        "language": "sv",
+        "publishedAt": "2026-10-06T13:34:15.000Z",
+        "imageUrl": "https://akamai.vgc.no/v2/images/fee798fa-753b-3a56-b4e4-11c58536684f?format=auto&w=1000&s=c78e1024cc3cf8a89bdbc89b7fb2824a054a8aab",
+        "countryCode": "SE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:34:15.000Z"
     }
   ]
 }
