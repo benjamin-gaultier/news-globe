@@ -196,4 +196,11 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   KR: { code: 'KR', name: 'South Korea', lat: 36.3, lng: 127.8, altitude: 0.7 },
   TH: { code: 'TH', name: 'Thailand', lat: 15, lng: 101, altitude: 1.1 },
   BD: { code: 'BD', name: 'Bangladesh', lat: 23.8, lng: 90.3, altitude: 0.7 },
+  GN: { code: 'GN', name: 'Guinea', lat: 10.4, lng: -11, altitude: 0.8 },
+  GA: { code: 'GA', name: 'Gabon', lat: -0.6, lng: 11.6, altitude: 0.8 },
+  TD: { code: 'TD', name: 'Chad', lat: 15, lng: 18.7, altitude: 1.4 },
+  MR: { code: 'MR', name: 'Mauritania', lat: 20.3, lng: -10.3, altitude: 1.3 },
+  GM: { code: 'GM', name: 'The Gambia', lat: 13.45, lng: -15.4, altitude: 0.4 },
+  LR: { code: 'LR', name: 'Liberia', lat: 6.45, lng: -9.4, altitude: 0.6 },
+  SO: { code: 'SO', name: 'Somalia', lat: 5.5, lng: 46, altitude: 1.3 },
 };

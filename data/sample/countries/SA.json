@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SA",
   "countryName": "Saudi Arabia",
-  "updatedAt": "2026-10-06T18:26:12.974Z",
+  "updatedAt": "2026-10-06T18:40:52.046Z",
   "clusters": [
     {
       "id": "MHevhrQHuAhY",
@@ -171,48 +171,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T23:15:00.000Z"
-    },
-    {
-      "id": "xMl7n20tpd-6",
-      "representative": {
-        "id": "xMl7n20tpd-6",
-        "url": "https://www.alwatan.com.sa/article/1186732",
-        "canonicalUrl": "https://www.alwatan.com.sa/article/1186732",
-        "title": "بأصول مستردة بـ 1.5 مليار ريال.. الأوقاف تطلق لائحة إحياء الأوقاف المجهولة والمعطلة",
-        "description": "في خطوة تنظيمية تستهدف تعظيم الأثر الاجتماعي والاقتصادي للقطاع الوقفي في المملكة، أصدرت الهيئة العامة للأوقاف لائحة إحياء الأوقاف المجهولة والمعطلة بموجب قرار مجلس إدارتها وتمثل هذه اللائحة نقلة نوعية تحول العمل الوقفي من مجرد استقبال البلاغات إلى إطار تنظيمي متكامل للإحياء والتنمية يحفظ الأصول…",
-        "source": {
-          "id": "alwatan_sa",
-          "name": "Al-Watan"
-        },
-        "sourceCountry": "SA",
-        "language": "ar",
-        "publishedAt": "2026-10-05T18:34:00.000Z",
-        "imageUrl": "https://www.alwatan.com.sa/uploads/images/2026/10/05/1291754.jpg",
-        "countryCode": "SA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ypn8u4qg16E0",
-          "url": "https://www.al-madina.com/article/1008107/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D9%84%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81-%D8%AA%D8%B5%D8%AF%D8%B1-%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D8%A5%D8%AD%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81-%D8%A7%D9%84%D9%85%D8%AC%D9%87%D9%88%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%B7%D9%84%D8%A9",
-          "canonicalUrl": "https://www.al-madina.com/article/1008107/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D9%84%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81-%D8%AA%D8%B5%D8%AF%D8%B1-%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D8%A5%D8%AD%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81-%D8%A7%D9%84%D9%85%D8%AC%D9%87%D9%88%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%B7%D9%84%D8%A9",
-          "title": "الهيئة العامة للأوقاف تصدر لائحة إحياء الأوقاف المجهولة والمعطلة",
-          "description": "أصدرت الهيئة العامة للأوقاف \"لائحة إحياء الأوقاف المجهولة والمعطلة\" وذلك بموجب قرار مجلس الإدارة، لتكون إطارًا تنظيمًا متكاملًا ينتقل من الإبلاغ عن الأوقاف المجهولة والمعطلة إلى تنظيم إحيائهما، بما يسهم في حفظ الأوقاف وإعادتها إلى النفع وتحقيق شروط واقفيها. وتأتي اللائحة بديلًا عن القواعد السابقة…",
-          "source": {
-            "id": "almadina",
-            "name": "Al-Madina"
-          },
-          "sourceCountry": "SA",
-          "language": "ar",
-          "publishedAt": "2026-10-05T21:50:00.000Z",
-          "imageUrl": "https://www.al-madina.com/uploads/images/2026/10/05/2668906.jpg",
-          "countryCode": "SA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T21:50:00.000Z"
     },
     {
       "id": "pVILOoWWPSEh",
@@ -453,6 +411,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:34:35.000Z"
+    },
+    {
+      "id": "0dUXDVsSdTfM",
+      "representative": {
+        "id": "0dUXDVsSdTfM",
+        "url": "https://aawsat.com/node/5326629",
+        "canonicalUrl": "https://aawsat.com/node/5326629",
+        "title": "نائب إيراني يطلب رسمياً استجواب عراقجي في البرلمان",
+        "description": "أكد عضو هيئة رئاسة مجلس الشورى الإيراني، محمد رشيدي أن طلب استجواب وزير الخارجية عباس عراقجي، الذي تقدم به النائب أمير حسين ثابتي، سُجّل رسمياً.",
+        "source": {
+          "id": "aawsat",
+          "name": "Asharq Al-Awsat"
+        },
+        "sourceCountry": "SA",
+        "language": "ar",
+        "publishedAt": "2026-10-06T13:30:13.000Z",
+        "imageUrl": "https://static.srpcdigital.com/styles/414x217/public/2026-10/1812799.jpeg.webp?VersionId=e61K1.mYyiGkSTFbvPO58_tPuFVM_Cj_",
+        "countryCode": "SA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:30:13.000Z"
     }
   ]
 }

@@ -388,6 +388,13 @@ const STOPWORDS_BN = `
 এবং এর না কে করে হয়েছে থেকে জন্য বলে সঙ্গে একটি আজ নিয়ে দিয়ে করা হবে হয় ছিল তার তিনি এই সেই
 বা আর কি কী যে পর আগে মধ্যে দিকে বছর ভিডিও ছবি
 `;
+// Somali: particles and pronoun clusters (oo, ayaa, lagu …), "daawo" = watch, and
+// the country's own name, which nearly every headline carries.
+const STOPWORDS_SO = `
+oo ka iyo ku u la in ay ee soo ah ayaa kala uga loo lagu laga waxaa waxay inay inuu ugu kaga si kale
+ahaa ayuu ayay kadib kaddib dib kuna kana kasoo kusoo isla aan aad ama mid hal sida maanta shalay
+daawo sawirro muuqaal warbixin degdeg soomaaliya somalia
+`;
 // Cyrillic й folds to и (NFD), hence "маи".
 const STOPWORDS_BG = `
 и в на за от с да се не е са по до при към като че но или ще бил била било това този тази тези които
@@ -465,6 +472,7 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   hr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   bs: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  so: wordSet(STOPWORDS_SO, STOPWORDS_EN, BOILERPLATE),
   ko: wordSet(STOPWORDS_KO, STOPWORDS_EN, BOILERPLATE),
   th: wordSet(STOPWORDS_TH, STOPWORDS_EN, BOILERPLATE),
   bn: wordSet(STOPWORDS_BN, STOPWORDS_EN, BOILERPLATE),
