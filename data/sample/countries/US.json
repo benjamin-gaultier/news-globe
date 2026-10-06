@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "US",
+  "countryName": "United States",
+  "updatedAt": "2026-10-06T08:38:12.659Z",
+  "clusters": [
+    {
+      "id": "cNgRZmeXuur4",
+      "representative": {
+        "id": "cNgRZmeXuur4",
+        "url": "https://www.nytimes.com/2026/10/05/obituaries/dennis-hastert-dead.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/05/obituaries/dennis-hastert-dead.html",
+        "title": "Dennis Hastert, Powerful Politician Disgraced by Child Sexual Abuse, Dies",
+        "description": "The longest-serving Republican speaker of the House admitted in 2016 to abusing teenage boys decades earlier. He was 84.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T14:09:01.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/07/multimedia/00obit-hastert-01-fbkl-print1/00obit-hastert-01-fbkl-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "25iNiaiLClVQ",
+          "url": "https://www.washingtonpost.com/obituaries/2026/10/05/dennis-hastert-ex-house-speaker-whose-sex-abuse-admission-upended-legacy-dies-84/",
+          "canonicalUrl": "https://www.washingtonpost.com/obituaries/2026/10/05/dennis-hastert-ex-house-speaker-whose-sex-abuse-admission-upended-legacy-dies-84/",
+          "title": "Dennis Hastert, ex-House speaker whose sex abuse admission upended legacy, dies at 84",
+          "description": "The Illinois Republican helped spearhead President George W. Bush’s legislative agenda before his career ended in disgrace.",
+          "source": {
+            "id": "wapo",
+            "name": "The Washington Post"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T15:58:13.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "31ZHA1aJh2Or",
+          "url": "https://www.pbs.org/newshour/politics/dennis-hastert-longtime-republican-house-speaker-who-went-to-prison-dies-at-age-84",
+          "canonicalUrl": "https://www.pbs.org/newshour/politics/dennis-hastert-longtime-republican-house-speaker-who-went-to-prison-dies-at-age-84",
+          "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
+          "description": "Hastert, who was speaker from 1999 until 2007 and spent more than a year in prison later in life, died Saturday of natural causes at his home while receiving hospice care.",
+          "source": {
+            "id": "pbs",
+            "name": "PBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T15:25:16.000Z",
+          "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/1999-03-26T000000Z_1610580925_RP1DRIKXCVAE_RTRMADP_3_YUGOSLAVIA-HASTERT-1-1024x688.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "CI0hpYycbERr",
+          "url": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
+          "canonicalUrl": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
+          "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
+          "description": "ennis Hastert, whose political legacy as Congress' longest-serving Republican House speaker was later fouled by allegations that he had molested high school athletes during his prior career as a teacher and wrestling coach, has died, a coroner said Monday. He was 84.",
+          "source": {
+            "id": "npr",
+            "name": "NPR"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T14:24:31.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "o4W1aC9mr237",
+          "url": "https://www.cbsnews.com/news/dennis-hastert-dies-former-house-speaker-illinois/",
+          "canonicalUrl": "https://www.cbsnews.com/news/dennis-hastert-dies-former-house-speaker-illinois/",
+          "title": "Dennis Hastert, disgraced former House speaker, dies at 84",
+          "description": "Former Speaker of the House Dennis Hastert represented Illinois for two decades in Congress and was later jailed on charges related to his concealment of hush money payments made to cover up sexual abuse.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T13:59:00.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "w5YtSN0xQQbi",
+          "url": "https://abcnews.com/Politics/wireStory/dennis-hastert-longtime-republican-house-speaker-prison-dies-137003116",
+          "canonicalUrl": "https://abcnews.com/Politics/wireStory/dennis-hastert-longtime-republican-house-speaker-prison-dies-137003116",
+          "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
+          "description": "Dennis Hastert, who served as House speaker longer than any other Republican but later was sent to prison in a hush-money case, has died",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T13:49:02.000Z",
+          "imageUrl": "https://s.abcnews.com/images/Politics/wirestory_4a04ca4b4c0741a38f4b4a7e0f2bc78c_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 6,
+      "outletCount": 6,
+      "latestPublishedAt": "2026-10-05T15:58:13.000Z"
+    },
+    {
+      "id": "gL-Nkq7ZcEKN",
+      "representative": {
+        "id": "gL-Nkq7ZcEKN",
+        "url": "https://www.nytimes.com/2026/10/05/us/politics/supreme-court-climate-change-oil.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/05/us/politics/supreme-court-climate-change-oil.html",
+        "title": "Supreme Court Tangles Over a Major Climate Change Case",
+        "description": "The justices began their new term with a landmark dispute over whether local governments can hold oil companies liable for damages from climate change.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T07:13:04.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/05/multimedia/05dc-scotus-suncor-topart-02-vfmw/05dc-scotus-suncor-topart-02-vfmw-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "sqTvCzzGyACm",
+          "url": "https://www.cbsnews.com/news/supreme-court-climate-change-energy-companies-boulder-colorado-arguments/",
+          "canonicalUrl": "https://www.cbsnews.com/news/supreme-court-climate-change-energy-companies-boulder-colorado-arguments/",
+          "title": "Supreme Court wrestles with energy companies' bid to block major climate suit",
+          "description": "Eight of the nine justices heard nearly two hours of oral arguments in a case involving an effort by the city and county of Boulder, Colorado, to hold energy companies accountable for the effects of global climate change.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T02:35:48.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "eijppk4Wwhm7",
+          "url": "https://www.pbs.org/newshour/show/supreme-court-hears-case-on-holding-energy-companies-liable-for-climate-change",
+          "canonicalUrl": "https://www.pbs.org/newshour/show/supreme-court-hears-case-on-holding-energy-companies-liable-for-climate-change",
+          "title": "Supreme Court hears case on holding energy companies liable for climate change",
+          "description": "Supreme Court justices heard arguments in a major climate change case that could shape how communities hold industries accountable. Officials in Boulder, Colorado, are seeking compensation from energy companies for the costs of natural disasters they say are caused by climate change. Ali Rogin…",
+          "source": {
+            "id": "pbs",
+            "name": "PBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T22:55:51.000Z",
+          "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/new-term-1024x683.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "KD83YcPxnU3t",
+          "url": "https://www.washingtonpost.com/politics/2026/10/05/supreme-court-grapples-with-case-holding-big-oil-liable-climate-change/",
+          "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/05/supreme-court-grapples-with-case-holding-big-oil-liable-climate-change/",
+          "title": "Supreme Court grapples with case on holding Big Oil liable for climate change",
+          "description": "After more than two hours of argument, it was unclear whether the justices would green-light Boulder, Colorado’s novel lawsuit against ExxonMobil and Suncor Energy.",
+          "source": {
+            "id": "wapo",
+            "name": "The Washington Post"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T19:23:15.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "Zm9qwgRjRqir",
+          "url": "https://www.npr.org/2026/10/05/nx-s1-5970070/supreme-court-climate-change-boulder-county",
+          "canonicalUrl": "https://www.npr.org/2026/10/05/nx-s1-5970070/supreme-court-climate-change-boulder-county",
+          "title": "Supreme Court's new term kicks off with blockbuster climate change case",
+          "description": "The case centers on whether local governments can hold giant energy companies accountable for the local harms of climate change, but it has repercussions beyond climate.",
+          "source": {
+            "id": "npr",
+            "name": "NPR"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T09:00:00.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "koXHcbN2j3Nm",
+          "url": "https://abcnews.com/US/wireStory/new-supreme-court-term-begins-cases-climate-change-136995024",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/new-supreme-court-term-begins-cases-climate-change-136995024",
+          "title": "Supreme Court term begins with cases on climate change, immigration and gun rights",
+          "description": "The Supreme Court begins a new term Monday with significant cases on climate change, religious rights, and immigration",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T07:06:28.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_389e2c111d351361c406e5ed7e0728c5_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 6,
+      "latestPublishedAt": "2026-10-06T07:13:04.000Z"
+    },
+    {
+      "id": "OgyCJFkbZHgm",
+      "representative": {
+        "id": "OgyCJFkbZHgm",
+        "url": "https://www.nytimes.com/2026/10/05/business/media/fox-news-karoline-leavitt.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/05/business/media/fox-news-karoline-leavitt.html",
+        "title": "Karoline Leavitt, Trump’s ‘Machine Gun,’ Has a New Gig at Fox News",
+        "description": "A fierce and nimble speaker, Ms. Leavitt is the third of Mr. Trump’s former press secretaries to join the cable news network.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T15:57:28.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/05/multimedia/05biz-fox-news-karoline-leavitt-qlbk/05biz-fox-news-karoline-leavitt-qlbk-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "NaAVQszzhtvN",
+          "url": "https://abcnews.com/Politics/wireStory/former-press-secretary-karoline-leavitt-lands-gig-fox-137004427",
+          "canonicalUrl": "https://abcnews.com/Politics/wireStory/former-press-secretary-karoline-leavitt-lands-gig-fox-137004427",
+          "title": "Former press secretary Karoline Leavitt lands her next gig: Fox News contributor",
+          "description": "Former White House press secretary Karoline Leavitt is joining Fox News as an on-air contributor starting November 1",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T15:48:14.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_29678b4186eefe6d4a5bf6fb3706cc43_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "y0sIaDowapk4",
+          "url": "https://www.pbs.org/newshour/politics/former-white-house-press-secretary-karoline-leavitt-lands-her-next-gig-as-fox-news-contributor",
+          "canonicalUrl": "https://www.pbs.org/newshour/politics/former-white-house-press-secretary-karoline-leavitt-lands-her-next-gig-as-fox-news-contributor",
+          "title": "Former White House press secretary Karoline Leavitt lands her next gig as Fox News contributor",
+          "description": "Leavitt follows Kayleigh McEnany, the former press secretary who joined Fox in 2021.",
+          "source": {
+            "id": "pbs",
+            "name": "PBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T15:33:34.000Z",
+          "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-09-11T004951Z_1530837442_RC2OGNAUGPXT_RTRMADP_3_USA-ELECTION-REPUBLICANS-1024x683.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "B0gQnYUORR9h",
+          "url": "https://www.cbsnews.com/news/karoline-leavitt-fox-news/",
+          "canonicalUrl": "https://www.cbsnews.com/news/karoline-leavitt-fox-news/",
+          "title": "Karoline Leavitt joining Fox News as a contributor",
+          "description": "Former White House press secretary Karoline Leavitt will begin her new role at Fox News on Nov. 1.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T14:52:23.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-05T15:57:28.000Z"
+    },
+    {
+      "id": "mdy5JYMM7-Pt",
+      "representative": {
+        "id": "mdy5JYMM7-Pt",
+        "url": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
+        "canonicalUrl": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
+        "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
+        "description": "The FBI and U.S. prosecutors say Wanying Zhang, also know as Heather, surveilled the Taiwanese president's son and his family.",
+        "source": {
+          "id": "npr",
+          "name": "NPR"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T11:47:36.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "b_xo9Khdt9F-",
+          "url": "https://abcnews.com/US/wireStory/fbi-arrests-california-woman-accused-spying-taiwan-leaders-136995467",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/fbi-arrests-california-woman-accused-spying-taiwan-leaders-136995467",
+          "title": "FBI arrests California woman accused of spying on Taiwan leader's family for China",
+          "description": "The FBI has arrested a California real estate agent at Los Angeles International Airport as she was leaving the country and accused her of spying on the Taiwan president’s family for China",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T02:21:45.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_42e55337e768722b67874b9dc29f127c_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "jhKt-Lzpmadg",
+          "url": "https://www.cbsnews.com/news/chinese-agent-arrested-lax-taiwan-president-son/",
+          "canonicalUrl": "https://www.cbsnews.com/news/chinese-agent-arrested-lax-taiwan-president-son/",
+          "title": "FBI arrests woman at LAX accused of being Chinese agent",
+          "description": "Wanying \"Heather\" Zhang, an Irvine, California, realtor, was arrested on a charge of acting as an unregistered agent of a foreign government.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T01:35:27.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T02:21:45.000Z"
+    },
+    {
+      "id": "BBxxZB0Zjndl",
+      "representative": {
+        "id": "BBxxZB0Zjndl",
+        "url": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
+        "title": "Fury in California After Trump Suggests Iran Could ‘Take Out’ L.A. or San Diego",
+        "description": "Gov. Gavin Newsom called the president “dangerous and deranged” after his remarks at a political rally, where Mr. Trump said the Iran war was necessary to “keep the world safe.”",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T07:11:57.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06xp-trump-strikes-mflg/06xp-trump-strikes-mflg-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Bg3pe2MmoDlY",
+          "url": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
+          "canonicalUrl": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
+          "title": "Trump suggests letting Iran \"take out\" LA, San Diego during rally",
+          "description": "Gov. Gavin Newsom called President Trump \"deranged and dangerous\" after he suggested letting Iran \"take out\" Los Angeles and San Diego.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T05:41:07.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T07:11:57.000Z"
+    },
+    {
+      "id": "fYd-yuTEmSFh",
+      "representative": {
+        "id": "fYd-yuTEmSFh",
+        "url": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
+        "canonicalUrl": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
+        "title": "Jim Bakker, who co-founded \"The PTL Club\" but fell into disgrace, dies at 86",
+        "description": "Jim Bakker, who along with his first wife Tammy Faye built an evangelical empire around \"The PTL Club\" TV show, only to lose it all over a sex scandal and financial crimes, has died at 86.",
+        "source": {
+          "id": "cbs",
+          "name": "CBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:05:00.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "jKJqQlX3lp6A",
+          "url": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
+          "title": "Jim Bakker, who built ‘PTL Club’ televangelism empire, has died at 86",
+          "description": "Jim Bakker, who along with his first-wife Tammy Faye built an evangelical empire around the hugely successful “The PTL Club” TV show, only to lose it all over a sex scandal and financial crimes, has died",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T06:20:39.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_ef6d58ffa0b511edba773c219cee77e8_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T06:20:39.000Z"
+    },
+    {
+      "id": "WKhqKlefgEN9",
+      "representative": {
+        "id": "WKhqKlefgEN9",
+        "url": "https://www.pbs.org/newshour/politics/watch-live-trump-campaigns-with-ricketts-in-nebraska-where-ranchers-have-beef-with-his-import-plan",
+        "canonicalUrl": "https://www.pbs.org/newshour/politics/watch-live-trump-campaigns-with-ricketts-in-nebraska-where-ranchers-have-beef-with-his-import-plan",
+        "title": "WATCH LIVE: Trump campaigns with Ricketts in Nebraska, where ranchers have beef with his import plan",
+        "description": "The Trump administration's plan to allow more imports of foreign beef has particularly roiled the agriculture-rich state of Nebraska.",
+        "source": {
+          "id": "pbs",
+          "name": "PBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T14:09:24.000Z",
+        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-05T100050Z_1289964515_RC2PKNAVYI0M_RTRMADP_3_USA-ELECTION-ECONOMY-JOBS-1024x684.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "pGlVRJKjS-Wf",
+          "url": "https://abcnews.com/Politics/wireStory/trump-heads-nebraska-monday-plan-import-beef-angered-136995164",
+          "canonicalUrl": "https://abcnews.com/Politics/wireStory/trump-heads-nebraska-monday-plan-import-beef-angered-136995164",
+          "title": "Trump heads to Nebraska on Monday, where his plans for imports have angered ranchers",
+          "description": "President Donald Trump has taken his Republican midterm rescue mission to Nebraska",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T02:18:18.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_106c5ad829c53b71bdf18a501fc6e07f_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T02:18:18.000Z"
+    },
+    {
+      "id": "LXuOAJKWinTV",
+      "representative": {
+        "id": "LXuOAJKWinTV",
+        "url": "https://www.nytimes.com/2026/10/05/us/caleb-flynn-murder-sentence-life.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/05/us/caleb-flynn-murder-sentence-life.html",
+        "title": "Caleb Flynn, Who Appeared on ‘American Idol,’ Gets Life Sentence for Wife’s Murder",
+        "description": "Caleb Flynn maintained his innocence at his sentencing hearing in Ohio on Monday.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T01:16:28.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/05/multimedia/05xp-flynn-01-clhm/05xp-flynn-01-clhm-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "8Wq6WTFOO9Tu",
+          "url": "https://www.cbsnews.com/news/caleb-flynn-sentenced-american-idol-contestant/",
+          "canonicalUrl": "https://www.cbsnews.com/news/caleb-flynn-sentenced-american-idol-contestant/",
+          "title": "Ex-\"American Idol\" contestant Caleb Flynn gets life sentence",
+          "description": "Caleb Flynn was found guilty of killing his wife, Ashley, and attempting to blame the murder on a break-in at their home.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T00:02:51.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T01:16:28.000Z"
+    },
+    {
+      "id": "edfDpG-qKOcf",
+      "representative": {
+        "id": "edfDpG-qKOcf",
+        "url": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
+        "canonicalUrl": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
+        "title": "News Wrap: Cornell students protest handling of alleged rape",
+        "description": "In our news wrap Monday, students at Cornell are staging protests over the university's handling of an alleged fraternity house gang rape in 2024, President Trump said a threat linked to Iran was the reason the U.S. withdrew its bombers from the Fairford airbase in the UK and Dennis Hastert, the…",
+        "source": {
+          "id": "pbs",
+          "name": "PBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T22:45:10.000Z",
+        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/newswrapcornell-1024x688.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "H6lwnf1nHPbJ",
+          "url": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
+          "canonicalUrl": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
+          "title": "Cornell students vandalize on-campus wall over university's handling of alleged rape case",
+          "description": "There is growing backlash against Cornell University as more information comes out about the Ivy League school's original response to an alleged gang rape two years ago inside a frat house on campus. Lilia Luciano reports.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T23:49:05.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T23:49:05.000Z"
+    },
+    {
+      "id": "KQrrUBQDIU5E",
+      "representative": {
+        "id": "KQrrUBQDIU5E",
+        "url": "https://www.nytimes.com/2026/10/05/us/florida-school-bus-crash.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/05/us/florida-school-bus-crash.html",
+        "title": "2 People, Including Winter Haven High School Student, Killed in Florida Bus Crash",
+        "description": "A school bus carrying 39 people to Winter Haven High School in Florida was struck by a sedan and rolled over, killing a student and a person in another vehicle, officials said.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T22:35:15.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/05/multimedia/05xp-bus-01-hgzp/05xp-bus-01-hgzp-mediumSquareAt3X.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "MKOZL6m73Moo",
+          "url": "https://www.cbsnews.com/video/1-student-dead-another-person-killed-florida-school-bus-crash/",
+          "canonicalUrl": "https://www.cbsnews.com/video/1-student-dead-another-person-killed-florida-school-bus-crash/",
+          "title": "1 student dead, another person killed in Florida school bus crash",
+          "description": "A school bus with 37 students on board flipped over onto its roof in a multi-vehicle accident. One student died on Monday and everyone else on board was rushed to the hospital. According to investigators, a driver crossed the center line and crashed into the side of the bus, sending it into…",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T23:00:00.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T23:00:00.000Z"
+    },
+    {
+      "id": "2b9l3xHNyfHn",
+      "representative": {
+        "id": "2b9l3xHNyfHn",
+        "url": "https://www.pbs.org/newshour/politics/obama-to-campaign-with-el-sayed-in-detroit-as-ex-president-gets-more-involved-in-midterms",
+        "canonicalUrl": "https://www.pbs.org/newshour/politics/obama-to-campaign-with-el-sayed-in-detroit-as-ex-president-gets-more-involved-in-midterms",
+        "title": "Obama to campaign with El-Sayed in Detroit as ex-president gets more involved in midterms",
+        "description": "Obama is upping involvement in the midterm election. He taped two dozen ads last week for Democratic candidates for governor and Senate that will be released in the coming days and weeks.",
+        "source": {
+          "id": "pbs",
+          "name": "PBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T17:17:30.000Z",
+        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-06-18T200920Z_228045044_RC2JWLAYLDNA_RTRMADP_3_USA-OBAMA-1-1024x683.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "njfcq4O3HVIM",
+          "url": "https://abcnews.com/Politics/wireStory/obama-el-sayed-detroit-president-gets-involved-midterms-137006722",
+          "canonicalUrl": "https://abcnews.com/Politics/wireStory/obama-el-sayed-detroit-president-gets-involved-midterms-137006722",
+          "title": "Obama to appear with El-Sayed in Detroit as he gets more involved in midterms",
+          "description": "Former President Barack Obama plans to appear with Democratic Senate candidate Abdul El-Sayed in Detroit this month",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T20:59:49.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_349190ae8c747418e84bb65512d75461_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T20:59:49.000Z"
+    },
+    {
+      "id": "MoerQTT-olpY",
+      "representative": {
+        "id": "MoerQTT-olpY",
+        "url": "https://www.pbs.org/newshour/politics/sen-tillis-says-his-vote-for-hegseth-was-biggest-regret-of-my-career-in-new-book",
+        "canonicalUrl": "https://www.pbs.org/newshour/politics/sen-tillis-says-his-vote-for-hegseth-was-biggest-regret-of-my-career-in-new-book",
+        "title": "Sen. Tillis says his vote for Hegseth was 'biggest regret of my career' in new book",
+        "description": "Republican Sen. Thom Tillis says in a new book that his deciding vote to confirm Defense Secretary Pete Hegseth in January 2025 is the \"biggest regret of my career\" and that he also \"should've stopped\" Robert F. Kennedy Jr. from becoming Health and Human Services secretary in the early days of…",
+        "source": {
+          "id": "pbs",
+          "name": "PBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T19:40:52.000Z",
+        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-08-04T133108Z_1128385786_RC2PRMA3UCPX_RTRMADP_3_USA-JUSTICE-BLANCHE-1024x683.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Rxkary6Ti8km",
+          "url": "https://abcnews.com/Politics/wireStory/republican-sen-tillis-calls-vote-hegseth-biggest-regret-137012430",
+          "canonicalUrl": "https://abcnews.com/Politics/wireStory/republican-sen-tillis-calls-vote-hegseth-biggest-regret-137012430",
+          "title": "Republican Sen. Tillis calls his vote for Hegseth the 'biggest regret of my career' in a new book",
+          "description": "Republican Sen_ Thom Tillis says in a new book that his deciding vote to confirm Defense Secretary Pete Hegseth in January 2025 is the “biggest regret of my career.”",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T20:27:39.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_2b62f6ddd564263108d70cc2919fb1c4_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T20:27:39.000Z"
+    },
+    {
+      "id": "oNwOC2nAlEck",
+      "representative": {
+        "id": "oNwOC2nAlEck",
+        "url": "https://www.pbs.org/newshour/politics/supreme-court-rejects-michigan-womans-appeal-over-schools-ban-on-lets-go-brandon-sweatshirts",
+        "canonicalUrl": "https://www.pbs.org/newshour/politics/supreme-court-rejects-michigan-womans-appeal-over-schools-ban-on-lets-go-brandon-sweatshirts",
+        "title": "Supreme Court rejects Michigan woman's appeal over school's ban on 'Let's Go Brandon' sweatshirts",
+        "description": "The mother of two boys says their First Amendment rights were violated when they were told to take off the sweatshirts she bought them for Christmas in 2022.",
+        "source": {
+          "id": "pbs",
+          "name": "PBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T16:04:05.000Z",
+        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2021-11-20T232453Z_629731785_RC2IYQ9U495I_RTRMADP_3_USA-BIDEN-BRANDON-1024x683.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "UAcYM4fI-Kj7",
+          "url": "https://abcnews.com/US/wireStory/supreme-court-rejects-appeal-michigan-schools-ban-lets-137003627",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/supreme-court-rejects-appeal-michigan-schools-ban-lets-137003627",
+          "title": "Supreme Court rejects appeal over school's ban on 'Let’s Go Brandon' sweatshirts",
+          "description": "The Supreme Court is rejecting an appeal from a Michigan woman challenging a school district’s ban on shirts with the phrase “Let’s Go Brandon.”",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T16:02:17.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_d683aeba76e285321c9b38aa6a3271e4_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T16:04:05.000Z"
+    },
+    {
+      "id": "h_DbvEx3DwpI",
+      "representative": {
+        "id": "h_DbvEx3DwpI",
+        "url": "https://www.nytimes.com/video/us/100000011184795/will-midterm-elections-complicate-the-supreme-courts-new-term.html",
+        "canonicalUrl": "https://www.nytimes.com/video/us/100000011184795/will-midterm-elections-complicate-the-supreme-courts-new-term.html",
+        "title": "Will Midterm Elections Complicate the Supreme Court’s New Term?",
+        "description": "The Supreme Court is starting its new term already mired in election disputes. Our reporter Ann E. Marimow explains why the court is likely to get pulled into even more of these cases.",
+        "source": {
+          "id": "nyt",
+          "name": "The New York Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T10:21:41.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "dE5S8BIeDGBU",
+          "url": "https://www.washingtonpost.com/politics/2026/10/05/what-watch-supreme-courts-new-term/",
+          "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/05/what-watch-supreme-courts-new-term/",
+          "title": "6 things to watch in the Supreme Court’s new term",
+          "description": "Cases on religion, elections and immigration are likely to take the spotlight. And don’t forget to watch for a potential retirement.",
+          "source": {
+            "id": "wapo",
+            "name": "The Washington Post"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T09:00:00.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T12:57:25.000Z"
+    },
+    {
+      "id": "qXSABz54us3K",
+      "representative": {
+        "id": "qXSABz54us3K",
+        "url": "https://abcnews.com/Politics/wireStory/republicans-return-tough-crime-message-ahead-difficult-midterm-137023931",
+        "canonicalUrl": "https://abcnews.com/Politics/wireStory/republicans-return-tough-crime-message-ahead-difficult-midterm-137023931",
+        "title": "Republicans return to tough-on-crime message ahead of difficult midterm elections",
+        "description": "Republicans are focusing on crime and public disorder in midterm election campaigns, as voters grow frustrated with their handling of the cost of living and the war with Iran",
+        "source": {
+          "id": "abc",
+          "name": "ABC News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T06:57:35.000Z",
+        "imageUrl": "https://s.abcnews.com/images/US/wirestory_4a181df89b301d65406a0f2235166be4_16x9_1600.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:57:35.000Z"
+    }
+  ]
+}
