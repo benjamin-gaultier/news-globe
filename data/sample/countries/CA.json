@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CA",
   "countryName": "Canada",
-  "updatedAt": "2026-10-06T12:44:26.411Z",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
   "clusters": [
     {
       "id": "IVZaH0wgm3Su",
@@ -203,7 +203,7 @@
         },
         "sourceCountry": "CA",
         "language": "en",
-        "publishedAt": "2026-10-06T12:44:26.411Z",
+        "publishedAt": "2026-10-06T13:05:38.879Z",
         "imageUrl": "https://www.ctvnews.ca/resizer/v2/45MTOAKPSXWGQD7VOOOLRVRUEI.jpg?auth=6a097b3ad50abd6768bf700b4f91143f4374bd44aca864aae96024e76de58e4a&smart=true&width=1400&height=809",
         "countryCode": "CA",
         "regionCode": null
@@ -211,7 +211,55 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:44:26.411Z"
+      "latestPublishedAt": "2026-10-06T13:05:38.879Z"
+    },
+    {
+      "id": "wDEl15GihmKe",
+      "representative": {
+        "id": "wDEl15GihmKe",
+        "url": "https://www.lapresse.ca/actualites/politique/2026-10-06/tumeur-au-cerveau/le-maire-de-laval-stephane-boyer-publie-une-video-tout-juste-avant-sa-chirurgie.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+        "canonicalUrl": "https://www.lapresse.ca/actualites/politique/2026-10-06/tumeur-au-cerveau/le-maire-de-laval-stephane-boyer-publie-une-video-tout-juste-avant-sa-chirurgie.php",
+        "title": "Tumeur au cerveau | Le maire de Laval Stéphane Boyer publie une vidéo tout juste avant sa chirurgie",
+        "description": "« Je dois y aller, souhaitez-moi bonne chance. »",
+        "source": {
+          "id": "lapresse",
+          "name": "La Presse"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:56:41.000Z",
+        "imageUrl": "https://mobile-img.lpcdn.ca/v2/924x/r3996/d13c16748a8035078162e2e258fa99ec.jpg",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:56:41.000Z"
+    },
+    {
+      "id": "gdP3HBSuE96O",
+      "representative": {
+        "id": "gdP3HBSuE96O",
+        "url": "https://ici.radio-canada.ca/info/en-direct/1014557/elections-quebec-victoire-parti-quebecois",
+        "canonicalUrl": "https://ici.radio-canada.ca/info/en-direct/1014557/elections-quebec-victoire-parti-quebecois",
+        "title": "Élections : la poussière commence à retomber au lendemain de la victoire du PQ",
+        "description": "Les chefs doivent prendre la parole au fil de la journée pour faire le point sur les résultats d'hier.",
+        "source": {
+          "id": "radiocanada",
+          "name": "Radio-Canada"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:48:38.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/pq-pspp-paul-st-pierre-plamondon-parti-quebecois-soiree-electorale-victoire-politique-quebecoise.jpg",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:48:38.000Z"
     },
     {
       "id": "tbi1lUEz0rnX",
@@ -404,54 +452,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:00:43.000Z"
-    },
-    {
-      "id": "hBDr6pYUi1A-",
-      "representative": {
-        "id": "hBDr6pYUi1A-",
-        "url": "https://www.theglobeandmail.com/canada/article-five-takeaways-from-the-quebec-election-results/",
-        "canonicalUrl": "https://www.theglobeandmail.com/canada/article-five-takeaways-from-the-quebec-election-results/",
-        "title": "Five takeaways from the Quebec election results",
-        "description": "The province voted in separatist Parti Québécois for the first time in more than a decade, while Coalition Avenir Québec was wiped off the map",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:06:21.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/KFRQYLESQNFQTFSR7D6ITVJCIY.jpg?auth=fca04611da4942fda076e1d00ca68e427ffa22b73927ed1904aef7837d6ffee2&smart=true&width=8256&height=5504",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:06:21.000Z"
-    },
-    {
-      "id": "KQEVFmho1ETY",
-      "representative": {
-        "id": "KQEVFmho1ETY",
-        "url": "https://www.theglobeandmail.com/canada/article-north-bay-ringette-arena-demolition-plan-municipal-elections-ontario/",
-        "canonicalUrl": "https://www.theglobeandmail.com/canada/article-north-bay-ringette-arena-demolition-plan-municipal-elections-ontario/",
-        "title": "Demolition plan turns the birthplace of ringette into a political arena",
-        "description": "In 1963, North Bay created a new Canadian sport. Now, a debate about that legacy threatens to spill into the Ontario town’s municipal elections",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:00:00.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/K7PGGTMRRFDNNHZWR52VYXYUTA.JPG?auth=5646f441d29dc59e72808d145e5b663dfaa0f10bfef304a3fb4f848e7872916c&smart=true&width=4000&height=2667",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:00:00.000Z"
     }
   ]
 }

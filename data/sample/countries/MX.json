@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MX",
   "countryName": "Mexico",
-  "updatedAt": "2026-10-06T12:44:26.411Z",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
   "clusters": [
     {
       "id": "5HUopp0WwYAv",
@@ -61,6 +61,48 @@
       ],
       "outletCount24h": 3,
       "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T08:49:54.000Z"
+    },
+    {
+      "id": "dJSULXd3ufOW",
+      "representative": {
+        "id": "dJSULXd3ufOW",
+        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-confirma-cierre-temporal-de-inscripciones-a-jovenes-construyendo-el-futuro-nuevos-registros-seran-en-enero/",
+        "canonicalUrl": "https://www.eluniversal.com.mx/nacion/sheinbaum-confirma-cierre-temporal-de-inscripciones-a-jovenes-construyendo-el-futuro-nuevos-registros-seran-en-enero/",
+        "title": "Sheinbaum confirma cierre temporal de inscripciones a Jóvenes Construyendo el Futuro; nuevos registros serán en enero",
+        "description": "La Presidenta explicó que las nuevas inscripciones estarán sujetas a las metas previstas para el próximo año",
+        "source": {
+          "id": "eluniversal",
+          "name": "El Universal"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-05T16:35:55.000Z",
+        "imageUrl": "https://www.eluniversal.com.mx/resizer/v2/RZS7AWXHCRF7XMYPELV4AN3D7M.jpg?auth=d0f8fc26823454d1508e890462892d9ec969f9aa0c153d3afc6291a3b5f71ced&smart=true&width=500",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "tZUP0xnhINtX",
+          "url": "https://www.jornada.com.mx/2026/10/06/politica/010n1pol?partner=rss",
+          "canonicalUrl": "https://www.jornada.com.mx/2026/10/06/politica/010n1pol",
+          "title": "Este año ya se cumplió meta de Jóvenes Construyendo el Futuro, aclara Sheinbaum",
+          "description": "Al referirse a las críticas en redes sociales por la decisión de la Secretaría del Trabajo y Previsión Social de cerrar el portal de ingreso al programa Jóvenes Construyendo el Futuro, la presidenta Claudia Sheinbaum confirmó que por este año ya no habrá incorporaciones al proyecto de capacitación.",
+          "source": {
+            "id": "jornada",
+            "name": "La Jornada"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T08:49:54.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
       "latestPublishedAt": "2026-10-06T08:49:54.000Z"
     },
     {
@@ -190,6 +232,48 @@
       "latestPublishedAt": "2026-10-05T21:28:35.000Z"
     },
     {
+      "id": "KtJUkOFOKHmz",
+      "representative": {
+        "id": "KtJUkOFOKHmz",
+        "url": "https://www.elfinanciero.com.mx/empresas/2026/10/05/registro-obligatorio-de-celulares-crt-suspende-22-millones-de-lineas-con-terminacion-3/",
+        "canonicalUrl": "https://www.elfinanciero.com.mx/empresas/2026/10/05/registro-obligatorio-de-celulares-crt-suspende-22-millones-de-lineas-con-terminacion-3/",
+        "title": "Registro obligatorio de celulares: CRT suspende 2.2 millones de líneas con terminación ‘3′",
+        "description": "Más de 9 millones de líneas celulares con terminación '3' fueron registradas, informó la Comisión Reguladora.",
+        "source": {
+          "id": "elfinanciero",
+          "name": "El Financiero"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-05T19:45:05.000Z",
+        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/DtNJGzy24eXBtyNoGvlOdf-rR5U=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/RFBHCRMK3RBIDDWBNYZGQ72AAA.png",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "L-xPm0Ru4gus",
+          "url": "https://oem.com.mx/elsoldemexico/finanzas/crt-reactiva-1-2-millones-de-lineas-terminadas-en-3-siguiente-corte-el-15-de-octubre-32445547",
+          "canonicalUrl": "https://oem.com.mx/elsoldemexico/finanzas/crt-reactiva-1-2-millones-de-lineas-terminadas-en-3-siguiente-corte-el-15-de-octubre-32445547",
+          "title": "CRT reactiva 1.2 millones de líneas terminadas en 3; siguiente corte el 15 de octubre",
+          "description": "La Comisión reportó 91.8 millones de números vinculados al 4 de octubre; 87.3 por ciento de las líneas con terminación 3 ya completó el trámite",
+          "source": {
+            "id": "soldemexico",
+            "name": "El Sol de México"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-05T15:09:26.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T19:45:05.000Z"
+    },
+    {
       "id": "atlvj88OYg1C",
       "representative": {
         "id": "atlvj88OYg1C",
@@ -249,48 +333,6 @@
       "latestPublishedAt": "2026-10-05T19:39:04.000Z"
     },
     {
-      "id": "s3R-2W2FIOX8",
-      "representative": {
-        "id": "s3R-2W2FIOX8",
-        "url": "https://www.eluniversal.com.mx/nacion/sheinbaum-pide-esperar-a-segunda-vuelta-en-elecciones-de-brasil-nuestro-principal-aliado-es-el-pueblo-de-mexico-dice/",
-        "canonicalUrl": "https://www.eluniversal.com.mx/nacion/sheinbaum-pide-esperar-a-segunda-vuelta-en-elecciones-de-brasil-nuestro-principal-aliado-es-el-pueblo-de-mexico-dice/",
-        "title": "Sheinbaum pide esperar a segunda vuelta en elecciones de Brasil; nuestro principal aliado es el pueblo de México, dice",
-        "description": null,
-        "source": {
-          "id": "eluniversal",
-          "name": "El Universal"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-05T16:29:12.000Z",
-        "imageUrl": "https://www.eluniversal.com.mx/resizer/v2/QA3IXWNF6FC4VEY44YCPUUMOKY.jpg?auth=1bebee3f70732d8302912313692dda8f336eb92b6fa6c78ca9069dfb3cc6c4f3&smart=true&width=500",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "XuwC4bdPMTFa",
-          "url": "https://oem.com.mx/elsoldemexico/mexico/nuestro-principal-aliado-es-el-pueblo-de-mexico-sheinbaum-ante-escenario-politico-en-america-latina-32443920",
-          "canonicalUrl": "https://oem.com.mx/elsoldemexico/mexico/nuestro-principal-aliado-es-el-pueblo-de-mexico-sheinbaum-ante-escenario-politico-en-america-latina-32443920",
-          "title": "“Nuestro principal aliado es el pueblo de México”: Sheinbaum ante escenario político en América Latina",
-          "description": "La mandataria evitó pronunciarse sobre las elecciones en Brasil y aseguró que esperará a que finalice la segunda vuelta para emitir una opinión",
-          "source": {
-            "id": "soldemexico",
-            "name": "El Sol de México"
-          },
-          "sourceCountry": "MX",
-          "language": "es",
-          "publishedAt": "2026-10-05T12:44:54.000Z",
-          "imageUrl": null,
-          "countryCode": "MX",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T16:29:12.000Z"
-    },
-    {
       "id": "9inqMp752KK9",
       "representative": {
         "id": "9inqMp752KK9",
@@ -331,6 +373,78 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T15:06:35.000Z"
+    },
+    {
+      "id": "5hXR89UFwVld",
+      "representative": {
+        "id": "5hXR89UFwVld",
+        "url": "https://www.elfinanciero.com.mx/deportes/2026/10/06/mexico-vs-chile-en-vivo-resultado-de-amistoso-en-fecha-fifa-2026/",
+        "canonicalUrl": "https://www.elfinanciero.com.mx/deportes/2026/10/06/mexico-vs-chile-en-vivo-resultado-de-amistoso-en-fecha-fifa-2026/",
+        "title": "México vs. Chile HOY: ¿A qué hora y dónde ver EN VIVO último amistoso de la Selección en esta Fecha FIFA?",
+        "description": "México vs. Chile: consulta la hora del amistoso, sede, bajas de la Selección Mexicana, alineaciones probables e historial entre ambos equipos.",
+        "source": {
+          "id": "elfinanciero",
+          "name": "El Financiero"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:00:00.000Z",
+        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/vlsNhapJ9ilHNSbwpyvsvG8u7Rc=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/EJ5ZLXYAZJELFC2HT6SQYLQOGA.jpeg",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:00.000Z"
+    },
+    {
+      "id": "AJTOdfelMvDj",
+      "representative": {
+        "id": "AJTOdfelMvDj",
+        "url": "https://www.elfinanciero.com.mx/opinion/antonio-cuellar/2026/10/06/dinero-digital-mejor-instrumento-para-el-comercio/",
+        "canonicalUrl": "https://www.elfinanciero.com.mx/opinion/antonio-cuellar/2026/10/06/dinero-digital-mejor-instrumento-para-el-comercio/",
+        "title": "Dinero digital: ¿mejor instrumento para el comercio?",
+        "description": "El objetivo mismo de la Ley de Economía Digital para Pagos Digitales y Electrónicos recién propuesta consistiría en aprovechar la infraestructura digital existente y favorecer su uso para disminuir las operaciones en efectivo.",
+        "source": {
+          "id": "elfinanciero",
+          "name": "El Financiero"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:57:00.000Z",
+        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/zkqqqZm0B8fQzBKdxBcUTYlUHZs=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/YYJYNDMGVRHZHNDVHFWUTZURMM.jpg",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:57:00.000Z"
+    },
+    {
+      "id": "FbrG-MX2Xcnb",
+      "representative": {
+        "id": "FbrG-MX2Xcnb",
+        "url": "https://www.elfinanciero.com.mx/cartones/rictus/2026/10/06/amilcar/",
+        "canonicalUrl": "https://www.elfinanciero.com.mx/cartones/rictus/2026/10/06/amilcar/",
+        "title": "AMILCAR...",
+        "description": null,
+        "source": {
+          "id": "elfinanciero",
+          "name": "El Financiero"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:46:29.000Z",
+        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/IAQWkhopkHPmrX6-EFuEBmgwyiw=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/JYYBQW7CVVE2PK6C5I3JFOOU4U.jpg",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:46:29.000Z"
     },
     {
       "id": "84j7ASHW7Klb",
@@ -427,102 +541,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:00:00.000Z"
-    },
-    {
-      "id": "Krp0FDrfJMPP",
-      "representative": {
-        "id": "Krp0FDrfJMPP",
-        "url": "https://expansion.mx/opinion/2026/10/06/nuestra-proxima-tasa-de-interes-podria-decidirla-un-algoritmo",
-        "canonicalUrl": "https://expansion.mx/opinion/2026/10/06/nuestra-proxima-tasa-de-interes-podria-decidirla-un-algoritmo",
-        "title": "Nuestra próxima tasa de interés podría decidirla un algoritmo",
-        "description": "La inteligencia artificial permitirá a los bancos calcular mejor el riesgo de cada cliente, pero también abre una pregunta: ¿podremos saber por qué nos cobran una determinada tasa?",
-        "source": {
-          "id": "expansion",
-          "name": "Expansión"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:59:45.000Z",
-        "imageUrl": "https://cdn-3.expansion.mx/dims4/default/9e212fb/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcherry-brightspot.s3.amazonaws.com%2Fmedia%2F2011%2F08%2F12%2Fespeculador-inversion-bolsa-indice.jpg",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:59:45.000Z"
-    },
-    {
-      "id": "txZDdEjIPlKM",
-      "representative": {
-        "id": "txZDdEjIPlKM",
-        "url": "https://expansion.mx/opinion/2026/10/06/la-manufactura-frente-a-una-demanda-que-ya-no-espera",
-        "canonicalUrl": "https://expansion.mx/opinion/2026/10/06/la-manufactura-frente-a-una-demanda-que-ya-no-espera",
-        "title": "La manufactura frente a una demanda que ya no espera",
-        "description": "La capacidad de los proveedores será determinante para que las empresas mexicanas puedan aprovechar nuevas oportunidades en las cadenas globales de manufactura.",
-        "source": {
-          "id": "expansion",
-          "name": "Expansión"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:59:23.000Z",
-        "imageUrl": "https://cdn-3.expansion.mx/dims4/default/426b2f4/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F9c%2Fcb%2F8352993a45a5ad2f8aa2f5deeb60%2Fla-automatizacion-de-las-fabricas-empieza-con-datos-no-con-robots.jpg",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:59:23.000Z"
-    },
-    {
-      "id": "HMgjTJRF6wwK",
-      "representative": {
-        "id": "HMgjTJRF6wwK",
-        "url": "https://www.elfinanciero.com.mx/opinion/marco-banos/2026/10/06/gira-de-propaganda-electoral/",
-        "canonicalUrl": "https://www.elfinanciero.com.mx/opinion/marco-banos/2026/10/06/gira-de-propaganda-electoral/",
-        "title": "Gira de propaganda electoral",
-        "description": "Los eventos realizados en las 32 entidades federativas, según datos del oficialismo, implicaron la movilización de alrededor de 850 mil personas; varios fueron el escenario para fustigar a los opositores.",
-        "source": {
-          "id": "elfinanciero",
-          "name": "El Financiero"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:57:41.000Z",
-        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/SKTW6rSMLCL7XEYK7fEwh2BfQCU=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/CRDTT2NETRFOFK75BXTNNBJ6JY.jpg",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:57:41.000Z"
-    },
-    {
-      "id": "JrGqUPrSPV5r",
-      "representative": {
-        "id": "JrGqUPrSPV5r",
-        "url": "https://expansion.mx/economia/2026/10/06/pagos-digitales-efectivo-pymes-credito-mexico",
-        "canonicalUrl": "https://expansion.mx/economia/2026/10/06/pagos-digitales-efectivo-pymes-credito-mexico",
-        "title": "El efectivo vuelve invisible a las pymes y les cierra la puerta al crédito",
-        "description": "Digitalizar pagos, cobros y tesorería genera una huella financiera que ayuda a las instituciones a medir el riesgo de una pyme y facilitar su acceso al crédito.",
-        "source": {
-          "id": "expansion",
-          "name": "Expansión"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:55:17.000Z",
-        "imageUrl": "https://cdn-3.expansion.mx/dims4/default/6f6d960/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fb4%2Fda%2F0acfa488436c81169ffcfe4f3317%2Fpagos-digitales-pymes-credito-mexico.jpg.jpeg",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:55:17.000Z"
     }
   ]
 }

@@ -2,101 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "ES",
   "countryName": "Spain",
-  "updatedAt": "2026-10-06T12:44:26.411Z",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
   "clusters": [
-    {
-      "id": "2MGmVyB7Oqxv",
-      "representative": {
-        "id": "2MGmVyB7Oqxv",
-        "url": "https://elpais.com/espana/2026-10-06/el-supremo-levanta-la-orden-de-detencion-a-puigdemont.html",
-        "canonicalUrl": "https://elpais.com/espana/2026-10-06/el-supremo-levanta-la-orden-de-detencion-a-puigdemont.html",
-        "title": "El Supremo levanta la orden de detención a Puigdemont, pero no le aplica todavía la amnistía",
-        "description": "Llarena deja sin efecto el mandamiento de arresto que pesaba sobre el expresidente, Puig y Comín, pero no decidirá sobre la medida de gracia hasta que analice la sentencia del Constitucional",
-        "source": {
-          "id": "elpais",
-          "name": "El País"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T10:41:20.000Z",
-        "imageUrl": "https://imagenes.elpais.com/resizer/v2/BM7P4X4DIFIZTNM6D6JNANF6XY.jpg?auth=0afff364c5fc257939aeefbd0852ad17914c51958def8ff81d804155f8c1f6ec",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "zQzxwZQLCQLG",
-          "url": "https://www.abc.es/espana/llarena-levanta-orden-detencion-puigdemont-tras-conocer-20261006125040-nt.html",
-          "canonicalUrl": "https://www.abc.es/espana/llarena-levanta-orden-detencion-puigdemont-tras-conocer-20261006125040-nt.html",
-          "title": "Llarena levanta la orden de detención de Puigdemont tras conocer el fallo del TC",
-          "description": "El magistrado de la Sala Penal del Supremo Pablo Llarena ha dejado sin efecto las órdenes nacionales de busca y captura y detención del expresidente de la Generalitat catalana Carles Puigdemont y de los exconsellers Antoni Comin y Lluis Puig, también huidos de la Justicia desde octubre de 2017.El…",
-          "source": {
-            "id": "abc_es",
-            "name": "ABC"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:50:46.000Z",
-          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518260037.jpg",
-          "countryCode": "ES",
-          "regionCode": null
-        },
-        {
-          "id": "AYvSwZ9a2Ymz",
-          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4c58c21efa0dc1f8b45ba.html",
-          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4c58c21efa0dc1f8b45ba.html",
-          "title": "El Constitucional ampara a los líderes del 'procés' y Llarena levanta la orden de detención contra Puigdemont que podrá regresar ya a España",
-          "description": "El Pleno ampara a la ex consellera Dolors Bassa dividido entre conservadores y progresistas. La decisión del TC obliga a Llarena a levantar la orden de detención contra el ex presidente de la Generalitat. Leer",
-          "source": {
-            "id": "elmundo",
-            "name": "El Mundo"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:25:01.000Z",
-          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912808849496.jpg",
-          "countryCode": "ES",
-          "regionCode": null
-        },
-        {
-          "id": "1pgfSrYb3fwi",
-          "url": "https://www.20minutos.es/nacional/juez-llarena-levanta-orden-detencion-puigdemont-tras-conocer-fallo-constitucional_7045435_0.html",
-          "canonicalUrl": "https://www.20minutos.es/nacional/juez-llarena-levanta-orden-detencion-puigdemont-tras-conocer-fallo-constitucional_7045435_0.html",
-          "title": "El juez Llarena levanta la orden de detención de Puigdemont tras conocer el fallo del Constitucional",
-          "description": "El 'expresident' decide no regresar a España hasta que se le haya aplicado la amnistía y se archive el procedimiento, pese al alzamiento de la orden de detención.",
-          "source": {
-            "id": "20minutos_es",
-            "name": "20minutos"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T10:55:22.000Z",
-          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac4d79f6ccd41-31581758.webp",
-          "countryCode": "ES",
-          "regionCode": null
-        },
-        {
-          "id": "yjbLoZYex9XZ",
-          "url": "https://www.lavanguardia.com/politica/20261006/11652315/tc-ordena-aplicar-amnistia-llarena-levanta-orden-detencion-puigdemont-que.html",
-          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652315/tc-ordena-aplicar-amnistia-llarena-levanta-orden-detencion-puigdemont-que.html",
-          "title": "El TC ordena aplicar la amnistía, Llarena levanta la orden de detención de Puigdemont: ¿Y ahora qué?",
-          "description": "La doctrina del Tribunal Constitucional debería llevar a una aplicación de la ley en cascada a todos los condenados, procesados o encausados por el 'procés'",
-          "source": {
-            "id": "lavanguardia",
-            "name": "La Vanguardia"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T10:51:11.000Z",
-          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/09/23/6ab4007380eb7.r_d.2243-1262-0.jpeg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 5,
-      "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T11:50:46.000Z"
-    },
     {
       "id": "K5bUWXuCD0R_",
       "representative": {
@@ -104,14 +11,14 @@
         "url": "https://elpais.com/espana/2026-10-06/el-pp-pide-la-imputacion-del-psoe-a-la-audiencia-nacional-en-el-primer-dia-de-precampana.html",
         "canonicalUrl": "https://elpais.com/espana/2026-10-06/el-pp-pide-la-imputacion-del-psoe-a-la-audiencia-nacional-en-el-primer-dia-de-precampana.html",
         "title": "El PP pide la imputación del PSOE a la Audiencia Nacional en el primer día de precampaña",
-        "description": "Los populares solicitan al juez Pedraz, que preguntará antes a la Fiscalía, que actúe contra el partido del Gobierno por cinco delitos",
+        "description": "Los populares solicitan al juez Pedraz, que pregunta antes a la Fiscalía, que actúe contra el partido del Gobierno por cinco delitos",
         "source": {
           "id": "elpais",
           "name": "El País"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T12:03:09.000Z",
+        "publishedAt": "2026-10-06T12:50:35.000Z",
         "imageUrl": "https://imagenes.elpais.com/resizer/v2/SX5UMRVPZROWDHF6KYRZD6PEXY.jpg?auth=0b5cde5c6ee2e2d4d93c132c365fec3c68b9d2f8978c442e37ac9036f25e0239",
         "countryCode": "ES",
         "regionCode": null
@@ -171,24 +78,24 @@
       ],
       "outletCount24h": 4,
       "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:03:09.000Z"
+      "latestPublishedAt": "2026-10-06T12:50:35.000Z"
     },
     {
-      "id": "Qc9o8waicRgf",
+      "id": "P0ZCQC3LRSU9",
       "representative": {
-        "id": "Qc9o8waicRgf",
-        "url": "https://www.elmundo.es/espana/2026/10/05/6ac3804021efa0152d8b4580.html",
-        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3804021efa0152d8b4580.html",
-        "title": "¿Cómo funciona la Diputación Permanente y por qué la podría utilizar Sánchez para aprobar los decretos de vivienda antes de las elecciones?",
-        "description": "Este órgano es encargado de velar por los poderes de la Cámara de los Diputados cuando el Parlamento se ha disuelto Leer",
+        "id": "P0ZCQC3LRSU9",
+        "url": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
+        "title": "Así ha sido el discurso íntegro de Pedro Sánchez con el que ha convocado elecciones",
+        "description": "El discurso del presidente se ha centrado en la complejidad para negociar durante esta legislatura, la dureza de la oposición y los logros conseguidos Leer",
         "source": {
           "id": "elmundo",
           "name": "El Mundo"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-05T10:49:06.000Z",
-        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911971549084.jpg",
+        "publishedAt": "2026-10-05T08:26:00.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911887360643.jpg",
         "countryCode": "ES",
         "regionCode": null
       },
@@ -245,9 +152,85 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 4,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T12:01:09.000Z"
+    },
+    {
+      "id": "2MGmVyB7Oqxv",
+      "representative": {
+        "id": "2MGmVyB7Oqxv",
+        "url": "https://elpais.com/espana/2026-10-06/el-supremo-levanta-la-orden-de-detencion-a-puigdemont.html",
+        "canonicalUrl": "https://elpais.com/espana/2026-10-06/el-supremo-levanta-la-orden-de-detencion-a-puigdemont.html",
+        "title": "El Supremo levanta la orden de detención a Puigdemont, pero no le aplica todavía la amnistía",
+        "description": "Llarena deja sin efecto el mandamiento de arresto que pesaba sobre el expresidente, Puig y Comín, pero no decidirá sobre la medida de gracia hasta que analice la sentencia del Constitucional",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:41:20.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/BM7P4X4DIFIZTNM6D6JNANF6XY.jpg?auth=0afff364c5fc257939aeefbd0852ad17914c51958def8ff81d804155f8c1f6ec",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "AYvSwZ9a2Ymz",
+          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4c58c21efa0dc1f8b45ba.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4c58c21efa0dc1f8b45ba.html",
+          "title": "El Constitucional ampara a los líderes del 'procés' y Llarena levanta la orden de detención contra Puigdemont que podrá regresar ya a España",
+          "description": "El Pleno ampara a la ex consellera Dolors Bassa dividido entre conservadores y progresistas. La decisión del TC obliga a Llarena a levantar la orden de detención contra el ex presidente de la Generalitat. Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:25:01.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912808849496.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "1pgfSrYb3fwi",
+          "url": "https://www.20minutos.es/nacional/juez-llarena-levanta-orden-detencion-puigdemont-tras-conocer-fallo-constitucional_7045435_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/juez-llarena-levanta-orden-detencion-puigdemont-tras-conocer-fallo-constitucional_7045435_0.html",
+          "title": "El juez Llarena levanta la orden de detención de Puigdemont tras conocer el fallo del Constitucional",
+          "description": "El 'expresident' decide no regresar a España hasta que se le haya aplicado la amnistía y se archive el procedimiento, pese al alzamiento de la orden de detención.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:55:22.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac4d79f6ccd41-31581758.webp",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "yjbLoZYex9XZ",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652315/tc-ordena-aplicar-amnistia-llarena-levanta-orden-detencion-puigdemont-que.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652315/tc-ordena-aplicar-amnistia-llarena-levanta-orden-detencion-puigdemont-que.html",
+          "title": "El TC ordena aplicar la amnistía, Llarena levanta la orden de detención de Puigdemont: ¿Y ahora qué?",
+          "description": "La doctrina del Tribunal Constitucional debería llevar a una aplicación de la ley en cascada a todos los condenados, procesados o encausados por el 'procés'",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:51:11.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/09/23/6ab4007380eb7.r_d.2243-1262-0.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T11:25:01.000Z"
     },
     {
       "id": "dLtoBtn9yDMa",
@@ -391,65 +374,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T10:32:43.000Z"
-    },
-    {
-      "id": "1bHjpeJA-6c8",
-      "representative": {
-        "id": "1bHjpeJA-6c8",
-        "url": "https://www.elmundo.es/espana/2026/10/05/6ac3493de4d4d82d6e8b4580.html",
-        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3493de4d4d82d6e8b4580.html",
-        "title": "Sánchez adelanta las elecciones al 29 de noviembre",
-        "description": "El Consejo de Ministros de este martes volverá a aprobar los decretos de vivienda que tumbó el Congreso con alguna modificación. Los deberá validar la Diputación Permanente, donde no necesitan a Junts para aprobarlos Leer",
-        "source": {
-          "id": "elmundo",
-          "name": "El Mundo"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-05T13:51:56.000Z",
-        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911838354075.png",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "BdVdI2Tn1kxJ",
-          "url": "https://www.20minutos.es/nacional/motivos-puedes-faltar-mesa-electoral-elecciones-generales-noviembre_7045393_0.html",
-          "canonicalUrl": "https://www.20minutos.es/nacional/motivos-puedes-faltar-mesa-electoral-elecciones-generales-noviembre_7045393_0.html",
-          "title": "Los motivos por los que puedes faltar a la mesa electoral en las elecciones generales del 29 de noviembre",
-          "description": "La elección de los presidentes, vocales y suplentes se realiza mediante sorteo entre los electores que sepan leer y escribir, y sean menores de 70 años.",
-          "source": {
-            "id": "20minutos_es",
-            "name": "20minutos"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T10:16:24.000Z",
-          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2025/12/21/6947c3a80bd750-66153532.jpeg",
-          "countryCode": "ES",
-          "regionCode": null
-        },
-        {
-          "id": "7zYwfFeS76WY",
-          "url": "https://www.lavanguardia.com/politica/20261005/11651065/pedro-sanchez-adelanta-elecciones-generales-29-noviembre.html",
-          "canonicalUrl": "https://www.lavanguardia.com/politica/20261005/11651065/pedro-sanchez-adelanta-elecciones-generales-29-noviembre.html",
-          "title": "Pedro Sánchez adelanta las elecciones generales al 29 de noviembre",
-          "description": "El presidente pone fin a la legislatura tras la derrota de los decretos de vivienda y las multitudinarias movilizaciones del sábado",
-          "source": {
-            "id": "lavanguardia",
-            "name": "La Vanguardia"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-05T07:09:37.000Z",
-          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/05/6ac34fb2622a6.jpeg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T10:16:24.000Z"
     },
     {
       "id": "3M4pigwXBPaP",
@@ -637,6 +561,102 @@
       "latestPublishedAt": "2026-10-06T03:00:00.000Z"
     },
     {
+      "id": "yEBl3dCGFaJg",
+      "representative": {
+        "id": "yEBl3dCGFaJg",
+        "url": "https://www.abc.es/espana/galicia/investigado-hombre-anos-incendio-intencionado-neves-obligo-20261006144717-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/galicia/investigado-hombre-anos-incendio-intencionado-neves-obligo-20261006144717-nt.html",
+        "title": "Investigado un hombre de 65 años por un incendio intencionado en As Neves que obligó a desalojar aldeas y cortar la A-52",
+        "description": "Un vecino de Ponteareas (Pontevedra) de 65 años es el supuesto responsable de un incendio que en el verano de 2025 obligó a desalojar a una docena de personas en el municipio de As Neves y a confinar varias aldeas próximas al fuego. Así, al menos, lo ha determinado la Guardia Civil en una…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:47:18.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/20261005%20INVESSTIGADO%20INCENDIO%20SEPRONA-RPdFap9AdRnrl6VP4sIXALP-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:47:18.000Z"
+    },
+    {
+      "id": "WCjYkraoQ7qZ",
+      "representative": {
+        "id": "WCjYkraoQ7qZ",
+        "url": "https://www.abc.es/espana/castilla-la-mancha/agricultores-ganaderos-acceso-120-millones-modernizar-explotaciones-20261006144551-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/agricultores-ganaderos-acceso-120-millones-modernizar-explotaciones-20261006144551-nt.html",
+        "title": "Agricultores y ganaderos tendrán acceso a más de 120 millones para modernizar sus explotaciones",
+        "description": "El campo de Castilla-La Mancha contará con una nueva vía para afrontar inversiones y modernizar sus explotaciones. La Junta ha puesto en marcha, junto a siete entidades financieras, un instrumento que permitirá movilizar más de 120 millones de euros en financiación para agricultores, ganaderos e…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:45:51.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/55572894829_b0d8cd64b2_k-RjzdMnQICHSahnbccX36nlO-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:45:51.000Z"
+    },
+    {
+      "id": "CWbCTEDpWy_x",
+      "representative": {
+        "id": "CWbCTEDpWy_x",
+        "url": "https://www.abc.es/espana/castilla-la-mancha/campo-exige-libertad-politicas-conservacionistas-mayor-dano-20261006143236-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/campo-exige-libertad-politicas-conservacionistas-mayor-dano-20261006143236-nt.html",
+        "title": "El campo exige «libertad» y no políticas conservacionistas: «Son el mayor daño que se puede hacer»",
+        "description": "Unos 2.000 agricultores y ganaderos y unos 90 tractores han tomado este martes los alrededores de la Consejería de Desarrollo Sostenible, en Toledo, convocados por Asaja Castilla-La Mancha para exigir «libertad» y rechazar «las políticas conservacionistas que nos han llevado hasta aquí, que son el…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:44:52.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/Portada%20Asaja-RtYZ85WZVko4QJh3ap7nZQM-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:44:52.000Z"
+    },
+    {
+      "id": "jCsUBOcXb9vf",
+      "representative": {
+        "id": "jCsUBOcXb9vf",
+        "url": "https://www.abc.es/espana/castilla-la-mancha/toledo/pueblos/escalona-revive-pasado-medieval-octubre-100-actividades-20261006140413-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/toledo/pueblos/escalona-revive-pasado-medieval-octubre-100-actividades-20261006140413-nt.html",
+        "title": "Escalona revive su pasado medieval del 16 al 18 de octubre con más de 100 actividades",
+        "description": "Escalona se transformará en una villa medieval del 16 al 18 de octubre con la celebración de sus V Jornadas Medievales, una cita que este año supera las 100 actividades e incorpora un nuevo escenario patrimonial: el convento de Santa Beatriz de Silva. La programación combinará espectáculos…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:40:10.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/escalona-RyOEsA20WAdRzXfL5Wl0BeN-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:40:10.000Z"
+    },
+    {
       "id": "O5uMBmp0IYPd",
       "representative": {
         "id": "O5uMBmp0IYPd",
@@ -659,78 +679,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:39:10.000Z"
-    },
-    {
-      "id": "rJ7HAVCkOGST",
-      "representative": {
-        "id": "rJ7HAVCkOGST",
-        "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-partido-de-monica-garcia-exige-liderar-la-lista-por-madrid-a-las-generales-ante-las-opciones-de-colau.html",
-        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-partido-de-monica-garcia-exige-liderar-la-lista-por-madrid-a-las-generales-ante-las-opciones-de-colau.html",
-        "title": "El partido de Mónica García exige liderar la lista por Madrid a las generales ante las opciones de Colau",
-        "description": "“Hay que estudiar todas las formas posibles para que el Frente Amplio no deje a nadie fuera”, defiende Pisarello sobre las primarias que propone Podemos",
-        "source": {
-          "id": "elpais",
-          "name": "El País"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:31:52.000Z",
-        "imageUrl": "https://imagenes.elpais.com/resizer/v2/36MIU2G2AVGNZP4NSZE5OQEOIQ.jpg?auth=c26845421cba07489040b3b299d60304fcf218dfdddf24a9d80b8fdc36405fb7",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:31:52.000Z"
-    },
-    {
-      "id": "WGNTeP_yLEbL",
-      "representative": {
-        "id": "WGNTeP_yLEbL",
-        "url": "https://www.lavanguardia.com/politica/20261006/11652447/vox-acata-amnistia-puigdemont-aboga-pasar-pagina-odio-separatismo.html",
-        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652447/vox-acata-amnistia-puigdemont-aboga-pasar-pagina-odio-separatismo.html",
-        "title": "Vox “acata” la amnistía a Puigdemont y aboga por “pasar página del odio del separatismo”",
-        "description": "Joan Garriga denuncia la “politización” de algunos tribunales y que la ley “es un privilegio de políticos para políticos” y “una falta de respeto” para el resto de ciudadanos",
-        "source": {
-          "id": "lavanguardia",
-          "name": "La Vanguardia"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:31:22.000Z",
-        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/09/18/6aad8d1a8871f.jpeg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:31:22.000Z"
-    },
-    {
-      "id": "NveyNhBE1gZc",
-      "representative": {
-        "id": "NveyNhBE1gZc",
-        "url": "https://www.abc.es/espana/galicia/galicia-defiende-estrategia-pionera-violencia-digital-ante-20261006142641-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/galicia/galicia-defiende-estrategia-pionera-violencia-digital-ante-20261006142641-nt.html",
-        "title": "Galicia defiende su estrategia «pionera» contra la violencia digital ante los 'peros' de la oposición",
-        "description": "Proteger a los ciudadanos ante una de las principales amenazas a las que se enfrentan, los riesgos del entorno digital y el acoso online, es una de las preocupaciones actuales a las que el Gobierno gallego trata de dar solución. Para hacerlo, con un horizonte a medio y largo plazo, la Xunta inició…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:28:11.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/fabilla-RAqCXEMfnuny7uP3TP1SfAK-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:28:11.000Z"
     }
   ]
 }

@@ -348,6 +348,88 @@ English-language press only. Hindi outlets would need Hindi stopwords.
 | ~~Milenio~~, ~~Animal Político~~ | — | — | ❌ **dropped**: 404 |
 | ~~Proceso~~, ~~SinEmbargo~~ | — | — | ❌ **dropped**: 403 for bots |
 
+**Japan** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Asahi Shimbun | headlines | 10 | ✅ (RSS 1.0) |
+| Mainichi Shimbun | flash | 9 | ✅ |
+| Kyodo News | main feed | 9 | ✅ (10 items) |
+| Sankei Shimbun | main feed | 8 | ✅ |
+| Jiji Press | ranking | 8 | ✅ (10 most-read items; no general feed) |
+| TBS News Dig | main feed | 8 | ✅ |
+| HuffPost Japan | main feed | 6 | ✅ |
+| ~~NHK~~ | — | — | ❌ **dropped**: feeds abandoned (newest items ~2 months old) |
+| ~~Nippon TV News~~ | — | — | ❌ **dropped**: RDF feed has unescaped entities and fails to parse |
+| ~~Yomiuri~~, ~~Nikkei~~, ~~Tokyo Shimbun~~, ~~FNN~~ | — | — | ❌ **dropped**: no public feed (404) |
+
+Japanese is written without spaces, so titles are not split on whitespace. Kanji runs become overlapping character bigrams (石破首相 → 石破, 破首, 首相), katakana runs are kept whole (loanwords and foreign names), and hiragana (particles and verb endings) is dropped (`japaneseTokens` in [text.ts](packages/ingest/src/normalize/text.ts)). Titles are NFKC-normalized so full-width Ｇ７ and １１ match G7 and 11, and dakuten are kept, so バス and パス stay distinct.
+
+**Ireland** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| RTÉ News | news | 10 | ✅ (public broadcaster) |
+| The Irish Times | Irish news | 10 | ✅ |
+| Irish Independent | Irish news | 8 | ✅ |
+| TheJournal.ie | main feed | 8 | ✅ |
+| Irish Examiner | top news | 8 | ✅ (~9 items) |
+| Irish Mirror | Irish news | 6 | ✅ |
+| ~~BreakingNews.ie~~ | — | — | ❌ **dropped**: 404 |
+
+**South Africa** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| SABC News | South Africa | 10 | ✅ (public broadcaster; 10 items) |
+| Daily Maverick | main feed | 9 | ✅ |
+| TimesLIVE | main feed | 9 | ✅ |
+| IOL | South Africa | 8 | ✅ |
+| eNCA | main feed | 8 | ✅ (10 items) |
+| ~~Sowetan~~, ~~BusinessDay~~ | — | — | ⏭️ **skipped**: reprint TimesLIVE copy (all Arena), which faked multi-outlet clusters |
+| ~~News24~~, ~~The Citizen~~ | — | — | ❌ **dropped**: 403 for bots |
+| ~~EWN~~, ~~Mail & Guardian~~ | — | — | ❌ **dropped**: 404 |
+
+News24 and The Citizen failed on two rounds of URLs; the second round found TimesLIVE and eNCA.
+
+**New Zealand** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| RNZ | national | 10 | ✅ (public broadcaster) |
+| NZ Herald | NZ | 9 | ✅ (10 items) |
+| 1News | main feed | 9 | ✅ |
+| Stuff | main feed | 8 | ✅ |
+| Newsroom | main feed | 7 | ✅ (10 items) |
+| ~~The Spinoff~~, ~~ODT~~ | — | — | ❌ **dropped**: 404 |
+
+**Argentina** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Clarín | política | 10 | ✅ (10 items) |
+| La Nación | main feed | 10 | ✅ |
+| Infobae | política | 9 | ✅ |
+| TN | main feed | 8 | ✅ |
+| Perfil | política | 7 | ✅ |
+| Ámbito | política | 7 | ✅ |
+| ~~Télam~~ | — | — | ❌ **dropped**: agency shut down (domain gone) |
+| ~~Página/12~~ | — | — | ❌ **dropped**: 404 |
+
+Spanish and Portuguese stopwords include weekdays, months and *hoy*/*hoje*. Service headlines ("dólar blue hoy", "a qué hora juega… este martes 6 de octubre") otherwise merged unrelated stories.
+
+**Portugal** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| RTP Notícias | país | 10 | ✅ (public broadcaster) |
+| Público | main feed | 10 | ✅ (10 items) |
+| Observador | main feed | 9 | ✅ |
+| ECO | main feed | 7 | ✅ |
+| Correio da Manhã | main feed | 6 | ✅ |
+| ~~Expresso~~, ~~JN~~, ~~SIC Notícias~~ | — | — | ❌ **dropped**: 403 for bots |
+| ~~Diário de Notícias~~ | — | — | ❌ **dropped**: 404 |
+
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
 
 When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`. Also check that the newest item is recent: Corriere and The Telegraph return well-formed but stale feeds.

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AU",
   "countryName": "Australia",
-  "updatedAt": "2026-10-06T12:44:26.411Z",
+  "updatedAt": "2026-10-06T13:05:38.879Z",
   "clusters": [
     {
       "id": "tn0Qg8FYoGsE",
@@ -87,6 +87,54 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T08:10:42.000Z"
+    },
+    {
+      "id": "pZtvmLVPvRbx",
+      "representative": {
+        "id": "pZtvmLVPvRbx",
+        "url": "https://www.smh.com.au/national/superquiz-wednesday-october-7-20261006-p6135u.html?ref=rss&utm_medium=rss&utm_source=rss_national",
+        "canonicalUrl": "https://www.smh.com.au/national/superquiz-wednesday-october-7-20261006-p6135u.html",
+        "title": "Superquiz, Wednesday, October 7",
+        "description": "Trivia buffs, test your knowledge with today’s interactive superquiz.",
+        "source": {
+          "id": "smh",
+          "name": "Sydney Morning Herald"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:59:00.000Z",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.9805555555555555%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_231/t_crop_custom/q_86%2Ce_sharpen:60%2Cf_auto/24d8c9ba98147348592ea2ed292e48328b593d46",
+        "countryCode": "AU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:59:00.000Z"
+    },
+    {
+      "id": "KNWAprGb6ZuQ",
+      "representative": {
+        "id": "KNWAprGb6ZuQ",
+        "url": "https://www.abc.net.au/news/2026-10-06/asos-app-users-sent-hacked-message/107236520",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-06/asos-app-users-sent-hacked-message/107236520",
+        "title": "Asos app users sent 'hacked' message from online retailer",
+        "description": "\"Engage with us, or we will leak it,\" Asos shoppers warned in an alarming message sent from online retailer's app.",
+        "source": {
+          "id": "abc_au",
+          "name": "ABC News"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:49:30.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:49:30.000Z"
     },
     {
       "id": "HV3wZL-CPmSO",
@@ -351,54 +399,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:05:54.000Z"
-    },
-    {
-      "id": "E4X2qEZXwEuv",
-      "representative": {
-        "id": "E4X2qEZXwEuv",
-        "url": "https://www.abc.net.au/news/2026-10-06/jannik-sinner-to-miss-rest-of-tennis-season-with-knee-injury/107236342",
-        "canonicalUrl": "https://www.abc.net.au/news/2026-10-06/jannik-sinner-to-miss-rest-of-tennis-season-with-knee-injury/107236342",
-        "title": "Jannik Sinner to miss rest of tennis season with knee injury",
-        "description": "World number one Jannik Sinner will prioritise his recovery from a knee injury, opting to sit out the rest of the 2026 tennis season.",
-        "source": {
-          "id": "abc_au",
-          "name": "ABC News"
-        },
-        "sourceCountry": "AU",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:00:23.000Z",
-        "imageUrl": null,
-        "countryCode": "AU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:00:23.000Z"
-    },
-    {
-      "id": "7NCDmdbNW-ot",
-      "representative": {
-        "id": "7NCDmdbNW-ot",
-        "url": "https://www.afr.com/world/europe/how-car-maker-renault-went-from-driveshafts-to-drones-20261006-p613b1?ref=rss&utm_medium=rss&utm_source=rss_feed",
-        "canonicalUrl": "https://www.afr.com/world/europe/how-car-maker-renault-went-from-driveshafts-to-drones-20261006-p613b1",
-        "title": "How car maker Renault went from driveshafts to drones",
-        "description": "The company is seeking to bring mass production to drones, using techniques honed in an industry that turns out tens of millions of vehicles a year.",
-        "source": {
-          "id": "afr",
-          "name": "Australian Financial Review"
-        },
-        "sourceCountry": "AU",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:00:00.000Z",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.5295%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/66ede03cc86391f5e52eaed84d764545d2e35833",
-        "countryCode": "AU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:00:00.000Z"
     }
   ]
 }

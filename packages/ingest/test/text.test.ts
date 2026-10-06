@@ -57,7 +57,6 @@ describe('titleTokens: per-language stopwords', () => {
       'adelanta',
       'eleccion',
       '29',
-      'noviembr',
     ]);
     expect(titleTokens('Última hora: elecciones generales, en directo', 'es')).toEqual(
       titleTokens('elecciones generales', 'es'),
@@ -101,6 +100,35 @@ describe('titleTokens: per-language stopwords', () => {
 
   it('folds German -en inflections', () => {
     expect(titleTokens('Grünen Parteien Wahlen', 'de')).toEqual(titleTokens('Grüne Partei Wahl', 'de'));
+  });
+});
+
+describe('titleTokens: calendar words', () => {
+  it('ignores weekdays, months and "today" in Spanish and Portuguese', () => {
+    expect(titleTokens('Dólar blue hoy: a cuánto cotiza este martes 6 de octubre', 'es')).toEqual(
+      new Set(['dolar', 'blue', 'cotiza', '6']),
+    );
+    expect(titleTokens('Greve marcada para hoje, terça-feira', 'pt')).toEqual(new Set(['grev', 'marcada']));
+  });
+});
+
+describe('titleTokens: Japanese', () => {
+  it('cuts kanji runs into bigrams, keeps katakana words and drops hiragana', () => {
+    expect([...titleTokens('石破首相がワシントンを訪問', 'ja')].sort()).toEqual(
+      ['ワシントン', '破首', '石破', '訪問', '首相'].sort(),
+    );
+  });
+
+  it('folds full-width digits and Latin, and keeps dakuten distinct', () => {
+    const tokens = titleTokens('Ｇ７サミットで１１人', 'ja');
+    expect(tokens.has('g7')).toBe(true);
+    expect(tokens.has('11')).toBe(true);
+    expect(titleTokens('バス事故', 'ja').has('バス')).toBe(true);
+    expect(titleTokens('バス事故', 'ja').has('ハス')).toBe(false);
+  });
+
+  it('ignores news-site labels', () => {
+    expect(titleTokens('【速報】首相が会見', 'ja')).toEqual(new Set(['首相']));
   });
 });
 
