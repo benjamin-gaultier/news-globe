@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TN",
   "countryName": "Tunisia",
-  "updatedAt": "2026-10-06T15:57:23.644Z",
+  "updatedAt": "2026-10-06T16:19:35.154Z",
   "clusters": [
     {
       "id": "spmnZ8FX495b",
@@ -274,65 +274,6 @@
       "latestPublishedAt": "2026-10-06T07:18:59.000Z"
     },
     {
-      "id": "F9psZb0Fl9xa",
-      "representative": {
-        "id": "F9psZb0Fl9xa",
-        "url": "https://www.webdo.tn/fr/actualite/national/octobre-rose-ooredoo-tunisie-transforme-chaque-pas-en-un-geste-solidaire-avec-go-run/405031/",
-        "canonicalUrl": "https://www.webdo.tn/fr/actualite/national/octobre-rose-ooredoo-tunisie-transforme-chaque-pas-en-un-geste-solidaire-avec-go-run/405031/",
-        "title": "Octobre Rose : Ooredoo Tunisie transforme chaque pas en un geste solidaire avec Go Run",
-        "description": "À l’occasion d’Octobre Rose, Ooredoo Tunisie se mobilise une nouvelle fois dans la lutte contre le cancer du sein en lançant, en partenariat avec Go Run, un challenge solidaire ouvert à tous. Tout au long du mois d’octobre, les participants sont invités à marcher, courir et cumuler des points via…",
-        "source": {
-          "id": "webdo",
-          "name": "Webdo"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-05T13:57:12.000Z",
-        "imageUrl": null,
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "S5aX1Flh_CGL",
-          "url": "https://realites.com.tn/fr/octobre-rose-ooredoo-tunisie-transforme-chaque-pas-en-un-geste-solidaire-avec-go-run/",
-          "canonicalUrl": "https://realites.com.tn/fr/octobre-rose-ooredoo-tunisie-transforme-chaque-pas-en-un-geste-solidaire-avec-go-run/",
-          "title": "Octobre Rose : Ooredoo Tunisie transforme chaque pas en un geste solidaire avec Go Run",
-          "description": "À l’occasion d’Octobre Rose, Ooredoo Tunisie se mobilise une nouvelle fois dans la lutte contre le cancer du sein en lançant, en partenariat avec Go Run, un challenge solidaire ouvert… The post Octobre Rose : Ooredoo Tunisie transforme chaque pas en un geste solidaire avec Go Run appeared first on…",
-          "source": {
-            "id": "realites",
-            "name": "Réalités"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-05T20:59:09.000Z",
-          "imageUrl": null,
-          "countryCode": "TN",
-          "regionCode": null
-        },
-        {
-          "id": "3T8gcJRDOKFS",
-          "url": "http://www.leaders.com.tn/article/38505-octobre-rose-ooredoo-tunisie-transforme-chaque-pas-en-un-geste-solidaire-avec-go-run",
-          "canonicalUrl": "http://www.leaders.com.tn/article/38505-octobre-rose-ooredoo-tunisie-transforme-chaque-pas-en-un-geste-solidaire-avec-go-run",
-          "title": "Octobre Rose: Ooredoo Tunisie transforme chaque pas en un geste solidaire avec Go Run",
-          "description": "À l’occasion d’Octobre Rose, Ooredoo Tunisie se mobilise une nouvelle fois dans la lutte contre le cancer du sein en lançant, en partenariat avec Go Run, un challenge solidaire ouvert à tous. Tout au long du mois d’octobre, les participants sont invités à marcher, courir et cumuler des points via…",
-          "source": {
-            "id": "leaders_tn",
-            "name": "Leaders"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-05T16:09:00.000Z",
-          "imageUrl": "http://www.leaders.com.tn/uploads/content/thumbnails_small/1791212993_article.jpg",
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-05T20:59:09.000Z"
-    },
-    {
       "id": "01mQARE46RuC",
       "representative": {
         "id": "01mQARE46RuC",
@@ -559,6 +500,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:22:48.000Z"
+    },
+    {
+      "id": "FYz7J5i6y7UH",
+      "representative": {
+        "id": "FYz7J5i6y7UH",
+        "url": "https://www.lapresse.tn/2026/10/06/golfe-le-detroit-dormuz-ferme-les-pays-producteurs-de-petrole-paient-le-prix-fort/",
+        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/golfe-le-detroit-dormuz-ferme-les-pays-producteurs-de-petrole-paient-le-prix-fort/",
+        "title": "Golfe : le détroit d’Ormuz fermé, les pays producteurs de pétrole paient le prix fort",
+        "description": "Pour une fois, le pétrole cher n’enrichit pas ceux qui l’exportent. Dans son bulletin « Combler les fossés, saisir les opportunités : l’intelligence artificielle, les emplois et la croissance », la Banque mondiale observe que le conflit du Golfe Persique fait des exportateurs d’hydrocarbures les…",
+        "source": {
+          "id": "lapresse_tn",
+          "name": "La Presse de Tunisie"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:16:15.000Z",
+        "imageUrl": null,
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:16:15.000Z"
     }
   ]
 }

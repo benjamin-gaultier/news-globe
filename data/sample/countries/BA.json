@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BA",
   "countryName": "Bosnia and Herzegovina",
-  "updatedAt": "2026-10-06T15:57:23.644Z",
+  "updatedAt": "2026-10-06T16:19:35.154Z",
   "clusters": [
     {
       "id": "D8ZDH3Yhi5SM",
@@ -95,7 +95,7 @@
           },
           "sourceCountry": "BA",
           "language": "bs",
-          "publishedAt": "2026-10-06T15:57:23.644Z",
+          "publishedAt": "2026-10-06T16:00:00.000Z",
           "imageUrl": "https://gale-s3-bucket.s3.eu-central-1.amazonaws.com/abfca989-072d-4156-a169-d09acd50c372.jpeg",
           "countryCode": "BA",
           "regionCode": null
@@ -103,7 +103,7 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:57:23.644Z"
+      "latestPublishedAt": "2026-10-06T16:00:00.000Z"
     },
     {
       "id": "CS5oZx4u8kYQ",
@@ -358,30 +358,6 @@
       "latestPublishedAt": "2026-10-06T11:47:15.000Z"
     },
     {
-      "id": "3jY0r_Rfd0f4",
-      "representative": {
-        "id": "3jY0r_Rfd0f4",
-        "url": "https://avaz.ba/vijesti/bih/1078052/evo-kako-su-na-izborima-prosli-fikret-abdic-i-haris-silajdzic",
-        "canonicalUrl": "https://avaz.ba/vijesti/bih/1078052/evo-kako-su-na-izborima-prosli-fikret-abdic-i-haris-silajdzic",
-        "title": "Evo kako su na izborima prošli Fikret Abdić i Haris Silajdžić",
-        "description": "Evo kako su na izborima prošli Fikret Abdić i Haris Silajdžić - Politički subjekti su nekim neobičnim potezima pokušavali privući birače u predizbornom periodu",
-        "source": {
-          "id": "avaz",
-          "name": "Dnevni avaz"
-        },
-        "sourceCountry": "BA",
-        "language": "bs",
-        "publishedAt": "2026-10-06T15:57:23.644Z",
-        "imageUrl": "https://gale-s3-bucket.s3.eu-central-1.amazonaws.com/f478413a-9b02-467d-bfca-4b1314055d0e.jpeg",
-        "countryCode": "BA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:57:23.644Z"
-    },
-    {
       "id": "8gHVJyN1PsG7",
       "representative": {
         "id": "8gHVJyN1PsG7",
@@ -395,7 +371,7 @@
         },
         "sourceCountry": "BA",
         "language": "bs",
-        "publishedAt": "2026-10-06T15:57:23.644Z",
+        "publishedAt": "2026-10-06T16:16:41.000Z",
         "imageUrl": "https://gale-s3-bucket.s3.eu-central-1.amazonaws.com/fa699fa7-1dac-49a7-80fa-e070ad3080e1.jpeg",
         "countryCode": "BA",
         "regionCode": null
@@ -403,7 +379,31 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:57:23.644Z"
+      "latestPublishedAt": "2026-10-06T16:16:41.000Z"
+    },
+    {
+      "id": "3jY0r_Rfd0f4",
+      "representative": {
+        "id": "3jY0r_Rfd0f4",
+        "url": "https://avaz.ba/vijesti/bih/1078052/evo-kako-su-na-izborima-prosli-fikret-abdic-i-haris-silajdzic",
+        "canonicalUrl": "https://avaz.ba/vijesti/bih/1078052/evo-kako-su-na-izborima-prosli-fikret-abdic-i-haris-silajdzic",
+        "title": "Evo kako su na izborima prošli Fikret Abdić i Haris Silajdžić",
+        "description": "Evo kako su na izborima prošli Fikret Abdić i Haris Silajdžić - Politički subjekti su nekim neobičnim potezima pokušavali privući birače u predizbornom periodu",
+        "source": {
+          "id": "avaz",
+          "name": "Dnevni avaz"
+        },
+        "sourceCountry": "BA",
+        "language": "bs",
+        "publishedAt": "2026-10-06T16:02:58.000Z",
+        "imageUrl": "https://gale-s3-bucket.s3.eu-central-1.amazonaws.com/f478413a-9b02-467d-bfca-4b1314055d0e.jpeg",
+        "countryCode": "BA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:02:58.000Z"
     },
     {
       "id": "hCYyFwrXuW3z",

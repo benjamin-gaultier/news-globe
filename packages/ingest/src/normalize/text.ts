@@ -278,6 +278,28 @@ og í á af til um frá með við er var eru voru verður hefur hafa hafði sem 
 ný nýtt dag gær morgun mánudag þriðjudag miðvikudag fimmtudag föstudag laugardag sunnudag janúar
 febrúar mars apríl maí júní júlí ágúst september október nóvember desember
 `;
+// Russian, Macedonian and Albanian are written in normal spelling and folded by
+// foldedWords (ё → е, й → и, ќ → к, ѓ → г, ë → e, ç → c).
+const STOPWORDS_RU = `
+и в во не что он она оно они на с со как а то все всё так его её их но да к у же вы за бы по только
+мне было вот от меня ещё нет о об из ему когда даже ли если уже или ни быть был была были будет
+до где есть для мы чем без под при после над через про эти этот эта это того этого этом между также
+может могут более менее который которая которые которых году года год лет сегодня вчера завтра
+заявил заявила заявили сообщил сообщила сообщили понедельник вторник среда четверг пятница суббота
+воскресенье среду пятницу субботу января февраля марта апреля мая июня июля августа сентября октября ноября декабря
+`;
+const STOPWORDS_MK = `
+и во на е се да за од со ќе не што кој која кое кои како но или а по до при меѓу без над под пред
+против уште само веќе денес вчера утре година години нов нова ново нови тој таа тие го му ги им ја
+бил била било биле има нема дека понеделник вторник среда четврток петок сабота недела јануари
+февруари март април мај јуни јули август септември октомври ноември декември
+`;
+const STOPWORDS_SQ = `
+e të në për me një dhe nga që i u se do ka kanë është janë ishte ishin nuk pa si por edhe më pas
+para mbi kundër deri tek te sot dje nesër ky kjo këto këta ata ajo ai saj tij tyre vit viti vitin
+ku kur çfarë hënë martë mërkurë enjte premte shtunë diel janar shkurt mars prill maj qershor korrik
+gusht shtator tetor nëntor dhjetor
+`;
 // Cyrillic й folds to и (NFD), hence "маи".
 const STOPWORDS_BG = `
 и в на за от с да се не е са по до при към като че но или ще бил била било това този тази тези които
@@ -355,6 +377,9 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   hr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   bs: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  ru: wordSet(foldedWords(STOPWORDS_RU), STOPWORDS_EN, BOILERPLATE),
+  mk: wordSet(foldedWords(STOPWORDS_MK), STOPWORDS_EN, BOILERPLATE),
+  sq: wordSet(foldedWords(STOPWORDS_SQ), STOPWORDS_EN, BOILERPLATE),
   sl: wordSet(foldedWords(STOPWORDS_SL), STOPWORDS_EN, BOILERPLATE),
   is: wordSet(foldedWords(STOPWORDS_IS), STOPWORDS_EN, BOILERPLATE),
   bg: wordSet(STOPWORDS_BG, STOPWORDS_EN, BOILERPLATE),

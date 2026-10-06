@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PE",
   "countryName": "Peru",
-  "updatedAt": "2026-10-06T15:57:23.644Z",
+  "updatedAt": "2026-10-06T16:19:35.154Z",
   "clusters": [
     {
       "id": "-LP_bHDnIo5z",
@@ -315,48 +315,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:00:43.000Z"
-    },
-    {
-      "id": "mqo4qadrEVSs",
-      "representative": {
-        "id": "mqo4qadrEVSs",
-        "url": "https://elcomercio.pe/politica/elecciones/elecciones-lima-2026-rafael-lopez-aliaga-voto-en-san-isidro-utimas-apuesplan-noticia/",
-        "canonicalUrl": "https://elcomercio.pe/politica/elecciones/elecciones-lima-2026-rafael-lopez-aliaga-voto-en-san-isidro-utimas-apuesplan-noticia/",
-        "title": "Elecciones Lima 2026: Rafael López Aliaga votó en San Isidro",
-        "description": "Rafael López Aliaga acudió este domingo a su local de votación en San Isidro para ejercer su derecho al sufragio en las Elecciones Municipales 2026.",
-        "source": {
-          "id": "elcomercio",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-04T16:22:56.000Z",
-        "imageUrl": "https://elcomercio.pe/resizer/v2/MCXAZ6CN5VCUTFE3XBINWZXFFQ.jpg?auth=a60f4d900f92dacdc24a6e5e985898b451cd17029e4c465bf4e542550e763cf7&smart=true&width=1280&height=853",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "cnEbQVBRkzr9",
-          "url": "https://gestion.pe/peru/politica/rafael-lopez-aliaga-puede-volver-a-ser-alcalde-de-lima-si-gana-renovacion-popular-las-elecciones-municipales-2026-noticia/",
-          "canonicalUrl": "https://gestion.pe/peru/politica/rafael-lopez-aliaga-puede-volver-a-ser-alcalde-de-lima-si-gana-renovacion-popular-las-elecciones-municipales-2026-noticia/",
-          "title": "Rafael López Aliaga, ¿puede volver a ser alcalde de Lima si gana Renovación Popular las elecciones municipales?",
-          "description": "Elecciones municipales Lima resultados ONPE: Rafael López Aliaga, ¿puede volver a ser alcalde de Lima si gana Renovación Popular las elecciones municipales? Expertos analizan las interpretaciones y el precedente que dejaría decisión del JNE.",
-          "source": {
-            "id": "gestion",
-            "name": "Gestión"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:50:00.000Z",
-          "imageUrl": "https://gestion.pe/resizer/v2/Z27MTZNDS5DSJDOKLBK3LLX6CQ.jpeg?auth=5a4a48aea705c43137037564ea4aea436b44bf6b10e9a68575c99d1c07df95b9&smart=true&width=1280&height=853",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:50:00.000Z"
     },
     {
       "id": "Xj6nJixIMDo7",
@@ -769,6 +727,30 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T19:36:33.000Z"
+    },
+    {
+      "id": "CKUueeYyjA40",
+      "representative": {
+        "id": "CKUueeYyjA40",
+        "url": "https://rpp.pe/futbol/seleccion-peruana/peru-vs-colombia-en-vivo-america-que-canal-tv-transmite-amistoso-fecha-fifa-2026-via-app-tvgo-partidos-de-hoy-noticia-1710879",
+        "canonicalUrl": "https://rpp.pe/futbol/seleccion-peruana/peru-vs-colombia-en-vivo-america-que-canal-tv-transmite-amistoso-fecha-fifa-2026-via-app-tvgo-partidos-de-hoy-noticia-1710879",
+        "title": "HOY Perú vs Colombia EN VIVO: juegan en Miami en el último amistoso internacional FIFA de la bicolor",
+        "description": "La Selección Peruana EN VIVO juega su último amistoso de la fecha FIFA frente a Colombia en el NU Stadium.",
+        "source": {
+          "id": "rpp",
+          "name": "RPP Noticias"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:26:34.000Z",
+        "imageUrl": "https://f.rpp-noticias.io/2026/10/05/531753_1914909.jpg?imgdimension=look",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:26:34.000Z"
     }
   ]
 }

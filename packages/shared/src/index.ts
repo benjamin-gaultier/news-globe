@@ -173,4 +173,8 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   CY: { code: 'CY', name: 'Cyprus', lat: 35, lng: 33.2, altitude: 0.5 },
   LU: { code: 'LU', name: 'Luxembourg', lat: 49.8, lng: 6.1, altitude: 0.4 },
   MD: { code: 'MD', name: 'Moldova', lat: 47.2, lng: 28.5, altitude: 0.7 },
+  RU: { code: 'RU', name: 'Russia', lat: 56, lng: 50, altitude: 2.2 },
+  KZ: { code: 'KZ', name: 'Kazakhstan', lat: 48, lng: 67, altitude: 1.8 },
+  XK: { code: 'XK', name: 'Kosovo', lat: 42.6, lng: 20.9, altitude: 0.4 },
+  MK: { code: 'MK', name: 'North Macedonia', lat: 41.6, lng: 21.7, altitude: 0.5 },
 };
