@@ -763,6 +763,123 @@ Czech and Romanian have their own stopword lists; their diacritics all decompose
 
 Zimbabwe and Jamaica have small feeds, so few of their stories reach two outlets.
 
+**Greece** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| ERT News | main feed | 10 | ✅ (public broadcaster) |
+| Kathimerini | main feed | 10 | ✅ |
+| Ta Nea | main feed | 8 | ✅ |
+| Proto Thema | main feed | 8 | ✅ |
+| Efimerida ton Syntakton | main feed | 7 | ✅ |
+| iefimerida | main feed | 7 | ✅ |
+| Naftemporiki | main feed | 6 | ✅ |
+| ~~in.gr~~ | — | — | ❌ **skipped**: runs Ta Nea's copy (same group) |
+
+Greek titles fold like the others: tonos marks are stripped and final ς becomes σ, so *εκλογές* and *ΕΚΛΟΓΕΣ* match.
+
+**Hungary** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Telex | main feed | 10 | ✅ |
+| HVG | main feed | 9 | ✅ |
+| Index | 24 óra | 9 | ✅ |
+| 444 | main feed | 8 | ✅ |
+| 24.hu | main feed | 8 | ✅ (10 items) |
+| Magyar Nemzet | main feed | 8 | ✅ |
+| ~~Híradó (MTVA)~~ | — | — | ❌ **dropped**: HTTP 500 |
+
+**Finland** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Yle Uutiset | pääuutiset | 10 | ✅ (public broadcaster) |
+| Helsingin Sanomat | tuoreimmat | 10 | ✅ |
+| Ilta-Sanomat | tuoreimmat | 8 | ✅ |
+| Iltalehti | uutiset | 8 | ✅ |
+| MTV Uutiset | uusimmat | 8 | ✅ |
+| ~~Kauppalehti~~ | — | — | ❌ **dropped**: 404 |
+
+**Bulgaria** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Dnevnik | main feed | 9 | ✅ |
+| Capital | main feed | 8 | ✅ |
+| Mediapool | main feed | 8 | ✅ (10 items) |
+| 24 Chasa | main feed | 8 | ✅ |
+| ~~BNT~~, ~~Sega~~ | — | — | ❌ **dropped**: malformed XML |
+| ~~bTV~~ | — | — | ❌ **dropped**: 403 for bots |
+
+**Croatia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Index.hr | main feed | 9 | ✅ |
+| Jutarnji list | main feed | 9 | ✅ |
+| Večernji list | latest | 9 | ✅ |
+| 24sata | aktualno | 7 | ✅ |
+| Net.hr | main feed | 7 | ✅ |
+| tportal | main feed | 7 | ✅ |
+| ~~HRT~~ | — | — | ❌ **dropped**: 404 |
+
+**Serbia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| N1 | main feed | 10 | ✅ |
+| Danas | main feed | 9 | ✅ |
+| B92 | vesti | 8 | ✅ |
+| Blic | današnje vesti | 8 | ✅ |
+| ~~Nova~~ | — | — | ❌ **skipped**: runs N1's copy word for word (same group) |
+| ~~RTS~~, ~~Politika~~ | — | — | ❌ **dropped**: 404 / 403 |
+
+All Serbian outlets here publish in Latin script. Croatian and Serbian share one stopword list.
+
+**Slovakia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| STVR Správy | main feed | 10 | ✅ (public broadcaster) |
+| Denník N | main feed | 9 | ✅ (10 items) |
+| SME | titles | 9 | ✅ |
+| Aktuality.sk | main feed | 8 | ✅ |
+| Pravda | main feed | 8 | ✅ |
+| Hospodárske noviny | main feed | 7 | ✅ |
+| ~~TERAZ.sk (TASR)~~ | — | — | ❌ **skipped**: Hospodárske noviny runs its copy word for word |
+
+**Estonia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| ERR | main feed | 10 | ✅ (public broadcaster) |
+| Postimees | main feed | 9 | ✅ |
+| Õhtuleht | main feed | 7 | ✅ |
+| ~~Delfi~~ | — | — | ❌ **dropped**: 404 |
+
+**Latvia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| LSM | main feed | 10 | ✅ (public broadcaster) |
+| Diena | main feed | 8 | ✅ |
+| TVNET | main feed | 8 | ✅ |
+| Latvijas Avīze | main feed | 7 | ✅ |
+| ~~Delfi~~ | — | — | ❌ **dropped**: malformed XML |
+
+**Lithuania** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| 15min | main feed | 9 | ✅ |
+| Lrytas | main feed | 8 | ✅ |
+| Verslo žinios | main feed | 7 | ✅ |
+| ~~LRT~~ | — | — | ❌ **dropped**: 404 |
+| ~~Delfi~~ | — | — | ❌ **dropped**: undated items |
+
+Hungarian, Finnish, Estonian, Latvian, Lithuanian, Slovak, Bulgarian and Greek have short stopword lists. These languages inflect heavily, so clustering leans on names and places, and fewer stories reach two outlets (Finland, Slovakia, Estonia and Lithuania especially).
+
 Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Egypt (Ahram 403, three thin feeds), Thailand (three feeds of 5–10 items), the UAE (two feeds) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia, Tanzania and Saudi Arabia (one usable feed each).
 
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").

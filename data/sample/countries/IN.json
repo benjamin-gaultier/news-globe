@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IN",
   "countryName": "India",
-  "updatedAt": "2026-10-06T13:55:23.742Z",
+  "updatedAt": "2026-10-06T14:04:18.812Z",
   "clusters": [
     {
       "id": "8eqCr04HRU1M",
@@ -560,48 +560,6 @@
       "latestPublishedAt": "2026-10-06T07:00:00.000Z"
     },
     {
-      "id": "juixLx32fSZI",
-      "representative": {
-        "id": "juixLx32fSZI",
-        "url": "https://www.hindustantimes.com/india-news/bjp-names-8-rajya-sabha-candidates-in-up-drops-union-ministers-hardeep-singh-puri-bl-verma-and-sitting-members-101791244884331.html",
-        "canonicalUrl": "https://www.hindustantimes.com/india-news/bjp-names-8-rajya-sabha-candidates-in-up-drops-union-ministers-hardeep-singh-puri-bl-verma-and-sitting-members-101791244884331.html",
-        "title": "BJP names 8 Rajya Sabha candidates in UP, drops union ministers Hardeep Singh Puri, BL Verma and sitting members",
-        "description": "The list includes Union ministers Hardeep Singh Puri and BL Verma among those denied renomination, while two women are also among the new candidates.",
-        "source": {
-          "id": "hindustantimes",
-          "name": "Hindustan Times"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T01:22:48.000Z",
-        "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/HT_DELH_MYINDIA_B1_P008_20261005_ART_015_PIC_001_c_1791245198974_gRnE_1791245199171_J6M4_c9a911e1-c39c-4273-beb3-2715942b6172_YfRI.webp",
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "zx0Q7PGyFBuG",
-          "url": "https://scroll.in/latest/1096199/union-minister-hardeep-singh-puri-not-among-bjp-rajya-sabha-candidates?utm_source=rss&utm_medium=public",
-          "canonicalUrl": "https://scroll.in/latest/1096199/union-minister-hardeep-singh-puri-not-among-bjp-rajya-sabha-candidates",
-          "title": "Union minister Hardeep Singh Puri not among BJP Rajya Sabha candidates",
-          "description": "Puri is not in the Lok Sabha. A minister can be a part of the Cabinet only for six months without being a member of either House of Parliament.",
-          "source": {
-            "id": "scroll",
-            "name": "Scroll.in"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-05T13:59:00.000Z",
-          "imageUrl": "https://sc0.blr1.cdn.digitaloceanspaces.com/article/215904-hkcwrghyrn-1791206951.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T01:22:48.000Z"
-    },
-    {
       "id": "KsBvcveudfGM",
       "representative": {
         "id": "KsBvcveudfGM",
@@ -648,6 +606,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:08:45.000Z"
+    },
+    {
+      "id": "sKOHwdzANViN",
+      "representative": {
+        "id": "sKOHwdzANViN",
+        "url": "https://www.hindustantimes.com/india-news/india-bangladesh-seek-to-break-the-ice-with-trade-and-visa-talks-101791292101573.html",
+        "canonicalUrl": "https://www.hindustantimes.com/india-news/india-bangladesh-seek-to-break-the-ice-with-trade-and-visa-talks-101791292101573.html",
+        "title": "India, Bangladesh seek to break the ice with trade and visa talks",
+        "description": "India and Bangladesh are also working on dates for a meeting of the joint working group on consular matters, which Dhaka will host",
+        "source": {
+          "id": "hindustantimes",
+          "name": "Hindustan Times"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:08:21.000Z",
+        "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/In-this-Aug--10-image--High-Commissioner-of-India-_1791292094523_m61o.jpg",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:08:21.000Z"
     }
   ]
 }

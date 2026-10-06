@@ -77,6 +77,8 @@ export function foldText(input: string): string {
     .toLowerCase()
     // Turkish dotless ı has no decomposition; fold it so "IĞDIR" and "Iğdır" match.
     .replace(/ı/g, 'i')
+    // Greek final sigma: "εκλογές" and "εκλογέσ" are the same word.
+    .replace(/ς/g, 'σ')
     .replace(/[’'`]/g, ' ')
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim();
@@ -208,6 +210,72 @@ ianuarie februarie martie aprilie iunie iulie august septembrie octombrie noiemb
 nou noua noi primul prima
 `;
 
+// Central/Eastern European, Baltic, Finnish and Greek lists, all folded like the
+// tokens (marks stripped, final ς → σ; đ, ł, ø stay). These languages inflect
+// heavily, so lists are short and clustering leans on names and places.
+const STOPWORDS_SK = `
+a i v vo na sa s z zo do k ku o od po za pre pri je su bol bola bolo boli bude budu to ten ta tento
+tato toto ktory ktora ktore ako ale aby by ked kde co uz este len tiez alebo ani podla pred cez medzi
+bez nad pod jeho jej ich nas vas ma maju moze chce dnes vcera zajtra rok roku rokov novy nova nove
+pondelok utorok streda stvrtok piatok sobota nedela januara februara marca aprila maja juna jula
+augusta septembra oktobra novembra decembra
+`;
+const STOPWORDS_HU = `
+a az es egy hogy nem is meg de mar csak mint vagy van volt lesz lett lehet kell ez ezt azt ami aki
+ahol amikor mert itt ott most ma tegnap holnap ev eves uj utan elott alatt felett szerint miatt kozott
+ellen nelkul ki mit mi hol mikor miert minden sok tobb se sem pedig illetve hetfo kedd szerda csutortok
+pentek szombat vasarnap januar februar marcius aprilis majus junius julius augusztus szeptember oktober
+november december
+`;
+const STOPWORDS_FI = `
+ja on ei se oli olla ovat ole etta kun jos mutta tai myos vain nyt kuin kanssa jo viela mita miten
+miksi missa kuka joka jotka tama nama han he me ne sen sita siita ennen jalkeen mukaan vuonna vuoden
+vuotta uusi uuden tanaan eilen huomenna eika voi saa sai tulee kertoo maanantai tiistai keskiviikko
+torstai perjantai lauantai sunnuntai tammikuu helmikuu maaliskuu huhtikuu toukokuu kesakuu heinakuu
+elokuu syyskuu lokakuu marraskuu joulukuu
+`;
+const STOPWORDS_ET = `
+ja on ei see oli olla olid et kui aga voi ka ainult nuud kes mis mida kuidas miks kus need tema nad
+meie ta seda selle parast enne jarel aasta aastal uus uue tana eile homme sai saab tuleb ning
+esmaspaev teisipaev kolmapaev neljapaev reede laupaev puhapaev jaanuar veebruar marts aprill mai
+juuni juuli august september oktoober november detsember
+`;
+const STOPWORDS_LV = `
+un ir ar par no uz pie bet vai ka kas kur kad ja ne ari tikai jau vel vins vina vini tas ta to tie sis
+si pec pirms bez lidz starp gads gada gadu jauns jauna sodien vakar rit bija bus var tiek tika
+pirmdiena otrdiena tresdiena ceturtdiena piektdiena sestdiena svetdiena janvari februari marta aprili
+maija junija julija augusta septembri oktobri novembri decembri
+`;
+const STOPWORDS_LT = `
+ir in i ar bet kad kaip kur kas ka tai tas ta jis ji jie jos jo su be uz nuo po pries per apie del
+tarp iki taip pat jau dar tik ne yra buvo bus gali metu metai nauja naujas siandien vakar rytoj
+pirmadieni antradieni treciadieni ketvirtadieni penktadieni sestadieni sekmadieni sausio vasario kovo
+balandzio geguzes birzelio liepos rugpjucio rugsejo spalio lapkricio gruodzio
+`;
+// Croatian and Serbian (Latin script) share one list.
+const STOPWORDS_HR_SR = `
+i u na je su se da za od s sa o po do iz kao ali ili a sto koji koja koje kojeg koju kada gdje gde
+kako zasto ne nije nisu bio bila bilo biti ce ovo taj ta to te ovaj ova ove nakon prije pre bez nad
+pod između protiv jos samo vec danas jucer juce sutra godine godina novi nova novo on ona oni ga mu
+im ponedjeljak ponedeljak utorak srijeda sreda cetvrtak petak subota nedjelja nedelja sijecnja veljace
+ozujka travnja svibnja lipnja srpnja kolovoza rujna listopada studenog prosinca januara februara
+marta aprila maja juna jula avgusta septembra oktobra novembra decembra
+`;
+// Cyrillic й folds to и (NFD), hence "маи".
+const STOPWORDS_BG = `
+и в на за от с да се не е са по до при към като че но или ще бил била било това този тази тези които
+който която което как къде кога защо след преди без над под между срещу също още само вече днес вчера
+утре година години нов нова нови ги го му я им понеделник вторник сряда четвъртък петък събота неделя
+януари февруари март април маи юни юли август септември октомври ноември декември
+`;
+const STOPWORDS_EL = `
+και να το τα του τησ των τον την ο η οι σε στο στη στην στον στα στισ στουσ με για απο που θα δεν
+μη μην ειναι ηταν εχει εχουν ενα μια ενασ ωσ αλλα ομωσ οτι πωσ μετα πριν κατα προσ χωρισ μεχρι οπωσ
+αυτο αυτη αυτοσ αυτα ολα νεο νεα νεοσ σημερα χθεσ αυριο δευτερα τριτη τεταρτη πεμπτη παρασκευη
+σαββατο κυριακη ιανουαριου φεβρουαριου μαρτιου απριλιου μαιου ιουνιου ιουλιου αυγουστου
+σεπτεμβριου οκτωβριου νοεμβριου δεκεμβριου βιντεο
+`;
+
 // Calendar words in service headlines ("¿A qué hora juega…? hoy martes 6 de octubre",
 // "dólar blue hoy") merged unrelated Argentine stories on 2026-10-06.
 const CALENDAR_ES = `
@@ -244,6 +312,16 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   pl: wordSet(STOPWORDS_PL, STOPWORDS_EN, BOILERPLATE),
   cs: wordSet(STOPWORDS_CS, STOPWORDS_EN, BOILERPLATE),
   ro: wordSet(STOPWORDS_RO, STOPWORDS_EN, BOILERPLATE),
+  sk: wordSet(STOPWORDS_SK, STOPWORDS_EN, BOILERPLATE),
+  hu: wordSet(STOPWORDS_HU, STOPWORDS_EN, BOILERPLATE),
+  fi: wordSet(STOPWORDS_FI, STOPWORDS_EN, BOILERPLATE),
+  et: wordSet(STOPWORDS_ET, STOPWORDS_EN, BOILERPLATE),
+  lv: wordSet(STOPWORDS_LV, STOPWORDS_EN, BOILERPLATE),
+  lt: wordSet(STOPWORDS_LT, STOPWORDS_EN, BOILERPLATE),
+  hr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  bg: wordSet(STOPWORDS_BG, STOPWORDS_EN, BOILERPLATE),
+  el: wordSet(STOPWORDS_EL, STOPWORDS_EN, BOILERPLATE),
 };
 
 const HAN = /\p{Script=Han}/u;
