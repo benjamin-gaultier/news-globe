@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "DK",
+  "countryName": "Denmark",
+  "updatedAt": "2026-10-06T13:46:38.119Z",
+  "clusters": [
+    {
+      "id": "M7oxBX7512mb",
+      "representative": {
+        "id": "M7oxBX7512mb",
+        "url": "https://politiken.dk/kultur/art11011493/Kunsthistoriker-Lise-Svanholm-er-d%C3%B8d",
+        "canonicalUrl": "https://politiken.dk/kultur/art11011493/Kunsthistoriker-Lise-Svanholm-er-d%C3%B8d",
+        "title": "Kunsthistoriker Lise Svanholm er død",
+        "description": "Kunsthistoriker Lise Svanholm var indtil for kort tid siden i gang med et kunsthistorisk bogprojekt.",
+        "source": {
+          "id": "politiken",
+          "name": "Politiken"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:02:18.000Z",
+        "imageUrl": null,
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "1G8tAEgaCrRR",
+          "url": "https://www.berlingske.dk/danmark/kunsthistoriker-lise-svanholm-er-doed-94-aar?referrer=RSS",
+          "canonicalUrl": "https://www.berlingske.dk/danmark/kunsthistoriker-lise-svanholm-er-doed-94-aar?referrer=RSS",
+          "title": "Kunsthistoriker Lise Svanholm er død - 94 år",
+          "description": "Kunsthistoriker Lise Svanholm var indtil for kort tid siden i gang med et kunsthistorisk bogprojekt.",
+          "source": {
+            "id": "berlingske",
+            "name": "Berlingske"
+          },
+          "sourceCountry": "DK",
+          "language": "da",
+          "publishedAt": "2026-10-06T13:42:45.000Z",
+          "imageUrl": "https://akamai-aptoma-production.bmcdn.dk/users/berlingske/images/163615806.webp?t[strip]=true&t[quality]=70&accessToken=45344e0ff011b1fb6e4fadc972609f8046f975eed4f668545dd503b77a2aae1b",
+          "countryCode": "DK",
+          "regionCode": null
+        },
+        {
+          "id": "JsxWLukclutl",
+          "url": "https://ekstrabladet.dk/underholdning/dkkendte/lise-svanholm-er-doed/11311902",
+          "canonicalUrl": "https://ekstrabladet.dk/underholdning/dkkendte/lise-svanholm-er-doed/11311902",
+          "title": "Blev 94 år gammel: Lise Svanholm er død",
+          "description": "Kunsthistoriker Lise Svanholm var indtil for kort tid siden i gang med et kunsthistorisk bogprojekt",
+          "source": {
+            "id": "ekstrabladet",
+            "name": "Ekstra Bladet"
+          },
+          "sourceCountry": "DK",
+          "language": "da",
+          "publishedAt": "2026-10-06T12:42:15.000Z",
+          "imageUrl": null,
+          "countryCode": "DK",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:42:45.000Z"
+    },
+    {
+      "id": "L26X8rASH7xN",
+      "representative": {
+        "id": "L26X8rASH7xN",
+        "url": "https://www.dr.dk/nyheder/seneste/86-000-gaar-paa-gaden-i-frankrig",
+        "canonicalUrl": "https://www.dr.dk/nyheder/seneste/86-000-gaar-paa-gaden-i-frankrig",
+        "title": "86.000 går på gaden i Frankrig",
+        "description": null,
+        "source": {
+          "id": "dr",
+          "name": "DR Nyheder"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T12:27:29.000Z",
+        "imageUrl": "https://asset.dr.dk/drdk/umbraco-images/agaheodz/20261006-140150-1_crop001.jpg?im=AspectCrop=(1200,675),xPosition=.5,yPosition=.5;Resize=(1200,675)&impolicy=medium",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "BC0STM28u6Xh",
+          "url": "https://politiken.dk/internationalt/art11011312/86.000-elever-deltager-i-protester-i-Frankrig",
+          "canonicalUrl": "https://politiken.dk/internationalt/art11011312/86.000-elever-deltager-i-protester-i-Frankrig",
+          "title": "86.000 elever deltager i protester i Frankrig",
+          "description": "Eleverne protesterer mod højt lærerfravær, for lange undervisningsdage og nedslidte faciliteter.",
+          "source": {
+            "id": "politiken",
+            "name": "Politiken"
+          },
+          "sourceCountry": "DK",
+          "language": "da",
+          "publishedAt": "2026-10-06T12:08:12.000Z",
+          "imageUrl": "https://politiken.dk/incoming/img11011373.dfanne/ORIGINALS/original_960/FRANCE-POLITICS-EDUCATION-DEMO-BORDEAUX",
+          "countryCode": "DK",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:27:29.000Z"
+    },
+    {
+      "id": "bZRKqYtdn20x",
+      "representative": {
+        "id": "bZRKqYtdn20x",
+        "url": "https://ekstrabladet.dk/underholdning/kultur/tjekkiet-traekker-sig-fra-eurovision/11311778",
+        "canonicalUrl": "https://ekstrabladet.dk/underholdning/kultur/tjekkiet-traekker-sig-fra-eurovision/11311778",
+        "title": "Trækker sig",
+        "description": "Tjekkiet vil ikke være at finde ved verdens største musikkonkurrence, når Eurovisions Song Contest næste forår afvikles i Burgas i Bulgarien",
+        "source": {
+          "id": "ekstrabladet",
+          "name": "Ekstra Bladet"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:40:26.000Z",
+        "imageUrl": null,
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:40:26.000Z"
+    },
+    {
+      "id": "VC2rOo1swlo2",
+      "representative": {
+        "id": "VC2rOo1swlo2",
+        "url": "https://www.berlingske.dk/internationalt/sverige-vil-sende-luftforsvar-til-polen?referrer=RSS",
+        "canonicalUrl": "https://www.berlingske.dk/internationalt/sverige-vil-sende-luftforsvar-til-polen?referrer=RSS",
+        "title": "Sverige vil sende luftforsvar til Polen",
+        "description": "Den svenske statsminister siger tirsdag, at Sverige vil sende sit Patriot-luftforsvarssystem til Polen.",
+        "source": {
+          "id": "berlingske",
+          "name": "Berlingske"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:39:44.000Z",
+        "imageUrl": null,
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:39:44.000Z"
+    },
+    {
+      "id": "ku31JNNXKguy",
+      "representative": {
+        "id": "ku31JNNXKguy",
+        "url": "https://www.berlingske.dk/politik/cpr-laek-blev-opdaget-paa-grund-af-dyr-faktura?referrer=RSS",
+        "canonicalUrl": "https://www.berlingske.dk/politik/cpr-laek-blev-opdaget-paa-grund-af-dyr-faktura?referrer=RSS",
+        "title": "CPR-læk blev opdaget på grund af dyr faktura",
+        "description": "National enhed for Særlig Kriminalitet kan tirsdag endnu ikke sige, hvem der står bag ulovlig CPR-adgang.",
+        "source": {
+          "id": "berlingske",
+          "name": "Berlingske"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:36:44.000Z",
+        "imageUrl": "https://akamai-aptoma-production.bmcdn.dk/users/berlingske/images/163624125.webp?t[strip]=true&t[quality]=70&accessToken=7db3102b62003ec36dafebd4a1b62fdcb9e660d4773af051f4f6afc2014f6567",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:36:44.000Z"
+    },
+    {
+      "id": "YXR4Kvcjj8Lh",
+      "representative": {
+        "id": "YXR4Kvcjj8Lh",
+        "url": "https://www.berlingske.dk/sport/australsk-skade-forlaenger-djokovic-statistik-som-ubesejret?referrer=RSS",
+        "canonicalUrl": "https://www.berlingske.dk/sport/australsk-skade-forlaenger-djokovic-statistik-som-ubesejret?referrer=RSS",
+        "title": "Australsk skade forlænger Djokovic-statistik som ubesejret",
+        "description": "34-0 lyder Novak Djokovics statistik i Beijing, efter at Alex de Minaur trak sig med en skade i finalen.",
+        "source": {
+          "id": "berlingske",
+          "name": "Berlingske"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:30:45.000Z",
+        "imageUrl": "https://akamai-aptoma-production.bmcdn.dk/users/berlingske/images/163614382.webp?t[strip]=true&t[quality]=70&accessToken=4bd61ea1ef0a995b1cbb2fbc4e64a5ef9cda06ef2c8afd957b0d4b0a989c43af",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:30:45.000Z"
+    },
+    {
+      "id": "KIKwH-D0RnV1",
+      "representative": {
+        "id": "KIKwH-D0RnV1",
+        "url": "https://www.dr.dk/nyheder/seneste/politiet-anholder-ny-mand-i-sag-om-mistaenkelig-aktivitet-ved-militaerbase",
+        "canonicalUrl": "https://www.dr.dk/nyheder/seneste/politiet-anholder-ny-mand-i-sag-om-mistaenkelig-aktivitet-ved-militaerbase",
+        "title": "Politiet anholder ny mand i sag om mistænkelig aktivitet ved militærbase",
+        "description": null,
+        "source": {
+          "id": "dr",
+          "name": "DR Nyheder"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:30:09.000Z",
+        "imageUrl": "https://asset.dr.dk/drdk/umbraco-images/muafitiq/20261004-231253-1_crop001.jpg?im=AspectCrop=(1200,675),xPosition=.5,yPosition=.5;Resize=(1200,675)&impolicy=medium",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:30:09.000Z"
+    },
+    {
+      "id": "vjyqTGM_wZIu",
+      "representative": {
+        "id": "vjyqTGM_wZIu",
+        "url": "https://www.dr.dk/nyheder/seneste/politiet-efterlyser-43-aarig-mistaenkt-drab-i-hammerum",
+        "canonicalUrl": "https://www.dr.dk/nyheder/seneste/politiet-efterlyser-43-aarig-mistaenkt-drab-i-hammerum",
+        "title": "Politiet efterlyser 43-årig mistænkt for drab i Hammerum",
+        "description": null,
+        "source": {
+          "id": "dr",
+          "name": "DR Nyheder"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:21:08.000Z",
+        "imageUrl": "https://asset.dr.dk/drdk/umbraco-images/b2mdire2/efterlysning.png?im=AspectCrop=(1200,675),xPosition=.5,yPosition=.5;Resize=(1200,675)&impolicy=medium",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:21:08.000Z"
+    },
+    {
+      "id": "ehwGlMlIcJlw",
+      "representative": {
+        "id": "ehwGlMlIcJlw",
+        "url": "https://ekstrabladet.dk/underholdning/filmogtv/se-hele-brevet-her-b.t.s-medarbejdere-bekymrede-over-ledelsen/11311923",
+        "canonicalUrl": "https://ekstrabladet.dk/underholdning/filmogtv/se-hele-brevet-her-b.t.s-medarbejdere-bekymrede-over-ledelsen/11311923",
+        "title": "Stor utilfredshed: Se det harmdirrende brev her",
+        "description": "B.T.s medarbejdere har igen og igen forsøgt at råbe ledelsen op, skriver i de i et bekymringsbrev til chefredaktør Simon Richard Nielsen",
+        "source": {
+          "id": "ekstrabladet",
+          "name": "Ekstra Bladet"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:11:13.000Z",
+        "imageUrl": null,
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:11:13.000Z"
+    },
+    {
+      "id": "UuAkxCn6ZDVH",
+      "representative": {
+        "id": "UuAkxCn6ZDVH",
+        "url": "https://www.berlingske.dk/indland/politiet-mistaenker-43-aarig-med-saar-paa-halsen-for-knivdrab?referrer=RSS",
+        "canonicalUrl": "https://www.berlingske.dk/indland/politiet-mistaenker-43-aarig-med-saar-paa-halsen-for-knivdrab?referrer=RSS",
+        "title": "Politiet mistænker 43-årig med sår på halsen for knivdrab",
+        "description": "Ifølge politiet kender den mistænkte og den dræbte hinanden fra et misbrugsmiljø.",
+        "source": {
+          "id": "berlingske",
+          "name": "Berlingske"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:06:48.000Z",
+        "imageUrl": null,
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:06:48.000Z"
+    },
+    {
+      "id": "R6YaM57dECnL",
+      "representative": {
+        "id": "R6YaM57dECnL",
+        "url": "https://www.berlingske.dk/kultur/bt-journalister-raser-i-laekket-brev-beskylder-ledelsen-for-at-holde-sindelagssamtaler-med-ansatte?referrer=RSS",
+        "canonicalUrl": "https://www.berlingske.dk/kultur/bt-journalister-raser-i-laekket-brev-beskylder-ledelsen-for-at-holde-sindelagssamtaler-med-ansatte?referrer=RSS",
+        "title": "B.T.-journalister raser i lækket brev: Beskylder ledelsen for at holde »sindelagssamtaler« med ansatte",
+        "description": "Journalister anklager i et lækket »bekymringsbrev« ledelsen på B.T. for at holde »sindelagssamtaler« for at tjekke, om de har de »rette politiske holdninger til at bestride jobbet«. B.T.s chefredaktør afviser kritikken og siger i stedet, at han er »skuffet« over sine medarbejdere.",
+        "source": {
+          "id": "berlingske",
+          "name": "Berlingske"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:01:01.000Z",
+        "imageUrl": "https://akamai-aptoma-production.bmcdn.dk/users/berlingske/images/151731328.webp?t[strip]=true&t[quality]=70&accessToken=0666ad6e0da0892de7f02cb4b0dafb9f92871dad79753feb18e1df7d56a5afb9",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:01:01.000Z"
+    },
+    {
+      "id": "H5Aoma2COCEf",
+      "representative": {
+        "id": "H5Aoma2COCEf",
+        "url": "https://www.berlingske.dk/politik/seneste-nyt-om-dansk-politik--foelg-udviklingen-her-4?referrer=RSS",
+        "canonicalUrl": "https://www.berlingske.dk/politik/seneste-nyt-om-dansk-politik--foelg-udviklingen-her-4?referrer=RSS",
+        "title": "Seneste nyt om dansk politik – følg udviklingen her",
+        "description": "Folketinget åbner i dag, tirsdag den 6. oktober, og næste års finanslov er på vej – få seneste nyt om dansk politik her.",
+        "source": {
+          "id": "berlingske",
+          "name": "Berlingske"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:00:19.000Z",
+        "imageUrl": "https://akamai-aptoma-production.bmcdn.dk/users/berlingske/images/163615925.webp?t[strip]=true&t[quality]=70&accessToken=cef6ade3e7940ff67acd3d07b049ff26e1b3a208749b8d36b6ac2200b75038d0",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:19.000Z"
+    },
+    {
+      "id": "yvez5rA4UN9v",
+      "representative": {
+        "id": "yvez5rA4UN9v",
+        "url": "https://ekstrabladet.dk/sport/fodbold/dansk_fodbold/superligaen/etim-slaar-fck-duo-bliver-maanedens-spiller/11311919",
+        "canonicalUrl": "https://ekstrabladet.dk/sport/fodbold/dansk_fodbold/superligaen/etim-slaar-fck-duo-bliver-maanedens-spiller/11311919",
+        "title": "Slår FCK-stjerner",
+        "description": "FC Midtjylland-angriberen Friday Etim er månedens spiller i Superligaen i september måned. Angriberen kæmpede mod FC Københavns Diant Ramaj og Asger Sørensen om prisen",
+        "source": {
+          "id": "ekstrabladet",
+          "name": "Ekstra Bladet"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T12:59:24.000Z",
+        "imageUrl": null,
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:59:24.000Z"
+    },
+    {
+      "id": "sjQUVR7u0VmC",
+      "representative": {
+        "id": "sjQUVR7u0VmC",
+        "url": "https://ekstrabladet.dk/sport/vanvidsstime-fortsaetter-djokovic-vinder-i-beijing/11311925",
+        "canonicalUrl": "https://ekstrabladet.dk/sport/vanvidsstime-fortsaetter-djokovic-vinder-i-beijing/11311925",
+        "title": "Rent vanvid: Djokovic forlænger latterlig rekord",
+        "description": "34-0 lyder Novak Djokovics statistik i Beijing, efter at Alex de Minaur trak sig med en skade i finalen",
+        "source": {
+          "id": "ekstrabladet",
+          "name": "Ekstra Bladet"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T12:57:49.000Z",
+        "imageUrl": null,
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:57:49.000Z"
+    },
+    {
+      "id": "sm1esR5xCN6-",
+      "representative": {
+        "id": "sm1esR5xCN6-",
+        "url": "https://www.berlingske.dk/politik/uvedkommende-har-skaffet-sig-adgang-til-millioner-af-danske-cpr-numre--foelg-med-her?referrer=RSS",
+        "canonicalUrl": "https://www.berlingske.dk/politik/uvedkommende-har-skaffet-sig-adgang-til-millioner-af-danske-cpr-numre--foelg-med-her?referrer=RSS",
+        "title": "Uvedkommende har skaffet sig adgang til millioner af danske CPR-numre – følg med her",
+        "description": "Uvedkommende har skaffet sig uautoriseret adgang til navne, adresser og CPR-numre på cirka 8,8 millioner registrerede personer. Det oplyser Forsknings-, Uddannelses- og Digitaliseringsministeriet.",
+        "source": {
+          "id": "berlingske",
+          "name": "Berlingske"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T12:56:04.000Z",
+        "imageUrl": "https://akamai-aptoma-production.bmcdn.dk/users/berlingske/images/163614778.webp?t[strip]=true&t[quality]=70&accessToken=7d3fc548e23215455b86e22ab31d309b6b054dfb7b7ce0ed66d38dfacd08dafa",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:56:04.000Z"
+    }
+  ]
+}

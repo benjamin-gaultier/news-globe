@@ -162,6 +162,35 @@ mee toe weer jaar jaren dag vandaag gisteren morgen maandag dinsdag woensdag don
 zondag januari februari maart april mei juni juli augustus september oktober november december
 `;
 
+// Scandinavian and Polish lists are folded like the tokens: å, ä, ö, ó, ś… lose
+// their marks, but ø, æ and ł have no decomposition and stay. "Several" (flera,
+// flere) is listed: "flera skadade" merged two unrelated Swedish bus crashes.
+const STOPWORDS_SV = `
+och i att det som en pa ar av for med till den har de inte om ett han men var jag sig fran vi sa kan
+man nar ar sager efter upp ut nu ska skulle vill eller hon nya ny under mot over far blir blev bli sedan
+ocksa alla flera nagra in vid da dar hur vad vem varfor idag igar imorgon mandag tisdag onsdag torsdag fredag lordag
+sondag januari februari mars april maj juni juli augusti september oktober november december
+`;
+const STOPWORDS_NB = `
+og i a det som en pa er av for med til den har de ikke om et han men var jeg seg fra vi sa kan man nar
+ar sier etter opp ut na skal skulle vil eller hun nye ny under mot over far blir ble bli siden ogsa
+alle flere noen inn ved da der her hvordan hva hvem hvorfor dag gar mandag tirsdag onsdag torsdag fredag lørdag
+søndag januar februar mars april mai juni juli august september oktober november desember
+`;
+const STOPWORDS_DA = `
+og i at det som en pa er af for med til den har de ikke om et han men var jeg sig fra vi sa kan man nar
+ar siger efter op ud nu skal skulle vil eller hun nye ny under mod over far bliver blev blive siden ogsa
+alle flere nogle ind ved da der her hvordan hvad hvem hvorfor dag gar mandag tirsdag onsdag torsdag fredag lørdag
+søndag januar februar marts april maj juni juli august september oktober november december
+`;
+const STOPWORDS_PL = `
+i w na z do sie ze nie to jest o od po za co jak ale dla jako przez przy ten ta te tym tego tej byc byl
+byla bylo sa bedzie moze juz jeszcze tylko tez oraz lub czy a by bo gdy kiedy gdzie ktory ktora ktore
+ktorych ich jego jej nas was ma maja roku rok lat dzis dzisiaj wczoraj jutro pod nad bez we nowy nowe
+nowa poniedziałek wtorek sroda czwartek piatek sobota niedziela stycznia lutego marca kwietnia czerwca
+lipca sierpnia wrzesnia pazdziernika listopada grudnia
+`;
+
 // Calendar words in service headlines ("¿A qué hora juega…? hoy martes 6 de octubre",
 // "dólar blue hoy") merged unrelated Argentine stories on 2026-10-06.
 const CALENDAR_ES = `
@@ -192,6 +221,10 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   tr: wordSet(STOPWORDS_TR, STOPWORDS_EN, BOILERPLATE),
   ja: wordSet(STOPWORDS_JA, STOPWORDS_EN, BOILERPLATE),
   nl: wordSet(STOPWORDS_NL, STOPWORDS_EN, BOILERPLATE),
+  sv: wordSet(STOPWORDS_SV, STOPWORDS_EN, BOILERPLATE),
+  nb: wordSet(STOPWORDS_NB, STOPWORDS_EN, BOILERPLATE),
+  da: wordSet(STOPWORDS_DA, STOPWORDS_EN, BOILERPLATE),
+  pl: wordSet(STOPWORDS_PL, STOPWORDS_EN, BOILERPLATE),
 };
 
 const HAN = /\p{Script=Han}/u;

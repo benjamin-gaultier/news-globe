@@ -126,4 +126,9 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   GH: { code: 'GH', name: 'Ghana', lat: 7.9, lng: -1.0, altitude: 1.1 },
   NL: { code: 'NL', name: 'Netherlands', lat: 52.2, lng: 5.3, altitude: 0.9 },
   BE: { code: 'BE', name: 'Belgium', lat: 50.6, lng: 4.6, altitude: 0.8 },
+  SE: { code: 'SE', name: 'Sweden', lat: 62, lng: 15.5, altitude: 1.6 },
+  NO: { code: 'NO', name: 'Norway', lat: 64.5, lng: 12, altitude: 1.7 },
+  DK: { code: 'DK', name: 'Denmark', lat: 56, lng: 10, altitude: 0.9 },
+  PL: { code: 'PL', name: 'Poland', lat: 52, lng: 19.4, altitude: 1.2 },
+  MY: { code: 'MY', name: 'Malaysia', lat: 3.5, lng: 106, altitude: 1.6 },
 };
