@@ -134,6 +134,17 @@ describe('titleTokens: Scandinavian and Polish', () => {
   });
 });
 
+describe('titleTokens: Czech and Romanian', () => {
+  it('drops stopwords after folding diacritics', () => {
+    expect(titleTokens('Vláda schválila rozpočet, který bude platit od ledna', 'cs').has('ktery')).toBe(false);
+    expect(titleTokens('Vláda schválila rozpočet', 'cs')).toEqual(new Set(['vlada', 'schvalila', 'rozpocet']));
+    expect(titleTokens('Guvernul a aprobat bugetul pentru anul viitor', 'ro').has('pentru')).toBe(false);
+    expect(titleTokens('Președintele în vizită la București', 'ro')).toEqual(
+      titleTokens('Presedintele vizita Bucuresti', 'ro'),
+    );
+  });
+});
+
 describe('titleTokens: Japanese', () => {
   it('cuts kanji runs into bigrams, keeps katakana words and drops hiragana', () => {
     expect([...titleTokens('石破首相がワシントンを訪問', 'ja')].sort()).toEqual(

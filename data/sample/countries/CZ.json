@@ -1,0 +1,613 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "CZ",
+  "countryName": "Czechia",
+  "updatedAt": "2026-10-06T13:55:23.742Z",
+  "clusters": [
+    {
+      "id": "hEiohSTxX7Fz",
+      "representative": {
+        "id": "hEiohSTxX7Fz",
+        "url": "https://ct24.ceskatelevize.cz/clanek/veda/nobelovu-cenu-za-fyziku-dostal-francis-halzen-za-vyzkum-neutrin-378284",
+        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/veda/nobelovu-cenu-za-fyziku-dostal-francis-halzen-za-vyzkum-neutrin-378284",
+        "title": "Nobelovu cenu za fyziku dostal Francis Halzen za výzkum neutrin v obří ledové kostce",
+        "description": "Švédská akademie věd oznámila, že nositelem Nobelovy ceny za fyziku za letošní rok se stal belgicko-americký vědec Francis Halzen, který se věnuje výzkumu neutrin, kosmických částic, které dopadají na Zemi.",
+        "source": {
+          "id": "ct24",
+          "name": "ČT24"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T09:56:26.000Z",
+        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/ZWY3NzAzZTkwZTM0Zjg3MwjuIgaic8MvGJVWRNUTp_7MvoSuFiq77GmhYbHG1JbisPFjDpZ5BFjItTfZT4e_1DwONvUgOwUltSGH3Kv0d7H-rsta2K6ZzC4WTMFhzo-h45U55TQKesgoyKvFQG-_yVe6QKUbtdKgTCNYYLf366j8xGM0aiFBS4qnhoFXcGYl.jpg?width=360",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "-qUGSXIhEVlz",
+          "url": "https://zpravy.aktualne.cz/zahranici/nobelovu-cenu-ziskal-belgican-za-objev-neutrin-s-obri-energii/r~aaa29d6da8b40482eb78163692378bfa/",
+          "canonicalUrl": "https://zpravy.aktualne.cz/zahranici/nobelovu-cenu-ziskal-belgican-za-objev-neutrin-s-obri-energii/r~aaa29d6da8b40482eb78163692378bfa/",
+          "title": "Nobelovu cenu získal Belgičan za objev neutrin s obří energií",
+          "description": "Nobelovu cenu za fyziku v úterý získal belgický astrofyzik Francis Halzen za objev vysokoenergetických neutrin astrofyzikálního původu, oznámila Královská švédská akademie věd. Ke sledování těchto velmi vzácných elementárních částic vytvořil observatoř IceCube v Antarktidě, díky níž jsou jejich…",
+          "source": {
+            "id": "aktualne",
+            "name": "Aktuálně.cz"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T10:41:00.000Z",
+          "imageUrl": "https://media.eco-files.cz/economia/production/files/2026/10/06/10/42/17/6ab934eb-d0de-466b-a387-9d2f7a38e87d/p2026100603697-original-5b351a.jpg",
+          "countryCode": "CZ",
+          "regionCode": null
+        },
+        {
+          "id": "XQFpuNv2Hj7c",
+          "url": "https://www.novinky.cz/clanek/veda-skoly-nobelovu-cenu-za-fyziku-dostal-francis-halzen-za-objev-vysokoenergetickych-neutrin-40601033",
+          "canonicalUrl": "https://www.novinky.cz/clanek/veda-skoly-nobelovu-cenu-za-fyziku-dostal-francis-halzen-za-objev-vysokoenergetickych-neutrin-40601033",
+          "title": "Nobelovu cenu za fyziku dostal Francis Halzen za objev vysokoenergetických neutrin",
+          "description": "Švédská akademie věd oznámila, že nový laureát Nobelovy ceny za fyziku za letošní rok je americký fyzik belgického původu Francis Halzen. Oceněn je za zásadní příspěvky k vybudování observatoře IceCube a za objev vysokoenergetických neutrin astrofyzikálního původu. K pozorování těchto velmi…",
+          "source": {
+            "id": "novinky",
+            "name": "Novinky.cz"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T10:15:03.000Z",
+          "imageUrl": null,
+          "countryCode": "CZ",
+          "regionCode": null
+        },
+        {
+          "id": "05UH8RRYffoP",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nobelovu-cenu-za-fyziku-ziskal-belgicky-astrofyzik-halzen-316888",
+          "canonicalUrl": "https://www.seznamzpravy.cz/clanek/zahranicni-nobelovu-cenu-za-fyziku-ziskal-belgicky-astrofyzik-halzen-316888",
+          "title": "Nobelovu cenu za fyziku získal belgický astrofyzik Halzen",
+          "description": "Vítězem Nobelovy ceny za fyziku se letos stal belgický astrofyzik Francis Halzen.",
+          "source": {
+            "id": "seznamzpravy",
+            "name": "Seznam Zprávy"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T10:05:19.000Z",
+          "imageUrl": null,
+          "countryCode": "CZ",
+          "regionCode": null
+        },
+        {
+          "id": "VRlsJ0bJr6ZE",
+          "url": "https://www.irozhlas.cz/veda-technologie/veda/nobelovu-cenu-za-fyziku-ziskal-astrofyzik-francis-halzen-za-objev_2610061202_cen",
+          "canonicalUrl": "https://www.irozhlas.cz/veda-technologie/veda/nobelovu-cenu-za-fyziku-ziskal-astrofyzik-francis-halzen-za-objev_2610061202_cen",
+          "title": "Nobelovu cenu za fyziku získal astrofyzik Francis Halzen za objev vysokoenergetických neutrin",
+          "description": "Nobelovu cenu za fyziku získal belgický astrofyzik Francis Halzen za objev vysokoenergetických neutrin, oznámila švédská akademie věd.",
+          "source": {
+            "id": "irozhlas",
+            "name": "iROZHLAS"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T10:02:00.000Z",
+          "imageUrl": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_maly_nahled/public/uploader/halzen_261006-115820_cen.png?itok=ppuX-50N",
+          "countryCode": "CZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T10:41:00.000Z"
+    },
+    {
+      "id": "AYeeyHNM2F_C",
+      "representative": {
+        "id": "AYeeyHNM2F_C",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/nemecka-policie-zadrzela-byvaleho-sefa-rozvedky-bnd-pro-podezreni-ze-spionaze-378286",
+        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/svet/nemecka-policie-zadrzela-byvaleho-sefa-rozvedky-bnd-pro-podezreni-ze-spionaze-378286",
+        "title": "Německá policie zadržela bývalého šéfa rozvědky BND pro podezření ze špionáže",
+        "description": "Německá policie zadržela bývalého šéfa rozvědky BND Augusta Hanninga pro podezření ze špionáže a pokus o vlastizradu. Informaci potvrdilo generální státní zastupitelství. Kromě Hanninga zadržela také jeho bývalého spolupracovníka.",
+        "source": {
+          "id": "ct24",
+          "name": "ČT24"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T08:33:09.000Z",
+        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/MmUyODBmZDAwNzdlMTU2Zv91U4s_CZ7fa5VwUl2n6QuJ-9jHxzohZIyfXB1JUtZOX5mTuzP7RTtyrIbkMyn1pCFwLQHwrA0a98U5JDMJGjb5Xsv-dD13Ls9Q4PvSHq5LWqG84iwRNzy2hYlj9KNhwlyVx8DyO_nE_j3228sWRtKa5VMTZ9BRCs7pisuq4DeH.JPG?width=360",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "0d2TypkyDBgW",
+          "url": "https://www.idnes.cz/zpravy/zahranicni/nemecka-policie-zadrzela-byvaleho-sefa-rozvedky-pro-podezreni-ze-spionaze.A261006_102109_zahranicni_bro#utm_source=rss&utm_medium=feed&utm_campaign=zpravodaj&utm_content=main",
+          "canonicalUrl": "https://www.idnes.cz/zpravy/zahranicni/nemecka-policie-zadrzela-byvaleho-sefa-rozvedky-pro-podezreni-ze-spionaze.A261006_102109_zahranicni_bro",
+          "title": "Německá policie zadržela bývalého šéfa rozvědky pro podezření ze špionáže",
+          "description": "Německá policie ráno zadržela bývalého šéfa rozvědky BND Augusta Hanninga pro podezření ze špionáže. Kromě Hanninga zadržela také jeho bývalého spolupracovníka Manfreda D.",
+          "source": {
+            "id": "idnes",
+            "name": "iDNES.cz"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T12:43:00.000Z",
+          "imageUrl": "https://1gr.cz/fotky/idnes/26/101/cl6/BRO56de781c23_profimedia_0260753965.jpg",
+          "countryCode": "CZ",
+          "regionCode": null
+        },
+        {
+          "id": "StbmakRK3Cui",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-nemecku-zadrzeli-byvaleho-sefa-rozvedky-pro-podezreni-ze-spionaze-316877",
+          "canonicalUrl": "https://www.seznamzpravy.cz/clanek/zahranicni-v-nemecku-zadrzeli-byvaleho-sefa-rozvedky-pro-podezreni-ze-spionaze-316877",
+          "title": "V Německu zadrželi bývalého šéfa rozvědky pro podezření ze špionáže",
+          "description": "Bývalého šéfa německé rozvědky zadrželi pro podezření z nákupu utajovaných informací od bývalého zaměstnance německé zahraniční rozvědky, které sám plánoval prodat.",
+          "source": {
+            "id": "seznamzpravy",
+            "name": "Seznam Zprávy"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T09:17:40.000Z",
+          "imageUrl": null,
+          "countryCode": "CZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T12:43:00.000Z"
+    },
+    {
+      "id": "943IcIJtl-xn",
+      "representative": {
+        "id": "943IcIJtl-xn",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/drony-zasahly-dve-lodi-v-ekonomicke-zone-bulharska-uvedla-prezidentka-378282",
+        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/svet/drony-zasahly-dve-lodi-v-ekonomicke-zone-bulharska-uvedla-prezidentka-378282",
+        "title": "Drony zasáhly dvě lodi v ekonomické zóně Bulharska, jedna se potopila",
+        "description": "Drony zasáhly dvě lodi v ekonomické zóně Bulharska, uvedl podle bulharských médií premiér Rumen Radev. Podle něj se jedno plavidlo potopilo a posádka je nezvěstná. Druhou loď zachvátil požár, námořníky se ale podařilo evakuovat. Tamní média píší o bezprecedentním koordinovaném útoku na obchodní…",
+        "source": {
+          "id": "ct24",
+          "name": "ČT24"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T07:12:15.000Z",
+        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/ODdiYTg0MDg3NjZlMzZjYefH2-LnIFTupk7uRI3ol0Qtgi8516fCjDtDkBVQII371pYHSMU8WutlMGu3u94DFg-kFZBq_A9uP9C3DGr7ix33ZUWN4kMD9UfAzOX2zzb5qI73DrvVfqsd97DFmkzrbQxdB0Er6S2M4zHxyK0kvqt-WQWsA0DfYhdF0kg020z7.JPG?width=360",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ZUSCja3XfxQi",
+          "url": "https://www.idnes.cz/zpravy/zahranicni/dron-bulharsko-zasah-dron-potopeni.A261006_090536_zahranicni_dtt#utm_source=rss&utm_medium=feed&utm_campaign=zpravodaj&utm_content=main",
+          "canonicalUrl": "https://www.idnes.cz/zpravy/zahranicni/dron-bulharsko-zasah-dron-potopeni.A261006_090536_zahranicni_dtt",
+          "title": "Drony zasáhly dvě lodi v ekonomické zóně Bulharska, jedna z nich se potopila",
+          "description": "Drony zasáhly dvě lodi v ekonomické zóně Bulharska, uvedl v úterý premiér země Rumen Radev. Podle něj se jedno plavidlo potopilo a posádka je nezvěstná. Druhou loď zachvátil požár, námořníky se ale podařilo evakuovat. Bulharská média píší o bezprecedentním koordinovaném útoku na obchodní plavidla…",
+          "source": {
+            "id": "idnes",
+            "name": "iDNES.cz"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T12:32:40.000Z",
+          "imageUrl": "https://1gr.cz/fotky/idnes/26/101/cl6/MEL681593e4cc_3DP_3_BULGARIA_INCIDENT.JPG",
+          "countryCode": "CZ",
+          "regionCode": null
+        },
+        {
+          "id": "g_BqXSmT9yS-",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-drony-zasahly-dve-lodi-v-ekonomicke-zone-bulharska-uvedla-prezidentka-316863",
+          "canonicalUrl": "https://www.seznamzpravy.cz/clanek/zahranicni-drony-zasahly-dve-lodi-v-ekonomicke-zone-bulharska-uvedla-prezidentka-316863",
+          "title": "Drony zasáhly dvě lodi v ekonomické zóně Bulharska, jedna se potopila",
+          "description": "V ekonomické zóně Bulharska zasáhly drony dvě lodě, jedna se potopila a druhou zachvátil požár. Jde o bezprecedentní útok, který přichází jen den poté, co tureckou loď s ukrajinským obilím zasáhl dron nedaleko břehů Rumunska.",
+          "source": {
+            "id": "seznamzpravy",
+            "name": "Seznam Zprávy"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T07:23:48.000Z",
+          "imageUrl": null,
+          "countryCode": "CZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T12:32:40.000Z"
+    },
+    {
+      "id": "_0rNfTc5G76K",
+      "representative": {
+        "id": "_0rNfTc5G76K",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/poprve-politik-z-alternativy-pro-nemecko-zemsky-snem-v-sasku-anhaltsku-zvolil-predsedu-378295",
+        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/svet/poprve-politik-z-alternativy-pro-nemecko-zemsky-snem-v-sasku-anhaltsku-zvolil-predsedu-378295",
+        "title": "Poprvé politik z Alternativy pro Německo. Zemský sněm v Sasku-Anhaltsku zvolil předsedu",
+        "description": "Poslanci zemského sněmu v Sasku-Anhaltsku v úterý předsedou zvolili zástupce Alternativy pro Německo (AfD) Tobiase Rausche. Jde o prvního politika z této protiimigrační a pravicově populistické strany v čele některého z německých regionálních parlamentů. Agentura DPA píše, že Rausche podpořilo 48…",
+        "source": {
+          "id": "ct24",
+          "name": "ČT24"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T10:59:27.000Z",
+        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/MjcwMDA2MjE4OWI3NWQ5OOzifOec8wikroesdb9q7d4ZkC_nlfV-NemEb7Wq2uaItl9ac2u9T7yzO5atZGAbKOxrRV7j5j_KuMVkQ-WkJTHpBdmJGaT6towhN_84CVr-OaSWugItpk9MEBBlZEH85aEmw93wk-hk7akRI8ahfzUpOHdR_98MgKOPy5INug-Y.JPG?width=360",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Xp2jOCrw1p-a",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zemsky-snem-saska-anhaltska-poprve-povede-politik-z-alternativy-pro-nemecko-316894",
+          "canonicalUrl": "https://www.seznamzpravy.cz/clanek/zahranicni-zemsky-snem-saska-anhaltska-poprve-povede-politik-z-alternativy-pro-nemecko-316894",
+          "title": "Zemský sněm Saska-Anhaltska poprvé povede politik z Alternativy pro Německo",
+          "description": "Novým předsedou zemského sněmu v Sasku-Anhaltsku zvolili poslanci zástupce Alternativy pro Německo (AfD) Tobiase Rausche. Je tak prvním politikem z této pravicové strany, který stanul v čele německého regionálního parlamentu.",
+          "source": {
+            "id": "seznamzpravy",
+            "name": "Seznam Zprávy"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T11:32:39.000Z",
+          "imageUrl": null,
+          "countryCode": "CZ",
+          "regionCode": null
+        },
+        {
+          "id": "BkvHIz7SaG42",
+          "url": "https://www.novinky.cz/clanek/zahranicni-evropa-zemsky-snem-v-sasku-anhaltsku-poprve-povede-politik-z-afd-40601074",
+          "canonicalUrl": "https://www.novinky.cz/clanek/zahranicni-evropa-zemsky-snem-v-sasku-anhaltsku-poprve-povede-politik-z-afd-40601074",
+          "title": "Ve chvíli vyhlášení nastalo hrobové ticho. Zemský sněm v Německu poprvé povede politik z AfD",
+          "description": "Poslanci zemského sněmu v Sasku-Anhaltsku v úterý jeho předsedou zvolili zástupce Alternativy pro Německo (AfD) Tobiase Rausche. Jde o prvního politika z této protestní strany v čele některého z německých regionálních parlamentů. AfD před měsícem s jasnou převahou vyhrála volby do zemského sněmu v…",
+          "source": {
+            "id": "novinky",
+            "name": "Novinky.cz"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T10:59:49.000Z",
+          "imageUrl": null,
+          "countryCode": "CZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T11:32:39.000Z"
+    },
+    {
+      "id": "GmDn-nS5GLVU",
+      "representative": {
+        "id": "GmDn-nS5GLVU",
+        "url": "https://www.irozhlas.cz/sport/tenis/jiri-lehecka-atp-tokio-tenis-carlos-alcaraz_2610061310_kri",
+        "canonicalUrl": "https://www.irozhlas.cz/sport/tenis/jiri-lehecka-atp-tokio-tenis-carlos-alcaraz_2610061310_kri",
+        "title": "Lehečka v boji o titul na Alcaraze nestačil, ve finále turnaje v Tokiu neuhrál proti Španělovi ani set",
+        "description": "Jiří Lehečka titul na tenisovém turnaji v Tokiu nezískal. V úterním finále podlehl světové trojce a španělskému obhájci Carlosi Alcarazovi 6:7, 4:6. Utkání na tvrdém povrchu prohrál za hodinu a 36 minut.",
+        "source": {
+          "id": "irozhlas",
+          "name": "iROZHLAS"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T11:10:00.000Z",
+        "imageUrl": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_maly_nahled/public/uploader/lehe_261006-125348_kri.JPG?itok=aCL_AOGv",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "sZJXBlTpD85L",
+          "url": "https://www.seznamzpravy.cz/clanek/sport-tenis-lehecka-na-alcaraze-ve-finale-turnaje-v-tokiu-nestacil-a-skoncil-druhy-316895",
+          "canonicalUrl": "https://www.seznamzpravy.cz/clanek/sport-tenis-lehecka-na-alcaraze-ve-finale-turnaje-v-tokiu-nestacil-a-skoncil-druhy-316895",
+          "title": "Tenista Lehečka na Alcaraze ve finále turnaje v Tokiu nestačil",
+          "description": "Jiří Lehečka ve finále tenisového turnaje v Tokiu podlehl světové trojce a španělskému obhájci Carlosi Alcarazovi 6:7 a 4:6.",
+          "source": {
+            "id": "seznamzpravy",
+            "name": "Seznam Zprávy"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T11:08:03.000Z",
+          "imageUrl": null,
+          "countryCode": "CZ",
+          "regionCode": null
+        },
+        {
+          "id": "UkBsykg9Z5ZN",
+          "url": "https://sport.aktualne.cz/tenis/lehecka-alcaraz-cech-hraje-o-svuj-treti-titul-se-spanelskou-superstar/r~aaa2944b16190fcd3df3e357951fc2a0/",
+          "canonicalUrl": "https://sport.aktualne.cz/tenis/lehecka-alcaraz-cech-hraje-o-svuj-treti-titul-se-spanelskou-superstar/r~aaa2944b16190fcd3df3e357951fc2a0/",
+          "title": "Lehečka - Alcaraz 0:2. Titul z turnaje v Tokiu patří Španělovi",
+          "description": "Sledovali jsme online finále tenisového turnaje v Tokiu mezi Jiřím Lehečkou a Carlosem Alcarazem ze Španělska.",
+          "source": {
+            "id": "aktualne",
+            "name": "Aktuálně.cz"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T08:46:00.000Z",
+          "imageUrl": "https://media.eco-files.cz/economia/production/files/2026/10/05/13/18/28/94a3f0dc-2b03-4a2f-9f00-c22e1792fd65/tag:reuters.com,2026:newsml_UP1EM8U1J8NYK.jpg",
+          "countryCode": "CZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T11:10:00.000Z"
+    },
+    {
+      "id": "1PYMBYPnr0PS",
+      "representative": {
+        "id": "1PYMBYPnr0PS",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/paramount-dokoncil-prevzeti-warner-bros-discovery-378302",
+        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/svet/paramount-dokoncil-prevzeti-warner-bros-discovery-378302",
+        "title": "Paramount dokončil převzetí Warner Bros. Discovery",
+        "description": "Americký mediální konglomerát Paramount Skydance v úterý dokončil převzetí konkurenční společnosti Warner Bros. Discovery v hodnotě přibližně 110 miliard dolarů (2,4 bilionu korun). Skupina, která nově nese název Skydance, to oznámila v tiskové zprávě. Šéf skupiny David Ellison již minulý týden…",
+        "source": {
+          "id": "ct24",
+          "name": "ČT24"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:18:42.000Z",
+        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/MzEwZjFhZDBhNTc5MDY0MlFMmro08OI9sWGtR4rG9EXBzBAQyx1LyLhT6TpDSZcP13gA5xa_i5VjOLrFv8AfxinffdeyWlrUkpALft8fQdhsy8PSfsGJbynFGucOQFgy8AaCTpnXfL7GUAZgK4pzXk4atguL0Vdjx2Ue4V-Vr34JYcJUFFfb3cXcJ_EDPrbO.JPG?width=360",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "B5NcV3llEuBL",
+          "url": "https://www.novinky.cz/clanek/ekonomika-paramount-skydance-dokoncil-prevzeti-warner-bros-discovery-40601114",
+          "canonicalUrl": "https://www.novinky.cz/clanek/ekonomika-paramount-skydance-dokoncil-prevzeti-warner-bros-discovery-40601114",
+          "title": "Paramount Skydance dokončil převzetí Warner Bros. Discovery",
+          "description": "Americký mediální konglomerát Paramount Skydance dokončil převzetí konkurenční společnosti Warner Bros. Discovery v hodnotě přibližně 110 miliard dolarů (2,4 bilionu korun). Skupina, která nově nese název Skydance, to oznámila v tiskové zprávě.",
+          "source": {
+            "id": "novinky",
+            "name": "Novinky.cz"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T13:11:44.000Z",
+          "imageUrl": null,
+          "countryCode": "CZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:18:42.000Z"
+    },
+    {
+      "id": "gDXPoqnSTlW8",
+      "representative": {
+        "id": "gDXPoqnSTlW8",
+        "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nato-pripravuje-plan-jak-odrazit-rusky-utok-pomoci-dronu-a-ai-316905",
+        "canonicalUrl": "https://www.seznamzpravy.cz/clanek/zahranicni-nato-pripravuje-plan-jak-odrazit-rusky-utok-pomoci-dronu-a-ai-316905",
+        "title": "NATO připravuje plán, jak odrazit ruský útok pomocí dronů a AI",
+        "description": "NATO představí dokument, který vysvětlí, jak by postupovalo v případě možného vpádu Ruska na území aliance. Podle dokumentu je cílem aliance svou připraveností přimět protivníka k závěru, že nemůže zvítězit.",
+        "source": {
+          "id": "seznamzpravy",
+          "name": "Seznam Zprávy"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T12:27:00.000Z",
+        "imageUrl": null,
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Ajisr5lY6_Kp",
+          "url": "https://zpravy.aktualne.cz/zahranici/kombinace-pechoty-dronu-a-ai-nato-ma-plan-jak-odrazit-rusky-utok/r~aaa291576f202d8a0948ff087f9203d7/",
+          "canonicalUrl": "https://zpravy.aktualne.cz/zahranici/kombinace-pechoty-dronu-a-ai-nato-ma-plan-jak-odrazit-rusky-utok/r~aaa291576f202d8a0948ff087f9203d7/",
+          "title": "Kombinace pěchoty, dronů a AI. NATO má plán, jak odrazit ruský útok",
+          "description": "NATO pracuje na strategii, jejímž cílem je dosáhnout rychlého vítězství v případě ruského útoku na východní křídlo aliance. Důraz přitom klade na integraci nových technologií, jako jsou drony a umělá inteligence, do tradičních vojenských schopností. Informovala o tom agentura Bloomberg.",
+          "source": {
+            "id": "aktualne",
+            "name": "Aktuálně.cz"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T12:56:00.000Z",
+          "imageUrl": "https://media.eco-files.cz/economia/production/files/2026/10/06/12/57/28/7019cdac-3c0b-463f-b173-bdaf8906d729/p2026100105991-original-f69d5a.jpg",
+          "countryCode": "CZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:56:00.000Z"
+    },
+    {
+      "id": "SucEZmkTtrtc",
+      "representative": {
+        "id": "SucEZmkTtrtc",
+        "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-skupina-podnikatelu-vcetne-auditora-je-obzalovana-z-danovych-podvodu-316911",
+        "canonicalUrl": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-skupina-podnikatelu-vcetne-auditora-je-obzalovana-z-danovych-podvodu-316911",
+        "title": "Skupina podnikatelů včetně auditora je obžalovaná z daňových podvodů",
+        "description": "Královéhradecký krajský soud začal rozplétat kauzu podnikatelské skupiny viněné z daňových úniků převyšujících 134 milionů korun. K podvodům mělo dojít například fiktivními obchody s mobily.",
+        "source": {
+          "id": "seznamzpravy",
+          "name": "Seznam Zprávy"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:50:00.000Z",
+        "imageUrl": null,
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:50:00.000Z"
+    },
+    {
+      "id": "NCwa4pf6sl5W",
+      "representative": {
+        "id": "NCwa4pf6sl5W",
+        "url": "https://denikn.cz/2206575/na-cornellove-univerzite-se-protestuje-kritika-roste-zradil-americky-system-spravedlnosti-studentku/",
+        "canonicalUrl": "https://denikn.cz/2206575/na-cornellove-univerzite-se-protestuje-kritika-roste-zradil-americky-system-spravedlnosti-studentku/",
+        "title": "Na Cornellově univerzitě se protestuje, kritika roste. Zradil americký systém spravedlnosti studentku?",
+        "description": "Okolo případu žaloby pro podezření na hromadné znásilnění studentky prestižní americké Cornellovy univerzity se vynořují další podrobnosti.",
+        "source": {
+          "id": "denikn",
+          "name": "Deník N"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:47:12.000Z",
+        "imageUrl": "https://img.novydenik.com/wp-static/2026/10/2026-10-06T000926Z127532002RC2AXNAE3523RTRMADP3USA-CRIME-CORNELL-studenti-pochodujici-kampusem-C.jpg?w=450&h=300&fit=crop&fm=jpg&q=85",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:47:12.000Z"
+    },
+    {
+      "id": "k6NsayeOnJDe",
+      "representative": {
+        "id": "k6NsayeOnJDe",
+        "url": "https://www.novinky.cz/clanek/zahranicni-general-armagedon-se-vraci-putin-znovu-povolal-do-veleni-armady-obavaneho-sergeje-surovikina-40601118",
+        "canonicalUrl": "https://www.novinky.cz/clanek/zahranicni-general-armagedon-se-vraci-putin-znovu-povolal-do-veleni-armady-obavaneho-sergeje-surovikina-40601118",
+        "title": "Má srazit Ukrajinu na kolena. Putin povolal do velení armády generála s krutou pověstí",
+        "description": "Ruský prezident Vladimir Putin se chystá vrátit do velení na ukrajinskou frontu obávaného generála Sergeje Surovikina (59), známého pod přezdívkou „generál Armagedon“. Má donutit Ukrajinu ke kapitulaci. Podle ukrajinského prezidenta Volodymyra Zelenského se Rusové chystají na další masivní úder…",
+        "source": {
+          "id": "novinky",
+          "name": "Novinky.cz"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:46:04.000Z",
+        "imageUrl": null,
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:46:04.000Z"
+    },
+    {
+      "id": "p2Z5ggtRMZg8",
+      "representative": {
+        "id": "p2Z5ggtRMZg8",
+        "url": "https://www.novinky.cz/clanek/domaci-zpravy-stredocesky-kraj-odpad-se-vic-roztridi-na-nove-lince-vydela-na-tom-i-obec-radim-40601099",
+        "canonicalUrl": "https://www.novinky.cz/clanek/domaci-zpravy-stredocesky-kraj-odpad-se-vic-roztridi-na-nove-lince-vydela-na-tom-i-obec-radim-40601099",
+        "title": "Odpad se víc roztřídí na nové lince, vydělá na tom i obec Radim",
+        "description": "Na skládkách stále končí tisíce tun odpadu, ale od roku 2035 má platit zákaz skládkování. Řešením je stále vyšší stupeň třídění a recyklace. V obci Radim na Kolínsku vznikla nová třídící linka na zpracování a další separaci plastů. Ty se sem budou svážet z okolních měst od Nymburska, okrajů Prahy…",
+        "source": {
+          "id": "novinky",
+          "name": "Novinky.cz"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:45:41.000Z",
+        "imageUrl": null,
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:45:41.000Z"
+    },
+    {
+      "id": "piWu_LZTYixF",
+      "representative": {
+        "id": "piWu_LZTYixF",
+        "url": "https://www.novinky.cz/clanek/domaci-zpravy-jihomoravsky-kraj-konec-po-118-letech-straznice-prisla-o-stanici-meteorologu-40601124",
+        "canonicalUrl": "https://www.novinky.cz/clanek/domaci-zpravy-jihomoravsky-kraj-konec-po-118-letech-straznice-prisla-o-stanici-meteorologu-40601124",
+        "title": "Konec po 118 letech, Strážnice přišla o stanici meteorologů",
+        "description": "Strážnice po 118 letech přišla o měřicí stanici meteorologů. Český hydrometeorologický ústav (ČHMÚ) po několika měsících příprav přistoupil k jejímu přesunu do nedalekého Radějova.",
+        "source": {
+          "id": "novinky",
+          "name": "Novinky.cz"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:44:32.000Z",
+        "imageUrl": null,
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:44:32.000Z"
+    },
+    {
+      "id": "r-Oo6FouDJET",
+      "representative": {
+        "id": "r-Oo6FouDJET",
+        "url": "https://denikn.cz/2202067/grolich-je-symbolem-opozice-proc-babise-tolik-zajima-jihomoravsky-hejtman/",
+        "canonicalUrl": "https://denikn.cz/2202067/grolich-je-symbolem-opozice-proc-babise-tolik-zajima-jihomoravsky-hejtman/",
+        "title": "„Grolich je symbolem opozice.“ Proč Babiše tolik zajímá jihomoravský hejtman?",
+        "description": "Hnutí ANO před senátními volbami upírá mimořádnou pozornost na Vyškovsko, kde proti jeho kandidátce stojí šéf lidovců Jan Grolich. Proč Andreje Babiše tolik zajímá právě jihomoravský hejtman? O tom v podcastu Vrtěti psem mluvili redaktoři Deníku N Markéta Boubínová, Tobiáš Pospíchal a Jan Tvrdoň…",
+        "source": {
+          "id": "denikn",
+          "name": "Deník N"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:43:32.000Z",
+        "imageUrl": "https://img.novydenik.com/wp-static/2026/04/GK03958.jpg?w=450&h=300&fit=crop&fm=jpg&q=85",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:43:32.000Z"
+    },
+    {
+      "id": "-kfDPoTlVuYI",
+      "representative": {
+        "id": "-kfDPoTlVuYI",
+        "url": "https://denikn.cz/2196010/roky-unavy-amenorea-i-zbytecna-hormonalni-lecba-celiakie-byva-prehlizenou-pricinou-menstruacnich-potizi/",
+        "canonicalUrl": "https://denikn.cz/2196010/roky-unavy-amenorea-i-zbytecna-hormonalni-lecba-celiakie-byva-prehlizenou-pricinou-menstruacnich-potizi/",
+        "title": "Roky únavy, amenorea i zbytečná hormonální léčba. Celiakie bývá přehlíženou příčinou menstruačních potíží",
+        "description": "Autoimunitní onemocnění spojené s nesnášenlivostí lepku nezasahuje pouze trávicí trakt, ale hluboce ovlivňuje i hormonální rovnováhu a reprodukční zdraví žen. Přesto se u pacientek s gynekologickými obtížemi na celiakii netestuje rutinně a diagnóza tak často přichází až po letech zbytečného…",
+        "source": {
+          "id": "denikn",
+          "name": "Deník N"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:43:27.000Z",
+        "imageUrl": "https://img.novydenik.com/wp-static/2026/09/AdobeStock237219665jpeg.jpg?w=450&h=300&fit=crop&fm=jpg&q=85",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:43:27.000Z"
+    },
+    {
+      "id": "5Y20mygMlNCd",
+      "representative": {
+        "id": "5Y20mygMlNCd",
+        "url": "https://www.novinky.cz/clanek/auto-prilis-mnoho-elektromobilu-na-ceste-cina-pro-ne-nasazuje-obri-mobilni-powerbanky-40601113",
+        "canonicalUrl": "https://www.novinky.cz/clanek/auto-prilis-mnoho-elektromobilu-na-ceste-cina-pro-ne-nasazuje-obri-mobilni-powerbanky-40601113",
+        "title": "Příliš mnoho elektromobilů na cestě. Čína pro ně nasazuje obří mobilní powerbanky",
+        "description": "Na začátku října, kdy v Číně začaly svátky, vedl prudký nárůst počtu elektromobilů na dálnicích k dlouhým frontám u stálých nabíjecích stanic. Objevuje se proto alternativa v podobě mobilních nabíjecích stanic s bateriemi na nákladních autech.",
+        "source": {
+          "id": "novinky",
+          "name": "Novinky.cz"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:43:26.000Z",
+        "imageUrl": null,
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:43:26.000Z"
+    }
+  ]
+}

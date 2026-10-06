@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ES",
   "countryName": "Spain",
-  "updatedAt": "2026-10-06T13:46:38.119Z",
+  "updatedAt": "2026-10-06T13:55:23.742Z",
   "clusters": [
     {
       "id": "3M4pigwXBPaP",
@@ -502,48 +502,6 @@
       "latestPublishedAt": "2026-10-06T12:48:18.000Z"
     },
     {
-      "id": "P0ZCQC3LRSU9",
-      "representative": {
-        "id": "P0ZCQC3LRSU9",
-        "url": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
-        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
-        "title": "Así ha sido el discurso íntegro de Pedro Sánchez con el que ha convocado elecciones",
-        "description": "El discurso del presidente se ha centrado en la complejidad para negociar durante esta legislatura, la dureza de la oposición y los logros conseguidos Leer",
-        "source": {
-          "id": "elmundo",
-          "name": "El Mundo"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-05T08:26:00.000Z",
-        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911887360643.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "E5EBQ2gikBUp",
-          "url": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
-          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
-          "title": "Última hora sobre Pedro Sánchez, las medidas de la vivienda y las elecciones anticipadas, en directo",
-          "description": "Pedro Sánchez anuncia avales y 680 millones para impulsar la construcción de vivienda",
-          "source": {
-            "id": "lavanguardia",
-            "name": "La Vanguardia"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:35:24.000Z",
-          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac4e2f4cb6c5.jpeg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:35:24.000Z"
-    },
-    {
       "id": "TOS4TK4CoqdX",
       "representative": {
         "id": "TOS4TK4CoqdX",
@@ -698,6 +656,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:14:32.000Z"
+    },
+    {
+      "id": "q7WZHV1cshcq",
+      "representative": {
+        "id": "q7WZHV1cshcq",
+        "url": "https://www.abc.es/espana/homenaje-ceuta-melilla-senado-espanolas-medula-20261006124125-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/homenaje-ceuta-melilla-senado-espanolas-medula-20261006124125-nt.html",
+        "title": "Homenaje a Ceuta y Melilla en el Senado: «Son españolas hasta la médula»",
+        "description": "«Ceuta es España. Hasta la médula. Se mire por donde se mire». Fue una de las últimas frases que pronunció Juan Jesús Vivas despertando un largo aplauso en el Antiguo Salón de Sesiones del Senado. El salón, ya de por sí imponente, acogió un acto convertido en un alegato sincero por la españolidad…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:14:15.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518360908-RoTyBXVUlDbsTEC8R4HhfRM-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:14:15.000Z"
     }
   ]
 }

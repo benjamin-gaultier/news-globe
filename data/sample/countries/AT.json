@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AT",
   "countryName": "Austria",
-  "updatedAt": "2026-10-06T13:46:38.119Z",
+  "updatedAt": "2026-10-06T13:55:23.742Z",
   "clusters": [
     {
       "id": "HkGyfdFFUnK7",
@@ -375,48 +375,6 @@
       "latestPublishedAt": "2026-10-06T07:01:30.000Z"
     },
     {
-      "id": "oxIvoq36LR9l",
-      "representative": {
-        "id": "oxIvoq36LR9l",
-        "url": "https://www.derstandard.at/story/3000000342777/tiroler-oevp-politiker-tritt-nach-rassistischem-sager-auf-oktoberfest-zurueck?ref=rss",
-        "canonicalUrl": "https://www.derstandard.at/story/3000000342777/tiroler-oevp-politiker-tritt-nach-rassistischem-sager-auf-oktoberfest-zurueck",
-        "title": "Tiroler ÖVP-Politiker tritt nach rassistischem Sager auf Oktoberfest zurück",
-        "description": "Der Funktionär hatte auf dem Oktoberfest in München zu einem schwarzen Creator gesagt: \"Du bist hier nicht zu Hause\"",
-        "source": {
-          "id": "derstandard",
-          "name": "Der Standard"
-        },
-        "sourceCountry": "AT",
-        "language": "de",
-        "publishedAt": "2026-10-05T14:04:04.000Z",
-        "imageUrl": "https://i.ds.at/0xgCUg/rs:fill:150:0/plain/lido-images/2026/10/05/9382999a-d322-4c21-aef6-9a899152bdc7.jpg",
-        "countryCode": "AT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "jxJgT6YwjVaE",
-          "url": "https://www.kleinezeitung.at/artikel/41323068/oevp-funktionaer-sorgt-auf-dem-oktoberfest-fuer-rassismus-eklat",
-          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41323068/oevp-funktionaer-sorgt-auf-dem-oktoberfest-fuer-rassismus-eklat",
-          "title": "ÖVP-Funktionär tritt nach Rassismus-Eklat auf Oktoberfest zurück",
-          "description": "Ein Video auf Social Media sorgt für Aufregung, in dem ein Tiroler Gemüsebauer und ÖVP-Lokalpolitiker einen deutschen Influencer auf dem Münchner Oktoberfest mehrfach rassistisch beleidigt.",
-          "source": {
-            "id": "kleinezeitung",
-            "name": "Kleine Zeitung"
-          },
-          "sourceCountry": "AT",
-          "language": "de",
-          "publishedAt": "2026-10-05T13:46:39.000Z",
-          "imageUrl": "https://img.kleinezeitung.at/public/incoming/h1auvi-ap21695aptopixgermanyoktoberfest41158jpg/alternates/BASE_LANDSCAPE/AP21695_APTOPIX_Germany_Oktoberfest_41158.jpg",
-          "countryCode": "AT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T14:04:04.000Z"
-    },
-    {
       "id": "quFjuJbujPnm",
       "representative": {
         "id": "quFjuJbujPnm",
@@ -559,6 +517,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:17:23.000Z"
+    },
+    {
+      "id": "jW8axJmdU40s",
+      "representative": {
+        "id": "jW8axJmdU40s",
+        "url": "https://www.krone.at/4321672",
+        "canonicalUrl": "https://www.krone.at/4321672",
+        "title": "„Russland führt Schattenkrieg mit dem Westen“",
+        "description": "Europas Nachrichtendienste schlagen Alarm: Russland führt einen unerklärten, hybriden Krieg. Während Deutschland zum Hauptziel wird, wiegt sich Österreich in falscher Neutralitätssicherheit, so Russland-Experte Alexander Dubowy.",
+        "source": {
+          "id": "krone",
+          "name": "Kronen Zeitung"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:16:05.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:16:05.000Z"
     }
   ]
 }

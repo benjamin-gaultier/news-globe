@@ -696,7 +696,74 @@ Swedish, Norwegian, Danish and Polish have their own stopword lists. They are fo
 | ~~Bernama~~ | — | — | ❌ **dropped**: undated items would look new on every feed change |
 | ~~The Star~~, ~~The Edge~~ | — | — | ❌ **dropped**: 404 |
 
-Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Egypt (Ahram 403, three thin feeds), Thailand (three feeds of 5–10 items), the UAE (two feeds) and Bangladesh (403 or malformed everywhere).
+**Ukraine** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| The Kyiv Independent | news archive | 10 | ✅ (en) |
+| Ukrainska Pravda | English | 9 | ✅ (en) |
+| Ukrinform | latest news | 8 | ✅ (state news agency, en) |
+| Kyiv Post | main feed | 8 | ✅ (en) |
+
+**Czechia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| ČT24 | hlavní zprávy | 10 | ✅ (public broadcaster) |
+| iROZHLAS | main feed | 9 | ✅ (public radio) |
+| iDNES.cz | zpravodajství | 9 | ✅ |
+| Novinky.cz | main feed | 8 | ✅ |
+| Seznam Zprávy | main feed | 8 | ✅ |
+| Deník N | main feed | 8 | ✅ |
+| Aktuálně.cz | main feed | 7 | ✅ |
+
+**Romania** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Digi24 | main feed | 9 | ✅ |
+| HotNews.ro | main feed | 9 | ✅ |
+| G4Media | main feed | 8 | ✅ (10 items) |
+| Adevărul | main feed | 8 | ✅ |
+| Libertatea | main feed | 7 | ✅ |
+| ~~Agerpres~~ | — | — | ❌ **dropped**: times out |
+
+Czech and Romanian have their own stopword lists; their diacritics all decompose, so the lists are plain ASCII.
+
+**Zimbabwe** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| The Herald | main feed | 10 | ✅ (10 items) |
+| NewsDay | main feed | 9 | ✅ (10 items) |
+| NewZimbabwe | main feed | 8 | ✅ |
+| 263Chat | main feed | 7 | ✅ (10 items) |
+| ~~ZimLive~~, ~~Nehanda Radio~~ | — | — | ❌ **dropped**: 403 for bots |
+| ~~The Chronicle~~ | — | — | ❌ **dropped**: empty feed |
+
+**Uganda** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Nile Post | main feed | 9 | ✅ |
+| The Observer | main feed | 8 | ✅ (10 items) |
+| The Independent (Uganda) | main feed | 8 | ✅ (10 items) |
+| SoftPower News | main feed | 6 | ✅ (10 items) |
+| KFM | main feed | 6 | ✅ (10 items) |
+| ~~Daily Monitor~~, ~~New Vision~~ | — | — | ❌ **dropped**: 403 / 404 |
+
+**Jamaica** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| The Gleaner | main feed | 10 | ✅ (10 items) |
+| Jamaica Observer | main feed | 9 | ✅ |
+| Nationwide News Network | main feed | 7 | ✅ (10 items) |
+| ~~Radio Jamaica~~ | — | — | ❌ **dropped**: 404 |
+
+Zimbabwe and Jamaica have small feeds, so few of their stories reach two outlets.
+
+Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Egypt (Ahram 403, three thin feeds), Thailand (three feeds of 5–10 items), the UAE (two feeds) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia, Tanzania and Saudi Arabia (one usable feed each).
 
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
 
