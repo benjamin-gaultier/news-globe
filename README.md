@@ -632,6 +632,72 @@ Dutch has its own stopword list (with weekdays and months), and `-en` plurals ar
 
 As with Canada and Switzerland, stories cluster only within a language.
 
+**Sweden** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| SVT Nyheter | main feed | 10 | ✅ (public broadcaster) |
+| Dagens Nyheter | main feed | 9 | ✅ |
+| Svenska Dagbladet | articles | 9 | ✅ |
+| Ekot (Sveriges Radio) | program feed | 9 | ✅ (public radio) |
+| Aftonbladet | senaste nytt | 8 | ✅ |
+| Expressen | nyheter | 8 | ✅ |
+| Göteborgs-Posten | main feed | 7 | ✅ |
+
+Identical titles across Swedish (and Norwegian) papers are TT/NTB wire copy, which every outlet runs, so they count as separate outlets.
+
+**Norway** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| NRK | siste nytt | 10 | ✅ (public broadcaster; toppsaker feed is a day stale) |
+| Aftenposten | main feed | 9 | ✅ |
+| VG | main feed | 9 | ✅ (10 items) |
+| Dagbladet | main feed | 8 | ✅ |
+| TV 2 | nyheter | 8 | ✅ |
+| Nettavisen | main feed | 7 | ✅ |
+| E24 | main feed | 6 | ✅ |
+
+**Denmark** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| DR Nyheder | seneste nyt | 10 | ✅ (public broadcaster) |
+| Politiken | seneste nyt | 9 | ✅ |
+| Berlingske | main feed | 9 | ✅ (10 items) |
+| Ekstra Bladet | all | 7 | ✅ (10 items) |
+| ~~B.T.~~ | — | — | ❌ **skipped**: runs Berlingske's copy word for word |
+| ~~Jyllands-Posten~~ | — | — | ❌ **dropped**: malformed XML |
+| ~~TV 2~~ | — | — | ❌ **dropped**: feed gone |
+
+**Poland** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| TVN24 | najnowsze | 10 | ✅ |
+| Rzeczpospolita | main feed | 9 | ✅ |
+| Gazeta Wyborcza | najnowsze | 9 | ✅ |
+| Polsat News | Polska | 8 | ✅ |
+| RMF24 | fakty | 8 | ✅ |
+| Onet | wiadomości | 7 | ✅ |
+| Wirtualna Polska | wiadomości | 7 | ✅ |
+| ~~PAP~~ | — | — | ❌ **dropped**: malformed XML |
+
+Swedish, Norwegian, Danish and Polish have their own stopword lists. They are folded like the tokens, so å, ö and ś lose their marks while ø, æ and ł stay. "Several" (*flera*, *flere*) is a stopword: "flera skadade" merged two unrelated Swedish bus crashes.
+
+**Malaysia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Malaysiakini | English news | 10 | ✅ (10 items) |
+| New Straits Times | main feed | 9 | ✅ |
+| Free Malaysia Today | main feed | 9 | ✅ (some items in Malay) |
+| Malay Mail | Malaysia | 8 | ✅ |
+| ~~Bernama~~ | — | — | ❌ **dropped**: undated items would look new on every feed change |
+| ~~The Star~~, ~~The Edge~~ | — | — | ❌ **dropped**: 404 |
+
+Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Egypt (Ahram 403, three thin feeds), Thailand (three feeds of 5–10 items), the UAE (two feeds) and Bangladesh (403 or malformed everywhere).
+
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
 
 When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`. Also check that the newest item is recent: Corriere and The Telegraph return well-formed but stale feeds.

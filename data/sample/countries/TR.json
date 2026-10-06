@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TR",
   "countryName": "Turkey",
-  "updatedAt": "2026-10-06T13:38:15.960Z",
+  "updatedAt": "2026-10-06T13:46:38.119Z",
   "clusters": [
     {
       "id": "Lt2yIt7GZh9N",
@@ -129,7 +129,7 @@
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T13:38:15.960Z",
+          "publishedAt": "2026-10-06T13:46:38.119Z",
           "imageUrl": null,
           "countryCode": "TR",
           "regionCode": null
@@ -171,7 +171,7 @@
       ],
       "outletCount24h": 4,
       "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T13:38:15.960Z"
+      "latestPublishedAt": "2026-10-06T13:46:38.119Z"
     },
     {
       "id": "vk026WA2ZZyC",
@@ -478,65 +478,6 @@
       "latestPublishedAt": "2026-10-06T09:48:00.000Z"
     },
     {
-      "id": "eb0zYEP_TSHd",
-      "representative": {
-        "id": "eb0zYEP_TSHd",
-        "url": "https://www.hurriyet.com.tr/gundem/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-43331411",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-43331411",
-        "title": "Tokat'ta yol çöktü: 2 katlı ev tahliye edildi",
-        "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
-        "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T10:27:20.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4cce9983ec8bbc1174f52.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "LQEGOppfUw85",
-          "url": "https://www.cnnturk.com/turkiye/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-3475620",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-3475620",
-          "title": "Tokat'ta yol çöktü, 2 katlı ev tahliye edildi",
-          "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T13:38:15.960Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "jzsiSeSQWMb-",
-          "url": "https://www.cumhuriyet.com.tr/turkiye/tokat-ta-faciadan-donuldu-yol-coktu-2-katli-ev-tahliye-edildi-2544182",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/tokat-ta-faciadan-donuldu-yol-coktu-2-katli-ev-tahliye-edildi-2544182",
-          "title": "Tokat'ta faciadan dönüldü! Yol çöktü: 2 katlı ev tahliye edildi",
-          "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T10:32:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/1cb53bbe-f151-4c37-915a-8b22de4a8fd5.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:38:15.960Z"
-    },
-    {
       "id": "wASwsAoJYe4J",
       "representative": {
         "id": "wASwsAoJYe4J",
@@ -568,7 +509,7 @@
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T13:38:15.960Z",
+          "publishedAt": "2026-10-06T13:46:38.119Z",
           "imageUrl": null,
           "countryCode": "TR",
           "regionCode": null
@@ -593,7 +534,66 @@
       ],
       "outletCount24h": 3,
       "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:38:15.960Z"
+      "latestPublishedAt": "2026-10-06T13:46:38.119Z"
+    },
+    {
+      "id": "eb0zYEP_TSHd",
+      "representative": {
+        "id": "eb0zYEP_TSHd",
+        "url": "https://www.hurriyet.com.tr/gundem/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-43331411",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-43331411",
+        "title": "Tokat'ta yol çöktü: 2 katlı ev tahliye edildi",
+        "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T10:27:20.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4cce9983ec8bbc1174f52.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "LQEGOppfUw85",
+          "url": "https://www.cnnturk.com/turkiye/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-3475620",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-3475620",
+          "title": "Tokat'ta yol çöktü, 2 katlı ev tahliye edildi",
+          "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T13:38:39.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "jzsiSeSQWMb-",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/tokat-ta-faciadan-donuldu-yol-coktu-2-katli-ev-tahliye-edildi-2544182",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/tokat-ta-faciadan-donuldu-yol-coktu-2-katli-ev-tahliye-edildi-2544182",
+          "title": "Tokat'ta faciadan dönüldü! Yol çöktü: 2 katlı ev tahliye edildi",
+          "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
+          "source": {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T10:32:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/1cb53bbe-f151-4c37-915a-8b22de4a8fd5.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:38:39.000Z"
     },
     {
       "id": "PZCsDHQRN68z",
@@ -863,7 +863,7 @@
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T13:38:15.960Z",
+          "publishedAt": "2026-10-06T13:46:38.119Z",
           "imageUrl": null,
           "countryCode": "TR",
           "regionCode": null
@@ -871,7 +871,7 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:38:15.960Z"
+      "latestPublishedAt": "2026-10-06T13:46:38.119Z"
     },
     {
       "id": "NQl0K9ydaaif",
@@ -905,7 +905,7 @@
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T13:38:15.960Z",
+          "publishedAt": "2026-10-06T13:46:38.119Z",
           "imageUrl": null,
           "countryCode": "TR",
           "regionCode": null
@@ -913,7 +913,7 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:38:15.960Z"
+      "latestPublishedAt": "2026-10-06T13:46:38.119Z"
     },
     {
       "id": "o6Vyu9z8w0yT",
@@ -947,7 +947,7 @@
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T13:38:15.960Z",
+          "publishedAt": "2026-10-06T13:46:38.119Z",
           "imageUrl": null,
           "countryCode": "TR",
           "regionCode": null
@@ -955,7 +955,7 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:38:15.960Z"
+      "latestPublishedAt": "2026-10-06T13:46:38.119Z"
     }
   ]
 }

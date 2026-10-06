@@ -121,6 +121,19 @@ describe('titleTokens: Dutch', () => {
   });
 });
 
+describe('titleTokens: Scandinavian and Polish', () => {
+  it('drops stopwords after folding, keeping ø and ł', () => {
+    expect(titleTokens('Regeringen säger nej till förslaget på måndag', 'sv')).toEqual(
+      titleTokens('Regeringen: nej till förslaget', 'sv'),
+    );
+    expect(titleTokens('Stortinget stemmer over budsjettet på søndag', 'nb').has('søndag')).toBe(false);
+    expect(titleTokens('Folketinget har vedtaget loven i dag', 'da').has('har')).toBe(false);
+    expect(titleTokens('Sejm przyjął ustawę, która będzie obowiązywać', 'pl')).toEqual(
+      new Set(['sejm', 'przyjał', 'ustaw', 'obowiazywac']),
+    );
+  });
+});
+
 describe('titleTokens: Japanese', () => {
   it('cuts kanji runs into bigrams, keeps katakana words and drops hiragana', () => {
     expect([...titleTokens('石破首相がワシントンを訪問', 'ja')].sort()).toEqual(

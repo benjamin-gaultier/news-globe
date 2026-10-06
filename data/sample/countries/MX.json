@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MX",
   "countryName": "Mexico",
-  "updatedAt": "2026-10-06T13:38:15.960Z",
+  "updatedAt": "2026-10-06T13:46:38.119Z",
   "clusters": [
     {
       "id": "5HUopp0WwYAv",
@@ -375,48 +375,6 @@
       "latestPublishedAt": "2026-10-05T19:39:04.000Z"
     },
     {
-      "id": "9inqMp752KK9",
-      "representative": {
-        "id": "9inqMp752KK9",
-        "url": "https://www.eluniversal.com.mx/nacion/catean-inmueble-en-san-luis-potosi-por-robo-a-autotransporte-aseguran-autopartes-y-montacargas/",
-        "canonicalUrl": "https://www.eluniversal.com.mx/nacion/catean-inmueble-en-san-luis-potosi-por-robo-a-autotransporte-aseguran-autopartes-y-montacargas/",
-        "title": "Catean inmueble en San Luis Potosí por robo a autotransporte; aseguran autopartes y montacargas",
-        "description": "García Harfuch señaló que estas acciones contribuyen a hacer de la carretera 57 una vía más segura",
-        "source": {
-          "id": "eluniversal",
-          "name": "El Universal"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-05T13:39:57.000Z",
-        "imageUrl": "https://www.eluniversal.com.mx/resizer/v2/TTRUHXSB6NGT5PRFZXQORFWMDQ.jpg?auth=c449673d8e50b972e867ae202e55e02383f4653256e7668479aad07c0b6baddd&smart=true&width=500",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "-se7y3RvoNW5",
-          "url": "https://www.elfinanciero.com.mx/nacional/2026/10/05/detienen-a-9-personas-vinculadas-a-robo-de-autotransporte-federal-en-san-luis-potosi/",
-          "canonicalUrl": "https://www.elfinanciero.com.mx/nacional/2026/10/05/detienen-a-9-personas-vinculadas-a-robo-de-autotransporte-federal-en-san-luis-potosi/",
-          "title": "Detienen a 9 personas vinculadas a robo de autotransporte federal en San Luis Potosí",
-          "description": "El secretario de seguridad, Omar García Harfuch, destacó que los operativos buscan reducir los asaltos a transportistas en la carretera federal 57.",
-          "source": {
-            "id": "elfinanciero",
-            "name": "El Financiero"
-          },
-          "sourceCountry": "MX",
-          "language": "es",
-          "publishedAt": "2026-10-05T15:06:35.000Z",
-          "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/aPiQbk1iwirNQoEfdHGFH1eD-bU=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/RTGEP4PYSVHC7GKBC76VGVISZE.png",
-          "countryCode": "MX",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T15:06:35.000Z"
-    },
-    {
       "id": "84j7ASHW7Klb",
       "representative": {
         "id": "84j7ASHW7Klb",
@@ -559,6 +517,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:19:03.000Z"
+    },
+    {
+      "id": "-ai-cYsU0Smz",
+      "representative": {
+        "id": "-ai-cYsU0Smz",
+        "url": "https://www.elfinanciero.com.mx/opinion/alejo-sanchez-cano/2026/10/06/la-ultima-reeleccion/",
+        "canonicalUrl": "https://www.elfinanciero.com.mx/opinion/alejo-sanchez-cano/2026/10/06/la-ultima-reeleccion/",
+        "title": "La última reelección",
+        "description": "Ricardo Monreal declaró que hay entre 130 y 150 diputados federales de Morena —entre ellos Dolores Padierna y Alfonso Ramírez Cuéllar— que pretenden reelegirse en los comicios de 2027.",
+        "source": {
+          "id": "elfinanciero",
+          "name": "El Financiero"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:08:01.000Z",
+        "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/vT6HI5EK50GCcmEnipJnZGsFVu0=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/T2DPUB5EQRFNJPPEJIWPHDP7QM.jpg",
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:08:01.000Z"
     }
   ]
 }

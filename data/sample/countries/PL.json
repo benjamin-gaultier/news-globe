@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "PL",
+  "countryName": "Poland",
+  "updatedAt": "2026-10-06T13:46:38.119Z",
+  "clusters": [
+    {
+      "id": "HXkXRqn6kaw5",
+      "representative": {
+        "id": "HXkXRqn6kaw5",
+        "url": "https://tvn24.pl/polska/list-zelazny-dla-marcina-romanowskiego-jest-zazalenie-na-decyzje-sadu-st9272594?source=rss",
+        "canonicalUrl": "https://tvn24.pl/polska/list-zelazny-dla-marcina-romanowskiego-jest-zazalenie-na-decyzje-sadu-st9272594?source=rss",
+        "title": "List żelazny dla Marcina Romanowskiego. Jest zażalenie na decyzję sądu",
+        "description": "Prokuratura wysłała do Sądu Apelacyjnego w Warszawie zażalenie na decyzję o wydaniu listu żelaznego dla byłego wiceministra sprawiedliwości Marcina Romanowskiego - poinformowała Prokuratura Krajowa.",
+        "source": {
+          "id": "tvn24",
+          "name": "TVN24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:27:32.000Z",
+        "imageUrl": "https://tvn24.pl/tvnwarszawa/najnowsze/cdn-zdjecie-61530-pilne-ph8872513/alternates/LANDSCAPE_1280",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "K2bhV9Z29IGb",
+          "url": "https://www.rp.pl/polityka/art45259981-zazalenie-prokuratury-na-list-zelazny-dla-marcina-romanowskiego",
+          "canonicalUrl": "https://www.rp.pl/polityka/art45259981-zazalenie-prokuratury-na-list-zelazny-dla-marcina-romanowskiego",
+          "title": "Zażalenie prokuratury na list żelazny dla Marcina Romanowskiego",
+          "description": "Prokuratura zaskarżyła decyzję sądu o wydaniu listu żelaznego Marcinowi Romanowskiemu. Jak ustaliło RMF FM, odwołanie dotyczące postanowienia wydanego w ubiegłą środę zostało już skierowane do sądu.",
+          "source": {
+            "id": "rp",
+            "name": "Rzeczpospolita"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T13:21:00.000Z",
+          "imageUrl": "https://i.gremicdn.pl/image/free/fe10067f89a5271fd846673c69ea2a78/?t=crop:1920:839:nowe:0:220,resize:fill:600:300,enlarge:1",
+          "countryCode": "PL",
+          "regionCode": null
+        },
+        {
+          "id": "jfDeyLppvR1d",
+          "url": "https://wiadomosci.wp.pl/prokuratura-skarzy-list-zelazny-dla-romanowskiego-znamy-powody-7337135385086368a",
+          "canonicalUrl": "https://wiadomosci.wp.pl/prokuratura-skarzy-list-zelazny-dla-romanowskiego-znamy-powody-7337135385086368a",
+          "title": "Prokuratura skarży list żelazny dla Romanowskiego. Znamy powody",
+          "description": "Prokuratura Krajowa złożyła zażalenie na wydanie listu żelaznego dla Marcina Romanowskiego. Śledczy zarzucają sądowi błędy faktyczne i proceduralne. Ujawnili, że polityk po ucieczce z Polski posługiwał się dokumentem na inną osobę, a jego rzekomy pobyt w Naddniestrzu nie znajduje potwierdzenia w…",
+          "source": {
+            "id": "wp",
+            "name": "Wirtualna Polska"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T13:20:37.000Z",
+          "imageUrl": "https://i.wpimg.pl/308x/filerepo.grupawp.pl/api/v1/display/embed/34518700-6819-4326-ab6c-692bc3afe4cf",
+          "countryCode": "PL",
+          "regionCode": null
+        },
+        {
+          "id": "WOMcDwrNWsLJ",
+          "url": "https://wiadomosci.onet.pl/kraj/list-zelazny-dla-marcina-romanowskiego-prokuratura-sklada-zazalenie/4rcbsnm",
+          "canonicalUrl": "https://wiadomosci.onet.pl/kraj/list-zelazny-dla-marcina-romanowskiego-prokuratura-sklada-zazalenie/4rcbsnm",
+          "title": "List żelazny dla Marcina Romanowskiego. Prokuratura składa zażalenie",
+          "description": "Prokuratura domaga się cofnięcia listu żelaznego, który pod koniec września byłemu wiceministrowi sprawiedliwości wydał Sąd Okręgowy w Warszawie.",
+          "source": {
+            "id": "onet",
+            "name": "Onet"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T13:15:34.000Z",
+          "imageUrl": "https://cdn.wiadomosci.onet.pl/1/S1Ck9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy83MWVhNzAwNGY1MjU2ZTU0ZTlkZWIyZjJjODExNTlkMC5wbmeSlQPMlgDNBPPNAsmTBc0JYM0GQN4AAqEwB6ExBA",
+          "countryCode": "PL",
+          "regionCode": null
+        },
+        {
+          "id": "eKaSRIbiBR0r",
+          "url": "https://www.rmf24.pl/fakty/polska/news-list-zelazny-dla-marcina-romanowskiego-jest-zazalenie,nIdn,1020699",
+          "canonicalUrl": "https://www.rmf24.pl/fakty/polska/news-list-zelazny-dla-marcina-romanowskiego-jest-zazalenie,nIdn,1020699",
+          "title": "List żelazny dla Marcina Romanowskiego. Jest zażalenie",
+          "description": "List żelazny dla Marcina Romanowskiego. Jest zażalenie",
+          "source": {
+            "id": "rmf24",
+            "name": "RMF24"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T13:07:00.000Z",
+          "imageUrl": "https://rmf.rmffm.pl/news/attachments/e1/48/list-zelazny-dla-marcina-romanowskiego-636x421-e1483957.jpg",
+          "countryCode": "PL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T13:27:32.000Z"
+    },
+    {
+      "id": "55l1tgA6vCQk",
+      "representative": {
+        "id": "55l1tgA6vCQk",
+        "url": "https://tvn24.pl/polska/cba-w-biurze-rzecznika-praw-dziecka-st9272533?source=rss",
+        "canonicalUrl": "https://tvn24.pl/polska/cba-w-biurze-rzecznika-praw-dziecka-st9272533?source=rss",
+        "title": "CBA w biurze Rzecznika Praw Dziecka",
+        "description": "Funkcjonariusze CBA prowadzą czynności w biurze Rzecznika Praw Dziecka - potwierdził rzecznik prasowy ministra koordynatora służb specjalnych Jacek Dobrzyński. Monika Horna-Cieślak poinformowała o przekazaniu właściwym organom dokumentów związanych ze sprawą dzieci z Białołęki.",
+        "source": {
+          "id": "tvn24",
+          "name": "TVN24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:00:56.000Z",
+        "imageUrl": "https://tvn24.pl/najnowsze/cdn-zdjecie-6604036-funkcjonariusze-cba-ph5555550/alternates/LANDSCAPE_1280",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "YIzYqcICsDIQ",
+          "url": "https://wiadomosci.onet.pl/kraj/cba-weszlo-do-biura-rzecznika-praw-dziecka-waldemar-zurek-reaguje/01gb32x",
+          "canonicalUrl": "https://wiadomosci.onet.pl/kraj/cba-weszlo-do-biura-rzecznika-praw-dziecka-waldemar-zurek-reaguje/01gb32x",
+          "title": "CBA weszło do biura Rzecznika Praw Dziecka. Waldemar Żurek reaguje",
+          "description": "Funkcjonariusze CBA wkroczyli do biura Rzecznika Praw Dziecka. Do sprawy odniósł się minister sprawiedliwości Waldemar Żurek. — Zapewne te działania są po to, żeby zebrać dowody: czy rzeczywiście była wywierana presja, czy była ona mieszcząca się w wykonywaniu funkcji RPD, czy stanowiła…",
+          "source": {
+            "id": "onet",
+            "name": "Onet"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T13:09:00.000Z",
+          "imageUrl": "https://cdn.wiadomosci.onet.pl/1/uJkk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy85MDY1MGQyNDg5NzY2MmM3NGNjYjc4YmFjZjhkZmFjMC5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
+          "countryCode": "PL",
+          "regionCode": null
+        },
+        {
+          "id": "2YIW32DlH3ed",
+          "url": "https://wiadomosci.wp.pl/cba-w-biurze-rzecznika-praw-dziecka-chodzi-o-sprawe-z-bialoleki-7337128466602432a",
+          "canonicalUrl": "https://wiadomosci.wp.pl/cba-w-biurze-rzecznika-praw-dziecka-chodzi-o-sprawe-z-bialoleki-7337128466602432a",
+          "title": "CBA w biurze Rzecznika Praw Dziecka. Chodzi o sprawę z Białołęki",
+          "description": "Rzecznik Praw Dziecka przekazał, że akcja CBA w jego biurze wiąże się ze sprawą z warszawskiej Białołęki. W sierpniu Monika Horna-Cieślak była świadkiem, jak kobieta szarpała swoje dziecko. Wobec rodziców zastosowano nadzwyczajne środki.",
+          "source": {
+            "id": "wp",
+            "name": "Wirtualna Polska"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T12:54:35.000Z",
+          "imageUrl": "https://i.wpimg.pl/308x/filerepo.grupawp.pl/api/v1/display/embed/a73941eb-fc4b-4a9f-8c8f-e252e0c50d7c",
+          "countryCode": "PL",
+          "regionCode": null
+        },
+        {
+          "id": "S5n1mi57TWl-",
+          "url": "https://www.rp.pl/spoleczenstwo/art45259561-cba-w-biurze-rzecznika-praw-dziecka-agenci-zabezpieczaja-dowody-dla-prokuratury",
+          "canonicalUrl": "https://www.rp.pl/spoleczenstwo/art45259561-cba-w-biurze-rzecznika-praw-dziecka-agenci-zabezpieczaja-dowody-dla-prokuratury",
+          "title": "CBA w Biurze Rzecznika Praw Dziecka. Agenci zabezpieczają dowody dla prokuratury",
+          "description": "Funkcjonariusze Centralnego Biura Antykorupcyjnego wkroczyli do siedziby Biura Rzecznika Praw Dziecka – poinformowała Wirtualna Polska. Czynności realizowane są na polecenie Prokuratury Okręgowej w Szczecinie. Służby zabezpieczają materiał dowodowy.",
+          "source": {
+            "id": "rp",
+            "name": "Rzeczpospolita"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T12:42:00.000Z",
+          "imageUrl": "https://i.gremicdn.pl/image/free/3c8baaf8d8b283823f5b167eb82b3448/?t=crop:4480:1958:nowe:0:513,resize:fill:600:300,enlarge:1",
+          "countryCode": "PL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T13:09:00.000Z"
+    },
+    {
+      "id": "TxD9xjmeSsc0",
+      "representative": {
+        "id": "TxD9xjmeSsc0",
+        "url": "https://tvn24.pl/swiat/szwecja-wysle-do-polski-systemy-patriot-premier-o-decyzji-st9272486?source=rss",
+        "canonicalUrl": "https://tvn24.pl/swiat/szwecja-wysle-do-polski-systemy-patriot-premier-o-decyzji-st9272486?source=rss",
+        "title": "Szwecja wyśle do Polski systemy Patriot. Premier o decyzji",
+        "description": "Wyślemy systemy obrony powietrznej Patriot na wschodnią granicę Polski w ramach misji NATO - poinformował premier Szwecji Ulf Kristersson.",
+        "source": {
+          "id": "tvn24",
+          "name": "TVN24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T12:38:29.000Z",
+        "imageUrl": "https://tvn24.pl/najnowsze/cdn-zdjecie-ulf-kristersson-ph9272532/alternates/LANDSCAPE_1280",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "5EHV0WgSrJtd",
+          "url": "https://www.rp.pl/dyplomacja/art45259641-szwecja-wysle-patrioty-do-polski",
+          "canonicalUrl": "https://www.rp.pl/dyplomacja/art45259641-szwecja-wysle-patrioty-do-polski",
+          "title": "Szwecja wyśle Patrioty do Polski",
+          "description": "Zestawy obrony powietrznej Patriot wyśle do Polski Szwecja. Taką informację przekazał szwedzki premier Ulf Kristersson.",
+          "source": {
+            "id": "rp",
+            "name": "Rzeczpospolita"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T12:50:00.000Z",
+          "imageUrl": "https://i.gremicdn.pl/image/free/1c2938e64b69beeef4404251aabd3db9/zestaw-patriot?t=crop:3840:1679:nowe:0:441,resize:fill:600:300,enlarge:1",
+          "countryCode": "PL",
+          "regionCode": null
+        },
+        {
+          "id": "q925JammU878",
+          "url": "https://wiadomosci.onet.pl/kraj/szwecja-wysle-do-polski-systemy-patriot-sztokholm-oglasza/c3gkwk4",
+          "canonicalUrl": "https://wiadomosci.onet.pl/kraj/szwecja-wysle-do-polski-systemy-patriot-sztokholm-oglasza/c3gkwk4",
+          "title": "Szwecja wzmacnia flankę wschodnią NATO. Wyśle do Polski systemy Patriot",
+          "description": "— Wyślemy systemy obrony powietrznej Patriot na wschodnią granicę Polski w ramach misji NATO — przekazał premier Szwecji Ulf Kristersson.",
+          "source": {
+            "id": "onet",
+            "name": "Onet"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T12:43:23.000Z",
+          "imageUrl": "https://cdn.wiadomosci.onet.pl/1/W0kk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy82Zjk2ZjJiOTNhM2ZiZDNlMzcyMmViZDI4YmI4YTEwZS5qcGeSlQMAAM0GQM0DhJMFzQlgzQZA3gACoTAHoTEE",
+          "countryCode": "PL",
+          "regionCode": null
+        },
+        {
+          "id": "FdNBKQolUuo8",
+          "url": "https://wiadomosci.wp.pl/szwecja-pomoze-polsce-dostarczy-systemy-patriot-7337124747823520a",
+          "canonicalUrl": "https://wiadomosci.wp.pl/szwecja-pomoze-polsce-dostarczy-systemy-patriot-7337124747823520a",
+          "title": "Szwecja pomoże Polsce. Dostarczy systemy Patriot",
+          "description": "Premier Szwecji Ulf Kristersson poinformował, że jego kraj wyśle systemy obrony powietrznej Patriot na wschodnią granicę Polski w ramach misji NATO. Jak podkreślił, ma to na celu zapewnienie \"ochrony NATO-wskiego hubu logistycznego\".",
+          "source": {
+            "id": "wp",
+            "name": "Wirtualna Polska"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T12:38:24.000Z",
+          "imageUrl": "https://i.wpimg.pl/308x/filerepo.grupawp.pl/api/v1/display/embed/83822867-06a2-4e5a-a174-c14fa2a2fd13",
+          "countryCode": "PL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:50:00.000Z"
+    },
+    {
+      "id": "KQTwh4N4iXEU",
+      "representative": {
+        "id": "KQTwh4N4iXEU",
+        "url": "https://www.polsatnews.pl/wiadomosc/2026-10-06/zarzuty-dla-kierowcy-z-nowego-sacza-nielegalny-wyscig-samochodowy/",
+        "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-06/zarzuty-dla-kierowcy-z-nowego-sacza-nielegalny-wyscig-samochodowy/",
+        "title": "Zarzuty dla kierowcy z Nowego Sącza. \"Nielegalny wyścig samochodowy\"",
+        "description": "Prokuratura w Nowym Sączu postawiła zarzut spowodowania wypadku ze skutkiem śmiertelnym kierowcy Volkswagena, który w sobotę potrącił podczas wyprzedzania na przejściu dla pieszych 51-latka. Śledczy uwzględnili okoliczność udziału w nielegalnym wyścigu samochodowym. O udział w wyścigu oskarżony…",
+        "source": {
+          "id": "polsatnews",
+          "name": "Polsat News"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T08:16:00.000Z",
+        "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/i3/i3c8ecoi24ne1g5ottqaph6e66dtniq5.jpeg",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "dgUQfaZMUyuA",
+          "url": "https://wiadomosci.wp.pl/zarzuty-dla-drugiego-kierowcy-final-wyscigu-ulicami-nowego-sacza-7337120869026240a",
+          "canonicalUrl": "https://wiadomosci.wp.pl/zarzuty-dla-drugiego-kierowcy-final-wyscigu-ulicami-nowego-sacza-7337120869026240a",
+          "title": "Zarzuty dla drugiego kierowcy. Finał wyścigu ulicami Nowego Sącza",
+          "description": "Drugi kierowca biorący udział w nielegalnym wyścigu w Nowym Sączu usłyszał prokuratorskie zarzuty. 20-latek z BMW odpowie za przyczynienie się do wypadku, w którym na pasach zginął 50-letni pieszy. Śledczy zawnioskowali już o jego tymczasowe aresztowanie.",
+          "source": {
+            "id": "wp",
+            "name": "Wirtualna Polska"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T13:07:34.000Z",
+          "imageUrl": "https://i.wpimg.pl/308x/filerepo.grupawp.pl/api/v1/display/embed/9fee312d-3be3-45bd-82bf-6c9ec38549bb",
+          "countryCode": "PL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:07:34.000Z"
+    },
+    {
+      "id": "kS1ejRxi8JW9",
+      "representative": {
+        "id": "kS1ejRxi8JW9",
+        "url": "https://www.polsatnews.pl/wiadomosc/2026-10-05/x-2/",
+        "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-05/x-2/",
+        "title": "Ceny paliw na poniedziałek. Wiadomo, ile kierowcy zapłacą na stacjach",
+        "description": "W poniedziałek kierowcy ponownie zatankują paliwo po cenach objętych limitem w ramach programu CPN. Maksymalna cena wynosi 6,73 zł za litr benzyny 95, 7,59 zł za litr benzyny 98 i 7,88 zł za litr oleju napędowego. Minister energii Miłosz Motyka zapowiada, że w kolejnych dniach ceny paliw na…",
+        "source": {
+          "id": "polsatnews",
+          "name": "Polsat News"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-05T05:24:00.000Z",
+        "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/ix/ixem4dv2io83ki23faq3ywsz1d7i9ogo.jpg",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "oWY1qUAitqzy",
+          "url": "https://www.rmf24.pl/fakty/ekonomia/news-maksymalne-ceny-paliw-w-srode-ci-kierowcy-zaplaca-wiecej-na-,nIdn,1020647",
+          "canonicalUrl": "https://www.rmf24.pl/fakty/ekonomia/news-maksymalne-ceny-paliw-w-srode-ci-kierowcy-zaplaca-wiecej-na-,nIdn,1020647",
+          "title": "Maksymalne ceny paliw w środę. Ci kierowcy zapłacą więcej na stacjach",
+          "description": "Maksymalne ceny paliw w środę. Ci kierowcy zapłacą więcej na stacjach",
+          "source": {
+            "id": "rmf24",
+            "name": "RMF24"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T11:06:00.000Z",
+          "imageUrl": "https://rmf.rmffm.pl/news/attachments/37/fc/zdj-636x421-37fc96f0.jpg",
+          "countryCode": "PL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:14:00.000Z"
+    },
+    {
+      "id": "78juJjBdr0id",
+      "representative": {
+        "id": "78juJjBdr0id",
+        "url": "https://www.polsatnews.pl/wiadomosc/2026-10-06/prezydent-podjal-decyzje-ws-stanowiska-szefa-sztabu-generalnego-wp/",
+        "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-06/prezydent-podjal-decyzje-ws-stanowiska-szefa-sztabu-generalnego-wp/",
+        "title": "Prezydent podjął decyzję ws. stanowiska Szefa Sztabu Generalnego WP",
+        "description": "Prezydent Karol Nawrocki postanowił mianować z dniem 10 października gen. Wiesława Kukułę na kolejną kadencję na stanowisku Szefa Sztabu Generalnego Wojska Polskiego - poinformował szef Biura Bezpieczeństwa Narodowego Bartosz Grodecki.",
+        "source": {
+          "id": "polsatnews",
+          "name": "Polsat News"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T08:56:00.000Z",
+        "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/ad/adk4wfcggmuxspfqbtjuu3i6q9cxrbig.jpg",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "qhEEGk7aB_WL",
+          "url": "https://www.rmf24.pl/fakty/polska/news-prezydent-nawrocki-mianowal-szefa-sztabu-generalnego-wp,nIdn,1020635",
+          "canonicalUrl": "https://www.rmf24.pl/fakty/polska/news-prezydent-nawrocki-mianowal-szefa-sztabu-generalnego-wp,nIdn,1020635",
+          "title": "Prezydent Nawrocki mianował Szefa Sztabu Generalnego WP",
+          "description": "Prezydent Nawrocki mianował Szefa Sztabu Generalnego WP",
+          "source": {
+            "id": "rmf24",
+            "name": "RMF24"
+          },
+          "sourceCountry": "PL",
+          "language": "pl",
+          "publishedAt": "2026-10-06T09:27:00.000Z",
+          "imageUrl": "https://rmf.rmffm.pl/news/attachments/3e/34/karol-nawrocki-gen-wieslaw-kukula-fot-636x421-3e346e05.jpg",
+          "countryCode": "PL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:27:00.000Z"
+    },
+    {
+      "id": "xh0fM2vqo3h1",
+      "representative": {
+        "id": "xh0fM2vqo3h1",
+        "url": "https://energia.rp.pl/ropa/art45260051-16-firm-padlo-w-zaledwie-30-dni-wysokie-ceny-diesla-uderzaja-w-branze-transportowa-usa",
+        "canonicalUrl": "https://energia.rp.pl/ropa/art45260051-16-firm-padlo-w-zaledwie-30-dni-wysokie-ceny-diesla-uderzaja-w-branze-transportowa-usa",
+        "title": "16 firm padło w zaledwie 30 dni. Wysokie ceny diesla uderzają w branżę transportową USA",
+        "description": "Wzrost cen oleju napędowego doprowadził do fali bankructw w amerykańskim sektorze transportowym. Jak informuje serwis The Drive, w ciągu zaledwie miesiąca wniosek o ochronę przed upadłością złożyło aż 16 firm przewozowych.",
+        "source": {
+          "id": "rp",
+          "name": "Rzeczpospolita"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:40:09.000Z",
+        "imageUrl": "https://i.gremicdn.pl/image/free/b8183517cab423c088a5297b6641f93c/?t=crop:3000:1311:nowe:0:344,resize:fill:600:300,enlarge:1",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:40:09.000Z"
+    },
+    {
+      "id": "6s8hcD3k-1cT",
+      "representative": {
+        "id": "6s8hcD3k-1cT",
+        "url": "https://cyfrowa.rp.pl/ai/art45258841-koniec-calkowicie-darmowego-gemini-dla-kazdego-google-zmienia-zasady-juz-za-3-dni",
+        "canonicalUrl": "https://cyfrowa.rp.pl/ai/art45258841-koniec-calkowicie-darmowego-gemini-dla-kazdego-google-zmienia-zasady-juz-za-3-dni",
+        "title": "Koniec całkowicie darmowego Gemini dla każdego. Google zmienia zasady już za 3 dni",
+        "description": "Od 9 października użytkownicy Gemini, którzy nie posiadają abonamentu, stracą dostęp do zaawansowanych modeli sztucznej inteligencji. Do bezpłatnego użytku pozostanie im jedynie wersja Flash-Lite. Korzystanie z bardziej zaawansowanych modeli będzie wiązało się z koniecznością wykupienia subskrypcji.",
+        "source": {
+          "id": "rp",
+          "name": "Rzeczpospolita"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:39:00.000Z",
+        "imageUrl": "https://i.gremicdn.pl/image/free/9fbddc5f875cd0d5488ed0ec9ce07367/?t=resize:fill:600:300,enlarge:1",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:39:00.000Z"
+    },
+    {
+      "id": "bUchyFsepK2c",
+      "representative": {
+        "id": "bUchyFsepK2c",
+        "url": "https://wyborcza.pl/7,75399,33063133,niemcy-maja-pierwszego-szefa-landtagu-z-afd-czy-kandydat-skrajnej.html",
+        "canonicalUrl": "https://wyborcza.pl/7,75399,33063133,niemcy-maja-pierwszego-szefa-landtagu-z-afd-czy-kandydat-skrajnej.html",
+        "title": "Niemcy mają pierwszego szefa landtagu z AfD. Czy kandydat skrajnej prawicy zostanie premierem?",
+        "description": "Niemcy coraz bardziej się radykalizują. Rządzenie bez pomocy skrajnej prawicy lub lewicy jest coraz trudniejsze. Saksonia-Anhalt może mieć wkrótce pierwszego premiera, należącego do AfD.",
+        "source": {
+          "id": "wyborcza",
+          "name": "Gazeta Wyborcza"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:39:00.000Z",
+        "imageUrl": null,
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:39:00.000Z"
+    },
+    {
+      "id": "wdBRM4_lW9NJ",
+      "representative": {
+        "id": "wdBRM4_lW9NJ",
+        "url": "https://www.rmf24.pl/fakty/swiat/news-zelenski-o-nadchodzacym-ataku-rosji-dzis-otrzymalismy-inform,nIdn,1020698",
+        "canonicalUrl": "https://www.rmf24.pl/fakty/swiat/news-zelenski-o-nadchodzacym-ataku-rosji-dzis-otrzymalismy-inform,nIdn,1020698",
+        "title": "Zełenski o nadchodzącym ataku Rosji: Dziś otrzymaliśmy informacje",
+        "description": "Zełenski o nadchodzącym ataku Rosji: Dziś otrzymaliśmy informacje",
+        "source": {
+          "id": "rmf24",
+          "name": "RMF24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:39:00.000Z",
+        "imageUrl": "https://rmf.rmffm.pl/news/attachments/8e/13/imago-stock-and-people-636x421-8e13c8c4.jpg",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:39:00.000Z"
+    },
+    {
+      "id": "tLxLRdj4wVWy",
+      "representative": {
+        "id": "tLxLRdj4wVWy",
+        "url": "https://wiadomosci.wp.pl/spiecie-na-konferencji-tak-szlapka-odpowiedzial-tv-republice-7337125773316673v",
+        "canonicalUrl": "https://wiadomosci.wp.pl/spiecie-na-konferencji-tak-szlapka-odpowiedzial-tv-republice-7337125773316673v",
+        "title": "Spięcie na konferencji. Tak Szłapka odpowiedział TV Republice",
+        "description": "Spięcie podczas konferencji rzecznika rządu. Adam Szłapka nie odpowiedział wprost na pytanie dziennikarza TV Republika, które dotyczyło działań rządu. Polityk KO wytknął stacji brak wiarygodności. - Wy nawet chyba prognozy pogody nie podajecie prawdziwej - zgryźliwie skomentował Szłapka.",
+        "source": {
+          "id": "wp",
+          "name": "Wirtualna Polska"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:35:10.000Z",
+        "imageUrl": "https://i.wpimg.pl/308x/wptv-upload-api.wphcdn.cloud/521b849a-867e-4875-bac2-517b5166a5cb.jpg",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:35:10.000Z"
+    },
+    {
+      "id": "hGmfAN5jWrfU",
+      "representative": {
+        "id": "hGmfAN5jWrfU",
+        "url": "https://www.rp.pl/polityka/art45259541-odeslali-odznaczenia-karolowi-nawrockiemu-na-liscie-jest-14-osob",
+        "canonicalUrl": "https://www.rp.pl/polityka/art45259541-odeslali-odznaczenia-karolowi-nawrockiemu-na-liscie-jest-14-osob",
+        "title": "Odesłali odznaczenia Karolowi Nawrockiemu. Na liście jest 14 osób",
+        "description": "W trakcie pierwszego roku urzędowania Karola Nawrockiego na zwrot przyznanego odznaczenia zdecydowało się łącznie 14 osób – informuje portal Gazeta.pl. To oficjalne dane przekazane przez Kancelarię Prezydenta.",
+        "source": {
+          "id": "rp",
+          "name": "Rzeczpospolita"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:34:12.000Z",
+        "imageUrl": "https://i.gremicdn.pl/image/free/aa6f368a94a77430658d17b8c0bd1ac3/?t=resize:fill:600:300,enlarge:1",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:34:12.000Z"
+    },
+    {
+      "id": "vOSvHcRA1HsJ",
+      "representative": {
+        "id": "vOSvHcRA1HsJ",
+        "url": "https://tvn24.pl/tvnwarszawa/okolice/od-poniedzialku-12-pazdziernika-testy-syren-w-wojewodztwie-mazowieckim-st9272563?source=rss",
+        "canonicalUrl": "https://tvn24.pl/tvnwarszawa/okolice/od-poniedzialku-12-pazdziernika-testy-syren-w-wojewodztwie-mazowieckim-st9272563?source=rss",
+        "title": "W poniedziałek uruchomią syreny alarmowe",
+        "description": "Od poniedziałku, 12 października, przez pięć dni odbywać się będą ćwiczenia pod kryptonimem Syrena-26. Z tego powodu na terenie województwa mazowieckiego mieszkańcy usłyszą syreny alarmowe.",
+        "source": {
+          "id": "tvn24",
+          "name": "TVN24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:33:31.000Z",
+        "imageUrl": "https://tvn24.pl/najnowsze/cdn-zdjecie-syrena-alarmowa-w-centrum-warszawy-ph9151275/alternates/LANDSCAPE_1280",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:33:31.000Z"
+    },
+    {
+      "id": "vivLsVTw638-",
+      "representative": {
+        "id": "vivLsVTw638-",
+        "url": "https://www.rp.pl/media/art45260071-paramount-i-warner-bros-polaczone-powstal-nowy-hollywoodzki-gigant",
+        "canonicalUrl": "https://www.rp.pl/media/art45260071-paramount-i-warner-bros-polaczone-powstal-nowy-hollywoodzki-gigant",
+        "title": "Paramount i Warner Bros. połączone. Powstał nowy hollywoodzki gigant",
+        "description": "Paramount należący do Skydance sfinalizował przejęcie Warner Bros. Discovery za 110 mld dolarów. Tym samym powstał jeden z największych koncernów medialno-rozrywkowych na świecie.",
+        "source": {
+          "id": "rp",
+          "name": "Rzeczpospolita"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:31:32.000Z",
+        "imageUrl": "https://i.gremicdn.pl/image/free/737e12ed17cb0c53096fb62d5dd509cf/?t=crop:5023:2196:nowe:0:577,resize:fill:600:300,enlarge:1",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:31:32.000Z"
+    },
+    {
+      "id": "QH6KnY5cCw9v",
+      "representative": {
+        "id": "QH6KnY5cCw9v",
+        "url": "https://tvn24.pl/biznes/tech/tyle-zarabia-szef-giganta-ai-st9272460?source=rss",
+        "canonicalUrl": "https://tvn24.pl/biznes/tech/tyle-zarabia-szef-giganta-ai-st9272460?source=rss",
+        "title": "Tyle zarabia szef giganta AI",
+        "description": "Szef firmy Anthropic Dario Amodei otrzymał w 2025 roku wynagrodzenie o łącznej wartości 18 milionów dolarów. Większość tej kwoty stanowiły akcje i opcje. Spółka przygotowuje się do debiutu giełdowego.",
+        "source": {
+          "id": "tvn24",
+          "name": "TVN24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:30:23.000Z",
+        "imageUrl": "https://tvn24.pl/najnowsze/cdn-zdjecie-4299579-dario-amodei-prezes-firmy-anthropic-najwiekszej-konkurentki-openai-ph8932706/alternates/LANDSCAPE_1280",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:30:23.000Z"
+    }
+  ]
+}
