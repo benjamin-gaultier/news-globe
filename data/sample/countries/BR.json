@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BR",
   "countryName": "Brazil",
-  "updatedAt": "2026-10-06T15:32:48.958Z",
+  "updatedAt": "2026-10-06T15:57:23.644Z",
   "clusters": [
     {
       "id": "WGReK7rMfYcS",
@@ -552,48 +552,6 @@
       "latestPublishedAt": "2026-10-05T19:01:47.000Z"
     },
     {
-      "id": "E3pneDXF4U6S",
-      "representative": {
-        "id": "E3pneDXF4U6S",
-        "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/10/05/eventual-vitoria-de-flavio-reedita-e-empodera-eixo-de-poder-do-governo-bolsonaro.ghtml",
-        "canonicalUrl": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/10/05/eventual-vitoria-de-flavio-reedita-e-empodera-eixo-de-poder-do-governo-bolsonaro.ghtml",
-        "title": "Eventual vitória de Flávio reedita e empode­ra eixo de poder do governo Bolsonaro",
-        "description": "Tarcísio de Freitas, Rogério Marinho, André Mendonça, Jorge Oliveira e Wagner Rosário. Reprodução Uma eventual vitória de Flávio Bolsonaro também reedita e empodera um núcleo de poder que nasceu no governo Jair Bolsonaro — um grupo de cinco ex-ministros muito próximos, que se reunia especialmente…",
-        "source": {
-          "id": "g1",
-          "name": "g1"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-05T15:57:14.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/6tGhrNY35jPjhD82PAg9Z1sSdQo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/K/kBNB2OREWRV6tIRnYwBw/montagem-horizontal-1200px-1-.jpg",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "_11pp_8dTPt7",
-          "url": "https://www.estadao.com.br/politica/eleicoes/em-discurso-flavio-bolsonaro-atribui-eventual-vitoria-ao-nordeste-e-preve-governo-inspirado-no-pai/",
-          "canonicalUrl": "https://www.estadao.com.br/politica/eleicoes/em-discurso-flavio-bolsonaro-atribui-eventual-vitoria-ao-nordeste-e-preve-governo-inspirado-no-pai/",
-          "title": "Em discurso, Flávio Bolsonaro atribui eventual vitória ao Nordeste e prevê governo inspirado no pai",
-          "description": null,
-          "source": {
-            "id": "estadao",
-            "name": "Estadão"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T17:21:31.000Z",
-          "imageUrl": null,
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T17:21:31.000Z"
-    },
-    {
       "id": "skbUenjYjQsL",
       "representative": {
         "id": "skbUenjYjQsL",
@@ -664,6 +622,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:02:00.000Z"
+    },
+    {
+      "id": "1NZkWYSwauGj",
+      "representative": {
+        "id": "1NZkWYSwauGj",
+        "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/10/matheus-nachtergaele-vive-bacalhau-um-cachorro-de-tres-patas-em-o-filho-da-p.ghtml",
+        "canonicalUrl": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/10/matheus-nachtergaele-vive-bacalhau-um-cachorro-de-tres-patas-em-o-filho-da-p.ghtml",
+        "title": "Matheus Nachtergaele vive Bacalhau, um cachorro de três patas em 'O filho da p.'",
+        "description": "Matheus Nachtergaele é a voz de Bacalhau, um cachorro de três patas que acompanha o protagonista de “O Filho da Puta”, animação dirigida por Otto Guerra, Erica Maradona, Tania Anaya e Sávio Leite. O filme será exibido nesta terça-feira, dia 6, no Festival do Rio, no Odeon. Matéria exclusiva para…",
+        "source": {
+          "id": "oglobo",
+          "name": "O Globo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T13:00:00.000Z",
+        "imageUrl": "https://s2-oglobo.glbimg.com/NDPtdRC0fPsCLuiYn1NsKTt1k6c=/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/u/X/krMOy2TDA8VniHEIAA3g/matheus-nachtergaele-bacalhau1.jpg",
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:00.000Z"
     }
   ]
 }

@@ -1106,7 +1106,80 @@ Costa Rican feeds are small and update a few times a day, so the country has few
 
 The African and Sri Lankan feeds are small (often 10 items), so these countries show few multi-outlet stories.
 
-Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia and Tanzania (one usable feed each), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items), El Salvador (Co Latino only), Cameroon (Actu Cameroun only in French; Cameroon Tribune 403), Togo, Nepal (Kathmandu Post undated), Rwanda, Namibia, Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each).
+**Slovenia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| RTV Slovenija | main feed | 10 | ✅ (20 items, sl) |
+| Delo | main feed | 9 | ✅ (sl) |
+| 24ur | main feed | 9 | ✅ (20 items, sl) |
+| N1 Slovenija | main feed | 8 | ✅ (sl) |
+| Siol.net | latest | 8 | ✅ (15 items, sl) |
+| Večer | main feed | 8 | ✅ (sl) |
+| Žurnal24 | latest | 7 | ✅ (sl) |
+| Nova24TV | main feed | 6 | ✅ (sl) |
+| ~~Dnevnik~~, ~~Mladina~~ | — | — | ❌ **dropped**: 404 |
+
+**Bosnia and Herzegovina** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Klix.ba | main feed | 10 | ✅ (bs) |
+| N1 BiH | main feed | 9 | ✅ (bs) |
+| Dnevni avaz | main feed | 8 | ✅ (10 items, bs) |
+| Radio Sarajevo | main feed | 8 | ✅ (bs) |
+| Fokus.ba | main feed | 7 | ✅ (bs) |
+| Istraga.ba | main feed | 6 | ✅ (10 items, bs) |
+| ~~Nezavisne novine~~, ~~Hayat~~ | — | — | ❌ **dropped**: 403 for bots |
+| ~~Oslobođenje~~, ~~Bljesak~~ | — | — | ❌ **dropped**: 404 |
+
+**Iceland** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| RÚV | fréttir | 10 | ✅ (is) |
+| Morgunblaðið | innlent | 9 | ✅ (20 items, is) |
+| Vísir | allt | 9 | ✅ (is) |
+| Heimildin | main feed | 8 | ✅ (is) |
+| DV | main feed | 7 | ✅ (10 items, is) |
+| Viðskiptablaðið | main feed | 7 | ✅ (is) |
+| ~~Mannlíf~~ | — | — | ❌ **dropped**: undated items |
+
+**Cyprus** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Phileleftheros | main feed | 10 | ✅ (20 items, el) |
+| Politis | main feed | 9 | ✅ (10 items, el) |
+| Sigmalive | main feed | 8 | ✅ (el) |
+| Omega Live | main feed | 7 | ✅ (10 items, el) |
+| Cyprus Mail | main feed | 9 | ✅ (20 items, en) |
+| ~~Kathimerini Cyprus~~ | — | — | ❌ **dropped**: serves HTML |
+| ~~in-cyprus~~, ~~Alpha News~~, ~~Reporter~~ | — | — | ❌ **dropped**: 403 / 404 |
+
+**Luxembourg** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Luxemburger Wort | main feed | 10 | ✅ (de) |
+| Luxembourg Times | main feed | 8 | ✅ (en) |
+| Le Quotidien | main feed | 8 | ✅ (20 items, fr) |
+| Virgule | main feed | 7 | ✅ (fr) |
+| ~~RTL~~ | — | — | ❌ **dropped**: serves HTML |
+| ~~L'essentiel~~, ~~Tageblatt~~ | — | — | ❌ **dropped**: 404 |
+
+Luxembourg's press is split across German, English and French, and titles only match within one language, so most multi-outlet stories come from the two French outlets.
+
+**Moldova** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Ziarul de Gardă | main feed | 9 | ✅ (10 items, ro) |
+| NewsMaker | main feed | 8 | ✅ (10 items, ro) |
+| Unimedia | main feed | 8 | ✅ (ro) |
+| ~~IPN~~, ~~Agora~~, ~~Deschide~~, ~~Stiri.md~~, ~~Moldpres~~, ~~TV8~~ | — | — | ❌ **dropped**: 403 / 404 / 500 / unreachable |
+
+Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia and Tanzania (one usable feed each), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items), El Salvador (Co Latino only), Cameroon (Actu Cameroun only in French; Cameroon Tribune 403), Togo, Nepal (Kathmandu Post undated), Rwanda, Namibia, Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each), Montenegro (Vijesti and CdM; RTCG and Dan 404, Pobjeda and Standard serve HTML).
 
 **Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 

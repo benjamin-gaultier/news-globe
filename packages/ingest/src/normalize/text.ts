@@ -74,6 +74,8 @@ export function foldText(input: string): string {
   return input
     .normalize('NFD')
     .replace(/\p{M}+/gu, '')
+    // Soft hyphens and zero-width characters sit inside words (Vísir: "Guð­mundur").
+    .replace(/[­​-‍⁠﻿]/g, '')
     .toLowerCase()
     // Turkish dotless ı has no decomposition; fold it so "IĞDIR" and "Iğdır" match.
     .replace(/ı/g, 'i')
@@ -252,7 +254,7 @@ tarp iki taip pat jau dar tik ne yra buvo bus gali metu metai nauja naujas siand
 pirmadieni antradieni treciadieni ketvirtadieni penktadieni sestadieni sekmadieni sausio vasario kovo
 balandzio geguzes birzelio liepos rugpjucio rugsejo spalio lapkricio gruodzio
 `;
-// Croatian and Serbian (Latin script) share one list.
+// Croatian, Serbian and Bosnian (Latin script) share one list.
 const STOPWORDS_HR_SR = `
 i u na je su se da za od s sa o po do iz kao ali ili a sto koji koja koje kojeg koju kada gdje gde
 kako zasto ne nije nisu bio bila bilo biti ce ovo taj ta to te ovaj ova ove nakon prije pre bez nad
@@ -260,6 +262,21 @@ pod između protiv jos samo vec danas jucer juce sutra godine godina novi nova n
 im ponedjeljak ponedeljak utorak srijeda sreda cetvrtak petak subota nedjelja nedelja sijecnja veljace
 ozujka travnja svibnja lipnja srpnja kolovoza rujna listopada studenog prosinca januara februara
 marta aprila maja juna jula avgusta septembra oktobra novembra decembra
+`;
+// Slovenian and Icelandic are written in normal spelling and folded by
+// foldedWords (Icelandic ð, þ and æ have no decomposition and stay as they are).
+const STOPWORDS_SL = `
+in v na je so se da za od z s o po do iz kot ali pa a ki kaj ko kje kako zakaj ne ni niso bil bila
+bilo biti bo bodo to ta te ti tega tem pred brez nad pod med proti tudi še samo že danes včeraj jutri
+leta leto let novi nova novo on ona oni ga mu jim jih ob pri ponedeljek torek sreda četrtek petek
+sobota nedelja januarja februarja marca aprila maja junija julija avgusta septembra oktobra novembra
+decembra
+`;
+const STOPWORDS_IS = `
+og í á af til um frá með við er var eru voru verður hefur hafa hafði sem að ekki en eða því þá þar
+þetta þessi hann hún þeir þær þau það hans hennar eftir fyrir undir yfir milli gegn líka bara nú nýr
+ný nýtt dag gær morgun mánudag þriðjudag miðvikudag fimmtudag föstudag laugardag sunnudag janúar
+febrúar mars apríl maí júní júlí ágúst september október nóvember desember
 `;
 // Cyrillic й folds to и (NFD), hence "маи".
 const STOPWORDS_BG = `
@@ -306,6 +323,7 @@ abril maio junho julho agosto setembro outubro novembro dezembro
 const BOILERPLATE = `direct live video videos photo photos watch updates update podcast replay liveblog ticker newsblog`;
 
 const wordSet = (...lists: string[]) => new Set(lists.flatMap((list) => list.split(/\s+/)).filter(Boolean));
+const foldedWords = (list: string) => foldText(list);
 
 /**
  * Stopwords per feed language. English is included everywhere: wire-style
@@ -336,6 +354,9 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   lt: wordSet(STOPWORDS_LT, STOPWORDS_EN, BOILERPLATE),
   hr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  bs: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
+  sl: wordSet(foldedWords(STOPWORDS_SL), STOPWORDS_EN, BOILERPLATE),
+  is: wordSet(foldedWords(STOPWORDS_IS), STOPWORDS_EN, BOILERPLATE),
   bg: wordSet(STOPWORDS_BG, STOPWORDS_EN, BOILERPLATE),
   el: wordSet(STOPWORDS_EL, STOPWORDS_EN, BOILERPLATE),
   // Normalized the same way as titles, so the list can be written in plain spelling.
