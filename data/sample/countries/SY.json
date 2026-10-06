@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "SY",
+  "countryName": "Syria",
+  "updatedAt": "2026-10-06T16:51:44.051Z",
+  "clusters": [
+    {
+      "id": "DWQddjJTEVZh",
+      "representative": {
+        "id": "DWQddjJTEVZh",
+        "url": "https://sana.sy/video/2599092/",
+        "canonicalUrl": "https://sana.sy/video/2599092/",
+        "title": "“الكلمة تبني”.. وعيٌ رقمي لمواجهة خطاب الكراهية",
+        "description": "\"الكلمة تبني\".. وعيٌ رقمي لمواجهة خطاب الكراهية",
+        "source": {
+          "id": "sana",
+          "name": "SANA"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:43:53.000Z",
+        "imageUrl": "https://cdn.sananews.sy/2026/10/photo_2026-10-06_19-41-08.jpg",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "3ANjd5rQV1Qy",
+          "url": "https://www.syria.tv/%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A9-%D8%AA%D8%A8%D9%86%D9%8A-%D8%AD%D9%85%D9%84%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AE%D8%B7%D8%A7%D8%A8-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%87%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B6%D9%84%D9%84%D8%A9-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7",
+          "canonicalUrl": "https://www.syria.tv/%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A9-%D8%AA%D8%A8%D9%86%D9%8A-%D8%AD%D9%85%D9%84%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AE%D8%B7%D8%A7%D8%A8-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%87%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B6%D9%84%D9%84%D8%A9-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7",
+          "title": "\"الكلمة تبني\".. حملة لمواجهة خطاب الكراهية والمعلومات المضللة في سوريا",
+          "description": "حملة الكلمة تبني تضع خطاب الكراهية والتضليل تحت الضوء في سوريا.. فهل يتغير المحتوى؟",
+          "source": {
+            "id": "syriatv",
+            "name": "Syria TV"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T15:28:38.000Z",
+          "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2026-10/705757644_864386883373361_7408122726854207723_n.jpg?itok=W5A_Ax6P",
+          "countryCode": "SY",
+          "regionCode": null
+        },
+        {
+          "id": "RTvftcfuHBDj",
+          "url": "https://alwatan.sy/%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d8%aa%d8%a8%d9%86%d9%8a-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%ae%d8%b7%d8%a7%d8%a8-%d8%a7%d9%84%d9%83%d8%b1%d8%a7%d9%87%d9%8a%d8%a9-%d9%88%d8%a7/",
+          "canonicalUrl": "https://alwatan.sy/%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d8%aa%d8%a8%d9%86%d9%8a-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%ae%d8%b7%d8%a7%d8%a8-%d8%a7%d9%84%d9%83%d8%b1%d8%a7%d9%87%d9%8a%d8%a9-%d9%88%d8%a7/",
+          "title": "“الكلمة تبني” لمواجهة خطاب الكراهية والعنف والتحريض",
+          "description": "أطلقت الأكاديمية السورية للإعلام، بالشراكة مع وزارة الإعلام وبرنامج الأمم المتحدة الإنمائي (UNDP)، حملتها الإعلامية للتوعية بمخاطر خطاب الكراهية والتحريض والمعلومات المضللة، وتعزيز الممارسات المسؤولة في تداول المحتوى ونشره، وذلك تحت عنوان “الكلمة تبني”. أكدت الأكاديمية في بيان لها نشرته على…",
+          "source": {
+            "id": "alwatan_sy",
+            "name": "Al-Watan"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T11:34:07.000Z",
+          "imageUrl": "https://alwatan.sy/wp-content/uploads/2026/05/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85.jpg",
+          "countryCode": "SY",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T16:43:53.000Z"
+    },
+    {
+      "id": "_tLMohHoUJ-c",
+      "representative": {
+        "id": "_tLMohHoUJ-c",
+        "url": "https://www.syria.tv/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B4%D8%B1%D8%B9-%D9%8A%D8%B5%D9%84-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A8%D8%B1%D9%81%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%A8%D8%A7%D9%86%D9%8A",
+        "canonicalUrl": "https://www.syria.tv/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B4%D8%B1%D8%B9-%D9%8A%D8%B5%D9%84-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A8%D8%B1%D9%81%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%A8%D8%A7%D9%86%D9%8A",
+        "title": "الرئيس الشرع يصل إلى الرياض برفقة الشيباني",
+        "description": "وصل الرئيس السوري أحمد الشرع إلى العاصمة السعودية الرياض، اليوم الثلاثاء، في زيارة رسمية يلتقي خلالها ولي العهد السعودي الأمير محمد بن سلمان.",
+        "source": {
+          "id": "syriatv",
+          "name": "Syria TV"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T12:32:25.000Z",
+        "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2026-10/Diplomatic%20Handshake%20on%20the%20Tarmac.png?itok=lDBiO0ro",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Gt3lda-TjuS9",
+          "url": "https://www.zamanalwsl.net/news/article/179258",
+          "canonicalUrl": "https://www.zamanalwsl.net/news/article/179258",
+          "title": "الرئيس الشرع يبحث مع ولي العهد السعودي العلاقات الثنائية وتطورات المنطقة",
+          "description": "التقى الرئيس السوري أحمد الشرع، اليوم الثلاثاء، ولي العهد السعودي رئيس مجلس الوزراء الأمير محمد بن سلمان بن عبد العزيز آل سعود، في العاصمة الرياض.وبحث الجانبان، وفÙ",
+          "source": {
+            "id": "zamanalwsl",
+            "name": "Zaman al-Wasl"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T16:03:54.000Z",
+          "imageUrl": "https://www.zamanalwsl.netuploads//1cca0eafe6f1879e97b66fe8.jpg",
+          "countryCode": "SY",
+          "regionCode": null
+        },
+        {
+          "id": "SSNGdUjTXuKF",
+          "url": "https://alwatan.sy/%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%b4%d8%b1%d8%b9-%d9%81%d9%8a-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6-%d9%87%d9%84-%d8%aa%d8%aa%d8%b3%d8%a7%d8%b1%d8%b9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa/",
+          "canonicalUrl": "https://alwatan.sy/%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%b4%d8%b1%d8%b9-%d9%81%d9%8a-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6-%d9%87%d9%84-%d8%aa%d8%aa%d8%b3%d8%a7%d8%b1%d8%b9-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa/",
+          "title": "الرئيس الشرع في الرياض.. هل تتسارع الاستثمارات السعودية؟",
+          "description": "تأتي زيارة الرئيس أحمد الشرع إلى الرياض في توقيت تشهد فيه العلاقات السورية السعودية انتقالاً تدريجياً من الدعم السياسي والتفاهمات العامة إلى شراكة اقتصادية أكثر وضوحاً، مع دخول استثمارات سعودية إلى قطاعات حيوية مثل الطيران والاتصالات والبنية التحتية. وتكتسب الزيارة أهميتها من إمكانية البناء على…",
+          "source": {
+            "id": "alwatan_sy",
+            "name": "Al-Watan"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T14:36:51.000Z",
+          "imageUrl": "https://alwatan.sy/wp-content/uploads/2026/10/%D8%A7%D9%84%D8%B4%D8%B1%D8%B9.jpg",
+          "countryCode": "SY",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T16:03:54.000Z"
+    },
+    {
+      "id": "-GbmpnCFeq4h",
+      "representative": {
+        "id": "-GbmpnCFeq4h",
+        "url": "https://www.syria.tv/%D8%A8%D9%84%D8%A7%D8%BA-%D9%83%D8%A7%D8%B0%D8%A8-%D9%83%D8%A7%D8%AF-%D8%A3%D9%86-%D9%8A%D8%B3%D8%A8%D8%A8-%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D9%83%D8%B4%D9%81-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D8%AF%D8%B9%D8%A7%D8%A1-%D8%A7%D8%AE%D8%AA%D8%B7%D8%A7%D9%81-%D8%B7%D9%81%D9%84%D8%A9-%D9%81%D9%8A-%D8%B1%D9%8A%D9%81-%D8%AD%D9%84%D8%A8",
+        "canonicalUrl": "https://www.syria.tv/%D8%A8%D9%84%D8%A7%D8%BA-%D9%83%D8%A7%D8%B0%D8%A8-%D9%83%D8%A7%D8%AF-%D8%A3%D9%86-%D9%8A%D8%B3%D8%A8%D8%A8-%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D9%83%D8%B4%D9%81-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D8%AF%D8%B9%D8%A7%D8%A1-%D8%A7%D8%AE%D8%AA%D8%B7%D8%A7%D9%81-%D8%B7%D9%81%D9%84%D8%A9-%D9%81%D9%8A-%D8%B1%D9%8A%D9%81-%D8%AD%D9%84%D8%A8",
+        "title": "بلاغ كاذب كاد أن يسبب كارثة.. كشف تفاصيل ادعاء اختطاف طفلة في ريف حلب",
+        "description": "كشفت قوى الأمن الداخلي ملابسات بلاغ عن اختطاف طفلة من بلدة قبتان الجبل في ريف حلب الغربي، بعد استنفار أمني وعمليات بحث وتحقيق واسعة..",
+        "source": {
+          "id": "syriatv",
+          "name": "Syria TV"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T15:18:45.000Z",
+        "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2026-10/835874577_4037262643246619_4103014059154253011_n_0.jpeg?itok=TaQ-zo_a",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "is2X3aRzAIXi",
+          "url": "https://alwatan.sy/%d8%a8%d9%84%d8%a7%d8%ba-%d8%a7%d8%ae%d8%aa%d8%b7%d8%a7%d9%81-%d9%83%d8%a7%d8%b0%d8%a8-%d9%81%d9%8a-%d8%b1%d9%8a%d9%81-%d8%ad%d9%84%d8%a8-%d9%8a%d9%86%d8%aa%d9%87%d9%8a-%d8%a8%d8%aa%d9%88%d9%82%d9%8a/",
+          "canonicalUrl": "https://alwatan.sy/%d8%a8%d9%84%d8%a7%d8%ba-%d8%a7%d8%ae%d8%aa%d8%b7%d8%a7%d9%81-%d9%83%d8%a7%d8%b0%d8%a8-%d9%81%d9%8a-%d8%b1%d9%8a%d9%81-%d8%ad%d9%84%d8%a8-%d9%8a%d9%86%d8%aa%d9%87%d9%8a-%d8%a8%d8%aa%d9%88%d9%82%d9%8a/",
+          "title": "بلاغ اختطاف كاذب في ريف حلب ينتهي بتوقيف ذوي طفلة ومتهمين",
+          "description": "كشفت قوى الأمن الداخلي ملابسات بلاغ عن اختطاف طفلة في بلدة قبتان الجبل بريف حلب الغربي، بعد عمليات بحث وتحرٍّ وانتشار أمني أعقب البلاغ، ليتبين وفق التحقيقات أن واقعة الاختطاف لم تحدث، وأن البلاغ قُدّم بهدف تحقيق مصالح مادية. وأوضحت قيادة الأمن الداخلي في بيان عبر قناتها على تلغرام اليوم الثلاثاء،…",
+          "source": {
+            "id": "alwatan_sy",
+            "name": "Al-Watan"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T16:38:43.000Z",
+          "imageUrl": "https://alwatan.sy/wp-content/uploads/2026/07/%D9%82%D9%88%D9%89-%D8%A7%D9%84%D8%A3%D9%85%D9%86.jpg",
+          "countryCode": "SY",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T16:38:43.000Z"
+    },
+    {
+      "id": "sKiHnKAg_eni",
+      "representative": {
+        "id": "sKiHnKAg_eni",
+        "url": "https://alwatan.sy/%d8%b6%d8%a8%d8%b7-62-%d9%83%d9%8a%d9%84%d9%88%d8%ba%d8%b1%d8%a7%d9%85%d8%a7%d9%8b-%d9%85%d9%86-%d8%a7%d9%84%d8%ad%d8%b4%d9%8a%d8%b4-%d9%88210-%d8%a2%d9%84%d8%a7%d9%81-%d8%ad%d8%a8%d8%a9-%d9%83%d8%a8/",
+        "canonicalUrl": "https://alwatan.sy/%d8%b6%d8%a8%d8%b7-62-%d9%83%d9%8a%d9%84%d9%88%d8%ba%d8%b1%d8%a7%d9%85%d8%a7%d9%8b-%d9%85%d9%86-%d8%a7%d9%84%d8%ad%d8%b4%d9%8a%d8%b4-%d9%88210-%d8%a2%d9%84%d8%a7%d9%81-%d8%ad%d8%a8%d8%a9-%d9%83%d8%a8/",
+        "title": "ضبط 62 كيلوغراماً من الحشيش و210 آلاف حبة كبتاغون بريف دمشق",
+        "description": "أحبطت إدارة مكافحة المخدرات بالتنسيق مع قوات حرس الحدود محاولة لتهريب شحنة كبيرة من المواد المخدرة في ريف دمشق، قادمة عبر الحدود من الأراضي اللبنانية، وضبطت 62 كيلوغراماً من مادة الحشيش المخدر و210 آلاف حبة كبتاغون. وأوضحت وزارة الداخلية عبر قناتها على تلغرام اليوم الثلاثاء، أن العملية أسفرت عن…",
+        "source": {
+          "id": "alwatan_sy",
+          "name": "Al-Watan"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:24:24.000Z",
+        "imageUrl": "https://alwatan.sy/wp-content/uploads/2026/10/%D9%85%D8%AE%D8%AF%D8%B1%D8%A7%D8%AA.jpg",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ZfyPeSYCAdN6",
+          "url": "https://www.zamanalwsl.net/news/article/179256",
+          "canonicalUrl": "https://www.zamanalwsl.net/news/article/179256",
+          "title": "إحباط تهريب 62 كيلوغراماً من الحشيش و210 آلاف حبة كبتاغون بريف دمشق",
+          "description": "أحبطت إدارة مكافحة المخدرات في سوريا، بالتنسيق مع قوات حرس الحدود، محاولة تهريب شحنة كبيرة من المواد المخدرة في ريف دمشق، قادمة عبر الحدود من الأراضي اللبنانية.وذكØ",
+          "source": {
+            "id": "zamanalwsl",
+            "name": "Zaman al-Wasl"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T14:30:12.000Z",
+          "imageUrl": "https://www.zamanalwsl.netuploads//6112c8ff0047d615ba4c7745.jpg",
+          "countryCode": "SY",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T16:24:24.000Z"
+    },
+    {
+      "id": "uDUXy9YiPScJ",
+      "representative": {
+        "id": "uDUXy9YiPScJ",
+        "url": "https://www.syria.tv/%D9%82%D8%A7%D8%AF%D9%85%D8%A9-%D9%85%D9%86-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%A5%D8%AD%D8%A8%D8%A7%D8%B7-%D8%B4%D8%AD%D9%86%D8%A9-%D9%85%D8%AE%D8%AF%D8%B1%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D9%81%D9%8A-%D8%B1%D9%8A%D9%81-%D8%AF%D9%85%D8%B4%D9%82",
+        "canonicalUrl": "https://www.syria.tv/%D9%82%D8%A7%D8%AF%D9%85%D8%A9-%D9%85%D9%86-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%A5%D8%AD%D8%A8%D8%A7%D8%B7-%D8%B4%D8%AD%D9%86%D8%A9-%D9%85%D8%AE%D8%AF%D8%B1%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D9%81%D9%8A-%D8%B1%D9%8A%D9%81-%D8%AF%D9%85%D8%B4%D9%82",
+        "title": "قادمة من لبنان.. إحباط شحنة مخدرات على الحدود في ريف دمشق",
+        "description": "أعلنت إدارة مكافحة المخدرات، الثلاثاء، عن إحباط محاولة تهريب شحنة من المواد المخدرة في ريف دمشق، كانت قادمة عبر الحدود من الأراضي اللبنانية.",
+        "source": {
+          "id": "syriatv",
+          "name": "Syria TV"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T12:49:32.000Z",
+        "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2026-10/%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%AC%D8%AF%D9%8A%D8%AF%20-%202026-10-06T152438.200.jpg?itok=mfetZwEL",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "HTGX-NFSdMV9",
+          "url": "https://npasyria.com/246806/",
+          "canonicalUrl": "https://npasyria.com/246806/",
+          "title": "مكافحة المخدرات تعلن إحباط عملية تهريب شحنة مخدرات بريف دمشق",
+          "description": "دمشق – نورث برس أعلنت إدارة مكافحة المخدرات، الثلاثاء، إحباط محاولة تهريب شحنة كبيرة من المواد المخدرة في ريف دمشق، كانت قادمة من الأراضي اللبنانية. وأوضحت إدارة مكافحة المخدرات عبر معرفاتها الرسمية، أن العملية أسفرت عن ضبط 62 كيلوغراماً من مادة الحشيش المخدر، إضافة إلى 210 آلاف حبة من عقار…",
+          "source": {
+            "id": "npasyria",
+            "name": "North Press"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T16:04:10.000Z",
+          "imageUrl": "https://npasyria.com/wp-content/uploads/2026/10/Combating-Narcotics-2-768x576.jpg.webp",
+          "countryCode": "SY",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T16:04:10.000Z"
+    },
+    {
+      "id": "3Q0YXbM0jX3F",
+      "representative": {
+        "id": "3Q0YXbM0jX3F",
+        "url": "https://www.syria.tv/3-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D9%88%D8%A3%D8%B6%D8%B1%D8%A7%D8%B1-%D9%85%D8%A7%D8%AF%D9%8A%D8%A9-%D8%A5%D8%AB%D8%B1-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D8%B7%D8%A7%D8%B1%D9%8A-%D8%AC%D8%A7%D8%B2%D8%A7%D9%86-%D9%88%D9%86%D8%AC%D8%B1%D8%A7%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
+        "canonicalUrl": "https://www.syria.tv/3-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D9%88%D8%A3%D8%B6%D8%B1%D8%A7%D8%B1-%D9%85%D8%A7%D8%AF%D9%8A%D8%A9-%D8%A5%D8%AB%D8%B1-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D8%B7%D8%A7%D8%B1%D9%8A-%D8%AC%D8%A7%D8%B2%D8%A7%D9%86-%D9%88%D9%86%D8%AC%D8%B1%D8%A7%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
+        "title": "3 إصابات وأضرار مادية إثر استهداف مطاري جازان ونجران في السعودية",
+        "description": "أعلنت الهيئة العامة للطيران المدني السعودية، اليوم الثلاثاء، إصابة ثلاثة أشخاص بجروح طفيفة ووقوع أضرار مادية جراء هجومين استهدفا مطاري جازان ونجران",
+        "source": {
+          "id": "syriatv",
+          "name": "Syria TV"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T12:07:05.000Z",
+        "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2026-10/gylrjyfs.png?itok=mxqLtUsI",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "fUtevQQCTWdK",
+          "url": "https://npasyria.com/246794/",
+          "canonicalUrl": "https://npasyria.com/246794/",
+          "title": "السعودية: إصابات وأضرار جراء استهداف مطاري جازان ونجران",
+          "description": "دمشق – نورث برس أعلنت الهيئة العامة للطيران المدني في السعودية، الثلاثاء، تعرض مطار الملك عبد الله بن عبد العزيز الدولي في جازان، ومطار نجران الدولي، جنوبي المملكة، “لاعتداءين” استهدفا مرافقهما، مساء أمس الإثنين. وقالت الهيئة في بيان، إن “فرق الطوارئ والجهات المختصة باشرت التعامل مع الاعتداءين فور…",
+          "source": {
+            "id": "npasyria",
+            "name": "North Press"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T09:03:01.000Z",
+          "imageUrl": "https://npasyria.com/wp-content/uploads/2026/10/297e195491bc-63578.jpg.webp",
+          "countryCode": "SY",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:07:05.000Z"
+    },
+    {
+      "id": "S0hq5t5OL3B4",
+      "representative": {
+        "id": "S0hq5t5OL3B4",
+        "url": "https://alwatan.sy/%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d8%aa%d8%b1%d8%ad%d8%a8-%d8%a8%d8%a7%d9%86%d8%b6%d9%85%d8%a7%d9%85-%d8%b3%d9%88%d8%b1%d9%8a%d8%a7-%d8%a5%d9%84%d9%89-%d8%b4%d8%b1%d8%a7%d9%83%d8%a9-%d9%85%d9%83%d8%a7/",
+        "canonicalUrl": "https://alwatan.sy/%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d8%aa%d8%b1%d8%ad%d8%a8-%d8%a8%d8%a7%d9%86%d8%b6%d9%85%d8%a7%d9%85-%d8%b3%d9%88%d8%b1%d9%8a%d8%a7-%d8%a5%d9%84%d9%89-%d8%b4%d8%b1%d8%a7%d9%83%d8%a9-%d9%85%d9%83%d8%a7/",
+        "title": "فرنسا ترحب بانضمام سوريا إلى شراكة مكافحة الإفلات من العقاب",
+        "description": "رحبت فرنسا بانضمام الجمهورية العربية السورية إلى الشراكة الدولية ضد الإفلات من العقاب على استخدام الأسلحة الكيميائية “PICIAC”. وقالت وزارة الخارجية الفرنسية في بيان نشرته على موقعها الإكتروني: “يمثل انضمام سوريا إلى هذه الشراكة قطيعةً مع ممارسات النظام السابق، وخطوةً جديدة نحو تحقيق العدالة للشعب…",
+        "source": {
+          "id": "alwatan_sy",
+          "name": "Al-Watan"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T09:10:38.000Z",
+        "imageUrl": "https://alwatan.sy/wp-content/uploads/2026/10/%D9%81%D8%B1%D9%86%D8%B3%D8%A754.jpg",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "nDmFliZd1CgH",
+          "url": "https://halabtodaytv.net/archives/291005",
+          "canonicalUrl": "https://halabtodaytv.net/archives/291005",
+          "title": "سوريا ترحب بالشراكة الدولية لمكافحة الإفلات من العقاب على الأسلحة الكيميائية",
+          "description": "في تطورين متلازمين يعكسان مساراً متصاعداً نحو إعادة الاندماج في الأطر الدولية، رحبت سوريا بإعلان الشراكة الدولية لمكافحة الإفلات من العقاب على استخدام الأسلحة الكيميائية قبول طلب انضمامها إلى عضوية الشراكة، فيما أكد المندوب الدائم لسوريا لدى الأمم المتحدة، السفير إبراهيم علبي، أن المقاربة الوطنية…",
+          "source": {
+            "id": "halabtoday",
+            "name": "Halab Today"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T07:00:16.000Z",
+          "imageUrl": null,
+          "countryCode": "SY",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:10:38.000Z"
+    },
+    {
+      "id": "3YAL3B9Q1A1T",
+      "representative": {
+        "id": "3YAL3B9Q1A1T",
+        "url": "https://sana.sy/international/2599100/",
+        "canonicalUrl": "https://sana.sy/international/2599100/",
+        "title": "الاتحاد الأوروبي يبدي قلقاً بالغاً إزاء استهداف سفن تجارية في البحر ‏الأسود",
+        "description": "أعرب الاتحاد الأوروبي، اليوم الثلاثاء، عن قلقه البالغ إزاء تصاعد ‏استهداف السفن التجارية وأطقمها في البحر الأسود، مؤكداً أن الهجمات التي ‏تطال الملاحة المدنية أمر غير مقبول.‏",
+        "source": {
+          "id": "sana",
+          "name": "SANA"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:49:38.000Z",
+        "imageUrl": "https://cdn.sananews.sy/2026/10/1536x864_cmsv2_9be49737-619a-58ce-8c30-f0f6c7677dab-9844531.webp",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:49:38.000Z"
+    },
+    {
+      "id": "96pmXPjDYJHc",
+      "representative": {
+        "id": "96pmXPjDYJHc",
+        "url": "https://sana.sy/international/2599094/",
+        "canonicalUrl": "https://sana.sy/international/2599094/",
+        "title": "التحالف يعترض صاروخاً باليستياً أطلقته ميليشيا الحوثي باتجاه خميس مشيط",
+        "description": "أعلن تحالف دعم الشرعية في اليمن، اليوم الثلاثاء، اعتراض وتدمير ‏صاروخ باليستي أطلقته ميليشيا الحوثي باتجاه المملكة العربية السعودية.‏",
+        "source": {
+          "id": "sana",
+          "name": "SANA"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:42:49.000Z",
+        "imageUrl": "https://cdn.sananews.sy/2026/10/86023ffe-9c34-4200-88eb-09b04d82d97c_16x9_1200x676.webp",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:42:49.000Z"
+    },
+    {
+      "id": "-eTywpyERRMW",
+      "representative": {
+        "id": "-eTywpyERRMW",
+        "url": "https://alwatan.sy/%d8%a7%d9%84%d9%82%d8%a8%d8%b6-%d8%b9%d9%84%d9%89-%d9%85%d8%b3%d8%a4%d9%88%d9%84-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a-%d8%a8%d8%a7%d8%b1%d8%b2-%d9%81%d9%8a-%d8%aa%d9%86%d8%b8%d9%8a%d9%85-%d8%af%d8%a7/",
+        "canonicalUrl": "https://alwatan.sy/%d8%a7%d9%84%d9%82%d8%a8%d8%b6-%d8%b9%d9%84%d9%89-%d9%85%d8%b3%d8%a4%d9%88%d9%84-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a-%d8%a8%d8%a7%d8%b1%d8%b2-%d9%81%d9%8a-%d8%aa%d9%86%d8%b8%d9%8a%d9%85-%d8%af%d8%a7/",
+        "title": "القبض على مسؤول عسكري بارز في تنظيم “داعش” بحمص",
+        "description": "ألقى جهاز الاستخبارات العامة بالتعاون مع قيادة الأمن الداخلي في محافظة ريف دمشق، القبض على المدعو خالد رائد بيروني الملقب بـ”أبو حسن دوشكا”، الذراع التنفيذي في تنظيم “داعش” الإرهابي بحمص، وذلك خلال عملية أمنية في بلدة حجيرة بريف دمشق. وذكرت وزارة الداخلية أن المعطيات الأمنية والتحقيقات الجارية…",
+        "source": {
+          "id": "alwatan_sy",
+          "name": "Al-Watan"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:42:14.000Z",
+        "imageUrl": "https://alwatan.sy/wp-content/uploads/2026/10/%D8%A8%D9%8A%D8%B1%D9%88%D9%86%D9%8A.jpg",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:42:14.000Z"
+    },
+    {
+      "id": "vlH8ZMOUCVaW",
+      "representative": {
+        "id": "vlH8ZMOUCVaW",
+        "url": "https://sana.sy/economy/syrian-economy/2599075/",
+        "canonicalUrl": "https://sana.sy/economy/syrian-economy/2599075/",
+        "title": "رسلان لـ سانا: مذكرة تفاهم مع المركزي الإماراتي لتعزيز التعاون المصرفي والرقابي",
+        "description": "وقع حاكم مصرف سوريا المركزي محمد صفوت رسلان، ومحافظ مصرف الإمارات العربية المتحدة المركزي، خالد محمد بالعمى، مذكرة تفاهم لتعزيز التعاون في المجالات المالية والرقابية والتقنية ذات الاهتمام المشترك.",
+        "source": {
+          "id": "sana",
+          "name": "SANA"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:41:15.000Z",
+        "imageUrl": "https://cdn.sananews.sy/2026/10/SAVE_%D9%A2%D9%A0%D9%A2%D9%A6%D9%A1%D9%A0%D9%A0%D9%A6_%D9%A1%D9%A8%D9%A3%D9%A7%D9%A5%D9%A0-Copy-scaled.jpg",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:41:15.000Z"
+    },
+    {
+      "id": "1HcV8vF2-8Oi",
+      "representative": {
+        "id": "1HcV8vF2-8Oi",
+        "url": "https://sana.sy/locals/2599056/",
+        "canonicalUrl": "https://sana.sy/locals/2599056/",
+        "title": "مديرية النقل الطرقي توضح الأوراق المطلوبة لإتمام معاملات المركبات ‏",
+        "description": "أعلنت وزارة النقل تحديد الوثائق والأوراق المطلوبة لإنجاز مختلف معاملات المركبات ‏والدراجات النارية، بما يشمل التسجيل، ونقل الملكية، وتجديد الترخيص، وفك الحجز، ‏وتسوية الأوضاع الفنية والإدارية، وذلك في إطار خطة الوزارة لتنظيم الإجراءات وتسهيل تقديم ‏الخدمات للمواطنين وتبسيطها.‏",
+        "source": {
+          "id": "sana",
+          "name": "SANA"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:40:40.000Z",
+        "imageUrl": "https://cdn.sananews.sy/2026/10/3X3A7203-scaled.jpg",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:40:40.000Z"
+    },
+    {
+      "id": "qRQ5PF1BL1A7",
+      "representative": {
+        "id": "qRQ5PF1BL1A7",
+        "url": "https://alwatan.sy/%d9%86%d8%ae%d8%a8%d8%a9-%d9%82%d8%b6%d8%a7%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d9%88%d8%b7%d9%86%d9%8a-%d9%8a%d8%b3%d8%aa%d9%87%d8%af/",
+        "canonicalUrl": "https://alwatan.sy/%d9%86%d8%ae%d8%a8%d8%a9-%d9%82%d8%b6%d8%a7%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d9%88%d8%b7%d9%86%d9%8a-%d9%8a%d8%b3%d8%aa%d9%87%d8%af/",
+        "title": "“نخبة قضاة المستقبل”.. برنامج وطني يستهدف طلبة “الحقوق والشريعة والقانون”",
+        "description": "أطلقت وزارة العدل بالتعاون مع وزارة التعليم العالي والبحث العلمي مبادرة “نخبة قضاة المستقبل” كبرنامج وطني للتأهيل والاستقطاب المبكر للكفاءات القانونية، بهدف ورعاية الطلبة المتفوقين في كليات الحقوق والشريعة والقانون، وتنمية قدراتهم العلمية، بما يسهم في إعداد كوادر قضائية مؤهلة للعمل في المجال…",
+        "source": {
+          "id": "alwatan_sy",
+          "name": "Al-Watan"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:35:38.000Z",
+        "imageUrl": "https://alwatan.sy/wp-content/uploads/2026/10/%D8%A7%D9%84%D8%B9%D8%AF%D9%84.jpg",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:35:38.000Z"
+    },
+    {
+      "id": "dssE9JoAKgIL",
+      "representative": {
+        "id": "dssE9JoAKgIL",
+        "url": "https://www.syria.tv/%D9%84%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%AA%D8%B4%D9%83%D9%84-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A",
+        "canonicalUrl": "https://www.syria.tv/%D9%84%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%AA%D8%B4%D9%83%D9%84-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D8%AA%D8%B1%D8%A7%D9%84%D9%8A",
+        "title": "لتعزيز التعاون الاقتصادي.. وزارة الاقتصاد تشكل مجلس الأعمال السوري-الأسترالي",
+        "description": "أصدر وزير الاقتصاد والصناعة السوري نضال الشعار قراراً بتشكيل مجلس الأعمال السوري-الأسترالي..",
+        "source": {
+          "id": "syriatv",
+          "name": "Syria TV"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:33:23.000Z",
+        "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2026-10/6S9A4171-Copy-scaled%20%281%29.jpg?itok=-0JZl-hK",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:33:23.000Z"
+    },
+    {
+      "id": "sne7rcxOFOJx",
+      "representative": {
+        "id": "sne7rcxOFOJx",
+        "url": "https://sana.sy/international/2599080/",
+        "canonicalUrl": "https://sana.sy/international/2599080/",
+        "title": "اتساع الاحتجاجات الطلابية في فرنسا وانضمام النقابات والمعلمين إليها",
+        "description": "اتسعت الاحتجاجات الطلابية في فرنسا، اليوم الثلاثاء، مع خروج آلاف ‏الطلاب في مظاهرات بأنحاء البلاد، وانضمام نقابات ومعلمين وأولياء أمور ‏إليهم، وسط مواجهات وتوترات مع قوات الأمن في عدد من المدن.‏",
+        "source": {
+          "id": "sana",
+          "name": "SANA"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:31:05.000Z",
+        "imageUrl": "https://cdn.sananews.sy/2026/10/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A8%D9%8A%D8%A9-%D9%81%D9%8A-%D9%81%D8%B1%D9%86%D8%B3%D8%A7.jpg",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:31:05.000Z"
+    }
+  ]
+}

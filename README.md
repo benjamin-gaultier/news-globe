@@ -1348,7 +1348,49 @@ Persian titles get the Arabic letter forms unified (ي → ی, ك → ک) and Pe
 
 Devanagari vowel signs are combining marks, so Nepali titles skip the accent folding used elsewhere (it would reduce words to bare consonants).
 
-Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Tanzania (one usable feed), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items), El Salvador (Co Latino only), Cameroon (Actu Cameroun only in French; Cameroon Tribune 403), Togo, Rwanda, Namibia, Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each), Montenegro (Vijesti and CdM; RTCG and Dan 404, Pobjeda and Standard serve HTML), Belarus (BelTA and Onliner; Zerkalo 403, Nasha Niva malformed), Albania (Euronews Albania and BalkanWeb; Top Channel, Panorama and Tema 403), Georgia (Netgazeti and Publika, which share headlines, plus Civil.ge in English; Interpressnews, Imedi and 1TV unreachable or 403), Cambodia and Mongolia (one or two current feeds), Oman and Bahrain (feeds 404).
+**Syria** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| SANA | main feed | 10 | ✅ (state agency, 10 items, ar) |
+| Al-Watan | main feed | 8 | ✅ (ar) |
+| Syria TV | main feed | 8 | ✅ (ar) |
+| North Press | main feed | 7 | ✅ (9 items, ar) |
+| Halab Today | main feed | 7 | ✅ (10 items, ar) |
+| Zaman al-Wasl | main feed | 7 | ✅ (ar) |
+| ~~Enab Baladi~~, ~~Al-Jumhuriya~~, ~~Al-Souria~~ | — | — | ❌ **dropped**: 403 / unreachable |
+
+**Sudan** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Sudan Tribune | main feed | 9 | ✅ (10 items, ar) |
+| Dabanga | main feed | 8 | ✅ (12 items, ar) |
+| Al-Taghyeer | main feed | 7 | ✅ (ar) |
+| Al-Nilin | main feed | 7 | ✅ (10 items, ar) |
+| ~~Al-Rakoba~~, ~~Sudan Akhbar~~ | — | — | ❌ **dropped**: 403 |
+
+**Cuba** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Granma | main feed | 9 | ✅ (state daily, es) |
+| 14ymedio | main feed | 8 | ✅ (es) |
+| Diario de Cuba | main feed | 8 | ✅ (10 items, es) |
+| ~~Cubadebate~~, ~~Radio Rebelde~~, ~~Cubanet~~ | — | — | ❌ **dropped**: unreachable / 500 / 403 |
+| ~~CiberCuba~~ | — | — | ❌ **dropped**: stale feed |
+
+**Puerto Rico** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| El Nuevo Día | main feed | 10 | ✅ (es) |
+| Primera Hora | main feed | 8 | ✅ (es) |
+| Noticel | main feed | 8 | ✅ (10 items, es) |
+| ~~El Vocero~~, ~~WAPA~~ | — | — | ❌ **dropped**: rate-limited (429) |
+| ~~Metro~~, ~~Telemundo PR~~ | — | — | ❌ **dropped**: 404 / empty feed |
+
+Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Tanzania (one usable feed), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items), El Salvador (Co Latino only), Cameroon (Actu Cameroun only in French; Cameroon Tribune 403), Togo, Rwanda, Namibia, Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each), Montenegro (Vijesti and CdM; RTCG and Dan 404, Pobjeda and Standard serve HTML), Belarus (BelTA and Onliner; Zerkalo 403, Nasha Niva malformed), Albania (Euronews Albania and BalkanWeb; Top Channel, Panorama and Tema 403), Georgia (Netgazeti and Publika, which share headlines, plus Civil.ge in English; Interpressnews, Imedi and 1TV unreachable or 403), Cambodia and Mongolia (one or two current feeds), Oman and Bahrain (feeds 404), Nicaragua (Confidencial only; La Prensa, El 19 and Artículo 66 403), Haiti (Le Nouvelliste and Juno7, both slow), Libya (Libya Herald only; Al-Wasat 403).
 
 **Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 
