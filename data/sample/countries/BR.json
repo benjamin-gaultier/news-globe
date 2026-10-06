@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BR",
   "countryName": "Brazil",
-  "updatedAt": "2026-10-06T16:19:35.154Z",
+  "updatedAt": "2026-10-06T16:38:16.084Z",
   "clusters": [
     {
       "id": "WGReK7rMfYcS",
@@ -426,48 +426,6 @@
       "latestPublishedAt": "2026-10-06T00:13:16.000Z"
     },
     {
-      "id": "nasx6jLLzhIJ",
-      "representative": {
-        "id": "nasx6jLLzhIJ",
-        "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/05/camara-municipal-de-sp-tem-nove-vereadores-eleitos-deputados-e-tera-nova-composicao-em-2027.ghtml",
-        "canonicalUrl": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/05/camara-municipal-de-sp-tem-nove-vereadores-eleitos-deputados-e-tera-nova-composicao-em-2027.ghtml",
-        "title": "Câmara Municipal de SP tem nove vereadores eleitos deputados e terá nova composição em 2027",
-        "description": "Plenário da Câmara Municipal de São Paulo. Douglas Ferreira/Rede Câmara Dos 24 vereadores de São Paulo que se candidataram a algum cargo, nove conseguiram se eleger deputados federais e estaduais na eleição deste domingo (4). Isso significa que deverão deixar a Câmara Municipal da capital paulista…",
-        "source": {
-          "id": "g1",
-          "name": "g1"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-05T19:30:06.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/MRCTAaEHDN-7mRNs4IZHHQvqVMA=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/O/B/ccFunFSmivEvzNYVv31w/54240831623-40352aabb8-k.jpg",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "qoh2BcA79-c0",
-          "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/10/nove-vereadores-de-sp-sao-eleitos-deputados-e-composicao-da-camara-municipal-deve-mudar.shtml",
-          "canonicalUrl": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/10/nove-vereadores-de-sp-sao-eleitos-deputados-e-composicao-da-camara-municipal-deve-mudar.shtml",
-          "title": "Nove vereadores de SP são eleitos deputados, e composição da Câmara municipal mudará",
-          "description": "Nove vereadores de São Paulo foram eleitos deputados no domingo (4) e devem deixar a Câmara Municipal para assumir os novos mandatos em 1º de fevereiro de 2027. Entre os suplentes que devem ocupar as vagas, cinco podem exercer a vereança na capital paulista pela primeira vez. Leia mais (10/05/2026…",
-          "source": {
-            "id": "folha",
-            "name": "Folha de S.Paulo"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-05T16:30:00.000Z",
-          "imageUrl": null,
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:30:06.000Z"
-    },
-    {
       "id": "RJvFT5TA4yvL",
       "representative": {
         "id": "RJvFT5TA4yvL",
@@ -646,6 +604,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:00:00.000Z"
+    },
+    {
+      "id": "jcxOtS4aRQcv",
+      "representative": {
+        "id": "jcxOtS4aRQcv",
+        "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/06/eleicao-no-rio-dobradinha-flavio-e-ruas-bem-sucedida-lula-e-paes-com-dificuldade-os-resultados-no-estado-e-na-capital.ghtml",
+        "canonicalUrl": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/06/eleicao-no-rio-dobradinha-flavio-e-ruas-bem-sucedida-lula-e-paes-com-dificuldade-os-resultados-no-estado-e-na-capital.ghtml",
+        "title": "Eleição no Rio: dobradinha Flávio e Ruas bem-sucedida, Lula e Paes com dificuldade; os resultados no estado e na capital",
+        "description": "Traduzida em números, a onda bolsonarista que se espalhou pelo estado do Rio espelha uma vitória de Douglas Ruas, candidato a governador, e Flávio Bolsonaro, postulante a presidente, em 85% dos municípios fluminenses. Os candidatos do PL venceram juntos em 79 das 92 cidades. Já a aliança do…",
+        "source": {
+          "id": "oglobo",
+          "name": "O Globo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:57:09.000Z",
+        "imageUrl": "https://s2-oglobo.glbimg.com/_hHRm_pz9BCqaD6a_PrRYVnTkvs=/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/X/t/EH3PABRQqA5noJdC3RYA/montagem-1791291305932.jpg",
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:57:09.000Z"
     }
   ]
 }

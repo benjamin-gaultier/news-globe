@@ -1228,7 +1228,62 @@ Russia mixes state wire agencies, business dailies and two outlets publishing fr
 | Plusinfo | main feed | 6 | ✅ (all-caps titles, mk) |
 | ~~MIA~~, ~~Sloboden Pečat~~, ~~Fokus~~ | — | — | ❌ **dropped**: 403 / 404 |
 
-Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Taiwan (Taipei Times posts once a day, other feeds 404), Vietnam (two feeds), Indonesia and Tanzania (one usable feed each), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items), El Salvador (Co Latino only), Cameroon (Actu Cameroun only in French; Cameroon Tribune 403), Togo, Nepal (Kathmandu Post undated), Rwanda, Namibia, Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each), Montenegro (Vijesti and CdM; RTCG and Dan 404, Pobjeda and Standard serve HTML), Belarus (BelTA and Onliner; Zerkalo 403, Nasha Niva malformed), Albania (Euronews Albania and BalkanWeb; Top Channel, Panorama and Tema 403).
+**Indonesia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Antara | latest | 10 | ✅ (id) |
+| CNN Indonesia | nasional | 9 | ✅ (id) |
+| Republika | main feed | 8 | ✅ (id) |
+| Liputan6 | news | 8 | ✅ (id) |
+| CNBC Indonesia | news | 8 | ✅ (id) |
+| Sindonews | nasional | 7 | ✅ (id) |
+| Okezone | main feed | 7 | ✅ (some titles carry a stray "amp;nbsp;", repaired, id) |
+| ~~Detik~~, ~~Tribunnews~~, ~~Suara~~, ~~Merdeka~~ | — | — | ❌ **dropped**: unreachable / 403 / 404 |
+| ~~Tempo~~ | — | — | ❌ **dropped**: stale feed |
+
+**Vietnam** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Tuổi Trẻ | thời sự | 10 | ✅ (dates ~3h ahead, clamped, vi) |
+| Thanh Niên | thời sự | 9 | ✅ (titles escaped twice, decoded, vi) |
+| Nhân Dân | chính trị | 9 | ✅ (vi) |
+| VietNamNet | thời sự | 8 | ✅ (vi) |
+| Tiền Phong | xã hội | 8 | ✅ (vi) |
+| VTC News | thời sự | 7 | ✅ (vi) |
+| ~~VnExpress~~, ~~Lao Động~~ | — | — | ❌ **dropped**: 404 / not RSS |
+| ~~Dân Trí~~ | — | — | ❌ **dropped**: stale feed |
+
+Vietnamese is tokenised on folded syllables (tones removed); the stopword list covers the commonest function syllables, including "việt nam" itself.
+
+**Taiwan** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Liberty Times | main feed | 10 | ✅ (zh) |
+| PTS News | main feed | 9 | ✅ (zh) |
+| ETtoday | realtime | 8 | ✅ (zh) |
+| ~~CNA~~, ~~Storm Media~~, ~~China Times~~ | — | — | ❌ **dropped**: 404 / 403 |
+| ~~UDN~~, ~~SETN~~ | — | — | ❌ **dropped**: empty feed / unparseable |
+
+Chinese titles are split into overlapping character pairs, as for Japanese, after cutting at grammatical characters (的, 了, 是…). With three outlets Taiwan has few multi-outlet stories, so its list leans on recency.
+
+**Hong Kong** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| RTHK | local | 10 | ✅ (zh) |
+| Ming Pao | instant | 9 | ✅ (zh) |
+| Sing Tao | main feed | 8 | ✅ (zh) |
+| South China Morning Post | Hong Kong | 9 | ✅ (en) |
+| Hong Kong Free Press | main feed | 8 | ✅ (en) |
+| ~~HK01~~, ~~inmediahk~~ | — | — | ❌ **dropped**: 404 / 403 |
+| ~~The Standard~~ | — | — | ❌ **dropped**: malformed XML |
+
+Hong Kong has no outline on the 110m map; pick it from the country list.
+
+Not added yet, for lack of usable feeds: Israel (Times of Israel and Haaretz 403, JPost and Ynet stale), Thailand (three feeds of 5–10 items), the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge) and Bangladesh (403 or malformed everywhere), South Korea (Korea Herald mostly runs Yonhap's copy, Korea Times stamps items with the fetch time, Hankyoreh's are undated), Tanzania (one usable feed), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items), El Salvador (Co Latino only), Cameroon (Actu Cameroun only in French; Cameroon Tribune 403), Togo, Nepal (Kathmandu Post undated), Rwanda, Namibia, Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each), Montenegro (Vijesti and CdM; RTCG and Dan 404, Pobjeda and Standard serve HTML), Belarus (BelTA and Onliner; Zerkalo 403, Nasha Niva malformed), Albania (Euronews Albania and BalkanWeb; Top Channel, Panorama and Tema 403).
 
 **Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 
