@@ -131,4 +131,10 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   DK: { code: 'DK', name: 'Denmark', lat: 56, lng: 10, altitude: 0.9 },
   PL: { code: 'PL', name: 'Poland', lat: 52, lng: 19.4, altitude: 1.2 },
   MY: { code: 'MY', name: 'Malaysia', lat: 3.5, lng: 106, altitude: 1.6 },
+  UA: { code: 'UA', name: 'Ukraine', lat: 48.4, lng: 31.2, altitude: 1.6 },
+  CZ: { code: 'CZ', name: 'Czechia', lat: 49.8, lng: 15.5, altitude: 0.9 },
+  RO: { code: 'RO', name: 'Romania', lat: 45.9, lng: 25, altitude: 1.1 },
+  ZW: { code: 'ZW', name: 'Zimbabwe', lat: -19, lng: 29.8, altitude: 1.1 },
+  UG: { code: 'UG', name: 'Uganda', lat: 1.4, lng: 32.3, altitude: 1.0 },
+  JM: { code: 'JM', name: 'Jamaica', lat: 18.1, lng: -77.3, altitude: 0.6 },
 };

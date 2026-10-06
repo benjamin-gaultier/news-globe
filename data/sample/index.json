@@ -1,227 +1,263 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T13:46:38.119Z",
+  "updatedAt": "2026-10-06T13:55:23.742Z",
   "countries": [
     {
       "code": "FR",
       "name": "France",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "US",
       "name": "United States",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "GB",
       "name": "United Kingdom",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "DE",
       "name": "Germany",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "ES",
       "name": "Spain",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "IT",
       "name": "Italy",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "CA",
       "name": "Canada",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "BR",
       "name": "Brazil",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "TR",
       "name": "Turkey",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "AU",
       "name": "Australia",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "IN",
       "name": "India",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "MX",
       "name": "Mexico",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "JP",
       "name": "Japan",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "IE",
       "name": "Ireland",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "ZA",
       "name": "South Africa",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "NZ",
       "name": "New Zealand",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "AR",
       "name": "Argentina",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "PT",
       "name": "Portugal",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "AT",
       "name": "Austria",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "CH",
       "name": "Switzerland",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "CO",
       "name": "Colombia",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "CL",
       "name": "Chile",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "NG",
       "name": "Nigeria",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "KE",
       "name": "Kenya",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "PE",
       "name": "Peru",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "UY",
       "name": "Uruguay",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "PH",
       "name": "Philippines",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "SG",
       "name": "Singapore",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "PK",
       "name": "Pakistan",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "GH",
       "name": "Ghana",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "NL",
       "name": "Netherlands",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "BE",
       "name": "Belgium",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "SE",
       "name": "Sweden",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "NO",
       "name": "Norway",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "DK",
       "name": "Denmark",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "PL",
       "name": "Poland",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     },
     {
       "code": "MY",
       "name": "Malaysia",
-      "updatedAt": "2026-10-06T13:46:38.119Z",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "JM",
+      "name": "Jamaica",
+      "updatedAt": "2026-10-06T13:55:23.742Z",
       "clusterCount": 15
     }
   ]

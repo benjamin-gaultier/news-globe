@@ -191,6 +191,23 @@ nowa poniedziałek wtorek sroda czwartek piatek sobota niedziela stycznia lutego
 lipca sierpnia wrzesnia pazdziernika listopada grudnia
 `;
 
+// Czech and Romanian diacritics (č, ř, ě, ů; ă, î, ș, ț) all decompose, so these
+// lists are plain ASCII.
+const STOPWORDS_CS = `
+a i v ve na se s z ze do k ke o od po za pro pri je jsou byl byla bylo byli bude budou to ten ta te
+tento tato toto ktery ktera ktere kteri jak ale aby by kdyz kde co uz jeste jen take nebo ani podle
+pred pres mezi bez nad pod jeho jeji jejich nas vas ma maji muze mohou chce dnes vcera zitra rok roku
+let novy nova nove pondeli utery streda ctvrtek patek sobota nedele ledna unora brezna dubna kvetna
+cervna cervence srpna zari rijna listopadu prosince rekl rekla uvedl
+`;
+const STOPWORDS_RO = `
+si in la cu de pe din pentru al ale ai o un unei unui care ce cum cand unde este sunt era fost fi va
+vor au mai nu se sa isi lui ei lor ca dar sau ori dupa inainte despre prin intre fara sub peste acest
+aceasta acesti aceste acum azi astazi ieri maine luni marti miercuri joi vineri sambata duminica
+ianuarie februarie martie aprilie iunie iulie august septembrie octombrie noiembrie decembrie anul ani
+nou noua noi primul prima
+`;
+
 // Calendar words in service headlines ("¿A qué hora juega…? hoy martes 6 de octubre",
 // "dólar blue hoy") merged unrelated Argentine stories on 2026-10-06.
 const CALENDAR_ES = `
@@ -225,6 +242,8 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   nb: wordSet(STOPWORDS_NB, STOPWORDS_EN, BOILERPLATE),
   da: wordSet(STOPWORDS_DA, STOPWORDS_EN, BOILERPLATE),
   pl: wordSet(STOPWORDS_PL, STOPWORDS_EN, BOILERPLATE),
+  cs: wordSet(STOPWORDS_CS, STOPWORDS_EN, BOILERPLATE),
+  ro: wordSet(STOPWORDS_RO, STOPWORDS_EN, BOILERPLATE),
 };
 
 const HAN = /\p{Script=Han}/u;
