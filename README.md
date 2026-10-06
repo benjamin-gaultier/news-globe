@@ -1538,7 +1538,37 @@ Thai is written without spaces between words; titles are split with the ICU word
 
 Somali gets its own stopword list: particles such as *oo*, *ayaa* and *lagu* sit between almost every pair of words.
 
-Not added yet, for lack of usable feeds: the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge), Tanzania (one usable feed), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items), El Salvador (Co Latino only), Cameroon (Actu Cameroun only in French; Cameroon Tribune 403), Togo, Rwanda, Namibia, Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each), Montenegro (Vijesti and CdM; RTCG and Dan 404, Pobjeda and Standard serve HTML), Belarus (BelTA and Onliner; Zerkalo 403, Nasha Niva malformed), Albania (Euronews Albania and BalkanWeb; Top Channel, Panorama and Tema 403), Georgia (Netgazeti and Publika, which share headlines, plus Civil.ge in English; Interpressnews, Imedi and 1TV unreachable or 403), Cambodia and Mongolia (one or two current feeds), Oman and Bahrain (feeds 404), Nicaragua (Confidencial only; La Prensa, El 19 and Artículo 66 403), Haiti (Le Nouvelliste and Juno7, both slow), Libya (Libya Herald only; Al-Wasat 403), Malta (Newsbook and Lovin Malta; Times of Malta unreachable), Kyrgyzstan (Kaktus only current), Mozambique and DR Congo (one or two small feeds), Palestine (Al-Quds only; WAFA 404, Maan 403), Myanmar (Irrawaddy and Mizzima unreachable or 403, Myanmar Now stale), Yemen (Yemen Monitor and Al-Sahwa; Al-Masdar and Saba 403, Al-Ayyam 404), Niger (Le Sahel, Niger Inter and Tamtaminfo post a few items a day or less; ActuNiger 404), Sierra Leone (Sierraloaded and Calabash; Awoko unreachable, AYV stale).
+**Guyana** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Guyana Chronicle | main feed | 9 | ✅ (state-owned, en) |
+| Kaieteur News | main feed | 9 | ✅ (en) |
+| iNews Guyana | main feed | 8 | ✅ (en) |
+| Demerara Waves | main feed | 7 | ✅ (en) |
+| ~~Stabroek News~~, ~~News Room~~ | — | — | ❌ **dropped**: 404 / 403 |
+
+**Suriname** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Starnieuws | main feed | 9 | ✅ (nl) |
+| De Ware Tijd | main feed | 9 | ✅ (nl) |
+| Waterkant | main feed | 8 | ✅ (nl) |
+| Suriname Herald | main feed | 8 | ✅ (nl) |
+| ~~Sun Times~~ | — | — | ❌ **dropped**: unreachable |
+
+**Yemen** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Aden al-Ghad | main feed | 8 | ✅ (ar) |
+| Yemen Monitor | main feed | 8 | ✅ (ar) |
+| Al-Sahwa Net | main feed | 7 | ✅ (Islah party, ar) |
+| ~~Al-Masdar Online~~, ~~Saba~~, ~~Yemen Akhbar~~ | — | — | ❌ **dropped**: 403 |
+| ~~Al-Ayyam~~, ~~26 September~~ | — | — | ❌ **dropped**: 404 |
+
+Not added yet, for lack of usable feeds: the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge), Tanzania (one usable feed), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items), El Salvador (Co Latino only), Cameroon (Actu Cameroun only in French; Cameroon Tribune 403), Togo, Rwanda, Namibia, Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each), Montenegro (Vijesti and CdM; RTCG and Dan 404, Pobjeda and Standard serve HTML), Belarus (BelTA and Onliner; Zerkalo 403, Nasha Niva malformed), Albania (Euronews Albania and BalkanWeb; Top Channel, Panorama and Tema 403), Georgia (Netgazeti and Publika, which share headlines, plus Civil.ge in English; Interpressnews, Imedi and 1TV unreachable or 403), Cambodia and Mongolia (one or two current feeds), Oman and Bahrain (feeds 404), Nicaragua (Confidencial only; La Prensa, El 19 and Artículo 66 403), Haiti (Le Nouvelliste and Juno7, both slow), Libya (Libya Herald only; Al-Wasat 403), Malta (Newsbook and Lovin Malta; Times of Malta unreachable), Kyrgyzstan (Kaktus only current), Mozambique and DR Congo (one or two small feeds), Palestine (Al-Quds only; WAFA 404, Maan 403), Myanmar (Irrawaddy and Mizzima unreachable or 403, Myanmar Now stale), Niger (Le Sahel, Niger Inter and Tamtaminfo post a few items a day or less; ActuNiger 404), Sierra Leone (Sierraloaded and Calabash; Awoko unreachable, AYV stale), Belize (Breaking Belize News; Love FM and Amandala slow, Channel 5 unreachable), the Bahamas (Tribune and Our News; Nassau Guardian 404), the Maldives (Sun and PSM, in Dhivehi), Fiji and Papua New Guinea (one current feed each).
 
 **Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 

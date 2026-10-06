@@ -203,4 +203,7 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   GM: { code: 'GM', name: 'The Gambia', lat: 13.45, lng: -15.4, altitude: 0.4 },
   LR: { code: 'LR', name: 'Liberia', lat: 6.45, lng: -9.4, altitude: 0.6 },
   SO: { code: 'SO', name: 'Somalia', lat: 5.5, lng: 46, altitude: 1.3 },
+  GY: { code: 'GY', name: 'Guyana', lat: 4.9, lng: -58.9, altitude: 0.8 },
+  SR: { code: 'SR', name: 'Suriname', lat: 4, lng: -56, altitude: 0.6 },
+  YE: { code: 'YE', name: 'Yemen', lat: 15.5, lng: 47.5, altitude: 1.1 },
 };

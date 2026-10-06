@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IE",
   "countryName": "Ireland",
-  "updatedAt": "2026-10-06T18:40:52.046Z",
+  "updatedAt": "2026-10-06T18:44:54.918Z",
   "clusters": [
     {
       "id": "i_ezQjmDfveC",
@@ -468,48 +468,6 @@
       "latestPublishedAt": "2026-10-06T11:33:05.000Z"
     },
     {
-      "id": "qWwHRLUO0zQI",
-      "representative": {
-        "id": "qWwHRLUO0zQI",
-        "url": "https://www.irishtimes.com/crime-law/2026/10/05/man-forced-into-bin-and-pushed-on-to-railway-tracks-at-dublin-train-station/",
-        "canonicalUrl": "https://www.irishtimes.com/crime-law/2026/10/05/man-forced-into-bin-and-pushed-on-to-railway-tracks-at-dublin-train-station/",
-        "title": "‘Appalling attack’: Man forced into bin and pushed on to railway tracks at Dublin Dart station",
-        "description": "Gardaí appeal for witnesses to incident at Harmonstown station on Sunday night",
-        "source": {
-          "id": "irishtimes",
-          "name": "The Irish Times"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-05T18:41:30.000Z",
-        "imageUrl": "https://www.irishtimes.com/resizer/v2/XBROJZF44NGFLJSYZFS6KVVMHU.JPG?auth=666fe8d6823c64ca2ab66ea979857ee9442ca47913f8d7d09e003c57f8d6681d&smart=true&width=630&height=350",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "HXYXEN92DbKy",
-          "url": "https://www.independent.ie/county/dublin/man-allegedly-forced-into-bin-and-pushed-onto-tracks-at-dublin-dart-station/a/162639830.html",
-          "canonicalUrl": "https://www.independent.ie/county/dublin/man-allegedly-forced-into-bin-and-pushed-onto-tracks-at-dublin-dart-station/a/162639830.html",
-          "title": "Man allegedly forced into bin and pushed onto tracks at Dublin DART station",
-          "description": null,
-          "source": {
-            "id": "independent_ie",
-            "name": "Irish Independent"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T08:18:12.000Z",
-          "imageUrl": "https://prod-img.crimeworld.com/public/incoming/hoo57z-gettyimages-1197314089.jpg/alternates/BASE_SIXTEEN_NINE/GettyImages-1197314089.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:18:12.000Z"
-    },
-    {
       "id": "FWNv8aDWpym-",
       "representative": {
         "id": "FWNv8aDWpym-",
@@ -611,65 +569,6 @@
       "latestPublishedAt": "2026-10-06T04:30:00.000Z"
     },
     {
-      "id": "lOp6Fmwem6kc",
-      "representative": {
-        "id": "lOp6Fmwem6kc",
-        "url": "https://www.rte.ie/news/2026/1005/1593970-garvaghy-road-court/",
-        "canonicalUrl": "https://www.rte.ie/news/2026/1005/1593970-garvaghy-road-court/",
-        "title": "Court reserves judgment in appeal against Drumcree parade",
-        "description": "A ruling in a legal challenge against the decision to allow an Orange Order parade along the Garvaghy Road in Portadown has been reserved by the Northern Ireland Court of Appeal.",
-        "source": {
-          "id": "rte",
-          "name": "RTÉ News"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-05T05:00:01.000Z",
-        "imageUrl": "https://www.rte.ie/images/00251e97-800.jpg",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Nf6TIS_dlw7Z",
-          "url": "https://www.independent.ie/irish-news/courts/appeal-court-reserves-judgment-in-garvaghy-road-residents-challenge-to-parades-commission-decision/a/162629159.html",
-          "canonicalUrl": "https://www.independent.ie/irish-news/courts/appeal-court-reserves-judgment-in-garvaghy-road-residents-challenge-to-parades-commission-decision/a/162629159.html",
-          "title": "Appeal court reserves judgment in Garvaghy Road residents’ challenge to Parades Commission decision",
-          "description": "Judge pledges to deliver ‘swift’ verdict after hearing arguments from both sides",
-          "source": {
-            "id": "independent_ie",
-            "name": "Irish Independent"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T04:30:00.000Z",
-          "imageUrl": "https://prod-img.belfasttelegraph.co.uk/public/incoming/64x9oy-d8110b75-8f35-4efb-96af-c856a6b56114-1.jpg/alternates/BASE_SIXTEEN_NINE/d8110b75-8f35-4efb-96af-c856a6b56114%201.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        },
-        {
-          "id": "Db3kdxuyS1X0",
-          "url": "https://www.irishtimes.com/crime-law/courts/2026/10/05/judgment-reserved-in-legal-challenge-to-orange-order-parade-on-garvaghy-road/",
-          "canonicalUrl": "https://www.irishtimes.com/crime-law/courts/2026/10/05/judgment-reserved-in-legal-challenge-to-orange-order-parade-on-garvaghy-road/",
-          "title": "Judgment reserved in legal challenge to Orange Order parade on Garvaghy Road",
-          "description": "Drumcree standoff: Three senior judges promised to deliver verdict on latest legal challenge to the march ‘swiftly’, but did not provide a date",
-          "source": {
-            "id": "irishtimes",
-            "name": "The Irish Times"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-05T18:42:47.000Z",
-          "imageUrl": "https://www.irishtimes.com/resizer/v2/GLNMXYDSBWV56JIBRSNJRNADFM.jpg?auth=ad6067a8cd40fe9415929be3d225485ec6a70a5658bc7b9bc75f2dfac0a58507&smart=true&width=630&height=350",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T04:30:00.000Z"
-    },
-    {
       "id": "_nFqR1eLBRLC",
       "representative": {
         "id": "_nFqR1eLBRLC",
@@ -752,6 +651,72 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-05T20:56:50.000Z"
+    },
+    {
+      "id": "s-OZCGEEmI0d",
+      "representative": {
+        "id": "s-OZCGEEmI0d",
+        "url": "https://www.rte.ie/entertainment/2026/1005/1594129-niamh-obrien-dancer-and-wife-of-michael-flatley-dies/",
+        "canonicalUrl": "https://www.rte.ie/entertainment/2026/1005/1594129-niamh-obrien-dancer-and-wife-of-michael-flatley-dies/",
+        "title": "Niamh O'Brien, dancer and wife of Michael Flatley, dies",
+        "description": "Niamh O'Brien, who was the lead performer in Lord of the Dance and the wife of Riverdance star Michael Flatley, has died at the age of 52.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-05T19:34:35.000Z",
+        "imageUrl": "https://www.rte.ie/images/00251f74-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ub6HWPVREcyI",
+          "url": "https://www.thejournal.ie/niamh-o-brien-dies-irish-dancer-wife-michael-flatley-7183209-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/niamh-o-brien-dies-irish-dancer-wife-michael-flatley-7183209-Oct2026/",
+          "title": "'My heart is broken': Niamh O'Brien, Irish dancer and wife of Michael Flatley, dies aged 52",
+          "description": "“She was the most loving mother, wife and person, and our lives will never be the same without her,” Michael Flatley said in a statement.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-05T19:41:46.000Z",
+          "imageUrl": "https://c0.thejournal.ie/media/2026/10/guests-and-cast-attend-the-red-carpet-premiere-of-black-bird-written-by-directed-by-and-starring-michael-flatley-featuring-michael-flatley-niamh-obrien-where-london-united-kingdom-when-28-f1f358d8-2fa1-4103-ba5a-6a2c6d035028-630x414.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T19:41:46.000Z"
+    },
+    {
+      "id": "txzBWhlhzWsA",
+      "representative": {
+        "id": "txzBWhlhzWsA",
+        "url": "https://www.thejournal.ie/budget-2027-social-welfare-7183604-Oct2026/",
+        "canonicalUrl": "https://www.thejournal.ie/budget-2027-social-welfare-7183604-Oct2026/",
+        "title": "Increases to State pension and other core social welfare payments announced",
+        "description": "The increase is provided for in Budget 2027.",
+        "source": {
+          "id": "thejournal",
+          "name": "TheJournal.ie"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:15:19.000Z",
+        "imageUrl": "https://c1.thejournal.ie/media/2026/10/money-1-shutterstock-19bde257-33e3-4719-9336-196e54bbfcf0-630x419.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:15:19.000Z"
     }
   ]
 }
