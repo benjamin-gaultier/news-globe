@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MA",
   "countryName": "Morocco",
-  "updatedAt": "2026-10-06T15:57:23.644Z",
+  "updatedAt": "2026-10-06T16:19:35.154Z",
   "clusters": [
     {
       "id": "WuRy8BpamyNw",
@@ -274,48 +274,6 @@
       "latestPublishedAt": "2026-10-06T09:53:16.000Z"
     },
     {
-      "id": "emBIayd-sLih",
-      "representative": {
-        "id": "emBIayd-sLih",
-        "url": "https://telquel.ma/instant-t/2026/10/05/ander-ma-une-plateforme-numerique-dediee-a-la-lutte-contre-la-contrefacon-des-oeuvres-artistiques_2011514/",
-        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/05/ander-ma-une-plateforme-numerique-dediee-a-la-lutte-contre-la-contrefacon-des-oeuvres-artistiques_2011514/",
-        "title": "Ander.ma, une plateforme numérique dédiée à la lutte contre la contrefaçon des œuvres artistiques",
-        "description": "Le ministère de la Jeunesse, de la Culture et de la Communication (Département de la Culture) a annoncé le lancement de la plateforme numérique « ander.ma », dédiée à la documentation, la traçabilité et la vérification de l’originalité et de l’authenticité des œuvres d’art. Cette initiative fait…",
-        "source": {
-          "id": "telquel",
-          "name": "TelQuel"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-05T16:52:22.000Z",
-        "imageUrl": "https://static.telquel.ma/content/uploads/2022/12/236d8f6235e914931c8b660acf901ca8.png",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "5I6sj9r6ZD6j",
-          "url": "https://www.lavieeco.com/influences/culture/ander-ma-nouvelle-plateforme-dediee-a-la-lutte-contre-la-contrefacon-des-oeuvres-dart/",
-          "canonicalUrl": "https://www.lavieeco.com/influences/culture/ander-ma-nouvelle-plateforme-dediee-a-la-lutte-contre-la-contrefacon-des-oeuvres-dart/",
-          "title": "«ander.ma» : Nouvelle plateforme dédiée à la lutte contre la contrefaçon des œuvres d’art",
-          "description": "La plateforme numérique repose sur la participation directe des artistes plasticiens et visuels pour constituer la mémoire documentaire de leurs créations et intègre un dispositif d’alerte et de prévention pour signaler les œuvres suspectes, falsifiées ou contrefaites. L’article «ander.ma»…",
-          "source": {
-            "id": "lavieeco",
-            "name": "La Vie éco"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-05T16:06:53.000Z",
-          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-05-at-15.59.11-1024x768.jpeg",
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T16:52:22.000Z"
-    },
-    {
       "id": "nOPh3ghabc8H",
       "representative": {
         "id": "nOPh3ghabc8H",
@@ -506,6 +464,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:05:28.000Z"
+    },
+    {
+      "id": "u7VsR5NxWNk0",
+      "representative": {
+        "id": "u7VsR5NxWNk0",
+        "url": "https://www.yabiladi.com/articles/details/204316/diphterie-fait-retour-maroc-qu-est-ce.html?utm_source=rss_yabiladi",
+        "canonicalUrl": "https://www.yabiladi.com/articles/details/204316/diphterie-fait-retour-maroc-qu-est-ce.html",
+        "title": "La diphtérie fait son retour au Maroc : qu’est-ce qui empêche les enfants d’être vaccinés ?",
+        "description": "Le retour de la diphtérie au Maroc met en lumière le recul de la couverture vaccinale. Qu’est-ce qui empêche les parents de faire vacciner leurs enfants ou de mener à terme leur calendrier vaccinal ?",
+        "source": {
+          "id": "yabiladi",
+          "name": "Yabiladi"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:52:00.000Z",
+        "imageUrl": "https://static.yabiladi.com/files/articles/yabiladi.8ee739c7c06484a735ba7bc8bdf5711920261006150537150.webp",
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:52:00.000Z"
     }
   ]
 }

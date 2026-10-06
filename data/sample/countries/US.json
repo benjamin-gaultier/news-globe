@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "US",
   "countryName": "United States",
-  "updatedAt": "2026-10-06T15:57:23.644Z",
+  "updatedAt": "2026-10-06T16:19:35.154Z",
   "clusters": [
     {
       "id": "edfDpG-qKOcf",
@@ -552,48 +552,6 @@
       "latestPublishedAt": "2026-10-05T20:27:39.000Z"
     },
     {
-      "id": "oNwOC2nAlEck",
-      "representative": {
-        "id": "oNwOC2nAlEck",
-        "url": "https://www.pbs.org/newshour/politics/supreme-court-rejects-michigan-womans-appeal-over-schools-ban-on-lets-go-brandon-sweatshirts",
-        "canonicalUrl": "https://www.pbs.org/newshour/politics/supreme-court-rejects-michigan-womans-appeal-over-schools-ban-on-lets-go-brandon-sweatshirts",
-        "title": "Supreme Court rejects Michigan woman's appeal over school's ban on 'Let's Go Brandon' sweatshirts",
-        "description": "The mother of two boys says their First Amendment rights were violated when they were told to take off the sweatshirts she bought them for Christmas in 2022.",
-        "source": {
-          "id": "pbs",
-          "name": "PBS News"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-05T16:04:05.000Z",
-        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2021-11-20T232453Z_629731785_RC2IYQ9U495I_RTRMADP_3_USA-BIDEN-BRANDON-1024x683.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "UAcYM4fI-Kj7",
-          "url": "https://abcnews.com/US/wireStory/supreme-court-rejects-appeal-michigan-schools-ban-lets-137003627",
-          "canonicalUrl": "https://abcnews.com/US/wireStory/supreme-court-rejects-appeal-michigan-schools-ban-lets-137003627",
-          "title": "Supreme Court rejects appeal over school's ban on 'Let’s Go Brandon' sweatshirts",
-          "description": "The Supreme Court is rejecting an appeal from a Michigan woman challenging a school district’s ban on shirts with the phrase “Let’s Go Brandon.”",
-          "source": {
-            "id": "abc",
-            "name": "ABC News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T16:02:17.000Z",
-          "imageUrl": "https://s.abcnews.com/images/US/wirestory_d683aeba76e285321c9b38aa6a3271e4_16x9_1600.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T16:04:05.000Z"
-    },
-    {
       "id": "_fJTph3p43x_",
       "representative": {
         "id": "_fJTph3p43x_",
@@ -664,6 +622,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:00:10.000Z"
+    },
+    {
+      "id": "lyCYbDFM9Pc4",
+      "representative": {
+        "id": "lyCYbDFM9Pc4",
+        "url": "https://www.washingtonpost.com/politics/2026/10/06/naacp-launches-voter-protection-hub-midterm-elections/",
+        "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/06/naacp-launches-voter-protection-hub-midterm-elections/",
+        "title": "NAACP launches voter protection hub for midterm elections",
+        "description": "The civil rights organization is stepping up efforts in response to President Donald Trump’s push to change voting rules.",
+        "source": {
+          "id": "wapo",
+          "name": "The Washington Post"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:30:00.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:30:00.000Z"
     }
   ]
 }

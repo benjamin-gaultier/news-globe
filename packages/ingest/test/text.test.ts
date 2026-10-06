@@ -174,6 +174,19 @@ describe('titleTokens: Slovenian and Icelandic', () => {
   });
 });
 
+describe('titleTokens: Russian, Macedonian and Albanian', () => {
+  it('folds ё/й and drops Russian stopwords', () => {
+    expect(titleTokens('Токаев подписал закон о налогах в среду', 'ru')).toEqual(new Set(['токаев', 'подписал', 'закон', 'налогах']));
+    expect(titleTokens('Её слёзы', 'ru')).toEqual(titleTokens('ее слезы', 'ru'));
+  });
+  it('drops Macedonian stopwords and folds ќ', () => {
+    expect(titleTokens('Владата ќе донесе одлука денес', 'mk')).toEqual(new Set(['владата', 'донесе', 'одлука']));
+  });
+  it('drops Albanian stopwords and folds ë', () => {
+    expect(titleTokens('Kuvendi miratoi buxhetin për vitin 2027', 'sq')).toEqual(new Set(['kuvendi', 'miratoi', 'buxhetin']));
+  });
+});
+
 describe('titleTokens: years', () => {
   it('drops French calendar words', () => {
     expect(titleTokens('Nécrologie du 06 octobre 2026', 'fr')).toEqual(new Set(['06', 'necrologi']));

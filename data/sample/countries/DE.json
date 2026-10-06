@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DE",
   "countryName": "Germany",
-  "updatedAt": "2026-10-06T15:57:23.644Z",
+  "updatedAt": "2026-10-06T16:19:35.154Z",
   "clusters": [
     {
       "id": "j1PnLPD2nIDH",
@@ -410,48 +410,6 @@
       "latestPublishedAt": "2026-10-06T04:49:51.000Z"
     },
     {
-      "id": "HtMLH0u4SrmR",
-      "representative": {
-        "id": "HtMLH0u4SrmR",
-        "url": "https://www.spiegel.de/politik/deutschland/bundeswehr-ki-sortiert-jetzt-rechtsextreme-bewerber-aus-a-c71ee40d-15a7-4b2e-a074-c2607461b164#ref=rss",
-        "canonicalUrl": "https://www.spiegel.de/politik/deutschland/bundeswehr-ki-sortiert-jetzt-rechtsextreme-bewerber-aus-a-c71ee40d-15a7-4b2e-a074-c2607461b164",
-        "title": "Bundeswehr: KI sortiert jetzt rechtsextreme Bewerber aus",
-        "description": "Um Extremisten von der Bundeswehr fernzuhalten, durchleuchtet der Truppengeheimdienst MAD die Internetkonten aller Bewerber – per künstlicher Intelligenz. Und die Software wird fündig.",
-        "source": {
-          "id": "spiegel",
-          "name": "DER SPIEGEL"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-05T16:14:00.000Z",
-        "imageUrl": "https://cdn.prod.www.spiegel.de/images/de973760-05cf-47af-8c94-3c493eac19fd_w520_r2.08_fpx27_fpy43.jpg",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "uaC0R5XKktYu",
-          "url": "https://www.n-tv.de/politik/KI-soll-rechtsextreme-Bewerber-bei-der-Bundeswehr-finden-id31384356.html",
-          "canonicalUrl": "https://www.n-tv.de/politik/KI-soll-rechtsextreme-Bewerber-bei-der-Bundeswehr-finden-id31384356.html",
-          "title": "Fehlende Verfassungstreue: KI soll rechtsextreme Bewerber bei der Bundeswehr finden",
-          "description": "Der Militärgeheimdienst durchleuchtet seit Juli die Internetaktivitäten aller Bewerber für die Bundeswehr. Die speziell angepasste Software soll angesichts steigender Bewerberzahlen entlasten und hat bereits erste Konsequenzen.",
-          "source": {
-            "id": "ntv",
-            "name": "n-tv"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-05T19:39:18.000Z",
-          "imageUrl": "https://www.n-tv.de/img/31384361/1791235569/Img_4_3/250/imago0850729742h.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:39:18.000Z"
-    },
-    {
       "id": "YsJWB4YemDKC",
       "representative": {
         "id": "YsJWB4YemDKC",
@@ -642,6 +600,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:53:59.000Z"
+    },
+    {
+      "id": "Y3sYQlXxD87Q",
+      "representative": {
+        "id": "Y3sYQlXxD87Q",
+        "url": "https://www.welt.de/politik/deutschland/plus6ac3572a95c283447e8628cc/bildungskrise-diese-zahlen-offenbaren-wo-es-bei-der-bildung-in-den-kitas-hapert.html",
+        "canonicalUrl": "https://www.welt.de/politik/deutschland/plus6ac3572a95c283447e8628cc/bildungskrise-diese-zahlen-offenbaren-wo-es-bei-der-bildung-in-den-kitas-hapert.html",
+        "title": "Diese Zahlen offenbaren, wo es bei der Bildung in den Kitas hapert",
+        "description": "Jeder Vierte findet, dass die Kitas in Deutschland nicht gut auf die Schule vorbereiten. Das zeigt eine Studie des Ifo‑Instituts. Fast die Hälfte der Bevölkerung will nicht, dass Familien mit Migrationshintergrund bei der Platzvergabe bevorzugt werden.",
+        "source": {
+          "id": "welt",
+          "name": "WELT"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:52:00.000Z",
+        "imageUrl": "https://images.welt.de/6ac3572a95c283447e8628cc/c7f82731f19917cb699cb9724bbedf4f-master/ci23x11-w1200/gettyimages-2271349842-jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:52:00.000Z"
     }
   ]
 }
