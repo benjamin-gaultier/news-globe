@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AT",
   "countryName": "Austria",
-  "updatedAt": "2026-10-06T13:27:49.082Z",
+  "updatedAt": "2026-10-06T13:38:15.960Z",
   "clusters": [
     {
       "id": "HkGyfdFFUnK7",
@@ -375,48 +375,6 @@
       "latestPublishedAt": "2026-10-06T07:01:30.000Z"
     },
     {
-      "id": "hKh8Jj5CI6hy",
-      "representative": {
-        "id": "hKh8Jj5CI6hy",
-        "url": "https://www.derstandard.at/story/3000000342719/eva-maria-holzleitner-die-feministin-und-brueckenbauerin?ref=rss",
-        "canonicalUrl": "https://www.derstandard.at/story/3000000342719/eva-maria-holzleitner-die-feministin-und-brueckenbauerin",
-        "title": "Eva-Maria Holzleitner: Die Feministin und Brückenbauerin",
-        "description": "Mit erst 33 Jahren, aber jeder Menge politischer Erfahrung ist die Oberösterreicherin als künftige Co-Parteichefin der Gegenentwurf zu Gerhard Zeiler",
-        "source": {
-          "id": "derstandard",
-          "name": "Der Standard"
-        },
-        "sourceCountry": "AT",
-        "language": "de",
-        "publishedAt": "2026-10-05T15:09:22.000Z",
-        "imageUrl": "https://i.ds.at/dc_bkg/rs:fill:150:0/plain/lido-images/2026/10/05/1fdf265f-b703-49ae-b081-c726bc61b484.jpg",
-        "countryCode": "AT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "QAzvolqPHRLk",
-          "url": "https://www.kleinezeitung.at/artikel/41328671/eva-maria-holzleitner-eine-die-eigentlich-nicht-zur-verfuegung-stand",
-          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41328671/eva-maria-holzleitner-eine-die-eigentlich-nicht-zur-verfuegung-stand",
-          "title": "Eva-Maria Holzleitner: Eine, die eigentlich nicht zur Verfügung stand",
-          "description": "Nicht zum ersten Mal winkte Eva-Maria Holzleitner ab, eine Chefinnenrolle einzunehmen. Nun aber hat sie als ehemalige Rendi-Wagner-Unterstützerin diese dennoch über. Nur auf Zeit, wie sie betont.",
-          "source": {
-            "id": "kleinezeitung",
-            "name": "Kleine Zeitung"
-          },
-          "sourceCountry": "AT",
-          "language": "de",
-          "publishedAt": "2026-10-05T13:34:18.000Z",
-          "imageUrl": "https://img.kleinezeitung.at/public/incoming/1rft3h-kein-titel/alternates/BASE_LANDSCAPE/kein%20Titel",
-          "countryCode": "AT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T15:09:22.000Z"
-    },
-    {
       "id": "oxIvoq36LR9l",
       "representative": {
         "id": "oxIvoq36LR9l",
@@ -577,6 +535,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:18:30.000Z"
+    },
+    {
+      "id": "np-F0InTaWBo",
+      "representative": {
+        "id": "np-F0InTaWBo",
+        "url": "https://www.krone.at/4322742",
+        "canonicalUrl": "https://www.krone.at/4322742",
+        "title": "Zeiler kämpft weiter – für SPÖ „Kapitel beendet“",
+        "description": "Noch am Sonntagabend sprach SPÖ-Bundesgeschäftsführer Klaus Seltenheim davon, dass das „Kapitel Gerhard Zeiler“ für die Sozialdemokratie „beendet“ sei. Nur zwei Tage später lässt der 71-Medienmanager auf seinem neuen Instagramaccount mit einem pompösen Video aufhorchen ...",
+        "source": {
+          "id": "krone",
+          "name": "Kronen Zeitung"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:17:23.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:17:23.000Z"
     }
   ]
 }
