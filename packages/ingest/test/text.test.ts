@@ -145,6 +145,20 @@ describe('titleTokens: Czech and Romanian', () => {
   });
 });
 
+describe('titleTokens: Greek, Bulgarian and other new lists', () => {
+  it('folds Greek tonos and final sigma, and drops stopwords', () => {
+    expect(titleTokens('Οι εκλογές στην Αθήνα', 'el')).toEqual(titleTokens('ΕΚΛΟΓΕΣ ΑΘΗΝΑ', 'el'));
+    expect(titleTokens('Οι εκλογές στην Αθήνα', 'el').has('στην')).toBe(false);
+  });
+  it('drops Bulgarian, Hungarian, Finnish and Croatian/Serbian stopwords', () => {
+    expect(titleTokens('Правителството ще приеме бюджета в май', 'bg').has('маи')).toBe(false);
+    expect(titleTokens('Правителството ще приеме бюджета в май', 'bg').has('ще')).toBe(false);
+    expect(titleTokens('A kormány szerint nem lesz adóemelés', 'hu').has('szerint')).toBe(false);
+    expect(titleTokens('Hallitus kertoo että vero nousee', 'fi').has('etta')).toBe(false);
+    expect(titleTokens('Vlada je danas usvojila zakon', 'hr')).toEqual(titleTokens('Vlada usvojila zakon', 'sr'));
+  });
+});
+
 describe('titleTokens: Japanese', () => {
   it('cuts kanji runs into bigrams, keeps katakana words and drops hiragana', () => {
     expect([...titleTokens('石破首相がワシントンを訪問', 'ja')].sort()).toEqual(

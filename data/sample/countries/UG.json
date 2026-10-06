@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "UG",
   "countryName": "Uganda",
-  "updatedAt": "2026-10-06T13:55:23.742Z",
+  "updatedAt": "2026-10-06T14:04:18.812Z",
   "clusters": [
     {
       "id": "FW1vmGEyA_sj",
@@ -62,48 +62,6 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T10:26:48.000Z"
-    },
-    {
-      "id": "e1e-8E-AHNcn",
-      "representative": {
-        "id": "e1e-8E-AHNcn",
-        "url": "https://nilepost.co.ug/business/375725/uedcl-boosts-power-supply-in-butebo-with-two-new-projects",
-        "canonicalUrl": "https://nilepost.co.ug/business/375725/uedcl-boosts-power-supply-in-butebo-with-two-new-projects",
-        "title": "UEDCL Boosts Power Supply in Butebo with Two New Projects",
-        "description": null,
-        "source": {
-          "id": "nilepost",
-          "name": "Nile Post"
-        },
-        "sourceCountry": "UG",
-        "language": "en",
-        "publishedAt": "2026-10-05T13:58:31.000Z",
-        "imageUrl": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/10/0cf4784d-cf5a-4f5f-8cf6-f173974098c0.jpg",
-        "countryCode": "UG",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "sJ0R7YlEf6Ap",
-          "url": "https://www.independent.co.ug/uedcl-invests-shs240m-to-boost-power-supply-in-butebo/",
-          "canonicalUrl": "https://www.independent.co.ug/uedcl-invests-shs240m-to-boost-power-supply-in-butebo/",
-          "title": "UEDCL invests Shs240m to boost power supply in Butebo",
-          "description": "Butebo, Uganda | THE INDEPENDENT | The Uganda Electricity Distribution Company Limited (UEDCL) has invested more than Shs240 million in electricity distribution infrastructure in Butebo District, in a move expected to improve power reliability and support growing commercial and industrial activity…",
-          "source": {
-            "id": "independent_ug",
-            "name": "The Independent (Uganda)"
-          },
-          "sourceCountry": "UG",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:00:29.000Z",
-          "imageUrl": null,
-          "countryCode": "UG",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:00:29.000Z"
     },
     {
       "id": "ywkZQxUodjpp",
@@ -434,6 +392,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:58:15.000Z"
+    },
+    {
+      "id": "XFf44zjNdieW",
+      "representative": {
+        "id": "XFf44zjNdieW",
+        "url": "https://nilepost.co.ug/news/375936/norbert-is-not-our-official-plus-mwesigye-says-after-promoter-appears-in-plu-shirt",
+        "canonicalUrl": "https://nilepost.co.ug/news/375936/norbert-is-not-our-official-plus-mwesigye-says-after-promoter-appears-in-plu-shirt",
+        "title": "‘Norbert is not our official,’ PLU’s Mwesigye says after promoter appears in PLU shirt",
+        "description": "PLU mobiliser Frank Mwesigye has distanced events promoter Norbert Twizere from the organisation after his court appearance and remand over alleged financial crimes.",
+        "source": {
+          "id": "nilepost",
+          "name": "Nile Post"
+        },
+        "sourceCountry": "UG",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:10:28.000Z",
+        "imageUrl": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/10/6b642f0b-7992-4b18-bd99-bdc54de049f8.jpeg",
+        "countryCode": "UG",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:10:28.000Z"
     }
   ]
 }
