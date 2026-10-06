@@ -186,4 +186,8 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   UZ: { code: 'UZ', name: 'Uzbekistan', lat: 41.4, lng: 64.5, altitude: 1.2 },
   IR: { code: 'IR', name: 'Iran', lat: 32.5, lng: 54, altitude: 1.6 },
   NP: { code: 'NP', name: 'Nepal', lat: 28.3, lng: 84, altitude: 0.8 },
+  SY: { code: 'SY', name: 'Syria', lat: 35, lng: 38.5, altitude: 0.8 },
+  SD: { code: 'SD', name: 'Sudan', lat: 15.5, lng: 30, altitude: 1.5 },
+  CU: { code: 'CU', name: 'Cuba', lat: 21.6, lng: -79.5, altitude: 0.8 },
+  PR: { code: 'PR', name: 'Puerto Rico', lat: 18.2, lng: -66.5, altitude: 0.4 },
 };
