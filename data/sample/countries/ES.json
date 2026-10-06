@@ -2,184 +2,555 @@
   "schemaVersion": 1,
   "countryCode": "ES",
   "countryName": "Spain",
-  "updatedAt": "2026-10-06T09:59:35.791Z",
+  "updatedAt": "2026-10-06T12:44:26.411Z",
   "clusters": [
     {
-      "id": "P0ZCQC3LRSU9",
+      "id": "2MGmVyB7Oqxv",
       "representative": {
-        "id": "P0ZCQC3LRSU9",
-        "url": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
-        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac35e7ae4d4d83b688b457c.html",
-        "title": "Así ha sido el discurso íntegro de Pedro Sánchez con el que ha convocado elecciones",
-        "description": "El discurso del presidente se ha centrado en la complejidad para negociar durante esta legislatura, la dureza de la oposición y los logros conseguidos Leer",
+        "id": "2MGmVyB7Oqxv",
+        "url": "https://elpais.com/espana/2026-10-06/el-supremo-levanta-la-orden-de-detencion-a-puigdemont.html",
+        "canonicalUrl": "https://elpais.com/espana/2026-10-06/el-supremo-levanta-la-orden-de-detencion-a-puigdemont.html",
+        "title": "El Supremo levanta la orden de detención a Puigdemont, pero no le aplica todavía la amnistía",
+        "description": "Llarena deja sin efecto el mandamiento de arresto que pesaba sobre el expresidente, Puig y Comín, pero no decidirá sobre la medida de gracia hasta que analice la sentencia del Constitucional",
         "source": {
-          "id": "elmundo",
-          "name": "El Mundo"
+          "id": "elpais",
+          "name": "El País"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-05T08:26:00.000Z",
-        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911887360643.jpg",
+        "publishedAt": "2026-10-06T10:41:20.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/BM7P4X4DIFIZTNM6D6JNANF6XY.jpg?auth=0afff364c5fc257939aeefbd0852ad17914c51958def8ff81d804155f8c1f6ec",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [
         {
-          "id": "E5EBQ2gikBUp",
-          "url": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
-          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
-          "title": "La comparecencia de Pedro Sánchez y la última hora sobre las elecciones generales y el decreto de la vivienda, en directo",
-          "description": "El presidente del Gobierno ofrecerá una rueda de prensa tras la celebración del Consejo de Ministros",
+          "id": "zQzxwZQLCQLG",
+          "url": "https://www.abc.es/espana/llarena-levanta-orden-detencion-puigdemont-tras-conocer-20261006125040-nt.html",
+          "canonicalUrl": "https://www.abc.es/espana/llarena-levanta-orden-detencion-puigdemont-tras-conocer-20261006125040-nt.html",
+          "title": "Llarena levanta la orden de detención de Puigdemont tras conocer el fallo del TC",
+          "description": "El magistrado de la Sala Penal del Supremo Pablo Llarena ha dejado sin efecto las órdenes nacionales de busca y captura y detención del expresidente de la Generalitat catalana Carles Puigdemont y de los exconsellers Antoni Comin y Lluis Puig, también huidos de la Justicia desde octubre de 2017.El…",
           "source": {
-            "id": "lavanguardia",
-            "name": "La Vanguardia"
+            "id": "abc_es",
+            "name": "ABC"
           },
           "sourceCountry": "ES",
           "language": "es",
-          "publishedAt": "2026-10-06T08:39:08.000Z",
-          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/05/6ac3cded5b48f.jpeg",
+          "publishedAt": "2026-10-06T11:50:46.000Z",
+          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518260037.jpg",
           "countryCode": "ES",
           "regionCode": null
         },
         {
-          "id": "y7BPtmffLJMa",
-          "url": "https://www.20minutos.es/nacional/por-que-sanchez-convoca-elecciones-ahora_7045196_3.html",
-          "canonicalUrl": "https://www.20minutos.es/nacional/por-que-sanchez-convoca-elecciones-ahora_7045196_3.html",
-          "title": "Por qué Pedro Sánchez convoca elecciones generales ahora",
-          "description": "El cambio de foco hacia la vivienda, la falta de preparación del espacio a la izquierda del PSOE y la evolución de la agenda judicial ayudan a explicar la decisión de Sánchez de adelantar las elecciones.",
+          "id": "AYvSwZ9a2Ymz",
+          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4c58c21efa0dc1f8b45ba.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4c58c21efa0dc1f8b45ba.html",
+          "title": "El Constitucional ampara a los líderes del 'procés' y Llarena levanta la orden de detención contra Puigdemont que podrá regresar ya a España",
+          "description": "El Pleno ampara a la ex consellera Dolors Bassa dividido entre conservadores y progresistas. La decisión del TC obliga a Llarena a levantar la orden de detención contra el ex presidente de la Generalitat. Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:25:01.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912808849496.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "1pgfSrYb3fwi",
+          "url": "https://www.20minutos.es/nacional/juez-llarena-levanta-orden-detencion-puigdemont-tras-conocer-fallo-constitucional_7045435_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/juez-llarena-levanta-orden-detencion-puigdemont-tras-conocer-fallo-constitucional_7045435_0.html",
+          "title": "El juez Llarena levanta la orden de detención de Puigdemont tras conocer el fallo del Constitucional",
+          "description": "El 'expresident' decide no regresar a España hasta que se le haya aplicado la amnistía y se archive el procedimiento, pese al alzamiento de la orden de detención.",
           "source": {
             "id": "20minutos_es",
             "name": "20minutos"
           },
           "sourceCountry": "ES",
           "language": "es",
-          "publishedAt": "2026-10-05T18:41:54.000Z",
-          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac34edb0c4363-37532459.png",
+          "publishedAt": "2026-10-06T10:55:22.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac4d79f6ccd41-31581758.webp",
           "countryCode": "ES",
           "regionCode": null
         },
         {
-          "id": "VNO9Ea4Fzzqv",
-          "url": "https://www.eldiario.es/politica/consulta-discurso-completo-pedro-sanchez-elecciones-anticipadas_1_13561725.html",
-          "canonicalUrl": "https://www.eldiario.es/politica/consulta-discurso-completo-pedro-sanchez-elecciones-anticipadas_1_13561725.html",
-          "title": "Lee el discurso completo de Pedro Sánchez sobre las elecciones anticipadas",
-          "description": "Este ha sido el texto completo de la comparecencia del presidente del Gobierno a partir de las 9, cuando ha anunciado elecciones generales para el 29 de noviembre Pedro Sánchez convoca elecciones anticipadas el 29 de noviembre Las frases de la comparecencia de Sánchez: de la \"insatisfacción de la…",
+          "id": "yjbLoZYex9XZ",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652315/tc-ordena-aplicar-amnistia-llarena-levanta-orden-detencion-puigdemont-que.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652315/tc-ordena-aplicar-amnistia-llarena-levanta-orden-detencion-puigdemont-que.html",
+          "title": "El TC ordena aplicar la amnistía, Llarena levanta la orden de detención de Puigdemont: ¿Y ahora qué?",
+          "description": "La doctrina del Tribunal Constitucional debería llevar a una aplicación de la ley en cascada a todos los condenados, procesados o encausados por el 'procés'",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:51:11.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/09/23/6ab4007380eb7.r_d.2243-1262-0.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T11:50:46.000Z"
+    },
+    {
+      "id": "K5bUWXuCD0R_",
+      "representative": {
+        "id": "K5bUWXuCD0R_",
+        "url": "https://elpais.com/espana/2026-10-06/el-pp-pide-la-imputacion-del-psoe-a-la-audiencia-nacional-en-el-primer-dia-de-precampana.html",
+        "canonicalUrl": "https://elpais.com/espana/2026-10-06/el-pp-pide-la-imputacion-del-psoe-a-la-audiencia-nacional-en-el-primer-dia-de-precampana.html",
+        "title": "El PP pide la imputación del PSOE a la Audiencia Nacional en el primer día de precampaña",
+        "description": "Los populares solicitan al juez Pedraz, que preguntará antes a la Fiscalía, que actúe contra el partido del Gobierno por cinco delitos",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:03:09.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/SX5UMRVPZROWDHF6KYRZD6PEXY.jpg?auth=0b5cde5c6ee2e2d4d93c132c365fec3c68b9d2f8978c442e37ac9036f25e0239",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "sDa07kg2A4RQ",
+          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4cfc0e4d4d80a2f8b45a5.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4cfc0e4d4d80a2f8b45a5.html",
+          "title": "El PP pide en la Audiencia Nacional la imputación del PSOE por financiación ilegal",
+          "description": "Los 'populares' han registrado un escrito en el que reclaman que también se investigue a los socialistas por \"cohecho, malversación, tráfico de influencias y blanqueo de capitales\" Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:37:08.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912832360643.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "NbYf_JAp5QCr",
+          "url": "https://www.eldiario.es/politica/pp-pide-audiencia-nacional-imputacion-psoe-caso-leire-diez_1_13565841.html",
+          "canonicalUrl": "https://www.eldiario.es/politica/pp-pide-audiencia-nacional-imputacion-psoe-caso-leire-diez_1_13565841.html",
+          "title": "El PP pide a la Audiencia Nacional la imputación del PSOE en el caso Leire Díez",
+          "description": "La formación de Núñez Feijóo indica que la trama \"dispuso de los medios operativos, logísticos y financieros de esa formación para sufragar los gastos derivados de su ilícita actividad\" El juez deja fuera la hipótesis de la jueza Biedma sobre el hostigamiento de un clan de narcos: “No es posible…",
           "source": {
             "id": "eldiario",
             "name": "elDiario.es"
           },
           "sourceCountry": "ES",
           "language": "es",
-          "publishedAt": "2026-10-05T07:30:40.000Z",
-          "imageUrl": "https://static.eldiario.es/clip/930ce347-43cc-4483-b65c-1e9cbe7fa383_16-9-discover-aspect-ratio_default_0_x657y160.jpg",
+          "publishedAt": "2026-10-06T10:56:32.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/2a0a767d-d354-4d21-bf4e-7b0933f05ea0_16-9-discover-aspect-ratio_default_0_x1538y414.jpg",
           "countryCode": "ES",
           "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T08:39:08.000Z"
-    },
-    {
-      "id": "BIzWeGw5yhVh",
-      "representative": {
-        "id": "BIzWeGw5yhVh",
-        "url": "https://www.abc.es/espana/voto-correo-elecciones-generales-29n-fechas-plazos-20261005111422-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/voto-correo-elecciones-generales-29n-fechas-plazos-20261005111422-nt.html",
-        "title": "Ya se puede solicitar el voto por correo para las elecciones generales del 29-N: fechas, plazos, dónde se solicita y día tope para enviarlo",
-        "description": "Se ha cumplido lo que muchos esperaban: este lunes 5 de octubre, el presidente del Gobierno, Pedro Sánchez , ha anunciado su decisión de convocar elecciones anticipadas el próximo 29 de noviembre. Lo ha anunciado desde Moncloa atendiendo a la necesidad de que los españoles decidan sobre el futuro…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
         },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:49:24.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/05/correos-voto-k3FI-U302062137996fIH-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
         {
-          "id": "-msLwNm-s0z2",
-          "url": "https://www.lavanguardia.com/politica/elecciones/20261005/11651224/cuando-podra-pedir-voto-correo-elecciones-generales-29-n.html",
-          "canonicalUrl": "https://www.lavanguardia.com/politica/elecciones/20261005/11651224/cuando-podra-pedir-voto-correo-elecciones-generales-29-n.html",
-          "title": "Cuándo se podrá pedir el voto por correo para las elecciones generales del 29-N",
-          "description": "En los comicios de 2023, más de 2,4 millones de españoles emitieron su voto a través de Correos",
+          "id": "m3fjobm4U-j9",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652297/pp-pide-imputacion-psoe-caso-leire-investiga-audiencia-nacional.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652297/pp-pide-imputacion-psoe-caso-leire-investiga-audiencia-nacional.html",
+          "title": "El PP pide la imputación del PSOE en el caso Leire que se investiga en la Audiencia Nacional",
+          "description": "En el escrito, los populares piden que el juez sitúe como investigado a los socialistas por cohecho, malversación, tráfico de influencias, blanqueo de capitales y financiación ilegal",
           "source": {
             "id": "lavanguardia",
             "name": "La Vanguardia"
           },
           "sourceCountry": "ES",
           "language": "es",
-          "publishedAt": "2026-10-05T10:32:40.000Z",
-          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2025/09/27/68d7a8ef7e2fc.jpeg",
-          "countryCode": "ES",
-          "regionCode": null
-        },
-        {
-          "id": "1KnhIv7NTCgG",
-          "url": "https://www.20minutos.es/nacional/calendario-elecciones-generales-29n-voto-correo-campana-electoral-otras-fechas-claves_7044311_0.html",
-          "canonicalUrl": "https://www.20minutos.es/nacional/calendario-elecciones-generales-29n-voto-correo-campana-electoral-otras-fechas-claves_7044311_0.html",
-          "title": "Calendario de las elecciones generales 29-N: inicio de campaña electoral, cuándo solicitar el voto por correo y otras fechas claves",
-          "description": "El presidente Pedro Sánchez ha convocado elecciones generales para el próximo domingo 29 de noviembre.",
-          "source": {
-            "id": "20minutos_es",
-            "name": "20minutos"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-05T08:36:24.000Z",
-          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/05/6ac386ded59428-57442438.jpeg",
+          "publishedAt": "2026-10-06T10:39:09.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/05/6ac388b736999.jpeg",
           "countryCode": "ES",
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T09:49:24.000Z"
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:03:09.000Z"
     },
     {
-      "id": "zPC3pf5HN4d4",
+      "id": "Qc9o8waicRgf",
       "representative": {
-        "id": "zPC3pf5HN4d4",
-        "url": "https://www.abc.es/espana/andalucia/pedro-sanchez-arranca-campana-maria-jesus-montero-20261006105322-nts.html",
-        "canonicalUrl": "https://www.abc.es/espana/andalucia/pedro-sanchez-arranca-campana-maria-jesus-montero-20261006105322-nts.html",
-        "title": "Pedro Sánchez arranca la campaña con María Jesús Montero este sábado en Sevilla",
-        "description": "La campaña electoral de las elecciones generales, que tendrán lugar el próximo 29 de noviembre, arrancará en Sevilla. El presidente del Gobierno y candidato a la reelección , Pedro Sánchez, ha elegido la capital hispalense para iniciar una campaña en la que estará acompañado por la sevillana María…",
+        "id": "Qc9o8waicRgf",
+        "url": "https://www.elmundo.es/espana/2026/10/05/6ac3804021efa0152d8b4580.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3804021efa0152d8b4580.html",
+        "title": "¿Cómo funciona la Diputación Permanente y por qué la podría utilizar Sánchez para aprobar los decretos de vivienda antes de las elecciones?",
+        "description": "Este órgano es encargado de velar por los poderes de la Cámara de los Diputados cuando el Parlamento se ha disuelto Leer",
         "source": {
-          "id": "abc_es",
-          "name": "ABC"
+          "id": "elmundo",
+          "name": "El Mundo"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:09:24.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/pedro-sanchez-montero-RjT4nbWdErjmSxXP9PErdHO-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-05T10:49:06.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911971549084.jpg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [
         {
-          "id": "2OSPz-JJ6Ho1",
-          "url": "https://www.20minutos.es/nacional/sanchez-arranca-precampana-sevilla-con-un-acto-sabado-junto-maria-jesus-montero_7045151_0.html",
-          "canonicalUrl": "https://www.20minutos.es/nacional/sanchez-arranca-precampana-sevilla-con-un-acto-sabado-junto-maria-jesus-montero_7045151_0.html",
-          "title": "Sánchez arranca la precampaña en Sevilla con un acto el sábado junto a María Jesús Montero",
-          "description": "El presidente se estrenará junto a María Jesús Montero apenas cinco días después de convocar las elecciones y buscará plantear la campaña como un pulso entre dos bloques.",
+          "id": "MUrQZA1lqMBd",
+          "url": "https://www.abc.es/espana/comparecencia-pedro-sanchez-directo-posible-convocatoria-elecciones-20261005080806-di.html",
+          "canonicalUrl": "https://www.abc.es/espana/comparecencia-pedro-sanchez-directo-posible-convocatoria-elecciones-20261005080806-di.html",
+          "title": "Elecciones generales en España, en directo: comparecencia de Pedro Sánchez tras la aprobación de los decretos de vivienda y última hora hoy",
+          "description": "Sigue en directo hoy la última hora de la convocatoria de elecciones generales en España para el próximo 29 de noviembre, con la comparecencia de Pedro Sánchez tras el Consejo de Ministros donde se aprobarán los decretos de vivienda rechazados la semana pasada por el pleno del Congreso.",
+          "source": {
+            "id": "abc_es",
+            "name": "ABC"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:01:09.000Z",
+          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/05/pedro-sanchez-ministro-U20978908959WTE-U302059744511GbD-1200x840@diario_abc.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "JTs6_ZlvxHGf",
+          "url": "https://www.20minutos.es/nacional/adelanto-electoral-sanchez-directo-sanchez-decide-si-convoca-elecciones-tras-un-fin-semana-reflexion-movilizaciones-las-calles_7044725_6.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/adelanto-electoral-sanchez-directo-sanchez-decide-si-convoca-elecciones-tras-un-fin-semana-reflexion-movilizaciones-las-calles_7044725_6.html",
+          "title": "Elecciones generales en España del 29N, en directo | Sánchez pide el apoyo de la Diputación Permanente a los decretos de vivienda: \"Es una cuestión de humanidad\"",
+          "description": "Última hora sobre el adelanto electoral al 29 de noviembre anunciado por Pedro Sánchez este lunes: reacciones políticas y protestas por la vivienda.",
           "source": {
             "id": "20minutos_es",
             "name": "20minutos"
           },
           "sourceCountry": "ES",
           "language": "es",
-          "publishedAt": "2026-10-05T16:50:13.000Z",
-          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/10/05/6ac3d2f191be49-53928702.r_d.913-332-10000.jpeg",
+          "publishedAt": "2026-10-06T12:00:32.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/10/06/6ac4d4ae003ae2-89754157.r_d.960-505-6400.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "E5EBQ2gikBUp",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652090/elecciones-29-n-espana-decreto-vivienda-pedro-sanchez-ultima-hora-hoy-en-directo.html",
+          "title": "Última hora sobre Pedro Sánchez, las medidas de la vivienda y las elecciones anticipadas, en directo",
+          "description": "Pedro Sánchez anuncia avales y 680 millones para impulsar la construcción de vivienda",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:35:24.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac4dce5ef202.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:01:09.000Z"
+    },
+    {
+      "id": "dLtoBtn9yDMa",
+      "representative": {
+        "id": "dLtoBtn9yDMa",
+        "url": "https://elpais.com/espana/2026-10-06/finlandia-se-solidariza-con-espana-y-remarca-que-ahora-la-seguridad-del-sur-es-igual-de-importante-que-la-del-norte.html",
+        "canonicalUrl": "https://elpais.com/espana/2026-10-06/finlandia-se-solidariza-con-espana-y-remarca-que-ahora-la-seguridad-del-sur-es-igual-de-importante-que-la-del-norte.html",
+        "title": "Finlandia se solidariza con España y remarca que “ahora” la seguridad del sur es igual de importante que la del norte",
+        "description": "Felipe VI mantiene una reunión bilateral con el presidente del país nórdico, Alexander Stubb, en un viaje de Estado marcado por la defensa de la UE",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:16:51.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/77TRPS7UZZG2HJFIF5CWP3OT2U.jpg?auth=fe8cbdb8c980b3f8e488792602b646e2dc7db540a76d04d6811624d46797774e",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "qUVuQZi0cSdQ",
+          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4b65321efa0637c8b458b.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4b65321efa0637c8b458b.html",
+          "title": "Stubb reconoce a Felipe VI que \"la seguridad en el sur de España es igual de importante que en cualquier otra frontera\"",
+          "description": "El primer contacto de las delegaciones confirma el interés de España por reforzar la preocupación de la frontera sur de Europa Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T09:31:19.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912786752038.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "uiu_5S27-Fsc",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652200/rey-stubb-unidos-seguridad-sur-espana-frontera-finlandesa.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652200/rey-stubb-unidos-seguridad-sur-espana-frontera-finlandesa.html",
+          "title": "Stubb iguala ante el Rey la seguridad del sur de España a la de otras fronteras europeas",
+          "description": "Tras la bienvenida oficial a los Reyes, reivindican en Helsinki una estrategia en la UE y la OTAN ante amenazas que “no son solo una cuestión de defensa”",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T09:23:33.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac4bca6a3ebc.r_d.1027-1215-0.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T10:16:51.000Z"
+    },
+    {
+      "id": "XD3SNJPCfjtR",
+      "representative": {
+        "id": "XD3SNJPCfjtR",
+        "url": "https://www.elmundo.es/espana/2026/10/06/6ac4d1f5e85ece50618b45a0.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4d1f5e85ece50618b45a0.html",
+        "title": "María Jesús Montero no volverá a ir en la listas del PSOE al Congreso como número uno por Sevilla",
+        "description": "La líder andaluza despeja las dudas tras haber sido incluida por Sánchez en el comité electoral Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:00:32.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912836081126.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Hk1GzQ53RqDA",
+          "url": "https://www.abc.es/espana/andalucia/maria-jesus-montero-candidata-congreso-20261006124637-nts.html",
+          "canonicalUrl": "https://www.abc.es/espana/andalucia/maria-jesus-montero-candidata-congreso-20261006124637-nts.html",
+          "title": "María Jesús Montero: «No voy a ser candidata al Congreso»",
+          "description": "Primera comparecencia de María Jesús Montero tras la convocatoria electoral y después de que Pedro Sánchez haya pasado todo el fin de semana de reflexión sin realizar ninguna comparecencia pública . Este martes, algo más de 24 horas después de conocerse que la cita electoral será el próximo 29 de…",
+          "source": {
+            "id": "abc_es",
+            "name": "ABC"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:16:36.000Z",
+          "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/maria-jesus-montero-Rpv6H8ubMUBgCrkxKRHvI9I-1200x840@diario_abc.jpg",
           "countryCode": "ES",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:09:24.000Z"
+      "latestPublishedAt": "2026-10-06T12:16:36.000Z"
+    },
+    {
+      "id": "rDW7Bnw9txl6",
+      "representative": {
+        "id": "rDW7Bnw9txl6",
+        "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/genova-se-desmarca-de-ayuso-y-ve-garantista-el-sistema-de-voto-por-correo-que-vayan-a-votar-por-tierra-mar-y-aire.html",
+        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-06/genova-se-desmarca-de-ayuso-y-ve-garantista-el-sistema-de-voto-por-correo-que-vayan-a-votar-por-tierra-mar-y-aire.html",
+        "title": "Génova se distancia de Ayuso y ve “garantista” el sistema de voto por correo: “Que vayan a votar por tierra, mar y aire”",
+        "description": "La líder popular madrileña insiste en esparcir sospechas sobre las “trampas” del sistema: “Defiendo que no puede haber trucos, este es un Gobierno trilero”",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:19:22.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/5XHZ42GR4JMPTBWQ2FIO3RG5J4.jpg?auth=65ee17206c542d54e701f6dda199ebbce4620ba27e8b2abc729dec3061634f94",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "M0mlfJHg4qdm",
+          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4ba7ce4d4d8a07c8b45b9.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4ba7ce4d4d8a07c8b45b9.html",
+          "title": "Génova se desmarca de Ayuso y ve \"garantista\" el voto por correo mientras ella se reafirma: \"Todo el mundo tiene que ir a la urna\"",
+          "description": "Borja Sémper afirma que el sistema tiene controles que hacen que el procedimiento esté vigilado pero la presidenta madrileña pide \"estar atentos\" Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:32:43.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912778874595.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:32:43.000Z"
+    },
+    {
+      "id": "1bHjpeJA-6c8",
+      "representative": {
+        "id": "1bHjpeJA-6c8",
+        "url": "https://www.elmundo.es/espana/2026/10/05/6ac3493de4d4d82d6e8b4580.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3493de4d4d82d6e8b4580.html",
+        "title": "Sánchez adelanta las elecciones al 29 de noviembre",
+        "description": "El Consejo de Ministros de este martes volverá a aprobar los decretos de vivienda que tumbó el Congreso con alguna modificación. Los deberá validar la Diputación Permanente, donde no necesitan a Junts para aprobarlos Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T13:51:56.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17911838354075.png",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "BdVdI2Tn1kxJ",
+          "url": "https://www.20minutos.es/nacional/motivos-puedes-faltar-mesa-electoral-elecciones-generales-noviembre_7045393_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/motivos-puedes-faltar-mesa-electoral-elecciones-generales-noviembre_7045393_0.html",
+          "title": "Los motivos por los que puedes faltar a la mesa electoral en las elecciones generales del 29 de noviembre",
+          "description": "La elección de los presidentes, vocales y suplentes se realiza mediante sorteo entre los electores que sepan leer y escribir, y sean menores de 70 años.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:16:24.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2025/12/21/6947c3a80bd750-66153532.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "7zYwfFeS76WY",
+          "url": "https://www.lavanguardia.com/politica/20261005/11651065/pedro-sanchez-adelanta-elecciones-generales-29-noviembre.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261005/11651065/pedro-sanchez-adelanta-elecciones-generales-29-noviembre.html",
+          "title": "Pedro Sánchez adelanta las elecciones generales al 29 de noviembre",
+          "description": "El presidente pone fin a la legislatura tras la derrota de los decretos de vivienda y las multitudinarias movilizaciones del sábado",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-05T07:09:37.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/05/6ac34fb2622a6.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T10:16:24.000Z"
+    },
+    {
+      "id": "3M4pigwXBPaP",
+      "representative": {
+        "id": "3M4pigwXBPaP",
+        "url": "https://www.elmundo.es/espana/2026/10/06/6ac4c791e85ece04468b45b3.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4c791e85ece04468b45b3.html",
+        "title": "La joyería Yanes hará una nueva pericial de las joyas de Zapatero: el juez Calama rechaza el recurso del ex presidente",
+        "description": "El magistrado de la Audiencia Nacional recuerda al imputado que si no está de acuerdo con la designación del experto puede encargar su propio análisis Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:08:26.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912812178342.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "LPgMw0pp_eKz",
+          "url": "https://www.eldiario.es/politica/juez-rechaza-pretension-zapatero-joyeria-yanes-no-tase-joyas_1_13565484.html",
+          "canonicalUrl": "https://www.eldiario.es/politica/juez-rechaza-pretension-zapatero-joyeria-yanes-no-tase-joyas_1_13565484.html",
+          "title": "El juez rechaza la pretensión de Zapatero de que la Joyería Yanes no tase sus joyas",
+          "description": "José Luis Calama le indica a la defensa del expresidente del Gobierno que tampoco acepta que un tasador elegido por él participe en la nueva pericial Zapatero traslada al juez que las joyas son un “obsequio” personal del rey de Arabia Saudí cuando era presidente El juez de la Audiencia Nacional…",
+          "source": {
+            "id": "eldiario",
+            "name": "elDiario.es"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:08:03.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/76023dab-02f1-4921-baf7-2c4db931e168_16-9-discover-aspect-ratio_default_0_x1150y333.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:08:26.000Z"
+    },
+    {
+      "id": "_C2CRR1W933m",
+      "representative": {
+        "id": "_C2CRR1W933m",
+        "url": "https://www.lavanguardia.com/politica/20261005/11651091/elecciones-generales-calendario-fechas-claves-proceso.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261005/11651091/elecciones-generales-calendario-fechas-claves-proceso.html",
+        "title": "Elecciones generales: calendario y fechas claves del proceso",
+        "description": "El 2 de noviembre se proclamarán las candidaturas y la campaña electoral empezará el 13 de noviembre",
+        "source": {
+          "id": "lavanguardia",
+          "name": "La Vanguardia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-05T07:52:17.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2023/07/22/64bc1d8acd6d3.r_d.2856-1904-0.jpeg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "T20U-8-BTfme",
+          "url": "https://www.20minutos.es/nacional/abre-plazo-pedir-voto-correo-elecciones-generales-29-noviembre-como-donde-solicitarlo_7045348_0.html",
+          "canonicalUrl": "https://www.20minutos.es/nacional/abre-plazo-pedir-voto-correo-elecciones-generales-29-noviembre-como-donde-solicitarlo_7045348_0.html",
+          "title": "Abre el plazo para pedir el voto por correo para las elecciones generales del 29 de noviembre: cómo y dónde solicitarlo",
+          "description": "Quienes voten por esta vía, podrán pedirlo de forma online o en cualquier oficina de Correos.",
+          "source": {
+            "id": "20minutos_es",
+            "name": "20minutos"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:04:12.000Z",
+          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/06/6ac4c6ca0aeba2-29735419.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "osBDi7mDP4k_",
+          "url": "https://www.elconfidencial.com/espana/2026-10-06/como-votar-correo-elecciones-generales-pedirlo-donde-1qrt_4439149/",
+          "canonicalUrl": "https://www.elconfidencial.com/espana/2026-10-06/como-votar-correo-elecciones-generales-pedirlo-donde-1qrt_4439149/",
+          "title": "Cómo votar por correo en las elecciones generales: plazos para pedirlo, dónde y cómo hacerlo",
+          "description": "La cita con las urnas el próximo 29 de noviembre obligarán a muchos ciudadanos a organizarse para participar si tienen un viaje previsto o no pueden desplazarse a su colegio electoral",
+          "source": {
+            "id": "elconfidencial",
+            "name": "El Confidencial"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T08:01:00.000Z",
+          "imageUrl": "https://images.ecestaticos.com/sqQcprcANoK9PL3SGq7hkVTafKQ=/0x0:2272x1443/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F92c%2Fc94%2Ff11%2F92cc94f1193ce82c83a7a8e19210b10a.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T10:04:12.000Z"
     },
     {
       "id": "TOS4TK4CoqdX",
@@ -266,262 +637,100 @@
       "latestPublishedAt": "2026-10-06T03:00:00.000Z"
     },
     {
-      "id": "3h3_BD7sXpyT",
+      "id": "O5uMBmp0IYPd",
       "representative": {
-        "id": "3h3_BD7sXpyT",
-        "url": "https://elpais.com/espana/elecciones-generales/2026-10-05/aznar-sobre-si-sanchez-vuelve-a-formar-gobierno-el-29-n-la-monarquia-que-hemos-conocido-se-terminaria.html",
-        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-05/aznar-sobre-si-sanchez-vuelve-a-formar-gobierno-el-29-n-la-monarquia-que-hemos-conocido-se-terminaria.html",
-        "title": "Aznar, sobre si Sánchez vuelve a formar Gobierno el 29-N: “La monarquía que hemos conocido se terminaría”",
-        "description": "El expresidente cree que la huelga general de las próximas semanas se hace contra el PP: “Es lo que faltaba por ver en España”",
+        "id": "O5uMBmp0IYPd",
+        "url": "https://www.elmundo.es/espana/2026/10/06/6ac4de4ee4d4d810628b458d.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4de4ee4d4d810628b458d.html",
+        "title": "El voto particular de los cinco magistrados discrepantes: \"El Constitucional suplanta la labor del Tribunal Supremo en la apreciación de la amnistía\"",
+        "description": "Los miembros del sector conservador del TC critican los términos gruesos empleados por Conde-Pumpido sobre la actuación del Supremo. Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:39:10.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912884853223.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:39:10.000Z"
+    },
+    {
+      "id": "rJ7HAVCkOGST",
+      "representative": {
+        "id": "rJ7HAVCkOGST",
+        "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-partido-de-monica-garcia-exige-liderar-la-lista-por-madrid-a-las-generales-ante-las-opciones-de-colau.html",
+        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-partido-de-monica-garcia-exige-liderar-la-lista-por-madrid-a-las-generales-ante-las-opciones-de-colau.html",
+        "title": "El partido de Mónica García exige liderar la lista por Madrid a las generales ante las opciones de Colau",
+        "description": "“Hay que estudiar todas las formas posibles para que el Frente Amplio no deje a nadie fuera”, defiende Pisarello sobre las primarias que propone Podemos",
         "source": {
           "id": "elpais",
           "name": "El País"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-05T19:02:42.000Z",
-        "imageUrl": null,
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "9JVqoSrohTnN",
-          "url": "https://www.elmundo.es/andalucia/2026/10/05/6ac3da51fc6c83265c8b459c.html",
-          "canonicalUrl": "https://www.elmundo.es/andalucia/2026/10/05/6ac3da51fc6c83265c8b459c.html",
-          "title": "Aznar: \"Si Pedro Sánchez puede formar gobierno tras las elecciones del 29 de noviembre, la Monarquía se terminaría\"",
-          "description": "El ex presidente del Gobierno critica la 'ley de nietos' porque trata de \"alterar el censo electoral para conseguir ventajas\" Leer",
-          "source": {
-            "id": "elmundo",
-            "name": "El Mundo"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-05T20:08:40.000Z",
-          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912295541330.jpg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T20:08:40.000Z"
-    },
-    {
-      "id": "BDe5mZ3_apso",
-      "representative": {
-        "id": "BDe5mZ3_apso",
-        "url": "https://www.abc.es/espana/cataluna/angel-gonzalez-abad-entraremos-campana-20261006115711-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/cataluna/angel-gonzalez-abad-entraremos-campana-20261006115711-nt.html",
-        "title": "¿Entraremos en campaña?",
-        "description": "La Monumental de Barcelona sigue ahí, imponente y silenciosa. Sin un uso presente ni futuro que inquiete a gobernantes. En calma para todos los niveles administrativos, local, autonómico y nacional. Para todos menos para la resistencia que mantiene viva la pasión por volver a ocupar sus…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:57:11.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/DAMBin%20(1)-RkOXrD8mb5zICu6UQdkk4hL-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T12:31:52.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/36MIU2G2AVGNZP4NSZE5OQEOIQ.jpg?auth=c26845421cba07489040b3b299d60304fcf218dfdddf24a9d80b8fdc36405fb7",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:57:11.000Z"
+      "latestPublishedAt": "2026-10-06T12:31:52.000Z"
     },
     {
-      "id": "BIRWPmk5pA2A",
+      "id": "WGNTeP_yLEbL",
       "representative": {
-        "id": "BIRWPmk5pA2A",
-        "url": "https://www.abc.es/espana/castilla-la-mancha/produccion-industrial-crece-castillala-mancha-puntos-espana-20261006115518-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/produccion-industrial-crece-castillala-mancha-puntos-espana-20261006115518-nt.html",
-        "title": "La producción industrial crece un 7,2% en Castilla-La Mancha, 5,6 puntos más que en España",
-        "description": "La producción industrial creció en Castilla-La Mancha un 7,2% en agosto respecto al mismo mes del año anterior, 5,6 puntos por encima del incremento registrado en el conjunto de España, donde el avance interanual se situó en el 1,6%.El Índice de Producción Industrial de Castilla-La Mancha alcanzó…",
+        "id": "WGNTeP_yLEbL",
+        "url": "https://www.lavanguardia.com/politica/20261006/11652447/vox-acata-amnistia-puigdemont-aboga-pasar-pagina-odio-separatismo.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652447/vox-acata-amnistia-puigdemont-aboga-pasar-pagina-odio-separatismo.html",
+        "title": "Vox “acata” la amnistía a Puigdemont y aboga por “pasar página del odio del separatismo”",
+        "description": "Joan Garriga denuncia la “politización” de algunos tribunales y que la ley “es un privilegio de políticos para políticos” y “una falta de respeto” para el resto de ciudadanos",
         "source": {
-          "id": "abc_es",
-          "name": "ABC"
+          "id": "lavanguardia",
+          "name": "La Vanguardia"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:55:19.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518358218-RQtFaYhLlxvSJVwEGuiwGTM-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T12:31:22.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/09/18/6aad8d1a8871f.jpeg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:55:19.000Z"
+      "latestPublishedAt": "2026-10-06T12:31:22.000Z"
     },
     {
-      "id": "l8ksClmtdlvn",
+      "id": "NveyNhBE1gZc",
       "representative": {
-        "id": "l8ksClmtdlvn",
-        "url": "https://www.abc.es/espana/andalucia/cordoba/festival-piano-rafael-orozco-cordoba-consagra-vocacion-20261006114417-nts.html",
-        "canonicalUrl": "https://www.abc.es/espana/andalucia/cordoba/festival-piano-rafael-orozco-cordoba-consagra-vocacion-20261006114417-nts.html",
-        "title": "El Festival de Piano Rafael Orozco de Córdoba consagra su vocación internacional: músicos, fechas y lugares",
-        "description": "La edición número 24 del Festival de Piano Rafael Orozco será la de los aniversarios. Es su hilo conductor: 80 años del nacimiento del intérprete que la da nombre, 30 de su muerte, 60 de su consagración en el Festival de Leeds y 150 del nacimiento de Manuel de Falla . E incluso los 50 años del…",
+        "id": "NveyNhBE1gZc",
+        "url": "https://www.abc.es/espana/galicia/galicia-defiende-estrategia-pionera-violencia-digital-ante-20261006142641-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/galicia/galicia-defiende-estrategia-pionera-violencia-digital-ante-20261006142641-nt.html",
+        "title": "Galicia defiende su estrategia «pionera» contra la violencia digital ante los 'peros' de la oposición",
+        "description": "Proteger a los ciudadanos ante una de las principales amenazas a las que se enfrentan, los riesgos del entorno digital y el acoso online, es una de las preocupaciones actuales a las que el Gobierno gallego trata de dar solución. Para hacerlo, con un horizonte a medio y largo plazo, la Xunta inició…",
         "source": {
           "id": "abc_es",
           "name": "ABC"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T09:55:10.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/festival-rafael-orozco-RZqK4EVLM6f7ay5FrpIJkRL-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T12:28:11.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/fabilla-RAqCXEMfnuny7uP3TP1SfAK-1200x840@diario_abc.jpg",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:55:10.000Z"
-    },
-    {
-      "id": "7xWroNpSnwob",
-      "representative": {
-        "id": "7xWroNpSnwob",
-        "url": "https://www.abc.es/espana/galicia/incidencia-sistemas-regulacion-trafico-interrumpe-circulacion-trenes-20261006115140-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/galicia/incidencia-sistemas-regulacion-trafico-interrumpe-circulacion-trenes-20261006115140-nt.html",
-        "title": "Una incidencia en los sistemas de regulación del tráfico interrumpe la circulación de los trenes entre Santiago y Vigo",
-        "description": "Una incidencia en los sistemas de regulación del tráfico ha afectado a los trenes que circulan entre Santiago de Compostela, Pontevedra y Vigo. Según informa el Administrador de Infraestructuras Ferroviarias (Adif), la avería ha motivado que desde antes de las 11,00 horas se interrumpa la…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:51:40.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1506510306-RnOvptSnjIfCUdgrpYVhBfL-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:51:40.000Z"
-    },
-    {
-      "id": "ojEYLZF1dZHX",
-      "representative": {
-        "id": "ojEYLZF1dZHX",
-        "url": "https://www.abc.es/espana/vox-pide-movilizar-funcionarios-cotejar-concesion-nacionalidades-20261006111824-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/vox-pide-movilizar-funcionarios-cotejar-concesion-nacionalidades-20261006111824-nt.html",
-        "title": "Vox pide movilizar funcionarios para cotejar la concesión de nacionalidades de la 'ley de nietos'",
-        "description": "La 'ley de nietos' será uno de los pilares principales de la campaña electoral de Vox. Un día después de la convocatoria electoral por Pedro Sánchez, los de Santiago Abascal han exigido ya la revisión por parte de los órganos públicos de las nacionalizaciones mediante la norma que formen parte del…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:48:36.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518358592-R9DyBGV7GSW3n58kZLH1dGM-1200x840@diario_abc.JPG",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:48:36.000Z"
-    },
-    {
-      "id": "xsk3hSJubPuf",
-      "representative": {
-        "id": "xsk3hSJubPuf",
-        "url": "https://www.abc.es/espana/carnicero-presento-gastos-manipulados-transportes-autorizo-20261006214502-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/carnicero-presento-gastos-manipulados-transportes-autorizo-20261006214502-nt.html",
-        "title": "Iñaqui Carnicero presentó «gastos manipulados» que Transportes autorizó",
-        "description": "El actual secretario general de Agenda Urbana, Vivienda y Arquitectura, Iñaqui Carnicero , presentó «gastos manipulados» en el Ministerio de Transportes, durante su etapa como director general de Agenda Urbana y Arquitectura. Así lo desvelan las fuentes ministeriales consultadas por ABC y así lo…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:47:16.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/viajes-1200x840-kfxB-U3020713041294l-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:47:16.000Z"
-    },
-    {
-      "id": "GsEh_tJanLbM",
-      "representative": {
-        "id": "GsEh_tJanLbM",
-        "url": "https://www.abc.es/espana/andalucia/malaga/detienen-miembro-banda-britanica-traficaba-cocaina-malaga-20261006095313-nts.html",
-        "canonicalUrl": "https://www.abc.es/espana/andalucia/malaga/detienen-miembro-banda-britanica-traficaba-cocaina-malaga-20261006095313-nts.html",
-        "title": "Cinco narcos fugados cuando iban a detenerlos en la Costa del Sol con una tonelada de cocaína",
-        "description": "Cinco narcos británicos desaparecieron antes de ser detenidos en la Costa del Sol. Cuando la Guardia Civil entró en sus residencias y las zonas de 'guardería' de la droga ya no estaban. La detención de un cargamento en Baza (Granada) los puso en alerta. Escaparon antes de que se derrumbara la…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:45:16.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/foto-recur-gbtana-RQu3sLIhFwFI5h6tsVvS24N-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:45:16.000Z"
-    },
-    {
-      "id": "KuPWyfpAJlZP",
-      "representative": {
-        "id": "KuPWyfpAJlZP",
-        "url": "https://www.abc.es/espana/andalucia/cordoba/izquierda-unida-inmerso-proceso-interno-elegir-candidato-20261006114052-nts.html",
-        "canonicalUrl": "https://www.abc.es/espana/andalucia/cordoba/izquierda-unida-inmerso-proceso-interno-elegir-candidato-20261006114052-nts.html",
-        "title": "Izquierda Unida está inmerso en «un proceso interno» para elegir a su candidato a la Alcaldía de Córdoba",
-        "description": "A poco menos de dos meses de que los españoles estén llamados a las urnas en unas elecciones generales, en Córdoba las miradas de los partidos siguen puestas en las municipales del próximo mes de mayo. Las formaciones avanzan en sus procesos internos para elegir a los candidatos que concurrirán a…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:40:52.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1517444246-RBg0SFEJoafbqqUg0RMZZIK-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:40:52.000Z"
-    },
-    {
-      "id": "W86JpiBU7JSP",
-      "representative": {
-        "id": "W86JpiBU7JSP",
-        "url": "https://www.abc.es/espana/madrid/dos-ejecutores-tia-gordo-maya-enfrentan-anos-20261006114033-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/madrid/dos-ejecutores-tia-gordo-maya-enfrentan-anos-20261006114033-nt.html",
-        "title": "Los dos ejecutores de la tía del Gordo Maya se enfrentan a 22 años de cárcel cada uno",
-        "description": "Ocurrió la desapacible noche del 8 de enero de 2024, en la calle del Lago Maracaibo. Natalia S., de 43 años y miembro del clan de los Silva (también conocido como los Cucos ) fue asaeteada a tiros a las 21.30 horas en las inmediaciones de su casa . Al menos, once disparos que la dejaron allí…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:40:34.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1469039773-R9H8gBpnxRByA44kaIMUyRL-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:40:34.000Z"
+      "latestPublishedAt": "2026-10-06T12:28:11.000Z"
     }
   ]
 }

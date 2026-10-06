@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "FR",
   "countryName": "France",
-  "updatedAt": "2026-10-06T09:59:35.791Z",
+  "updatedAt": "2026-10-06T12:44:26.411Z",
   "clusters": [
     {
       "id": "uOU2N-HGSEV-",
@@ -81,105 +81,189 @@
       "latestPublishedAt": "2026-10-06T05:47:42.000Z"
     },
     {
-      "id": "bFfAtMOSbfff",
+      "id": "dlwuXk8kNVcC",
       "representative": {
-        "id": "bFfAtMOSbfff",
-        "url": "https://www.lemonde.fr/societe/video/2026/10/05/blocage-de-lycee-a-lens-ce-que-l-on-sait-du-jeune-homme-qui-a-eu-la-main-arrachee-par-une-grenade_6788576_3224.html",
-        "canonicalUrl": "https://www.lemonde.fr/societe/video/2026/10/05/blocage-de-lycee-a-lens-ce-que-l-on-sait-du-jeune-homme-qui-a-eu-la-main-arrachee-par-une-grenade_6788576_3224.html",
-        "title": "Blocage de lycée à Lens : ce que l’on sait de l’adolescent qui a eu la main arrachée par une grenade",
-        "description": "Plusieurs vidéos montrent le garçon de 15 ans mutilé, et une enquête a été confiée à l’IGPN. « Le Monde » a pu contacter un témoin, qui décrit une explosion compatible avec une GM2L, grenade particulièrement dangereuse qu’emploient les forces de l’ordre françaises.",
+        "id": "dlwuXk8kNVcC",
+        "url": "https://www.lemonde.fr/international/article/2026/10/06/rima-hassan-accusee-de-degradation-d-une-exposition-sur-le-7-octobre-au-parlement-europeen_6788993_3210.html",
+        "canonicalUrl": "https://www.lemonde.fr/international/article/2026/10/06/rima-hassan-accusee-de-degradation-d-une-exposition-sur-le-7-octobre-au-parlement-europeen_6788993_3210.html",
+        "title": "Rima Hassan accusée d’avoir « dégradé une exposition » sur le 7-Octobre au Parlement européen après avoir retiré un drapeau israélien de son support",
+        "description": "En visitant une exposition consacrée au 7-Octobre, lundi, l’eurodéputée LFI a retiré un drapeau israélien de son support, faisant accidentellement tomber celui de l’Union européenne, a expliqué son équipe à l’AFP, soulignant que ce geste s’inscrivait « dans la dénonciation du génocide toujours en…",
         "source": {
           "id": "lemonde",
           "name": "Le Monde"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-05T18:15:28.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/10/05/246/0/1080/540/644/322/60/0/aff11b8_upload-1-07enbv5dkk74-v-montage-00-03-40-06-still001.jpg",
+        "publishedAt": "2026-10-06T12:04:23.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/06/255/0/3071/1535/644/322/60/0/730e933_ftp-1-lxjefarhipzg-5279207-01-06.jpg",
         "countryCode": "FR",
         "regionCode": null
       },
       "related": [
         {
-          "id": "AIXFZIiNPx2T",
-          "url": "https://www.20minutes.fr/societe/4251598-20261005-blocus-lycees-adolescent-gravement-blesse-main-arrachee-lens?at_medium=display&at_campaign=149",
-          "canonicalUrl": "https://www.20minutes.fr/societe/4251598-20261005-blocus-lycees-adolescent-gravement-blesse-main-arrachee-lens",
-          "title": "Colère des lycéens : Un adolescent gravement blessé, avec une main arrachée, à Lens",
-          "description": "A Lens, un adolescent a vu sa main arrachée pendant une manifestation. La gauche remet en cause la doctrine de maintien de l’ordre et interpelle Laurent Nuñez",
-          "source": {
-            "id": "20minutes",
-            "name": "20 Minutes"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-05T17:14:55.000Z",
-          "imageUrl": "https://img.20mn.fr/R99VmDeBQ-apeftPFPaRUSk/1200x768_des-policiers-lancent-des-gaz-lacrymogenes-sur-des-lyceens-qui-manifestent-a-clermont-ferrand-en-france-le-2-octobre-2026-depuis-fin-septembre-les-eleves-francais-organisent-des-manifestations-devant-leurs-ecoles-pour-attirer-l-attention-sur-divers-problemes-notamment-les-horaires-et-les-salles-de-classe-surcharges-ou-le-manque-d-enseignants-photo-d-adrien-fillon-hans-lucas-via-afp",
-          "countryCode": "FR",
-          "regionCode": null
-        },
-        {
-          "id": "SSDD5g4Fxf1_",
-          "url": "https://www.liberation.fr/societe/police-justice/mouvement-des-lyceens-a-lens-un-adolescent-a-eu-la-main-arrachee-par-une-grenade-de-desencerclement-20261005_RFVLTSYOPJGD3BKL4H5H6P67HE/",
-          "canonicalUrl": "https://www.liberation.fr/societe/police-justice/mouvement-des-lyceens-a-lens-un-adolescent-a-eu-la-main-arrachee-par-une-grenade-de-desencerclement-20261005_RFVLTSYOPJGD3BKL4H5H6P67HE/",
-          "title": "A Lens, un lycéen a eu une main arrachée, l’IGPN saisie",
-          "description": "L’élève de 15 ans, scolarisé en seconde, a été blessé ce lundi 5 octobre par une grenade, sans qu’on connaisse les circonstances précises. Le procureur de Béthune a saisi l’IGPN.",
-          "source": {
-            "id": "liberation",
-            "name": "Libération"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-05T13:02:51.000Z",
-          "imageUrl": null,
-          "countryCode": "FR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-05T18:15:28.000Z"
-    },
-    {
-      "id": "rEtqL3567uyf",
-      "representative": {
-        "id": "rEtqL3567uyf",
-        "url": "https://www.lemonde.fr/societe/live/2026/10/06/en-direct-blocage-des-lycees-actions-et-manifestations-partout-en-france-suivez-la-journee-de-mobilisation-avec-nos-envoyes-speciaux_6788487_3224.html",
-        "canonicalUrl": "https://www.lemonde.fr/societe/live/2026/10/06/en-direct-blocage-des-lycees-actions-et-manifestations-partout-en-france-suivez-la-journee-de-mobilisation-avec-nos-envoyes-speciaux_6788487_3224.html",
-        "title": "EN DIRECT, blocage des lycées | « On se mobilise pour les revendications des élèves, qui sont aussi les nôtres » : devant beaucoup de lycées, parents et enseignants soutiennent les actions",
-        "description": "Des actions sont prévues partout en France, mardi, notamment à Lille, Paris, Nîmes, Toulouse ou Clermont-Ferrand. Des cortèges, avec les syndicats et les étudiants, défilent à Marseille et Lyon. Suivez la journée de mobilisation avec nos envoyés spéciaux.",
-        "source": {
-          "id": "lemonde",
-          "name": "Le Monde"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T08:05:08.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/10/06/1041/0/2500/1250/644/322/60/0/d8e8042_upload-1-9zt5r4c4tjoe-lewisjoly-lemonde-lyce-esnimes-021.JPG",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "9aBe2rkUawg8",
-          "url": "https://www.franceinfo.fr/societe/education/beaucoup-de-parents-sont-inquiets-devant-les-lycees-la-securite-est-renforcee-pour-eviter-les-blocages_8223325.html#xtor=RSS-3-%5Bgeneral%5D",
-          "canonicalUrl": "https://www.franceinfo.fr/societe/education/beaucoup-de-parents-sont-inquiets-devant-les-lycees-la-securite-est-renforcee-pour-eviter-les-blocages_8223325.html",
-          "title": "\"Beaucoup de parents sont inquiets\" : devant les lycées, la sécurité est renforcée pour éviter les blocages",
-          "description": "Le mouvement lycéen se poursuit, lundi 5 octobre, tandis que les autorités cherchent à éviter les blocages et les rassemblements devant les établissements. À Valbonne, dans les Alpes-Maritimes, policiers, proviseur et parents d'élèves se mobilisent pour sécuriser l'accès au lycée.",
+          "id": "R4cm_CQV91X-",
+          "url": "https://www.franceinfo.fr/monde/europe/union-europeenne/le-parlement-europeen-prend-extremement-au-serieux-la-polemique-entourant-rima-hassan-accusee-d-avoir-renverse-des-drapeaux-europeen-et-israelien_8225038.html#xtor=RSS-3-%5Bgeneral%5D",
+          "canonicalUrl": "https://www.franceinfo.fr/monde/europe/union-europeenne/le-parlement-europeen-prend-extremement-au-serieux-la-polemique-entourant-rima-hassan-accusee-d-avoir-renverse-des-drapeaux-europeen-et-israelien_8225038.html",
+          "title": "Rima Hassan accusée d'avoir renversé des drapeaux israélien et européen exposés en commémoration du 7-Octobre au Parlement européen, qui dit prendre l'affaire \"extrêmement au sérieux\"",
+          "description": "\"Aucun drapeau n'a été piétiné ni détérioré\", a affirmé l'équipe de l'eurodéputée La France insoumise pour contredire certaines accusations. Elle revendique avoir voulu retirer le drapeau de l'Etat hébreu dans un \"geste\" de \"dénonciation du génocide\" à Gaza.",
           "source": {
             "id": "franceinfo",
             "name": "franceinfo"
           },
           "sourceCountry": "FR",
           "language": "fr",
-          "publishedAt": "2026-10-05T11:35:57.000Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/tJ8vXPBBMok6DEQDAlP3p_v1oSM/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/05/6ac38b68217c5453296022.jpg",
+          "publishedAt": "2026-10-06T11:47:22.000Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/lPfQLeAwzk84n4yi2GUfRGEjbx8/0x0:3071x1727/432x243/filters:format(jpg)/2026/10/06/6ac4dd110115b274249700.jpg",
+          "countryCode": "FR",
+          "regionCode": null
+        },
+        {
+          "id": "7uxBRkSKlRv2",
+          "url": "https://www.20minutes.fr/politique/4251816-20261006-attaques-7-octobre-drapeau-israelien-renverse-rima-hassan-incident-serieux-parlement-europeen?at_medium=display&at_campaign=149",
+          "canonicalUrl": "https://www.20minutes.fr/politique/4251816-20261006-attaques-7-octobre-drapeau-israelien-renverse-rima-hassan-incident-serieux-parlement-europeen",
+          "title": "Attaques du 7-Octobre : Drapeau israélien renversé… Rima Hassan au centre d’un « incident sérieux » au Parlement européen",
+          "description": "L’eurodéputée LFI Rima Hassan est accusée d’avoir renversé des drapeaux israélien et européen en marge d’une exposition commémorative au Parlement européen. La présidente Roberta Metsola a ouvert une procédure pouvant mener à des sanctions",
+          "source": {
+            "id": "20minutes",
+            "name": "20 Minutes"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T11:25:06.000Z",
+          "imageUrl": "https://img.20mn.fr/21j82-oHRsaH7BMuR4OUlSk/1200x768_rally-in-support-of-rima-hassan-a-franco-palestinian-lfi-member-of-the-national-assembly-who-is-on-trial-for-glorifying-terrorism-this-case-is-one-of-a-series-of-16-legal-proceedings-brought-against-her-over-the-past-two-years-13-of-which-were-dismissed-paris-7-juillet-2026-le-proces-de-rima-hassan-s-est-ouvert-sous-haute-tension-plusieurs-centaines-de-personnes-se-sont-rassemblees-mardi-sur-le-parvis-du-tribunal-correctionnel-de-paris-pour-soutenir-l-eurodeputee-lfi-poursuivie-pour-apologie-du-terrorisme-urman-urman0711-credit-lionel-urman-sipa-2607071705",
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T12:04:23.000Z"
+    },
+    {
+      "id": "l30sslwq3c1-",
+      "representative": {
+        "id": "l30sslwq3c1-",
+        "url": "https://www.franceinfo.fr/elections/senatoriales/infographie-senatoriales-2026-decouvrez-la-nouvelle-composition-de-l-hemicycle-avec-les-differents-groupes-politiques_8223352.html#xtor=RSS-3-%5Bgeneral%5D",
+        "canonicalUrl": "https://www.franceinfo.fr/elections/senatoriales/infographie-senatoriales-2026-decouvrez-la-nouvelle-composition-de-l-hemicycle-avec-les-differents-groupes-politiques_8223352.html",
+        "title": "INFOGRAPHIE. Sénatoriales 2026 : découvrez la nouvelle composition de l'Hémicycle avec les différents groupes politiques",
+        "description": "La majorité de droite et du centre conserve une très nette avance sur la gauche au sein de la chambre haute, où le RN est parvenu à se constituer un groupe pour la première fois de son histoire.",
+        "source": {
+          "id": "franceinfo",
+          "name": "franceinfo"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-05T17:41:16.000Z",
+        "imageUrl": "https://www.franceinfo.fr/pictures/oQO9aOHDhkw_RLBjuG-Uci4BkK8/0x615:5904x3936/432x243/filters:format(jpg)/2026/10/05/6ac3aee806739132803994.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "hYT_hhr1oTiR",
+          "url": "https://www.ouest-france.fr/elections/senatoriales/infographie-decouvrez-la-nouvelle-composition-des-groupes-au-senat-apres-les-elections-de-septembre-895f725a-c0b4-11f1-b7db-555e86a524f6?utm_source=fluxpublicfrance&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "canonicalUrl": "https://www.ouest-france.fr/elections/senatoriales/infographie-decouvrez-la-nouvelle-composition-des-groupes-au-senat-apres-les-elections-de-septembre-895f725a-c0b4-11f1-b7db-555e86a524f6",
+          "title": "INFOGRAPHIE. Découvrez la nouvelle composition des groupes au Sénat, après les élections de septembre",
+          "description": "Le Sénat a été renouvelé de moitié lors des élections sénatoriales fin septembre. Les groupes politiques ont été officiellement constitués ce lundi 5 octobre, dont le premier du Rassemblement national.",
+          "source": {
+            "id": "ouestfrance",
+            "name": "Ouest-France"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:21:08.000Z",
+          "imageUrl": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwOWYyMjk3YzkwOTU4NzgzNmQ5YjY0MTEwN2FmYTEzNzg?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=5fd57b50bd529cbb4d70148fe6de7d3404ee37867e8d1c0a557aeab3fe65fb4d",
           "countryCode": "FR",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:05:08.000Z"
+      "latestPublishedAt": "2026-10-06T12:21:08.000Z"
+    },
+    {
+      "id": "ruS8qEDY0Pkm",
+      "representative": {
+        "id": "ruS8qEDY0Pkm",
+        "url": "https://www.franceinfo.fr/france/ile-de-france/yvelines/le-chateau-de-versailles-ferme-ses-portes-au-public-en-raison-d-une-panne-d-electricite-dans-le-departement-des-yvelines_8225017.html#xtor=RSS-3-%5Bgeneral%5D",
+        "canonicalUrl": "https://www.franceinfo.fr/france/ile-de-france/yvelines/le-chateau-de-versailles-ferme-ses-portes-au-public-en-raison-d-une-panne-d-electricite-dans-le-departement-des-yvelines_8225017.html",
+        "title": "Le château de Versailles ferme ses portes au public en raison d’une \"panne d’électricité dans le département des Yvelines\"",
+        "description": "La coupure a concerné jusqu'à 30 000 clients à Versailles et Vélizy, a précisé le préfet des Yvelines sur X.",
+        "source": {
+          "id": "franceinfo",
+          "name": "franceinfo"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T11:17:30.000Z",
+        "imageUrl": "https://www.franceinfo.fr/pictures/IHGLPjCpqjfI4AKet-Iwku8omTc/0x312:6000x3687/432x243/filters:format(jpg)/2026/10/06/6ac4d854bedd4872466203.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "l7PRI-xy-WZU",
+          "url": "https://www.ouest-france.fr/economie/energie/electricite/coupure-majeure-delectricite-dans-les-yvelines-le-chateau-de-versailles-contraint-de-fermer-ses-portes-79ad4b78-c179-11f1-97ef-829bf84bf59f?utm_source=fluxpublicfrance&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "canonicalUrl": "https://www.ouest-france.fr/economie/energie/electricite/coupure-majeure-delectricite-dans-les-yvelines-le-chateau-de-versailles-contraint-de-fermer-ses-portes-79ad4b78-c179-11f1-97ef-829bf84bf59f",
+          "title": "Coupure majeure d’électricité dans les Yvelines : le château de Versailles a été contraint de fermer ses portes ce mardi",
+          "description": "72 000 foyers privés d’électricité, douze communes concernées. Le département des Yvelines a connu une panne importante, ce mardi 6 octobre, à la mi-journée. Le prestigieux château de Versailles a même été contraint de fermer ses portes. Ses jardins demeurant ouverts tout comme le Domaine de…",
+          "source": {
+            "id": "ouestfrance",
+            "name": "Ouest-France"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:14:29.000Z",
+          "imageUrl": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwYWZkYzI1ZDIxNjI3YTBmMDVlNTllOTZlN2M4MGNjYmE?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=96c7bf6e8e3f9920d229ba5ed00f07f6ebda729226ac110feba9b68a23e5536f",
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:14:29.000Z"
+    },
+    {
+      "id": "o87k01ZFku-n",
+      "representative": {
+        "id": "o87k01ZFku-n",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/06/ecrits-antisemites-jordan-bardella-conteste-a-nouveau-formellement-les-elements-d-authentification-de-mediapart_6788982_823448.html",
+        "canonicalUrl": "https://www.lemonde.fr/politique/article/2026/10/06/ecrits-antisemites-jordan-bardella-conteste-a-nouveau-formellement-les-elements-d-authentification-de-mediapart_6788982_823448.html",
+        "title": "Ecrits antisémites : Jordan Bardella conteste à nouveau « formellement » les éléments d’authentification de « Mediapart »",
+        "description": "Alors que le RN tenait une conférence de presse pour présenter son contre-budget, mardi, la fin des échanges a été marquée par des questions sur les révélations du site d’investigation.",
+        "source": {
+          "id": "lemonde",
+          "name": "Le Monde"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T10:44:39.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/06/761/0/2000/1000/644/322/60/0/c28c426_upload-1-tvswzlp0pyls-cbir4540.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "rjEL6YRywJnX",
+          "url": "https://www.liberation.fr/politique/ecrits-antisemites-jordan-bardella-assure-ne-plus-avoir-facebook-et-donc-ne-pas-pouvoir-verifier-les-informations-de-mediapart-20261006_LCX4UULFBFDTRO7ASAYC5SOEU4/",
+          "canonicalUrl": "https://www.liberation.fr/politique/ecrits-antisemites-jordan-bardella-assure-ne-plus-avoir-facebook-et-donc-ne-pas-pouvoir-verifier-les-informations-de-mediapart-20261006_LCX4UULFBFDTRO7ASAYC5SOEU4/",
+          "title": "Ecrits antisémites : Jordan Bardella assure «ne plus avoir Facebook» et donc ne pas pouvoir vérifier les informations de «Mediapart»",
+          "description": "Le président du Rassemblement national a de nouveau «formellement» contesté ce mardi les éléments d’authentification du média d’investigation.",
+          "source": {
+            "id": "liberation",
+            "name": "Libération"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T11:57:40.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:57:40.000Z"
     },
     {
       "id": "XtoKC54rvKyC",
@@ -224,202 +308,70 @@
       "latestPublishedAt": "2026-10-06T04:59:45.000Z"
     },
     {
-      "id": "vfdBIroiXYyw",
+      "id": "bFfAtMOSbfff",
       "representative": {
-        "id": "vfdBIroiXYyw",
-        "url": "https://www.lefigaro.fr/faits-divers/meurtre-de-federico-martin-aramburu-a-paris-condamne-a-26-ans-de-prison-loik-le-priol-fait-appel-20261005",
-        "canonicalUrl": "https://www.lefigaro.fr/faits-divers/meurtre-de-federico-martin-aramburu-a-paris-condamne-a-26-ans-de-prison-loik-le-priol-fait-appel-20261005",
-        "title": "Meurtre de Federico Martin Aramburu à Paris : condamné à 26 ans de prison, Loïk Le Priol fait appel",
-        "description": "INFO LE FIGARO - Trois jours après son comparse Romain Bouvier et après être allé au bout du délai imparti, l’ancien militaire de 32 ans a décidé de relancer le bras de fer judiciaire.",
-        "source": {
-          "id": "lefigaro",
-          "name": "Le Figaro"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-05T10:15:38.000Z",
-        "imageUrl": "https://i.f1g.fr/media/cms/2576x1449_crop/2026/10/05/8f6f3d84dfa9d7cd9e10701a3af4d14643aa5d85484eb7a0c0ef6ad239ce7977.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "J5Pu1zg7_dgt",
-          "url": "https://www.liberation.fr/societe/police-justice/meurtre-de-federico-martin-aramburu-condamnes-en-premiere-instance-le-priol-et-bouvier-ont-fait-appel-20261005_MUDVAP2YVJGTDP27JWZDG4E2RA/",
-          "canonicalUrl": "https://www.liberation.fr/societe/police-justice/meurtre-de-federico-martin-aramburu-condamnes-en-premiere-instance-le-priol-et-bouvier-ont-fait-appel-20261005_MUDVAP2YVJGTDP27JWZDG4E2RA/",
-          "title": "Meurtre de Federico Martín Aramburú : condamnés en première instance, Le Priol et Bouvier ont fait appel",
-          "description": "Les deux militants de l’ultradroite parisienne radicale et violente ont été condamnés à 26 et 19 années de réclusion le 25 septembre, à l’issue de trois semaines de procès.",
-          "source": {
-            "id": "liberation",
-            "name": "Libération"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-05T16:58:05.000Z",
-          "imageUrl": null,
-          "countryCode": "FR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T16:58:05.000Z"
-    },
-    {
-      "id": "DJnPiZRU---0",
-      "representative": {
-        "id": "DJnPiZRU---0",
-        "url": "https://www.franceinfo.fr/faits-divers/un-mort-cinq-blesses-dans-le-haut-rhin-un-immeuble-ravage-par-un-incendie-meurtrier_8223373.html#xtor=RSS-3-%5Bgeneral%5D",
-        "canonicalUrl": "https://www.franceinfo.fr/faits-divers/un-mort-cinq-blesses-dans-le-haut-rhin-un-immeuble-ravage-par-un-incendie-meurtrier_8223373.html",
-        "title": "Un mort, cinq blessés : dans le Haut-Rhin, un immeuble ravagé par un incendie meurtrier",
-        "description": "Un violent incendie s'est déclaré en pleine nuit, lundi 5 octobre, dans un immeuble d'habitation à Gunsbach, dans le Haut-Rhin. Les flammes ont rapidement gagné les combles, piégeant plusieurs habitants dans les étages. Un voisin est parvenu à faire évacuer deux familles, dont trois enfants. Le…",
-        "source": {
-          "id": "franceinfo",
-          "name": "franceinfo"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-05T12:24:01.000Z",
-        "imageUrl": "https://www.franceinfo.fr/pictures/3aoUGoOPghGYRzsndSBH5kOZ-sc/0x0:1920x1080/432x243/filters:format(jpg)/2026/10/05/6ac396cdb12d9820920132.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "G8bKGL0QWCXd",
-          "url": "https://www.liberation.fr/societe/police-justice/dans-le-haut-rhin-lincendie-dun-immeuble-ancien-fait-deux-morts-20261005_SE3RBRZ5DVEXDCXTIEW3TSVPNY/",
-          "canonicalUrl": "https://www.liberation.fr/societe/police-justice/dans-le-haut-rhin-lincendie-dun-immeuble-ancien-fait-deux-morts-20261005_SE3RBRZ5DVEXDCXTIEW3TSVPNY/",
-          "title": "Dans le Haut-Rhin, l’incendie d’un immeuble ancien fait deux morts",
-          "description": "Le feu s’est déclaré ce lundi 5 octobre dans la nuit dans un immeuble résidentiel à Gunsbach dans le Haut-Rhin. Deux personnes sont mortes et une femme est sérieusement blessée.",
-          "source": {
-            "id": "liberation",
-            "name": "Libération"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-05T16:21:53.000Z",
-          "imageUrl": null,
-          "countryCode": "FR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T16:21:53.000Z"
-    },
-    {
-      "id": "aW9n8G6k16Ni",
-      "representative": {
-        "id": "aW9n8G6k16Ni",
-        "url": "https://www.franceinfo.fr/societe/harcelement-sexuel/deux-footballeurs-de-l-as-nancy-lorraine-mis-en-examen-et-places-en-detention-provisoire-pour-viol-en-reunion_8222986.html#xtor=RSS-3-%5Bgeneral%5D",
-        "canonicalUrl": "https://www.franceinfo.fr/societe/harcelement-sexuel/deux-footballeurs-de-l-as-nancy-lorraine-mis-en-examen-et-places-en-detention-provisoire-pour-viol-en-reunion_8222986.html",
-        "title": "Deux footballeurs de l'AS Nancy Lorraine mis en examen et placés en détention provisoire pour \"viol en réunion\"",
-        "description": "La plaignante est âgée de 22 ans. Les faits dénoncés datent de la nuit du 25 au 26 septembre.",
-        "source": {
-          "id": "franceinfo",
-          "name": "franceinfo"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-05T12:35:17.000Z",
-        "imageUrl": "https://www.franceinfo.fr/pictures/3TOlMTqJ0z1Q_0ldSi4QGS4vPHA/0x112:1200x787/432x243/filters:format(jpg)/2026/10/05/6ac34ec51b798504462563.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "XLunEf4XKZ5-",
-          "url": "https://www.liberation.fr/sports/football/deux-joueurs-du-club-de-foot-de-las-nancy-lorraine-accuses-de-viol-en-reunion-et-places-en-detention-20261005_7FFGQ6MPKRAM3L6NVCEVT2NINA/",
-          "canonicalUrl": "https://www.liberation.fr/sports/football/deux-joueurs-du-club-de-foot-de-las-nancy-lorraine-accuses-de-viol-en-reunion-et-places-en-detention-20261005_7FFGQ6MPKRAM3L6NVCEVT2NINA/",
-          "title": "Deux joueurs du club de foot de l’AS Nancy-Lorraine accusés de «viol en réunion» et placés en détention",
-          "description": "Les deux hommes, dont l’identité n’a pas été révélée mais qui évoluent selon le club au sein de l’équipe réserve, sont incarcérés provisoirement depuis vendredi. Les faits auraient eu lieu fin septembre, à l’encontre d’une femme de 22 ans.",
-          "source": {
-            "id": "liberation",
-            "name": "Libération"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-05T15:09:22.000Z",
-          "imageUrl": null,
-          "countryCode": "FR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T15:09:22.000Z"
-    },
-    {
-      "id": "g2mxPxkd69bp",
-      "representative": {
-        "id": "g2mxPxkd69bp",
-        "url": "https://www.lemonde.fr/international/article/2026/10/06/un-ancien-chef-du-renseignement-exterieur-allemand-august-hanning-arrete-pour-espionnage_6788973_3210.html",
-        "canonicalUrl": "https://www.lemonde.fr/international/article/2026/10/06/un-ancien-chef-du-renseignement-exterieur-allemand-august-hanning-arrete-pour-espionnage_6788973_3210.html",
-        "title": "Un ancien chef du renseignement extérieur allemand, August Hanning, arrêté pour espionnage",
-        "description": "Selon le parquet fédéral allemand, M. Hanning aurait notamment utilisé des contenus classifiés, transmis par l’un de ses anciens collaborateurs, afin de rédiger, dans le cadre de ses activités de consultant privé, une analyse pour un « officier d’un service renseignement étranger ».",
+        "id": "bFfAtMOSbfff",
+        "url": "https://www.lemonde.fr/societe/video/2026/10/05/blocage-de-lycee-a-lens-ce-que-l-on-sait-du-jeune-homme-qui-a-eu-la-main-arrachee-par-une-grenade_6788576_3224.html",
+        "canonicalUrl": "https://www.lemonde.fr/societe/video/2026/10/05/blocage-de-lycee-a-lens-ce-que-l-on-sait-du-jeune-homme-qui-a-eu-la-main-arrachee-par-une-grenade_6788576_3224.html",
+        "title": "Blocage de lycée à Lens : ce que l’on sait de l’adolescent qui a eu la main arrachée par une grenade",
+        "description": "Plusieurs vidéos montrent le garçon de 15 ans mutilé, et une enquête a été confiée à l’IGPN. « Le Monde » a pu contacter un témoin, qui décrit une explosion compatible avec une GM2L, grenade particulièrement dangereuse qu’emploient les forces de l’ordre françaises.",
         "source": {
           "id": "lemonde",
           "name": "Le Monde"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T09:55:04.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/10/06/316/0/4226/2113/644/322/60/0/9e5268c_ftp-1-mahqtpva4t5g-510f031d58794d7588cc6d4587922f58-0-1dc9bc552a234da2a6d98e4e253d6ef5.jpg",
+        "publishedAt": "2026-10-05T18:15:28.000Z",
+        "imageUrl": "https://img.lemde.fr/2026/10/05/246/0/1080/540/644/322/60/0/aff11b8_upload-1-07enbv5dkk74-v-montage-00-03-40-06-still001.jpg",
         "countryCode": "FR",
         "regionCode": null
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:55:04.000Z"
+      "related": [
+        {
+          "id": "SSDD5g4Fxf1_",
+          "url": "https://www.liberation.fr/societe/police-justice/mouvement-des-lyceens-a-lens-un-adolescent-a-eu-la-main-arrachee-par-une-grenade-de-desencerclement-20261005_RFVLTSYOPJGD3BKL4H5H6P67HE/",
+          "canonicalUrl": "https://www.liberation.fr/societe/police-justice/mouvement-des-lyceens-a-lens-un-adolescent-a-eu-la-main-arrachee-par-une-grenade-de-desencerclement-20261005_RFVLTSYOPJGD3BKL4H5H6P67HE/",
+          "title": "A Lens, un lycéen a eu une main arrachée, l’IGPN saisie",
+          "description": "L’élève de 15 ans, scolarisé en seconde, a été blessé ce lundi 5 octobre par une grenade, sans qu’on connaisse les circonstances précises. Le procureur de Béthune a saisi l’IGPN.",
+          "source": {
+            "id": "liberation",
+            "name": "Libération"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-05T13:02:51.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-05T18:15:28.000Z"
     },
     {
-      "id": "33g6zEgXECB8",
+      "id": "k_kanAecS6OB",
       "representative": {
-        "id": "33g6zEgXECB8",
-        "url": "https://www.20minutes.fr/societe/4251777-20261006-colere-lyceens-ps-va-deposer-proposition-loi-contre-armes-mutilantes?at_medium=display&at_campaign=149",
-        "canonicalUrl": "https://www.20minutes.fr/societe/4251777-20261006-colere-lyceens-ps-va-deposer-proposition-loi-contre-armes-mutilantes",
-        "title": "Colère des lycéens : Le PS va déposer une proposition de loi contre les armes mutilantes",
-        "description": "Le Parti socialiste s’apprête à déposer une proposition de loi pour interdire les armes mutilantes lors des « manifestations lycéennes, avec une majorité de mineurs »",
+        "id": "k_kanAecS6OB",
+        "url": "https://www.lemonde.fr/international/article/2026/10/06/l-espagne-leve-le-mandat-d-arret-visant-le-leader-independantiste-catalan-carles-puigdemont_6788997_3210.html",
+        "canonicalUrl": "https://www.lemonde.fr/international/article/2026/10/06/l-espagne-leve-le-mandat-d-arret-visant-le-leader-independantiste-catalan-carles-puigdemont_6788997_3210.html",
+        "title": "L’Espagne lève le mandat d’arrêt visant le leader indépendantiste catalan Carles Puigdemont",
+        "description": "Près de neuf ans après son départ vers la Belgique, qui a suivi la tentative de sécession de la Catalogne, M. Puigdemont peut désormais retourner en Espagne.",
         "source": {
-          "id": "20minutes",
-          "name": "20 Minutes"
+          "id": "lemonde",
+          "name": "Le Monde"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T09:53:00.000Z",
-        "imageUrl": "https://img.20mn.fr/CPbYbiViQPeI8dUMNnyqqik/1200x768_actualite-politique-faits-divers-29-09-2026-manifestations-dans-les-lycees-du-rhone-lycee-charlie-chaplin-de-decines-charpieu-les-forces-de-l-ordre-la-gendarmerie-les-policiers-et-les-crs-nassent-les-elevent-et-pointent-leurs-lbd-le-mardi-29-septembre-2026-des-manifestations-et-des-tentatives-de-blocages-ont-touche-plusieurs-lycees-du-rhone-notamment-a-lyon-villeurbanne-decines-charpieu-et-thizy-les-bourgs-dans-la-region-metropolitaine-de-lyon-la-police-a-fait-etat-d-interventions-a-la-suite-d-affrontements-de-jets-de-projectiles-de-tirs-de-mortiers-pyrotechniques-et-d-incendies-impliquant-des-poubelles-neirdaprod-sipa-00038-credit-adrien-pictore-sipa-2609292037",
+        "publishedAt": "2026-10-06T12:33:46.000Z",
+        "imageUrl": "https://img.lemde.fr/2023/11/10/400/0/5472/2736/644/322/60/0/58baa54_1699580062320-892079.jpg",
         "countryCode": "FR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:53:00.000Z"
-    },
-    {
-      "id": "QsVXLstNAyX-",
-      "representative": {
-        "id": "QsVXLstNAyX-",
-        "url": "https://www.liberation.fr/politique/contre-lfi-retailleau-reprend-le-flambeau-de-bardella-20261006_O3JXGQZGHNF4DOOP2LIQFODK4I/",
-        "canonicalUrl": "https://www.liberation.fr/politique/contre-lfi-retailleau-reprend-le-flambeau-de-bardella-20261006_O3JXGQZGHNF4DOOP2LIQFODK4I/",
-        "title": "Contre LFI, Retailleau reprend le flambeau de Bardella",
-        "description": "L’ancien ministre de l’Intérieur, accusant les insoumis d’aggraver la contestation lycéenne, a ressorti des tiroirs une vieille rengaine dont le patron du RN peut revendiquer la paternité.",
-        "source": {
-          "id": "liberation",
-          "name": "Libération"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T09:50:52.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:50:52.000Z"
+      "latestPublishedAt": "2026-10-06T12:33:46.000Z"
     },
     {
       "id": "eLZSpGno_PpN",
@@ -427,15 +379,15 @@
         "id": "eLZSpGno_PpN",
         "url": "https://www.liberation.fr/societe/education/en-direct-blocus-des-lycees-et-manifestation-une-journee-de-mobilisation-sous-tres-haute-surveillance-20261006_Q5JTNLV4ZJBBHKJFMAG3Q5RGA4/",
         "canonicalUrl": "https://www.liberation.fr/societe/education/en-direct-blocus-des-lycees-et-manifestation-une-journee-de-mobilisation-sous-tres-haute-surveillance-20261006_Q5JTNLV4ZJBBHKJFMAG3Q5RGA4/",
-        "title": "EN DIRECT – Mobilisation lycéenne : les premiers cortèges s’élancent à Lyon, Marseille ou Nantes",
-        "description": "Les lycéens, soutenus ce mardi par les organisations étudiantes et des syndicats, reprennent la rue. Des dizaines de milliers de personnes sont attendues dans une trentaine de villes. L’encadrement des forces de l’ordre sera particulièrement scruté alors que les accusations de violences policières…",
+        "title": "EN DIRECT – Mobilisation lycéenne : 260 000 manifestants recensés à la mi-journée en France selon la CGT, le cortège parisien s’élance",
+        "description": "Les lycéens, soutenus ce mardi par les organisations étudiantes et des syndicats, reprennent la rue. Des dizaines de milliers de personnes sont attendues dans une trentaine de villes, dont Paris cet après-midi.",
         "source": {
           "id": "liberation",
           "name": "Libération"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T09:47:51.000Z",
+        "publishedAt": "2026-10-06T12:32:34.000Z",
         "imageUrl": null,
         "countryCode": "FR",
         "regionCode": null
@@ -443,103 +395,151 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:47:51.000Z"
+      "latestPublishedAt": "2026-10-06T12:32:34.000Z"
     },
     {
-      "id": "xzP0-In6WVLF",
+      "id": "yCGAbv9tcI6u",
       "representative": {
-        "id": "xzP0-In6WVLF",
-        "url": "https://www.20minutes.fr/societe/4251748-20261006-manche-reseau-auto-stop-securise-etend-faciliter-deplacements-quotidien?at_medium=display&at_campaign=149",
-        "canonicalUrl": "https://www.20minutes.fr/societe/4251748-20261006-manche-reseau-auto-stop-securise-etend-faciliter-deplacements-quotidien",
-        "title": "Manche : Ce réseau d’auto-stop sécurisé s’étend pour faciliter les déplacements du quotidien",
-        "description": "Selon « Ouest-France », Covoistop gagne du terrain dans la Manche avec une formule d’auto-stop encadrée, économique et pensée pour les trajets locaux",
+        "id": "yCGAbv9tcI6u",
+        "url": "https://www.lefigaro.fr/actualite-france/il-a-une-capacite-a-reseauter-impressionnante-qui-est-ryad-rani-le-president-de-l-union-syndicale-lyceenne-proche-de-la-france-insoumise-20261006",
+        "canonicalUrl": "https://www.lefigaro.fr/actualite-france/il-a-une-capacite-a-reseauter-impressionnante-qui-est-ryad-rani-le-president-de-l-union-syndicale-lyceenne-proche-de-la-france-insoumise-20261006",
+        "title": "«Il a une capacité à réseauter impressionnante» : qui est Ryad Rani, le président de l’Union syndicale lycéenne, proche de La France Insoumise ?",
+        "description": "PORTRAIT – À seulement 18 ans, le jeune homme a été projeté sur le devant de la scène en devenant l’un des principaux porte-parole du mouvement lycéen.",
+        "source": {
+          "id": "lefigaro",
+          "name": "Le Figaro"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:29:51.000Z",
+        "imageUrl": "https://i.f1g.fr/media/cms/2850x1603_crop/2026/10/05/71d9cccca38b74a777c0ff0958cbd1e7f0a5a646cf6a22a34da075cd0828d3bc.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:29:51.000Z"
+    },
+    {
+      "id": "DjQaONef7nm0",
+      "representative": {
+        "id": "DjQaONef7nm0",
+        "url": "https://www.lefigaro.fr/conjoncture/retraites-reforme-de-l-etat-immigration-ce-que-contient-le-plan-economique-de-marine-le-pen-pour-la-renaissance-de-la-france-20261006",
+        "canonicalUrl": "https://www.lefigaro.fr/conjoncture/retraites-reforme-de-l-etat-immigration-ce-que-contient-le-plan-economique-de-marine-le-pen-pour-la-renaissance-de-la-france-20261006",
+        "title": "Retraites, réforme de l’État, immigration… Ce que contient le plan économique de Marine Le Pen pour «la renaissance de la France»",
+        "description": "La candidate du RN à l’élection présidentielle a présenté ce mardi la trajectoire financière qu’elle entend viser si elle accède à l’Élysée en mai prochain, détaillant plusieurs mesures économiques.",
+        "source": {
+          "id": "lefigaro",
+          "name": "Le Figaro"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:26:17.000Z",
+        "imageUrl": "https://i.f1g.fr/media/cms/3000x2005_crop/2026/10/06/4f65f791dc56bcc279ec2ead6f15c41e9a083d010a7fcf0e296d3d234384fb6d.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:26:17.000Z"
+    },
+    {
+      "id": "F4YrVBEdHnIl",
+      "representative": {
+        "id": "F4YrVBEdHnIl",
+        "url": "https://www.20minutes.fr/societe/4251767-20261006-reims-partie-berges-canal-rouvrira-public-debut-novembre?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251767-20261006-reims-partie-berges-canal-rouvrira-public-debut-novembre",
+        "title": "Reims : Une partie des berges du canal rouvrira au public début novembre",
+        "description": "Dans la Marne, les berges rémoises se transforment avec une aire de jeux, une fontaine et une future passerelle de 580 tonnes, selon « Le Parisien »",
         "source": {
           "id": "20minutes",
           "name": "20 Minutes"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T09:44:57.000Z",
-        "imageUrl": "https://img.20mn.fr/IrujMxWETj6T7ReaEPC-QSk/1200x768_de-plus-en-plus-de-territoires-mettent-en-place-des-dispositifs-incitatifs-afin-de-soutenir-le-developpement-du-covoiturage",
+        "publishedAt": "2026-10-06T12:21:00.000Z",
+        "imageUrl": "https://img.20mn.fr/XwMRfuGFQwqf5bQLWCtihik/1200x768_les-berges-du-canal-de-reims-rouvriront-partiellement-debut-novembre-pour-relier-les-deux-rives-une-passerelle-de-580-tonnes-completera-les-amenagements-en-2027-photo-d-illustration",
         "countryCode": "FR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:44:57.000Z"
+      "latestPublishedAt": "2026-10-06T12:21:00.000Z"
     },
     {
-      "id": "oxCoSaewbvDi",
+      "id": "AWhIHlno9L0E",
       "representative": {
-        "id": "oxCoSaewbvDi",
-        "url": "https://www.liberation.fr/politique/alsace-la-justice-annule-lelection-de-lunique-maire-rn-de-la-region-20261006_FIQEXCPEKRFIZDWOGKBROLAFQI/",
-        "canonicalUrl": "https://www.liberation.fr/politique/alsace-la-justice-annule-lelection-de-lunique-maire-rn-de-la-region-20261006_FIQEXCPEKRFIZDWOGKBROLAFQI/",
-        "title": "Alsace : la justice annule l’élection de l’unique maire RN de la région",
-        "description": "Après décision des juges rendue publique ce mardi 6 octobre, la mairie de Wittelsheim, ville de la banlieue de Mulhouse, échappe à l’élue d’extrême droite.",
-        "source": {
-          "id": "liberation",
-          "name": "Libération"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T09:39:32.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:39:32.000Z"
-    },
-    {
-      "id": "Ef9rkobnakH-",
-      "representative": {
-        "id": "Ef9rkobnakH-",
-        "url": "https://www.lemonde.fr/afrique/article/2026/10/06/ebola-le-kenya-annonce-son-premier-mort-lie-au-virus_6788972_3212.html",
-        "canonicalUrl": "https://www.lemonde.fr/afrique/article/2026/10/06/ebola-le-kenya-annonce-son-premier-mort-lie-au-virus_6788972_3212.html",
-        "title": "Ebola : le Kenya annonce son premier mort lié au virus",
-        "description": "Le ministre de la santé a déclaré que ce citoyen kenyan, arrivé samedi dans le pays en provenance de RDC via l’Ouganda, avait été placé en isolement à l’hôpital de Nairobi, avant d’y mourir lundi soir.",
-        "source": {
-          "id": "lemonde",
-          "name": "Le Monde"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T09:37:40.000Z",
-        "imageUrl": "https://img.lemde.fr/2026/10/06/606/0/5500/2750/644/322/60/0/3ca0e1d_ftp-1-hdonadniomaj-2026-10-06t085139z-339030955-rc2kxnawitcg-rtrmadp-3-kenya-ebola.JPG",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:37:40.000Z"
-    },
-    {
-      "id": "D6-o1B8LNtqD",
-      "representative": {
-        "id": "D6-o1B8LNtqD",
-        "url": "https://www.20minutes.fr/societe/4251744-20261006-loiret-orleans-metropole-prepare-habitants-risque-crue-majeure-loire?at_medium=display&at_campaign=149",
-        "canonicalUrl": "https://www.20minutes.fr/societe/4251744-20261006-loiret-orleans-metropole-prepare-habitants-risque-crue-majeure-loire",
-        "title": "Loiret : Orléans Métropole prépare les habitants au risque d’une crue majeure de la Loire",
-        "description": "Les habitants pourront participer à un jeu collaboratif pour mieux comprendre les conséquences d’une importante inondation et savoir comment s’y préparer, annonce « Orléans Métropole »",
+        "id": "AWhIHlno9L0E",
+        "url": "https://www.20minutes.fr/societe/4251771-20261006-tours-jeunes-quittent-conseil-municipal-apres-prise-parole-elu?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251771-20261006-tours-jeunes-quittent-conseil-municipal-apres-prise-parole-elu",
+        "title": "Tours : Des jeunes quittent le conseil municipal après la prise de parole d’un élu",
+        "description": "Plusieurs jeunes ont claqué la porte du conseil municipal de Tours en raison de certains propos tenus par un élu, comme le rapporte « Actu Tours »",
         "source": {
           "id": "20minutes",
           "name": "20 Minutes"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T09:34:19.000Z",
-        "imageUrl": "https://img.20mn.fr/4b_fML8tTWy6dJ2rHqKFvik/1200x768_les-eaux-de-crue-de-la-garonne-inondent-les-rues-de-la-reole-a-la-suite-de-la-tempete-nils-a-la-reole-gironde-le-12-fevrier-2025-amezugo-001645-credit-ugo-amez-sipa-2602121450",
+        "publishedAt": "2026-10-06T12:15:18.000Z",
+        "imageUrl": "https://img.20mn.fr/LTuyDM7QQt-_MpC004CTEik/1200x768_illustration-of-a-high-school-student-in-a-courtyard-at-lycee-champollion-in-lattes-southern-france-on-october-16-2023-illustration-de-lyceen-dans-une-cour-du-lycee-champollion-a-lattes-le-lundi-16-octobre-2023-alainrobert-1y8a5719-credit-alain-robert-sipa-2310161548",
         "countryCode": "FR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:34:19.000Z"
+      "latestPublishedAt": "2026-10-06T12:15:18.000Z"
+    },
+    {
+      "id": "t7XTb5qzFhA8",
+      "representative": {
+        "id": "t7XTb5qzFhA8",
+        "url": "https://www.20minutes.fr/societe/4251757-20261006-allier-rave-parties-free-parties-interdites-jusqu-debut-novembre?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251757-20261006-allier-rave-parties-free-parties-interdites-jusqu-debut-novembre",
+        "title": "Allier : Les rave-parties et free parties interdites jusqu’au début novembre",
+        "description": "Les rave-parties et les free parties ne peuvent plus avoir lieu dans tout le département jusqu’au 2 novembre, selon « La Semaine de l’Allier »",
+        "source": {
+          "id": "20minutes",
+          "name": "20 Minutes"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:05:19.000Z",
+        "imageUrl": "https://img.20mn.fr/Yw3qTerNTKa30e6llZzN6yk/1200x768_photo-d-illustration",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:05:19.000Z"
+    },
+    {
+      "id": "86MMBFS-BEgr",
+      "representative": {
+        "id": "86MMBFS-BEgr",
+        "url": "https://www.20minutes.fr/societe/4251776-20261006-poitiers-usagers-route-divises-heure-bilan-30-km-h-ville?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251776-20261006-poitiers-usagers-route-divises-heure-bilan-30-km-h-ville",
+        "title": "Poitiers : Les usagers de la route divisés à l’heure du bilan sur les 30 km/h en ville",
+        "description": "Cela fait trois ans que la limitation à 30 km/h est en vigueur dans la commune. Les retours des usagers sur cette mesure sont variés, selon « ICI Poitou »",
+        "source": {
+          "id": "20minutes",
+          "name": "20 Minutes"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:00:53.000Z",
+        "imageUrl": "https://img.20mn.fr/idCr_GyZRw-6SSO8IVU7Eyk/1200x768_cet-axe-routier-passe-a-30-km-h-pendant-6-mois-photo-d-illustration",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:00:53.000Z"
     }
   ]
 }

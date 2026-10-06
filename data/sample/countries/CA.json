@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CA",
   "countryName": "Canada",
-  "updatedAt": "2026-10-06T09:59:35.791Z",
+  "updatedAt": "2026-10-06T12:44:26.411Z",
   "clusters": [
     {
       "id": "IVZaH0wgm3Su",
@@ -25,6 +25,23 @@
       },
       "related": [
         {
+          "id": "c0aYg4PSQT3J",
+          "url": "https://globalnews.ca/news/12089384/quebec-election-need-to-know/",
+          "canonicalUrl": "https://globalnews.ca/news/12089384/quebec-election-need-to-know/",
+          "title": "5 takeaways from Quebec election as Parti Québécois forms minority government",
+          "description": "Quebec voters elected a Parti Québécois minority government Monday, completing a dramatic political comeback and paving the way for an eventual third sovereignty referendum.",
+          "source": {
+            "id": "globalnews",
+            "name": "Global News"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:59:45.000Z",
+          "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/f40803e1291f3f2404017442e6c46d48413db2fb9853d9857bcb2897cf7da22c.jpg?quality=65&strip=all",
+          "countryCode": "CA",
+          "regionCode": null
+        },
+        {
           "id": "GALschB4cq6Z",
           "url": "https://www.ctvnews.ca/montreal/article/quebec-sovereigntist-party-will-form-minority-government-ctv-news-projects-live-results-here/",
           "canonicalUrl": "https://www.ctvnews.ca/montreal/article/quebec-sovereigntist-party-will-form-minority-government-ctv-news-projects-live-results-here/",
@@ -40,28 +57,11 @@
           "imageUrl": "https://www.ctvnews.ca/resizer/v2/G5UGFKHMRJH77AXTPZ3AGLP7GA.png?auth=adcc59ec8a2550ff39aa2c8307fe1f9d4391ad1e74bf89aedb7448d57944191c&smart=true&width=1920&height=1080",
           "countryCode": "CA",
           "regionCode": null
-        },
-        {
-          "id": "3Zyvch7jC63g",
-          "url": "https://globalnews.ca/news/12087285/quebec-election-day/",
-          "canonicalUrl": "https://globalnews.ca/news/12087285/quebec-election-day/",
-          "title": "Sovereigntist Parti Québécois projected to form minority government in Quebec election",
-          "description": "After two straight CAQ majority governments, the PQ's Leader Paul St-Pierre Plamondon capitalized on Quebecers' desire for change.",
-          "source": {
-            "id": "globalnews",
-            "name": "Global News"
-          },
-          "sourceCountry": "CA",
-          "language": "en",
-          "publishedAt": "2026-10-05T10:00:17.000Z",
-          "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/3da38a4c788641bedccec5bd32c8a385165a9726af94c62399d7184a26a26ba5.jpg?quality=65&strip=all",
-          "countryCode": "CA",
-          "regionCode": null
         }
       ],
       "outletCount24h": 3,
       "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T09:44:18.000Z"
+      "latestPublishedAt": "2026-10-06T11:59:45.000Z"
     },
     {
       "id": "WXB18tkF5nEz",
@@ -190,6 +190,222 @@
       "latestPublishedAt": "2026-10-05T19:56:47.000Z"
     },
     {
+      "id": "X3XrEEhyg5WM",
+      "representative": {
+        "id": "X3XrEEhyg5WM",
+        "url": "https://www.ctvnews.ca/calgary/article/alberta-referendum-explores-proof-of-citizenship-at-the-polls-but-what-impact-could-it-have/",
+        "canonicalUrl": "https://www.ctvnews.ca/calgary/article/alberta-referendum-explores-proof-of-citizenship-at-the-polls-but-what-impact-could-it-have/",
+        "title": "Alberta referendum explores proof of citizenship at the polls, but what impact could it have?",
+        "description": "One of the questions Albertans will see on the Oct. 19 referendum involves the possibility of adding another requirement for people who are eligible to vote.",
+        "source": {
+          "id": "ctv",
+          "name": "CTV News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:44:26.411Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/45MTOAKPSXWGQD7VOOOLRVRUEI.jpg?auth=6a097b3ad50abd6768bf700b4f91143f4374bd44aca864aae96024e76de58e4a&smart=true&width=1400&height=809",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:44:26.411Z"
+    },
+    {
+      "id": "tbi1lUEz0rnX",
+      "representative": {
+        "id": "tbi1lUEz0rnX",
+        "url": "https://globalnews.ca/news/12089387/saskatchewan-crash-driver-grieving-deaths/",
+        "canonicalUrl": "https://globalnews.ca/news/12089387/saskatchewan-crash-driver-grieving-deaths/",
+        "title": "Driver involved in Saskatchewan crash is grieving deaths of woman, girls: lawyer",
+        "description": "A lawyer for the truck driver involved in a deadly crash in Saskatchewan that killed a woman and two girls says the man is overwhelmed with grief.",
+        "source": {
+          "id": "globalnews",
+          "name": "Global News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:05:41.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/63178d78eb875c2057da7f699649ce697cb8d9b7df86d952901730e88d999e20.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:05:41.000Z"
+    },
+    {
+      "id": "44BkCBBbLt8K",
+      "representative": {
+        "id": "44BkCBBbLt8K",
+        "url": "https://nationalpost.com/news/israels-referendum-on-october-7-benjamin-netanyahu-and-much-more",
+        "canonicalUrl": "https://nationalpost.com/news/israels-referendum-on-october-7-benjamin-netanyahu-and-much-more",
+        "title": "Israel’s referendum on October 7, Benjamin Netanyahu and much more",
+        "description": "Twenty days after the anniversary of the Hamas attacks on Wednesday, Israeli elections will set the stage for transformative change. Or not",
+        "source": {
+          "id": "nationalpost",
+          "name": "National Post"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:00:50.000Z",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/10/Eylon-Levy-1.jpg",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:00:50.000Z"
+    },
+    {
+      "id": "saoe-rljOWgF",
+      "representative": {
+        "id": "saoe-rljOWgF",
+        "url": "https://ici.radio-canada.ca/nouvelle/2291044/nobel-physique-francis-halzen-belge-neutrinos",
+        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291044/nobel-physique-francis-halzen-belge-neutrinos",
+        "title": "Le Nobel de physique récompense un Belge pour ses travaux sur les neutrinos",
+        "description": "Le neutrino, la particule la plus discrète de l'Univers, traverse la matière sans se faire remarquer.",
+        "source": {
+          "id": "radiocanada",
+          "name": "Radio-Canada"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T11:52:41.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/francis-halzen-prix-nobel-physique-2026.jpg",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:52:41.000Z"
+    },
+    {
+      "id": "iBGy_k4QGN9S",
+      "representative": {
+        "id": "iBGy_k4QGN9S",
+        "url": "https://www.theglobeandmail.com/canada/video-student-protests-continue-in-paris-and-lille/",
+        "canonicalUrl": "https://www.theglobeandmail.com/canada/video-student-protests-continue-in-paris-and-lille/",
+        "title": "Student protests continue in Paris and Lille",
+        "description": "Flag- and placard-waving demonstrators responded to labor union calls for workers to march in support of the high school movement that is rattling the government of President Emmanuel Macron.",
+        "source": {
+          "id": "globeandmail",
+          "name": "The Globe and Mail"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:48:56.000Z",
+        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/https%3A%2F%2Fd3d444jn19227z.cloudfront.net%2F10-06-2026%2Ft_f5a2e4eb0ae0487a93c3edae4b6874ed_name_b045e647c61b4735bf21fe1931703a40_thumbnail.jpg?auth=d4ee136459a619f5d1da01f45413efbc90b250815e00aefbf84e82b473749caf&smart=true&width=1920&height=1080",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:48:56.000Z"
+    },
+    {
+      "id": "5V9mcq95VbNR",
+      "representative": {
+        "id": "5V9mcq95VbNR",
+        "url": "https://www.theglobeandmail.com/canada/british-columbia/article-bc-kerry-lynne-findlay-brent-chapman-threats/",
+        "canonicalUrl": "https://www.theglobeandmail.com/canada/british-columbia/article-bc-kerry-lynne-findlay-brent-chapman-threats/",
+        "title": "Former B.C. Conservative leader Findlay and husband Chapman were threatened, OneBC says",
+        "description": "Chapman announced he was joining OneBC to run as a candidate in the Oct. 24 election after Findlay resigned as the Conservative party leader amid a caucus revolt",
+        "source": {
+          "id": "globeandmail",
+          "name": "The Globe and Mail"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:09:44.000Z",
+        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/MOW4MSBMR5ELPEVRWFKBVKQCDM.jpg?auth=93caeac1dece48f4a1a7a400a8ab29360836055ea1e016afec41d9b811eec515&smart=true&width=6500&height=4333",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:09:44.000Z"
+    },
+    {
+      "id": "w5kCaQ74SXwf",
+      "representative": {
+        "id": "w5kCaQ74SXwf",
+        "url": "https://www.theglobeandmail.com/canada/article-morning-update-quebec-elects-the-pq/",
+        "canonicalUrl": "https://www.theglobeandmail.com/canada/article-morning-update-quebec-elects-the-pq/",
+        "title": "Morning Update: Quebec elects the PQ",
+        "description": "Also in today’s edition: DIA expected to become a Crown corporation and Lake America vexes map-makers",
+        "source": {
+          "id": "globeandmail",
+          "name": "The Globe and Mail"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:39:47.000Z",
+        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/2MOFTWFCGJHFTH7TFPUC7K4VUU.jpg?auth=c44f12333952e8df8380380038784c914ec253ed54888c9ebf1ffad07acfdee7&smart=true&width=7219&height=4813",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:39:47.000Z"
+    },
+    {
+      "id": "4AIDvEQANplF",
+      "representative": {
+        "id": "4AIDvEQANplF",
+        "url": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-physics-francis-halzen/",
+        "canonicalUrl": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-physics-francis-halzen/",
+        "title": "Neutrino experiment pioneer Francis Halzen wins Nobel Prize in Physics",
+        "description": "University of Wisconsin-Madison professor is best known for his work establishing the IceCube Neutrino Observatory at the South Pole",
+        "source": {
+          "id": "globeandmail",
+          "name": "The Globe and Mail"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:27:01.000Z",
+        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/VBZI4CBNNNFDJBCGYAABJE6EDA.JPG?auth=4b649f4065fdfd5515ac3f40984020ca6f94393803ae2af1e4317a5451277dc0&smart=true&width=1632&height=1089",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:27:01.000Z"
+    },
+    {
+      "id": "n7Knuich-2SS",
+      "representative": {
+        "id": "n7Knuich-2SS",
+        "url": "https://nationalpost.com/news/canada/parliaments-crane-operators-face-unique-challenges-at-lofty-heights",
+        "canonicalUrl": "https://nationalpost.com/news/canada/parliaments-crane-operators-face-unique-challenges-at-lofty-heights",
+        "title": "Parliament's crane operators face unique challenges at lofty heights",
+        "description": "Main construction will be complete between 2030 and 2031. The Centre Block will reopen about one year later",
+        "source": {
+          "id": "nationalpost",
+          "name": "National Post"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:00:43.000Z",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/10/hcp_stockbuildingsign_009_300892992.jpg",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:00:43.000Z"
+    },
+    {
       "id": "hBDr6pYUi1A-",
       "representative": {
         "id": "hBDr6pYUi1A-",
@@ -236,222 +452,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:00:00.000Z"
-    },
-    {
-      "id": "eokAntxKaC0u",
-      "representative": {
-        "id": "eokAntxKaC0u",
-        "url": "https://ici.radio-canada.ca/info/2026/elections-quebec/resultats-cartes-graphiques-avant-apres/",
-        "canonicalUrl": "https://ici.radio-canada.ca/info/2026/elections-quebec/resultats-cartes-graphiques-avant-apres/",
-        "title": "Voici les résultats des élections en cartes et graphiques",
-        "description": "La carte électorale est complètement changée. Survol des résultats, région par région.",
-        "source": {
-          "id": "radiocanada",
-          "name": "Radio-Canada"
-        },
-        "sourceCountry": "CA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T08:09:53.000Z",
-        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/resultats-election-quebec-2026.jpg",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:09:53.000Z"
-    },
-    {
-      "id": "FGoe_YDFK-Mv",
-      "representative": {
-        "id": "FGoe_YDFK-Mv",
-        "url": "https://www.theglobeandmail.com/politics/article-map-makers-worldwide-strive-to-navigate-trump-edict-on-lake-ontario/",
-        "canonicalUrl": "https://www.theglobeandmail.com/politics/article-map-makers-worldwide-strive-to-navigate-trump-edict-on-lake-ontario/",
-        "title": "Map makers worldwide strive to navigate Trump edict on Lake Ontario",
-        "description": "There are no binding international standards for dealing with name disputes, but a UN group meeting this month will consider how to bring order to the process",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-06T08:00:00.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/HIEYFIMKOJE3PEGBYOR3KILY4Y.JPG?auth=21ebd528837ccc90ae8e44a0dfbc5c7a6da15ac08e39d8814edcdf2e27a3e6ba&smart=true&width=2149&height=1433",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:00:00.000Z"
-    },
-    {
-      "id": "S79wm8Z_od95",
-      "representative": {
-        "id": "S79wm8Z_od95",
-        "url": "https://ici.radio-canada.ca/nouvelle/2290126/manifestations-ecoles-lycees-france-education-politique-lfi-rn",
-        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2290126/manifestations-ecoles-lycees-france-education-politique-lfi-rn",
-        "title": "Manifestations dans les lycées français : éducation et politique s’entrechoquent",
-        "description": "Lundi, un élève de 15 ans a perdu une main dans le nord du pays. Les politiciens se lancent dans la mêlée.",
-        "source": {
-          "id": "radiocanada",
-          "name": "Radio-Canada"
-        },
-        "sourceCountry": "CA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T08:00:00.000Z",
-        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/france-lycees-manifestations.jpg",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:00:00.000Z"
-    },
-    {
-      "id": "VdUJxhs2B4fG",
-      "representative": {
-        "id": "VdUJxhs2B4fG",
-        "url": "https://ici.radio-canada.ca/nouvelle/2290969/anne-robillard-meta-livres-ia-piratage-llm",
-        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2290969/anne-robillard-meta-livres-ia-piratage-llm",
-        "title": "Droit d’auteur et IA : une première action collective contre Meta devant les tribunaux",
-        "description": "L’action collective d'Anne Robillard contre Meta a été entendue pour la première fois en cour lundi.",
-        "source": {
-          "id": "radiocanada",
-          "name": "Radio-Canada"
-        },
-        "sourceCountry": "CA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T08:00:00.000Z",
-        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/anne-robillard-autrice-chevaliers-emeraude-action-collective-meta.jpg",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:00:00.000Z"
-    },
-    {
-      "id": "9Ho-PTmiEH65",
-      "representative": {
-        "id": "9Ho-PTmiEH65",
-        "url": "https://ici.radio-canada.ca/info/en-direct/1014523/elections-quebec-vote-soiree-electorale-resultats",
-        "canonicalUrl": "https://ici.radio-canada.ca/info/en-direct/1014523/elections-quebec-vote-soiree-electorale-resultats",
-        "title": "Élections : les faits saillants de la journée électorale",
-        "description": "Le taux de participation s'est établi à 66,90 % dans l'ensemble du Québec pour ces élections générales.",
-        "source": {
-          "id": "radiocanada",
-          "name": "Radio-Canada"
-        },
-        "sourceCountry": "CA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T07:03:51.000Z",
-        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/transit/16x9/srutin-helene-boulle-a104323.jpeg",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T07:03:51.000Z"
-    },
-    {
-      "id": "4eXbSWGRsa8N",
-      "representative": {
-        "id": "4eXbSWGRsa8N",
-        "url": "https://ici.radio-canada.ca/nouvelle/2290972/defaite-caq-christine-frechette-elections-quebec",
-        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2290972/defaite-caq-christine-frechette-elections-quebec",
-        "title": "Défaite de la CAQ : « J’attends l’aide politique à mourir »",
-        "description": "Une veillée funeste attendait les militants et sympathisants de la Coalition avenir Québec.",
-        "source": {
-          "id": "radiocanada",
-          "name": "Radio-Canada"
-        },
-        "sourceCountry": "CA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T06:30:24.000Z",
-        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/christine-frechette-caq-defaite-elections.jpg",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T06:30:24.000Z"
-    },
-    {
-      "id": "gYL9ZSWGwJRi",
-      "representative": {
-        "id": "gYL9ZSWGwJRi",
-        "url": "https://ici.radio-canada.ca/nouvelle/2290467/election-parti-quebecois-pq-pspp",
-        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2290467/election-parti-quebecois-pq-pspp",
-        "title": "Le Parti québécois de PSPP remporte les élections",
-        "description": "Paul St-Pierre Plamondon se retrouvera toutefois à la tête d'un gouvernement minoritaire.",
-        "source": {
-          "id": "radiocanada",
-          "name": "Radio-Canada"
-        },
-        "sourceCountry": "CA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T06:07:09.000Z",
-        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/pspp-pq-elections.jpg",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T06:07:09.000Z"
-    },
-    {
-      "id": "Hph8KjF_zY4S",
-      "representative": {
-        "id": "Hph8KjF_zY4S",
-        "url": "https://ici.radio-canada.ca/nouvelle/2290786/caq-christine-frechette-defaite-elections-quebec",
-        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2290786/caq-christine-frechette-defaite-elections-quebec",
-        "title": "La CAQ rayée de la carte, Fréchette prend la « responsabilité »",
-        "description": "Christine Fréchette est défaite dans Trois-Rivières; le parti récolte à peine 13 % des voix dans la province.",
-        "source": {
-          "id": "radiocanada",
-          "name": "Radio-Canada"
-        },
-        "sourceCountry": "CA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T05:49:32.000Z",
-        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/cheffe-coalition-avenir-quebec-christine-frechette-discours-defaite-elections.jpg",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T05:49:32.000Z"
-    },
-    {
-      "id": "Zlz7AdRcaTjz",
-      "representative": {
-        "id": "Zlz7AdRcaTjz",
-        "url": "https://ici.radio-canada.ca/nouvelle/2290991/plq-charles-milliard-orford-resultat-liberal",
-        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2290991/plq-charles-milliard-orford-resultat-liberal",
-        "title": "Le PLQ a plus d’une raison de célébrer",
-        "description": "Le chef libéral, Charles Milliard a gagné son siège à l’Assemblée nationale et le PLQ a doublé son caucus.",
-        "source": {
-          "id": "radiocanada",
-          "name": "Radio-Canada"
-        },
-        "sourceCountry": "CA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T05:03:10.000Z",
-        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/chef-liberal-charles-milliard-victoire-magog-elections.jpg",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T05:03:10.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "US",
   "countryName": "United States",
-  "updatedAt": "2026-10-06T09:59:35.791Z",
+  "updatedAt": "2026-10-06T12:44:26.411Z",
   "clusters": [
     {
       "id": "cNgRZmeXuur4",
@@ -191,20 +191,79 @@
       "latestPublishedAt": "2026-10-05T15:57:28.000Z"
     },
     {
-      "id": "dciVcunuLjsp",
+      "id": "edfDpG-qKOcf",
       "representative": {
-        "id": "dciVcunuLjsp",
-        "url": "https://www.washingtonpost.com/politics/2026/10/04/showdown-over-big-oil-climate-change-hits-supreme-court/",
-        "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/04/showdown-over-big-oil-climate-change-hits-supreme-court/",
-        "title": "Should Big Oil pay for climate change? A Supreme Court case will help decide.",
-        "description": "Boulder, Colorado, is hoping its novel lawsuit will be the environmental equivalent of the landmark litigation that produced billions in damages and settlements against Big Tobacco and opioid makers.",
+        "id": "edfDpG-qKOcf",
+        "url": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
+        "canonicalUrl": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
+        "title": "News Wrap: Cornell students protest handling of alleged rape",
+        "description": "In our news wrap Monday, students at Cornell are staging protests over the university's handling of an alleged fraternity house gang rape in 2024, President Trump said a threat linked to Iran was the reason the U.S. withdrew its bombers from the Fairford airbase in the UK and Dennis Hastert, the…",
+        "source": {
+          "id": "pbs",
+          "name": "PBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T22:45:10.000Z",
+        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/newswrapcornell-1024x688.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "dvfhHr47lvNQ",
+          "url": "https://abcnews.com/US/wireStory/cornell-building-sprayed-graffiti-blasting-schools-response-gang-137008360",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/cornell-building-sprayed-graffiti-blasting-schools-response-gang-137008360",
+          "title": "A crowd of students protests Cornell's response to gang rape complaint",
+          "description": "Cornell students, professors and others are thronging a campus plaza to protest the university’s response to allegations of sexual assault at a fraternity house in 2024",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T08:42:14.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_70d74249bc779480975f3b2a4166ee97_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "H6lwnf1nHPbJ",
+          "url": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
+          "canonicalUrl": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
+          "title": "Cornell students vandalize on-campus wall over university's handling of alleged rape case",
+          "description": "There is growing backlash against Cornell University as more information comes out about the Ivy League school's original response to an alleged gang rape two years ago inside a frat house on campus. Lilia Luciano reports.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-05T23:49:05.000Z",
+          "imageUrl": null,
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T08:42:14.000Z"
+    },
+    {
+      "id": "KD83YcPxnU3t",
+      "representative": {
+        "id": "KD83YcPxnU3t",
+        "url": "https://www.washingtonpost.com/politics/2026/10/05/supreme-court-grapples-with-case-holding-big-oil-liable-climate-change/",
+        "canonicalUrl": "https://www.washingtonpost.com/politics/2026/10/05/supreme-court-grapples-with-case-holding-big-oil-liable-climate-change/",
+        "title": "Supreme Court grapples with case on holding Big Oil liable for climate change",
+        "description": "After more than two hours of argument, it was unclear whether the justices would green-light Boulder, Colorado’s novel lawsuit against ExxonMobil and Suncor Energy.",
         "source": {
           "id": "wapo",
           "name": "The Washington Post"
         },
         "sourceCountry": "US",
         "language": "en",
-        "publishedAt": "2026-10-04T10:00:01.000Z",
+        "publishedAt": "2026-10-05T19:23:15.000Z",
         "imageUrl": null,
         "countryCode": "US",
         "regionCode": null
@@ -284,63 +343,88 @@
       "latestPublishedAt": "2026-10-06T02:35:48.000Z"
     },
     {
-      "id": "mdy5JYMM7-Pt",
+      "id": "BBxxZB0Zjndl",
       "representative": {
-        "id": "mdy5JYMM7-Pt",
-        "url": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
-        "canonicalUrl": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
-        "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
-        "description": "The FBI and U.S. prosecutors say Wanying Zhang, also know as Heather, surveilled the Taiwanese president's son and his family.",
+        "id": "BBxxZB0Zjndl",
+        "url": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
+        "canonicalUrl": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
+        "title": "Fury in California After Trump Suggests Iran Could ‘Take Out’ L.A. or San Diego",
+        "description": "Gov. Gavin Newsom called the president “dangerous and deranged” after his remarks at a political rally, where Mr. Trump said the Iran war was necessary to “keep the world safe.”",
         "source": {
-          "id": "npr",
-          "name": "NPR"
+          "id": "nyt",
+          "name": "The New York Times"
         },
         "sourceCountry": "US",
         "language": "en",
-        "publishedAt": "2026-10-05T11:47:36.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T07:11:57.000Z",
+        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06xp-trump-strikes-mflg/06xp-trump-strikes-mflg-mediumSquareAt3X.jpg",
         "countryCode": "US",
         "regionCode": null
       },
       "related": [
         {
-          "id": "b_xo9Khdt9F-",
-          "url": "https://abcnews.com/US/wireStory/fbi-arrests-california-woman-accused-spying-taiwan-leaders-136995467",
-          "canonicalUrl": "https://abcnews.com/US/wireStory/fbi-arrests-california-woman-accused-spying-taiwan-leaders-136995467",
-          "title": "FBI arrests California woman accused of spying on Taiwan leader's family for China",
-          "description": "The FBI has arrested a California real estate agent at Los Angeles International Airport as she was leaving the country and accused her of spying on the Taiwan president’s family for China",
-          "source": {
-            "id": "abc",
-            "name": "ABC News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-06T02:21:45.000Z",
-          "imageUrl": "https://s.abcnews.com/images/US/wirestory_42e55337e768722b67874b9dc29f127c_16x9_1600.jpg",
-          "countryCode": "US",
-          "regionCode": null
-        },
-        {
-          "id": "jhKt-Lzpmadg",
-          "url": "https://www.cbsnews.com/news/chinese-agent-arrested-lax-taiwan-president-son/",
-          "canonicalUrl": "https://www.cbsnews.com/news/chinese-agent-arrested-lax-taiwan-president-son/",
-          "title": "FBI arrests woman at LAX accused of being Chinese agent",
-          "description": "Wanying \"Heather\" Zhang, an Irvine, California, realtor, was arrested on a charge of acting as an unregistered agent of a foreign government.",
+          "id": "Bg3pe2MmoDlY",
+          "url": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
+          "canonicalUrl": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
+          "title": "Trump suggests letting Iran \"take out\" LA, San Diego during rally",
+          "description": "Gov. Gavin Newsom called President Trump \"deranged and dangerous\" after he suggested letting Iran \"take out\" Los Angeles and San Diego.",
           "source": {
             "id": "cbs",
             "name": "CBS News"
           },
           "sourceCountry": "US",
           "language": "en",
-          "publishedAt": "2026-10-06T01:35:27.000Z",
+          "publishedAt": "2026-10-06T11:30:32.000Z",
           "imageUrl": null,
           "countryCode": "US",
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T02:21:45.000Z"
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:30:32.000Z"
+    },
+    {
+      "id": "fYd-yuTEmSFh",
+      "representative": {
+        "id": "fYd-yuTEmSFh",
+        "url": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
+        "canonicalUrl": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
+        "title": "Jim Bakker, who co-founded \"The PTL Club\" but fell into disgrace, dies at 86",
+        "description": "Jim Bakker, who along with his first wife Tammy Faye built an evangelical empire around \"The PTL Club\" TV show, only to lose it all over a sex scandal and financial crimes, has died at 86.",
+        "source": {
+          "id": "cbs",
+          "name": "CBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:05:00.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "jKJqQlX3lp6A",
+          "url": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
+          "title": "Jim Bakker, who built ‘PTL Club’ televangelism empire, has died at 86",
+          "description": "Jim Bakker, who along with his first-wife Tammy Faye built an evangelical empire around the hugely successful “The PTL Club” TV show, only to lose it all over a sex scandal and financial crimes, has died",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T10:12:50.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_ef6d58ffa0b511edba773c219cee77e8_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:12:50.000Z"
     },
     {
       "id": "ayblcUrkAH7o",
@@ -427,88 +511,63 @@
       "latestPublishedAt": "2026-10-06T09:17:00.000Z"
     },
     {
-      "id": "BBxxZB0Zjndl",
+      "id": "mdy5JYMM7-Pt",
       "representative": {
-        "id": "BBxxZB0Zjndl",
-        "url": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
-        "canonicalUrl": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
-        "title": "Fury in California After Trump Suggests Iran Could ‘Take Out’ L.A. or San Diego",
-        "description": "Gov. Gavin Newsom called the president “dangerous and deranged” after his remarks at a political rally, where Mr. Trump said the Iran war was necessary to “keep the world safe.”",
+        "id": "mdy5JYMM7-Pt",
+        "url": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
+        "canonicalUrl": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
+        "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
+        "description": "The FBI and U.S. prosecutors say Wanying Zhang, also know as Heather, surveilled the Taiwanese president's son and his family.",
         "source": {
-          "id": "nyt",
-          "name": "The New York Times"
+          "id": "npr",
+          "name": "NPR"
         },
         "sourceCountry": "US",
         "language": "en",
-        "publishedAt": "2026-10-06T07:11:57.000Z",
-        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06xp-trump-strikes-mflg/06xp-trump-strikes-mflg-mediumSquareAt3X.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Bg3pe2MmoDlY",
-          "url": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
-          "canonicalUrl": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
-          "title": "Trump suggests letting Iran \"take out\" LA, San Diego during rally",
-          "description": "Gov. Gavin Newsom called President Trump \"deranged and dangerous\" after he suggested letting Iran \"take out\" Los Angeles and San Diego.",
-          "source": {
-            "id": "cbs",
-            "name": "CBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-06T05:41:07.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T07:11:57.000Z"
-    },
-    {
-      "id": "fYd-yuTEmSFh",
-      "representative": {
-        "id": "fYd-yuTEmSFh",
-        "url": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
-        "canonicalUrl": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
-        "title": "Jim Bakker, who co-founded \"The PTL Club\" but fell into disgrace, dies at 86",
-        "description": "Jim Bakker, who along with his first wife Tammy Faye built an evangelical empire around \"The PTL Club\" TV show, only to lose it all over a sex scandal and financial crimes, has died at 86.",
-        "source": {
-          "id": "cbs",
-          "name": "CBS News"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:05:00.000Z",
+        "publishedAt": "2026-10-05T11:47:36.000Z",
         "imageUrl": null,
         "countryCode": "US",
         "regionCode": null
       },
       "related": [
         {
-          "id": "jKJqQlX3lp6A",
-          "url": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
-          "canonicalUrl": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
-          "title": "Jim Bakker, who built ‘PTL Club’ televangelism empire, has died at 86",
-          "description": "Jim Bakker, who along with his first-wife Tammy Faye built an evangelical empire around the hugely successful “The PTL Club” TV show, only to lose it all over a sex scandal and financial crimes, has died",
+          "id": "b_xo9Khdt9F-",
+          "url": "https://abcnews.com/US/wireStory/fbi-arrests-california-woman-accused-spying-taiwan-leaders-136995467",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/fbi-arrests-california-woman-accused-spying-taiwan-leaders-136995467",
+          "title": "FBI arrests California woman accused of spying on Taiwan leader's family for China",
+          "description": "The FBI has arrested a California real estate agent at Los Angeles International Airport as she was leaving the country and accused her of spying on the Taiwan president’s family for China",
           "source": {
             "id": "abc",
             "name": "ABC News"
           },
           "sourceCountry": "US",
           "language": "en",
-          "publishedAt": "2026-10-06T06:20:39.000Z",
-          "imageUrl": "https://s.abcnews.com/images/US/wirestory_ef6d58ffa0b511edba773c219cee77e8_16x9_1600.jpg",
+          "publishedAt": "2026-10-06T02:21:45.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_42e55337e768722b67874b9dc29f127c_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        },
+        {
+          "id": "jhKt-Lzpmadg",
+          "url": "https://www.cbsnews.com/news/chinese-agent-arrested-lax-taiwan-president-son/",
+          "canonicalUrl": "https://www.cbsnews.com/news/chinese-agent-arrested-lax-taiwan-president-son/",
+          "title": "FBI arrests woman at LAX accused of being Chinese agent",
+          "description": "Wanying \"Heather\" Zhang, an Irvine, California, realtor, was arrested on a charge of acting as an unregistered agent of a foreign government.",
+          "source": {
+            "id": "cbs",
+            "name": "CBS News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T01:35:27.000Z",
+          "imageUrl": null,
           "countryCode": "US",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:20:39.000Z"
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T02:21:45.000Z"
     },
     {
       "id": "WKhqKlefgEN9",
@@ -593,48 +652,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T01:16:28.000Z"
-    },
-    {
-      "id": "edfDpG-qKOcf",
-      "representative": {
-        "id": "edfDpG-qKOcf",
-        "url": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
-        "canonicalUrl": "https://www.pbs.org/newshour/show/news-wrap-cornell-students-protest-handling-of-alleged-rape",
-        "title": "News Wrap: Cornell students protest handling of alleged rape",
-        "description": "In our news wrap Monday, students at Cornell are staging protests over the university's handling of an alleged fraternity house gang rape in 2024, President Trump said a threat linked to Iran was the reason the U.S. withdrew its bombers from the Fairford airbase in the UK and Dennis Hastert, the…",
-        "source": {
-          "id": "pbs",
-          "name": "PBS News"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-05T22:45:10.000Z",
-        "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/newswrapcornell-1024x688.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "H6lwnf1nHPbJ",
-          "url": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
-          "canonicalUrl": "https://www.cbsnews.com/video/cornell-students-vandalize-campus-wall-university-handling-alleged-rape-case/",
-          "title": "Cornell students vandalize on-campus wall over university's handling of alleged rape case",
-          "description": "There is growing backlash against Cornell University as more information comes out about the Ivy League school's original response to an alleged gang rape two years ago inside a frat house on campus. Lilia Luciano reports.",
-          "source": {
-            "id": "cbs",
-            "name": "CBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-05T23:49:05.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T23:49:05.000Z"
     },
     {
       "id": "KQrrUBQDIU5E",

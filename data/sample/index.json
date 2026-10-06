@@ -1,59 +1,77 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T09:59:35.791Z",
+  "updatedAt": "2026-10-06T12:44:26.411Z",
   "countries": [
     {
       "code": "FR",
       "name": "France",
-      "updatedAt": "2026-10-06T09:59:35.791Z",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
       "clusterCount": 15
     },
     {
       "code": "US",
       "name": "United States",
-      "updatedAt": "2026-10-06T09:59:35.791Z",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
       "clusterCount": 15
     },
     {
       "code": "GB",
       "name": "United Kingdom",
-      "updatedAt": "2026-10-06T09:59:35.791Z",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
       "clusterCount": 15
     },
     {
       "code": "DE",
       "name": "Germany",
-      "updatedAt": "2026-10-06T09:59:35.791Z",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
       "clusterCount": 15
     },
     {
       "code": "ES",
       "name": "Spain",
-      "updatedAt": "2026-10-06T09:59:35.791Z",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
       "clusterCount": 15
     },
     {
       "code": "IT",
       "name": "Italy",
-      "updatedAt": "2026-10-06T09:59:35.791Z",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
       "clusterCount": 15
     },
     {
       "code": "CA",
       "name": "Canada",
-      "updatedAt": "2026-10-06T09:59:35.791Z",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
       "clusterCount": 15
     },
     {
       "code": "BR",
       "name": "Brazil",
-      "updatedAt": "2026-10-06T09:59:35.791Z",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
       "clusterCount": 15
     },
     {
       "code": "TR",
       "name": "Turkey",
-      "updatedAt": "2026-10-06T09:59:35.791Z",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "updatedAt": "2026-10-06T12:44:26.411Z",
       "clusterCount": 15
     }
   ]

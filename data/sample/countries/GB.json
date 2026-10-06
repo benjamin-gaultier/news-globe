@@ -2,83 +2,83 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T09:59:35.791Z",
+  "updatedAt": "2026-10-06T12:44:26.411Z",
   "clusters": [
     {
-      "id": "lvuSNuPg4Ipy",
+      "id": "ThA_onaMV0Kf",
       "representative": {
-        "id": "lvuSNuPg4Ipy",
-        "url": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo",
-        "title": "Author and former politician Jeffrey Archer dies aged 86",
-        "description": "Archer sold more than 300 million books in his five-decade writing career, and his last book, Adam and Eve, was due to be released later this month.",
+        "id": "ThA_onaMV0Kf",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
+        "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
+        "title": "British man arrested over suspected RAF Fairford terrorism plot",
+        "description": "Counter Terrorism Policing says 22-year-old arrested in London on suspicion of terrorism offences A 22-year-old British man has been arrested in London on suspicion of terrorism offences related to the suspected RAF Fairford terrorism plot, Counter Terrorism Policing said. More details soon ……",
         "source": {
-          "id": "bbc",
-          "name": "BBC News"
+          "id": "guardian",
+          "name": "The Guardian"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T09:17:05.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b61/live/11641640-c15c-11f1-babe-4199b0e7ccea.jpg",
+        "publishedAt": "2026-10-06T12:26:53.000Z",
+        "imageUrl": "https://i.guim.co.uk/img/media/6ca240b08d8926f9887a3558ca6dfd664706da50/1272_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=66b635569abd0aa816f61766885d1a33",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [
         {
-          "id": "IsKKEPKA8Xqe",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
-          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
-          "title": "Jeffrey Archer, former Conservative politician and novelist, dies aged 86",
-          "description": "Publisher says author died peacefully at home ‘between writing sessions’ Jeffrey Archer, the bestselling author and former MP whose political career ended in disgrace when he was imprisoned for perjury, has died at the age of 86. Archer, who was a Conservative MP for five years before serving as…",
-          "source": {
-            "id": "guardian",
-            "name": "The Guardian"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T22:31:47.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/bc73da7e3d57ad9ebd762af793298118083bc159/944_270_3786_3031/master/3786.jpg?width=700&quality=85&auto=format&fit=max&s=6d886213c7a7236a65d4fbf0764347cd",
-          "countryCode": "GB",
-          "regionCode": null
-        },
-        {
-          "id": "lhWZtFuXB-mI",
-          "url": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
-          "title": "Jeffrey Archer, novelist and former Conservative MP, dies aged 86",
-          "description": "Archer died peacefully at his home, his publisher said in a statement",
+          "id": "iC09h76B8OiX",
+          "url": "https://www.independent.co.uk/news/uk/crime/raf-fairford-arrest-terror-offences-london-b3062122.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/raf-fairford-arrest-terror-offences-london-b3062122.html",
+          "title": "British man arrested over terror offences in connection to RAF Fairford incident",
+          "description": "Searches of a property have also been carried out in Westminster",
           "source": {
             "id": "independent",
             "name": "The Independent"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-05T21:33:08.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/05/21/c6d1176584779cce96089f8f067d0e32Y29udGVudHNlYXJjaGFwaSwxNzkxMzE4Mjgw-2.66559363.jpg?width=1200&auto=webp&crop=3%3A2",
+          "publishedAt": "2026-10-06T12:32:39.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/05/14/2026-10-04T211151Z_853467629_RC28SNA4H0MR_RTRMADP_3_BRITAIN-USA-FAIRFORD.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
           "countryCode": "GB",
           "regionCode": null
         },
         {
-          "id": "PngCC-95JCSC",
-          "url": "https://inews.co.uk/news/tributes-paid-after-former-mp-and-author-jeffrey-archer-dies-at-86-4811483",
-          "canonicalUrl": "https://inews.co.uk/news/tributes-paid-after-former-mp-and-author-jeffrey-archer-dies-at-86-4811483",
-          "title": "Tributes paid after former MP and author Jeffrey Archer dies at 86",
-          "description": "Lord Archer, who was sentenced to four years imprisonment in 2001, had been due to speak at the Cheltenham Literary Festival this weekend",
+          "id": "LJrGodO6Y1ZL",
+          "url": "https://www.mirror.co.uk/news/uk-news/raf-fairford-terror-plot-arrest-37734392",
+          "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/raf-fairford-terror-plot-arrest-37734392",
+          "title": "British man, 22, arrested on suspicion of terror offences linked to RAF Fairford plot",
+          "description": "A 22-year-old British man has been arrested on suspicion of terror offences in relation to a suspected terror plot at RAF Fairford in Gloucestershire last month",
           "source": {
-            "id": "inews",
-            "name": "The i Paper"
+            "id": "mirror",
+            "name": "Daily Mirror"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-05T20:57:09.000Z",
-          "imageUrl": "https://inews.co.uk/wp-content/uploads/2026/10/SEI_315447612.jpg",
+          "publishedAt": "2026-10-06T12:32:20.000Z",
+          "imageUrl": "https://i2-prod.dailystar.co.uk/incoming/article37738902.ece/ALTERNATES/s615/0_US-Bombers-Depart-RAF-Fairford-For-Home.jpg",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
+          "id": "S88RoOrMjHaZ",
+          "url": "https://www.standard.co.uk/news/uk/westminster-british-london-gloucestershire-raf-b1299731.html",
+          "canonicalUrl": "https://www.standard.co.uk/news/uk/westminster-british-london-gloucestershire-raf-b1299731.html",
+          "title": "Seventh man arrested by counter-terrorism police in RAF Fairford investigation",
+          "description": "Officers said they are continuing to look at multiple lines of inquiry as they investigate the suspected terror plot.",
+          "source": {
+            "id": "standard",
+            "name": "Evening Standard"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:25:30.000Z",
+          "imageUrl": "https://static.standard.co.uk/2026/10/06/13/e521965cdc9b648eed989efb023836a9Y29udGVudHNlYXJjaGFwaSwxNzkxMzc1ODEw-2.86002415.jpg?width=1200&auto=webp&crop=3%3A2",
           "countryCode": "GB",
           "regionCode": null
         }
       ],
       "outletCount24h": 4,
       "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T09:17:05.000Z"
+      "latestPublishedAt": "2026-10-06T12:32:39.000Z"
     },
     {
       "id": "rGUNBDm5Qeyw",
@@ -157,63 +157,63 @@
       "latestPublishedAt": "2026-10-06T08:15:24.000Z"
     },
     {
-      "id": "P6JKvB-nj4rE",
+      "id": "lvuSNuPg4Ipy",
       "representative": {
-        "id": "P6JKvB-nj4rE",
-        "url": "https://www.bbc.co.uk/news/articles/cxvgdl5npl86o?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cxvgdl5npl86o",
-        "title": "Tories pledge £10bn British 'Iron Dome' air defence system",
-        "description": "The Conservatives say their plan would protect the UK at a time when Nato allies have warned of Russian drone incursions.",
+        "id": "lvuSNuPg4Ipy",
+        "url": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo",
+        "title": "Author and former politician Jeffrey Archer dies aged 86",
+        "description": "Archer sold more than 300 million books in his five-decade writing career, and his last book, Adam and Eve, was due to be released later this month.",
         "source": {
           "id": "bbc",
           "name": "BBC News"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T09:50:54.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cc5/live/105c8760-c106-11f1-9ff2-3b6c88884537.jpg",
+        "publishedAt": "2026-10-06T09:17:05.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b61/live/11641640-c15c-11f1-babe-4199b0e7ccea.jpg",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [
         {
-          "id": "DDdUMjSyDSfl",
-          "url": "https://www.independent.co.uk/news/uk/home-news/badenoch-iron-dome-enemy-missiles-tory-conference-b3061949.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/badenoch-iron-dome-enemy-missiles-tory-conference-b3061949.html",
-          "title": "Tories plan £10bn ‘British Iron Dome’ to protect UK – how would it work?",
-          "description": "The Tories pledged to build Britain its own £10bn ‘Iron Dome’ missile interception system – but now even the party leader is backtracking",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T09:19:45.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/06/08/2298836227..?width=1200&auto=webp&trim=0%2C0%2C1%2C0",
-          "countryCode": "GB",
-          "regionCode": null
-        },
-        {
-          "id": "FI4MmBiCjF2G",
-          "url": "https://www.theguardian.com/politics/2026/oct/06/badenoch-british-iron-dome-plan-tory-press-release",
-          "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/06/badenoch-british-iron-dome-plan-tory-press-release",
-          "title": "Badenoch denies ‘British Iron Dome’ plan – after Tories use phrase in press release",
-          "description": "Tory leader says proposed ‘Britannia Shield’ would not be comparable to Israeli missile defence system UK politics live – latest updates Kemi Badenoch has denied she compared a new air defence system proposed by the party to Israel’s Iron Dome, despite using the term in her press release and a…",
+          "id": "IsKKEPKA8Xqe",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
+          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
+          "title": "Jeffrey Archer, former Conservative politician and novelist, dies aged 86",
+          "description": "Publisher says author died peacefully at home ‘between writing sessions’ Jeffrey Archer, the bestselling author and former MP whose political career ended in disgrace when he was imprisoned for perjury, has died at the age of 86. Archer, who was a Conservative MP for five years before serving as…",
           "source": {
             "id": "guardian",
             "name": "The Guardian"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-06T08:27:41.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/e22a3307566c7be4de91bf4e4793404ab40e7f76/1374_188_5460_4368/master/5460.jpg?width=700&quality=85&auto=format&fit=max&s=7def38338970f27e2c47b05d8ab790c3",
+          "publishedAt": "2026-10-05T22:31:47.000Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/bc73da7e3d57ad9ebd762af793298118083bc159/944_270_3786_3031/master/3786.jpg?width=700&quality=85&auto=format&fit=max&s=6d886213c7a7236a65d4fbf0764347cd",
+          "countryCode": "GB",
+          "regionCode": null
+        },
+        {
+          "id": "lhWZtFuXB-mI",
+          "url": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
+          "title": "Jeffrey Archer, novelist and former Conservative MP, dies aged 86",
+          "description": "Archer died peacefully at his home, his publisher said in a statement",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-05T21:33:08.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/05/21/c6d1176584779cce96089f8f067d0e32Y29udGVudHNlYXJjaGFwaSwxNzkxMzE4Mjgw-2.66559363.jpg?width=1200&auto=webp&crop=3%3A2",
           "countryCode": "GB",
           "regionCode": null
         }
       ],
       "outletCount24h": 3,
       "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T09:50:54.000Z"
+      "latestPublishedAt": "2026-10-06T09:17:05.000Z"
     },
     {
       "id": "ul8mZBC34-rY",
@@ -334,130 +334,256 @@
       "latestPublishedAt": "2026-10-05T19:10:43.000Z"
     },
     {
-      "id": "qpSwVbf5_2Jk",
+      "id": "UN8LhbvlF3o6",
       "representative": {
-        "id": "qpSwVbf5_2Jk",
-        "url": "https://www.theguardian.com/politics/live/2026/oct/06/kemi-badenoch-conservatives-labour-reform-greens-uk-politics-latest-news",
-        "canonicalUrl": "https://www.theguardian.com/politics/live/2026/oct/06/kemi-badenoch-conservatives-labour-reform-greens-uk-politics-latest-news",
-        "title": "Badenoch disowns Tory claims that air defence plan amounts to ‘British Iron Dome’ - UK politics live",
-        "description": "Tory leader says ‘Britannia Shield’ will not be a similar scheme to that protecting Israel after repeated questions from broadcasters Asked if she will propose tax cuts in her speech tomorrow, Badenoch tells McCann that she will have to wait until her speech tomorrow at 11.15am. (This is getting…",
+        "id": "UN8LhbvlF3o6",
+        "url": "https://www.standard.co.uk/news/uk/asos-hacked-alert-customers-app-snowflake-compromised-b1299696.html",
+        "canonicalUrl": "https://www.standard.co.uk/news/uk/asos-hacked-alert-customers-app-snowflake-compromised-b1299696.html",
+        "title": "ASOS Hacked Notification: Customers sent alarming 'Snowflake' app alert - latest updates",
+        "description": "Worrying notification sent to ASOS customers that appears to be from hackers",
         "source": {
-          "id": "guardian",
-          "name": "The Guardian"
+          "id": "standard",
+          "name": "Evening Standard"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T09:49:19.000Z",
-        "imageUrl": "https://i.guim.co.uk/img/media/cb4c23843ac6ba9050d75f187e5acc83f207b833/1065_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=27c670d9d2a5f5e4e16260ac15a26fac",
+        "publishedAt": "2026-10-06T12:19:12.000Z",
+        "imageUrl": "https://static.standard.co.uk/2026/10/06/9/17/Asos-hack.png?width=1200&auto=webp&crop=3%3A2",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [
         {
-          "id": "saD_7BPQjK9Z",
-          "url": "https://www.independent.co.uk/news/uk/politics/badenoch-iron-dome-missiles-israel-tory-conference-b3062026.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/badenoch-iron-dome-missiles-israel-tory-conference-b3062026.html",
-          "title": "Kemi Badenoch disowns own party’s claim of building British ‘Iron Dome’",
-          "description": "Conservative leader insists ‘we are not building the Iron Dome’ – despite the Tories’ own press release comparing it to Israel’s system",
+          "id": "PoLPq_H7cTOw",
+          "url": "https://www.mirror.co.uk/news/uk-news/asos-hacked-notification-snowflake-app-37739601",
+          "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/asos-hacked-notification-snowflake-app-37739601",
+          "title": "ASOS 'hacked' live updates: Customers sent bizarre 'snowflake' notification",
+          "description": "Several ASOS customers have received a sinister push notification to their phones indicating that the online fashion retailer has been hacked",
           "source": {
-            "id": "independent",
-            "name": "The Independent"
+            "id": "mirror",
+            "name": "Daily Mirror"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-06T09:55:08.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/06/09/2298844259..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "publishedAt": "2026-10-06T12:37:26.000Z",
+          "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37232384.ece/ALTERNATES/s615/1_GettyImages-2237921959.jpg",
           "countryCode": "GB",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:55:08.000Z"
+      "latestPublishedAt": "2026-10-06T12:37:26.000Z"
     },
     {
-      "id": "VdMl90-Dwh-3",
+      "id": "Ey-5a_capDjh",
       "representative": {
-        "id": "VdMl90-Dwh-3",
-        "url": "https://www.theguardian.com/politics/2026/oct/05/tory-shadow-minister-luton-no-go-zones-white-people-blake-stephenson",
-        "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/05/tory-shadow-minister-luton-no-go-zones-white-people-blake-stephenson",
-        "title": "Tory shadow minister claims Luton has ‘no-go zones’ where ‘white people won’t go’",
-        "description": "Blake Stephenson tells fringe meeting at Tory conference that the town is ‘a very dangerous place’ with ‘ghettoes’ A shadow Conservative Home Office minister has claimed there are “no-go zones” in Luton where “white people won’t go”. Blake Stephenson, the MP for Mid Bedfordshire who was appointed…",
+        "id": "Ey-5a_capDjh",
+        "url": "https://www.bbc.co.uk/news/articles/cx4g1z2ydqp4o?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cx4g1z2ydqp4o",
+        "title": "Woman found dead in home named as GP",
+        "description": "Dr Hannah Terry was working as a GP at a nearby practice, which has been closed since the weekend.",
         "source": {
-          "id": "guardian",
-          "name": "The Guardian"
+          "id": "bbc",
+          "name": "BBC News"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-05T18:06:21.000Z",
-        "imageUrl": "https://i.guim.co.uk/img/media/2642155e1d7b8699e966accc02bbb6a6b550b1b8/316_408_3962_3168/master/3962.jpg?width=700&quality=85&auto=format&fit=max&s=065cd2383674a85405c64d75153b2a89",
+        "publishedAt": "2026-10-06T12:36:13.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/645b/live/9d3522d0-c16c-11f1-a64c-550be9e3c66b.jpg",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [
         {
-          "id": "_0Vud1Pic3tT",
-          "url": "https://www.independent.co.uk/news/uk/politics/luton-no-go-zones-tories-blake-stephenson-tommy-robinson-b3061981.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/luton-no-go-zones-tories-blake-stephenson-tommy-robinson-b3061981.html",
-          "title": "Tory shadow minister criticised for claiming Luton has ‘no go zones’ where ‘white people won’t go’",
-          "description": "Shadow home office minister Blake Stephenson has been accused of peddling ‘the same rightwing nonsense’ as far-right activist Tommy Robinson",
+          "id": "rJ_LhxhADx3O",
+          "url": "https://www.independent.co.uk/news/uk/crime/hannah-terry-murder-death-sandringham-norfolk-b3062027.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/hannah-terry-murder-death-sandringham-norfolk-b3062027.html",
+          "title": "GP found dead in home near Sandringham Estate named locally as murder investigation continues",
+          "description": "A man in his 40s was arrested on suspicion of murder and taken to King’s Lynn Police Investigation Centre for questioning",
           "source": {
             "id": "independent",
             "name": "The Independent"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-06T09:51:02.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/06/9/41/Blake-Stephenson.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "publishedAt": "2026-10-06T09:39:28.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/06/9/18/geograph-4275584-by-Mat-Fascione.jpeg?width=1200&auto=webp&trim=2%2C0%2C2%2C0",
           "countryCode": "GB",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:51:02.000Z"
+      "latestPublishedAt": "2026-10-06T12:36:13.000Z"
     },
     {
-      "id": "6ryb-NYcU2Br",
+      "id": "GLOchBhb8fwM",
       "representative": {
-        "id": "6ryb-NYcU2Br",
-        "url": "https://www.theguardian.com/music/2026/oct/06/george-fenton-oscar-nominated-british-composer-dies-aged-76-gandhi-groundhog-day-ken-loach",
-        "canonicalUrl": "https://www.theguardian.com/music/2026/oct/06/george-fenton-oscar-nominated-british-composer-dies-aged-76-gandhi-groundhog-day-ken-loach",
-        "title": "George Fenton, Oscar-nominated British composer for more than 100 films, dies aged 76",
-        "description": "Fenton’s successes include scores for Gandhi, Groundhog Day and 18 Ken Loach films, plus BBC TV news themes, Blue Planet and more George Fenton, the British composer who earned five Oscar nominations for scores to films such as Gandhi and Dangerous Liaisons, has died aged 76. A statement from his…",
+        "id": "GLOchBhb8fwM",
+        "url": "https://www.independent.co.uk/news/uk/home-news/elmley-castle-missing-girl-dead-police-update-pershore-b3062106.html",
+        "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/elmley-castle-missing-girl-dead-police-update-pershore-b3062106.html",
+        "title": "Police give update on ‘unexplained’ death of missing girl, 11, at Worcestershire park",
+        "description": "The girl was reported missing on Sunday night and her body was later discovered in the park",
         "source": {
-          "id": "guardian",
-          "name": "The Guardian"
+          "id": "independent",
+          "name": "The Independent"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T09:24:56.000Z",
-        "imageUrl": "https://i.guim.co.uk/img/media/767b2ba56685ec09f4bbef89ab8ef7a0d6cb98cd/56_0_1388_1110/master/1388.jpg?width=700&quality=85&auto=format&fit=max&s=5718906b5509d36783fb62562b8087fb",
+        "publishedAt": "2026-10-06T12:16:48.000Z",
+        "imageUrl": "https://static.independent.co.uk/2026/10/06/13/01M45TD0ERM6GD5D0908WTN3D1.jpg?width=1200&auto=webp&trim=168%2C0%2C168%2C0",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [
         {
-          "id": "LZM8SDbz1qRO",
-          "url": "https://www.standard.co.uk/news/uk/george-fenton-david-attenborough-jane-alan-bennett-ken-loach-b1299636.html",
-          "canonicalUrl": "https://www.standard.co.uk/news/uk/george-fenton-david-attenborough-jane-alan-bennett-ken-loach-b1299636.html",
-          "title": "Composer George Fenton dies aged 76",
-          "description": "Fenton died unexpectedly on Monday, CMG management said.",
+          "id": "gEB54VNfLZaO",
+          "url": "https://www.standard.co.uk/news/uk/west-mercia-police-police-worcestershire-flowers-press-association-b1299584.html",
+          "canonicalUrl": "https://www.standard.co.uk/news/uk/west-mercia-police-police-worcestershire-flowers-press-association-b1299584.html",
+          "title": "Death of girl, 11, ‘unexplained’ after body found in park",
+          "description": "The girl was reported missing at around 11.20pm on Sunday.",
           "source": {
             "id": "standard",
             "name": "Evening Standard"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-05T22:01:01.000Z",
-          "imageUrl": "https://static.standard.co.uk/2026/10/05/20/6e2a5c1e588682e1b3f35fd8e95a0da4Y29udGVudHNlYXJjaGFwaSwxNzkxMzE0NDE4-2.81975361.jpg?width=1200&auto=webp&crop=3%3A2",
+          "publishedAt": "2026-10-05T13:15:11.000Z",
+          "imageUrl": "https://static.standard.co.uk/2026/10/05/14/1c29a7aa5217570b880ba26865f828b8Y29udGVudHNlYXJjaGFwaSwxNzkxMjkyMDY1-2.86081667.jpg?width=1200&auto=webp&crop=3%3A2",
           "countryCode": "GB",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:24:56.000Z"
+      "latestPublishedAt": "2026-10-06T12:16:48.000Z"
+    },
+    {
+      "id": "3DN_j3ZKmyAr",
+      "representative": {
+        "id": "3DN_j3ZKmyAr",
+        "url": "https://www.theguardian.com/film/2026/oct/06/the-shining-axe-jack-nicholson-stanley-kubrick-archive-auction",
+        "canonicalUrl": "https://www.theguardian.com/film/2026/oct/06/the-shining-axe-jack-nicholson-stanley-kubrick-archive-auction",
+        "title": "Axe used by Jack Nicholson in The Shining for sale as part of Stanley Kubrick auction",
+        "description": "Exclusive: Weapon is one of hundreds of items to be sold as part of the influential late director’s personal archive A special effects axe wielded by Jack Nicholson as he delivered his chillingly manic line “Here’s Johnny!” in the 1980 horror movie The Shining is to go on sale. Nicholson’s…",
+        "source": {
+          "id": "guardian",
+          "name": "The Guardian"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:00:08.000Z",
+        "imageUrl": "https://i.guim.co.uk/img/media/99acc5a59675afd38da50ec461f95df8c468fcfc/930_0_4281_3428/master/4281.jpg?width=700&quality=85&auto=format&fit=max&s=70d927a5d6f72fc6e6d5990011750f22",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "X40498H1BQJX",
+          "url": "https://www.standard.co.uk/news/uk/jack-nicholson-stanley-kubrick-bonhams-press-association-london-b1299725.html",
+          "canonicalUrl": "https://www.standard.co.uk/news/uk/jack-nicholson-stanley-kubrick-bonhams-press-association-london-b1299725.html",
+          "title": "Axe used by Jack Nicholson in The Shining to go on sale",
+          "description": "Several items from director Stanley Kubrick’s personal archive will go on sale for the first time.",
+          "source": {
+            "id": "standard",
+            "name": "Evening Standard"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:46:06.000Z",
+          "imageUrl": "https://static.standard.co.uk/2026/10/06/12/4dcca8a42ce9176fae82a279ef1c3360Y29udGVudHNlYXJjaGFwaSwxNzkxMzcyNTY4-2.1575650.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:46:06.000Z"
+    },
+    {
+      "id": "PiPddrBYqohL",
+      "representative": {
+        "id": "PiPddrBYqohL",
+        "url": "https://www.bbc.co.uk/news/articles/cme8r9267dpko?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cme8r9267dpko",
+        "title": "Boats 'set for people smugglers' seized at airport",
+        "description": "The National Crime Agency says it is the first time the detection of small boat equipment has been made in air freight.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:30:52.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d16/live/08ed57f0-c176-11f1-a64c-550be9e3c66b.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "lrLMmy99D--U",
+          "url": "https://www.independent.co.uk/news/uk/home-news/small-boats-turkey-netherlands-east-midlands-airport-b3062076.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/small-boats-turkey-netherlands-east-midlands-airport-b3062076.html",
+          "title": "Small boats ‘set for people smugglers’ seized at UK airport",
+          "description": "The dinghies could have transported as many as 1,700 migrants, averaging roughly 68 passengers per boat",
+          "source": {
+            "id": "independent",
+            "name": "The Independent"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T10:50:40.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/06/11/01M48B51FP8F63Z042MHK4DZZ5.jpg?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:30:52.000Z"
+    },
+    {
+      "id": "wxLBx2dslKaY",
+      "representative": {
+        "id": "wxLBx2dslKaY",
+        "url": "https://www.bbc.co.uk/news/articles/cwn73mzly7v4o?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cwn73mzly7v4o",
+        "title": "Adjoa Andoh, Rosie O'Donnell and Julie Hesmondhalgh to appear in play about Gisele Pelicot case",
+        "description": "The four-hour one-off performance will also star Adjoa Andoh and Juliet Stevenson and",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:29:55.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b42d/live/eb5f0250-c176-11f1-a64c-550be9e3c66b.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "KnbrwfSpjHae",
+          "url": "https://www.standard.co.uk/news/uk/julie-hesmondhalgh-adjoa-andoh-gisele-pelicot-olivia-williams-rosie-o-donnell-b1299694.html",
+          "canonicalUrl": "https://www.standard.co.uk/news/uk/julie-hesmondhalgh-adjoa-andoh-gisele-pelicot-olivia-williams-rosie-o-donnell-b1299694.html",
+          "title": "Rosie O’Donnell and Adjoa Andoh lead cast of The Pelicot Trial",
+          "description": "The play, created by Swiss director and playwright Milo Rau, will feature accounts from the Gisele Pelicot case.",
+          "source": {
+            "id": "standard",
+            "name": "Evening Standard"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:00:00.000Z",
+          "imageUrl": "https://static.standard.co.uk/2026/10/06/10/c45ddc438dd5b086a8afa812f1524484Y29udGVudHNlYXJjaGFwaSwxNzkxMzU5MTI2-2.80867341.jpg?width=1200&auto=webp&crop=3%3A2",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:29:55.000Z"
     },
     {
       "id": "5dRx021srmUn",
@@ -480,278 +606,152 @@
       },
       "related": [
         {
-          "id": "mdYfG3A_cFaS",
-          "url": "https://www.mirror.co.uk/news/uk-news/nottingham-city-centre-fire-live-37738229",
-          "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/nottingham-city-centre-fire-live-37738229",
-          "title": "Nottingham fire live updates: 'Avoid the area at all costs' warning issued after huge city centre blaze",
-          "description": "A huge blaze ripped through a building in Nottingham's city centre, with residents evacuated and the public warned 'avoid the area at all costs'",
+          "id": "FVVuyJ8HD754",
+          "url": "https://www.mirror.co.uk/news/uk-news/nottingham-fire-arrests-boys-arson-37740277",
+          "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/nottingham-fire-arrests-boys-arson-37740277",
+          "title": "Boys aged 12 and 14 arrested over Nottingham city centre fire which shut down city roads",
+          "description": "Two children aged 12 and 14 have been arrested on suspicion of arson after a 'large-scale blaze' in Nottingham city centre as an investigation is now underway",
           "source": {
             "id": "mirror",
             "name": "Daily Mirror"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-06T08:56:53.000Z",
-          "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37738226.ece/ALTERNATES/s615/0_IMG-20261005-WA0018.jpg",
+          "publishedAt": "2026-10-06T11:26:14.000Z",
+          "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37740405.ece/ALTERNATES/s615/0_JAJ_TEM_061026Fire_008JPG.jpg",
           "countryCode": "GB",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:56:53.000Z"
+      "latestPublishedAt": "2026-10-06T11:26:14.000Z"
     },
     {
-      "id": "DG9j1vmozvjD",
+      "id": "pz-Za94MBRfO",
       "representative": {
-        "id": "DG9j1vmozvjD",
-        "url": "https://www.independent.co.uk/news/uk/crime/andrew-tristan-tate-women-pornography-romania-court-documents-b3061814.html",
-        "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/andrew-tristan-tate-women-pornography-romania-court-documents-b3061814.html",
-        "title": "Tate brothers lured women with ‘lover boy’ tactic before coercing them into porn, court documents allege",
-        "description": "Andrew and Tristan Tate have not appeared in ‌a British court to formally answer to the charges they face, which include rape and human trafficking, but they have denied wrongdoing",
-        "source": {
-          "id": "independent",
-          "name": "The Independent"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T23:46:42.000Z",
-        "imageUrl": "https://static.independent.co.uk/2026/10/05/22/2026-10-05T202035Z_2115922525_RC20IDA9HOZ2_RTRMADP_3_USA-TATE-BRITAIN.JPG?width=1200&auto=webp&trim=911%2C926%2C82%2C564",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "sSCTeZjSWNxR",
-          "url": "https://news.sky.com/story/tate-brothers-exploited-women-using-lover-boy-model-uk-alleges-13595592",
-          "canonicalUrl": "https://news.sky.com/story/tate-brothers-exploited-women-using-lover-boy-model-uk-alleges-13595592",
-          "title": "Tate brothers exploited women using 'lover boy' model, UK alleges",
-          "description": "Andrew and Tristan Tate used a \"lover boy\" model to attract and then exploit women, according to British authorities in court documents made public in the US.",
-          "source": {
-            "id": "sky",
-            "name": "Sky News"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T01:02:00.000Z",
-          "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-tristan-tate-andrew-tate_7333351.jpg?20260828084335",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T01:02:00.000Z"
-    },
-    {
-      "id": "w6gL1cT4O2Q5",
-      "representative": {
-        "id": "w6gL1cT4O2Q5",
-        "url": "https://www.bbc.co.uk/news/articles/cq0ldwr166ggo?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cq0ldwr166ggo",
-        "title": "It's been a terrible year for farming, Jeremy Clarkson tells Tory conference",
-        "description": "The former Top Gear presenter and star of Clarkson's Farm also said farmers were being \"attacked\" from every angle.",
+        "id": "pz-Za94MBRfO",
+        "url": "https://www.bbc.co.uk/news/articles/cwm2686gl6kno?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cwm2686gl6kno",
+        "title": "MPs call for investigation after Lutnick-Epstein whistleblower dies",
+        "description": "Simon Andriesz said he felt let down by the UK's Financial Conduct Authority before his death last month.",
         "source": {
           "id": "bbc",
           "name": "BBC News"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-05T17:46:59.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/959b/live/75fb8f20-c0da-11f1-bc2e-018d645d8d21.jpg",
+        "publishedAt": "2026-10-05T23:29:02.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8133/live/322b5c80-c16b-11f1-bc2e-018d645d8d21.jpg",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [
         {
-          "id": "D9OvfMGA8d7A",
-          "url": "https://www.independent.co.uk/news/uk/politics/jeremy-clarkson-tory-conference-birmingham-farming-b3061723.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/jeremy-clarkson-tory-conference-birmingham-farming-b3061723.html",
-          "title": "Jeremy Clarkson says farmers being attacked ‘from everywhere’ amid ‘terrible’ year",
-          "description": "The star of Clarkson’s Farm on Amazon Prime asked: ‘Why would anybody set up a business in this country right now?’",
+          "id": "YGUYjuX2CXYC",
+          "url": "https://www.mirror.co.uk/news/uk-news/mps-call-investigation-after-brit-37739718",
+          "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/mps-call-investigation-after-brit-37739718",
+          "title": "MPs call for investigation after Brit Epstein whistleblower dies",
+          "description": "British whistleblower Simon Andriesz, 57, who claimed to have discovered emails linking US commerce secretary Howard Lutnick and Jeffrey Epstein, was found dead last month",
           "source": {
-            "id": "independent",
-            "name": "The Independent"
+            "id": "mirror",
+            "name": "Daily Mirror"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-05T17:32:31.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/05/16/2298708047..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "publishedAt": "2026-10-06T11:18:38.000Z",
+          "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37740260.ece/ALTERNATES/s615/0_9IoQf9TJ_400x400.jpg",
           "countryCode": "GB",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T17:46:59.000Z"
+      "latestPublishedAt": "2026-10-06T11:18:38.000Z"
     },
     {
-      "id": "SHXh2nnxmYKM",
+      "id": "sSCTeZjSWNxR",
       "representative": {
-        "id": "SHXh2nnxmYKM",
-        "url": "https://www.bbc.co.uk/news/articles/c623dk217435o?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/c623dk217435o",
-        "title": "Katie Price's ex urged girl not to tell, court told",
-        "description": "Jurors at the trial of Kieran Hayler hear recorded police evidence from the alleged victim in court.",
+        "id": "sSCTeZjSWNxR",
+        "url": "https://news.sky.com/story/tate-brothers-exploited-women-using-lover-boy-model-uk-alleges-13595592",
+        "canonicalUrl": "https://news.sky.com/story/tate-brothers-exploited-women-using-lover-boy-model-uk-alleges-13595592",
+        "title": "Tate brothers exploited women using 'lover boy' model, UK alleges",
+        "description": "Andrew and Tristan Tate used a \"lover boy\" model to attract and then exploit women, according to British authorities in court documents made public in the US.",
         "source": {
-          "id": "bbc",
-          "name": "BBC News"
+          "id": "sky",
+          "name": "Sky News"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-05T17:32:18.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6488/live/bcefb870-c0d5-11f1-a5b0-6f550c662e91.jpg",
+        "publishedAt": "2026-10-06T01:02:00.000Z",
+        "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-tristan-tate-andrew-tate_7333351.jpg?20260828084335",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [
         {
-          "id": "rzH_r7cY2Ro4",
-          "url": "https://www.independent.co.uk/news/uk/crime/kieran-hayler-katie-price-trial-b3061689.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/kieran-hayler-katie-price-trial-b3061689.html",
-          "title": "Katie Price's ex-husband told teen rape victim to 'not tell anyone', court hears",
-          "description": "Kieran Hayler alleges that the accusations are part of a campaign his ex-wife has launched against him",
+          "id": "DG9j1vmozvjD",
+          "url": "https://www.independent.co.uk/news/uk/crime/andrew-tristan-tate-women-pornography-romania-court-documents-b3061814.html",
+          "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/andrew-tristan-tate-women-pornography-romania-court-documents-b3061814.html",
+          "title": "Tate brothers lured women with ‘lover boy’ tactic before coercing them into porn, court documents allege",
+          "description": "Andrew and Tristan Tate have not appeared in ‌a British court to formally answer to the charges they face, but have denied wrongdoing",
           "source": {
             "id": "independent",
             "name": "The Independent"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-05T16:51:38.000Z",
-          "imageUrl": "https://static.independent.co.uk/2025/12/17/12/17/SEI278279230.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "publishedAt": "2026-10-06T10:43:00.000Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/05/22/2026-10-05T202035Z_2115922525_RC20IDA9HOZ2_RTRMADP_3_USA-TATE-BRITAIN.JPG?width=1200&auto=webp&trim=911%2C926%2C82%2C564",
           "countryCode": "GB",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T17:32:18.000Z"
+      "latestPublishedAt": "2026-10-06T10:43:00.000Z"
     },
     {
-      "id": "_YeBxFJ2xGcS",
+      "id": "h1x0LUcQUbgN",
       "representative": {
-        "id": "_YeBxFJ2xGcS",
-        "url": "https://www.bbc.co.uk/news/articles/cj62yg157prxo?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cj62yg157prxo",
-        "title": "Artist 'taking legal advice' over Tories' use of Andy Burnham portrait",
-        "description": "Manchester illustrator Stan Chow says he was not asked permission for use of his cartoon.",
+        "id": "h1x0LUcQUbgN",
+        "url": "https://www.bbc.co.uk/news/articles/cq8jzyey8e2ro?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cq8jzyey8e2ro",
+        "title": "Ofcom investigates Meta over Instagram Instants feature",
+        "description": "The regulator said Instagram had not fully assessed risks posed by its Instants feature prior to launching it.",
         "source": {
           "id": "bbc",
           "name": "BBC News"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-05T14:53:32.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41d4/live/e6b0b330-c0cb-11f1-a5b0-6f550c662e91.jpg",
+        "publishedAt": "2026-10-06T09:04:02.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1cb/live/8dbea280-c163-11f1-ae7b-cfc528a6c828.jpg",
         "countryCode": "GB",
         "regionCode": null
       },
       "related": [
         {
-          "id": "2IYjuUBVJYMk",
-          "url": "https://www.theguardian.com/politics/2026/oct/05/artist-cartoon-conservatives-use-his-burnham-portrait",
-          "canonicalUrl": "https://www.theguardian.com/politics/2026/oct/05/artist-cartoon-conservatives-use-his-burnham-portrait",
-          "title": "Artist calls in lawyers after Tories use his Burnham portrait without consent",
-          "description": "Stanley Chow’s cartoon was put on water bottles at party conference with the slogan ‘Bottler Burnham’ An artist is considering legal action after the Conservative party used his cartoon to mock Andy Burnham. Stanley Chow, a Manchester-based illustrator who works for the New Yorker magazine…",
+          "id": "On-fTRgf7seu",
+          "url": "https://www.theguardian.com/technology/2026/oct/06/ofcom-investigates-meta-instagram-instants-safety-checks",
+          "canonicalUrl": "https://www.theguardian.com/technology/2026/oct/06/ofcom-investigates-meta-instagram-instants-safety-checks",
+          "title": "Ofcom investigates Meta over Instagram Instants safety checks",
+          "description": "Watchdog examining whether company carried out adequate risk assessment as required by Online Safety Act Mark Zuckerberg’s Meta is under investigation for a potential breach of the UK’s digital safety laws after launching a Snapchat-style feature on Instagram. The UK’s communications watchdog…",
           "source": {
             "id": "guardian",
             "name": "The Guardian"
           },
           "sourceCountry": "GB",
           "language": "en",
-          "publishedAt": "2026-10-05T13:56:16.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/0fc951c2b33af8f1f87e5a8375eee63d4288ec3a/401_0_4008_3206/master/4008.jpg?width=700&quality=85&auto=format&fit=max&s=0257c0e6b7bbfd85f5ea0c949957330d",
+          "publishedAt": "2026-10-06T10:15:31.000Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/d32935eb8fe684c5df9e554c9ba560f753b0e08e/504_0_3795_3037/master/3795.jpg?width=700&quality=85&auto=format&fit=max&s=3498a2587387c14e61f9361e8ed9dc0c",
           "countryCode": "GB",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T14:53:32.000Z"
-    },
-    {
-      "id": "6JTME2W41iI7",
-      "representative": {
-        "id": "6JTME2W41iI7",
-        "url": "https://www.bbc.co.uk/news/articles/cxvgd3j2qqnmo?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cxvgd3j2qqnmo",
-        "title": "Pickford 'almost caused crash' with careless driving",
-        "description": "The goalkeeper was pulled over by police after ignoring a give way sign, forcing two cars to brake.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T14:42:28.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48c4/live/7f3ff650-c0c3-11f1-885f-4f9e8c6dce17.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "K4z74PQzsyRx",
-          "url": "https://www.independent.co.uk/news/uk/home-news/jordan-pickford-lamborghini-knutsford-court-b3061516.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/jordan-pickford-lamborghini-knutsford-court-b3061516.html",
-          "title": "Jordan Pickford ‘almost caused crash’ while driving £200,000 Lamborghini, court told",
-          "description": "The incident happened in Knutsford on April 14, sparking a criminal prosecution for driving without due care or attention",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T12:41:08.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/05/13/2298502814..?width=1200&auto=webp&trim=182%2C0%2C182%2C0",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T14:42:28.000Z"
-    },
-    {
-      "id": "nPNR2zwSlYmt",
-      "representative": {
-        "id": "nPNR2zwSlYmt",
-        "url": "https://www.independent.co.uk/news/uk/home-news/gosport-anti-migrant-protests-english-channel-b3061267.html",
-        "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/gosport-anti-migrant-protests-english-channel-b3061267.html",
-        "title": "12 arrested after anti-migrant protesters clash with police over migrant dinghy arrival in UK seaside town",
-        "description": "The dinghy was shadowed by French rescue vessels until it entered English waters, where it was met by RNLI boats",
-        "source": {
-          "id": "independent",
-          "name": "The Independent"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T13:28:58.000Z",
-        "imageUrl": "https://static.independent.co.uk/2026/10/04/22/aa86d9019b4576fa21c44ab0a4938923Y29udGVudHNlYXJjaGFwaSwxNzkxMjM1Mjg4-2.86074964.jpg?width=1200&auto=webp&crop=3%3A2",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "LT5UNdnUk5mA",
-          "url": "https://www.standard.co.uk/news/uk/gosport-migrants-protest-rnli-hampshire-police-arrests-b1299515.html",
-          "canonicalUrl": "https://www.standard.co.uk/news/uk/gosport-migrants-protest-rnli-hampshire-police-arrests-b1299515.html",
-          "title": "Police make 12 arrests amid clashes with protesters over migrants arriving in Gosport",
-          "description": "Protesters gathered Gosport amid reports that authorities were preparing for the arrival of a boat",
-          "source": {
-            "id": "standard",
-            "name": "Evening Standard"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T12:30:52.000Z",
-          "imageUrl": "https://static.standard.co.uk/2026/10/04/22/aa86d9019b4576fa21c44ab0a4938923Y29udGVudHNlYXJjaGFwaSwxNzkxMjM1Mjg4-2.86074964.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T13:28:58.000Z"
+      "latestPublishedAt": "2026-10-06T10:15:31.000Z"
     }
   ]
 }

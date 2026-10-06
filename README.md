@@ -308,6 +308,46 @@ Canada is bilingual, and clustering only compares titles within a language, so a
 
 Sabah, Milliyet, Habertürk and BBC Türkçe also work. Turkish folding maps dotless *ı* to *i*, and the stopword list includes the case suffixes that an apostrophe splits off proper nouns (*Erdoğan'ın*, *Meclis'te*). It also covers light verbs (*etti*, *yaptı*) and the formula words of police-blotter headlines (*operasyon: 26 gözaltı*), which otherwise merged unrelated raids.
 
+**Australia** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| ABC News | just in | 10 | ✅ (public broadcaster) |
+| Guardian Australia | australia-news | 9 | ✅ |
+| Sydney Morning Herald | national | 9 | ✅ |
+| SBS News | australia | 8 | ✅ (public broadcaster) |
+| Australian Financial Review | main feed | 7 | ✅ |
+| ~~The Age~~ | — | — | ⏭️ **skipped**: shares most of its copy with the SMH (both Nine), so it would fake multi-outlet clusters |
+| ~~news.com.au~~, ~~9News~~ | — | — | ❌ **dropped**: feed is empty / 404 |
+
+**India** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| The Hindu | national | 10 | ✅ |
+| The Indian Express | india | 9 | ✅ |
+| Times of India | india | 9 | ✅ |
+| Hindustan Times | india-news | 8 | ✅ |
+| NDTV | india-news | 8 | ✅ |
+| Scroll.in | all articles | 6 | ✅ |
+| ~~Deccan Herald~~ | — | — | ❌ **dropped**: 404 |
+
+English-language press only. Hindi outlets would need Hindi stopwords.
+
+**Mexico** (added 2026-10-06)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| El Universal | nación | 10 | ✅ |
+| La Jornada | política | 9 | ✅ |
+| Reforma | portada | 9 | ✅ (only ~6 items) |
+| Excélsior | nacional | 8 | ✅ |
+| El Financiero | main feed | 8 | ✅ |
+| Expansión | main feed | 7 | ✅ |
+| El Sol de México | main feed | 7 | ✅ |
+| ~~Milenio~~, ~~Animal Político~~ | — | — | ❌ **dropped**: 404 |
+| ~~Proceso~~, ~~SinEmbargo~~ | — | — | ❌ **dropped**: 403 for bots |
+
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
 
 When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`. Also check that the newest item is recent: Corriere and The Telegraph return well-formed but stale feeds.
