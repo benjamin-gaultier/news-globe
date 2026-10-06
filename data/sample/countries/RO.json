@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "RO",
   "countryName": "Romania",
-  "updatedAt": "2026-10-06T18:13:59.972Z",
+  "updatedAt": "2026-10-06T18:26:12.974Z",
   "clusters": [
     {
       "id": "KNOcdig08HFW",
@@ -264,48 +264,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:21:42.000Z"
-    },
-    {
-      "id": "R1cZhI-YJ9GU",
-      "representative": {
-        "id": "R1cZhI-YJ9GU",
-        "url": "https://www.digi24.ro/stiri/actualitate/politica/prima-reactie-din-pnl-dupa-ce-nicusor-dan-l-a-desemnat-premier-pe-luca-niculescu-3979347",
-        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/politica/prima-reactie-din-pnl-dupa-ce-nicusor-dan-l-a-desemnat-premier-pe-luca-niculescu-3979347",
-        "title": "Prima reacție din PNL după ce Nicușor Dan l-a desemnat premier pe Luca Niculescu",
-        "description": "PNL anunță că „ia act de decizia Președintelui României privind desemnarea lui Luca Niculescu drept candidat pentru funcția de prim-ministru”.",
-        "source": {
-          "id": "digi24",
-          "name": "Digi24"
-        },
-        "sourceCountry": "RO",
-        "language": "ro",
-        "publishedAt": "2026-10-05T18:24:16.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjUl/MkYwOCUyRjMxJTJGMjMzOTQwMl8yMzM5/NDAyX2lvbmVsLWJvZ2RzbS5qcGcmaGFz/aD0yNTcyYWJlZDhiMzI5MjNlMTE0MmI5MjVlNDRkNDNkMQ==.jpg",
-        "countryCode": "RO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "w7pid3EXfA8W",
-          "url": "https://www.libertatea.ro/stiri/sorin-grindeanu-la-o-zi-dupa-desemnarea-lui-luca-niculescu-premier-nicusor-dan-continua-experimentele-politice-d88nkbw",
-          "canonicalUrl": "https://www.libertatea.ro/stiri/sorin-grindeanu-la-o-zi-dupa-desemnarea-lui-luca-niculescu-premier-nicusor-dan-continua-experimentele-politice-d88nkbw",
-          "title": "Sorin Grindeanu, la o zi după desemnarea lui Luca Niculescu premier: „Nicușor Dan continuă experimentele politice”",
-          "description": "Președintele PSD, Sorin Grindeanu, a declarat marți, 6 octombrie, după ședința Biroului Permanent Național, că social-democrații sunt nemulțumiți că președintele Nicușor Dan nu le-a oferit mandatul de premier.",
-          "source": {
-            "id": "libertatea",
-            "name": "Libertatea"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T13:16:53.000Z",
-          "imageUrl": "https://ocdn.eu/pulscms-transforms/1/8KwktkpTURBXy9lMWM3MGU4MzQ5YWRkN2JhMTcyMmZhZmYxODdkMmZlMi5qcGeRlQMABs0EsM0Cow",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:16:53.000Z"
     },
     {
       "id": "KMrqvPFCqS3m",
@@ -684,6 +642,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T09:42:44.000Z"
+    },
+    {
+      "id": "1WvmzbDzYZNV",
+      "representative": {
+        "id": "1WvmzbDzYZNV",
+        "url": "https://adevarul.ro/politica/ce-scrie-presa-internationala-despre-desemnarea-2562100.html",
+        "canonicalUrl": "https://adevarul.ro/politica/ce-scrie-presa-internationala-despre-desemnarea-2562100.html",
+        "title": "Ce scrie presa internațională despre desemnarea lui Luca Niculescu: „Va trebui să găsească o cale de compromis între partidele profund divizate”",
+        "description": "Desemnarea diplomatului Luca Niculescu pentru funcția de prim-ministru al României a atras atenția presei internaționale, care prezintă nominalizarea drept o nouă încercare de a pune capăt crizei politice începute în luna mai.",
+        "source": {
+          "id": "adevarul",
+          "name": "Adevărul"
+        },
+        "sourceCountry": "RO",
+        "language": "ro",
+        "publishedAt": "2026-10-06T09:01:42.000Z",
+        "imageUrl": "https://cdn.adh.reperio.news/image-0/0f06417e-fb78-4001-97c5-c7acb5144bb9/index.jpeg?p=w%3D1000%26h%3D600%26a%3D0%26f%3Djpeg&file=image.jpeg",
+        "countryCode": "RO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ArkRWMpKUWBM",
+          "url": "https://www.libertatea.ro/stiri/presa-internationala-scrie-despre-desemnarea-luca-niculescu-premier-romania-whsfhyd",
+          "canonicalUrl": "https://www.libertatea.ro/stiri/presa-internationala-scrie-despre-desemnarea-luca-niculescu-premier-romania-whsfhyd",
+          "title": "„Tehnocratul care trebuie să împace partidele”. Ce scrie presa internațională despre desemnarea lui Luca Niculescu ca premier",
+          "description": "Președintele Nicușor Dan l-a desemnat premier pe Luca Niculescu, decizia a fost anunțată luni seara, 5 octombrie 2026. Diplomatul român a fost nominalizat pentru funcția de prim-ministru la exact 5 luni de la începutul crizei politice din România. Numirea sa a captat atenția presei internaționale…",
+          "source": {
+            "id": "libertatea",
+            "name": "Libertatea"
+          },
+          "sourceCountry": "RO",
+          "language": "ro",
+          "publishedAt": "2026-10-06T08:27:36.000Z",
+          "imageUrl": "https://ocdn.eu/pulscms-transforms/1/msGktkpTURBXy8yOTkzMDE0N2YyZWUyNWJjYWI2MTc4OGE5NDE4N2FlMC5qcGeRlQMAB80EsM0Cow",
+          "countryCode": "RO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:01:42.000Z"
     }
   ]
 }

@@ -238,6 +238,24 @@ describe('titleTokens: Hebrew', () => {
   });
 });
 
+describe('titleTokens: Korean, Thai and Bengali', () => {
+  it('splits Hangul words into syllable pairs so particles still match', () => {
+    const a = titleTokens('대통령이 국회를 방문했다', 'ko');
+    const b = titleTokens('대통령은 국회 방문', 'ko');
+    expect(a.has('대통')).toBe(true);
+    expect(a.has('국회')).toBe(true);
+    expect(b.has('대통') && b.has('국회') && b.has('방문')).toBe(true);
+  });
+  it('segments Thai words and drops stopwords', () => {
+    expect(titleTokens('นายกรัฐมนตรีเดินทางไปกรุงเทพฯวันนี้', 'th')).toEqual(
+      new Set(['นายก', 'รัฐมนตรี', 'เดิน', 'ทาง', 'กรุงเทพฯ']),
+    );
+  });
+  it('keeps Bengali vowel signs and converts digits', () => {
+    expect(titleTokens('ঢাকায় ৫ জন আহত হয়েছে', 'bn')).toEqual(new Set(['ঢাকায়', '5', 'জন', 'আহত']));
+  });
+});
+
 describe('titleTokens: years', () => {
   it('drops French calendar words', () => {
     expect(titleTokens('Nécrologie du 06 octobre 2026', 'fr')).toEqual(new Set(['06', 'necrologi']));
