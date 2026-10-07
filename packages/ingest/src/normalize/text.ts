@@ -427,6 +427,12 @@ const STOPWORDS_BE = `
 і ў у на з за па да ад не што як але гэта ці а для пра пасьля пасля праз яго яе іх быў была былі будзе
 ужо таксама сёньня сёння учора дзе калі пры без над пад паміж
 `;
+// Mongolian (Cyrillic): and, is/are, this/that, said, on, in, year/month/day, will/became,
+// the country's name, plus a few title verbs (held, met, discussed).
+const STOPWORDS_MN = `
+ба болон нь энэ тэр юм байна байгаа байсан гэж гэсэн гэв дээр дахь дэх руу рүү оны онд он сарын сард өдөр
+болно боллоо болсон хийх хийлээ хийв улсын монгол монголын монголд ажиллалаа уулзлаа хэлэлцлээ
+`;
 // Cyrillic й folds to и (NFD), hence "маи".
 const STOPWORDS_BG = `
 и в на за от с да се не е са по до при към като че но или ще бил била било това този тази тези които
@@ -510,6 +516,7 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   ky: wordSet(foldedWords(STOPWORDS_KY), STOPWORDS_EN, BOILERPLATE),
   be: wordSet(foldedWords(STOPWORDS_BE), STOPWORDS_EN, BOILERPLATE),
   km: wordSet(STOPWORDS_KM, STOPWORDS_EN, BOILERPLATE),
+  mn: wordSet(foldedWords(STOPWORDS_MN), STOPWORDS_EN, BOILERPLATE),
   ko: wordSet(STOPWORDS_KO, STOPWORDS_EN, BOILERPLATE),
   th: wordSet(STOPWORDS_TH, STOPWORDS_EN, BOILERPLATE),
   bn: wordSet(STOPWORDS_BN, STOPWORDS_EN, BOILERPLATE),

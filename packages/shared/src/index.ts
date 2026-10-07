@@ -249,6 +249,7 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   JO: { code: 'JO', name: 'Jordan', lat: 31.2, lng: 36.5, altitude: 0.6 },
   NI: { code: 'NI', name: 'Nicaragua', lat: 12.9, lng: -85.2, altitude: 0.7 },
   SL: { code: 'SL', name: 'Sierra Leone', lat: 8.5, lng: -11.8, altitude: 0.5 },
+  MN: { code: 'MN', name: 'Mongolia', lat: 46.9, lng: 103.8, altitude: 1.3 },
 };
 
 export interface RegionMeta {

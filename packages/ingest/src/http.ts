@@ -108,7 +108,10 @@ export class HttpCache {
         throw new Error(`HTTP ${res.status}`);
       }
 
-      const items = await parse(decodeBody(new Uint8Array(await res.arrayBuffer()), res.headers.get('content-type')));
+      const items = newest(
+        await parse(decodeBody(new Uint8Array(await res.arrayBuffer()), res.headers.get('content-type'))),
+        MAX_ITEMS_PER_FEED,
+      );
       next.items = items;
       next.retrievedAt = attemptAt;
       next.etag = res.headers.get('etag') ?? undefined;
@@ -121,6 +124,24 @@ export class HttpCache {
       return { outcome: 'error', items: next.items, retrievedAt: next.retrievedAt, error: message };
     }
   }
+}
+
+/**
+ * Items kept per feed. A few feeds (Eguur) list their whole archive, about
+ * 10,000 items and 3 MB, which would otherwise be cached and re-read every run;
+ * no outlet posts anywhere near this many within `maxArticleAgeHours`.
+ */
+export const MAX_ITEMS_PER_FEED = 200;
+
+/** The `max` most recent items, undated ones (dated later as "now") first, feed order otherwise. */
+export function newest(items: RawItem[], max: number): RawItem[] {
+  if (items.length <= max) return items;
+  const time = (i: RawItem) => (i.publishedAt ? Date.parse(i.publishedAt) || 0 : Infinity);
+  return items
+    .map((item, index) => ({ item, index, t: time(item) }))
+    .sort((a, b) => b.t - a.t || a.index - b.index)
+    .slice(0, max)
+    .map((x) => x.item);
 }
 
 /**
