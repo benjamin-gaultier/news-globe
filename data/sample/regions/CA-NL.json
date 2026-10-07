@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "CA",
+  "countryName": "Canada",
+  "regionCode": "CA-NL",
+  "regionName": "Newfoundland and Labrador",
+  "updatedAt": "2026-10-07T15:34:18.690Z",
+  "clusters": [
+    {
+      "id": "wANkvAFKUNHA",
+      "representative": {
+        "id": "wANkvAFKUNHA",
+        "url": "https://www.saltwire.com/newfoundland-labrador/driver-of-stolen-vehicle-rammed",
+        "canonicalUrl": "https://www.saltwire.com/newfoundland-labrador/driver-of-stolen-vehicle-rammed",
+        "title": "Driver of stolen vehicle rammed a police vehicle before being arrested in St. John's, NL",
+        "description": "A 36-year-old man in a stolen vehicle rammed a police vehicle Tuesday morning, Oct. 6, 2026 by accelerating backwards to strike the police vehicle. The case began at about 8:50 a.m. when RNC officers attempted to stop a vehicle in the area of Blackmarsh Road in St. John’s, but the driver refused…",
+        "source": {
+          "id": "ca_nl_saltwire",
+          "name": "SaltWire / The Telegram"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:46:19.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [
+        {
+          "id": "RDUVrqCqtreI",
+          "url": "https://ntv.ca/justice/stolen-vehicle-collides-with-police-cruiser-two-arrested-in-st-johns/",
+          "canonicalUrl": "https://ntv.ca/justice/stolen-vehicle-collides-with-police-cruiser-two-arrested-in-st-johns/",
+          "title": "Stolen vehicle collides with police cruiser, two arrested in St. John’s",
+          "description": "Police arrested two people after a stolen vehicle collided with a police cruiser in St. John’s Tuesday morning. Around 8:50 a.m. on October 6, officers attempted to stop a vehicle near Blackmarsh Road, but the driver refused to stop. Police did not pursue the vehicle for public safety reasons, but…",
+          "source": {
+            "id": "ca_nl_ntv",
+            "name": "NTV News"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-07T11:05:21.000Z",
+          "imageUrl": null,
+          "countryCode": "CA",
+          "regionCode": "CA-NL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T12:46:19.000Z"
+    },
+    {
+      "id": "tkgyp-VHIa-C",
+      "representative": {
+        "id": "tkgyp-VHIa-C",
+        "url": "https://ntv.ca/local-news/new-arctic-liner-service-launches-at-port-of-corner-brook/",
+        "canonicalUrl": "https://ntv.ca/local-news/new-arctic-liner-service-launches-at-port-of-corner-brook/",
+        "title": "New Arctic Liner Service launches at Port of Corner Brook",
+        "description": "This week, the Port of Corner Brook launched a new liner service to Western Newfoundland, Nunavut Eastern Arctic Shipping’s (NEAS). In a statement to NTV News, The Port says the new service marks an important step in expanding Corner Brook’s role in Northern and Arctic logistics and strengthening…",
+        "source": {
+          "id": "ca_nl_ntv",
+          "name": "NTV News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T14:40:07.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:40:07.000Z"
+    },
+    {
+      "id": "yCouwXIFJtOK",
+      "representative": {
+        "id": "yCouwXIFJtOK",
+        "url": "https://ntv.ca/health/rsv-vaccination-clinics-for-seniors-75-and-older-to-begin-across-the-province/",
+        "canonicalUrl": "https://ntv.ca/health/rsv-vaccination-clinics-for-seniors-75-and-older-to-begin-across-the-province/",
+        "title": "RSV vaccination clinics for seniors 75 and older to begin across the province",
+        "description": "Newfoundland and Labrador (NL) Health Services advises that RSV (respiratory syncytial virus) vaccination clinics for seniors 75 years and older will be available by appointment at various clinics across the province starting on Tuesday, October 13, 2026, until Sunday, October 18, 2026. RSV is a…",
+        "source": {
+          "id": "ca_nl_ntv",
+          "name": "NTV News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:56:14.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:56:14.000Z"
+    },
+    {
+      "id": "jXTHFS2Ytajd",
+      "representative": {
+        "id": "jXTHFS2Ytajd",
+        "url": "https://ntv.ca/news/nl-regiment-hit-the-road-after-back-to-back-ot-wins/",
+        "canonicalUrl": "https://ntv.ca/news/nl-regiment-hit-the-road-after-back-to-back-ot-wins/",
+        "title": "NL Regiment hit the road after back-to-back OT wins",
+        "description": "The Newfoundland Regiment is leaving home ice for the first time this season, and they’re doing it with plenty of momentum. Newfoundland begins a demanding seven-game road trip tonight, opening the swing against the Blainville-Boisbriand Armada in Quebec. The Regiment enters the trip with a 4-1-1…",
+        "source": {
+          "id": "ca_nl_ntv",
+          "name": "NTV News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:53:51.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:53:51.000Z"
+    },
+    {
+      "id": "Nx2Ga0FB-zF2",
+      "representative": {
+        "id": "Nx2Ga0FB-zF2",
+        "url": "https://www.saltwire.com/newfoundland-labrador/new-sentencing-date-lisa-driscoll",
+        "canonicalUrl": "https://www.saltwire.com/newfoundland-labrador/new-sentencing-date-lisa-driscoll",
+        "title": "New sentencing date set for NL woman who faked nursing credentials – and this time she has to show up",
+        "description": "Lisa Driscoll, who used stolen nursing credentials to gain jobs in St. John's and Gander, must attend her Dec. 15 sentencing in person",
+        "source": {
+          "id": "ca_nl_saltwire",
+          "name": "SaltWire / The Telegram"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:47:33.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:47:33.000Z"
+    },
+    {
+      "id": "1LxuLZPoeNTe",
+      "representative": {
+        "id": "1LxuLZPoeNTe",
+        "url": "https://www.saltwire.com/newfoundland-labrador/dylan-jordan-murderers",
+        "canonicalUrl": "https://www.saltwire.com/newfoundland-labrador/dylan-jordan-murderers",
+        "title": "Trio of murderers deserves more than the mandatory minimum time in jail, Crown argues in St. John's",
+        "description": "Court hears sentencing submissions for Bradley Morrell, Jason Wells and Veronica Whalen, convicted of the second-degree murder of St. John's dad Dylan Jordan",
+        "source": {
+          "id": "ca_nl_saltwire",
+          "name": "SaltWire / The Telegram"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:37:09.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:37:09.000Z"
+    },
+    {
+      "id": "jApLVLa1YvCS",
+      "representative": {
+        "id": "jApLVLa1YvCS",
+        "url": "https://www.saltwire.com/newfoundland-labrador/bomb-threat-st-johns-court",
+        "canonicalUrl": "https://www.saltwire.com/newfoundland-labrador/bomb-threat-st-johns-court",
+        "title": "Investigation continues after unfounded bomb threat at St. John's court",
+        "description": "A bomb threat at provincial court in St. John’s evacuated for several hours Tuesday morning, Oct. 6, but after investigation, the threat was determined to be unfounded. The Royal Newfoundland Constabulary says it responded to a threat at the court in Atlantic Place, cleared the building and…",
+        "source": {
+          "id": "ca_nl_saltwire",
+          "name": "SaltWire / The Telegram"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:19:05.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:19:05.000Z"
+    },
+    {
+      "id": "-XWzRSrLTsHb",
+      "representative": {
+        "id": "-XWzRSrLTsHb",
+        "url": "https://ici.radio-canada.ca/ohdio/premiere/emissions/la-mouvee/segments/rattrapage/2496172/fccf-lance-2-programmes-pour-eveil-aux-arts-chez-enfants",
+        "canonicalUrl": "https://ici.radio-canada.ca/ohdio/premiere/emissions/la-mouvee/segments/rattrapage/2496172/fccf-lance-2-programmes-pour-eveil-aux-arts-chez-enfants",
+        "title": "La FCCF mise sur l’éveil aux arts pour les tout-petits",
+        "description": "La Fédération culturelle canadienne-française (FCCF) lance deux nouveaux programmes d'éveil aux arts destinés aux enfants de 0 à 5 ans dans les services francophones de la petite enfance au Canada.",
+        "source": {
+          "id": "ca_nl_radiocanada",
+          "name": "Radio-Canada Acadie (Terre-Neuve-et-Labrador)"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T19:06:32.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/fccf-petite-enfance-arts-culture-francophonie.png",
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:06:32.000Z"
+    },
+    {
+      "id": "_Vfi6v9ZlWVd",
+      "representative": {
+        "id": "_Vfi6v9ZlWVd",
+        "url": "https://ici.radio-canada.ca/nouvelle/2291122/churchill-falls-chagement-gouvernement-quebec-wakeham",
+        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291122/churchill-falls-chagement-gouvernement-quebec-wakeham",
+        "title": "Churchill Falls : Wakeham serein malgré le changement de gouvernement à Québec",
+        "description": "Le premier ministre de T.-N.-L. se dit convaincu que PSPP « reconnaîtra qu'il s'agit d'un bon accord ».",
+        "source": {
+          "id": "ca_nl_radiocanada",
+          "name": "Radio-Canada Acadie (Terre-Neuve-et-Labrador)"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T16:10:06.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/tony-wakeham-pm-tnl-churchill.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:10:06.000Z"
+    },
+    {
+      "id": "m31zNdztoBsd",
+      "representative": {
+        "id": "m31zNdztoBsd",
+        "url": "https://ici.radio-canada.ca/en-bref/90-17430/metrobus-penurie-mecaniciens-reduction-service",
+        "canonicalUrl": "https://ici.radio-canada.ca/en-bref/90-17430/metrobus-penurie-mecaniciens-reduction-service",
+        "title": "Le transport en commun en panne de mécaniciens à Saint-Jean",
+        "description": "Le service de transport en commun de Saint-Jean de Terre-Neuve se dit contraint de réduire la fréquence de 5 trajets en raison d’une pénurie de mécaniciens.",
+        "source": {
+          "id": "ca_nl_radiocanada",
+          "name": "Radio-Canada Acadie (Terre-Neuve-et-Labrador)"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T14:49:06.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/autobus-metrobus-saint-jean-tnl.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:49:06.000Z"
+    },
+    {
+      "id": "5UTvozsK9L0y",
+      "representative": {
+        "id": "5UTvozsK9L0y",
+        "url": "https://ntv.ca/news/collision-clinic-now-accepting-applications-for-23rd-annual-enriching-lives-car-giveaway-program-2/",
+        "canonicalUrl": "https://ntv.ca/news/collision-clinic-now-accepting-applications-for-23rd-annual-enriching-lives-car-giveaway-program-2/",
+        "title": "Collision Clinic now accepting applications for 23rd annual Enriching Lives Car Giveaway Program",
+        "description": "Collision Clinic is now accepting applications for its 23rd annual Enriching Lives Car Giveaway Program. This program gives a fully reconditioned vehicle to an individual who finds themselves lacking the financial means to purchase a vehicle at this time. Each year, accident-damaged but repairable…",
+        "source": {
+          "id": "ca_nl_ntv",
+          "name": "NTV News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:42:04.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:42:04.000Z"
+    },
+    {
+      "id": "u8efcWCuv1I_",
+      "representative": {
+        "id": "u8efcWCuv1I_",
+        "url": "https://ntv.ca/news/ramp-closure-at-cloverleaf-overpass/",
+        "canonicalUrl": "https://ntv.ca/news/ramp-closure-at-cloverleaf-overpass/",
+        "title": "Ramp closure at Cloverleaf Overpass",
+        "description": "The Department of Transportation and Infrastructure advises motorists that the westbound ramp at the Cloverleaf Overpass from the Outer Ring Road leading to Peacekeepers Way will be closed on Thursday from 7:00 a.m. to 4:00 p.m. to allow crews to complete ramp paving. Motorists are asked to follow…",
+        "source": {
+          "id": "ca_nl_ntv",
+          "name": "NTV News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:38:22.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:38:22.000Z"
+    },
+    {
+      "id": "sxwcFlLIi7lA",
+      "representative": {
+        "id": "sxwcFlLIi7lA",
+        "url": "https://ntv.ca/arts-and-entertainment/lady-cove-celebrates-international-success-following-wales-and-ireland-tour/",
+        "canonicalUrl": "https://ntv.ca/arts-and-entertainment/lady-cove-celebrates-international-success-following-wales-and-ireland-tour/",
+        "title": "Lady Cove celebrates international success following Wales and Ireland tour",
+        "description": "Lady Cove Women’s Choir is celebrating an outstanding summer tour of Wales and Ireland, bringing home international honours and sharing Newfoundland and Labrador’s choral artistry with audiences across the Atlantic. Under the direction of Artistic Director Kellie Walsh, Lady Cove earned first…",
+        "source": {
+          "id": "ca_nl_ntv",
+          "name": "NTV News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:09:30.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:09:30.000Z"
+    },
+    {
+      "id": "3261hKk0yObu",
+      "representative": {
+        "id": "3261hKk0yObu",
+        "url": "https://ntv.ca/justice/glovertown-rcmp-investigating-break-and-enter-asking-for-publics-assistance-locating-stolen-truck/",
+        "canonicalUrl": "https://ntv.ca/justice/glovertown-rcmp-investigating-break-and-enter-asking-for-publics-assistance-locating-stolen-truck/",
+        "title": "Glovertown RCMP investigating break and enter, asking for public’s assistance locating stolen truck",
+        "description": "Glovertown RCMP is investigating a break and enter and the theft of a pickup truck from a property in Happy Adventure. Anyone with information about this crime, the current location of the truck or those responsible is asked to contact police. On Oct. 6, police responded to a report that a garage…",
+        "source": {
+          "id": "ca_nl_ntv",
+          "name": "NTV News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:41:12.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:41:12.000Z"
+    },
+    {
+      "id": "h2RoWlgZSkTG",
+      "representative": {
+        "id": "h2RoWlgZSkTG",
+        "url": "https://www.saltwire.com/newfoundland-labrador/pam-frampton-st-johns-unattractive-city-hall",
+        "canonicalUrl": "https://www.saltwire.com/newfoundland-labrador/pam-frampton-st-johns-unattractive-city-hall",
+        "title": "PAM FRAMPTON: Does St. John’s have the most unattractive city hall in Canada?",
+        "description": "Across Atlantic Canada, city halls in capital cities are beautiful - except in St. John's, which has a \"grey concrete bunker\"",
+        "source": {
+          "id": "ca_nl_saltwire",
+          "name": "SaltWire / The Telegram"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:06:33.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:06:33.000Z"
+    }
+  ]
+}

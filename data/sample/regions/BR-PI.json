@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "BR",
+  "countryName": "Brazil",
+  "regionCode": "BR-PI",
+  "regionName": "Piauí",
+  "updatedAt": "2026-10-07T15:34:18.690Z",
+  "clusters": [
+    {
+      "id": "YnHMqfs8vXWx",
+      "representative": {
+        "id": "YnHMqfs8vXWx",
+        "url": "https://portalodia.com/noticias/teresina/suspeito-de-tentar-matar-empresario-durante-assalto-em-fortaleza-e-preso-em-teresina-466104.html",
+        "canonicalUrl": "https://portalodia.com/noticias/teresina/suspeito-de-tentar-matar-empresario-durante-assalto-em-fortaleza-e-preso-em-teresina-466104.html",
+        "title": "Suspeito de tentar matar empresário durante assalto em Fortaleza é preso em Teresina",
+        "description": "Crime aconteceu em agosto. Empresário transportava malote de dinheiro quando foi abordado.",
+        "source": {
+          "id": "br_pi_odia",
+          "name": "O Dia (Piauí)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T06:22:32.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [
+        {
+          "id": "bXlaEYl__Ygy",
+          "url": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/suspeito-atirar-carro-empresario.ghtml",
+          "canonicalUrl": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/suspeito-atirar-carro-empresario.ghtml",
+          "title": "Suspeito de atirar 8 vezes contra carro de empresário em Fortaleza é preso em Teresina",
+          "description": "Carro de luxo é atingido por disparos de arma de fogo em avenida de Fortaleza Um homem, que não teve a identidade revelada, suspeito de envolvimento na tentativa de homicídio contra um empresário em Fortaleza (CE) foi preso na noite da terça-feira (6), em Teresina (PI). Segundo a Polícia Civil, o…",
+          "source": {
+            "id": "br_pi_g1",
+            "name": "g1 Piauí"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T11:54:27.000Z",
+          "imageUrl": "https://s2-g1.glbimg.com/tIZKmKTI4ZHZZXlGUtlsqXQSTEc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/U/2NDuAnS2WtYxiCfZt2Cg/edicao-imagens-g1-2026-10-07t085001.340.jpg",
+          "countryCode": "BR",
+          "regionCode": "BR-PI"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:54:27.000Z"
+    },
+    {
+      "id": "oYkUDypO-bm9",
+      "representative": {
+        "id": "oYkUDypO-bm9",
+        "url": "https://portalodia.com/noticias/teresina/incendio-na-embrapa-atingiu-10hectares-e-consumiu-plantas-estudadas-ha-30-anos-diz-diretor-466100.html",
+        "canonicalUrl": "https://portalodia.com/noticias/teresina/incendio-na-embrapa-atingiu-10hectares-e-consumiu-plantas-estudadas-ha-30-anos-diz-diretor-466100.html",
+        "title": "Incêndio na Embrapa atingiu 10hectares e consumiu plantas estudadas há 30 anos, diz diretor",
+        "description": "Fogo afetou pesquisas com bacuri, cajá, xixá e manga; bichos silvestres que viviam no local, como pacas e camaleões, morreram com o incêndio.",
+        "source": {
+          "id": "br_pi_odia",
+          "name": "O Dia (Piauí)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T05:20:41.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [
+        {
+          "id": "uksuIIFXFZkt",
+          "url": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/incendio-plantas-nativas.ghtml",
+          "canonicalUrl": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/incendio-plantas-nativas.ghtml",
+          "title": "Incêndio que atingiu área da Embrapa destruiu plantas nativas estudadas há 30 anos em Teresina",
+          "description": "Incêndio na área da Embrapa: fogo atingiu mais de oito hectares O incêndio que atingiu uma área da Empresa Brasileira de Pesquisa Agropecuária (Embrapa), em Teresina, destruiu plantas nativas que eram estudadas pela instituição há mais de 30 anos. O fogo atingiu um banco ativo de germoplasma com…",
+          "source": {
+            "id": "br_pi_g1",
+            "name": "g1 Piauí"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T10:52:41.000Z",
+          "imageUrl": "https://s2-g1.glbimg.com/rOS-ElKwilFzridlJgCsccoDi-E=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/A/WBEfAqT6aFpMD7jqJMmg/edicao-imagens-g1-2026-10-07t075120.347.jpg",
+          "countryCode": "BR",
+          "regionCode": "BR-PI"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T10:52:41.000Z"
+    },
+    {
+      "id": "aae42u_8aZ15",
+      "representative": {
+        "id": "aae42u_8aZ15",
+        "url": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/incendio-destroi-residencia.ghtml",
+        "canonicalUrl": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/incendio-destroi-residencia.ghtml",
+        "title": "Incêndio destrói completamente residência no interior do PI",
+        "description": "Incêndio destrói completamente residência no interior do PI Reprodução Uma residência localizada no bairro Morada do Sol, em Picos, foi completamente destruída por um incêndio durante a madrugada desta quarta-feira (7). O Corpo de Bombeiros Militar foi acionado por volta das 4h30 para atender à…",
+        "source": {
+          "id": "br_pi_g1",
+          "name": "g1 Piauí"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T10:12:23.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/Tz1Wmupw3HCXNgqjgKXcm0XGCAM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/v/9/FsGL1ZTF6zOhzd5qmCtA/edicao-imagens-g1-2026-10-07t070905.677.jpg",
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [
+        {
+          "id": "cTwCCZtFGDYR",
+          "url": "https://cidadeverde.com/ultimas/464243/incendio-de-grandes-proporcoes-destroi-residencia-de-idosos-no-piaui",
+          "canonicalUrl": "https://cidadeverde.com/ultimas/464243/incendio-de-grandes-proporcoes-destroi-residencia-de-idosos-no-piaui",
+          "title": "Incêndio de grandes proporções destrói residência de idosos no Piauí",
+          "description": "Foto: Reprodução Um incêndio de grandes proporções destruiu uma residência na madrugada desta quarta-feira (07) no bairro Morada do Sol, em Picos, no Piauí. Pelas imagens, é possível perceber que o imóvel foi tomado pelas chamas com perda total de móveis",
+          "source": {
+            "id": "br_pi_cidadeverde",
+            "name": "Cidadeverde.com"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T05:30:00.000Z",
+          "imageUrl": "http://cidadeverde.com//cidadeverde.com/assets/uploads/colecoes/2/2026/10/incendio_casa_picos_2.jpeg",
+          "countryCode": "BR",
+          "regionCode": "BR-PI"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T10:12:23.000Z"
+    },
+    {
+      "id": "7noEhKrOD9rT",
+      "representative": {
+        "id": "7noEhKrOD9rT",
+        "url": "https://portalodia.com/noticias/teresina/camara-de-teresina-marca-para-3-de-novembro-eleicao-da-nova-mesa-diretora-466110.html",
+        "canonicalUrl": "https://portalodia.com/noticias/teresina/camara-de-teresina-marca-para-3-de-novembro-eleicao-da-nova-mesa-diretora-466110.html",
+        "title": "Câmara de Teresina marca para 3 de novembro eleição da nova Mesa Diretora",
+        "description": "As chapas poderão ser registradas até o início da sessão em que ocorrerá a eleição. Cada parlamentar pode participar apenas de uma chapa.",
+        "source": {
+          "id": "br_pi_odia",
+          "name": "O Dia (Piauí)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T08:04:51.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [
+        {
+          "id": "2o_DMXa_HphZ",
+          "url": "https://cidadeverde.com/politica/464256/eleicao-para-presidencia-da-camara-de-teresina-sera-dia-3-de-novembro",
+          "canonicalUrl": "https://cidadeverde.com/politica/464256/eleicao-para-presidencia-da-camara-de-teresina-sera-dia-3-de-novembro",
+          "title": "Eleição para presidência da Câmara de Teresina será dia 3 de novembro",
+          "description": "Foto: Benonias Cardoso/Cidadeverde.com A eleição para a presidência da Câmara Municipal de Teresina está marcada para o dia 3 de novembro",
+          "source": {
+            "id": "br_pi_cidadeverde",
+            "name": "Cidadeverde.com"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T07:58:00.000Z",
+          "imageUrl": "http://cidadeverde.com//cidadeverde.com/assets/uploads/colecoes/2/2026/05/camara_municipal_de_teresina_5.jpeg",
+          "countryCode": "BR",
+          "regionCode": "BR-PI"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T08:04:51.000Z"
+    },
+    {
+      "id": "CP0yKOoNKtpj",
+      "representative": {
+        "id": "CP0yKOoNKtpj",
+        "url": "https://g1.globo.com/pi/piaui/noticia/2026/10/06/incendio-area-de-mata-no-pi.ghtml",
+        "canonicalUrl": "https://g1.globo.com/pi/piaui/noticia/2026/10/06/incendio-area-de-mata-no-pi.ghtml",
+        "title": "VÍDEO: Incêndio de grandes proporções atinge área de mata no PI; moradores são orientados a deixar locais de risco",
+        "description": "Incêndio de grandes proporções atinge área de mata no PI Um incêndio de grandes proporções atingiu áreas do município de São José do Divino, no Norte do Piauí, nesta terça-feira (6). Diante da situação, a Prefeitura divulgou um alerta à população e informou que o Corpo de Bombeiros foi acionado…",
+        "source": {
+          "id": "br_pi_g1",
+          "name": "g1 Piauí"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T23:18:37.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/Ps_-JEDbFt0w7Rr07e6fv_Ccw-k=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/U/kxmRuOQcG7Ej9QxogXcg/edicao-imagens-g1-2026-10-06t201644.701.png",
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [
+        {
+          "id": "SDJdtZqPYbt5",
+          "url": "https://portalodia.com/noticias/interior/video-incendio-de-grandes-proporcoes-atinge-casas-na-cidade-de-picos-466106.html",
+          "canonicalUrl": "https://portalodia.com/noticias/interior/video-incendio-de-grandes-proporcoes-atinge-casas-na-cidade-de-picos-466106.html",
+          "title": "VÍDEO: incêndio de grandes proporções atinge casas na cidade de Picos",
+          "description": "Fogo destruiu completamente a residência de um idoso. Imagens mostram ele tentando entrar na casa em chamas para salvar pertences.",
+          "source": {
+            "id": "br_pi_odia",
+            "name": "O Dia (Piauí)"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T06:44:00.000Z",
+          "imageUrl": null,
+          "countryCode": "BR",
+          "regionCode": "BR-PI"
+        },
+        {
+          "id": "e5TuvVqtTsSE",
+          "url": "https://cidadeverde.com/geral/464223/incendio-de-grandes-proporcoes-atinge-embrapa-e-assusta-moradores-em-teresina",
+          "canonicalUrl": "https://cidadeverde.com/geral/464223/incendio-de-grandes-proporcoes-atinge-embrapa-e-assusta-moradores-em-teresina",
+          "title": "Incêndio de grandes proporções atinge Embrapa e assusta moradores em Teresina",
+          "description": null,
+          "source": {
+            "id": "br_pi_cidadeverde",
+            "name": "Cidadeverde.com"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-06T13:22:00.000Z",
+          "imageUrl": "http://cidadeverde.com//cidadeverde.com/assets/uploads/colecoes/2/2026/10/captura_de_tela_13.png",
+          "countryCode": "BR",
+          "regionCode": "BR-PI"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T06:44:00.000Z"
+    },
+    {
+      "id": "Rp0QUKyeK9F6",
+      "representative": {
+        "id": "Rp0QUKyeK9F6",
+        "url": "https://portalodia.com/noticias/piaui/vice-governador-eleito-washington-bandeira-retorna-ao-governo-como-assessor-especial-466105.html",
+        "canonicalUrl": "https://portalodia.com/noticias/piaui/vice-governador-eleito-washington-bandeira-retorna-ao-governo-como-assessor-especial-466105.html",
+        "title": "Vice-governador eleito, Washington Bandeira retorna ao Governo como assessor especial",
+        "description": "Ex-secretário de Educação volta à estrutura do Executivo estadual após participar das eleições; delegada Anamelka também foi nomeada",
+        "source": {
+          "id": "br_pi_odia",
+          "name": "O Dia (Piauí)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T06:27:25.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [
+        {
+          "id": "aA_XZaa68Zlk",
+          "url": "https://cidadeverde.com/politica/464242/washington-bandeira-retorna-ao-governo-apos-eleicao-como-vice",
+          "canonicalUrl": "https://cidadeverde.com/politica/464242/washington-bandeira-retorna-ao-governo-apos-eleicao-como-vice",
+          "title": "Washington Bandeira retorna ao Governo após eleição como vice",
+          "description": "O vice-governador eleito do Piauí, Washington Bandeira, retornou ao Governo do Estado após as eleições de 2026. Ele foi nomeado pelo governador Rafael Fonteles (PT) para o cargo de assessor especial do governador, vinculado à Secretaria de Governo",
+          "source": {
+            "id": "br_pi_cidadeverde",
+            "name": "Cidadeverde.com"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T05:30:00.000Z",
+          "imageUrl": "http://cidadeverde.com//cidadeverde.com/assets/uploads/colecoes/15085/2026/08/whatsapp_image_2026-08-27_at_09_40_40_2.jpeg",
+          "countryCode": "BR",
+          "regionCode": "BR-PI"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T06:27:25.000Z"
+    },
+    {
+      "id": "rO9RLh39OuvB",
+      "representative": {
+        "id": "rO9RLh39OuvB",
+        "url": "https://g1.globo.com/pi/piaui/noticia/2026/10/06/preso-suspeito-estuprar-jovem.ghtml",
+        "canonicalUrl": "https://g1.globo.com/pi/piaui/noticia/2026/10/06/preso-suspeito-estuprar-jovem.ghtml",
+        "title": "Homem é preso suspeito de estuprar jovem de 19 anos após carona no Sul do PI",
+        "description": "Homem é preso suspeito de estuprar jovem de 19 anos após carona no Sul do PI Reprodução/PMPI Um homem identificado pelas iniciais I.J.D.M., de 39 anos, foi preso na manhã de segunda-feira (5), suspeito de estuprar uma jovem de 19 anos após uma carona em São Francisco do Piauí, no Sul do estado…",
+        "source": {
+          "id": "br_pi_g1",
+          "name": "g1 Piauí"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T18:19:36.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/-WBwkCeYfAC_DdIioMQGcJoOx6Q=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/n/0feij5SgmV8rkGwXo9Cg/edicao-imagens-g1-2026-10-06t144539.825.png",
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [
+        {
+          "id": "_ULDzl3VoC0Y",
+          "url": "https://cidadeverde.com/ultimas/464236/homem-oferece-carona-e-e-preso-suspeito-de-estuprar-jovem-de-19-anos-no-piaui",
+          "canonicalUrl": "https://cidadeverde.com/ultimas/464236/homem-oferece-carona-e-e-preso-suspeito-de-estuprar-jovem-de-19-anos-no-piaui",
+          "title": "Homem oferece carona e é preso suspeito de estuprar jovem de 19 anos no Piauí",
+          "description": "Foto: Jade Araujo/Cidadeverde.com Um homem de 39 anos foi preso suspeito de cometer violência sexual contra uma jovem de 19 anos em São Francisco do Piauí, município a cerca de 320 km de Teresina",
+          "source": {
+            "id": "br_pi_cidadeverde",
+            "name": "Cidadeverde.com"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-06T17:15:00.000Z",
+          "imageUrl": "http://cidadeverde.com//cidadeverde.com/assets/uploads/colecoes/2/2026/01/viatura-pmpi.jpeg",
+          "countryCode": "BR",
+          "regionCode": "BR-PI"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T18:19:36.000Z"
+    },
+    {
+      "id": "Pj5cG_kSs1u1",
+      "representative": {
+        "id": "Pj5cG_kSs1u1",
+        "url": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/desembargadora-trt-pi.ghtml",
+        "canonicalUrl": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/desembargadora-trt-pi.ghtml",
+        "title": "Desembargadora Basiliça Alves é eleita presidente do TRT-PI para o biênio 2027-2028",
+        "description": "Dirigentes do Tribunal Regional do Trabalho da 22ª Região para o biênio 2027/2028 TRT A desembargadora Basiliça Alves da Silva foi eleita presidente do Tribunal Regional do Trabalho da 22ª Região para o biênio 2027-2028, na terça-feira (6). A desembargadora Liana Ferraz de Carvalho foi escolhida…",
+        "source": {
+          "id": "br_pi_g1",
+          "name": "g1 Piauí"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T14:54:05.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/ryZ1PxWCTuCwrUmgVu_XlkR612s=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/d/q1oqfkTW6bcgIs9IguoQ/edicao-imagens-g1-2026-10-07t115023.395.png",
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [
+        {
+          "id": "QseAsC0disjM",
+          "url": "https://cidadeverde.com/politica/464211/desembargadora-basilica-alves-e-eleita-nova-presidente-do-trt-no-piaui",
+          "canonicalUrl": "https://cidadeverde.com/politica/464211/desembargadora-basilica-alves-e-eleita-nova-presidente-do-trt-no-piaui",
+          "title": "Desembargadora Basiliça Alves é eleita nova presidente do TRT no Piauí",
+          "description": "A desembargadora Basiliça Alves da Silva foi eleita na manhã desta terça-feira (6) a nova presidente do Tribunal Regional do Trabalho (TRT) do Piauí. É a quarta mulher a comandar a alta corte trabalhista do estado",
+          "source": {
+            "id": "br_pi_cidadeverde",
+            "name": "Cidadeverde.com"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-06T09:25:00.000Z",
+          "imageUrl": "http://cidadeverde.com//cidadeverde.com/assets/uploads/colecoes/2/2026/10/trt3.jpg",
+          "countryCode": "BR",
+          "regionCode": "BR-PI"
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T14:54:05.000Z"
+    },
+    {
+      "id": "v0d3IHb_cUg_",
+      "representative": {
+        "id": "v0d3IHb_cUg_",
+        "url": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/arquidiocese-de-teresina-transferencia-de-padres.ghtml",
+        "canonicalUrl": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/arquidiocese-de-teresina-transferencia-de-padres.ghtml",
+        "title": "Arquidiocese de Teresina anuncia transferência de padres; veja mudanças",
+        "description": "Missa na Paróquia de Nossa Senhora de Fátima em Teresina Ilanna Serena/g1 PI A transferência de três padres e a nomeação de um novo pároco para paróquias foram anunciadas, nesta terça-feira (6), pela Arquidiocese de Teresina, por meio do arcebispo Dom Juarez Marques. As apresentações ocorrem entre…",
+        "source": {
+          "id": "br_pi_g1",
+          "name": "g1 Piauí"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T14:42:24.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/lEZrg2lAqjB_fvaih8tUXWCwiO0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/7/l/HBgVSESJuzpznRfMyq9w/whatsapp-image-2023-02-03-at-09.44.09.jpeg",
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:42:24.000Z"
+    },
+    {
+      "id": "qZ8ie8Gj4BaG",
+      "representative": {
+        "id": "qZ8ie8Gj4BaG",
+        "url": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/tio-e-padrinho-preso-estuprar-crianca.ghtml",
+        "canonicalUrl": "https://g1.globo.com/pi/piaui/noticia/2026/10/07/tio-e-padrinho-preso-estuprar-crianca.ghtml",
+        "title": "Tio é preso suspeito de estuprar sobrinha de 9 anos na zona rural de Teresina",
+        "description": "Tio é preso suspeito de estuprar sobrinha de 9 anos na zona rural de Teresina Aric Lages/g1 Piauí Um homem de 47 anos foi preso preventivamente nesta quarta-feira (7), em Teresina, suspeito de estuprar uma criança de 9 anos. Segundo a Polícia Civil, o investigado é tio e padrinho da vítima. O g1…",
+        "source": {
+          "id": "br_pi_g1",
+          "name": "g1 Piauí"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T14:40:48.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/88xyywUxQgdn400UkkL8nIMTbwo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/4/v/xBkO50SJmoFtqASzj3iA/edicao-imagens-g1-2026-10-07t120109.454.jpg",
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:40:48.000Z"
+    },
+    {
+      "id": "Q4gLklu_oAh8",
+      "representative": {
+        "id": "Q4gLklu_oAh8",
+        "url": "https://portalodia.com/noticias/brasil/maioria-dos-parlamentares-eleitos-em-2026-tem-baixa-adesao-a-pauta-ambiental-466143.html",
+        "canonicalUrl": "https://portalodia.com/noticias/brasil/maioria-dos-parlamentares-eleitos-em-2026-tem-baixa-adesao-a-pauta-ambiental-466143.html",
+        "title": "Maioria dos parlamentares eleitos em 2026 têm baixa adesão à pauta ambiental",
+        "description": "Análise do Observatório do Clima aponta menor convergência ambiental no Congresso a partir de 2027.",
+        "source": {
+          "id": "br_pi_odia",
+          "name": "O Dia (Piauí)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T10:06:46.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:06:46.000Z"
+    },
+    {
+      "id": "LR2mtAtDC5KD",
+      "representative": {
+        "id": "LR2mtAtDC5KD",
+        "url": "https://portalodia.com/noticias/brasil/a-felicidade-virou-um-espetaculo-publico-466115.html",
+        "canonicalUrl": "https://portalodia.com/noticias/brasil/a-felicidade-virou-um-espetaculo-publico-466115.html",
+        "title": "A felicidade virou um espetáculo público",
+        "description": "As redes sociais transformaram a comparação, que sempre fez parte da experiência humana, em algo permanente. Por: Jefferson Campelo - médico",
+        "source": {
+          "id": "br_pi_odia",
+          "name": "O Dia (Piauí)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T09:39:16.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:39:16.000Z"
+    },
+    {
+      "id": "6OHZqyy9Quem",
+      "representative": {
+        "id": "6OHZqyy9Quem",
+        "url": "https://portalodia.com/noticias/piaui/umidade-do-ar-pode-chegar-a-12-nivel-de-regioes-deserticas-em-180-cidades-do-piaui-466114.html",
+        "canonicalUrl": "https://portalodia.com/noticias/piaui/umidade-do-ar-pode-chegar-a-12-nivel-de-regioes-deserticas-em-180-cidades-do-piaui-466114.html",
+        "title": "Umidade do ar pode chegar a 12%, nível de regiões desérticas, em 180 cidades do Piauí",
+        "description": "Alerta do INMET começou às 8h40 desta quarta-feira (7) e permanece válido até às 23h59; condição indica baixo risco de incêndios florestais e de impactos à saúde da população.",
+        "source": {
+          "id": "br_pi_odia",
+          "name": "O Dia (Piauí)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T09:23:09.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:23:09.000Z"
+    },
+    {
+      "id": "rIsaFB0e3FFz",
+      "representative": {
+        "id": "rIsaFB0e3FFz",
+        "url": "https://cidadeverde.com/ultimas/464257/orcamento-de-teresina-comeca-a-tramitar-veja-valores-de-cada-secretaria",
+        "canonicalUrl": "https://cidadeverde.com/ultimas/464257/orcamento-de-teresina-comeca-a-tramitar-veja-valores-de-cada-secretaria",
+        "title": "Orçamento de Teresina começa a tramitar; veja valores de cada secretaria",
+        "description": "Foto: Arquivo/Cidadeverde.com O projeto que prevê orçamento de R$ 6,3 bilhões para Teresina em 2027 foi lido na pauta da Câmara Municipal nesta quarta-feira (7) e começou a tramitar na Casa",
+        "source": {
+          "id": "br_pi_cidadeverde",
+          "name": "Cidadeverde.com"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T08:10:00.000Z",
+        "imageUrl": "http://cidadeverde.com//cidadeverde.com/assets/uploads/colecoes/2/2026/03/whatsapp_image_2026-03-25_at_10_05_12.jpeg",
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T08:10:00.000Z"
+    },
+    {
+      "id": "zk7symfHkx6Z",
+      "representative": {
+        "id": "zk7symfHkx6Z",
+        "url": "https://cidadeverde.com/saude/464255/sindrome-de-achenbach-entenda-quando-o-dedo-fica-roxo",
+        "canonicalUrl": "https://cidadeverde.com/saude/464255/sindrome-de-achenbach-entenda-quando-o-dedo-fica-roxo",
+        "title": "Síndrome de Achenbach: entenda quando o dedo fica roxo",
+        "description": "Foto: Magnific Imagine olhar para a mão e perceber que um dos dedos ficou roxo de repente. Em alguns casos, antes mesmo da mudança de cor aparece dor, ardência, formigamento ou uma sensação de pressão",
+        "source": {
+          "id": "br_pi_cidadeverde",
+          "name": "Cidadeverde.com"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T08:05:00.000Z",
+        "imageUrl": "http://cidadeverde.com//cidadeverde.com/assets/uploads/colecoes/2/2026/10/dedo_machicado_dor_mao.jpg",
+        "countryCode": "BR",
+        "regionCode": "BR-PI"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T08:05:00.000Z"
+    }
+  ]
+}

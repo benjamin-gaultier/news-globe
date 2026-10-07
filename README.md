@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers 175 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany, Spain, Italy or the United States and it splits into its regions (13 French regions, 16 German Länder, 17 Spanish autonomous communities, 20 Italian regions, the 50 US states and DC), each with its own headlines from regional and local outlets.
+It covers 175 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany, Spain, Italy, the United States, Canada, Australia or Brazil and it splits into its regions (13 French regions, 16 German Länder, 17 Spanish autonomous communities, 20 Italian regions, the 50 US states and DC, 13 Canadian provinces and territories, 8 Australian states and territories, 27 Brazilian states), each with its own headlines from regional and local outlets.
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -34,6 +34,9 @@ apps/web/            React + Vite front end (react-globe.gl)
   src/assets/regions-us.json       The 50 US states and DC, Natural Earth 50m admin-1, trimmed (scripts/prepare-regions.mjs us)
   src/assets/regions-es.json       Spain's 17 autonomous communities, Natural Earth 10m provinces merged, trimmed (scripts/prepare-regions.mjs es)
   src/assets/regions-it.json       Italy's 20 regions, Natural Earth 10m provinces merged, trimmed (scripts/prepare-regions.mjs it)
+  src/assets/regions-ca.json       Canada's 13 provinces and territories, Natural Earth 50m admin-1, trimmed (scripts/prepare-regions.mjs ca)
+  src/assets/regions-au.json       Australia's 8 states and territories, Natural Earth 50m admin-1, trimmed (scripts/prepare-regions.mjs au)
+  src/assets/regions-br.json       Brazil's 26 states and the Federal District, Natural Earth 50m admin-1, trimmed (scripts/prepare-regions.mjs br)
   worker/index.ts, wrangler.jsonc  Cloudflare Worker: static assets + /data/* from KV
 packages/ingest/     Node worker: fetch → normalize → dedupe → cluster → rank → write JSON
   src/sources.config.ts            feeds, authority weights, pipeline settings
@@ -399,6 +402,79 @@ Each of the 20 regions has 5–9 outlets (123 in all): RAI TGR's regional newsro
 Citynews sites (MilanoToday, RomaToday…) return 403 to our User-Agent on and off, and some never let it through, so the ones kept may miss a run. The Caltagirone papers' feeds (Il Messaggero, Il Mattino, Il Gazzettino, Corriere Adriatico, Quotidiano di Puglia) have no item dates. Corriere's working local feeds are `corriere.it/dynamic-feed/rss/section/<City>.xml`; the old `xml2.corriereobjects.it` ones are years stale.
 
 Spanish, Catalan and Italian feeds list episodes and service pieces next to stories: RAI TGR's dated bulletins ("GR Lazio del 07/10/2026 ore 12:10", "Meteo …", "Buongiorno Regione …"), about a third of each TGR feed; IB3's and À Punt's bulletin recaps; press reviews ("Rassegna stampa 07-10-2026 edizioni Calabria"); most-read and daily digests ("Estas son las noticias más leídas este lunes en El Progreso", which two sister papers both publish); live-blog recaps; daily forecasts; horoscopes; what's-on agendas ("Què fer a Barcelona?", "Cosa fare a Milano oggi"); TV listings; and opinion. `isNotNews` drops these; on the 2026-10-07 cache its new patterns matched 274 Spanish and Italian regional titles (242 of them TGR bulletins), and elsewhere only a few Latin American horoscopes and one Colombian digest. Weather news such as storm warnings stays.
+
+**Canada — provinces and territories** (added 2026-10-07)
+
+Each of the 10 provinces and 3 territories has 1–8 regional outlets (56 in all): Radio-Canada's regional desk (`ici.radio-canada.ca/info/rss/<region>/en-continu`, French) in every province, the main papers' local section feeds, and the Global, CTV and CityNews city sites (one source per group and province). CBC's regional feeds hang until timeout for our User-Agent, so CBC is missing everywhere. The candidate lists, with each rejected feed and why, are in [the PR](https://github.com/benjamin-gaultier/news-globe/pull/55). Sources live in `packages/ingest/src/sources/ca-provinces.ts`.
+
+| Province or territory | Outlets | Status |
+| --- | --- | --- |
+| Alberta | Radio-Canada Alberta, Calgary Herald, Edmonton Journal, Global News Calgary / Edmonton, CTV News Calgary / Edmonton | ✅ (CityNews Calgary and Edmonton are about half wire copy) |
+| British Columbia | Radio-Canada Colombie-Britannique, Vancouver Sun, Global News BC, CTV News Vancouver, CHEK News, Castanet | ✅ (Times Colonist 403; Castanet appends a place tag to titles) |
+| Manitoba | Radio-Canada Manitoba, Winnipeg Free Press, Global News Winnipeg, CTV News Winnipeg | ✅ (Winnipeg Sun 429; the Free Press's `/rss/?path=…` ignores the path, so its `/local/feed` is used) |
+| New Brunswick | Radio-Canada Acadie (Nouveau-Brunswick), Telegraph-Journal, Acadie Nouvelle, CTV News Atlantic (New Brunswick) | ✅ |
+| Newfoundland and Labrador | Radio-Canada Acadie (Terre-Neuve-et-Labrador), SaltWire / The Telegram, NTV News | ⚠️ three outlets (VOCM and The Rover 403; The Independent stale) |
+| Northwest Territories | Cabin Radio, NWT News/North (NNSL), CKLB Radio | ⚠️ three outlets (L'Aquilon's feed is HTML) |
+| Nova Scotia | Radio-Canada Acadie (Nouvelle-Écosse), SaltWire / The Chronicle Herald, CTV News Atlantic (Nova Scotia), Global News Halifax, Halifax Examiner | ✅ (Global Halifax and the Halifax Examiner post 1–2 items a day) |
+| Nunavut | Nunatsiaq News, Nunavut News | ⚠️ two outlets (Radio-Canada Grand Nord mixes all three territories and Nunavik) |
+| Ontario | Radio-Canada Ontario, Ottawa Citizen, Toronto Sun, Global News Toronto, CTV News Ontario, CityNews Toronto, Le Droit (Ottawa), ONFR | ✅ (Toronto Star and Hamilton Spectator 429; Global's other Ontario city pages mirror Global Toronto) |
+| Prince Edward Island | Radio-Canada Acadie (Île-du-Prince-Édouard), SaltWire / The Guardian, CTV News Atlantic (P.E.I.) | ⚠️ three outlets (PEI Canada / Eastern Graphic 429) |
+| Quebec | Radio-Canada Québec, La Presse (Grand Montréal), Le Devoir (Politique québécoise), Le Soleil, Le Journal de Montréal / de Québec, CTV News Montreal, Global News Montreal, CityNews Montreal | ✅ (the Montreal Gazette has no local feed; Le Soleil's and Le Devoir's section feeds are used, as their main feeds carry press releases or national news) |
+| Saskatchewan | Radio-Canada Saskatchewan, Global News Regina / Saskatoon, CTV News Regina / Saskatoon, Prince Albert Daily Herald | ✅ (Leader-Post and StarPhoenix have no local feed; paNOW and CJME 403) |
+| Yukon | Yukon News | ⚠️ one outlet (Whitehorse Star's certificate has expired; CKRW 403) |
+
+**Australia — states and territories** (added 2026-10-07)
+
+Each of the 6 states and 2 mainland territories has 3–7 outlets (39 in all): ABC's state desk (each state channel's "latest stories" collection; the state "top stories" feeds mix in national and world news), the Nine papers' state sections, 7NEWS's state feeds, ACM and Star News Group regional papers, and digital locals. Every News Corp feed (Daily Telegraph, Herald Sun, Courier-Mail, The Advertiser, The Mercury, NT News and the regional dailies) answers with an empty body, so News Corp is missing everywhere. The candidate lists are in [the PR](https://github.com/benjamin-gaultier/news-globe/pull/54). Sources live in `packages/ingest/src/sources/au-states.ts`.
+
+| State or territory | Outlets | Status |
+| --- | --- | --- |
+| Australian Capital Territory | ABC News Canberra, The Canberra Times, Region Canberra, Canberra Daily | ✅ (CityNews 403) |
+| New South Wales | ABC News NSW, Sydney Morning Herald (NSW), Guardian Australia (NSW), 7NEWS Sydney, Newcastle Herald, Illawarra Mercury, The Echo (Byron Shire) | ✅ |
+| Northern Territory | ABC News NT, 7NEWS Darwin, Katherine Times | ⚠️ three outlets, about one story a day each from 7NEWS and the Katherine Times (NT News empty; NT Independent's feed doesn't parse) |
+| Queensland | ABC News Queensland, Brisbane Times, 7NEWS Brisbane, Noosa Today, Gympie Today, North Queensland Register | ✅ but no regional daily: every News Corp regional paper returns an empty feed (InQueensland 403) |
+| South Australia | ABC News SA, 7NEWS Adelaide, Stock Journal, Glam Adelaide | ⚠️ light: Glam Adelaide is mostly food and events (The Advertiser empty; InDaily has no feed; the ACM country papers 403) |
+| Tasmania | ABC News Tasmania, The Examiner, Pulse Tasmania, Tasmanian Times | ✅ (The Mercury empty; The Advocate shares The Examiner's copy) |
+| Victoria | ABC News Victoria, The Age (Victoria), 7NEWS Melbourne, Bendigo Advertiser, Sunraysia Daily, Gippsland Times | ✅ (Herald Sun and Geelong Advertiser empty) |
+| Western Australia | ABC News WA, The West Australian (WA), WAtoday, Business News (WA), Farm Weekly | ✅ (The West's WA section has some national lifestyle and business copy) |
+
+**Brazil — states** (added 2026-10-07)
+
+Each of the 26 states and the Federal District has 3–6 outlets (119 in all): g1's state section (one source per state, with its interior editions as extra feeds), the main dailies' local sections, and state news portals. Apart from g1, every outlet is independent of Globo, so Globo's affiliates' own sites (NSC, Gazetaweb, iBahia, Jornal da Paraíba…) are left out. The candidate lists, with each rejected feed and why, are in the PRs: [North and Northeast](https://github.com/benjamin-gaultier/news-globe/pull/57), [Centre-West, Southeast and South](https://github.com/benjamin-gaultier/news-globe/pull/58). Sources live in `packages/ingest/src/sources/br-states-*.ts`.
+
+| State | Outlets | Status |
+| --- | --- | --- |
+| Acre | g1 Acre, A Gazeta do Acre, ac24horas, ContilNet (Polícia), O Alto Acre | ✅ (ContilNet's police desk only; its main feed is national) |
+| Alagoas | g1 Alagoas, TNH1, Cada Minuto, Alagoas 24 Horas, 7Segundos | ✅ |
+| Amapá | g1 Amapá, Diário do Amapá, Portal SelesNafes | ⚠️ three outlets |
+| Amazonas | g1 Amazonas, Em Tempo, Amazonas1, Manaus Alerta | ⚠️ Amazonas1 and Manaus Alerta mix in national news (A Crítica has no feed; D24AM 403) |
+| Bahia | g1 Bahia, A Tarde, Bahia Notícias (Municípios), Acorda Cidade (Feira de Santana), Jornal Grande Bahia | ✅ (Correio's feed is stale; BNews 403) |
+| Ceará | g1 Ceará, O Povo, CN7, Site Miséria (Cariri) | ✅ (Diário do Nordeste's feeds are stale) |
+| Espírito Santo | g1 Espírito Santo, A Gazeta, A Tribuna (Tribuna Online), Folha Vitória (TV Vitória), ES Hoje | ✅ |
+| Federal District | g1 Distrito Federal, Metrópoles (Distrito Federal), Jornal de Brasília | ⚠️ three outlets, all DF news rather than national politics (Correio Braziliense's feed stopped in 2023; Agência Brasília 403) |
+| Goiás | g1 Goiás, A Redação, Goiás 24 Horas, Portal Contexto (Anápolis), Folha Z | ✅ (O Popular, Mais Goiás and Jornal Opção 403) |
+| Maranhão | g1 Maranhão, O Imparcial, Jornal Pequeno, Blog do Gilberto Léda | ✅ |
+| Mato Grosso | g1 Mato Grosso, Só Notícias, HiperNotícias, Leia Agora | ✅ (Olhar Direto's XML is malformed; MidiaNews and RD News 403) |
+| Mato Grosso do Sul | g1 Mato Grosso do Sul, Campo Grande News, JD1 Notícias, Investiga MS | ✅ (Midiamax 403; Correio do Estado has no feed) |
+| Minas Gerais | g1 Minas Gerais, Tribuna de Minas (Juiz de Fora), Diário do Comércio, Metrópoles (Minas Gerais), BHAZ | ✅ (Estado de Minas's only feed is mostly national; O Tempo and Itatiaia have no feed) |
+| Paraná | g1 Paraná, Gazeta do Povo (Paraná), Bem Paraná, Folha de Londrina, Banda B, Massa News | ✅ (Gazeta do Povo's Paraná feed posts about two a day) |
+| Paraíba | g1 Paraíba, Portal Correio, ClickPB, WSCOM, MaisPB | ✅ |
+| Pará | g1 Pará, Diário do Pará (DOL), Correio de Carajás, Ver-o-Fato | ✅ (O Liberal's only feed is mostly entertainment) |
+| Pernambuco | g1 Pernambuco, Jornal do Commercio, Blog do Carlos Britto (Petrolina), Blog do Nill Júnior (Pajeú) | ⚠️ few newspapers (Diario de Pernambuco 403; Folha de Pernambuco's feed 404s) |
+| Piauí | g1 Piauí, O Dia (Piauí), Cidadeverde.com | ⚠️ three outlets (Meio Norte has no feed; GP1's items have no dates) |
+| Rio Grande do Norte | g1 Rio Grande do Norte, Tribuna do Norte, Agora RN, Saiba Mais | ✅ |
+| Rio Grande do Sul | g1 Rio Grande do Sul, O Sul, Sul21, Rádio Guaíba, ABC+ (Vale do Sinos) | ✅ (GZH's XML is malformed; Correio do Povo's feeds are a day stale) |
+| Rio de Janeiro | g1 Rio de Janeiro, O Dia, O São Gonçalo, Agenda do Poder, Enfoco (Niterói) | ✅ (O Globo and Extra are Globo's, like g1; Jornal do Brasil and Diário do Rio 403) |
+| Rondônia | g1 Rondônia, Rondoniagora, Extra de Rondônia, Expressão Rondônia | ⚠️ Expressão Rondônia mixes in national news (Rondônia ao Vivo's item dates are wrong) |
+| Roraima | g1 Roraima, Folha de Boa Vista, Roraima 1, Roraima em Foco | ✅ |
+| Santa Catarina | g1 Santa Catarina, OCP News (Jaraguá do Sul), O Município (Brusque), O Blumenauense, ClicRDC (Chapecó) | ✅ but no statewide daily besides g1 (NSC produces g1 SC; ND+ is mostly national) |
+| Sergipe | g1 Sergipe, Infonet, Portal A8 (TV Atalaia), Fan F1, NE Notícias | ✅ |
+| São Paulo | g1 São Paulo, Estadão (São Paulo), Folha de S.Paulo (Cotidiano), Metrópoles (São Paulo), Agência Mural, Guarulhos Hoje | ✅ (Folha Cotidiano is about half national; the Sampi papers' feeds return HTML) |
+| Tocantins | g1 Tocantins, Gazeta do Cerrado, Atitude Tocantins | ⚠️ three outlets (Jornal do Tocantins 403) |
+
+Many Brazilian portals answer 403 to our User-Agent, and many dailies have no feed or one that is mostly national news; the feeds were captured in the week after the first round of the 2026 elections, so national campaign stories leak into some states as singletons.
+
+Canadian, Australian and Brazilian feeds list episodes and service pieces next to stories: Radio-Canada's and Global's newscasts ("Le téléjournal Acadie du 6 octobre", "WATCH: Global News Hour at 6 BC: Oct. 6"), La Presse's "Transports en direct" traffic updates, live-blog wraps ("As it happened: WA news on …"), dated podcasts and galleries, columns shared across SaltWire's papers, and Canberra Daily's property listings ("5 Berra Close, Ngunnawal"). g1 publishes a programme page per bulletin per day ("VÍDEOS: Bom Dia PE de quarta-feira, …", "Assista ao GR1") and, after the election, one result page per municipality and polling place ("Resultado das eleições 2026 em Torres (RS): …"), about 1,400 titles on the 2026-10-07 cache; portals add lottery results, job listings, "onde assistir" TV guides, legal notices, obituary lists and dated bulletins ("07/10/2026 - Assista agora ao Tribuna Notícias", "Cartórios - 07/10/2026", which formed a fake cluster on the shared date alone). `isNotNews` drops these; elsewhere its new patterns matched only one Italian magazine issue.
 
 **United States**
 
@@ -2437,7 +2513,7 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 
 **GDELT adapter.** Interface and stub are in [adapters/gdelt.ts](packages/ingest/src/adapters/gdelt.ts). The plan is to query the free GDELT DOC 2.0 API (`mode=ArtList`, `sourcecountry:<FIPS>`, `sourcelang:`, 6 h timespan) through the same `HttpCache` throttle. Each article's domain would count as its outlet, with a domain → authority table. GDELT uses FIPS 10-4 codes rather than ISO, so an ISO→FIPS map is needed. This is the path to covering most countries without curating feeds one by one. It returns no snippets, so `description` would be `null`.
 
-**More regions.** France, Germany, Spain, Italy and the US have regions (see Sources). Adding a country means adding its entries to `REGIONS` ([shared](packages/shared/src/index.ts)), sources with `region`, and an outline file next to `regions-fr.json`, registered in `REGION_SHAPES` ([GlobeView.tsx](apps/web/src/components/GlobeView.tsx)). Natural Earth 10m admin-1 has states and provinces for most countries. Later, tag national outlets' stories with a region from place names in titles.
+**More regions.** France, Germany, Spain, Italy, the US, Canada, Australia and Brazil have regions (see Sources). Adding a country means adding its entries to `REGIONS` ([shared](packages/shared/src/index.ts)), sources with `region`, and an outline file next to `regions-fr.json`, registered in `REGION_SHAPES` ([GlobeView.tsx](apps/web/src/components/GlobeView.tsx)). Natural Earth 10m admin-1 has states and provinces for most countries. Later, tag national outlets' stories with a region from place names in titles.
 
 **Clustering.** Use the snippet's top tokens as a weaker second signal, and add a time-decay so a story from 40 hours ago doesn't absorb today's follow-up.
 
@@ -2450,4 +2526,5 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 - German Länder shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:10m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when Germany is opened.
 - US state shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:50m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when the United States is opened.
 - Spanish and Italian region shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:10m admin-1 (public domain), whose provinces are merged into regions along their shared borders (topojson), coordinates rounded to 0.01°. Ceuta and Melilla are left out. Loaded only when Spain or Italy is opened.
+- Canadian, Australian and Brazilian region shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:50m admin-1 (public domain), coordinates rounded to 0.01°. Australia's Jervis Bay Territory is left out. Loaded only when Canada, Australia or Brazil is opened.
 - `data/sample/` is a real `pnpm ingest` output from 2026-10-06. Its relative times will read "days ago" until you run an ingest.

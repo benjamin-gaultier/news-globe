@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "BR",
+  "countryName": "Brazil",
+  "regionCode": "BR-SP",
+  "regionName": "São Paulo",
+  "updatedAt": "2026-10-07T15:34:18.690Z",
+  "clusters": [
+    {
+      "id": "TmGvjO2UeZY_",
+      "representative": {
+        "id": "TmGvjO2UeZY_",
+        "url": "https://g1.globo.com/sp/campinas-regiao/eleicoes/2026/noticia/2026/10/07/candidato-a-deputado-federal-que-teve-38-votos-ja-disputou-10-eleicoes-com-nomes-diferentes-conheca.ghtml",
+        "canonicalUrl": "https://g1.globo.com/sp/campinas-regiao/eleicoes/2026/noticia/2026/10/07/candidato-a-deputado-federal-que-teve-38-votos-ja-disputou-10-eleicoes-com-nomes-diferentes-conheca.ghtml",
+        "title": "10 eleições, 10 nomes: candidato que foi de 'capivara' a 'pastor' em 22 anos de tentativas nunca se elegeu",
+        "description": "Candidato a deputado da região de Campinas com menos votos em 2026, Marco Antonio de Paula já disputou 10 eleições com nomes de urna diferentes Reprodução/TSE Aos 55 anos, Marco Antonio de Paula passou os últimos 22 anos tentando um cargo eletivo na política. Menos votado entre todos os candidatos…",
+        "source": {
+          "id": "br_sp_g1",
+          "name": "g1 São Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T09:00:00.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/5Wigi0aqcM537x0C6wmg88TY114=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/y/ITa8A9RIKtWJMvYYPezQ/design-sem-nome-2026-10-05t183618.329.jpg",
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [
+        {
+          "id": "0sjtOIybFkPN",
+          "url": "https://www.metropoles.com/sao-paulo/candidato-disputou-nomes-diferentes",
+          "canonicalUrl": "https://www.metropoles.com/sao-paulo/candidato-disputou-nomes-diferentes",
+          "title": "\"Capivara\": candidato de SP já disputou 10 eleições com nomes diferentes",
+          "description": "Candidato a deputado federal derrotado em Campinas, Marco Antonio já usou nomes diferentes em 10 eleições, como \"Capivara\"",
+          "source": {
+            "id": "br_sp_metropoles",
+            "name": "Metrópoles (São Paulo)"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T15:14:40.000Z",
+          "imageUrl": "https://images.metroimg.com/2026/10/design-sem-nome-65.png",
+          "countryCode": "BR",
+          "regionCode": "BR-SP"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:14:40.000Z"
+    },
+    {
+      "id": "TcIWID3nMMxt",
+      "representative": {
+        "id": "TcIWID3nMMxt",
+        "url": "https://www.estadao.com.br/sao-paulo/loja-bras-reabre-dono-promocao-tv-r-20-nao-repetida-apos-tumulto-npr/",
+        "canonicalUrl": "https://www.estadao.com.br/sao-paulo/loja-bras-reabre-dono-promocao-tv-r-20-nao-repetida-apos-tumulto-npr/",
+        "title": "Loja no Brás reabre após tumulto e dono diz que promoção de TV por R$ 20 não será repetida",
+        "description": null,
+        "source": {
+          "id": "br_sp_estadao",
+          "name": "Estadão (São Paulo)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T22:32:23.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [
+        {
+          "id": "_z6Sjts3Jpcj",
+          "url": "https://www.metropoles.com/sao-paulo/loja-que-causou-tumulto-no-bras-ao-vender-tv-por-r-20-reabre-sem-promocoes",
+          "canonicalUrl": "https://www.metropoles.com/sao-paulo/loja-que-causou-tumulto-no-bras-ao-vender-tv-por-r-20-reabre-sem-promocoes",
+          "title": "Loja que causou tumulto no Brás ao vender TV por R$ 20 reabre sem promoções",
+          "description": "A inauguração da loja, na segunda-feira (6/10), amontoou clientes no Brás, e a PM precisou ser acionada por riscos de segurança",
+          "source": {
+            "id": "br_sp_metropoles",
+            "name": "Metrópoles (São Paulo)"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T14:53:09.000Z",
+          "imageUrl": "https://images.metroimg.com/2026/10/design-sem-nome-2026-10-05t150215-875-1.png",
+          "countryCode": "BR",
+          "regionCode": "BR-SP"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T14:53:09.000Z"
+    },
+    {
+      "id": "HX01vvrAHiT0",
+      "representative": {
+        "id": "HX01vvrAHiT0",
+        "url": "https://www.estadao.com.br/sao-paulo/bombeiro-prisao-estudante-medicina-taubate-morte-npr/",
+        "canonicalUrl": "https://www.estadao.com.br/sao-paulo/bombeiro-prisao-estudante-medicina-taubate-morte-npr/",
+        "title": "Bombeiro acusado de matar estudante de Medicina em SP pode ser preso nesta terça-feira",
+        "description": null,
+        "source": {
+          "id": "br_sp_estadao",
+          "name": "Estadão (São Paulo)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T16:51:21.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [
+        {
+          "id": "wG4mjWvniSS4",
+          "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/10/07/video-apos-se-entregar-bombeiro-acusado-de-matar-estudante-de-medicina-e-levado-para-delegacia-em-sp.ghtml",
+          "canonicalUrl": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/10/07/video-apos-se-entregar-bombeiro-acusado-de-matar-estudante-de-medicina-e-levado-para-delegacia-em-sp.ghtml",
+          "title": "VÍDEO: Bombeiro que matou estudante de medicina a tiros em Taubaté é preso em SP",
+          "description": "Bombeiro acusado de matar estudante de medicina é levado para delegacia em SP O bombeiro militar Marcos Paulo Fujarra de Oliveira, que matou a tiros o estudante de Medicina Bruno Hashimura San Juliano, de 23 anos, foi preso na manhã desta quarta-feira (7), em São Paulo. Imagens exclusivas feitas…",
+          "source": {
+            "id": "br_sp_g1",
+            "name": "g1 São Paulo"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T13:18:02.000Z",
+          "imageUrl": "https://s2-g1.glbimg.com/UCnkRCyAG29OmL_v2AIgZOP1txk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/k/h/iUq7jJSTWtZJqFpWKYKg/texto-do-seu-paragrafo-2026-10-07t103334.717.png",
+          "countryCode": "BR",
+          "regionCode": "BR-SP"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:18:02.000Z"
+    },
+    {
+      "id": "qwY5-Lk3xO9q",
+      "representative": {
+        "id": "qwY5-Lk3xO9q",
+        "url": "https://www.estadao.com.br/sao-paulo/trivia-trens-retoma-de-forma-gradual-operacao-das-linhas-11-12-e-13-veja-como-funciona-npr/",
+        "canonicalUrl": "https://www.estadao.com.br/sao-paulo/trivia-trens-retoma-de-forma-gradual-operacao-das-linhas-11-12-e-13-veja-como-funciona-npr/",
+        "title": "Trivia Trens retoma de forma gradual operação das linhas 11, 12 e 13; veja como funciona",
+        "description": null,
+        "source": {
+          "id": "br_sp_estadao",
+          "name": "Estadão (São Paulo)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T13:08:32.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [
+        {
+          "id": "i-XZUMqlWr0A",
+          "url": "https://www.metropoles.com/sao-paulo/trivia-trens-retoma-linha-13-falhas",
+          "canonicalUrl": "https://www.metropoles.com/sao-paulo/trivia-trens-retoma-linha-13-falhas",
+          "title": "Trivia Trens retoma operação gradual da Linha 13 após falhas e fogo em trem",
+          "description": "Linha 13-Jade será operada pela empresa sob supervisão da CPTM. Linhas 11-Coral e 12-Safira seguem com a estatal temporariamente",
+          "source": {
+            "id": "br_sp_metropoles",
+            "name": "Metrópoles (São Paulo)"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T11:06:59.000Z",
+          "imageUrl": "https://images.metroimg.com/2025/03/21133443/CPTM-SP.jpg",
+          "countryCode": "BR",
+          "regionCode": "BR-SP"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:08:32.000Z"
+    },
+    {
+      "id": "xFuF9I2PDjsC",
+      "representative": {
+        "id": "xFuF9I2PDjsC",
+        "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/07/pf-faz-operacao-contra-trafico-de-cocaina-que-usava-funcionarios-no-aeroporto-internacional-de-sao-paulo-em-guarulhos.ghtml",
+        "canonicalUrl": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/07/pf-faz-operacao-contra-trafico-de-cocaina-que-usava-funcionarios-no-aeroporto-internacional-de-sao-paulo-em-guarulhos.ghtml",
+        "title": "PF faz operação contra tráfico de cocaína que usava funcionários no Aeroporto Internacional de São Paulo, em Guarulhos",
+        "description": "PF mira esquema de tráfico internacional de drogas no Aeroporto de Guarulhos, SP A Polícia Federal deflagrou nesta quarta-feira (7) uma operação contra uma organização criminosa suspeita de enviar cocaína para o exterior por meio do Aeroporto Internacional de São Paulo, em Guarulhos. Segundo as…",
+        "source": {
+          "id": "br_sp_g1",
+          "name": "g1 São Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T12:54:45.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/epvPLTG-PR8jJj2vDu3G1EjgfqE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/S/VodhzvSUqiVx4OfB2VBg/b297850d-4543-4c2b-bb5f-0a133959db8f.png",
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [
+        {
+          "id": "PK5vvK5TsEHk",
+          "url": "https://www.metropoles.com/sao-paulo/terceirizados-do-aeroporto-de-guarulhos-sao-alvo-de-operacao-contra-trafico",
+          "canonicalUrl": "https://www.metropoles.com/sao-paulo/terceirizados-do-aeroporto-de-guarulhos-sao-alvo-de-operacao-contra-trafico",
+          "title": "Terceirizados do Aeroporto de Guarulhos são alvo de operação contra tráfico",
+          "description": "Polícia Federal deflagra, nesta quarta-feira (7/10), operação para combater envio de cocaína para o exterior pelo Aeroporto Internacional",
+          "source": {
+            "id": "br_sp_metropoles",
+            "name": "Metrópoles (São Paulo)"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T11:19:38.000Z",
+          "imageUrl": "https://images.metroimg.com/2026/10/operacao-pf-internacional.jpg",
+          "countryCode": "BR",
+          "regionCode": "BR-SP"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T12:54:45.000Z"
+    },
+    {
+      "id": "nYdPtkjPTIcM",
+      "representative": {
+        "id": "nYdPtkjPTIcM",
+        "url": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/10/07/operacao-do-gaeco-mira-fornecedor-de-caca-niqueis-de-sp-ligado-a-grupo-criminoso-do-jogo-do-bicho-em-uberlandia.ghtml",
+        "canonicalUrl": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/10/07/operacao-do-gaeco-mira-fornecedor-de-caca-niqueis-de-sp-ligado-a-grupo-criminoso-do-jogo-do-bicho-em-uberlandia.ghtml",
+        "title": "Operação do Gaeco mira fornecedor de caça-níqueis de SP ligado a grupo criminoso do jogo do bicho em Uberlândia",
+        "description": "Operação mira fornecedor de caça-níqueis de SP ligado a grupo criminoso de MG O Grupo de Atuação Especial de Combate ao Crime Organizado (Gaeco) de Uberlândia, no Triângulo Mineiro, realiza na manhã desta quarta-feira (7) a 3ª fase da Operação Trevo do Infortúnio, que investiga uma organização…",
+        "source": {
+          "id": "br_sp_g1",
+          "name": "g1 São Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T12:49:55.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/CoPrO7xthN2lrJ_OEZXAEXvcVyU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/h/FTW2ChRoyAf374HC0B1g/design-sem-nome-14-.jpg",
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [
+        {
+          "id": "hvMfLCc726LB",
+          "url": "https://www.metropoles.com/sao-paulo/fornecedor-de-caca-niqueis-em-sp-e-alvo-de-operacao-contra-jogos-de-azar",
+          "canonicalUrl": "https://www.metropoles.com/sao-paulo/fornecedor-de-caca-niqueis-em-sp-e-alvo-de-operacao-contra-jogos-de-azar",
+          "title": "Fornecedor de caça-níqueis em SP é alvo de operação contra jogos de azar",
+          "description": "Considerado um dos principais fornecedores de equipamentos voltados a jogos de azar no país foi alvo de três ordens judiciais nesta 4ª",
+          "source": {
+            "id": "br_sp_metropoles",
+            "name": "Metrópoles (São Paulo)"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T10:01:24.000Z",
+          "imageUrl": "https://images.metroimg.com/2026/10/operacao-caca-gaeco.jpg",
+          "countryCode": "BR",
+          "regionCode": "BR-SP"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T12:49:55.000Z"
+    },
+    {
+      "id": "QyXdcga-0i5i",
+      "representative": {
+        "id": "QyXdcga-0i5i",
+        "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/10/06/irma-diz-que-debora-do-batom-nao-sabe-se-podera-usar-redes-sociais-mas-comemora-semiaberto.ghtml",
+        "canonicalUrl": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/10/06/irma-diz-que-debora-do-batom-nao-sabe-se-podera-usar-redes-sociais-mas-comemora-semiaberto.ghtml",
+        "title": "Irmã diz que Débora do Batom não sabe se poderá usar redes sociais, mas comemora semiaberto",
+        "description": "Irmã diz que Débora do Batom não sabe se poderá usar redes sociais, mas comemora semiabert Claudia Rodrigues, irmã de Débora Rodrigues dos Santos, conhecida como \"Débora do Batom\", usou as redes sociais para celebrar a autorização do Supremo Tribunal Federal (STF) para que a cabeleireira passe a…",
+        "source": {
+          "id": "br_sp_g1",
+          "name": "g1 São Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T00:28:10.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/0XdVDiOh-wdQBcc7WuWA4Yv5HdQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/x/O/PiQv68TRChuuSyNVop9Q/mulher-batom-estatua-8-de-janeiro-1-.jpeg",
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [
+        {
+          "id": "dCopA1Goxn82",
+          "url": "https://www.metropoles.com/sao-paulo/irma-diz-que-nao-sabe-se-debora-do-batom-pode-ter-redes-sociais",
+          "canonicalUrl": "https://www.metropoles.com/sao-paulo/irma-diz-que-nao-sabe-se-debora-do-batom-pode-ter-redes-sociais",
+          "title": "Irmã diz que não sabe se \"Débora do Batom\" pode ter redes sociais",
+          "description": "Moradora de Paulínia (SP), Claudia Rodrigues, contou que se reuniu com advogados para entender regras do semiaberto",
+          "source": {
+            "id": "br_sp_metropoles",
+            "name": "Metrópoles (São Paulo)"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-07T02:16:43.000Z",
+          "imageUrl": "https://images.metroimg.com/2026/10/debora-do-batom.jpg",
+          "countryCode": "BR",
+          "regionCode": "BR-SP"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T02:16:43.000Z"
+    },
+    {
+      "id": "kYUqbyiTq_VB",
+      "representative": {
+        "id": "kYUqbyiTq_VB",
+        "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/07/policia-apura-serie-de-mortes-suspeitas-de-execucao-em-sp-corpos-foram-ensacados-decapitados-ou-queimados.ghtml",
+        "canonicalUrl": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/07/policia-apura-serie-de-mortes-suspeitas-de-execucao-em-sp-corpos-foram-ensacados-decapitados-ou-queimados.ghtml",
+        "title": "Polícia apura série de mortes suspeitas de execução em SP; corpos foram ensacados, decapitados ou queimados",
+        "description": "Corpo é encontrado no dia 5 de setembro completamente ensacado e amarrado em rua do Jabaquara, Zona Sul de São Paulo Reprodução/Redes sociais A Polícia Civil investiga ao menos nove mortes com características de execução registradas na cidade de São Paulo em um intervalo de aproximadamente 30…",
+        "source": {
+          "id": "br_sp_g1",
+          "name": "g1 São Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T15:08:57.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/BNuROGbml87PxILcVttxwKo3VlI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/M/u4uVlTTAARGLaCBXAk5g/fotojet-14-.jpg",
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:08:57.000Z"
+    },
+    {
+      "id": "_bfzBq8hu8cf",
+      "representative": {
+        "id": "_bfzBq8hu8cf",
+        "url": "https://www.metropoles.com/sao-paulo/mpsp-denuncia-policiais-acusados-de-liberar-cargas-ilegais-mediante-propina",
+        "canonicalUrl": "https://www.metropoles.com/sao-paulo/mpsp-denuncia-policiais-acusados-de-liberar-cargas-ilegais-mediante-propina",
+        "title": "MPSP denuncia policiais acusados de liberar cargas ilegais mediante propina",
+        "description": "Segundo o MPSP, os policiais civis faziam uso do próprio cargo para abordar caminhões com produtos ilegais e cobrar propina para liberá-los",
+        "source": {
+          "id": "br_sp_metropoles",
+          "name": "Metrópoles (São Paulo)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T15:04:42.000Z",
+        "imageUrl": "https://images.metroimg.com/2026/09/MPSP.jpg",
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:04:42.000Z"
+    },
+    {
+      "id": "5SIWp3T79XFL",
+      "representative": {
+        "id": "5SIWp3T79XFL",
+        "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2026/10/07/outubro-rosa-confira-acoes-de-prevencao-ao-cancer-de-mama-e-do-colo-do-utero.ghtml",
+        "canonicalUrl": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2026/10/07/outubro-rosa-confira-acoes-de-prevencao-ao-cancer-de-mama-e-do-colo-do-utero.ghtml",
+        "title": "Outubro Rosa: confira ações de prevenção ao câncer de mama e do colo do útero",
+        "description": "Ônibus da Mulher em Sorocaba (SP) Reprodução / TV TEM As cidades de Sorocaba e Itupeva (SP) realizam, ao longo do mês, uma programação especial voltada ao Outubro Rosa. A campanha oferece ações de conscientização, exames e orientações sobre a prevenção e o diagnóstico precoce do câncer de mama e…",
+        "source": {
+          "id": "br_sp_g1",
+          "name": "g1 São Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T14:51:20.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/pMzllxbSft2hPBBU3D_88zNm-88=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/o/J/YdlP0BQqWnCpd8JaaPJw/sor-tn1-071026-frame-24773.jpeg",
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:51:20.000Z"
+    },
+    {
+      "id": "8Pf8ESmCaKv4",
+      "representative": {
+        "id": "8Pf8ESmCaKv4",
+        "url": "https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2026/10/07/homem-e-morto-dentro-de-casa-em-franca-sp-amigo-se-apresenta-a-policia-e-diz-que-usou-picareta.ghtml",
+        "canonicalUrl": "https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2026/10/07/homem-e-morto-dentro-de-casa-em-franca-sp-amigo-se-apresenta-a-policia-e-diz-que-usou-picareta.ghtml",
+        "title": "Homem é morto dentro de casa em Franca, SP; amigo se apresenta à polícia e diz que usou picareta",
+        "description": "Homem é morto dentro de casa em Franca, SP Um homem foi morto dentro de uma casa na Vila Chico Júlio, na região da Estação, em Franca (SP), na madrugada desta quarta-feira (7). Um amigo da vítima foi até a delegacia, se apresentou e disse ter atingido o homem com golpes de picareta na cabeça…",
+        "source": {
+          "id": "br_sp_g1",
+          "name": "g1 São Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T14:38:16.000Z",
+        "imageUrl": "https://s2-g1.glbimg.com/g7i44l5rAcyZyX4JMWI-Gr7KG0E=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/p/oCinV9Sdmf3PvC0DKXeA/molduras-g1-4-.png",
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:38:16.000Z"
+    },
+    {
+      "id": "NXkWR-6hEeYo",
+      "representative": {
+        "id": "NXkWR-6hEeYo",
+        "url": "https://www.metropoles.com/sao-paulo/menino-se-desespera-e-reza-durante-assalto-a-adega-da-familia-em-sp",
+        "canonicalUrl": "https://www.metropoles.com/sao-paulo/menino-se-desespera-e-reza-durante-assalto-a-adega-da-familia-em-sp",
+        "title": "Menino se desespera e reza durante assalto à adega da família em SP",
+        "description": "O assalto ocorreu no último sábado (3/10), em uma adega localizada na Vila Homero Thon. Câmeras de segurança registraram o crime",
+        "source": {
+          "id": "br_sp_metropoles",
+          "name": "Metrópoles (São Paulo)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T14:27:28.000Z",
+        "imageUrl": "https://images.metroimg.com/2026/10/roubo-adega-reza.jpg",
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:27:28.000Z"
+    },
+    {
+      "id": "-eMzAAouA4m6",
+      "representative": {
+        "id": "-eMzAAouA4m6",
+        "url": "https://www.metropoles.com/sao-paulo/deputados-estaduais-de-sp-tem-patrimonio-entre-r-25631-e-r-51-milhoes",
+        "canonicalUrl": "https://www.metropoles.com/sao-paulo/deputados-estaduais-de-sp-tem-patrimonio-entre-r-25631-e-r-51-milhoes",
+        "title": "Deputados estaduais de SP têm patrimônio entre R$ 256,31 e R$ 51 milhões",
+        "description": "Os valores foram declarados à Justiça Eleitoral. A deputada mais votada da história do estado, Eduardo Campopiano (PL), não declarou bens",
+        "source": {
+          "id": "br_sp_metropoles",
+          "name": "Metrópoles (São Paulo)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T13:30:08.000Z",
+        "imageUrl": "https://images.metroimg.com/2026/10/design-sem-nome-36-1.png",
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:30:08.000Z"
+    },
+    {
+      "id": "0cST0WtrwOE8",
+      "representative": {
+        "id": "0cST0WtrwOE8",
+        "url": "https://www.estadao.com.br/sao-paulo/vitima-de-uma-violencia-humanamente-inexplicavel-diz-boulos-sobre-morte-do-tio-apos-atropelamento-npr/",
+        "canonicalUrl": "https://www.estadao.com.br/sao-paulo/vitima-de-uma-violencia-humanamente-inexplicavel-diz-boulos-sobre-morte-do-tio-apos-atropelamento-npr/",
+        "title": "‘Vítima de uma violência humanamente inexplicável’, diz Boulos sobre morte do tio após atropelamento",
+        "description": null,
+        "source": {
+          "id": "br_sp_estadao",
+          "name": "Estadão (São Paulo)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T02:50:12.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T02:50:12.000Z"
+    },
+    {
+      "id": "TrZpeBXqbZF2",
+      "representative": {
+        "id": "TrZpeBXqbZF2",
+        "url": "https://www.estadao.com.br/sao-paulo/incendio-grande-fabrica-jabaquara-zona-sul-sao-paulo-npr/",
+        "canonicalUrl": "https://www.estadao.com.br/sao-paulo/incendio-grande-fabrica-jabaquara-zona-sul-sao-paulo-npr/",
+        "title": "Incêndio de grandes proporções atinge fábrica no Jabaquara, na zona sul de São Paulo",
+        "description": null,
+        "source": {
+          "id": "br_sp_estadao",
+          "name": "Estadão (São Paulo)"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-07T02:11:29.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": "BR-SP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T02:11:29.000Z"
+    }
+  ]
+}

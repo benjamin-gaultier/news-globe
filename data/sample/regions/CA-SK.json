@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "CA",
+  "countryName": "Canada",
+  "regionCode": "CA-SK",
+  "regionName": "Saskatchewan",
+  "updatedAt": "2026-10-07T15:34:18.690Z",
+  "clusters": [
+    {
+      "id": "f7hUisJR5zlo",
+      "representative": {
+        "id": "f7hUisJR5zlo",
+        "url": "https://globalnews.ca/news/12089637/saskatchewan-teen-charged-terror-offences-764-network/",
+        "canonicalUrl": "https://globalnews.ca/news/12089637/saskatchewan-teen-charged-terror-offences-764-network/",
+        "title": "Sask. teen faces terrorism charges related to ‘764’ group: RCMP",
+        "description": "The RCMP has urged parents to remain vigilant about their children’s online activity and to report any suspicious behaviour to police.",
+        "source": {
+          "id": "ca_sk_global",
+          "name": "Global News Regina / Saskatoon"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T16:32:03.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/09/f927967d1f4168e2c78e4239ebfb3398c602f3f1ccde3f979afe9edcbe0424cd_d4e5ca.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [
+        {
+          "id": "rAGJMv8_f7fu",
+          "url": "https://www.ctvnews.ca/regina/article/saskatchewan-teenager-faces-terrorism-charges-over-764-connected-activity-rcmp/",
+          "canonicalUrl": "https://www.ctvnews.ca/regina/article/saskatchewan-teenager-faces-terrorism-charges-over-764-connected-activity-rcmp/",
+          "title": "Saskatchewan teenager faces terrorism charges over 764-connected activity: RCMP",
+          "description": "RCMP Federal Policing has charged an 18-year-old from Yorkton with terrorism-related offences over a series of videos connected to what RCMP describe as a violent online group.",
+          "source": {
+            "id": "ca_sk_ctv",
+            "name": "CTV News Regina / Saskatoon"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-06T21:10:35.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/RZHR35U2F5GDPLV2OE73EHIUGM.png?auth=37b06af9ac566370c36279f73da3eb013ed2e221736f2f51685961885e1d999b&smart=true&width=907&height=504",
+          "countryCode": "CA",
+          "regionCode": "CA-SK"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T21:10:35.000Z"
+    },
+    {
+      "id": "9pWm_Xfira1f",
+      "representative": {
+        "id": "9pWm_Xfira1f",
+        "url": "https://www.ctvnews.ca/saskatoon/article/new-metis-child-care-centre-helps-fill-the-gap-in-saskatoon/",
+        "canonicalUrl": "https://www.ctvnews.ca/saskatoon/article/new-metis-child-care-centre-helps-fill-the-gap-in-saskatoon/",
+        "title": "New Métis child care centre helps fill the gap in Saskatoon",
+        "description": "At a time when finding childcare can be a challenge for many parents, the official opening of a new early learning and child care centre in Saskatoon is giving families plenty to celebrate.",
+        "source": {
+          "id": "ca_sk_ctv",
+          "name": "CTV News Regina / Saskatoon"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/O6E2QXZ3FNE2DANEOOX72DK2UM.jpg?auth=88554e2973becbc8ec28303aca35dde70725fb152052bcc25ba99af3c304b4a0&smart=true&width=1119&height=663",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "AoDQ-hDjcIvF",
+      "representative": {
+        "id": "AoDQ-hDjcIvF",
+        "url": "https://www.ctvnews.ca/saskatoon/article/prince-albert-seeking-solutions-to-curb-vehicle-stunting/",
+        "canonicalUrl": "https://www.ctvnews.ca/saskatoon/article/prince-albert-seeking-solutions-to-curb-vehicle-stunting/",
+        "title": "Prince Albert seeking solutions to curb vehicle stunting",
+        "description": "Prince Albert city council has had enough of the stunting in the Art Hauser Centre parking lot.",
+        "source": {
+          "id": "ca_sk_ctv",
+          "name": "CTV News Regina / Saskatoon"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/P52A7SOD7NAI3F4IKXG5DZKKNQ.jpg?auth=f775977c02488b8fd455d12f2c8fa9a5dba358282cd76935c4172af47f36f1ff&smart=true&width=1167&height=659",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "j8ht11dCXQkD",
+      "representative": {
+        "id": "j8ht11dCXQkD",
+        "url": "https://www.ctvnews.ca/saskatoon/article/strong-vote-of-confidence-housing-market-stays-strong-in-saskatoon/",
+        "canonicalUrl": "https://www.ctvnews.ca/saskatoon/article/strong-vote-of-confidence-housing-market-stays-strong-in-saskatoon/",
+        "title": "‘Strong vote of confidence’: Housing market stays strong in Saskatoon",
+        "description": "Hundreds of realty professionals gathered at Saskatoon’s Prairieland Park on Tuesday for the fifth annual State of Realty event, hosted by the Saskatchewan Realtors Association.",
+        "source": {
+          "id": "ca_sk_ctv",
+          "name": "CTV News Regina / Saskatoon"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/ABGOUTGVDND2TA6JBBZRZZJEZY.jpg?auth=0cd6d435803662577693a3e2249fdbf8bc2e153bb331bf1374e3d0a055b7638c&smart=true&width=1920&height=1080",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "wQaNk9Eaa4Ns",
+      "representative": {
+        "id": "wQaNk9Eaa4Ns",
+        "url": "https://paherald.sk.ca/paps-concludes-police-operation-in-west-flat/",
+        "canonicalUrl": "https://paherald.sk.ca/paps-concludes-police-operation-in-west-flat/",
+        "title": "PAPS concludes police operation in West Flat",
+        "description": "The police operation in the 800 block of 15th Street West has now ended and members of the public are no longer asked to avoid the area. On Oct. 6, the Prince Albert Police Service advised the public of increased police presence in the 800 block of 15 Street West. Traffic restrictions were set in…",
+        "source": {
+          "id": "ca_sk_pa_herald",
+          "name": "Prince Albert Daily Herald"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:19:12.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:19:12.000Z"
+    },
+    {
+      "id": "T9GKhQpjIgUA",
+      "representative": {
+        "id": "T9GKhQpjIgUA",
+        "url": "https://paherald.sk.ca/la-loche-rcmp-express-concern-about-increase-in-quad-and-atv-collisions/",
+        "canonicalUrl": "https://paherald.sk.ca/la-loche-rcmp-express-concern-about-increase-in-quad-and-atv-collisions/",
+        "title": "La Loche RCMP express concern about increase in quad and ATV collisions",
+        "description": "The La Loche RCMP are raising awareness about an increase in motor vehicle collisions involving quads and all-terrain vehicles (ATVs) in the La Loche area and northern communities. “Quad operators need to understand that these vehicles can cause serious or fatal injuries when operated in unsafe…",
+        "source": {
+          "id": "ca_sk_pa_herald",
+          "name": "Prince Albert Daily Herald"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:13:21.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:13:21.000Z"
+    },
+    {
+      "id": "4UyWITpAnCjy",
+      "representative": {
+        "id": "4UyWITpAnCjy",
+        "url": "https://ici.radio-canada.ca/nouvelle/2291423/centre-donnees-bell-contestations-autochtones",
+        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291423/centre-donnees-bell-contestations-autochtones",
+        "title": "Deux Premières Nations contestent le projet de centre de données de Bell près de Regina",
+        "description": "La Nation Nakoda de Carry the Kettle réclame une pause dans les travaux.",
+        "source": {
+          "id": "ca_sk_radiocanada",
+          "name": "Radio-Canada Saskatchewan"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T14:37:54.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/centre-donnees-bell-sherwood-saskatchewan.png",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:37:54.000Z"
+    },
+    {
+      "id": "wi4wqeBCMQgW",
+      "representative": {
+        "id": "wi4wqeBCMQgW",
+        "url": "https://ici.radio-canada.ca/info/videos/1-10772002/avec-art-tout-est-permis",
+        "canonicalUrl": "https://ici.radio-canada.ca/info/videos/1-10772002/avec-art-tout-est-permis",
+        "title": "Avec l’art, tout est permis",
+        "description": "Préserver son identité à travers des créations de mode ou de musique entre l’Iran, l’Afrique et le Canada, rire avec Matante Luce et se tourner vers l’avenir de l’art de rue à Calgary.",
+        "source": {
+          "id": "ca_sk_radiocanada",
+          "name": "Radio-Canada Saskatchewan"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T13:58:17.000Z",
+        "imageUrl": "https://rcavstaticstreaming.akamaized.net/img/9dc5afe9-8e30-446c-b7af-c1d0c01e59b4/HR/2026-10-04_18_05_00_connexion_0152_01.jpeg",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:58:17.000Z"
+    },
+    {
+      "id": "WHHgGdyzDIcc",
+      "representative": {
+        "id": "WHHgGdyzDIcc",
+        "url": "https://ici.radio-canada.ca/nouvelle/2291291/terrorisme-justice-arrestation-infraction",
+        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291291/terrorisme-justice-arrestation-infraction",
+        "title": "Un homme de 18 ans actif sur Telegram accusé d’activités terroristes",
+        "description": "Le jeune homme serait affilié au groupe terroriste « 764 ».",
+        "source": {
+          "id": "ca_sk_radiocanada",
+          "name": "Radio-Canada Saskatchewan"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T11:05:00.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/grc-police-canada-rcmp.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:05:00.000Z"
+    },
+    {
+      "id": "Cz8Vf-h68RRf",
+      "representative": {
+        "id": "Cz8Vf-h68RRf",
+        "url": "https://paherald.sk.ca/close-race-early-in-the-sjhl-season-for-upl-division-lead/",
+        "canonicalUrl": "https://paherald.sk.ca/close-race-early-in-the-sjhl-season-for-upl-division-lead/",
+        "title": "Close race early in the SJHL season for UPL Division lead",
+        "description": "It may be early in the SJHL regular season but there is a tight race for first place in the UPL Division between the Melfort Mustangs and F As of Oct. 5 the Mustangs are in second place in the UPL Division with a record of 4-2-0-0 with eight points, they have an identical record […] The post Close…",
+        "source": {
+          "id": "ca_sk_pa_herald",
+          "name": "Prince Albert Daily Herald"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:00:00.000Z"
+    },
+    {
+      "id": "Jed7rkXe7mYO",
+      "representative": {
+        "id": "Jed7rkXe7mYO",
+        "url": "https://globalnews.ca/news/12088885/advocates-say-voices-will-go-unheard-after-saskatoon-cancels-in-person-homeless-count/",
+        "canonicalUrl": "https://globalnews.ca/news/12088885/advocates-say-voices-will-go-unheard-after-saskatoon-cancels-in-person-homeless-count/",
+        "title": "Advocates say voices will go unheard after Saskatoon cancels in-person homeless count",
+        "description": "As Saskatoon moves ahead without an in-person count of unsheltered people this year, one community advocate is concerned people won't be connected to the services they require.",
+        "source": {
+          "id": "ca_sk_global",
+          "name": "Global News Regina / Saskatoon"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T17:37:31.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/ENCAMPMENT-FUTURE-OCT-5.bmp",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:37:31.000Z"
+    },
+    {
+      "id": "9VmvnUhNxXDh",
+      "representative": {
+        "id": "9VmvnUhNxXDh",
+        "url": "https://globalnews.ca/news/12088444/standing-buffalo-dakota-nation-bell-canada-letter/",
+        "canonicalUrl": "https://globalnews.ca/news/12088444/standing-buffalo-dakota-nation-bell-canada-letter/",
+        "title": "First Nation demands more info on Bell AI data centre near Regina: ‘We have to live here’",
+        "description": "The Standing Buffalo Dakota Nation penned a letter to Bell Canada requesting documentation and information regarding the AI data centre that is under construction near Regina.",
+        "source": {
+          "id": "ca_sk_global",
+          "name": "Global News Regina / Saskatoon"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-05T23:30:29.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/bell-data-centre-documents-demanded.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T23:30:29.000Z"
+    },
+    {
+      "id": "lUpb4V3T-JBt",
+      "representative": {
+        "id": "lUpb4V3T-JBt",
+        "url": "https://www.ctvnews.ca/regina/article/regina-man-charged-following-child-sexual-abuse-and-exploitation-investigation/",
+        "canonicalUrl": "https://www.ctvnews.ca/regina/article/regina-man-charged-following-child-sexual-abuse-and-exploitation-investigation/",
+        "title": "Regina man charged following child sexual abuse and exploitation investigation",
+        "description": "A 40-year-old man from Regina has been charged with possessing and accessing child sexual abuse and exploitation material following an investigation by the Saskatchewan Internet Child Exploitation Unit (ICE).",
+        "source": {
+          "id": "ca_sk_ctv",
+          "name": "CTV News Regina / Saskatoon"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/EYVG2HOOSABWJXCIGRZBCV5R54.jpg?auth=97592d7903c19bb880decfcf9d2676a97427907c6bccd1f9bfe2317fdb7c5ea4&smart=true&width=1020&height=574",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "wyf2qAKuC8zg",
+      "representative": {
+        "id": "wyf2qAKuC8zg",
+        "url": "https://www.ctvnews.ca/saskatoon/article/saskatchewan-farm-harvests-25-acres-in-support-of-stars-air-ambulance/",
+        "canonicalUrl": "https://www.ctvnews.ca/saskatoon/article/saskatchewan-farm-harvests-25-acres-in-support-of-stars-air-ambulance/",
+        "title": "Saskatchewan farm harvests 25 acres in support of STARS air ambulance",
+        "description": "Six combines hit the field near Dysart as the Brodner family held its second annual harvest fundraiser for STARS.",
+        "source": {
+          "id": "ca_sk_ctv",
+          "name": "CTV News Regina / Saskatoon"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/HOODNCB6SZCINKKN3REUCBYACU.jpg?auth=3f0498ac81198e80683182d7f5c50c56d62be4edbc0b6ec62217db037fec1c15&smart=true&width=644&height=359",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "Y9J0Z15BhWuA",
+      "representative": {
+        "id": "Y9J0Z15BhWuA",
+        "url": "https://www.ctvnews.ca/regina/article/rm-of-sherwood-to-consider-rezoning-for-bell-ai-data-centre-expansion/",
+        "canonicalUrl": "https://www.ctvnews.ca/regina/article/rm-of-sherwood-to-consider-rezoning-for-bell-ai-data-centre-expansion/",
+        "title": "RM of Sherwood to consider rezoning for Bell AI data centre expansion",
+        "description": "Construction of the first phase of the Bell AI Data Centre near Regina is well underway, as plans move forward for an expansion that would quadruple the project’s size.",
+        "source": {
+          "id": "ca_sk_ctv",
+          "name": "CTV News Regina / Saskatoon"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/F3JRYYSWINBGJL665JSU6QEFVA.jpg?auth=14cbe734c6ee84e501c28a637151793971221cb6c0fe5cfe22ab22fd10832395&smart=true&width=4655&height=2619",
+        "countryCode": "CA",
+        "regionCode": "CA-SK"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "CA",
+  "countryName": "Canada",
+  "regionCode": "CA-NB",
+  "regionName": "New Brunswick",
+  "updatedAt": "2026-10-07T15:34:18.690Z",
+  "clusters": [
+    {
+      "id": "ATuQMlR4AYc7",
+      "representative": {
+        "id": "ATuQMlR4AYc7",
+        "url": "https://www.acadienouvelle.com/actualites/2026/10/06/moncton-le-nouveau-poste-de-la-grc-codiac-inaugure-en-grande-pompe/",
+        "canonicalUrl": "https://www.acadienouvelle.com/actualites/2026/10/06/moncton-le-nouveau-poste-de-la-grc-codiac-inaugure-en-grande-pompe/",
+        "title": "Moncton: le nouveau poste de la GRC Codiac inauguré en grande pompe",
+        "description": "La GRC Codiac a inauguré en grande pompe son nouveau poste de police situé sur la rue Albert à Moncton, ce mardi. Le spacieux bâtiment est mieux adapté à la…",
+        "source": {
+          "id": "ca_nb_acadie_nouvelle",
+          "name": "Acadie Nouvelle"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T00:13:08.000Z",
+        "imageUrl": "https://acadienouvelle-6143.kxcdn.com/wp-content/uploads/2026/10/01_manchette-2-e1791331869602.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [
+        {
+          "id": "3SZnF9Ki0ZS1",
+          "url": "https://ici.radio-canada.ca/nouvelle/2291302/nouveau-poste-police-grc-moncton",
+          "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291302/nouveau-poste-police-grc-moncton",
+          "title": "Le nouveau poste de police à Moncton inauguré",
+          "description": "La région a un commissariat flambant neuf qui offre de meilleures commodités aux policiers.",
+          "source": {
+            "id": "ca_nb_radiocanada",
+            "name": "Radio-Canada Acadie (Nouveau-Brunswick)"
+          },
+          "sourceCountry": "CA",
+          "language": "fr",
+          "publishedAt": "2026-10-07T10:49:58.000Z",
+          "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/inauguration-poste-police-moncton.jpg",
+          "countryCode": "CA",
+          "regionCode": "CA-NB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T10:49:58.000Z"
+    },
+    {
+      "id": "WiieKEq-rGvg",
+      "representative": {
+        "id": "WiieKEq-rGvg",
+        "url": "https://www.ctvnews.ca/atlantic/new-brunswick/article/ferry-point-bridge-border-entry-in-st-stephen-nb-closed-for-6-weeks/",
+        "canonicalUrl": "https://www.ctvnews.ca/atlantic/new-brunswick/article/ferry-point-bridge-border-entry-in-st-stephen-nb-closed-for-6-weeks/",
+        "title": "Ferry Point Bridge border entry in St. Stephen, N.B., closed for 6 weeks",
+        "description": "The border entry at Ferry Point Bridge in St. Stephen, N.B., is closing for six weeks.",
+        "source": {
+          "id": "ca_nb_ctv",
+          "name": "CTV News Atlantic (New Brunswick)"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/G2HPTYCHBREWVKQARWIQFOSF2I.jpg?auth=17e7414f5b2692e21ba012db14fd0bcd7d4e1f188a5e947d5421a45777eeedea&smart=true&width=1440&height=763",
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "_JIRFVngoSF5",
+      "representative": {
+        "id": "_JIRFVngoSF5",
+        "url": "https://ici.radio-canada.ca/nouvelle/2291395/inscriptions-etudiants-ccnb",
+        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291395/inscriptions-etudiants-ccnb",
+        "title": "Léger déclin du nombre d’étudiants au CCNB",
+        "description": "Le CCNB compte 78 étudiants de moins qu’en 2025, mais il s’en tire bien malgré tout, selon son PDG.",
+        "source": {
+          "id": "ca_nb_radiocanada",
+          "name": "Radio-Canada Acadie (Nouveau-Brunswick)"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T14:59:54.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/ccnb-etudiants-etrangers-quota-atteint-maximum-nb.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:59:54.000Z"
+    },
+    {
+      "id": "Guo7siHc3_3l",
+      "representative": {
+        "id": "Guo7siHc3_3l",
+        "url": "https://tj.news/fredericton-west/couple-loves-n-b-and-wants-to-give-away-a-slice-of-it-literally",
+        "canonicalUrl": "https://tj.news/fredericton-west/couple-loves-n-b-and-wants-to-give-away-a-slice-of-it-literally",
+        "title": "Couple loves N.B., and wants to give away a slice of it – literally",
+        "description": "Someone will win an acre block north of St. Stephen later this month",
+        "source": {
+          "id": "ca_nb_telegraph_journal",
+          "name": "Telegraph-Journal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T14:12:47.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:12:47.000Z"
+    },
+    {
+      "id": "oh0e-VY4Tbhb",
+      "representative": {
+        "id": "oh0e-VY4Tbhb",
+        "url": "https://www.ctvnews.ca/atlantic/article/simple-plan-announce-cross-canada-tour-with-three-maritime-shows/",
+        "canonicalUrl": "https://www.ctvnews.ca/atlantic/article/simple-plan-announce-cross-canada-tour-with-three-maritime-shows/",
+        "title": "Simple Plan announce cross-Canada tour with three Maritime shows",
+        "description": "Canadian rockers Simple Plan are going on a cross-country tour next year with three stops in the Maritimes.",
+        "source": {
+          "id": "ca_nb_ctv",
+          "name": "CTV News Atlantic (New Brunswick)"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:52:35.000Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/H3VHS6CDSANV2GKK5EJM2S7WSI.jpg?auth=a96a82a9eb890645d7e6081a82b066f38215d958200ac64784eca2ffbf5ece67&smart=true&width=1400&height=933",
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:52:35.000Z"
+    },
+    {
+      "id": "j_xo7xn7_Jzj",
+      "representative": {
+        "id": "j_xo7xn7_Jzj",
+        "url": "https://ici.radio-canada.ca/en-bref/1-10778648/un-compte-tiktok-derange-eleves-caraquet",
+        "canonicalUrl": "https://ici.radio-canada.ca/en-bref/1-10778648/un-compte-tiktok-derange-eleves-caraquet",
+        "title": "Un compte TikTok dérange des élèves de Caraquet",
+        "description": "Des publications d’un compte TikTok intitulé «PLM confession 2026» visent anonymement des élèves de la polyvalente Louis-Mailloux de Caraquet.",
+        "source": {
+          "id": "ca_nb_radiocanada",
+          "name": "Radio-Canada Acadie (Nouveau-Brunswick)"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T13:50:03.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/vv-tiktok-caraquet.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:50:03.000Z"
+    },
+    {
+      "id": "stuXhiVio4J7",
+      "representative": {
+        "id": "stuXhiVio4J7",
+        "url": "https://www.acadienouvelle.com/actualites/2026/10/07/la-grc-repond-a-811-demandes-de-service-en-une-semaine-dans-le-grand-moncton/",
+        "canonicalUrl": "https://www.acadienouvelle.com/actualites/2026/10/07/la-grc-repond-a-811-demandes-de-service-en-une-semaine-dans-le-grand-moncton/",
+        "title": "La GRC répond à 811 demandes de service en une semaine dans le Grand Moncton",
+        "description": "La GRC a répondu à 811 demandes de service la semaine dernière à Moncton, Dieppe et Riverview. Parmi les interventions effectuées, les policiers ont traité 133 dossiers liés à des…",
+        "source": {
+          "id": "ca_nb_acadie_nouvelle",
+          "name": "Acadie Nouvelle"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T13:46:28.000Z",
+        "imageUrl": "https://acadienouvelle-6143.kxcdn.com/wp-content/uploads/2026/04/Web_NS_GRC.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:46:28.000Z"
+    },
+    {
+      "id": "AIdcRTjafuJw",
+      "representative": {
+        "id": "AIdcRTjafuJw",
+        "url": "https://www.acadienouvelle.com/actualites/2026/10/07/une-collecte-de-dechets-organiques-partout-dans-la-province-dici-quatre-ans/",
+        "canonicalUrl": "https://www.acadienouvelle.com/actualites/2026/10/07/une-collecte-de-dechets-organiques-partout-dans-la-province-dici-quatre-ans/",
+        "title": "Une collecte de déchets organiques partout dans la province d’ici quatre ans",
+        "description": "Le Nouveau-Brunswick vise toujours 2030 pour instituer une limite aux déchets qui sont annuellement déposés dans les sites d’enfouissement.",
+        "source": {
+          "id": "ca_nb_acadie_nouvelle",
+          "name": "Acadie Nouvelle"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T13:44:22.000Z",
+        "imageUrl": "https://acadienouvelle-6143.kxcdn.com/wp-content/uploads/2026/10/04_dechets_organiques.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:44:22.000Z"
+    },
+    {
+      "id": "jiqGQtUZDhB7",
+      "representative": {
+        "id": "jiqGQtUZDhB7",
+        "url": "https://tj.news/fredericton-west/hard-drugs-cash-gun-seized-in-searches-60-year-old-charged-police",
+        "canonicalUrl": "https://tj.news/fredericton-west/hard-drugs-cash-gun-seized-in-searches-60-year-old-charged-police",
+        "title": "Hard drugs, cash, gun seized in searches; 60-year-old charged: police",
+        "description": "Fredericton police say a 60-year-old man has been charged with trafficking fentanyl and several counts of possession of property obtained by crime after a pair of recent operations. According to a news release from the force, officers searched two properties – one on Millbank Road in Nasonworth…",
+        "source": {
+          "id": "ca_nb_telegraph_journal",
+          "name": "Telegraph-Journal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:26:11.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:26:11.000Z"
+    },
+    {
+      "id": "pIIXsp1AMrqV",
+      "representative": {
+        "id": "pIIXsp1AMrqV",
+        "url": "https://tj.news/new-brunswick/financial-issues-ended-n-b-groups-work-to-promote-local-food-drink",
+        "canonicalUrl": "https://tj.news/new-brunswick/financial-issues-ended-n-b-groups-work-to-promote-local-food-drink",
+        "title": "'Financial issues' ended N.B. group's work to promote local food, drink",
+        "description": "Deputy minister says government has taken over Savour NB, but its social media accounts don't appear to be active",
+        "source": {
+          "id": "ca_nb_telegraph_journal",
+          "name": "Telegraph-Journal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:17:20.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:17:20.000Z"
+    },
+    {
+      "id": "4lROIdiIEW7f",
+      "representative": {
+        "id": "4lROIdiIEW7f",
+        "url": "https://www.acadienouvelle.com/actualites/2026/10/07/comment-preparer-un-repas-de-laction-de-grace-100-canadien-sans-se-ruiner/",
+        "canonicalUrl": "https://www.acadienouvelle.com/actualites/2026/10/07/comment-preparer-un-repas-de-laction-de-grace-100-canadien-sans-se-ruiner/",
+        "title": "Comment préparer un repas de l’Action de grâce 100 % canadien sans se ruiner",
+        "description": "Un dindon rôti à feu doux, une farce au beurre, des légumes racines sautés au romarin et à l’huile d’olive, une purée de pommes de terre onctueuse et une sauce ...",
+        "source": {
+          "id": "ca_nb_acadie_nouvelle",
+          "name": "Acadie Nouvelle"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T11:29:15.000Z",
+        "imageUrl": "https://acadienouvelle-6143.kxcdn.com/wp-content/uploads/2026/10/35d3d909-ec8e-44c9-9f25-c7f403fcb7c6.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:29:15.000Z"
+    },
+    {
+      "id": "QvwcDBFis-8H",
+      "representative": {
+        "id": "QvwcDBFis-8H",
+        "url": "https://ici.radio-canada.ca/nouvelle/2291234/polyvalente-louis-mailloux-plm-tiktok-cyberintimidation",
+        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291234/polyvalente-louis-mailloux-plm-tiktok-cyberintimidation",
+        "title": "Propos dégradants envers des élèves : un compte TikTok dérange à Caraquet",
+        "description": "Les messages publiés sont grossiers, voire violents, et répondent à la définition de cyberintimidation.",
+        "source": {
+          "id": "ca_nb_radiocanada",
+          "name": "Radio-Canada Acadie (Nouveau-Brunswick)"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T09:31:42.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/ecole-louis-mailloux-caraquet-ete-automne.jpeg",
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:31:42.000Z"
+    },
+    {
+      "id": "jPJXnZ_dPRKs",
+      "representative": {
+        "id": "jPJXnZ_dPRKs",
+        "url": "https://www.ctvnews.ca/atlantic/new-brunswick/article/fredericton-man-charged-following-seizure-of-shotgun-fentanyl-police/",
+        "canonicalUrl": "https://www.ctvnews.ca/atlantic/new-brunswick/article/fredericton-man-charged-following-seizure-of-shotgun-fentanyl-police/",
+        "title": "Fredericton man charged following seizure of shotgun, fentanyl: police",
+        "description": "A 60-year-old man is facing drug trafficking and firearms charges after Fredericton police say officers seized a double-barrelled shotgun and fentanyl from two properties last week.",
+        "source": {
+          "id": "ca_nb_ctv",
+          "name": "CTV News Atlantic (New Brunswick)"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T22:52:59.000Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/6NG4YJZJCNFZHNLSJGJLQKN37Q.jpg?auth=f5de34a8992bb986fc373589f4f2fba0fa60d45fbf115076c218e319d2e22fd0&smart=true&width=2048&height=1152",
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T22:52:59.000Z"
+    },
+    {
+      "id": "D9avYenuhPms",
+      "representative": {
+        "id": "D9avYenuhPms",
+        "url": "https://tj.news/fredericton-west/fright-town-junction-turns-a-family-halloween-tradition-into-community-fun",
+        "canonicalUrl": "https://tj.news/fredericton-west/fright-town-junction-turns-a-family-halloween-tradition-into-community-fun",
+        "title": "Fright-town Junction turns a family Halloween tradition into community fun",
+        "description": "'The kids are always so excited when they leave, talking about everything that they saw,' creator says",
+        "source": {
+          "id": "ca_nb_telegraph_journal",
+          "name": "Telegraph-Journal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T09:37:18.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:37:18.000Z"
+    },
+    {
+      "id": "FyGXNVjznDke",
+      "representative": {
+        "id": "FyGXNVjznDke",
+        "url": "https://tj.news/tj-comment/henry-srebrnik-will-yemens-houthis-block-the-red-sea",
+        "canonicalUrl": "https://tj.news/tj-comment/henry-srebrnik-will-yemens-houthis-block-the-red-sea",
+        "title": "Henry Srebrnik: Will Yemen’s Houthis block the Red Sea?",
+        "description": "Bab el-Mandeb strait is a waterway through which about 12 per cent of seaborne-traded oil travels",
+        "source": {
+          "id": "ca_nb_telegraph_journal",
+          "name": "Telegraph-Journal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T09:03:21.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-NB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:03:21.000Z"
+    }
+  ]
+}

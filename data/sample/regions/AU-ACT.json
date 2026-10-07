@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "AU",
+  "countryName": "Australia",
+  "regionCode": "AU-ACT",
+  "regionName": "Australian Capital Territory",
+  "updatedAt": "2026-10-07T15:34:18.690Z",
+  "clusters": [
+    {
+      "id": "Yy4WcT0_KhJa",
+      "representative": {
+        "id": "Yy4WcT0_KhJa",
+        "url": "https://www.abc.net.au/news/2026-10-07/canberra-airport-proposes-all-event-stadium-in-civic/107235890",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-07/canberra-airport-proposes-all-event-stadium-in-civic/107235890",
+        "title": "Canberra Airport proposes all-event stadium in city centre",
+        "description": "Canberra Airport has unveiled a proposal for a stadium in Canberra's CBD, which the government has previously ruled out, but the airport insists it is the best location for a \"world-class, all-event\" facility.",
+        "source": {
+          "id": "au_act_abc",
+          "name": "ABC News Canberra"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T22:21:19.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [
+        {
+          "id": "SD3PvCvOxtzR",
+          "url": "https://canberradaily.com.au/canberra-airport-proposes-covered-stadium-at-commonwealth-park/",
+          "canonicalUrl": "https://canberradaily.com.au/canberra-airport-proposes-covered-stadium-at-commonwealth-park/",
+          "title": "Canberra Airport proposes covered stadium at Commonwealth Park",
+          "description": "Canberra Airport has unveiled plans for a covered stadium beside Commonwealth Park that could accommodate up to 36,000 people",
+          "source": {
+            "id": "au_act_canberradaily",
+            "name": "Canberra Daily"
+          },
+          "sourceCountry": "AU",
+          "language": "en",
+          "publishedAt": "2026-10-07T01:07:19.000Z",
+          "imageUrl": null,
+          "countryCode": "AU",
+          "regionCode": "AU-ACT"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T01:07:19.000Z"
+    },
+    {
+      "id": "ReEWlkERxPUu",
+      "representative": {
+        "id": "ReEWlkERxPUu",
+        "url": "https://www.canberratimes.com.au/story/9364112/south-canberra-man-charged-over-alleged-domestic-assault/?src=rss",
+        "canonicalUrl": "https://www.canberratimes.com.au/story/9364112/south-canberra-man-charged-over-alleged-domestic-assault/?src=rss",
+        "title": "Man charged after allegedly strangling, assaulting partner",
+        "description": "The 47-year-old man was arrested by police in the city on Tuesday night.",
+        "source": {
+          "id": "au_act_canberratimes",
+          "name": "The Canberra Times"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T00:11:18.000Z",
+        "imageUrl": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/247426882/ae3498cb-bc4d-4b7f-9d51-6ca954b3b880.jpg/r5_276_5387_3308_w600_h338_fmax.jpg",
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [
+        {
+          "id": "WyCKTRuHkBC0",
+          "url": "https://canberradaily.com.au/man-charged-over-alleged-strangling-assault-in-south-canberra/",
+          "canonicalUrl": "https://canberradaily.com.au/man-charged-over-alleged-strangling-assault-in-south-canberra/",
+          "title": "Man charged over alleged strangling, assault in south Canberra",
+          "description": "A 47-year-old man has been charged after allegedly strangling and assaulting his partner last month.",
+          "source": {
+            "id": "au_act_canberradaily",
+            "name": "Canberra Daily"
+          },
+          "sourceCountry": "AU",
+          "language": "en",
+          "publishedAt": "2026-10-06T22:27:36.000Z",
+          "imageUrl": null,
+          "countryCode": "AU",
+          "regionCode": "AU-ACT"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T00:11:18.000Z"
+    },
+    {
+      "id": "WQf6pTbvuW58",
+      "representative": {
+        "id": "WQf6pTbvuW58",
+        "url": "https://www.abc.net.au/news/2026-10-07/canberra-city-stadium-proposal-explained/107239558",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-07/canberra-city-stadium-proposal-explained/107239558",
+        "title": "Is a waterfront city stadium actually on the cards for Canberra?",
+        "description": "A new proposal would place a stadium near the next stage of light rail and within walking distance of the capital's nightlife.",
+        "source": {
+          "id": "au_act_abc",
+          "name": "ABC News Canberra"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T07:18:40.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T07:18:40.000Z"
+    },
+    {
+      "id": "4iOm8HdiXcg5",
+      "representative": {
+        "id": "4iOm8HdiXcg5",
+        "url": "https://www.abc.net.au/news/2026-10-07/canberra-elderly-man-who-stabbed-wife-to-death/107240044",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-07/canberra-elderly-man-who-stabbed-wife-to-death/107240044",
+        "title": "Lawyers for man who stabbed wife to death say no evidence he'd be violent again",
+        "description": "Now 88 years old and with a likely diagnosis of dementia, he was previously found unfit to plead.",
+        "source": {
+          "id": "au_act_abc",
+          "name": "ABC News Canberra"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T06:48:42.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:48:42.000Z"
+    },
+    {
+      "id": "yF89Dq1-Xkcn",
+      "representative": {
+        "id": "yF89Dq1-Xkcn",
+        "url": "https://www.abc.net.au/news/2026-10-07/mint-unveils-new-coins-featuring-australian-inventions/107239858",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-07/mint-unveils-new-coins-featuring-australian-inventions/107239858",
+        "title": "Mint unveils new coins chronicling iconic Australian inventions",
+        "description": "Five Australian inventions will soon feature on $1 coins as part of the Royal Australian Mint's new Bright Ideas collection.",
+        "source": {
+          "id": "au_act_abc",
+          "name": "ABC News Canberra"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T06:15:03.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:15:03.000Z"
+    },
+    {
+      "id": "0R5aefQkoRZ1",
+      "representative": {
+        "id": "0R5aefQkoRZ1",
+        "url": "https://canberradaily.com.au/canberra-scholars-honoured-for-services-to-italian-culture/",
+        "canonicalUrl": "https://canberradaily.com.au/canberra-scholars-honoured-for-services-to-italian-culture/",
+        "title": "Canberra scholars honoured for services to Italian culture",
+        "description": "Dr Michael Curtotti and Dr Sergio Sergi: translating the sources of Shakespeare and transforming the Dante Alighieri Society.",
+        "source": {
+          "id": "au_act_canberradaily",
+          "name": "Canberra Daily"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T06:12:12.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:12:12.000Z"
+    },
+    {
+      "id": "EgUceTWPXovl",
+      "representative": {
+        "id": "EgUceTWPXovl",
+        "url": "https://www.canberratimes.com.au/story/9364295/bill-shorten-vows-reform-after-uc-staff-underpaid-by-244000/?src=rss",
+        "canonicalUrl": "https://www.canberratimes.com.au/story/9364295/bill-shorten-vows-reform-after-uc-staff-underpaid-by-244000/?src=rss",
+        "title": "University of Canberra reveals almost $250,000 in underpayments to casuals",
+        "description": "Bill Shorten apologises as UC moves to fix casual academic pay.",
+        "source": {
+          "id": "au_act_canberratimes",
+          "name": "The Canberra Times"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T05:49:25.000Z",
+        "imageUrl": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/33pRA5ArzT57tWtt8VHHenS/eb293eae-1734-4a46-b5ba-a79a2b95a40f.jpg/r0_258_5000_3075_w600_h338_fmax.jpg",
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:49:25.000Z"
+    },
+    {
+      "id": "m2qQsOiDFigE",
+      "representative": {
+        "id": "m2qQsOiDFigE",
+        "url": "https://region.com.au/a-dozen-public-servants-in-one-agency-raking-in-more-than-1-million-each/1005837/",
+        "canonicalUrl": "https://region.com.au/a-dozen-public-servants-in-one-agency-raking-in-more-than-1-million-each/1005837/",
+        "title": "A dozen public servants in one agency raking in more than $1 million each",
+        "description": "A dozen executives working in one public service agency are earning more than a million dollars a year, with one Executive Level 2 (EL2) snaring an annual package of more than $1.5 million. They all work for Australia’s sovereign wealth fund, the Future Fund Management Agency, and all are…",
+        "source": {
+          "id": "au_act_region",
+          "name": "Region Canberra"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T05:25:49.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:25:49.000Z"
+    },
+    {
+      "id": "7FAA3-YDA6_-",
+      "representative": {
+        "id": "7FAA3-YDA6_-",
+        "url": "https://www.canberratimes.com.au/story/9364402/court-hears-not-alternative-care-for-manfred-uhle-other-than-jail/?src=rss",
+        "canonicalUrl": "https://www.canberratimes.com.au/story/9364402/court-hears-not-alternative-care-for-manfred-uhle-other-than-jail/?src=rss",
+        "title": "'No alternative' to jail for mentally impaired 88yo who murdered wife of 60 years",
+        "description": "Man with likely dementia has no other suitable care options.",
+        "source": {
+          "id": "au_act_canberratimes",
+          "name": "The Canberra Times"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T05:00:00.000Z",
+        "imageUrl": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/DaHt57RjVSvtvCBUgFzTWj/59b61193-b983-402a-9310-7efe76511380.jpg/r5_448_5295_3428_w600_h338_fmax.jpg",
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:00:00.000Z"
+    },
+    {
+      "id": "R2voRU5_SYh2",
+      "representative": {
+        "id": "R2voRU5_SYh2",
+        "url": "https://region.com.au/teen-avoids-jail-for-repeatedly-raping-young-woman-near-house-party/1005847/",
+        "canonicalUrl": "https://region.com.au/teen-avoids-jail-for-repeatedly-raping-young-woman-near-house-party/1005847/",
+        "title": "Teen avoids jail for repeatedly raping young woman near house party",
+        "description": "CONTENT WARNING: This article refers to sexual violence. A teenager has avoided being sent to jail for the sickening and repeated rape of a young woman he met at a Canberra house party. He was 16, nearly 17, when he went to the party in mid-2025 and met the 18-year-old woman, a recently published…",
+        "source": {
+          "id": "au_act_region",
+          "name": "Region Canberra"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T04:58:40.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:58:40.000Z"
+    },
+    {
+      "id": "9LWjuuXhybya",
+      "representative": {
+        "id": "9LWjuuXhybya",
+        "url": "https://region.com.au/act-government-breached-agreement-with-ngambri-family-court-finds/1005701/",
+        "canonicalUrl": "https://region.com.au/act-government-breached-agreement-with-ngambri-family-court-finds/1005701/",
+        "title": "ACT Government breached agreement with Ngambri family, court finds",
+        "description": "The ACT Government has breached the agreement it made with members of a Ngambri family, the Territory’s highest court has found, as it has not conducted a review into its Indigenous Protocol in a timely manner. The government has formally recognised the Ngunnawal people as the traditional owners…",
+        "source": {
+          "id": "au_act_region",
+          "name": "Region Canberra"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T04:39:42.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:39:42.000Z"
+    },
+    {
+      "id": "mqufGkfjp-mk",
+      "representative": {
+        "id": "mqufGkfjp-mk",
+        "url": "https://www.canberratimes.com.au/story/9364381/canberra-airport-lakeside-civic-stadium-could-be-ready-by-2030/?src=rss",
+        "canonicalUrl": "https://www.canberratimes.com.au/story/9364381/canberra-airport-lakeside-civic-stadium-could-be-ready-by-2030/?src=rss",
+        "title": "How a Civic lakeside stadium could open by 2030",
+        "description": "Business leaders, Katy Gallagher voice support for city stadium.",
+        "source": {
+          "id": "au_act_canberratimes",
+          "name": "The Canberra Times"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T02:59:48.000Z",
+        "imageUrl": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/262201350/dad988b0-9344-4edc-a16c-58e45894a0da.jpg/r0_282_5568_3419_w600_h338_fmax.jpg",
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T02:59:48.000Z"
+    },
+    {
+      "id": "Rrf_RmUadsI2",
+      "representative": {
+        "id": "Rrf_RmUadsI2",
+        "url": "https://canberradaily.com.au/the-countdown-begins-as-love-your-bookshop-day-returns/",
+        "canonicalUrl": "https://canberradaily.com.au/the-countdown-begins-as-love-your-bookshop-day-returns/",
+        "title": "The countdown begins as Love Your Bookshop Day returns",
+        "description": "Bookshops across Canberra will come alive on Saturday 10 October for Love Your Bookshop Day (LYBD), with author events, children’s activities, special offers and community celebrations taking place across the region.",
+        "source": {
+          "id": "au_act_canberradaily",
+          "name": "Canberra Daily"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T22:49:21.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T22:49:21.000Z"
+    },
+    {
+      "id": "AJnF1sJwJIc6",
+      "representative": {
+        "id": "AJnF1sJwJIc6",
+        "url": "https://canberradaily.com.au/police-investigating-suspicious-death-in-watson/",
+        "canonicalUrl": "https://canberradaily.com.au/police-investigating-suspicious-death-in-watson/",
+        "title": "Police investigating suspicious death in Watson",
+        "description": "ACT Policing is investigating the death of a 70-year-old Watson man after his body was discovered in his home yesterday.",
+        "source": {
+          "id": "au_act_canberradaily",
+          "name": "Canberra Daily"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T04:06:14.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T04:06:14.000Z"
+    },
+    {
+      "id": "aJXdsiPT6cpW",
+      "representative": {
+        "id": "aJXdsiPT6cpW",
+        "url": "https://region.com.au/tribunal-finds-act-governments-conduct-of-concern-in-case-of-allegedly-bullied-firie/1005800/",
+        "canonicalUrl": "https://region.com.au/tribunal-finds-act-governments-conduct-of-concern-in-case-of-allegedly-bullied-firie/1005800/",
+        "title": "Tribunal finds ACT Government’s conduct ‘of concern’ in case of allegedly bullied firie",
+        "description": "The Fair Work Commission deputy president found it likely that an ACT firefighter was “discriminated against” for not being a union member and was “subjected to adverse action” by the government after a 2024 incident. But because of legal technicalities, the firefighter won’t be able to seek…",
+        "source": {
+          "id": "au_act_region",
+          "name": "Region Canberra"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:54:04.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-ACT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T03:54:04.000Z"
+    }
+  ]
+}
