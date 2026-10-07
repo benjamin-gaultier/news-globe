@@ -395,7 +395,7 @@ English-language press only. Hindi outlets would need Hindi stopwords.
 | El Universal | nación | 10 | ✅ |
 | La Jornada | política | 9 | ✅ |
 | Reforma | portada | 9 | ✅ (only ~6 items) |
-| Excélsior | nacional | 8 | ✅ |
+| Excélsior | portada | 8 | ✅ (fixed 2026-10-07: titles come as escaped CDATA, `&lt;![CDATA[…]]&gt;`, which stripped them to nothing, so the feed gave 0 items; every `/rss/*` path, `nacional` included, now serves the front-page feed, culture and entertainment mixed in) |
 | El Financiero | main feed | 8 | ✅ |
 | Expansión | main feed | 7 | ✅ |
 | El Sol de México | main feed | 7 | ✅ |
@@ -482,7 +482,7 @@ Spanish and Portuguese stopwords include weekdays, months and *hoy*/*hoje*. Serv
 | Público | main feed | 10 | ✅ (10 items) |
 | Observador | main feed | 9 | ✅ |
 | ECO | main feed | 7 | ✅ |
-| Correio da Manhã | main feed | 6 | ✅ |
+| Correio da Manhã | main feed | 6 | ✅ (fixed 2026-10-07: titles come as escaped CDATA, so the feed gave 0 items until they were unwrapped) |
 | ~~Expresso~~, ~~JN~~, ~~SIC Notícias~~ | — | — | ❌ **dropped**: 403 for bots |
 | ~~Diário de Notícias~~ | — | — | ❌ **dropped**: 404 |
 
@@ -1048,11 +1048,12 @@ Costa Rican feeds are small and update a few times a day, so the country has few
 | --- | --- | --- | --- |
 | APS | main feed | 10 | ✅ (fr) |
 | Le Soleil | main feed | 9 | ✅ (fr) |
-| Le Quotidien | main feed | 8 | ✅ (fr) |
+| SenePlus | main feed | 7 | ➕ **added** 2026-10-07, replacing Le Quotidien (fr) |
 | Dakaractu | main feed | 8 | ✅ (fr) |
 | PressAfrik | main feed | 7 | ✅ (fr) |
 | E-Media | main feed | 7 | ✅ (fr) |
 | Senego | main feed | 6 | ✅ (fr) |
+| ~~Le Quotidien~~ | — | — | ❌ **dropped** 2026-10-07: every URL on `lequotidien.sn` (`/feed/`, `/rss`, `www.`) returns **403** to bots since 2026-10-06 |
 | ~~Leral~~ | — | — | ❌ **skipped**: reprints other outlets' copy (Le Soleil) |
 | ~~Sud Quotidien~~ | — | — | ❌ **dropped**: unreachable |
 
@@ -1243,7 +1244,8 @@ Russia mixes state wire agencies, business dailies and two outlets publishing fr
 | --- | --- | --- | --- |
 | Koha | main feed | 10 | ✅ (20 items, sq) |
 | Telegrafi | main feed | 8 | ✅ (sq) |
-| Gazeta Express | main feed | 8 | ✅ (10 items, sq) |
+| RTV Dukagjini | main feed | 7 | ➕ **added** 2026-10-07, replacing Gazeta Express (10 items, sq) |
+| ~~Gazeta Express~~ | — | — | ❌ **dropped** 2026-10-07: the whole site returns **403** to bots since 2026-10-06 |
 | ~~Insajderi~~ | — | — | ❌ **skipped**: titles copy Telegrafi's |
 | ~~Kallxo~~, ~~Periskopi~~ | — | — | ❌ **dropped**: 403 / 404 |
 

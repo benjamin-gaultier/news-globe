@@ -3297,14 +3297,15 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://lesoleil.sn/feed/'],
     authority: 9,
   },
+  // Replaces Le Quotidien: lequotidien.sn returns 403 to bots since 2026-10-06.
   {
-    id: 'lequotidien_sn',
-    name: 'Le Quotidien',
+    id: 'seneplus',
+    name: 'SenePlus',
     type: 'rss',
     country: 'SN',
     language: 'fr',
-    feedUrls: ['https://lequotidien.sn/feed/'],
-    authority: 8,
+    feedUrls: ['https://www.seneplus.com/rss.xml'],
+    authority: 7,
   },
   {
     id: 'dakaractu',
@@ -4053,14 +4054,15 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://telegrafi.com/feed/'],
     authority: 8,
   },
+  // Replaces Gazeta Express: gazetaexpress.com returns 403 to bots since 2026-10-06.
   {
-    id: 'gazetaexpress',
-    name: 'Gazeta Express',
+    id: 'dukagjini',
+    name: 'RTV Dukagjini',
     type: 'rss',
     country: 'XK',
     language: 'sq',
-    feedUrls: ['https://www.gazetaexpress.com/feed/'],
-    authority: 8,
+    feedUrls: ['https://www.dukagjini.com/feed/'],
+    authority: 7,
   },
   // North Macedonia. MIA 404; Sloboden Pečat and Fokus return 403.
   {
