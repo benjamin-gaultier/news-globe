@@ -53,6 +53,23 @@ describe('parseFeed: malformed feeds', () => {
     expect(items.map((i) => [i.title, i.url])).toEqual([['Q&A sur le budget', 'https://www.example.ma/b?x=1&y=2']]);
   });
 
+  it('unwraps escaped CDATA sections (Excélsior, Correio da Manhã)', async () => {
+    const body = `<rss version="2.0"><channel><title>X</title><item>
+      <title>
+        &lt;![CDATA[Así terminó el medallero: México en la cima]]&gt;        </title>
+      <description>&lt;![CDATA[Sumando un total de 407 preseas]]&gt;</description>
+      <pubDate>Wed, 07 Oct 2026 07:02:43 -0600</pubDate>
+      <link>https://www.excelsior.com.mx/nacional/a</link></item></channel></rss>`;
+    const items = await parseFeed(body, 'https://www.excelsior.com.mx/rss/nacional');
+    expect(items).toEqual([
+      expect.objectContaining({
+        title: 'Así terminó el medallero: México en la cima',
+        description: 'Sumando un total de 407 preseas',
+        publishedAt: '2026-10-07T13:02:43.000Z',
+      }),
+    ]);
+  });
+
   it('falls back to a loose parse, keeping images', async () => {
     const body = `<?xml version="1.0"?><rss version="2.0"><channel><title>X</title>
       ${item('<description><iframe allowfullscreen src="x"></iframe></description>')}</channel></rss>`;

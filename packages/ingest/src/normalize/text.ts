@@ -58,10 +58,16 @@ export function decodeEntities(input: string): string {
   });
 }
 
-/** Strip tags, decode entities, collapse whitespace. */
+/**
+ * Strip tags, decode entities, collapse whitespace. A literal `<![CDATA[…]]>`
+ * (Excélsior and Correio da Manhã escape their CDATA sections, so they reach
+ * us as text) is unwrapped first; otherwise the tag pattern would swallow the
+ * whole title.
+ */
 export function stripHtml(input: string): string {
   return decodeEntities(
     input
+      .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
       .replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ')
       .replace(/<br\s*\/?>|<\/p>/gi, ' ')
       .replace(/<[^>]*>/g, ' '),
