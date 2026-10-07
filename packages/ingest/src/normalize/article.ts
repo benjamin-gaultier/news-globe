@@ -165,6 +165,43 @@ const NOT_NEWS: RegExp[] = [
   /\bagenda (?:completa d['’]|d['’]activitats\b)/i,
   /\bdove veder(?:lo|la|li|le) in (?:diretta )?tv\b/i,
   /^(?:opinión|opinió|opinione)\s*[|:]/i,
+  // Canadian and Australian regional feeds: programme episodes and live-blog wraps, "Le téléjournal Acadie du 6 octobre",
+  // "Épisode du 3 octobre 2026", "WATCH: Global News Hour at 6 BC: Oct. 6", "NTV Morning Weather Checkpoint",
+  // "As it happened: WA news on Wednesday, October 7", "At Close of Business podcast October 7 2026",
+  // "World in pictures, October 7, 2026"; service items and fixed columns, "Transports en direct | Tout va bien",
+  // "News of the day: …", "Call of the Wilde: …", "ATLANTIC SKIES: …", "COMING SOON: …".
+  /^(?:le )?téléjournal\b/i,
+  /^épisode du \d/i,
+  /^watch: global [\w ]{0,30}news (?:hour )?at \d/i,
+  /\bweather checkpoint$/i,
+  /^as it happened: [\w ]{2,30} news on\b/i,
+  /\bpodcast (?:january|february|march|april|may|june|july|august|september|october|november|december) \d{1,2},? \d{4}$/i,
+  /^world in pictures\b/i,
+  /^transports en direct\s*\|/i,
+  /^(?:news of the day|call of the wilde|atlantic skies|coming soon)\s*:/i,
+  // Brazilian regional feeds. g1's generated pages: "Resultado das eleições 2026 em Acari (RN): como foi a votação…",
+  // "MAPA: veja o resultado das eleições 2026 em Manaus…", "Previsão do tempo hoje para Olinda (PE): …".
+  /^resultado das eleições \d{4} (?:em|no|na)\b/i,
+  /^mapa: veja o resultado\b/i,
+  /^previsão do tempo hoje para\b/i,
+  // Programme episodes and daily editions: "Assista ao JRO1 desta quarta-feira, 7", "AO VIVO: Assista ao GR1",
+  // "VÍDEOS: Bom Dia PE de …", "ClickFM - AO VIVO", "Jornal Em Tempo – quarta-feira, 7 de outubro de 2026",
+  // "Confira os principais destaques do Jornal O Dia desta quarta-feira (07)", "Confira os destaques do futebol sergipano…".
+  /^(?:ao vivo: )?assista (?:ao|aos|à|às)\s/i,
+  /^vídeos:/i,
+  /\s[-–]\s*ao vivo$/i,
+  /^jornal [^–-]{2,30}\s[–-]\s*(?:segunda|terça|quarta|quinta|sexta|sábado|domingo)/i,
+  /^confira os (?:principais )?destaques\b/i,
+  // Lottery results, job listings, TV listings, legal notices and columns: "Mega-Sena 3067: …",
+  // "Resultado da Mega-Sena 3067: …", "Confira as vagas de emprego disponíveis em Sergipe…",
+  // "Emprego: confira as 198 vagas…", "Remo x Grêmio: onde assistir ao vivo…",
+  // "Edital de Notificação de Pedido de Usucapião…", "LICENÇA DE OPERAÇÃO", "Coluna Social – Ponto E", "Corrida do Poder".
+  /^(?:resultado da )?mega-sena\b/i,
+  /\bvagas de emprego\b/i,
+  /^emprego: confira\b/i,
+  /\bonde assistir\b/i,
+  /^(?:edital de|licença de operação)\b/i,
+  /^(?:coluna social\b|corrida do poder$)/i,
 ];
 
 /**
