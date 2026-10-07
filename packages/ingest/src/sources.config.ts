@@ -6504,6 +6504,35 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://www.thesierraleonetelegraph.com/feed/'],
     authority: 7,
   },
+  // Mongolia. Montsame and Olloo 403; News.mn and Zindaa serve no items; Gogo, iSee, Unuudur and
+  // Baabar 404.
+  {
+    id: 'ikon',
+    name: 'iKon',
+    type: 'rss',
+    country: 'MN',
+    language: 'mn',
+    feedUrls: ['https://ikon.mn/rss'],
+    authority: 8,
+  },
+  {
+    id: 'eguur',
+    name: 'Eguur',
+    type: 'rss',
+    country: 'MN',
+    language: 'mn',
+    feedUrls: ['https://www.eguur.mn/feed/'],
+    authority: 7,
+  },
+  {
+    id: 'ugluu',
+    name: 'Ugluu',
+    type: 'rss',
+    country: 'MN',
+    language: 'mn',
+    feedUrls: ['https://www.ugluu.mn/feed'],
+    authority: 6,
+  },
   // ---- France: regions (see REGIONS). Local-section feeds only: the main
   // feeds of regional papers carry national and world news too. ----
   {

@@ -5,7 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { RawItem } from '../src/adapters/types';
 import { dropRepublished, isMisdecoded, isNotNews, isUnrenderedTemplate } from '../src/normalize/article';
 import { article } from './helpers';
-import { decodeBody, HttpCache } from '../src/http';
+import { decodeBody, HttpCache, newest } from '../src/http';
 
 const URL_A = 'https://feeds.example/a.xml';
 const MIN = 60_000;
@@ -118,6 +118,15 @@ describe('HttpCache', () => {
       items: [],
     });
     expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('newest', () => {
+  const at = (title: string, publishedAt: string | null): RawItem => ({ ...item(title), publishedAt });
+  it('keeps the most recent items when a feed lists its whole archive', () => {
+    const items = [at('old', '2026-10-01T00:00:00Z'), at('new', '2026-10-07T00:00:00Z'), at('undated', null), at('mid', '2026-10-05T00:00:00Z')];
+    expect(newest(items, 2).map((i) => i.title)).toEqual(['undated', 'new']);
+    expect(newest(items, 4)).toBe(items);
   });
 });
 
