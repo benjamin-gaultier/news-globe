@@ -283,6 +283,8 @@ describe('isNotNews', () => {
       'Cosa fare oggi in Umbria',
       'WWE Money in the Bank 2026: card completa, data, orario e dove vederlo in diretta tv e streaming',
       'Opinión | Cartagena, ‘Ciudad de Submarinos’, debería pedir ya su S-80',
+      'Haddas Ertra 07 October 2026',
+      'Eritrea Alhaditha 06 October 2026',
     ]) {
       expect(isNotNews(t), t).toBe(true);
     }

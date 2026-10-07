@@ -83,3 +83,30 @@ describe('parseFeed: malformed feeds', () => {
     });
   });
 });
+
+describe('parseFeed: Google News sitemap', () => {
+  it('reads title, date and image from <news:news> entries', async () => {
+    const body = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.example.kw/article/1/kuwait/cabinet-meets</loc>
+    <news:news>
+      <news:publication><news:name>Example</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-07T15:53:00+03:00</news:publication_date>
+      <news:title><![CDATA[Cabinet meets on &#8216;budget&#8217;]]></news:title>
+    </news:news>
+    <image:image><image:loc>/img/1.webp</image:loc></image:image>
+  </url>
+  <url><loc>https://www.example.kw/no-title</loc></url>
+</urlset>`;
+    expect(await parseFeed(body, 'https://www.example.kw/sitemaps/newsSitemap.xml')).toEqual([
+      {
+        title: 'Cabinet meets on ‘budget’',
+        url: 'https://www.example.kw/article/1/kuwait/cabinet-meets',
+        description: null,
+        publishedAt: '2026-10-07T12:53:00.000Z',
+        imageUrl: 'https://www.example.kw/img/1.webp',
+      },
+    ]);
+  });
+});
