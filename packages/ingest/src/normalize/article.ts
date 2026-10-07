@@ -196,12 +196,19 @@ const NOT_NEWS: RegExp[] = [
   // "Resultado da Mega-Sena 3067: …", "Confira as vagas de emprego disponíveis em Sergipe…",
   // "Emprego: confira as 198 vagas…", "Remo x Grêmio: onde assistir ao vivo…",
   // "Edital de Notificação de Pedido de Usucapião…", "LICENÇA DE OPERAÇÃO", "Coluna Social – Ponto E", "Corrida do Poder".
-  /^(?:resultado da )?mega-sena\b/i,
+  /^(?:resultados? (?:da |do )?)?(?:mega-sena|loteria federal|lotofácil)\b/i,
   /\bvagas de emprego\b/i,
   /^emprego: confira\b/i,
   /\bonde assistir\b/i,
   /^(?:edital de|licença de operação)\b/i,
   /^(?:coluna social\b|corrida do poder$)/i,
+  // Dated bulletins, newspaper editions and obituary lists: "07/10/2026 - Assista agora ao …",
+  // "Cartórios - 07/10/2026", "JD1 NO AR - Quarta 7/10/2026", "Jornal Guarulhos Hoje – Ed. 4496 – 7/10/2026",
+  // "Falecimentos desta quarta-feira".
+  /^\d{1,2}\/\d{1,2}\/\d{4}\s*[-–]\s*assista\b/i,
+  /^[^-–]{2,40}\s[-–]\s(?:(?:segunda|terça|quarta|quinta|sexta|sábado|domingo)\S*\s)?\d{1,2}\/\d{1,2}\/\d{4}$/i,
+  /\s[-–]\s*ed\.\s*\d+\s*[-–]/i,
+  /^falecimentos\b/i,
 ];
 
 /**

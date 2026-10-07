@@ -311,6 +311,13 @@ describe('isNotNews', () => {
       'Edital de Notificação de Pedido de Usucapião Extrajudicial',
       'Coluna Social – Ponto E',
       'Corrida do Poder',
+      'Resultado Mega-Sena 3067: veja os números sorteados',
+      'Resultado da Loteria Federal 6012 desta quarta-feira',
+      '07/10/2026 - Assista agora ao Tribuna Notícias',
+      'Cartórios - 07/10/2026',
+      'JD1 NO AR - Quarta 7/10/2026',
+      'Jornal Guarulhos Hoje – Ed. 4496 – 7/10/2026',
+      'Falecimentos desta quarta-feira',
     ]) {
       expect(isNotNews(t), t).toBe(true);
     }
@@ -369,6 +376,8 @@ describe('isNotNews', () => {
       'Após cobrança, DNIT anuncia prazos de edital para nova ponte em Pedro Afonso',
       'Concurso no Piauí abre 107 vagas com salários de até R$ 7,2 mil',
       'Confira a lista completa dos deputados federais eleitos por Sergipe',
+      'Câmara aprova projeto - votação final em 7/10/2026',
+      'Morre aos 90 anos ex-prefeito de Londrina; falecimentos na cidade sobem',
     ]) {
       expect(isNotNews(t), t).toBe(false);
     }
