@@ -257,6 +257,12 @@ export interface RegionMeta {
   lng: number;
   /** Camera altitude in globe radii. */
   altitude: number;
+  /**
+   * The region's name as its outlets write it, when that differs from `name`
+   * ("Sachsen-Anhalt", "Bretagne"). Its words are ignored when clustering the
+   * region's headlines: nearly every story mentions them.
+   */
+  localNames?: string[];
 }
 
 /**
@@ -265,33 +271,33 @@ export interface RegionMeta {
  * apps/web/src/assets/regions-{cc}.json.
  */
 export const REGIONS: Record<RegionCode, RegionMeta> = {
-  'FR-ARA': { code: 'FR-ARA', country: 'FR', name: 'Auvergne-Rhône-Alpes', lat: 45.4, lng: 4.6, altitude: 0.55 },
-  'FR-BFC': { code: 'FR-BFC', country: 'FR', name: 'Bourgogne-Franche-Comté', lat: 47.2, lng: 4.8, altitude: 0.5 },
-  'FR-BRE': { code: 'FR-BRE', country: 'FR', name: 'Brittany', lat: 48.2, lng: -2.9, altitude: 0.45 },
-  'FR-CVL': { code: 'FR-CVL', country: 'FR', name: 'Centre-Val de Loire', lat: 47.5, lng: 1.7, altitude: 0.5 },
-  'FR-20R': { code: 'FR-20R', country: 'FR', name: 'Corsica', lat: 42.15, lng: 9.1, altitude: 0.35 },
-  'FR-GES': { code: 'FR-GES', country: 'FR', name: 'Grand Est', lat: 48.7, lng: 5.6, altitude: 0.5 },
-  'FR-HDF': { code: 'FR-HDF', country: 'FR', name: 'Hauts-de-France', lat: 50.0, lng: 2.8, altitude: 0.45 },
-  'FR-IDF': { code: 'FR-IDF', country: 'FR', name: 'Île-de-France', lat: 48.7, lng: 2.5, altitude: 0.3 },
-  'FR-NOR': { code: 'FR-NOR', country: 'FR', name: 'Normandy', lat: 49.1, lng: 0.1, altitude: 0.45 },
-  'FR-NAQ': { code: 'FR-NAQ', country: 'FR', name: 'Nouvelle-Aquitaine', lat: 45.2, lng: 0.2, altitude: 0.6 },
-  'FR-OCC': { code: 'FR-OCC', country: 'FR', name: 'Occitanie', lat: 43.7, lng: 2.2, altitude: 0.55 },
-  'FR-PDL': { code: 'FR-PDL', country: 'FR', name: 'Pays de la Loire', lat: 47.4, lng: -0.8, altitude: 0.45 },
-  'FR-PAC': { code: 'FR-PAC', country: 'FR', name: "Provence-Alpes-Côte d'Azur", lat: 43.95, lng: 6.05, altitude: 0.45 },
-  'DE-BW': { code: 'DE-BW', country: 'DE', name: 'Baden-Württemberg', lat: 48.6, lng: 9.0, altitude: 0.5 },
-  'DE-BY': { code: 'DE-BY', country: 'DE', name: 'Bavaria', lat: 48.95, lng: 11.4, altitude: 0.6 },
-  'DE-BE': { code: 'DE-BE', country: 'DE', name: 'Berlin', lat: 52.52, lng: 13.4, altitude: 0.2 },
-  'DE-BB': { code: 'DE-BB', country: 'DE', name: 'Brandenburg', lat: 52.45, lng: 13.2, altitude: 0.5 },
-  'DE-HB': { code: 'DE-HB', country: 'DE', name: 'Bremen', lat: 53.3, lng: 8.7, altitude: 0.2 },
-  'DE-HH': { code: 'DE-HH', country: 'DE', name: 'Hamburg', lat: 53.55, lng: 10.0, altitude: 0.2 },
-  'DE-HE': { code: 'DE-HE', country: 'DE', name: 'Hesse', lat: 50.6, lng: 9.0, altitude: 0.45 },
-  'DE-MV': { code: 'DE-MV', country: 'DE', name: 'Mecklenburg-Western Pomerania', lat: 53.75, lng: 12.5, altitude: 0.5 },
-  'DE-NI': { code: 'DE-NI', country: 'DE', name: 'Lower Saxony', lat: 52.75, lng: 9.3, altitude: 0.55 },
-  'DE-NW': { code: 'DE-NW', country: 'DE', name: 'North Rhine-Westphalia', lat: 51.45, lng: 7.6, altitude: 0.45 },
-  'DE-RP': { code: 'DE-RP', country: 'DE', name: 'Rhineland-Palatinate', lat: 49.9, lng: 7.4, altitude: 0.4 },
-  'DE-SL': { code: 'DE-SL', country: 'DE', name: 'Saarland', lat: 49.4, lng: 6.95, altitude: 0.25 },
-  'DE-SN': { code: 'DE-SN', country: 'DE', name: 'Saxony', lat: 51.05, lng: 13.35, altitude: 0.4 },
-  'DE-ST': { code: 'DE-ST', country: 'DE', name: 'Saxony-Anhalt', lat: 51.95, lng: 11.7, altitude: 0.4 },
-  'DE-SH': { code: 'DE-SH', country: 'DE', name: 'Schleswig-Holstein', lat: 54.2, lng: 9.8, altitude: 0.4 },
-  'DE-TH': { code: 'DE-TH', country: 'DE', name: 'Thuringia', lat: 50.9, lng: 11.0, altitude: 0.4 },
+  'FR-ARA': { code: 'FR-ARA', country: 'FR', name: 'Auvergne-Rhône-Alpes', lat: 45.4, lng: 4.6, altitude: 0.55, localNames: ['Auvergne-Rhône-Alpes'] },
+  'FR-BFC': { code: 'FR-BFC', country: 'FR', name: 'Bourgogne-Franche-Comté', lat: 47.2, lng: 4.8, altitude: 0.5, localNames: ['Bourgogne-Franche-Comté'] },
+  'FR-BRE': { code: 'FR-BRE', country: 'FR', name: 'Brittany', lat: 48.2, lng: -2.9, altitude: 0.45, localNames: ['Bretagne'] },
+  'FR-CVL': { code: 'FR-CVL', country: 'FR', name: 'Centre-Val de Loire', lat: 47.5, lng: 1.7, altitude: 0.5, localNames: ['Centre-Val de Loire'] },
+  'FR-20R': { code: 'FR-20R', country: 'FR', name: 'Corsica', lat: 42.15, lng: 9.1, altitude: 0.35, localNames: ['Corse'] },
+  'FR-GES': { code: 'FR-GES', country: 'FR', name: 'Grand Est', lat: 48.7, lng: 5.6, altitude: 0.5, localNames: ['Grand Est'] },
+  'FR-HDF': { code: 'FR-HDF', country: 'FR', name: 'Hauts-de-France', lat: 50.0, lng: 2.8, altitude: 0.45, localNames: ['Hauts-de-France'] },
+  'FR-IDF': { code: 'FR-IDF', country: 'FR', name: 'Île-de-France', lat: 48.7, lng: 2.5, altitude: 0.3, localNames: ['Île-de-France'] },
+  'FR-NOR': { code: 'FR-NOR', country: 'FR', name: 'Normandy', lat: 49.1, lng: 0.1, altitude: 0.45, localNames: ['Normandie'] },
+  'FR-NAQ': { code: 'FR-NAQ', country: 'FR', name: 'Nouvelle-Aquitaine', lat: 45.2, lng: 0.2, altitude: 0.6, localNames: ['Nouvelle-Aquitaine'] },
+  'FR-OCC': { code: 'FR-OCC', country: 'FR', name: 'Occitanie', lat: 43.7, lng: 2.2, altitude: 0.55, localNames: ['Occitanie'] },
+  'FR-PDL': { code: 'FR-PDL', country: 'FR', name: 'Pays de la Loire', lat: 47.4, lng: -0.8, altitude: 0.45, localNames: ['Pays de la Loire'] },
+  'FR-PAC': { code: 'FR-PAC', country: 'FR', name: "Provence-Alpes-Côte d'Azur", lat: 43.95, lng: 6.05, altitude: 0.45, localNames: ["Provence-Alpes-Côte d'Azur", 'PACA'] },
+  'DE-BW': { code: 'DE-BW', country: 'DE', name: 'Baden-Württemberg', lat: 48.6, lng: 9.0, altitude: 0.5, localNames: ['Baden-Württemberg'] },
+  'DE-BY': { code: 'DE-BY', country: 'DE', name: 'Bavaria', lat: 48.95, lng: 11.4, altitude: 0.6, localNames: ['Bayern'] },
+  'DE-BE': { code: 'DE-BE', country: 'DE', name: 'Berlin', lat: 52.52, lng: 13.4, altitude: 0.2, localNames: ['Berlin'] },
+  'DE-BB': { code: 'DE-BB', country: 'DE', name: 'Brandenburg', lat: 52.45, lng: 13.2, altitude: 0.5, localNames: ['Brandenburg'] },
+  'DE-HB': { code: 'DE-HB', country: 'DE', name: 'Bremen', lat: 53.3, lng: 8.7, altitude: 0.2, localNames: ['Bremen'] },
+  'DE-HH': { code: 'DE-HH', country: 'DE', name: 'Hamburg', lat: 53.55, lng: 10.0, altitude: 0.2, localNames: ['Hamburg'] },
+  'DE-HE': { code: 'DE-HE', country: 'DE', name: 'Hesse', lat: 50.6, lng: 9.0, altitude: 0.45, localNames: ['Hessen'] },
+  'DE-MV': { code: 'DE-MV', country: 'DE', name: 'Mecklenburg-Western Pomerania', lat: 53.75, lng: 12.5, altitude: 0.5, localNames: ['Mecklenburg-Vorpommern', 'MV'] },
+  'DE-NI': { code: 'DE-NI', country: 'DE', name: 'Lower Saxony', lat: 52.75, lng: 9.3, altitude: 0.55, localNames: ['Niedersachsen'] },
+  'DE-NW': { code: 'DE-NW', country: 'DE', name: 'North Rhine-Westphalia', lat: 51.45, lng: 7.6, altitude: 0.45, localNames: ['Nordrhein-Westfalen', 'NRW'] },
+  'DE-RP': { code: 'DE-RP', country: 'DE', name: 'Rhineland-Palatinate', lat: 49.9, lng: 7.4, altitude: 0.4, localNames: ['Rheinland-Pfalz'] },
+  'DE-SL': { code: 'DE-SL', country: 'DE', name: 'Saarland', lat: 49.4, lng: 6.95, altitude: 0.25, localNames: ['Saarland'] },
+  'DE-SN': { code: 'DE-SN', country: 'DE', name: 'Saxony', lat: 51.05, lng: 13.35, altitude: 0.4, localNames: ['Sachsen'] },
+  'DE-ST': { code: 'DE-ST', country: 'DE', name: 'Saxony-Anhalt', lat: 51.95, lng: 11.7, altitude: 0.4, localNames: ['Sachsen-Anhalt'] },
+  'DE-SH': { code: 'DE-SH', country: 'DE', name: 'Schleswig-Holstein', lat: 54.2, lng: 9.8, altitude: 0.4, localNames: ['Schleswig-Holstein'] },
+  'DE-TH': { code: 'DE-TH', country: 'DE', name: 'Thuringia', lat: 50.9, lng: 11.0, altitude: 0.4, localNames: ['Thüringen'] },
 };
