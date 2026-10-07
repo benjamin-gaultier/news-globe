@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SN",
   "countryName": "Senegal",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
     {
       "id": "NGuQmU3ovs_k",
@@ -79,90 +79,6 @@
       "outletCount24h": 2,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T14:50:42.000Z"
-    },
-    {
-      "id": "YrC7BCcCsUU9",
-      "representative": {
-        "id": "YrC7BCcCsUU9",
-        "url": "https://www.pressafrik.com/%E2%80%8BTouba-Mbodjene-Thierno-Alassane-Sall-s-en-prend-a-Diomaye-et-Sonko-et-reclame-des-avancees-dans-le-dossier-Aser_a312636.html",
-        "canonicalUrl": "https://www.pressafrik.com/%E2%80%8BTouba-Mbodjene-Thierno-Alassane-Sall-s-en-prend-a-Diomaye-et-Sonko-et-reclame-des-avancees-dans-le-dossier-Aser_a312636.html",
-        "title": "​Touba Mbodjène : Thierno Alassane Sall s’en prend à Diomaye et Sonko et réclame des avancées dans le dossier Aser",
-        "description": "Le député et leader de La République des Valeurs, Thierno Alassane Sall, a vivement critiqué l... www.pressafrik.com",
-        "source": {
-          "id": "pressafrik",
-          "name": "PressAfrik"
-        },
-        "sourceCountry": "SN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:01:00.000Z",
-        "imageUrl": "https://www.pressafrik.com/photo/art/default/98284219-68510592.jpg?v=1791291807",
-        "countryCode": "SN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "sGo2lsxJad4l",
-          "url": "https://senego.com/thierno-alassane-sall-fustige-diomaye-sonko-reclame-lenquete-aser-et-appelle-a-marcher_2009758.html",
-          "canonicalUrl": "https://senego.com/thierno-alassane-sall-fustige-diomaye-sonko-reclame-lenquete-aser-et-appelle-a-marcher_2009758.html",
-          "title": "Thierno Alassane Sall fustige Diomaye-Sonko, réclame l’enquête Aser et appelle à marcher",
-          "description": "À Touba Mbodjène, Thierno Alassane Sall critique la gouvernance Diomaye-Sonko, réclame l’ouverture de l’information judiciaire sur l’Aser et appelle à une marche nationale.",
-          "source": {
-            "id": "senego",
-            "name": "Senego"
-          },
-          "sourceCountry": "SN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T13:52:49.000Z",
-          "imageUrl": "https://senego.com/wp-content/uploads/2026/10/tmpyj9wlk9b.jpg",
-          "countryCode": "SN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:52:49.000Z"
-    },
-    {
-      "id": "Ajy6M4FYhDWh",
-      "representative": {
-        "id": "Ajy6M4FYhDWh",
-        "url": "https://lesoleil.sn/actualites/societe-fait-divers/deux-deces-et-un-blesse-au-parcelles-assainies-emoi-et-consternation-a-lunite-7/",
-        "canonicalUrl": "https://lesoleil.sn/actualites/societe-fait-divers/deux-deces-et-un-blesse-au-parcelles-assainies-emoi-et-consternation-a-lunite-7/",
-        "title": "Deux décés et un blessé au Parcelles assainies: émoi et consternation à l’Unité 7",
-        "description": "Les pluies diluviennes enregistrées dimanche 4 octobre à l’unité 7 des Parcelles Assainies ont fait deux victimes : A. Sène et son fils Mb. Gningue. Dans ce quartier, les populations réclament un système d’évacuation des eaux ainsi que le pavage des rues. Lundi 5 octobre 2026. 12 heures passées…",
-        "source": {
-          "id": "lesoleil_sn",
-          "name": "Le Soleil"
-        },
-        "sourceCountry": "SN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:58:19.000Z",
-        "imageUrl": null,
-        "countryCode": "SN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "aL_Nnl350zyI",
-          "url": "https://senego.com/parcelles-assainies-deux-morts-et-un-blesse-lunite-7-reclame-levacuation-des-eaux_2009741.html",
-          "canonicalUrl": "https://senego.com/parcelles-assainies-deux-morts-et-un-blesse-lunite-7-reclame-levacuation-des-eaux_2009741.html",
-          "title": "Parcelles Assainies : deux morts et un blessé, l’Unité 7 réclame l’évacuation des eaux",
-          "description": "À l’Unité 7 des Parcelles Assainies, une mère et son jeune fils sont morts lors des inondations du 4 octobre. Un blessé a aussi été recensé.",
-          "source": {
-            "id": "senego",
-            "name": "Senego"
-          },
-          "sourceCountry": "SN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T13:04:20.000Z",
-          "imageUrl": "https://senego.com/wp-content/uploads/2026/10/tmp7q9bj7o7.webp",
-          "countryCode": "SN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:04:20.000Z"
     },
     {
       "id": "KIyBHbXWHYfX",
@@ -469,6 +385,72 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:54:00.000Z"
+    },
+    {
+      "id": "YrC7BCcCsUU9",
+      "representative": {
+        "id": "YrC7BCcCsUU9",
+        "url": "https://www.pressafrik.com/%E2%80%8BTouba-Mbodjene-Thierno-Alassane-Sall-s-en-prend-a-Diomaye-et-Sonko-et-reclame-des-avancees-dans-le-dossier-Aser_a312636.html",
+        "canonicalUrl": "https://www.pressafrik.com/%E2%80%8BTouba-Mbodjene-Thierno-Alassane-Sall-s-en-prend-a-Diomaye-et-Sonko-et-reclame-des-avancees-dans-le-dossier-Aser_a312636.html",
+        "title": "​Touba Mbodjène : Thierno Alassane Sall s’en prend à Diomaye et Sonko et réclame des avancées dans le dossier Aser",
+        "description": "Le député et leader de La République des Valeurs, Thierno Alassane Sall, a vivement critiqué l... www.pressafrik.com",
+        "source": {
+          "id": "pressafrik",
+          "name": "PressAfrik"
+        },
+        "sourceCountry": "SN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:01:00.000Z",
+        "imageUrl": "https://www.pressafrik.com/photo/art/default/98284219-68510592.jpg?v=1791291807",
+        "countryCode": "SN",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "sGo2lsxJad4l",
+          "url": "https://senego.com/thierno-alassane-sall-fustige-diomaye-sonko-reclame-lenquete-aser-et-appelle-a-marcher_2009758.html",
+          "canonicalUrl": "https://senego.com/thierno-alassane-sall-fustige-diomaye-sonko-reclame-lenquete-aser-et-appelle-a-marcher_2009758.html",
+          "title": "Thierno Alassane Sall fustige Diomaye-Sonko, réclame l’enquête Aser et appelle à marcher",
+          "description": "À Touba Mbodjène, Thierno Alassane Sall critique la gouvernance Diomaye-Sonko, réclame l’ouverture de l’information judiciaire sur l’Aser et appelle à une marche nationale.",
+          "source": {
+            "id": "senego",
+            "name": "Senego"
+          },
+          "sourceCountry": "SN",
+          "language": "fr",
+          "publishedAt": "2026-10-06T13:52:49.000Z",
+          "imageUrl": "https://senego.com/wp-content/uploads/2026/10/tmpyj9wlk9b.jpg",
+          "countryCode": "SN",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:52:49.000Z"
+    },
+    {
+      "id": "4HZnNvMfOV_G",
+      "representative": {
+        "id": "4HZnNvMfOV_G",
+        "url": "https://lequotidien.sn/les-coupures-reviennent-ce-qui-manque-cest-une-reserve/",
+        "canonicalUrl": "https://lequotidien.sn/les-coupures-reviennent-ce-qui-manque-cest-une-reserve/",
+        "title": "Les coupures reviennent : ce qui manque, c’est une réserve",
+        "description": "Ni le solaire ni les batteries ne font passer la pointe du soir. La réserve la moins chère est chez nos voisins Le 1er...",
+        "source": {
+          "id": "lequotidien_sn",
+          "name": "Le Quotidien"
+        },
+        "sourceCountry": "SN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:41:44.000Z",
+        "imageUrl": null,
+        "countryCode": "SN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:41:44.000Z"
     }
   ]
 }

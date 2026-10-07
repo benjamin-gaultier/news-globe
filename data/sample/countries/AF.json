@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "AF",
   "countryName": "Afghanistan",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "alQcOKLl1aLU",
-      "representative": {
-        "id": "alQcOKLl1aLU",
-        "url": "https://8am.media/fa/muttaqi-discussed-security-cooperation-with-the-secretary-of-the-russian-security-council/",
-        "canonicalUrl": "https://8am.media/fa/muttaqi-discussed-security-cooperation-with-the-secretary-of-the-russian-security-council/",
-        "title": "متقی با دبیر شورای امنیت روسیه درباره همکاری‌های امنیتی گفت‌وگو کرد",
-        "description": "۸صبح، کابل: امیرخان متقی، وزیر خارجه طالبان، با سرگی شویگو، دبیر شورای امنیت روسیه، درباره روابط دوجانبه از جمله همکاری‌های امنیتی دیدار و گفت‌وگو کرد. وزارت خارجه طالبان روز سه‌شنبه، ۱۴ میزان، با نشر خبرنامه‌ای گفته که در این دیدار درباره روابط طالبان و روسیه، امنیت منطقه‌ای، مبارزه با مواد مخدر…",
-        "source": {
-          "id": "hashtesubh",
-          "name": "Hasht-e Subh"
-        },
-        "sourceCountry": "AF",
-        "language": "fa",
-        "publishedAt": "2026-10-06T13:03:31.000Z",
-        "imageUrl": "https://8am.media/fa/wp-content/uploads/2026/10/Muttaqi-Sergei-Shoigu-150x150.jpg",
-        "countryCode": "AF",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "FajJrfGB07N0",
-          "url": "https://www.afintl.com/202610069798",
-          "canonicalUrl": "https://www.afintl.com/202610069798",
-          "title": "وزیر خارجه طالبان با دبیر شورای امنیت ملی روسیه درباره همکاری‌های امنیتی گفت‌وگو کرد",
-          "description": "امیرخان متقی، وزیر خارجه طالبان در دیدار با سرگئی شویگو، دبیر شورای امنیت ملی روسیه، بر گسترش همکاری‌های امنیتی، سیاسی و اقتصادی میان کابل و مسکو تأکید کرد. متقی گفته است که اداره طالبان به تلاش‌های خود در زمینه تأمین امنیت منطقه و مبارزه با مواد مخدر ادامه می‌دهد.",
-          "source": {
-            "id": "afintl",
-            "name": "Afghanistan International"
-          },
-          "sourceCountry": "AF",
-          "language": "fa",
-          "publishedAt": "2026-10-06T14:51:48.000Z",
-          "imageUrl": "https://i.afintl.com/images/rdk9umy0/production/5f7bdfc9ab949cade9c82e7fe5ae1773c5667c31-1080x658.jpg?rect=0,47,1080,565&w=1200&h=628&fm=jpg&q=85&fit=max&auto=format",
-          "countryCode": "AF",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:51:48.000Z"
-    },
     {
       "id": "nY46WQhBMSqt",
       "representative": {
@@ -309,6 +267,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:55:26.000Z"
+    },
+    {
+      "id": "alQcOKLl1aLU",
+      "representative": {
+        "id": "alQcOKLl1aLU",
+        "url": "https://8am.media/fa/muttaqi-discussed-security-cooperation-with-the-secretary-of-the-russian-security-council/",
+        "canonicalUrl": "https://8am.media/fa/muttaqi-discussed-security-cooperation-with-the-secretary-of-the-russian-security-council/",
+        "title": "متقی با دبیر شورای امنیت روسیه درباره همکاری‌های امنیتی گفت‌وگو کرد",
+        "description": "۸صبح، کابل: امیرخان متقی، وزیر خارجه طالبان، با سرگی شویگو، دبیر شورای امنیت روسیه، درباره روابط دوجانبه از جمله همکاری‌های امنیتی دیدار و گفت‌وگو کرد. وزارت خارجه طالبان روز سه‌شنبه، ۱۴ میزان، با نشر خبرنامه‌ای گفته که در این دیدار درباره روابط طالبان و روسیه، امنیت منطقه‌ای، مبارزه با مواد مخدر…",
+        "source": {
+          "id": "hashtesubh",
+          "name": "Hasht-e Subh"
+        },
+        "sourceCountry": "AF",
+        "language": "fa",
+        "publishedAt": "2026-10-06T13:03:31.000Z",
+        "imageUrl": "https://8am.media/fa/wp-content/uploads/2026/10/Muttaqi-Sergei-Shoigu-150x150.jpg",
+        "countryCode": "AF",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "FajJrfGB07N0",
+          "url": "https://www.afintl.com/202610069798",
+          "canonicalUrl": "https://www.afintl.com/202610069798",
+          "title": "وزیر خارجه طالبان با دبیر شورای امنیت ملی روسیه درباره همکاری‌های امنیتی گفت‌وگو کرد",
+          "description": "امیرخان متقی، وزیر خارجه طالبان در دیدار با سرگئی شویگو، دبیر شورای امنیت ملی روسیه، بر گسترش همکاری‌های امنیتی، سیاسی و اقتصادی میان کابل و مسکو تأکید کرد. متقی گفته است که اداره طالبان به تلاش‌های خود در زمینه تأمین امنیت منطقه و مبارزه با مواد مخدر ادامه می‌دهد.",
+          "source": {
+            "id": "afintl",
+            "name": "Afghanistan International"
+          },
+          "sourceCountry": "AF",
+          "language": "fa",
+          "publishedAt": "2026-10-06T14:51:48.000Z",
+          "imageUrl": "https://i.afintl.com/images/rdk9umy0/production/5f7bdfc9ab949cade9c82e7fe5ae1773c5667c31-1080x658.jpg?rect=0,47,1080,565&w=1200&h=628&fm=jpg&q=85&fit=max&auto=format",
+          "countryCode": "AF",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:51:48.000Z"
     },
     {
       "id": "25Fnpll6rB7v",

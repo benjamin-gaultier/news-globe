@@ -2,143 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "DE",
   "countryName": "Germany",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "6Qr8vJmXLwez",
-      "representative": {
-        "id": "6Qr8vJmXLwez",
-        "url": "https://www.sueddeutsche.de/politik/schwarzes-meer-frachter-nach-drohnenangriff-vor-bulgarien-gesunken-li.3559390",
-        "canonicalUrl": "https://www.sueddeutsche.de/politik/schwarzes-meer-frachter-nach-drohnenangriff-vor-bulgarien-gesunken-li.3559390",
-        "title": "Schwarzes Meer: Frachter nach Drohnenangriff vor Bulgarien gesunken",
-        "description": null,
-        "source": {
-          "id": "sz",
-          "name": "Süddeutsche Zeitung"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:19:24.000Z",
-        "imageUrl": null,
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "9bny_68TqmEh",
-          "url": "https://www.n-tv.de/politik/Drohnen-treffen-zwei-Frachter-vor-Bulgarien-im-Schwarzen-Meer-id31387397.html",
-          "canonicalUrl": "https://www.n-tv.de/politik/Drohnen-treffen-zwei-Frachter-vor-Bulgarien-im-Schwarzen-Meer-id31387397.html",
-          "title": "Besatzung vermisst: Drohnen treffen zwei Frachter vor Bulgarien im Schwarzen Meer",
-          "description": "Die Explosion ist von einer Fähre aus zu sehen. Vor der bulgarischen Küste im Schwarzen Meer treffen Drohnen zwei Handelsschiffe - eines von ihnen sinkt. Noch ist vieles unklar, in Bulgarien herrscht Empörung.",
-          "source": {
-            "id": "ntv",
-            "name": "n-tv"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T13:02:08.000Z",
-          "imageUrl": "https://www.n-tv.de/img/31387287/1791293520/Img_4_3/250/2026-10-06T094436Z_1242540938_RC2LXNANQ4TT_RTRMADP_3_BULGARIA-INCIDENT.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:02:08.000Z"
-    },
-    {
-      "id": "CqjQqYFdypSL",
-      "representative": {
-        "id": "CqjQqYFdypSL",
-        "url": "https://www.sueddeutsche.de/politik/hanning-festnahme-spionage-bnd-geheimnisverrat-verdacht-gba-li.3558640",
-        "canonicalUrl": "https://www.sueddeutsche.de/politik/hanning-festnahme-spionage-bnd-geheimnisverrat-verdacht-gba-li.3558640",
-        "title": "Affäre beim BND: Spionageverdacht: Ex-Geheimdienstchef August Hanning verhaftet",
-        "description": "Der frühere BND-Präsident soll noch Jahre nach seinem Ausscheiden geheime Informationen aus der Behörde erhalten und möglicherweise verkauft haben – an fremde Mächte? Es wäre einer der ganz großen Spionagefälle der Bundesrepublik.",
-        "source": {
-          "id": "sz",
-          "name": "Süddeutsche Zeitung"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T11:18:37.000Z",
-        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/5a4df196-1f4b-4af9-801b-4e02ae281954.jpg?rect=1506%2C33%2C1152%2C864&width=1000&fm=jpg&q=60",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "lr4vSIRDVNT5",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/august-hanning-bnd-festnahme-spionage-mitarbeiter-gxe",
-          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/august-hanning-bnd-festnahme-spionage-mitarbeiter-gxe",
-          "title": "Spionageverdacht: Ehemaliger BND-Chef August Hanning festgenommen",
-          "description": "Der frühere Geheimdienstchef August Hanning ist verhaftet worden. Ihm wird Spionage vorgeworfen. Ermittlungsarbeiten im Block-Prozess hatten den Fall ins Rollen gebracht.",
-          "source": {
-            "id": "zeit",
-            "name": "ZEIT ONLINE"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T12:16:50.000Z",
-          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/august-hanning-vor-nsa-untersuchungsausschuss-bild-2/original__640x360",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "e0ckzLZyfstY",
-          "url": "https://www.faz.net/aktuell/politik/inland/august-hanning-festgenommen-der-bnd-wird-von-einem-spionageskandal-erschuettert-accg-201292341.html",
-          "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/august-hanning-festgenommen-der-bnd-wird-von-einem-spionageskandal-erschuettert-accg-201292341.html",
-          "title": "August Hanning: Ein Spionageskandal erschüttert den BND",
-          "description": "Der frühere BND-Präsident August Hanning wurde festgenommen – wegen des Verdachts auf Landesverrat. Ein beispielloser Vorgang, der die Behörde zu einem sensiblen Zeitpunkt trifft.",
-          "source": {
-            "id": "faz",
-            "name": "Frankfurter Allgemeine"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T12:15:53.000Z",
-          "imageUrl": "https://media0.faz.net/image/fa6ff2c19f68/w6144h3456x0y640/202610/43601.0.2633249701/polizeibeamte-stehen-vor-dem.webp",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "OXG3TAEGwdfE",
-          "url": "https://www.n-tv.de/politik/Ehemaliger-BND-Chef-August-Hanning-wegen-Spionageverdachts-verhaftet-id31385873.html",
-          "canonicalUrl": "https://www.n-tv.de/politik/Ehemaliger-BND-Chef-August-Hanning-wegen-Spionageverdachts-verhaftet-id31385873.html",
-          "title": "Auch Ex-Mitarbeiter in Gewahrsam: Ehemaliger BND-Chef August Hanning wegen Spionageverdachts verhaftet",
-          "description": "Die Generalbundesanwaltschaft ermittelt gegen Ex-BND-Chef Hanning. Gegen diesen gibt es unter anderem den Verdacht des versuchten Landesverrats. Ein ehemaliger Mitarbeiter soll hochsensible Daten an Hanning weitergegeben haben.",
-          "source": {
-            "id": "ntv",
-            "name": "n-tv"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T08:10:33.000Z",
-          "imageUrl": "https://www.n-tv.de/img/31386652/1791288336/Img_4_3/250/623557822.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "ZKS_L23BEx1L",
-          "url": "https://www.welt.de/politik/deutschland/article6ac4ab30321809b09dd0771d/august-hanning-ex-bnd-chef-wegen-spionageverdachts-festgenommen.html",
-          "canonicalUrl": "https://www.welt.de/politik/deutschland/article6ac4ab30321809b09dd0771d/august-hanning-ex-bnd-chef-wegen-spionageverdachts-festgenommen.html",
-          "title": "Ex-BND-Chef August Hanning wegen Spionageverdachts festgenommen",
-          "description": "Ermittler werfen dem früheren BND‑Präsidenten August Hanning das Ausspähen von Staatsgeheimnissen vor. Es gibt den Verdacht, er wollte Informationen verkaufen.",
-          "source": {
-            "id": "welt",
-            "name": "WELT"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T08:05:58.000Z",
-          "imageUrl": "https://images.welt.de/6ac4ab30321809b09dd0771d/242b29fc966ba60ecfb01ffd49a7c61c/ci23x11-w1200/dpa-com-20090101-251028-935-919221-jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T12:16:50.000Z"
-    },
     {
       "id": "YsJWB4YemDKC",
       "representative": {
@@ -346,6 +211,48 @@
       "latestPublishedAt": "2026-10-06T13:08:36.000Z"
     },
     {
+      "id": "6Qr8vJmXLwez",
+      "representative": {
+        "id": "6Qr8vJmXLwez",
+        "url": "https://www.sueddeutsche.de/politik/schwarzes-meer-frachter-nach-drohnenangriff-vor-bulgarien-gesunken-li.3559390",
+        "canonicalUrl": "https://www.sueddeutsche.de/politik/schwarzes-meer-frachter-nach-drohnenangriff-vor-bulgarien-gesunken-li.3559390",
+        "title": "Schwarzes Meer: Frachter nach Drohnenangriff vor Bulgarien gesunken",
+        "description": null,
+        "source": {
+          "id": "sz",
+          "name": "Süddeutsche Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:19:24.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "9bny_68TqmEh",
+          "url": "https://www.n-tv.de/politik/Drohnen-treffen-zwei-Frachter-vor-Bulgarien-im-Schwarzen-Meer-id31387397.html",
+          "canonicalUrl": "https://www.n-tv.de/politik/Drohnen-treffen-zwei-Frachter-vor-Bulgarien-im-Schwarzen-Meer-id31387397.html",
+          "title": "Besatzung vermisst: Drohnen treffen zwei Frachter vor Bulgarien im Schwarzen Meer",
+          "description": "Die Explosion ist von einer Fähre aus zu sehen. Vor der bulgarischen Küste im Schwarzen Meer treffen Drohnen zwei Handelsschiffe - eines von ihnen sinkt. Noch ist vieles unklar, in Bulgarien herrscht Empörung.",
+          "source": {
+            "id": "ntv",
+            "name": "n-tv"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T13:02:08.000Z",
+          "imageUrl": "https://www.n-tv.de/img/31387287/1791293520/Img_4_3/250/2026-10-06T094436Z_1242540938_RC2LXNANQ4TT_RTRMADP_3_BULGARIA-INCIDENT.jpg",
+          "countryCode": "DE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:02:08.000Z"
+    },
+    {
       "id": "CH0MsLKmXIoM",
       "representative": {
         "id": "CH0MsLKmXIoM",
@@ -365,7 +272,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:00:59.000Z"
     },
@@ -389,7 +296,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:56:39.000Z"
     },
@@ -413,7 +320,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:53:59.000Z"
     },
@@ -437,7 +344,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:52:00.000Z"
     },
@@ -461,7 +368,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:49:00.000Z"
     },
@@ -485,33 +392,9 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:39:59.000Z"
-    },
-    {
-      "id": "CnR8qKWt7pve",
-      "representative": {
-        "id": "CnR8qKWt7pve",
-        "url": "https://www.sueddeutsche.de/politik/ruestung-frankreich-testet-modernisierte-atomrakete-li.3559443",
-        "canonicalUrl": "https://www.sueddeutsche.de/politik/ruestung-frankreich-testet-modernisierte-atomrakete-li.3559443",
-        "title": "Rüstung: Frankreich testet modernisierte Atomrakete",
-        "description": null,
-        "source": {
-          "id": "sz",
-          "name": "Süddeutsche Zeitung"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:38:16.000Z",
-        "imageUrl": null,
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:38:16.000Z"
     },
     {
       "id": "sYC1iKVabEDP",
@@ -533,9 +416,57 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:33:00.000Z"
+    },
+    {
+      "id": "iLo618Y4Oclc",
+      "representative": {
+        "id": "iLo618Y4Oclc",
+        "url": "https://www.zeit.de/politik/deutschland/2026-10/ermittlungen-august-hanning-bnd-praesident-festnahme-geheimnisverrat",
+        "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/ermittlungen-august-hanning-bnd-praesident-festnahme-geheimnisverrat",
+        "title": "August Hanning: Spion in eigener Sache?",
+        "description": "Ermittler haben den früheren BND-Präsidenten August Hanning festgenommen. Er soll sich Staatsgeheimnisse beschafft und das Wissen zu Geld gemacht haben.",
+        "source": {
+          "id": "zeit",
+          "name": "ZEIT ONLINE"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T11:51:36.000Z",
+        "imageUrl": "https://img.zeit.de/politik/2026-10/ermittlungen-august-hanning-bnd-praesident-festnahme-geheimnisverrat-bild/original__640x360",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:51:36.000Z"
+    },
+    {
+      "id": "bm2h9jmLjgF0",
+      "representative": {
+        "id": "bm2h9jmLjgF0",
+        "url": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-sachsen-anhalt-tobias-rausch-haelt-erste-rede-als-landtagspraesident-faz-110093143.html",
+        "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-sachsen-anhalt-tobias-rausch-haelt-erste-rede-als-landtagspraesident-faz-110093143.html",
+        "title": "Magdeburger Landtag: Rausch will keine „Abrechnung mit der Vergangenheit“",
+        "description": "AfD-Politiker schlägt in seiner ersten Rede als Landtagspräsident in Sachsen-Anhalt versöhnlichen Ton an +++ Rausch mit 48 Ja-Stimmen gewählt – AfD und BSW haben zusammen 44 Stimmen +++ alle Entwicklungen im Liveblog",
+        "source": {
+          "id": "faz",
+          "name": "Frankfurter Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T11:28:54.000Z",
+        "imageUrl": "https://media0.faz.net/image/8467f297dd4b/w4669h2626x0y243/202610/43601.0.2633411022/der-neugewaehlte.webp",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:28:54.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IT",
   "countryName": "Italy",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
     {
       "id": "JjekBcF_1Kfk",
@@ -93,7 +93,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 1,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T13:16:57.000Z"
     },
@@ -165,7 +165,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:57:24.000Z"
     },
@@ -189,7 +189,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:51:09.000Z"
     },
@@ -213,33 +213,9 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:50:37.000Z"
-    },
-    {
-      "id": "OhpSDjG-X_kc",
-      "representative": {
-        "id": "OhpSDjG-X_kc",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/cade-da-una-impalcatura-a-rimini-operaio-muore-in-ospedale_21349845-7d8e-4133-a994-d4737e02bd72.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/cade-da-una-impalcatura-a-rimini-operaio-muore-in-ospedale_21349845-7d8e-4133-a994-d4737e02bd72.html",
-        "title": "Cade da una impalcatura a Rimini, operaio muore in ospedale",
-        "description": "Sindaco, 'profondo cordoglio, morti bianche una piaga inaccettabile'",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-06T12:19:42.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:19:42.000Z"
     },
     {
       "id": "--Uc9vl9ADB5",
@@ -432,6 +408,30 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-05T16:07:46.000Z"
+    },
+    {
+      "id": "syBYk_zJKaJn",
+      "representative": {
+        "id": "syBYk_zJKaJn",
+        "url": "https://www.ilpost.it/2026/10/05/baby-gang-banda-criminale/",
+        "canonicalUrl": "https://www.ilpost.it/2026/10/05/baby-gang-banda-criminale/",
+        "title": "Il rapper Baby Gang rimarrà in carcere perché secondo il gip di Lecco fa parte di una rete criminale internazionale",
+        "description": null,
+        "source": {
+          "id": "ilpost",
+          "name": "Il Post"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T14:25:15.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T14:25:15.000Z"
     }
   ]
 }

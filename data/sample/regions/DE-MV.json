@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "DE",
+  "countryName": "Germany",
+  "regionCode": "DE-MV",
+  "regionName": "Mecklenburg-Western Pomerania",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
+  "clusters": [
+    {
+      "id": "SG3rO79n-_kJ",
+      "representative": {
+        "id": "SG3rO79n-_kJ",
+        "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/stromausfall-auf-ruegen-grossteil-der-versorgung-wiederhergestellt,mvregiogreifswald-5804.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vorpommern/stromausfall-auf-ruegen-grossteil-der-versorgung-wiederhergestellt,mvregiogreifswald-5804.html",
+        "title": "Stromausfall auf Rügen: Großteil der Versorgung wiederhergestellt",
+        "description": "Am Mittwochmittag ist auf der Insel großflächig der Strom ausgefallen. Im Großraum Binz gibt es weiterhin Ausfälle.",
+        "source": {
+          "id": "ndr_mv",
+          "name": "NDR Mecklenburg-Vorpommern"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:36:14.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:36:14.000Z"
+    },
+    {
+      "id": "Xo3SUAxEgmCE",
+      "representative": {
+        "id": "Xo3SUAxEgmCE",
+        "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/nach-brand-frauenleiche-in-einer-wohnung-in-stralsund-gefunden,leichestralsund-100.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/nach-brand-frauenleiche-in-einer-wohnung-in-stralsund-gefunden,leichestralsund-100.html",
+        "title": "Nach Brand in einer Wohnung: Frauenleiche in Stralsund gefunden",
+        "description": "Ein Mann wurde festgenommen. Er wird verdächtigt, die Frau getötet und die Wohnung angezündet zu haben.",
+        "source": {
+          "id": "ndr_mv",
+          "name": "NDR Mecklenburg-Vorpommern"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:32:06.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:32:06.000Z"
+    },
+    {
+      "id": "BqLIXP_qXdJr",
+      "representative": {
+        "id": "BqLIXP_qXdJr",
+        "url": "https://www.ostsee-zeitung.de/lokales/vorpommern-greifswald/greifswald/mv-amthor-haelt-sich-cdu-vorsitz-offen-schomann-und-ehlers-im-gespraech-RQOB723YZJHBFBJN3U4YP65EOY.html",
+        "canonicalUrl": "https://www.ostsee-zeitung.de/lokales/vorpommern-greifswald/greifswald/mv-amthor-haelt-sich-cdu-vorsitz-offen-schomann-und-ehlers-im-gespraech-RQOB723YZJHBFBJN3U4YP65EOY.html",
+        "title": "MV: Amthor hält sich CDU-Vorsitz offen – Schomann und Ehlers im Gespräch",
+        "description": "Neben Staatsminister Amthor werden ein Landrat und ein Oberbürgermeister aus Mecklenburg als neue Vorsitzende für die Landes-CDU gehandelt. Auch für die Neubesetzung des Generalsekretärs gibt es schon einen konkreten Namen.",
+        "source": {
+          "id": "ostsee_zeitung",
+          "name": "Ostsee-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:05:01.000Z",
+        "imageUrl": "https://www.ostsee-zeitung.de/resizer/v2/4HREPHQ3CZFFPI5C2M5AOCP4L4.jpg?auth=4cc82d581049bbf010a53f4acc32be9dbdbaefc02618651a58d744ee1433ed12&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:05:01.000Z"
+    },
+    {
+      "id": "PndPlBAu6mRD",
+      "representative": {
+        "id": "PndPlBAu6mRD",
+        "url": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/mv-karls-holt-ex-tourismuschef-tobias-woitendorf-leiter-expansion-6DPU7LB3DRGX5IBVN63W6SHZXQ.html",
+        "canonicalUrl": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/mv-karls-holt-ex-tourismuschef-tobias-woitendorf-leiter-expansion-6DPU7LB3DRGX5IBVN63W6SHZXQ.html",
+        "title": "MV: Karls holt Ex-Tourismuschef Tobias Woitendorf – Leiter Expansion",
+        "description": "Karls-Chef Robert Dahl holt sich prominente Verstärkung für sein Freizeitimperium an Bord: Ex-Touristiker Tobias Woitendorf hat eine leitende Position bei dem stark expandierenden Familienunternehmen mit Stammsitz in Rövershagen bei Rostock übernommen. Das sind seine Aufgaben.",
+        "source": {
+          "id": "ostsee_zeitung",
+          "name": "Ostsee-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:03:57.000Z",
+        "imageUrl": "https://www.ostsee-zeitung.de/resizer/v2/2DERQJJGQ5FWBDNBCWYCLXBFMI.jpg?auth=05144794654de54b8d304a2e339621ae034254cc6b4b2449047ee239f33339ac&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:03:57.000Z"
+    },
+    {
+      "id": "2yv0CZUv2lx0",
+      "representative": {
+        "id": "2yv0CZUv2lx0",
+        "url": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/nahverkehr-in-mv-verschlaeft-e-bus-umstieg-umwelthilfe-fordert-stopp-fuer-diesel-busse-NEGYUMQ53NFM7LFTSC7AJDIYQI.html",
+        "canonicalUrl": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/nahverkehr-in-mv-verschlaeft-e-bus-umstieg-umwelthilfe-fordert-stopp-fuer-diesel-busse-NEGYUMQ53NFM7LFTSC7AJDIYQI.html",
+        "title": "Nahverkehr in MV verschläft E-Bus-Umstieg – Umwelthilfe fordert Stopp für Diesel-Busse",
+        "description": "Nur jeder achte Rostocker Bus fährt elektrisch – das bedeutet Rang 27 unter den 40 größten deutschen Städten. Die Deutsche Umwelthilfe sieht den Nordosten beim Umstieg auf E-Mobilität im Nahverkehr als Schlusslicht. Dabei gibt es positive Beispiele. Zahlen am Ende die Fahrgäste für die Öko-Wende?",
+        "source": {
+          "id": "ostsee_zeitung",
+          "name": "Ostsee-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:58:00.000Z",
+        "imageUrl": "https://www.ostsee-zeitung.de/resizer/v2/FPNNPEY2PFE2FIUXNC7IXB5CYY.jpg?auth=8e2f34f71b86ab4c4ca8d08190a27bcfd11269bb00138b70a2595e2ac66edb80&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:58:00.000Z"
+    },
+    {
+      "id": "de_j4HumtX9o",
+      "representative": {
+        "id": "de_j4HumtX9o",
+        "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/drogen-medien-spiele-schwerin-verstaerkt-suchtpraevention-an-schulen,mvregioschwerin-5990.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/drogen-medien-spiele-schwerin-verstaerkt-suchtpraevention-an-schulen,mvregioschwerin-5990.html",
+        "title": "Drogen, Medien, Spiele: Schwerin verstärkt Suchtprävention an Schulen",
+        "description": "Fast 1.000 Schüler haben die Angebote der Experten des Gesundheitsamtes genutzt.",
+        "source": {
+          "id": "ndr_mv",
+          "name": "NDR Mecklenburg-Vorpommern"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:45:26.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:45:26.000Z"
+    },
+    {
+      "id": "A8dqfzxe1Kjt",
+      "representative": {
+        "id": "A8dqfzxe1Kjt",
+        "url": "https://www.ostsee-zeitung.de/lokales/vorpommern-greifswald/usedom/wolgast-zoll-kontrolliert-subunternehmen-auf-peene-werft-verdacht-auf-schwarzarbeit-4TUJOLYNTVE6BPWA27Q4G7DG3M.html",
+        "canonicalUrl": "https://www.ostsee-zeitung.de/lokales/vorpommern-greifswald/usedom/wolgast-zoll-kontrolliert-subunternehmen-auf-peene-werft-verdacht-auf-schwarzarbeit-4TUJOLYNTVE6BPWA27Q4G7DG3M.html",
+        "title": "Wolgast: Zoll kontrolliert Subunternehmen auf Peene-Werft – Verdacht auf Schwarzarbeit",
+        "description": "Mehrere Einsatz- und Zivilfahrzeuge des Zolls sind am Mittwoch (7. Oktober) auf dem Gelände der Peene-Werft in Wolgast vorgefahren. Beim Ausbau von Schiffen sollen über Jahre hinweg Rumänen schwarz beschäftigt worden sein. Von einem Millionenschaden ist die Rede. Die Peene-Werft selbst ist nicht…",
+        "source": {
+          "id": "ostsee_zeitung",
+          "name": "Ostsee-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:38:31.000Z",
+        "imageUrl": "https://www.ostsee-zeitung.de/resizer/v2/LMTHLLFZZ5ABFAJYEUEAZJR66I.jpg?auth=489ff306308f38797e0d9b3914571714912695313863937a2c8a1a4fc536278d&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:38:31.000Z"
+    },
+    {
+      "id": "mCn1c5H5fD1j",
+      "representative": {
+        "id": "mCn1c5H5fD1j",
+        "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vom-inkubator-auf-spielplatz-wie-zwei-ukrainische-zwillinge-ueberlebten,zwillinge-174.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vom-inkubator-auf-spielplatz-wie-zwei-ukrainische-zwillinge-ueberlebten,zwillinge-174.html",
+        "title": "Vom Inkubator auf den Spielplatz: Wie zwei ukrainische Zwillinge überlebten",
+        "description": "Die Zwillinge der Familie Havryliuk hatten in der Ukraine kaum eine Überlebenschance. 2023 wurden sie schwer krank nach Greifswald gebracht.",
+        "source": {
+          "id": "ndr_mv",
+          "name": "NDR Mecklenburg-Vorpommern"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:18:42.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:18:42.000Z"
+    },
+    {
+      "id": "8S3qd7trxsbS",
+      "representative": {
+        "id": "8S3qd7trxsbS",
+        "url": "https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/feriengebiet-mit-78-grundstuecken-in-wohlenberg-an-der-ostsee-nach-vier-jahren-steht-hier-erst-ein-5FBD2IE4MBA3PMOLZERSIS2DHE.html",
+        "canonicalUrl": "https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/feriengebiet-mit-78-grundstuecken-in-wohlenberg-an-der-ostsee-nach-vier-jahren-steht-hier-erst-ein-5FBD2IE4MBA3PMOLZERSIS2DHE.html",
+        "title": "Feriengebiet mit 78 Grundstücken in Wohlenberg an der Ostsee: Nach vier Jahren steht hier erst ein Haus",
+        "description": "An der Wohlenberger Wiek zwischen Wismar und Boltenhagen sollte ein Naturresort entstehen. Doch Investoren sprangen vor knapp drei Jahren ab. Seitdem werden die Grundstücke einzeln vermarktet. Nur ein Paar hat sich bisher getraut, hier zu bauen. Was sie zur Einsamkeit mit Ostseeblick sagen und wo…",
+        "source": {
+          "id": "ostsee_zeitung",
+          "name": "Ostsee-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:07:22.000Z",
+        "imageUrl": "https://www.ostsee-zeitung.de/resizer/v2/GO4L4ALJGFFH3A3ARCPR5USLSY.jpg?auth=cadfcfbe12ed5df2d2ef500b66c15a6d44241b94c215130dc25738e27b61ea3e&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:07:22.000Z"
+    },
+    {
+      "id": "pgdS84cmIa_O",
+      "representative": {
+        "id": "pgdS84cmIa_O",
+        "url": "https://www.ostsee-zeitung.de/lokales/vorpommern-ruegen/ribnitz-damgarten/puetnitz-pangea-festival-und-ostblocktreffen-bleiben-trotz-bernsteinresort-GQGPUS75SBCKLBJ5DTER4ZNDFQ.html",
+        "canonicalUrl": "https://www.ostsee-zeitung.de/lokales/vorpommern-ruegen/ribnitz-damgarten/puetnitz-pangea-festival-und-ostblocktreffen-bleiben-trotz-bernsteinresort-GQGPUS75SBCKLBJ5DTER4ZNDFQ.html",
+        "title": "Pütnitz: Pangea-Festival und Ostblocktreffen bleiben trotz Bernsteinresort",
+        "description": "Ostblocktreffen und Pangea-Festival bleiben Pütnitz trotz des geplanten Bernsteinresorts erhalten. Die Veranstalter müssen umdenken, sehen aber auch Chancen. Was Supreme Surf und der Technikverein konkret planen – und welche Rolle die Bernsteinreiter spielen.",
+        "source": {
+          "id": "ostsee_zeitung",
+          "name": "Ostsee-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:00:04.000Z",
+        "imageUrl": "https://www.ostsee-zeitung.de/resizer/v2/44CQSYAFURCURFIG3DM6NYJI4Y.jpg?auth=47687d26264e02e77b9f1adf46e42fdde12619fcd465b9a0128c87147bdaa4d0&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:00:04.000Z"
+    },
+    {
+      "id": "hmEGyhMCkGk7",
+      "representative": {
+        "id": "hmEGyhMCkGk7",
+        "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/postfiliale-in-friedland-schliesst,mvregioneubrandenburg-5434.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/postfiliale-in-friedland-schliesst,mvregioneubrandenburg-5434.html",
+        "title": "Postfiliale in Friedland schließt",
+        "description": "Der Betreiber hat seinen Vertrag mit der Post gekündigt und hört zum Jahresende auf.",
+        "source": {
+          "id": "ndr_mv",
+          "name": "NDR Mecklenburg-Vorpommern"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:45:00.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:45:00.000Z"
+    },
+    {
+      "id": "dZq7HSKXvbzk",
+      "representative": {
+        "id": "dZq7HSKXvbzk",
+        "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/sanierung-in-bad-doberan-anwohnende-fuerchten-parkplatzverluste,mvregiorostock-4944.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/sanierung-in-bad-doberan-anwohnende-fuerchten-parkplatzverluste,mvregiorostock-4944.html",
+        "title": "Sanierung in Bad Doberan: Anwohnende fürchten Parkplatzverluste",
+        "description": "Durch die geplante Sanierung der Dr.-Leber-Straße könnten viele Parkplätze wegfallen, befürchtet eine Initiative.",
+        "source": {
+          "id": "ndr_mv",
+          "name": "NDR Mecklenburg-Vorpommern"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:32:28.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:32:28.000Z"
+    },
+    {
+      "id": "7ftYt8mf_MoV",
+      "representative": {
+        "id": "7ftYt8mf_MoV",
+        "url": "https://www.ostsee-zeitung.de/lokales/rostock/fabian-prozess-verteidigung-fuerchtet-schuldspruch-fuer-gina-h-FR7JZAXYHJEKJA7JRJ6T24CVXQ.html",
+        "canonicalUrl": "https://www.ostsee-zeitung.de/lokales/rostock/fabian-prozess-verteidigung-fuerchtet-schuldspruch-fuer-gina-h-FR7JZAXYHJEKJA7JRJ6T24CVXQ.html",
+        "title": "Fabian-Prozess: Verteidigung fürchtet Schuldspruch für Gina H.",
+        "description": "Im Mordprozess um den toten Fabian aus Güstrow zeichnet sich eine Verurteilung der Angeklagten Gina H. ab. Das sagt zumindest einer ihrer Verteidiger in einem Interview. Die Gelegenheiten, das Gericht von der Unschuld seiner Mandantin zu überzeugen, werden knapp: Das Verfahren neigt sich dem Ende.",
+        "source": {
+          "id": "ostsee_zeitung",
+          "name": "Ostsee-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:27:33.000Z",
+        "imageUrl": "https://www.ostsee-zeitung.de/resizer/v2/7LWLSQRQEZCRXMDAHQEMY4RKGM.jpeg?auth=005210fbf222bcada94e2c0f82f86cb96493dd7bc574491876224cda4a0cd750&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:27:33.000Z"
+    },
+    {
+      "id": "TFviV243Yqu9",
+      "representative": {
+        "id": "TFviV243Yqu9",
+        "url": "https://www.ostsee-zeitung.de/lokales/rostock/mordprozess-um-fabian-im-liveticker-aussage-des-gutachters-erwartet-ist-gina-h-schuldfaehig-UR6LYHMRBNGVVMKM2HHVM375HM.html",
+        "canonicalUrl": "https://www.ostsee-zeitung.de/lokales/rostock/mordprozess-um-fabian-im-liveticker-aussage-des-gutachters-erwartet-ist-gina-h-schuldfaehig-UR6LYHMRBNGVVMKM2HHVM375HM.html",
+        "title": "Mordprozess um Fabian im Liveticker: Aussage des Gutachters erwartet – Ist Gina H. schuldfähig?",
+        "description": "Der Prozess zum Tod des achtjährigen Fabian befindet sich auf der Zielgeraden. Am Donnerstag (8. Oktober) soll der psychiatrische Sachverständige sein Gutachten vorlegen. Die OZ begleitet den Prozess am Rostocker Landgericht mit einem Liveticker.",
+        "source": {
+          "id": "ostsee_zeitung",
+          "name": "Ostsee-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:25:46.000Z",
+        "imageUrl": "https://www.ostsee-zeitung.de/resizer/v2/JB5UFE6O7NAEVIOSFS4X6LS7HA.jpg?auth=dc2da3820cefd7f89f0d1072b661fa399468e753692bd76425e3c152b8bb754a&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:25:46.000Z"
+    },
+    {
+      "id": "bl2QHnGVS5tF",
+      "representative": {
+        "id": "bl2QHnGVS5tF",
+        "url": "https://www.ostsee-zeitung.de/lokales/rostock/rostock-aida-cruises-baut-kreuzfahrtschiffe-nach-nur-zehn-jahren-um-fuer-200-millionen-euro-VD55YU4DP5E5RDHUIYUBSI4BPI.html",
+        "canonicalUrl": "https://www.ostsee-zeitung.de/lokales/rostock/rostock-aida-cruises-baut-kreuzfahrtschiffe-nach-nur-zehn-jahren-um-fuer-200-millionen-euro-VD55YU4DP5E5RDHUIYUBSI4BPI.html",
+        "title": "Rostock: Aida Cruises baut Kreuzfahrtschiffe nach nur zehn Jahren um – für 200 Millionen Euro",
+        "description": "Auch in der Kreuzschifffahrt gibt es Trends. Wer mit der Zeit gehen will, muss seine Schiffe regelmäßig modernisieren. Das tut die Rostocker Reederei Aida Cruises gerade. Selbst mit Schiffen, die noch gar nicht so alt sind. Das sind die Pläne.",
+        "source": {
+          "id": "ostsee_zeitung",
+          "name": "Ostsee-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:01:57.000Z",
+        "imageUrl": "https://www.ostsee-zeitung.de/resizer/v2/7UTQHRTZPBAPDNET2QZYL4Z54A.png?auth=5ba9572db9e949115fadabff1dabfbb06e1eea797e618bc3bb8fc72cb8959fed&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-MV"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:01:57.000Z"
+    }
+  ]
+}

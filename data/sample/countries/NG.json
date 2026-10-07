@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "NG",
   "countryName": "Nigeria",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "aUgdGxZ4vhKF",
-      "representative": {
-        "id": "aUgdGxZ4vhKF",
-        "url": "https://dailytrust.com/katsina-hisbah-commander-general-resigns/",
-        "canonicalUrl": "https://dailytrust.com/katsina-hisbah-commander-general-resigns/",
-        "title": "Katsina: Hisbah Commander-General resigns",
-        "description": "Dr Aminu Usman (Abu Ammar), Commander-General of the Katsina State Hisbah Board, has resigned his appointment with immediate effect. Usman announced his resignation in a letter dated October 5, and addressed to the Secretary to the State Government (SSG), Governor’s Office, State Secretariat…",
-        "source": {
-          "id": "dailytrust",
-          "name": "Daily Trust"
-        },
-        "sourceCountry": "NG",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:17:31.000Z",
-        "imageUrl": null,
-        "countryCode": "NG",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "bJkR6K65CHEp",
-          "url": "https://www.vanguardngr.com/2026/10/katsina-hisbah-commander-general-resigns/",
-          "canonicalUrl": "https://www.vanguardngr.com/2026/10/katsina-hisbah-commander-general-resigns/",
-          "title": "Katsina Hisbah commander-general resigns",
-          "description": "Dr Aminu Usman (Abu Ammar), Commander-General of the Katsina State Hisbah Board, has resigned his appointment with immediate effect. The post Katsina Hisbah commander-general resigns appeared first on Vanguard News .",
-          "source": {
-            "id": "vanguard",
-            "name": "Vanguard"
-          },
-          "sourceCountry": "NG",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:40:13.000Z",
-          "imageUrl": null,
-          "countryCode": "NG",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:40:13.000Z"
-    },
     {
       "id": "ra_vLkvPvjRV",
       "representative": {
@@ -366,9 +324,51 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:01:20.000Z"
+    },
+    {
+      "id": "aUgdGxZ4vhKF",
+      "representative": {
+        "id": "aUgdGxZ4vhKF",
+        "url": "https://dailytrust.com/katsina-hisbah-commander-general-resigns/",
+        "canonicalUrl": "https://dailytrust.com/katsina-hisbah-commander-general-resigns/",
+        "title": "Katsina: Hisbah Commander-General resigns",
+        "description": "Dr Aminu Usman (Abu Ammar), Commander-General of the Katsina State Hisbah Board, has resigned his appointment with immediate effect. Usman announced his resignation in a letter dated October 5, and addressed to the Secretary to the State Government (SSG), Governor’s Office, State Secretariat…",
+        "source": {
+          "id": "dailytrust",
+          "name": "Daily Trust"
+        },
+        "sourceCountry": "NG",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:17:31.000Z",
+        "imageUrl": null,
+        "countryCode": "NG",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "bJkR6K65CHEp",
+          "url": "https://www.vanguardngr.com/2026/10/katsina-hisbah-commander-general-resigns/",
+          "canonicalUrl": "https://www.vanguardngr.com/2026/10/katsina-hisbah-commander-general-resigns/",
+          "title": "Katsina Hisbah commander-general resigns",
+          "description": "Dr Aminu Usman (Abu Ammar), Commander-General of the Katsina State Hisbah Board, has resigned his appointment with immediate effect. The post Katsina Hisbah commander-general resigns appeared first on Vanguard News .",
+          "source": {
+            "id": "vanguard",
+            "name": "Vanguard"
+          },
+          "sourceCountry": "NG",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:40:13.000Z",
+          "imageUrl": null,
+          "countryCode": "NG",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:40:13.000Z"
     },
     {
       "id": "oaBrvH49Axha",

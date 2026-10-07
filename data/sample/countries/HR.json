@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "HR",
   "countryName": "Croatia",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "DsnOMZ2jYDZz",
-      "representative": {
-        "id": "DsnOMZ2jYDZz",
-        "url": "https://www.jutarnji.hr/promo/odrzivi-ribolov-cuva-hrvatsko-more-za-buduce-generacije-15753213",
-        "canonicalUrl": "https://www.jutarnji.hr/promo/odrzivi-ribolov-cuva-hrvatsko-more-za-buduce-generacije-15753213",
-        "title": "Održivi ribolov čuva hrvatsko more za buduće generacije",
-        "description": "More daje, ali samo ako ga čuvamo Jadransko more jedan je od najvrjednijih prirodnih resursa Hrvatske. Ono stoljećima osigurava hranu, radna mjesta i identitet brojnim obalnim i otočnim zajednicama. No, bogatstvo mora nije neiscrpno. Upravo zato održivi ribolov predstavlja temelj odgovornog…",
-        "source": {
-          "id": "jutarnji",
-          "name": "Jutarnji list"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T12:17:34.000Z",
-        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39727669_1280.jpg?1791295101",
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "5fQgJ3_5JdPY",
-          "url": "https://www.vecernji.hr/vijesti/odrzivi-ribolov-cuva-hrvatsko-more-za-buduce-generacije-2001845",
-          "canonicalUrl": "https://www.vecernji.hr/vijesti/odrzivi-ribolov-cuva-hrvatsko-more-za-buduce-generacije-2001845",
-          "title": "Održivi ribolov čuva hrvatsko more za buduće generacije",
-          "description": null,
-          "source": {
-            "id": "vecernji",
-            "name": "Večernji list"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T13:54:00.000Z",
-          "imageUrl": "https://www.vecernji.hr/media/img/a8/7b/9365593d7b63c3b86d8c.jpeg",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:54:00.000Z"
-    },
     {
       "id": "7YhYg6uZmL3A",
       "representative": {
@@ -87,65 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:52:42.000Z"
-    },
-    {
-      "id": "AyT9vMS0UlrI",
-      "representative": {
-        "id": "AyT9vMS0UlrI",
-        "url": "https://www.jutarnji.hr/vijesti/zagreb/foto-ovako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-na-natjecaj-15753238",
-        "canonicalUrl": "https://www.jutarnji.hr/vijesti/zagreb/foto-ovako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-na-natjecaj-15753238",
-        "title": "FOTO Ovako su novi Maksimir zamislili arhitekti koji su se žalili na natječaj",
-        "description": "ZAGREB, 6. listopada 2026. (Hina) - Na natječaj za idejno rješenje stadiona Maksimir stigle su tri žalbe - dvije arhitektonskih ureda koji su sudjelovali na natječaju i ona Ministarstva gospodarstva, potvrdila je Hini Maja Kuhar, predsjednica Državne komisije za kontrolu javne nabave koja sada ima…",
-        "source": {
-          "id": "jutarnji",
-          "name": "Jutarnji list"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T13:06:00.000Z",
-        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39727546_1280.jpg?1791295101",
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "_bDMvX2eto-d",
-          "url": "https://www.tportal.hr/vijesti/clanak/foto-pogledajte-kako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-foto-20261006",
-          "canonicalUrl": "https://www.tportal.hr/vijesti/clanak/foto-pogledajte-kako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-foto-20261006",
-          "title": "FOTO Pogledajte kako su novi Maksimir zamislili arhitekti koji su se žalili",
-          "description": "Na natječaj za idejno rješenje stadiona Maksimir stigle su tri žalbe - dvije arhitektonskih ureda koji su sudjelovali na natječaju i ona Ministarstva gospodarstva, potvrdila je Hini Maja Kuhar, a ovako izgledaju rješenja Zha Architects Limiteda.",
-          "source": {
-            "id": "tportal",
-            "name": "tportal"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T13:47:00.000Z",
-          "imageUrl": "https://www.tportal.hr/media/thumbnail/500x300/2806725.jpeg?cropId=0",
-          "countryCode": "HR",
-          "regionCode": null
-        },
-        {
-          "id": "LbyPz9YPnxKo",
-          "url": "https://www.24sata.hr/sport/foto-pogledajte-kako-maksimir-vide-uredi-koji-su-se-zalili-na-pobjednika-jesu-vam-oni-bolji-1159050",
-          "canonicalUrl": "https://www.24sata.hr/sport/foto-pogledajte-kako-maksimir-vide-uredi-koji-su-se-zalili-na-pobjednika-jesu-vam-oni-bolji-1159050",
-          "title": "FOTO Pogledajte kako Maksimir vide uredi koji su se žalili na pobjednika! Jesu vam oni bolji?",
-          "description": "Kako doznaju 24sata, žalba ministra Šušnjara nije jedina žalba koja je zaprimljena! DKOM-u su se žalila još dva 'jaka' arhitektonska ureda. Riječ je o nizozemskom Studio de Architekten CIE, te arhitektonskom uredu kojeg je osnovala legendarna Zaha Hadid, Zajednica ponuditelja ZHA Architects…",
-          "source": {
-            "id": "24sata_hr",
-            "name": "24sata"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "imageUrl": "https://img.24sata.hr/fyLlbZfDX319zPgPjTelV7QI5n0=/800x450/smart/media/images/2026-38/image-3197639.jpg",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:47:00.000Z"
     },
     {
       "id": "zPqHwkO1h7lQ",
@@ -230,90 +129,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:23:00.000Z"
-    },
-    {
-      "id": "O71z-NgSPYdT",
-      "representative": {
-        "id": "O71z-NgSPYdT",
-        "url": "https://www.vecernji.hr/kultura/pogledajte-viralni-trailer-filma-o-dioklecijanu-posljednji-rimski-bog-premasio-2-milijuna-pregleda-2001871",
-        "canonicalUrl": "https://www.vecernji.hr/kultura/pogledajte-viralni-trailer-filma-o-dioklecijanu-posljednji-rimski-bog-premasio-2-milijuna-pregleda-2001871",
-        "title": "Pogledajte viralni trailer filma o Dioklecijanu: 'Posljednji rimski bog' premašio 2 milijuna pregleda",
-        "description": "Trailer hrvatskog povijesnog spektakla Domagoja Burića postao viralan i izvan Hrvatske – publiku posebno intrigiraju latinski jezik, kostimi i scenografija. Ulaznice za premijere u Zagrebu i Splitu već su u prodaji",
-        "source": {
-          "id": "vecernji",
-          "name": "Večernji list"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T13:07:00.000Z",
-        "imageUrl": "https://www.vecernji.hr/media/img/90/a5/90b6abd7d6f7620f1ef1.jpeg",
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "KfLItrI9Ar6V",
-          "url": "https://www.tportal.hr/kultura/clanak/video-film-posljednji-rimski-bog-premasio-dva-milijuna-pregleda-i-prije-premijere-20261006",
-          "canonicalUrl": "https://www.tportal.hr/kultura/clanak/video-film-posljednji-rimski-bog-premasio-dva-milijuna-pregleda-i-prije-premijere-20261006",
-          "title": "VIDEO Film 'Posljednji rimski bog' premašio dva milijuna pregleda i prije premijere",
-          "description": "Trailer i objave hrvatskog povijesnog filma 'Posljednji rimski bog' Domagoja Burića o rimskom caru Dioklecijanu, koji će se premijerno prikazati 26. listopada, imaju više od dva milijuna pregleda na društvenim mrežama i brojne komentare, priopćeno je u utorak",
-          "source": {
-            "id": "tportal",
-            "name": "tportal"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T13:15:00.000Z",
-          "imageUrl": "https://www.tportal.hr/media/thumbnail/500x300/2768076.jpeg?cropId=0",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:15:00.000Z"
-    },
-    {
-      "id": "VKO2mfByEUuX",
-      "representative": {
-        "id": "VKO2mfByEUuX",
-        "url": "https://www.index.hr/vijesti/clanak/rusija-kaze-da-u-sibiru-nema-nijednog-slucaja-kuge/2842591.aspx",
-        "canonicalUrl": "https://www.index.hr/vijesti/clanak/rusija-kaze-da-u-sibiru-nema-nijednog-slucaja-kuge/2842591.aspx",
-        "title": "Rusija kaže da u Sibiru nema nijednog slučaja kuge",
-        "description": "RUSKE vlasti izvijestile su Svjetsku zdravstvenu organizaciju (WHO) da u sibirskom Irkutsku nije zabilježen nijedan slučaj kuge.",
-        "source": {
-          "id": "index_hr",
-          "name": "Index.hr"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T12:25:00.000Z",
-        "imageUrl": null,
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "iqO_22XPfdjo",
-          "url": "https://net.hr/danas/svijet/rusija-i-dalje-porice-da-je-znanstvenica-u-sibiru-preminula-od-kuge-obavijestili-who-da-nema-zaraze-191a2f1d-c182-11f1-936f-9600040c8f8e",
-          "canonicalUrl": "https://net.hr/danas/svijet/rusija-i-dalje-porice-da-je-znanstvenica-u-sibiru-preminula-od-kuge-obavijestili-who-da-nema-zaraze-191a2f1d-c182-11f1-936f-9600040c8f8e",
-          "title": "Rusija i dalje poriče da je znanstvenica u Sibiru preminula od kuge: Obavijestili WHO da nema zaraze",
-          "description": "Izvijestili su i UN-a da su identificirali osobe koje su bile u kontaktu s preminulom te da su rezultati testiranja na opasne zarazne patogene negativni",
-          "source": {
-            "id": "net_hr",
-            "name": "Net.hr"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T12:40:26.000Z",
-          "imageUrl": "https://net.hr/media/2026/10/06/1608104/H-034ec978-6736-4edc-9521-2a0c9228c476-1200.webp",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:40:26.000Z"
     },
     {
       "id": "fiOaOFDkjPXD",
@@ -495,6 +310,48 @@
       "latestPublishedAt": "2026-10-06T13:56:00.000Z"
     },
     {
+      "id": "DsnOMZ2jYDZz",
+      "representative": {
+        "id": "DsnOMZ2jYDZz",
+        "url": "https://www.jutarnji.hr/promo/odrzivi-ribolov-cuva-hrvatsko-more-za-buduce-generacije-15753213",
+        "canonicalUrl": "https://www.jutarnji.hr/promo/odrzivi-ribolov-cuva-hrvatsko-more-za-buduce-generacije-15753213",
+        "title": "Održivi ribolov čuva hrvatsko more za buduće generacije",
+        "description": "More daje, ali samo ako ga čuvamo Jadransko more jedan je od najvrjednijih prirodnih resursa Hrvatske. Ono stoljećima osigurava hranu, radna mjesta i identitet brojnim obalnim i otočnim zajednicama. No, bogatstvo mora nije neiscrpno. Upravo zato održivi ribolov predstavlja temelj odgovornog…",
+        "source": {
+          "id": "jutarnji",
+          "name": "Jutarnji list"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T12:17:34.000Z",
+        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39727669_1280.jpg?1791295101",
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "5fQgJ3_5JdPY",
+          "url": "https://www.vecernji.hr/vijesti/odrzivi-ribolov-cuva-hrvatsko-more-za-buduce-generacije-2001845",
+          "canonicalUrl": "https://www.vecernji.hr/vijesti/odrzivi-ribolov-cuva-hrvatsko-more-za-buduce-generacije-2001845",
+          "title": "Održivi ribolov čuva hrvatsko more za buduće generacije",
+          "description": null,
+          "source": {
+            "id": "vecernji",
+            "name": "Večernji list"
+          },
+          "sourceCountry": "HR",
+          "language": "hr",
+          "publishedAt": "2026-10-06T13:54:00.000Z",
+          "imageUrl": "https://www.vecernji.hr/media/img/a8/7b/9365593d7b63c3b86d8c.jpeg",
+          "countryCode": "HR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:54:00.000Z"
+    },
+    {
       "id": "Vyyb1Lth-0D3",
       "representative": {
         "id": "Vyyb1Lth-0D3",
@@ -519,28 +376,100 @@
       "latestPublishedAt": "2026-10-06T13:50:00.000Z"
     },
     {
-      "id": "k3YAJ2WRB5vO",
+      "id": "5vv5V5IaxsY8",
       "representative": {
-        "id": "k3YAJ2WRB5vO",
-        "url": "https://www.jutarnji.hr/sportske/nogomet/split-nije-okrenuo-leda-hrvatskoj-a-bilic-sigurno-ostaje-zamisli-da-je-hajduk-onako-izgubio-15753253",
-        "canonicalUrl": "https://www.jutarnji.hr/sportske/nogomet/split-nije-okrenuo-leda-hrvatskoj-a-bilic-sigurno-ostaje-zamisli-da-je-hajduk-onako-izgubio-15753253",
-        "title": "Split nije okrenuo leđa Hrvatskoj, a Bilić sigurno ostaje! ‘Zamisli da je Hajduk onako izgubio...‘",
-        "description": "Iako u Splitu kroz narednih par dana \"zovu\" ozbiljnu promjenu vremena, jutro je u utorak na dan utakmice protiv Španjolske u Gradu pod Marjanom svanulo sunčano, ugodno i mirno. Mirno do te mjere da se miris neke velike i važne utakmice nije ni osjećao. Lagodni splitski ritam života nije kod…",
+        "id": "5vv5V5IaxsY8",
+        "url": "https://net.hr/sport/tenis/dokovic-pomeo-konkurenciju-i-uzeo-novi-pehar-8aa8ff8b-c18c-11f1-936f-9600040c8f8e",
+        "canonicalUrl": "https://net.hr/sport/tenis/dokovic-pomeo-konkurenciju-i-uzeo-novi-pehar-8aa8ff8b-c18c-11f1-936f-9600040c8f8e",
+        "title": "Đoković pomeo konkurenciju i uzeo novi pehar",
+        "description": "Nakon kraja prvog seta obojica tenisača su zatražila liječničku pomoć, a potom je vrlo brzo početkom drugog seta De Minaur odustao od daljnje borbe",
         "source": {
-          "id": "jutarnji",
-          "name": "Jutarnji list"
+          "id": "net_hr",
+          "name": "Net.hr"
         },
         "sourceCountry": "HR",
         "language": "hr",
-        "publishedAt": "2026-10-06T13:49:43.000Z",
-        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39728052_1280.jpg?1791295101",
+        "publishedAt": "2026-10-06T13:48:05.000Z",
+        "imageUrl": "https://net.hr/media/2026/10/06/1608171/H-37f83007-4bcc-4fc4-a7c1-4685c7018bff-1200.webp",
         "countryCode": "HR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:49:43.000Z"
+      "latestPublishedAt": "2026-10-06T13:48:05.000Z"
+    },
+    {
+      "id": "B6BklpWro7iB",
+      "representative": {
+        "id": "B6BklpWro7iB",
+        "url": "https://www.tportal.hr/sport/clanak/as-pred-poljud-opisao-dramaticno-stanje-u-hrvatskoj-evo-sto-su-napisali-o-slavenu-bilicu-20261006",
+        "canonicalUrl": "https://www.tportal.hr/sport/clanak/as-pred-poljud-opisao-dramaticno-stanje-u-hrvatskoj-evo-sto-su-napisali-o-slavenu-bilicu-20261006",
+        "title": "AS pred Poljud opisao dramatično stanje u Hrvatskoj: Evo što su napisali o Slavenu Biliću",
+        "description": "Hrvatska večerašnji ogled sa Španjolskom na Poljudu ne dočekuje samo nakon najtežeg poraza u svojoj povijesti. Dočekuje ga u atmosferi kakva oko reprezentacije nije vladala godinama. Madridski AS iz Splita piše o dubokoj krizi Vatrenih nakon 0:7 protiv Engleske, ozbiljno poljuljanom povjerenju u…",
+        "source": {
+          "id": "tportal",
+          "name": "tportal"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:48:00.000Z",
+        "imageUrl": "https://www.tportal.hr/media/thumbnail/500x300/2806048.jpeg?cropId=4291656",
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:48:00.000Z"
+    },
+    {
+      "id": "FFEEzGZ5fbnY",
+      "representative": {
+        "id": "FFEEzGZ5fbnY",
+        "url": "https://www.vecernji.hr/showbiz/mia-iz-gospodina-savrsenog-tvrdi-da-je-prevarena-na-aplikaciji-koju-obozavaju-hrvati-radije-bih-zapalila-tih-420-eura-2001882",
+        "canonicalUrl": "https://www.vecernji.hr/showbiz/mia-iz-gospodina-savrsenog-tvrdi-da-je-prevarena-na-aplikaciji-koju-obozavaju-hrvati-radije-bih-zapalila-tih-420-eura-2001882",
+        "title": "Mia iz 'Gospodina Savršenog' tvrdi da je prevarena na aplikaciji koju obožavaju Hrvati: Radije bih zapalila tih 420 eura",
+        "description": "Bivša kandidatkinja showa 'Gospodin savršeni' Mia Miškulin podijelila je svoje iskustvo s prevarom na platformi Vinted, gdje je za 420 eura kupila krivotvoreno sušilo za kosu. Njezina frustracija i najava prijave policiji i udrugama za zaštitu potrošača ističu ozbiljnost problema s online kupovinom.",
+        "source": {
+          "id": "vecernji",
+          "name": "Večernji list"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:48:00.000Z",
+        "imageUrl": "https://www.vecernji.hr/media/img/57/51/901c20c953bd0ffd1d77.jpeg",
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:48:00.000Z"
+    },
+    {
+      "id": "7si_CVeYbJ5q",
+      "representative": {
+        "id": "7si_CVeYbJ5q",
+        "url": "https://net.hr/danas/svijet/korisnicima-asos-a-stigla-alarmantna-poruka-iz-sluzbene-aplikacije-0b4e84c6-c18b-11f1-936f-9600040c8f8e",
+        "canonicalUrl": "https://net.hr/danas/svijet/korisnicima-asos-a-stigla-alarmantna-poruka-iz-sluzbene-aplikacije-0b4e84c6-c18b-11f1-936f-9600040c8f8e",
+        "title": "Hakirana poznata internetska trgovina: Korisnicima stigla alarmantna poruka",
+        "description": "Nakon vijesti o mogućem napadu dionice ASOS-a pale su oko 11 posto",
+        "source": {
+          "id": "net_hr",
+          "name": "Net.hr"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:47:13.000Z",
+        "imageUrl": "https://net.hr/media/2026/10/06/1608166/H-30db185e-8f4f-43cd-8170-a18c72378bb3-1200.webp",
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:47:13.000Z"
     }
   ]
 }

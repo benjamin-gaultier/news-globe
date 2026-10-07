@@ -2,67 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "BA",
   "countryName": "Bosnia and Herzegovina",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "D8ZDH3Yhi5SM",
-      "representative": {
-        "id": "D8ZDH3Yhi5SM",
-        "url": "https://www.klix.ba/vijesti/bih/generalni-sekretar-vijeca-ministara-bih-kaznjen-sa-5000-km-zbog-sukoba-interesa-pozvan-da-podnese-ostavku/261006127",
-        "canonicalUrl": "https://www.klix.ba/vijesti/bih/generalni-sekretar-vijeca-ministara-bih-kaznjen-sa-5000-km-zbog-sukoba-interesa-pozvan-da-podnese-ostavku/261006127",
-        "title": "Generalni sekretar Vijeća ministara BiH kažnjen sa 5.000 KM zbog sukoba interesa, pozvan da podnese ostavku",
-        "description": "Generalni sekretar Vijeća ministara BiH Robert Vidović kažnjen je sa 5.000 KM zbog obavljanja nespojivih funkcija jer je u isto vrijeme bio član Upravnog odbora Agencije za unapređenje stranih investicija u BiH (FIPA).",
-        "source": {
-          "id": "klix",
-          "name": "Klix.ba"
-        },
-        "sourceCountry": "BA",
-        "language": "bs",
-        "publishedAt": "2026-10-06T14:44:00.000Z",
-        "imageUrl": "https://static.klix.ba/media/images/vijesti/img32_261006127.jpg",
-        "countryCode": "BA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ACkXM_fVsSzV",
-          "url": "https://n1info.ba/vijesti/robert-vidovic-kaznjen-sa-5000-km-pozvan-da-podnese-ostavku-zbog-sukoba-interesa/",
-          "canonicalUrl": "https://n1info.ba/vijesti/robert-vidovic-kaznjen-sa-5000-km-pozvan-da-podnese-ostavku-zbog-sukoba-interesa/",
-          "title": "Robert Vidović kažnjen sa 5.000 KM, pozvan da podnese ostavku zbog sukoba interesa",
-          "description": "Robert Vidović, generalni sekretar Vijeća ministara BiH kažnjen je sa 5.000 KM zbog obavljanja nespojivih funkcija jer je u isto vrijeme bio član Upra",
-          "source": {
-            "id": "n1_ba",
-            "name": "N1 BiH"
-          },
-          "sourceCountry": "BA",
-          "language": "bs",
-          "publishedAt": "2026-10-06T13:47:32.000Z",
-          "imageUrl": "https://n1info.ba/media/original_images/1791294302_Vidovic-kaznjen-sa-5.000-KM-uz-naredbu-podnese-ostav.webp",
-          "countryCode": "BA",
-          "regionCode": null
-        },
-        {
-          "id": "EDQBeQ17bk-s",
-          "url": "https://www.fokus.ba/vijesti/bih/zbog-sukoba-interesa-kaznjen-generalni-sekretar-vijeca-ministara/3581923/",
-          "canonicalUrl": "https://www.fokus.ba/vijesti/bih/zbog-sukoba-interesa-kaznjen-generalni-sekretar-vijeca-ministara/3581923/",
-          "title": "Zbog sukoba interesa kažnjen generalni sekretar Vijeća ministara",
-          "description": "Komisija je također donijela odluku o nepokretanju postupka protiv Sevlida Hurtića, ministra za ljudska prava i izbjeglice BiH",
-          "source": {
-            "id": "fokus_ba",
-            "name": "Fokus.ba"
-          },
-          "sourceCountry": "BA",
-          "language": "bs",
-          "publishedAt": "2026-10-06T12:21:05.000Z",
-          "imageUrl": "https://cdn.fokus.ba/wp-content/uploads/2026/10/robert-vidovic.jpg",
-          "countryCode": "BA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T14:44:00.000Z"
-    },
     {
       "id": "NcHlyNQP6PCY",
       "representative": {
@@ -188,6 +129,65 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:21:00.000Z"
+    },
+    {
+      "id": "D8ZDH3Yhi5SM",
+      "representative": {
+        "id": "D8ZDH3Yhi5SM",
+        "url": "https://www.klix.ba/vijesti/bih/generalni-sekretar-vijeca-ministara-bih-kaznjen-sa-5000-km-zbog-sukoba-interesa-pozvan-da-podnese-ostavku/261006127",
+        "canonicalUrl": "https://www.klix.ba/vijesti/bih/generalni-sekretar-vijeca-ministara-bih-kaznjen-sa-5000-km-zbog-sukoba-interesa-pozvan-da-podnese-ostavku/261006127",
+        "title": "Generalni sekretar Vijeća ministara BiH kažnjen sa 5.000 KM zbog sukoba interesa, pozvan da podnese ostavku",
+        "description": "Generalni sekretar Vijeća ministara BiH Robert Vidović kažnjen je sa 5.000 KM zbog obavljanja nespojivih funkcija jer je u isto vrijeme bio član Upravnog odbora Agencije za unapređenje stranih investicija u BiH (FIPA).",
+        "source": {
+          "id": "klix",
+          "name": "Klix.ba"
+        },
+        "sourceCountry": "BA",
+        "language": "bs",
+        "publishedAt": "2026-10-06T14:44:00.000Z",
+        "imageUrl": "https://static.klix.ba/media/images/vijesti/img32_261006127.jpg",
+        "countryCode": "BA",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ACkXM_fVsSzV",
+          "url": "https://n1info.ba/vijesti/robert-vidovic-kaznjen-sa-5000-km-pozvan-da-podnese-ostavku-zbog-sukoba-interesa/",
+          "canonicalUrl": "https://n1info.ba/vijesti/robert-vidovic-kaznjen-sa-5000-km-pozvan-da-podnese-ostavku-zbog-sukoba-interesa/",
+          "title": "Robert Vidović kažnjen sa 5.000 KM, pozvan da podnese ostavku zbog sukoba interesa",
+          "description": "Robert Vidović, generalni sekretar Vijeća ministara BiH kažnjen je sa 5.000 KM zbog obavljanja nespojivih funkcija jer je u isto vrijeme bio član Upra",
+          "source": {
+            "id": "n1_ba",
+            "name": "N1 BiH"
+          },
+          "sourceCountry": "BA",
+          "language": "bs",
+          "publishedAt": "2026-10-06T13:47:32.000Z",
+          "imageUrl": "https://n1info.ba/media/original_images/1791294302_Vidovic-kaznjen-sa-5.000-KM-uz-naredbu-podnese-ostav.webp",
+          "countryCode": "BA",
+          "regionCode": null
+        },
+        {
+          "id": "EDQBeQ17bk-s",
+          "url": "https://www.fokus.ba/vijesti/bih/zbog-sukoba-interesa-kaznjen-generalni-sekretar-vijeca-ministara/3581923/",
+          "canonicalUrl": "https://www.fokus.ba/vijesti/bih/zbog-sukoba-interesa-kaznjen-generalni-sekretar-vijeca-ministara/3581923/",
+          "title": "Zbog sukoba interesa kažnjen generalni sekretar Vijeća ministara",
+          "description": "Komisija je također donijela odluku o nepokretanju postupka protiv Sevlida Hurtića, ministra za ljudska prava i izbjeglice BiH",
+          "source": {
+            "id": "fokus_ba",
+            "name": "Fokus.ba"
+          },
+          "sourceCountry": "BA",
+          "language": "bs",
+          "publishedAt": "2026-10-06T12:21:05.000Z",
+          "imageUrl": "https://cdn.fokus.ba/wp-content/uploads/2026/10/robert-vidovic.jpg",
+          "countryCode": "BA",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T14:44:00.000Z"
     },
     {
       "id": "Yckr_pwsvCiC",

@@ -2,84 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "PK",
   "countryName": "Pakistan",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "mw_09x8TxHk7",
-      "representative": {
-        "id": "mw_09x8TxHk7",
-        "url": "https://www.dawn.com/news/2035126/un-chief-hails-pakistans-pivotal-role-in-us-iran-conflict-calls-for-return-to-diplomacy",
-        "canonicalUrl": "https://www.dawn.com/news/2035126/un-chief-hails-pakistans-pivotal-role-in-us-iran-conflict-calls-for-return-to-diplomacy",
-        "title": "UN chief hails Pakistan's 'pivotal role' in US-Iran conflict, calls for 'return to diplomacy'",
-        "description": "United Nations Secretary General Antonio Guterres on Tuesday lauded Pakistan’s “pivotal role” in mediating between the United States and Iran as he called on the parties to end the conflict and return to diplomacy. Addressing a press conference in Islamabad alongside Deputy Prime Minister and…",
-        "source": {
-          "id": "dawn",
-          "name": "Dawn"
-        },
-        "sourceCountry": "PK",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:47:26.000Z",
-        "imageUrl": "https://i.dawn.com/large/2026/10/06160757440dc38.webp",
-        "countryCode": "PK",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "bCT-ScsHBwEw",
-          "url": "https://www.geo.tv/latest/685267-un-chief-lauds-pakistans-trusted-mediatory-role-in-us-iran-conflict",
-          "canonicalUrl": "https://www.geo.tv/latest/685267-un-chief-lauds-pakistans-trusted-mediatory-role-in-us-iran-conflict",
-          "title": "UN chief lauds Pakistan's trusted mediatory role in US-Iran conflict",
-          "description": "UN Secretary-General António Guterres meets Deputy Prime Minister and Foreign Minister Senator Mohammad Ishaq Dar in Islamabad on October 6, 2026. — X/ @ForeignOfficePkDar calls for efforts to prevent use of Afghan soil against Pakistan.UN chief acknowledges Pakistan’s...",
-          "source": {
-            "id": "geo",
-            "name": "Geo News"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:54:00.000Z",
-          "imageUrl": "https://www.geo.tv/assets/uploads/2026-10-06/685267_055045_updates.jpg",
-          "countryCode": "PK",
-          "regionCode": null
-        },
-        {
-          "id": "lCUVWtGU_gd5",
-          "url": "https://www.brecorder.com/news/40442885/un-chief-praises-pakistans-role-in-us-iran-talks-calls-trust-important",
-          "canonicalUrl": "https://www.brecorder.com/news/40442885/un-chief-praises-pakistans-role-in-us-iran-talks-calls-trust-important",
-          "title": "UN chief praises Pakistan’s role in US-Iran talks, calls trust ‘important’",
-          "description": "United Nations Secretary-General António Guterres on Tuesday praised Pakistan’s role in facilitating dialogue between the United States and Iran, saying the trust placed in Islamabad by both sides reflected Pakistan’s credibility. Speaking at a press conference in Islamabad, Guterres said it was…",
-          "source": {
-            "id": "brecorder",
-            "name": "Business Recorder"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:32:18.000Z",
-          "imageUrl": "https://i.brecorder.com/large/2026/10/0616305085a9482.webp",
-          "countryCode": "PK",
-          "regionCode": null
-        },
-        {
-          "id": "A1_GFq35RMY8",
-          "url": "https://tribune.com.pk/story/2633248/un-chief-arrives-in-pakistan-for-three-day-visit",
-          "canonicalUrl": "https://tribune.com.pk/story/2633248/un-chief-arrives-in-pakistan-for-three-day-visit",
-          "title": "UN chief Guterres lauds Pakistan’s mediation role in US-Iran conflict at joint presser with FM Dar",
-          "description": "Says efforts helped deliver Islamabad MoU, ceasefire, framework for future negotiations",
-          "source": {
-            "id": "tribune_pk",
-            "name": "The Express Tribune"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-06T00:43:55.000Z",
-          "imageUrl": null,
-          "countryCode": "PK",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:54:00.000Z"
-    },
     {
       "id": "U5CkHq2J4Is7",
       "representative": {
@@ -231,9 +155,85 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:54:35.000Z"
+    },
+    {
+      "id": "mw_09x8TxHk7",
+      "representative": {
+        "id": "mw_09x8TxHk7",
+        "url": "https://www.dawn.com/news/2035126/un-chief-hails-pakistans-pivotal-role-in-us-iran-conflict-calls-for-return-to-diplomacy",
+        "canonicalUrl": "https://www.dawn.com/news/2035126/un-chief-hails-pakistans-pivotal-role-in-us-iran-conflict-calls-for-return-to-diplomacy",
+        "title": "UN chief hails Pakistan's 'pivotal role' in US-Iran conflict, calls for 'return to diplomacy'",
+        "description": "United Nations Secretary General Antonio Guterres on Tuesday lauded Pakistan’s “pivotal role” in mediating between the United States and Iran as he called on the parties to end the conflict and return to diplomacy. Addressing a press conference in Islamabad alongside Deputy Prime Minister and…",
+        "source": {
+          "id": "dawn",
+          "name": "Dawn"
+        },
+        "sourceCountry": "PK",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:47:26.000Z",
+        "imageUrl": "https://i.dawn.com/large/2026/10/06160757440dc38.webp",
+        "countryCode": "PK",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "bCT-ScsHBwEw",
+          "url": "https://www.geo.tv/latest/685267-un-chief-lauds-pakistans-trusted-mediatory-role-in-us-iran-conflict",
+          "canonicalUrl": "https://www.geo.tv/latest/685267-un-chief-lauds-pakistans-trusted-mediatory-role-in-us-iran-conflict",
+          "title": "UN chief lauds Pakistan's trusted mediatory role in US-Iran conflict",
+          "description": "UN Secretary-General António Guterres meets Deputy Prime Minister and Foreign Minister Senator Mohammad Ishaq Dar in Islamabad on October 6, 2026. — X/ @ForeignOfficePkDar calls for efforts to prevent use of Afghan soil against Pakistan.UN chief acknowledges Pakistan’s...",
+          "source": {
+            "id": "geo",
+            "name": "Geo News"
+          },
+          "sourceCountry": "PK",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:54:00.000Z",
+          "imageUrl": "https://www.geo.tv/assets/uploads/2026-10-06/685267_055045_updates.jpg",
+          "countryCode": "PK",
+          "regionCode": null
+        },
+        {
+          "id": "lCUVWtGU_gd5",
+          "url": "https://www.brecorder.com/news/40442885/un-chief-praises-pakistans-role-in-us-iran-talks-calls-trust-important",
+          "canonicalUrl": "https://www.brecorder.com/news/40442885/un-chief-praises-pakistans-role-in-us-iran-talks-calls-trust-important",
+          "title": "UN chief praises Pakistan’s role in US-Iran talks, calls trust ‘important’",
+          "description": "United Nations Secretary-General António Guterres on Tuesday praised Pakistan’s role in facilitating dialogue between the United States and Iran, saying the trust placed in Islamabad by both sides reflected Pakistan’s credibility. Speaking at a press conference in Islamabad, Guterres said it was…",
+          "source": {
+            "id": "brecorder",
+            "name": "Business Recorder"
+          },
+          "sourceCountry": "PK",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:32:18.000Z",
+          "imageUrl": "https://i.brecorder.com/large/2026/10/0616305085a9482.webp",
+          "countryCode": "PK",
+          "regionCode": null
+        },
+        {
+          "id": "A1_GFq35RMY8",
+          "url": "https://tribune.com.pk/story/2633248/un-chief-arrives-in-pakistan-for-three-day-visit",
+          "canonicalUrl": "https://tribune.com.pk/story/2633248/un-chief-arrives-in-pakistan-for-three-day-visit",
+          "title": "UN chief Guterres lauds Pakistan’s mediation role in US-Iran conflict at joint presser with FM Dar",
+          "description": "Says efforts helped deliver Islamabad MoU, ceasefire, framework for future negotiations",
+          "source": {
+            "id": "tribune_pk",
+            "name": "The Express Tribune"
+          },
+          "sourceCountry": "PK",
+          "language": "en",
+          "publishedAt": "2026-10-06T00:43:55.000Z",
+          "imageUrl": null,
+          "countryCode": "PK",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:54:00.000Z"
     },
     {
       "id": "442DmBu-QhOv",
@@ -255,33 +255,9 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:36:00.000Z"
-    },
-    {
-      "id": "beCMh1Jl1kuB",
-      "representative": {
-        "id": "beCMh1Jl1kuB",
-        "url": "https://www.dawn.com/news/2035130/pti-long-march-wont-be-allowed-beyond-attock-warns-kundi",
-        "canonicalUrl": "https://www.dawn.com/news/2035130/pti-long-march-wont-be-allowed-beyond-attock-warns-kundi",
-        "title": "PTI long march won’t be allowed beyond Attock, warns Kundi",
-        "description": "Khyber Pakhtunkhwa Governor Faisal Karim Kundi on Tuesday vowed that PTI’s long march would not be allowed to proceed beyond Attock in Punjab — which borders KP — saying the party “did not have the capacity” to do so. The opposition has gone ahead with its march despite warnings from the Centre…",
-        "source": {
-          "id": "dawn",
-          "name": "Dawn"
-        },
-        "sourceCountry": "PK",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:30:18.000Z",
-        "imageUrl": "https://i.dawn.com/large/2026/10/06112855cac0930.webp",
-        "countryCode": "PK",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:30:18.000Z"
     },
     {
       "id": "HzcE2U442peB",
@@ -423,7 +399,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:36:51.000Z"
     },
@@ -447,9 +423,33 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:32:05.000Z"
+    },
+    {
+      "id": "beCMh1Jl1kuB",
+      "representative": {
+        "id": "beCMh1Jl1kuB",
+        "url": "https://www.dawn.com/news/2035130/pti-long-march-wont-be-allowed-beyond-attock-warns-kundi",
+        "canonicalUrl": "https://www.dawn.com/news/2035130/pti-long-march-wont-be-allowed-beyond-attock-warns-kundi",
+        "title": "PTI long march won’t be allowed beyond Attock, warns Kundi",
+        "description": "Khyber Pakhtunkhwa Governor Faisal Karim Kundi on Tuesday vowed that PTI’s long march would not be allowed to proceed beyond Attock in Punjab — which borders KP — saying the party “did not have the capacity” to do so. The opposition has gone ahead with its march despite warnings from the Centre…",
+        "source": {
+          "id": "dawn",
+          "name": "Dawn"
+        },
+        "sourceCountry": "PK",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:30:18.000Z",
+        "imageUrl": "https://i.dawn.com/large/2026/10/06112855cac0930.webp",
+        "countryCode": "PK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:30:18.000Z"
     }
   ]
 }

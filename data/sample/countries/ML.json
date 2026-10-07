@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ML",
   "countryName": "Mali",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
     {
       "id": "fjHaxFRmRX5G",
@@ -221,30 +221,6 @@
       "latestPublishedAt": "2026-10-06T13:09:12.000Z"
     },
     {
-      "id": "kG8qncgZMX8S",
-      "representative": {
-        "id": "kG8qncgZMX8S",
-        "url": "https://journaldumali.com/ambassade-au-caire-6259-millions-de-fcfa-dirregularites/",
-        "canonicalUrl": "https://journaldumali.com/ambassade-au-caire-6259-millions-de-fcfa-dirregularites/",
-        "title": "Ambassade au Caire : 625,9 millions de FCFA d’irrégularités",
-        "description": "© Internet Le Vérificateur général a contrôlé les comptes de 2022 au 31 mars 2026. Les constats ont été transmis aux autorités financières et judiciaires compétentes. Le Bureau du Vérificateur général a publié le 25 septembre son rapport sur la gestion de l’ambassade du Mali au Caire. La mission a…",
-        "source": {
-          "id": "journaldumali",
-          "name": "Journal du Mali"
-        },
-        "sourceCountry": "ML",
-        "language": "fr",
-        "publishedAt": "2026-10-05T12:34:51.000Z",
-        "imageUrl": "https://journaldumali.com/wp-content/uploads/2026/10/Bureau_Verificateur_General.png",
-        "countryCode": "ML",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-05T12:34:51.000Z"
-    },
-    {
       "id": "sclY9Y2RbORO",
       "representative": {
         "id": "sclY9Y2RbORO",
@@ -381,6 +357,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:57:56.000Z"
+    },
+    {
+      "id": "oHOagCC1BiW7",
+      "representative": {
+        "id": "oHOagCC1BiW7",
+        "url": "https://www.studiotamani.org/208693-kita-la-pasteque-locale-fait-son-entree-sur-les-marches",
+        "canonicalUrl": "https://www.studiotamani.org/208693-kita-la-pasteque-locale-fait-son-entree-sur-les-marches",
+        "title": "Kita : la pastèque locale fait son entrée sur les marchés",
+        "description": "La campagne de commercialisation de la pastèque bat son plein à Kita. Pour ce début de campagne, les prix oscillent entre 300 et 1 500 francs CFA, selon les marchés et les revendeurs. Les commerçants indiquent que les fruits sont issus de la production locale. Une légère hausse des prix reste…",
+        "source": {
+          "id": "studiotamani",
+          "name": "Studio Tamani"
+        },
+        "sourceCountry": "ML",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:46:26.000Z",
+        "imageUrl": "https://www.studiotamani.org/wp-content/uploads/2026/10/Des-pasteque-en-vente-au-marche-de-Kita-1024x614.jpg",
+        "countryCode": "ML",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:46:26.000Z"
     }
   ]
 }

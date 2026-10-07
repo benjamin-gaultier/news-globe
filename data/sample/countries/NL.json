@@ -2,67 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "NL",
   "countryName": "Netherlands",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "1nB4UXNMS80O",
-      "representative": {
-        "id": "1nB4UXNMS80O",
-        "url": "https://www.nu.nl/voetbal/6412189/noorse-voetbalbond-dient-klachten-in-bij-fifa-over-infantino-willen-goed-bestuur.html",
-        "canonicalUrl": "https://www.nu.nl/voetbal/6412189/noorse-voetbalbond-dient-klachten-in-bij-fifa-over-infantino-willen-goed-bestuur.html",
-        "title": "Noorse voetbalbond dient klachten in bij FIFA over Infantino: 'Willen goed bestuur'",
-        "description": "De Noorse voetbalbond NFF heeft dinsdag bij verschillende FIFA-commissies klachten ingediend over FIFA-voorzitter Gianni Infantino. Het gaat om drie afzonderlijke kwesties: de FIFA-vredesprijs, het opheffen van een schorsing tijdens het WK en het stopgezette plan om het WK te commercialiseren.",
-        "source": {
-          "id": "nunl",
-          "name": "NU.nl"
-        },
-        "sourceCountry": "NL",
-        "language": "nl",
-        "publishedAt": "2026-10-06T11:07:14.000Z",
-        "imageUrl": "https://images.nu.nl/m/q9lxjjeaqprh_sqr256/1058/0/4727/4727/noorse-voetbalbond-dient-klachten-in-bij-fifa-over-infantino-willen-goed-bestuur.jpg",
-        "countryCode": "NL",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "h1leM1o9adMK",
-          "url": "https://www.ad.nl/voetbal/noorse-voetbalbond-dient-serie-klachten-in-bij-fifa-discussie-over-wk-deelname-congo-en-rol-infantino~a2544497/",
-          "canonicalUrl": "https://www.ad.nl/voetbal/noorse-voetbalbond-dient-serie-klachten-in-bij-fifa-discussie-over-wk-deelname-congo-en-rol-infantino~a2544497/",
-          "title": "Noorse voetbalbond dient serie klachten in bij FIFA, discussie over WK-deelname Congo en rol Infantino",
-          "description": "De KNVB en de UEFA hebben hun vertrouwen in FIFA-baas Gianni Infantino opgezegd, nadat hij zijn omstreden plan om een deel van de WK-rechten te verkopen introk. Daarmee wankelt de positie van Infantino. In dit liveblog blijf je op de hoogte van alle ontwikkelingen.",
-          "source": {
-            "id": "ad",
-            "name": "AD"
-          },
-          "sourceCountry": "NL",
-          "language": "nl",
-          "publishedAt": "2026-10-06T13:23:00.000Z",
-          "imageUrl": "https://images.ad.nl/MmVlMWM4NjAyMDYyNmJmZTI1YjMvZGlvLzI3ODU5MzE4Mi9maXQtd2lkdGgvNDAw/gianni-infantino-in-betere-tijden-met-de-huidige-noorse-koning-haakon-en-voorzitter-van-de-noorse-voetbalbond-lise-klaveness",
-          "countryCode": "NL",
-          "regionCode": null
-        },
-        {
-          "id": "QGX_baflNQZX",
-          "url": "https://www.rtl.nl/nieuws/sport/artikel/5657415/noorse-voetbalbond-dient-serie-klachten-bij-fifa",
-          "canonicalUrl": "https://www.rtl.nl/nieuws/sport/artikel/5657415/noorse-voetbalbond-dient-serie-klachten-bij-fifa",
-          "title": "Noorse voetbalbond dient serie klachten in bij FIFA",
-          "description": "De Noorse voetbalbond (NFF) heeft een serie klachten ingediend bij twee commissies van de FIFA. Dat heeft de bond dinsdag bekendgemaakt in een uitgebreide verklaring. De klachten hebben betrekking op drie onderwerpen: de FIFA-vredesprijs, de ingetrokken schorsing van Folarin Balogun tijdens het WK…",
-          "source": {
-            "id": "rtlnieuws",
-            "name": "RTL Nieuws"
-          },
-          "sourceCountry": "NL",
-          "language": "nl",
-          "publishedAt": "2026-10-06T12:23:43.000Z",
-          "imageUrl": "https://redactie.rtl.nl/sites/default/files/ANP061026135-1.jpg?itok=onIzqOLQ&width=1024&height=576&impolicy=semi_dynamic",
-          "countryCode": "NL",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:23:00.000Z"
-    },
     {
       "id": "ugXauqHNKOin",
       "representative": {
@@ -200,6 +141,65 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:25:00.000Z"
+    },
+    {
+      "id": "1nB4UXNMS80O",
+      "representative": {
+        "id": "1nB4UXNMS80O",
+        "url": "https://www.nu.nl/voetbal/6412189/noorse-voetbalbond-dient-klachten-in-bij-fifa-over-infantino-willen-goed-bestuur.html",
+        "canonicalUrl": "https://www.nu.nl/voetbal/6412189/noorse-voetbalbond-dient-klachten-in-bij-fifa-over-infantino-willen-goed-bestuur.html",
+        "title": "Noorse voetbalbond dient klachten in bij FIFA over Infantino: 'Willen goed bestuur'",
+        "description": "De Noorse voetbalbond NFF heeft dinsdag bij verschillende FIFA-commissies klachten ingediend over FIFA-voorzitter Gianni Infantino. Het gaat om drie afzonderlijke kwesties: de FIFA-vredesprijs, het opheffen van een schorsing tijdens het WK en het stopgezette plan om het WK te commercialiseren.",
+        "source": {
+          "id": "nunl",
+          "name": "NU.nl"
+        },
+        "sourceCountry": "NL",
+        "language": "nl",
+        "publishedAt": "2026-10-06T11:07:14.000Z",
+        "imageUrl": "https://images.nu.nl/m/q9lxjjeaqprh_sqr256/1058/0/4727/4727/noorse-voetbalbond-dient-klachten-in-bij-fifa-over-infantino-willen-goed-bestuur.jpg",
+        "countryCode": "NL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "h1leM1o9adMK",
+          "url": "https://www.ad.nl/voetbal/noorse-voetbalbond-dient-serie-klachten-in-bij-fifa-discussie-over-wk-deelname-congo-en-rol-infantino~a2544497/",
+          "canonicalUrl": "https://www.ad.nl/voetbal/noorse-voetbalbond-dient-serie-klachten-in-bij-fifa-discussie-over-wk-deelname-congo-en-rol-infantino~a2544497/",
+          "title": "Noorse voetbalbond dient serie klachten in bij FIFA, discussie over WK-deelname Congo en rol Infantino",
+          "description": "De KNVB en de UEFA hebben hun vertrouwen in FIFA-baas Gianni Infantino opgezegd, nadat hij zijn omstreden plan om een deel van de WK-rechten te verkopen introk. Daarmee wankelt de positie van Infantino. In dit liveblog blijf je op de hoogte van alle ontwikkelingen.",
+          "source": {
+            "id": "ad",
+            "name": "AD"
+          },
+          "sourceCountry": "NL",
+          "language": "nl",
+          "publishedAt": "2026-10-06T13:23:00.000Z",
+          "imageUrl": "https://images.ad.nl/MmVlMWM4NjAyMDYyNmJmZTI1YjMvZGlvLzI3ODU5MzE4Mi9maXQtd2lkdGgvNDAw/gianni-infantino-in-betere-tijden-met-de-huidige-noorse-koning-haakon-en-voorzitter-van-de-noorse-voetbalbond-lise-klaveness",
+          "countryCode": "NL",
+          "regionCode": null
+        },
+        {
+          "id": "QGX_baflNQZX",
+          "url": "https://www.rtl.nl/nieuws/sport/artikel/5657415/noorse-voetbalbond-dient-serie-klachten-bij-fifa",
+          "canonicalUrl": "https://www.rtl.nl/nieuws/sport/artikel/5657415/noorse-voetbalbond-dient-serie-klachten-bij-fifa",
+          "title": "Noorse voetbalbond dient serie klachten in bij FIFA",
+          "description": "De Noorse voetbalbond (NFF) heeft een serie klachten ingediend bij twee commissies van de FIFA. Dat heeft de bond dinsdag bekendgemaakt in een uitgebreide verklaring. De klachten hebben betrekking op drie onderwerpen: de FIFA-vredesprijs, de ingetrokken schorsing van Folarin Balogun tijdens het WK…",
+          "source": {
+            "id": "rtlnieuws",
+            "name": "RTL Nieuws"
+          },
+          "sourceCountry": "NL",
+          "language": "nl",
+          "publishedAt": "2026-10-06T12:23:43.000Z",
+          "imageUrl": "https://redactie.rtl.nl/sites/default/files/ANP061026135-1.jpg?itok=onIzqOLQ&width=1024&height=576&impolicy=semi_dynamic",
+          "countryCode": "NL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:23:00.000Z"
     },
     {
       "id": "TvoNXwm4SwfE",
@@ -449,7 +449,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:06:36.000Z"
     }

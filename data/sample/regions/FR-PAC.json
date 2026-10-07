@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-PAC",
   "regionName": "Provence-Alpes-Côte d'Azur",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
     {
       "id": "utMH7xPA5eCf",
@@ -352,48 +352,6 @@
       "latestPublishedAt": "2026-10-07T05:32:30.000Z"
     },
     {
-      "id": "0s5U3DQZ1-ku",
-      "representative": {
-        "id": "0s5U3DQZ1-ku",
-        "url": "https://www.nicematin.com/societe/blocage-des-lycees/incidents-lors-de-cours-en-visioconference-dans-plusieurs-lycees-le-prefet-des-alpes-maritimes-saisit-la-justice-10735916",
-        "canonicalUrl": "https://www.nicematin.com/societe/blocage-des-lycees/incidents-lors-de-cours-en-visioconference-dans-plusieurs-lycees-le-prefet-des-alpes-maritimes-saisit-la-justice-10735916",
-        "title": "Incidents lors de cours en visioconférence dans plusieurs lycées : le préfet des Alpes-Maritimes saisit la justice",
-        "description": "Après des incidents survenus ce mardi 6 octobre 2026 au matin lors de cours en distanciel organisés par plusieurs lycées des Alpes-Maritimes, le préfet indique saisir la justice.",
-        "source": {
-          "id": "nicematin",
-          "name": "Nice-Matin, Var-Matin"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:44:24.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/59/16/OG-10735916-1200-800-0d30717_upload-1-u6kkp79jpxqz-nicpqrxxq211-cd-jean-44913215.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PAC"
-      },
-      "related": [
-        {
-          "id": "n0oc17hwG9B3",
-          "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-a-nice-des-cours-en-visioconference-perturbes-dans-plusieurs-lycees_VN-202610060803.html",
-          "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-a-nice-des-cours-en-visioconference-perturbes-dans-plusieurs-lycees_VN-202610060803.html",
-          "title": "À Nice, des cours en visioconférence perturbés dans plusieurs lycées",
-          "description": "À Nice, des cours en visioconférence perturbés dans plusieurs lycées : injures racistes et sexistes, menaces, provocation à la haine et faits susceptibles de relever de l’apologie du terrorisme. Des enquêtes vont être ouvertes pour identifier les auteurs.",
-          "source": {
-            "id": "bfm_marseille",
-            "name": "BFM Marseille, Côte d'Azur"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T16:44:50.000Z",
-          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/3jqOeiDO_8tOw55cXN0WNyyBqlA=/0x0:1280x720/800x0/images/A-Nice-des-cours-en-visioconference-perturbes-dans-plusieurs-lycees-2360431.jpg",
-          "countryCode": "FR",
-          "regionCode": "FR-PAC"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:44:50.000Z"
-    },
-    {
       "id": "5qNFK2LZg4nC",
       "representative": {
         "id": "5qNFK2LZg4nC",
@@ -434,48 +392,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T16:40:53.000Z"
-    },
-    {
-      "id": "pZHPEqVwUA-V",
-      "representative": {
-        "id": "pZHPEqVwUA-V",
-        "url": "https://www.nicematin.com/societe/blocage-des-lycees/insultes-et-references-terroristes-lors-des-cours-a-distance-dans-les-alpes-maritimes-5-lycees-concernes-le-rectorat-riposte-colere-du-prefet-et-d-eric-ciotti-10735899",
-        "canonicalUrl": "https://www.nicematin.com/societe/blocage-des-lycees/insultes-et-references-terroristes-lors-des-cours-a-distance-dans-les-alpes-maritimes-5-lycees-concernes-le-rectorat-riposte-colere-du-prefet-et-d-eric-ciotti-10735899",
-        "title": "Insultes et références terroristes lors des cours à distance dans les Alpes-Maritimes : 5 lycées concernés, le rectorat riposte, colère du préfet et d’Eric Ciotti",
-        "description": "Des internautes ont utilisé des pseudonymes à consonance terroriste, pour mieux perturber les cours organisés en visioconférence pour des lycéens. Ce mardi 6 octobre 2026, le rectorat annonce des signalements au procureur et dépôts de plainte.",
-        "source": {
-          "id": "nicematin",
-          "name": "Nice-Matin, Var-Matin"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:48:17.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/58/99/OG-10735899-1200-800-4e9cfb6_ftp-1-81nkwhchbwp4-rcanicxxq502-dm-lyceens-a-domicile.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PAC"
-      },
-      "related": [
-        {
-          "id": "-UJNfyi2SFmA",
-          "url": "https://www.bfmtv.com/cote-d-azur/le-prefet-des-alpes-maritimes-et-eric-ciotti-denoncent-l-utilisation-de-pseudonymes-faisant-reference-au-terrorisme-lors-des-cours-en-visio-a-nice_AN-202610060722.html",
-          "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/le-prefet-des-alpes-maritimes-et-eric-ciotti-denoncent-l-utilisation-de-pseudonymes-faisant-reference-au-terrorisme-lors-des-cours-en-visio-a-nice_AN-202610060722.html",
-          "title": "Le préfet des Alpes-Maritimes et Éric Ciotti dénoncent l'utilisation de pseudonymes faisant référence au terrorisme lors des cours en visio à Nice",
-          "description": "Mardi 6 octobre, Éric Ciotti, maire de Nice a dénoncé l'utilisation de pseudonymes faisant référence à des terroristes lors de cours dispensés en visio à Nice.",
-          "source": {
-            "id": "bfm_marseille",
-            "name": "BFM Marseille, Côte d'Azur"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T15:19:52.000Z",
-          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/z0ilo0CrprT61othd3nSw0j8Kdw=/0x40:768x472/800x0/images/Un-homme-en-teletravail-chez-lui-participe-a-une-visioconference-le-14-mai-2020-a-Vertou-pres-de-Nantes-365683.jpg",
-          "countryCode": "FR",
-          "regionCode": "FR-PAC"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:19:52.000Z"
     },
     {
       "id": "gmNxtePJIU6D",
@@ -596,6 +512,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T10:21:05.000Z"
+    },
+    {
+      "id": "aFL8hwa8hpwG",
+      "representative": {
+        "id": "aFL8hwa8hpwG",
+        "url": "https://madeinmarseille.net/actualite/211645-concert-fanfare-marche-animations-la-canebiere-en-fete-ce-dimanche/",
+        "canonicalUrl": "https://madeinmarseille.net/actualite/211645-concert-fanfare-marche-animations-la-canebiere-en-fete-ce-dimanche/",
+        "title": "Concert, fanfare, marché, animations… la Canebière en fête ce dimanche",
+        "description": "Concerts, déambulations, animations et marché de producteurs investiront la Canebière le dimanche 11 octobre. Une journée « au bout, la mer, Musiques ! » gratuite et ouverte à tous. Au … Cet article Concert, fanfare, marché, animations… la Canebière en fête ce dimanche est apparu en premier sur…",
+        "source": {
+          "id": "madeinmarseille",
+          "name": "Made in Marseille"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T09:50:37.000Z",
+        "imageUrl": "https://madeinmarseille.net/actualites-marseille/au-bout-la-mer-canebiere-600x477.jpeg",
+        "countryCode": "FR",
+        "regionCode": "FR-PAC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:50:37.000Z"
+    },
+    {
+      "id": "2GzAD8c9KwYh",
+      "representative": {
+        "id": "2GzAD8c9KwYh",
+        "url": "https://www.nicematin.com/loisirs/balades-visites-conferences-des-dimanches-pour-decouvrir-la-provence-verte-et-verdon-10732081",
+        "canonicalUrl": "https://www.nicematin.com/loisirs/balades-visites-conferences-des-dimanches-pour-decouvrir-la-provence-verte-et-verdon-10732081",
+        "title": "Balades, visites, conférences : des dimanches pour découvrir la Provence verte et Verdon",
+        "description": "La vingtième édition du rendez-vous « Un dimanche en Provence verte Verdon », proposée par le Pays d’art et d’histoire, va s’ouvrir le 18 octobre 2026 à Barjols. Cette grande balade pour découvrir les richesses du territoire se terminera le 20 juin 2027.",
+        "source": {
+          "id": "nicematin",
+          "name": "Nice-Matin, Var-Matin"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T09:30:05.000Z",
+        "imageUrl": "https://assets.nicematin.com/articles/10/73/20/81/OG-10732081-1200-800-dbc275f_ftp-1-7nxpcwficq0b-brixxq903-dr-pvv-rdv-dimanche.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-PAC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:30:05.000Z"
     }
   ]
 }

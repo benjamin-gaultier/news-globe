@@ -2,8 +2,56 @@
   "schemaVersion": 1,
   "countryCode": "KE",
   "countryName": "Kenya",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
+    {
+      "id": "ErMRQn1ZLql4",
+      "representative": {
+        "id": "ErMRQn1ZLql4",
+        "url": "https://www.tuko.co.ke/world/africa/642183-ash-dykes-shares-preparations-plans-navigate-congo-basin-inflatable-kayak/",
+        "canonicalUrl": "https://www.tuko.co.ke/world/africa/642183-ash-dykes-shares-preparations-plans-navigate-congo-basin-inflatable-kayak/",
+        "title": "Ash Dykes shares preparations as he plans to navigate Congo Basin in an inflatable kayak",
+        "description": "Ash Dykes reveals plans for a 700km solo kayak expedition down the Sangha River, carrying an inflatable kayak to avoid hippos in the dangerous Congo Basin.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:17:13.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/97a584ce8d788e7d.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:17:13.000Z"
+    },
+    {
+      "id": "oUj3jjNayCPx",
+      "representative": {
+        "id": "oUj3jjNayCPx",
+        "url": "https://www.tuko.co.ke/kenya/642208-former-chief-justice-david-maragas-sister-dies-age-107/",
+        "canonicalUrl": "https://www.tuko.co.ke/kenya/642208-former-chief-justice-david-maragas-sister-dies-age-107/",
+        "title": "Former chief justice David Maraga's sister dies at age 107",
+        "description": "Former chief justice David Maraga mourned his sister, Sabina Kemunto Otiambo, who died aged 107. The family said she will be buried in Kericho county on October 9.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:14:17.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/66e5f87df207fdc8.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:14:17.000Z"
+    },
     {
       "id": "6NaTt_HPy4nK",
       "representative": {
@@ -76,57 +124,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
+      "outletCount24h": 1,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T13:12:47.000Z"
-    },
-    {
-      "id": "ErMRQn1ZLql4",
-      "representative": {
-        "id": "ErMRQn1ZLql4",
-        "url": "https://www.tuko.co.ke/world/africa/642183-ash-dykes-shares-preparations-plans-navigate-congo-basin-inflatable-kayak/",
-        "canonicalUrl": "https://www.tuko.co.ke/world/africa/642183-ash-dykes-shares-preparations-plans-navigate-congo-basin-inflatable-kayak/",
-        "title": "Ash Dykes shares preparations as he plans to navigate Congo Basin in an inflatable kayak",
-        "description": "Ash Dykes reveals plans for a 700km solo kayak expedition down the Sangha River, carrying an inflatable kayak to avoid hippos in the dangerous Congo Basin.",
-        "source": {
-          "id": "tuko",
-          "name": "Tuko"
-        },
-        "sourceCountry": "KE",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:17:13.000Z",
-        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/97a584ce8d788e7d.jpeg?v=1",
-        "countryCode": "KE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:17:13.000Z"
-    },
-    {
-      "id": "oUj3jjNayCPx",
-      "representative": {
-        "id": "oUj3jjNayCPx",
-        "url": "https://www.tuko.co.ke/kenya/642208-former-chief-justice-david-maragas-sister-dies-age-107/",
-        "canonicalUrl": "https://www.tuko.co.ke/kenya/642208-former-chief-justice-david-maragas-sister-dies-age-107/",
-        "title": "Former chief justice David Maraga's sister dies at age 107",
-        "description": "Former chief justice David Maraga mourned his sister, Sabina Kemunto Otiambo, who died aged 107. The family said she will be buried in Kericho county on October 9.",
-        "source": {
-          "id": "tuko",
-          "name": "Tuko"
-        },
-        "sourceCountry": "KE",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:14:17.000Z",
-        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/66e5f87df207fdc8.jpeg?v=1",
-        "countryCode": "KE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:14:17.000Z"
     },
     {
       "id": "dGtiEscedcxA",
@@ -172,7 +172,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:03:58.000Z"
     },
@@ -196,7 +196,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:34:01.000Z"
     },
@@ -220,7 +220,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:32:57.000Z"
     },
@@ -244,7 +244,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:22:05.000Z"
     },
@@ -345,30 +345,6 @@
       "latestPublishedAt": "2026-10-06T11:36:11.000Z"
     },
     {
-      "id": "mPIshH0mBOK_",
-      "representative": {
-        "id": "mPIshH0mBOK_",
-        "url": "https://nation.africa/kenya/sports/athletics/sawe-ngetich-nominated-for-2026-world-athlete-of-the-year-award-5621656",
-        "canonicalUrl": "https://nation.africa/kenya/sports/athletics/sawe-ngetich-nominated-for-2026-world-athlete-of-the-year-award-5621656",
-        "title": "Sawe, Ngetich nominated for 2026 World Athlete of the Year award",
-        "description": "Winners will be announced in Monaco on November 29.",
-        "source": {
-          "id": "nation_ke",
-          "name": "Daily Nation"
-        },
-        "sourceCountry": "KE",
-        "language": "en",
-        "publishedAt": "2026-10-06T11:30:10.000Z",
-        "imageUrl": null,
-        "countryCode": "KE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:30:10.000Z"
-    },
-    {
       "id": "vrA1PCmYWJZ-",
       "representative": {
         "id": "vrA1PCmYWJZ-",
@@ -408,6 +384,30 @@
         "language": "en",
         "publishedAt": "2026-10-06T11:00:00.000Z",
         "imageUrl": "https://cdn.standardmedia.co.ke/images/articles/thumbnails/BSx1gbD1bmlT5ldsByYi4mPDw2XRSijLyXVabI7s.jpg",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:00:00.000Z"
+    },
+    {
+      "id": "w61M67nmnT8r",
+      "representative": {
+        "id": "w61M67nmnT8r",
+        "url": "https://www.businessdailyafrica.com/bd/lifestyle/careers/why-leaving-work-on-time-is-hurting-your-career-5621628",
+        "canonicalUrl": "https://www.businessdailyafrica.com/bd/lifestyle/careers/why-leaving-work-on-time-is-hurting-your-career-5621628",
+        "title": "Why leaving work on time is hurting your career",
+        "description": "In some workplaces, employees who consistently pack up at the official closing hour risk being...",
+        "source": {
+          "id": "businessdaily",
+          "name": "Business Daily"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:00:00.000Z",
+        "imageUrl": null,
         "countryCode": "KE",
         "regionCode": null
       },

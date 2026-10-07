@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "BG",
   "countryName": "Bulgaria",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "rHU9K6bl4lwf",
-      "representative": {
-        "id": "rHU9K6bl4lwf",
-        "url": "https://www.mediapool.bg/biznes/za-obmen-na-tok-prez-zimata-se-razbraha-bulgaria-gartsiya-sarbiya-i-severna-makedoniya/",
-        "canonicalUrl": "https://www.mediapool.bg/biznes/za-obmen-na-tok-prez-zimata-se-razbraha-bulgaria-gartsiya-sarbiya-i-severna-makedoniya/",
-        "title": "За обмен на ток през зимата се разбраха България, Гърция, Сърбия и Северна Македония",
-        "description": "Развитието на енергийната инфраструктура в региона, готовност за обем на електроенергия през зимата, ВЕИ проекти и такива за системи за съхранение на електроенергия с акцент върху помпено-акумулиращите водно-електрически централи (ПАВЕЦ), са обсъдили министрите на енергетиката на България, Сърбия…",
-        "source": {
-          "id": "mediapool",
-          "name": "Mediapool"
-        },
-        "sourceCountry": "BG",
-        "language": "bg",
-        "publishedAt": "2026-10-06T13:07:08.000Z",
-        "imageUrl": null,
-        "countryCode": "BG",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "JGDIdxkI-YPI",
-          "url": "https://www.24chasa.bg/biznes/article/23686352",
-          "canonicalUrl": "https://www.24chasa.bg/biznes/article/23686352",
-          "title": "Сърбия, България, Гърция и Северна Македония потвърдиха ангажимента към развитието на Вертикалния газов коридор",
-          "description": "Втората среща на министрите на енергетиката на Република Сърбия, Република България, Република Гърция и Република Северна Македония се проведе на 6 октомври 2026 г. в Белград, Република Сърбия. Акцент по време на обсъжданията бяха засилване на регионалното сътрудничество с оглед повишаване на…",
-          "source": {
-            "id": "24chasa",
-            "name": "24 Chasa"
-          },
-          "sourceCountry": "BG",
-          "language": "bg",
-          "publishedAt": "2026-10-06T13:49:00.000Z",
-          "imageUrl": "https://cache1.24chasa.bg/Images/Cache/405/IMAGE_23686405_2_0.jpg",
-          "countryCode": "BG",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:49:00.000Z"
-    },
     {
       "id": "guS_S-nrmjLN",
       "representative": {
@@ -93,6 +51,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:52:00.000Z"
+    },
+    {
+      "id": "rHU9K6bl4lwf",
+      "representative": {
+        "id": "rHU9K6bl4lwf",
+        "url": "https://www.mediapool.bg/biznes/za-obmen-na-tok-prez-zimata-se-razbraha-bulgaria-gartsiya-sarbiya-i-severna-makedoniya/",
+        "canonicalUrl": "https://www.mediapool.bg/biznes/za-obmen-na-tok-prez-zimata-se-razbraha-bulgaria-gartsiya-sarbiya-i-severna-makedoniya/",
+        "title": "За обмен на ток през зимата се разбраха България, Гърция, Сърбия и Северна Македония",
+        "description": "Развитието на енергийната инфраструктура в региона, готовност за обем на електроенергия през зимата, ВЕИ проекти и такива за системи за съхранение на електроенергия с акцент върху помпено-акумулиращите водно-електрически централи (ПАВЕЦ), са обсъдили министрите на енергетиката на България, Сърбия…",
+        "source": {
+          "id": "mediapool",
+          "name": "Mediapool"
+        },
+        "sourceCountry": "BG",
+        "language": "bg",
+        "publishedAt": "2026-10-06T13:07:08.000Z",
+        "imageUrl": null,
+        "countryCode": "BG",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "JGDIdxkI-YPI",
+          "url": "https://www.24chasa.bg/biznes/article/23686352",
+          "canonicalUrl": "https://www.24chasa.bg/biznes/article/23686352",
+          "title": "Сърбия, България, Гърция и Северна Македония потвърдиха ангажимента към развитието на Вертикалния газов коридор",
+          "description": "Втората среща на министрите на енергетиката на Република Сърбия, Република България, Република Гърция и Република Северна Македония се проведе на 6 октомври 2026 г. в Белград, Република Сърбия. Акцент по време на обсъжданията бяха засилване на регионалното сътрудничество с оглед повишаване на…",
+          "source": {
+            "id": "24chasa",
+            "name": "24 Chasa"
+          },
+          "sourceCountry": "BG",
+          "language": "bg",
+          "publishedAt": "2026-10-06T13:49:00.000Z",
+          "imageUrl": "https://cache1.24chasa.bg/Images/Cache/405/IMAGE_23686405_2_0.jpg",
+          "countryCode": "BG",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:49:00.000Z"
     },
     {
       "id": "6b1KOX7oR_qr",
@@ -191,30 +191,6 @@
       "latestPublishedAt": "2026-10-06T13:43:19.000Z"
     },
     {
-      "id": "0ofX5ZSrwB2q",
-      "representative": {
-        "id": "0ofX5ZSrwB2q",
-        "url": "https://www.mediapool.bg/svyat/izrael-e-bil-gotov-da-svali-samoleta-na-flydubai-sled-napadenieto-sreshtu-kapitana/",
-        "canonicalUrl": "https://www.mediapool.bg/svyat/izrael-e-bil-gotov-da-svali-samoleta-na-flydubai-sled-napadenieto-sreshtu-kapitana/",
-        "title": "Израел е бил готов да свали самолета на FlyDubai след нападението срещу капитана",
-        "description": "Израелските военновъздушни сили са били готови да свалят самолета на FlyDubai, изпълняващ полет FZ 1073, след нападението на втория пилот срещу капитана, въпреки че на борда са се намирали 150 граждани на страната. Това са съобщили пред CBS News двама израелски източници, запознати със ситуацията…",
-        "source": {
-          "id": "mediapool",
-          "name": "Mediapool"
-        },
-        "sourceCountry": "BG",
-        "language": "bg",
-        "publishedAt": "2026-10-06T13:42:10.000Z",
-        "imageUrl": null,
-        "countryCode": "BG",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:42:10.000Z"
-    },
-    {
       "id": "IwDm_YS-_2B6",
       "representative": {
         "id": "IwDm_YS-_2B6",
@@ -282,7 +258,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:32:00.000Z"
     },
@@ -381,6 +357,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:44:00.000Z"
+    },
+    {
+      "id": "0ofX5ZSrwB2q",
+      "representative": {
+        "id": "0ofX5ZSrwB2q",
+        "url": "https://www.mediapool.bg/svyat/izrael-e-bil-gotov-da-svali-samoleta-na-flydubai-sled-napadenieto-sreshtu-kapitana/",
+        "canonicalUrl": "https://www.mediapool.bg/svyat/izrael-e-bil-gotov-da-svali-samoleta-na-flydubai-sled-napadenieto-sreshtu-kapitana/",
+        "title": "Израел е бил готов да свали самолета на FlyDubai след нападението срещу капитана",
+        "description": "Израелските военновъздушни сили са били готови да свалят самолета на FlyDubai, изпълняващ полет FZ 1073, след нападението на втория пилот срещу капитана, въпреки че на борда са се намирали 150 граждани на страната. Това са съобщили пред CBS News двама израелски източници, запознати със ситуацията…",
+        "source": {
+          "id": "mediapool",
+          "name": "Mediapool"
+        },
+        "sourceCountry": "BG",
+        "language": "bg",
+        "publishedAt": "2026-10-06T13:42:10.000Z",
+        "imageUrl": null,
+        "countryCode": "BG",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:42:10.000Z"
     }
   ]
 }

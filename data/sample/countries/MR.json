@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MR",
   "countryName": "Mauritania",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
     {
       "id": "CImRuL0egwTX",
@@ -252,7 +252,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:37:29.000Z"
     },
@@ -276,7 +276,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:32:30.000Z"
     },
@@ -303,30 +303,6 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T01:37:43.000Z"
-    },
-    {
-      "id": "Firm1NpbZAms",
-      "representative": {
-        "id": "Firm1NpbZAms",
-        "url": "https://rimweb.net/2026/10/05/yemen-la-coalition-dirigee-par-riyad-dit-rejoindre-loffensive-du-gouvernement-contre-les-houthis/",
-        "canonicalUrl": "https://rimweb.net/2026/10/05/yemen-la-coalition-dirigee-par-riyad-dit-rejoindre-loffensive-du-gouvernement-contre-les-houthis/",
-        "title": "Yémen: la coalition dirigée par Riyad dit rejoindre l’offensive du gouvernement contre les Houthis",
-        "description": "La coalition militaire dirigée par Riyad a annoncé lundi rejoindre l’offensive lancée la veille par le gouvernement yéménite contre les",
-        "source": {
-          "id": "rimweb",
-          "name": "Rimweb"
-        },
-        "sourceCountry": "MR",
-        "language": "fr",
-        "publishedAt": "2026-10-05T12:20:09.000Z",
-        "imageUrl": null,
-        "countryCode": "MR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-05T12:20:09.000Z"
     },
     {
       "id": "ULRuZUw2rSr1",
@@ -399,6 +375,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:31:32.000Z"
+    },
+    {
+      "id": "xIIRsmSzEbHX",
+      "representative": {
+        "id": "xIIRsmSzEbHX",
+        "url": "https://fr.saharamedias.net/le-fla-annonce-un-retrait-strategique-de-la-ville-de-kidal/",
+        "canonicalUrl": "https://fr.saharamedias.net/le-fla-annonce-un-retrait-strategique-de-la-ville-de-kidal/",
+        "title": "Le FLA annonce un « retrait stratégique » de la ville de Kidal",
+        "description": "Le Front de libération de l’Azawad a annoncé avoir procédé à « un retrait stratégique et discipliné de ses forces de la ville de Kidal », précisant que cette décision intervenait « face aux risques croissants qui menacent le reste de la population civile de la ville, en raison de l’utilisation…",
+        "source": {
+          "id": "saharamedias",
+          "name": "Sahara Medias"
+        },
+        "sourceCountry": "MR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T14:06:48.000Z",
+        "imageUrl": null,
+        "countryCode": "MR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:06:48.000Z"
     }
   ]
 }
