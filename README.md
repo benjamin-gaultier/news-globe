@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers 112 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France or Germany and it splits into its regions (13 French regions, 16 German Länder), each with its own headlines from regional outlets.
+It covers 131 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France or Germany and it splits into its regions (13 French regions, 16 German Länder), each with its own headlines from regional outlets.
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -1628,7 +1628,218 @@ Somali gets its own stopword list: particles such as *oo*, *ayaa* and *lagu* sit
 | ~~Al-Masdar Online~~, ~~Saba~~, ~~Yemen Akhbar~~ | — | — | ❌ **dropped**: 403 |
 | ~~Al-Ayyam~~, ~~26 September~~ | — | — | ❌ **dropped**: 404 |
 
-Not added yet, for lack of usable feeds: the UAE (Sky News Arabia and Al Khaleej; 24.ae undated, WAM behind a bot challenge), Tanzania (one usable feed), Jordan (Royanews and Ammon; Al-Ghad, Addustour and Al-Rai 403), Iraq (Baghdad Today only; Alsumaria, Shafaq, Rudaw and 964 serve HTML or deny bots), Kuwait and Qatar (feeds serve HTML or 403), Paraguay (El Nacional and La Clave; ABC, Última Hora and La Nación 404), Bolivia (Opinión and El Diario; most others 404 or stale), Panama (TVN only; La Prensa's feed is weeks old), Honduras (Proceso Digital plus two feeds of 4–5 items), El Salvador (Co Latino only), Cameroon (Actu Cameroun only in French; Cameroon Tribune 403), Togo, Rwanda, Namibia, Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each), Montenegro (Vijesti and CdM; RTCG and Dan 404, Pobjeda and Standard serve HTML), Belarus (BelTA and Onliner; Zerkalo 403, Nasha Niva malformed), Albania (Euronews Albania and BalkanWeb; Top Channel, Panorama and Tema 403), Georgia (Netgazeti and Publika, which share headlines, plus Civil.ge in English; Interpressnews, Imedi and 1TV unreachable or 403), Cambodia and Mongolia (one or two current feeds), Oman and Bahrain (feeds 404), Nicaragua (Confidencial only; La Prensa, El 19 and Artículo 66 403), Haiti (Le Nouvelliste and Juno7, both slow), Libya (Libya Herald only; Al-Wasat 403), Malta (Newsbook and Lovin Malta; Times of Malta unreachable), Kyrgyzstan (Kaktus only current), Mozambique and DR Congo (one or two small feeds), Palestine (Al-Quds only; WAFA 404, Maan 403), Myanmar (Irrawaddy and Mizzima unreachable or 403, Myanmar Now stale), Niger (Le Sahel, Niger Inter and Tamtaminfo post a few items a day or less; ActuNiger 404), Sierra Leone (Sierraloaded and Calabash; Awoko unreachable, AYV stale), Belize (Breaking Belize News; Love FM and Amandala slow, Channel 5 unreachable), the Bahamas (Tribune and Our News; Nassau Guardian 404), the Maldives (Sun and PSM, in Dhivehi), Fiji and Papua New Guinea (one current feed each).
+**China** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| China News Service | China, society | 9 | ✅ (state agency, zh) |
+| CGTN | main feed | 8 | ✅ (state broadcaster, en) |
+| South China Morning Post | main feed | 8 | ✅ (China section; SCMP is Hong Kong-based, en) |
+| VOA Chinese | main feed | 7 | ✅ (US government broadcaster, zh) |
+| RFA Mandarin | main feed | 7 | ✅ (US government broadcaster, low volume, zh) |
+
+China News Service is the only mainland outlet with a current feed (China Daily, Xinhua, People's Daily and Global Times are 404 or months old), so VOA and RFA's Chinese services, CGTN and SCMP's China section fill it out.
+
+**Belarus** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| BelTA | main feed | 9 | ✅ (state agency, ru) |
+| Onliner | main feed | 8 | ✅ (ru) |
+| Radio Svaboda | main feed | 8 | ✅ (RFE/RL, be) |
+
+Not used: Zerkalo and Euroradio 403; Nasha Niva malformed; Belsat 404.
+
+**Georgia** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Netgazeti | main feed | 8 | ✅ (ka) |
+| Publika | main feed | 8 | ✅ (ka) |
+| Radio Tavisupleba | main feed | 8 | ✅ (RFE/RL, ka) |
+| Civil.ge | main feed | 7 | ✅ (en) |
+
+Not used: 1TV, Imedi, Tabula and BM.ge 403; Interpressnews and Georgia Today serve HTML.
+
+**Montenegro** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Vijesti | main feed | 9 | ✅ (sr) |
+| CdM | main feed | 8 | ✅ (sr) |
+| MINA | main feed | 8 | ✅ (sr) |
+| Aktuelno | main feed | 7 | ✅ (sr) |
+| Borba | main feed | 7 | ✅ (sr) |
+
+Not used: RTCG and Dan 404; Pobjeda and Standard serve HTML. IN4S works but writes in Cyrillic, which never clusters with the others.
+
+**Albania** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Euronews Albania | main feed | 9 | ✅ (sq) |
+| BalkanWeb | main feed | 8 | ✅ (sq) |
+| ABC News Albania | main feed | 8 | ✅ (sq) |
+| Vizion Plus | main feed | 7 | ✅ (sq) |
+| Gazeta Shqiptare | main feed | 7 | ✅ (sq) |
+| Reporter.al | main feed | 7 | ✅ (investigative, low volume, sq) |
+
+Not used: Top Channel, Panorama, Tema and Ora News 403; A2 and Report TV 404.
+
+**Palestine** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Al-Quds | main feed | 9 | ✅ (ar) |
+| Quds News Network | main feed | 8 | ✅ (ar) |
+| Felesteen | main feed | 7 | ✅ (Hamas-aligned, ar) |
+| Palestinian Information Center | main feed | 7 | ✅ (Hamas-aligned, ar) |
+
+Not used: WAFA and Paltoday 404, Maan 403, Al-Ayyam unreachable.
+
+**Libya** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Al Marsad | main feed | 8 | ✅ (close to the eastern government, ar) |
+| Ean Libya | main feed | 8 | ✅ (ar) |
+| Libya Herald | main feed | 8 | ✅ (low volume, en) |
+
+Not used: Al-Wasat 403; Libya Observer 404; Libya Al-Ahrar and Afrigate unreachable.
+
+**Iraq** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Baghdad Today | main feed | 8 | ✅ (ar) |
+| Al-Mada | main feed | 8 | ✅ (ar) |
+| Al-Masalah | main feed | 7 | ✅ (ar) |
+| Iraqi News | main feed | 7 | ✅ (en) |
+
+Not used: INA and Al-Sabaah 403; Shafaq, Alsumaria, Rudaw and Kurdistan24 serve HTML or malformed XML.
+
+**Myanmar** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| The Irrawaddy | main feed | 9 | ✅ (en) |
+| DVB | main feed | 8 | ✅ (en) |
+| Myanmar Now | main feed | 8 | ✅ (en) |
+| The Global New Light of Myanmar | main feed | 7 | ✅ (state paper, en) |
+
+Not used: Mizzima 403; the Burmese editions of The Irrawaddy and DVB are 403 or malformed; Eleven Myanmar stale.
+
+**Kyrgyzstan** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Kabar | main feed | 9 | ✅ (state agency, ky) |
+| Azattyk | main feed | 8 | ✅ (RFE/RL, ky) |
+| Sputnik Kyrgyzstan | main feed | 7 | ✅ (Russian state media, ru) |
+
+Not used: Kaktus and AKIpress 404; 24.kg stale; Kloop posts a few items a week.
+
+**Namibia** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| The Namibian | main feed | 9 | ✅ (en) |
+| New Era | main feed | 8 | ✅ (en) |
+| Windhoek Observer | main feed | 8 | ✅ (en) |
+
+Not used: Namibian Sun serves HTML; NBC 404.
+
+**Honduras** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Proceso Digital | main feed | 8 | ✅ (es) |
+| HCH | main feed | 7 | ✅ (es) |
+| Hondudiario | main feed | 7 | ✅ (es) |
+| Criterio.hn | main feed | 7 | ✅ (low volume, es) |
+
+Not used: La Tribuna and Radio América 403; La Prensa and El Heraldo 404.
+
+**Bolivia** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| El Deber | main feed | 9 | ✅ (es) |
+| Opinión | main feed | 8 | ✅ (es) |
+| El Diario | main feed | 7 | ✅ (es) |
+| EJU! | main feed | 6 | ✅ (low volume, es) |
+
+Not used: La Razón and El Potosí 403; Los Tiempos and Correo del Sur 404; Página Siete times out.
+
+**El Salvador** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Diario Co Latino | main feed | 8 | ✅ (es) |
+| La Página | main feed | 7 | ✅ (es) |
+| YSUCA | main feed | 7 | ✅ (es) |
+
+Not used: La Prensa Gráfica and El Diario de Hoy 403; El Faro and Diario El Mundo serve HTML.
+
+**DR Congo** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Radio Okapi | main feed | 9 | ✅ (fr) |
+| Actualite.cd | main feed | 8 | ✅ (fr) |
+| Politico.cd | main feed | 7 | ✅ (fr) |
+| Actu30 | main feed | 6 | ✅ (fr) |
+
+Not used: 7sur7.cd, Mediacongo and Deskeco 404; Zoom Eco 403.
+
+**Cameroon** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Camer.be | main feed | 8 | ✅ (fr) |
+| Lebledparle | main feed | 7 | ✅ (fr) |
+| 237online | main feed | 7 | ✅ (fr) |
+| Investir au Cameroun | main feed | 6 | ✅ (business news, fr) |
+
+Not used: Cameroon Tribune, Actu Cameroun and Mimi Mefo Info 403; Journal du Cameroun unreachable.
+
+**Tanzania** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Daily News | main feed | 9 | ✅ (en) |
+| HabariLeo | main feed | 8 | ✅ (sw) |
+| Jamhuri | main feed | 7 | ✅ (sw) |
+| Global Publishers | main feed | 6 | ✅ (sw) |
+
+Not used: The Citizen and Mwananchi 404; IPP Media 403.
+
+**Rwanda** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Kigali Today | main feed | 8 | ✅ (rw) |
+| Umuseke | main feed | 7 | ✅ (rw) |
+| Taarifa | main feed | 7 | ✅ (en) |
+| KT Press | main feed | 7 | ✅ (low volume, en) |
+
+Not used: The New Times serves HTML; IGIHE 404.
+
+**Haiti** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Le Nouvelliste | main feed | 9 | ✅ (English edition, low volume, en) |
+| AlterPresse | main feed | 8 | ✅ (low volume, fr) |
+| Juno7 | main feed | 7 | ✅ (low volume, fr) |
+
+Le Nouvelliste's feed is its English edition. Not used: HaitiLibre 403; Loop Haiti unreachable.
+
+Swahili, Kinyarwanda, Kyrgyz and Belarusian get short stopword lists: class-agreement particles (*ya*, *wa*, *za*), Kinyarwanda's elided *n'*, *z'*, *cy'*, and the country's own name, as for Somali. Kyrgyz also drops *млрд*, *сом* and *түздү* ("amounted to"): two different nine-month revenue stories had been joined on them.
+
+`isNotNews` also drops Honduran front-page items ("Portada Digital, Miércoles 07.10.2026"), The Global New Light of Myanmar's daily e-paper entry (a bare "7 October 2026"), and VOA Chinese's broadcast episodes ("美国之音中文广播 (2026年10月7日) …").
+
+Not added yet, for lack of usable feeds: the UAE (Gulf News only; Sky News Arabia, Al Khaleej, The National and Khaleej Times 404 or serve HTML), Jordan (Royanews and Hala; Al-Ghad, Addustour, Al-Rai and Jordan Times 403, Ammon serves HTML), Kuwait, Qatar and Oman (feeds serve HTML, 403 or 404; Doha News posts a few items a day), Paraguay (La Clave only; ABC, Última Hora and La Nación 404), Panama (TVN, which is mostly international, and Crítica; La Prensa's feed is weeks old), Nicaragua (exile media only: Confidencial, Despacho 505, Divergentes; La Prensa, El 19 and Artículo 66 403), Togo (iciLome only current), Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each), Cambodia (Khmer Times plus slow CambojaNews; Phnom Penh Post, Post Khmer and Fresh News 403), Mongolia (iKon and Eguur; Montsame 403, News.mn serves HTML), Turkmenistan (Azathabar, Hronika and Turkmen.news each post a few items a day), Laos (Laotian Times only), Bahrain (feeds 404), Malta (Newsbook and Lovin Malta; Times of Malta unreachable), Mozambique and Angola (one or two small feeds), Niger (Le Sahel, Niger Inter and Tamtaminfo post a few items a day or less; ActuNiger 404), Sierra Leone (Sierraloaded and Calabash; Awoko unreachable, AYV stale), Belize (Breaking Belize News; Love FM and Amandala slow, Channel 5 unreachable), the Bahamas (Tribune and Our News; Nassau Guardian 404), the Maldives (Sun and PSM, in Dhivehi), Brunei, Bhutan and Timor-Leste (one slow feed each), Fiji and Papua New Guinea (one current feed each).
 
 **Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 

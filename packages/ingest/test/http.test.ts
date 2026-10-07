@@ -204,6 +204,12 @@ describe('isNotNews', () => {
       '„Gude, Mainz!“ – Der Morgen-Podcast für die Region',
       'Großes Gewinnspiel zum Stadtfest',
       'Anzeige: Die besten Angebote im Herbst',
+      'Portada Digital, Miércoles 07.10.2026',
+      'Portada HCH Miércoles 07 de octubre 2026 Edición Matutina',
+      '7 October 2026',
+      '美国之音中文广播 (2026年10月7日) 沙特石油出口回升',
+      'VOA今日焦点 (2026年10月7日) 特朗普总统宣布66亿大型潜艇厂案',
+      '《VOA今日焦点》音频',
     ]) {
       expect(isNotNews(t), t).toBe(true);
     }
@@ -232,6 +238,8 @@ describe('isNotNews', () => {
       'Tourismus: Werbung für Offenheit und Gastfreundschaft geplant',
       'Live aus dem Landtag: Abgeordnete beraten heute über Drohnenabwehr',
       'Nordhausen: Nachrichten aus der Stadt und dem Südharz bleiben',
+      'Hamas attack anniversary: Israel marks 7 October 2026',
+      '美议员促纽黑文大学终止与西安邮电大学合作，称该校与中国军方有关',
     ]) {
       expect(isNotNews(t), t).toBe(false);
     }

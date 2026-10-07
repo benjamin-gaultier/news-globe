@@ -63,6 +63,12 @@ const NOT_NEWS: RegExp[] = [
   /^gagnez (?:vos|des|deux|\d+) (?:places|invitations|billets|entrées)/i,
   // Named magazine segments on BFM regional channels: "Le Café Normand: …", "BFM Nord et Vous: …".
   /^(?:le café [^:]{1,25}|bfm [^:]{1,25} et vous)\s*:/i,
+  // Front pages and e-paper editions: Proceso's "Portada Digital, Miércoles 07.10.2026",
+  // HCH's "Portada HCH Miércoles 07 de octubre 2026", The Global New Light of Myanmar's "7 October 2026".
+  /^portada\b/i,
+  /^\d{1,2} (?:january|february|march|april|may|june|july|august|september|october|november|december) \d{4}$/i,
+  // VOA Chinese's daily broadcasts: "美国之音中文广播 (2026年10月7日) …", "VOA今日焦点 (…)", "《VOA今日焦点》音频".
+  /^《?(?:美国之音中文广播|VOA今日焦点)/,
   // ici's evergreen fuel-price finder, re-dated daily.
   /trouvez la station(?:-service)? la moins ch[eè]re/i,
   // Paid content.
