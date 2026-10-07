@@ -6533,6 +6533,84 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://www.ugluu.mn/feed'],
     authority: 6,
   },
+  // New Caledonia. Two outlets only. RRB and Caledonia 404; NCI and RNC unreachable.
+  {
+    id: 'la1ere_nc',
+    name: 'Nouvelle-Calédonie La 1ère',
+    type: 'rss',
+    country: 'NC',
+    language: 'fr',
+    feedUrls: ['https://la1ere.franceinfo.fr/nouvellecaledonie/rss'],
+    authority: 9,
+  },
+  {
+    id: 'lnc',
+    name: 'Les Nouvelles Calédoniennes',
+    type: 'rss',
+    country: 'NC',
+    language: 'fr',
+    feedUrls: ['https://www.lnc.nc/rss.xml'],
+    authority: 8,
+  },
+  // Timor-Leste (Tetum). Two outlets only. Independente 404; Tempo Timor malformed; GMN TV and RTTL
+  // unreachable.
+  {
+    id: 'tatoli',
+    name: 'Tatoli',
+    type: 'rss',
+    country: 'TL',
+    language: 'tet',
+    feedUrls: ['https://www.tatoli.tl/feed/'],
+    authority: 9,
+  },
+  {
+    id: 'timorpost',
+    name: 'Timor Post',
+    type: 'rss',
+    country: 'TL',
+    language: 'tet',
+    feedUrls: ['https://www.timorpost.com/feed'],
+    authority: 8,
+  },
+  // Fiji. Two outlets only; FBC's main feed is mostly sport and it has no news-only feed. Fiji
+  // Times serves no items; Fiji Sun 404; Fiji Village malformed.
+  {
+    id: 'fijione',
+    name: 'Fiji One',
+    type: 'rss',
+    country: 'FJ',
+    language: 'en',
+    feedUrls: ['https://www.fijionenews.com.fj/feed/'],
+    authority: 8,
+  },
+  {
+    id: 'fbcnews',
+    name: 'FBC News',
+    type: 'rss',
+    country: 'FJ',
+    language: 'en',
+    feedUrls: ['https://www.fbcnews.com.fj/feed/'],
+    authority: 7,
+  },
+  // Solomon Islands. Two outlets only. Solomon Star 403; Solomon Times 404.
+  {
+    id: 'islandsun',
+    name: 'Island Sun',
+    type: 'rss',
+    country: 'SB',
+    language: 'en',
+    feedUrls: ['https://www.theislandsun.com.sb/feed/'],
+    authority: 8,
+  },
+  {
+    id: 'sibc',
+    name: 'SIBC',
+    type: 'rss',
+    country: 'SB',
+    language: 'en',
+    feedUrls: ['https://www.sibconline.com.sb/feed/'],
+    authority: 8,
+  },
   // ---- France: regions (see REGIONS). Local-section feeds only: the main
   // feeds of regional papers carry national and world news too. ----
   {

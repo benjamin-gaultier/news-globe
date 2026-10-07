@@ -427,6 +427,10 @@ const STOPWORDS_BE = `
 і ў у на з за па да ад не што як але гэта ці а для пра пасьля пасля праз яго яе іх быў была былі будзе
 ужо таксама сёньня сёння учора дзе калі пры без над пад паміж
 `;
+// Tetum: to/at, in, and, with, they (plural), about, this, his/her, one, from, will, do, get, the country.
+const STOPWORDS_TET = `
+ba iha no ho sira kona ne'e nee nia ida hosi husi atu sei halo hetan mos mós ka maibé maibe timor leste tl
+`;
 // Mongolian (Cyrillic): and, is/are, this/that, said, on, in, year/month/day, will/became,
 // the country's name, plus a few title verbs (held, met, discussed).
 const STOPWORDS_MN = `
@@ -517,6 +521,7 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   be: wordSet(foldedWords(STOPWORDS_BE), STOPWORDS_EN, BOILERPLATE),
   km: wordSet(STOPWORDS_KM, STOPWORDS_EN, BOILERPLATE),
   mn: wordSet(foldedWords(STOPWORDS_MN), STOPWORDS_EN, BOILERPLATE),
+  tet: wordSet(foldedWords(STOPWORDS_TET), STOPWORDS_EN, BOILERPLATE),
   ko: wordSet(STOPWORDS_KO, STOPWORDS_EN, BOILERPLATE),
   th: wordSet(STOPWORDS_TH, STOPWORDS_EN, BOILERPLATE),
   bn: wordSet(STOPWORDS_BN, STOPWORDS_EN, BOILERPLATE),
