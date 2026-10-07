@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ID",
   "countryName": "Indonesia",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "fraUVYPllHCf",
@@ -368,48 +368,6 @@
       "latestPublishedAt": "2026-10-06T15:28:13.000Z"
     },
     {
-      "id": "M2alRijqSlXu",
-      "representative": {
-        "id": "M2alRijqSlXu",
-        "url": "https://news.okezone.com/read/2026/10/06/337/3246360/denny-indrayana-yakin-bakal-ada-hakim-yang-disetting-opinion-dalam-gugatan-phpu-gibran",
-        "canonicalUrl": "https://news.okezone.com/read/2026/10/06/337/3246360/denny-indrayana-yakin-bakal-ada-hakim-yang-disetting-opinion-dalam-gugatan-phpu-gibran",
-        "title": "Denny Indrayana Yakin Bakal Ada Hakim yang Disetting Opinion Dalam Gugatan PHPU Gibran ",
-        "description": "Denny Indrayana yang merupakan salah satu pemohon PHPU pilpres 2024, meyakini bahwa terdapat disetting opinion yang diambil oleh hakim mahkamah konstitusi (MK). Oleh karenanya dia meyakini putusan ini tidak akan bulat.",
-        "source": {
-          "id": "okezone",
-          "name": "Okezone"
-        },
-        "sourceCountry": "ID",
-        "language": "id",
-        "publishedAt": "2026-10-06T13:25:47.000Z",
-        "imageUrl": "https://img.okezone.com/okz/400/content/2026/10/06/337/3246360/denny_indrayana-arb9_large.jpg",
-        "countryCode": "ID",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "kENF5u6O_H-z",
-          "url": "https://nasional.sindonews.com/read/1757627/13/denny-indrayana-yakin-akan-ada-hakim-yang-dissenting-opinion-dalam-putusan-gugatan-ijazah-gibran-1791292231",
-          "canonicalUrl": "https://nasional.sindonews.com/read/1757627/13/denny-indrayana-yakin-akan-ada-hakim-yang-dissenting-opinion-dalam-putusan-gugatan-ijazah-gibran-1791292231",
-          "title": "Denny Indrayana Yakin Akan Ada Hakim yang Dissenting Opinion Dalam Putusan Gugatan Ijazah Gibran",
-          "description": "Denny Indrayana yang merupakan salah satu pemohon PHPU Pilpres 2024 meyakini terdapat dissenting opinion yang diambil hakim Mahkamah Konstitusi (MK). Karenanya dia meyakini putusan ini tidak akan bulat.",
-          "source": {
-            "id": "sindonews",
-            "name": "Sindonews"
-          },
-          "sourceCountry": "ID",
-          "language": "id",
-          "publishedAt": "2026-10-06T13:34:52.000Z",
-          "imageUrl": "https://pict.sindonews.com/dyn/850/pena/news/2026/10/06/13/1757627/denny-indrayana-yakin-akan-ada-hakim-yang-dissenting-opinion-dalam-gugatan-ijazah-gibran-rhx.jpg",
-          "countryCode": "ID",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:34:52.000Z"
-    },
-    {
       "id": "N2A0QFf5vBA-",
       "representative": {
         "id": "N2A0QFf5vBA-",
@@ -659,6 +617,30 @@
       "outletCount24h": 1,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T16:10:10.000Z"
+    },
+    {
+      "id": "3ehTb2uAt7BR",
+      "representative": {
+        "id": "3ehTb2uAt7BR",
+        "url": "https://www.liputan6.com/news/read/8307474/penyerangan-aktivis-bem-ui-disebut-janggal-ini-ciri-pelakunya",
+        "canonicalUrl": "https://www.liputan6.com/news/read/8307474/penyerangan-aktivis-bem-ui-disebut-janggal-ini-ciri-pelakunya",
+        "title": "Penyerangan Aktivis BEM UI Disebut Janggal, Ini Ciri Pelakunya",
+        "description": "BEM UI mengungkap ciri pelaku dan sejumlah kejanggalan dalam dugaan penyerangan terhadap Hafidz Hernanda.",
+        "source": {
+          "id": "liputan6",
+          "name": "Liputan6"
+        },
+        "sourceCountry": "ID",
+        "language": "id",
+        "publishedAt": "2026-10-06T16:00:30.000Z",
+        "imageUrl": "https://cdn1-production-images-kly.akamaized.net/HW1SwYQyxdjBlYQcwLhGe39MFuU=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/9327099/original/016739500_1787051082-bem9.jpg",
+        "countryCode": "ID",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:00:30.000Z"
     }
   ]
 }

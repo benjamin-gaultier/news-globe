@@ -2,403 +2,367 @@
   "schemaVersion": 1,
   "countryCode": "BO",
   "countryName": "Bolivia",
-  "updatedAt": "2026-10-07T12:57:09.368Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
-      "id": "pLDRaJrYrQcz",
+      "id": "Yh28xvbu0BH7",
       "representative": {
-        "id": "pLDRaJrYrQcz",
-        "url": "https://www.opinion.com.bo/pais/titulo-bachiller-sera-digital-2026-tendra-codigo-qr/20261006184000997264.html",
-        "canonicalUrl": "https://www.opinion.com.bo/pais/titulo-bachiller-sera-digital-2026-tendra-codigo-qr/20261006184000997264.html",
-        "title": "Título de bachiller será digital desde 2026 y tendrá un código QR",
-        "description": "El Gobierno estableció que desde la gestión 2026 la emisión y otorgación del Diploma de Bachiller será gratuita y en formato digital. El documento tendrá la misma validez jurídica que el título físico y podrá ser verificado mediante mecanismos y...",
+        "id": "Yh28xvbu0BH7",
+        "url": "https://www.opinion.com.bo/cochabamba/tejerina-presenta-renuncia-irrevocable-cargo-fiscal-departamental-cochabamba/20261006101524997222.html",
+        "canonicalUrl": "https://www.opinion.com.bo/cochabamba/tejerina-presenta-renuncia-irrevocable-cargo-fiscal-departamental-cochabamba/20261006101524997222.html",
+        "title": "Tejerina presenta su renuncia irrevocable al cargo de fiscal departamental de Cochabamba",
+        "description": "Osvaldo Tejerina presentó este martes su renuncia irrevocable como fiscal departamental de Cochabamba y señaló que actualmente ejerce el cargo de manera provisional. “Presento ante su Autoridad la Renuncia Irrevocable al Cargo de Fiscal...",
         "source": {
           "id": "opinionbo",
           "name": "Opinión"
         },
         "sourceCountry": "BO",
         "language": "es",
-        "publishedAt": "2026-10-06T22:40:00.000Z",
-        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2026/10/06/2026100618394517655.jpg",
-        "countryCode": "BO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "6xBTV4GUPAY8",
-          "url": "https://eju.tv/2026/10/educacion-alista-titulos-digitales-y-gratuitos-para-los-bachilleres-desde-2015/",
-          "canonicalUrl": "https://eju.tv/2026/10/educacion-alista-titulos-digitales-y-gratuitos-para-los-bachilleres-desde-2015/",
-          "title": "Educación alista títulos digitales y gratuitos para los bachilleres desde 2015",
-          "description": null,
-          "source": {
-            "id": "eju",
-            "name": "EJU!"
-          },
-          "sourceCountry": "BO",
-          "language": "es",
-          "publishedAt": "2026-10-07T03:15:07.000Z",
-          "imageUrl": null,
-          "countryCode": "BO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T03:15:07.000Z"
-    },
-    {
-      "id": "cdz1tAgApofj",
-      "representative": {
-        "id": "cdz1tAgApofj",
-        "url": "https://eldeber.com.bo/deportes/messi-despide-argentina-fue-orgullo-grande-defender-esta-camiseta_1791340958",
-        "canonicalUrl": "https://eldeber.com.bo/deportes/messi-despide-argentina-fue-orgullo-grande-defender-esta-camiseta_1791340958",
-        "title": "Messi se despide de Argentina: “Fue un orgullo muy grande defender esta camiseta”",
-        "description": "El ‘10’ habló ante una multitud en el Monumental después de su último partido con la Albiceleste y pidió apoyar a la nueva generación.",
-        "source": {
-          "id": "eldeber",
-          "name": "El Deber"
-        },
-        "sourceCountry": "BO",
-        "language": "es",
-        "publishedAt": "2026-10-07T02:42:38.000Z",
-        "imageUrl": "https://pxcdn.eldeber.com.bo/eldeber/102026/1791340726571.jpg?cw=320&ch=180",
-        "countryCode": "BO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "14Gc4IoGr0kY",
-          "url": "https://eju.tv/2026/10/fue-un-orgullo-muy-grande-para-mi-defender-esta-camiseta-dice-messi-tras-emotiva-despedida/",
-          "canonicalUrl": "https://eju.tv/2026/10/fue-un-orgullo-muy-grande-para-mi-defender-esta-camiseta-dice-messi-tras-emotiva-despedida/",
-          "title": "“Fue un orgullo muy grande para mí defender esta camiseta”, dice Messi tras emotiva despedida",
-          "description": null,
-          "source": {
-            "id": "eju",
-            "name": "EJU!"
-          },
-          "sourceCountry": "BO",
-          "language": "es",
-          "publishedAt": "2026-10-07T02:35:58.000Z",
-          "imageUrl": null,
-          "countryCode": "BO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T02:42:38.000Z"
-    },
-    {
-      "id": "oKO4rA6Q6YJ-",
-      "representative": {
-        "id": "oKO4rA6Q6YJ-",
-        "url": "https://eldeber.com.bo/deportes/gran-premio-integracion-oriente-pone-primera-este-martes_1791376541",
-        "canonicalUrl": "https://eldeber.com.bo/deportes/gran-premio-integracion-oriente-pone-primera-este-martes_1791376541",
-        "title": "El Gran Premio Integración del Oriente pone primera este martes",
-        "description": "La edición 48 de la tradicional competencia comenzará este martes en Cotoca con una especial nocturna de 4,5 kilómetros y se extenderá hasta el sábado.",
-        "source": {
-          "id": "eldeber",
-          "name": "El Deber"
-        },
-        "sourceCountry": "BO",
-        "language": "es",
-        "publishedAt": "2026-10-07T12:35:41.000Z",
-        "imageUrl": "https://pxcdn.eldeber.com.bo/eldeber/102026/1791376448225.jpg?cw=320&ch=180",
+        "publishedAt": "2026-10-06T14:15:24.000Z",
+        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2025/09/07/2025090711265228555.jpg",
         "countryCode": "BO",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:35:41.000Z"
+      "latestPublishedAt": "2026-10-06T14:15:24.000Z"
     },
     {
-      "id": "5-bu5bkPuVTt",
+      "id": "VqzQJWQky0y4",
       "representative": {
-        "id": "5-bu5bkPuVTt",
-        "url": "https://eldeber.com.bo/deportes/guabira-debe-vencer-tigre-esperar-tropiezo-oriente_1791376531",
-        "canonicalUrl": "https://eldeber.com.bo/deportes/guabira-debe-vencer-tigre-esperar-tropiezo-oriente_1791376531",
-        "title": "Guabirá debe vencer al Tigre y esperar un tropiezo de Oriente",
-        "description": "Guabirá recibirá este miércoles a The Strongest, desde las 20:30, en el estadio Gilberto Parada de Montero, con la obligación de ganar y esperar que Oriente Petrolero no derrote a Universitario de Vinto para avanzar a los cuartos de final de la Copa Bolivia.",
-        "source": {
-          "id": "eldeber",
-          "name": "El Deber"
-        },
-        "sourceCountry": "BO",
-        "language": "es",
-        "publishedAt": "2026-10-07T12:35:31.000Z",
-        "imageUrl": "https://pxcdn.eldeber.com.bo/eldeber/102026/1791376510314.jpg?cw=320&ch=180",
-        "countryCode": "BO",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:35:31.000Z"
-    },
-    {
-      "id": "729vPTacnnnP",
-      "representative": {
-        "id": "729vPTacnnnP",
-        "url": "https://eldeber.com.bo/deportes/oriente-todo-nada-cuartos-final_1791376377",
-        "canonicalUrl": "https://eldeber.com.bo/deportes/oriente-todo-nada-cuartos-final_1791376377",
-        "title": "Oriente, a todo o nada por los cuartos de final",
-        "description": "Oriente Petrolero se juega este miércoles su clasificación a los cuartos de final de la Copa Bolivia ante Universitario de Vinto, desde las 20:30, en el estadio Tahuichi. El equipo de Gustavo Florentín necesita ganar para avanzar sin depender de otro resultado.",
-        "source": {
-          "id": "eldeber",
-          "name": "El Deber"
-        },
-        "sourceCountry": "BO",
-        "language": "es",
-        "publishedAt": "2026-10-07T12:32:57.000Z",
-        "imageUrl": "https://pxcdn.eldeber.com.bo/eldeber/102026/1791376347878.jpg?cw=320&ch=180",
-        "countryCode": "BO",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:32:57.000Z"
-    },
-    {
-      "id": "o2xl0IjJYkn_",
-      "representative": {
-        "id": "o2xl0IjJYkn_",
-        "url": "https://www.opinion.com.bo/innovacion-educativa/internacionalizacion-universitaria-como-amplia-formacion-fortalece-empleabilidad/20261007083009997278.html",
-        "canonicalUrl": "https://www.opinion.com.bo/innovacion-educativa/internacionalizacion-universitaria-como-amplia-formacion-fortalece-empleabilidad/20261007083009997278.html",
-        "title": "Internacionalización universitaria: cómo amplía la formación y fortalece la empleabilidad",
-        "description": "La internacionalización universitaria ya no consiste solamente en estudiar un semestre fuera del país. También incluye doble titulación, clases espejo, aulas COIL, masterclass y proyectos colaborativos que permiten contrastar formas de aprender,...",
+        "id": "VqzQJWQky0y4",
+        "url": "https://www.opinion.com.bo/innovacion-educativa/estudiantes-extranjeros-que-eligen-unifranz-cuando-estudiar-tambien-significa-cruzar-fronteras/20261006101441997220.html",
+        "canonicalUrl": "https://www.opinion.com.bo/innovacion-educativa/estudiantes-extranjeros-que-eligen-unifranz-cuando-estudiar-tambien-significa-cruzar-fronteras/20261006101441997220.html",
+        "title": "Estudiantes extranjeros que eligen Unifranz: cuando estudiar también significa cruzar fronteras",
+        "description": "Elegir una carrera universitaria también puede significar decidir en qué país construir el futuro profesional. Para jóvenes de distintos lugares de la región, estudiar Medicina en Bolivia representa la posibilidad de acceder a una formación...",
         "source": {
           "id": "opinionbo",
           "name": "Opinión"
         },
         "sourceCountry": "BO",
         "language": "es",
-        "publishedAt": "2026-10-07T12:30:09.000Z",
-        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2026/10/06/2026100622260125761.jpg",
+        "publishedAt": "2026-10-06T14:14:41.000Z",
+        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2026/10/06/2026100610151997852.jpg",
         "countryCode": "BO",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:30:09.000Z"
+      "latestPublishedAt": "2026-10-06T14:14:41.000Z"
     },
     {
-      "id": "TUIfXp6KnWn1",
+      "id": "B2BjRgqsLdHD",
       "representative": {
-        "id": "TUIfXp6KnWn1",
-        "url": "https://www.opinion.com.bo/innovacion-educativa/unifranz-evoluciona-formacion-universitaria-responder-mercado-laboral-cambio/20261007080003997276.html",
-        "canonicalUrl": "https://www.opinion.com.bo/innovacion-educativa/unifranz-evoluciona-formacion-universitaria-responder-mercado-laboral-cambio/20261007080003997276.html",
-        "title": "Unifranz evoluciona la formación universitaria para responder a un mercado laboral en cambio",
-        "description": "La formación universitaria enfrenta el reto de preparar profesionales para un mercado laboral en transformación. Ingresar al mundo laboral ya no plantea únicamente el desafío de obtener un título. El avance tecnológico, los cambios en las...",
+        "id": "B2BjRgqsLdHD",
+        "url": "https://www.opinion.com.bo/innovacion-educativa/cocinas-cochabamba-abren-estudiantes-convenio-entre-unifranz-aserac/20261006101003997219.html",
+        "canonicalUrl": "https://www.opinion.com.bo/innovacion-educativa/cocinas-cochabamba-abren-estudiantes-convenio-entre-unifranz-aserac/20261006101003997219.html",
+        "title": "Las cocinas de Cochabamba se abren a los estudiantes mediante el convenio entre Unifranz y ASERAC",
+        "description": "Hay un olor que identifica a Cochabamba antes que cualquier otra cosa: el del pique macho recién servido, el chicharrón dorándose o el api humeante en una esquina de mercado. Ese olor también es una economía ya que, detrás de cada plato, hay...",
         "source": {
           "id": "opinionbo",
           "name": "Opinión"
         },
         "sourceCountry": "BO",
         "language": "es",
-        "publishedAt": "2026-10-07T12:00:03.000Z",
-        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2026/10/06/2026100622191293088.jpg",
+        "publishedAt": "2026-10-06T14:10:03.000Z",
+        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2026/10/06/2026100610091215952.jpg",
         "countryCode": "BO",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:00:03.000Z"
+      "latestPublishedAt": "2026-10-06T14:10:03.000Z"
     },
     {
-      "id": "F4J-CJV8-IPM",
+      "id": "Nvtxl1JuOf09",
       "representative": {
-        "id": "F4J-CJV8-IPM",
-        "url": "https://www.eldiario.net/portal/2026/10/07/arranca-bolivia-festijazz-2026-rumbo-a-los-40/",
-        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/07/arranca-bolivia-festijazz-2026-rumbo-a-los-40/",
-        "title": "Arranca Bolivia FestiJazz 2026, rumbo a los 40",
-        "description": "A lo largo de este tiempo, el FestiJazz reúne a grandes músicos nacionales e internacionales, brinda un espacio de encuentro entre artistas, estudiantes y públicos de distintas generaciones. Su permanencia ha acompañado el crecimiento de la escena del jazz en Bolivia, generando oportunidades para…",
+        "id": "Nvtxl1JuOf09",
+        "url": "https://www.eldiario.net/portal/2026/10/06/fbf-demandara-a-gambia-por-danos-y-perjuicios-tras-la-cancelacion-del-amistoso/",
+        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/06/fbf-demandara-a-gambia-por-danos-y-perjuicios-tras-la-cancelacion-del-amistoso/",
+        "title": "FBF demandará a Gambia por daños y perjuicios tras la cancelación del amistoso",
+        "description": "Luego de que se oficializara la suspensión del partido amistoso entre los seleccionados de Bolivia y Gambia, programado para el pasado domingo 4 de octubre en el Estadio Ramón «Tahuichi» Aguilera, la Federación Boliviana de Fútbol (FBF) brindó una conferencia de prensa en la que presentó sus…",
         "source": {
           "id": "eldiariobo",
           "name": "El Diario"
         },
         "sourceCountry": "BO",
         "language": "es",
-        "publishedAt": "2026-10-07T10:21:40.000Z",
+        "publishedAt": "2026-10-06T12:35:04.000Z",
         "imageUrl": null,
         "countryCode": "BO",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:21:40.000Z"
+      "latestPublishedAt": "2026-10-06T12:35:04.000Z"
     },
     {
-      "id": "oe4wbzLcK8A4",
+      "id": "WSrdruaR6Y1m",
       "representative": {
-        "id": "oe4wbzLcK8A4",
-        "url": "https://www.eldiario.net/portal/2026/10/07/requerimiento-de-personal-22/",
-        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/07/requerimiento-de-personal-22/",
-        "title": "REQUERIMIENTO DE PERSONAL",
-        "description": "La entrada REQUERIMIENTO DE PERSONAL se publicó primero en El Diario - Bolivia .",
+        "id": "WSrdruaR6Y1m",
+        "url": "https://www.eldiario.net/portal/2026/10/06/oriente-petrolero-y-guabira-jugaran-en-horario-unificado-este-miercoles/",
+        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/06/oriente-petrolero-y-guabira-jugaran-en-horario-unificado-este-miercoles/",
+        "title": "Oriente Petrolero y Guabirá jugarán en horario unificado este miércoles",
+        "description": "SANTA CRUZ.- La Comisión Organizadora de Competiciones de la Federación Boliviana de Fútbol (FBF) determinó modificar los horarios de los partidos del grupo C de la Copa Bolivia debido a que tres equipos todavía tienen posibilidades de quedarse con el segundo lugar de la serie. De acuerdo con la…",
         "source": {
           "id": "eldiariobo",
           "name": "El Diario"
         },
         "sourceCountry": "BO",
         "language": "es",
-        "publishedAt": "2026-10-07T10:17:41.000Z",
+        "publishedAt": "2026-10-06T12:33:56.000Z",
         "imageUrl": null,
         "countryCode": "BO",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:17:41.000Z"
+      "latestPublishedAt": "2026-10-06T12:33:56.000Z"
     },
     {
-      "id": "ob0mwLXqS9ty",
+      "id": "CuMdQy0y-hZX",
       "representative": {
-        "id": "ob0mwLXqS9ty",
-        "url": "https://www.eldiario.net/portal/2026/10/07/transporte-en-cochabamba-mantiene-pasaje-en-bs-3-2/",
-        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/07/transporte-en-cochabamba-mantiene-pasaje-en-bs-3-2/",
-        "title": "Transporte en Cochabamba mantiene pasaje en Bs 3",
-        "description": "El pasaje del transporte público en Cochabamba se mantiene en Bs 3 y, por el momento, no existe ninguna autorización para modificar la tarifa vigente. La próxima semana se definirá la metodología para realizar un estudio de costos que establecerá si corresponde o no una eventual nivelación del…",
+        "id": "CuMdQy0y-hZX",
+        "url": "https://www.eldiario.net/portal/2026/10/06/messi-le-dice-adios-a-la-albiceleste-en-medio-de-agradecimientos-y-nostalgia/",
+        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/06/messi-le-dice-adios-a-la-albiceleste-en-medio-de-agradecimientos-y-nostalgia/",
+        "title": "Messi le dice adiós a la albiceleste en medio de agradecimientos y nostalgia",
+        "description": "Lionel Messi disputará su último partido con la selección argentina ante Benín en el estadio Monumental este martes 6 de octubre, a las 19:00 (HB). El amistoso marcará el retiro del rosarino del seleccionado después de más de dos décadas y estará acompañado por homenajes, espectáculos musicales y…",
         "source": {
           "id": "eldiariobo",
           "name": "El Diario"
         },
         "sourceCountry": "BO",
         "language": "es",
-        "publishedAt": "2026-10-07T10:16:52.000Z",
+        "publishedAt": "2026-10-06T12:31:45.000Z",
         "imageUrl": null,
         "countryCode": "BO",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:16:52.000Z"
+      "latestPublishedAt": "2026-10-06T12:31:45.000Z"
     },
     {
-      "id": "BHbanlWKCF9W",
+      "id": "_jspz54bRn5o",
       "representative": {
-        "id": "BHbanlWKCF9W",
-        "url": "https://eju.tv/2026/10/sala-ratifica-180-dias-de-detencion-para-cerimedo-y-dispone-que-cumpla-la-medida-en-palmasola/",
-        "canonicalUrl": "https://eju.tv/2026/10/sala-ratifica-180-dias-de-detencion-para-cerimedo-y-dispone-que-cumpla-la-medida-en-palmasola/",
-        "title": "Sala ratifica 180 días de detención para Cerimedo y dispone que cumpla la medida en Palmasola",
-        "description": null,
-        "source": {
-          "id": "eju",
-          "name": "EJU!"
-        },
-        "sourceCountry": "BO",
-        "language": "es",
-        "publishedAt": "2026-10-07T02:53:56.000Z",
-        "imageUrl": null,
-        "countryCode": "BO",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T02:53:56.000Z"
-    },
-    {
-      "id": "FVLxgcblK-uc",
-      "representative": {
-        "id": "FVLxgcblK-uc",
-        "url": "https://eju.tv/2026/10/messi-se-retira-de-argentina-con-doble-asistencia-y-gol-en-triunfo-ante-benin/",
-        "canonicalUrl": "https://eju.tv/2026/10/messi-se-retira-de-argentina-con-doble-asistencia-y-gol-en-triunfo-ante-benin/",
-        "title": "Messi se retira de Argentina con doble asistencia y gol en triunfo ante Benín",
-        "description": null,
-        "source": {
-          "id": "eju",
-          "name": "EJU!"
-        },
-        "sourceCountry": "BO",
-        "language": "es",
-        "publishedAt": "2026-10-07T02:22:11.000Z",
-        "imageUrl": null,
-        "countryCode": "BO",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T02:22:11.000Z"
-    },
-    {
-      "id": "6jVviyAfMseE",
-      "representative": {
-        "id": "6jVviyAfMseE",
-        "url": "https://www.opinion.com.bo/policial/fiscalia-investiga-feminicidio-joven-19-anos-alto/20261006220717997274.html",
-        "canonicalUrl": "https://www.opinion.com.bo/policial/fiscalia-investiga-feminicidio-joven-19-anos-alto/20261006220717997274.html",
-        "title": "Fiscalía investiga feminicidio de una joven de 19 años en El Alto",
-        "description": "La Fiscalía Departamental de La Paz investiga un nuevo hecho de feminicidio registrado en la ciudad de El Alto, donde una joven de 19 años perdió la vida a consecuencia de las agresiones físicas que sufrió por parte de su pareja, informó el...",
+        "id": "_jspz54bRn5o",
+        "url": "https://www.opinion.com.bo/pais/asambleistas-fijan-meta-elegir-fiscal-general-titular-90-dias-interinato/20261006093328997217.html",
+        "canonicalUrl": "https://www.opinion.com.bo/pais/asambleistas-fijan-meta-elegir-fiscal-general-titular-90-dias-interinato/20261006093328997217.html",
+        "title": "Asambleístas se fijan la meta de elegir Fiscal General titular en los 90 días de interinato",
+        "description": "Diputados comprometieron que la Asamblea Legislativa Plurinacional elegirá al Fiscal General del Estado titular dentro de los 90 días de interinato de José Urioste. El diputado Manolo Rojas del PDC afirmó que el periodo de interinato será...",
         "source": {
           "id": "opinionbo",
           "name": "Opinión"
         },
         "sourceCountry": "BO",
         "language": "es",
-        "publishedAt": "2026-10-07T02:07:17.000Z",
-        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2026/10/06/2026100622063838123.jpg",
+        "publishedAt": "2026-10-06T13:33:28.000Z",
+        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2026/10/02/2026100215430787467.jpg",
         "countryCode": "BO",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T02:07:17.000Z"
+      "latestPublishedAt": "2026-10-06T13:33:28.000Z"
     },
     {
-      "id": "VCW4bWOwcq_Q",
+      "id": "WRGFG8GpJb6_",
       "representative": {
-        "id": "VCW4bWOwcq_Q",
-        "url": "https://eldeber.com.bo/economia/dolar-flexible-mantiene-bs-11-97-segundo-dia-consecutivo_1791374103",
-        "canonicalUrl": "https://eldeber.com.bo/economia/dolar-flexible-mantiene-bs-11-97-segundo-dia-consecutivo_1791374103",
-        "title": "El dólar flexible se mantiene en Bs 11,97 por segundo día consecutivo",
-        "description": "En lo que va de octubre, la cotización del dólar osciló entre Bs 11,90 y Bs 12.",
+        "id": "WRGFG8GpJb6_",
+        "url": "https://www.opinion.com.bo/pais/urioste-afirma-que-investigacion-cerimedo-continuara-que-habra-persecucion-politica/20261006092727997216.html",
+        "canonicalUrl": "https://www.opinion.com.bo/pais/urioste-afirma-que-investigacion-cerimedo-continuara-que-habra-persecucion-politica/20261006092727997216.html",
+        "title": "Urioste afirma que la investigación contra Cerimedo continuará y que no habrá persecución política",
+        "description": "El fiscal general del Estado, José Armando Urioste, aseguró que las investigaciones vinculadas al argentino Fernando Cerimedo continuarán y que el Ministerio Público no paralizará los procesos “emblemáticos”. Además, afirmó que durante sus...",
         "source": {
-          "id": "eldeber",
-          "name": "El Deber"
+          "id": "opinionbo",
+          "name": "Opinión"
         },
         "sourceCountry": "BO",
         "language": "es",
-        "publishedAt": "2026-10-07T11:55:03.000Z",
-        "imageUrl": "https://pxcdn.eldeber.com.bo/eldeber/072026/1785168544982.jpeg?cw=320&ch=180",
+        "publishedAt": "2026-10-06T13:27:27.000Z",
+        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2026/10/06/2026100609261287505.jpg",
         "countryCode": "BO",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:55:03.000Z"
+      "latestPublishedAt": "2026-10-06T13:27:27.000Z"
     },
     {
-      "id": "KWTojiG68sl3",
+      "id": "MPesi9SeL0E8",
       "representative": {
-        "id": "KWTojiG68sl3",
-        "url": "https://eldeber.com.bo/santa-cruz/san-jose-chiquitos-vivio-noche-inolvidable-presentacion-oficial-reina-tradicion-2026_1791372962",
-        "canonicalUrl": "https://eldeber.com.bo/santa-cruz/san-jose-chiquitos-vivio-noche-inolvidable-presentacion-oficial-reina-tradicion-2026_1791372962",
-        "title": "San José de Chiquitos vivió una noche inolvidable con la presentación de su Reina de la Tradición",
-        "description": "Entre aplausos y emoción, San José de Chiquitos presentó a su nueva soberana, quien encabezará las celebraciones dedicadas a preservar las tradiciones de esta tierra chiquitana.",
+        "id": "MPesi9SeL0E8",
+        "url": "https://www.opinion.com.bo/pais/paz-anuncia-titulo-gratuito-formato-digital-mas-221000-bachilleres/20261006085635997214.html",
+        "canonicalUrl": "https://www.opinion.com.bo/pais/paz-anuncia-titulo-gratuito-formato-digital-mas-221000-bachilleres/20261006085635997214.html",
+        "title": "Paz anuncia título gratuito y en formato digital para más de 221.000 bachilleres",
+        "description": "Más de 221.000 bachilleres bolivianos recibirán este año, de manera gratuita, su título de bachiller en formato digital, anunció el presidente Rodrigo Paz. La medida permitirá reducir los costos que asumían las familias para obtener, legalizar e...",
         "source": {
-          "id": "eldeber",
-          "name": "El Deber"
+          "id": "opinionbo",
+          "name": "Opinión"
         },
         "sourceCountry": "BO",
         "language": "es",
-        "publishedAt": "2026-10-07T11:36:02.000Z",
-        "imageUrl": "https://pxcdn.eldeber.com.bo/eldeber/102026/1791372732115.jpg?cw=320&ch=180",
+        "publishedAt": "2026-10-06T12:56:35.000Z",
+        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2026/10/06/2026100608560079758.jpg",
         "countryCode": "BO",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:36:02.000Z"
+      "latestPublishedAt": "2026-10-06T12:56:35.000Z"
+    },
+    {
+      "id": "WiWGL98oOT6Y",
+      "representative": {
+        "id": "WiWGL98oOT6Y",
+        "url": "https://www.opinion.com.bo/mundo/pedro-sanchez-adelanta-elecciones-espana-fracaso-medidas-enfrentar-crisis-vivienda/20261006085242997212.html",
+        "canonicalUrl": "https://www.opinion.com.bo/mundo/pedro-sanchez-adelanta-elecciones-espana-fracaso-medidas-enfrentar-crisis-vivienda/20261006085242997212.html",
+        "title": "Pedro Sánchez adelanta elecciones en España tras fracaso de medidas para enfrentar crisis de vivienda",
+        "description": "El presidente español, Pedro Sánchez, anunció este lunes que se adelantarán las elecciones generales para el 29 de noviembre. La decisión fue tomada luego del fracaso de sus medidas ante el congreso para afrontar la crisis de vivienda que se vive...",
+        "source": {
+          "id": "opinionbo",
+          "name": "Opinión"
+        },
+        "sourceCountry": "BO",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:52:42.000Z",
+        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2026/10/06/2026100608522289478.jpg",
+        "countryCode": "BO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:52:42.000Z"
+    },
+    {
+      "id": "WZXBHD877POQ",
+      "representative": {
+        "id": "WZXBHD877POQ",
+        "url": "https://www.eldiario.net/portal/2026/10/06/brote-de-sarampion-supera-1-000-casos-en-pensilvania/",
+        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/06/brote-de-sarampion-supera-1-000-casos-en-pensilvania/",
+        "title": "Brote de sarampión supera 1.000 casos en Pensilvania",
+        "description": "Las autoridades en Pensilvania informaron ayer que el estado ha superado los 1.000 casos de sarampión este año, lo que la convierte en el mayor brote estatal en más de tres décadas. Estados Unidos está atravesando su peor año de sarampión desde 1991, con casi 3.900 casos reportados, según los…",
+        "source": {
+          "id": "eldiariobo",
+          "name": "El Diario"
+        },
+        "sourceCountry": "BO",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:26:57.000Z",
+        "imageUrl": null,
+        "countryCode": "BO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:26:57.000Z"
+    },
+    {
+      "id": "kWo-HT8-LLOo",
+      "representative": {
+        "id": "kWo-HT8-LLOo",
+        "url": "https://www.eldiario.net/portal/2026/10/06/presidente-de-espana-adelanta-comicios-para-29-de-noviembre-2/",
+        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/06/presidente-de-espana-adelanta-comicios-para-29-de-noviembre-2/",
+        "title": "Presidente de España adelanta comicios para 29 de noviembre",
+        "description": "El presidente del Gobierno de España, Pedro Sánchez, anunció ayer la disolución de las Cortes y el adelanto de las elecciones generales al domingo 29 de noviembre. El presidente del Gobierno, Pedro Sánchez, anunció ayer la convocatoria de elecciones generales anticipadas para el próximo 29 de…",
+        "source": {
+          "id": "eldiariobo",
+          "name": "El Diario"
+        },
+        "sourceCountry": "BO",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:25:52.000Z",
+        "imageUrl": null,
+        "countryCode": "BO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:25:52.000Z"
+    },
+    {
+      "id": "-NLHW81xQGSj",
+      "representative": {
+        "id": "-NLHW81xQGSj",
+        "url": "https://www.eldiario.net/portal/2026/10/06/roban-libro-con-cubierta-hecha-por-dali-de-museo/",
+        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/06/roban-libro-con-cubierta-hecha-por-dali-de-museo/",
+        "title": "Roban libro con cubierta hecha por Dali de museo",
+        "description": "Un valioso libro que reúne obras de diversos artistas y cuya cubierta había sido concebida por el español Salvador Dalí fue robado en un museo de la localidad de Issoire, en la Auvernia francesa, en el centro del país, señalaron ayer medios locales. La Fiscalía de Clermont Ferrand (centro de…",
+        "source": {
+          "id": "eldiariobo",
+          "name": "El Diario"
+        },
+        "sourceCountry": "BO",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:24:56.000Z",
+        "imageUrl": null,
+        "countryCode": "BO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:24:56.000Z"
+    },
+    {
+      "id": "2JEbthnGcXDk",
+      "representative": {
+        "id": "2JEbthnGcXDk",
+        "url": "https://www.eldiario.net/portal/2026/10/06/aislan-a-200-personas-tras-deceso-de-una-investigadora/",
+        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/06/aislan-a-200-personas-tras-deceso-de-una-investigadora/",
+        "title": "Aíslan a 200 personas tras deceso de una investigadora",
+        "description": "El Servicio Federal de Supervisión de la Protección y el Bienestar del Consumidor de Rusia (Rospotrebnadzor) y las autoridades de la región de Irkutsk pusieron bajo observación médica a cerca de 200 personas esta semana tras el fallecimiento de una investigadora de 28 años por una «neumonía de…",
+        "source": {
+          "id": "eldiariobo",
+          "name": "El Diario"
+        },
+        "sourceCountry": "BO",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:23:46.000Z",
+        "imageUrl": null,
+        "countryCode": "BO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:23:46.000Z"
+    },
+    {
+      "id": "ks86iy6KYDEq",
+      "representative": {
+        "id": "ks86iy6KYDEq",
+        "url": "https://www.eldiario.net/portal/2026/10/06/zelenski-acusa-a-rusia-de-ataque-a-un-carguero/",
+        "canonicalUrl": "https://www.eldiario.net/portal/2026/10/06/zelenski-acusa-a-rusia-de-ataque-a-un-carguero/",
+        "title": "Zelenski acusa a Rusia de ataque a un carguero",
+        "description": "El presidente de Ucrania, Volodimir Zelenski, responsabilizó a Rusia del ataque con drones que dejó dos muertos en un carguero que transportaba cereales frente a la costa de Rumania en el mar Negro, y acusó a Moscú de «elegir el terror y hundir buques civiles». «Un terrible ataque de dos drones…",
+        "source": {
+          "id": "eldiariobo",
+          "name": "El Diario"
+        },
+        "sourceCountry": "BO",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:22:20.000Z",
+        "imageUrl": null,
+        "countryCode": "BO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:22:20.000Z"
     }
   ]
 }

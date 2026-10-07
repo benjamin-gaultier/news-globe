@@ -2,688 +2,385 @@
   "schemaVersion": 1,
   "countryCode": "ME",
   "countryName": "Montenegro",
-  "updatedAt": "2026-10-07T12:57:09.368Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
-      "id": "w52sNrrXX4Sr",
+      "id": "ZniRQX9k7Atu",
       "representative": {
-        "id": "w52sNrrXX4Sr",
-        "url": "https://mina.news/article/ustavne-reforme-ne-smiju-slabiti-nezavisnost-institucija",
-        "canonicalUrl": "https://mina.news/article/ustavne-reforme-ne-smiju-slabiti-nezavisnost-institucija",
-        "title": "Ustavne reforme ne smiju slabiti nezavisnost institucija",
-        "description": "Ustavne promjene koje Crnu Goru očekuju na putu ka Evropskoj uniji (EU) moraju očuvati nezavisnost ustavnih institucija, podjelu vlasti, sigurnost sudijskog mandata i lični integritet sudija, zaključe...",
+        "id": "ZniRQX9k7Atu",
+        "url": "https://www.vijesti.me/vijesti/ekonomija/830120/epcg-i-ebrd-jacaju-partnerstvo-za-nove-investicije",
+        "canonicalUrl": "https://www.vijesti.me/vijesti/ekonomija/830120/epcg-i-ebrd-jacaju-partnerstvo-za-nove-investicije",
+        "title": "EPCG i EBRD jačaju partnerstvo za nove investicije",
+        "description": "Generalni direktor EPCG, Zdravko Dragaš, razgovarao je sa šeficom EBRD-a za Crnu Goru, Ekaterinom Solovovom, o novim modelima saradnje i mogućnostima podrške razvojnim projektima EPCG, u okviru intenzivnog investicionog ciklusa kompanije",
         "source": {
-          "id": "mina",
-          "name": "MINA"
+          "id": "vijesti",
+          "name": "Vijesti"
         },
         "sourceCountry": "ME",
         "language": "sr",
-        "publishedAt": "2026-10-07T12:34:31.000Z",
+        "publishedAt": "2026-10-06T15:23:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2026/10/06/17/5764322_agreg_ff.jpg",
+        "countryCode": "ME",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "0OpWkOXAzuuL",
+          "url": "https://www.cdm.me/ekonomija/epcg-i-ebrd-jacaju-saradnju-fokus-na-nove-kapacitete-i-energetsku-sigurnost/",
+          "canonicalUrl": "https://www.cdm.me/ekonomija/epcg-i-ebrd-jacaju-saradnju-fokus-na-nove-kapacitete-i-energetsku-sigurnost/",
+          "title": "EPCG i EBRD jačaju saradnju: Fokus na nove kapacitete i energetsku sigurnost",
+          "description": "Generalni direktor Elektroprivrede Crne Gore (EPCG) Zdravko Dragaš razgovarao je sa šeficom Evropske banke za obnovu i razvoj (EBRD) za Crnu Goru Ekaterinom Solovovom o novim modelima saradnje i mogućnostima podrške razvojnim projektima EPCG, u okviru intenzivnog investicionog ciklusa Kompanije…",
+          "source": {
+            "id": "cdm",
+            "name": "CdM"
+          },
+          "sourceCountry": "ME",
+          "language": "sr",
+          "publishedAt": "2026-10-06T13:45:33.000Z",
+          "imageUrl": null,
+          "countryCode": "ME",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:23:00.000Z"
+    },
+    {
+      "id": "e-BG35y2r5Io",
+      "representative": {
+        "id": "e-BG35y2r5Io",
+        "url": "https://www.vijesti.me/vijesti/crna-hronika/830126/hvalio-se-brzom-voznjom-na-instagramu-policija-ga-uhapsila",
+        "canonicalUrl": "https://www.vijesti.me/vijesti/crna-hronika/830126/hvalio-se-brzom-voznjom-na-instagramu-policija-ga-uhapsila",
+        "title": "Hvalio se brzom vožnjom na Instagramu, policija ga uhapsila",
+        "description": "N.K. (22) iz Tuzi vozio magistralnim putem Podgorica–Tuzi brzinom od 157 kilometara na sat.",
+        "source": {
+          "id": "vijesti",
+          "name": "Vijesti"
+        },
+        "sourceCountry": "ME",
+        "language": "sr",
+        "publishedAt": "2026-10-06T15:49:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2025/12/13/16/5692015_shutterstock-2454008595_ff.jpg",
+        "countryCode": "ME",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:49:00.000Z"
+    },
+    {
+      "id": "ivweGy7fMMHE",
+      "representative": {
+        "id": "ivweGy7fMMHE",
+        "url": "https://www.vijesti.me/sport/rukomet/830125/buducnost-i-mornar-do-pobjeda-u-posljednjih-10-sekundi-repriza-superkupa-u-mojkovicu",
+        "canonicalUrl": "https://www.vijesti.me/sport/rukomet/830125/buducnost-i-mornar-do-pobjeda-u-posljednjih-10-sekundi-repriza-superkupa-u-mojkovicu",
+        "title": "Budućnost i Mornar do pobjeda u posljednjih 10 sekundi, repriza...",
+        "description": "Odigrano drugo kolo Prve rukometne lige Crne Gore",
+        "source": {
+          "id": "vijesti",
+          "name": "Vijesti"
+        },
+        "sourceCountry": "ME",
+        "language": "sr",
+        "publishedAt": "2026-10-06T15:48:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2026/10/06/17/5764326_milo-sofranac_ff.jpg",
+        "countryCode": "ME",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:48:00.000Z"
+    },
+    {
+      "id": "EvVaadQlkK3q",
+      "representative": {
+        "id": "EvVaadQlkK3q",
+        "url": "https://www.vijesti.me/vijesti/crna-hronika/830124/uhapsen-drzavljanin-bih-kojeg-potrazuje-hrvatska-odredjen-mu-ekstradicioni-pritvor",
+        "canonicalUrl": "https://www.vijesti.me/vijesti/crna-hronika/830124/uhapsen-drzavljanin-bih-kojeg-potrazuje-hrvatska-odredjen-mu-ekstradicioni-pritvor",
+        "title": "Uhapšen državljanin BiH kojeg potražuje Hrvatska, određen mu...",
+        "description": "E.K. je lociran nakon razmjene operativnih informacija podgoričke policije i NCB Interpola Podgorica, a potom sproveden pred sudiju za istragu Višeg suda u Podgorici",
+        "source": {
+          "id": "vijesti",
+          "name": "Vijesti"
+        },
+        "sourceCountry": "ME",
+        "language": "sr",
+        "publishedAt": "2026-10-06T15:45:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2026/09/14/09/5757146_shutterstock-2431275751_ff.jpg",
+        "countryCode": "ME",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:45:00.000Z"
+    },
+    {
+      "id": "B-nnVFtUACXF",
+      "representative": {
+        "id": "B-nnVFtUACXF",
+        "url": "https://www.cdm.me/kultura/komuna-objavila-29-knjigu-ruke-pomirenja-zlatka-v-zlaticanina/",
+        "canonicalUrl": "https://www.cdm.me/kultura/komuna-objavila-29-knjigu-ruke-pomirenja-zlatka-v-zlaticanina/",
+        "title": "Komuna objavila 29. knjigu – “Ruke pomirenja” Zlatka V. Zlatičanina",
+        "description": "U izdanju časopisa Komun@ upravo je izašla iz štampe 29. knjiga ovog izdavača – “Ruke pomirenja”, autora Zlatka V. Zlatičanina, koji je do sada izdao šesnaest zbirki poezije. “U ovoj zbirci poezije autor otkriva upravo svoja tajna osjećanja srce i duše, duboko misaonom poezijom, jer on je…",
+        "source": {
+          "id": "cdm",
+          "name": "CdM"
+        },
+        "sourceCountry": "ME",
+        "language": "sr",
+        "publishedAt": "2026-10-06T14:25:58.000Z",
         "imageUrl": null,
         "countryCode": "ME",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "hZitjgy15sAg",
-          "url": "https://www.aktuelno.me/clanak/evropski-pravosudni-lideri-iz-tivta-ustavne-reforme-ne-smiju-slabiti-nezavisnost-institucija",
-          "canonicalUrl": "https://www.aktuelno.me/clanak/evropski-pravosudni-lideri-iz-tivta-ustavne-reforme-ne-smiju-slabiti-nezavisnost-institucija",
-          "title": "Evropski pravosudni lideri iz Tivta: Ustavne reforme ne smiju slabiti nezavisnost institucija",
-          "description": "Predsjednici, potpredsjednici i sudije ustavnih i najviših sudova evropskih država, predstavnici Evropskog suda za ljudska prava, Suda pravde Evropske unije i Venecijanske komisije saglasili su se da evropski put zahtijeva sposobnost ustavnog sistema da se mijenja, ali istovremeno i disciplinu…",
-          "source": {
-            "id": "aktuelno",
-            "name": "Aktuelno"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T12:24:03.000Z",
-          "imageUrl": "https://storage.medialib.dev/media/aktuelno/2026/10/07/1791375328zshdr6cuay2u0arn-i_1118x745.jpg",
-          "countryCode": "ME",
-          "regionCode": null
-        },
-        {
-          "id": "PVU0hihF1Xz3",
-          "url": "https://borba.me/evropski-pravosudni-lideri-iz-tivta-ustavne-reforme-ne-smiju-slabiti-nezavisnost-institucija-foto/",
-          "canonicalUrl": "https://borba.me/evropski-pravosudni-lideri-iz-tivta-ustavne-reforme-ne-smiju-slabiti-nezavisnost-institucija-foto/",
-          "title": "Evropski pravosudni lideri iz Tivta: Ustavne reforme ne smiju slabiti nezavisnost institucija (FOTO)",
-          "description": "Ustavne promjene koje Crnu Goru očekuju na putu ka Evropskoj uniji moraju očuvati nezavisnost ustavnih institucija, podjelu vlasti, sigurnost sudijskog mandata i lični integritet sudija, jedan je od ključnih zaključaka međunarodne konferencije „O Ustavu, državi i demokratiji“, koju su u Tivtu…",
-          "source": {
-            "id": "borba",
-            "name": "Borba"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T12:09:04.000Z",
-          "imageUrl": "https://borba.me/wp-content/uploads/2026/10/Medjunarodna-ustavna-konf-1-foto-Ustavni-sud.jpg",
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-07T12:34:31.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:25:58.000Z"
     },
     {
-      "id": "zy928aTFZs0N",
+      "id": "gvWy8JAyBX6G",
       "representative": {
-        "id": "zy928aTFZs0N",
-        "url": "https://www.vijesti.me/vijesti/ekonomija/830254/sahmanovic-crna-gora-ulazi-u-novi-investicioni-ciklus",
-        "canonicalUrl": "https://www.vijesti.me/vijesti/ekonomija/830254/sahmanovic-crna-gora-ulazi-u-novi-investicioni-ciklus",
-        "title": "Šahmanović: Crna Gora ulazi u novi investicioni ciklus",
-        "description": "Ministar je najavio nastavak rada na ubrzavanju razvoja obnovljivih izvora, aukcijama za nove kapacitete i pripremi postupka za izbor strateškog partnera za razvoj baterijskih sistema za skladištenje električne energije.",
+        "id": "gvWy8JAyBX6G",
+        "url": "https://www.cdm.me/zabava/showbiz/dzesika-simpson-konacno-pokazala-novog-momka-mjesecima-su-krili-vezu/",
+        "canonicalUrl": "https://www.cdm.me/zabava/showbiz/dzesika-simpson-konacno-pokazala-novog-momka-mjesecima-su-krili-vezu/",
+        "title": "Džesika Simpson konačno pokazala novog momka: Mjesecima su krili vezu",
+        "description": "Džesika Simpson prvi put je javno “pokazala” momka, muzičara Tomasa Ajzenhuda, šest mjeseci nakon što su se pojavile glasine da su u vezi. Par je tokom prošlog vikenda prvi put viđen zajedno, u parku u Albukerkiju. Prema fotografijama koje je objavio TMZ, Simpson i Ajzenhud prošetali su parkom oko…",
         "source": {
-          "id": "vijesti",
-          "name": "Vijesti"
+          "id": "cdm",
+          "name": "CdM"
         },
         "sourceCountry": "ME",
         "language": "sr",
-        "publishedAt": "2026-10-07T12:28:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2026/10/07/14/5764509_trghtrg_ff.jpg",
-        "countryCode": "ME",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "nINgRT1-bswt",
-          "url": "https://mina.news/article/%C5%A1ahmanovi%C4%87-crna-gora-ulazi-u-novi-investicioni-ciklus",
-          "canonicalUrl": "https://mina.news/article/%C5%A1ahmanovi%C4%87-crna-gora-ulazi-u-novi-investicioni-ciklus",
-          "title": "Šahmanović: Crna Gora ulazi u novi investicioni ciklus",
-          "description": "Budva, (MINA-BUSINESS) – Crna Gora je ušla u fazu u kojoj se energetska politika sve više mjeri konkretnim rezultatima, završenim projektima, novim proizvodnim kapacitetima, snažnijom infrastrukturom...",
-          "source": {
-            "id": "mina",
-            "name": "MINA"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T12:20:13.000Z",
-          "imageUrl": null,
-          "countryCode": "ME",
-          "regionCode": null
-        },
-        {
-          "id": "Qo9pQ9d1QIv0",
-          "url": "https://www.aktuelno.me/clanak/sahmanovic-od-potencijala-do-konkretnih-projekata-crna-gora-ulazi-u-novi-investicioni-ciklus",
-          "canonicalUrl": "https://www.aktuelno.me/clanak/sahmanovic-od-potencijala-do-konkretnih-projekata-crna-gora-ulazi-u-novi-investicioni-ciklus",
-          "title": "Šahmanović: Od potencijala do konkretnih projekata – Crna Gora ulazi u novi investicioni ciklus",
-          "description": "„Dugo smo govorili o potencijalu Crne Gore. Danas želimo da govorimo o rezultatima, o projektima koji su završeni, investicijama koje su počele i sistemu koji gradimo da bismo mogli da realizujemo još veće projekte“, kazao je Šahmanović",
-          "source": {
-            "id": "aktuelno",
-            "name": "Aktuelno"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T12:13:03.000Z",
-          "imageUrl": "https://storage.medialib.dev/media/aktuelno/2026/10/07/1791375016uyj9zhgtjcx6sbed-i_1118x745.jpg",
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-07T12:28:00.000Z"
-    },
-    {
-      "id": "S1HTVDsj-bwC",
-      "representative": {
-        "id": "S1HTVDsj-bwC",
-        "url": "https://www.vijesti.me/vijesti/drustvo/830226/milatovic-kvalitetna-zdravstvena-zastita-mora-biti-jednako-dostupna-u-svim-djelovima-crne-gore",
-        "canonicalUrl": "https://www.vijesti.me/vijesti/drustvo/830226/milatovic-kvalitetna-zdravstvena-zastita-mora-biti-jednako-dostupna-u-svim-djelovima-crne-gore",
-        "title": "Milatović: Kvalitetna zdravstvena zaštita mora biti jednako...",
-        "description": "Šef države je, kako je saopšteno iz njegovog kabineta, obišao KBC Berane i sa upravom te ustanove razgovarao o unapređenju zdravstvene zaštite na sjeveru, modernizaciji opreme i infrastrukture i stvaranju boljih uslova za rad zdravstvenih radnika",
-        "source": {
-          "id": "vijesti",
-          "name": "Vijesti"
-        },
-        "sourceCountry": "ME",
-        "language": "sr",
-        "publishedAt": "2026-10-07T10:01:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2026/10/07/12/5764464_rgagae_ff.jpg",
-        "countryCode": "ME",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "PSHYtyxnMH00",
-          "url": "https://mina.news/article/kvalitetna-zdravstvena-za%C5%A1tita-mora-biti-jednako-dostupna-u-svim-djelovima-crne-gore",
-          "canonicalUrl": "https://mina.news/article/kvalitetna-zdravstvena-za%C5%A1tita-mora-biti-jednako-dostupna-u-svim-djelovima-crne-gore",
-          "title": "Milatović: Kvalitetna zdravstvena zaštita mora biti jednako dostupna u svim djelovima Crne Gore",
-          "description": "Kvalitetna i pravovremena zdravstvena zaštita mora biti jednako dostupna građanima u svim djelovima Crne Gore, poručio je predsjednik države Jakov Mičatović, ističući da ulaganje u Kliničko-bolnički c...",
-          "source": {
-            "id": "mina",
-            "name": "MINA"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T09:50:43.000Z",
-          "imageUrl": null,
-          "countryCode": "ME",
-          "regionCode": null
-        },
-        {
-          "id": "H0a0K98rwaxG",
-          "url": "https://www.aktuelno.me/clanak/milatovic-u-kbc-berane-kvalitetna-zdravstvena-zastita-mora-biti-jednako-dostupna-u-svim-djelovima-crne-gore7",
-          "canonicalUrl": "https://www.aktuelno.me/clanak/milatovic-u-kbc-berane-kvalitetna-zdravstvena-zastita-mora-biti-jednako-dostupna-u-svim-djelovima-crne-gore7",
-          "title": "Milatović u KBC Berane: Kvalitetna zdravstvena zaštita mora biti jednako dostupna u svim djelovima Crne Gore",
-          "description": "Kako je saopšteno iz Kancelarije za odnose sa javnošću Predsjednika, tokom posjete razgovarano je o daljem unapređenju zdravstvene zaštite na sjeveru, modernizaciji opreme i infrastrukture i stvaranju boljih uslova za rad zdravstvenih radnika",
-          "source": {
-            "id": "aktuelno",
-            "name": "Aktuelno"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T09:33:35.000Z",
-          "imageUrl": "https://storage.medialib.dev/media/aktuelno/2026/10/07/1791365180d5zosqeesmucogca-i_1118x745.jpg",
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-07T10:01:00.000Z"
-    },
-    {
-      "id": "8_HzAjU3UVte",
-      "representative": {
-        "id": "8_HzAjU3UVte",
-        "url": "https://www.vijesti.me/sport/fudbal/830232/crna-gora-napredovala-na-fifinoj-rang-listi",
-        "canonicalUrl": "https://www.vijesti.me/sport/fudbal/830232/crna-gora-napredovala-na-fifinoj-rang-listi",
-        "title": "Crna Gora napredovala na Fifinoj rang listi",
-        "description": "\"Hrabri sokoli\" se nalaze na 79. mjestu",
-        "source": {
-          "id": "vijesti",
-          "name": "Vijesti"
-        },
-        "sourceCountry": "ME",
-        "language": "sr",
-        "publishedAt": "2026-10-07T10:48:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2026/10/02/20/5763138_latvija-mne--43_ff.jpg",
-        "countryCode": "ME",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "IjAlFrjp2BWn",
-          "url": "https://www.aktuelno.me/clanak/crna-gora-napredovala-na-rejting-listi-fifa",
-          "canonicalUrl": "https://www.aktuelno.me/clanak/crna-gora-napredovala-na-rejting-listi-fifa",
-          "title": "Crna Gora napredovala na rejting listi FIFA",
-          "description": "Nakon višemjesečnog pada rejtinga, fudbalska reprezentacija Crne Gore počela je posljednje vrijeme da popravlja pozicije i sada se nalazi na 79. poziciji na novoj rang listi FIFA",
-          "source": {
-            "id": "aktuelno",
-            "name": "Aktuelno"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T12:37:50.000Z",
-          "imageUrl": "https://storage.medialib.dev/media/aktuelno/2026/10/07/17913765528podjntv3zrzvi8p-i_1118x745.jpg",
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T12:37:50.000Z"
-    },
-    {
-      "id": "sxZfKhXyJTQq",
-      "representative": {
-        "id": "sxZfKhXyJTQq",
-        "url": "https://mina.news/article/otvorene-prijave-za-digitalni-samit-zapadnog-balkana-u-herceg-novom",
-        "canonicalUrl": "https://mina.news/article/otvorene-prijave-za-digitalni-samit-zapadnog-balkana-u-herceg-novom",
-        "title": "Otvorene prijave za Digitalni samit Zapadnog Balkana u Herceg Novom",
-        "description": "Podgorica, (MINA-BUSINESS) - Registracija za učešće na osmom Digitalnom samitu Zapadnog Balkana, koji Ministarstvo javne uprave organizuje naredne sedmice u Herceg Novom, je otvorena.",
-        "source": {
-          "id": "mina",
-          "name": "MINA"
-        },
-        "sourceCountry": "ME",
-        "language": "sr",
-        "publishedAt": "2026-10-07T07:35:50.000Z",
+        "publishedAt": "2026-10-06T14:25:51.000Z",
         "imageUrl": null,
         "countryCode": "ME",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "b92LS3eXfhuW",
-          "url": "https://borba.me/digitalni-samit-zapadnog-balkana-u-herceg-novom/",
-          "canonicalUrl": "https://borba.me/digitalni-samit-zapadnog-balkana-u-herceg-novom/",
-          "title": "Digitalni samit Zapadnog Balkana u Herceg Novom",
-          "description": "Ministarstvo javne uprave Crne Gore će, od 12. do 14. oktobra, biti domaćin osmog Digitalnog samita Zapadnog Balkana, koji će biti održan u rizortu One&Only Portonovi u Herceg Novom. Samit, koji će biti održan pod sloganom „Gradimo digitalne mostove ka budućnosti“, okupiće više od 150 učesnika iz…",
-          "source": {
-            "id": "borba",
-            "name": "Borba"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T12:26:43.000Z",
-          "imageUrl": "https://borba.me/wp-content/uploads/2025/10/herceg-novi.jpg",
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T12:26:43.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:25:51.000Z"
     },
     {
-      "id": "WzuTN_LyXUqq",
+      "id": "0P9l0Q0BNiFO",
       "representative": {
-        "id": "WzuTN_LyXUqq",
-        "url": "https://www.vijesti.me/vijesti/drustvo/830249/podgoricka-hitna-pomoc-dobila-prvi-rendgen-aparat",
-        "canonicalUrl": "https://www.vijesti.me/vijesti/drustvo/830249/podgoricka-hitna-pomoc-dobila-prvi-rendgen-aparat",
-        "title": "Podgorička Hitna pomoć dobila prvi rendgen aparat",
-        "description": "U saopštenju se navodi da je kabinet za RTG otvorio direktor ZHMP-a Vuk Niković, u prisustvu ministra zdravlja Vojislava Šimuna i predstavnika zdravstvenih institucija",
+        "id": "0P9l0Q0BNiFO",
+        "url": "https://www.cdm.me/ekonomija/ckb-prva-u-crnoj-gori-omogucila-onlajn-otvaranje-racuna/",
+        "canonicalUrl": "https://www.cdm.me/ekonomija/ckb-prva-u-crnoj-gori-omogucila-onlajn-otvaranje-racuna/",
+        "title": "CKB prva u Crnoj Gori omogućila onlajn otvaranje računa",
+        "description": "Neka ti gužva ne poremeti planove! CKB je prva banka na crnogorskom tržištu koja je omogućila potpuno onlajn otvaranje računa. Novi klijenti sada račun otvaraju gdje god da se nalaze i onda kada im odgovara, bez odlaska u filijalu. Proces se završava preko CKB GO aplikacije, u nekoliko…",
         "source": {
-          "id": "vijesti",
-          "name": "Vijesti"
+          "id": "cdm",
+          "name": "CdM"
         },
         "sourceCountry": "ME",
         "language": "sr",
-        "publishedAt": "2026-10-07T11:59:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2026/10/07/14/5764502_10_ff.jpg",
-        "countryCode": "ME",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "z0qhmpTN_BNe",
-          "url": "https://mina.news/article/podgori%C4%8Dka-hitna-pomo%C4%87-dobila-prvi-rendgen-aparat",
-          "canonicalUrl": "https://mina.news/article/podgori%C4%8Dka-hitna-pomo%C4%87-dobila-prvi-rendgen-aparat",
-          "title": "Podgorička Hitna pomoć dobila prvi rendgen aparat",
-          "description": "Zavod za hitnu medicinsku pomoć (ZHMP) u Podgorici dobio je prvi rendgen aparat, čime će, kako je saopšteno iz te zdravstvene ustanove, ljekarima biti omogućena efikasnija dijagnostika i dalje liječen...",
-          "source": {
-            "id": "mina",
-            "name": "MINA"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T11:50:06.000Z",
-          "imageUrl": null,
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:59:00.000Z"
-    },
-    {
-      "id": "GkxeEq0ZrCEe",
-      "representative": {
-        "id": "GkxeEq0ZrCEe",
-        "url": "https://www.vijesti.me/vijesti/ekonomija/830248/otvorena-kuca-poljoprivrede-u-pljevljima",
-        "canonicalUrl": "https://www.vijesti.me/vijesti/ekonomija/830248/otvorena-kuca-poljoprivrede-u-pljevljima",
-        "title": "Otvorena Kuća poljoprivrede u Pljevljima",
-        "description": "Taj savremeni objekat, kako je saopšteno iz Ministarstva, namijenjen je pružanju kvalitetnije i dostupnije podrške poljoprivrednim proizvođačima i stočarima tog kraja",
-        "source": {
-          "id": "vijesti",
-          "name": "Vijesti"
-        },
-        "sourceCountry": "ME",
-        "language": "sr",
-        "publishedAt": "2026-10-07T11:56:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2026/10/07/13/5764501_55574995410-252b3ba2f2-k_ff.jpg",
-        "countryCode": "ME",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "7k6wqZKlBh1l",
-          "url": "https://mina.news/article/otvorena-ku%C4%87a-poljoprivrede-u-pljevljima",
-          "canonicalUrl": "https://mina.news/article/otvorena-ku%C4%87a-poljoprivrede-u-pljevljima",
-          "title": "Otvorena Kuća poljoprivrede u Pljevljima",
-          "description": "Podgorica, (MINA-BUSINESS) – Kuća poljoprivrede u Pljevljima, koja je danas otvorena, biće mjesto na kojem će proizvođači moći da dobiju sve potrebne informacije, savjete i podršku za ostvarivanje svo...",
-          "source": {
-            "id": "mina",
-            "name": "MINA"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T11:45:51.000Z",
-          "imageUrl": null,
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:56:00.000Z"
-    },
-    {
-      "id": "T2r_EfV9Xcyi",
-      "representative": {
-        "id": "T2r_EfV9Xcyi",
-        "url": "https://www.vijesti.me/sport/vaterpolo/830247/buducnost-one-od-petka-domacin-turnira-kvalifikacionog-turnira-za-plasman-u-evrokup",
-        "canonicalUrl": "https://www.vijesti.me/sport/vaterpolo/830247/buducnost-one-od-petka-domacin-turnira-kvalifikacionog-turnira-za-plasman-u-evrokup",
-        "title": "Budućnost One od petka domaćin turnira kvalifikacionog turnira za...",
-        "description": "Budućnost će na startu turnira, u petak u 20 sati, igrati protiv BVSC Vizilabda",
-        "source": {
-          "id": "vijesti",
-          "name": "Vijesti"
-        },
-        "sourceCountry": "ME",
-        "language": "sr",
-        "publishedAt": "2026-10-07T11:56:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2026/10/07/13/5764491_untitled_ff.jpg",
-        "countryCode": "ME",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "dSJJNxkSMXEt",
-          "url": "https://mina.news/article/budu%C4%87nost-one-od-petka-doma%C4%87in-turnira",
-          "canonicalUrl": "https://mina.news/article/budu%C4%87nost-one-od-petka-doma%C4%87in-turnira",
-          "title": "Budućnost One od petka domaćin turnira",
-          "description": "Podgorica, (MINA) - Vaterpolisti Budućnosti od petka do nedjelje biće domaćini kvalifikacionog turnira za plasman u Eurokup. Na turniru Grupe E, osim Budućnosti ONE, igraće j...",
-          "source": {
-            "id": "mina",
-            "name": "MINA"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T10:51:20.000Z",
-          "imageUrl": null,
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:56:00.000Z"
-    },
-    {
-      "id": "-JplxVR-ZOC6",
-      "representative": {
-        "id": "-JplxVR-ZOC6",
-        "url": "https://www.vijesti.me/vijesti/ekonomija/830246/ministarstvo-rada-crna-gora-svjetski-dan-dostojanstvenog-rada-docekuje-spremna-za-zatvaranje-poglavlja-19",
-        "canonicalUrl": "https://www.vijesti.me/vijesti/ekonomija/830246/ministarstvo-rada-crna-gora-svjetski-dan-dostojanstvenog-rada-docekuje-spremna-za-zatvaranje-poglavlja-19",
-        "title": "Ministarstvo rada: Crna Gora Svjetski dan dostojanstvenog rada...",
-        "description": "Izmjenama Zakona o radu ojačana prava zaposlenih i uvedeni evropski standardi, navodi se u saopštenju",
-        "source": {
-          "id": "vijesti",
-          "name": "Vijesti"
-        },
-        "sourceCountry": "ME",
-        "language": "sr",
-        "publishedAt": "2026-10-07T11:51:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2022/05/01/10/5408049_shutterstock-732352393_ff.jpg",
-        "countryCode": "ME",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "z5yPysteCXw9",
-          "url": "https://mina.news/article/crna-gora-svjetski-dan-dostojanstvenog-rada-do%C4%8Dekuje-spremna-za-zatvaranje-poglavlja-19",
-          "canonicalUrl": "https://mina.news/article/crna-gora-svjetski-dan-dostojanstvenog-rada-do%C4%8Dekuje-spremna-za-zatvaranje-poglavlja-19",
-          "title": "Crna Gora Svjetski dan dostojanstvenog rada dočekuje spremna za zatvaranje Poglavlja 19",
-          "description": "Podgorica, (MINA-BUSINESS) – Crna Gora Svjetski dan dostojanstvenog rada dočekuje sa značajno unaprijeđenim sistemom zaštite prava zaposlenih, snažnijim institucijama tržišta rada i radnim zakonodavst...",
-          "source": {
-            "id": "mina",
-            "name": "MINA"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T11:22:00.000Z",
-          "imageUrl": null,
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:51:00.000Z"
-    },
-    {
-      "id": "_NT7sPrQiVZh",
-      "representative": {
-        "id": "_NT7sPrQiVZh",
-        "url": "https://www.vijesti.me/vijesti/crna-hronika/830245/drzavljanin-kosova-uhapsen-zbog-nasilnickog-ponasanja-u-ulcinju",
-        "canonicalUrl": "https://www.vijesti.me/vijesti/crna-hronika/830245/drzavljanin-kosova-uhapsen-zbog-nasilnickog-ponasanja-u-ulcinju",
-        "title": "Državljanin Kosova uhapšen zbog nasilničkog ponašanja u Ulcinju",
-        "description": "Prema navodima prijave, M.K. je fizički nasrnuo na S.B, udarajući ga rukama i nogama po glavi i tijelu, nakon čega se udaljio u nepoznatom pravcu",
-        "source": {
-          "id": "vijesti",
-          "name": "Vijesti"
-        },
-        "sourceCountry": "ME",
-        "language": "sr",
-        "publishedAt": "2026-10-07T11:47:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2026/07/25/14/5745876_policija_ff.jpg",
-        "countryCode": "ME",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "8owu24tEhy3M",
-          "url": "https://mina.news/article/dr%C5%BEavljanin-kosova-uhap%C5%A1en-zbog-nasilni%C4%8Dkog-pona%C5%A1anja",
-          "canonicalUrl": "https://mina.news/article/dr%C5%BEavljanin-kosova-uhap%C5%A1en-zbog-nasilni%C4%8Dkog-pona%C5%A1anja",
-          "title": "Državljanin Kosova uhapšen zbog nasilničkog ponašanja u Ulcinju",
-          "description": "Državljanin Kosova M.K. uhapšen je zbog sumnje da je u Ulcinju fizički napao sunarodnika S.B., a potom pokušao da napusti Crnu Goru, saopšteno je iz Uprave policije.",
-          "source": {
-            "id": "mina",
-            "name": "MINA"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T11:21:17.000Z",
-          "imageUrl": null,
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:47:00.000Z"
-    },
-    {
-      "id": "r0XMeOBhAN9z",
-      "representative": {
-        "id": "r0XMeOBhAN9z",
-        "url": "https://mina.news/article/u-istra%C5%BEnom-zatvoru-dva-pritvorenika-%C5%A1trajkuje-gla%C4%91u",
-        "canonicalUrl": "https://mina.news/article/u-istra%C5%BEnom-zatvoru-dva-pritvorenika-%C5%A1trajkuje-gla%C4%91u",
-        "title": "U Istražnom zatvoru dva pritvorenika štrajkuju glađu",
-        "description": "U Istražnom zatvoru Podgorica dva pritvorenika štrajkuju glađu, a medicinsko osoblje kontinuirano prati njihovo zdravstveno stanje, saopštili su iz Uprave za izvršenje krivičnih sankcija (UIKS).",
-        "source": {
-          "id": "mina",
-          "name": "MINA"
-        },
-        "sourceCountry": "ME",
-        "language": "sr",
-        "publishedAt": "2026-10-07T09:13:00.000Z",
+        "publishedAt": "2026-10-06T14:23:40.000Z",
         "imageUrl": null,
         "countryCode": "ME",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "EXjkXDAlhGIe",
-          "url": "https://www.aktuelno.me/clanak/u-istraznom-zatvoru-dva-pritvorenika-strajkuju-gladu",
-          "canonicalUrl": "https://www.aktuelno.me/clanak/u-istraznom-zatvoru-dva-pritvorenika-strajkuju-gladu",
-          "title": "U Istražnom zatvoru dva pritvorenika štrajkuju glađu",
-          "description": "“Kao što je i ranije saopšteno, pritvorenim licima koja učestvuju u štrajku glađu obezbijeđena je sveobuhvatna i kontinuirana zdravstvena zaštita. U odnosu na navedeno, medicinsko osoblje kontinuirano prati njihovo zdravstveno stanje”, navode iz UIKS-a",
-          "source": {
-            "id": "aktuelno",
-            "name": "Aktuelno"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T11:39:04.000Z",
-          "imageUrl": "https://storage.medialib.dev/media/aktuelno/2026/02/03/1770123589hs1cu1qtspjwywtd-i_1118x745.jpg",
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:39:04.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:23:40.000Z"
     },
     {
-      "id": "q5g6Pxj8r9UV",
+      "id": "CRgd-1aXDFeV",
       "representative": {
-        "id": "q5g6Pxj8r9UV",
-        "url": "https://www.vijesti.me/vijesti/ekonomija/830227/konatar-penzioneri-ne-traze-povremene-poklone-vec-sigurnost-da-mogu-dostojanstveno-da-zive",
-        "canonicalUrl": "https://www.vijesti.me/vijesti/ekonomija/830227/konatar-penzioneri-ne-traze-povremene-poklone-vec-sigurnost-da-mogu-dostojanstveno-da-zive",
-        "title": "Konatar: Penzioneri ne traže povremene poklone, već sigurnost da...",
-        "description": "GP URA najavljuje konkretne zakonske predloge za trajno poboljšanje položaja penzionera",
+        "id": "CRgd-1aXDFeV",
+        "url": "https://www.vijesti.me/vijesti/politika/830123/milatovic-razvoj-sjevera-mora-se-vidjeti-kroz-investicije-i-radna-mjesta",
+        "canonicalUrl": "https://www.vijesti.me/vijesti/politika/830123/milatovic-razvoj-sjevera-mora-se-vidjeti-kroz-investicije-i-radna-mjesta",
+        "title": "Milatović: Razvoj sjevera mora se vidjeti kroz investicije i radna...",
+        "description": "Milatović se danas sastao sa predsjednikom Opštine Berane Đoletom Lutovcem i potpredsjednicima Milosavom Paunovićem i Božom Premovićem, sa kojima je razgovarao o razvoju Berana, infrastrukturnim potrebama grada, privrednim potencijalima i stvaranju novih prilika za građane",
         "source": {
           "id": "vijesti",
           "name": "Vijesti"
         },
         "sourceCountry": "ME",
         "language": "sr",
-        "publishedAt": "2026-10-07T10:07:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2026/10/07/12/5764466_ewawefgwa_ff.jpg",
+        "publishedAt": "2026-10-06T15:37:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2026/10/06/17/5764323_milatovic-berane1_ff.jpg",
         "countryCode": "ME",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "xHcuI9TQrncN",
-          "url": "https://www.aktuelno.me/clanak/konatar-penzioneri-ne-traze-povremene-poklone-od-vlasti-vec-dostojanstven-zivot-i-vece-penzije",
-          "canonicalUrl": "https://www.aktuelno.me/clanak/konatar-penzioneri-ne-traze-povremene-poklone-od-vlasti-vec-dostojanstven-zivot-i-vece-penzije",
-          "title": "Konatar: Penzioneri ne traže povremene poklone od vlasti, već dostojanstven život i veće penzije",
-          "description": "Konatar ukazuje da većina penzionera živi ispod granice siromaštva, imajući u vidu da je prosječna penzija 562 eura, da od 130.000 penzionera u Crnoj Gori polovina prima minimalnu penziju od 456 eura, dok se zvanična granica siromaštva kreće oko 580 eura",
-          "source": {
-            "id": "aktuelno",
-            "name": "Aktuelno"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T11:26:02.000Z",
-          "imageUrl": "https://storage.medialib.dev/media/aktuelno/2026/03/18/1773831433gju72gmvufwhwzhj-i_1118x745.jpg",
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:26:02.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:37:00.000Z"
     },
     {
-      "id": "UUK3H0TUbRPZ",
+      "id": "TTrfbeE8xZ9r",
       "representative": {
-        "id": "UUK3H0TUbRPZ",
-        "url": "https://www.vijesti.me/vijesti/politika/830236/vadeful-clanstvo-crne-gore-nadohvat-ruke-eu-mora-odrzati-rijec",
-        "canonicalUrl": "https://www.vijesti.me/vijesti/politika/830236/vadeful-clanstvo-crne-gore-nadohvat-ruke-eu-mora-odrzati-rijec",
-        "title": "Vadeful: Članstvo Crne Gore nadohvat ruke, EU mora održati riječ",
-        "description": "Vadeful je, u objavi na Instagramu, kazao da na kovanici od jedan euro nekoliko država fali i da će to sada biti promijenjeno sa jednom",
+        "id": "TTrfbeE8xZ9r",
+        "url": "https://www.vijesti.me/vijesti/politika/830121/spajic-crna-gora-zeli-punopravno-clanstvo-u-eu-sa-svim-pravima-i-odgovornost-ne-strahujemo-od-zastitnih-mehanizama",
+        "canonicalUrl": "https://www.vijesti.me/vijesti/politika/830121/spajic-crna-gora-zeli-punopravno-clanstvo-u-eu-sa-svim-pravima-i-odgovornost-ne-strahujemo-od-zastitnih-mehanizama",
+        "title": "Spajić: Crna Gora želi punopravno članstvo u EU sa svim pravima i...",
+        "description": "Premijer je poručio da Vlada podržava mehanizme koji štite vladavinu prava i evropske vrijednosti",
         "source": {
           "id": "vijesti",
           "name": "Vijesti"
         },
         "sourceCountry": "ME",
         "language": "sr",
-        "publishedAt": "2026-10-07T11:09:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2026/10/07/13/5764480_stgstg_ff.jpg",
+        "publishedAt": "2026-10-06T15:30:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2026/10/01/21/5762805_ursula-spajic-pres-3_ff.jpg",
         "countryCode": "ME",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "-qmM9SCVhCPu",
-          "url": "https://mina.news/article/vadeful-%C4%8Dlanstvo-crne-gore-u-nadohvat-ruke-eu-mora-odr%C5%BEati-rije%C4%8D",
-          "canonicalUrl": "https://mina.news/article/vadeful-%C4%8Dlanstvo-crne-gore-u-nadohvat-ruke-eu-mora-odr%C5%BEati-rije%C4%8D",
-          "title": "Vadeful: Članstvo Crne Gore nadohvat ruke, EU mora održati riječ",
-          "description": "Članstvo Crne Gore u Evropskoj uniji (EU) je, nakon godina reformi i ostvarenog napretka, sada nadohvat ruke, ocijenio je ministar vanjskih poslova Njemačke Johan Vadeful i poručio da Unija mora održa...",
-          "source": {
-            "id": "mina",
-            "name": "MINA"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T10:45:54.000Z",
-          "imageUrl": null,
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:09:00.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:30:00.000Z"
     },
     {
-      "id": "S_tpuvCAMxm9",
+      "id": "QodxDCxO4wpE",
       "representative": {
-        "id": "S_tpuvCAMxm9",
-        "url": "https://mina.news/article/justina-%C5%A1iroka-pulja-nova-predsjednica-kosova",
-        "canonicalUrl": "https://mina.news/article/justina-%C5%A1iroka-pulja-nova-predsjednica-kosova",
-        "title": "Justina Široka Pulja nova predsjednica Kosova",
-        "description": "Kosovski parlament izabrao je sinoć Justinu Široku Pulju za novu predsjednicu Kosova, čime je završena višemjesečna institucionalna kriza.",
-        "source": {
-          "id": "mina",
-          "name": "MINA"
-        },
-        "sourceCountry": "ME",
-        "language": "sr",
-        "publishedAt": "2026-10-07T11:06:50.000Z",
-        "imageUrl": null,
-        "countryCode": "ME",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "vJ3LUUD6PLB0",
-          "url": "https://www.aktuelno.me/clanak/justina-siroka-pulja-nova-predsjednica-kosova",
-          "canonicalUrl": "https://www.aktuelno.me/clanak/justina-siroka-pulja-nova-predsjednica-kosova",
-          "title": "Justina Široka-Pulja nova predsjednica Kosova",
-          "description": "Prema podacima objavljenim nakon brojanja, Široka-Pulja je dobila 81 glas i time obezbijedila potrebnu dvotrećinsku podršku u Skupštini.",
-          "source": {
-            "id": "aktuelno",
-            "name": "Aktuelno"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T06:43:12.000Z",
-          "imageUrl": "https://storage.medialib.dev/media/aktuelno/2026/10/07/1791355342cagj4ypsaakjqlxb-i_1118x745.PNG",
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:06:50.000Z"
-    },
-    {
-      "id": "-Zq6D2bPdYLO",
-      "representative": {
-        "id": "-Zq6D2bPdYLO",
-        "url": "https://www.vijesti.me/tv/emisije/830192/janovic-dogovor-o-ustavnim-promjenama-mora-biti-postignut-prije-glasanja",
-        "canonicalUrl": "https://www.vijesti.me/tv/emisije/830192/janovic-dogovor-o-ustavnim-promjenama-mora-biti-postignut-prije-glasanja",
-        "title": "Janović: Dogovor o ustavnim promjenama mora biti postignut prije...",
-        "description": "Nezavisni poslanik smatra da vlast i opozicija ne bi trebalo da budu isključive kada je riječ o izmjenama Ustava",
+        "id": "QodxDCxO4wpE",
+        "url": "https://www.vijesti.me/vijesti/drustvo/830122/zajednica-opstina-potrebno-vise-vremena-za-kvalitetno-planiranje-socijalnih-usluga",
+        "canonicalUrl": "https://www.vijesti.me/vijesti/drustvo/830122/zajednica-opstina-potrebno-vise-vremena-za-kvalitetno-planiranje-socijalnih-usluga",
+        "title": "Zajednica opština: Potrebno više vremena za kvalitetno planiranje...",
+        "description": "Zajednica opština predlaže da odredbe o godišnjim planovima usluga podrške za život u zajednici i savjetodavnim uslugama počnu da se primjenjuju 1. januara 2028. godine",
         "source": {
           "id": "vijesti",
           "name": "Vijesti"
         },
         "sourceCountry": "ME",
         "language": "sr",
-        "publishedAt": "2026-10-07T07:03:00.000Z",
-        "imageUrl": "https://www.vijesti.me/data/images/2026/10/07/09/5764398_trghstrtr_ff.jpg",
+        "publishedAt": "2026-10-06T15:26:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2024/08/16/15/5586531_screenshot-20240816-151115_ff.jpg",
         "countryCode": "ME",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "fKbERT1cePos",
-          "url": "https://www.aktuelno.me/clanak/janovic-dogovor-o-ustavnim-promjenama-mora-biti-postignut-prije-glasanja",
-          "canonicalUrl": "https://www.aktuelno.me/clanak/janovic-dogovor-o-ustavnim-promjenama-mora-biti-postignut-prije-glasanja",
-          "title": "Janović: Dogovor o ustavnim promjenama mora biti postignut prije glasanja",
-          "description": "Janović očekuje da bi vanredni parlamentarni izbori mogli da se održe i prije juna, navodeći da bi vlast mogla da pokuša da iskoristi napredak u pregovorima sa Evropskom unijom i najavljeni Euro model u predizborne svrhe",
-          "source": {
-            "id": "aktuelno",
-            "name": "Aktuelno"
-          },
-          "sourceCountry": "ME",
-          "language": "sr",
-          "publishedAt": "2026-10-07T09:24:04.000Z",
-          "imageUrl": "https://storage.medialib.dev/media/aktuelno/2026/04/13/1776081840xc1byzz5mlrktqiz-i_1118x745.jpg",
-          "countryCode": "ME",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T09:24:04.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:26:00.000Z"
+    },
+    {
+      "id": "rqTf0JyUFAFK",
+      "representative": {
+        "id": "rqTf0JyUFAFK",
+        "url": "https://www.vijesti.me/svijet/globus/830119/szo-moguci-slucaj-plucne-kuge-u-rusiji-predstavlja-veoma-nizak-rizik-izvan-zemlje",
+        "canonicalUrl": "https://www.vijesti.me/svijet/globus/830119/szo-moguci-slucaj-plucne-kuge-u-rusiji-predstavlja-veoma-nizak-rizik-izvan-zemlje",
+        "title": "SZO: Mogući slučaj plućne kuge u Rusiji predstavlja veoma nizak...",
+        "description": "Ruske vlasti ispituju uzrok smrti zaposlene u laboratoriji u Irkutsku, dok SZO navodi da epidemiološka situacija ostaje stabilna i pod nadzorom",
+        "source": {
+          "id": "vijesti",
+          "name": "Vijesti"
+        },
+        "sourceCountry": "ME",
+        "language": "sr",
+        "publishedAt": "2026-10-06T15:15:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2026/10/06/17/5764320_20261006t130717z-592516802-rc2xwna0rygp-rtrmadp-3-russiasiberiaplaguefacts_ff.jpg",
+        "countryCode": "ME",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:15:00.000Z"
+    },
+    {
+      "id": "zR4aPnlp3TFJ",
+      "representative": {
+        "id": "zR4aPnlp3TFJ",
+        "url": "https://www.vijesti.me/vijesti/politika/830118/ek-predlozila-novine-u-modelu-ulaska-u-eu-brze-do-benefita-od-clanstva-ali-nadzor-i-do-15-godina-nakon-pristupanja",
+        "canonicalUrl": "https://www.vijesti.me/vijesti/politika/830118/ek-predlozila-novine-u-modelu-ulaska-u-eu-brze-do-benefita-od-clanstva-ali-nadzor-i-do-15-godina-nakon-pristupanja",
+        "title": "EK predložila novine u modelu ulaska u EU: Brže do benefita od...",
+        "description": "Predlog Evropske komisije upućen Savjetu EU koji čine sve države članice i Evropskom parlamentu",
+        "source": {
+          "id": "vijesti",
+          "name": "Vijesti"
+        },
+        "sourceCountry": "ME",
+        "language": "sr",
+        "publishedAt": "2026-10-06T15:14:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2024/04/06/14/5558944_shutterstock-2340887113_ff.jpg",
+        "countryCode": "ME",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:14:00.000Z"
+    },
+    {
+      "id": "SeGETBpOm7Ol",
+      "representative": {
+        "id": "SeGETBpOm7Ol",
+        "url": "https://www.vijesti.me/tv/emisije/830117/vijesti-u-pola-7-mijenjaju-ime-bazenu-zoran-dzimi-gopcevic-u-kotoru",
+        "canonicalUrl": "https://www.vijesti.me/tv/emisije/830117/vijesti-u-pola-7-mijenjaju-ime-bazenu-zoran-dzimi-gopcevic-u-kotoru",
+        "title": "Vijesti u pola 7: Mijenjaju ime bazenu \"Zoran Džimi Gopčević\" u...",
+        "description": "Hoće li odbornici u SO Kotor sjutra raspravljati o promjeni imena bazena \"Zoran Džimi Gopčević\" što je jedan od uslova Hrvatske za deblokadu evropskog puta Crne Gore?",
+        "source": {
+          "id": "vijesti",
+          "name": "Vijesti"
+        },
+        "sourceCountry": "ME",
+        "language": "sr",
+        "publishedAt": "2026-10-06T15:11:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2026/09/19/17/5758560_koymgd6i_ff.jpg",
+        "countryCode": "ME",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:11:00.000Z"
+    },
+    {
+      "id": "2AIKAOeLm9wb",
+      "representative": {
+        "id": "2AIKAOeLm9wb",
+        "url": "https://www.vijesti.me/sport/fudbal/830112/andrija-bulatovic-u-bundesligi-crnogorski-biser-na-radaru-klubova-iz-vrha-njemacke-elite",
+        "canonicalUrl": "https://www.vijesti.me/sport/fudbal/830112/andrija-bulatovic-u-bundesligi-crnogorski-biser-na-radaru-klubova-iz-vrha-njemacke-elite",
+        "title": "Andrija Bulatović u Bundesligi? Crnogorski biser na radaru klubova...",
+        "description": "Lans je odredio cijenu - najmanja ponuda mora biti 25 miliona eura",
+        "source": {
+          "id": "vijesti",
+          "name": "Vijesti"
+        },
+        "sourceCountry": "ME",
+        "language": "sr",
+        "publishedAt": "2026-10-06T15:10:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2026/10/06/16/5764313_mne-arm--36_ff.jpg",
+        "countryCode": "ME",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:10:00.000Z"
+    },
+    {
+      "id": "bbh9tELd_EzU",
+      "representative": {
+        "id": "bbh9tELd_EzU",
+        "url": "https://www.vijesti.me/vijesti/drustvo/830116/imovina-svetovog-brata-ide-na-dobos-opstina-budva-se-nada-da-ce-naplatiti-bar-dio-preostalog-duga-marovica",
+        "canonicalUrl": "https://www.vijesti.me/vijesti/drustvo/830116/imovina-svetovog-brata-ide-na-dobos-opstina-budva-se-nada-da-ce-naplatiti-bar-dio-preostalog-duga-marovica",
+        "title": "Imovina Svetovog brata ide na doboš: Opština Budva se nada da će...",
+        "description": "Apsolutna zastara zatvorske kazne za Svetozara Marovića nastupa 10. oktobra, a javna izvršiteljka treba da zakaže prodaju od koje lokalna uprava očekuje da namiri barem dio od 780 hiljada eura duga",
+        "source": {
+          "id": "vijesti",
+          "name": "Vijesti"
+        },
+        "sourceCountry": "ME",
+        "language": "sr",
+        "publishedAt": "2026-10-06T15:02:00.000Z",
+        "imageUrl": "https://www.vijesti.me/data/images/2026/10/06/17/5764319_2341049_ff.jpg",
+        "countryCode": "ME",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:02:00.000Z"
     }
   ]
 }

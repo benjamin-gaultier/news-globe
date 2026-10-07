@@ -4,7 +4,7 @@
   "countryName": "Germany",
   "regionCode": "DE-ST",
   "regionName": "Saxony-Anhalt",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "GjyviFG35B3S",
@@ -47,48 +47,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-07T12:40:00.000Z"
-    },
-    {
-      "id": "KEB5zz22jDYp",
-      "representative": {
-        "id": "KEB5zz22jDYp",
-        "url": "https://www.mdr.de/nachrichten/podcast/beste/audio-wahl-anhalt-abweichler-100.html",
-        "canonicalUrl": "https://www.mdr.de/nachrichten/podcast/beste/audio-wahl-anhalt-abweichler-100.html",
-        "title": "Wer sind die Abweichler in Sachsen-Anhalt?",
-        "description": "Nach der Wahl ist vor der Wahl in Magdeburg. Nach dem Landtagspräsidium soll im Dezember der Ministerpräsident gewählt werden. Auch dann könnte die AfD feiern. Sie kann mit Stimmen anderer Parteien rechnen - welcher?",
-        "source": {
-          "id": "mdr_sachsen_anhalt",
-          "name": "MDR Sachsen-Anhalt"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-07T08:02:55.000Z",
-        "imageUrl": null,
-        "countryCode": "DE",
-        "regionCode": "DE-ST"
-      },
-      "related": [
-        {
-          "id": "88qABoMShC4s",
-          "url": "https://hallespektrum.de/aktuelles/baupreise-in-sachsen-anhalt-steigen-weiter-2/479120/",
-          "canonicalUrl": "https://hallespektrum.de/aktuelles/baupreise-in-sachsen-anhalt-steigen-weiter-2/479120/",
-          "title": "Baupreise in Sachsen-Anhalt steigen weiter",
-          "description": "Neubau von Wohngebäuden im August 6,0 Prozent teurer als im Vorjahr Halle (Saale), 7. Oktober 2026. Die Preise für Bauleistungen sind in Sachsen-Anhalt weiter gestiegen. Der Neubau konventionell gefertigter Wohngebäude verteuerte sich im August 2026 gegenüber dem Vorjahresmonat um 6,0 Prozent. Der…",
-          "source": {
-            "id": "hallespektrum",
-            "name": "Halle Spektrum"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-07T11:38:01.000Z",
-          "imageUrl": null,
-          "countryCode": "DE",
-          "regionCode": "DE-ST"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:38:01.000Z"
     },
     {
       "id": "d-zjGETOLBVC",
@@ -259,6 +217,30 @@
       "latestPublishedAt": "2026-10-07T11:40:30.000Z"
     },
     {
+      "id": "88qABoMShC4s",
+      "representative": {
+        "id": "88qABoMShC4s",
+        "url": "https://hallespektrum.de/aktuelles/baupreise-in-sachsen-anhalt-steigen-weiter-2/479120/",
+        "canonicalUrl": "https://hallespektrum.de/aktuelles/baupreise-in-sachsen-anhalt-steigen-weiter-2/479120/",
+        "title": "Baupreise in Sachsen-Anhalt steigen weiter",
+        "description": "Neubau von Wohngebäuden im August 6,0 Prozent teurer als im Vorjahr Halle (Saale), 7. Oktober 2026. Die Preise für Bauleistungen sind in Sachsen-Anhalt weiter gestiegen. Der Neubau konventionell gefertigter Wohngebäude verteuerte sich im August 2026 gegenüber dem Vorjahresmonat um 6,0 Prozent. Der…",
+        "source": {
+          "id": "hallespektrum",
+          "name": "Halle Spektrum"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:38:01.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-ST"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:38:01.000Z"
+    },
+    {
       "id": "K_9BCraH4Zto",
       "representative": {
         "id": "K_9BCraH4Zto",
@@ -355,30 +337,6 @@
       "latestPublishedAt": "2026-10-06T15:06:18.000Z"
     },
     {
-      "id": "YYqK9YBYyW9b",
-      "representative": {
-        "id": "YYqK9YBYyW9b",
-        "url": "https://hallespektrum.de/aktuelles/schlimmer-verdacht-haben-cdu-abgeordnete-fuer-afd-mann-gestimmt/479113/",
-        "canonicalUrl": "https://hallespektrum.de/aktuelles/schlimmer-verdacht-haben-cdu-abgeordnete-fuer-afd-mann-gestimmt/479113/",
-        "title": "Schlimmer Verdacht: haben CDU-Abgeordnete für AfD-Mann gestimmt?",
-        "description": "Campact bezeichnet BSW und weitere Abgeordnete als Unterstützer der AfD bei Wahl zum Landtagspräsidenten Die Wahl des AfD-Politikers Tobias Rausch zum Präsidenten des Landtags von Sachsen-Anhalt stößt bei der Kampagnenorganisation Campact auf scharfe Kritik. Rausch erhielt am Dienstag 48 von 82…",
-        "source": {
-          "id": "hallespektrum",
-          "name": "Halle Spektrum"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:59:04.000Z",
-        "imageUrl": null,
-        "countryCode": "DE",
-        "regionCode": "DE-ST"
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:59:04.000Z"
-    },
-    {
       "id": "CjhLa8ALk3Qc",
       "representative": {
         "id": "CjhLa8ALk3Qc",
@@ -401,6 +359,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T12:06:46.000Z"
+    },
+    {
+      "id": "YuWUHDI9yX0V",
+      "representative": {
+        "id": "YuWUHDI9yX0V",
+        "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landespolitik/fraktion-droht-spaltung,cdu-landtag-mifri-100.html",
+        "canonicalUrl": "https://www.mdr.de/nachrichten/sachsen-anhalt/landespolitik/fraktion-droht-spaltung,cdu-landtag-mifri-100.html",
+        "title": "Sachsen-Anhalt: CDU-Fraktion droht möglicherweise Spaltung",
+        "description": "Nach dem Wahldebakel Anfang September wird die CDU-Fraktion in Sachsen-Anhalts Landtag von internen Spannungen immer weiter zerrieben. Nun drohen erste Mitglieder damit, sich abzuspalten.",
+        "source": {
+          "id": "mdr_sachsen_anhalt",
+          "name": "MDR Sachsen-Anhalt"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:44:06.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-ST"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:44:06.000Z"
     }
   ]
 }

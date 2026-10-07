@@ -2,191 +2,137 @@
   "schemaVersion": 1,
   "countryCode": "GE",
   "countryName": "Georgia",
-  "updatedAt": "2026-10-07T12:57:09.368Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
-      "id": "aFh3SjBYWPpb",
+      "id": "1ZGr-JCO9GvD",
       "representative": {
-        "id": "aFh3SjBYWPpb",
-        "url": "https://www.radiotavisupleba.ge/a/33871974.html",
-        "canonicalUrl": "https://www.radiotavisupleba.ge/a/33871974.html",
-        "title": "უკრაინამ დაადასტურა სოჭის სანაპიროსთან ტანკერზე დარტყმა",
-        "description": "უკრაინამ დაადასტურა დარტყმა ტანკერზე შავ ზღვაში, რუსეთის ქალაქ სოჭის სანაპიროსთან.",
-        "source": {
-          "id": "radiotavisupleba",
-          "name": "Radio Tavisupleba"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T09:33:23.000Z",
-        "imageUrl": "https://gdb.rferl.org/6e56ea20-cd2e-470e-92db-f9b76377e7f6_cx0_cy56_cw0_w800_h450.jpg",
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "E65cF691CZNS",
-          "url": "https://netgazeti.ge/news/818517/",
-          "canonicalUrl": "https://netgazeti.ge/news/818517/",
-          "title": "უკრაინამ დაადასტურა სოჭის სანაპიროსთან ტანკერზე დარტყმა",
-          "description": "უკრაინამ დაადასტურა სოჭის მახლობლად, შავ ზღვაში ტანკერზე თავდასხმა. პრეზიდენტმა ვოლოდიმირ ზელენსკიმ დაწერა: „ამ დღე-ღამის განმავლობაში ჩვენმა მებრძოლებმა დაარტყეს ოთხ სამიზნეს, რომლებიც რუსეთს მისი სასტიკი ომის დაფინანსებასა და წარმოებაში ეხმარება“. ამ სამიზნეებს შორის მან დაასახელა ორი…",
-          "source": {
-            "id": "netgazeti",
-            "name": "Netgazeti"
-          },
-          "sourceCountry": "GE",
-          "language": "ka",
-          "publishedAt": "2026-10-07T11:36:52.000Z",
-          "imageUrl": null,
-          "countryCode": "GE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T11:36:52.000Z"
-    },
-    {
-      "id": "BdU2qsxC7cCv",
-      "representative": {
-        "id": "BdU2qsxC7cCv",
-        "url": "https://publika.ge/elisashvili-araertma-patimarma-miiyena-tvitdazianeba-cikheshi-kvlav-dadzabuli-situaciaa/",
-        "canonicalUrl": "https://publika.ge/elisashvili-araertma-patimarma-miiyena-tvitdazianeba-cikheshi-kvlav-dadzabuli-situaciaa/",
-        "title": "ელისაშვილი: არაერთმა პატიმარმა მიიყენა თვითდაზიანება. ციხეში კვლავ დაძაბული სიტუაციაა",
-        "description": "The post ელისაშვილი: არაერთმა პატიმარმა მიიყენა თვითდაზიანება. ციხეში კვლავ დაძაბული სიტუაციაა appeared first on პუბლიკა .",
-        "source": {
-          "id": "publika",
-          "name": "Publika"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T10:39:57.000Z",
-        "imageUrl": null,
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "LYI74YuBRjs5",
-          "url": "https://netgazeti.ge/news/818512/",
-          "canonicalUrl": "https://netgazeti.ge/news/818512/",
-          "title": "არაერთმა პატიმარმა მიიყენა თვითდაზიანება, ციხეში კვლავ დაძაბული სიტუაციაა – ელისაშვილი",
-          "description": "ოპოზიციონერი პოლიტიკოსი, ალეკო ელისაშვილი, რომელიც თავადაც იმავე ციხეში ზის, სადაც სასჯელს გიორგი დავითაძე იხდის, აცხადებს, რომ დავითაძის სოლიდარობის ნიშნად №6 მკაცრი რეჟიმის დაწესებულების პატიმრებმა პროტესტი გამოხატეს და არაერთმა პატიმარმა თვითდაზიანება მიიყენა. „პირველ რიგში, მინდა ვთქვა, რომ…",
-          "source": {
-            "id": "netgazeti",
-            "name": "Netgazeti"
-          },
-          "sourceCountry": "GE",
-          "language": "ka",
-          "publishedAt": "2026-10-07T10:51:51.000Z",
-          "imageUrl": null,
-          "countryCode": "GE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T10:51:51.000Z"
-    },
-    {
-      "id": "mcrzD0Xjgt61",
-      "representative": {
-        "id": "mcrzD0Xjgt61",
-        "url": "https://www.radiotavisupleba.ge/a/33871889.html",
-        "canonicalUrl": "https://www.radiotavisupleba.ge/a/33871889.html",
-        "title": "მარიამ ქვრივიშვილი ვიცე-პრემიერი გახდა",
-        "description": "ეკონომიკისა და მდგრადი განვითარების მინისტრ მარიამ ქვრივიშვილს ვიცე-პრემიერის მოვალეობა დაეკისრ. ამის შესახებ „ქართული ოცნების“ მთავრობის მეთაურმა ირაკლი კობახიძემ განაცხადა.",
-        "source": {
-          "id": "radiotavisupleba",
-          "name": "Radio Tavisupleba"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T07:33:52.000Z",
-        "imageUrl": "https://gdb.rferl.org/878a2a3c-21e7-49f3-43bb-08df13a884cb_cx6_cy11_cw93_w800_h450.jpg",
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "AOWQUCjZBzH7",
-          "url": "https://netgazeti.ge/news/818491/",
-          "canonicalUrl": "https://netgazeti.ge/news/818491/",
-          "title": "ირაკლი კობახიძემ მარიამ ქვრივიშვილი ვიცე-პრემიერად დანიშნა",
-          "description": "ირაკლი კობახიძემ მარიამ ქვრივიშვილი ვიცე-პრემიერად დანიშნა. „მარიამ ქვრივიშვილს დაეკისრება საქართველოს ვიცე-პრემიერის მოვალეობა, რაც მას დაეხმარება მომავალში კიდევ უფრო წარმატებულ საქმიანობაში, ეკონომიკის სექტორის კიდევ უფრო მეტად გაძლიერებაში“, – განაცხადა ირაკლი კობახიძე. ირაკლი კობახიძეს უკვე…",
-          "source": {
-            "id": "netgazeti",
-            "name": "Netgazeti"
-          },
-          "sourceCountry": "GE",
-          "language": "ka",
-          "publishedAt": "2026-10-07T08:00:56.000Z",
-          "imageUrl": null,
-          "countryCode": "GE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T08:00:56.000Z"
-    },
-    {
-      "id": "ycyPxq_yhObC",
-      "representative": {
-        "id": "ycyPxq_yhObC",
-        "url": "https://netgazeti.ge/news/818462/",
-        "canonicalUrl": "https://netgazeti.ge/news/818462/",
+        "id": "1ZGr-JCO9GvD",
+        "url": "https://publika.ge/saministros-cnobit-ganatlebis-khariskhis-ganvitarebis-erovnul-centrs-eqar-shi-registracia-aghudga/",
+        "canonicalUrl": "https://publika.ge/saministros-cnobit-ganatlebis-khariskhis-ganvitarebis-erovnul-centrs-eqar-shi-registracia-aghudga/",
         "title": "სამინისტროს ცნობით, განათლების ხარისხის განვითარების ეროვნულ ცენტრს EQAR-ში რეგისტრაცია აღუდგა",
-        "description": "სამინისტროს ცნობით, განათლების ხარისხის განვითარების ეროვნულ ცენტრს EQAR-ში რეგისტრაცია აღუდგა. გავრცელებულ განცხადებაში ნათქვამია, რომ გადაწყვეტილება უმაღლესი განათლების ხარისხის განვითარების დამოუკიდებელი სააგენტოების ევროპული რეესტრის (EQAR) რეგისტრაციის კომიტეტმა 2026 წლის 22 სექტემბერს მიიღო…",
+        "description": "The post სამინისტროს ცნობით, განათლების ხარისხის განვითარების ეროვნულ ცენტრს EQAR-ში რეგისტრაცია აღუდგა appeared first on პუბლიკა .",
         "source": {
-          "id": "netgazeti",
-          "name": "Netgazeti"
+          "id": "publika",
+          "name": "Publika"
         },
         "sourceCountry": "GE",
         "language": "ka",
-        "publishedAt": "2026-10-06T16:09:13.000Z",
+        "publishedAt": "2026-10-06T13:43:22.000Z",
         "imageUrl": null,
         "countryCode": "GE",
         "regionCode": null
       },
       "related": [
         {
-          "id": "mZTqlGqmgIeH",
-          "url": "https://www.radiotavisupleba.ge/a/33871466.html",
-          "canonicalUrl": "https://www.radiotavisupleba.ge/a/33871466.html",
-          "title": "სამინისტრო: განათლების ხარისხის ეროვნულ ცენტრს EQAR-ში რეგისტრაცია აღუდგა",
-          "description": "განათლების ხარისხის განვითარების ეროვნულ ცენტრს უმაღლესი განათლების ხარისხის განვითარების დამოუკიდებელი სააგენტოების ევროპულ რეესტრში (EQAR) რეგისტრაცია აღუდგა. ამის შესახებ საქართველოს განათლების სამინისტრო აცხადებს.",
+          "id": "ycyPxq_yhObC",
+          "url": "https://netgazeti.ge/news/818462/",
+          "canonicalUrl": "https://netgazeti.ge/news/818462/",
+          "title": "სამინისტროს ცნობით, განათლების ხარისხის განვითარების ეროვნულ ცენტრს EQAR-ში რეგისტრაცია აღუდგა",
+          "description": "სამინისტროს ცნობით, განათლების ხარისხის განვითარების ეროვნულ ცენტრს EQAR-ში რეგისტრაცია აღუდგა. გავრცელებულ განცხადებაში ნათქვამია, რომ გადაწყვეტილება უმაღლესი განათლების ხარისხის განვითარების დამოუკიდებელი სააგენტოების ევროპული რეესტრის (EQAR) რეგისტრაციის კომიტეტმა 2026 წლის 22 სექტემბერს მიიღო…",
           "source": {
-            "id": "radiotavisupleba",
-            "name": "Radio Tavisupleba"
+            "id": "netgazeti",
+            "name": "Netgazeti"
           },
           "sourceCountry": "GE",
           "language": "ka",
-          "publishedAt": "2026-10-06T16:36:13.000Z",
-          "imageUrl": "https://gdb.rferl.org/504c72da-4477-4b2a-4395-08df13a884cb_cx0_cy10_cw99_w800_h450.jpg",
+          "publishedAt": "2026-10-06T16:09:13.000Z",
+          "imageUrl": null,
           "countryCode": "GE",
           "regionCode": null
         }
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:36:13.000Z"
+      "latestPublishedAt": "2026-10-06T16:09:13.000Z"
     },
     {
-      "id": "2R1EHjDjkQmD",
+      "id": "ZtHbEA-w3Ng2",
       "representative": {
-        "id": "2R1EHjDjkQmD",
-        "url": "https://civil.ge/archives/753810",
-        "canonicalUrl": "https://civil.ge/archives/753810",
-        "title": "Kobakhidze Lauds Growing Economic Ties With China, Talks About Exploring New Markets",
-        "description": "Georgian Dream Prime Minister Irakli Kobakhidze lauded Georgia’s expanding economic ties with China at an October 6 government meeting, while stressing the government’s efforts to explore new markets, including through ongoing trade talks with South Korea, Serbia, and the Gulf Cooperation Council…",
+        "id": "ZtHbEA-w3Ng2",
+        "url": "https://netgazeti.ge/news/818459/",
+        "canonicalUrl": "https://netgazeti.ge/news/818459/",
+        "title": "პენიტენციური არ ადასტურებს ცნობებს რუსთავის მე-6 ციხეში პატიმრების შიმშილობაზე",
+        "description": "ადვოკატები ომარ ფურცელაძე და მარიკა არევაძე დღეს, 6 ოქტომბერს, დღის სხვადასხვა მონაკვეთში იმყოფებოდნენ რუსთავის მე-6 დაწესებულებაში. ციხის დატოვების შემდეგ ორივე მათგანმა გაავრცელა დაწერა, რომ მათთვის მიწოდებული ცნობების მიხედვით, პატიმრები შიმშილობენ. მარიკა არევაძემ დღეს გიორგი დავითაძე და საბა…",
+        "source": {
+          "id": "netgazeti",
+          "name": "Netgazeti"
+        },
+        "sourceCountry": "GE",
+        "language": "ka",
+        "publishedAt": "2026-10-06T16:02:24.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:02:24.000Z"
+    },
+    {
+      "id": "-amCO4mA357f",
+      "representative": {
+        "id": "-amCO4mA357f",
+        "url": "https://netgazeti.ge/news/818455/",
+        "canonicalUrl": "https://netgazeti.ge/news/818455/",
+        "title": "პარტიების აკრძალვაზე „ოცნების“ სარჩელი საკონსტიტუციო სასამართლოს პლენუმს გადაეცა",
+        "description": "პოლიტიკური პარტიების აკრძალვაზე „ქართული ოცნების“ სარჩელი საკონსტიტუციო სასამართლოს პლენუმს გადაეცა. პირველი კოლეგიის შემადგენლობა იყო: ვასილ როინიშვილი (სხდომის თავმჯდომარე); ევა გოცირიძე; გიორგი თევდორაშვილი; გოგა კიკილაშვილი. პირველმა კოლეგია მიიჩნია, რომ „წინამდებარე საქმე საკუთარი სპეციფიკით…",
+        "source": {
+          "id": "netgazeti",
+          "name": "Netgazeti"
+        },
+        "sourceCountry": "GE",
+        "language": "ka",
+        "publishedAt": "2026-10-06T15:43:19.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:43:19.000Z"
+    },
+    {
+      "id": "_T4YuGgvxZ3P",
+      "representative": {
+        "id": "_T4YuGgvxZ3P",
+        "url": "https://netgazeti.ge/news/818435/",
+        "canonicalUrl": "https://netgazeti.ge/news/818435/",
+        "title": "ვისურვებდი, საქართველო [ევროინტეგრაციის] იმავე დონეზე ყოფილიყო, რაზეც მოლდოვა და უკრაინა — კოსი",
+        "description": "ევროკომისიამ დაამტკიცა გაფართოებამდელი პოლიტიკის გადახედვის პაკეტი. დოკუმენტი განსაზღვრავს, თუ როგორ შეიძლება არსებული ხელშეკრულებების ჩარჩოსა და გაწევრიანების მომავალი ხელშეკრულებების გამოყენება გაფართოებული კავშირისთვის მოსამზადებლად. ეს მოიცავს კანდიდატი ქვეყნების ევროკავშირში ეტაპობრივი…",
+        "source": {
+          "id": "netgazeti",
+          "name": "Netgazeti"
+        },
+        "sourceCountry": "GE",
+        "language": "ka",
+        "publishedAt": "2026-10-06T15:35:38.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:35:38.000Z"
+    },
+    {
+      "id": "CMXZ-ujJraNF",
+      "representative": {
+        "id": "CMXZ-ujJraNF",
+        "url": "https://civil.ge/archives/753712",
+        "canonicalUrl": "https://civil.ge/archives/753712",
+        "title": "Social Justice Center Calls on Georgia to ‘Immediately Suspend’ Extraditions to Russia",
+        "description": "The Social Justice Center (SJC), a local human rights watchdog, has said the Georgian authorities appear to have violated its moratorium on extraditions to Russia, calling on them to “immediately suspend” the practice until conditions in Russia “change substantially” and there is an international…",
         "source": {
           "id": "civilge",
           "name": "Civil.ge"
         },
         "sourceCountry": "GE",
         "language": "en",
-        "publishedAt": "2026-10-07T12:36:57.000Z",
+        "publishedAt": "2026-10-06T15:02:19.000Z",
         "imageUrl": null,
         "countryCode": "GE",
         "regionCode": null
@@ -194,71 +140,23 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:36:57.000Z"
+      "latestPublishedAt": "2026-10-06T15:02:19.000Z"
     },
     {
-      "id": "M1NYJnNsnGrq",
+      "id": "-f4X3TiFhY6j",
       "representative": {
-        "id": "M1NYJnNsnGrq",
-        "url": "https://netgazeti.ge/news/818526/",
-        "canonicalUrl": "https://netgazeti.ge/news/818526/",
-        "title": "ციხეში ზოგადი სიტუაცია დაძაბულია – დავითაძის ადვოკატი",
-        "description": "დღეს პატიმარი გიორგი დავითაძე, რომელმაც საბადრაგო სამსახურის თანამშრომელი სექსუალურ ძალადობაში დაადანაშაულა ადვოკატმა მოინახულა. მედიასთან სალომე ჯანუაშვილმა თქვა, რომ დავითაძე თავს მხნედ გრძნობს, ის უარს აცხადებს სამედიცინო ჩარევით სხეულიდან იმ საგნის ამოღებაზე, რომელიც 3 დღის წინ პროტესტის…",
-        "source": {
-          "id": "netgazeti",
-          "name": "Netgazeti"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T12:12:45.000Z",
-        "imageUrl": null,
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:12:45.000Z"
-    },
-    {
-      "id": "NsU7OsmGYGhL",
-      "representative": {
-        "id": "NsU7OsmGYGhL",
-        "url": "https://www.radiotavisupleba.ge/a/33872107.html",
-        "canonicalUrl": "https://www.radiotavisupleba.ge/a/33872107.html",
-        "title": "„პენიტენციური იტყუება, 2 ოქტომბერს ინგრეოდა ციხე“ - ალეკო ელისაშვილი",
-        "description": "პატიმრობაში მყოფი ოპოზიციონერი პოლიტიკოსი ალეკო ელისაშვილი რუსთავის მე-6 პენიტენციურ დაწესებულებაში არსებულ ვითარებაზე წერს. მისი თქმით, მსჯავრდადებულები სოლიდარობას უცხადებენ გიორგი დავითაძეს, რომელიც ციხის თანამშრომლებს სექსუალურ ძალადობაში ადანაშაულებს.",
-        "source": {
-          "id": "radiotavisupleba",
-          "name": "Radio Tavisupleba"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T12:05:59.000Z",
-        "imageUrl": "https://gdb.rferl.org/01000000-0aff-0242-72c7-08dca1869e9c_cx6_cy1_cw67_w800_h450.jpg",
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:05:59.000Z"
-    },
-    {
-      "id": "RESP-4_SL2UG",
-      "representative": {
-        "id": "RESP-4_SL2UG",
-        "url": "https://publika.ge/somkheti-da-turqeti-giumri-yarsis-eleqtrogadamcemi-khazis-aghdgenas-ganikhilaven/",
-        "canonicalUrl": "https://publika.ge/somkheti-da-turqeti-giumri-yarsis-eleqtrogadamcemi-khazis-aghdgenas-ganikhilaven/",
-        "title": "სომხეთი და თურქეთი გიუმრი-ყარსის ელექტროგადამცემი ხაზის აღდგენას განიხილავენ",
-        "description": "The post სომხეთი და თურქეთი გიუმრი-ყარსის ელექტროგადამცემი ხაზის აღდგენას განიხილავენ appeared first on პუბლიკა .",
+        "id": "-f4X3TiFhY6j",
+        "url": "https://publika.ge/somkhetis-parlamentshi-spikerma-opozicioner-deputats-mikrofoni-gautisha-rasac-chkhubi-mohyva/",
+        "canonicalUrl": "https://publika.ge/somkhetis-parlamentshi-spikerma-opozicioner-deputats-mikrofoni-gautisha-rasac-chkhubi-mohyva/",
+        "title": "სომხეთის პარლამენტში სპიკერმა ოპოზიციონერ დეპუტატს მიკროფონი გაუთიშა, რასაც ჩხუბი მოჰყვა",
+        "description": "The post სომხეთის პარლამენტში სპიკერმა ოპოზიციონერ დეპუტატს მიკროფონი გაუთიშა, რასაც ჩხუბი მოჰყვა appeared first on პუბლიკა .",
         "source": {
           "id": "publika",
           "name": "Publika"
         },
         "sourceCountry": "GE",
         "language": "ka",
-        "publishedAt": "2026-10-07T11:52:06.000Z",
+        "publishedAt": "2026-10-06T13:45:42.000Z",
         "imageUrl": null,
         "countryCode": "GE",
         "regionCode": null
@@ -266,167 +164,119 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:52:06.000Z"
+      "latestPublishedAt": "2026-10-06T13:45:42.000Z"
     },
     {
-      "id": "PnJL1BgVHxex",
+      "id": "z76sdJBljwNh",
       "representative": {
-        "id": "PnJL1BgVHxex",
-        "url": "https://netgazeti.ge/news/818351/",
-        "canonicalUrl": "https://netgazeti.ge/news/818351/",
-        "title": "რუსეთის წილი ცალკეული აგროპროდუქციის ექსპორტში 80%-ს აჭარბებს",
-        "description": "რუსეთის წილმა მთლიან ექსპორტში 2025 წელს 10.3% შეადგინა, ადგილობრივ ექსპორტში (ექსპორტი რეექსპორტის გარეშე) ორჯერ მეტი – 20.8%, ხოლო სოფლის მეურნეობის პროდუქციის ექსპორტში – 36.8%. ღვინის შემთხვევაში რუსეთის წილი 65%-ს აღემატება, ხილისა და ბოსტნეულის ცალკეულ კატეგორიაში კი 80 ან სულაც 90 პროცენტს…",
-        "source": {
-          "id": "netgazeti",
-          "name": "Netgazeti"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T11:41:20.000Z",
-        "imageUrl": null,
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:41:20.000Z"
-    },
-    {
-      "id": "lJeV7zeidedV",
-      "representative": {
-        "id": "lJeV7zeidedV",
-        "url": "https://www.radiotavisupleba.ge/a/33872082.html",
-        "canonicalUrl": "https://www.radiotavisupleba.ge/a/33872082.html",
-        "title": "მუხიანის აგარაკებზე გაზმომარაგების აღდგენა დაიწყო - სემეკი",
-        "description": "თბილისში, მუხიანის აგარაკებზე აბონენტებისთვის ბუნებრივი გაზის მიწოდების ეტაპობრივი აღდგენა დაიწყო. ამის შესახებ საქართველოს ენერგეტიკისა და წყალმომარაგების მარეგულირებელი კომისიის (სემეკი) სხდომაზე გახდა ცნობილი.",
-        "source": {
-          "id": "radiotavisupleba",
-          "name": "Radio Tavisupleba"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T11:36:21.000Z",
-        "imageUrl": "https://gdb.rferl.org/84f7ec0c-b3bc-4d47-66b4-08df13a87200_cx0_cy6_cw83_w800_h450.jpg",
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:36:21.000Z"
-    },
-    {
-      "id": "mR0Nqjq6_ruY",
-      "representative": {
-        "id": "mR0Nqjq6_ruY",
-        "url": "https://publika.ge/chrdiloet-osetshi-2022-shi-mobilizacias-gaqceuli-rusebis-mier-mitovebul-manqanebs-jartad-chaabareben/",
-        "canonicalUrl": "https://publika.ge/chrdiloet-osetshi-2022-shi-mobilizacias-gaqceuli-rusebis-mier-mitovebul-manqanebs-jartad-chaabareben/",
-        "title": "ჩრდილოეთ ოსეთში 2022-ში მობილიზაციას გაქცეული რუსების მიერ მიტოვებულ მანქანებს ჯართად ჩააბარებენ",
-        "description": "The post ჩრდილოეთ ოსეთში 2022-ში მობილიზაციას გაქცეული რუსების მიერ მიტოვებულ მანქანებს ჯართად ჩააბარებენ appeared first on პუბლიკა .",
-        "source": {
-          "id": "publika",
-          "name": "Publika"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T11:35:35.000Z",
-        "imageUrl": null,
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:35:35.000Z"
-    },
-    {
-      "id": "63r1jws9Yg1Z",
-      "representative": {
-        "id": "63r1jws9Yg1Z",
-        "url": "https://publika.ge/evrokavshiri-akhali-wevri-qveynebistvis-15-wliani-gardamavali-periodis-dawesebas-gegmavs/",
-        "canonicalUrl": "https://publika.ge/evrokavshiri-akhali-wevri-qveynebistvis-15-wliani-gardamavali-periodis-dawesebas-gegmavs/",
-        "title": "ევროკავშირი ახალი წევრი ქვეყნებისთვის 15-წლიანი გარდამავალი პერიოდის დაწესებას გეგმავს",
-        "description": "The post ევროკავშირი ახალი წევრი ქვეყნებისთვის 15-წლიანი გარდამავალი პერიოდის დაწესებას გეგმავს appeared first on პუბლიკა .",
-        "source": {
-          "id": "publika",
-          "name": "Publika"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T11:22:47.000Z",
-        "imageUrl": null,
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:22:47.000Z"
-    },
-    {
-      "id": "1gCP2adMN1Ht",
-      "representative": {
-        "id": "1gCP2adMN1Ht",
-        "url": "https://www.radiotavisupleba.ge/a/33872061.html",
-        "canonicalUrl": "https://www.radiotavisupleba.ge/a/33872061.html",
-        "title": "იაპონელი და ფრანგი მეცნიერები გახდნენ ქიმიის დარგში ნობელის პრემიის ლაურეატები",
-        "description": "ქიმიის დარგში ნობელის პრემიის ლაურეატები წელს გახდნენ ფრანგი ანრი კაგანი და იაპონელი კენსო სოაი. ისინი ნობელის პრემიით დაჯილდოვდნენ აღმოჩენებისთვის ასიმეტრიულ ორგანულ სინთეზში.",
-        "source": {
-          "id": "radiotavisupleba",
-          "name": "Radio Tavisupleba"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T11:08:50.000Z",
-        "imageUrl": "https://gdb.rferl.org/015f452f-0086-492b-7370-08df13a869ed_cx0_cy0_cw87_w800_h450.jpg",
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:08:50.000Z"
-    },
-    {
-      "id": "K3Omw2jcLaiK",
-      "representative": {
-        "id": "K3Omw2jcLaiK",
-        "url": "https://netgazeti.ge/news/818504/",
-        "canonicalUrl": "https://netgazeti.ge/news/818504/",
-        "title": "რა წერია ევროპარლამენტის კრიტიკული რეზოლუციის პროექტში, რომელიც ამჯერად ოპოზიციური პარტიების აკრძალვაზეა",
-        "description": "ხვალ, 8 ოქტომბერს, ევროპარლამენტში საქართველოს შესახებ მორიგი კრიტიკული რეზოლუციის მიღება იგეგმება. ამჯერად ევროპარლამენტის რეზოლუცია „ქართული ოცნების“ მიერ საქართველოში ოპოზიციური პარტიების აკრძალვის მცდელობების შესახებაა. რეზოლუციის პროექტი, რომელსაც ნეტგაზეთი გაეცნო, მკაცრად გმობს საქართველოს…",
-        "source": {
-          "id": "netgazeti",
-          "name": "Netgazeti"
-        },
-        "sourceCountry": "GE",
-        "language": "ka",
-        "publishedAt": "2026-10-07T09:27:41.000Z",
-        "imageUrl": null,
-        "countryCode": "GE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:27:41.000Z"
-    },
-    {
-      "id": "xURroanlOd_y",
-      "representative": {
-        "id": "xURroanlOd_y",
-        "url": "https://civil.ge/archives/753784",
-        "canonicalUrl": "https://civil.ge/archives/753784",
-        "title": "SSSG Arrests Georgian Citizen Over Alleged Attempt to Sell Uranium to Foreign National",
-        "description": "Georgia’s State Security Service (SSSG) said it arrested a Georgian citizen for allegedly attempting to sell uranium-238 to a foreign citizen for USD 700,000. “As a result of a joint operation conducted by officers of the Counterintelligence and Special Operations departments, a Georgian citizen…",
+        "id": "z76sdJBljwNh",
+        "url": "https://civil.ge/archives/753655",
+        "canonicalUrl": "https://civil.ge/archives/753655",
+        "title": "Georgia’s Prison Controversy Widens Amid New Allegations of Violence, Reports of Tensions",
+        "description": "Georgia’s prison controversy, which followed allegations by an inmate that he was sexually abused at the hands of prison guards, has escalated amid allegations that more prisoners have been punished, including through physical violence, for expressing support for the inmate. The controversy…",
         "source": {
           "id": "civilge",
           "name": "Civil.ge"
         },
         "sourceCountry": "GE",
         "language": "en",
-        "publishedAt": "2026-10-07T08:22:22.000Z",
+        "publishedAt": "2026-10-06T13:39:12.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:39:12.000Z"
+    },
+    {
+      "id": "FtGumYUpY0TN",
+      "representative": {
+        "id": "FtGumYUpY0TN",
+        "url": "https://publika.ge/2026-wels-44-azerbaijaneli-jariskaci-arasabrdzolo-vitarebashi-daighupa-angarishi/",
+        "canonicalUrl": "https://publika.ge/2026-wels-44-azerbaijaneli-jariskaci-arasabrdzolo-vitarebashi-daighupa-angarishi/",
+        "title": "2026 წელს 44 აზერბაიჯანელი ჯარისკაცი არასაბრძოლო ვითარებაში დაიღუპა — ანგარიში",
+        "description": "The post 2026 წელს 44 აზერბაიჯანელი ჯარისკაცი არასაბრძოლო ვითარებაში დაიღუპა — ანგარიში appeared first on პუბლიკა .",
+        "source": {
+          "id": "publika",
+          "name": "Publika"
+        },
+        "sourceCountry": "GE",
+        "language": "ka",
+        "publishedAt": "2026-10-06T13:17:29.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:17:29.000Z"
+    },
+    {
+      "id": "DRRWer6s9DVn",
+      "representative": {
+        "id": "DRRWer6s9DVn",
+        "url": "https://publika.ge/iohan-vadefuli-putins-sabchota-kavshiris-aghdgena-surs-da-es-saqartvelosac-moicavs/",
+        "canonicalUrl": "https://publika.ge/iohan-vadefuli-putins-sabchota-kavshiris-aghdgena-surs-da-es-saqartvelosac-moicavs/",
+        "title": "იოჰან ვადეფული: პუტინს საბჭოთა კავშირის აღდგენა სურს და ეს საქართველოსაც მოიცავს",
+        "description": "The post იოჰან ვადეფული: პუტინს საბჭოთა კავშირის აღდგენა სურს და ეს საქართველოსაც მოიცავს appeared first on პუბლიკა .",
+        "source": {
+          "id": "publika",
+          "name": "Publika"
+        },
+        "sourceCountry": "GE",
+        "language": "ka",
+        "publishedAt": "2026-10-06T12:37:53.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:37:53.000Z"
+    },
+    {
+      "id": "f6Nj7di_ZA-R",
+      "representative": {
+        "id": "f6Nj7di_ZA-R",
+        "url": "https://civil.ge/archives/753647",
+        "canonicalUrl": "https://civil.ge/archives/753647",
+        "title": "Georgia Expelled Around 3,300 Foreign Nationals as of October 2026, Interior Ministry Says",
+        "description": "Around 3,300 foreign nationals have been expelled from Georgia so far this year, the Ministry of Internal Affairs reported on October 6, amid Georgian Dream’s announced crackdown on “illegal migration.” This marks a significant increase compared to past years, with 1,311 foreign nationals deported…",
+        "source": {
+          "id": "civilge",
+          "name": "Civil.ge"
+        },
+        "sourceCountry": "GE",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:11:36.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:11:36.000Z"
+    },
+    {
+      "id": "urhN7OPA7Iai",
+      "representative": {
+        "id": "urhN7OPA7Iai",
+        "url": "https://netgazeti.ge/news/818442/",
+        "canonicalUrl": "https://netgazeti.ge/news/818442/",
+        "title": "ნარკოდანაშაულის ბრალდებით ჟურნალისტი ნოდარ ჩაჩუა დააკავეს",
+        "description": "ნარკოდანაშაულის ბრალდებით საზოგადოებრივი მაუწყებლის ყოფილი ჟურნალისტი ნოდარ ჩაჩუა დაკაავეს. დაკავებულია ნოდარ ჩაჩუას მეუღლეც. ინფორმაცია ნეტგაზეთს პროკურატურაში დაუდასტურეს. როგორც პროკურატურაში აცხადებენ, ჟურნალისტს აღკვეთის ღონისძიების სახით პატიმრობა უკვე შეეფარდა. პროკურატურაში აცხადებენ, რომ…",
+        "source": {
+          "id": "netgazeti",
+          "name": "Netgazeti"
+        },
+        "sourceCountry": "GE",
+        "language": "ka",
+        "publishedAt": "2026-10-06T14:50:10.000Z",
         "imageUrl": null,
         "countryCode": "GE",
         "regionCode": null
@@ -434,7 +284,103 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T08:22:22.000Z"
+      "latestPublishedAt": "2026-10-06T14:50:10.000Z"
+    },
+    {
+      "id": "3lWk0SM8Hfvb",
+      "representative": {
+        "id": "3lWk0SM8Hfvb",
+        "url": "https://netgazeti.ge/news/818436/",
+        "canonicalUrl": "https://netgazeti.ge/news/818436/",
+        "title": "პაპუაშვილი დავითაძის საქმის გაშუქების გამო ონლაინმედიებს აკრიტიკებს",
+        "description": "შალვა პაპუაშვილი პატიმარ გიორგი დავითაძის საქმის გაშუქების გამო ონლაინ-მედიებს აკრიტიკებს. ის გამოცემებს „დეზინფორმაციული კამპანიების ავანგარდში“ ყოფნაში სდებს ბრალს, თუმცა არ აკონკრეტებს, რას გულისხმობს ამაში: „მთელი ეს კამპანია, რასაც ვხედავთ ჩვენ, და აქაც იგივე სახეებია, ხომ?! იგივე…",
+        "source": {
+          "id": "netgazeti",
+          "name": "Netgazeti"
+        },
+        "sourceCountry": "GE",
+        "language": "ka",
+        "publishedAt": "2026-10-06T13:48:08.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:48:08.000Z"
+    },
+    {
+      "id": "kA__UJarlJQm",
+      "representative": {
+        "id": "kA__UJarlJQm",
+        "url": "https://netgazeti.ge/news/818418/",
+        "canonicalUrl": "https://netgazeti.ge/news/818418/",
+        "title": "გარდაბნის სოფელ ნაზარლოში კაცი მოკლეს – დაკავებულს ბრალდება წარედგინა",
+        "description": "პროკურატურის განცხადებით, გარდაბნის მუნიციპალიტეტში მომხდარი განზრახ მკვლელობის ფაქტზე ერთ პირს ბრალდება წარუდგინეს. შემთხვევა 4 ოქტომბერს სოფელ ნაზარლოში მოხდა. „დაზარალებულმა ბრალდებულის არასრულწლოვან შვილს სიტყვიერი შეურაცხყოფა მიაყენა. აღნიშნულით განაწყენებულმა ბრალდებულმა შურისძიების მოტივით…",
+        "source": {
+          "id": "netgazeti",
+          "name": "Netgazeti"
+        },
+        "sourceCountry": "GE",
+        "language": "ka",
+        "publishedAt": "2026-10-06T12:27:09.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:27:09.000Z"
+    },
+    {
+      "id": "P1cb9iDPkX2V",
+      "representative": {
+        "id": "P1cb9iDPkX2V",
+        "url": "https://netgazeti.ge/news/818413/",
+        "canonicalUrl": "https://netgazeti.ge/news/818413/",
+        "title": "მივიღეთ მონაცემები, რომ რუსეთი მასშტაბური დარტყმისთვის ემზადება – ზელენსკი",
+        "description": "უკრაინის პრეზიდენტის, ვოლოდიმირ ზელენსკის განცხადებით, ამზადებენ საპასუხო ზომებს რუსეთის მხრიდან მოსალოდნელი მასშტაბური დარტყმების წინააღმდეგ. „დღეს მივიღეთ განახლებული სადაზვერვო მონაცემები რუსეთის მიერ მასშტაბური დარტყმის მომზადების შესახებ. ჩვენ ვამზადებთ საპასუხო ზომებს. ამოცანების დიდ ნაწილზე…",
+        "source": {
+          "id": "netgazeti",
+          "name": "Netgazeti"
+        },
+        "sourceCountry": "GE",
+        "language": "ka",
+        "publishedAt": "2026-10-06T12:20:53.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:20:53.000Z"
+    },
+    {
+      "id": "KR-gjpCEEK45",
+      "representative": {
+        "id": "KR-gjpCEEK45",
+        "url": "https://netgazeti.ge/news/818404/",
+        "canonicalUrl": "https://netgazeti.ge/news/818404/",
+        "title": "პუტინს საბჭოთა კავშირის აღდგენა სურს, ამაში შედის საქართველოც – გერმანიის საგარეო მინისგტრი",
+        "description": "გერმანიის საგარეო საქმეთა მინისტრის, იოჰან ვადეფულის განცხადებით, ვლადიმერ პუტინს საბჭოთა კავშირის აღდგენა სურს და სხვა ქვეყნებთან ერთად, მასში საქართველოს დაბრუნებასაც მოიაზრებს, სადაც ახლა მინისტრის თქმით, დიდ აქტივობას ხედავენ. „არასდროს უნდა დავივიწყოთ, რომ პუტინმა მიუნხენის უსაფრთხოების…",
+        "source": {
+          "id": "netgazeti",
+          "name": "Netgazeti"
+        },
+        "sourceCountry": "GE",
+        "language": "ka",
+        "publishedAt": "2026-10-06T12:05:59.000Z",
+        "imageUrl": null,
+        "countryCode": "GE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:05:59.000Z"
     }
   ]
 }

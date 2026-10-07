@@ -2,92 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "RS",
   "countryName": "Serbia",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
-    {
-      "id": "bAB1y3G_mfUL",
-      "representative": {
-        "id": "bAB1y3G_mfUL",
-        "url": "https://n1info.rs/svet/eu-ostvarila-suficit-u-trgovini-visokotehnoloskim-proizvodima-od-324-milijarde-evra/",
-        "canonicalUrl": "https://n1info.rs/svet/eu-ostvarila-suficit-u-trgovini-visokotehnoloskim-proizvodima-od-324-milijarde-evra/",
-        "title": "EU ostvarila suficit u trgovini visokotehnološkim proizvodima od 32,4 milijarde evra",
-        "description": "Evropska unija je 2025. drugu godinu zaredom ostvarila suficit od 32,4 milijarde evra u trgovini visokotehnološkim proizvodima, a ubedljivo najveće iz",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T13:54:56.000Z",
-        "imageUrl": "https://n1info.rs/media/images/2025/10/1761754699_6ed02d99-b77f-4eaf-932e-9a530396c9ff.width-1200.png",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "FUYTzAZDP0Iq",
-          "url": "https://www.danas.rs/vesti/ekonomija/eu-ostvarila-suficit-u-trgovini-visokotehnoloskim-proizvodima-od-324-milijarde-evra/",
-          "canonicalUrl": "https://www.danas.rs/vesti/ekonomija/eu-ostvarila-suficit-u-trgovini-visokotehnoloskim-proizvodima-od-324-milijarde-evra/",
-          "title": "EU ostvarila suficit u trgovini visokotehnološkim proizvodima od 32,4 milijarde evra",
-          "description": "Evropska unija je 2025. drugu godinu zaredom ostvarila suficit od 32,4 milijarde evra u trgovini visokotehnološkim proizvodima, a ubedljivo najveće izvozno tržište su SAD, saopštio je danas Eurostat.",
-          "source": {
-            "id": "danas",
-            "name": "Danas"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T13:14:42.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2018/11/robot-masina-tehnologija--300x169.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:54:56.000Z"
-    },
-    {
-      "id": "P5Ju4Dm-lwMn",
-      "representative": {
-        "id": "P5Ju4Dm-lwMn",
-        "url": "https://n1info.rs/vesti/gajic-ogromna-vecina-srba-na-strani-rusije-jer-rusi-nikada-nisu-pucali-na-nas/",
-        "canonicalUrl": "https://n1info.rs/vesti/gajic-ogromna-vecina-srba-na-strani-rusije-jer-rusi-nikada-nisu-pucali-na-nas/",
-        "title": "Gajić: Ogromna većina Srba na strani Rusije, jer Rusi nikada nisu pucali na nas",
-        "description": "Nosilac liste koalicije \"Alternativa za Srbiju\", predsednik Narodne stranke Vladimir Gajić izjavio je danas da je ogromna većina Srba na strani Rusije",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T13:48:56.000Z",
-        "imageUrl": "https://n1info.rs/media/images/2026/6/24/1782327717_Vladimir_Gajic.width-1200.jpg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "80V33jK6P2Ro",
-          "url": "https://www.danas.rs/vesti/politika/vladimir-gajic-vecina-je-za-rusiju-jer-rusi-nikada-nisu-pucali-na-nas/",
-          "canonicalUrl": "https://www.danas.rs/vesti/politika/vladimir-gajic-vecina-je-za-rusiju-jer-rusi-nikada-nisu-pucali-na-nas/",
-          "title": "Vladimir Gajić: Većina je za Rusiju, jer Rusi nikada nisu pucali na nas",
-          "description": "Nosilac liste koalicije \"Alternativa za Srbiju\", predsednik Narodne stranke Vladimir Gajić izjavio je danas da je ogromna većina Srba na strani Rusije, jer \"Rusi nikada nisu pucali na nas\", dok je Zapad u 20. veku počinio \"dva genocida nad srpskim narodom u dva svetska rata\".",
-          "source": {
-            "id": "danas",
-            "name": "Danas"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T13:17:32.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2023/01/gjic-e1789902346755-300x169.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:48:56.000Z"
-    },
     {
       "id": "VwqABJwjg9_Q",
       "representative": {
@@ -159,6 +75,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:55:09.000Z"
+    },
+    {
+      "id": "bAB1y3G_mfUL",
+      "representative": {
+        "id": "bAB1y3G_mfUL",
+        "url": "https://n1info.rs/svet/eu-ostvarila-suficit-u-trgovini-visokotehnoloskim-proizvodima-od-324-milijarde-evra/",
+        "canonicalUrl": "https://n1info.rs/svet/eu-ostvarila-suficit-u-trgovini-visokotehnoloskim-proizvodima-od-324-milijarde-evra/",
+        "title": "EU ostvarila suficit u trgovini visokotehnološkim proizvodima od 32,4 milijarde evra",
+        "description": "Evropska unija je 2025. drugu godinu zaredom ostvarila suficit od 32,4 milijarde evra u trgovini visokotehnološkim proizvodima, a ubedljivo najveće iz",
+        "source": {
+          "id": "n1_rs",
+          "name": "N1"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:54:56.000Z",
+        "imageUrl": "https://n1info.rs/media/images/2025/10/1761754699_6ed02d99-b77f-4eaf-932e-9a530396c9ff.width-1200.png",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "FUYTzAZDP0Iq",
+          "url": "https://www.danas.rs/vesti/ekonomija/eu-ostvarila-suficit-u-trgovini-visokotehnoloskim-proizvodima-od-324-milijarde-evra/",
+          "canonicalUrl": "https://www.danas.rs/vesti/ekonomija/eu-ostvarila-suficit-u-trgovini-visokotehnoloskim-proizvodima-od-324-milijarde-evra/",
+          "title": "EU ostvarila suficit u trgovini visokotehnološkim proizvodima od 32,4 milijarde evra",
+          "description": "Evropska unija je 2025. drugu godinu zaredom ostvarila suficit od 32,4 milijarde evra u trgovini visokotehnološkim proizvodima, a ubedljivo najveće izvozno tržište su SAD, saopštio je danas Eurostat.",
+          "source": {
+            "id": "danas",
+            "name": "Danas"
+          },
+          "sourceCountry": "RS",
+          "language": "sr",
+          "publishedAt": "2026-10-06T13:14:42.000Z",
+          "imageUrl": "https://www.danas.rs/wp-content/uploads/2018/11/robot-masina-tehnologija--300x169.jpg",
+          "countryCode": "RS",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:54:56.000Z"
     },
     {
       "id": "keJVqGUvhhEM",
@@ -275,70 +233,46 @@
       "latestPublishedAt": "2026-10-06T13:50:57.000Z"
     },
     {
-      "id": "XLqcyJegosRK",
+      "id": "P5Ju4Dm-lwMn",
       "representative": {
-        "id": "XLqcyJegosRK",
-        "url": "https://n1info.rs/vesti/ponos-vucic-ima-manjak-vere-da-ce-sledeci-predsednik-srbije-biti-neko-njegov-sve-je-realisticniji/",
-        "canonicalUrl": "https://n1info.rs/vesti/ponos-vucic-ima-manjak-vere-da-ce-sledeci-predsednik-srbije-biti-neko-njegov-sve-je-realisticniji/",
-        "title": "Ponoš: Vučić ima manjak vere da će sledeći predsednik Srbije biti neko njegov, sve je realističniji",
-        "description": "Jedan od nosilaca izborne liste \"Evropska Srbija\" i predsednik stranke Srbija centar (SRCE) Zdravko Ponoš ocenio je danas da potezi bivšeg predsednika",
+        "id": "P5Ju4Dm-lwMn",
+        "url": "https://n1info.rs/vesti/gajic-ogromna-vecina-srba-na-strani-rusije-jer-rusi-nikada-nisu-pucali-na-nas/",
+        "canonicalUrl": "https://n1info.rs/vesti/gajic-ogromna-vecina-srba-na-strani-rusije-jer-rusi-nikada-nisu-pucali-na-nas/",
+        "title": "Gajić: Ogromna većina Srba na strani Rusije, jer Rusi nikada nisu pucali na nas",
+        "description": "Nosilac liste koalicije \"Alternativa za Srbiju\", predsednik Narodne stranke Vladimir Gajić izjavio je danas da je ogromna većina Srba na strani Rusije",
         "source": {
           "id": "n1_rs",
           "name": "N1"
         },
         "sourceCountry": "RS",
         "language": "sr",
-        "publishedAt": "2026-10-06T13:48:09.000Z",
-        "imageUrl": "https://n1info.rs/media/images/2026/9/17/1789635022_ZDRAVKO_PONOS.width-1200.jpg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:48:09.000Z"
-    },
-    {
-      "id": "11cCFt13637z",
-      "representative": {
-        "id": "11cCFt13637z",
-        "url": "https://n1info.rs/svet/vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize-nakon-nereda-u-barseloni/",
-        "canonicalUrl": "https://n1info.rs/svet/vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize-nakon-nereda-u-barseloni/",
-        "title": "Vlada Španije usvojila hitne mere za rešavanje stambene krize nakon nereda u Barseloni",
-        "description": "Vlada Španije je danas usvojila hitne mere za rešavanje stambene krize u zemlji, nakon što su prethodne noći na ulice Barselone izašle desetine hilja",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T13:42:07.000Z",
-        "imageUrl": "https://n1info.rs/media/images/1791294001_2026-10-06T015114Z_2050166223_RC28XNAR2HFP_RTRMADP_3_.width-1200.JPG",
+        "publishedAt": "2026-10-06T13:48:56.000Z",
+        "imageUrl": "https://n1info.rs/media/images/2026/6/24/1782327717_Vladimir_Gajic.width-1200.jpg",
         "countryCode": "RS",
         "regionCode": null
       },
       "related": [
         {
-          "id": "JArIic6WW6sf",
-          "url": "https://www.danas.rs/svet/nakon-sinocnih-nereda-u-barseloni-vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize/",
-          "canonicalUrl": "https://www.danas.rs/svet/nakon-sinocnih-nereda-u-barseloni-vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize/",
-          "title": "Nakon nereda u Barseloni Vlada Španije usvojila hitne mere za rešavanje stambene krize",
-          "description": "Vlada Španije je danas usvojila hitne mere za rešavanje stambene krize u zemlji, nakon što su prethodne noći na ulice Barselone izašle desetine hiljada ljudi i izbili neredi.",
+          "id": "80V33jK6P2Ro",
+          "url": "https://www.danas.rs/vesti/politika/vladimir-gajic-vecina-je-za-rusiju-jer-rusi-nikada-nisu-pucali-na-nas/",
+          "canonicalUrl": "https://www.danas.rs/vesti/politika/vladimir-gajic-vecina-je-za-rusiju-jer-rusi-nikada-nisu-pucali-na-nas/",
+          "title": "Vladimir Gajić: Većina je za Rusiju, jer Rusi nikada nisu pucali na nas",
+          "description": "Nosilac liste koalicije \"Alternativa za Srbiju\", predsednik Narodne stranke Vladimir Gajić izjavio je danas da je ogromna većina Srba na strani Rusije, jer \"Rusi nikada nisu pucali na nas\", dok je Zapad u 20. veku počinio \"dva genocida nad srpskim narodom u dva svetska rata\".",
           "source": {
             "id": "danas",
             "name": "Danas"
           },
           "sourceCountry": "RS",
           "language": "sr",
-          "publishedAt": "2026-10-06T12:36:57.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/10/143411631-e1791290205855-300x169.jpg",
+          "publishedAt": "2026-10-06T13:17:32.000Z",
+          "imageUrl": "https://www.danas.rs/wp-content/uploads/2023/01/gjic-e1789902346755-300x169.jpg",
           "countryCode": "RS",
           "regionCode": null
         }
       ],
       "outletCount24h": 1,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:42:07.000Z"
+      "latestPublishedAt": "2026-10-06T13:48:56.000Z"
     },
     {
       "id": "Rp1d19TWSWa-",
@@ -360,7 +294,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:30:00.000Z"
     },
@@ -384,7 +318,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:30:00.000Z"
     },
@@ -408,7 +342,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:29:00.000Z"
     },
@@ -435,6 +369,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:55:07.000Z"
+    },
+    {
+      "id": "L-AbAaxroFXt",
+      "representative": {
+        "id": "L-AbAaxroFXt",
+        "url": "https://www.danas.rs/svet/crni-utorak-francuska-protesti/",
+        "canonicalUrl": "https://www.danas.rs/svet/crni-utorak-francuska-protesti/",
+        "title": "„Crni utorak“ u Francuskoj, na ulicama oko 260.000 demonstranata: Vodenim topovima na učenike u Renu, sukobi policije i srednjoškolaca u Lionu i Strazburu (VIDEO)",
+        "description": "Danas je \"Crni utorak\" kako su su nazvani protesti srednjoškolaca u Francuskoj koji danima demonstriraju zbog loših uslova u školama.",
+        "source": {
+          "id": "danas",
+          "name": "Danas"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:49:27.000Z",
+        "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/10/14342396-e1791294317455-300x169.jpg",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:49:27.000Z"
+    },
+    {
+      "id": "XLqcyJegosRK",
+      "representative": {
+        "id": "XLqcyJegosRK",
+        "url": "https://n1info.rs/vesti/ponos-vucic-ima-manjak-vere-da-ce-sledeci-predsednik-srbije-biti-neko-njegov-sve-je-realisticniji/",
+        "canonicalUrl": "https://n1info.rs/vesti/ponos-vucic-ima-manjak-vere-da-ce-sledeci-predsednik-srbije-biti-neko-njegov-sve-je-realisticniji/",
+        "title": "Ponoš: Vučić ima manjak vere da će sledeći predsednik Srbije biti neko njegov, sve je realističniji",
+        "description": "Jedan od nosilaca izborne liste \"Evropska Srbija\" i predsednik stranke Srbija centar (SRCE) Zdravko Ponoš ocenio je danas da potezi bivšeg predsednika",
+        "source": {
+          "id": "n1_rs",
+          "name": "N1"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:48:09.000Z",
+        "imageUrl": "https://n1info.rs/media/images/2026/9/17/1789635022_ZDRAVKO_PONOS.width-1200.jpg",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:48:09.000Z"
     }
   ]
 }

@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "CZ",
   "countryName": "Czechia",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
-    {
-      "id": "1PYMBYPnr0PS",
-      "representative": {
-        "id": "1PYMBYPnr0PS",
-        "url": "https://ct24.ceskatelevize.cz/clanek/svet/paramount-dokoncil-prevzeti-warner-bros-discovery-378302",
-        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/svet/paramount-dokoncil-prevzeti-warner-bros-discovery-378302",
-        "title": "Paramount dokončil převzetí Warner Bros. Discovery",
-        "description": "Americký mediální konglomerát Paramount Skydance v úterý dokončil převzetí konkurenční společnosti Warner Bros. Discovery v hodnotě přibližně 110 miliard dolarů (2,4 bilionu korun). Skupina, která nově nese název Skydance, to oznámila v tiskové zprávě. Šéf skupiny David Ellison již minulý týden…",
-        "source": {
-          "id": "ct24",
-          "name": "ČT24"
-        },
-        "sourceCountry": "CZ",
-        "language": "cs",
-        "publishedAt": "2026-10-06T13:18:42.000Z",
-        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/MzEwZjFhZDBhNTc5MDY0MlFMmro08OI9sWGtR4rG9EXBzBAQyx1LyLhT6TpDSZcP13gA5xa_i5VjOLrFv8AfxinffdeyWlrUkpALft8fQdhsy8PSfsGJbynFGucOQFgy8AaCTpnXfL7GUAZgK4pzXk4atguL0Vdjx2Ue4V-Vr34JYcJUFFfb3cXcJ_EDPrbO.JPG?width=360",
-        "countryCode": "CZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "B5NcV3llEuBL",
-          "url": "https://www.novinky.cz/clanek/ekonomika-paramount-skydance-dokoncil-prevzeti-warner-bros-discovery-40601114",
-          "canonicalUrl": "https://www.novinky.cz/clanek/ekonomika-paramount-skydance-dokoncil-prevzeti-warner-bros-discovery-40601114",
-          "title": "Paramount Skydance dokončil převzetí Warner Bros. Discovery",
-          "description": "Americký mediální konglomerát Paramount Skydance dokončil převzetí konkurenční společnosti Warner Bros. Discovery v hodnotě přibližně 110 miliard dolarů (2,4 bilionu korun). Skupina, která nově nese název Skydance, to oznámila v tiskové zprávě.",
-          "source": {
-            "id": "novinky",
-            "name": "Novinky.cz"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T13:11:44.000Z",
-          "imageUrl": null,
-          "countryCode": "CZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:18:42.000Z"
-    },
     {
       "id": "SucEZmkTtrtc",
       "representative": {
@@ -306,7 +264,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:30:00.000Z"
     },
@@ -330,9 +288,51 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:26:00.000Z"
+    },
+    {
+      "id": "1PYMBYPnr0PS",
+      "representative": {
+        "id": "1PYMBYPnr0PS",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/paramount-dokoncil-prevzeti-warner-bros-discovery-378302",
+        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/svet/paramount-dokoncil-prevzeti-warner-bros-discovery-378302",
+        "title": "Paramount dokončil převzetí Warner Bros. Discovery",
+        "description": "Americký mediální konglomerát Paramount Skydance v úterý dokončil převzetí konkurenční společnosti Warner Bros. Discovery v hodnotě přibližně 110 miliard dolarů (2,4 bilionu korun). Skupina, která nově nese název Skydance, to oznámila v tiskové zprávě. Šéf skupiny David Ellison již minulý týden…",
+        "source": {
+          "id": "ct24",
+          "name": "ČT24"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:18:42.000Z",
+        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/MzEwZjFhZDBhNTc5MDY0MlFMmro08OI9sWGtR4rG9EXBzBAQyx1LyLhT6TpDSZcP13gA5xa_i5VjOLrFv8AfxinffdeyWlrUkpALft8fQdhsy8PSfsGJbynFGucOQFgy8AaCTpnXfL7GUAZgK4pzXk4atguL0Vdjx2Ue4V-Vr34JYcJUFFfb3cXcJ_EDPrbO.JPG?width=360",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "B5NcV3llEuBL",
+          "url": "https://www.novinky.cz/clanek/ekonomika-paramount-skydance-dokoncil-prevzeti-warner-bros-discovery-40601114",
+          "canonicalUrl": "https://www.novinky.cz/clanek/ekonomika-paramount-skydance-dokoncil-prevzeti-warner-bros-discovery-40601114",
+          "title": "Paramount Skydance dokončil převzetí Warner Bros. Discovery",
+          "description": "Americký mediální konglomerát Paramount Skydance dokončil převzetí konkurenční společnosti Warner Bros. Discovery v hodnotě přibližně 110 miliard dolarů (2,4 bilionu korun). Skupina, která nově nese název Skydance, to oznámila v tiskové zprávě.",
+          "source": {
+            "id": "novinky",
+            "name": "Novinky.cz"
+          },
+          "sourceCountry": "CZ",
+          "language": "cs",
+          "publishedAt": "2026-10-06T13:11:44.000Z",
+          "imageUrl": null,
+          "countryCode": "CZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:18:42.000Z"
     },
     {
       "id": "eLBffAHLVEp4",
@@ -354,7 +354,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:17:00.000Z"
     },
@@ -378,7 +378,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:15:00.000Z"
     }

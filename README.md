@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers 146 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France or Germany and it splits into its regions (13 French regions, 16 German Länder), each with its own headlines from regional outlets.
+It covers 146 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany or the United States and it splits into its regions (13 French regions, 16 German Länder, the 50 US states and DC), each with its own headlines from regional and local outlets.
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -31,6 +31,7 @@ apps/web/            React + Vite front end (react-globe.gl)
   src/assets/countries-110m.json   Natural Earth 110m countries, trimmed (scripts/prepare-countries.mjs)
   src/assets/regions-fr.json       France's 13 regions, IGN Admin Express, trimmed (scripts/prepare-regions.mjs fr)
   src/assets/regions-de.json       Germany's 16 Länder, Natural Earth 10m admin-1, trimmed (scripts/prepare-regions.mjs de)
+  src/assets/regions-us.json       The 50 US states and DC, Natural Earth 50m admin-1, trimmed (scripts/prepare-regions.mjs us)
   worker/index.ts, wrangler.jsonc  Cloudflare Worker: static assets + /data/* from KV
 packages/ingest/     Node worker: fetch → normalize → dedupe → cluster → rank → write JSON
   src/sources.config.ts            feeds, authority weights, pipeline settings
@@ -270,7 +271,75 @@ Each Land has one public-broadcaster outlet: either its own regional feed or tag
 
 Broadcasters' feeds list bulletins and programmes next to stories (NDR's "Nachrichten aus dem Studio Lüneburg", "Regionalnachrichten aus Rostock", "Nordmagazin | 06.10.2026"; buten un binnen's "Dein Audio-Update am …"; MDR Thüringen's section pages "Meldungen", "Region Mitte"), and papers post daily roundups, giveaways and lottery numbers. `isNotNews` drops these; on the 2026-10-07 cache its German patterns matched 58 titles, all from German feeds.
 
-Hyphenated Land names split into two title tokens ("Sachsen-Anhalt" → `sachsen`, `anhalt`), which meets the two-shared-token minimum on its own; one DE-ST cluster joins two unrelated Sachsen-Anhalt headlines for that reason.
+Most of a region's headlines name it, and hyphenated names split into two title tokens ("Sachsen-Anhalt" → `sachsen`, `anhalt`), which alone would meet the two-shared-token minimum. A region's names (English and local, `localNames` in `REGIONS`) still count in the similarity score but not toward that minimum.
+
+**United States — states** (added 2026-10-07)
+
+Each of the 50 states and DC has 3–14 local outlets (257 in all), from public radio, metro and state papers, nonprofit newsrooms and local TV. The full candidate lists, with each rejected feed and why, are in the PRs: [Northeast](https://github.com/benjamin-gaultier/news-globe/pull/41), [Midwest](https://github.com/benjamin-gaultier/news-globe/pull/40), [South](https://github.com/benjamin-gaultier/news-globe/pull/43), [West](https://github.com/benjamin-gaultier/news-globe/pull/42). Sources live in `packages/ingest/src/sources/us-states-*.ts`.
+
+| State | Outlets | Status |
+| --- | --- | --- |
+| Alabama | AL.com, WSFA 12 News, WKRG News 5, Alabama Daily News, Alabama Political Reporter | ✅ |
+| Alaska | Alaska Public Media, KTOO Juneau, Juneau Empire, Alaska's News Source (KTUU) | ✅ |
+| Arizona | KJZZ, Arizona Capitol Times, Arizona Luminaria, Tucson Sentinel, Cronkite News, Arizona's Family (KTVK/KPHO), KGUN 9 Tucson | ✅ |
+| Arkansas | Arkansas Democrat-Gazette, Little Rock Public Radio (KUAR), Arkansas Times, Talk Business & Politics, KARK 4, KAIT 8 | ✅ |
+| California | CalMatters, Los Angeles Times (California), LAist, KTLA 5, KQED, SFGATE, The San Francisco Standard, Mission Local, KRON 4, KPBS, Voice of San Diego, Times of San Diego, FOX 5 San Diego, FOX40 Sacramento | ✅ |
+| Colorado | Colorado Public Radio, The Colorado Sun, Denverite, FOX31 Denver (KDVR) | ✅ |
+| Connecticut | Connecticut Public, WSHU Public Radio, CT Mirror, CT News Junkie, WTNH News 8, New Haven Independent | ✅ |
+| Delaware | Spotlight Delaware, Delaware Public Media, Delaware LIVE, WGMD 92.7 (Sussex County) | ✅ (low volume, few shared stories) |
+| District of Columbia | The Washington Post (Local), WTOP News (DC), DC News Now (WDCW), The Washington Informer, The 51st | ✅ |
+| Florida | Tampa Bay Times, WUSF, WFLA News Channel 8, WKMG News 6 ClickOrlando, WPLG Local 10, WCTV | ✅ |
+| Georgia | Atlanta News First (WANF), WSB-TV, The Current GA, Rough Draft Atlanta | ✅ |
+| Hawaii | Hawaiʻi Public Radio, Honolulu Star-Advertiser, Honolulu Civil Beat, KHON2, Maui Now | ✅ |
+| Idaho | Boise State Public Radio, Idaho News 6 (KIVI), CBS2 Idaho News (KBOI), KMVT Twin Falls, Idaho Education News | ✅ (Boise State Public Radio and Idaho Education News post 1–3 items a day) |
+| Illinois | Chicago Sun-Times, Block Club Chicago, Capitol News Illinois, WCBU Peoria, WGN-TV | ✅ |
+| Indiana | Mirror Indy, FOX59, WISH-TV, WANE 15 Fort Wayne | ✅ (WFYI, Indiana Public Media, Indiana Capital Chronicle, IBJ and IndyStar dead or blocked) |
+| Iowa | Iowa Public Radio, Quad-City Times, KCRG Cedar Rapids, WHO 13 Des Moines | ✅ |
+| Kansas | KMUW Wichita, The Lawrence Times, KSN Wichita, KWCH 12, KSAL Salina | ✅ |
+| Kentucky | Louisville Public Media, WKYT, LEX 18, LINK nky | ✅ |
+| Louisiana | NOLA.com, The Lens, Verite News, WGNO, KSLA 12 | ✅ |
+| Maine | Portland Press Herald, Bangor Daily News, Maine Public, The Maine Monitor, WABI TV5 | ✅ |
+| Maryland | The Baltimore Banner, WYPR, WTOP News (Maryland), Baltimore Fishbowl, DC News Now (Maryland) | ✅ |
+| Massachusetts | GBH News, Boston.com, CommonWealth Beacon, NBC Boston, Universal Hub | ✅ (GBH local feed about 4 items a day; WBUR and Boston Globe metro have no usable feed) |
+| Michigan | Michigan Public, MLive, Bridge Michigan, WDET, WXYZ Detroit | ✅ |
+| Minnesota | MPR News, Star Tribune, MinnPost, Sahan Journal, Bring Me The News | ✅ |
+| Mississippi | Mississippi Today, Mississippi Free Press, WLBT 3, WJTV 12, SuperTalk Mississippi | ✅ |
+| Missouri | St. Louis Public Radio, St. Louis American, Missourinet, KSHB 41 Kansas City, KY3 Springfield | ✅ |
+| Montana | Montana Free Press, Flathead Beacon, MTN News (KTVQ / KPAX) | ⚠️ three outlets (Lee papers blocked; Daily Montanan 403; MTPR feed stale). Flathead Beacon reruns Montana Free Press stories |
+| Nebraska | Flatwater Free Press, KMTV 3 News Now Omaha, KLKN Lincoln, KOLN 10/11 Lincoln | ✅ (Omaha World-Herald 429; KOLN reruns Flatwater Free Press stories) |
+| Nevada | Las Vegas Review-Journal, The Nevada Independent, KUNR Public Radio, 8 News Now (KLAS), This Is Reno | ✅ |
+| New Hampshire | New Hampshire Public Radio, Concord Monitor, The Keene Sentinel, InDepthNH, Manchester Ink Link | ✅ |
+| New Jersey | New Jersey 101.5, Jersey City Times, Jersey Shore Online, Montclair Local, Morristown Green | ✅ but no statewide daily or public broadcaster (NJ Spotlight News 503, New Jersey Monitor 403, NJ.com feeds mostly national) |
+| New Mexico | KUNM, Searchlight New Mexico, KRQE News 13, KTSM Las Cruces | ✅ (low volume: KUNM and KTSM post about once a day; Albuquerque Journal feed malformed; KOB about 40% AP) |
+| New York | Gothamist, amNY, THE CITY, Syracuse.com, WXXI News, BTPM (WBFO), WAMC Northeast Public Radio, 7 News WKBW | ✅ |
+| North Carolina | WFAE, WBTV, CBS 17 (WNCN), Port City Daily | ✅ |
+| North Dakota | KX News, Valley News Live, Minot Daily News | ⚠️ three outlets (Bismarck Tribune 429; KFYR shares copy with Valley News Live). Valley News Live also covers Moorhead, Minnesota |
+| Ohio | cleveland.com, WOSU, WVXU, Signal Cleveland, WCPO Cincinnati | ✅ |
+| Oklahoma | Oklahoma Watch, NonDoc, Tulsa Flyer, Oklahoma City Free Press, KFOR 4, KTUL 8 | ✅ |
+| Oregon | OPB, The Oregonian/OregonLive, KOIN 6, Lookout Eugene-Springfield, Salem Reporter | ✅ |
+| Pennsylvania | Pittsburgh Post-Gazette, WHYY, WESA, Spotlight PA, PhillyVoice, PublicSource | ✅ (Philadelphia Inquirer section feeds empty, its news feed mixes in national and world) |
+| Rhode Island | WPRI 12, Uprise RI, What'sUpNewp, ecoRI News | ✅ (Rhode Island Current 403; The Public's Radio has no usable feed; ecoRI posts about once a day) |
+| South Carolina | WSPA 7News, Live 5 News (WCSC), Charleston City Paper, Greenville Journal | ✅ |
+| South Dakota | South Dakota News Watch, KELOLAND, Dakota News Now | ⚠️ three outlets (KOTA shares copy with Dakota News Now) |
+| Tennessee | Chattanooga Times Free Press, WPLN, Nashville Banner, WSMV 4, WREG News Channel 3 | ✅ |
+| Texas | Houston Public Media, The Texas Tribune, San Antonio Report, Fort Worth Report, El Paso Matters, KXAN, KSAT 12, FOX 4 Dallas-Fort Worth, KWTX 10 | ✅ |
+| Utah | KUER, The Salt Lake Tribune, Deseret News, ABC4 Utah (KTVX), FOX 13 Salt Lake City | ✅ |
+| Vermont | Vermont Public, Valley News, VTDigger, WCAX | ✅ |
+| Virginia | WHRO, WTOP News (Virginia), WRIC 8News, WDBJ7, Cardinal News | ✅ |
+| Washington | The Seattle Times, KNKX, KOMO News, The Everett Herald, The Columbian | ✅ |
+| West Virginia | The Dominion Post, Parkersburg News and Sentinel, WOWK 13 News, WSAZ | ✅ (the two newspaper feeds carry some obituaries and opinion) |
+| Wisconsin | Wisconsin Public Radio, Wisconsin Watch, Urban Milwaukee, TMJ4 Milwaukee | ✅ |
+| Wyoming | WyoFile, Oil City News, Buckrail, SweetwaterNOW, Sheridan Media | ✅ |
+
+Whole groups are unreachable to our User-Agent: every States Newsroom site (the state "Mirror", "Current", "Lookout" papers) returns 403, MediaNews papers 403, Hearst TV stations 451, Lee/TownNews BLOX papers 429 or 451, Gannett feeds are dead, and Tegna's syndication feeds don't parse. Feeds that work:
+
+- NPR member stations on the Grove CMS accept `.rss` after any section page (`/local-news.rss`); the station-wide `/news.rss` mixes in NPR national stories.
+- Gray TV and Nexstar stations' main feeds carry group-wide national stories; their `category/news/local` (or `category/news`) feeds don't.
+- Sister stations and papers share copy (Gray stations in one state, Bridge Michigan and BridgeDetroit, Oil City News and County 17), so a state gets at most one of each pair.
+
+Partners also rerun each other's stories under the same headline (CT Mirror on Connecticut Public and WSHU, Spotlight PA on WESA, NHPR on the Concord Monitor). In region files an identical headline from a second outlet is dropped and the earliest copy kept (`dropRepublished`), so a rerun doesn't count as a second outlet covering the story.
+
+US local feeds carry recurring segments next to stories: forecasts ("Q2 Billings Area Weather: …", "Your Mississippi forecast for Wednesday, October 7"), newscasts ("WHYY Newscast for Tuesday 5:00 p.m."), daily headline digests, opinion and letters, obituaries and death notices, arrest reports, lottery numbers, "things to do" lists, restaurant inspections, photo galleries and podcast episodes. `isNotNews` drops these; on the 2026-10-07 cache the English patterns matched 182 US titles, and outside the US only the Globe and Mail's "Morning Update" newsletter, a few editorials and one NDR podcast.
 
 **United States**
 
@@ -2035,7 +2104,7 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 
 **GDELT adapter.** Interface and stub are in [adapters/gdelt.ts](packages/ingest/src/adapters/gdelt.ts). The plan is to query the free GDELT DOC 2.0 API (`mode=ArtList`, `sourcecountry:<FIPS>`, `sourcelang:`, 6 h timespan) through the same `HttpCache` throttle. Each article's domain would count as its outlet, with a domain → authority table. GDELT uses FIPS 10-4 codes rather than ISO, so an ISO→FIPS map is needed. This is the path to covering most countries without curating feeds one by one. It returns no snippets, so `description` would be `null`.
 
-**More regions.** France is the pilot (see Sources). Adding a country means adding its entries to `REGIONS` ([shared](packages/shared/src/index.ts)), sources with `region`, and an outline file next to `regions-fr.json`, registered in `REGION_SHAPES` ([GlobeView.tsx](apps/web/src/components/GlobeView.tsx)). Natural Earth 10m admin-1 has states and provinces for most countries. Later, tag national outlets' stories with a region from place names in titles.
+**More regions.** France, Germany and the US have regions (see Sources). Adding a country means adding its entries to `REGIONS` ([shared](packages/shared/src/index.ts)), sources with `region`, and an outline file next to `regions-fr.json`, registered in `REGION_SHAPES` ([GlobeView.tsx](apps/web/src/components/GlobeView.tsx)). Natural Earth 10m admin-1 has states and provinces for most countries. Later, tag national outlets' stories with a region from place names in titles.
 
 **Clustering.** Use the snippet's top tokens as a weaker second signal, and add a time-decay so a story from 40 hours ago doesn't absorb today's follow-up.
 
@@ -2046,4 +2115,5 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 - Country shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:110m admin-0 (public domain), bundled locally, coordinates rounded to 0.01°. In Natural Earth, `ISO_A2` is `-99` for France and Norway, so the build script uses `ISO_A2_EH`.
 - French region shapes: IGN Admin Express (2018), via [france-geojson](https://github.com/gregoiredavid/france-geojson), under the [Licence Ouverte / Etalab](https://www.etalab.gouv.fr/licence-ouverte-open-licence/); coordinates rounded to 0.01°. Loaded only when France is opened.
 - German Länder shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:10m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when Germany is opened.
+- US state shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:50m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when the United States is opened.
 - `data/sample/` is a real `pnpm ingest` output from 2026-10-06. Its relative times will read "days ago" until you run an ingest.

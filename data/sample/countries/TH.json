@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TH",
   "countryName": "Thailand",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "ae7sl6flmS1L",
@@ -104,90 +104,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:25:52.000Z"
-    },
-    {
-      "id": "Xr4zzHf0xD2B",
-      "representative": {
-        "id": "Xr4zzHf0xD2B",
-        "url": "https://www.matichon.co.th/entertainment/thai-entertainment/news_5921857",
-        "canonicalUrl": "https://www.matichon.co.th/entertainment/thai-entertainment/news_5921857",
-        "title": "เสก โลโซ โพสต์ภาพคู่ ทักษิณ แคปชั่นสั้นๆ ‘ใจสั่งมา’ แฟนคลับแห่ขอเพลง",
-        "description": "เสก โลโซ โพสต์ภาพคู่ ทักษิณ แคปชั่นสั้นๆ ‘ใจสั่งม […]",
-        "source": {
-          "id": "matichon",
-          "name": "Matichon"
-        },
-        "sourceCountry": "TH",
-        "language": "th",
-        "publishedAt": "2026-10-06T13:34:13.000Z",
-        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/a16-2.jpg",
-        "countryCode": "TH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "kiQ7_ReTszjF",
-          "url": "https://www.thairath.co.th/news/politic/2964587",
-          "canonicalUrl": "https://www.thairath.co.th/news/politic/2964587",
-          "title": "“เสก โลโซ” โชว์ภาพจับไมค์ควงคู่ “ทักษิณ” บอก “ใจสั่งมา”",
-          "description": "“เสก โลโซ” โชว์ภาพจับไมค์ควงคู่ “ทักษิณ”พร้อมโพสต์บอก“ใจสั่งมา”",
-          "source": {
-            "id": "thairath",
-            "name": "Thairath"
-          },
-          "sourceCountry": "TH",
-          "language": "th",
-          "publishedAt": "2026-10-06T15:06:46.000Z",
-          "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2FDrOCUzebUmgP.jpg",
-          "countryCode": "TH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:06:46.000Z"
-    },
-    {
-      "id": "0_MXtvHshbwC",
-      "representative": {
-        "id": "0_MXtvHshbwC",
-        "url": "https://www.thairath.co.th/news/governmentpolicy/2964578",
-        "canonicalUrl": "https://www.thairath.co.th/news/governmentpolicy/2964578",
-        "title": "เปิดวิ่งฟรี มอเตอร์เวย์ M6 ช่วงบางปะอิน-หินกอง เลี่ยงเส้นทางน้ำท่วม 6-11 ต.ค. 69",
-        "description": "กรมทางหลวงเปิดให้วิ่งฟรี มอเตอร์เวย์ M6 ช่วงบางปะอิน-หินกอง ทั้งไปและกลับ เพื่อเลี่ยงเส้นทางน้ำท่วม เริ่ม 6 - 11 ต.ค. 69 หรือจนกว่าสถานการณ์จะคลี่คลาย ย้ำผู้ใช้รถขับขี่ด้วยความระมัดระวัง",
-        "source": {
-          "id": "thairath",
-          "name": "Thairath"
-        },
-        "sourceCountry": "TH",
-        "language": "th",
-        "publishedAt": "2026-10-06T13:19:46.000Z",
-        "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2E8k6BJ674UoAr.jpg",
-        "countryCode": "TH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "DFKOtMnPdC51",
-          "url": "https://www.khaosod.co.th/economics/news_10427956",
-          "canonicalUrl": "https://www.khaosod.co.th/economics/news_10427956",
-          "title": "เพิ่มทางเลือกเลี่ยงพื้นที่น้ำท่วม วิ่งฟรี มอเตอร์เวย์ M6 บางปะอิน-หินกอง เริ่ม 6-11 ต.ค.",
-          "description": "เพิ่มทางเลือกเลี่ยงพื้นที่น้ำท่วม เปิดวิ่งฟรี มอเตอร์เวย์ M6 ช่วงบางปะอิน-หินกอง ทั้งไปและกลับ เริ่ม 6-11 ต.ค. หรือจนกว่าสถานการณ์คลี่คลาย วันที่ 6 ต.ค.69 กรมทางหลวง โดยกองทางหลวงพิเศษระหว่างเมือง ขานรับนโยบายกระทรวงคมนาคมในการอำนวยความสะดวกและบรรเทาความเดือดร้อนของประชาชนจากสถานการณ์น้ำท่วม…",
-          "source": {
-            "id": "khaosod",
-            "name": "Khaosod"
-          },
-          "sourceCountry": "TH",
-          "language": "th",
-          "publishedAt": "2026-10-06T14:06:31.000Z",
-          "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/errghhtht.jpg",
-          "countryCode": "TH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:06:31.000Z"
     },
     {
       "id": "xJCdQi_6KwMN",
@@ -449,9 +365,57 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:35:47.000Z"
+    },
+    {
+      "id": "lK7vv8McHw8R",
+      "representative": {
+        "id": "lK7vv8McHw8R",
+        "url": "https://www.prachachat.net/politics/news-2077359",
+        "canonicalUrl": "https://www.prachachat.net/politics/news-2077359",
+        "title": "รัฐบาลดึง ‘เนเน่’ แขกพิเศษ นายกฯ โชว์พลังเสียงต้อนรับ 400 ผู้นำการเงินโลก",
+        "description": "รัฐบาลดึง ‘เนเน่ รอยัล’ แชมป์ America’s Got Talent เป็นแขกพิเศษ นายกฯ โชว์พลังเสียงต้อนรับ 400 ผู้นำการเงินโลก ไอเอ็มเอฟ-เวิลด์แบงก์ พร้อมจัดเต็มซอฟต์พาวเวอร์ ศิลปวัฒนธรรม เมนูอาหารไทยต้นตำรับ นายเอกภพ เพียรพิเศษ โฆษกประจำสำนักนายกร … อ่านข่าวต้นฉบับ: รัฐบาลดึง ‘เนเน่’ แขกพิเศษ นายกฯ…",
+        "source": {
+          "id": "prachachat",
+          "name": "Prachachat"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T12:19:39.000Z",
+        "imageUrl": "https://www.prachachat.net/wp-content/uploads/2026/10/20260714104702_3472.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:19:39.000Z"
+    },
+    {
+      "id": "-XF9OROPsI2F",
+      "representative": {
+        "id": "-XF9OROPsI2F",
+        "url": "https://www.matichon.co.th/sport/thai-sport/news_5921453",
+        "canonicalUrl": "https://www.matichon.co.th/sport/thai-sport/news_5921453",
+        "title": "น้ำ พัทยา สวย-เก่ง-โหด ต้อน ติ๊งต่าง ซิวแชมป์พูล 2026",
+        "description": "น้ำ พัทยา สวย-เก่ง-โหด ต้อน ติ๊งต่าง ซิวแชมป์พูล 2026 ก […]",
+        "source": {
+          "id": "matichon",
+          "name": "Matichon"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T16:01:32.000Z",
+        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/11484439.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:01:32.000Z"
     }
   ]
 }

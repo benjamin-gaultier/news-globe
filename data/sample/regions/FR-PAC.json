@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-PAC",
   "regionName": "Provence-Alpes-Côte d'Azur",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "utMH7xPA5eCf",
@@ -268,48 +268,6 @@
       "latestPublishedAt": "2026-10-07T06:52:19.000Z"
     },
     {
-      "id": "-smLSqFrrBWk",
-      "representative": {
-        "id": "-smLSqFrrBWk",
-        "url": "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/plus-de-2000-personnes-a-nice-pour-la-manifestation-interprofessionnelle-en-soutien-au-mouvement-des-lyceens-9649720?at_medium=lien_RSS&at_locale=49",
-        "canonicalUrl": "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/plus-de-2000-personnes-a-nice-pour-la-manifestation-interprofessionnelle-en-soutien-au-mouvement-des-lyceens-9649720",
-        "title": "Mobilisation lycéenne : plus de 2.000 personnes à Nice pour la manifestation de soutien au mouvement",
-        "description": "Lycéens, étudiants, syndicats, mais aussi fédération de parents d'élèves se sont donné rendez-vous place Garibaldi à Nice ce mardi après-midi, dès 14h, pour une grande manifestation en soutien aux revendications des lycéens. Plus de 2.000 personnes ont pris place dans le cortège.",
-        "source": {
-          "id": "ici_pac",
-          "name": "ici Provence, Azur, Vaucluse"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:29:05.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/f5b79fe1-53f2-48d8-8a9e-619be5d5c5c8/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-PAC"
-      },
-      "related": [
-        {
-          "id": "xVhnO5NJD8xZ",
-          "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-mobilisation-lyceenne-plus-de-2-000-manifestants-a-nice_VN-202610070164.html",
-          "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-mobilisation-lyceenne-plus-de-2-000-manifestants-a-nice_VN-202610070164.html",
-          "title": "Mobilisation lycéenne: plus de 2.000 manifestants à Nice",
-          "description": "Lycéens, étudiants, syndicats et fédérations de parents d’élèves se sont retrouvés ce mardi après-midi place Garibaldi, à Nice. Plus de 2.000 personnes ont participé au cortège pour soutenir les revendications des lycéens.",
-          "source": {
-            "id": "bfm_marseille",
-            "name": "BFM Marseille, Côte d'Azur"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-07T05:36:52.000Z",
-          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/r6_LoVtWFLZUwxP5dSFwr6IaItw=/0x0:1280x720/800x0/images/Mobilisation-lyceenne-plus-de-2-000-manifestants-a-Nice-2360655.jpg",
-          "countryCode": "FR",
-          "regionCode": "FR-PAC"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T05:36:52.000Z"
-    },
-    {
       "id": "qRK9Y_Ppp-8C",
       "representative": {
         "id": "qRK9Y_Ppp-8C",
@@ -560,6 +518,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T09:30:05.000Z"
+    },
+    {
+      "id": "NYd3Dj0TAhNv",
+      "representative": {
+        "id": "NYd3Dj0TAhNv",
+        "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-crise-lyceenne-pres-de-6-millions-d-euros-de-degats-la-region-sud-va-se-porter-partie-civile_VN-202610070309.html",
+        "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-crise-lyceenne-pres-de-6-millions-d-euros-de-degats-la-region-sud-va-se-porter-partie-civile_VN-202610070309.html",
+        "title": "Crise lycéenne: près de 6 millions d’euros de dégâts, la Région Sud va se porter partie civile",
+        "description": "Véronique Borré, conseillère régionale de Provence-Alpes-Côte-d'Azur, était l'invitée de Bonjour La Côte d'Azur ce mercredi 7 octobre 2026.",
+        "source": {
+          "id": "bfm_marseille",
+          "name": "BFM Marseille, Côte d'Azur"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T07:24:39.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/C6RQnuks2omD9IGlWMyluVVdEjg=/0x0:1280x720/800x0/images/Crise-lyceenne-pres-de-6-millions-d-euros-de-degats-la-Region-Sud-va-se-porter-partie-civile-2360781.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-PAC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T07:24:39.000Z"
     }
   ]
 }

@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "SO",
   "countryName": "Somalia",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
-    {
-      "id": "CQLabyYNztnd",
-      "representative": {
-        "id": "CQLabyYNztnd",
-        "url": "https://horseedmedia.net/markabka-laga-soo-furtay-kooxaha-burcad-badeedda-ee-honour-25-oo-gaarey-boosaaso/426252/",
-        "canonicalUrl": "https://horseedmedia.net/markabka-laga-soo-furtay-kooxaha-burcad-badeedda-ee-honour-25-oo-gaarey-boosaaso/426252/",
-        "title": "Markabka laga soo furtay kooxaha burcad-badeedda ee HONOUR 25 oo gaarey Boosaaso.",
-        "description": "Ciidamada Difaaca Puntland ee PMPF ayaa magaalada Boosaaso soo gaarsiiyey markabka HONOUR 25, oo ku gooshaayey…",
-        "source": {
-          "id": "horseed",
-          "name": "Horseed Media"
-        },
-        "sourceCountry": "SO",
-        "language": "so",
-        "publishedAt": "2026-10-06T13:34:43.000Z",
-        "imageUrl": null,
-        "countryCode": "SO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ABOykKLxE86U",
-          "url": "https://puntlandpost.net/2026/10/06/markabka-honour-25-oo-la-soo-gaarsiiyay-boosaaso/",
-          "canonicalUrl": "https://puntlandpost.net/2026/10/06/markabka-honour-25-oo-la-soo-gaarsiiyay-boosaaso/",
-          "title": "Markabka Honour 25 oo la soo gaarsiiyay Boosaaso",
-          "description": "Ciidamada badda Puntland ee PMPF ayaa maanta magaalada Boosaaso soo gaarsiiyay markabka Honour 25 oo 29-kii bishii hore ee Sebteembar… Sii akhri",
-          "source": {
-            "id": "puntlandpost",
-            "name": "Puntland Post"
-          },
-          "sourceCountry": "SO",
-          "language": "so",
-          "publishedAt": "2026-10-06T14:06:59.000Z",
-          "imageUrl": null,
-          "countryCode": "SO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:06:59.000Z"
-    },
     {
       "id": "0AuCBIJK9E1d",
       "representative": {
@@ -233,6 +191,48 @@
       "latestPublishedAt": "2026-10-06T14:21:59.000Z"
     },
     {
+      "id": "CQLabyYNztnd",
+      "representative": {
+        "id": "CQLabyYNztnd",
+        "url": "https://horseedmedia.net/markabka-laga-soo-furtay-kooxaha-burcad-badeedda-ee-honour-25-oo-gaarey-boosaaso/426252/",
+        "canonicalUrl": "https://horseedmedia.net/markabka-laga-soo-furtay-kooxaha-burcad-badeedda-ee-honour-25-oo-gaarey-boosaaso/426252/",
+        "title": "Markabka laga soo furtay kooxaha burcad-badeedda ee HONOUR 25 oo gaarey Boosaaso.",
+        "description": "Ciidamada Difaaca Puntland ee PMPF ayaa magaalada Boosaaso soo gaarsiiyey markabka HONOUR 25, oo ku gooshaayey…",
+        "source": {
+          "id": "horseed",
+          "name": "Horseed Media"
+        },
+        "sourceCountry": "SO",
+        "language": "so",
+        "publishedAt": "2026-10-06T13:34:43.000Z",
+        "imageUrl": null,
+        "countryCode": "SO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ABOykKLxE86U",
+          "url": "https://puntlandpost.net/2026/10/06/markabka-honour-25-oo-la-soo-gaarsiiyay-boosaaso/",
+          "canonicalUrl": "https://puntlandpost.net/2026/10/06/markabka-honour-25-oo-la-soo-gaarsiiyay-boosaaso/",
+          "title": "Markabka Honour 25 oo la soo gaarsiiyay Boosaaso",
+          "description": "Ciidamada badda Puntland ee PMPF ayaa maanta magaalada Boosaaso soo gaarsiiyay markabka Honour 25 oo 29-kii bishii hore ee Sebteembar… Sii akhri",
+          "source": {
+            "id": "puntlandpost",
+            "name": "Puntland Post"
+          },
+          "sourceCountry": "SO",
+          "language": "so",
+          "publishedAt": "2026-10-06T14:06:59.000Z",
+          "imageUrl": null,
+          "countryCode": "SO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:06:59.000Z"
+    },
+    {
       "id": "xs9MDSEiMFvW",
       "representative": {
         "id": "xs9MDSEiMFvW",
@@ -255,30 +255,6 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T08:55:20.000Z"
-    },
-    {
-      "id": "Xb1ujOCLZEH_",
-      "representative": {
-        "id": "Xb1ujOCLZEH_",
-        "url": "https://horseedmedia.net/turkiga-sucuudiga-pakistan-oo-jawaab-midaysan-ka-bixinaya-duulaanka-xuutiyiinta-yemen/426242/",
-        "canonicalUrl": "https://horseedmedia.net/turkiga-sucuudiga-pakistan-oo-jawaab-midaysan-ka-bixinaya-duulaanka-xuutiyiinta-yemen/426242/",
-        "title": "Turkiga, Sucuudiga & Pakistan oo jawaab midaysan ka bixinaya duulaanka Xuutiyiinta Yemen.",
-        "description": "Xiisadda dagaal ee dagalka Yemen ayaa sii xoogaysatey xilli ciidamada dowladda Yemen ay sheegeen inay horumar…",
-        "source": {
-          "id": "horseed",
-          "name": "Horseed Media"
-        },
-        "sourceCountry": "SO",
-        "language": "so",
-        "publishedAt": "2026-10-06T07:03:00.000Z",
-        "imageUrl": null,
-        "countryCode": "SO",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T07:03:00.000Z"
     },
     {
       "id": "6TgMocQLlD0u",
@@ -417,6 +393,30 @@
       "outletCount24h": 1,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T14:00:42.000Z"
+    },
+    {
+      "id": "mrIO5i2OgwpY",
+      "representative": {
+        "id": "mrIO5i2OgwpY",
+        "url": "https://goobjoog.com/2026/10/06/sooyaal-faadumo-qaasin-hilowle-faynuustii-fanka/",
+        "canonicalUrl": "https://goobjoog.com/2026/10/06/sooyaal-faadumo-qaasin-hilowle-faynuustii-fanka/",
+        "title": "Sooyaal: Faadumo Qaasin Hilowle (Faynuustii Fanka)",
+        "description": "Maanta oo kale, 6dii Oktoobar 2011kii, waxaa magaalada London ee dalka Ingiriiska ku geeriyootay Faadumo Qaasin Hilowle, oo ka mid ahayd haldoorkii fanka Soomaaliyeed sida gaarka ah raad aan sahal…",
+        "source": {
+          "id": "goobjoog",
+          "name": "Goobjoog News"
+        },
+        "sourceCountry": "SO",
+        "language": "so",
+        "publishedAt": "2026-10-06T13:34:04.000Z",
+        "imageUrl": null,
+        "countryCode": "SO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:34:04.000Z"
     }
   ]
 }

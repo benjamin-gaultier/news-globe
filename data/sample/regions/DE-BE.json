@@ -4,84 +4,8 @@
   "countryName": "Germany",
   "regionCode": "DE-BE",
   "regionName": "Berlin",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
-    {
-      "id": "Wnlm0OLgCh3Q",
-      "representative": {
-        "id": "Wnlm0OLgCh3Q",
-        "url": "https://www.morgenpost.de/berlin/article413353229/berlin-neukoelln-kind-faellt-aus-drittem-stock-mann-faengt-es-auf.html",
-        "canonicalUrl": "https://www.morgenpost.de/berlin/article413353229/berlin-neukoelln-kind-faellt-aus-drittem-stock-mann-faengt-es-auf.html",
-        "title": "Berlin-Neukölln: Kind fällt aus drittem Stock – Mann fängt es auf",
-        "description": "Einem Medienbericht zufolge ist ein Kind in Berlin-Neukölln aus dem Zimmer eines Wohnheims gefallen. Es soll von einem Retter aufgefangen worden sein.",
-        "source": {
-          "id": "morgenpost",
-          "name": "Berliner Morgenpost"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-07T08:42:52.000Z",
-        "imageUrl": "https://img.sparknews.funkemedien.de/413335499/413335499_1791362572_v16_9_600.jpeg",
-        "countryCode": "DE",
-        "regionCode": "DE-BE"
-      },
-      "related": [
-        {
-          "id": "YaYHQy4D-6fw",
-          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-neukoelln-kind-dritter-stock-mann-gefangen.html",
-          "canonicalUrl": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-neukoelln-kind-dritter-stock-mann-gefangen.html",
-          "title": "Berlin-Neukölln: Kind fällt aus drittem Stock – Mann fängt es auf",
-          "description": "Ein sechsjähriges Mädchen fällt in Berlin-Neukölln aus einem Fenster im dritten Stockwerk eines Hauses - ein Mann, der das Mädchen von unten gesehen hatte, konnte es auffangen.",
-          "source": {
-            "id": "rbb24_berlin",
-            "name": "rbb24 Berlin"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-07T11:42:55.000Z",
-          "imageUrl": null,
-          "countryCode": "DE",
-          "regionCode": "DE-BE"
-        },
-        {
-          "id": "Pj6d90tmKfmT",
-          "url": "https://berlin.t-online.de/region/berlin/id_101470318/berlin-neukoelln-kind-stuerzt-aus-drittem-stock-mann-faengt-es-auf.html",
-          "canonicalUrl": "https://berlin.t-online.de/region/berlin/id_101470318/berlin-neukoelln-kind-stuerzt-aus-drittem-stock-mann-faengt-es-auf.html",
-          "title": "Berlin-Neukölln: Kind stürzt aus drittem Stock – Mann fängt es auf",
-          "description": "Ein Mädchen fällt in Neukölln aus dem dritten Stock und wird von einem Bewohner aufgefangen. Zwei weitere Kinder sind in der Wohnung – ohne Erwachsene.",
-          "source": {
-            "id": "tonline_berlin",
-            "name": "t-online Berlin"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-07T10:12:35.000Z",
-          "imageUrl": "https://images.t-online.de/2026/10/toinM3IHBngv/0x51:2048x1152/fit-in/1200x0/das-maedchen-erlitt-schuerfwunden-an-den-beinen-symbolbild.jpg",
-          "countryCode": "DE",
-          "regionCode": "DE-BE"
-        },
-        {
-          "id": "cB-Kt2iu5y0V",
-          "url": "https://www.tagesspiegel.de/berlin/dpa-sechsjahrige-fallt-aus-dem-fenster-im-dritten-stock--mann-fangt-das-kind-auf-16136036.html",
-          "canonicalUrl": "https://www.tagesspiegel.de/berlin/dpa-sechsjahrige-fallt-aus-dem-fenster-im-dritten-stock--mann-fangt-das-kind-auf-16136036.html",
-          "title": "Kein Erwachsener in der Neuköllner Wohnung: Sechsjährige fällt aus dem Fenster im dritten Stock – Mann fängt das Kind auf",
-          "description": "Ein Kind krabbelt in Berlin-Neukölln im dritten Stock auf ein Fensterbrett und stürzt aus dem offenen Fenster. Das Mädchen hat großes Glück: Ein Mann fängt die Sechsjährige auf.",
-          "source": {
-            "id": "tagesspiegel_berlin",
-            "name": "Tagesspiegel (Berlin)"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-07T09:55:56.000Z",
-          "imageUrl": "https://www.tagesspiegel.de/images/16136035/alternates/BASE_4_3_W220/1791366957000/polizei-symbolbild.jpeg",
-          "countryCode": "DE",
-          "regionCode": "DE-BE"
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-07T11:42:55.000Z"
-    },
     {
       "id": "Okvq0pUc_eYY",
       "representative": {
@@ -233,6 +157,65 @@
       "outletCount24h": 4,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-07T07:10:58.000Z"
+    },
+    {
+      "id": "Wnlm0OLgCh3Q",
+      "representative": {
+        "id": "Wnlm0OLgCh3Q",
+        "url": "https://www.morgenpost.de/berlin/article413353229/berlin-neukoelln-kind-faellt-aus-drittem-stock-mann-faengt-es-auf.html",
+        "canonicalUrl": "https://www.morgenpost.de/berlin/article413353229/berlin-neukoelln-kind-faellt-aus-drittem-stock-mann-faengt-es-auf.html",
+        "title": "Berlin-Neukölln: Kind fällt aus drittem Stock – Mann fängt es auf",
+        "description": "Einem Medienbericht zufolge ist ein Kind in Berlin-Neukölln aus dem Zimmer eines Wohnheims gefallen. Es soll von einem Retter aufgefangen worden sein.",
+        "source": {
+          "id": "morgenpost",
+          "name": "Berliner Morgenpost"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T08:42:52.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413335499/413335499_1791362572_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-BE"
+      },
+      "related": [
+        {
+          "id": "Pj6d90tmKfmT",
+          "url": "https://berlin.t-online.de/region/berlin/id_101470318/berlin-neukoelln-kind-stuerzt-aus-drittem-stock-mann-faengt-es-auf.html",
+          "canonicalUrl": "https://berlin.t-online.de/region/berlin/id_101470318/berlin-neukoelln-kind-stuerzt-aus-drittem-stock-mann-faengt-es-auf.html",
+          "title": "Berlin-Neukölln: Kind stürzt aus drittem Stock – Mann fängt es auf",
+          "description": "Ein Mädchen fällt in Neukölln aus dem dritten Stock und wird von einem Bewohner aufgefangen. Zwei weitere Kinder sind in der Wohnung – ohne Erwachsene.",
+          "source": {
+            "id": "tonline_berlin",
+            "name": "t-online Berlin"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T10:12:35.000Z",
+          "imageUrl": "https://images.t-online.de/2026/10/toinM3IHBngv/0x51:2048x1152/fit-in/1200x0/das-maedchen-erlitt-schuerfwunden-an-den-beinen-symbolbild.jpg",
+          "countryCode": "DE",
+          "regionCode": "DE-BE"
+        },
+        {
+          "id": "cB-Kt2iu5y0V",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-sechsjahrige-fallt-aus-dem-fenster-im-dritten-stock--mann-fangt-das-kind-auf-16136036.html",
+          "canonicalUrl": "https://www.tagesspiegel.de/berlin/dpa-sechsjahrige-fallt-aus-dem-fenster-im-dritten-stock--mann-fangt-das-kind-auf-16136036.html",
+          "title": "Kein Erwachsener in der Neuköllner Wohnung: Sechsjährige fällt aus dem Fenster im dritten Stock – Mann fängt das Kind auf",
+          "description": "Ein Kind krabbelt in Berlin-Neukölln im dritten Stock auf ein Fensterbrett und stürzt aus dem offenen Fenster. Das Mädchen hat großes Glück: Ein Mann fängt die Sechsjährige auf.",
+          "source": {
+            "id": "tagesspiegel_berlin",
+            "name": "Tagesspiegel (Berlin)"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T09:55:56.000Z",
+          "imageUrl": "https://www.tagesspiegel.de/images/16136035/alternates/BASE_4_3_W220/1791366957000/polizei-symbolbild.jpeg",
+          "countryCode": "DE",
+          "regionCode": "DE-BE"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T10:12:35.000Z"
     },
     {
       "id": "t9ODif0kQ3ys",

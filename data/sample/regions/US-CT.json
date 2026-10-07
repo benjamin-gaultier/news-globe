@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "US",
+  "countryName": "United States",
+  "regionCode": "US-CT",
+  "regionName": "Connecticut",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
+  "clusters": [
+    {
+      "id": "1B3mlPerq21q",
+      "representative": {
+        "id": "1B3mlPerq21q",
+        "url": "https://www.wshu.org/connecticut-news/2026-10-06/ct-opposes-trump-administrations-proposed-head-start-overhaul",
+        "canonicalUrl": "https://www.wshu.org/connecticut-news/2026-10-06/ct-opposes-trump-administrations-proposed-head-start-overhaul",
+        "title": "CT opposes Trump administration’s proposed Head Start overhaul",
+        "description": "CT officials oppose proposed changes to Head Start that would reduce federal requirements and shift costs to states. About 5,600 Connecticut children rely on the program.",
+        "source": {
+          "id": "us_ct_wshu",
+          "name": "WSHU Public Radio"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T21:19:08.000Z",
+        "imageUrl": "https://npr.brightspotcdn.com/dims4/default/60603c7/2147483647/strip/false/crop/6000x4000+0+0/resize/792x528!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F59%2Fe1%2F9ddc4a3a48dcb68c956998198cb5%2Fimg-1483.JPG",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [
+        {
+          "id": "yIvIsXkgEwE-",
+          "url": "https://ctnewsjunkie.com/2026/10/07/ct-officials-tell-trump-administration-hands-off-head-start/",
+          "canonicalUrl": "https://ctnewsjunkie.com/2026/10/07/ct-officials-tell-trump-administration-hands-off-head-start/",
+          "title": "CT Officials Tell Trump Administration: Hands Off Head Start",
+          "description": "The changes will reduce requirements related to teaching and learning, staffing, group size, coaching, and professional development; eliminate important suspension and expulsion protections; reduce the administrative cost cap from 15% to 5%; and shift federal responsibilities and potential costs…",
+          "source": {
+            "id": "us_ct_ctnewsjunkie",
+            "name": "CT News Junkie"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-07T09:00:00.000Z",
+          "imageUrl": "https://i0.wp.com/ctnewsjunkie.com/wp-content/uploads/2023/04/ct-data-collective-children-in-preschool-AdobeStock_243401412-1371x900-1.jpg?fit=1024%2C672&amp;ssl=1",
+          "countryCode": "US",
+          "regionCode": "US-CT"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T09:00:00.000Z"
+    },
+    {
+      "id": "j-p_JUk2oSkf",
+      "representative": {
+        "id": "j-p_JUk2oSkf",
+        "url": "https://www.newhavenindependent.org/2026/10/07/black-printmakers-go-to-the-source/",
+        "canonicalUrl": "https://www.newhavenindependent.org/2026/10/07/black-printmakers-go-to-the-source/",
+        "title": "Black Printmakers Go To The Source",
+        "description": "& nico w. okoro's new Westville gallery considers how arts institutions, facing deep funding cuts, can still step up for local artists. The post Black Printmakers Go To The Source appeared first on New Haven Independent .",
+        "source": {
+          "id": "us_ct_newhavenindependent",
+          "name": "New Haven Independent"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:00:24.000Z",
+        "imageUrl": "https://www.newhavenindependent.org/wp-content/uploads/2026/10/Screenshot-2026-10-05-at-9.13.20-PM-1024x1013.png",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:00:24.000Z"
+    },
+    {
+      "id": "kjv8hP-wqg9M",
+      "representative": {
+        "id": "kjv8hP-wqg9M",
+        "url": "https://ctmirror.org/2026/10/07/with-eye-on-gavels-ct-dems-envision-oversight-if-they-win-majority/",
+        "canonicalUrl": "https://ctmirror.org/2026/10/07/with-eye-on-gavels-ct-dems-envision-oversight-if-they-win-majority/",
+        "title": "With eye on gavels, CT Dems envision oversight if they win majority",
+        "description": "Members of CT's delegation are starting to sketch out what a Democratic return to power could look like from the highest echelons in Congress.",
+        "source": {
+          "id": "us_ct_ctmirror",
+          "name": "CT Mirror"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T09:00:00.000Z",
+        "imageUrl": "https://ctmirror.org/wp-content/uploads/2025/01/2025_0118_SR_PeoplesMarch_969-1024x683.jpg",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:00:00.000Z"
+    },
+    {
+      "id": "wTEmQDdjtBd9",
+      "representative": {
+        "id": "wTEmQDdjtBd9",
+        "url": "https://ctmirror.org/2026/10/07/the-census-bureau-is-shutting-out-local-data-experts/",
+        "canonicalUrl": "https://ctmirror.org/2026/10/07/the-census-bureau-is-shutting-out-local-data-experts/",
+        "title": "The Census Bureau is shutting out local data experts",
+        "description": "Census Bureau staff are now banned from meeting with external partners to discuss Census 2030 preparations.",
+        "source": {
+          "id": "us_ct_ctmirror",
+          "name": "CT Mirror"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T04:02:00.000Z",
+        "imageUrl": "https://ctmirror.org/wp-content/uploads/2026/10/AP-census-2020.jpg",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:02:00.000Z"
+    },
+    {
+      "id": "eEdzdl9qGP-y",
+      "representative": {
+        "id": "eEdzdl9qGP-y",
+        "url": "https://ctmirror.org/2026/10/07/government-must-deliver-for-renters/",
+        "canonicalUrl": "https://ctmirror.org/2026/10/07/government-must-deliver-for-renters/",
+        "title": "Government must deliver for renters",
+        "description": "Campaign rhetoric on affordability feels out of touch is because most politicians are ignoring the needs of renters.",
+        "source": {
+          "id": "us_ct_ctmirror",
+          "name": "CT Mirror"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T04:01:00.000Z",
+        "imageUrl": "https://ctmirror.org/wp-content/uploads/2026/09/Afford-Rent-Sign-1-1024x683.png",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:01:00.000Z"
+    },
+    {
+      "id": "lm-J1BC1WrOl",
+      "representative": {
+        "id": "lm-J1BC1WrOl",
+        "url": "https://www.wtnh.com/news/connecticut/hartford/how-connecticut-drivers-can-navigate-the-installation-of-new-speed-cameras/",
+        "canonicalUrl": "https://www.wtnh.com/news/connecticut/hartford/how-connecticut-drivers-can-navigate-the-installation-of-new-speed-cameras/",
+        "title": "How Connecticut drivers can navigate the installation of new speed cameras",
+        "description": "MIDDLETOWN, Conn. (WTNH) — Connecticut drivers are asking about their rights amid ongoing approvals of speed cameras in municipalities across the state. Middletown was one of the first to install speed cameras, and now dozens of cities and towns are adding hundreds of cameras to their roads…",
+        "source": {
+          "id": "us_ct_wtnh",
+          "name": "WTNH News 8"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:20:50.000Z",
+        "imageUrl": "https://www.wtnh.com/wp-content/uploads/sites/100/2026/10/Speed-cam.jpg?w=900",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T03:20:50.000Z"
+    },
+    {
+      "id": "YGmRzRbLvFWT",
+      "representative": {
+        "id": "YGmRzRbLvFWT",
+        "url": "https://www.wtnh.com/news/connecticut/first-student-adding-ai-technology-to-buses-in-hartford-new-haven/",
+        "canonicalUrl": "https://www.wtnh.com/news/connecticut/first-student-adding-ai-technology-to-buses-in-hartford-new-haven/",
+        "title": "First Student adding AI technology to buses in Hartford, New Haven",
+        "description": "NEW HAVEN, Conn. (WTNH) -- School bus company First Student said it is rolling out new AI powered technology on its buses in the Hartford and New Haven regions. The Halo platform allows parents to track real-time bus routes and arrival times through an app called First View, the company said. Bus…",
+        "source": {
+          "id": "us_ct_wtnh",
+          "name": "WTNH News 8"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T02:37:54.000Z",
+        "imageUrl": "https://www.wtnh.com/wp-content/uploads/sites/100/2026/10/Halo-bus.jpg?w=900",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T02:37:54.000Z"
+    },
+    {
+      "id": "JRGFWv7XE1Gr",
+      "representative": {
+        "id": "JRGFWv7XE1Gr",
+        "url": "https://www.wtnh.com/news/connecticut/middlesex/police-seeking-information-after-dog-bites-bicyclist-in-cromwell/",
+        "canonicalUrl": "https://www.wtnh.com/news/connecticut/middlesex/police-seeking-information-after-dog-bites-bicyclist-in-cromwell/",
+        "title": "Police seeking information after dog bites bicyclist in Cromwell",
+        "description": "CROMWELL, Conn. (WTNH) — Police are seeking information after bicyclist was bitten by a dog last week in Cromwell, department officials said Tuesday. The dog bite occurred between approximately 3 p.m. and 3:30 p.m. on Thursday in the area of the soccer fields at Cromwell High School, police stated…",
+        "source": {
+          "id": "us_ct_wtnh",
+          "name": "WTNH News 8"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T00:50:34.000Z",
+        "imageUrl": "https://www.wtnh.com/wp-content/uploads/sites/100/2026/10/687039871_1302340895422164_8968883806443028906_n_b78076-e1791334717610.jpg?w=900",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T00:50:34.000Z"
+    },
+    {
+      "id": "LAzF96P8bDnB",
+      "representative": {
+        "id": "LAzF96P8bDnB",
+        "url": "https://www.ctpublic.org/news/2026-10-06/ct-families-brace-for-winter-as-oil-prices-skyrocket",
+        "canonicalUrl": "https://www.ctpublic.org/news/2026-10-06/ct-families-brace-for-winter-as-oil-prices-skyrocket",
+        "title": "CT families brace for winter as oil prices skyrocket",
+        "description": "More than 100,000 Connecticut families sought help with energy costs last year, and the price for a gallon of oil has nearly doubled since last fall.",
+        "source": {
+          "id": "us_ct_ctpublic",
+          "name": "Connecticut Public"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T23:31:52.000Z",
+        "imageUrl": "https://npr.brightspotcdn.com/dims4/default/3103bee/2147483647/strip/false/crop/3000x2000+0+0/resize/792x528!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1c%2F50%2Ff36e7e2a4371bc05bfaa76e9181b%2F0il-prices.jpg",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T23:31:52.000Z"
+    },
+    {
+      "id": "83VtE7sdWaQW",
+      "representative": {
+        "id": "83VtE7sdWaQW",
+        "url": "https://www.newhavenindependent.org/2026/10/06/chief-crafts-community-policing-3-0/",
+        "canonicalUrl": "https://www.newhavenindependent.org/2026/10/06/chief-crafts-community-policing-3-0/",
+        "title": "Chief Crafts Community Policing 3.0",
+        "description": "In \"Dateline New Haven\" interview. The post Chief Crafts Community Policing 3.0 appeared first on New Haven Independent .",
+        "source": {
+          "id": "us_ct_newhavenindependent",
+          "name": "New Haven Independent"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T20:06:28.000Z",
+        "imageUrl": "https://www.newhavenindependent.org/wp-content/uploads/2026/10/David-Zannelli-1-1024x820.png",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T20:06:28.000Z"
+    },
+    {
+      "id": "D0jz8ePvW_GD",
+      "representative": {
+        "id": "D0jz8ePvW_GD",
+        "url": "https://www.newhavenindependent.org/2026/10/06/airbnb-ban-proposed-for-non-owner-occupants/",
+        "canonicalUrl": "https://www.newhavenindependent.org/2026/10/06/airbnb-ban-proposed-for-non-owner-occupants/",
+        "title": "Airbnb Ban Proposed For Non-Owner-Occupants",
+        "description": "Three alders have proposed a new set of regulations that would ban short-term rentals like Airbnbs unless they are run by the property's owner or \"long-term resident.\" The post Airbnb Ban Proposed For Non-Owner-Occupants appeared first on New Haven Independent .",
+        "source": {
+          "id": "us_ct_newhavenindependent",
+          "name": "New Haven Independent"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T20:00:54.000Z",
+        "imageUrl": "https://www.newhavenindependent.org/wp-content/uploads/2026/10/alders123-1024x342.jpg",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T20:00:54.000Z"
+    },
+    {
+      "id": "80pfzTePcWWm",
+      "representative": {
+        "id": "80pfzTePcWWm",
+        "url": "https://ctnewsjunkie.com/2026/10/06/ct-adds-another-culinary-tourism-trail-as-tv-chefs-join-pizza-and-oysters/",
+        "canonicalUrl": "https://ctnewsjunkie.com/2026/10/06/ct-adds-another-culinary-tourism-trail-as-tv-chefs-join-pizza-and-oysters/",
+        "title": "CT Adds Another Culinary Tourism Trail As TV Chefs Join Pizza And Oysters",
+        "description": "Modeled after the state’s pizza trail, the TV-to-Table Trail is a state culinary tourism experience featuring Connecticut chefs and restaurants that have appeared on national food television programs.",
+        "source": {
+          "id": "us_ct_ctnewsjunkie",
+          "name": "CT News Junkie"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T19:50:10.000Z",
+        "imageUrl": "https://i0.wp.com/ctnewsjunkie.com/wp-content/uploads/2026/10/conant-de-20261006-1200x900-1.jpg?fit=1024%2C768&amp;ssl=1",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:50:10.000Z"
+    },
+    {
+      "id": "YHdsbNbBEdm_",
+      "representative": {
+        "id": "YHdsbNbBEdm_",
+        "url": "https://www.ctpublic.org/news/2026-10-06/yales-heritage-theater-ensemble-founded-by-actress-angela-bassett-is-back-thanks-to-her-son",
+        "canonicalUrl": "https://www.ctpublic.org/news/2026-10-06/yales-heritage-theater-ensemble-founded-by-actress-angela-bassett-is-back-thanks-to-her-son",
+        "title": "Yale’s Heritage Theater Ensemble, founded by actress Angela Bassett, is back, thanks to her son",
+        "description": "When Bassett attended Yale in the early 80s, The David Geffen School of Drama ,was primarily producing work by prolific white American and European playwrights like Shakespeare, Ibsen, and Chekhov. Vance says there were few opportunities for Black actors and even fewer stagings of work by Black…",
+        "source": {
+          "id": "us_ct_ctpublic",
+          "name": "Connecticut Public"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T18:51:10.000Z",
+        "imageUrl": "https://npr.brightspotcdn.com/dims4/default/1ba637b/2147483647/strip/false/crop/3751x2486+0+0/resize/792x525!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fed%2Fdc%2Fdf1f8d084d228fd62ce1c5143778%2Fhte-10sfwc.jpg",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:51:10.000Z"
+    },
+    {
+      "id": "9j8fupC3NpKL",
+      "representative": {
+        "id": "9j8fupC3NpKL",
+        "url": "https://www.ctpublic.org/the-reporters-notebook/2026-10-06/what-kosta-diamantis-left-behind-in-connecticut",
+        "canonicalUrl": "https://www.ctpublic.org/the-reporters-notebook/2026-10-06/what-kosta-diamantis-left-behind-in-connecticut",
+        "title": "Reporter's Notebook: What Kosta Diamantis left behind in Connecticut",
+        "description": "Information about his heavily mortgaged home in Farmington raised new questions about how Diamantis was allowed to remain free on bond as he awaited sentencing.",
+        "source": {
+          "id": "us_ct_ctpublic",
+          "name": "Connecticut Public"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T18:18:19.000Z",
+        "imageUrl": "https://npr.brightspotcdn.com/dims4/default/f0f36ce/2147483647/strip/false/crop/3000x2000+0+0/resize/792x528!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fca%2Fd6%2Fbcc2cf35478183a9f47aa5b4cfbf%2Fkosta-diamantis-2024-xx.jpg",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:18:19.000Z"
+    },
+    {
+      "id": "9C_xNX_x8UO0",
+      "representative": {
+        "id": "9C_xNX_x8UO0",
+        "url": "https://ctnewsjunkie.com/2026/10/06/teacher-retirement-board-audit-recommends-strengthened-controls-on-purchase-orders/",
+        "canonicalUrl": "https://ctnewsjunkie.com/2026/10/06/teacher-retirement-board-audit-recommends-strengthened-controls-on-purchase-orders/",
+        "title": "Teacher Retirement Board Audit Recommends Strengthened Controls On Purchase Orders",
+        "description": "In its response to the audit, management of the TRB said it was in agreement with the auditors’ finding.",
+        "source": {
+          "id": "us_ct_ctnewsjunkie",
+          "name": "CT News Junkie"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T17:01:28.000Z",
+        "imageUrl": "https://i0.wp.com/ctnewsjunkie.com/wp-content/uploads/2025/08/ct-office-building-de-20250806-1200x900-1.jpg?fit=1024%2C768&amp;ssl=1",
+        "countryCode": "US",
+        "regionCode": "US-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:01:28.000Z"
+    }
+  ]
+}
