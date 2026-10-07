@@ -4,8 +4,115 @@
   "countryName": "France",
   "regionCode": "FR-BRE",
   "regionName": "Brittany",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:11:47.256Z",
   "clusters": [
+    {
+      "id": "cRU8_Pqq2Bdj",
+      "representative": {
+        "id": "cRU8_Pqq2Bdj",
+        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/emmanuel-macron-dans-le-finistere-pour-assister-au-tir-de-missile-exclusif-7132467.php",
+        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/emmanuel-macron-dans-le-finistere-pour-assister-au-tir-de-missile-exclusif-7132467.php",
+        "title": "Emmanuel Macron dans le Finistère pour assister au tir de missile [Exclusif]",
+        "description": "INFO LE TÉLÉGRAMME. Arrivé lundi soir dans le Finistère, le président de la République Emmanuel Macron a assisté, ce mardi matin, au tir de missile annoncé depuis plusieurs jours en Bretagne.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T08:55:00.000Z",
+        "imageUrl": "https://medialb.ultimedia.com/multi/s3x5v/3m58v0u-O.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [
+        {
+          "id": "27zSNHU2rfNA",
+          "url": "https://www.ici.fr/bretagne/finistere-29/penmarch/trainee-dans-le-ciel-et-enorme-grondement-operation-militaire-et-probable-tir-de-missile-au-large-du-finistere-4200748?at_medium=lien_RSS&at_locale=13",
+          "canonicalUrl": "https://www.ici.fr/bretagne/finistere-29/penmarch/trainee-dans-le-ciel-et-enorme-grondement-operation-militaire-et-probable-tir-de-missile-au-large-du-finistere-4200748",
+          "title": "VIDÉO - \"Une formidable démonstration de crédibilité\" : Emmanuel Macron salue le tir d'un missile au large du Finistère",
+          "description": "Un tir de missile a eu lieu en mer au large du Finistère, ce mardi 6 octobre. Peu après 9 heures, de nombreux témoins indiquent avoir vu une impressionnante traînée se dessiner dans le ciel, associée à un grondement régulier. Le président de la République Emmanuel Macron était présent lors du tir.",
+          "source": {
+            "id": "ici_bretagne",
+            "name": "ici Armorique, Breizh Izel"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T15:18:57.000Z",
+          "imageUrl": "https://www.ici.fr/pikapi/images/a2ca1dbb-e6cd-45ff-8cce-49e5a3a3471a/920x517?webp=false",
+          "countryCode": "FR",
+          "regionCode": "FR-BRE"
+        },
+        {
+          "id": "z6k_rLZXl3Gc",
+          "url": "https://france3-regions.franceinfo.fr/bretagne/finistere/quimper/emmanuel-macron-dans-le-finistere-ce-6-octobre-pour-le-tir-d-un-missile-intercontinental-3428772.html",
+          "canonicalUrl": "https://france3-regions.franceinfo.fr/bretagne/finistere/quimper/emmanuel-macron-dans-le-finistere-ce-6-octobre-pour-le-tir-d-un-missile-intercontinental-3428772.html",
+          "title": "Emmanuel Macron dans le Finistère ce 6 octobre pour le tir d'un missile intercontinental",
+          "description": "Emmanuel Macron a assisté ce mardi 6 octobre à un \"premier tir\" d'exercice d'un missile intercontinental lancé depuis un sous-marin nucléaire lanceur d'engins au large du Finistère. L'information a été faite par l'Elysée et le ministère des Armées.",
+          "source": {
+            "id": "france3_bretagne",
+            "name": "France 3 Bretagne"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:50:16.000Z",
+          "imageUrl": "https://france3-regions.franceinfo.fr/image/38BaLPoEVYMLnbIy7gQWGrDAXGg/930x620/filters:format(webp)/regions/2026/10/06/6ac4ee595bdaf843252888.png",
+          "countryCode": "FR",
+          "regionCode": "FR-BRE"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T15:18:57.000Z"
+    },
+    {
+      "id": "FL8LvVTX7tzu",
+      "representative": {
+        "id": "FL8LvVTX7tzu",
+        "url": "https://www.ici.fr/bretagne/finistere-29/brest/mouvement-des-lyceens-a-brest-la-colere-ne-s-eteint-pas-6305869?at_medium=lien_RSS&at_locale=20",
+        "canonicalUrl": "https://www.ici.fr/bretagne/finistere-29/brest/mouvement-des-lyceens-a-brest-la-colere-ne-s-eteint-pas-6305869",
+        "title": "Mouvement des lycéens : à Brest, la colère ne s'éteint pas",
+        "description": "Des centaines de jeunes se sont rassemblés mercredi 7 octobre devant la cité scolaire de Kérichen, toujours bloquée. Les plus radicaux ont allumé des feux de poubelles et incendié une voiture. Des lycéens dépités face à la réponse du gouvernement, jugée en décalage total avec les revendications.",
+        "source": {
+          "id": "ici_bretagne",
+          "name": "ici Armorique, Breizh Izel"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T10:24:35.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/ea453418-8108-47ea-ad15-07f90fdbfadc/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:24:35.000Z"
+    },
+    {
+      "id": "TLnud22NV3sg",
+      "representative": {
+        "id": "TLnud22NV3sg",
+        "url": "https://www.ici.fr/bretagne/ille-et-vilaine-35/maen-roch/il-parie-au-qatar-prix-de-l-arc-de-triomphe-ce-joueur-d-ille-et-vilaine-empoche-plus-de-140-000-euros-3260599?at_medium=lien_RSS&at_locale=13",
+        "canonicalUrl": "https://www.ici.fr/bretagne/ille-et-vilaine-35/maen-roch/il-parie-au-qatar-prix-de-l-arc-de-triomphe-ce-joueur-d-ille-et-vilaine-empoche-plus-de-140-000-euros-3260599",
+        "title": "Il parie sur le Qatar prix de l'Arc de Triomphe : ce joueur d'Ille-et-Vilaine empoche plus de 140.000 euros",
+        "description": "Le Qatar prix de l'Arc de Triomphe, qui se disputait dimanche 4 octobre sur l'hippodrome de Longchamp, a souri à un joueur d'Ille-et-Vilaine qui est devenu un grand gagnant PMU. Il a remporté plus de 140.000 euros en validant son ticket à Saint-Brice-en-Coglès.",
+        "source": {
+          "id": "ici_bretagne",
+          "name": "ici Armorique, Breizh Izel"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T09:53:52.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/7a22e3d2-bf23-48f4-8e7c-52d493e457e5/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:53:52.000Z"
+    },
     {
       "id": "TDqQCxtml1ig",
       "representative": {
@@ -79,6 +186,78 @@
       "latestPublishedAt": "2026-10-07T06:24:13.000Z"
     },
     {
+      "id": "tTjAfyWjslus",
+      "representative": {
+        "id": "tTjAfyWjslus",
+        "url": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-armorique/veronique-blier-conseillere-en-circuits-courts-a-la-chambre-d-agriculture-de-bretagne-3165908?at_medium=lien_RSS&at_locale=13",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-armorique/veronique-blier-conseillere-en-circuits-courts-a-la-chambre-d-agriculture-de-bretagne-3165908",
+        "title": "\"Satisfaction et fierté\" c'est ce qui ressort du 1er baromètre sur les circuits-courts en Bretagne",
+        "description": "C'est une première en France, la Chambre d'Agriculture de Bretagne a présenté mardi 6 octobre les résultats de son baromètre des circuits courts. Cela concerne plus de 3.000 agriculteurs bretons.",
+        "source": {
+          "id": "ici_bretagne",
+          "name": "ici Armorique, Breizh Izel"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:45:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/e27fda79-59ee-4776-a621-039f490d1758/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:45:00.000Z"
+    },
+    {
+      "id": "y_v_f32Z7VGS",
+      "representative": {
+        "id": "y_v_f32Z7VGS",
+        "url": "https://www.ici.fr/emissions/l-invite-actu-ici-breizh-izel/il-faut-un-mois-et-demi-de-precipitations-pour-mettre-fin-a-la-secheresse-un-deficit-record-en-bretagne-9340123?at_medium=lien_RSS&at_locale=20",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-actu-ici-breizh-izel/il-faut-un-mois-et-demi-de-precipitations-pour-mettre-fin-a-la-secheresse-un-deficit-record-en-bretagne-9340123",
+        "title": "\"Il faut un mois et demi de précipitations pour mettre fin à la sécheresse\" : un déficit record en Bretagne",
+        "description": "Sébastien Decaux, météorologue à Météo Bretagne, est l'invité d'ICI Matin, ce 7 octobre 2026. Après les pluies d'hier, il revient sur la sécheresse historique et le niveau critique des cours d'eau dans le Finistère.",
+        "source": {
+          "id": "ici_bretagne",
+          "name": "ici Armorique, Breizh Izel"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:45:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/5038b07c-4a01-4d09-af3d-ad21fab66d30/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:45:00.000Z"
+    },
+    {
+      "id": "Qf5884O8G8J0",
+      "representative": {
+        "id": "Qf5884O8G8J0",
+        "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-armorique/on-se-sent-moins-seuls-les-lyceens-soutenus-par-les-adultes-a-rennes-6388863?at_medium=lien_RSS&at_locale=13",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-armorique/on-se-sent-moins-seuls-les-lyceens-soutenus-par-les-adultes-a-rennes-6388863",
+        "title": "\"On se sent moins seuls\", les lycéens soutenus par les adultes dans la manifestation à Rennes",
+        "description": "À Rennes, plus de 10.000 personnes ont manifesté ce mardi 6 octobre, plutôt dans le calme, même si quelques heurts avec les policiers sont à signaler. Dans le cortège, des enseignants, des parents et des étudiants. Une mobilisation qui ravit les lycéens.",
+        "source": {
+          "id": "ici_bretagne",
+          "name": "ici Armorique, Breizh Izel"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:32:30.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/ebf2046c-d4bf-4d87-932b-d3d558850b88/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:32:30.000Z"
+    },
+    {
       "id": "gyN7KX10-Inc",
       "representative": {
         "id": "gyN7KX10-Inc",
@@ -101,6 +280,78 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T05:25:00.000Z"
+    },
+    {
+      "id": "U_s67eRsVa_a",
+      "representative": {
+        "id": "U_s67eRsVa_a",
+        "url": "https://www.ici.fr/infos/economie-social/carte-station-service-moins-chere-prix-des-carburants-autour-de-vous-4934700?at_medium=lien_RSS&at_locale=13",
+        "canonicalUrl": "https://www.ici.fr/infos/economie-social/carte-station-service-moins-chere-prix-des-carburants-autour-de-vous-4934700",
+        "title": "Prix des carburants : trouvez la station-service la moins chère près de chez vous",
+        "description": "Les prix des carburants continuent de grimper en France en raison de la guerre au Moyen-Orient. De nouveaux records ont été atteints. Suivez l'évolution du prix des carburants près de chez vous avec ICI.",
+        "source": {
+          "id": "ici_bretagne",
+          "name": "ici Armorique, Breizh Izel"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:15:06.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/ebfc797c-eb1b-46a6-8a82-4f9ddcf97e79/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:15:06.000Z"
+    },
+    {
+      "id": "Ul_nLZRZKmdc",
+      "representative": {
+        "id": "Ul_nLZRZKmdc",
+        "url": "https://www.ici.fr/emissions/keleier-ar-reportaj/e-brezhoneg-dans-les-cotes-d-armor-le-syndicat-de-goas-koll-traou-long-etudie-la-reouverture-d-anciens-captages-7080896?at_medium=lien_RSS&at_locale=20",
+        "canonicalUrl": "https://www.ici.fr/emissions/keleier-ar-reportaj/e-brezhoneg-dans-les-cotes-d-armor-le-syndicat-de-goas-koll-traou-long-etudie-la-reouverture-d-anciens-captages-7080896",
+        "title": "E brezhoneg - Lycéens et syndicats mobilisés à Morlaix pour réclamer de meilleures conditions d'enseignement.",
+        "description": "Kalz a liseidi 'oa er straedoù d'ar meurzh 6 a viz Here, bodet asambles gant kelennerien ha tud all, deuet da souten anezhe en o stourm. E Brest 'oa war-dro 6.000 a vanifesterien. 'Tro 1.000 den e Kemper. Ha kantadoù a dud ivez e Montroulez.",
+        "source": {
+          "id": "ici_bretagne",
+          "name": "ici Armorique, Breizh Izel"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T04:35:30.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/adcd4e1f-b2b9-405c-bdb3-ae5dd6ce99cb/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:35:30.000Z"
+    },
+    {
+      "id": "EalfNOaQAxDX",
+      "representative": {
+        "id": "EalfNOaQAxDX",
+        "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-armorique/il-est-fait-pour-retenir-les-debordements-d-eau-a-rennes-un-bassin-tampon-pour-mieux-gerer-les-fortes-pluies-4246965?at_medium=lien_RSS&at_locale=13",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-armorique/il-est-fait-pour-retenir-les-debordements-d-eau-a-rennes-un-bassin-tampon-pour-mieux-gerer-les-fortes-pluies-4246965",
+        "title": "\"Il est fait pour retenir les débordements d'eau\" : à Rennes, un bassin tampon pour mieux gérer les fortes pluies",
+        "description": "Rennes Métropole inaugure ce mercredi 7 octobre un nouveau bassin tampon, dans le quartier Saint-Hélier. Un ouvrage sous-terre, quasiment invisible pour les passants, dont l'objectif est de mieux gérer les eaux de pluie et usagées, afin qu'elles se déversent moins dans la Vilaine.",
+        "source": {
+          "id": "ici_bretagne",
+          "name": "ici Armorique, Breizh Izel"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T04:32:30.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/260cd5ac-ed51-4272-aa76-d0c248ddc2f8/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:32:30.000Z"
     },
     {
       "id": "UUsnYL7r7wWR",
@@ -149,222 +400,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T03:30:00.000Z"
-    },
-    {
-      "id": "tKKnSi4FWKL-",
-      "representative": {
-        "id": "tKKnSi4FWKL-",
-        "url": "https://www.letelegramme.fr/france/direct-lyceens-en-colere-des-dizaines-de-milliers-de-lyceens-sappretent-a-manifester-ce-mardi-dans-toute-la-france-7132244.php",
-        "canonicalUrl": "https://www.letelegramme.fr/france/direct-lyceens-en-colere-des-dizaines-de-milliers-de-lyceens-sappretent-a-manifester-ce-mardi-dans-toute-la-france-7132244.php",
-        "title": "DIRECT - Colère des lycéens : en France, des appels à la poursuite de la mobilisation",
-        "description": "Ce mardi, \"l'acte III\" a démarré avec un bilan alourdi de blessés graves. Dans un climat social tendu, les élèves, qui réclament plus de moyens pour leurs établissements, ont reçu le soutien des syndicats. Revivez notre direct.",
-        "source": {
-          "id": "letelegramme",
-          "name": "Le Télégramme"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T19:56:20.000Z",
-        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac4d5ba10957c277b052710/web_golden_xxl/6ac4d5ba10957c277b052710.1",
-        "countryCode": "FR",
-        "regionCode": "FR-BRE"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T19:56:20.000Z"
-    },
-    {
-      "id": "F1X9t5laVocS",
-      "representative": {
-        "id": "F1X9t5laVocS",
-        "url": "https://www.letelegramme.fr/cotes-d-armor/saint-quay-portrieux-22410/proces-thierry-meunier-moi-je-me-suis-fait-abuser-financierement-mais-veronique-est-allee-plus-loin-avec-lui-7133114.php",
-        "canonicalUrl": "https://www.letelegramme.fr/cotes-d-armor/saint-quay-portrieux-22410/proces-thierry-meunier-moi-je-me-suis-fait-abuser-financierement-mais-veronique-est-allee-plus-loin-avec-lui-7133114.php",
-        "title": "Procès Thierry Meunier : « Moi, je me suis fait abuser financièrement mais Véronique est allée plus loin avec lui »",
-        "description": "L’examen de la personnalité de l’accusé s’est achevé, ce mardi après-midi, devant la cour d’assises des Côtes-d’Armor. Le récit d’E., décrivant un homme oisif et vindicatif vivant à ses crochets, a captivé l’audience.",
-        "source": {
-          "id": "letelegramme",
-          "name": "Le Télégramme"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T19:09:00.000Z",
-        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac54804068468fe0c0e96c2/web_golden_xxl/6ac54804068468fe0c0e96c2.1",
-        "countryCode": "FR",
-        "regionCode": "FR-BRE"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T19:09:00.000Z"
-    },
-    {
-      "id": "y-IXCAbZnCQH",
-      "representative": {
-        "id": "y-IXCAbZnCQH",
-        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/treize-ans-de-prison-pour-le-beau-pere-reconnu-coupable-de-viols-incestueux-dans-le-morbihan-7133105.php",
-        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/treize-ans-de-prison-pour-le-beau-pere-reconnu-coupable-de-viols-incestueux-dans-le-morbihan-7133105.php",
-        "title": "Treize ans de prison pour le beau-père reconnu coupable de viols incestueux dans le Morbihan",
-        "description": "La cour d’assises du Morbihan a condamné, à treize ans de réclusion criminelle, un homme de 51 ans jugé, depuis lundi, pour les viols et les agressions sexuelles commis sur sa belle-fille, en 2016 et 2017, près de Vannes. Elle avait 10 ans.",
-        "source": {
-          "id": "letelegramme",
-          "name": "Le Télégramme"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T18:39:00.000Z",
-        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac540efdcf5b40dc5000b92/web_golden_xxl/6ac540efdcf5b40dc5000b92.1",
-        "countryCode": "FR",
-        "regionCode": "FR-BRE"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T18:39:00.000Z"
-    },
-    {
-      "id": "nSsRv1xw7hoI",
-      "representative": {
-        "id": "nSsRv1xw7hoI",
-        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/en-ille-et-vilaine-la-justice-maintient-linterdiction-de-rassemblements-autour-de-36-lycees-7133087.php",
-        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/en-ille-et-vilaine-la-justice-maintient-linterdiction-de-rassemblements-autour-de-36-lycees-7133087.php",
-        "title": "En Ille-et-Vilaine, la justice maintient l’interdiction de rassemblements autour de 36 lycées",
-        "description": "Le tribunal administratif de Rennes a rejeté, ce mardi, les recours contre l’interdiction de rassemblement autour de 36 lycées d’Ille-et-Vilaine. La mesure, prise par la préfète, est donc maintenue.",
-        "source": {
-          "id": "letelegramme",
-          "name": "Le Télégramme"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T17:24:00.000Z",
-        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac52edc72d822c862075ad0/web_golden_xxl/6ac52edc72d822c862075ad0.1",
-        "countryCode": "FR",
-        "regionCode": "FR-BRE"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:24:00.000Z"
-    },
-    {
-      "id": "BcfNf0m5dgKD",
-      "representative": {
-        "id": "BcfNf0m5dgKD",
-        "url": "https://france3-regions.franceinfo.fr/bretagne/ille-et-vilaine/rennes/octobre-rose-garder-confiance-en-soi-malgre-la-maladie-3429030.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/bretagne/ille-et-vilaine/rennes/octobre-rose-garder-confiance-en-soi-malgre-la-maladie-3429030.html",
-        "title": "Octobre rose : Garder confiance en soi malgré la maladie",
-        "description": "Penser à son bien-être, à sa féminité, pas toujours simple quand le corps et le moral sont affectés par le cancer. En ce mois d'Octobre Rose, des ateliers pour reprendre confiance sont proposés à des femmes suivies en cancérologie au centre Eugène Marquis de Rennes.",
-        "source": {
-          "id": "france3_bretagne",
-          "name": "France 3 Bretagne"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T17:16:55.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/h--3WSTBlM3ZOnn8qmVRuP0t8mE/930x620/filters:format(webp)/regions/2026/10/06/6ac5175971e3f680893638.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-BRE"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:16:55.000Z"
-    },
-    {
-      "id": "hBDp_8bhTkAo",
-      "representative": {
-        "id": "hBDp_8bhTkAo",
-        "url": "https://www.letelegramme.fr/finistere/quimper-29000/cest-une-complicite-qui-se-cree-ce-quimperois-senvole-pour-madagascar-dans-le-but-dappareiller-enfants-sourds-et-malentendants-7133076.php",
-        "canonicalUrl": "https://www.letelegramme.fr/finistere/quimper-29000/cest-une-complicite-qui-se-cree-ce-quimperois-senvole-pour-madagascar-dans-le-but-dappareiller-enfants-sourds-et-malentendants-7133076.php",
-        "title": "« C’est une complicité qui se crée » : ce Quimpérois s’envole pour Madagascar dans le but d’appareiller enfants sourds et malentendants",
-        "description": "Quinze professionnels de l’audition, tous mécènes de l’association Audition Solidarité, prennent le cap vers la capitale de Madagascar, dont le Quimpérois Mathieu Le Treut, avec pour objectif d’appareiller, contrôler et remplacer le suivi de près de 200 enfants sourds et malentendants du 13 au 21…",
-        "source": {
-          "id": "letelegramme",
-          "name": "Le Télégramme"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T17:15:00.000Z",
-        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac54bf04df34f047e0b4c3c/web_golden_xxl/6ac54bf04df34f047e0b4c3c.1",
-        "countryCode": "FR",
-        "regionCode": "FR-BRE"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:15:00.000Z"
-    },
-    {
-      "id": "liccLY47_AC5",
-      "representative": {
-        "id": "liccLY47_AC5",
-        "url": "https://www.letelegramme.fr/finistere/declassement-nitrates-dans-les-monts-darree-des-associations-attaquent-en-justice-la-decision-du-prefet-7133081.php",
-        "canonicalUrl": "https://www.letelegramme.fr/finistere/declassement-nitrates-dans-les-monts-darree-des-associations-attaquent-en-justice-la-decision-du-prefet-7133081.php",
-        "title": "Déclassement nitrates dans les monts d’Arrée : des associations attaquent en justice la décision du préfet",
-        "description": "L’exclusion de neuf communes des monts d’Arrée (29) du classement « zones vulnérables à la pollution par les nitrates d’origine agricole » ne passe pas pour deux associations environnementales qui ont décidé de saisir le juge administratif afin de faire annuler cette décision.",
-        "source": {
-          "id": "letelegramme",
-          "name": "Le Télégramme"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T17:14:00.000Z",
-        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac537998e11b4fb28043780/web_golden_xxl/6ac537998e11b4fb28043780.1",
-        "countryCode": "FR",
-        "regionCode": "FR-BRE"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:14:00.000Z"
-    },
-    {
-      "id": "jVCw9HrmrTu4",
-      "representative": {
-        "id": "jVCw9HrmrTu4",
-        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/cette-operation-permet-de-soulager-la-population-la-gendarmerie-interpelle-six-suspects-dans-laffaire-des-motos-volees-autour-de-henon-7133078.php",
-        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/cette-operation-permet-de-soulager-la-population-la-gendarmerie-interpelle-six-suspects-dans-laffaire-des-motos-volees-autour-de-henon-7133078.php",
-        "title": "« Cette opération permet de soulager la population » : la gendarmerie interpelle six suspects dans l’affaire des motos volées autour d’Hénon",
-        "description": "Après des mois d’angoisse et d’exaspération dans le secteur d’Hénon (22), l’enquête sur la vague de vols de motos a donné lieu à une importante opération de gendarmerie, lundi. Six suspects ont été interpellés et placés en garde à vue.",
-        "source": {
-          "id": "letelegramme",
-          "name": "Le Télégramme"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T17:10:00.000Z",
-        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac52d5ecb071da73d004e5f/web_golden_xxl/6ac52d5ecb071da73d004e5f.1",
-        "countryCode": "FR",
-        "regionCode": "FR-BRE"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:10:00.000Z"
-    },
-    {
-      "id": "Nl9jC8nTUdYb",
-      "representative": {
-        "id": "Nl9jC8nTUdYb",
-        "url": "https://france3-regions.franceinfo.fr/bretagne/finistere/permis-de-construire-suspendu-sur-le-littoral-breton-la-rehabilitation-d-un-grand-hotel-ralentie-dans-le-sable-judiciaire-3429051.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/bretagne/finistere/permis-de-construire-suspendu-sur-le-littoral-breton-la-rehabilitation-d-un-grand-hotel-ralentie-dans-le-sable-judiciaire-3429051.html",
-        "title": "Permis de construire suspendu. Sur le littoral breton, la \"réhabilitation\" d'un Grand Hôtel ralentie dans le sable judiciaire",
-        "description": "C’est un projet qui fait polémique dans le Finistère. À Lesconil, une filiale du groupe Legendre avait obtenu un permis de construire pour une \"réhabilitation\" de l’emblématique \"Grand hôtel des dunes\". Face à l'ampleur du projet, une association et des riverains avaient saisi la justice. Le…",
-        "source": {
-          "id": "france3_bretagne",
-          "name": "France 3 Bretagne"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T16:43:14.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/R52BtWURlBvgIlTN6tSX5T52kF4/930x620/filters:format(webp)/regions/2025/09/03/jtr-s-transformation-de-h-tel-des-dunes-lesconil-fait-des-remous-00-00-13-08-68b83595e9892561777984.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-BRE"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:43:14.000Z"
     }
   ]
 }

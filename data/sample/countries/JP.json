@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "JP",
   "countryName": "Japan",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:11:47.256Z",
   "clusters": [
     {
       "id": "kfM_yhuQB6tI",
@@ -155,48 +155,6 @@
       "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T12:39:43.000Z"
-    },
-    {
-      "id": "bhrlSNgPX_59",
-      "representative": {
-        "id": "bhrlSNgPX_59",
-        "url": "http://www.asahi.com/articles/ASVB62G5NVB6ULOB00LM.html?ref=rss",
-        "canonicalUrl": "http://www.asahi.com/articles/ASVB62G5NVB6ULOB00LM.html",
-        "title": "2歳児が車にはねられ死亡 駐車場出る際に衝突か 神奈川県鎌倉市",
-        "description": null,
-        "source": {
-          "id": "asahi",
-          "name": "Asahi Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T12:16:39.000Z",
-        "imageUrl": null,
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "LEzX3GyLeEnH",
-          "url": "https://mainichi.jp/articles/20261006/k00/00m/310/293000c",
-          "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/310/293000c",
-          "title": "2歳男児が乗用車にはねられ死亡 駐車場で歩行中 神奈川・鎌倉",
-          "description": null,
-          "source": {
-            "id": "mainichi",
-            "name": "Mainichi Shimbun"
-          },
-          "sourceCountry": "JP",
-          "language": "ja",
-          "publishedAt": "2026-10-06T12:01:51.000Z",
-          "imageUrl": null,
-          "countryCode": "JP",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:16:39.000Z"
     },
     {
       "id": "Ja5qDLzjUzmb",
@@ -503,6 +461,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:47:51.000Z"
+    },
+    {
+      "id": "6v0I7y0cU_ZV",
+      "representative": {
+        "id": "6v0I7y0cU_ZV",
+        "url": "https://newsdig.tbs.co.jp/articles/-/2994082",
+        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994082",
+        "title": "【冒頭全文】「今年2月に問い合わせがあった」国交省が公表 簗農水大臣の“予算カット”発言めぐり 国交省から簗大臣に説明も",
+        "description": "簗和生・農林水産大臣が「自民党を支持しなかった自治体の道路予算を大幅にカットした」などと発言した問題について、国土交通省は「簗議員から今年2月に予算配分額について問い合わせがあった」と説明しました。冒頭部分を全文公開します。那須烏山市･那珂川町の実施事業は前年比で“減”道路予算にか",
+        "source": {
+          "id": "tbs",
+          "name": "TBS News Dig"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:45:28.000Z",
+        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/0/2/1200xm/img_026dbbd5828eb62782bf0f67f6311fe5878405.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:45:28.000Z"
     }
   ]
 }

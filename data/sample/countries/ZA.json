@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "ZA",
   "countryName": "South Africa",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:11:47.256Z",
   "clusters": [
-    {
-      "id": "P6J3-WEi7ijs",
-      "representative": {
-        "id": "P6J3-WEi7ijs",
-        "url": "https://www.enca.com/news-top-stories/thabo-bester-fires-lawyers-represent-himself-prison-escape-trial",
-        "canonicalUrl": "https://www.enca.com/news-top-stories/thabo-bester-fires-lawyers-represent-himself-prison-escape-trial",
-        "title": "Thabo Bester fires lawyers, to represent himself in prison escape trial",
-        "description": "Thabo Bester fires lawyers, to represent himself in prison escape trial Nokuthula Khanyile Tue, 10/06/2026 - 14:00 BLOEMFONTEIN - Convicted rapist Thabo Bester has fired his legal representatives in his prison escape trial and will represent himself when the trial begins in April 2027. He will…",
-        "source": {
-          "id": "enca",
-          "name": "eNCA"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:00:00.000Z",
-        "imageUrl": "https://www.enca.com/sites/default/files/styles/banner_image/public/2026-03/ED_508333.jpg.webp?itok=1AbSp97d",
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "y2QVYSmpTyl8",
-          "url": "https://iol.co.za/news/crime-and-courts/2026-10-06-thabo-bester-expected-to-represent-himself-in-2027-trial/",
-          "canonicalUrl": "https://iol.co.za/news/crime-and-courts/2026-10-06-thabo-bester-expected-to-represent-himself-in-2027-trial/",
-          "title": "Thabo Bester expected to represent himself in 2027 trial",
-          "description": "Thabo Bester is expected to represent himself at his provisional 2027 trial after dismissing his legal team.",
-          "source": {
-            "id": "iol",
-            "name": "IOL"
-          },
-          "sourceCountry": "ZA",
-          "language": "en",
-          "publishedAt": "2026-10-06T13:17:00.000Z",
-          "imageUrl": "https://iol-prod.appspot.com/image/90bc0e6d07798de215e628f36d2eb7641c610d9e",
-          "countryCode": "ZA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:17:00.000Z"
-    },
     {
       "id": "VXA51BbNWudE",
       "representative": {
@@ -117,6 +75,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:29:26.000Z"
+    },
+    {
+      "id": "P6J3-WEi7ijs",
+      "representative": {
+        "id": "P6J3-WEi7ijs",
+        "url": "https://www.enca.com/news-top-stories/thabo-bester-fires-lawyers-represent-himself-prison-escape-trial",
+        "canonicalUrl": "https://www.enca.com/news-top-stories/thabo-bester-fires-lawyers-represent-himself-prison-escape-trial",
+        "title": "Thabo Bester fires lawyers, to represent himself in prison escape trial",
+        "description": "Thabo Bester fires lawyers, to represent himself in prison escape trial Nokuthula Khanyile Tue, 10/06/2026 - 14:00 BLOEMFONTEIN - Convicted rapist Thabo Bester has fired his legal representatives in his prison escape trial and will represent himself when the trial begins in April 2027. He will…",
+        "source": {
+          "id": "enca",
+          "name": "eNCA"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:00:00.000Z",
+        "imageUrl": "https://www.enca.com/sites/default/files/styles/banner_image/public/2026-03/ED_508333.jpg.webp?itok=1AbSp97d",
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "y2QVYSmpTyl8",
+          "url": "https://iol.co.za/news/crime-and-courts/2026-10-06-thabo-bester-expected-to-represent-himself-in-2027-trial/",
+          "canonicalUrl": "https://iol.co.za/news/crime-and-courts/2026-10-06-thabo-bester-expected-to-represent-himself-in-2027-trial/",
+          "title": "Thabo Bester expected to represent himself in 2027 trial",
+          "description": "Thabo Bester is expected to represent himself at his provisional 2027 trial after dismissing his legal team.",
+          "source": {
+            "id": "iol",
+            "name": "IOL"
+          },
+          "sourceCountry": "ZA",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:17:00.000Z",
+          "imageUrl": "https://iol-prod.appspot.com/image/90bc0e6d07798de215e628f36d2eb7641c610d9e",
+          "countryCode": "ZA",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:17:00.000Z"
     },
     {
       "id": "y8VpDrApedkT",

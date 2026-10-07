@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "HU",
   "countryName": "Hungary",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:11:47.256Z",
   "clusters": [
     {
       "id": "OJjYQ_QU1gDQ",
@@ -123,65 +123,6 @@
       "latestPublishedAt": "2026-10-06T12:50:12.000Z"
     },
     {
-      "id": "HZnyEoW3-ISC",
-      "representative": {
-        "id": "HZnyEoW3-ISC",
-        "url": "https://telex.hu/sport/2026/10/06/nob-kozlemeny-2036-olimpia-palyazok-magyarorszag",
-        "canonicalUrl": "https://telex.hu/sport/2026/10/06/nob-kozlemeny-2036-olimpia-palyazok-magyarorszag",
-        "title": "A NOB szerint Magyarország is jelezte rendezési szándékát a 2036-os nyári olimpiára és paralimpiára",
-        "description": "Magyarország mellett hat ország folytat párbeszédet a NOB-bal.",
-        "source": {
-          "id": "telex",
-          "name": "Telex"
-        },
-        "sourceCountry": "HU",
-        "language": "hu",
-        "publishedAt": "2026-10-06T11:58:26.000Z",
-        "imageUrl": "https://assets.telex.hu/images/20261006/1791289068-temp-2dom2tg5tbsu5pognln_cimlap-normal.jpg",
-        "countryCode": "HU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "f1WzktFPJvV3",
-          "url": "https://24.hu/sport/2026/10/06/olimpia-2036-magyarorszag-es-meg-hat-orszag-rendezne/",
-          "canonicalUrl": "https://24.hu/sport/2026/10/06/olimpia-2036-magyarorszag-es-meg-hat-orszag-rendezne/",
-          "title": "Olimpia 2036: Magyarország mellett hat ország jelezte rendezési szándékát",
-          "description": "A jelentkezés hivatalos határideje október 31., új kandidáló ugyanakkor nem várható, a NOB ekkor lezárja a jelöltlistát. The post Olimpia 2036: Magyarország mellett hat ország jelezte rendezési szándékát first appeared on 24.hu .",
-          "source": {
-            "id": "24hu",
-            "name": "24.hu"
-          },
-          "sourceCountry": "HU",
-          "language": "hu",
-          "publishedAt": "2026-10-06T12:37:29.000Z",
-          "imageUrl": "https://s.24.hu/app/uploads/2026/10/olimpia-1024x576.jpg",
-          "countryCode": "HU",
-          "regionCode": null
-        },
-        {
-          "id": "JxygMuxk_KOa",
-          "url": "https://index.hu/sport/2026/10/06/olimpia-2036-rendezes-magyarorszag-hivatalos-palyazat-nemzetkozi-olimpiai-bizottsag/",
-          "canonicalUrl": "https://index.hu/sport/2026/10/06/olimpia-2036-rendezes-magyarorszag-hivatalos-palyazat-nemzetkozi-olimpiai-bizottsag/",
-          "title": "Magyarország hivatalosan jelezte rendezési szándékát a 2036-os olimpiára és paralimpiára",
-          "description": "Ön szerint jó ötlet lenne?",
-          "source": {
-            "id": "index_hu",
-            "name": "Index"
-          },
-          "sourceCountry": "HU",
-          "language": "hu",
-          "publishedAt": "2026-10-06T12:17:00.000Z",
-          "imageUrl": "https://kep.index.hu/1/0/7193/71937/719377/71937749_5302785_9629a7d2c9150448627310f564d66536_wm.jpg",
-          "countryCode": "HU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:37:29.000Z"
-    },
-    {
       "id": "op79Ulc2NIIh",
       "representative": {
         "id": "op79Ulc2NIIh",
@@ -264,6 +205,65 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:27:06.000Z"
+    },
+    {
+      "id": "HZnyEoW3-ISC",
+      "representative": {
+        "id": "HZnyEoW3-ISC",
+        "url": "https://telex.hu/sport/2026/10/06/nob-kozlemeny-2036-olimpia-palyazok-magyarorszag",
+        "canonicalUrl": "https://telex.hu/sport/2026/10/06/nob-kozlemeny-2036-olimpia-palyazok-magyarorszag",
+        "title": "A NOB szerint Magyarország is jelezte rendezési szándékát a 2036-os nyári olimpiára és paralimpiára",
+        "description": "Magyarország mellett hat ország folytat párbeszédet a NOB-bal.",
+        "source": {
+          "id": "telex",
+          "name": "Telex"
+        },
+        "sourceCountry": "HU",
+        "language": "hu",
+        "publishedAt": "2026-10-06T11:58:26.000Z",
+        "imageUrl": "https://assets.telex.hu/images/20261006/1791289068-temp-2dom2tg5tbsu5pognln_cimlap-normal.jpg",
+        "countryCode": "HU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "f1WzktFPJvV3",
+          "url": "https://24.hu/sport/2026/10/06/olimpia-2036-magyarorszag-es-meg-hat-orszag-rendezne/",
+          "canonicalUrl": "https://24.hu/sport/2026/10/06/olimpia-2036-magyarorszag-es-meg-hat-orszag-rendezne/",
+          "title": "Olimpia 2036: Magyarország mellett hat ország jelezte rendezési szándékát",
+          "description": "A jelentkezés hivatalos határideje október 31., új kandidáló ugyanakkor nem várható, a NOB ekkor lezárja a jelöltlistát. The post Olimpia 2036: Magyarország mellett hat ország jelezte rendezési szándékát first appeared on 24.hu .",
+          "source": {
+            "id": "24hu",
+            "name": "24.hu"
+          },
+          "sourceCountry": "HU",
+          "language": "hu",
+          "publishedAt": "2026-10-06T12:37:29.000Z",
+          "imageUrl": "https://s.24.hu/app/uploads/2026/10/olimpia-1024x576.jpg",
+          "countryCode": "HU",
+          "regionCode": null
+        },
+        {
+          "id": "JxygMuxk_KOa",
+          "url": "https://index.hu/sport/2026/10/06/olimpia-2036-rendezes-magyarorszag-hivatalos-palyazat-nemzetkozi-olimpiai-bizottsag/",
+          "canonicalUrl": "https://index.hu/sport/2026/10/06/olimpia-2036-rendezes-magyarorszag-hivatalos-palyazat-nemzetkozi-olimpiai-bizottsag/",
+          "title": "Magyarország hivatalosan jelezte rendezési szándékát a 2036-os olimpiára és paralimpiára",
+          "description": "Ön szerint jó ötlet lenne?",
+          "source": {
+            "id": "index_hu",
+            "name": "Index"
+          },
+          "sourceCountry": "HU",
+          "language": "hu",
+          "publishedAt": "2026-10-06T12:17:00.000Z",
+          "imageUrl": "https://kep.index.hu/1/0/7193/71937/719377/71937749_5302785_9629a7d2c9150448627310f564d66536_wm.jpg",
+          "countryCode": "HU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T12:37:29.000Z"
     },
     {
       "id": "7wYqCf3XDGd-",

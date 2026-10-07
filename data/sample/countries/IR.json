@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IR",
   "countryName": "Iran",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:11:47.256Z",
   "clusters": [
     {
       "id": "5p6ur6II-HHU",
@@ -273,48 +273,6 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T16:06:17.000Z"
-    },
-    {
-      "id": "8gSQulcIKdjA",
-      "representative": {
-        "id": "8gSQulcIKdjA",
-        "url": "https://www.khabaronline.ir/news/2284668/%D8%AC%D8%B2%D8%A6%DB%8C%D8%A7%D8%AA-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%88%D8%B2%DB%8C%D8%B1-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D8%A7-%D8%A7%D9%85%DB%8C%D8%B1-%D9%82%D8%B7%D8%B1-%D9%81%DB%8C%D9%84%D9%85",
-        "canonicalUrl": "https://www.khabaronline.ir/news/2284668/%D8%AC%D8%B2%D8%A6%DB%8C%D8%A7%D8%AA-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%88%D8%B2%DB%8C%D8%B1-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D8%A7-%D8%A7%D9%85%DB%8C%D8%B1-%D9%82%D8%B7%D8%B1-%D9%81%DB%8C%D9%84%D9%85",
-        "title": "جزئیات دیدار وزیر کشور با امیر قطر + فیلم",
-        "description": "اسکندر مومنی جزئیاتی از دیدار با امیر قطر را تشریح کرد و گفت: «گفتگوی خوب و سازنده‌ای درباره موضوعات بین دو کشور داشتیم. روابط ایران و قطر، یک رابطه خوب، برادرانه و سازنده‌ای است. امیر قطر درباره تحولات منطقه نکات و نظراتی داشتند که به استحضار رئیس جمهور خواهم رساند.»/خبرفوری",
-        "source": {
-          "id": "khabaronline",
-          "name": "Khabar Online"
-        },
-        "sourceCountry": "IR",
-        "language": "fa",
-        "publishedAt": "2026-10-06T16:30:00.000Z",
-        "imageUrl": "https://media.khabaronline.ir/d/2026/10/06/4/6485510.jpg",
-        "countryCode": "IR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "yH5jqxe9eI8I",
-          "url": "https://www.entekhab.ir/fa/news/942387/%D9%88%D8%B2%DB%8C%D8%B1-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D8%A7-%D8%A7%D9%85%DB%8C%D8%B1-%D9%82%D8%B7%D8%B1-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%DA%A9%D8%B1%D8%AF-%D8%B7%D8%B1%D9%81%DB%8C%D9%86-%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D9%85%D9%86%D8%B7%D9%82%D9%87-%D9%88-%D8%AA%D9%84%D8%A7%D8%B4-%D9%87%D8%A7-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D8%AA%D9%86%D8%B4-%D8%B1%D8%A7-%D9%85%D9%88%D8%B1%D8%AF-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D9%82%D8%B1%D8%A7%D8%B1-%D8%AF%D8%A7%D8%AF%D9%86%D8%AF",
-          "canonicalUrl": "https://www.entekhab.ir/fa/news/942387/%D9%88%D8%B2%DB%8C%D8%B1-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A8%D8%A7-%D8%A7%D9%85%DB%8C%D8%B1-%D9%82%D8%B7%D8%B1-%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%DA%A9%D8%B1%D8%AF-%D8%B7%D8%B1%D9%81%DB%8C%D9%86-%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D9%85%D9%86%D8%B7%D9%82%D9%87-%D9%88-%D8%AA%D9%84%D8%A7%D8%B4-%D9%87%D8%A7-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D8%AA%D9%86%D8%B4-%D8%B1%D8%A7-%D9%85%D9%88%D8%B1%D8%AF-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D9%82%D8%B1%D8%A7%D8%B1-%D8%AF%D8%A7%D8%AF%D9%86%D8%AF",
-          "title": "وزیر کشور با امیر قطر دیدار کرد / طرفین تحولات منطقه و تلاش‌ها برای کاهش تنش را مورد بررسی قرار دادند",
-          "description": "امیر قطر در دوحه با وزیر کشور ایران تحولات منطقه و تلاش‌ها برای کاهش تنش را مورد بحث و بررسی قرار داد.",
-          "source": {
-            "id": "entekhab",
-            "name": "Entekhab"
-          },
-          "sourceCountry": "IR",
-          "language": "fa",
-          "publishedAt": "2026-10-06T11:58:42.000Z",
-          "imageUrl": null,
-          "countryCode": "IR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:30:00.000Z"
     },
     {
       "id": "g5Xtf01wKLND",
@@ -712,46 +670,52 @@
       "latestPublishedAt": "2026-10-06T12:58:41.000Z"
     },
     {
-      "id": "BEIC6mRMvVZ1",
+      "id": "iMXXsmyaBrpQ",
       "representative": {
-        "id": "BEIC6mRMvVZ1",
-        "url": "https://www.iranintl.com/2026100608950",
-        "canonicalUrl": "https://www.iranintl.com/2026100608950",
-        "title": "نوبل فیزیک ۲۰۲۶ به فرانسیس هالزن برای شکار «ذرات شبح‌گون» کیهان رسید",
-        "description": "فرانسیس هالزن، فیزیکدان بلژیکی‌ـ‌آمریکایی، برای نقش تعیین‌کننده‌اش در ساخت رصدخانه «آیس‌کیوب» در جنوبگان و کشف نوترینوهای پرانرژی با منشأ کیهانی، برنده جایزه نوبل فیزیک سال ۲۰۲۶ شد.",
+        "id": "iMXXsmyaBrpQ",
+        "url": "https://www.mehrnews.com/news/6970117/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%A7%D9%87-%D9%86%DB%8C%D8%B1%D9%88-%D9%85%DB%8C%D8%B2%D8%A8%D8%A7%D9%86-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%DA%86%D8%A7%D9%84%D8%B4-%D9%87%D8%A7%DB%8C-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D9%86%DB%8C%D8%B1%D9%88%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D8%AE%D9%88%D8%B1%D8%B4%DB%8C%D8%AF%DB%8C",
+        "canonicalUrl": "https://www.mehrnews.com/news/6970117/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%A7%D9%87-%D9%86%DB%8C%D8%B1%D9%88-%D9%85%DB%8C%D8%B2%D8%A8%D8%A7%D9%86-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%DA%86%D8%A7%D9%84%D8%B4-%D9%87%D8%A7%DB%8C-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D9%86%DB%8C%D8%B1%D9%88%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D8%AE%D9%88%D8%B1%D8%B4%DB%8C%D8%AF%DB%8C",
+        "title": "پژوهشگاه نیرو میزبان بررسی چالش‌های توسعه نیروگاه‌های خورشیدی",
+        "description": "پژوهشگاه نیرو هشتمین کنفرانس نیروگاه‌های خورشیدی ایران با تمرکز بر موانع توسعه سرمایه‌گذاری، تأمین مالی، اتصال به شبکه و مدل‌های اقتصادی احداث نیروگاه‌های خورشیدی برگزار می‌کند.",
         "source": {
-          "id": "iranintl",
-          "name": "Iran International"
+          "id": "mehr",
+          "name": "Mehr"
         },
         "sourceCountry": "IR",
         "language": "fa",
-        "publishedAt": "2026-10-06T12:13:00.000Z",
-        "imageUrl": "https://i.iranintl.com/images/rdk9umy0/production/d671186218132d4990eb104b596b601acd008bea-800x533.jpg?rect=0,58,800,419&w=1200&h=628&fm=jpg&q=85&fit=max&auto=format",
+        "publishedAt": "2026-10-06T16:43:36.000Z",
+        "imageUrl": "https://media.mehrnews.com/d/2026/09/08/4/6166102.jpg",
         "countryCode": "IR",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "OOBh-pRBpB32",
-          "url": "https://www.entekhab.ir/fa/news/942389/%D8%AC%D8%A7%DB%8C%D8%B2%D9%87-%D9%86%D9%88%D8%A8%D9%84-%D9%81%DB%8C%D8%B2%DB%8C%DA%A9-2026-%D8%A8%D9%87-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%DB%8C%D8%B3-%D9%87%D8%A7%D9%84%D8%B2%D9%86-%D8%A7%D9%87%D8%AF%D8%A7-%D8%B4%D8%AF",
-          "canonicalUrl": "https://www.entekhab.ir/fa/news/942389/%D8%AC%D8%A7%DB%8C%D8%B2%D9%87-%D9%86%D9%88%D8%A8%D9%84-%D9%81%DB%8C%D8%B2%DB%8C%DA%A9-2026-%D8%A8%D9%87-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%DB%8C%D8%B3-%D9%87%D8%A7%D9%84%D8%B2%D9%86-%D8%A7%D9%87%D8%AF%D8%A7-%D8%B4%D8%AF",
-          "title": "جایزه نوبل فیزیک ۲۰۲۶ به «فرانسیس هالزن» اهدا شد",
-          "description": "جایزه نوبل فیزیک ۲۰۲۶ به فرانسیس هالزن (Francis Halzen) برای «کمک‌های تعیین‌کننده به رصدخانه نوترینوی آیس‌کیوب (IceCube Neutrino Observatory) و کشف نوترینوهای پرانرژی با منشأ اخترفیزیکی» اهدا شد.",
-          "source": {
-            "id": "entekhab",
-            "name": "Entekhab"
-          },
-          "sourceCountry": "IR",
-          "language": "fa",
-          "publishedAt": "2026-10-06T12:08:06.000Z",
-          "imageUrl": null,
-          "countryCode": "IR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:13:00.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:43:36.000Z"
+    },
+    {
+      "id": "3pC4FFgaWHiu",
+      "representative": {
+        "id": "3pC4FFgaWHiu",
+        "url": "https://www.khabaronline.ir/news/2284699/%D8%B3%D9%88%D9%85%DB%8C%D9%86-%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87-%D9%85%D9%84%DB%8C-%DA%AF%D8%B1%D8%AF%D9%88-%D8%AC%D9%85%D8%B9%D9%87-%D8%AF%D8%B1-%D8%AB%D9%85%D8%B1%DB%8C%D9%86-%D8%A7%D8%B1%D8%AF%D8%A8%DB%8C%D9%84-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF",
+        "canonicalUrl": "https://www.khabaronline.ir/news/2284699/%D8%B3%D9%88%D9%85%DB%8C%D9%86-%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87-%D9%85%D9%84%DB%8C-%DA%AF%D8%B1%D8%AF%D9%88-%D8%AC%D9%85%D8%B9%D9%87-%D8%AF%D8%B1-%D8%AB%D9%85%D8%B1%DB%8C%D9%86-%D8%A7%D8%B1%D8%AF%D8%A8%DB%8C%D9%84-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF",
+        "title": "سومین جشنواره ملی گردو، جمعه در ثمرین اردبیل برگزار می شود",
+        "description": "بخشدار ثمرین گفت: سومین جشنواره گردو با هدف معرفی ظرفیت‌های کم‌نظیر کشاورزی و گردشگری منطقه و ایجاد شور و نشاط اجتماعی در ثمرین برگزار می شود.",
+        "source": {
+          "id": "khabaronline",
+          "name": "Khabar Online"
+        },
+        "sourceCountry": "IR",
+        "language": "fa",
+        "publishedAt": "2026-10-06T16:43:00.000Z",
+        "imageUrl": "https://media.khabaronline.ir/d/2026/10/06/4/6485660.jpg",
+        "countryCode": "IR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:43:00.000Z"
     }
   ]
 }

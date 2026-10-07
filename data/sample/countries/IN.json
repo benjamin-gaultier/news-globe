@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IN",
   "countryName": "India",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:11:47.256Z",
   "clusters": [
     {
       "id": "tEjf21-zYjpn",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:08:41.000Z"
-    },
-    {
-      "id": "-dTiS-U5D-vW",
-      "representative": {
-        "id": "-dTiS-U5D-vW",
-        "url": "https://www.thehindu.com/news/national/jharkhand/jharkhand-congress-youth-wing-activists-scuffle-with-police-during-protest-outside-ceo-office/article71551293.ece",
-        "canonicalUrl": "https://www.thehindu.com/news/national/jharkhand/jharkhand-congress-youth-wing-activists-scuffle-with-police-during-protest-outside-ceo-office/article71551293.ece",
-        "title": "Jharkhand: Congress, youth wing activists scuffle with police during protest outside CEO office",
-        "description": "Agitators blackened the official name board of the Election Commission after being stopped from entering the premises, as leaders demanded the resignation of Chief Election Commissioner Gyanesh Kumar",
-        "source": {
-          "id": "thehindu",
-          "name": "The Hindu"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:09:51.000Z",
-        "imageUrl": "https://th-i.thgim.com/public/incoming/ydwzoe/article71551319.ece/alternates/LANDSCAPE_1200/20261006263L.jpg",
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "cGq_OVJ4Ougj",
-          "url": "https://timesofindia.indiatimes.com/india/jharkhand-protest-congress-workers-scuffle-with-police-outside-ceo-office/articleshow/134740655.cms",
-          "canonicalUrl": "https://timesofindia.indiatimes.com/india/jharkhand-protest-congress-workers-scuffle-with-police-outside-ceo-office/articleshow/134740655.cms",
-          "title": "Jharkhand protest: Congress workers scuffle with police outside CEO office",
-          "description": "In Ranchi, Congress workers in Jharkhand rallied outside the Chief Electoral Officer's office to protest against Gyanesh Kumar. The demonstration escalated as protestors clashed with police while attempting to breach barriers and defaced the commission's nameplate. Their aim was to draw attention…",
-          "source": {
-            "id": "toi",
-            "name": "Times of India"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:39:52.000Z",
-          "imageUrl": "https://static.toiimg.com/photo/msid-134740897,imgsize-156344.cms",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:39:52.000Z"
     },
     {
       "id": "KsBvcveudfGM",
@@ -399,6 +357,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:53:34.000Z"
+    },
+    {
+      "id": "D1Wly1qGBSn2",
+      "representative": {
+        "id": "D1Wly1qGBSn2",
+        "url": "https://www.thehindu.com/news/national/cec-row-protest-against-gyanesh-kumar-india-bloc-march-election-commission-sir-issue-live-updates-october-6-2026/article71549790.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/cec-row-protest-against-gyanesh-kumar-india-bloc-march-election-commission-sir-issue-live-updates-october-6-2026/article71549790.ece",
+        "title": "CEC row LIVE updates: ‘We represent crores of Indians’, Rahul Gandhi slams ECI for not meeting Opposition MPs",
+        "description": "Nobody has sought time from us for meeting, ECI sources said amid Opposition MPs protest; the march, demanding CEC Gyanesh Kumar's resignation, began amid heavy security deployment; several INDIA bloc MPs were detained",
+        "source": {
+          "id": "thehindu",
+          "name": "The Hindu"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:52:22.000Z",
+        "imageUrl": null,
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:52:22.000Z"
     }
   ]
 }

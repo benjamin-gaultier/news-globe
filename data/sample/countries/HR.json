@@ -2,67 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "HR",
   "countryName": "Croatia",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:11:47.256Z",
   "clusters": [
-    {
-      "id": "AyT9vMS0UlrI",
-      "representative": {
-        "id": "AyT9vMS0UlrI",
-        "url": "https://www.jutarnji.hr/vijesti/zagreb/foto-ovako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-na-natjecaj-15753238",
-        "canonicalUrl": "https://www.jutarnji.hr/vijesti/zagreb/foto-ovako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-na-natjecaj-15753238",
-        "title": "FOTO Ovako su novi Maksimir zamislili arhitekti koji su se žalili na natječaj",
-        "description": "ZAGREB, 6. listopada 2026. (Hina) - Na natječaj za idejno rješenje stadiona Maksimir stigle su tri žalbe - dvije arhitektonskih ureda koji su sudjelovali na natječaju i ona Ministarstva gospodarstva, potvrdila je Hini Maja Kuhar, predsjednica Državne komisije za kontrolu javne nabave koja sada ima…",
-        "source": {
-          "id": "jutarnji",
-          "name": "Jutarnji list"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T13:06:00.000Z",
-        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39727546_1280.jpg?1791295101",
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "_bDMvX2eto-d",
-          "url": "https://www.tportal.hr/vijesti/clanak/foto-pogledajte-kako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-foto-20261006",
-          "canonicalUrl": "https://www.tportal.hr/vijesti/clanak/foto-pogledajte-kako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-foto-20261006",
-          "title": "FOTO Pogledajte kako su novi Maksimir zamislili arhitekti koji su se žalili",
-          "description": "Na natječaj za idejno rješenje stadiona Maksimir stigle su tri žalbe - dvije arhitektonskih ureda koji su sudjelovali na natječaju i ona Ministarstva gospodarstva, potvrdila je Hini Maja Kuhar, a ovako izgledaju rješenja Zha Architects Limiteda.",
-          "source": {
-            "id": "tportal",
-            "name": "tportal"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T13:47:00.000Z",
-          "imageUrl": "https://www.tportal.hr/media/thumbnail/500x300/2806725.jpeg?cropId=0",
-          "countryCode": "HR",
-          "regionCode": null
-        },
-        {
-          "id": "LbyPz9YPnxKo",
-          "url": "https://www.24sata.hr/sport/foto-pogledajte-kako-maksimir-vide-uredi-koji-su-se-zalili-na-pobjednika-jesu-vam-oni-bolji-1159050",
-          "canonicalUrl": "https://www.24sata.hr/sport/foto-pogledajte-kako-maksimir-vide-uredi-koji-su-se-zalili-na-pobjednika-jesu-vam-oni-bolji-1159050",
-          "title": "FOTO Pogledajte kako Maksimir vide uredi koji su se žalili na pobjednika! Jesu vam oni bolji?",
-          "description": "Kako doznaju 24sata, žalba ministra Šušnjara nije jedina žalba koja je zaprimljena! DKOM-u su se žalila još dva 'jaka' arhitektonska ureda. Riječ je o nizozemskom Studio de Architekten CIE, te arhitektonskom uredu kojeg je osnovala legendarna Zaha Hadid, Zajednica ponuditelja ZHA Architects…",
-          "source": {
-            "id": "24sata_hr",
-            "name": "24sata"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "imageUrl": "https://img.24sata.hr/fyLlbZfDX319zPgPjTelV7QI5n0=/800x450/smart/media/images/2026-38/image-3197639.jpg",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:47:00.000Z"
-    },
     {
       "id": "DsnOMZ2jYDZz",
       "representative": {
@@ -146,6 +87,65 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:52:42.000Z"
+    },
+    {
+      "id": "AyT9vMS0UlrI",
+      "representative": {
+        "id": "AyT9vMS0UlrI",
+        "url": "https://www.jutarnji.hr/vijesti/zagreb/foto-ovako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-na-natjecaj-15753238",
+        "canonicalUrl": "https://www.jutarnji.hr/vijesti/zagreb/foto-ovako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-na-natjecaj-15753238",
+        "title": "FOTO Ovako su novi Maksimir zamislili arhitekti koji su se žalili na natječaj",
+        "description": "ZAGREB, 6. listopada 2026. (Hina) - Na natječaj za idejno rješenje stadiona Maksimir stigle su tri žalbe - dvije arhitektonskih ureda koji su sudjelovali na natječaju i ona Ministarstva gospodarstva, potvrdila je Hini Maja Kuhar, predsjednica Državne komisije za kontrolu javne nabave koja sada ima…",
+        "source": {
+          "id": "jutarnji",
+          "name": "Jutarnji list"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:06:00.000Z",
+        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39727546_1280.jpg?1791295101",
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "_bDMvX2eto-d",
+          "url": "https://www.tportal.hr/vijesti/clanak/foto-pogledajte-kako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-foto-20261006",
+          "canonicalUrl": "https://www.tportal.hr/vijesti/clanak/foto-pogledajte-kako-su-novi-maksimir-zamislili-arhitekti-koji-su-se-zalili-foto-20261006",
+          "title": "FOTO Pogledajte kako su novi Maksimir zamislili arhitekti koji su se žalili",
+          "description": "Na natječaj za idejno rješenje stadiona Maksimir stigle su tri žalbe - dvije arhitektonskih ureda koji su sudjelovali na natječaju i ona Ministarstva gospodarstva, potvrdila je Hini Maja Kuhar, a ovako izgledaju rješenja Zha Architects Limiteda.",
+          "source": {
+            "id": "tportal",
+            "name": "tportal"
+          },
+          "sourceCountry": "HR",
+          "language": "hr",
+          "publishedAt": "2026-10-06T13:47:00.000Z",
+          "imageUrl": "https://www.tportal.hr/media/thumbnail/500x300/2806725.jpeg?cropId=0",
+          "countryCode": "HR",
+          "regionCode": null
+        },
+        {
+          "id": "LbyPz9YPnxKo",
+          "url": "https://www.24sata.hr/sport/foto-pogledajte-kako-maksimir-vide-uredi-koji-su-se-zalili-na-pobjednika-jesu-vam-oni-bolji-1159050",
+          "canonicalUrl": "https://www.24sata.hr/sport/foto-pogledajte-kako-maksimir-vide-uredi-koji-su-se-zalili-na-pobjednika-jesu-vam-oni-bolji-1159050",
+          "title": "FOTO Pogledajte kako Maksimir vide uredi koji su se žalili na pobjednika! Jesu vam oni bolji?",
+          "description": "Kako doznaju 24sata, žalba ministra Šušnjara nije jedina žalba koja je zaprimljena! DKOM-u su se žalila još dva 'jaka' arhitektonska ureda. Riječ je o nizozemskom Studio de Architekten CIE, te arhitektonskom uredu kojeg je osnovala legendarna Zaha Hadid, Zajednica ponuditelja ZHA Architects…",
+          "source": {
+            "id": "24sata_hr",
+            "name": "24sata"
+          },
+          "sourceCountry": "HR",
+          "language": "hr",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "imageUrl": "https://img.24sata.hr/fyLlbZfDX319zPgPjTelV7QI5n0=/800x450/smart/media/images/2026-38/image-3197639.jpg",
+          "countryCode": "HR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:47:00.000Z"
     },
     {
       "id": "zPqHwkO1h7lQ",
@@ -314,48 +314,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:40:26.000Z"
-    },
-    {
-      "id": "9RozmvzNLNyY",
-      "representative": {
-        "id": "9RozmvzNLNyY",
-        "url": "https://www.index.hr/vijesti/clanak/afd-prvi-put-ima-sefa-pokrajinskog-parlamenta/2842585.aspx",
-        "canonicalUrl": "https://www.index.hr/vijesti/clanak/afd-prvi-put-ima-sefa-pokrajinskog-parlamenta/2842585.aspx",
-        "title": "AfD prvi put ima šefa pokrajinskog parlamenta",
-        "description": "U NJEMAČKOJ saveznoj državi Saskoj-Anhaltu danas je po prvi put političar krajnje desne Alternative za Njemačku (AfD) izabran za predsjednika nekog pokrajinskog parlamenta.",
-        "source": {
-          "id": "index_hr",
-          "name": "Index.hr"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T12:02:00.000Z",
-        "imageUrl": null,
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rT84cz7OC1bX",
-          "url": "https://www.jutarnji.hr/vijesti/svijet/afd-prvi-put-ima-predsjednika-nekog-pokrajinskog-parlamenta-u-njemackoj-15753218",
-          "canonicalUrl": "https://www.jutarnji.hr/vijesti/svijet/afd-prvi-put-ima-predsjednika-nekog-pokrajinskog-parlamenta-u-njemackoj-15753218",
-          "title": "AfD prvi put ima predsjednika nekog pokrajinskog parlamenta u Njemačkoj",
-          "description": "U njemačkoj saveznoj državi Saskoj-Anhaltu u utorak je po prvi put političar krajnje desne Alternative za Njemačku (AfD) izabran za predsjednika nekog pokrajinskog parlamenta. „Ja nisam tvrdolinijaš, ja sam pragmatičar“, rekao je nakon izbora dosadašnji zastupnik stranke Tobias Rausch. Rausch (35)…",
-          "source": {
-            "id": "jutarnji",
-            "name": "Jutarnji list"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T12:38:30.000Z",
-          "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39727160_1280.jpg?1791295101",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:38:30.000Z"
     },
     {
       "id": "fiOaOFDkjPXD",
@@ -559,6 +517,30 @@
       "outletCount24h": 1,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T13:56:00.000Z"
+    },
+    {
+      "id": "-dRrnfh0uwND",
+      "representative": {
+        "id": "-dRrnfh0uwND",
+        "url": "https://www.index.hr/vijesti/clanak/hzzo-osporava-lijecenje-koje-je-platio-rudan-brkica-vozili-helikopterom-iz-mostara/2842623.aspx",
+        "canonicalUrl": "https://www.index.hr/vijesti/clanak/hzzo-osporava-lijecenje-koje-je-platio-rudan-brkica-vozili-helikopterom-iz-mostara/2842623.aspx",
+        "title": "HZZO osporava liječenje koje je platio Rudan. Brkića vozili helikopterom iz Mostara",
+        "description": "SPOR HZZO-a s pokojnom Vedranom Rudan i hitni prijevoz Milijana Brkića helikopterom ukazuju na određene paradokse hrvatskog zdravstva.",
+        "source": {
+          "id": "index_hr",
+          "name": "Index.hr"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:53:00.000Z",
+        "imageUrl": null,
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:53:00.000Z"
     }
   ]
 }

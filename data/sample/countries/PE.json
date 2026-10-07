@@ -2,84 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "PE",
   "countryName": "Peru",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:11:47.256Z",
   "clusters": [
-    {
-      "id": "rzR7gnnrSs4X",
-      "representative": {
-        "id": "rzR7gnnrSs4X",
-        "url": "https://elcomercio.pe/elecciones/resultados-onpe-elecciones-regionales-y-municipales-2026-en-vivo-conteo-oficial-para-saber-quien-gana-las-elecciones-de-alcaldes-y-gobernadores-en-el-peru-erm-2026-lbposting-noticia/",
-        "canonicalUrl": "https://elcomercio.pe/elecciones/resultados-onpe-elecciones-regionales-y-municipales-2026-en-vivo-conteo-oficial-para-saber-quien-gana-las-elecciones-de-alcaldes-y-gobernadores-en-el-peru-erm-2026-lbposting-noticia/",
-        "title": "Resultados ONPE al 92.71%: Conteos oficiales de las Elecciones Regionales y Municipales",
-        "description": null,
-        "source": {
-          "id": "elcomercio",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:35:15.000Z",
-        "imageUrl": "https://elcomercio.pe/resizer/v2/R32AFW42JJBPTFDMBMAPUYQ5OY.jpg?auth=1093f280197329b1e26174850e03767a8a1291a5dcb16ad643886534284ef179&smart=true&width=1200&height=800",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "O_LU3MwYijh-",
-          "url": "https://larepublica.pe/politica/2026/10/04/primeros-resultados-onpe-en-vivo-conoce-quienes-lideran-las-elecciones-regionales-y-municipales-2026-hnews-301384",
-          "canonicalUrl": "https://larepublica.pe/politica/2026/10/04/primeros-resultados-onpe-en-vivo-conoce-quienes-lideran-las-elecciones-regionales-y-municipales-2026-hnews-301384",
-          "title": "Últimos resultados ONPE EN VIVO: conoce quiénes lideran las elecciones regionales y municipales 2026",
-          "description": "La ONPE publicó los primeros resultados oficiales de las elecciones regionales y municipales 2026 luego del cierre de las mesas de votación. Conoce el avance de las cifras y los resultados por regiones, provincias y distritos del país.",
-          "source": {
-            "id": "larepublica",
-            "name": "La República"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:24:38.000Z",
-          "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/04/6ac2ef9c994602347b08d8e8.jpg",
-          "countryCode": "PE",
-          "regionCode": null
-        },
-        {
-          "id": "GA8RyrrDp74l",
-          "url": "https://gestion.pe/peru/erm-2026-conteo-oficial-onpe-resultados-de-la-elecciones-a-la-alcaldia-de-lima-rafael-lopez-aliaga-y-francis-allison-noticia/",
-          "canonicalUrl": "https://gestion.pe/peru/erm-2026-conteo-oficial-onpe-resultados-de-la-elecciones-a-la-alcaldia-de-lima-rafael-lopez-aliaga-y-francis-allison-noticia/",
-          "title": "Conteo oficial de la ONPE: resultados de elecciones a la Alcaldía de Lima al 92.710%",
-          "description": "Conteo oficial ONPE: Resultados de la elecciones a la alcaldía de Lima. El 4 de octubre se llevaron acabo las elecciones municipales y regionales. El conteo lo encabeza Renovación Popular de Rafael López Aliaga y Francis Allison de Avanza País.",
-          "source": {
-            "id": "gestion",
-            "name": "Gestión"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "imageUrl": "https://gestion.pe/resizer/v2/EUQLF4L5ZZDYRBWIVZN4T3BRYI.jpg?auth=7a7717f720adb9a13b481d6e5fb2e0a9ea301c8d51d0b889f27faad309f268ab&smart=true&width=1200&height=800",
-          "countryCode": "PE",
-          "regionCode": null
-        },
-        {
-          "id": "STE3KVkllL8R",
-          "url": "https://rpp.pe/politica/elecciones/resultados-onpe-en-vivo-lima-2026-hoy-conteo-de-votos-actualizado-rafael-lopez-aliaga-francis-allison-elecciones-peru-noticia-1710818",
-          "canonicalUrl": "https://rpp.pe/politica/elecciones/resultados-onpe-en-vivo-lima-2026-hoy-conteo-de-votos-actualizado-rafael-lopez-aliaga-francis-allison-elecciones-peru-noticia-1710818",
-          "title": "Resultados ONPE 2026 al 92.710%: revisa AQUÍ el conteo oficial de los candidatos para Lima Metropolitana",
-          "description": "Revisa en tiempo real el conteo de actas con los resultados de las Elecciones Regionales y Municipales 2026. Renovación Popular mantiene el primer lugar para la alcaldía de Lima.",
-          "source": {
-            "id": "rpp",
-            "name": "RPP Noticias"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:15:10.000Z",
-          "imageUrl": "https://f.rpp-noticias.io/2026/10/04/571557_1914788.jpg?imgdimension=look",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T13:13:10.000Z"
-    },
     {
       "id": "-LP_bHDnIo5z",
       "representative": {
@@ -172,6 +96,82 @@
       "outletCount24h": 3,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T12:31:14.000Z"
+    },
+    {
+      "id": "rzR7gnnrSs4X",
+      "representative": {
+        "id": "rzR7gnnrSs4X",
+        "url": "https://elcomercio.pe/elecciones/resultados-onpe-elecciones-regionales-y-municipales-2026-en-vivo-conteo-oficial-para-saber-quien-gana-las-elecciones-de-alcaldes-y-gobernadores-en-el-peru-erm-2026-lbposting-noticia/",
+        "canonicalUrl": "https://elcomercio.pe/elecciones/resultados-onpe-elecciones-regionales-y-municipales-2026-en-vivo-conteo-oficial-para-saber-quien-gana-las-elecciones-de-alcaldes-y-gobernadores-en-el-peru-erm-2026-lbposting-noticia/",
+        "title": "Resultados ONPE al 92.71%: Conteos oficiales de las Elecciones Regionales y Municipales",
+        "description": null,
+        "source": {
+          "id": "elcomercio",
+          "name": "El Comercio"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:35:15.000Z",
+        "imageUrl": "https://elcomercio.pe/resizer/v2/R32AFW42JJBPTFDMBMAPUYQ5OY.jpg?auth=1093f280197329b1e26174850e03767a8a1291a5dcb16ad643886534284ef179&smart=true&width=1200&height=800",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "O_LU3MwYijh-",
+          "url": "https://larepublica.pe/politica/2026/10/04/primeros-resultados-onpe-en-vivo-conoce-quienes-lideran-las-elecciones-regionales-y-municipales-2026-hnews-301384",
+          "canonicalUrl": "https://larepublica.pe/politica/2026/10/04/primeros-resultados-onpe-en-vivo-conoce-quienes-lideran-las-elecciones-regionales-y-municipales-2026-hnews-301384",
+          "title": "Últimos resultados ONPE EN VIVO: conoce quiénes lideran las elecciones regionales y municipales 2026",
+          "description": "La ONPE publicó los primeros resultados oficiales de las elecciones regionales y municipales 2026 luego del cierre de las mesas de votación. Conoce el avance de las cifras y los resultados por regiones, provincias y distritos del país.",
+          "source": {
+            "id": "larepublica",
+            "name": "La República"
+          },
+          "sourceCountry": "PE",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:24:38.000Z",
+          "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/04/6ac2ef9c994602347b08d8e8.jpg",
+          "countryCode": "PE",
+          "regionCode": null
+        },
+        {
+          "id": "GA8RyrrDp74l",
+          "url": "https://gestion.pe/peru/erm-2026-conteo-oficial-onpe-resultados-de-la-elecciones-a-la-alcaldia-de-lima-rafael-lopez-aliaga-y-francis-allison-noticia/",
+          "canonicalUrl": "https://gestion.pe/peru/erm-2026-conteo-oficial-onpe-resultados-de-la-elecciones-a-la-alcaldia-de-lima-rafael-lopez-aliaga-y-francis-allison-noticia/",
+          "title": "Conteo oficial de la ONPE: resultados de elecciones a la Alcaldía de Lima al 92.710%",
+          "description": "Conteo oficial ONPE: Resultados de la elecciones a la alcaldía de Lima. El 4 de octubre se llevaron acabo las elecciones municipales y regionales. El conteo lo encabeza Renovación Popular de Rafael López Aliaga y Francis Allison de Avanza País.",
+          "source": {
+            "id": "gestion",
+            "name": "Gestión"
+          },
+          "sourceCountry": "PE",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "imageUrl": "https://gestion.pe/resizer/v2/EUQLF4L5ZZDYRBWIVZN4T3BRYI.jpg?auth=7a7717f720adb9a13b481d6e5fb2e0a9ea301c8d51d0b889f27faad309f268ab&smart=true&width=1200&height=800",
+          "countryCode": "PE",
+          "regionCode": null
+        },
+        {
+          "id": "STE3KVkllL8R",
+          "url": "https://rpp.pe/politica/elecciones/resultados-onpe-en-vivo-lima-2026-hoy-conteo-de-votos-actualizado-rafael-lopez-aliaga-francis-allison-elecciones-peru-noticia-1710818",
+          "canonicalUrl": "https://rpp.pe/politica/elecciones/resultados-onpe-en-vivo-lima-2026-hoy-conteo-de-votos-actualizado-rafael-lopez-aliaga-francis-allison-elecciones-peru-noticia-1710818",
+          "title": "Resultados ONPE 2026 al 92.710%: revisa AQUÍ el conteo oficial de los candidatos para Lima Metropolitana",
+          "description": "Revisa en tiempo real el conteo de actas con los resultados de las Elecciones Regionales y Municipales 2026. Renovación Popular mantiene el primer lugar para la alcaldía de Lima.",
+          "source": {
+            "id": "rpp",
+            "name": "RPP Noticias"
+          },
+          "sourceCountry": "PE",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:15:10.000Z",
+          "imageUrl": "https://f.rpp-noticias.io/2026/10/04/571557_1914788.jpg?imgdimension=look",
+          "countryCode": "PE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T13:13:10.000Z"
     },
     {
       "id": "8iya_mzeppc9",
