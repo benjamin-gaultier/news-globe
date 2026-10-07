@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "RS",
   "countryName": "Serbia",
-  "updatedAt": "2026-10-07T13:07:36.245Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "bAB1y3G_mfUL",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:54:56.000Z"
-    },
-    {
-      "id": "keJVqGUvhhEM",
-      "representative": {
-        "id": "keJVqGUvhhEM",
-        "url": "https://n1info.rs/vesti/arhiv-javnih-skupova-predizborni-skup-studentske-liste-u-cacku/",
-        "canonicalUrl": "https://n1info.rs/vesti/arhiv-javnih-skupova-predizborni-skup-studentske-liste-u-cacku/",
-        "title": "Arhiv javnih skupova objavio koliko ljudi je bilo na skupu Studentske liste u Čačku",
-        "description": "Na centralnom programu predizbornog skupa Studentske liste u Čačku bilo je prisutno oko 2.800 ljudi, saopštio je danas Arhiv javnih skupova.",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T13:54:24.000Z",
-        "imageUrl": "https://n1info.rs/media/images/2026/10/5/1791229500_predizborni_skup_cacak_studenti.width-1200.png",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "MfTj0w4HtfgD",
-          "url": "https://www.danas.rs/vesti/drustvo/arhiv-javnih-skupova-skup-studentska-lista-cacak/",
-          "canonicalUrl": "https://www.danas.rs/vesti/drustvo/arhiv-javnih-skupova-skup-studentska-lista-cacak/",
-          "title": "Arhiv javnih skupova izneo procenu koliko je ljudi bilo na predizbornom skupu Studentske liste u Čačku",
-          "description": "Arhiv javnih skupova izneo je procenu koliko je ljudi bilo na predizbornom skupu Studentske liste – Studenti pobeđuju 5. oktobra u Čačku.",
-          "source": {
-            "id": "danas",
-            "name": "Danas"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T13:07:47.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2025/10/0601foto-FoNet-Nebojsa-Jovanovic-1-300x169.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:54:24.000Z"
     },
     {
       "id": "P5Ju4Dm-lwMn",
@@ -201,6 +159,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:55:09.000Z"
+    },
+    {
+      "id": "keJVqGUvhhEM",
+      "representative": {
+        "id": "keJVqGUvhhEM",
+        "url": "https://n1info.rs/vesti/arhiv-javnih-skupova-predizborni-skup-studentske-liste-u-cacku/",
+        "canonicalUrl": "https://n1info.rs/vesti/arhiv-javnih-skupova-predizborni-skup-studentske-liste-u-cacku/",
+        "title": "Arhiv javnih skupova objavio koliko ljudi je bilo na skupu Studentske liste u Čačku",
+        "description": "Na centralnom programu predizbornog skupa Studentske liste u Čačku bilo je prisutno oko 2.800 ljudi, saopštio je danas Arhiv javnih skupova.",
+        "source": {
+          "id": "n1_rs",
+          "name": "N1"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:54:24.000Z",
+        "imageUrl": "https://n1info.rs/media/images/2026/10/5/1791229500_predizborni_skup_cacak_studenti.width-1200.png",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "MfTj0w4HtfgD",
+          "url": "https://www.danas.rs/vesti/drustvo/arhiv-javnih-skupova-skup-studentska-lista-cacak/",
+          "canonicalUrl": "https://www.danas.rs/vesti/drustvo/arhiv-javnih-skupova-skup-studentska-lista-cacak/",
+          "title": "Arhiv javnih skupova izneo procenu koliko je ljudi bilo na predizbornom skupu Studentske liste u Čačku",
+          "description": "Arhiv javnih skupova izneo je procenu koliko je ljudi bilo na predizbornom skupu Studentske liste – Studenti pobeđuju 5. oktobra u Čačku.",
+          "source": {
+            "id": "danas",
+            "name": "Danas"
+          },
+          "sourceCountry": "RS",
+          "language": "sr",
+          "publishedAt": "2026-10-06T13:07:47.000Z",
+          "imageUrl": "https://www.danas.rs/wp-content/uploads/2025/10/0601foto-FoNet-Nebojsa-Jovanovic-1-300x169.jpg",
+          "countryCode": "RS",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:54:24.000Z"
     },
     {
       "id": "ZR6GoYNLvQbF",
@@ -341,30 +341,6 @@
       "latestPublishedAt": "2026-10-06T13:42:07.000Z"
     },
     {
-      "id": "K5Q7g6ih8Tfg",
-      "representative": {
-        "id": "K5Q7g6ih8Tfg",
-        "url": "https://n1info.rs/vesti/novi-protest-u-pristini-traze-drugo-glasanje-o-izmenama-zakona-o-specijalizovanim-vecima/",
-        "canonicalUrl": "https://n1info.rs/vesti/novi-protest-u-pristini-traze-drugo-glasanje-o-izmenama-zakona-o-specijalizovanim-vecima/",
-        "title": "Novi protest u Prištini - traže drugo glasanje o izmenama Zakona o specijalizovanim većima",
-        "description": "Ispred Skupštine Kosova okupila se veća grupa građana koja zahteva da drugo glasanje o izmenama Zakona o specijalizovanim većima sa sedištem u Hagu bu",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T13:40:57.000Z",
-        "imageUrl": "https://n1info.rs/media/images/1791293935_2026-10-05T112527Z_1906140407_RC2YWNAHLG6K_RTRMADP_3_.width-1200.JPG",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:40:57.000Z"
-    },
-    {
       "id": "Rp1d19TWSWa-",
       "representative": {
         "id": "Rp1d19TWSWa-",
@@ -435,6 +411,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:29:00.000Z"
+    },
+    {
+      "id": "rHgmvhsNhsrL",
+      "representative": {
+        "id": "rHgmvhsNhsrL",
+        "url": "https://www.danas.rs/sport/evroliga-crvena-zvezda-partizan-fransize/",
+        "canonicalUrl": "https://www.danas.rs/sport/evroliga-crvena-zvezda-partizan-fransize/",
+        "title": "Zvezda i Partizan čekaju rasplet: Evroliga objasnila šta sledi u trci za franšize",
+        "description": "Crvena zvezda i Partizan i dalje čekaju odluku o svojoj budućnosti u Evroligi, nakon što vlasnici klubova akcionara nisu doneli konačnu odluku o proširenju takmičenja.",
+        "source": {
+          "id": "danas",
+          "name": "Danas"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:55:07.000Z",
+        "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/04/partizan-zvezda-aba-688094-e1776620711596-300x169.jpg",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:55:07.000Z"
     }
   ]
 }

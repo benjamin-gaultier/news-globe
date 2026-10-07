@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "HR",
   "countryName": "Croatia",
-  "updatedAt": "2026-10-07T13:07:36.245Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "7YhYg6uZmL3A",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:52:42.000Z"
-    },
-    {
-      "id": "zPqHwkO1h7lQ",
-      "representative": {
-        "id": "zPqHwkO1h7lQ",
-        "url": "https://www.vecernji.hr/vijesti/hzjz-licka-voda-i-dalje-ispravna-i-sigurna-za-pice-2001875",
-        "canonicalUrl": "https://www.vecernji.hr/vijesti/hzjz-licka-voda-i-dalje-ispravna-i-sigurna-za-pice-2001875",
-        "title": "HZJZ: Lička voda i dalje ispravna i sigurna za piće",
-        "description": "Do sada je ukupno analizirano 150 uzoraka vode. Rezultati potvrđuju zdravstvenu ispravnost vode koju distribuira javni isporučitelj",
-        "source": {
-          "id": "vecernji",
-          "name": "Večernji list"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T13:10:00.000Z",
-        "imageUrl": "https://www.vecernji.hr/media/img/d2/ba/9e43b249871644a31970.jpeg",
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "uYxV6g1H9f97",
-          "url": "https://www.jutarnji.hr/vijesti/hrvatska/hzjz-voda-u-licko-senjskoj-zupaniji-te-na-pagu-i-rabu-ispravna-za-pice-15753249",
-          "canonicalUrl": "https://www.jutarnji.hr/vijesti/hrvatska/hzjz-voda-u-licko-senjskoj-zupaniji-te-na-pagu-i-rabu-ispravna-za-pice-15753249",
-          "title": "HZJZ: Voda u Ličko-senjskoj županiji te na Pagu i Rabu ispravna za piće",
-          "description": "Voda iz javne vodoopskrbe na području Ličko-senjske županije te otoka Paga i Raba zdravstveno je ispravna i sigurna za piće, a PFAS spojevi ni u jednom uzorku nisu utvrđeni u mjerljivim koncentracijama, izvijestio je u utorak Hrvatski zavod za javno zdravstvo (HZJZ). Rezultati se odnose na novo…",
-          "source": {
-            "id": "jutarnji",
-            "name": "Jutarnji list"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T13:28:25.000Z",
-          "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39415324_1280.jpg?1791295101",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:28:25.000Z"
     },
     {
       "id": "j_C-SWQdrY4K",
@@ -470,6 +428,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:47:13.000Z"
+    },
+    {
+      "id": "DllHaicjvklY",
+      "representative": {
+        "id": "DllHaicjvklY",
+        "url": "https://net.hr/sport/nogomet/sastav-hrvatske-za-spanjolsku-5b7351a1-c18b-11f1-936f-9600040c8f8e",
+        "canonicalUrl": "https://net.hr/sport/nogomet/sastav-hrvatske-za-spanjolsku-5b7351a1-c18b-11f1-936f-9600040c8f8e",
+        "title": "Procurio sastav Vatrenih? Izbornik Bilić odlučio iznenaditi Španjolce",
+        "description": "Slaven Bilić do sada je miješao sastav u svakoj utakmici",
+        "source": {
+          "id": "net_hr",
+          "name": "Net.hr"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:47:00.000Z",
+        "imageUrl": "https://net.hr/media/2026/10/06/1608169/H-48f14cbc-83fe-429b-8bac-d26a7af68656-1200.webp",
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:47:00.000Z"
     }
   ]
 }

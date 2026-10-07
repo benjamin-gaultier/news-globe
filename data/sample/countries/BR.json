@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BR",
   "countryName": "Brazil",
-  "updatedAt": "2026-10-07T13:07:36.245Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "HCO9DjWGZt1D",
@@ -66,7 +66,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:10:00.000Z"
     },
@@ -142,7 +142,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T13:09:17.000Z"
     },
@@ -411,46 +411,46 @@
       "latestPublishedAt": "2026-10-06T12:07:09.000Z"
     },
     {
-      "id": "Xed-m2ZRbn_I",
+      "id": "L4GRfp65Nk_D",
       "representative": {
-        "id": "Xed-m2ZRbn_I",
-        "url": "https://www.estadao.com.br/politica/eleicoes/renan-nega-que-foi-procurado-para-fazer-aliancas-e-lista-outras-prioridades-no-pos-primeiro-turno-nprp/",
-        "canonicalUrl": "https://www.estadao.com.br/politica/eleicoes/renan-nega-que-foi-procurado-para-fazer-aliancas-e-lista-outras-prioridades-no-pos-primeiro-turno-nprp/",
-        "title": "Renan Santos nega ter sido procurado para fazer alianças e lista outras prioridades após 1º turno",
-        "description": "Político diz que irá focar no MBL, no Missão e no lançamento de novo álbum da sua banda de rock",
+        "id": "L4GRfp65Nk_D",
+        "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/veja-quem-ganha-e-quem-perde-com-o-resultado-do-1o-turno-das-eleicoes.shtml",
+        "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/veja-quem-ganha-e-quem-perde-com-o-resultado-do-1o-turno-das-eleicoes.shtml",
+        "title": "Veja quem ganha e quem perde com o resultado do 1º turno das eleições",
+        "description": "O primeiro turno das eleições deste domingo (4) fortaleceu o PL no Congresso e confirmou a reeleição de Tarcísio de Freitas (Republicanos) em São Paulo . O resultado também ampliou a presença da família Bolsonaro na política, com quatro parentes do ex-presidente eleitos para a Câmara e o Senado…",
         "source": {
-          "id": "estadao",
-          "name": "Estadão"
+          "id": "folha",
+          "name": "Folha de S.Paulo"
         },
         "sourceCountry": "BR",
         "language": "pt",
-        "publishedAt": "2026-10-06T02:55:17.000Z",
-        "imageUrl": "https://www.estadao.com.br/resizer/v2/U6PKK3E4QRM2NCWWLJRF4IIC2U.png?auth=6bdcabe1a3d034c594a8c32f589d1b46c1aa0e471d4e10040c400ecec7958a4d&smart=true&width=1000",
+        "publishedAt": "2026-10-05T21:34:00.000Z",
+        "imageUrl": null,
         "countryCode": "BR",
         "regionCode": null
       },
       "related": [
         {
-          "id": "Ldsx_fmiYeMS",
-          "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/06/com-zema-e-caiado-pro-flavio-renan-santos-nega-ter-sido-procurado-para-aliancas-e-cita-prioridades.ghtml",
-          "canonicalUrl": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/06/com-zema-e-caiado-pro-flavio-renan-santos-nega-ter-sido-procurado-para-aliancas-e-cita-prioridades.ghtml",
-          "title": "Com Zema e Caiado pró-Flávio, Renan Santos nega ter sido procurado para alianças e cita prioridades",
-          "description": "Quarto colocado na disputa à Presidência, com mais de 2,6 milhões de votos (2,24%), Renan Santos (Missão) nega ter sido procurado por lideranças do PT ou do Centrão para uma possível aliança de segundo turno. Em entrevista ao SBT News, nesta segunda-feira, no dia seguinte à votação, o ativista do…",
+          "id": "65eXRGLTCg_M",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/live-poder-eleicoes-assista-as-analises-dos-resultados-do-1o-turno/",
+          "canonicalUrl": "https://www.poder360.com.br/poder-eleicoes-2026/live-poder-eleicoes-assista-as-analises-dos-resultados-do-1o-turno/",
+          "title": "Live Poder Eleições: assista às análises dos resultados do 1º turno",
+          "description": "Valdemar Costa Neto, Janio de Freitas, Pedro Rossi, Marilda Silveira e outros convidados analisaram os resultados",
           "source": {
-            "id": "oglobo",
-            "name": "O Globo"
+            "id": "poder360",
+            "name": "Poder360"
           },
           "sourceCountry": "BR",
           "language": "pt",
-          "publishedAt": "2026-10-06T11:40:26.000Z",
-          "imageUrl": "https://s2-oglobo.glbimg.com/q4w7Ji9gPKHXuTkwcn8GGqPIhvA=/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/G/p/oYViWMShWUx6MlX9t8OQ/renan-santos.png",
+          "publishedAt": "2026-10-06T11:45:51.000Z",
+          "imageUrl": null,
           "countryCode": "BR",
           "regionCode": null
         }
       ],
       "outletCount24h": 0,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:40:26.000Z"
+      "latestPublishedAt": "2026-10-06T11:45:51.000Z"
     }
   ]
 }

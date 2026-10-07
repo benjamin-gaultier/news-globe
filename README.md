@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers 112 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France and it splits into its 13 regions, each with its own regional headlines from regional outlets.
+It covers 112 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France or Germany and it splits into its regions (13 French regions, 16 German Länder), each with its own headlines from regional outlets.
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -29,7 +29,8 @@ After the first `pnpm ingest`, the dev server serves your fresh output instead o
 ```
 apps/web/            React + Vite front end (react-globe.gl)
   src/assets/countries-110m.json   Natural Earth 110m countries, trimmed (scripts/prepare-countries.mjs)
-  src/assets/regions-fr.json       France's 13 regions, IGN Admin Express, trimmed (scripts/prepare-regions.mjs)
+  src/assets/regions-fr.json       France's 13 regions, IGN Admin Express, trimmed (scripts/prepare-regions.mjs fr)
+  src/assets/regions-de.json       Germany's 16 Länder, Natural Earth 10m admin-1, trimmed (scripts/prepare-regions.mjs de)
   worker/index.ts, wrangler.jsonc  Cloudflare Worker: static assets + /data/* from KV
 packages/ingest/     Node worker: fetch → normalize → dedupe → cluster → rank → write JSON
   src/sources.config.ts            feeds, authority weights, pipeline settings
@@ -1675,4 +1676,5 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 
 - Country shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:110m admin-0 (public domain), bundled locally, coordinates rounded to 0.01°. In Natural Earth, `ISO_A2` is `-99` for France and Norway, so the build script uses `ISO_A2_EH`.
 - French region shapes: IGN Admin Express (2018), via [france-geojson](https://github.com/gregoiredavid/france-geojson), under the [Licence Ouverte / Etalab](https://www.etalab.gouv.fr/licence-ouverte-open-licence/); coordinates rounded to 0.01°. Loaded only when France is opened.
+- German Länder shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:10m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when Germany is opened.
 - `data/sample/` is a real `pnpm ingest` output from 2026-10-06. Its relative times will read "days ago" until you run an ingest.

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "LV",
   "countryName": "Latvia",
-  "updatedAt": "2026-10-07T13:07:36.245Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "Byl-1weXJ3lq",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:51:41.000Z"
-    },
-    {
-      "id": "ppWJ2OCjY532",
-      "representative": {
-        "id": "ppWJ2OCjY532",
-        "url": "https://pmo.ee/8559490",
-        "canonicalUrl": "https://pmo.ee/8559490",
-        "title": "Kulbergs: \"airBaltic\" paziņojums par darbinieku skaita samazināšanu ir smaga ziņa",
-        "description": "Latvijas nacionālās aviokompānijas \"airBaltic\" paziņojums par darbinieku skaita samazināšanu ir smaga ziņa, bet uzņēmuma vadībai jārīkojas atbildīgi un darbinieki jāinformē laikus un personīgi, kā arī jāievēro visas likuma prasības, atzina Ministru prezidents Andris Kulbergs (AS).",
-        "source": {
-          "id": "tvnet",
-          "name": "TVNET"
-        },
-        "sourceCountry": "LV",
-        "language": "lv",
-        "publishedAt": "2026-10-06T13:10:28.000Z",
-        "imageUrl": "https://f9.pmo.ee/AX5ULXPOA9AYhCc5V0ZGFXOjAPY=/480x270/smart/nginx/o/2026/10/05/17957423t1ha904.jpg",
-        "countryCode": "LV",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ige69LZGClzR",
-          "url": "https://diena.lv/raksts/latvija/zinas-71/kulbergs-_airbaltic_-pazinojums-par-darbinieku-atlaisanu-ir-smaga-zina?utm_source=rss&utm_campaign=rss&utm_medium=links",
-          "canonicalUrl": "https://diena.lv/raksts/latvija/zinas-71/kulbergs-_airbaltic_-pazinojums-par-darbinieku-atlaisanu-ir-smaga-zina",
-          "title": "Kulbergs: airBaltic paziņojums par darbinieku atlaišanu ir smaga ziņa",
-          "description": "Latvijas nacionālās aviokompānijas \"airBaltic\" paziņojums par darbinieku skaita samazināšanu ir smaga ziņa, bet uzņēmuma vadībai jārīkojas atbildīgi un darbinieki jāinformē laikus un personīgi, kā arī jāievēro visas likuma prasības, aģentūrai LETA atzina Ministru prezidents Andris Kulbergs (AS).",
-          "source": {
-            "id": "diena",
-            "name": "Diena"
-          },
-          "sourceCountry": "LV",
-          "language": "lv",
-          "publishedAt": "2026-10-06T13:31:00.000Z",
-          "imageUrl": "https://diena.lv/imgproxy/VI57EDXS2KiAY8arHH5fV2vM74lPu6oZA_YwuOI3ue0/rt:fill/s:1200:750/g:fp:0.37:0.26/f:jpg/plain/s3://diena-1/media/let_24955057.jpg",
-          "countryCode": "LV",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:31:00.000Z"
     },
     {
       "id": "jdlvie5YzltG",
@@ -399,6 +357,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:33:32.000Z"
+    },
+    {
+      "id": "ppWJ2OCjY532",
+      "representative": {
+        "id": "ppWJ2OCjY532",
+        "url": "https://pmo.ee/8559490",
+        "canonicalUrl": "https://pmo.ee/8559490",
+        "title": "Kulbergs: \"airBaltic\" paziņojums par darbinieku skaita samazināšanu ir smaga ziņa",
+        "description": "Latvijas nacionālās aviokompānijas \"airBaltic\" paziņojums par darbinieku skaita samazināšanu ir smaga ziņa, bet uzņēmuma vadībai jārīkojas atbildīgi un darbinieki jāinformē laikus un personīgi, kā arī jāievēro visas likuma prasības, atzina Ministru prezidents Andris Kulbergs (AS).",
+        "source": {
+          "id": "tvnet",
+          "name": "TVNET"
+        },
+        "sourceCountry": "LV",
+        "language": "lv",
+        "publishedAt": "2026-10-06T13:10:28.000Z",
+        "imageUrl": "https://f9.pmo.ee/AX5ULXPOA9AYhCc5V0ZGFXOjAPY=/480x270/smart/nginx/o/2026/10/05/17957423t1ha904.jpg",
+        "countryCode": "LV",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ige69LZGClzR",
+          "url": "https://diena.lv/raksts/latvija/zinas-71/kulbergs-_airbaltic_-pazinojums-par-darbinieku-atlaisanu-ir-smaga-zina?utm_source=rss&utm_campaign=rss&utm_medium=links",
+          "canonicalUrl": "https://diena.lv/raksts/latvija/zinas-71/kulbergs-_airbaltic_-pazinojums-par-darbinieku-atlaisanu-ir-smaga-zina",
+          "title": "Kulbergs: airBaltic paziņojums par darbinieku atlaišanu ir smaga ziņa",
+          "description": "Latvijas nacionālās aviokompānijas \"airBaltic\" paziņojums par darbinieku skaita samazināšanu ir smaga ziņa, bet uzņēmuma vadībai jārīkojas atbildīgi un darbinieki jāinformē laikus un personīgi, kā arī jāievēro visas likuma prasības, aģentūrai LETA atzina Ministru prezidents Andris Kulbergs (AS).",
+          "source": {
+            "id": "diena",
+            "name": "Diena"
+          },
+          "sourceCountry": "LV",
+          "language": "lv",
+          "publishedAt": "2026-10-06T13:31:00.000Z",
+          "imageUrl": "https://diena.lv/imgproxy/VI57EDXS2KiAY8arHH5fV2vM74lPu6oZA_YwuOI3ue0/rt:fill/s:1200:750/g:fp:0.37:0.26/f:jpg/plain/s3://diena-1/media/let_24955057.jpg",
+          "countryCode": "LV",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:31:00.000Z"
     }
   ]
 }

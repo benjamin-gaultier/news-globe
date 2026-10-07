@@ -2,84 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "TR",
   "countryName": "Turkey",
-  "updatedAt": "2026-10-07T13:07:36.245Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "T0S0hXz_B4bi",
-      "representative": {
-        "id": "T0S0hXz_B4bi",
-        "url": "https://www.hurriyet.com.tr/gundem/kubilay-kaan-kundakci-cinayeti-davasi-aleyna-kalaycioglu-hakkinda-tahliye-talebi-43331662",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/kubilay-kaan-kundakci-cinayeti-davasi-aleyna-kalaycioglu-hakkinda-tahliye-talebi-43331662",
-        "title": "Kubilay Kaan Kundakçı cinayeti davası | Aleyna Kalaycıoğlu hakkında tahliye talebi",
-        "description": "İstanbul Ümraniye'de futbolcu Kubilay Kaan Kundakçı'nın silahlı saldırıda öldürülmesine ilişkin davada Cumhuriyet savcısı esas hakkındaki mütalaasını açıkladı. Mütalaada, tutuklu sanık Alaattin Kadayıfçıoğlu'nun 'Kasten öldürme' suçundan müebbet hapis cezasına çarptırılması ve tutukluluk halinin…",
-        "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T13:07:00.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4f26075376faf77849a5d.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "NBotRHL7QGWx",
-          "url": "https://www.ntv.com.tr/turkiye/galeri-futbolcu-kubilay-kaan-kundakci-cinayetinde-bir-muebbet-ve-bir-tahliye-talebi-1745110",
-          "canonicalUrl": "https://www.ntv.com.tr/turkiye/galeri-futbolcu-kubilay-kaan-kundakci-cinayetinde-bir-muebbet-ve-bir-tahliye-talebi-1745110",
-          "title": "Futbolcu Kubilay Kaan Kundakçı cinayetinde bir müebbet ve bir tahliye talebi",
-          "description": "Futbolcu Kubilay Kaan Kundakçı'nın öldürülmesine ilişkin davada sanık Alaattin Kadayıfçıoğlu'nun müebbet hapis cezasına çarptırılması istendi. Aleyna Kalaycıoğlu hakkında ise tahliye talep edildi.",
-          "source": {
-            "id": "ntv_tr",
-            "name": "NTV"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T13:18:08.000Z",
-          "imageUrl": "https://images.ntv.com.tr/images/kubilaykaankundak%C3%A7%C4%B1cinayeti2-396452.png?width=930&format=webp",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "8p239Qs2MT_m",
-          "url": "https://www.sozcu.com.tr/muebbet-hapisle-yargilanan-aleyna-kalaycioglu-icin-tahliye-talebi-p366668",
-          "canonicalUrl": "https://www.sozcu.com.tr/muebbet-hapisle-yargilanan-aleyna-kalaycioglu-icin-tahliye-talebi-p366668",
-          "title": "Müebbet hapisle yargılanan Aleyna Kalaycıoğlu için tahliye talebi",
-          "description": "Ümraniye'de futbolcu Kubilay Kaan Kundakçı'nın silahlı saldırıda öldürülmesine ilişkin davada Cumhuriyet savcısı esas ha...",
-          "source": {
-            "id": "sozcu",
-            "name": "Sözcü"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T13:09:47.000Z",
-          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/muebbet-hapisle-yargilanan-aleyna-kalaycioglu-icin-tahliye-talebipng-7CuBMnqS80m7lGJMJIbNVw.png",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "l-kXsClv13Ph",
-          "url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-futbolcu-kubilay-kaan-kundakci-cinayeti-davasinda-mutalaa-izzet-yildizhan-icin-beraat-aleyna-kalaycioglu-icin-tahliye-talebi-2544239",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-futbolcu-kubilay-kaan-kundakci-cinayeti-davasinda-mutalaa-izzet-yildizhan-icin-beraat-aleyna-kalaycioglu-icin-tahliye-talebi-2544239",
-          "title": "Son Dakika... Futbolcu Kubilay Kaan Kundakçı cinayeti davasında mütalaa: İzzet Yıldızhan için beraat, Aleyna Kalaycıoğlu için tahliye talebi",
-          "description": "Son dakika gelişmesi... Futbolcu Kubilay Kaan Kundakçı’nın öldürülmesine ilişkin davada savcı esas hakkındaki mütalaasını sundu. Sanık Alaattin Kadayıfçıoğlu hakkında “kasten öldürme” suçundan müebbet hapis cezası talep edilirken, Aleyna Kalaycıoğlu’nun adli kontrolle tahliyesi, İzzet Yıldızhan ve…",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T12:29:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/4a3a2f46-d463-4c56-90fb-d6d13450220e.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T13:18:08.000Z"
-    },
     {
       "id": "NQl0K9ydaaif",
       "representative": {
@@ -516,7 +440,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:08:00.000Z"
     },
@@ -591,6 +515,30 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:03:00.000Z"
+    },
+    {
+      "id": "NONbW9M7tfVx",
+      "representative": {
+        "id": "NONbW9M7tfVx",
+        "url": "https://www.aa.com.tr/tr/dunya/kuzey-koreden-tampon-bolgede-mayin-temizleyen-guney-koreye-yeni-savas-tehlikesi-mesaji/4079834",
+        "canonicalUrl": "https://www.aa.com.tr/tr/dunya/kuzey-koreden-tampon-bolgede-mayin-temizleyen-guney-koreye-yeni-savas-tehlikesi-mesaji/4079834",
+        "title": "Kuzey Kore'den tampon bölgede mayın temizleyen Güney Kore'ye \"yeni savaş tehlikesi\" mesajı",
+        "description": "Kuzey Kore, Güney Kore'nin 21 Eylül'de iki ülkeyi ayıran Askerden Arındırılmış Bölge'de (DMZ) yürüttüğü mayın temizleme çalışmasının ardından \"yeni savaş tehlikesinin\" ortaya çıktığını bildirdi.",
+        "source": {
+          "id": "aa",
+          "name": "Anadolu Ajansı"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T13:01:36.000Z",
+        "imageUrl": null,
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:01:36.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "KZ",
   "countryName": "Kazakhstan",
-  "updatedAt": "2026-10-07T13:07:36.245Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "MQ5cokiuHgOm",
@@ -129,65 +129,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:41:25.000Z"
-    },
-    {
-      "id": "AXtvlWVCXquj",
-      "representative": {
-        "id": "AXtvlWVCXquj",
-        "url": "https://www.inform.kz/ru/posle-zhalob-zhiteley-naatirauskom-npz-viyavili-ekologicheskie-narusheniya-34bd19f7",
-        "canonicalUrl": "https://www.inform.kz/ru/posle-zhalob-zhiteley-naatirauskom-npz-viyavili-ekologicheskie-narusheniya-34bd19f7",
-        "title": "После жалоб жителей на Атырауском НПЗ выявили превышения выбросов и сжигание более 100 тонн газа",
-        "description": "Внеплановая проверка Атырауского нефтеперерабатывающего завода, проведенная после многочисленных обращений жителей по поводу качества атмосферного воздуха, выявила ряд нарушений экологических требований, передает агентство Kazinform.",
-        "source": {
-          "id": "kazinform",
-          "name": "Kazinform"
-        },
-        "sourceCountry": "KZ",
-        "language": "ru",
-        "publishedAt": "2026-10-06T12:36:00.000Z",
-        "imageUrl": null,
-        "countryCode": "KZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "VhTcU0oAv91Z",
-          "url": "https://www.nur.kz/incident/crime/2439091-narusheniya-vyyavili-na-atyrauskom-npz-posle-zhalob-zhiteley-materialy-napravleny-v-sud-i-silovikam/",
-          "canonicalUrl": "https://www.nur.kz/incident/crime/2439091-narusheniya-vyyavili-na-atyrauskom-npz-posle-zhalob-zhiteley-materialy-napravleny-v-sud-i-silovikam/",
-          "title": "Нарушения выявили на Атырауском НПЗ после жалоб жителей: материалы направлены в суд и силовикам",
-          "description": "После жалоб жителей на качество воздуха экологи провели внеплановую проверку Атырауского нефтеперерабатывающего завода и выявили ряд нарушений, передает NUR.KZ со ссылкой на Министерство экологии.",
-          "source": {
-            "id": "nur_kz",
-            "name": "NUR.KZ"
-          },
-          "sourceCountry": "KZ",
-          "language": "ru",
-          "publishedAt": "2026-10-06T14:54:00.000Z",
-          "imageUrl": "https://cdn.nur.kz/images/1200x675/3600d5b7f10b7831.jpeg?version=2",
-          "countryCode": "KZ",
-          "regionCode": null
-        },
-        {
-          "id": "rpLS5hvL6THE",
-          "url": "https://kz.kursiv.media/2026-10-06/fvfv-na-atyrauskiy-npz-podali-v-sud-posle-zhalob-zhiteley-goroda/?utm_source=rss&utm_medium=rss&utm_campaign=fvfv-na-atyrauskiy-npz-podali-v-sud-posle-zhalob-zhiteley-goroda",
-          "canonicalUrl": "https://kz.kursiv.media/2026-10-06/fvfv-na-atyrauskiy-npz-podali-v-sud-posle-zhalob-zhiteley-goroda/",
-          "title": "На Атырауский НПЗ подали в суд после жалоб жителей города",
-          "description": "Департамент экологии по Атырауской области направил в суд материалы в отношении Атырауского нефтеперерабатывающего завода (АНПЗ). Поводом для внеплановой проверки предприятия стали многочисленные обращения местных жителей по вопросам качества атмосферного воздуха. В ходе проверки экологи…",
-          "source": {
-            "id": "kursiv",
-            "name": "Kursiv"
-          },
-          "sourceCountry": "KZ",
-          "language": "ru",
-          "publishedAt": "2026-10-06T13:10:09.000Z",
-          "imageUrl": null,
-          "countryCode": "KZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T14:54:00.000Z"
     },
     {
       "id": "XcejKurN9CSR",
@@ -504,6 +445,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:33:00.000Z"
+    },
+    {
+      "id": "ZcbYcN7Y38pC",
+      "representative": {
+        "id": "ZcbYcN7Y38pC",
+        "url": "https://www.nur.kz/world/2439100-situaciya-pod-polnym-kontrolem-chinovnica-iz-rossii-otvetila-trampu-na-predlozhenie-pomoch-s-pnevmoniey/",
+        "canonicalUrl": "https://www.nur.kz/world/2439100-situaciya-pod-polnym-kontrolem-chinovnica-iz-rossii-otvetila-trampu-na-predlozhenie-pomoch-s-pnevmoniey/",
+        "title": "\"Ситуация под полным контролем\": чиновница из России ответила Трампу на предложение помочь с пневмонией",
+        "description": "Чиновница из Шелеховского района Иркутской области заявила, что ситуация с пневмонией находится под контролем, после предложения Дональда Трампа помочь России, передает NUR.KZ со ссылкой на \"ИрСити\".",
+        "source": {
+          "id": "nur_kz",
+          "name": "NUR.KZ"
+        },
+        "sourceCountry": "KZ",
+        "language": "ru",
+        "publishedAt": "2026-10-06T15:26:00.000Z",
+        "imageUrl": "https://cdn.nur.kz/images/1200x675/d5a231c0f8e6b3a01738ae2633aa684f.jpeg?version=1",
+        "countryCode": "KZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:26:00.000Z"
     }
   ]
 }

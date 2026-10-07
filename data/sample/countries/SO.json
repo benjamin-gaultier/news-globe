@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SO",
   "countryName": "Somalia",
-  "updatedAt": "2026-10-07T13:07:36.245Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "CQLabyYNztnd",
@@ -329,30 +329,6 @@
       "latestPublishedAt": "2026-10-06T05:38:15.000Z"
     },
     {
-      "id": "kkKUgO-XFYQQ",
-      "representative": {
-        "id": "kkKUgO-XFYQQ",
-        "url": "https://puntlandpost.net/2026/10/05/xamse-oo-goobjoog-ka-noqday-heshiis-ay-gaareen-beelaha-balanballe-iyo-guriceel/",
-        "canonicalUrl": "https://puntlandpost.net/2026/10/05/xamse-oo-goobjoog-ka-noqday-heshiis-ay-gaareen-beelaha-balanballe-iyo-guriceel/",
-        "title": "Xamse oo goobjoog ka noqday heshiis ay gaareen beelaha Balanballe iyo Guriceel",
-        "description": "Ra’iisul Wasaaraha Xukuumadda Federaalka Soomaaliya Xamse Cabdi Barre ayaa maanta safar ku tagay degmadda Balanballe ee gobolka Galgaduud, waxaana halkaas… Sii akhri",
-        "source": {
-          "id": "puntlandpost",
-          "name": "Puntland Post"
-        },
-        "sourceCountry": "SO",
-        "language": "so",
-        "publishedAt": "2026-10-05T13:09:33.000Z",
-        "imageUrl": null,
-        "countryCode": "SO",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-05T13:09:33.000Z"
-    },
-    {
       "id": "lUW2JXQs-xgL",
       "representative": {
         "id": "lUW2JXQs-xgL",
@@ -399,6 +375,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:16:17.000Z"
+    },
+    {
+      "id": "ZV1AWpxCBI98",
+      "representative": {
+        "id": "ZV1AWpxCBI98",
+        "url": "https://www.caasimada.net/xog-khilaaf-xooggan-oo-ka-dhex-aloosan-firdhiye-iyo-ku-xigeenkiisa/",
+        "canonicalUrl": "https://www.caasimada.net/xog-khilaaf-xooggan-oo-ka-dhex-aloosan-firdhiye-iyo-ku-xigeenkiisa/",
+        "title": "Xog: Khilaaf xooggan oo ka dhex aloosan Firdhiye iyo ku-xigeenkiisa",
+        "description": "Laascaanood (Caasimada Online) – Khilaaf siyaasadeed ayaa markale soo shaac baxay gudaha maamulka Waqooyi Bari, iyadoo uu soo kala dhex galay Madaxweynaha maamulka, Cabdulqaadir Axmed Aw Cali (Firdhiye) iyo ku-xigeenkiisa, Cabdirashiid Yuusuf Jibriil (Abwaan). Labada mas’uul ayaa xilka wada haya…",
+        "source": {
+          "id": "caasimada",
+          "name": "Caasimada Online"
+        },
+        "sourceCountry": "SO",
+        "language": "so",
+        "publishedAt": "2026-10-06T14:00:42.000Z",
+        "imageUrl": "https://i0.wp.com/www.caasimada.net/wp-content/uploads/2025/08/Firdhiye-iyo-Abwaan.webp?fit=4451%2C3296&amp;ssl=1",
+        "countryCode": "SO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "OSX5RfDnC1_8",
+          "url": "https://puntlandpost.net/2026/10/06/khilaaf-ka-dhex-taagan-firdhiye-iyo-abwaan/",
+          "canonicalUrl": "https://puntlandpost.net/2026/10/06/khilaaf-ka-dhex-taagan-firdhiye-iyo-abwaan/",
+          "title": "Khilaaf ka dhex taagan Firdhiye iyo Abwaan",
+          "description": "Khilaaf siyaasadeed oo xooggan ayaa markale ka dhex curtay madaxweynaha maamulka Waqooyi Bari Cabdiqaadir Axmed Aw Cali (Firdhiye) iyo ku-xigeenkiisa… Sii akhri",
+          "source": {
+            "id": "puntlandpost",
+            "name": "Puntland Post"
+          },
+          "sourceCountry": "SO",
+          "language": "so",
+          "publishedAt": "2026-10-06T11:32:58.000Z",
+          "imageUrl": null,
+          "countryCode": "SO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:00:42.000Z"
     }
   ]
 }

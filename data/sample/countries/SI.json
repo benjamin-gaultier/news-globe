@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SI",
   "countryName": "Slovenia",
-  "updatedAt": "2026-10-07T13:07:36.245Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "UIG5ZfNi4DWc",
@@ -79,48 +79,6 @@
       "outletCount24h": 4,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T15:35:25.000Z"
-    },
-    {
-      "id": "_Zss2Z-O3Rlx",
-      "representative": {
-        "id": "_Zss2Z-O3Rlx",
-        "url": "https://vecer.com/sport/robetr-kranjec-szs-razhod-nesreca-10429509",
-        "canonicalUrl": "https://vecer.com/sport/robetr-kranjec-szs-razhod-nesreca-10429509",
-        "title": "Šokantno razkritje Robija Kranjca o Smučarski zvezi Slovenije: \"Na dan nesreče so z mano zaključili\"",
-        "description": "Šport",
-        "source": {
-          "id": "vecer",
-          "name": "Večer"
-        },
-        "sourceCountry": "SI",
-        "language": "sl",
-        "publishedAt": "2026-10-06T13:08:00.000Z",
-        "imageUrl": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/42/79/11/09/42791109q6402334F4145062385A2C71E537DF241_1200.jpg",
-        "countryCode": "SI",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "EEhFdWg4VEQt",
-          "url": "https://www.zurnal24.si/sport/zimski-sporti/na-dan-nesrece-so-na-szs-zakljucili-z-mano-466270",
-          "canonicalUrl": "https://www.zurnal24.si/sport/zimski-sporti/na-dan-nesrece-so-na-szs-zakljucili-z-mano-466270",
-          "title": "\"Na dan nesreče so na SZS zaključili z mano\"",
-          "description": "\"Trudim pa se iz dneva v dan, da bi stvari šle na bolje.\"",
-          "source": {
-            "id": "zurnal24",
-            "name": "Žurnal24"
-          },
-          "sourceCountry": "SI",
-          "language": "sl",
-          "publishedAt": "2026-10-06T13:09:00.000Z",
-          "imageUrl": "https://www.zurnal24.si/media/img/d2/f7/0a642ae89416bff0bbac.jpeg",
-          "countryCode": "SI",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:09:00.000Z"
     },
     {
       "id": "aFj2wOGNfrOV",
@@ -486,6 +444,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:20:42.000Z"
+    },
+    {
+      "id": "L5KdDlLgou3U",
+      "representative": {
+        "id": "L5KdDlLgou3U",
+        "url": "https://siol.net/sportal/kolesarstvo/ep-kolesarstvo-ekipni-kronometer-slovenci-peti-703287",
+        "canonicalUrl": "https://siol.net/sportal/kolesarstvo/ep-kolesarstvo-ekipni-kronometer-slovenci-peti-703287",
+        "title": "V ekipnem kronometru zlato Franciji, slovenska šesterica peta",
+        "description": "Italijanski mladinci in mladinke so osvojili prvo zlato kolajno v drugem delu evropskega prvenstva v Sloveniji. V Šenčurju so po dveh krogih oziroma 44,3 kilometra ugnali drugo Poljsko in tretjeuvrščeno Švico. Slovenska ekipa je zasedla sedmo mesto. Popoldne je sledila še štafeta v članski…",
+        "source": {
+          "id": "siol",
+          "name": "Siol.net"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T15:20:00.000Z",
+        "imageUrl": "https://siol.net/media/img/6d/3d/c33d81da2e095c3514ba.jpeg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:20:00.000Z"
     }
   ]
 }
