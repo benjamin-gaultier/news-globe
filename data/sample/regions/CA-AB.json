@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "CA",
+  "countryName": "Canada",
+  "regionCode": "CA-AB",
+  "regionName": "Alberta",
+  "updatedAt": "2026-10-07T15:34:18.690Z",
+  "clusters": [
+    {
+      "id": "-pfOLiQqE17O",
+      "representative": {
+        "id": "-pfOLiQqE17O",
+        "url": "https://calgaryherald.com/news/local-news/world-famous-gopher-hole-museum-torrington-seeks-new-burrow",
+        "canonicalUrl": "https://calgaryherald.com/news/local-news/world-famous-gopher-hole-museum-torrington-seeks-new-burrow",
+        "title": "Central Alberta gopher museum seeks new burrow",
+        "description": "'(The buildings) have been failing for a while, so the best choice is to get a new building,' said museum director Laural Kurta",
+        "source": {
+          "id": "ca_ab_calgary_herald",
+          "name": "Calgary Herald"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T22:33:29.000Z",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2026/10/Torrington_Gopher_Hole_Museum-1-copy.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [
+        {
+          "id": "5EkNYIZ0FyD1",
+          "url": "https://globalnews.ca/news/12090472/torrington-stuffed-gopher-museum-closure/",
+          "canonicalUrl": "https://globalnews.ca/news/12090472/torrington-stuffed-gopher-museum-closure/",
+          "title": "Alberta’s stuffed gopher museum closes as owners seek new burrow",
+          "description": "The World Famous Gopher Hole Museum, located in Torrington, has been forced to close the doors because the two historical buildings housing the exhibits need to be replaced.",
+          "source": {
+            "id": "ca_ab_global",
+            "name": "Global News Calgary / Edmonton"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-07T00:01:39.000Z",
+          "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/CP27978458.jpg?quality=65&strip=all",
+          "countryCode": "CA",
+          "regionCode": "CA-AB"
+        },
+        {
+          "id": "SQ3P0f6ZMUuM",
+          "url": "https://www.ctvnews.ca/calgary/article/albertas-gopher-museum-shut-down-until-further-notice/",
+          "canonicalUrl": "https://www.ctvnews.ca/calgary/article/albertas-gopher-museum-shut-down-until-further-notice/",
+          "title": "Alberta’s gopher museum shut down until further notice",
+          "description": "An Alberta oddity – a museum that prides itself on dioramas featuring taxidermized rodents – has shut its doors until further notice.",
+          "source": {
+            "id": "ca_ab_ctv",
+            "name": "CTV News Calgary / Edmonton"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-06T20:18:00.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/6IKTETB7CEUPQ4CLM2UMGVAXR4.jpg?auth=0461d502d9beea5951c5e74ce579cf4a99e121af5869442e1c1fd869986073fe&smart=true&width=1011&height=665",
+          "countryCode": "CA",
+          "regionCode": "CA-AB"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T00:01:39.000Z"
+    },
+    {
+      "id": "uZubRcYHcO7Q",
+      "representative": {
+        "id": "uZubRcYHcO7Q",
+        "url": "https://globalnews.ca/news/12090454/alberta-referendum-mail-in-ballots-errors/",
+        "canonicalUrl": "https://globalnews.ca/news/12090454/alberta-referendum-mail-in-ballots-errors/",
+        "title": "Thousands of Alberta referendum mail-in ballots invalid due to errors: officials",
+        "description": "Elections Alberta says some ballot packages have been returned with declaration forms missing, errors or issues with I.D. — but there's still time to submit the correct info.",
+        "source": {
+          "id": "ca_ab_global",
+          "name": "Global News Calgary / Edmonton"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T23:39:16.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/09/Mail-ballot-7.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [
+        {
+          "id": "2lQEICFfUWGs",
+          "url": "https://www.ctvnews.ca/edmonton/article/more-than-3k-mail-in-ballots-invalid-due-to-errors-in-alberta-referendum-officials/",
+          "canonicalUrl": "https://www.ctvnews.ca/edmonton/article/more-than-3k-mail-in-ballots-invalid-due-to-errors-in-alberta-referendum-officials/",
+          "title": "More than 3,000 referendum mail-in ballots invalid due to errors: officials",
+          "description": "With less than two weeks to go until Alberta’s referendum, the province’s election administrator says more than 3,000 mail-in ballots have been returned with errors that make them invalid.",
+          "source": {
+            "id": "ca_ab_ctv",
+            "name": "CTV News Calgary / Edmonton"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-07T03:24:17.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/K5O7Y5WLBWPIINVIDKSLE63UXE.jpg?auth=7fb009f3bd47887402438f0011cf0d371e846d20a8e76a3ded2e7fbdccc6e0f6&smart=true&width=1400&height=871",
+          "countryCode": "CA",
+          "regionCode": "CA-AB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T03:24:17.000Z"
+    },
+    {
+      "id": "amBSnCXWMg70",
+      "representative": {
+        "id": "amBSnCXWMg70",
+        "url": "https://globalnews.ca/news/12090108/calgary-kicker-paredes-to-retire-after-season/",
+        "canonicalUrl": "https://globalnews.ca/news/12090108/calgary-kicker-paredes-to-retire-after-season/",
+        "title": "Calgary kicker Paredes to retire after season",
+        "description": "The Calgary Stampeders announced Tuesday that kicker Rene Paredes, a two-time Grey Cup champion and five-time CFL all-star, will retire at the end of the 2026 season.",
+        "source": {
+          "id": "ca_ab_global",
+          "name": "Global News Calgary / Edmonton"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T19:22:17.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/7cc617f7e3733ddb021145dfc3d8153f2d769da577e81cbae9f0aff1d9b54030.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [
+        {
+          "id": "wz47jjlvNMXP",
+          "url": "https://www.ctvnews.ca/calgary/article/calgary-stampeders-kicker-rene-paredes-to-retire-after-2026-cfl-season/",
+          "canonicalUrl": "https://www.ctvnews.ca/calgary/article/calgary-stampeders-kicker-rene-paredes-to-retire-after-2026-cfl-season/",
+          "title": "Calgary Stampeders kicker Rene Paredes to retire after 2026 CFL season",
+          "description": "The Calgary Stampeders announced Tuesday that kicker Rene Paredes, a two-time Grey Cup champion and five-time CFL all-star, will retire at the end of the 2026 season.",
+          "source": {
+            "id": "ca_ab_ctv",
+            "name": "CTV News Calgary / Edmonton"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-07T00:28:31.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/D6NITITXEHVB7OAORCL7SWBW2A.jpg?auth=89517a4b57f277c972f56490d77bd383ed4d07675cdde74a0b533ce95470419a&smart=true&width=1400&height=966",
+          "countryCode": "CA",
+          "regionCode": "CA-AB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T00:28:31.000Z"
+    },
+    {
+      "id": "U_9gKix0oVBC",
+      "representative": {
+        "id": "U_9gKix0oVBC",
+        "url": "https://globalnews.ca/news/12090140/alberta-separatism-party-quebecois-election-win/",
+        "canonicalUrl": "https://globalnews.ca/news/12090140/alberta-separatism-party-quebecois-election-win/",
+        "title": "Alberta separatists see an ally in Quebec premier-designate St-Pierre Plamondon",
+        "description": "Separatist leaders feel the Parti Québécois victory could change the political dynamic of Canada, especially since its leader has shown willingness to support Alberta independence.",
+        "source": {
+          "id": "ca_ab_global",
+          "name": "Global News Calgary / Edmonton"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T20:45:02.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/07/CP176247688.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [
+        {
+          "id": "foRmPljzeVTC",
+          "url": "https://www.ctvnews.ca/edmonton/article/alberta-separatists-see-an-ally-in-quebecs-new-premier-designate-what-does-the-win-mean-for-the-western-independence-movement/",
+          "canonicalUrl": "https://www.ctvnews.ca/edmonton/article/alberta-separatists-see-an-ally-in-quebecs-new-premier-designate-what-does-the-win-mean-for-the-western-independence-movement/",
+          "title": "Alberta separatists see an ally in Quebec’s new premier-designate. What does the win mean for the western independence movement?",
+          "description": "Alberta separatists say the election of Quebec premier-designate Paul St-Pierre Plamondon bodes well for the movement and could change the political dynamic of Canada entirely.",
+          "source": {
+            "id": "ca_ab_ctv",
+            "name": "CTV News Calgary / Edmonton"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-06T23:35:23.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/CMGTTM4HOJZ34IKLZNEG2FXURE.jpg?auth=bc3c4fe5d6e4a3dc6cd2f648c753a478f26db3afcdb7b8526a54afed3085ad55&smart=true&width=1400&height=943",
+          "countryCode": "CA",
+          "regionCode": "CA-AB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T23:35:23.000Z"
+    },
+    {
+      "id": "FOWCWSsX02wW",
+      "representative": {
+        "id": "FOWCWSsX02wW",
+        "url": "https://globalnews.ca/news/12090078/alberta-medical-association-2026-agreement/",
+        "canonicalUrl": "https://globalnews.ca/news/12090078/alberta-medical-association-2026-agreement/",
+        "title": "Alberta doctors vote to ratify proposed 3-year pay deal with province",
+        "description": "The Alberta Medical Association told members it's not the agreement originally sought and came after mediation in a 'difficult and constrained bargaining environment.'",
+        "source": {
+          "id": "ca_ab_global",
+          "name": "Global News Calgary / Edmonton"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T19:34:44.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/01/c5f7dc6da6936fb727918bf7f86b1c5b10918fe50cc3819c3732d7400e90f840.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [
+        {
+          "id": "fnGliXfbForC",
+          "url": "https://www.ctvnews.ca/edmonton/article/alberta-doctors-vote-to-ratify-a-proposed-3-year-pay-deal-with-provincial-government/",
+          "canonicalUrl": "https://www.ctvnews.ca/edmonton/article/alberta-doctors-vote-to-ratify-a-proposed-3-year-pay-deal-with-provincial-government/",
+          "title": "Alberta doctors vote to ratify a proposed 3-year pay deal with provincial government",
+          "description": "A proposed three-year master pay deal with the provincial government has been ratified by members of the Alberta Medical Association.",
+          "source": {
+            "id": "ca_ab_ctv",
+            "name": "CTV News Calgary / Edmonton"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-06T22:25:06.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/3BEYYKJVDUKWAHCQD3PIZYZORQ.jpg?auth=01f14b35de474c3320a1b2035d6ff32821d59e1f71c2866e38524bf4b90bf05e&smart=true&width=1400&height=979",
+          "countryCode": "CA",
+          "regionCode": "CA-AB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T22:25:06.000Z"
+    },
+    {
+      "id": "J3tjZ0S3ff5I",
+      "representative": {
+        "id": "J3tjZ0S3ff5I",
+        "url": "https://calgaryherald.com/news/u-of-c-students-respond-to-residential-school-denialism-on-campus-with-protest",
+        "canonicalUrl": "https://calgaryherald.com/news/u-of-c-students-respond-to-residential-school-denialism-on-campus-with-protest",
+        "title": "'I was furious and heartbroken': University of Calgary students protest after controversial residential school debate on campus",
+        "description": "Debate held last week ended with water being poured on a speaker's head",
+        "source": {
+          "id": "ca_ab_calgary_herald",
+          "name": "Calgary Herald"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T21:52:01.000Z",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2026/10/u-of-c-indigenous-protest.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [
+        {
+          "id": "SyXqLUU5hiEl",
+          "url": "https://www.ctvnews.ca/calgary/article/protest-at-university-of-calgary-over-residential-school-event/",
+          "canonicalUrl": "https://www.ctvnews.ca/calgary/article/protest-at-university-of-calgary-over-residential-school-event/",
+          "title": "Protest at University of Calgary over residential school event",
+          "description": "Protesters plan to gather at the University of Calgary on Tuesday, calling for the university to strip Tom Flanagan of his professor emeritus title following a campus event questioning whether Canada’s residential school system constituted genocide.",
+          "source": {
+            "id": "ca_ab_ctv",
+            "name": "CTV News Calgary / Edmonton"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-06T16:45:02.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/3V4GSOGE2RHJFGV4QTGTBL5BYA.jpg?auth=7a96a21e8cf0dfb1c54a9acd54dba1331943a0e09dd115fa16b9661781be221e&smart=true&width=1812&height=1020",
+          "countryCode": "CA",
+          "regionCode": "CA-AB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T21:52:01.000Z"
+    },
+    {
+      "id": "0vCTY2ZdPTy7",
+      "representative": {
+        "id": "0vCTY2ZdPTy7",
+        "url": "https://www.ctvnews.ca/edmonton/article/sleepless-night-leads-to-discovery-of-1m-lotto-win-for-edmonton-woman/",
+        "canonicalUrl": "https://www.ctvnews.ca/edmonton/article/sleepless-night-leads-to-discovery-of-1m-lotto-win-for-edmonton-woman/",
+        "title": "Sleepless night leads to discovery of $1M lotto win for Edmonton woman",
+        "description": "An Edmonton woman has won $1 million on a Lotto 6/49 ticket from last month.",
+        "source": {
+          "id": "ca_ab_ctv",
+          "name": "CTV News Calgary / Edmonton"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/4WYV576XFBHZZGBPXQXBS5YHAE.jpg?auth=130119ad6005582d318b9fa9828cafb09472d495db86b2b1982984437cc0e1fc&smart=true&width=1920&height=1080",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "2WEcoyZiSQEB",
+      "representative": {
+        "id": "2WEcoyZiSQEB",
+        "url": "https://www.ctvnews.ca/calgary/article/alberta-referendum-asks-whether-province-should-take-control-of-superior-court-appointments/",
+        "canonicalUrl": "https://www.ctvnews.ca/calgary/article/alberta-referendum-asks-whether-province-should-take-control-of-superior-court-appointments/",
+        "title": "Alberta referendum asks whether province should take control of superior court appointments",
+        "description": "Albertans will be asked Oct. 19 whether the province should pursue a constitutional amendment that would give provincial governments, rather than Ottawa, the power to appoint judges to the Court of King’s Bench and Court of Appeal.",
+        "source": {
+          "id": "ca_ab_ctv",
+          "name": "CTV News Calgary / Edmonton"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/QG3CEEUFBIKKEMFWQXF3DETPYU.jpg?auth=d31454c57875c2518408bc76163846a29c71ec196bb118decc292ac31a41ef66&smart=true&width=1400&height=933",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "Gi7lWqLNeRQz",
+      "representative": {
+        "id": "Gi7lWqLNeRQz",
+        "url": "https://www.ctvnews.ca/edmonton/article/oilers-seek-revenge-against-ducks-after-playoff-ouster/",
+        "canonicalUrl": "https://www.ctvnews.ca/edmonton/article/oilers-seek-revenge-against-ducks-after-playoff-ouster/",
+        "title": "Oilers seek revenge against Ducks after playoff ouster",
+        "description": "The Anaheim Ducks will look to continue their unbeaten start when they host the Edmonton Oilers on Wednesday in a rematch from last season’s Stanley Cup playoffs.",
+        "source": {
+          "id": "ca_ab_ctv",
+          "name": "CTV News Calgary / Edmonton"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/4SIR6SFN65EYTOCBE27CLMDMXA.png?auth=d523412ddd826a9975b58305610c8026731a75f5cb3ca58bb2c0b4f46147a1cc&smart=true&width=1920&height=1080",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "IDCmhBSICVcY",
+      "representative": {
+        "id": "IDCmhBSICVcY",
+        "url": "https://ici.radio-canada.ca/en-bref/1-10777191/quels-sont-angles-morts-referendum-selon-nos-experts",
+        "canonicalUrl": "https://ici.radio-canada.ca/en-bref/1-10777191/quels-sont-angles-morts-referendum-selon-nos-experts",
+        "title": "Quels sont les angles morts du référendum selon nos experts?",
+        "description": "On a demandé à certains de nos experts que vous entendez souvent sur Radio-Canada en Alberta de nous dire quel est leur angle mort de cette campagne référendaire.",
+        "source": {
+          "id": "ca_ab_radiocanada",
+          "name": "Radio-Canada Alberta"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T14:48:13.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-regions/16x9/charles-arnaud-frederic-boily-valerie-lapointe-gagnon.png",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:48:13.000Z"
+    },
+    {
+      "id": "wi4wqeBCMQgW",
+      "representative": {
+        "id": "wi4wqeBCMQgW",
+        "url": "https://ici.radio-canada.ca/info/videos/1-10772002/avec-art-tout-est-permis",
+        "canonicalUrl": "https://ici.radio-canada.ca/info/videos/1-10772002/avec-art-tout-est-permis",
+        "title": "Avec l’art, tout est permis",
+        "description": "Préserver son identité à travers des créations de mode ou de musique entre l’Iran, l’Afrique et le Canada, rire avec Matante Luce et se tourner vers l’avenir de l’art de rue à Calgary.",
+        "source": {
+          "id": "ca_ab_radiocanada",
+          "name": "Radio-Canada Alberta"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T13:58:17.000Z",
+        "imageUrl": "https://rcavstaticstreaming.akamaized.net/img/9dc5afe9-8e30-446c-b7af-c1d0c01e59b4/HR/2026-10-04_18_05_00_connexion_0152_01.jpeg",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:58:17.000Z"
+    },
+    {
+      "id": "XhCqWyDtE308",
+      "representative": {
+        "id": "XhCqWyDtE308",
+        "url": "https://calgaryherald.com/news/local-news/calgary-foundation-quality-of-life-report-highlights-resilience-financial-presures",
+        "canonicalUrl": "https://calgaryherald.com/news/local-news/calgary-foundation-quality-of-life-report-highlights-resilience-financial-presures",
+        "title": "'People are somehow making it work': Report highlights Calgarians' resilience amid mounting financial pressures",
+        "description": "'We are getting by, but it doesn't come without a lot of worry'",
+        "source": {
+          "id": "ca_ab_calgary_herald",
+          "name": "Calgary Herald"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:00:42.000Z",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2026/10/Quality_Of_Life009.Ca-copy.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:00:42.000Z"
+    },
+    {
+      "id": "unEWaYPUzlVk",
+      "representative": {
+        "id": "unEWaYPUzlVk",
+        "url": "https://edmontonjournal.com/news/alberta-permanent-daylight-saving-time-airport-pilots",
+        "canonicalUrl": "https://edmontonjournal.com/news/alberta-permanent-daylight-saving-time-airport-pilots",
+        "title": "Why pilots will ignore Alberta's move to permanent daylight saving time",
+        "description": "It could be 2 p.m. in Edmonton, but the thing a pilot cares about is, what time is it in London when I take off, and what time will it be in London when I land?",
+        "source": {
+          "id": "ca_ab_edmonton_journal",
+          "name": "Edmonton Journal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:05:59.000Z",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/10/departure-board.ej_296527894-1.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:05:59.000Z"
+    },
+    {
+      "id": "hogF3Ji0HJMG",
+      "representative": {
+        "id": "hogF3Ji0HJMG",
+        "url": "https://edmontonjournal.com/news/politics/alberta-referendum-education-immigration-newcomers",
+        "canonicalUrl": "https://edmontonjournal.com/news/politics/alberta-referendum-education-immigration-newcomers",
+        "title": "What Alberta’s Education Act says about access to education — and what a yes vote could mean for non-permanent residents",
+        "description": "Three of the five immigration questions target non-permanent residents' access to publicly funded services, including education",
+        "source": {
+          "id": "ca_ab_edmonton_journal",
+          "name": "Edmonton Journal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:02:15.000Z",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/05/20260501db015.ej_302886770-1.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [
+        {
+          "id": "E048WvpjEfzI",
+          "url": "https://www.ctvnews.ca/calgary/article/what-would-charging-temporary-residents-for-health-care-and-education-mean-for-alberta/",
+          "canonicalUrl": "https://www.ctvnews.ca/calgary/article/what-would-charging-temporary-residents-for-health-care-and-education-mean-for-alberta/",
+          "title": "What would charging temporary residents for health care and education mean for Alberta?",
+          "description": "When Albertans vote in the province’s referendum this fall, they will be asked whether people legally living and working in Alberta without permanent resident status should pay extra to use two of the province’s most important public services.",
+          "source": {
+            "id": "ca_ab_ctv",
+            "name": "CTV News Calgary / Edmonton"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-05T17:56:18.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/7CJWT4BUPQ3TWLRMQATXTNKRYQ.jpg?auth=4e9ffdb7acdba217addc3fa318417d0a1c07f4700e40038e3c30dc68da64fd7a&smart=true&width=1020&height=574",
+          "countryCode": "CA",
+          "regionCode": "CA-AB"
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:02:15.000Z"
+    },
+    {
+      "id": "g0tYbx7pzb5m",
+      "representative": {
+        "id": "g0tYbx7pzb5m",
+        "url": "https://calgaryherald.com/opinion/columnists/bell-jeromy-farkas-danielle-smith-ucp-government-fight-bike-lanes",
+        "canonicalUrl": "https://calgaryherald.com/opinion/columnists/bell-jeromy-farkas-danielle-smith-ucp-government-fight-bike-lanes",
+        "title": "Bell: Pow! Bam! Farkas and Smith government duke it out over bike lanes",
+        "description": "The fight over bike lanes in Alberta has officially begun. Ring the bell. Round One",
+        "source": {
+          "id": "ca_ab_calgary_herald",
+          "name": "Calgary Herald"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:00:45.000Z",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2026/10/Bike-Lanes-copy.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-AB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:00:45.000Z"
+    }
+  ]
+}

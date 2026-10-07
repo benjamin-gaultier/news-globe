@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "CA",
+  "countryName": "Canada",
+  "regionCode": "CA-QC",
+  "regionName": "Quebec",
+  "updatedAt": "2026-10-07T15:34:18.690Z",
+  "clusters": [
+    {
+      "id": "ukMYmYNYgQiw",
+      "representative": {
+        "id": "ukMYmYNYgQiw",
+        "url": "https://www.ledevoir.com/politique/quebec/1014821/christine-frechette-demissionne-cheffe-caq",
+        "canonicalUrl": "https://www.ledevoir.com/politique/quebec/1014821/christine-frechette-demissionne-cheffe-caq",
+        "title": "Christine Fréchette démissionne de la chefferie de la CAQ",
+        "description": "La première ministre sortante a pris l’entière responsabilité de la défaite cuisante de son parti.",
+        "source": {
+          "id": "ca_qc_le_devoir",
+          "name": "Le Devoir (Politique québécoise)"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T16:06:00.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [
+        {
+          "id": "LEV8pmRfjE36",
+          "url": "https://www.ctvnews.ca/montreal/article/christine-frechette-steps-down-as-caq-leader/",
+          "canonicalUrl": "https://www.ctvnews.ca/montreal/article/christine-frechette-steps-down-as-caq-leader/",
+          "title": "Christine Fréchette steps down as CAQ leader",
+          "description": "Coalition Avenir Québec leader Christine Fréchette announced that she will step down as party leader following Monday’s election.",
+          "source": {
+            "id": "ca_qc_ctv",
+            "name": "CTV News Montreal"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-07T02:40:31.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/3JAK6EU5XNCQ3JIMEDK6NNMSEA.JPG?auth=daff9666f3ecced02471beda5f3861a78ee38ce4d90644e843d68cc06092995f&smart=true&width=4500&height=3041",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        },
+        {
+          "id": "ufQiDPj6G86o",
+          "url": "https://www.journaldemontreal.com/2026/10/06/demission-de-christine-frechette-a-la-tete-de-la-caq-elle-navait-pas-le-choix-de-quitter-selon-sonia-lebel",
+          "canonicalUrl": "https://www.journaldemontreal.com/2026/10/06/demission-de-christine-frechette-a-la-tete-de-la-caq-elle-navait-pas-le-choix-de-quitter-selon-sonia-lebel",
+          "title": "Démission de Christine Fréchette à la tête de la CAQ: «Elle n’avait pas le choix de quitter», selon Sonia LeBel",
+          "description": "La ministre sortante de l’Éducation, Sonia LeBel, a salué le choix de Christine Fréchette de quitter la tête de la CAQ.",
+          "source": {
+            "id": "ca_qc_journal",
+            "name": "Le Journal de Montréal / de Québec"
+          },
+          "sourceCountry": "CA",
+          "language": "fr",
+          "publishedAt": "2026-10-06T22:37:41.000Z",
+          "imageUrl": "https://m1.quebecormedia.com/emp/emp/ff578b40-8e84-11f0-adae-01752b43b160_ORIGINAL.jpg?impolicy=crop-resize&x=0&y=0&w=1200&h=1036&width=1440",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        },
+        {
+          "id": "2Um6DZXn4SQb",
+          "url": "https://globalnews.ca/news/12090198/christine-frechette-steps-down-caq/",
+          "canonicalUrl": "https://globalnews.ca/news/12090198/christine-frechette-steps-down-caq/",
+          "title": "Christine Fréchette steps down as Coalition Avenir Québec leader",
+          "description": "Fréchette announced the news in Quebec City, one day after her party failed to win any seats in Monday's provincial election.",
+          "source": {
+            "id": "ca_qc_global",
+            "name": "Global News Montreal"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-06T20:23:53.000Z",
+          "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/09/6602b5a11f1b71cba71206180c2df47b65c606ebbfc69f02c15cc78cffdcdf1c_8913b4.jpg?quality=65&strip=all",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        },
+        {
+          "id": "ghcbtnHF_Mkn",
+          "url": "https://www.lesoleil.com/elections-provinciales-2026/2026/10/06/christine-frechette-quitte-la-tete-de-la-caq-I5NSLVBQYNAB3FR34KWXY6JG5E/",
+          "canonicalUrl": "https://www.lesoleil.com/elections-provinciales-2026/2026/10/06/christine-frechette-quitte-la-tete-de-la-caq-I5NSLVBQYNAB3FR34KWXY6JG5E/",
+          "title": "Christine Fréchette quitte la tête de la CAQ",
+          "description": "Au lendemain de la dure défaite de la coalition avenir Québec (CAQ), Christine Fréchette annonce son départ à titre de cheffe.",
+          "source": {
+            "id": "ca_qc_le_soleil",
+            "name": "Le Soleil"
+          },
+          "sourceCountry": "CA",
+          "language": "fr",
+          "publishedAt": "2026-10-06T19:45:54.000Z",
+          "imageUrl": "https://lescoopsdelinformation-le-soleil-prod.web.arc-cdn.net/resizer/v2/AZ5C4TPPAFBA5MQ4REV75JYXZE.JPG?auth=882af5bbb3b7d518c4285a5de299f63b80b3bf1f4de51727792528d83b764149&smart=true&width=4500&height=2954",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        },
+        {
+          "id": "5UhL3ieIAn0_",
+          "url": "https://ici.radio-canada.ca/ohdio/premiere/emissions/toujours-le-matin/segments/rattrapage/2495639/analyse-soiree-electorale-avec-amina-chaffai-et-catherine-gaudreault",
+          "canonicalUrl": "https://ici.radio-canada.ca/ohdio/premiere/emissions/toujours-le-matin/segments/rattrapage/2495639/analyse-soiree-electorale-avec-amina-chaffai-et-catherine-gaudreault",
+          "title": "Quel avenir pour la CAQ et Christine Fréchette?",
+          "description": "Les débatteuses Catherine Gaudreault et Amina Chaffaï analysent la soirée électorale, qui s’est notamment soldée par un balayage de la Coalition avenir Québec (CAQ) sur la carte électorale. Le parti pourra-t-il s’en relever? Christine Fréchette pourra-t-elle participer à une reconstruction?",
+          "source": {
+            "id": "ca_qc_radiocanada",
+            "name": "Radio-Canada Québec"
+          },
+          "sourceCountry": "CA",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:27:25.000Z",
+          "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-premiere/16x9/christine-frechette-election-caq-defaite-gi-toujours-le-matin.jpg",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 6,
+      "latestPublishedAt": "2026-10-07T02:40:31.000Z"
+    },
+    {
+      "id": "JUkAUHxjvzbt",
+      "representative": {
+        "id": "JUkAUHxjvzbt",
+        "url": "https://www.ledevoir.com/politique/quebec/1014641/est-premier-ministre-designe-paul-st-pierre-plamondon",
+        "canonicalUrl": "https://www.ledevoir.com/politique/quebec/1014641/est-premier-ministre-designe-paul-st-pierre-plamondon",
+        "title": "Qui est le premier ministre désigné, Paul St-Pierre Plamondon?",
+        "description": "«Le Devoir» dresse un bref portrait du chef du Parti québécois.",
+        "source": {
+          "id": "ca_qc_le_devoir",
+          "name": "Le Devoir (Politique québécoise)"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T04:14:00.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [
+        {
+          "id": "49wTWiTa1Fmk",
+          "url": "https://www.ctvnews.ca/montreal/politics/article/paul-st-pierre-plamondon-says-hes-ready-to-work-with-english-speakers-talq-wants-him-to-prove-it/",
+          "canonicalUrl": "https://www.ctvnews.ca/montreal/politics/article/paul-st-pierre-plamondon-says-hes-ready-to-work-with-english-speakers-talq-wants-him-to-prove-it/",
+          "title": "Paul St-Pierre Plamondon says he’s ready to work with English speakers. TALQ wants him to prove it",
+          "description": "English-rights group TALQ says it is cautiously optimistic about the province’s new Parti Québécois minority government.",
+          "source": {
+            "id": "ca_qc_ctv",
+            "name": "CTV News Montreal"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-07T15:34:18.690Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/6SWK5C6ORNEEPCTPI2JDBK2IGI.JPG?auth=fb5fb15c1d7d5a0088fba28e0c1c3d0e72af047febe4c9a5cca83ac28d13a195&smart=true&width=3500&height=2584",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        },
+        {
+          "id": "3iTXuF9DJXxQ",
+          "url": "https://ici.radio-canada.ca/info/videos/1-10778341/capitale-nationale-paul-st-pierre-plamondon-sans-depute-elu-a-quebec",
+          "canonicalUrl": "https://ici.radio-canada.ca/info/videos/1-10778341/capitale-nationale-paul-st-pierre-plamondon-sans-depute-elu-a-quebec",
+          "title": "Capitale-Nationale : Paul St-Pierre Plamondon sans député élu à Québec",
+          "description": "Sans aucun député élu dans la Capitale-Nationale, le premier ministre élu Paul St-Pierre Plamondon cherche une solution pour bien représenter la région au gouvernement. Le reportage de Marie-Pier Mercier.",
+          "source": {
+            "id": "ca_qc_radiocanada",
+            "name": "Radio-Canada Québec"
+          },
+          "sourceCountry": "CA",
+          "language": "fr",
+          "publishedAt": "2026-10-06T23:01:01.000Z",
+          "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/pspp-paul-st-pierre-plamondon-pq-48287.jpg",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        },
+        {
+          "id": "HlwwCR_3QGZP",
+          "url": "https://www.journaldemontreal.com/2026/10/06/premier-ministre-st-pierre-plamondon--les-problemes-urgents-dabord-la-souverainete-plus-tard",
+          "canonicalUrl": "https://www.journaldemontreal.com/2026/10/06/premier-ministre-st-pierre-plamondon--les-problemes-urgents-dabord-la-souverainete-plus-tard",
+          "title": "Premier ministre St-Pierre Plamondon: les problèmes «urgents» d’abord, la souveraineté plus tard",
+          "description": "Le gouvernement de PSPP veut d’abord s’attaquer aux problèmes «urgents» du Québec; le référendum sur la souveraineté viendra plus tard.",
+          "source": {
+            "id": "ca_qc_journal",
+            "name": "Le Journal de Montréal / de Québec"
+          },
+          "sourceCountry": "CA",
+          "language": "fr",
+          "publishedAt": "2026-10-06T22:00:44.000Z",
+          "imageUrl": "https://m1.quebecormedia.com/emp/emp/fdf0cdc0-c1be-11f1-bb30-6f18978c11fb_ORIGINAL.jpg?impolicy=crop-resize&x=0&y=0&w=6000&h=4000&width=1440",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "vAux0tdQGiDl",
+      "representative": {
+        "id": "vAux0tdQGiDl",
+        "url": "https://montreal.citynews.ca/2026/10/07/woman-dies-homeless-encampment-fire-montreal-north/",
+        "canonicalUrl": "https://montreal.citynews.ca/2026/10/07/woman-dies-homeless-encampment-fire-montreal-north/",
+        "title": "50-year-old woman dies after homeless encampment fire in Montreal North",
+        "description": "A 50-year-old woman is dead following a fire at a homeless encampment in Montreal North borough Wednesday morning. Montreal police (SPVM) received a 911 call around 5 a.m. reporting a fire at the encampment located near the intersection of De Charleroi Street and Lacordaire Boulevard. Upon…",
+        "source": {
+          "id": "ca_qc_citynews",
+          "name": "CityNews Montreal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:23:38.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [
+        {
+          "id": "ZdZN8TRJ36Hb",
+          "url": "https://www.ctvnews.ca/montreal/article/woman-dies-after-fire-at-montreal-encampment/",
+          "canonicalUrl": "https://www.ctvnews.ca/montreal/article/woman-dies-after-fire-at-montreal-encampment/",
+          "title": "Woman dies after fire at Montreal encampment",
+          "description": "A woman is dead after a fire at a homeless encampment in Montreal North.",
+          "source": {
+            "id": "ca_qc_ctv",
+            "name": "CTV News Montreal"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-07T15:34:18.690Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/CRCDQHLUZNBK5HUI6YZ5SIHVZM.jpeg?auth=367470a16f4a740611cbbd4309e536b69be7e6bf4a4bb3b127b4a7ec4cd98ff1&smart=true&width=4032&height=3024",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "xLHmAxV7d4Wt",
+      "representative": {
+        "id": "xLHmAxV7d4Wt",
+        "url": "https://montreal.citynews.ca/2026/10/07/apartment-building-damaged-fire-montreal-parc-ex/",
+        "canonicalUrl": "https://montreal.citynews.ca/2026/10/07/apartment-building-damaged-fire-montreal-parc-ex/",
+        "title": "3 people hospitalized after apartment building fire in Montreal’s Parc-Ex",
+        "description": "Three people were hospitalized after a large fire destroys part of a two-storey residential building in Montreal’s Parc-Extension neighbourhood early Wednesday morning. The Montreal fire department (SIM) received a 911 call around 2:30 a.m. with reports of a sound of an explosion on Saint-Roch…",
+        "source": {
+          "id": "ca_qc_citynews",
+          "name": "CityNews Montreal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T10:49:29.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [
+        {
+          "id": "mTmSQYxsOx-f",
+          "url": "https://www.ctvnews.ca/montreal/article/3-injured-after-big-building-fire-in-parc-ex/",
+          "canonicalUrl": "https://www.ctvnews.ca/montreal/article/3-injured-after-big-building-fire-in-parc-ex/",
+          "title": "3 injured after big building fire in Parc-Ex",
+          "description": "Three people are injured after a large fire at a two-storey residential building in Montreal’s Parc-Extension neighbourhood.",
+          "source": {
+            "id": "ca_qc_ctv",
+            "name": "CTV News Montreal"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-07T14:35:23.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/WIIB32CFJ5A75GT3UXPPWPNA3Y.jpeg?auth=8e8c70a0f2b2df01547fede74a3d4697efea2849bc2a89376992495beddb9c39&smart=true&width=5711&height=3212",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T14:35:23.000Z"
+    },
+    {
+      "id": "ueZ5CeLOMzYz",
+      "representative": {
+        "id": "ueZ5CeLOMzYz",
+        "url": "https://www.journaldemontreal.com/2026/10/07/incendie-mortel-dans-un-campement-ditinerants-a-montreal-nord",
+        "canonicalUrl": "https://www.journaldemontreal.com/2026/10/07/incendie-mortel-dans-un-campement-ditinerants-a-montreal-nord",
+        "title": "Incendie mortel dans un campement d’itinérants à Montréal-Nord",
+        "description": "Une femme dans la cinquantaine a perdu la vie à la suite d’un incendie dans un campement d’itinérants survenu tôt mercredi matin à Montréal-Nord.",
+        "source": {
+          "id": "ca_qc_journal",
+          "name": "Le Journal de Montréal / de Québec"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T12:12:36.000Z",
+        "imageUrl": "https://m1.quebecormedia.com/emp/emp/eeab8470-c256-11f1-bb30-6f18978c11fb_ORIGINAL.jpg?impolicy=crop-resize&x=0&y=0&w=4839&h=3401&width=1440",
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [
+        {
+          "id": "xokBXUJxADgk",
+          "url": "https://ici.radio-canada.ca/nouvelle/2291404/deces-femme-itinerance-incendie-campement-montreal-nord",
+          "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291404/deces-femme-itinerance-incendie-campement-montreal-nord",
+          "title": "Une femme décède après un incendie dans un campement à Montréal",
+          "description": "Le campement, où femme dans la cinquantaine a été trouvée, est situé dans l’arrondissement de Montréal-Nord.",
+          "source": {
+            "id": "ca_qc_radiocanada",
+            "name": "Radio-Canada Québec"
+          },
+          "sourceCountry": "CA",
+          "language": "fr",
+          "publishedAt": "2026-10-07T13:24:55.000Z",
+          "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/incendie-itinerance-deces-femme-montreal-nord-64166.jpeg",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:24:55.000Z"
+    },
+    {
+      "id": "ktOZW7XMD6Iw",
+      "representative": {
+        "id": "ktOZW7XMD6Iw",
+        "url": "https://www.lesoleil.com/actualites/justice-et-faits-divers/2026/10/07/un-poids-lourd-percute-cinq-vehicules-a-sainte-anne-de-beaupre-4OMU5DT27RARPKVOHY5EVSJ33M/",
+        "canonicalUrl": "https://www.lesoleil.com/actualites/justice-et-faits-divers/2026/10/07/un-poids-lourd-percute-cinq-vehicules-a-sainte-anne-de-beaupre-4OMU5DT27RARPKVOHY5EVSJ33M/",
+        "title": "Un poids lourd percute cinq véhicules à Sainte-Anne-de-Beaupré",
+        "description": "Cinq véhicules qui étaient immobilisés à une intersection ont été percutés par un poids lourd mercredi matin, à Sainte-Anne-de-Beaupré.",
+        "source": {
+          "id": "ca_qc_le_soleil",
+          "name": "Le Soleil"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T13:19:50.000Z",
+        "imageUrl": "https://lescoopsdelinformation-le-soleil-prod.web.arc-cdn.net/resizer/v2/YBZSX3T4FZGCXHWIZU2VMSRNHA.jpg?auth=489b5af7eeedbb11420c0d839d691b509a2f8332fa4ad980d1c737f55dc3ced2&smart=true&width=2048&height=1234",
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [
+        {
+          "id": "3IOCa6crHalD",
+          "url": "https://www.journaldequebec.com/2026/10/07/grave-acident-a-sainte-anne-de-beaupre-cinq-vehicules-percutes-par-un-poids-lourd",
+          "canonicalUrl": "https://www.journaldequebec.com/2026/10/07/grave-acident-a-sainte-anne-de-beaupre-cinq-vehicules-percutes-par-un-poids-lourd",
+          "title": "Grave accident à Sainte-Anne-de-Beaupré: cinq véhicules percutés par un poids lourd",
+          "description": "Un homme se trouve dans un état critique après qu’un camionneur a percuté cinq véhicules immobilisés à une intersection de Sainte-Anne-de-Beaupré",
+          "source": {
+            "id": "ca_qc_journal",
+            "name": "Le Journal de Montréal / de Québec"
+          },
+          "sourceCountry": "CA",
+          "language": "fr",
+          "publishedAt": "2026-10-07T12:58:03.000Z",
+          "imageUrl": "https://m1.quebecormedia.com/emp/emp/d9bcdea0-c24d-11f1-bb30-6f18978c11fb_ORIGINAL.jpg?impolicy=crop-resize&x=0&y=0&w=1920&h=1280&width=1440",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:19:50.000Z"
+    },
+    {
+      "id": "Y_MDxYldjNnt",
+      "representative": {
+        "id": "Y_MDxYldjNnt",
+        "url": "https://www.lesoleil.com/actualites/actualites-locales/la-capitale/2026/10/06/vague-conservatrice-a-quebec-un-desaveu-du-tramway-MYU3TJ37JZFMPFKTM5NF453TQM/",
+        "canonicalUrl": "https://www.lesoleil.com/actualites/actualites-locales/la-capitale/2026/10/06/vague-conservatrice-a-quebec-un-desaveu-du-tramway-MYU3TJ37JZFMPFKTM5NF453TQM/",
+        "title": "Vague conservatrice à Québec, un désaveu du tramway?",
+        "description": "Pour les opposants au tramway, l’élection d’une vaste majorité de députés conservateurs à Québec n’est ni plus ni moins qu’un «message clair» contre le mégaprojet. Le maire Bruno Marchand, lui, n’y voit pas du tout un «non», pas plus qu’un «oui».",
+        "source": {
+          "id": "ca_qc_le_soleil",
+          "name": "Le Soleil"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T19:32:37.000Z",
+        "imageUrl": "https://lescoopsdelinformation-le-soleil-prod.web.arc-cdn.net/resizer/v2/PBOV7TCEWRD3LPXIKIOLWLFL2E.JPG?auth=e46f1bc0e881f1bafc22d5ab3b92271457098fc5745bb66273a335cdaf33a77b&smart=true&width=3000&height=2000",
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [
+        {
+          "id": "zDmPL-MzxweT",
+          "url": "https://ici.radio-canada.ca/nouvelle/2291327/taux-participation-elections-region-quebec",
+          "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291327/taux-participation-elections-region-quebec",
+          "title": "Les chiffres qui passent inaperçus derrière la vague conservatrice de Québec",
+          "description": "Derrière les cartes et les victoires de lundi, voici quelques faits saillants qui passent plutôt inaperçus.",
+          "source": {
+            "id": "ca_qc_radiocanada",
+            "name": "Radio-Canada Québec"
+          },
+          "sourceCountry": "CA",
+          "language": "fr",
+          "publishedAt": "2026-10-07T08:00:00.000Z",
+          "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/transit/16x9/pcq-conservateurs-centre-congres-levis-discours-duhaime-20261005pcq28.jpg",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T08:00:00.000Z"
+    },
+    {
+      "id": "vzpYcNrlhaHM",
+      "representative": {
+        "id": "vzpYcNrlhaHM",
+        "url": "https://www.lesoleil.com/actualites/actualites-locales/beauce/2026/10/06/menacee-et-intimidee-la-mairesse-de-frampton-demissionne-IUNCPSU5WFGLHIXHOSMAA37724/",
+        "canonicalUrl": "https://www.lesoleil.com/actualites/actualites-locales/beauce/2026/10/06/menacee-et-intimidee-la-mairesse-de-frampton-demissionne-IUNCPSU5WFGLHIXHOSMAA37724/",
+        "title": "Menacée et intimidée, la mairesse de Frampton démissionne",
+        "description": "Sur fond d’insultes, d’attaques personnelles, d’intimidation et de menaces, Gina Cloutier a annoncé, mardi, quitter ses fonctions de mairesse de Frampton, une municipalité de la Beauce.",
+        "source": {
+          "id": "ca_qc_le_soleil",
+          "name": "Le Soleil"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T16:14:08.000Z",
+        "imageUrl": "https://lescoopsdelinformation-le-soleil-prod.web.arc-cdn.net/resizer/v2/37QFRFRGNVE7PHEFI7T4QQ5PYA.jpg?auth=be0149618de43e0691f681ccd5a76e696aeafc91715ec90a215fab11022a481a&smart=true&width=3527&height=2645",
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [
+        {
+          "id": "Q1xUTrb7xQne",
+          "url": "https://ici.radio-canada.ca/nouvelle/2291345/demission-gina-cloutier-frampton-menaces",
+          "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291345/demission-gina-cloutier-frampton-menaces",
+          "title": "Victime d’insultes et d’intimidation, la mairesse de Frampton démissionne",
+          "description": "Gina Cloutier craint pour sa sécurité ainsi que pour sa santé physique et mentale.",
+          "source": {
+            "id": "ca_qc_radiocanada",
+            "name": "Radio-Canada Québec"
+          },
+          "sourceCountry": "CA",
+          "language": "fr",
+          "publishedAt": "2026-10-07T00:04:04.000Z",
+          "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/gina-cloutier-mairesse-frampton-12811.jpg",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T00:04:04.000Z"
+    },
+    {
+      "id": "U_9gKix0oVBC",
+      "representative": {
+        "id": "U_9gKix0oVBC",
+        "url": "https://globalnews.ca/news/12090140/alberta-separatism-party-quebecois-election-win/",
+        "canonicalUrl": "https://globalnews.ca/news/12090140/alberta-separatism-party-quebecois-election-win/",
+        "title": "Alberta separatists see an ally in Quebec premier-designate St-Pierre Plamondon",
+        "description": "Separatist leaders feel the Parti Québécois victory could change the political dynamic of Canada, especially since its leader has shown willingness to support Alberta independence.",
+        "source": {
+          "id": "ca_qc_global",
+          "name": "Global News Montreal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T20:45:02.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/07/CP176247688.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [
+        {
+          "id": "foRmPljzeVTC",
+          "url": "https://www.ctvnews.ca/edmonton/article/alberta-separatists-see-an-ally-in-quebecs-new-premier-designate-what-does-the-win-mean-for-the-western-independence-movement/",
+          "canonicalUrl": "https://www.ctvnews.ca/edmonton/article/alberta-separatists-see-an-ally-in-quebecs-new-premier-designate-what-does-the-win-mean-for-the-western-independence-movement/",
+          "title": "Alberta separatists see an ally in Quebec’s new premier-designate. What does the win mean for the western independence movement?",
+          "description": "Alberta separatists say the election of Quebec premier-designate Paul St-Pierre Plamondon bodes well for the movement and could change the political dynamic of Canada entirely.",
+          "source": {
+            "id": "ca_qc_ctv",
+            "name": "CTV News Montreal"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-06T23:35:23.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/CMGTTM4HOJZ34IKLZNEG2FXURE.jpg?auth=bc3c4fe5d6e4a3dc6cd2f648c753a478f26db3afcdb7b8526a54afed3085ad55&smart=true&width=1400&height=943",
+          "countryCode": "CA",
+          "regionCode": "CA-QC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T23:35:23.000Z"
+    },
+    {
+      "id": "3pxKLPMEu4xp",
+      "representative": {
+        "id": "3pxKLPMEu4xp",
+        "url": "https://www.ctvnews.ca/montreal/article/teen-boy-missing-from-saint-hyacinthe/",
+        "canonicalUrl": "https://www.ctvnews.ca/montreal/article/teen-boy-missing-from-saint-hyacinthe/",
+        "title": "Teen boy missing from Saint-Hyacinthe",
+        "description": "A 13-year-old boy is missing after he was last seen in Saint-Hyacinthe, about an hour away from Montreal.",
+        "source": {
+          "id": "ca_qc_ctv",
+          "name": "CTV News Montreal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/4MI2A6HLI5HYVJIYCWYAD3KOSA.jpeg?auth=27926a61a8d87fe7f0f5b8822a5987f23cebf77e13e55f02249036c1eaa6b1fc&smart=true&width=945&height=677",
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "ETSM8uBCNX_x",
+      "representative": {
+        "id": "ETSM8uBCNX_x",
+        "url": "https://www.ctvnews.ca/montreal/article/woman-goes-missing-from-longueuil/",
+        "canonicalUrl": "https://www.ctvnews.ca/montreal/article/woman-goes-missing-from-longueuil/",
+        "title": "Woman goes missing from Longueuil",
+        "description": "A 59-year-old woman is missing after last being seen in Longueuil's Saint-Hubert borough.",
+        "source": {
+          "id": "ca_qc_ctv",
+          "name": "CTV News Montreal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/ERMSMB3PHBHNXASFVCODJXRRFE.jpeg?auth=f707e021f3491c99770201b749ffe64ed484f920da8a02a8e18398aaefb91781&smart=true&width=1920&height=1080",
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "Pxs17mgJfUhW",
+      "representative": {
+        "id": "Pxs17mgJfUhW",
+        "url": "https://www.ctvnews.ca/montreal/article/trucker-could-face-impaired-driving-charges-after-quebec-city-area-crash/",
+        "canonicalUrl": "https://www.ctvnews.ca/montreal/article/trucker-could-face-impaired-driving-charges-after-quebec-city-area-crash/",
+        "title": "Trucker could face impaired driving charges after Quebec City-area crash",
+        "description": "A truck driver was arrested early Wednesday morning following a serious traffic collision in Sainte-Anne-de-Beaupré, in the Quebec City region.",
+        "source": {
+          "id": "ca_qc_ctv",
+          "name": "CTV News Montreal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:34:18.690Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/CX47TSY4XNCZLHODNWBPWKRKPI.jpg?auth=2aaeed2a731f5a6677059e566ab88f96e5a07d8ddce42923bf80850499f7d2b0&smart=true&width=1920&height=1080",
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:34:18.690Z"
+    },
+    {
+      "id": "okKpcpyJVULZ",
+      "representative": {
+        "id": "okKpcpyJVULZ",
+        "url": "https://ici.radio-canada.ca/nouvelle/2291434/halte-chaleur-trois-rivieres-ebyon-roulottes",
+        "canonicalUrl": "https://ici.radio-canada.ca/nouvelle/2291434/halte-chaleur-trois-rivieres-ebyon-roulottes",
+        "title": "Deux roulottes serviront de halte-chaleur à Trois-Rivières",
+        "description": "Ebyôn et le Centre le Havre vont collaborer avec Trois-Rivières pour installer la halte.",
+        "source": {
+          "id": "ca_qc_radiocanada",
+          "name": "Radio-Canada Québec"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T15:08:33.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/transit/16x9/journee-neige-trois-rivieres-ville-dsc04478.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:08:33.000Z"
+    },
+    {
+      "id": "-0SKxD4T-ufo",
+      "representative": {
+        "id": "-0SKxD4T-ufo",
+        "url": "https://montreal.citynews.ca/2026/10/07/jessie-reyez-drake-to-be-honoured-for-songwriting-at-socan-awards/",
+        "canonicalUrl": "https://montreal.citynews.ca/2026/10/07/jessie-reyez-drake-to-be-honoured-for-songwriting-at-socan-awards/",
+        "title": "Jessie Reyez, Drake to be honoured for songwriting at SOCAN Awards",
+        "description": "TORONTO — Jessie Reyez and Drake will be toasted with special achievement honours at the 2026 SOCAN Awards. The post Jessie Reyez, Drake to be honoured for songwriting at SOCAN Awards appeared first on CityNews Montreal .",
+        "source": {
+          "id": "ca_qc_citynews",
+          "name": "CityNews Montreal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:01:01.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:01:01.000Z"
+    },
+    {
+      "id": "yklYJ2sWO0Zs",
+      "representative": {
+        "id": "yklYJ2sWO0Zs",
+        "url": "https://montreal.citynews.ca/2026/10/07/qs-candidate-cliche-rivard-concedes/",
+        "canonicalUrl": "https://montreal.citynews.ca/2026/10/07/qs-candidate-cliche-rivard-concedes/",
+        "title": "QS candidate in Saint-Henri-Sainte-Anne concedes after revised vote count confirms Liberal pick up",
+        "description": "The former Québec solidaire MNA for Saint-Henri-Sainte-Anne, Guillaume Cliche-Rivard, conceded defeat on Wednesday morning and congratulated his Liberal opponent, Benoit Clermont, on his victory. Following Monday night’s election, Cliche-Rivard had lost to Clermont by just 39 votes. However…",
+        "source": {
+          "id": "ca_qc_citynews",
+          "name": "CityNews Montreal"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T14:56:02.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-QC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:56:02.000Z"
+    }
+  ]
+}

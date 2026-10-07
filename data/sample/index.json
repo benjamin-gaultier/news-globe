@@ -1629,6 +1629,294 @@
       "name": "Sardinia",
       "updatedAt": "2026-10-07T15:02:06.730Z",
       "clusterCount": 15
+    },
+    {
+      "code": "CA-AB",
+      "name": "Alberta",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-BC",
+      "name": "British Columbia",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-MB",
+      "name": "Manitoba",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-NB",
+      "name": "New Brunswick",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-NL",
+      "name": "Newfoundland and Labrador",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-NS",
+      "name": "Nova Scotia",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-NT",
+      "name": "Northwest Territories",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-NU",
+      "name": "Nunavut",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-ON",
+      "name": "Ontario",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-PE",
+      "name": "Prince Edward Island",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-QC",
+      "name": "Quebec",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-SK",
+      "name": "Saskatchewan",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CA-YT",
+      "name": "Yukon",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 10
+    },
+    {
+      "code": "AU-ACT",
+      "name": "Australian Capital Territory",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AU-NSW",
+      "name": "New South Wales",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AU-NT",
+      "name": "Northern Territory",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AU-QLD",
+      "name": "Queensland",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AU-SA",
+      "name": "South Australia",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AU-TAS",
+      "name": "Tasmania",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AU-VIC",
+      "name": "Victoria",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AU-WA",
+      "name": "Western Australia",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-AC",
+      "name": "Acre",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-AM",
+      "name": "Amazonas",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-AP",
+      "name": "Amapá",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-PA",
+      "name": "Pará",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-RO",
+      "name": "Rondônia",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-RR",
+      "name": "Roraima",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-TO",
+      "name": "Tocantins",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-MA",
+      "name": "Maranhão",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-PI",
+      "name": "Piauí",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-CE",
+      "name": "Ceará",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-RN",
+      "name": "Rio Grande do Norte",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-PB",
+      "name": "Paraíba",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-PE",
+      "name": "Pernambuco",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-AL",
+      "name": "Alagoas",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-SE",
+      "name": "Sergipe",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-BA",
+      "name": "Bahia",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-DF",
+      "name": "Federal District",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-GO",
+      "name": "Goiás",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-MT",
+      "name": "Mato Grosso",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-MS",
+      "name": "Mato Grosso do Sul",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-ES",
+      "name": "Espírito Santo",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-MG",
+      "name": "Minas Gerais",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-RJ",
+      "name": "Rio de Janeiro",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-SP",
+      "name": "São Paulo",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-PR",
+      "name": "Paraná",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-SC",
+      "name": "Santa Catarina",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "BR-RS",
+      "name": "Rio Grande do Sul",
+      "updatedAt": "2026-10-07T15:31:44.023Z",
+      "clusterCount": 15
     }
   ]
 }

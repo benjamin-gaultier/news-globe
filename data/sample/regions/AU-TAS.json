@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "AU",
+  "countryName": "Australia",
+  "regionCode": "AU-TAS",
+  "regionName": "Tasmania",
+  "updatedAt": "2026-10-07T15:34:18.690Z",
+  "clusters": [
+    {
+      "id": "8AlxECNrbILC",
+      "representative": {
+        "id": "8AlxECNrbILC",
+        "url": "https://www.abc.net.au/news/2026-10-07/tas-charges-laid-over-damage-at-parliament-house-and-casino/107239880",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-07/tas-charges-laid-over-damage-at-parliament-house-and-casino/107239880",
+        "title": "Man charged over damage to Tasmania's Parliament House, Hobart casino",
+        "description": "A Tasmanian man has been charged over two separate property damage incidents in Hobart, including at Parliament House where a number of windows were smashed.",
+        "source": {
+          "id": "au_tas_abc",
+          "name": "ABC News Tasmania"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T06:59:24.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [
+        {
+          "id": "j9NJ_sG93nUk",
+          "url": "https://pulsetasmania.com.au/news/man-charged-over-window-smashing-spree-at-casino-and-parliament/",
+          "canonicalUrl": "https://pulsetasmania.com.au/news/man-charged-over-window-smashing-spree-at-casino-and-parliament/",
+          "title": "Man charged over window smashing spree at casino and parliament",
+          "description": "Police allege the man smashed a combined 36 windows",
+          "source": {
+            "id": "au_tas_pulse",
+            "name": "Pulse Tasmania"
+          },
+          "sourceCountry": "AU",
+          "language": "en",
+          "publishedAt": "2026-10-07T05:12:16.000Z",
+          "imageUrl": null,
+          "countryCode": "AU",
+          "regionCode": "AU-TAS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T06:59:24.000Z"
+    },
+    {
+      "id": "mJ-2hqRA4l3D",
+      "representative": {
+        "id": "mJ-2hqRA4l3D",
+        "url": "https://tasmaniantimes.com/2026/10/liberals-still-putting-salmon-industry-before-wild-fishers/",
+        "canonicalUrl": "https://tasmaniantimes.com/2026/10/liberals-still-putting-salmon-industry-before-wild-fishers/",
+        "title": "Liberals Still Putting Salmon Industry Before Wild Fishers",
+        "description": "Media Release – Rosalie Woodruff, Greens Leader, 7 October 2026 Liberals Still Putting Salmon Industry Before Wild Fishers When will the Rockliff government stop prioritising the profits of multinational salmon corporations and start putting Tasmania first? Closing down the wild caught fish…",
+        "source": {
+          "id": "au_tas_tasmaniantimes",
+          "name": "Tasmanian Times"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T06:21:57.000Z",
+        "imageUrl": "https://tasmaniantimes.com/wp-content/uploads/2026/08/Salmon-farm_Canva-royalty-free-1024x576.jpg",
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:21:57.000Z"
+    },
+    {
+      "id": "SMrepaQ4mhl9",
+      "representative": {
+        "id": "SMrepaQ4mhl9",
+        "url": "https://tasmaniantimes.com/2026/10/disease-outbreak-off-bruny-island/",
+        "canonicalUrl": "https://tasmaniantimes.com/2026/10/disease-outbreak-off-bruny-island/",
+        "title": "Disease Outbreak Off Bruny Island",
+        "description": "Media Release – Peter George, Independent Member for Franklin, 6 October 2026 Disease Outbreak Off Bruny Island: Salmon Industry’s Death and Disease Season Starts Early The death and disease season for the farmed salmon industry in Tasmania has hit early this year, with producer, Tassal, planning…",
+        "source": {
+          "id": "au_tas_tasmaniantimes",
+          "name": "Tasmanian Times"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T06:16:20.000Z",
+        "imageUrl": "https://tasmaniantimes.com/wp-content/uploads/2025/02/Bruny-Island-Neck-1972-1024x576.jpg",
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:16:20.000Z"
+    },
+    {
+      "id": "6A50fxnYKVFZ",
+      "representative": {
+        "id": "6A50fxnYKVFZ",
+        "url": "https://pulsetasmania.com.au/news/helicopter-launched-in-search-for-person-of-interest-in-huon-valley/",
+        "canonicalUrl": "https://pulsetasmania.com.au/news/helicopter-launched-in-search-for-person-of-interest-in-huon-valley/",
+        "title": "Helicopter launched in search for ‘person of interest’ in Huon Valley",
+        "description": "Officers were called to the Braeside Road area just before 4pm",
+        "source": {
+          "id": "au_tas_pulse",
+          "name": "Pulse Tasmania"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T06:13:59.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:13:59.000Z"
+    },
+    {
+      "id": "ynPD7JOZG3hL",
+      "representative": {
+        "id": "ynPD7JOZG3hL",
+        "url": "https://tasmaniantimes.com/2026/10/antibiotics-not-the-answer-to-disease-outbreak-in-marine-waters/",
+        "canonicalUrl": "https://tasmaniantimes.com/2026/10/antibiotics-not-the-answer-to-disease-outbreak-in-marine-waters/",
+        "title": "Antibiotics Not the Answer to Disease Outbreak in Marine Waters",
+        "description": "Media Release – Rosalie Woodruff, Greens Leader, 6 October 2026 Antibiotics Not the Answer to Disease Outbreak in Marine Waters An outbreak of piscirickettsia salmonis in a Tassal salmon farm pen at Great Taylors Bay is a very concerning event. Instead of risking marine harms, the government needs…",
+        "source": {
+          "id": "au_tas_tasmaniantimes",
+          "name": "Tasmanian Times"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T06:07:48.000Z",
+        "imageUrl": "https://tasmaniantimes.com/wp-content/uploads/2026/07/Water-_-Canva-royalty-free-1024x576.jpg",
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:07:48.000Z"
+    },
+    {
+      "id": "wEum3YekhLQE",
+      "representative": {
+        "id": "wEum3YekhLQE",
+        "url": "https://pulsetasmania.com.au/news/driver-running-late-for-work-clocked-at-107km-h-in-60km-h-zone/",
+        "canonicalUrl": "https://pulsetasmania.com.au/news/driver-running-late-for-work-clocked-at-107km-h-in-60km-h-zone/",
+        "title": "Driver running ‘late for work’ clocked at 107km/h in 60 zone",
+        "description": "Police caught the driver on Berriedale Road this morning",
+        "source": {
+          "id": "au_tas_pulse",
+          "name": "Pulse Tasmania"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T05:01:40.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:01:40.000Z"
+    },
+    {
+      "id": "Cq-J_01DKReT",
+      "representative": {
+        "id": "Cq-J_01DKReT",
+        "url": "https://www.examiner.com.au/story/9363675/alison-andrews-runs-for-northern-midlands-council-mayor/?src=rss",
+        "canonicalUrl": "https://www.examiner.com.au/story/9363675/alison-andrews-runs-for-northern-midlands-council-mayor/?src=rss",
+        "title": "After a 'grim four years', ex-journo wants to rally the council chamber",
+        "description": "After a varied career in the area, she says she knows its people.",
+        "source": {
+          "id": "au_tas_examiner",
+          "name": "The Examiner"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T05:00:00.000Z",
+        "imageUrl": "https://www.examiner.com.au/images/transform/v1/crop/frm/250454342/3e3111bc-83f5-4cc9-8dd4-278bd6d5547c.jpeg/r889_381_5433_2941_w600_h338_fmax.jpg",
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:00:00.000Z"
+    },
+    {
+      "id": "SBJBjv2MLskI",
+      "representative": {
+        "id": "SBJBjv2MLskI",
+        "url": "https://pulsetasmania.com.au/news/taran-armstrong-says-off-season-work-has-him-taking-the-big-shots/",
+        "canonicalUrl": "https://pulsetasmania.com.au/news/taran-armstrong-says-off-season-work-has-him-taking-the-big-shots/",
+        "title": "Taran Armstrong says off-season work has him taking the big shots",
+        "description": "The JackJumpers take on Illawarra in Wollongong on Friday",
+        "source": {
+          "id": "au_tas_pulse",
+          "name": "Pulse Tasmania"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T04:24:57.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:24:57.000Z"
+    },
+    {
+      "id": "b29-TEIUjh7d",
+      "representative": {
+        "id": "b29-TEIUjh7d",
+        "url": "https://www.examiner.com.au/story/9363504/emily-nunn-runs-marathon-for-late-father-with-rare-msa-disease/?src=rss",
+        "canonicalUrl": "https://www.examiner.com.au/story/9363504/emily-nunn-runs-marathon-for-late-father-with-rare-msa-disease/?src=rss",
+        "title": "A silent illness took her dad, but inspired Emily's ultimate endurance test",
+        "description": "'I never had the mindset to run 42k or let alone over 5k.'",
+        "source": {
+          "id": "au_tas_examiner",
+          "name": "The Examiner"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T04:00:00.000Z",
+        "imageUrl": "https://www.examiner.com.au/images/transform/v1/crop/frm/8mt7fPj3AeZSAF4grZ2EUc/919616db-930b-421a-94af-0dc1e86f6421.png/r2_24_2198_1261_w600_h338_fmax.jpg",
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "id": "ogKxFvt414G-",
+      "representative": {
+        "id": "ogKxFvt414G-",
+        "url": "https://www.examiner.com.au/story/9363242/rubi-everard-started-beauty-for-fun-now-its-her-career/?src=rss",
+        "canonicalUrl": "https://www.examiner.com.au/story/9363242/rubi-everard-started-beauty-for-fun-now-its-her-career/?src=rss",
+        "title": "'It was insane': from college fun to international success for beauty therapist",
+        "description": "Rubi Everard had no idea her beauty skills would get her this far.",
+        "source": {
+          "id": "au_tas_examiner",
+          "name": "The Examiner"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T00:00:00.000Z",
+        "imageUrl": "https://www.examiner.com.au/images/transform/v1/crop/frm/231589721/55f938d2-df9d-4143-82a5-2552a664ba71.jpg/r0_298_5760_3543_w600_h338_fmax.jpg",
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T00:00:00.000Z"
+    },
+    {
+      "id": "uM0O0ERl53yf",
+      "representative": {
+        "id": "uM0O0ERl53yf",
+        "url": "https://www.abc.net.au/news/2026-10-07/tassal-salmon-florfenicol-permit-wait-antibiotics/107233684",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-07/tassal-salmon-florfenicol-permit-wait-antibiotics/107233684",
+        "title": "Disease outbreak prompts salmon company to inject fish with antibiotic",
+        "description": "With Tasmania's salmon industry bracing for marine heatwave conditions this summer, one company is about to begin injecting fish with an antibacterial drug — with its preferred antibiotic option still off the table after the permit to use was revoked.",
+        "source": {
+          "id": "au_tas_abc",
+          "name": "ABC News Tasmania"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T18:53:18.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:53:18.000Z"
+    },
+    {
+      "id": "nqKKCPE1LB0G",
+      "representative": {
+        "id": "nqKKCPE1LB0G",
+        "url": "https://www.abc.net.au/news/2026-10-07/tas-utas-financal-problems-after-cbd-move-turned-sour-inquiry/107232234",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-07/tas-utas-financal-problems-after-cbd-move-turned-sour-inquiry/107232234",
+        "title": "UTAS debts building up after CBD move 'turned sour', economist says",
+        "description": "The University of Tasmania's finances face twin problems of large debts and little revenue coming in, an economist who fronted a parliamentary inquiry says.",
+        "source": {
+          "id": "au_tas_abc",
+          "name": "ABC News Tasmania"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T18:30:43.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:30:43.000Z"
+    },
+    {
+      "id": "qmnRdOGmY1T7",
+      "representative": {
+        "id": "qmnRdOGmY1T7",
+        "url": "https://www.abc.net.au/news/2026-10-06/one-nation-ai-generated-video-sparks-hanson-row/107236300",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-06/one-nation-ai-generated-video-sparks-hanson-row/107236300",
+        "title": "One Nation AI-generated video sparks cafe owner row with Lee Hanson",
+        "description": "A Tasmanian cafe owner and Pauline Hanson's daughter have become embroiled in a row over an AI-generated video depicting people ditching their social and political allegiances and revealing themselves as One Nation supporters.",
+        "source": {
+          "id": "au_tas_abc",
+          "name": "ABC News Tasmania"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:35:00.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:35:00.000Z"
+    },
+    {
+      "id": "UbaQ5Y_u3SXw",
+      "representative": {
+        "id": "UbaQ5Y_u3SXw",
+        "url": "https://pulsetasmania.com.au/news/labor-questions-who-will-pay-for-250000-meals-shipped-into-risdon-prison/",
+        "canonicalUrl": "https://pulsetasmania.com.au/news/labor-questions-who-will-pay-for-250000-meals-shipped-into-risdon-prison/",
+        "title": "Labor questions who will pay for 250,000 meals shipped into Risdon Prison",
+        "description": "About 3,000 meals a day have been brought in from the mainland",
+        "source": {
+          "id": "au_tas_pulse",
+          "name": "Pulse Tasmania"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:46:16.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T03:46:16.000Z"
+    },
+    {
+      "id": "WwsEEim2nkei",
+      "representative": {
+        "id": "WwsEEim2nkei",
+        "url": "https://pulsetasmania.com.au/news/wheelies-and-speed-behind-teens-fatal-dirt-bike-crash-coroner-finds/",
+        "canonicalUrl": "https://pulsetasmania.com.au/news/wheelies-and-speed-behind-teens-fatal-dirt-bike-crash-coroner-finds/",
+        "title": "Wheelies and speed behind teen’s fatal dirt bike crash, coroner finds",
+        "description": "The coroner said his father described him as a 'safety-conscious' rider",
+        "source": {
+          "id": "au_tas_pulse",
+          "name": "Pulse Tasmania"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:01:22.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": "AU-TAS"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T03:01:22.000Z"
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "CA",
+  "countryName": "Canada",
+  "regionCode": "CA-MB",
+  "regionName": "Manitoba",
+  "updatedAt": "2026-10-07T15:34:18.690Z",
+  "clusters": [
+    {
+      "id": "FhlJNiRdwTSY",
+      "representative": {
+        "id": "FhlJNiRdwTSY",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/10/06/u-s-court-denies-mans-appeal-in-human-smuggling-case-where-family-died-near-emerson",
+        "canonicalUrl": "https://www.winnipegfreepress.com/breakingnews/2026/10/06/u-s-court-denies-mans-appeal-in-human-smuggling-case-where-family-died-near-emerson",
+        "title": "U.S. court denies man’s appeal in human smuggling case where family died near Emerson",
+        "description": "A United States court of appeal has upheld the conviction and sentence for a man found guilty of smuggling Indian nationals into Minnesota from Manitoba, which resulted in the deaths of a family in 2022.",
+        "source": {
+          "id": "ca_mb_free_press",
+          "name": "Winnipeg Free Press"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T19:46:00.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [
+        {
+          "id": "QABfd9Ph8YCs",
+          "url": "https://www.ctvnews.ca/winnipeg/article/court-rejects-appeal-in-manitoba-us-smuggling-case-where-family-froze-to-death/",
+          "canonicalUrl": "https://www.ctvnews.ca/winnipeg/article/court-rejects-appeal-in-manitoba-us-smuggling-case-where-family-froze-to-death/",
+          "title": "Court rejects appeal in Manitoba-U.S. smuggling case where family froze to death",
+          "description": "A United States court has upheld the verdict for one of two men convicted in a human smuggling operation along the Canada-U.S. border.",
+          "source": {
+            "id": "ca_mb_ctv",
+            "name": "CTV News Winnipeg"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-07T01:54:30.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/AJ7WQBYIKP76GQKATNKAOQRAYY.jpg?auth=541df0e585028c5e6cd2f6259395db844882b18919b48b21fbaff01da38b232f&smart=true&width=1400&height=937",
+          "countryCode": "CA",
+          "regionCode": "CA-MB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T01:54:30.000Z"
+    },
+    {
+      "id": "fO1yQBF4zC92",
+      "representative": {
+        "id": "fO1yQBF4zC92",
+        "url": "https://globalnews.ca/news/12090189/manitoba-expands-post-hospital-care/",
+        "canonicalUrl": "https://globalnews.ca/news/12090189/manitoba-expands-post-hospital-care/",
+        "title": "Manitoba expands post-hospital care for homeless, mental health patients",
+        "description": "More than 100 new community spaces are expected to open for patients who require follow up care after being discharged from hospital, the Manitoba government announced.",
+        "source": {
+          "id": "ca_mb_global",
+          "name": "Global News Winnipeg"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T20:03:44.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/manitoba-post-hospital-care.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [
+        {
+          "id": "h2TOB7HSmfSW",
+          "url": "https://www.ctvnews.ca/winnipeg/article/manitoba-government-expands-post-hospital-care-for-homeless-mental-health-patients/",
+          "canonicalUrl": "https://www.ctvnews.ca/winnipeg/article/manitoba-government-expands-post-hospital-care-for-homeless-mental-health-patients/",
+          "title": "Manitoba government expands post-hospital care for homeless, mental health patients",
+          "description": "The Manitoba government is opening up more than 100 new spaces for patients who require follow-up care after being discharged from hospital.",
+          "source": {
+            "id": "ca_mb_ctv",
+            "name": "CTV News Winnipeg"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-07T00:23:51.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/POCUYCPFK5UBCY5WQQGTOUBTPU.jpg?auth=179aed5a3a1a385493e92bbaf09f16bd7fe1b21eff9c3b54bb1f6d481d8d41f5&smart=true&width=1400&height=933",
+          "countryCode": "CA",
+          "regionCode": "CA-MB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T00:23:51.000Z"
+    },
+    {
+      "id": "Ls4PU7i6QITv",
+      "representative": {
+        "id": "Ls4PU7i6QITv",
+        "url": "https://globalnews.ca/news/12089778/26-kilograms-cocaine-seized-winnipeg/",
+        "canonicalUrl": "https://globalnews.ca/news/12089778/26-kilograms-cocaine-seized-winnipeg/",
+        "title": "Winnipeg drug bust yields $1.5M worth of cocaine: police",
+        "description": "Two people were arrested and are facing charges after officers seized 26 kilograms of cocaine, and other goods, in part of an investigation into a Winnipeg home, police said.",
+        "source": {
+          "id": "ca_mb_global",
+          "name": "Global News Winnipeg"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T18:37:38.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/cocaine-cash-seized-st-vital.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [
+        {
+          "id": "JceOZIn6WfD-",
+          "url": "https://www.ctvnews.ca/winnipeg/article/15m-in-cocaine-seized-in-drug-trafficking-investigation-two-arrested-winnipeg-police/",
+          "canonicalUrl": "https://www.ctvnews.ca/winnipeg/article/15m-in-cocaine-seized-in-drug-trafficking-investigation-two-arrested-winnipeg-police/",
+          "title": "$1.5M in cocaine seized in drug trafficking investigation, two arrested: Winnipeg police",
+          "description": "Winnipeg police say investigators have interrupted a drug trafficking operation in southern Winnipeg, which resulted in the seizure of more than 26 kilograms of cocaine.",
+          "source": {
+            "id": "ca_mb_ctv",
+            "name": "CTV News Winnipeg"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-06T20:58:55.000Z",
+          "imageUrl": "https://www.ctvnews.ca/resizer/v2/UAUHY62HCFFUDFRB5UPR5W3ZVY.jpeg?auth=8d03314c741e20f353dd9b6c27b7acb7f14f0c0eb1ba1bcf683f20c470c114fe&smart=true&width=1920&height=1080",
+          "countryCode": "CA",
+          "regionCode": "CA-MB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T20:58:55.000Z"
+    },
+    {
+      "id": "H7UFshFle7qL",
+      "representative": {
+        "id": "H7UFshFle7qL",
+        "url": "https://ici.radio-canada.ca/info/videos/1-10778711/place-a-mode-afro",
+        "canonicalUrl": "https://ici.radio-canada.ca/info/videos/1-10778711/place-a-mode-afro",
+        "title": "Place à la mode afro",
+        "description": "Marie Rosette Mikulu est une créatrice de mode africaine originaire de la République démocratique du Congo. Installée au Manitoba depuis plusieurs années, elle a fait de sa passion pour la couture sa principale activité. Inspirée par les textiles traditionnels, elle crée des tenues originales qui…",
+        "source": {
+          "id": "ca_mb_radiocanada",
+          "name": "Radio-Canada Manitoba"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T14:49:49.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/marie-rosette-mikulu-58377.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:49:49.000Z"
+    },
+    {
+      "id": "OqTKq876dBIb",
+      "representative": {
+        "id": "OqTKq876dBIb",
+        "url": "https://ici.radio-canada.ca/info/videos/1-10778669/kinew-en-francais-en-chambre-impoli-et-contre-productif",
+        "canonicalUrl": "https://ici.radio-canada.ca/info/videos/1-10778669/kinew-en-francais-en-chambre-impoli-et-contre-productif",
+        "title": "Kinew en français en chambre : « impoli » et « contre-productif »",
+        "description": "La controverse entourant l'usage du français à l'Assemblée législative du Manitoba amène certains observateurs à soutenir que le premier ministre en fait un instrument politique. Cette stratégie viserait notamment la circonscription de La Vérendrye, bastion du chef par intérim de l'opposition…",
+        "source": {
+          "id": "ca_mb_radiocanada",
+          "name": "Radio-Canada Manitoba"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T14:26:24.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/wab-kinew-10440.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:26:24.000Z"
+    },
+    {
+      "id": "1FEpV-ilp97V",
+      "representative": {
+        "id": "1FEpV-ilp97V",
+        "url": "https://ici.radio-canada.ca/info/videos/1-10778668/questions-en-chambre-kinew-en-francais",
+        "canonicalUrl": "https://ici.radio-canada.ca/info/videos/1-10778668/questions-en-chambre-kinew-en-francais",
+        "title": "Questions en chambre : Kinew en français",
+        "description": "Le président de l’Assemblée législative du Manitoba, Tom Lindsey, s’est prononcé lundi au sujet d’une controverse entourant l’utilisation du français au sein de l’institution. Depuis mai dernier, le premier ministre, Wab Kinew, répond de plus en plus en français à des questions posées en anglais…",
+        "source": {
+          "id": "ca_mb_radiocanada",
+          "name": "Radio-Canada Manitoba"
+        },
+        "sourceCountry": "CA",
+        "language": "fr",
+        "publishedAt": "2026-10-07T14:18:30.000Z",
+        "imageUrl": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/konrad-narth-4514.jpg",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:18:30.000Z"
+    },
+    {
+      "id": "Fad0ZBzMCyim",
+      "representative": {
+        "id": "Fad0ZBzMCyim",
+        "url": "https://globalnews.ca/news/12090815/permanent-daylight-time-shakes-up-nhl-schedules/",
+        "canonicalUrl": "https://globalnews.ca/news/12090815/permanent-daylight-time-shakes-up-nhl-schedules/",
+        "title": "Permanent daylight time shakes up NHL schedules",
+        "description": "Alberta's move to permanent daylight time will turn the Calgary Flames and their fans into night owls a few times this NHL season.",
+        "source": {
+          "id": "ca_mb_global",
+          "name": "Global News Winnipeg"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T09:01:27.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/2b990a3a0a99df9edf270fae7f8cb32871ca3d379471f8fd55e414de7b515315.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:01:27.000Z"
+    },
+    {
+      "id": "qo4jjqG2POe2",
+      "representative": {
+        "id": "qo4jjqG2POe2",
+        "url": "https://www.ctvnews.ca/winnipeg/article/how-young-canadians-are-being-targeted-online-using-ai-deepfakes/",
+        "canonicalUrl": "https://www.ctvnews.ca/winnipeg/article/how-young-canadians-are-being-targeted-online-using-ai-deepfakes/",
+        "title": "How young Canadians are being targeted online using AI deepfakes",
+        "description": "The Canadian Centre for Child Protection says young people are being targeted by online predators and fraudsters at an alarming rate – and warn offenders are weaponizing fake nude photos and videos of their victims.",
+        "source": {
+          "id": "ca_mb_ctv",
+          "name": "CTV News Winnipeg"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T04:18:00.000Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/DNM7B3JAEFFXBMQVJFJZZM2AOQ.jpeg?auth=18f2ea38616e4d0b17707d325a47d794cba35c8d46990e2563f645b014728335&smart=true&width=1920&height=1080",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:18:00.000Z"
+    },
+    {
+      "id": "6ia8FPRQz2iK",
+      "representative": {
+        "id": "6ia8FPRQz2iK",
+        "url": "https://www.ctvnews.ca/winnipeg/article/two-familiar-names-running-in-brandons-mayoral-race/",
+        "canonicalUrl": "https://www.ctvnews.ca/winnipeg/article/two-familiar-names-running-in-brandons-mayoral-race/",
+        "title": "Two familiar names running in Brandon’s mayoral race",
+        "description": "There’s a two-horse race for mayor in Manitoba’s wheat city.",
+        "source": {
+          "id": "ca_mb_ctv",
+          "name": "CTV News Winnipeg"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T04:09:56.000Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/5KIL5J3JF5GE3BDCEB6VAXKDLM.png?auth=661b6906c138bdbbcf397b8493b2065a097efa5c4dd321cb4a7efc69edcb925f&smart=true&width=4000&height=2250",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:09:56.000Z"
+    },
+    {
+      "id": "pj4yGMENXggE",
+      "representative": {
+        "id": "pj4yGMENXggE",
+        "url": "https://www.ctvnews.ca/winnipeg/article/drexler-promises-to-lead-with-compassion-if-elected-winnipegs-next-mayor/",
+        "canonicalUrl": "https://www.ctvnews.ca/winnipeg/article/drexler-promises-to-lead-with-compassion-if-elected-winnipegs-next-mayor/",
+        "title": "Drexler promises to lead with compassion if elected Winnipeg’s next mayor",
+        "description": "Community safety, housing support and improving transit safety are among the priorities for Tracey Drexler if she is elected as Winnipeg’s next mayor.",
+        "source": {
+          "id": "ca_mb_ctv",
+          "name": "CTV News Winnipeg"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:30:00.000Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/JTIFM73UFJGH3OCJYK7YVRZBRI.jpeg?auth=1a1e84fe0f0be8be94b50b255cda70dd12bd703178e57a43d0fd5b75a3991fab&smart=true&width=1920&height=1080",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T03:30:00.000Z"
+    },
+    {
+      "id": "PsfEP4u0GoWy",
+      "representative": {
+        "id": "PsfEP4u0GoWy",
+        "url": "https://globalnews.ca/news/12090407/winnipeg-mayoral-candidates-using-ai-in-campaign/",
+        "canonicalUrl": "https://globalnews.ca/news/12090407/winnipeg-mayoral-candidates-using-ai-in-campaign/",
+        "title": "Winnipeg mayoral candidates using AI in campaign",
+        "description": "Some Winnipeg mayoral candidates are using AI in their campaigns for the 2026 election, and some Winnipeggers feel mostly negative about those running for office who use the tech.",
+        "source": {
+          "id": "ca_mb_global",
+          "name": "Global News Winnipeg"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T00:19:26.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/umar.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T00:19:26.000Z"
+    },
+    {
+      "id": "0Q40xcJW2YQ8",
+      "representative": {
+        "id": "0Q40xcJW2YQ8",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/10/06/klein-claims-pcs-offered-him-party-position-to-exit-2022-mayoral-race-to-help-gillingham-win",
+        "canonicalUrl": "https://www.winnipegfreepress.com/breakingnews/2026/10/06/klein-claims-pcs-offered-him-party-position-to-exit-2022-mayoral-race-to-help-gillingham-win",
+        "title": "Klein claims PCs offered him party position to exit 2022 mayoral race to help Gillingham win",
+        "description": "Mayoral candidate Kevin Klein said he was offered a position with the provincial Tories if he pulled out of the 2022 mayoral race that saw then-city councillor Scott Gillingham defeat former mayor Glen Murray.",
+        "source": {
+          "id": "ca_mb_free_press",
+          "name": "Winnipeg Free Press"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-07T00:01:41.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T00:01:41.000Z"
+    },
+    {
+      "id": "FKIBvCNR7FJZ",
+      "representative": {
+        "id": "FKIBvCNR7FJZ",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/10/06/province-takes-aim-at-er-wait-times-by-adding-community-care-capacity-to-free-up-hospital-beds",
+        "canonicalUrl": "https://www.winnipegfreepress.com/breakingnews/2026/10/06/province-takes-aim-at-er-wait-times-by-adding-community-care-capacity-to-free-up-hospital-beds",
+        "title": "Province takes aim at ER wait times by adding community-care capacity to free up hospital beds",
+        "description": "The province is aiming to free up hospital beds and cut wait times by adding 103 community-based care spaces in Winnipeg for patients who need shelter or specialized supports in order to be discharged.",
+        "source": {
+          "id": "ca_mb_free_press",
+          "name": "Winnipeg Free Press"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T23:30:59.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T23:30:59.000Z"
+    },
+    {
+      "id": "PIavblFFZ1Br",
+      "representative": {
+        "id": "PIavblFFZ1Br",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/10/06/whistleblower-pharmacist-fined-for-misconduct-after-complaint",
+        "canonicalUrl": "https://www.winnipegfreepress.com/breakingnews/2026/10/06/whistleblower-pharmacist-fined-for-misconduct-after-complaint",
+        "title": "Whistleblower pharmacist fined for misconduct after complaint",
+        "description": "A Manitoba pharmacist who made complaints against a colleague that led to sanctions against him has now also been fined due to her own conduct.",
+        "source": {
+          "id": "ca_mb_free_press",
+          "name": "Winnipeg Free Press"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T21:57:55.000Z",
+        "imageUrl": null,
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T21:57:55.000Z"
+    },
+    {
+      "id": "Dvf8lA8_eINd",
+      "representative": {
+        "id": "Dvf8lA8_eINd",
+        "url": "https://globalnews.ca/news/12089661/new-charges-project-derry-manitoba/",
+        "canonicalUrl": "https://globalnews.ca/news/12089661/new-charges-project-derry-manitoba/",
+        "title": "RCMP lay 21 new charges in northern Manitoba organized crime investigation",
+        "description": "Twenty-one new charges were laid against 11 suspects in connection with a Manitoba RCMP investigation into violence on a northern First Nation.",
+        "source": {
+          "id": "ca_mb_global",
+          "name": "Global News Winnipeg"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T17:25:47.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/project-derry-guns.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": "CA-MB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:25:47.000Z"
+    }
+  ]
+}
