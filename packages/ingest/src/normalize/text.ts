@@ -395,6 +395,27 @@ oo ka iyo ku u la in ay ee soo ah ayaa kala uga loo lagu laga waxaa waxay inay i
 ahaa ayuu ayay kadib kaddib dib kuna kana kasoo kusoo isla aan aad ama mid hal sida maanta shalay
 daawo sawirro muuqaal warbixin degdeg soomaaliya somalia
 `;
+// Swahili and Kinyarwanda: connectives and class-agreement particles (ya, wa, za …;
+// Kinyarwanda's elided n' z' cy' leave one- and two-letter tokens), plus the country's name.
+const STOPWORDS_SW = `
+na ya wa kwa katika la za cha vya kwenye ni pia hii hiyo huo hizo yake wake zake baada kabla kuhusu
+kati bila zaidi hadi tangu leo jana kesho sasa ili kama lakini au ndani nje kuwa ana wana mpya video
+picha habari tanzania
+`;
+const STOPWORDS_RW = `
+na ya mu ku wa ba kuri muri ni no nk bya rya kwa iki ibi aba uyu iyi ubu kandi nyuma mbere ndetse bari
+yari ari ko uko ngo u i y z n c cy by ry rw bw kw rwanda
+`;
+// Kyrgyz and Belarusian, written in normal spelling and folded by foldedWords.
+const STOPWORDS_KY = `
+жана менен үчүн боюнча деп бул ал да дагы бир мен биз алар эмес бар жок болот болгон болуп кийин
+чейин дейт айтты жылы жыл бүгүн кечээ тууралуу каршы аркылуу ошол андан кандай эмне ким качан кайда
+млн млрд сом сомду сомдон түздү кыргызстан
+`;
+const STOPWORDS_BE = `
+і ў у на з за па да ад не што як але гэта ці а для пра пасьля пасля праз яго яе іх быў была былі будзе
+ужо таксама сёньня сёння учора дзе калі пры без над пад паміж
+`;
 // Cyrillic й folds to и (NFD), hence "маи".
 const STOPWORDS_BG = `
 и в на за от с да се не е са по до при към като че но или ще бил била било това този тази тези които
@@ -473,6 +494,10 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   sr: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   bs: wordSet(STOPWORDS_HR_SR, STOPWORDS_EN, BOILERPLATE),
   so: wordSet(STOPWORDS_SO, STOPWORDS_EN, BOILERPLATE),
+  sw: wordSet(STOPWORDS_SW, STOPWORDS_EN, BOILERPLATE),
+  rw: wordSet(STOPWORDS_RW, STOPWORDS_EN, BOILERPLATE),
+  ky: wordSet(foldedWords(STOPWORDS_KY), STOPWORDS_EN, BOILERPLATE),
+  be: wordSet(foldedWords(STOPWORDS_BE), STOPWORDS_EN, BOILERPLATE),
   ko: wordSet(STOPWORDS_KO, STOPWORDS_EN, BOILERPLATE),
   th: wordSet(STOPWORDS_TH, STOPWORDS_EN, BOILERPLATE),
   bn: wordSet(STOPWORDS_BN, STOPWORDS_EN, BOILERPLATE),
