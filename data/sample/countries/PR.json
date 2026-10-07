@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PR",
   "countryName": "Puerto Rico",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
     {
       "id": "BsQeVkPqhiLv",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:35:00.000Z"
-    },
-    {
-      "id": "DSP4QEwL5r3E",
-      "representative": {
-        "id": "DSP4QEwL5r3E",
-        "url": "https://www.elnuevodia.com/noticias/locales/notas/33-municipios-perdieron-mas-del-15-de-su-poblacion-entre-2000-y-2025/",
-        "canonicalUrl": "https://www.elnuevodia.com/noticias/locales/notas/33-municipios-perdieron-mas-del-15-de-su-poblacion-entre-2000-y-2025/",
-        "title": "33 municipios perdieron más del 15% de su población entre 2000 y 2025",
-        "description": "Guánica, Ceiba y Loíza encabezan la lista de reducciones, según el Instituto de Estadísticas",
-        "source": {
-          "id": "elnuevodia",
-          "name": "El Nuevo Día"
-        },
-        "sourceCountry": "PR",
-        "language": "es",
-        "publishedAt": "2026-10-06T14:44:51.000Z",
-        "imageUrl": "https://www.elnuevodia.com/resizer/v2/S3BAR6YROZD33IR3RC7GSZR5AY.JPG?auth=e5044c7d1b07c58f108e97a427d569b06afd94ca829752108dbb1a2cda7fe2f9&smart=true&width=6459&height=4308",
-        "countryCode": "PR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "VVeEWam1ac9w",
-          "url": "https://www.primerahora.com/noticias/puerto-rico/notas/se-vacian-los-pueblos-33-municipios-pierden-mas-del-15-de-su-poblacion-en-25-anos/",
-          "canonicalUrl": "https://www.primerahora.com/noticias/puerto-rico/notas/se-vacian-los-pueblos-33-municipios-pierden-mas-del-15-de-su-poblacion-en-25-anos/",
-          "title": "Se vacían los pueblos: 33 municipios pierden más del 15% de su población en 25 años",
-          "description": "Guánica ha perdido la mitad de sus habitantes durante ese periodo.",
-          "source": {
-            "id": "primerahora",
-            "name": "Primera Hora"
-          },
-          "sourceCountry": "PR",
-          "language": "es",
-          "publishedAt": "2026-10-06T13:05:11.000Z",
-          "imageUrl": "https://www.primerahora.com/resizer/v2/AH4HXD5T7BGNRMT4WTNNNJNDSY.jpg?auth=f8ec543328122485242387da75431f4072a685d43df9e3d3d97a344eb065adfc&smart=true&width=8192&height=5464",
-          "countryCode": "PR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:44:51.000Z"
     },
     {
       "id": "Pbp5AJukkAxe",
@@ -171,48 +129,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T14:32:52.000Z"
-    },
-    {
-      "id": "UNnJeaqh-9OU",
-      "representative": {
-        "id": "UNnJeaqh-9OU",
-        "url": "https://www.elnuevodia.com/noticias/mundo/notas/que-es-la-peste-neumonica-rusia-y-el-resto-del-mundo-toman-accion-ante-un-posible-caso/",
-        "canonicalUrl": "https://www.elnuevodia.com/noticias/mundo/notas/que-es-la-peste-neumonica-rusia-y-el-resto-del-mundo-toman-accion-ante-un-posible-caso/",
-        "title": "¿Qué es la peste neumónica? Rusia y el resto del mundo toman acción ante un posible caso",
-        "description": "La muerte de una investigadora de un laboratorio ruso a causa de una neumonía ha despertado la preocupación mundial, aunque la OMS califica el riesgo externo como “muy bajo”",
-        "source": {
-          "id": "elnuevodia",
-          "name": "El Nuevo Día"
-        },
-        "sourceCountry": "PR",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:51:16.000Z",
-        "imageUrl": "https://www.elnuevodia.com/resizer/v2/I7KDGNP4Y5DB7EUTLUH2H6EKAQ.jpg?auth=1a7e4a5cab366a9d548f0bc61c3b8b180ec617592ad6478501ad4bb8db2ea5c2&smart=true&width=512&height=341",
-        "countryCode": "PR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "yra0J3oYVdOF",
-          "url": "https://www.primerahora.com/noticias/estados-unidos/notas/estados-unidos-pide-a-rusia-informacion-sobre-posible-caso-de-peste-neumonica/",
-          "canonicalUrl": "https://www.primerahora.com/noticias/estados-unidos/notas/estados-unidos-pide-a-rusia-informacion-sobre-posible-caso-de-peste-neumonica/",
-          "title": "Estados Unidos pide a Rusia información sobre posible caso de peste neumónica",
-          "description": "Una científica murió y más de 200 personas fueron puestas en cuarentena.",
-          "source": {
-            "id": "primerahora",
-            "name": "Primera Hora"
-          },
-          "sourceCountry": "PR",
-          "language": "es",
-          "publishedAt": "2026-10-06T13:04:58.000Z",
-          "imageUrl": "https://www.primerahora.com/resizer/v2/I7KDGNP4Y5DB7EUTLUH2H6EKAQ.jpg?auth=1a7e4a5cab366a9d548f0bc61c3b8b180ec617592ad6478501ad4bb8db2ea5c2&smart=true&width=512&height=341",
-          "countryCode": "PR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:51:16.000Z"
     },
     {
       "id": "LUMdhFEI94es",
@@ -453,6 +369,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T16:00:00.000Z"
+    },
+    {
+      "id": "hhP3GQPN2Cbk",
+      "representative": {
+        "id": "hhP3GQPN2Cbk",
+        "url": "https://www.elnuevodia.com/noticias/seguridad/notas/golpean-a-conductor-de-60-anos-durante-intento-de-robo-en-rio-piedras/",
+        "canonicalUrl": "https://www.elnuevodia.com/noticias/seguridad/notas/golpean-a-conductor-de-60-anos-durante-intento-de-robo-en-rio-piedras/",
+        "title": "Golpean a conductor de 60 años durante intento de robo en Río Piedras",
+        "description": "El perjudicado condujo hasta un hospital en Carolina, donde le diagnosticaron fracturas en el tabique y la órbita superior",
+        "source": {
+          "id": "elnuevodia",
+          "name": "El Nuevo Día"
+        },
+        "sourceCountry": "PR",
+        "language": "es",
+        "publishedAt": "2026-10-06T15:57:37.000Z",
+        "imageUrl": "https://www.elnuevodia.com/resizer/v2/EICEPCWGMZF75CVPRM36WSF4GY.JPG?auth=d6ba717891d597d8a4fd3855eef6ecfde23d212a45c91aca86f330a2cdfba0f6&smart=true&width=5120&height=2880",
+        "countryCode": "PR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:57:37.000Z"
+    },
+    {
+      "id": "cLZVmOohV7O2",
+      "representative": {
+        "id": "cLZVmOohV7O2",
+        "url": "https://www.elnuevodia.com/negocios/economia/notas/bonistas-de-la-aee-arremeten-contra-la-junta-fiscal-por-su-respaldo-a-power-expectations/",
+        "canonicalUrl": "https://www.elnuevodia.com/negocios/economia/notas/bonistas-de-la-aee-arremeten-contra-la-junta-fiscal-por-su-respaldo-a-power-expectations/",
+        "title": "Bonistas de la AEE arremeten contra la Junta Fiscal por su respaldo a Power Expectations",
+        "description": "El grupo de acreedores reclamó que el organismo debe reconfigurarse o eliminarse porque ha sido un obstáculo en la reestructuración de la empresa eléctrica estatal",
+        "source": {
+          "id": "elnuevodia",
+          "name": "El Nuevo Día"
+        },
+        "sourceCountry": "PR",
+        "language": "es",
+        "publishedAt": "2026-10-06T15:38:26.000Z",
+        "imageUrl": "https://www.elnuevodia.com/resizer/v2/DYT54KB3SVAHBIX5NSN53V3CUQ.jpg?auth=a3af6c8083ba598f7c54939bed8314f331b9441bc93307e302f859c786211b4d&smart=true&width=5000&height=3334",
+        "countryCode": "PR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:38:26.000Z"
     }
   ]
 }

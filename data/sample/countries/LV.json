@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "LV",
   "countryName": "Latvia",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
     {
       "id": "Byl-1weXJ3lq",
@@ -87,48 +87,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:31:00.000Z"
-    },
-    {
-      "id": "dd7hSWmg0dlH",
-      "representative": {
-        "id": "dd7hSWmg0dlH",
-        "url": "https://pmo.ee/8559480",
-        "canonicalUrl": "https://pmo.ee/8559480",
-        "title": "ZZS ministri pagaidām nekomentē savas turpmākās darba gaitas",
-        "description": "Zemkopības ministram Uldim Augulim (ZZS) esot padomā, ko viņš darīs pēc tam, kad vairs neturpinās darbu valdībā, tomēr konkrētus plānus viņš neatklāj, un savus nākotnes plānus neatklāj arī cits Zaļo un zemnieku savienības (ZZS) ministrs - ekonomikas ministrs Viktors Valainis.",
-        "source": {
-          "id": "tvnet",
-          "name": "TVNET"
-        },
-        "sourceCountry": "LV",
-        "language": "lv",
-        "publishedAt": "2026-10-06T13:02:50.000Z",
-        "imageUrl": "https://f7.pmo.ee/FCAUM90r40Cv9NPECBGyIDwWHGU=/480x270/smart/nginx/o/2026/09/14/17917393t1ha226.jpg",
-        "countryCode": "LV",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "8fJ-9DDz8mOP",
-          "url": "https://diena.lv/raksts/latvija/zinas-71/zzs-ministri-nekomente-savus-nakotnes-planus-pec-valdibas-darba-beigam?utm_source=rss&utm_campaign=rss&utm_medium=links",
-          "canonicalUrl": "https://diena.lv/raksts/latvija/zinas-71/zzs-ministri-nekomente-savus-nakotnes-planus-pec-valdibas-darba-beigam",
-          "title": "ZZS ministri nekomentē savus nākotnes plānus pēc valdības darba beigām",
-          "description": "Zemkopības ministram Uldim Augulim (ZZS) esot padomā, ko viņš darīs pēc tam, kad vairs neturpinās darbu valdībā, tomēr konkrētus plānus viņš neatklāj, un savus nākotnes plānus neatklāj arī cits Zaļo un zemnieku savienības (ZZS) ministrs - ekonomikas ministrs Viktors Valainis.",
-          "source": {
-            "id": "diena",
-            "name": "Diena"
-          },
-          "sourceCountry": "LV",
-          "language": "lv",
-          "publishedAt": "2026-10-06T13:04:00.000Z",
-          "imageUrl": "https://diena.lv/imgproxy/IcKlAJKWRu4OoYcCpX9Iet1VbsPZ2O-5PvyIh_RXXDo/rt:fill/s:1200:750/g:fp:0.5:0.26/f:jpg/plain/s3://diena-1/media/let_24953740.jpg",
-          "countryCode": "LV",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:04:00.000Z"
     },
     {
       "id": "jdlvie5YzltG",
@@ -366,7 +324,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:03:04.000Z"
     },
@@ -390,7 +348,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:30:00.000Z"
     },
@@ -414,9 +372,33 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:29:00.000Z"
+    },
+    {
+      "id": "cUpNeZuY1fNa",
+      "representative": {
+        "id": "cUpNeZuY1fNa",
+        "url": "https://pmo.ee/8559481",
+        "canonicalUrl": "https://pmo.ee/8559481",
+        "title": "Aptaujā par labāko debitantu NHL apskatnieki Šmitu vērtē pieticīgi",
+        "description": "Nacionālās hokeja līgas (NHL) aptaujā par sezonas labāko debitantu apskatnieki pieticīgi novērtējuši 18 gadus veco Latvijas aizsargu Albertu Šmitu no Ņujorkas \"Rangers\" komandas.",
+        "source": {
+          "id": "tvnet",
+          "name": "TVNET"
+        },
+        "sourceCountry": "LV",
+        "language": "lv",
+        "publishedAt": "2026-10-06T13:33:32.000Z",
+        "imageUrl": "https://f11.pmo.ee/9OkJR1eehCqiUgRpvhUM9OW6MUQ=/480x270/filters:focal(1950x555:2070x632)/nginx/o/2026/10/02/17950117t1h84d1.jpg",
+        "countryCode": "LV",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:33:32.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "NP",
   "countryName": "Nepal",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
     {
       "id": "CzZsKiIe9g9b",
@@ -81,6 +81,48 @@
       "latestPublishedAt": "2026-10-06T16:02:42.000Z"
     },
     {
+      "id": "owc-upjatD9_",
+      "representative": {
+        "id": "owc-upjatD9_",
+        "url": "https://nagariknews.nagariknetwork.com/economy/preparations-for-virat-trade-fair-complete-br-24-82.html",
+        "canonicalUrl": "https://nagariknews.nagariknetwork.com/economy/preparations-for-virat-trade-fair-complete-br-24-82.html",
+        "title": "विराटनगरमा असोज २२ देखि ‘विराट ट्रेड फेयर’",
+        "description": "दसैं-तिहार लगायतका चाडपर्वलाई लक्षित गर्दै विराटनगरमा आयोजना हुन लागेको दोस्रो संस्करणको ‘विराट ट्रेड फेयर’ को तयारी अन्तिम चरणमा पुगेको छ।...",
+        "source": {
+          "id": "nagarik",
+          "name": "Nagarik"
+        },
+        "sourceCountry": "NP",
+        "language": "ne",
+        "publishedAt": "2026-10-06T16:08:45.000Z",
+        "imageUrl": null,
+        "countryCode": "NP",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "cyTalv7K29RF",
+          "url": "https://deshsanchar.com/2026/10/06/1237213/",
+          "canonicalUrl": "https://deshsanchar.com/2026/10/06/1237213/",
+          "title": "‘विराट ट्रेड फेयर’को तयारी अन्तिम चरणमा",
+          "description": "मोरङ – बडादसैंका लागि विराटनगर र आसपासका उपभोक्तालाई सहज, सुलभ...",
+          "source": {
+            "id": "deshsanchar",
+            "name": "Desh Sanchar"
+          },
+          "sourceCountry": "NP",
+          "language": "ne",
+          "publishedAt": "2026-10-06T14:51:56.000Z",
+          "imageUrl": null,
+          "countryCode": "NP",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T16:08:45.000Z"
+    },
+    {
       "id": "LJvV7kG0tlGJ",
       "representative": {
         "id": "LJvV7kG0tlGJ",
@@ -135,51 +177,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T15:54:08.000Z"
-    },
-    {
-      "id": "owc-upjatD9_",
-      "representative": {
-        "id": "owc-upjatD9_",
-        "url": "https://nagariknews.nagariknetwork.com/economy/preparations-for-virat-trade-fair-complete-br-24-82.html",
-        "canonicalUrl": "https://nagariknews.nagariknetwork.com/economy/preparations-for-virat-trade-fair-complete-br-24-82.html",
-        "title": "विराटनगरमा असोज २२ देखि ‘विराट ट्रेड फेयर’",
-        "description": "दसैं-तिहार लगायतका चाडपर्वलाई लक्षित गर्दै विराटनगरमा आयोजना हुन लागेको दोस्रो संस्करणको ‘विराट ट्रेड फेयर’ को तयारी अन्तिम चरणमा पुगेको छ।...",
-        "source": {
-          "id": "nagarik",
-          "name": "Nagarik"
-        },
-        "sourceCountry": "NP",
-        "language": "ne",
-        "publishedAt": "2026-10-06T16:08:45.000Z",
-        "imageUrl": null,
-        "countryCode": "NP",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "cyTalv7K29RF",
-          "url": "https://deshsanchar.com/2026/10/06/1237213/",
-          "canonicalUrl": "https://deshsanchar.com/2026/10/06/1237213/",
-          "title": "‘विराट ट्रेड फेयर’को तयारी अन्तिम चरणमा",
-          "description": "मोरङ – बडादसैंका लागि विराटनगर र आसपासका उपभोक्तालाई सहज, सुलभ...",
-          "source": {
-            "id": "deshsanchar",
-            "name": "Desh Sanchar"
-          },
-          "sourceCountry": "NP",
-          "language": "ne",
-          "publishedAt": "2026-10-06T14:51:56.000Z",
-          "imageUrl": null,
-          "countryCode": "NP",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:08:45.000Z"
     },
     {
       "id": "aQ3K1BMzY25Z",
@@ -306,48 +306,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:11:25.000Z"
-    },
-    {
-      "id": "tkXxCkhCk0Qi",
-      "representative": {
-        "id": "tkXxCkhCk0Qi",
-        "url": "https://www.onlinekhabar.com/2026/10/2033663/judge-recommendation-without-regard-to-seniority",
-        "canonicalUrl": "https://www.onlinekhabar.com/2026/10/2033663/judge-recommendation-without-regard-to-seniority",
-        "title": "वरिष्ठताक्रम मिचेर न्यायाधीश सिफारिस",
-        "description": "सर्वोच्च अदालतमा पाँचजना न्यायाधीश सिफारिस गर्न मिल्नेमा एउटा पद भने खाली राखिएको छ ।",
-        "source": {
-          "id": "onlinekhabar",
-          "name": "Onlinekhabar"
-        },
-        "sourceCountry": "NP",
-        "language": "ne",
-        "publishedAt": "2026-10-06T12:34:08.000Z",
-        "imageUrl": null,
-        "countryCode": "NP",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "KEvwGnaRC5jy",
-          "url": "https://www.ratopati.com/story/597744/old-distortions-repeated-in-judge-appointments-recommendations-made-without-considering-inclusiveness-and-role-order",
-          "canonicalUrl": "https://www.ratopati.com/story/597744/old-distortions-repeated-in-judge-appointments-recommendations-made-without-considering-inclusiveness-and-role-order",
-          "title": "न्यायाधीश नियुक्तिमा दोहोरियो पुरानै विकृति : समावेशिता र रोलक्रम मिचेर सिफारिस",
-          "description": "काठमाडौँ । सर्वोच्च अदालतमा रिक्त न्यायाधीश पदपूर्तिका लागि न्यायपरिषद्ले गरेको पछिल्लो सिफारिसमा संविधानको मर्म, समावेशी प्रतिनिधित्व सिद्धान्त र स्थापित रोलक्रम (वरिष्ठता) लाई पूर्ण रूपमा बेवास्ता गरिएको छ । कार्यक्षमता र वरिष्ठतामा अगाडि रहेका महिला तथा मधेशी",
-          "source": {
-            "id": "ratopati",
-            "name": "Ratopati"
-          },
-          "sourceCountry": "NP",
-          "language": "ne",
-          "publishedAt": "2026-10-06T14:40:07.000Z",
-          "imageUrl": "https://npcdn.ratopati.com/media/news/sarbochch_97JYcAT7Nm.webp",
-          "countryCode": "NP",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:40:07.000Z"
     },
     {
       "id": "XymzdFq0iS4N",
@@ -540,6 +498,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:54:17.000Z"
+    },
+    {
+      "id": "ibTc5SR4YDPx",
+      "representative": {
+        "id": "ibTc5SR4YDPx",
+        "url": "https://www.onlinekhabar.com/2026/10/2033517/janakpur-provincial-hospital-is-overwhelmed-patients-lives-are-being-lost-in-the-icu",
+        "canonicalUrl": "https://www.onlinekhabar.com/2026/10/2033517/janakpur-provincial-hospital-is-overwhelmed-patients-lives-are-being-lost-in-the-icu",
+        "title": "आफैं थलिएको जनकपुर प्रादेशिक अस्पताल : आईसीयू कुर्दाकुर्दै जान्छ बिरामीको ज्यान",
+        "description": "जनकपुर प्रादेशिक अस्पतालमा ७ बेड आईसीयू र तीन बेडको भेन्टिलेटर सञ्चालनमा छन् । बिरामीको चापले बेडहरू खाली नै हुँदैनन् । जसका कारण समयमै उपचार नपाउँदा कतिपय बिरामीले ज्यान नै गुमाउनु परेको छ ।",
+        "source": {
+          "id": "onlinekhabar",
+          "name": "Onlinekhabar"
+        },
+        "sourceCountry": "NP",
+        "language": "ne",
+        "publishedAt": "2026-10-06T15:54:14.000Z",
+        "imageUrl": null,
+        "countryCode": "NP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:54:14.000Z"
     }
   ]
 }

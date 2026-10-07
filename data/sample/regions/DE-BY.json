@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "DE",
+  "countryName": "Germany",
+  "regionCode": "DE-BY",
+  "regionName": "Bavaria",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
+  "clusters": [
+    {
+      "id": "Mx_0IX5qdgzE",
+      "representative": {
+        "id": "Mx_0IX5qdgzE",
+        "url": "https://www.abendzeitung-muenchen.de/muenchen/umland/puma-sichtung-am-flughafen-muenchen-das-ist-aktuell-bekannt-art-1164025",
+        "canonicalUrl": "https://www.abendzeitung-muenchen.de/muenchen/umland/puma-sichtung-am-flughafen-muenchen-das-ist-aktuell-bekannt-art-1164025",
+        "title": "Puma-Sichtung am Flughafen München? Das ist aktuell bekannt",
+        "description": "Eine Raubkatze soll in der Nähe des Münchner Flughafens gesichtet worden sein. Die Behörden bitten um Hinweise und raten zur Vorsicht.",
+        "source": {
+          "id": "abendzeitung",
+          "name": "Abendzeitung München"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:42:00.000Z",
+        "imageUrl": "https://www.abendzeitung-muenchen.de/storage/image/1/2/9/3/1753921_polizeieinsatz_default_1GNySJ_rNHpWS.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [
+        {
+          "id": "o10wulz2_2AE",
+          "url": "https://www.br.de/nachrichten/bayern/puma-gesichtet-warnung-vor-raubkatze-nahe-flughafen-muenchen,VXMfjKq",
+          "canonicalUrl": "https://www.br.de/nachrichten/bayern/puma-gesichtet-warnung-vor-raubkatze-nahe-flughafen-muenchen,VXMfjKq",
+          "title": "Puma gesichtet? Warnung vor Raubkatze nahe Flughafen München",
+          "description": "Das Landratsamt Erding ruft die Bevölkerung zur Vorsicht auf: In der Nähe des Münchner Flughafens sei eine freilaufende Raubkatze gesichtet worden. Nach erster Einschätzung soll es sich um einen Puma handeln.",
+          "source": {
+            "id": "br24",
+            "name": "BR24"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T12:32:08.911Z",
+          "imageUrl": null,
+          "countryCode": "DE",
+          "regionCode": "DE-BY"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T12:32:08.911Z"
+    },
+    {
+      "id": "q5A1cIBEAI1Y",
+      "representative": {
+        "id": "q5A1cIBEAI1Y",
+        "url": "https://www.sueddeutsche.de/bayern/aschaffenburg-sexualstraftaeter-kindesmissbrauch-hafturlaub-landgericht-li.3559918",
+        "canonicalUrl": "https://www.sueddeutsche.de/bayern/aschaffenburg-sexualstraftaeter-kindesmissbrauch-hafturlaub-landgericht-li.3559918",
+        "title": "Landgericht Aschaffenburg: Sexualstraftäter gesteht Kindesmissbrauch im Hafturlaub",
+        "description": "Ein verurteilter Sexualstraftäter soll während eines Hafturlaubs zwei Jungen missbraucht haben - in Bayern und Sachsen-Anhalt. Der 23-Jährige räumt die Vorwürfe vor Gericht ein.",
+        "source": {
+          "id": "sz_bayern",
+          "name": "Süddeutsche Zeitung (Bayern)"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:58:10.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/07/f85f077e-898c-4706-91d6-9064b1539ef5.jpg?rect=222%2C0%2C3556%2C2667&width=1000&fm=jpg&q=60",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [
+        {
+          "id": "Z-JQlXYLMWd8",
+          "url": "https://www.br.de/nachrichten/bayern/sexualstraftaeter-gesteht-kindesmissbrauch-bei-hafturlaub,VXM5kW6",
+          "canonicalUrl": "https://www.br.de/nachrichten/bayern/sexualstraftaeter-gesteht-kindesmissbrauch-bei-hafturlaub,VXM5kW6",
+          "title": "Sexualstraftäter gesteht Kindesmissbrauch bei Hafturlaub",
+          "description": "Ein bereits verurteilter Sexualstraftäter aus Niedersachsen hat gestanden, während eines Hafturlaubs zwei Jungen in Bayern und Sachsen-Anhalt missbraucht zu haben. Der Fall schlägt Wellen – auch in der niedersächsischen Politik.",
+          "source": {
+            "id": "br24",
+            "name": "BR24"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T11:16:44.286Z",
+          "imageUrl": null,
+          "countryCode": "DE",
+          "regionCode": "DE-BY"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:16:44.286Z"
+    },
+    {
+      "id": "jDAosTaTtVd9",
+      "representative": {
+        "id": "jDAosTaTtVd9",
+        "url": "https://www.sueddeutsche.de/bayern/petting-unfall-ferrari-landkreis-traunstein-li.3559731",
+        "canonicalUrl": "https://www.sueddeutsche.de/bayern/petting-unfall-ferrari-landkreis-traunstein-li.3559731",
+        "title": "Petting in Oberbayern: 83-Jähriger stößt mit Ferrari zusammen",
+        "description": "Ein 83 Jahre alter Autofahrer kracht in einen Sportwagen. Bei dem Unfall im Landkreis Traunstein entsteht am Ferrari ein 20 Mal so hoher Schaden wie am Auto des Seniors.",
+        "source": {
+          "id": "sz_bayern",
+          "name": "Süddeutsche Zeitung (Bayern)"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T07:06:57.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/07/f9c2cd3c-d7e1-46bc-b788-fa9f9c27ebae.jpg?rect=347%2C0%2C2904%2C2178&width=1000&fm=jpg&q=60",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [
+        {
+          "id": "bsSgUMxMC2vM",
+          "url": "https://www.merkur.de/bayern/missglueckter-ueberholversuch-mann-stoesst-in-oberbayern-mit-ferrari-zusammen-94528348.html",
+          "canonicalUrl": "https://www.merkur.de/bayern/missglueckter-ueberholversuch-mann-stoesst-in-oberbayern-mit-ferrari-zusammen-94528348.html",
+          "title": "Missglückter Überholversuch: Mann stößt in Oberbayern mit Ferrari zusammen",
+          "description": "Ein Autofahrer kracht in einen Sportwagen. Bei dem Unfall im Landkreis Traunstein entsteht am Ferrari ein 20-mal so hoher Schaden wie am Auto des Seniors.",
+          "source": {
+            "id": "merkur_bayern",
+            "name": "Merkur (Bayern)"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T06:17:07.000Z",
+          "imageUrl": "https://www.merkur.de/assets/images/41/926/41926521-symbolbilder-themenbild-unfall-blaulicht-Xef.jpg",
+          "countryCode": "DE",
+          "regionCode": "DE-BY"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T07:06:57.000Z"
+    },
+    {
+      "id": "3LIkb6as8Z6Z",
+      "representative": {
+        "id": "3LIkb6as8Z6Z",
+        "url": "https://www.sueddeutsche.de/bayern/bayern-soeder-csu-parteitag-merz-li.3559541",
+        "canonicalUrl": "https://www.sueddeutsche.de/bayern/bayern-soeder-csu-parteitag-merz-li.3559541",
+        "title": "Kanzlerbesuch: Merz kommt zum CSU-Parteitag nach München",
+        "description": "Der Bundeskanzler will im Oktober zum CSU-Parteitag in die bayerische Landeshauptstadt kommen. In seiner Rede dürfte es viel um die Baustellen der Bundesregierung gehen.",
+        "source": {
+          "id": "sz_bayern",
+          "name": "Süddeutsche Zeitung (Bayern)"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T14:58:26.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/935bd901-3049-4c25-b6d3-24f371ccf961.jpg?rect=205%2C0%2C3589%2C2692&width=1000&fm=jpg&q=60",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [
+        {
+          "id": "PMNGIs7w5nM3",
+          "url": "https://www.abendzeitung-muenchen.de/muenchen/merz-kommt-zum-csu-parteitag-nach-muenchen-art-1163852",
+          "canonicalUrl": "https://www.abendzeitung-muenchen.de/muenchen/merz-kommt-zum-csu-parteitag-nach-muenchen-art-1163852",
+          "title": "Merz kommt zum CSU-Parteitag nach München",
+          "description": "Der Bundeskanzler will im Oktober zum CSU-Parteitag in die bayerische Landeshauptstadt kommen. In seiner Rede dürfte es viel um die Baustellen der Bundesregierung gehen.",
+          "source": {
+            "id": "abendzeitung",
+            "name": "Abendzeitung München"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T14:40:50.000Z",
+          "imageUrl": "https://www.abendzeitung-muenchen.de/storage/image/7/6/5/3/1753567_parteitag-der-csu_default_1GNgyP_ZlzFw6.jpg",
+          "countryCode": "DE",
+          "regionCode": "DE-BY"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:58:26.000Z"
+    },
+    {
+      "id": "EVfJeohKDTdZ",
+      "representative": {
+        "id": "EVfJeohKDTdZ",
+        "url": "https://www.nn.de/region/roth/prinzenpaar-in-roth-magdalena-und-markus-scharrer-fuhren-den-rcv-in-der-faschingszeit-1.15303998",
+        "canonicalUrl": "https://www.nn.de/region/roth/prinzenpaar-in-roth-magdalena-und-markus-scharrer-fuhren-den-rcv-in-der-faschingszeit-1.15303998",
+        "title": "Prinzenpaar in Roth: Magdalena und Markus Scharrer führen den RCV in der Faschingszeit",
+        "description": "Der Rother Carneval Verein hat sein neues Prinzenpaar vorgestellt: Magdalena und Markus Scharrer übernehmen in der kommenden Faschingssession eine besondere Rolle. Warum die Jubiläumssession des RCV für beide einzigartig wird.",
+        "source": {
+          "id": "nn",
+          "name": "Nürnberger Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:43:02.000Z",
+        "imageUrl": "https://images.nordbayern.de/image/contentid/policy:1.15303999:1791377027/Markus_und_Magdalena_Scharrer_Mitte_sind_das_neu.jpg?$p=a21a08c",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:43:02.000Z"
+    },
+    {
+      "id": "V-Wb0JMZjJ-e",
+      "representative": {
+        "id": "V-Wb0JMZjJ-e",
+        "url": "https://www.nn.de/region/pegnitz/13-jahrige-aus-bayreuth-vermisst-wer-hat-das-madchen-gesehen-1.15307159",
+        "canonicalUrl": "https://www.nn.de/region/pegnitz/13-jahrige-aus-bayreuth-vermisst-wer-hat-das-madchen-gesehen-1.15307159",
+        "title": "13-Jährige aus Bayreuth vermisst: Wer hat das Mädchen gesehen?",
+        "description": "Von der 13-jährigen Emma K. aus Bayreuth fehlt derzeit jede Spur. Die Polizei wendet sich daher mit einer Personenbeschreibung an die Öffentlichkeit und bittet um Hinweise.",
+        "source": {
+          "id": "nn",
+          "name": "Nürnberger Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:36:58.000Z",
+        "imageUrl": "https://images.nordbayern.de/image/contentid/policy:1.15307160:1791377062/20261007_1431_bild_erweitern.jpg?$p=a67bbfa",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:36:58.000Z"
+    },
+    {
+      "id": "ZhyMu1HbJJRv",
+      "representative": {
+        "id": "ZhyMu1HbJJRv",
+        "url": "https://www.nn.de/region/ansbach/betrug-bei-festivals-so-erkennen-fans-gefalschte-tickets-fur-taubertal-und-summer-breeze-1.15307153",
+        "canonicalUrl": "https://www.nn.de/region/ansbach/betrug-bei-festivals-so-erkennen-fans-gefalschte-tickets-fur-taubertal-und-summer-breeze-1.15307153",
+        "title": "Betrug bei Festivals: So erkennen Fans gefälschte Tickets für Taubertal und Summer Breeze",
+        "description": "Taubertal-Festival und Summer Breeze 2027 sind bereits ausverkauft. Veranstalter und Verbraucherschützer warnen vor Betrugsmaschen auf dem Zweitmarkt und geben Tipps, wie sich gefälschte oder ungültige Tickets erkennen lassen. Das sollten Sie wissen.",
+        "source": {
+          "id": "nn",
+          "name": "Nürnberger Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:35:01.000Z",
+        "imageUrl": "https://images.nordbayern.de/image/contentid/policy:1.15307154:1791376524/Taubertal_Festivalticket_2026.jpg?$p=51a1d6f",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:35:01.000Z"
+    },
+    {
+      "id": "tGQMjGld7JGN",
+      "representative": {
+        "id": "tGQMjGld7JGN",
+        "url": "https://www.br.de/nachrichten/sport/fussball-bundesliga-fc-bayern-muenchen-vincent-kompany-erhaelt-bayerischen-sportpreis-2026-von-soeder,VXBH9Uf",
+        "canonicalUrl": "https://www.br.de/nachrichten/sport/fussball-bundesliga-fc-bayern-muenchen-vincent-kompany-erhaelt-bayerischen-sportpreis-2026-von-soeder,VXBH9Uf",
+        "title": "Nach Anti-Rassismus-Rede: Söder verleiht Kompany Sportpreis",
+        "description": "Der Trainer Vincent Kompany hat beim FC Bayern sportlich jetzt schon Großes geleistet – und gleichzeitig für etwas gesorgt, das in München zuletzt selten war: Ruhe. Dazu führt er den Klub mit einer klaren Haltung. Dafür wird er nun ausgezeichnet.",
+        "source": {
+          "id": "br24",
+          "name": "BR24"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:22:34.583Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:22:34.583Z"
+    },
+    {
+      "id": "QNekEVEQtlKg",
+      "representative": {
+        "id": "QNekEVEQtlKg",
+        "url": "https://www.abendzeitung-muenchen.de/muenchen/stadtviertel/bei-rot-ueber-die-ampel-e-scooter-fahrerin-mit-kopfverletzungen-nach-unfall-art-1164009",
+        "canonicalUrl": "https://www.abendzeitung-muenchen.de/muenchen/stadtviertel/bei-rot-ueber-die-ampel-e-scooter-fahrerin-mit-kopfverletzungen-nach-unfall-art-1164009",
+        "title": "Bei Rot über die Ampel: E-Scooter-Fahrerin mit Kopfverletzungen nach Unfall",
+        "description": "In Sendling stößt am Dienstagvormittag eine E-Scooter-Fahrerin mit einem Pkw zusammen und zieht sich Verletzungen am Kopf zu.",
+        "source": {
+          "id": "abendzeitung",
+          "name": "Abendzeitung München"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:17:00.000Z",
+        "imageUrl": "https://www.abendzeitung-muenchen.de/storage/image/6/0/2/7/1747206_e-scooter_default_1GI_da_o0Lxac.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:17:00.000Z"
+    },
+    {
+      "id": "qVKLDliY10sp",
+      "representative": {
+        "id": "qVKLDliY10sp",
+        "url": "https://www.abendzeitung-muenchen.de/muenchen/muenchner-kultladen-droht-das-aus-nur-noch-zeit-bis-ende-des-jahres-art-1163830",
+        "canonicalUrl": "https://www.abendzeitung-muenchen.de/muenchen/muenchner-kultladen-droht-das-aus-nur-noch-zeit-bis-ende-des-jahres-art-1163830",
+        "title": "Münchner Kultladen droht das Aus: Nur noch Zeit bis Ende des Jahres",
+        "description": "Seit 17 Jahren gibt es den Flohpalast in der Theresienstraße. Nur noch bis Ende Jahr darf das Kleinod dort bleiben. Inhaberin Irene Kirchner sucht dringend neue Räume – und ist langsam am Verzweifeln.",
+        "source": {
+          "id": "abendzeitung",
+          "name": "Abendzeitung München"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:01:00.000Z",
+        "imageUrl": "https://www.abendzeitung-muenchen.de/storage/image/4/3/5/3/1753534_flohpalast_default_1GNyUB_iH3xIM.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:01:00.000Z"
+    },
+    {
+      "id": "KltbAbDst4Vy",
+      "representative": {
+        "id": "KltbAbDst4Vy",
+        "url": "https://www.sueddeutsche.de/bayern/nuernberg-stadtmuseum-utopien-ausstellung-fembohaus-li.3559324",
+        "canonicalUrl": "https://www.sueddeutsche.de/bayern/nuernberg-stadtmuseum-utopien-ausstellung-fembohaus-li.3559324",
+        "title": "Ausstellung im Nürnberger Stadtmuseum: Utopien, gestern und heute",
+        "description": "Eine Ausstellung im Nürnberger Stadtmuseum zeigt Gesellschaftsutopien. Und wie man auf der Autobahn Schiffchen fahren kann. Negativutopien sind aber auch zu sehen.",
+        "source": {
+          "id": "sz_bayern",
+          "name": "Süddeutsche Zeitung (Bayern)"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:59:00.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/07/98892c4d-3099-478c-8bed-23c08546819d.png?rect=85%2C36%2C1134%2C850&width=1000&fm=jpg&q=60",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:59:00.000Z"
+    },
+    {
+      "id": "T7nrvclIFNHP",
+      "representative": {
+        "id": "T7nrvclIFNHP",
+        "url": "https://www.abendzeitung-muenchen.de/muenchen/muenchen-tankstellenraeuber-bei-erneutem-ueberfall-von-polizei-gefasst-art-1163849",
+        "canonicalUrl": "https://www.abendzeitung-muenchen.de/muenchen/muenchen-tankstellenraeuber-bei-erneutem-ueberfall-von-polizei-gefasst-art-1163849",
+        "title": "München: Tankstellenräuber bei erneutem Überfall von Polizei gefasst 1163849",
+        "description": "Mit einem Messer bewaffnet soll ein 20-Jähriger aus München am frühen Montagmorgen eine Tankstelle in München-Ramersdorf überfallen haben. Bei einem zweiten Überfall am Dienstagmorgen wurde er festgenommen. Warum der Verdächtige nicht in U-Haft kommt.",
+        "source": {
+          "id": "abendzeitung",
+          "name": "Abendzeitung München"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:49:00.000Z",
+        "imageUrl": "https://www.abendzeitung-muenchen.de/storage/image/2/6/5/3/1753562_kriminalitaet-raub-und-ueberfall-raubueberfall-symbolbilder-angriff-mit-mes_default_1GNg2M_Jgfyzx.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:49:00.000Z"
+    },
+    {
+      "id": "np079UWjOi13",
+      "representative": {
+        "id": "np079UWjOi13",
+        "url": "https://www.sueddeutsche.de/bayern/unfallklinik-murnau-uebung-katastrophenschutz-li.3558600",
+        "canonicalUrl": "https://www.sueddeutsche.de/bayern/unfallklinik-murnau-uebung-katastrophenschutz-li.3558600",
+        "title": "Katastrophenschutzübung in Murnau: 30 Verletzte auf einmal: Wie die Unfallklinik den Ernstfall trainiert",
+        "description": "180 Beteiligte sorgen für ein realitätsnahes Übungszenario. Geübt wird auch vor dem Hintergrund der veränderten Weltlage. Der normale Klinikbetrieb läuft weiter.",
+        "source": {
+          "id": "sz_bayern",
+          "name": "Süddeutsche Zeitung (Bayern)"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:13:54.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/07/f69e182b-83aa-4fe1-8c4f-8811c11bdd30.jpg?rect=255%2C0%2C3437%2C2578&width=1000&fm=jpg&q=60",
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:13:54.000Z"
+    },
+    {
+      "id": "C9C3OMZ9gEiM",
+      "representative": {
+        "id": "C9C3OMZ9gEiM",
+        "url": "https://www.br.de/nachrichten/bayern/ruestung-statt-autos-audi-verleiht-mitarbeiter,VXLd8VW",
+        "canonicalUrl": "https://www.br.de/nachrichten/bayern/ruestung-statt-autos-audi-verleiht-mitarbeiter,VXLd8VW",
+        "title": "Rüstung statt Autos - Warum Audi jetzt Mitarbeiter verleiht",
+        "description": "Die Autoindustrie steckt in der Krise. Besonders betroffen: VW und die Tochter Audi in Ingolstadt. Nun startet Audi ein Pilot-Modell: Mitarbeiter können an Rüstungsunternehmen in der Region \"ausgeliehen\" werden. Ein Win-Win für beide Branchen?",
+        "source": {
+          "id": "br24",
+          "name": "BR24"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:37:36.747Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:37:36.747Z"
+    },
+    {
+      "id": "NTPond4S1pwG",
+      "representative": {
+        "id": "NTPond4S1pwG",
+        "url": "https://www.br.de/nachrichten/bayern/grosse-druesenameise-nuernberg-sagt-invasiver-art-den-kampf-an,VXM2kpo",
+        "canonicalUrl": "https://www.br.de/nachrichten/bayern/grosse-druesenameise-nuernberg-sagt-invasiver-art-den-kampf-an,VXM2kpo",
+        "title": "\"Große Drüsenameise\": Nürnberg sagt invasiver Art den Kampf an",
+        "description": "Die Große Drüsenameise breitet sich immer weiter in Bayern aus. Die Stadt Nürnberg will die Bekämpfung der invasiven Art im Stadtgebiet nun koordinieren. Vor allem die Stadtteile Hasenbuck und Lichtenreuth sind betroffen.",
+        "source": {
+          "id": "br24",
+          "name": "BR24"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:34:46.225Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-BY"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:34:46.225Z"
+    }
+  ]
+}

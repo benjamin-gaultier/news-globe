@@ -2,8 +2,32 @@
   "schemaVersion": 1,
   "countryCode": "SG",
   "countryName": "Singapore",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
+    {
+      "id": "GxpcWIeXGif4",
+      "representative": {
+        "id": "GxpcWIeXGif4",
+        "url": "https://www.straitstimes.com/singapore/politics/from-2016-to-2025-performance-bonus-for-political-office-holders-ranged-from-2-5-to-6-months",
+        "canonicalUrl": "https://www.straitstimes.com/singapore/politics/from-2016-to-2025-performance-bonus-for-political-office-holders-ranged-from-2-5-to-6-months",
+        "title": "From 2016 to 2025, performance bonus for political office holders ranged from 2.5 to 6 months",
+        "description": "During the same period, the National Bonus ranged from 0.75 to 5.63 months.",
+        "source": {
+          "id": "straitstimes",
+          "name": "The Straits Times"
+        },
+        "sourceCountry": "SG",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:32:04.000Z",
+        "imageUrl": null,
+        "countryCode": "SG",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:32:04.000Z"
+    },
     {
       "id": "vXNftxRldLTP",
       "representative": {
@@ -42,33 +66,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:00:00.000Z"
-    },
-    {
-      "id": "GxpcWIeXGif4",
-      "representative": {
-        "id": "GxpcWIeXGif4",
-        "url": "https://www.straitstimes.com/singapore/politics/from-2016-to-2025-performance-bonus-for-political-office-holders-ranged-from-2-5-to-6-months",
-        "canonicalUrl": "https://www.straitstimes.com/singapore/politics/from-2016-to-2025-performance-bonus-for-political-office-holders-ranged-from-2-5-to-6-months",
-        "title": "From 2016 to 2025, performance bonus for political office holders ranged from 2.5 to 6 months",
-        "description": "During the same period, the National Bonus ranged from 0.75 to 5.63 months.",
-        "source": {
-          "id": "straitstimes",
-          "name": "The Straits Times"
-        },
-        "sourceCountry": "SG",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:32:04.000Z",
-        "imageUrl": null,
-        "countryCode": "SG",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:32:04.000Z"
     },
     {
       "id": "vOLuwq88ryL5",
@@ -90,7 +90,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:52:04.000Z"
     },
@@ -114,7 +114,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:40:00.000Z"
     },
@@ -213,30 +213,6 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:16:06.000Z"
-    },
-    {
-      "id": "PdVIOqoeZNde",
-      "representative": {
-        "id": "PdVIOqoeZNde",
-        "url": "https://www.channelnewsasia.com/singapore/tampines-crash-victim-accident-family-grief-6436016",
-        "canonicalUrl": "https://www.channelnewsasia.com/singapore/tampines-crash-victim-accident-family-grief-6436016",
-        "title": "'No hatred' towards driver, says uncle of Tampines crash victim even as family struggles to heal",
-        "description": "The driver who caused the 2024 Tampines collision that killed his 17-year-old niece has been sentenced, but the family’s grief remains profound, her uncle says.",
-        "source": {
-          "id": "cna",
-          "name": "CNA"
-        },
-        "sourceCountry": "SG",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:50:55.000Z",
-        "imageUrl": "https://dam.mediacorp.sg/image/upload/s--jbF5uxdu--/c_crop,h_900,w_1600,x_0,y_44/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2024/04/22/dsc02372_1.jpg?itok=CiF92d9P",
-        "countryCode": "SG",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:50:55.000Z"
     },
     {
       "id": "SpAlhkTWpsfk",
@@ -357,6 +333,30 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:00:00.000Z"
+    },
+    {
+      "id": "PdVIOqoeZNde",
+      "representative": {
+        "id": "PdVIOqoeZNde",
+        "url": "https://www.channelnewsasia.com/singapore/tampines-crash-victim-accident-family-grief-6436016",
+        "canonicalUrl": "https://www.channelnewsasia.com/singapore/tampines-crash-victim-accident-family-grief-6436016",
+        "title": "'No hatred' towards driver, says uncle of Tampines crash victim even as family struggles to heal",
+        "description": "The driver who caused the 2024 Tampines collision that killed his 17-year-old niece has been sentenced, but the family’s grief remains profound, her uncle says.",
+        "source": {
+          "id": "cna",
+          "name": "CNA"
+        },
+        "sourceCountry": "SG",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:50:55.000Z",
+        "imageUrl": "https://dam.mediacorp.sg/image/upload/s--jbF5uxdu--/c_crop,h_900,w_1600,x_0,y_44/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2024/04/22/dsc02372_1.jpg?itok=CiF92d9P",
+        "countryCode": "SG",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:50:55.000Z"
     },
     {
       "id": "axFNgv5ulklG",

@@ -2,92 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "LT",
   "countryName": "Lithuania",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "HUeR9Z2g_h-K",
-      "representative": {
-        "id": "HUeR9Z2g_h-K",
-        "url": "https://www.15min.lt/naujiena/aktualu/pasaulis/cbs-news-izraelis-buvo-pasirenges-numusti-flydubai-lektuva-57-2778922?utm_source=rssfeed_default&utm_medium=rss&utm_campaign=rssfeed",
-        "canonicalUrl": "https://www.15min.lt/naujiena/aktualu/pasaulis/cbs-news-izraelis-buvo-pasirenges-numusti-flydubai-lektuva-57-2778922",
-        "title": "„CBS News“: Izraelis buvo pasirengęs numušti „FlyDubai“ lėktuvą",
-        "description": "Izraelio karinės oro pajėgos buvo pasirengusios numušti aviakompanijos „FlyDubai“ orlaivį po to, kai antrasis pilotas užpuolė kapitoną, nepaisydamos to, kad lėktuve buvo 150 šalies piliečių, skelbia „CBS News“, remdamasi dviem šaltiniais Izraelyje.",
-        "source": {
-          "id": "15min",
-          "name": "15min"
-        },
-        "sourceCountry": "LT",
-        "language": "lt",
-        "publishedAt": "2026-10-06T12:49:52.000Z",
-        "imageUrl": "https://s1.15min.lt/static/cache/MTI4MHgsNzYyeDUzMCwxMTA4Mzg0LG9yaWdpbmFsLCxpZD0xMDkwNDA5NiZkYXRlPTIwMjYlMkYxMCUyRjA2LDE5NDc1Nzg5MTM=/flydubai-lektuvas-ir-benjaminas-netanyahu-6ac4ecb81983a.jpg",
-        "countryCode": "LT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "SIjPgy8LOOr0",
-          "url": "http://www.lrytas.lt/pasaulis/ivykiai/2026/10/06/news/ziniasklaida-izraelis-buvo-pasirenges-numusti-flydubai-lektuva-44352496/",
-          "canonicalUrl": "http://www.lrytas.lt/pasaulis/ivykiai/2026/10/06/news/ziniasklaida-izraelis-buvo-pasirenges-numusti-flydubai-lektuva-44352496/",
-          "title": "Žiniasklaida: Izraelis buvo pasirengęs numušti „FlyDubai“ lėktuvą",
-          "description": "​Izraelis buvo pasirengęs numušti bendrovės „FlyDubai“ skrydį FZ 1073, kuriame buvo 166 Izraelio piliečiai, jei būtų patvirtinta, kad lėktuvas užgrobtas ir kelia grėsmę. Apie tai pirmadienį „CBS News“ pranešė du su incidentu tiesiogiai susipažinę Izraelio šaltiniai.",
-          "source": {
-            "id": "lrytas",
-            "name": "Lrytas"
-          },
-          "sourceCountry": "LT",
-          "language": "lt",
-          "publishedAt": "2026-10-06T13:30:26.000Z",
-          "imageUrl": "http://media.lrytas.lt/images/2026/10/06/132951354-80ae9ff9-5c9e-4010-ac9a-164501b58966.jpg",
-          "countryCode": "LT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:30:26.000Z"
-    },
-    {
-      "id": "ywgtpmxXdQLC",
-      "representative": {
-        "id": "ywgtpmxXdQLC",
-        "url": "https://www.15min.lt/naujiena/aktualu/lietuva/vilnius-tech-rektoriumi-antrai-kadencijai-perrinktas-romualdas-kliukas-56-2778942?utm_source=rssfeed_default&utm_medium=rss&utm_campaign=rssfeed",
-        "canonicalUrl": "https://www.15min.lt/naujiena/aktualu/lietuva/vilnius-tech-rektoriumi-antrai-kadencijai-perrinktas-romualdas-kliukas-56-2778942",
-        "title": "„Vilnius Tech“ rektoriumi antrai kadencijai perrinktas Romualdas Kliukas",
-        "description": "Vilniaus Gedimino technikos universiteto („Vilnius Tech“) rektoriumi antrai penkerių metų kadencijai perrinktas Romualdas Kliukas.",
-        "source": {
-          "id": "15min",
-          "name": "15min"
-        },
-        "sourceCountry": "LT",
-        "language": "lt",
-        "publishedAt": "2026-10-06T12:33:03.000Z",
-        "imageUrl": "https://s1.15min.lt/static/cache/MTI4MHgsLDc0NjYxMCxvcmlnaW5hbCwsaWQ9OTYxMDM5OCZkYXRlPTIwMjQlMkYwNiUyRjI3LDQxMTA3NDEzNzM=/tvarumo-centro-vilnius-tech-atidarymas-667d2b586e739.jpg",
-        "countryCode": "LT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "SRiWxL-tpiRS",
-          "url": "http://www.lrytas.lt/lietuvosdiena/svietimas/2026/10/06/news/vilnius-tech-universiteto-rektoriumi-isrinktas-prof-dr-romualdas-kliukas-44352495/",
-          "canonicalUrl": "http://www.lrytas.lt/lietuvosdiena/svietimas/2026/10/06/news/vilnius-tech-universiteto-rektoriumi-isrinktas-prof-dr-romualdas-kliukas-44352495/",
-          "title": "VILNIUS TECH universiteto rektoriumi išrinktas prof. dr. Romualdas Kliukas",
-          "description": "Antrajai kadencijai VILNIUS TECH rektoriumi perrinktas prof. dr. Romualdas Kliukas. Per pastaruosius penkerius metus VILNIUS TECH gerokai sustiprino savo pozicijas mokslo, studijų ir valdymo srityse. Tai lėmė didelė valstybės parama mokslo institucijoms ir universiteto bendruomenės potencialas bei…",
-          "source": {
-            "id": "lrytas",
-            "name": "Lrytas"
-          },
-          "sourceCountry": "LT",
-          "language": "lt",
-          "publishedAt": "2026-10-06T13:23:37.000Z",
-          "imageUrl": "http://media.lrytas.lt/images/2026/10/06/132159894-46f86144-d7f6-42fb-a018-743c11be6d24.jpg",
-          "countryCode": "LT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:23:37.000Z"
-    },
     {
       "id": "qOmtHkKqRI73",
       "representative": {
@@ -353,6 +269,48 @@
       "latestPublishedAt": "2026-10-06T13:39:12.000Z"
     },
     {
+      "id": "HUeR9Z2g_h-K",
+      "representative": {
+        "id": "HUeR9Z2g_h-K",
+        "url": "https://www.15min.lt/naujiena/aktualu/pasaulis/cbs-news-izraelis-buvo-pasirenges-numusti-flydubai-lektuva-57-2778922?utm_source=rssfeed_default&utm_medium=rss&utm_campaign=rssfeed",
+        "canonicalUrl": "https://www.15min.lt/naujiena/aktualu/pasaulis/cbs-news-izraelis-buvo-pasirenges-numusti-flydubai-lektuva-57-2778922",
+        "title": "„CBS News“: Izraelis buvo pasirengęs numušti „FlyDubai“ lėktuvą",
+        "description": "Izraelio karinės oro pajėgos buvo pasirengusios numušti aviakompanijos „FlyDubai“ orlaivį po to, kai antrasis pilotas užpuolė kapitoną, nepaisydamos to, kad lėktuve buvo 150 šalies piliečių, skelbia „CBS News“, remdamasi dviem šaltiniais Izraelyje.",
+        "source": {
+          "id": "15min",
+          "name": "15min"
+        },
+        "sourceCountry": "LT",
+        "language": "lt",
+        "publishedAt": "2026-10-06T12:49:52.000Z",
+        "imageUrl": "https://s1.15min.lt/static/cache/MTI4MHgsNzYyeDUzMCwxMTA4Mzg0LG9yaWdpbmFsLCxpZD0xMDkwNDA5NiZkYXRlPTIwMjYlMkYxMCUyRjA2LDE5NDc1Nzg5MTM=/flydubai-lektuvas-ir-benjaminas-netanyahu-6ac4ecb81983a.jpg",
+        "countryCode": "LT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "SIjPgy8LOOr0",
+          "url": "http://www.lrytas.lt/pasaulis/ivykiai/2026/10/06/news/ziniasklaida-izraelis-buvo-pasirenges-numusti-flydubai-lektuva-44352496/",
+          "canonicalUrl": "http://www.lrytas.lt/pasaulis/ivykiai/2026/10/06/news/ziniasklaida-izraelis-buvo-pasirenges-numusti-flydubai-lektuva-44352496/",
+          "title": "Žiniasklaida: Izraelis buvo pasirengęs numušti „FlyDubai“ lėktuvą",
+          "description": "​Izraelis buvo pasirengęs numušti bendrovės „FlyDubai“ skrydį FZ 1073, kuriame buvo 166 Izraelio piliečiai, jei būtų patvirtinta, kad lėktuvas užgrobtas ir kelia grėsmę. Apie tai pirmadienį „CBS News“ pranešė du su incidentu tiesiogiai susipažinę Izraelio šaltiniai.",
+          "source": {
+            "id": "lrytas",
+            "name": "Lrytas"
+          },
+          "sourceCountry": "LT",
+          "language": "lt",
+          "publishedAt": "2026-10-06T13:30:26.000Z",
+          "imageUrl": "http://media.lrytas.lt/images/2026/10/06/132951354-80ae9ff9-5c9e-4010-ac9a-164501b58966.jpg",
+          "countryCode": "LT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:30:26.000Z"
+    },
+    {
       "id": "uRLFHPedV4hc",
       "representative": {
         "id": "uRLFHPedV4hc",
@@ -399,6 +357,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:24:12.000Z"
+    },
+    {
+      "id": "ywgtpmxXdQLC",
+      "representative": {
+        "id": "ywgtpmxXdQLC",
+        "url": "https://www.15min.lt/naujiena/aktualu/lietuva/vilnius-tech-rektoriumi-antrai-kadencijai-perrinktas-romualdas-kliukas-56-2778942?utm_source=rssfeed_default&utm_medium=rss&utm_campaign=rssfeed",
+        "canonicalUrl": "https://www.15min.lt/naujiena/aktualu/lietuva/vilnius-tech-rektoriumi-antrai-kadencijai-perrinktas-romualdas-kliukas-56-2778942",
+        "title": "„Vilnius Tech“ rektoriumi antrai kadencijai perrinktas Romualdas Kliukas",
+        "description": "Vilniaus Gedimino technikos universiteto („Vilnius Tech“) rektoriumi antrai penkerių metų kadencijai perrinktas Romualdas Kliukas.",
+        "source": {
+          "id": "15min",
+          "name": "15min"
+        },
+        "sourceCountry": "LT",
+        "language": "lt",
+        "publishedAt": "2026-10-06T12:33:03.000Z",
+        "imageUrl": "https://s1.15min.lt/static/cache/MTI4MHgsLDc0NjYxMCxvcmlnaW5hbCwsaWQ9OTYxMDM5OCZkYXRlPTIwMjQlMkYwNiUyRjI3LDQxMTA3NDEzNzM=/tvarumo-centro-vilnius-tech-atidarymas-667d2b586e739.jpg",
+        "countryCode": "LT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "SRiWxL-tpiRS",
+          "url": "http://www.lrytas.lt/lietuvosdiena/svietimas/2026/10/06/news/vilnius-tech-universiteto-rektoriumi-isrinktas-prof-dr-romualdas-kliukas-44352495/",
+          "canonicalUrl": "http://www.lrytas.lt/lietuvosdiena/svietimas/2026/10/06/news/vilnius-tech-universiteto-rektoriumi-isrinktas-prof-dr-romualdas-kliukas-44352495/",
+          "title": "VILNIUS TECH universiteto rektoriumi išrinktas prof. dr. Romualdas Kliukas",
+          "description": "Antrajai kadencijai VILNIUS TECH rektoriumi perrinktas prof. dr. Romualdas Kliukas. Per pastaruosius penkerius metus VILNIUS TECH gerokai sustiprino savo pozicijas mokslo, studijų ir valdymo srityse. Tai lėmė didelė valstybės parama mokslo institucijoms ir universiteto bendruomenės potencialas bei…",
+          "source": {
+            "id": "lrytas",
+            "name": "Lrytas"
+          },
+          "sourceCountry": "LT",
+          "language": "lt",
+          "publishedAt": "2026-10-06T13:23:37.000Z",
+          "imageUrl": "http://media.lrytas.lt/images/2026/10/06/132159894-46f86144-d7f6-42fb-a018-743c11be6d24.jpg",
+          "countryCode": "LT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:23:37.000Z"
     }
   ]
 }

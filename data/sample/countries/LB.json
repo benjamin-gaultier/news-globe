@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "LB",
   "countryName": "Lebanon",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "09GR2sbORxD9",
-      "representative": {
-        "id": "09GR2sbORxD9",
-        "url": "https://en.annahar.com/international/354640/%D8%B3%D8%A7%D8%B9%D8%B1-%D8%A5%D8%B2%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%A6%D8%A8%D8%A9-%D8%B1%D9%8A%D9%85%D8%A7-%D8%AD%D8%B3%D9%86-%D8%B9%D9%84%D9%85-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%85%D8%AE%D8%B2%D9%8A%D8%A9-%D9%88%D8%AA%D8%A8%D8%B9%D8%AB-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%BA%D8%B6%D8%A8",
-        "canonicalUrl": "https://en.annahar.com/international/354640/%D8%B3%D8%A7%D8%B9%D8%B1-%D8%A5%D8%B2%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D9%86%D8%A7%D8%A6%D8%A8%D8%A9-%D8%B1%D9%8A%D9%85%D8%A7-%D8%AD%D8%B3%D9%86-%D8%B9%D9%84%D9%85-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%85%D8%AE%D8%B2%D9%8A%D8%A9-%D9%88%D8%AA%D8%A8%D8%B9%D8%AB-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%BA%D8%B6%D8%A8",
-        "title": "ساعر: إزالة النائبة ريما حسن علم إسرائيل في البرلمان الأوروبي \"مخزية وتبعث على الغضب\"",
-        "description": "هاجم وزير الخارجية الإسرائيلي جدعون ساعر الثلاثاء، بشدة النائبة الفرنسية فلسطينية الأصل في البرلمان الأوروبي ريما حسن، بعد اتهامها بنزع العلمين الإسرائيلي والأوروبي خلال معرض مخصص لإحياء ذكرى ضحايا هجمات السابع من تشرين الأول-أكتوبر.وكتب ساعر عبر حسابه على منصة إكس أمر مخز ويبعث على الغضب، لكنه…",
-        "source": {
-          "id": "annahar",
-          "name": "An-Nahar"
-        },
-        "sourceCountry": "LB",
-        "language": "ar",
-        "publishedAt": "2026-10-06T13:18:00.000Z",
-        "imageUrl": null,
-        "countryCode": "LB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "JuAsLesgpp0D",
-          "url": "https://www.lbcgroup.tv/news/world/961493/title/ar?src=rss&utm_source=TheWALL360&utm_medium=Rss-articles&utm_campaign=rss&utm_term=Rss",
-          "canonicalUrl": "https://www.lbcgroup.tv/news/world/961493/title/ar?src=rss",
-          "title": "ساعر: إزالة النائبة ريما حسن علم إسرائيل في البرلمان الأوروبي \"مخزية وتبعث على الغضب\"",
-          "description": "هاجم وزير الخارجية الإسرائيلي جدعون ساعر، بشدة النائبة الفرنسية فلسطينية الأصل في البرلمان الأوروبي...",
-          "source": {
-            "id": "lbci",
-            "name": "LBCI"
-          },
-          "sourceCountry": "LB",
-          "language": "ar",
-          "publishedAt": "2026-10-06T13:07:11.000Z",
-          "imageUrl": "https://www.lbcgroup.tv/uploadImages/DocumentImages/Doc-T-961493-639268888712798509.jpg",
-          "countryCode": "LB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:18:00.000Z"
-    },
     {
       "id": "oA9BZ-kIdy_v",
       "representative": {
@@ -276,7 +234,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:50:12.000Z"
     },
@@ -300,7 +258,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:16:47.000Z"
     },
@@ -384,6 +342,30 @@
         "canonicalUrl": "https://en.annahar.com/articles/354547/%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7-%D9%80-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D8%A7%D9%86%D9%81%D8%B5%D8%A7%D9%84-%D8%A3%D8%B1%D8%AB%D9%88%D8%B0%D9%83%D8%B3%D9%8A-%D8%A3%D9%85-%D8%B9%D9%88%D8%AF%D8%A9-%D9%83%D8%A7%D8%AB%D9%88%D9%84%D9%8A%D9%83%D9%8A%D8%A9",
         "title": "بريطانيا ـ الاتحاد الأوروبي: انفصال أرثوذكسي أم عودة كاثوليكية؟",
         "description": "سمير صالحة *بعد عقد على انفصال بريطانيا عن الاتحاد الأوروبي، يعود السؤال الأوروبي إلى لندن ولكن من باب مختلف هذه المرة. لم تعد المسألة ماذا ترك بريكست خلفه، بل ماذا يمكن أن يحدث إذا بدأت بريطانيا البحث عن صيغة تقرّبها مجدداً من المنظومة الأوروبية؟تُطرح بين لندن وبروكسيل خيارات تتدرج من تعميق…",
+        "source": {
+          "id": "annahar",
+          "name": "An-Nahar"
+        },
+        "sourceCountry": "LB",
+        "language": "ar",
+        "publishedAt": "2026-10-06T13:49:00.000Z",
+        "imageUrl": null,
+        "countryCode": "LB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:49:00.000Z"
+    },
+    {
+      "id": "rumogYINL7mG",
+      "representative": {
+        "id": "rumogYINL7mG",
+        "url": "https://en.annahar.com/articles/annahar-writers/354619/%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%87%D9%84-%D8%AA%D8%AE%D8%AF%D9%85-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%84%D8%A5%D8%B6%D8%B9%D8%A7%D9%81-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%88%D8%AA%D8%B7%D9%88%D9%8A%D8%B9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9",
+        "canonicalUrl": "https://en.annahar.com/articles/annahar-writers/354619/%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%87%D9%84-%D8%AA%D8%AE%D8%AF%D9%85-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%84%D8%A5%D8%B6%D8%B9%D8%A7%D9%81-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%88%D8%AA%D8%B7%D9%88%D9%8A%D8%B9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9",
+        "title": "تحولات اليمن... هل تخدم استراتيجية ترامب لإضعاف إيران وتطويع أسعار الطاقة؟",
+        "description": "يكافح الرئيس الأميركي دونالد ترامب بشتى الطرق لخفض أسعار الديزل، التي ارتفعت على خلفية حرب إيران، إلى جانب أسباب أخرى. ومن بين الإجراءات التي لجأ إليها إصدار أمر تنفيذي يسمح موقتاً باستخدام الديزل الأحمر في المركبات البرية. جاء ذلك بعد نجاحه في إقناع القادة الآخرين في مجموعة الدول الصناعية السبع…",
         "source": {
           "id": "annahar",
           "name": "An-Nahar"

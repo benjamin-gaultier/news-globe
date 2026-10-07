@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AZ",
   "countryName": "Azerbaijan",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
     {
       "id": "XdzDuDxM2Vts",
@@ -129,48 +129,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T14:02:00.000Z"
-    },
-    {
-      "id": "5_i4A0Gl0_TP",
-      "representative": {
-        "id": "5_i4A0Gl0_TP",
-        "url": "https://azertag.az/xeber/bas_nazir_eli_esedov_reqemsal_emekdasliq_teskilatinin_bas_katibi_ile_gorusub-4448757",
-        "canonicalUrl": "https://azertag.az/xeber/bas_nazir_eli_esedov_reqemsal_emekdasliq_teskilatinin_bas_katibi_ile_gorusub-4448757",
-        "title": "Baş nazir Əli Əsədov Rəqəmsal Əməkdaşlıq Təşkilatının Baş katibi ilə görüşüb",
-        "description": null,
-        "source": {
-          "id": "azertag",
-          "name": "AZERTAC"
-        },
-        "sourceCountry": "AZ",
-        "language": "az",
-        "publishedAt": "2026-10-06T13:49:00.000Z",
-        "imageUrl": null,
-        "countryCode": "AZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "5LKdU4o65GHb",
-          "url": "https://www.qafqazinfo.az/news/detail/azercellin-bas-icraci-direktoru-reqemsal-emekdasliq-teskilatinin-bas-katibi-ile-gorusdu-524089",
-          "canonicalUrl": "https://www.qafqazinfo.az/news/detail/azercellin-bas-icraci-direktoru-reqemsal-emekdasliq-teskilatinin-bas-katibi-ile-gorusdu-524089",
-          "title": "“Azercell”in baş icraçı direktoru Rəqəmsal Əməkdaşlıq Təşkilatının Baş katibi ilə görüşdü",
-          "description": null,
-          "source": {
-            "id": "qafqazinfo",
-            "name": "Qafqazinfo"
-          },
-          "sourceCountry": "AZ",
-          "language": "az",
-          "publishedAt": "2026-10-06T12:17:00.000Z",
-          "imageUrl": null,
-          "countryCode": "AZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:49:00.000Z"
     },
     {
       "id": "E91rF84mSHcW",
@@ -428,6 +386,30 @@
         "language": "en",
         "publishedAt": "2026-10-06T16:00:00.000Z",
         "imageUrl": "https://www.trend.az/media/2026/10/02/logo_of_the_united_nations_unsvg.jpg",
+        "countryCode": "AZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:00:00.000Z"
+    },
+    {
+      "id": "ztqCxjH5Jpv3",
+      "representative": {
+        "id": "ztqCxjH5Jpv3",
+        "url": "https://azertag.az/xeber/bu_saata_olan_esas_xeberler-4448997",
+        "canonicalUrl": "https://azertag.az/xeber/bu_saata_olan_esas_xeberler-4448997",
+        "title": "Bu saata olan əsas xəbərlər",
+        "description": null,
+        "source": {
+          "id": "azertag",
+          "name": "AZERTAC"
+        },
+        "sourceCountry": "AZ",
+        "language": "az",
+        "publishedAt": "2026-10-06T16:00:00.000Z",
+        "imageUrl": null,
         "countryCode": "AZ",
         "regionCode": null
       },

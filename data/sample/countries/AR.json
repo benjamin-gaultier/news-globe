@@ -2,92 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "AR",
   "countryName": "Argentina",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:07:36.245Z",
   "clusters": [
-    {
-      "id": "OMlKNanhzPKv",
-      "representative": {
-        "id": "OMlKNanhzPKv",
-        "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid06102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid06102026/",
-        "title": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 6 de octubre, minuto a minuto",
-        "description": "Ayer, la divisa oficial operó a $1540 para la venta en el Banco Nación; el dólar blue cotizó a $1545 para esa operación; qué pasa con el MEP y el CCL",
-        "source": {
-          "id": "lanacion",
-          "name": "La Nación"
-        },
-        "sourceCountry": "AR",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:05:00.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/IYEY5GXXZJFPRK5XWHSQY47HMA.jpg?auth=4ef2027c71a711410a369f8e88fddcf2c754735ea001c725cb7094bb89d09667&smart=true&width=2000&height=1333",
-        "countryCode": "AR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "4I23sOcuh-S_",
-          "url": "https://tn.com.ar/economia/2026/10/06/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-martes-6-de-octubre/",
-          "canonicalUrl": "https://tn.com.ar/economia/2026/10/06/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-martes-6-de-octubre/",
-          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este martes 6 de octubre",
-          "description": null,
-          "source": {
-            "id": "tn",
-            "name": "TN"
-          },
-          "sourceCountry": "AR",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:54:33.000Z",
-          "imageUrl": "https://tn.com.ar/resizer/v2/QNFTEZJ2NFB77CWOCHGSYRXXBI.jpg?auth=0e065ed7ac9cc54f223e03048806b6b54d7a46fda9c1f5030609c5a109f09658",
-          "countryCode": "AR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:05:00.000Z"
-    },
-    {
-      "id": "1vLQpoPZMmaC",
-      "representative": {
-        "id": "1vLQpoPZMmaC",
-        "url": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-es-la-despedida-de-messi-de-la-seleccion-argentina-hoy-martes-6-de-octubre-nid06102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-es-la-despedida-de-messi-de-la-seleccion-argentina-hoy-martes-6-de-octubre-nid06102026/",
-        "title": "A qué hora es la despedida de Messi de la selección argentina hoy, martes 6 de octubre",
-        "description": "El evento se realiza en el estadio Monumental, en el marco del partido amistoso vs. Benín que está programado a las 20; habrá shows y homenajes antes y después del juego",
-        "source": {
-          "id": "lanacion",
-          "name": "La Nación"
-        },
-        "sourceCountry": "AR",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:00:00.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/6Q2OKK2SPBGCXPNPNGVALCSBXU.JPG?auth=5e30920f09b424a105456f6de426ee72a21e1de983e5c6a9203712668097a82b&smart=true&width=2000&height=1333",
-        "countryCode": "AR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "AcQO9ZxPXzzW",
-          "url": "https://tn.com.ar/deportes/futbol/2026/10/06/fin-de-una-era-lionel-messi-se-despide-de-la-seleccion-argentina-en-un-amistoso-ante-benin/",
-          "canonicalUrl": "https://tn.com.ar/deportes/futbol/2026/10/06/fin-de-una-era-lionel-messi-se-despide-de-la-seleccion-argentina-en-un-amistoso-ante-benin/",
-          "title": "Fin de una era: Lionel Messi se despide de la Selección argentina en un amistoso ante Benín",
-          "description": null,
-          "source": {
-            "id": "tn",
-            "name": "TN"
-          },
-          "sourceCountry": "AR",
-          "language": "es",
-          "publishedAt": "2026-10-06T13:02:00.000Z",
-          "imageUrl": "https://tn.com.ar/resizer/v2/3YRBIK4RCVHBPD5GCMUUGU32LQ.jpg?auth=32146d2c3b57e4a004b727e895e94a449ec39d5e97316fafc181867e3976a677",
-          "countryCode": "AR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:02:00.000Z"
-    },
     {
       "id": "9fVXzOzhlxDZ",
       "representative": {
@@ -156,7 +72,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:07:27.000Z"
     },
@@ -180,9 +96,51 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:06:39.000Z"
+    },
+    {
+      "id": "OMlKNanhzPKv",
+      "representative": {
+        "id": "OMlKNanhzPKv",
+        "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid06102026/",
+        "canonicalUrl": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid06102026/",
+        "title": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 6 de octubre, minuto a minuto",
+        "description": "Ayer, la divisa oficial operó a $1540 para la venta en el Banco Nación; el dólar blue cotizó a $1545 para esa operación; qué pasa con el MEP y el CCL",
+        "source": {
+          "id": "lanacion",
+          "name": "La Nación"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:05:00.000Z",
+        "imageUrl": "https://resizer.glanacion.com/resizer/v2/IYEY5GXXZJFPRK5XWHSQY47HMA.jpg?auth=4ef2027c71a711410a369f8e88fddcf2c754735ea001c725cb7094bb89d09667&smart=true&width=2000&height=1333",
+        "countryCode": "AR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "4I23sOcuh-S_",
+          "url": "https://tn.com.ar/economia/2026/10/06/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-martes-6-de-octubre/",
+          "canonicalUrl": "https://tn.com.ar/economia/2026/10/06/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-martes-6-de-octubre/",
+          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este martes 6 de octubre",
+          "description": null,
+          "source": {
+            "id": "tn",
+            "name": "TN"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:54:33.000Z",
+          "imageUrl": "https://tn.com.ar/resizer/v2/QNFTEZJ2NFB77CWOCHGSYRXXBI.jpg?auth=0e065ed7ac9cc54f223e03048806b6b54d7a46fda9c1f5030609c5a109f09658",
+          "countryCode": "AR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:05:00.000Z"
     },
     {
       "id": "pEGUftfBQW-x",
@@ -204,57 +162,51 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:03:57.000Z"
     },
     {
-      "id": "j_ZLNEQw7st6",
+      "id": "1vLQpoPZMmaC",
       "representative": {
-        "id": "j_ZLNEQw7st6",
-        "url": "https://www.lanacion.com.ar/politica/sur-finanzas-el-juez-le-prohibio-a-vallejo-que-preste-servicios-financieros-y-ordeno-operativos-en-nid06102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/politica/sur-finanzas-el-juez-le-prohibio-a-vallejo-que-preste-servicios-financieros-y-ordeno-operativos-en-nid06102026/",
-        "title": "Sur Finanzas: el juez le prohibió a Vallejo que preste “servicios financieros” y ordenó operativos en varios clubes",
-        "description": "El financista había reabierto una sucursal en Canning la semana pasada; también se dispuso que la Ferrari California descapotable y los demás autos secuestrados en la causa queden en poder de la Corte Suprema",
+        "id": "1vLQpoPZMmaC",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-es-la-despedida-de-messi-de-la-seleccion-argentina-hoy-martes-6-de-octubre-nid06102026/",
+        "canonicalUrl": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-es-la-despedida-de-messi-de-la-seleccion-argentina-hoy-martes-6-de-octubre-nid06102026/",
+        "title": "A qué hora es la despedida de Messi de la selección argentina hoy, martes 6 de octubre",
+        "description": "El evento se realiza en el estadio Monumental, en el marco del partido amistoso vs. Benín que está programado a las 20; habrá shows y homenajes antes y después del juego",
         "source": {
           "id": "lanacion",
           "name": "La Nación"
         },
         "sourceCountry": "AR",
         "language": "es",
-        "publishedAt": "2026-10-06T13:01:07.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/JGYTTXBCXZBENB3AJO34VFAV4M.JPG?auth=90f21b43bfb39e720fc46cf0735ba8b319223a83a1adc265634843c216018aaf&smart=true&width=1999&height=1333",
+        "publishedAt": "2026-10-06T11:00:00.000Z",
+        "imageUrl": "https://resizer.glanacion.com/resizer/v2/6Q2OKK2SPBGCXPNPNGVALCSBXU.JPG?auth=5e30920f09b424a105456f6de426ee72a21e1de983e5c6a9203712668097a82b&smart=true&width=2000&height=1333",
         "countryCode": "AR",
         "regionCode": null
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:01:07.000Z"
-    },
-    {
-      "id": "kFs2XVQhvFbU",
-      "representative": {
-        "id": "kFs2XVQhvFbU",
-        "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-luis-caputo-dijo-que-el-presidente-es-un-faro-ideologico-nid06102026/",
-        "canonicalUrl": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-luis-caputo-dijo-que-el-presidente-es-un-faro-ideologico-nid06102026/",
-        "title": "Javier Milei y sus medidas, EN VIVO: Luis Caputo dijo que el Presidente es un “faro ideológico”",
-        "description": "El minuto a minuto de las decisiones del mandatario, las reacciones de la oposición y las declaraciones de los funcionarios",
-        "source": {
-          "id": "lanacion",
-          "name": "La Nación"
-        },
-        "sourceCountry": "AR",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:00:32.000Z",
-        "imageUrl": "https://resizer.glanacion.com/resizer/v2/FZ72X2OFOFHK5IUR74XN7FXCFE.jpg?auth=ac9c20af89df3a5ee1415c6a6c63be2d9a997ac04c777f55da9e9bbb1cee299c&smart=true&width=2000&height=1333",
-        "countryCode": "AR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:00:32.000Z"
+      "related": [
+        {
+          "id": "AcQO9ZxPXzzW",
+          "url": "https://tn.com.ar/deportes/futbol/2026/10/06/fin-de-una-era-lionel-messi-se-despide-de-la-seleccion-argentina-en-un-amistoso-ante-benin/",
+          "canonicalUrl": "https://tn.com.ar/deportes/futbol/2026/10/06/fin-de-una-era-lionel-messi-se-despide-de-la-seleccion-argentina-en-un-amistoso-ante-benin/",
+          "title": "Fin de una era: Lionel Messi se despide de la Selección argentina en un amistoso ante Benín",
+          "description": null,
+          "source": {
+            "id": "tn",
+            "name": "TN"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-06T13:02:00.000Z",
+          "imageUrl": "https://tn.com.ar/resizer/v2/3YRBIK4RCVHBPD5GCMUUGU32LQ.jpg?auth=32146d2c3b57e4a004b727e895e94a449ec39d5e97316fafc181867e3976a677",
+          "countryCode": "AR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:02:00.000Z"
     },
     {
       "id": "IRQtkt7AZRrv",
@@ -276,7 +228,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:54:19.000Z"
     },
@@ -369,7 +321,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T12:51:57.000Z"
     },
@@ -411,7 +363,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:51:24.000Z"
     },
@@ -521,6 +473,54 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:54:00.000Z"
+    },
+    {
+      "id": "oAzzh_Pec00I",
+      "representative": {
+        "id": "oAzzh_Pec00I",
+        "url": "https://www.clarin.com/politica/javier-milei-medidas-vivo-karina-milei-santilli-viajan-salta-inaugurar-inicio-obra-planta-litio_0_EqQeAnTTht.html",
+        "canonicalUrl": "https://www.clarin.com/politica/javier-milei-medidas-vivo-karina-milei-santilli-viajan-salta-inaugurar-inicio-obra-planta-litio_0_EqQeAnTTht.html",
+        "title": "Javier Milei y sus medidas, EN VIVO: Karina Milei y Santilli viajan a Salta por el inicio de una obra de una planta de litio",
+        "description": "La secretaria general de la Presidencia y el Jefe de Gabinete participarán del acto de anuncio del desarrollo de las etapas III y IV del Proyecto Sal de Oro, que alcanzará una producción anual de 100.000 toneladas de productos de litio.",
+        "source": {
+          "id": "clarin",
+          "name": "Clarín"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:57:19.000Z",
+        "imageUrl": "https://www.clarin.com/img/2026/06/28/5Dj2BVWOf_1200x630__1.jpg",
+        "countryCode": "AR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:57:19.000Z"
+    },
+    {
+      "id": "qxRw83AZjwAT",
+      "representative": {
+        "id": "qxRw83AZjwAT",
+        "url": "https://www.perfil.com/noticias/cordoba/policias-inspectores-que-piensan-passerini-y-quinteros-para-la-ciudad.phtml",
+        "canonicalUrl": "https://www.perfil.com/noticias/cordoba/policias-inspectores-que-piensan-passerini-y-quinteros-para-la-ciudad.phtml",
+        "title": "Policías inspectores de tránsito: qué piensan Passerini y Quinteros para la ciudad",
+        "description": "El intendente y el ministro de Seguridad trabajan en un esquema para aplicar durante la visita del Papa León y darle a los agentes policiales el control de tránsito en situaciones excepcionales. La duda es si el proyecto que intentaron muchos intendentes se le cuela por la ventana al gremio…",
+        "source": {
+          "id": "perfil",
+          "name": "Perfil"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:41:07.000Z",
+        "imageUrl": "https://fotos.perfil.com/2026/10/06/trim/540/304/inspector-de-transito-2341824.jpg",
+        "countryCode": "AR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:41:07.000Z"
     }
   ]
 }
