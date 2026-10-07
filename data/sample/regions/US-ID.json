@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "US",
+  "countryName": "United States",
+  "regionCode": "US-ID",
+  "regionName": "Idaho",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
+  "clusters": [
+    {
+      "id": "nbUB9dzhmLIu",
+      "representative": {
+        "id": "nbUB9dzhmLIu",
+        "url": "https://www.kivitv.com/news/local-news/missing-kentucky-teen-found-with-truck-driver-in-idaho",
+        "canonicalUrl": "https://www.kivitv.com/news/local-news/missing-kentucky-teen-found-with-truck-driver-in-idaho",
+        "title": "Missing Kentucky teen found with truck driver in Idaho",
+        "description": "A missing Kentucky girl has been safely located in Idaho, according to the FBI. On September 30 federal agents found the 16-year-old from Bowling Green in the company of a 32-year-old truck driver.",
+        "source": {
+          "id": "us_id_kivi",
+          "name": "Idaho News 6 (KIVI)"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T17:06:33.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [
+        {
+          "id": "xk9H8-bR00Rb",
+          "url": "https://idahonews.com/news/local/missing-kentucky-teen-found-at-idaho-truck-stop-with-32-year-old-driver",
+          "canonicalUrl": "https://idahonews.com/news/local/missing-kentucky-teen-found-at-idaho-truck-stop-with-32-year-old-driver",
+          "title": "Missing Kentucky teen found at Idaho truck stop with 32-year-old driver",
+          "description": "A missing 16-year-old Kentucky girl was found safe at an Idaho truck stop last week with a 32-year-old truck driver who was arrested on a Kentucky warrant.The F",
+          "source": {
+            "id": "us_id_kboi",
+            "name": "CBS2 Idaho News (KBOI)"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T17:46:34.000Z",
+          "imageUrl": "https://idahonews.com/resources/media2/16x9/360/986/0x79/90/6727b982-e915-474c-ab62-9314a52cb616-962454ad65784170851060630caa5b8fEmergency1360x360.png",
+          "countryCode": "US",
+          "regionCode": "US-ID"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T17:46:34.000Z"
+    },
+    {
+      "id": "XJfMuBDXFuGW",
+      "representative": {
+        "id": "XJfMuBDXFuGW",
+        "url": "https://www.kivitv.com/eagle/eagle-seniors-find-community-through-rugby-forming-a-bond-with-the-local-team",
+        "canonicalUrl": "https://www.kivitv.com/eagle/eagle-seniors-find-community-through-rugby-forming-a-bond-with-the-local-team",
+        "title": "Eagle seniors find community through rugby, forming a bond with the local team",
+        "description": "What started as a small rugby club inside Revel Eagle has grown into weekly gatherings, cross-country trips, and a close relationship with Boise United Rugby.",
+        "source": {
+          "id": "us_id_kivi",
+          "name": "Idaho News 6 (KIVI)"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T10:03:17.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:03:17.000Z"
+    },
+    {
+      "id": "RXYnAcSkowD3",
+      "representative": {
+        "id": "RXYnAcSkowD3",
+        "url": "https://www.kivitv.com/news/idaho-governor-candidates-weigh-in-on-immigration-prop-1-and-more",
+        "canonicalUrl": "https://www.kivitv.com/news/idaho-governor-candidates-weigh-in-on-immigration-prop-1-and-more",
+        "title": "Idaho governor candidates weigh in on immigration, Prop 1 and more",
+        "description": "Two candidates for Idaho governor answered voter questions on immigration, nuclear waste, reproductive health care and ballot measures at a forum that Gov. Brad Little did not attend.",
+        "source": {
+          "id": "us_id_kivi",
+          "name": "Idaho News 6 (KIVI)"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:53:54.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T03:53:54.000Z"
+    },
+    {
+      "id": "-wb1ITtyNVX-",
+      "representative": {
+        "id": "-wb1ITtyNVX-",
+        "url": "https://idahonews.com/news/local/little-eagle-meadows-fire-burns-near-eagle-cap-wilderness-boundary",
+        "canonicalUrl": "https://idahonews.com/news/local/little-eagle-meadows-fire-burns-near-eagle-cap-wilderness-boundary",
+        "title": "Little Eagle Meadows Fire burns near Eagle Cap Wilderness boundary",
+        "description": "A wildfire burning near the Eagle Cap Wilderness boundary prompted a response from crews on the Wallowa-Whitman National Forest after it was reported shortly af",
+        "source": {
+          "id": "us_id_kboi",
+          "name": "CBS2 Idaho News (KBOI)"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:05:23.000Z",
+        "imageUrl": "https://idahonews.com/resources/media2/16x9/611/986/152x0/90/f1cef68b-458e-4540-b541-3d2f72a3126f-Screenshot20261006205105.png",
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T03:05:23.000Z"
+    },
+    {
+      "id": "fssX886_vAK5",
+      "representative": {
+        "id": "fssX886_vAK5",
+        "url": "https://www.kivitv.com/caldwell/canyon-county-caldwell-negotiating-agreement-on-proposed-highway-44-jail-site",
+        "canonicalUrl": "https://www.kivitv.com/caldwell/canyon-county-caldwell-negotiating-agreement-on-proposed-highway-44-jail-site",
+        "title": "Canyon County, Caldwell negotiating agreement on proposed Highway 44 jail site",
+        "description": "After months of debate over the future location of a new Canyon County jail, county officials say negotiations are continuing and an agreement is being drafted for a proposed site along Highway 44.",
+        "source": {
+          "id": "us_id_kivi",
+          "name": "Idaho News 6 (KIVI)"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T02:42:43.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T02:42:43.000Z"
+    },
+    {
+      "id": "caiNO2fR-4Lq",
+      "representative": {
+        "id": "caiNO2fR-4Lq",
+        "url": "https://idahonews.com/news/local/why-el-nino-doesnt-tell-the-whole-story-for-idaho-snowpack",
+        "canonicalUrl": "https://idahonews.com/news/local/why-el-nino-doesnt-tell-the-whole-story-for-idaho-snowpack",
+        "title": "Why El Niño doesn't tell the whole story for Idaho snowpack",
+        "description": "As a strong ElEl Niño",
+        "source": {
+          "id": "us_id_kboi",
+          "name": "CBS2 Idaho News (KBOI)"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T23:36:52.000Z",
+        "imageUrl": "https://idahonews.com/resources/media2/16x9/885/986/5x0/90/60a51f20-15f5-46b0-b667-519d35328b4e-snowmelt.png",
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T23:36:52.000Z"
+    },
+    {
+      "id": "MNSZ66C9yrmz",
+      "representative": {
+        "id": "MNSZ66C9yrmz",
+        "url": "https://www.kmvt.com/2026/10/06/sunny-skies-more-warm-weather-tuesday/",
+        "canonicalUrl": "https://www.kmvt.com/2026/10/06/sunny-skies-more-warm-weather-tuesday/",
+        "title": "Sunny skies and more warm weather for Tuesday",
+        "description": "Southern Idaho Forecast",
+        "source": {
+          "id": "us_id_kmvt",
+          "name": "KMVT Twin Falls"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T23:35:38.000Z",
+        "imageUrl": "https://gray-kmvt-prod.gtv-cdn.com/resizer/v2//XCRKJ7PA3JEWFAFOPZTSWTYL6I.png?auth=c6c07afc40711c04e91cf1944a68c14511edad97fae161ad7dd3e66e316026d0&smart=false",
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T23:35:38.000Z"
+    },
+    {
+      "id": "uEIDXEY70iq0",
+      "representative": {
+        "id": "uEIDXEY70iq0",
+        "url": "https://www.idahoednews.org/ballot-beat/national-democratic-committee-chair-heads-to-idaho-for-weekend-campaign-events/",
+        "canonicalUrl": "https://www.idahoednews.org/ballot-beat/national-democratic-committee-chair-heads-to-idaho-for-weekend-campaign-events/",
+        "title": "Democratic National Committee chair to visit Idaho for weekend campaign events",
+        "description": "Ken Martin has a full day of events Saturday, including knocking on doors, attending a fundraiser and giving a speech.",
+        "source": {
+          "id": "us_id_idahoednews",
+          "name": "Idaho Education News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T23:22:44.000Z",
+        "imageUrl": "https://www.idahoednews.org/wp-content/uploads/2026/10/ken-martin-1180x1180.jpg",
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T23:22:44.000Z"
+    },
+    {
+      "id": "QdVdAM7XWczD",
+      "representative": {
+        "id": "QdVdAM7XWczD",
+        "url": "https://www.kmvt.com/2026/10/06/fire-officials-urge-caution-charging-lithium-ion-batteries-during-fire-prevention-week/",
+        "canonicalUrl": "https://www.kmvt.com/2026/10/06/fire-officials-urge-caution-charging-lithium-ion-batteries-during-fire-prevention-week/",
+        "title": "Fire officials urge caution charging lithium-ion batteries during Fire Prevention Week",
+        "description": "Lithium-ion batteries power everyday devices from phones to power tools, and officials are using this year’s Fire Prevention Week to highlight how to charge them safely and recognize warning signs before a battery becomes a fire hazard.",
+        "source": {
+          "id": "us_id_kmvt",
+          "name": "KMVT Twin Falls"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T23:01:20.000Z",
+        "imageUrl": "https://gray-kmvt-prod.gtv-cdn.com/resizer/v2//P2UDLSGR6VHNFGQQRKKSMXTW7U.jpg?auth=bed9bd40eab7577c3e8135cba2e501bfdad9a6a2508bb52012251b150baa36ac&smart=false",
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T23:01:20.000Z"
+    },
+    {
+      "id": "OJNQSCOJ296L",
+      "representative": {
+        "id": "OJNQSCOJ296L",
+        "url": "https://www.kmvt.com/2026/10/06/wendell-mayor-walks-funds-replace-damaged-park-structure/",
+        "canonicalUrl": "https://www.kmvt.com/2026/10/06/wendell-mayor-walks-funds-replace-damaged-park-structure/",
+        "title": "Wendell mayor walks for funds to replace damaged park structure",
+        "description": "Wendell Mayor Rebecca Vipperman is participating in the Blue Cross of Idaho Foundation’s annual October Mayor Walking Challenge, aiming to walk 10,000 steps a day for the chance to earn $1,000 for her community.",
+        "source": {
+          "id": "us_id_kmvt",
+          "name": "KMVT Twin Falls"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T22:36:03.000Z",
+        "imageUrl": "https://gray-kmvt-prod.gtv-cdn.com/resizer/v2//MUOA4M7ZHRBHTNPDVBATK2TC7I.bmp?auth=faeeed26bb6300e9851f3b6255b662f805513cb46f44ef38a542b006a661a873&smart=false",
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T22:36:03.000Z"
+    },
+    {
+      "id": "wwq-iZEFmQLG",
+      "representative": {
+        "id": "wwq-iZEFmQLG",
+        "url": "https://idahonews.com/news/local/boise-gets-9-million-for-50-unit-homeless-housing-project",
+        "canonicalUrl": "https://idahonews.com/news/local/boise-gets-9-million-for-50-unit-homeless-housing-project",
+        "title": "Boise gets $9 million for 50-unit homeless housing project",
+        "description": "A long-planned Boise housing project for people leaving homelessness received $9 million in federal funding, giving the 50-unit development a major boost.The Ci",
+        "source": {
+          "id": "us_id_kboi",
+          "name": "CBS2 Idaho News (KBOI)"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T22:35:31.000Z",
+        "imageUrl": "https://idahonews.com/resources/media2/16x9/785/986/10x0/90/101475f7-3d61-42d5-8fe9-e775eecbca04-CityofBoiseskyline.PNG",
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T22:35:31.000Z"
+    },
+    {
+      "id": "aYqMQYbGd9tP",
+      "representative": {
+        "id": "aYqMQYbGd9tP",
+        "url": "https://www.idahoednews.org/news/police-investigate-disturbing-online-threat-against-a-timberline-student/",
+        "canonicalUrl": "https://www.idahoednews.org/news/police-investigate-disturbing-online-threat-against-a-timberline-student/",
+        "title": "UPDATED: Timberline calls off homecoming events, as police investigate ‘disturbing’ threat against a student",
+        "description": "An online petition describes the threat in detail: In a Snapchat post, members of the high school’s football team “called for a female student to be raped and killed.”",
+        "source": {
+          "id": "us_id_idahoednews",
+          "name": "Idaho Education News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T20:27:22.000Z",
+        "imageUrl": "https://www.idahoednews.org/wp-content/uploads/2026/04/timberlin3-1180x885.jpg",
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T20:27:22.000Z"
+    },
+    {
+      "id": "g3DVnX7DR-Iw",
+      "representative": {
+        "id": "g3DVnX7DR-Iw",
+        "url": "https://www.boisestatepublicradio.org/show/idaho-matters/2026-10-06/interfaith-sanctuary-home-recognition",
+        "canonicalUrl": "https://www.boisestatepublicradio.org/show/idaho-matters/2026-10-06/interfaith-sanctuary-home-recognition",
+        "title": "Interfaith Sanctuary finds a new home and new recognition",
+        "description": "After a costly and contentious move to State street, Interfaith Sanctuary is earning recognition for its work serving those in need in Boise.",
+        "source": {
+          "id": "us_id_bspr",
+          "name": "Boise State Public Radio"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T19:12:10.000Z",
+        "imageUrl": "https://npr.brightspotcdn.com/dims4/default/1eb7b2d/2147483647/strip/false/crop/5712x4284+0+0/resize/704x528!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2Fb3%2Fa2d9904545b1b574c1636039579c%2Fimg-0908.jpg",
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:12:10.000Z"
+    },
+    {
+      "id": "kybboSyM4FFR",
+      "representative": {
+        "id": "kybboSyM4FFR",
+        "url": "https://www.idahoednews.org/kevins-blog/state-superintendents-candidates-agree-to-debate-next-week/",
+        "canonicalUrl": "https://www.idahoednews.org/kevins-blog/state-superintendents-candidates-agree-to-debate-next-week/",
+        "title": "State superintendent candidates agree to debate next week",
+        "description": "Idaho News 6 will host and livestream the event Monday night. It will feature Republican incumbent Debbie Critchfield, Democrat Becky Sundin Mitchell and Constitution Party candidate Teresa Roundy.",
+        "source": {
+          "id": "us_id_idahoednews",
+          "name": "Idaho Education News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T19:08:33.000Z",
+        "imageUrl": "https://www.idahoednews.org/wp-content/uploads/2026/05/IMG_9179-1180x854.jpg",
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:08:33.000Z"
+    },
+    {
+      "id": "N7DAZdxRo9mw",
+      "representative": {
+        "id": "N7DAZdxRo9mw",
+        "url": "https://www.kivitv.com/wood-river-valley/blaine-county-passes-emergency-moratorium-on-data-centers-giving-the-county-182-days-to-craft-rules",
+        "canonicalUrl": "https://www.kivitv.com/wood-river-valley/blaine-county-passes-emergency-moratorium-on-data-centers-giving-the-county-182-days-to-craft-rules",
+        "title": "Blaine County passes emergency moratorium on data centers, giving the county 182 days to craft rules",
+        "description": "Blaine County is pausing data center permits as AI drives demand for new facilities. Commissioners have 182 days to write new rules. Is Idaho ready for what's coming? Drop your thoughts below! 👇",
+        "source": {
+          "id": "us_id_kivi",
+          "name": "Idaho News 6 (KIVI)"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T01:23:40.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-ID"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T01:23:40.000Z"
+    }
+  ]
+}

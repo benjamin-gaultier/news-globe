@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "XK",
   "countryName": "Kosovo",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "Oh9qMEjHvqJ-",
@@ -40,27 +40,10 @@
           "imageUrl": "https://telegrafi.com/media-library/image.jpg?id=68062390&width=980",
           "countryCode": "XK",
           "regionCode": null
-        },
-        {
-          "id": "QDzXSFx-LUEN",
-          "url": "https://www.gazetaexpress.com/haradinaj-albin-kurti-i-dha-nje-goditje-te-rende-uckse-po-e-con-vendin-ne-zgjedhje/",
-          "canonicalUrl": "https://www.gazetaexpress.com/haradinaj-albin-kurti-i-dha-nje-goditje-te-rende-uckse-po-e-con-vendin-ne-zgjedhje/",
-          "title": "Haradinaj: Albin Kurti i dha një goditje të rëndë UÇK’së, po e çon vendin në zgjedhje",
-          "description": "Ish-kryeministri i Kosovës, Ramush Haradinaj, ka thënë se Albin Kurti po e çon vendin drejt zgjedhjeve dhe se me këtë po i jep një goditje UÇK’së duke e lënë në gjysmë ligjin për Gjykatën Speciale, shkruan Express. “Kanë mbetur edhe më pak se 7 orë. S’është ligj i një partie por i 91 deputetëve të…",
-          "source": {
-            "id": "gazetaexpress",
-            "name": "Gazeta Express"
-          },
-          "sourceCountry": "XK",
-          "language": "sq",
-          "publishedAt": "2026-10-06T15:34:44.000Z",
-          "imageUrl": "https://www.gazetaexpress.com/wp-content/uploads/2026/10/image-19.png",
-          "countryCode": "XK",
-          "regionCode": null
         }
       ],
-      "outletCount24h": 3,
-      "outletCount": 3,
+      "outletCount24h": 2,
+      "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:49:34.000Z"
     },
     {
@@ -160,30 +143,6 @@
       "latestPublishedAt": "2026-10-06T16:01:55.000Z"
     },
     {
-      "id": "itB7FUJdGE58",
-      "representative": {
-        "id": "itB7FUJdGE58",
-        "url": "https://www.gazetaexpress.com/messi-mund-te-thyeje-rekorde-ne-ndeshjen-e-tij-lamtumirese-me-argjentinen/",
-        "canonicalUrl": "https://www.gazetaexpress.com/messi-mund-te-thyeje-rekorde-ne-ndeshjen-e-tij-lamtumirese-me-argjentinen/",
-        "title": "Messi mund të thyejë rekorde në ndeshjen e tij lamtumirëse me Argjentinën",
-        "description": "Mbrojtësi i Beninit, Mohamed Tijani, është bërë viral pasi zbuloi se skuadra e tij ka një “plan special” për Lionel Messin kur të përballet me Argjentinën. Messi do ta zhvillojë ndeshjen e tij të fundit ndërkombëtare me Argjentinën kur të përballet me Beninin, skuadrën e renditur në vendin e 93-të…",
-        "source": {
-          "id": "gazetaexpress",
-          "name": "Gazeta Express"
-        },
-        "sourceCountry": "XK",
-        "language": "sq",
-        "publishedAt": "2026-10-06T16:00:19.000Z",
-        "imageUrl": "https://www.gazetaexpress.com/wp-content/uploads/2026/10/2026-06-28T025931Z_1653381534_UP1EM6S08B5HH_RTRMADP_3_SOCCER-WORLDCUP-JOR-ARG-1791200503.webp",
-        "countryCode": "XK",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:00:19.000Z"
-    },
-    {
       "id": "HcSOyZsafg6_",
       "representative": {
         "id": "HcSOyZsafg6_",
@@ -206,54 +165,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:59:35.000Z"
-    },
-    {
-      "id": "IoelEW099Me3",
-      "representative": {
-        "id": "IoelEW099Me3",
-        "url": "https://www.gazetaexpress.com/selimi-bekim-sejdiu-as-qe-qenka-ne-kosove-dhe-e-mohon-kandidaturen-e-kurti-del-me-propozime-te-kota/",
-        "canonicalUrl": "https://www.gazetaexpress.com/selimi-bekim-sejdiu-as-qe-qenka-ne-kosove-dhe-e-mohon-kandidaturen-e-kurti-del-me-propozime-te-kota/",
-        "title": "Selimi: Bekim Sejdiu as që qenka në Kosovë dhe e mohon kandidaturën, e Kurti del me propozime të kota",
-        "description": "Ish-kryediplomati i Kosovës, Petrit Selimi, ka reaguar deklarimeve të kryeministrit Albin Kurti, i cili sot, sërish përmendi emrin e Bekim Sejdiut, si kandidat për president. Selimi, e ka quajtur Kurtin si ‘’humorist i vonshëm e i vonuar’’ i cili pak orë para përfundimit të afateve del ‘’me gjuj…",
-        "source": {
-          "id": "gazetaexpress",
-          "name": "Gazeta Express"
-        },
-        "sourceCountry": "XK",
-        "language": "sq",
-        "publishedAt": "2026-10-06T15:51:36.000Z",
-        "imageUrl": "https://www.gazetaexpress.com/wp-content/uploads/2025/10/petrit-selimi-ish-minister-800x450-1.jpg",
-        "countryCode": "XK",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:51:36.000Z"
-    },
-    {
-      "id": "H-jg_92RAfjO",
-      "representative": {
-        "id": "H-jg_92RAfjO",
-        "url": "https://www.gazetaexpress.com/sejdiu-reagon-pasi-kurti-ia-permendi-emrin-e-kam-njoftuar-se-sjam-pjese-e-procesit-zhgenjyes-ankthi-qe-po-e-perjeton-kosova/",
-        "canonicalUrl": "https://www.gazetaexpress.com/sejdiu-reagon-pasi-kurti-ia-permendi-emrin-e-kam-njoftuar-se-sjam-pjese-e-procesit-zhgenjyes-ankthi-qe-po-e-perjeton-kosova/",
-        "title": "Sejdiu reagon pasi Kurti ia përmendi emrin: E kam njoftuar se s’jam pjesë e procesit, zhgënjyes ankthi që po e përjeton Kosova",
-        "description": "Profesori Bekim Sejdiu ka njoftuar edhe zyrtarisht se është tërhequr nga kandidatura për President. Sejdiu shkroi në Facebook se pasi njoftoi tërheqjen në shtator, e ka konsideruar të domosdoshme ta sqarojë dhe ta konfirmojë atë qëndrim, pasi kryeministri Albin Kurti e përmendi sërish mundësinë që…",
-        "source": {
-          "id": "gazetaexpress",
-          "name": "Gazeta Express"
-        },
-        "sourceCountry": "XK",
-        "language": "sq",
-        "publishedAt": "2026-10-06T15:47:53.000Z",
-        "imageUrl": "https://www.gazetaexpress.com/wp-content/uploads/2026/10/21b9a2f4-6170-4c57-b996-de740ef34114.webp",
-        "countryCode": "XK",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:47:53.000Z"
     },
     {
       "id": "GHswvDKVcW2l",
@@ -398,6 +309,78 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:53:18.000Z"
+    },
+    {
+      "id": "rY1ZGQ1i_4A2",
+      "representative": {
+        "id": "rY1ZGQ1i_4A2",
+        "url": "https://telegrafi.com/nuk-kam-nevoje-te-vrapoj-kam-shume-para-u-ble-77-milione-euro-dhe-kishte-page-20-milioneshe-karriera-e-tij-po-shkon-teposhte/",
+        "canonicalUrl": "https://telegrafi.com/nuk-kam-nevoje-te-vrapoj-kam-shume-para-u-ble-77-milione-euro-dhe-kishte-page-20-milioneshe-karriera-e-tij-po-shkon-teposhte/",
+        "title": "“Nuk kam nevojë të vrapoj, kam shumë para” - u ble 77 milionë euro dhe kishte pagë 20 milionëshe - karriera e tij po shkon teposhtë",
+        "description": "Futbollisti brazilian Fred ka rrëfyer një anekdotë për ish-shokun e tij të skuadrës te Fenerbahce, sulmuesin kolumbian Jhon Duran, duke treguar edhe për mentalitetin e tij dhe ndikimin që patën paratë e mëdha në karrierën e tij. Duran, i cili dikur konsiderohej një prej talenteve më të mëdha të…",
+        "source": {
+          "id": "telegrafi",
+          "name": "Telegrafi"
+        },
+        "sourceCountry": "XK",
+        "language": "sq",
+        "publishedAt": "2026-10-06T15:42:34.000Z",
+        "imageUrl": "https://telegrafi.com/media-library/image.png?id=68062381&width=980",
+        "countryCode": "XK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:42:34.000Z"
+    },
+    {
+      "id": "jg_nqvQcVhyA",
+      "representative": {
+        "id": "jg_nqvQcVhyA",
+        "url": "https://telegrafi.com/jessica-alba-dhe-naomi-watts-tregojne-kombinimet-nga-java-e-modes-ne-paris/",
+        "canonicalUrl": "https://telegrafi.com/jessica-alba-dhe-naomi-watts-tregojne-kombinimet-nga-java-e-modes-ne-paris/",
+        "title": "Jessica Alba dhe Naomi Watts tregojnë kombinimet nga Java e Modës në Paris",
+        "description": "Dantella, pantallonat e gjera, xhaketat prej lëkure dhe detajet luksoze – ardhjet në sfilatën e shtëpisë së modës Zimmermann në Paris u shndërruan në një spektakël të vogël mode Ndërsa disa nga të ftuarat zgjodhën kombinime romantike me shtresa transparente, të tjerat iu drejtuan prerjeve klasike…",
+        "source": {
+          "id": "telegrafi",
+          "name": "Telegrafi"
+        },
+        "sourceCountry": "XK",
+        "language": "sq",
+        "publishedAt": "2026-10-06T15:38:10.000Z",
+        "imageUrl": "https://telegrafi.com/media-library/image.png?id=68062354&width=980",
+        "countryCode": "XK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:38:10.000Z"
+    },
+    {
+      "id": "VhmlMt6KTYLY",
+      "representative": {
+        "id": "VhmlMt6KTYLY",
+        "url": "https://telegrafi.com/real-madridi-merr-lajmin-e-madh-dy-yjet-e-ekipit-rikthehen-nga-lendime/",
+        "canonicalUrl": "https://telegrafi.com/real-madridi-merr-lajmin-e-madh-dy-yjet-e-ekipit-rikthehen-nga-lendime/",
+        "title": "Real Madridi merr lajmin e madh, dy yjet e ekipit rikthehen nga lëndime",
+        "description": "Real Madridi ka marrë një lajm të mirë para ndeshjes së së shtunës ndaj Villarrealit, pasi Ibrahima Konate dhe Eder Militao janë rikthyer në stërvitje me grupin të martën. Të dy mbrojtësit e përfunduan seancën së bashku me pjesën tjetër të ekipit, duke rritur mundësitë që të jenë të gatshëm për…",
+        "source": {
+          "id": "telegrafi",
+          "name": "Telegrafi"
+        },
+        "sourceCountry": "XK",
+        "language": "sq",
+        "publishedAt": "2026-10-06T15:35:20.000Z",
+        "imageUrl": "https://telegrafi.com/media-library/image.jpg?id=68062378&width=980",
+        "countryCode": "XK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:35:20.000Z"
     }
   ]
 }

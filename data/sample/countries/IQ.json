@@ -2,385 +2,247 @@
   "schemaVersion": 1,
   "countryCode": "IQ",
   "countryName": "Iraq",
-  "updatedAt": "2026-10-07T12:57:09.368Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
-      "id": "bB1PaXbwrZHF",
+      "id": "zmQ8nPUED_6M",
       "representative": {
-        "id": "bB1PaXbwrZHF",
-        "url": "https://baghdadtoday.news/306421-170.html",
-        "canonicalUrl": "https://baghdadtoday.news/306421-170.html",
-        "title": "الدولار يقفز إلى 170 ألفاً في بورصة بغداد بعد تعديل سعر الصرف",
-        "description": "بغداد اليوم - بغداد سجلت أسعار صرف الدولار ارتفاعاً حاداً في بورصة بغداد، اليوم الأربعاء، لتصل إلى 170 ألف دينار لكل 100 دولار، في قفزة جديدة بالسوق الموازية عقب قرار تعديل سعر الصرف الرسمي. وجاء الارتفاع بعد اعتماد البنك المركزي أسعار صرف جديدة، حددت سعر شراء الدولار من وزارة المالية بـ1500…",
+        "id": "zmQ8nPUED_6M",
+        "url": "https://baghdadtoday.news/306407-.html",
+        "canonicalUrl": "https://baghdadtoday.news/306407-.html",
+        "title": "أتروشي يسائل وزير المالية عن أسباب تأخير تمويل رواتب موظفي الإقليم",
+        "description": "بغداد اليوم - أربيل وجه نائب رئيس مجلس النواب فرهاد أمين أتروشي، اليوم الثلاثاء (6 تشرين الاول 2026)، سؤالاً نيابياً إلى وزير المالية الاتحادي فالح الساري، بشأن أسباب تأخير تمويل رواتب موظفي إقليم كردستان. وذكر المكتب الإعلامي لنائب رئيس مجلس النواب في بيان تلقته \"بغداد اليوم\"، أن السؤال استند إلى…",
         "source": {
           "id": "baghdadtoday",
           "name": "Baghdad Today"
         },
         "sourceCountry": "IQ",
         "language": "ar",
-        "publishedAt": "2026-10-07T08:41:35.000Z",
+        "publishedAt": "2026-10-06T13:18:25.000Z",
         "imageUrl": null,
         "countryCode": "IQ",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "p97ucaAxs_Ua",
-          "url": "https://almasalah.com/archives/142957",
-          "canonicalUrl": "https://almasalah.com/archives/142957",
-          "title": "توضيح جديد من البنك المركزي حول تعديل سعر صرف الدولار",
-          "description": "7 أكتوبر، 2026 بغداد/المسلة: أوضح البنك المركزي العراقي، الأربعاء، أن تعديل سعر صرف الدولار يأتي...",
-          "source": {
-            "id": "almasalah",
-            "name": "Al-Masalah"
-          },
-          "sourceCountry": "IQ",
-          "language": "ar",
-          "publishedAt": "2026-10-07T12:26:58.000Z",
-          "imageUrl": "https://almasalah.com/wp-content/uploads/2022/06/Doc-P-412016-637807702044557953-e1657273678905.jpeg",
-          "countryCode": "IQ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T12:26:58.000Z"
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:18:25.000Z"
     },
     {
-      "id": "zmagiJK3taBM",
+      "id": "fwtulKVBKyUN",
       "representative": {
-        "id": "zmagiJK3taBM",
-        "url": "https://baghdadtoday.news/306430-.html",
-        "canonicalUrl": "https://baghdadtoday.news/306430-.html",
-        "title": "مجلس النواب يؤجل جدول أعمال جلسة اليوم ويخصصها لمناقشة رفع سعر صرف الدولار-عاجل",
-        "description": "بغداد اليوم - بغداد قررت رئاسة مجلس النواب، اليوم الأربعاء، تحويل جلسة المجلس إلى تداولية لمناقشة سعر الصرف. وقال النائب عن كتلة بدر النيابية، جعفر الزاملي، في تصريح صحفي تابعته \"بغداد اليوم\"، إن \"عدداً كبيراً من النواب قدموا طلباً الى رئيس مجلس النواب لمناقشة موضوع سعر صرف الدولار\". وأضاف، ان…",
+        "id": "fwtulKVBKyUN",
+        "url": "https://baghdadtoday.news/306406-.html",
+        "canonicalUrl": "https://baghdadtoday.news/306406-.html",
+        "title": "الدفاع المدني يستنفر في الأنبار تحسباً لارتفاع مناسيب نهر الفرات",
+        "description": "بغداد اليوم - بغداد شرعت مديرية الدفاع المدني في محافظة الأنبار بتنفيذ سلسلة من الإجراءات الاحترازية والاستباقية لمواجهة مخاطر ارتفاع مناسيب مياه نهر الفرات، ضمن خطة ميدانية تهدف إلى حماية الأرواح والممتلكات العامة والخاصة. وقال مدير العلاقات والإعلام في مديرية الدفاع المدني، نؤاس صباح شاكر، في…",
         "source": {
           "id": "baghdadtoday",
           "name": "Baghdad Today"
         },
         "sourceCountry": "IQ",
         "language": "ar",
-        "publishedAt": "2026-10-07T12:38:23.000Z",
+        "publishedAt": "2026-10-06T12:51:49.000Z",
         "imageUrl": null,
         "countryCode": "IQ",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:38:23.000Z"
+      "latestPublishedAt": "2026-10-06T12:51:49.000Z"
     },
     {
-      "id": "1onTIEw5JMWS",
+      "id": "JllYDGdRYDpj",
       "representative": {
-        "id": "1onTIEw5JMWS",
-        "url": "https://www.iraqinews.com/iraq/iraqs-trade-exchange-with-china-surpass-51-billion-in-2025/",
-        "canonicalUrl": "https://www.iraqinews.com/iraq/iraqs-trade-exchange-with-china-surpass-51-billion-in-2025/",
-        "title": "Iraq’s trade exchange with China surpass $51 billion in 2025",
-        "description": "Baghdad (IraqiNews.com) – The Chinese Ambassador to Iraq, Xiang Bo, revealed on Tuesday that the trade exchange between Iraq and China exceeded $51 billion in 2025. In a statement to […] The post Iraq’s trade exchange with China surpass $51 billion in 2025 appeared first on Iraqi News .",
-        "source": {
-          "id": "iraqinews",
-          "name": "Iraqi News"
-        },
-        "sourceCountry": "IQ",
-        "language": "en",
-        "publishedAt": "2026-10-07T12:32:13.000Z",
-        "imageUrl": null,
-        "countryCode": "IQ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:32:13.000Z"
-    },
-    {
-      "id": "otBWKQAxDL7n",
-      "representative": {
-        "id": "otBWKQAxDL7n",
-        "url": "https://almadapaper.net/455876/",
-        "canonicalUrl": "https://almadapaper.net/455876/",
-        "title": "مرصد إيكو عراق يرصد 6 موجات ارتفاع للدولار خلال 2026",
-        "description": "بغداد/المدى رصد مرصد إيكو عراق ست موجات ارتفاع بارزة لسعر صرف الدولار في السوق الموازية مقابل السعر الرسمي خلال عام 2026. وقال المرصد في بيان صحفي إن أسعار صرف الدولار في السوق الموازية شهدت ست محطات ارتفاع بارزة خلال العام الحالي، مع تسجيل مستويات قياسية جديدة في كل موجة. وأوضح المرصد أن أبرز…",
-        "source": {
-          "id": "almada",
-          "name": "Al-Mada"
-        },
-        "sourceCountry": "IQ",
-        "language": "ar",
-        "publishedAt": "2026-10-07T12:30:13.000Z",
-        "imageUrl": null,
-        "countryCode": "IQ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:30:13.000Z"
-    },
-    {
-      "id": "1qDpAxlkFgi0",
-      "representative": {
-        "id": "1qDpAxlkFgi0",
-        "url": "https://baghdadtoday.news/306429-.html",
-        "canonicalUrl": "https://baghdadtoday.news/306429-.html",
-        "title": "مجلس النواب يعقد جلسته برئاسة الحلبوسي",
-        "description": "بغداد اليوم - بغداد عقد مجلس النواب، اليوم الأربعاء، جلسته برئاسة رئيس المجلس، هيبت الحلبوسي. وقالت الدائرة الإعلامية للمجلس في بيان تلقته \"بغداد اليوم\"، إن \"رئيس مجلس النواب، هيبت الحلبوسي، افتتح أعمال الجلسة رقم (25)، للدورة الانتخابية السادسة السنة التشريعية الأولى، الفصل التشريعي الثاني\".",
+        "id": "JllYDGdRYDpj",
+        "url": "https://baghdadtoday.news/306405-2027.html",
+        "canonicalUrl": "https://baghdadtoday.news/306405-2027.html",
+        "title": "وفد كردستان يتوجه إلى بغداد لبحث مستحقات الإقليم في موازنة 2027",
+        "description": "بغداد اليوم - بغداد يتوجه وفد حكومي رفيع المستوى من إقليم كردستان، الأربعاء، إلى بغداد، لإجراء مباحثات مع الحكومة الاتحادية بشأن الحقوق والاستحقاقات المالية للإقليم ضمن مشروع الموازنة العامة الاتحادية لعام 2027. وذكر إعلام الإقليم في بيان تلقته \"بغداد اليوم\"، أن الوفد سيعقد اجتماعاً مع وزارة…",
         "source": {
           "id": "baghdadtoday",
           "name": "Baghdad Today"
         },
         "sourceCountry": "IQ",
         "language": "ar",
-        "publishedAt": "2026-10-07T12:20:17.000Z",
+        "publishedAt": "2026-10-06T12:41:28.000Z",
         "imageUrl": null,
         "countryCode": "IQ",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:20:17.000Z"
+      "latestPublishedAt": "2026-10-06T12:41:28.000Z"
     },
     {
-      "id": "V3dFTuT1KRDk",
+      "id": "li6A-BqX94N2",
       "representative": {
-        "id": "V3dFTuT1KRDk",
-        "url": "https://baghdadtoday.news/306428-.html",
-        "canonicalUrl": "https://baghdadtoday.news/306428-.html",
-        "title": "البنك المركزي: الرقابة المصرفية من اختصاصنا والأجهزة الأمنية تتحرك بأوامر قضائية",
-        "description": "بغداد اليوم - بغداد أكد مصدر مسؤول في البنك المركزي العراقي، اليوم الأربعاء، أن الإشراف والرقابة والتنظيم على المؤسسات المالية المصرفية وغير المصرفية من اختصاص البنك المركزي حصراً. وقال المصدر في تصريح صحفي تابعته \"بغداد اليوم\"، إن دور الأجهزة الأمنية يقتصر على التنسيق التنفيذي لإنفاذ الأحكام…",
+        "id": "li6A-BqX94N2",
+        "url": "https://baghdadtoday.news/306404-.html",
+        "canonicalUrl": "https://baghdadtoday.news/306404-.html",
+        "title": "الدولار يصعد في السوق الموازية وموازنة العام المقبل تثير القلق",
+        "description": "بغداد اليوم - بغداد كشف المختص في الشأن الاقتصادي حيدر الشيخ، اليوم الثلاثاء، عن أسباب الارتفاع الحاد في سعر صرف الدولار أمام الدينار العراقي في السوق الموازية، محذراً من انعكاساته على أسعار السلع والقوة الشرائية للموظفين. وقال الشيخ لـ\"بغداد اليوم\"، إن الأنباء التي تحدثت عن تغيير سعر الصرف الرسمي…",
         "source": {
           "id": "baghdadtoday",
           "name": "Baghdad Today"
         },
         "sourceCountry": "IQ",
         "language": "ar",
-        "publishedAt": "2026-10-07T12:18:11.000Z",
+        "publishedAt": "2026-10-06T11:29:12.000Z",
         "imageUrl": null,
         "countryCode": "IQ",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:18:11.000Z"
+      "latestPublishedAt": "2026-10-06T11:29:12.000Z"
     },
     {
-      "id": "dP0B8hV9FVHV",
+      "id": "zqAzIp6IiD_q",
       "representative": {
-        "id": "dP0B8hV9FVHV",
-        "url": "https://almadapaper.net/455873/",
-        "canonicalUrl": "https://almadapaper.net/455873/",
-        "title": "بيئة النجف تغرم البلدية أكثر من 102 مليون دينار بسبب مخالفات بيئية",
-        "description": "بغداد/المدى أعلنت مديرية بيئة النجف الأشرف، اليوم الأربعاء، فرض غرامة مالية بقيمة تتجاوز 102 مليون دينار عراقي بحق مديرية بلدية النجف الأشرف، على خلفية مخالفات بيئية مسجلة في موقع الطمر المركزي في منطقة عيون الشجيج.وقال مدير بيئة النجف الأشرف، جمال عبد زيد شلاكة، في حديث تابعته (المدى): إن…",
-        "source": {
-          "id": "almada",
-          "name": "Al-Mada"
-        },
-        "sourceCountry": "IQ",
-        "language": "ar",
-        "publishedAt": "2026-10-07T11:47:49.000Z",
-        "imageUrl": null,
-        "countryCode": "IQ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:47:49.000Z"
-    },
-    {
-      "id": "clcayB5mqJq5",
-      "representative": {
-        "id": "clcayB5mqJq5",
-        "url": "https://www.iraqinews.com/iraq/iraq-advances-as-gulf-europe-data-hub-with-iq-networks-ooredoo-fibre-deal/",
-        "canonicalUrl": "https://www.iraqinews.com/iraq/iraq-advances-as-gulf-europe-data-hub-with-iq-networks-ooredoo-fibre-deal/",
-        "title": "Iraq advances as Gulf-Europe data hub with iQ Networks, Ooredoo fibre deal",
-        "description": "Baghdad (IraqiNews.com) – Iraq’s iQ Networks and OFN, the international connectivity arm of Qatar’s Ooredoo Group, have agreed to build a high-capacity fibre connection across Iraq, furthering ambitions to connect […] The post Iraq advances as Gulf-Europe data hub with iQ Networks, Ooredoo fibre…",
-        "source": {
-          "id": "iraqinews",
-          "name": "Iraqi News"
-        },
-        "sourceCountry": "IQ",
-        "language": "en",
-        "publishedAt": "2026-10-07T11:38:17.000Z",
-        "imageUrl": null,
-        "countryCode": "IQ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:38:17.000Z"
-    },
-    {
-      "id": "1vyKk9CUCdcj",
-      "representative": {
-        "id": "1vyKk9CUCdcj",
-        "url": "https://almasalah.com/archives/142955",
-        "canonicalUrl": "https://almasalah.com/archives/142955",
-        "title": "الدولار يقفز في بغداد ويجمّد البيع والشراء في الأسواق",
-        "description": "7 أكتوبر، 2026 بغداد/المسلة: دخلت أسواق بغداد صباح الأربعاء في حالة من الارتباك الحاد، بعدما...",
-        "source": {
-          "id": "almasalah",
-          "name": "Al-Masalah"
-        },
-        "sourceCountry": "IQ",
-        "language": "ar",
-        "publishedAt": "2026-10-07T11:21:36.000Z",
-        "imageUrl": "https://almasalah.com/wp-content/uploads/2023/03/image_1672596248192103370.jpeg",
-        "countryCode": "IQ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:21:36.000Z"
-    },
-    {
-      "id": "_82jq7pPlnf3",
-      "representative": {
-        "id": "_82jq7pPlnf3",
-        "url": "https://almadapaper.net/455870/",
-        "canonicalUrl": "https://almadapaper.net/455870/",
-        "title": "استهداف مطاري الرياض وعدن يرفع وتيرة التصعيد في اليمن",
-        "description": "متابعة/المدى أعلنت جماعة أنصار الله الحوثية، الأربعاء، استهداف مطار الملك خالد في العاصمة السعودية الرياض، بعدما أعلنت السعودية اعتراض صاروخ باليستي في شمال العاصمة، فيما استهدف صاروخان أطلقهما الحوثيون مطار عدن الدولي جنوب اليمن، من دون تسجيل إصابات، وفق السلطات اليمنية. وقال المتحدث باسم…",
-        "source": {
-          "id": "almada",
-          "name": "Al-Mada"
-        },
-        "sourceCountry": "IQ",
-        "language": "ar",
-        "publishedAt": "2026-10-07T11:14:10.000Z",
-        "imageUrl": null,
-        "countryCode": "IQ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:14:10.000Z"
-    },
-    {
-      "id": "-qfE6zK8k6ra",
-      "representative": {
-        "id": "-qfE6zK8k6ra",
-        "url": "https://almasalah.com/archives/142953",
-        "canonicalUrl": "https://almasalah.com/archives/142953",
-        "title": "الفائزون بجائزة نوبل للكيمياء في الأعوام العشرة الأخيرة",
-        "description": "7 أكتوبر، 2026 بغداد/المسلة: في ما يأتي لائحة بأسماء الفائزين بجائزة نوبل للكيمياء خلال الأعوام...",
-        "source": {
-          "id": "almasalah",
-          "name": "Al-Masalah"
-        },
-        "sourceCountry": "IQ",
-        "language": "ar",
-        "publishedAt": "2026-10-07T10:52:21.000Z",
-        "imageUrl": "https://almasalah.com/wp-content/uploads/2023/10/135-141930-nobel-prize-chemistry-2023_700x400.jpg",
-        "countryCode": "IQ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:52:21.000Z"
-    },
-    {
-      "id": "LbkwCqCjZahh",
-      "representative": {
-        "id": "LbkwCqCjZahh",
-        "url": "https://www.iraqinews.com/iraq/us-dollar-surges-past-170000-iqd-iraq-exchanges-october-7-2026/",
-        "canonicalUrl": "https://www.iraqinews.com/iraq/us-dollar-surges-past-170000-iqd-iraq-exchanges-october-7-2026/",
-        "title": "US dollar surges past 180,000 IQD amid parallel market disruption",
-        "description": "Baghdad (IraqiNews.com) – Parallel currency exchanges across Iraq experienced severe disruption and sharp price swings on Wednesday, October 7, 2026, after the federal government abruptly modified the official exchange rate […] The post US dollar surges past 180,000 IQD amid parallel market…",
-        "source": {
-          "id": "iraqinews",
-          "name": "Iraqi News"
-        },
-        "sourceCountry": "IQ",
-        "language": "en",
-        "publishedAt": "2026-10-07T09:38:32.000Z",
-        "imageUrl": null,
-        "countryCode": "IQ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:38:32.000Z"
-    },
-    {
-      "id": "h31F66JFuVOG",
-      "representative": {
-        "id": "h31F66JFuVOG",
-        "url": "https://almasalah.com/archives/142950",
-        "canonicalUrl": "https://almasalah.com/archives/142950",
-        "title": "نواب: ارتفاع الدولار يكسر ظهر المواطن الفقير.. من المسؤول عن انهيار الثقة بالدينار؟",
-        "description": "7 أكتوبر، 2026 بغداد/المسلة: المسلة – متابعة – وكالات النص الذي يتضمن اسم...",
-        "source": {
-          "id": "almasalah",
-          "name": "Al-Masalah"
-        },
-        "sourceCountry": "IQ",
-        "language": "ar",
-        "publishedAt": "2026-10-07T08:30:07.000Z",
-        "imageUrl": "https://almasalah.com/wp-content/uploads/2026/10/HUAu1IhWgAARsYX.jpeg",
-        "countryCode": "IQ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T08:30:07.000Z"
-    },
-    {
-      "id": "lhBYjjXz1HwC",
-      "representative": {
-        "id": "lhBYjjXz1HwC",
-        "url": "https://baghdadtoday.news/306427-.html",
-        "canonicalUrl": "https://baghdadtoday.news/306427-.html",
-        "title": "غرفة تجارة بغداد تحذر من انعكاسات تعديل سعر الصرف على الأسواق",
-        "description": "بغداد اليوم - بغداد حذرت غرفة تجارة بغداد، اليوم الأربعاء، من انعكاسات قرار تعديل سعر صرف الدينار العراقي مقابل الدولار على حركة الأسواق والنشاط التجاري والاقتصادي في البلاد، داعية إلى دراسة آثاره وتوفير إجراءات انتقالية واضحة للقطاع التجاري. وذكرت الغرفة في بيان، تلقته \"بغداد اليوم\"، أن أي تغيير…",
+        "id": "zqAzIp6IiD_q",
+        "url": "https://baghdadtoday.news/306403-.html",
+        "canonicalUrl": "https://baghdadtoday.news/306403-.html",
+        "title": "النزاهـة تضبط سبعة متهمين بالرشـوة والاحتـيال في عدد من دوائر بغداد",
+        "description": "بغداد اليوم - بغداد أعلنت هيئة النزاهة الاتحادية، اليوم الثلاثاء، تنفيذ 3 عمليات ضبط أسفرت عن الإطاحة بـ7 متهمين متلبسين بتسلّم الرشى والاحتيال في عدد من دوائر محافظة بغداد. وذكرت الهيئة في بيان تلقته \"بغداد اليوم\"، أن فريقاً من قسم التحري والضبط في مديرية تحقيق بغداد نصب كميناً محكماً، وتمكن من…",
         "source": {
           "id": "baghdadtoday",
           "name": "Baghdad Today"
         },
         "sourceCountry": "IQ",
         "language": "ar",
-        "publishedAt": "2026-10-07T11:03:07.000Z",
+        "publishedAt": "2026-10-06T10:49:23.000Z",
         "imageUrl": null,
         "countryCode": "IQ",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:03:07.000Z"
+      "latestPublishedAt": "2026-10-06T10:49:23.000Z"
     },
     {
-      "id": "kjqey-J0jvPA",
+      "id": "pYUtPBYKMu7P",
       "representative": {
-        "id": "kjqey-J0jvPA",
-        "url": "https://almadapaper.net/455867/",
-        "canonicalUrl": "https://almadapaper.net/455867/",
-        "title": "أربيل تشدد الرقابة على الأسواق وتمنع استغلال تعديل سعر الصرف",
-        "description": "أربيل/المدى وجّه قائممقام أربيل، نبز عبد الحميد، تحذيراً شديد اللهجة إلى التجار وأصحاب المحال والأسواق، مؤكداً أن اللجان الرقابية بدأت حملات تفتيش مكثفة ولن تسمح باستغلال قرار تعديل سعر صرف الدولار لرفع أسعار السلع والبضائع، ومشدداً على حظر زيادة أسعار أي مواد تم شراؤها سابقاً. وقال نبز عبد…",
+        "id": "pYUtPBYKMu7P",
+        "url": "https://baghdadtoday.news/306402-2027.html",
+        "canonicalUrl": "https://baghdadtoday.news/306402-2027.html",
+        "title": "الدولار يواصل الارتفاع في بغداد وسط ترقب لتغيير سعر الصرف في موازنة 2027",
+        "description": "بغداد اليوم - بغداد سجلت أسعار صرف الدولار في سوق بغداد، اليوم الثلاثاء، نحو 162 ألف دينار لكل 100 دولار، فيما تشهد الأسواق عزوفاً عن بيع العملة، مع وصول سعر البيع إلى 164 ألف دينار مقابل 161 ألفاً للشراء. وقال مراسلنا في بغداد إن حركة التداول تشهد ترقباً في الأسواق، بالتزامن مع تداول تسريبات بشأن…",
         "source": {
-          "id": "almada",
-          "name": "Al-Mada"
+          "id": "baghdadtoday",
+          "name": "Baghdad Today"
         },
         "sourceCountry": "IQ",
         "language": "ar",
-        "publishedAt": "2026-10-07T10:21:48.000Z",
+        "publishedAt": "2026-10-06T10:43:30.000Z",
         "imageUrl": null,
         "countryCode": "IQ",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:21:48.000Z"
+      "latestPublishedAt": "2026-10-06T10:43:30.000Z"
+    },
+    {
+      "id": "d_aekDXLDHdH",
+      "representative": {
+        "id": "d_aekDXLDHdH",
+        "url": "https://baghdadtoday.news/306401-136.html",
+        "canonicalUrl": "https://baghdadtoday.news/306401-136.html",
+        "title": "العدل تعلن إطلاق سراح 136 حدثاً خلال أيلول",
+        "description": "بغداد اليوم - بغداد أعلنت وزارة العدل، اليوم الثلاثاء، إطلاق سراح 136 حدثاً من دائرة إصلاح الأحداث خلال شهر أيلول 2026، وفقاً للإجراءات والقرارات القانونية والقضائية النافذة. وذكرت الوزارة في بيان تلقته \"بغداد اليوم\"، أن عدد الموقوفين المفرج عنهم بلغ 5 أحداث، فيما تمت تخلية سبيل 24 حدثاً بعد…",
+        "source": {
+          "id": "baghdadtoday",
+          "name": "Baghdad Today"
+        },
+        "sourceCountry": "IQ",
+        "language": "ar",
+        "publishedAt": "2026-10-06T10:01:22.000Z",
+        "imageUrl": null,
+        "countryCode": "IQ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:01:22.000Z"
+    },
+    {
+      "id": "tmz9W4mzcBvR",
+      "representative": {
+        "id": "tmz9W4mzcBvR",
+        "url": "https://baghdadtoday.news/306400-.html",
+        "canonicalUrl": "https://baghdadtoday.news/306400-.html",
+        "title": "المالية النيابية تكشف تفاصيل الاحتياطي النفطي وكلفة التصدير عبر هرمز",
+        "description": "بغداد اليوم - بغداد أكدت اللجنة المالية النيابية، اليوم الثلاثاء، على تأمين رواتب الموظفين ووجود احتياطي للبنك المركزي يغطي العجز، موضحاً أن الوضع الاقتصادي في تحسن، ونسب تصدير النفط وبيعه جيدة. وقالت عضو اللجنة المالية النيابية اخلاص الدليمي في تصريح صحفي تابعته \"بغداد اليوم\": إن \"اجتماعات رئيس…",
+        "source": {
+          "id": "baghdadtoday",
+          "name": "Baghdad Today"
+        },
+        "sourceCountry": "IQ",
+        "language": "ar",
+        "publishedAt": "2026-10-06T09:11:03.000Z",
+        "imageUrl": null,
+        "countryCode": "IQ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:11:03.000Z"
+    },
+    {
+      "id": "rCRJCKHenTdr",
+      "representative": {
+        "id": "rCRJCKHenTdr",
+        "url": "https://baghdadtoday.news/306399-.html",
+        "canonicalUrl": "https://baghdadtoday.news/306399-.html",
+        "title": "النفط يوقع عقداً للمسح الزلزالي في حقلي ساسان وعلان بنينوى",
+        "description": "بغداد اليوم - بغداد رعى وزير النفط باسم محمد خضير العبادي، اليوم الثلاثاء، توقيع عقد بين شركة الاستكشافات النفطية وشركة كار العراقية لتنفيذ المسوحات الزلزالية ثنائية وثلاثية الأبعاد في حقلي ساسان وعلان بمحافظة نينوى. وأكد العبادي في بيان تلقته \"بغداد اليوم\"، حرص الوزارة على تنفيذ خططها…",
+        "source": {
+          "id": "baghdadtoday",
+          "name": "Baghdad Today"
+        },
+        "sourceCountry": "IQ",
+        "language": "ar",
+        "publishedAt": "2026-10-06T09:03:05.000Z",
+        "imageUrl": null,
+        "countryCode": "IQ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:03:05.000Z"
+    },
+    {
+      "id": "e9oCe8Qy09Wq",
+      "representative": {
+        "id": "e9oCe8Qy09Wq",
+        "url": "https://baghdadtoday.news/306398-3.html",
+        "canonicalUrl": "https://baghdadtoday.news/306398-3.html",
+        "title": "3 مصابين في هجومين على مطاري جازان ونجران جنوبي السعودية",
+        "description": "بغداد اليوم - بغداد أعلنت الهيئة العامة للطيران المدني في السعودية، الثلاثاء، تعرض مطار الملك عبد الله بن عبد العزيز الدولي في جازان، ومطار نجران الدولي، جنوبي المملكة، لاعتداءين استهدفا مرافقهما، مساء الإثنين. وأوضح بيان للهيئة أن \"فرق الطوارئ والجهات المختصة باشرت التعامل مع الاعتداءين فور…",
+        "source": {
+          "id": "baghdadtoday",
+          "name": "Baghdad Today"
+        },
+        "sourceCountry": "IQ",
+        "language": "ar",
+        "publishedAt": "2026-10-06T08:42:09.000Z",
+        "imageUrl": null,
+        "countryCode": "IQ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:42:09.000Z"
     }
   ]
 }

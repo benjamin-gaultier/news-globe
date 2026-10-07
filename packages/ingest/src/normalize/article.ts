@@ -96,6 +96,43 @@ const NOT_NEWS: RegExp[] = [
   // "3. Liga live: … | Stream & TV", "Podcast \"Feel Hamburg\" …", "Anzeige: …".
   /(?:\bverlost (?:tickets|karten|freikarten)\b|\bgewinnspiel\b|\bgewinnzahlen\b|spielen sie um geld|\|\s*stream & tv$|^podcast\s*["„]|morgen-podcast\b)/i,
   /^\s*[[(]?(?:anzeige|werbung|sponsored)(?![a-zà-ÿ])/i,
+  // US local outlets' feeds carry recurring segments next to stories.
+  // Forecasts: "Michigan Weather: …", "Q2 Billings Area Forecast: …", "Wednesday's weather: …",
+  // "Weather Eye: …", "Your Mississippi forecast for Wednesday, October 7", "Maui Surf Forecast for …", "LIVE RADAR: …".
+  /^[\w.'’ -]{0,30}?\b(?:weather|forecast|weather forecast|weather eye)\s*:/i,
+  /^(?:your )?[\w.'’ -]{0,30}?\bforecast for (?:(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday|today|tonight|january|february|march|april|may|june|july|august|september|october|november|december)\b)/i,
+  /^live radar\b/i,
+  // Newscasts and daily briefings: "NHPR morning newscast for …", "WHYY Newscast for Tuesday 5:00 p.m.",
+  // "Newscast – Monday, Oct. 5, 2026", "Tuesday Morning Headlines: …", "Morning Headlines with … 10/7/26",
+  // "Morning Update: What you need to know in Maine today", "Tuesday open line".
+  /^(?:[\w ]{0,25} )?newscast\b/i,
+  /^(?:(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday) )?morning (?:headlines|update|digest)\b/i,
+  /^(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday) open line$/i,
+  // Opinion and letters: "OPINION: …", "Opinion | …", "Op-Ed: …", "Letter to the editor: …", "LETTER: …",
+  // "MY TURN: …", "Counterpoint: …", "Public Editor: …", "Editorial endorsement November 2026: …", "… (opinion)".
+  /^(?:opinion|op-ed|letters?(?: to the editor)?|my turn|counterpoint|public editor|editorial(?: endorsement)?[^:|]{0,20})\s*[:|]/i,
+  /\(opinion\)$/i,
+  // Obituaries and notices: "Obituary: …", "Obituaries: Cundy; Frausto; …", "Death Notices for Oct. 3, 2026",
+  // "Weekly Death Notices (…)", "Vital Statistics for …", "Sweetwater County Arrest Report for …".
+  /^(?:obituary|obituaries)\s*:/i,
+  /^(?:weekly )?(?:death notices|vital statistics)\b/i,
+  /\barrest report for\b/i,
+  // Lottery draws: "Mega Millions numbers for …", "Powerball numbers: …".
+  /^(?:mega millions|powerball)(?: numbers)?\b/i,
+  // Listings and fixed features: "16 things to do around D.C. this weekend", "Your Monday, Oct. 5 Guide: …",
+  // "… and other Lehigh County restaurant inspections for …", "Photo Gallery: …", "Talk of Delmarva Picture of the Day",
+  // "Talk of Delmarva Fishing Report 10/07/26", "Editorial cartoons for …", "Word Search: …",
+  // "West Eugene Community Newsletter for …", "Weekend Entertainment Roundup for …".
+  /\bthings to do (?:in|around|this)\b/i,
+  /\brestaurant inspections(?: for\b|:)/i,
+  /^(?:photo gallery|word search)\s*:/i,
+  /\b(?:picture of the day|fishing report \d{1,2}\/\d{1,2}\/\d{2,4})$/i,
+  /^(?:editorial cartoons for|cartoon$|daily poll$)/i,
+  /\b(?:community newsletter|entertainment roundup) for\b/i,
+  /question of the day!?$/i,
+  // Podcast episodes: "PODCAST: …", "Nashvillager Podcast: …", "… | Banner Ravens Podcast".
+  /^[\w’' ]{0,30}?\bpodcast\s*:/i,
+  /\|\s*[^|]{0,40}\bpodcast$/i,
 ];
 
 /**
@@ -104,6 +141,27 @@ const NOT_NEWS: RegExp[] = [
  */
 export function isNotNews(title: string): boolean {
   return NOT_NEWS.some((re) => re.test(title.trim()));
+}
+
+/**
+ * Drop republished copies: the same headline from another outlet, as when a
+ * public radio station reruns a partner nonprofit's story (CT Mirror on CT
+ * Public, Spotlight PA on WESA). The earliest copy, usually the original, is
+ * kept. Without this a single story counts as covered by several outlets.
+ * Titles are compared ignoring case, punctuation and spacing.
+ */
+export function dropRepublished(articles: Article[]): Article[] {
+  const key = (title: string) => title.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const first = new Map<string, Article>();
+  for (const a of articles) {
+    const k = key(a.title);
+    const seen = first.get(k);
+    if (!seen || Date.parse(a.publishedAt) < Date.parse(seen.publishedAt)) first.set(k, a);
+  }
+  return articles.filter((a) => {
+    const original = first.get(key(a.title))!;
+    return original === a || original.source.id === a.source.id;
+  });
 }
 
 /** Exact dedupe on canonical URL; the first occurrence wins. */

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BD",
   "countryName": "Bangladesh",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "FVlUW52scE-5",
@@ -188,48 +188,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:26:35.000Z"
-    },
-    {
-      "id": "ITCG74aEqlDw",
-      "representative": {
-        "id": "ITCG74aEqlDw",
-        "url": "https://www.prothomalo.com/bangladesh/mic2aesdn3",
-        "canonicalUrl": "https://www.prothomalo.com/bangladesh/mic2aesdn3",
-        "title": "বাংলাদেশে জার্মানির লুফথানসার বিনিয়োগ চায় সরকার",
-        "description": null,
-        "source": {
-          "id": "prothomalo",
-          "name": "Prothom Alo"
-        },
-        "sourceCountry": "BD",
-        "language": "bn",
-        "publishedAt": "2026-10-06T15:10:10.000Z",
-        "imageUrl": "https://media.prothomalo.com/prothomalo-bangla/2026-10-06/adoqdslg/Airbus2.jpg",
-        "countryCode": "BD",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "vAn48z4vX7j6",
-          "url": "https://www.banglatribune.com/others/972800/%E0%A6%8F%E0%A6%AD%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%B6%E0%A6%A8-%E0%A6%B9%E0%A6%BE%E0%A6%AC-%E0%A6%97%E0%A7%9C%E0%A6%A4%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%AB%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97-%E0%A6%9A%E0%A6%BE%E0%A7%9F-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0",
-          "canonicalUrl": "https://www.banglatribune.com/others/972800/%E0%A6%8F%E0%A6%AD%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%B6%E0%A6%A8-%E0%A6%B9%E0%A6%BE%E0%A6%AC-%E0%A6%97%E0%A7%9C%E0%A6%A4%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%AB%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97-%E0%A6%9A%E0%A6%BE%E0%A7%9F-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0",
-          "title": "এভিয়েশন হাব গড়তে লুফথানসার বিনিয়োগ চায় সরকার",
-          "description": "বেসামরিক বিমান পরিবহন ও পর্যটনমন্ত্রী এম রশিদুজ্জামান মিল্লাতের সঙ্গে সৌজন্য সাক্ষাৎ করেছেন বাংলাদেশে নিযুক্ত জার্মান রাষ্ট্রদূত রুডিগার লটজের নেতৃত্বে ইউরোপের শীর্ষস্থানীয় প্রধান বিমানসংস্থা লুফথানসার একটি প্রতিনিধিদল। মঙ্গলবার (৬ অক্টোবর) সকালে মন্ত্রণালয়ে মন্ত্রীর অফিস কক্ষে এ সাক্ষাৎ অনুষ্ঠিত…",
-          "source": {
-            "id": "banglatribune",
-            "name": "Bangla Tribune"
-          },
-          "sourceCountry": "BD",
-          "language": "bn",
-          "publishedAt": "2026-10-06T13:22:20.000Z",
-          "imageUrl": "https://cdn.banglatribune.net/contents/cache/images/300x300x1/uploads/media/2026/10/06/54222f46d9697b6a76c270dcbe4bc023-6ac4f5d81cf6b.jpg?jadewits_media_id=1047761",
-          "countryCode": "BD",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:10:10.000Z"
     },
     {
       "id": "oV5llSQMK6IX",
@@ -470,6 +428,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T17:58:44.000Z"
+    },
+    {
+      "id": "vaLzQENk1yvB",
+      "representative": {
+        "id": "vaLzQENk1yvB",
+        "url": "https://www.banglatribune.com/lifestyle/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF/972859/%E0%A6%AF%E0%A7%87-%E0%A6%AD%E0%A7%9F-%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%A5%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A7%87%E0%A6%9F%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%AF%E0%A7%87%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87",
+        "canonicalUrl": "https://www.banglatribune.com/lifestyle/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF/972859/%E0%A6%AF%E0%A7%87-%E0%A6%AD%E0%A7%9F-%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%A5%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A7%87%E0%A6%9F%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%AF%E0%A7%87%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87",
+        "title": "যে ভয় আপনাকে থামিয়ে দিচ্ছে, সেটি কাটাবেন যেভাবে",
+        "description": "রাতের বেলা হঠাৎ দরজায় শব্দ। বুক ধড়ফড় করছে। মনে হচ্ছে, কিছু একটা ঘটতে যাচ্ছে। অথচ একটু পর দেখা গেল—জানালায় বাতাসের ধাক্কা ছাড়া কিছুই নয়। আবার এমনও হয়, নতুন অফিসে প্রথম দিন ঢোকার আগে একই রকম বুক ধড়ফড়ানি। অচেনা মানুষের সামনে কথা বলার সময় হাত ঘেমে যায়। নতুন কিছু শুরু করার আগে মনে হয়, ‘যদি না পারি?’…",
+        "source": {
+          "id": "banglatribune",
+          "name": "Bangla Tribune"
+        },
+        "sourceCountry": "BD",
+        "language": "bn",
+        "publishedAt": "2026-10-06T17:52:45.000Z",
+        "imageUrl": "https://cdn.banglatribune.net/contents/cache/images/300x300x1/uploads/media/2026/10/06/646df44eb45354d9f095959182fdccfa-6ac534c818ae4.jpg?jadewits_media_id=1047809",
+        "countryCode": "BD",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:52:45.000Z"
     }
   ]
 }

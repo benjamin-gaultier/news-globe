@@ -2,8 +2,248 @@
   "schemaVersion": 1,
   "countryCode": "PL",
   "countryName": "Poland",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
+    {
+      "id": "xh0fM2vqo3h1",
+      "representative": {
+        "id": "xh0fM2vqo3h1",
+        "url": "https://energia.rp.pl/ropa/art45260051-16-firm-padlo-w-zaledwie-30-dni-wysokie-ceny-diesla-uderzaja-w-branze-transportowa-usa",
+        "canonicalUrl": "https://energia.rp.pl/ropa/art45260051-16-firm-padlo-w-zaledwie-30-dni-wysokie-ceny-diesla-uderzaja-w-branze-transportowa-usa",
+        "title": "16 firm padło w zaledwie 30 dni. Wysokie ceny diesla uderzają w branżę transportową USA",
+        "description": "Wzrost cen oleju napędowego doprowadził do fali bankructw w amerykańskim sektorze transportowym. Jak informuje serwis The Drive, w ciągu zaledwie miesiąca wniosek o ochronę przed upadłością złożyło aż 16 firm przewozowych.",
+        "source": {
+          "id": "rp",
+          "name": "Rzeczpospolita"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:40:09.000Z",
+        "imageUrl": "https://i.gremicdn.pl/image/free/b8183517cab423c088a5297b6641f93c/?t=crop:3000:1311:nowe:0:344,resize:fill:600:300,enlarge:1",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:40:09.000Z"
+    },
+    {
+      "id": "6s8hcD3k-1cT",
+      "representative": {
+        "id": "6s8hcD3k-1cT",
+        "url": "https://cyfrowa.rp.pl/ai/art45258841-koniec-calkowicie-darmowego-gemini-dla-kazdego-google-zmienia-zasady-juz-za-3-dni",
+        "canonicalUrl": "https://cyfrowa.rp.pl/ai/art45258841-koniec-calkowicie-darmowego-gemini-dla-kazdego-google-zmienia-zasady-juz-za-3-dni",
+        "title": "Koniec całkowicie darmowego Gemini dla każdego. Google zmienia zasady już za 3 dni",
+        "description": "Od 9 października użytkownicy Gemini, którzy nie posiadają abonamentu, stracą dostęp do zaawansowanych modeli sztucznej inteligencji. Do bezpłatnego użytku pozostanie im jedynie wersja Flash-Lite. Korzystanie z bardziej zaawansowanych modeli będzie wiązało się z koniecznością wykupienia subskrypcji.",
+        "source": {
+          "id": "rp",
+          "name": "Rzeczpospolita"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:39:00.000Z",
+        "imageUrl": "https://i.gremicdn.pl/image/free/9fbddc5f875cd0d5488ed0ec9ce07367/?t=resize:fill:600:300,enlarge:1",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:39:00.000Z"
+    },
+    {
+      "id": "bUchyFsepK2c",
+      "representative": {
+        "id": "bUchyFsepK2c",
+        "url": "https://wyborcza.pl/7,75399,33063133,niemcy-maja-pierwszego-szefa-landtagu-z-afd-czy-kandydat-skrajnej.html",
+        "canonicalUrl": "https://wyborcza.pl/7,75399,33063133,niemcy-maja-pierwszego-szefa-landtagu-z-afd-czy-kandydat-skrajnej.html",
+        "title": "Niemcy mają pierwszego szefa landtagu z AfD. Czy kandydat skrajnej prawicy zostanie premierem?",
+        "description": "Niemcy coraz bardziej się radykalizują. Rządzenie bez pomocy skrajnej prawicy lub lewicy jest coraz trudniejsze. Saksonia-Anhalt może mieć wkrótce pierwszego premiera, należącego do AfD.",
+        "source": {
+          "id": "wyborcza",
+          "name": "Gazeta Wyborcza"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:39:00.000Z",
+        "imageUrl": null,
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:39:00.000Z"
+    },
+    {
+      "id": "wdBRM4_lW9NJ",
+      "representative": {
+        "id": "wdBRM4_lW9NJ",
+        "url": "https://www.rmf24.pl/fakty/swiat/news-zelenski-o-nadchodzacym-ataku-rosji-dzis-otrzymalismy-inform,nIdn,1020698",
+        "canonicalUrl": "https://www.rmf24.pl/fakty/swiat/news-zelenski-o-nadchodzacym-ataku-rosji-dzis-otrzymalismy-inform,nIdn,1020698",
+        "title": "Zełenski o nadchodzącym ataku Rosji: Dziś otrzymaliśmy informacje",
+        "description": "Zełenski o nadchodzącym ataku Rosji: Dziś otrzymaliśmy informacje",
+        "source": {
+          "id": "rmf24",
+          "name": "RMF24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:39:00.000Z",
+        "imageUrl": "https://rmf.rmffm.pl/news/attachments/8e/13/imago-stock-and-people-636x421-8e13c8c4.jpg",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:39:00.000Z"
+    },
+    {
+      "id": "tLxLRdj4wVWy",
+      "representative": {
+        "id": "tLxLRdj4wVWy",
+        "url": "https://wiadomosci.wp.pl/spiecie-na-konferencji-tak-szlapka-odpowiedzial-tv-republice-7337125773316673v",
+        "canonicalUrl": "https://wiadomosci.wp.pl/spiecie-na-konferencji-tak-szlapka-odpowiedzial-tv-republice-7337125773316673v",
+        "title": "Spięcie na konferencji. Tak Szłapka odpowiedział TV Republice",
+        "description": "Spięcie podczas konferencji rzecznika rządu. Adam Szłapka nie odpowiedział wprost na pytanie dziennikarza TV Republika, które dotyczyło działań rządu. Polityk KO wytknął stacji brak wiarygodności. - Wy nawet chyba prognozy pogody nie podajecie prawdziwej - zgryźliwie skomentował Szłapka.",
+        "source": {
+          "id": "wp",
+          "name": "Wirtualna Polska"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:35:10.000Z",
+        "imageUrl": "https://i.wpimg.pl/308x/wptv-upload-api.wphcdn.cloud/521b849a-867e-4875-bac2-517b5166a5cb.jpg",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:35:10.000Z"
+    },
+    {
+      "id": "hGmfAN5jWrfU",
+      "representative": {
+        "id": "hGmfAN5jWrfU",
+        "url": "https://www.rp.pl/polityka/art45259541-odeslali-odznaczenia-karolowi-nawrockiemu-na-liscie-jest-14-osob",
+        "canonicalUrl": "https://www.rp.pl/polityka/art45259541-odeslali-odznaczenia-karolowi-nawrockiemu-na-liscie-jest-14-osob",
+        "title": "Odesłali odznaczenia Karolowi Nawrockiemu. Na liście jest 14 osób",
+        "description": "W trakcie pierwszego roku urzędowania Karola Nawrockiego na zwrot przyznanego odznaczenia zdecydowało się łącznie 14 osób – informuje portal Gazeta.pl. To oficjalne dane przekazane przez Kancelarię Prezydenta.",
+        "source": {
+          "id": "rp",
+          "name": "Rzeczpospolita"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:34:12.000Z",
+        "imageUrl": "https://i.gremicdn.pl/image/free/aa6f368a94a77430658d17b8c0bd1ac3/?t=resize:fill:600:300,enlarge:1",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:34:12.000Z"
+    },
+    {
+      "id": "vOSvHcRA1HsJ",
+      "representative": {
+        "id": "vOSvHcRA1HsJ",
+        "url": "https://tvn24.pl/tvnwarszawa/okolice/od-poniedzialku-12-pazdziernika-testy-syren-w-wojewodztwie-mazowieckim-st9272563?source=rss",
+        "canonicalUrl": "https://tvn24.pl/tvnwarszawa/okolice/od-poniedzialku-12-pazdziernika-testy-syren-w-wojewodztwie-mazowieckim-st9272563?source=rss",
+        "title": "W poniedziałek uruchomią syreny alarmowe",
+        "description": "Od poniedziałku, 12 października, przez pięć dni odbywać się będą ćwiczenia pod kryptonimem Syrena-26. Z tego powodu na terenie województwa mazowieckiego mieszkańcy usłyszą syreny alarmowe.",
+        "source": {
+          "id": "tvn24",
+          "name": "TVN24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:33:31.000Z",
+        "imageUrl": "https://tvn24.pl/najnowsze/cdn-zdjecie-syrena-alarmowa-w-centrum-warszawy-ph9151275/alternates/LANDSCAPE_1280",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:33:31.000Z"
+    },
+    {
+      "id": "QH6KnY5cCw9v",
+      "representative": {
+        "id": "QH6KnY5cCw9v",
+        "url": "https://tvn24.pl/biznes/tech/tyle-zarabia-szef-giganta-ai-st9272460?source=rss",
+        "canonicalUrl": "https://tvn24.pl/biznes/tech/tyle-zarabia-szef-giganta-ai-st9272460?source=rss",
+        "title": "Tyle zarabia szef giganta AI",
+        "description": "Szef firmy Anthropic Dario Amodei otrzymał w 2025 roku wynagrodzenie o łącznej wartości 18 milionów dolarów. Większość tej kwoty stanowiły akcje i opcje. Spółka przygotowuje się do debiutu giełdowego.",
+        "source": {
+          "id": "tvn24",
+          "name": "TVN24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:30:23.000Z",
+        "imageUrl": "https://tvn24.pl/najnowsze/cdn-zdjecie-4299579-dario-amodei-prezes-firmy-anthropic-najwiekszej-konkurentki-openai-ph8932706/alternates/LANDSCAPE_1280",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:30:23.000Z"
+    },
+    {
+      "id": "zAtCga4_7ZuM",
+      "representative": {
+        "id": "zAtCga4_7ZuM",
+        "url": "https://wiadomosci.onet.pl/swiat/francja-wystrzelila-nowy-pocisk-jadrowy-emmanuel-macron-pokazal-nagranie/dc050ht",
+        "canonicalUrl": "https://wiadomosci.onet.pl/swiat/francja-wystrzelila-nowy-pocisk-jadrowy-emmanuel-macron-pokazal-nagranie/dc050ht",
+        "title": "Francja wystrzeliła nowy pocisk jądrowy. Emmanuel Macron pokazał nagranie",
+        "description": "\"Aby być wolnym, musisz budzić strach\" — napisał francuski prezydent w komentarzu do nagrania pokazującego wystrzelenie najnowszego francuskiego pocisku z głowicą termojądrową.",
+        "source": {
+          "id": "onet",
+          "name": "Onet"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:29:25.000Z",
+        "imageUrl": "https://cdn.wiadomosci.onet.pl/1/Uf5k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9iZWNmMjQ2MDAxYmE0ZGE3ZGZkNDI5ZGE2MDBiNDEwMi5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:29:25.000Z"
+    },
+    {
+      "id": "ZBE03lU0hSdO",
+      "representative": {
+        "id": "ZBE03lU0hSdO",
+        "url": "https://www.polsatnews.pl/wiadomosc/2026-10-06/zurek-o-szczegolach-zatrzymania-menadzerow-orlenu-zwrocil-sie-do-obajtka-jak-krol-slonca/",
+        "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-06/zurek-o-szczegolach-zatrzymania-menadzerow-orlenu-zwrocil-sie-do-obajtka-jak-krol-slonca/",
+        "title": "Władza rozlicza za tanie paliwo? Żurek odpowiada Obajtkowi",
+        "description": "- W okresie wyborczym doszło do bezprawnego zaniżania cen hurtowych paliw - powiedział na wtorkowej konferencji prasowej Waldemar Żurek, komentując sprawę zatrzymania pięciu byłych i obecnych menadżerów Orlenu. Prokurator generalny odniósł się także do słów byłego prezesa spółki Daniela Obajtka…",
+        "source": {
+          "id": "polsatnews",
+          "name": "Polsat News"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:28:00.000Z",
+        "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/i3/i3nb4oijsesencsixi7z9rgtovpg8my6.jpg",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:28:00.000Z"
+    },
     {
       "id": "HXkXRqn6kaw5",
       "representative": {
@@ -93,249 +333,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
+      "outletCount24h": 0,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T13:27:32.000Z"
-    },
-    {
-      "id": "xh0fM2vqo3h1",
-      "representative": {
-        "id": "xh0fM2vqo3h1",
-        "url": "https://energia.rp.pl/ropa/art45260051-16-firm-padlo-w-zaledwie-30-dni-wysokie-ceny-diesla-uderzaja-w-branze-transportowa-usa",
-        "canonicalUrl": "https://energia.rp.pl/ropa/art45260051-16-firm-padlo-w-zaledwie-30-dni-wysokie-ceny-diesla-uderzaja-w-branze-transportowa-usa",
-        "title": "16 firm padło w zaledwie 30 dni. Wysokie ceny diesla uderzają w branżę transportową USA",
-        "description": "Wzrost cen oleju napędowego doprowadził do fali bankructw w amerykańskim sektorze transportowym. Jak informuje serwis The Drive, w ciągu zaledwie miesiąca wniosek o ochronę przed upadłością złożyło aż 16 firm przewozowych.",
-        "source": {
-          "id": "rp",
-          "name": "Rzeczpospolita"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:40:09.000Z",
-        "imageUrl": "https://i.gremicdn.pl/image/free/b8183517cab423c088a5297b6641f93c/?t=crop:3000:1311:nowe:0:344,resize:fill:600:300,enlarge:1",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:40:09.000Z"
-    },
-    {
-      "id": "6s8hcD3k-1cT",
-      "representative": {
-        "id": "6s8hcD3k-1cT",
-        "url": "https://cyfrowa.rp.pl/ai/art45258841-koniec-calkowicie-darmowego-gemini-dla-kazdego-google-zmienia-zasady-juz-za-3-dni",
-        "canonicalUrl": "https://cyfrowa.rp.pl/ai/art45258841-koniec-calkowicie-darmowego-gemini-dla-kazdego-google-zmienia-zasady-juz-za-3-dni",
-        "title": "Koniec całkowicie darmowego Gemini dla każdego. Google zmienia zasady już za 3 dni",
-        "description": "Od 9 października użytkownicy Gemini, którzy nie posiadają abonamentu, stracą dostęp do zaawansowanych modeli sztucznej inteligencji. Do bezpłatnego użytku pozostanie im jedynie wersja Flash-Lite. Korzystanie z bardziej zaawansowanych modeli będzie wiązało się z koniecznością wykupienia subskrypcji.",
-        "source": {
-          "id": "rp",
-          "name": "Rzeczpospolita"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:39:00.000Z",
-        "imageUrl": "https://i.gremicdn.pl/image/free/9fbddc5f875cd0d5488ed0ec9ce07367/?t=resize:fill:600:300,enlarge:1",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:39:00.000Z"
-    },
-    {
-      "id": "bUchyFsepK2c",
-      "representative": {
-        "id": "bUchyFsepK2c",
-        "url": "https://wyborcza.pl/7,75399,33063133,niemcy-maja-pierwszego-szefa-landtagu-z-afd-czy-kandydat-skrajnej.html",
-        "canonicalUrl": "https://wyborcza.pl/7,75399,33063133,niemcy-maja-pierwszego-szefa-landtagu-z-afd-czy-kandydat-skrajnej.html",
-        "title": "Niemcy mają pierwszego szefa landtagu z AfD. Czy kandydat skrajnej prawicy zostanie premierem?",
-        "description": "Niemcy coraz bardziej się radykalizują. Rządzenie bez pomocy skrajnej prawicy lub lewicy jest coraz trudniejsze. Saksonia-Anhalt może mieć wkrótce pierwszego premiera, należącego do AfD.",
-        "source": {
-          "id": "wyborcza",
-          "name": "Gazeta Wyborcza"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:39:00.000Z",
-        "imageUrl": null,
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:39:00.000Z"
-    },
-    {
-      "id": "wdBRM4_lW9NJ",
-      "representative": {
-        "id": "wdBRM4_lW9NJ",
-        "url": "https://www.rmf24.pl/fakty/swiat/news-zelenski-o-nadchodzacym-ataku-rosji-dzis-otrzymalismy-inform,nIdn,1020698",
-        "canonicalUrl": "https://www.rmf24.pl/fakty/swiat/news-zelenski-o-nadchodzacym-ataku-rosji-dzis-otrzymalismy-inform,nIdn,1020698",
-        "title": "Zełenski o nadchodzącym ataku Rosji: Dziś otrzymaliśmy informacje",
-        "description": "Zełenski o nadchodzącym ataku Rosji: Dziś otrzymaliśmy informacje",
-        "source": {
-          "id": "rmf24",
-          "name": "RMF24"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:39:00.000Z",
-        "imageUrl": "https://rmf.rmffm.pl/news/attachments/8e/13/imago-stock-and-people-636x421-8e13c8c4.jpg",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:39:00.000Z"
-    },
-    {
-      "id": "tLxLRdj4wVWy",
-      "representative": {
-        "id": "tLxLRdj4wVWy",
-        "url": "https://wiadomosci.wp.pl/spiecie-na-konferencji-tak-szlapka-odpowiedzial-tv-republice-7337125773316673v",
-        "canonicalUrl": "https://wiadomosci.wp.pl/spiecie-na-konferencji-tak-szlapka-odpowiedzial-tv-republice-7337125773316673v",
-        "title": "Spięcie na konferencji. Tak Szłapka odpowiedział TV Republice",
-        "description": "Spięcie podczas konferencji rzecznika rządu. Adam Szłapka nie odpowiedział wprost na pytanie dziennikarza TV Republika, które dotyczyło działań rządu. Polityk KO wytknął stacji brak wiarygodności. - Wy nawet chyba prognozy pogody nie podajecie prawdziwej - zgryźliwie skomentował Szłapka.",
-        "source": {
-          "id": "wp",
-          "name": "Wirtualna Polska"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:35:10.000Z",
-        "imageUrl": "https://i.wpimg.pl/308x/wptv-upload-api.wphcdn.cloud/521b849a-867e-4875-bac2-517b5166a5cb.jpg",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:35:10.000Z"
-    },
-    {
-      "id": "hGmfAN5jWrfU",
-      "representative": {
-        "id": "hGmfAN5jWrfU",
-        "url": "https://www.rp.pl/polityka/art45259541-odeslali-odznaczenia-karolowi-nawrockiemu-na-liscie-jest-14-osob",
-        "canonicalUrl": "https://www.rp.pl/polityka/art45259541-odeslali-odznaczenia-karolowi-nawrockiemu-na-liscie-jest-14-osob",
-        "title": "Odesłali odznaczenia Karolowi Nawrockiemu. Na liście jest 14 osób",
-        "description": "W trakcie pierwszego roku urzędowania Karola Nawrockiego na zwrot przyznanego odznaczenia zdecydowało się łącznie 14 osób – informuje portal Gazeta.pl. To oficjalne dane przekazane przez Kancelarię Prezydenta.",
-        "source": {
-          "id": "rp",
-          "name": "Rzeczpospolita"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:34:12.000Z",
-        "imageUrl": "https://i.gremicdn.pl/image/free/aa6f368a94a77430658d17b8c0bd1ac3/?t=resize:fill:600:300,enlarge:1",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:34:12.000Z"
-    },
-    {
-      "id": "vOSvHcRA1HsJ",
-      "representative": {
-        "id": "vOSvHcRA1HsJ",
-        "url": "https://tvn24.pl/tvnwarszawa/okolice/od-poniedzialku-12-pazdziernika-testy-syren-w-wojewodztwie-mazowieckim-st9272563?source=rss",
-        "canonicalUrl": "https://tvn24.pl/tvnwarszawa/okolice/od-poniedzialku-12-pazdziernika-testy-syren-w-wojewodztwie-mazowieckim-st9272563?source=rss",
-        "title": "W poniedziałek uruchomią syreny alarmowe",
-        "description": "Od poniedziałku, 12 października, przez pięć dni odbywać się będą ćwiczenia pod kryptonimem Syrena-26. Z tego powodu na terenie województwa mazowieckiego mieszkańcy usłyszą syreny alarmowe.",
-        "source": {
-          "id": "tvn24",
-          "name": "TVN24"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:33:31.000Z",
-        "imageUrl": "https://tvn24.pl/najnowsze/cdn-zdjecie-syrena-alarmowa-w-centrum-warszawy-ph9151275/alternates/LANDSCAPE_1280",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:33:31.000Z"
-    },
-    {
-      "id": "QH6KnY5cCw9v",
-      "representative": {
-        "id": "QH6KnY5cCw9v",
-        "url": "https://tvn24.pl/biznes/tech/tyle-zarabia-szef-giganta-ai-st9272460?source=rss",
-        "canonicalUrl": "https://tvn24.pl/biznes/tech/tyle-zarabia-szef-giganta-ai-st9272460?source=rss",
-        "title": "Tyle zarabia szef giganta AI",
-        "description": "Szef firmy Anthropic Dario Amodei otrzymał w 2025 roku wynagrodzenie o łącznej wartości 18 milionów dolarów. Większość tej kwoty stanowiły akcje i opcje. Spółka przygotowuje się do debiutu giełdowego.",
-        "source": {
-          "id": "tvn24",
-          "name": "TVN24"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:30:23.000Z",
-        "imageUrl": "https://tvn24.pl/najnowsze/cdn-zdjecie-4299579-dario-amodei-prezes-firmy-anthropic-najwiekszej-konkurentki-openai-ph8932706/alternates/LANDSCAPE_1280",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:30:23.000Z"
-    },
-    {
-      "id": "zAtCga4_7ZuM",
-      "representative": {
-        "id": "zAtCga4_7ZuM",
-        "url": "https://wiadomosci.onet.pl/swiat/francja-wystrzelila-nowy-pocisk-jadrowy-emmanuel-macron-pokazal-nagranie/dc050ht",
-        "canonicalUrl": "https://wiadomosci.onet.pl/swiat/francja-wystrzelila-nowy-pocisk-jadrowy-emmanuel-macron-pokazal-nagranie/dc050ht",
-        "title": "Francja wystrzeliła nowy pocisk jądrowy. Emmanuel Macron pokazał nagranie",
-        "description": "\"Aby być wolnym, musisz budzić strach\" — napisał francuski prezydent w komentarzu do nagrania pokazującego wystrzelenie najnowszego francuskiego pocisku z głowicą termojądrową.",
-        "source": {
-          "id": "onet",
-          "name": "Onet"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:29:25.000Z",
-        "imageUrl": "https://cdn.wiadomosci.onet.pl/1/Uf5k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9iZWNmMjQ2MDAxYmE0ZGE3ZGZkNDI5ZGE2MDBiNDEwMi5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:29:25.000Z"
-    },
-    {
-      "id": "ZBE03lU0hSdO",
-      "representative": {
-        "id": "ZBE03lU0hSdO",
-        "url": "https://www.polsatnews.pl/wiadomosc/2026-10-06/zurek-o-szczegolach-zatrzymania-menadzerow-orlenu-zwrocil-sie-do-obajtka-jak-krol-slonca/",
-        "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-06/zurek-o-szczegolach-zatrzymania-menadzerow-orlenu-zwrocil-sie-do-obajtka-jak-krol-slonca/",
-        "title": "Władza rozlicza za tanie paliwo? Żurek odpowiada Obajtkowi",
-        "description": "- W okresie wyborczym doszło do bezprawnego zaniżania cen hurtowych paliw - powiedział na wtorkowej konferencji prasowej Waldemar Żurek, komentując sprawę zatrzymania pięciu byłych i obecnych menadżerów Orlenu. Prokurator generalny odniósł się także do słów byłego prezesa spółki Daniela Obajtka…",
-        "source": {
-          "id": "polsatnews",
-          "name": "Polsat News"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:28:00.000Z",
-        "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/i3/i3nb4oijsesencsixi7z9rgtovpg8my6.jpg",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:28:00.000Z"
     },
     {
       "id": "ErC8BbZEwilu",
@@ -357,33 +357,9 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:21:59.000Z"
-    },
-    {
-      "id": "z_dmIxsNYHwV",
-      "representative": {
-        "id": "z_dmIxsNYHwV",
-        "url": "https://tvn24.pl/tvnmeteo/swiat/nolo-z-huraganu-przeobrazil-sie-w-tajfun-kluczowa-role-odegrala-linia-zmiany-daty-st9271778?source=rss",
-        "canonicalUrl": "https://tvn24.pl/tvnmeteo/swiat/nolo-z-huraganu-przeobrazil-sie-w-tajfun-kluczowa-role-odegrala-linia-zmiany-daty-st9271778?source=rss",
-        "title": "Przekroczył linię zmiany daty i stał się tajfunem. Wędrówka Nolo trwa",
-        "description": "Huragan Nolo stał się tajfunem. Stało się tak dlatego, że żywioł przekroczył linię zmiany daty i wkroczył na zachodnią część Oceanu Spokojnego. Nolo od dłuższego czasu przemieszcza się po tym ogromnym akwenie. W pewnym momencie pojawił się w rejonie Hawajów, gdzie przyniósł ulewy i powodzie.",
-        "source": {
-          "id": "tvn24",
-          "name": "TVN24"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:21:48.000Z",
-        "imageUrl": "https://tvn24.pl/tvnmeteo/najnowsze/cdn-zdjecie-nolo-na-zdjeciu-satelitarnym-z-5-pazdziernika-ph9271954/alternates/LANDSCAPE_1280",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:21:48.000Z"
     },
     {
       "id": "hrwI3pAnJBa7",
@@ -405,7 +381,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:21:47.000Z"
     },
@@ -429,9 +405,33 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:21:00.000Z"
+    },
+    {
+      "id": "DN0oSjWiITtq",
+      "representative": {
+        "id": "DN0oSjWiITtq",
+        "url": "https://wyborcza.pl/7,75399,33062196,francja-trwaja-ogolnokrajowe-protesty-uczniow-zamieszki-w.html",
+        "canonicalUrl": "https://wyborcza.pl/7,75399,33062196,francja-trwaja-ogolnokrajowe-protesty-uczniow-zamieszki-w.html",
+        "title": "Francja: Trwają ogólnokrajowe protesty uczniów. Zamieszki w Lyonie, Strasburgu i Rennes",
+        "description": "W całej Francji protestuje nawet kilkaset tysięcy osób.",
+        "source": {
+          "id": "wyborcza",
+          "name": "Gazeta Wyborcza"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:20:00.000Z",
+        "imageUrl": null,
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:20:00.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "UZ",
   "countryName": "Uzbekistan",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "2QYJr2Z4UeOl",
@@ -87,90 +87,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T14:54:59.000Z"
-    },
-    {
-      "id": "M2QRD1EUxykg",
-      "representative": {
-        "id": "M2QRD1EUxykg",
-        "url": "https://podrobno.uz/cat/politic/lukoyl-planiruet-rasshirit-deyatelnost-v-uzbekistane/",
-        "canonicalUrl": "https://podrobno.uz/cat/politic/lukoyl-planiruet-rasshirit-deyatelnost-v-uzbekistane/",
-        "title": "\"Лукойл\" планирует расширить деятельность в Узбекистане",
-        "description": null,
-        "source": {
-          "id": "podrobno",
-          "name": "Podrobno.uz"
-        },
-        "sourceCountry": "UZ",
-        "language": "ru",
-        "publishedAt": "2026-10-06T13:35:00.000Z",
-        "imageUrl": "https://podrobno.uz/upload/iblock/5e9/z9o0x0hzs2qocrkl0imfnk13dt46lb32/photo_2026_10_06_18_23_58.jpg",
-        "countryCode": "UZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "HqVS6urNLvGq",
-          "url": "https://www.spot.uz/ru/2026/10/06/lukoil/",
-          "canonicalUrl": "https://www.spot.uz/ru/2026/10/06/lukoil/",
-          "title": "«Лукойл» планирует расширить деятельность в Узбекистане",
-          "description": "Шавкат Мирзиёев принял основателя компании Вагита Алекперова, который рассказал о текущим состоянии проектов.",
-          "source": {
-            "id": "spot_uz",
-            "name": "Spot"
-          },
-          "sourceCountry": "UZ",
-          "language": "ru",
-          "publishedAt": "2026-10-06T14:26:00.000Z",
-          "imageUrl": null,
-          "countryCode": "UZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:26:00.000Z"
-    },
-    {
-      "id": "hE3RAeh5U163",
-      "representative": {
-        "id": "hE3RAeh5U163",
-        "url": "https://kun.uz/news/2026/10/06/shavkat-mirziyoyev-rossiyaning-lukoyl-kompaniyasi-asoschisini-qabul-qildi",
-        "canonicalUrl": "https://kun.uz/news/2026/10/06/shavkat-mirziyoyev-rossiyaning-lukoyl-kompaniyasi-asoschisini-qabul-qildi",
-        "title": "Shavkat Mirziyoyev Rossiyaning «Lukoyl» kompaniyasi asoschisini qabul qildi.",
-        "description": "Vagit Alekperov bilan kompaniyaning Oʻzbekistondagi faoliyatini kengaytirish boʻyicha rejalar koʻrib chiqildi..",
-        "source": {
-          "id": "kun_uz",
-          "name": "Kun.uz"
-        },
-        "sourceCountry": "UZ",
-        "language": "uz",
-        "publishedAt": "2026-10-06T13:59:17.000Z",
-        "imageUrl": null,
-        "countryCode": "UZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "o1XOwww24YX1",
-          "url": "https://daryo.uz/2026/10/06/shavkat-mirziyoyev-lukoyl-asoschisi-vagit-alekperovni-qabul-qildi/",
-          "canonicalUrl": "https://daryo.uz/2026/10/06/shavkat-mirziyoyev-lukoyl-asoschisi-vagit-alekperovni-qabul-qildi/",
-          "title": "Shavkat Mirziyoyev Lukoyl asoschisi Vagit Alekperovni qabul qildi",
-          "description": "Uchrashuvda kompaniyaning O‘zbekiston energetika tarmog‘idagi loyihalari va ularni kengaytirish rejalari muhokama qilindi.",
-          "source": {
-            "id": "daryo",
-            "name": "Daryo"
-          },
-          "sourceCountry": "UZ",
-          "language": "uz",
-          "publishedAt": "2026-10-06T13:24:28.000Z",
-          "imageUrl": "https://gocdn.daryo.uz/large/2026/10/06/c4df01b477d53123a6d2036450fbec3a0df44f32c379977b5446e4e7eb067b61.webp",
-          "countryCode": "UZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:59:17.000Z"
     },
     {
       "id": "Sr26kd4A7Yqw",
@@ -435,6 +351,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:30:34.000Z"
+    },
+    {
+      "id": "ULjF5yYlWvXv",
+      "representative": {
+        "id": "ULjF5yYlWvXv",
+        "url": "https://kun.uz/news/2026/10/06/oav-isroil-flydubai-samolyotini-urib-tushirishga-tayyor-bolgan",
+        "canonicalUrl": "https://kun.uz/news/2026/10/06/oav-isroil-flydubai-samolyotini-urib-tushirishga-tayyor-bolgan",
+        "title": "OAV: Isroil Flydubai samolyotini urib tushirishga tayyor boʻlgan.",
+        "description": "Tergovchilarga koʻra, ikkinchi uchuvchi samolyotni Ben-Gurion nomidagi aeroportga yoki Tel-Avivdagi binolardan biriga olib borib urmoqchi boʻlganini tan olgan..",
+        "source": {
+          "id": "kun_uz",
+          "name": "Kun.uz"
+        },
+        "sourceCountry": "UZ",
+        "language": "uz",
+        "publishedAt": "2026-10-06T15:26:24.000Z",
+        "imageUrl": null,
+        "countryCode": "UZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:26:24.000Z"
+    },
+    {
+      "id": "8c6QZekqBHgO",
+      "representative": {
+        "id": "8c6QZekqBHgO",
+        "url": "https://podrobno.uz/cat/podrobno/natskomstat-raskryl-tseli-vizitov-grazhdan-italii-v-uzbekistan/",
+        "canonicalUrl": "https://podrobno.uz/cat/podrobno/natskomstat-raskryl-tseli-vizitov-grazhdan-italii-v-uzbekistan/",
+        "title": "Нацкомстат раскрыл цели визитов граждан Италии в Узбекистан",
+        "description": null,
+        "source": {
+          "id": "podrobno",
+          "name": "Podrobno.uz"
+        },
+        "sourceCountry": "UZ",
+        "language": "ru",
+        "publishedAt": "2026-10-06T15:25:00.000Z",
+        "imageUrl": "https://podrobno.uz/upload/iblock/092/sxdm38p3w7tq3vvs2hozw1skni7tmq8f/1686396598_12345678_1.jpg",
+        "countryCode": "UZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:25:00.000Z"
     }
   ]
 }

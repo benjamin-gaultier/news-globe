@@ -3,7 +3,8 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { RawItem } from '../src/adapters/types';
-import { isMisdecoded, isNotNews, isUnrenderedTemplate } from '../src/normalize/article';
+import { dropRepublished, isMisdecoded, isNotNews, isUnrenderedTemplate } from '../src/normalize/article';
+import { article } from './helpers';
 import { decodeBody, HttpCache } from '../src/http';
 
 const URL_A = 'https://feeds.example/a.xml';
@@ -210,6 +211,46 @@ describe('isNotNews', () => {
       '美国之音中文广播 (2026年10月7日) 沙特石油出口回升',
       'VOA今日焦点 (2026年10月7日) 特朗普总统宣布66亿大型潜艇厂案',
       '《VOA今日焦点》音频',
+      'Michigan Weather: Cold air to settle in, Gale Warnings issued for Great Lakes',
+      'Q2 Billings Area Forecast: The spigot flips from hot to cold for the weekend',
+      'Storm Track 3 Forecast: Cold front brings comfortable, sunny stretch this week',
+      'Wednesday’s weather: Sunny and pleasant, high of 68',
+      'Weather Eye: Pleasant temperatures to remain for most of week ahead',
+      'Your Mississippi forecast for Wednesday, October 7',
+      'Maui Surf Forecast for October 07, 2026',
+      'Weather Forecast for Tuesday, October 6, 2026',
+      'LIVE RADAR: Passing downpours likely again Wednesday',
+      'NHPR morning newscast for Wednesday, Oct. 7, 2026',
+      'WHYY Newscast for Tuesday 5:00 p.m.',
+      'Newscast – Monday, Oct. 5, 2026',
+      'Tuesday Morning Headlines: Baltimore has begun tapping Susquehanna for drinking water',
+      'Morning Update: What you need to know in Maine today',
+      'Tuesday open line',
+      'OPINION: Probation is not a slap on the wrist',
+      'Opinion | Fuel Prices May Rise Higher Still',
+      'Op-Ed: Energy resilience means keeping our options open',
+      'Letter to the editor: Use more solar energy',
+      'MY TURN: More than a lifetime of discovering Southeast Alaska',
+      'Editorial endorsement November 2026: Send Serena Cruz back to Multnomah County for District 2',
+      'Petition launched for a North Valleys’ Fire Safety Plan (opinion)',
+      'Obituary: Stephen Duffy',
+      'Death Notices for Oct. 3, 2026',
+      'Weekly Death Notices (9/26/26–10/3/26)',
+      'Sweetwater County Arrest Report for October 6, 2026',
+      'Mega Millions numbers for Tuesday, Oct. 6, 2026; jackpot $345 million',
+      '16 things to do around D.C. this weekend',
+      'Your Monday, Oct. 5 Guide: Four things to do in the Oil City',
+      'Gnats on pastries, and other Lancaster County restaurant inspections for Sept. 14-20',
+      'Photo Gallery: 34th annual See Spot Walk',
+      'Talk of Delmarva Picture of the Day',
+      'Talk of Delmarva Fishing Report 10/07/26',
+      'Editorial cartoons for Wednesday, October 7',
+      'Cartoon',
+      'West Eugene Community Newsletter for Tuesday, Oct. 6',
+      'Here’s the answer to today’s Question of the Day!',
+      'Nashvillager Podcast: Utopian Tennessee',
+      'Ravens beat Titans, but at what cost? | Banner Ravens Podcast',
+      'Sponsored: Two Weekends. A Whole Lotta Boo.',
     ]) {
       expect(isNotNews(t), t).toBe(true);
     }
@@ -240,8 +281,27 @@ describe('isNotNews', () => {
       'Nordhausen: Nachrichten aus der Stadt und dem Südharz bleiben',
       'Hamas attack anniversary: Israel marks 7 October 2026',
       '美议员促纽黑文大学终止与西安邮电大学合作，称该校与中国军方有关',
+      'Weather service deals with radar issues along Gulf Coast',
+      'Tropical Storm Isaias forms, forecast to become a hurricane and hit the US Gulf Coast this week',
+      'Poll: Maryland voters back open primaries, question congressional map proposal',
+      'Letters show governor knew of contract for months',
+      'An unsentimental obituary for the CCSU polytechnic vanity project',
+      'SFUSD is set to overhaul its enrollment lottery. Nobody can agree on how',
+      'Upper Arlington school podcasters named finalists in NPR’s Student Podcast Challenge',
+      'Detroit Evening Report: Comerica Park receives a new name',
+      'Morning commute snarled after crash on I-95',
     ]) {
       expect(isNotNews(t), t).toBe(false);
     }
+  });
+});
+
+describe('dropRepublished', () => {
+  it("keeps the earliest copy of a headline another outlet reruns, and the outlet's own repeats", () => {
+    const original = article('ctmirror', 'CT effort to support SNAP recipients stalls', '2026-10-07T08:00:00Z');
+    const rerun = article('ctpublic', 'CT effort to support SNAP recipients stalls.', '2026-10-07T10:00:00Z');
+    const other = article('wshu', 'CT lawmakers weigh SNAP backup plan', '2026-10-07T09:00:00Z');
+    const update = article('ctmirror', 'CT Effort to Support SNAP Recipients Stalls', '2026-10-07T11:00:00Z');
+    expect(dropRepublished([rerun, update, other, original])).toEqual([update, other, original]);
   });
 });

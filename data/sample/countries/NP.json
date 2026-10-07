@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "NP",
   "countryName": "Nepal",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "CzZsKiIe9g9b",
@@ -266,48 +266,6 @@
       "latestPublishedAt": "2026-10-06T15:29:06.000Z"
     },
     {
-      "id": "atbmhBsHktJr",
-      "representative": {
-        "id": "atbmhBsHktJr",
-        "url": "https://www.onlinekhabar.com/2026/10/2033734/akhil-krantikari-demands-to-conduct-ayurveda-medical-license-exam",
-        "canonicalUrl": "https://www.onlinekhabar.com/2026/10/2033734/akhil-krantikari-demands-to-conduct-ayurveda-medical-license-exam",
-        "title": "आयुर्वेद चिकित्सा लाइसेन्स परीक्षा सञ्चालन गर्न अखिल क्रान्तिकारीको माग",
-        "description": "अखिल क्रान्तिकारीले लामो समयदेखि स्थगित रहेको आयुर्वेद चिकित्सा लाइसेन्स परीक्षा तत्काल सञ्चालन गर्न माग गरेको छ ।",
-        "source": {
-          "id": "onlinekhabar",
-          "name": "Onlinekhabar"
-        },
-        "sourceCountry": "NP",
-        "language": "ne",
-        "publishedAt": "2026-10-06T13:18:21.000Z",
-        "imageUrl": null,
-        "countryCode": "NP",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "FuFTwQ2iSMXm",
-          "url": "https://www.ratopati.com/story/597750/demand-to-conduct-ayurveda-medical-license-exam-immediately",
-          "canonicalUrl": "https://www.ratopati.com/story/597750/demand-to-conduct-ayurveda-medical-license-exam-immediately",
-          "title": "आयुर्वेद चिकित्सा लाइसेन्स परीक्षा तत्काल सञ्चालन गर्न माग",
-          "description": "काठमाडौँ। ​अखिल नेपाल राष्ट्रिय स्वतन्त्र विद्यार्थी युनियन (क्रान्तिकारी) ले लामो समयदेखि रोकिएको आयुर्वेद चिकित्सा लाइसेन्स परीक्षा तत्काल सञ्चालन गर्न माग गर्दै मंगलबार सम्बन्धित निकायको ध्यानाकर्षण गराएको छ। नेपाल आयुर्वेद चिकित्सा परिषद्को नियमावलीअनुसार प्रत्येक ६-६ महिनामा नियमित",
-          "source": {
-            "id": "ratopati",
-            "name": "Ratopati"
-          },
-          "sourceCountry": "NP",
-          "language": "ne",
-          "publishedAt": "2026-10-06T15:11:25.000Z",
-          "imageUrl": "https://npcdn.ratopati.com/media/news/aayurvedik-council16113155621618319773_xR2sh2xpF1.webp",
-          "countryCode": "NP",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:11:25.000Z"
-    },
-    {
       "id": "XymzdFq0iS4N",
       "representative": {
         "id": "XymzdFq0iS4N",
@@ -522,6 +480,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:54:14.000Z"
+    },
+    {
+      "id": "0wYdg56bbPt0",
+      "representative": {
+        "id": "0wYdg56bbPt0",
+        "url": "https://deshsanchar.com/2026/10/06/1237216/",
+        "canonicalUrl": "https://deshsanchar.com/2026/10/06/1237216/",
+        "title": "कांग्रेस महाधिवेशनः पदाधिकारीमा क–कसको उम्मेदवारी?",
+        "description": "काठमाडौँ – नेपाली कांग्रेसको १५औँ महाधिवेशनमा सभापति पदका लागि तीन...",
+        "source": {
+          "id": "deshsanchar",
+          "name": "Desh Sanchar"
+        },
+        "sourceCountry": "NP",
+        "language": "ne",
+        "publishedAt": "2026-10-06T15:09:03.000Z",
+        "imageUrl": null,
+        "countryCode": "NP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:09:03.000Z"
     }
   ]
 }

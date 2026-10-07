@@ -2,335 +2,175 @@
   "schemaVersion": 1,
   "countryCode": "HN",
   "countryName": "Honduras",
-  "updatedAt": "2026-10-07T12:57:09.368Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
-      "id": "KpCrVLmzRriq",
+      "id": "hkZZpduZMqqC",
       "representative": {
-        "id": "KpCrVLmzRriq",
-        "url": "https://proceso.hn/copeco-extiende-alerta-verde-por-48-horas-en-tres-municipios/",
-        "canonicalUrl": "https://proceso.hn/copeco-extiende-alerta-verde-por-48-horas-en-tres-municipios/",
-        "title": "Copeco extiende Alerta Verde por 48 horas en tres municipios",
-        "description": "La Secretaría de Gestión de Riesgos y Contingencias Nacionales (Copeco) extendió por 48 horas la Alerta Verde para Alianza, Distrito Central y San Pedro Sula. La entrada Copeco extiende Alerta Verde por 48 horas en tres municipios se publicó primero en Proceso Digital .",
+        "id": "hkZZpduZMqqC",
+        "url": "https://proceso.hn/seguro-social-retomara-consultas-medicas-a-nivel-nacional-el-lunes-12-de-octubre/",
+        "canonicalUrl": "https://proceso.hn/seguro-social-retomara-consultas-medicas-a-nivel-nacional-el-lunes-12-de-octubre/",
+        "title": "Seguro Social retomará consultas médicas a nivel nacional el lunes 12 de octubre",
+        "description": "El Instituto Hondureño de Seguridad Social (IHSS) retomará las consultas médicas a nivel nacional el próximo lunes 12 de octubre, luego de que los médicos acordaran reincorporarse a sus labores tras las asambleas informativas, aseguró el presidente de la Asociación de Médicos del IHSS, Ricardo…",
         "source": {
           "id": "proceso",
           "name": "Proceso Digital"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-06T23:01:08.000Z",
+        "publishedAt": "2026-10-06T14:22:37.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "PVCbv5vVbph3",
-          "url": "https://www.hondudiario.com/2026/10/06/copeco-extiende-alerta-verde-en-alianza-distrito-central-y-san-pedro-sula/",
-          "canonicalUrl": "https://www.hondudiario.com/2026/10/06/copeco-extiende-alerta-verde-en-alianza-distrito-central-y-san-pedro-sula/",
-          "title": "Copeco extiende Alerta Verde en Alianza, Distrito Central y San Pedro Sula",
-          "description": "*** Las autoridades pidieron cruzar ríos, quebradas, vados o riachuelos cuando presenten un incremento en su caudal. Atender las instrucciones de las autoridades y de los cuerpos de primera respuesta. La Comisión Permanente de Contingencias (Copeco), extendió por 48 horas más la Alerta Verde en el…",
-          "source": {
-            "id": "hondudiario",
-            "name": "Hondudiario"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-07T00:21:02.000Z",
-          "imageUrl": null,
-          "countryCode": "HN",
-          "regionCode": null
-        },
-        {
-          "id": "CmKCOqLCIcoA",
-          "url": "https://hch.tv/alerta-verde-copeco-mantiene-bajo-vigilancia-a-alianza-distrito-central-y-san-pedro-sula-por-48-horas/",
-          "canonicalUrl": "https://hch.tv/alerta-verde-copeco-mantiene-bajo-vigilancia-a-alianza-distrito-central-y-san-pedro-sula-por-48-horas/",
-          "title": "¡Alerta Verde! COPECO mantiene bajo vigilancia a Alianza, Distrito Central y San Pedro Sula por 48 horas",
-          "description": "Las autoridades de la Secretaría de Gestión de Riesgos y Contingencias Nacionales (COPECO) extendieron por 48 horas la Alerta Verde para Alianza, Valle; Distrito Central, Francisco Morazán; y San Pedro Sula, Cortés, debido a las condiciones lluviosas que podrían generar inundaciones, crecidas de…",
-          "source": {
-            "id": "hch",
-            "name": "HCH"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-06T23:26:07.000Z",
-          "imageUrl": "https://hch.tv/wp-content/uploads/2026/10/UNA-CARA-2.webp",
-          "countryCode": "HN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-07T00:21:02.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:22:37.000Z"
     },
     {
-      "id": "2lAE3HeXiOLK",
+      "id": "d23CaKAHbjK5",
       "representative": {
-        "id": "2lAE3HeXiOLK",
-        "url": "https://proceso.hn/fallece-nino-de-tres-anos-por-dengue-grave-en-tegucigalpa-quinto-caso-en-el-ano/",
-        "canonicalUrl": "https://proceso.hn/fallece-nino-de-tres-anos-por-dengue-grave-en-tegucigalpa-quinto-caso-en-el-ano/",
-        "title": "Fallece niño de tres años por dengue grave en Tegucigalpa; quinto caso en el año",
-        "description": "Un niño de tres años, procedente de la colonia Los Pinos del Distrito Central, falleció a causa de complicaciones derivadas de dengue grave, confirmó el jefe de Pediatría del Instituto Hondureño de Seguridad Social (IHSS), Héctor Carranza. La entrada Fallece niño de tres años por dengue grave en…",
+        "id": "d23CaKAHbjK5",
+        "url": "https://proceso.hn/en-quinta-semana-de-asambleas-medicos-vuelven-a-exigir-respuestas-al-gobierno/",
+        "canonicalUrl": "https://proceso.hn/en-quinta-semana-de-asambleas-medicos-vuelven-a-exigir-respuestas-al-gobierno/",
+        "title": "En quinta semana de asambleas médicos vuelven a exigir respuestas al Gobierno",
+        "description": "La suspensión de labores comenzó el 7 de septiembre y hasta el miércoles 14 de octubre, se contempla una nueva reunión entre representantes del Gobierno y la junta directiva del Colegio Médico de Honduras (CMH). La entrada En quinta semana de asambleas médicos vuelven a exigir respuestas al…",
         "source": {
           "id": "proceso",
           "name": "Proceso Digital"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-06T17:03:16.000Z",
+        "publishedAt": "2026-10-06T14:05:53.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "aSpGt2K06rsr",
-          "url": "https://hch.tv/dengue-grave-muere-nino-tres-anos-tegucigalpa/",
-          "canonicalUrl": "https://hch.tv/dengue-grave-muere-nino-tres-anos-tegucigalpa/",
-          "title": "Dengue grave cobra la vida de un niño de tres años en Tegucigalpa",
-          "description": "Un niño de tres años, residente en la colonia Los Pinos, falleció tras presentar complicaciones severas por dengue grave. El caso eleva a cinco las muertes confirmadas por esta enfermedad en Honduras durante 2026.",
-          "source": {
-            "id": "hch",
-            "name": "HCH"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-06T22:45:43.000Z",
-          "imageUrl": "https://hch.tv/wp-content/uploads/2026/10/DARVIN-5-1.webp",
-          "countryCode": "HN",
-          "regionCode": null
-        },
-        {
-          "id": "cXbLEh2aR0BQ",
-          "url": "https://www.hondudiario.com/2026/10/06/menor-de-tres-anos-fallece-por-dengue-grave-en-tegucigalpa/",
-          "canonicalUrl": "https://www.hondudiario.com/2026/10/06/menor-de-tres-anos-fallece-por-dengue-grave-en-tegucigalpa/",
-          "title": "Menor de tres años fallece por dengue grave en Tegucigalpa",
-          "description": "*** La cantidad de lluvia que cae en el territorio nacional ha desencadenado un alza en los casos de dengue. El jefe de pediatría de Instituto Hondureño de Seguridad Social (IHSS), Héctor Carranza, confirmó el fallecimiento de un menor de tres años procedente de la colonia Los Pinos de la capital…",
-          "source": {
-            "id": "hondudiario",
-            "name": "Hondudiario"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-06T19:51:36.000Z",
-          "imageUrl": null,
-          "countryCode": "HN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T22:45:43.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:05:53.000Z"
     },
     {
-      "id": "iUfN1TprM0JR",
+      "id": "hzHfWNM8pQXR",
       "representative": {
-        "id": "iUfN1TprM0JR",
-        "url": "https://proceso.hn/ee-uu-empezo-a-comunicarse-con-rusia-sobre-el-aparente-caso-de-peste-el-2-de-octubre/",
-        "canonicalUrl": "https://proceso.hn/ee-uu-empezo-a-comunicarse-con-rusia-sobre-el-aparente-caso-de-peste-el-2-de-octubre/",
-        "title": "EE.UU. empezó a comunicarse con Rusia sobre el aparente caso de peste el 2 de octubre",
-        "description": "El Gobierno estadounidense comenzó a intercambiar por primera vez información con Rusia por el aparente caso de peste neumónica en Siberia el pasado viernes 2 de octubre, fecha en la que se cree que una investigadora falleció a causa de esta enfermedad. La entrada EE.UU. empezó a comunicarse con…",
+        "id": "hzHfWNM8pQXR",
+        "url": "https://proceso.hn/taxistas-realizan-planton-pacifico-en-la-ceiba-para-exigir-eliminacion-de-impuestos-a-combustibles/",
+        "canonicalUrl": "https://proceso.hn/taxistas-realizan-planton-pacifico-en-la-ceiba-para-exigir-eliminacion-de-impuestos-a-combustibles/",
+        "title": "Taxistas realizan plantón pacífico en La Ceiba para exigir eliminación de impuestos a combustibles",
+        "description": "Taxistas realizaron un plantón pacífico en La Ceiba para exigir al Gobierno la eliminación durante seis meses de los impuestos a los combustibles, ante el incremento constante de los carburantes. La entrada Taxistas realizan plantón pacífico en La Ceiba para exigir eliminación de impuestos a…",
         "source": {
           "id": "proceso",
           "name": "Proceso Digital"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-06T18:44:41.000Z",
+        "publishedAt": "2026-10-06T13:57:09.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "1rIfwj0tdORw",
-          "url": "https://hch.tv/peste-neumonica-rusia-eeuu-transparencia/",
-          "canonicalUrl": "https://hch.tv/peste-neumonica-rusia-eeuu-transparencia/",
-          "title": "Peste neumónica en Rusia: EE.UU. pide más información a Moscú",
-          "description": "La posible peste neumónica en Rusia mantiene en alerta a funcionarios estadounidenses tras la muerte de una trabajadora de un instituto especializado en Siberia. Washington reclama mayor transparencia a Moscú mientras intenta determinar qué enfermedad causó el fallecimiento y cuáles podrían ser los…",
-          "source": {
-            "id": "hch",
-            "name": "HCH"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-07T04:53:00.000Z",
-          "imageUrl": "https://hch.tv/wp-content/uploads/2026/10/Copia-de-Diseno-sin-titulo-4-1.webp",
-          "countryCode": "HN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T04:53:00.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:57:09.000Z"
     },
     {
-      "id": "VTkcduOZQ-qe",
+      "id": "yPnidQhdZMlq",
       "representative": {
-        "id": "VTkcduOZQ-qe",
-        "url": "https://proceso.hn/messi-completa-su-ultimo-entrenamiento-con-argentina-antes-de-su-despedida-ante-benin/",
-        "canonicalUrl": "https://proceso.hn/messi-completa-su-ultimo-entrenamiento-con-argentina-antes-de-su-despedida-ante-benin/",
-        "title": "Messi completa su último entrenamiento con Argentina antes de su despedida ante Benín",
-        "description": "Entre risas, bromas y ejercicios con pelota, Lionel Messi completó este lunes su último entrenamiento con la selección argentina, poco más de 24 horas antes de poner fin a más de dos décadas con la Albiceleste en un amistoso ante Benín. La entrada Messi completa su último entrenamiento con…",
+        "id": "yPnidQhdZMlq",
+        "url": "https://criterio.hn/presentan-recurso-de-inconstitucionalidad-parcial-contra-ley-antiterrorista/",
+        "canonicalUrl": "https://criterio.hn/presentan-recurso-de-inconstitucionalidad-parcial-contra-ley-antiterrorista/",
+        "title": "Presentan recurso de inconstitucionalidad parcial contra Ley Antiterrorista",
+        "description": "El recurso cuestiona el régimen penitenciario que establece aislamiento, limita las visitas y restringe las comunicaciones de personas privadas de libertad, tanto en prisión preventiva...",
         "source": {
-          "id": "proceso",
-          "name": "Proceso Digital"
+          "id": "criterio",
+          "name": "Criterio.hn"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-05T22:45:44.000Z",
+        "publishedAt": "2026-10-06T02:24:04.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "0gyZqGmYl4SR",
-          "url": "https://hch.tv/despedida-messi-seleccion-argentina/",
-          "canonicalUrl": "https://hch.tv/despedida-messi-seleccion-argentina/",
-          "title": "Despedida de Messi: “No me quiero ir” de Argentina",
-          "description": "Lionel Messi cerró su etapa con la Selección Argentina con un emotivo discurso en el estadio Monumental. El capitán agradeció a los aficionados y aseguró que extrañará defender la camiseta albiceleste.",
-          "source": {
-            "id": "hch",
-            "name": "HCH"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-07T04:05:07.000Z",
-          "imageUrl": "https://hch.tv/wp-content/uploads/2026/10/DARVIN-14.webp",
-          "countryCode": "HN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T04:05:07.000Z"
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T02:24:04.000Z"
     },
     {
-      "id": "TmeL3MOTCN-p",
+      "id": "uLl9Uk91la6N",
       "representative": {
-        "id": "TmeL3MOTCN-p",
-        "url": "https://proceso.hn/desarrollo-economico-detiene-importacion-de-57-mil-toneladas-de-cemento/",
-        "canonicalUrl": "https://proceso.hn/desarrollo-economico-detiene-importacion-de-57-mil-toneladas-de-cemento/",
-        "title": "Desarrollo Económico detiene importación de 57 mil toneladas de cemento",
-        "description": "El titular de la Secretaría de Desarrollo Económico, Eddy Ordóñez, informó que una importación de 57,000 toneladas de cemento proveniente de Asia fue detenida en un puerto por corresponder a una empresa no registrada según el reglamento que entró en vigencia este día. La entrada Desarrollo…",
+        "id": "uLl9Uk91la6N",
+        "url": "https://criterio.hn/latinobarometro-pone-bajo-la-lupa-el-caso-asfura-senalamientos-de-corrupcion-y-respaldo-de-trump/",
+        "canonicalUrl": "https://criterio.hn/latinobarometro-pone-bajo-la-lupa-el-caso-asfura-senalamientos-de-corrupcion-y-respaldo-de-trump/",
+        "title": "Latinobarómetro pone bajo la lupa el caso Asfura: señalamientos de corrupción y respaldo de Trump",
+        "description": "El informe 2026 de Latinobarómetro señala que las acusaciones e incluso condenas por corrupción no necesariamente impiden que una persona llegue a la Presidencia. En...",
         "source": {
-          "id": "proceso",
-          "name": "Proceso Digital"
+          "id": "criterio",
+          "name": "Criterio.hn"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-06T21:03:02.000Z",
+        "publishedAt": "2026-10-06T01:03:03.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "Mco1k7nl_IT0",
-          "url": "https://hch.tv/sde-57-mil-toneladas-de-cemento/",
-          "canonicalUrl": "https://hch.tv/sde-57-mil-toneladas-de-cemento/",
-          "title": "Secretaría de Desarrollo Económico detiene la importación de 57 mil toneladas de cemento proveniente de Asia",
-          "description": "Una importación de 57,000 toneladas de cemento proveniente de Asia fue detenida",
-          "source": {
-            "id": "hch",
-            "name": "HCH"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-07T03:12:52.000Z",
-          "imageUrl": "https://hch.tv/wp-content/uploads/2026/10/cemento.webp",
-          "countryCode": "HN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T03:12:52.000Z"
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T01:03:03.000Z"
     },
     {
-      "id": "Jt6Y8gT_wUx3",
+      "id": "FnA89Sy5Wy1h",
       "representative": {
-        "id": "Jt6Y8gT_wUx3",
-        "url": "https://proceso.hn/messi-se-despide-de-la-albiceleste-con-126-goles-el-ultimo-de-penalti-y-muchas-emociones/",
-        "canonicalUrl": "https://proceso.hn/messi-se-despide-de-la-albiceleste-con-126-goles-el-ultimo-de-penalti-y-muchas-emociones/",
-        "title": "Messi se despide de la Albiceleste con 126 goles, el último de penalti, y muchas emociones",
-        "description": "Lionel Messi se despidió este martes de la selección de Argentina tras 21 años de historia inolvidable con 126 goles, el último de penalti en los 70 minutos de un partido ganado por 3-0 a Benín en Buenos Aires, y en una noche cargada de muchas emociones, homenajes y lágrimas. La entrada Messi se…",
+        "id": "FnA89Sy5Wy1h",
+        "url": "https://criterio.hn/sobre-el-homenaje-de-bukele-al-general-morazan/",
+        "canonicalUrl": "https://criterio.hn/sobre-el-homenaje-de-bukele-al-general-morazan/",
+        "title": "Sobre el homenaje de Bukele al general Morazán",
+        "description": "Por: Rodil Rivera Rodil REFLEXIONES Adelanto al estimado lector que no voy a mediar en la discusión que se ha suscitado en nuestro país acerca...",
         "source": {
-          "id": "proceso",
-          "name": "Proceso Digital"
+          "id": "criterio",
+          "name": "Criterio.hn"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-07T01:43:54.000Z",
+        "publishedAt": "2026-10-05T23:30:03.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "E3C8lEpe6xPJ",
-          "url": "https://www.hondudiario.com/2026/10/06/messi-se-despide-de-la-albiceleste-con-126-goles-el-ultimo-de-penalti-y-muchas-emociones/",
-          "canonicalUrl": "https://www.hondudiario.com/2026/10/06/messi-se-despide-de-la-albiceleste-con-126-goles-el-ultimo-de-penalti-y-muchas-emociones/",
-          "title": "Messi se despide de la Albiceleste con 126 goles, el último de penalti, y muchas emociones",
-          "description": "*** Los 85.000 espectadores en el estadio Monumental cantaron hoy el gol 126 del capitán como si hubiese sido el de un título mundial. Lionel Messi se despidió este martes de la selección de Argentina tras 21 años de historia inolvidable con 126 goles, el último de penalti en los 70 minutos de un…",
-          "source": {
-            "id": "hondudiario",
-            "name": "Hondudiario"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-07T01:42:56.000Z",
-          "imageUrl": null,
-          "countryCode": "HN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T01:43:54.000Z"
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T23:30:03.000Z"
     },
     {
-      "id": "PPRNudrr27Fw",
+      "id": "LJcThqizZobl",
       "representative": {
-        "id": "PPRNudrr27Fw",
-        "url": "https://proceso.hn/dictan-prision-preventiva-a-cuatro-policias-acusados-por-secuestro-agravado/",
-        "canonicalUrl": "https://proceso.hn/dictan-prision-preventiva-a-cuatro-policias-acusados-por-secuestro-agravado/",
-        "title": "Dictan prisión preventiva a cuatro policías acusados por secuestro agravado",
-        "description": "En audiencia inicial, se dictó prisión preventiva en contra de cuatro policías asignados a la Dirección Policial de Inteligencia (DIPOL), señalados de secuestro agravado. La entrada Dictan prisión preventiva a cuatro policías acusados por secuestro agravado se publicó primero en Proceso Digital .",
+        "id": "LJcThqizZobl",
+        "url": "https://proceso.hn/de-niro-arremete-contra-trump-y-le-llama-cobarde-y-trozo-de-mierda-en-un-acto-publico/",
+        "canonicalUrl": "https://proceso.hn/de-niro-arremete-contra-trump-y-le-llama-cobarde-y-trozo-de-mierda-en-un-acto-publico/",
+        "title": "De Niro arremete contra Trump y le llama «cobarde» y «trozo de mierda» en un acto público",
+        "description": "Robert de Niro arremetió en un acto público en Nueva York contra el presidente estadounidense, Donald Trump, al que llamó \"cobarde\" y \"trozo de mierda\" y pidió a los estadounidenses sus votos en las elecciones de mitad de mandato del próximo 3 de noviembre para \"retomar\" la Cámara de…",
         "source": {
           "id": "proceso",
           "name": "Proceso Digital"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-07T01:31:19.000Z",
+        "publishedAt": "2026-10-06T13:45:02.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "nQUdoG1hP_lF",
-          "url": "https://hch.tv/a-prision-cuatro-policias-acusados-de-secuestrar-a-un-menor-y-exigir-l600-mil/",
-          "canonicalUrl": "https://hch.tv/a-prision-cuatro-policias-acusados-de-secuestrar-a-un-menor-y-exigir-l600-mil/",
-          "title": "A prisión cuatro policías acusados de secuestrar a un menor y exigir L600 mil",
-          "description": "Cuatro miembros de la Policía Nacional fueron enviados a prisión preventiva tras ser señalados por su presunta participación en el secuestro agravado de un menor de edad, por cuya liberación habrían exigido 600 mil lempiras.",
-          "source": {
-            "id": "hch",
-            "name": "HCH"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-06T22:57:37.000Z",
-          "imageUrl": "https://hch.tv/wp-content/uploads/2026/10/image-6.webp",
-          "countryCode": "HN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T01:31:19.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:45:02.000Z"
     },
     {
       "id": "ynLr6gST3tcx",
@@ -351,214 +191,178 @@
         "countryCode": "HN",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "P8egKsym0np5",
-          "url": "https://hch.tv/colonias-capital-bajo-vigilancia-por-lluvias/",
-          "canonicalUrl": "https://hch.tv/colonias-capital-bajo-vigilancia-por-lluvias/",
-          "title": "Más de 10 colonias de la capital están bajo vigilancia por lluvias",
-          "description": "Las lluvias mantienen bajo vigilancia a más de 10 colonias del Distrito Central ante el riesgo de derrumbes, inundaciones y crecidas repentinas de quebradas.",
-          "source": {
-            "id": "hch",
-            "name": "HCH"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-07T00:11:19.000Z",
-          "imageUrl": "https://hch.tv/wp-content/uploads/2026/10/DARVIN-7-1.webp",
-          "countryCode": "HN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T00:11:19.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:41:48.000Z"
     },
     {
-      "id": "pGFglfzBa3nN",
+      "id": "q1UchASVGSGx",
       "representative": {
-        "id": "pGFglfzBa3nN",
-        "url": "https://proceso.hn/finanzas-prepara-ajustes-al-gasto-corriente-para-priorizar-inversion-en-presupuesto-2027/",
-        "canonicalUrl": "https://proceso.hn/finanzas-prepara-ajustes-al-gasto-corriente-para-priorizar-inversion-en-presupuesto-2027/",
-        "title": "Finanzas prepara ajustes al gasto corriente para priorizar inversión en Presupuesto 2027",
-        "description": "El ministro de Finanzas, Emilio Hernández Hércules, informó que el Gobierno trabaja en una revisión del presupuesto actual con énfasis en reducir el gasto corriente y redireccionar recursos hacia inversión, de cara al 2027. La entrada Finanzas prepara ajustes al gasto corriente para priorizar…",
+        "id": "q1UchASVGSGx",
+        "url": "https://proceso.hn/nintendo-vuelve-al-gimnasio-y-prepara-el-lanzamiento-de-su-nuevo-juego-familiar-deportivo/",
+        "canonicalUrl": "https://proceso.hn/nintendo-vuelve-al-gimnasio-y-prepara-el-lanzamiento-de-su-nuevo-juego-familiar-deportivo/",
+        "title": "Nintendo vuelve al gimnasio y prepara el lanzamiento de su nuevo juego familiar deportivo",
+        "description": "Nintendo sabe de la importancia de los juegos familiares y de simulación deportiva. Un modelo de competición sana que se transformó en un fenómeno de masas con tres juegos que arrancaron en 2006 con su primer ‘Wii Sports’ y de los que han vendido más de 130 millones de copias. Ahora preparan el…",
         "source": {
           "id": "proceso",
           "name": "Proceso Digital"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-06T21:15:57.000Z",
+        "publishedAt": "2026-10-06T13:35:58.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "lwWgFY-CzvMV",
-          "url": "https://www.hondudiario.com/2026/10/06/finanzas-evalua-ajustes-para-reducir-gasto-corriente-y-priorizar-inversion/",
-          "canonicalUrl": "https://www.hondudiario.com/2026/10/06/finanzas-evalua-ajustes-para-reducir-gasto-corriente-y-priorizar-inversion/",
-          "title": "Finanzas evalúa ajustes para reducir gasto corriente y priorizar inversión",
-          "description": "*** Hernández Hércules explicó que se revisó la ejecución del presupuesto actual y las prioridades para 2027 durante una reunión de trabajo. El ministro de Finanzas, Emilio Hernández Hércules, explicó este martes que la reunión de trabajo celebrada este hoy en Casa Presidencial tuvo como objetivo…",
-          "source": {
-            "id": "hondudiario",
-            "name": "Hondudiario"
-          },
-          "sourceCountry": "HN",
-          "language": "es",
-          "publishedAt": "2026-10-06T23:58:03.000Z",
-          "imageUrl": null,
-          "countryCode": "HN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T23:58:03.000Z"
-    },
-    {
-      "id": "NGb02FFJbJXF",
-      "representative": {
-        "id": "NGb02FFJbJXF",
-        "url": "https://hch.tv/slug-caida-rocas-gualala-carretera-rn20/",
-        "canonicalUrl": "https://hch.tv/slug-caida-rocas-gualala-carretera-rn20/",
-        "title": "Lluvias provocan caída de rocas en Gualala, Santa Bárbara",
-        "description": "Las fuertes lluvias provocaron la caída de enormes rocas sobre la carretera RN-20, a la altura de Gualala, Santa Bárbara",
-        "source": {
-          "id": "hch",
-          "name": "HCH"
-        },
-        "sourceCountry": "HN",
-        "language": "es",
-        "publishedAt": "2026-10-07T04:47:03.000Z",
-        "imageUrl": "https://hch.tv/wp-content/uploads/2026/10/DARVIN-2-3.webp",
-        "countryCode": "HN",
-        "regionCode": null
-      },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:47:03.000Z"
+      "latestPublishedAt": "2026-10-06T13:35:58.000Z"
     },
     {
-      "id": "QFSaTA6WgGKN",
+      "id": "AnxMWlzzdPSz",
       "representative": {
-        "id": "QFSaTA6WgGKN",
-        "url": "https://proceso.hn/con-el-lema-voluntad-en-accion-lanzan-teleton-2026/",
-        "canonicalUrl": "https://proceso.hn/con-el-lema-voluntad-en-accion-lanzan-teleton-2026/",
-        "title": "Con el lema «Voluntad en Acción», lanzan Teletón 2026",
-        "description": "\"Durante más de tres décadas, Teletón ha sido posible porque miles de hondureños han decidido actuar, porque han comprendido que la solidaridad no es solamente un sentimiento, es una decisión que se convierte en oportunidades para quienes más lo necesitan\", expresó Villeda. La entrada Con el lema…",
+        "id": "AnxMWlzzdPSz",
+        "url": "https://proceso.hn/mujer-reportada-como-desaparecida-es-encontrada-muerta-en-una-quebrada-en-santa-barbara/",
+        "canonicalUrl": "https://proceso.hn/mujer-reportada-como-desaparecida-es-encontrada-muerta-en-una-quebrada-en-santa-barbara/",
+        "title": "Mujer reportada como desaparecida es encontrada muerta en una quebrada en Santa Bárbara",
+        "description": "Juana Idalia Vásquez Pineda, fue encontrada sin vida en una zona de matorrales cercana a una quebrada en el sector de Los Vaditos, Petoa, Santa Bárbara, luego de haber sido reportada como desaparecida desde el domingo. La entrada Mujer reportada como desaparecida es encontrada muerta en una…",
         "source": {
           "id": "proceso",
           "name": "Proceso Digital"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-07T04:22:49.000Z",
+        "publishedAt": "2026-10-06T13:32:08.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:22:49.000Z"
+      "latestPublishedAt": "2026-10-06T13:32:08.000Z"
     },
     {
-      "id": "V3S-UjHcmAn0",
+      "id": "1U9w2VNQ-SsX",
       "representative": {
-        "id": "V3S-UjHcmAn0",
-        "url": "https://hch.tv/tragedia-en-el-carrizal-motocicleta-embiste-a-dos-jovenes-uno-muere-y-otro-queda-herido/",
-        "canonicalUrl": "https://hch.tv/tragedia-en-el-carrizal-motocicleta-embiste-a-dos-jovenes-uno-muere-y-otro-queda-herido/",
-        "title": "¡Tragedia en El Carrizal! Motocicleta embiste a dos jóvenes, uno muere y otro queda herido",
-        "description": "Un joven murió y otro resultó herido tras ser embestidos por una motocicleta en El Carrizal, Tegucigalpa.",
-        "source": {
-          "id": "hch",
-          "name": "HCH"
-        },
-        "sourceCountry": "HN",
-        "language": "es",
-        "publishedAt": "2026-10-07T04:20:07.000Z",
-        "imageUrl": "https://hch.tv/wp-content/uploads/2026/10/DARVIN-16.webp",
-        "countryCode": "HN",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:20:07.000Z"
-    },
-    {
-      "id": "oT6GmvDKZGGB",
-      "representative": {
-        "id": "oT6GmvDKZGGB",
-        "url": "https://hch.tv/terrible-tragedia-mujer-muere-tras-ser-arrollada-por-un-cabezal-en-san-pedro-sula/",
-        "canonicalUrl": "https://hch.tv/terrible-tragedia-mujer-muere-tras-ser-arrollada-por-un-cabezal-en-san-pedro-sula/",
-        "title": "¡Terrible tragedia! Mujer muere tras ser arrollada por un cabezal en San Pedro Sula",
-        "description": "Una mujer murió tras ser arrollada por un cabezal cuando intentaba cruzar el bulevar del Sur, en San Pedro Sula.",
-        "source": {
-          "id": "hch",
-          "name": "HCH"
-        },
-        "sourceCountry": "HN",
-        "language": "es",
-        "publishedAt": "2026-10-07T04:16:29.000Z",
-        "imageUrl": "https://hch.tv/wp-content/uploads/2026/10/DARVIN-15.webp",
-        "countryCode": "HN",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:16:29.000Z"
-    },
-    {
-      "id": "ghs6DLorKPnC",
-      "representative": {
-        "id": "ghs6DLorKPnC",
-        "url": "https://proceso.hn/messi-fue-un-orgullo-muy-grande/",
-        "canonicalUrl": "https://proceso.hn/messi-fue-un-orgullo-muy-grande/",
-        "title": "Messi: «Fue un orgullo muy grande»",
-        "description": "\"Fue un orgullo muy grande defender esta camiseta en estos más de 20 años, hasta en los peores momentos nunca dejé de luchar y de dar el máximo\", dijo el goleador histórico de la Albiceleste ante una multitud emocionada. La entrada Messi: «Fue un orgullo muy grande» se publicó primero en Proceso…",
+        "id": "1U9w2VNQ-SsX",
+        "url": "https://proceso.hn/el-petroleo-de-texas-baja-un-245-hasta-872-dolares-por-barril/",
+        "canonicalUrl": "https://proceso.hn/el-petroleo-de-texas-baja-un-245-hasta-872-dolares-por-barril/",
+        "title": "El petróleo de Texas baja un 2,45 %, hasta 87,2 dólares por barril",
+        "description": "El petróleo intermedio de Texas (WTI, por sus siglas en inglés) abrió este martes con una bajada de un 2,45 %, hasta 87,24 dólares el barril, mientras los inversores miden el alza del tráfico en Ormuz y los ataques de Irán a petroleros. La entrada El petróleo de Texas baja un 2,45 %, hasta 87,2…",
         "source": {
           "id": "proceso",
           "name": "Proceso Digital"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-07T03:26:52.000Z",
+        "publishedAt": "2026-10-06T13:29:11.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T03:26:52.000Z"
+      "latestPublishedAt": "2026-10-06T13:29:11.000Z"
     },
     {
-      "id": "3kUeyRQsg6_f",
+      "id": "kLPH0c69PM-G",
       "representative": {
-        "id": "3kUeyRQsg6_f",
-        "url": "https://proceso.hn/evaluan-traslado-uno-de-los-ninos-quemados-en-explosion-de-coheteria-en-copan-a-eeuu/",
-        "canonicalUrl": "https://proceso.hn/evaluan-traslado-uno-de-los-ninos-quemados-en-explosion-de-coheteria-en-copan-a-eeuu/",
-        "title": "Evalúan traslado uno de los niños quemados en explosión de cohetería en Copán a EEUU",
-        "description": "La portavoz de Centro Hondureño para el Niño Quemado (Fundaniquem), Jenny Olivera informó que los menores Olvin Carranza, de 3 años, y Helen Carranza, de 9 años, se mantienen con pronóstico reservado. La entrada Evalúan traslado uno de los niños quemados en explosión de cohetería en Copán a EEUU…",
+        "id": "kLPH0c69PM-G",
+        "url": "https://proceso.hn/papa-leon-xiv-recibira-a-los-obispos-hondurenos-en-el-momento-cumbre-de-su-visita-ad-limina-el-proximo-viernes/",
+        "canonicalUrl": "https://proceso.hn/papa-leon-xiv-recibira-a-los-obispos-hondurenos-en-el-momento-cumbre-de-su-visita-ad-limina-el-proximo-viernes/",
+        "title": "Papa León XIV recibirá a los obispos hondureños en el momento cumbre de su visita Ad Limina",
+        "description": "Tegucigalpa- Los obispos de la Conferencia Episcopal de Honduras iniciaron en Roma, Italia, la tradicional visita Ad Limina Apostolorum, una jornada de comunión con la Iglesia universal que este año está marcada por la reciente muerte de monseñor Teodoro Gómez Rivera, obispo de Choluteca y…",
         "source": {
           "id": "proceso",
           "name": "Proceso Digital"
         },
         "sourceCountry": "HN",
         "language": "es",
-        "publishedAt": "2026-10-07T03:18:01.000Z",
+        "publishedAt": "2026-10-06T13:11:36.000Z",
         "imageUrl": null,
         "countryCode": "HN",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T03:18:01.000Z"
+      "latestPublishedAt": "2026-10-06T13:11:36.000Z"
+    },
+    {
+      "id": "H-LzbBZkFZ74",
+      "representative": {
+        "id": "H-LzbBZkFZ74",
+        "url": "https://proceso.hn/victor-vandenbroucke-se-aparta-de-la-seleccion-de-honduras-por-problemas-de-adaptacion/",
+        "canonicalUrl": "https://proceso.hn/victor-vandenbroucke-se-aparta-de-la-seleccion-de-honduras-por-problemas-de-adaptacion/",
+        "title": "Víctor Vandenbroucke se aparta de la Selección de Honduras por problemas de adaptación",
+        "description": "Tegucigalpa- La Federación de Fútbol de Honduras (FFH) informó que el jugador Víctor Vandenbroucke ha comunicado su decisión personal de apartarse, por ahora, de la Selección Nacional de Honduras. De acuerdo con la carta enviada por el jugador, la decisión responde a un proceso de reflexión…",
+        "source": {
+          "id": "proceso",
+          "name": "Proceso Digital"
+        },
+        "sourceCountry": "HN",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:38:29.000Z",
+        "imageUrl": null,
+        "countryCode": "HN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:38:29.000Z"
+    },
+    {
+      "id": "TIaAS64ECITX",
+      "representative": {
+        "id": "TIaAS64ECITX",
+        "url": "https://proceso.hn/halzen-atribuye-hallazgo-que-ha-valido-nobel-de-fisica-a-talento-de-colaboradores-y-suerte/",
+        "canonicalUrl": "https://proceso.hn/halzen-atribuye-hallazgo-que-ha-valido-nobel-de-fisica-a-talento-de-colaboradores-y-suerte/",
+        "title": "Halzen atribuye hallazgo que ha valido Nobel de Física a talento de colaboradores y suerte",
+        "description": "\"Esta era una especie de aventura en la que el éxito no estaba garantizado y tuvimos suerte de superar los diversos retos, en parte por el talento de los colaboradores y en parte por suerte. Fue un largo viaje, pero finalmente funcionó\", dijo en rueda de prensa digital celebrada en la sede de la…",
+        "source": {
+          "id": "proceso",
+          "name": "Proceso Digital"
+        },
+        "sourceCountry": "HN",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:27:58.000Z",
+        "imageUrl": null,
+        "countryCode": "HN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:27:58.000Z"
+    },
+    {
+      "id": "furNQVlTm0v1",
+      "representative": {
+        "id": "furNQVlTm0v1",
+        "url": "https://proceso.hn/lluvias-y-chubascos-con-tormentas-en-la-mayor-parte-del-pais/",
+        "canonicalUrl": "https://proceso.hn/lluvias-y-chubascos-con-tormentas-en-la-mayor-parte-del-pais/",
+        "title": "Lluvias y chubascos con tormentas en la mayor parte del país",
+        "description": "Los mayores acumulados se esperan en las regiones sur, suroccidente y noroccidente La entrada Lluvias y chubascos con tormentas en la mayor parte del país se publicó primero en Proceso Digital .",
+        "source": {
+          "id": "proceso",
+          "name": "Proceso Digital"
+        },
+        "sourceCountry": "HN",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:02:00.000Z",
+        "imageUrl": null,
+        "countryCode": "HN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:02:00.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "HR",
   "countryName": "Croatia",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "7YhYg6uZmL3A",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:52:42.000Z"
-    },
-    {
-      "id": "j_C-SWQdrY4K",
-      "representative": {
-        "id": "j_C-SWQdrY4K",
-        "url": "https://www.index.hr/vijesti/clanak/vise-od-10-milijuna-eura-za-zastitu-nacionalnih-parkova-i-parkova-prirode/2842622.aspx",
-        "canonicalUrl": "https://www.index.hr/vijesti/clanak/vise-od-10-milijuna-eura-za-zastitu-nacionalnih-parkova-i-parkova-prirode/2842622.aspx",
-        "title": "Više od 10 milijuna eura za zaštitu nacionalnih parkova i parkova prirode",
-        "description": "ULAGANJEM 10,7 milijuna eura u pet nacionalnih parkova i parkova prirode Hrvatska obnavlja staništa te jača zaštitu prirode i održivi razvoj.",
-        "source": {
-          "id": "index_hr",
-          "name": "Index.hr"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T13:22:00.000Z",
-        "imageUrl": null,
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "e_bxtu6SU84t",
-          "url": "https://www.tportal.hr/no-planet-b/clanak/uruceni-ugovori-skoro-11-milijuna-eura-za-zastitu-nacionalnih-parkova-i-parkova-prirode-20261006",
-          "canonicalUrl": "https://www.tportal.hr/no-planet-b/clanak/uruceni-ugovori-skoro-11-milijuna-eura-za-zastitu-nacionalnih-parkova-i-parkova-prirode-20261006",
-          "title": "Uručeni ugovori: Skoro 11 milijuna eura za zaštitu nacionalnih parkova i parkova prirode",
-          "description": "Ministrica zaštite okoliša i zelene tranzicije Marija Vučković uručila je u utorak u Centru za posjetitelje Medvedgrad pet ugovora ukupno vrijednih 10,7 milijuna eura, od čega je odobreno 8,9 milijuna eura bespovratnih sredstava, za sufinanciranje projekata zaštite i obnove prirode.",
-          "source": {
-            "id": "tportal",
-            "name": "tportal"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T13:23:00.000Z",
-          "imageUrl": "https://www.tportal.hr/media/thumbnail/500x300/2749356.jpeg?cropId=0",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:23:00.000Z"
     },
     {
       "id": "fiOaOFDkjPXD",
@@ -452,6 +410,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:47:00.000Z"
+    },
+    {
+      "id": "_G3k2_04NJ2V",
+      "representative": {
+        "id": "_G3k2_04NJ2V",
+        "url": "https://www.tportal.hr/lifestyle/clanak/mislili-ste-da-je-bez-dosadan-jessica-alba-na-najbolji-nacin-dokazala-upravo-suprotno-20261006",
+        "canonicalUrl": "https://www.tportal.hr/lifestyle/clanak/mislili-ste-da-je-bez-dosadan-jessica-alba-na-najbolji-nacin-dokazala-upravo-suprotno-20261006",
+        "title": "Mislili ste da je bež dosadan? Jessica Alba na najbolji način dokazala upravo suprotno",
+        "description": "Bež, krem i boja pijeska često imaju reputaciju 'sigurnih' modnih izbora, no Jessica Alba u Parizu je pokazala da neutralna paleta ne mora imati baš ništa zajedničko s dosadom.",
+        "source": {
+          "id": "tportal",
+          "name": "tportal"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:46:00.000Z",
+        "imageUrl": "https://www.tportal.hr/media/thumbnail/500x300/2806707.jpeg?cropId=4293450",
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:46:00.000Z"
     }
   ]
 }
