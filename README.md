@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers 154 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany or the United States and it splits into its regions (13 French regions, 16 German Länder, the 50 US states and DC), each with its own headlines from regional and local outlets.
+It covers 154 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany, Spain, Italy or the United States and it splits into its regions (13 French regions, 16 German Länder, 17 Spanish autonomous communities, 20 Italian regions, the 50 US states and DC), each with its own headlines from regional and local outlets.
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -32,6 +32,8 @@ apps/web/            React + Vite front end (react-globe.gl)
   src/assets/regions-fr.json       France's 13 regions, IGN Admin Express, trimmed (scripts/prepare-regions.mjs fr)
   src/assets/regions-de.json       Germany's 16 Länder, Natural Earth 10m admin-1, trimmed (scripts/prepare-regions.mjs de)
   src/assets/regions-us.json       The 50 US states and DC, Natural Earth 50m admin-1, trimmed (scripts/prepare-regions.mjs us)
+  src/assets/regions-es.json       Spain's 17 autonomous communities, Natural Earth 10m provinces merged, trimmed (scripts/prepare-regions.mjs es)
+  src/assets/regions-it.json       Italy's 20 regions, Natural Earth 10m provinces merged, trimmed (scripts/prepare-regions.mjs it)
   worker/index.ts, wrangler.jsonc  Cloudflare Worker: static assets + /data/* from KV
 packages/ingest/     Node worker: fetch → normalize → dedupe → cluster → rank → write JSON
   src/sources.config.ts            feeds, authority weights, pipeline settings
@@ -337,9 +339,66 @@ Whole groups are unreachable to our User-Agent: every States Newsroom site (the 
 - Gray TV and Nexstar stations' main feeds carry group-wide national stories; their `category/news/local` (or `category/news`) feeds don't.
 - Sister stations and papers share copy (Gray stations in one state, Bridge Michigan and BridgeDetroit, Oil City News and County 17), so a state gets at most one of each pair.
 
-Partners also rerun each other's stories under the same headline (CT Mirror on Connecticut Public and WSHU, Spotlight PA on WESA, NHPR on the Concord Monitor). In region files an identical headline from a second outlet is dropped and the earliest copy kept (`dropRepublished`), so a rerun doesn't count as a second outlet covering the story.
+Partners also rerun each other's stories under the same headline (CT Mirror on Connecticut Public and WSHU, Spotlight PA on WESA, NHPR on the Concord Monitor). In region files only the earliest copy of a headline is kept (`dropRepublished`), so a rerun doesn't count as a second outlet covering the story. An outlet's own repeats go too (ANSA posting a story twice under two URLs, Pamplona Actual one press release four times), since stories from one outlet never cluster and each copy would take its own place in the top stories.
 
 US local feeds carry recurring segments next to stories: forecasts ("Q2 Billings Area Weather: …", "Your Mississippi forecast for Wednesday, October 7"), newscasts ("WHYY Newscast for Tuesday 5:00 p.m."), daily headline digests, opinion and letters, obituaries and death notices, arrest reports, lottery numbers, "things to do" lists, restaurant inspections, photo galleries and podcast episodes. `isNotNews` drops these; on the 2026-10-07 cache the English patterns matched 182 US titles, and outside the US only the Globe and Mail's "Morning Update" newsletter, a few editorials and one NDR podcast.
+
+**Spain — autonomous communities** (added 2026-10-07)
+
+Each of the 17 autonomous communities (Ceuta and Melilla are left out) has 3–8 regional outlets (98 in all): regional public broadcasters, the main regional papers' local section feeds, and digital outlets, with elDiario.es's regional edition in all of them and Europa Press's regional desk in the centre and south. Catalan, Galician and Basque outlets are tagged `ca`, `gl` and `eu`, with their own stopwords. The candidate lists, with each rejected feed and why, are in the PRs: [north](https://github.com/benjamin-gaultier/news-globe/pull/49), [centre, south and islands](https://github.com/benjamin-gaultier/news-globe/pull/50). Sources live in `packages/ingest/src/sources/es-regions-*.ts`.
+
+| Community | Outlets | Status |
+| --- | --- | --- |
+| Andalusia | Canal Sur, Diario de Sevilla, Diario de Cádiz, ABC Sevilla, Sur (Málaga), Ideal (Granada), elDiario.es Andalucía, Europa Press Andalucía | ✅ (two Joly and three Vocento titles, each for a different city) |
+| Aragon | Heraldo de Aragón, Diario del AltoAragón, Aragón Digital, El Español Aragón, COPE Aragón, elDiario.es Aragón | ✅ (Aragón TV and Diario de Teruel have no usable feed) |
+| Asturias | El Comercio, La Voz de Asturias, Nortes, miGijón, COPE Asturias, elDiario.es Asturias | ✅ (RTPA's feed swaps day and month) |
+| Balearic Islands | IB3, Última Hora, Ara Balears, Noudiari (Eivissa), elDiario.es Illes Balears, Europa Press Illes Balears | ✅ |
+| Basque Country | El Correo (Bizkaia, Álava), Diario Vasco (Gipuzkoa), Berria, Naiz, elDiario.es Euskadi | ⚠️ few shared stories: the outlets cover different provinces in two languages (EITB's feeds stopped in June 2025) |
+| Canary Islands | Canarias7, Diario de Avisos, Canarias Ahora (elDiario.es), Atlántico Hoy, Europa Press Canarias | ✅ (RTVC has no usable feed) |
+| Cantabria | El Diario Montañés, Alerta, El Diario Cantabria, El Faradio, elDiario.es Cantabria | ✅ |
+| Castile and León | El Norte de Castilla, Diario de León, Diario de Burgos, La Gaceta de Salamanca, Heraldo-Diario de Soria, El Español Castilla y León, elDiario.es Castilla y León | ✅ (RTVCyL refuses connections) |
+| Castilla-La Mancha | El Digital Castilla-La Mancha, Lanza (Ciudad Real), Nueva Alcarria (Guadalajara), encastillalamancha.es, elDiario.es Castilla-La Mancha, Europa Press Castilla-La Mancha | ✅ (Castilla-La Mancha Media has no usable feed) |
+| Catalonia | 3Cat, La Vanguardia, El Punt Avui, Segre, betevé, Nació Digital, elDiario.es Catalunya | ✅ (Segre and Nació Digital carry some Catalan-politics stories; a story covered in Catalan and in Spanish stays two clusters) |
+| Extremadura | Hoy, elDiario.es Extremadura, Europa Press Extremadura | ⚠️ three outlets (Canal Extremadura's feed has no dates; Región Digital reruns Europa Press copy) |
+| Galicia | La Voz de Galicia, Nós Diario, El Progreso (Lugo), Diario de Pontevedra, Praza, Galiciapress, elDiario.es Galicia | ✅ (CRTVG has no usable feed) |
+| La Rioja | La Rioja, Rioja2 (elDiario.es La Rioja), COPE La Rioja | ⚠️ three outlets (NueveCuatroUno 403; Noticias de La Rioja's feed doesn't parse) |
+| Madrid | Telemadrid, El País (Madrid), El Mundo (Madrid), ABC (Madrid), Madridiario, elDiario.es Madrid, 20minutos (Madrid), Europa Press Madrid | ✅ (city and Comunidad desks; some national stories set in Madrid get through) |
+| Murcia | La Verdad, Murcia Plaza, Murcia Diario, Cartagena Actualidad, elDiario.es Murcia, Europa Press Región de Murcia | ✅ (Onda Regional's feed is empty) |
+| Navarre | Diario de Navarra, Navarra.com, Pamplona Actual, COPE Navarra, elDiario.es Navarra | ✅ |
+| Valencian Community | À Punt, Las Provincias, Valencia Plaza / Alicante Plaza, elDiario.es Comunitat Valenciana, Europa Press Comunitat Valenciana | ⚠️ few shared stories (Levante-EMV and Información blocked, see below) |
+
+Prensa Ibérica (Faro de Vigo, La Nueva España, El Periódico, Levante-EMV, Información, Diario de Mallorca, La Provincia, El Día, La Opinión de Murcia…) and Grupo Noticias (Deia, Noticias de Navarra, Noticias de Gipuzkoa) return 406 to any User-Agent that names itself as a bot, so they are left out rather than fetched with a browser's. RTVE's per-community feeds stopped in 2022. Vocento's feeds are per section (`/rss/2.0/?section=…`); its Madrid and national sections are left out.
+
+**Italy — regions** (added 2026-10-07)
+
+Each of the 20 regions has 5–9 outlets (123 in all): RAI TGR's regional newsroom (`rainews.it/tgr/<region>/rss/tutti`; Trento and Bolzano as one source) and ANSA's regional desk in every region, the local editions of Corriere della Sera, la Repubblica, the QN papers and the regional dailies, and digital locals (Citynews and others). salto.bz is tagged `de`. The candidate lists, with each rejected feed and why, are in the PRs: [north](https://github.com/benjamin-gaultier/news-globe/pull/52), [centre, south and islands](https://github.com/benjamin-gaultier/news-globe/pull/51). Sources live in `packages/ingest/src/sources/it-regions-*.ts`.
+
+| Region | Outlets | Status |
+| --- | --- | --- |
+| Abruzzo | TGR Abruzzo, ANSA Abruzzo, Rete8, AbruzzoLive, Ekuonews | ✅ (Il Centro has no feed; Il Messaggero's feeds have no dates) |
+| Aosta Valley | TGR Valle d'Aosta, ANSA Valle d'Aosta, AostaSera, Valle d'Aosta Glocal, AostaNews24, Gazzetta Matin | ✅ |
+| Apulia | TGR Puglia, ANSA Puglia, La Gazzetta del Mezzogiorno, Corriere del Mezzogiorno (Bari), la Repubblica Bari, LeccePrima, Telenorba | ✅ (Quotidiano di Puglia's feeds have no dates) |
+| Basilicata | TGR Basilicata, ANSA Basilicata, SassiLive, Basilicata24, Potenza News, ivl24 | ✅ (TRM carries Bari stories) |
+| Calabria | TGR Calabria, ANSA Calabria, Gazzetta del Sud (Calabria), Corriere della Calabria, CatanzaroInforma | ✅ |
+| Campania | TGR Campania, ANSA Campania, Corriere del Mezzogiorno (Napoli), la Repubblica Napoli, Irpinianews, Il Meridiano News, Anteprima24 | ✅ (Il Mattino's feeds have no dates; NapoliToday 403) |
+| Emilia-Romagna | TGR Emilia-Romagna, ANSA Emilia-Romagna, Corriere di Bologna, la Repubblica Bologna, il Resto del Carlino (city editions), BolognaToday / ParmaToday, Estense.com (Ferrara), newsRimini, Reggionline (Telereggio) | ✅ (Carlino's `/rss/bologna.xml` is all editions, Marche included; its city feeds are `/{city}/rss`) |
+| Friuli-Venezia Giulia | TGR Friuli Venezia Giulia, ANSA Friuli Venezia Giulia, Il Friuli, Friuli Oggi, Trieste News, Pordenone Oggi | ✅ (Messaggero Veneto and Il Piccolo have no feeds) |
+| Lazio | TGR Lazio, ANSA Lazio, la Repubblica Roma, RomaToday, Latina Oggi / Ciociaria Oggi, Il Faro online | ✅ (Corriere's Roma section mixes in national politics) |
+| Liguria | TGR Liguria, ANSA Liguria, la Repubblica Genova, GenovaToday, Genova24 / IVG / Riviera24, Città della Spezia, Levante News (Tigullio) | ✅ (Il Secolo XIX 429) |
+| Lombardy | TGR Lombardia, ANSA Lombardia, Corriere della Sera (Milano, Bergamo, Brescia), la Repubblica Milano, Il Giorno, L'Eco di Bergamo, MilanoToday / BresciaToday | ✅ |
+| Marche | TGR Marche, ANSA Marche, il Resto del Carlino (Marche editions), Cronache Maceratesi, CentroPagina | ✅ (Corriere Adriatico's feeds have no dates) |
+| Molise | TGR Molise, ANSA Molise, isNews, TermoliOnLine, Molise Network | ✅ (small outlets) |
+| Piedmont | TGR Piemonte, ANSA Piemonte, Corriere Torino, la Repubblica Torino, Quotidiano Piemontese, NovaraToday | ✅ (La Stampa's local feeds redirect to its national front page; TorinoToday 403) |
+| Sardinia | TGR Sardegna, ANSA Sardegna, Casteddu Online, Vistanet Cagliari, Gallura Oggi | ⚠️ no regional daily (L'Unione Sarda's only feed is about 40% national and world; La Nuova Sardegna has no feed) |
+| Sicily | TGR Sicilia, ANSA Sicilia, la Repubblica Palermo, Giornale di Sicilia (Palermo), Gazzetta del Sud (Messina), CataniaToday, BlogSicilia, NewSicilia | ✅ (GdS and Gazzetta del Sud share a publisher but cover different cities) |
+| Trentino-South Tyrol | TGR Trento and Bolzano, ANSA Trentino-Alto Adige, Corriere del Trentino / Corriere dell'Alto Adige, il Dolomiti, TrentoToday, salto.bz | ✅ (L'Adige's and Alto Adige's feeds are mostly national wire copy; stol.it/Dolomiten mixes in world news) |
+| Tuscany | TGR Toscana, ANSA Toscana, la Repubblica Firenze, Corriere Fiorentino, La Nazione (Firenze) | ✅ (Il Tirreno has no feed; FirenzeToday is mostly listings) |
+| Umbria | TGR Umbria, ANSA Umbria, La Nazione Umbria, PerugiaToday, Umbria 24, TuttOggi | ✅ |
+| Veneto | TGR Veneto, ANSA Veneto, Corriere del Veneto, VeneziaToday / TrevisoToday, TViWeb (Vicenza), Il Nuovo Terraglio (Treviso) | ✅ (Il Gazzettino's feeds have no dates; the NEM papers have no feeds) |
+
+Citynews sites (MilanoToday, RomaToday…) return 403 to our User-Agent on and off, and some never let it through, so the ones kept may miss a run. The Caltagirone papers' feeds (Il Messaggero, Il Mattino, Il Gazzettino, Corriere Adriatico, Quotidiano di Puglia) have no item dates. Corriere's working local feeds are `corriere.it/dynamic-feed/rss/section/<City>.xml`; the old `xml2.corriereobjects.it` ones are years stale.
+
+Spanish, Catalan and Italian feeds list episodes and service pieces next to stories: RAI TGR's dated bulletins ("GR Lazio del 07/10/2026 ore 12:10", "Meteo …", "Buongiorno Regione …"), about a third of each TGR feed; IB3's and À Punt's bulletin recaps; press reviews ("Rassegna stampa 07-10-2026 edizioni Calabria"); most-read and daily digests ("Estas son las noticias más leídas este lunes en El Progreso", which two sister papers both publish); live-blog recaps; daily forecasts; horoscopes; what's-on agendas ("Què fer a Barcelona?", "Cosa fare a Milano oggi"); TV listings; and opinion. `isNotNews` drops these; on the 2026-10-07 cache its new patterns matched 274 Spanish and Italian regional titles (242 of them TGR bulletins), and elsewhere only a few Latin American horoscopes and one Colombian digest. Weather news such as storm warnings stays.
 
 **United States**
 
@@ -2177,7 +2236,7 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 
 **GDELT adapter.** Interface and stub are in [adapters/gdelt.ts](packages/ingest/src/adapters/gdelt.ts). The plan is to query the free GDELT DOC 2.0 API (`mode=ArtList`, `sourcecountry:<FIPS>`, `sourcelang:`, 6 h timespan) through the same `HttpCache` throttle. Each article's domain would count as its outlet, with a domain → authority table. GDELT uses FIPS 10-4 codes rather than ISO, so an ISO→FIPS map is needed. This is the path to covering most countries without curating feeds one by one. It returns no snippets, so `description` would be `null`.
 
-**More regions.** France, Germany and the US have regions (see Sources). Adding a country means adding its entries to `REGIONS` ([shared](packages/shared/src/index.ts)), sources with `region`, and an outline file next to `regions-fr.json`, registered in `REGION_SHAPES` ([GlobeView.tsx](apps/web/src/components/GlobeView.tsx)). Natural Earth 10m admin-1 has states and provinces for most countries. Later, tag national outlets' stories with a region from place names in titles.
+**More regions.** France, Germany, Spain, Italy and the US have regions (see Sources). Adding a country means adding its entries to `REGIONS` ([shared](packages/shared/src/index.ts)), sources with `region`, and an outline file next to `regions-fr.json`, registered in `REGION_SHAPES` ([GlobeView.tsx](apps/web/src/components/GlobeView.tsx)). Natural Earth 10m admin-1 has states and provinces for most countries. Later, tag national outlets' stories with a region from place names in titles.
 
 **Clustering.** Use the snippet's top tokens as a weaker second signal, and add a time-decay so a story from 40 hours ago doesn't absorb today's follow-up.
 
@@ -2189,4 +2248,5 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 - French region shapes: IGN Admin Express (2018), via [france-geojson](https://github.com/gregoiredavid/france-geojson), under the [Licence Ouverte / Etalab](https://www.etalab.gouv.fr/licence-ouverte-open-licence/); coordinates rounded to 0.01°. Loaded only when France is opened.
 - German Länder shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:10m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when Germany is opened.
 - US state shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:50m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when the United States is opened.
+- Spanish and Italian region shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:10m admin-1 (public domain), whose provinces are merged into regions along their shared borders (topojson), coordinates rounded to 0.01°. Ceuta and Melilla are left out. Loaded only when Spain or Italy is opened.
 - `data/sample/` is a real `pnpm ingest` output from 2026-10-06. Its relative times will read "days ago" until you run an ingest.

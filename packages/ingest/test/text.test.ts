@@ -351,3 +351,11 @@ describe('HTML and truncation', () => {
     expect(cleanDescription(`<p>${'a b '.repeat(400)}</p>`, 300)!.length).toBeLessThanOrEqual(300);
   });
 });
+
+describe('titleTokens: Spain’s regional languages', () => {
+  it('drops Catalan, Galician and Basque function words and dates', () => {
+    expect([...titleTokens('El Govern aprova els pressupostos de la Generalitat dimecres', 'ca')]).toEqual(['govern', 'aprova', 'pressuposto', 'generalitat']);
+    expect([...titleTokens('A Xunta aproba unha nova lei de vivenda para Galicia', 'gl')]).toEqual(['xunta', 'aproba', 'lei', 'vivenda', 'galicia']);
+    expect([...titleTokens('Eusko Jaurlaritzak eta sindikatuek akordioa sinatu dute gaur', 'eu')]).toEqual(['eusko', 'jaurlaritzak', 'sindikatuek', 'akordioa', 'sinatu']);
+  });
+});

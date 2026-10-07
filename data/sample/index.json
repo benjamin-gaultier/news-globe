@@ -1407,6 +1407,228 @@
       "name": "Washington",
       "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
+    },
+    {
+      "code": "ES-GA",
+      "name": "Galicia",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-AS",
+      "name": "Asturias",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-CB",
+      "name": "Cantabria",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-PV",
+      "name": "Basque Country",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-NC",
+      "name": "Navarre",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-RI",
+      "name": "La Rioja",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-AR",
+      "name": "Aragon",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-CT",
+      "name": "Catalonia",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-CL",
+      "name": "Castile and León",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-MD",
+      "name": "Madrid",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-CM",
+      "name": "Castilla-La Mancha",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-EX",
+      "name": "Extremadura",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-AN",
+      "name": "Andalusia",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-MC",
+      "name": "Murcia",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-VC",
+      "name": "Valencian Community",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-IB",
+      "name": "Balearic Islands",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ES-CN",
+      "name": "Canary Islands",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-21",
+      "name": "Piedmont",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-23",
+      "name": "Aosta Valley",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-25",
+      "name": "Lombardy",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-32",
+      "name": "Trentino-South Tyrol",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-34",
+      "name": "Veneto",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-36",
+      "name": "Friuli-Venezia Giulia",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-42",
+      "name": "Liguria",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-45",
+      "name": "Emilia-Romagna",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-52",
+      "name": "Tuscany",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-55",
+      "name": "Umbria",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-57",
+      "name": "Marche",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-62",
+      "name": "Lazio",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-65",
+      "name": "Abruzzo",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-67",
+      "name": "Molise",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-72",
+      "name": "Campania",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-75",
+      "name": "Apulia",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-77",
+      "name": "Basilicata",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-78",
+      "name": "Calabria",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-82",
+      "name": "Sicily",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IT-88",
+      "name": "Sardinia",
+      "updatedAt": "2026-10-07T15:02:06.730Z",
+      "clusterCount": 15
     }
   ]
 }

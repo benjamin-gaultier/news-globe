@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "ES",
+  "countryName": "Spain",
+  "regionCode": "ES-GA",
+  "regionName": "Galicia",
+  "updatedAt": "2026-10-07T15:02:06.730Z",
+  "clusters": [
+    {
+      "id": "M9gwPZbk1HAG",
+      "representative": {
+        "id": "M9gwPZbk1HAG",
+        "url": "https://www.nosdiario.gal/articulo/traballo/cig-esixe-dimision-nuria-aguilar-polo-caos-nos-procesos-eleccion-destino/20261007160807268712.html",
+        "canonicalUrl": "https://www.nosdiario.gal/articulo/traballo/cig-esixe-dimision-nuria-aguilar-polo-caos-nos-procesos-eleccion-destino/20261007160807268712.html",
+        "title": "A CIG exixe a dimisión da directora xeral de Emprego Público polo \"caos\" nos procesos de elección de destino do persoal de limpeza e cociña",
+        "description": "A CIG-Administración Pública denuncia erros e cambios nos listados do proceso de elección de destino do persoal de limpeza e cociña, con postos repetidos até catro veces e vacantes que non aparecen. O sindicato reclama a súa paralización inmediata e a dimisión da directora xeral de Emprego…",
+        "source": {
+          "id": "es_ga_nosdiario",
+          "name": "Nós Diario"
+        },
+        "sourceCountry": "ES",
+        "language": "gl",
+        "publishedAt": "2026-10-07T14:08:07.000Z",
+        "imageUrl": "https://www.nosdiario.gal/media/nosdiario/images/2026/10/07/2026100716044819492.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [
+        {
+          "id": "0fd9KTHIT_ir",
+          "url": "https://www.galiciapress.es/articulo/economia/2026-10-07/6043330-cig-pide-dimision-directora-xeral-emprego-publico-caos-procesos-personal-limpieza",
+          "canonicalUrl": "https://www.galiciapress.es/articulo/economia/2026-10-07/6043330-cig-pide-dimision-directora-xeral-emprego-publico-caos-procesos-personal-limpieza",
+          "title": "La CIG pide la dimisión de la directora xeral de Emprego Público por el \"caos\" en procesos de personal de limpieza",
+          "description": "La CIG pide la dimisión de la directora xeral de Emprego Público, Nuria Aguilar, por el \"caos\" en los procesos de elección de destino del personal de la especialidad de limpieza y cocina.",
+          "source": {
+            "id": "es_ga_galiciapress",
+            "name": "Galiciapress"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-07T13:21:03.000Z",
+          "imageUrl": null,
+          "countryCode": "ES",
+          "regionCode": "ES-GA"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T14:08:07.000Z"
+    },
+    {
+      "id": "y9ijydMBDakJ",
+      "representative": {
+        "id": "y9ijydMBDakJ",
+        "url": "https://www.lavozdegalicia.es/noticia/coruna/sada/2026/10/06/salen-subasta-lotes-sacados-meiras-franco/00031791309815700419353.htm",
+        "canonicalUrl": "https://www.lavozdegalicia.es/noticia/coruna/sada/2026/10/06/salen-subasta-lotes-sacados-meiras-franco/00031791309815700419353.htm",
+        "title": "Salen a subasta los lotes sacados del pazo de Meirás por los Franco",
+        "description": "Cuadros, porcelana, vajillas o muebles se exponen en una sala de Madrid",
+        "source": {
+          "id": "es_ga_lavozdegalicia",
+          "name": "La Voz de Galicia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T18:22:00.000Z",
+        "imageUrl": "https://cflvdg.avoz.es/sc/Mxq7T0_i982UydUANPaBxBFmlbA=/768x/2026/10/06/00121791310862359765117/Foto/J03L1058.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [
+        {
+          "id": "vGUmwi2cfqqL",
+          "url": "https://www.galiciapress.es/articulo/ultima-hora/2026-10-07/6043175-cerca-700-bienes-retirados-franco-pazo-meiras-saldran-subasta-27-octubre",
+          "canonicalUrl": "https://www.galiciapress.es/articulo/ultima-hora/2026-10-07/6043175-cerca-700-bienes-retirados-franco-pazo-meiras-saldran-subasta-27-octubre",
+          "title": "Cerca de 700 bienes retirados por los Franco del Pazo de Meirás saldrán a subasta el 27 de octubre",
+          "description": "La Comisión pola Recuperación da Memoria Histórica pide al Gobierno y a la Xunta que adopten medidas frente al anuncio de la puja",
+          "source": {
+            "id": "es_ga_galiciapress",
+            "name": "Galiciapress"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-07T11:51:04.000Z",
+          "imageUrl": "https://www.galiciapress.es/images/showid/8170921",
+          "countryCode": "ES",
+          "regionCode": "ES-GA"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:51:04.000Z"
+    },
+    {
+      "id": "S9GOU0ChKzd4",
+      "representative": {
+        "id": "S9GOU0ChKzd4",
+        "url": "https://www.nosdiario.gal/articulo/social/adega-reclama-usos-ambientais-75000-litros-segundo-que-iberdrola-naturgy-queren-bombear-ribeira-sacra/20261007120557268676.html",
+        "canonicalUrl": "https://www.nosdiario.gal/articulo/social/adega-reclama-usos-ambientais-75000-litros-segundo-que-iberdrola-naturgy-queren-bombear-ribeira-sacra/20261007120557268676.html",
+        "title": "Adega reclama para usos ambientais os 75.000 litros por segundo que Iberdrola e Naturgy queren bombear na Ribeira Sacra",
+        "description": "A asociación ecoloxista oponse ao proxecto que conectaría os encoros de Santo Estevo e Edrada-Mao e advirte de efectos prexudiciais sobre espazos protexidos.",
+        "source": {
+          "id": "es_ga_nosdiario",
+          "name": "Nós Diario"
+        },
+        "sourceCountry": "ES",
+        "language": "gl",
+        "publishedAt": "2026-10-07T10:05:57.000Z",
+        "imageUrl": "https://www.nosdiario.gal/media/nosdiario/images/2021/09/12/2021091208524336241.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [
+        {
+          "id": "pm8dDSteDhbR",
+          "url": "https://www.eldiario.es/galicia/ecologistas-rechazan-plan-iberdrola-naturgy-bombear-75-000-litros-segundo-ribeira-sacra_1_13568383.html",
+          "canonicalUrl": "https://www.eldiario.es/galicia/ecologistas-rechazan-plan-iberdrola-naturgy-bombear-75-000-litros-segundo-ribeira-sacra_1_13568383.html",
+          "title": "Ecologistas rechazan el plan de Iberdrola y Naturgy para bombear 75.000 litros por segundo en la Ribeira Sacra",
+          "description": "La asociación Adega se presentó en el trámite de competencia de proyectos reclamando la concesión de ese volumen de agua para usos ambientales, en lugar de crear una central de almacenamiento Bombear agua del mar al monte para producir electricidad: ayuntamientos y vecinos contra dos proyectos en…",
+          "source": {
+            "id": "es_ga_eldiario",
+            "name": "elDiario.es Galicia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-07T09:56:09.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/15f9cd22-cd36-463b-8759-4a7b5025cea3_16-9-discover-aspect-ratio_default_0.jpg",
+          "countryCode": "ES",
+          "regionCode": "ES-GA"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T10:05:57.000Z"
+    },
+    {
+      "id": "070wze8h0mkh",
+      "representative": {
+        "id": "070wze8h0mkh",
+        "url": "https://www.galiciapress.es/articulo/politica-galicia/2026-10-07/6043462-jacome-valcarcel-retoman-pacto-barbadas-daniel-rey-vuelve-gobierno-municipal",
+        "canonicalUrl": "https://www.galiciapress.es/articulo/politica-galicia/2026-10-07/6043462-jacome-valcarcel-retoman-pacto-barbadas-daniel-rey-vuelve-gobierno-municipal",
+        "title": "Jácome y Valcárcel retoman su pacto en Barbadás y Daniel Rey vuelve al gobierno municipal",
+        "description": "Diez días después de la ruptura, Democracia Ourensana y el alcalde de Barbadás acuerdan apoyarse en el Concello y coordinarse en la Diputación de Ourense, donde el PP denuncia un mercadeo.",
+        "source": {
+          "id": "es_ga_galiciapress",
+          "name": "Galiciapress"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T14:20:53.000Z",
+        "imageUrl": "https://www.galiciapress.es/images/showid/8170926",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:20:53.000Z"
+    },
+    {
+      "id": "wSmyqHqjXeKu",
+      "representative": {
+        "id": "wSmyqHqjXeKu",
+        "url": "https://www.galiciapress.es/articulo/ultima-hora/2026-10-07/6043457-decenas-personas-convocadas-mesa-rechazan-ante-camara-nuevo-plan-normalizacion-regresion",
+        "canonicalUrl": "https://www.galiciapress.es/articulo/ultima-hora/2026-10-07/6043457-decenas-personas-convocadas-mesa-rechazan-ante-camara-nuevo-plan-normalizacion-regresion",
+        "title": "Decenas de personas convocadas por A Mesa rechazan ante la Cámara el nuevo plan de normalización: \"Es una regresión\"",
+        "description": "Decenas de personas convocadas por A Mesa pola Normalización Lingüística han rechazado ante el Parlamento de Galicia el pacto entre el PP y el PSOE para la actualización del Plan Xeral de Normalización Lingüística, que este miércoles ha sido aprobado por la Cámara, al considerar que supone una…",
+        "source": {
+          "id": "es_ga_galiciapress",
+          "name": "Galiciapress"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T14:19:08.000Z",
+        "imageUrl": "https://www.galiciapress.es/images/showid/8171234",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:19:08.000Z"
+    },
+    {
+      "id": "BjFqeZHorNpW",
+      "representative": {
+        "id": "BjFqeZHorNpW",
+        "url": "https://www.galiciapress.es/articulo/sanidad/2026-10-07/6043437-gomez-caamano-acusa-bng-hacer-marketing-sanitario-defiende-planificacion-salud-mental",
+        "canonicalUrl": "https://www.galiciapress.es/articulo/sanidad/2026-10-07/6043437-gomez-caamano-acusa-bng-hacer-marketing-sanitario-defiende-planificacion-salud-mental",
+        "title": "Gómez Caamaño acusa al BNG de hacer \"marketing sanitario\" y defiende su planificación de la salud mental",
+        "description": "Sanidade prevé ocho nuevos psicólogos clínicos en Primaria en 2027 y mantiene su objetivo de llegar a 50 en 2030",
+        "source": {
+          "id": "es_ga_galiciapress",
+          "name": "Galiciapress"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T14:03:03.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:03:03.000Z"
+    },
+    {
+      "id": "3H_x1ZbDj3xT",
+      "representative": {
+        "id": "3H_x1ZbDj3xT",
+        "url": "https://www.nosdiario.gal/articulo/social/asociacion-galega-defensa-da-sanidade-publica-denuncia-que-galiza-destina-477-do-gasto-sanitario-publico-partidas-vinculadas-ao-sector-privado/20261007152120268704.html",
+        "canonicalUrl": "https://www.nosdiario.gal/articulo/social/asociacion-galega-defensa-da-sanidade-publica-denuncia-que-galiza-destina-477-do-gasto-sanitario-publico-partidas-vinculadas-ao-sector-privado/20261007152120268704.html",
+        "title": "A FADSP denuncia que o Sergas destina 47,7% do gasto sanitario a partidas relacionadas co sector privado",
+        "description": "A Federación de Asociacións para a Defensa da Sanidade Pública (FADSP) advirte do avance da privatización sanitaria na Galiza e cifra en 2.640 millóns de euros o gasto público que se destina a concertos, medicamentos, material sanitario e investimentos. A contía equivale a un 47,7% do gasto…",
+        "source": {
+          "id": "es_ga_nosdiario",
+          "name": "Nós Diario"
+        },
+        "sourceCountry": "ES",
+        "language": "gl",
+        "publishedAt": "2026-10-07T13:21:20.000Z",
+        "imageUrl": "https://www.nosdiario.gal/media/nosdiario/images/2026/05/28/2026052816034967733.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:21:20.000Z"
+    },
+    {
+      "id": "BPAab4CN2_QT",
+      "representative": {
+        "id": "BPAab4CN2_QT",
+        "url": "https://www.nosdiario.gal/articulo/social/galiza-rexistrou-segundo-setembro-mais-calido-1961/20261007150903268699.html",
+        "canonicalUrl": "https://www.nosdiario.gal/articulo/social/galiza-rexistrou-segundo-setembro-mais-calido-1961/20261007150903268699.html",
+        "title": "A Galiza rexistrou o segundo setembro máis cálido desde 1961",
+        "description": "A temperatura media alcanzou os 20,4 graos, 2,4 por riba do habitual, mentres as precipitacións ficaron un 52% por baixo da media histórica",
+        "source": {
+          "id": "es_ga_nosdiario",
+          "name": "Nós Diario"
+        },
+        "sourceCountry": "ES",
+        "language": "gl",
+        "publishedAt": "2026-10-07T13:09:03.000Z",
+        "imageUrl": "https://www.nosdiario.gal/media/nosdiario/images/2026/10/07/2026100714550244132.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:09:03.000Z"
+    },
+    {
+      "id": "EOtwg_coSYp1",
+      "representative": {
+        "id": "EOtwg_coSYp1",
+        "url": "https://www.nosdiario.gal/articulo/traballo/cut-apoia-folga-xeral-mais-matices-non-so-vivenda-sistema/20261007150117268698.html",
+        "canonicalUrl": "https://www.nosdiario.gal/articulo/traballo/cut-apoia-folga-xeral-mais-matices-non-so-vivenda-sistema/20261007150117268698.html",
+        "title": "A CUT apoia a folga xeral mais con \"matices\": \"Non é só a vivenda, é o sistema\"",
+        "description": "A CUT responsabiliza da situación da clase traballadora \"o réxime do 78, o capitalismo que o ampara e os partidos que o lexitiman no Parlamento\".",
+        "source": {
+          "id": "es_ga_nosdiario",
+          "name": "Nós Diario"
+        },
+        "sourceCountry": "ES",
+        "language": "gl",
+        "publishedAt": "2026-10-07T13:01:17.000Z",
+        "imageUrl": "https://www.nosdiario.gal/media/nosdiario/images/2026/10/03/2026100311430628401.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:01:17.000Z"
+    },
+    {
+      "id": "qyfrz_zF18UR",
+      "representative": {
+        "id": "qyfrz_zF18UR",
+        "url": "https://www.diariodepontevedra.es/articulo/pontevedra/cuidados/202610071456151471113.html",
+        "canonicalUrl": "https://www.diariodepontevedra.es/articulo/pontevedra/cuidados/202610071456151471113.html",
+        "title": "Pontevedra lanza unas jornadas gratuitas para \"cuidar a quien cuida\"",
+        "description": "La iniciativa, impulsada de forma altruista por tres profesionales de Enfermería del Área Sanitaria, pretende mejorar el bienestar de los cuidadores familiares y crear redes de apoyo. Tendrá lugar del 2 al 25 de noviembre en el Centro Leste, la Casa Azul y el Centro Social de Lérez",
+        "source": {
+          "id": "es_ga_diariodepontevedra",
+          "name": "Diario de Pontevedra"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T12:56:15.000Z",
+        "imageUrl": "https://www.diariodepontevedra.es/media/diariodepontevedra/images/2026/10/07/2026100714501746300.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:56:15.000Z"
+    },
+    {
+      "id": "YJiGQvGMn5jr",
+      "representative": {
+        "id": "YJiGQvGMn5jr",
+        "url": "https://www.lavozdegalicia.es/noticia/galicia/2026/10/07/span-langgl-pacto-pola-lingua-sae-adiante-co-respaldo-dousterzos-do-parlamento-galegospan/00031791371619207412133.htm",
+        "canonicalUrl": "https://www.lavozdegalicia.es/noticia/galicia/2026/10/07/span-langgl-pacto-pola-lingua-sae-adiante-co-respaldo-dousterzos-do-parlamento-galegospan/00031791371619207412133.htm",
+        "title": "O pacto pola lingua sae adiante co respaldo de dous terzos do Parlamento galego",
+        "description": "O BNG queda fóra e fala de oportunidade perdida por manter o decreto do 2010, mentres o PSdeG lémbralle aos nacionalistas que se na negociación foran 34 deputados en lugar de nove terían avanzado máis",
+        "source": {
+          "id": "es_ga_lavozdegalicia",
+          "name": "La Voz de Galicia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T12:32:00.000Z",
+        "imageUrl": "https://cflvdg.avoz.es/sc/p0JOIdE2tsm4-xDPB03UFbs9lEc=/768x/2026/10/07/00121791380462892730236/Foto/efe_20261007_124927974.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:32:00.000Z"
+    },
+    {
+      "id": "KNF4MEQ4wExl",
+      "representative": {
+        "id": "KNF4MEQ4wExl",
+        "url": "https://www.diariodepontevedra.es/articulo/pontevedra/pontevedra-aspira-ahorrar-70-factura-electrica-cambio-luminarias/202610071426191471114.html",
+        "canonicalUrl": "https://www.diariodepontevedra.es/articulo/pontevedra/pontevedra-aspira-ahorrar-70-factura-electrica-cambio-luminarias/202610071426191471114.html",
+        "title": "Pontevedra ahorarrá más de un 70% en la factura eléctrica con el cambio de luminarias",
+        "description": "El presidente de la Diputación y el alcalde de Pontevedra visitaron la plaza del Hospital Provincial, una de las zonas donde se instalan las nuevas luces led. El proyecto, financiado por la Administración provincial, está ejecutado en más de un 50% y supone el cambio de 2.300 puntos de luz así…",
+        "source": {
+          "id": "es_ga_diariodepontevedra",
+          "name": "Diario de Pontevedra"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T12:26:19.000Z",
+        "imageUrl": "https://www.diariodepontevedra.es/media/diariodepontevedra/images/2026/10/07/2026100713262856879.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:26:19.000Z"
+    },
+    {
+      "id": "Szn8V2N3GZPH",
+      "representative": {
+        "id": "Szn8V2N3GZPH",
+        "url": "https://www.lavozdegalicia.es/noticia/pontevedra/2026/10/07/trasladado-residencia-hombre-llevaba-cinco-meses-hospitalizado-pontevedra-pese-estar-enfermo/00031791373312549562828.htm",
+        "canonicalUrl": "https://www.lavozdegalicia.es/noticia/pontevedra/2026/10/07/trasladado-residencia-hombre-llevaba-cinco-meses-hospitalizado-pontevedra-pese-estar-enfermo/00031791373312549562828.htm",
+        "title": "Trasladado a una residencia el hombre que llevaba cinco meses ingresado en el hospital de Pontevedra pese a estar curado",
+        "description": "Finalmente, fue la Justicia la que intervino para que esta persona fuese internada en un centro donde le dispensarán los cuidados que necesita, ya que de forma voluntaria no quería ir",
+        "source": {
+          "id": "es_ga_lavozdegalicia",
+          "name": "La Voz de Galicia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T12:17:00.000Z",
+        "imageUrl": "https://cflvdg.avoz.es/sc/ypq5lrVmRo4xgnJ-RjiAEHBafxY=/768x/2026/01/09/00121767960602029648866/Foto/p_20260109_125155000.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:17:00.000Z"
+    },
+    {
+      "id": "bJ0uiNlGQTbY",
+      "representative": {
+        "id": "bJ0uiNlGQTbY",
+        "url": "https://www.elprogreso.es/articulo/lugo/lugo-monumental-denuncia-venta-falsificaciones-puestos-san-froilan/202610071404482003998.html",
+        "canonicalUrl": "https://www.elprogreso.es/articulo/lugo/lugo-monumental-denuncia-venta-falsificaciones-puestos-san-froilan/202610071404482003998.html",
+        "title": "Lugo Monumental denuncia la venta de falsificaciones en los puestos de San Froilán",
+        "description": "La asociación pide que el Concello tome medidas para un mayor control sobre el ferial",
+        "source": {
+          "id": "es_ga_elprogreso",
+          "name": "El Progreso (Lugo)"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T12:04:48.000Z",
+        "imageUrl": "https://www.elprogreso.es/media/elprogreso/images/2026/10/07/2026100714022382110.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:04:48.000Z"
+    },
+    {
+      "id": "JD8b0qvRB7tg",
+      "representative": {
+        "id": "JD8b0qvRB7tg",
+        "url": "https://www.eldiario.es/galicia/rectificacion-familia-franco-no-cometido-expolio-pazo-meiras-bienes-interior-encuentran_1_13568582.html",
+        "canonicalUrl": "https://www.eldiario.es/galicia/rectificacion-familia-franco-no-cometido-expolio-pazo-meiras-bienes-interior-encuentran_1_13568582.html",
+        "title": "Rectificación: La familia Franco no ha cometido ningún expolio sobre el Pazo de Meirás ni sobre los bienes que en su interior se encuentran",
+        "description": "En cumplimiento de la sentencia 341/2026 de la Audiencia Provincial de Madrid publicamos esta nota de rectificación que fue remitida por Jaime Martínez Bordiu Franco a la redacción de elDiario.es Nota de rectificación referida a la noticia titulada ‘Visita guiada al Pazo de Meirás 13 años después…",
+        "source": {
+          "id": "es_ga_eldiario",
+          "name": "elDiario.es Galicia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T11:34:19.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-GA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:34:19.000Z"
+    }
+  ]
+}
