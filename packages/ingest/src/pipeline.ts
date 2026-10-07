@@ -51,7 +51,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   const log = opts.log ?? console.log;
 
   // Every request in a run is stamped with the run's start time, so runs that
-  // start 15 minutes apart are exactly 15 minutes apart for the throttle too.
+  // start one interval apart are exactly that far apart for the throttle too.
   const runStart = clock();
   const http = await HttpCache.load(join(dataDir, '.cache', 'http.json'), {
     userAgent: settings.userAgent,

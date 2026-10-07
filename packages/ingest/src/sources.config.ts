@@ -5295,8 +5295,9 @@ export const INGEST_SETTINGS = {
   /** Never request the same feed more often than this, even on manual runs. */
   minFetchIntervalMs: 15 * 60 * 1000,
   /**
-   * Scheduling slack: cron fires every 15 min with millisecond jitter, so a
-   * strict check would skip every other slot. Requests stay ≥ 14m55s apart.
+   * Scheduling slack: cron fires with millisecond jitter, so a strict check
+   * could skip a slot that is exactly one interval later. Requests stay
+   * ≥ 14m55s apart.
    */
   fetchIntervalSlackMs: 5_000,
   fetchTimeoutMs: 20_000,
@@ -5322,6 +5323,10 @@ export const INGEST_SETTINGS = {
   clusterMinAverageLink: 0.2,
   maxClustersPerCountry: 15,
   descriptionMaxChars: 300,
-  /** node-cron schedule for `pnpm ingest:watch`. */
-  cronSchedule: '*/15 * * * *',
+  /**
+   * node-cron schedule for `pnpm ingest:watch`: hourly, which is plenty for a
+   * front page and keeps the load on publishers (and the Pi) low.
+   * minFetchIntervalMs stays the hard floor for manual runs and probes.
+   */
+  cronSchedule: '0 * * * *',
 };

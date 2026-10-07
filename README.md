@@ -16,7 +16,7 @@ Requires Node ≥ 20.11 and pnpm (`corepack enable` gives you the pinned version
 pnpm install
 pnpm dev            # web app on http://localhost:5173 (shows the committed sample data)
 pnpm ingest         # one-off run: fetch feeds → data/countries/*.json + data/index.json
-pnpm ingest:watch   # run now, then every 15 minutes (node-cron)
+pnpm ingest:watch   # run now, then every hour (node-cron)
 pnpm test           # vitest (ingest pipeline)
 pnpm typecheck      # all packages
 pnpm build          # production build of the web app → apps/web/dist
@@ -46,7 +46,7 @@ deploy/raspberry-pi/ systemd unit for the ingest
 The work is precomputed, so a click never triggers a query.
 
 ```
- every 15 min                                                   static JSON
+ every hour                                                     static JSON
 ┌────────────┐   ┌──────────┐   ┌───────────┐   ┌─────────┐   ┌──────┐   ┌──────────────────────┐
 │ RSS feeds  │──▶│ HttpCache│──▶│ normalize │──▶│ cluster │──▶│ rank │──▶│ data/countries/FR.json│
 │ (adapters) │   │ ETag/LM  │   │ + dedupe  │   │ (title  │   │      │   │ data/index.json       │
@@ -71,14 +71,14 @@ Live at **https://news-globe.maze-td.workers.dev**.
  Raspberry Pi (systemd)                       Cloudflare (free tier)
 ┌──────────────────────────┐  one KV write   ┌──────────────────────────────────────┐
 │ pnpm ingest:watch        │ ──────────────▶ │ KV "news-globe-data"                 │
-│  every 15 min → data/    │  if changed     │   "bundle": index + all countries    │
+│  every hour → data/      │  if changed     │   "bundle": index + all countries    │
 └──────────────────────────┘                 │ Worker "news-globe"                  │
                                              │   /data/*  → KV (max-age=60)         │
                                              │   anything else → static assets      │
                                              └──────────────────────────────────────┘
 ```
 
-Why the ingest runs on the Pi rather than on a Cloudflare Cron Trigger: a free-plan Worker gets 10 ms of CPU per invocation, and parsing ~25 feeds and clustering ~400 titles takes far more than that. KV's free tier allows 1,000 writes a day, so the publisher packs `index.json` and every `countries/{CC}.json` into a single `bundle` value (a JSON offset table, then the files back to back; see [bundle.ts](packages/shared/src/bundle.ts)) and uploads it only when its hash changed: at most 96 writes a day, whatever the number of countries. The Worker slices the requested file out of the bundle.
+Why the ingest runs on the Pi rather than on a Cloudflare Cron Trigger: a free-plan Worker gets 10 ms of CPU per invocation, and parsing ~25 feeds and clustering ~400 titles takes far more than that. KV's free tier allows 1,000 writes a day, so the publisher packs `index.json` and every `countries/{CC}.json` into a single `bundle` value (a JSON offset table, then the files back to back; see [bundle.ts](packages/shared/src/bundle.ts)) and uploads it only when its hash changed: at most 24 writes a day, whatever the number of countries. The Worker slices the requested file out of the bundle.
 
 ### Front end (Worker + static assets)
 
@@ -140,7 +140,7 @@ To update the Pi (e.g. after adding a country, which also needs a Worker redeplo
 
 | Step | What it does |
 | --- | --- |
-| **Fetch** | `HttpCache` ([http.ts](packages/ingest/src/http.ts)) sends `If-None-Match` / `If-Modified-Since` and keeps validators and **parsed items** in `data/.cache/http.json`. A feed requested less than 15 minutes ago is skipped, even on a manual `pnpm ingest`, and its cached items are reused. A 304 also reuses the cached items. A failed feed keeps serving its last good items, and its retry is throttled the same way. Every request in a run is stamped with the run's start time, and the check allows 5 s of slack, so the 15-minute cron never skips a slot. |
+| **Fetch** | `HttpCache` ([http.ts](packages/ingest/src/http.ts)) sends `If-None-Match` / `If-Modified-Since` and keeps validators and **parsed items** in `data/.cache/http.json`. A feed requested less than 15 minutes ago is skipped, even on a manual `pnpm ingest`, and its cached items are reused. A 304 also reuses the cached items. A failed feed keeps serving its last good items, and its retry is throttled the same way. Every request in a run is stamped with the run's start time, and the check allows 5 s of slack, so cron jitter never makes a run skip a feed. |
 | **Parse** | `rss-parser`. The adapter keeps title, link, the feed's `<description>` (HTML stripped, ~300 chars) and the date. Images come from `media:content`, then `media:thumbnail`, then `enclosure`, then the first `<img>`. `content:encoded` (often the full article) is never read into the stored description. |
 | **Normalize** | Canonical URL: strip `utm_*`, `fbclid`, `gclid`, `xtor`, `at_*`, `smid` and similar, drop the fragment, lowercase the host, sort the remaining params. `id` is 12 chars of base64url SHA-256 of the canonical URL. Future dates are clamped to now; articles older than 48 h are dropped. |
 | **Dedupe** | Exact match on canonical URL. Outlets often list the same article in two section feeds. |
@@ -1600,7 +1600,7 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 3. If its language has no stopword list yet, add one to `STOPWORDS_BY_LANGUAGE` in [normalize/text.ts](packages/ingest/src/normalize/text.ts). Otherwise clustering will match on function words.
 4. Run `pnpm ingest --offline` and read the multi-outlet clusters.
 5. Merge, then redeploy the Worker (`COUNTRIES` is bundled into the front end).
-6. Hand your probe history to the Pi, so it won't fetch a feed you probed less than 15 minutes ago: copy your `data/.cache/http.json` to the Pi (e.g. `scp data/.cache/http.json pi:/tmp/probe-cache.json`) and run `pnpm cache:merge /tmp/probe-cache.json` there, between two runs (not on a :00/:15/:30/:45 boundary). Then `git pull && pnpm install --frozen-lockfile`. The next run publishes the new country.
+6. Hand your probe history to the Pi, so it won't fetch a feed you probed less than 15 minutes ago: copy your `data/.cache/http.json` to the Pi (e.g. `scp data/.cache/http.json pi:/tmp/probe-cache.json`) and run `pnpm cache:merge /tmp/probe-cache.json` there, between two runs (not at the top of the hour). Then `git pull && pnpm install --frozen-lockfile`. The next run publishes the new country.
 
 ## Next steps
 
