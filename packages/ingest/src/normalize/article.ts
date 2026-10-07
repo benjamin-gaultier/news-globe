@@ -177,6 +177,10 @@ const NOT_NEWS: RegExp[] = [
   /^as it happened: [\w ]{2,30} news on\b/i,
   /\bpodcast (?:january|february|march|april|may|june|july|august|september|october|november|december) \d{1,2},? \d{4}$/i,
   /^world in pictures\b/i,
+  // Property listings and digital-edition entries (Canberra Daily): "5 Berra Close, Ngunnawal",
+  // "1/71 Paterson Street, Ainslie", "8 October 2026".
+  /^\d+[a-z]?(?:\/\d+[a-z]?)?\s(?:[A-Z][\w'’-]*\s){1,3}(?:Street|St|Road|Rd|Close|Crescent|Cres|Avenue|Ave|Place|Pl|Way|Drive|Dr|Court|Ct|Circuit|Cct|Terrace|Tce|Lane|Parade|Grove|Boulevard|Loop),\s[A-Z][\w '’-]+$/,
+  /^\d{1,2} (?:january|february|march|april|may|june|july|august|september|october|november|december) \d{4}$/i,
   /^transports en direct\s*\|/i,
   /^(?:news of the day|call of the wilde|atlantic skies|coming soon)\s*:/i,
   // Brazilian regional feeds. g1's generated pages: "Resultado das eleições 2026 em Acari (RN): como foi a votação…",
@@ -208,7 +212,7 @@ const NOT_NEWS: RegExp[] = [
   /^\d{1,2}\/\d{1,2}\/\d{4}\s*[-–]\s*assista\b/i,
   /^[^-–]{2,40}\s[-–]\s(?:(?:segunda|terça|quarta|quinta|sexta|sábado|domingo)\S*\s)?\d{1,2}\/\d{1,2}\/\d{4}$/i,
   /\s[-–]\s*ed\.\s*\d+\s*[-–]/i,
-  /^falecimentos\b/i,
+  /^(?:lista de )?falecimentos\b/i,
 ];
 
 /**

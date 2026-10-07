@@ -318,6 +318,11 @@ describe('isNotNews', () => {
       'JD1 NO AR - Quarta 7/10/2026',
       'Jornal Guarulhos Hoje – Ed. 4496 – 7/10/2026',
       'Falecimentos desta quarta-feira',
+      'Lista de falecimentos – 6/10/2026',
+      '5 Berra Close, Ngunnawal',
+      '1/71 Paterson Street, Ainslie',
+      '29 Jim Bradley Crescent, Uriarra Village',
+      '8 October 2026',
     ]) {
       expect(isNotNews(t), t).toBe(true);
     }
@@ -377,6 +382,8 @@ describe('isNotNews', () => {
       'Concurso no Piauí abre 107 vagas com salários de até R$ 7,2 mil',
       'Confira a lista completa dos deputados federais eleitos por Sergipe',
       'Câmara aprova projeto - votação final em 7/10/2026',
+      '7 dead after crash on Pacific Highway, police say',
+      '10 Downing Street, the PM and the budget',
       'Morre aos 90 anos ex-prefeito de Londrina; falecimentos na cidade sobem',
     ]) {
       expect(isNotNews(t), t).toBe(false);
