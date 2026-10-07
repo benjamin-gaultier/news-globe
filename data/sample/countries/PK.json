@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PK",
   "countryName": "Pakistan",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "mw_09x8TxHk7",
@@ -76,7 +76,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T12:54:00.000Z"
     },
@@ -135,110 +135,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
+      "outletCount24h": 1,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T13:24:57.000Z"
-    },
-    {
-      "id": "clBwRYjSkUd-",
-      "representative": {
-        "id": "clBwRYjSkUd-",
-        "url": "https://www.dawn.com/news/2035164/nobel-physics-prize-honours-work-on-ghost-messengers-from-space",
-        "canonicalUrl": "https://www.dawn.com/news/2035164/nobel-physics-prize-honours-work-on-ghost-messengers-from-space",
-        "title": "Nobel physics prize honours work on 'ghost messengers from space'",
-        "description": "Belgian physicist Francis Halzen on Tuesday won the Nobel Prize in Physics for work on subatomic particles at the South Pole, the award jury said. “This year’s prize is about ghostly messengers from space,” Ellen Moons, secretary general of the Royal Swedish Academy of Sciences, told a news…",
-        "source": {
-          "id": "dawn",
-          "name": "Dawn"
-        },
-        "sourceCountry": "PK",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:26:17.000Z",
-        "imageUrl": "https://i.dawn.com/large/2026/10/06152423c42cfe9.webp",
-        "countryCode": "PK",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "pA7TQuxuicPv",
-          "url": "https://www.brecorder.com/news/40442902/ghost-particle-hunter-francis-halzen-wins-2026-nobel-physics-prize",
-          "canonicalUrl": "https://www.brecorder.com/news/40442902/ghost-particle-hunter-francis-halzen-wins-2026-nobel-physics-prize",
-          "title": "'Ghost particle' hunter Francis Halzen wins 2026 Nobel Physics Prize",
-          "description": "STOCKHOLM: Belgian-American particle physicist Francis Halzen won the 2026 Nobel Prize in Physics for ground-breaking work creating an observatory to detect some of the universe’s most elusive particles, high-energy neutrinos, and how they ​are created. Halzen realised that ice at the South Pole…",
-          "source": {
-            "id": "brecorder",
-            "name": "Business Recorder"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:35:45.000Z",
-          "imageUrl": "https://i.brecorder.com/large/2026/10/0615313570d4a5d.gif",
-          "countryCode": "PK",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:35:45.000Z"
-    },
-    {
-      "id": "YUGEY9li5I9d",
-      "representative": {
-        "id": "YUGEY9li5I9d",
-        "url": "https://www.dawn.com/news/2035149/4-fbr-officials-traffic-policeman-martyred-in-di-khan-attacks-police",
-        "canonicalUrl": "https://www.dawn.com/news/2035149/4-fbr-officials-traffic-policeman-martyred-in-di-khan-attacks-police",
-        "title": "4 FBR officials, traffic policeman martyred in DI Khan attacks: police",
-        "description": "DERA ISMAIL KHAN: Four Federal Board of Revenue (FBR) officials were martyred in firing by unidentified assailants near Qureshi Mor in Dera Ismail Khan, while a separate attack on a highway traffic police mobile near the Mufti Mahmood Chowk bypass left a police official martyred and another…",
-        "source": {
-          "id": "dawn",
-          "name": "Dawn"
-        },
-        "sourceCountry": "PK",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:16:12.000Z",
-        "imageUrl": "https://i.dawn.com/large/2026/10/06142117c60424d.webp",
-        "countryCode": "PK",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "WSN2YcEdRccO",
-          "url": "https://www.geo.tv/latest/685218-four-fbr-personnel-shot-dead-in-di-khan-police",
-          "canonicalUrl": "https://www.geo.tv/latest/685218-four-fbr-personnel-shot-dead-in-di-khan-police",
-          "title": "Four FBR personnel shot dead in DI Khan: police",
-          "description": "Armed men open fire on FBR personnel near Abhaya Bridge in DI Khan district, Khyber Pakhtunkhwa on October 6, 2026. — Reporter FBR personnel martyred near Abhaya Bridge.Slain FBR personnel's bodies shifted to DHQ hospital.Armed men attack police van near Bannu...",
-          "source": {
-            "id": "geo",
-            "name": "Geo News"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-06T08:06:38.000Z",
-          "imageUrl": "https://www.geo.tv/assets/uploads/2026-10-06/685218_021440_updates.jpg",
-          "countryCode": "PK",
-          "regionCode": null
-        },
-        {
-          "id": "3np8EpIsKcwU",
-          "url": "https://tribune.com.pk/story/2633262/four-including-two-fbr-officials-killed-in-di-khan-firing",
-          "canonicalUrl": "https://tribune.com.pk/story/2633262/four-including-two-fbr-officials-killed-in-di-khan-firing",
-          "title": "Four FBR officials, traffic police officer killed in DI Khan firing",
-          "description": "Two terrorists were killed in an exchange of fire in Bannu, while three people reportedly abducted in Tank",
-          "source": {
-            "id": "tribune_pk",
-            "name": "The Express Tribune"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-06T02:44:49.000Z",
-          "imageUrl": null,
-          "countryCode": "PK",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T10:16:12.000Z"
     },
     {
       "id": "ZQkzoevtWZUe",
@@ -476,7 +375,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:55:19.000Z"
     },
@@ -500,9 +399,57 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:39:28.000Z"
+    },
+    {
+      "id": "Do0VblYQmm6A",
+      "representative": {
+        "id": "Do0VblYQmm6A",
+        "url": "https://www.brecorder.com/news/40442908/palm-closes-lower-on-rising-stockpile-concerns",
+        "canonicalUrl": "https://www.brecorder.com/news/40442908/palm-closes-lower-on-rising-stockpile-concerns",
+        "title": "Palm closes lower on rising stockpile concerns",
+        "description": "KUALA LUMPUR: Malaysian palm oil futures closed lower on Tuesday as concerns over rising September stockpiles and weaker crude oil prices weighed on the market. The benchmark palm oil contract for December delivery on the Bursa Malaysia Derivatives Exchange shed 18 ringgit, or 0.39%, to 4,560…",
+        "source": {
+          "id": "brecorder",
+          "name": "Business Recorder"
+        },
+        "sourceCountry": "PK",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:34:49.000Z",
+        "imageUrl": "https://i.brecorder.com/large/2026/10/06163438ba1e8aa.webp",
+        "countryCode": "PK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:34:49.000Z"
+    },
+    {
+      "id": "ChTr3jjTbVWV",
+      "representative": {
+        "id": "ChTr3jjTbVWV",
+        "url": "https://www.brecorder.com/news/40442907/ccp-greenlights-fatima-fertilizers-acquisition-of-agritech-shares",
+        "canonicalUrl": "https://www.brecorder.com/news/40442907/ccp-greenlights-fatima-fertilizers-acquisition-of-agritech-shares",
+        "title": "CCP greenlights Fatima Fertilizer’s acquisition of Agritech shares",
+        "description": "The Competition Commission of Pakistan (CCP) has completed its Phase-I competition review and authorised a transaction involving the acquisition of shares in Agritech Limited by Fatima Fertilizer Company Limited. The transaction involved the acquisition of Agritech shares through the Pakistan…",
+        "source": {
+          "id": "brecorder",
+          "name": "Business Recorder"
+        },
+        "sourceCountry": "PK",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:34:21.000Z",
+        "imageUrl": "https://i.brecorder.com/large/2026/10/06163245164f2ed.webp",
+        "countryCode": "PK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:34:21.000Z"
     }
   ]
 }

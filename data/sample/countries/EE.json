@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "EE",
   "countryName": "Estonia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "yo3Xy8S54iLG",
@@ -59,7 +59,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T13:01:49.000Z"
     },
@@ -104,48 +104,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:00:00.000Z"
-    },
-    {
-      "id": "qP3jSK8a0C23",
-      "representative": {
-        "id": "qP3jSK8a0C23",
-        "url": "https://www.err.ee/1610157946/suri-telemees-voldemar-lindstrom",
-        "canonicalUrl": "https://www.err.ee/1610157946/suri-telemees-voldemar-lindstrom",
-        "title": "Suri telemees Voldemar Lindström",
-        "description": "Teisipäeva hommikul suri 93 aasta vanuselt legendaarne telemees Voldemar Lindström.",
-        "source": {
-          "id": "err",
-          "name": "ERR"
-        },
-        "sourceCountry": "EE",
-        "language": "et",
-        "publishedAt": "2026-10-06T10:32:00.000Z",
-        "imageUrl": "https://s.err.ee/photo/crop/2026/10/06/3831820he4eet4.jpg",
-        "countryCode": "EE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ycdwYwPTUQvs",
-          "url": "https://www.ohtuleht.ee/melu/1168393/suri-legendaarne-telemees-voldemar-lindstrom",
-          "canonicalUrl": "https://www.ohtuleht.ee/melu/1168393/suri-legendaarne-telemees-voldemar-lindstrom",
-          "title": "Suri legendaarne telemees Voldemar Lindström",
-          "description": "Teisipäeva hommikul suri 93 aasta vanuselt legendaarne telemees Voldemar Lindström, vahendab ERR.",
-          "source": {
-            "id": "ohtuleht",
-            "name": "Õhtuleht"
-          },
-          "sourceCountry": "EE",
-          "language": "et",
-          "publishedAt": "2026-10-06T11:10:29.000Z",
-          "imageUrl": "https://p.ohtuleht.ee/webp/60/i/2026/10/6/jtdxq4lu.sh5.jpg",
-          "countryCode": "EE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:10:29.000Z"
     },
     {
       "id": "bdJhLHYM9o1F",
@@ -434,6 +392,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:25:00.000Z"
+    },
+    {
+      "id": "4cjc4P-GF2Tj",
+      "representative": {
+        "id": "4cjc4P-GF2Tj",
+        "url": "https://pmo.ee/8559465",
+        "canonicalUrl": "https://pmo.ee/8559465",
+        "title": "WSJ ⟩ Vabariiklased sidusid senatilootused Sununu dünastiaga sinises New Hampshire’is",
+        "description": "Esimest korda valiti John E. Sununu senatisse 11. septembri terrorirünnakute kiiluvees ning ta oli seal kõige noorem liige kuni oma ainsaks jäänud ametiaja lõpuni.",
+        "source": {
+          "id": "postimees",
+          "name": "Postimees"
+        },
+        "sourceCountry": "EE",
+        "language": "et",
+        "publishedAt": "2026-10-06T13:22:42.000Z",
+        "imageUrl": "https://f11.pmo.ee/wNCZSVWDcbooAtNr-sxJe8DLK5Q=/480x270/smart/nginx/o/2026/10/06/17959141t1h5be3.jpg",
+        "countryCode": "EE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:22:42.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CH",
   "countryName": "Switzerland",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "uAiKU_zZjUY1",
@@ -42,9 +42,33 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
+      "outletCount24h": 1,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:14:33.000Z"
+    },
+    {
+      "id": "plyzxGcTPp0r",
+      "representative": {
+        "id": "plyzxGcTPp0r",
+        "url": "https://www.blick.ch/schweiz/ostschweiz/appenzell-ausserrhoden/schaf-alarm-in-niederteufen-ar/zfnzdg7",
+        "canonicalUrl": "https://www.blick.ch/schweiz/ostschweiz/appenzell-ausserrhoden/schaf-alarm-in-niederteufen-ar/zfnzdg7",
+        "title": "Schaf-Alarm in Niederteufen AR",
+        "description": "Um 00:30 Uhr standen am Dienstag in Niederteufen plötzlich rund 120 Schafe auf der Strasse. Die Herde hatte sich offenbar kollektiv für einen nächtlichen Ausflug entschieden und den wohl wolligsten Stau der Nacht verursacht.",
+        "source": {
+          "id": "blick",
+          "name": "Blick"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:06:07.000Z",
+        "imageUrl": "https://ocdn.eu/pulscms-transforms/1/tMIktkuTURBXy80NjA0ODA3MS01OTMyLTRkMTYtYjhhNy02NjdmM2EwMWZlOGIuanBlZ5KTBc0CWM0BO5MJpmQxZDkwMQY/sr66ryrb4d.jpg",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:06:07.000Z"
     },
     {
       "id": "-qeyOUrrChQz",
@@ -84,159 +108,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
+      "outletCount24h": 1,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:06:06.000Z"
-    },
-    {
-      "id": "2ljmTssXHN-Y",
-      "representative": {
-        "id": "2ljmTssXHN-Y",
-        "url": "https://www.srf.ch/sport/tennis/atp-tour/zverev-wird-die-nummer-1-sinner-muss-die-saison-vorzeitig-beenden",
-        "canonicalUrl": "https://www.srf.ch/sport/tennis/atp-tour/zverev-wird-die-nummer-1-sinner-muss-die-saison-vorzeitig-beenden",
-        "title": "Zverev wird die Nummer 1 – Sinner muss die Saison vorzeitig beenden",
-        "description": "Der Weltranglisten-Erste aus Italien bestreitet 2026 keine Spiele mehr.",
-        "source": {
-          "id": "srf",
-          "name": "SRF News"
-        },
-        "sourceCountry": "CH",
-        "language": "de",
-        "publishedAt": "2026-10-06T11:40:44.000Z",
-        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/e427bd.webp",
-        "countryCode": "CH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "cbwxHkFAqE9Y",
-          "url": "https://www.tagesanzeiger.ch/sinner-verletzt-zverev-vor-weltranglisten-fuehrung-239932179556",
-          "canonicalUrl": "https://www.tagesanzeiger.ch/sinner-verletzt-zverev-vor-weltranglisten-fuehrung-239932179556",
-          "title": "Anhaltende Knieprobleme: Sinner bricht die Saison vorzeitig ab",
-          "description": "Jannik Sinner kehrt in diesem Jahr nicht mehr auf die Tour zurück. Damit steigen die Chancen für Alexander Zverev, Weltnummer 1 zu werden.",
-          "source": {
-            "id": "tagesanzeiger",
-            "name": "Tages-Anzeiger"
-          },
-          "sourceCountry": "CH",
-          "language": "de",
-          "publishedAt": "2026-10-06T09:27:15.000Z",
-          "imageUrl": "https://cdn.unitycms.io/images/BD5p0lsIaPr8JY7LpC386P.jpg",
-          "countryCode": "CH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:40:44.000Z"
-    },
-    {
-      "id": "aUNQVeStWR64",
-      "representative": {
-        "id": "aUNQVeStWR64",
-        "url": "https://www.srf.ch/kultur/literatur/roman-die-luecken-shida-bazyar-gewinnt-den-deutschen-buchpreis-2026",
-        "canonicalUrl": "https://www.srf.ch/kultur/literatur/roman-die-luecken-shida-bazyar-gewinnt-den-deutschen-buchpreis-2026",
-        "title": "Roman «Die Lücken» – Shida Bazyar gewinnt den Deutschen Buchpreis 2026",
-        "description": "Der Deutsche Buchpreis geht an Shida Bazyar für ihren Roman «Die Lücken».",
-        "source": {
-          "id": "srf",
-          "name": "SRF News"
-        },
-        "sourceCountry": "CH",
-        "language": "de",
-        "publishedAt": "2026-10-06T08:02:01.000Z",
-        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/27f963.webp",
-        "countryCode": "CH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "NT8pwFI4qj_W",
-          "url": "https://www.tagesanzeiger.ch/deutscher-buchpreis-shida-bazyar-gewinnt-mit-die-luecken-462405553343",
-          "canonicalUrl": "https://www.tagesanzeiger.ch/deutscher-buchpreis-shida-bazyar-gewinnt-mit-die-luecken-462405553343",
-          "title": "Deutscher Buchpreis: Shida Bazyar erzählt in «Die Lücken» von den Traumata aus der NS-Zeit",
-          "description": "Shida Bazyars fein recherchiertes Epos über ein deutsches Dorf ist zum besten Roman des Jahres gekürt worden. Eine gute Wahl.",
-          "source": {
-            "id": "tagesanzeiger",
-            "name": "Tages-Anzeiger"
-          },
-          "sourceCountry": "CH",
-          "language": "de",
-          "publishedAt": "2026-10-06T11:38:26.000Z",
-          "imageUrl": "https://cdn.unitycms.io/images/FKMEMfWN41JAFLhstJVw_u.jpg",
-          "countryCode": "CH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:38:26.000Z"
-    },
-    {
-      "id": "SABU5iIgo4DB",
-      "representative": {
-        "id": "SABU5iIgo4DB",
-        "url": "https://www.srf.ch/news/international/sachsen-anhalt-deutschland-erster-afd-landtagspraesident-gewaehlt",
-        "canonicalUrl": "https://www.srf.ch/news/international/sachsen-anhalt-deutschland-erster-afd-landtagspraesident-gewaehlt",
-        "title": "Sachsen-Anhalt – Deutschland: Erster AfD-Landtagspräsident gewählt",
-        "description": "Mit Tobias Rausch wurde erstmals ein AfD-Politiker zum Präsidenten eines deutschen Landtags gewählt.",
-        "source": {
-          "id": "srf",
-          "name": "SRF News"
-        },
-        "sourceCountry": "CH",
-        "language": "de",
-        "publishedAt": "2026-10-06T10:49:40.000Z",
-        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/2bab9a.webp",
-        "countryCode": "CH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "nFXvPcWoJIyE",
-          "url": "https://www.tagesanzeiger.ch/afd-politiker-tobias-rausch-wird-landtagspraesident-in-sachsen-anhalt-944849016376",
-          "canonicalUrl": "https://www.tagesanzeiger.ch/afd-politiker-tobias-rausch-wird-landtagspraesident-in-sachsen-anhalt-944849016376",
-          "title": "Sachsen-Anhalt: Erster AfD-Präsident eines deutschen Landtags gewählt",
-          "description": "Der 35-jährige Tobias Rausch erhält im Magdeburger Landtag 48 von 82 Stimmen. Es ist das bislang höchste Amt, das die als rechtsextrem eingestufte Partei in einem Bundesland besetzt.",
-          "source": {
-            "id": "tagesanzeiger",
-            "name": "Tages-Anzeiger"
-          },
-          "sourceCountry": "CH",
-          "language": "de",
-          "publishedAt": "2026-10-06T11:21:20.000Z",
-          "imageUrl": "https://cdn.unitycms.io/images/E07-09y2qmrA-OC4b8S4MN.jpg",
-          "countryCode": "CH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:21:20.000Z"
-    },
-    {
-      "id": "plyzxGcTPp0r",
-      "representative": {
-        "id": "plyzxGcTPp0r",
-        "url": "https://www.blick.ch/schweiz/ostschweiz/appenzell-ausserrhoden/schaf-alarm-in-niederteufen-ar/zfnzdg7",
-        "canonicalUrl": "https://www.blick.ch/schweiz/ostschweiz/appenzell-ausserrhoden/schaf-alarm-in-niederteufen-ar/zfnzdg7",
-        "title": "Schaf-Alarm in Niederteufen AR",
-        "description": "Um 00:30 Uhr standen am Dienstag in Niederteufen plötzlich rund 120 Schafe auf der Strasse. Die Herde hatte sich offenbar kollektiv für einen nächtlichen Ausflug entschieden und den wohl wolligsten Stau der Nacht verursacht.",
-        "source": {
-          "id": "blick",
-          "name": "Blick"
-        },
-        "sourceCountry": "CH",
-        "language": "de",
-        "publishedAt": "2026-10-06T13:06:07.000Z",
-        "imageUrl": "https://ocdn.eu/pulscms-transforms/1/tMIktkuTURBXy80NjA0ODA3MS01OTMyLTRkMTYtYjhhNy02NjdmM2EwMWZlOGIuanBlZ5KTBc0CWM0BO5MJpmQxZDkwMQY/sr66ryrb4d.jpg",
-        "countryCode": "CH",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:06:07.000Z"
     },
     {
       "id": "gPd24hke9Lxq",
@@ -453,6 +327,78 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:31:27.000Z"
+    },
+    {
+      "id": "jiwbpGzKg7w5",
+      "representative": {
+        "id": "jiwbpGzKg7w5",
+        "url": "https://www.srf.ch/sport/mehr-sport/darts-spektakel-in-basel-littler-fehlt-bellmont-muss-sich-noch-qualifizieren",
+        "canonicalUrl": "https://www.srf.ch/sport/mehr-sport/darts-spektakel-in-basel-littler-fehlt-bellmont-muss-sich-noch-qualifizieren",
+        "title": "Darts-Spektakel in Basel – Littler fehlt – Bellmont muss sich noch qualifizieren",
+        "description": "Am Wochenende gastiert zum dritten Mal die Darts-Elite in der Basler St. Jakobshalle – ohne den Superstar der Szene.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:30:35.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/898474.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:30:35.000Z"
+    },
+    {
+      "id": "Hs4pvk3YCAWu",
+      "representative": {
+        "id": "Hs4pvk3YCAWu",
+        "url": "https://www.srf.ch/news/international/separatistenfuehrer-katalonien-haftbefehl-gegen-puigdemont-aufgehoben-rueckkehr-moeglich",
+        "canonicalUrl": "https://www.srf.ch/news/international/separatistenfuehrer-katalonien-haftbefehl-gegen-puigdemont-aufgehoben-rueckkehr-moeglich",
+        "title": "Separatistenführer Katalonien – Haftbefehl gegen Puigdemont aufgehoben – Rückkehr möglich",
+        "description": "Das Verfassungsgericht hat ein zentrales Argument dafür, dass Puigdemonts Haftbefehl aufrechterhalten wird, gekippt.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:26:11.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/320e64.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:26:11.000Z"
+    },
+    {
+      "id": "YiZOHFEf5Uyh",
+      "representative": {
+        "id": "YiZOHFEf5Uyh",
+        "url": "https://www.srf.ch/news/schweiz/verbot-von-boellern-nein-kampagne-gegen-feuerwerksinitiative-lanciert",
+        "canonicalUrl": "https://www.srf.ch/news/schweiz/verbot-von-boellern-nein-kampagne-gegen-feuerwerksinitiative-lanciert",
+        "title": "Verbot von Böllern – Nein-Kampagne gegen Feuerwerksinitiative lanciert",
+        "description": "Die Feuerwerksinitiative fordert das Aus für lautes Feuerwerk. Gegner warnen vor Folgen für KMU und Traditionen.",
+        "source": {
+          "id": "srf",
+          "name": "SRF News"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:25:23.000Z",
+        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/1f40a8.webp",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:25:23.000Z"
     }
   ]
 }

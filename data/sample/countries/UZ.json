@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "UZ",
   "countryName": "Uzbekistan",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "2QYJr2Z4UeOl",
@@ -213,48 +213,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:37:13.000Z"
-    },
-    {
-      "id": "c1bQ7hmA-p3i",
-      "representative": {
-        "id": "c1bQ7hmA-p3i",
-        "url": "https://www.gazeta.uz/ru/2026/10/06/mrbeast-in-tashkent/",
-        "canonicalUrl": "https://www.gazeta.uz/ru/2026/10/06/mrbeast-in-tashkent/",
-        "title": "Самый популярный YouTube-блогер мира MrBeast посетит Ташкент",
-        "description": "Ташкент впервые посетит самый популярный YouTube-блогер мира MrBeast. Визит организован Фондом развития культуры и искусства Узбекистана. Запланирована встреча с поклонниками, отобранными случайным образом среди зарегистрировавшихся (старше 18 лет).",
-        "source": {
-          "id": "gazeta_uz",
-          "name": "Gazeta.uz"
-        },
-        "sourceCountry": "UZ",
-        "language": "ru",
-        "publishedAt": "2026-10-06T07:25:00.000Z",
-        "imageUrl": null,
-        "countryCode": "UZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "_rW_O_jCQvkH",
-          "url": "https://www.spot.uz/ru/2026/10/06/mrbeast/",
-          "canonicalUrl": "https://www.spot.uz/ru/2026/10/06/mrbeast/",
-          "title": "Самый популярный YouTube-блогер в мире MrBeast посетит Узбекистан",
-          "description": "9 октября Джимми Дональдсон посетит Ташкент и встретится с поклонниками, которых выберут случайным образом.",
-          "source": {
-            "id": "spot_uz",
-            "name": "Spot"
-          },
-          "sourceCountry": "UZ",
-          "language": "ru",
-          "publishedAt": "2026-10-06T08:40:00.000Z",
-          "imageUrl": null,
-          "countryCode": "UZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:40:00.000Z"
     },
     {
       "id": "Sr26kd4A7Yqw",
@@ -471,6 +429,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T16:26:22.000Z"
+    },
+    {
+      "id": "Ur80A8aVKq51",
+      "representative": {
+        "id": "Ur80A8aVKq51",
+        "url": "https://uza.uz/uz/posts/perlis-shtati-valiahd-shahzodasi-ozbekistonda-qisqa-vaqtda-olamshumul-ozgarishlar-amalga-oshirilgan_917755",
+        "canonicalUrl": "https://uza.uz/uz/posts/perlis-shtati-valiahd-shahzodasi-ozbekistonda-qisqa-vaqtda-olamshumul-ozgarishlar-amalga-oshirilgan_917755",
+        "title": "Перлис штати валиаҳд шаҳзодаси: Ўзбекистонда қисқа вақтда оламшумул ўзгаришлар амалга оширилган",
+        "description": "Самарқанд вилояти ҳокими А.Бобоев Набавий мерос бўйича халқаро анжуманда иштирок этиш учун юртимизга ташриф буюрган Малайзиянинг Перлис штати валиаҳд шаҳзодаси Туанку Саййид Файзуддин Путра ибн Туанку Саййид Сирожиддин Жамолуллайл бошчилигидаги делегация билан учрашди.",
+        "source": {
+          "id": "uza",
+          "name": "UzA"
+        },
+        "sourceCountry": "UZ",
+        "language": "uz",
+        "publishedAt": "2026-10-06T16:25:37.000Z",
+        "imageUrl": "https://cdn.uza.uz/2026/10/06/16/26/OHw7ysI6EG3CRbapNyECGIVAdg1S6wiA_small.jpg",
+        "countryCode": "UZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:25:37.000Z"
     }
   ]
 }

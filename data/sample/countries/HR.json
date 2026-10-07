@@ -2,143 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "HR",
   "countryName": "Croatia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "jgtmj3_QrvKE",
-      "representative": {
-        "id": "jgtmj3_QrvKE",
-        "url": "https://www.jutarnji.hr/vijesti/crna-kronika/horvatincic-ostaje-iza-resetaka-15753175",
-        "canonicalUrl": "https://www.jutarnji.hr/vijesti/crna-kronika/horvatincic-ostaje-iza-resetaka-15753175",
-        "title": "Horvatinčić ostaje iza rešetaka!",
-        "description": "Poduzetnik Tomislav Horvatinčić kojeg Državno odvjetništvo tereti zbog kršenja zabrane upravljanja motornim vozilom neće biti pušten u kućni pritvor već ostaje u Remetincu do kraja mjeseca. Odlučilo je tako izvanraspravno vijeće zagrebačkog Županijskog suda koji je usvojilo žalbu Državnog…",
-        "source": {
-          "id": "jutarnji",
-          "name": "Jutarnji list"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T11:14:00.000Z",
-        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39663257_1280.jpg?1791295101",
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "KNfU5bOwxP73",
-          "url": "https://net.hr/danas/crna-kronika/tomislav-horvatincic-ostaje-iza-resetaka-3e8b06a5-c17c-11f1-936f-9600040c8f8e",
-          "canonicalUrl": "https://net.hr/danas/crna-kronika/tomislav-horvatincic-ostaje-iza-resetaka-3e8b06a5-c17c-11f1-936f-9600040c8f8e",
-          "title": "Tomislav Horvatinčić ostaje iza rešetaka: Sud poništio odluku o kućnom pritvoru",
-          "description": "Ovom odlukom, koja je pravomoćna, Horvatinčić bi trebao ostati iza rešetaka najmanje do 25. listopada kada će se ponovno odlučivati o produljenju istražnog zatvora",
-          "source": {
-            "id": "net_hr",
-            "name": "Net.hr"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T11:54:00.000Z",
-          "imageUrl": "https://net.hr/media/2026/10/06/1608080/H-4d8e17fa-4195-4d38-8b39-13be86ee035c-1200.webp",
-          "countryCode": "HR",
-          "regionCode": null
-        },
-        {
-          "id": "xCE67SfGapzS",
-          "url": "https://www.index.hr/vijesti/clanak/horvatincicu-odbijena-zalba-ne-moze-u-kucni-pritvor/2842576.aspx",
-          "canonicalUrl": "https://www.index.hr/vijesti/clanak/horvatincicu-odbijena-zalba-ne-moze-u-kucni-pritvor/2842576.aspx",
-          "title": "Preokret: Horvatinčić ostaje u Remetincu",
-          "description": "TUŽITELJSTVO ga tereti za vožnju pod sudskom zabranom.",
-          "source": {
-            "id": "index_hr",
-            "name": "Index.hr"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T11:50:00.000Z",
-          "imageUrl": null,
-          "countryCode": "HR",
-          "regionCode": null
-        },
-        {
-          "id": "N88LP1qV1OdA",
-          "url": "https://www.24sata.hr/news/nista-od-pritvora-u-domu-tomo-horvatincic-ostaje-iza-resetaka-1159067",
-          "canonicalUrl": "https://www.24sata.hr/news/nista-od-pritvora-u-domu-tomo-horvatincic-ostaje-iza-resetaka-1159067",
-          "title": "Ništa od pritvora u domu, Tomo Horvatinčić ostaje iza rešetaka!",
-          "description": "Odlučilo je tako upravno vijeće zagrebačkog Županijskog suda koji je usvojilo žalbu Državnog odvjetništva na odluku da se Horvatinčiću odredi istražni zatvor u domu...",
-          "source": {
-            "id": "24sata_hr",
-            "name": "24sata"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T11:38:00.000Z",
-          "imageUrl": "https://img.24sata.hr/z7kJmcQlhgAlT28Qd1VXDjOtuVE=/800x450/smart/media/images/2026-40/pxl-260926-159382719_dr2QXxf.jpg",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T11:54:00.000Z"
-    },
-    {
-      "id": "axHqwv4CGxYg",
-      "representative": {
-        "id": "axHqwv4CGxYg",
-        "url": "https://www.jutarnji.hr/vijesti/zagreb/na-natjecaj-za-novi-maksimir-stigle-jos-dvije-zalbe-zanimljivo-je-s-kojih-adresa-15753144",
-        "canonicalUrl": "https://www.jutarnji.hr/vijesti/zagreb/na-natjecaj-za-novi-maksimir-stigle-jos-dvije-zalbe-zanimljivo-je-s-kojih-adresa-15753144",
-        "title": "Na natječaj za novi Maksimir stigle još dvije žalbe! Zanimljivo je s kojih adresa",
-        "description": "Rok za žalbe na rezultate međunarodnog natječaja za novi Maksimir istekao je u ponedjeljak u 23:59, a Jutarnji ekskluzivno doznaje kako žalba Ministarstva gospodarstva nije jedina. DKOM-u su se obratila i dva arhitektonska tima koja su sudjelovala na natječaju. Prema informacijama Jutarnjeg, žalbu…",
-        "source": {
-          "id": "jutarnji",
-          "name": "Jutarnji list"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T10:21:00.000Z",
-        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39707198_1280.png?1791295101",
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "E5SGaQ71ViZD",
-          "url": "https://www.index.hr/vijesti/clanak/stigle-tri-zalbe-na-novi-maksimir/2842641.aspx",
-          "canonicalUrl": "https://www.index.hr/vijesti/clanak/stigle-tri-zalbe-na-novi-maksimir/2842641.aspx",
-          "title": "Stigle tri žalbe na novi Maksimir",
-          "description": "NA NATJEČAJ za idejno rješenje stadiona Maksimir stigle su tri žalbe - dvije arhitektonskih ureda koji su sudjelovali na natječaju i ona Ministarstva gospodarstva, potvrdila je Hini Maja Kuhar, predsjednica Državne komisije za kontrolu javne nabave, koja sada ima rok od 30 dana da o njima odluči.",
-          "source": {
-            "id": "index_hr",
-            "name": "Index.hr"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T13:56:00.000Z",
-          "imageUrl": null,
-          "countryCode": "HR",
-          "regionCode": null
-        },
-        {
-          "id": "PhRPF22ZF1xu",
-          "url": "https://net.hr/danas/vijesti/na-natjecaj-za-novi-maksimir-stigle-jos-dvije-zalbe-a90a0758-c173-11f1-936f-9600040c8f8e",
-          "canonicalUrl": "https://net.hr/danas/vijesti/na-natjecaj-za-novi-maksimir-stigle-jos-dvije-zalbe-a90a0758-c173-11f1-936f-9600040c8f8e",
-          "title": "Nakon Ministarstva, na natječaj za novi Maksimir stigle još dvije žalbe! Poznato s kojih adresa",
-          "description": "Ministar gospodarstva Ante Šušnjar u ponedjeljak je objavio kako je Ministarstvo podnijelo žalbu",
-          "source": {
-            "id": "net_hr",
-            "name": "Net.hr"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T11:02:00.000Z",
-          "imageUrl": "https://net.hr/media/2026/10/06/1607944/H-bf0e2b2a-e536-4fe6-9cb5-c49d22725061-1200.webp",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:56:00.000Z"
-    },
     {
       "id": "AyT9vMS0UlrI",
       "representative": {
@@ -409,48 +274,6 @@
       "latestPublishedAt": "2026-10-06T13:15:00.000Z"
     },
     {
-      "id": "YV2QckKG9UQ7",
-      "representative": {
-        "id": "YV2QckKG9UQ7",
-        "url": "https://net.hr/hot/zvijezde/laos-umirio-kandidate-ali-do-novog-amuleta-ceka-ih-pakleni-uspon-infarkt-gotovo-je-20c2063a-c173-11f1-936f-9600040c8f8e",
-        "canonicalUrl": "https://net.hr/hot/zvijezde/laos-umirio-kandidate-ali-do-novog-amuleta-ceka-ih-pakleni-uspon-infarkt-gotovo-je-20c2063a-c173-11f1-936f-9600040c8f8e",
-        "title": "Laos umirio kandidate, ali do novog amuleta čeka ih pakleni uspon: 'Infarkt, gotovo je!'",
-        "description": "Novi zadaci su pred sudionicima utrke života",
-        "source": {
-          "id": "net_hr",
-          "name": "Net.hr"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T10:56:02.000Z",
-        "imageUrl": "https://net.hr/media/2026/10/06/1607936/H-d355ebbd-0f92-439f-988b-e1474c7c2ba4-1200.webp",
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "P36MR2ozlnZy",
-          "url": "https://www.24sata.hr/show/laos-umirio-kandidate-ali-do-novog-amuleta-ceka-ih-pakleni-uspon-infarkt-gotovo-je-1159088",
-          "canonicalUrl": "https://www.24sata.hr/show/laos-umirio-kandidate-ali-do-novog-amuleta-ceka-ih-pakleni-uspon-infarkt-gotovo-je-1159088",
-          "title": "Laos umirio kandidate, ali do novog amuleta čeka ih pakleni uspon: 'Infarkt, gotovo je!'",
-          "description": "U novoj epizodi showa natjecatelji se suočavaju s izazovima u Laosu, gdje će se boriti za amulet dok se penju strmim stepenicama do hrama",
-          "source": {
-            "id": "24sata_hr",
-            "name": "24sata"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T13:10:00.000Z",
-          "imageUrl": "https://img.24sata.hr/OSZ3IfGVD4HZXf_JAixgn-wc_9M=/800x450/smart/media/images/2026-40/asia-express-anastasija-i-petar.jpg",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:10:00.000Z"
-    },
-    {
       "id": "VKO2mfByEUuX",
       "representative": {
         "id": "VKO2mfByEUuX",
@@ -535,172 +358,207 @@
       "latestPublishedAt": "2026-10-06T12:38:30.000Z"
     },
     {
-      "id": "qltQBtmZq60-",
+      "id": "fiOaOFDkjPXD",
       "representative": {
-        "id": "qltQBtmZq60-",
-        "url": "https://www.index.hr/vijesti/clanak/srbin-uhicen-zbog-seksualnog-uznemiravanja-hrvatice-na-oktoberfestu/2842558.aspx",
-        "canonicalUrl": "https://www.index.hr/vijesti/clanak/srbin-uhicen-zbog-seksualnog-uznemiravanja-hrvatice-na-oktoberfestu/2842558.aspx",
-        "title": "Srbin uhićen zbog seksualnog uznemiravanja Hrvatice na Oktoberfestu",
-        "description": "58-GODIŠNJI državljanin Srbije uhićen je na Oktoberfestu u Münchenu zbog sumnje da je seksualno uznemiravao 33-godišnju Hrvaticu. Pušten je uz jamčevinu i protiv njega je podnesena prijava.",
+        "id": "fiOaOFDkjPXD",
+        "url": "https://www.index.hr/magazin/clanak/od-ukusne-zimnice-do-kuhinjskih-aparata-kaufland-krije-impresivnu-ponudu/2842043.aspx",
+        "canonicalUrl": "https://www.index.hr/magazin/clanak/od-ukusne-zimnice-do-kuhinjskih-aparata-kaufland-krije-impresivnu-ponudu/2842043.aspx",
+        "title": "Od ukusne zimnice do kuhinjskih aparata: Kaufland krije impresivnu ponudu",
+        "description": "PREGLEDALI smo ponudu u novim Kaufland katalozima.",
         "source": {
           "id": "index_hr",
           "name": "Index.hr"
         },
         "sourceCountry": "HR",
         "language": "hr",
-        "publishedAt": "2026-10-06T11:26:00.000Z",
+        "publishedAt": "2026-10-06T14:00:00.000Z",
         "imageUrl": null,
         "countryCode": "HR",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "8dc2qcX2LFYa",
-          "url": "https://www.jutarnji.hr/vijesti/svijet/srbin-uhicen-na-oktoberfestu-zbog-seksualnog-uznemiravanja-hrvatice-15753202",
-          "canonicalUrl": "https://www.jutarnji.hr/vijesti/svijet/srbin-uhicen-na-oktoberfestu-zbog-seksualnog-uznemiravanja-hrvatice-15753202",
-          "title": "Srbin uhićen na Oktoberfestu zbog seksualnog uznemiravanja Hrvatice",
-          "description": "Njemačka policija uhitila je 58-godišnjeg državljanina Srbije zbog sumnje da je seksualno uznemiravao 33-godišnju Hrvaticu na Oktoberfestu u Münchenu. Incident se dogodio u subotu, 3. listopada, oko 17.45 sati ispred jednog od zatvorenih festivalskih šatora. U tom trenutku ondje se nalazila veća…",
-          "source": {
-            "id": "jutarnji",
-            "name": "Jutarnji list"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T11:57:15.000Z",
-          "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39727685_1280.jpg?1791295101",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:57:15.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:00:00.000Z"
     },
     {
-      "id": "DXMjCXNqp4zV",
+      "id": "uAzWkRdGzftY",
       "representative": {
-        "id": "DXMjCXNqp4zV",
-        "url": "https://www.jutarnji.hr/scena/strane-zvijezde/sydney-sweeney-zbog-ljubavi-s-glazbenim-mogulom-razmislja-o-velikoj-zivotnoj-promjeni-sastaje-se-s-rabinima-15753158",
-        "canonicalUrl": "https://www.jutarnji.hr/scena/strane-zvijezde/sydney-sweeney-zbog-ljubavi-s-glazbenim-mogulom-razmislja-o-velikoj-zivotnoj-promjeni-sastaje-se-s-rabinima-15753158",
-        "title": "Sydney Sweeney zbog ljubavi s mogulom razmišlja o velikoj životnoj promjeni: ‘Sastaje se s rabinima‘",
-        "description": "Izgleda da su glumica Sydney Sweeney i njezin dečko, glazbeni mogul Scooter Braun, poprilično ozbiljni - on bi je uskoro mogao zaprositi, a ona se sastaje s rabinima jer razmišlja o prelasku na drugu vjeru. Page Six piše kako par ozbiljno priča o djeci, zbog čega slavna glumica razmišlja o…",
+        "id": "uAzWkRdGzftY",
+        "url": "https://www.vecernji.hr/sport/velike-vijesti-iz-napolija-mctominay-pred-povratkom-na-teren-2001868",
+        "canonicalUrl": "https://www.vecernji.hr/sport/velike-vijesti-iz-napolija-mctominay-pred-povratkom-na-teren-2001868",
+        "title": "Velike vijesti iz Napolija: McTominay pred povratkom na teren",
+        "description": "Scott McTominay, 29-godišnji vezni nogometaš Napolija, mogao bi se u momčad aktualnog talijanskog doprvaka vratiti već za vikend, za subotnji domaći susret protiv Frosinonea",
+        "source": {
+          "id": "vecernji",
+          "name": "Večernji list"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T14:00:00.000Z",
+        "imageUrl": "https://www.vecernji.hr/media/img/82/41/7e7b1d6d4498792c95e4.jpeg",
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:00:00.000Z"
+    },
+    {
+      "id": "YOWl4BGxgVjt",
+      "representative": {
+        "id": "YOWl4BGxgVjt",
+        "url": "https://www.index.hr/mame/clanak/majka-se-osvetila-sinu-zbog-njegova-ponasanja-njezin-potez-podijelio-roditelje/2842630.aspx",
+        "canonicalUrl": "https://www.index.hr/mame/clanak/majka-se-osvetila-sinu-zbog-njegova-ponasanja-njezin-potez-podijelio-roditelje/2842630.aspx",
+        "title": "Majka se \"osvetila\" sinu zbog njegova ponašanja, njezin potez podijelio roditelje",
+        "description": "MAJKA je snimila sinov ispad bijesa u dizalu, potaknuvši raspravu o \"sitničavom roditeljstvu\".",
+        "source": {
+          "id": "index_hr",
+          "name": "Index.hr"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:59:00.000Z",
+        "imageUrl": null,
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:59:00.000Z"
+    },
+    {
+      "id": "9SLnzmabvZZC",
+      "representative": {
+        "id": "9SLnzmabvZZC",
+        "url": "https://www.index.hr/fit/clanak/sto-se-dogadja-s-losim-kolesterolom-kada-vjezbate/2842637.aspx",
+        "canonicalUrl": "https://www.index.hr/fit/clanak/sto-se-dogadja-s-losim-kolesterolom-kada-vjezbate/2842637.aspx",
+        "title": "Što se događa s \"lošim\" kolesterolom kada vježbate",
+        "description": "REDOVITA tjelovježba jako utječe na LDL kolesterol.",
+        "source": {
+          "id": "index_hr",
+          "name": "Index.hr"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:58:00.000Z",
+        "imageUrl": null,
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:58:00.000Z"
+    },
+    {
+      "id": "GE6XNiq5v8E3",
+      "representative": {
+        "id": "GE6XNiq5v8E3",
+        "url": "https://www.index.hr/vijesti/clanak/zavrseno-spajanje-paramounta-i-warner-bros-discoveryja-nastao-skydance/2842634.aspx",
+        "canonicalUrl": "https://www.index.hr/vijesti/clanak/zavrseno-spajanje-paramounta-i-warner-bros-discoveryja-nastao-skydance/2842634.aspx",
+        "title": "Završeno spajanje Paramounta i Warner Bros. Discoveryja. Nastao Skydance",
+        "description": "PARAMOUNT je zaključio preuzimanje tvrtke Warner Bros. Discovery.",
+        "source": {
+          "id": "index_hr",
+          "name": "Index.hr"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:58:00.000Z",
+        "imageUrl": null,
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:58:00.000Z"
+    },
+    {
+      "id": "8PqQflSnbIIa",
+      "representative": {
+        "id": "8PqQflSnbIIa",
+        "url": "https://www.jutarnji.hr/promo/huawei-watch-6-series-stigla-u-hrvatsku-esim-povezivost-naprednije-pracenje-zdravlja-premium-dizajn-i-pametnije-svakodnevne-funkcije-15753257",
+        "canonicalUrl": "https://www.jutarnji.hr/promo/huawei-watch-6-series-stigla-u-hrvatsku-esim-povezivost-naprednije-pracenje-zdravlja-premium-dizajn-i-pametnije-svakodnevne-funkcije-15753257",
+        "title": "HUAWEI WATCH 6 Series stigla u Hrvatsku: eSIM povezivost, naprednije praćenje zdravlja, premium dizajn i pametnije svakodnevne funkcije",
+        "description": "HUAWEI WATCH 6 Series od danas je dostupna na hrvatskom tržištu, a nova generacija Huawei pametnih satova donosi spoj premium dizajna, naprednog praćenja zdravlja i pametnih funkcija osmišljenih za svakodnevni život. Od poslovnog dana i obaveza do praćenja zdravlja i aktivnosti, modeli WATCH 6…",
         "source": {
           "id": "jutarnji",
           "name": "Jutarnji list"
         },
         "sourceCountry": "HR",
         "language": "hr",
-        "publishedAt": "2026-10-06T10:52:00.000Z",
-        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39726127_1280.jpg?1791295101",
+        "publishedAt": "2026-10-06T13:57:57.000Z",
+        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39728259_1280.jpg?1791295101",
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:57:57.000Z"
+    },
+    {
+      "id": "axHqwv4CGxYg",
+      "representative": {
+        "id": "axHqwv4CGxYg",
+        "url": "https://www.jutarnji.hr/vijesti/zagreb/na-natjecaj-za-novi-maksimir-stigle-jos-dvije-zalbe-zanimljivo-je-s-kojih-adresa-15753144",
+        "canonicalUrl": "https://www.jutarnji.hr/vijesti/zagreb/na-natjecaj-za-novi-maksimir-stigle-jos-dvije-zalbe-zanimljivo-je-s-kojih-adresa-15753144",
+        "title": "Na natječaj za novi Maksimir stigle još dvije žalbe! Zanimljivo je s kojih adresa",
+        "description": "Rok za žalbe na rezultate međunarodnog natječaja za novi Maksimir istekao je u ponedjeljak u 23:59, a Jutarnji ekskluzivno doznaje kako žalba Ministarstva gospodarstva nije jedina. DKOM-u su se obratila i dva arhitektonska tima koja su sudjelovala na natječaju. Prema informacijama Jutarnjeg, žalbu…",
+        "source": {
+          "id": "jutarnji",
+          "name": "Jutarnji list"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T10:21:00.000Z",
+        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39707198_1280.png?1791295101",
         "countryCode": "HR",
         "regionCode": null
       },
       "related": [
         {
-          "id": "L3pDGnx5v8yz",
-          "url": "https://www.index.hr/magazin/clanak/sydney-sweeney-se-sastaje-s-rabinima-izvor-tvrdi-da-razmislja-o-prelasku-na-judaizam/2842552.aspx",
-          "canonicalUrl": "https://www.index.hr/magazin/clanak/sydney-sweeney-se-sastaje-s-rabinima-izvor-tvrdi-da-razmislja-o-prelasku-na-judaizam/2842552.aspx",
-          "title": "Sydney Sweeney se sastaje s rabinima? Izvor tvrdi da razmišlja o prelasku na judaizam",
-          "description": "PAR NAVODNO planira brak i obitelj.",
+          "id": "E5SGaQ71ViZD",
+          "url": "https://www.index.hr/vijesti/clanak/stigle-tri-zalbe-na-novi-maksimir/2842641.aspx",
+          "canonicalUrl": "https://www.index.hr/vijesti/clanak/stigle-tri-zalbe-na-novi-maksimir/2842641.aspx",
+          "title": "Stigle tri žalbe na novi Maksimir",
+          "description": "NA NATJEČAJ za idejno rješenje stadiona Maksimir stigle su tri žalbe - dvije arhitektonskih ureda koji su sudjelovali na natječaju i ona Ministarstva gospodarstva, potvrdila je Hini Maja Kuhar, predsjednica Državne komisije za kontrolu javne nabave, koja sada ima rok od 30 dana da o njima odluči.",
           "source": {
             "id": "index_hr",
             "name": "Index.hr"
           },
           "sourceCountry": "HR",
           "language": "hr",
-          "publishedAt": "2026-10-06T11:17:00.000Z",
+          "publishedAt": "2026-10-06T13:56:00.000Z",
           "imageUrl": null,
           "countryCode": "HR",
           "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:17:00.000Z"
-    },
-    {
-      "id": "cYaj3pC5kmi-",
-      "representative": {
-        "id": "cYaj3pC5kmi-",
-        "url": "https://www.jutarnji.hr/promo/energetska-kriza-kuca-na-vrata-a-divljanje-cijena-ne-staje-zasto-ulagaci-u-zlato-ne-strahuju-15753171",
-        "canonicalUrl": "https://www.jutarnji.hr/promo/energetska-kriza-kuca-na-vrata-a-divljanje-cijena-ne-staje-zasto-ulagaci-u-zlato-ne-strahuju-15753171",
-        "title": "Energetska kriza kuca na vrata, a divljanje cijena ne staje: Zašto ulagači u zlato ne strahuju?",
-        "description": "Inflacija u Hrvatskoj ubrzala je na 4.7 %, a energija je za godinu dana poskupjela čak 20.5 %. Najgore možda tek dolazi, a vremena za pripremu sve je manje. I dok cijene rastu, a zalihe dizela dosežu kritično niske razine, zlato opet potvrđuje ono što iskusni ulagači znaju desetljećima: kad novac…",
-        "source": {
-          "id": "jutarnji",
-          "name": "Jutarnji list"
         },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T11:04:59.000Z",
-        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39726565_1280.jpg?1791295101",
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
         {
-          "id": "6W-KHn8E01hL",
-          "url": "https://net.hr/promo/energetska-kriza-kuca-na-vrata-a-divljanje-cijena-ne-staje-1e5050d3-c172-11f1-936f-9600040c8f8e",
-          "canonicalUrl": "https://net.hr/promo/energetska-kriza-kuca-na-vrata-a-divljanje-cijena-ne-staje-1e5050d3-c172-11f1-936f-9600040c8f8e",
-          "title": "Energetska kriza kuca na vrata, a divljanje cijena ne staje",
-          "description": null,
+          "id": "PhRPF22ZF1xu",
+          "url": "https://net.hr/danas/vijesti/na-natjecaj-za-novi-maksimir-stigle-jos-dvije-zalbe-a90a0758-c173-11f1-936f-9600040c8f8e",
+          "canonicalUrl": "https://net.hr/danas/vijesti/na-natjecaj-za-novi-maksimir-stigle-jos-dvije-zalbe-a90a0758-c173-11f1-936f-9600040c8f8e",
+          "title": "Nakon Ministarstva, na natječaj za novi Maksimir stigle još dvije žalbe! Poznato s kojih adresa",
+          "description": "Ministar gospodarstva Ante Šušnjar u ponedjeljak je objavio kako je Ministarstvo podnijelo žalbu",
           "source": {
             "id": "net_hr",
             "name": "Net.hr"
           },
           "sourceCountry": "HR",
           "language": "hr",
-          "publishedAt": "2026-10-06T10:37:00.000Z",
-          "imageUrl": "https://net.hr/media/2026/10/06/1607923/H-c3733ae8-2314-4f21-a8b4-b44c6ef76092-1200.webp",
+          "publishedAt": "2026-10-06T11:02:00.000Z",
+          "imageUrl": "https://net.hr/media/2026/10/06/1607944/H-bf0e2b2a-e536-4fe6-9cb5-c49d22725061-1200.webp",
           "countryCode": "HR",
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:04:59.000Z"
-    },
-    {
-      "id": "R1eiqkslgwrY",
-      "representative": {
-        "id": "R1eiqkslgwrY",
-        "url": "https://www.index.hr/vijesti/clanak/austrijanac-napao-muskarca-na-terasi-kafica-u-zadru-uhicen-je/2842521.aspx",
-        "canonicalUrl": "https://www.index.hr/vijesti/clanak/austrijanac-napao-muskarca-na-terasi-kafica-u-zadru-uhicen-je/2842521.aspx",
-        "title": "Austrijanac napao muškarca na terasi kafića u Zadru. Uhićen je",
-        "description": "AUSTRIJSKI državljanin (26) uhićen je u Zadru zbog sumnje da je na terasi kafića na Boriku verbalno i fizički napao 39-godišnjaka te mu prijetio. Napadnuti je lakše ozlijeđen.",
-        "source": {
-          "id": "index_hr",
-          "name": "Index.hr"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T10:20:00.000Z",
-        "imageUrl": null,
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "f_4yjCIupj4E",
-          "url": "https://net.hr/danas/vijesti/austrijanac-napao-muskarca-na-terasi-u-zadru-ozbiljno-mu-prijetio-pa-zavrsio-u-pritvoru-35af4ed6-c172-11f1-936f-9600040c8f8e",
-          "canonicalUrl": "https://net.hr/danas/vijesti/austrijanac-napao-muskarca-na-terasi-u-zadru-ozbiljno-mu-prijetio-pa-zavrsio-u-pritvoru-35af4ed6-c172-11f1-936f-9600040c8f8e",
-          "title": "Austrijanac napao muškarca na terasi u Zadru: Ozbiljno mu prijetio pa završio u pritvoru",
-          "description": "Nakon dovršenog kriminalističkog istraživanja 26-godišnjak je predan pritvorskom nadzorniku PU zadarske",
-          "source": {
-            "id": "net_hr",
-            "name": "Net.hr"
-          },
-          "sourceCountry": "HR",
-          "language": "hr",
-          "publishedAt": "2026-10-06T10:52:19.000Z",
-          "imageUrl": "https://net.hr/media/2026/10/06/1607925/H-da798a68-b79a-45b2-8307-4127c39dc52d-1200.webp",
-          "countryCode": "HR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:52:19.000Z"
+      "outletCount24h": 1,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:56:00.000Z"
     }
   ]
 }

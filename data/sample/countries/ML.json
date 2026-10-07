@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "ML",
   "countryName": "Mali",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "7U8sb9K58OUb",
-      "representative": {
-        "id": "7U8sb9K58OUb",
-        "url": "https://www.studiotamani.org/208699-segou-la-navigation-nocturne-interdite-sur-le-fleuve-niger",
-        "canonicalUrl": "https://www.studiotamani.org/208699-segou-la-navigation-nocturne-interdite-sur-le-fleuve-niger",
-        "title": "Ségou : la navigation nocturne interdite sur le fleuve Niger",
-        "description": "Le Gouverneur de la région de Ségou a pris, hier 5 octobre, un arrêté interdisant la navigation sur le fleuve Niger de 18 heures à 7 heures du matin. La mesure vise à renforcer la sécurité sur le cours d’eau. Traversée, pêche, transport et exploitation de sable sont suspendus durant cette période…",
-        "source": {
-          "id": "studiotamani",
-          "name": "Studio Tamani"
-        },
-        "sourceCountry": "ML",
-        "language": "fr",
-        "publishedAt": "2026-10-06T14:14:42.000Z",
-        "imageUrl": "https://www.studiotamani.org/wp-content/uploads/2026/10/Copie-de-UNE-site-web-Tamani-41-1024x614.png",
-        "countryCode": "ML",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Lrx3titovrPk",
-          "url": "https://bamada.net/region-de-segou-la-navigation-sur-le-fleuve-niger-interdite-de-18-heures-a-7-heures",
-          "canonicalUrl": "https://bamada.net/region-de-segou-la-navigation-sur-le-fleuve-niger-interdite-de-18-heures-a-7-heures",
-          "title": "Région de Ségou : la navigation sur le fleuve Niger interdite de 18 heures à 7 heures",
-          "description": "Le Gouverneur de la région de Ségou a pris un arrêté portant interdiction de la navigation sur le fleuve Niger durant la période nocturne. La mesure, prise dans le cadre du renforcement de la sécurité, s’applique sur toute l’étendue de la région. Source : L’Indicateur du Renouveau",
-          "source": {
-            "id": "bamada",
-            "name": "Bamada"
-          },
-          "sourceCountry": "ML",
-          "language": "fr",
-          "publishedAt": "2026-10-06T07:55:15.000Z",
-          "imageUrl": null,
-          "countryCode": "ML",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:14:42.000Z"
-    },
     {
       "id": "fjHaxFRmRX5G",
       "representative": {
@@ -285,6 +243,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:16:37.000Z"
+    },
+    {
+      "id": "7U8sb9K58OUb",
+      "representative": {
+        "id": "7U8sb9K58OUb",
+        "url": "https://www.studiotamani.org/208699-segou-la-navigation-nocturne-interdite-sur-le-fleuve-niger",
+        "canonicalUrl": "https://www.studiotamani.org/208699-segou-la-navigation-nocturne-interdite-sur-le-fleuve-niger",
+        "title": "Ségou : la navigation nocturne interdite sur le fleuve Niger",
+        "description": "Le Gouverneur de la région de Ségou a pris, hier 5 octobre, un arrêté interdisant la navigation sur le fleuve Niger de 18 heures à 7 heures du matin. La mesure vise à renforcer la sécurité sur le cours d’eau. Traversée, pêche, transport et exploitation de sable sont suspendus durant cette période…",
+        "source": {
+          "id": "studiotamani",
+          "name": "Studio Tamani"
+        },
+        "sourceCountry": "ML",
+        "language": "fr",
+        "publishedAt": "2026-10-06T14:14:42.000Z",
+        "imageUrl": "https://www.studiotamani.org/wp-content/uploads/2026/10/Copie-de-UNE-site-web-Tamani-41-1024x614.png",
+        "countryCode": "ML",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Lrx3titovrPk",
+          "url": "https://bamada.net/region-de-segou-la-navigation-sur-le-fleuve-niger-interdite-de-18-heures-a-7-heures",
+          "canonicalUrl": "https://bamada.net/region-de-segou-la-navigation-sur-le-fleuve-niger-interdite-de-18-heures-a-7-heures",
+          "title": "Région de Ségou : la navigation sur le fleuve Niger interdite de 18 heures à 7 heures",
+          "description": "Le Gouverneur de la région de Ségou a pris un arrêté portant interdiction de la navigation sur le fleuve Niger durant la période nocturne. La mesure, prise dans le cadre du renforcement de la sécurité, s’applique sur toute l’étendue de la région. Source : L’Indicateur du Renouveau",
+          "source": {
+            "id": "bamada",
+            "name": "Bamada"
+          },
+          "sourceCountry": "ML",
+          "language": "fr",
+          "publishedAt": "2026-10-06T07:55:15.000Z",
+          "imageUrl": null,
+          "countryCode": "ML",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:14:42.000Z"
     },
     {
       "id": "LCqo2AfNFO3t",

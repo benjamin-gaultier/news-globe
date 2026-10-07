@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "ZW",
   "countryName": "Zimbabwe",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "nMcI9WzUioA4",
-      "representative": {
-        "id": "nMcI9WzUioA4",
-        "url": "https://newsday.co.zw/article/former-bikita-west-mp-kereke-dies",
-        "canonicalUrl": "https://newsday.co.zw/article/former-bikita-west-mp-kereke-dies",
-        "title": "Former Bikita West MP Kereke dies",
-        "description": "Kereke passed away this Tuesday morning at the Avenues Clinic in Harare after suffering a stroke. The post Former Bikita West MP Kereke dies appeared first on Newsday .",
-        "source": {
-          "id": "newsday_zw",
-          "name": "NewsDay"
-        },
-        "sourceCountry": "ZW",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:08:49.000Z",
-        "imageUrl": null,
-        "countryCode": "ZW",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "YhPpXlyyEvOC",
-          "url": "https://www.newzimbabwe.com/former-rbz-advisor-kereke-dies/",
-          "canonicalUrl": "https://www.newzimbabwe.com/former-rbz-advisor-kereke-dies/",
-          "title": "Former RBZ advisor Kereke dies",
-          "description": "Former Reserve Bank of Zimbabwe (RBZ) advisor Munyaradzi Kereke has died aged 54. Details surrounding his death were still sketchy at the time of publication, but reports suggest Kereke suffered a stroke after his release from prison and had been receiving treatment at a private hospital in…",
-          "source": {
-            "id": "newzimbabwe",
-            "name": "NewZimbabwe"
-          },
-          "sourceCountry": "ZW",
-          "language": "en",
-          "publishedAt": "2026-10-06T08:23:25.000Z",
-          "imageUrl": null,
-          "countryCode": "ZW",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:08:49.000Z"
-    },
     {
       "id": "AV3xlz_OwkHH",
       "representative": {
@@ -354,7 +312,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:53:27.000Z"
     },
@@ -378,9 +336,33 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:49:33.000Z"
+    },
+    {
+      "id": "YIVbGZlDZZL3",
+      "representative": {
+        "id": "YIVbGZlDZZL3",
+        "url": "https://newsday.co.zw/article/four-bulawayo-men-fined-for-possession-of-drugs",
+        "canonicalUrl": "https://newsday.co.zw/article/four-bulawayo-men-fined-for-possession-of-drugs",
+        "title": "Four Bulawayo men fined for possession of drugs",
+        "description": "The four, Asaph Mativenga (21), Sandile Dhlamini (24), Alexandra Sibanda (28), and Joshua Mtulisi Msimango (22), were fined on their own plea of guilty when they appeared before magistrate Sam Chitumwa this Tuesday. The post Four Bulawayo men fined for possession of drugs appeared first on Newsday .",
+        "source": {
+          "id": "newsday_zw",
+          "name": "NewsDay"
+        },
+        "sourceCountry": "ZW",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:49:10.000Z",
+        "imageUrl": null,
+        "countryCode": "ZW",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:49:10.000Z"
     }
   ]
 }

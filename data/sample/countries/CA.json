@@ -2,67 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "CA",
   "countryName": "Canada",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "IVZaH0wgm3Su",
-      "representative": {
-        "id": "IVZaH0wgm3Su",
-        "url": "https://www.theglobeandmail.com/canada/article-provincial-quebec-election-winner-parti-quebecois/",
-        "canonicalUrl": "https://www.theglobeandmail.com/canada/article-provincial-quebec-election-winner-parti-quebecois/",
-        "title": "Parti Québécois to form minority government in Quebec, setting up referendum fight",
-        "description": "The Coalition Avenir Québec, meanwhile, was reduced to zero seats after ruling the province for eight years",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-06T01:02:32.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/PE5WUDZGZFEBZHU67V2DYINIGI.jpg?auth=c616802576780092f99cd9be88627506fa09f65b136d55e415abbc7a50286530&smart=true&width=8256&height=5504",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "c0aYg4PSQT3J",
-          "url": "https://globalnews.ca/news/12089384/quebec-election-need-to-know/",
-          "canonicalUrl": "https://globalnews.ca/news/12089384/quebec-election-need-to-know/",
-          "title": "5 takeaways from Quebec election as Parti Québécois forms minority government",
-          "description": "Quebec voters elected a Parti Québécois minority government Monday, completing a dramatic political comeback and paving the way for an eventual third sovereignty referendum.",
-          "source": {
-            "id": "globalnews",
-            "name": "Global News"
-          },
-          "sourceCountry": "CA",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:59:45.000Z",
-          "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/f40803e1291f3f2404017442e6c46d48413db2fb9853d9857bcb2897cf7da22c.jpg?quality=65&strip=all",
-          "countryCode": "CA",
-          "regionCode": null
-        },
-        {
-          "id": "GALschB4cq6Z",
-          "url": "https://www.ctvnews.ca/montreal/article/quebec-sovereigntist-party-will-form-minority-government-ctv-news-projects-live-results-here/",
-          "canonicalUrl": "https://www.ctvnews.ca/montreal/article/quebec-sovereigntist-party-will-form-minority-government-ctv-news-projects-live-results-here/",
-          "title": "Quebec sovereigntist party will form minority government, CTV News projects. Live results here.",
-          "description": "In a major upset, the Parti Québécois is shaking up the political landscape in Quebec. The Coalition Avenir Québec is currently leading or elected in zero ridings. Follow for live updates.",
-          "source": {
-            "id": "ctv",
-            "name": "CTV News"
-          },
-          "sourceCountry": "CA",
-          "language": "en",
-          "publishedAt": "2026-10-06T09:44:18.000Z",
-          "imageUrl": "https://www.ctvnews.ca/resizer/v2/G5UGFKHMRJH77AXTPZ3AGLP7GA.png?auth=adcc59ec8a2550ff39aa2c8307fe1f9d4391ad1e74bf89aedb7448d57944191c&smart=true&width=1920&height=1080",
-          "countryCode": "CA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T11:59:45.000Z"
-    },
     {
       "id": "X3XrEEhyg5WM",
       "representative": {
@@ -232,6 +173,48 @@
       "latestPublishedAt": "2026-10-06T12:00:50.000Z"
     },
     {
+      "id": "IVZaH0wgm3Su",
+      "representative": {
+        "id": "IVZaH0wgm3Su",
+        "url": "https://www.theglobeandmail.com/canada/article-provincial-quebec-election-winner-parti-quebecois/",
+        "canonicalUrl": "https://www.theglobeandmail.com/canada/article-provincial-quebec-election-winner-parti-quebecois/",
+        "title": "Parti Québécois to form minority government in Quebec, setting up referendum fight",
+        "description": "The Coalition Avenir Québec, meanwhile, was reduced to zero seats after ruling the province for eight years",
+        "source": {
+          "id": "globeandmail",
+          "name": "The Globe and Mail"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T01:02:32.000Z",
+        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/PE5WUDZGZFEBZHU67V2DYINIGI.jpg?auth=c616802576780092f99cd9be88627506fa09f65b136d55e415abbc7a50286530&smart=true&width=8256&height=5504",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "c0aYg4PSQT3J",
+          "url": "https://globalnews.ca/news/12089384/quebec-election-need-to-know/",
+          "canonicalUrl": "https://globalnews.ca/news/12089384/quebec-election-need-to-know/",
+          "title": "5 takeaways from Quebec election as Parti Québécois forms minority government",
+          "description": "Quebec voters elected a Parti Québécois minority government Monday, completing a dramatic political comeback and paving the way for an eventual third sovereignty referendum.",
+          "source": {
+            "id": "globalnews",
+            "name": "Global News"
+          },
+          "sourceCountry": "CA",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:59:45.000Z",
+          "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/f40803e1291f3f2404017442e6c46d48413db2fb9853d9857bcb2897cf7da22c.jpg?quality=65&strip=all",
+          "countryCode": "CA",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:59:45.000Z"
+    },
+    {
       "id": "saoe-rljOWgF",
       "representative": {
         "id": "saoe-rljOWgF",
@@ -251,7 +234,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:52:41.000Z"
     },
@@ -275,7 +258,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:48:56.000Z"
     },
@@ -299,7 +282,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:09:44.000Z"
     },
@@ -323,7 +306,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:39:47.000Z"
     },
@@ -347,7 +330,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:27:01.000Z"
     },
@@ -371,33 +354,33 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:00:43.000Z"
     },
     {
-      "id": "hBDr6pYUi1A-",
+      "id": "GALschB4cq6Z",
       "representative": {
-        "id": "hBDr6pYUi1A-",
-        "url": "https://www.theglobeandmail.com/canada/article-five-takeaways-from-the-quebec-election-results/",
-        "canonicalUrl": "https://www.theglobeandmail.com/canada/article-five-takeaways-from-the-quebec-election-results/",
-        "title": "Five takeaways from the Quebec election results",
-        "description": "The province voted in separatist Parti Québécois for the first time in more than a decade, while Coalition Avenir Québec was wiped off the map",
+        "id": "GALschB4cq6Z",
+        "url": "https://www.ctvnews.ca/montreal/article/quebec-sovereigntist-party-will-form-minority-government-ctv-news-projects-live-results-here/",
+        "canonicalUrl": "https://www.ctvnews.ca/montreal/article/quebec-sovereigntist-party-will-form-minority-government-ctv-news-projects-live-results-here/",
+        "title": "Quebec sovereigntist party will form minority government, CTV News projects. Live results here.",
+        "description": "In a major upset, the Parti Québécois is shaking up the political landscape in Quebec. The Coalition Avenir Québec is currently leading or elected in zero ridings. Follow for live updates.",
         "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
+          "id": "ctv",
+          "name": "CTV News"
         },
         "sourceCountry": "CA",
         "language": "en",
-        "publishedAt": "2026-10-06T09:06:21.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/KFRQYLESQNFQTFSR7D6ITVJCIY.jpg?auth=fca04611da4942fda076e1d00ca68e427ffa22b73927ed1904aef7837d6ffee2&smart=true&width=8256&height=5504",
+        "publishedAt": "2026-10-06T09:44:18.000Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/G5UGFKHMRJH77AXTPZ3AGLP7GA.png?auth=adcc59ec8a2550ff39aa2c8307fe1f9d4391ad1e74bf89aedb7448d57944191c&smart=true&width=1920&height=1080",
         "countryCode": "CA",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:06:21.000Z"
+      "latestPublishedAt": "2026-10-06T09:44:18.000Z"
     }
   ]
 }

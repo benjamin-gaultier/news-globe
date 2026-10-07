@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "LB",
   "countryName": "Lebanon",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "09GR2sbORxD9",
@@ -87,48 +87,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:13:00.000Z"
-    },
-    {
-      "id": "YQofAPh9hj6V",
-      "representative": {
-        "id": "YQofAPh9hj6V",
-        "url": "https://en.annahar.com/international/354607/%D8%A7%D9%84%D9%87%D9%86%D8%AF-%D8%AA%D8%B9%D9%84%D9%86-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-12-%D9%85%D9%86-%D8%B7%D8%A7%D9%82%D9%85-%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D8%AA%D8%B9%D8%B1%D8%B6%D8%AA-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D8%A3%D8%AB%D9%86%D8%A7-%D8%B9%D8%A8%D9%88%D8%B1-%D9%87%D8%B1%D9%85%D8%B2",
-        "canonicalUrl": "https://en.annahar.com/international/354607/%D8%A7%D9%84%D9%87%D9%86%D8%AF-%D8%AA%D8%B9%D9%84%D9%86-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-12-%D9%85%D9%86-%D8%B7%D8%A7%D9%82%D9%85-%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D8%AA%D8%B9%D8%B1%D8%B6%D8%AA-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D8%A3%D8%AB%D9%86%D8%A7-%D8%B9%D8%A8%D9%88%D8%B1-%D9%87%D8%B1%D9%85%D8%B2",
-        "title": "الهند تعلن إصابة 12 من طاقم ناقلة تعرضت للاستهداف أثناء عبور هرمز",
-        "description": "أعلنت الهند أن 12 من أفراد طاقم ناقلة ترفع علم بنما أصيبوا في هجوم تعرضت له أثناء عبورها مضيق هرمز الثلاثاء، موضحة أن المصابين يتلقون العلاج في سلطنة عمان.وقالت وزارة الخارجية في نيودلهي في بيان ندين الهجوم الذي وقع في وقت سابق اليوم على السفينة التجارية إم تي أون بيس التي ترفع علم بنما... إذ…",
-        "source": {
-          "id": "annahar",
-          "name": "An-Nahar"
-        },
-        "sourceCountry": "LB",
-        "language": "ar",
-        "publishedAt": "2026-10-06T12:06:00.000Z",
-        "imageUrl": null,
-        "countryCode": "LB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "x7T2TOihfn5T",
-          "url": "https://www.lbcgroup.tv/news/world/961478/title/ar?src=rss&utm_source=TheWALL360&utm_medium=Rss-articles&utm_campaign=rss&utm_term=Rss",
-          "canonicalUrl": "https://www.lbcgroup.tv/news/world/961478/title/ar?src=rss",
-          "title": "الهند تعلن إصابة 12 من طاقم ناقلة تعرضت للاستهداف أثناء عبور هرمز",
-          "description": "أعلنت الهند أن 12 من أفراد طاقم ناقلة ترفع علم بنما أصيبوا في هجوم تعرضت له أثناء عبورها مضيق هرمز...",
-          "source": {
-            "id": "lbci",
-            "name": "LBCI"
-          },
-          "sourceCountry": "LB",
-          "language": "ar",
-          "publishedAt": "2026-10-06T11:40:30.000Z",
-          "imageUrl": "https://www.lbcgroup.tv/uploadImages/DocumentImages/Doc-T-961478-639268836645159357.jpg",
-          "countryCode": "LB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:06:00.000Z"
     },
     {
       "id": "xUeskl5KgTOY",
@@ -417,6 +375,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:42:00.000Z"
+    },
+    {
+      "id": "H9IvPf5xTHow",
+      "representative": {
+        "id": "H9IvPf5xTHow",
+        "url": "https://www.lbcgroup.tv/news/world/961497/title/ar?src=rss&utm_source=TheWALL360&utm_medium=Rss-articles&utm_campaign=rss&utm_term=Rss",
+        "canonicalUrl": "https://www.lbcgroup.tv/news/world/961497/title/ar?src=rss",
+        "title": "ماكرون يشرف على اختبار صاروخ قادر على حمل رأس نووية أطلق من غواصة",
+        "description": "أشرف الرئيس الفرنسي إيمانويل ماكرون على \"عملية إطلاق أولى\" تجريبية لصاروخ عابر للقارات من...",
+        "source": {
+          "id": "lbci",
+          "name": "LBCI"
+        },
+        "sourceCountry": "LB",
+        "language": "ar",
+        "publishedAt": "2026-10-06T13:41:55.000Z",
+        "imageUrl": "https://www.lbcgroup.tv/uploadImages/DocumentImages/Doc-T-961497-639268909559442658.jpg",
+        "countryCode": "LB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:41:55.000Z"
     }
   ]
 }

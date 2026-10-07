@@ -2,67 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "GY",
   "countryName": "Guyana",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "oQfay5fjppF3",
-      "representative": {
-        "id": "oQfay5fjppF3",
-        "url": "https://guyanachronicle.com/2026/10/06/gabi-welcomes-launch-of-guyana-development-bank/",
-        "canonicalUrl": "https://guyanachronicle.com/2026/10/06/gabi-welcomes-launch-of-guyana-development-bank/",
-        "title": "GABI welcomes launch of Guyana Development Bank",
-        "description": "THE Guyana Association of Bankers Inc. (GABI) on Thursday said it welcomes the launch of the Guyana Development Bank (GDB) and supports its mandate to expand access to financing for entrepreneurs and small and medium-sized enterprises (SMEs). In a press release, the entity said access to finance…",
-        "source": {
-          "id": "guyanachronicle",
-          "name": "Guyana Chronicle"
-        },
-        "sourceCountry": "GY",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:35:13.000Z",
-        "imageUrl": null,
-        "countryCode": "GY",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "RhqbUF986iTz",
-          "url": "https://kaieteurnewsonline.com/2026/10/06/govt-launches-40b-guyana-development-bank-loans-up-to-10m-available/",
-          "canonicalUrl": "https://kaieteurnewsonline.com/2026/10/06/govt-launches-40b-guyana-development-bank-loans-up-to-10m-available/",
-          "title": "Govt. launches $40B Guyana Development Bank, loans up to $10M available",
-          "description": "(Kaieteur News) – The Government of Guyana (GoG) has officially launched its flagship development bank, offering loans up to $10 million for Guyanese looking to co-invest. In the absence of a physical building, an online platform has been launched where applications can be made to support loans…",
-          "source": {
-            "id": "kaieteur",
-            "name": "Kaieteur News"
-          },
-          "sourceCountry": "GY",
-          "language": "en",
-          "publishedAt": "2026-10-06T14:30:13.000Z",
-          "imageUrl": null,
-          "countryCode": "GY",
-          "regionCode": null
-        },
-        {
-          "id": "rteAU1zGhO7p",
-          "url": "https://demerarawaves.com/2026/10/05/guyana-development-bank-accepting-loan-applications-through-online-portal/",
-          "canonicalUrl": "https://demerarawaves.com/2026/10/05/guyana-development-bank-accepting-loan-applications-through-online-portal/",
-          "title": "Guyana Development Bank loan application goes online",
-          "description": "Last Updated on Monday, 5 October 2026, 20:50 by Writer The Guyana Development Bank (GDB) appears not to have a walk-in office for loan applicants, but on Monday — October 5 — began operations through an online portal. The GDB online platform is accessible at www.gdb.gov.gy, the government’s…",
-          "source": {
-            "id": "demerarawaves",
-            "name": "Demerara Waves"
-          },
-          "sourceCountry": "GY",
-          "language": "en",
-          "publishedAt": "2026-10-06T00:18:40.000Z",
-          "imageUrl": null,
-          "countryCode": "GY",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T14:30:13.000Z"
-    },
     {
       "id": "2AEDbtBOIvQQ",
       "representative": {
@@ -326,6 +267,65 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:48:48.000Z"
+    },
+    {
+      "id": "oQfay5fjppF3",
+      "representative": {
+        "id": "oQfay5fjppF3",
+        "url": "https://guyanachronicle.com/2026/10/06/gabi-welcomes-launch-of-guyana-development-bank/",
+        "canonicalUrl": "https://guyanachronicle.com/2026/10/06/gabi-welcomes-launch-of-guyana-development-bank/",
+        "title": "GABI welcomes launch of Guyana Development Bank",
+        "description": "THE Guyana Association of Bankers Inc. (GABI) on Thursday said it welcomes the launch of the Guyana Development Bank (GDB) and supports its mandate to expand access to financing for entrepreneurs and small and medium-sized enterprises (SMEs). In a press release, the entity said access to finance…",
+        "source": {
+          "id": "guyanachronicle",
+          "name": "Guyana Chronicle"
+        },
+        "sourceCountry": "GY",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:35:13.000Z",
+        "imageUrl": null,
+        "countryCode": "GY",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "RhqbUF986iTz",
+          "url": "https://kaieteurnewsonline.com/2026/10/06/govt-launches-40b-guyana-development-bank-loans-up-to-10m-available/",
+          "canonicalUrl": "https://kaieteurnewsonline.com/2026/10/06/govt-launches-40b-guyana-development-bank-loans-up-to-10m-available/",
+          "title": "Govt. launches $40B Guyana Development Bank, loans up to $10M available",
+          "description": "(Kaieteur News) – The Government of Guyana (GoG) has officially launched its flagship development bank, offering loans up to $10 million for Guyanese looking to co-invest. In the absence of a physical building, an online platform has been launched where applications can be made to support loans…",
+          "source": {
+            "id": "kaieteur",
+            "name": "Kaieteur News"
+          },
+          "sourceCountry": "GY",
+          "language": "en",
+          "publishedAt": "2026-10-06T14:30:13.000Z",
+          "imageUrl": null,
+          "countryCode": "GY",
+          "regionCode": null
+        },
+        {
+          "id": "rteAU1zGhO7p",
+          "url": "https://demerarawaves.com/2026/10/05/guyana-development-bank-accepting-loan-applications-through-online-portal/",
+          "canonicalUrl": "https://demerarawaves.com/2026/10/05/guyana-development-bank-accepting-loan-applications-through-online-portal/",
+          "title": "Guyana Development Bank loan application goes online",
+          "description": "Last Updated on Monday, 5 October 2026, 20:50 by Writer The Guyana Development Bank (GDB) appears not to have a walk-in office for loan applicants, but on Monday — October 5 — began operations through an online portal. The GDB online platform is accessible at www.gdb.gov.gy, the government’s…",
+          "source": {
+            "id": "demerarawaves",
+            "name": "Demerara Waves"
+          },
+          "sourceCountry": "GY",
+          "language": "en",
+          "publishedAt": "2026-10-06T00:18:40.000Z",
+          "imageUrl": null,
+          "countryCode": "GY",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T14:30:13.000Z"
     },
     {
       "id": "-47dBkL0ZjZl",

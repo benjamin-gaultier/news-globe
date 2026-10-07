@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SN",
   "countryName": "Senegal",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "NGuQmU3ovs_k",
@@ -76,169 +76,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
+      "outletCount24h": 2,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T14:50:42.000Z"
-    },
-    {
-      "id": "mmOkQF_hPC8Y",
-      "representative": {
-        "id": "mmOkQF_hPC8Y",
-        "url": "https://www.dakaractu.com/Grand-Yoff-une-octogenaire-tuee-dans-l-effondrement-d-un-batiment-a-Makka-II_a276746.html",
-        "canonicalUrl": "https://www.dakaractu.com/Grand-Yoff-une-octogenaire-tuee-dans-l-effondrement-d-un-batiment-a-Makka-II_a276746.html",
-        "title": "Grand-Yoff : une octogénaire tuée dans l’effondrement d’un bâtiment à Makka II",
-        "description": "Un bâtiment vétuste occupé par des locataires s’est effondré au quartier Makka II, à Grand-Yoff, après les fortes pluies. Selon Libération, une femme âgée a perdu la vie et deux autres personnes ont été blessées. Le drame est survenu alors que plusieurs secteurs de la commune étaient déjà envahis…",
-        "source": {
-          "id": "dakaractu",
-          "name": "Dakaractu"
-        },
-        "sourceCountry": "SN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T11:29:00.000Z",
-        "imageUrl": "https://www.dakaractu.com/photo/art/default/98283476-68509592.jpg?v=1791286178",
-        "countryCode": "SN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "bRsq2A2nwgqR",
-          "url": "https://senego.com/fortes-pluies-a-grand-yoff-leffondrement-dun-immeuble-fait-un-mort-a-makka-ii_2009728.html",
-          "canonicalUrl": "https://senego.com/fortes-pluies-a-grand-yoff-leffondrement-dun-immeuble-fait-un-mort-a-makka-ii_2009728.html",
-          "title": "Fortes pluies à Grand-Yoff : l’effondrement d’un immeuble fait un mort à Makka II",
-          "description": "Les fortes pluies enregistrées dimanche 4 octobre à Dakar ont lourdement affecté plusieurs quartiers de Grand-Yoff. Plusieurs routes sont restées impraticables pendant des heures et de nombreuses concessions ont été envahies par les eaux. Au quartier Arafat, l’effondrement d’un mur a fait deux…",
-          "source": {
-            "id": "senego",
-            "name": "Senego"
-          },
-          "sourceCountry": "SN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:39:39.000Z",
-          "imageUrl": "https://senego.com/wp-content/uploads/2026/10/images-3.jpg",
-          "countryCode": "SN",
-          "regionCode": null
-        },
-        {
-          "id": "3Id6sBD8kDo5",
-          "url": "https://www.pressafrik.com/%E2%80%8BInondations-a-Grand-Yoff-un-immeuble-vetuste-s-effondre-a-Makka-II-et-fait-un-mort_a312620.html",
-          "canonicalUrl": "https://www.pressafrik.com/%E2%80%8BInondations-a-Grand-Yoff-un-immeuble-vetuste-s-effondre-a-Makka-II-et-fait-un-mort_a312620.html",
-          "title": "​Inondations à Grand-Yoff : un immeuble vétuste s'effondre à Makka II et fait un mort",
-          "description": "A Dakar, suite aux fortes pluies qui se sont abattues le 4 octobre, plusieurs routes de Grand-Yof... www.pressafrik.com",
-          "source": {
-            "id": "pressafrik",
-            "name": "PressAfrik"
-          },
-          "sourceCountry": "SN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T09:25:00.000Z",
-          "imageUrl": "https://www.pressafrik.com/photo/art/default/98282306-68507897.jpg?v=1791278782",
-          "countryCode": "SN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:39:39.000Z"
-    },
-    {
-      "id": "dPWu8luzZvEr",
-      "representative": {
-        "id": "dPWu8luzZvEr",
-        "url": "https://emedia.sn/cedeao-le-president-de-la-republique-bassirou-diomaye-faye-recoit-le-serment-des-nouveaux-juges-de-la-cour-de-justice-a-abuja/",
-        "canonicalUrl": "https://emedia.sn/cedeao-le-president-de-la-republique-bassirou-diomaye-faye-recoit-le-serment-des-nouveaux-juges-de-la-cour-de-justice-a-abuja/",
-        "title": "CEDEAO : le président de la République, Bassirou Diomaye Faye, reçoit le serment des nouveaux juges de la Cour de justice à Abuja",
-        "description": "Le président de la République, Bassirou Diomaye Faye, également président en exercice de la Communauté économique des États de l’Afrique de l’Ouest (CEDEAO), reçoit ce mardi 6 octobre 2026, à Abuja, le serment des nouveaux juges de la Cour de justice de l’organisation communautaire. La cérémonie…",
-        "source": {
-          "id": "emedia_sn",
-          "name": "E-Media"
-        },
-        "sourceCountry": "SN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T10:07:13.000Z",
-        "imageUrl": null,
-        "countryCode": "SN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ZpzT90l0hTTy",
-          "url": "https://senego.com/bassirou-diomaye-faye-a-abuja-le-serment-des-juges-de-la-cedeao-au-programme_2009726.html",
-          "canonicalUrl": "https://senego.com/bassirou-diomaye-faye-a-abuja-le-serment-des-juges-de-la-cedeao-au-programme_2009726.html",
-          "title": "Bassirou Diomaye Faye à Abuja : le serment des juges de la CEDEAO au programme",
-          "description": "Après une étape en Égypte, Bassirou Diomaye Faye a entamé une visite de travail à Abuja, où son programme prévoit le serment des juges et des visites des institutions de la CEDEAO.",
-          "source": {
-            "id": "senego",
-            "name": "Senego"
-          },
-          "sourceCountry": "SN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:26:03.000Z",
-          "imageUrl": "https://senego.com/wp-content/uploads/2026/10/tmpf104hxrl.jpg",
-          "countryCode": "SN",
-          "regionCode": null
-        },
-        {
-          "id": "Dw0jtMkLCPSD",
-          "url": "https://www.pressafrik.com/CEDEAO-cinq-nouveaux-juges-de-la-Cour-de-justice-pretent-serment-devant-Bassirou-Diomaye-Faye_a312627.html",
-          "canonicalUrl": "https://www.pressafrik.com/CEDEAO-cinq-nouveaux-juges-de-la-Cour-de-justice-pretent-serment-devant-Bassirou-Diomaye-Faye_a312627.html",
-          "title": "CEDEAO : cinq nouveaux juges de la Cour de justice prêtent serment devant Bassirou Diomaye Faye",
-          "description": "Le chef de l’Etat du Sénégal, Bassirou Diomaye Faye, président en exercice de la Communaut... www.pressafrik.com",
-          "source": {
-            "id": "pressafrik",
-            "name": "PressAfrik"
-          },
-          "sourceCountry": "SN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T10:12:00.000Z",
-          "imageUrl": "https://www.pressafrik.com/photo/art/default/98282663-68508588.jpg?v=1791281686",
-          "countryCode": "SN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:26:03.000Z"
-    },
-    {
-      "id": "bDAaCPhHUJYV",
-      "representative": {
-        "id": "bDAaCPhHUJYV",
-        "url": "https://www.dakaractu.com/Acces-universel-a-l-electricite-Le-Senegal-reunit-les-bailleurs-pour-mobiliser-400-milliards-FCFA_a276754.html",
-        "canonicalUrl": "https://www.dakaractu.com/Acces-universel-a-l-electricite-Le-Senegal-reunit-les-bailleurs-pour-mobiliser-400-milliards-FCFA_a276754.html",
-        "title": "Accès universel à l'électricité : Le Sénégal réunit les bailleurs pour mobiliser 400 milliards FCFA",
-        "description": "Le Sénégal a besoin de 400 milliards de FCFA pour réaliser l'accès universel à l'électricité d'ici 2029. C'est ce qu'a indiqué le ministre de l'Énergie et du Pétrole, Dr Abdourahmane Diouf, lors de la table ronde des partenaires sur le thème « Atteindre l'accès universel à l'électricité », tenue…",
-        "source": {
-          "id": "dakaractu",
-          "name": "Dakaractu"
-        },
-        "sourceCountry": "SN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:54:00.000Z",
-        "imageUrl": "https://www.dakaractu.com/photo/art/default/98284821-68511177.jpg?v=1791294916",
-        "countryCode": "SN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "s9sG6WBb8Cdh",
-          "url": "https://emedia.sn/electricite-pour-tous-le-senegal-accelere-pour-atteindre-lacces-universel-dici-2029/",
-          "canonicalUrl": "https://emedia.sn/electricite-pour-tous-le-senegal-accelere-pour-atteindre-lacces-universel-dici-2029/",
-          "title": "Électricité pour tous : le Sénégal accélère pour atteindre l’accès universel d’ici 2029",
-          "description": "Le Sénégal veut franchir une nouvelle étape vers l’accès universel à l’électricité. Le ministère de l’Énergie et du Pétrole, en collaboration avec le ministère de l’Économie, des Finances et du Plan, a réuni, ce mardi 6 octobre 2026, à l’hôtel Noom de Dakar, les partenaires techniques et…",
-          "source": {
-            "id": "emedia_sn",
-            "name": "E-Media"
-          },
-          "sourceCountry": "SN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T09:13:15.000Z",
-          "imageUrl": null,
-          "countryCode": "SN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:54:00.000Z"
     },
     {
       "id": "YrC7BCcCsUU9",
@@ -323,48 +163,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:04:20.000Z"
-    },
-    {
-      "id": "bWrg-NDSjBEu",
-      "representative": {
-        "id": "bWrg-NDSjBEu",
-        "url": "https://www.dakaractu.com/Avec-1375-mm-a-Yoff-la-pluie-du-4-octobre-se-classe-troisieme-depuis-1981_a276751.html",
-        "canonicalUrl": "https://www.dakaractu.com/Avec-1375-mm-a-Yoff-la-pluie-du-4-octobre-se-classe-troisieme-depuis-1981_a276751.html",
-        "title": "Avec 137,5 mm à Yoff, la pluie du 4 octobre se classe troisième depuis 1981",
-        "description": "L’épisode du 4 octobre figure parmi les plus fortes pluies journalières enregistrées à Dakar-Yoff depuis 1981. Selon les données de l’Anacim rapportées par L’Observateur, 137,5 mm sont tombés en 24 heures. Les prévisions maintiennent un risque de pluie, tout en annonçant une intensité moindre que…",
-        "source": {
-          "id": "dakaractu",
-          "name": "Dakaractu"
-        },
-        "sourceCountry": "SN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T11:35:00.000Z",
-        "imageUrl": "https://www.dakaractu.com/photo/art/default/98283547-68509638.jpg?v=1791286710",
-        "countryCode": "SN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "1MpiXXe4f6rK",
-          "url": "https://senego.com/yoff-1375-mm-de-pluie-troisieme-plus-fort-cumul-journalier-depuis-1981_2009739.html",
-          "canonicalUrl": "https://senego.com/yoff-1375-mm-de-pluie-troisieme-plus-fort-cumul-journalier-depuis-1981_2009739.html",
-          "title": "Yoff : 137,5 mm de pluie, troisième plus fort cumul journalier depuis 1981",
-          "description": "À Yoff, les 137,5 mm du 4 octobre placent l’épisode au troisième rang des plus fortes pluies journalières depuis 1981. Les cumuls varient fortement selon les stations.",
-          "source": {
-            "id": "senego",
-            "name": "Senego"
-          },
-          "sourceCountry": "SN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:51:17.000Z",
-          "imageUrl": "https://senego.com/wp-content/uploads/2026/10/tmp18xqj2bt.jpg",
-          "countryCode": "SN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:51:17.000Z"
     },
     {
       "id": "KIyBHbXWHYfX",
@@ -557,6 +355,102 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:05:33.000Z"
+    },
+    {
+      "id": "BMxFEVqIF91E",
+      "representative": {
+        "id": "BMxFEVqIF91E",
+        "url": "https://senego.com/rentree-scolaire-la-fenapes-reclame-dix-jours-de-report-dans-cinq-localites_2009780.html",
+        "canonicalUrl": "https://senego.com/rentree-scolaire-la-fenapes-reclame-dix-jours-de-report-dans-cinq-localites_2009780.html",
+        "title": "Rentrée scolaire : la FENAPES réclame dix jours de report dans cinq localités",
+        "description": "Face aux écoles inondées après les fortes pluies, la FENAPES réclame dix jours de report. À Guinaw Rail, un responsable d’élèves appelle aussi les autorités à intervenir.",
+        "source": {
+          "id": "senego",
+          "name": "Senego"
+        },
+        "sourceCountry": "SN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:04:34.000Z",
+        "imageUrl": "https://senego.com/wp-content/uploads/2026/10/tmppkodrj34.jpg",
+        "countryCode": "SN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:04:34.000Z"
+    },
+    {
+      "id": "lk9p6G6XGwaR",
+      "representative": {
+        "id": "lk9p6G6XGwaR",
+        "url": "https://senego.com/code-petrolier-bassirou-diomaye-faye-un-pouvoir-qui-accepte-la-regle-de-droit_2009773.html",
+        "canonicalUrl": "https://senego.com/code-petrolier-bassirou-diomaye-faye-un-pouvoir-qui-accepte-la-regle-de-droit_2009773.html",
+        "title": "Code pétrolier : Bassirou Diomaye Faye, un pouvoir qui accepte la règle de droit*",
+        "description": "La décision du Conseil constitutionnel déclarant irrecevable la proposition de loi n°37/26 portant modification du Code pétrolier constitue un épisode important dans la consolidation de l’État de droit au Sénégal. Au-delà de la question technique du partage des compétences entre le législateur et…",
+        "source": {
+          "id": "senego",
+          "name": "Senego"
+        },
+        "sourceCountry": "SN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:03:03.000Z",
+        "imageUrl": "https://senego.com/wp-content/uploads/2026/04/diomaye-faye-1.png",
+        "countryCode": "SN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:03:03.000Z"
+    },
+    {
+      "id": "9cAJj27mKFb6",
+      "representative": {
+        "id": "9cAJj27mKFb6",
+        "url": "https://senego.com/un-etudiant-un-ordinateur-la-commission-denquete-parlementaire-auditionne-m-oumar-sakho-dcmp_2009770.html",
+        "canonicalUrl": "https://senego.com/un-etudiant-un-ordinateur-la-commission-denquete-parlementaire-auditionne-m-oumar-sakho-dcmp_2009770.html",
+        "title": "« Un étudiant, un ordinateur » : la commission d’enquête parlementaire auditionne M. Oumar Sakho (DCMP)",
+        "description": "Après l’audition de Mame Penda Ba, lundi 5 octobre, la commission d’enquête parlementaire poursuit ses travaux sur le programme « Un étudiant, un ordinateur ». Cinq responsables et anciens responsables figurent au calendrier des auditions du mardi 6 octobre. Suite aux auditions de Mamadou Sow…",
+        "source": {
+          "id": "senego",
+          "name": "Senego"
+        },
+        "sourceCountry": "SN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:01:17.000Z",
+        "imageUrl": "https://senego.com/wp-content/uploads/2026/10/sakhoo.jpg",
+        "countryCode": "SN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:01:17.000Z"
+    },
+    {
+      "id": "WHEXyjQ4UMAJ",
+      "representative": {
+        "id": "WHEXyjQ4UMAJ",
+        "url": "https://www.pressafrik.com/%E2%80%8BInondations-Ibrahima-Top-president-de-la-FENAPES-demande-le-report-de-la-rentree-scolaire_a312639.html",
+        "canonicalUrl": "https://www.pressafrik.com/%E2%80%8BInondations-Ibrahima-Top-president-de-la-FENAPES-demande-le-report-de-la-rentree-scolaire_a312639.html",
+        "title": "​Inondations : Ibrahima Top, président de la FENAPES, demande le report de la rentrée scolaire",
+        "description": "La rentrée scolaire prévue le 7 octobre pourrait être perturbée par les fortes pluies enregistrée... www.pressafrik.com",
+        "source": {
+          "id": "pressafrik",
+          "name": "PressAfrik"
+        },
+        "sourceCountry": "SN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T14:54:00.000Z",
+        "imageUrl": "https://www.pressafrik.com/photo/art/default/98285613-68511923.jpg?v=1791298737",
+        "countryCode": "SN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:54:00.000Z"
     }
   ]
 }

@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "TJ",
   "countryName": "Tajikistan",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "QpwgKG3KI4D2",
-      "representative": {
-        "id": "QpwgKG3KI4D2",
-        "url": "https://asiaplus.news/2026/10/06/na-fone-snizheniya-dobychi-gaza-uzbekistan-otkryl-pyat-novyh-mestorozhdenij/",
-        "canonicalUrl": "https://asiaplus.news/2026/10/06/na-fone-snizheniya-dobychi-gaza-uzbekistan-otkryl-pyat-novyh-mestorozhdenij/",
-        "title": "В Узбекистане открыли пять новых месторождений газа",
-        "description": "С начала 2026 года в стране пробурили 80 скважин, еще 40 планируют пробурить до конца года.",
-        "source": {
-          "id": "asiaplus",
-          "name": "Asia-Plus"
-        },
-        "sourceCountry": "TJ",
-        "language": "ru",
-        "publishedAt": "2026-10-06T08:08:00.000Z",
-        "imageUrl": "https://asiaplus.news/wp-content/uploads/2026/10/mestorozhdenie-gaza.jpg",
-        "countryCode": "TJ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "PLq2d3Wyqw9Y",
-          "url": "https://avesta.tj/2026/10/06/v-uzbekistane-otkryli-pyat-novyh-gazovyh-mestorozhdenij/",
-          "canonicalUrl": "https://avesta.tj/2026/10/06/v-uzbekistane-otkryli-pyat-novyh-gazovyh-mestorozhdenij/",
-          "title": "В Узбекистане открыли пять новых газовых месторождений",
-          "description": "5 октября 2026 года в Узбекистане сообщили об открытии с начала года пяти новых газовых месторождений и бурении 80 скважин. Данные о развитии нефтегазовой отрасли были представлены президенту Узбекистана Шавкату Мирзиёеву. Об этом сообщает пресс-служба президента Узбекистана. В регионах страны…",
-          "source": {
-            "id": "avesta",
-            "name": "Avesta"
-          },
-          "sourceCountry": "TJ",
-          "language": "ru",
-          "publishedAt": "2026-10-06T10:13:35.000Z",
-          "imageUrl": null,
-          "countryCode": "TJ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:13:35.000Z"
-    },
     {
       "id": "J2xk-cmcABuo",
       "representative": {
@@ -252,7 +210,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:40:27.000Z"
     },
@@ -276,7 +234,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:37:00.000Z"
     },
@@ -300,7 +258,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:34:10.000Z"
     },
@@ -324,7 +282,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:10:10.000Z"
     },
@@ -348,7 +306,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:00:00.000Z"
     },
@@ -372,7 +330,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:49:48.000Z"
     },
@@ -396,9 +354,33 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:32:00.000Z"
+    },
+    {
+      "id": "KhuKod0A1WRS",
+      "representative": {
+        "id": "KhuKod0A1WRS",
+        "url": "https://asiaplus.news/2026/10/06/pyat-let-pod-vlastyu-talibov-kak-izmenilsya-afganistan/",
+        "canonicalUrl": "https://asiaplus.news/2026/10/06/pyat-let-pod-vlastyu-talibov-kak-izmenilsya-afganistan/",
+        "title": "Пять лет под властью талибов: как изменился Афганистан",
+        "description": "Боевые действия почти прекратились, но страну охватили бедность и жесткие ограничения",
+        "source": {
+          "id": "asiaplus",
+          "name": "Asia-Plus"
+        },
+        "sourceCountry": "TJ",
+        "language": "ru",
+        "publishedAt": "2026-10-06T10:31:00.000Z",
+        "imageUrl": "https://asiaplus.news/wp-content/uploads/2026/10/gerat.jpg",
+        "countryCode": "TJ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:31:00.000Z"
     }
   ]
 }

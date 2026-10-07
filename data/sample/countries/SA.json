@@ -2,134 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "SA",
   "countryName": "Saudi Arabia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "MHevhrQHuAhY",
-      "representative": {
-        "id": "MHevhrQHuAhY",
-        "url": "https://aawsat.com/node/5326549",
-        "canonicalUrl": "https://aawsat.com/node/5326549",
-        "title": "مؤتمر آسيان «خير أمة» يدين استهداف الحوثيين مكة والمدينة",
-        "description": "أدان المشاركون في المؤتمر الدولي الرابع لدول آسيان «خير أمة» إطلاق ميليشيا الحوثي مسيّرات وصواريخ باتجاه مكة المكرمة والمدينة المنورة، واستهداف الأعيان المدنية.",
-        "source": {
-          "id": "aawsat",
-          "name": "Asharq Al-Awsat"
-        },
-        "sourceCountry": "SA",
-        "language": "ar",
-        "publishedAt": "2026-10-06T10:39:39.000Z",
-        "imageUrl": "https://static.srpcdigital.com/styles/414x217/public/2026-10/1812677.jpeg.webp?VersionId=E2mQJnPEzAX4dibfKKPg4dmXZwvNn840",
-        "countryCode": "SA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "b6_b64ryMPUw",
-          "url": "https://www.okaz.com.sa/local/na/2269553",
-          "canonicalUrl": "https://www.okaz.com.sa/local/na/2269553",
-          "title": "مؤتمر «خير أمة» يدين استهداف الحوثي مكة والمدينة والأعيان المدنية السعودية",
-          "description": "أدان المشاركون في أعمال المؤتمر الدولي الرابع لدول آسيان «خير أمة»، الذي أقامته وزارة الشؤون الإسلامية والدعوة والإرشاد في العاصمة الكمبودية بنوم بنه، في بيانهم الختامي، الأعمال الإجرامية التي تقوم بها ميليشيا الحوثي الإرهابية باستهداف مقدسات المسلمين وإطلاق المسيّرات والصواريخ تجاه مكة المكرمة…",
-          "source": {
-            "id": "okaz",
-            "name": "Okaz"
-          },
-          "sourceCountry": "SA",
-          "language": "ar",
-          "publishedAt": "2026-10-06T11:52:34.000Z",
-          "imageUrl": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/06/2776430.webp",
-          "countryCode": "SA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:52:34.000Z"
-    },
-    {
-      "id": "W00K7Y_WjARV",
-      "representative": {
-        "id": "W00K7Y_WjARV",
-        "url": "https://aawsat.com/node/5326572",
-        "canonicalUrl": "https://aawsat.com/node/5326572",
-        "title": "ولي العهد السعودي يستقبل الرئيس السوري في الرياض",
-        "description": "استقبل الأمير محمد بن سلمان، ولي العهد رئيس مجلس الوزراء السعودي، في الرياض، الثلاثاء، الرئيس السوري أحمد الشرع، وجرى خلال اللقاء بحث العلاقات بين البلدين.",
-        "source": {
-          "id": "aawsat",
-          "name": "Asharq Al-Awsat"
-        },
-        "sourceCountry": "SA",
-        "language": "ar",
-        "publishedAt": "2026-10-06T11:29:42.000Z",
-        "imageUrl": "https://static.srpcdigital.com/styles/414x217/public/2026-10/1813041.png.webp?VersionId=8cTh3jBv.jMq.SB0_uFsjhjX4bvW1eyM",
-        "countryCode": "SA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "wBd5IP1TtHUX",
-          "url": "https://www.okaz.com.sa/local/na/2269548",
-          "canonicalUrl": "https://www.okaz.com.sa/local/na/2269548",
-          "title": "الرئيس السوري يصل إلى الرياض",
-          "description": "وصل إلى الرياض اليوم، رئيس الجمهورية العربية السورية الرئيس أحمد الشرع. وكان في استقباله في مطار الملك خالد الدولي، أمير منطقة الرياض الأمير فيصل بن بندر بن عبدالعزيز، وأمين المنطقة الأمير فيصل بن عبدالعزيز بن عياف، والمستشار بالديوان الملكي خالد بن فريد حضراوي، وسفير خادم الحرمين الشريفين لدى…",
-          "source": {
-            "id": "okaz",
-            "name": "Okaz"
-          },
-          "sourceCountry": "SA",
-          "language": "ar",
-          "publishedAt": "2026-10-06T11:32:21.000Z",
-          "imageUrl": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/06/2776405.webp",
-          "countryCode": "SA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:32:21.000Z"
-    },
-    {
-      "id": "4Rftrfhlchft",
-      "representative": {
-        "id": "4Rftrfhlchft",
-        "url": "https://aawsat.com/node/5326516",
-        "canonicalUrl": "https://aawsat.com/node/5326516",
-        "title": "غرق سفينة وإصابة أخرى في هجوم بمسيّرات قبالة سواحل بلغاريا",
-        "description": "أعلنت الحكومة البلغارية أن سفينتين تجاريتين تعرضتا لهجوم بطائرات مسيرة، اليوم (الثلاثاء)، في المنطقة الاقتصادية الخالصة لبلغاريا في البحر الأسود.",
-        "source": {
-          "id": "aawsat",
-          "name": "Asharq Al-Awsat"
-        },
-        "sourceCountry": "SA",
-        "language": "ar",
-        "publishedAt": "2026-10-06T09:25:11.000Z",
-        "imageUrl": "https://static.srpcdigital.com/styles/414x217/public/2026-10/1812596.jpeg.webp?VersionId=jMuhXrsuUgTggYwsjIV_MsOvyTEwK2JC",
-        "countryCode": "SA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "07G82uN34vXN",
-          "url": "https://www.okaz.com.sa/politics/na/2269547",
-          "canonicalUrl": "https://www.okaz.com.sa/politics/na/2269547",
-          "title": "قبالة بلغاريا .. غرق سفينة وإصابة أخرى بهجوم مسيرات في البحر الأسود",
-          "description": "أعلنت الحكومة البلغارية أن سفينتين تجاريتين تعرضتا لهجوم بطائرات مسيرة، (الثلاثاء)، في المنطقة الاقتصادية الخالصة لبلغاريا في البحر الأسود. وأكدت غرق إحداهما، بحسب خدمات الإنقاذ البحري البلغارية. وأفاد مدير مركز تنسيق عمليات الإنقاذ البحري في فارنا رومان نيكولوف في تصريحات نقلتها الإذاعة العامة…",
-          "source": {
-            "id": "okaz",
-            "name": "Okaz"
-          },
-          "sourceCountry": "SA",
-          "language": "ar",
-          "publishedAt": "2026-10-06T11:27:51.000Z",
-          "imageUrl": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/06/2776402.webp",
-          "countryCode": "SA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:27:51.000Z"
-    },
     {
       "id": "pVILOoWWPSEh",
       "representative": {
@@ -417,6 +291,78 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:29:03.000Z"
+    },
+    {
+      "id": "3yXPr5urY951",
+      "representative": {
+        "id": "3yXPr5urY951",
+        "url": "https://aawsat.com/node/5326627",
+        "canonicalUrl": "https://aawsat.com/node/5326627",
+        "title": "ما فُرص الاتفاق على «رئاسي» جديد يُمهد للانتخابات الليبية؟",
+        "description": "تتجه الأنظار في ليبيا إلى شكل السلطة التنفيذية التي قد تتولى إدارة المرحلة الانتقالية المقبلة.",
+        "source": {
+          "id": "aawsat",
+          "name": "Asharq Al-Awsat"
+        },
+        "sourceCountry": "SA",
+        "language": "ar",
+        "publishedAt": "2026-10-06T13:25:07.000Z",
+        "imageUrl": "https://static.srpcdigital.com/styles/414x217/public/2026-10/1807847.png.webp?VersionId=MMgVbGRrACNxCyc.K2Oe2aFzbDjW8W1D",
+        "countryCode": "SA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:25:07.000Z"
+    },
+    {
+      "id": "0Cx2xlDRPD0b",
+      "representative": {
+        "id": "0Cx2xlDRPD0b",
+        "url": "https://aawsat.com/node/5326626",
+        "canonicalUrl": "https://aawsat.com/node/5326626",
+        "title": "السوق السعودية ترتفع 1.1 % بدعم الأسهم القيادية",
+        "description": "ارتفعت الأسهم السعودية 1.1 % إلى 10590 نقطة، بدعم القياديات، بينما تصدر «حديد وطني» المكاسب في أولى جلساته.",
+        "source": {
+          "id": "aawsat",
+          "name": "Asharq Al-Awsat"
+        },
+        "sourceCountry": "SA",
+        "language": "ar",
+        "publishedAt": "2026-10-06T13:16:02.000Z",
+        "imageUrl": "https://static.srpcdigital.com/styles/414x217/public/2026-10/1812952.jpeg.webp?VersionId=81MxBrs5XLeQmR77_x.Y2BOdRKJYh4a1",
+        "countryCode": "SA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:16:02.000Z"
+    },
+    {
+      "id": "uNE6-F4M5o3C",
+      "representative": {
+        "id": "uNE6-F4M5o3C",
+        "url": "https://www.okaz.com.sa/culture/art/2269580",
+        "canonicalUrl": "https://www.okaz.com.sa/culture/art/2269580",
+        "title": "هل حصل عامر السردي على البراءة؟ نجاح المساعيد تكشف تفاصيل حكم سرقة الـ 5 مليون درهم",
+        "description": "عاد اسم الشاعرة والإعلامية الأردنية نجاح المساعيد إلى الواجهة مجدداً، بعد أن ظهرت في مقطع فيديو نشرته على حساباتها الرسمية على مواقع التواصل الاجتماعي وضحت من خلاله حقيقة الحكم الصادر بحق طليقها عامر ركاد السردي في قضية سرقة مبلغ مالي قدره 5 ملايين درهم إماراتي، مؤكدة وجود فرق قانوني بين البراءة…",
+        "source": {
+          "id": "okaz",
+          "name": "Okaz"
+        },
+        "sourceCountry": "SA",
+        "language": "ar",
+        "publishedAt": "2026-10-06T13:15:33.000Z",
+        "imageUrl": "https://www.okaz.com.sa/okaz/uploads/images/2026/10/06/2776511.webp",
+        "countryCode": "SA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:15:33.000Z"
     }
   ]
 }

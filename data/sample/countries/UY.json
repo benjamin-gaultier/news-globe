@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "UY",
   "countryName": "Uruguay",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "ffnXnnbZGpvA",
-      "representative": {
-        "id": "ffnXnnbZGpvA",
-        "url": "https://www.subrayado.com.uy/el-belga-francis-halzen-gano-el-nobel-fisica-desubrio-particulas-subatomicas-fuera-nuestra-galaxia-n1019986",
-        "canonicalUrl": "https://www.subrayado.com.uy/el-belga-francis-halzen-gano-el-nobel-fisica-desubrio-particulas-subatomicas-fuera-nuestra-galaxia-n1019986",
-        "title": "El belga Francis Halzen ganó el Nobel de Física: desubrió partículas subatómicas de fuera de nuestra galaxia",
-        "description": "Este físico de 82 años fue recompensado \"por sus contribuciones decisivas\".",
-        "source": {
-          "id": "subrayado",
-          "name": "Subrayado"
-        },
-        "sourceCountry": "UY",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:51:00.000Z",
-        "imageUrl": "https://media.subrayado.com.uy/p/9bac1b1d082e87e3f8d2313cb5fc4ec1/adjuntos/230/imagenes/004/104/0004104239/afp-francis-halzen-premio-nobel-fisica-2026.jpg",
-        "countryCode": "UY",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "SfmeNh15vgev",
-          "url": "https://www.teledoce.com/telemundo/internacionales/nobel-de-fisica-2026-fue-para-el-belga-francis-halzen-por-su-trabajo-sobre-particulas-subatomicas-en-el-polo-sur/",
-          "canonicalUrl": "https://www.teledoce.com/telemundo/internacionales/nobel-de-fisica-2026-fue-para-el-belga-francis-halzen-por-su-trabajo-sobre-particulas-subatomicas-en-el-polo-sur/",
-          "title": "Nobel de Física 2026 fue para el belga Francis Halzen por su trabajo sobre partículas subatómicas en el Polo Sur",
-          "description": "\"Francis Halzen sentó las bases de un nuevo tipo de astronomía\", indicaron desde el galardón. La entrada Nobel de Física 2026 fue para el belga Francis Halzen por su trabajo sobre partículas subatómicas en el Polo Sur se publicó primero en Teledoce.com .",
-          "source": {
-            "id": "teledoce",
-            "name": "Teledoce"
-          },
-          "sourceCountry": "UY",
-          "language": "es",
-          "publishedAt": "2026-10-06T10:22:27.000Z",
-          "imageUrl": null,
-          "countryCode": "UY",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:51:00.000Z"
-    },
     {
       "id": "qZwwNLG5SjYP",
       "representative": {
@@ -335,6 +293,48 @@
       "latestPublishedAt": "2026-10-06T12:07:48.000Z"
     },
     {
+      "id": "ffnXnnbZGpvA",
+      "representative": {
+        "id": "ffnXnnbZGpvA",
+        "url": "https://www.subrayado.com.uy/el-belga-francis-halzen-gano-el-nobel-fisica-desubrio-particulas-subatomicas-fuera-nuestra-galaxia-n1019986",
+        "canonicalUrl": "https://www.subrayado.com.uy/el-belga-francis-halzen-gano-el-nobel-fisica-desubrio-particulas-subatomicas-fuera-nuestra-galaxia-n1019986",
+        "title": "El belga Francis Halzen ganó el Nobel de Física: desubrió partículas subatómicas de fuera de nuestra galaxia",
+        "description": "Este físico de 82 años fue recompensado \"por sus contribuciones decisivas\".",
+        "source": {
+          "id": "subrayado",
+          "name": "Subrayado"
+        },
+        "sourceCountry": "UY",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:51:00.000Z",
+        "imageUrl": "https://media.subrayado.com.uy/p/9bac1b1d082e87e3f8d2313cb5fc4ec1/adjuntos/230/imagenes/004/104/0004104239/afp-francis-halzen-premio-nobel-fisica-2026.jpg",
+        "countryCode": "UY",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "SfmeNh15vgev",
+          "url": "https://www.teledoce.com/telemundo/internacionales/nobel-de-fisica-2026-fue-para-el-belga-francis-halzen-por-su-trabajo-sobre-particulas-subatomicas-en-el-polo-sur/",
+          "canonicalUrl": "https://www.teledoce.com/telemundo/internacionales/nobel-de-fisica-2026-fue-para-el-belga-francis-halzen-por-su-trabajo-sobre-particulas-subatomicas-en-el-polo-sur/",
+          "title": "Nobel de Física 2026 fue para el belga Francis Halzen por su trabajo sobre partículas subatómicas en el Polo Sur",
+          "description": "\"Francis Halzen sentó las bases de un nuevo tipo de astronomía\", indicaron desde el galardón. La entrada Nobel de Física 2026 fue para el belga Francis Halzen por su trabajo sobre partículas subatómicas en el Polo Sur se publicó primero en Teledoce.com .",
+          "source": {
+            "id": "teledoce",
+            "name": "Teledoce"
+          },
+          "sourceCountry": "UY",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:22:27.000Z",
+          "imageUrl": null,
+          "countryCode": "UY",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:51:00.000Z"
+    },
+    {
       "id": "A-lzXun3d5jC",
       "representative": {
         "id": "A-lzXun3d5jC",
@@ -354,7 +354,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:43:00.000Z"
     },
@@ -378,7 +378,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:40:26.000Z"
     }

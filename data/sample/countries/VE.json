@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "VE",
   "countryName": "Venezuela",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "NnwC5US2Ew3M",
-      "representative": {
-        "id": "NnwC5US2Ew3M",
-        "url": "https://www.elnacional.com/2026/10/familia-venezolana-pide-justicia-por-el-asesinato-de-una-nina-de-7-anos-en-chicago/",
-        "canonicalUrl": "https://www.elnacional.com/2026/10/familia-venezolana-pide-justicia-por-el-asesinato-de-una-nina-de-7-anos-en-chicago/",
-        "title": "Familia venezolana pide justicia por el asesinato de niña de 7 años de edad en Chicago",
-        "description": "La niña caminaba cerca del mediodía del sábado con su hermana por el vecindario de East Chatham, cuando una mujer, identificada como Shavon Gayden, la apuñaló varias veces. The post Familia venezolana pide justicia por el asesinato de niña de 7 años de edad en Chicago appeared first on EL NACIONAL .",
-        "source": {
-          "id": "elnacional_ve",
-          "name": "El Nacional"
-        },
-        "sourceCountry": "VE",
-        "language": "es",
-        "publishedAt": "2026-10-06T10:44:00.000Z",
-        "imageUrl": null,
-        "countryCode": "VE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "fqNFW-sF-sDk",
-          "url": "https://talcualdigital.com/noticias/familia-venezolana-pide-justicia-por-asesinato-de-nina-de-siete-anos-en-eeuu/",
-          "canonicalUrl": "https://talcualdigital.com/noticias/familia-venezolana-pide-justicia-por-asesinato-de-nina-de-siete-anos-en-eeuu/",
-          "title": "Familia venezolana pide justicia por asesinato de niña de siete años en EEUU",
-          "description": "El domingo, familiares y vecinos participaron en una vigilia cerca del lugar donde ocurrió el ataque The post Familia venezolana pide justicia por asesinato de niña de siete años en EEUU appeared first on TalCual .",
-          "source": {
-            "id": "talcual",
-            "name": "TalCual"
-          },
-          "sourceCountry": "VE",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:42:32.000Z",
-          "imageUrl": null,
-          "countryCode": "VE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:42:32.000Z"
-    },
     {
       "id": "X6wMYYjOQZVL",
       "representative": {
@@ -416,6 +374,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:44:22.000Z"
+    },
+    {
+      "id": "5ByQ9hYXlIKt",
+      "representative": {
+        "id": "5ByQ9hYXlIKt",
+        "url": "https://ultimasnoticias.com.ve/actualidad/ola-de-protestas-estudiantiles-sacude-a-francia/",
+        "canonicalUrl": "https://ultimasnoticias.com.ve/actualidad/ola-de-protestas-estudiantiles-sacude-a-francia/",
+        "title": "Ola de protestas estudiantiles sacude a Francia",
+        "description": "Estudiantes se movilizan contra la brecha educativa para exigir al Ejecutivo infraestructuras dignas, recursos y una reforma integral La entrada Ola de protestas estudiantiles sacude a Francia se publicó primero en Últimas Noticias .",
+        "source": {
+          "id": "ultimasnoticias_ve",
+          "name": "Últimas Noticias"
+        },
+        "sourceCountry": "VE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:38:35.000Z",
+        "imageUrl": "https://ultimasnoticias.com.ve/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-9.32.27-AM-300x201.jpeg",
+        "countryCode": "VE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:38:35.000Z"
     }
   ]
 }

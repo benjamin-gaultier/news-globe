@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MK",
   "countryName": "North Macedonia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "-lwZfnQJe2jq",
@@ -188,48 +188,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:58:31.000Z"
-    },
-    {
-      "id": "GDVepTwMpbRP",
-      "representative": {
-        "id": "GDVepTwMpbRP",
-        "url": "https://novamakedonija.com.mk/makedonija/hronika/grubi-na-13-oktomvri-izleguva-od-kukjen-pritvor-nudi-garancija-od-335-707-evra-za-ukinuvanje-na-dopolnitelnata-merka-na-pretpazlivost/",
-        "canonicalUrl": "https://novamakedonija.com.mk/makedonija/hronika/grubi-na-13-oktomvri-izleguva-od-kukjen-pritvor-nudi-garancija-od-335-707-evra-za-ukinuvanje-na-dopolnitelnata-merka-na-pretpazlivost/",
-        "title": "Груби на 13 октомври излегува од куќен притвор, нуди гаранција од 335.707 евра за укинување на дополнителната мерка на претпазливост",
-        "description": "Поранешниниот вицепремиер Артан Груби, кој е второобвинет во случајот „Државна лотарија“, на 13 октомври треба да излезе од домашен притвор бидејќи тогаш истекува максимално предвидениот законски рок на оваа мерка. Неговата одбрана во меѓувреме доставила барање до судот за укинување и на…",
-        "source": {
-          "id": "novamakedonija",
-          "name": "Nova Makedonija"
-        },
-        "sourceCountry": "MK",
-        "language": "mk",
-        "publishedAt": "2026-10-06T13:37:02.000Z",
-        "imageUrl": "https://novamakedonija.com.mk/wp-content/uploads/2026/02/sudenje-opsta-piksabej-150x150.jpg",
-        "countryCode": "MK",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "2Q03kOMYVMZl",
-          "url": "https://360stepeni.mk/artan-grubi-na-13-oktomvri-izleguva-od-kuken-pritvor-a-nudi-i-garantsija-za-da-mu-se-vrati-pasoshot/",
-          "canonicalUrl": "https://360stepeni.mk/artan-grubi-na-13-oktomvri-izleguva-od-kuken-pritvor-a-nudi-i-garantsija-za-da-mu-se-vrati-pasoshot/",
-          "title": "Артан Груби на 13 октомври излегува од куќен притвор, а нуди и гаранција за да му се врати пасошот",
-          "description": "Како што појаснуваат од Кривичен, согласно членот 470 од Законот за кривична постапка, притворот што му е... The post Артан Груби на 13 октомври излегува од куќен притвор, а нуди и гаранција за да му се врати пасошот appeared first on 360 степени .",
-          "source": {
-            "id": "360stepeni",
-            "name": "360 Stepeni"
-          },
-          "sourceCountry": "MK",
-          "language": "mk",
-          "publishedAt": "2026-10-06T11:45:49.000Z",
-          "imageUrl": "https://360stepeni.mk/wp-content/uploads/2026/08/Sudenje-Grubi.jpg",
-          "countryCode": "MK",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:37:02.000Z"
     },
     {
       "id": "n9BgerV8rQH0",
@@ -470,6 +428,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:35:37.000Z"
+    },
+    {
+      "id": "TXX2ZXJkjURS",
+      "representative": {
+        "id": "TXX2ZXJkjURS",
+        "url": "https://kurir.mk/vesti/skopje/stojkoski-vo-volkovo-ke-se-gradi-unikaten-park-protiv-toplinski-ostrovi/",
+        "canonicalUrl": "https://kurir.mk/vesti/skopje/stojkoski-vo-volkovo-ke-se-gradi-unikaten-park-protiv-toplinski-ostrovi/",
+        "title": "Стојкоски: Во Волково ќе се гради уникатен парк против „топлински острови“",
+        "description": "Градоначалникот на Општина Ѓорче Петров, Александар Стојкоски, денеска на терен во Волково ги пречека партнерите од седум европски држави, кои се дел од проектот предводен од Општина Цеље. Проектот е финансиран преку програмата Interreg Euro-MED на Европската комисија, со вкупна вредност од околу…",
+        "source": {
+          "id": "kurir_mk",
+          "name": "Kurir"
+        },
+        "sourceCountry": "MK",
+        "language": "mk",
+        "publishedAt": "2026-10-06T15:17:29.000Z",
+        "imageUrl": "https://kurir.mk/wp-content/uploads/2026/10/IMG-7a1f3b182bdc9b255d1f4c81b7d6ede4-V-480x222.jpg",
+        "countryCode": "MK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:17:29.000Z"
     }
   ]
 }

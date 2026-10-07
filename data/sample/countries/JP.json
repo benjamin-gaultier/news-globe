@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "JP",
   "countryName": "Japan",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "kfM_yhuQB6tI",
@@ -93,7 +93,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 5,
+      "outletCount24h": 4,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T13:17:57.000Z"
     },
@@ -152,51 +152,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T12:39:43.000Z"
-    },
-    {
-      "id": "Ja5qDLzjUzmb",
-      "representative": {
-        "id": "Ja5qDLzjUzmb",
-        "url": "https://mainichi.jp/articles/20261006/k00/00m/010/296000c",
-        "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/010/296000c",
-        "title": "簗農相、国交省に予算配分問い合わせ 対立候補応援の2市町分",
-        "description": null,
-        "source": {
-          "id": "mainichi",
-          "name": "Mainichi Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T13:18:53.000Z",
-        "imageUrl": null,
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "uZBLXZwYb9sx",
-          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-BWA3VXPI3NOFRJUJVBFHAK5NAQ/",
-          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-BWA3VXPI3NOFRJUJVBFHAK5NAQ/",
-          "title": "簗氏の対立候補を支援した2市町の予算減額判明 国交省が調査公表、働きかけは確認されず",
-          "description": "国土交通省は6日、簗和生農林水産相が地元の衆院栃木3区内で自治体の道路予算を恣意（しい）的に削減したとの発言を巡り、調査結果を公表した。2月の衆院選で首長が簗氏の対立候補を支援した那須烏山市、那珂川町の2市町は配分額が減額されたことが判明した。ただ国交省は、簗氏から減額を求める働きかけは確認されておらず、配分額の決定は「総合的に勘案した結果」だと説明した。",
-          "source": {
-            "id": "sankei",
-            "name": "Sankei Shimbun"
-          },
-          "sourceCountry": "JP",
-          "language": "ja",
-          "publishedAt": "2026-10-06T10:59:35.000Z",
-          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-BWA3VXPI3NOFRJUJVBFHAK5NAQ/None/resizer/u421ythUAZwrdslrhUDNF3CIS0k=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/4JF273WGWNP6JMICDCVWJJ7XKU.jpg",
-          "countryCode": "JP",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:18:53.000Z"
     },
     {
       "id": "bhrlSNgPX_59",
@@ -241,12 +199,12 @@
       "latestPublishedAt": "2026-10-06T12:16:39.000Z"
     },
     {
-      "id": "7IAn9Ew18tTu",
+      "id": "Ja5qDLzjUzmb",
       "representative": {
-        "id": "7IAn9Ew18tTu",
-        "url": "https://mainichi.jp/articles/20261006/k00/00m/030/267000c",
-        "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/030/267000c",
-        "title": "リトアニア議会、核禁止撤廃の憲法改正案可決 1月に最終採決へ",
+        "id": "Ja5qDLzjUzmb",
+        "url": "https://mainichi.jp/articles/20261006/k00/00m/010/296000c",
+        "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/010/296000c",
+        "title": "簗農相、国交省に予算配分問い合わせ 対立候補応援の2市町分",
         "description": null,
         "source": {
           "id": "mainichi",
@@ -254,159 +212,33 @@
         },
         "sourceCountry": "JP",
         "language": "ja",
-        "publishedAt": "2026-10-06T11:27:08.000Z",
+        "publishedAt": "2026-10-06T13:18:53.000Z",
         "imageUrl": null,
         "countryCode": "JP",
         "regionCode": null
       },
       "related": [
         {
-          "id": "yHfFjlXNgN4z",
-          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-FEDG772M2NJX3G6J3A75BGGHEY/",
-          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-FEDG772M2NJX3G6J3A75BGGHEY/",
-          "title": "リトアニア議会、核配備禁止の条文削除の憲法改正案可決 1月に2度目の投票へ",
-          "description": "バルト三国の一つ、リトアニアの議会は6日、核兵器を含む大量破壊兵器の国内配備を禁止する条文を削除する憲法改正の議案を可決した。ロイター通信が報じた。改正には議会が2度の投票でそれぞれ議員141人のうち94人以上の賛成で可決する必要がある。2度目の投票は来年1月12日に実施される。",
+          "id": "uZBLXZwYb9sx",
+          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-BWA3VXPI3NOFRJUJVBFHAK5NAQ/",
+          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-BWA3VXPI3NOFRJUJVBFHAK5NAQ/",
+          "title": "簗氏の対立候補を支援した2市町の予算減額判明 国交省が調査公表、働きかけは確認されず",
+          "description": "国土交通省は6日、簗和生農林水産相が地元の衆院栃木3区内で自治体の道路予算を恣意（しい）的に削減したとの発言を巡り、調査結果を公表した。2月の衆院選で首長が簗氏の対立候補を支援した那須烏山市、那珂川町の2市町は配分額が減額されたことが判明した。ただ国交省は、簗氏から減額を求める働きかけは確認されておらず、配分額の決定は「総合的に勘案した結果」だと説明した。",
           "source": {
             "id": "sankei",
             "name": "Sankei Shimbun"
           },
           "sourceCountry": "JP",
           "language": "ja",
-          "publishedAt": "2026-10-06T09:36:00.000Z",
-          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-FEDG772M2NJX3G6J3A75BGGHEY/None/resizer/4iSRRQNMIp9g4V7PNCAZRuDnU14=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/NIWKMZQMEJPPPOPIK6FAUY4J2U.jpg",
+          "publishedAt": "2026-10-06T10:59:35.000Z",
+          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-BWA3VXPI3NOFRJUJVBFHAK5NAQ/None/resizer/u421ythUAZwrdslrhUDNF3CIS0k=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/4JF273WGWNP6JMICDCVWJJ7XKU.jpg",
           "countryCode": "JP",
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
+      "outletCount24h": 1,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:27:08.000Z"
-    },
-    {
-      "id": "BeWiTyoDYmyU",
-      "representative": {
-        "id": "BeWiTyoDYmyU",
-        "url": "http://www.asahi.com/articles/ASVB63JSQVB6UTFK00RM.html?ref=rss",
-        "canonicalUrl": "http://www.asahi.com/articles/ASVB63JSQVB6UTFK00RM.html",
-        "title": "民主改革・階幹事長、立憲との合流目指す考え「中道の旗のもとなら」",
-        "description": null,
-        "source": {
-          "id": "asahi",
-          "name": "Asahi Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T11:14:25.000Z",
-        "imageUrl": null,
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "829feZPQXrGy",
-          "url": "https://www.jiji.com/jc/article?k=2026100601042&g=pol&m=rss",
-          "canonicalUrl": "https://www.jiji.com/jc/article?g=pol&k=2026100601042&m=rss",
-          "title": "立民との合流、政策受け入れが前提 民主改革・階幹事長「中道の旗尊重を」",
-          "description": null,
-          "source": {
-            "id": "jiji",
-            "name": "Jiji Press"
-          },
-          "sourceCountry": "JP",
-          "language": "ja",
-          "publishedAt": "2026-10-06T11:10:00.000Z",
-          "imageUrl": null,
-          "countryCode": "JP",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:14:25.000Z"
-    },
-    {
-      "id": "YdC26zI3-6B0",
-      "representative": {
-        "id": "YdC26zI3-6B0",
-        "url": "https://mainichi.jp/articles/20261006/k00/00m/030/257000c",
-        "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/030/257000c",
-        "title": "前産経新聞台北支局長を襲撃か 香港マフィアを起訴 台湾検察",
-        "description": null,
-        "source": {
-          "id": "mainichi",
-          "name": "Mainichi Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T11:12:07.000Z",
-        "imageUrl": null,
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "JEoN7jnyRKm1",
-          "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-5PLOFXRB2BKWTCNTGUMUS3YXLM/",
-          "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-5PLOFXRB2BKWTCNTGUMUS3YXLM/",
-          "title": "元産経記者を殴打した香港マフィアの男を台湾検察が起訴 当初はガラス瓶で襲撃計画か",
-          "description": "【台北＝西見由章】産経新聞の前台北支局長で台湾を拠点とする「インド太平洋戦略シンクタンク」執行長の矢板明夫氏が台中市で男に暴行を受けた事件で、台中地方検察署（地検）は6日、傷害や組織犯罪防止条例違反などの罪で香港マフィア「和勝和」構成員の廖港発（りょうこうはつ）容疑者を起訴した。「言論を抑圧するために暴力を用いた」として起訴にあたり懲役5年を求刑した。",
-          "source": {
-            "id": "sankei",
-            "name": "Sankei Shimbun"
-          },
-          "sourceCountry": "JP",
-          "language": "ja",
-          "publishedAt": "2026-10-06T09:13:17.000Z",
-          "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-5PLOFXRB2BKWTCNTGUMUS3YXLM/None/resizer/0NgjQNM5teMsHwzp-6YMp-BQ0T4=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/RGVKYJVZEFJAVOFFGE3XJLOIL4.jpg",
-          "countryCode": "JP",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:12:07.000Z"
-    },
-    {
-      "id": "v0GlPmbvWBXC",
-      "representative": {
-        "id": "v0GlPmbvWBXC",
-        "url": "http://www.asahi.com/articles/ASVB62QQPVB6UTIL00ZM.html?ref=rss",
-        "canonicalUrl": "http://www.asahi.com/articles/ASVB62QQPVB6UTIL00ZM.html",
-        "title": "ピアニスト反田恭平氏、スピード違反で在宅起訴 144kmで運転か",
-        "description": null,
-        "source": {
-          "id": "asahi",
-          "name": "Asahi Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T08:27:54.000Z",
-        "imageUrl": null,
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "jmZLrlWlyVer",
-          "url": "https://www.jiji.com/jc/article?k=2026100600821&g=soc&m=rss",
-          "canonicalUrl": "https://www.jiji.com/jc/article?g=soc&k=2026100600821&m=rss",
-          "title": "ピアニスト反田恭平氏が８４キロの速度超過 在宅起訴、２９日判決―東京地裁",
-          "description": null,
-          "source": {
-            "id": "jiji",
-            "name": "Jiji Press"
-          },
-          "sourceCountry": "JP",
-          "language": "ja",
-          "publishedAt": "2026-10-06T09:39:00.000Z",
-          "imageUrl": null,
-          "countryCode": "JP",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:39:00.000Z"
+      "latestPublishedAt": "2026-10-06T13:18:53.000Z"
     },
     {
       "id": "2VzgU5_aynld",
@@ -575,6 +407,102 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:04:12.000Z"
+    },
+    {
+      "id": "kHMAZnzSFKre",
+      "representative": {
+        "id": "kHMAZnzSFKre",
+        "url": "http://www.asahi.com/articles/ASVB63TSFVB6UCVL02YM.html?ref=rss",
+        "canonicalUrl": "http://www.asahi.com/articles/ASVB63TSFVB6UCVL02YM.html",
+        "title": "出版取次の日販、米AI企業への書籍販売を認める 業界団体に回答",
+        "description": null,
+        "source": {
+          "id": "asahi",
+          "name": "Asahi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T13:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:00.000Z"
+    },
+    {
+      "id": "JDMQngsMnJY3",
+      "representative": {
+        "id": "JDMQngsMnJY3",
+        "url": "https://newsdig.tbs.co.jp/articles/-/2994092",
+        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994092",
+        "title": "SNSで知り合い「会おう」と持ちかけ…10代少女に性的暴行の疑い 会社員の男(41)逮捕 鹿児島",
+        "description": "SNSで知り合った鹿児島県内に住む10代の少女に性的暴行を加えた疑いで、会社員の男が逮捕されました。不同意性交等の疑いで逮捕されたのは、伊佐市大口小木原の会社員・竹内智史容疑者(41)です。警察によりますと、竹内容疑者は今年6月17日と7月18日に鹿児島県内で、10代の少女に性的暴",
+        "source": {
+          "id": "tbs",
+          "name": "TBS News Dig"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:52:43.000Z",
+        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/a/f/1200xm/img_af3fa107af795c1f259fee595b6324d2148172.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:52:43.000Z"
+    },
+    {
+      "id": "98NOt--u2TtY",
+      "representative": {
+        "id": "98NOt--u2TtY",
+        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/",
+        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/",
+        "title": "神戸・三宮の死傷事故の現場付近で交通安全呼び掛け 兵庫県警葺合署",
+        "description": "神戸・三宮中心部の県道交差点で1日、横断歩道を渡っていた歩行者ら4人が車にはねられ死傷した事故から1週間を前に、兵庫県警葺合署と兵庫県は6日、事故現場付近で通行人やドライバーに反射材を配るなどして交通安全を呼び掛けた。",
+        "source": {
+          "id": "sankei",
+          "name": "Sankei Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:49:37.000Z",
+        "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/None/resizer/0SEhg7kqLt1qs3phU7F6xv4ZCUY=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/MC4TRRJJ35K2XGRG4UBAAN6XS4.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:49:37.000Z"
+    },
+    {
+      "id": "laN1s_Xke9oM",
+      "representative": {
+        "id": "laN1s_Xke9oM",
+        "url": "https://newsdig.tbs.co.jp/articles/-/2994080",
+        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994080",
+        "title": "多文化共生の条例案に反発と不安の声「分断が広がっている印象」パブリックコメント7日締切 富山県",
+        "description": "富山県内に住む外国人の数は増加傾向にあります。そうしたなか、富山県は多文化共生の条例の制定に向けて、先月14日から県民、国民から広く意見を聞くためのパブリックコメントをはじめ、あす7日で締切を迎えます。県議会やSNSでは、条例への批判的な意見や懸念の声があがっています。パブリックコ",
+        "source": {
+          "id": "tbs",
+          "name": "TBS News Dig"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:47:51.000Z",
+        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/b/8/1200xm/img_b8d851531ca695996490b61c42fc5f3554871.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:47:51.000Z"
     }
   ]
 }

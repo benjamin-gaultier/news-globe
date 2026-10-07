@@ -2,337 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "CZ",
   "countryName": "Czechia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "hEiohSTxX7Fz",
-      "representative": {
-        "id": "hEiohSTxX7Fz",
-        "url": "https://ct24.ceskatelevize.cz/clanek/veda/nobelovu-cenu-za-fyziku-dostal-francis-halzen-za-vyzkum-neutrin-378284",
-        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/veda/nobelovu-cenu-za-fyziku-dostal-francis-halzen-za-vyzkum-neutrin-378284",
-        "title": "Nobelovu cenu za fyziku dostal Francis Halzen za výzkum neutrin v obří ledové kostce",
-        "description": "Švédská akademie věd oznámila, že nositelem Nobelovy ceny za fyziku za letošní rok se stal belgicko-americký vědec Francis Halzen, který se věnuje výzkumu neutrin, kosmických částic, které dopadají na Zemi.",
-        "source": {
-          "id": "ct24",
-          "name": "ČT24"
-        },
-        "sourceCountry": "CZ",
-        "language": "cs",
-        "publishedAt": "2026-10-06T09:56:26.000Z",
-        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/ZWY3NzAzZTkwZTM0Zjg3MwjuIgaic8MvGJVWRNUTp_7MvoSuFiq77GmhYbHG1JbisPFjDpZ5BFjItTfZT4e_1DwONvUgOwUltSGH3Kv0d7H-rsta2K6ZzC4WTMFhzo-h45U55TQKesgoyKvFQG-_yVe6QKUbtdKgTCNYYLf366j8xGM0aiFBS4qnhoFXcGYl.jpg?width=360",
-        "countryCode": "CZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "-qUGSXIhEVlz",
-          "url": "https://zpravy.aktualne.cz/zahranici/nobelovu-cenu-ziskal-belgican-za-objev-neutrin-s-obri-energii/r~aaa29d6da8b40482eb78163692378bfa/",
-          "canonicalUrl": "https://zpravy.aktualne.cz/zahranici/nobelovu-cenu-ziskal-belgican-za-objev-neutrin-s-obri-energii/r~aaa29d6da8b40482eb78163692378bfa/",
-          "title": "Nobelovu cenu získal Belgičan za objev neutrin s obří energií",
-          "description": "Nobelovu cenu za fyziku v úterý získal belgický astrofyzik Francis Halzen za objev vysokoenergetických neutrin astrofyzikálního původu, oznámila Královská švédská akademie věd. Ke sledování těchto velmi vzácných elementárních částic vytvořil observatoř IceCube v Antarktidě, díky níž jsou jejich…",
-          "source": {
-            "id": "aktualne",
-            "name": "Aktuálně.cz"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T10:41:00.000Z",
-          "imageUrl": "https://media.eco-files.cz/economia/production/files/2026/10/06/10/42/17/6ab934eb-d0de-466b-a387-9d2f7a38e87d/p2026100603697-original-5b351a.jpg",
-          "countryCode": "CZ",
-          "regionCode": null
-        },
-        {
-          "id": "XQFpuNv2Hj7c",
-          "url": "https://www.novinky.cz/clanek/veda-skoly-nobelovu-cenu-za-fyziku-dostal-francis-halzen-za-objev-vysokoenergetickych-neutrin-40601033",
-          "canonicalUrl": "https://www.novinky.cz/clanek/veda-skoly-nobelovu-cenu-za-fyziku-dostal-francis-halzen-za-objev-vysokoenergetickych-neutrin-40601033",
-          "title": "Nobelovu cenu za fyziku dostal Francis Halzen za objev vysokoenergetických neutrin",
-          "description": "Švédská akademie věd oznámila, že nový laureát Nobelovy ceny za fyziku za letošní rok je americký fyzik belgického původu Francis Halzen. Oceněn je za zásadní příspěvky k vybudování observatoře IceCube a za objev vysokoenergetických neutrin astrofyzikálního původu. K pozorování těchto velmi…",
-          "source": {
-            "id": "novinky",
-            "name": "Novinky.cz"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T10:15:03.000Z",
-          "imageUrl": null,
-          "countryCode": "CZ",
-          "regionCode": null
-        },
-        {
-          "id": "05UH8RRYffoP",
-          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nobelovu-cenu-za-fyziku-ziskal-belgicky-astrofyzik-halzen-316888",
-          "canonicalUrl": "https://www.seznamzpravy.cz/clanek/zahranicni-nobelovu-cenu-za-fyziku-ziskal-belgicky-astrofyzik-halzen-316888",
-          "title": "Nobelovu cenu za fyziku získal belgický astrofyzik Halzen",
-          "description": "Vítězem Nobelovy ceny za fyziku se letos stal belgický astrofyzik Francis Halzen.",
-          "source": {
-            "id": "seznamzpravy",
-            "name": "Seznam Zprávy"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T10:05:19.000Z",
-          "imageUrl": null,
-          "countryCode": "CZ",
-          "regionCode": null
-        },
-        {
-          "id": "VRlsJ0bJr6ZE",
-          "url": "https://www.irozhlas.cz/veda-technologie/veda/nobelovu-cenu-za-fyziku-ziskal-astrofyzik-francis-halzen-za-objev_2610061202_cen",
-          "canonicalUrl": "https://www.irozhlas.cz/veda-technologie/veda/nobelovu-cenu-za-fyziku-ziskal-astrofyzik-francis-halzen-za-objev_2610061202_cen",
-          "title": "Nobelovu cenu za fyziku získal astrofyzik Francis Halzen za objev vysokoenergetických neutrin",
-          "description": "Nobelovu cenu za fyziku získal belgický astrofyzik Francis Halzen za objev vysokoenergetických neutrin, oznámila švédská akademie věd.",
-          "source": {
-            "id": "irozhlas",
-            "name": "iROZHLAS"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T10:02:00.000Z",
-          "imageUrl": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_maly_nahled/public/uploader/halzen_261006-115820_cen.png?itok=ppuX-50N",
-          "countryCode": "CZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 5,
-      "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T10:41:00.000Z"
-    },
-    {
-      "id": "AYeeyHNM2F_C",
-      "representative": {
-        "id": "AYeeyHNM2F_C",
-        "url": "https://ct24.ceskatelevize.cz/clanek/svet/nemecka-policie-zadrzela-byvaleho-sefa-rozvedky-bnd-pro-podezreni-ze-spionaze-378286",
-        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/svet/nemecka-policie-zadrzela-byvaleho-sefa-rozvedky-bnd-pro-podezreni-ze-spionaze-378286",
-        "title": "Německá policie zadržela bývalého šéfa rozvědky BND pro podezření ze špionáže",
-        "description": "Německá policie zadržela bývalého šéfa rozvědky BND Augusta Hanninga pro podezření ze špionáže a pokus o vlastizradu. Informaci potvrdilo generální státní zastupitelství. Kromě Hanninga zadržela také jeho bývalého spolupracovníka.",
-        "source": {
-          "id": "ct24",
-          "name": "ČT24"
-        },
-        "sourceCountry": "CZ",
-        "language": "cs",
-        "publishedAt": "2026-10-06T08:33:09.000Z",
-        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/MmUyODBmZDAwNzdlMTU2Zv91U4s_CZ7fa5VwUl2n6QuJ-9jHxzohZIyfXB1JUtZOX5mTuzP7RTtyrIbkMyn1pCFwLQHwrA0a98U5JDMJGjb5Xsv-dD13Ls9Q4PvSHq5LWqG84iwRNzy2hYlj9KNhwlyVx8DyO_nE_j3228sWRtKa5VMTZ9BRCs7pisuq4DeH.JPG?width=360",
-        "countryCode": "CZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "0d2TypkyDBgW",
-          "url": "https://www.idnes.cz/zpravy/zahranicni/nemecka-policie-zadrzela-byvaleho-sefa-rozvedky-pro-podezreni-ze-spionaze.A261006_102109_zahranicni_bro#utm_source=rss&utm_medium=feed&utm_campaign=zpravodaj&utm_content=main",
-          "canonicalUrl": "https://www.idnes.cz/zpravy/zahranicni/nemecka-policie-zadrzela-byvaleho-sefa-rozvedky-pro-podezreni-ze-spionaze.A261006_102109_zahranicni_bro",
-          "title": "Německá policie zadržela bývalého šéfa rozvědky pro podezření ze špionáže",
-          "description": "Německá policie ráno zadržela bývalého šéfa rozvědky BND Augusta Hanninga pro podezření ze špionáže. Kromě Hanninga zadržela také jeho bývalého spolupracovníka Manfreda D.",
-          "source": {
-            "id": "idnes",
-            "name": "iDNES.cz"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T12:43:00.000Z",
-          "imageUrl": "https://1gr.cz/fotky/idnes/26/101/cl6/BRO56de781c23_profimedia_0260753965.jpg",
-          "countryCode": "CZ",
-          "regionCode": null
-        },
-        {
-          "id": "StbmakRK3Cui",
-          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-nemecku-zadrzeli-byvaleho-sefa-rozvedky-pro-podezreni-ze-spionaze-316877",
-          "canonicalUrl": "https://www.seznamzpravy.cz/clanek/zahranicni-v-nemecku-zadrzeli-byvaleho-sefa-rozvedky-pro-podezreni-ze-spionaze-316877",
-          "title": "V Německu zadrželi bývalého šéfa rozvědky pro podezření ze špionáže",
-          "description": "Bývalého šéfa německé rozvědky zadrželi pro podezření z nákupu utajovaných informací od bývalého zaměstnance německé zahraniční rozvědky, které sám plánoval prodat.",
-          "source": {
-            "id": "seznamzpravy",
-            "name": "Seznam Zprávy"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T09:17:40.000Z",
-          "imageUrl": null,
-          "countryCode": "CZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:43:00.000Z"
-    },
-    {
-      "id": "943IcIJtl-xn",
-      "representative": {
-        "id": "943IcIJtl-xn",
-        "url": "https://ct24.ceskatelevize.cz/clanek/svet/drony-zasahly-dve-lodi-v-ekonomicke-zone-bulharska-uvedla-prezidentka-378282",
-        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/svet/drony-zasahly-dve-lodi-v-ekonomicke-zone-bulharska-uvedla-prezidentka-378282",
-        "title": "Drony zasáhly dvě lodi v ekonomické zóně Bulharska, jedna se potopila",
-        "description": "Drony zasáhly dvě lodi v ekonomické zóně Bulharska, uvedl podle bulharských médií premiér Rumen Radev. Podle něj se jedno plavidlo potopilo a posádka je nezvěstná. Druhou loď zachvátil požár, námořníky se ale podařilo evakuovat. Tamní média píší o bezprecedentním koordinovaném útoku na obchodní…",
-        "source": {
-          "id": "ct24",
-          "name": "ČT24"
-        },
-        "sourceCountry": "CZ",
-        "language": "cs",
-        "publishedAt": "2026-10-06T07:12:15.000Z",
-        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/ODdiYTg0MDg3NjZlMzZjYefH2-LnIFTupk7uRI3ol0Qtgi8516fCjDtDkBVQII371pYHSMU8WutlMGu3u94DFg-kFZBq_A9uP9C3DGr7ix33ZUWN4kMD9UfAzOX2zzb5qI73DrvVfqsd97DFmkzrbQxdB0Er6S2M4zHxyK0kvqt-WQWsA0DfYhdF0kg020z7.JPG?width=360",
-        "countryCode": "CZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ZUSCja3XfxQi",
-          "url": "https://www.idnes.cz/zpravy/zahranicni/dron-bulharsko-zasah-dron-potopeni.A261006_090536_zahranicni_dtt#utm_source=rss&utm_medium=feed&utm_campaign=zpravodaj&utm_content=main",
-          "canonicalUrl": "https://www.idnes.cz/zpravy/zahranicni/dron-bulharsko-zasah-dron-potopeni.A261006_090536_zahranicni_dtt",
-          "title": "Drony zasáhly dvě lodi v ekonomické zóně Bulharska, jedna z nich se potopila",
-          "description": "Drony zasáhly dvě lodi v ekonomické zóně Bulharska, uvedl v úterý premiér země Rumen Radev. Podle něj se jedno plavidlo potopilo a posádka je nezvěstná. Druhou loď zachvátil požár, námořníky se ale podařilo evakuovat. Bulharská média píší o bezprecedentním koordinovaném útoku na obchodní plavidla…",
-          "source": {
-            "id": "idnes",
-            "name": "iDNES.cz"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T12:32:40.000Z",
-          "imageUrl": "https://1gr.cz/fotky/idnes/26/101/cl6/MEL681593e4cc_3DP_3_BULGARIA_INCIDENT.JPG",
-          "countryCode": "CZ",
-          "regionCode": null
-        },
-        {
-          "id": "g_BqXSmT9yS-",
-          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-drony-zasahly-dve-lodi-v-ekonomicke-zone-bulharska-uvedla-prezidentka-316863",
-          "canonicalUrl": "https://www.seznamzpravy.cz/clanek/zahranicni-drony-zasahly-dve-lodi-v-ekonomicke-zone-bulharska-uvedla-prezidentka-316863",
-          "title": "Drony zasáhly dvě lodi v ekonomické zóně Bulharska, jedna se potopila",
-          "description": "V ekonomické zóně Bulharska zasáhly drony dvě lodě, jedna se potopila a druhou zachvátil požár. Jde o bezprecedentní útok, který přichází jen den poté, co tureckou loď s ukrajinským obilím zasáhl dron nedaleko břehů Rumunska.",
-          "source": {
-            "id": "seznamzpravy",
-            "name": "Seznam Zprávy"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T07:23:48.000Z",
-          "imageUrl": null,
-          "countryCode": "CZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:32:40.000Z"
-    },
-    {
-      "id": "_0rNfTc5G76K",
-      "representative": {
-        "id": "_0rNfTc5G76K",
-        "url": "https://ct24.ceskatelevize.cz/clanek/svet/poprve-politik-z-alternativy-pro-nemecko-zemsky-snem-v-sasku-anhaltsku-zvolil-predsedu-378295",
-        "canonicalUrl": "https://ct24.ceskatelevize.cz/clanek/svet/poprve-politik-z-alternativy-pro-nemecko-zemsky-snem-v-sasku-anhaltsku-zvolil-predsedu-378295",
-        "title": "Poprvé politik z Alternativy pro Německo. Zemský sněm v Sasku-Anhaltsku zvolil předsedu",
-        "description": "Poslanci zemského sněmu v Sasku-Anhaltsku v úterý předsedou zvolili zástupce Alternativy pro Německo (AfD) Tobiase Rausche. Jde o prvního politika z této protiimigrační a pravicově populistické strany v čele některého z německých regionálních parlamentů. Agentura DPA píše, že Rausche podpořilo 48…",
-        "source": {
-          "id": "ct24",
-          "name": "ČT24"
-        },
-        "sourceCountry": "CZ",
-        "language": "cs",
-        "publishedAt": "2026-10-06T10:59:27.000Z",
-        "imageUrl": "https://fs2-ct24.ceskatelevize.cz/image/MjcwMDA2MjE4OWI3NWQ5OOzifOec8wikroesdb9q7d4ZkC_nlfV-NemEb7Wq2uaItl9ac2u9T7yzO5atZGAbKOxrRV7j5j_KuMVkQ-WkJTHpBdmJGaT6towhN_84CVr-OaSWugItpk9MEBBlZEH85aEmw93wk-hk7akRI8ahfzUpOHdR_98MgKOPy5INug-Y.JPG?width=360",
-        "countryCode": "CZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Xp2jOCrw1p-a",
-          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zemsky-snem-saska-anhaltska-poprve-povede-politik-z-alternativy-pro-nemecko-316894",
-          "canonicalUrl": "https://www.seznamzpravy.cz/clanek/zahranicni-zemsky-snem-saska-anhaltska-poprve-povede-politik-z-alternativy-pro-nemecko-316894",
-          "title": "Zemský sněm Saska-Anhaltska poprvé povede politik z Alternativy pro Německo",
-          "description": "Novým předsedou zemského sněmu v Sasku-Anhaltsku zvolili poslanci zástupce Alternativy pro Německo (AfD) Tobiase Rausche. Je tak prvním politikem z této pravicové strany, který stanul v čele německého regionálního parlamentu.",
-          "source": {
-            "id": "seznamzpravy",
-            "name": "Seznam Zprávy"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T11:32:39.000Z",
-          "imageUrl": null,
-          "countryCode": "CZ",
-          "regionCode": null
-        },
-        {
-          "id": "BkvHIz7SaG42",
-          "url": "https://www.novinky.cz/clanek/zahranicni-evropa-zemsky-snem-v-sasku-anhaltsku-poprve-povede-politik-z-afd-40601074",
-          "canonicalUrl": "https://www.novinky.cz/clanek/zahranicni-evropa-zemsky-snem-v-sasku-anhaltsku-poprve-povede-politik-z-afd-40601074",
-          "title": "Ve chvíli vyhlášení nastalo hrobové ticho. Zemský sněm v Německu poprvé povede politik z AfD",
-          "description": "Poslanci zemského sněmu v Sasku-Anhaltsku v úterý jeho předsedou zvolili zástupce Alternativy pro Německo (AfD) Tobiase Rausche. Jde o prvního politika z této protestní strany v čele některého z německých regionálních parlamentů. AfD před měsícem s jasnou převahou vyhrála volby do zemského sněmu v…",
-          "source": {
-            "id": "novinky",
-            "name": "Novinky.cz"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T10:59:49.000Z",
-          "imageUrl": null,
-          "countryCode": "CZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T11:32:39.000Z"
-    },
-    {
-      "id": "GmDn-nS5GLVU",
-      "representative": {
-        "id": "GmDn-nS5GLVU",
-        "url": "https://www.irozhlas.cz/sport/tenis/jiri-lehecka-atp-tokio-tenis-carlos-alcaraz_2610061310_kri",
-        "canonicalUrl": "https://www.irozhlas.cz/sport/tenis/jiri-lehecka-atp-tokio-tenis-carlos-alcaraz_2610061310_kri",
-        "title": "Lehečka v boji o titul na Alcaraze nestačil, ve finále turnaje v Tokiu neuhrál proti Španělovi ani set",
-        "description": "Jiří Lehečka titul na tenisovém turnaji v Tokiu nezískal. V úterním finále podlehl světové trojce a španělskému obhájci Carlosi Alcarazovi 6:7, 4:6. Utkání na tvrdém povrchu prohrál za hodinu a 36 minut.",
-        "source": {
-          "id": "irozhlas",
-          "name": "iROZHLAS"
-        },
-        "sourceCountry": "CZ",
-        "language": "cs",
-        "publishedAt": "2026-10-06T11:10:00.000Z",
-        "imageUrl": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_maly_nahled/public/uploader/lehe_261006-125348_kri.JPG?itok=aCL_AOGv",
-        "countryCode": "CZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "sZJXBlTpD85L",
-          "url": "https://www.seznamzpravy.cz/clanek/sport-tenis-lehecka-na-alcaraze-ve-finale-turnaje-v-tokiu-nestacil-a-skoncil-druhy-316895",
-          "canonicalUrl": "https://www.seznamzpravy.cz/clanek/sport-tenis-lehecka-na-alcaraze-ve-finale-turnaje-v-tokiu-nestacil-a-skoncil-druhy-316895",
-          "title": "Tenista Lehečka na Alcaraze ve finále turnaje v Tokiu nestačil",
-          "description": "Jiří Lehečka ve finále tenisového turnaje v Tokiu podlehl světové trojce a španělskému obhájci Carlosi Alcarazovi 6:7 a 4:6.",
-          "source": {
-            "id": "seznamzpravy",
-            "name": "Seznam Zprávy"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T11:08:03.000Z",
-          "imageUrl": null,
-          "countryCode": "CZ",
-          "regionCode": null
-        },
-        {
-          "id": "UkBsykg9Z5ZN",
-          "url": "https://sport.aktualne.cz/tenis/lehecka-alcaraz-cech-hraje-o-svuj-treti-titul-se-spanelskou-superstar/r~aaa2944b16190fcd3df3e357951fc2a0/",
-          "canonicalUrl": "https://sport.aktualne.cz/tenis/lehecka-alcaraz-cech-hraje-o-svuj-treti-titul-se-spanelskou-superstar/r~aaa2944b16190fcd3df3e357951fc2a0/",
-          "title": "Lehečka - Alcaraz 0:2. Titul z turnaje v Tokiu patří Španělovi",
-          "description": "Sledovali jsme online finále tenisového turnaje v Tokiu mezi Jiřím Lehečkou a Carlosem Alcarazem ze Španělska.",
-          "source": {
-            "id": "aktualne",
-            "name": "Aktuálně.cz"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T08:46:00.000Z",
-          "imageUrl": "https://media.eco-files.cz/economia/production/files/2026/10/05/13/18/28/94a3f0dc-2b03-4a2f-9f00-c22e1792fd65/tag:reuters.com,2026:newsml_UP1EM8U1J8NYK.jpg",
-          "countryCode": "CZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T11:10:00.000Z"
-    },
     {
       "id": "1PYMBYPnr0PS",
       "representative": {
@@ -608,6 +279,126 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:43:26.000Z"
+    },
+    {
+      "id": "TmtA31uIPpEA",
+      "representative": {
+        "id": "TmtA31uIPpEA",
+        "url": "https://www.irozhlas.cz/zpravy-domov/litr-benzinu-o-pet-korun-nafta-az-o-dve-pohonne-hmoty-jsou-v-polsku-za-prechodem_2610061541_vaa",
+        "canonicalUrl": "https://www.irozhlas.cz/zpravy-domov/litr-benzinu-o-pet-korun-nafta-az-o-dve-pohonne-hmoty-jsou-v-polsku-za-prechodem_2610061541_vaa",
+        "title": "Litr benzinu o pět korun, nafta až o dvě. Pohonné hmoty jsou v Polsku za přechodem v Náchodě levnější",
+        "description": "Motoristé mohou při nákupu benzinu v Polsku u čerpacích stanic za hraničním přechodem v Náchodě ušetřit na litru benzinu přibližně pět korun. U litru nafty úspora činí zhruba jednu až dvě koruny. Zájem Čechů o levnější paliva v Polsku byl v úterý dopoledne slabý. U polských pump na přechodu byli z…",
+        "source": {
+          "id": "irozhlas",
+          "name": "iROZHLAS"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:41:00.000Z",
+        "imageUrl": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_maly_nahled/public/uploader/rv0_7125_211102-104344_vlf.jpg?itok=KGz3Bi76",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:41:00.000Z"
+    },
+    {
+      "id": "8jtkmqy4qIr-",
+      "representative": {
+        "id": "8jtkmqy4qIr-",
+        "url": "https://sport.aktualne.cz/ostatni-sporty/hlavolam-adrenalinove-hody-i-atraktivni-vyzva-to-je-nuda-tady-urcite-neuslysite/r~aaa2921da7902763c706c328eb7775c5/",
+        "canonicalUrl": "https://sport.aktualne.cz/ostatni-sporty/hlavolam-adrenalinove-hody-i-atraktivni-vyzva-to-je-nuda-tady-urcite-neuslysite/r~aaa2921da7902763c706c328eb7775c5/",
+        "title": "Hlavolam, adrenalinové hody i atraktivní výzva. To je nuda, tady určitě neuslyšíte",
+        "description": "Fotbal ho nebaví. Na tenis se mu nechce. Atletika? „To je nuda.“ A přitom tráví hodiny u mobilu. Znáte to? Možná není problém v tom, že vaše dítě nemá rádo sport. Možná jen ještě nenarazilo na ten správný.",
+        "source": {
+          "id": "aktualne",
+          "name": "Aktuálně.cz"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:40:15.000Z",
+        "imageUrl": "https://media.eco-files.cz/economia/production/files/2026/10/06/13/36/36/9f937b06-9e46-4f01-a394-b4a446de84f8/profimedia-0975546168.jpg",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:40:15.000Z"
+    },
+    {
+      "id": "yzd6UEFSyQZD",
+      "representative": {
+        "id": "yzd6UEFSyQZD",
+        "url": "https://www.idnes.cz/zpravy/domaci/exprezident-zeman-kritizoval-kolaboraci-vytkl-pavlovi-zastitu-sudetonemeckemu-dni-v-brne.A261006_050052_domaci_kop#utm_source=rss&utm_medium=feed&utm_campaign=zpravodaj&utm_content=main",
+        "canonicalUrl": "https://www.idnes.cz/zpravy/domaci/exprezident-zeman-kritizoval-kolaboraci-vytkl-pavlovi-zastitu-sudetonemeckemu-dni-v-brne.A261006_050052_domaci_kop",
+        "title": "Kolaborace končí zradou národa, vykládal Zeman na akci SPD. Kritizoval Pavla",
+        "description": "Do prezidenta Petra Pavla se pustil jeho předchůdce Miloš Zeman. Vyčetl mu záštitu, kterou udělil festivalu Meeting Brno, jehož zástupci pozvali do Brna v květnu sjezd Sudetoněmeckého krajanského sdružení. „Kolaborace se rodí ze zbabělosti a vrcholí zradou vlastního národa,“ řekl ve Sněmovně Zeman.",
+        "source": {
+          "id": "idnes",
+          "name": "iDNES.cz"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:40:00.000Z",
+        "imageUrl": "https://1gr.cz/fotky/idnes/26/101/cl6/KOP60d1788232_IMG_20261006_112616.jpg",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:40:00.000Z"
+    },
+    {
+      "id": "dFU-Uw4Vwa7L",
+      "representative": {
+        "id": "dFU-Uw4Vwa7L",
+        "url": "https://www.novinky.cz/clanek/krimi-miminko-spadlo-po-prudkem-porodu-na-zem-muze-za-to-lekar-rozhodl-soud-v-ceske-lipe-40601117",
+        "canonicalUrl": "https://www.novinky.cz/clanek/krimi-miminko-spadlo-po-prudkem-porodu-na-zem-muze-za-to-lekar-rozhodl-soud-v-ceske-lipe-40601117",
+        "title": "Miminko spadlo po prudkém porodu na zem. Může za to lékař, rozhodl soud v České Lípě",
+        "description": "Okresní soud v České Lípě vynesl v úterý rozsudek v zapeklitém případu, v němž šlo o strašidelný průběh jednoho porodu. Novorozenou holčičku při něm porodník nestihl zachytit a miminko přeletělo přes stůl na zem a utrpělo vážná poranění na hlavě.",
+        "source": {
+          "id": "novinky",
+          "name": "Novinky.cz"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:35:07.000Z",
+        "imageUrl": null,
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:35:07.000Z"
+    },
+    {
+      "id": "lgeQ-JybZsmm",
+      "representative": {
+        "id": "lgeQ-JybZsmm",
+        "url": "https://www.idnes.cz/volby/olomouc/stity-vyhradne-muzska-zenska-kandidatka-komunalni-volby-2026.A261006_095304_olomouc-volby_hava#utm_source=rss&utm_medium=feed&utm_campaign=zpravodaj&utm_content=main",
+        "canonicalUrl": "https://www.idnes.cz/volby/olomouc/stity-vyhradne-muzska-zenska-kandidatka-komunalni-volby-2026.A261006_095304_olomouc-volby_hava",
+        "title": "Volební kuriozita. V městečku proti sobě stojí i ryze mužská a ženská kandidátka",
+        "description": "Ve Štítech na Šumpersku mají voliči v komunálních volbách nezvyklou možnost. Kromě běžně poskládaných kandidátek včetně zastoupení velkých stran si mohou vybrat také uskupení složené jen z žen nebo pouze z mužů. Podle kandidátů nejde o genderové téma, společným cílem má být změna ve vedení města.",
+        "source": {
+          "id": "idnes",
+          "name": "iDNES.cz"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:30:00.000Z",
+        "imageUrl": "https://1gr.cz/fotky/idnes/26/101/cl6/IHA79602e6a88_ock_795761245_kopie.jpg",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:30:00.000Z"
     }
   ]
 }

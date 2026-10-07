@@ -4,50 +4,8 @@
   "countryName": "France",
   "regionCode": "FR-BRE",
   "regionName": "Brittany",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "cRU8_Pqq2Bdj",
-      "representative": {
-        "id": "cRU8_Pqq2Bdj",
-        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/emmanuel-macron-dans-le-finistere-pour-assister-au-tir-de-missile-exclusif-7132467.php",
-        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/emmanuel-macron-dans-le-finistere-pour-assister-au-tir-de-missile-exclusif-7132467.php",
-        "title": "Emmanuel Macron dans le Finistère pour assister au tir de missile [Exclusif]",
-        "description": "INFO LE TÉLÉGRAMME. Arrivé lundi soir dans le Finistère, le président de la République Emmanuel Macron a assisté, ce mardi matin, au tir de missile annoncé depuis plusieurs jours en Bretagne.",
-        "source": {
-          "id": "letelegramme",
-          "name": "Le Télégramme"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T08:55:00.000Z",
-        "imageUrl": "https://medialb.ultimedia.com/multi/s3x5v/3m58v0u-O.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-BRE"
-      },
-      "related": [
-        {
-          "id": "z6k_rLZXl3Gc",
-          "url": "https://france3-regions.franceinfo.fr/bretagne/finistere/quimper/emmanuel-macron-dans-le-finistere-ce-6-octobre-pour-le-tir-d-un-missile-intercontinental-3428772.html",
-          "canonicalUrl": "https://france3-regions.franceinfo.fr/bretagne/finistere/quimper/emmanuel-macron-dans-le-finistere-ce-6-octobre-pour-le-tir-d-un-missile-intercontinental-3428772.html",
-          "title": "Emmanuel Macron dans le Finistère ce 6 octobre pour le tir d'un missile intercontinental",
-          "description": "Emmanuel Macron a assisté ce mardi 6 octobre à un \"premier tir\" d'exercice d'un missile intercontinental lancé depuis un sous-marin nucléaire lanceur d'engins au large du Finistère. L'information a été faite par l'Elysée et le ministère des Armées.",
-          "source": {
-            "id": "france3_bretagne",
-            "name": "France 3 Bretagne"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:50:16.000Z",
-          "imageUrl": "https://france3-regions.franceinfo.fr/image/38BaLPoEVYMLnbIy7gQWGrDAXGg/930x620/filters:format(webp)/regions/2026/10/06/6ac4ee595bdaf843252888.png",
-          "countryCode": "FR",
-          "regionCode": "FR-BRE"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:50:16.000Z"
-    },
     {
       "id": "TDqQCxtml1ig",
       "representative": {
@@ -383,6 +341,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T17:10:00.000Z"
+    },
+    {
+      "id": "Nl9jC8nTUdYb",
+      "representative": {
+        "id": "Nl9jC8nTUdYb",
+        "url": "https://france3-regions.franceinfo.fr/bretagne/finistere/permis-de-construire-suspendu-sur-le-littoral-breton-la-rehabilitation-d-un-grand-hotel-ralentie-dans-le-sable-judiciaire-3429051.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/bretagne/finistere/permis-de-construire-suspendu-sur-le-littoral-breton-la-rehabilitation-d-un-grand-hotel-ralentie-dans-le-sable-judiciaire-3429051.html",
+        "title": "Permis de construire suspendu. Sur le littoral breton, la \"réhabilitation\" d'un Grand Hôtel ralentie dans le sable judiciaire",
+        "description": "C’est un projet qui fait polémique dans le Finistère. À Lesconil, une filiale du groupe Legendre avait obtenu un permis de construire pour une \"réhabilitation\" de l’emblématique \"Grand hôtel des dunes\". Face à l'ampleur du projet, une association et des riverains avaient saisi la justice. Le…",
+        "source": {
+          "id": "france3_bretagne",
+          "name": "France 3 Bretagne"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T16:43:14.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/R52BtWURlBvgIlTN6tSX5T52kF4/930x620/filters:format(webp)/regions/2025/09/03/jtr-s-transformation-de-h-tel-des-dunes-lesconil-fait-des-remous-00-00-13-08-68b83595e9892561777984.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:43:14.000Z"
     }
   ]
 }

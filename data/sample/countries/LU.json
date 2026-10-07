@@ -2,92 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "LU",
   "countryName": "Luxembourg",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "utkYsPHdOJ5g",
-      "representative": {
-        "id": "utkYsPHdOJ5g",
-        "url": "https://lequotidien.lu/monde/le-nobel-de-physique-recompense-un-belge-pour-ses-travaux-sur-les-neutrinos/",
-        "canonicalUrl": "https://lequotidien.lu/monde/le-nobel-de-physique-recompense-un-belge-pour-ses-travaux-sur-les-neutrinos/",
-        "title": "Le Nobel de physique récompense un Belge pour ses travaux sur les neutrinos",
-        "description": "Le Belge Francis Halzen, 82 ans, a reçu mardi le prix Nobel de physique 2026 pour ses travaux sur les neutrinos et l’observatoire IceCube, qui traque ces particules dans la glace de l’Antarctique. Le prix Nobel de physique 2026 a été décerné mardi au Belge Francis Halzen pour ses travaux sur des…",
-        "source": {
-          "id": "lequotidien_lu",
-          "name": "Le Quotidien"
-        },
-        "sourceCountry": "LU",
-        "language": "fr",
-        "publishedAt": "2026-10-06T10:31:50.000Z",
-        "imageUrl": null,
-        "countryCode": "LU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Lmsmcl4UVKa9",
-          "url": "https://www.virgule.lu/international/le-nobel-de-physique-decerne-au-belge-francis-halzen/162649291.html",
-          "canonicalUrl": "https://www.virgule.lu/international/le-nobel-de-physique-decerne-au-belge-francis-halzen/162649291.html",
-          "title": "Le Nobel de physique décerné au Belge Francis Halzen",
-          "description": "Le prix Nobel de physique 2026 a été décerné mardi au Belge Francis Halzen pour ses travaux sur les neutrinos au cœur de l’Antarctique.",
-          "source": {
-            "id": "virgule",
-            "name": "Virgule"
-          },
-          "sourceCountry": "LU",
-          "language": "fr",
-          "publishedAt": "2026-10-06T10:26:32.000Z",
-          "imageUrl": "https://img.virgule.lu/public/luxembourg/itkb7z-nobelphysique2026.jpg/alternates/BASE_SIXTEEN_NINE/nobelphysique2026.jpg",
-          "countryCode": "LU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:31:50.000Z"
-    },
-    {
-      "id": "IJg6VmUR775y",
-      "representative": {
-        "id": "IJg6VmUR775y",
-        "url": "https://lequotidien.lu/police-justice/cycliste-percute-la-police-lance-un-appel-a-temoins/",
-        "canonicalUrl": "https://lequotidien.lu/police-justice/cycliste-percute-la-police-lance-un-appel-a-temoins/",
-        "title": "Cycliste percuté : la police lance un appel à témoins",
-        "description": "Le conducteur d’une camionnette a accroché un cycliste en le dépassant, lundi après-midi à Hassel, puis a poursuivi sa route sans s’arrêter. Lundi, vers 15 h 15, la police a été alertée d’un accident entre un cycliste et une camionnette rue de Dalheim, à Hassel, à hauteur du numéro 7A. Selon les…",
-        "source": {
-          "id": "lequotidien_lu",
-          "name": "Le Quotidien"
-        },
-        "sourceCountry": "LU",
-        "language": "fr",
-        "publishedAt": "2026-10-06T09:37:20.000Z",
-        "imageUrl": null,
-        "countryCode": "LU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "5mMk-8Kvtiea",
-          "url": "https://www.virgule.lu/luxembourg/la-police-grand-ducale-lance-un-appel-a-temoins-apres-un-accident-a-hassel/162644488.html",
-          "canonicalUrl": "https://www.virgule.lu/luxembourg/la-police-grand-ducale-lance-un-appel-a-temoins-apres-un-accident-a-hassel/162644488.html",
-          "title": "La police grand-ducale lance un appel à témoins après un accident à Hassel",
-          "description": "La police recherche des témoins après un accident impliquant un cycliste à Hassel. Le conducteur d’une camionnette a pris la fuite après les faits.",
-          "source": {
-            "id": "virgule",
-            "name": "Virgule"
-          },
-          "sourceCountry": "LU",
-          "language": "fr",
-          "publishedAt": "2026-10-06T09:22:00.000Z",
-          "imageUrl": "https://img.virgule.lu/public/luxembourg/gvoh0z-police-chris-karaba.png/alternates/BASE_SIXTEEN_NINE/police%20chris%20karaba.png",
-          "countryCode": "LU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:37:20.000Z"
-    },
     {
       "id": "Il37l9aBr5iI",
       "representative": {
@@ -392,6 +308,54 @@
         "language": "de",
         "publishedAt": "2026-10-06T15:00:00.000Z",
         "imageUrl": "https://img.wort.lu/public/luxemburg/bwn4yj-das-velodrom-wird-eine-250-meter-lange-und-sieben-meter-breite-holzpiste-mit-dem-sogenannten-infield-beherbergen./alternates/BASE_SIXTEEN_NINE/Das%20Velodrom%20%20wird%20eine%20250%20Meter%20lange%20und%20sieben%20Meter%20breite%20Holzpiste%20mit%20dem%20sogenannten%20Infield%20beherbergen.",
+        "countryCode": "LU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:00:00.000Z"
+    },
+    {
+      "id": "wnFvxKeu20kA",
+      "representative": {
+        "id": "wnFvxKeu20kA",
+        "url": "https://www.wort.lu/kultur/neues-kinoerlebnis-fuer-rund-800.000-euro-in-duedelingen/162638153.html",
+        "canonicalUrl": "https://www.wort.lu/kultur/neues-kinoerlebnis-fuer-rund-800.000-euro-in-duedelingen/162638153.html",
+        "title": "Neues Kinoerlebnis für rund 800.000 Euro in Düdelingen",
+        "description": "Nach aufwendigen Renovierungsarbeiten empfängt das Ciné Starlight bereits seit April wieder Besucher. Nun wurde das Kino offiziell wiedereröffnet. Das hat sich verändert.",
+        "source": {
+          "id": "wort",
+          "name": "Luxemburger Wort"
+        },
+        "sourceCountry": "LU",
+        "language": "de",
+        "publishedAt": "2026-10-06T15:00:00.000Z",
+        "imageUrl": "https://img.wort.lu/public/luxemburg/kydq0a-wiedereroffnung-cine-starlight-cna-dudelange-06.10.26-photo-laurent-sturm/alternates/BASE_SIXTEEN_NINE/Wiederer%C3%B6ffnung%20Cin%C3%A9%20Starlight%20CNA%20Dudelange%2006.10.26%20Photo%20Laurent%20Sturm",
+        "countryCode": "LU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:00:00.000Z"
+    },
+    {
+      "id": "zeUllYQMWEiw",
+      "representative": {
+        "id": "zeUllYQMWEiw",
+        "url": "https://www.wort.lu/international/marode-schulgebaeude-und-ratten-treiben-die-jugendlichen-auf-die-strasse/162666930.html",
+        "canonicalUrl": "https://www.wort.lu/international/marode-schulgebaeude-und-ratten-treiben-die-jugendlichen-auf-die-strasse/162666930.html",
+        "title": "Marode Schulgebäude und Ratten treiben die Jugendlichen auf die Straße",
+        "description": "Am Dienstag protestierten Zehntausende in Frankreich gegen schlechte Lernbedingungen. Teilweise arteten sie in Gewalt aus. Die Linkspartei nutzt die Wut derweil für ihre politische Inszenierung.",
+        "source": {
+          "id": "wort",
+          "name": "Luxemburger Wort"
+        },
+        "sourceCountry": "LU",
+        "language": "de",
+        "publishedAt": "2026-10-06T15:00:00.000Z",
+        "imageUrl": "https://img.wort.lu/public/luxemburg/irqgmy-file87wv0dp4z9ylcdaw8c0/alternates/BASE_SIXTEEN_NINE/file87wv0dp4z9ylcdaw8c0",
         "countryCode": "LU",
         "regionCode": null
       },

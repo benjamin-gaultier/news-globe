@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AM",
   "countryName": "Armenia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "aBDMGYHaKSUS",
@@ -291,90 +291,6 @@
       "latestPublishedAt": "2026-10-06T13:51:00.000Z"
     },
     {
-      "id": "ASp7UVM2TnMH",
-      "representative": {
-        "id": "ASp7UVM2TnMH",
-        "url": "https://news.am/hy/news/1066080",
-        "canonicalUrl": "https://news.am/hy/news/1066080",
-        "title": "Հօգուտ ՀՀ-ի կբռնագանձվի շուրջ 114 մլն դրամ. Դատախազության՝ ապօրինի գույքի բռնագանձման հայցն ամբողջությամբ բավարարվել է",
-        "description": null,
-        "source": {
-          "id": "news_am",
-          "name": "News.am"
-        },
-        "sourceCountry": "AM",
-        "language": "hy",
-        "publishedAt": "2026-10-06T10:47:00.000Z",
-        "imageUrl": "https://news.am/storage/media/26/10/06/10udWcaeQu8UZ6VD.webp",
-        "countryCode": "AM",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "X59VcV_dcuRO",
-          "url": "https://hetq.am/hy/article/184470",
-          "canonicalUrl": "https://hetq.am/hy/article/184470",
-          "title": "Հօգուտ ՀՀ-ի կբռնագանձվի շուրջ 114 մլն դրամ. Դատախազություն",
-          "description": "«Դատական ակտն ուժի մեջ մտնելուց հետո, հօգուտ Հայաստանի Հանրապետության կբռնագանձվի 113 միլիոն 805 հազար դրամ»,- ասված է հաղորդագրությունում։",
-          "source": {
-            "id": "hetq",
-            "name": "Hetq"
-          },
-          "sourceCountry": "AM",
-          "language": "hy",
-          "publishedAt": "2026-10-06T10:50:00.000Z",
-          "imageUrl": "https://hetq.am/static/articles/18/44/70/l-I2aDm6lVje.jpg",
-          "countryCode": "AM",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:50:00.000Z"
-    },
-    {
-      "id": "TrT-aPweH00X",
-      "representative": {
-        "id": "TrT-aPweH00X",
-        "url": "https://hetq.am/hy/article/184469",
-        "canonicalUrl": "https://hetq.am/hy/article/184469",
-        "title": "Քննարկվել են արհեստական բանականության տվյալների կենտրոնի էլեկտրամատակարարմանն առնչվող հարցեր",
-        "description": "Քննարկվել են արհեստական բանականության տվյալների կենտրոնի էլեկտրաէներգետիկ համակարգին միացման, անհրաժեշտ հզորությունների ապահովման և համակարգի վրա դրանց հնարավոր ազդեցությանն առնչվող հարցեր։",
-        "source": {
-          "id": "hetq",
-          "name": "Hetq"
-        },
-        "sourceCountry": "AM",
-        "language": "hy",
-        "publishedAt": "2026-10-06T10:10:00.000Z",
-        "imageUrl": "https://hetq.am/static/articles/18/44/69/l-IGpgYfbkrP.jpg",
-        "countryCode": "AM",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "fOvNzYH2kUj3",
-          "url": "https://news.am/hy/news/1066065",
-          "canonicalUrl": "https://news.am/hy/news/1066065",
-          "title": "ՀԾԿՀ-ում քննարկվել են ԱԲ տվյալների կենտրոնի էլեկտրամատակարարմանն առնչվող հարցեր",
-          "description": null,
-          "source": {
-            "id": "news_am",
-            "name": "News.am"
-          },
-          "sourceCountry": "AM",
-          "language": "hy",
-          "publishedAt": "2026-10-06T10:17:00.000Z",
-          "imageUrl": "https://news.am/storage/media/26/10/06/gcXFMXkkrzH4HMwi.webp",
-          "countryCode": "AM",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:17:00.000Z"
-    },
-    {
       "id": "gU67GlIR534p",
       "representative": {
         "id": "gU67GlIR534p",
@@ -541,6 +457,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T16:28:29.000Z"
+    },
+    {
+      "id": "bbtWpS5PEnK4",
+      "representative": {
+        "id": "bbtWpS5PEnK4",
+        "url": "https://168.am/2026/10/06/2493504.html",
+        "canonicalUrl": "https://168.am/2026/10/06/2493504.html",
+        "title": "Պուտինի և Փաշինյանի առանձին հանդիպում չի նախատեսվում․ Ուշակով",
+        "description": "Ռուսաստանի նախագահ Վլադիմիր Պուտինի և Հայաստանի վարչապետ Նիկոլ Փաշինյանի առանձին հանդիպումը ԱՊՀ գագաթնաժողովի շրջանակում չի նախատեսվում, սակայն հնարավոր շփումները բացառել չի կարելի։ Այս մասին հայտարարել է ՌԴ նախագահի օգնական Յուրի Ուշակովը։",
+        "source": {
+          "id": "168am",
+          "name": "168 Zham"
+        },
+        "sourceCountry": "AM",
+        "language": "hy",
+        "publishedAt": "2026-10-06T16:25:22.000Z",
+        "imageUrl": null,
+        "countryCode": "AM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:25:22.000Z"
+    },
+    {
+      "id": "OwSyzRO0UqYT",
+      "representative": {
+        "id": "OwSyzRO0UqYT",
+        "url": "https://news.am/hy/news/1066149",
+        "canonicalUrl": "https://news.am/hy/news/1066149",
+        "title": "Հնդկաստանը 79 միլիոն դոլարի պայմանագիր է կնքել նավատորմի նավերի համար BrahMos համակարգերի մատակարարման վերաբերյալ",
+        "description": null,
+        "source": {
+          "id": "news_am",
+          "name": "News.am"
+        },
+        "sourceCountry": "AM",
+        "language": "hy",
+        "publishedAt": "2026-10-06T16:24:00.000Z",
+        "imageUrl": "https://news.am/storage/media/26/06/22/aAdsSoDZ9Qhkcx0c.webp",
+        "countryCode": "AM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:24:00.000Z"
     }
   ]
 }

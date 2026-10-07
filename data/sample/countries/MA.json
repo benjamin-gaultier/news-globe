@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MA",
   "countryName": "Morocco",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "WuRy8BpamyNw",
@@ -104,90 +104,6 @@
       "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T13:15:36.000Z"
-    },
-    {
-      "id": "Vdm76472bdte",
-      "representative": {
-        "id": "Vdm76472bdte",
-        "url": "https://www.lavieeco.com/pouvoirs/securite/defense-nouveau-f-16-block-72-marocain-premier-vol-dessai-reussi/",
-        "canonicalUrl": "https://www.lavieeco.com/pouvoirs/securite/defense-nouveau-f-16-block-72-marocain-premier-vol-dessai-reussi/",
-        "title": "Défense : Nouveau F-16 Block 72 marocain, premier vol d’essai réussi",
-        "description": "Le premier F-16 Block 72, version la plus récente et la plus avancée du F-16 Fighting Falcon, destiné aux Forces Royales Air, a effectué avec succès son vol inaugural au Maroc. L’article Défense : Nouveau F-16 Block 72 marocain, premier vol d’essai réussi est apparu en premier sur La Vie éco .",
-        "source": {
-          "id": "lavieeco",
-          "name": "La Vie éco"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T11:43:27.000Z",
-        "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-11.37.31-1024x682.jpeg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "lFK_K2bNfgjC",
-          "url": "https://www.yabiladi.com/articles/details/204322/premier-f-16-block-maroc-effectue.html?utm_source=rss_yabiladi",
-          "canonicalUrl": "https://www.yabiladi.com/articles/details/204322/premier-f-16-block-maroc-effectue.html",
-          "title": "Le premier F-16 Block 72 du Maroc effectue son vol inaugural avant sa livraison",
-          "description": "Le premier avion de chasse F-16 Block 72 du Maroc a réussi son vol inaugural, comme la annoncé le constructeur américain Lockheed Martin dans un communiqué publié le 6 octobre. Lappareil poursuivra ses essais en vol avant dêtre livré aux Forces Royales Air.",
-          "source": {
-            "id": "yabiladi",
-            "name": "Yabiladi"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-06T13:10:00.000Z",
-          "imageUrl": "https://static.yabiladi.com/files/articles/yabiladi.8ee739c7c06484a735ba7bc8bdf5711920261006150537150.webp",
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:10:00.000Z"
-    },
-    {
-      "id": "OeBAHUav_fOv",
-      "representative": {
-        "id": "OeBAHUav_fOv",
-        "url": "https://telquel.ma/instant-t/2026/10/06/sebta-plus-de-1-200-migrants-retournent-au-maroc-apres-levacuation-de-la-plage-du-trampolin_2011575/",
-        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/06/sebta-plus-de-1-200-migrants-retournent-au-maroc-apres-levacuation-de-la-plage-du-trampolin_2011575/",
-        "title": "Sebta : plus de 1.200 migrants retournent au Maroc après l’évacuation de la plage du Trampolín",
-        "description": "Plus de 1.200 migrants qui se trouvaient sur la plage du Trampolín, à Sebta, ont choisi de rentrer volontairement au Maroc après avoir été évacués de ce campement au cours des deux derniers jours pour être enregistrés à proximité de la frontière. Des sources policières ont confirmé à l’agence de…",
-        "source": {
-          "id": "telquel",
-          "name": "TelQuel"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T10:00:04.000Z",
-        "imageUrl": "https://static.telquel.ma/content/uploads/2026/09/7d1ceea2539a09480f72cfa19396d363-1.jpg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ka3PYw7CzTW2",
-          "url": "https://www.yabiladi.com/articles/details/204298/ceuta-plus-migrants-retournent-maroc.html?utm_source=rss_yabiladi",
-          "canonicalUrl": "https://www.yabiladi.com/articles/details/204298/ceuta-plus-migrants-retournent-maroc.html",
-          "title": "Ceuta : plus de 1 200 migrants retournent au Maroc après l’évacuation de la plage de Trampolín",
-          "description": "Plus de 1 200 migrants qui se trouvaient sur la plage du Trampoline à Ceuta ont décidé de retourner volontairement au Maroc. Cette décision est survenue après leur évacuation du campement pour des contrôles d’identité près de la frontière ces deux derniers jours.",
-          "source": {
-            "id": "yabiladi",
-            "name": "Yabiladi"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-06T11:30:00.000Z",
-          "imageUrl": "https://static.yabiladi.com/files/articles/yabiladi.8ee739c7c06484a735ba7bc8bdf5711920261006150537150.webp",
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:30:00.000Z"
     },
     {
       "id": "nOPh3ghabc8H",
@@ -334,6 +250,48 @@
       "latestPublishedAt": "2026-10-06T13:11:26.000Z"
     },
     {
+      "id": "Vdm76472bdte",
+      "representative": {
+        "id": "Vdm76472bdte",
+        "url": "https://www.lavieeco.com/pouvoirs/securite/defense-nouveau-f-16-block-72-marocain-premier-vol-dessai-reussi/",
+        "canonicalUrl": "https://www.lavieeco.com/pouvoirs/securite/defense-nouveau-f-16-block-72-marocain-premier-vol-dessai-reussi/",
+        "title": "Défense : Nouveau F-16 Block 72 marocain, premier vol d’essai réussi",
+        "description": "Le premier F-16 Block 72, version la plus récente et la plus avancée du F-16 Fighting Falcon, destiné aux Forces Royales Air, a effectué avec succès son vol inaugural au Maroc. L’article Défense : Nouveau F-16 Block 72 marocain, premier vol d’essai réussi est apparu en premier sur La Vie éco .",
+        "source": {
+          "id": "lavieeco",
+          "name": "La Vie éco"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T11:43:27.000Z",
+        "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-11.37.31-1024x682.jpeg",
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "lFK_K2bNfgjC",
+          "url": "https://www.yabiladi.com/articles/details/204322/premier-f-16-block-maroc-effectue.html?utm_source=rss_yabiladi",
+          "canonicalUrl": "https://www.yabiladi.com/articles/details/204322/premier-f-16-block-maroc-effectue.html",
+          "title": "Le premier F-16 Block 72 du Maroc effectue son vol inaugural avant sa livraison",
+          "description": "Le premier avion de chasse F-16 Block 72 du Maroc a réussi son vol inaugural, comme la annoncé le constructeur américain Lockheed Martin dans un communiqué publié le 6 octobre. Lappareil poursuivra ses essais en vol avant dêtre livré aux Forces Royales Air.",
+          "source": {
+            "id": "yabiladi",
+            "name": "Yabiladi"
+          },
+          "sourceCountry": "MA",
+          "language": "fr",
+          "publishedAt": "2026-10-06T13:10:00.000Z",
+          "imageUrl": "https://static.yabiladi.com/files/articles/yabiladi.8ee739c7c06484a735ba7bc8bdf5711920261006150537150.webp",
+          "countryCode": "MA",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:10:00.000Z"
+    },
+    {
       "id": "6V0TZWAvCq9W",
       "representative": {
         "id": "6V0TZWAvCq9W",
@@ -452,6 +410,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:42:28.000Z"
+    },
+    {
+      "id": "TXbi5FIoVlg3",
+      "representative": {
+        "id": "TXbi5FIoVlg3",
+        "url": "https://www.yabiladi.com/articles/details/204314/benkirane-othmani-reste-chez-semes.html?utm_source=rss_yabiladi",
+        "canonicalUrl": "https://www.yabiladi.com/articles/details/204314/benkirane-othmani-reste-chez-semes.html",
+        "title": "Benkirane à El Othmani : « Reste chez toi, tu sèmes la confusion au sujet de l’accord de normalisation avec Israël»",
+        "description": "Abdelilah Benkirane a vivement appelé Saad Eddine El Othmani à se retirer de la vie partisane, relançant au sein du PJD la controverse sur sa signature de l’accord de reprise des relations avec Israël.",
+        "source": {
+          "id": "yabiladi",
+          "name": "Yabiladi"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:22:00.000Z",
+        "imageUrl": "https://static.yabiladi.com/files/articles/yabiladi.8ee739c7c06484a735ba7bc8bdf5711920261006150537150.webp",
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:22:00.000Z"
     }
   ]
 }

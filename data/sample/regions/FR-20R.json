@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-20R",
   "regionName": "Corsica",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "PZ8C8QycOqKP",
@@ -62,7 +62,7 @@
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T07:09:31.218Z",
+        "publishedAt": "2026-10-07T11:57:59.426Z",
         "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98214930-68432752.jpg?v=1790758153",
         "countryCode": "FR",
         "regionCode": "FR-20R"
@@ -70,7 +70,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T07:09:31.218Z"
+      "latestPublishedAt": "2026-10-07T11:57:59.426Z"
     },
     {
       "id": "VWNbmz46pONv",
@@ -392,7 +392,7 @@
         "regionCode": "FR-20R"
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:24:00.000Z"
     },
@@ -416,7 +416,7 @@
         "regionCode": "FR-20R"
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:31:00.000Z"
     }

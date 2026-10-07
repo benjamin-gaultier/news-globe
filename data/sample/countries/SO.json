@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "SO",
   "countryName": "Somalia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "nkFSLSm6gD7V",
-      "representative": {
-        "id": "nkFSLSm6gD7V",
-        "url": "https://www.caasimada.net/kiiskii-ugu-horreeyay-ee-cudurka-ebola-oo-laga-helay-kenya/",
-        "canonicalUrl": "https://www.caasimada.net/kiiskii-ugu-horreeyay-ee-cudurka-ebola-oo-laga-helay-kenya/",
-        "title": "Kiiskii ugu horreeyay ee cudurka Ebola oo laga helay KENYA",
-        "description": "Nairobi (Caasimada Online) – Dowladda Kenya ayaa maanta xaqiijisay in dalkaasi laga helay kiiskii ugu horreeyay ee cudurka Ebola, iyadoo Wasaaradda Caafimaadka Kenya ay sheegtay in qofkii uu cudurka ku dhacay uu markii dambe u geeriyooday. Wasiirka Caafimaadka Kenya Aden Barre Ducaale ayaa sheegay…",
-        "source": {
-          "id": "caasimada",
-          "name": "Caasimada Online"
-        },
-        "sourceCountry": "SO",
-        "language": "so",
-        "publishedAt": "2026-10-06T15:50:42.000Z",
-        "imageUrl": "https://i0.wp.com/www.caasimada.net/wp-content/uploads/2026/10/Ebola-baaris.webp?fit=1500%2C1125&amp;ssl=1",
-        "countryCode": "SO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "7M3VoGEHZSC_",
-          "url": "https://goobjoog.com/2026/10/06/kenya-oo-xaqiijisay-kiiskii-ugu-horreeyay-ee-ebola-iyo-28-qof-oo-lala-xiriirinayo-cudurkaas-oo-la-raadinayo/",
-          "canonicalUrl": "https://goobjoog.com/2026/10/06/kenya-oo-xaqiijisay-kiiskii-ugu-horreeyay-ee-ebola-iyo-28-qof-oo-lala-xiriirinayo-cudurkaas-oo-la-raadinayo/",
-          "title": "Kenya oo xaqiijisay Kiiskii ugu Horreeyay ee Ebola iyo 28 Qof oo lala xiriirinayo Cudurkaas oo la raadinayo",
-          "description": "Dowladda Kenya ayaa xaqiijisay kiiskii ugu horreeyay ee cudurka Ebola, kaddib markii muwaadin Kenyan ah oo dhawaan ka soo safray Jamhuuriyadda Dimuqraadiga ah ee Congo (DRC) uu ku geeriyooday isbitaal ku yaalla magaalada Nairobi.",
-          "source": {
-            "id": "goobjoog",
-            "name": "Goobjoog News"
-          },
-          "sourceCountry": "SO",
-          "language": "so",
-          "publishedAt": "2026-10-06T10:55:11.000Z",
-          "imageUrl": null,
-          "countryCode": "SO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:50:42.000Z"
-    },
     {
       "id": "CQLabyYNztnd",
       "representative": {
@@ -87,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T14:06:59.000Z"
-    },
-    {
-      "id": "ZV1AWpxCBI98",
-      "representative": {
-        "id": "ZV1AWpxCBI98",
-        "url": "https://www.caasimada.net/xog-khilaaf-xooggan-oo-ka-dhex-aloosan-firdhiye-iyo-ku-xigeenkiisa/",
-        "canonicalUrl": "https://www.caasimada.net/xog-khilaaf-xooggan-oo-ka-dhex-aloosan-firdhiye-iyo-ku-xigeenkiisa/",
-        "title": "Xog: Khilaaf xooggan oo ka dhex aloosan Firdhiye iyo ku-xigeenkiisa",
-        "description": "Laascaanood (Caasimada Online) – Khilaaf siyaasadeed ayaa markale soo shaac baxay gudaha maamulka Waqooyi Bari, iyadoo uu soo kala dhex galay Madaxweynaha maamulka, Cabdulqaadir Axmed Aw Cali (Firdhiye) iyo ku-xigeenkiisa, Cabdirashiid Yuusuf Jibriil (Abwaan). Labada mas’uul ayaa xilka wada haya…",
-        "source": {
-          "id": "caasimada",
-          "name": "Caasimada Online"
-        },
-        "sourceCountry": "SO",
-        "language": "so",
-        "publishedAt": "2026-10-06T14:00:42.000Z",
-        "imageUrl": "https://i0.wp.com/www.caasimada.net/wp-content/uploads/2025/08/Firdhiye-iyo-Abwaan.webp?fit=4451%2C3296&amp;ssl=1",
-        "countryCode": "SO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "OSX5RfDnC1_8",
-          "url": "https://puntlandpost.net/2026/10/06/khilaaf-ka-dhex-taagan-firdhiye-iyo-abwaan/",
-          "canonicalUrl": "https://puntlandpost.net/2026/10/06/khilaaf-ka-dhex-taagan-firdhiye-iyo-abwaan/",
-          "title": "Khilaaf ka dhex taagan Firdhiye iyo Abwaan",
-          "description": "Khilaaf siyaasadeed oo xooggan ayaa markale ka dhex curtay madaxweynaha maamulka Waqooyi Bari Cabdiqaadir Axmed Aw Cali (Firdhiye) iyo ku-xigeenkiisa… Sii akhri",
-          "source": {
-            "id": "puntlandpost",
-            "name": "Puntland Post"
-          },
-          "sourceCountry": "SO",
-          "language": "so",
-          "publishedAt": "2026-10-06T11:32:58.000Z",
-          "imageUrl": null,
-          "countryCode": "SO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:00:42.000Z"
     },
     {
       "id": "0AuCBIJK9E1d",
@@ -251,6 +167,48 @@
       "latestPublishedAt": "2026-10-06T16:25:46.000Z"
     },
     {
+      "id": "nkFSLSm6gD7V",
+      "representative": {
+        "id": "nkFSLSm6gD7V",
+        "url": "https://www.caasimada.net/kiiskii-ugu-horreeyay-ee-cudurka-ebola-oo-laga-helay-kenya/",
+        "canonicalUrl": "https://www.caasimada.net/kiiskii-ugu-horreeyay-ee-cudurka-ebola-oo-laga-helay-kenya/",
+        "title": "Kiiskii ugu horreeyay ee cudurka Ebola oo laga helay KENYA",
+        "description": "Nairobi (Caasimada Online) – Dowladda Kenya ayaa maanta xaqiijisay in dalkaasi laga helay kiiskii ugu horreeyay ee cudurka Ebola, iyadoo Wasaaradda Caafimaadka Kenya ay sheegtay in qofkii uu cudurka ku dhacay uu markii dambe u geeriyooday. Wasiirka Caafimaadka Kenya Aden Barre Ducaale ayaa sheegay…",
+        "source": {
+          "id": "caasimada",
+          "name": "Caasimada Online"
+        },
+        "sourceCountry": "SO",
+        "language": "so",
+        "publishedAt": "2026-10-06T15:50:42.000Z",
+        "imageUrl": "https://i0.wp.com/www.caasimada.net/wp-content/uploads/2026/10/Ebola-baaris.webp?fit=1500%2C1125&amp;ssl=1",
+        "countryCode": "SO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "7M3VoGEHZSC_",
+          "url": "https://goobjoog.com/2026/10/06/kenya-oo-xaqiijisay-kiiskii-ugu-horreeyay-ee-ebola-iyo-28-qof-oo-lala-xiriirinayo-cudurkaas-oo-la-raadinayo/",
+          "canonicalUrl": "https://goobjoog.com/2026/10/06/kenya-oo-xaqiijisay-kiiskii-ugu-horreeyay-ee-ebola-iyo-28-qof-oo-lala-xiriirinayo-cudurkaas-oo-la-raadinayo/",
+          "title": "Kenya oo xaqiijisay Kiiskii ugu Horreeyay ee Ebola iyo 28 Qof oo lala xiriirinayo Cudurkaas oo la raadinayo",
+          "description": "Dowladda Kenya ayaa xaqiijisay kiiskii ugu horreeyay ee cudurka Ebola, kaddib markii muwaadin Kenyan ah oo dhawaan ka soo safray Jamhuuriyadda Dimuqraadiga ah ee Congo (DRC) uu ku geeriyooday isbitaal ku yaalla magaalada Nairobi.",
+          "source": {
+            "id": "goobjoog",
+            "name": "Goobjoog News"
+          },
+          "sourceCountry": "SO",
+          "language": "so",
+          "publishedAt": "2026-10-06T10:55:11.000Z",
+          "imageUrl": null,
+          "countryCode": "SO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:50:42.000Z"
+    },
+    {
       "id": "pVPOBn5HyOFW",
       "representative": {
         "id": "pVPOBn5HyOFW",
@@ -321,6 +279,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:16:17.000Z"
+    },
+    {
+      "id": "ZV1AWpxCBI98",
+      "representative": {
+        "id": "ZV1AWpxCBI98",
+        "url": "https://www.caasimada.net/xog-khilaaf-xooggan-oo-ka-dhex-aloosan-firdhiye-iyo-ku-xigeenkiisa/",
+        "canonicalUrl": "https://www.caasimada.net/xog-khilaaf-xooggan-oo-ka-dhex-aloosan-firdhiye-iyo-ku-xigeenkiisa/",
+        "title": "Xog: Khilaaf xooggan oo ka dhex aloosan Firdhiye iyo ku-xigeenkiisa",
+        "description": "Laascaanood (Caasimada Online) – Khilaaf siyaasadeed ayaa markale soo shaac baxay gudaha maamulka Waqooyi Bari, iyadoo uu soo kala dhex galay Madaxweynaha maamulka, Cabdulqaadir Axmed Aw Cali (Firdhiye) iyo ku-xigeenkiisa, Cabdirashiid Yuusuf Jibriil (Abwaan). Labada mas’uul ayaa xilka wada haya…",
+        "source": {
+          "id": "caasimada",
+          "name": "Caasimada Online"
+        },
+        "sourceCountry": "SO",
+        "language": "so",
+        "publishedAt": "2026-10-06T14:00:42.000Z",
+        "imageUrl": "https://i0.wp.com/www.caasimada.net/wp-content/uploads/2025/08/Firdhiye-iyo-Abwaan.webp?fit=4451%2C3296&amp;ssl=1",
+        "countryCode": "SO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "OSX5RfDnC1_8",
+          "url": "https://puntlandpost.net/2026/10/06/khilaaf-ka-dhex-taagan-firdhiye-iyo-abwaan/",
+          "canonicalUrl": "https://puntlandpost.net/2026/10/06/khilaaf-ka-dhex-taagan-firdhiye-iyo-abwaan/",
+          "title": "Khilaaf ka dhex taagan Firdhiye iyo Abwaan",
+          "description": "Khilaaf siyaasadeed oo xooggan ayaa markale ka dhex curtay madaxweynaha maamulka Waqooyi Bari Cabdiqaadir Axmed Aw Cali (Firdhiye) iyo ku-xigeenkiisa… Sii akhri",
+          "source": {
+            "id": "puntlandpost",
+            "name": "Puntland Post"
+          },
+          "sourceCountry": "SO",
+          "language": "so",
+          "publishedAt": "2026-10-06T11:32:58.000Z",
+          "imageUrl": null,
+          "countryCode": "SO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:00:42.000Z"
     },
     {
       "id": "mrIO5i2OgwpY",
@@ -414,7 +414,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:00:23.000Z"
     }

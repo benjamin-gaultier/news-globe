@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IR",
   "countryName": "Iran",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "5p6ur6II-HHU",
@@ -216,65 +216,6 @@
       "latestPublishedAt": "2026-10-06T16:21:48.000Z"
     },
     {
-      "id": "RwdfrSRIvijH",
-      "representative": {
-        "id": "RwdfrSRIvijH",
-        "url": "https://www.isna.ir/news/1405071409489/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C%D8%A7%D9%86-%D8%A8%D9%87-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87",
-        "canonicalUrl": "https://www.isna.ir/news/1405071409489/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C%D8%A7%D9%86-%D8%A8%D9%87-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87",
-        "title": "پیام تسلیت پزشکیان به رئیس سازمان برنامه و بودجه",
-        "description": "رئیس‌جمهور در پیامی درگذشت مادر سید حمید پورمحمدی رئیس سازمان برنامه و بودجه را تسلیت گفت.",
-        "source": {
-          "id": "isna",
-          "name": "ISNA"
-        },
-        "sourceCountry": "IR",
-        "language": "fa",
-        "publishedAt": "2026-10-06T15:48:09.000Z",
-        "imageUrl": "https://cdn.isna.ir/d/2026/08/25/4/63949362.jpg",
-        "countryCode": "IR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "qZOQonfq3VHQ",
-          "url": "https://www.mehrnews.com/news/6970106/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C%D8%A7%D9%86-%D8%A8%D9%87-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87",
-          "canonicalUrl": "https://www.mehrnews.com/news/6970106/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C%D8%A7%D9%86-%D8%A8%D9%87-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87",
-          "title": "پیام تسلیت پزشکیان به رئیس سازمان برنامه و بودجه",
-          "description": "رئیس جمهور در پیامی درگذشت مادر رئیس سازمان برنامه و بودجه را تسلیت گفت.",
-          "source": {
-            "id": "mehr",
-            "name": "Mehr"
-          },
-          "sourceCountry": "IR",
-          "language": "fa",
-          "publishedAt": "2026-10-06T16:18:53.000Z",
-          "imageUrl": "https://media.mehrnews.com/d/2025/12/13/4/5823639.jpg",
-          "countryCode": "IR",
-          "regionCode": null
-        },
-        {
-          "id": "LneLVt98rrBl",
-          "url": "https://www.entekhab.ir/fa/news/942346/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D9%85%D8%A7%D8%AF%D8%B1-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87-%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D8%B9%D9%84%DB%8C-%D8%A7%DA%A9%D8%A8%D8%B1-%D8%B5%D8%A7%D9%84%D8%AD%DB%8C",
-          "canonicalUrl": "https://www.entekhab.ir/fa/news/942346/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D9%85%D8%A7%D8%AF%D8%B1-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87-%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D8%B9%D9%84%DB%8C-%D8%A7%DA%A9%D8%A8%D8%B1-%D8%B5%D8%A7%D9%84%D8%AD%DB%8C",
-          "title": "درگذشت مادر رئیس سازمان برنامه و بودجه/ پیام تسلیت علی اکبر صالحی",
-          "description": "در پی درگذشت مادر رئیس سازمان برنامه‌ و بودجه، علی‌ اکبر صالحی رییس بنیاد ایران‌شناسی پیام تسلیتی صادر کرد.",
-          "source": {
-            "id": "entekhab",
-            "name": "Entekhab"
-          },
-          "sourceCountry": "IR",
-          "language": "fa",
-          "publishedAt": "2026-10-06T08:30:41.000Z",
-          "imageUrl": null,
-          "countryCode": "IR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T16:18:53.000Z"
-    },
-    {
       "id": "Wr4xelSKxUiK",
       "representative": {
         "id": "Wr4xelSKxUiK",
@@ -418,6 +359,65 @@
       "latestPublishedAt": "2026-10-06T16:24:29.000Z"
     },
     {
+      "id": "RwdfrSRIvijH",
+      "representative": {
+        "id": "RwdfrSRIvijH",
+        "url": "https://www.isna.ir/news/1405071409489/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C%D8%A7%D9%86-%D8%A8%D9%87-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87",
+        "canonicalUrl": "https://www.isna.ir/news/1405071409489/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C%D8%A7%D9%86-%D8%A8%D9%87-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87",
+        "title": "پیام تسلیت پزشکیان به رئیس سازمان برنامه و بودجه",
+        "description": "رئیس‌جمهور در پیامی درگذشت مادر سید حمید پورمحمدی رئیس سازمان برنامه و بودجه را تسلیت گفت.",
+        "source": {
+          "id": "isna",
+          "name": "ISNA"
+        },
+        "sourceCountry": "IR",
+        "language": "fa",
+        "publishedAt": "2026-10-06T15:48:09.000Z",
+        "imageUrl": "https://cdn.isna.ir/d/2026/08/25/4/63949362.jpg",
+        "countryCode": "IR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "qZOQonfq3VHQ",
+          "url": "https://www.mehrnews.com/news/6970106/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C%D8%A7%D9%86-%D8%A8%D9%87-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87",
+          "canonicalUrl": "https://www.mehrnews.com/news/6970106/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C%D8%A7%D9%86-%D8%A8%D9%87-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87",
+          "title": "پیام تسلیت پزشکیان به رئیس سازمان برنامه و بودجه",
+          "description": "رئیس جمهور در پیامی درگذشت مادر رئیس سازمان برنامه و بودجه را تسلیت گفت.",
+          "source": {
+            "id": "mehr",
+            "name": "Mehr"
+          },
+          "sourceCountry": "IR",
+          "language": "fa",
+          "publishedAt": "2026-10-06T16:18:53.000Z",
+          "imageUrl": "https://media.mehrnews.com/d/2025/12/13/4/5823639.jpg",
+          "countryCode": "IR",
+          "regionCode": null
+        },
+        {
+          "id": "LneLVt98rrBl",
+          "url": "https://www.entekhab.ir/fa/news/942346/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D9%85%D8%A7%D8%AF%D8%B1-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87-%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D8%B9%D9%84%DB%8C-%D8%A7%DA%A9%D8%A8%D8%B1-%D8%B5%D8%A7%D9%84%D8%AD%DB%8C",
+          "canonicalUrl": "https://www.entekhab.ir/fa/news/942346/%D8%AF%D8%B1%DA%AF%D8%B0%D8%B4%D8%AA-%D9%85%D8%A7%D8%AF%D8%B1-%D8%B1%D8%A6%DB%8C%D8%B3-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%A8%D9%88%D8%AF%D8%AC%D9%87-%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D8%B9%D9%84%DB%8C-%D8%A7%DA%A9%D8%A8%D8%B1-%D8%B5%D8%A7%D9%84%D8%AD%DB%8C",
+          "title": "درگذشت مادر رئیس سازمان برنامه و بودجه/ پیام تسلیت علی اکبر صالحی",
+          "description": "در پی درگذشت مادر رئیس سازمان برنامه‌ و بودجه، علی‌ اکبر صالحی رییس بنیاد ایران‌شناسی پیام تسلیتی صادر کرد.",
+          "source": {
+            "id": "entekhab",
+            "name": "Entekhab"
+          },
+          "sourceCountry": "IR",
+          "language": "fa",
+          "publishedAt": "2026-10-06T08:30:41.000Z",
+          "imageUrl": null,
+          "countryCode": "IR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T16:18:53.000Z"
+    },
+    {
       "id": "_ZHsXGZ5Hhgb",
       "representative": {
         "id": "_ZHsXGZ5Hhgb",
@@ -458,48 +458,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T16:14:22.000Z"
-    },
-    {
-      "id": "1eIvoCw7wIjQ",
-      "representative": {
-        "id": "1eIvoCw7wIjQ",
-        "url": "https://www.irna.ir/news/86285159/%DB%B1%DB%B3-%D9%85%D8%B9%D8%AF%D9%86-%D9%86%D8%A7%D8%A7%DB%8C%D9%85%D9%86-%D8%AF%D8%B1-%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86-%D9%BE%D9%84%D9%85%D8%A8-%D8%B4%D8%AF",
-        "canonicalUrl": "https://www.irna.ir/news/86285159/%DB%B1%DB%B3-%D9%85%D8%B9%D8%AF%D9%86-%D9%86%D8%A7%D8%A7%DB%8C%D9%85%D9%86-%D8%AF%D8%B1-%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86-%D9%BE%D9%84%D9%85%D8%A8-%D8%B4%D8%AF",
-        "title": "۱۳ معدن ناایمن در مازندران پلمب شد",
-        "description": "ساری - ایرنا - مدیرکل تعاون، کار و رفاه اجتماعی مازندران با اشاره به برخورد قانونی با معادن ناایمن گفت: از ابتدای دولت چهاردهم تاکنون ۱۲ معدن و امسال نیز یک شرکت معدنی به دلیل رعایت نکردن مقررات و شرایط ایمنی، با دستور دادستان پلمب شدند.",
-        "source": {
-          "id": "irna",
-          "name": "IRNA"
-        },
-        "sourceCountry": "IR",
-        "language": "fa",
-        "publishedAt": "2026-10-06T16:11:09.000Z",
-        "imageUrl": "https://img9.irna.ir/d/r2/2025/11/14/4/172248092.jpg",
-        "countryCode": "IR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "UjRwxF8XZX1n",
-          "url": "https://www.entekhab.ir/fa/news/942365/%D9%85%D8%AF%DB%8C%D8%B1%DA%A9%D9%84-%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%DA%A9%D8%A7%D8%B1-%D9%88-%D8%B1%D9%81%D8%A7%D9%87-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%DB%8C-13-%D9%85%D8%B9%D8%AF%D9%86-%D9%86%D8%A7%D8%A7%DB%8C%D9%85%D9%86-%D8%AF%D8%B1-%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%D8%AF%D9%84%DB%8C%D9%84-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D8%A7%DB%8C%D9%85%D9%86%DB%8C-%D9%BE%D9%84%D9%85%D8%A8-%D8%B4%D8%AF%D9%86%D8%AF",
-          "canonicalUrl": "https://www.entekhab.ir/fa/news/942365/%D9%85%D8%AF%DB%8C%D8%B1%DA%A9%D9%84-%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%DA%A9%D8%A7%D8%B1-%D9%88-%D8%B1%D9%81%D8%A7%D9%87-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%DB%8C-13-%D9%85%D8%B9%D8%AF%D9%86-%D9%86%D8%A7%D8%A7%DB%8C%D9%85%D9%86-%D8%AF%D8%B1-%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%D8%AF%D9%84%DB%8C%D9%84-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D8%A7%DB%8C%D9%85%D9%86%DB%8C-%D9%BE%D9%84%D9%85%D8%A8-%D8%B4%D8%AF%D9%86%D8%AF",
-          "title": "مدیرکل تعاون، کار و رفاه اجتماعی: ۱۳ معدن ناایمن در مازندران به دلیل تخلفات ایمنی پلمب شدند",
-          "description": "مدیرکل تعاون، کار و رفاه اجتماعی مازندران از پلمب ۱۳ معدن به دلیل رعایت نکردن الزامات ایمنی خبر داد و گفت: بازرسی‌های تخصصی از معادن و کارگاه‌های پرخطر استان تشدید می‌شود.",
-          "source": {
-            "id": "entekhab",
-            "name": "Entekhab"
-          },
-          "sourceCountry": "IR",
-          "language": "fa",
-          "publishedAt": "2026-10-06T09:29:50.000Z",
-          "imageUrl": null,
-          "countryCode": "IR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:11:09.000Z"
     },
     {
       "id": "D1PjBi4gCROM",
@@ -712,38 +670,38 @@
       "latestPublishedAt": "2026-10-06T14:16:36.000Z"
     },
     {
-      "id": "CV5aul53vf_J",
+      "id": "phRR2LjFE-hb",
       "representative": {
-        "id": "CV5aul53vf_J",
-        "url": "https://donya-e-eqtesad.com/%D8%A8%D8%AE%D8%B4-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%AE%D9%88%D8%A7%D9%86-62/4299943-%D9%82%DB%8C%D9%85%D8%AA-%D8%B7%D9%84%D8%A7-%D8%A7%D9%85%D8%B1%D9%88%D8%B2-%D8%B3%D9%87-%D8%B4%D9%86%D8%A8%D9%87-%D9%85%D9%87%D8%B1",
-        "canonicalUrl": "https://donya-e-eqtesad.com/%D8%A8%D8%AE%D8%B4-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%AE%D9%88%D8%A7%D9%86-62/4299943-%D9%82%DB%8C%D9%85%D8%AA-%D8%B7%D9%84%D8%A7-%D8%A7%D9%85%D8%B1%D9%88%D8%B2-%D8%B3%D9%87-%D8%B4%D9%86%D8%A8%D9%87-%D9%85%D9%87%D8%B1",
-        "title": "قیمت طلا امروز سه‌شنبه ۱۴ مهر ۱۴۰۵",
-        "description": "قیمت طلا امروز با افزایش 17 دلاری نسبت به روز گذشته، 4163 (چهار هزار و یکصد و شصت و سه) دلار نرخ‌گذاری شد.",
+        "id": "phRR2LjFE-hb",
+        "url": "https://donya-e-eqtesad.com/%D8%A8%D8%AE%D8%B4-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%AE%D9%88%D8%A7%D9%86-62/4300023-%DB%8C%DA%A9-%D9%86%D9%81%D8%AA%DA%A9%D8%B4-%D8%AF%D8%B1-%D8%AA%D9%86%DA%AF%D9%87-%D9%87%D8%B1%D9%85%D8%B2-%D9%87%D8%AF%D9%81-%D8%AD%D9%85%D9%84%D9%87-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA",
+        "canonicalUrl": "https://donya-e-eqtesad.com/%D8%A8%D8%AE%D8%B4-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%AE%D9%88%D8%A7%D9%86-62/4300023-%DB%8C%DA%A9-%D9%86%D9%81%D8%AA%DA%A9%D8%B4-%D8%AF%D8%B1-%D8%AA%D9%86%DA%AF%D9%87-%D9%87%D8%B1%D9%85%D8%B2-%D9%87%D8%AF%D9%81-%D8%AD%D9%85%D9%84%D9%87-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA",
+        "title": "یک نفتکش در تنگه هرمز هدف حمله قرار گرفت",
+        "description": "سازمان عملیات تجارت دریایی بریتانیا از حمله به یک نفتکش هنگام عبور آن از تنگه هرمز خبر داد.",
         "source": {
           "id": "donya_eqtesad",
           "name": "Donya-e-Eqtesad"
         },
         "sourceCountry": "IR",
         "language": "fa",
-        "publishedAt": "2026-10-06T13:40:56.000Z",
-        "imageUrl": "https://cdn.donya-e-eqtesad.com/thumbnail/Zp1K6z9GeVv8/CjRxp5qG1cmEWIlhaH818SDXWP2hNFnwfxyAiaICmUsGadYJ8OFNnlSj37wf3nzT_KglO0XoLDej22-b--HhLWynkjodOUWmw_fUAUyPxzlLe02csxIZ5g,,/%D9%82%DB%8C%D9%85%D8%AA+%D8%B7%D9%84%D8%A7%DB%8C+%D8%AC%D9%87%D8%A7%D9%86%DB%8C+.jpg",
+        "publishedAt": "2026-10-06T12:58:41.000Z",
+        "imageUrl": "https://cdn.donya-e-eqtesad.com/thumbnail/HHr9inSJ3A0m/CjRxp5qG1cmEWIlhaH818SDXWP2hNFnwfxyAiaICmUsGadYJ8OFNnlSj37wf3nzT_KglO0XoLDej22-b--HhLWynkjodOUWmH_gJ6Hi0efNLe02csxIZ5g,,/%D8%AA%D9%86%DA%AF%D9%87+%D9%87%D8%B1%D9%85%D8%B2.jpg",
         "countryCode": "IR",
         "regionCode": null
       },
       "related": [
         {
-          "id": "PNvMGVUukJul",
-          "url": "https://www.entekhab.ir/fa/news/942361/%D9%82%DB%8C%D9%85%D8%AA-%D8%AF%D8%B1%D9%87%D9%85-%D8%A7%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%85%D8%B1%D9%88%D8%B2-%D8%B3%D9%87-%D8%B4%D9%86%D8%A8%D9%87-14-%D9%85%D9%87%D8%B1-1405",
-          "canonicalUrl": "https://www.entekhab.ir/fa/news/942361/%D9%82%DB%8C%D9%85%D8%AA-%D8%AF%D8%B1%D9%87%D9%85-%D8%A7%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%85%D8%B1%D9%88%D8%B2-%D8%B3%D9%87-%D8%B4%D9%86%D8%A8%D9%87-14-%D9%85%D9%87%D8%B1-1405",
-          "title": "قیمت درهم امارات، امروز سه‌شنبه ۱۴ مهر ۱۴۰۵",
-          "description": "امروز سه‌شنبه ۱۴ مهر ۱۴۰۵، درهم امارات به طور متوسط ۷۳ هزار و ۷۰۰ تومان معامله شد‌.",
+          "id": "oM6kK70u0020",
+          "url": "https://www.entekhab.ir/fa/news/942393/%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%B9%D9%85%D9%84%DB%8C%D8%A7%D8%AA-%D8%AA%D8%AC%D8%A7%D8%B1%D8%AA-%D8%AF%D8%B1%DB%8C%D8%A7%DB%8C%DB%8C-%D8%A8%D8%B1%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D8%A7-%DB%8C%DA%A9-%D9%86%D9%81%D8%AA%DA%A9%D8%B4-%DA%A9%D9%87-%D8%AF%D8%B1-%D8%AD%D8%A7%D9%84-%D8%AE%D8%B1%D9%88%D8%AC-%D8%A7%D8%B2-%D8%AA%D9%86%DA%AF%D9%87-%D9%87%D8%B1%D9%85%D8%B2-%D8%A8%D9%88%D8%AF-%D9%87%D8%AF%D9%81-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA",
+          "canonicalUrl": "https://www.entekhab.ir/fa/news/942393/%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86-%D8%B9%D9%85%D9%84%DB%8C%D8%A7%D8%AA-%D8%AA%D8%AC%D8%A7%D8%B1%D8%AA-%D8%AF%D8%B1%DB%8C%D8%A7%DB%8C%DB%8C-%D8%A8%D8%B1%DB%8C%D8%AA%D8%A7%D9%86%DB%8C%D8%A7-%DB%8C%DA%A9-%D9%86%D9%81%D8%AA%DA%A9%D8%B4-%DA%A9%D9%87-%D8%AF%D8%B1-%D8%AD%D8%A7%D9%84-%D8%AE%D8%B1%D9%88%D8%AC-%D8%A7%D8%B2-%D8%AA%D9%86%DA%AF%D9%87-%D9%87%D8%B1%D9%85%D8%B2-%D8%A8%D9%88%D8%AF-%D9%87%D8%AF%D9%81-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA",
+          "title": "سازمان عملیات تجارت دریایی بریتانیا: یک نفتکش که در حال خروج از تنگه هرمز بود، هدف قرار گرفت",
+          "description": "سازمان عملیات تجارت دریایی بریتانیا اعلام کرد: یک نفتکش که در حال عبور خروجی از تنگه هرمز بود، در تاریخ ۶ اکتبر هدف اصابت یک پرتابه ناشناس قرار گرفت.",
           "source": {
             "id": "entekhab",
             "name": "Entekhab"
           },
           "sourceCountry": "IR",
           "language": "fa",
-          "publishedAt": "2026-10-06T09:24:16.000Z",
+          "publishedAt": "2026-10-06T12:32:37.000Z",
           "imageUrl": null,
           "countryCode": "IR",
           "regionCode": null
@@ -751,7 +709,49 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:01:32.000Z"
+      "latestPublishedAt": "2026-10-06T12:58:41.000Z"
+    },
+    {
+      "id": "BEIC6mRMvVZ1",
+      "representative": {
+        "id": "BEIC6mRMvVZ1",
+        "url": "https://www.iranintl.com/2026100608950",
+        "canonicalUrl": "https://www.iranintl.com/2026100608950",
+        "title": "نوبل فیزیک ۲۰۲۶ به فرانسیس هالزن برای شکار «ذرات شبح‌گون» کیهان رسید",
+        "description": "فرانسیس هالزن، فیزیکدان بلژیکی‌ـ‌آمریکایی، برای نقش تعیین‌کننده‌اش در ساخت رصدخانه «آیس‌کیوب» در جنوبگان و کشف نوترینوهای پرانرژی با منشأ کیهانی، برنده جایزه نوبل فیزیک سال ۲۰۲۶ شد.",
+        "source": {
+          "id": "iranintl",
+          "name": "Iran International"
+        },
+        "sourceCountry": "IR",
+        "language": "fa",
+        "publishedAt": "2026-10-06T12:13:00.000Z",
+        "imageUrl": "https://i.iranintl.com/images/rdk9umy0/production/d671186218132d4990eb104b596b601acd008bea-800x533.jpg?rect=0,58,800,419&w=1200&h=628&fm=jpg&q=85&fit=max&auto=format",
+        "countryCode": "IR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "OOBh-pRBpB32",
+          "url": "https://www.entekhab.ir/fa/news/942389/%D8%AC%D8%A7%DB%8C%D8%B2%D9%87-%D9%86%D9%88%D8%A8%D9%84-%D9%81%DB%8C%D8%B2%DB%8C%DA%A9-2026-%D8%A8%D9%87-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%DB%8C%D8%B3-%D9%87%D8%A7%D9%84%D8%B2%D9%86-%D8%A7%D9%87%D8%AF%D8%A7-%D8%B4%D8%AF",
+          "canonicalUrl": "https://www.entekhab.ir/fa/news/942389/%D8%AC%D8%A7%DB%8C%D8%B2%D9%87-%D9%86%D9%88%D8%A8%D9%84-%D9%81%DB%8C%D8%B2%DB%8C%DA%A9-2026-%D8%A8%D9%87-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%DB%8C%D8%B3-%D9%87%D8%A7%D9%84%D8%B2%D9%86-%D8%A7%D9%87%D8%AF%D8%A7-%D8%B4%D8%AF",
+          "title": "جایزه نوبل فیزیک ۲۰۲۶ به «فرانسیس هالزن» اهدا شد",
+          "description": "جایزه نوبل فیزیک ۲۰۲۶ به فرانسیس هالزن (Francis Halzen) برای «کمک‌های تعیین‌کننده به رصدخانه نوترینوی آیس‌کیوب (IceCube Neutrino Observatory) و کشف نوترینوهای پرانرژی با منشأ اخترفیزیکی» اهدا شد.",
+          "source": {
+            "id": "entekhab",
+            "name": "Entekhab"
+          },
+          "sourceCountry": "IR",
+          "language": "fa",
+          "publishedAt": "2026-10-06T12:08:06.000Z",
+          "imageUrl": null,
+          "countryCode": "IR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:13:00.000Z"
     }
   ]
 }

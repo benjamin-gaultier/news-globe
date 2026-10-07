@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "FR",
   "countryName": "France",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "dlwuXk8kNVcC",
@@ -76,51 +76,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
+      "outletCount24h": 2,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T12:59:13.000Z"
-    },
-    {
-      "id": "ruS8qEDY0Pkm",
-      "representative": {
-        "id": "ruS8qEDY0Pkm",
-        "url": "https://www.franceinfo.fr/france/ile-de-france/yvelines/le-chateau-de-versailles-ferme-ses-portes-au-public-en-raison-d-une-panne-d-electricite-dans-le-departement-des-yvelines_8225017.html#xtor=RSS-3-%5Bgeneral%5D",
-        "canonicalUrl": "https://www.franceinfo.fr/france/ile-de-france/yvelines/le-chateau-de-versailles-ferme-ses-portes-au-public-en-raison-d-une-panne-d-electricite-dans-le-departement-des-yvelines_8225017.html",
-        "title": "Le château de Versailles ferme ses portes au public en raison d’une \"panne d’électricité dans le département des Yvelines\"",
-        "description": "La coupure a concerné jusqu'à 30 000 clients à Versailles et Vélizy, a précisé le préfet des Yvelines sur X.",
-        "source": {
-          "id": "franceinfo",
-          "name": "franceinfo"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T11:17:30.000Z",
-        "imageUrl": "https://www.franceinfo.fr/pictures/IHGLPjCpqjfI4AKet-Iwku8omTc/0x312:6000x3687/432x243/filters:format(jpg)/2026/10/06/6ac4d854bedd4872466203.jpg",
-        "countryCode": "FR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "l7PRI-xy-WZU",
-          "url": "https://www.ouest-france.fr/economie/energie/electricite/coupure-majeure-delectricite-dans-les-yvelines-le-chateau-de-versailles-contraint-de-fermer-ses-portes-79ad4b78-c179-11f1-97ef-829bf84bf59f?utm_source=fluxpublicfrance&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "canonicalUrl": "https://www.ouest-france.fr/economie/energie/electricite/coupure-majeure-delectricite-dans-les-yvelines-le-chateau-de-versailles-contraint-de-fermer-ses-portes-79ad4b78-c179-11f1-97ef-829bf84bf59f",
-          "title": "Coupure majeure d’électricité dans les Yvelines : le château de Versailles a été contraint de fermer ses portes ce mardi",
-          "description": "72 000 foyers privés d’électricité, douze communes concernées. Le département des Yvelines a connu une panne importante, ce mardi 6 octobre, à la mi-journée. Le prestigieux château de Versailles a même été contraint de fermer ses portes. Ses jardins demeurant ouverts tout comme le Domaine de…",
-          "source": {
-            "id": "ouestfrance",
-            "name": "Ouest-France"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:14:29.000Z",
-          "imageUrl": "https://media.ouest-france.fr/v1/pictures/MjAyNjEwYWZkYzI1ZDIxNjI3YTBmMDVlNTllOTZlN2M4MGNjYmE?width=320&height=240&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=96c7bf6e8e3f9920d229ba5ed00f07f6ebda729226ac110feba9b68a23e5536f",
-          "countryCode": "FR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:14:29.000Z"
     },
     {
       "id": "EAskgXdmb1-3",
@@ -433,6 +391,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:33:46.000Z"
+    },
+    {
+      "id": "yCGAbv9tcI6u",
+      "representative": {
+        "id": "yCGAbv9tcI6u",
+        "url": "https://www.lefigaro.fr/actualite-france/il-a-une-capacite-a-reseauter-impressionnante-qui-est-ryad-rani-le-president-de-l-union-syndicale-lyceenne-proche-de-la-france-insoumise-20261006",
+        "canonicalUrl": "https://www.lefigaro.fr/actualite-france/il-a-une-capacite-a-reseauter-impressionnante-qui-est-ryad-rani-le-president-de-l-union-syndicale-lyceenne-proche-de-la-france-insoumise-20261006",
+        "title": "«Il a une capacité à réseauter impressionnante» : qui est Ryad Rani, le président de l’Union syndicale lycéenne, proche de La France Insoumise ?",
+        "description": "PORTRAIT – À seulement 18 ans, le jeune homme a été projeté sur le devant de la scène en devenant l’un des principaux porte-parole du mouvement lycéen.",
+        "source": {
+          "id": "lefigaro",
+          "name": "Le Figaro"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:29:51.000Z",
+        "imageUrl": "https://i.f1g.fr/media/cms/2850x1603_crop/2026/10/05/71d9cccca38b74a777c0ff0958cbd1e7f0a5a646cf6a22a34da075cd0828d3bc.jpg",
+        "countryCode": "FR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:29:51.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GN",
   "countryName": "Guinea",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "kiqHweo945WE",
@@ -62,48 +62,6 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T17:18:42.000Z"
-    },
-    {
-      "id": "j8PKmx2gPena",
-      "representative": {
-        "id": "j8PKmx2gPena",
-        "url": "https://www.africaguinee.com/rentree-parlementaire-en-guinee-dr-dansa-kourouma-fixe-les-priorites-de-la-10e-legislature/",
-        "canonicalUrl": "https://www.africaguinee.com/rentree-parlementaire-en-guinee-dr-dansa-kourouma-fixe-les-priorites-de-la-10e-legislature/",
-        "title": "Rentrée parlementaire en Guinée : Dr Dansa Kourouma fixe les priorités de la 10è législature",
-        "description": "CONAKRY– Fixer un cadre juridique solide, améliorer la qualité des lois et renforcer le contrôle de l’action gouvernementale : telles sont les grandes orientations annoncées par le Dr Dansa Kourouma lors de la rentrée de la 10ème législature ce lundi 5 octobre 2026. Rappelant que « Simandou 2040…",
-        "source": {
-          "id": "africaguinee",
-          "name": "Africaguinée"
-        },
-        "sourceCountry": "GN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T09:03:38.000Z",
-        "imageUrl": null,
-        "countryCode": "GN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "CYkQC0KiJOF8",
-          "url": "https://www.guinee360.com/06/10/2026/10e-legislature-dansa-kourouma-fixe-cinq-priorites-et-appelle-les-deputes-a-reparer-les-fractures-de-la-societe/",
-          "canonicalUrl": "https://www.guinee360.com/06/10/2026/10e-legislature-dansa-kourouma-fixe-cinq-priorites-et-appelle-les-deputes-a-reparer-les-fractures-de-la-societe/",
-          "title": "10e législature : Dansa Kourouma fixe cinq priorités et appelle les députés à « réparer » les fractures de la société",
-          "description": "À l’ouverture de la rentrée parlementaire, ce lundi 5 octobre 2026, le président de l’Assemblée nationale, Dansa Kourouma, a décliné les grandes orientations de la 10e législature. Face aux députés, il a fixé cinq priorités autour desquelles devra s’organiser le travail de l’institution au cours…",
-          "source": {
-            "id": "guinee360",
-            "name": "Guinée360"
-          },
-          "sourceCountry": "GN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T11:51:28.000Z",
-          "imageUrl": "https://www.guinee360.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-11.37.11.webp",
-          "countryCode": "GN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:51:28.000Z"
     },
     {
       "id": "RMVU-1p7xQCQ",
@@ -416,6 +374,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:50:23.000Z"
+    },
+    {
+      "id": "dgX58YUSrbvP",
+      "representative": {
+        "id": "dgX58YUSrbvP",
+        "url": "https://www.africaguinee.com/crise-deau-potable-en-guinee-le-patron-de-hamana-explique-les-raisons-de-la-penurie/",
+        "canonicalUrl": "https://www.africaguinee.com/crise-deau-potable-en-guinee-le-patron-de-hamana-explique-les-raisons-de-la-penurie/",
+        "title": "Crise d’eau minérale en Guinée : le patron de Hamana explique les raisons de la pénurie",
+        "description": "CONAKRY- Depuis le 21 septembre 2026, les sachets plastiques à usage unique sont interdits en Guinée. Cette mesure prise par les autorités a entraîné un manque d’eau conditionnée sur le marché guinéen. La disparition de l’eau vendue en sachet a fait augmenter la demande de celle vendue en…",
+        "source": {
+          "id": "africaguinee",
+          "name": "Africaguinée"
+        },
+        "sourceCountry": "GN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:45:00.000Z",
+        "imageUrl": null,
+        "countryCode": "GN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:45:00.000Z"
     }
   ]
 }

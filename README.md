@@ -225,18 +225,20 @@ Regional papers' main feeds carry national and world news too (Sud Ouest's is mo
 | Auvergne-Rhône-Alpes | France 3, Le Progrès (Rhône), Le Dauphiné libéré (Isère), BFM Lyon | ✅ |
 | Bourgogne-Franche-Comté | France 3, Le Bien Public (Côte-d'Or), Le Journal de Saône-et-Loire | ✅ (the two papers share some regional copy) |
 | Brittany | France 3, Le Télégramme (Bretagne), 20 Minutes Rennes | ✅ |
-| Centre-Val de Loire | France 3, Magcentre | ✅ (La Nouvelle République 403; La République du Centre, Le Berry 404) |
+| Centre-Val de Loire | France 3, ici (Orléans, Touraine, Berry), Magcentre, Info Tours | ✅ (La Nouvelle République, 20 Minutes Tours and Orléans 403; La République du Centre, L'Écho républicain, Le Berry 404; La Tribune de Tours unreachable) |
 | Corsica | France 3 Corse ViaStella, Corse Net Infos | ✅ (Corse-Matin 404) |
 | Grand Est | France 3, L'Alsace (Haut-Rhin), L'Est Républicain (Meurthe-et-Moselle) | ✅ (DNA has no section feed; Républicain lorrain's is malformed) |
-| Hauts-de-France | France 3, BFM Grand Lille | ✅ (La Voix du Nord, Courrier picard, Nord Littoral 403) |
+| Hauts-de-France | France 3, ici (Nord, Picardie), BFM Grand Lille | ✅ (La Voix du Nord, Courrier picard, Nord Littoral 403; BFM Grand Littoral repeats BFM Grand Lille's programmes; 20 Minutes Lille posts every few days and mixes in national news) |
 | Île-de-France | France 3, BFM Paris, 20 Minutes Paris | ✅ (Le Parisien's feeds are undated; actu.fr 403) |
-| Normandy | France 3 | ⚠️ France 3 only (Paris-Normandie, actu.fr 403; Tendance Ouest 404) |
+| Normandy | France 3, ici (Normandie Caen and Rouen, Cotentin), BFM Normandie | ✅ (Paris-Normandie, actu.fr, 20 Minutes Rouen and Caen 403; Tendance Ouest 404; Le Poulpe posts every few days) |
 | Nouvelle-Aquitaine | France 3, Sud Ouest (Gironde), La Charente libre (Charente), 20 Minutes Bordeaux | ✅ |
 | Occitanie | France 3, La Dépêche (Toulouse), Midi Libre (Hérault, Gard), L'Indépendant (Pyrénées-Orientales), 20 Minutes Montpellier | ✅ |
-| Pays de la Loire | France 3 | ⚠️ France 3 only (Presse Océan, Courrier de l'Ouest, Maine Libre 404; Ouest-France has no regional feed) |
+| Pays de la Loire | France 3, ici (Loire Océan, Maine, Mayenne) | ✅ (Presse Océan, Courrier de l'Ouest, Maine Libre 404; Ouest-France has no regional feed; BFM Nantes stale, newest item 5 days old; 20 Minutes Nantes and Kernews post every few days; Angers Info unreachable) |
 | Provence-Alpes-Côte d'Azur | France 3, Nice-Matin (Alpes-Maritimes), BFM Marseille | ✅ (La Provence 404; Var-Matin's section feed is malformed) |
 
 The EBRA papers (L'Alsace, L'Est Républicain, Le Bien Public…) sometimes emit an unrendered title, `Vidéo. $content.TitleNoTags`; titles with template placeholders are dropped.
+
+Each region's ici (ex-France Bleu) stations are one outlet with several feeds (their `rubrique/infos.xml` feeds). The stations share regional stories, so separate entries would make one station's story look like coverage by several outlets. The copies' URLs differ only by `at_locale`, which is stripped as a tracking param so they dedupe.
 
 **United States**
 

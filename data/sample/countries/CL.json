@@ -2,126 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "CL",
   "countryName": "Chile",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "XWCajd0ZCLM1",
-      "representative": {
-        "id": "XWCajd0ZCLM1",
-        "url": "https://www.latercera.com/nacional/noticia/carabinero-de-franco-frustra-a-disparos-robo-de-vehiculo-en-puente-alto/",
-        "canonicalUrl": "https://www.latercera.com/nacional/noticia/carabinero-de-franco-frustra-a-disparos-robo-de-vehiculo-en-puente-alto/",
-        "title": "Carabinero de franco frustra a disparos robo de vehículo en Puente Alto",
-        "description": "Tras los hechos, los sujetos se dieron a la fuga en dirección desconocida.",
-        "source": {
-          "id": "latercera",
-          "name": "La Tercera"
-        },
-        "sourceCountry": "CL",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:11:01.000Z",
-        "imageUrl": "https://www.latercera.com/resizer/v2/ETZJYERA2RDIHC4RDANBZYNWAA.jpg?auth=cbab81f60df8c3b8692dbef9e4845656300e41bf005e7cda04cdc3c881999dce&smart=true&width=5552&height=3702",
-        "countryCode": "CL",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Pee77ILhRip8",
-          "url": "https://www.lanacion.cl/carabinero-de-franco-frustro-a-disparos-robo-de-vehiculo-en-puente-alto-nina-de-tres-anos-iba-a-bordo/",
-          "canonicalUrl": "https://www.lanacion.cl/carabinero-de-franco-frustro-a-disparos-robo-de-vehiculo-en-puente-alto-nina-de-tres-anos-iba-a-bordo/",
-          "title": "Carabinero de franco frustró a disparos robo de vehículo en Puente Alto: niña de tres años iba a bordo",
-          "description": "Un funcionario de Carabineros que se encontraba de franco utilizó su arma particular para repeler un robo con intimidación en Puente Alto, durante las últimas horas del lunes. El hecho ocurrió en calle Juan de Dios Malebrán. En este lugar una familia había estacionado su vehículo para realizar…",
-          "source": {
-            "id": "lanacion_cl",
-            "name": "La Nación"
-          },
-          "sourceCountry": "CL",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:14:00.000Z",
-          "imageUrl": null,
-          "countryCode": "CL",
-          "regionCode": null
-        },
-        {
-          "id": "ZN2mIS78jyX8",
-          "url": "https://www.cooperativa.cl/noticias/pais/policial/carabinero-de-franco-frustro-a-disparos-un-intento-de-robo-a-familia-en/2026-10-06/073108.html",
-          "canonicalUrl": "https://www.cooperativa.cl/noticias/pais/policial/carabinero-de-franco-frustro-a-disparos-un-intento-de-robo-a-familia-en/2026-10-06/073108.html",
-          "title": "Carabinero de franco frustró a disparos un intento de robo a familia en Puente Alto",
-          "description": "Un carabinero de franco frustró a disparos un intento de robo armado contra una familia durante la noche de este lunes en la capitalina comuna de Puente Alto , evitando la sustracción del auto en el que se trasladaban dos adultos y su hija de tres años. Según la información policial, el incidente…",
-          "source": {
-            "id": "cooperativa",
-            "name": "Cooperativa"
-          },
-          "sourceCountry": "CL",
-          "language": "es",
-          "publishedAt": "2026-10-06T10:31:08.000Z",
-          "imageUrl": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000320261006073108.jpg",
-          "countryCode": "CL",
-          "regionCode": null
-        },
-        {
-          "id": "bEP-0twbRiBj",
-          "url": "https://www.adnradio.cl/2026/10/06/carabinero-de-franco-frustra-a-disparos-encerrona-contra-matrimonio-en-puente-alto-nina-de-3-anos-iba-al-interior/",
-          "canonicalUrl": "https://www.adnradio.cl/2026/10/06/carabinero-de-franco-frustra-a-disparos-encerrona-contra-matrimonio-en-puente-alto-nina-de-3-anos-iba-al-interior/",
-          "title": "Carabinero de franco frustra a disparos encerrona contra matrimonio en Puente Alto: niña de 3 años iba al interior",
-          "description": "El funcionario policial presenció el asalto mientras estaba en su día libre y abrió fuego contra los cuatro sujetos armados",
-          "source": {
-            "id": "adnradio",
-            "name": "ADN Radio"
-          },
-          "sourceCountry": "CL",
-          "language": "es",
-          "publishedAt": "2026-10-06T10:22:33.000Z",
-          "imageUrl": "https://www.adnradio.cl/resizer/v2/6L7CAA7FBZC7ZGDE457AFER4FU.jpeg?auth=9e180c89a020fd5b2f346704e23399e51b8e198015822c5eaf1cfc5c0e0eea50&width=4920&height=3280&smart=true",
-          "countryCode": "CL",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:14:00.000Z"
-    },
-    {
-      "id": "m4a4sFvSfPp3",
-      "representative": {
-        "id": "m4a4sFvSfPp3",
-        "url": "https://www.adnradio.cl/2026/10/06/por-su-descubrimiento-sobre-neutrinos-este-es-el-cientifico-ganador-del-premio-nobel-de-fisica-2026/",
-        "canonicalUrl": "https://www.adnradio.cl/2026/10/06/por-su-descubrimiento-sobre-neutrinos-este-es-el-cientifico-ganador-del-premio-nobel-de-fisica-2026/",
-        "title": "Por su descubrimiento sobre neutrinos: este es el científico ganador del Premio Nobel de Física 2026",
-        "description": "El físico belga Francis Halzen recibió el Nobel de Física 2026 por sus aportes al observatorio IceCube y al descubrimiento de neutrinos de alta energía.",
-        "source": {
-          "id": "adnradio",
-          "name": "ADN Radio"
-        },
-        "sourceCountry": "CL",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:03:13.000Z",
-        "imageUrl": "https://www.adnradio.cl/resizer/v2/XHOKXGN2EFCGNIHPS5HZKIHET4.jpg?auth=30940caadcd22101ce79f19c5b05a201d415df70416e345ef42fa3803b770200&width=1024&height=768&focal=536%2C341",
-        "countryCode": "CL",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "hu_zv4xkoB0C",
-          "url": "https://www.lanacion.cl/premio-nobel-de-fisica-es-otorgado-a-francis-halzen-por-el-descubrimiento-de-neutrinos-de-alta-energia-de-origen-astrofisico/",
-          "canonicalUrl": "https://www.lanacion.cl/premio-nobel-de-fisica-es-otorgado-a-francis-halzen-por-el-descubrimiento-de-neutrinos-de-alta-energia-de-origen-astrofisico/",
-          "title": "Premio Nobel de Física es otorgado a Francis Halzen por el descubrimiento de neutrinos de alta energía de origen astrofísico",
-          "description": "El científico belga, Francis Halzen, fue galardonado este martes con el Premio Nobel de Física 2026 por sus contribuciones al Observatorio de Neutrinos IceCube. Y por el descubrimiento de neutrinos de alta energía de origen astrofísico. “La Real Academia de Ciencias de Suecia ha decidido otorgar…",
-          "source": {
-            "id": "lanacion_cl",
-            "name": "La Nación"
-          },
-          "sourceCountry": "CL",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:59:22.000Z",
-          "imageUrl": null,
-          "countryCode": "CL",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:59:22.000Z"
-    },
     {
       "id": "0wlym_9ZuF05",
       "representative": {
@@ -468,6 +350,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:01:00.000Z"
+    },
+    {
+      "id": "rmexsVeAa3_B",
+      "representative": {
+        "id": "rmexsVeAa3_B",
+        "url": "https://www.latercera.com/mundo/noticia/eduarda-campopiano-la-nueva-diputada-del-partido-de-flavio-bolsonaro-por-sao-paulo-que-agradece-por-la-colonizacion/",
+        "canonicalUrl": "https://www.latercera.com/mundo/noticia/eduarda-campopiano-la-nueva-diputada-del-partido-de-flavio-bolsonaro-por-sao-paulo-que-agradece-por-la-colonizacion/",
+        "title": "Eduarda Campopiano, la diputada bolsonarista electa por Sao Paulo que “agradece por la colonización” y tilda de “caníbales” a indígenas",
+        "description": "De 23 años, la nueva parlamentaria conservadora del Partido Liberal, que se hace llamar “la mayor enemiga de las feministas de Sao Paulo”, ya había sido acusada de racismo hace cuatro meses. Obtuvo 1.956.238 votos este domingo.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:00:00.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/5J4HXRYPTZGVPHUMAR57ISMPHA.jpeg?auth=82e8bf62c97e60d0d3355187941dcbe48d944c3cefb519a2a683bf7c2894dbda&smart=true&width=1200&height=675",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:00.000Z"
+    },
+    {
+      "id": "JqyFW3nDEKZe",
+      "representative": {
+        "id": "JqyFW3nDEKZe",
+        "url": "https://www.latercera.com/pulso/noticia/riqueza-financiera-de-los-hogares-sube-a-casi-125-del-pib-mientras-las-empresas-ahorran-menos-y-bajan-su-deuda/",
+        "canonicalUrl": "https://www.latercera.com/pulso/noticia/riqueza-financiera-de-los-hogares-sube-a-casi-125-del-pib-mientras-las-empresas-ahorran-menos-y-bajan-su-deuda/",
+        "title": "Riqueza financiera de los hogares sube a casi 125% del PIB, mientras las empresas ahorran menos y bajan su deuda",
+        "description": "Las empresas no financieras, en tanto, ahorraron menos y redujeron su deuda a 88,8% del PIB, según las Cuentas Nacionales por Sector Institucional del Banco Central.",
+        "source": {
+          "id": "latercera",
+          "name": "La Tercera"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:59:25.000Z",
+        "imageUrl": "https://www.latercera.com/resizer/v2/JQUVR3BS5BFKXCOMQGFMBLRLRM.JPG?auth=a220f0709506a08d56d56cbdd2ce4d0f37292a57ff5959b32628d6022c758480&smart=true&width=4032&height=3024",
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:59:25.000Z"
     }
   ]
 }
