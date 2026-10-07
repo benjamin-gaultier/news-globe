@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-20R",
   "regionName": "Corsica",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "PZ8C8QycOqKP",
@@ -104,7 +104,7 @@
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T12:11:47.256Z",
+        "publishedAt": "2026-10-07T12:15:45.751Z",
         "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98214930-68432752.jpg?v=1790758153",
         "countryCode": "FR",
         "regionCode": "FR-20R"
@@ -112,7 +112,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:11:47.256Z"
+      "latestPublishedAt": "2026-10-07T12:15:45.751Z"
     },
     {
       "id": "gFJwwplOcOmF",
@@ -336,30 +336,6 @@
       "latestPublishedAt": "2026-10-07T05:45:00.000Z"
     },
     {
-      "id": "U6iJMol7Ncpa",
-      "representative": {
-        "id": "U6iJMol7Ncpa",
-        "url": "https://www.alta-frequenza.corsica/primu-siminariu-righjunali-di-i-cita-aducativi-di-corsica",
-        "canonicalUrl": "https://www.alta-frequenza.corsica/primu-siminariu-righjunali-di-i-cita-aducativi-di-corsica",
-        "title": "Primu siminariu righjunali di i cità aducativi di Corsica",
-        "description": null,
-        "source": {
-          "id": "altafrequenza",
-          "name": "Alta Frequenza"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:40:30.000Z",
-        "imageUrl": "https://www.alta-frequenza.corsica/wp-content/uploads/cite-768x558.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-20R"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:40:30.000Z"
-    },
-    {
       "id": "uAeq6juUiD0I",
       "representative": {
         "id": "uAeq6juUiD0I",
@@ -382,30 +358,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T05:05:00.000Z"
-    },
-    {
-      "id": "ggxWATgRxy8d",
-      "representative": {
-        "id": "ggxWATgRxy8d",
-        "url": "https://www.corsenetinfos.corsica/U-tempu-in-Corsica_a93031.html",
-        "canonicalUrl": "https://www.corsenetinfos.corsica/U-tempu-in-Corsica_a93031.html",
-        "title": "U tempu in Corsica",
-        "description": "La grisaille reste de mise ce mercredi en Corse. Après une matinée encore assez calme, le temps se dégradera avec l’arrivée d’averses dans l’après-midi, parfois accompagnées d’orages. Consultez la météo corse en direct et en permanence sur CNI. En cliquant sur la photo et sur le lien (ci-dessous)…",
-        "source": {
-          "id": "corsenetinfos",
-          "name": "Corse Net Infos"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:00:00.000Z",
-        "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98288406-68514413.jpg?v=1791315636",
-        "countryCode": "FR",
-        "regionCode": "FR-20R"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:00:00.000Z"
     },
     {
       "id": "VxyC1UPdVkqC",
@@ -454,6 +406,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T17:55:48.000Z"
+    },
+    {
+      "id": "p6AkzzhJCmcp",
+      "representative": {
+        "id": "p6AkzzhJCmcp",
+        "url": "https://www.ici.fr/corse/gilles-simeoni-a-bastia-le-maire-veut-tenir-ses-engagements-et-jouer-la-finale-de-l-autonomie-1306273?at_medium=lien_RSS&at_locale=11",
+        "canonicalUrl": "https://www.ici.fr/corse/gilles-simeoni-a-bastia-le-maire-veut-tenir-ses-engagements-et-jouer-la-finale-de-l-autonomie-1306273",
+        "title": "Gilles Simeoni : à Bastia, le maire veut tenir ses engagements et jouer \"la finale\" de l’autonomie",
+        "description": "De retour à la mairie de Bastia, Gilles Simeoni veut maintenir le cap malgré la pression financière, l’explosion des coûts et un contexte social tendu. L’ancien président de l'exécutif garde aussi les yeux rivés sur Paris et le projet d’autonomie qui doit franchir l’obstacle du Sénat ce mois-ci.",
+        "source": {
+          "id": "ici_rcfm",
+          "name": "ici RCFM"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T16:27:18.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/6950ecf9-cabe-4c86-bae5-bb44586dbb4a/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-20R"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:27:18.000Z"
+    },
+    {
+      "id": "U6iJMol7Ncpa",
+      "representative": {
+        "id": "U6iJMol7Ncpa",
+        "url": "https://www.alta-frequenza.corsica/primu-siminariu-righjunali-di-i-cita-aducativi-di-corsica",
+        "canonicalUrl": "https://www.alta-frequenza.corsica/primu-siminariu-righjunali-di-i-cita-aducativi-di-corsica",
+        "title": "Primu siminariu righjunali di i cità aducativi di Corsica",
+        "description": null,
+        "source": {
+          "id": "altafrequenza",
+          "name": "Alta Frequenza"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:40:30.000Z",
+        "imageUrl": "https://www.alta-frequenza.corsica/wp-content/uploads/cite-768x558.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-20R"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:40:30.000Z"
     }
   ]
 }

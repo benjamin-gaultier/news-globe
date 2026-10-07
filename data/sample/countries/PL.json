@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PL",
   "countryName": "Poland",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "HXkXRqn6kaw5",
@@ -418,30 +418,6 @@
       "latestPublishedAt": "2026-10-06T13:33:31.000Z"
     },
     {
-      "id": "vivLsVTw638-",
-      "representative": {
-        "id": "vivLsVTw638-",
-        "url": "https://www.rp.pl/media/art45260071-paramount-i-warner-bros-polaczone-powstal-nowy-hollywoodzki-gigant",
-        "canonicalUrl": "https://www.rp.pl/media/art45260071-paramount-i-warner-bros-polaczone-powstal-nowy-hollywoodzki-gigant",
-        "title": "Paramount i Warner Bros. połączone. Powstał nowy hollywoodzki gigant",
-        "description": "Paramount należący do Skydance sfinalizował przejęcie Warner Bros. Discovery za 110 mld dolarów. Tym samym powstał jeden z największych koncernów medialno-rozrywkowych na świecie.",
-        "source": {
-          "id": "rp",
-          "name": "Rzeczpospolita"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:31:32.000Z",
-        "imageUrl": "https://i.gremicdn.pl/image/free/737e12ed17cb0c53096fb62d5dd509cf/?t=crop:5023:2196:nowe:0:577,resize:fill:600:300,enlarge:1",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:31:32.000Z"
-    },
-    {
       "id": "QH6KnY5cCw9v",
       "representative": {
         "id": "QH6KnY5cCw9v",
@@ -536,6 +512,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:21:59.000Z"
+    },
+    {
+      "id": "z_dmIxsNYHwV",
+      "representative": {
+        "id": "z_dmIxsNYHwV",
+        "url": "https://tvn24.pl/tvnmeteo/swiat/nolo-z-huraganu-przeobrazil-sie-w-tajfun-kluczowa-role-odegrala-linia-zmiany-daty-st9271778?source=rss",
+        "canonicalUrl": "https://tvn24.pl/tvnmeteo/swiat/nolo-z-huraganu-przeobrazil-sie-w-tajfun-kluczowa-role-odegrala-linia-zmiany-daty-st9271778?source=rss",
+        "title": "Przekroczył linię zmiany daty i stał się tajfunem. Wędrówka Nolo trwa",
+        "description": "Huragan Nolo stał się tajfunem. Stało się tak dlatego, że żywioł przekroczył linię zmiany daty i wkroczył na zachodnią część Oceanu Spokojnego. Nolo od dłuższego czasu przemieszcza się po tym ogromnym akwenie. W pewnym momencie pojawił się w rejonie Hawajów, gdzie przyniósł ulewy i powodzie.",
+        "source": {
+          "id": "tvn24",
+          "name": "TVN24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:21:48.000Z",
+        "imageUrl": "https://tvn24.pl/tvnmeteo/najnowsze/cdn-zdjecie-nolo-na-zdjeciu-satelitarnym-z-5-pazdziernika-ph9271954/alternates/LANDSCAPE_1280",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:21:48.000Z"
     }
   ]
 }

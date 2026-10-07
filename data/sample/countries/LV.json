@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "LV",
   "countryName": "Latvia",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "Byl-1weXJ3lq",
@@ -299,30 +299,6 @@
       "latestPublishedAt": "2026-10-06T13:37:48.000Z"
     },
     {
-      "id": "cUpNeZuY1fNa",
-      "representative": {
-        "id": "cUpNeZuY1fNa",
-        "url": "https://pmo.ee/8559481",
-        "canonicalUrl": "https://pmo.ee/8559481",
-        "title": "Aptaujā par labāko debitantu NHL apskatnieki Šmitu vērtē pieticīgi",
-        "description": "Nacionālās hokeja līgas (NHL) aptaujā par sezonas labāko debitantu apskatnieki pieticīgi novērtējuši 18 gadus veco Latvijas aizsargu Albertu Šmitu no Ņujorkas \"Rangers\" komandas.",
-        "source": {
-          "id": "tvnet",
-          "name": "TVNET"
-        },
-        "sourceCountry": "LV",
-        "language": "lv",
-        "publishedAt": "2026-10-06T13:33:32.000Z",
-        "imageUrl": "https://f11.pmo.ee/9OkJR1eehCqiUgRpvhUM9OW6MUQ=/480x270/filters:focal(1950x555:2070x632)/nginx/o/2026/10/02/17950117t1h84d1.jpg",
-        "countryCode": "LV",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:33:32.000Z"
-    },
-    {
       "id": "mO-yPsu9r5Oq",
       "representative": {
         "id": "mO-yPsu9r5Oq",
@@ -345,30 +321,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:28:27.000Z"
-    },
-    {
-      "id": "ckk2QpkipT7e",
-      "representative": {
-        "id": "ckk2QpkipT7e",
-        "url": "https://www.lsm.lv/raksts/zinas/arzemes/06.10.2026-ukraina-sabiedribu-sasupo-ietekmiga-politika-piedavajums-kara-ar-krieviju-izbeigsanai.a666421/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-        "canonicalUrl": "https://www.lsm.lv/raksts/zinas/arzemes/06.10.2026-ukraina-sabiedribu-sasupo-ietekmiga-politika-piedavajums-kara-ar-krieviju-izbeigsanai.a666421/",
-        "title": "Ukrainā sabiedrību sašūpo ietekmīga politiķa piedāvājums kara ar Krieviju izbeigšanai",
-        "description": "75 % ukraiņu uzskata par pieņemamu runāt ar Krieviju par kara izbeigšanu, liecina jaunākā Starptautiskā Kijivas socioloģijas institūta aptauja. Vienlaikus sociāliologi uzsver – tas nenozīmē ukraiņu gatavību piekāpties Krievijai. Asas debates par šo tematu Ukrainā šonedēļ izraisījis opozīcijas…",
-        "source": {
-          "id": "lsm",
-          "name": "LSM"
-        },
-        "sourceCountry": "LV",
-        "language": "lv",
-        "publishedAt": "2026-10-06T13:25:00.000Z",
-        "imageUrl": "https://static.lsm.lv/media/2026/01/large/1/skca.jpg",
-        "countryCode": "LV",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:25:00.000Z"
     },
     {
       "id": "a_8av-7aQ1RM",
@@ -395,28 +347,76 @@
       "latestPublishedAt": "2026-10-06T13:23:53.000Z"
     },
     {
-      "id": "cEHZDkZVL7W4",
+      "id": "YIxvlvAAE8rJ",
       "representative": {
-        "id": "cEHZDkZVL7W4",
-        "url": "https://www.lsm.lv/raksts/kultura/kulturtelpa/06.10.2026-kultura-ka-investicija-nevis-izdevumi-saruna-par-kulturas-nozari-valsts-politikas-planos.a666395/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-        "canonicalUrl": "https://www.lsm.lv/raksts/kultura/kulturtelpa/06.10.2026-kultura-ka-investicija-nevis-izdevumi-saruna-par-kulturas-nozari-valsts-politikas-planos.a666395/",
-        "title": "Kultūra kā investīcija, nevis izdevumi. Saruna par kultūras nozari valsts politikas plānos",
-        "description": "Ar ko tiek riskēts, ja kultūru uztveram par pašsaprotamu un tā tiek finansēta pēc pārpalikuma principa? Kā tas atspoguļojas valsts politikas plānošanas dokumentos, un ko darīt, lai kultūra valsts prioritāšu sarakstā būtu augstāk? Latvijas Radio 3 \"Klasika\" raidījuma \"Meistars Knehts\" sarunā par…",
+        "id": "YIxvlvAAE8rJ",
+        "url": "https://www.la.lv/polija-un-lietuva-gatavo-verienigu-planu-kara-gadijuma-uz-poliju-varetu-evakuet-vismaz-miljonu-baltijas-valstu-iedzivotaju",
+        "canonicalUrl": "https://www.la.lv/polija-un-lietuva-gatavo-verienigu-planu-kara-gadijuma-uz-poliju-varetu-evakuet-vismaz-miljonu-baltijas-valstu-iedzivotaju",
+        "title": "Polija un Lietuva gatavo vērienīgu plānu: kara gadījumā uz Poliju varētu evakuēt vismaz miljonu Baltijas valstu iedzīvotāju",
+        "description": "Polija un Lietuva sākusi precizēt plānus, kas kara vai citas smagas krīzes gadījumā paredzētu vismaz viena miljona cilvēku evakuāciju no Latvijas, Lietuvas un Igaunijas uz Poliju. Par ieceri pirmdien sprieduši abu valstu iekšlietu ministri, tiekoties pie Budzisko–Kalvarijas robežšķērsošanas…",
         "source": {
-          "id": "lsm",
-          "name": "LSM"
+          "id": "la_lv",
+          "name": "Latvijas Avīze"
         },
         "sourceCountry": "LV",
         "language": "lv",
-        "publishedAt": "2026-10-06T13:23:00.000Z",
-        "imageUrl": "https://static.lsm.lv/media/2025/07/large/1/r3ib.jpg",
+        "publishedAt": "2026-10-06T13:03:04.000Z",
+        "imageUrl": "https://lastatic.ams3.cdn.digitaloceanspaces.com/2026/03/260314-99-826747_dpai-scaled.jpg",
         "countryCode": "LV",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:23:00.000Z"
+      "latestPublishedAt": "2026-10-06T13:03:04.000Z"
+    },
+    {
+      "id": "lWO5KBx_ScBu",
+      "representative": {
+        "id": "lWO5KBx_ScBu",
+        "url": "https://diena.lv/raksts/latvija/politika/melnis-nesteidz-atbildet-vai-veletos-turpinat-darbu-jaunaja-valdiba?utm_source=rss&utm_campaign=rss&utm_medium=links",
+        "canonicalUrl": "https://diena.lv/raksts/latvija/politika/melnis-nesteidz-atbildet-vai-veletos-turpinat-darbu-jaunaja-valdiba",
+        "title": "Melnis nesteidz atbildēt, vai vēlētos turpināt darbu jaunajā valdībā",
+        "description": "Pašreizējais aizsardzības ministrs Raivis Melnis vēl nesteidz atbildēt uz jautājumu, vai vēlētos kandidēt uz amatu arī jaunveidojamajā valdībā, jo vispirms šādam piedāvājumam jānāk no partijām, premjera un svarīgs arī Valsts prezidenta viedoklis.",
+        "source": {
+          "id": "diena",
+          "name": "Diena"
+        },
+        "sourceCountry": "LV",
+        "language": "lv",
+        "publishedAt": "2026-10-06T12:30:00.000Z",
+        "imageUrl": "https://diena.lv/imgproxy/7bYOGBRbSc8Mf61ukjbq36rcU1I-WWxKBrqBuZArUx4/rt:fill/s:1200:750/g:fp:0.42:0.28/f:jpg/plain/s3://diena-1/media/let_24947892.jpg",
+        "countryCode": "LV",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:30:00.000Z"
+    },
+    {
+      "id": "y-j13VHMELHn",
+      "representative": {
+        "id": "y-j13VHMELHn",
+        "url": "https://diena.lv/raksts/uznemeja-diena/zinas-42/vai-latvijas-veselibas-aprupe-spes-stradat-x-stunda-konference-rezekne-mekles-atbildes-un-risinajumus?utm_source=rss&utm_campaign=rss&utm_medium=links",
+        "canonicalUrl": "https://diena.lv/raksts/uznemeja-diena/zinas-42/vai-latvijas-veselibas-aprupe-spes-stradat-x-stunda-konference-rezekne-mekles-atbildes-un-risinajumus",
+        "title": "Vai Latvijas veselības aprūpe spēs strādāt X stundā? Konferencē Rēzeknē meklēs atbildes un risinājumus",
+        "description": "Kas notiktu ar Latvijas veselības aprūpi un zāļu apgādi X stundā, ja Latviju skartu nopietnas krīzes, ilgstošs elektroapgādes vai sakaru pārrāvums, kiberuzbrukums vai militārs apdraudējums? Vai slimnīcas, ambulatorās ārstniecības iestādes, laboratorijas, aptiekas, zāļu apgādes uzņēmumi un ražotāji…",
+        "source": {
+          "id": "diena",
+          "name": "Diena"
+        },
+        "sourceCountry": "LV",
+        "language": "lv",
+        "publishedAt": "2026-10-06T12:29:00.000Z",
+        "imageUrl": "https://diena.lv/imgproxy/z7eytHrA_p9o7pQDcFdu5CwM-fOrtzDVEJdPB53KMLg/rt:fill/s:1200:750/g:fp:0.39:0.19/f:jpg/plain/s3://diena-1/media/db_baneris.png",
+        "countryCode": "LV",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:29:00.000Z"
     }
   ]
 }

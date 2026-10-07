@@ -64,6 +64,14 @@ describe('rankClusters', () => {
     expect(ranked.map((c) => c.representative.title)).toEqual(['a', 'b', 'c', 'd', 'e']);
   });
 
+  it('caps single-outlet stories per outlet, then backfills', () => {
+    const burst = Array.from({ length: 5 }, (_, i) => build(article('tvvendee', `v${i}`, hoursAgo(0.1 * (i + 1)))));
+    const shared = build(article('france3', 's', hoursAgo(9)), article('ici', 's', hoursAgo(8)));
+    const others = [build(article('france3', 'f', hoursAgo(3))), build(article('ici', 'i', hoursAgo(4)))];
+    const ranked = rankClusters([...burst, shared, ...others], 6, 2);
+    expect(ranked.map((c) => c.representative.title)).toEqual(['s', 'v0', 'v1', 'f', 'i', 'v2']);
+  });
+
   it('keeps at most `limit` clusters', () => {
     const clusters = Array.from({ length: 20 }, (_, i) => build(article('lemonde', `t${i}`, hoursAgo(i))));
     expect(rankClusters(clusters, 15)).toHaveLength(15);

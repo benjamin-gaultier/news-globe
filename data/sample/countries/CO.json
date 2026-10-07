@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CO",
   "countryName": "Colombia",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "DgcW4RyG1av4",
@@ -143,54 +143,6 @@
       "latestPublishedAt": "2026-10-06T13:16:29.000Z"
     },
     {
-      "id": "9FMTYWrfggHV",
-      "representative": {
-        "id": "9FMTYWrfggHV",
-        "url": "https://caracol.com.co/2026/10/06/pablo-repetto-sobre-agresion-a-daniel-torres-esas-cosas-no-deberian-pasar-es-lamentable/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/06/pablo-repetto-sobre-agresion-a-daniel-torres-esas-cosas-no-deberian-pasar-es-lamentable/",
-        "title": "Pablo Repetto sobre agresión a Daniel Torres: “Esas cosas no deberían pasar, es lamentable”",
-        "description": null,
-        "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:08:02.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/6WE3EWLQQRC2JJJO6SU57Q547Y.png?auth=868b4528e0999532a0b9cc876e98e158f793e1b15da1937d7fddc3b9e9c6811b&smart=true&width=616&height=461",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:08:02.000Z"
-    },
-    {
-      "id": "zMSYF-zttAEa",
-      "representative": {
-        "id": "zMSYF-zttAEa",
-        "url": "https://caracol.com.co/2026/10/06/perdemos-al-mejor-cantante-de-todos-los-tiempos-jorge-baron-lamento-muerte-de-victor-hugo-ayala/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/06/perdemos-al-mejor-cantante-de-todos-los-tiempos-jorge-baron-lamento-muerte-de-victor-hugo-ayala/",
-        "title": "“Perdemos al mejor cantante de todos los tiempos”: Jorge Barón lamentó muerte de Víctor Hugo Ayala",
-        "description": null,
-        "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:05:37.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/D5H6CANMSZHLZLGIGFQAYIBVWQ.jpeg?auth=3fc1f416731d23348a3811a2be9e2037b0a66f1b87707597e5536e593f7dd049&smart=true&width=1600&height=1200",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:05:37.000Z"
-    },
-    {
       "id": "N6dORFuCBObL",
       "representative": {
         "id": "N6dORFuCBObL",
@@ -239,166 +191,196 @@
       "latestPublishedAt": "2026-10-06T13:03:21.000Z"
     },
     {
-      "id": "7LZFt681pjvY",
+      "id": "ieCqhb9YCkAU",
       "representative": {
-        "id": "7LZFt681pjvY",
-        "url": "https://caracol.com.co/2026/10/06/en-bolivar-policia-reporto-baja-de-delitos-durante-septiembre/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/06/en-bolivar-policia-reporto-baja-de-delitos-durante-septiembre/",
-        "title": "En Bolívar, Policía reportó baja de delitos durante septiembre",
-        "description": null,
+        "id": "ieCqhb9YCkAU",
+        "url": "https://www.elcolombiano.com/colombia/aguacero-bogota-medellin-2000-rayos-granizo-inundaciones-NK41966281",
+        "canonicalUrl": "https://www.elcolombiano.com/colombia/aguacero-bogota-medellin-2000-rayos-granizo-inundaciones-NK41966281",
+        "title": "El aguacero que sorprendió a varias ciudades de Colombia; en Bogotá cayeron 2.000 rayos, ¿se repetirá?",
+        "description": "Este lunes se registraron tremendos aguaceros en Medellín y Bogotá; además, vivieron cambios de temperatura en cuestión de horas: pasaron del calor intenso a una tormenta que dejó fuertes lluvias, granizo y hasta inundaciones en diferentes sectores. De acuerdo con los reportes del Ideam (Instituto…",
         "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
+          "id": "elcolombiano",
+          "name": "El Colombiano"
         },
         "sourceCountry": "CO",
         "language": "es",
-        "publishedAt": "2026-10-06T13:03:18.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/JBU36FABSFEXLMGVMSHCOKKVQM.jpeg?auth=4f98f54bd72fe3b6f3507d393d58990ef15504b41ca9e09259260986b4332af2&smart=true&width=1040&height=585",
+        "publishedAt": "2026-10-06T12:43:51.000Z",
+        "imageUrl": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/OOYU/clima-medellin-bogota_51812934_20261006073323.jpg",
         "countryCode": "CO",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:03:18.000Z"
+      "latestPublishedAt": "2026-10-06T12:43:51.000Z"
     },
     {
-      "id": "OijIypMJIlgm",
+      "id": "XVey7BNnRV7t",
       "representative": {
-        "id": "OijIypMJIlgm",
-        "url": "https://caracol.com.co/2026/10/06/ungrd-destino-mas-de-2016-millones-para-atender-incendios-que-dejaron-26500-hectareas-afectadas/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/06/ungrd-destino-mas-de-2016-millones-para-atender-incendios-que-dejaron-26500-hectareas-afectadas/",
-        "title": "UNGRD destinó más de $2.016 millones para atender incendios que dejaron 26.500 hectáreas afectadas",
-        "description": null,
+        "id": "XVey7BNnRV7t",
+        "url": "https://www.eltiempo.com/politica/gobierno/gobierno-publico-la-hoja-de-vida-de-juan-gonzalo-ospina-para-ser-embajador-de-colombia-ante-belgica-y-la-union-europea-3591534",
+        "canonicalUrl": "https://www.eltiempo.com/politica/gobierno/gobierno-publico-la-hoja-de-vida-de-juan-gonzalo-ospina-para-ser-embajador-de-colombia-ante-belgica-y-la-union-europea-3591534",
+        "title": "Gobierno publicó la hoja de vida de Juan Gonzalo Ospina para ser embajador de Colombia ante Bélgica y la Unión Europea",
+        "description": "Ospina es un reconocido abogado penalista con experiencia en litigios internacionales.",
         "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
+          "id": "eltiempo",
+          "name": "El Tiempo"
         },
         "sourceCountry": "CO",
         "language": "es",
-        "publishedAt": "2026-10-06T13:01:43.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/YBSSKUH32JCAJADXDXUSGHVQVM.png?auth=774bd862e9d3b5ceaa0ed9dec8021abaea503c2dce866ee266a89181cc9cbc44&smart=true&width=900&height=506",
+        "publishedAt": "2026-10-06T12:22:07.000Z",
+        "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/09/09/6aa1c0398c8a1.r_d.635-142-0.jpeg",
         "countryCode": "CO",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:01:43.000Z"
+      "latestPublishedAt": "2026-10-06T12:22:07.000Z"
     },
     {
-      "id": "_EDcrb8WuevG",
+      "id": "qd-USMD3QaI4",
       "representative": {
-        "id": "_EDcrb8WuevG",
-        "url": "https://www.semana.com/economia/empresas/articulo/junta-directiva-de-la-andi-acepto-renuncia-de-bruce-mac-master/202656/",
-        "canonicalUrl": "https://www.semana.com/economia/empresas/articulo/junta-directiva-de-la-andi-acepto-renuncia-de-bruce-mac-master/202656/",
-        "title": "Junta directiva de la Andi aceptó la renuncia de Bruce Mac Master",
-        "description": null,
+        "id": "qd-USMD3QaI4",
+        "url": "https://www.lasillavacia.com/en-vivo/desayune-informado-con-las-claves-de-este-5-de-octubre-de-2026-2/",
+        "canonicalUrl": "https://www.lasillavacia.com/en-vivo/desayune-informado-con-las-claves-de-este-5-de-octubre-de-2026-2/",
+        "title": "Desayune informado con las claves de este 6 de octubre de 2026",
+        "description": "Abrimos con la investigación sobre cómo la excandidata Sondra Macollins legalizó un millonario anticipo estatal con fundaciones de su familia. The post Desayune informado con las claves de este 6 de octubre de 2026 appeared first on La Silla Vacía .",
         "source": {
-          "id": "semana",
-          "name": "Semana"
+          "id": "lasillavacia",
+          "name": "La Silla Vacía"
         },
         "sourceCountry": "CO",
         "language": "es",
-        "publishedAt": "2026-10-05T23:25:56.000Z",
-        "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/TZZA7S3YL5C53ATVPYBSPGZASA.jpg?auth=d4713b2f63dc5b3e777555e3a8c9c54e519cfcb05c9cbb99522db13d8eff5581&smart=true&width=7157&height=4773",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "RbFES329MaNm",
-          "url": "https://www.lasillavacia.com/en-vivo/andi-acepto-la-renuncia-de-mac-master-e-inicia-busqueda-de-reemplazo/",
-          "canonicalUrl": "https://www.lasillavacia.com/en-vivo/andi-acepto-la-renuncia-de-mac-master-e-inicia-busqueda-de-reemplazo/",
-          "title": "Andi aceptó la renuncia de Mac Master e inicia búsqueda de reemplazo",
-          "description": "En los próximos días se iniciará el comité para escogerlo. Entre los nombres que suenan está el de María Paula Correa, ex jefa de Gabinete de Iván Duque. The post Andi aceptó la renuncia de Mac Master e inicia búsqueda de reemplazo appeared first on La Silla Vacía .",
-          "source": {
-            "id": "lasillavacia",
-            "name": "La Silla Vacía"
-          },
-          "sourceCountry": "CO",
-          "language": "es",
-          "publishedAt": "2026-10-06T13:00:16.000Z",
-          "imageUrl": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/Comunicado_Andi_Bruce.jpeg?fit=1126%2C1439&quality=80&strip=all&ssl=1",
-          "countryCode": "CO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:00:16.000Z"
-    },
-    {
-      "id": "R1wh_M8QKR4_",
-      "representative": {
-        "id": "R1wh_M8QKR4_",
-        "url": "https://caracol.com.co/2026/10/06/en-samaca-se-forman-los-ninos-para-que-protejan-y-defiendan-las-fuentes-de-agua/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/06/en-samaca-se-forman-los-ninos-para-que-protejan-y-defiendan-las-fuentes-de-agua/",
-        "title": "En Samacá se forman los niños para que protejan y defiendan las fuentes de agua",
-        "description": null,
-        "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:57:59.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/YNFSV4VD6BGDRBE7IN573KK4OA.jpeg?auth=1fc817e8c6293cc5b6aaf20a86253227487893a8da16fd1e7c161b72a06cc0f8&smart=true&width=1600&height=903",
+        "publishedAt": "2026-10-06T12:21:00.000Z",
+        "imageUrl": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2025/03/La-Silla-En-Vivo.jpg?fit=1024%2C768&amp;quality=80&amp;strip=all&amp;ssl=1",
         "countryCode": "CO",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:57:59.000Z"
+      "latestPublishedAt": "2026-10-06T12:21:00.000Z"
     },
     {
-      "id": "FpmiOHJLxH4j",
+      "id": "Do8CbYkH6ooK",
       "representative": {
-        "id": "FpmiOHJLxH4j",
-        "url": "https://caracol.com.co/2026/10/06/ataque-sicarial-en-barbosa-santander-deja-dos-muertos-y-una-mujer-herida-hay-consejo-de-seguridad/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/06/ataque-sicarial-en-barbosa-santander-deja-dos-muertos-y-una-mujer-herida-hay-consejo-de-seguridad/",
-        "title": "Ataque sicarial en Barbosa, Santander, deja dos muertos y una mujer herida: hay consejo de seguridad",
-        "description": null,
+        "id": "Do8CbYkH6ooK",
+        "url": "https://www.elcolombiano.com/colombia/estas-son-las-areas-agricolas-protegidas-que-el-gobierno-de-de-la-espriella-ya-empezo-a-desmontar-donde-y-por-que-OK41965308",
+        "canonicalUrl": "https://www.elcolombiano.com/colombia/estas-son-las-areas-agricolas-protegidas-que-el-gobierno-de-de-la-espriella-ya-empezo-a-desmontar-donde-y-por-que-OK41965308",
+        "title": "Estas son las áreas agrícolas protegidas que el Gobierno de De la Espriella ya empezó a desmontar: ¿dónde y por qué?",
+        "description": "El gobierno de Abelardo de la Espriella comenzó a desmontar las Áreas de Protección para la Producción de Alimentos (APPA) que habían sido declaradas durante la administración de Gustavo Petro. Este lunes, el ministro de Agricultura, Indalecio Dangond, derogó las resoluciones que cobijaban 15.839…",
         "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
+          "id": "elcolombiano",
+          "name": "El Colombiano"
         },
         "sourceCountry": "CO",
         "language": "es",
-        "publishedAt": "2026-10-06T12:55:55.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/ROCDYCML25G5RGRVB5NIZNTLPQ.jpg?auth=393bb3e1646204a836e5a8df1d06312290fa8b797d0e64aacc2f35077b26581e&smart=true&width=650&height=488",
+        "publishedAt": "2026-10-06T12:13:16.000Z",
+        "imageUrl": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/WTBO/abelardo-de-la-espriella-zonas-appa_51812826_20261006065248.jpg",
         "countryCode": "CO",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:55:55.000Z"
+      "latestPublishedAt": "2026-10-06T12:13:16.000Z"
     },
     {
-      "id": "jNOz59EJp6h8",
+      "id": "8XGuFwg7d4xM",
       "representative": {
-        "id": "jNOz59EJp6h8",
-        "url": "https://www.semana.com/confidenciales/articulo/polemica-por-la-amabilidad-de-magistrados-de-la-jep-con-timochenko-y-exguerrilleros-de-las-farc/202612/",
-        "canonicalUrl": "https://www.semana.com/confidenciales/articulo/polemica-por-la-amabilidad-de-magistrados-de-la-jep-con-timochenko-y-exguerrilleros-de-las-farc/202612/",
-        "title": "Polémica por la “amabilidad” de magistrados de la JEP con Timochenko y exguerrilleros de las Farc",
-        "description": null,
+        "id": "8XGuFwg7d4xM",
+        "url": "https://www.lasillavacia.com/red-de-expertos/red-social/para-crecer-colombia-necesita-un-estado-capaz/",
+        "canonicalUrl": "https://www.lasillavacia.com/red-de-expertos/red-social/para-crecer-colombia-necesita-un-estado-capaz/",
+        "title": "Para crecer, Colombia necesita un Estado capaz",
+        "description": "Colombia necesita crecer y para eso no basta la estabilidad macro: necesita un Estado capaz que, junto al sector privado, impulse transformaciones productivas. The post Para crecer, Colombia necesita un Estado capaz appeared first on La Silla Vacía .",
         "source": {
-          "id": "semana",
-          "name": "Semana"
+          "id": "lasillavacia",
+          "name": "La Silla Vacía"
         },
         "sourceCountry": "CO",
         "language": "es",
-        "publishedAt": "2026-10-06T12:52:12.000Z",
-        "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/5XVNGPVNGVB7RITH5RSVNDIPLU.png?auth=aedd27070d8aa72530a1a0483e6493f8c7fa8b21e76c617ead38079dd8af7253&smart=true&width=950&height=530",
+        "publishedAt": "2026-10-06T12:00:00.000Z",
+        "imageUrl": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2025/05/antonio_perry_perfil.jpg?fit=200%2C200&quality=80&strip=all&ssl=1",
         "countryCode": "CO",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:52:12.000Z"
+      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "bsdGwSR9QQcD",
+      "representative": {
+        "id": "bsdGwSR9QQcD",
+        "url": "https://www.lasillavacia.com/podcasts/huevos-revueltos-con-politica/yahir-y-ape-como-intimida-el-presidente/",
+        "canonicalUrl": "https://www.lasillavacia.com/podcasts/huevos-revueltos-con-politica/yahir-y-ape-como-intimida-el-presidente/",
+        "title": "Yahir y Ape: cómo intimida el presidente",
+        "description": "Hoy en el pódcast Huevos Revueltos con Política revisamos cuál es la estrategia del gobierno De la Espriella para trabajar con los políticos. The post Yahir y Ape: cómo intimida el presidente appeared first on La Silla Vacía .",
+        "source": {
+          "id": "lasillavacia",
+          "name": "La Silla Vacía"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:00:00.000Z",
+        "imageUrl": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/Ape_cuello_yair_AcueNA_HUEVOS_1012.jpg?fit=1024%2C769&amp;quality=80&amp;strip=all&amp;ssl=1",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "wV0vNbVH-FVK",
+      "representative": {
+        "id": "wV0vNbVH-FVK",
+        "url": "https://www.eltiempo.com/politica/partidos-politicos/registraduria-desplegara-servicios-de-registro-civil-e-identificacion-a-poblaciones-en-condicion-de-vulnerabilidad-de-10-departamentos-3591523",
+        "canonicalUrl": "https://www.eltiempo.com/politica/partidos-politicos/registraduria-desplegara-servicios-de-registro-civil-e-identificacion-a-poblaciones-en-condicion-de-vulnerabilidad-de-10-departamentos-3591523",
+        "title": "Registraduría desplegará servicios de registro civil e identificación a poblaciones en condición de vulnerabilidad de 10 departamentos",
+        "description": "Se proyecta atender a más de 4.000 personas en diez departamentos priorizados del 6 al 9 de octubre.",
+        "source": {
+          "id": "eltiempo",
+          "name": "El Tiempo"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:49:23.000Z",
+        "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/uploads/2026/08/14/6a7f370a9b84a.jpeg",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:49:23.000Z"
+    },
+    {
+      "id": "sDq_qad_B4jK",
+      "representative": {
+        "id": "sDq_qad_B4jK",
+        "url": "https://www.portafolio.co/economia/finanzas/precio-del-dolar-hoy-en-colombia-divisa-inicia-cerca-de-los-3-200-este-6-de-octubre-503947",
+        "canonicalUrl": "https://www.portafolio.co/economia/finanzas/precio-del-dolar-hoy-en-colombia-divisa-inicia-cerca-de-los-3-200-este-6-de-octubre-503947",
+        "title": "Precio del dólar hoy en Colombia: divisa inicia cerca de los $3.200 este 6 de octubre",
+        "description": "La Tasa Representativa del Mercado del día es de $3.209,78.",
+        "source": {
+          "id": "portafolio",
+          "name": "Portafolio"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:47:15.000Z",
+        "imageUrl": "https://imagenes.portafolio.co/files/og_thumbnail/files/fp/uploads/2026/02/13/698fa87e0ee68.r_d.643-228-0.png",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:47:15.000Z"
     }
   ]
 }

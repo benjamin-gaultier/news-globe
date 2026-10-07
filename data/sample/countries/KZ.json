@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "KZ",
   "countryName": "Kazakhstan",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "AXtvlWVCXquj",
@@ -452,30 +452,6 @@
       "latestPublishedAt": "2026-10-06T15:56:28.000Z"
     },
     {
-      "id": "dRShR5xDHpeX",
-      "representative": {
-        "id": "dRShR5xDHpeX",
-        "url": "https://kz.kursiv.media/2026-10-06/mlts-sbornaya-kazahstana-na-astana-arene-sygrala-vnichyu-s-farerami/?utm_source=rss&utm_medium=rss&utm_campaign=mlts-sbornaya-kazahstana-na-astana-arene-sygrala-vnichyu-s-farerami",
-        "canonicalUrl": "https://kz.kursiv.media/2026-10-06/mlts-sbornaya-kazahstana-na-astana-arene-sygrala-vnichyu-s-farerami/",
-        "title": "Сборная Казахстана на «Астана Арене» сыграла вничью с Фарерами",
-        "description": "Футбольная сборная Казахстана сыграла вничью с Фарерами в домашнем матче Лиги наций – 2:2. Новый рулевой сборной Казахстана Джон ван`т Схип, верный стихийно сложившейся традиции, выпустил на поле новый стартовый состав. Четвертый по счету в четырех матчах. Изменения коснулись всех, без исключения…",
-        "source": {
-          "id": "kursiv",
-          "name": "Kursiv"
-        },
-        "sourceCountry": "KZ",
-        "language": "ru",
-        "publishedAt": "2026-10-06T15:55:45.000Z",
-        "imageUrl": null,
-        "countryCode": "KZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:55:45.000Z"
-    },
-    {
       "id": "l-EFzU8TxXY5",
       "representative": {
         "id": "l-EFzU8TxXY5",
@@ -500,20 +476,20 @@
       "latestPublishedAt": "2026-10-06T15:55:00.000Z"
     },
     {
-      "id": "XuKo6-sPW2fn",
+      "id": "Bw9icQSu0rIT",
       "representative": {
-        "id": "XuKo6-sPW2fn",
-        "url": "https://kz.kursiv.media/2026-10-06/svvo-karin-obsudil-s-religioznymi-liderami-sotrudnichestvo-i-budushhii-sezd-v-astane/?utm_source=rss&utm_medium=rss&utm_campaign=svvo-karin-obsudil-s-religioznymi-liderami-sotrudnichestvo-i-budushhii-sezd-v-astane",
-        "canonicalUrl": "https://kz.kursiv.media/2026-10-06/svvo-karin-obsudil-s-religioznymi-liderami-sotrudnichestvo-i-budushhii-sezd-v-astane/",
-        "title": "Карин обсудил с религиозными лидерами сотрудничество и будущий съезд в Астане",
-        "description": "Вице-президент Казахстана Ерлан Карин встретился с представителями мусульманских и христианских организаций в рамках XXIV заседания Секретариата Съезда лидеров мировых и традиционных религий. Участники обсудили религиозное образование, межрелигиозный диалог и подготовку к следующему Съезду…",
+        "id": "Bw9icQSu0rIT",
+        "url": "https://www.inform.kz/ru/zemelniy-nalog-pereschitali-dlya65-tisyachi-zemlepolzovateley-vatirau-489f43e2",
+        "canonicalUrl": "https://www.inform.kz/ru/zemelniy-nalog-pereschitali-dlya65-tisyachi-zemlepolzovateley-vatirau-489f43e2",
+        "title": "Земельный налог пересчитали для 6,5 тысячи землепользователей в Атырау",
+        "description": "В Атырау выявлены несоответствия при расчете земельного налога. В связи с этим пересчитаны суммы платежей примерно для 6,5 тысячи землепользователей, передает корреспондент агентства Kazinform.",
         "source": {
-          "id": "kursiv",
-          "name": "Kursiv"
+          "id": "kazinform",
+          "name": "Kazinform"
         },
         "sourceCountry": "KZ",
         "language": "ru",
-        "publishedAt": "2026-10-06T15:52:08.000Z",
+        "publishedAt": "2026-10-06T15:50:00.000Z",
         "imageUrl": null,
         "countryCode": "KZ",
         "regionCode": null
@@ -521,7 +497,31 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:52:08.000Z"
+      "latestPublishedAt": "2026-10-06T15:50:00.000Z"
+    },
+    {
+      "id": "Ua2X2BaFU5Ic",
+      "representative": {
+        "id": "Ua2X2BaFU5Ic",
+        "url": "https://www.inform.kz/ru/vazerbaydzhane-sozdadut-regionalniy-tsifrovoy-hab-nabaze-iiidata-tsentrov-c1d60f6f",
+        "canonicalUrl": "https://www.inform.kz/ru/vazerbaydzhane-sozdadut-regionalniy-tsifrovoy-hab-nabaze-iiidata-tsentrov-c1d60f6f",
+        "title": "В Азербайджане создадут региональный цифровой хаб на базе ИИ и дата-центров",
+        "description": "Азербайджан планирует сформировать региональный цифровой хаб, объединив телекоммуникационную инфраструктуру, дата-центры, вычислительные мощности для искусственного интеллекта и цифровые сервисы, сообщает собственный корреспондент агентства Kazinform в Баку.",
+        "source": {
+          "id": "kazinform",
+          "name": "Kazinform"
+        },
+        "sourceCountry": "KZ",
+        "language": "ru",
+        "publishedAt": "2026-10-06T15:33:00.000Z",
+        "imageUrl": null,
+        "countryCode": "KZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:33:00.000Z"
     }
   ]
 }

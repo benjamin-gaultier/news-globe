@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BF",
   "countryName": "Burkina Faso",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "HHAMyQJhLM7K",
@@ -239,30 +239,6 @@
       "latestPublishedAt": "2026-10-06T12:08:53.000Z"
     },
     {
-      "id": "Uyc_5RipI9Vn",
-      "representative": {
-        "id": "Uyc_5RipI9Vn",
-        "url": "https://lefaso.net/spip.php?article149768",
-        "canonicalUrl": "https://lefaso.net/spip.php?article149768=",
-        "title": "APPEL À MANIFESTATION D'INTÉRÊT !!!! : ChildrenBelieve recrute ses Partenaires de mise en œuvre !",
-        "description": "Nous sommes ravis de lancer la sélection de nouveaux Partenaires de mise en œuvre pour nos 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞𝐬 𝐝𝐞 𝐩𝐚𝐫𝐫𝐚𝐢𝐧𝐚𝐠𝐞 (𝐒𝐩𝐨𝐧𝐬𝐨𝐫𝐬𝐡𝐢𝐩) 𝐝𝐚𝐧𝐬 𝐥𝐞𝐬 𝐫𝐞́𝐠𝐢𝐨𝐧𝐬 𝐝𝐮 𝐍𝐚𝐧𝐝𝐨 𝐞𝐭 𝐝𝐮 𝐊𝐚𝐝𝐢𝐨𝐠𝐨. Cette opportunité est ouverte aux organisations ayant un fort…",
-        "source": {
-          "id": "lefaso",
-          "name": "Lefaso.net"
-        },
-        "sourceCountry": "BF",
-        "language": "fr",
-        "publishedAt": "2026-10-06T11:58:38.000Z",
-        "imageUrl": null,
-        "countryCode": "BF",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:58:38.000Z"
-    },
-    {
       "id": "9LCjNyF6xdsy",
       "representative": {
         "id": "9LCjNyF6xdsy",
@@ -285,6 +261,30 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:24:17.000Z"
+    },
+    {
+      "id": "Uyc_5RipI9Vn",
+      "representative": {
+        "id": "Uyc_5RipI9Vn",
+        "url": "https://lefaso.net/spip.php?article149768",
+        "canonicalUrl": "https://lefaso.net/spip.php?article149768=",
+        "title": "APPEL À MANIFESTATION D'INTÉRÊT !!!! : ChildrenBelieve recrute ses Partenaires de mise en œuvre !",
+        "description": "Nous sommes ravis de lancer la sélection de nouveaux Partenaires de mise en œuvre pour nos 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞𝐬 𝐝𝐞 𝐩𝐚𝐫𝐫𝐚𝐢𝐧𝐚𝐠𝐞 (𝐒𝐩𝐨𝐧𝐬𝐨𝐫𝐬𝐡𝐢𝐩) 𝐝𝐚𝐧𝐬 𝐥𝐞𝐬 𝐫𝐞́𝐠𝐢𝐨𝐧𝐬 𝐝𝐮 𝐍𝐚𝐧𝐝𝐨 𝐞𝐭 𝐝𝐮 𝐊𝐚𝐝𝐢𝐨𝐠𝐨. Cette opportunité est ouverte aux organisations ayant un fort…",
+        "source": {
+          "id": "lefaso",
+          "name": "Lefaso.net"
+        },
+        "sourceCountry": "BF",
+        "language": "fr",
+        "publishedAt": "2026-10-06T11:58:38.000Z",
+        "imageUrl": null,
+        "countryCode": "BF",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:58:38.000Z"
     },
     {
       "id": "6uJHj6j7V_rk",

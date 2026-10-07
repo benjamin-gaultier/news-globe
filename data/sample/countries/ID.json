@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ID",
   "countryName": "Indonesia",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "fraUVYPllHCf",
@@ -530,30 +530,6 @@
       "latestPublishedAt": "2026-10-06T16:24:02.000Z"
     },
     {
-      "id": "BFUtKRtOUxSD",
-      "representative": {
-        "id": "BFUtKRtOUxSD",
-        "url": "https://news.republika.co.id/berita/tmhaxf320/59-tim-tanggap-insiden-siber-dikukuhkan-bssn-soroti-pentingnya-keamanan-digital",
-        "canonicalUrl": "https://news.republika.co.id/berita/tmhaxf320/59-tim-tanggap-insiden-siber-dikukuhkan-bssn-soroti-pentingnya-keamanan-digital",
-        "title": "59 Tim Tanggap Insiden Siber Dikukuhkan, BSSN Soroti Pentingnya Keamanan Digital",
-        "description": "REPUBLIKA.CO.ID, DEPOK— Badan Siber dan Sandi Negara (BSSN) mengukuhkan 59 Tim Tanggap Insiden Siber (TTIS) sebagai garda terdepan penanganan insiden siber di instansi masing-masing. Pengukuhan berlangsung di Kantor BSSN, Depok,...",
-        "source": {
-          "id": "republika",
-          "name": "Republika"
-        },
-        "sourceCountry": "ID",
-        "language": "id",
-        "publishedAt": "2026-10-06T16:19:00.000Z",
-        "imageUrl": "https://static.republika.co.id/uploads/images/detailnews/bssn_261006161114-984.jpg",
-        "countryCode": "ID",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:19:00.000Z"
-    },
-    {
       "id": "3pDDCLhszWT5",
       "representative": {
         "id": "3pDDCLhszWT5",
@@ -602,28 +578,87 @@
       "latestPublishedAt": "2026-10-06T16:15:08.000Z"
     },
     {
-      "id": "4b3MzeL_0mTi",
+      "id": "ojjWEivEGiih",
       "representative": {
-        "id": "4b3MzeL_0mTi",
-        "url": "https://www.antaranews.com/berita/5774377/prabowo-gibran-dukung-penuh-perkembangan-bola-basket-indonesia",
-        "canonicalUrl": "https://www.antaranews.com/berita/5774377/prabowo-gibran-dukung-penuh-perkembangan-bola-basket-indonesia",
-        "title": "Prabowo-Gibran dukung penuh perkembangan bola basket Indonesia",
-        "description": "Sekjen DPP Perbasi Nirmala Dewi menyebut pemerintahan di bawah kepemimpinan Presiden Prabowo Subianto dan Wapres Gibran ...",
+        "id": "ojjWEivEGiih",
+        "url": "https://www.cnnindonesia.com/nasional/20261006174807-12-1412353/prabowo-ingin-ubah-nama-bnn-soroti-fenomena-kampung-narkoba",
+        "canonicalUrl": "https://www.cnnindonesia.com/nasional/20261006174807-12-1412353/prabowo-ingin-ubah-nama-bnn-soroti-fenomena-kampung-narkoba",
+        "title": "Prabowo Ingin Ubah Nama BNN, Soroti Fenomena Kampung Narkoba",
+        "description": "Presiden Prabowo berencana mengubah BNN menjadi Badan Nasional Penanggulangan Narkotika, fokus pada pemberantasan jaringan narkoba di Indonesia.",
         "source": {
-          "id": "antara",
-          "name": "Antara"
+          "id": "cnnindonesia",
+          "name": "CNN Indonesia"
         },
         "sourceCountry": "ID",
         "language": "id",
-        "publishedAt": "2026-10-06T16:12:23.000Z",
-        "imageUrl": "https://cdn.antaranews.com/cache/800x533/2026/10/06/1000545574.jpg",
+        "publishedAt": "2026-10-06T16:10:29.000Z",
+        "imageUrl": "https://akcdn.detik.net.id/visual/2026/10/06/prabowo-hadiri-penyerahan-uang-rp132-triliun-dari-satgas-penertiban-kawasan-hutan-1791280241763_169.png?w=360&q=90",
         "countryCode": "ID",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:12:23.000Z"
+      "latestPublishedAt": "2026-10-06T16:10:29.000Z"
+    },
+    {
+      "id": "uI27ubxRHMNG",
+      "representative": {
+        "id": "uI27ubxRHMNG",
+        "url": "https://www.cnnindonesia.com/nasional/20261006170642-12-1412339/jaksa-agung-bakal-kejar-aliran-dana-kejahatan-hutan-di-luar-negeri",
+        "canonicalUrl": "https://www.cnnindonesia.com/nasional/20261006170642-12-1412339/jaksa-agung-bakal-kejar-aliran-dana-kejahatan-hutan-di-luar-negeri",
+        "title": "Jaksa Agung Bakal Kejar Aliran Dana Kejahatan Hutan di Luar Negeri",
+        "description": "Satuan Tugas Penertiban Kawasan Hutan (Satgas PKH) memastikan bakal mengejar aliran dana hasil kejahatan hutan yang disembunyikan ke luar negeri.",
+        "source": {
+          "id": "cnnindonesia",
+          "name": "CNN Indonesia"
+        },
+        "sourceCountry": "ID",
+        "language": "id",
+        "publishedAt": "2026-10-06T10:10:24.000Z",
+        "imageUrl": "https://akcdn.detik.net.id/visual/2026/10/06/jaksa-agung-tegaskan-bakal-kejar-aliran-dana-hasil-kejahatan-hutan-di-luar-negeri-1791281068766_169.jpeg?w=360&q=90",
+        "countryCode": "ID",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "kyhqmjVJvgOA",
+          "url": "https://news.okezone.com/read/2026/10/06/337/3246354/jaksa-agung-aliran-dana-hasil-kejahatan-hutan-di-luar-negeri-akan-dikejar",
+          "canonicalUrl": "https://news.okezone.com/read/2026/10/06/337/3246354/jaksa-agung-aliran-dana-hasil-kejahatan-hutan-di-luar-negeri-akan-dikejar",
+          "title": "Jaksa Agung: Aliran Dana Hasil Kejahatan Hutan di Luar Negeri Akan Dikejar",
+          "description": "Satuan Tugas Penertiban Kawasan Hutan (Satgas PKH) menyebut bakal mengejar aliran dana hasil kejahatan hutan yang disembunyikan ke luar negeri.",
+          "source": {
+            "id": "okezone",
+            "name": "Okezone"
+          },
+          "sourceCountry": "ID",
+          "language": "id",
+          "publishedAt": "2026-10-06T16:10:10.000Z",
+          "imageUrl": "https://img.okezone.com/okz/400/content/2026/10/06/337/3246354/jaksa_agung-mAoD_large.jpg",
+          "countryCode": "ID",
+          "regionCode": null
+        },
+        {
+          "id": "Hp_yW-OyKgkj",
+          "url": "https://www.liputan6.com/news/read/8307311/jaksa-agung-hasil-kejahatan-harus-dikejar-hingga-luar-negeri",
+          "canonicalUrl": "https://www.liputan6.com/news/read/8307311/jaksa-agung-hasil-kejahatan-harus-dikejar-hingga-luar-negeri",
+          "title": "Jaksa Agung: Hasil Kejahatan Harus Dikejar hingga Luar Negeri",
+          "description": "Penegakan hukum dalam penertiban kawasan hutan tidak boleh berhenti pada perbuatan melawan hukum di dalam negeri.",
+          "source": {
+            "id": "liputan6",
+            "name": "Liputan6"
+          },
+          "sourceCountry": "ID",
+          "language": "id",
+          "publishedAt": "2026-10-06T10:26:00.000Z",
+          "imageUrl": "https://cdn1-production-images-kly.akamaized.net/K-UDU3tYrMFYPOEMr_LNmlqAVw8=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/9366989/original/003731800_1791282352-122326.jpg",
+          "countryCode": "ID",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T16:10:10.000Z"
     }
   ]
 }

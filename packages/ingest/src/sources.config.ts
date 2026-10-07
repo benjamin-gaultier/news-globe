@@ -5976,6 +5976,12 @@ export const INGEST_SETTINGS = {
    */
   clusterMinAverageLink: 0.2,
   maxClustersPerCountry: 15,
+  /**
+   * Single-outlet stories per outlet before the others get a turn. Without it,
+   * TV Vendée took 10 of Pays de la Loire's 15 slots and Lyon Capitale 7 of
+   * Auvergne-Rhône-Alpes', just by posting in bursts.
+   */
+  maxSoloStoriesPerOutlet: 3,
   descriptionMaxChars: 300,
   /**
    * node-cron schedule for `pnpm ingest:watch`: hourly, which is plenty for a

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "VE",
   "countryName": "Venezuela",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "X6wMYYjOQZVL",
@@ -232,30 +232,6 @@
       "latestPublishedAt": "2026-10-06T14:03:50.000Z"
     },
     {
-      "id": "-g-AjiKyFdTR",
-      "representative": {
-        "id": "-g-AjiKyFdTR",
-        "url": "https://ultimasnoticias.com.ve/chevere/jay-wheeler-anuncia-su-nueva-gira-mundial/",
-        "canonicalUrl": "https://ultimasnoticias.com.ve/chevere/jay-wheeler-anuncia-su-nueva-gira-mundial/",
-        "title": "Jay Wheeler anuncia su nueva gira mundial",
-        "description": "El tour comenzará en España y proseguirá en 2027 en Estados Unidos y Latinoamérica. La entrada Jay Wheeler anuncia su nueva gira mundial se publicó primero en Últimas Noticias .",
-        "source": {
-          "id": "ultimasnoticias_ve",
-          "name": "Últimas Noticias"
-        },
-        "sourceCountry": "VE",
-        "language": "es",
-        "publishedAt": "2026-10-06T14:00:00.000Z",
-        "imageUrl": "https://ultimasnoticias.com.ve/wp-content/uploads/2026/10/jay-wheeler-300x224.jpg",
-        "countryCode": "VE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:00:00.000Z"
-    },
-    {
       "id": "LFm1qYQqrmkx",
       "representative": {
         "id": "LFm1qYQqrmkx",
@@ -280,20 +256,20 @@
       "latestPublishedAt": "2026-10-06T13:55:43.000Z"
     },
     {
-      "id": "1ekp4Kr8dO-d",
+      "id": "0leIL6KME3QS",
       "representative": {
-        "id": "1ekp4Kr8dO-d",
-        "url": "https://www.elnacional.com/2026/10/trabajadores-electricos-de-lara-eligen-nueva-directiva-sindical-de-forma-autonoma-tras-15-anos-de-paralisis/",
-        "canonicalUrl": "https://www.elnacional.com/2026/10/trabajadores-electricos-de-lara-eligen-nueva-directiva-sindical-de-forma-autonoma-tras-15-anos-de-paralisis/",
-        "title": "Trabajadores eléctricos de Lara eligen nueva directiva sindical de forma autónoma tras 15 años de parálisis",
-        "description": "El proceso, llevado a cabo bajo el principio de autonomía sindical y sin la intermediación del CNE, movilizó a personal activo, jubilado y pensionado de Corpoelec en toda la entidad. The post Trabajadores eléctricos de Lara eligen nueva directiva sindical de forma autónoma tras 15 años de…",
+        "id": "0leIL6KME3QS",
+        "url": "https://talcualdigital.com/noticias/40-sitios-web-siguen-bloqueados-varios-alcanzan-maximos-historicos/",
+        "canonicalUrl": "https://talcualdigital.com/noticias/40-sitios-web-siguen-bloqueados-varios-alcanzan-maximos-historicos/",
+        "title": "40 sitios web siguen bloqueados: «Varios alcanzan máximos históricos»",
+        "description": "Entre los medios que siguen bloqueados se encuentran: VPItv, La Patilla, Armando.Info, Infobae, NTN24, Vendata, EVTV y El Nacional The post 40 sitios web siguen bloqueados: «Varios alcanzan máximos históricos» appeared first on TalCual .",
         "source": {
-          "id": "elnacional_ve",
-          "name": "El Nacional"
+          "id": "talcual",
+          "name": "TalCual"
         },
         "sourceCountry": "VE",
         "language": "es",
-        "publishedAt": "2026-10-06T13:52:00.000Z",
+        "publishedAt": "2026-10-06T13:24:04.000Z",
         "imageUrl": null,
         "countryCode": "VE",
         "regionCode": null
@@ -301,103 +277,145 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:52:00.000Z"
+      "latestPublishedAt": "2026-10-06T13:24:04.000Z"
     },
     {
-      "id": "Z2KNOO3Hsw7v",
+      "id": "boG8o-uuHtvM",
       "representative": {
-        "id": "Z2KNOO3Hsw7v",
-        "url": "https://ultimasnoticias.com.ve/actualidad/comunas-de-san-agustin-se-prepara-para-la-consulta-popular-del-18-de-octubre/",
-        "canonicalUrl": "https://ultimasnoticias.com.ve/actualidad/comunas-de-san-agustin-se-prepara-para-la-consulta-popular-del-18-de-octubre/",
-        "title": "Comunas de San Agustín se prepara para la Consulta Popular del 18 de octubre",
-        "description": "Los voceras y voceros protagonizaron una Asamblea en las instalaciones de la Unidad Educativa Nacional Bicentenario Republicano La entrada Comunas de San Agustín se prepara para la Consulta Popular del 18 de octubre se publicó primero en Últimas Noticias .",
+        "id": "boG8o-uuHtvM",
+        "url": "https://talcualdigital.com/noticias/ministerio-de-educacion-universitaria-convoca-a-debate-sobre-nueva-ley/",
+        "canonicalUrl": "https://talcualdigital.com/noticias/ministerio-de-educacion-universitaria-convoca-a-debate-sobre-nueva-ley/",
+        "title": "Ministerio de Educación Universitaria convoca a debate sobre nueva ley",
+        "description": "La ministra Ana María Sanjuán convocó a la comunidad académica a integrar comisiones de trabajo para elaborar un proyecto por consenso que será remitido a la Asamblea Nacional The post Ministerio de Educación Universitaria convoca a debate sobre nueva ley appeared first on TalCual .",
         "source": {
-          "id": "ultimasnoticias_ve",
-          "name": "Últimas Noticias"
+          "id": "talcual",
+          "name": "TalCual"
         },
         "sourceCountry": "VE",
         "language": "es",
-        "publishedAt": "2026-10-06T13:48:55.000Z",
-        "imageUrl": "https://ultimasnoticias.com.ve/wp-content/uploads/2026/10/IMG_20261005_215256_935-300x225.jpg",
+        "publishedAt": "2026-10-06T00:56:00.000Z",
+        "imageUrl": null,
+        "countryCode": "VE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "VEaqDoEbAP7U",
+          "url": "https://ultimasnoticias.com.ve/actualidad/convocan-a-la-comunidad-universitaria-a-debatir-nueva-ley-de-educacion/",
+          "canonicalUrl": "https://ultimasnoticias.com.ve/actualidad/convocan-a-la-comunidad-universitaria-a-debatir-nueva-ley-de-educacion/",
+          "title": "Convocan a la comunidad universitaria a debatir nueva ley de educación",
+          "description": "La propuesta será construida mediante un proceso participativo y posteriormente presentada ante la Asamblea Nacional La entrada Convocan a la comunidad universitaria a debatir nueva ley de educación se publicó primero en Últimas Noticias .",
+          "source": {
+            "id": "ultimasnoticias_ve",
+            "name": "Últimas Noticias"
+          },
+          "sourceCountry": "VE",
+          "language": "es",
+          "publishedAt": "2026-10-06T13:01:15.000Z",
+          "imageUrl": "https://ultimasnoticias.com.ve/wp-content/uploads/2026/10/ChatGPT-Image-6-oct-2026-08_55_14-a.m-e1791291373220-300x269.png",
+          "countryCode": "VE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:01:15.000Z"
+    },
+    {
+      "id": "DEG2DhzdUnNp",
+      "representative": {
+        "id": "DEG2DhzdUnNp",
+        "url": "https://cronica.uno/deuda-externa-venezuela-exige-auditoria-respaldo-fmi/",
+        "canonicalUrl": "https://cronica.uno/deuda-externa-venezuela-exige-auditoria-respaldo-fmi/",
+        "title": "Reestructurar la deuda externa venezolana exige auditoría y respaldo del FMI, adelantan economistas",
+        "description": "Especialistas en el área económica advierten que la renegociación de la deuda venezolana requerirá una auditoría independiente y apoyo multilateral. La opacidad oficial y los litigios globales vuelven complejo el proceso anunciado para superar el impago vigente desde 2017. Caracas. Un volumen de…",
+        "source": {
+          "id": "cronicauno",
+          "name": "Crónica Uno"
+        },
+        "sourceCountry": "VE",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:30:00.000Z",
+        "imageUrl": "https://cronica.uno/wp-content/uploads/2020/01/FMI-1024x512.jpg",
         "countryCode": "VE",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:48:55.000Z"
+      "latestPublishedAt": "2026-10-06T11:30:00.000Z"
     },
     {
-      "id": "kJZkmukZvoGe",
+      "id": "bt4df3xyw0LL",
       "representative": {
-        "id": "kJZkmukZvoGe",
-        "url": "https://ultimasnoticias.com.ve/mas-vida/urbanismo-omar-torrijos-en-caracas-alcanza-casi-100-de-rehabilitacion/",
-        "canonicalUrl": "https://ultimasnoticias.com.ve/mas-vida/urbanismo-omar-torrijos-en-caracas-alcanza-casi-100-de-rehabilitacion/",
-        "title": "Urbanismo Omar Torrijos en Caracas alcanza casi 100% de rehabilitación",
-        "description": "Las labores incluyen la atención de viviendas y áreas socioproductivas relacionadas con la salud, formación y recreación La entrada Urbanismo Omar Torrijos en Caracas alcanza casi 100% de rehabilitación se publicó primero en Últimas Noticias .",
+        "id": "bt4df3xyw0LL",
+        "url": "https://talcualdigital.com/noticias/alemania-lleva-a-la-guaira-su-dia-de-la-unidad-y-deja-una-leccion-sobre-reconciliacion/",
+        "canonicalUrl": "https://talcualdigital.com/noticias/alemania-lleva-a-la-guaira-su-dia-de-la-unidad-y-deja-una-leccion-sobre-reconciliacion/",
+        "title": "Alemania lleva a La Guaira su Día de la Unidad y deja una lección sobre reconciliación",
+        "description": "El embajador alemán advirtió que superar las heridas de una sociedad dividida \"va a durar tiempo\". La conmemoración alemana fue junto a familias afectadas por los terremotos en La Guaira The post Alemania lleva a La Guaira su Día de la Unidad y deja una lección sobre reconciliación appeared first…",
         "source": {
-          "id": "ultimasnoticias_ve",
-          "name": "Últimas Noticias"
+          "id": "talcual",
+          "name": "TalCual"
         },
         "sourceCountry": "VE",
         "language": "es",
-        "publishedAt": "2026-10-06T13:45:51.000Z",
-        "imageUrl": "https://ultimasnoticias.com.ve/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-09.30.59-e1791294464176-300x293.jpeg",
+        "publishedAt": "2026-10-06T11:24:24.000Z",
+        "imageUrl": null,
         "countryCode": "VE",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:45:51.000Z"
+      "latestPublishedAt": "2026-10-06T11:24:24.000Z"
     },
     {
-      "id": "taQHJJPkK6ka",
+      "id": "fePu0Snlg4L1",
       "representative": {
-        "id": "taQHJJPkK6ka",
-        "url": "https://ultimasnoticias.com.ve/mas-vida/atienden-mas-de-300-mujeres-en-jornada-medica-en-propatria/",
-        "canonicalUrl": "https://ultimasnoticias.com.ve/mas-vida/atienden-mas-de-300-mujeres-en-jornada-medica-en-propatria/",
-        "title": "Atienden más de 300 mujeres en jornada médica en Propatria",
-        "description": "La alcaldesa Carmen Meléndez coordinó la realización de biopsias, tomografías y ecocardiogramas a las asistentes La entrada Atienden más de 300 mujeres en jornada médica en Propatria se publicó primero en Últimas Noticias .",
+        "id": "fePu0Snlg4L1",
+        "url": "https://cronica.uno/apagones-atencion-medica-aragua-limite-riesgo/",
+        "canonicalUrl": "https://cronica.uno/apagones-atencion-medica-aragua-limite-riesgo/",
+        "title": "Los apagones llevan la atención médica en centros de salud de Aragua al límite de riesgo",
+        "description": "Las constantes interrupciones del servicio eléctrico frenan la atención en centros médicos aragüeños. Ante la falta de generadores y combustible, médicos y enfermeros deben improvisar, en medio de una situación que aumenta el estrés y la incertidumbre entre pacientes y trabajadores sanitarios…",
         "source": {
-          "id": "ultimasnoticias_ve",
-          "name": "Últimas Noticias"
+          "id": "cronicauno",
+          "name": "Crónica Uno"
         },
         "sourceCountry": "VE",
         "language": "es",
-        "publishedAt": "2026-10-06T13:44:22.000Z",
-        "imageUrl": "https://ultimasnoticias.com.ve/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-9.43.18-AM-300x169.jpeg",
+        "publishedAt": "2026-10-06T10:30:00.000Z",
+        "imageUrl": "https://cronica.uno/wp-content/uploads/2026/10/Hospital-Jose-Maria-Benitez-Aragua-576x1024.jpeg",
         "countryCode": "VE",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:44:22.000Z"
+      "latestPublishedAt": "2026-10-06T10:30:00.000Z"
     },
     {
-      "id": "5ByQ9hYXlIKt",
+      "id": "l-HafM5oYuPF",
       "representative": {
-        "id": "5ByQ9hYXlIKt",
-        "url": "https://ultimasnoticias.com.ve/actualidad/ola-de-protestas-estudiantiles-sacude-a-francia/",
-        "canonicalUrl": "https://ultimasnoticias.com.ve/actualidad/ola-de-protestas-estudiantiles-sacude-a-francia/",
-        "title": "Ola de protestas estudiantiles sacude a Francia",
-        "description": "Estudiantes se movilizan contra la brecha educativa para exigir al Ejecutivo infraestructuras dignas, recursos y una reforma integral La entrada Ola de protestas estudiantiles sacude a Francia se publicó primero en Últimas Noticias .",
+        "id": "l-HafM5oYuPF",
+        "url": "https://cronica.uno/no-es-justo-ver-morir-ninos-fibrosis-quistica/",
+        "canonicalUrl": "https://cronica.uno/no-es-justo-ver-morir-ninos-fibrosis-quistica/",
+        "title": "“No es justo ver morir a niños porque una familia no tiene dinero”, lamenta paciente con fibrosis quística (II)",
+        "description": "Un grupo de pacientes y sus familiares combate en soledad el deterioro físico provocado por la fibrosis quística. Entre la escasez de tratamientos y los altos costos, la sociedad civil exige al Estado el cumplimiento de las medidas de protección. Caracas. La jornada de Carla Pérez arranca en la…",
         "source": {
-          "id": "ultimasnoticias_ve",
-          "name": "Últimas Noticias"
+          "id": "cronicauno",
+          "name": "Crónica Uno"
         },
         "sourceCountry": "VE",
         "language": "es",
-        "publishedAt": "2026-10-06T13:38:35.000Z",
-        "imageUrl": "https://ultimasnoticias.com.ve/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-9.32.27-AM-300x201.jpeg",
+        "publishedAt": "2026-10-06T09:40:58.000Z",
+        "imageUrl": "https://cronica.uno/wp-content/uploads/2026/09/fibrosis-290-1024x683.jpg",
         "countryCode": "VE",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:38:35.000Z"
+      "latestPublishedAt": "2026-10-06T09:40:58.000Z"
     }
   ]
 }

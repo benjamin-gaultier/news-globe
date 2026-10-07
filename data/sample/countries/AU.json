@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AU",
   "countryName": "Australia",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "pZtvmLVPvRbx",
@@ -191,30 +191,6 @@
       "latestPublishedAt": "2026-10-06T10:44:48.000Z"
     },
     {
-      "id": "_W25wF2hKSnC",
-      "representative": {
-        "id": "_W25wF2hKSnC",
-        "url": "https://www.abc.net.au/news/2026-10-06/first-quantum-fined-810k-workplace-spinal-injury-ravensthorpe/107236144",
-        "canonicalUrl": "https://www.abc.net.au/news/2026-10-06/first-quantum-fined-810k-workplace-spinal-injury-ravensthorpe/107236144",
-        "title": "Nickel miner fined $810k over boilermaker's spinal injury",
-        "description": "Canadian-owned First Quantum Minerals was slammed over the 2023 incident that left the mine worker permanently injured.",
-        "source": {
-          "id": "abc_au",
-          "name": "ABC News"
-        },
-        "sourceCountry": "AU",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:35:26.000Z",
-        "imageUrl": null,
-        "countryCode": "AU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:35:26.000Z"
-    },
-    {
       "id": "Ln_k8KOYTKfl",
       "representative": {
         "id": "Ln_k8KOYTKfl",
@@ -287,54 +263,6 @@
       "latestPublishedAt": "2026-10-06T10:00:00.000Z"
     },
     {
-      "id": "0zfUhYDcQf77",
-      "representative": {
-        "id": "0zfUhYDcQf77",
-        "url": "https://www.abc.net.au/news/2026-10-06/hundreds-protest-against-land-forces-defence-expo/107223822",
-        "canonicalUrl": "https://www.abc.net.au/news/2026-10-06/hundreds-protest-against-land-forces-defence-expo/107223822",
-        "title": "Hundreds protest against Australia's largest defence expo in Perth",
-        "description": "Protesters in Perth gather to oppose the biennial Land Forces expo, held in Perth two years after ugly scenes in Melbourne.",
-        "source": {
-          "id": "abc_au",
-          "name": "ABC News"
-        },
-        "sourceCountry": "AU",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:56:45.000Z",
-        "imageUrl": null,
-        "countryCode": "AU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:56:45.000Z"
-    },
-    {
-      "id": "qmnRdOGmY1T7",
-      "representative": {
-        "id": "qmnRdOGmY1T7",
-        "url": "https://www.abc.net.au/news/2026-10-06/one-nation-ai-generated-video-sparks-hanson-row/107236300",
-        "canonicalUrl": "https://www.abc.net.au/news/2026-10-06/one-nation-ai-generated-video-sparks-hanson-row/107236300",
-        "title": "One Nation AI-generated video sparks cafe owner row with Lee Hanson",
-        "description": "A Tasmanian cafe owner and Pauline Hanson's daughter have become embroiled in a row over an AI-generated video depicting people ditching their social and political allegiances and revealing themselves as One Nation supporters.",
-        "source": {
-          "id": "abc_au",
-          "name": "ABC News"
-        },
-        "sourceCountry": "AU",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:35:00.000Z",
-        "imageUrl": null,
-        "countryCode": "AU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:35:00.000Z"
-    },
-    {
       "id": "qPfevt5kugJ9",
       "representative": {
         "id": "qPfevt5kugJ9",
@@ -359,28 +287,100 @@
       "latestPublishedAt": "2026-10-06T09:05:54.000Z"
     },
     {
-      "id": "E4X2qEZXwEuv",
+      "id": "7NCDmdbNW-ot",
       "representative": {
-        "id": "E4X2qEZXwEuv",
-        "url": "https://www.abc.net.au/news/2026-10-06/jannik-sinner-to-miss-rest-of-tennis-season-with-knee-injury/107236342",
-        "canonicalUrl": "https://www.abc.net.au/news/2026-10-06/jannik-sinner-to-miss-rest-of-tennis-season-with-knee-injury/107236342",
-        "title": "Jannik Sinner to miss rest of tennis season with knee injury",
-        "description": "World number one Jannik Sinner will prioritise his recovery from a knee injury, opting to sit out the rest of the 2026 tennis season.",
+        "id": "7NCDmdbNW-ot",
+        "url": "https://www.afr.com/world/europe/how-car-maker-renault-went-from-driveshafts-to-drones-20261006-p613b1?ref=rss&utm_medium=rss&utm_source=rss_feed",
+        "canonicalUrl": "https://www.afr.com/world/europe/how-car-maker-renault-went-from-driveshafts-to-drones-20261006-p613b1",
+        "title": "How car maker Renault went from driveshafts to drones",
+        "description": "The company is seeking to bring mass production to drones, using techniques honed in an industry that turns out tens of millions of vehicles a year.",
         "source": {
-          "id": "abc_au",
-          "name": "ABC News"
+          "id": "afr",
+          "name": "Australian Financial Review"
         },
         "sourceCountry": "AU",
         "language": "en",
-        "publishedAt": "2026-10-06T09:00:23.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T09:00:00.000Z",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.5295%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/66ede03cc86391f5e52eaed84d764545d2e35833",
         "countryCode": "AU",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:00:23.000Z"
+      "latestPublishedAt": "2026-10-06T09:00:00.000Z"
+    },
+    {
+      "id": "ihY6-8oHWK1b",
+      "representative": {
+        "id": "ihY6-8oHWK1b",
+        "url": "https://www.sbs.com.au/news/article/coalition-migration-policy-would-halve-humanitarian-visas-slash-arrivals-by-100-000/tuyiygc0q",
+        "canonicalUrl": "https://www.sbs.com.au/news/article/coalition-migration-policy-would-halve-humanitarian-visas-slash-arrivals-by-100-000/tuyiygc0q",
+        "title": "Coalition's 'biggest' ever migration slashing has three major issues, critic says",
+        "description": "The Coalition plans to reduce migration by over 100,000 people by focusing on \"high-value\" migrants.",
+        "source": {
+          "id": "sbs",
+          "name": "SBS News"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T06:49:21.000Z",
+        "imageUrl": "https://assets.sbs.com.au/dims4/default/13ed589/2147483647/strip/false/crop/3543x1628+0+368/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F17%2F0c%2F06b8aad74ce589a71a88073229a1%2Fgettyimages-2290085935.jpg",
+        "countryCode": "AU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:49:21.000Z"
+    },
+    {
+      "id": "qHu4-_7ZPzMc",
+      "representative": {
+        "id": "qHu4-_7ZPzMc",
+        "url": "https://www.sbs.com.au/news/article/judith-lucy-breast-cancer-diagnosis/u1u6lvevw",
+        "canonicalUrl": "https://www.sbs.com.au/news/article/judith-lucy-breast-cancer-diagnosis/u1u6lvevw",
+        "title": "Comedian Judith Lucy announces cancer diagnosis: 'I'll be keeping you abreast'",
+        "description": "The Australian comedian said she was still \"in shock\" but expected to be okay.",
+        "source": {
+          "id": "sbs",
+          "name": "SBS News"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T04:30:43.000Z",
+        "imageUrl": "https://assets.sbs.com.au/dims4/default/d0c1d6c/2147483647/strip/false/crop/2470x1135+0+129/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F05%2F10%2Fd0a1f6fb4fe5ace513caae73f523%2Fjudith-lucy-bigger-pic.png",
+        "countryCode": "AU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T04:30:43.000Z"
+    },
+    {
+      "id": "SsVo6E7IPc2P",
+      "representative": {
+        "id": "SsVo6E7IPc2P",
+        "url": "https://www.sbs.com.au/news/article/could-government-owned-supermarkets-make-groceries-cheaper-the-greens-think-so/fmeth33nj",
+        "canonicalUrl": "https://www.sbs.com.au/news/article/could-government-owned-supermarkets-make-groceries-cheaper-the-greens-think-so/fmeth33nj",
+        "title": "Could government-owned supermarkets make groceries cheaper? The Greens think so",
+        "description": "David Shoebridge, who became Greens party leader last week, says the pitch warrants discussion.",
+        "source": {
+          "id": "sbs",
+          "name": "SBS News"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-05T23:56:12.000Z",
+        "imageUrl": "https://assets.sbs.com.au/dims4/default/5c4d34f/2147483647/strip/false/crop/6000x2757+0+622/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fcf%2F94%2F650c3ef84c8a8c7ed9fb034c61ca%2F20260317176543589803-original.jpg",
+        "countryCode": "AU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T23:56:12.000Z"
     }
   ]
 }

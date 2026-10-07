@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-IDF",
   "regionName": "Île-de-France",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "i8NHVijwm-j-",
@@ -103,30 +103,6 @@
       "latestPublishedAt": "2026-10-07T10:01:35.000Z"
     },
     {
-      "id": "KZJN5sBzpsik",
-      "representative": {
-        "id": "KZJN5sBzpsik",
-        "url": "https://citoyens.com/2026/sante-mentale-et-pop-culture-le-festival-pop-and-psy-la-joue-hollywood-a-saint-ouen-sur-seine,07-10-2026.html",
-        "canonicalUrl": "https://citoyens.com/2026/sante-mentale-et-pop-culture-le-festival-pop-and-psy-la-joue-hollywood-a-saint-ouen-sur-seine,07-10-2026.html",
-        "title": "Santé mentale et pop culture: le festival Pop and Psy la joue Hollywood à Saint-Ouen-sur-Seine",
-        "description": "Dynamiter les stéréotypes et améliorer l’inclusion des personnes atteintes de troubles psychiques, telle est l’ambition du festival Pop & Psy dont la 5e édition, du 9 au 11 octobre à Saint-Ouen-sur-Seine, célèbre Hollywood et les icônes de la culture pop. Des tables rondes, des débats, des…",
-        "source": {
-          "id": "94citoyens",
-          "name": "94 Citoyens"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T07:59:40.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-IDF"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T07:59:40.000Z"
-    },
-    {
       "id": "ViWx0bQgUC4Q",
       "representative": {
         "id": "ViWx0bQgUC4Q",
@@ -149,30 +125,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T07:00:00.000Z"
-    },
-    {
-      "id": "V3d-B1jG_gi6",
-      "representative": {
-        "id": "V3d-B1jG_gi6",
-        "url": "https://www.ici.fr/ile-de-france/paris-75/paris/gagnez-vos-places-pour-le-concert-ici-live-de-zazie-a-paris-le-21-octobre-6174260?at_medium=lien_RSS&at_locale=68",
-        "canonicalUrl": "https://www.ici.fr/ile-de-france/paris-75/paris/gagnez-vos-places-pour-le-concert-ici-live-de-zazie-a-paris-le-21-octobre-6174260",
-        "title": "Gagnez vos places pour le concert ICI Live de Zazie à Paris le 21 octobre",
-        "description": "ICI Paris Île-de-France est heureuse de vous proposer un rendez-vous musical exceptionnel : le concert ICI Live de Zazie dans le cadre prestigieux du Studio 104 de la Maison de la Radio et de la Musique. Et vous pouvez gagner vos places dès maintenant pour assister à ce concert !",
-        "source": {
-          "id": "ici_paris",
-          "name": "ici Paris Île-de-France"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:46:25.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/bb296219-278c-49e0-a7f0-bc7046cc3e78/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-IDF"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:46:25.000Z"
     },
     {
       "id": "3XrtC06qe4C-",
@@ -319,52 +271,100 @@
       "latestPublishedAt": "2026-10-06T19:20:50.000Z"
     },
     {
-      "id": "C8WcNo88EEfL",
+      "id": "GASDT34oj7EQ",
       "representative": {
-        "id": "C8WcNo88EEfL",
-        "url": "https://www.ici.fr/infos/societe/mobilisation-lyceenne-100-000-manifestants-a-paris-selon-les-organisateurs-56-000-d-apres-le-gouvernement-8416205?at_medium=lien_RSS&at_locale=68",
-        "canonicalUrl": "https://www.ici.fr/infos/societe/mobilisation-lyceenne-100-000-manifestants-a-paris-selon-les-organisateurs-56-000-d-apres-le-gouvernement-8416205",
-        "title": "Mobilisation lycéenne : 100.000 manifestants à Paris selon les organisateurs, 56.000 d'après le gouvernement",
-        "description": "Ce mardi, après plusieurs journées de mobilisation, les lycéens parisiens ont pris part à la grande manifestation reliant République à Nation. Elle a réuni 100.000 manifestants selon les organisateurs, 56.000 d'après le ministère de l'Intérieur.",
+        "id": "GASDT34oj7EQ",
+        "url": "https://www.20minutes.fr/faits_divers/faits-divers-paris/4251852-20261006-paris-soupconne-etre-frotteur-visiteur-tour-eiffel-jure-souffrir-priapisme?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/faits_divers/faits-divers-paris/4251852-20261006-paris-soupconne-etre-frotteur-visiteur-tour-eiffel-jure-souffrir-priapisme",
+        "title": "Paris : Soupçonné d’être un « frotteur », un visiteur de la tour Eiffel jure souffrir de priapisme",
+        "description": "Un touriste saoudien accusé par deux femmes de s’être frotté contre elles dans l’ascenseur de la tour Eiffel. Selon « Le Parisien », il a expliqué aux policiers qu’il souffrait d’une maladie caractérisée par une érection anormale et prolongée",
         "source": {
-          "id": "ici_paris",
-          "name": "ici Paris Île-de-France"
+          "id": "20minutes_paris",
+          "name": "20 Minutes Paris"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T18:31:05.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/188ee3be-7ce4-4eb3-af5f-d0b39ad074ae/920x517?webp=false",
+        "publishedAt": "2026-10-06T13:20:26.000Z",
+        "imageUrl": "https://img.20mn.fr/buzxG3dESXeTeVb2_xMZ4ik/1200x768_la-tour-eiffel-s-eclaire-en-rose-lors-du-lancement-d-octobre-rose-a-paris-ambiance-et-touristes-paris-france-30-09-2026-smithwilliam-08441249-credit-william-smith-sipa-2610010844",
         "countryCode": "FR",
         "regionCode": "FR-IDF"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T18:31:05.000Z"
+      "latestPublishedAt": "2026-10-06T13:20:26.000Z"
     },
     {
-      "id": "fPF-iRrRbPuQ",
+      "id": "oEKPMJsa3xe4",
       "representative": {
-        "id": "fPF-iRrRbPuQ",
-        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/val-d-oise/jeune-de-14-ans-blesse-a-saint-ouen-l-aumone-le-policier-auteur-du-tir-place-en-garde-a-vue-3428991.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/val-d-oise/jeune-de-14-ans-blesse-a-saint-ouen-l-aumone-le-policier-auteur-du-tir-place-en-garde-a-vue-3428991.html",
-        "title": "\"S'il n'est pas mort, c'est parce qu'il a eu beaucoup de chance\", jeune de 14 ans blessé à Saint-Ouen-l'Aumône : le policier, auteur du tir, placé en garde à vue",
-        "description": "Le policier auteur du tir de lance-grenade contre le jeune Eden, âgé de 14 ans, lors d'un blocus devant un lycée à Saint-Ouen-l'Aumône dans le Val d'Oise, vient d'être mis en examen pour violences. L'avocate de la famille d'Eden y voit la reconnaissance de la gravité des faits.",
+        "id": "oEKPMJsa3xe4",
+        "url": "https://www.bfmtv.com/paris/emmanuel-gregoire-maire-de-paris_DN-202603250470.html",
+        "canonicalUrl": "https://www.bfmtv.com/paris/emmanuel-gregoire-maire-de-paris_DN-202603250470.html",
+        "title": "Emmanuel Grégoire, maire de Paris",
+        "description": "Emmanuel Grégoire a été élu maire de Paris en mars 2026 en battant Rachida Dati et Sophia Chikirou au second tour. Avant cette date, il a été le premier adjoint d'Anne Hidalgo et député de la 7e circonscription de Paris sous l'étiquette du Parti socialiste.",
         "source": {
-          "id": "france3_idf",
-          "name": "France 3 Paris Île-de-France"
+          "id": "bfm_paris",
+          "name": "BFM Paris"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T18:03:06.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/KeSnJhNWNszuFsoUubXCZc0JqVg/930x620/filters:format(webp)/regions/2026/10/06/6ac5122c670fe000285252.jpg",
+        "publishedAt": "2026-10-06T10:29:16.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ylq6G3VGdashSdBe1RrNGATITJE=/0x106:2048x1258/800x0/images/Emmanuel-Gregoire-a-Paris-le-22-mars-2026-2257533.jpg",
         "countryCode": "FR",
         "regionCode": "FR-IDF"
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T18:03:06.000Z"
+      "latestPublishedAt": "2026-10-06T10:29:16.000Z"
+    },
+    {
+      "id": "rmD8UnJyTGmQ",
+      "representative": {
+        "id": "rmD8UnJyTGmQ",
+        "url": "https://www.bfmtv.com/paris/colere-lyceenne-emmanuel-gregoire-annonce-ouvrir-les-mairies-pour-que-les-jeunes-puissent-s-organiser-democratiquement_AD-202610060474.html",
+        "canonicalUrl": "https://www.bfmtv.com/paris/colere-lyceenne-emmanuel-gregoire-annonce-ouvrir-les-mairies-pour-que-les-jeunes-puissent-s-organiser-democratiquement_AD-202610060474.html",
+        "title": "Colère lycéenne: Emmanuel Grégoire annonce ouvrir les mairies pour que les jeunes puissent s'\"organiser démocratiquement\"",
+        "description": "Dans une lettre ouverte publiée sur LinkedIn, le maire de Paris Emmanuel Grégoire annonce que la ville proposera au rectorat et à la région \"de réunir autour de la même table les lycéens, les personnels et les parents pour identifier les besoins prioritaires\".",
+        "source": {
+          "id": "bfm_paris",
+          "name": "BFM Paris"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T10:29:15.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/KBfbA0Yne4IR_p9ZOnEwR8ZeMQY=/0x36:768x468/800x0/images/Le-maire-de-Paris-Emmanuel-Gregoire-a-Paris-le-18-mai-2026-2349076.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:29:15.000Z"
+    },
+    {
+      "id": "VcwI0YYAg-Vh",
+      "representative": {
+        "id": "VcwI0YYAg-Vh",
+        "url": "https://www.bfmtv.com/paris/hauts-de-seine/mise-en-scene-repugnante-le-prefet-des-hauts-de-seine-critique-apres-avoir-convoque-les-parents-de-lyceens-en-marge-des-blocus_AN-202610060425.html",
+        "canonicalUrl": "https://www.bfmtv.com/paris/hauts-de-seine/mise-en-scene-repugnante-le-prefet-des-hauts-de-seine-critique-apres-avoir-convoque-les-parents-de-lyceens-en-marge-des-blocus_AN-202610060425.html",
+        "title": "\"Mise en scène répugnante\": le préfet des Hauts-de-Seine critiqué après avoir convoqué les parents de lycéens en marge des blocus",
+        "description": "Plusieurs personnalités politiques et juridiques ont réagi à la convocation de parents d'élèves par le préfet des Hauts-de-Seine, déplorant un cadre légal flou et une mise en scène inappropriée.",
+        "source": {
+          "id": "bfm_paris",
+          "name": "BFM Paris"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T09:38:35.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/hkn5CEYTaijhx2U_B1UgzCPmCXc=/6x111:2038x1254/800x0/images/Alexandre-Brugere-prefet-des-Hauts-de-Seine-a-Nanterre-le-29-juillet-2025-2360164.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:38:35.000Z"
     }
   ]
 }

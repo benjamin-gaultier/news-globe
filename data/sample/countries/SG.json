@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SG",
   "countryName": "Singapore",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "vXNftxRldLTP",
@@ -143,30 +143,6 @@
       "latestPublishedAt": "2026-10-06T12:03:13.000Z"
     },
     {
-      "id": "M79FwJGRHKGW",
-      "representative": {
-        "id": "M79FwJGRHKGW",
-        "url": "https://www.straitstimes.com/singapore/politics/mom-weighs-action-against-firms-that-can-afford-retrenchment-benefits-but-refuse-to-pay-jasmin-lau",
-        "canonicalUrl": "https://www.straitstimes.com/singapore/politics/mom-weighs-action-against-firms-that-can-afford-retrenchment-benefits-but-refuse-to-pay-jasmin-lau",
-        "title": "MOM weighs ‘action’ against firms that can afford retrenchment benefits but refuse to pay: Jasmin Lau",
-        "description": "Most non-payers are smaller firms.",
-        "source": {
-          "id": "straitstimes",
-          "name": "The Straits Times"
-        },
-        "sourceCountry": "SG",
-        "language": "en",
-        "publishedAt": "2026-10-06T11:45:00.000Z",
-        "imageUrl": null,
-        "countryCode": "SG",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:45:00.000Z"
-    },
-    {
       "id": "n4bT2qnPbN43",
       "representative": {
         "id": "n4bT2qnPbN43",
@@ -215,30 +191,6 @@
       "latestPublishedAt": "2026-10-06T10:33:13.000Z"
     },
     {
-      "id": "E5Ubjmk9fTAs",
-      "representative": {
-        "id": "E5Ubjmk9fTAs",
-        "url": "https://www.straitstimes.com/singapore/courts-crime/jail-for-man-who-drove-up-to-221kmh-in-group-joyride-that-ended-in-crash-along-stamford-road",
-        "canonicalUrl": "https://www.straitstimes.com/singapore/courts-crime/jail-for-man-who-drove-up-to-221kmh-in-group-joyride-that-ended-in-crash-along-stamford-road",
-        "title": "Jail for man who drove up to 221kmh in group joyride that ended in crash along Stamford Road",
-        "description": "Goh Jared-Kane was in a group of six drivers whose high-speed joyride on the CTE led to a crash along Stamford Road.",
-        "source": {
-          "id": "straitstimes",
-          "name": "The Straits Times"
-        },
-        "sourceCountry": "SG",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:25:00.000Z",
-        "imageUrl": null,
-        "countryCode": "SG",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:25:00.000Z"
-    },
-    {
       "id": "2kWN1KjVoP94",
       "representative": {
         "id": "2kWN1KjVoP94",
@@ -261,6 +213,102 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:16:06.000Z"
+    },
+    {
+      "id": "PdVIOqoeZNde",
+      "representative": {
+        "id": "PdVIOqoeZNde",
+        "url": "https://www.channelnewsasia.com/singapore/tampines-crash-victim-accident-family-grief-6436016",
+        "canonicalUrl": "https://www.channelnewsasia.com/singapore/tampines-crash-victim-accident-family-grief-6436016",
+        "title": "'No hatred' towards driver, says uncle of Tampines crash victim even as family struggles to heal",
+        "description": "The driver who caused the 2024 Tampines collision that killed his 17-year-old niece has been sentenced, but the family’s grief remains profound, her uncle says.",
+        "source": {
+          "id": "cna",
+          "name": "CNA"
+        },
+        "sourceCountry": "SG",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:50:55.000Z",
+        "imageUrl": "https://dam.mediacorp.sg/image/upload/s--jbF5uxdu--/c_crop,h_900,w_1600,x_0,y_44/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2024/04/22/dsc02372_1.jpg?itok=CiF92d9P",
+        "countryCode": "SG",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:50:55.000Z"
+    },
+    {
+      "id": "SpAlhkTWpsfk",
+      "representative": {
+        "id": "SpAlhkTWpsfk",
+        "url": "https://theindependent.sg/food-court-fight-between-two-men-leaves-them-in-the-hospital-dispute-began-online-2-years-ago",
+        "canonicalUrl": "https://theindependent.sg/food-court-fight-between-two-men-leaves-them-in-the-hospital-dispute-began-online-2-years-ago",
+        "title": "Food-court fight between two men leaves them in the hospital, dispute began online 2 years ago",
+        "description": "SINGAPORE: Two men met at a food court in Woodlands Avenue last Saturday, Oct 3, and their meet-up turned sour as they were seen fighting and both sought medical attention. According to case details, the two men, a 64-year-old and a 55-year-old, had a feud online two years ago, and when they saw…",
+        "source": {
+          "id": "independent_sg",
+          "name": "The Independent Singapore"
+        },
+        "sourceCountry": "SG",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:00:13.000Z",
+        "imageUrl": "https://sgp1.digitaloceanspaces.com/theindependentsg/uploads/2026/10/8c6eedbc-969d-4f29-86c5-e3a6dc0e3020-large.webp",
+        "countryCode": "SG",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:00:13.000Z"
+    },
+    {
+      "id": "M79FwJGRHKGW",
+      "representative": {
+        "id": "M79FwJGRHKGW",
+        "url": "https://www.straitstimes.com/singapore/politics/mom-weighs-action-against-firms-that-can-afford-retrenchment-benefits-but-refuse-to-pay-jasmin-lau",
+        "canonicalUrl": "https://www.straitstimes.com/singapore/politics/mom-weighs-action-against-firms-that-can-afford-retrenchment-benefits-but-refuse-to-pay-jasmin-lau",
+        "title": "MOM weighs ‘action’ against firms that can afford retrenchment benefits but refuse to pay: Jasmin Lau",
+        "description": "Most non-payers are smaller firms.",
+        "source": {
+          "id": "straitstimes",
+          "name": "The Straits Times"
+        },
+        "sourceCountry": "SG",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:45:00.000Z",
+        "imageUrl": null,
+        "countryCode": "SG",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:45:00.000Z"
+    },
+    {
+      "id": "E5Ubjmk9fTAs",
+      "representative": {
+        "id": "E5Ubjmk9fTAs",
+        "url": "https://www.straitstimes.com/singapore/courts-crime/jail-for-man-who-drove-up-to-221kmh-in-group-joyride-that-ended-in-crash-along-stamford-road",
+        "canonicalUrl": "https://www.straitstimes.com/singapore/courts-crime/jail-for-man-who-drove-up-to-221kmh-in-group-joyride-that-ended-in-crash-along-stamford-road",
+        "title": "Jail for man who drove up to 221kmh in group joyride that ended in crash along Stamford Road",
+        "description": "Goh Jared-Kane was in a group of six drivers whose high-speed joyride on the CTE led to a crash along Stamford Road.",
+        "source": {
+          "id": "straitstimes",
+          "name": "The Straits Times"
+        },
+        "sourceCountry": "SG",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:25:00.000Z",
+        "imageUrl": null,
+        "countryCode": "SG",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:25:00.000Z"
     },
     {
       "id": "_jVkxqzuLoP5",
@@ -311,30 +359,6 @@
       "latestPublishedAt": "2026-10-06T10:00:00.000Z"
     },
     {
-      "id": "PdVIOqoeZNde",
-      "representative": {
-        "id": "PdVIOqoeZNde",
-        "url": "https://www.channelnewsasia.com/singapore/tampines-crash-victim-accident-family-grief-6436016",
-        "canonicalUrl": "https://www.channelnewsasia.com/singapore/tampines-crash-victim-accident-family-grief-6436016",
-        "title": "'No hatred' towards driver, says uncle of Tampines crash victim even as family struggles to heal",
-        "description": "The driver who caused the 2024 Tampines collision that killed his 17-year-old niece has been sentenced, but the family’s grief remains profound, her uncle says.",
-        "source": {
-          "id": "cna",
-          "name": "CNA"
-        },
-        "sourceCountry": "SG",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:50:55.000Z",
-        "imageUrl": "https://dam.mediacorp.sg/image/upload/s--jbF5uxdu--/c_crop,h_900,w_1600,x_0,y_44/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2024/04/22/dsc02372_1.jpg?itok=CiF92d9P",
-        "countryCode": "SG",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:50:55.000Z"
-    },
-    {
       "id": "axFNgv5ulklG",
       "representative": {
         "id": "axFNgv5ulklG",
@@ -357,30 +381,6 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:32:10.000Z"
-    },
-    {
-      "id": "q8g0DRuBNE1R",
-      "representative": {
-        "id": "q8g0DRuBNE1R",
-        "url": "https://www.channelnewsasia.com/singapore/retrenchments-jobs-fresh-graduates-labour-market-6435696",
-        "canonicalUrl": "https://www.channelnewsasia.com/singapore/retrenchments-jobs-fresh-graduates-labour-market-6435696",
-        "title": "Fresh grads taking longer to secure jobs, retrenched workers finding it harder to land new jobs: Jasmin Lau",
-        "description": "The decline in the re-entry rate was most pronounced among clerical, sales and service workers, tertiary-educated residents and those aged below 30.",
-        "source": {
-          "id": "cna",
-          "name": "CNA"
-        },
-        "sourceCountry": "SG",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:07:00.000Z",
-        "imageUrl": "https://dam.mediacorp.sg/image/upload/s--QgBfgJRq--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/09/21/20260921-jk-cbd_workers_generics-05.jpg?itok=gOipmdMK",
-        "countryCode": "SG",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:07:00.000Z"
     }
   ]
 }

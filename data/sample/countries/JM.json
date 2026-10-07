@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "JM",
   "countryName": "Jamaica",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "0kLGYmHrgeEp",
@@ -75,6 +75,150 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:45:30.000Z"
+    },
+    {
+      "id": "W9__JF2QDkxt",
+      "representative": {
+        "id": "W9__JF2QDkxt",
+        "url": "http://jamaica-gleaner.com/article/news/20261006/confession-under-scrutiny-pathways-trial",
+        "canonicalUrl": "http://jamaica-gleaner.com/article/news/20261006/confession-under-scrutiny-pathways-trial",
+        "title": "Confession under scrutiny in Pathways trial",
+        "description": "The evidentiary phase of the Pathways murder trial is currently on pause as Justice Leighton Pusey considers whether to admit a caution statement containing a reported confession by accused Andre Ruddock. A voir dire, or trial within a trial, began on Monday in the Home Circuit Court after…",
+        "source": {
+          "id": "gleaner",
+          "name": "The Gleaner"
+        },
+        "sourceCountry": "JM",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:07:56.000Z",
+        "imageUrl": null,
+        "countryCode": "JM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T05:07:56.000Z"
+    },
+    {
+      "id": "OPF2MVYwuWoh",
+      "representative": {
+        "id": "OPF2MVYwuWoh",
+        "url": "http://jamaica-gleaner.com/article/news/20261006/doctors-pay-fight-ends-major-win",
+        "canonicalUrl": "http://jamaica-gleaner.com/article/news/20261006/doctors-pay-fight-ends-major-win",
+        "title": "Doctors’ pay fight ends in major win",
+        "description": "Following the Industrial Disputes Tribunal’s landmark ruling in favour of doctors in their long-running allowances dispute with the State, senior trade unionist Lambert Brown says the medical practitioners are ready to meet with the Government to implement the award. In a quick response on Monday…",
+        "source": {
+          "id": "gleaner",
+          "name": "The Gleaner"
+        },
+        "sourceCountry": "JM",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:07:55.000Z",
+        "imageUrl": null,
+        "countryCode": "JM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T05:07:55.000Z"
+    },
+    {
+      "id": "k0t5egNtQ5fS",
+      "representative": {
+        "id": "k0t5egNtQ5fS",
+        "url": "http://jamaica-gleaner.com/article/news/20261006/jcf-freed-fatal-run-court-tosses-fathers-negligence-case-after-son-collapsed",
+        "canonicalUrl": "http://jamaica-gleaner.com/article/news/20261006/jcf-freed-fatal-run-court-tosses-fathers-negligence-case-after-son-collapsed",
+        "title": "JCF FREED IN FATAL RUN - Court tosses father’s negligence case after son collapsed, died during recruitment test",
+        "description": "A father has lost his negligence claim against the State over the death of his son, who collapsed during a physical assessment for recruitment to the Jamaica Constabulary Force (JCF) five years ago. Supreme Court Justice Sonya Wint-Blair dismissed the claim, finding that the evidence did not prove…",
+        "source": {
+          "id": "gleaner",
+          "name": "The Gleaner"
+        },
+        "sourceCountry": "JM",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:07:53.000Z",
+        "imageUrl": null,
+        "countryCode": "JM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T05:07:53.000Z"
+    },
+    {
+      "id": "Q_YRRkaDhKIu",
+      "representative": {
+        "id": "Q_YRRkaDhKIu",
+        "url": "https://nationwideradiojm.com/wanted-man-fatally-shot-by-police-in-christiana/",
+        "canonicalUrl": "https://nationwideradiojm.com/wanted-man-fatally-shot-by-police-in-christiana/",
+        "title": "Wanted man fatally shot by police in Christiana",
+        "description": "A man the police say was wanted for murder was fatally shot on Wildman Street in Christiana, Manchester on Monday. He has so far only been identified by his alias ‘Richie.’ Reports are that police acting on intelligence went to a bar on Wildman Street about 3:15pm in search of a murder suspect…",
+        "source": {
+          "id": "nationwide_jm",
+          "name": "Nationwide News Network"
+        },
+        "sourceCountry": "JM",
+        "language": "en",
+        "publishedAt": "2026-10-06T00:49:59.000Z",
+        "imageUrl": null,
+        "countryCode": "JM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T00:49:59.000Z"
+    },
+    {
+      "id": "gJVYFSGCMZU9",
+      "representative": {
+        "id": "gJVYFSGCMZU9",
+        "url": "https://nationwideradiojm.com/olise-inspires-france-comeback-with-brace-in-4-1-nations-league-win/",
+        "canonicalUrl": "https://nationwideradiojm.com/olise-inspires-france-comeback-with-brace-in-4-1-nations-league-win/",
+        "title": "Olise inspires France comeback with brace in 4-1 Nations League Win",
+        "description": "Michael Olise came off the bench to score two second half goals as former World Champions France came from behind to beat Belgium 4-1 in their European Nations League game at the Stade de France on Monday. Olise bagged the last two French goals, after fellow substitutes, Ryan Cherki and Desire…",
+        "source": {
+          "id": "nationwide_jm",
+          "name": "Nationwide News Network"
+        },
+        "sourceCountry": "JM",
+        "language": "en",
+        "publishedAt": "2026-10-06T00:33:38.000Z",
+        "imageUrl": null,
+        "countryCode": "JM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T00:33:38.000Z"
+    },
+    {
+      "id": "O1Hp-iIC2BW5",
+      "representative": {
+        "id": "O1Hp-iIC2BW5",
+        "url": "https://nationwideradiojm.com/govt-revenue-down-31b-in-first-five-months-of-fiscal-year/",
+        "canonicalUrl": "https://nationwideradiojm.com/govt-revenue-down-31b-in-first-five-months-of-fiscal-year/",
+        "title": "Gov’t revenue down $31B in first five months of fiscal year",
+        "description": "Government revenue fell more than $31 billion short of budget in the first five months of the fiscal year. But spending came in even further below projections, keeping the fiscal deficit slightly under target. Robian Williams tells us more. Provisional data from the Ministry of Finance and the…",
+        "source": {
+          "id": "nationwide_jm",
+          "name": "Nationwide News Network"
+        },
+        "sourceCountry": "JM",
+        "language": "en",
+        "publishedAt": "2026-10-06T00:28:54.000Z",
+        "imageUrl": null,
+        "countryCode": "JM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T00:28:54.000Z"
     },
     {
       "id": "32LPzYegiXhx",
@@ -219,168 +363,6 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T05:15:40.000Z"
-    },
-    {
-      "id": "i_blda2snXgg",
-      "representative": {
-        "id": "i_blda2snXgg",
-        "url": "https://www.jamaicaobserver.com/2026/10/06/for-our-boys-20261006-0952-513476/",
-        "canonicalUrl": "https://www.jamaicaobserver.com/2026/10/06/for-our-boys-20261006-0952-513476/",
-        "title": "For our boys",
-        "description": null,
-        "source": {
-          "id": "jamaicaobserver",
-          "name": "Jamaica Observer"
-        },
-        "sourceCountry": "JM",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:14:15.000Z",
-        "imageUrl": "https://www.jamaicaobserver.com/jamaicaobserver/news/wp-content/uploads/sites/4/2026/10/drive.jpg",
-        "countryCode": "JM",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T05:14:15.000Z"
-    },
-    {
-      "id": "5vEdS4wi77EM",
-      "representative": {
-        "id": "5vEdS4wi77EM",
-        "url": "https://www.jamaicaobserver.com/2026/10/06/trusting-the-data/",
-        "canonicalUrl": "https://www.jamaicaobserver.com/2026/10/06/trusting-the-data/",
-        "title": "TRUSTING THE DATA",
-        "description": null,
-        "source": {
-          "id": "jamaicaobserver",
-          "name": "Jamaica Observer"
-        },
-        "sourceCountry": "JM",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:13:34.000Z",
-        "imageUrl": "https://www.jamaicaobserver.com/jamaicaobserver/news/wp-content/uploads/sites/4/2026/10/data.jpg",
-        "countryCode": "JM",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T05:13:34.000Z"
-    },
-    {
-      "id": "FHpp8EtrZOev",
-      "representative": {
-        "id": "FHpp8EtrZOev",
-        "url": "https://www.jamaicaobserver.com/2026/10/06/messi-readies-final-farewell-argentina-send-off-20261006-1331-196229/",
-        "canonicalUrl": "https://www.jamaicaobserver.com/2026/10/06/messi-readies-final-farewell-argentina-send-off-20261006-1331-196229/",
-        "title": "Messi readies for final farewell in Argentina send-off",
-        "description": null,
-        "source": {
-          "id": "jamaicaobserver",
-          "name": "Jamaica Observer"
-        },
-        "sourceCountry": "JM",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:12:01.000Z",
-        "imageUrl": "https://www.jamaicaobserver.com/jamaicaobserver/news/wp-content/uploads/sites/4/2026/10/messi.jpg",
-        "countryCode": "JM",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T05:12:01.000Z"
-    },
-    {
-      "id": "dPpwHXBkLii2",
-      "representative": {
-        "id": "dPpwHXBkLii2",
-        "url": "https://www.jamaicaobserver.com/2026/10/06/brathwaite-guides-west-indies-women-t20-series-win/",
-        "canonicalUrl": "https://www.jamaicaobserver.com/2026/10/06/brathwaite-guides-west-indies-women-t20-series-win/",
-        "title": "Brathwaite guides West Indies Women to T20 series win",
-        "description": null,
-        "source": {
-          "id": "jamaicaobserver",
-          "name": "Jamaica Observer"
-        },
-        "sourceCountry": "JM",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:11:54.000Z",
-        "imageUrl": "https://www.jamaicaobserver.com/jamaicaobserver/news/wp-content/uploads/sites/4/2026/10/eboni.jpg",
-        "countryCode": "JM",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "C78m-2mXQhAX",
-          "url": "https://nationwideradiojm.com/west-indies-women-crush-zimbabwe-to-seal-t20i-series/",
-          "canonicalUrl": "https://nationwideradiojm.com/west-indies-women-crush-zimbabwe-to-seal-t20i-series/",
-          "title": "West Indies Women crush Zimbabwe to seal T20I series",
-          "description": "The West Indies Women secured an unassailable 2-0 lead in the three-match T20 International series after beating Zimbabwe by eight wickets at Takashinga Sports Club, on Monday. Batting first, Zimbabwe struggled to build momentum and finished on 106 for seven from their allotted 20 overs. Beloved…",
-          "source": {
-            "id": "nationwide_jm",
-            "name": "Nationwide News Network"
-          },
-          "sourceCountry": "JM",
-          "language": "en",
-          "publishedAt": "2026-10-06T00:40:10.000Z",
-          "imageUrl": null,
-          "countryCode": "JM",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 0,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T05:11:54.000Z"
-    },
-    {
-      "id": "afBbGKAA5HW6",
-      "representative": {
-        "id": "afBbGKAA5HW6",
-        "url": "https://www.jamaicaobserver.com/2026/10/06/chance-rides-prove-decisive-saturday-card/",
-        "canonicalUrl": "https://www.jamaicaobserver.com/2026/10/06/chance-rides-prove-decisive-saturday-card/",
-        "title": "Chance rides prove decisive on Saturday card",
-        "description": null,
-        "source": {
-          "id": "jamaicaobserver",
-          "name": "Jamaica Observer"
-        },
-        "sourceCountry": "JM",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:10:51.000Z",
-        "imageUrl": "https://www.jamaicaobserver.com/jamaicaobserver/news/wp-content/uploads/sites/4/2026/10/chance.jpg",
-        "countryCode": "JM",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T05:10:51.000Z"
-    },
-    {
-      "id": "W9__JF2QDkxt",
-      "representative": {
-        "id": "W9__JF2QDkxt",
-        "url": "http://jamaica-gleaner.com/article/news/20261006/confession-under-scrutiny-pathways-trial",
-        "canonicalUrl": "http://jamaica-gleaner.com/article/news/20261006/confession-under-scrutiny-pathways-trial",
-        "title": "Confession under scrutiny in Pathways trial",
-        "description": "The evidentiary phase of the Pathways murder trial is currently on pause as Justice Leighton Pusey considers whether to admit a caution statement containing a reported confession by accused Andre Ruddock. A voir dire, or trial within a trial, began on Monday in the Home Circuit Court after…",
-        "source": {
-          "id": "gleaner",
-          "name": "The Gleaner"
-        },
-        "sourceCountry": "JM",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:07:56.000Z",
-        "imageUrl": null,
-        "countryCode": "JM",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T05:07:56.000Z"
     }
   ]
 }

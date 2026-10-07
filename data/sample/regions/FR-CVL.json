@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-CVL",
   "regionName": "Centre-Val de Loire",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "UX8azoCjxWCd",
@@ -103,54 +103,6 @@
       "latestPublishedAt": "2026-10-06T16:11:32.000Z"
     },
     {
-      "id": "_k70uVgnqxv6",
-      "representative": {
-        "id": "_k70uVgnqxv6",
-        "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre-loire/tours/je-suis-enseignant-a-l-universite-de-tours-depuis-25-ans-et-c-est-la-premiere-fois-que-cela-arrive-les-personnels-affichent-leur-solidarite-avec-le-mouvement-lyceen-3428883.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre-loire/tours/je-suis-enseignant-a-l-universite-de-tours-depuis-25-ans-et-c-est-la-premiere-fois-que-cela-arrive-les-personnels-affichent-leur-solidarite-avec-le-mouvement-lyceen-3428883.html",
-        "title": "\"Je suis enseignant à l'université de Tours depuis 25 ans et c'est la première fois que cela arrive\" : les personnels affichent leur solidarité avec le mouvement lycéen",
-        "description": "Puisque les principaux sites d'enseignement ont été fermés par le président de l'université de Tours, les personnels ont organisé une AG en plein air dans la matinée du 6 octobre, devant la faculté des Tanneurs. Ils expriment leur \"soutien total\" aux revendications portées par les lycéens et…",
-        "source": {
-          "id": "france3_cvl",
-          "name": "France 3 Centre-Val de Loire"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:53:54.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/DGRenDH_hJHOMFSGraUNc84shmc/930x620/filters:format(webp)/regions/2026/10/06/6ac513ab3a61e866532128.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-CVL"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:53:54.000Z"
-    },
-    {
-      "id": "VzRXvvGB0rLQ",
-      "representative": {
-        "id": "VzRXvvGB0rLQ",
-        "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/precarite-menstruelle-comment-beneficier-du-remboursement-des-protections-periodiques-reutilisables-3428379.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/centre-val-de-loire/precarite-menstruelle-comment-beneficier-du-remboursement-des-protections-periodiques-reutilisables-3428379.html",
-        "title": "Précarité menstruelle : comment bénéficier du remboursement des protections périodiques réutilisables",
-        "description": "Culottes et coupes menstruelles, le remboursement de certaines protections périodiques est entré en vigueur le 1er octobre 2026. Une satisfaction pour les associations luttant contre la précarité menstruelle. On vous explique qui peut en bénéficier et comment.",
-        "source": {
-          "id": "france3_cvl",
-          "name": "France 3 Centre-Val de Loire"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:23:54.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/3ShSR1z3sEkgsZqQBdRZ8CljTAI/930x620/filters:format(webp)/regions/2026/10/06/6ac4cba5ce0bd715643998.png",
-        "countryCode": "FR",
-        "regionCode": "FR-CVL"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:23:54.000Z"
-    },
-    {
       "id": "vZEHWgub7Sfc",
       "representative": {
         "id": "vZEHWgub7Sfc",
@@ -197,6 +149,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:51:43.000Z"
+    },
+    {
+      "id": "_k70uVgnqxv6",
+      "representative": {
+        "id": "_k70uVgnqxv6",
+        "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre-loire/tours/je-suis-enseignant-a-l-universite-de-tours-depuis-25-ans-et-c-est-la-premiere-fois-que-cela-arrive-les-personnels-affichent-leur-solidarite-avec-le-mouvement-lyceen-3428883.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre-loire/tours/je-suis-enseignant-a-l-universite-de-tours-depuis-25-ans-et-c-est-la-premiere-fois-que-cela-arrive-les-personnels-affichent-leur-solidarite-avec-le-mouvement-lyceen-3428883.html",
+        "title": "\"Je suis enseignant à l'université de Tours depuis 25 ans et c'est la première fois que cela arrive\" : les personnels affichent leur solidarité avec le mouvement lycéen",
+        "description": "Puisque les principaux sites d'enseignement ont été fermés par le président de l'université de Tours, les personnels ont organisé une AG en plein air dans la matinée du 6 octobre, devant la faculté des Tanneurs. Ils expriment leur \"soutien total\" aux revendications portées par les lycéens et…",
+        "source": {
+          "id": "france3_cvl",
+          "name": "France 3 Centre-Val de Loire"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:53:54.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/DGRenDH_hJHOMFSGraUNc84shmc/930x620/filters:format(webp)/regions/2026/10/06/6ac513ab3a61e866532128.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-CVL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:53:54.000Z"
+    },
+    {
+      "id": "VzRXvvGB0rLQ",
+      "representative": {
+        "id": "VzRXvvGB0rLQ",
+        "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/precarite-menstruelle-comment-beneficier-du-remboursement-des-protections-periodiques-reutilisables-3428379.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/centre-val-de-loire/precarite-menstruelle-comment-beneficier-du-remboursement-des-protections-periodiques-reutilisables-3428379.html",
+        "title": "Précarité menstruelle : comment bénéficier du remboursement des protections périodiques réutilisables",
+        "description": "Culottes et coupes menstruelles, le remboursement de certaines protections périodiques est entré en vigueur le 1er octobre 2026. Une satisfaction pour les associations luttant contre la précarité menstruelle. On vous explique qui peut en bénéficier et comment.",
+        "source": {
+          "id": "france3_cvl",
+          "name": "France 3 Centre-Val de Loire"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:23:54.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/3ShSR1z3sEkgsZqQBdRZ8CljTAI/930x620/filters:format(webp)/regions/2026/10/06/6ac4cba5ce0bd715643998.png",
+        "countryCode": "FR",
+        "regionCode": "FR-CVL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:23:54.000Z"
     },
     {
       "id": "9vrkpy9mpjK7",

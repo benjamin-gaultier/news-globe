@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "EC",
   "countryName": "Ecuador",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "VQbkK47a2pYd",
@@ -143,30 +143,6 @@
       "latestPublishedAt": "2026-10-06T14:25:08.000Z"
     },
     {
-      "id": "_3FJeNDqlY9i",
-      "representative": {
-        "id": "_3FJeNDqlY9i",
-        "url": "https://eluniverso.com/politica/seguridad/cte-dejara-sede-actual-y-se-cambiara-al-edificio-donde-opero-el-consulado-americano-nota/",
-        "canonicalUrl": "https://eluniverso.com/politica/seguridad/cte-dejara-sede-actual-y-se-cambiara-al-edificio-donde-opero-el-consulado-americano-nota/",
-        "title": "CTE dejará sede actual y se cambiará al edificio donde operó el consulado americano",
-        "description": "Con el traslado se permitirá que los funcionarios trabajen en instalaciones con mejores condiciones de seguridad y estructura.",
-        "source": {
-          "id": "eluniverso",
-          "name": "El Universo"
-        },
-        "sourceCountry": "EC",
-        "language": "es",
-        "publishedAt": "2026-10-06T14:25:00.000Z",
-        "imageUrl": "https://eluniverso.com/resizer/cbg5boVhXakmB8FpwKpxl8SHXDM=/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/K65RFHB5GJGHPPPEBISO3GEWBY.jpg",
-        "countryCode": "EC",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:25:00.000Z"
-    },
-    {
       "id": "aizuvH6hSO7u",
       "representative": {
         "id": "aizuvH6hSO7u",
@@ -213,6 +189,102 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:19:35.000Z"
+    },
+    {
+      "id": "kVzSRduWyB48",
+      "representative": {
+        "id": "kVzSRduWyB48",
+        "url": "https://elmercurio.com.ec/deportes/2026/10/06/santiago-sanchez-independiente-juniors/",
+        "canonicalUrl": "https://elmercurio.com.ec/deportes/2026/10/06/santiago-sanchez-independiente-juniors/",
+        "title": "Santiago Sánchez, el cuencano que destaca en Independiente Juniors",
+        "description": "El extremo cuencano de 20 años, Santiago Sánchez, ofreció declaraciones sobre su actualidad profesional y sus metas en la LigaPro Serie B. Además, habló sobre su experiencia vistiendo la camiseta de Independiente Juniors. El joven atacante inició su proceso formativo en Gualaceo SC. Desde allí…",
+        "source": {
+          "id": "elmercurio_ec",
+          "name": "El Mercurio"
+        },
+        "sourceCountry": "EC",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:59:50.000Z",
+        "imageUrl": null,
+        "countryCode": "EC",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:59:50.000Z"
+    },
+    {
+      "id": "diOILs_GLeeE",
+      "representative": {
+        "id": "diOILs_GLeeE",
+        "url": "https://elmercurio.com.ec/cuenca/2026/10/06/ciclo-cine-artesanias-cultura-popular-cuenca-paute-2026/",
+        "canonicalUrl": "https://elmercurio.com.ec/cuenca/2026/10/06/ciclo-cine-artesanias-cultura-popular-cuenca-paute-2026/",
+        "title": "Cine sobre artesanías y cultura popular llega a Cuenca y Paute: agenda completa",
+        "description": "El XIII Ciclo Internacional de Cine sobre Artesanías y Cultura Popular se desarrollará del 21 al 23 de octubre de 2026 en Cuenca y Paute, como parte de la programación previa al XXIV Festival de Artesanías de América (FAAM 2026). La agenda reúne documentales, ficción y animación de Ecuador, Perú…",
+        "source": {
+          "id": "elmercurio_ec",
+          "name": "El Mercurio"
+        },
+        "sourceCountry": "EC",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "EC",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:00:00.000Z"
+    },
+    {
+      "id": "pwk5kJHmHZcP",
+      "representative": {
+        "id": "pwk5kJHmHZcP",
+        "url": "https://elmercurio.com.ec/deportes/2026/10/06/nuevas-caras-ecuador-tri-partidos-gallardo/",
+        "canonicalUrl": "https://elmercurio.com.ec/deportes/2026/10/06/nuevas-caras-ecuador-tri-partidos-gallardo/",
+        "title": "Marcelo Gallardo encontró nuevas cartas para la Tri",
+        "description": "La primera gira de Marcelo Gallardo al frente de Ecuador también dejó nombres propios. En medio de los tres partidos disputados en Asia, el entrenador abrió espacio para jugadores que buscaban una oportunidad y varios respondieron. Juan Riquelme Angulo aparece como el caso más evidente. El…",
+        "source": {
+          "id": "elmercurio_ec",
+          "name": "El Mercurio"
+        },
+        "sourceCountry": "EC",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:21:00.000Z",
+        "imageUrl": null,
+        "countryCode": "EC",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:21:00.000Z"
+    },
+    {
+      "id": "_3FJeNDqlY9i",
+      "representative": {
+        "id": "_3FJeNDqlY9i",
+        "url": "https://eluniverso.com/politica/seguridad/cte-dejara-sede-actual-y-se-cambiara-al-edificio-donde-opero-el-consulado-americano-nota/",
+        "canonicalUrl": "https://eluniverso.com/politica/seguridad/cte-dejara-sede-actual-y-se-cambiara-al-edificio-donde-opero-el-consulado-americano-nota/",
+        "title": "CTE dejará sede actual y se cambiará al edificio donde operó el consulado americano",
+        "description": "Con el traslado se permitirá que los funcionarios trabajen en instalaciones con mejores condiciones de seguridad y estructura.",
+        "source": {
+          "id": "eluniverso",
+          "name": "El Universo"
+        },
+        "sourceCountry": "EC",
+        "language": "es",
+        "publishedAt": "2026-10-06T14:25:00.000Z",
+        "imageUrl": "https://eluniverso.com/resizer/cbg5boVhXakmB8FpwKpxl8SHXDM=/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/K65RFHB5GJGHPPPEBISO3GEWBY.jpg",
+        "countryCode": "EC",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:25:00.000Z"
     },
     {
       "id": "n4C7xTghJ1Pw",
@@ -309,78 +381,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:00:00.000Z"
-    },
-    {
-      "id": "MRKgKbOCRm_A",
-      "representative": {
-        "id": "MRKgKbOCRm_A",
-        "url": "https://eluniverso.com/comunidad/quito/de-el-labrador-a-quitopia-la-lluvia-desnuda-las-vulnerabilidades-del-drenaje-y-prevencion-de-quito-nota/",
-        "canonicalUrl": "https://eluniverso.com/comunidad/quito/de-el-labrador-a-quitopia-la-lluvia-desnuda-las-vulnerabilidades-del-drenaje-y-prevencion-de-quito-nota/",
-        "title": "De El Labrador a Quitopía: la lluvia desnuda las vulnerabilidades del drenaje y prevención de Quito",
-        "description": "Según el Municipio, las inundaciones en Metro y Quitopía no dejaron afectaciones económicas.",
-        "source": {
-          "id": "eluniverso",
-          "name": "El Universo"
-        },
-        "sourceCountry": "EC",
-        "language": "es",
-        "publishedAt": "2026-10-06T14:00:00.000Z",
-        "imageUrl": "https://eluniverso.com/resizer/k0_gD1lxHr_YT-7bVVaSDThFuRc=/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/IO6XO5HGORDAXGILSWNVTNZHYY.jpg",
-        "countryCode": "EC",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:00:00.000Z"
-    },
-    {
-      "id": "z-iHezpJ0CiR",
-      "representative": {
-        "id": "z-iHezpJ0CiR",
-        "url": "https://eluniverso.com/opinion/cartas-al-director/guayaquil-motor-del-ecuador-nota/",
-        "canonicalUrl": "https://eluniverso.com/opinion/cartas-al-director/guayaquil-motor-del-ecuador-nota/",
-        "title": "Guayaquil, motor del Ecuador",
-        "description": "Guayaquil abandera su trayectoria, con base en sus raíces de ser una ciudad de comercio y de servicios, siendo también un gran centro de logística...",
-        "source": {
-          "id": "eluniverso",
-          "name": "El Universo"
-        },
-        "sourceCountry": "EC",
-        "language": "es",
-        "publishedAt": "2026-10-06T14:00:00.000Z",
-        "imageUrl": "https://eluniverso.com/resizer/19y14NzvKZ-5fo3w2WhskGD6yi0=/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/HESQN5CBVNBGPFPXM7C4HUZBQU.jpg",
-        "countryCode": "EC",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:00:00.000Z"
-    },
-    {
-      "id": "oFqe1NjCSFf3",
-      "representative": {
-        "id": "oFqe1NjCSFf3",
-        "url": "https://www.elcomercio.com/actualidad/seguridad/un-patrullero-de-segura-ep-fue-atacado-a-tiros-en-el-sur-de-guayaquil/",
-        "canonicalUrl": "https://www.elcomercio.com/actualidad/seguridad/un-patrullero-de-segura-ep-fue-atacado-a-tiros-en-el-sur-de-guayaquil/",
-        "title": "Un patrullero de Segura EP fue atacado a tiros en el sur de Guayaquil",
-        "description": "El violento hecho se registró en la Isla Trinitaria este martes 6 de octubre de 2026.",
-        "source": {
-          "id": "elcomercio_ec",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "EC",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:49:33.000Z",
-        "imageUrl": null,
-        "countryCode": "EC",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:49:33.000Z"
     }
   ]
 }

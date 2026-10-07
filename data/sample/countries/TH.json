@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TH",
   "countryName": "Thailand",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "ae7sl6flmS1L",
@@ -376,54 +376,6 @@
       "latestPublishedAt": "2026-10-06T16:02:47.000Z"
     },
     {
-      "id": "-XF9OROPsI2F",
-      "representative": {
-        "id": "-XF9OROPsI2F",
-        "url": "https://www.matichon.co.th/sport/thai-sport/news_5921453",
-        "canonicalUrl": "https://www.matichon.co.th/sport/thai-sport/news_5921453",
-        "title": "น้ำ พัทยา สวย-เก่ง-โหด ต้อน ติ๊งต่าง ซิวแชมป์พูล 2026",
-        "description": "น้ำ พัทยา สวย-เก่ง-โหด ต้อน ติ๊งต่าง ซิวแชมป์พูล 2026 ก […]",
-        "source": {
-          "id": "matichon",
-          "name": "Matichon"
-        },
-        "sourceCountry": "TH",
-        "language": "th",
-        "publishedAt": "2026-10-06T16:01:32.000Z",
-        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/11484439.jpg",
-        "countryCode": "TH",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:01:32.000Z"
-    },
-    {
-      "id": "H3dotoj1BI8y",
-      "representative": {
-        "id": "H3dotoj1BI8y",
-        "url": "https://www.matichon.co.th/entertainment/thai-entertainment/news_5922019",
-        "canonicalUrl": "https://www.matichon.co.th/entertainment/thai-entertainment/news_5922019",
-        "title": "ปุ้ย-กวินท์ ตัดสินใจยุติสถานะสามี-ภรรยา ยันไม่มีเรื่องมือที่สาม ขอทุกคนมอบความรักให้กวินท์แทนปุ้ยด้วย",
-        "description": "ปุ้ย-กวินท์ ตัดสินใจ ยุติสถานะสามี-ภรรยา เผยย้อนเวลากลั […]",
-        "source": {
-          "id": "matichon",
-          "name": "Matichon"
-        },
-        "sourceCountry": "TH",
-        "language": "th",
-        "publishedAt": "2026-10-06T15:55:05.000Z",
-        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/a32-2.jpg",
-        "countryCode": "TH",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:55:05.000Z"
-    },
-    {
       "id": "b_Q7lkii3guc",
       "representative": {
         "id": "b_Q7lkii3guc",
@@ -470,6 +422,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:44:32.000Z"
+    },
+    {
+      "id": "30IGuxwXleA1",
+      "representative": {
+        "id": "30IGuxwXleA1",
+        "url": "https://www.prachachat.net/biz-movement/news-2077385",
+        "canonicalUrl": "https://www.prachachat.net/biz-movement/news-2077385",
+        "title": "กรมการแพทย์ย้ำดูแลผู้สูงอายุด้วยความเข้าใจ",
+        "description": "กรมการแพทย์ กระทรวงสาธารณสุข ห่วงภาพสะท้อนดูแลผู้สูงอายุผิดวิธี ย้ำพฤติกรรมเปลี่ยนหรือก้าวร้าวอาจเป็นสัญญาณเจ็บป่วยที่ต้องดูแลด้วยความเข้าใจ จากกรณีข่าวสะเทือนใจในสังคมออนไลน์เกี่ยวกับสภาพของศูนย์ดูแลผู้สูงอายุบางแห่งที่มีการติดตั้งลูกกรงเหล็กครอบเตี … อ่านข่าวต้นฉบับ…",
+        "source": {
+          "id": "prachachat",
+          "name": "Prachachat"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T15:16:26.000Z",
+        "imageUrl": "https://www.prachachat.net/wp-content/uploads/2026/10/Face-new-ver-copy-15.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:16:26.000Z"
+    },
+    {
+      "id": "dSPvJAc0pjJP",
+      "representative": {
+        "id": "dSPvJAc0pjJP",
+        "url": "https://www.thairath.co.th/news/local/2964589",
+        "canonicalUrl": "https://www.thairath.co.th/news/local/2964589",
+        "title": "บุรีรัมย์ งงทั้งวัด รถกระบะจอดดับเครื่อง จู่ๆ สตาร์ทเองพุ่งขึ้นบันได 7 ขั้นชนกุฏิพระ",
+        "description": "บุรีรัมย์ ชาวบ้านวอนผู้รู้ช่วยไขคำตอบให้หายข้องใจ รถกระบะไร้คนขับ-จอดดับเครื่อง แต่ จู่ๆ กลับสตาร์ทขึ้นเองก่อนพุ่งขึ้นบันได 7 ขั้นชนกุฏิพระได้รับความเสียหาย",
+        "source": {
+          "id": "thairath",
+          "name": "Thairath"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T15:14:45.000Z",
+        "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2FDsZU74ewGTTy.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:14:45.000Z"
     }
   ]
 }

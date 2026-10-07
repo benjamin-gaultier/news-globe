@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-GES",
   "regionName": "Grand Est",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "P2khA2RVF086",
@@ -203,78 +203,6 @@
       "latestPublishedAt": "2026-10-07T06:00:00.000Z"
     },
     {
-      "id": "0TQv8sqfynCI",
-      "representative": {
-        "id": "0TQv8sqfynCI",
-        "url": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-lorraine-meurthe-et-moselle-et-vosges/c-est-un-choix-politique-la-fcpe-espere-des-moyens-pour-l-education-nationale-apres-la-mobilisation-des-lyceens-9810172?at_medium=lien_RSS&at_locale=33",
-        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-lorraine-meurthe-et-moselle-et-vosges/c-est-un-choix-politique-la-fcpe-espere-des-moyens-pour-l-education-nationale-apres-la-mobilisation-des-lyceens-9810172",
-        "title": "\"C'est un choix politique\" la FCPE espère des moyens pour l'éducation nationale après la mobilisation des lycéens",
-        "description": "Des parents d'élèves ont rejoint élèves et enseignants dans les cortèges ce mardi 6 octobre pour une nouvelle journée de mobilisation. Mustafa Ozcelik vice-président de la FCPE des Vosges et porte-parole national de l'association de parents d'élèves était l'invité d'ICI Lorraine.",
-        "source": {
-          "id": "ici_ges",
-          "name": "ici Alsace, Lorraine, Champagne-Ardenne"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:45:00.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/72153cae-c064-4c26-872d-b81598b47717/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:45:00.000Z"
-    },
-    {
-      "id": "V3HoijBwPLmi",
-      "representative": {
-        "id": "V3HoijBwPLmi",
-        "url": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-alsace/quel-bilan-apres-six-mois-de-mandat-pour-les-nouveaux-maires-frederic-marquet-maire-de-mulhouse-2957948?at_medium=lien_RSS&at_locale=12",
-        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-alsace/quel-bilan-apres-six-mois-de-mandat-pour-les-nouveaux-maires-frederic-marquet-maire-de-mulhouse-2957948",
-        "title": "Quel bilan après six mois de mandat pour les nouveaux maires ? Frédéric Marquet, maire de Mulhouse",
-        "description": "Après six mois de mandat, le nouveau maire de Mulhouse Frédéric Marquet a accepté de faire un bilan de ses premiers mois de bilan sur ICI Alsace ce mercredi 7 octobre. Transports, budget, mais aussi réponse aux lycéens.",
-        "source": {
-          "id": "ici_ges",
-          "name": "ici Alsace, Lorraine, Champagne-Ardenne"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:45:00.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/d0754bf9-febf-4920-aef0-e4398027e5d4/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:45:00.000Z"
-    },
-    {
-      "id": "T3mZTJuphz29",
-      "representative": {
-        "id": "T3mZTJuphz29",
-        "url": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-lorraine-moselle-et-pays-haut/projet-carbios-de-recyclage-des-plastiques-a-longlaville-des-marques-ont-valide-nos-textiles-en-polyester-recycles-2155613?at_medium=lien_RSS&at_locale=50",
-        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-lorraine-moselle-et-pays-haut/projet-carbios-de-recyclage-des-plastiques-a-longlaville-des-marques-ont-valide-nos-textiles-en-polyester-recycles-2155613",
-        "title": "Projet Carbios de recyclage des plastiques à Longlaville : \"Des marques ont validé nos textiles en polyester recyclés\"",
-        "description": "Le projet très innovant d'usine de recyclage des plastiques dans le Pays haut est toujours suspendu à Longlaville, depuis fin 2024. On fait le point sur le calendrier avec le directeur général Benoit Grenot.",
-        "source": {
-          "id": "ici_ges",
-          "name": "ici Alsace, Lorraine, Champagne-Ardenne"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:44:30.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/39a3dcda-ea1f-4182-8873-6e0316072727/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:44:30.000Z"
-    },
-    {
       "id": "Tom_u4kU_7Zh",
       "representative": {
         "id": "Tom_u4kU_7Zh",
@@ -317,78 +245,6 @@
       "latestPublishedAt": "2026-10-07T05:32:30.000Z"
     },
     {
-      "id": "Ld4I9HV2dE_l",
-      "representative": {
-        "id": "Ld4I9HV2dE_l",
-        "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-alsace/plusieurs-milliers-de-personnes-a-strasbourg-etudiants-enseignants-et-parents-se-joignent-aux-lyceens-9570183?at_medium=lien_RSS&at_locale=12",
-        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-alsace/plusieurs-milliers-de-personnes-a-strasbourg-etudiants-enseignants-et-parents-se-joignent-aux-lyceens-9570183",
-        "title": "Plusieurs milliers de personnes à Strasbourg : étudiants, enseignants et parents se joignent aux lycéens",
-        "description": "Des étudiants mais aussi des parents d'élèves, des profs ou des syndicalistes. Les lycéens ont réussi à attirer beaucoup de monde ce mardi 6 octobre dans le cortège strasbourgeois.",
-        "source": {
-          "id": "ici_ges",
-          "name": "ici Alsace, Lorraine, Champagne-Ardenne"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:32:30.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/23b18e19-56c3-4ed7-b19e-b33354d16a7c/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:32:30.000Z"
-    },
-    {
-      "id": "5SrN_e3RgTWL",
-      "representative": {
-        "id": "5SrN_e3RgTWL",
-        "url": "https://www.ici.fr/emissions/l-eco-d-ici-ici-alsace/une-alsacienne-lance-allerg-eat-une-application-pour-aider-les-personnes-allergiques-a-trouver-un-restaurant-5213301?at_medium=lien_RSS&at_locale=12",
-        "canonicalUrl": "https://www.ici.fr/emissions/l-eco-d-ici-ici-alsace/une-alsacienne-lance-allerg-eat-une-application-pour-aider-les-personnes-allergiques-a-trouver-un-restaurant-5213301",
-        "title": "Une Alsacienne lance Allerg'eat, une application pour aider les personnes allergiques à trouver un restaurant",
-        "description": "Une Alsacienne allergique aux arachides a lancé sa propre application Allerg'eat, où les utilisateurs peuvent noter les restaurants qui affichent les allergènes et sont formés sur la question. Elle compile près de 1.000 utilisateurs depuis son lancement en juillet.",
-        "source": {
-          "id": "ici_ges",
-          "name": "ici Alsace, Lorraine, Champagne-Ardenne"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:23:45.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/aaa8a379-9765-4cc1-81e5-8a4da5e9da46/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:23:45.000Z"
-    },
-    {
-      "id": "U_s67eRsVa_a",
-      "representative": {
-        "id": "U_s67eRsVa_a",
-        "url": "https://www.ici.fr/infos/economie-social/carte-station-service-moins-chere-prix-des-carburants-autour-de-vous-4934700?at_medium=lien_RSS&at_locale=33",
-        "canonicalUrl": "https://www.ici.fr/infos/economie-social/carte-station-service-moins-chere-prix-des-carburants-autour-de-vous-4934700",
-        "title": "Prix des carburants : trouvez la station-service la moins chère près de chez vous",
-        "description": "Les prix des carburants continuent de grimper en France en raison de la guerre au Moyen-Orient. De nouveaux records ont été atteints. Suivez l'évolution du prix des carburants près de chez vous avec ICI.",
-        "source": {
-          "id": "ici_ges",
-          "name": "ici Alsace, Lorraine, Champagne-Ardenne"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:15:06.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/ebfc797c-eb1b-46a6-8a82-4f9ddcf97e79/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:15:06.000Z"
-    },
-    {
       "id": "wMgiTsY75Eyj",
       "representative": {
         "id": "wMgiTsY75Eyj",
@@ -413,28 +269,172 @@
       "latestPublishedAt": "2026-10-07T05:00:00.000Z"
     },
     {
-      "id": "HKCfJNThXPVs",
+      "id": "gGxAvW4mqseC",
       "representative": {
-        "id": "HKCfJNThXPVs",
-        "url": "https://www.ici.fr/emissions/nos-voisins-du-rhin/sos-le-lac-des-brenets-a-la-frontiere-franco-suisse-est-completement-a-sec-7763736?at_medium=lien_RSS&at_locale=12",
-        "canonicalUrl": "https://www.ici.fr/emissions/nos-voisins-du-rhin/sos-le-lac-des-brenets-a-la-frontiere-franco-suisse-est-completement-a-sec-7763736",
-        "title": "\"SOS\", le lac des Brenets à la frontière franco-suisse est complètement à sec",
-        "description": "Le lac Brenets, alimenté par le Doubs à la frontière franco-suisse, est à sec. Son niveau est historiquement bas après cet été sec, du jamais vu depuis 1906.",
+        "id": "gGxAvW4mqseC",
+        "url": "https://www.estrepublicain.fr/education/2026/10/07/manifestation-des-lyceens-le-mal-etre-des-jeunes-de-bichat",
+        "canonicalUrl": "https://www.estrepublicain.fr/education/2026/10/07/manifestation-des-lyceens-le-mal-etre-des-jeunes-de-bichat",
+        "title": "Lunéville. Manifestation des lycéens : le mal-être des jeunes de Bichat",
+        "description": "Les jeunes se sont retrouvés moins nombreux ce mardi devant le lycée Bichat, mais toujours désabusés avec le sentiment de ne pas être écoutés.",
         "source": {
-          "id": "ici_ges",
-          "name": "ici Alsace, Lorraine, Champagne-Ardenne"
+          "id": "estrepublicain",
+          "name": "L'Est Républicain"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T04:40:30.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/20c7624f-fd1f-482c-9163-1b90cd7b4b8e/920x517?webp=false",
+        "publishedAt": "2026-10-07T04:30:00.000Z",
+        "imageUrl": "https://cdn-s-www.estrepublicain.fr/images/D293317E-67B8-4901-A85E-1276EC2EBB38/NW_listB/manifestation-des-lyceens-le-mal-etre-des-jeunes-de-bichat-1791310071.jpg",
         "countryCode": "FR",
         "regionCode": "FR-GES"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:40:30.000Z"
+      "latestPublishedAt": "2026-10-07T04:30:00.000Z"
+    },
+    {
+      "id": "ykUERh3TN5pc",
+      "representative": {
+        "id": "ykUERh3TN5pc",
+        "url": "https://www.lalsace.fr/economie/2026/10/07/le-cola-halal-made-in-alsace-met-la-toile-en-ebullition",
+        "canonicalUrl": "https://www.lalsace.fr/economie/2026/10/07/le-cola-halal-made-in-alsace-met-la-toile-en-ebullition",
+        "title": "Alsace. Produit avec de l'eau de source de Soultzmatt et 100% halal, le cola « Natakassam » fait polémique",
+        "description": "Lancée par une société basée à Reims avec de l’eau de source de Soultzmatt, une nouvelle marque de cola « halal » a provoqué une effervescence aux relents racistes sur les réseaux sociaux.",
+        "source": {
+          "id": "lalsace",
+          "name": "L'Alsace"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T04:28:00.000Z",
+        "imageUrl": "https://cdn-s-www.lalsace.fr/images/121D034A-1BC3-43C0-AE22-DB33DE456F80/NW_listB/produit-avec-de-l-eau-de-source-de-soultzmatt-et-100-halal-le-cola-natakassam-fait-polemique-1791303797.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:28:00.000Z"
+    },
+    {
+      "id": "KukCUVNlrImO",
+      "representative": {
+        "id": "KukCUVNlrImO",
+        "url": "https://www.lalsace.fr/faits-divers-justice/2026/10/06/tentative-d-extorsion-avec-arme-quatre-et-huit-ans-de-prison",
+        "canonicalUrl": "https://www.lalsace.fr/faits-divers-justice/2026/10/06/tentative-d-extorsion-avec-arme-quatre-et-huit-ans-de-prison",
+        "title": "Assises du Haut-Rhin. Tentative d’extorsion avec arme : quatre et huit ans de prison",
+        "description": "Jugés pendant deux jours par la cour d’assises du Haut-Rhin pour tentative d’extorsion avec arme à Mulhouse, deux quinquagénaires ont été condamnés ce mardi 6 octobre, plus de quatre ans après le décès d’un sexagénaire survenu 14 mois après son passage à tabac.",
+        "source": {
+          "id": "lalsace",
+          "name": "L'Alsace"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T19:27:00.000Z",
+        "imageUrl": "https://cdn-s-www.lalsace.fr/images/6E05E035-40D2-4874-B5E4-D04AADB71060/NW_listB/tentative-d-extorsion-avec-arme-quatre-et-huit-ans-de-prison-1791316958.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:27:00.000Z"
+    },
+    {
+      "id": "xR0Ffnmz04Zl",
+      "representative": {
+        "id": "xR0Ffnmz04Zl",
+        "url": "https://www.rue89strasbourg.com/manifestation-mouvement-lyceen-6-octobre-398419",
+        "canonicalUrl": "https://www.rue89strasbourg.com/manifestation-mouvement-lyceen-6-octobre-398419",
+        "title": "Plus de 10 000 personnes dans la rue pour imposer les revendications lycéennes",
+        "description": "Une dizaine de milliers de personnes ont manifesté mardi 6 octobre avec les lycéens et lycéennes qui demandent plus de moyens pour l'Éducation nationale. Parents, enseignants, étudiants et d'autres ont témoigné de leur choc face à la répression du mouvement.",
+        "source": {
+          "id": "rue89strasbourg",
+          "name": "Rue89 Strasbourg"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T18:03:37.000Z",
+        "imageUrl": null,
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:03:37.000Z"
+    },
+    {
+      "id": "_DgY3vExA_C2",
+      "representative": {
+        "id": "_DgY3vExA_C2",
+        "url": "https://france3-regions.franceinfo.fr/grand-est/alsace/mobilisations-du-6-octobre-plusieurs-rassemblements-devant-des-lycees-et-universites-avant-des-manifestations-a-strasbourg-et-mulhouse-3428592.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/grand-est/alsace/mobilisations-du-6-octobre-plusieurs-rassemblements-devant-des-lycees-et-universites-avant-des-manifestations-a-strasbourg-et-mulhouse-3428592.html",
+        "title": "Mobilisations du 6 octobre : journée calme à Mulhouse, à Strasbourg des tensions en fin de journée et quinze interpellations",
+        "description": "Mobilisation massive, ce mardi 6 octobre, en particulier à Strasbourg et Mulhouse où ils étaient des milliers. Si à Mulhouse, la journée s'est déroulée dans le calme, à Strasbourg les tensions sont montées d'un cran en fin d'après-midi.",
+        "source": {
+          "id": "france3_ges",
+          "name": "France 3 Grand Est"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T17:40:33.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/Cg0e-PGRTRcUHOMeAlL6o07Q4mo/930x620/filters:format(webp)/regions/2026/10/06/6ac4eb82015b9353063927.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:40:33.000Z"
+    },
+    {
+      "id": "gOY427baGex_",
+      "representative": {
+        "id": "gOY427baGex_",
+        "url": "https://www.lalsace.fr/faits-divers-justice/2026/10/06/condamne-apres-avoir-ete-filme-en-train-de-frapper-son-chien",
+        "canonicalUrl": "https://www.lalsace.fr/faits-divers-justice/2026/10/06/condamne-apres-avoir-ete-filme-en-train-de-frapper-son-chien",
+        "title": "Soultz. Maltraitance animale : condamné après avoir été filmé en train de frapper son chien",
+        "description": "Filmé par un témoin dans la cage d’escalier de son immeuble lorsqu’il était en train de frapper son chien, un habitant de Soultz a été renvoyé pour le délit de « sévices graves ou actes de cruauté envers un animal domestique » devant le tribunal correctionnel de Colmar, qui l’a finalement condamné…",
+        "source": {
+          "id": "lalsace",
+          "name": "L'Alsace"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T16:05:00.000Z",
+        "imageUrl": "https://cdn-s-www.lalsace.fr/images/762231ED-1979-455F-9B69-84407E6F88E8/NW_listB/maltraitance-animale-condamne-apres-avoir-ete-filme-en-train-de-frapper-son-chien-1791308590.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:05:00.000Z"
+    },
+    {
+      "id": "ADekkXGPqVf7",
+      "representative": {
+        "id": "ADekkXGPqVf7",
+        "url": "https://www.rue89strasbourg.com/florian-kobryn-diffamation-audience-398396",
+        "canonicalUrl": "https://www.rue89strasbourg.com/florian-kobryn-diffamation-audience-398396",
+        "title": "Florian Kobryn jugé pour diffamation après ses accusations contre Ludivine Quintallet",
+        "description": "Poursuivi pour diffamation après une publication dénonçant notamment un \"management toxique\", Florian Kobryn était jugé mardi 6 octobre à Strasbourg. Son ancienne collègue Ludivine Quintallet lui réclame 5 000 euros de dommages et intérêts. Le tribunal rendra sa décision le 10 novembre.",
+        "source": {
+          "id": "rue89strasbourg",
+          "name": "Rue89 Strasbourg"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:14:26.000Z",
+        "imageUrl": null,
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:14:26.000Z"
     }
   ]
 }

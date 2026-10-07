@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SI",
   "countryName": "Slovenia",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "UIG5ZfNi4DWc",
@@ -163,65 +163,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:09:00.000Z"
-    },
-    {
-      "id": "D2NmCdwtlZ3w",
-      "representative": {
-        "id": "D2NmCdwtlZ3w",
-        "url": "https://www.24ur.com/novice/slovenija/sindikati-zbrali-43000-podpisov-jansa-demagogija-ki-gori-do-neba.html",
-        "canonicalUrl": "https://www.24ur.com/novice/slovenija/sindikati-zbrali-43000-podpisov-jansa-demagogija-ki-gori-do-neba.html",
-        "title": "Sindikati zbrali 43.000 podpisov. Janša: Demagogija, ki gori do neba",
-        "description": "V sindikatih so po neuradnih podatkih ZSSS od 1. septembra do 5. oktobra zbrali okoli 43.000 podpisov v podporo referendumu o interventnem zakonu za razvoj Slovenije. Kot so pojasnili v KS 90, pa se zdaj boj za socialno državo šele začenja. Premier Janez Janša je medtem argumente proti zakonu…",
-        "source": {
-          "id": "24ur",
-          "name": "24ur"
-        },
-        "sourceCountry": "SI",
-        "language": "sl",
-        "publishedAt": "2026-10-06T10:34:31.000Z",
-        "imageUrl": "https://images.24ur.com/media/images/213xX/Sep2026/8b0d3bc1201133bdddb6_63640590.jpg?v=9b6b&fop=fp:0.49:0.39",
-        "countryCode": "SI",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "kt1I9VCfr1kH",
-          "url": "https://n1info.si/novice/slovenija/sindikati-zbrali-43000-podpisov-vojna-za-ohranitev-socialne-drzave-se-ni-dobljena/",
-          "canonicalUrl": "https://n1info.si/novice/slovenija/sindikati-zbrali-43000-podpisov-vojna-za-ohranitev-socialne-drzave-se-ni-dobljena/",
-          "title": "Sindikati zbrali 43.000 podpisov: \"Vojna za ohranitev socialne države še ni dobljena\"",
-          "description": "V sindikatih so po neuradnih podatkih ZSSS od 1. septembra do 5. oktobra zbrali okoli 43.000 podpisov v podporo referendumu o interventnem zakonu za r",
-          "source": {
-            "id": "n1_si",
-            "name": "N1 Slovenija"
-          },
-          "sourceCountry": "SI",
-          "language": "sl",
-          "publishedAt": "2026-10-06T13:07:11.000Z",
-          "imageUrl": "https://n1info.si/media/images/2026/10/6/1791291875_POL20260518_AI5_2618.width-1200.jpg",
-          "countryCode": "SI",
-          "regionCode": null
-        },
-        {
-          "id": "BY91ciqwQuDf",
-          "url": "https://www.zurnal24.si/slovenija/sindikati-zbrali-podpise-jansa-pa-demagogija-ki-gori-do-neba-466267",
-          "canonicalUrl": "https://www.zurnal24.si/slovenija/sindikati-zbrali-podpise-jansa-pa-demagogija-ki-gori-do-neba-466267",
-          "title": "Sindikati zbrali podpise, Janša pa: \"Demagogija, ki gori do neba\"",
-          "description": "V sindikatih so po neuradnih podatkih ZSSS od 1. septembra do 5. oktobra zbrali okoli 43.000 podpisov v podporo referendumu o interventnem zakonu za razvoj Slovenije. Kot so pojasnili v KS 90, pa se zdaj boj za socialno državo šele začenja. Premier Janez Janša je medtem argumente proti zakonu…",
-          "source": {
-            "id": "zurnal24",
-            "name": "Žurnal24"
-          },
-          "sourceCountry": "SI",
-          "language": "sl",
-          "publishedAt": "2026-10-06T12:15:00.000Z",
-          "imageUrl": "https://www.zurnal24.si/media/img/a6/fb/6c993c9899af30b5582e.jpeg",
-          "countryCode": "SI",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:07:11.000Z"
     },
     {
       "id": "2SnKo2Dugv1h",
@@ -573,6 +514,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:23:14.000Z"
+    },
+    {
+      "id": "C-imHe4FE04i",
+      "representative": {
+        "id": "C-imHe4FE04i",
+        "url": "https://n1info.si/novice/svet/tisoci-prejeli-opozorilo-o-vdoru-v-eno-najbolj-priljubljenih-nakupovalnih-aplikacij/",
+        "canonicalUrl": "https://n1info.si/novice/svet/tisoci-prejeli-opozorilo-o-vdoru-v-eno-najbolj-priljubljenih-nakupovalnih-aplikacij/",
+        "title": "Tisoči prejeli opozorilo o vdoru v eno najbolj priljubljenih nakupovalnih aplikacij",
+        "description": "Uporabniki spletne trgovine Asos so na telefone prejeli nenavadno obvestilo, v katerem domnevni hekerji trdijo, da so vdrli v sisteme tudi pri nas pri",
+        "source": {
+          "id": "n1_si",
+          "name": "N1 Slovenija"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T15:22:45.000Z",
+        "imageUrl": "https://n1info.si/media/images/2026/10/6/1791297792_profimedia-1140967153.width-1200.jpg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:22:45.000Z"
     }
   ]
 }

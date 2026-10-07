@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CA",
   "countryName": "Canada",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "X3XrEEhyg5WM",
@@ -263,78 +263,6 @@
       "latestPublishedAt": "2026-10-06T11:48:56.000Z"
     },
     {
-      "id": "5V9mcq95VbNR",
-      "representative": {
-        "id": "5V9mcq95VbNR",
-        "url": "https://www.theglobeandmail.com/canada/british-columbia/article-bc-kerry-lynne-findlay-brent-chapman-threats/",
-        "canonicalUrl": "https://www.theglobeandmail.com/canada/british-columbia/article-bc-kerry-lynne-findlay-brent-chapman-threats/",
-        "title": "Former B.C. Conservative leader Findlay and husband Chapman were threatened, OneBC says",
-        "description": "Chapman announced he was joining OneBC to run as a candidate in the Oct. 24 election after Findlay resigned as the Conservative party leader amid a caucus revolt",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-06T11:09:44.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/MOW4MSBMR5ELPEVRWFKBVKQCDM.jpg?auth=93caeac1dece48f4a1a7a400a8ab29360836055ea1e016afec41d9b811eec515&smart=true&width=6500&height=4333",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:09:44.000Z"
-    },
-    {
-      "id": "w5kCaQ74SXwf",
-      "representative": {
-        "id": "w5kCaQ74SXwf",
-        "url": "https://www.theglobeandmail.com/canada/article-morning-update-quebec-elects-the-pq/",
-        "canonicalUrl": "https://www.theglobeandmail.com/canada/article-morning-update-quebec-elects-the-pq/",
-        "title": "Morning Update: Quebec elects the PQ",
-        "description": "Also in today’s edition: DIA expected to become a Crown corporation and Lake America vexes map-makers",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:39:47.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/2MOFTWFCGJHFTH7TFPUC7K4VUU.jpg?auth=c44f12333952e8df8380380038784c914ec253ed54888c9ebf1ffad07acfdee7&smart=true&width=7219&height=4813",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:39:47.000Z"
-    },
-    {
-      "id": "4AIDvEQANplF",
-      "representative": {
-        "id": "4AIDvEQANplF",
-        "url": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-physics-francis-halzen/",
-        "canonicalUrl": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-physics-francis-halzen/",
-        "title": "Neutrino experiment pioneer Francis Halzen wins Nobel Prize in Physics",
-        "description": "University of Wisconsin-Madison professor is best known for his work establishing the IceCube Neutrino Observatory at the South Pole",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:27:01.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/VBZI4CBNNNFDJBCGYAABJE6EDA.JPG?auth=4b649f4065fdfd5515ac3f40984020ca6f94393803ae2af1e4317a5451277dc0&smart=true&width=1632&height=1089",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:27:01.000Z"
-    },
-    {
       "id": "n7Knuich-2SS",
       "representative": {
         "id": "n7Knuich-2SS",
@@ -381,6 +309,78 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:44:18.000Z"
+    },
+    {
+      "id": "KTu8nIqBhhg7",
+      "representative": {
+        "id": "KTu8nIqBhhg7",
+        "url": "https://www.ctvnews.ca/northern-ontario/article/judge-rules-thunder-bay-drug-warrants-were-tainted-by-racial-profiling/",
+        "canonicalUrl": "https://www.ctvnews.ca/northern-ontario/article/judge-rules-thunder-bay-drug-warrants-were-tainted-by-racial-profiling/",
+        "title": "Judge rules Thunder Bay drug warrants were ‘tainted’ by racial profiling",
+        "description": "A judge in Thunder Bay has ruled that a tracking warrant and a transmission data recorder warrant issued for a suspect in a drug trafficking investigation were tainted by racial profiling and should not have been issued",
+        "source": {
+          "id": "ctv",
+          "name": "CTV News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T01:13:05.000Z",
+        "imageUrl": "https://www.ctvnews.ca/resizer/v2/CBIINFDTVNE5LMI7D5AP4OYRJY.jpg?auth=7c8e75e75e2ba3cefbdeaf351d0fffc4327a66776809a997f5eb52495b4885a9&smart=true&width=1351&height=760",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T01:13:05.000Z"
+    },
+    {
+      "id": "l8nnlyceaMiZ",
+      "representative": {
+        "id": "l8nnlyceaMiZ",
+        "url": "https://nationalpost.com/news/how-the-separatist-parti-quebecois-power-quebec-election-results",
+        "canonicalUrl": "https://nationalpost.com/news/how-the-separatist-parti-quebecois-power-quebec-election-results",
+        "title": "How the separatist Parti Québécois took back power in Quebec",
+        "description": "'The independence project we are championing is not directed against you,' the PQ leader told the rest of Canada",
+        "source": {
+          "id": "nationalpost",
+          "name": "National Post"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T00:45:35.000Z",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/10/Paul-St-Pierre-Plamondon-5.jpg",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T00:45:35.000Z"
+    },
+    {
+      "id": "9VmvnUhNxXDh",
+      "representative": {
+        "id": "9VmvnUhNxXDh",
+        "url": "https://globalnews.ca/news/12088444/standing-buffalo-dakota-nation-bell-canada-letter/",
+        "canonicalUrl": "https://globalnews.ca/news/12088444/standing-buffalo-dakota-nation-bell-canada-letter/",
+        "title": "First Nation demands more info on Bell AI data centre near Regina: ‘We have to live here’",
+        "description": "The Standing Buffalo Dakota Nation penned a letter to Bell Canada requesting documentation and information regarding the AI data centre that is under construction near Regina.",
+        "source": {
+          "id": "globalnews",
+          "name": "Global News"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-05T23:30:29.000Z",
+        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/10/bell-data-centre-documents-demanded.jpg?quality=65&strip=all",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T23:30:29.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "UY",
   "countryName": "Uruguay",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "qZwwNLG5SjYP",
@@ -269,30 +269,6 @@
       "latestPublishedAt": "2026-10-06T12:11:00.000Z"
     },
     {
-      "id": "00kq3xrunxgu",
-      "representative": {
-        "id": "00kq3xrunxgu",
-        "url": "https://www.teledoce.com/telemundo/deportes/seleccion/en-el-marco-del-mes-de-lucha-contra-el-cancer-de-mama-la-seleccion-uruguaya-jugara-el-amistoso-contra-india-con-medias-rosadas/",
-        "canonicalUrl": "https://www.teledoce.com/telemundo/deportes/seleccion/en-el-marco-del-mes-de-lucha-contra-el-cancer-de-mama-la-seleccion-uruguaya-jugara-el-amistoso-contra-india-con-medias-rosadas/",
-        "title": "En el marco del Mes de Lucha contra el Cáncer de Mama, la selección uruguaya jugará el amistoso contra India con medias rosadas",
-        "description": "Las medias, además, llevarán en su parte trasera el lazo que simboliza la lucha contra el cáncer de mama, una de las enfermedades con mayor incidencia entre las mujeres uruguayas. La entrada En el marco del Mes de Lucha contra el Cáncer de Mama, la selección uruguaya jugará el amistoso contra…",
-        "source": {
-          "id": "teledoce",
-          "name": "Teledoce"
-        },
-        "sourceCountry": "UY",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:07:48.000Z",
-        "imageUrl": null,
-        "countryCode": "UY",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:07:48.000Z"
-    },
-    {
       "id": "ffnXnnbZGpvA",
       "representative": {
         "id": "ffnXnnbZGpvA",
@@ -333,6 +309,30 @@
       "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T11:51:00.000Z"
+    },
+    {
+      "id": "00kq3xrunxgu",
+      "representative": {
+        "id": "00kq3xrunxgu",
+        "url": "https://www.teledoce.com/telemundo/deportes/seleccion/en-el-marco-del-mes-de-lucha-contra-el-cancer-de-mama-la-seleccion-uruguaya-jugara-el-amistoso-contra-india-con-medias-rosadas/",
+        "canonicalUrl": "https://www.teledoce.com/telemundo/deportes/seleccion/en-el-marco-del-mes-de-lucha-contra-el-cancer-de-mama-la-seleccion-uruguaya-jugara-el-amistoso-contra-india-con-medias-rosadas/",
+        "title": "En el marco del Mes de Lucha contra el Cáncer de Mama, la selección uruguaya jugará el amistoso contra India con medias rosadas",
+        "description": "Las medias, además, llevarán en su parte trasera el lazo que simboliza la lucha contra el cáncer de mama, una de las enfermedades con mayor incidencia entre las mujeres uruguayas. La entrada En el marco del Mes de Lucha contra el Cáncer de Mama, la selección uruguaya jugará el amistoso contra…",
+        "source": {
+          "id": "teledoce",
+          "name": "Teledoce"
+        },
+        "sourceCountry": "UY",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:07:48.000Z",
+        "imageUrl": null,
+        "countryCode": "UY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:07:48.000Z"
     },
     {
       "id": "A-lzXun3d5jC",

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "LB",
   "countryName": "Lebanon",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "09GR2sbORxD9",
@@ -233,6 +233,78 @@
       "latestPublishedAt": "2026-10-06T14:00:00.000Z"
     },
     {
+      "id": "H9IvPf5xTHow",
+      "representative": {
+        "id": "H9IvPf5xTHow",
+        "url": "https://www.lbcgroup.tv/news/world/961497/title/ar?src=rss&utm_source=TheWALL360&utm_medium=Rss-articles&utm_campaign=rss&utm_term=Rss",
+        "canonicalUrl": "https://www.lbcgroup.tv/news/world/961497/title/ar?src=rss",
+        "title": "ماكرون يشرف على اختبار صاروخ قادر على حمل رأس نووية أطلق من غواصة",
+        "description": "أشرف الرئيس الفرنسي إيمانويل ماكرون على \"عملية إطلاق أولى\" تجريبية لصاروخ عابر للقارات من...",
+        "source": {
+          "id": "lbci",
+          "name": "LBCI"
+        },
+        "sourceCountry": "LB",
+        "language": "ar",
+        "publishedAt": "2026-10-06T13:41:55.000Z",
+        "imageUrl": "https://www.lbcgroup.tv/uploadImages/DocumentImages/Doc-T-961497-639268909559442658.jpg",
+        "countryCode": "LB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:41:55.000Z"
+    },
+    {
+      "id": "_xqzWflQKi12",
+      "representative": {
+        "id": "_xqzWflQKi12",
+        "url": "https://www.almodon.com/economy/2026/10/06/%D8%BA%D9%88%D9%84%D8%AF%D9%85%D8%A7%D9%86-%D8%B3%D8%A7%D9%83%D8%B3-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84-%D8%B3%D8%AA%D8%A8%D9%82%D9%89-%D9%85%D8%B1%D8%AA%D9%81%D8%B9%D8%A9-%D8%AD%D8%AA%D9%89-2027",
+        "canonicalUrl": "https://www.almodon.com/economy/2026/10/06/%D8%BA%D9%88%D9%84%D8%AF%D9%85%D8%A7%D9%86-%D8%B3%D8%A7%D9%83%D8%B3-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84-%D8%B3%D8%AA%D8%A8%D9%82%D9%89-%D9%85%D8%B1%D8%AA%D9%81%D8%B9%D8%A9-%D8%AD%D8%AA%D9%89-2027",
+        "title": "غولدمان ساكس: أسعار الديزل ستبقى مرتفعة حتى 2027",
+        "description": "توقع بنك غولدمان ساكس أن تبقى أسعار الديزل عند مستويات مرتفعة حتى عام 2027، في ظل تعافي الاستهلاك بالتزامن مع محدودية طاقات التكرير، ومساعي الحكوما",
+        "source": {
+          "id": "almodon",
+          "name": "Al-Modon"
+        },
+        "sourceCountry": "LB",
+        "language": "ar",
+        "publishedAt": "2026-10-06T12:50:12.000Z",
+        "imageUrl": "https://assets.almodon.com/styles/large_950x535_original/public/2026-09/image-1789291614.png.jpg?itok=f28asF1R",
+        "countryCode": "LB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:50:12.000Z"
+    },
+    {
+      "id": "9Phdap_LADFw",
+      "representative": {
+        "id": "9Phdap_LADFw",
+        "url": "https://www.almodon.com/media/2026/10/06/%D8%B7%D8%A7%D8%A6%D8%B1-%D8%A7%D9%84%D9%81%D9%8A%D9%86%D9%8A%D9%82-%D8%B4%D8%B9%D8%A7%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D8%AC%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9",
+        "canonicalUrl": "https://www.almodon.com/media/2026/10/06/%D8%B7%D8%A7%D8%A6%D8%B1-%D8%A7%D9%84%D9%81%D9%8A%D9%86%D9%8A%D9%82-%D8%B4%D8%B9%D8%A7%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D8%AC%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9",
+        "title": "طائر الفينيق شعار جديد للخطوط الجوية السورية",
+        "description": "كشفت الخطوط الجوية السورية رسمياً هويتها البصرية الجديدة، والتي تتضمن \"طائر الفينيق",
+        "source": {
+          "id": "almodon",
+          "name": "Al-Modon"
+        },
+        "sourceCountry": "LB",
+        "language": "ar",
+        "publishedAt": "2026-10-06T12:16:47.000Z",
+        "imageUrl": "https://assets.almodon.com/styles/large_950x535_original/public/2026-10/image-1791287211.jpg?h=a1e1a043&itok=7GZdfgY5",
+        "countryCode": "LB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:16:47.000Z"
+    },
+    {
       "id": "rKj4fWuMrjEK",
       "representative": {
         "id": "rKj4fWuMrjEK",
@@ -327,78 +399,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:49:00.000Z"
-    },
-    {
-      "id": "rumogYINL7mG",
-      "representative": {
-        "id": "rumogYINL7mG",
-        "url": "https://en.annahar.com/articles/annahar-writers/354619/%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%87%D9%84-%D8%AA%D8%AE%D8%AF%D9%85-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%84%D8%A5%D8%B6%D8%B9%D8%A7%D9%81-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%88%D8%AA%D8%B7%D9%88%D9%8A%D8%B9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9",
-        "canonicalUrl": "https://en.annahar.com/articles/annahar-writers/354619/%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%87%D9%84-%D8%AA%D8%AE%D8%AF%D9%85-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%84%D8%A5%D8%B6%D8%B9%D8%A7%D9%81-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%88%D8%AA%D8%B7%D9%88%D9%8A%D8%B9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9",
-        "title": "تحولات اليمن... هل تخدم استراتيجية ترامب لإضعاف إيران وتطويع أسعار الطاقة؟",
-        "description": "يكافح الرئيس الأميركي دونالد ترامب بشتى الطرق لخفض أسعار الديزل، التي ارتفعت على خلفية حرب إيران، إلى جانب أسباب أخرى. ومن بين الإجراءات التي لجأ إليها إصدار أمر تنفيذي يسمح موقتاً باستخدام الديزل الأحمر في المركبات البرية. جاء ذلك بعد نجاحه في إقناع القادة الآخرين في مجموعة الدول الصناعية السبع…",
-        "source": {
-          "id": "annahar",
-          "name": "An-Nahar"
-        },
-        "sourceCountry": "LB",
-        "language": "ar",
-        "publishedAt": "2026-10-06T13:49:00.000Z",
-        "imageUrl": null,
-        "countryCode": "LB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:49:00.000Z"
-    },
-    {
-      "id": "Tk5-D3eUuphV",
-      "representative": {
-        "id": "Tk5-D3eUuphV",
-        "url": "https://en.annahar.com/lebanon/354477/%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%B3%D8%A8%D8%A7%D9%82-%D9%85%D8%B9-%D8%A7%D9%84%D9%88%D9%82%D8%AA-%D9%84%D9%85%D9%86%D8%B9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%BA",
-        "canonicalUrl": "https://en.annahar.com/lebanon/354477/%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-%D8%B3%D8%A8%D8%A7%D9%82-%D9%85%D8%B9-%D8%A7%D9%84%D9%88%D9%82%D8%AA-%D9%84%D9%85%D9%86%D8%B9-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%BA",
-        "title": "الجنوب بين الانتخابات الإسرائيلية والأميركية: سباق مع الوقت لمنع الفراغ",
-        "description": "يدخل لبنان والمنطقة مرحلة شديدة الحساسية، تتقاطع فيها ثلاثة استحقاقات: الانتخابات الإسرائيلية المقررة في ٢٧ تشرين الأول-أكتوبر، والانتخابات النصفية الأميركية في ٣ تشرين الثاني-نوفمبر، وانتهاء ولاية قوة الأمم المتحدة الموقتة في لبنان اليونيفيل في ٣١ كانون الأول-ديسمبر. ويزيد تزامن هذه المواعيد…",
-        "source": {
-          "id": "annahar",
-          "name": "An-Nahar"
-        },
-        "sourceCountry": "LB",
-        "language": "ar",
-        "publishedAt": "2026-10-06T13:42:00.000Z",
-        "imageUrl": null,
-        "countryCode": "LB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:42:00.000Z"
-    },
-    {
-      "id": "H9IvPf5xTHow",
-      "representative": {
-        "id": "H9IvPf5xTHow",
-        "url": "https://www.lbcgroup.tv/news/world/961497/title/ar?src=rss&utm_source=TheWALL360&utm_medium=Rss-articles&utm_campaign=rss&utm_term=Rss",
-        "canonicalUrl": "https://www.lbcgroup.tv/news/world/961497/title/ar?src=rss",
-        "title": "ماكرون يشرف على اختبار صاروخ قادر على حمل رأس نووية أطلق من غواصة",
-        "description": "أشرف الرئيس الفرنسي إيمانويل ماكرون على \"عملية إطلاق أولى\" تجريبية لصاروخ عابر للقارات من...",
-        "source": {
-          "id": "lbci",
-          "name": "LBCI"
-        },
-        "sourceCountry": "LB",
-        "language": "ar",
-        "publishedAt": "2026-10-06T13:41:55.000Z",
-        "imageUrl": "https://www.lbcgroup.tv/uploadImages/DocumentImages/Doc-T-961497-639268909559442658.jpg",
-        "countryCode": "LB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:41:55.000Z"
     }
   ]
 }

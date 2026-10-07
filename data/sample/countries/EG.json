@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "EG",
   "countryName": "Egypt",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "8debqymtQvQc",
@@ -352,30 +352,6 @@
       "latestPublishedAt": "2026-10-06T17:13:56.000Z"
     },
     {
-      "id": "G5PAA7DHAzBS",
-      "representative": {
-        "id": "G5PAA7DHAzBS",
-        "url": "https://www.vetogate.com/5745205",
-        "canonicalUrl": "https://www.vetogate.com/5745205",
-        "title": "فاتورة الطاقة ومستقبل الكهرباء والغاز.. أسئلة المواطنين على طاولة منتدى مصر 2026",
-        "description": "عقد الدكتور مصطفى مدبولي، رئيس الوزراء ، اجتماعًا، اليوم الثلاثاء، لاستعراض محاور جلسة \"مسيرة الطاقة المصرية\"، بحضور المهندس محمود عصمت، وزير الكهرباء والطاقة المتجددة، وأحمد كجوك، وزير المالية، والمهندس كريم بدوي، وزير البترول والثروة المعدنية، وياسر صبحي، نائب وزير المالية للسياسات المالية،…",
-        "source": {
-          "id": "vetogate",
-          "name": "Veto"
-        },
-        "sourceCountry": "EG",
-        "language": "ar",
-        "publishedAt": "2026-10-06T17:12:01.000Z",
-        "imageUrl": "https://www.vetogate.com/UploadCache/libfiles/597/0/800x450o/578.jfif",
-        "countryCode": "EG",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:12:01.000Z"
-    },
-    {
       "id": "E9RsD-Hn21Cr",
       "representative": {
         "id": "E9RsD-Hn21Cr",
@@ -400,76 +376,118 @@
       "latestPublishedAt": "2026-10-06T17:11:47.000Z"
     },
     {
-      "id": "lcAZ8s4LH3Yu",
+      "id": "ayh_CSDSvqDJ",
       "representative": {
-        "id": "lcAZ8s4LH3Yu",
-        "url": "https://www.vetogate.com/5745197",
-        "canonicalUrl": "https://www.vetogate.com/5745197",
-        "title": "ضبط زوجين بالدقهلية بتهمة ممارسة أعمال منافية للآداب",
-        "description": "قدمها للراغبين ..ضبط زوجين بالدقهلية بتهمة ممارسة أعمال منافية للآداب مقابل المال",
+        "id": "ayh_CSDSvqDJ",
+        "url": "https://www.elbalad.news/7132417",
+        "canonicalUrl": "https://www.elbalad.news/7132417",
+        "title": "محمد العرابي: انتصارات أكتوبر تجسيد لإرادة الدولة المصرية ودورها في ترسيخ السلام",
+        "description": "تقدّم السفير محمد العرابي، عضو مجلس الشيوخ، رئيس منظمة تضامن الشعوب الأفريقية الآسيوية، ووزير الخارجية المصري الأسبق، بأصدق التهاني وأطيب التمنيات إلى جمهورية مصر العربية صدى البلد : المصدر محمد العرابي: انتصارات أكتوبر تجسيد لإرادة الدولة المصرية ودورها في ترسيخ السلام",
         "source": {
-          "id": "vetogate",
-          "name": "Veto"
+          "id": "elbalad",
+          "name": "Sada El Balad"
         },
         "sourceCountry": "EG",
         "language": "ar",
-        "publishedAt": "2026-10-06T17:11:40.000Z",
-        "imageUrl": "https://www.vetogate.com/UploadCache/libfiles/596/7/800x450o/16.jpg",
+        "publishedAt": "2026-10-06T14:19:26.000Z",
+        "imageUrl": "https://media.elbalad.news/2026/10/large/631858567186202610060517341734.jpg",
         "countryCode": "EG",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:11:40.000Z"
+      "latestPublishedAt": "2026-10-06T14:19:26.000Z"
     },
     {
-      "id": "H0ivxJi7s_mr",
+      "id": "QWMHi3yddp4y",
       "representative": {
-        "id": "H0ivxJi7s_mr",
-        "url": "https://www.vetogate.com/5745204",
-        "canonicalUrl": "https://www.vetogate.com/5745204",
-        "title": "3 أشخاص يعتدون على عامل بالشرقية ويجبروه على استقلال دراجة نارية",
-        "description": "ضبط 3 أشخاص بالشرقية لاتهامهم بالتعدي على عامل وإجباره على استقلال دراجة نارية بسبب خلافات مالية",
+        "id": "QWMHi3yddp4y",
+        "url": "https://www.elbalad.news/7132415",
+        "canonicalUrl": "https://www.elbalad.news/7132415",
+        "title": "المنظمة العربية للتنمية الإدارية تناقش تمكين الكفاءات وتطوير القدرات المؤسسية",
+        "description": "المنظمة العربية للتنمية الإدارية تناقش تمكين الكفاءات وتطوير القدرات المؤسسية في ظل التحول الرقمي والذكاء الاصطناعي صدى البلد : المصدر المنظمة العربية للتنمية الإدارية تناقش تمكين الكفاءات وتطوير القدرات المؤسسية",
         "source": {
-          "id": "vetogate",
-          "name": "Veto"
+          "id": "elbalad",
+          "name": "Sada El Balad"
         },
         "sourceCountry": "EG",
         "language": "ar",
-        "publishedAt": "2026-10-06T17:11:08.000Z",
-        "imageUrl": "https://www.vetogate.com/UploadCache/libfiles/597/0/800x450o/576.jpg",
+        "publishedAt": "2026-10-06T14:17:24.000Z",
+        "imageUrl": "https://media.elbalad.news/2026/10/large/6751778284086202610060515551555.jpg",
         "countryCode": "EG",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:11:08.000Z"
+      "latestPublishedAt": "2026-10-06T14:17:24.000Z"
     },
     {
-      "id": "5udwg66w9wxh",
+      "id": "RdjJdaI_2tqS",
       "representative": {
-        "id": "5udwg66w9wxh",
-        "url": "https://www.vetogate.com/5745194",
-        "canonicalUrl": "https://www.vetogate.com/5745194",
-        "title": "العميد أ.ح. علي الببلاوي أحد أبطال الدفاع الجوي في حرب أكتوبر، لـ«فيتو»: حائط الصواريخ حرم إسرائيل من أهم مميزاتها.. وأسبوع سقوط الفانتوم كان نقطة تحول",
-        "description": "أسقطنا 325 طائرة إسرائيلية.. والتنسيق بين أفرع القوات المسلحة كان مفتاح النصر درسنا تكتيكات الطيران جيدًا.. وكنا نحدد الوحدة الأقرب والأقدر على تدمير الهدف لتجنب إهدار الموارد عرفنا موعد الحرب قبل العبور بـ5 دقائق.. وسجلنا عودة طائراتنا بعد الضربة الأولى سالمة اختصرنا تجهيز كتيبة الصواريخ من 3",
+        "id": "RdjJdaI_2tqS",
+        "url": "https://www.elbalad.news/7132408",
+        "canonicalUrl": "https://www.elbalad.news/7132408",
+        "title": "ولية أمر طالب بمدرسة أطفيح التجريبية: تعليم الجيزة لا يسمعنا بالرغم من وجود حلول",
+        "description": "تلقى «صدى البلد» العديد من شكاوى واستغاثات أولياء الأمور بشأن أزمة تنسيق وتسكين طلاب المدارس الرسمية للغات بمحافظة الجيزة، مؤكدين وجود نحو أكثر من 1600 طفل، تقل أعمارهم عن 7 أعوام، تم تسكينهم بالإدارة صدى البلد : المصدر ولية أمر طالب بمدرسة أطفيح التجريبية: تعليم الجيزة لا يسمعنا بالرغم من وجود حلول",
         "source": {
-          "id": "vetogate",
-          "name": "Veto"
+          "id": "elbalad",
+          "name": "Sada El Balad"
         },
         "sourceCountry": "EG",
         "language": "ar",
-        "publishedAt": "2026-10-06T17:10:45.000Z",
-        "imageUrl": "https://www.vetogate.com/UploadCache/libfiles/597/0/800x450o/564.jpg",
+        "publishedAt": "2026-10-06T14:17:18.000Z",
+        "imageUrl": "https://media.elbalad.news/2026/10/large/683115706792620261006050717717.jpg",
         "countryCode": "EG",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:10:45.000Z"
+      "latestPublishedAt": "2026-10-06T14:17:18.000Z"
+    },
+    {
+      "id": "qNcmr9juBv4y",
+      "representative": {
+        "id": "qNcmr9juBv4y",
+        "url": "https://www.almasryalyoum.com/news/details/4376215",
+        "canonicalUrl": "https://www.almasryalyoum.com/news/details/4376215",
+        "title": "رسميًا الآن.. سعر الدولار مقابل الجنيه المصري اليوم الثلاثاء 6-10-2026 في البنوك",
+        "description": "استقر سعر الدولار مقابل الجنيه، اليوم الثلاثاء 6 أكتوبر 2026، في بداية التعاملات بعد ارتفاعه خلال تعاملات أمس، وفيما يلى أسعار الدولار في البنوك، وفقًا لآخر تحديث.سعر الدولار في بن...",
+        "source": {
+          "id": "almasryalyoum",
+          "name": "Al-Masry Al-Youm"
+        },
+        "sourceCountry": "EG",
+        "language": "ar",
+        "publishedAt": "2026-10-06T06:31:32.000Z",
+        "imageUrl": null,
+        "countryCode": "EG",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "2pRpgr-BZTUR",
+          "url": "https://www.elbalad.news/7132404",
+          "canonicalUrl": "https://www.elbalad.news/7132404",
+          "title": "تراجع جماعي لـ سعر صرف الدولار مقابل الجنيه في ختام تعاملات البنوك",
+          "description": "يقدم موقع صدى البلد الاخباري أسعار الدولار اليوم الثلاثاء 6-10-2026، ضمن نشرته الخدمية............... صدى البلد : المصدر تراجع جماعي لـ سعر صرف الدولار مقابل الجنيه في ختام تعاملات البنوك",
+          "source": {
+            "id": "elbalad",
+            "name": "Sada El Balad"
+          },
+          "sourceCountry": "EG",
+          "language": "ar",
+          "publishedAt": "2026-10-06T14:07:09.000Z",
+          "imageUrl": "https://media.elbalad.news/2026/8/large/835101665063620260824094706476.jpg",
+          "countryCode": "EG",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:07:09.000Z"
     }
   ]
 }

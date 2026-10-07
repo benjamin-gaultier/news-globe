@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CH",
   "countryName": "Switzerland",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "uAiKU_zZjUY1",
@@ -233,54 +233,6 @@
       "latestPublishedAt": "2026-10-06T12:47:58.000Z"
     },
     {
-      "id": "ctI_I2DC_PAt",
-      "representative": {
-        "id": "ctI_I2DC_PAt",
-        "url": "https://www.srf.ch/news/international/nahost/krieg-im-nahen-osten-mekka-allianz-beschliesst-truppeneinsatz-nach-huthi-angriff",
-        "canonicalUrl": "https://www.srf.ch/news/international/nahost/krieg-im-nahen-osten-mekka-allianz-beschliesst-truppeneinsatz-nach-huthi-angriff",
-        "title": "Krieg im Nahen Osten – Mekka-Allianz beschliesst Truppeneinsatz nach Huthi-Angriff",
-        "description": "Pakistan und Türkei unterstützen Saudi-Arabien militärisch. Hintergrund ist ein Huthi-Angriff auf Saudi-Arabien.",
-        "source": {
-          "id": "srf",
-          "name": "SRF News"
-        },
-        "sourceCountry": "CH",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:47:33.000Z",
-        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/60194f.webp",
-        "countryCode": "CH",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:47:33.000Z"
-    },
-    {
-      "id": "xpOct5AO8Z1Q",
-      "representative": {
-        "id": "xpOct5AO8Z1Q",
-        "url": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-selenski-hofft-auf-dreiertreffen-im-oktober",
-        "canonicalUrl": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-selenski-hofft-auf-dreiertreffen-im-oktober",
-        "title": "Krieg in der Ukraine – Selenski hofft auf Dreiertreffen im Oktober",
-        "description": "Das ukrainische Verhandlungsteam ist laut Selenski bereit, doch Russland müsse ebenfalls Gesprächsbereitschaft zeigen.",
-        "source": {
-          "id": "srf",
-          "name": "SRF News"
-        },
-        "sourceCountry": "CH",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:47:05.000Z",
-        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d66cb5.webp",
-        "countryCode": "CH",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:47:05.000Z"
-    },
-    {
       "id": "VoO3MLzw1dF_",
       "representative": {
         "id": "VoO3MLzw1dF_",
@@ -329,76 +281,124 @@
       "latestPublishedAt": "2026-10-06T12:31:27.000Z"
     },
     {
-      "id": "jiwbpGzKg7w5",
+      "id": "JzzG2XksxvyJ",
       "representative": {
-        "id": "jiwbpGzKg7w5",
-        "url": "https://www.srf.ch/sport/mehr-sport/darts-spektakel-in-basel-littler-fehlt-bellmont-muss-sich-noch-qualifizieren",
-        "canonicalUrl": "https://www.srf.ch/sport/mehr-sport/darts-spektakel-in-basel-littler-fehlt-bellmont-muss-sich-noch-qualifizieren",
-        "title": "Darts-Spektakel in Basel – Littler fehlt – Bellmont muss sich noch qualifizieren",
-        "description": "Am Wochenende gastiert zum dritten Mal die Darts-Elite in der Basler St. Jakobshalle – ohne den Superstar der Szene.",
+        "id": "JzzG2XksxvyJ",
+        "url": "https://www.tagesanzeiger.ch/nations-league-uefa-ermittelt-nach-irland-israel-spiel-343663853628",
+        "canonicalUrl": "https://www.tagesanzeiger.ch/nations-league-uefa-ermittelt-nach-irland-israel-spiel-343663853628",
+        "title": "Eventuelle Spuckattacke: Die Uefa untersucht mögliche Vorwürfe nach der Partie Irland gegen Israel",
+        "description": "Irland spielt gegen Israel in der Nations League auf neutralem Boden. Bei der Partie soll es einen unschönen Vorfall gegeben haben, der nun unter die Lupe genommen wird.",
         "source": {
-          "id": "srf",
-          "name": "SRF News"
+          "id": "tagesanzeiger",
+          "name": "Tages-Anzeiger"
         },
         "sourceCountry": "CH",
         "language": "de",
-        "publishedAt": "2026-10-06T12:30:35.000Z",
-        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/898474.webp",
+        "publishedAt": "2026-10-06T12:15:43.000Z",
+        "imageUrl": "https://cdn.unitycms.io/images/5n6WSTXrq50BifiwSgY6wx.jpg",
         "countryCode": "CH",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:30:35.000Z"
+      "latestPublishedAt": "2026-10-06T12:15:43.000Z"
     },
     {
-      "id": "Hs4pvk3YCAWu",
+      "id": "rszoPx7XqQSh",
       "representative": {
-        "id": "Hs4pvk3YCAWu",
-        "url": "https://www.srf.ch/news/international/separatistenfuehrer-katalonien-haftbefehl-gegen-puigdemont-aufgehoben-rueckkehr-moeglich",
-        "canonicalUrl": "https://www.srf.ch/news/international/separatistenfuehrer-katalonien-haftbefehl-gegen-puigdemont-aufgehoben-rueckkehr-moeglich",
-        "title": "Separatistenführer Katalonien – Haftbefehl gegen Puigdemont aufgehoben – Rückkehr möglich",
-        "description": "Das Verfassungsgericht hat ein zentrales Argument dafür, dass Puigdemonts Haftbefehl aufrechterhalten wird, gekippt.",
+        "id": "rszoPx7XqQSh",
+        "url": "https://www.blick.ch/schweiz/westschweiz/wallis/jessica-moretti-will-nach-inferno-unfall-taggeld/lb3gq63",
+        "canonicalUrl": "https://www.blick.ch/schweiz/westschweiz/wallis/jessica-moretti-will-nach-inferno-unfall-taggeld/lb3gq63",
+        "title": "Jessica Moretti will Geld von der Unfall-Versicherung",
+        "description": "Beschuldigte und mögliche Leistungsempfängerin zugleich? Jessica Moretti könnte nach dem Brand von Crans-Montana Geld von ihrer Unfallversicherung erhalten. Ob die Zurich zahlt, ist laut einem Bericht offen.",
         "source": {
-          "id": "srf",
-          "name": "SRF News"
+          "id": "blick",
+          "name": "Blick"
         },
         "sourceCountry": "CH",
         "language": "de",
-        "publishedAt": "2026-10-06T12:26:11.000Z",
-        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/320e64.webp",
+        "publishedAt": "2026-10-06T12:12:05.000Z",
+        "imageUrl": "https://ocdn.eu/pulscms-transforms/1/tyFktkuTURBXy82ZjE1ZmZjMi02Y2Q1LTQwMjgtODgyMC0xYjgzMWY4NjQ0OGIuanBlZ5KTBc0CWM0BO5MJpjE0MTBmOQY/gbus7rtvh14.jpg",
         "countryCode": "CH",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:26:11.000Z"
+      "latestPublishedAt": "2026-10-06T12:12:05.000Z"
     },
     {
-      "id": "YiZOHFEf5Uyh",
+      "id": "I-xEB4aqCob_",
       "representative": {
-        "id": "YiZOHFEf5Uyh",
-        "url": "https://www.srf.ch/news/schweiz/verbot-von-boellern-nein-kampagne-gegen-feuerwerksinitiative-lanciert",
-        "canonicalUrl": "https://www.srf.ch/news/schweiz/verbot-von-boellern-nein-kampagne-gegen-feuerwerksinitiative-lanciert",
-        "title": "Verbot von Böllern – Nein-Kampagne gegen Feuerwerksinitiative lanciert",
-        "description": "Die Feuerwerksinitiative fordert das Aus für lautes Feuerwerk. Gegner warnen vor Folgen für KMU und Traditionen.",
+        "id": "I-xEB4aqCob_",
+        "url": "https://www.blick.ch/schweiz/zuerich/oberwinterthur-video-zeigt-die-feuerwehr-beim-einsatz/eh8478k",
+        "canonicalUrl": "https://www.blick.ch/schweiz/zuerich/oberwinterthur-video-zeigt-die-feuerwehr-beim-einsatz/eh8478k",
+        "title": "Video zeigt die Feuerwehr beim Einsatz",
+        "description": "In Oberwinterthur ist am Dienstag ein Feuer ausgebrochen. Die Melde-App Alertswiss warnt vor starker Rauchentwicklung.",
         "source": {
-          "id": "srf",
-          "name": "SRF News"
+          "id": "blick",
+          "name": "Blick"
         },
         "sourceCountry": "CH",
         "language": "de",
-        "publishedAt": "2026-10-06T12:25:23.000Z",
-        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/1f40a8.webp",
+        "publishedAt": "2026-10-06T12:05:41.000Z",
+        "imageUrl": "https://ocdn.eu/pulscms-transforms/1/Jc2ktktTURBXy9kZDA3ZmUxMS0xZjg3LTQ3MDItODRjYS1kNjZhMGRlYWFlMGMucG5nkpMFzQJYzQE7kwmmNDU1NjU5Bg/du2q0nwa955.jpg",
         "countryCode": "CH",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:25:23.000Z"
+      "latestPublishedAt": "2026-10-06T12:05:41.000Z"
+    },
+    {
+      "id": "lU6l8BgmOfPu",
+      "representative": {
+        "id": "lU6l8BgmOfPu",
+        "url": "https://www.watson.ch/sport/sport-news/195933263-sportnews-ticker-carlos-alcaraz-feiert-ersten-titel-seit-februar",
+        "canonicalUrl": "https://www.watson.ch/sport/sport-news/195933263-sportnews-ticker-carlos-alcaraz-feiert-ersten-titel-seit-februar",
+        "title": "Alcaraz feiert ersten Titel seit Februar +++ Schwarz fährt nur noch punktuell Slalom",
+        "description": "Die wichtigsten News aus der weiten Welt des Sports: Fussball, Eishockey, Boxen, Tennis und mehr.",
+        "source": {
+          "id": "watson",
+          "name": "watson"
+        },
+        "sourceCountry": "CH",
+        "language": "de",
+        "publishedAt": "2026-10-06T11:36:00.000Z",
+        "imageUrl": "https://www.watson.ch/imgdb/828e/Qdefault,E,139,192,5873,3677,2809,144,535,534/2690431443468891",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:36:00.000Z"
+    },
+    {
+      "id": "hsZhnS5lrsXn",
+      "representative": {
+        "id": "hsZhnS5lrsXn",
+        "url": "https://www.rts.ch/info/suisse/2026/article/feux-d-artifice-les-opposants-a-l-interdiction-lancent-leur-campagne-29377418.html?rts_source=rss_t",
+        "canonicalUrl": "https://www.rts.ch/info/suisse/2026/article/feux-d-artifice-les-opposants-a-l-interdiction-lancent-leur-campagne-29377418.html?rts_source=rss_t",
+        "title": "Les défenseurs des feux d'artifice lancent leur campagne sous le mot d'ordre \"Ce qui nous unit doit rester\"",
+        "description": "Le comité opposé à l'initiative pour l'interdiction des feux d'artifice a lancé mardi sa campagne en vue de la votation du 29 novembre. Pour la droite et l'économie, il faut miser sur la responsabilité plutôt qu'interdire.",
+        "source": {
+          "id": "rts",
+          "name": "RTS Info"
+        },
+        "sourceCountry": "CH",
+        "language": "fr",
+        "publishedAt": "2026-10-06T10:03:00.000Z",
+        "imageUrl": "https://img.rts.ch/articles/2026/image/8b63b696-29377501.image?w=320&amp;h=180",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:03:00.000Z"
     }
   ]
 }

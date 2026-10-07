@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TN",
   "countryName": "Tunisia",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "XuqLwZEziD3O",
@@ -197,144 +197,6 @@
       "latestPublishedAt": "2026-10-06T13:08:00.000Z"
     },
     {
-      "id": "JelM2-e1JH6D",
-      "representative": {
-        "id": "JelM2-e1JH6D",
-        "url": "https://www.lapresse.tn/2026/10/06/gestion-des-risques-un-systeme-precoce-dalertes-multirisques-bientot-a-la-manouba/",
-        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/gestion-des-risques-un-systeme-precoce-dalertes-multirisques-bientot-a-la-manouba/",
-        "title": "Gestion des risques : un système précoce d’alertes multirisques bientôt à la Manouba",
-        "description": "Lors d’une réunion de la Commission régionale de prévention, de lutte contre les catastrophes et d’organisation des secours de la Manouba, tenue hier soir, une délégation d’experts relevant de la Banque mondiale et d’un bureau d’études français, a présenté un exposé sur les résultats de…",
-        "source": {
-          "id": "lapresse_tn",
-          "name": "La Presse de Tunisie"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:04:32.000Z",
-        "imageUrl": null,
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "tOheY2q25mYN",
-          "url": "https://www.mosaiquefm.net/fr/national-tunisie/1532493/tunis-vers-un-systeme-d-alerte-precoce-contre-les-risques-naturels",
-          "canonicalUrl": "https://www.mosaiquefm.net/fr/national-tunisie/1532493/tunis-vers-un-systeme-d-alerte-precoce-contre-les-risques-naturels",
-          "title": "Tunis : vers un système d’alerte précoce contre les risques naturels",
-          "description": "Gouvernorat de Tunis : un système d’alerte précoce face aux risques naturels",
-          "source": {
-            "id": "mosaiquefm",
-            "name": "Mosaïque FM"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-05T21:18:00.000Z",
-          "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791235266.webp",
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:04:32.000Z"
-    },
-    {
-      "id": "dM9mfnxxXXTk",
-      "representative": {
-        "id": "dM9mfnxxXXTk",
-        "url": "https://www.lapresse.tn/2026/10/06/filiere-oleicole-en-guise-de-preparatifs-pour-la-saison-2026-2027-le-crda-de-monastir-retrousse-les-manches/",
-        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/filiere-oleicole-en-guise-de-preparatifs-pour-la-saison-2026-2027-le-crda-de-monastir-retrousse-les-manches/",
-        "title": "Filière oléicole : en guise de préparatifs pour la saison 2026-2027, le CRDA de Monastir retrousse les manches",
-        "description": "Une séance de travail s’est tenue hier, lundi 5 octobre 2026 au siège du Commissariat régional au développement agricole (CRDA) de Monastir. Celle-ci a été consacrée à la coordination entre les différents intervenants en vue des préparatifs de la saison oléicole 2026-2027 dans la région. Dans ce…",
-        "source": {
-          "id": "lapresse_tn",
-          "name": "La Presse de Tunisie"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:02:15.000Z",
-        "imageUrl": null,
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:02:15.000Z"
-    },
-    {
-      "id": "tYVOnFJe1kLR",
-      "representative": {
-        "id": "tYVOnFJe1kLR",
-        "url": "https://www.lapresse.tn/2026/10/06/siliana-issam-lahmar-supervise-les-aides-scolaires-et-anticipe-les-dispositifs-contre-la-vague-de-froid/",
-        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/siliana-issam-lahmar-supervise-les-aides-scolaires-et-anticipe-les-dispositifs-contre-la-vague-de-froid/",
-        "title": "Siliana : Issam Lahmar supervise les aides scolaires et anticipe les dispositifs contre la vague de froid",
-        "description": "Le ministre des Affaires sociales, Issam Lahmar, a effectué aujourd’hui, mardi 6 octobre 2026, une visite dans le gouvernorat de Siliana. Le ministre s’est certes rendu à Siliana pour procéder à l’inauguration de plusieurs sièges relevant de son département des Affaires sociales ainsi que celle…",
-        "source": {
-          "id": "lapresse_tn",
-          "name": "La Presse de Tunisie"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:58:53.000Z",
-        "imageUrl": null,
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:58:53.000Z"
-    },
-    {
-      "id": "7fklRbWvEJbM",
-      "representative": {
-        "id": "7fklRbWvEJbM",
-        "url": "https://www.lapresse.tn/2026/10/06/gnv-awards-2026-une-croissance-portee-par-lafrique-du-nord-et-le-renouvellement-de-la-flotte/",
-        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/gnv-awards-2026-une-croissance-portee-par-lafrique-du-nord-et-le-renouvellement-de-la-flotte/",
-        "title": "GNV Awards 2026 : une croissance portée par l’Afrique du Nord et le renouvellement de la flotte",
-        "description": "À Marrakech, GNV a choisi de réunir ses partenaires du secteur du voyage pour faire le point sur une année 2026 marquée par la progression des volumes, le renforcement de sa présence en Afrique du Nord et la poursuite d’un vaste programme de renouvellement de sa flotte. La septième édition des GNV…",
-        "source": {
-          "id": "lapresse_tn",
-          "name": "La Presse de Tunisie"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:55:53.000Z",
-        "imageUrl": null,
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:55:53.000Z"
-    },
-    {
-      "id": "xf1uQ8dOc-lY",
-      "representative": {
-        "id": "xf1uQ8dOc-lY",
-        "url": "https://www.lapresse.tn/2026/10/06/infractions-routieres-la-campagne-des-agents-en-civil-commence-a-porter-ses-fruits-et-nepargne-personne/",
-        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/infractions-routieres-la-campagne-des-agents-en-civil-commence-a-porter-ses-fruits-et-nepargne-personne/",
-        "title": "Infractions routières : la campagne des agents en civil commence à porter ses fruits et n’épargne personne",
-        "description": "La police de la circulation renforce son dispositif de contrôle dans le Grand Tunis, avec le déploiement d’agents en civil chargés de constater les infractions au Code de la route, notamment durant les périodes de forte affluence. Le directeur de la police de la circulation au ministère de…",
-        "source": {
-          "id": "lapresse_tn",
-          "name": "La Presse de Tunisie"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:49:50.000Z",
-        "imageUrl": null,
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:49:50.000Z"
-    },
-    {
       "id": "xDAQWfbhHEyH",
       "representative": {
         "id": "xDAQWfbhHEyH",
@@ -359,46 +221,148 @@
       "latestPublishedAt": "2026-10-06T12:30:00.000Z"
     },
     {
-      "id": "VVTZMILhlvEh",
+      "id": "38X__Y4l0fAc",
       "representative": {
-        "id": "VVTZMILhlvEh",
-        "url": "https://www.lapresse.tn/2026/10/06/le-physicien-belgo-americain-francis-halzen-decroche-le-prix-nobel-de-physique-2026/",
-        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/le-physicien-belgo-americain-francis-halzen-decroche-le-prix-nobel-de-physique-2026/",
-        "title": "Le physicien belgo-américain Francis Halzen décroche le prix Nobel de physique 2026",
-        "description": "Le physicien des particules belgo-américain Francis Halzen a été récompensé par le prix Nobel de physique 2026, en reconnaissance de son travail pionnier consistant à concevoir un observatoire pour traquer certains des particules les plus insaisissables de l’univers : les neutrinos de haute…",
+        "id": "38X__Y4l0fAc",
+        "url": "https://businessnews.com.tn/2026/10/06/prepares-pendant-des-mois-ecartes-a-la-derniere-minute-quand-le-budget-prive-quatre-jeunes-triathletes-tunisiens-des-championnats-dafrique/1421582/",
+        "canonicalUrl": "https://businessnews.com.tn/2026/10/06/prepares-pendant-des-mois-ecartes-a-la-derniere-minute-quand-le-budget-prive-quatre-jeunes-triathletes-tunisiens-des-championnats-dafrique/1421582/",
+        "title": "Préparés pendant des mois, écartés à la dernière minute : quand le budget prive quatre jeunes triathlètes tunisiens des Championnats d’Afrique",
+        "description": "Les polémiques se suivent dans le sport tunisien et le malaise semble désormais gagner la relève. Après les champions qui dénoncent les retards, le manque de moyens ou les défaillances dans leur accompagnement, après ceux qui quittent leur délégation ou choisissent finalement de poursuivre leur…",
         "source": {
-          "id": "lapresse_tn",
-          "name": "La Presse de Tunisie"
+          "id": "businessnews_tn",
+          "name": "Business News"
         },
         "sourceCountry": "TN",
         "language": "fr",
-        "publishedAt": "2026-10-06T12:05:05.000Z",
+        "publishedAt": "2026-10-06T11:55:57.000Z",
         "imageUrl": null,
         "countryCode": "TN",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "SAc3vIas4spC",
-          "url": "https://www.mosaiquefm.net/fr/actualites-internationales/1532528/le-nobel-de-physique-au-belge-francis-halzen",
-          "canonicalUrl": "https://www.mosaiquefm.net/fr/actualites-internationales/1532528/le-nobel-de-physique-au-belge-francis-halzen",
-          "title": "Le Nobel de physique au Belge Francis Halzen",
-          "description": "Le prix Nobel de physique 2026 a été décerné, ce mardi, au Belge Francis Halzen pour ses travaux sur les neutrinos au coeur de l'Antarctique.",
-          "source": {
-            "id": "mosaiquefm",
-            "name": "Mosaïque FM"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T10:19:00.000Z",
-          "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791282377.webp",
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
+      "related": [],
       "outletCount24h": 0,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:05:05.000Z"
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:55:57.000Z"
+    },
+    {
+      "id": "GqumrQ18FNyT",
+      "representative": {
+        "id": "GqumrQ18FNyT",
+        "url": "https://www.webdo.tn/fr/actualite/national/agriculture-650-candidatures-en-une-semaine-lapia-relance-le-financement-dans-trois-gouvernorats/405072/",
+        "canonicalUrl": "https://www.webdo.tn/fr/actualite/national/agriculture-650-candidatures-en-une-semaine-lapia-relance-le-financement-dans-trois-gouvernorats/405072/",
+        "title": "Agriculture : 650 candidatures en une semaine, l’APIA relance le financement dans trois gouvernorats",
+        "description": "Le financement des projets agricoles suscite un afflux de demandes dans le Centre-Ouest. Après avoir enregistré 650 nouvelles candidatures en seulement une semaine, le projet de valorisation des périmètres irrigués et de développement des chaînes de valeur du Centre-Ouest (PVPI-DCV) relance son…",
+        "source": {
+          "id": "webdo",
+          "name": "Webdo"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T11:27:50.000Z",
+        "imageUrl": null,
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:27:50.000Z"
+    },
+    {
+      "id": "8y5fOUfyGTrG",
+      "representative": {
+        "id": "8y5fOUfyGTrG",
+        "url": "http://www.leaders.com.tn/article/38508-a-l-ere-de-l-intelligence-artificielle-le-role-de-l-enseignant-n-a-jamais-ete-aussi-determinant",
+        "canonicalUrl": "http://www.leaders.com.tn/article/38508-a-l-ere-de-l-intelligence-artificielle-le-role-de-l-enseignant-n-a-jamais-ete-aussi-determinant",
+        "title": "À l’ère de l’intelligence artificielle, le rôle de l’enseignant n’a jamais été aussi déterminant",
+        "description": "À l’heure où l’intelligence artificielle transforme l’accès à l’information et les modes d’apprentissage, le rôle des enseignants prend une nouvelle dimension. La Journée mondiale des enseignants, célébrée le 5 octobre, est l’occasion de rappeler l’importance de celles et ceux qui, chaque jour…",
+        "source": {
+          "id": "leaders_tn",
+          "name": "Leaders"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T10:46:00.000Z",
+        "imageUrl": "http://www.leaders.com.tn/uploads/content/thumbnails_small/1791280596_article.jpg",
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:46:00.000Z"
+    },
+    {
+      "id": "KhVUi4RhsMB3",
+      "representative": {
+        "id": "KhVUi4RhsMB3",
+        "url": "https://realites.com.tn/fr/mohamed-ali-nafti-recoit-le-candidat-roumain-au-poste-de-secretaire-general-de-loif/",
+        "canonicalUrl": "https://realites.com.tn/fr/mohamed-ali-nafti-recoit-le-candidat-roumain-au-poste-de-secretaire-general-de-loif/",
+        "title": "Mohamed Ali Nafti reçoit le candidat roumain au poste de secrétaire général de l’OIF",
+        "description": "Le ministre des Affaires étrangères, de la Migration et des Tunisiens à l’étranger, Mohamed Ali Nafti, a reçu, lundi 5 octobre 2026, Dacian Cioloș, conseiller du président roumain et candidat… The post Mohamed Ali Nafti reçoit le candidat roumain au poste de secrétaire général de l’OIF appeared…",
+        "source": {
+          "id": "realites",
+          "name": "Réalités"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T09:53:11.000Z",
+        "imageUrl": null,
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:53:11.000Z"
+    },
+    {
+      "id": "bVG5xsQDjHuF",
+      "representative": {
+        "id": "bVG5xsQDjHuF",
+        "url": "https://businessnews.com.tn/2026/10/06/pv-a-distance-la-police-roule-t-elle-plus-vite-que-le-code-de-la-route/1421566/",
+        "canonicalUrl": "https://businessnews.com.tn/2026/10/06/pv-a-distance-la-police-roule-t-elle-plus-vite-que-le-code-de-la-route/1421566/",
+        "title": "PV à distance : la police roule-t-elle plus vite que le Code de la route ?",
+        "description": "Des policiers en civil, des infractions photographiées à l’insu des conducteurs et des PV qui arrivent après coup. La nouvelle méthode annoncée par la Police de la circulation promet de compliquer sérieusement la vie des chauffards. L’intention est louable, mais il reste un détail fondamental…",
+        "source": {
+          "id": "businessnews_tn",
+          "name": "Business News"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T09:49:02.000Z",
+        "imageUrl": null,
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:49:02.000Z"
+    },
+    {
+      "id": "WQx3ht1V_Dbf",
+      "representative": {
+        "id": "WQx3ht1V_Dbf",
+        "url": "http://www.leaders.com.tn/article/38506-mohamed-ali-jendoubi-a-la-memoire-de-mon-cher-professeur-et-ami-abdennebi-achour",
+        "canonicalUrl": "http://www.leaders.com.tn/article/38506-mohamed-ali-jendoubi-a-la-memoire-de-mon-cher-professeur-et-ami-abdennebi-achour",
+        "title": "Mohamed Ali Jendoubi : À la mémoire de mon cher professeur et ami, Abdennebi Achour",
+        "description": "Par Mohamed Ali Jendoubi. Président de l’Association méditerranéenne des sciences mathématiques (MIMS) - Un mathématicien brillant, un enseignant passionné, une grande figure de l’école mathématique tunisienne, profondément généreux et discret. Abdennebi Achour nous a quittés prématurément, en ce…",
+        "source": {
+          "id": "leaders_tn",
+          "name": "Leaders"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T08:40:00.000Z",
+        "imageUrl": "http://www.leaders.com.tn/uploads/content/thumbnails_small/1791272818_article.jpg",
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:40:00.000Z"
     }
   ]
 }

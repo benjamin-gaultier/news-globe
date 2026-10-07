@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "NZ",
   "countryName": "New Zealand",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "i58GC4jUmQZB",
@@ -75,30 +75,6 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:19:46.000Z"
-    },
-    {
-      "id": "vjQeevlSz_5u",
-      "representative": {
-        "id": "vjQeevlSz_5u",
-        "url": "https://www.stuff.co.nz/world-news/361043189/francis-halzen-wins-nobel-prize-physics-work-highe",
-        "canonicalUrl": "https://www.stuff.co.nz/world-news/361043189/francis-halzen-wins-nobel-prize-physics-work-highe",
-        "title": "Scientist who hunts mysterious ghost particles in the Antarctic ice wins Nobel Prize for physics",
-        "description": "The Royal Swedish Academy of Sciences announced the award in Stockholm.",
-        "source": {
-          "id": "stuff",
-          "name": "Stuff"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:59:55.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:59:55.000Z"
     },
     {
       "id": "qcHBlOJg__1_",
@@ -202,54 +178,6 @@
       "latestPublishedAt": "2026-10-06T09:24:24.000Z"
     },
     {
-      "id": "2KFbQADkXTlU",
-      "representative": {
-        "id": "2KFbQADkXTlU",
-        "url": "https://www.stuff.co.nz/nz-news/361043147/two-drivers-charged-under-street-racing-law-over-crash-killed-9-year-old-girl",
-        "canonicalUrl": "https://www.stuff.co.nz/nz-news/361043147/two-drivers-charged-under-street-racing-law-over-crash-killed-9-year-old-girl",
-        "title": "Two drivers charged under street racing law over crash that killed 9-year-old girl",
-        "description": "The pair will face court this month.",
-        "source": {
-          "id": "stuff",
-          "name": "Stuff"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-06T08:28:01.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:28:01.000Z"
-    },
-    {
-      "id": "LPh6mYPiGzgq",
-      "representative": {
-        "id": "LPh6mYPiGzgq",
-        "url": "https://www.stuff.co.nz/politics/361036026/nz-election-2026-live-updates-politics-campaign-news",
-        "canonicalUrl": "https://www.stuff.co.nz/politics/361036026/nz-election-2026-live-updates-politics-campaign-news",
-        "title": "‘Frankly, I don't care’, Luxon says as undecided panel favour Hipkins",
-        "description": "Follow the election campaign live.",
-        "source": {
-          "id": "stuff",
-          "name": "Stuff"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-06T08:25:03.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T08:25:03.000Z"
-    },
-    {
       "id": "N4B2JSUduHQ4",
       "representative": {
         "id": "N4B2JSUduHQ4",
@@ -322,30 +250,6 @@
       "latestPublishedAt": "2026-10-06T06:38:07.000Z"
     },
     {
-      "id": "f6BEMwHDsKon",
-      "representative": {
-        "id": "f6BEMwHDsKon",
-        "url": "https://www.stuff.co.nz/world-news/361043131/russian-dead-suspected-plague-after-lab-accident-should-we-be-worried",
-        "canonicalUrl": "https://www.stuff.co.nz/world-news/361043131/russian-dead-suspected-plague-after-lab-accident-should-we-be-worried",
-        "title": "Why Trump is worried about Russia's suspected plague death",
-        "description": "The Kremlin is urging people to ignore speculation, yet information is scarce. State-aligned Russian media and regional authorities are editing or deleting conflicting reports. So what is going on?",
-        "source": {
-          "id": "stuff",
-          "name": "Stuff"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-06T06:25:36.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T06:25:36.000Z"
-    },
-    {
       "id": "iqcxyo9zOVTx",
       "representative": {
         "id": "iqcxyo9zOVTx",
@@ -370,70 +274,148 @@
       "latestPublishedAt": "2026-10-06T06:24:54.000Z"
     },
     {
-      "id": "u56bpG3ioshZ",
+      "id": "iepFRvjwnE4w",
       "representative": {
-        "id": "u56bpG3ioshZ",
-        "url": "https://www.1news.co.nz/2026/10/06/longstanding-agency-failings-contributed-to-loafers-lodge-fire-defence/",
-        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/longstanding-agency-failings-contributed-to-loafers-lodge-fire-defence/",
-        "title": "'Longstanding' agency failings contributed to Loafers Lodge fire - defence",
-        "description": "Four people are on trial facing manslaughter charges over the blaze that killed five men in 2023.",
+        "id": "iepFRvjwnE4w",
+        "url": "https://www.nzherald.co.nz/nz/politics/election-2026-power-remains-in-opportunitys-hands-in-latest-1news-verian-poll/XAKK3QPWINB2TAYCUNK24FC6AQ/",
+        "canonicalUrl": "https://www.nzherald.co.nz/nz/politics/election-2026-power-remains-in-opportunitys-hands-in-latest-1news-verian-poll/XAKK3QPWINB2TAYCUNK24FC6AQ/",
+        "title": "Election 2026: Power remains in Opportunity’s hands in latest 1News-Verian poll",
+        "description": "Opportunity’s eight seats would decide whether the left or right could hold power.",
         "source": {
-          "id": "1news",
-          "name": "1News"
+          "id": "nzherald",
+          "name": "NZ Herald"
         },
         "sourceCountry": "NZ",
         "language": "en",
-        "publishedAt": "2026-10-06T06:21:13.000Z",
-        "imageUrl": "https://www.1news.co.nz/resizer/v2/5MITMBLF7ZAEFLMSXBDUXNLUDA.png?auth=28013128429e25ee16557b7de9f5ab3676551b25531d268e73474245bbf3d059&smart=true&width=1280&height=720",
+        "publishedAt": "2026-10-06T05:25:03.000Z",
+        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/GXVXTRMKZRAKREVLCQ2ZP443XU.jpg?auth=6fac13e805a3b510015829530b03afd7d621f5027e67244dd213833e858919ca&smart=true&width=1280&height=720",
         "countryCode": "NZ",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T06:21:13.000Z"
+      "latestPublishedAt": "2026-10-06T05:25:03.000Z"
     },
     {
-      "id": "iaQnXv9__3Cm",
+      "id": "ZLNitPitJ7pU",
       "representative": {
-        "id": "iaQnXv9__3Cm",
-        "url": "https://www.1news.co.nz/2026/10/06/mayor-wayne-brown-paints-out-aucklands-dumbest-car-park/",
-        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/mayor-wayne-brown-paints-out-aucklands-dumbest-car-park/",
-        "title": "Mayor Wayne Brown paints out 'Auckland's dumbest car park'",
-        "description": "After taking control of local roads from Auckland Transport, the council leader was on the tools to swiftly wipe out what he described as a traffic impediment.",
+        "id": "ZLNitPitJ7pU",
+        "url": "https://www.nzherald.co.nz/nz/fire-sends-huge-smoke-plume-over-lake-wakatipu-near-queenstown/46SZA7UQH5GV5BJHCU5M6XYIPM/",
+        "canonicalUrl": "https://www.nzherald.co.nz/nz/fire-sends-huge-smoke-plume-over-lake-wakatipu-near-queenstown/46SZA7UQH5GV5BJHCU5M6XYIPM/",
+        "title": "Six helicopters, 25 firefighters battle uncontained blaze on Lake Wakatipu hillside",
+        "description": "A witness said a burn-off appeared to have spread out of control.",
         "source": {
-          "id": "1news",
-          "name": "1News"
+          "id": "nzherald",
+          "name": "NZ Herald"
         },
         "sourceCountry": "NZ",
         "language": "en",
-        "publishedAt": "2026-10-05T23:43:13.000Z",
-        "imageUrl": "https://www.1news.co.nz/resizer/v2/N35LWBKO6NACDPMKFNZKLV5THM.jpg?auth=c0b2c5b549ef9cbd88741d84491a8db28e7415e3cc9862089f630fa1a008e107&smart=true&width=720&height=404",
+        "publishedAt": "2026-10-06T05:23:59.000Z",
+        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/I5OVNHPEMJGSVK45GE5DURKBMA.jpg?auth=ba3c080b2cf3e9cb38f013b47d2fe1b55c68d35928f969eeb94bdd8a1c0e1ef6&smart=true&width=1280&height=720",
         "countryCode": "NZ",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "jy3hAJXvdEx8",
-          "url": "https://www.nzherald.co.nz/nz/auckland/mayor-wayne-brown-gets-on-tools-to-remove-aucklands-dumbest-car-park/PBNI5EB2F5BDBO4FSJXWFCFJAM/",
-          "canonicalUrl": "https://www.nzherald.co.nz/nz/auckland/mayor-wayne-brown-gets-on-tools-to-remove-aucklands-dumbest-car-park/PBNI5EB2F5BDBO4FSJXWFCFJAM/",
-          "title": "Mayor Wayne Brown gets on tools to remove Auckland’s ‘dumbest car park’",
-          "description": "Removal of car park space is part of the mayor’s Quick Fixes campaign.",
-          "source": {
-            "id": "nzherald",
-            "name": "NZ Herald"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T06:00:00.000Z",
-          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/QO5ROOO5TNCCZMJNFLJ7EPTITE.png?auth=d3a515e63c34a183d3b839286c0ff1373b4decdb0dfd2a4feb0e54cb3fb21dae&smart=true&width=1280&height=720",
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
+      "related": [],
       "outletCount24h": 0,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:00:00.000Z"
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T05:23:59.000Z"
+    },
+    {
+      "id": "0bRxzEzDbREz",
+      "representative": {
+        "id": "0bRxzEzDbREz",
+        "url": "https://www.nzherald.co.nz/nz/politics/election-2026-green-party-insists-on-pushing-for-wealth-tax-after-high-poll-as-labour-national-feud-over-costings/5I4QKZAQNNDPVOTC7TD7JH5ALQ/",
+        "canonicalUrl": "https://www.nzherald.co.nz/nz/politics/election-2026-green-party-insists-on-pushing-for-wealth-tax-after-high-poll-as-labour-national-feud-over-costings/5I4QKZAQNNDPVOTC7TD7JH5ALQ/",
+        "title": "Election 2026: Green Party insists on pushing for wealth tax after high poll as Labour, National feud over costings",
+        "description": "High polling has the Green Party continuing to push for its wealth tax.",
+        "source": {
+          "id": "nzherald",
+          "name": "NZ Herald"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:07:39.000Z",
+        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/GI7O5HNMIFP3DBBM2EMPYFFQII.jpg?auth=ce6deaea900284b5f9dcfc3dfc8f0d675b34f73f69ec7cbf4f47caf9032597c8&smart=true&width=1280&height=720",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T05:07:39.000Z"
+    },
+    {
+      "id": "HgrsfpGgp5Lg",
+      "representative": {
+        "id": "HgrsfpGgp5Lg",
+        "url": "https://newsroom.co.nz/2026/10/06/hipkins-camps-near-miss-with-too-many-swing-voters/",
+        "canonicalUrl": "https://newsroom.co.nz/2026/10/06/hipkins-camps-near-miss-with-too-many-swing-voters/",
+        "title": "Hipkins camp’s near miss with (too many) swing voters",
+        "description": "On the morning of his big debate with the National leader, Chris Hipkins might have been thrown off balance but made it to safe ground The post Hipkins camp’s near miss with (too many) swing voters appeared first on Newsroom .",
+        "source": {
+          "id": "newsroom_nz",
+          "name": "Newsroom"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T01:40:59.000Z",
+        "imageUrl": "https://i0.wp.com/newsroom.co.nz/wp-content/uploads/2026/10/Screenshot-2026-10-06-at-2.04.30-PM.png?fit=1024%2C576&amp;ssl=1",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T01:40:59.000Z"
+    },
+    {
+      "id": "DsCs8ZhvTmY2",
+      "representative": {
+        "id": "DsCs8ZhvTmY2",
+        "url": "https://newsroom.co.nz/2026/10/06/would-nats-retreat-on-overseas-aid-make-nz-great-again-nz-is-already-great/",
+        "canonicalUrl": "https://newsroom.co.nz/2026/10/06/would-nats-retreat-on-overseas-aid-make-nz-great-again-nz-is-already-great/",
+        "title": "Would Nats’ retreat on overseas aid make NZ great again? ‘NZ is already great’",
+        "description": "Analysis: The Pacific would be insulated from the $431m cuts, meaning development aid to the rest of the world would be slashed by a third The post Would Nats’ retreat on overseas aid make NZ great again? ‘NZ is already great’ appeared first on Newsroom .",
+        "source": {
+          "id": "newsroom_nz",
+          "name": "Newsroom"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T23:00:00.000Z",
+        "imageUrl": "https://i0.wp.com/newsroom.co.nz/wp-content/uploads/2026/10/Helicopter-with-NZAid-logo.jpg?fit=1000%2C614&amp;ssl=1",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T23:00:00.000Z"
+    },
+    {
+      "id": "a3BPocUMwPaF",
+      "representative": {
+        "id": "a3BPocUMwPaF",
+        "url": "https://newsroom.co.nz/2026/10/06/labours-consumer-law-proposals-wont-stop-companies-breaking-them/",
+        "canonicalUrl": "https://newsroom.co.nz/2026/10/06/labours-consumer-law-proposals-wont-stop-companies-breaking-them/",
+        "title": "Labour’s consumer law proposals won’t stop companies breaking them",
+        "description": "Comment: Until businesses know there are real consequences for breaking consumer law, the best-intentioned reforms will have limited impact The post Labour’s consumer law proposals won’t stop companies breaking them appeared first on Newsroom .",
+        "source": {
+          "id": "newsroom_nz",
+          "name": "Newsroom"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T16:48:23.000Z",
+        "imageUrl": "https://i0.wp.com/newsroom.co.nz/wp-content/uploads/2026/10/sale-sign-scaled.jpg?fit=1024%2C683&amp;ssl=1",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T16:48:23.000Z"
     }
   ]
 }

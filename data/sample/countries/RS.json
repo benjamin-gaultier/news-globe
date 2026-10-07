@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "RS",
   "countryName": "Serbia",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "bAB1y3G_mfUL",
@@ -371,30 +371,6 @@
       "latestPublishedAt": "2026-10-06T13:55:09.000Z"
     },
     {
-      "id": "rHgmvhsNhsrL",
-      "representative": {
-        "id": "rHgmvhsNhsrL",
-        "url": "https://www.danas.rs/sport/evroliga-crvena-zvezda-partizan-fransize/",
-        "canonicalUrl": "https://www.danas.rs/sport/evroliga-crvena-zvezda-partizan-fransize/",
-        "title": "Zvezda i Partizan čekaju rasplet: Evroliga objasnila šta sledi u trci za franšize",
-        "description": "Crvena zvezda i Partizan i dalje čekaju odluku o svojoj budućnosti u Evroligi, nakon što vlasnici klubova akcionara nisu doneli konačnu odluku o proširenju takmičenja.",
-        "source": {
-          "id": "danas",
-          "name": "Danas"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T13:55:07.000Z",
-        "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/04/partizan-zvezda-aba-688094-e1776620711596-300x169.jpg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:55:07.000Z"
-    },
-    {
       "id": "ZR6GoYNLvQbF",
       "representative": {
         "id": "ZR6GoYNLvQbF",
@@ -467,28 +443,52 @@
       "latestPublishedAt": "2026-10-06T13:50:57.000Z"
     },
     {
-      "id": "L-AbAaxroFXt",
+      "id": "XLqcyJegosRK",
       "representative": {
-        "id": "L-AbAaxroFXt",
-        "url": "https://www.danas.rs/svet/crni-utorak-francuska-protesti/",
-        "canonicalUrl": "https://www.danas.rs/svet/crni-utorak-francuska-protesti/",
-        "title": "„Crni utorak“ u Francuskoj, na ulicama oko 260.000 demonstranata: Vodenim topovima na učenike u Renu, sukobi policije i srednjoškolaca u Lionu i Strazburu (VIDEO)",
-        "description": "Danas je \"Crni utorak\" kako su su nazvani protesti srednjoškolaca u Francuskoj koji danima demonstriraju zbog loših uslova u školama.",
+        "id": "XLqcyJegosRK",
+        "url": "https://n1info.rs/vesti/ponos-vucic-ima-manjak-vere-da-ce-sledeci-predsednik-srbije-biti-neko-njegov-sve-je-realisticniji/",
+        "canonicalUrl": "https://n1info.rs/vesti/ponos-vucic-ima-manjak-vere-da-ce-sledeci-predsednik-srbije-biti-neko-njegov-sve-je-realisticniji/",
+        "title": "Ponoš: Vučić ima manjak vere da će sledeći predsednik Srbije biti neko njegov, sve je realističniji",
+        "description": "Jedan od nosilaca izborne liste \"Evropska Srbija\" i predsednik stranke Srbija centar (SRCE) Zdravko Ponoš ocenio je danas da potezi bivšeg predsednika",
         "source": {
-          "id": "danas",
-          "name": "Danas"
+          "id": "n1_rs",
+          "name": "N1"
         },
         "sourceCountry": "RS",
         "language": "sr",
-        "publishedAt": "2026-10-06T13:49:27.000Z",
-        "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/10/14342396-e1791294317455-300x169.jpg",
+        "publishedAt": "2026-10-06T13:48:09.000Z",
+        "imageUrl": "https://n1info.rs/media/images/2026/9/17/1789635022_ZDRAVKO_PONOS.width-1200.jpg",
         "countryCode": "RS",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:49:27.000Z"
+      "latestPublishedAt": "2026-10-06T13:48:09.000Z"
+    },
+    {
+      "id": "K5Q7g6ih8Tfg",
+      "representative": {
+        "id": "K5Q7g6ih8Tfg",
+        "url": "https://n1info.rs/vesti/novi-protest-u-pristini-traze-drugo-glasanje-o-izmenama-zakona-o-specijalizovanim-vecima/",
+        "canonicalUrl": "https://n1info.rs/vesti/novi-protest-u-pristini-traze-drugo-glasanje-o-izmenama-zakona-o-specijalizovanim-vecima/",
+        "title": "Novi protest u Prištini - traže drugo glasanje o izmenama Zakona o specijalizovanim većima",
+        "description": "Ispred Skupštine Kosova okupila se veća grupa građana koja zahteva da drugo glasanje o izmenama Zakona o specijalizovanim većima sa sedištem u Hagu bu",
+        "source": {
+          "id": "n1_rs",
+          "name": "N1"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:40:57.000Z",
+        "imageUrl": "https://n1info.rs/media/images/1791293935_2026-10-05T112527Z_1906140407_RC2YWNAHLG6K_RTRMADP_3_.width-1200.JPG",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:40:57.000Z"
     }
   ]
 }

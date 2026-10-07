@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CR",
   "countryName": "Costa Rica",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "YE3e-dTcYra0",
@@ -101,6 +101,198 @@
       "latestPublishedAt": "2026-10-06T14:55:01.000Z"
     },
     {
+      "id": "3EeZE1ClQ4gg",
+      "representative": {
+        "id": "3EeZE1ClQ4gg",
+        "url": "https://semanariouniversidad.com/cultura/la-votacion-vuelve-al-escenario-para-poner-la-salud-mental-en-la-mesa-de-la-convivencia/",
+        "canonicalUrl": "https://semanariouniversidad.com/cultura/la-votacion-vuelve-al-escenario-para-poner-la-salud-mental-en-la-mesa-de-la-convivencia/",
+        "title": "«La Votación» vuelve al escenario para poner la salud mental en la mesa de la convivencia",
+        "description": "La segunda temporada del montaje de Grupo Teatral Reflejos profundiza en los miedos, inseguridades y contradicciones que atraviesan las relaciones humanas. La obra se presentará del 9 al 11 de octubre en la Sala de Teatro Nico Baker, con una propuesta de teatro-danza construida desde la adaptación…",
+        "source": {
+          "id": "semanariouniversidad",
+          "name": "Semanario Universidad"
+        },
+        "sourceCountry": "CR",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:00:41.000Z",
+        "imageUrl": "https://semanariouniversidad.com/wp-content/uploads/2026/10/Laura-Sk--724x1024.png",
+        "countryCode": "CR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:00:41.000Z"
+    },
+    {
+      "id": "TJzsugJz2HW2",
+      "representative": {
+        "id": "TJzsugJz2HW2",
+        "url": "https://semanariouniversidad.com/pais/indigenas-ngabe-bugle-que-vienen-a-cosechar-cafe-enfrentan-precariedad-por-espera-en-la-frontera-denuncia-organizacion/",
+        "canonicalUrl": "https://semanariouniversidad.com/pais/indigenas-ngabe-bugle-que-vienen-a-cosechar-cafe-enfrentan-precariedad-por-espera-en-la-frontera-denuncia-organizacion/",
+        "title": "Indígenas Ngäbe-Buglé que vienen a cosechar café enfrentan precariedad por espera en la frontera, denuncia organización",
+        "description": "Trabajadores migrantes Ngäbe-Buglé y sus familias duermen en la calle sin alimentos ni agua potable mientras esperan el carné en el puesto fronterizo de río Sereno, según informe. La entrada Indígenas Ngäbe-Buglé que vienen a cosechar café enfrentan precariedad por espera en la frontera, denuncia…",
+        "source": {
+          "id": "semanariouniversidad",
+          "name": "Semanario Universidad"
+        },
+        "sourceCountry": "CR",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:00:33.000Z",
+        "imageUrl": "https://semanariouniversidad.com/wp-content/uploads/2026/10/foto1-1024x769.jpeg",
+        "countryCode": "CR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:00:33.000Z"
+    },
+    {
+      "id": "eFWJ6RTXc1PY",
+      "representative": {
+        "id": "eFWJ6RTXc1PY",
+        "url": "https://observador.cr/6-de-9-comites-de-cruz-roja-en-heredia-estan-en-riesgo-buscan-alternativas-con-alcaldes-y-diputados-para-evitarlo/",
+        "canonicalUrl": "https://observador.cr/6-de-9-comites-de-cruz-roja-en-heredia-estan-en-riesgo-buscan-alternativas-con-alcaldes-y-diputados-para-evitarlo/",
+        "title": "6 de 9 comités de Cruz Roja en Heredia están en riesgo; buscan alternativas con alcaldes y diputados para evitarlo",
+        "description": "Se sumarían a los de San Rafael y San Pablo, cuyos comités cerraron sus puertas. The post 6 de 9 comités de Cruz Roja en Heredia están en riesgo; buscan alternativas con alcaldes y diputados para evitarlo appeared first on El Observador CR .",
+        "source": {
+          "id": "observador_cr",
+          "name": "El Observador"
+        },
+        "sourceCountry": "CR",
+        "language": "es",
+        "publishedAt": "2026-10-06T06:07:00.000Z",
+        "imageUrl": null,
+        "countryCode": "CR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:07:00.000Z"
+    },
+    {
+      "id": "nfzPPDA8rh_l",
+      "representative": {
+        "id": "nfzPPDA8rh_l",
+        "url": "https://observador.cr/sistema-con-90-de-probabilidad-de-convertirse-en-ciclon-esta-en-el-pacifico-afectara-a-costa-rica/",
+        "canonicalUrl": "https://observador.cr/sistema-con-90-de-probabilidad-de-convertirse-en-ciclon-esta-en-el-pacifico-afectara-a-costa-rica/",
+        "title": "Sistema con 90% de probabilidad de convertirse en ciclón está en el Pacífico: ¿afectará a Costa Rica?",
+        "description": "El fenómeno se encuentra al sur del Golfo de Tehuantepec, en México. The post Sistema con 90% de probabilidad de convertirse en ciclón está en el Pacífico: ¿afectará a Costa Rica? appeared first on El Observador CR .",
+        "source": {
+          "id": "observador_cr",
+          "name": "El Observador"
+        },
+        "sourceCountry": "CR",
+        "language": "es",
+        "publishedAt": "2026-10-06T06:06:00.000Z",
+        "imageUrl": null,
+        "countryCode": "CR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:06:00.000Z"
+    },
+    {
+      "id": "_1yXIhpsf_nE",
+      "representative": {
+        "id": "_1yXIhpsf_nE",
+        "url": "https://observador.cr/forbes-pone-a-prueba-casi-30-anos-del-modelo-de-turismo-sostenible-de-costa-rica/",
+        "canonicalUrl": "https://observador.cr/forbes-pone-a-prueba-casi-30-anos-del-modelo-de-turismo-sostenible-de-costa-rica/",
+        "title": "“Forbes” pone a prueba casi 30 años del modelo de turismo sostenible de Costa Rica",
+        "description": "La revista reconstruyó la historia de la certificación que Costa Rica creó en 1997 para medir la sostenibilidad de sus empresas turísticas. The post “Forbes” pone a prueba casi 30 años del modelo de turismo sostenible de Costa Rica appeared first on El Observador CR .",
+        "source": {
+          "id": "observador_cr",
+          "name": "El Observador"
+        },
+        "sourceCountry": "CR",
+        "language": "es",
+        "publishedAt": "2026-10-06T06:05:00.000Z",
+        "imageUrl": null,
+        "countryCode": "CR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:05:00.000Z"
+    },
+    {
+      "id": "nZp6MQS0625o",
+      "representative": {
+        "id": "nZp6MQS0625o",
+        "url": "https://elmundo.cr/opinion/la-oposicion-que-costa-rica-necesita/",
+        "canonicalUrl": "https://elmundo.cr/opinion/la-oposicion-que-costa-rica-necesita/",
+        "title": "La oposición que Costa Rica necesita",
+        "description": "La oposición que Costa Rica necesita La oposición costarricense tiene una oportunidad que ninguna derrota electoral puede arrebatarle. Puede volver a ser reconocida por lo que propone para el país, no solamente por aquello que rechaza del Gobierno. Me dirijo al Partido Liberación Nacional, al…",
+        "source": {
+          "id": "elmundo_cr",
+          "name": "El Mundo CR"
+        },
+        "sourceCountry": "CR",
+        "language": "es",
+        "publishedAt": "2026-10-06T00:01:25.000Z",
+        "imageUrl": null,
+        "countryCode": "CR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T00:01:25.000Z"
+    },
+    {
+      "id": "UzvhJXUL0R2t",
+      "representative": {
+        "id": "UzvhJXUL0R2t",
+        "url": "https://elmundo.cr/costa-rica/fiscal-general-abrio-investigacion-ante-presencia-del-extraditable-en-celebracion-de-laura-fernandez/",
+        "canonicalUrl": "https://elmundo.cr/costa-rica/fiscal-general-abrio-investigacion-ante-presencia-del-extraditable-en-celebracion-de-laura-fernandez/",
+        "title": "Fiscal general abrió investigación ante presencia del extraditable en celebración de Laura Fernández",
+        "description": "Fiscal general abrió investigación ante presencia del extraditable en celebración de Laura Fernández San José, 05 oct (elmundo.cr) – El fiscal general de la República, Carlo Díaz, confirmó al medio La Nación que el Ministerio Público abrió una investigación de oficio para determinar la existencia…",
+        "source": {
+          "id": "elmundo_cr",
+          "name": "El Mundo CR"
+        },
+        "sourceCountry": "CR",
+        "language": "es",
+        "publishedAt": "2026-10-05T23:52:36.000Z",
+        "imageUrl": null,
+        "countryCode": "CR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T23:52:36.000Z"
+    },
+    {
+      "id": "iNy8-OBaoxjK",
+      "representative": {
+        "id": "iNy8-OBaoxjK",
+        "url": "https://elmundo.cr/costa-rica/fraccion-de-pueblo-soberano-niega-vinculos-con-persona-extraditable-de-apellido-zhang/",
+        "canonicalUrl": "https://elmundo.cr/costa-rica/fraccion-de-pueblo-soberano-niega-vinculos-con-persona-extraditable-de-apellido-zhang/",
+        "title": "Fracción de Pueblo Soberano niega vínculos con persona extraditable de apellido Zhang",
+        "description": "Fracción de Pueblo Soberano niega vínculos con persona extraditable de apellido Zhang San José, 05 oct (elmundo.cr) – La fracción legislativa del Partido Pueblo Soberano aclaró de manera categórica que no mantiene, ni ha mantenido, ninguna relación con la persona de apellido Zhang, quien se…",
+        "source": {
+          "id": "elmundo_cr",
+          "name": "El Mundo CR"
+        },
+        "sourceCountry": "CR",
+        "language": "es",
+        "publishedAt": "2026-10-05T22:42:32.000Z",
+        "imageUrl": null,
+        "countryCode": "CR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T22:42:32.000Z"
+    },
+    {
       "id": "ycKboYKBCRvf",
       "representative": {
         "id": "ycKboYKBCRvf",
@@ -171,198 +363,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:17:28.000Z"
-    },
-    {
-      "id": "w_s0NGdNjseM",
-      "representative": {
-        "id": "w_s0NGdNjseM",
-        "url": "https://delfino.cr/2026/10/brasil-tendra-segunda-vuelta-entre-lula-y-flavio-bolsonaro",
-        "canonicalUrl": "https://delfino.cr/2026/10/brasil-tendra-segunda-vuelta-entre-lula-y-flavio-bolsonaro",
-        "title": "Brasil tendrá segunda vuelta entre Lula y Flávio Bolsonaro",
-        "description": "Además, España adelanta elecciones en medio de la crisis de vivienda.",
-        "source": {
-          "id": "delfino",
-          "name": "Delfino"
-        },
-        "sourceCountry": "CR",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:05:28.000Z",
-        "imageUrl": null,
-        "countryCode": "CR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:05:28.000Z"
-    },
-    {
-      "id": "3EeZE1ClQ4gg",
-      "representative": {
-        "id": "3EeZE1ClQ4gg",
-        "url": "https://semanariouniversidad.com/cultura/la-votacion-vuelve-al-escenario-para-poner-la-salud-mental-en-la-mesa-de-la-convivencia/",
-        "canonicalUrl": "https://semanariouniversidad.com/cultura/la-votacion-vuelve-al-escenario-para-poner-la-salud-mental-en-la-mesa-de-la-convivencia/",
-        "title": "«La Votación» vuelve al escenario para poner la salud mental en la mesa de la convivencia",
-        "description": "La segunda temporada del montaje de Grupo Teatral Reflejos profundiza en los miedos, inseguridades y contradicciones que atraviesan las relaciones humanas. La obra se presentará del 9 al 11 de octubre en la Sala de Teatro Nico Baker, con una propuesta de teatro-danza construida desde la adaptación…",
-        "source": {
-          "id": "semanariouniversidad",
-          "name": "Semanario Universidad"
-        },
-        "sourceCountry": "CR",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:00:41.000Z",
-        "imageUrl": "https://semanariouniversidad.com/wp-content/uploads/2026/10/Laura-Sk--724x1024.png",
-        "countryCode": "CR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:00:41.000Z"
-    },
-    {
-      "id": "yW4zhE0dnvqF",
-      "representative": {
-        "id": "yW4zhE0dnvqF",
-        "url": "https://delfino.cr/2026/10/natalia-morera-se-proclama-subcampeona-panamericana-juvenil-de-halterofilia-2",
-        "canonicalUrl": "https://delfino.cr/2026/10/natalia-morera-se-proclama-subcampeona-panamericana-juvenil-de-halterofilia-2",
-        "title": "Natalia Morera se proclama subcampeona panamericana juvenil de halterofilia",
-        "description": null,
-        "source": {
-          "id": "delfino",
-          "name": "Delfino"
-        },
-        "sourceCountry": "CR",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:55:33.000Z",
-        "imageUrl": null,
-        "countryCode": "CR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:55:33.000Z"
-    },
-    {
-      "id": "2yM7pEg0k0Qi",
-      "representative": {
-        "id": "2yM7pEg0k0Qi",
-        "url": "https://delfino.cr/2026/10/natalia-morera-se-proclama-subcampeona-panamericana-juvenil-de-halterofilia",
-        "canonicalUrl": "https://delfino.cr/2026/10/natalia-morera-se-proclama-subcampeona-panamericana-juvenil-de-halterofilia",
-        "title": "Natalia Morera se proclama subcampeona panamericana juvenil de halterofilia",
-        "description": "La costarricense de 20 años ganó plata juvenil y bronce en la categoría mayor durante el certamen continental que reúne en México a cerca de 300 halteristas de 22 países.",
-        "source": {
-          "id": "delfino",
-          "name": "Delfino"
-        },
-        "sourceCountry": "CR",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:25:33.000Z",
-        "imageUrl": null,
-        "countryCode": "CR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:25:33.000Z"
-    },
-    {
-      "id": "TJzsugJz2HW2",
-      "representative": {
-        "id": "TJzsugJz2HW2",
-        "url": "https://semanariouniversidad.com/pais/indigenas-ngabe-bugle-que-vienen-a-cosechar-cafe-enfrentan-precariedad-por-espera-en-la-frontera-denuncia-organizacion/",
-        "canonicalUrl": "https://semanariouniversidad.com/pais/indigenas-ngabe-bugle-que-vienen-a-cosechar-cafe-enfrentan-precariedad-por-espera-en-la-frontera-denuncia-organizacion/",
-        "title": "Indígenas Ngäbe-Buglé que vienen a cosechar café enfrentan precariedad por espera en la frontera, denuncia organización",
-        "description": "Trabajadores migrantes Ngäbe-Buglé y sus familias duermen en la calle sin alimentos ni agua potable mientras esperan el carné en el puesto fronterizo de río Sereno, según informe. La entrada Indígenas Ngäbe-Buglé que vienen a cosechar café enfrentan precariedad por espera en la frontera, denuncia…",
-        "source": {
-          "id": "semanariouniversidad",
-          "name": "Semanario Universidad"
-        },
-        "sourceCountry": "CR",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:00:33.000Z",
-        "imageUrl": "https://semanariouniversidad.com/wp-content/uploads/2026/10/foto1-1024x769.jpeg",
-        "countryCode": "CR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:00:33.000Z"
-    },
-    {
-      "id": "8MWWS5J_6oA1",
-      "representative": {
-        "id": "8MWWS5J_6oA1",
-        "url": "https://semanariouniversidad.com/pais/proyecto-de-marta-esquivel-que-elimina-colegiaturas-obligatorias-requiere-38-votos-para-aprobacion/",
-        "canonicalUrl": "https://semanariouniversidad.com/pais/proyecto-de-marta-esquivel-que-elimina-colegiaturas-obligatorias-requiere-38-votos-para-aprobacion/",
-        "title": "Proyecto de Marta Esquivel que elimina colegiaturas obligatorias requiere 38 votos para aprobación",
-        "description": "“El proyecto modifica condiciones que hoy forman parte de la gestión ordinaria del recurso humano judicial y obliga a reorganizar procedimientos, controles, sistemas y responsabilidades”, indicó Julia Varela. La entrada Proyecto de Marta Esquivel que elimina colegiaturas obligatorias requiere 38…",
-        "source": {
-          "id": "semanariouniversidad",
-          "name": "Semanario Universidad"
-        },
-        "sourceCountry": "CR",
-        "language": "es",
-        "publishedAt": "2026-10-06T10:23:35.000Z",
-        "imageUrl": "https://semanariouniversidad.com/wp-content/uploads/2026/10/Sin-titulo.png",
-        "countryCode": "CR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:23:35.000Z"
-    },
-    {
-      "id": "B843IuaCrTjc",
-      "representative": {
-        "id": "B843IuaCrTjc",
-        "url": "https://delfino.cr/2026/10/corte-completa-nomina-de-24-candidaturas-para-las-12-suplencias-de-sala-constitucional",
-        "canonicalUrl": "https://delfino.cr/2026/10/corte-completa-nomina-de-24-candidaturas-para-las-12-suplencias-de-sala-constitucional",
-        "title": "Corte completa nómina de 24 candidaturas para las 12 suplencias de Sala Constitucional",
-        "description": "Corte escogió este lunes las seis personas pendientes para completar la lista de 24 candidaturas entre las que la Asamblea Legislativa deberá llenar las 12 vacantes de magistraturas suplentes.",
-        "source": {
-          "id": "delfino",
-          "name": "Delfino"
-        },
-        "sourceCountry": "CR",
-        "language": "es",
-        "publishedAt": "2026-10-06T10:20:38.000Z",
-        "imageUrl": null,
-        "countryCode": "CR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:20:38.000Z"
-    },
-    {
-      "id": "rLPMiN2pdks4",
-      "representative": {
-        "id": "rLPMiN2pdks4",
-        "url": "https://delfino.cr/2026/10/vuelta-femenina-a-costa-rica-2026-cierra-con-protagonismo-internacional-y-titulos-repartidos",
-        "canonicalUrl": "https://delfino.cr/2026/10/vuelta-femenina-a-costa-rica-2026-cierra-con-protagonismo-internacional-y-titulos-repartidos",
-        "title": "Vuelta Femenina a Costa Rica 2026 cierra con protagonismo internacional y títulos repartidos",
-        "description": "Jessica Parra ganó la clasificación general y la montaña, Catalina Soto dominó la regularidad y Natalia Safroniuk se impuso en Sub23 y metas volantes.",
-        "source": {
-          "id": "delfino",
-          "name": "Delfino"
-        },
-        "sourceCountry": "CR",
-        "language": "es",
-        "publishedAt": "2026-10-06T10:17:11.000Z",
-        "imageUrl": null,
-        "countryCode": "CR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:17:11.000Z"
     }
   ]
 }

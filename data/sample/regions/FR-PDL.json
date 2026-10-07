@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-PDL",
   "regionName": "Pays de la Loire",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "AcAjtJ_hDGPI",
@@ -29,30 +29,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T12:00:10.000Z"
-    },
-    {
-      "id": "uMAbLIGF1hW4",
-      "representative": {
-        "id": "uMAbLIGF1hW4",
-        "url": "https://tvvendee.fr/le-journal-edition-de-la-mi-journee/le-journal-de-la-vendee-du-7-octobre-2026-edition-de-la-mi-journee/",
-        "canonicalUrl": "https://tvvendee.fr/le-journal-edition-de-la-mi-journee/le-journal-de-la-vendee-du-7-octobre-2026-edition-de-la-mi-journee/",
-        "title": "Le journal de la Vendée du 7 octobre 2026 – Edition de la mi-journée",
-        "description": "The post Le journal de la Vendée du 7 octobre 2026 – Edition de la mi-journée appeared first on TV Vendée .",
-        "source": {
-          "id": "tvvendee",
-          "name": "TV Vendée"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T10:56:03.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-PDL"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:56:03.000Z"
     },
     {
       "id": "t-GiZrhTtchP",
@@ -101,6 +77,150 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T10:49:28.000Z"
+    },
+    {
+      "id": "rzAKCY1R--wN",
+      "representative": {
+        "id": "rzAKCY1R--wN",
+        "url": "https://lemans.maville.com/actu/actudet_-octobre-rose-envoyez-des-messages-de-soutien-a-vos-proches-malades-du-cancer_loc-7503460_actu.Htm?utm_source=RSS_MVI_lemans&utm_medium=RSS&utm_campaign=RSS",
+        "canonicalUrl": "https://lemans.maville.com/actu/actudet_-octobre-rose-envoyez-des-messages-de-soutien-a-vos-proches-malades-du-cancer_loc-7503460_actu.Htm",
+        "title": "Octobre rose : envoyez des messages de soutien à vos proches malades du cancer (Maine Libre)",
+        "description": "Mercredi 07 octobre 2026 A l’occasion d’Octobre rose, événement destiné à sensibiliser les femmes au dépistage du cancer du sein et à récolter des fonds pour la recherche, Le Maine Libre propose aux Sarthoises et Sarthois d’envoyer leurs messages de soutien à des proches touchés par un cancer.",
+        "source": {
+          "id": "maville_pdl",
+          "name": "Ouest-France (maville Nantes, Angers, Le Mans)"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T09:50:00.000Z",
+        "imageUrl": "https://www.maville.com/photosmvi/2026/10/07/P36177598D7503460G_px_700_.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-PDL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:50:00.000Z"
+    },
+    {
+      "id": "8GDNQtRSg1ML",
+      "representative": {
+        "id": "8GDNQtRSg1ML",
+        "url": "https://lemans.maville.com/actu/actudet_-en-images-blocus-des-lycees-et-manifestation-au-mans-revivez-la-journee-de-greve-du-6-octobre_loc-7512560_actu.Htm?utm_source=RSS_MVI_lemans&utm_medium=RSS&utm_campaign=RSS",
+        "canonicalUrl": "https://lemans.maville.com/actu/actudet_-en-images-blocus-des-lycees-et-manifestation-au-mans-revivez-la-journee-de-greve-du-6-octobre_loc-7512560_actu.Htm",
+        "title": "EN IMAGES. Blocus des lycées et manifestation au Mans : revivez la journée de grève du 6 octobre (Maine Libre)",
+        "description": "Mercredi 07 octobre 2026 Blocages des lycées le matin, manifestation dans les rues du Mans l’après-midi : revivez en photos la journée de grève du 6 octobre 2026",
+        "source": {
+          "id": "maville_pdl",
+          "name": "Ouest-France (maville Nantes, Angers, Le Mans)"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T09:26:00.000Z",
+        "imageUrl": "https://www.maville.com/photosmvi/2026/10/07/P36172578D7512560G_px_700_.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-PDL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:26:00.000Z"
+    },
+    {
+      "id": "x-oeNOaNyJtz",
+      "representative": {
+        "id": "x-oeNOaNyJtz",
+        "url": "https://angers.maville.com/actu/actudet_-600-jeunes-defilent-a-cholet-blocus-et-feux-a-angers-la-mobilisation-des-lycees-se-poursuit-en-maine-et-loire_loc-7512550_actu.Htm?utm_source=RSS_MVI_angers&utm_medium=RSS&utm_campaign=RSS",
+        "canonicalUrl": "https://angers.maville.com/actu/actudet_-600-jeunes-defilent-a-cholet-blocus-et-feux-a-angers-la-mobilisation-des-lycees-se-poursuit-en-maine-et-loire_loc-7512550_actu.Htm",
+        "title": "600 jeunes défilent à Cholet, blocus et feux à Angers… La mobilisation des lycées se poursuit en Maine-et-Loire (Ouest-France)",
+        "description": "Mercredi 07 octobre 2026 Au lendemain d’une journée marquée par plusieurs manifestations en Maine-et-Loire, la mobilisation lycéenne se poursuit, ce mercredi 7 octobre, à Angers et Cholet notamment.",
+        "source": {
+          "id": "maville_pdl",
+          "name": "Ouest-France (maville Nantes, Angers, Le Mans)"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T09:15:00.000Z",
+        "imageUrl": "https://www.maville.com/photosmvi/2026/10/07/P36177595D7512550G_px_700_.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-PDL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:15:00.000Z"
+    },
+    {
+      "id": "0RDMaWrh3tlm",
+      "representative": {
+        "id": "0RDMaWrh3tlm",
+        "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/un-electeur-contestait-la-reelection-de-johanna-rolland-comme-maire-de-nantes-sa-protestation-electorale-a-ete-rejetee-3429129.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/un-electeur-contestait-la-reelection-de-johanna-rolland-comme-maire-de-nantes-sa-protestation-electorale-a-ete-rejetee-3429129.html",
+        "title": "Un électeur contestait la réélection de Johanna Rolland comme maire de Nantes, sa \"protestation électorale\" a été rejetée",
+        "description": "Le tribunal administratif de Nantes a rejeté mardi 6 octobre 2026 la \"protestation électorale\" d'un habitant contre la victoire de la maire sortante Johanna Rolland (PS) lors des dernières élections municipales du 22 mars 2026 à Nantes.",
+        "source": {
+          "id": "france3_pdl",
+          "name": "France 3 Pays de la Loire"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:25:41.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/Uxo84MwwpjtVE8n6eh2tJO-p94I/930x620/filters:format(webp)/regions/2026/10/07/6ac5e5a9d8d67493671158.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-PDL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:25:41.000Z"
+    },
+    {
+      "id": "OiWsUp2avmeR",
+      "representative": {
+        "id": "OiWsUp2avmeR",
+        "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/maine-et-loire/angers/temoignage-j-entends-sa-petite-voix-m-appeler-jonas-a-ete-enleve-par-sa-mere-au-gabon-son-pere-se-bat-pour-le-retrouver-3428763.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/pays-de-la-loire/maine-et-loire/angers/temoignage-j-entends-sa-petite-voix-m-appeler-jonas-a-ete-enleve-par-sa-mere-au-gabon-son-pere-se-bat-pour-le-retrouver-3428763.html",
+        "title": "TEMOIGNAGE. \"J'entends sa petite voix m'appeler\", Jonas a été enlevé par sa mère au Gabon, son père se bat pour le retrouver",
+        "description": "Dominique Debroise, originaire de Châteauneuf-sur-Sarthe, n'a pas vu son fils Jonas depuis le 19 août 2025. Son fils, quatre ans à l'époque, était en vacances au Gabon avec sa mère Rosine. Il aurait dû y passer deux mois de vacances, il n'est jamais rentré en France. Dominique Debroise se bat pour…",
+        "source": {
+          "id": "france3_pdl",
+          "name": "France 3 Pays de la Loire"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:54:41.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/uE6vgIgzBCjJ_PUPq-BmK3A1Vzs/930x620/filters:format(webp)/regions/2026/10/06/6ac4ef0d19234199399590.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-PDL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:54:41.000Z"
+    },
+    {
+      "id": "T4LpbR8KPmx9",
+      "representative": {
+        "id": "T4LpbR8KPmx9",
+        "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/octobre-rose-on-vous-explique-pourquoi-nantes-affiche-plus-de-cas-de-cancers-du-sein-3428943.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/octobre-rose-on-vous-explique-pourquoi-nantes-affiche-plus-de-cas-de-cancers-du-sein-3428943.html",
+        "title": "Octobre Rose. On vous explique pourquoi Nantes affiche plus de cas de cancers du sein",
+        "description": "C'est en ce moment Octobre Rose, le mois de sensibilisation au cancer du sein. 31 jours pour communiquer sur l'importance du dépistage, qui permet de guérir de la maladie dans 90 % des cas, si la détection est précoce. Dans les Pays de la Loire, la consigne est bien comprise.",
+        "source": {
+          "id": "france3_pdl",
+          "name": "France 3 Pays de la Loire"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:32:41.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/uEEx01QJ8AfJ-peduBXm-DJIgxk/930x620/filters:format(webp)/regions/2026/10/06/6ac5153d039d9378442396.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-PDL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:32:41.000Z"
     },
     {
       "id": "WJHdSNi2zyfS",
@@ -245,126 +365,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T10:00:31.000Z"
-    },
-    {
-      "id": "rzAKCY1R--wN",
-      "representative": {
-        "id": "rzAKCY1R--wN",
-        "url": "https://lemans.maville.com/actu/actudet_-octobre-rose-envoyez-des-messages-de-soutien-a-vos-proches-malades-du-cancer_loc-7503460_actu.Htm?utm_source=RSS_MVI_lemans&utm_medium=RSS&utm_campaign=RSS",
-        "canonicalUrl": "https://lemans.maville.com/actu/actudet_-octobre-rose-envoyez-des-messages-de-soutien-a-vos-proches-malades-du-cancer_loc-7503460_actu.Htm",
-        "title": "Octobre rose : envoyez des messages de soutien à vos proches malades du cancer (Maine Libre)",
-        "description": "Mercredi 07 octobre 2026 A l’occasion d’Octobre rose, événement destiné à sensibiliser les femmes au dépistage du cancer du sein et à récolter des fonds pour la recherche, Le Maine Libre propose aux Sarthoises et Sarthois d’envoyer leurs messages de soutien à des proches touchés par un cancer.",
-        "source": {
-          "id": "maville_pdl",
-          "name": "Ouest-France (maville Nantes, Angers, Le Mans)"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T09:50:00.000Z",
-        "imageUrl": "https://www.maville.com/photosmvi/2026/10/07/P36177598D7503460G_px_700_.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PDL"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:50:00.000Z"
-    },
-    {
-      "id": "8GDNQtRSg1ML",
-      "representative": {
-        "id": "8GDNQtRSg1ML",
-        "url": "https://lemans.maville.com/actu/actudet_-en-images-blocus-des-lycees-et-manifestation-au-mans-revivez-la-journee-de-greve-du-6-octobre_loc-7512560_actu.Htm?utm_source=RSS_MVI_lemans&utm_medium=RSS&utm_campaign=RSS",
-        "canonicalUrl": "https://lemans.maville.com/actu/actudet_-en-images-blocus-des-lycees-et-manifestation-au-mans-revivez-la-journee-de-greve-du-6-octobre_loc-7512560_actu.Htm",
-        "title": "EN IMAGES. Blocus des lycées et manifestation au Mans : revivez la journée de grève du 6 octobre (Maine Libre)",
-        "description": "Mercredi 07 octobre 2026 Blocages des lycées le matin, manifestation dans les rues du Mans l’après-midi : revivez en photos la journée de grève du 6 octobre 2026",
-        "source": {
-          "id": "maville_pdl",
-          "name": "Ouest-France (maville Nantes, Angers, Le Mans)"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T09:26:00.000Z",
-        "imageUrl": "https://www.maville.com/photosmvi/2026/10/07/P36172578D7512560G_px_700_.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PDL"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:26:00.000Z"
-    },
-    {
-      "id": "x-oeNOaNyJtz",
-      "representative": {
-        "id": "x-oeNOaNyJtz",
-        "url": "https://angers.maville.com/actu/actudet_-600-jeunes-defilent-a-cholet-blocus-et-feux-a-angers-la-mobilisation-des-lycees-se-poursuit-en-maine-et-loire_loc-7512550_actu.Htm?utm_source=RSS_MVI_angers&utm_medium=RSS&utm_campaign=RSS",
-        "canonicalUrl": "https://angers.maville.com/actu/actudet_-600-jeunes-defilent-a-cholet-blocus-et-feux-a-angers-la-mobilisation-des-lycees-se-poursuit-en-maine-et-loire_loc-7512550_actu.Htm",
-        "title": "600 jeunes défilent à Cholet, blocus et feux à Angers… La mobilisation des lycées se poursuit en Maine-et-Loire (Ouest-France)",
-        "description": "Mercredi 07 octobre 2026 Au lendemain d’une journée marquée par plusieurs manifestations en Maine-et-Loire, la mobilisation lycéenne se poursuit, ce mercredi 7 octobre, à Angers et Cholet notamment.",
-        "source": {
-          "id": "maville_pdl",
-          "name": "Ouest-France (maville Nantes, Angers, Le Mans)"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T09:15:00.000Z",
-        "imageUrl": "https://www.maville.com/photosmvi/2026/10/07/P36177595D7512550G_px_700_.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PDL"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:15:00.000Z"
-    },
-    {
-      "id": "TrJYKRlDM4Up",
-      "representative": {
-        "id": "TrJYKRlDM4Up",
-        "url": "https://nantes.maville.com/actu/actudet_-longues-tablees-en-bois-guirlandes-drapeaux-bavarois-et-chopes-d-un-litre-un-week-end-d-oktoberfest-a-nantes_loc-7512552_actu.Htm?utm_source=RSS_MVI_nantes&utm_medium=RSS&utm_campaign=RSS",
-        "canonicalUrl": "https://nantes.maville.com/actu/actudet_-longues-tablees-en-bois-guirlandes-drapeaux-bavarois-et-chopes-d-un-litre-un-week-end-d-oktoberfest-a-nantes_loc-7512552_actu.Htm",
-        "title": "Longues tablées en bois, guirlandes, drapeaux bavarois et chopes d’un litre : un week-end d’Oktoberfest à Nantes (Presse-Océan)",
-        "description": "Mercredi 07 octobre 2026 Le temps d’un week-end, le collectif V and B de Rezé, Blain et Saint-Herblain va transformer le niveau 2 du Grand palais du Parc des expositions de la Beaujoire à Nantes, en une brasserie munichoise XXL. Trois mille personnes sont attendues à cette 2e Oktoberfest.",
-        "source": {
-          "id": "maville_pdl",
-          "name": "Ouest-France (maville Nantes, Angers, Le Mans)"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T09:12:00.000Z",
-        "imageUrl": "https://www.maville.com/photosmvi/2026/10/07/P36172565D7512552G_px_700_.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PDL"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:12:00.000Z"
-    },
-    {
-      "id": "bka78czTAUog",
-      "representative": {
-        "id": "bka78czTAUog",
-        "url": "https://angers.maville.com/actu/actudet_-frappe-par-la-foudre-un-arbre-tombe-sur-deux-maisons-en-maine-et-loire-les-toitures-endommagees_loc-7512455_actu.Htm?utm_source=RSS_MVI_angers&utm_medium=RSS&utm_campaign=RSS",
-        "canonicalUrl": "https://angers.maville.com/actu/actudet_-frappe-par-la-foudre-un-arbre-tombe-sur-deux-maisons-en-maine-et-loire-les-toitures-endommagees_loc-7512455_actu.Htm",
-        "title": "Frappé par la foudre, un arbre tombe sur deux maisons en Maine-et-Loire : les toitures endommagées (Ouest-France)",
-        "description": "Mercredi 07 octobre 2026 Un arbre est tombé sur deux habitations de Saint-Germain-sur-Moine, commune déléguée de Sèvremoine (Maine-et-Loire), ce mardi 6 octobre 2026, après un impact de foudre.",
-        "source": {
-          "id": "maville_pdl",
-          "name": "Ouest-France (maville Nantes, Angers, Le Mans)"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T09:04:00.000Z",
-        "imageUrl": "https://www.maville.com/photosmvi/2026/10/07/P36172545D7512455G_px_700_.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PDL"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:04:00.000Z"
     }
   ]
 }

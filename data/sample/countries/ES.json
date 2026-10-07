@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ES",
   "countryName": "Spain",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "TvYUQ5Mh9f1x",
@@ -119,54 +119,6 @@
       "latestPublishedAt": "2026-10-06T13:14:32.000Z"
     },
     {
-      "id": "q7WZHV1cshcq",
-      "representative": {
-        "id": "q7WZHV1cshcq",
-        "url": "https://www.abc.es/espana/homenaje-ceuta-melilla-senado-espanolas-medula-20261006124125-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/homenaje-ceuta-melilla-senado-espanolas-medula-20261006124125-nt.html",
-        "title": "Homenaje a Ceuta y Melilla en el Senado: «Son españolas hasta la médula»",
-        "description": "«Ceuta es España. Hasta la médula. Se mire por donde se mire». Fue una de las últimas frases que pronunció Juan Jesús Vivas despertando un largo aplauso en el Antiguo Salón de Sesiones del Senado. El salón, ya de por sí imponente, acogió un acto convertido en un alegato sincero por la españolidad…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:14:15.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518360908-RoTyBXVUlDbsTEC8R4HhfRM-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:14:15.000Z"
-    },
-    {
-      "id": "0DrY0HL5IqT5",
-      "representative": {
-        "id": "0DrY0HL5IqT5",
-        "url": "https://www.abc.es/espana/castilla-la-mancha/nunez-propondra-debate-estado-region-soluciones-mal-20261006151405-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/nunez-propondra-debate-estado-region-soluciones-mal-20261006151405-nt.html",
-        "title": "Núñez propondrá en el Debate del estado de la región soluciones a «todo lo que está mal»",
-        "description": "El presidente del Partido Popular de Castilla-La Mancha, Paco Núñez, ha adelantado que propondrá en el Debate del Estado de la Región , que tiene lugar el 14 y 15 de octubre, las soluciones a «todo lo que está pasando mal en la región» para plantear «la Castilla-La Mancha que queremos».A preguntas…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:14:06.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/Paco%20Nunez%20PP-RmsnX6aBG2jhvlovosuuiyH-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:14:06.000Z"
-    },
-    {
       "id": "3M4pigwXBPaP",
       "representative": {
         "id": "3M4pigwXBPaP",
@@ -241,54 +193,6 @@
       "outletCount24h": 1,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T13:13:52.000Z"
-    },
-    {
-      "id": "cTVHmbK8HhHS",
-      "representative": {
-        "id": "cTVHmbK8HhHS",
-        "url": "https://www.abc.es/espana/pp-asume-campana-caliente-prepara-disuadir-miedo-20261006011345-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/pp-asume-campana-caliente-prepara-disuadir-miedo-20261006011345-nt.html",
-        "title": "El PP asume una campaña sucia y que necesitará combatir el miedo a la derecha",
-        "description": "«Llevamos dos años preparándonos para esto. ¿Cómo no vamos a estar contentos?». Un dirigente de la cúpula del PP resume así el sentimiento colectivo del partido ahora que las elecciones están puestas en el calendario. La maquinaria electoral ya estaba engrasada tras el verano –fue la orden que dio…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:13:37.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1518323403-U302071070329O2H-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:13:37.000Z"
-    },
-    {
-      "id": "kPLpwKi9VOuy",
-      "representative": {
-        "id": "kPLpwKi9VOuy",
-        "url": "https://www.abc.es/espana/andalucia/maria-jesus-motero-vez-aznar-habla-sube-20261006150306-nts.html",
-        "canonicalUrl": "https://www.abc.es/espana/andalucia/maria-jesus-motero-vez-aznar-habla-sube-20261006150306-nts.html",
-        "title": "María Jesús Montero: «Cada vez que Aznar habla sube el pan; Nos pone con cuernos y rabo»",
-        "description": "Las declaraciones del expresidente José María Aznar en Sevilla asegurando que la monarquía peligra si hay una nueva etapa del PSOE en el Gobierno de España han sido duramente criticadas por María Jesús Montero. La socialista sevillana se refería a lo dicho por el líder popular acerca de que si…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:11:05.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/mria-jesus-montero-RDcJLS6WJzRHbyjzF61k9OJ-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:11:05.000Z"
     },
     {
       "id": "XD3SNJPCfjtR",
@@ -423,52 +327,200 @@
       "latestPublishedAt": "2026-10-06T13:06:20.000Z"
     },
     {
-      "id": "YFvR_413iS-P",
+      "id": "K5bUWXuCD0R_",
       "representative": {
-        "id": "YFvR_413iS-P",
-        "url": "https://www.abc.es/espana/galicia/140-kmh-tramo-circulaba-joven-cambados-cazado-20261006150411-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/galicia/140-kmh-tramo-circulaba-joven-cambados-cazado-20261006150411-nt.html",
-        "title": "A 140 km/h en un tramo de 50: así circulaba un joven de Cambados cazado en Ribadumia",
-        "description": "La Guardia Civil investiga a un conductor al que un radar detectó a 140 kilómetros por hora en un tramo limitado a 50 km/h en la carretera PO-300, a su paso por la localidad pontevedresa de Ribadumia.Tal y como ha detallado el Instituto Armado, los agentes detectaron a las 08.50 horas de este…",
+        "id": "K5bUWXuCD0R_",
+        "url": "https://elpais.com/espana/2026-10-06/el-pp-pide-la-imputacion-del-psoe-a-la-audiencia-nacional-en-el-primer-dia-de-precampana.html",
+        "canonicalUrl": "https://elpais.com/espana/2026-10-06/el-pp-pide-la-imputacion-del-psoe-a-la-audiencia-nacional-en-el-primer-dia-de-precampana.html",
+        "title": "El PP pide la imputación del PSOE a la Audiencia Nacional en el primer día de precampaña",
+        "description": "Los populares solicitan al juez Pedraz, que pregunta antes a la Fiscalía, que actúe contra el partido del Gobierno por cinco delitos",
         "source": {
-          "id": "abc_es",
-          "name": "ABC"
+          "id": "elpais",
+          "name": "El País"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T13:04:11.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/1517155558-R2FNKuUCj5zMIsbAK3QB8nO-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T13:00:36.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/SX5UMRVPZROWDHF6KYRZD6PEXY.jpg?auth=0b5cde5c6ee2e2d4d93c132c365fec3c68b9d2f8978c442e37ac9036f25e0239",
         "countryCode": "ES",
         "regionCode": null
       },
-      "related": [],
+      "related": [
+        {
+          "id": "sDa07kg2A4RQ",
+          "url": "https://www.elmundo.es/espana/2026/10/06/6ac4cfc0e4d4d80a2f8b45a5.html",
+          "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4cfc0e4d4d80a2f8b45a5.html",
+          "title": "El PP pide en la Audiencia Nacional la imputación del PSOE por financiación ilegal",
+          "description": "Los 'populares' han registrado un escrito en el que reclaman que también se investigue a los socialistas por \"cohecho, malversación, tráfico de influencias y blanqueo de capitales\" Leer",
+          "source": {
+            "id": "elmundo",
+            "name": "El Mundo"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:37:08.000Z",
+          "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912832360643.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "NbYf_JAp5QCr",
+          "url": "https://www.eldiario.es/politica/pp-pide-audiencia-nacional-imputacion-psoe-caso-leire-diez_1_13565841.html",
+          "canonicalUrl": "https://www.eldiario.es/politica/pp-pide-audiencia-nacional-imputacion-psoe-caso-leire-diez_1_13565841.html",
+          "title": "El PP pide a la Audiencia Nacional la imputación del PSOE en el caso Leire Díez",
+          "description": "La formación de Núñez Feijóo indica que la trama \"dispuso de los medios operativos, logísticos y financieros de esa formación para sufragar los gastos derivados de su ilícita actividad\" El juez deja fuera la hipótesis de la jueza Biedma sobre el hostigamiento de un clan de narcos: “No es posible…",
+          "source": {
+            "id": "eldiario",
+            "name": "elDiario.es"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:56:32.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/2a0a767d-d354-4d21-bf4e-7b0933f05ea0_16-9-discover-aspect-ratio_default_0_x1538y414.jpg",
+          "countryCode": "ES",
+          "regionCode": null
+        },
+        {
+          "id": "m3fjobm4U-j9",
+          "url": "https://www.lavanguardia.com/politica/20261006/11652297/pp-pide-imputacion-psoe-caso-leire-investiga-audiencia-nacional.html",
+          "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652297/pp-pide-imputacion-psoe-caso-leire-investiga-audiencia-nacional.html",
+          "title": "El PP pide la imputación del PSOE en el caso Leire que se investiga en la Audiencia Nacional",
+          "description": "En el escrito, los populares piden que el juez sitúe como investigado a los socialistas por cohecho, malversación, tráfico de influencias, blanqueo de capitales y financiación ilegal",
+          "source": {
+            "id": "lavanguardia",
+            "name": "La Vanguardia"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:39:09.000Z",
+          "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/05/6ac388b736999.jpeg",
+          "countryCode": "ES",
+          "regionCode": null
+        }
+      ],
       "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:04:11.000Z"
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T13:00:36.000Z"
     },
     {
-      "id": "HkP46HyPAQMN",
+      "id": "E-803NIumbM8",
       "representative": {
-        "id": "HkP46HyPAQMN",
-        "url": "https://www.abc.es/espana/castilla-la-mancha/ley-inversiones-empresariales-incluye-unidades-acompanamiento-cinco-20261006145616-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/ley-inversiones-empresariales-incluye-unidades-acompanamiento-cinco-20261006145616-nt.html",
-        "title": "La Ley de Inversiones Empresariales incluye unidades de acompañamiento en las cinco provincias",
-        "description": "El Consejo de Gobierno ha aprobado este martes la toma en consideración del Anteproyecto de Ley de Inversiones Empresariales Estratégicas , que inicia ahora su tramitación parlamentaria con el objetivo de que pueda ser aprobado este año en las Cortes de Castilla-La Mancha.La consejera de Economía…",
+        "id": "E-803NIumbM8",
+        "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/montero-la-huelga-general-se-convoca-contra-la-oposicion-por-derribar-los-decretos-de-vivienda.html",
+        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-06/montero-la-huelga-general-se-convoca-contra-la-oposicion-por-derribar-los-decretos-de-vivienda.html",
+        "title": "Montero: “La huelga general se convoca contra la oposición por derribar los decretos de vivienda”",
+        "description": "Sánchez arrancará este sábado la campaña del PSOE en Dos Hermanas",
         "source": {
-          "id": "abc_es",
-          "name": "ABC"
+          "id": "elpais",
+          "name": "El País"
         },
         "sourceCountry": "ES",
         "language": "es",
-        "publishedAt": "2026-10-06T13:01:16.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/patricia-RStozkb0OxGtmNWNmMM2UTP-1200x840@diario_abc.jpg",
+        "publishedAt": "2026-10-06T12:58:05.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/YPSHE7CVJJP2FPOAXOGWP4F3ZQ.jpg?auth=d84c6f4a393d496273c558d7e132f80cf4d2dc35f884f4e31cbe43ff444ad23c",
         "countryCode": "ES",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:01:16.000Z"
+      "latestPublishedAt": "2026-10-06T12:58:05.000Z"
+    },
+    {
+      "id": "fXfk_dWG0dxC",
+      "representative": {
+        "id": "fXfk_dWG0dxC",
+        "url": "https://www.lavanguardia.com/politica/20261006/11652015/resolucion-tribunal-constitucional-ley-de-amnistia-ultima-hora-hoy-en-directo.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652015/resolucion-tribunal-constitucional-ley-de-amnistia-ultima-hora-hoy-en-directo.html",
+        "title": "Última hora de la amnistía a Puigdemont, en directo: sentencia del Tribunal Constitucional, su regreso a España y reacciones",
+        "description": "El juez Llarena ha dejado sin efecto la orden de detención de Puigdemont tras conocer la decisión del TC de estimar el recurso de Dolors Bassa",
+        "source": {
+          "id": "lavanguardia",
+          "name": "La Vanguardia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:55:57.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/10/05/6ac41a3a3a3d9.r_d.1644-1250-0.jpeg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:55:57.000Z"
+    },
+    {
+      "id": "0XiWgtOolbNL",
+      "representative": {
+        "id": "0XiWgtOolbNL",
+        "url": "https://www.lavanguardia.com/politica/20261006/11652455/govern-ve-amenazada-estabilidad-mantiene-compromiso-determinacion.html",
+        "canonicalUrl": "https://www.lavanguardia.com/politica/20261006/11652455/govern-ve-amenazada-estabilidad-mantiene-compromiso-determinacion.html",
+        "title": "El Govern no ve amenazada su estabilidad y mantiene su “compromiso y determinación”",
+        "description": "El ejecutivo catalán aprueba el fondo antidesahucios de 25 millones anunciado por Illa",
+        "source": {
+          "id": "lavanguardia",
+          "name": "La Vanguardia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:39:59.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/09/21/6ab11f2f6aff3.jpeg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:39:59.000Z"
+    },
+    {
+      "id": "O5uMBmp0IYPd",
+      "representative": {
+        "id": "O5uMBmp0IYPd",
+        "url": "https://www.elmundo.es/espana/2026/10/06/6ac4de4ee4d4d810628b458d.html",
+        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/06/6ac4de4ee4d4d810628b458d.html",
+        "title": "El voto particular de los cinco magistrados discrepantes: \"El Constitucional suplanta la labor del Tribunal Supremo en la apreciación de la amnistía\"",
+        "description": "Los miembros del sector conservador del TC critican los términos gruesos empleados por Conde-Pumpido sobre la actuación del Supremo. Leer",
+        "source": {
+          "id": "elmundo",
+          "name": "El Mundo"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:39:10.000Z",
+        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/06/17912884853223.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:39:10.000Z"
+    },
+    {
+      "id": "rJ7HAVCkOGST",
+      "representative": {
+        "id": "rJ7HAVCkOGST",
+        "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-partido-de-monica-garcia-exige-liderar-la-lista-por-madrid-a-las-generales-ante-las-opciones-de-colau.html",
+        "canonicalUrl": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-partido-de-monica-garcia-exige-liderar-la-lista-por-madrid-a-las-generales-ante-las-opciones-de-colau.html",
+        "title": "El partido de Mónica García exige liderar la lista por Madrid a las generales ante las opciones de Colau",
+        "description": "“Hay que estudiar todas las formas posibles para que el Frente Amplio no deje a nadie fuera”, defiende Pisarello sobre las primarias que propone Podemos",
+        "source": {
+          "id": "elpais",
+          "name": "El País"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:31:52.000Z",
+        "imageUrl": "https://imagenes.elpais.com/resizer/v2/36MIU2G2AVGNZP4NSZE5OQEOIQ.jpg?auth=c26845421cba07489040b3b299d60304fcf218dfdddf24a9d80b8fdc36405fb7",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:31:52.000Z"
     }
   ]
 }

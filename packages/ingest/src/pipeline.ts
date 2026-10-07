@@ -150,6 +150,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
     const clusters = rankClusters(
       groups.map((g) => buildCluster(g, authorityOf, now, settings.rankingWindowHours)),
       settings.maxClustersPerCountry,
+      settings.maxSoloStoriesPerOutlet,
     );
 
     const out: CountryFile =

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MR",
   "countryName": "Mauritania",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "CImRuL0egwTX",
@@ -191,6 +191,144 @@
       "latestPublishedAt": "2026-10-06T15:00:58.000Z"
     },
     {
+      "id": "biXqpVh2OZVX",
+      "representative": {
+        "id": "biXqpVh2OZVX",
+        "url": "https://lecalame.info/?q=node/19009",
+        "canonicalUrl": "https://lecalame.info/?q=node%2F19009",
+        "title": "Finale du tournoi de football: Le football comme vecteur de citoyenneté à Boghé",
+        "description": null,
+        "source": {
+          "id": "lecalame",
+          "name": "Le Calame"
+        },
+        "sourceCountry": "MR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T14:04:51.000Z",
+        "imageUrl": null,
+        "countryCode": "MR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:04:51.000Z"
+    },
+    {
+      "id": "yBvLbDpHJsgf",
+      "representative": {
+        "id": "yBvLbDpHJsgf",
+        "url": "https://lecalame.info/?q=node/19008",
+        "canonicalUrl": "https://lecalame.info/?q=node%2F19008",
+        "title": "Le ministre de l’Économie supervise l'ouverture du Forum économique mauritano-américain",
+        "description": null,
+        "source": {
+          "id": "lecalame",
+          "name": "Le Calame"
+        },
+        "sourceCountry": "MR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T00:46:41.000Z",
+        "imageUrl": null,
+        "countryCode": "MR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "aExATGVxQ_VK",
+          "url": "https://rimweb.net/2026/10/06/le-ministre-de-leconomie-supervise-louverture-du-forum-economique-mauritano-americain/",
+          "canonicalUrl": "https://rimweb.net/2026/10/06/le-ministre-de-leconomie-supervise-louverture-du-forum-economique-mauritano-americain/",
+          "title": "Le ministre de l’Économie supervise l’ouverture du Forum économique mauritano-américain",
+          "description": "Son Excellence le ministre des Affaires économiques et du Développement, Dr Abdallah Ould Souleymane Ould Cheikh Sidia, a présidé, lundi",
+          "source": {
+            "id": "rimweb",
+            "name": "Rimweb"
+          },
+          "sourceCountry": "MR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:37:29.000Z",
+          "imageUrl": null,
+          "countryCode": "MR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:37:29.000Z"
+    },
+    {
+      "id": "Qcneb1fFc_Xd",
+      "representative": {
+        "id": "Qcneb1fFc_Xd",
+        "url": "https://rimweb.net/2026/10/06/tiris-la-mauritanie-aux-portes-du-marche-mondial-de-luranium/",
+        "canonicalUrl": "https://rimweb.net/2026/10/06/tiris-la-mauritanie-aux-portes-du-marche-mondial-de-luranium/",
+        "title": "Tiris : la Mauritanie aux portes du marché mondial de l’uranium",
+        "description": "Le projet Tiris, dans le nord-est de la Mauritanie, entre dans une phase décisive. Après plusieurs années d’exploration et d’études",
+        "source": {
+          "id": "rimweb",
+          "name": "Rimweb"
+        },
+        "sourceCountry": "MR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:32:30.000Z",
+        "imageUrl": null,
+        "countryCode": "MR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:32:30.000Z"
+    },
+    {
+      "id": "nBrnbGjfnXh8",
+      "representative": {
+        "id": "nBrnbGjfnXh8",
+        "url": "https://lecalame.info/?q=node/18991",
+        "canonicalUrl": "https://lecalame.info/?q=node%2F18991",
+        "title": "Blog-guerre",
+        "description": null,
+        "source": {
+          "id": "lecalame",
+          "name": "Le Calame"
+        },
+        "sourceCountry": "MR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T01:37:43.000Z",
+        "imageUrl": null,
+        "countryCode": "MR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T01:37:43.000Z"
+    },
+    {
+      "id": "Firm1NpbZAms",
+      "representative": {
+        "id": "Firm1NpbZAms",
+        "url": "https://rimweb.net/2026/10/05/yemen-la-coalition-dirigee-par-riyad-dit-rejoindre-loffensive-du-gouvernement-contre-les-houthis/",
+        "canonicalUrl": "https://rimweb.net/2026/10/05/yemen-la-coalition-dirigee-par-riyad-dit-rejoindre-loffensive-du-gouvernement-contre-les-houthis/",
+        "title": "Yémen: la coalition dirigée par Riyad dit rejoindre l’offensive du gouvernement contre les Houthis",
+        "description": "La coalition militaire dirigée par Riyad a annoncé lundi rejoindre l’offensive lancée la veille par le gouvernement yéménite contre les",
+        "source": {
+          "id": "rimweb",
+          "name": "Rimweb"
+        },
+        "sourceCountry": "MR",
+        "language": "fr",
+        "publishedAt": "2026-10-05T12:20:09.000Z",
+        "imageUrl": null,
+        "countryCode": "MR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T12:20:09.000Z"
+    },
+    {
       "id": "ULRuZUw2rSr1",
       "representative": {
         "id": "ULRuZUw2rSr1",
@@ -261,144 +399,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:31:32.000Z"
-    },
-    {
-      "id": "xIIRsmSzEbHX",
-      "representative": {
-        "id": "xIIRsmSzEbHX",
-        "url": "https://fr.saharamedias.net/le-fla-annonce-un-retrait-strategique-de-la-ville-de-kidal/",
-        "canonicalUrl": "https://fr.saharamedias.net/le-fla-annonce-un-retrait-strategique-de-la-ville-de-kidal/",
-        "title": "Le FLA annonce un « retrait stratégique » de la ville de Kidal",
-        "description": "Le Front de libération de l’Azawad a annoncé avoir procédé à « un retrait stratégique et discipliné de ses forces de la ville de Kidal », précisant que cette décision intervenait « face aux risques croissants qui menacent le reste de la population civile de la ville, en raison de l’utilisation…",
-        "source": {
-          "id": "saharamedias",
-          "name": "Sahara Medias"
-        },
-        "sourceCountry": "MR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T14:06:48.000Z",
-        "imageUrl": null,
-        "countryCode": "MR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:06:48.000Z"
-    },
-    {
-      "id": "biXqpVh2OZVX",
-      "representative": {
-        "id": "biXqpVh2OZVX",
-        "url": "https://lecalame.info/?q=node/19009",
-        "canonicalUrl": "https://lecalame.info/?q=node%2F19009",
-        "title": "Finale du tournoi de football: Le football comme vecteur de citoyenneté à Boghé",
-        "description": null,
-        "source": {
-          "id": "lecalame",
-          "name": "Le Calame"
-        },
-        "sourceCountry": "MR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T14:04:51.000Z",
-        "imageUrl": null,
-        "countryCode": "MR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:04:51.000Z"
-    },
-    {
-      "id": "qC-L3jZXqfbS",
-      "representative": {
-        "id": "qC-L3jZXqfbS",
-        "url": "https://kassataya.com/cheikh-hamidou-kane-grande-memoire-senegalaise-est-mort/",
-        "canonicalUrl": "https://kassataya.com/cheikh-hamidou-kane-grande-memoire-senegalaise-est-mort/",
-        "title": "Cheikh Hamidou Kane, grande mémoire sénégalaise, est mort",
-        "description": "Le Monde – Cheikh Hamidou Kane était de ces figures tutélaires dont l’histoire se confond avec celle d’un pays. Infatigable, l’auteur sénégalais était mû par une soif de culture et ce jusqu’à un âge canonique. En avril 2018, quelques jours après son 90e anniversaire, ce fervent musulman continuait…",
-        "source": {
-          "id": "kassataya",
-          "name": "Kassataya"
-        },
-        "sourceCountry": "MR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:46:59.000Z",
-        "imageUrl": null,
-        "countryCode": "MR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:46:59.000Z"
-    },
-    {
-      "id": "AQG-GTQVIh27",
-      "representative": {
-        "id": "AQG-GTQVIh27",
-        "url": "https://kassataya.com/mali-intenses-operations-des-fama-dans-la-region-de-kidal/",
-        "canonicalUrl": "https://kassataya.com/mali-intenses-operations-des-fama-dans-la-region-de-kidal/",
-        "title": "Mali : intenses opérations des FAMa dans la région de Kidal",
-        "description": "Agence de Presse Africaine – Les Forces armées maliennes (FAMa), avec l’appui de leurs partenaires russes, ont lancé des opérations aéroterrestres d’envergure dans la région de Kidal, dans le cadre de la réadaptation du dispositif de l’opération Dougoukoloko, a annoncé mardi l’état-major général…",
-        "source": {
-          "id": "kassataya",
-          "name": "Kassataya"
-        },
-        "sourceCountry": "MR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:14:42.000Z",
-        "imageUrl": null,
-        "countryCode": "MR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:14:42.000Z"
-    },
-    {
-      "id": "bMEsQ336DdNc",
-      "representative": {
-        "id": "bMEsQ336DdNc",
-        "url": "https://fr.saharamedias.net/la-ministre-de-la-fonction-publique-du-diagnostic-issu-de-linspection-du-travail-nous-passons-a-la-reforme/",
-        "canonicalUrl": "https://fr.saharamedias.net/la-ministre-de-la-fonction-publique-du-diagnostic-issu-de-linspection-du-travail-nous-passons-a-la-reforme/",
-        "title": "La ministre de la Fonction publique : « Du diagnostic issu de l’inspection du travail nous passons à la réforme »",
-        "description": "La ministre de la Fonction publique et du Travail, Marieme Boydiel Houmeid, a déclaré que l’organisation de deux ateliers consacrés à l’amélioration des performances de l’inspection du travail et à l’élaboration de la politique nationale de sécurité et de santé au travail marquait le passage d’une…",
-        "source": {
-          "id": "saharamedias",
-          "name": "Sahara Medias"
-        },
-        "sourceCountry": "MR",
-        "language": "fr",
-        "publishedAt": "2026-10-05T17:53:00.000Z",
-        "imageUrl": null,
-        "countryCode": "MR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "zME13ooBPc1w",
-          "url": "https://rimweb.net/2026/10/06/la-ministre-de-la-fonction-publique-du-diagnostic-issu-de-linspection-du-travail-nous-passons-a-la-reforme/",
-          "canonicalUrl": "https://rimweb.net/2026/10/06/la-ministre-de-la-fonction-publique-du-diagnostic-issu-de-linspection-du-travail-nous-passons-a-la-reforme/",
-          "title": "La ministre de la Fonction publique : « Du diagnostic issu de l’inspection du travail nous passons à la réforme »",
-          "description": "La ministre de la Fonction publique et du Travail, Marieme Boydiel Houmeid, a déclaré que l’organisation de deux ateliers consacrés",
-          "source": {
-            "id": "rimweb",
-            "name": "Rimweb"
-          },
-          "sourceCountry": "MR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:40:08.000Z",
-          "imageUrl": null,
-          "countryCode": "MR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:40:08.000Z"
     }
   ]
 }

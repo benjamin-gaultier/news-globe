@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PE",
   "countryName": "Peru",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "-LP_bHDnIo5z",
@@ -402,30 +402,6 @@
       "latestPublishedAt": "2026-10-06T13:12:13.000Z"
     },
     {
-      "id": "Jy07eX5sYY19",
-      "representative": {
-        "id": "Jy07eX5sYY19",
-        "url": "https://andina.pe/agencia/noticia-carlos-alcaraz-gano-torneo-tokio-primer-titulo-desde-su-regreso-de-lesion-1094815.aspx",
-        "canonicalUrl": "https://andina.pe/agencia/noticia-carlos-alcaraz-gano-torneo-tokio-primer-titulo-desde-su-regreso-de-lesion-1094815.aspx",
-        "title": "Carlos Alcaraz ganó el torneo de Tokio, primer título desde su regreso de la lesión",
-        "description": "El tenista español Carlos Alcaraz conquistó el torneo de Tokio, el primer título desde la lesión de muñeca que lo tuvo apartado del circuito más de cuatro meses, tras derrotar este martes al checo Jiri Lehecka en dos sets, por 7-6 (7/4) y 6-4.",
-        "source": {
-          "id": "andina",
-          "name": "Andina"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:10:01.000Z",
-        "imageUrl": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/06/001321284W.jpg",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:10:01.000Z"
-    },
-    {
       "id": "bFy9jhfpDGwl",
       "representative": {
         "id": "bFy9jhfpDGwl",
@@ -448,30 +424,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:06:11.000Z"
-    },
-    {
-      "id": "4KLWIA8Lnuv6",
-      "representative": {
-        "id": "4KLWIA8Lnuv6",
-        "url": "https://rpp.pe/futbol/seleccion-peruana/carlos-zambrano-sobre-el-momento-de-la-bicolor-va-a-ser-muy-duro-para-la-seleccion-peruana-por-el-recambio-noticia-1711027",
-        "canonicalUrl": "https://rpp.pe/futbol/seleccion-peruana/carlos-zambrano-sobre-el-momento-de-la-bicolor-va-a-ser-muy-duro-para-la-seleccion-peruana-por-el-recambio-noticia-1711027",
-        "title": "\"Va a ser muy duro para la Selección Peruana por el recambio\": Carlos Zambrano sobre el momento de la Bicolor",
-        "description": "El defensa de Sport Boys pidió apoyo total para la Selección Peruana y afirmó que las Eliminatorias serán más duras para la Bicolor.",
-        "source": {
-          "id": "rpp",
-          "name": "RPP Noticias"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:05:23.000Z",
-        "imageUrl": "https://f.rpp-noticias.io/2026/10/06/095409_1915188.jpg?imgdimension=look",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:05:23.000Z"
     },
     {
       "id": "zywDW9RSlBeu",
@@ -520,6 +472,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:03:16.000Z"
+    },
+    {
+      "id": "iF4SUJrjZ8H9",
+      "representative": {
+        "id": "iF4SUJrjZ8H9",
+        "url": "https://larepublica.pe/politica/2026/10/06/renovacion-popular-saca-una-ventaja-de-45-mil-votos-a-falta-de-1921-actas-observadas-hnews-416592",
+        "canonicalUrl": "https://larepublica.pe/politica/2026/10/06/renovacion-popular-saca-una-ventaja-de-45-mil-votos-a-falta-de-1921-actas-observadas-hnews-416592",
+        "title": "Renovación Popular saca una ventaja de 45 mil votos a falta de 1,921 actas observadas",
+        "description": "RESOLUCIÓN. En Lima Metropolitana, la ONPE ya contó el 92,710% de actas. La lista que lleva como primer regidor a Rafael López Aliaga sigue adelante con el 27,703% de los votos, Avanza País alcanzó el 26,841% y Somos Perú quedó tercero con el 15,087%. Actas observadas serán determinantes.",
+        "source": {
+          "id": "larepublica",
+          "name": "La República"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:01:45.000Z",
+        "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/06/6ac4f023f6daf0dda50fdc94.jpg",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:01:45.000Z"
+    },
+    {
+      "id": "ubLIGcuw1Kqn",
+      "representative": {
+        "id": "ubLIGcuw1Kqn",
+        "url": "https://elcomercio.pe/politica/cinco-de-los-seis-partidos-en-el-congreso-lograron-menos-del-4-de-votos-en-comicios-para-la-alcaldia-de-lima-las-razones-y-el-impacto-apuesplan-noticia/",
+        "canonicalUrl": "https://elcomercio.pe/politica/cinco-de-los-seis-partidos-en-el-congreso-lograron-menos-del-4-de-votos-en-comicios-para-la-alcaldia-de-lima-las-razones-y-el-impacto-apuesplan-noticia/",
+        "title": "Menos del 4% de votos: el escaso respaldo para la Alcaldía de Lima de cinco de los seis partidos en el Congreso",
+        "description": "Expertos consultados por este Diario atribuyen el bajo respaldo a estas agrupaciones a decisiones adoptadas por el Congreso pasado y a la baja institucionalización partidaria. Asimismo, advierten que este escenario podría generar un problema para el Ejecutivo.",
+        "source": {
+          "id": "elcomercio",
+          "name": "El Comercio"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:00:45.000Z",
+        "imageUrl": "https://elcomercio.pe/resizer/v2/VC5THIGR7FAT3D3TOXAFPRADPY.jpg?auth=919edfc20b8cbcb57a9a10ccf83c7704ad562d46fad439e658a6f5436ff31dd3&smart=true&width=1920&height=1080",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:45.000Z"
     }
   ]
 }

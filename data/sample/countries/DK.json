@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DK",
   "countryName": "Denmark",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "M7oxBX7512mb",
@@ -232,6 +232,144 @@
       "latestPublishedAt": "2026-10-06T13:11:13.000Z"
     },
     {
+      "id": "yvez5rA4UN9v",
+      "representative": {
+        "id": "yvez5rA4UN9v",
+        "url": "https://ekstrabladet.dk/sport/fodbold/dansk_fodbold/superligaen/etim-slaar-fck-duo-bliver-maanedens-spiller/11311919",
+        "canonicalUrl": "https://ekstrabladet.dk/sport/fodbold/dansk_fodbold/superligaen/etim-slaar-fck-duo-bliver-maanedens-spiller/11311919",
+        "title": "Slår FCK-stjerner",
+        "description": "FC Midtjylland-angriberen Friday Etim er månedens spiller i Superligaen i september måned. Angriberen kæmpede mod FC Københavns Diant Ramaj og Asger Sørensen om prisen",
+        "source": {
+          "id": "ekstrabladet",
+          "name": "Ekstra Bladet"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T12:59:24.000Z",
+        "imageUrl": null,
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:59:24.000Z"
+    },
+    {
+      "id": "apht1atiJc5C",
+      "representative": {
+        "id": "apht1atiJc5C",
+        "url": "https://politiken.dk/kultur/film_og_tv/tvanmeldelser/art10999575/Her-er-en-serie-til-dig-der-savner-The-Big-Bang-Theory",
+        "canonicalUrl": "https://politiken.dk/kultur/film_og_tv/tvanmeldelser/art10999575/Her-er-en-serie-til-dig-der-savner-The-Big-Bang-Theory",
+        "title": "Her er en serie til dig, der savner 'The Big Bang Theory'",
+        "description": "Personerne er de samme i ’The Big Bang Theory’-forlængelsen ’Stuart Fails to Save the Universe’, men præmissen er radikalt anderledes. Det gør imidlertid ikke serien dårlig.",
+        "source": {
+          "id": "politiken",
+          "name": "Politiken"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T12:55:24.000Z",
+        "imageUrl": "https://politiken.dk/incoming/img11006963.qklv0s/ORIGINALS/original_960/Stuart%20og%20Denise",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:55:24.000Z"
+    },
+    {
+      "id": "BvUSbLMDkA8J",
+      "representative": {
+        "id": "BvUSbLMDkA8J",
+        "url": "https://politiken.dk/danmark/art11011472/Nu-bekr%C3%A6fter-myndighederne-Det-var-en-faktura-der-gjorde-os-opm%C3%A6rksomme-p%C3%A5-cpr-indbrud",
+        "canonicalUrl": "https://politiken.dk/danmark/art11011472/Nu-bekr%C3%A6fter-myndighederne-Det-var-en-faktura-der-gjorde-os-opm%C3%A6rksomme-p%C3%A5-cpr-indbrud",
+        "title": "Nu bekræfter myndighederne: Det var en faktura, der gjorde os opmærksomme på cpr-indbrud",
+        "description": "Styrelsen for Samfundssikkerhed, Forsknings-, Uddannelses- og Digitaliseringsministeriet og National Enhed for Særlig Kriminalitet holder tirsdag pressemøde om det store læk af millioner af danskeres cpr-oplysninger. Følg med her på livebloggen.",
+        "source": {
+          "id": "politiken",
+          "name": "Politiken"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T12:49:37.000Z",
+        "imageUrl": "https://politiken.dk/incoming/img11011554.kx5rvj/ORIGINALS/original_960/Forside",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:49:37.000Z"
+    },
+    {
+      "id": "L26X8rASH7xN",
+      "representative": {
+        "id": "L26X8rASH7xN",
+        "url": "https://www.dr.dk/nyheder/seneste/86-000-gaar-paa-gaden-i-frankrig",
+        "canonicalUrl": "https://www.dr.dk/nyheder/seneste/86-000-gaar-paa-gaden-i-frankrig",
+        "title": "86.000 går på gaden i Frankrig",
+        "description": null,
+        "source": {
+          "id": "dr",
+          "name": "DR Nyheder"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T12:27:29.000Z",
+        "imageUrl": "https://asset.dr.dk/drdk/umbraco-images/agaheodz/20261006-140150-1_crop001.jpg?im=AspectCrop=(1200,675),xPosition=.5,yPosition=.5;Resize=(1200,675)&impolicy=medium",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "BC0STM28u6Xh",
+          "url": "https://politiken.dk/internationalt/art11011312/86.000-elever-deltager-i-protester-i-Frankrig",
+          "canonicalUrl": "https://politiken.dk/internationalt/art11011312/86.000-elever-deltager-i-protester-i-Frankrig",
+          "title": "86.000 elever deltager i protester i Frankrig",
+          "description": "Eleverne protesterer mod højt lærerfravær, for lange undervisningsdage og nedslidte faciliteter.",
+          "source": {
+            "id": "politiken",
+            "name": "Politiken"
+          },
+          "sourceCountry": "DK",
+          "language": "da",
+          "publishedAt": "2026-10-06T12:08:12.000Z",
+          "imageUrl": "https://politiken.dk/incoming/img11011373.dfanne/ORIGINALS/original_960/FRANCE-POLITICS-EDUCATION-DEMO-BORDEAUX",
+          "countryCode": "DK",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:27:29.000Z"
+    },
+    {
+      "id": "1ClL9SECMVjw",
+      "representative": {
+        "id": "1ClL9SECMVjw",
+        "url": "https://politiken.dk/danmark/sundhed/art10995749/Det-er-ikke-super-gener-der-redder-franskm%C3%A6ndenes-hjerter-fra-osten",
+        "canonicalUrl": "https://politiken.dk/danmark/sundhed/art10995749/Det-er-ikke-super-gener-der-redder-franskm%C3%A6ndenes-hjerter-fra-osten",
+        "title": "Klarlund til læser: Det er ikke super-gener, der redder franskmændenes hjerter fra osten",
+        "description": "Bente Klarlund svarer på spørgsmål fra læserne. Denne gang om hvorvidt kaffe tæller som væske, og om det såkaldt ’franske paradoks’.",
+        "source": {
+          "id": "politiken",
+          "name": "Politiken"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T12:09:19.000Z",
+        "imageUrl": "https://politiken.dk/incoming/img10996259.3341qy/ORIGINALS/original_960/STUDIE-produkttest%20af%20haloumi-og%20Danbo-ost",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:09:19.000Z"
+    },
+    {
       "id": "UuAkxCn6ZDVH",
       "representative": {
         "id": "UuAkxCn6ZDVH",
@@ -278,126 +416,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:01:01.000Z"
-    },
-    {
-      "id": "H5Aoma2COCEf",
-      "representative": {
-        "id": "H5Aoma2COCEf",
-        "url": "https://www.berlingske.dk/politik/seneste-nyt-om-dansk-politik--foelg-udviklingen-her-4?referrer=RSS",
-        "canonicalUrl": "https://www.berlingske.dk/politik/seneste-nyt-om-dansk-politik--foelg-udviklingen-her-4?referrer=RSS",
-        "title": "Seneste nyt om dansk politik – følg udviklingen her",
-        "description": "Folketinget åbner i dag, tirsdag den 6. oktober, og næste års finanslov er på vej – få seneste nyt om dansk politik her.",
-        "source": {
-          "id": "berlingske",
-          "name": "Berlingske"
-        },
-        "sourceCountry": "DK",
-        "language": "da",
-        "publishedAt": "2026-10-06T13:00:19.000Z",
-        "imageUrl": "https://akamai-aptoma-production.bmcdn.dk/users/berlingske/images/163615925.webp?t[strip]=true&t[quality]=70&accessToken=cef6ade3e7940ff67acd3d07b049ff26e1b3a208749b8d36b6ac2200b75038d0",
-        "countryCode": "DK",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:00:19.000Z"
-    },
-    {
-      "id": "yvez5rA4UN9v",
-      "representative": {
-        "id": "yvez5rA4UN9v",
-        "url": "https://ekstrabladet.dk/sport/fodbold/dansk_fodbold/superligaen/etim-slaar-fck-duo-bliver-maanedens-spiller/11311919",
-        "canonicalUrl": "https://ekstrabladet.dk/sport/fodbold/dansk_fodbold/superligaen/etim-slaar-fck-duo-bliver-maanedens-spiller/11311919",
-        "title": "Slår FCK-stjerner",
-        "description": "FC Midtjylland-angriberen Friday Etim er månedens spiller i Superligaen i september måned. Angriberen kæmpede mod FC Københavns Diant Ramaj og Asger Sørensen om prisen",
-        "source": {
-          "id": "ekstrabladet",
-          "name": "Ekstra Bladet"
-        },
-        "sourceCountry": "DK",
-        "language": "da",
-        "publishedAt": "2026-10-06T12:59:24.000Z",
-        "imageUrl": null,
-        "countryCode": "DK",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:59:24.000Z"
-    },
-    {
-      "id": "sjQUVR7u0VmC",
-      "representative": {
-        "id": "sjQUVR7u0VmC",
-        "url": "https://ekstrabladet.dk/sport/vanvidsstime-fortsaetter-djokovic-vinder-i-beijing/11311925",
-        "canonicalUrl": "https://ekstrabladet.dk/sport/vanvidsstime-fortsaetter-djokovic-vinder-i-beijing/11311925",
-        "title": "Rent vanvid: Djokovic forlænger latterlig rekord",
-        "description": "34-0 lyder Novak Djokovics statistik i Beijing, efter at Alex de Minaur trak sig med en skade i finalen",
-        "source": {
-          "id": "ekstrabladet",
-          "name": "Ekstra Bladet"
-        },
-        "sourceCountry": "DK",
-        "language": "da",
-        "publishedAt": "2026-10-06T12:57:49.000Z",
-        "imageUrl": null,
-        "countryCode": "DK",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:57:49.000Z"
-    },
-    {
-      "id": "sm1esR5xCN6-",
-      "representative": {
-        "id": "sm1esR5xCN6-",
-        "url": "https://www.berlingske.dk/politik/uvedkommende-har-skaffet-sig-adgang-til-millioner-af-danske-cpr-numre--foelg-med-her?referrer=RSS",
-        "canonicalUrl": "https://www.berlingske.dk/politik/uvedkommende-har-skaffet-sig-adgang-til-millioner-af-danske-cpr-numre--foelg-med-her?referrer=RSS",
-        "title": "Uvedkommende har skaffet sig adgang til millioner af danske CPR-numre – følg med her",
-        "description": "Uvedkommende har skaffet sig uautoriseret adgang til navne, adresser og CPR-numre på cirka 8,8 millioner registrerede personer. Det oplyser Forsknings-, Uddannelses- og Digitaliseringsministeriet.",
-        "source": {
-          "id": "berlingske",
-          "name": "Berlingske"
-        },
-        "sourceCountry": "DK",
-        "language": "da",
-        "publishedAt": "2026-10-06T12:56:04.000Z",
-        "imageUrl": "https://akamai-aptoma-production.bmcdn.dk/users/berlingske/images/163614778.webp?t[strip]=true&t[quality]=70&accessToken=7d3fc548e23215455b86e22ab31d309b6b054dfb7b7ce0ed66d38dfacd08dafa",
-        "countryCode": "DK",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:56:04.000Z"
-    },
-    {
-      "id": "apht1atiJc5C",
-      "representative": {
-        "id": "apht1atiJc5C",
-        "url": "https://politiken.dk/kultur/film_og_tv/tvanmeldelser/art10999575/Her-er-en-serie-til-dig-der-savner-The-Big-Bang-Theory",
-        "canonicalUrl": "https://politiken.dk/kultur/film_og_tv/tvanmeldelser/art10999575/Her-er-en-serie-til-dig-der-savner-The-Big-Bang-Theory",
-        "title": "Her er en serie til dig, der savner 'The Big Bang Theory'",
-        "description": "Personerne er de samme i ’The Big Bang Theory’-forlængelsen ’Stuart Fails to Save the Universe’, men præmissen er radikalt anderledes. Det gør imidlertid ikke serien dårlig.",
-        "source": {
-          "id": "politiken",
-          "name": "Politiken"
-        },
-        "sourceCountry": "DK",
-        "language": "da",
-        "publishedAt": "2026-10-06T12:55:24.000Z",
-        "imageUrl": "https://politiken.dk/incoming/img11006963.qklv0s/ORIGINALS/original_960/Stuart%20og%20Denise",
-        "countryCode": "DK",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:55:24.000Z"
     }
   ]
 }

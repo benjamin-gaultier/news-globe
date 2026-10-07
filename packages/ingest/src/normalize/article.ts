@@ -52,12 +52,15 @@ const MONTHS_FR = 'janvier|février|fevrier|mars|avril|mai|juin|juillet|août|ao
 const DAYS_FR = 'lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche';
 const NOT_NEWS: RegExp[] = [
   // A programme episode named only by its date: BFM's "Le journal de 8h du
-  // mercredi 7 octobre 2026", "L'actu du 6 octobre 2026", "Émission du 6 octobre 2026".
+  // mercredi 7 octobre 2026", "L'actu du 6 octobre 2026", "Émission du 6 octobre 2026",
+  // TV Vendée's "Le journal de la Vendée du 7 octobre 2026 – Edition de la mi-journée".
   new RegExp(
-    String.raw`^(?:le |la |l['’])?(?:journal|actu|émission|emission|flash|bulletin|édition|edition)(?: de \d{1,2}h\d{0,2})?` +
-      String.raw` d[ue] (?:(?:${DAYS_FR}) )?\d{1,2}(?:er)? (?:${MONTHS_FR}) \d{4}$`,
+    String.raw`^(?:le |la |l['’])?(?:journal|actu|émission|emission|flash|bulletin|édition|edition)(?: [^:]{0,40}?)?` +
+      String.raw` d[ue] (?:(?:${DAYS_FR}) )?\d{1,2}(?:er)? (?:${MONTHS_FR})(?: \d{4})?(?:\s*[–—|-].*)?$`,
     'i',
   ),
+  // Ticket giveaways: "Gagnez vos places pour le concert ICI Live de Zazie…".
+  /^gagnez (?:vos|des|deux|\d+) (?:places|invitations|billets|entrées)/i,
   // Named magazine segments on BFM regional channels: "Le Café Normand: …", "BFM Nord et Vous: …".
   /^(?:le café [^:]{1,25}|bfm [^:]{1,25} et vous)\s*:/i,
   // ici's evergreen fuel-price finder, re-dated daily.

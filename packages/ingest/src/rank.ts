@@ -45,15 +45,34 @@ export function buildCluster(
   };
 }
 
-/** Most distinct outlets in the window first, then most recent. */
-export function rankClusters(clusters: StoryCluster[], limit: number): StoryCluster[] {
-  return [...clusters]
-    .sort(
-      (a, b) =>
-        b.outletCount24h - a.outletCount24h ||
-        Date.parse(b.latestPublishedAt) - Date.parse(a.latestPublishedAt) ||
-        b.outletCount - a.outletCount ||
-        a.id.localeCompare(b.id),
-    )
-    .slice(0, limit);
+/**
+ * Most distinct outlets in the window first, then most recent. Single-outlet
+ * stories are capped at `maxSoloPerOutlet` per outlet, so one prolific feed
+ * can't fill the list with its latest posts; the overflow fills any slots left.
+ */
+export function rankClusters(clusters: StoryCluster[], limit: number, maxSoloPerOutlet = Infinity): StoryCluster[] {
+  const sorted = [...clusters].sort(
+    (a, b) =>
+      b.outletCount24h - a.outletCount24h ||
+      Date.parse(b.latestPublishedAt) - Date.parse(a.latestPublishedAt) ||
+      b.outletCount - a.outletCount ||
+      a.id.localeCompare(b.id),
+  );
+  const picked: StoryCluster[] = [];
+  const overflow: StoryCluster[] = [];
+  const solo = new Map<string, number>();
+  for (const c of sorted) {
+    if (picked.length >= limit) break;
+    if (c.outletCount24h <= 1) {
+      const outlet = c.representative.source.id;
+      const n = solo.get(outlet) ?? 0;
+      if (n >= maxSoloPerOutlet) {
+        overflow.push(c);
+        continue;
+      }
+      solo.set(outlet, n + 1);
+    }
+    picked.push(c);
+  }
+  return [...picked, ...overflow].slice(0, limit);
 }

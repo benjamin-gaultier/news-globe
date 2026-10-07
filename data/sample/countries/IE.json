@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IE",
   "countryName": "Ireland",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "PmkkgdRRF7tC",
@@ -358,30 +358,6 @@
       "latestPublishedAt": "2026-10-06T12:55:04.000Z"
     },
     {
-      "id": "xZfxnLluEHEu",
-      "representative": {
-        "id": "xZfxnLluEHEu",
-        "url": "https://www.thejournal.ie/budget-2027-announcement-whats-in-it-live-updates-7183581-Oct2026/",
-        "canonicalUrl": "https://www.thejournal.ie/budget-2027-announcement-whats-in-it-live-updates-7183581-Oct2026/",
-        "title": "Income tax band changes and fuel excise measures confirmed as ministers announce Budget 2027",
-        "description": "Simon Harris and Jack Chambers are confirming the details of the government’s spending plans.",
-        "source": {
-          "id": "thejournal",
-          "name": "TheJournal.ie"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:54:00.000Z",
-        "imageUrl": "https://c2.thejournal.ie/media/2026/10/jack3-1d9ad356-50d9-44e5-b60f-28e2f481a121-630x360.jpg",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:54:00.000Z"
-    },
-    {
       "id": "UmL4S326X2-5",
       "representative": {
         "id": "UmL4S326X2-5",
@@ -452,6 +428,82 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:48:20.000Z"
+    },
+    {
+      "id": "i_ezQjmDfveC",
+      "representative": {
+        "id": "i_ezQjmDfveC",
+        "url": "https://www.rte.ie/news/ulster/2026/1006/1594213-a5-road-ruling/",
+        "canonicalUrl": "https://www.rte.ie/news/ulster/2026/1006/1594213-a5-road-ruling/",
+        "title": "A5 upgrade can proceed following Court of Appeal ruling",
+        "description": "A court ruling that halted Northern Ireland's biggest roads project has been overturned.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:43:59.000Z",
+        "imageUrl": "https://www.rte.ie/images/0025203a-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "dXpq_RrZlTUB",
+          "url": "https://www.thejournal.ie/a5-road-upgrade-court-ruling-7183953-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/a5-road-upgrade-court-ruling-7183953-Oct2026/",
+          "title": "A5 road from the Tyrone border to Derry set for major upgrade after Belfast court ruling",
+          "description": "The plan was originally rejected by the Belfast High Court due to an apparent conflict with climate laws.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:47:11.000Z",
+          "imageUrl": "https://c2.thejournal.ie/media/2026/10/cross-border-projects-51b49555-840b-410a-b754-08faa92be685-630x419.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        },
+        {
+          "id": "Q1utnQ9x71dM",
+          "url": "https://www.irishmirror.ie/news/irish-news/appeal-court-quashes-ruling-a5-37740376",
+          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/appeal-court-quashes-ruling-a5-37740376",
+          "title": "Appeal Court quashes ruling that A5 project cannot proceed",
+          "description": "In the Appeal Court on Tuesday, Lady Chief Justice Dame Siobhan Keegan delivered judgment",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:23:50.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article37740419.ece/ALTERNATES/s615/0_01M489XYACB5QQFQAVQ7W9H07J.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        },
+        {
+          "id": "k00sJlDPWLr5",
+          "url": "https://www.irishtimes.com/ireland/2026/10/06/belfast-court-quashes-ruling-blocking-upgrade-of-a5-road/",
+          "canonicalUrl": "https://www.irishtimes.com/ireland/2026/10/06/belfast-court-quashes-ruling-blocking-upgrade-of-a5-road/",
+          "title": "Belfast appeals court quashes ruling blocking upgrade of A5 road",
+          "description": "€2 billion upgrade would be Northern Ireland’s largest ever road project",
+          "source": {
+            "id": "irishtimes",
+            "name": "The Irish Times"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T10:53:36.000Z",
+          "imageUrl": "https://www.irishtimes.com/resizer/v2/IO42GLNFOVWPSM37OTUAHHCRXQ.jpg?auth=abffffc214b86340604fe3a45f7e68f3367bc74bb4a36240c436d67ee8ea6857&smart=true&width=630&height=350",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T12:47:11.000Z"
     }
   ]
 }

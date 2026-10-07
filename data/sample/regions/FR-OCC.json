@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-OCC",
   "regionName": "Occitanie",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "1CF-tvwZ0Mxy",
@@ -264,78 +264,6 @@
       "latestPublishedAt": "2026-10-07T08:23:47.000Z"
     },
     {
-      "id": "TRCXTsBP1YLT",
-      "representative": {
-        "id": "TRCXTsBP1YLT",
-        "url": "https://www.ici.fr/emissions/ici-ca-marche-avec-ici-roussillon/au-coeur-de-perpignan-cette-boutique-ne-vend-que-des-produits-locaux-et-c-est-pas-forcement-plus-cher-2051848?at_medium=lien_RSS&at_locale=46",
-        "canonicalUrl": "https://www.ici.fr/emissions/ici-ca-marche-avec-ici-roussillon/au-coeur-de-perpignan-cette-boutique-ne-vend-que-des-produits-locaux-et-c-est-pas-forcement-plus-cher-2051848",
-        "title": "Au cœur de Perpignan, cette boutique ne vend que du local...et c'est pas forcément plus cher !",
-        "description": "C'est à la fois un primeur, un fromager, une épicerie et une cave à vin. Bienvenue chez Solar au cœur de Perpignan. Ici tout est local. Des légumes aux confitures, du fuet aux anchois, tous les produits sont sourcés et viennent des PO ou de Catalogne Sud. Et c'est pas forcément plus cher, écoutez !",
-        "source": {
-          "id": "ici_occitanie",
-          "name": "ici Occitanie, Hérault, Roussillon"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T08:02:30.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/4f1126f6-1554-4e5a-9f55-2bcb9f1c593b/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-OCC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T08:02:30.000Z"
-    },
-    {
-      "id": "78vZjCcf0zlN",
-      "representative": {
-        "id": "78vZjCcf0zlN",
-        "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-roussillon/secheresse-et-canicule-les-barrages-des-pyrenees-orientales-produisent-de-nouveau-de-l-electricite-quasi-normalement-8525530?at_medium=lien_RSS&at_locale=46",
-        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-roussillon/secheresse-et-canicule-les-barrages-des-pyrenees-orientales-produisent-de-nouveau-de-l-electricite-quasi-normalement-8525530",
-        "title": "Sécheresse et canicule : les barrages des Pyrénées-Orientales produisent de nouveau de l'électricité \"quasi normalement\"",
-        "description": "Après les années de sécheresse, les barrages des Pyrénées-Orientales ont repris leur fonctionnement normal et produisent de l'électricité.",
-        "source": {
-          "id": "ici_occitanie",
-          "name": "ici Occitanie, Hérault, Roussillon"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T07:16:56.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/19391263-eaeb-4d43-81d1-e0c69873517e/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-OCC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T07:16:56.000Z"
-    },
-    {
-      "id": "LjaFeczGQNbF",
-      "representative": {
-        "id": "LjaFeczGQNbF",
-        "url": "https://www.ici.fr/emissions/l-info-du-sud/un-debut-de-cyclone-tropical-observe-pour-la-premiere-fois-au-large-de-la-catalogne-9724936?at_medium=lien_RSS&at_locale=46",
-        "canonicalUrl": "https://www.ici.fr/emissions/l-info-du-sud/un-debut-de-cyclone-tropical-observe-pour-la-premiere-fois-au-large-de-la-catalogne-9724936",
-        "title": "Un début de cyclone tropical observé pour la première fois au large de la Catalogne",
-        "description": "Les pluies torrentielles qui ont frappé la Catalogne ces derniers jours pourraient cacher un phénomène météo totalement inédit. Selon un chercheur, les orages ont commencé à s’organiser comme le font les cyclones tropicaux. Une situation qui n’avait encore jamais été observée en Méditerranée.",
-        "source": {
-          "id": "ici_occitanie",
-          "name": "ici Occitanie, Hérault, Roussillon"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T07:04:04.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/811cf9fa-be6d-4b8a-8491-e6ffae7d797d/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-OCC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T07:04:04.000Z"
-    },
-    {
       "id": "EMQ-Y8LjZO8a",
       "representative": {
         "id": "EMQ-Y8LjZO8a",
@@ -358,54 +286,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T06:49:39.000Z"
-    },
-    {
-      "id": "xvbrGz8v7emE",
-      "representative": {
-        "id": "xvbrGz8v7emE",
-        "url": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-roussillon/video-le-nombre-d-hectares-brules-dans-les-pyrenees-orientales-multiplie-par-100-en-un-an-1267707?at_medium=lien_RSS&at_locale=46",
-        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-roussillon/video-le-nombre-d-hectares-brules-dans-les-pyrenees-orientales-multiplie-par-100-en-un-an-1267707",
-        "title": "VIDÉO - Le nombre d'hectares brûlés dans les Pyrénées-Orientales multiplié par 100 en un an",
-        "description": "Le préfet des Pyrénées-Orientales, Pierre Regnault de la Mothe, a fait le point, ce mercredi, sur les incendies de l'année. Le nombre d'hectares détruits a bondi en un an, notamment à cause du feu de Trévillach.",
-        "source": {
-          "id": "ici_occitanie",
-          "name": "ici Occitanie, Hérault, Roussillon"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:37:27.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/47e16491-12ef-4a05-b103-da9d740f64d5/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-OCC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:37:27.000Z"
-    },
-    {
-      "id": "eWWiKYtp57rg",
-      "representative": {
-        "id": "eWWiKYtp57rg",
-        "url": "https://www.ici.fr/occitanie/pyrenees-orientales-66/saint-laurent-de-la-salanque/incendie-de-saint-laurent-de-la-salanque-on-ne-peut-pas-obtenir-le-pardon-si-on-ne-le-demande-pas-sincerement-9582187?at_medium=lien_RSS&at_locale=46",
-        "canonicalUrl": "https://www.ici.fr/occitanie/pyrenees-orientales-66/saint-laurent-de-la-salanque/incendie-de-saint-laurent-de-la-salanque-on-ne-peut-pas-obtenir-le-pardon-si-on-ne-le-demande-pas-sincerement-9582187",
-        "title": "Incendie de Saint-Laurent-de-la-Salanque : \"On ne peut pas obtenir le pardon si on ne le demande pas sincèrement\"",
-        "description": "Au quatrième jour d'audience du procès de l'incendie de Saint-Laurent-de-la-Salanque, la cour d'assises des Pyrénées-Orientales a poursuivi les auditions des parties civiles. Avec des témoignages bouleversants.",
-        "source": {
-          "id": "ici_occitanie",
-          "name": "ici Occitanie, Hérault, Roussillon"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:36:07.000Z",
-        "imageUrl": "https://www.ici.fr/pikapi/images/34ac1873-12b7-4665-ac14-21ec0155fbe9/920x517?webp=false",
-        "countryCode": "FR",
-        "regionCode": "FR-OCC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:36:07.000Z"
     },
     {
       "id": "856F1NpXizKu",
@@ -454,6 +334,126 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T06:26:51.000Z"
+    },
+    {
+      "id": "CrQ2fzRy6VyZ",
+      "representative": {
+        "id": "CrQ2fzRy6VyZ",
+        "url": "https://www.midilibre.fr/2026/10/06/mobilisation-lyceenne-ce-mardi-a-nimes-toutes-les-generations-rassemblees-autour-des-lyceens-13587558.php",
+        "canonicalUrl": "https://www.midilibre.fr/2026/10/06/mobilisation-lyceenne-ce-mardi-a-nimes-toutes-les-generations-rassemblees-autour-des-lyceens-13587558.php",
+        "title": "Mobilisation lycéenne : ce mardi, à Nîmes, toutes les générations rassemblées autour des lycéens",
+        "description": "La contestation lycéenne a connu ce mardi un nouveau développement avec une grande marche en centre-ville. Enseignants, délégués syndicaux, parents et même grands-parents, étaient au rendez-vous.",
+        "source": {
+          "id": "midilibre",
+          "name": "Midi Libre"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:16:16.000Z",
+        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac528b1dcf92aca6d06185a/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:16:16.000Z"
+    },
+    {
+      "id": "TSSqqMOqCAzx",
+      "representative": {
+        "id": "TSSqqMOqCAzx",
+        "url": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-des-appels-a-bloquer-luniversite-de-perpignan-ce-mercredi-matin-suivez-levolution-de-la-situation-13588364.php",
+        "canonicalUrl": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-des-appels-a-bloquer-luniversite-de-perpignan-ce-mercredi-matin-suivez-levolution-de-la-situation-13588364.php",
+        "title": "Mobilisation des lycéens : des appels à bloquer l'Université de Perpignan, ce mercredi matin... Suivez l'évolution de la situation",
+        "description": "Après le succès de la mobilisation de ce mardi entre l'université et le centre-ville de Perpignan, le mouvement restait actif ce mercredi matin où des appels à bloquer le site universitaire du Moulin-à-Vent avaient...",
+        "source": {
+          "id": "lindependant",
+          "name": "L'Indépendant"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:15:29.000Z",
+        "imageUrl": "https://images.lindependant.fr/api/v1/images/view/6ac5e2a52e9ac1bedb0ab8be/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:15:29.000Z"
+    },
+    {
+      "id": "PsCFG1gJbngD",
+      "representative": {
+        "id": "PsCFG1gJbngD",
+        "url": "https://www.midilibre.fr/2026/10/07/en-direct-episode-mediterraneen-le-gard-et-lherault-en-vigilance-orange-de-violents-orages-ont-frappe-cette-nuit-les-dernieres-infos-en-images-13587683.php",
+        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/en-direct-episode-mediterraneen-le-gard-et-lherault-en-vigilance-orange-de-violents-orages-ont-frappe-cette-nuit-les-dernieres-infos-en-images-13587683.php",
+        "title": "EN DIRECT Épisode méditerranéen : accident sur l’A9, routes inondées, village isolé… les dernières infos sur les orages de la nuit en images",
+        "description": "Ce mercredi 7 octobre 2026, les intempéries touchent l’hexagone et notamment l’Occitanie. Plusieurs départements de la région sont en vigilance orange pour pluie-inondation et orages. Suivez l’évolution de situation...",
+        "source": {
+          "id": "midilibre",
+          "name": "Midi Libre"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:08:35.000Z",
+        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac542dd7f9ddfc5c80b3591/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:08:35.000Z"
+    },
+    {
+      "id": "BWr7HobisPvI",
+      "representative": {
+        "id": "BWr7HobisPvI",
+        "url": "https://www.ladepeche.fr/2026/10/07/bouchons-la-circulation-est-dense-ce-mercredi-matin-voici-les-axes-a-eviter-13588346.php",
+        "canonicalUrl": "https://www.ladepeche.fr/2026/10/07/bouchons-la-circulation-est-dense-ce-mercredi-matin-voici-les-axes-a-eviter-13588346.php",
+        "title": "Bouchons : la circulation est dense ce mercredi matin, voici les axes à éviter aux abords de Toulouse",
+        "description": "La circulation est particulièrement dense ce mercredi sur l'ensemble du réseau toulousain. Des kilomètres de bouchons se sont déjà accumulés sur l'A620, l'A64 et la RN124. Soyez prudents et patients.",
+        "source": {
+          "id": "ladepeche",
+          "name": "La Dépêche du Midi"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:47:16.000Z",
+        "imageUrl": "https://images.ladepeche.fr/api/v1/images/view/6ac5d99539c5b3fd93084f8e/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:47:16.000Z"
+    },
+    {
+      "id": "5e3a9S3gtn_9",
+      "representative": {
+        "id": "5e3a9S3gtn_9",
+        "url": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/toi-tu-degages-un-journaliste-percute-par-un-policier-alors-qu-il-filmait-la-manifestation-lyceenne-3429087.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/toi-tu-degages-un-journaliste-percute-par-un-policier-alors-qu-il-filmait-la-manifestation-lyceenne-3429087.html",
+        "title": "\"Toi, tu dégages \": un journaliste percuté par un policier alors qu’il filmait la manifestation lycéenne",
+        "description": "Valentin Levetti, journaliste du média en ligne Stup.Media, a été percuté a priori volontairement à la jambe par un policier à moto alors qu’il couvrait la manifestation lycéenne et les troubles à l’ordre public devant le lycée Clemenceau, à Montpellier. Les faits se sont déroulés vendredi 2…",
+        "source": {
+          "id": "france3_occitanie",
+          "name": "France 3 Occitanie"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:36:55.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/JK0fhDc5Jz4EXwfkqFY5GQzY9L4/930x620/filters:format(webp)/regions/2026/10/06/6ac534023fd44242608194.png",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:36:55.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MY",
   "countryName": "Malaysia",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "oZV40huPKD1H",
@@ -197,6 +197,102 @@
       "latestPublishedAt": "2026-10-06T13:00:00.000Z"
     },
     {
+      "id": "wULzBpPI60Q5",
+      "representative": {
+        "id": "wULzBpPI60Q5",
+        "url": "https://www.malaymail.com/news/malaysia/2026/10/06/a-happy-family-zara-qairinas-stepsister-says-she-never-met-teen-but-regularly-viewed-photos-on-social-media/237972",
+        "canonicalUrl": "https://www.malaymail.com/news/malaysia/2026/10/06/a-happy-family-zara-qairinas-stepsister-says-she-never-met-teen-but-regularly-viewed-photos-on-social-media/237972",
+        "title": "‘A happy family?’: Zara Qairina’s stepsister says she never met teen, but regularly viewed photos on social media",
+        "description": "KOTA KINABALU, Oct 6 — The stepsister of the late Zara Qairina Mahathir told the Coroner’s Court that she ne...",
+        "source": {
+          "id": "malaymail",
+          "name": "Malay Mail"
+        },
+        "sourceCountry": "MY",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:20:27.000Z",
+        "imageUrl": "https://www.malaymail.com/malaymail/uploads/images/2026/10/06/366731.jpg",
+        "countryCode": "MY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:20:27.000Z"
+    },
+    {
+      "id": "S8Fu_L_muY10",
+      "representative": {
+        "id": "S8Fu_L_muY10",
+        "url": "https://www.malaysiakini.com/news/886371-bersatu-had-right-to-complain-to-ros-over-pn-management-tun-faisal",
+        "canonicalUrl": "https://www.malaysiakini.com/news/886371-bersatu-had-right-to-complain-to-ros-over-pn-management-tun-faisal",
+        "title": "Bersatu defends ROS complaint, accuses PAS of 'narcissistic manipulation'",
+        "description": "Party info chief paints PAS as a 'narcissistic manipulator'.",
+        "source": {
+          "id": "malaysiakini",
+          "name": "Malaysiakini"
+        },
+        "sourceCountry": "MY",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:00:00.000Z",
+        "imageUrl": "https://s.malaysiakini.com/i/KsD2KUpiIPw0Wojhw6stHEtPu1c=/900x0/filters:strip_exif()/file/attachments/887/07fcf7127983621dc6ad6d867c54f81d_733413.jpg",
+        "countryCode": "MY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "oDBDqcHqkh9E",
+      "representative": {
+        "id": "oDBDqcHqkh9E",
+        "url": "https://www.malaymail.com/news/malaysia/2026/10/06/myanmar-president-to-visit-malaysia-tomorrow-as-migrant-returns-draw-rights-groups-warnings/237968",
+        "canonicalUrl": "https://www.malaymail.com/news/malaysia/2026/10/06/myanmar-president-to-visit-malaysia-tomorrow-as-migrant-returns-draw-rights-groups-warnings/237968",
+        "title": "Myanmar president to visit Malaysia tomorrow as migrant returns draw rights groups’ warnings",
+        "description": "KUALA LUMPUR, Oct 6 — Myanmar’s coup leader turned president Min Aung Hlaing will head to Malaysia on Wednes...",
+        "source": {
+          "id": "malaymail",
+          "name": "Malay Mail"
+        },
+        "sourceCountry": "MY",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:55:33.000Z",
+        "imageUrl": "https://www.malaymail.com/malaymail/uploads/images/2026/10/06/366724.jpg",
+        "countryCode": "MY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:55:33.000Z"
+    },
+    {
+      "id": "-hPGKZXWxMFu",
+      "representative": {
+        "id": "-hPGKZXWxMFu",
+        "url": "https://www.malaysiakini.com/news/886388-nik-nazmi-sri-muda-flood-ruling-highlights-need-for-climate-law",
+        "canonicalUrl": "https://www.malaysiakini.com/news/886388-nik-nazmi-sri-muda-flood-ruling-highlights-need-for-climate-law",
+        "title": "Nik Nazmi: Sri Muda flood ruling highlights need for climate law",
+        "description": "Climate change, extreme weather events cannot be treated as beyond govt's control, ex-minister says.",
+        "source": {
+          "id": "malaysiakini",
+          "name": "Malaysiakini"
+        },
+        "sourceCountry": "MY",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:20:32.000Z",
+        "imageUrl": "https://s.malaysiakini.com/i/wfmA36jifmEAIt81WFIuKLEtpC0=/900x0/filters:strip_exif()/file/publisher-c1a3f893382d2b2f8a9aa22a654d9c97/2026/05/c3e063fadb74c0b6b09cac580e700af5.jpg",
+        "countryCode": "MY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:20:32.000Z"
+    },
+    {
       "id": "fmvVrhgqPQ6D",
       "representative": {
         "id": "fmvVrhgqPQ6D",
@@ -302,102 +398,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:50:00.000Z"
-    },
-    {
-      "id": "OGyQD32lbd4F",
-      "representative": {
-        "id": "OGyQD32lbd4F",
-        "url": "https://www.nst.com.my/business/economy/2026/10/1549220/johor-wants-jobs-make-workers-think-twice-about-singapore-exco",
-        "canonicalUrl": "https://www.nst.com.my/business/economy/2026/10/1549220/johor-wants-jobs-make-workers-think-twice-about-singapore-exco",
-        "title": "Johor wants jobs that make workers think twice about Singapore: Exco",
-        "description": "JOHOR BARU: The Johor-Singapore Special Economic Zone (JS-SEZ) is targeting higher-value careers that can persuade Johoreans to work locally instead of crossing the Causeway for better pay, said Lee Ting Han.",
-        "source": {
-          "id": "nst",
-          "name": "New Straits Times"
-        },
-        "sourceCountry": "MY",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:45:26.000Z",
-        "imageUrl": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/B33E5C59F0FB507338F693CD44539BEF_data_0.jpg",
-        "countryCode": "MY",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:45:26.000Z"
-    },
-    {
-      "id": "jZc8mRQK-wou",
-      "representative": {
-        "id": "jZc8mRQK-wou",
-        "url": "https://www.freemalaysiatoday.com/category/world/2026/10/06/pakistani-pm-urges-imran-khan-s-supporters-to-end-protest-march",
-        "canonicalUrl": "https://www.freemalaysiatoday.com/category/world/2026/10/06/pakistani-pm-urges-imran-khan-s-supporters-to-end-protest-march",
-        "title": "Pakistani PM urges Imran Khan’s supporters to end protest march",
-        "description": "Supporters of the jailed former prime minister began the march on Sunday, demanding his release after de-escalation talks stalled.",
-        "source": {
-          "id": "fmt",
-          "name": "Free Malaysia Today"
-        },
-        "sourceCountry": "MY",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:44:10.000Z",
-        "imageUrl": "https://media.freemalaysiatoday.com/v3/2026/10/99955672-7b8e-433d-8725-a68e353634ca-EPA-Pakistan-Protest-06102026.webp",
-        "countryCode": "MY",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:44:10.000Z"
-    },
-    {
-      "id": "Pg1Jj1O9wC_Z",
-      "representative": {
-        "id": "Pg1Jj1O9wC_Z",
-        "url": "https://www.nst.com.my/business/corporate/2026/10/1549218/asteel-revamps-board-after-clifford-hii-takes-control-ex-igp",
-        "canonicalUrl": "https://www.nst.com.my/business/corporate/2026/10/1549218/asteel-revamps-board-after-clifford-hii-takes-control-ex-igp",
-        "title": "Asteel revamps board after Clifford Hii takes control, ex-IGP named chairman",
-        "description": "KUALA LUMPUR: Asteel Group Bhd has revamped its board following the change in control, appointing former Inspector-General of Police Tan Sri Razarudin Husain @ Abd Rasid as independent non-executive chairman.",
-        "source": {
-          "id": "nst",
-          "name": "New Straits Times"
-        },
-        "sourceCountry": "MY",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:41:43.000Z",
-        "imageUrl": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/25518AC1FDACD61B773FBACF866554AB_data_0.jpg",
-        "countryCode": "MY",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:41:43.000Z"
-    },
-    {
-      "id": "QbmRnKRotOiF",
-      "representative": {
-        "id": "QbmRnKRotOiF",
-        "url": "https://www.nst.com.my/news/nation/2026/10/1549215/neighbour-recalls-seeing-kuantan-student-suspect-hours-tragedy",
-        "canonicalUrl": "https://www.nst.com.my/news/nation/2026/10/1549215/neighbour-recalls-seeing-kuantan-student-suspect-hours-tragedy",
-        "title": "Neighbour recalls seeing Kuantan student with suspect hours before tragedy",
-        "description": "KUANTAN: A neighbour expressed shock over the death of a 19-year-old student whom she had spotted walking with the male suspect near Jalan Air Putih just hours before the incident.",
-        "source": {
-          "id": "nst",
-          "name": "New Straits Times"
-        },
-        "sourceCountry": "MY",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:38:02.000Z",
-        "imageUrl": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/E1C3D7DBE449B2286AEC7DA5B3102AEE_data_0_0.jpg",
-        "countryCode": "MY",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:38:02.000Z"
     }
   ]
 }

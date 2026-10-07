@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "HR",
   "countryName": "Croatia",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "DsnOMZ2jYDZz",
@@ -412,30 +412,6 @@
       "latestPublishedAt": "2026-10-06T13:58:00.000Z"
     },
     {
-      "id": "GE6XNiq5v8E3",
-      "representative": {
-        "id": "GE6XNiq5v8E3",
-        "url": "https://www.index.hr/vijesti/clanak/zavrseno-spajanje-paramounta-i-warner-bros-discoveryja-nastao-skydance/2842634.aspx",
-        "canonicalUrl": "https://www.index.hr/vijesti/clanak/zavrseno-spajanje-paramounta-i-warner-bros-discoveryja-nastao-skydance/2842634.aspx",
-        "title": "Završeno spajanje Paramounta i Warner Bros. Discoveryja. Nastao Skydance",
-        "description": "PARAMOUNT je zaključio preuzimanje tvrtke Warner Bros. Discovery.",
-        "source": {
-          "id": "index_hr",
-          "name": "Index.hr"
-        },
-        "sourceCountry": "HR",
-        "language": "hr",
-        "publishedAt": "2026-10-06T13:58:00.000Z",
-        "imageUrl": null,
-        "countryCode": "HR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:58:00.000Z"
-    },
-    {
       "id": "8PqQflSnbIIa",
       "representative": {
         "id": "8PqQflSnbIIa",
@@ -519,28 +495,52 @@
       "latestPublishedAt": "2026-10-06T13:56:00.000Z"
     },
     {
-      "id": "-dRrnfh0uwND",
+      "id": "Vyyb1Lth-0D3",
       "representative": {
-        "id": "-dRrnfh0uwND",
-        "url": "https://www.index.hr/vijesti/clanak/hzzo-osporava-lijecenje-koje-je-platio-rudan-brkica-vozili-helikopterom-iz-mostara/2842623.aspx",
-        "canonicalUrl": "https://www.index.hr/vijesti/clanak/hzzo-osporava-lijecenje-koje-je-platio-rudan-brkica-vozili-helikopterom-iz-mostara/2842623.aspx",
-        "title": "HZZO osporava liječenje koje je platio Rudan. Brkića vozili helikopterom iz Mostara",
-        "description": "SPOR HZZO-a s pokojnom Vedranom Rudan i hitni prijevoz Milijana Brkića helikopterom ukazuju na određene paradokse hrvatskog zdravstva.",
+        "id": "Vyyb1Lth-0D3",
+        "url": "https://www.tportal.hr/autozona/clanak/europski-automobilski-div-povecao-proizvodnju-automobila-u-italiji-20261006",
+        "canonicalUrl": "https://www.tportal.hr/autozona/clanak/europski-automobilski-div-povecao-proizvodnju-automobila-u-italiji-20261006",
+        "title": "Europski automobilski div povećao proizvodnju u Italiji",
+        "description": "Europski automobilski div Stellantis proizveo je u razdoblju od siječnja do rujna u talijanskim pogonima gotovo za trećinu više automobila nego u istom lanjskom razdoblju, procjenjuje sindikat FIM Cisl, uz prognozu o skoku proizvodnje u cijeloj godini nakon dvogodišnjeg razdoblja slabijih rezultata",
         "source": {
-          "id": "index_hr",
-          "name": "Index.hr"
+          "id": "tportal",
+          "name": "tportal"
         },
         "sourceCountry": "HR",
         "language": "hr",
-        "publishedAt": "2026-10-06T13:53:00.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T13:50:00.000Z",
+        "imageUrl": "https://www.tportal.hr/media/thumbnail/500x300/2806746.jpeg?cropId=0",
         "countryCode": "HR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:53:00.000Z"
+      "latestPublishedAt": "2026-10-06T13:50:00.000Z"
+    },
+    {
+      "id": "k3YAJ2WRB5vO",
+      "representative": {
+        "id": "k3YAJ2WRB5vO",
+        "url": "https://www.jutarnji.hr/sportske/nogomet/split-nije-okrenuo-leda-hrvatskoj-a-bilic-sigurno-ostaje-zamisli-da-je-hajduk-onako-izgubio-15753253",
+        "canonicalUrl": "https://www.jutarnji.hr/sportske/nogomet/split-nije-okrenuo-leda-hrvatskoj-a-bilic-sigurno-ostaje-zamisli-da-je-hajduk-onako-izgubio-15753253",
+        "title": "Split nije okrenuo leđa Hrvatskoj, a Bilić sigurno ostaje! ‘Zamisli da je Hajduk onako izgubio...‘",
+        "description": "Iako u Splitu kroz narednih par dana \"zovu\" ozbiljnu promjenu vremena, jutro je u utorak na dan utakmice protiv Španjolske u Gradu pod Marjanom svanulo sunčano, ugodno i mirno. Mirno do te mjere da se miris neke velike i važne utakmice nije ni osjećao. Lagodni splitski ritam života nije kod…",
+        "source": {
+          "id": "jutarnji",
+          "name": "Jutarnji list"
+        },
+        "sourceCountry": "HR",
+        "language": "hr",
+        "publishedAt": "2026-10-06T13:49:43.000Z",
+        "imageUrl": "https://media.jutarnji.hr/images/slike/2026/10/06/f_39728052_1280.jpg?1791295101",
+        "countryCode": "HR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:49:43.000Z"
     }
   ]
 }

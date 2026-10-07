@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-ARA",
   "regionName": "Auvergne-Rhône-Alpes",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "7mALKypLyWFh",
@@ -306,30 +306,6 @@
       "latestPublishedAt": "2026-10-07T10:34:49.000Z"
     },
     {
-      "id": "3fY7YVwgfSye",
-      "representative": {
-        "id": "3fY7YVwgfSye",
-        "url": "https://www.lyoncapitale.fr/actualite/plus-dun-vol-sur-trois-a-decolle-avec-au-moins-30-minutes-de-retard-cet-ete-a-lyon",
-        "canonicalUrl": "https://www.lyoncapitale.fr/actualite/plus-dun-vol-sur-trois-a-decolle-avec-au-moins-30-minutes-de-retard-cet-ete-a-lyon",
-        "title": "Plus d’un vol sur trois a décollé avec au moins 30 minutes de retard cet été à Lyon",
-        "description": "Les voyageurs ayant pris l’avion depuis l’aéroport Lyon-Saint-Exupéry cet été ont-ils été épargnés par les retards ? Pas vraiment selon les derniers chiffres publiés par Indemniflight, un service d'aide à l'indemnisation des passagers aériens. Entre le 1er juillet et le 31 août, 35,5% des vols au…",
-        "source": {
-          "id": "lyoncapitale",
-          "name": "Lyon Capitale"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T10:17:00.000Z",
-        "imageUrl": "https://www.lyoncapitale.fr/wp-content/uploads/2022/05/640x410_nombreux-retards-vols-lyon-saint-exupery-exaspere-passagers.jpg-2-e1787672323668.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:17:00.000Z"
-    },
-    {
       "id": "9NjcpLTm30Le",
       "representative": {
         "id": "9NjcpLTm30Le",
@@ -352,78 +328,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T10:14:36.000Z"
-    },
-    {
-      "id": "3i3UtVv_Xtha",
-      "representative": {
-        "id": "3i3UtVv_Xtha",
-        "url": "https://www.lyoncapitale.fr/regions/aura/loire/gofab-met-lindustrie-ligerienne-face-aux-defis-de-demain-a-saint-chamond",
-        "canonicalUrl": "https://www.lyoncapitale.fr/regions/aura/loire/gofab-met-lindustrie-ligerienne-face-aux-defis-de-demain-a-saint-chamond",
-        "title": "GOFab! met l’industrie ligérienne face aux défis de demain à Saint-Chamond",
-        "description": "Le choix des thèmes intervient alors que la réindustrialisation du territoire ralentit. Selon le Baromètre industriel de l’État, publié par la Direction générale des Entreprises en mars 2026, le solde net des ouvertures, extensions et réductions significatives de sites industriels s’est établi à…",
-        "source": {
-          "id": "lyoncapitale",
-          "name": "Lyon Capitale"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T10:04:03.000Z",
-        "imageUrl": "https://www.lyoncapitale.fr/wp-content/uploads/2026/10/ArenaSEM_0235459-e1791367406125.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:04:03.000Z"
-    },
-    {
-      "id": "4a4fDTye6CPB",
-      "representative": {
-        "id": "4a4fDTye6CPB",
-        "url": "https://www.lyoncapitale.fr/culture/georges-lavaudant-au-tnp-un-excellent-spectacle-sous-tous-rapports",
-        "canonicalUrl": "https://www.lyoncapitale.fr/culture/georges-lavaudant-au-tnp-un-excellent-spectacle-sous-tous-rapports",
-        "title": "Georges Lavaudant au TNP : un excellent spectacle sous tous rapports",
-        "description": "Grand lecteur et admirateur de Franz Kafka, Georges Lavaudant reprend au TNP son spectacle Rapport pour une académie, inspiré par la nouvelle éponyme de l’écrivain praguois. À voir absolument ! En juillet 2023, Les Nuits de Fourvière avaient programmé le formidable spectacle mis en scène par…",
-        "source": {
-          "id": "lyoncapitale",
-          "name": "Lyon Capitale"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T09:41:00.000Z",
-        "imageUrl": "https://www.lyoncapitale.fr/wp-content/uploads/2026/10/Rapport_pour_une_academie_3%C2%A9Marie_Clauzade.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:41:00.000Z"
-    },
-    {
-      "id": "detpd1NUvJBK",
-      "representative": {
-        "id": "detpd1NUvJBK",
-        "url": "https://www.lyoncapitale.fr/actualite/pour-leau-des-stephanois-un-chantier-a-pres-de-10-millions-deuros",
-        "canonicalUrl": "https://www.lyoncapitale.fr/actualite/pour-leau-des-stephanois-un-chantier-a-pres-de-10-millions-deuros",
-        "title": "Pour l’eau des Stéphanois, un chantier à près de 10 millions d’euros",
-        "description": "À première vue, le chantier paraît éloigné des Stéphanois. Le barrage de Lavalette (500 mètres de long et environ 60 mètres de haut) se trouve à Lapte, en Haute-Loire, à plusieurs dizaines de kilomètres de Saint-Étienne. Pourtant, son fonctionnement concerne directement les habitants de…",
-        "source": {
-          "id": "lyoncapitale",
-          "name": "Lyon Capitale"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T09:37:53.000Z",
-        "imageUrl": "https://www.lyoncapitale.fr/wp-content/uploads/2026/10/Laval_barr-e1791365420765.jpeg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:37:53.000Z"
     },
     {
       "id": "efcKWwEgAxK8",
@@ -450,28 +354,124 @@
       "latestPublishedAt": "2026-10-07T09:21:35.000Z"
     },
     {
-      "id": "097Nazl3ruVj",
+      "id": "U5FiEEwf22FC",
       "representative": {
-        "id": "097Nazl3ruVj",
-        "url": "https://www.lyoncapitale.fr/actualite/mouvement-lyceen-en-direct-des-universites-lyonnaises-bloquees-la-circulation-du-tramway-perturbee",
-        "canonicalUrl": "https://www.lyoncapitale.fr/actualite/mouvement-lyceen-en-direct-des-universites-lyonnaises-bloquees-la-circulation-du-tramway-perturbee",
-        "title": "Mouvement lycéen en direct : 21 établissements impactés, 4 interpellations à Givors",
-        "description": "11h10 : 21 établissements concernés, des individus cagoulés à Givors Depuis ce matin, 21 établissements ont été impactés par des manifestations, mais à 11h seulement 8, dont 3 universités, sont toujours concernés. La préfecture précise qu'à Givors, dans le secteur des lycées Casanova et Picasso…",
+        "id": "U5FiEEwf22FC",
+        "url": "https://www.ici.fr/infos/medias-people/photos-miss-france-2027-decouvrez-les-visages-des-31-miss-regionales-en-lice-pour-la-couronne-6838543?at_medium=lien_RSS&at_locale=29",
+        "canonicalUrl": "https://www.ici.fr/infos/medias-people/photos-miss-france-2027-decouvrez-les-visages-des-31-miss-regionales-en-lice-pour-la-couronne-6838543",
+        "title": "PHOTOS - Miss France 2027 : découvrez les visages des 31 Miss régionales en lice pour la couronne",
+        "description": "Les 31 candidates qui tenteront de remporter la couronne de Miss France 2027 sont donc toutes connues. L'élection aura lieu le 12 décembre à l'Arena Futuroscope, près de Poities (Vienne). Découvrez leurs portraits avec ICI.",
         "source": {
-          "id": "lyoncapitale",
-          "name": "Lyon Capitale"
+          "id": "ici_ara",
+          "name": "ici Isère, Pays de Savoie, Saint-Étienne Loire"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T09:11:00.000Z",
-        "imageUrl": "https://www.lyoncapitale.fr/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-08.26.09-e1791356054179.jpeg",
+        "publishedAt": "2026-10-07T09:03:04.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/94c91cbf-2c31-48ed-b4ad-e13ef88f511e/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-ARA"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:11:00.000Z"
+      "latestPublishedAt": "2026-10-07T09:03:04.000Z"
+    },
+    {
+      "id": "F2T-R0lNhJ7F",
+      "representative": {
+        "id": "F2T-R0lNhJ7F",
+        "url": "https://www.leprogres.fr/faits-divers-justice/2026/10/07/deux-accidents-impressionnants-sur-l-a43-dans-la-nuit-un-jeune-homme-grievement-blesse-l-autre-miracule",
+        "canonicalUrl": "https://www.leprogres.fr/faits-divers-justice/2026/10/07/deux-accidents-impressionnants-sur-l-a43-dans-la-nuit-un-jeune-homme-grievement-blesse-l-autre-miracule",
+        "title": "Nord Isère. Deux accidents impressionnants sur l'A43 dans la nuit : un jeune homme grièvement blessé, l'autre miraculé",
+        "description": "Ils se sont produits à quelques kilomètres seulement seulement pendant la nuit de mardi à mercredi sur l'autoroute A43 en direction de Lyon. Si l'un des deux conducteurs a pu s'en sortir de justesse indemne, l'autre est grièvement blessé.",
+        "source": {
+          "id": "leprogres",
+          "name": "Le Progrès"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:54:00.000Z",
+        "imageUrl": null,
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:54:00.000Z"
+    },
+    {
+      "id": "9dwADmvccFpn",
+      "representative": {
+        "id": "9dwADmvccFpn",
+        "url": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-euroligue-un-choc-franco-francais-ce-soir-pour-l-asvel_VN-202610070257.html",
+        "canonicalUrl": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-euroligue-un-choc-franco-francais-ce-soir-pour-l-asvel_VN-202610070257.html",
+        "title": "Euroligue : un choc franco-français ce soir pour l'ASVEL !",
+        "description": "En Euroligue, l'ASVEL défie le Paris Basketball à l'extérieur. Le club de TP doit réagir !",
+        "source": {
+          "id": "bfm_lyon",
+          "name": "BFM Lyon"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:52:19.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/CUQSiyzYB9i4aMWBnRBoUpC5WGc=/0x0:1280x720/800x0/images/Euroligue-un-choc-franco-francais-ce-soir-pour-l-ASVEL-2360745.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:52:19.000Z"
+    },
+    {
+      "id": "wndyMdv47o95",
+      "representative": {
+        "id": "wndyMdv47o95",
+        "url": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-meteo-le-rhone-perd-pres-de-12-degres-en-24-heures_VN-202610070255.html",
+        "canonicalUrl": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-meteo-le-rhone-perd-pres-de-12-degres-en-24-heures_VN-202610070255.html",
+        "title": "Météo : le Rhône perd près de 12 degrés en 24 heures",
+        "description": "Une nouvelle chute brutale des températures à partir d'aujourd'hui dans le Rhône. Près de 12 degrés en moins par rapport à la journée d'hier.",
+        "source": {
+          "id": "bfm_lyon",
+          "name": "BFM Lyon"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:51:09.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/aoHsYKrqCTlkIoDzpJ1EE3isCfw=/0x0:1280x720/800x0/images/Meteo-le-Rhone-perd-pres-de-12-degres-en-24-heures-2360743.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:51:09.000Z"
+    },
+    {
+      "id": "pP43vCfMLpx2",
+      "representative": {
+        "id": "pP43vCfMLpx2",
+        "url": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-mobilisation-lyceenne-a-lyon-le-prefet-souligne-le-calme-de-la-mobilisation_VN-202610070250.html",
+        "canonicalUrl": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-mobilisation-lyceenne-a-lyon-le-prefet-souligne-le-calme-de-la-mobilisation_VN-202610070250.html",
+        "title": "Mobilisation lycéenne à Lyon : le Préfet souligne le calme de la mobilisation",
+        "description": "Après cette journée de manifestation, le préfet du Rhône a souligné le calme de la mobilisation. Quelques heurts sont à signaler Place Guichard.",
+        "source": {
+          "id": "bfm_lyon",
+          "name": "BFM Lyon"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:48:36.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/UijQLSI0Rt-I9Ifq6S16_0ez1DI=/0x0:1280x720/800x0/images/Mobilisation-lyceenne-a-Lyon-le-Prefet-souligne-le-calme-de-la-mobilisation-2360739.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:48:36.000Z"
     }
   ]
 }

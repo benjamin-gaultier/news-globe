@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "FI",
   "countryName": "Finland",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "FgcrG8czkIp7",
@@ -287,100 +287,100 @@
       "latestPublishedAt": "2026-10-06T13:31:00.000Z"
     },
     {
-      "id": "e3kEIyk8-pK_",
+      "id": "CTCqpRI-coQB",
       "representative": {
-        "id": "e3kEIyk8-pK_",
-        "url": "https://www.is.fi/tv-ja-elokuvat/art-2000012324382.html",
-        "canonicalUrl": "https://www.is.fi/tv-ja-elokuvat/art-2000012324382.html",
-        "title": "Aku Louhimies puhuu sairaus­kohtauksestaan: ”Ei ollut vielä minun aikani lähteä”",
-        "description": "Aku Louhimiehen sairauskohtaus ja sitä seurannut sairausloma muuttivat Lapin sota -elokuvan kuvauksia.",
+        "id": "CTCqpRI-coQB",
+        "url": "https://www.mtvuutiset.fi/artikkeli/asiantuntija-drooni-iskuista-bulgariassa-naton-ei-tarvitse-reagoida/9403014",
+        "canonicalUrl": "https://www.mtvuutiset.fi/artikkeli/asiantuntija-drooni-iskuista-bulgariassa-naton-ei-tarvitse-reagoida/9403014",
+        "title": "Asiantuntija drooni-iskuista Mustallamerellä: \"Naton ei tarvitse reagoida\"",
+        "description": "Kahteen rahtialukseen kohdistui tiistaina Mustallamerellä droonihyökkäys.",
         "source": {
-          "id": "iltasanomat",
-          "name": "Ilta-Sanomat"
+          "id": "mtvuutiset",
+          "name": "MTV Uutiset"
         },
         "sourceCountry": "FI",
         "language": "fi",
-        "publishedAt": "2026-10-06T13:29:00.000Z",
-        "imageUrl": "https://images.sanoma-sndp.fi/7eb2b4416bdedfb92f7b5e7b35be26bc/normal/1440.jpg",
+        "publishedAt": "2026-10-06T13:17:09.000Z",
+        "imageUrl": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9403022/data/9e0524697f5ddf32d94bc9dda6e803ea/landscape16_9/1024/30-3effegj.jpg",
         "countryCode": "FI",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:29:00.000Z"
+      "latestPublishedAt": "2026-10-06T13:17:09.000Z"
     },
     {
-      "id": "Ap1RM3-Qmmml",
+      "id": "7p0118zCFIiD",
       "representative": {
-        "id": "Ap1RM3-Qmmml",
-        "url": "https://www.hs.fi/urheilu/art-2000012323593.html",
-        "canonicalUrl": "https://www.hs.fi/urheilu/art-2000012323593.html",
-        "title": "HS-analyysi | Helsingin konsertti­kesä näytti, että Olympia­stadion ei olekaan luvattu maailman­luokan areena",
-        "description": "Suomen kallein tapahtumarakennus oli sesonkiaikanakin viikkokausia täysin tyhjillään, kirjoittaa Marko Lempinen.",
+        "id": "7p0118zCFIiD",
+        "url": "https://yle.fi/a/74-20249123?origin=rss",
+        "canonicalUrl": "https://yle.fi/a/74-20249123?origin=rss",
+        "title": "Valtio ohjaa lisärahaa Soklin kaivoshankkeelle – yhtä aikaa kunta vastustaa kaivosta, ja siltä puuttuu yhä ympäristölupa",
+        "description": "Valtio-omisteinen Finnish minerals group on aloittamassa Soklissa koekaivoksen ja koerikastuksen. Siihen vaaditun ympäristöluvan hakemus on nyt julki.",
         "source": {
-          "id": "hs",
-          "name": "Helsingin Sanomat"
+          "id": "yle",
+          "name": "Yle Uutiset"
         },
         "sourceCountry": "FI",
         "language": "fi",
-        "publishedAt": "2026-10-06T13:20:00.000Z",
-        "imageUrl": "https://images.sanoma-sndp.fi/923ad5fde92253ab4fac3ff99e61da7d/normal/1440.jpg",
+        "publishedAt": "2026-10-06T13:09:03.000Z",
+        "imageUrl": null,
         "countryCode": "FI",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:20:00.000Z"
+      "latestPublishedAt": "2026-10-06T13:09:03.000Z"
     },
     {
-      "id": "uBYcZjjhdXRH",
+      "id": "h9aR8gBKnTlo",
       "representative": {
-        "id": "uBYcZjjhdXRH",
-        "url": "https://www.is.fi/taloussanomat/art-2000012324386.html",
-        "canonicalUrl": "https://www.is.fi/taloussanomat/art-2000012324386.html",
-        "title": "Viranomainen vaati datakeskusten valmistelujen keskeyttämistä – Google: Istutamme puita",
-        "description": "Google kommentoi LVV:n Muhosta koskevaa päätöstä: ”Emme tässä tapauksessa yltäneet itse asettamiimme korkeisiin tavoitteisiin.”",
+        "id": "h9aR8gBKnTlo",
+        "url": "https://www.mtvuutiset.fi/artikkeli/poliisilla-ja-puolustusvoimilla-mystinen-operaatio-virolahdella/9403020",
+        "canonicalUrl": "https://www.mtvuutiset.fi/artikkeli/poliisilla-ja-puolustusvoimilla-mystinen-operaatio-virolahdella/9403020",
+        "title": "Poliisilla ja Puolustusvoimilla mystinen operaatio Virolahdella",
+        "description": "Kaakkois-Suomen poliisilaitoksella on ollut aamusta alkaen käynnissä poliisitutkintaan liittyvä valvontatehtävä Virolahdella.",
         "source": {
-          "id": "iltasanomat",
-          "name": "Ilta-Sanomat"
+          "id": "mtvuutiset",
+          "name": "MTV Uutiset"
         },
         "sourceCountry": "FI",
         "language": "fi",
-        "publishedAt": "2026-10-06T13:20:00.000Z",
-        "imageUrl": "https://images.sanoma-sndp.fi/2bd6eab393fb5b75693bee231e5885bd/normal/1440.jpg",
+        "publishedAt": "2026-10-06T12:51:11.000Z",
+        "imageUrl": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9403030/data/f160e31e650da317b48f7a2c22248085/landscape16_9/1024/virolahti-poliisiopetaatio.jpg",
         "countryCode": "FI",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:20:00.000Z"
+      "latestPublishedAt": "2026-10-06T12:51:11.000Z"
     },
     {
-      "id": "C8cD5GfSKa8d",
+      "id": "OtiPcjlwEZtE",
       "representative": {
-        "id": "C8cD5GfSKa8d",
-        "url": "https://www.is.fi/kotimaa/art-2000012322155.html",
-        "canonicalUrl": "https://www.is.fi/kotimaa/art-2000012322155.html",
-        "title": "Kokenut vangin­vartija: Suomen vankiloissa on vakava ongelma",
-        "description": "Vantaan sellimurha järkytti poikkeuksellisella raakuudellaan: nuoreen mieheen kohdistunut väkivalta jatkui päiväkausia ilman, että siihen puututtiin. Vankilavirkailijain Liiton puheenjohtaja Seija Mäenpää varoittaa Mistä Puhutaan -ohjelmassa Suomen vankiloiden akuutista tilanteesta.",
+        "id": "OtiPcjlwEZtE",
+        "url": "https://yle.fi/a/74-20250117?origin=rss",
+        "canonicalUrl": "https://yle.fi/a/74-20250117?origin=rss",
+        "title": "Laillisuusvalvoja moittii Helsingin poliisia: toimi virheellisesti purkaessaan Elokapina-mielenosoituksia",
+        "description": "Moitteen vakavuutta lisää se, että Helsingin poliisia on moitittu samoista kysymyksistä jo aiemmin, oikeusasiamies katsoo.",
         "source": {
-          "id": "iltasanomat",
-          "name": "Ilta-Sanomat"
+          "id": "yle",
+          "name": "Yle Uutiset"
         },
         "sourceCountry": "FI",
         "language": "fi",
-        "publishedAt": "2026-10-06T13:18:00.000Z",
-        "imageUrl": "https://images.sanoma-sndp.fi/3a391fc5bbc3ed2cfe1e1fe536da1f85/normal/1440.jpg",
+        "publishedAt": "2026-10-06T12:34:07.000Z",
+        "imageUrl": null,
         "countryCode": "FI",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:18:00.000Z"
+      "latestPublishedAt": "2026-10-06T12:34:07.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "LT",
   "countryName": "Lithuania",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "HUeR9Z2g_h-K",
@@ -233,54 +233,6 @@
       "latestPublishedAt": "2026-10-06T13:41:03.000Z"
     },
     {
-      "id": "uhvPHZH6AK7x",
-      "representative": {
-        "id": "uhvPHZH6AK7x",
-        "url": "http://www.lrytas.lt/skonis/pasigamink/2026/10/06/news/bananu-duonai-ypatingo-skonio-gali-suteikti-is-pirmo-zvilgsnio-netiketas-ingredientas-is-darzo-44352750/",
-        "canonicalUrl": "http://www.lrytas.lt/skonis/pasigamink/2026/10/06/news/bananu-duonai-ypatingo-skonio-gali-suteikti-is-pirmo-zvilgsnio-netiketas-ingredientas-is-darzo-44352750/",
-        "title": "Bananų duonai ypatingo skonio gali suteikti iš pirmo žvilgsnio netikėtas ingredientas iš daržo",
-        "description": "Virtuvėje stovi keli bananai, kurių žievė jau nusėta rudomis dėmėmis. Valgyti jų vienų nebesinori, išmesti gaila – tad ką su jais daryti? Vienas paprasčiausių būdų sunaudoti stipriai sunokusius bananus – iškepti bananų duoną. Atrodytų, viskas paprasta: sutrini vaisius…",
-        "source": {
-          "id": "lrytas",
-          "name": "Lrytas"
-        },
-        "sourceCountry": "LT",
-        "language": "lt",
-        "publishedAt": "2026-10-06T13:41:00.000Z",
-        "imageUrl": "http://media.lrytas.lt/images/2026/10/06/133905973-0fc3c239-2198-4579-b98d-5370a4a6f232.jpg",
-        "countryCode": "LT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:41:00.000Z"
-    },
-    {
-      "id": "85_dCoMkGVSA",
-      "representative": {
-        "id": "85_dCoMkGVSA",
-        "url": "http://www.lrytas.lt/sportas/futbolas/2026/10/06/news/aiskeja-kas-pakeis-e-jankauska-lietuvos-futbolo-rinktines-trenerio-pozicijoje-44352744/",
-        "canonicalUrl": "http://www.lrytas.lt/sportas/futbolas/2026/10/06/news/aiskeja-kas-pakeis-e-jankauska-lietuvos-futbolo-rinktines-trenerio-pozicijoje-44352744/",
-        "title": "Aiškėja, kas pakeis E. Jankauską Lietuvos futbolo rinktinės trenerio pozicijoje",
-        "description": "Lietuvos futbolo rinktinė po atsisveikinimo su Edgaru Jankausku jau dairosi naujo stratego. Kaip skelbia portalas „O, Sportas!“, realiausiais kandidatais šiuo metu laikomi lietuviai.",
-        "source": {
-          "id": "lrytas",
-          "name": "Lrytas"
-        },
-        "sourceCountry": "LT",
-        "language": "lt",
-        "publishedAt": "2026-10-06T13:39:12.000Z",
-        "imageUrl": "http://media.lrytas.lt/images/2026/10/06/133741902-d1ed56c2-8818-4c55-885b-9252df45eaac.jpg",
-        "countryCode": "LT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:39:12.000Z"
-    },
-    {
       "id": "yzierkTurioU",
       "representative": {
         "id": "yzierkTurioU",
@@ -329,6 +281,78 @@
       "latestPublishedAt": "2026-10-06T13:35:46.000Z"
     },
     {
+      "id": "KFUW97zePxxx",
+      "representative": {
+        "id": "KFUW97zePxxx",
+        "url": "https://www.vz.lt/mano-pinigai/2026/10/06/nvidia-arteja-prie-6-trln-usd-vertes-591014",
+        "canonicalUrl": "https://www.vz.lt/mano-pinigai/2026/10/06/nvidia-arteja-prie-6-trln-usd-vertes-591014",
+        "title": "„Nvidia“ artėja prie 6 trln. USD vertės",
+        "description": "JAV lustų bendrovės „Nvidia“ akcijos pasiekė naują rekordą, o jos rinkos kapitalizacija priartėjo prie 6 trln. USD.",
+        "source": {
+          "id": "vz",
+          "name": "Verslo žinios"
+        },
+        "sourceCountry": "LT",
+        "language": "lt",
+        "publishedAt": "2026-10-06T13:18:28.000Z",
+        "imageUrl": "https://www.vz.lt/image/720/story/image/IvJI5ZHP-nvidia.jpg?1729795298",
+        "countryCode": "LT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:18:28.000Z"
+    },
+    {
+      "id": "uhvPHZH6AK7x",
+      "representative": {
+        "id": "uhvPHZH6AK7x",
+        "url": "http://www.lrytas.lt/skonis/pasigamink/2026/10/06/news/bananu-duonai-ypatingo-skonio-gali-suteikti-is-pirmo-zvilgsnio-netiketas-ingredientas-is-darzo-44352750/",
+        "canonicalUrl": "http://www.lrytas.lt/skonis/pasigamink/2026/10/06/news/bananu-duonai-ypatingo-skonio-gali-suteikti-is-pirmo-zvilgsnio-netiketas-ingredientas-is-darzo-44352750/",
+        "title": "Bananų duonai ypatingo skonio gali suteikti iš pirmo žvilgsnio netikėtas ingredientas iš daržo",
+        "description": "Virtuvėje stovi keli bananai, kurių žievė jau nusėta rudomis dėmėmis. Valgyti jų vienų nebesinori, išmesti gaila – tad ką su jais daryti? Vienas paprasčiausių būdų sunaudoti stipriai sunokusius bananus – iškepti bananų duoną. Atrodytų, viskas paprasta: sutrini vaisius…",
+        "source": {
+          "id": "lrytas",
+          "name": "Lrytas"
+        },
+        "sourceCountry": "LT",
+        "language": "lt",
+        "publishedAt": "2026-10-06T13:41:00.000Z",
+        "imageUrl": "http://media.lrytas.lt/images/2026/10/06/133905973-0fc3c239-2198-4579-b98d-5370a4a6f232.jpg",
+        "countryCode": "LT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:41:00.000Z"
+    },
+    {
+      "id": "85_dCoMkGVSA",
+      "representative": {
+        "id": "85_dCoMkGVSA",
+        "url": "http://www.lrytas.lt/sportas/futbolas/2026/10/06/news/aiskeja-kas-pakeis-e-jankauska-lietuvos-futbolo-rinktines-trenerio-pozicijoje-44352744/",
+        "canonicalUrl": "http://www.lrytas.lt/sportas/futbolas/2026/10/06/news/aiskeja-kas-pakeis-e-jankauska-lietuvos-futbolo-rinktines-trenerio-pozicijoje-44352744/",
+        "title": "Aiškėja, kas pakeis E. Jankauską Lietuvos futbolo rinktinės trenerio pozicijoje",
+        "description": "Lietuvos futbolo rinktinė po atsisveikinimo su Edgaru Jankausku jau dairosi naujo stratego. Kaip skelbia portalas „O, Sportas!“, realiausiais kandidatais šiuo metu laikomi lietuviai.",
+        "source": {
+          "id": "lrytas",
+          "name": "Lrytas"
+        },
+        "sourceCountry": "LT",
+        "language": "lt",
+        "publishedAt": "2026-10-06T13:39:12.000Z",
+        "imageUrl": "http://media.lrytas.lt/images/2026/10/06/133741902-d1ed56c2-8818-4c55-885b-9252df45eaac.jpg",
+        "countryCode": "LT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:39:12.000Z"
+    },
+    {
       "id": "uRLFHPedV4hc",
       "representative": {
         "id": "uRLFHPedV4hc",
@@ -375,30 +399,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:24:12.000Z"
-    },
-    {
-      "id": "3LW5uxl5XPA6",
-      "representative": {
-        "id": "3LW5uxl5XPA6",
-        "url": "http://www.lrytas.lt/verslas/rinkos-pulsas/2026/10/06/news/infliacijos-banga-gali-buti-ne-tik-stipresne-bet-ir-gerokai-sunkiau-suvaldoma-aiskina-kas-pasikeite-44347660/",
-        "canonicalUrl": "http://www.lrytas.lt/verslas/rinkos-pulsas/2026/10/06/news/infliacijos-banga-gali-buti-ne-tik-stipresne-bet-ir-gerokai-sunkiau-suvaldoma-aiskina-kas-pasikeite-44347660/",
-        "title": "Infliacijos banga gali būti ne tik stipresnė, bet ir gerokai sunkiau suvaldoma: aiškina, kas pasikeitė",
-        "description": "Jei pavasarį energijos kainų šuolis dar atrodė kaip laikinas nepatogumas, šiandien jau aišku, kad lengvai atsikvėpti nepavyks. Užsitęsusi energetikos krizė grasina tapti kur kas platesnio kainų augimo pradžia: brangesnė energija vis labiau persiduoda maistui, prekėms ir…",
-        "source": {
-          "id": "lrytas",
-          "name": "Lrytas"
-        },
-        "sourceCountry": "LT",
-        "language": "lt",
-        "publishedAt": "2026-10-06T13:22:26.000Z",
-        "imageUrl": "http://media.lrytas.lt/images/2026/10/06/085356622-d27102e1-d0a1-4fd2-81dc-4cf67cd30aba.jpg",
-        "countryCode": "LT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:22:26.000Z"
     }
   ]
 }

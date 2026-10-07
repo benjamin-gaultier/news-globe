@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "NL",
   "countryName": "Netherlands",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "1nB4UXNMS80O",
@@ -430,28 +430,28 @@
       "latestPublishedAt": "2026-10-06T13:13:00.000Z"
     },
     {
-      "id": "FKPIvTYl9nH_",
+      "id": "seFBZLvkXejw",
       "representative": {
-        "id": "FKPIvTYl9nH_",
-        "url": "https://www.telegraaf.nl/financieel/geld/cryptodienstverleners-ontstemd-over-box-3-plannen-ook-twijfels-in-den-haag-is-dit-juridisch-uit-te-leggen/162659996.html",
-        "canonicalUrl": "https://www.telegraaf.nl/financieel/geld/cryptodienstverleners-ontstemd-over-box-3-plannen-ook-twijfels-in-den-haag-is-dit-juridisch-uit-te-leggen/162659996.html",
-        "title": "Cryptodienstverleners ontstemd over box 3-plannen, ook twijfels in Den Haag: ’Is dit juridisch uit te leggen?’",
-        "description": "Cryptodienstverleners zien de bui voor 2028 al hangen. Vanaf dan gaan onder meer aandelen- en vastgoedbeleggers pas belasting over hun rendement betalen zodra zij de boel verkopen, maar voor bezitters van cryptovaluta gelden nog enkele jaren andere regels: zij moeten ieder jaar afrekenen over hun…",
+        "id": "seFBZLvkXejw",
+        "url": "https://www.trouw.nl/cultuur-media/musici-opgelet-kun-jij-van-de-muziek-leven-vul-hier-de-enquete-in~b7c9b68b/",
+        "canonicalUrl": "https://www.trouw.nl/cultuur-media/musici-opgelet-kun-jij-van-de-muziek-leven-vul-hier-de-enquete-in~b7c9b68b/",
+        "title": "Musici opgelet: kun jij van de muziek leven? Vul hier de enquête in!",
+        "description": null,
         "source": {
-          "id": "telegraaf",
-          "name": "De Telegraaf"
+          "id": "trouw",
+          "name": "Trouw"
         },
         "sourceCountry": "NL",
         "language": "nl",
-        "publishedAt": "2026-10-06T13:12:58.000Z",
-        "imageUrl": "https://prod-img.telegraaf.nl/public/incoming/kn4sn0-gettyimages-2150242380.jpg/alternates/BASE_SIXTEEN_NINE/GettyImages-2150242380.jpg",
+        "publishedAt": "2026-10-06T13:06:36.000Z",
+        "imageUrl": "https://image.trouw.nl/264589977/feature-crop/320/320/afbeelding",
         "countryCode": "NL",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:12:58.000Z"
+      "latestPublishedAt": "2026-10-06T13:06:36.000Z"
     }
   ]
 }

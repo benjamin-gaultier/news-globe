@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TR",
   "countryName": "Turkey",
-  "updatedAt": "2026-10-07T12:11:47.256Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "T0S0hXz_B4bi",
@@ -473,30 +473,6 @@
       "latestPublishedAt": "2026-10-06T14:59:08.000Z"
     },
     {
-      "id": "CPkg52MTANL3",
-      "representative": {
-        "id": "CPkg52MTANL3",
-        "url": "https://www.cnnturk.com/turkiye/kpss-lisans-ne-zaman-aciklanacak-kpss-lisans-sonuclari-son-dakika-osym-kpss-lisans-sonuclari-tarihi-3475404",
-        "canonicalUrl": "https://www.cnnturk.com/turkiye/kpss-lisans-ne-zaman-aciklanacak-kpss-lisans-sonuclari-son-dakika-osym-kpss-lisans-sonuclari-tarihi-3475404",
-        "title": "KPSS LİSANS NE ZAMAN AÇIKLANACAK? KPSS Lisans Sonuçları Son Dakika | ÖSYM KPSS Lisans Sonuçları Tarihi!",
-        "description": "KPSS Lisans sınavına katılan adayların sonuç heyecanı sürüyor. Sınav maratonunu geride bırakan binlerce aday, “KPSS Lisans sonuçları ne zaman açıklanacak?” sorusuna yanıt ararken gözler ÖSYM’nin duyurduğu sonuç takvimine çevrildi. Kamu kurumlarında görev almak isteyen adaylar için büyük önem…",
-        "source": {
-          "id": "cnnturk",
-          "name": "CNN Türk"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T14:20:58.000Z",
-        "imageUrl": null,
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:20:58.000Z"
-    },
-    {
       "id": "wASwsAoJYe4J",
       "representative": {
         "id": "wASwsAoJYe4J",
@@ -639,28 +615,52 @@
       "latestPublishedAt": "2026-10-06T13:12:41.000Z"
     },
     {
-      "id": "llyHA-Sj4ASR",
+      "id": "OHit7KT9nwRd",
       "representative": {
-        "id": "llyHA-Sj4ASR",
-        "url": "https://www.hurriyet.com.tr/gundem/burdurda-yerel-internet-haber-sitesinin-sahibi-yaniltici-bilgiyi-yayma-sucundan-tutuklandi-43331643",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/burdurda-yerel-internet-haber-sitesinin-sahibi-yaniltici-bilgiyi-yayma-sucundan-tutuklandi-43331643",
-        "title": "Burdur'da yerel internet haber sitesinin sahibi ‘yanıltıcı bilgiyi yayma’ suçundan tutuklandı",
-        "description": "Burdur'da yayın yapan yerel internet haber sitesinin sahibi Hasan Güraksu, 'Halkı yanıltıcı bilgiyi alenen yayma' suçundan tutuklanarak Isparta Cezaevi'ne teslim edildi.",
+        "id": "OHit7KT9nwRd",
+        "url": "https://www.cumhuriyet.com.tr/turkiye/ehliyet-sinavinda-kopya-duzenegi-ortaya-cikti-uzerlerinden-cikanlar-sasirtti-2544252",
+        "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/ehliyet-sinavinda-kopya-duzenegi-ortaya-cikti-uzerlerinden-cikanlar-sasirtti-2544252",
+        "title": "Ehliyet sınavında kopya düzeneği ortaya çıktı: Üzerlerinden çıkanlar şaşırttı",
+        "description": "Samsun'da, ehliyet e-sınavına giren E.Ç.'nin (24) üzerinde yapılan aramada, ses ve görüntü aktarımı sağlayan çeşitli elektronik cihazlar ele geçirildi. Sınavda kopya çekilmesine olanak sağladığı tespit edilen Ö.Ş.'nin (37) üzerinde yapılan aramada da çok sayıda elektronik cihaz bulundu. Olaya…",
         "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
+          "id": "cumhuriyet",
+          "name": "Cumhuriyet"
         },
         "sourceCountry": "TR",
         "language": "tr",
-        "publishedAt": "2026-10-06T13:09:00.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4f3ca75376faf77849a74.jpg",
+        "publishedAt": "2026-10-06T13:08:00.000Z",
+        "imageUrl": "https://media.cumhuriyet.com.tr/Archive/e43c0d91-7726-4b48-b59f-bd9dd80f575c.jpg",
         "countryCode": "TR",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:09:00.000Z"
+      "latestPublishedAt": "2026-10-06T13:08:00.000Z"
+    },
+    {
+      "id": "Ig3P9We_fcsv",
+      "representative": {
+        "id": "Ig3P9We_fcsv",
+        "url": "https://www.aa.com.tr/tr/dunya/israilde-secimler-yaklasirken-netanyahu-yonetiminden-gazze-ve-bati-seriaya-saldiri-sinyalleri/4079840",
+        "canonicalUrl": "https://www.aa.com.tr/tr/dunya/israilde-secimler-yaklasirken-netanyahu-yonetiminden-gazze-ve-bati-seriaya-saldiri-sinyalleri/4079840",
+        "title": "İsrail'de seçimler yaklaşırken Netanyahu yönetiminden Gazze ve Batı Şeria'ya saldırı sinyalleri",
+        "description": "İsrail'de 27 Ekim'de yapılacak parlamento seçimleri yaklaşırken Başbakan Binyamin Netanyahu ve hükümetinden işgal altındaki Batı Şeria ve Gazze'ye yönelik saldırı sinyalleri geldi.",
+        "source": {
+          "id": "aa",
+          "name": "Anadolu Ajansı"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T13:07:24.000Z",
+        "imageUrl": null,
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:07:24.000Z"
     }
   ]
 }
