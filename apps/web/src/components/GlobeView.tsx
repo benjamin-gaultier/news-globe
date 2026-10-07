@@ -42,6 +42,9 @@ const REGION_SHAPES: Partial<Record<CountryCode, () => Promise<{ default: unknow
   CA: () => import('../assets/regions-ca.json'),
   AU: () => import('../assets/regions-au.json'),
   BR: () => import('../assets/regions-br.json'),
+  MX: () => import('../assets/regions-mx.json'),
+  AR: () => import('../assets/regions-ar.json'),
+  IN: () => import('../assets/regions-in.json'),
 };
 
 async function loadRegionShapes(country: CountryCode): Promise<Shape[]> {
