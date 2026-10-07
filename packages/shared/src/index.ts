@@ -235,6 +235,16 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   TZ: { code: 'TZ', name: 'Tanzania', lat: -6.3, lng: 34.8, altitude: 1.2 },
   RW: { code: 'RW', name: 'Rwanda', lat: -2, lng: 29.9, altitude: 0.4 },
   HT: { code: 'HT', name: 'Haiti', lat: 19, lng: -72.7, altitude: 0.5 },
+  PY: { code: 'PY', name: 'Paraguay', lat: -23.4, lng: -58.4, altitude: 0.8 },
+  PA: { code: 'PA', name: 'Panama', lat: 8.5, lng: -80.1, altitude: 0.5 },
+  KH: { code: 'KH', name: 'Cambodia', lat: 12.6, lng: 104.9, altitude: 0.6 },
+  MZ: { code: 'MZ', name: 'Mozambique', lat: -18.3, lng: 35.5, altitude: 1.3 },
+  BS: { code: 'BS', name: 'Bahamas', lat: 24.7, lng: -77.8, altitude: 0.6 },
+  BZ: { code: 'BZ', name: 'Belize', lat: 17.2, lng: -88.7, altitude: 0.4 },
+  TG: { code: 'TG', name: 'Togo', lat: 8.6, lng: 1.0, altitude: 0.5 },
+  SS: { code: 'SS', name: 'South Sudan', lat: 7.3, lng: 30.3, altitude: 1.0 },
+  CF: { code: 'CF', name: 'Central African Republic', lat: 6.6, lng: 20.9, altitude: 1.0 },
+  ET: { code: 'ET', name: 'Ethiopia', lat: 9.1, lng: 40.5, altitude: 1.2 },
 };
 
 export interface RegionMeta {
