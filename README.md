@@ -238,6 +238,8 @@ Regional papers' main feeds carry national and world news too (Sud Ouest's is mo
 
 The EBRA papers (L'Alsace, L'Est Républicain, Le Bien Public…) sometimes emit an unrendered title, `Vidéo. $content.TitleNoTags`; titles with template placeholders are dropped.
 
+Broadcasters' regional feeds list their programmes next to their articles: BFM's "Le journal de 8h du mercredi 7 octobre 2026", "L'actu du …" and "Le Café …:" / "BFM … et Vous:" segments, and ici's daily fuel-price finder. `isNotNews` drops these, plus items labelled as sponsored. On the 2026-10-07 cache it matched 27 of 33,230 distinct titles, all of them programmes.
+
 Each region's ici (ex-France Bleu) stations are one outlet with several feeds (their `rubrique/infos.xml` feeds; slugs don't always match the station name: Paris is `107-1`, Occitanie is `toulouse`). The stations share regional stories, so separate entries would make one station's story look like coverage by several outlets. The copies' URLs differ only by `at_locale`, which is stripped as a tracking param so they dedupe. BFM's Marseille and Côte d'Azur channels, and Nice-Matin's Alpes-Maritimes and Var sections, are likewise one outlet each with two feeds. maville's city sites carry Ouest-France copy, so they are one Ouest-France outlet.
 
 **United States**
