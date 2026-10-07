@@ -6537,6 +6537,172 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://www.ugluu.mn/feed'],
     authority: 6,
   },
+  // New Caledonia. Two outlets only. RRB and Caledonia 404; NCI and RNC unreachable.
+  {
+    id: 'la1ere_nc',
+    name: 'Nouvelle-Calédonie La 1ère',
+    type: 'rss',
+    country: 'NC',
+    language: 'fr',
+    feedUrls: ['https://la1ere.franceinfo.fr/nouvellecaledonie/rss'],
+    authority: 9,
+  },
+  {
+    id: 'lnc',
+    name: 'Les Nouvelles Calédoniennes',
+    type: 'rss',
+    country: 'NC',
+    language: 'fr',
+    feedUrls: ['https://www.lnc.nc/rss.xml'],
+    authority: 8,
+  },
+  // Timor-Leste (Tetum). Two outlets only. Independente 404; Tempo Timor malformed; GMN TV and RTTL
+  // unreachable.
+  {
+    id: 'tatoli',
+    name: 'Tatoli',
+    type: 'rss',
+    country: 'TL',
+    language: 'tet',
+    feedUrls: ['https://www.tatoli.tl/feed/'],
+    authority: 9,
+  },
+  {
+    id: 'timorpost',
+    name: 'Timor Post',
+    type: 'rss',
+    country: 'TL',
+    language: 'tet',
+    feedUrls: ['https://www.timorpost.com/feed'],
+    authority: 8,
+  },
+  // Fiji. Two outlets only; FBC's main feed is mostly sport and it has no news-only feed. Fiji
+  // Times serves no items; Fiji Sun 404; Fiji Village malformed.
+  {
+    id: 'fijione',
+    name: 'Fiji One',
+    type: 'rss',
+    country: 'FJ',
+    language: 'en',
+    feedUrls: ['https://www.fijionenews.com.fj/feed/'],
+    authority: 8,
+  },
+  {
+    id: 'fbcnews',
+    name: 'FBC News',
+    type: 'rss',
+    country: 'FJ',
+    language: 'en',
+    feedUrls: ['https://www.fbcnews.com.fj/feed/'],
+    authority: 7,
+  },
+  // Solomon Islands. Two outlets only. Solomon Star 403; Solomon Times 404.
+  {
+    id: 'islandsun',
+    name: 'Island Sun',
+    type: 'rss',
+    country: 'SB',
+    language: 'en',
+    feedUrls: ['https://www.theislandsun.com.sb/feed/'],
+    authority: 8,
+  },
+  {
+    id: 'sibc',
+    name: 'SIBC',
+    type: 'rss',
+    country: 'SB',
+    language: 'en',
+    feedUrls: ['https://www.sibconline.com.sb/feed/'],
+    authority: 8,
+  },
+  // Djibouti. Two outlets only, both state media, a few items a day. ADI 404.
+  {
+    id: 'lanation_dj',
+    name: 'La Nation',
+    type: 'rss',
+    country: 'DJ',
+    language: 'fr',
+    feedUrls: ['https://www.lanation.dj/feed/'],
+    authority: 8,
+  },
+  {
+    id: 'rtd',
+    name: 'RTD',
+    type: 'rss',
+    country: 'DJ',
+    language: 'fr',
+    feedUrls: ['https://www.rtd.dj/feed'],
+    authority: 8,
+  },
+  // Congo-Brazzaville. Two outlets only, a few items a day. Adiac's feed only lists its e-paper;
+  // Les Echos du Congo-Brazzaville unreachable.
+  {
+    id: 'voxcg',
+    name: 'Vox',
+    type: 'rss',
+    country: 'CG',
+    language: 'fr',
+    feedUrls: ['https://www.vox.cg/feed/'],
+    authority: 7,
+  },
+  {
+    id: 'journaldebrazza',
+    name: 'Journal de Brazza',
+    type: 'rss',
+    country: 'CG',
+    language: 'fr',
+    feedUrls: ['https://www.journaldebrazza.com/feed/'],
+    authority: 7,
+  },
+  // Burundi. Two outlets only, a few items a day; SOS Médias Burundi works from exile. Isanganiro
+  // and Burundi Eco stale; RTNB, Ikiriho and Radio Culture unreachable.
+  {
+    id: 'iwacu',
+    name: 'Iwacu',
+    type: 'rss',
+    country: 'BI',
+    language: 'fr',
+    feedUrls: ['https://www.iwacu-burundi.org/feed/'],
+    authority: 8,
+  },
+  {
+    id: 'sosmediasburundi',
+    name: 'SOS Médias Burundi',
+    type: 'rss',
+    country: 'BI',
+    language: 'fr',
+    feedUrls: ['https://www.sosmediasburundi.org/feed/'],
+    authority: 7,
+  },
+  // Lesotho. Small feeds: Newsday leans to culture and lifestyle, The Reporter and Public Eye post
+  // a few items a day or less. Lesotho Times malformed; The Post 403; Sunday Express 404.
+  {
+    id: 'newsday_ls',
+    name: 'Newsday',
+    type: 'rss',
+    country: 'LS',
+    language: 'en',
+    feedUrls: ['https://newsdayonline.co.ls/feed/'],
+    authority: 7,
+  },
+  {
+    id: 'thereporter_ls',
+    name: 'The Reporter',
+    type: 'rss',
+    country: 'LS',
+    language: 'en',
+    feedUrls: ['https://www.thereporter.co.ls/feed/'],
+    authority: 7,
+  },
+  {
+    id: 'publiceye',
+    name: 'Public Eye',
+    type: 'rss',
+    country: 'LS',
+    language: 'en',
+    feedUrls: ['https://publiceyenews.com/feed/'],
+    authority: 6,
+  },
   // ---- France: regions (see REGIONS). Local-section feeds only: the main
   // feeds of regional papers carry national and world news too. ----
   {

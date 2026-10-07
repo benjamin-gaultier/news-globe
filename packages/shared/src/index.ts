@@ -250,6 +250,14 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   NI: { code: 'NI', name: 'Nicaragua', lat: 12.9, lng: -85.2, altitude: 0.7 },
   SL: { code: 'SL', name: 'Sierra Leone', lat: 8.5, lng: -11.8, altitude: 0.5 },
   MN: { code: 'MN', name: 'Mongolia', lat: 46.9, lng: 103.8, altitude: 1.3 },
+  NC: { code: 'NC', name: 'New Caledonia', lat: -21.3, lng: 165.5, altitude: 0.6 },
+  TL: { code: 'TL', name: 'Timor-Leste', lat: -8.8, lng: 125.9, altitude: 0.5 },
+  FJ: { code: 'FJ', name: 'Fiji', lat: -17.8, lng: 178.1, altitude: 0.6 },
+  SB: { code: 'SB', name: 'Solomon Islands', lat: -9.4, lng: 160.0, altitude: 0.8 },
+  DJ: { code: 'DJ', name: 'Djibouti', lat: 11.8, lng: 42.6, altitude: 0.4 },
+  CG: { code: 'CG', name: 'Congo', lat: -0.7, lng: 15.2, altitude: 0.8 },
+  BI: { code: 'BI', name: 'Burundi', lat: -3.4, lng: 29.9, altitude: 0.4 },
+  LS: { code: 'LS', name: 'Lesotho', lat: -29.6, lng: 28.2, altitude: 0.4 },
 };
 
 export interface RegionMeta {

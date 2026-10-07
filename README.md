@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers 146 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany, Spain, Italy or the United States and it splits into its regions (13 French regions, 16 German Länder, 17 Spanish autonomous communities, 20 Italian regions, the 50 US states and DC), each with its own headlines from regional and local outlets.
+It covers 154 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany, Spain, Italy or the United States and it splits into its regions (13 French regions, 16 German Länder, 17 Spanish autonomous communities, 20 Italian regions, the 50 US states and DC), each with its own headlines from regional and local outlets.
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -2119,13 +2119,86 @@ Not used: Awoko and SLBC unreachable; AYV stale; Sierra Leone Live 403.
 
 Mongolian gets a short stopword list (*ба* "and", *нь*, *энэ* "this", dates, the country's name). Eguur's feed lists its whole archive (about 10,000 items, 3 MB), so every feed is now cut to its 200 newest items before caching. Not used: Montsame and Olloo 403; News.mn and Zindaa serve no items; Gogo, iSee, Unuudur and Baabar 404.
 
+**New Caledonia** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Nouvelle-Calédonie La 1ère | main feed | 9 | ✅ (fr) |
+| Les Nouvelles Calédoniennes | main feed | 8 | ✅ (fr) |
+
+Two outlets only. Not used: RRB and Caledonia 404; NCI and RNC unreachable.
+
+**Timor-Leste** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Tatoli | main feed | 9 | ✅ (tet) |
+| Timor Post | main feed | 8 | ✅ (tet) |
+
+Two outlets only, both in Tetum, which gets a short stopword list (*ba*, *iha*, *no*, *ho*, *sira*, *kona-ba*, the country's name). Not used: Independente 404; Tempo Timor malformed; GMN TV and RTTL unreachable.
+
+**Fiji** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Fiji One | main feed | 8 | ✅ (en) |
+| FBC News | main feed | 7 | ✅ (mostly sport, en) |
+
+Two outlets only. FBC's main feed is mostly sport, and it has no news-only feed. Not used: Fiji Times serves no items; Fiji Sun 404; Fiji Village malformed.
+
+**Solomon Islands** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Island Sun | main feed | 8 | ✅ (en) |
+| SIBC | main feed | 8 | ✅ (en) |
+
+Two outlets only. Not used: Solomon Star 403; Solomon Times 404.
+
+**Djibouti** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| La Nation | main feed | 8 | ✅ (state paper, fr) |
+| RTD | main feed | 8 | ✅ (state broadcaster, low volume, fr) |
+
+Two outlets only, both state media, a few items a day. Not used: ADI 404.
+
+**Congo-Brazzaville** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Vox | main feed | 7 | ✅ (low volume, fr) |
+| Journal de Brazza | main feed | 7 | ✅ (low volume, fr) |
+
+Two outlets only, a few items a day. Not used: Adiac's feed only lists its e-paper; Les Echos du Congo-Brazzaville unreachable.
+
+**Burundi** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Iwacu | main feed | 8 | ✅ (low volume, fr) |
+| SOS Médias Burundi | main feed | 7 | ✅ (in exile, low volume, fr) |
+
+Two outlets only, a few items a day. Not used: Isanganiro and Burundi Eco stale; RTNB, Ikiriho and Radio Culture unreachable.
+
+**Lesotho** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Newsday | main feed | 7 | ✅ (mostly culture and lifestyle, en) |
+| The Reporter | main feed | 7 | ✅ (low volume, en) |
+| Public Eye | main feed | 6 | ✅ (low volume, en) |
+
+Small feeds only. Not used: Lesotho Times malformed; The Post 403; Sunday Express 404.
+
 Khmer is split into words with `Intl.Segmenter('km')`, as Thai is, after dropping the zero-width spaces some outlets put between words; vowel signs are kept and Khmer digits made ASCII. It gets a short stopword list (*និង* "and", *ក្នុង* "in", *ការ*, the country's name).
 
 Swahili, Kinyarwanda, Kyrgyz and Belarusian get short stopword lists: class-agreement particles (*ya*, *wa*, *za*), Kinyarwanda's elided *n'*, *z'*, *cy'*, and the country's own name, as for Somali. Kyrgyz also drops *млрд*, *сом* and *түздү* ("amounted to"): two different nine-month revenue stories had been joined on them.
 
 `isNotNews` also drops Honduran front-page items ("Portada Digital, Miércoles 07.10.2026"), The Global New Light of Myanmar's daily e-paper entry (a bare "7 October 2026"), and VOA Chinese's broadcast episodes ("美国之音中文广播 (2026年10月7日) …").
 
-Not added yet, for lack of usable feeds: Kuwait, Qatar and Oman (feeds serve HTML, 403 or 404; Doha News posts a few items a day), Botswana, Mauritius and Trinidad and Tobago (one usable feed each), Turkmenistan (Azathabar, Hronika and Turkmen.news each post a few items a day), Laos (Laotian Times only), Bahrain (feeds 404), Malta (Newsbook and Lovin Malta; Times of Malta unreachable), Angola (one or two small feeds), Niger (Le Sahel, Niger Inter and Tamtaminfo post a few items a day or less; ActuNiger 404), the Maldives (Sun and PSM, in Dhivehi), Brunei, Bhutan and Timor-Leste (one slow feed each), Fiji and Papua New Guinea (one current feed each), New Caledonia (La 1ère and LNC), the Solomon Islands (SIBC and Island Sun), Congo-Brazzaville (Vox and Adiac), Burundi and Lesotho (two small feeds each), and North Korea (NK News and Daily NK, both based abroad).
+Not added yet, for lack of usable feeds: Kuwait, Qatar and Oman (feeds serve HTML, 403 or 404; Doha News posts a few items a day), Botswana, Mauritius and Trinidad and Tobago (one usable feed each), Turkmenistan (Azathabar, Hronika and Turkmen.news each post a few items a day), Laos (Laotian Times only), Bahrain (feeds 404), Malta (Newsbook and Lovin Malta; Times of Malta unreachable), Angola (one or two small feeds), Niger (Le Sahel, Niger Inter and Tamtaminfo post a few items a day or less; ActuNiger 404), the Maldives (Sun and PSM, in Dhivehi), Brunei, Bhutan (one slow feed), Papua New Guinea (Post-Courier only), and North Korea (NK News and Daily NK, both based abroad).
 
 **Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 
