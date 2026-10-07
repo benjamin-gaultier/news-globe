@@ -1,4 +1,4 @@
-import type { CountryFile, CountryMeta } from '@news-globe/shared';
+import type { CountryFile, CountryMeta, RegionCode, RegionMeta } from '@news-globe/shared';
 import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react';
 import type { AsyncState } from '../hooks/useAsync';
 import { relativeTime } from '../lib/time';
@@ -11,6 +11,12 @@ type Snap = keyof typeof SHEET_SNAPS;
 
 interface NewsPanelProps {
   country: CountryMeta;
+  /** Open region, when showing regional headlines. */
+  region?: RegionMeta;
+  /** The country's regions with headlines (empty if it has none). */
+  regions: readonly RegionMeta[];
+  /** null returns to the national headlines. */
+  onSelectRegion: (code: RegionCode | null) => void;
   state: AsyncState<CountryFile>;
   now: number;
   isMobile: boolean;
@@ -44,10 +50,11 @@ function readLanguageMode(): LanguageMode {
   }
 }
 
-/** The file to render: fresh data, or the previous data for this country while it refreshes. */
-function visibleData(state: AsyncState<CountryFile>, country: CountryMeta): CountryFile | null {
+/** The file to render: fresh data, or the previous data for this view while it refreshes. */
+function visibleData(state: AsyncState<CountryFile>, viewCode: string): CountryFile | null {
   if (state.status === 'ready') return state.data;
-  if (state.status === 'loading' && state.previous?.countryCode === country.code) return state.previous;
+  const previous = state.status === 'loading' ? state.previous : undefined;
+  if (previous && (previous.regionCode ?? previous.countryCode) === viewCode) return previous;
   return null;
 }
 
@@ -64,15 +71,15 @@ function Body({
   state,
   now,
   onRetry,
-  country,
+  view,
   english,
-}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'country'> & { english: boolean }) {
-  const data = visibleData(state, country);
+}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry'> & { view: { code: string; name: string }; english: boolean }) {
+  const data = visibleData(state, view.code);
 
   if (state.status === 'error') {
     return (
       <div className="panel-message" role="alert">
-        <p>Couldn’t load headlines for {country.name}.</p>
+        <p>Couldn’t load headlines for {view.name}.</p>
         <p className="panel-detail">{state.error}</p>
         <button type="button" className="btn" onClick={onRetry}>
           Try again
@@ -84,7 +91,7 @@ function Body({
   if (data.clusters.length === 0) {
     return (
       <div className="panel-message">
-        <p>No headlines for {country.name} right now.</p>
+        <p>No headlines for {view.name} right now.</p>
         <p className="panel-detail">Feeds are checked every hour — try again shortly.</p>
       </div>
     );
@@ -98,7 +105,19 @@ function Body({
   );
 }
 
-export function NewsPanel({ country, state, now, isMobile, onClose, onRetry, onSheetChange }: NewsPanelProps) {
+export function NewsPanel({
+  country,
+  region,
+  regions,
+  onSelectRegion,
+  state,
+  now,
+  isMobile,
+  onClose,
+  onRetry,
+  onSheetChange,
+}: NewsPanelProps) {
+  const view = region ?? country;
   const [snap, setSnap] = useState<Snap>('half');
   const [dragHeight, setDragHeight] = useState<number | null>(null);
   // Live drag state lives in a ref: pointerup can fire before React re-renders after the last move.
@@ -108,11 +127,13 @@ export function NewsPanel({ country, state, now, isMobile, onClose, onRetry, onS
 
   useEffect(() => onSheetChange(isMobile ? SHEET_SNAPS[snap] : 0), [snap, isMobile, onSheetChange]);
 
-  // Start each country at half height, scrolled to the top.
+  // Start each country at half height, scrolled to the top; switching region only scrolls.
   useEffect(() => {
     setSnap('half');
-    panelRef.current?.querySelector('.panel-body')?.scrollTo({ top: 0 });
   }, [country.code]);
+  useEffect(() => {
+    panelRef.current?.querySelector('.panel-body')?.scrollTo({ top: 0 });
+  }, [view.code]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose();
@@ -157,7 +178,7 @@ export function NewsPanel({ country, state, now, isMobile, onClose, onRetry, onS
   };
 
   const file = state.status === 'ready' ? state.data : null;
-  const languages = foreignLanguages(visibleData(state, country));
+  const languages = foreignLanguages(visibleData(state, view.code));
   const english = languageMode === 'en' && languages.length > 0;
   const languagesKey = languages.join(',');
   // Whether on-device translators exist for every language shown: drives the "Translating…" / fallback notes.
@@ -209,9 +230,14 @@ export function NewsPanel({ country, state, now, isMobile, onClose, onRetry, onS
       >
         <div className="sheet-handle" aria-hidden="true" />
         <div className="panel-heading">
-          <h2 id="panel-title">{country.name}</h2>
+          {region && (
+            <button type="button" className="crumb" onClick={() => onSelectRegion(null)}>
+              ‹ {country.name}
+            </button>
+          )}
+          <h2 id="panel-title">{view.name}</h2>
           <p className="panel-sub">
-            Top national headlines
+            Top {region ? 'regional' : 'national'} headlines
             {file && <> · updated {relativeTime(file.updatedAt, now)}</>}
           </p>
           {languages.length > 0 && (
@@ -232,6 +258,16 @@ export function NewsPanel({ country, state, now, isMobile, onClose, onRetry, onS
         </button>
       </div>
       <div className="panel-body">
+        {!region && regions.length > 0 && (
+          <nav className="region-picker" aria-label={`Regions of ${country.name}`}>
+            <span className="region-picker-label">Regions</span>
+            {regions.map((r) => (
+              <button key={r.code} type="button" className="chip chip-small" onClick={() => onSelectRegion(r.code)}>
+                {r.name}
+              </button>
+            ))}
+          </nav>
+        )}
         {english && translation === 'pending' && <p className="panel-note">Translating headlines on this device…</p>}
         {english && translation === 'unavailable' && (
           <p className="panel-note">
@@ -239,7 +275,7 @@ export function NewsPanel({ country, state, now, isMobile, onClose, onRetry, onS
             a translated copy of an article.
           </p>
         )}
-        <Body state={state} now={now} onRetry={onRetry} country={country} english={english} />
+        <Body state={state} now={now} onRetry={onRetry} view={view} english={english} />
         <p className="panel-footnote">
           Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets
           and ranked by how many outlets covered them in the last 24 hours.

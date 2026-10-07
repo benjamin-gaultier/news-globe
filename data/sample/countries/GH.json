@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GH",
   "countryName": "Ghana",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "C7-0Wk2CxuHt",
@@ -299,48 +299,6 @@
       "latestPublishedAt": "2026-10-06T10:29:49.000Z"
     },
     {
-      "id": "ugheGSuh0yne",
-      "representative": {
-        "id": "ugheGSuh0yne",
-        "url": "https://www.gbcghanaonline.com/general/mahama-grants/2026/",
-        "canonicalUrl": "https://www.gbcghanaonline.com/general/mahama-grants/2026/",
-        "title": "Mahama grants presidential pardon to 863 convicted persons",
-        "description": "President John Dramani Mahama has granted presidential pardon to 863 convicted persons as part of activities marking Ghana’s 70th Independence Anniversary. The President exercised the prerogative of mercy in accordance with Article 72(1) of the 1992 Constitution, following consultation with the…",
-        "source": {
-          "id": "gbc",
-          "name": "GBC Ghana"
-        },
-        "sourceCountry": "GH",
-        "language": "en",
-        "publishedAt": "2026-10-05T19:11:31.000Z",
-        "imageUrl": null,
-        "countryCode": "GH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "q6uk_Ym7YMsk",
-          "url": "https://3news.com/news/president-mahama-grants-pardon-to-863-prisoners",
-          "canonicalUrl": "https://3news.com/news/president-mahama-grants-pardon-to-863-prisoners",
-          "title": "President Mahama grants pardon to 863 prisoners",
-          "description": "The relevant state institutions have been directed to take the necessary steps to give effect to the President's decision.",
-          "source": {
-            "id": "3news",
-            "name": "3News"
-          },
-          "sourceCountry": "GH",
-          "language": "en",
-          "publishedAt": "2026-10-05T19:08:37.000Z",
-          "imageUrl": "https://media.3news.com/Mahama-7-640x399.webp",
-          "countryCode": "GH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:11:31.000Z"
-    },
-    {
       "id": "w_hKOxtK1ZYO",
       "representative": {
         "id": "w_hKOxtK1ZYO",
@@ -507,6 +465,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:09:26.000Z"
+    },
+    {
+      "id": "GJUAUO_m_tcj",
+      "representative": {
+        "id": "GJUAUO_m_tcj",
+        "url": "https://www.myjoyonline.com/csa-ghana-opens-ncsam-2026-with-call-for-stronger-cybersecurity-collaboration/",
+        "canonicalUrl": "https://www.myjoyonline.com/csa-ghana-opens-ncsam-2026-with-call-for-stronger-cybersecurity-collaboration/",
+        "title": "CSA Ghana opens NCSAM 2026 with call for stronger cybersecurity collaboration",
+        "description": "…National Cyber Security Awareness Month 2026 opens under theme focused on securing the digital finance ecosystem The Cyber Security Authority (CSA) has marked its fifth anniversary with a call for stronger collaboration across Ghana’s digital finance ecosystem, urging institutions to move beyond…",
+        "source": {
+          "id": "myjoyonline",
+          "name": "MyJoyOnline"
+        },
+        "sourceCountry": "GH",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:08:18.000Z",
+        "imageUrl": "https://www.myjoyonline.com/wp-content/uploads/2026/10/lead-1024x683.jpg",
+        "countryCode": "GH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:08:18.000Z"
     }
   ]
 }

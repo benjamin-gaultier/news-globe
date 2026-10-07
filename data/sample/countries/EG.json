@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "EG",
   "countryName": "Egypt",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "8debqymtQvQc",
@@ -232,48 +232,6 @@
       "latestPublishedAt": "2026-10-06T16:23:48.000Z"
     },
     {
-      "id": "qNcmr9juBv4y",
-      "representative": {
-        "id": "qNcmr9juBv4y",
-        "url": "https://www.almasryalyoum.com/news/details/4376215",
-        "canonicalUrl": "https://www.almasryalyoum.com/news/details/4376215",
-        "title": "رسميًا الآن.. سعر الدولار مقابل الجنيه المصري اليوم الثلاثاء 6-10-2026 في البنوك",
-        "description": "استقر سعر الدولار مقابل الجنيه، اليوم الثلاثاء 6 أكتوبر 2026، في بداية التعاملات بعد ارتفاعه خلال تعاملات أمس، وفيما يلى أسعار الدولار في البنوك، وفقًا لآخر تحديث.سعر الدولار في بن...",
-        "source": {
-          "id": "almasryalyoum",
-          "name": "Al-Masry Al-Youm"
-        },
-        "sourceCountry": "EG",
-        "language": "ar",
-        "publishedAt": "2026-10-06T06:31:32.000Z",
-        "imageUrl": null,
-        "countryCode": "EG",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "2pRpgr-BZTUR",
-          "url": "https://www.elbalad.news/7132404",
-          "canonicalUrl": "https://www.elbalad.news/7132404",
-          "title": "تراجع جماعي لـ سعر صرف الدولار مقابل الجنيه في ختام تعاملات البنوك",
-          "description": "يقدم موقع صدى البلد الاخباري أسعار الدولار اليوم الثلاثاء 6-10-2026، ضمن نشرته الخدمية............... صدى البلد : المصدر تراجع جماعي لـ سعر صرف الدولار مقابل الجنيه في ختام تعاملات البنوك",
-          "source": {
-            "id": "elbalad",
-            "name": "Sada El Balad"
-          },
-          "sourceCountry": "EG",
-          "language": "ar",
-          "publishedAt": "2026-10-06T14:07:09.000Z",
-          "imageUrl": "https://media.elbalad.news/2026/8/large/835101665063620260824094706476.jpg",
-          "countryCode": "EG",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:07:09.000Z"
-    },
-    {
       "id": "n5wZu4v7DOPi",
       "representative": {
         "id": "n5wZu4v7DOPi",
@@ -488,6 +446,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T17:11:08.000Z"
+    },
+    {
+      "id": "5udwg66w9wxh",
+      "representative": {
+        "id": "5udwg66w9wxh",
+        "url": "https://www.vetogate.com/5745194",
+        "canonicalUrl": "https://www.vetogate.com/5745194",
+        "title": "العميد أ.ح. علي الببلاوي أحد أبطال الدفاع الجوي في حرب أكتوبر، لـ«فيتو»: حائط الصواريخ حرم إسرائيل من أهم مميزاتها.. وأسبوع سقوط الفانتوم كان نقطة تحول",
+        "description": "أسقطنا 325 طائرة إسرائيلية.. والتنسيق بين أفرع القوات المسلحة كان مفتاح النصر درسنا تكتيكات الطيران جيدًا.. وكنا نحدد الوحدة الأقرب والأقدر على تدمير الهدف لتجنب إهدار الموارد عرفنا موعد الحرب قبل العبور بـ5 دقائق.. وسجلنا عودة طائراتنا بعد الضربة الأولى سالمة اختصرنا تجهيز كتيبة الصواريخ من 3",
+        "source": {
+          "id": "vetogate",
+          "name": "Veto"
+        },
+        "sourceCountry": "EG",
+        "language": "ar",
+        "publishedAt": "2026-10-06T17:10:45.000Z",
+        "imageUrl": "https://www.vetogate.com/UploadCache/libfiles/597/0/800x450o/564.jpg",
+        "countryCode": "EG",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:10:45.000Z"
     }
   ]
 }

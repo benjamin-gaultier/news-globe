@@ -3,17 +3,19 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   COUNTRIES,
+  REGIONS,
   SCHEMA_VERSION,
   type Article,
   type CountryCode,
   type CountryFile,
-  type IndexEntry,
   type IndexFile,
+  type RegionCode,
+  type RegionMeta,
 } from '@news-globe/shared';
 import { adapterFor } from './adapters';
 import { clusterArticles } from './cluster';
 import { HttpCache } from './http';
-import { dedupeByCanonicalUrl, isMisdecoded, toArticle } from './normalize/article';
+import { dedupeByCanonicalUrl, isMisdecoded, isUnrenderedTemplate, toArticle } from './normalize/article';
 import { buildCluster, rankClusters } from './rank';
 import { INGEST_SETTINGS, SOURCES, type SourceConfig } from './sources.config';
 import { writeJsonAtomic } from './write';
@@ -31,9 +33,23 @@ export interface IngestOptions {
   offline?: boolean;
 }
 
-export interface IngestSummary {
-  countries: { code: CountryCode; articles: number; clusters: number; written: boolean }[];
+interface UnitSummary {
+  code: CountryCode | RegionCode;
+  articles: number;
+  clusters: number;
+  written: boolean;
 }
+
+export interface IngestSummary {
+  countries: UnitSummary[];
+  regions: UnitSummary[];
+}
+
+/** A country or region: one output file, clustered on its own. */
+type Unit = { code: string; name: string; file: string } & (
+  | { kind: 'country' }
+  | { kind: 'region'; region: RegionMeta }
+);
 
 async function readJson<T>(file: string): Promise<T | null> {
   try {
@@ -77,31 +93,43 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   const authority = new Map(sources.map((s) => [s.id, s.authority]));
   const authorityOf = (id: string) => authority.get(id) ?? 0;
 
-  const byCountry = new Map<CountryCode, Article[]>();
+  // Regional outlets feed their region's file, national ones their country's.
+  const byUnit = new Map<string, Article[]>();
   for (const { source, results } of perSource) {
     for (const { items, retrievedAt } of results) {
       for (const item of items) {
         const article = toArticle(item, source, retrievedAt, now);
         if (Date.parse(article.publishedAt) < minTime) continue;
-        if (isMisdecoded(article.title)) continue;
-        const list = byCountry.get(source.country) ?? [];
+        if (isMisdecoded(article.title) || isUnrenderedTemplate(article.title)) continue;
+        const key = source.region ?? source.country;
+        const list = byUnit.get(key) ?? [];
         list.push(article);
-        byCountry.set(source.country, list);
+        byUnit.set(key, list);
       }
     }
   }
 
-  const countryCodes = [...new Set(sources.map((s) => s.country))].filter((c) => COUNTRIES[c]);
-  const updatedAt = new Date(now).toISOString();
-  const summary: IngestSummary = { countries: [] };
-  const index: IndexEntry[] = [];
+  const units: Unit[] = [];
+  for (const code of new Set(sources.filter((s) => !s.region).map((s) => s.country))) {
+    const meta = COUNTRIES[code];
+    if (meta) units.push({ kind: 'country', code, name: meta.name, file: join(dataDir, 'countries', `${code}.json`) });
+  }
+  for (const code of new Set(sources.flatMap((s) => (s.region ? [s.region] : [])))) {
+    const meta = REGIONS[code];
+    if (meta) units.push({ kind: 'region', code, name: meta.name, file: join(dataDir, 'regions', `${code}.json`), region: meta });
+  }
 
-  for (const code of countryCodes) {
-    const meta = COUNTRIES[code]!;
-    const file = join(dataDir, 'countries', `${code}.json`);
+  const updatedAt = new Date(now).toISOString();
+  const summary: IngestSummary = { countries: [], regions: [] };
+  const index: Pick<IndexFile, 'countries' | 'regions'> = { countries: [], regions: [] };
+
+  for (const unit of units) {
+    const { code, name, file } = unit;
+    const indexList = unit.kind === 'country' ? index.countries : index.regions!;
+    const summaryList = unit.kind === 'country' ? summary.countries : summary.regions;
     // Newest first so dedupe keeps the freshest copy and cluster order is stable.
     const articles = dedupeByCanonicalUrl(
-      (byCountry.get(code) ?? []).sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)),
+      (byUnit.get(code) ?? []).sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)),
     );
 
     if (articles.length === 0) {
@@ -109,9 +137,9 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       const previous = await readJson<CountryFile>(file);
       log(`${code}: no articles — ${previous ? 'keeping previous file' : 'nothing to write'}`);
       if (previous) {
-        index.push({ code, name: meta.name, updatedAt: previous.updatedAt, clusterCount: previous.clusters.length });
+        indexList.push({ code, name, updatedAt: previous.updatedAt, clusterCount: previous.clusters.length });
       }
-      summary.countries.push({ code, articles: 0, clusters: previous?.clusters.length ?? 0, written: false });
+      summaryList.push({ code, articles: 0, clusters: previous?.clusters.length ?? 0, written: false });
       continue;
     }
 
@@ -125,22 +153,27 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       settings.maxClustersPerCountry,
     );
 
-    const out: CountryFile = {
-      schemaVersion: SCHEMA_VERSION,
-      countryCode: code,
-      countryName: meta.name,
-      updatedAt,
-      clusters,
-    };
+    const out: CountryFile =
+      unit.kind === 'country'
+        ? { schemaVersion: SCHEMA_VERSION, countryCode: code, countryName: name, updatedAt, clusters }
+        : {
+            schemaVersion: SCHEMA_VERSION,
+            countryCode: unit.region.country,
+            countryName: COUNTRIES[unit.region.country]?.name ?? unit.region.country,
+            regionCode: code,
+            regionName: name,
+            updatedAt,
+            clusters,
+          };
     await writeJsonAtomic(file, out);
-    index.push({ code, name: meta.name, updatedAt, clusterCount: clusters.length });
-    summary.countries.push({ code, articles: articles.length, clusters: clusters.length, written: true });
+    indexList.push({ code, name, updatedAt, clusterCount: clusters.length });
+    summaryList.push({ code, articles: articles.length, clusters: clusters.length, written: true });
 
     const multi = groups.filter((g) => new Set(g.map((a) => a.source.id)).size > 1).length;
     log(`${code}: ${articles.length} articles → ${groups.length} clusters (${multi} multi-outlet), wrote top ${clusters.length}`);
   }
 
-  const indexFile: IndexFile = { schemaVersion: SCHEMA_VERSION, updatedAt, countries: index };
+  const indexFile: IndexFile = { schemaVersion: SCHEMA_VERSION, updatedAt, ...index };
   await writeJsonAtomic(join(dataDir, 'index.json'), indexFile);
   return summary;
 }

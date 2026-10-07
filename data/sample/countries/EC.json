@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "EC",
   "countryName": "Ecuador",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
-    {
-      "id": "gavSHNa0mI-z",
-      "representative": {
-        "id": "gavSHNa0mI-z",
-        "url": "https://eluniverso.com/deportes/futbol/semifinales-de-copa-ecuador-ya-tienen-fechas-y-horarios-confirmados-asi-se-jugaran-las-dos-llaves-nota/",
-        "canonicalUrl": "https://eluniverso.com/deportes/futbol/semifinales-de-copa-ecuador-ya-tienen-fechas-y-horarios-confirmados-asi-se-jugaran-las-dos-llaves-nota/",
-        "title": "Semifinales de Copa Ecuador ya tienen fechas y horarios confirmados: así se jugarán las dos llaves",
-        "description": "En ambas semifinales, si existe empate en el marcador global después de los dos partidos, el finalista se definirá mediante una tanda de penales.",
-        "source": {
-          "id": "eluniverso",
-          "name": "El Universo"
-        },
-        "sourceCountry": "EC",
-        "language": "es",
-        "publishedAt": "2026-10-05T20:40:17.000Z",
-        "imageUrl": "https://eluniverso.com/resizer/8R-C4iqD-ZVLtEP1riWTvWXuYoo=/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/OYCLIZ6UINFQ5HVJAFBHQGVVVI.jpg",
-        "countryCode": "EC",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "IBoHVfeAvuPt",
-          "url": "https://elmercurio.com.ec/deportes/2026/10/06/copa-ecuador-semifinales/",
-          "canonicalUrl": "https://elmercurio.com.ec/deportes/2026/10/06/copa-ecuador-semifinales/",
-          "title": "Copa Ecuador 2026: estos son los horarios de las semifinales",
-          "description": "La Federación Ecuatoriana de Fútbol (FEF) ha confirmado el calendario oficial para las semifinales de la Copa Ecuador 2026. A diferencia de las etapas previas, esta ronda decisiva se disputará a partidos de ida y vuelta entre el 28 de octubre y el 5 de noviembre. Así se definirán los dos clubes…",
-          "source": {
-            "id": "elmercurio_ec",
-            "name": "El Mercurio"
-          },
-          "sourceCountry": "EC",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:53:14.000Z",
-          "imageUrl": null,
-          "countryCode": "EC",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:53:14.000Z"
-    },
     {
       "id": "VQbkK47a2pYd",
       "representative": {
@@ -87,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:38:26.000Z"
-    },
-    {
-      "id": "PzSg_TJE9DYx",
-      "representative": {
-        "id": "PzSg_TJE9DYx",
-        "url": "https://eluniverso.com/comunidad/quito/fiscalia-confirma-que-los-restos-encontrados-cerca-del-puente-del-rio-chiche-son-de-joselyn-ona-nota/",
-        "canonicalUrl": "https://eluniverso.com/comunidad/quito/fiscalia-confirma-que-los-restos-encontrados-cerca-del-puente-del-rio-chiche-son-de-joselyn-ona-nota/",
-        "title": "Fiscalía confirma que los restos encontrados cerca del puente del río Chiche son de Joselyn Oña",
-        "description": "La joven de 26 años permanecía desaparecida desde el 15 de mayo. Fiscalía mantiene abierta la investigación para establecer las circunstancias de su muerte.",
-        "source": {
-          "id": "eluniverso",
-          "name": "El Universo"
-        },
-        "sourceCountry": "EC",
-        "language": "es",
-        "publishedAt": "2026-10-06T02:06:08.000Z",
-        "imageUrl": "https://eluniverso.com/resizer/Ez_G489OCSYHBXX_Wm575hOJ65A=/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/KNQGSJBKKRCUVNZVYCT2UFLAJI.jpg",
-        "countryCode": "EC",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "lV_Mv8kSUZae",
-          "url": "https://www.elcomercio.com/actualidad/seguridad/restos-hallados-rio-chiche-corresponden-joselyn-ona/",
-          "canonicalUrl": "https://www.elcomercio.com/actualidad/seguridad/restos-hallados-rio-chiche-corresponden-joselyn-ona/",
-          "title": "Restos hallados en el río Chiche corresponden a Joselyn Oña",
-          "description": "Peritajes forenses confirmaron que los restos hallados en el puente del Chiche corresponden a Joselyn Oña.",
-          "source": {
-            "id": "elcomercio_ec",
-            "name": "El Comercio"
-          },
-          "sourceCountry": "EC",
-          "language": "es",
-          "publishedAt": "2026-10-06T03:06:21.000Z",
-          "imageUrl": null,
-          "countryCode": "EC",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T03:06:21.000Z"
     },
     {
       "id": "zcObcIw8UT1i",
@@ -417,6 +333,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:00:00.000Z"
+    },
+    {
+      "id": "z-iHezpJ0CiR",
+      "representative": {
+        "id": "z-iHezpJ0CiR",
+        "url": "https://eluniverso.com/opinion/cartas-al-director/guayaquil-motor-del-ecuador-nota/",
+        "canonicalUrl": "https://eluniverso.com/opinion/cartas-al-director/guayaquil-motor-del-ecuador-nota/",
+        "title": "Guayaquil, motor del Ecuador",
+        "description": "Guayaquil abandera su trayectoria, con base en sus raíces de ser una ciudad de comercio y de servicios, siendo también un gran centro de logística...",
+        "source": {
+          "id": "eluniverso",
+          "name": "El Universo"
+        },
+        "sourceCountry": "EC",
+        "language": "es",
+        "publishedAt": "2026-10-06T14:00:00.000Z",
+        "imageUrl": "https://eluniverso.com/resizer/19y14NzvKZ-5fo3w2WhskGD6yi0=/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/HESQN5CBVNBGPFPXM7C4HUZBQU.jpg",
+        "countryCode": "EC",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:00:00.000Z"
+    },
+    {
+      "id": "oFqe1NjCSFf3",
+      "representative": {
+        "id": "oFqe1NjCSFf3",
+        "url": "https://www.elcomercio.com/actualidad/seguridad/un-patrullero-de-segura-ep-fue-atacado-a-tiros-en-el-sur-de-guayaquil/",
+        "canonicalUrl": "https://www.elcomercio.com/actualidad/seguridad/un-patrullero-de-segura-ep-fue-atacado-a-tiros-en-el-sur-de-guayaquil/",
+        "title": "Un patrullero de Segura EP fue atacado a tiros en el sur de Guayaquil",
+        "description": "El violento hecho se registró en la Isla Trinitaria este martes 6 de octubre de 2026.",
+        "source": {
+          "id": "elcomercio_ec",
+          "name": "El Comercio"
+        },
+        "sourceCountry": "EC",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:49:33.000Z",
+        "imageUrl": null,
+        "countryCode": "EC",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:49:33.000Z"
     }
   ]
 }

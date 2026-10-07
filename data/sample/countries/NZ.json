@@ -2,160 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "NZ",
   "countryName": "New Zealand",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
-    {
-      "id": "_IZhMEATaydQ",
-      "representative": {
-        "id": "_IZhMEATaydQ",
-        "url": "https://www.rnz.co.nz/news/crime-and-justice/1758112/woman-s-body-found-after-pair-jumped-into-otara-river-to-evade-police",
-        "canonicalUrl": "https://www.rnz.co.nz/news/crime-and-justice/1758112/woman-s-body-found-after-pair-jumped-into-otara-river-to-evade-police",
-        "title": "Woman's body found after pair jumped into Ōtara River to evade police",
-        "description": "The body was found in the water near Moutohorā Island, north of Whakatāne, earlier this afternoon.",
-        "source": {
-          "id": "rnz",
-          "name": "RNZ"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:03:16.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "juzc6cnUlG3n",
-          "url": "https://www.nzherald.co.nz/bay-of-plenty-times/news/otara-river-search-man-found-in-gisborne-as-search-for-woman-continues/MDCE6XNMQZAXDHD3FUGPZ46SGE/",
-          "canonicalUrl": "https://www.nzherald.co.nz/bay-of-plenty-times/news/otara-river-search-man-found-in-gisborne-as-search-for-woman-continues/MDCE6XNMQZAXDHD3FUGPZ46SGE/",
-          "title": "Ōtara River search: Woman’s body found at sea, man arrested in Gisborne",
-          "description": "A 33-year-old man faces driving charges and has been remanded in custody.",
-          "source": {
-            "id": "nzherald",
-            "name": "NZ Herald"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T05:49:43.000Z",
-          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/3MR7K7TUXFBCRGB7TUJ23YERIY.jpg?auth=c17c1362a0c396891734933099f786867964becd48e55613faeebd16c5d9123a&smart=true&width=1280&height=720",
-          "countryCode": "NZ",
-          "regionCode": null
-        },
-        {
-          "id": "VUBnZs9-Hib0",
-          "url": "https://www.1news.co.nz/2026/10/06/body-found-in-search-for-woman-who-leapt-into-river-to-avoid-police/",
-          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/body-found-in-search-for-woman-who-leapt-into-river-to-avoid-police/",
-          "title": "Body of woman who leapt into river to avoid police found",
-          "description": "The body of the 36-year-old was found near Moutohorā Island, north of Whakatāne, this afternoon.",
-          "source": {
-            "id": "1news",
-            "name": "1News"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T05:03:01.000Z",
-          "imageUrl": "https://www.1news.co.nz/resizer/v2/NRUV2UCBKBEZVAUZB7M2PWD5GY.png?auth=10b5d1ad862eb0b2c1831a337f6951ff1aa7c98da608f452fc97e12f0b26a693&smart=true&width=716&height=403",
-          "countryCode": "NZ",
-          "regionCode": null
-        },
-        {
-          "id": "ZlBSImJcMcMc",
-          "url": "https://www.stuff.co.nz/nz-news/361043104/woman-found-dead-after-fleeing-police-jumping-river",
-          "canonicalUrl": "https://www.stuff.co.nz/nz-news/361043104/woman-found-dead-after-fleeing-police-jumping-river",
-          "title": "Woman found dead after fleeing police, jumping into river",
-          "description": "Police say their thoughts are with her whānau.",
-          "source": {
-            "id": "stuff",
-            "name": "Stuff"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T04:55:46.000Z",
-          "imageUrl": null,
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T05:49:43.000Z"
-    },
-    {
-      "id": "23vQCTVFbx5L",
-      "representative": {
-        "id": "23vQCTVFbx5L",
-        "url": "https://www.rnz.co.nz/news/emergencies_local/1758230/friend-of-missing-queenstown-woman-erika-rodrigues-coelho-remaining-optimistic",
-        "canonicalUrl": "https://www.rnz.co.nz/news/emergencies_local/1758230/friend-of-missing-queenstown-woman-erika-rodrigues-coelho-remaining-optimistic",
-        "title": "Friend of missing Queenstown woman Erika Rodrigues Coelho remaining optimistic",
-        "description": "Erika Rodrigues Coelho, 47, has not been seen or heard from since 18 September.",
-        "source": {
-          "id": "rnz",
-          "name": "RNZ"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-06T00:23:05.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "yYOTjJAZwhpQ",
-          "url": "https://www.nzherald.co.nz/nz/search-for-missing-queenstown-woman-erika-rodrigues-coelho-paused-after-19-days/47TGQ2TKAJGABG7ZZ3X7EW7TYI/",
-          "canonicalUrl": "https://www.nzherald.co.nz/nz/search-for-missing-queenstown-woman-erika-rodrigues-coelho-paused-after-19-days/47TGQ2TKAJGABG7ZZ3X7EW7TYI/",
-          "title": "Search for missing Queenstown woman Erika Rodrigues Coelho paused after 19 days",
-          "description": "The family remain hopeful she could be sheltering somewhere and will be found safe.",
-          "source": {
-            "id": "nzherald",
-            "name": "NZ Herald"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T05:06:08.000Z",
-          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/MNNTJTWS6RH7PHCFOBO6WKD6HM.jpg?auth=828d78e629eec9b3c6f538714d57d6ad20aa46b2933cadec6a2ff41a497cf273&smart=true&width=1280&height=720",
-          "countryCode": "NZ",
-          "regionCode": null
-        },
-        {
-          "id": "r3TgFEbNixbd",
-          "url": "https://www.1news.co.nz/2026/10/06/search-paused-for-woman-missing-in-queenstown/",
-          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/search-paused-for-woman-missing-in-queenstown/",
-          "title": "Search paused for woman missing in Queenstown",
-          "description": "Brazilian national Erika Rodrigues Coelho, 47, was reported missing on September 20.",
-          "source": {
-            "id": "1news",
-            "name": "1News"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T04:50:27.000Z",
-          "imageUrl": "https://www.1news.co.nz/resizer/v2/ZBZBU4DEWBADHGACN6QAIPBSEI.png?auth=e17b823af91a9a271dc6d5d98fefb333da0f62a2cdc892d272fd949483f90d32&smart=true&width=1920&height=1080",
-          "countryCode": "NZ",
-          "regionCode": null
-        },
-        {
-          "id": "sf0hh_dEUBt6",
-          "url": "https://www.stuff.co.nz/nz-news/361043103/search-missing-surgeon-erika-rodrigues-coelho-suspended",
-          "canonicalUrl": "https://www.stuff.co.nz/nz-news/361043103/search-missing-surgeon-erika-rodrigues-coelho-suspended",
-          "title": "Search for missing surgeon in Queenstown suspended",
-          "description": "Police have paused the search for missing 47-year-old Erika Rodrigues Coelho, who has been missing since September 18.",
-          "source": {
-            "id": "stuff",
-            "name": "Stuff"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T04:45:37.000Z",
-          "imageUrl": null,
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T05:06:08.000Z"
-    },
     {
       "id": "qcHBlOJg__1_",
       "representative": {
@@ -216,65 +64,6 @@
       "latestPublishedAt": "2026-10-06T09:35:45.000Z"
     },
     {
-      "id": "972S4_jR1P8s",
-      "representative": {
-        "id": "972S4_jR1P8s",
-        "url": "https://www.rnz.co.nz/news/crime-and-justice/1756960/actor-cliff-curtis-charged-with-drink-driving-after-crash-on-auckland-s-waterfront",
-        "canonicalUrl": "https://www.rnz.co.nz/news/crime-and-justice/1756960/actor-cliff-curtis-charged-with-drink-driving-after-crash-on-auckland-s-waterfront",
-        "title": "Actor Cliff Curtis charged with drink driving after crash on Auckland's waterfront",
-        "description": "The actor released a statement through a public relations company after the crash, saying he had been hospitalised with internal injuries after the collision in late September.",
-        "source": {
-          "id": "rnz",
-          "name": "RNZ"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-05T23:13:59.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "faiGbN9LzSpS",
-          "url": "https://www.1news.co.nz/2026/10/06/actor-cliff-curtis-charged-with-reckless-driving-after-auckland-crash/",
-          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/actor-cliff-curtis-charged-with-reckless-driving-after-auckland-crash/",
-          "title": "Actor Cliff Curtis charged with reckless driving after Auckland crash",
-          "description": "Police have confirmed a 58-year-old man has been summonsed for driving with excess blood alcohol and reckless driving.",
-          "source": {
-            "id": "1news",
-            "name": "1News"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T00:35:05.000Z",
-          "imageUrl": "https://www.1news.co.nz/resizer/v2/LR2F4W4PRVHSPKHRKRYFJ6NT5U.jpg?auth=04459a9cb1e80cc8ac15a186a933221732d238e1ba0698f24eb9ccad066e19ef&smart=true&width=1024&height=576",
-          "countryCode": "NZ",
-          "regionCode": null
-        },
-        {
-          "id": "yp61OwQCHCtz",
-          "url": "https://www.stuff.co.nz/nz-news/361042839/hollywood-actor-charged-drink-drinking-after-auckland-crash",
-          "canonicalUrl": "https://www.stuff.co.nz/nz-news/361042839/hollywood-actor-charged-drink-drinking-after-auckland-crash",
-          "title": "Watch: The aftermath of Cliff Curtis' crash as Kiwi actor charged with drink driving",
-          "description": "A 58-year-old man has been summonsed for reckless driving and driving with excess blood alcohol.",
-          "source": {
-            "id": "stuff",
-            "name": "Stuff"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-05T22:04:38.000Z",
-          "imageUrl": null,
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T00:35:05.000Z"
-    },
-    {
       "id": "NO78IzpXlVmt",
       "representative": {
         "id": "NO78IzpXlVmt",
@@ -315,342 +104,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T09:24:24.000Z"
-    },
-    {
-      "id": "iaQnXv9__3Cm",
-      "representative": {
-        "id": "iaQnXv9__3Cm",
-        "url": "https://www.1news.co.nz/2026/10/06/mayor-wayne-brown-paints-out-aucklands-dumbest-car-park/",
-        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/mayor-wayne-brown-paints-out-aucklands-dumbest-car-park/",
-        "title": "Mayor Wayne Brown paints out 'Auckland's dumbest car park'",
-        "description": "After taking control of local roads from Auckland Transport, the council leader was on the tools to swiftly wipe out what he described as a traffic impediment.",
-        "source": {
-          "id": "1news",
-          "name": "1News"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-05T23:43:13.000Z",
-        "imageUrl": "https://www.1news.co.nz/resizer/v2/N35LWBKO6NACDPMKFNZKLV5THM.jpg?auth=c0b2c5b549ef9cbd88741d84491a8db28e7415e3cc9862089f630fa1a008e107&smart=true&width=720&height=404",
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "jy3hAJXvdEx8",
-          "url": "https://www.nzherald.co.nz/nz/auckland/mayor-wayne-brown-gets-on-tools-to-remove-aucklands-dumbest-car-park/PBNI5EB2F5BDBO4FSJXWFCFJAM/",
-          "canonicalUrl": "https://www.nzherald.co.nz/nz/auckland/mayor-wayne-brown-gets-on-tools-to-remove-aucklands-dumbest-car-park/PBNI5EB2F5BDBO4FSJXWFCFJAM/",
-          "title": "Mayor Wayne Brown gets on tools to remove Auckland’s ‘dumbest car park’",
-          "description": "Removal of car park space is part of the mayor’s Quick Fixes campaign.",
-          "source": {
-            "id": "nzherald",
-            "name": "NZ Herald"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T06:00:00.000Z",
-          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/QO5ROOO5TNCCZMJNFLJ7EPTITE.png?auth=d3a515e63c34a183d3b839286c0ff1373b4decdb0dfd2a4feb0e54cb3fb21dae&smart=true&width=1280&height=720",
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:00:00.000Z"
-    },
-    {
-      "id": "2MOZMa-FGKgy",
-      "representative": {
-        "id": "2MOZMa-FGKgy",
-        "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/",
-        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/",
-        "title": "Poll: Opportunity still in kingmaker seat as Greens hold strong",
-        "description": "National Party leader Christopher Luxon has ruled out working with Opportunity.",
-        "source": {
-          "id": "1news",
-          "name": "1News"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:25:12.000Z",
-        "imageUrl": "https://www.1news.co.nz/resizer/v2/TX26C763MNAE7AJCPYWFRL7FUQ.jpg?auth=f6d7b80dd6624e822e408b2900adf7cb21d6226ce43bb9920f034ea2f6dbdcfa&smart=true&width=1920&height=1080",
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "BlovyRzxOauY",
-          "url": "https://www.stuff.co.nz/politics/361043134/opportunity-again-kingmaker-both-blocs-tie-latest-poll",
-          "canonicalUrl": "https://www.stuff.co.nz/politics/361043134/opportunity-again-kingmaker-both-blocs-tie-latest-poll",
-          "title": "Opportunity again the kingmaker as both blocs tie in latest poll",
-          "description": "Chris Hipkins and Christopher Luxon will need the Opportunity Party’s support to form a government, according to the latest poll.",
-          "source": {
-            "id": "stuff",
-            "name": "Stuff"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T05:58:33.000Z",
-          "imageUrl": null,
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T05:58:33.000Z"
-    },
-    {
-      "id": "a_QTN6SdwLTW",
-      "representative": {
-        "id": "a_QTN6SdwLTW",
-        "url": "https://www.rnz.co.nz/news/pacific/1758482/fiji-samoa-and-tonga-name-2026-rugby-league-world-cup-squads",
-        "canonicalUrl": "https://www.rnz.co.nz/news/pacific/1758482/fiji-samoa-and-tonga-name-2026-rugby-league-world-cup-squads",
-        "title": "Fiji, Samoa and Tonga name 2026 Rugby League World Cup squads",
-        "description": "Fiji, Samoa and Tonga have named their men's squads for the 2026 Rugby League World Cup.",
-        "source": {
-          "id": "rnz",
-          "name": "RNZ"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-06T00:35:18.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "OovqiYKP8fIM",
-          "url": "https://www.stuff.co.nz/sport/361042600/kiwis-kiwi-ferns-squads-named-rugby-league-world-cups",
-          "canonicalUrl": "https://www.stuff.co.nz/sport/361042600/kiwis-kiwi-ferns-squads-named-rugby-league-world-cups",
-          "title": "Big names in as Kiwis, Kiwi Ferns name Rugby League World Cup squads",
-          "description": "Stacey Jones and Ricky Henry have revealed their chosen men and women, ahead of their opening matches next week.",
-          "source": {
-            "id": "stuff",
-            "name": "Stuff"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T05:30:00.000Z",
-          "imageUrl": null,
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T05:30:00.000Z"
-    },
-    {
-      "id": "hnCAPdbguOsz",
-      "representative": {
-        "id": "hnCAPdbguOsz",
-        "url": "https://www.rnz.co.nz/news/regions_auckland/1755618/buildings-evacuated-as-gas-main-ruptured-in-auckland-s-newmarket",
-        "canonicalUrl": "https://www.rnz.co.nz/news/regions_auckland/1755618/buildings-evacuated-as-gas-main-ruptured-in-auckland-s-newmarket",
-        "title": "Buildings evacuated as gas main ruptured in Auckland's Newmarket",
-        "description": "Fire trucks and a hazmat unit was at the scene of the gas leak on Khyber Pass Road.",
-        "source": {
-          "id": "rnz",
-          "name": "RNZ"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-05T21:57:35.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "uCViQtW2-L4z",
-          "url": "https://www.1news.co.nz/2026/10/06/gas-leak-contained-after-buildings-evacuated-in-aucklands-newmarket/",
-          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/gas-leak-contained-after-buildings-evacuated-in-aucklands-newmarket/",
-          "title": "Gas leak contained after buildings evacuated in Auckland's Newmarket",
-          "description": "Police said the line near Khyber Pass Rd was damaged today while earth works were being carried out in the area.",
-          "source": {
-            "id": "1news",
-            "name": "1News"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T00:33:24.000Z",
-          "imageUrl": "https://www.1news.co.nz/resizer/v2/HEODKJWFBZBSZDNZX7JTDQUA5U.jpg?auth=37a8f58cb63c562b888845032bd3727c52695c4ecae8bac2690cace504b245e5&smart=true&width=4032&height=2268",
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T00:33:24.000Z"
-    },
-    {
-      "id": "bsZjXgJ-3Vvk",
-      "representative": {
-        "id": "bsZjXgJ-3Vvk",
-        "url": "https://www.rnz.co.nz/news/politics_election-2026/1754401/election-2026-national-promises-to-cut-foreign-aid-to-boost-pharmac-s-budget-cancer-screenings",
-        "canonicalUrl": "https://www.rnz.co.nz/news/politics_election-2026/1754401/election-2026-national-promises-to-cut-foreign-aid-to-boost-pharmac-s-budget-cancer-screenings",
-        "title": "Election 2026: National promises to cut foreign aid to boost Pharmac's budget, cancer screenings",
-        "description": "The policy touches on the turf of both its coalition partners.",
-        "source": {
-          "id": "rnz",
-          "name": "RNZ"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-05T23:37:54.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "UHi5xWyDlYBj",
-          "url": "https://www.1news.co.nz/2026/10/06/national-says-it-will-cut-foreign-aid-to-boost-pharmac-medicines-budget/",
-          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/national-says-it-will-cut-foreign-aid-to-boost-pharmac-medicines-budget/",
-          "title": "National says it will cut foreign aid to boost Pharmac medicines budget",
-          "description": "The party announced today that it would invest $604 million to help Pharmac fund new medicines and expand access to those already funded.",
-          "source": {
-            "id": "1news",
-            "name": "1News"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-05T21:03:00.000Z",
-          "imageUrl": "https://www.1news.co.nz/resizer/v2/4HQNV6YUJBHDXFVJFE6DHSMPLU.jpg?auth=98e6ddcabf324c65305f76999e21b6b89dbc6f023f4fd2156857f12fdf5a4404&smart=true&width=1920&height=1080",
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T23:37:54.000Z"
-    },
-    {
-      "id": "-TsQjup-AZ8U",
-      "representative": {
-        "id": "-TsQjup-AZ8U",
-        "url": "https://www.1news.co.nz/2026/10/06/former-american-idol-singer-sentenced-to-life-in-prison-for-wifes-murder/",
-        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/former-american-idol-singer-sentenced-to-life-in-prison-for-wifes-murder/",
-        "title": "Former American Idol singer sentenced to life in prison for wife’s murder",
-        "description": "Prosecutors said Caleb Flynn, 40, staged a home invasion in February after shooting Ashley Flynn, a 37-year-old schoolteacher and volleyball coach.",
-        "source": {
-          "id": "1news",
-          "name": "1News"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-05T20:44:46.000Z",
-        "imageUrl": "https://www.1news.co.nz/resizer/v2/AREHM6WLZZBZNKHY2TM6MLNCZY.png?auth=4daff4c24daa8319beb89336fbdddbb4823679e90f025e91371971803ed04064&smart=true&width=1920&height=1080",
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "4HGHUAKi7FwA",
-          "url": "https://www.stuff.co.nz/culture/361042893/former-american-idol-singer-caleb-flynn-sentenced-life",
-          "canonicalUrl": "https://www.stuff.co.nz/culture/361042893/former-american-idol-singer-caleb-flynn-sentenced-life",
-          "title": "Former American Idol singer sentenced to life in prison for wife’s murder",
-          "description": "A former music pastor in Ohio who appeared briefly on American Idol was sentenced on Monday (local time) to life in prison without the possibility of parole, after a jury convicted him last week of murdering his wife while he was having an affair.",
-          "source": {
-            "id": "stuff",
-            "name": "Stuff"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-05T23:31:10.000Z",
-          "imageUrl": null,
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T23:31:10.000Z"
-    },
-    {
-      "id": "YNjOP6YThh9p",
-      "representative": {
-        "id": "YNjOP6YThh9p",
-        "url": "https://www.rnz.co.nz/news/crime-and-justice/1752715/baby-in-critical-condition-after-woman-charged-with-attempted-murder-in-alleged-west-auckland-stabbing",
-        "canonicalUrl": "https://www.rnz.co.nz/news/crime-and-justice/1752715/baby-in-critical-condition-after-woman-charged-with-attempted-murder-in-alleged-west-auckland-stabbing",
-        "title": "Baby in critical condition after woman charged with attempted murder in alleged West Auckland stabbing",
-        "description": "Three people were injured at a home in Glendene, including a baby, late on Sunday night.",
-        "source": {
-          "id": "rnz",
-          "name": "RNZ"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-05T23:17:17.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Rnil7KaEj7Df",
-          "url": "https://www.1news.co.nz/2026/10/06/woman-charged-with-attempted-murder-after-west-auckland-stabbing/",
-          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/woman-charged-with-attempted-murder-after-west-auckland-stabbing/",
-          "title": "Woman charged with attempted murder after West Auckland stabbing",
-          "description": "Police have praised neighbours who came to the aid of the injured.",
-          "source": {
-            "id": "1news",
-            "name": "1News"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-05T21:27:36.000Z",
-          "imageUrl": "https://www.1news.co.nz/resizer/v2/RZWYLRRMEJERRNEH5VJNWZE2CA.jpg?auth=79b81bffbd6d886fcddb426b7417a3c68a904019e9321674117fc3480ed08695&smart=true&width=1920&height=1080",
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T23:17:17.000Z"
-    },
-    {
-      "id": "xAOH_gBaCcK8",
-      "representative": {
-        "id": "xAOH_gBaCcK8",
-        "url": "https://www.rnz.co.nz/news/regions_canterbury/1752142/gunshot-victim-turns-up-at-christchurch-hospital",
-        "canonicalUrl": "https://www.rnz.co.nz/news/regions_canterbury/1752142/gunshot-victim-turns-up-at-christchurch-hospital",
-        "title": "Gunshot victim turns up at Christchurch Hospital",
-        "description": "Police say they're investigating what happened.",
-        "source": {
-          "id": "rnz",
-          "name": "RNZ"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-05T19:11:15.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "oWpw1MeKD60U",
-          "url": "https://www.1news.co.nz/2026/10/06/person-arrives-at-christchurch-hospital-with-gunshot-wound/",
-          "canonicalUrl": "https://www.1news.co.nz/2026/10/06/person-arrives-at-christchurch-hospital-with-gunshot-wound/",
-          "title": "Person arrives at Christchurch hospital with gunshot wound",
-          "description": "Circumstances surrounding the injury were being investigated by police.",
-          "source": {
-            "id": "1news",
-            "name": "1News"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-05T20:01:53.000Z",
-          "imageUrl": "https://www.1news.co.nz/resizer/v2/QTZIW2LOYRC7JJ63DNWIRP2UMU.jpg?auth=bc5cbe067dfedf0a2295311ea2f61de1692b72f739c79ad13ab6e9ca93520b63&smart=true&width=1477&height=831",
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T20:01:53.000Z"
     },
     {
       "id": "i58GC4jUmQZB",
@@ -699,6 +152,288 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:20:35.000Z"
+    },
+    {
+      "id": "mriC-F7CmWXT",
+      "representative": {
+        "id": "mriC-F7CmWXT",
+        "url": "https://www.stuff.co.nz/sport/361043193/ioc-confirms-india-qatar-among-7-bidders-who-want-host-20",
+        "canonicalUrl": "https://www.stuff.co.nz/sport/361043193/ioc-confirms-india-qatar-among-7-bidders-who-want-host-20",
+        "title": "IOC confirms India, Qatar among 7 bidders who want to host 2036 Olympics",
+        "description": "India and Qatar have long been seen as favoured candidates in a hosting contest the IOC aims to decide in 2029 by a contested vote of its 100-plus members.",
+        "source": {
+          "id": "stuff",
+          "name": "Stuff"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:19:46.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:19:46.000Z"
+    },
+    {
+      "id": "vjQeevlSz_5u",
+      "representative": {
+        "id": "vjQeevlSz_5u",
+        "url": "https://www.stuff.co.nz/world-news/361043189/francis-halzen-wins-nobel-prize-physics-work-highe",
+        "canonicalUrl": "https://www.stuff.co.nz/world-news/361043189/francis-halzen-wins-nobel-prize-physics-work-highe",
+        "title": "Scientist who hunts mysterious ghost particles in the Antarctic ice wins Nobel Prize for physics",
+        "description": "The Royal Swedish Academy of Sciences announced the award in Stockholm.",
+        "source": {
+          "id": "stuff",
+          "name": "Stuff"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:59:55.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:59:55.000Z"
+    },
+    {
+      "id": "2KFbQADkXTlU",
+      "representative": {
+        "id": "2KFbQADkXTlU",
+        "url": "https://www.stuff.co.nz/nz-news/361043147/two-drivers-charged-under-street-racing-law-over-crash-killed-9-year-old-girl",
+        "canonicalUrl": "https://www.stuff.co.nz/nz-news/361043147/two-drivers-charged-under-street-racing-law-over-crash-killed-9-year-old-girl",
+        "title": "Two drivers charged under street racing law over crash that killed 9-year-old girl",
+        "description": "The pair will face court this month.",
+        "source": {
+          "id": "stuff",
+          "name": "Stuff"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T08:28:01.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:28:01.000Z"
+    },
+    {
+      "id": "LPh6mYPiGzgq",
+      "representative": {
+        "id": "LPh6mYPiGzgq",
+        "url": "https://www.stuff.co.nz/politics/361036026/nz-election-2026-live-updates-politics-campaign-news",
+        "canonicalUrl": "https://www.stuff.co.nz/politics/361036026/nz-election-2026-live-updates-politics-campaign-news",
+        "title": "‘Frankly, I don't care’, Luxon says as undecided panel favour Hipkins",
+        "description": "Follow the election campaign live.",
+        "source": {
+          "id": "stuff",
+          "name": "Stuff"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T08:25:03.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:25:03.000Z"
+    },
+    {
+      "id": "N4B2JSUduHQ4",
+      "representative": {
+        "id": "N4B2JSUduHQ4",
+        "url": "https://www.1news.co.nz/2026/10/06/accused-sydney-killer-cop-got-mum-to-help-cover-lie-court-told/",
+        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/accused-sydney-killer-cop-got-mum-to-help-cover-lie-court-told/",
+        "title": "Accused Sydney killer cop got mum to help cover lie, court told",
+        "description": "Beau Lamarre-Condon, 31, has pleaded not guilty to the February 2024 murders of Jesse Baird and his partner Luke Davies.",
+        "source": {
+          "id": "1news",
+          "name": "1News"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T07:08:02.000Z",
+        "imageUrl": "https://www.1news.co.nz/resizer/v2/L5MENITFARE3TOL37N6CPZJWCI.png?auth=ce34f787727a129f817a831e05dc1f5016f966a9a93cae3328cb3f83692b48c3&smart=true&width=674&height=379",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T07:08:02.000Z"
+    },
+    {
+      "id": "JRiItjtN9vMF",
+      "representative": {
+        "id": "JRiItjtN9vMF",
+        "url": "https://www.rnz.co.nz/news/regional/1765512/auckland-council-accepts-milldale-north-rezoning-request-moves-to-deal-with-unplanned-growth",
+        "canonicalUrl": "https://www.rnz.co.nz/news/regional/1765512/auckland-council-accepts-milldale-north-rezoning-request-moves-to-deal-with-unplanned-growth",
+        "title": "Auckland Council accepts Milldale North rezoning request, moves to deal with unplanned growth",
+        "description": "Developer Fulton Hogan wants to build around 2000 homes at Milldale North, near Orewa, beside its existing Milldale development.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T06:56:53.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:56:53.000Z"
+    },
+    {
+      "id": "FYB98aZysM6f",
+      "representative": {
+        "id": "FYB98aZysM6f",
+        "url": "https://www.1news.co.nz/2026/10/06/anger-in-japan-grows-after-us-marine-arrest-for-killing-okinawa-woman/",
+        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/anger-in-japan-grows-after-us-marine-arrest-for-killing-okinawa-woman/",
+        "title": "Anger in Japan grows after US Marine arrest for killing Okinawa woman",
+        "description": "Lance Corporal Devin Jacob Ballard, 20, was arrested on suspicion of strangling Anna Yagi, 39, at a hotel and stealing her wallet and backpack.",
+        "source": {
+          "id": "1news",
+          "name": "1News"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T06:38:07.000Z",
+        "imageUrl": "https://www.1news.co.nz/resizer/v2/F4LRAVH5MJAFJAU7BD5S2ZQPPY.jpg?auth=9d9da5a029cb249d6f68443b12a19611c7d32316135d5388c262304ada66e930&smart=true&width=1021&height=574",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:38:07.000Z"
+    },
+    {
+      "id": "f6BEMwHDsKon",
+      "representative": {
+        "id": "f6BEMwHDsKon",
+        "url": "https://www.stuff.co.nz/world-news/361043131/russian-dead-suspected-plague-after-lab-accident-should-we-be-worried",
+        "canonicalUrl": "https://www.stuff.co.nz/world-news/361043131/russian-dead-suspected-plague-after-lab-accident-should-we-be-worried",
+        "title": "Why Trump is worried about Russia's suspected plague death",
+        "description": "The Kremlin is urging people to ignore speculation, yet information is scarce. State-aligned Russian media and regional authorities are editing or deleting conflicting reports. So what is going on?",
+        "source": {
+          "id": "stuff",
+          "name": "Stuff"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T06:25:36.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:25:36.000Z"
+    },
+    {
+      "id": "iqcxyo9zOVTx",
+      "representative": {
+        "id": "iqcxyo9zOVTx",
+        "url": "https://www.rnz.co.nz/news/political/1764932/regional-deal-formalised-for-otago-central-lakes",
+        "canonicalUrl": "https://www.rnz.co.nz/news/political/1764932/regional-deal-formalised-for-otago-central-lakes",
+        "title": "Regional deal formalised for Otago Central Lakes",
+        "description": "The Otago Central Lakes Deal - a 10-year plan to deliver infrastructure and manage rapid growth - was formally signed in Queenstown on Tuesday afternoon.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T06:24:54.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:24:54.000Z"
+    },
+    {
+      "id": "u56bpG3ioshZ",
+      "representative": {
+        "id": "u56bpG3ioshZ",
+        "url": "https://www.1news.co.nz/2026/10/06/longstanding-agency-failings-contributed-to-loafers-lodge-fire-defence/",
+        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/longstanding-agency-failings-contributed-to-loafers-lodge-fire-defence/",
+        "title": "'Longstanding' agency failings contributed to Loafers Lodge fire - defence",
+        "description": "Four people are on trial facing manslaughter charges over the blaze that killed five men in 2023.",
+        "source": {
+          "id": "1news",
+          "name": "1News"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T06:21:13.000Z",
+        "imageUrl": "https://www.1news.co.nz/resizer/v2/5MITMBLF7ZAEFLMSXBDUXNLUDA.png?auth=28013128429e25ee16557b7de9f5ab3676551b25531d268e73474245bbf3d059&smart=true&width=1280&height=720",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:21:13.000Z"
+    },
+    {
+      "id": "iaQnXv9__3Cm",
+      "representative": {
+        "id": "iaQnXv9__3Cm",
+        "url": "https://www.1news.co.nz/2026/10/06/mayor-wayne-brown-paints-out-aucklands-dumbest-car-park/",
+        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/mayor-wayne-brown-paints-out-aucklands-dumbest-car-park/",
+        "title": "Mayor Wayne Brown paints out 'Auckland's dumbest car park'",
+        "description": "After taking control of local roads from Auckland Transport, the council leader was on the tools to swiftly wipe out what he described as a traffic impediment.",
+        "source": {
+          "id": "1news",
+          "name": "1News"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T23:43:13.000Z",
+        "imageUrl": "https://www.1news.co.nz/resizer/v2/N35LWBKO6NACDPMKFNZKLV5THM.jpg?auth=c0b2c5b549ef9cbd88741d84491a8db28e7415e3cc9862089f630fa1a008e107&smart=true&width=720&height=404",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "jy3hAJXvdEx8",
+          "url": "https://www.nzherald.co.nz/nz/auckland/mayor-wayne-brown-gets-on-tools-to-remove-aucklands-dumbest-car-park/PBNI5EB2F5BDBO4FSJXWFCFJAM/",
+          "canonicalUrl": "https://www.nzherald.co.nz/nz/auckland/mayor-wayne-brown-gets-on-tools-to-remove-aucklands-dumbest-car-park/PBNI5EB2F5BDBO4FSJXWFCFJAM/",
+          "title": "Mayor Wayne Brown gets on tools to remove Auckland’s ‘dumbest car park’",
+          "description": "Removal of car park space is part of the mayor’s Quick Fixes campaign.",
+          "source": {
+            "id": "nzherald",
+            "name": "NZ Herald"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T06:00:00.000Z",
+          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/QO5ROOO5TNCCZMJNFLJ7EPTITE.png?auth=d3a515e63c34a183d3b839286c0ff1373b4decdb0dfd2a4feb0e54cb3fb21dae&smart=true&width=1280&height=720",
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T06:00:00.000Z"
     }
   ]
 }

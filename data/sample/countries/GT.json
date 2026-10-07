@@ -2,8 +2,32 @@
   "schemaVersion": 1,
   "countryCode": "GT",
   "countryName": "Guatemala",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
+    {
+      "id": "j94fzl-PXkeh",
+      "representative": {
+        "id": "j94fzl-PXkeh",
+        "url": "https://lahora.gt/nacionales/kjordan/2026/10/06/presidencia-asegura-que-este-ano-publicara-el-mecanismo-de-proteccion-para-periodistas-now/",
+        "canonicalUrl": "https://lahora.gt/nacionales/kjordan/2026/10/06/presidencia-asegura-que-este-ano-publicara-el-mecanismo-de-proteccion-para-periodistas-now/",
+        "title": "Presidencia asegura que “este año” publicará el Mecanismo de Protección para Periodistas",
+        "description": "La Presidencia de la República aseguró que este año concluirá el proceso de validación y avanzará con la publicación del Mecanismo de Protección para Periodistas, luego del asesinato de Evelio López, ocurrido el viernes 2 de octubre en San Pedro Necta, Huehuetenango. A través de la Secretaría de…",
+        "source": {
+          "id": "lahora_gt",
+          "name": "La Hora"
+        },
+        "sourceCountry": "GT",
+        "language": "es",
+        "publishedAt": "2026-10-06T14:31:53.000Z",
+        "imageUrl": null,
+        "countryCode": "GT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:31:53.000Z"
+    },
     {
       "id": "WqLgqr4_JSRh",
       "representative": {
@@ -59,159 +83,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 1,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T14:20:45.000Z"
-    },
-    {
-      "id": "lGzzDr-vkRXM",
-      "representative": {
-        "id": "lGzzDr-vkRXM",
-        "url": "https://www.prensalibre.com/guatemala/politica/congreso-programa-esta-semana-la-eleccion-del-contralor-general-de-cuentas/",
-        "canonicalUrl": "https://www.prensalibre.com/guatemala/politica/congreso-programa-esta-semana-la-eleccion-del-contralor-general-de-cuentas/",
-        "title": "Congreso programa esta semana la elección del contralor general de Cuentas",
-        "description": "Observadores dudan de la manera en que diputados harán el nombramiento, por negociaciones políticas y reuniones secretas de candidatos con las bancadas.",
-        "source": {
-          "id": "prensalibre",
-          "name": "Prensa Libre"
-        },
-        "sourceCountry": "GT",
-        "language": "es",
-        "publishedAt": "2026-10-05T21:39:18.000Z",
-        "imageUrl": null,
-        "countryCode": "GT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "BiNrM_ScDib5",
-          "url": "https://republica.com/politica/81-votos-definiran-al-nuevo-contralor-general-de-cuentas-200010518350",
-          "canonicalUrl": "https://republica.com/politica/81-votos-definiran-al-nuevo-contralor-general-de-cuentas-200010518350",
-          "title": "81 votos definirán al nuevo Contralor General de Cuentas",
-          "description": "Las bancadas negocian los 81 votos para elegir al contralor, mientras el Congreso mantiene pendientes otros asuntos, como el veto al subsidio.",
-          "source": {
-            "id": "republica_gt",
-            "name": "República"
-          },
-          "sourceCountry": "GT",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:20:22.000Z",
-          "imageUrl": null,
-          "countryCode": "GT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:20:22.000Z"
-    },
-    {
-      "id": "SyLHPJLEk2Q6",
-      "representative": {
-        "id": "SyLHPJLEk2Q6",
-        "url": "https://www.prensalibre.com/deportes/futbol-nacional/luis-fernando-tena-prepara-cambios-y-este-seria-el-once-titular-de-guatemala-ante-surinam-breaking/",
-        "canonicalUrl": "https://www.prensalibre.com/deportes/futbol-nacional/luis-fernando-tena-prepara-cambios-y-este-seria-el-once-titular-de-guatemala-ante-surinam-breaking/",
-        "title": "Luis Fernando Tena prepara cambios y este sería el once titular de Guatemala ante Surinam",
-        "description": "El técnico de Guatemala prepara variantes para el duelo decisivo ante Surinam, donde la Bicolor necesita ganar para avanzar a cuartos de final.",
-        "source": {
-          "id": "prensalibre",
-          "name": "Prensa Libre"
-        },
-        "sourceCountry": "GT",
-        "language": "es",
-        "publishedAt": "2026-10-05T21:43:22.000Z",
-        "imageUrl": null,
-        "countryCode": "GT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "tMwMViF5C8pY",
-          "url": "https://emisorasunidas.com/deportes/2026/10/05/el-once-titular-de-guatemala-para-recibir-a-surinam/",
-          "canonicalUrl": "https://emisorasunidas.com/deportes/2026/10/05/el-once-titular-de-guatemala-para-recibir-a-surinam/",
-          "title": "El once titular de Guatemala para recibir a Surinam",
-          "description": "La Selección Nacional de Guatemala ya tiene definido su once titular para enfrentar a Surinam, en un encuentro decisivo en el que buscará una victoria que le permita sellar su clasificación a los cuartos de final de la Liga de Naciones de Concacaf. El técnico mexicano Luis Fernando Tena apuesta…",
-          "source": {
-            "id": "emisorasunidas",
-            "name": "Emisoras Unidas"
-          },
-          "sourceCountry": "GT",
-          "language": "es",
-          "publishedAt": "2026-10-05T23:06:19.000Z",
-          "imageUrl": "https://img.emisorasunidas.com//upload/2026/10/17161D524C42446D15150F54564946791F161B185443407710161E-150x150.jpeg",
-          "countryCode": "GT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T23:06:19.000Z"
-    },
-    {
-      "id": "mFEawng0WmN8",
-      "representative": {
-        "id": "mFEawng0WmN8",
-        "url": "https://www.prensalibre.com/guatemala/justicia/ee-uu-y-organizaciones-de-prensa-condenan-asesinato-del-periodista-evelio-lopez-sanchez-breaking/",
-        "canonicalUrl": "https://www.prensalibre.com/guatemala/justicia/ee-uu-y-organizaciones-de-prensa-condenan-asesinato-del-periodista-evelio-lopez-sanchez-breaking/",
-        "title": "EE. UU. y organizaciones de prensa condenan asesinato del periodista Evelio López Sánchez",
-        "description": "Estados Unidos y organizaciones de prensa condenaron el asesinato del periodista Evelio Lisandro López Sánchez, ocurrido en Huehuetenango.",
-        "source": {
-          "id": "prensalibre",
-          "name": "Prensa Libre"
-        },
-        "sourceCountry": "GT",
-        "language": "es",
-        "publishedAt": "2026-10-05T22:35:06.000Z",
-        "imageUrl": null,
-        "countryCode": "GT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "wRCs53BYkq4M",
-          "url": "https://republica.com/actualidad/ee-uu-pide-esclarecer-asesinato-de-periodista-202610516550",
-          "canonicalUrl": "https://republica.com/actualidad/ee-uu-pide-esclarecer-asesinato-de-periodista-202610516550",
-          "title": "EE. UU. pide esclarecer asesinato de periodista",
-          "description": "Evelio López Sánchez tenía 34 años. Era fundador y administrador del medio Huehue es Noticia y también se desempeñaba como cronista deportivo.",
-          "source": {
-            "id": "republica_gt",
-            "name": "República"
-          },
-          "sourceCountry": "GT",
-          "language": "es",
-          "publishedAt": "2026-10-05T22:55:00.000Z",
-          "imageUrl": null,
-          "countryCode": "GT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T22:55:00.000Z"
-    },
-    {
-      "id": "j94fzl-PXkeh",
-      "representative": {
-        "id": "j94fzl-PXkeh",
-        "url": "https://lahora.gt/nacionales/kjordan/2026/10/06/presidencia-asegura-que-este-ano-publicara-el-mecanismo-de-proteccion-para-periodistas-now/",
-        "canonicalUrl": "https://lahora.gt/nacionales/kjordan/2026/10/06/presidencia-asegura-que-este-ano-publicara-el-mecanismo-de-proteccion-para-periodistas-now/",
-        "title": "Presidencia asegura que “este año” publicará el Mecanismo de Protección para Periodistas",
-        "description": "La Presidencia de la República aseguró que este año concluirá el proceso de validación y avanzará con la publicación del Mecanismo de Protección para Periodistas, luego del asesinato de Evelio López, ocurrido el viernes 2 de octubre en San Pedro Necta, Huehuetenango. A través de la Secretaría de…",
-        "source": {
-          "id": "lahora_gt",
-          "name": "La Hora"
-        },
-        "sourceCountry": "GT",
-        "language": "es",
-        "publishedAt": "2026-10-06T14:31:53.000Z",
-        "imageUrl": null,
-        "countryCode": "GT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:31:53.000Z"
     },
     {
       "id": "iy9jlObZSPcO",
@@ -452,6 +326,96 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:02:45.000Z"
+    },
+    {
+      "id": "bD4BmJuNCIfW",
+      "representative": {
+        "id": "bD4BmJuNCIfW",
+        "url": "https://lahora.gt/nacionales/jmaldonado/2026/10/06/aprueban-convocatoria-para-aspirantes-a-relator-contra-la-tortura-y-otros-tratos-inhumanos-now/",
+        "canonicalUrl": "https://lahora.gt/nacionales/jmaldonado/2026/10/06/aprueban-convocatoria-para-aspirantes-a-relator-contra-la-tortura-y-otros-tratos-inhumanos-now/",
+        "title": "Aprueban convocatoria para aspirantes a relator contra la Tortura y otros tratos inhumanos",
+        "description": "La Comisión de Derechos Humanos del Congreso de la República aprobó la convocatoria e instalación de la comisión de postulación para interesados a ocupar un espacio en la Oficina Nacional de Prevención de la Tortura (OPT). La Oficina contra la Tortura está integrada por tres relatores titulares y…",
+        "source": {
+          "id": "lahora_gt",
+          "name": "La Hora"
+        },
+        "sourceCountry": "GT",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:00:28.000Z",
+        "imageUrl": null,
+        "countryCode": "GT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:28.000Z"
+    },
+    {
+      "id": "q0z1R4-iUalG",
+      "representative": {
+        "id": "q0z1R4-iUalG",
+        "url": "https://www.prensalibre.com/economia/todavia-se-tiene-que-pagar-el-iusi-esto-cambia-con-las-nuevas-tasas-del-decreto-18-2026-y-a-partir-de-cuando/",
+        "canonicalUrl": "https://www.prensalibre.com/economia/todavia-se-tiene-que-pagar-el-iusi-esto-cambia-con-las-nuevas-tasas-del-decreto-18-2026-y-a-partir-de-cuando/",
+        "title": "¿Todavía se tiene que pagar el IUSI? Esto cambia con las nuevas tasas del Decreto 18-2026 y a partir de cuándo",
+        "description": "Las reformas al IUSI establecen nuevas tasas para los bienes inmuebles en Guatemala, pero su aplicación no es inmediata. Conozca hasta cuándo debe pagarse el impuesto, qué propiedades tendrán tasa cero y desde cuándo regirán los cambios.",
+        "source": {
+          "id": "prensalibre",
+          "name": "Prensa Libre"
+        },
+        "sourceCountry": "GT",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "GT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:00.000Z"
+    },
+    {
+      "id": "lGzzDr-vkRXM",
+      "representative": {
+        "id": "lGzzDr-vkRXM",
+        "url": "https://www.prensalibre.com/guatemala/politica/congreso-programa-esta-semana-la-eleccion-del-contralor-general-de-cuentas/",
+        "canonicalUrl": "https://www.prensalibre.com/guatemala/politica/congreso-programa-esta-semana-la-eleccion-del-contralor-general-de-cuentas/",
+        "title": "Congreso programa esta semana la elección del contralor general de Cuentas",
+        "description": "Observadores dudan de la manera en que diputados harán el nombramiento, por negociaciones políticas y reuniones secretas de candidatos con las bancadas.",
+        "source": {
+          "id": "prensalibre",
+          "name": "Prensa Libre"
+        },
+        "sourceCountry": "GT",
+        "language": "es",
+        "publishedAt": "2026-10-05T21:39:18.000Z",
+        "imageUrl": null,
+        "countryCode": "GT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "BiNrM_ScDib5",
+          "url": "https://republica.com/politica/81-votos-definiran-al-nuevo-contralor-general-de-cuentas-200010518350",
+          "canonicalUrl": "https://republica.com/politica/81-votos-definiran-al-nuevo-contralor-general-de-cuentas-200010518350",
+          "title": "81 votos definirán al nuevo Contralor General de Cuentas",
+          "description": "Las bancadas negocian los 81 votos para elegir al contralor, mientras el Congreso mantiene pendientes otros asuntos, como el veto al subsidio.",
+          "source": {
+            "id": "republica_gt",
+            "name": "República"
+          },
+          "sourceCountry": "GT",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:20:22.000Z",
+          "imageUrl": null,
+          "countryCode": "GT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:20:22.000Z"
     }
   ]
 }

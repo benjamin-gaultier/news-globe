@@ -3,7 +3,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { RawItem } from '../src/adapters/types';
-import { isMisdecoded } from '../src/normalize/article';
+import { isMisdecoded, isUnrenderedTemplate } from '../src/normalize/article';
 import { decodeBody, HttpCache } from '../src/http';
 
 const URL_A = 'https://feeds.example/a.xml';
@@ -143,5 +143,14 @@ describe('isMisdecoded', () => {
   it('flags titles holding U+FFFD replacement characters', () => {
     expect(isMisdecoded('Pol�cia prende suspeito')).toBe(true);
     expect(isMisdecoded('Polícia prende suspeito')).toBe(false);
+  });
+});
+
+describe('isUnrenderedTemplate', () => {
+  it('flags CMS placeholders but not ordinary prices', () => {
+    expect(isUnrenderedTemplate('Vidéo. $content.TitleNoTags')).toBe(true);
+    expect(isUnrenderedTemplate('Hello {{ title }}')).toBe(true);
+    expect(isUnrenderedTemplate('Tesla stock hits $300. Analysts react')).toBe(false);
+    expect(isUnrenderedTemplate('Govt. launches $40B Guyana Development Bank')).toBe(false);
   });
 });

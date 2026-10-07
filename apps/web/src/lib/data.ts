@@ -1,4 +1,4 @@
-import { SCHEMA_VERSION, type CountryCode, type CountryFile, type IndexFile } from '@news-globe/shared';
+import { SCHEMA_VERSION, type CountryCode, type CountryFile, type IndexFile, type RegionCode } from '@news-globe/shared';
 
 /** Base URL for the static data files; swap for S3/CloudFront at build time. */
 export const DATA_BASE_URL = (import.meta.env.DATA_BASE_URL || '/data').replace(/\/+$/, '');
@@ -17,3 +17,7 @@ export const fetchIndex = (signal?: AbortSignal) => fetchJson<IndexFile>('index.
 
 export const fetchCountry = (code: CountryCode, signal?: AbortSignal) =>
   fetchJson<CountryFile>(`countries/${encodeURIComponent(code)}.json`, signal);
+
+/** Regional files share the country file's shape, plus `regionCode` / `regionName`. */
+export const fetchRegion = (code: RegionCode, signal?: AbortSignal) =>
+  fetchJson<CountryFile>(`regions/${encodeURIComponent(code)}.json`, signal);

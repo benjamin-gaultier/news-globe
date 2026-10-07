@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TR",
   "countryName": "Turkey",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "Lt2yIt7GZh9N",
@@ -172,82 +172,6 @@
       "outletCount24h": 4,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T15:26:50.000Z"
-    },
-    {
-      "id": "vk026WA2ZZyC",
-      "representative": {
-        "id": "vk026WA2ZZyC",
-        "url": "https://www.hurriyet.com.tr/gundem/basaksehirde-ortaokulda-bicakli-saldiri-yarali-ogrenciler-var-43330956",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/basaksehirde-ortaokulda-bicakli-saldiri-yarali-ogrenciler-var-43330956",
-        "title": "Başakşehir'de ortaokulda bıçaklı saldırı: Yaralı öğrenciler var, 1 öğrenci hayatını kaybetti",
-        "description": "Başakşehir'de bir ortaokul gelen F.M.(15) öğrenci, 8 öğrenciyi bıçaklayarak yaraladı. Hastaneye kaldırılan yaralıların tedavisi sürerken olayı gerçekleştirdiği belirlenen F.M. (15) gözaltına alındı. Milli Eğitim Bakanlığı olayın araştırılması için 2 müfettiş görevlendirdi. Milli Eğitim Bakanı…",
-        "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T06:33:00.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac49789983ec8bbc1174cca.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "mJbR3_gAOziZ",
-          "url": "https://www.ntv.com.tr/turkiye/galeri-basaksehirde-ortaokulda-bicakli-saldiri-bir-can-kaybi-7-ogrenci-yarali-1745010",
-          "canonicalUrl": "https://www.ntv.com.tr/turkiye/galeri-basaksehirde-ortaokulda-bicakli-saldiri-bir-can-kaybi-7-ogrenci-yarali-1745010",
-          "title": "Başakşehir'de ortaokulda bıçaklı saldırı. Bir can kaybı, 7 öğrenci yaralı",
-          "description": "İstanbul Başakşehir'deki bir ortaokulda çıkan bıçaklı kavgada yaralanan öğrencilerden biri hayatını kaybetti. 7 öğrencinin ise tedavisi devam ediyor.",
-          "source": {
-            "id": "ntv_tr",
-            "name": "NTV"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T13:18:31.000Z",
-          "imageUrl": "https://images.ntv.com.tr/images/AW803523_05-951831.jpg?width=930&format=webp",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "T790uBu9snj1",
-          "url": "https://www.cnnturk.com/turkiye/basaksehirde-ortaokulda-bicakli-saldiri-mebden-aciklama-8-ogrenci-yaralandi-konuyla-ilgili-sorusturma-baslatildi-3475605",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/basaksehirde-ortaokulda-bicakli-saldiri-mebden-aciklama-8-ogrenci-yaralandi-konuyla-ilgili-sorusturma-baslatildi-3475605",
-          "title": "Başakşehir'de ortaokulda bıçaklı saldırı! MEB'den açıklama: 8 öğrenci yaralandı, soruşturma başlatıldı",
-          "description": "Başakşehir'de bir ortaokulda meydana gelen bıçaklı saldırıya dair MEB'den yazılı açıklama geldi. Olayda 8 öğrencinin yaralandığı, bıçaklama olayını gerçekleştirdiği belirlenen lise öğrencisinin ise yakalandığı belirtildi. Açıklamada, \"konuyla ilgili adli ve idari soruşturma başlatılmıştır.\" denildi.",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T13:01:43.000Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "8JVSoN6CswCe",
-          "url": "https://www.cumhuriyet.com.tr/turkiye/istanbul-basaksehir-de-ortaokulda-bicakli-saldiri-yusuf-tekin-acikladi-bir-ogrenci-hayatini-kaybetti-2544229",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/istanbul-basaksehir-de-ortaokulda-bicakli-saldiri-yusuf-tekin-acikladi-bir-ogrenci-hayatini-kaybetti-2544229",
-          "title": "İstanbul Başakşehir'de ortaokulda bıçaklı saldırı... Yusuf Tekin açıkladı: Bir öğrenci hayatını kaybetti",
-          "description": "Son dakika haberi... Milli Eğitim Bakanı Yusuf Tekin, İstanbul Başakşehir'de bir okulda düzenlenen bıçaklı saldırı sonucu 1 öğrencinin hayatını kaybettiğini bildirdi.",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T12:26:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/87cf0039-8ff5-4fdd-a8ba-06bc6623787f.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T13:18:31.000Z"
     },
     {
       "id": "T0S0hXz_B4bi",
@@ -596,122 +520,80 @@
       "latestPublishedAt": "2026-10-06T13:38:39.000Z"
     },
     {
-      "id": "PZCsDHQRN68z",
+      "id": "vk026WA2ZZyC",
       "representative": {
-        "id": "PZCsDHQRN68z",
-        "url": "https://www.hurriyet.com.tr/gundem/rus-fenomen-tatiananin-olumunde-karar-cikti-asli-kusurlu-surucuye-2-yil-11-ay-hapis-43330980",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/rus-fenomen-tatiananin-olumunde-karar-cikti-asli-kusurlu-surucuye-2-yil-11-ay-hapis-43330980",
-        "title": "Rus fenomen Tatiana'nın ölümünde karar çıktı: Asli kusurlu sürücüye 2 yıl 11 ay hapis",
-        "description": "Muğla'da Rus sanal medya ünlüsü Tatiana Ozolina'nın hayatını kaybettiği motosiklet kazasında asli kusurlu bulunan Onur Obut, yargılandığı davada 2 yıl 11 ay hapis cezasına çarptırıldı.",
+        "id": "vk026WA2ZZyC",
+        "url": "https://www.hurriyet.com.tr/gundem/basaksehirde-ortaokulda-bicakli-saldiri-yarali-ogrenciler-var-43330956",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/basaksehirde-ortaokulda-bicakli-saldiri-yarali-ogrenciler-var-43330956",
+        "title": "Başakşehir'de ortaokulda bıçaklı saldırı: Yaralı öğrenciler var, 1 öğrenci hayatını kaybetti",
+        "description": "Başakşehir'de bir ortaokul gelen F.M.(15) öğrenci, 8 öğrenciyi bıçaklayarak yaraladı. Hastaneye kaldırılan yaralıların tedavisi sürerken olayı gerçekleştirdiği belirlenen F.M. (15) gözaltına alındı. Milli Eğitim Bakanlığı olayın araştırılması için 2 müfettiş görevlendirdi. Milli Eğitim Bakanı…",
         "source": {
           "id": "hurriyet",
           "name": "Hürriyet"
         },
         "sourceCountry": "TR",
         "language": "tr",
-        "publishedAt": "2026-10-06T07:09:00.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac49aad3d67cfbce946f4bb.jpg",
+        "publishedAt": "2026-10-06T06:33:00.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac49789983ec8bbc1174cca.jpg",
         "countryCode": "TR",
         "regionCode": null
       },
       "related": [
         {
-          "id": "4z501YudPrb9",
-          "url": "https://www.cnnturk.com/turkiye/rus-fenomen-tatiananin-olumune-neden-olan-surucuye-2-yil-11-ay-ceza-3475448",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/rus-fenomen-tatiananin-olumune-neden-olan-surucuye-2-yil-11-ay-ceza-3475448",
-          "title": "Rus fenomen Tatiana'nın ölümüne neden olan sürücüye 2 yıl 11 ay ceza",
-          "description": "Rus sanal medya ünlüsü Tatiana Ozolina'nın (38) Antalya'da hayatını kaybettiği motosiklet kazasında asli kusurlu bulunan Onur Obut (31), 2 yıl 11 ay hapis cezasına çarptırıldı.",
+          "id": "mJbR3_gAOziZ",
+          "url": "https://www.ntv.com.tr/turkiye/galeri-basaksehirde-ortaokulda-bicakli-saldiri-bir-can-kaybi-7-ogrenci-yarali-1745010",
+          "canonicalUrl": "https://www.ntv.com.tr/turkiye/galeri-basaksehirde-ortaokulda-bicakli-saldiri-bir-can-kaybi-7-ogrenci-yarali-1745010",
+          "title": "Başakşehir'de ortaokulda bıçaklı saldırı. Bir can kaybı, 7 öğrenci yaralı",
+          "description": "İstanbul Başakşehir'deki bir ortaokulda çıkan bıçaklı kavgada yaralanan öğrencilerden biri hayatını kaybetti. 7 öğrencinin ise tedavisi devam ediyor.",
+          "source": {
+            "id": "ntv_tr",
+            "name": "NTV"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T13:18:31.000Z",
+          "imageUrl": "https://images.ntv.com.tr/images/AW803523_05-951831.jpg?width=930&format=webp",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "T790uBu9snj1",
+          "url": "https://www.cnnturk.com/turkiye/basaksehirde-ortaokulda-bicakli-saldiri-mebden-aciklama-8-ogrenci-yaralandi-konuyla-ilgili-sorusturma-baslatildi-3475605",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/basaksehirde-ortaokulda-bicakli-saldiri-mebden-aciklama-8-ogrenci-yaralandi-konuyla-ilgili-sorusturma-baslatildi-3475605",
+          "title": "Başakşehir'de ortaokulda bıçaklı saldırı! MEB'den açıklama: 8 öğrenci yaralandı, soruşturma başlatıldı",
+          "description": "Başakşehir'de bir ortaokulda meydana gelen bıçaklı saldırıya dair MEB'den yazılı açıklama geldi. Olayda 8 öğrencinin yaralandığı, bıçaklama olayını gerçekleştirdiği belirlenen lise öğrencisinin ise yakalandığı belirtildi. Açıklamada, \"konuyla ilgili adli ve idari soruşturma başlatılmıştır.\" denildi.",
           "source": {
             "id": "cnnturk",
             "name": "CNN Türk"
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T10:03:18.000Z",
+          "publishedAt": "2026-10-06T13:01:43.000Z",
           "imageUrl": null,
           "countryCode": "TR",
           "regionCode": null
         },
         {
-          "id": "-Ci8iMM7bKny",
-          "url": "https://www.sozcu.com.tr/rus-fenomen-tatiana-ozolina-davasinda-karar-cikti-asli-kusurlu-surucuye-odul-gibi-ceza-p366560",
-          "canonicalUrl": "https://www.sozcu.com.tr/rus-fenomen-tatiana-ozolina-davasinda-karar-cikti-asli-kusurlu-surucuye-odul-gibi-ceza-p366560",
-          "title": "Rus fenomen Tatiana Ozolina davasında karar çıktı: Asli kusurlu sürücüye ödül gibi ceza!",
-          "description": "Rus sosyal medya fenomeni Tatiana Ozolina'nın Muğla'da hayatını kaybettiği motosiklet kazasına ilişkin davada karar açık...",
+          "id": "8JVSoN6CswCe",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/istanbul-basaksehir-de-ortaokulda-bicakli-saldiri-yusuf-tekin-acikladi-bir-ogrenci-hayatini-kaybetti-2544229",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/istanbul-basaksehir-de-ortaokulda-bicakli-saldiri-yusuf-tekin-acikladi-bir-ogrenci-hayatini-kaybetti-2544229",
+          "title": "İstanbul Başakşehir'de ortaokulda bıçaklı saldırı... Yusuf Tekin açıkladı: Bir öğrenci hayatını kaybetti",
+          "description": "Son dakika haberi... Milli Eğitim Bakanı Yusuf Tekin, İstanbul Başakşehir'de bir okulda düzenlenen bıçaklı saldırı sonucu 1 öğrencinin hayatını kaybettiğini bildirdi.",
           "source": {
-            "id": "sozcu",
-            "name": "Sözcü"
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T08:05:53.000Z",
-          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/ruspng-CvOEz12Fe0GDRph7iWeCtg.png",
+          "publishedAt": "2026-10-06T12:26:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/87cf0039-8ff5-4fdd-a8ba-06bc6623787f.jpg",
           "countryCode": "TR",
           "regionCode": null
         }
       ],
       "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T10:03:18.000Z"
-    },
-    {
-      "id": "xla1PYTUxrGF",
-      "representative": {
-        "id": "xla1PYTUxrGF",
-        "url": "https://www.trthaber.com/haber/gundem/istanbulda-deas-ve-el-kaideye-operasyon-14-gozalti-959247.html",
-        "canonicalUrl": "https://www.trthaber.com/haber/gundem/istanbulda-deas-ve-el-kaideye-operasyon-14-gozalti-959247.html",
-        "title": "İstanbul'da DEAŞ ve El Kaide'ye operasyon: 14 gözaltı",
-        "description": "İstanbul'da, terör örgütleri DEAŞ ve El Kaide'ye yönelik operasyonda 14 şüpheli gözaltına alındı.",
-        "source": {
-          "id": "trthaber",
-          "name": "TRT Haber"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T06:41:00.000Z",
-        "imageUrl": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2426000/tem-2426028.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "u89wS9eC5l_I",
-          "url": "https://www.cnnturk.com/turkiye/istanbulda-deas-ve-el-kaide-operasyonu-14-gozalti-3475444",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/istanbulda-deas-ve-el-kaide-operasyonu-14-gozalti-3475444",
-          "title": "İstanbul’da DEAŞ ve El Kaide operasyonu: 14 gözaltı",
-          "description": "İstanbul’da DEAŞ ve El Kaide terör örgütleriyle bağlantılı olduğu değerlendirilen ve sanal medya hesaplarından örgütleri övücü paylaşımlar yaptığı belirlenen şüphelilere yönelik düzenlenen operasyonda 14 kişi gözaltına alındı.",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T09:57:56.000Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "FR7Wyk6ZCEC7",
-          "url": "https://www.sozcu.com.tr/istanbul-da-isid-ve-el-kaide-operasyonu-14-supheli-gozaltinda-p366545",
-          "canonicalUrl": "https://www.sozcu.com.tr/istanbul-da-isid-ve-el-kaide-operasyonu-14-supheli-gozaltinda-p366545",
-          "title": "İstanbul'da IŞİD ve El Kaide operasyonu: 14 şüpheli gözaltında",
-          "description": "İstanbul'da terör örgütleri IŞİD ve El Kaide'ye yönelik operasyonda 14 şüpheli gözaltına alındı. Operasyonda çok sayıda ...",
-          "source": {
-            "id": "sozcu",
-            "name": "Sözcü"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T06:59:02.000Z",
-          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/tem1jpg-X-5XyiY8SkWPCdBjLvIA4A.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T09:57:56.000Z"
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T13:18:31.000Z"
     },
     {
       "id": "hjqjQUFL4JfO",
@@ -771,65 +653,6 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T09:30:06.000Z"
-    },
-    {
-      "id": "d8lNswTI4w7P",
-      "representative": {
-        "id": "d8lNswTI4w7P",
-        "url": "https://www.trthaber.com/haber/gundem/daltonlar-suc-orgutune-operasyon-26-gozalti-959256.html",
-        "canonicalUrl": "https://www.trthaber.com/haber/gundem/daltonlar-suc-orgutune-operasyon-26-gozalti-959256.html",
-        "title": "Daltonlar suç örgütüne operasyon: 26 gözaltı",
-        "description": "Ankara Cumhuriyet Başsavcılığınca, kamuoyunda \"Daltonlar\" olarak bilinen suç örgütüyle bağlantılı şüphelilere yönelik yürütülen soruşturma kapsamında 26 zanlı gözaltına alındı.",
-        "source": {
-          "id": "trthaber",
-          "name": "TRT Haber"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T07:31:00.000Z",
-        "imageUrl": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1752000/gozalti-stok-1752516.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "dbrK8_wUQpAi",
-          "url": "https://www.sozcu.com.tr/daltonlar-suc-orgutune-dev-operasyon-aralarinda-cocuklarin-da-oldugu-26-kisi-yakalandi-p366568",
-          "canonicalUrl": "https://www.sozcu.com.tr/daltonlar-suc-orgutune-dev-operasyon-aralarinda-cocuklarin-da-oldugu-26-kisi-yakalandi-p366568",
-          "title": "'Daltonlar' suç örgütüne dev operasyon: Aralarında çocukların da olduğu 26 kişi yakalandı!",
-          "description": "Ankara merkezli 14 ilde 'Daltonlar' olarak bilinen suç örgütüne yönelik eş zamanlı dev operasyon düzenlendi. Çankaya’da ...",
-          "source": {
-            "id": "sozcu",
-            "name": "Sözcü"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T07:25:58.000Z",
-          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/tutuklama-gozalti-polis-aijpg-Hd5LzWjBnUypOolpjIQwdw.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "k1kmwid0j8QM",
-          "url": "https://www.hurriyet.com.tr/gundem/14-ilde-daltonlar-suc-orgutu-operasyonu-26-gozalti-43330979",
-          "canonicalUrl": "https://www.hurriyet.com.tr/gundem/14-ilde-daltonlar-suc-orgutu-operasyonu-26-gozalti-43330979",
-          "title": "14 ilde 'Daltonlar' suç örgütüyle bağlantılı 26 şüpheli gözaltına alındı",
-          "description": "Ankara Cumhuriyet Başsavcılığınca, kamuoyunda 'Daltonlar' olarak bilinen suç örgütüyle bağlantısı tespit edilen 12’si adli süreçteki çocuk olmak üzere 33 şüpheli hakkında gözaltı kararı verildi. Ankara merkezli 14 ilde düzenlenen eş zamanlı operasyonda 26 şüpheli gözaltına alındı.",
-          "source": {
-            "id": "hurriyet",
-            "name": "Hürriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T06:50:00.000Z",
-          "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac499ea75376faf77849656.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T07:31:00.000Z"
     },
     {
       "id": "NQl0K9ydaaif",
@@ -956,6 +779,132 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T14:17:52.000Z"
+    },
+    {
+      "id": "inuL4lSzdsIJ",
+      "representative": {
+        "id": "inuL4lSzdsIJ",
+        "url": "https://www.aa.com.tr/tr/spor/tff-yonetim-kurulu-uyesi-mevlut-aktan-gorevinden-istifa-etti/4079784",
+        "canonicalUrl": "https://www.aa.com.tr/tr/spor/tff-yonetim-kurulu-uyesi-mevlut-aktan-gorevinden-istifa-etti/4079784",
+        "title": "TFF Yönetim Kurulu Üyesi Mevlüt Aktan, görevinden istifa etti",
+        "description": "Türkiye Futbol Federasyonu (TFF) Yönetim Kurulu Üyesi Mevlüt Aktan, görevinden istifa ettiğini duyurdu.",
+        "source": {
+          "id": "aa",
+          "name": "Anadolu Ajansı"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T12:22:58.000Z",
+        "imageUrl": null,
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "OL8Ld7iASVaP",
+          "url": "https://www.cumhuriyet.com.tr/spor/mevlut-aktan-kimdir-tff-yonetim-kurulu-uyesi-mevlut-aktan-kac-yasinda-nereli-mevlut-aktan-tff-den-neden-istifa-etti-2544225",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/spor/mevlut-aktan-kimdir-tff-yonetim-kurulu-uyesi-mevlut-aktan-kac-yasinda-nereli-mevlut-aktan-tff-den-neden-istifa-etti-2544225",
+          "title": "Mevlüt Aktan kimdir? TFF Yönetim Kurulu Üyesi Mevlüt Aktan kaç yaşında, nereli? Mevlüt Aktan TFF'den neden istifa etti?",
+          "description": "Türkiye Futbol Federasyonu Yönetim Kurulu Üyesi Mevlüt Aktan, görevinden istifa etti. Peki, Mevlüt Aktan kimdir? TFF Yönetim Kurulu Üyesi Mevlüt Aktan kaç yaşında, nereli? Mevlüt Aktan TFF'den neden istifa etti?",
+          "source": {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T12:24:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/5e88a4bc-d87a-45bb-8deb-9b675cc07b9f.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:24:00.000Z"
+    },
+    {
+      "id": "_dztKvG2V0_k",
+      "representative": {
+        "id": "_dztKvG2V0_k",
+        "url": "https://www.hurriyet.com.tr/gundem/oyuncak-tabancayla-kuyumcu-soymaya-kalkti-kadin-calisanin-cesareti-plani-bozdu-43331509",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/oyuncak-tabancayla-kuyumcu-soymaya-kalkti-kadin-calisanin-cesareti-plani-bozdu-43331509",
+        "title": "Oyuncak tabancayla kuyumcu soymaya kalktı: Kadın çalışanın cesareti planı bozdu",
+        "description": "Tekirdağ'ın Kapaklı ilçesinde oyuncak tabancayla kuyumcu soymak isteyen şüpheli, kadın görevlinin alarma basması üzerine panikleyerek kaçtı. O anlar iş yerinin güvenlik kamerasına yansıdı.",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T11:33:00.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4dbe93d67cfbce946f605.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "cWdNbpPw8cSU",
+          "url": "https://www.sozcu.com.tr/oyuncak-tabancayla-kuyumcu-soymaya-kalkti-alarmi-duyunca-kacti-p366652",
+          "canonicalUrl": "https://www.sozcu.com.tr/oyuncak-tabancayla-kuyumcu-soymaya-kalkti-alarmi-duyunca-kacti-p366652",
+          "title": "Oyuncak tabancayla kuyumcu soymaya kalktı alarmı duyunca kaçtı",
+          "description": "Kapaklı'da bir kuyumcuya oyuncak tabancayla soygun girişiminde bulunan şüpheli, kadın çalışanın alarma basması üzerine k...",
+          "source": {
+            "id": "sozcu",
+            "name": "Sözcü"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T11:47:20.000Z",
+          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/oyuncaktabancaylakuyumcusoymayakalktialarmiduyuncakactikapak5f4c175be9a5ef8ejpg-LSUe7KrWKUS8P2IDRYwLuQ.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:47:20.000Z"
+    },
+    {
+      "id": "j__FI_D3vgpY",
+      "representative": {
+        "id": "j__FI_D3vgpY",
+        "url": "https://www.hurriyet.com.tr/gundem/yalovada-korkunc-olay-gemi-guvertesindeki-bos-tanka-dusen-tersane-iscisi-hayatini-kaybetti-43331527",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/yalovada-korkunc-olay-gemi-guvertesindeki-bos-tanka-dusen-tersane-iscisi-hayatini-kaybetti-43331527",
+        "title": "Yalova'da korkunç olay! Gemi güvertesindeki boş tanka düşen tersane işçisi hayatını kaybetti",
+        "description": "Yalova’nın Altınova ilçesinde tersanede çalışan 20 yaşındaki Yılmaz Çelikbilek, geminin güvertesinde yaptığı çalışma sırasında boş tanka düşüp hayatını kaybetti. Çelikbilek’in 10 gün önce çalışmak için Şanlıurfa'dan Yalova’ya geldiği belirtildi.",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T11:43:16.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4de0475376faf77849983.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "D6BbEcOUC_iF",
+          "url": "https://www.sozcu.com.tr/gemi-guvertesindeki-bos-tanka-dusen-isci-can-verdi-p366651",
+          "canonicalUrl": "https://www.sozcu.com.tr/gemi-guvertesindeki-bos-tanka-dusen-isci-can-verdi-p366651",
+          "title": "Gemi güvertesindeki boş tanka düşen işçi can verdi",
+          "description": "Yalova’nın Altınova ilçesinde tersanede çalışan 20 yaşındaki Yılmaz Çelikbilek, geminin güvertesinde yaptığı çalışma sır...",
+          "source": {
+            "id": "sozcu",
+            "name": "Sözcü"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T11:12:44.000Z",
+          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/yeni-proje-20261006t141231417png-YFyxyjt7R0erKEDF0zD9mQ.png",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:43:16.000Z"
     }
   ]
 }

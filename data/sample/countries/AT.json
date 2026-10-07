@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AT",
   "countryName": "Austria",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "HkGyfdFFUnK7",
@@ -291,90 +291,6 @@
       "latestPublishedAt": "2026-10-06T09:19:35.000Z"
     },
     {
-      "id": "YrThvVSYXI0Q",
-      "representative": {
-        "id": "YrThvVSYXI0Q",
-        "url": "https://orf.at/stories/3444234/",
-        "canonicalUrl": "https://orf.at/stories/3444234/",
-        "title": "US-Militäramokläufer soll vor Erschießungskommando kommen",
-        "description": null,
-        "source": {
-          "id": "orf",
-          "name": "ORF"
-        },
-        "sourceCountry": "AT",
-        "language": "de",
-        "publishedAt": "2026-10-06T07:17:10.000Z",
-        "imageUrl": null,
-        "countryCode": "AT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "iDm1_qXhmYTs",
-          "url": "https://www.kleinezeitung.at/artikel/41329534/amoklaeufer-soll-durch-us-militaer-hingerichtet-werden",
-          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41329534/amoklaeufer-soll-durch-us-militaer-hingerichtet-werden",
-          "title": "Amokläufer soll durch US-Erschießungskommando hingerichtet werden",
-          "description": "Der damalige Armeepsychiater Hasan, ein muslimischer US-Bürger palästinensischer Herkunft, hatte 2009 auf dem Armeestützpunkt Fort Hood im Bundesstaat Texas bei seinem Amoklauf zwölf Soldaten und einen Zivilisten erschossen sowie 30 Soldaten verletzt.",
-          "source": {
-            "id": "kleinezeitung",
-            "name": "Kleine Zeitung"
-          },
-          "sourceCountry": "AT",
-          "language": "de",
-          "publishedAt": "2026-10-06T01:57:52.000Z",
-          "imageUrl": "https://img.kleinezeitung.at/public/politik/rr5wrm-nidal-hasan/alternates/BASE_LANDSCAPE/Nidal%20Hasan%20",
-          "countryCode": "AT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T07:17:10.000Z"
-    },
-    {
-      "id": "fky7IkJejvvN",
-      "representative": {
-        "id": "fky7IkJejvvN",
-        "url": "https://www.kleinezeitung.at/artikel/41329548/israels-kriege-mehrere-fronten-kein-ende-in-sicht",
-        "canonicalUrl": "https://www.kleinezeitung.at/artikel/41329548/israels-kriege-mehrere-fronten-kein-ende-in-sicht",
-        "title": "Israels Kriege - Mehrere Fronten, kein Ende in Sicht",
-        "description": "Vor drei Jahren löste der terroristische Großangriff der islamistischen Hamas eine massive israelische Militäroperation in Gaza aus. Seitdem kämpft Jerusalem...",
-        "source": {
-          "id": "kleinezeitung",
-          "name": "Kleine Zeitung"
-        },
-        "sourceCountry": "AT",
-        "language": "de",
-        "publishedAt": "2026-10-06T03:05:01.000Z",
-        "imageUrl": "https://img.kleinezeitung.at/public/politik/ihsn92-92870011495347420bldonlinejpg/alternates/BASE_LANDSCAPE/92870011495347420_BLD_Online.jpg",
-        "countryCode": "AT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "kD43WOsc2LTl",
-          "url": "https://www.krone.at/4322524",
-          "canonicalUrl": "https://www.krone.at/4322524",
-          "title": "„Endloskriege“: Israel kämpft an mehreren Fronten",
-          "description": "Vor drei Jahren löste der terroristische Großangriff der islamistischen Hamas eine massive israelische Militäroperation in Gaza aus. Seitdem kämpft Jerusalem an mehreren Fronten gegen Gegner, die vom Iran gestützt werden. Analysten warnen vor „Endloskriegen“.",
-          "source": {
-            "id": "krone",
-            "name": "Kronen Zeitung"
-          },
-          "sourceCountry": "AT",
-          "language": "de",
-          "publishedAt": "2026-10-06T07:01:30.000Z",
-          "imageUrl": null,
-          "countryCode": "AT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T07:01:30.000Z"
-    },
-    {
       "id": "quFjuJbujPnm",
       "representative": {
         "id": "quFjuJbujPnm",
@@ -541,6 +457,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:16:05.000Z"
+    },
+    {
+      "id": "6Nfuqq4z4Ztt",
+      "representative": {
+        "id": "6Nfuqq4z4Ztt",
+        "url": "https://orf.at/stories/3444283/",
+        "canonicalUrl": "https://orf.at/stories/3444283/",
+        "title": "Paramount schließt Warner-Übernahme ab",
+        "description": null,
+        "source": {
+          "id": "orf",
+          "name": "ORF"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:11:30.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:11:30.000Z"
+    },
+    {
+      "id": "g2tGQmsTtZR2",
+      "representative": {
+        "id": "g2tGQmsTtZR2",
+        "url": "https://www.krone.at/4322347",
+        "canonicalUrl": "https://www.krone.at/4322347",
+        "title": "Gehalt 2026: Wann Sie zum reichsten Viertel zählen",
+        "description": "Die „Krone“ bringt den großen Gehaltsvergleich 2026: Für Fachkräfte mit abgeschlossener Lehre, Spezialisten, Teamleiter, Abteilungsleiter, Bereichsleiter und Geschäftsführer zeigen wir, ab wann man heuer zum bestverdienenden Viertel gehört, wo der Durchschnitt liegt und ab wann man zum untersten…",
+        "source": {
+          "id": "krone",
+          "name": "Kronen Zeitung"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:07:56.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:07:56.000Z"
     }
   ]
 }

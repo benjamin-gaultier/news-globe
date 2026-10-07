@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AR",
   "countryName": "Argentina",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "uJ83x2h7Ykzc",
@@ -93,7 +93,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 5,
+      "outletCount24h": 3,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T12:51:57.000Z"
     },
@@ -323,48 +323,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:53:39.000Z"
-    },
-    {
-      "id": "hSFdWwarUwKs",
-      "representative": {
-        "id": "hSFdWwarUwKs",
-        "url": "https://www.infobae.com/politica/2026/10/06/pablo-quirno-celebro-el-resultado-electoral-en-brasil-y-hablo-de-las-sanciones-por-malvinas-frente-al-embajador-britanico/",
-        "canonicalUrl": "https://www.infobae.com/politica/2026/10/06/pablo-quirno-celebro-el-resultado-electoral-en-brasil-y-hablo-de-las-sanciones-por-malvinas-frente-al-embajador-britanico/",
-        "title": "Pablo Quirno celebró el resultado electoral en Brasil y habló de las sanciones por Malvinas frente al embajador británico",
-        "description": "Durante la cena anual del CARI, el canciller destacó el avance de la “Ola Azul” en la región y criticó la reacción de Reino Unido a la decisión de recurrir al arbitraje previsto en la Convención de las Naciones Unidas sobre el derecho del mar. El diplomático se retiró del evento de manera anticipada",
-        "source": {
-          "id": "infobae",
-          "name": "Infobae"
-        },
-        "sourceCountry": "AR",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:51:24.000Z",
-        "imageUrl": "https://www.infobae.com/resizer/v2/CXCY6JYTJRE2ZPTXHFPOPLSK34.jpeg?auth=95045027e98bcb93a23da638170d17febace46cd4e2ca9835431e1e7534a9b07&smart=true&width=1600&height=1066",
-        "countryCode": "AR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "baBYxuSPkScZ",
-          "url": "https://tn.com.ar/politica/2026/10/05/pablo-quirno-destaco-el-resultado-electoral-en-brasil-la-argentina-aporto-la-fuerza-de-su-ejemplo/",
-          "canonicalUrl": "https://tn.com.ar/politica/2026/10/05/pablo-quirno-destaco-el-resultado-electoral-en-brasil-la-argentina-aporto-la-fuerza-de-su-ejemplo/",
-          "title": "Tenso evento en La Rural: el canciller Quirno habló sobre las sanciones por Malvinas frente al embajador de Reino Unido",
-          "description": null,
-          "source": {
-            "id": "tn",
-            "name": "TN"
-          },
-          "sourceCountry": "AR",
-          "language": "es",
-          "publishedAt": "2026-10-06T02:24:12.000Z",
-          "imageUrl": "https://tn.com.ar/resizer/v2/XDBLTD2I7BGYJDGY75HJ6N55JQ.jpg?auth=5cea98672e3ba101f1db5ec5140e8abe179933d9cac9b02cae80361dd2cc2fd5",
-          "countryCode": "AR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:51:24.000Z"
     },
     {
       "id": "xAvr7ePrGAI3",
@@ -611,6 +569,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:06:00.000Z"
+    },
+    {
+      "id": "pEGUftfBQW-x",
+      "representative": {
+        "id": "pEGUftfBQW-x",
+        "url": "https://www.infobae.com/politica/2026/10/06/paso-2027-el-semaforo-de-los-gobernadores-las-listas-colectoras-que-pide-la-ucr-y-una-inesperada-fisura-en-el-pj/",
+        "canonicalUrl": "https://www.infobae.com/politica/2026/10/06/paso-2027-el-semaforo-de-los-gobernadores-las-listas-colectoras-que-pide-la-ucr-y-una-inesperada-fisura-en-el-pj/",
+        "title": "PASO 2027: el semáforo de los gobernadores, las listas colectoras que pide la UCR y una inesperada fisura en el PJ",
+        "description": "La Casa Rosada busca reunir 37 votos en el Senado para suspender o eliminar las Primarias. Mientras negocia con gobernadores y bloques, la lista de adhesión reaparece como incentivo y el peronismo exhibe diferencias internas",
+        "source": {
+          "id": "infobae",
+          "name": "Infobae"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:03:57.000Z",
+        "imageUrl": "https://www.infobae.com/resizer/v2/ZRDD2UYAJBHKRAGHKF4V6PA4JE.jpg?auth=defb83e216bbacb99ed262bd790d42d461626c4d6942ae06605eacc1c63f983d&smart=true&width=1920&height=1080",
+        "countryCode": "AR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:03:57.000Z"
     }
   ]
 }

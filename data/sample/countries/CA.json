@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CA",
   "countryName": "Canada",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "IVZaH0wgm3Su",
@@ -59,93 +59,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T11:59:45.000Z"
-    },
-    {
-      "id": "WXB18tkF5nEz",
-      "representative": {
-        "id": "WXB18tkF5nEz",
-        "url": "https://www.theglobeandmail.com/politics/article-governments-ai-advisory-council-will-have-direct-input-from-carney/",
-        "canonicalUrl": "https://www.theglobeandmail.com/politics/article-governments-ai-advisory-council-will-have-direct-input-from-carney/",
-        "title": "Government’s AI advisory council will have direct input from Carney",
-        "description": "Prime Minister’s Office says Carney ‘will play an active role in setting the council’s agenda’",
-        "source": {
-          "id": "globeandmail",
-          "name": "The Globe and Mail"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-05T23:20:09.000Z",
-        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/VKLYZX234BFYZC3PRZLVDYM6IQ.jpg?auth=c5b554cb851355e6b5a24487b6b2e9df5dd59ca5575f1bc1ff8fab971a8ebfa7&smart=true&width=7944&height=5296",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "YyIBhUNT-bF1",
-          "url": "https://www.ctvnews.ca/canada/article/prime-minister-mark-carney-to-take-active-role-in-new-ai-advisory-council/",
-          "canonicalUrl": "https://www.ctvnews.ca/canada/article/prime-minister-mark-carney-to-take-active-role-in-new-ai-advisory-council/",
-          "title": "Prime Minister Mark Carney to take 'active role' in new AI advisory council",
-          "description": "rime Minister Mark Carney will “play an active role” in setting the agenda for Ottawa’s new AI advisory council.",
-          "source": {
-            "id": "ctv",
-            "name": "CTV News"
-          },
-          "sourceCountry": "CA",
-          "language": "en",
-          "publishedAt": "2026-10-06T01:47:15.000Z",
-          "imageUrl": "https://www.ctvnews.ca/resizer/v2/RZ4PD54N73USROPLP272P2TOYA.jpg?auth=92cba492c9880663bb1fd63dd2a2fb5a775a8ff88e0b1eee4e3aa3dad005a38f&smart=true&width=1400&height=933",
-          "countryCode": "CA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T01:47:15.000Z"
-    },
-    {
-      "id": "2WvHfrKWvBrI",
-      "representative": {
-        "id": "2WvHfrKWvBrI",
-        "url": "https://www.ctvnews.ca/calgary/article/tory-mp-says-report-of-republicans-working-with-alberta-separatists-is-concerning/",
-        "canonicalUrl": "https://www.ctvnews.ca/calgary/article/tory-mp-says-report-of-republicans-working-with-alberta-separatists-is-concerning/",
-        "title": "Alberta premier unaware of reported separatist meetings with U.S. strategists",
-        "description": "Alberta Premier Danielle Smith’s office is distancing itself from one of her party presidents who met in Calgary with U.S. Republican strategists looking to assist the province’s separation movement.",
-        "source": {
-          "id": "ctv",
-          "name": "CTV News"
-        },
-        "sourceCountry": "CA",
-        "language": "en",
-        "publishedAt": "2026-10-05T19:56:47.000Z",
-        "imageUrl": "https://www.ctvnews.ca/resizer/v2/FLKXPCGQRRXYJDWOMWULRCSJ64.jpg?auth=93d659190c85ed24ace7a193ab7bb108ef54a824d0d4e78529e7f9f9766044e8&smart=true&width=1400&height=1014",
-        "countryCode": "CA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "nAUlTwV9RGQN",
-          "url": "https://globalnews.ca/news/12088176/alberta-separatism-republicans-report/",
-          "canonicalUrl": "https://globalnews.ca/news/12088176/alberta-separatism-republicans-report/",
-          "title": "Danielle Smith unaware of reported Alberta separatist meetings with U.S. strategists",
-          "description": "Alberta Premier Danielle Smith has said she will vote against separation but has been accused of not doing enough to quell separatist sentiment in the province.",
-          "source": {
-            "id": "globalnews",
-            "name": "Global News"
-          },
-          "sourceCountry": "CA",
-          "language": "en",
-          "publishedAt": "2026-10-05T18:58:56.000Z",
-          "imageUrl": "https://globalnews.ca/wp-content/uploads/2025/05/b915018a2ac4cfa214a363f604655fc7bc22c629e012cee8ed7df2fec743827d_f43681.jpg?quality=65&strip=all",
-          "countryCode": "CA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T19:56:47.000Z"
     },
     {
       "id": "X3XrEEhyg5WM",
@@ -434,6 +350,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:27:01.000Z"
+    },
+    {
+      "id": "n7Knuich-2SS",
+      "representative": {
+        "id": "n7Knuich-2SS",
+        "url": "https://nationalpost.com/news/canada/parliaments-crane-operators-face-unique-challenges-at-lofty-heights",
+        "canonicalUrl": "https://nationalpost.com/news/canada/parliaments-crane-operators-face-unique-challenges-at-lofty-heights",
+        "title": "Parliament's crane operators face unique challenges at lofty heights",
+        "description": "Main construction will be complete between 2030 and 2031. The Centre Block will reopen about one year later",
+        "source": {
+          "id": "nationalpost",
+          "name": "National Post"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:00:43.000Z",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/10/hcp_stockbuildingsign_009_300892992.jpg",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:00:43.000Z"
+    },
+    {
+      "id": "hBDr6pYUi1A-",
+      "representative": {
+        "id": "hBDr6pYUi1A-",
+        "url": "https://www.theglobeandmail.com/canada/article-five-takeaways-from-the-quebec-election-results/",
+        "canonicalUrl": "https://www.theglobeandmail.com/canada/article-five-takeaways-from-the-quebec-election-results/",
+        "title": "Five takeaways from the Quebec election results",
+        "description": "The province voted in separatist Parti Québécois for the first time in more than a decade, while Coalition Avenir Québec was wiped off the map",
+        "source": {
+          "id": "globeandmail",
+          "name": "The Globe and Mail"
+        },
+        "sourceCountry": "CA",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:06:21.000Z",
+        "imageUrl": "https://www.theglobeandmail.com/resizer/v2/KFRQYLESQNFQTFSR7D6ITVJCIY.jpg?auth=fca04611da4942fda076e1d00ca68e427ffa22b73927ed1904aef7837d6ffee2&smart=true&width=8256&height=5504",
+        "countryCode": "CA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:06:21.000Z"
     }
   ]
 }

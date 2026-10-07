@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "KZ",
   "countryName": "Kazakhstan",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "AXtvlWVCXquj",
@@ -493,48 +493,6 @@
       "latestPublishedAt": "2026-10-06T12:25:00.000Z"
     },
     {
-      "id": "4J5LzEEIO5u1",
-      "representative": {
-        "id": "4J5LzEEIO5u1",
-        "url": "https://tengrinews.kz/autonews/probkami-zaymutsya-po-novomu-bektenov-dal-poruchenie-610180/",
-        "canonicalUrl": "https://tengrinews.kz/autonews/probkami-zaymutsya-po-novomu-bektenov-dal-poruchenie-610180/",
-        "title": "Пробками займутся по-новому в Казахстане: премьер дал поручение акиматам",
-        "description": "В крупных городах Казахстана поручили запустить пилотное интеллектуальное управление транспортными потоками на наиболее загруженных участках.",
-        "source": {
-          "id": "tengrinews",
-          "name": "Tengrinews"
-        },
-        "sourceCountry": "KZ",
-        "language": "ru",
-        "publishedAt": "2026-10-06T05:30:24.000Z",
-        "imageUrl": "https://tengrinews.kz/userdata/news/2026/news_610180/thumb_b/photo_555096.jpg",
-        "countryCode": "KZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Xzr0nszAOFUI",
-          "url": "https://kz.kursiv.media/2026-10-06/cntr-premer-dal-akimatam-dva-mesyacza-chtoby-nachat-borbu-s-probkami/?utm_source=rss&utm_medium=rss&utm_campaign=cntr-premer-dal-akimatam-dva-mesyacza-chtoby-nachat-borbu-s-probkami",
-          "canonicalUrl": "https://kz.kursiv.media/2026-10-06/cntr-premer-dal-akimatam-dva-mesyacza-chtoby-nachat-borbu-s-probkami/",
-          "title": "Премьер дал акиматам два месяца, чтобы начать борьбу с пробками",
-          "description": "В крупных городах Казахстана планируют внедрить интеллектуальное управление транспортными потоками. Соответствующее поручение акиматам дал премьер-министр Олжас Бектенов на заседании правительства. По словам премьера, ускоренная урбанизация увеличивает нагрузку на транспортную инфраструктуру…",
-          "source": {
-            "id": "kursiv",
-            "name": "Kursiv"
-          },
-          "sourceCountry": "KZ",
-          "language": "ru",
-          "publishedAt": "2026-10-06T11:20:04.000Z",
-          "imageUrl": null,
-          "countryCode": "KZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:20:04.000Z"
-    },
-    {
       "id": "Bds3lFisiO1T",
       "representative": {
         "id": "Bds3lFisiO1T",
@@ -661,46 +619,52 @@
       "latestPublishedAt": "2026-10-06T08:02:18.000Z"
     },
     {
-      "id": "IxDv0j7M3xN3",
+      "id": "NQ8LZIjr-JUi",
       "representative": {
-        "id": "IxDv0j7M3xN3",
-        "url": "https://tengrinews.kz/autonews/direktor-avtosalona-obmanul-astanchan-na-128-millionov-tenge-610192/",
-        "canonicalUrl": "https://tengrinews.kz/autonews/direktor-avtosalona-obmanul-astanchan-na-128-millionov-tenge-610192/",
-        "title": "Директор автосалона обманул астанчан на 128 миллионов теңге",
-        "description": "В Астане директор автосалона оставил покупателей без денег и автомобилей, передаёт Tengri Auto.",
+        "id": "NQ8LZIjr-JUi",
+        "url": "https://kz.kursiv.media/2026-10-06/svvo-zhanibek-serkulov-rasskazal-chemu-budet-uchit-novaya-ii-kompaniya-v-kazahstane/?utm_source=rss&utm_medium=rss&utm_campaign=svvo-zhanibek-serkulov-rasskazal-chemu-budet-uchit-novaya-ii-kompaniya-v-kazahstane",
+        "canonicalUrl": "https://kz.kursiv.media/2026-10-06/svvo-zhanibek-serkulov-rasskazal-chemu-budet-uchit-novaya-ii-kompaniya-v-kazahstane/",
+        "title": "Жанибек Серкулов рассказал, чему будет учить новая ИИ-компания в Казахстане",
+        "description": "Эксперт в областиИИ, глава образовательного центра AI Research Lab Жанибек Серкулов рассказал, чем будет заниматься новая компания AI Research Labs Ltd., которую он создал вместе с бывшим вице-министром Дмитрием Муном и BeInTech Kazakhstan Ltd. В интервью «Курсиву» он объяснил, как компания…",
         "source": {
-          "id": "tengrinews",
-          "name": "Tengrinews"
+          "id": "kursiv",
+          "name": "Kursiv"
         },
         "sourceCountry": "KZ",
         "language": "ru",
-        "publishedAt": "2026-10-06T06:21:51.000Z",
-        "imageUrl": "https://tengrinews.kz/userdata/news/2026/news_610192/thumb_b/photo_555110.jpg",
+        "publishedAt": "2026-10-06T16:15:30.000Z",
+        "imageUrl": null,
         "countryCode": "KZ",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "OKXIJDs_EsgS",
-          "url": "https://kz.kursiv.media/2026-10-06/rmnm-direktor-avtosalona-v-astane-poluchil-6-let-8-mesyatsev-za-obman-kliyentov/?utm_source=rss&utm_medium=rss&utm_campaign=rmnm-direktor-avtosalona-v-astane-poluchil-6-let-8-mesyatsev-za-obman-kliyentov",
-          "canonicalUrl": "https://kz.kursiv.media/2026-10-06/rmnm-direktor-avtosalona-v-astane-poluchil-6-let-8-mesyatsev-za-obman-kliyentov/",
-          "title": "Директор автосалона в Астане обманул клиентов на 128 млн теңге",
-          "description": "Директор автосалона в Астане получил 6 лет 8 месяцев лишения свободы за обман шести клиентов на сумму свыше 128 млн теңге. Мужчина обещал привезти автомобили из Китая, но, как установил суд, потратил деньги покупателей на личные нужды, сообщает пресс-служба Генеральной прокуратуры РК. Автомобили…",
-          "source": {
-            "id": "kursiv",
-            "name": "Kursiv"
-          },
-          "sourceCountry": "KZ",
-          "language": "ru",
-          "publishedAt": "2026-10-06T07:10:07.000Z",
-          "imageUrl": null,
-          "countryCode": "KZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T07:10:07.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:15:30.000Z"
+    },
+    {
+      "id": "MaxC9VoapTwR",
+      "representative": {
+        "id": "MaxC9VoapTwR",
+        "url": "https://kz.kursiv.media/2026-10-06/svvo-rossiya-soobshhila-voz-ob-otsutstvii-sluchaev-chumy-v-irkutske/?utm_source=rss&utm_medium=rss&utm_campaign=svvo-rossiya-soobshhila-voz-ob-otsutstvii-sluchaev-chumy-v-irkutske",
+        "canonicalUrl": "https://kz.kursiv.media/2026-10-06/svvo-rossiya-soobshhila-voz-ob-otsutstvii-sluchaev-chumy-v-irkutske/",
+        "title": "Россия сообщила ВОЗ об отсутствии случаев чумы в Иркутске",
+        "description": "Российские власти сообщили Всемирной организации здравоохранения (ВОЗ), что в Иркутске случаев чумы не зарегистрировано. Большинство людей, помещенных под карантин, уже отпустили. ВОЗ пока не видит признаков распространения инфекции и оценивает риск эпидемии в России как низкий, сообщают Reuters и…",
+        "source": {
+          "id": "kursiv",
+          "name": "Kursiv"
+        },
+        "sourceCountry": "KZ",
+        "language": "ru",
+        "publishedAt": "2026-10-06T16:13:37.000Z",
+        "imageUrl": null,
+        "countryCode": "KZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:13:37.000Z"
     }
   ]
 }

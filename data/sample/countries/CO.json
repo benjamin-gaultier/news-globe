@@ -2,109 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "CO",
   "countryName": "Colombia",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
-    {
-      "id": "fnqlbgS2axX-",
-      "representative": {
-        "id": "fnqlbgS2axX-",
-        "url": "https://caracol.com.co/2026/10/06/cuales-son-los-ajustes-que-el-gobierno-contempla-para-la-consulta-previa/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/06/cuales-son-los-ajustes-que-el-gobierno-contempla-para-la-consulta-previa/",
-        "title": "¿Cuáles son los ajustes que el Gobierno contempla para la consulta previa?",
-        "description": null,
-        "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-06T00:56:04.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/AOAXITMXHRFYDOEIETDIJPVTTU.jpeg?auth=a5e1c66702ff68c2b5a48c44d349e44104e9d6272793b479c9a96bbc11022b71&smart=true&width=3881&height=2596",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "KnfQpq-Vaxcq",
-          "url": "https://www.portafolio.co/economia/gobierno/gobierno-anuncia-reforma-al-procedimiento-de-consulta-previa-para-destrabar-expedientes-503950",
-          "canonicalUrl": "https://www.portafolio.co/economia/gobierno/gobierno-anuncia-reforma-al-procedimiento-de-consulta-previa-para-destrabar-expedientes-503950",
-          "title": "Gobierno anuncia reforma al procedimiento de consulta previa para destrabar expedientes",
-          "description": "Contempla la digitalización del 100 % de los expedientes represados.",
-          "source": {
-            "id": "portafolio",
-            "name": "Portafolio"
-          },
-          "sourceCountry": "CO",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:41:52.000Z",
-          "imageUrl": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2026/09/03/6a996a17c6eed.jpeg",
-          "countryCode": "CO",
-          "regionCode": null
-        },
-        {
-          "id": "dtg-ZoYrJPhv",
-          "url": "https://www.semana.com/politica/articulo/mininterior-anuncia-reforma-para-destrabar-consulta-previa-con-comunidades-digitalizaran-100-de-los-expedientes-represados/202622/",
-          "canonicalUrl": "https://www.semana.com/politica/articulo/mininterior-anuncia-reforma-para-destrabar-consulta-previa-con-comunidades-digitalizaran-100-de-los-expedientes-represados/202622/",
-          "title": "MinInterior anuncia reforma para destrabar consulta previa con comunidades: digitalizarán 100 % de los expedientes represados",
-          "description": null,
-          "source": {
-            "id": "semana",
-            "name": "Semana"
-          },
-          "sourceCountry": "CO",
-          "language": "es",
-          "publishedAt": "2026-10-06T02:15:46.000Z",
-          "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/MGM5L6KFL5HGTK4F24PDOCC6PA.jpeg?auth=1d8f67ec49909a8a8b080ed25046d3d8e315c14f3130b5c3b7f6f157820dd84a&smart=true&width=1280&height=854",
-          "countryCode": "CO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:41:52.000Z"
-    },
-    {
-      "id": "_EDcrb8WuevG",
-      "representative": {
-        "id": "_EDcrb8WuevG",
-        "url": "https://www.semana.com/economia/empresas/articulo/junta-directiva-de-la-andi-acepto-renuncia-de-bruce-mac-master/202656/",
-        "canonicalUrl": "https://www.semana.com/economia/empresas/articulo/junta-directiva-de-la-andi-acepto-renuncia-de-bruce-mac-master/202656/",
-        "title": "Junta directiva de la Andi aceptó la renuncia de Bruce Mac Master",
-        "description": null,
-        "source": {
-          "id": "semana",
-          "name": "Semana"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-05T23:25:56.000Z",
-        "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/TZZA7S3YL5C53ATVPYBSPGZASA.jpg?auth=d4713b2f63dc5b3e777555e3a8c9c54e519cfcb05c9cbb99522db13d8eff5581&smart=true&width=7157&height=4773",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "RbFES329MaNm",
-          "url": "https://www.lasillavacia.com/en-vivo/andi-acepto-la-renuncia-de-mac-master-e-inicia-busqueda-de-reemplazo/",
-          "canonicalUrl": "https://www.lasillavacia.com/en-vivo/andi-acepto-la-renuncia-de-mac-master-e-inicia-busqueda-de-reemplazo/",
-          "title": "Andi aceptó la renuncia de Mac Master e inicia búsqueda de reemplazo",
-          "description": "En los próximos días se iniciará el comité para escogerlo. Entre los nombres que suenan está el de María Paula Correa, ex jefa de Gabinete de Iván Duque. The post Andi aceptó la renuncia de Mac Master e inicia búsqueda de reemplazo appeared first on La Silla Vacía .",
-          "source": {
-            "id": "lasillavacia",
-            "name": "La Silla Vacía"
-          },
-          "sourceCountry": "CO",
-          "language": "es",
-          "publishedAt": "2026-10-06T13:00:16.000Z",
-          "imageUrl": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/Comunicado_Andi_Bruce.jpeg?fit=1126%2C1439&quality=80&strip=all&ssl=1",
-          "countryCode": "CO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:00:16.000Z"
-    },
     {
       "id": "DgcW4RyG1av4",
       "representative": {
@@ -188,174 +87,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T11:57:30.000Z"
-    },
-    {
-      "id": "M3H7VU8H5_1m",
-      "representative": {
-        "id": "M3H7VU8H5_1m",
-        "url": "https://caracol.com.co/2026/10/06/policia-resulto-herido-en-medio-de-atencion-de-caso-de-violencia-intrafamiliar-en-kennedy/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/06/policia-resulto-herido-en-medio-de-atencion-de-caso-de-violencia-intrafamiliar-en-kennedy/",
-        "title": "Policía resultó herido en medio de atención de caso de violencia intrafamiliar en Kennedy",
-        "description": null,
-        "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-06T01:45:44.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/H432FTI4KJC3ZOMG36WPDB3Q5U.jpeg?auth=3693a24127c0a154b0f21d05b8f0e5fa6b30ed6f20544ff1e6cc7248c1a2ebfd&smart=true&width=899&height=1599",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "DLF49RskdeTO",
-          "url": "https://www.semana.com/nacion/bogota/articulo/policia-fue-a-atender-un-caso-de-violencia-intrafamiliar-y-resulto-herido-hombre-habria-atacado-a-sus-papas/202658/",
-          "canonicalUrl": "https://www.semana.com/nacion/bogota/articulo/policia-fue-a-atender-un-caso-de-violencia-intrafamiliar-y-resulto-herido-hombre-habria-atacado-a-sus-papas/202658/",
-          "title": "Policía fue a atender un caso de violencia intrafamiliar y resultó herido: hombre habría atacado a sus papás",
-          "description": null,
-          "source": {
-            "id": "semana",
-            "name": "Semana"
-          },
-          "sourceCountry": "CO",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:44:58.000Z",
-          "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/NZSJ655OAFAQTIJOC4RIG7US6U.jpg?auth=29e0e062f2521b360b7a73fdba582894e380c9abcfe87a31e8d862ecb34546e4&smart=true&width=1280&height=727",
-          "countryCode": "CO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:44:58.000Z"
-    },
-    {
-      "id": "DzvVdsLTK3qa",
-      "representative": {
-        "id": "DzvVdsLTK3qa",
-        "url": "https://caracol.com.co/2026/10/03/tabla-de-posiciones-en-la-liga-colombiana-asi-quedo-con-la-victoria-del-cali-ante-alianza/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/03/tabla-de-posiciones-en-la-liga-colombiana-asi-quedo-con-la-victoria-del-cali-ante-alianza/",
-        "title": "Tabla de posiciones en la Liga Colombiana: así quedó con la victoria de Santa Fe ante el DIM",
-        "description": null,
-        "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-06T02:15:32.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/RDCHP4N6R5GQRCNCGM6DYS46YA.jpeg?auth=8ca06133d91a7bbe8a57641e5a9c75259b8698466438b4c75ecfdb52cab4a306&smart=true&width=1280&height=854",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Y67JrEC-iRo0",
-          "url": "https://www.semana.com/deportes/articulo/tabla-de-posiciones-en-liga-betplay-marcador-del-medellin-vs-santa-fe-movio-los-ocho/202609/",
-          "canonicalUrl": "https://www.semana.com/deportes/articulo/tabla-de-posiciones-en-liga-betplay-marcador-del-medellin-vs-santa-fe-movio-los-ocho/202609/",
-          "title": "Tabla de posiciones en Liga BetPlay: marcador del Medellín vs. Santa Fe movió los ocho",
-          "description": null,
-          "source": {
-            "id": "semana",
-            "name": "Semana"
-          },
-          "sourceCountry": "CO",
-          "language": "es",
-          "publishedAt": "2026-10-06T02:33:09.000Z",
-          "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/6FF7EEHOFZETNE46RA6A4D3BRM.png?auth=541bed7695f242781082708126aa5ddc059bddc9f78b051ec62f29713567dfc0&smart=true&width=1280&height=720",
-          "countryCode": "CO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T02:33:09.000Z"
-    },
-    {
-      "id": "07Xv2j0MzTBa",
-      "representative": {
-        "id": "07Xv2j0MzTBa",
-        "url": "https://caracol.com.co/2026/10/05/nunca-me-iban-a-dejar-ser-maria-fernanda-cabal-sobre-su-salida-del-centro-democratico/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/05/nunca-me-iban-a-dejar-ser-maria-fernanda-cabal-sobre-su-salida-del-centro-democratico/",
-        "title": "“Nunca me iban a dejar ser”: María Fernanda Cabal sobre su salida del Centro Democrático",
-        "description": null,
-        "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-05T23:23:03.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/L7YKJMKQSJEXNL43RWKUNV5CSY.jpeg?auth=b8cd2e16db74e27f3eca234dfb4faa35328782028152865129fbc27daa64e1ed&smart=true&width=2560&height=1706",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "vo4Jc9Iq1hZl",
-          "url": "https://www.elcolombiano.com/colombia/maria-fernanda-cabal-centro-democratico-no-me-permitio-ser-candidata-entrevista-EK41961731",
-          "canonicalUrl": "https://www.elcolombiano.com/colombia/maria-fernanda-cabal-centro-democratico-no-me-permitio-ser-candidata-entrevista-EK41961731",
-          "title": "“El Centro Democrático no me permitió ser candidata hace 4 años, ni ahora, ni lo haría nunca”: María Fernanda Cabal",
-          "description": "La exsenadora María Fernanda Cabal llegó a sonar como ministra del presidente Abelardo de la Espriella. Pero hoy, lejos de hacer parte de su Gobierno, dice que quiere hacer política de frente y que no quiere volver a tener jefes. Le puede interesar: “Nace un nuevo camino”: Cabal lanza el Partido…",
-          "source": {
-            "id": "elcolombiano",
-            "name": "El Colombiano"
-          },
-          "sourceCountry": "CO",
-          "language": "es",
-          "publishedAt": "2026-10-06T02:01:50.000Z",
-          "imageUrl": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/KFXA/maria-fernanda-cabal_51811063_20261005203833.jpg",
-          "countryCode": "CO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T02:01:50.000Z"
-    },
-    {
-      "id": "OxXP70fMnDUj",
-      "representative": {
-        "id": "OxXP70fMnDUj",
-        "url": "https://www.semana.com/nacion/articulo/el-exfiscal-francisco-barbosa-advierte-que-el-gobierno-de-gustavo-petro-actuo-como-una-organizacion-criminal/202619/",
-        "canonicalUrl": "https://www.semana.com/nacion/articulo/el-exfiscal-francisco-barbosa-advierte-que-el-gobierno-de-gustavo-petro-actuo-como-una-organizacion-criminal/202619/",
-        "title": "El exfiscal Francisco Barbosa advierte que el gobierno de Gustavo Petro actuó como “una organización criminal”",
-        "description": null,
-        "source": {
-          "id": "semana",
-          "name": "Semana"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-05T23:50:19.000Z",
-        "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/OAVHJCROWFHC3PZTCHMDN4YWKE.jpg?auth=093c1d5b28af192f9bd7c8ea38a785a214c9cd232b0abe0095655afaaead235d&smart=true&width=1280&height=720",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Fjsgr_YjWMGG",
-          "url": "https://www.elcolombiano.com/colombia/exfiscal-francisco-barbosa-denuncia-presunto-espionaje-gobierno-petro-FP41936120",
-          "canonicalUrl": "https://www.elcolombiano.com/colombia/exfiscal-francisco-barbosa-denuncia-presunto-espionaje-gobierno-petro-FP41936120",
-          "title": "Exfiscal Francisco Barbosa denuncia presunto espionaje durante gobierno Petro: “hubo persecución”",
-          "description": "Luego de que se conocieran los hallazgos de una auditoría forense ordenada por el gobierno de Abelardo De La Espriella a la Dirección Nacional de Inteligencia (DNI), el exfiscal Francisco Barbosa acudió a la Fiscalía para denunciar las presuntas actividades de espionaje de las que habría sido…",
-          "source": {
-            "id": "elcolombiano",
-            "name": "El Colombiano"
-          },
-          "sourceCountry": "CO",
-          "language": "es",
-          "publishedAt": "2026-10-05T19:22:04.000Z",
-          "imageUrl": "https://estaticos.elcolombiano.com/binrepository/450x300/0c0/0d0/center/11101/AKAD/exfiscal-francisco-barbosa_51805014_20261005140615.jpg",
-          "countryCode": "CO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T23:50:19.000Z"
     },
     {
       "id": "kgb5sbR-XbF9",
@@ -524,6 +255,168 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:04:14.000Z"
+    },
+    {
+      "id": "FV5F0W2Ht6qW",
+      "representative": {
+        "id": "FV5F0W2Ht6qW",
+        "url": "https://www.semana.com/deportes/articulo/daniel-torres-revela-que-les-dijo-a-los-hinchas-del-medellin-antes-de-ser-agredido-eso-fue/202621/",
+        "canonicalUrl": "https://www.semana.com/deportes/articulo/daniel-torres-revela-que-les-dijo-a-los-hinchas-del-medellin-antes-de-ser-agredido-eso-fue/202621/",
+        "title": "Daniel Torres revela qué les dijo a los hinchas del Medellín antes de ser agredido: “Eso fue”",
+        "description": null,
+        "source": {
+          "id": "semana",
+          "name": "Semana"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:03:21.000Z",
+        "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/WX6F2VVIJBB7HNXT3P3EGEK7HA.jpg?auth=f1e5cedceb6f689082f064afad870a48c02904a0df29170d1193578189450e29&smart=true&width=1280&height=720",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:03:21.000Z"
+    },
+    {
+      "id": "7LZFt681pjvY",
+      "representative": {
+        "id": "7LZFt681pjvY",
+        "url": "https://caracol.com.co/2026/10/06/en-bolivar-policia-reporto-baja-de-delitos-durante-septiembre/",
+        "canonicalUrl": "https://caracol.com.co/2026/10/06/en-bolivar-policia-reporto-baja-de-delitos-durante-septiembre/",
+        "title": "En Bolívar, Policía reportó baja de delitos durante septiembre",
+        "description": null,
+        "source": {
+          "id": "caracol",
+          "name": "Caracol Radio"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:03:18.000Z",
+        "imageUrl": "https://caracol.com.co/resizer/v2/JBU36FABSFEXLMGVMSHCOKKVQM.jpeg?auth=4f98f54bd72fe3b6f3507d393d58990ef15504b41ca9e09259260986b4332af2&smart=true&width=1040&height=585",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:03:18.000Z"
+    },
+    {
+      "id": "OijIypMJIlgm",
+      "representative": {
+        "id": "OijIypMJIlgm",
+        "url": "https://caracol.com.co/2026/10/06/ungrd-destino-mas-de-2016-millones-para-atender-incendios-que-dejaron-26500-hectareas-afectadas/",
+        "canonicalUrl": "https://caracol.com.co/2026/10/06/ungrd-destino-mas-de-2016-millones-para-atender-incendios-que-dejaron-26500-hectareas-afectadas/",
+        "title": "UNGRD destinó más de $2.016 millones para atender incendios que dejaron 26.500 hectáreas afectadas",
+        "description": null,
+        "source": {
+          "id": "caracol",
+          "name": "Caracol Radio"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:01:43.000Z",
+        "imageUrl": "https://caracol.com.co/resizer/v2/YBSSKUH32JCAJADXDXUSGHVQVM.png?auth=774bd862e9d3b5ceaa0ed9dec8021abaea503c2dce866ee266a89181cc9cbc44&smart=true&width=900&height=506",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:01:43.000Z"
+    },
+    {
+      "id": "_EDcrb8WuevG",
+      "representative": {
+        "id": "_EDcrb8WuevG",
+        "url": "https://www.semana.com/economia/empresas/articulo/junta-directiva-de-la-andi-acepto-renuncia-de-bruce-mac-master/202656/",
+        "canonicalUrl": "https://www.semana.com/economia/empresas/articulo/junta-directiva-de-la-andi-acepto-renuncia-de-bruce-mac-master/202656/",
+        "title": "Junta directiva de la Andi aceptó la renuncia de Bruce Mac Master",
+        "description": null,
+        "source": {
+          "id": "semana",
+          "name": "Semana"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-05T23:25:56.000Z",
+        "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/TZZA7S3YL5C53ATVPYBSPGZASA.jpg?auth=d4713b2f63dc5b3e777555e3a8c9c54e519cfcb05c9cbb99522db13d8eff5581&smart=true&width=7157&height=4773",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "RbFES329MaNm",
+          "url": "https://www.lasillavacia.com/en-vivo/andi-acepto-la-renuncia-de-mac-master-e-inicia-busqueda-de-reemplazo/",
+          "canonicalUrl": "https://www.lasillavacia.com/en-vivo/andi-acepto-la-renuncia-de-mac-master-e-inicia-busqueda-de-reemplazo/",
+          "title": "Andi aceptó la renuncia de Mac Master e inicia búsqueda de reemplazo",
+          "description": "En los próximos días se iniciará el comité para escogerlo. Entre los nombres que suenan está el de María Paula Correa, ex jefa de Gabinete de Iván Duque. The post Andi aceptó la renuncia de Mac Master e inicia búsqueda de reemplazo appeared first on La Silla Vacía .",
+          "source": {
+            "id": "lasillavacia",
+            "name": "La Silla Vacía"
+          },
+          "sourceCountry": "CO",
+          "language": "es",
+          "publishedAt": "2026-10-06T13:00:16.000Z",
+          "imageUrl": "https://i0.wp.com/www.lasillavacia.com/wp-content/uploads/2026/10/Comunicado_Andi_Bruce.jpeg?fit=1126%2C1439&quality=80&strip=all&ssl=1",
+          "countryCode": "CO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:00:16.000Z"
+    },
+    {
+      "id": "R1wh_M8QKR4_",
+      "representative": {
+        "id": "R1wh_M8QKR4_",
+        "url": "https://caracol.com.co/2026/10/06/en-samaca-se-forman-los-ninos-para-que-protejan-y-defiendan-las-fuentes-de-agua/",
+        "canonicalUrl": "https://caracol.com.co/2026/10/06/en-samaca-se-forman-los-ninos-para-que-protejan-y-defiendan-las-fuentes-de-agua/",
+        "title": "En Samacá se forman los niños para que protejan y defiendan las fuentes de agua",
+        "description": null,
+        "source": {
+          "id": "caracol",
+          "name": "Caracol Radio"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:57:59.000Z",
+        "imageUrl": "https://caracol.com.co/resizer/v2/YNFSV4VD6BGDRBE7IN573KK4OA.jpeg?auth=1fc817e8c6293cc5b6aaf20a86253227487893a8da16fd1e7c161b72a06cc0f8&smart=true&width=1600&height=903",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:57:59.000Z"
+    },
+    {
+      "id": "FpmiOHJLxH4j",
+      "representative": {
+        "id": "FpmiOHJLxH4j",
+        "url": "https://caracol.com.co/2026/10/06/ataque-sicarial-en-barbosa-santander-deja-dos-muertos-y-una-mujer-herida-hay-consejo-de-seguridad/",
+        "canonicalUrl": "https://caracol.com.co/2026/10/06/ataque-sicarial-en-barbosa-santander-deja-dos-muertos-y-una-mujer-herida-hay-consejo-de-seguridad/",
+        "title": "Ataque sicarial en Barbosa, Santander, deja dos muertos y una mujer herida: hay consejo de seguridad",
+        "description": null,
+        "source": {
+          "id": "caracol",
+          "name": "Caracol Radio"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:55:55.000Z",
+        "imageUrl": "https://caracol.com.co/resizer/v2/ROCDYCML25G5RGRVB5NIZNTLPQ.jpg?auth=393bb3e1646204a836e5a8df1d06312290fa8b797d0e64aacc2f35077b26581e&smart=true&width=650&height=488",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:55:55.000Z"
     }
   ]
 }

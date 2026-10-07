@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PK",
   "countryName": "Pakistan",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "mw_09x8TxHk7",
@@ -76,7 +76,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
+      "outletCount24h": 3,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T12:54:00.000Z"
     },
@@ -135,9 +135,51 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T13:24:57.000Z"
+    },
+    {
+      "id": "clBwRYjSkUd-",
+      "representative": {
+        "id": "clBwRYjSkUd-",
+        "url": "https://www.dawn.com/news/2035164/nobel-physics-prize-honours-work-on-ghost-messengers-from-space",
+        "canonicalUrl": "https://www.dawn.com/news/2035164/nobel-physics-prize-honours-work-on-ghost-messengers-from-space",
+        "title": "Nobel physics prize honours work on 'ghost messengers from space'",
+        "description": "Belgian physicist Francis Halzen on Tuesday won the Nobel Prize in Physics for work on subatomic particles at the South Pole, the award jury said. “This year’s prize is about ghostly messengers from space,” Ellen Moons, secretary general of the Royal Swedish Academy of Sciences, told a news…",
+        "source": {
+          "id": "dawn",
+          "name": "Dawn"
+        },
+        "sourceCountry": "PK",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:26:17.000Z",
+        "imageUrl": "https://i.dawn.com/large/2026/10/06152423c42cfe9.webp",
+        "countryCode": "PK",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "pA7TQuxuicPv",
+          "url": "https://www.brecorder.com/news/40442902/ghost-particle-hunter-francis-halzen-wins-2026-nobel-physics-prize",
+          "canonicalUrl": "https://www.brecorder.com/news/40442902/ghost-particle-hunter-francis-halzen-wins-2026-nobel-physics-prize",
+          "title": "'Ghost particle' hunter Francis Halzen wins 2026 Nobel Physics Prize",
+          "description": "STOCKHOLM: Belgian-American particle physicist Francis Halzen won the 2026 Nobel Prize in Physics for ground-breaking work creating an observatory to detect some of the universe’s most elusive particles, high-energy neutrinos, and how they ​are created. Halzen realised that ice at the South Pole…",
+          "source": {
+            "id": "brecorder",
+            "name": "Business Recorder"
+          },
+          "sourceCountry": "PK",
+          "language": "en",
+          "publishedAt": "2026-10-06T10:35:45.000Z",
+          "imageUrl": "https://i.brecorder.com/large/2026/10/0615313570d4a5d.gif",
+          "countryCode": "PK",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:35:45.000Z"
     },
     {
       "id": "YUGEY9li5I9d",
@@ -194,236 +236,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T10:16:12.000Z"
-    },
-    {
-      "id": "clBwRYjSkUd-",
-      "representative": {
-        "id": "clBwRYjSkUd-",
-        "url": "https://www.dawn.com/news/2035164/nobel-physics-prize-honours-work-on-ghost-messengers-from-space",
-        "canonicalUrl": "https://www.dawn.com/news/2035164/nobel-physics-prize-honours-work-on-ghost-messengers-from-space",
-        "title": "Nobel physics prize honours work on 'ghost messengers from space'",
-        "description": "Belgian physicist Francis Halzen on Tuesday won the Nobel Prize in Physics for work on subatomic particles at the South Pole, the award jury said. “This year’s prize is about ghostly messengers from space,” Ellen Moons, secretary general of the Royal Swedish Academy of Sciences, told a news…",
-        "source": {
-          "id": "dawn",
-          "name": "Dawn"
-        },
-        "sourceCountry": "PK",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:26:17.000Z",
-        "imageUrl": "https://i.dawn.com/large/2026/10/06152423c42cfe9.webp",
-        "countryCode": "PK",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "pA7TQuxuicPv",
-          "url": "https://www.brecorder.com/news/40442902/ghost-particle-hunter-francis-halzen-wins-2026-nobel-physics-prize",
-          "canonicalUrl": "https://www.brecorder.com/news/40442902/ghost-particle-hunter-francis-halzen-wins-2026-nobel-physics-prize",
-          "title": "'Ghost particle' hunter Francis Halzen wins 2026 Nobel Physics Prize",
-          "description": "STOCKHOLM: Belgian-American particle physicist Francis Halzen won the 2026 Nobel Prize in Physics for ground-breaking work creating an observatory to detect some of the universe’s most elusive particles, high-energy neutrinos, and how they ​are created. Halzen realised that ice at the South Pole…",
-          "source": {
-            "id": "brecorder",
-            "name": "Business Recorder"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:35:45.000Z",
-          "imageUrl": "https://i.brecorder.com/large/2026/10/0615313570d4a5d.gif",
-          "countryCode": "PK",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:35:45.000Z"
-    },
-    {
-      "id": "RNkonVuWCgge",
-      "representative": {
-        "id": "RNkonVuWCgge",
-        "url": "https://www.dawn.com/news/2035134/bise-bannu-di-khan-postpone-this-weeks-exams-citing-suspension-of-communication-services",
-        "canonicalUrl": "https://www.dawn.com/news/2035134/bise-bannu-di-khan-postpone-this-weeks-exams-citing-suspension-of-communication-services",
-        "title": "BISE Bannu, DI Khan postpone this week’s exams, citing suspension of communication services",
-        "description": "BANNU: The Board of Intermediate and Secondary Education (BISE) Bannu has postponed the Secondary School Certificate (SSC) Annual-II/Oriental Languages Examination 2026 papers scheduled for October 7, 8, 9 and 10 due to the security situation in the region. According to a notification issued by…",
-        "source": {
-          "id": "dawn",
-          "name": "Dawn"
-        },
-        "sourceCountry": "PK",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:34:27.000Z",
-        "imageUrl": "https://i.dawn.com/large/2026/10/0611120060a1ea7.webp",
-        "countryCode": "PK",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "bVoZlD3SCFeS",
-          "url": "https://tribune.com.pk/story/2633259/bise-bannu-postpones-ssc-papers-amid-mobile-internet-suspension",
-          "canonicalUrl": "https://tribune.com.pk/story/2633259/bise-bannu-postpones-ssc-papers-amid-mobile-internet-suspension",
-          "title": "DI Khan, Bannu postpone SSC papers amid mobile, internet suspension",
-          "description": "Board says the postponed papers will be rescheduled, with a revised timetable to be announced separately",
-          "source": {
-            "id": "tribune_pk",
-            "name": "The Express Tribune"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-06T02:35:28.000Z",
-          "imageUrl": null,
-          "countryCode": "PK",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T07:34:27.000Z"
-    },
-    {
-      "id": "a37pv853BBOX",
-      "representative": {
-        "id": "a37pv853BBOX",
-        "url": "https://www.dawn.com/news/2035136/india-opposition-leader-rahul-gandhi-briefly-detained-during-protest-seeking-election-chiefs-resignation",
-        "canonicalUrl": "https://www.dawn.com/news/2035136/india-opposition-leader-rahul-gandhi-briefly-detained-during-protest-seeking-election-chiefs-resignation",
-        "title": "India opposition leader Rahul Gandhi briefly detained during protest seeking election chief’s resignation",
-        "description": "India’s opposition leader Rahul Gandhi was briefly detained by police on Tuesday during a march protesting against the Election Commission, demanding its chief resign and alleging wrongdoing during a revision of voter rolls. An AFP reporter saw Gandhi, a leader of the Congress Party, standing on a…",
-        "source": {
-          "id": "dawn",
-          "name": "Dawn"
-        },
-        "sourceCountry": "PK",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:29:02.000Z",
-        "imageUrl": "https://i.dawn.com/large/2026/10/0612311073e6cf7.webp",
-        "countryCode": "PK",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "yPXzAAWv-Y08",
-          "url": "https://tribune.com.pk/story/2633252/police-detain-indian-opposition-leader-rahul-gandhi-at-poll-chief-protest",
-          "canonicalUrl": "https://tribune.com.pk/story/2633252/police-detain-indian-opposition-leader-rahul-gandhi-at-poll-chief-protest",
-          "title": "Police detain Indian opposition leader Rahul Gandhi at poll chief protest",
-          "description": "Protestors seeking the resignation of the election chief over a controversial revision of voter lists",
-          "source": {
-            "id": "tribune_pk",
-            "name": "The Express Tribune"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-06T01:39:46.000Z",
-          "imageUrl": null,
-          "countryCode": "PK",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T07:29:02.000Z"
-    },
-    {
-      "id": "qS4SsmB1U-Z0",
-      "representative": {
-        "id": "qS4SsmB1U-Z0",
-        "url": "https://tribune.com.pk/story/2633242/five-terrorists-killed-two-wounded-in-north-waziristan-operation-security-sources",
-        "canonicalUrl": "https://tribune.com.pk/story/2633242/five-terrorists-killed-two-wounded-in-north-waziristan-operation-security-sources",
-        "title": "Five terrorists killed, two wounded in North Waziristan operation: security sources",
-        "description": "President Zardari, PM Shehbaz praise security forces, reaffirm resolve to eliminate terrorism",
-        "source": {
-          "id": "tribune_pk",
-          "name": "The Express Tribune"
-        },
-        "sourceCountry": "PK",
-        "language": "en",
-        "publishedAt": "2026-10-06T00:14:31.000Z",
-        "imageUrl": null,
-        "countryCode": "PK",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ouJngsAdeiVK",
-          "url": "https://www.geo.tv/latest/685201-five-india-backed-terrorists-killed-two-injured-in-north-waziristan-security-sources",
-          "canonicalUrl": "https://www.geo.tv/latest/685201-five-india-backed-terrorists-killed-two-injured-in-north-waziristan-security-sources",
-          "title": "Five India-backed terrorists killed, two injured in North Waziristan: security sources",
-          "description": "Pakistan Army personnel can be seen patrolling in this undated image. — Reuters/FileForces committed to eliminating terrorism: sources.PM, president vow continuous action against militants.PM hails security forces for foiling terrorists' designs. Security forces killed five...",
-          "source": {
-            "id": "geo",
-            "name": "Geo News"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-06T06:30:00.000Z",
-          "imageUrl": "https://www.geo.tv/assets/uploads/2026-10-06/685201_110530_updates.jpg",
-          "countryCode": "PK",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:30:00.000Z"
-    },
-    {
-      "id": "qYyVXpzBNrMr",
-      "representative": {
-        "id": "qYyVXpzBNrMr",
-        "url": "https://www.dawn.com/news/2034893/pakistan-turkiye-saudi-arabia-agree-to-rapid-force-deployment-in-the-kingdom-under-makkah-pact",
-        "canonicalUrl": "https://www.dawn.com/news/2034893/pakistan-turkiye-saudi-arabia-agree-to-rapid-force-deployment-in-the-kingdom-under-makkah-pact",
-        "title": "Pakistan, Turkiye, Saudi Arabia agree to rapid force deployment in the kingdom under Makkah pact",
-        "description": "Pakistan, Saudi Arabia and Turkiye have agreed to deploy military forces and capabilities rapidly in the kingdom, the Foreign Office (FO) said on Monday following an emergency meeting of the Makkah Joint Defence Agreement in Riyadh. The three countries held an emergency meeting of the Strategic…",
-        "source": {
-          "id": "dawn",
-          "name": "Dawn"
-        },
-        "sourceCountry": "PK",
-        "language": "en",
-        "publishedAt": "2026-10-05T19:13:33.000Z",
-        "imageUrl": "https://i.dawn.com/large/2026/10/0523364480a0110.webp",
-        "countryCode": "PK",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "uIvu9KfaKDhM",
-          "url": "https://www.geo.tv/latest/685171-makkah-alliance-names-pakistani-general-as-first-secretary-general-amid-rising-regional-threats",
-          "canonicalUrl": "https://www.geo.tv/latest/685171-makkah-alliance-names-pakistani-general-as-first-secretary-general-amid-rising-regional-threats",
-          "title": "Makkah pact: Pakistan, Saudi Arabia and Turkiye vow rapid force deployment in kingdom",
-          "description": "Chief of Army Staff and Chief of Defence Forces Field Marshal Syed Asim Munir addresses the emergency meeting of the Strategic Political and Defence Committee of the MJDA in Riyadh on October 5, 2026. —X/ForeignOfficePkMeeting addresses security developments, threats facing KSA....",
-          "source": {
-            "id": "geo",
-            "name": "Geo News"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-05T20:02:40.000Z",
-          "imageUrl": "https://www.geo.tv/assets/uploads/2026-10-06/685171_090227_updates.jpg",
-          "countryCode": "PK",
-          "regionCode": null
-        },
-        {
-          "id": "ZuWrSdsHct73",
-          "url": "https://tribune.com.pk/story/2633054/cdf-munir-fm-dar-head-to-riyadh-for-makkah-agreement-meeting",
-          "canonicalUrl": "https://tribune.com.pk/story/2633054/cdf-munir-fm-dar-head-to-riyadh-for-makkah-agreement-meeting",
-          "title": "Makkah defence alliance agrees to 'rapid force deployment' in Saudi Arabia: FO",
-          "description": "Committee appoints Lieutenant General Nauman Mahmood (retd) as secretary-general for a three-year term",
-          "source": {
-            "id": "tribune_pk",
-            "name": "The Express Tribune"
-          },
-          "sourceCountry": "PK",
-          "language": "en",
-          "publishedAt": "2026-10-05T01:02:38.000Z",
-          "imageUrl": null,
-          "countryCode": "PK",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-05T20:02:40.000Z"
     },
     {
       "id": "ZQkzoevtWZUe",
@@ -592,6 +407,102 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:32:05.000Z"
+    },
+    {
+      "id": "beCMh1Jl1kuB",
+      "representative": {
+        "id": "beCMh1Jl1kuB",
+        "url": "https://www.dawn.com/news/2035130/pti-long-march-wont-be-allowed-beyond-attock-warns-kundi",
+        "canonicalUrl": "https://www.dawn.com/news/2035130/pti-long-march-wont-be-allowed-beyond-attock-warns-kundi",
+        "title": "PTI long march won’t be allowed beyond Attock, warns Kundi",
+        "description": "Khyber Pakhtunkhwa Governor Faisal Karim Kundi on Tuesday vowed that PTI’s long march would not be allowed to proceed beyond Attock in Punjab — which borders KP — saying the party “did not have the capacity” to do so. The opposition has gone ahead with its march despite warnings from the Centre…",
+        "source": {
+          "id": "dawn",
+          "name": "Dawn"
+        },
+        "sourceCountry": "PK",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:30:18.000Z",
+        "imageUrl": "https://i.dawn.com/large/2026/10/06112855cac0930.webp",
+        "countryCode": "PK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:30:18.000Z"
+    },
+    {
+      "id": "brBG_U84v2v2",
+      "representative": {
+        "id": "brBG_U84v2v2",
+        "url": "https://www.brecorder.com/news/40442911/it-gains-boost-sri-lankan-shares",
+        "canonicalUrl": "https://www.brecorder.com/news/40442911/it-gains-boost-sri-lankan-shares",
+        "title": "IT gains boost Sri Lankan shares",
+        "description": "Sri Lankan shares closed higher on Tuesday, helped by gains led by IT stocks The CSE All Share index settled up 0.29% at 20,650.23 Serendib Hotels PLC and Ambeon Holdings PLC were the top percentage gainers on the CSE All Share index, rising 9.2% and 7.7%, respectively. Trading volume on the CSE…",
+        "source": {
+          "id": "brecorder",
+          "name": "Business Recorder"
+        },
+        "sourceCountry": "PK",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:20:46.000Z",
+        "imageUrl": "https://i.brecorder.com/large/2026/10/06172027baf135d.webp",
+        "countryCode": "PK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:20:46.000Z"
+    },
+    {
+      "id": "5JSMhwRiBhAL",
+      "representative": {
+        "id": "5JSMhwRiBhAL",
+        "url": "https://www.brecorder.com/news/40442910/pepsico-monster-reliance-win-reprieve-on-energy-drink-label-ban-in-india",
+        "canonicalUrl": "https://www.brecorder.com/news/40442910/pepsico-monster-reliance-win-reprieve-on-energy-drink-label-ban-in-india",
+        "title": "PepsiCo, Monster, Reliance win reprieve on 'energy drink' label ban in India",
+        "description": "BENGALURU: PepsiCo, Monster Beverage and Reliance Industries can keep the “energy drink” label on products in India after a court put on hold a ban by the food regulator, a breather for the companies after a dispute they say disrupted operations. The regulator in June ordered makers of…",
+        "source": {
+          "id": "brecorder",
+          "name": "Business Recorder"
+        },
+        "sourceCountry": "PK",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:55:19.000Z",
+        "imageUrl": "https://i.brecorder.com/large/2026/10/06165505ae7d44c.webp",
+        "countryCode": "PK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:55:19.000Z"
+    },
+    {
+      "id": "xHep9A70_tJN",
+      "representative": {
+        "id": "xHep9A70_tJN",
+        "url": "https://www.brecorder.com/news/40442909/ganguly-named-delhi-capitals-coach-for-2027-ipl",
+        "canonicalUrl": "https://www.brecorder.com/news/40442909/ganguly-named-delhi-capitals-coach-for-2027-ipl",
+        "title": "Ganguly named Delhi Capitals coach for 2027 IPL",
+        "description": "Former India captain Sourav Ganguly has been appointed as head coach of Delhi Capitals for the 2027 edition of the Indian Premier League, the franchise said on Tuesday. Ganguly, who represented India in 113 tests and 311 one-day internationals, made his coaching debut last year at Delhi’s sister…",
+        "source": {
+          "id": "brecorder",
+          "name": "Business Recorder"
+        },
+        "sourceCountry": "PK",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:39:28.000Z",
+        "imageUrl": "https://i.brecorder.com/large/2026/10/06163916d99f073.webp",
+        "countryCode": "PK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:39:28.000Z"
     }
   ]
 }

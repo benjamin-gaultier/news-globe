@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BE",
   "countryName": "Belgium",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "kjDp6tU0_rVp",
@@ -291,48 +291,6 @@
       "latestPublishedAt": "2026-10-06T11:02:16.000Z"
     },
     {
-      "id": "-4sKT8I8fZl6",
-      "representative": {
-        "id": "-4sKT8I8fZl6",
-        "url": "https://vrtnws.be/p.YbyWq6804",
-        "canonicalUrl": "https://vrtnws.be/p.YbyWq6804",
-        "title": "Bekende kinder- en spoedarts Gerlant van Berlaer aangehouden voor voyeurisme",
-        "description": "De bekende kinder- en spoedarts Gerlant van Berlaer (58) is opgepakt en aangehouden in een onderzoek naar voyeurisme. Dat is bevestigd aan onze redactie na berichtgeving in Het Nieuwsblad.",
-        "source": {
-          "id": "vrt",
-          "name": "VRT NWS"
-        },
-        "sourceCountry": "BE",
-        "language": "nl",
-        "publishedAt": "2026-10-06T09:17:24.000Z",
-        "imageUrl": null,
-        "countryCode": "BE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "1_yFX4vnsloO",
-          "url": "https://www.demorgen.be/nieuws/bekende-kinder-en-spoedarts-gerlant-van-berlaer-opgepakt-in-onderzoek-naar-voyeurisme~b8f90684/",
-          "canonicalUrl": "https://www.demorgen.be/nieuws/bekende-kinder-en-spoedarts-gerlant-van-berlaer-opgepakt-in-onderzoek-naar-voyeurisme~b8f90684/",
-          "title": "Bekende kinder- en spoedarts Gerlant Van Berlaer opgepakt in onderzoek naar voyeurisme",
-          "description": null,
-          "source": {
-            "id": "demorgen",
-            "name": "De Morgen"
-          },
-          "sourceCountry": "BE",
-          "language": "nl",
-          "publishedAt": "2026-10-06T04:54:00.000Z",
-          "imageUrl": "https://image.demorgen.be/170234219/feature-crop/320/320/afbeelding",
-          "countryCode": "BE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:17:24.000Z"
-    },
-    {
       "id": "Auz8FErej7AK",
       "representative": {
         "id": "Auz8FErej7AK",
@@ -541,6 +499,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:25:00.000Z"
+    },
+    {
+      "id": "VCGm4Yi-h7_8",
+      "representative": {
+        "id": "VCGm4Yi-h7_8",
+        "url": "https://www.lavenir.net/regions/namur/sports/2026/10/06/football-p2b-p3c-lambiance-est-au-beau-fixe-a-gesves-PO7NM3YB55FFREVRZZF3XJTQYQ/",
+        "canonicalUrl": "https://www.lavenir.net/regions/namur/sports/2026/10/06/football-p2b-p3c-lambiance-est-au-beau-fixe-a-gesves-PO7NM3YB55FFREVRZZF3XJTQYQ/",
+        "title": "Football (P2B-P3C): L’ambiance est au beau fixe à Gesves",
+        "description": "Entre une P2 dans le haut du classement et une P3 leader, Matthéo Vanderschueren évoque la belle dynamique qui règne actuellement à Gesves. ...",
+        "source": {
+          "id": "lavenir",
+          "name": "L'Avenir"
+        },
+        "sourceCountry": "BE",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:24:00.000Z",
+        "imageUrl": "https://www.lavenir.net/resizer/v2/OOGBHX4J7BDN3BFA4VAHA277IQ.jpg?auth=ee706a9e80c52c98827927358085201bf983c1cf0e8cf2b5e27eea641a66fe00&smart=true&width=1200&height=800",
+        "countryCode": "BE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:24:00.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AU",
   "countryName": "Australia",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "tn0Qg8FYoGsE",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T10:44:48.000Z"
-    },
-    {
-      "id": "67JzG6MpoiEr",
-      "representative": {
-        "id": "67JzG6MpoiEr",
-        "url": "https://www.smh.com.au/national/australian-soldier-dies-during-training-exercise-20261006-p6136k.html?ref=rss&utm_medium=rss&utm_source=rss_national",
-        "canonicalUrl": "https://www.smh.com.au/national/australian-soldier-dies-during-training-exercise-20261006-p6136k.html",
-        "title": "Australian soldier dies during training exercise",
-        "description": "An Australian soldier has died and several others have been injured during a training exercise in the Northern Territory.",
-        "source": {
-          "id": "smh",
-          "name": "Sydney Morning Herald"
-        },
-        "sourceCountry": "AU",
-        "language": "en",
-        "publishedAt": "2026-10-06T08:10:42.000Z",
-        "imageUrl": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/e78c8fff8a7c0ff0157f9a94ad7043da18419b3a",
-        "countryCode": "AU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "a_EUKt9go__0",
-          "url": "https://www.sbs.com.au/news/article/australian-soldier-death-training-exercise-northern-territory/ed39ann6r",
-          "canonicalUrl": "https://www.sbs.com.au/news/article/australian-soldier-death-training-exercise-northern-territory/ed39ann6r",
-          "title": "Australian soldier killed in training exercise remembered as 'beloved leader'",
-          "description": "The 28-year-old was survived by a partner and two young children.",
-          "source": {
-            "id": "sbs",
-            "name": "SBS News"
-          },
-          "sourceCountry": "AU",
-          "language": "en",
-          "publishedAt": "2026-10-05T23:19:26.000Z",
-          "imageUrl": "https://assets.sbs.com.au/dims4/default/69230cd/2147483647/strip/false/crop/5472x2514+0+282/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F0f%2F31%2Fa82457f9433687c98acf8484546e%2Fgettyimages-2245753063.jpg",
-          "countryCode": "AU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:10:42.000Z"
     },
     {
       "id": "pZtvmLVPvRbx",
@@ -399,6 +357,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:05:54.000Z"
+    },
+    {
+      "id": "E4X2qEZXwEuv",
+      "representative": {
+        "id": "E4X2qEZXwEuv",
+        "url": "https://www.abc.net.au/news/2026-10-06/jannik-sinner-to-miss-rest-of-tennis-season-with-knee-injury/107236342",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-06/jannik-sinner-to-miss-rest-of-tennis-season-with-knee-injury/107236342",
+        "title": "Jannik Sinner to miss rest of tennis season with knee injury",
+        "description": "World number one Jannik Sinner will prioritise his recovery from a knee injury, opting to sit out the rest of the 2026 tennis season.",
+        "source": {
+          "id": "abc_au",
+          "name": "ABC News"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:00:23.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:00:23.000Z"
     }
   ]
 }

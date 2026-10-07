@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "LV",
   "countryName": "Latvia",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "ayNrG5FfR2DR",
@@ -459,48 +459,6 @@
       "latestPublishedAt": "2026-10-06T10:00:04.000Z"
     },
     {
-      "id": "LpJMwq6vyzzN",
-      "representative": {
-        "id": "LpJMwq6vyzzN",
-        "url": "https://www.lsm.lv/raksts/zinas/arzemes/06.10.2026-tramps-gatavs-apsvert-asv-kara-bazes-izveidi-lietuva.a666327/?utm_source=rss&utm_campaign=rss&utm_medium=links",
-        "canonicalUrl": "https://www.lsm.lv/raksts/zinas/arzemes/06.10.2026-tramps-gatavs-apsvert-asv-kara-bazes-izveidi-lietuva.a666327/",
-        "title": "Tramps gatavs apsvērt ASV kara bāzes izveidi Lietuvā",
-        "description": "ASV prezidents Donalds Tramps ir gatavs apsvērt kara bāzes izveidošanu Lietuvā. Tā viņš atbildēja uz Lietuvas sabiedriskās raidorganizācijas LRT Vašingtonas korespondenta Augustīna Šemeļa jautājumu.",
-        "source": {
-          "id": "lsm",
-          "name": "LSM"
-        },
-        "sourceCountry": "LV",
-        "language": "lv",
-        "publishedAt": "2026-10-06T05:19:00.000Z",
-        "imageUrl": "https://static.lsm.lv/media/2026/05/large/1/t8tw.jpg",
-        "countryCode": "LV",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "yQfWWucx-BEG",
-          "url": "https://diena.lv/raksts/pasaule/baltijas-valstis/tramps-sola-apsvert-pastavigas-asv-militaras-bazes-izveidosanu-lietuva?utm_source=rss&utm_campaign=rss&utm_medium=links",
-          "canonicalUrl": "https://diena.lv/raksts/pasaule/baltijas-valstis/tramps-sola-apsvert-pastavigas-asv-militaras-bazes-izveidosanu-lietuva",
-          "title": "Tramps sola apsvērt pastāvīgas ASV militārās bāzes izveidošanu Lietuvā",
-          "description": "ASV prezidents Donalds Tramps pirmdien paziņoja, ka Vašingtona apsvērs iespēju izveidot pastāvīgu ASV militāro bāzi Lietuvā.",
-          "source": {
-            "id": "diena",
-            "name": "Diena"
-          },
-          "sourceCountry": "LV",
-          "language": "lv",
-          "publishedAt": "2026-10-06T09:58:00.000Z",
-          "imageUrl": "https://diena.lv/imgproxy/GOvdnVCFhHXcO8kx9a6WpTDPkHr5HLZcQ3a0uoPfmoQ/rt:fill/s:1200:750/g:fp:0.42:0.31/f:jpg/plain/s3://diena-1/media/2020/10/original/90e775a3906c.jpg",
-          "countryCode": "LV",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:58:00.000Z"
-    },
-    {
       "id": "MSJbUKGdlJ3w",
       "representative": {
         "id": "MSJbUKGdlJ3w",
@@ -613,6 +571,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:46:56.000Z"
+    },
+    {
+      "id": "rMvUnlq-C3gb",
+      "representative": {
+        "id": "rMvUnlq-C3gb",
+        "url": "https://www.lsm.lv/raksts/kultura/kulturtelpa/06.10.2026-kas-veselibai-kopigs-ar-kulturu-starptautiska-konference-riga-macis-jaunas-prasmes.a666400/?utm_source=rss&utm_campaign=rss&utm_medium=links",
+        "canonicalUrl": "https://www.lsm.lv/raksts/kultura/kulturtelpa/06.10.2026-kas-veselibai-kopigs-ar-kulturu-starptautiska-konference-riga-macis-jaunas-prasmes.a666400/",
+        "title": "Kas veselībai kopīgs ar kultūru? Starptautiska konferencē Rīgā mācīs jaunas prasmes",
+        "description": "15. un 16. oktobrī Rīgas Stradiņa universitātē (RSU) un tiešsaistē norisināsies starptautiska konference \"Mācīties rūpēties. Izglītība un apmācība kultūras un veselības starpnozarē\" (\"Learning to Care: Education and Training in Culture and Health\"). Tās dalībnieki diskutēs par nepieciešamajām…",
+        "source": {
+          "id": "lsm",
+          "name": "LSM"
+        },
+        "sourceCountry": "LV",
+        "language": "lv",
+        "publishedAt": "2026-10-06T13:40:04.000Z",
+        "imageUrl": "https://static.lsm.lv/media/2026/10/large/1/ub2e.jpg",
+        "countryCode": "LV",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:40:04.000Z"
     }
   ]
 }

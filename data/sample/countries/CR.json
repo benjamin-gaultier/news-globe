@@ -2,91 +2,31 @@
   "schemaVersion": 1,
   "countryCode": "CR",
   "countryName": "Costa Rica",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
-      "id": "NC9ObNirvtKx",
+      "id": "YE3e-dTcYra0",
       "representative": {
-        "id": "NC9ObNirvtKx",
-        "url": "https://delfino.cr/2026/10/pln-propone-excluir-los-delitos-sexuales-de-la-inmunidad-constitucional",
-        "canonicalUrl": "https://delfino.cr/2026/10/pln-propone-excluir-los-delitos-sexuales-de-la-inmunidad-constitucional",
-        "title": "PLN propone excluir los delitos sexuales de la inmunidad constitucional",
-        "description": "Reforma modificaría cuatro artículos de la Constitución para que no sea necesaria una autorización previa de la Asamblea Legislativa para investigar y juzgar delitos sexuales atribuidos a jerarcas con fuero.",
+        "id": "YE3e-dTcYra0",
+        "url": "https://delfino.cr/2026/10/congreso-nacional-de-la-mujer-rural-reune-a-lideresas-de-todo-el-pais-en-san-carlos",
+        "canonicalUrl": "https://delfino.cr/2026/10/congreso-nacional-de-la-mujer-rural-reune-a-lideresas-de-todo-el-pais-en-san-carlos",
+        "title": "Congreso Nacional de la Mujer Rural reúne a lideresas de todo el país en San Carlos",
+        "description": "El encuentro continuará hasta el 7 de octubre con espacios sobre emprendimiento, financiamiento, tecnología, bioeconomía, ganadería regenerativa y liderazgo.",
         "source": {
           "id": "delfino",
           "name": "Delfino"
         },
         "sourceCountry": "CR",
         "language": "es",
-        "publishedAt": "2026-10-06T06:23:37.000Z",
+        "publishedAt": "2026-10-06T20:33:07.000Z",
         "imageUrl": null,
         "countryCode": "CR",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "qcmotgH8PPq_",
-          "url": "https://observador.cr/pln-propone-que-la-inmunidad-de-los-jerarcas-no-aplique-cuando-se-trate-de-delitos-sexuales/",
-          "canonicalUrl": "https://observador.cr/pln-propone-que-la-inmunidad-de-los-jerarcas-no-aplique-cuando-se-trate-de-delitos-sexuales/",
-          "title": "PLN propone que la inmunidad de los jerarcas no aplique cuando se trate de delitos sexuales",
-          "description": "Presentó reforma a la Constitución Política The post PLN propone que la inmunidad de los jerarcas no aplique cuando se trate de delitos sexuales appeared first on El Observador CR .",
-          "source": {
-            "id": "observador_cr",
-            "name": "El Observador"
-          },
-          "sourceCountry": "CR",
-          "language": "es",
-          "publishedAt": "2026-10-06T01:01:00.000Z",
-          "imageUrl": null,
-          "countryCode": "CR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:23:37.000Z"
-    },
-    {
-      "id": "tumOPrgUcup3",
-      "representative": {
-        "id": "tumOPrgUcup3",
-        "url": "https://delfino.cr/2026/10/exportaciones-de-servicios-crecieron-3-el-primer-semestre-y-superaron-los-6000-millones",
-        "canonicalUrl": "https://delfino.cr/2026/10/exportaciones-de-servicios-crecieron-3-el-primer-semestre-y-superaron-los-6000-millones",
-        "title": "Exportaciones de servicios crecieron 3% el primer semestre y superaron los $6.000 millones",
-        "description": "Los servicios empresariales aportaron $363 millones adicionales, mientras que las tecnologías de información y comunicación crecieron 7%. Al incluir viajes, las exportaciones alcanzaron $9.414 millones.",
-        "source": {
-          "id": "delfino",
-          "name": "Delfino"
-        },
-        "sourceCountry": "CR",
-        "language": "es",
-        "publishedAt": "2026-10-06T04:52:46.000Z",
-        "imageUrl": null,
-        "countryCode": "CR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "HSeE-LYFsgBe",
-          "url": "https://elmundo.cr/economia-y-negocios/exportaciones-de-servicios-superan-los-6-000-millones-y-crecen-3-al-primer-semestre/",
-          "canonicalUrl": "https://elmundo.cr/economia-y-negocios/exportaciones-de-servicios-superan-los-6-000-millones-y-crecen-3-al-primer-semestre/",
-          "title": "Exportaciones de servicios superan los $6.000 millones y crecen 3% al primer semestre",
-          "description": "Exportaciones de servicios superan los $6.000 millones y crecen 3% al primer semestre San José, 05 oct (elmundo.cr) – Las exportaciones costarricenses de servicios, excluyendo el componente de viajes, alcanzaron los $6.057 millones durante el primer semestre de 2026, un crecimiento del 3% respecto…",
-          "source": {
-            "id": "elmundo_cr",
-            "name": "El Mundo CR"
-          },
-          "sourceCountry": "CR",
-          "language": "es",
-          "publishedAt": "2026-10-05T22:21:40.000Z",
-          "imageUrl": null,
-          "countryCode": "CR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T04:52:46.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T20:33:07.000Z"
     },
     {
       "id": "8VMAAw_JApsX",
@@ -102,7 +42,7 @@
         },
         "sourceCountry": "CR",
         "language": "es",
-        "publishedAt": "2026-10-06T18:44:54.918Z",
+        "publishedAt": "2026-10-06T20:05:40.000Z",
         "imageUrl": null,
         "countryCode": "CR",
         "regionCode": null
@@ -110,7 +50,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T18:44:54.918Z"
+      "latestPublishedAt": "2026-10-06T20:05:40.000Z"
     },
     {
       "id": "ccHOlbs_ijHH",
@@ -126,7 +66,7 @@
         },
         "sourceCountry": "CR",
         "language": "es",
-        "publishedAt": "2026-10-06T18:44:54.918Z",
+        "publishedAt": "2026-10-06T18:50:13.000Z",
         "imageUrl": null,
         "countryCode": "CR",
         "regionCode": null
@@ -134,31 +74,7 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T18:44:54.918Z"
-    },
-    {
-      "id": "YE3e-dTcYra0",
-      "representative": {
-        "id": "YE3e-dTcYra0",
-        "url": "https://delfino.cr/2026/10/congreso-nacional-de-la-mujer-rural-reune-a-lideresas-de-todo-el-pais-en-san-carlos",
-        "canonicalUrl": "https://delfino.cr/2026/10/congreso-nacional-de-la-mujer-rural-reune-a-lideresas-de-todo-el-pais-en-san-carlos",
-        "title": "Congreso Nacional de la Mujer Rural reúne a lideresas de todo el país en San Carlos",
-        "description": "El encuentro continuará hasta el 7 de octubre con espacios sobre emprendimiento, financiamiento, tecnología, bioeconomía, ganadería regenerativa y liderazgo.",
-        "source": {
-          "id": "delfino",
-          "name": "Delfino"
-        },
-        "sourceCountry": "CR",
-        "language": "es",
-        "publishedAt": "2026-10-06T18:44:54.918Z",
-        "imageUrl": null,
-        "countryCode": "CR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T18:44:54.918Z"
+      "latestPublishedAt": "2026-10-06T18:50:13.000Z"
     },
     {
       "id": "j-KgKwhM1kmm",
@@ -399,6 +315,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:23:35.000Z"
+    },
+    {
+      "id": "B843IuaCrTjc",
+      "representative": {
+        "id": "B843IuaCrTjc",
+        "url": "https://delfino.cr/2026/10/corte-completa-nomina-de-24-candidaturas-para-las-12-suplencias-de-sala-constitucional",
+        "canonicalUrl": "https://delfino.cr/2026/10/corte-completa-nomina-de-24-candidaturas-para-las-12-suplencias-de-sala-constitucional",
+        "title": "Corte completa nómina de 24 candidaturas para las 12 suplencias de Sala Constitucional",
+        "description": "Corte escogió este lunes las seis personas pendientes para completar la lista de 24 candidaturas entre las que la Asamblea Legislativa deberá llenar las 12 vacantes de magistraturas suplentes.",
+        "source": {
+          "id": "delfino",
+          "name": "Delfino"
+        },
+        "sourceCountry": "CR",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:20:38.000Z",
+        "imageUrl": null,
+        "countryCode": "CR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:20:38.000Z"
+    },
+    {
+      "id": "rLPMiN2pdks4",
+      "representative": {
+        "id": "rLPMiN2pdks4",
+        "url": "https://delfino.cr/2026/10/vuelta-femenina-a-costa-rica-2026-cierra-con-protagonismo-internacional-y-titulos-repartidos",
+        "canonicalUrl": "https://delfino.cr/2026/10/vuelta-femenina-a-costa-rica-2026-cierra-con-protagonismo-internacional-y-titulos-repartidos",
+        "title": "Vuelta Femenina a Costa Rica 2026 cierra con protagonismo internacional y títulos repartidos",
+        "description": "Jessica Parra ganó la clasificación general y la montaña, Catalina Soto dominó la regularidad y Natalia Safroniuk se impuso en Sub23 y metas volantes.",
+        "source": {
+          "id": "delfino",
+          "name": "Delfino"
+        },
+        "sourceCountry": "CR",
+        "language": "es",
+        "publishedAt": "2026-10-06T10:17:11.000Z",
+        "imageUrl": null,
+        "countryCode": "CR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:17:11.000Z"
     }
   ]
 }

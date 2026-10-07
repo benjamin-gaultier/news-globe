@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GN",
   "countryName": "Guinea",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "kiqHweo945WE",
@@ -62,48 +62,6 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T17:18:42.000Z"
-    },
-    {
-      "id": "fZNfDREovwsC",
-      "representative": {
-        "id": "fZNfDREovwsC",
-        "url": "https://guineenews.org/2026/10/05/education-numerique-50-ecoles-500-adolescentes-et-100-bourses-au-coeur-du-partenariat-orange-unicef/",
-        "canonicalUrl": "https://guineenews.org/2026/10/05/education-numerique-50-ecoles-500-adolescentes-et-100-bourses-au-coeur-du-partenariat-orange-unicef/",
-        "title": "Éducation numérique : 50 écoles, 500 adolescentes et 100 bourses au cœur du partenariat Orange-UNICEF",
-        "description": "La Fondation Orange Guinée (FOG) et l’UNICEF renforcent leur collaboration dans le secteur de l’éducation. Les deux institutions ont signé, ce lundi 5 octobre 2026 à Conakry, un protocole d’accord visant notamment à favoriser l’accès au numérique dans les établissements scolaires guinéens. À…",
-        "source": {
-          "id": "guineenews",
-          "name": "Guinéenews"
-        },
-        "sourceCountry": "GN",
-        "language": "fr",
-        "publishedAt": "2026-10-05T20:58:25.000Z",
-        "imageUrl": "https://guineenews.org/wp-content/uploads/2026/10/1000537110.png",
-        "countryCode": "GN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "bVsgGKAa-c3q",
-          "url": "https://www.africaguinee.com/education-la-fondation-orange-guinee-et-lunicef-scellent-un-partenariat-strategique-pour-doter-50-ecoles-guineennes-de-poles-dapprentissage-numerique/",
-          "canonicalUrl": "https://www.africaguinee.com/education-la-fondation-orange-guinee-et-lunicef-scellent-un-partenariat-strategique-pour-doter-50-ecoles-guineennes-de-poles-dapprentissage-numerique/",
-          "title": "Éducation : La Fondation Orange Guinée et l’UNICEF scellent un partenariat stratégique pour doter 50 écoles guinéennes de pôles d’apprentissage numérique",
-          "description": "CONAKRY- La Fondation Orange Guinée et l’UNICEF veulent accélérer la transformation numérique du système éducatif guinéen. Les deux institutions ont signé, ce lundi 5 octobre 2026 à Conakry, un accord de partenariat visant à renforcer l’accès aux outils numériques dans 50 établissements scolaires…",
-          "source": {
-            "id": "africaguinee",
-            "name": "Africaguinée"
-          },
-          "sourceCountry": "GN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:48:00.000Z",
-          "imageUrl": null,
-          "countryCode": "GN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:48:00.000Z"
     },
     {
       "id": "j8PKmx2gPena",
@@ -434,6 +392,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T16:03:22.000Z"
+    },
+    {
+      "id": "S-WOaqXupI_9",
+      "representative": {
+        "id": "S-WOaqXupI_9",
+        "url": "https://www.visionguinee.info/interdiction-des-sachets-plastiques-il-fallait-prendre-des-mesures-prealables-suggere-lactiviste-kaly-diallo/",
+        "canonicalUrl": "https://www.visionguinee.info/interdiction-des-sachets-plastiques-il-fallait-prendre-des-mesures-prealables-suggere-lactiviste-kaly-diallo/",
+        "title": "Interdiction des sachets plastiques : ‘’Il fallait prendre des mesures préalables’’, suggère l’activiste Kaly Diallo",
+        "description": "L’interdiction des sachets plastiques suscite des réactions au sein de la société civile. Interrogé ce mardi 6 octobre par un reporter de VisionGuinée, l’activiste des droits de l’homme et coordonnateur de l’ONG Démocratie Sans Violence, Mamadou Kaly Diallo, reconnaît la nécessité de lutter contre…",
+        "source": {
+          "id": "visionguinee",
+          "name": "Vision Guinée"
+        },
+        "sourceCountry": "GN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:50:23.000Z",
+        "imageUrl": "https://www.visionguinee.info/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-15.42.00.jpeg",
+        "countryCode": "GN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:50:23.000Z"
     }
   ]
 }

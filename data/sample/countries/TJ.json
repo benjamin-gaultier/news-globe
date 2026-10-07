@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "TJ",
   "countryName": "Tajikistan",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
-    {
-      "id": "Jhm_Wk5nUL0o",
-      "representative": {
-        "id": "Jhm_Wk5nUL0o",
-        "url": "https://asiaplus.news/2026/10/06/iz-za-nepogody-mintrans-tadzhikistana-perevel-dorozhnye-sluzhby-v-rezhim-povyshennoj-gotovnosti/",
-        "canonicalUrl": "https://asiaplus.news/2026/10/06/iz-za-nepogody-mintrans-tadzhikistana-perevel-dorozhnye-sluzhby-v-rezhim-povyshennoj-gotovnosti/",
-        "title": "Минтранс Таджикистана из-за непогоды перевел дорожные службы в режим повышенной готовности",
-        "description": "Для координации работы создан оперативный штаб.",
-        "source": {
-          "id": "asiaplus",
-          "name": "Asia-Plus"
-        },
-        "sourceCountry": "TJ",
-        "language": "ru",
-        "publishedAt": "2026-10-06T06:29:00.000Z",
-        "imageUrl": "https://asiaplus.news/wp-content/uploads/2026/10/nepogoda.jpg",
-        "countryCode": "TJ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "xZVrvglnJ1X_",
-          "url": "https://avesta.tj/2026/10/06/dorozhnye-sluzhby-tadzhikistana-perevedeny-v-rezhim-povyshennoj-gotovnosti-iz-za-uhudsheniya-pogody/",
-          "canonicalUrl": "https://avesta.tj/2026/10/06/dorozhnye-sluzhby-tadzhikistana-perevedeny-v-rezhim-povyshennoj-gotovnosti-iz-za-uhudsheniya-pogody/",
-          "title": "Дорожные службы Таджикистана переведены в режим повышенной готовности из-за ухудшения погоды",
-          "description": "В большинстве долинных и горных районов Таджикистана с 5 — 6 сентября температура воздуха понизится на 8–10 градусов. Об этом сообщает Министерство транспорта Таджикистана со ссылкой на Метеорологическое агентство Комитета по охране окружающей среды при Правительстве Республики Таджикистан. В…",
-          "source": {
-            "id": "avesta",
-            "name": "Avesta"
-          },
-          "sourceCountry": "TJ",
-          "language": "ru",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "imageUrl": null,
-          "countryCode": "TJ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
-    },
     {
       "id": "QpwgKG3KI4D2",
       "representative": {
@@ -231,6 +189,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:00:08.000Z"
+    },
+    {
+      "id": "Jhm_Wk5nUL0o",
+      "representative": {
+        "id": "Jhm_Wk5nUL0o",
+        "url": "https://asiaplus.news/2026/10/06/iz-za-nepogody-mintrans-tadzhikistana-perevel-dorozhnye-sluzhby-v-rezhim-povyshennoj-gotovnosti/",
+        "canonicalUrl": "https://asiaplus.news/2026/10/06/iz-za-nepogody-mintrans-tadzhikistana-perevel-dorozhnye-sluzhby-v-rezhim-povyshennoj-gotovnosti/",
+        "title": "Минтранс Таджикистана из-за непогоды перевел дорожные службы в режим повышенной готовности",
+        "description": "Для координации работы создан оперативный штаб.",
+        "source": {
+          "id": "asiaplus",
+          "name": "Asia-Plus"
+        },
+        "sourceCountry": "TJ",
+        "language": "ru",
+        "publishedAt": "2026-10-06T06:29:00.000Z",
+        "imageUrl": "https://asiaplus.news/wp-content/uploads/2026/10/nepogoda.jpg",
+        "countryCode": "TJ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "xZVrvglnJ1X_",
+          "url": "https://avesta.tj/2026/10/06/dorozhnye-sluzhby-tadzhikistana-perevedeny-v-rezhim-povyshennoj-gotovnosti-iz-za-uhudsheniya-pogody/",
+          "canonicalUrl": "https://avesta.tj/2026/10/06/dorozhnye-sluzhby-tadzhikistana-perevedeny-v-rezhim-povyshennoj-gotovnosti-iz-za-uhudsheniya-pogody/",
+          "title": "Дорожные службы Таджикистана переведены в режим повышенной готовности из-за ухудшения погоды",
+          "description": "В большинстве долинных и горных районов Таджикистана с 5 — 6 сентября температура воздуха понизится на 8–10 градусов. Об этом сообщает Министерство транспорта Таджикистана со ссылкой на Метеорологическое агентство Комитета по охране окружающей среды при Правительстве Республики Таджикистан. В…",
+          "source": {
+            "id": "avesta",
+            "name": "Avesta"
+          },
+          "sourceCountry": "TJ",
+          "language": "ru",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "imageUrl": null,
+          "countryCode": "TJ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
     },
     {
       "id": "ZTk_cIjRmJL2",

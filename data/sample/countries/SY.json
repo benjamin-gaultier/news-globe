@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SY",
   "countryName": "Syria",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "DWQddjJTEVZh",
@@ -291,48 +291,6 @@
       "latestPublishedAt": "2026-10-06T12:07:05.000Z"
     },
     {
-      "id": "S0hq5t5OL3B4",
-      "representative": {
-        "id": "S0hq5t5OL3B4",
-        "url": "https://alwatan.sy/%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d8%aa%d8%b1%d8%ad%d8%a8-%d8%a8%d8%a7%d9%86%d8%b6%d9%85%d8%a7%d9%85-%d8%b3%d9%88%d8%b1%d9%8a%d8%a7-%d8%a5%d9%84%d9%89-%d8%b4%d8%b1%d8%a7%d9%83%d8%a9-%d9%85%d9%83%d8%a7/",
-        "canonicalUrl": "https://alwatan.sy/%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d8%aa%d8%b1%d8%ad%d8%a8-%d8%a8%d8%a7%d9%86%d8%b6%d9%85%d8%a7%d9%85-%d8%b3%d9%88%d8%b1%d9%8a%d8%a7-%d8%a5%d9%84%d9%89-%d8%b4%d8%b1%d8%a7%d9%83%d8%a9-%d9%85%d9%83%d8%a7/",
-        "title": "فرنسا ترحب بانضمام سوريا إلى شراكة مكافحة الإفلات من العقاب",
-        "description": "رحبت فرنسا بانضمام الجمهورية العربية السورية إلى الشراكة الدولية ضد الإفلات من العقاب على استخدام الأسلحة الكيميائية “PICIAC”. وقالت وزارة الخارجية الفرنسية في بيان نشرته على موقعها الإكتروني: “يمثل انضمام سوريا إلى هذه الشراكة قطيعةً مع ممارسات النظام السابق، وخطوةً جديدة نحو تحقيق العدالة للشعب…",
-        "source": {
-          "id": "alwatan_sy",
-          "name": "Al-Watan"
-        },
-        "sourceCountry": "SY",
-        "language": "ar",
-        "publishedAt": "2026-10-06T09:10:38.000Z",
-        "imageUrl": "https://alwatan.sy/wp-content/uploads/2026/10/%D9%81%D8%B1%D9%86%D8%B3%D8%A754.jpg",
-        "countryCode": "SY",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "nDmFliZd1CgH",
-          "url": "https://halabtodaytv.net/archives/291005",
-          "canonicalUrl": "https://halabtodaytv.net/archives/291005",
-          "title": "سوريا ترحب بالشراكة الدولية لمكافحة الإفلات من العقاب على الأسلحة الكيميائية",
-          "description": "في تطورين متلازمين يعكسان مساراً متصاعداً نحو إعادة الاندماج في الأطر الدولية، رحبت سوريا بإعلان الشراكة الدولية لمكافحة الإفلات من العقاب على استخدام الأسلحة الكيميائية قبول طلب انضمامها إلى عضوية الشراكة، فيما أكد المندوب الدائم لسوريا لدى الأمم المتحدة، السفير إبراهيم علبي، أن المقاربة الوطنية…",
-          "source": {
-            "id": "halabtoday",
-            "name": "Halab Today"
-          },
-          "sourceCountry": "SY",
-          "language": "ar",
-          "publishedAt": "2026-10-06T07:00:16.000Z",
-          "imageUrl": null,
-          "countryCode": "SY",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:10:38.000Z"
-    },
-    {
       "id": "3YAL3B9Q1A1T",
       "representative": {
         "id": "3YAL3B9Q1A1T",
@@ -523,6 +481,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T16:31:05.000Z"
+    },
+    {
+      "id": "Bd51FPeTd_Gd",
+      "representative": {
+        "id": "Bd51FPeTd_Gd",
+        "url": "https://sana.sy/syria-and-the-world/2599074/",
+        "canonicalUrl": "https://sana.sy/syria-and-the-world/2599074/",
+        "title": "التأمينات السورية تشارك في ندوة فنية بالدوحة لتطوير الضمان الاجتماعي",
+        "description": "شارك وفد من المؤسسة العامة للتأمينات الاجتماعية في سوريا برئاسة مديرها العام حسن ‏خطيب، في الندوة الفنية التي انطلقت اليوم الثلاثاء، بعنوان \"الابتكارات الرقمية والإدارية في ‏مؤسسات الضمان الاجتماعي\"، في العاصمة القطرية الدوحة.‏",
+        "source": {
+          "id": "sana",
+          "name": "SANA"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:26:15.000Z",
+        "imageUrl": "https://cdn.sananews.sy/2026/10/%D8%A7%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86%D8%A7%D8%AA-scaled.jpg",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:26:15.000Z"
     }
   ]
 }
