@@ -6650,6 +6650,55 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://www.journaldebrazza.com/feed/'],
     authority: 7,
   },
+  // Burundi. Two outlets only, a few items a day; SOS Médias Burundi works from exile. Isanganiro
+  // and Burundi Eco stale; RTNB, Ikiriho and Radio Culture unreachable.
+  {
+    id: 'iwacu',
+    name: 'Iwacu',
+    type: 'rss',
+    country: 'BI',
+    language: 'fr',
+    feedUrls: ['https://www.iwacu-burundi.org/feed/'],
+    authority: 8,
+  },
+  {
+    id: 'sosmediasburundi',
+    name: 'SOS Médias Burundi',
+    type: 'rss',
+    country: 'BI',
+    language: 'fr',
+    feedUrls: ['https://www.sosmediasburundi.org/feed/'],
+    authority: 7,
+  },
+  // Lesotho. Small feeds: Newsday leans to culture and lifestyle, The Reporter and Public Eye post
+  // a few items a day or less. Lesotho Times malformed; The Post 403; Sunday Express 404.
+  {
+    id: 'newsday_ls',
+    name: 'Newsday',
+    type: 'rss',
+    country: 'LS',
+    language: 'en',
+    feedUrls: ['https://newsdayonline.co.ls/feed/'],
+    authority: 7,
+  },
+  {
+    id: 'thereporter_ls',
+    name: 'The Reporter',
+    type: 'rss',
+    country: 'LS',
+    language: 'en',
+    feedUrls: ['https://www.thereporter.co.ls/feed/'],
+    authority: 7,
+  },
+  {
+    id: 'publiceye',
+    name: 'Public Eye',
+    type: 'rss',
+    country: 'LS',
+    language: 'en',
+    feedUrls: ['https://publiceyenews.com/feed/'],
+    authority: 6,
+  },
   // ---- France: regions (see REGIONS). Local-section feeds only: the main
   // feeds of regional papers carry national and world news too. ----
   {

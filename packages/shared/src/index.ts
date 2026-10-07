@@ -256,6 +256,8 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   SB: { code: 'SB', name: 'Solomon Islands', lat: -9.4, lng: 160.0, altitude: 0.8 },
   DJ: { code: 'DJ', name: 'Djibouti', lat: 11.8, lng: 42.6, altitude: 0.4 },
   CG: { code: 'CG', name: 'Congo', lat: -0.7, lng: 15.2, altitude: 0.8 },
+  BI: { code: 'BI', name: 'Burundi', lat: -3.4, lng: 29.9, altitude: 0.4 },
+  LS: { code: 'LS', name: 'Lesotho', lat: -29.6, lng: 28.2, altitude: 0.4 },
 };
 
 export interface RegionMeta {
