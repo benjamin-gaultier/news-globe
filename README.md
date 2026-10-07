@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers 131 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France and it splits into its 13 regions, each with its own regional headlines from regional outlets.
+It covers 141 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France and it splits into its 13 regions, each with its own regional headlines from regional outlets.
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -1807,11 +1807,116 @@ Not used: The New Times serves HTML; IGIHE 404.
 
 Le Nouvelliste's feed is its English edition. Not used: HaitiLibre 403; Loop Haiti unreachable.
 
+**Paraguay** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| ABC Color | main feed | 9 | ✅ (es) |
+| La Nación | main feed | 8 | ✅ (es) |
+| El Nacional | main feed | 7 | ✅ (es) |
+| La Clave | main feed | 7 | ✅ (es) |
+
+ABC Color and La Nación are Arc sites, read with `?outputType=xml`. Not used: Última Hora 404.
+
+**Panama** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| La Prensa | main feed | 9 | ✅ (es) |
+| TVN | main feed | 8 | ✅ (es) |
+| Crítica | main feed | 7 | ✅ (es) |
+
+La Prensa is an Arc site, read with `?outputType=xml`.
+
+**Cambodia** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| VOD | main feed | 8 | ✅ (km) |
+| Kampuchea Thmey | main feed | 7 | ✅ (km) |
+| DAP News | main feed | 7 | ✅ (km) |
+| Khmer Times | main feed | 8 | ✅ (en) |
+| CambojaNews | main feed | 7 | ✅ (en) |
+
+Not used: Phnom Penh Post, Post Khmer and Fresh News 403.
+
+**Mozambique** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Notícias | main feed | 9 | ✅ (pt) |
+| O País | main feed | 8 | ✅ (low volume, pt) |
+| Carta de Moçambique | main feed | 8 | ✅ (pt) |
+| Evidências | main feed | 7 | ✅ (pt) |
+| Club of Mozambique | main feed | 7 | ✅ (en) |
+| AIM | main feed | 8 | ✅ (state agency, en) |
+
+**Bahamas** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| ZNS | main feed | 8 | ✅ (state broadcaster, en) |
+| The Tribune | main feed | 9 | ✅ (en) |
+| Our News | main feed | 7 | ✅ (en) |
+| Bahamas Press | main feed | 6 | ✅ (en) |
+
+Not used: Nassau Guardian 404.
+
+**Belize** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Breaking Belize News | main feed | 8 | ✅ (en) |
+| Amandala | main feed | 8 | ✅ (en) |
+| Love FM | main feed | 7 | ✅ (en) |
+| The San Pedro Sun | main feed | 6 | ✅ (en) |
+
+Not used: Channel 5 unreachable.
+
+**Togo** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| iciLome | main feed | 8 | ✅ (fr) |
+| Le Temps | main feed | 7 | ✅ (fr) |
+| 24heureinfo | main feed | 7 | ✅ (fr) |
+| Togo Top News | main feed | 6 | ✅ (fr) |
+| Togoweb | main feed | 6 | ✅ (fr) |
+
+**South Sudan** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Radio Tamazuj | main feed | 9 | ✅ (en) |
+| Eye Radio | main feed | 8 | ✅ (en) |
+| Sudans Post | main feed | 7 | ✅ (en) |
+
+**Central African Republic** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Radio Ndeke Luka | main feed | 9 | ✅ (fr) |
+| Corbeau News | main feed | 7 | ✅ (opposition-leaning, fr) |
+| Oubangui Médias | main feed | 7 | ✅ (fr) |
+
+**Ethiopia** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Fana | main feed | 9 | ✅ (close to the ruling party, am) |
+| The Reporter | main feed | 8 | ✅ (am) |
+| BBC Amharic | main feed | 8 | ✅ (low volume, am) |
+| Ethio FM | main feed | 6 | ✅ (am) |
+
+Fana's English feed is not used, so the country clusters in one language.
+
+Khmer is split into words with `Intl.Segmenter('km')`, as Thai is, after dropping the zero-width spaces some outlets put between words; vowel signs are kept and Khmer digits made ASCII. It gets a short stopword list (*និង* "and", *ក្នុង* "in", *ការ*, the country's name).
+
 Swahili, Kinyarwanda, Kyrgyz and Belarusian get short stopword lists: class-agreement particles (*ya*, *wa*, *za*), Kinyarwanda's elided *n'*, *z'*, *cy'*, and the country's own name, as for Somali. Kyrgyz also drops *млрд*, *сом* and *түздү* ("amounted to"): two different nine-month revenue stories had been joined on them.
 
 `isNotNews` also drops Honduran front-page items ("Portada Digital, Miércoles 07.10.2026"), The Global New Light of Myanmar's daily e-paper entry (a bare "7 October 2026"), and VOA Chinese's broadcast episodes ("美国之音中文广播 (2026年10月7日) …").
 
-Not added yet, for lack of usable feeds: the UAE (Gulf News only; Sky News Arabia, Al Khaleej, The National and Khaleej Times 404 or serve HTML), Jordan (Royanews and Hala; Al-Ghad, Addustour, Al-Rai and Jordan Times 403, Ammon serves HTML), Kuwait, Qatar and Oman (feeds serve HTML, 403 or 404; Doha News posts a few items a day), Paraguay (La Clave only; ABC, Última Hora and La Nación 404), Panama (TVN, which is mostly international, and Crítica; La Prensa's feed is weeks old), Nicaragua (exile media only: Confidencial, Despacho 505, Divergentes; La Prensa, El 19 and Artículo 66 403), Togo (iciLome only current), Botswana, Ethiopia (stale or 4-item feeds), Mauritius and Trinidad and Tobago (one usable feed each), Cambodia (Khmer Times plus slow CambojaNews; Phnom Penh Post, Post Khmer and Fresh News 403), Mongolia (iKon and Eguur; Montsame 403, News.mn serves HTML), Turkmenistan (Azathabar, Hronika and Turkmen.news each post a few items a day), Laos (Laotian Times only), Bahrain (feeds 404), Malta (Newsbook and Lovin Malta; Times of Malta unreachable), Mozambique and Angola (one or two small feeds), Niger (Le Sahel, Niger Inter and Tamtaminfo post a few items a day or less; ActuNiger 404), Sierra Leone (Sierraloaded and Calabash; Awoko unreachable, AYV stale), Belize (Breaking Belize News; Love FM and Amandala slow, Channel 5 unreachable), the Bahamas (Tribune and Our News; Nassau Guardian 404), the Maldives (Sun and PSM, in Dhivehi), Brunei, Bhutan and Timor-Leste (one slow feed each), Fiji and Papua New Guinea (one current feed each).
+Not added yet, for lack of usable feeds: the UAE (Gulf News only; Sky News Arabia, Al Khaleej, The National and Khaleej Times 404 or serve HTML), Jordan (Royanews and Hala; Al-Ghad, Addustour, Al-Rai and Jordan Times 403, Ammon serves HTML), Kuwait, Qatar and Oman (feeds serve HTML, 403 or 404; Doha News posts a few items a day), Nicaragua (exile media only: Confidencial, Despacho 505, Divergentes; La Prensa, El 19 and Artículo 66 403), Botswana, Mauritius and Trinidad and Tobago (one usable feed each), Mongolia (iKon and Eguur; Montsame 403, News.mn serves HTML), Turkmenistan (Azathabar, Hronika and Turkmen.news each post a few items a day), Laos (Laotian Times only), Bahrain (feeds 404), Malta (Newsbook and Lovin Malta; Times of Malta unreachable), Angola (one or two small feeds), Niger (Le Sahel, Niger Inter and Tamtaminfo post a few items a day or less; ActuNiger 404), Sierra Leone (Sierraloaded and Calabash; Awoko unreachable, AYV stale), the Maldives (Sun and PSM, in Dhivehi), Brunei, Bhutan and Timor-Leste (one slow feed each), Fiji and Papua New Guinea (one current feed each), New Caledonia (La 1ère and LNC), the Solomon Islands (SIBC and Island Sun), Congo-Brazzaville (Vox and Adiac), Burundi and Lesotho (two small feeds each), and North Korea (NK News and Daily NK, both based abroad).
 
 **Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 

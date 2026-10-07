@@ -406,6 +406,11 @@ const STOPWORDS_RW = `
 na ya mu ku wa ba kuri muri ni no nk bya rya kwa iki ibi aba uyu iyi ubu kandi nyuma mbere ndetse bari
 yari ari ko uko ngo u i y z n c cy by ry rw bw kw rwanda
 `;
+// Khmer words as Intl.Segmenter splits them (see khmerTokens): and, in, at, of, is,
+// did, which, from, to, will, that, this, the "act of" prefix ការ, and the country's name.
+const STOPWORDS_KM = `
+និង ក្នុង នៅ របស់ ជា បាន ដែល មាន ពី ទៅ នឹង ថា លើ នេះ នោះ ឲ្យ អោយ ក៏ ហើយ ទេ ការ សម្រាប់ ចំពោះ កម្ពុជា
+`;
 // Kyrgyz and Belarusian, written in normal spelling and folded by foldedWords.
 const STOPWORDS_KY = `
 жана менен үчүн боюнча деп бул ал да дагы бир мен биз алар эмес бар жок болот болгон болуп кийин
@@ -498,6 +503,7 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   rw: wordSet(STOPWORDS_RW, STOPWORDS_EN, BOILERPLATE),
   ky: wordSet(foldedWords(STOPWORDS_KY), STOPWORDS_EN, BOILERPLATE),
   be: wordSet(foldedWords(STOPWORDS_BE), STOPWORDS_EN, BOILERPLATE),
+  km: wordSet(STOPWORDS_KM, STOPWORDS_EN, BOILERPLATE),
   ko: wordSet(STOPWORDS_KO, STOPWORDS_EN, BOILERPLATE),
   th: wordSet(STOPWORDS_TH, STOPWORDS_EN, BOILERPLATE),
   bn: wordSet(STOPWORDS_BN, STOPWORDS_EN, BOILERPLATE),
@@ -628,6 +634,21 @@ function thaiTokens(title: string): string[] {
 }
 
 /**
+ * Khmer, likewise: no spaces between words (some outlets put zero-width spaces
+ * between them, others don't), vowel signs kept, Khmer digits made ASCII.
+ */
+const KHMER_SEGMENTER = new Intl.Segmenter('km', { granularity: 'word' });
+function khmerTokens(title: string): string[] {
+  const text = title
+    .normalize('NFC')
+    .replace(/[​‌‍﻿]/g, '')
+    .replace(/[០-៩]/g, (d) => String(d.charCodeAt(0) - 0x17e0));
+  return [...KHMER_SEGMENTER.segment(text)]
+    .filter((seg) => seg.isWordLike)
+    .flatMap((seg) => (/\p{Script=Khmer}/u.test(seg.segment) ? [seg.segment] : foldText(seg.segment).split(' ')));
+}
+
+/**
  * Hebrew: acronyms keep their gershayim (", ״ or '') as one word (צה"ל → צהל),
  * and one prefix letter (ו ה ב ל מ ש כ: and, the, in, to, from, that, as) is
  * dropped from words of five letters or more, so ונתניהו and נתניהו match.
@@ -693,6 +714,8 @@ export function titleTokens(title: string, language?: string): Set<string> {
                 ? koreanTokens(title)
                 : language === 'th'
                   ? thaiTokens(title)
+                  : language === 'km'
+                    ? khmerTokens(title)
               : foldText(title).split(' ');
   for (const raw of words) {
     if (!raw || stopwords.has(raw)) continue;

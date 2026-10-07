@@ -238,7 +238,7 @@ describe('titleTokens: Hebrew', () => {
   });
 });
 
-describe('titleTokens: Korean, Thai and Bengali', () => {
+describe('titleTokens: Korean, Thai, Bengali and Khmer', () => {
   it('splits Hangul words into syllable pairs so particles still match', () => {
     const a = titleTokens('대통령이 국회를 방문했다', 'ko');
     const b = titleTokens('대통령은 국회 방문', 'ko');
@@ -253,6 +253,12 @@ describe('titleTokens: Korean, Thai and Bengali', () => {
   });
   it('keeps Bengali vowel signs and converts digits', () => {
     expect(titleTokens('ঢাকায় ৫ জন আহত হয়েছে', 'bn')).toEqual(new Set(['ঢাকায়', '5', 'জন', 'আহত']));
+  });
+  it('segments Khmer with or without zero-width spaces, keeping vowel signs', () => {
+    const a = titleTokens('កម្ពុជា​កំពុង​ជំរុញ​វិស័យ​អប់រំ ២០២៦', 'km');
+    const b = titleTokens('កម្ពុជាកំពុងជំរុញវិស័យអប់រំ', 'km');
+    expect(a).toEqual(new Set(['កំពុង', 'ជំរុញ', 'វិស័យ', 'អប់រំ']));
+    expect(b).toEqual(a);
   });
 });
 
