@@ -146,6 +146,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       threshold: settings.clusterThreshold,
       minSharedTokens: settings.clusterMinSharedTokens,
       minAverageLink: settings.clusterMinAverageLink,
+      ignoreNames: unit.kind === 'region' ? [unit.region.name, ...(unit.region.localNames ?? [])] : undefined,
     });
     const clusters = rankClusters(
       groups.map((g) => buildCluster(g, authorityOf, now, settings.rankingWindowHours)),
