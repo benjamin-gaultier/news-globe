@@ -172,6 +172,12 @@ describe('isNotNews', () => {
       'Prix des carburants : trouvez la station-service la moins chère près de chez vous',
       'Contenu sponsorisé : les meilleures offres de rentrée',
       '[Partenariat] Découvrez la nouvelle saison',
+      'Portada Digital, Miércoles 07.10.2026',
+      'Portada HCH Miércoles 07 de octubre 2026 Edición Matutina',
+      '7 October 2026',
+      '美国之音中文广播 (2026年10月7日) 沙特石油出口回升',
+      'VOA今日焦点 (2026年10月7日) 特朗普总统宣布66亿大型潜艇厂案',
+      '《VOA今日焦点》音频',
     ]) {
       expect(isNotNews(t), t).toBe(true);
     }
@@ -188,6 +194,8 @@ describe('isNotNews', () => {
       'Le café de la gare ferme ses portes après 80 ans',
       'Le journal de bord du skipper est en ligne depuis le 7 octobre',
       'Mobilisation lycéenne : une nouvelle manifestation à Caen le jeudi 8 octobre 2026',
+      'Hamas attack anniversary: Israel marks 7 October 2026',
+      '美议员促纽黑文大学终止与西安邮电大学合作，称该校与中国军方有关',
     ]) {
       expect(isNotNews(t), t).toBe(false);
     }
