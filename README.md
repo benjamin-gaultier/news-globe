@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers 154 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany, Spain, Italy or the United States and it splits into its regions (13 French regions, 16 German Länder, 17 Spanish autonomous communities, 20 Italian regions, the 50 US states and DC), each with its own headlines from regional and local outlets.
+It covers 175 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany, Spain, Italy or the United States and it splits into its regions (13 French regions, 16 German Länder, 17 Spanish autonomous communities, 20 Italian regions, the 50 US states and DC), each with its own headlines from regional and local outlets.
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -146,7 +146,7 @@ To update the Pi (e.g. after adding a country, which also needs a Worker redeplo
 | Step | What it does |
 | --- | --- |
 | **Fetch** | `HttpCache` ([http.ts](packages/ingest/src/http.ts)) sends `If-None-Match` / `If-Modified-Since` and keeps validators and **parsed items** in `data/.cache/http.json`. A feed requested less than 15 minutes ago is skipped, even on a manual `pnpm ingest`, and its cached items are reused. A 304 also reuses the cached items. A failed feed keeps serving its last good items, and its retry is throttled the same way. Every request in a run is stamped with the run's start time, and the check allows 5 s of slack, so cron jitter never makes a run skip a feed. |
-| **Parse** | `rss-parser`. The adapter keeps title, link, the feed's `<description>` (HTML stripped, ~300 chars) and the date. Images come from `media:content`, then `media:thumbnail`, then `enclosure`, then the first `<img>`. `content:encoded` (often the full article) is never read into the stored description. |
+| **Parse** | `rss-parser`. The adapter keeps title, link, the feed's `<description>` (HTML stripped, ~300 chars) and the date (a Google News sitemap gives title, link and date only). Images come from `media:content`, then `media:thumbnail`, then `enclosure`, then the first `<img>`. `content:encoded` (often the full article) is never read into the stored description. |
 | **Normalize** | Canonical URL: strip `utm_*`, `fbclid`, `gclid`, `xtor`, `at_*`, `smid` and similar, drop the fragment, lowercase the host, sort the remaining params. `id` is 12 chars of base64url SHA-256 of the canonical URL. Future dates are clamped to now; articles older than 48 h are dropped. |
 | **Dedupe** | Exact match on canonical URL. Outlets often list the same article in two section feeds. |
 | **Cluster** | Titles are folded (NFD, accents stripped, lowercase, punctuation removed) and FR+EN stopwords and live-blog boilerplate ("EN DIRECT", "LIVE") are dropped. Light suffix folding means *inscrites* ≡ *inscrits* and *lycées* ≡ *lycée*. The pipeline then computes pairwise token-set Jaccard within a country. A cross-outlet pair is a candidate link when similarity ≥ `clusterThreshold` (0.3) **and** the titles share ≥ 2 tokens; two articles from the same outlet are never linked directly. Links are applied strongest first with union-find, and two existing groups only merge if their **average** pairwise similarity is ≥ `clusterMinAverageLink` (0.2). That guard stops one bridging headline from chaining two stories together. |
@@ -2192,13 +2192,214 @@ Two outlets only, a few items a day. Not used: Isanganiro and Burundi Eco stale;
 
 Small feeds only. Not used: Lesotho Times malformed; The Post 403; Sunday Express 404.
 
+**Qatar** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Qatar Tribune | news sitemap | 8 | ✅ (en) |
+| Al Raya | news sitemap | 8 | ✅ (ar) |
+| Doha News | main feed | 6 | ✅ (en) |
+
+Qatar Tribune and Al Raya publish Google News sitemaps (titles and dates, no summaries) rather than RSS. Gulf Times sitemap stale since May; Peninsula and Al Sharq serve HTML; Lusail 403.
+
+**Kuwait** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Kuwait Times | news sitemap | 8 | ✅ (en) |
+| Arab Times | news sitemap | 7 | ✅ (en) |
+| Al Jarida | news sitemap | 8 | ✅ (ar) |
+| Times Kuwait | main feed | 6 | ✅ (en) |
+
+Kuwait Times, Arab Times and Al Jarida via news sitemaps. Al Rai and Al Qabas 404; KUNA unreachable.
+
+**Oman** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Oman Observer | news sitemap | 8 | ✅ (en) |
+| Oman Daily | news sitemap | 8 | ✅ (ar) |
+| Al Roya | main feed | 7 | ✅ (ar) |
+
+Oman Observer and Oman Daily via news sitemaps. Times of Oman has only plain sitemaps (no titles); Muscat Daily malformed; Atheer and ONA 403.
+
+**Trinidad and Tobago** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Trinidad Express | news sitemap | 8 | ✅ (en) |
+
+One outlet only, via its news sitemap. Newsday unreachable; Guardian 404; CNC3 403; TV6 429.
+
+**Angola** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Correio da Kianda | main feed | 7 | ✅ (pt) |
+| Expansão | main feed | 8 | ✅ (pt) |
+| Maka Angola | main feed | 7 | ✅ (low volume, pt) |
+
+Maka Angola posts a few investigations a week. Novo Jornal, Jornal de Angola, ANGOP, O País and Ver Angola serve HTML or malformed feeds; Angola24Horas and Club-K 403.
+
+**Botswana** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Sunday Standard | main feed | 8 | ✅ (weekly, en) |
+| Botswana Gazette | main feed | 7 | ✅ (en) |
+| Weekend Post | main feed | 7 | ✅ (weekly, en) |
+| The Voice | main feed | 6 | ✅ (en) |
+
+Small feeds; Sunday Standard and Weekend Post are weeklies. Mmegi news sitemap stale; Patriot 500; Daily News unreachable.
+
+**Papua New Guinea** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Post-Courier | main feed | 8 | ✅ (en) |
+| FM100 | main feed | 6 | ✅ (en) |
+
+Two outlets. The National 403 (its news sitemap is empty); EMTV serves no items to our User-Agent; Loop PNG unreachable.
+
+**Eswatini** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Times of Eswatini | main feed | 8 | ✅ (en) |
+
+One outlet only. Eswatini Observer and Eswatini Post unreachable; Eswatini Daily News stale.
+
+**Laos** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Lao Economic Daily | main feed | 7 | ✅ (Lao, lo) |
+| RFA Lao | main feed | 7 | ✅ (Lao, lo) |
+
+Both in Lao, split into words with Intl.Segmenter. Laotian Times now mostly carries press releases; Vientiane Times 404; KPL malformed.
+
+**Bhutan** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| BBS | main feed | 8 | ✅ (en) |
+| The Bhutanese | main feed | 7 | ✅ (en) |
+| The Bhutan Live | main feed | 6 | ✅ (en) |
+
+Small feeds. Kuensel 404.
+
+**Turkmenistan** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Azatlyk Radiosy | main feed | 7 | ✅ (RFE/RL, tk) |
+| Turkmen.news | main feed | 7 | ✅ (in exile, ru) |
+| Chronicles of Turkmenistan | main feed | 7 | ✅ (in exile, ru) |
+
+No independent press inside the country: Azatlyk (RFE/RL, in Turkmen) and two exile outlets in Russian, a few items a day each. Turkmenportal 403; Orient 404.
+
+**Niger** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Le Sahel | main feed | 7 | ✅ (state daily, fr) |
+| Tamtaminfo | main feed | 7 | ✅ (fr) |
+| Niger Inter | main feed | 6 | ✅ (fr) |
+| Aïr Info | main feed | 6 | ✅ (fr) |
+
+A few items a day or less each. ActuNiger and Niger Diaspora 404.
+
+**Guinea-Bissau** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Conosaba do Porto | main feed | 6 | ✅ (news blog, pt) |
+
+One outlet only, a news blog. O Democrata, Capital News and gbissau.com 404.
+
+**Equatorial Guinea** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Real Equatorial Guinea | main feed | 6 | ✅ (es) |
+| Diario Rombe | main feed | 6 | ✅ (in exile, low volume, es) |
+
+Two outlets; Diario Rombe works from exile and posts a few items a week. Ahora EG 403; Guinea Ecuatorial Press 404.
+
+**Eritrea** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Shabait | main feed | 7 | ✅ (state media, en) |
+
+State media only (the Information Ministry). Assenna and Madote unreachable; Eritrea Hub malformed.
+
+**Vanuatu** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Vanuatu Daily Post | news sitemap | 8 | ✅ (en) |
+
+One outlet only, via its news sitemap.
+
+**Greenland** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| KNR | main feed | 8 | ✅ (undated items, da) |
+
+One outlet only; its Danish feed has no dates. Sermitsiaq 404.
+
+**North Korea** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| NK News | main feed | 8 | ✅ (based in Seoul, en) |
+| Daily NK | main feed | 7 | ✅ (based in Seoul, en) |
+
+No reachable domestic media; both outlets report on the country from Seoul.
+
+**Malta** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Newsbook | main feed | 8 | ✅ (en) |
+| Lovin Malta | main feed | 7 | ✅ (en) |
+
+Two outlets; Newsbook through its English feed. Times of Malta 403; Malta Today 404; Malta Independent malformed; TVM serves no items.
+
+**Mauritius** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Defimedia | main feed | 8 | ✅ (fr) |
+| ION News | main feed | 7 | ✅ (fr) |
+| NewsMoris | main feed | 6 | ✅ (en) |
+
+L Express 403; Le Mauricien stale.
+
+**Maldives** (added 2026-10-07)
+
+| Outlet | Feeds | Authority | Status |
+| --- | --- | --- | --- |
+| Sun Online | main feed | 8 | ✅ (en) |
+| Atoll Times | main feed | 7 | ✅ (en) |
+
+English editions only: the Dhivehi feeds (Sun, PSM) would need their own tokenizer, since folding strips the vowel signs Thaana words are written with. Edition and Avas 404.
+
+Some outlets publish a Google News sitemap (`<urlset>` with `<news:news>` entries) instead of RSS. `parseFeed` recognises one by its namespace and reads each entry's `<loc>`, `<news:title>`, `<news:publication_date>` and `<image:loc>`; there is no summary. Plain sitemaps (URLs only, as Times of Oman's) are not used.
+
+Lao is split into words with `Intl.Segmenter('lo')`, as Khmer is, with Lao digits made ASCII and a short stopword list (*ແລະ* "and", *ໃນ* "in", *ຂອງ* "of", *ການ*, the country's name).
+
+Countries too small for the 110m map (Malta, Mauritius, the Maldives, Singapore) get a round marker 0.6° across at their `COUNTRIES` centre, so they can be hovered and clicked like any other country.
+
 Khmer is split into words with `Intl.Segmenter('km')`, as Thai is, after dropping the zero-width spaces some outlets put between words; vowel signs are kept and Khmer digits made ASCII. It gets a short stopword list (*និង* "and", *ក្នុង* "in", *ការ*, the country's name).
 
 Swahili, Kinyarwanda, Kyrgyz and Belarusian get short stopword lists: class-agreement particles (*ya*, *wa*, *za*), Kinyarwanda's elided *n'*, *z'*, *cy'*, and the country's own name, as for Somali. Kyrgyz also drops *млрд*, *сом* and *түздү* ("amounted to"): two different nine-month revenue stories had been joined on them.
 
 `isNotNews` also drops Honduran front-page items ("Portada Digital, Miércoles 07.10.2026"), The Global New Light of Myanmar's daily e-paper entry (a bare "7 October 2026"), and VOA Chinese's broadcast episodes ("美国之音中文广播 (2026年10月7日) …").
 
-Not added yet, for lack of usable feeds: Kuwait, Qatar and Oman (feeds serve HTML, 403 or 404; Doha News posts a few items a day), Botswana, Mauritius and Trinidad and Tobago (one usable feed each), Turkmenistan (Azathabar, Hronika and Turkmen.news each post a few items a day), Laos (Laotian Times only), Bahrain (feeds 404), Malta (Newsbook and Lovin Malta; Times of Malta unreachable), Angola (one or two small feeds), Niger (Le Sahel, Niger Inter and Tamtaminfo post a few items a day or less; ActuNiger 404), the Maldives (Sun and PSM, in Dhivehi), Brunei, Bhutan (one slow feed), Papua New Guinea (Post-Courier only), and North Korea (NK News and Daily NK, both based abroad).
+Not added yet, for lack of usable feeds: Bahrain (feeds 404 or malformed, and no news sitemap found) and Brunei (Borneo Bulletin and Media Permata 403; The Bruneian carries press releases).
 
 **Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 

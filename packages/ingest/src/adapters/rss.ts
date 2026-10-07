@@ -113,8 +113,39 @@ function absoluteHttpUrl(value: string | undefined, base: string): string | null
   }
 }
 
-/** Parse a feed body into metadata-only items. Exported for tests. */
+/** Text of the first `<tag>` in `xml`, CDATA unwrapped. */
+function tagText(xml: string, tag: string): string | undefined {
+  const m = new RegExp(`<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)</${tag}>`).exec(xml);
+  return m?.[1]?.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').trim();
+}
+
+/**
+ * Google News sitemap (`<urlset>` with `<news:news>` entries), which some
+ * outlets publish instead of RSS (Kuwait Times, Arab Times). Entries have a
+ * title and publication date but no summary.
+ */
+export function parseNewsSitemap(body: string, feedUrl: string): RawItem[] {
+  const items: RawItem[] = [];
+  for (const [, entry = ''] of body.matchAll(/<url>([\s\S]*?)<\/url>/g)) {
+    const url = absoluteHttpUrl(tagText(entry, 'loc'), feedUrl);
+    const title = cleanTitle(tagText(entry, 'news:title') ?? '');
+    if (!url || !title) continue;
+    const t = Date.parse(tagText(entry, 'news:publication_date') ?? '');
+    const image = tagText(entry, 'image:loc');
+    items.push({
+      title,
+      url,
+      description: null,
+      publishedAt: Number.isNaN(t) ? null : new Date(t).toISOString(),
+      imageUrl: image ? absoluteHttpUrl(image, url) : null,
+    });
+  }
+  return items;
+}
+
+/** Parse a feed body (RSS, Atom or a news sitemap) into metadata-only items. Exported for tests. */
 export async function parseFeed(body: string, feedUrl: string): Promise<RawItem[]> {
+  if (/<urlset[^>]*sitemap-news/.test(body.slice(0, 2000))) return parseNewsSitemap(body, feedUrl);
   const feed = await parseFeedXml(body);
   const items: RawItem[] = [];
   for (const item of feed.items as ParsedItem[]) {

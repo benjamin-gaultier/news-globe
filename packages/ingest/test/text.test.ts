@@ -260,6 +260,9 @@ describe('titleTokens: Korean, Thai, Bengali and Khmer', () => {
     expect(a).toEqual(new Set(['កំពុង', 'ជំរុញ', 'វិស័យ', 'អប់រំ']));
     expect(b).toEqual(a);
   });
+  it('segments Lao and drops its function words', () => {
+    expect(titleTokens('ການພັດທະນາຂອງລາວ ໃນປີ ໒໐໒໖ ເສດຖະກິດ', 'lo')).toEqual(new Set(['ພັດທະນາ', 'ເສດຖະກິດ']));
+  });
   it('drops Tetum function words and the country name', () => {
     expect(titleTokens("Komisaun G rona preokupasaun kona-ba pagamentu ne'e iha Timor-Leste", 'tet')).toEqual(
       new Set(['komisaun', 'rona', 'preokupasaun', 'pagamentu']),
