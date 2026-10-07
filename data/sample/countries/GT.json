@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GT",
   "countryName": "Guatemala",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "j94fzl-PXkeh",
@@ -208,30 +208,6 @@
       "latestPublishedAt": "2026-10-06T13:39:21.000Z"
     },
     {
-      "id": "kWMu6YAXKyt4",
-      "representative": {
-        "id": "kWMu6YAXKyt4",
-        "url": "https://www.prensalibre.com/guatemala/justicia/rescatan-a-piloto-y-capturan-a-dos-hombres-por-robo-de-cisterna-con-6-mil-galones-de-combustible-breaking/",
-        "canonicalUrl": "https://www.prensalibre.com/guatemala/justicia/rescatan-a-piloto-y-capturan-a-dos-hombres-por-robo-de-cisterna-con-6-mil-galones-de-combustible-breaking/",
-        "title": "Rescatan a piloto y capturan a dos hombres por robo de cisterna con 6 mil galones de combustible",
-        "description": "En Escuintla, la PNC capturó a dos hombres señalados de robar combustible valorado en Q230 mil.",
-        "source": {
-          "id": "prensalibre",
-          "name": "Prensa Libre"
-        },
-        "sourceCountry": "GT",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:33:24.000Z",
-        "imageUrl": null,
-        "countryCode": "GT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:33:24.000Z"
-    },
-    {
       "id": "ED0LghRX6jNF",
       "representative": {
         "id": "ED0LghRX6jNF",
@@ -254,30 +230,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:19:12.000Z"
-    },
-    {
-      "id": "b2NGdbdwbGKP",
-      "representative": {
-        "id": "b2NGdbdwbGKP",
-        "url": "https://lahora.gt/secciones-para-ti/deportes/jcortega/2026/10/06/guatemala-lider-tras-su-agonica-victoria-asi-quedaron-las-tablas-de-posiciones-de-la-liga-de-naciones-de-concacaf/",
-        "canonicalUrl": "https://lahora.gt/secciones-para-ti/deportes/jcortega/2026/10/06/guatemala-lider-tras-su-agonica-victoria-asi-quedaron-las-tablas-de-posiciones-de-la-liga-de-naciones-de-concacaf/",
-        "title": "Guatemala, líder tras su agónica victoria: Así quedaron las tablas de posiciones de la Liga de Naciones de Concacaf",
-        "description": "La Selección de Guatemala, gracias a un gol de Matt Evans al minuto 90+6, venció 1-0 a Surinam en la última jornada de la fase de grupos de la Liga de Naciones de Concacaf. Con este triunfo, la Bicolor, dirigida por el mexicano Luis Fernando Tena, obtuvo el primer lugar del Grupo B y clasificó […]…",
-        "source": {
-          "id": "lahora_gt",
-          "name": "La Hora"
-        },
-        "sourceCountry": "GT",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:08:31.000Z",
-        "imageUrl": null,
-        "countryCode": "GT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:08:31.000Z"
     },
     {
       "id": "29iygFnoVk5Q",
@@ -304,6 +256,126 @@
       "latestPublishedAt": "2026-10-06T13:02:51.000Z"
     },
     {
+      "id": "daSCnmgRzO3I",
+      "representative": {
+        "id": "daSCnmgRzO3I",
+        "url": "https://republica.com/politica/bolsonaro-esta-de-vuelta-las-claves-de-su-victoria-200010516300",
+        "canonicalUrl": "https://republica.com/politica/bolsonaro-esta-de-vuelta-las-claves-de-su-victoria-200010516300",
+        "title": "Bolsonaro está de vuelta: las claves de su victoria",
+        "description": "Bolsonaro Jr. salió de las cuerdas, ganó la primera vuelta y ahora está a tres semanas de devolver el apellido Bolsonaro al Palácio do Planalto.",
+        "source": {
+          "id": "republica_gt",
+          "name": "República"
+        },
+        "sourceCountry": "GT",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:16:00.000Z",
+        "imageUrl": null,
+        "countryCode": "GT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:16:00.000Z"
+    },
+    {
+      "id": "-RCw2lzRXiYK",
+      "representative": {
+        "id": "-RCw2lzRXiYK",
+        "url": "https://republica.com/internacional/rubio-mueve-ficha-en-la-disputa-por-el-artico-20261051040",
+        "canonicalUrl": "https://republica.com/internacional/rubio-mueve-ficha-en-la-disputa-por-el-artico-20261051040",
+        "title": "Rubio mueve ficha en la disputa por el Ártico",
+        "description": "El secretario de Estado visita Islandia tras el pacto con Groenlandia y Dinamarca para ampliar la cooperación en seguridad",
+        "source": {
+          "id": "republica_gt",
+          "name": "República"
+        },
+        "sourceCountry": "GT",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:12:00.000Z",
+        "imageUrl": null,
+        "countryCode": "GT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:12:00.000Z"
+    },
+    {
+      "id": "-dG2ZajNAzMs",
+      "representative": {
+        "id": "-dG2ZajNAzMs",
+        "url": "https://republica.com/internacional/florida-sienta-a-pfizer-en-el-banquillo-202610517490",
+        "canonicalUrl": "https://republica.com/internacional/florida-sienta-a-pfizer-en-el-banquillo-202610517490",
+        "title": "Florida sienta a Pfizer en el banquillo",
+        "description": "Uthmeier demandó a Pfizer y a Bourla por ocultar riesgos y afirmar que la vacuna frenaba el contagio. La empresa rechaza la acusación",
+        "source": {
+          "id": "republica_gt",
+          "name": "República"
+        },
+        "sourceCountry": "GT",
+        "language": "es",
+        "publishedAt": "2026-10-06T07:58:00.000Z",
+        "imageUrl": null,
+        "countryCode": "GT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T07:58:00.000Z"
+    },
+    {
+      "id": "kWMu6YAXKyt4",
+      "representative": {
+        "id": "kWMu6YAXKyt4",
+        "url": "https://www.prensalibre.com/guatemala/justicia/rescatan-a-piloto-y-capturan-a-dos-hombres-por-robo-de-cisterna-con-6-mil-galones-de-combustible-breaking/",
+        "canonicalUrl": "https://www.prensalibre.com/guatemala/justicia/rescatan-a-piloto-y-capturan-a-dos-hombres-por-robo-de-cisterna-con-6-mil-galones-de-combustible-breaking/",
+        "title": "Rescatan a piloto y capturan a dos hombres por robo de cisterna con 6 mil galones de combustible",
+        "description": "En Escuintla, la PNC capturó a dos hombres señalados de robar combustible valorado en Q230 mil.",
+        "source": {
+          "id": "prensalibre",
+          "name": "Prensa Libre"
+        },
+        "sourceCountry": "GT",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:33:24.000Z",
+        "imageUrl": null,
+        "countryCode": "GT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:33:24.000Z"
+    },
+    {
+      "id": "b2NGdbdwbGKP",
+      "representative": {
+        "id": "b2NGdbdwbGKP",
+        "url": "https://lahora.gt/secciones-para-ti/deportes/jcortega/2026/10/06/guatemala-lider-tras-su-agonica-victoria-asi-quedaron-las-tablas-de-posiciones-de-la-liga-de-naciones-de-concacaf/",
+        "canonicalUrl": "https://lahora.gt/secciones-para-ti/deportes/jcortega/2026/10/06/guatemala-lider-tras-su-agonica-victoria-asi-quedaron-las-tablas-de-posiciones-de-la-liga-de-naciones-de-concacaf/",
+        "title": "Guatemala, líder tras su agónica victoria: Así quedaron las tablas de posiciones de la Liga de Naciones de Concacaf",
+        "description": "La Selección de Guatemala, gracias a un gol de Matt Evans al minuto 90+6, venció 1-0 a Surinam en la última jornada de la fase de grupos de la Liga de Naciones de Concacaf. Con este triunfo, la Bicolor, dirigida por el mexicano Luis Fernando Tena, obtuvo el primer lugar del Grupo B y clasificó […]…",
+        "source": {
+          "id": "lahora_gt",
+          "name": "La Hora"
+        },
+        "sourceCountry": "GT",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:08:31.000Z",
+        "imageUrl": null,
+        "countryCode": "GT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:08:31.000Z"
+    },
+    {
       "id": "xrOSugJHl3j_",
       "representative": {
         "id": "xrOSugJHl3j_",
@@ -326,96 +398,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:02:45.000Z"
-    },
-    {
-      "id": "bD4BmJuNCIfW",
-      "representative": {
-        "id": "bD4BmJuNCIfW",
-        "url": "https://lahora.gt/nacionales/jmaldonado/2026/10/06/aprueban-convocatoria-para-aspirantes-a-relator-contra-la-tortura-y-otros-tratos-inhumanos-now/",
-        "canonicalUrl": "https://lahora.gt/nacionales/jmaldonado/2026/10/06/aprueban-convocatoria-para-aspirantes-a-relator-contra-la-tortura-y-otros-tratos-inhumanos-now/",
-        "title": "Aprueban convocatoria para aspirantes a relator contra la Tortura y otros tratos inhumanos",
-        "description": "La Comisión de Derechos Humanos del Congreso de la República aprobó la convocatoria e instalación de la comisión de postulación para interesados a ocupar un espacio en la Oficina Nacional de Prevención de la Tortura (OPT). La Oficina contra la Tortura está integrada por tres relatores titulares y…",
-        "source": {
-          "id": "lahora_gt",
-          "name": "La Hora"
-        },
-        "sourceCountry": "GT",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:00:28.000Z",
-        "imageUrl": null,
-        "countryCode": "GT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:00:28.000Z"
-    },
-    {
-      "id": "q0z1R4-iUalG",
-      "representative": {
-        "id": "q0z1R4-iUalG",
-        "url": "https://www.prensalibre.com/economia/todavia-se-tiene-que-pagar-el-iusi-esto-cambia-con-las-nuevas-tasas-del-decreto-18-2026-y-a-partir-de-cuando/",
-        "canonicalUrl": "https://www.prensalibre.com/economia/todavia-se-tiene-que-pagar-el-iusi-esto-cambia-con-las-nuevas-tasas-del-decreto-18-2026-y-a-partir-de-cuando/",
-        "title": "¿Todavía se tiene que pagar el IUSI? Esto cambia con las nuevas tasas del Decreto 18-2026 y a partir de cuándo",
-        "description": "Las reformas al IUSI establecen nuevas tasas para los bienes inmuebles en Guatemala, pero su aplicación no es inmediata. Conozca hasta cuándo debe pagarse el impuesto, qué propiedades tendrán tasa cero y desde cuándo regirán los cambios.",
-        "source": {
-          "id": "prensalibre",
-          "name": "Prensa Libre"
-        },
-        "sourceCountry": "GT",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:00:00.000Z",
-        "imageUrl": null,
-        "countryCode": "GT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:00:00.000Z"
-    },
-    {
-      "id": "lGzzDr-vkRXM",
-      "representative": {
-        "id": "lGzzDr-vkRXM",
-        "url": "https://www.prensalibre.com/guatemala/politica/congreso-programa-esta-semana-la-eleccion-del-contralor-general-de-cuentas/",
-        "canonicalUrl": "https://www.prensalibre.com/guatemala/politica/congreso-programa-esta-semana-la-eleccion-del-contralor-general-de-cuentas/",
-        "title": "Congreso programa esta semana la elección del contralor general de Cuentas",
-        "description": "Observadores dudan de la manera en que diputados harán el nombramiento, por negociaciones políticas y reuniones secretas de candidatos con las bancadas.",
-        "source": {
-          "id": "prensalibre",
-          "name": "Prensa Libre"
-        },
-        "sourceCountry": "GT",
-        "language": "es",
-        "publishedAt": "2026-10-05T21:39:18.000Z",
-        "imageUrl": null,
-        "countryCode": "GT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "BiNrM_ScDib5",
-          "url": "https://republica.com/politica/81-votos-definiran-al-nuevo-contralor-general-de-cuentas-200010518350",
-          "canonicalUrl": "https://republica.com/politica/81-votos-definiran-al-nuevo-contralor-general-de-cuentas-200010518350",
-          "title": "81 votos definirán al nuevo Contralor General de Cuentas",
-          "description": "Las bancadas negocian los 81 votos para elegir al contralor, mientras el Congreso mantiene pendientes otros asuntos, como el veto al subsidio.",
-          "source": {
-            "id": "republica_gt",
-            "name": "República"
-          },
-          "sourceCountry": "GT",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:20:22.000Z",
-          "imageUrl": null,
-          "countryCode": "GT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:20:22.000Z"
     }
   ]
 }

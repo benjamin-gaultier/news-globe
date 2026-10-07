@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BA",
   "countryName": "Bosnia and Herzegovina",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "D8ZDH3Yhi5SM",
@@ -370,30 +370,6 @@
       "latestPublishedAt": "2026-10-06T15:50:11.000Z"
     },
     {
-      "id": "iIg5yGF1_JZH",
-      "representative": {
-        "id": "iIg5yGF1_JZH",
-        "url": "https://avaz.ba/vijesti/globus/1078048/huti-poslali-upozorenje-svjetskim-avio-kompanijama-ovo-nikako-ne-smiju-da-rade",
-        "canonicalUrl": "https://avaz.ba/vijesti/globus/1078048/huti-poslali-upozorenje-svjetskim-avio-kompanijama-ovo-nikako-ne-smiju-da-rade",
-        "title": "Huti poslali upozorenje svjetskim avio-kompanijama: Ovo nikako ne smiju da rade",
-        "description": "Huti poslali upozorenje svjetskim avio-kompanijama: Ovo nikako ne smiju da rade - Upozorenje su prenijeli mediji bliski Hutima",
-        "source": {
-          "id": "avaz",
-          "name": "Dnevni avaz"
-        },
-        "sourceCountry": "BA",
-        "language": "bs",
-        "publishedAt": "2026-10-06T15:47:34.000Z",
-        "imageUrl": "https://gale-s3-bucket.s3.eu-central-1.amazonaws.com/bc7f84c3-f2b3-4a7f-8dd3-705e01b6c7fe.jpeg",
-        "countryCode": "BA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:47:34.000Z"
-    },
-    {
       "id": "hJ4gApFdNl8t",
       "representative": {
         "id": "hJ4gApFdNl8t",
@@ -442,30 +418,6 @@
       "latestPublishedAt": "2026-10-06T15:46:24.000Z"
     },
     {
-      "id": "DIy8NvKy0OTy",
-      "representative": {
-        "id": "DIy8NvKy0OTy",
-        "url": "https://avaz.ba/vijesti/bih/1078047/direktor-civilne-zastite-se-pocastio-automobilom-od-165-000-km",
-        "canonicalUrl": "https://avaz.ba/vijesti/bih/1078047/direktor-civilne-zastite-se-pocastio-automobilom-od-165-000-km",
-        "title": "Direktor Civilne zaštite se počastio automobilom od 165.000 KM",
-        "description": "Direktor Civilne zaštite se počastio automobilom od 165.000 KM - S obzirom na to da je ugovor zaključen 25. septembra, direktor se najvjerovatnije već vozi u novom automobilu",
-        "source": {
-          "id": "avaz",
-          "name": "Dnevni avaz"
-        },
-        "sourceCountry": "BA",
-        "language": "bs",
-        "publishedAt": "2026-10-06T15:45:46.000Z",
-        "imageUrl": "https://gale-s3-bucket.s3.eu-central-1.amazonaws.com/8b014a97-20b3-444c-8886-34c0c88f542a.jpeg",
-        "countryCode": "BA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:45:46.000Z"
-    },
-    {
       "id": "pU4l1BWuzxMr",
       "representative": {
         "id": "pU4l1BWuzxMr",
@@ -488,6 +440,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:42:00.000Z"
+    },
+    {
+      "id": "25qp9229g_OW",
+      "representative": {
+        "id": "25qp9229g_OW",
+        "url": "https://radiosarajevo.ba/vijesti/svijet/izazov-30-dana-pricanja-bosanskog-jezika/655776",
+        "canonicalUrl": "https://radiosarajevo.ba/vijesti/svijet/izazov-30-dana-pricanja-bosanskog-jezika/655776",
+        "title": "Mladi iz dijaspore pokrenuli izazov '30 dana pričanja bosanskog jezika': Pogledajte kako se snalaze",
+        "description": null,
+        "source": {
+          "id": "radiosarajevo",
+          "name": "Radio Sarajevo"
+        },
+        "sourceCountry": "BA",
+        "language": "bs",
+        "publishedAt": "2026-10-06T15:32:00.000Z",
+        "imageUrl": null,
+        "countryCode": "BA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:32:00.000Z"
+    },
+    {
+      "id": "8mgzqaI58HAR",
+      "representative": {
+        "id": "8mgzqaI58HAR",
+        "url": "https://www.klix.ba/vijesti/svijet/bojim-se-ali-zelim-uciti-desetogodisnjakinja-svaki-dan-rizikuje-zivot-odlazeci-u-skolu-u-jemenu/261006109",
+        "canonicalUrl": "https://www.klix.ba/vijesti/svijet/bojim-se-ali-zelim-uciti-desetogodisnjakinja-svaki-dan-rizikuje-zivot-odlazeci-u-skolu-u-jemenu/261006109",
+        "title": "\"Bojim se, ali želim učiti\": Desetogodišnjakinja svaki dan rizikuje život odlazeći u školu u Jemenu",
+        "description": "Svako jutro u šest sati, desetogodišnja Rafeef i njen mlađi brat oblače svoje smeđe uniforme i spremaju se za školu u Jemenu.",
+        "source": {
+          "id": "klix",
+          "name": "Klix.ba"
+        },
+        "sourceCountry": "BA",
+        "language": "bs",
+        "publishedAt": "2026-10-06T15:31:00.000Z",
+        "imageUrl": "https://static.klix.ba/media/images/vijesti/img32_261006109.jpg",
+        "countryCode": "BA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:31:00.000Z"
     }
   ]
 }

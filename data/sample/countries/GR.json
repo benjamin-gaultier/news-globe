@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GR",
   "countryName": "Greece",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "TJ_IRSphmbW1",
@@ -237,7 +237,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 6,
+      "outletCount24h": 5,
       "outletCount": 6,
       "latestPublishedAt": "2026-10-06T13:34:34.000Z"
     },
@@ -840,48 +840,6 @@
       "latestPublishedAt": "2026-10-06T13:18:44.000Z"
     },
     {
-      "id": "trdmYkQaKvnf",
-      "representative": {
-        "id": "trdmYkQaKvnf",
-        "url": "https://www.kathimerini.gr/society/dikastiko/564503932/tempi-i-antidrasi-tis-proedroy-se-erotisi-tis-zois-konstantopoyloy-gia-tin-paraitisi-karamanli/",
-        "canonicalUrl": "https://www.kathimerini.gr/society/dikastiko/564503932/tempi-i-antidrasi-tis-proedroy-se-erotisi-tis-zois-konstantopoyloy-gia-tin-paraitisi-karamanli/",
-        "title": "Δίκη Τεμπών: Η ερώτηση της Κωνσταντοπούλου για τον Καραμανλή και η αντίδραση της προέδρου",
-        "description": "«Εσείς μάθατε γιατί πραγματικά παραιτήθηκε ο κ. Καραμανλής;» ήταν η ερώτηση της Κωνσταντοπούλου σε μάρτυρα, με την πρόεδρο να παρεμβαίνει λέγοντας: «Τη βρίσκω εκτός θέματος την ερώτηση για την παραίτηση του κ. Καραμανλή».",
-        "source": {
-          "id": "kathimerini",
-          "name": "Kathimerini"
-        },
-        "sourceCountry": "GR",
-        "language": "el",
-        "publishedAt": "2026-10-06T13:17:06.000Z",
-        "imageUrl": "https://www.kathimerini.gr/wp-content/uploads/2026/10/5368237-scaled-1.jpg",
-        "countryCode": "GR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "3H8hzs6r9Wfj",
-          "url": "https://www.efsyn.gr/ellada/1482260/tempi-entasi-me-konstantopoyloy-kai-proedro-dikastirioy-aporrifthike-i-erotisi-gia-tin-pragmatiki-paraitisi-karamanli/",
-          "canonicalUrl": "https://www.efsyn.gr/ellada/1482260/tempi-entasi-me-konstantopoyloy-kai-proedro-dikastirioy-aporrifthike-i-erotisi-gia-tin-pragmatiki-paraitisi-karamanli/",
-          "title": "Δίκη Τεμπών: Η ερώτηση Κωνσταντοπούλου για τον Καραμανλή και η ένταση με την πρόεδρο του δικαστηρίου",
-          "description": "«Η ερώτηση δεν αποτελεί αντικείμενο της δίκης», απάντησε η πρόεδρος του δικαστηρίου.",
-          "source": {
-            "id": "efsyn",
-            "name": "Efimerida ton Syntakton"
-          },
-          "sourceCountry": "GR",
-          "language": "el",
-          "publishedAt": "2026-10-06T12:03:29.000Z",
-          "imageUrl": null,
-          "countryCode": "GR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:17:06.000Z"
-    },
-    {
       "id": "JesQtPSTMF9U",
       "representative": {
         "id": "JesQtPSTMF9U",
@@ -922,6 +880,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:55:37.000Z"
+    },
+    {
+      "id": "b-PUoo_XRLCt",
+      "representative": {
+        "id": "b-PUoo_XRLCt",
+        "url": "https://www.protothema.gr/world/article/1890461/perissoteroi-apo-270-nekroi-stis-taxeis-ton-kuvernitikon-dunameon-kai-ton-houthi-tis-teleutaies-24-ores-stin-uemeni/?utm_source=rss",
+        "canonicalUrl": "https://www.protothema.gr/world/article/1890461/perissoteroi-apo-270-nekroi-stis-taxeis-ton-kuvernitikon-dunameon-kai-ton-houthi-tis-teleutaies-24-ores-stin-uemeni/",
+        "title": "Περισσότεροι από 270 νεκροί στις τάξεις των κυβερνητικών δυνάμεων και των Χούθι τις τελευταίες 24 ώρες στην Υεμένη",
+        "description": "Πηγές στην υποστηριζόμενη από το Ριάντ κυβέρνηση δήλωσαν ότι 115 μέλη των δυνάμεών της σκοτώθηκαν και δεκάδες άλλα τραυματίστηκαν ενώ στρατιωτικές πηγές των Χούθι δήλωσαν ότι σκοτώθηκαν πάνω από 160 μαχητές τους",
+        "source": {
+          "id": "protothema",
+          "name": "Proto Thema"
+        },
+        "sourceCountry": "GR",
+        "language": "el",
+        "publishedAt": "2026-10-06T12:44:12.000Z",
+        "imageUrl": "https://i1.prth.gr/images/w640/2/jpg/files/2026-09-15/houthi.jpg",
+        "countryCode": "GR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Te5xsY281mit",
+          "url": "https://www.naftemporiki.gr/kosmos/2171370/yemeni-perissoteroi-apo-270-nekroi-stis-taxeis-ton-kyvernitikon-dynameon-kai-ton-choythi-to-teleytaio-24oro/?utm_source=rss&utm_medium=rss&utm_campaign=yemeni-perissoteroi-apo-270-nekroi-stis-taxeis-ton-kyvernitikon-dynameon-kai-ton-choythi-to-teleytaio-24oro",
+          "canonicalUrl": "https://www.naftemporiki.gr/kosmos/2171370/yemeni-perissoteroi-apo-270-nekroi-stis-taxeis-ton-kyvernitikon-dynameon-kai-ton-choythi-to-teleytaio-24oro/",
+          "title": "Υεμένη: Περισσότεροι από 270 νεκροί στις τάξεις των κυβερνητικών δυνάμεων και των Χούθι το τελευταίο 24ωρο",
+          "description": "Περισσότερα από 270 μέλη των κυβερνητικών δυνάμεων και των μαχητών Χούθι σκοτώθηκαν τις τελευταίες 24 ώρες σε διάφορα μέτωπα στην Υεμένη, δήλωσαν σήμερα στο Γαλλικό Πρακτορείο πηγές από τα δύο… Υεμένη: Περισσότεροι από 270 νεκροί στις τάξεις των κυβερνητικών δυνάμεων και των Χούθι το τελευταίο…",
+          "source": {
+            "id": "naftemporiki",
+            "name": "Naftemporiki"
+          },
+          "sourceCountry": "GR",
+          "language": "el",
+          "publishedAt": "2026-10-06T12:42:46.000Z",
+          "imageUrl": null,
+          "countryCode": "GR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:44:12.000Z"
     }
   ]
 }

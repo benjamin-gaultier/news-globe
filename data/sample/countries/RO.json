@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "RO",
   "countryName": "Romania",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "E0e1brKSRudK",
@@ -441,30 +441,6 @@
       "latestPublishedAt": "2026-10-06T13:40:10.000Z"
     },
     {
-      "id": "Wvq0S-yGg11o",
-      "representative": {
-        "id": "Wvq0S-yGg11o",
-        "url": "https://www.g4media.ro/romania-in-cadere-libera-in-clasamentul-fifa-uzbekistan-si-burkina-faso-printre-vecinele-de-ierarhie.html",
-        "canonicalUrl": "https://www.g4media.ro/romania-in-cadere-libera-in-clasamentul-fifa-uzbekistan-si-burkina-faso-printre-vecinele-de-ierarhie.html",
-        "title": "România, în cădere liberă în clasamentul FIFA: Uzbekistan și Burkina Faso, printre „vecinele” de ierarhie",
-        "description": "După patru înfrângeri consecutive în Liga Națiunilor, naționala de fotbal a României a coborât șase locuri în clasamentul FIFA. Echipa antrenată de Gheorghe Hagi se află în ierarhia live pe locul 58. Cu 1428,88 de puncte, România a coborât șase locuri față de ultima ierarhie dată publicității…",
-        "source": {
-          "id": "g4media",
-          "name": "G4Media"
-        },
-        "sourceCountry": "RO",
-        "language": "ro",
-        "publishedAt": "2026-10-06T13:37:39.000Z",
-        "imageUrl": "https://www.g4media.ro//wp-content/uploads/2025/10/profimedia-1044493616.jpg",
-        "countryCode": "RO",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:37:39.000Z"
-    },
-    {
       "id": "RO5Lid8AdXqO",
       "representative": {
         "id": "RO5Lid8AdXqO",
@@ -487,6 +463,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:37:20.000Z"
+    },
+    {
+      "id": "PP6PEBohwIZN",
+      "representative": {
+        "id": "PP6PEBohwIZN",
+        "url": "https://www.digi24.ro/stiri/actualitate/justitie/dosar-de-mita-la-frontiera-cu-ucraina-noua-politisti-de-frontiera-si-vamesi-de-la-halmeu-au-fost-retinuti-alti-38-sunt-cercetati-3980887",
+        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/justitie/dosar-de-mita-la-frontiera-cu-ucraina-noua-politisti-de-frontiera-si-vamesi-de-la-halmeu-au-fost-retinuti-alti-38-sunt-cercetati-3980887",
+        "title": "Dosar de mită la frontiera cu Ucraina: nouă polițiști de frontieră și vameși de la Halmeu au fost reținuți. Alți 38 sunt cercetați",
+        "description": "Nouă polițiști de frontieră și funcționari vamali de la Punctul de Trecere a Frontierei Halmeu au fost reținuți de procurorii DNA, care îi acuză că ar fi făcut parte dintr-un grup organizat pentru colectarea unor sume de bani de la șoferii care intrau în România dinspre Ucraina. Printre cei…",
+        "source": {
+          "id": "digi24",
+          "name": "Digi24"
+        },
+        "sourceCountry": "RO",
+        "language": "ro",
+        "publishedAt": "2026-10-06T13:36:54.000Z",
+        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjUl/MkYxMiUyRjA4JTJGMjQ4NDc4NV8yNDg0/Nzg1X2NhdHVzZS1tYWluaS1pbi1jYXR1/c2UtaW5jYXR1c2F0LUdldHR5SW1hZ2Vz/LTYxMTYzMTA3MC5qcGcmaGFzaD1lYmM2/NWUyMjgzMzIyNDlhOTE4YzQ3MWEyYmRjYWQwYw==.jpg",
+        "countryCode": "RO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:36:54.000Z"
     }
   ]
 }

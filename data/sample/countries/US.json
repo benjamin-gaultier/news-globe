@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "US",
   "countryName": "United States",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "_fJTph3p43x_",
@@ -184,54 +184,6 @@
       "latestPublishedAt": "2026-10-06T11:50:15.000Z"
     },
     {
-      "id": "kiwfN_dcsISh",
-      "representative": {
-        "id": "kiwfN_dcsISh",
-        "url": "https://www.nytimes.com/2026/10/06/us/politics/alaska-fish-midterms.html",
-        "canonicalUrl": "https://www.nytimes.com/2026/10/06/us/politics/alaska-fish-midterms.html",
-        "title": "How Alaska’s Fish Became a Defining Issue for the Midterms",
-        "description": "In the battle for an Alaska Senate seat and the governor’s mansion, the oil-dependent state’s declining fisheries loom large, but no one wants to look at the biggest culprit, climate change.",
-        "source": {
-          "id": "nyt",
-          "name": "The New York Times"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T11:49:37.000Z",
-        "imageUrl": null,
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:49:37.000Z"
-    },
-    {
-      "id": "8ZFg-pCLTb3k",
-      "representative": {
-        "id": "8ZFg-pCLTb3k",
-        "url": "https://www.nytimes.com/2026/10/06/us/democratic-effort-aims-to-keep-2028-hopefuls-focused-on-general-election.html",
-        "canonicalUrl": "https://www.nytimes.com/2026/10/06/us/democratic-effort-aims-to-keep-2028-hopefuls-focused-on-general-election.html",
-        "title": "Democratic Effort Aims to Keep 2028 Hopefuls Focused on General Election",
-        "description": "A new polling project called Project 270 will work to focus candidates on voters’ interests in presidential battleground states.",
-        "source": {
-          "id": "nyt",
-          "name": "The New York Times"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T11:48:29.000Z",
-        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06midterms-dems-2028-polling1-bgvp/06midterms-dems-2028-polling1-bgvp-mediumSquareAt3X.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:48:29.000Z"
-    },
-    {
       "id": "NzHh-bg3s1au",
       "representative": {
         "id": "NzHh-bg3s1au",
@@ -254,48 +206,6 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:45:00.000Z"
-    },
-    {
-      "id": "BBxxZB0Zjndl",
-      "representative": {
-        "id": "BBxxZB0Zjndl",
-        "url": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
-        "canonicalUrl": "https://www.nytimes.com/2026/10/06/world/asia/trump-los-angeles-san-diego-iran.html",
-        "title": "Fury in California After Trump Suggests Iran Could ‘Take Out’ L.A. or San Diego",
-        "description": "Gov. Gavin Newsom called the president “dangerous and deranged” after his remarks at a political rally, where Mr. Trump said the Iran war was necessary to “keep the world safe.”",
-        "source": {
-          "id": "nyt",
-          "name": "The New York Times"
-        },
-        "sourceCountry": "US",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:11:57.000Z",
-        "imageUrl": "https://static01.nyt.com/images/2026/10/06/multimedia/06xp-trump-strikes-mflg/06xp-trump-strikes-mflg-mediumSquareAt3X.jpg",
-        "countryCode": "US",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Bg3pe2MmoDlY",
-          "url": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
-          "canonicalUrl": "https://www.cbsnews.com/news/trump-suggests-allowing-iran-take-out-la-and-san-diego-during-campaign-rally/",
-          "title": "Trump suggests letting Iran \"take out\" LA, San Diego during rally",
-          "description": "Gov. Gavin Newsom called President Trump \"deranged and dangerous\" after he suggested letting Iran \"take out\" Los Angeles and San Diego.",
-          "source": {
-            "id": "cbs",
-            "name": "CBS News"
-          },
-          "sourceCountry": "US",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:30:32.000Z",
-          "imageUrl": null,
-          "countryCode": "US",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 0,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:30:32.000Z"
     },
     {
       "id": "4TEE2-rsymGA",
@@ -370,44 +280,44 @@
       "latestPublishedAt": "2026-10-06T11:00:00.000Z"
     },
     {
-      "id": "1mAeRPsHhMsS",
+      "id": "nyMpJyi7A9kP",
       "representative": {
-        "id": "1mAeRPsHhMsS",
-        "url": "https://www.npr.org/2026/10/06/nx-s1-5991678/with-4-weeks-to-go-a-look-at-where-novembers-big-races-stand",
-        "canonicalUrl": "https://www.npr.org/2026/10/06/nx-s1-5991678/with-4-weeks-to-go-a-look-at-where-novembers-big-races-stand",
-        "title": "With 4 weeks to go, a look at where November's big races stand",
-        "description": "Election Day is four weeks away and people are already voting in the 2026 midterms. Where do things stand in the big races across the country?",
+        "id": "nyMpJyi7A9kP",
+        "url": "https://abcnews.com/Politics/wireStory/nfl-flags-officials-suspending-2-after-outbursts-weekend-137026668",
+        "canonicalUrl": "https://abcnews.com/Politics/wireStory/nfl-flags-officials-suspending-2-after-outbursts-weekend-137026668",
+        "title": "NFL flags officials, suspending 2 after outbursts on a weekend marked by profane flare-ups",
+        "description": "The NFL has suspended two officials for inappropriate conduct during Week 4",
         "source": {
-          "id": "npr",
-          "name": "NPR"
+          "id": "abc",
+          "name": "ABC News"
         },
         "sourceCountry": "US",
         "language": "en",
-        "publishedAt": "2026-10-06T10:53:06.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T10:43:24.000Z",
+        "imageUrl": "https://s.abcnews.com/images/Politics/wirestory_59e1487cebaf44635e6939a1d19e6c2b_16x9_1600.jpg",
         "countryCode": "US",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:53:06.000Z"
+      "latestPublishedAt": "2026-10-06T10:43:24.000Z"
     },
     {
-      "id": "KrpBjXYO5foJ",
+      "id": "0mKSKMmIl3ib",
       "representative": {
-        "id": "KrpBjXYO5foJ",
-        "url": "https://www.npr.org/2026/10/06/nx-s1-5991646/what-challenges-lie-ahead-for-the-democratic-party-as-midterms-approach",
-        "canonicalUrl": "https://www.npr.org/2026/10/06/nx-s1-5991646/what-challenges-lie-ahead-for-the-democratic-party-as-midterms-approach",
-        "title": "What challenges lie ahead for the Democratic Party as midterms approach",
-        "description": "Democrats are feeling optimistic ahead of the midterms, but what challenges remain? NPR's A Martinez asks Devan Barber, who leads the Democratic Senatorial Campaign Committee.",
+        "id": "0mKSKMmIl3ib",
+        "url": "https://www.cbsnews.com/news/campaign-ad-lazy-welfare-recipient-white-conservative-backlash-sarah-huckabee-sanders/",
+        "canonicalUrl": "https://www.cbsnews.com/news/campaign-ad-lazy-welfare-recipient-white-conservative-backlash-sarah-huckabee-sanders/",
+        "title": "Conservative backlash after campaign ad shows lazy welfare recipient as White",
+        "description": "A campaign video from Arkansas Gov. Sarah Huckabee Sanders that portrays a welfare recipient as White has sparked a backlash from some conservatives.",
         "source": {
-          "id": "npr",
-          "name": "NPR"
+          "id": "cbs",
+          "name": "CBS News"
         },
         "sourceCountry": "US",
         "language": "en",
-        "publishedAt": "2026-10-06T10:53:02.000Z",
+        "publishedAt": "2026-10-06T10:30:00.000Z",
         "imageUrl": null,
         "countryCode": "US",
         "regionCode": null
@@ -415,7 +325,97 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:53:02.000Z"
+      "latestPublishedAt": "2026-10-06T10:30:00.000Z"
+    },
+    {
+      "id": "fYd-yuTEmSFh",
+      "representative": {
+        "id": "fYd-yuTEmSFh",
+        "url": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
+        "canonicalUrl": "https://www.cbsnews.com/news/jim-bakker-ptl-club-dies-86/",
+        "title": "Jim Bakker, who co-founded \"The PTL Club\" but fell into disgrace, dies at 86",
+        "description": "Jim Bakker, who along with his first wife Tammy Faye built an evangelical empire around \"The PTL Club\" TV show, only to lose it all over a sex scandal and financial crimes, has died at 86.",
+        "source": {
+          "id": "cbs",
+          "name": "CBS News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T05:05:00.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "jKJqQlX3lp6A",
+          "url": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
+          "canonicalUrl": "https://abcnews.com/US/wireStory/jim-bakker-built-ptl-club-televangelism-empire-died-137024206",
+          "title": "Jim Bakker, who built ‘PTL Club’ televangelism empire, has died at 86",
+          "description": "Jim Bakker, who along with his first-wife Tammy Faye built an evangelical empire around the hugely successful “The PTL Club” TV show, only to lose it all over a sex scandal and financial crimes, has died",
+          "source": {
+            "id": "abc",
+            "name": "ABC News"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T10:12:50.000Z",
+          "imageUrl": "https://s.abcnews.com/images/US/wirestory_ef6d58ffa0b511edba773c219cee77e8_16x9_1600.jpg",
+          "countryCode": "US",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:12:50.000Z"
+    },
+    {
+      "id": "qAyQMeWTjd7H",
+      "representative": {
+        "id": "qAyQMeWTjd7H",
+        "url": "https://www.washingtonpost.com/national-security/2026/10/06/ex-cia-official-expected-plead-guilty-40-million-gold-bar-case/",
+        "canonicalUrl": "https://www.washingtonpost.com/national-security/2026/10/06/ex-cia-official-expected-plead-guilty-40-million-gold-bar-case/",
+        "title": "Ex-CIA official expected to plead guilty in $40 million gold bar case",
+        "description": "FBI agents seized gold bars, cash and luxury watches this year at the home of David J. Rush, according to an affidavit.",
+        "source": {
+          "id": "wapo",
+          "name": "The Washington Post"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:00:01.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:00:01.000Z"
+    },
+    {
+      "id": "qXSABz54us3K",
+      "representative": {
+        "id": "qXSABz54us3K",
+        "url": "https://abcnews.com/Politics/wireStory/republicans-return-tough-crime-message-ahead-difficult-midterm-137023931",
+        "canonicalUrl": "https://abcnews.com/Politics/wireStory/republicans-return-tough-crime-message-ahead-difficult-midterm-137023931",
+        "title": "Republicans return to tough-on-crime message ahead of difficult midterm elections",
+        "description": "Republicans are focusing on crime and public disorder in midterm election campaigns, as voters grow frustrated with their handling of the cost of living and the war with Iran",
+        "source": {
+          "id": "abc",
+          "name": "ABC News"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T06:57:35.000Z",
+        "imageUrl": "https://s.abcnews.com/images/US/wirestory_4a181df89b301d65406a0f2235166be4_16x9_1600.jpg",
+        "countryCode": "US",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T06:57:35.000Z"
     }
   ]
 }

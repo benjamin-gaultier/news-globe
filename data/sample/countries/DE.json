@@ -2,118 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "DE",
   "countryName": "Germany",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
-    {
-      "id": "4bGMGAkftpDf",
-      "representative": {
-        "id": "4bGMGAkftpDf",
-        "url": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-konstituierende-sitzung-100.html",
-        "canonicalUrl": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-konstituierende-sitzung-100.html",
-        "title": "Konstituierende Sitzung in Sachsen-Anhalt: Die AfD und die ganz große Bühne",
-        "description": "Heute richten sich erneut viele Blicke auf Sachsen-Anhalt: Der Landtag kommt zu seiner konstituierenden Sitzung zusammen. Die AfD will erstmals einen Parlamentspräsidenten stellen - und Regierungsfähigkeit beweisen. Von Torben Lehning.",
-        "source": {
-          "id": "tagesschau",
-          "name": "tagesschau"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T02:18:45.000Z",
-        "imageUrl": null,
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Jmjcd_AOeiag",
-          "url": "https://www.sueddeutsche.de/politik/landtag-sachsen-anhalt-landtagspraesident-rausch-afd-li.3558847",
-          "canonicalUrl": "https://www.sueddeutsche.de/politik/landtag-sachsen-anhalt-landtagspraesident-rausch-afd-li.3558847",
-          "title": "Sachsen-Anhalt: AfD stellt zum ersten Mal Landtagspräsidenten",
-          "description": "Der 35-jährige Abgeordnete Tobias Rausch wird in Magdeburg mit überraschend deutlicher Mehrheit in das protokollarisch höchste Amt von Sachsen-Anhalt gewählt: Die Stimmen kamen nicht nur aus den Reihen von AfD und BSW.",
-          "source": {
-            "id": "sz",
-            "name": "Süddeutsche Zeitung"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T13:08:36.000Z",
-          "imageUrl": "https://www.sueddeutsche.de/2026/10/06/0af54ae5-c67e-4019-a197-2fa45ebf1db2.jpg?rect=162%2C0%2C2585%2C1939&width=1000&fm=jpg&q=60",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "b6ZdJHQ0MB0l",
-          "url": "https://www.n-tv.de/politik/Gruene-nach-Rausch-Wahl-Heute-wurde-eine-Grenze-ueberschritten-id31387465.html",
-          "canonicalUrl": "https://www.n-tv.de/politik/Gruene-nach-Rausch-Wahl-Heute-wurde-eine-Grenze-ueberschritten-id31387465.html",
-          "title": "Erster AfD-Landtagspräsident: Grüne nach Rausch-Wahl: Heute wurde eine Grenze überschritten",
-          "description": "Nach der Wahl des AfD-Politikers Rausch zum Landtagspräsidenten kündigt Grünen-Fraktionschefin Sziborra-Seidlitz eine Verteidigung der Demokratie an. \"Wir werden eingreifen, wenn Sachsen-Anhalt zu ihrer Beute werden soll\", sagt sie im Landtag.",
-          "source": {
-            "id": "ntv",
-            "name": "n-tv"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T12:12:21.000Z",
-          "imageUrl": "https://www.n-tv.de/img/31387477/1791295072/Img_4_3/250/623570266.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "_boCnpCEW4GH",
-          "url": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-tobias-rausch-ist-afd-landtagspraesident-48-ja-stimmen-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11#ref=rss",
-          "canonicalUrl": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-tobias-rausch-ist-afd-landtagspraesident-48-ja-stimmen-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11",
-          "title": "Sachsen-Anhalt - Magdeburg: Tobias Rausch ist AfD-Landtagspräsident - 48-Ja-Stimmen",
-          "description": "35 Jahre jung und nun Landtagspräsident von Sachsen-Anhalt: Der AfD-Mann Tobias Rausch ist von einer deutlichen Mehrheit gewählt, auch Abgeordnete anderer Parteien stimmten für ihn. Die CDU ist in Aufruhr.",
-          "source": {
-            "id": "spiegel",
-            "name": "DER SPIEGEL"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T11:42:00.000Z",
-          "imageUrl": "https://cdn.prod.www.spiegel.de/images/920cd6a6-2d74-4542-ad31-5672cee92fe3_w520_r2.08_fpx29.93_fpy46.87.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "09DDYyq-h0_C",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierende-sitzung-eva-von-angern-linke",
-          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierende-sitzung-eva-von-angern-linke",
-          "title": "Landtag Sachsen-Anhalt: Sie gab AfD-Politikern nicht die Hand. Nun beschwört sie sie",
-          "description": "Die Linke Eva von Angern darf im Magdeburger Landtag zuerst reden. Neben Kritik an der AfD findet sie zartes Lob: für den teilweise gelungenen Austausch.",
-          "source": {
-            "id": "zeit",
-            "name": "ZEIT ONLINE"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T11:41:32.000Z",
-          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierende-sitzung-eva-von-angern-linke-bild-2/original__640x360",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "u-_Yg3L0xDVY",
-          "url": "https://www.faz.net/aktuell/politik/inland/sachsen-anhalt-tobias-rausch-ist-der-erste-landtagspraesident-der-afd-accg-201289186.html",
-          "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/sachsen-anhalt-tobias-rausch-ist-der-erste-landtagspraesident-der-afd-accg-201289186.html",
-          "title": "Tobias Rausch: Wer ist der erste Landtagspräsident der AfD?",
-          "description": "Sein Vater war der erste Landtagsvizepräsident der AfD, nun wurde Tobias Rausch in Magdeburg zu ihrem ersten Landtagspräsidenten gewählt. Belastet ist er durch die Verwandtenaffäre.",
-          "source": {
-            "id": "faz",
-            "name": "Frankfurter Allgemeine"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T10:41:03.000Z",
-          "imageUrl": "https://media0.faz.net/image/9f19ef7c3e2c/w2675h1505x0y30/202610/43601.0.2633278856/tobias-rausch-am-dienstag-im.webp",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 6,
-      "latestPublishedAt": "2026-10-06T13:08:36.000Z"
-    },
     {
       "id": "6Qr8vJmXLwez",
       "representative": {
@@ -346,6 +236,116 @@
       "latestPublishedAt": "2026-10-06T13:09:22.000Z"
     },
     {
+      "id": "4bGMGAkftpDf",
+      "representative": {
+        "id": "4bGMGAkftpDf",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-konstituierende-sitzung-100.html",
+        "canonicalUrl": "https://www.tagesschau.de/inland/innenpolitik/sachsen-anhalt-konstituierende-sitzung-100.html",
+        "title": "Konstituierende Sitzung in Sachsen-Anhalt: Die AfD und die ganz große Bühne",
+        "description": "Heute richten sich erneut viele Blicke auf Sachsen-Anhalt: Der Landtag kommt zu seiner konstituierenden Sitzung zusammen. Die AfD will erstmals einen Parlamentspräsidenten stellen - und Regierungsfähigkeit beweisen. Von Torben Lehning.",
+        "source": {
+          "id": "tagesschau",
+          "name": "tagesschau"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T02:18:45.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Jmjcd_AOeiag",
+          "url": "https://www.sueddeutsche.de/politik/landtag-sachsen-anhalt-landtagspraesident-rausch-afd-li.3558847",
+          "canonicalUrl": "https://www.sueddeutsche.de/politik/landtag-sachsen-anhalt-landtagspraesident-rausch-afd-li.3558847",
+          "title": "Sachsen-Anhalt: AfD stellt zum ersten Mal Landtagspräsidenten",
+          "description": "Der 35-jährige Abgeordnete Tobias Rausch wird in Magdeburg mit überraschend deutlicher Mehrheit in das protokollarisch höchste Amt von Sachsen-Anhalt gewählt: Die Stimmen kamen nicht nur aus den Reihen von AfD und BSW.",
+          "source": {
+            "id": "sz",
+            "name": "Süddeutsche Zeitung"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T13:08:36.000Z",
+          "imageUrl": "https://www.sueddeutsche.de/2026/10/06/0af54ae5-c67e-4019-a197-2fa45ebf1db2.jpg?rect=162%2C0%2C2585%2C1939&width=1000&fm=jpg&q=60",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "b6ZdJHQ0MB0l",
+          "url": "https://www.n-tv.de/politik/Gruene-nach-Rausch-Wahl-Heute-wurde-eine-Grenze-ueberschritten-id31387465.html",
+          "canonicalUrl": "https://www.n-tv.de/politik/Gruene-nach-Rausch-Wahl-Heute-wurde-eine-Grenze-ueberschritten-id31387465.html",
+          "title": "Erster AfD-Landtagspräsident: Grüne nach Rausch-Wahl: Heute wurde eine Grenze überschritten",
+          "description": "Nach der Wahl des AfD-Politikers Rausch zum Landtagspräsidenten kündigt Grünen-Fraktionschefin Sziborra-Seidlitz eine Verteidigung der Demokratie an. \"Wir werden eingreifen, wenn Sachsen-Anhalt zu ihrer Beute werden soll\", sagt sie im Landtag.",
+          "source": {
+            "id": "ntv",
+            "name": "n-tv"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T12:12:21.000Z",
+          "imageUrl": "https://www.n-tv.de/img/31387477/1791295072/Img_4_3/250/623570266.jpg",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "_boCnpCEW4GH",
+          "url": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-tobias-rausch-ist-afd-landtagspraesident-48-ja-stimmen-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11#ref=rss",
+          "canonicalUrl": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-magdeburg-tobias-rausch-ist-afd-landtagspraesident-48-ja-stimmen-a-1b6b0b10-0759-4e62-a595-4b43aa6bad11",
+          "title": "Sachsen-Anhalt - Magdeburg: Tobias Rausch ist AfD-Landtagspräsident - 48-Ja-Stimmen",
+          "description": "35 Jahre jung und nun Landtagspräsident von Sachsen-Anhalt: Der AfD-Mann Tobias Rausch ist von einer deutlichen Mehrheit gewählt, auch Abgeordnete anderer Parteien stimmten für ihn. Die CDU ist in Aufruhr.",
+          "source": {
+            "id": "spiegel",
+            "name": "DER SPIEGEL"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T11:42:00.000Z",
+          "imageUrl": "https://cdn.prod.www.spiegel.de/images/920cd6a6-2d74-4542-ad31-5672cee92fe3_w520_r2.08_fpx29.93_fpy46.87.jpg",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "09DDYyq-h0_C",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierende-sitzung-eva-von-angern-linke",
+          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierende-sitzung-eva-von-angern-linke",
+          "title": "Landtag Sachsen-Anhalt: Sie gab AfD-Politikern nicht die Hand. Nun beschwört sie sie",
+          "description": "Die Linke Eva von Angern darf im Magdeburger Landtag zuerst reden. Neben Kritik an der AfD findet sie zartes Lob: für den teilweise gelungenen Austausch.",
+          "source": {
+            "id": "zeit",
+            "name": "ZEIT ONLINE"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T11:41:32.000Z",
+          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/landtag-sachsen-anhalt-konstituierende-sitzung-eva-von-angern-linke-bild-2/original__640x360",
+          "countryCode": "DE",
+          "regionCode": null
+        },
+        {
+          "id": "u-_Yg3L0xDVY",
+          "url": "https://www.faz.net/aktuell/politik/inland/sachsen-anhalt-tobias-rausch-ist-der-erste-landtagspraesident-der-afd-accg-201289186.html",
+          "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/sachsen-anhalt-tobias-rausch-ist-der-erste-landtagspraesident-der-afd-accg-201289186.html",
+          "title": "Tobias Rausch: Wer ist der erste Landtagspräsident der AfD?",
+          "description": "Sein Vater war der erste Landtagsvizepräsident der AfD, nun wurde Tobias Rausch in Magdeburg zu ihrem ersten Landtagspräsidenten gewählt. Belastet ist er durch die Verwandtenaffäre.",
+          "source": {
+            "id": "faz",
+            "name": "Frankfurter Allgemeine"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T10:41:03.000Z",
+          "imageUrl": "https://media0.faz.net/image/9f19ef7c3e2c/w2675h1505x0y30/202610/43601.0.2633278856/tobias-rausch-am-dienstag-im.webp",
+          "countryCode": "DE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 6,
+      "latestPublishedAt": "2026-10-06T13:08:36.000Z"
+    },
+    {
       "id": "CH0MsLKmXIoM",
       "representative": {
         "id": "CH0MsLKmXIoM",
@@ -368,30 +368,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:00:59.000Z"
-    },
-    {
-      "id": "-1n9od8Uw_KP",
-      "representative": {
-        "id": "-1n9od8Uw_KP",
-        "url": "https://www.n-tv.de/politik/Der-AfD-gelingt-Doppelsieg-in-Runde-eins-id31385744.html",
-        "canonicalUrl": "https://www.n-tv.de/politik/Der-AfD-gelingt-Doppelsieg-in-Runde-eins-id31385744.html",
-        "title": "AfD-Mann ist Landtagspräsident: Der AfD gelingt Doppelsieg in Runde eins",
-        "description": "Die erste Sitzung des neuen Landtags von Sachsen-Anhalt gerät zum Triumph für die AfD. Nicht nur stellt sie mit Tobias Rausch erstmals einen Landtagspräsidenten, ihr Anführer Ulrich Siegmund darf sich dem Amt des Ministerpräsidenten auch näher denn je fühlen. Regierungschef Schulze erfährt eine…",
-        "source": {
-          "id": "ntv",
-          "name": "n-tv"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:56:48.000Z",
-        "imageUrl": "https://www.n-tv.de/img/31387942/1791298848/Img_4_3/250/623547856.jpg",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:56:48.000Z"
     },
     {
       "id": "jcoy4mDpewBy",
@@ -536,6 +512,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:38:16.000Z"
+    },
+    {
+      "id": "sYC1iKVabEDP",
+      "representative": {
+        "id": "sYC1iKVabEDP",
+        "url": "https://www.spiegel.de/politik/deutschland/nicht-invasiver-praenataltest-abgeordnete-von-union-spd-gruenen-und-linken-streiten-ueber-kassenleistung-a-43d790db-8a2c-47e6-8b9a-a970917e9ae3#ref=rss",
+        "canonicalUrl": "https://www.spiegel.de/politik/deutschland/nicht-invasiver-praenataltest-abgeordnete-von-union-spd-gruenen-und-linken-streiten-ueber-kassenleistung-a-43d790db-8a2c-47e6-8b9a-a970917e9ae3",
+        "title": "Nicht-invasiver Pränataltest: Abgeordnete von Union, SPD, Grünen und Linken streiten über Kassenleistung",
+        "description": "Welche Auswirkungen hat der nicht invasive Pränataltest? Abgeordnete von Union, SPD, Grünen und Linken streiten, ob Schwangere den Test zu oft machen und die Krankenkasse ihn nicht mehr bezahlen soll.",
+        "source": {
+          "id": "spiegel",
+          "name": "DER SPIEGEL"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:33:00.000Z",
+        "imageUrl": "https://cdn.prod.www.spiegel.de/images/735e82ce-881d-4b4c-89bf-b160f3deac93_w520_r2.08_fpx53.32_fpy50.jpg",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:33:00.000Z"
     }
   ]
 }

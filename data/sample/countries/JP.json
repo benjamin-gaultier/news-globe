@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "JP",
   "countryName": "Japan",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "kfM_yhuQB6tI",
@@ -93,7 +93,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
+      "outletCount24h": 3,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T13:17:57.000Z"
     },
@@ -155,48 +155,6 @@
       "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T12:39:43.000Z"
-    },
-    {
-      "id": "bhrlSNgPX_59",
-      "representative": {
-        "id": "bhrlSNgPX_59",
-        "url": "http://www.asahi.com/articles/ASVB62G5NVB6ULOB00LM.html?ref=rss",
-        "canonicalUrl": "http://www.asahi.com/articles/ASVB62G5NVB6ULOB00LM.html",
-        "title": "2歳児が車にはねられ死亡 駐車場出る際に衝突か 神奈川県鎌倉市",
-        "description": null,
-        "source": {
-          "id": "asahi",
-          "name": "Asahi Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T12:16:39.000Z",
-        "imageUrl": null,
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "LEzX3GyLeEnH",
-          "url": "https://mainichi.jp/articles/20261006/k00/00m/310/293000c",
-          "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/310/293000c",
-          "title": "2歳男児が乗用車にはねられ死亡 駐車場で歩行中 神奈川・鎌倉",
-          "description": null,
-          "source": {
-            "id": "mainichi",
-            "name": "Mainichi Shimbun"
-          },
-          "sourceCountry": "JP",
-          "language": "ja",
-          "publishedAt": "2026-10-06T12:01:51.000Z",
-          "imageUrl": null,
-          "countryCode": "JP",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:16:39.000Z"
     },
     {
       "id": "Ja5qDLzjUzmb",
@@ -337,78 +295,6 @@
       "latestPublishedAt": "2026-10-06T13:09:48.000Z"
     },
     {
-      "id": "T2j_-CJAHVqK",
-      "representative": {
-        "id": "T2j_-CJAHVqK",
-        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4HJN4CZZYZJV3LOE2AIAIMIVSM/",
-        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4HJN4CZZYZJV3LOE2AIAIMIVSM/",
-        "title": "稲富修二元衆院議員が福岡市長選出馬へ 近く記者会見 2月衆院選に中道から出馬も、落選",
-        "description": "任期満了に伴う福岡市長選（11月1日告示、15日投開票）に関し、稲富修二元衆院議員が6日、無所属で立候補する意向を取材に明らかにした。「支援者の声を受け決断した」と述べた。近く記者会見して正式に表明する方針だ。",
-        "source": {
-          "id": "sankei",
-          "name": "Sankei Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T13:08:25.000Z",
-        "imageUrl": null,
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:08:25.000Z"
-    },
-    {
-      "id": "NrfZ6ssBzaJM",
-      "representative": {
-        "id": "NrfZ6ssBzaJM",
-        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-Q4ZIJPTUWBJSJFRNXJJQNAGNIY/",
-        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-Q4ZIJPTUWBJSJFRNXJJQNAGNIY/",
-        "title": "すれ違いざまに女性2人の胸触る 容疑で神戸市立小教諭の男逮捕 兵庫県警",
-        "description": "すれ違いざまに女性2人の胸を触ったとして兵庫県警兵庫署は6日、不同意わいせつの疑いで、神戸市立小教諭の厚田和希容疑者（28）＝同市兵庫区下沢通＝を逮捕した。同署によると、「覚えていない」と容疑を否認している。",
-        "source": {
-          "id": "sankei",
-          "name": "Sankei Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T13:07:22.000Z",
-        "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-Q4ZIJPTUWBJSJFRNXJJQNAGNIY/None/resizer/f8CySpTbIHXL6e0QFovA29lI4wc=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/CBVMJBZPDFLSLCFHDZOFK2I22E.jpg",
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:07:22.000Z"
-    },
-    {
-      "id": "Z2M0GH2MXqp6",
-      "representative": {
-        "id": "Z2M0GH2MXqp6",
-        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-PPYZTOTBOZLHZIFNVGV6QIQJ7E/",
-        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-PPYZTOTBOZLHZIFNVGV6QIQJ7E/",
-        "title": "鳥取1区基準、全知事に意見照会へ 衆院選挙区の区割り審、改定案作成で",
-        "description": "衆院選挙区画定審議会（区割り審）は6日、総務省で会合を開き、令和7年国勢調査確定値を踏まえた区割り改定案の作成に向け、全都道府県知事に意見照会する具体的な内容を決定した。「議員1人当たりの人口最少県の最少選挙区」である鳥取1区を基準とする方針案などについて尋ねる。11月中をめどに回答を求める方針。",
-        "source": {
-          "id": "sankei",
-          "name": "Sankei Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T13:04:12.000Z",
-        "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-PPYZTOTBOZLHZIFNVGV6QIQJ7E/None/resizer/WX2zk7FqaSaRwSqQqOJlOQqUBok=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/EUBQGNPBCZORZCERS73QVSQ244.jpg",
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:04:12.000Z"
-    },
-    {
       "id": "kHMAZnzSFKre",
       "representative": {
         "id": "kHMAZnzSFKre",
@@ -457,30 +343,6 @@
       "latestPublishedAt": "2026-10-06T12:52:43.000Z"
     },
     {
-      "id": "98NOt--u2TtY",
-      "representative": {
-        "id": "98NOt--u2TtY",
-        "url": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/",
-        "canonicalUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/",
-        "title": "神戸・三宮の死傷事故の現場付近で交通安全呼び掛け 兵庫県警葺合署",
-        "description": "神戸・三宮中心部の県道交差点で1日、横断歩道を渡っていた歩行者ら4人が車にはねられ死傷した事故から1週間を前に、兵庫県警葺合署と兵庫県は6日、事故現場付近で通行人やドライバーに反射材を配るなどして交通安全を呼び掛けた。",
-        "source": {
-          "id": "sankei",
-          "name": "Sankei Shimbun"
-        },
-        "sourceCountry": "JP",
-        "language": "ja",
-        "publishedAt": "2026-10-06T12:49:37.000Z",
-        "imageUrl": "https://www.sankei.com/arc/outboundfeeds/rss/null/article/20261006-4Q7OKBFQQJP7LM234FLLI24H2I/None/resizer/0SEhg7kqLt1qs3phU7F6xv4ZCUY=/cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/MC4TRRJJ35K2XGRG4UBAAN6XS4.jpg",
-        "countryCode": "JP",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:49:37.000Z"
-    },
-    {
       "id": "laN1s_Xke9oM",
       "representative": {
         "id": "laN1s_Xke9oM",
@@ -503,6 +365,144 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:47:51.000Z"
+    },
+    {
+      "id": "6v0I7y0cU_ZV",
+      "representative": {
+        "id": "6v0I7y0cU_ZV",
+        "url": "https://newsdig.tbs.co.jp/articles/-/2994082",
+        "canonicalUrl": "https://newsdig.tbs.co.jp/articles/-/2994082",
+        "title": "【冒頭全文】「今年2月に問い合わせがあった」国交省が公表 簗農水大臣の“予算カット”発言めぐり 国交省から簗大臣に説明も",
+        "description": "簗和生・農林水産大臣が「自民党を支持しなかった自治体の道路予算を大幅にカットした」などと発言した問題について、国土交通省は「簗議員から今年2月に予算配分額について問い合わせがあった」と説明しました。冒頭部分を全文公開します。那須烏山市･那珂川町の実施事業は前年比で“減”道路予算にか",
+        "source": {
+          "id": "tbs",
+          "name": "TBS News Dig"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:45:28.000Z",
+        "imageUrl": "https://newsdig.ismcdn.jp/mwimgs/0/2/1200xm/img_026dbbd5828eb62782bf0f67f6311fe5878405.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:45:28.000Z"
+    },
+    {
+      "id": "MhvMbSI6fI-t",
+      "representative": {
+        "id": "MhvMbSI6fI-t",
+        "url": "http://www.asahi.com/articles/ASVB641B8VB6UTQP001M.html?ref=rss",
+        "canonicalUrl": "http://www.asahi.com/articles/ASVB641B8VB6UTQP001M.html",
+        "title": "「努力、信じる力。ケイはやり切った」 恩師マイケルの錦織への惜別",
+        "description": null,
+        "source": {
+          "id": "asahi",
+          "name": "Asahi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:42:39.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:42:39.000Z"
+    },
+    {
+      "id": "dHz0N8mfyqh8",
+      "representative": {
+        "id": "dHz0N8mfyqh8",
+        "url": "https://mainichi.jp/articles/20261006/k00/00m/040/287000c",
+        "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/040/287000c",
+        "title": "ノーベル物理学賞に南極での素粒子観測 天文学の新たな道開く",
+        "description": null,
+        "source": {
+          "id": "mainichi",
+          "name": "Mainichi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:37:18.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:37:18.000Z"
+    },
+    {
+      "id": "bhrlSNgPX_59",
+      "representative": {
+        "id": "bhrlSNgPX_59",
+        "url": "http://www.asahi.com/articles/ASVB62G5NVB6ULOB00LM.html?ref=rss",
+        "canonicalUrl": "http://www.asahi.com/articles/ASVB62G5NVB6ULOB00LM.html",
+        "title": "2歳児が車にはねられ死亡 駐車場出る際に衝突か 神奈川県鎌倉市",
+        "description": null,
+        "source": {
+          "id": "asahi",
+          "name": "Asahi Shimbun"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T12:16:39.000Z",
+        "imageUrl": null,
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "LEzX3GyLeEnH",
+          "url": "https://mainichi.jp/articles/20261006/k00/00m/310/293000c",
+          "canonicalUrl": "https://mainichi.jp/articles/20261006/k00/00m/310/293000c",
+          "title": "2歳男児が乗用車にはねられ死亡 駐車場で歩行中 神奈川・鎌倉",
+          "description": null,
+          "source": {
+            "id": "mainichi",
+            "name": "Mainichi Shimbun"
+          },
+          "sourceCountry": "JP",
+          "language": "ja",
+          "publishedAt": "2026-10-06T12:01:51.000Z",
+          "imageUrl": null,
+          "countryCode": "JP",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:16:39.000Z"
+    },
+    {
+      "id": "IwJZ0P3QzH6U",
+      "representative": {
+        "id": "IwJZ0P3QzH6U",
+        "url": "https://www.huffingtonpost.jp/entry/story_jp_6ab5f5e3e4b0a4e394053d1c",
+        "canonicalUrl": "https://www.huffingtonpost.jp/entry/story_jp_6ab5f5e3e4b0a4e394053d1c",
+        "title": "【かぼちゃ×チーズが大正解】簡単なのにトリコになるおいしさ！かぼちゃとチーズの人気レシピ3選",
+        "description": "かぼちゃのハニーチーズ焼き メインの付け合わせにもおやつにもぴったりな「 かぼちゃのハニーチーズ焼き 」のレシピをご紹介します。 まず、かぼちゃを600Wの電子レンジで5分ほど加熱し、オリーブオイルを引いたフライパンに並べて塩をふります。両面に焼き色がつくまで焼いたら、ピザ用チーズをのせてふたをし、チーズが溶ければ完成です。 ホクホクのかぼちゃに、とろけたチーズとはちみつの組み合わせが絶妙！ 黒コショウを少しきかせると、甘さが引き締まり大人の味わいになりますよ。 「かぼちゃのハニーチーズ焼き」の詳しいレシピはこちら♪ かぼちゃのベーコンチーズホイル焼き 「…",
+        "source": {
+          "id": "huffpost_jp",
+          "name": "HuffPost Japan"
+        },
+        "sourceCountry": "JP",
+        "language": "ja",
+        "publishedAt": "2026-10-06T11:32:17.000Z",
+        "imageUrl": "https://img.huffingtonpost.com/asset/6ab5f60518000021aaf14ea2.jpg",
+        "countryCode": "JP",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:32:17.000Z"
     }
   ]
 }

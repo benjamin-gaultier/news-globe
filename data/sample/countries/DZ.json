@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DZ",
   "countryName": "Algeria",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "pSdZ_M3Ctegn",
@@ -252,7 +252,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:15:43.000Z"
     },
@@ -281,30 +281,6 @@
       "latestPublishedAt": "2026-10-06T11:30:32.000Z"
     },
     {
-      "id": "eS1ucNH9uhmO",
-      "representative": {
-        "id": "eS1ucNH9uhmO",
-        "url": "https://www.algerie360.com/expulsions-etrangers-sans-papiers-ue-reglement-retour/",
-        "canonicalUrl": "https://www.algerie360.com/expulsions-etrangers-sans-papiers-ue-reglement-retour/",
-        "title": "Expulsions des étrangers sans papiers : l’UE adopte le controversé « Règlement retour »",
-        "description": "Vers un contrôle renforcé des frontières européennes ? à Luxembourg, les ministres de l’Intérieur de l’UE ont entériné le règlement sur l’éloignement forcé des migrants […] L’article Expulsions des étrangers sans papiers : l’UE adopte le controversé « Règlement retour » est apparu en premier sur .",
-        "source": {
-          "id": "algerie360",
-          "name": "Algérie360"
-        },
-        "sourceCountry": "DZ",
-        "language": "fr",
-        "publishedAt": "2026-10-06T11:04:10.000Z",
-        "imageUrl": "https://www.algerie360.com/wp-content/uploads/2026/10/8yw6tsb8tnc-scaled.jpg",
-        "countryCode": "DZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:04:10.000Z"
-    },
-    {
       "id": "kodDiJUTr2Mu",
       "representative": {
         "id": "kodDiJUTr2Mu",
@@ -327,30 +303,6 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:01:49.000Z"
-    },
-    {
-      "id": "RVvuX_kiNUPI",
-      "representative": {
-        "id": "RVvuX_kiNUPI",
-        "url": "https://www.algerie360.com/concours-recrutement-dgapr-administration-penitentiaire/",
-        "canonicalUrl": "https://www.algerie360.com/concours-recrutement-dgapr-administration-penitentiaire/",
-        "title": "Opportunité dans la fonction publique : la DGAPR lance un vaste concours de recrutement",
-        "description": "Un nouveau concours de recrutement est lancé au sein de l’administration pénitentiaire algérienne. La Direction générale de l’administration pénitentiaire et de la réinsertion annonce une […] L’article Opportunité dans la fonction publique : la DGAPR lance un vaste concours de recrutement est…",
-        "source": {
-          "id": "algerie360",
-          "name": "Algérie360"
-        },
-        "sourceCountry": "DZ",
-        "language": "fr",
-        "publishedAt": "2026-10-06T10:48:55.000Z",
-        "imageUrl": "https://www.algerie360.com/wp-content/uploads/2026/10/La-Direction-generale-de-ladministration-penitentiaire-et-de-la-reinsertion-lance-un-concours-de-recrutement.-Decouvrez-les-conditions-le-dossier-et-les-demarches-dinscription.jpg",
-        "countryCode": "DZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:48:55.000Z"
     },
     {
       "id": "wNp1gDWLyAIT",
@@ -399,6 +351,54 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:48:39.000Z"
+    },
+    {
+      "id": "RVRWs8df-lYJ",
+      "representative": {
+        "id": "RVRWs8df-lYJ",
+        "url": "https://algerie-eco.com/2026/10/05/espagne-en-pleine-crise-du-logement-pedro-sanchez-fait-le-pari-de-convoquer-des-elections-anticipees/",
+        "canonicalUrl": "https://algerie-eco.com/2026/10/05/espagne-en-pleine-crise-du-logement-pedro-sanchez-fait-le-pari-de-convoquer-des-elections-anticipees/",
+        "title": "Espagne : en pleine crise du logement, Pedro Sánchez fait le pari de convoquer des élections anticipées",
+        "description": "Le Premier ministre espagnol Pedro Sánchez a convoqué lundi des élections anticipées pour le 29 novembre, un pari en vue de reprendre l’initiative politique et de se maintenir au pouvoir après le rejet par les députés des mesures destinées à mettre un terme à la crise du logement. « J’ai décidé de…",
+        "source": {
+          "id": "algerieeco",
+          "name": "Algérie Eco"
+        },
+        "sourceCountry": "DZ",
+        "language": "fr",
+        "publishedAt": "2026-10-05T22:03:21.000Z",
+        "imageUrl": null,
+        "countryCode": "DZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T22:03:21.000Z"
+    },
+    {
+      "id": "93TE1mi2fWPo",
+      "representative": {
+        "id": "93TE1mi2fWPo",
+        "url": "https://algerie-eco.com/2026/10/05/napec-2026-lalgerie-promeut-laddition-energetique-pour-un-mix-diversifie-et-resilient/",
+        "canonicalUrl": "https://algerie-eco.com/2026/10/05/napec-2026-lalgerie-promeut-laddition-energetique-pour-un-mix-diversifie-et-resilient/",
+        "title": "NAPEC 2026 : l’Algérie promeut l’«addition énergétique» pour un mix diversifié et résilient",
+        "description": "L’Algérie se positionne, de par sa situation géographique stratégique, ses ressources énergétiques et ses infrastructures, comme un trait d’union énergétique entre l’Afrique et l’Europe, dans le cadre de l’approche de « l’addition énergétique », fondée sur la complémentarité entre les différentes…",
+        "source": {
+          "id": "algerieeco",
+          "name": "Algérie Eco"
+        },
+        "sourceCountry": "DZ",
+        "language": "fr",
+        "publishedAt": "2026-10-05T20:36:36.000Z",
+        "imageUrl": null,
+        "countryCode": "DZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T20:36:36.000Z"
     }
   ]
 }

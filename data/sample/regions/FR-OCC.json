@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-OCC",
   "regionName": "Occitanie",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "1CF-tvwZ0Mxy",
@@ -27,6 +27,23 @@
       },
       "related": [
         {
+          "id": "OqgbUA0ZEgQp",
+          "url": "https://www.ici.fr/occitanie/gard-30/intemperies-quatre-departements-mediterraneens-en-vigilance-orange-1858889?at_medium=lien_RSS&at_locale=28",
+          "canonicalUrl": "https://www.ici.fr/occitanie/gard-30/intemperies-quatre-departements-mediterraneens-en-vigilance-orange-1858889",
+          "title": "Intempéries : le Var, dernier département en vigilance orange pour pluie-inondation et orages",
+          "description": "Il ne reste plus que le département du Var en orange pour pluie-inondation et orages, indique Météo France dans son dernier bulletin publié à 10 heures ce mercredi. La vigilance orange pour pluie-inondation et orages est donc levée dans les Bouches-du-Rhône et le Gard.",
+          "source": {
+            "id": "ici_occitanie",
+            "name": "ici Occitanie, Hérault, Roussillon"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T09:55:40.000Z",
+          "imageUrl": "https://www.ici.fr/pikapi/images/83c74d0f-b9f8-4bac-926f-047f102b3afa/920x517?webp=false",
+          "countryCode": "FR",
+          "regionCode": "FR-OCC"
+        },
+        {
           "id": "3nPKtOjOY2cd",
           "url": "https://www.20minutes.fr/planete/4252026-20261007-intemperies-pluie-orages-crues-quatre-departements-sud-alerte-orange?at_medium=display&at_campaign=149",
           "canonicalUrl": "https://www.20minutes.fr/planete/4252026-20261007-intemperies-pluie-orages-crues-quatre-departements-sud-alerte-orange",
@@ -44,9 +61,51 @@
           "regionCode": "FR-OCC"
         }
       ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T09:55:40.000Z"
+    },
+    {
+      "id": "lmz3P1VdoI1z",
+      "representative": {
+        "id": "lmz3P1VdoI1z",
+        "url": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-le-policier-dans-la-tourmente-apres-des-propos-racistes-venait-darriver-a-perpignan-depuis-trois-semaines-13588378.php",
+        "canonicalUrl": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-le-policier-dans-la-tourmente-apres-des-propos-racistes-venait-darriver-a-perpignan-depuis-trois-semaines-13588378.php",
+        "title": "Mobilisation des lycéens : le policier dans la tourmente après des propos racistes venait \"d’arriver à Perpignan depuis trois semaines\"",
+        "description": "Lors de la manifestation du vendredi 2 octobre, un policier national arborait des symboles et une devise en vogue dans les groupuscules d’extrême droite sur son gilet et avait été filmé en train de tenir des propos...",
+        "source": {
+          "id": "lindependant",
+          "name": "L'Indépendant"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:37:52.000Z",
+        "imageUrl": "https://images.lindependant.fr/api/v1/images/view/6ac5e8460dc99118ce07d8b4/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [
+        {
+          "id": "IlnkWAoxaq3i",
+          "url": "https://www.ici.fr/occitanie/pyrenees-orientales-66/blocage-des-lycees-le-policier-filme-a-perpignan-aux-propos-sexistes-et-racistes-venait-d-arriver-au-commissariat-5916842?at_medium=lien_RSS&at_locale=46",
+          "canonicalUrl": "https://www.ici.fr/occitanie/pyrenees-orientales-66/blocage-des-lycees-le-policier-filme-a-perpignan-aux-propos-sexistes-et-racistes-venait-d-arriver-au-commissariat-5916842",
+          "title": "Blocage des lycées à Perpignan : le policier qui a tenu des propos sexistes et racistes venait d'arriver au commissariat",
+          "description": "Au lendemain d'une mobilisation massive des lycéens partout en France, le préfet des Pyrénées-Orientales annonce ce mercredi sur ICI Roussillon l'interpellation de 13 manifestants dans le département. Le policier filmé à Perpignan, tenant des propos sexistes et racistes, sera quant à lui sanctionné.",
+          "source": {
+            "id": "ici_occitanie",
+            "name": "ici Occitanie, Hérault, Roussillon"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T08:29:50.000Z",
+          "imageUrl": "https://www.ici.fr/pikapi/images/9f378c48-e5b4-487c-8ec5-dac0e380211a/920x517?webp=false",
+          "countryCode": "FR",
+          "regionCode": "FR-OCC"
+        }
+      ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T05:37:39.000Z"
+      "latestPublishedAt": "2026-10-07T08:29:50.000Z"
     },
     {
       "id": "qxc3AHxKrFFc",
@@ -133,6 +192,78 @@
       "latestPublishedAt": "2026-10-06T14:34:50.000Z"
     },
     {
+      "id": "fkusjNQ8fm93",
+      "representative": {
+        "id": "fkusjNQ8fm93",
+        "url": "https://www.ici.fr/occitanie/herault-34/beziers/manifestations-lyceennes-26-jeunes-interpelles-a-beziers-8-sur-10-sont-des-mineurs-8151720?at_medium=lien_RSS&at_locale=28",
+        "canonicalUrl": "https://www.ici.fr/occitanie/herault-34/beziers/manifestations-lyceennes-26-jeunes-interpelles-a-beziers-8-sur-10-sont-des-mineurs-8151720",
+        "title": "Manifestations lycéennes : 26 jeunes interpellés à Béziers, huit sur dix sont des mineurs",
+        "description": "Treize jeunes dont deux majeurs ont été déférés mardi devant un juge à Béziers (Hérault) après les dégradations et violences commises sur des policiers survenues depuis le début du mois d'octobre.",
+        "source": {
+          "id": "ici_occitanie",
+          "name": "ici Occitanie, Hérault, Roussillon"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T11:23:32.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/dc78e5ce-dac0-4bef-aed2-4e2dfadb875c/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:23:32.000Z"
+    },
+    {
+      "id": "tl7KkSwmzC_X",
+      "representative": {
+        "id": "tl7KkSwmzC_X",
+        "url": "https://www.ici.fr/occitanie/gard-30/le-grau-du-roi/photos-possible-tornade-au-grau-du-roi-des-centaines-de-pins-couches-des-bateaux-endommages-4536660?at_medium=lien_RSS&at_locale=28",
+        "canonicalUrl": "https://www.ici.fr/occitanie/gard-30/le-grau-du-roi/photos-possible-tornade-au-grau-du-roi-des-centaines-de-pins-couches-des-bateaux-endommages-4536660",
+        "title": "PHOTOS- Tornade au Grau-du-Roi ? Une centaine de pins couchés, des bateaux endommagés",
+        "description": "De forts vents avec des rafales à 90km/h et de fortes pluies ont fait des dégâts importants ce mercredi au Grau-du-Roi (Gard).",
+        "source": {
+          "id": "ici_occitanie",
+          "name": "ici Occitanie, Hérault, Roussillon"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T08:29:14.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/5760b5e0-7256-4a68-af82-33e32dfc55b9/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T08:29:14.000Z"
+    },
+    {
+      "id": "U6AYLoWoYlXE",
+      "representative": {
+        "id": "U6AYLoWoYlXE",
+        "url": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-occitanie/une-rentree-morose-pour-les-commercants-a-toulouse-apres-un-ete-caniculaire-et-des-manifestations-automnales-4313789?at_medium=lien_RSS&at_locale=92",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-occitanie/une-rentree-morose-pour-les-commercants-a-toulouse-apres-un-ete-caniculaire-et-des-manifestations-automnales-4313789",
+        "title": "Une rentrée morose pour les commerçants à Toulouse, après un été caniculaire et des manifestations automnales",
+        "description": "On prend le pouls des commerçants dans la ville rose avec notre invitée, Sandrine Rossignol, directrice de la fédération des commerçants de Toulouse. Après un été chaud et une rentrée marquée par des manifestations, la situation est compliquée.",
+        "source": {
+          "id": "ici_occitanie",
+          "name": "ici Occitanie, Hérault, Roussillon"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T08:23:47.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/4f560595-d4be-471f-bb99-c2cf27c94749/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T08:23:47.000Z"
+    },
+    {
       "id": "EMQ-Y8LjZO8a",
       "representative": {
         "id": "EMQ-Y8LjZO8a",
@@ -155,30 +286,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T06:49:39.000Z"
-    },
-    {
-      "id": "lmz3P1VdoI1z",
-      "representative": {
-        "id": "lmz3P1VdoI1z",
-        "url": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-le-policier-dans-la-tourmente-apres-des-propos-racistes-venait-darriver-a-perpignan-depuis-trois-semaines-13588378.php",
-        "canonicalUrl": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-le-policier-dans-la-tourmente-apres-des-propos-racistes-venait-darriver-a-perpignan-depuis-trois-semaines-13588378.php",
-        "title": "Mobilisation des lycéens : le policier dans la tourmente après des propos racistes venait \"d’arriver à Perpignan depuis trois semaines\"",
-        "description": "Lors de la manifestation du vendredi 2 octobre, un policier national arborait des symboles et une devise en vogue dans les groupuscules d’extrême droite sur son gilet et avait été filmé en train de tenir des propos...",
-        "source": {
-          "id": "lindependant",
-          "name": "L'Indépendant"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:37:52.000Z",
-        "imageUrl": "https://images.lindependant.fr/api/v1/images/view/6ac5e8460dc99118ce07d8b4/standard/image.jpg?v=1",
-        "countryCode": "FR",
-        "regionCode": "FR-OCC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:37:52.000Z"
     },
     {
       "id": "856F1NpXizKu",
@@ -301,78 +408,6 @@
       "latestPublishedAt": "2026-10-07T06:08:35.000Z"
     },
     {
-      "id": "DL3ZY-cDhDbk",
-      "representative": {
-        "id": "DL3ZY-cDhDbk",
-        "url": "https://www.midilibre.fr/2026/10/07/pour-les-costieres-de-nimes-2026-est-le-millesime-de-la-bonne-surprise-13586875.php",
-        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/pour-les-costieres-de-nimes-2026-est-le-millesime-de-la-bonne-surprise-13586875.php",
-        "title": "Pour les Costières de Nîmes, \"2026 est le millésime de la (bonne) surprise !\"",
-        "description": "Le millésime est prometteur mais le contexte reste exigeant qui pousse les Costières a toujours s’adapter. Le réchauffement climatique oblige à l’adaptation du vignoble et le tassement des marchés à la recherche de...",
-        "source": {
-          "id": "midilibre",
-          "name": "Midi Libre"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:05:02.000Z",
-        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac507c479743fd91c09bddc/standard/image.jpg?v=1",
-        "countryCode": "FR",
-        "regionCode": "FR-OCC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:05:02.000Z"
-    },
-    {
-      "id": "mFJM0nBUXx2T",
-      "representative": {
-        "id": "mFJM0nBUXx2T",
-        "url": "https://www.midilibre.fr/2026/10/07/presidentielle-2027-qui-sont-ces-elus-sans-etiquette-doccitanie-qui-veulent-faire-barrage-aux-extremes-derriere-raphael-glucksmann-13587487.php",
-        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/presidentielle-2027-qui-sont-ces-elus-sans-etiquette-doccitanie-qui-veulent-faire-barrage-aux-extremes-derriere-raphael-glucksmann-13587487.php",
-        "title": "Présidentielle 2027 : qui sont ces élus \"sans étiquette\" d’Occitanie qui veulent faire barrage aux \"extrêmes\" derrière Raphaël Glucksmann",
-        "description": "Patrice Canayer, Jalil Benabdillah, plusieurs maires et conseillers régionaux, mais aussi des chefs d’entreprise ou des personnalités de la société civile : ils annoncent leur soutien à Raphaël Glucksmann et refusent...",
-        "source": {
-          "id": "midilibre",
-          "name": "Midi Libre"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:02:02.000Z",
-        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac51d1df9dc32251606f781/standard/image.jpg?v=1",
-        "countryCode": "FR",
-        "regionCode": "FR-OCC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:02:02.000Z"
-    },
-    {
-      "id": "PkxaMF4kXGvO",
-      "representative": {
-        "id": "PkxaMF4kXGvO",
-        "url": "https://www.midilibre.fr/2026/10/07/gestion-des-dechets-de-la-metropole-montpellieraine-prise-de-risque-ou-meilleure-des-solutions-deux-visions-irreconciliables-autour-du-csr-13587311.php",
-        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/gestion-des-dechets-de-la-metropole-montpellieraine-prise-de-risque-ou-meilleure-des-solutions-deux-visions-irreconciliables-autour-du-csr-13587311.php",
-        "title": "Gestion des déchets de la métropole Montpelliéraine : prise de risque ou meilleure des solutions, deux visions irréconciliables autour du CSR",
-        "description": "Le conseil municipal de Montpellier a donné un avis favorable, ce mardi 6 octobre, au projet de transformation de l’usine Ametyst en filière de valorisation des Combustibles solides de récupération (CSR). La majorité...",
-        "source": {
-          "id": "midilibre",
-          "name": "Midi Libre"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:01:02.000Z",
-        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac527e19714f0cb8e0c34b3/standard/image.jpg?v=1",
-        "countryCode": "FR",
-        "regionCode": "FR-OCC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:01:02.000Z"
-    },
-    {
       "id": "BWr7HobisPvI",
       "representative": {
         "id": "BWr7HobisPvI",
@@ -397,28 +432,28 @@
       "latestPublishedAt": "2026-10-07T05:47:16.000Z"
     },
     {
-      "id": "AqwpEuoQsDIn",
+      "id": "5e3a9S3gtn_9",
       "representative": {
-        "id": "AqwpEuoQsDIn",
-        "url": "https://www.midilibre.fr/2026/10/07/lhumidite-cest-une-folie-4e-aux-jo-de-paris-pierre-le-corre-se-lance-dans-la-course-la-plus-dure-de-sa-vie-lironman-dhawai-13587104.php",
-        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/lhumidite-cest-une-folie-4e-aux-jo-de-paris-pierre-le-corre-se-lance-dans-la-course-la-plus-dure-de-sa-vie-lironman-dhawai-13587104.php",
-        "title": "\"L’humidité, c’est une folie\" : 4e aux JO de Paris, Pierre Le Corre se lance dans la course la plus dure de sa vie, l’Ironman d’Hawaï",
-        "description": "Le triathlète montpelliérain Pierre Le Corre participe ce dimanche aux Championnats du monde d’Ironman à Kailua-Kona (Hawaï). Quatrième aux JO de Paris 2024, le sportif de 36 ans va se tester sur un parcours extrême...",
+        "id": "5e3a9S3gtn_9",
+        "url": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/toi-tu-degages-un-journaliste-percute-par-un-policier-alors-qu-il-filmait-la-manifestation-lyceenne-3429087.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/toi-tu-degages-un-journaliste-percute-par-un-policier-alors-qu-il-filmait-la-manifestation-lyceenne-3429087.html",
+        "title": "\"Toi, tu dégages \": un journaliste percuté par un policier alors qu’il filmait la manifestation lycéenne",
+        "description": "Valentin Levetti, journaliste du média en ligne Stup.Media, a été percuté a priori volontairement à la jambe par un policier à moto alors qu’il couvrait la manifestation lycéenne et les troubles à l’ordre public devant le lycée Clemenceau, à Montpellier. Les faits se sont déroulés vendredi 2…",
         "source": {
-          "id": "midilibre",
-          "name": "Midi Libre"
+          "id": "france3_occitanie",
+          "name": "France 3 Occitanie"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T05:38:02.000Z",
-        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac4f832d76918304f0ad000/standard/image.jpg?v=1",
+        "publishedAt": "2026-10-07T05:36:55.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/JK0fhDc5Jz4EXwfkqFY5GQzY9L4/930x620/filters:format(webp)/regions/2026/10/06/6ac534023fd44242608194.png",
         "countryCode": "FR",
         "regionCode": "FR-OCC"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:38:02.000Z"
+      "latestPublishedAt": "2026-10-07T05:36:55.000Z"
     }
   ]
 }

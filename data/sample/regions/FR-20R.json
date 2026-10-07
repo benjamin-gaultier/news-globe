@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-20R",
   "regionName": "Corsica",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "PZ8C8QycOqKP",
@@ -49,6 +49,48 @@
       "latestPublishedAt": "2026-10-06T19:21:00.000Z"
     },
     {
+      "id": "YL0t6Mry92Jf",
+      "representative": {
+        "id": "YL0t6Mry92Jf",
+        "url": "https://france3-regions.franceinfo.fr/corse/blocage-des-lycees-la-mobilisation-se-poursuit-en-corse-3428616.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/corse/blocage-des-lycees-la-mobilisation-se-poursuit-en-corse-3428616.html",
+        "title": "Blocage des lycées : la mobilisation se poursuit en Corse",
+        "description": "Ce mardi 6 octobre, les mobilisations se poursuivent dans plusieurs lycées de Corse, dans le cadre du mouvement national visant à réclamer plus de moyens pour les établissements.",
+        "source": {
+          "id": "france3_corse",
+          "name": "France 3 Corse ViaStella"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:49:45.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/tYUvxfxQpc8yRzF_6bHzhdR1Yp4/930x620/filters:format(webp)/regions/2026/10/06/6ac4b640448d0563978117.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-20R"
+      },
+      "related": [
+        {
+          "id": "F79s5ZgBdlVN",
+          "url": "https://www.alta-frequenza.corsica/les-blocages-dans-les-lycees-de-corse-continuent-dans-un-certain-calme-mais-avec-determination",
+          "canonicalUrl": "https://www.alta-frequenza.corsica/les-blocages-dans-les-lycees-de-corse-continuent-dans-un-certain-calme-mais-avec-determination",
+          "title": "Les blocages dans les lycées de Corse continuent dans un certain calme mais avec détermination",
+          "description": null,
+          "source": {
+            "id": "altafrequenza",
+            "name": "Alta Frequenza"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T14:12:53.000Z",
+          "imageUrl": "https://www.alta-frequenza.corsica/wp-content/uploads/20261002_083204-768x432.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-20R"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:12:53.000Z"
+    },
+    {
       "id": "pCMOC2qquj1i",
       "representative": {
         "id": "pCMOC2qquj1i",
@@ -62,7 +104,7 @@
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T11:57:59.426Z",
+        "publishedAt": "2026-10-07T12:15:45.751Z",
         "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98214930-68432752.jpg?v=1790758153",
         "countryCode": "FR",
         "regionCode": "FR-20R"
@@ -70,7 +112,73 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:57:59.426Z"
+      "latestPublishedAt": "2026-10-07T12:15:45.751Z"
+    },
+    {
+      "id": "gFJwwplOcOmF",
+      "representative": {
+        "id": "gFJwwplOcOmF",
+        "url": "https://www.alta-frequenza.corsica/nous-voulons-plus-de-transparence-les-lyceens-corses-recus-au-rectorat-entre-ecoute-et-reponses",
+        "canonicalUrl": "https://www.alta-frequenza.corsica/nous-voulons-plus-de-transparence-les-lyceens-corses-recus-au-rectorat-entre-ecoute-et-reponses",
+        "title": "« Nous voulons plus de transparence » : les lycéens corses reçus au Rectorat, entre écoute et réponses",
+        "description": null,
+        "source": {
+          "id": "altafrequenza",
+          "name": "Alta Frequenza"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T11:43:08.000Z",
+        "imageUrl": "https://www.alta-frequenza.corsica/wp-content/uploads/rectrice-768x575.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-20R"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:43:08.000Z"
+    },
+    {
+      "id": "x8gZtpMmCewn",
+      "representative": {
+        "id": "x8gZtpMmCewn",
+        "url": "https://france3-regions.franceinfo.fr/corse/la-corse-en-vigilance-jaune-orages-et-pluie-inondation-ce-lundi-3427905.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/corse/la-corse-en-vigilance-jaune-orages-et-pluie-inondation-ce-lundi-3427905.html",
+        "title": "La Corse toujours en vigilance jaune \"orages\" et \"pluie-inondation\"",
+        "description": "Depuis le lundi 5 octobre, la Corse est placée en vigilance jaune \"orages\" et \"pluie-inondation\". L'alerte restera active au moins jusqu'à ce mardi soir.",
+        "source": {
+          "id": "france3_corse",
+          "name": "France 3 Corse ViaStella"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T06:48:08.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/-dOyYNvDlmwQpoCmi_O_lU8advM/930x620/filters:format(webp)/regions/2021/10/18/616d8b597788f_maxstockworld427980-5493471.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-20R"
+      },
+      "related": [
+        {
+          "id": "VIg3ADYNy3k2",
+          "url": "https://www.ici.fr/corse/meteo-la-haute-corse-en-vigilance-jaune-orages-et-pluies-inondations-ce-mercredi-5095867?at_medium=lien_RSS&at_locale=11",
+          "canonicalUrl": "https://www.ici.fr/corse/meteo-la-haute-corse-en-vigilance-jaune-orages-et-pluies-inondations-ce-mercredi-5095867",
+          "title": "Météo : la Haute-Corse en vigilance jaune \"orages\" et \"pluies-inondations\" ce mercredi",
+          "description": "Le département de la Haute-Corse est placé ce mercredi en vigilance jaune \"à enjeux spécifiques\" pour les phénomènes \"orages\" et \"pluies-inondations\". Une alerte qui débute dès 15h ce mercredi et se poursuivra au moins jusqu'à 13h jeudi pour les orages, 17h pour la pluie.",
+          "source": {
+            "id": "ici_rcfm",
+            "name": "ici RCFM"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T09:26:56.000Z",
+          "imageUrl": "https://www.ici.fr/pikapi/images/5ea2b636-0796-4df9-9100-fe0ee00142a2/920x517?webp=false",
+          "countryCode": "FR",
+          "regionCode": "FR-20R"
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T09:26:56.000Z"
     },
     {
       "id": "VWNbmz46pONv",
@@ -108,11 +216,52 @@
           "imageUrl": "https://france3-regions.franceinfo.fr/image/eSur8_5fz2AoKSjeaCzo-XrxwBM/930x620/filters:format(webp)/regions/2026/10/06/6ac51482b4e5c285608768.jpg",
           "countryCode": "FR",
           "regionCode": "FR-20R"
+        },
+        {
+          "id": "5iQwGf6VLTTO",
+          "url": "https://www.alta-frequenza.corsica/ceremonie-militaire-du-2e-rep-au-lac-de-ninu-le-parc-naturel-regional-de-corse-se-dit-indigne",
+          "canonicalUrl": "https://www.alta-frequenza.corsica/ceremonie-militaire-du-2e-rep-au-lac-de-ninu-le-parc-naturel-regional-de-corse-se-dit-indigne",
+          "title": "Cérémonie militaire du 2e Rep au lac de Ninu : le Parc naturel régional de Corse se dit indigné",
+          "description": null,
+          "source": {
+            "id": "altafrequenza",
+            "name": "Alta Frequenza"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T05:50:10.000Z",
+          "imageUrl": "https://www.alta-frequenza.corsica/wp-content/uploads/3-3-768x505.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-20R"
         }
       ],
       "outletCount24h": 1,
-      "outletCount": 2,
+      "outletCount": 3,
       "latestPublishedAt": "2026-10-07T06:03:38.000Z"
+    },
+    {
+      "id": "hNCUFK5rK16q",
+      "representative": {
+        "id": "hNCUFK5rK16q",
+        "url": "https://www.alta-frequenza.corsica/meteo-pour-ce-mercredi-7-octobre-2026-en-corse",
+        "canonicalUrl": "https://www.alta-frequenza.corsica/meteo-pour-ce-mercredi-7-octobre-2026-en-corse",
+        "title": "Météo pour ce mercredi 7 octobre 2026 en Corse",
+        "description": null,
+        "source": {
+          "id": "altafrequenza",
+          "name": "Alta Frequenza"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:52:02.000Z",
+        "imageUrl": "https://www.alta-frequenza.corsica/wp-content/uploads/1-38-768x564.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-20R"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:52:02.000Z"
     },
     {
       "id": "rJBPdJFjpaMX",
@@ -139,6 +288,54 @@
       "latestPublishedAt": "2026-10-07T05:51:33.000Z"
     },
     {
+      "id": "AoxPPhir9WYx",
+      "representative": {
+        "id": "AoxPPhir9WYx",
+        "url": "https://www.alta-frequenza.corsica/atmosphere-bon-enfant-chant-et-guitare-au-rendez-vous-de-la-revendication-lyceenne-a-ajaccio",
+        "canonicalUrl": "https://www.alta-frequenza.corsica/atmosphere-bon-enfant-chant-et-guitare-au-rendez-vous-de-la-revendication-lyceenne-a-ajaccio",
+        "title": "Atmosphère sereine, chant et guitare au rendez-vous de la revendication lycéenne à Ajaccio",
+        "description": null,
+        "source": {
+          "id": "altafrequenza",
+          "name": "Alta Frequenza"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:45:58.000Z",
+        "imageUrl": "https://www.alta-frequenza.corsica/wp-content/uploads/fesch-manif-768x768.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-20R"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:45:58.000Z"
+    },
+    {
+      "id": "14i2rEUcpkfq",
+      "representative": {
+        "id": "14i2rEUcpkfq",
+        "url": "https://www.ici.fr/emissions/l-invite-de-la-redaction-ici-rcfm/l-invite-de-la-redaction-ici-rcfm-une-journee-pour-sensibiliser-les-proches-aidants-aux-aides-auxquelles-ils-ont-acces-4841725?at_medium=lien_RSS&at_locale=11",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-de-la-redaction-ici-rcfm/l-invite-de-la-redaction-ici-rcfm-une-journee-pour-sensibiliser-les-proches-aidants-aux-aides-auxquelles-ils-ont-acces-4841725",
+        "title": "Une journée organisée à Borgo pour sensibiliser les proches aidants aux aides auxquelles ils ont accès",
+        "description": "Les proches aidants ont, eux aussi, besoin d'aide. C'était le sens de l'événement co-organisé avec l'ADMR de Haute-Corse, mardi 6 octobre à Borgo, à l'occasion de la Journée nationale des aidants. L'une de ses organisatrices, Elise Riva, est l'invitée de la rédaction d'ICI RCFM.",
+        "source": {
+          "id": "ici_rcfm",
+          "name": "ici RCFM"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:45:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/94f12a09-7b0f-4fd0-90ac-69d451c6e87c/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-20R"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:45:00.000Z"
+    },
+    {
       "id": "uAeq6juUiD0I",
       "representative": {
         "id": "uAeq6juUiD0I",
@@ -163,28 +360,28 @@
       "latestPublishedAt": "2026-10-07T05:05:00.000Z"
     },
     {
-      "id": "ggxWATgRxy8d",
+      "id": "VxyC1UPdVkqC",
       "representative": {
-        "id": "ggxWATgRxy8d",
-        "url": "https://www.corsenetinfos.corsica/U-tempu-in-Corsica_a93031.html",
-        "canonicalUrl": "https://www.corsenetinfos.corsica/U-tempu-in-Corsica_a93031.html",
-        "title": "U tempu in Corsica",
-        "description": "La grisaille reste de mise ce mercredi en Corse. Après une matinée encore assez calme, le temps se dégradera avec l’arrivée d’averses dans l’après-midi, parfois accompagnées d’orages. Consultez la météo corse en direct et en permanence sur CNI. En cliquant sur la photo et sur le lien (ci-dessous)…",
+        "id": "VxyC1UPdVkqC",
+        "url": "https://www.ici.fr/corse/proches-aidants-l-imperieuse-necessite-de-s-occuper-de-soi-pour-mieux-s-occuper-d-un-proche-malade-1906584?at_medium=lien_RSS&at_locale=11",
+        "canonicalUrl": "https://www.ici.fr/corse/proches-aidants-l-imperieuse-necessite-de-s-occuper-de-soi-pour-mieux-s-occuper-d-un-proche-malade-1906584",
+        "title": "\"Je bois le café en ville à Bastia\" : l'impérieuse nécessité de s'occuper de soi pour mieux s'occuper d'un proche malade",
+        "description": "Les proches aidants ont, eux aussi, besoin d'aide. Tel était le message rappelé lors de l'événement organisé ce mardi au centre social de Borgo, à l'occasion de la Journée nationale des aidants. En Haute-Corse, au moins 3.000 personnes sont concernées mais ce chiffre est sous-estimé.",
         "source": {
-          "id": "corsenetinfos",
-          "name": "Corse Net Infos"
+          "id": "ici_rcfm",
+          "name": "ici RCFM"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T05:00:00.000Z",
-        "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98288406-68514413.jpg?v=1791315636",
+        "publishedAt": "2026-10-06T21:18:30.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/c3a32118-523b-495b-bb8a-b5e062b8305b/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-20R"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:00:00.000Z"
+      "latestPublishedAt": "2026-10-06T21:18:30.000Z"
     },
     {
       "id": "6m9DfoNUwo0w",
@@ -211,214 +408,52 @@
       "latestPublishedAt": "2026-10-06T17:55:48.000Z"
     },
     {
-      "id": "TO9GZvGvWiYY",
+      "id": "p6AkzzhJCmcp",
       "representative": {
-        "id": "TO9GZvGvWiYY",
-        "url": "https://www.corsenetinfos.corsica/26e-Tour-de-Corse-Historique-Veillee-d-armes-calvaise_a93011.html",
-        "canonicalUrl": "https://www.corsenetinfos.corsica/26e-Tour-de-Corse-Historique-Veillee-d-armes-calvaise_a93011.html",
-        "title": "26e Tour de Corse Historique -Veillée d'armes calvaise",
-        "description": "Même si le 26e TDCH n'effectuera ses premiers tours de roues que demain, la pression monte du côté de Calvi, épicentre du rallye pour les 450 autos engagées dans cette version 2026. Nous y voilà, demain à 11h28, le premier équipage en VHC va entrer dans l'ES1 à Notre Dame de la Serra là où tout va…",
+        "id": "p6AkzzhJCmcp",
+        "url": "https://www.ici.fr/corse/gilles-simeoni-a-bastia-le-maire-veut-tenir-ses-engagements-et-jouer-la-finale-de-l-autonomie-1306273?at_medium=lien_RSS&at_locale=11",
+        "canonicalUrl": "https://www.ici.fr/corse/gilles-simeoni-a-bastia-le-maire-veut-tenir-ses-engagements-et-jouer-la-finale-de-l-autonomie-1306273",
+        "title": "Gilles Simeoni : à Bastia, le maire veut tenir ses engagements et jouer \"la finale\" de l’autonomie",
+        "description": "De retour à la mairie de Bastia, Gilles Simeoni veut maintenir le cap malgré la pression financière, l’explosion des coûts et un contexte social tendu. L’ancien président de l'exécutif garde aussi les yeux rivés sur Paris et le projet d’autonomie qui doit franchir l’obstacle du Sénat ce mois-ci.",
         "source": {
-          "id": "corsenetinfos",
-          "name": "Corse Net Infos"
+          "id": "ici_rcfm",
+          "name": "ici RCFM"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-05T17:37:00.000Z",
-        "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98275033-68500163.jpg?v=1791221842",
-        "countryCode": "FR",
-        "regionCode": "FR-20R"
-      },
-      "related": [
-        {
-          "id": "FGDWoYu3DG8o",
-          "url": "https://france3-regions.franceinfo.fr/corse/video-ambiance-sur-le-parc-ferme-avant-le-depart-de-la-26e-edition-du-tour-de-corse-historique-3429039.html",
-          "canonicalUrl": "https://france3-regions.franceinfo.fr/corse/video-ambiance-sur-le-parc-ferme-avant-le-depart-de-la-26e-edition-du-tour-de-corse-historique-3429039.html",
-          "title": "VIDÉO. Ambiance sur le parc fermé avant le départ de la 26e édition du Tour de Corse Historique",
-          "description": "🚗🏁 #TDCH2026 447 équipages ont pris le départ ce matin à Calvi pour la 26e édition du Tour de Corse Historique. La veille, nos équipes étaient dans le parc fermé pour prendre la température et vivre les derniers préparatifs avant de s’élancer sur les 10 000 virages de l’île.",
-          "source": {
-            "id": "france3_corse",
-            "name": "France 3 Corse ViaStella"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T15:38:44.000Z",
-          "imageUrl": "https://france3-regions.franceinfo.fr/image/In7mhDjVHrIC45YDHrpfW6Z_TYI/930x620/filters:format(webp)/regions/2026/10/06/6ac515d5af18d393720433.jpg",
-          "countryCode": "FR",
-          "regionCode": "FR-20R"
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:38:44.000Z"
-    },
-    {
-      "id": "pDRhWQiw0noc",
-      "representative": {
-        "id": "pDRhWQiw0noc",
-        "url": "https://www.corsenetinfos.corsica/Ponte-Leccia-La-Poste-ferme-pour-trois-semaines-pour-travaux_a93024.html",
-        "canonicalUrl": "https://www.corsenetinfos.corsica/Ponte-Leccia-La-Poste-ferme-pour-trois-semaines-pour-travaux_a93024.html",
-        "title": "Ponte-Leccia : La Poste ferme pour trois semaines pour travaux",
-        "description": "À compter de ce mercredi 7 octobre, le bureau de poste de Ponte-Leccia fermera temporairement ses portes afin de faire l’objet de travaux de rénovation. Sa réouverture est prévue le mercredi 28 octobre. Durant cette période, des solutions sont mises en place pour assurer la continuité des…",
-        "source": {
-          "id": "corsenetinfos",
-          "name": "Corse Net Infos"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T14:59:00.000Z",
-        "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98285639-68511986.jpg?v=1791298863",
+        "publishedAt": "2026-10-06T16:27:18.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/6950ecf9-cabe-4c86-bae5-bb44586dbb4a/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-20R"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:59:00.000Z"
+      "latestPublishedAt": "2026-10-06T16:27:18.000Z"
     },
     {
-      "id": "9N44O96w4-14",
+      "id": "U6iJMol7Ncpa",
       "representative": {
-        "id": "9N44O96w4-14",
-        "url": "https://www.corsenetinfos.corsica/Pole-foncier-de-Corse-Ajaccio-met-la-pression-pour-obtenir-son-implantation_a93023.html",
-        "canonicalUrl": "https://www.corsenetinfos.corsica/Pole-foncier-de-Corse-Ajaccio-met-la-pression-pour-obtenir-son-implantation_a93023.html",
-        "title": "Pôle foncier de Corse : Ajaccio met la pression pour obtenir son implantation",
-        "description": "À travers une motion adoptée au conseil municipal, la Ville d’Ajaccio demande officiellement que le futur pôle foncier de Corse soit installé au tribunal judiciaire de la cité impériale. Stéphane Sbraggia avance le poids du contentieux local, l’expertise déjà constituée et la présence des acteurs…",
+        "id": "U6iJMol7Ncpa",
+        "url": "https://www.alta-frequenza.corsica/primu-siminariu-righjunali-di-i-cita-aducativi-di-corsica",
+        "canonicalUrl": "https://www.alta-frequenza.corsica/primu-siminariu-righjunali-di-i-cita-aducativi-di-corsica",
+        "title": "Primu siminariu righjunali di i cità aducativi di Corsica",
+        "description": null,
         "source": {
-          "id": "corsenetinfos",
-          "name": "Corse Net Infos"
+          "id": "altafrequenza",
+          "name": "Alta Frequenza"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T14:19:00.000Z",
-        "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98285238-68511619.jpg?v=1791297153",
+        "publishedAt": "2026-10-07T05:40:30.000Z",
+        "imageUrl": "https://www.alta-frequenza.corsica/wp-content/uploads/cite-768x558.jpg",
         "countryCode": "FR",
         "regionCode": "FR-20R"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:19:00.000Z"
-    },
-    {
-      "id": "aYfO9pfZvRDm",
-      "representative": {
-        "id": "aYfO9pfZvRDm",
-        "url": "https://www.corsenetinfos.corsica/Mobilisation-lyceenne-Laurent-Marcangeli-interpelle-le-Premier-ministre-a-l-Assemblee-nationale_a93022.html",
-        "canonicalUrl": "https://www.corsenetinfos.corsica/Mobilisation-lyceenne-Laurent-Marcangeli-interpelle-le-Premier-ministre-a-l-Assemblee-nationale_a93022.html",
-        "title": "Mobilisation lycéenne : Laurent Marcangeli interpelle le Premier ministre à l’Assemblée nationale",
-        "description": "Alors que la mobilisation lycéenne se poursuit dans plusieurs villes de France, ce mardi après-midi, le député de la 1ère circonscription de Corse-du-Sud et président du groupe Horizons & Indépendants a interpellé Sébastien Lecornu lors de la session de questions au gouvernement à l’Assemblée…",
-        "source": {
-          "id": "corsenetinfos",
-          "name": "Corse Net Infos"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T14:05:00.000Z",
-        "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98284959-68511277.jpg?v=1791295632",
-        "countryCode": "FR",
-        "regionCode": "FR-20R"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:05:00.000Z"
-    },
-    {
-      "id": "YL0t6Mry92Jf",
-      "representative": {
-        "id": "YL0t6Mry92Jf",
-        "url": "https://france3-regions.franceinfo.fr/corse/blocage-des-lycees-la-mobilisation-se-poursuit-en-corse-3428616.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/corse/blocage-des-lycees-la-mobilisation-se-poursuit-en-corse-3428616.html",
-        "title": "Blocage des lycées : la mobilisation se poursuit en Corse",
-        "description": "Ce mardi 6 octobre, les mobilisations se poursuivent dans plusieurs lycées de Corse, dans le cadre du mouvement national visant à réclamer plus de moyens pour les établissements.",
-        "source": {
-          "id": "france3_corse",
-          "name": "France 3 Corse ViaStella"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:49:45.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/tYUvxfxQpc8yRzF_6bHzhdR1Yp4/930x620/filters:format(webp)/regions/2026/10/06/6ac4b640448d0563978117.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-20R"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:49:45.000Z"
-    },
-    {
-      "id": "dk2nxi338TFq",
-      "representative": {
-        "id": "dk2nxi338TFq",
-        "url": "https://www.corsenetinfos.corsica/Lourdes-les-journees-chargees-des-pelerins-corses_a93021.html",
-        "canonicalUrl": "https://www.corsenetinfos.corsica/Lourdes-les-journees-chargees-des-pelerins-corses_a93021.html",
-        "title": "Lourdes : les journées chargées des pèlerins corses",
-        "description": "À Lourdes, les journées s'enchaînent à un rythme soutenu pour les hospitaliers du Rosaire corses partis en pèlerinage en ce début de semaine. Du matin au soir, ces bénévoles accompagnent les malades et les personnes à mobilité réduite au fil des messes, processions et temps de recueillement. Un…",
-        "source": {
-          "id": "corsenetinfos",
-          "name": "Corse Net Infos"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:15:00.000Z",
-        "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98284011-68510281.jpg?v=1791290687",
-        "countryCode": "FR",
-        "regionCode": "FR-20R"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:15:00.000Z"
-    },
-    {
-      "id": "vEQVswzKkir0",
-      "representative": {
-        "id": "vEQVswzKkir0",
-        "url": "https://www.corsenetinfos.corsica/Festival-Arte-Mare-Mais-quelle-est-donc-cette-meduse-qui-coasse-au-coeur-de-Furiani_a92982.html",
-        "canonicalUrl": "https://www.corsenetinfos.corsica/Festival-Arte-Mare-Mais-quelle-est-donc-cette-meduse-qui-coasse-au-coeur-de-Furiani_a92982.html",
-        "title": "Festival Arte Mare : Mais quelle est donc cette méduse qui coasse au cœur de Furiani ?",
-        "description": "Dans le cadre de sa catégorie Panorama méditerranée, le Festival Arte Mare a projeté en avant-première le 4e long métrage de Gérard Guerrieri : « Le coassement de la méduse ». De quoi… piquer notre curiosité. Nous sommes dans les années 80. Pascal et Joséphine se marient. Dans la salle des fêtes…",
-        "source": {
-          "id": "corsenetinfos",
-          "name": "Corse Net Infos"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T11:24:00.000Z",
-        "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98262225-68487251.jpg?v=1791142464",
-        "countryCode": "FR",
-        "regionCode": "FR-20R"
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:24:00.000Z"
-    },
-    {
-      "id": "pagWZ3me14cl",
-      "representative": {
-        "id": "pagWZ3me14cl",
-        "url": "https://www.corsenetinfos.corsica/Voile-La-Bonifacio-IRC-Cup-hisse-les-voiles_a93019.html",
-        "canonicalUrl": "https://www.corsenetinfos.corsica/Voile-La-Bonifacio-IRC-Cup-hisse-les-voiles_a93019.html",
-        "title": "Voile - La Bonifacio IRC Cup hisse les voiles",
-        "description": "Ce mardi matin, la toute nouvelle épreuve portée par le Yacht Club de Bonifacio entre dans sa phase active avec les premières régates sous les falaises bonifaciennes. Ce mardi matin, les équipages engagés dans la Bonifacio IRC Cup, première du nom, sont à la disposition du Comité de Course et de…",
-        "source": {
-          "id": "corsenetinfos",
-          "name": "Corse Net Infos"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T10:31:00.000Z",
-        "imageUrl": "https://www.corsenetinfos.corsica/photo/art/default/98282837-68508761.jpg?v=1791282817",
-        "countryCode": "FR",
-        "regionCode": "FR-20R"
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:31:00.000Z"
+      "latestPublishedAt": "2026-10-07T05:40:30.000Z"
     }
   ]
 }

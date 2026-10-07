@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IS",
   "countryName": "Iceland",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "Y90-XbcGmTNd",
@@ -287,30 +287,6 @@
       "latestPublishedAt": "2026-10-06T15:27:51.000Z"
     },
     {
-      "id": "7f0bqyzLLXRI",
-      "representative": {
-        "id": "7f0bqyzLLXRI",
-        "url": "https://www.ruv.is/frettir/erlent/2026-10-06-leidtogar-graenlands-og-faereyja-koma-a-fund-forsaetisradherra-489020/",
-        "canonicalUrl": "https://www.ruv.is/frettir/erlent/2026-10-06-leidtogar-graenlands-og-faereyja-koma-a-fund-forsaetisradherra-489020/",
-        "title": "Leiðtogar Grænlands og Færeyja koma á fund forsætisráðherra",
-        "description": "Lögmaður Færeyja, Beinir Johannessen, og formaður landsstjórnar Grænlands, Jens-Frederik Nielsen, koma á morgun á fund Kristrúnar Frostadóttur forsætisráðherra. Fram kemur í tilkynningu forsætisráðuneytisins að þeir ætli einnig að kynna sér aðstæður á öryggissvæðinu á Keflavíkurflugvelli og ræða…",
-        "source": {
-          "id": "ruv",
-          "name": "RÚV"
-        },
-        "sourceCountry": "IS",
-        "language": "is",
-        "publishedAt": "2026-10-06T15:21:05.000Z",
-        "imageUrl": "https://myndir.ruv.is/eyJidWNrZXQiOiAicnV2LXByb2QtcnV2aXMtcHVibGljIiwgImtleSI6ICJtZWRpYS9wdWJsaWMvb3JpZ2luYWxfaW1hZ2VzL0tyaXN0cnVuX29nX05pZWxzZW4uanBnIiwgImVkaXRzIjogeyJ0b0Zvcm1hdCI6ICJ3ZWJwIiwgIndlYnAiOiB7InF1YWxpdHkiOiA2MH0sICJyZXNpemUiOiB7IndpZHRoIjogIjE2MDAiLCAiZml0IjogImNvdmVyIiwgImhlaWdodCI6ICI5MDAifX19",
-        "countryCode": "IS",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:21:05.000Z"
-    },
-    {
       "id": "IfQv_Haelno6",
       "representative": {
         "id": "IfQv_Haelno6",
@@ -381,6 +357,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:14:30.000Z"
+    },
+    {
+      "id": "hY7kKlbImbiJ",
+      "representative": {
+        "id": "hY7kKlbImbiJ",
+        "url": "https://www.dv.is/433/2026/10/06/vedbankar-hafa-fulla-tru-a-islensku-lidunum-i-kvold",
+        "canonicalUrl": "https://www.dv.is/433/2026/10/06/vedbankar-hafa-fulla-tru-a-islensku-lidunum-i-kvold",
+        "title": "Veðbankar hafa fulla trú á íslensku liðunum í kvöld",
+        "description": "Íslenska karlalandsliðið mætir Eistlandi í toppslag í riðli sínum í C-deild Þjóðadeildarinnar klukkan 18:45 í kvöld.",
+        "source": {
+          "id": "dv_is",
+          "name": "DV"
+        },
+        "sourceCountry": "IS",
+        "language": "is",
+        "publishedAt": "2026-10-06T15:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "IS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:00:00.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "gNIVgrBYxC0j",
@@ -439,30 +439,6 @@
       "latestPublishedAt": "2026-10-06T12:44:14.000Z"
     },
     {
-      "id": "DCuw2xROvj6R",
-      "representative": {
-        "id": "DCuw2xROvj6R",
-        "url": "https://www.independent.co.uk/news/uk/home-news/bibury-arlington-row-cottages-cotswolds-over-tourism-b3061699.html",
-        "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/bibury-arlington-row-cottages-cotswolds-over-tourism-b3061699.html",
-        "title": "‘We live in one of the world’s most beautiful villages – but we can’t wait to leave’",
-        "description": "Brian and Jill Skarda, who live on Arlington Row in Bibury, have accused irresponsible tourists of ruining the beautiful village made famous by Bridget Jones’s Diary",
-        "source": {
-          "id": "independent",
-          "name": "The Independent"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:37:34.000Z",
-        "imageUrl": "https://static.independent.co.uk/2026/10/05/16/06/iStock-466464957-5753418b.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:37:34.000Z"
-    },
-    {
       "id": "Ey-5a_capDjh",
       "representative": {
         "id": "Ey-5a_capDjh",
@@ -503,6 +479,30 @@
       "outletCount24h": 1,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:36:13.000Z"
+    },
+    {
+      "id": "rKuN89iFcv7D",
+      "representative": {
+        "id": "rKuN89iFcv7D",
+        "url": "https://www.mirror.co.uk/news/uk-news/police-undercover-hgv-driving-fines-37740307",
+        "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/police-undercover-hgv-driving-fines-37740307",
+        "title": "Police use 'undercover HGV' to catch drivers on phones - with one seen watching film behind the wheel",
+        "description": "Operation Tramline, run by Cumbria Police, used the high vantage point of the driver's cab to check on road users. It was part of a convoy of unmarked police vehicles sent out to reduce accidents and improve road safety",
+        "source": {
+          "id": "mirror",
+          "name": "Daily Mirror"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:34:26.000Z",
+        "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37740188.ece/ALTERNATES/s615/1_Tramline_4.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:34:26.000Z"
     }
   ]
 }

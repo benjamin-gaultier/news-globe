@@ -163,6 +163,9 @@ describe('isNotNews', () => {
       "L'actu du 6 octobre 2026",
       'L’actu du 1er octobre 2026',
       'Émission du 6 octobre 2026',
+      'Le journal de la Vendée du 7 octobre 2026 – Edition de la mi-journée',
+      'Le journal de la Vendée du 7 octobre',
+      'Gagnez vos places pour le concert ICI Live de Zazie à Paris le 21 octobre',
       'Le Café Normand: un concours national de cuisine est organisé ce lundi dans les Ehpad',
       'Le Café Conso: les complémentaires santé, les bons plans pour être mieux remboursés',
       'BFM Nord et Vous: quelles sont les solutions pour lutter contre la flambée des prix du carburant ?',
@@ -183,6 +186,8 @@ describe('isNotNews', () => {
       'Météo : les Alpes-Maritimes placées en vigilance jaune orages et pluie-inondation ce mercredi',
       'Blaye : la Ville lance des Petits-déjeuners partenaires pour renforcer la solidarité locale',
       'Le café de la gare ferme ses portes après 80 ans',
+      'Le journal de bord du skipper est en ligne depuis le 7 octobre',
+      'Mobilisation lycéenne : une nouvelle manifestation à Caen le jeudi 8 octobre 2026',
     ]) {
       expect(isNotNews(t), t).toBe(false);
     }

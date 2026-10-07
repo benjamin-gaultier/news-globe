@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "ZA",
   "countryName": "South Africa",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
-    {
-      "id": "P6J3-WEi7ijs",
-      "representative": {
-        "id": "P6J3-WEi7ijs",
-        "url": "https://www.enca.com/news-top-stories/thabo-bester-fires-lawyers-represent-himself-prison-escape-trial",
-        "canonicalUrl": "https://www.enca.com/news-top-stories/thabo-bester-fires-lawyers-represent-himself-prison-escape-trial",
-        "title": "Thabo Bester fires lawyers, to represent himself in prison escape trial",
-        "description": "Thabo Bester fires lawyers, to represent himself in prison escape trial Nokuthula Khanyile Tue, 10/06/2026 - 14:00 BLOEMFONTEIN - Convicted rapist Thabo Bester has fired his legal representatives in his prison escape trial and will represent himself when the trial begins in April 2027. He will…",
-        "source": {
-          "id": "enca",
-          "name": "eNCA"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:00:00.000Z",
-        "imageUrl": "https://www.enca.com/sites/default/files/styles/banner_image/public/2026-03/ED_508333.jpg.webp?itok=1AbSp97d",
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "y2QVYSmpTyl8",
-          "url": "https://iol.co.za/news/crime-and-courts/2026-10-06-thabo-bester-expected-to-represent-himself-in-2027-trial/",
-          "canonicalUrl": "https://iol.co.za/news/crime-and-courts/2026-10-06-thabo-bester-expected-to-represent-himself-in-2027-trial/",
-          "title": "Thabo Bester expected to represent himself in 2027 trial",
-          "description": "Thabo Bester is expected to represent himself at his provisional 2027 trial after dismissing his legal team.",
-          "source": {
-            "id": "iol",
-            "name": "IOL"
-          },
-          "sourceCountry": "ZA",
-          "language": "en",
-          "publishedAt": "2026-10-06T13:17:00.000Z",
-          "imageUrl": "https://iol-prod.appspot.com/image/90bc0e6d07798de215e628f36d2eb7641c610d9e",
-          "countryCode": "ZA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:17:00.000Z"
-    },
     {
       "id": "VXA51BbNWudE",
       "representative": {
@@ -119,28 +77,46 @@
       "latestPublishedAt": "2026-10-06T13:29:26.000Z"
     },
     {
-      "id": "y8VpDrApedkT",
+      "id": "P6J3-WEi7ijs",
       "representative": {
-        "id": "y8VpDrApedkT",
-        "url": "https://www.dailymaverick.co.za/opinionista/2026-10-06-parole-is-not-a-given-it-must-be-earned-assessed-and-accountable/",
-        "canonicalUrl": "https://www.dailymaverick.co.za/opinionista/2026-10-06-parole-is-not-a-given-it-must-be-earned-assessed-and-accountable/",
-        "title": "Parole is not a given: It must be earned, assessed and accountable",
-        "description": "When the state opens a prison gate, it does more than release an offender. It assumes a responsibility to ensure that the person being released can be safely managed in the community.",
+        "id": "P6J3-WEi7ijs",
+        "url": "https://www.enca.com/news-top-stories/thabo-bester-fires-lawyers-represent-himself-prison-escape-trial",
+        "canonicalUrl": "https://www.enca.com/news-top-stories/thabo-bester-fires-lawyers-represent-himself-prison-escape-trial",
+        "title": "Thabo Bester fires lawyers, to represent himself in prison escape trial",
+        "description": "Thabo Bester fires lawyers, to represent himself in prison escape trial Nokuthula Khanyile Tue, 10/06/2026 - 14:00 BLOEMFONTEIN - Convicted rapist Thabo Bester has fired his legal representatives in his prison escape trial and will represent himself when the trial begins in April 2027. He will…",
         "source": {
-          "id": "dailymaverick",
-          "name": "Daily Maverick"
+          "id": "enca",
+          "name": "eNCA"
         },
         "sourceCountry": "ZA",
         "language": "en",
-        "publishedAt": "2026-10-06T13:14:28.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T12:00:00.000Z",
+        "imageUrl": "https://www.enca.com/sites/default/files/styles/banner_image/public/2026-03/ED_508333.jpg.webp?itok=1AbSp97d",
         "countryCode": "ZA",
         "regionCode": null
       },
-      "related": [],
+      "related": [
+        {
+          "id": "y2QVYSmpTyl8",
+          "url": "https://iol.co.za/news/crime-and-courts/2026-10-06-thabo-bester-expected-to-represent-himself-in-2027-trial/",
+          "canonicalUrl": "https://iol.co.za/news/crime-and-courts/2026-10-06-thabo-bester-expected-to-represent-himself-in-2027-trial/",
+          "title": "Thabo Bester expected to represent himself in 2027 trial",
+          "description": "Thabo Bester is expected to represent himself at his provisional 2027 trial after dismissing his legal team.",
+          "source": {
+            "id": "iol",
+            "name": "IOL"
+          },
+          "sourceCountry": "ZA",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:17:00.000Z",
+          "imageUrl": "https://iol-prod.appspot.com/image/90bc0e6d07798de215e628f36d2eb7641c610d9e",
+          "countryCode": "ZA",
+          "regionCode": null
+        }
+      ],
       "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:14:28.000Z"
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:17:00.000Z"
     },
     {
       "id": "1Slavq7YZhHO",
@@ -215,54 +191,6 @@
       "latestPublishedAt": "2026-10-06T12:53:11.000Z"
     },
     {
-      "id": "my5m7Jt2DA2-",
-      "representative": {
-        "id": "my5m7Jt2DA2-",
-        "url": "https://www.dailymaverick.co.za/article/2026-10-06-industry-dominated-at-nedlacs-sugary-drinks-tax-discussions-new-report-finds/",
-        "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-industry-dominated-at-nedlacs-sugary-drinks-tax-discussions-new-report-finds/",
-        "title": "MISSING VOICES: Industry dominated at Nedlac’s sugary drinks tax discussions, new report finds",
-        "description": "Nedlac’s Health Promotion Levy talks excluded community voices, a study has found, raising questions about transparency, evidence and the influence of business in public health policymaking.",
-        "source": {
-          "id": "dailymaverick",
-          "name": "Daily Maverick"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:48:33.000Z",
-        "imageUrl": "https://cdn.dailymaverick.co.za/i/KFcePOGAXKfC07YxQhbjZvdnCFg=/800x0/smart/filters:strip_exif()/file/attachments/orphans/MC-Nedlac-HPL1_673154.jpg",
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:48:33.000Z"
-    },
-    {
-      "id": "KVzqA2-mEvan",
-      "representative": {
-        "id": "KVzqA2-mEvan",
-        "url": "https://www.dailymaverick.co.za/article/2026-10-06-francis-halzen-wins-2026-nobel-prize-in-physics/",
-        "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-francis-halzen-wins-2026-nobel-prize-in-physics/",
-        "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
-        "description": "Belgian-American Particle physicist Francis Halzen won the 2026 Nobel Prize in Physics for \"decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin\", the award-giving body said on Tuesday.",
-        "source": {
-          "id": "dailymaverick",
-          "name": "Daily Maverick"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:45:26.000Z",
-        "imageUrl": "https://cdn.dailymaverick.co.za/i/IgeZI0WjRJfNPeEYunDu_YqcGPI=/800x0/smart/filters:strip_exif()/file/attachments/2998/14341911_155921.jpg",
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:45:26.000Z"
-    },
-    {
       "id": "HZWya0RcD3hS",
       "representative": {
         "id": "HZWya0RcD3hS",
@@ -305,78 +233,6 @@
       "latestPublishedAt": "2026-10-06T12:45:17.000Z"
     },
     {
-      "id": "R8rBv-ieknX4",
-      "representative": {
-        "id": "R8rBv-ieknX4",
-        "url": "https://www.dailymaverick.co.za/article/2026-10-06-kremlin-warns-lithuania-that-its-move-to-lift-a-nuclear-arms-ban-risks-further-escalation/",
-        "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-kremlin-warns-lithuania-that-its-move-to-lift-a-nuclear-arms-ban-risks-further-escalation/",
-        "title": "Kremlin warns Lithuania that its move to lift a nuclear arms ban risks further escalation",
-        "description": "The Kremlin on Tuesday warned that a preliminary decision by NATO member Lithuania to lift a constitutional ban on hosting nuclear arms on its territory could lead to a new round of escalation in the region.",
-        "source": {
-          "id": "dailymaverick",
-          "name": "Daily Maverick"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:45:08.000Z",
-        "imageUrl": "https://cdn.dailymaverick.co.za/i/HLa57mFp8IpI0Qotdo3fnr0SE4g=/800x0/smart/filters:strip_exif()/file/attachments/2998/14247754_968968.jpg",
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:45:08.000Z"
-    },
-    {
-      "id": "lEtHFC5bZR8A",
-      "representative": {
-        "id": "lEtHFC5bZR8A",
-        "url": "https://www.dailymaverick.co.za/article/2026-10-06-former-german-spy-chief-arrested-over-alleged-buying-of-classified-information/",
-        "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-former-german-spy-chief-arrested-over-alleged-buying-of-classified-information/",
-        "title": "Former German spy chief arrested over alleged buying of classified information",
-        "description": "Former German foreign intelligence chief August Hanning was arrested on Tuesday on suspicion of paying for access to classified documents and using them to prepare an analysis for a foreign intelligence service, federal prosecutors said.",
-        "source": {
-          "id": "dailymaverick",
-          "name": "Daily Maverick"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:44:58.000Z",
-        "imageUrl": "https://cdn.dailymaverick.co.za/i/TIVbSiS3AsycpkueabGVEpDYYzg=/800x0/smart/filters:strip_exif()/file/attachments/2998/14341715_830355.jpg",
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:44:58.000Z"
-    },
-    {
-      "id": "zrb7ozcx8spO",
-      "representative": {
-        "id": "zrb7ozcx8spO",
-        "url": "https://www.timeslive.co.za/news/world/2026-10-06-spain-approves-housing-decrees-that-sparked-snap-election/",
-        "canonicalUrl": "https://www.timeslive.co.za/news/world/2026-10-06-spain-approves-housing-decrees-that-sparked-snap-election/",
-        "title": "Spain approves housing decrees that sparked snap election",
-        "description": "Public broadly in favour of intervention in the property market, says prime minister",
-        "source": {
-          "id": "timeslive",
-          "name": "TimesLIVE"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:38:37.000Z",
-        "imageUrl": "https://www.timeslive.co.za/resizer/v2/VJNNPE227FEZ7EJVPUCGCEU2BI.JPG?auth=fd487cb2ca575daafc1c48f259f52e4c4ee3e1bbb3f5eb49ca1e2905b78bf425&smart=true&width=1200&height=800",
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:38:37.000Z"
-    },
-    {
       "id": "JGTHxuSFe48L",
       "representative": {
         "id": "JGTHxuSFe48L",
@@ -417,6 +273,150 @@
       "outletCount24h": 1,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:30:46.000Z"
+    },
+    {
+      "id": "aUxj5PwkHQJw",
+      "representative": {
+        "id": "aUxj5PwkHQJw",
+        "url": "https://iol.co.za/news/south-africa/2026-10-06-march-and-march-shuts-durban-refugee-centre/",
+        "canonicalUrl": "https://iol.co.za/news/south-africa/2026-10-06-march-and-march-shuts-durban-refugee-centre/",
+        "title": "March and March shuts Durban refugee centre",
+        "description": "The standoff comes after a Constitutional Court ruling strengthened access to the asylum system for undocumented people who say they need protection in South Africa.",
+        "source": {
+          "id": "iol",
+          "name": "IOL"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:21:00.000Z",
+        "imageUrl": "https://iol-prod.appspot.com/image/a85493c5facd302537a31cc7934988e2fd939655",
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:21:00.000Z"
+    },
+    {
+      "id": "6BBeKgtEzyUW",
+      "representative": {
+        "id": "6BBeKgtEzyUW",
+        "url": "https://www.sabcnews.com/sabcnews/sanef-deeply-saddened-by-phasiwes-untimely-passing/",
+        "canonicalUrl": "https://www.sabcnews.com/sabcnews/sanef-deeply-saddened-by-phasiwes-untimely-passing/",
+        "title": "SANEF deeply saddened by Phasiwe’s untimely passing",
+        "description": "SANEF says they are deeply saddened by untimely passing of former journalist Khulu Phasiwe.",
+        "source": {
+          "id": "sabc",
+          "name": "SABC News"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:20:31.000Z",
+        "imageUrl": null,
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:20:31.000Z"
+    },
+    {
+      "id": "5PvFdunDPnO4",
+      "representative": {
+        "id": "5PvFdunDPnO4",
+        "url": "https://www.sabcnews.com/sabcnews/four-judges-vie-for-deputy-judge-president-ec-high-court-position/",
+        "canonicalUrl": "https://www.sabcnews.com/sabcnews/four-judges-vie-for-deputy-judge-president-ec-high-court-position/",
+        "title": "Four judges vie for Deputy Judge President EC High Court position",
+        "description": "Four judges are competing for the position of Deputy Judge President.",
+        "source": {
+          "id": "sabc",
+          "name": "SABC News"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:06:31.000Z",
+        "imageUrl": null,
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:06:31.000Z"
+    },
+    {
+      "id": "AKgXRj-cnCrJ",
+      "representative": {
+        "id": "AKgXRj-cnCrJ",
+        "url": "https://iol.co.za/news/south-africa/western-cape/2026-10-06-thousands-of-western-cape-learners-stranded-after-transport-operators-suspend-services/",
+        "canonicalUrl": "https://iol.co.za/news/south-africa/western-cape/2026-10-06-thousands-of-western-cape-learners-stranded-after-transport-operators-suspend-services/",
+        "title": "Thousands of Western Cape learners stranded after transport operators suspend services",
+        "description": "Thousands of Western Cape learners were left without transport on Tuesday after SANSBOC-WC suspended services over rising diesel costs and an alleged lack of financial relief from the provincial education department.",
+        "source": {
+          "id": "iol",
+          "name": "IOL"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:44:00.000Z",
+        "imageUrl": "https://iol-prod.appspot.com/image/6887c98319d64a6ea9eba2e14ed253dad36035b2",
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:44:00.000Z"
+    },
+    {
+      "id": "S6tvucTBRLOb",
+      "representative": {
+        "id": "S6tvucTBRLOb",
+        "url": "https://www.enca.com/news-top-stories-videos/govt-warns-against-panic-buying-record-fuel-prices-take-effect",
+        "canonicalUrl": "https://www.enca.com/news-top-stories-videos/govt-warns-against-panic-buying-record-fuel-prices-take-effect",
+        "title": "Govt warns against panic buying as record fuel prices take effect",
+        "description": "Govt warns against panic buying as record fuel prices take effect Estelle.Bronkhorst Tue, 10/06/2026 - 12:50 File: A car filling up at a petrol station. GettyImages/Fahroni JOHANNESBURG - Government is urging motorists to avoid panic buying as South Africa prepares for record fuel prices from…",
+        "source": {
+          "id": "enca",
+          "name": "eNCA"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:50:00.000Z",
+        "imageUrl": "https://www.enca.com/sites/default/files/styles/banner_image/public/2026-08/Picture1_5.jpg.webp?itok=hHucED93",
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:50:00.000Z"
+    },
+    {
+      "id": "_0vRJEKQNDyH",
+      "representative": {
+        "id": "_0vRJEKQNDyH",
+        "url": "https://www.enca.com/business-top-stories-videos/fuel-price-increase-could-push-cost-goods-freight-industry-warns",
+        "canonicalUrl": "https://www.enca.com/business-top-stories-videos/fuel-price-increase-could-push-cost-goods-freight-industry-warns",
+        "title": "Fuel price increase could push up cost of goods, freight industry warns",
+        "description": "Fuel price increase could push up cost of goods, freight industry warns bombeleni_temp Tue, 10/06/2026 - 12:45 JOHANNESBURG - Consumers may not feel the full impact of the latest fuel price increase immediately, but the additional costs are expected to filter through to the prices of goods in the…",
+        "source": {
+          "id": "enca",
+          "name": "eNCA"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:45:00.000Z",
+        "imageUrl": "https://www.enca.com/sites/default/files/styles/banner_image/public/2023-07/FCC2_132830005016500000.jpg.webp?itok=WGL8SXUz",
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:45:00.000Z"
     }
   ]
 }

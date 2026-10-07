@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "YE",
   "countryName": "Yemen",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "8Q8BA_hvXK8J",
@@ -119,30 +119,6 @@
       "latestPublishedAt": "2026-10-06T18:29:00.000Z"
     },
     {
-      "id": "AfRAr46EULh1",
-      "representative": {
-        "id": "AfRAr46EULh1",
-        "url": "https://www.adngad.net/news/886748",
-        "canonicalUrl": "https://www.adngad.net/news/886748",
-        "title": "الشيخ محمد هدران يعزي مدير عام الوضيع باستشهاد نجله وابن أخيه",
-        "description": "بعث الشيخ محمد سالم هدران خالص التعازي وصادق المواساة إلى الشيخ ناصر أحمد سُمَّن، مدير عام مديرية الوضيع، في استشهاد نجله عبدالله ناصر أحمد سُمَّن واب",
-        "source": {
-          "id": "adengad",
-          "name": "Aden al-Ghad"
-        },
-        "sourceCountry": "YE",
-        "language": "ar",
-        "publishedAt": "2026-10-06T18:25:00.000Z",
-        "imageUrl": "https://www.adngad.net/UploadFiles/2026/Oct/06/6a107be0-651f-44bd-842c-5cfe1683c69f.jpg",
-        "countryCode": "YE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T18:25:00.000Z"
-    },
-    {
       "id": "d3FZKNtVCQaU",
       "representative": {
         "id": "d3FZKNtVCQaU",
@@ -213,6 +189,102 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T18:02:04.000Z"
+    },
+    {
+      "id": "NjYSdRCGEy8g",
+      "representative": {
+        "id": "NjYSdRCGEy8g",
+        "url": "https://www.yemenmonitor.com/Details/ArtMID/908/ArticleID/184073?utm_source=rss&utm_medium=rss&utm_campaign=%25d9%2585%25d9%2586-%25d8%25a7%25d9%2584%25d8%25b1%25d9%258a%25d8%25a7%25d8%25b6-%25d8%25a7%25d9%2584%25d8%25b9%25d9%2584%25d9%258a%25d9%2585%25d9%258a-%25d9%258a%25d8%25aa%25d8%25a7%25d8%25a8%25d8%25b9-%25d9%2581%25d8%25ac%25d8%25b1-%25d8%25a7%25d9%2584%25d9%258a%25d9%2585%25d9%2586-%25d9%2588%25d9%258a%25d8%25b4",
+        "canonicalUrl": "https://www.yemenmonitor.com/Details/ArtMID/908/ArticleID/184073",
+        "title": "من الرياض.. العليمي يتابع “فجر اليمن” ويشيد بتقدم القوات الحكومية وإسناد التحالف",
+        "description": "تابع رئيس مجلس القيادة الرئاسي اليمني رشاد محمد العليمي، الثلاثاء، مستجدات عملية \"فجر اليمن\" والتطورات العسكرية في عدد من محاور القتال، مشيداً بما وصفه بالانتصارات التي حققتها القوات المسلحة والتشكيلات العسكرية والمقاومة الشعبية، بدعم من تحالف دعم الشرعية. The post من الرياض.. العليمي يتابع “فجر…",
+        "source": {
+          "id": "yemenmonitor",
+          "name": "Yemen Monitor"
+        },
+        "sourceCountry": "YE",
+        "language": "ar",
+        "publishedAt": "2026-10-06T17:30:48.000Z",
+        "imageUrl": null,
+        "countryCode": "YE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:30:48.000Z"
+    },
+    {
+      "id": "VQ9-veedfFyO",
+      "representative": {
+        "id": "VQ9-veedfFyO",
+        "url": "https://alsahwayemen.net/p-96203",
+        "canonicalUrl": "https://alsahwayemen.net/p-96203",
+        "title": "مقتل 6 مدنيين وإصابة 4 بقصف حوثي جنوب تعز",
+        "description": "قُتل 6 مدنيين وأُصيب 4 آخرون، بينهم نساء وأطفال، جراء قصف حوثي استهدف قرى سكنية في المواسط والمسراخ ومنطقة قدس، جنوبي تعز، بحسب مصادر محلية. وقالت المصادر إن القصف أودى بحياة امرأة وأصاب أربعة مدنيين في قرى بني يوسف بالمواسط، فيما سقط قتلى من أسرة واحدة إثر استهداف منزلها بقذيفة هاون في قرية الصر",
+        "source": {
+          "id": "alsahwa",
+          "name": "Al-Sahwa Net"
+        },
+        "sourceCountry": "YE",
+        "language": "ar",
+        "publishedAt": "2026-10-06T17:19:00.000Z",
+        "imageUrl": "https://alsahwayemen.net/UploadControl/UploadImages_News/picture/2026/10/A10T_06_10_2026_08_19_53.jpg",
+        "countryCode": "YE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:19:00.000Z"
+    },
+    {
+      "id": "V_GBvKEzTtVN",
+      "representative": {
+        "id": "V_GBvKEzTtVN",
+        "url": "https://www.yemenmonitor.com/Details/ArtMID/908/ArticleID/184071?utm_source=rss&utm_medium=rss&utm_campaign=%25d8%25a7%25d9%2586%25d8%25b3%25d8%25ad%25d8%25a7%25d8%25a8-%25d9%2585%25d9%2581%25d8%25a7%25d8%25ac%25d8%25a6-%25d9%2584%25d9%2584%25d8%25ad%25d9%2588%25d8%25ab%25d9%258a%25d9%258a%25d9%2586-%25d9%2585%25d9%2586-%25d9%2585%25d9%2586%25d8%25a7%25d8%25b7%25d9%2582-%25d8%25ba%25d8%25b1%25d8%25a8%25d9%258a-%25d8%25aa%25d8%25b9",
+        "canonicalUrl": "https://www.yemenmonitor.com/Details/ArtMID/908/ArticleID/184071",
+        "title": "انسحاب مفاجئ للحوثيين من مناطق غربي تعز وسط استمرار الاشتباكات بجبهة الكدحة",
+        "description": "قال مراسل \"يمن مونيتور\" إن مسلحي جماعة الحوثي انسحبت بشكل مفاجئ من عدة مناطق غربي محافظة تعز. The post انسحاب مفاجئ للحوثيين من مناطق غربي تعز وسط استمرار الاشتباكات بجبهة الكدحة appeared first on يمن مونيتور .",
+        "source": {
+          "id": "yemenmonitor",
+          "name": "Yemen Monitor"
+        },
+        "sourceCountry": "YE",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:38:57.000Z",
+        "imageUrl": null,
+        "countryCode": "YE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:38:57.000Z"
+    },
+    {
+      "id": "AfRAr46EULh1",
+      "representative": {
+        "id": "AfRAr46EULh1",
+        "url": "https://www.adngad.net/news/886748",
+        "canonicalUrl": "https://www.adngad.net/news/886748",
+        "title": "الشيخ محمد هدران يعزي مدير عام الوضيع باستشهاد نجله وابن أخيه",
+        "description": "بعث الشيخ محمد سالم هدران خالص التعازي وصادق المواساة إلى الشيخ ناصر أحمد سُمَّن، مدير عام مديرية الوضيع، في استشهاد نجله عبدالله ناصر أحمد سُمَّن واب",
+        "source": {
+          "id": "adengad",
+          "name": "Aden al-Ghad"
+        },
+        "sourceCountry": "YE",
+        "language": "ar",
+        "publishedAt": "2026-10-06T18:25:00.000Z",
+        "imageUrl": "https://www.adngad.net/UploadFiles/2026/Oct/06/6a107be0-651f-44bd-842c-5cfe1683c69f.jpg",
+        "countryCode": "YE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:25:00.000Z"
     },
     {
       "id": "JtTjLRa3jXbU",
@@ -309,78 +381,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T17:40:00.000Z"
-    },
-    {
-      "id": "LzR7pMiary5K",
-      "representative": {
-        "id": "LzR7pMiary5K",
-        "url": "https://www.adngad.net/news/886743",
-        "canonicalUrl": "https://www.adngad.net/news/886743",
-        "title": "بحضور رئيس جامعة عدن.. كلية الصيدلة تناقش أول رسالة ماجستير في الكيمياء الصيدلانية",
-        "description": "شهدت كلية الصيدلة بجامعة عدن، اليوم، بحضور رئيس الجامعة الأستاذ الدكتور/الخضر ناصر لصور، المناقشة العلنية لرسالة الباحث/عمر سعيد معجم لنيل درجة الماجس",
-        "source": {
-          "id": "adengad",
-          "name": "Aden al-Ghad"
-        },
-        "sourceCountry": "YE",
-        "language": "ar",
-        "publishedAt": "2026-10-06T17:38:00.000Z",
-        "imageUrl": "https://www.adngad.net/UploadFiles/2026/Oct/06/67fed607-5557-4ec4-b6ac-915188a27ca5.jpg",
-        "countryCode": "YE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:38:00.000Z"
-    },
-    {
-      "id": "8U9-nVk-Aco5",
-      "representative": {
-        "id": "8U9-nVk-Aco5",
-        "url": "https://www.adngad.net/news/886742",
-        "canonicalUrl": "https://www.adngad.net/news/886742",
-        "title": "رئيس جامعة عدن يبحث مع الوردي وراجح آفاق الشراكة في الاقتصاد والقانون",
-        "description": "بحث رئيس جامعة عدن الأستاذ الدكتور/الخضر ناصر لصور، اليوم، مع رئيس الغرفة التجارية والصناعية بمحافظة لحج ورئيس الملتقى الاقتصادي الوطني العام الأستاذ/",
-        "source": {
-          "id": "adengad",
-          "name": "Aden al-Ghad"
-        },
-        "sourceCountry": "YE",
-        "language": "ar",
-        "publishedAt": "2026-10-06T17:37:00.000Z",
-        "imageUrl": "https://www.adngad.net/UploadFiles/2026/Oct/06/9b00cbd5-2097-4ccd-aa5d-758390232fe1.jpg",
-        "countryCode": "YE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:37:00.000Z"
-    },
-    {
-      "id": "n82WiMdynoqr",
-      "representative": {
-        "id": "n82WiMdynoqr",
-        "url": "https://www.adngad.net/news/886741",
-        "canonicalUrl": "https://www.adngad.net/news/886741",
-        "title": "مكتب التربية والتعليم بخنفر يواصل نزوله الميداني لمتابعة سير العملية التعليمية في مدارس المديرية",
-        "description": "يواصل مكتب التربية والتعليم بمديرية خنفر في محافظة أبين نزوله الميداني إلى مدارس المديرية في إطار جهوده المستمرة لمتابعة سير العملية التعليمية والاطلا",
-        "source": {
-          "id": "adengad",
-          "name": "Aden al-Ghad"
-        },
-        "sourceCountry": "YE",
-        "language": "ar",
-        "publishedAt": "2026-10-06T17:37:00.000Z",
-        "imageUrl": "https://www.adngad.net/UploadFiles/2026/Oct/06/9b48f70b-640e-4c9b-813e-b699459603ad.jpg",
-        "countryCode": "YE",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:37:00.000Z"
     }
   ]
 }

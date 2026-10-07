@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "MA",
   "countryName": "Morocco",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
-    {
-      "id": "WuRy8BpamyNw",
-      "representative": {
-        "id": "WuRy8BpamyNw",
-        "url": "https://telquel.ma/instant-t/2026/10/06/ciment-pres-de-11-millions-de-tonnes-de-livraisons-a-fin-septembre_2011640/",
-        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/06/ciment-pres-de-11-millions-de-tonnes-de-livraisons-a-fin-septembre_2011640/",
-        "title": "Ciment : près de 11 millions de tonnes de livraisons à fin septembre",
-        "description": "Les livraisons de ciment ont atteint près de 11 millions de tonnes (MT) à fin septembre 2026, en légère hausse de 1,17% par rapport à la même période une année auparavant, selon les données du ministère de l’Aménagement du territoire national, de l’Urbanisme, de l’Habitat et de la Politique de la…",
-        "source": {
-          "id": "telquel",
-          "name": "TelQuel"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:32:26.000Z",
-        "imageUrl": "https://static.telquel.ma/content/uploads/2014/04/cimenttt_.jpg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "oavxPZN2d3AU",
-          "url": "https://www.lavieeco.com/affaires/ciments-11-millions-de-tonnes-livres-a-fin-septembre/",
-          "canonicalUrl": "https://www.lavieeco.com/affaires/ciments-11-millions-de-tonnes-livres-a-fin-septembre/",
-          "title": "Ciments : 11 millions de tonnes livrées à fin septembre",
-          "description": "La consommation de ciment ressort en hausse de 1,17% sur un an. Le seul mois de septembre affiche toutefois une progression beaucoup plus marquée de 19,31%. L’article Ciments : 11 millions de tonnes livrées à fin septembre est apparu en premier sur La Vie éco .",
-          "source": {
-            "id": "lavieeco",
-            "name": "La Vie éco"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:15:43.000Z",
-          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/Chargement-de-ciment-a-lusine-1024x683.png",
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:32:26.000Z"
-    },
     {
       "id": "nk3iJhXP7qLT",
       "representative": {
@@ -152,6 +110,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:39:38.000Z"
+    },
+    {
+      "id": "WuRy8BpamyNw",
+      "representative": {
+        "id": "WuRy8BpamyNw",
+        "url": "https://telquel.ma/instant-t/2026/10/06/ciment-pres-de-11-millions-de-tonnes-de-livraisons-a-fin-septembre_2011640/",
+        "canonicalUrl": "https://telquel.ma/instant-t/2026/10/06/ciment-pres-de-11-millions-de-tonnes-de-livraisons-a-fin-septembre_2011640/",
+        "title": "Ciment : près de 11 millions de tonnes de livraisons à fin septembre",
+        "description": "Les livraisons de ciment ont atteint près de 11 millions de tonnes (MT) à fin septembre 2026, en légère hausse de 1,17% par rapport à la même période une année auparavant, selon les données du ministère de l’Aménagement du territoire national, de l’Urbanisme, de l’Habitat et de la Politique de la…",
+        "source": {
+          "id": "telquel",
+          "name": "TelQuel"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:32:26.000Z",
+        "imageUrl": "https://static.telquel.ma/content/uploads/2014/04/cimenttt_.jpg",
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "oavxPZN2d3AU",
+          "url": "https://www.lavieeco.com/affaires/ciments-11-millions-de-tonnes-livres-a-fin-septembre/",
+          "canonicalUrl": "https://www.lavieeco.com/affaires/ciments-11-millions-de-tonnes-livres-a-fin-septembre/",
+          "title": "Ciments : 11 millions de tonnes livrées à fin septembre",
+          "description": "La consommation de ciment ressort en hausse de 1,17% sur un an. Le seul mois de septembre affiche toutefois une progression beaucoup plus marquée de 19,31%. L’article Ciments : 11 millions de tonnes livrées à fin septembre est apparu en premier sur La Vie éco .",
+          "source": {
+            "id": "lavieeco",
+            "name": "La Vie éco"
+          },
+          "sourceCountry": "MA",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:15:43.000Z",
+          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/Chargement-de-ciment-a-lusine-1024x683.png",
+          "countryCode": "MA",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:32:26.000Z"
     },
     {
       "id": "F_CYa-09m-Ah",
@@ -364,30 +364,6 @@
       "latestPublishedAt": "2026-10-06T12:52:00.000Z"
     },
     {
-      "id": "m2MaVuBbJJ-T",
-      "representative": {
-        "id": "m2MaVuBbJJ-T",
-        "url": "https://www.lavieeco.com/au-royaume/gst-fes-meknes-une-feuille-de-route-pour-harmoniser-les-soins-primaires/",
-        "canonicalUrl": "https://www.lavieeco.com/au-royaume/gst-fes-meknes-une-feuille-de-route-pour-harmoniser-les-soins-primaires/",
-        "title": "GST Fès-Meknès : Une feuille de route pour harmoniser les soins primaires",
-        "description": "Le GST Fès-Meknès passe à une nouvelle étape dans la territorialisation de l’offre de soins avec l’adoption d’une feuille de route régionale fondée sur la coordination, le suivi de la performance et l’équité territoriale. L’article GST Fès-Meknès : Une feuille de route pour harmoniser les soins…",
-        "source": {
-          "id": "lavieeco",
-          "name": "La Vie éco"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:46:30.000Z",
-        "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/santee.jpg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:46:30.000Z"
-    },
-    {
       "id": "XS9WhDiBnJAT",
       "representative": {
         "id": "XS9WhDiBnJAT",
@@ -434,6 +410,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:22:00.000Z"
+    },
+    {
+      "id": "IdUmMcdU71iX",
+      "representative": {
+        "id": "IdUmMcdU71iX",
+        "url": "https://fr.hespress.com/491254-nobel-de-physique-le-belge-francis-halzen-recompense-pour-ses-travaux-sur-les-neutrinos.html",
+        "canonicalUrl": "https://fr.hespress.com/491254-nobel-de-physique-le-belge-francis-halzen-recompense-pour-ses-travaux-sur-les-neutrinos.html",
+        "title": "Nobel de physique: le Belge Francis Halzen récompensé pour ses travaux sur les neutrinos",
+        "description": "Le prix Nobel de physique 2026 a été attribué mardi au physicien belge Francis Halzen, de l’Université du Wisconsin-Madison, pour ses contributions à l’observatoire de neutrinos IceCube et à la découverte de neutrinos de haute énergie d’origine astrophysique, a annoncé le comité Nobel. Né à…",
+        "source": {
+          "id": "hespress_fr",
+          "name": "Hespress FR"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:10:32.000Z",
+        "imageUrl": "https://f2.hespress.com/wp-content/uploads/2026/10/Francis-Halzen-nobel.jpg",
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:10:32.000Z"
     }
   ]
 }

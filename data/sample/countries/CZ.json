@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CZ",
   "countryName": "Czechia",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "1PYMBYPnr0PS",
@@ -257,30 +257,6 @@
       "latestPublishedAt": "2026-10-06T13:43:27.000Z"
     },
     {
-      "id": "5Y20mygMlNCd",
-      "representative": {
-        "id": "5Y20mygMlNCd",
-        "url": "https://www.novinky.cz/clanek/auto-prilis-mnoho-elektromobilu-na-ceste-cina-pro-ne-nasazuje-obri-mobilni-powerbanky-40601113",
-        "canonicalUrl": "https://www.novinky.cz/clanek/auto-prilis-mnoho-elektromobilu-na-ceste-cina-pro-ne-nasazuje-obri-mobilni-powerbanky-40601113",
-        "title": "Příliš mnoho elektromobilů na cestě. Čína pro ně nasazuje obří mobilní powerbanky",
-        "description": "Na začátku října, kdy v Číně začaly svátky, vedl prudký nárůst počtu elektromobilů na dálnicích k dlouhým frontám u stálých nabíjecích stanic. Objevuje se proto alternativa v podobě mobilních nabíjecích stanic s bateriemi na nákladních autech.",
-        "source": {
-          "id": "novinky",
-          "name": "Novinky.cz"
-        },
-        "sourceCountry": "CZ",
-        "language": "cs",
-        "publishedAt": "2026-10-06T13:43:26.000Z",
-        "imageUrl": null,
-        "countryCode": "CZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:43:26.000Z"
-    },
-    {
       "id": "TmtA31uIPpEA",
       "representative": {
         "id": "TmtA31uIPpEA",
@@ -353,30 +329,6 @@
       "latestPublishedAt": "2026-10-06T13:40:00.000Z"
     },
     {
-      "id": "dFU-Uw4Vwa7L",
-      "representative": {
-        "id": "dFU-Uw4Vwa7L",
-        "url": "https://www.novinky.cz/clanek/krimi-miminko-spadlo-po-prudkem-porodu-na-zem-muze-za-to-lekar-rozhodl-soud-v-ceske-lipe-40601117",
-        "canonicalUrl": "https://www.novinky.cz/clanek/krimi-miminko-spadlo-po-prudkem-porodu-na-zem-muze-za-to-lekar-rozhodl-soud-v-ceske-lipe-40601117",
-        "title": "Miminko spadlo po prudkém porodu na zem. Může za to lékař, rozhodl soud v České Lípě",
-        "description": "Okresní soud v České Lípě vynesl v úterý rozsudek v zapeklitém případu, v němž šlo o strašidelný průběh jednoho porodu. Novorozenou holčičku při něm porodník nestihl zachytit a miminko přeletělo přes stůl na zem a utrpělo vážná poranění na hlavě.",
-        "source": {
-          "id": "novinky",
-          "name": "Novinky.cz"
-        },
-        "sourceCountry": "CZ",
-        "language": "cs",
-        "publishedAt": "2026-10-06T13:35:07.000Z",
-        "imageUrl": null,
-        "countryCode": "CZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:35:07.000Z"
-    },
-    {
       "id": "lgeQ-JybZsmm",
       "representative": {
         "id": "lgeQ-JybZsmm",
@@ -399,6 +351,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:30:00.000Z"
+    },
+    {
+      "id": "PD-Wb-SLxI3B",
+      "representative": {
+        "id": "PD-Wb-SLxI3B",
+        "url": "https://www.idnes.cz/zpravy/domaci/vstupne-zdarma-prilakalo-na-hrady-a-zamky-122-tisic-navstevniku-pamatkari-ho-planuji-zopakovat.A261006_142926_domaci_row#utm_source=rss&utm_medium=feed&utm_campaign=zpravodaj&utm_content=main",
+        "canonicalUrl": "https://www.idnes.cz/zpravy/domaci/vstupne-zdarma-prilakalo-na-hrady-a-zamky-122-tisic-navstevniku-pamatkari-ho-planuji-zopakovat.A261006_142926_domaci_row",
+        "title": "Vstupné zdarma přilákalo na hrady a zámky 122 tisíc návštěvníků. Památkáři ho plánují zopakovat",
+        "description": "Sezona na hradech a zámcích s příchodem podzimu ještě nekončí, připomínají památkáři a lákají návštěvníky k výletů na hrady a zámky i během října. Letos památky zavírají až v neděli 1. listopadu. „Máme za sebou úspěšnou sezónu, která ještě nekončí, na její závěr jsme připravili řadu zajímavých…",
+        "source": {
+          "id": "idnes",
+          "name": "iDNES.cz"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:26:00.000Z",
+        "imageUrl": "https://1gr.cz/fotky/idnes/23/072/cl6/IHA7d03f03791_shutterstock_1836229654.jpg",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:26:00.000Z"
+    },
+    {
+      "id": "eLBffAHLVEp4",
+      "representative": {
+        "id": "eLBffAHLVEp4",
+        "url": "https://www.irozhlas.cz/zpravy-svet/turecek-aliance-z-mekky-planuje-husie-vojensky-zcela-zlikvidovat-nechteji-na-ne_2610061517_aru",
+        "canonicalUrl": "https://www.irozhlas.cz/zpravy-svet/turecek-aliance-z-mekky-planuje-husie-vojensky-zcela-zlikvidovat-nechteji-na-ne_2610061517_aru",
+        "title": "Tureček: Aliance z Mekky plánuje Húsie vojensky zcela zlikvidovat. Nechtějí na ně ale útočit v Jemenu",
+        "description": "V Jemenu eskalovaly boje mezi koalicí vedenou Saúdskou Arábií a povstaleckými Húsíi podporovanými Íránem. Koalice uvedla, že v přístavu Hudajdá zničila sklady zbraní a zmařila plánovaný útok na lodní trasy v Rudém moři. „Jak lidé v Ankaře, tak Islámábádu dávají najevo, že jsou připraveni a už…",
+        "source": {
+          "id": "irozhlas",
+          "name": "iROZHLAS"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:17:00.000Z",
+        "imageUrl": "https://www.irozhlas.cz/sites/default/files/styles/zpravy_maly_nahled/public/images/0e4c98771c45ad33b6dd9907c6ff2842.jpg?itok=HYDXCNlA",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:17:00.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IL",
   "countryName": "Israel",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "jGLvb04-1AU0",
@@ -399,30 +399,6 @@
       "latestPublishedAt": "2026-10-06T17:48:37.000Z"
     },
     {
-      "id": "AFMIMhNM1ZEy",
-      "representative": {
-        "id": "AFMIMhNM1ZEy",
-        "url": "https://www.israelhayom.co.il/news/politics/article/21567767",
-        "canonicalUrl": "https://www.israelhayom.co.il/news/politics/article/21567767",
-        "title": "\"ישראל בקרוב מאוד תחדל להיות המדינה שאנחנו מכירים\"",
-        "description": "יו\"ר \"ישר!\" הזהיר ערב 7 באוקטובר מפני המשך \"המסלול הנוכחי\" ותקף את הפטור משירות, היעדר ועדת חקירה והשיח המפלג • על התקריות נגד חיילי צה\"ל: \"אף חבר ממשלה לא פצה פה\"",
-        "source": {
-          "id": "israelhayom",
-          "name": "Israel Hayom"
-        },
-        "sourceCountry": "IL",
-        "language": "he",
-        "publishedAt": "2026-10-06T17:47:36.000Z",
-        "imageUrl": null,
-        "countryCode": "IL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:47:36.000Z"
-    },
-    {
       "id": "DPkqnxyMedBa",
       "representative": {
         "id": "DPkqnxyMedBa",
@@ -447,28 +423,52 @@
       "latestPublishedAt": "2026-10-06T17:46:57.000Z"
     },
     {
-      "id": "s8TV8g1agV9b",
+      "id": "JIT4drly8IWY",
       "representative": {
-        "id": "s8TV8g1agV9b",
-        "url": "https://www.israelhayom.co.il/news/local/article/21567812",
-        "canonicalUrl": "https://www.israelhayom.co.il/news/local/article/21567812",
-        "title": "חזרתי הביתה, אבל הדרך לא הסתיימה",
-        "description": "מהאמונה שהחזיקה אותי במנהרות ועד החזרה לאבא ולמשפחה - השיקום נמשך • עכשיו אני רוצה להפוך את המסירות שהפגינו למעני למחויבות: לזכור, להיות נוכח ולפעול למען אחרים",
+        "id": "JIT4drly8IWY",
+        "url": "https://www.inn.co.il/flashes/1134838",
+        "canonicalUrl": "https://www.inn.co.il/flashes/1134838",
+        "title": "עמך ישראל מכחישה: \"אף מועמד לא מתכוון לעזוב\"",
+        "description": "<p>מפלגת עמך ישראל הכחישה הערב (שלישי) את הפרסום של בועז גולן בערוץ 14, שלפיו שני מועמדים מרשימתה מתכוונים לעזוב.</p><p>במפלגה כינו את הדיווח \"פייק ניוז מוחלט\" וטענו כי גולן מנהל נגדה \"מסע תעמולה שקרי\". עוד מסרו כי המפלגה ממשיכה בפעילותה וכי היום נרשם שיא בהצטרפות מתנדבים חדשים.</p>",
         "source": {
-          "id": "israelhayom",
-          "name": "Israel Hayom"
+          "id": "inn",
+          "name": "Arutz Sheva"
         },
         "sourceCountry": "IL",
         "language": "he",
-        "publishedAt": "2026-10-06T17:44:26.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T17:36:43.000Z",
+        "imageUrl": "https://www.inn.co.il/files/pictures/0/0.jpg",
         "countryCode": "IL",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:44:26.000Z"
+      "latestPublishedAt": "2026-10-06T17:36:43.000Z"
+    },
+    {
+      "id": "ZkQuhrz5lIMw",
+      "representative": {
+        "id": "ZkQuhrz5lIMw",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001558591#utm_source=RSS",
+        "canonicalUrl": "https://www.globes.co.il/news/article.aspx?did=1001558591",
+        "title": "\"הרגע הגלובלי\" של האירו יצטרך לחכות: סיכוני החוב מפילים את המטבע האירופי",
+        "description": "האירו נמצא בשפל של כשנה וחצי מול הדולר, על רקע החששות ממצבה הפיסקלי של צרפת, אי־היציבות הפוליטית באירופה והאפשרות למשבר חוב חדש • בעוד שהמשקיעים והאנליסטים דרוכים, החברות היצואניות ביבשת דווקא גוזרות קופון מהיחלשות המטבע",
+        "source": {
+          "id": "globes",
+          "name": "Globes"
+        },
+        "sourceCountry": "IL",
+        "language": "he",
+        "publishedAt": "2026-10-06T17:32:00.000Z",
+        "imageUrl": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1791292538/shutterstock_2526967181_unoifr.jpg",
+        "countryCode": "IL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:32:00.000Z"
     }
   ]
 }

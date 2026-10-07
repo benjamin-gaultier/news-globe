@@ -4,8 +4,156 @@
   "countryName": "France",
   "regionCode": "FR-GES",
   "regionName": "Grand Est",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
+    {
+      "id": "P2khA2RVF086",
+      "representative": {
+        "id": "P2khA2RVF086",
+        "url": "https://www.lalsace.fr/elections/2026/10/06/wittelsheim-le-tribunal-administratif-annule-le-scrutin-remporte-par-la-liste-de-raphaele-schober-seule-maire-rn-d-alsace",
+        "canonicalUrl": "https://www.lalsace.fr/elections/2026/10/06/wittelsheim-le-tribunal-administratif-annule-le-scrutin-remporte-par-la-liste-de-raphaele-schober-seule-maire-rn-d-alsace",
+        "title": "Municipales 2026. Le tribunal administratif annule l'élection à Wittelsheim, seule mairie RN d’Alsace",
+        "description": "Mardi 6 octobre, le tribunal administratif de Strasbourg a statué sur les deux recours dont il avait été saisi à l’issue des élections municipales de Wittelsheim en annulant le scrutin qui avait vu la liste de Raphaële Schober (Rassemblement national) l’emporter.",
+        "source": {
+          "id": "lalsace",
+          "name": "L'Alsace"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T10:03:00.000Z",
+        "imageUrl": "https://cdn-s-www.lalsace.fr/images/67CFE392-9593-4D00-81EA-D2501F41495C/NW_listB/le-tribunal-administratif-annule-l-election-a-wittelsheim-seule-mairie-rn-d-alsace-1791281022.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [
+        {
+          "id": "Y0KyLGvg4juK",
+          "url": "https://www.rue89strasbourg.com/annulation-elections-rassemblement-national-wittelsheim-398449",
+          "canonicalUrl": "https://www.rue89strasbourg.com/annulation-elections-rassemblement-national-wittelsheim-398449",
+          "title": "L’élection de la liste RN à Wittelsheim annulée",
+          "description": "Mardi 6 octobre, le tribunal administratif de Strasbourg a annulé les élections municipales de Wittelsheim. Plusieurs irrégularités relevées par la préfecture du Haut-Rhin et l'ancien maire de cette ville du Haut-Rhin ont été confirmées dans un scrutin qui s'était joué à quelques voix. Wittelsheim…",
+          "source": {
+            "id": "rue89strasbourg",
+            "name": "Rue89 Strasbourg"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T14:34:30.000Z",
+          "imageUrl": null,
+          "countryCode": "FR",
+          "regionCode": "FR-GES"
+        },
+        {
+          "id": "grUFdnYj--vP",
+          "url": "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/le-tribunal-administratif-de-strasbourg-annule-les-elections-municipales-de-wittelsheim-seule-ville-detenue-par-le-rassemblement-national-en-alsace-3428619.html",
+          "canonicalUrl": "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/le-tribunal-administratif-de-strasbourg-annule-les-elections-municipales-de-wittelsheim-seule-ville-detenue-par-le-rassemblement-national-en-alsace-3428619.html",
+          "title": "\"Je m'y attendais\", le tribunal administratif de Strasbourg annule les élections municipales de Wittelsheim, seule ville détenue par le Rassemblement national en Alsace",
+          "description": "Le jugement est tombé ce mardi 6 octobre : le tribunal administratif de Strasbourg a annulé les élections municipales de Wittelsheim. En cause : plusieurs irrégularités pointées du doigt par la préfecture du Haut-Rhin et l'ancien maire de la ville. Wittelsheim était la seule commune d'Alsace à…",
+          "source": {
+            "id": "france3_ges",
+            "name": "France 3 Grand Est"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T14:02:30.000Z",
+          "imageUrl": "https://france3-regions.franceinfo.fr/image/9iS2cGIGnJuTHhyQeN82vie4LNE/930x620/filters:format(webp)/regions/2026/10/06/6ac4c519566dd912002478.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-GES"
+        },
+        {
+          "id": "nxIxaO0uwizA",
+          "url": "https://www.ici.fr/grand-est/alsace-cea/wittelsheim/le-tribunal-administratif-de-strasbourg-annule-l-election-de-la-maire-rn-de-wittelsheim-4736603?at_medium=lien_RSS&at_locale=12",
+          "canonicalUrl": "https://www.ici.fr/grand-est/alsace-cea/wittelsheim/le-tribunal-administratif-de-strasbourg-annule-l-election-de-la-maire-rn-de-wittelsheim-4736603",
+          "title": "Le tribunal administratif de Strasbourg annule l'élection de la maire RN de Wittelsheim",
+          "description": "L'élection de la maire RN de Wittelsheim, dans le Haut-Rhin, est annulée. Ainsi en a décidé le tribunal administratif de Strasbourg, ce mardi 6 octobre. Les magistrats ont relevé deux irrégularités.",
+          "source": {
+            "id": "ici_ges",
+            "name": "ici Alsace, Lorraine, Champagne-Ardenne"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T09:52:15.000Z",
+          "imageUrl": "https://www.ici.fr/pikapi/images/7a1b900b-b722-4da7-ad52-156c6e86b85a/920x517?webp=false",
+          "countryCode": "FR",
+          "regionCode": "FR-GES"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T14:34:30.000Z"
+    },
+    {
+      "id": "idtMahYxePQy",
+      "representative": {
+        "id": "idtMahYxePQy",
+        "url": "https://www.ici.fr/grand-est/alsace-cea/mobilisation-lyceenne-un-adolescent-grievement-blesse-a-la-main-a-strasbourg-5329971?at_medium=lien_RSS&at_locale=12",
+        "canonicalUrl": "https://www.ici.fr/grand-est/alsace-cea/mobilisation-lyceenne-un-adolescent-grievement-blesse-a-la-main-a-strasbourg-5329971",
+        "title": "Mobilisation lycéenne : un adolescent grièvement blessé à la main à Strasbourg",
+        "description": "Un adolescent a été grièvement blessé à la main ce mercredi matin, en marge d'un blocus devant le lycée Couffignal de Strasbourg. Le jeune homme s'est blessé lors de son propre tir de mortier. Il a eu une partie de deux doigts arrachés.",
+        "source": {
+          "id": "ici_ges",
+          "name": "ici Alsace, Lorraine, Champagne-Ardenne"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T11:42:43.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/1c3326d0-db1d-48ac-9acb-cff0dee85e92/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:42:43.000Z"
+    },
+    {
+      "id": "3H191N_oT7k2",
+      "representative": {
+        "id": "3H191N_oT7k2",
+        "url": "https://www.ici.fr/emissions/ici-ca-marche-avec-olivier-cattiaux-et-ici-champagne-ardenne/comment-l-association-petits-princes-realise-des-reves-d-enfants-malades-a-reims-1526764?at_medium=lien_RSS&at_locale=21",
+        "canonicalUrl": "https://www.ici.fr/emissions/ici-ca-marche-avec-olivier-cattiaux-et-ici-champagne-ardenne/comment-l-association-petits-princes-realise-des-reves-d-enfants-malades-a-reims-1526764",
+        "title": "Comment l'association Petits Princes réalise des rêves d'enfants malades à Reims",
+        "description": "L'association Petits Princes réalise depuis 1987 les rêves d'enfants gravement malades. Clémentine Poulet et Léa Bonnefoux présentent ses actions en Champagne-Ardenne et sa recherche de bénévoles.",
+        "source": {
+          "id": "ici_ges",
+          "name": "ici Alsace, Lorraine, Champagne-Ardenne"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T08:08:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/dc8ee7bd-5ead-40b5-ae82-874690f574fd/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T08:08:00.000Z"
+    },
+    {
+      "id": "LHMmMCCR0EZB",
+      "representative": {
+        "id": "LHMmMCCR0EZB",
+        "url": "https://www.ici.fr/emissions/ici-ca-marche-avec-ici-lorraine-meurthe-et-moselle-et-vosges/dans-les-vosges-le-festival-histoire-d-en-rire-amene-l-humour-au-coeur-des-petits-villages-9681554?at_medium=lien_RSS&at_locale=33",
+        "canonicalUrl": "https://www.ici.fr/emissions/ici-ca-marche-avec-ici-lorraine-meurthe-et-moselle-et-vosges/dans-les-vosges-le-festival-histoire-d-en-rire-amene-l-humour-au-coeur-des-petits-villages-9681554",
+        "title": "Dans les Vosges, le festival Histoire d’en rire amène l’humour au cœur des petits villages",
+        "description": "Des humoristes professionnels, des salles des fêtes de petits villages et des spectacles entièrement gratuits : dans les Vosges, le festival itinérant Histoires d’en rire rapproche depuis bientôt dix ans la culture des habitants.",
+        "source": {
+          "id": "ici_ges",
+          "name": "ici Alsace, Lorraine, Champagne-Ardenne"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T08:04:00.000Z",
+        "imageUrl": null,
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T08:04:00.000Z"
+    },
     {
       "id": "7efbCquGsZTn",
       "representative": {
@@ -53,6 +201,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T06:00:00.000Z"
+    },
+    {
+      "id": "Tom_u4kU_7Zh",
+      "representative": {
+        "id": "Tom_u4kU_7Zh",
+        "url": "https://france3-regions.franceinfo.fr/grand-est/alsace/ils-ont-des-revendications-claires-que-nous-partageons-des-parents-et-des-enseignants-solidaires-du-mouvement-lyceen-3428550.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/grand-est/alsace/ils-ont-des-revendications-claires-que-nous-partageons-des-parents-et-des-enseignants-solidaires-du-mouvement-lyceen-3428550.html",
+        "title": "\"Ils ont des revendications claires, que nous partageons\" : des parents et des enseignants solidaires du mouvement lycéen",
+        "description": "Le mouvement des lycéens prend un nouveau tournant. Plusieurs syndicats et associations de parents d'élèves appellent à soutenir leur mobilisation et à rejoindre les manifestations prévues ce mardi 6 octobre 2026, à Strasbourg (Bas-Rhin) et Mulhouse (Haut-Rhin).",
+        "source": {
+          "id": "france3_ges",
+          "name": "France 3 Grand Est"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-05T18:08:09.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/_Kg8hze8w4wi7LDEpRj5SbmHPYE/930x620/filters:format(webp)/regions/2026/10/05/6ac3e6d624ed6807928875.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [
+        {
+          "id": "Wbk3j9WL3bFf",
+          "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-champagne-ardenne/la-cause-est-la-meme-dans-les-rues-de-reims-parents-et-enseignants-au-soutien-du-mouvement-lyceen-7944954?at_medium=lien_RSS&at_locale=21",
+          "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-champagne-ardenne/la-cause-est-la-meme-dans-les-rues-de-reims-parents-et-enseignants-au-soutien-du-mouvement-lyceen-7944954",
+          "title": "\"Toutes les générations concernées\" : dans les rues de Reims, parents et enseignants au soutien du mouvement lycéen",
+          "description": "Parents d'élèves, enseignants, CPE et autres personnels de l'éducation se sont joints aux élèves pour manifester dans les rues de Reims ce mardi 6 octobre. Un soutien \"rassurant\", après une semaine de mobilisation spontanée",
+          "source": {
+            "id": "ici_ges",
+            "name": "ici Alsace, Lorraine, Champagne-Ardenne"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T05:32:30.000Z",
+          "imageUrl": "https://www.ici.fr/pikapi/images/aef3a1e7-ad94-4d94-8c78-ce7e9818b24d/920x517?webp=false",
+          "countryCode": "FR",
+          "regionCode": "FR-GES"
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T05:32:30.000Z"
     },
     {
       "id": "wMgiTsY75Eyj",
@@ -103,54 +293,6 @@
       "latestPublishedAt": "2026-10-07T04:30:00.000Z"
     },
     {
-      "id": "M7VvJwWJtCKZ",
-      "representative": {
-        "id": "M7VvJwWJtCKZ",
-        "url": "https://www.estrepublicain.fr/education/2026/10/06/on-a-manifeste-comme-eux-il-y-a-20-ans-au-moins-3-000-personnes-dans-la-rue-pour-defendre-la-cause-lyceenne",
-        "canonicalUrl": "https://www.estrepublicain.fr/education/2026/10/06/on-a-manifeste-comme-eux-il-y-a-20-ans-au-moins-3-000-personnes-dans-la-rue-pour-defendre-la-cause-lyceenne",
-        "title": "Nancy. « On a manifesté comme eux il y a 20 ans » : au moins 3 000 personnes dans la rue pour défendre la cause lycéenne",
-        "description": "Retraités, étudiants, professeurs, syndicats, parents… Ils étaient plusieurs milliers à défiler dans le centre-ville de Nancy ce mardi en solidarité avec le mouvement des lycéens. Le cortège a déambulé dans un calme relatif dans le périmètre interdit par arrêté préfectoral. Des heurts ont opposé…",
-        "source": {
-          "id": "estrepublicain",
-          "name": "L'Est Républicain"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T04:30:00.000Z",
-        "imageUrl": "https://cdn-s-www.estrepublicain.fr/images/F9616705-8359-4B48-8DAA-E2AFF01A4CEE/NW_listB/on-a-manifeste-comme-eux-il-y-a-20-ans-au-moins-3-000-personnes-dans-la-rue-pour-defendre-la-cause-lyceenne-1791316817.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:30:00.000Z"
-    },
-    {
-      "id": "tzvFPZ7ot-Qw",
-      "representative": {
-        "id": "tzvFPZ7ot-Qw",
-        "url": "https://www.estrepublicain.fr/economie/2026/10/07/flambee-du-prix-des-carburants-une-confiserie-de-liverdun-passe-a-la-semaine-de-quatre-jours",
-        "canonicalUrl": "https://www.estrepublicain.fr/economie/2026/10/07/flambee-du-prix-des-carburants-une-confiserie-de-liverdun-passe-a-la-semaine-de-quatre-jours",
-        "title": "Meurthe-et-Moselle. Flambée du prix des carburants : une confiserie de Liverdun passe à la semaine de quatre jours",
-        "description": "Alors que les prix à la pompe se sont envolés, les employés de la confiserie-chocolaterie Brebion font désormais leur semaine de travail en quatre jours pour moins utiliser leur voiture et faire des économies. Un nouveau rythme adopté pour un mois. Avant de devenir permanent ?",
-        "source": {
-          "id": "estrepublicain",
-          "name": "L'Est Républicain"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T04:30:00.000Z",
-        "imageUrl": "https://cdn-s-www.estrepublicain.fr/images/F3510F8A-4A09-4DE1-96D5-C627FE607E9B/NW_listB/flambee-du-prix-des-carburants-une-confiserie-de-liverdun-passe-a-la-semaine-de-quatre-jours-1791306945.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:30:00.000Z"
-    },
-    {
       "id": "ykUERh3TN5pc",
       "representative": {
         "id": "ykUERh3TN5pc",
@@ -173,30 +315,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T04:28:00.000Z"
-    },
-    {
-      "id": "Eg25fZg2cUmt",
-      "representative": {
-        "id": "Eg25fZg2cUmt",
-        "url": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/06/violences-ayant-entraine-la-mort-deux-versions-differentes",
-        "canonicalUrl": "https://www.estrepublicain.fr/faits-divers-justice/2026/10/06/violences-ayant-entraine-la-mort-deux-versions-differentes",
-        "title": "Nancy. Violences ayant entraîné la mort : deux versions différentes",
-        "description": "Aux assises de Meurthe-et-Moselle, aucun des deux accusés ne veut endosser seul la responsabilité du décès d’Anthony Lamini, en 2019, à Herserange. Réquisitions, plaidoiries et verdict ce mercredi.",
-        "source": {
-          "id": "estrepublicain",
-          "name": "L'Est Républicain"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T20:24:00.000Z",
-        "imageUrl": "https://cdn-s-www.estrepublicain.fr/images/0B6FD1B0-BC84-41D4-A6E9-4F1B8B0C7BF7/NW_listB/violences-ayant-entraine-la-mort-deux-versions-differentes-1791318280.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T20:24:00.000Z"
     },
     {
       "id": "KukCUVNlrImO",
@@ -223,6 +341,30 @@
       "latestPublishedAt": "2026-10-06T19:27:00.000Z"
     },
     {
+      "id": "xR0Ffnmz04Zl",
+      "representative": {
+        "id": "xR0Ffnmz04Zl",
+        "url": "https://www.rue89strasbourg.com/manifestation-mouvement-lyceen-6-octobre-398419",
+        "canonicalUrl": "https://www.rue89strasbourg.com/manifestation-mouvement-lyceen-6-octobre-398419",
+        "title": "Plus de 10 000 personnes dans la rue pour imposer les revendications lycéennes",
+        "description": "Une dizaine de milliers de personnes ont manifesté mardi 6 octobre avec les lycéens et lycéennes qui demandent plus de moyens pour l'Éducation nationale. Parents, enseignants, étudiants et d'autres ont témoigné de leur choc face à la répression du mouvement.",
+        "source": {
+          "id": "rue89strasbourg",
+          "name": "Rue89 Strasbourg"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T18:03:37.000Z",
+        "imageUrl": null,
+        "countryCode": "FR",
+        "regionCode": "FR-GES"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:03:37.000Z"
+    },
+    {
       "id": "_DgY3vExA_C2",
       "representative": {
         "id": "_DgY3vExA_C2",
@@ -247,124 +389,52 @@
       "latestPublishedAt": "2026-10-06T17:40:33.000Z"
     },
     {
-      "id": "JuR8Wr-bBaWZ",
+      "id": "gOY427baGex_",
       "representative": {
-        "id": "JuR8Wr-bBaWZ",
-        "url": "https://www.estrepublicain.fr/culture-loisirs/2026/10/06/le-musee-du-chateau-de-luneville-preempte-deux-toiles-aux-encheres",
-        "canonicalUrl": "https://www.estrepublicain.fr/culture-loisirs/2026/10/06/le-musee-du-chateau-de-luneville-preempte-deux-toiles-aux-encheres",
-        "title": "Meurthe-et-Moselle. Le musée du château de Lunéville préempte deux toiles aux enchères",
-        "description": null,
+        "id": "gOY427baGex_",
+        "url": "https://www.lalsace.fr/faits-divers-justice/2026/10/06/condamne-apres-avoir-ete-filme-en-train-de-frapper-son-chien",
+        "canonicalUrl": "https://www.lalsace.fr/faits-divers-justice/2026/10/06/condamne-apres-avoir-ete-filme-en-train-de-frapper-son-chien",
+        "title": "Soultz. Maltraitance animale : condamné après avoir été filmé en train de frapper son chien",
+        "description": "Filmé par un témoin dans la cage d’escalier de son immeuble lorsqu’il était en train de frapper son chien, un habitant de Soultz a été renvoyé pour le délit de « sévices graves ou actes de cruauté envers un animal domestique » devant le tribunal correctionnel de Colmar, qui l’a finalement condamné…",
         "source": {
-          "id": "estrepublicain",
-          "name": "L'Est Républicain"
+          "id": "lalsace",
+          "name": "L'Alsace"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T17:30:00.000Z",
-        "imageUrl": "https://cdn-s-www.estrepublicain.fr/images/1B140E78-54A5-46AA-9205-CB1B0F51DAA1/NW_listB/le-musee-du-chateau-de-luneville-preempte-deux-toiles-aux-encheres-1791355260.jpg",
+        "publishedAt": "2026-10-06T16:05:00.000Z",
+        "imageUrl": "https://cdn-s-www.lalsace.fr/images/762231ED-1979-455F-9B69-84407E6F88E8/NW_listB/maltraitance-animale-condamne-apres-avoir-ete-filme-en-train-de-frapper-son-chien-1791308590.jpg",
         "countryCode": "FR",
         "regionCode": "FR-GES"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:30:00.000Z"
+      "latestPublishedAt": "2026-10-06T16:05:00.000Z"
     },
     {
-      "id": "_X86wl7eJj-S",
+      "id": "ADekkXGPqVf7",
       "representative": {
-        "id": "_X86wl7eJj-S",
-        "url": "https://france3-regions.franceinfo.fr/grand-est/marne/reims/enquete-1-2-accusations-de-reglements-de-compte-sur-fond-de-querelles-politiques-des-agents-d-une-ville-en-feraient-les-frais-3405824.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/grand-est/marne/reims/enquete-1-2-accusations-de-reglements-de-compte-sur-fond-de-querelles-politiques-des-agents-d-une-ville-en-feraient-les-frais-3405824.html",
-        "title": "Enquête 1/2. Accusations de règlements de compte sur fond de querelles politiques, des agents d'une ville en feraient les frais",
-        "description": "Il a été élu en mars 2026 après une campagne électorale particulièrement houleuse. David Cappé, maire de Bezannes (Marne), est aujourd'hui au cœur d'une affaire où il est accusé de règlements de compte et de proximité supposée avec le Rassemblement National. Récit en deux volets.",
+        "id": "ADekkXGPqVf7",
+        "url": "https://www.rue89strasbourg.com/florian-kobryn-diffamation-audience-398396",
+        "canonicalUrl": "https://www.rue89strasbourg.com/florian-kobryn-diffamation-audience-398396",
+        "title": "Florian Kobryn jugé pour diffamation après ses accusations contre Ludivine Quintallet",
+        "description": "Poursuivi pour diffamation après une publication dénonçant notamment un \"management toxique\", Florian Kobryn était jugé mardi 6 octobre à Strasbourg. Son ancienne collègue Ludivine Quintallet lui réclame 5 000 euros de dommages et intérêts. Le tribunal rendra sa décision le 10 novembre.",
         "source": {
-          "id": "france3_ges",
-          "name": "France 3 Grand Est"
+          "id": "rue89strasbourg",
+          "name": "Rue89 Strasbourg"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T16:42:29.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/UPPtNBu8jT1skmpuShlxfF6nkJY/930x620/filters:format(webp)/regions/2026/09/28/6aba83f963ee0884398905.jpg",
+        "publishedAt": "2026-10-06T13:14:26.000Z",
+        "imageUrl": null,
         "countryCode": "FR",
         "regionCode": "FR-GES"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:42:29.000Z"
-    },
-    {
-      "id": "_8qEa6hicUSt",
-      "representative": {
-        "id": "_8qEa6hicUSt",
-        "url": "https://www.estrepublicain.fr/sante/2026/10/06/a-bientot-86-ans-le-medecin-de-fontoy-n-a-pas-encore-prevu-sa-retraite",
-        "canonicalUrl": "https://www.estrepublicain.fr/sante/2026/10/06/a-bientot-86-ans-le-medecin-de-fontoy-n-a-pas-encore-prevu-sa-retraite",
-        "title": "Lorraine. À bientôt 86 ans, le médecin de Fontoy n’a pas encore prévu sa retraite",
-        "description": "Il s’est installé dans le nord de la Moselle en 1971. Depuis, il enchaîne les journées non-stop. Arrêter de travailler ? Pourquoi pas, mais pas tant que son successeur n’a pas été trouvé, préfère Henri Boguet. Pas simple.",
-        "source": {
-          "id": "estrepublicain",
-          "name": "L'Est Républicain"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T16:30:00.000Z",
-        "imageUrl": "https://cdn-s-www.estrepublicain.fr/images/E2AF1237-F0FF-4140-A5CE-BC803136A2BF/NW_listB/a-bientot-86-ans-le-medecin-de-fontoy-n-a-pas-encore-prevu-sa-retraite-1791302798.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:30:00.000Z"
-    },
-    {
-      "id": "FvM_otNpJLcd",
-      "representative": {
-        "id": "FvM_otNpJLcd",
-        "url": "https://www.estrepublicain.fr/economie/2026/10/06/78-procedures-collectives-ouvertes-dans-le-departement-sur-les-30-derniers-jours",
-        "canonicalUrl": "https://www.estrepublicain.fr/economie/2026/10/06/78-procedures-collectives-ouvertes-dans-le-departement-sur-les-30-derniers-jours",
-        "title": "Le chiffre de la semaine. Le nombre de procédures collectives explosent en Meurthe-et-Moselle : 78 ouvertures en 30 derniers jours",
-        "description": null,
-        "source": {
-          "id": "estrepublicain",
-          "name": "L'Est Républicain"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T16:30:00.000Z",
-        "imageUrl": "https://cdn-s-www.estrepublicain.fr/images/50556C6D-4FA7-4489-B9FD-65FD50988022/NW_listB/le-nombre-de-procedures-collectives-explosent-en-meurthe-et-moselle-78-ouvertures-en-30-derniers-jours-1791296423.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:30:00.000Z"
-    },
-    {
-      "id": "MOtzLLPnl64r",
-      "representative": {
-        "id": "MOtzLLPnl64r",
-        "url": "https://www.estrepublicain.fr/economie/2026/10/06/retraite-sncf-il-travaille-depuis-21-ans-comme-chauffeur",
-        "canonicalUrl": "https://www.estrepublicain.fr/economie/2026/10/06/retraite-sncf-il-travaille-depuis-21-ans-comme-chauffeur",
-        "title": "Lorraine. Retraité SNCF, il travaille depuis 21 ans comme chauffeur",
-        "description": "Domicilié dans le Lunévillois, Jean-Louis Leblanc voulait « rester dans l’action » après son parcours de cadre ferroviaire. À 75 ans, il ne s’est toujours pas « posé la question » d’une retraite pleine et entière.",
-        "source": {
-          "id": "estrepublicain",
-          "name": "L'Est Républicain"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T16:30:00.000Z",
-        "imageUrl": "https://cdn-s-www.estrepublicain.fr/images/5C0F595A-F169-4D62-AC36-ECC409B904A1/NW_listB/retraite-sncf-il-travaille-depuis-21-ans-comme-chauffeur-1791348363.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-GES"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:30:00.000Z"
+      "latestPublishedAt": "2026-10-06T13:14:26.000Z"
     }
   ]
 }

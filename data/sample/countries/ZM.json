@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ZM",
   "countryName": "Zambia",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "dZ2eBrvvACsc",
@@ -119,54 +119,6 @@
       "latestPublishedAt": "2026-10-06T11:50:06.000Z"
     },
     {
-      "id": "tku8ZlpWztOL",
-      "representative": {
-        "id": "tku8ZlpWztOL",
-        "url": "https://www.lusakatimes.com/2026/10/06/isoka-man-arrested-over-suspected-murder/",
-        "canonicalUrl": "https://www.lusakatimes.com/2026/10/06/isoka-man-arrested-over-suspected-murder/",
-        "title": "Isoka man arrested over suspected murder",
-        "description": "Police in Isoka District have arrested a 36-year-old man in connection with the suspected murder of his 85-year-old father at Senye Village in Chief Katyetye’s Chiefdom. ‎Muchinga Province Police Commanding Officer, Lubinda Mayamba, revealed in a statement that the incident occurred between 18:00…",
-        "source": {
-          "id": "lusakatimes",
-          "name": "Lusaka Times"
-        },
-        "sourceCountry": "ZM",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:50:23.000Z",
-        "imageUrl": null,
-        "countryCode": "ZM",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:50:23.000Z"
-    },
-    {
-      "id": "6ZhE9cGlN__G",
-      "representative": {
-        "id": "6ZhE9cGlN__G",
-        "url": "https://www.lusakatimes.com/2026/10/06/stylish-roan-set-winning-tone/",
-        "canonicalUrl": "https://www.lusakatimes.com/2026/10/06/stylish-roan-set-winning-tone/",
-        "title": "Stylish Roan set winning tone",
-        "description": "After a 14-year absence from the top-flight league, Luanshya outfit Stylish Roan United have earned admiration after launching their transitional Super Division campaign with a vital away victory in Lusaka. Promoted side Roan stole the limelight on the opening weekend of the Super Division after…",
-        "source": {
-          "id": "lusakatimes",
-          "name": "Lusaka Times"
-        },
-        "sourceCountry": "ZM",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:54:52.000Z",
-        "imageUrl": null,
-        "countryCode": "ZM",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:54:52.000Z"
-    },
-    {
       "id": "11X7OwH-aNmf",
       "representative": {
         "id": "11X7OwH-aNmf",
@@ -263,30 +215,6 @@
       "latestPublishedAt": "2026-10-06T07:57:23.000Z"
     },
     {
-      "id": "I8Z7uAnJ19HX",
-      "representative": {
-        "id": "I8Z7uAnJ19HX",
-        "url": "https://www.lusakatimes.com/2026/10/06/simuuwe-says-hichilema-third-term-clips-are-out-of-context-backs-lifting-two-term-limit/",
-        "canonicalUrl": "https://www.lusakatimes.com/2026/10/06/simuuwe-says-hichilema-third-term-clips-are-out-of-context-backs-lifting-two-term-limit/",
-        "title": "Simuuwe Says Hichilema Third-Term Clips Are Out Of Context, Backs Lifting Two-Term Limit",
-        "description": "Lawyer Mr Mark Simuuwe says video clips of President Hakainde Hichilema rejecting a third term are being shared out of context. He insists the President was speaking about the eligibility case of the late former President Edgar Lungu, not giving a final position on whether a leader may serve…",
-        "source": {
-          "id": "lusakatimes",
-          "name": "Lusaka Times"
-        },
-        "sourceCountry": "ZM",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:42:23.000Z",
-        "imageUrl": null,
-        "countryCode": "ZM",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T07:42:23.000Z"
-    },
-    {
       "id": "Sb-3V47-f1Mw",
       "representative": {
         "id": "Sb-3V47-f1Mw",
@@ -309,6 +237,102 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T07:36:01.000Z"
+    },
+    {
+      "id": "iex75VnmzQA4",
+      "representative": {
+        "id": "iex75VnmzQA4",
+        "url": "https://www.mwebantu.com/built-for-the-long-haul-ud-trucks-is-now-part-of-imperial-motors-zambia/",
+        "canonicalUrl": "https://www.mwebantu.com/built-for-the-long-haul-ud-trucks-is-now-part-of-imperial-motors-zambia/",
+        "title": "Built for the Long Haul: UD Trucks is now part of Imperial Motors Zambia",
+        "description": "Imperial Motors Zambia is proud to introduce the UD Trucks brand into its stable, with 2026 marking the official launch of the UD Trucks brand in Zambia. This launch introduces the established UD Trucks range to the Zambian commercial vehicle market. UD Trucks is a leading Japanese commercial…",
+        "source": {
+          "id": "mwebantu",
+          "name": "Mwebantu"
+        },
+        "sourceCountry": "ZM",
+        "language": "en",
+        "publishedAt": "2026-10-05T16:08:30.000Z",
+        "imageUrl": null,
+        "countryCode": "ZM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T16:08:30.000Z"
+    },
+    {
+      "id": "tku8ZlpWztOL",
+      "representative": {
+        "id": "tku8ZlpWztOL",
+        "url": "https://www.lusakatimes.com/2026/10/06/isoka-man-arrested-over-suspected-murder/",
+        "canonicalUrl": "https://www.lusakatimes.com/2026/10/06/isoka-man-arrested-over-suspected-murder/",
+        "title": "Isoka man arrested over suspected murder",
+        "description": "Police in Isoka District have arrested a 36-year-old man in connection with the suspected murder of his 85-year-old father at Senye Village in Chief Katyetye’s Chiefdom. ‎Muchinga Province Police Commanding Officer, Lubinda Mayamba, revealed in a statement that the incident occurred between 18:00…",
+        "source": {
+          "id": "lusakatimes",
+          "name": "Lusaka Times"
+        },
+        "sourceCountry": "ZM",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:50:23.000Z",
+        "imageUrl": null,
+        "countryCode": "ZM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:50:23.000Z"
+    },
+    {
+      "id": "6ZhE9cGlN__G",
+      "representative": {
+        "id": "6ZhE9cGlN__G",
+        "url": "https://www.lusakatimes.com/2026/10/06/stylish-roan-set-winning-tone/",
+        "canonicalUrl": "https://www.lusakatimes.com/2026/10/06/stylish-roan-set-winning-tone/",
+        "title": "Stylish Roan set winning tone",
+        "description": "After a 14-year absence from the top-flight league, Luanshya outfit Stylish Roan United have earned admiration after launching their transitional Super Division campaign with a vital away victory in Lusaka. Promoted side Roan stole the limelight on the opening weekend of the Super Division after…",
+        "source": {
+          "id": "lusakatimes",
+          "name": "Lusaka Times"
+        },
+        "sourceCountry": "ZM",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:54:52.000Z",
+        "imageUrl": null,
+        "countryCode": "ZM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:54:52.000Z"
+    },
+    {
+      "id": "I8Z7uAnJ19HX",
+      "representative": {
+        "id": "I8Z7uAnJ19HX",
+        "url": "https://www.lusakatimes.com/2026/10/06/simuuwe-says-hichilema-third-term-clips-are-out-of-context-backs-lifting-two-term-limit/",
+        "canonicalUrl": "https://www.lusakatimes.com/2026/10/06/simuuwe-says-hichilema-third-term-clips-are-out-of-context-backs-lifting-two-term-limit/",
+        "title": "Simuuwe Says Hichilema Third-Term Clips Are Out Of Context, Backs Lifting Two-Term Limit",
+        "description": "Lawyer Mr Mark Simuuwe says video clips of President Hakainde Hichilema rejecting a third term are being shared out of context. He insists the President was speaking about the eligibility case of the late former President Edgar Lungu, not giving a final position on whether a leader may serve…",
+        "source": {
+          "id": "lusakatimes",
+          "name": "Lusaka Times"
+        },
+        "sourceCountry": "ZM",
+        "language": "en",
+        "publishedAt": "2026-10-06T07:42:23.000Z",
+        "imageUrl": null,
+        "countryCode": "ZM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T07:42:23.000Z"
     },
     {
       "id": "iNMItu95UFDI",
@@ -357,30 +381,6 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T07:10:34.000Z"
-    },
-    {
-      "id": "jTb8ML_qNG2i",
-      "representative": {
-        "id": "jTb8ML_qNG2i",
-        "url": "https://diggers.news/local/2026/10/06/weve-reunited-over-1700-couples-in-teaching-service-govt/",
-        "canonicalUrl": "https://diggers.news/local/2026/10/06/weve-reunited-over-1700-couples-in-teaching-service-govt/",
-        "title": "We’ve reunited over 1,700 couples in teaching service – Govt",
-        "description": "This content is for members only. Visit the site and log in/register to read.",
-        "source": {
-          "id": "newsdiggers",
-          "name": "News Diggers!"
-        },
-        "sourceCountry": "ZM",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:00:39.000Z",
-        "imageUrl": null,
-        "countryCode": "ZM",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T07:00:39.000Z"
     }
   ]
 }

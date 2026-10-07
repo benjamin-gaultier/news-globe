@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CL",
   "countryName": "Chile",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "0wlym_9ZuF05",
@@ -280,54 +280,6 @@
       "latestPublishedAt": "2026-10-06T13:07:26.000Z"
     },
     {
-      "id": "rvATHEkKBhd0",
-      "representative": {
-        "id": "rvATHEkKBhd0",
-        "url": "http://www.df.cl/internacional/economia/ceo-de-shell-asegura-que-los-flujos-de-petroleo-del-medio-oriente-ya",
-        "canonicalUrl": "http://www.df.cl/internacional/economia/ceo-de-shell-asegura-que-los-flujos-de-petroleo-del-medio-oriente-ya",
-        "title": "CEO de Shell asegura que los flujos de petróleo del Medio Oriente ya bordean el 80% de los niveles previos a la guerra",
-        "description": "Wael Sawan entregó una de las primeras evaluaciones autorizadas sobre la recuperación del suministro de crudo de la región en conflicto, mientras plantea que la guerra ha vuelto a poner la seguridad energética en el centro del debate.",
-        "source": {
-          "id": "df_cl",
-          "name": "Diario Financiero"
-        },
-        "sourceCountry": "CL",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:03:26.000Z",
-        "imageUrl": null,
-        "countryCode": "CL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:03:26.000Z"
-    },
-    {
-      "id": "px6UFXGhLi0e",
-      "representative": {
-        "id": "px6UFXGhLi0e",
-        "url": "http://www.df.cl/economia-y-politica/macro/ley-de-presupuestos-pide-autorizacion-al-congreso-para-que-el-fisco-se",
-        "canonicalUrl": "http://www.df.cl/economia-y-politica/macro/ley-de-presupuestos-pide-autorizacion-al-congreso-para-que-el-fisco-se",
-        "title": "Mayor techo de deuda, menos traspasos a contrata y freno a celebraciones que impliquen gasto fiscal marcan Presupuesto 2027",
-        "description": "La solicitud es mayor que los US$ 17.400 millones del erario de este año, que luego se incrementaron en US$ 6.400 millones en junio de este 2026.",
-        "source": {
-          "id": "df_cl",
-          "name": "Diario Financiero"
-        },
-        "sourceCountry": "CL",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:02:21.000Z",
-        "imageUrl": null,
-        "countryCode": "CL",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:02:21.000Z"
-    },
-    {
       "id": "wU1BPTPK5-9L",
       "representative": {
         "id": "wU1BPTPK5-9L",
@@ -352,52 +304,100 @@
       "latestPublishedAt": "2026-10-06T13:01:00.000Z"
     },
     {
-      "id": "rmexsVeAa3_B",
+      "id": "nnOfdYtF9raS",
       "representative": {
-        "id": "rmexsVeAa3_B",
-        "url": "https://www.latercera.com/mundo/noticia/eduarda-campopiano-la-nueva-diputada-del-partido-de-flavio-bolsonaro-por-sao-paulo-que-agradece-por-la-colonizacion/",
-        "canonicalUrl": "https://www.latercera.com/mundo/noticia/eduarda-campopiano-la-nueva-diputada-del-partido-de-flavio-bolsonaro-por-sao-paulo-que-agradece-por-la-colonizacion/",
-        "title": "Eduarda Campopiano, la diputada bolsonarista electa por Sao Paulo que “agradece por la colonización” y tilda de “caníbales” a indígenas",
-        "description": "De 23 años, la nueva parlamentaria conservadora del Partido Liberal, que se hace llamar “la mayor enemiga de las feministas de Sao Paulo”, ya había sido acusada de racismo hace cuatro meses. Obtuvo 1.956.238 votos este domingo.",
+        "id": "nnOfdYtF9raS",
+        "url": "https://www.adnradio.cl/2026/10/06/el-detalle-que-incomodo-a-televidentes-durante-el-regreso-de-alfombra-roja-a-canal-13-quien-tuvo-la-brillante-idea/",
+        "canonicalUrl": "https://www.adnradio.cl/2026/10/06/el-detalle-que-incomodo-a-televidentes-durante-el-regreso-de-alfombra-roja-a-canal-13-quien-tuvo-la-brillante-idea/",
+        "title": "El detalle que incomodó a televidentes durante el regreso de Alfombra Roja a Canal 13: “¿Quién tuvo la brillante idea?\"",
+        "description": "El regreso del histórico espacio de farándula generó alta audiencia, pero también abrió un debate entre usuarios por su puesta en escena.",
         "source": {
-          "id": "latercera",
-          "name": "La Tercera"
+          "id": "adnradio",
+          "name": "ADN Radio"
         },
         "sourceCountry": "CL",
         "language": "es",
-        "publishedAt": "2026-10-06T13:00:00.000Z",
-        "imageUrl": "https://www.latercera.com/resizer/v2/5J4HXRYPTZGVPHUMAR57ISMPHA.jpeg?auth=82e8bf62c97e60d0d3355187941dcbe48d944c3cefb519a2a683bf7c2894dbda&smart=true&width=1200&height=675",
+        "publishedAt": "2026-10-06T12:50:16.000Z",
+        "imageUrl": "https://www.adnradio.cl/resizer/v2/BCAOYAWGUZEADI4VFGVGAS7IV4.jpg?auth=b59d47676e4a15b93d791b045b54362c83e2064cc761ad4897fdf3ceca2f9e28&width=2500&height=1667&smart=true",
         "countryCode": "CL",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:00:00.000Z"
+      "latestPublishedAt": "2026-10-06T12:50:16.000Z"
     },
     {
-      "id": "JqyFW3nDEKZe",
+      "id": "6iNT0QiPbOCU",
       "representative": {
-        "id": "JqyFW3nDEKZe",
-        "url": "https://www.latercera.com/pulso/noticia/riqueza-financiera-de-los-hogares-sube-a-casi-125-del-pib-mientras-las-empresas-ahorran-menos-y-bajan-su-deuda/",
-        "canonicalUrl": "https://www.latercera.com/pulso/noticia/riqueza-financiera-de-los-hogares-sube-a-casi-125-del-pib-mientras-las-empresas-ahorran-menos-y-bajan-su-deuda/",
-        "title": "Riqueza financiera de los hogares sube a casi 125% del PIB, mientras las empresas ahorran menos y bajan su deuda",
-        "description": "Las empresas no financieras, en tanto, ahorraron menos y redujeron su deuda a 88,8% del PIB, según las Cuentas Nacionales por Sector Institucional del Banco Central.",
+        "id": "6iNT0QiPbOCU",
+        "url": "https://www.theclinic.cl/2026/10/06/mas-abandono-mas-inseguridad-orrego-apunta-contra-el-gobierno-por-recorte-en-la-ley-cholito-e-insta-a-proponer-y-no-solo-dejar-de-hacer/",
+        "canonicalUrl": "https://www.theclinic.cl/2026/10/06/mas-abandono-mas-inseguridad-orrego-apunta-contra-el-gobierno-por-recorte-en-la-ley-cholito-e-insta-a-proponer-y-no-solo-dejar-de-hacer/",
+        "title": "“Más abandono, más inseguridad”: Orrego apunta contra el Gobierno por recorte en la Ley Cholito e insta a proponer y “no solo dejar de hacer”",
+        "description": "El gobernador metropolitano advirtió que la reducción del 86% del presupuesto al Programa de Tenencia Responsable de Animales de Compañía afectará vacunas, esterilizaciones y chipeos, y llamó al Ejecutivo a presentar una alternativa. The post “Más abandono, más inseguridad”: Orrego apunta contra…",
         "source": {
-          "id": "latercera",
-          "name": "La Tercera"
+          "id": "theclinic",
+          "name": "The Clinic"
         },
         "sourceCountry": "CL",
         "language": "es",
-        "publishedAt": "2026-10-06T12:59:25.000Z",
-        "imageUrl": "https://www.latercera.com/resizer/v2/JQUVR3BS5BFKXCOMQGFMBLRLRM.JPG?auth=a220f0709506a08d56d56cbdd2ce4d0f37292a57ff5959b32628d6022c758480&smart=true&width=4032&height=3024",
+        "publishedAt": "2026-10-06T12:47:32.000Z",
+        "imageUrl": null,
         "countryCode": "CL",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:59:25.000Z"
+      "latestPublishedAt": "2026-10-06T12:47:32.000Z"
+    },
+    {
+      "id": "GjMrucrawwsm",
+      "representative": {
+        "id": "GjMrucrawwsm",
+        "url": "https://www.lanacion.cl/la-roja-se-mide-ante-mexico-en-el-cierre-de-su-gira-por-norteamerica-posibles-formaciones-horario-y-donde-ver/",
+        "canonicalUrl": "https://www.lanacion.cl/la-roja-se-mide-ante-mexico-en-el-cierre-de-su-gira-por-norteamerica-posibles-formaciones-horario-y-donde-ver/",
+        "title": "La Roja se mide ante México en el cierre de su gira por Norteamérica: Posibles formaciones, horario y dónde ver",
+        "description": "La gira por Norteamérica de la selección chilena llega a su fin. Este martes, La Roja enfrentará a México en el Memorial Coliseum de Los Ángeles, en su tercer y último amistoso de la actual fecha FIFA. Para seguir leyendo esta nota haz clic aquí, en el sitio web de Triunfo. The post La Roja se…",
+        "source": {
+          "id": "lanacion_cl",
+          "name": "La Nación"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:47:14.000Z",
+        "imageUrl": null,
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:47:14.000Z"
+    },
+    {
+      "id": "hqrgFM0ncMrX",
+      "representative": {
+        "id": "hqrgFM0ncMrX",
+        "url": "https://www.cooperativa.cl/noticias/economia/banco-central/comenzo-a-circular-la-nueva-moneda-de-50-pesos-primera-compra-fue-en/2026-10-06/094329.html",
+        "canonicalUrl": "https://www.cooperativa.cl/noticias/economia/banco-central/comenzo-a-circular-la-nueva-moneda-de-50-pesos-primera-compra-fue-en/2026-10-06/094329.html",
+        "title": "Comenzó a circular la nueva moneda de 50 pesos: Primera compra fue en una verdulería",
+        "description": null,
+        "source": {
+          "id": "cooperativa",
+          "name": "Cooperativa"
+        },
+        "sourceCountry": "CL",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:43:29.000Z",
+        "imageUrl": null,
+        "countryCode": "CL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:43:29.000Z"
     }
   ]
 }

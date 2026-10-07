@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "HU",
   "countryName": "Hungary",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "OJjYQ_QU1gDQ",
@@ -64,6 +64,48 @@
       "latestPublishedAt": "2026-10-06T13:52:33.000Z"
     },
     {
+      "id": "jqmYc-Z0Ad1c",
+      "representative": {
+        "id": "jqmYc-Z0Ad1c",
+        "url": "https://telex.hu/gazdasag/2026/10/06/magyar-peter-bejelentes-kata-bovites-vagyonado",
+        "canonicalUrl": "https://telex.hu/gazdasag/2026/10/06/magyar-peter-bejelentes-kata-bovites-vagyonado",
+        "title": "Magyar Péter bejelentette a vagyonadó és a kata részleteit",
+        "description": "A miniszterelnök szerint a vagyonadó mértéke az 1 milliárd forint fölötti vagyon 1 százaléka lesz. A 100 milliárd forint fölötti vagyon után 1,5 százalék adót kell fizetni. Újra katázhatnak majd a mellékállású vállalkozók, a nyugdíjasok és azok is, akik egyetemi tanulmányaik mellett vállalkoznak…",
+        "source": {
+          "id": "telex",
+          "name": "Telex"
+        },
+        "sourceCountry": "HU",
+        "language": "hu",
+        "publishedAt": "2026-10-06T12:44:00.000Z",
+        "imageUrl": "https://assets.telex.hu/images/20261006/1791290626-temp-6pph9r1602es0bmcaeo_cimlap-normal.jpg",
+        "countryCode": "HU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "ZjnJfkqb68CZ",
+          "url": "https://magyarnemzet.hu/gazdasag/2026/10/magyar-peter-bejelentette-duplajara-emelik-a-kata-havi-adojat?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "canonicalUrl": "https://magyarnemzet.hu/gazdasag/2026/10/magyar-peter-bejelentette-duplajara-emelik-a-kata-havi-adojat",
+          "title": "Magyar Péter bejelentette: duplájára emelik a kata havi adóját",
+          "description": "A kormány döntött ezen kívül a vagyonadó részleteiről és az ekho változtatásáról is.",
+          "source": {
+            "id": "magyarnemzet",
+            "name": "Magyar Nemzet"
+          },
+          "sourceCountry": "HU",
+          "language": "hu",
+          "publishedAt": "2026-10-06T13:27:06.000Z",
+          "imageUrl": "https://cdn.magyarnemzet.hu/2026/10/PhbA-9bY7h8uPuyUB3LbgeYjhJh7FrcqMZSFejgtDFs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2I4YmE0ODIwMjA4YzQwYzc5ODc0MzUzNjY1YTIyNWVh.jpg",
+          "countryCode": "HU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:27:06.000Z"
+    },
+    {
       "id": "tVk0eRgLh_SM",
       "representative": {
         "id": "tVk0eRgLh_SM",
@@ -118,7 +160,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T12:50:12.000Z"
     },
@@ -177,93 +219,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T12:37:29.000Z"
-    },
-    {
-      "id": "op79Ulc2NIIh",
-      "representative": {
-        "id": "op79Ulc2NIIh",
-        "url": "https://index.hu/belfold/2026/10/06/sesztak-miklos-papp-gabor-ugyved-bus-balazs-megfigyeles-interju/",
-        "canonicalUrl": "https://index.hu/belfold/2026/10/06/sesztak-miklos-papp-gabor-ugyved-bus-balazs-megfigyeles-interju/",
-        "title": "Kiderült, ezen az álnéven figyelhették meg Seszták Miklós ügyvédjét",
-        "description": "Legalábbis ezt állítja Papp Gábor.",
-        "source": {
-          "id": "index_hu",
-          "name": "Index"
-        },
-        "sourceCountry": "HU",
-        "language": "hu",
-        "publishedAt": "2026-10-06T12:15:00.000Z",
-        "imageUrl": "https://kep.index.hu/1/0/7193/71933/719332/71933289_5302481_f71703d6f7a99b9fcecafb04a716d241_wm.jpg",
-        "countryCode": "HU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "H6KCSXTyxzTM",
-          "url": "https://magyarnemzet.hu/belfold/2026/10/ugyes-alnev-sesztak-miklos-ugyved-megfigyeles?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
-          "canonicalUrl": "https://magyarnemzet.hu/belfold/2026/10/ugyes-alnev-sesztak-miklos-ugyved-megfigyeles",
-          "title": "„Ügyes” álnéven figyelték meg Seszták Miklós ügyvédjét",
-          "description": "Papp Gábor szerint ez törvénytelen volt.",
-          "source": {
-            "id": "magyarnemzet",
-            "name": "Magyar Nemzet"
-          },
-          "sourceCountry": "HU",
-          "language": "hu",
-          "publishedAt": "2026-10-06T13:51:55.000Z",
-          "imageUrl": "https://cdn.magyarnemzet.hu/2026/10/8rcbqUMLqMq0IAoQNMPpNuvAQpfBc3HrxTUOsjwMsRg/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzU1NGZmNGFhYTJjODQ0MTA5MTI5NjhhOGY4ZjkxNzJl.jpg",
-          "countryCode": "HU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:51:55.000Z"
-    },
-    {
-      "id": "jqmYc-Z0Ad1c",
-      "representative": {
-        "id": "jqmYc-Z0Ad1c",
-        "url": "https://telex.hu/gazdasag/2026/10/06/magyar-peter-bejelentes-kata-bovites-vagyonado",
-        "canonicalUrl": "https://telex.hu/gazdasag/2026/10/06/magyar-peter-bejelentes-kata-bovites-vagyonado",
-        "title": "Magyar Péter bejelentette a vagyonadó és a kata részleteit",
-        "description": "A miniszterelnök szerint a vagyonadó mértéke az 1 milliárd forint fölötti vagyon 1 százaléka lesz. A 100 milliárd forint fölötti vagyon után 1,5 százalék adót kell fizetni. Újra katázhatnak majd a mellékállású vállalkozók, a nyugdíjasok és azok is, akik egyetemi tanulmányaik mellett vállalkoznak…",
-        "source": {
-          "id": "telex",
-          "name": "Telex"
-        },
-        "sourceCountry": "HU",
-        "language": "hu",
-        "publishedAt": "2026-10-06T12:44:00.000Z",
-        "imageUrl": "https://assets.telex.hu/images/20261006/1791290626-temp-6pph9r1602es0bmcaeo_cimlap-normal.jpg",
-        "countryCode": "HU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ZjnJfkqb68CZ",
-          "url": "https://magyarnemzet.hu/gazdasag/2026/10/magyar-peter-bejelentette-duplajara-emelik-a-kata-havi-adojat?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
-          "canonicalUrl": "https://magyarnemzet.hu/gazdasag/2026/10/magyar-peter-bejelentette-duplajara-emelik-a-kata-havi-adojat",
-          "title": "Magyar Péter bejelentette: duplájára emelik a kata havi adóját",
-          "description": "A kormány döntött ezen kívül a vagyonadó részleteiről és az ekho változtatásáról is.",
-          "source": {
-            "id": "magyarnemzet",
-            "name": "Magyar Nemzet"
-          },
-          "sourceCountry": "HU",
-          "language": "hu",
-          "publishedAt": "2026-10-06T13:27:06.000Z",
-          "imageUrl": "https://cdn.magyarnemzet.hu/2026/10/PhbA-9bY7h8uPuyUB3LbgeYjhJh7FrcqMZSFejgtDFs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2I4YmE0ODIwMjA4YzQwYzc5ODc0MzUzNjY1YTIyNWVh.jpg",
-          "countryCode": "HU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:27:06.000Z"
     },
     {
       "id": "7wYqCf3XDGd-",
@@ -395,6 +353,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:55:48.000Z"
+    },
+    {
+      "id": "op79Ulc2NIIh",
+      "representative": {
+        "id": "op79Ulc2NIIh",
+        "url": "https://index.hu/belfold/2026/10/06/sesztak-miklos-papp-gabor-ugyved-bus-balazs-megfigyeles-interju/",
+        "canonicalUrl": "https://index.hu/belfold/2026/10/06/sesztak-miklos-papp-gabor-ugyved-bus-balazs-megfigyeles-interju/",
+        "title": "Kiderült, ezen az álnéven figyelhették meg Seszták Miklós ügyvédjét",
+        "description": "Legalábbis ezt állítja Papp Gábor.",
+        "source": {
+          "id": "index_hu",
+          "name": "Index"
+        },
+        "sourceCountry": "HU",
+        "language": "hu",
+        "publishedAt": "2026-10-06T12:15:00.000Z",
+        "imageUrl": "https://kep.index.hu/1/0/7193/71933/719332/71933289_5302481_f71703d6f7a99b9fcecafb04a716d241_wm.jpg",
+        "countryCode": "HU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "H6KCSXTyxzTM",
+          "url": "https://magyarnemzet.hu/belfold/2026/10/ugyes-alnev-sesztak-miklos-ugyved-megfigyeles?utm_source=hirstart&utm_medium=referral&utm_campaign=hiraggregator",
+          "canonicalUrl": "https://magyarnemzet.hu/belfold/2026/10/ugyes-alnev-sesztak-miklos-ugyved-megfigyeles",
+          "title": "„Ügyes” álnéven figyelték meg Seszták Miklós ügyvédjét",
+          "description": "Papp Gábor szerint ez törvénytelen volt.",
+          "source": {
+            "id": "magyarnemzet",
+            "name": "Magyar Nemzet"
+          },
+          "sourceCountry": "HU",
+          "language": "hu",
+          "publishedAt": "2026-10-06T13:51:55.000Z",
+          "imageUrl": "https://cdn.magyarnemzet.hu/2026/10/8rcbqUMLqMq0IAoQNMPpNuvAQpfBc3HrxTUOsjwMsRg/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzU1NGZmNGFhYTJjODQ0MTA5MTI5NjhhOGY4ZjkxNzJl.jpg",
+          "countryCode": "HU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:51:55.000Z"
     },
     {
       "id": "UH41Bb52zJgW",

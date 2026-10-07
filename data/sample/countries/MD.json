@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MD",
   "countryName": "Moldova",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "0TqLTU9yQNQq",
@@ -191,30 +191,6 @@
       "latestPublishedAt": "2026-10-06T14:47:28.000Z"
     },
     {
-      "id": "Q84Q2B64jIpc",
-      "representative": {
-        "id": "Q84Q2B64jIpc",
-        "url": "https://unimedia.info/ro/news/fb3e0a349b76ca36/doliu-in-lumea-televiziunii-robert-kelker-kelly-starul-din-days-of-our-lives-si-general-hospital-a-murit.html?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "canonicalUrl": "https://unimedia.info/ro/news/fb3e0a349b76ca36/doliu-in-lumea-televiziunii-robert-kelker-kelly-starul-din-days-of-our-lives-si-general-hospital-a-murit.html",
-        "title": "Doliu în lumea televiziunii: Robert Kelker-Kelly, starul din „Days of Our Lives” și „General Hospital”, a murit",
-        "description": "Actorul Robert Kelker-Kelly, cunoscut în special pentru rolurile sale din serialele „Days of Our Lives” și „General Hospital”, a murit sâmbătă, 3 octombrie, la vârsta de 62 de ani. Cauza morții nu a fost făcută publică momentan, informeazăPEOPLE, la care face referire Can Can.",
-        "source": {
-          "id": "unimedia",
-          "name": "Unimedia"
-        },
-        "sourceCountry": "MD",
-        "language": "ro",
-        "publishedAt": "2026-10-06T14:40:35.000Z",
-        "imageUrl": "https://cdn.digita.media/unimedia/20261006171040/a74fc7f167266de0a9635a30928d4abaa77f44d678d799def8c1b164f968ad66.png",
-        "countryCode": "MD",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:40:35.000Z"
-    },
-    {
       "id": "D7KXlYscqPgD",
       "representative": {
         "id": "D7KXlYscqPgD",
@@ -237,6 +213,78 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:28:56.000Z"
+    },
+    {
+      "id": "w77U4KXnMVPQ",
+      "representative": {
+        "id": "w77U4KXnMVPQ",
+        "url": "https://www.zdg.md/stiri/live-text-in-ciuda-intensificarii-atacurilor-rusesti-62-dintre-ucraineni-sunt-pregatiti-sa-indure-razboiul-cat-timp-va-fi-nevoie-arata-un-sondaj-razboi-in-ucraina-ziua-1686/",
+        "canonicalUrl": "https://www.zdg.md/stiri/live-text-in-ciuda-intensificarii-atacurilor-rusesti-62-dintre-ucraineni-sunt-pregatiti-sa-indure-razboiul-cat-timp-va-fi-nevoie-arata-un-sondaj-razboi-in-ucraina-ziua-1686/",
+        "title": "LIVE TEXT/ În ciuda intensificării atacurilor rusești, 62% dintre ucraineni sunt pregătiți să îndure războiul cât timp va fi nevoie, arată un sondaj. Război în Ucraina, ziua 1686",
+        "description": "UPDATE 17:00 Aproximativ 62% dintre ucraineni sunt pregătiți să îndure războiul Rusiei atât timp cât este necesar, potrivit unui sondaj al Institutului Internațional de Sociologie din Kiev (KIIS) publicat pe 6 octombrie, scrie The Kyiv Indepedent. Proporția a rămas în mare parte neschimbată de la…",
+        "source": {
+          "id": "zdg",
+          "name": "Ziarul de Gardă"
+        },
+        "sourceCountry": "MD",
+        "language": "ro",
+        "publishedAt": "2026-10-06T14:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MD",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:00:00.000Z"
+    },
+    {
+      "id": "XvHJ8JKojlq8",
+      "representative": {
+        "id": "XvHJ8JKojlq8",
+        "url": "https://www.zdg.md/stiri/video-csm-a-acceptat-rapoartele-pozitive-in-privinta-a-doua-magistrate-de-la-judecatoria-chisinau/",
+        "canonicalUrl": "https://www.zdg.md/stiri/video-csm-a-acceptat-rapoartele-pozitive-in-privinta-a-doua-magistrate-de-la-judecatoria-chisinau/",
+        "title": "VIDEO/ CSM a acceptat rapoartele pozitive în privința a două magistrate de la Judecătoria Chișinău",
+        "description": "Membrii Consiliului Superior al Magistraturii (CSM) se întrunesc marți, 6 octombrie, în ședință plenară. Pe ordinea de zi figurează 11 subiecte, printre care desfășurarea concursului pentru suplinirea funcțiilor vacante de judecător la Curtea Supremă de Justiție (CSJ) și rapoartele de evaluare…",
+        "source": {
+          "id": "zdg",
+          "name": "Ziarul de Gardă"
+        },
+        "sourceCountry": "MD",
+        "language": "ro",
+        "publishedAt": "2026-10-06T13:44:13.000Z",
+        "imageUrl": null,
+        "countryCode": "MD",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:44:13.000Z"
+    },
+    {
+      "id": "Q84Q2B64jIpc",
+      "representative": {
+        "id": "Q84Q2B64jIpc",
+        "url": "https://unimedia.info/ro/news/fb3e0a349b76ca36/doliu-in-lumea-televiziunii-robert-kelker-kelly-starul-din-days-of-our-lives-si-general-hospital-a-murit.html?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "canonicalUrl": "https://unimedia.info/ro/news/fb3e0a349b76ca36/doliu-in-lumea-televiziunii-robert-kelker-kelly-starul-din-days-of-our-lives-si-general-hospital-a-murit.html",
+        "title": "Doliu în lumea televiziunii: Robert Kelker-Kelly, starul din „Days of Our Lives” și „General Hospital”, a murit",
+        "description": "Actorul Robert Kelker-Kelly, cunoscut în special pentru rolurile sale din serialele „Days of Our Lives” și „General Hospital”, a murit sâmbătă, 3 octombrie, la vârsta de 62 de ani. Cauza morții nu a fost făcută publică momentan, informeazăPEOPLE, la care face referire Can Can.",
+        "source": {
+          "id": "unimedia",
+          "name": "Unimedia"
+        },
+        "sourceCountry": "MD",
+        "language": "ro",
+        "publishedAt": "2026-10-06T14:40:35.000Z",
+        "imageUrl": "https://cdn.digita.media/unimedia/20261006171040/a74fc7f167266de0a9635a30928d4abaa77f44d678d799def8c1b164f968ad66.png",
+        "countryCode": "MD",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:40:35.000Z"
     },
     {
       "id": "oHz20bZn7Rys",
@@ -311,30 +359,6 @@
       "latestPublishedAt": "2026-10-06T14:01:22.000Z"
     },
     {
-      "id": "w77U4KXnMVPQ",
-      "representative": {
-        "id": "w77U4KXnMVPQ",
-        "url": "https://www.zdg.md/stiri/live-text-in-ciuda-intensificarii-atacurilor-rusesti-62-dintre-ucraineni-sunt-pregatiti-sa-indure-razboiul-cat-timp-va-fi-nevoie-arata-un-sondaj-razboi-in-ucraina-ziua-1686/",
-        "canonicalUrl": "https://www.zdg.md/stiri/live-text-in-ciuda-intensificarii-atacurilor-rusesti-62-dintre-ucraineni-sunt-pregatiti-sa-indure-razboiul-cat-timp-va-fi-nevoie-arata-un-sondaj-razboi-in-ucraina-ziua-1686/",
-        "title": "LIVE TEXT/ În ciuda intensificării atacurilor rusești, 62% dintre ucraineni sunt pregătiți să îndure războiul cât timp va fi nevoie, arată un sondaj. Război în Ucraina, ziua 1686",
-        "description": "UPDATE 17:00 Aproximativ 62% dintre ucraineni sunt pregătiți să îndure războiul Rusiei atât timp cât este necesar, potrivit unui sondaj al Institutului Internațional de Sociologie din Kiev (KIIS) publicat pe 6 octombrie, scrie The Kyiv Indepedent. Proporția a rămas în mare parte neschimbată de la…",
-        "source": {
-          "id": "zdg",
-          "name": "Ziarul de Gardă"
-        },
-        "sourceCountry": "MD",
-        "language": "ro",
-        "publishedAt": "2026-10-06T14:00:00.000Z",
-        "imageUrl": null,
-        "countryCode": "MD",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:00:00.000Z"
-    },
-    {
       "id": "m017jcj8G8c9",
       "representative": {
         "id": "m017jcj8G8c9",
@@ -357,30 +381,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:45:00.000Z"
-    },
-    {
-      "id": "XvHJ8JKojlq8",
-      "representative": {
-        "id": "XvHJ8JKojlq8",
-        "url": "https://www.zdg.md/stiri/video-csm-a-acceptat-rapoartele-pozitive-in-privinta-a-doua-magistrate-de-la-judecatoria-chisinau/",
-        "canonicalUrl": "https://www.zdg.md/stiri/video-csm-a-acceptat-rapoartele-pozitive-in-privinta-a-doua-magistrate-de-la-judecatoria-chisinau/",
-        "title": "VIDEO/ CSM a acceptat rapoartele pozitive în privința a două magistrate de la Judecătoria Chișinău",
-        "description": "Membrii Consiliului Superior al Magistraturii (CSM) se întrunesc marți, 6 octombrie, în ședință plenară. Pe ordinea de zi figurează 11 subiecte, printre care desfășurarea concursului pentru suplinirea funcțiilor vacante de judecător la Curtea Supremă de Justiție (CSJ) și rapoartele de evaluare…",
-        "source": {
-          "id": "zdg",
-          "name": "Ziarul de Gardă"
-        },
-        "sourceCountry": "MD",
-        "language": "ro",
-        "publishedAt": "2026-10-06T13:44:13.000Z",
-        "imageUrl": null,
-        "countryCode": "MD",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:44:13.000Z"
     }
   ]
 }

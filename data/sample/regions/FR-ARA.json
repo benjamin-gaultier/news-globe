@@ -4,8 +4,193 @@
   "countryName": "France",
   "regionCode": "FR-ARA",
   "regionName": "Auvergne-Rhône-Alpes",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
+    {
+      "id": "7mALKypLyWFh",
+      "representative": {
+        "id": "7mALKypLyWFh",
+        "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/jean-bernard-plessy-l-ancien-directeur-des-chartreux-mis-en-examen-pour-viol-3429054.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/jean-bernard-plessy-l-ancien-directeur-des-chartreux-mis-en-examen-pour-viol-3429054.html",
+        "title": "Jean-Bernard Plessy, l’ancien directeur des Chartreux, mis en examen pour viol",
+        "description": "En garde à vue depuis lundi 5 octobre dans une enquête pour viol aggravé, l’ancien directeur de l'établissement lyonnais des Chartreux, Jean-Bernard Plessy est désormais mis en examen et placé sous contrôle judiciaire.",
+        "source": {
+          "id": "france3_ara",
+          "name": "France 3 Auvergne-Rhône-Alpes"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T17:15:12.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/9sjhKbUnAKMgKMysy3nicxkw7-Q/930x620/filters:format(webp)/regions/2026/04/07/69d5319043f63048349225.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [
+        {
+          "id": "MfJRYycl1sZX",
+          "url": "https://www.ici.fr/auvergne-rhone-alpes/loire-42/saint-etienne/l-ancien-directeur-des-etablissements-scolaires-chartreux-mis-en-examen-pour-viol-et-agression-sexuelle-7186907?at_medium=lien_RSS&at_locale=93",
+          "canonicalUrl": "https://www.ici.fr/auvergne-rhone-alpes/loire-42/saint-etienne/l-ancien-directeur-des-etablissements-scolaires-chartreux-mis-en-examen-pour-viol-et-agression-sexuelle-7186907",
+          "title": "L'ancien directeur des établissements scolaires Chartreux mis en examen pour viol et agression sexuelle",
+          "description": "Placé en garde à vue ce lundi 5 octobre, le père Jean-Bernard Plessy a été mis en examen pour viol et agression sexuelle aggravée dès le lendemain, mardi 6 octobre, annonce l'AFP. Début septembre, l'ancien directeur de l'institution Chartreux avait été visé par la plainte d'une ancienne étudiante.",
+          "source": {
+            "id": "ici_ara",
+            "name": "ici Isère, Pays de Savoie, Saint-Étienne Loire"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T11:27:26.000Z",
+          "imageUrl": "https://www.ici.fr/pikapi/images/166b6a11-9489-4300-8086-b5160e221639/920x517?webp=false",
+          "countryCode": "FR",
+          "regionCode": "FR-ARA"
+        },
+        {
+          "id": "oY8qGIKdmBZy",
+          "url": "https://www.bfmtv.com/lyon/un-pretre-et-ancien-directeur-des-chartreux-a-lyon-mis-en-examen-pour-viol-et-agression-sexuelle_AD-202610060875.html",
+          "canonicalUrl": "https://www.bfmtv.com/lyon/un-pretre-et-ancien-directeur-des-chartreux-a-lyon-mis-en-examen-pour-viol-et-agression-sexuelle_AD-202610060875.html",
+          "title": "Un prêtre et ancien directeur des Chartreux à Lyon mis en examen pour \"viol et agression sexuelle\"",
+          "description": "Ce mardi 6 octobre, le parquet de Lyon annonce la mise en examen d'un ancien directeur de l'Institution des Chartreux pour viol et agression sexuelle commis sur une étudiante.",
+          "source": {
+            "id": "bfm_lyon",
+            "name": "BFM Lyon"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T18:17:07.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/mRYhFhOg1QVLCmNhTr5YLAzRI58=/0x22:1104x643/800x0/images/Institution-des-Chartreux-2267387.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-ARA"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T11:27:26.000Z"
+    },
+    {
+      "id": "39mCjfl9tYHT",
+      "representative": {
+        "id": "39mCjfl9tYHT",
+        "url": "https://www.ledauphine.com/faits-divers-justice/2026/10/07/isere-a-bourgoin-jallieu-la-video-de-l-intervention-d-une-voiture-de-police-interroge",
+        "canonicalUrl": "https://www.ledauphine.com/faits-divers-justice/2026/10/07/isere-a-bourgoin-jallieu-la-video-de-l-intervention-d-une-voiture-de-police-interroge",
+        "title": "Isère. La vidéo de l’intervention d’une voiture de police interroge à Bourgoin-Jallieu",
+        "description": "La vidéo circule sur les réseaux sociaux depuis mardi soir et interpelle.",
+        "source": {
+          "id": "ledauphine",
+          "name": "Le Dauphiné libéré"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T04:05:00.000Z",
+        "imageUrl": "https://cdn-s-www.ledauphine.com/images/4D479917-870B-4ECD-B71E-30C78CA5016A/NW_listB/la-video-de-l-intervention-d-une-voiture-de-police-interroge-a-bourgoin-jallieu-1791325253.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [
+        {
+          "id": "nzDnaBzx2C2H",
+          "url": "https://www.ici.fr/auvergne-rhone-alpes/isere-38/bourgoin-jallieu/video-une-voiture-de-police-banalisee-fonce-au-milieu-de-lyceens-en-train-de-manifester-a-bourgoin-jallieu-9878783?at_medium=lien_RSS&at_locale=29",
+          "canonicalUrl": "https://www.ici.fr/auvergne-rhone-alpes/isere-38/bourgoin-jallieu/video-une-voiture-de-police-banalisee-fonce-au-milieu-de-lyceens-en-train-de-manifester-a-bourgoin-jallieu-9878783",
+          "title": "VIDÉO - Une voiture de police banalisée fonce au milieu de lycéens en train de manifester à Bourgoin-Jallieu",
+          "description": "Lundi 5 octobre au matin, en pleine manifestation lycéenne au parc des Lilattes, à Bourgoin-Jallieu, en Isère, une voiture de police banalisée a surgi sur les pelouses et foncé vers les jeunes. Filmée par ICI Isère, la scène choque syndicats et associations.",
+          "source": {
+            "id": "ici_ara",
+            "name": "ici Isère, Pays de Savoie, Saint-Étienne Loire"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T11:46:11.000Z",
+          "imageUrl": "https://www.ici.fr/pikapi/images/a91055e3-25a8-4386-818a-687ca085f166/920x517?webp=false",
+          "countryCode": "FR",
+          "regionCode": "FR-ARA"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:46:11.000Z"
+    },
+    {
+      "id": "d7ro2j-ZXwHt",
+      "representative": {
+        "id": "d7ro2j-ZXwHt",
+        "url": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-villeurbanne-agir-contre-les-violences-sexistes-et-sexuelles_VN-202610070252.html",
+        "canonicalUrl": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-villeurbanne-agir-contre-les-violences-sexistes-et-sexuelles_VN-202610070252.html",
+        "title": "Villeurbanne, agir contre les violences sexistes et sexuelles.",
+        "description": "Le maire socialiste de Villeurbanne fait des violences sexistes et sexuelles une priorité. Un nouveau plan d'actions a été déployé ces dernières semaines dans la commune, après le scandale lié au périscolaire.",
+        "source": {
+          "id": "bfm_lyon",
+          "name": "BFM Lyon"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:50:07.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0Y_4G1uQANa9Z-qEzruPJ73M0Hs=/0x0:1280x720/800x0/images/Villeurbanne-agir-contre-les-violences-sexistes-et-sexuelles-2360741.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [
+        {
+          "id": "px8uS3FS0xwa",
+          "url": "https://www.lyoncapitale.fr/actualite/formation-prevention-et-enquete-interne-le-plan-de-la-ville-de-villeurbanne-pour-lutter-contre-les-violences-sexistes-et-sexuelles",
+          "canonicalUrl": "https://www.lyoncapitale.fr/actualite/formation-prevention-et-enquete-interne-le-plan-de-la-ville-de-villeurbanne-pour-lutter-contre-les-violences-sexistes-et-sexuelles",
+          "title": "Formation, prévention et enquête interne : le plan de la Ville de Villeurbanne pour lutter contre les violences sexistes et sexuelles",
+          "description": "C'est un panel d'actions qui sera présenté le 12 octobre au cours du prochain conseil municipal de Villeurbanne. Ce mardi 6 octobre, à l'occasion de la présentation des grandes orientations de l'action municipale, Cédric Van Styvendael, maire de Villeurbanne, accompagné de plusieurs se ses…",
+          "source": {
+            "id": "lyoncapitale",
+            "name": "Lyon Capitale"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T11:01:33.000Z",
+          "imageUrl": "https://www.lyoncapitale.fr/wp-content/uploads/2026/10/IMG_5538-e1791370884429.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-ARA"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:01:33.000Z"
+    },
+    {
+      "id": "dVp7AZY94qDD",
+      "representative": {
+        "id": "dVp7AZY94qDD",
+        "url": "https://www.leprogres.fr/faits-divers-justice/2026/10/07/il-repand-du-sperme-sur-une-passante-pourquoi-ce-n-est-pas-(encore)-qualifie-en-agression-sexuelle",
+        "canonicalUrl": "https://www.leprogres.fr/faits-divers-justice/2026/10/07/il-repand-du-sperme-sur-une-passante-pourquoi-ce-n-est-pas-(encore)-qualifie-en-agression-sexuelle",
+        "title": "Lyon. Il répand du sperme sur une passante : pourquoi ce n’est pas (encore) qualifié en agression sexuelle",
+        "description": "Le 9 août, Jade allait emprunter le métro quand elle a senti un homme se serrer contre elle. Juste après, un liquide blanc et poisseux coulait le long de sa jambe. Après avoir reconnu les faits, l’individu est jugé ce mercredi, poursuivi pour violence avec arme sans ITT. On vous explique.",
+        "source": {
+          "id": "leprogres",
+          "name": "Le Progrès"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T04:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [
+        {
+          "id": "cWGLlci2pNF7",
+          "url": "https://www.lyoncapitale.fr/actualite/lyon-lindividu-qui-a-asperge-une-femme-de-sperme-avec-une-seringue-ne-sera-pas-juge-pour-agression-sexuelle",
+          "canonicalUrl": "https://www.lyoncapitale.fr/actualite/lyon-lindividu-qui-a-asperge-une-femme-de-sperme-avec-une-seringue-ne-sera-pas-juge-pour-agression-sexuelle",
+          "title": "Lyon : l’individu qui a aspergé une femme de sperme avec une seringue ne sera pas jugé pour agression sexuelle",
+          "description": "Les faits remontent au 9 août dernier. Vers 17h30, à proximité du métro de la Part-Dieu (Lyon 3e), une femme de 37 ans, qui venait de passer l’après-midi dans le secteur avec sa sœur, s’apprêtait à prendre seule le métro lorsqu’un homme se serait brusquement rapproché d’elle. L’individu se serait…",
+          "source": {
+            "id": "lyoncapitale",
+            "name": "Lyon Capitale"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T07:50:00.000Z",
+          "imageUrl": "https://www.lyoncapitale.fr/wp-content/uploads/2023/06/POlice-copie-e1687266383243.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-ARA"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T07:50:00.000Z"
+    },
     {
       "id": "O0o-sNWz4faf",
       "representative": {
@@ -49,46 +234,148 @@
       "latestPublishedAt": "2026-10-07T06:20:50.000Z"
     },
     {
-      "id": "7mALKypLyWFh",
+      "id": "ePaQ-nX9UnaG",
       "representative": {
-        "id": "7mALKypLyWFh",
-        "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/jean-bernard-plessy-l-ancien-directeur-des-chartreux-mis-en-examen-pour-viol-3429054.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/jean-bernard-plessy-l-ancien-directeur-des-chartreux-mis-en-examen-pour-viol-3429054.html",
-        "title": "Jean-Bernard Plessy, l’ancien directeur des Chartreux, mis en examen pour viol",
-        "description": "En garde à vue depuis lundi 5 octobre dans une enquête pour viol aggravé, l’ancien directeur de l'établissement lyonnais des Chartreux, Jean-Bernard Plessy est désormais mis en examen et placé sous contrôle judiciaire.",
+        "id": "ePaQ-nX9UnaG",
+        "url": "https://www.lyoncapitale.fr/culture/concerts-born-bad-again-un-label-independant-a-lepicerie-moderne",
+        "canonicalUrl": "https://www.lyoncapitale.fr/culture/concerts-born-bad-again-un-label-independant-a-lepicerie-moderne",
+        "title": "Concerts : Born Bad Again, un label indépendant à l’Épicerie Moderne",
+        "description": "Si l’on s’intéresse un tant soit peu au rock indépendant hexagonal, alors il n’est pas impossible que le label Born Bad Records soit le meilleur représentant de cette catégorie. Fondé par Jean-Baptiste Guillot, celui-ci compte quelques pépites du genre (un genre qui en contient plusieurs)…",
         "source": {
-          "id": "france3_ara",
-          "name": "France 3 Auvergne-Rhône-Alpes"
+          "id": "lyoncapitale",
+          "name": "Lyon Capitale"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T17:15:12.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/9sjhKbUnAKMgKMysy3nicxkw7-Q/930x620/filters:format(webp)/regions/2026/04/07/69d5319043f63048349225.jpg",
+        "publishedAt": "2026-10-07T11:40:00.000Z",
+        "imageUrl": "https://www.lyoncapitale.fr/wp-content/uploads/2026/10/FRUSTRATION-%C2%A9Blaise-ARNOLD-BD-2.jpg",
         "countryCode": "FR",
         "regionCode": "FR-ARA"
       },
-      "related": [
-        {
-          "id": "oY8qGIKdmBZy",
-          "url": "https://www.bfmtv.com/lyon/un-pretre-et-ancien-directeur-des-chartreux-a-lyon-mis-en-examen-pour-viol-et-agression-sexuelle_AD-202610060875.html",
-          "canonicalUrl": "https://www.bfmtv.com/lyon/un-pretre-et-ancien-directeur-des-chartreux-a-lyon-mis-en-examen-pour-viol-et-agression-sexuelle_AD-202610060875.html",
-          "title": "Un prêtre et ancien directeur des Chartreux à Lyon mis en examen pour \"viol et agression sexuelle\"",
-          "description": "Ce mardi 6 octobre, le parquet de Lyon annonce la mise en examen d'un ancien directeur de l'Institution des Chartreux pour viol et agression sexuelle commis sur une étudiante.",
-          "source": {
-            "id": "bfm_lyon",
-            "name": "BFM Lyon"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T18:17:07.000Z",
-          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/mRYhFhOg1QVLCmNhTr5YLAzRI58=/0x22:1104x643/800x0/images/Institution-des-Chartreux-2267387.jpg",
-          "countryCode": "FR",
-          "regionCode": "FR-ARA"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T18:17:07.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:40:00.000Z"
+    },
+    {
+      "id": "MEQCh83WGPVY",
+      "representative": {
+        "id": "MEQCh83WGPVY",
+        "url": "https://www.lyoncapitale.fr/culture/concert-didier-super-metal-a-la-rayonne",
+        "canonicalUrl": "https://www.lyoncapitale.fr/culture/concert-didier-super-metal-a-la-rayonne",
+        "title": "Concert : Didier Super Metal à La Rayonne",
+        "description": "L’humoriste et chanteur Didier Super est à la Rayonne avec ses chansons engagées et parodiques. Comment expliquer que tant de légendes de la chanson succombent au charme dur, lisse et froid du metal ? On serait bien en peine de l’expliquer : coming out tardifs quant à un intérêt refoulé pour cette…",
+        "source": {
+          "id": "lyoncapitale",
+          "name": "Lyon Capitale"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T11:00:00.000Z",
+        "imageUrl": "https://www.lyoncapitale.fr/wp-content/uploads/2026/10/didiersupermetal-metal-lyon-site-ban-ordi_z2mfmb.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:00:00.000Z"
+    },
+    {
+      "id": "9HxF6EvlTfrG",
+      "representative": {
+        "id": "9HxF6EvlTfrG",
+        "url": "https://www.lyoncapitale.fr/regions/aura/loire/bilan-de-l-ete-2026-dans-la-loire-le-tourisme-progresse-malgre-la-chaleur",
+        "canonicalUrl": "https://www.lyoncapitale.fr/regions/aura/loire/bilan-de-l-ete-2026-dans-la-loire-le-tourisme-progresse-malgre-la-chaleur",
+        "title": "Bilan de l'été 2026 : dans la Loire, le tourisme progresse malgré la chaleur",
+        "description": "Les 2,8 millions de nuitées comptabilisées cet été dans le département représentent une hausse de 2 % sur un an. Les nuitées françaises progressent de 3 %, celles des visiteurs étrangers de 1 %. Juin a fortement contribué à cette évolution. Les nuitées françaises y ont bondi de 13 % par rapport à…",
+        "source": {
+          "id": "lyoncapitale",
+          "name": "Lyon Capitale"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T10:34:49.000Z",
+        "imageUrl": "https://www.lyoncapitale.fr/wp-content/uploads/2026/07/1785314016903.jpeg",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:34:49.000Z"
+    },
+    {
+      "id": "9NjcpLTm30Le",
+      "representative": {
+        "id": "9NjcpLTm30Le",
+        "url": "https://www.ici.fr/auvergne-rhone-alpes/loire-42/mouvement-des-lyceens-une-reprise-avortee-ce-mercredi-matin-dans-certains-etablissements-7616268?at_medium=lien_RSS&at_locale=93",
+        "canonicalUrl": "https://www.ici.fr/auvergne-rhone-alpes/loire-42/mouvement-des-lyceens-une-reprise-avortee-ce-mercredi-matin-dans-certains-etablissements-7616268",
+        "title": "Mouvement des lycéens : une reprise avortée ce mercredi matin dans certains établissements",
+        "description": "Alors que certains lycéens ont annoncé la reprise des cours en présentiel ce mercredi matin, des blocus ont été mis en place à Honoré d'Urfé à Saint-Etienne et Simone Weil à Saint-Priest-en-Jarez.",
+        "source": {
+          "id": "ici_ara",
+          "name": "ici Isère, Pays de Savoie, Saint-Étienne Loire"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T10:14:36.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/bc1b38de-85b6-407d-9140-98d4a647edbb/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:14:36.000Z"
+    },
+    {
+      "id": "efcKWwEgAxK8",
+      "representative": {
+        "id": "efcKWwEgAxK8",
+        "url": "https://www.ici.fr/auvergne-rhone-alpes/isere-38/grenoble/mobilisation-lyceenne-nouveaux-rassemblements-devant-des-etablissements-a-grenoble-et-bourgoin-jallieu-ce-mercredi-1170138?at_medium=lien_RSS&at_locale=29",
+        "canonicalUrl": "https://www.ici.fr/auvergne-rhone-alpes/isere-38/grenoble/mobilisation-lyceenne-nouveaux-rassemblements-devant-des-etablissements-a-grenoble-et-bourgoin-jallieu-ce-mercredi-1170138",
+        "title": "Mobilisation lycéenne en Isère : nouveaux rassemblements à Grenoble et Bourgoin-Jallieu, 4 interpellations",
+        "description": "De nouveaux rassemblements sont en cours devant des établissements scolaires en Isère ce mercredi matin, notamment au lycée Champollion à Grenoble et au lycée L'Oiselet à Bourgoin-Jallieu. 4 personnes ont été arrêtées ce mercredi matin.",
+        "source": {
+          "id": "ici_ara",
+          "name": "ici Isère, Pays de Savoie, Saint-Étienne Loire"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T09:21:35.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/dec93bff-7071-4575-b16e-953f59690839/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:21:35.000Z"
+    },
+    {
+      "id": "U5FiEEwf22FC",
+      "representative": {
+        "id": "U5FiEEwf22FC",
+        "url": "https://www.ici.fr/infos/medias-people/photos-miss-france-2027-decouvrez-les-visages-des-31-miss-regionales-en-lice-pour-la-couronne-6838543?at_medium=lien_RSS&at_locale=29",
+        "canonicalUrl": "https://www.ici.fr/infos/medias-people/photos-miss-france-2027-decouvrez-les-visages-des-31-miss-regionales-en-lice-pour-la-couronne-6838543",
+        "title": "PHOTOS - Miss France 2027 : découvrez les visages des 31 Miss régionales en lice pour la couronne",
+        "description": "Les 31 candidates qui tenteront de remporter la couronne de Miss France 2027 sont donc toutes connues. L'élection aura lieu le 12 décembre à l'Arena Futuroscope, près de Poities (Vienne). Découvrez leurs portraits avec ICI.",
+        "source": {
+          "id": "ici_ara",
+          "name": "ici Isère, Pays de Savoie, Saint-Étienne Loire"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T09:03:04.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/94c91cbf-2c31-48ed-b4ad-e13ef88f511e/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-ARA"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:03:04.000Z"
     },
     {
       "id": "F2T-R0lNhJ7F",
@@ -163,30 +450,6 @@
       "latestPublishedAt": "2026-10-07T06:51:09.000Z"
     },
     {
-      "id": "d7ro2j-ZXwHt",
-      "representative": {
-        "id": "d7ro2j-ZXwHt",
-        "url": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-villeurbanne-agir-contre-les-violences-sexistes-et-sexuelles_VN-202610070252.html",
-        "canonicalUrl": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-villeurbanne-agir-contre-les-violences-sexistes-et-sexuelles_VN-202610070252.html",
-        "title": "Villeurbanne, agir contre les violences sexistes et sexuelles.",
-        "description": "Le maire socialiste de Villeurbanne fait des violences sexistes et sexuelles une priorité. Un nouveau plan d'actions a été déployé ces dernières semaines dans la commune, après le scandale lié au périscolaire.",
-        "source": {
-          "id": "bfm_lyon",
-          "name": "BFM Lyon"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:50:07.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0Y_4G1uQANa9Z-qEzruPJ73M0Hs=/0x0:1280x720/800x0/images/Villeurbanne-agir-contre-les-violences-sexistes-et-sexuelles-2360741.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:50:07.000Z"
-    },
-    {
       "id": "pP43vCfMLpx2",
       "representative": {
         "id": "pP43vCfMLpx2",
@@ -209,216 +472,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T06:48:36.000Z"
-    },
-    {
-      "id": "oVIqMZpHVg5q",
-      "representative": {
-        "id": "oVIqMZpHVg5q",
-        "url": "https://www.ledauphine.com/education/2026/10/07/colere-des-lyceens-deux-lycees-bloques-a-grenoble-suivez-la-nouvelle-journee-de-mobilisation",
-        "canonicalUrl": "https://www.ledauphine.com/education/2026/10/07/colere-des-lyceens-deux-lycees-bloques-a-grenoble-suivez-la-nouvelle-journee-de-mobilisation",
-        "title": "Isère. Colère des lycéens : poubelles en feu, tirs de mortier, gaz lacrymogène... la situation se tend à Grenoble et Bourgoin-Jallieu",
-        "description": "Suivez en direct la huitième journée de mobilisation des lycéens et étudiants, qui réclament de meilleures conditions d'apprentissage.",
-        "source": {
-          "id": "ledauphine",
-          "name": "Le Dauphiné libéré"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:44:00.000Z",
-        "imageUrl": "https://cdn-s-www.ledauphine.com/images/615D5445-4286-4E7D-A3A3-42EE7A7E2C3F/NW_listB/colere-des-lyceens-poubelles-en-feu-tirs-de-mortier-gaz-lacrymogene-la-situation-se-tend-a-grenoble-et-bourgoin-jallieu-1791355854.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:44:00.000Z"
-    },
-    {
-      "id": "gRhMHXvJ6oK7",
-      "representative": {
-        "id": "gRhMHXvJ6oK7",
-        "url": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-a-venissieux-le-tramway-t4-perturbe-a-partir-de-ce-soir_VN-202610070237.html",
-        "canonicalUrl": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-a-venissieux-le-tramway-t4-perturbe-a-partir-de-ce-soir_VN-202610070237.html",
-        "title": "A Vénissieux, le tramway T4 perturbé à partir de ce soir",
-        "description": "Dès ce soir et jusqu’à vendredi soir inclus, des essais de signalisations sont réalisés sur le tramway T10",
-        "source": {
-          "id": "bfm_lyon",
-          "name": "BFM Lyon"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:37:10.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/TQ-u27tK4i_tRCrcXIHFZPaOrzs=/0x0:1280x720/800x0/images/A-Venissieux-le-tramway-T4-perturbe-a-partir-de-ce-soir-2360720.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:37:10.000Z"
-    },
-    {
-      "id": "4sVF7pFEFy7D",
-      "representative": {
-        "id": "4sVF7pFEFy7D",
-        "url": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-ol-moussa-niakhate-absent-contre-lens_VN-202610070230.html",
-        "canonicalUrl": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-ol-moussa-niakhate-absent-contre-lens_VN-202610070230.html",
-        "title": "OL : Moussa Niakhaté absent contre Lens",
-        "description": "Coup dur pour l'OL. Niakhaté est absent pour le match contre Lens vendredi soir.",
-        "source": {
-          "id": "bfm_lyon",
-          "name": "BFM Lyon"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:33:44.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/sTtGrxDq-wcC-ayDiTnAftdz624=/0x0:1280x720/800x0/images/OL-Moussa-Niakhate-absent-contre-Lens-2360713.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:33:44.000Z"
-    },
-    {
-      "id": "bVvzuTjmitFi",
-      "representative": {
-        "id": "bVvzuTjmitFi",
-        "url": "https://www.ledauphine.com/societe/2026/10/07/colere-des-lyceens-suivez-la-nouvelle-journee-de-mobilisation",
-        "canonicalUrl": "https://www.ledauphine.com/societe/2026/10/07/colere-des-lyceens-suivez-la-nouvelle-journee-de-mobilisation",
-        "title": "Pays de Savoie. Colère des lycéens : suivez la nouvelle journée de mobilisation",
-        "description": null,
-        "source": {
-          "id": "ledauphine",
-          "name": "Le Dauphiné libéré"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:32:00.000Z",
-        "imageUrl": "https://cdn-s-www.ledauphine.com/images/0B6081DF-6EB5-44A9-8EC3-D0B9DF5ACCE6/NW_listB/colere-des-lyceens-suivez-la-nouvelle-journee-de-mobilisation-1791355326.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [
-        {
-          "id": "kjp-Oa9V9tdl",
-          "url": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-les-commercants-redoutent-cette-nouvelle-journee-de-mobilisation-des-lyceens_VN-202610060231.html",
-          "canonicalUrl": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-les-commercants-redoutent-cette-nouvelle-journee-de-mobilisation-des-lyceens_VN-202610060231.html",
-          "title": "Les commerçants redoutent cette nouvelle journée de mobilisation des lycéens",
-          "description": "À Lyon, et dans le département, les commerçants se barricadent pour éviter tous débordements lors des manifestations lycéennes ce mardi 6 octobre",
-          "source": {
-            "id": "bfm_lyon",
-            "name": "BFM Lyon"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T06:36:48.000Z",
-          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/1P8HKFu2WvvjTZBzkTU3uTYa1Pw=/0x0:1280x720/800x0/images/Les-commercants-redoutent-cette-nouvelle-journee-de-mobilisation-des-lyceens-2360004.jpg",
-          "countryCode": "FR",
-          "regionCode": "FR-ARA"
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T06:32:00.000Z"
-    },
-    {
-      "id": "gIsr-dz1zolf",
-      "representative": {
-        "id": "gIsr-dz1zolf",
-        "url": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-saint-symphorien-d-ozon-au-sud-est-de-lyon-est-menace-par-les-deserts-medicaux_VN-202610070225.html",
-        "canonicalUrl": "https://www.bfmtv.com/lyon/replay-emissions/bonjour-lyon/video-saint-symphorien-d-ozon-au-sud-est-de-lyon-est-menace-par-les-deserts-medicaux_VN-202610070225.html",
-        "title": "Saint-Symphorien-d'Ozon, au sud est de Lyon, est menacé par les déserts médicaux",
-        "description": "Saint-Symphorien-d'Ozon, au sud est de Lyon, est menacé par les déserts médicaux",
-        "source": {
-          "id": "bfm_lyon",
-          "name": "BFM Lyon"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:27:29.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Lxd_K2ERdyWc-JPvNIDldWT2PwU=/0x0:1280x720/800x0/images/Saint-Symphorien-d-Ozon-au-sud-est-de-Lyon-est-menace-par-les-deserts-medicaux-2360706.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:27:29.000Z"
-    },
-    {
-      "id": "SJL3_3awMV9W",
-      "representative": {
-        "id": "SJL3_3awMV9W",
-        "url": "https://www.bfmtv.com/lyon/videos/video-le-journal-de-8h-du-mercredi-7-octobre-2026_VN-202610070213.html",
-        "canonicalUrl": "https://www.bfmtv.com/lyon/videos/video-le-journal-de-8h-du-mercredi-7-octobre-2026_VN-202610070213.html",
-        "title": "Le journal de 8h du mercredi 7 octobre 2026",
-        "description": "Bonjour Lyon présentée par Hugo Caprioli, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole lyonnaise. Au sommaire : 20 000 manifestants à Lyon mardi. Bientôt un désert médical…",
-        "source": {
-          "id": "bfm_lyon",
-          "name": "BFM Lyon"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:16:53.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/uAONhxW8Dh-L9V69Kc2qTcJ5Nw8=/0x0:1280x720/800x0/images/Le-journal-de-8h-du-mercredi-7-octobre-2026-2360696.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:16:53.000Z"
-    },
-    {
-      "id": "WHndun9ZHGLh",
-      "representative": {
-        "id": "WHndun9ZHGLh",
-        "url": "https://www.leprogres.fr/education/2026/10/07/mobilisation-lyceenne-7e-jour-de-blocus-a-lyon-et-dans-le-rhone-suivez-avec-nous-la-situation",
-        "canonicalUrl": "https://www.leprogres.fr/education/2026/10/07/mobilisation-lyceenne-7e-jour-de-blocus-a-lyon-et-dans-le-rhone-suivez-avec-nous-la-situation",
-        "title": "Blocage des lycéens. Mobilisation lycéenne : plusieurs campus universitaires bloqués en soutien, les trams perturbés",
-        "description": "Au moins 20 000 personnes : la mobilisation de ce mardi 6 octobre a été exceptionnelle à Lyon. Ce mercredi, de nouveaux blocages sont annoncés dans certains établissements de la région lyonnaise. Suivez l’évolution de la journée en direct.",
-        "source": {
-          "id": "leprogres",
-          "name": "Le Progrès"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:15:00.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:15:00.000Z"
-    },
-    {
-      "id": "6EQGMFGgBe8t",
-      "representative": {
-        "id": "6EQGMFGgBe8t",
-        "url": "https://www.ledauphine.com/faits-divers-justice/2026/10/07/une-voiture-a-l-arret-a-ete-pulverisee-par-un-camion-sur-l-autoroute-a43-le-conducteur-s-en-est-sorti",
-        "canonicalUrl": "https://www.ledauphine.com/faits-divers-justice/2026/10/07/une-voiture-a-l-arret-a-ete-pulverisee-par-un-camion-sur-l-autoroute-a43-le-conducteur-s-en-est-sorti",
-        "title": "Isère. Une voiture à l'arrêt a été pulvérisée par un camion sur l'autoroute A43, le conducteur s'en est sorti",
-        "description": "Vers 6h30, alors qu'il circulait sur l'autoroute A43, en direction de Lyon, un trentenaire a perdu le contrôle de sa Mazda au niveau de la commune de Nivolas-Vermelle.",
-        "source": {
-          "id": "ledauphine",
-          "name": "Le Dauphiné libéré"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:01:00.000Z",
-        "imageUrl": "https://cdn-s-www.ledauphine.com/images/7785140A-E262-43F4-A650-2FD39FBAB5BE/NW_listB/une-voiture-a-l-arret-a-ete-pulverisee-par-un-camion-sur-l-autoroute-a43-le-conducteur-s-en-est-sorti-1791352867.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-ARA"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:01:00.000Z"
     }
   ]
 }

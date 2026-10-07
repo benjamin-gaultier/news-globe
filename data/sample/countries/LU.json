@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "LU",
   "countryName": "Luxembourg",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "Il37l9aBr5iI",
@@ -125,30 +125,6 @@
       "latestPublishedAt": "2026-10-06T15:34:00.000Z"
     },
     {
-      "id": "4035B-p3zj-y",
-      "representative": {
-        "id": "4035B-p3zj-y",
-        "url": "https://lequotidien.lu/a-la-une/football-un-jubile-miralem-pjanic-oui-pourquoi-pas/",
-        "canonicalUrl": "https://lequotidien.lu/a-la-une/football-un-jubile-miralem-pjanic-oui-pourquoi-pas/",
-        "title": "[Football] Entretien avec Pjanic : «Un jubilé Miralem Pjanic? Oui, pourquoi pas?»",
-        "description": "[HORS STADE] Il a dit non à Uli Hoeness, est certain que Buffon, Totti ou Busquets viendraient au jubilé qu’il pense organiser à Metz, se destine à faire entraîneur… voire sélectionneur. Longue entrevue avec Miralem Pjanic, qui a mis fin à sa folle carrière en fin d’année dernière et ne s’était…",
-        "source": {
-          "id": "lequotidien_lu",
-          "name": "Le Quotidien"
-        },
-        "sourceCountry": "LU",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:30:40.000Z",
-        "imageUrl": null,
-        "countryCode": "LU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:30:40.000Z"
-    },
-    {
       "id": "gdQC1I5Sg-47",
       "representative": {
         "id": "gdQC1I5Sg-47",
@@ -171,6 +147,174 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:30:00.000Z"
+    },
+    {
+      "id": "ho5YeG57HQzb",
+      "representative": {
+        "id": "ho5YeG57HQzb",
+        "url": "https://www.wort.lu/panorama/in-belgien-geborener-forscher-erhaelt-nobelpreis-fuer-physik/162675566.html",
+        "canonicalUrl": "https://www.wort.lu/panorama/in-belgien-geborener-forscher-erhaelt-nobelpreis-fuer-physik/162675566.html",
+        "title": "In Belgien geborener Forscher erhält Nobelpreis für Physik",
+        "description": "Pro Sekunde durchströmen mehrere Milliarden Neutrinos die Fläche eines Daumennagels. In der Kälte der Antarktis fängt ein riesiger Eiswürfel die Geisterteilchen ein. Ihn würdigt der Physik-Nobelpreis.",
+        "source": {
+          "id": "wort",
+          "name": "Luxemburger Wort"
+        },
+        "sourceCountry": "LU",
+        "language": "de",
+        "publishedAt": "2026-10-06T15:05:51.000Z",
+        "imageUrl": "https://img.wort.lu/public/luxemburg/n008ou-nobelpreis-fur-physik/alternates/BASE_SIXTEEN_NINE/Nobelpreis%20f%C3%BCr%20Physik",
+        "countryCode": "LU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:05:51.000Z"
+    },
+    {
+      "id": "6t_hNOGkEKmu",
+      "representative": {
+        "id": "6t_hNOGkEKmu",
+        "url": "https://www.wort.lu/luxemburg/osten/ohne-bremsen-und-mit-50-kmh-hier-duerfen-auch-hobby-radfahrer-auf-die-bahn/162614141.html",
+        "canonicalUrl": "https://www.wort.lu/luxemburg/osten/ohne-bremsen-und-mit-50-kmh-hier-duerfen-auch-hobby-radfahrer-auf-die-bahn/162614141.html",
+        "title": "Ohne Bremsen und mit 50 km/h: Hier dürfen auch Hobby-Radfahrer auf die Bahn",
+        "description": "Der Sportkomplex ist weit mehr als das vieldiskutierte Velodrom. Von den vielfältigen Möglichkeiten profitieren auch Schüler und Vereinssportler.",
+        "source": {
+          "id": "wort",
+          "name": "Luxemburger Wort"
+        },
+        "sourceCountry": "LU",
+        "language": "de",
+        "publishedAt": "2026-10-06T15:00:00.000Z",
+        "imageUrl": "https://img.wort.lu/public/luxemburg/bwn4yj-das-velodrom-wird-eine-250-meter-lange-und-sieben-meter-breite-holzpiste-mit-dem-sogenannten-infield-beherbergen./alternates/BASE_SIXTEEN_NINE/Das%20Velodrom%20%20wird%20eine%20250%20Meter%20lange%20und%20sieben%20Meter%20breite%20Holzpiste%20mit%20dem%20sogenannten%20Infield%20beherbergen.",
+        "countryCode": "LU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:00:00.000Z"
+    },
+    {
+      "id": "VrlJOLV2RrUd",
+      "representative": {
+        "id": "VrlJOLV2RrUd",
+        "url": "https://www.virgule.lu/international/soupcon-de-peste-en-russie-les-autorites-nient-linstauration-de-mesures-sanitaires/162674763.html",
+        "canonicalUrl": "https://www.virgule.lu/international/soupcon-de-peste-en-russie-les-autorites-nient-linstauration-de-mesures-sanitaires/162674763.html",
+        "title": "Soupçon de peste en Russie: les autorités nient l’instauration de mesures sanitaires",
+        "description": "Le décès d’une technicienne de laboratoire de 28 ans qui travaillait pour l’Institut de lutte contre la peste d’Irkoutsk, en Sibérie, a suscité de vives inquiétudes dans le monde. L’OMS tempère.",
+        "source": {
+          "id": "virgule",
+          "name": "Virgule"
+        },
+        "sourceCountry": "LU",
+        "language": "fr",
+        "publishedAt": "2026-10-06T14:55:47.000Z",
+        "imageUrl": "https://img.virgule.lu/public/luxembourg/6hknsw-afp--20261005--d29x8kg--v1--highres--russiahealthplague.jpg/alternates/BASE_SIXTEEN_NINE/AFP__20261005__D29X8KG__v1__HighRes__RussiaHealthPlague.jpg",
+        "countryCode": "LU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:55:47.000Z"
+    },
+    {
+      "id": "5-uNw8gLfMKR",
+      "representative": {
+        "id": "5-uNw8gLfMKR",
+        "url": "https://www.luxtimes.lu/europeanunion/gen-z-has-risen-up-tens-of-thousands-demand-better-education-in-france/162672223.html",
+        "canonicalUrl": "https://www.luxtimes.lu/europeanunion/gen-z-has-risen-up-tens-of-thousands-demand-better-education-in-france/162672223.html",
+        "title": "‘Gen Z has risen up’: Tens of thousands demand better education in France",
+        "description": "Students have blocked entrances to schools since late September",
+        "source": {
+          "id": "luxtimes",
+          "name": "Luxembourg Times"
+        },
+        "sourceCountry": "LU",
+        "language": "en",
+        "publishedAt": "2026-10-06T14:26:09.000Z",
+        "imageUrl": "https://img.luxtimes.lu/public/luxembourg/ap3um7-365.jpeg/alternates/BASE_SIXTEEN_NINE/365.jpeg",
+        "countryCode": "LU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:26:09.000Z"
+    },
+    {
+      "id": "wpbLitshf5mQ",
+      "representative": {
+        "id": "wpbLitshf5mQ",
+        "url": "https://www.virgule.lu/luxembourg/le-doubletree-by-hilton-luxembourg-fait-peau-neuve-avec-345-chambres/162660034.html",
+        "canonicalUrl": "https://www.virgule.lu/luxembourg/le-doubletree-by-hilton-luxembourg-fait-peau-neuve-avec-345-chambres/162660034.html",
+        "title": "Le DoubleTree by Hilton Luxembourg fait peau neuve avec 345 chambres",
+        "description": "L’hôtel de Dommeldange vient d’achever un important programme de rénovation de ses 345 chambres et suites. Une nouvelle catégorie «Premium» fait également son apparition, tandis que la salle de fitness et plusieurs espaces communs ont été modernisés.",
+        "source": {
+          "id": "virgule",
+          "name": "Virgule"
+        },
+        "sourceCountry": "LU",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:47:07.000Z",
+        "imageUrl": "https://img.virgule.lu/public/luxembourg/g962kf-xmhidi-exterior-drone-5.jpg/alternates/BASE_SIXTEEN_NINE/XMHIDI-Exterior_drone-5.jpg",
+        "countryCode": "LU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:47:07.000Z"
+    },
+    {
+      "id": "KlKp-NskGQ5j",
+      "representative": {
+        "id": "KlKp-NskGQ5j",
+        "url": "https://www.virgule.lu/granderegion/ligpn-saisie-apres-linterpellation-dune-jeune-fille-par-un-policier-en-civil-a-metz/162657356.html",
+        "canonicalUrl": "https://www.virgule.lu/granderegion/ligpn-saisie-apres-linterpellation-dune-jeune-fille-par-un-policier-en-civil-a-metz/162657356.html",
+        "title": "L’IGPN saisie après l’interpellation d’une jeune fille par un policier en civil à Metz",
+        "description": "L’Inspection générale de la police nationale (IGPN) a été saisie après la diffusion d’une vidéo montrant un policier en civil semblant toucher les cheveux et la poitrine d’une jeune fille interpellée à Metz en marge de la grogne des lycéens qui touche la France.",
+        "source": {
+          "id": "virgule",
+          "name": "Virgule"
+        },
+        "sourceCountry": "LU",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:16:04.000Z",
+        "imageUrl": "https://img.virgule.lu/public/luxembourg/eq7clh-shutterstock-2705849475.jpg/alternates/BASE_SIXTEEN_NINE/shutterstock_2705849475.jpg",
+        "countryCode": "LU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:16:04.000Z"
+    },
+    {
+      "id": "4035B-p3zj-y",
+      "representative": {
+        "id": "4035B-p3zj-y",
+        "url": "https://lequotidien.lu/a-la-une/football-un-jubile-miralem-pjanic-oui-pourquoi-pas/",
+        "canonicalUrl": "https://lequotidien.lu/a-la-une/football-un-jubile-miralem-pjanic-oui-pourquoi-pas/",
+        "title": "[Football] Entretien avec Pjanic : «Un jubilé Miralem Pjanic? Oui, pourquoi pas?»",
+        "description": "[HORS STADE] Il a dit non à Uli Hoeness, est certain que Buffon, Totti ou Busquets viendraient au jubilé qu’il pense organiser à Metz, se destine à faire entraîneur… voire sélectionneur. Longue entrevue avec Miralem Pjanic, qui a mis fin à sa folle carrière en fin d’année dernière et ne s’était…",
+        "source": {
+          "id": "lequotidien_lu",
+          "name": "Le Quotidien"
+        },
+        "sourceCountry": "LU",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:30:40.000Z",
+        "imageUrl": null,
+        "countryCode": "LU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:30:40.000Z"
     },
     {
       "id": "lCrGfrImKSM8",
@@ -219,150 +363,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:07:16.000Z"
-    },
-    {
-      "id": "ho5YeG57HQzb",
-      "representative": {
-        "id": "ho5YeG57HQzb",
-        "url": "https://www.wort.lu/panorama/in-belgien-geborener-forscher-erhaelt-nobelpreis-fuer-physik/162675566.html",
-        "canonicalUrl": "https://www.wort.lu/panorama/in-belgien-geborener-forscher-erhaelt-nobelpreis-fuer-physik/162675566.html",
-        "title": "In Belgien geborener Forscher erhält Nobelpreis für Physik",
-        "description": "Pro Sekunde durchströmen mehrere Milliarden Neutrinos die Fläche eines Daumennagels. In der Kälte der Antarktis fängt ein riesiger Eiswürfel die Geisterteilchen ein. Ihn würdigt der Physik-Nobelpreis.",
-        "source": {
-          "id": "wort",
-          "name": "Luxemburger Wort"
-        },
-        "sourceCountry": "LU",
-        "language": "de",
-        "publishedAt": "2026-10-06T15:05:51.000Z",
-        "imageUrl": "https://img.wort.lu/public/luxemburg/n008ou-nobelpreis-fur-physik/alternates/BASE_SIXTEEN_NINE/Nobelpreis%20f%C3%BCr%20Physik",
-        "countryCode": "LU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:05:51.000Z"
-    },
-    {
-      "id": "iBjVRJlB6IOx",
-      "representative": {
-        "id": "iBjVRJlB6IOx",
-        "url": "https://lequotidien.lu/police-justice/arnaques-au-passage-a-wero-la-police-appelle-a-la-vigilance/",
-        "canonicalUrl": "https://lequotidien.lu/police-justice/arnaques-au-passage-a-wero-la-police-appelle-a-la-vigilance/",
-        "title": "Arnaques au passage à Wero : la police appelle à la vigilance",
-        "description": "Au cours des derniers jours, les autorités ont recensé plusieurs cas de phishing et de tentatives d’escroquerie liés à l’introduction du système de paiement Wero. Pour ce faire, les escrocs utilisent fréquemment la transition de Payconiq vers Wero comme prétexte pour obtenir des données…",
-        "source": {
-          "id": "lequotidien_lu",
-          "name": "Le Quotidien"
-        },
-        "sourceCountry": "LU",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:04:36.000Z",
-        "imageUrl": null,
-        "countryCode": "LU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:04:36.000Z"
-    },
-    {
-      "id": "5EjLHAYl71Az",
-      "representative": {
-        "id": "5EjLHAYl71Az",
-        "url": "https://lequotidien.lu/culture/magazine-russie-les-chorales-de-rue-donnent-le-ton/",
-        "canonicalUrl": "https://lequotidien.lu/culture/magazine-russie-les-chorales-de-rue-donnent-le-ton/",
-        "title": "[Magazine] Russie : les chorales de rue donnent le ton",
-        "description": "Confrontés depuis plus de quatre ans aux représailles ukrainiennes et aux contrôles étatiques, de nombreux Russes sortent dans la rue pour chanter ensemble. Des chœurs aux vertus cathartiques et contestataires. Entonner ses airs préférés avec des inconnus dans un parc moscovite donne des frissons…",
-        "source": {
-          "id": "lequotidien_lu",
-          "name": "Le Quotidien"
-        },
-        "sourceCountry": "LU",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:00:45.000Z",
-        "imageUrl": null,
-        "countryCode": "LU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:00:45.000Z"
-    },
-    {
-      "id": "6t_hNOGkEKmu",
-      "representative": {
-        "id": "6t_hNOGkEKmu",
-        "url": "https://www.wort.lu/luxemburg/osten/ohne-bremsen-und-mit-50-kmh-hier-duerfen-auch-hobby-radfahrer-auf-die-bahn/162614141.html",
-        "canonicalUrl": "https://www.wort.lu/luxemburg/osten/ohne-bremsen-und-mit-50-kmh-hier-duerfen-auch-hobby-radfahrer-auf-die-bahn/162614141.html",
-        "title": "Ohne Bremsen und mit 50 km/h: Hier dürfen auch Hobby-Radfahrer auf die Bahn",
-        "description": "Der Sportkomplex ist weit mehr als das vieldiskutierte Velodrom. Von den vielfältigen Möglichkeiten profitieren auch Schüler und Vereinssportler.",
-        "source": {
-          "id": "wort",
-          "name": "Luxemburger Wort"
-        },
-        "sourceCountry": "LU",
-        "language": "de",
-        "publishedAt": "2026-10-06T15:00:00.000Z",
-        "imageUrl": "https://img.wort.lu/public/luxemburg/bwn4yj-das-velodrom-wird-eine-250-meter-lange-und-sieben-meter-breite-holzpiste-mit-dem-sogenannten-infield-beherbergen./alternates/BASE_SIXTEEN_NINE/Das%20Velodrom%20%20wird%20eine%20250%20Meter%20lange%20und%20sieben%20Meter%20breite%20Holzpiste%20mit%20dem%20sogenannten%20Infield%20beherbergen.",
-        "countryCode": "LU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:00:00.000Z"
-    },
-    {
-      "id": "wnFvxKeu20kA",
-      "representative": {
-        "id": "wnFvxKeu20kA",
-        "url": "https://www.wort.lu/kultur/neues-kinoerlebnis-fuer-rund-800.000-euro-in-duedelingen/162638153.html",
-        "canonicalUrl": "https://www.wort.lu/kultur/neues-kinoerlebnis-fuer-rund-800.000-euro-in-duedelingen/162638153.html",
-        "title": "Neues Kinoerlebnis für rund 800.000 Euro in Düdelingen",
-        "description": "Nach aufwendigen Renovierungsarbeiten empfängt das Ciné Starlight bereits seit April wieder Besucher. Nun wurde das Kino offiziell wiedereröffnet. Das hat sich verändert.",
-        "source": {
-          "id": "wort",
-          "name": "Luxemburger Wort"
-        },
-        "sourceCountry": "LU",
-        "language": "de",
-        "publishedAt": "2026-10-06T15:00:00.000Z",
-        "imageUrl": "https://img.wort.lu/public/luxemburg/kydq0a-wiedereroffnung-cine-starlight-cna-dudelange-06.10.26-photo-laurent-sturm/alternates/BASE_SIXTEEN_NINE/Wiederer%C3%B6ffnung%20Cin%C3%A9%20Starlight%20CNA%20Dudelange%2006.10.26%20Photo%20Laurent%20Sturm",
-        "countryCode": "LU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:00:00.000Z"
-    },
-    {
-      "id": "zeUllYQMWEiw",
-      "representative": {
-        "id": "zeUllYQMWEiw",
-        "url": "https://www.wort.lu/international/marode-schulgebaeude-und-ratten-treiben-die-jugendlichen-auf-die-strasse/162666930.html",
-        "canonicalUrl": "https://www.wort.lu/international/marode-schulgebaeude-und-ratten-treiben-die-jugendlichen-auf-die-strasse/162666930.html",
-        "title": "Marode Schulgebäude und Ratten treiben die Jugendlichen auf die Straße",
-        "description": "Am Dienstag protestierten Zehntausende in Frankreich gegen schlechte Lernbedingungen. Teilweise arteten sie in Gewalt aus. Die Linkspartei nutzt die Wut derweil für ihre politische Inszenierung.",
-        "source": {
-          "id": "wort",
-          "name": "Luxemburger Wort"
-        },
-        "sourceCountry": "LU",
-        "language": "de",
-        "publishedAt": "2026-10-06T15:00:00.000Z",
-        "imageUrl": "https://img.wort.lu/public/luxemburg/irqgmy-file87wv0dp4z9ylcdaw8c0/alternates/BASE_SIXTEEN_NINE/file87wv0dp4z9ylcdaw8c0",
-        "countryCode": "LU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:00:00.000Z"
     }
   ]
 }

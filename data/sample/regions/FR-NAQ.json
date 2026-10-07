@@ -4,8 +4,56 @@
   "countryName": "France",
   "regionCode": "FR-NAQ",
   "regionName": "Nouvelle-Aquitaine",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
+    {
+      "id": "82IGMYWWazA1",
+      "representative": {
+        "id": "82IGMYWWazA1",
+        "url": "https://www.ici.fr/nouvelle-aquitaine/correze-19/espagnac/correze-un-homme-de-83-ans-porte-disparu-sur-la-commune-d-espagnac-un-appel-a-temoins-lance-par-les-gendarmes-1885654?at_medium=lien_RSS&at_locale=31",
+        "canonicalUrl": "https://www.ici.fr/nouvelle-aquitaine/correze-19/espagnac/correze-un-homme-de-83-ans-porte-disparu-sur-la-commune-d-espagnac-un-appel-a-temoins-lance-par-les-gendarmes-1885654",
+        "title": "Corrèze : l'homme de 83 ans porté disparu sur la commune d'Espagnac a été retrouvé",
+        "description": "La gendarmerie de la Corrèze avait lancé, ce mardi soir, un appel à témoins pour retrouver un homme de 83 ans sur la commune d'Espagnac. Il a été retrouvé en bonne santé très tôt ce mercredi matin.",
+        "source": {
+          "id": "ici_naq",
+          "name": "ici Pays Basque, Gironde, Limousin"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T10:00:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/c2da65ab-9e96-411d-bf20-162e6225354d/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-NAQ"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:00:00.000Z"
+    },
+    {
+      "id": "kH30E7yYv1U5",
+      "representative": {
+        "id": "kH30E7yYv1U5",
+        "url": "https://www.ici.fr/emissions/ici-gironde-ca-marche-avec-isabelle-wagner/animou-une-application-gratuite-pour-la-recherche-et-la-protection-des-animaux-5463113?at_medium=lien_RSS&at_locale=27",
+        "canonicalUrl": "https://www.ici.fr/emissions/ici-gironde-ca-marche-avec-isabelle-wagner/animou-une-application-gratuite-pour-la-recherche-et-la-protection-des-animaux-5463113",
+        "title": "Animou, une application gratuite pour la recherche et la protection des animaux",
+        "description": "Animou est une application gratuite, imaginée par Ambre Capon et Aymeric Deloche, ces Girondins mettent à disposition la technologie au service de la solidarité, pour trouver rapidement un animal perdu ou retrouver les familles des chiens ou chats en errance.",
+        "source": {
+          "id": "ici_naq",
+          "name": "ici Pays Basque, Gironde, Limousin"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T08:00:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/4c760512-2f65-4576-8782-e9006c5c28a5/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-NAQ"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T08:00:00.000Z"
+    },
     {
       "id": "tAk9a29MuXGS",
       "representative": {
@@ -79,220 +127,28 @@
       "latestPublishedAt": "2026-10-07T06:15:00.000Z"
     },
     {
-      "id": "gSB0EnRDt_dU",
+      "id": "YVfq1kfOrU0h",
       "representative": {
-        "id": "gSB0EnRDt_dU",
-        "url": "https://www.sudouest.fr/gironde/etauliers/etauliers-une-marche-solidaire-organisee-pour-octobre-rose-30866248.php",
-        "canonicalUrl": "https://www.sudouest.fr/gironde/etauliers/etauliers-une-marche-solidaire-organisee-pour-octobre-rose-30866248.php",
-        "title": "Étauliers : une marche solidaire organisée pour Octobre rose",
-        "description": "Le comité de jumelage et l’association Sportez-vous bien proposent une randonnée pédestre le samedi 17 octobre au départ de la salle des fêtes, au profit de la Ligue contre le cancer",
+        "id": "YVfq1kfOrU0h",
+        "url": "https://www.ici.fr/emissions/l-info-d-ici-au-pays-basque/mobilisation-lyceenne-au-pays-basque-pourquoi-les-profs-soutiennent-leurs-eleves-1366110?at_medium=lien_RSS&at_locale=41",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-au-pays-basque/mobilisation-lyceenne-au-pays-basque-pourquoi-les-profs-soutiennent-leurs-eleves-1366110",
+        "title": "Mobilisation lycéenne au Pays Basque : pourquoi les profs soutiennent leurs élèves",
+        "description": "Ils étaient en fin de cortège ce mardi 6 octobre dans les manifestations lycéennes à Bayonne comme à Saint-Jean-de-Luz. Ils sont parents, enseignants ou syndicalistes … ils expliquent leurs motivations ICI.",
         "source": {
-          "id": "sudouest",
-          "name": "Sud Ouest"
+          "id": "ici_naq",
+          "name": "ici Pays Basque, Gironde, Limousin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T06:14:00.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-07T06:14:30.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/138db3fd-9b38-4caa-8958-cdefb1231bf7/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-NAQ"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:14:00.000Z"
-    },
-    {
-      "id": "-eag71TK_ZDn",
-      "representative": {
-        "id": "-eag71TK_ZDn",
-        "url": "https://www.sudouest.fr/gironde/bordeaux/bordeaux-boum-piscines-a-doudous-un-week-end-entierement-pense-pour-les-enfants-au-capc-30939437.php",
-        "canonicalUrl": "https://www.sudouest.fr/gironde/bordeaux/bordeaux-boum-piscines-a-doudous-un-week-end-entierement-pense-pour-les-enfants-au-capc-30939437.php",
-        "title": "Bordeaux : boum, piscines à doudous… un week-end entièrement pensé pour les enfants au CAPC",
-        "description": "Piscine à doudous, usine à cubes, costumes à fabriquer, DJ, boum et jeux en pagaille : ces 10 et 11 octobre, le musée d’art contemporain se met à hauteur d’enfant",
-        "source": {
-          "id": "sudouest",
-          "name": "Sud Ouest"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:00:00.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-NAQ"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:00:00.000Z"
-    },
-    {
-      "id": "jV9-Hips65MZ",
-      "representative": {
-        "id": "jV9-Hips65MZ",
-        "url": "https://www.sudouest.fr/gironde/la-reole/la-reole-l-ensemble-vocal-artis-voces-s-offre-une-parenthese-jazz-au-prieure-30937365.php",
-        "canonicalUrl": "https://www.sudouest.fr/gironde/la-reole/la-reole-l-ensemble-vocal-artis-voces-s-offre-une-parenthese-jazz-au-prieure-30937365.php",
-        "title": "La Réole : l’ensemble vocal Artis Voces s’offre une parenthèse jazz au Prieuré",
-        "description": "Le chœur mixte réolais propose deux concerts les samedi 10 et dimanche 11 octobre au couloir des bénédictins, avec un programme rythmé autour des fables de La Fontaine version swing",
-        "source": {
-          "id": "sudouest",
-          "name": "Sud Ouest"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:53:00.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-NAQ"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:53:00.000Z"
-    },
-    {
-      "id": "T8isHQdPpJQR",
-      "representative": {
-        "id": "T8isHQdPpJQR",
-        "url": "https://www.sudouest.fr/gironde/sainte-foy-la-grande/sainte-foy-la-grande-l-association-franco-marocaine-du-pays-foyen-a-ete-inauguree-30929172.php",
-        "canonicalUrl": "https://www.sudouest.fr/gironde/sainte-foy-la-grande/sainte-foy-la-grande-l-association-franco-marocaine-du-pays-foyen-a-ete-inauguree-30929172.php",
-        "title": "Sainte-Foy-la-Grande : l’Association franco-marocaine du Pays foyen a été inaugurée",
-        "description": "La nouvelle structure, présidée par Khadija Chouit, a lancé officiellement ses activités le vendredi 2 octobre en présence de la consule générale du Royaume du Maroc à Bordeaux et des élus locaux",
-        "source": {
-          "id": "sudouest",
-          "name": "Sud Ouest"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:44:00.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-NAQ"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:44:00.000Z"
-    },
-    {
-      "id": "Hk_mw5h3u1RY",
-      "representative": {
-        "id": "Hk_mw5h3u1RY",
-        "url": "https://www.sudouest.fr/gironde/lege-cap-ferret/lege-cap-ferret-plus-de-250-participants-mobilises-pour-la-marche-d-octobre-rose-30924619.php",
-        "canonicalUrl": "https://www.sudouest.fr/gironde/lege-cap-ferret/lege-cap-ferret-plus-de-250-participants-mobilises-pour-la-marche-d-octobre-rose-30924619.php",
-        "title": "Lège-Cap-Ferret : plus de 250 participants mobilisés pour la marche d’Octobre rose",
-        "description": "La journée de solidarité organisée ce dimanche par le Club nautique de Claouey a réuni de nombreux marcheurs et convives avant un prochain rendez-vous d’information prévu le vendredi 16 octobre",
-        "source": {
-          "id": "sudouest",
-          "name": "Sud Ouest"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:33:00.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-NAQ"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:33:00.000Z"
-    },
-    {
-      "id": "48yjMZUx44qM",
-      "representative": {
-        "id": "48yjMZUx44qM",
-        "url": "https://www.sudouest.fr/gironde/saint-jean-d-illac/saint-jean-d-illac-le-jason-mist-trio-en-apero-concert-a-l-espace-querandeau-30924346.php",
-        "canonicalUrl": "https://www.sudouest.fr/gironde/saint-jean-d-illac/saint-jean-d-illac-le-jason-mist-trio-en-apero-concert-a-l-espace-querandeau-30924346.php",
-        "title": "Saint-Jean-d’Illac : le Jason Mist trio en apéro-concert à l’Espace Querandeau",
-        "description": "L’Espace Querandeau propose une soirée musicale aux sonorités folk et blues le vendredi 9 octobre à 19 h 30, avec un concert de l’artiste calédonien Jason Mist entouré de ses musiciens, suivi d’un moment",
-        "source": {
-          "id": "sudouest",
-          "name": "Sud Ouest"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:16:00.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-NAQ"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:16:00.000Z"
-    },
-    {
-      "id": "jQe8P028hXlR",
-      "representative": {
-        "id": "jQe8P028hXlR",
-        "url": "https://www.sudouest.fr/gironde/barsac/barsac-montez-le-son-troque-les-riffs-pour-les-platines-30919625.php",
-        "canonicalUrl": "https://www.sudouest.fr/gironde/barsac/barsac-montez-le-son-troque-les-riffs-pour-les-platines-30919625.php",
-        "title": "Barsac : Montez Le Son troque les riffs pour les platines",
-        "description": "Habituée aux concerts punk rock, l’association barsacaise propose une programmation inédite réunissant six artistes, samedi 10 octobre, pour diversifier son offre musicale",
-        "source": {
-          "id": "sudouest",
-          "name": "Sud Ouest"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:16:00.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-NAQ"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:16:00.000Z"
-    },
-    {
-      "id": "3lPez1cSKIct",
-      "representative": {
-        "id": "3lPez1cSKIct",
-        "url": "https://www.sudouest.fr/gironde/blaye/blaye-la-ville-lance-des-petits-dejeuners-partenaires-pour-renforcer-la-solidarite-locale-30912123.php",
-        "canonicalUrl": "https://www.sudouest.fr/gironde/blaye/blaye-la-ville-lance-des-petits-dejeuners-partenaires-pour-renforcer-la-solidarite-locale-30912123.php",
-        "title": "Blaye : la Ville lance des Petits-déjeuners partenaires pour renforcer la solidarité locale",
-        "description": "La municipalité a initié des rencontres trimestrielles entre les acteurs de la solidarité pour favoriser le partage d’informations entre les associations et les divers organismes",
-        "source": {
-          "id": "sudouest",
-          "name": "Sud Ouest"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:05:00.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-NAQ"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:05:00.000Z"
-    },
-    {
-      "id": "jVtd5YhpgWcj",
-      "representative": {
-        "id": "jVtd5YhpgWcj",
-        "url": "https://www.sudouest.fr/culture/lire-en-poche-a-gradignan-le-fonds-de-dotation-un-outil-precieux-pour-faire-grandir-l-evenement-30883025.php",
-        "canonicalUrl": "https://www.sudouest.fr/culture/lire-en-poche-a-gradignan-le-fonds-de-dotation-un-outil-precieux-pour-faire-grandir-l-evenement-30883025.php",
-        "title": "Lire en poche à Gradignan : le fonds de dotation, un outil précieux pour faire grandir l’événement",
-        "description": "Lancé en 2010, le Fonds de dotation Lire en poche permet de récolter des dons, en partie défiscalisables, en provenance d’entreprises et de particuliers. Il a permis de porter la croissance de l’événement",
-        "source": {
-          "id": "sudouest",
-          "name": "Sud Ouest"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:00:00.000Z",
-        "imageUrl": null,
-        "countryCode": "FR",
-        "regionCode": "FR-NAQ"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:00:00.000Z"
+      "latestPublishedAt": "2026-10-07T06:14:30.000Z"
     },
     {
       "id": "kmv4FsSUk2lx",
@@ -343,20 +199,20 @@
       "latestPublishedAt": "2026-10-07T05:00:00.000Z"
     },
     {
-      "id": "lhbbB9iGVTRt",
+      "id": "ojqp6s4Jk21p",
       "representative": {
-        "id": "lhbbB9iGVTRt",
-        "url": "https://www.sudouest.fr/gironde/bazas/bazas-l-association-la-bazadaise-organise-un-loto-tres-special-pour-soutenir-la-musique-locale-30825213.php",
-        "canonicalUrl": "https://www.sudouest.fr/gironde/bazas/bazas-l-association-la-bazadaise-organise-un-loto-tres-special-pour-soutenir-la-musique-locale-30825213.php",
-        "title": "Bazas : l’association la Bazadaise organise un loto très spécial pour soutenir la musique locale",
-        "description": "L’association organise un loto à la landaise animé par la banda Les Vasates, le samedi 10 octobre au hall polyvalent de Bazas, afin de financer son école de musique et renouveler son matériel",
+        "id": "ojqp6s4Jk21p",
+        "url": "https://www.charentelibre.fr/charente/cyclisme-jeunesse-retour-au-pays-et-coureurs-d-experience-le-top-16-devoile-son-visage-pour-2027-30924901.php",
+        "canonicalUrl": "https://www.charentelibre.fr/charente/cyclisme-jeunesse-retour-au-pays-et-coureurs-d-experience-le-top-16-devoile-son-visage-pour-2027-30924901.php",
+        "title": "Cyclisme : jeunesse, retour au pays et coureurs d’expérience, le Top 16 dévoile son visage pour 2027",
+        "description": "Remonté en N1 en 2026, E.Leclerc Ruffec Top 16 prépare déjà le prochain exercice avec un effectif largement remanié. Entre retour d’un coureur local, pépites étrangères et jeunes espoirs à former, le directeur",
         "source": {
-          "id": "sudouest",
-          "name": "Sud Ouest"
+          "id": "charentelibre",
+          "name": "La Charente libre"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T04:52:00.000Z",
+        "publishedAt": "2026-10-07T04:13:00.000Z",
         "imageUrl": null,
         "countryCode": "FR",
         "regionCode": "FR-NAQ"
@@ -364,7 +220,151 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:52:00.000Z"
+      "latestPublishedAt": "2026-10-07T04:13:00.000Z"
+    },
+    {
+      "id": "9lD5ICs9ezH9",
+      "representative": {
+        "id": "9lD5ICs9ezH9",
+        "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/arcachon/nous-n-avons-pas-percu-nos-loyers-depuis-deux-ans-a-arcachon-le-reve-des-proprietaires-d-une-residence-hoteliere-vire-au-cauchemar-3429099.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/arcachon/nous-n-avons-pas-percu-nos-loyers-depuis-deux-ans-a-arcachon-le-reve-des-proprietaires-d-une-residence-hoteliere-vire-au-cauchemar-3429099.html",
+        "title": "\"Nous n’avons pas perçu nos loyers depuis deux ans\" : à Arcachon, le rêve des propriétaires d'une résidence hôtelière vire au cauchemar",
+        "description": "Sans loyer, interdits d’accéder à leurs appartements, les copropriétaires de la résidence de tourisme Le Trianon à Arcachon vivent un cauchemar éveillé. La société gérante de leur logement, Mer & Golf Loisirs a été placée en liquidation judiciaire. En dépit d'une dette de plusieurs millions…",
+        "source": {
+          "id": "france3_naq",
+          "name": "France 3 Nouvelle-Aquitaine"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T19:22:48.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/0zY_tGW_CO8gVDTgT5wBa111buQ/930x620/filters:format(webp)/regions/2026/10/06/6ac530e213cf9606447508.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-NAQ"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:22:48.000Z"
+    },
+    {
+      "id": "7msZErbnx-Kw",
+      "representative": {
+        "id": "7msZErbnx-Kw",
+        "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/pyrenees-atlantiques/pau/un-choc-entre-un-ter-et-un-tgv-fait-55-blesses-des-cables-ronges-par-des-rats-a-l-origine-de-l-accident-selon-les-experts-3428235.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/pyrenees-atlantiques/pau/un-choc-entre-un-ter-et-un-tgv-fait-55-blesses-des-cables-ronges-par-des-rats-a-l-origine-de-l-accident-selon-les-experts-3428235.html",
+        "title": "Un choc entre un TER et un TGV fait 55 blessés : des câbles rongés par des rats à l'origine de l'accident, selon les experts",
+        "description": "En 2014, 55 personnes étaient blessées dans un accident entre un TGV et un TER à Denguin, dans les Pyrénées-Atlantiques. Douze ans plus tard, la première journée du procès de la SNCF et de SNCF réseaux a donné la parole aux experts. Ils pointent clairement des manquements graves dans l'entretien…",
+        "source": {
+          "id": "france3_naq",
+          "name": "France 3 Nouvelle-Aquitaine"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T19:15:52.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/RKkRkdfHcOY3CmxUmTglAVROGik/930x620/filters:format(webp)/regions/2026/10/05/6ac397d0dafe1510665148.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-NAQ"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:15:52.000Z"
+    },
+    {
+      "id": "wew_q8jDAvYH",
+      "representative": {
+        "id": "wew_q8jDAvYH",
+        "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/haute-vienne/limoges/direct-blocage-des-lycees-le-point-sur-les-rassemblements-et-perturbations-a-limoges-brive-tulle-et-gueret-3428415.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/haute-vienne/limoges/direct-blocage-des-lycees-le-point-sur-les-rassemblements-et-perturbations-a-limoges-brive-tulle-et-gueret-3428415.html",
+        "title": "EN IMAGES. Mobilisation du 6 octobre : blocage des lycées, manifestations, ce qu'il faut retenir des rassemblements ce mardi à Limoges, Brive, Tulle et Guéret",
+        "description": "3 000 manifestants à Limoges. Lycées et étudiants ont répondu présents pour cette journée d'action nationale. De nombreux enseignants et quelques parents ont rejoint les élèves, pour les protéger en cas d'intrusion de casseurs ou de violences mais la matinée s'est déroulée dans le calme. Le point…",
+        "source": {
+          "id": "france3_naq",
+          "name": "France 3 Nouvelle-Aquitaine"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T17:02:48.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/YPa1kcHaETGj6kkXro0Uphtf-MY/930x620/filters:format(webp)/regions/2026/10/06/6ac4b512f043c291333092.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-NAQ"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:02:48.000Z"
+    },
+    {
+      "id": "92gt8qPosXsX",
+      "representative": {
+        "id": "92gt8qPosXsX",
+        "url": "https://www.20minutes.fr/societe/4251848-20261006-meteo-chute-10-15-temperatures-pluie-prochains-jours?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251848-20261006-meteo-chute-10-15-temperatures-pluie-prochains-jours",
+        "title": "Météo : Une chute de 10 à 15 °C des températures et de la pluie dans les prochains jours",
+        "description": "Ce mercredi une dégradation météo va traverser le pays, engendrant pluies et orages. Quasi toutes les régions vont être concernées, ce sera plus marqué à l’ouest et au sud",
+        "source": {
+          "id": "20minutes_bordeaux",
+          "name": "20 Minutes Bordeaux"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:58:18.000Z",
+        "imageUrl": "https://img.20mn.fr/JJf50eKVQACwlLvLC3yC_Ck/1200x768_une-personne-marchant-dans-la-rue-sous-la-pluie-tout-en-s-abritant-sous-son-parasol-besancon-departement-du-doubs-france-20-juin-2024-photo-de-romain-costaseca-hans-lucas-via-afp",
+        "countryCode": "FR",
+        "regionCode": "FR-NAQ"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:58:18.000Z"
+    },
+    {
+      "id": "eBYo9thW_M-A",
+      "representative": {
+        "id": "eBYo9thW_M-A",
+        "url": "https://www.20minutes.fr/societe/4251809-20261006-ligue-nations-attention-faux-site-pretend-vendre-billets-france-turquie-bordeaux?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251809-20261006-ligue-nations-attention-faux-site-pretend-vendre-billets-france-turquie-bordeaux",
+        "title": "Ligue des nations : Attention, un faux site prétend vendre des billets pour France-Turquie à Bordeaux",
+        "description": "Un faux site imitant la billetterie de la FFF propose déjà des billets pour France-Turquie, alors que la vente officielle n’a pas encore commencé, indique « Sud Ouest »",
+        "source": {
+          "id": "20minutes_bordeaux",
+          "name": "20 Minutes Bordeaux"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T11:02:36.000Z",
+        "imageUrl": "https://img.20mn.fr/f-x_zfjPTA6yyI684PMXGSk/1200x768_credit-obligatoire-photo-de-david-winter-shutterstock-17187491ns-michael-olise-de-france-celebre-avec-desire-doue-de-france-apres-avoir-donne-une-avance-de-3-1-a-son-equipe-lors-du-match-du-groupe-1-de-l-uefa-nations-league-entre-la-france-et-la-belgique-stade-de-france-paris-france-le-5-octobre-2026-france-belgique-ligue-des-nations-de-l-uefa-match-du-groupe-1-football-international-stade-de-france-paris-05-octobre-2026-shutterstock-editorial-france-v-belgium-uefa-nations-17187491ns-2610060503",
+        "countryCode": "FR",
+        "regionCode": "FR-NAQ"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:02:36.000Z"
+    },
+    {
+      "id": "gSB0EnRDt_dU",
+      "representative": {
+        "id": "gSB0EnRDt_dU",
+        "url": "https://www.sudouest.fr/gironde/etauliers/etauliers-une-marche-solidaire-organisee-pour-octobre-rose-30866248.php",
+        "canonicalUrl": "https://www.sudouest.fr/gironde/etauliers/etauliers-une-marche-solidaire-organisee-pour-octobre-rose-30866248.php",
+        "title": "Étauliers : une marche solidaire organisée pour Octobre rose",
+        "description": "Le comité de jumelage et l’association Sportez-vous bien proposent une randonnée pédestre le samedi 17 octobre au départ de la salle des fêtes, au profit de la Ligue contre le cancer",
+        "source": {
+          "id": "sudouest",
+          "name": "Sud Ouest"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:14:00.000Z",
+        "imageUrl": null,
+        "countryCode": "FR",
+        "regionCode": "FR-NAQ"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:14:00.000Z"
     }
   ]
 }

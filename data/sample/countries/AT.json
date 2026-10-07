@@ -2,67 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "AT",
   "countryName": "Austria",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
-    {
-      "id": "HkGyfdFFUnK7",
-      "representative": {
-        "id": "HkGyfdFFUnK7",
-        "url": "https://orf.at/stories/3444268/",
-        "canonicalUrl": "https://orf.at/stories/3444268/",
-        "title": "Babler wendet sich an SPÖ-Mitglieder",
-        "description": "Der scheidende SPÖ-Chef Andreas Babler hat sich am Dienstag erstmals nach Ankündigung seines Rückzugs an die Parteimitglieder gewendet. In einem Video auf Instagram fasste er die Ereignisse der vergangenen Tage zusammen und lobte den beschlossenen „geordneten Übergang“ in der Partei als…",
-        "source": {
-          "id": "orf",
-          "name": "ORF"
-        },
-        "sourceCountry": "AT",
-        "language": "de",
-        "publishedAt": "2026-10-06T12:12:26.000Z",
-        "imageUrl": null,
-        "countryCode": "AT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "UmBDrjkmeGNN",
-          "url": "https://www.krone.at/4322829",
-          "canonicalUrl": "https://www.krone.at/4322829",
-          "title": "„Riesenerfolg“: Babler feiert sich & SPÖ in Video",
-          "description": "Nach den turbulenten letzten Tagen und Wochen innerhalb der Bundes-SPÖ hat sich (Noch)-Parteichef Andreas Babler in einem Video an seine Wählerschaft gewandt. Darin zeigte er sich stolz, was er in den vergangenen dreieinhalb Jahren innerhalb der Sozialdemokratie geschaffen habe. Die angekündigten…",
-          "source": {
-            "id": "krone",
-            "name": "Kronen Zeitung"
-          },
-          "sourceCountry": "AT",
-          "language": "de",
-          "publishedAt": "2026-10-06T13:06:03.000Z",
-          "imageUrl": null,
-          "countryCode": "AT",
-          "regionCode": null
-        },
-        {
-          "id": "R82T-lPCJN7W",
-          "url": "https://www.kleinezeitung.at/artikel/41331235/video-an-parteivolk-babler-wendet-sich-an-mitglieder",
-          "canonicalUrl": "https://www.kleinezeitung.at/artikel/41331235/video-an-parteivolk-babler-wendet-sich-an-mitglieder",
-          "title": "Video an Parteivolk: Babler wendet sich an Mitglieder",
-          "description": "Mit einem Video meldet sich Noch-SPÖ-Chef und Noch-Vizekanzler Andreas Babler an das Parteivolk. Und spricht auch von einem „Riesenerfolg“.",
-          "source": {
-            "id": "kleinezeitung",
-            "name": "Kleine Zeitung"
-          },
-          "sourceCountry": "AT",
-          "language": "de",
-          "publishedAt": "2026-10-06T11:54:47.000Z",
-          "imageUrl": "https://img.kleinezeitung.at/public/incoming/hbajef-22730394795428164bldhiresjpg/alternates/BASE_LANDSCAPE/22730394795428164_BLD_HiRes.jpg",
-          "countryCode": "AT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:06:03.000Z"
-    },
     {
       "id": "quFjuJbujPnm",
       "representative": {
@@ -208,30 +149,6 @@
       "latestPublishedAt": "2026-10-06T13:17:23.000Z"
     },
     {
-      "id": "jW8axJmdU40s",
-      "representative": {
-        "id": "jW8axJmdU40s",
-        "url": "https://www.krone.at/4321672",
-        "canonicalUrl": "https://www.krone.at/4321672",
-        "title": "„Russland führt Schattenkrieg mit dem Westen“",
-        "description": "Europas Nachrichtendienste schlagen Alarm: Russland führt einen unerklärten, hybriden Krieg. Während Deutschland zum Hauptziel wird, wiegt sich Österreich in falscher Neutralitätssicherheit, so Russland-Experte Alexander Dubowy.",
-        "source": {
-          "id": "krone",
-          "name": "Kronen Zeitung"
-        },
-        "sourceCountry": "AT",
-        "language": "de",
-        "publishedAt": "2026-10-06T13:16:05.000Z",
-        "imageUrl": null,
-        "countryCode": "AT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:16:05.000Z"
-    },
-    {
       "id": "6Nfuqq4z4Ztt",
       "representative": {
         "id": "6Nfuqq4z4Ztt",
@@ -254,30 +171,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:11:30.000Z"
-    },
-    {
-      "id": "g2tGQmsTtZR2",
-      "representative": {
-        "id": "g2tGQmsTtZR2",
-        "url": "https://www.krone.at/4322347",
-        "canonicalUrl": "https://www.krone.at/4322347",
-        "title": "Gehalt 2026: Wann Sie zum reichsten Viertel zählen",
-        "description": "Die „Krone“ bringt den großen Gehaltsvergleich 2026: Für Fachkräfte mit abgeschlossener Lehre, Spezialisten, Teamleiter, Abteilungsleiter, Bereichsleiter und Geschäftsführer zeigen wir, ab wann man heuer zum bestverdienenden Viertel gehört, wo der Durchschnitt liegt und ab wann man zum untersten…",
-        "source": {
-          "id": "krone",
-          "name": "Kronen Zeitung"
-        },
-        "sourceCountry": "AT",
-        "language": "de",
-        "publishedAt": "2026-10-06T13:07:56.000Z",
-        "imageUrl": null,
-        "countryCode": "AT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:07:56.000Z"
     },
     {
       "id": "3E3StfqY6HoR",
@@ -322,78 +215,6 @@
       "latestPublishedAt": "2026-10-06T13:03:13.000Z"
     },
     {
-      "id": "gA8L0XndxtwP",
-      "representative": {
-        "id": "gA8L0XndxtwP",
-        "url": "https://www.krone.at/4322978",
-        "canonicalUrl": "https://www.krone.at/4322978",
-        "title": "Regierung steht still: FPÖ wendet sich an Hofburg",
-        "description": "Angesichts der Turbulenzen innerhalb der SPÖ und deren Auswirkungen auf die Regierungsarbeit fordert die FPÖ nun ein Eingreifen des Bundespräsidenten. „Alexander Van der Bellen muss den Weg für stabile Mehrheiten freimachen“, betonte der blaue General Michael Schnedlitz am Dienstag.",
-        "source": {
-          "id": "krone",
-          "name": "Kronen Zeitung"
-        },
-        "sourceCountry": "AT",
-        "language": "de",
-        "publishedAt": "2026-10-06T13:00:29.000Z",
-        "imageUrl": null,
-        "countryCode": "AT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:00:29.000Z"
-    },
-    {
-      "id": "CNXhNql-x9f4",
-      "representative": {
-        "id": "CNXhNql-x9f4",
-        "url": "https://www.krone.at/4322805",
-        "canonicalUrl": "https://www.krone.at/4322805",
-        "title": "Wiener Polizist nach Magenschlägen vor Gericht",
-        "description": "„Es handelt sich um eine Maßnahme, die sich schon im ersten Moment schlimm anhört“, räumt der Verteidiger eines Wiener Beamten ein. Der Polizist schlug beziehungsweise trat während einer Amtshandlung gegen vermeintliche Drogendealer diesen in die Magengrube – in gleich zwei Fällen. „Für mich ist…",
-        "source": {
-          "id": "krone",
-          "name": "Kronen Zeitung"
-        },
-        "sourceCountry": "AT",
-        "language": "de",
-        "publishedAt": "2026-10-06T13:00:15.000Z",
-        "imageUrl": null,
-        "countryCode": "AT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:00:15.000Z"
-    },
-    {
-      "id": "xUX5HCbGJnCm",
-      "representative": {
-        "id": "xUX5HCbGJnCm",
-        "url": "https://www.krone.at/4322942",
-        "canonicalUrl": "https://www.krone.at/4322942",
-        "title": "Frühchen mit Fehlbildung in Tirol nun wohlauf",
-        "description": "520 Gramm und eine Geburt in der 23. Woche – das sind die Eckdaten eines Neugeborenen, das vor gut einem Jahr in der Innsbrucker Klinik zur Welt kam. Zudem hatte das Frühchen eine Fehlbildung. Ein Jahr danach ziehen die Tirol Kliniken nun Bilanz und berichten über das Schicksal des Kindes.",
-        "source": {
-          "id": "krone",
-          "name": "Kronen Zeitung"
-        },
-        "sourceCountry": "AT",
-        "language": "de",
-        "publishedAt": "2026-10-06T13:00:07.000Z",
-        "imageUrl": null,
-        "countryCode": "AT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:00:07.000Z"
-    },
-    {
       "id": "mcGPkGC6qC6c",
       "representative": {
         "id": "mcGPkGC6qC6c",
@@ -416,6 +237,150 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:44:00.000Z"
+    },
+    {
+      "id": "-8zmVNo88WMS",
+      "representative": {
+        "id": "-8zmVNo88WMS",
+        "url": "https://kurier.at/stars/austropromis/forsthaus-rampensau-premiere-mit-heiratsantrag-und-liebes-outing-atv/403196202",
+        "canonicalUrl": "https://kurier.at/stars/austropromis/forsthaus-rampensau-premiere-mit-heiratsantrag-und-liebes-outing-atv/403196202",
+        "title": "„Forsthaus Rampensau“-Premiere mit Heiratsantrag und Liebes-Outing",
+        "description": "Ab 9. Oktober wird die neue Staffel ausgestrahlt. Aktuelle und ehemalige Kandidaten trafen sich schon zur Watchparty.",
+        "source": {
+          "id": "kurier",
+          "name": "Kurier"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:40:58.000Z",
+        "imageUrl": "https://image.kurier.at/images/original/9354399/fhrs5_premiere_c_atv_monika_fellner-1997.jpg?versionId=a0a60d01647d",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:40:58.000Z"
+    },
+    {
+      "id": "nBJIow37xE1A",
+      "representative": {
+        "id": "nBJIow37xE1A",
+        "url": "https://www.derstandard.at/story/3000000342948/abstimmungspanne-im-steirischen-landtag-rechtsgutachten-eingeholt?ref=rss",
+        "canonicalUrl": "https://www.derstandard.at/story/3000000342948/abstimmungspanne-im-steirischen-landtag-rechtsgutachten-eingeholt",
+        "title": "FPÖ und ÖVP stimmten in Steiermark versehentlich gegen eigenen Antrag – Abstimmungswiederholung offenbar rechtswidrig",
+        "description": "Verfassungsjurist Mayer bestätigt, die Wiederholung der Abstimmung sei rechtswidrig gewesen. Die Opposition fordert, dass die Präsidenten Gerald Deutschmann (FPÖ) und Werner Amon (ÖVP) ihr Fehlverhalten eingestehen",
+        "source": {
+          "id": "derstandard",
+          "name": "Der Standard"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:27:59.000Z",
+        "imageUrl": "https://i.ds.at/YJMV_Q/rs:fill:150:0/plain/lido-images/2026/10/06/f3584378-ab0e-4e69-87a8-407f31ba3418.jpg",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:27:59.000Z"
+    },
+    {
+      "id": "Jrbw5nWPJUoT",
+      "representative": {
+        "id": "Jrbw5nWPJUoT",
+        "url": "https://www.derstandard.at/story/3000000342946/zeiler-und-babler-melden-sich-in-sc?ref=rss",
+        "canonicalUrl": "https://www.derstandard.at/story/3000000342946/zeiler-und-babler-melden-sich-in-sc",
+        "title": "Holzleitner und Kucher wenden sich per Brief an Mitglieder, Zeiler und Babler melden sich mit Social-Media-Videos",
+        "description": "In einem Instagram-Video lobte der scheidende SPÖ-Chef den \"geordneten Übergang\" in der Partei als \"Riesenerfolg\". Unklar ist, ob Medienmanager Zeiler weiter Interesse am Parteivorsitz hat",
+        "source": {
+          "id": "derstandard",
+          "name": "Der Standard"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:27:42.000Z",
+        "imageUrl": "https://i.ds.at/sO6_3A/rs:fill:150:0/plain/lido-images/2026/10/05/c90c7207-75f8-4991-b4f9-489b5073b7ae.jpg",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:27:42.000Z"
+    },
+    {
+      "id": "ggw-bm6OOzZh",
+      "representative": {
+        "id": "ggw-bm6OOzZh",
+        "url": "https://www.kleinezeitung.at/artikel/41331419/fpoe-will-muslimbruderschaft-auf-eu-terrorliste-setzen",
+        "canonicalUrl": "https://www.kleinezeitung.at/artikel/41331419/fpoe-will-muslimbruderschaft-auf-eu-terrorliste-setzen",
+        "title": "FPÖ will Muslimbruderschaft auf EU-Terrorliste setzen",
+        "description": "Die FPÖ fordert ein europaweites Vorgehen gegen die Muslimbruderschaft und nahestehende Organisationen. \"Wir fordern, die Muslimbruderschaft auf die...",
+        "source": {
+          "id": "kleinezeitung",
+          "name": "Kleine Zeitung"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:25:54.000Z",
+        "imageUrl": "https://img.kleinezeitung.at/public/politik/lizaxc-92870011495455782bldonlinejpg/alternates/BASE_LANDSCAPE/92870011495455782_BLD_Online.jpg",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:25:54.000Z"
+    },
+    {
+      "id": "CboY83CncDzM",
+      "representative": {
+        "id": "CboY83CncDzM",
+        "url": "https://www.diepresse.com/41330965/fpoe-lehnt-wehrdienst-reform-ab-dann-kann-man-das-bundesheer-zusperren",
+        "canonicalUrl": "https://www.diepresse.com/41330965/fpoe-lehnt-wehrdienst-reform-ab-dann-kann-man-das-bundesheer-zusperren",
+        "title": "FPÖ lehnt Wehrdienst-Reform ab: „Dann kann man das Bundesheer zusperren“ [premium]",
+        "description": "Die FPÖ lehnt den Vorschlag der Koalition für den neuen Wehr- und Zivildienst ab und kritisiert einen „faulen Kompromiss“. Für einen Beschluss braucht die Bundesregierung nun die Grünen.",
+        "source": {
+          "id": "diepresse",
+          "name": "Die Presse"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T11:15:06.000Z",
+        "imageUrl": null,
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:15:06.000Z"
+    },
+    {
+      "id": "3h2lD-0evdYC",
+      "representative": {
+        "id": "3h2lD-0evdYC",
+        "url": "https://www.kleinezeitung.at/artikel/41329894/usermeinungen-zur-spoe-die-schlechteste-aller-loesungen",
+        "canonicalUrl": "https://www.kleinezeitung.at/artikel/41329894/usermeinungen-zur-spoe-die-schlechteste-aller-loesungen",
+        "title": "Usermeinungen zur SPÖ: „Die schlechteste aller Lösungen“",
+        "description": "Die SPÖ-Spitzen haben sich für einen schrittweisen Übergang an der Parteispitze und von Andreas Babler zu Markus Marterbauer als Vizekanzler entschieden. Was unser Forum darüber denkt. Wie lautet Ihre Meinung?",
+        "source": {
+          "id": "kleinezeitung",
+          "name": "Kleine Zeitung"
+        },
+        "sourceCountry": "AT",
+        "language": "de",
+        "publishedAt": "2026-10-06T11:03:49.000Z",
+        "imageUrl": "https://img.kleinezeitung.at/public/incoming/9iwzlw-spo-andreas-babler/alternates/BASE_LANDSCAPE/SP%C3%96%20Andreas%20Babler",
+        "countryCode": "AT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:03:49.000Z"
     }
   ]
 }

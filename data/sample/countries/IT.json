@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IT",
   "countryName": "Italy",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "JjekBcF_1Kfk",
@@ -93,7 +93,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
+      "outletCount24h": 3,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T13:16:57.000Z"
     },
@@ -242,198 +242,6 @@
       "latestPublishedAt": "2026-10-06T12:19:42.000Z"
     },
     {
-      "id": "ZFyh75-Xy463",
-      "representative": {
-        "id": "ZFyh75-Xy463",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/nobel-per-la-fisica-a-francis-halzen-per-la-scoperta-dei-neutrini-cosmici_93146d3b-3ae7-433a-853c-c2488904f0fb.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/nobel-per-la-fisica-a-francis-halzen-per-la-scoperta-dei-neutrini-cosmici_93146d3b-3ae7-433a-853c-c2488904f0fb.html",
-        "title": "Nobel per la Fisica a Francis Halzen per la scoperta dei neutrini cosmici",
-        "description": "Premiato per \"i suoi contributi decisivi all'esperimento IceCube\"",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-06T10:15:43.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "DFXInDqejaNz",
-          "url": "https://www.repubblica.it/cronaca/2026/10/06/news/nobel_fisica_2026_chi_e_francis_halzen-425629112/?rss",
-          "canonicalUrl": "https://www.repubblica.it/cronaca/2026/10/06/news/nobel_fisica_2026_chi_e_francis_halzen-425629112/?rss=",
-          "title": "Chi è Francis Halzen, vincitore del Nobel per la Fisica 2026",
-          "description": "Lo scienziato ha ideato un osservatorio per i neutrini al Polo Sud. Lavora anche in Italia, nel Consiglio Scientifico del Gran Sasso Science Institute",
-          "source": {
-            "id": "repubblica",
-            "name": "la Repubblica"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-06T12:18:21.000Z",
-          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/06/123445766-5905140e-fd97-41ec-a472-0004c5d944f9.jpg",
-          "countryCode": "IT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:18:21.000Z"
-    },
-    {
-      "id": "_1oseAo9C1s4",
-      "representative": {
-        "id": "_1oseAo9C1s4",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/muore-dopo-essere-stato-investito-da-un-bus-a-piombino_ffcd54df-b18d-4d0e-9c4d-20bba8889fdb.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/muore-dopo-essere-stato-investito-da-un-bus-a-piombino_ffcd54df-b18d-4d0e-9c4d-20bba8889fdb.html",
-        "title": "Muore dopo essere stato investito da un bus a Piombino",
-        "description": "Vittima è un 89enne",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-06T12:18:05.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:18:05.000Z"
-    },
-    {
-      "id": "5Ij5GLdDb8PH",
-      "representative": {
-        "id": "5Ij5GLdDb8PH",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/provano-a-salire-su-volo-per-tel-aviv-con-passaporti-falsi-denunciati_fe7238e5-8003-437e-ad83-6ddfae3ea8d5.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/provano-a-salire-su-volo-per-tel-aviv-con-passaporti-falsi-denunciati_fe7238e5-8003-437e-ad83-6ddfae3ea8d5.html",
-        "title": "Provano a salire su volo per Tel Aviv con passaporti falsi, denunciati",
-        "description": "Due uomini di nazionalità georgiana sono stati bloccati dalla Polaria a Bologna",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-06T10:52:29.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "2sRsLOJC4b9K",
-          "url": "https://bologna.repubblica.it/cronaca/2026/10/06/news/volo_bologna_tel_aviv_passaporti_falsi-425628916/?rss",
-          "canonicalUrl": "https://bologna.repubblica.it/cronaca/2026/10/06/news/volo_bologna_tel_aviv_passaporti_falsi-425628916/?rss=",
-          "title": "Bologna, provano a salire su volo per Tel Aviv con passaporti falsi: denunciati",
-          "description": "I due, di nazionalità georgiana, sono stati bloccati dalla polizia di frontiera. Arrivavano dalla Turchia. Il Comune: “Ottimo lavoro di prevenzione”",
-          "source": {
-            "id": "repubblica",
-            "name": "la Repubblica"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-06T12:13:08.000Z",
-          "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-bologna/2026/10/06/112506018-cd8c5d28-8da6-4d3f-a077-b0da8fa02a70.jpg",
-          "countryCode": "IT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:13:08.000Z"
-    },
-    {
-      "id": "dXI8oF4HniKZ",
-      "representative": {
-        "id": "dXI8oF4HniKZ",
-        "url": "https://www.repubblica.it/cronaca/2026/10/05/news/richard_gere_matteo_salvini_video_migranti_lezioni_italiani-425628250/?rss",
-        "canonicalUrl": "https://www.repubblica.it/cronaca/2026/10/05/news/richard_gere_matteo_salvini_video_migranti_lezioni_italiani-425628250/?rss=",
-        "title": "Migranti, Salvini dopo il video di Richard Gere: “Fai l’attore, non dare lezioni agli italiani”",
-        "description": "La stella di Hollywood aveva registrato un filmato a sostegno di ActionAid. “Difendiamo la comune umanità”",
-        "source": {
-          "id": "repubblica",
-          "name": "la Repubblica"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-05T20:38:30.000Z",
-        "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/223817957-6c2293d2-534e-4cff-94b4-3fddd682db84.jpg",
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rT9NuI4wH2_9",
-          "url": "https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere",
-          "canonicalUrl": "https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere",
-          "title": "Migranti, Salvini: \"Gere continui a fare l'attore senza dare lezioni agli italiani\"",
-          "description": "Lo ha scritto sui social il leader della Lega, a commento di un recente video sul tema dell'immigrazione che il popolare attore ed attivista americano ha diffuso a sostegno di ActionAid",
-          "source": {
-            "id": "skytg24",
-            "name": "Sky TG24"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "imageUrl": null,
-          "countryCode": "IT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
-    },
-    {
-      "id": "R2X7hZvXc67H",
-      "representative": {
-        "id": "R2X7hZvXc67H",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/06/conte-schlein-indisponibile-a-passo-indietro-ma-affrettiamoci-su-primarie_6ec0fd14-fe8d-4642-a774-70d794f24db5.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/politica/2026/10/06/conte-schlein-indisponibile-a-passo-indietro-ma-affrettiamoci-su-primarie_6ec0fd14-fe8d-4642-a774-70d794f24db5.html",
-        "title": "Conte: 'Schlein indisponibile ad un passo indietro, ma affrettiamoci sulle primarie'",
-        "description": "'L'ho invitata a valutare terza figura. Probabile voto in primavera, noi pronti per il programma'",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-06T09:13:03.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "-iCZMv_whMGN",
-          "url": "https://tg24.sky.it/politica/video/2026/10/06/campo-largo-conte-schlein-1129525",
-          "canonicalUrl": "https://tg24.sky.it/politica/video/2026/10/06/campo-largo-conte-schlein-1129525",
-          "title": "Campo largo, Conte: \"Schlein indisponibile a passo indietro\"",
-          "description": "Manca l'intesa sulla leadership della coalizione di centrosinistra e su alcuni punti del programma. L'incontro che ci sarebbe stato tra la segretaria Pd Elly Schlein e il leader M5s Giuseppe Conte avrebbe portato alla decisione di attendere prima i ricorsi alla Corte costituzionale contro la legge…",
-          "source": {
-            "id": "skytg24",
-            "name": "Sky TG24"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "imageUrl": null,
-          "countryCode": "IT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
-    },
-    {
       "id": "--Uc9vl9ADB5",
       "representative": {
         "id": "--Uc9vl9ADB5",
@@ -453,7 +261,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:00:00.000Z"
     },
@@ -477,7 +285,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:00:00.000Z"
     },
@@ -501,9 +309,129 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "kxJGmqpUijfp",
+      "representative": {
+        "id": "kxJGmqpUijfp",
+        "url": "https://www.ilsole24ore.com/art/multe-bollo-imu-e-tari-anche-caf-campo-le-domande-rottamazione-quinquies-AJm7vnaB",
+        "canonicalUrl": "https://www.ilsole24ore.com/art/multe-bollo-imu-e-tari-anche-caf-campo-le-domande-rottamazione-quinquies-AJm7vnaB",
+        "title": "Multe, bollo, Imu e Tari: anche i Caf in campo per le domande di rottamazione quinquies",
+        "description": "Dalle multe al bollo auto, dal bollo auto all’Imu e alla Tari. Caf in campo per le domande della rottamazione quinquies delle entrate di poco meno di 1.500 enti locali...",
+        "source": {
+          "id": "sole24ore",
+          "name": "Il Sole 24 Ore"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T11:30:16.000Z",
+        "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/07/Immagini/Ritagli/AdobeStock_619273625-U40014240706Per-1440x752@IlSole24Ore-Web.jpeg",
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:30:16.000Z"
+    },
+    {
+      "id": "BDXwivWr4aAT",
+      "representative": {
+        "id": "BDXwivWr4aAT",
+        "url": "https://www.ilsole24ore.com/art/difesa-alloggi-servizio-centralizzazione-acquisti-misure-operative-indicate-dpfp-AJfIKJZB",
+        "canonicalUrl": "https://www.ilsole24ore.com/art/difesa-alloggi-servizio-centralizzazione-acquisti-misure-operative-indicate-dpfp-AJfIKJZB",
+        "title": "Difesa, dagli alloggi di servizio alla centralizzazione degli acquisti, le misure operative indicate nel Dpfp",
+        "description": "Con l’attivazione della NEC (National Escape Clause, la Clausola di salvaguardia nazionale), richiesta ufficialmente dal Governo alla Commissione europea, è previsto il suo utilizzo per la spesa in Difesa dello 0,3 per cento del Pil sia per il 2027 sia per il 2028",
+        "source": {
+          "id": "sole24ore",
+          "name": "Il Sole 24 Ore"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T10:00:59.000Z",
+        "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/06/Immagini/Ritagli/images-U02333081558FAI-1440x752@IlSole24Ore-Web.jpg",
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:00:59.000Z"
+    },
+    {
+      "id": "jImMhb0An_Bv",
+      "representative": {
+        "id": "jImMhb0An_Bv",
+        "url": "https://www.ilsole24ore.com/art/il-cremlino-i-diplomatici-europei-decidano-se-evacuare-kiev-noi-continuiamo-raid-numeri-dell-ambasciata-italiana-AJEyHZZB",
+        "canonicalUrl": "https://www.ilsole24ore.com/art/il-cremlino-i-diplomatici-europei-decidano-se-evacuare-kiev-noi-continuiamo-raid-numeri-dell-ambasciata-italiana-AJEyHZZB",
+        "title": "Il Cremlino: «I diplomatici europei decidano se evacuare da Kiev, noi continuiamo i raid». I numeri dell’ambasciata italiana",
+        "description": "Il portavoce del Cremlino, Dmitry Peskov, citato dalla Tass: «Le nostre forze armate continuano il loro lavoro»",
+        "source": {
+          "id": "sole24ore",
+          "name": "Il Sole 24 Ore"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T10:00:01.000Z",
+        "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/06/Immagini/Ritagli/AdobeStock_492350400-U48215187636Sgi-1440x752@IlSole24Ore-Web.jpeg",
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:00:01.000Z"
+    },
+    {
+      "id": "YugeVIb8BhyB",
+      "representative": {
+        "id": "YugeVIb8BhyB",
+        "url": "https://www.ilpost.it/2026/10/05/case-montagna-aumento-domanda/",
+        "canonicalUrl": "https://www.ilpost.it/2026/10/05/case-montagna-aumento-domanda/",
+        "title": "In certi posti di montagna le case sono sempre più richieste",
+        "description": "È cresciuta la domanda nelle località turistiche, anche quelle meno battute, e quasi sempre sono aumentati anche i prezzi",
+        "source": {
+          "id": "ilpost",
+          "name": "Il Post"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T17:34:02.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T17:34:02.000Z"
+    },
+    {
+      "id": "zFvUHFXTRq4D",
+      "representative": {
+        "id": "zFvUHFXTRq4D",
+        "url": "https://www.ilpost.it/2026/10/05/animali-esotici-sequestro-sicilia/",
+        "canonicalUrl": "https://www.ilpost.it/2026/10/05/animali-esotici-sequestro-sicilia/",
+        "title": "Un uomo è stato fermato con 377 animali esotici vivi a bordo di un’auto al porto di Pozzallo, in Sicilia",
+        "description": null,
+        "source": {
+          "id": "ilpost",
+          "name": "Il Post"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T16:07:46.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T16:07:46.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CU",
   "countryName": "Cuba",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "tCJRD--fHbJu",
@@ -125,30 +125,6 @@
       "latestPublishedAt": "2026-10-06T15:32:07.000Z"
     },
     {
-      "id": "E0GwnyXJfd1q",
-      "representative": {
-        "id": "E0GwnyXJfd1q",
-        "url": "https://www.14ymedio.com/migracion/ofensiva-migratoria-trump-golpea-negocios_1_1131599.html",
-        "canonicalUrl": "https://www.14ymedio.com/migracion/ofensiva-migratoria-trump-golpea-negocios_1_1131599.html",
-        "title": "La ofensiva migratoria de Trump golpea a los negocios latinos en Estados Unidos",
-        "description": "Un informe de la Universidad de California Los Ángeles reveló que un 59% de los empresarios latinos dijo que sus ventas habían caído más de 50% después de las redadas de 2025",
-        "source": {
-          "id": "14ymedio",
-          "name": "14ymedio"
-        },
-        "sourceCountry": "CU",
-        "language": "es",
-        "publishedAt": "2026-10-06T15:12:31.000Z",
-        "imageUrl": "https://static.14ymedio.com/clip/f45901b7-1cb1-4bd7-a2a7-825d65aab867_source-aspect-ratio_default_0.jpg",
-        "countryCode": "CU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:12:31.000Z"
-    },
-    {
       "id": "7xMPn4wsKIs3",
       "representative": {
         "id": "7xMPn4wsKIs3",
@@ -195,6 +171,78 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:10:24.000Z"
+    },
+    {
+      "id": "g-mmLffz0XKc",
+      "representative": {
+        "id": "g-mmLffz0XKc",
+        "url": "https://diariodecuba.com/cuba/1791293962_69277.html",
+        "canonicalUrl": "https://diariodecuba.com/cuba/1791293962_69277.html",
+        "title": "Un programa en Barcelona da una segunda oportunidad a niños cubanos con cardiopatías congénitas",
+        "description": "Tres niños cubanos han recibido en #España atención cardíaca que necesitaban, con el apoyo de donaciones privadas y de la #FundaciónCorAll impulsada por un cardiólogo cubano.",
+        "source": {
+          "id": "diariodecuba",
+          "name": "Diario de Cuba"
+        },
+        "sourceCountry": "CU",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:39:22.000Z",
+        "imageUrl": null,
+        "countryCode": "CU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:39:22.000Z"
+    },
+    {
+      "id": "PF0TfTpUIsDB",
+      "representative": {
+        "id": "PF0TfTpUIsDB",
+        "url": "https://diariodecuba.com/derechos-humanos/1791291674_69276.html",
+        "canonicalUrl": "https://diariodecuba.com/derechos-humanos/1791291674_69276.html",
+        "title": "Sin medicinas, aunque se las lleven sus familias, presos cubanos recurren a huelgas de hambre",
+        "description": "#SOSCuba: Varios presos cubanos recurren a huelgas de hambre por la falta de medicinas. A uno le habría negado atención médica el oficial del #MININT señalado por #VirgilioMantilla y otros reclusos por amenazas y corrupción.",
+        "source": {
+          "id": "diariodecuba",
+          "name": "Diario de Cuba"
+        },
+        "sourceCountry": "CU",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:01:14.000Z",
+        "imageUrl": null,
+        "countryCode": "CU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:01:14.000Z"
+    },
+    {
+      "id": "E0GwnyXJfd1q",
+      "representative": {
+        "id": "E0GwnyXJfd1q",
+        "url": "https://www.14ymedio.com/migracion/ofensiva-migratoria-trump-golpea-negocios_1_1131599.html",
+        "canonicalUrl": "https://www.14ymedio.com/migracion/ofensiva-migratoria-trump-golpea-negocios_1_1131599.html",
+        "title": "La ofensiva migratoria de Trump golpea a los negocios latinos en Estados Unidos",
+        "description": "Un informe de la Universidad de California Los Ángeles reveló que un 59% de los empresarios latinos dijo que sus ventas habían caído más de 50% después de las redadas de 2025",
+        "source": {
+          "id": "14ymedio",
+          "name": "14ymedio"
+        },
+        "sourceCountry": "CU",
+        "language": "es",
+        "publishedAt": "2026-10-06T15:12:31.000Z",
+        "imageUrl": "https://static.14ymedio.com/clip/f45901b7-1cb1-4bd7-a2a7-825d65aab867_source-aspect-ratio_default_0.jpg",
+        "countryCode": "CU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:12:31.000Z"
     },
     {
       "id": "0p-C2iHDbE2U",
@@ -315,54 +363,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:30:36.000Z"
-    },
-    {
-      "id": "6SXU-ONdWGqa",
-      "representative": {
-        "id": "6SXU-ONdWGqa",
-        "url": "http://www.granma.cu/cuba/2026-10-06/nuevas-reglas-para-la-contratacion-y-operaciones-de-representaciones-y-sucursales-extranjeras-06-10-2026-10-10-26",
-        "canonicalUrl": "http://www.granma.cu/cuba/2026-10-06/nuevas-reglas-para-la-contratacion-y-operaciones-de-representaciones-y-sucursales-extranjeras-06-10-2026-10-10-26",
-        "title": "Nuevas reglas para la contratación y operaciones de representaciones y sucursales extranjeras",
-        "description": "Las disposiciones buscan eliminar la intermediación obligatoria, ampliar las operaciones de las sucursales y actualizar el régimen de cancelación de licencias",
-        "source": {
-          "id": "granma",
-          "name": "Granma"
-        },
-        "sourceCountry": "CU",
-        "language": "es",
-        "publishedAt": "2026-10-06T14:10:26.000Z",
-        "imageUrl": null,
-        "countryCode": "CU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:10:26.000Z"
-    },
-    {
-      "id": "q4vWQTsog0SL",
-      "representative": {
-        "id": "q4vWQTsog0SL",
-        "url": "http://www.granma.cu/cuba/2026-10-06/rusia-dona-ambulancias-a-cuba-para-fortalecer-la-atencion-materno-infantil-06-10-2026-10-10-00",
-        "canonicalUrl": "http://www.granma.cu/cuba/2026-10-06/rusia-dona-ambulancias-a-cuba-para-fortalecer-la-atencion-materno-infantil-06-10-2026-10-10-00",
-        "title": "Rusia dona ambulancias a Cuba para fortalecer la atención materno-infantil",
-        "description": "Los vehículos serán destinados a instituciones de salud de La Habana, Matanzas y Santiago de Cuba, con prioridad para el programa de atención materno-infantil",
-        "source": {
-          "id": "granma",
-          "name": "Granma"
-        },
-        "sourceCountry": "CU",
-        "language": "es",
-        "publishedAt": "2026-10-06T14:10:00.000Z",
-        "imageUrl": null,
-        "countryCode": "CU",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:10:00.000Z"
     }
   ]
 }

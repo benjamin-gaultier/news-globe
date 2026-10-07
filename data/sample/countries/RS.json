@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "RS",
   "countryName": "Serbia",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "bAB1y3G_mfUL",
@@ -215,48 +215,6 @@
       "latestPublishedAt": "2026-10-06T13:01:49.000Z"
     },
     {
-      "id": "kzDneG79716h",
-      "representative": {
-        "id": "kzDneG79716h",
-        "url": "https://n1info.rs/vesti/savet-rem-a-zahtevi-za-n1-i-nova-s-za-dozvolu-za-emitovanje-u-srbiji-nepotpuni-rasprava-o-licnoj-karti-sovljanskog/",
-        "canonicalUrl": "https://n1info.rs/vesti/savet-rem-a-zahtevi-za-n1-i-nova-s-za-dozvolu-za-emitovanje-u-srbiji-nepotpuni-rasprava-o-licnoj-karti-sovljanskog/",
-        "title": "Savet REM-a: Zahtevi za N1 i Nova za dozvolu za emitovanje u Srbiji nepotpuni, rasprava o ličnoj karti Šovljanskog",
-        "description": "Stručna služba REM-a je na sednici Saveta iznela zaključak da su zahtevi za Televizije N1 i Nova za dozvolu za emitovanje u Srbiji nepotpuni, te da su",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T12:04:13.000Z",
-        "imageUrl": "https://n1info.rs/media/images/2026/10/6/1791284636_Beta-6qmfleg3zh.width-1200.jpg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "b7mMbA-KnDlC",
-          "url": "https://www.danas.rs/vesti/drustvo/savet-rem-n1-i-nova-sovljanski/",
-          "canonicalUrl": "https://www.danas.rs/vesti/drustvo/savet-rem-n1-i-nova-sovljanski/",
-          "title": "Savet REM-a o zahtevima za dozvolu emitovanja N1 i Nove u Srbiji, i o ličnoj karti Šovljanskog",
-          "description": "Stručna služba REM-a je na sednici Saveta iznela zaključak da su zahtevi za Televizije N1 i Nova za dozvolu za emitovanje u Srbiji nepotpuni, te da su poslati na dopunu.",
-          "source": {
-            "id": "danas",
-            "name": "Danas"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T12:44:52.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/04/Branislav-Sovljanski-01-e1777046499549-300x169.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:44:52.000Z"
-    },
-    {
       "id": "8_AF8n4cWy2r",
       "representative": {
         "id": "8_AF8n4cWy2r",
@@ -341,48 +299,6 @@
       "latestPublishedAt": "2026-10-06T12:27:29.000Z"
     },
     {
-      "id": "dmmxrRZUbhSi",
-      "representative": {
-        "id": "dmmxrRZUbhSi",
-        "url": "https://www.danas.rs/bbc-news-serbian/bivsi-sef-nemacke-obavestajne-sluzbe-uhapsen-zbog-spijunaze-i-izdaje/",
-        "canonicalUrl": "https://www.danas.rs/bbc-news-serbian/bivsi-sef-nemacke-obavestajne-sluzbe-uhapsen-zbog-spijunaze-i-izdaje/",
-        "title": "Bivši šef nemačke obaveštajne službe uhapšen zbog ‘špijunaže i izdaje’",
-        "description": "August Haning, bivši šef BND-a, optužen je za pribavljanje poverljivih informacija za stranu službu. Nije saopšteno koja strana služba i zemlja.",
-        "source": {
-          "id": "danas",
-          "name": "Danas"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T12:05:07.000Z",
-        "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/10/890e8b20-c167-11f1-ae7b-cfc528a6c828-300x169.jpg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "kV8xyrZ_TB4i",
-          "url": "https://www.blic.rs/bbc/bivsi-sef-nemacke-obavestajne-sluzbe-uhapsen-zbog-spijunaze-i-izdaje/spmmjv1",
-          "canonicalUrl": "https://www.blic.rs/bbc/bivsi-sef-nemacke-obavestajne-sluzbe-uhapsen-zbog-spijunaze-i-izdaje/spmmjv1",
-          "title": "Bivši šef nemačke obaveštajne službe uhapšen zbog 'špijunaže i izdaje'",
-          "description": "August Haning, bivši šef nemačke obaveštajne službe, uhapšen je zbog sumnje na špijunažu, izdaju i pribavljanje poverljivih informacija za stranu državu, saopštilo je Savezno tužilaštvo Nemačke.",
-          "source": {
-            "id": "blic",
-            "name": "Blic"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T12:22:36.000Z",
-          "imageUrl": null,
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:22:36.000Z"
-    },
-    {
       "id": "VwqABJwjg9_Q",
       "representative": {
         "id": "VwqABJwjg9_Q",
@@ -455,30 +371,6 @@
       "latestPublishedAt": "2026-10-06T13:55:09.000Z"
     },
     {
-      "id": "rHgmvhsNhsrL",
-      "representative": {
-        "id": "rHgmvhsNhsrL",
-        "url": "https://www.danas.rs/sport/evroliga-crvena-zvezda-partizan-fransize/",
-        "canonicalUrl": "https://www.danas.rs/sport/evroliga-crvena-zvezda-partizan-fransize/",
-        "title": "Zvezda i Partizan čekaju rasplet: Evroliga objasnila šta sledi u trci za franšize",
-        "description": "Crvena zvezda i Partizan i dalje čekaju odluku o svojoj budućnosti u Evroligi, nakon što vlasnici klubova akcionara nisu doneli konačnu odluku o proširenju takmičenja.",
-        "source": {
-          "id": "danas",
-          "name": "Danas"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T13:55:07.000Z",
-        "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/04/partizan-zvezda-aba-688094-e1776620711596-300x169.jpg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:55:07.000Z"
-    },
-    {
       "id": "ZR6GoYNLvQbF",
       "representative": {
         "id": "ZR6GoYNLvQbF",
@@ -525,6 +417,78 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:51:18.000Z"
+    },
+    {
+      "id": "1xDIUoEh7ugr",
+      "representative": {
+        "id": "1xDIUoEh7ugr",
+        "url": "https://www.blic.rs/vesti/hronika/ovo-je-mladi-lovac-koji-je-poginuo-kod-aleksinca/6b44vrj",
+        "canonicalUrl": "https://www.blic.rs/vesti/hronika/ovo-je-mladi-lovac-koji-je-poginuo-kod-aleksinca/6b44vrj",
+        "title": "OVO JE MLADI LOVAC KOJI JE POGINUO KOD ALEKSINCA! Prijatelji se oglasili potresnim rečima: \"Izgubio je kontrolu nad kvadom i SLETEO U PROVALIJU\"",
+        "description": "Mladi lovac Luka S. (23) poginuo je u stravičnoj nesreći koja se dogodila 4. oktobra u ataru sela Vrćenovica, na teritoriji opštine Aleksinac, kada je kvad kojim se vraćao iz lova sleteo u provaliju duboku oko 20 metara. Vest o njegovoj smrti potresla je porodicu, prijatelje i sve koji su ga…",
+        "source": {
+          "id": "blic",
+          "name": "Blic"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:50:57.000Z",
+        "imageUrl": null,
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:50:57.000Z"
+    },
+    {
+      "id": "XLqcyJegosRK",
+      "representative": {
+        "id": "XLqcyJegosRK",
+        "url": "https://n1info.rs/vesti/ponos-vucic-ima-manjak-vere-da-ce-sledeci-predsednik-srbije-biti-neko-njegov-sve-je-realisticniji/",
+        "canonicalUrl": "https://n1info.rs/vesti/ponos-vucic-ima-manjak-vere-da-ce-sledeci-predsednik-srbije-biti-neko-njegov-sve-je-realisticniji/",
+        "title": "Ponoš: Vučić ima manjak vere da će sledeći predsednik Srbije biti neko njegov, sve je realističniji",
+        "description": "Jedan od nosilaca izborne liste \"Evropska Srbija\" i predsednik stranke Srbija centar (SRCE) Zdravko Ponoš ocenio je danas da potezi bivšeg predsednika",
+        "source": {
+          "id": "n1_rs",
+          "name": "N1"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:48:09.000Z",
+        "imageUrl": "https://n1info.rs/media/images/2026/9/17/1789635022_ZDRAVKO_PONOS.width-1200.jpg",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:48:09.000Z"
+    },
+    {
+      "id": "K5Q7g6ih8Tfg",
+      "representative": {
+        "id": "K5Q7g6ih8Tfg",
+        "url": "https://n1info.rs/vesti/novi-protest-u-pristini-traze-drugo-glasanje-o-izmenama-zakona-o-specijalizovanim-vecima/",
+        "canonicalUrl": "https://n1info.rs/vesti/novi-protest-u-pristini-traze-drugo-glasanje-o-izmenama-zakona-o-specijalizovanim-vecima/",
+        "title": "Novi protest u Prištini - traže drugo glasanje o izmenama Zakona o specijalizovanim većima",
+        "description": "Ispred Skupštine Kosova okupila se veća grupa građana koja zahteva da drugo glasanje o izmenama Zakona o specijalizovanim većima sa sedištem u Hagu bu",
+        "source": {
+          "id": "n1_rs",
+          "name": "N1"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:40:57.000Z",
+        "imageUrl": "https://n1info.rs/media/images/1791293935_2026-10-05T112527Z_1906140407_RC2YWNAHLG6K_RTRMADP_3_.width-1200.JPG",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:40:57.000Z"
     }
   ]
 }

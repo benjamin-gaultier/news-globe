@@ -4,151 +4,142 @@
   "countryName": "France",
   "regionCode": "FR-PAC",
   "regionName": "Provence-Alpes-Côte d'Azur",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
-      "id": "QnOqdvYUq3JF",
+      "id": "utMH7xPA5eCf",
       "representative": {
-        "id": "QnOqdvYUq3JF",
-        "url": "https://www.nicematin.com/societe/transports/tarifs-transport-a-la-demande-reseau-ce-que-preparent-les-elus-et-le-nouveau-delegataire-du-reseau-de-transport-urbain-de-sophia-antipolis-10735350",
-        "canonicalUrl": "https://www.nicematin.com/societe/transports/tarifs-transport-a-la-demande-reseau-ce-que-preparent-les-elus-et-le-nouveau-delegataire-du-reseau-de-transport-urbain-de-sophia-antipolis-10735350",
-        "title": "Tarifs, transport à la demande, réseau… Ce que préparent les élus et le nouveau délégataire du réseau de transport urbain de Sophia Antipolis",
-        "description": "Les élus de la Communauté d’agglomération Sophia Antipolis ont, lundi 28 septembre 2026, validé le choix de reconduire l’opérateur Keolis pour gérer l’ensemble des bus de l’agglomération jusqu’en 2033. Un contrat, fixé à 232 millions d’euros, qui promet des bus jugés plus propres, des trajets…",
+        "id": "utMH7xPA5eCf",
+        "url": "https://www.nicematin.com/meteo/alerte-meteo/le-var-en-alerte-orange-pluie-inondation-et-orages-voici-ce-qui-vous-attend-ce-mercredi-10736236",
+        "canonicalUrl": "https://www.nicematin.com/meteo/alerte-meteo/le-var-en-alerte-orange-pluie-inondation-et-orages-voici-ce-qui-vous-attend-ce-mercredi-10736236",
+        "title": "Le Var en alerte orange pluie-inondation et orages, jusqu’à 150 mm attendus... Voici ce qui vous attend ce mercredi",
+        "description": "Météo-France a placé le département en vigilance orange pluie-inondation et orages ce mercredi 7 octobre.",
         "source": {
           "id": "nicematin",
-          "name": "Nice-Matin"
+          "name": "Nice-Matin, Var-Matin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T06:50:07.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/53/50/OG-10735350-1200-800-512affd_upload-1-dhhhiugzzbhx-maxmatinarch937778.jpg",
+        "publishedAt": "2026-10-07T04:33:18.000Z",
+        "imageUrl": "https://assets.nicematin.com/articles/10/73/62/36/OG-10736236-1200-800-d9dd65d_ftp-import-images-1-7ckwu0aaatlo-20250921nim7958.jpg",
         "countryCode": "FR",
         "regionCode": "FR-PAC"
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:50:07.000Z"
+      "related": [
+        {
+          "id": "OqgbUA0ZEgQp",
+          "url": "https://www.ici.fr/occitanie/gard-30/intemperies-quatre-departements-mediterraneens-en-vigilance-orange-1858889?at_medium=lien_RSS&at_locale=45",
+          "canonicalUrl": "https://www.ici.fr/occitanie/gard-30/intemperies-quatre-departements-mediterraneens-en-vigilance-orange-1858889",
+          "title": "Intempéries : le Var, dernier département en vigilance orange pour pluie-inondation et orages",
+          "description": "Il ne reste plus que le département du Var en orange pour pluie-inondation et orages, indique Météo France dans son dernier bulletin publié à 10 heures ce mercredi. La vigilance orange pour pluie-inondation et orages est donc levée dans les Bouches-du-Rhône et le Gard.",
+          "source": {
+            "id": "ici_pac",
+            "name": "ici Provence, Azur, Vaucluse"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T09:55:40.000Z",
+          "imageUrl": "https://www.ici.fr/pikapi/images/83c74d0f-b9f8-4bac-926f-047f102b3afa/920x517?webp=false",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        },
+        {
+          "id": "BvWEh92l7QSG",
+          "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-jusqu-a-50-mm-de-cumuls-attendus-les-alpes-maritimes-en-vigilance-jaune-orages-et-pluie-inondation_VN-202610070201.html",
+          "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-jusqu-a-50-mm-de-cumuls-attendus-les-alpes-maritimes-en-vigilance-jaune-orages-et-pluie-inondation_VN-202610070201.html",
+          "title": "Jusqu'à 50 mm de cumuls attendus: les Alpes-Maritimes en vigilance jaune orages et pluie-inondation",
+          "description": "Anthony Brunain, fondateur de l'association Nice Météo 06, était l'invité de Bonjour La Côte d'Azur ce mercredi 7 octobre 2026.",
+          "source": {
+            "id": "bfm_marseille",
+            "name": "BFM Marseille, Côte d'Azur"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T06:10:26.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/BOXao898PD__nMZgcZfF1exVGQk=/0x0:1280x720/800x0/images/Jusqu-a-50-mm-de-cumuls-attendus-les-Alpes-Maritimes-en-vigilance-jaune-orages-et-pluie-inondation-2360681.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        },
+        {
+          "id": "V0AxtXn4PEVC",
+          "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/les-bouches-du-rhone-et-le-var-places-en-vigilance-orange-pluie-inondation-et-orage-des-phenomenes-tourbillonnaires-ne-sont-pas-exclus-3429018.html",
+          "canonicalUrl": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/les-bouches-du-rhone-et-le-var-places-en-vigilance-orange-pluie-inondation-et-orage-des-phenomenes-tourbillonnaires-ne-sont-pas-exclus-3429018.html",
+          "title": "Les Bouches-du-Rhône et le Var placés en vigilance orange pluie inondation et orage, des phénomènes tourbillonnaires ne sont pas exclus",
+          "description": "Mercredi 7 octobre 2026 à partir de 4 heures du matin, les Bouches-du-Rhône et le Var sont placés en vigilance orange pluie inondation et orage. De fortes intempéries sont attendues et les phénomènes tourbillonnaires ne sont pas exclus.",
+          "source": {
+            "id": "france3_pac",
+            "name": "France 3 Provence-Alpes-Côte d'Azur"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T15:35:19.000Z",
+          "imageUrl": "https://france3-regions.franceinfo.fr/image/YYmGL4gcNnZhohUNT4e8VMM486o/930x620/filters:format(webp)/regions/2026/10/06/6ac51092d9bed047248675.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-07T09:55:40.000Z"
     },
     {
-      "id": "5vyjMOiVcKD5",
+      "id": "HkmYqlfwVUYU",
       "representative": {
-        "id": "5vyjMOiVcKD5",
-        "url": "https://www.nicematin.com/societe/vie-locale/nous-avons-ete-obliges-la-hausse-de-la-taxe-fonciere-agite-les-elus-conseil-municipal-tendu-dans-une-commune-de-l-arriere-pays-de-nice-10735843",
-        "canonicalUrl": "https://www.nicematin.com/societe/vie-locale/nous-avons-ete-obliges-la-hausse-de-la-taxe-fonciere-agite-les-elus-conseil-municipal-tendu-dans-une-commune-de-l-arriere-pays-de-nice-10735843",
-        "title": "« Nous avons été obligés » : la hausse de la taxe foncière agite les élus, conseil municipal tendu dans une commune de l’arrière-pays de Nice",
-        "description": "La taxe foncière a augmenté pour les propriétaires drapois. Une évolution due à la fiscalisation de 520.000 euros en faveur du Sivom alors que, de son côté, le taux communal n’a pas changé. Le maire, Robert Nardelli s’en explique. L’opposition ironise.",
+        "id": "HkmYqlfwVUYU",
+        "url": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-provence/jean-pierre-squillari-est-l-invite-d-ici-matin-9452154?at_medium=lien_RSS&at_locale=45",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-provence/jean-pierre-squillari-est-l-invite-d-ici-matin-9452154",
+        "title": "Transports gratuits à Aubagne : \"On a certainement les moyens de les garder\", affirme le maire",
+        "description": "La gratuité des bus et tramways est maintenue jusqu'à nouvel ordre dans le Pays d'Aubagne et de l'Étoile. Invité d'ICI Provence, le maire d'Aubagne Jean-Pierre Squillari voit dans le moratoire annoncé par la Métropole \"une étape\", mais pas encore une victoire.",
         "source": {
-          "id": "nicematin",
-          "name": "Nice-Matin"
+          "id": "ici_pac",
+          "name": "ici Provence, Azur, Vaucluse"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T06:38:06.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/58/43/OG-10735843-1200-800-810512c_upload-1-pxrgw3hfqkcb-maxmatinarchtwo157212.jpg",
+        "publishedAt": "2026-10-07T05:45:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/298d1d12-6bf7-461a-937a-79b85418f0eb/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-PAC"
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:38:06.000Z"
-    },
-    {
-      "id": "P_jzLt1loBVL",
-      "representative": {
-        "id": "P_jzLt1loBVL",
-        "url": "https://www.bfmtv.com/marseille/replay-emissions/bonjour-marseille/video-le-cafe-politique-a-aubagne-les-transports-encore-gratuit-un-an_VN-202610070235.html",
-        "canonicalUrl": "https://www.bfmtv.com/marseille/replay-emissions/bonjour-marseille/video-le-cafe-politique-a-aubagne-les-transports-encore-gratuit-un-an_VN-202610070235.html",
-        "title": "Le Café Politique: à Aubagne, les transports encore gratuit un an",
-        "description": "Toute l'actualité politique en Provence, au menu du café politique du mercredi 7 octobre.",
-        "source": {
-          "id": "bfm_marseille",
-          "name": "BFM Marseille"
+      "related": [
+        {
+          "id": "885d2ZkCQAPn",
+          "url": "https://madeinmarseille.net/actualite/212160-suppression-gratuite-transports-aubagne-attendra/",
+          "canonicalUrl": "https://madeinmarseille.net/actualite/212160-suppression-gratuite-transports-aubagne-attendra/",
+          "title": "À Aubagne, la fin de la gratuité des transports repoussée de quelques mois",
+          "description": "Les bus et le tramway du Pays d’Aubagne resteront gratuits dans l’immédiat, le temps de la mise en place du retour au service payant. Le maire Jean-Pierre Squillari revendique une … Cet article À Aubagne, la fin de la gratuité des transports repoussée de quelques mois est apparu en premier sur…",
+          "source": {
+            "id": "madeinmarseille",
+            "name": "Made in Marseille"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T08:50:32.000Z",
+          "imageUrl": "https://madeinmarseille.net/actualites-marseille/tramway-aubagne-1-e1790242262300-600x401.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
         },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:32:23.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/iR8VpDNh5JQd1OeyyLOMv-AFtM0=/0x0:1280x720/800x0/images/Le-Cafe-Politique-a-Aubagne-les-transports-encore-gratuit-un-an-2360718.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PAC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:32:23.000Z"
-    },
-    {
-      "id": "wPLdYrOfOiyJ",
-      "representative": {
-        "id": "wPLdYrOfOiyJ",
-        "url": "https://www.bfmtv.com/marseille/replay-emissions/bonjour-marseille/video-le-journal-de-8h-du-mercredi-7-octobre-2026_VN-202610070229.html",
-        "canonicalUrl": "https://www.bfmtv.com/marseille/replay-emissions/bonjour-marseille/video-le-journal-de-8h-du-mercredi-7-octobre-2026_VN-202610070229.html",
-        "title": "Le journal de 8h du mercredi 7 octobre 2026",
-        "description": "Bonjour Marseille présentée par Fabio Marletta, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole. Au sommaire : Lycées, après les manifs, le retour en cours…",
-        "source": {
-          "id": "bfm_marseille",
-          "name": "BFM Marseille"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:29:32.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/uryA8824BrDU0P_KlsektEBb74k=/0x0:1280x720/800x0/images/Le-journal-de-8h-du-mercredi-7-octobre-2026-2360712.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PAC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:29:32.000Z"
-    },
-    {
-      "id": "OQC7N1ArV6TZ",
-      "representative": {
-        "id": "OQC7N1ArV6TZ",
-        "url": "https://www.nicematin.com/sports/basket/coupe-de-france-antibes-signe-l-exploit-et-elimine-roanne-un-club-de-l-elite-10736338",
-        "canonicalUrl": "https://www.nicematin.com/sports/basket/coupe-de-france-antibes-signe-l-exploit-et-elimine-roanne-un-club-de-l-elite-10736338",
-        "title": "Coupe de France : Antibes signe l’exploit et élimine Roanne, un club de l’élite !",
-        "description": "Les Sharks (Elite 2) ont sorti Roanne, le pensionnaire de l’Elite, avec force et envie mardi soir en 32es de finale à l’Azur Arena (80-78). Une prestation très encourageante avant la venue d’Orléans vendredi en championnat.",
-        "source": {
-          "id": "nicematin",
-          "name": "Nice-Matin"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:25:44.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/63/38/OG-10736338-1200-800-623bb10_ftp-1-yne3awg45dbs-20261006nim5664.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PAC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:25:44.000Z"
-    },
-    {
-      "id": "oC3xhyyk5lro",
-      "representative": {
-        "id": "oC3xhyyk5lro",
-        "url": "https://www.bfmtv.com/marseille/replay-emissions/bonjour-marseille/video-l-invite-de-bonjour-marseille-du-mercredi-7-octobre-2026-stephane-pichon_VN-202610070212.html",
-        "canonicalUrl": "https://www.bfmtv.com/marseille/replay-emissions/bonjour-marseille/video-l-invite-de-bonjour-marseille-du-mercredi-7-octobre-2026-stephane-pichon_VN-202610070212.html",
-        "title": "L'invité de Bonjour Marseille du mercredi 7 octobre 2026 - Stéphane Pichon",
-        "description": "Stéphane Pichon, conseiller municipal d'opposition (liste \"Marseille je t'aime avec Martine Vassal\"), était l'invité de Bonjour Marseille ce mercredi 7 octobre 2026. Il se penche sur le projet de HSA à Marseille.",
-        "source": {
-          "id": "bfm_marseille",
-          "name": "BFM Marseille"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T06:13:51.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/0Lnps7sFHiO_1K5a7X5ZPFQKRGk=/0x0:1280x720/800x0/images/L-invite-de-Bonjour-Marseille-du-mercredi-7-octobre-2026-Stephane-Pichon-2360695.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PAC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T06:13:51.000Z"
+        {
+          "id": "XDBBzP6Pvwwd",
+          "url": "https://www.bfmtv.com/marseille/replay-emissions/bonsoir-marseille/video-fin-de-la-gratuite-des-transports-a-aubagne-pas-pour-tout-de-suite_VN-202610060784.html",
+          "canonicalUrl": "https://www.bfmtv.com/marseille/replay-emissions/bonsoir-marseille/video-fin-de-la-gratuite-des-transports-a-aubagne-pas-pour-tout-de-suite_VN-202610060784.html",
+          "title": "Fin de la gratuité des transports à Aubagne : pas pour tout de suite ?",
+          "description": "Fin de la gratuité des transports à Aubagne : pas pour tout de suite ?",
+          "source": {
+            "id": "bfm_marseille",
+            "name": "BFM Marseille, Côte d'Azur"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T16:29:31.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/-RF6RsdqZRTMwFQCg-P0m-9bkCc=/0x0:1280x720/800x0/images/Fin-de-la-gratuite-des-transports-a-Aubagne-pas-pour-tout-de-suite-2360420.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T08:50:32.000Z"
     },
     {
       "id": "V4Tz9kemGavN",
@@ -160,7 +151,7 @@
         "description": "Trois malfaiteurs ont braqué les employés du centre commercial, dans la nuit du 6 au 7 octobre 2026. La police a interpellé l’un d’eux sur place et saisi deux armes de poing.",
         "source": {
           "id": "nicematin",
-          "name": "Nice-Matin"
+          "name": "Nice-Matin, Var-Matin"
         },
         "sourceCountry": "FR",
         "language": "fr",
@@ -169,202 +160,442 @@
         "countryCode": "FR",
         "regionCode": "FR-PAC"
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:53:35.000Z"
+      "related": [
+        {
+          "id": "nWktdDKDQ0hH",
+          "url": "https://www.bfmtv.com/cote-d-azur/faits-divers/la-bijouterie-du-leclerc-saint-isidore-braquee-a-nice-un-suspect-place-en-garde-a-vue_AN-202610070499.html",
+          "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/faits-divers/la-bijouterie-du-leclerc-saint-isidore-braquee-a-nice-un-suspect-place-en-garde-a-vue_AN-202610070499.html",
+          "title": "La bijouterie du Leclerc Saint-Isidore braquée à Nice, un suspect placé en garde à vue",
+          "description": "Trois personnes armées ont braqué la bijouterie du centre commercial Leclerc Saint-Isidore à Nice, dans la nuit de mardi à ce mercredi 7 octobre, et ont menacé des employés. La Bac a interpellé l'un d’eux, et il a été placé en garde à vue. Deux autres personnes sont en fuite.",
+          "source": {
+            "id": "bfm_marseille",
+            "name": "BFM Marseille, Côte d'Azur"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T11:35:44.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/zyeRzacSYNF8-pNXAI7k6eCb5H0=/0x53:1024x629/800x0/images/BAC-2193955.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:35:44.000Z"
     },
     {
-      "id": "kizqtabuSYJp",
+      "id": "Mc9FkLEyN1uK",
       "representative": {
-        "id": "kizqtabuSYJp",
-        "url": "https://www.nicematin.com/sports/basket/il-ne-me-parle-plus-que-de-ca-depuis-samedi-grace-a-son-pere-ce-jeune-basketteur-de-golfe-juan-a-pu-jouer-un-match-avec-deux-internationaux-francais-venus-le-voir-en-tribunes-10735982",
-        "canonicalUrl": "https://www.nicematin.com/sports/basket/il-ne-me-parle-plus-que-de-ca-depuis-samedi-grace-a-son-pere-ce-jeune-basketteur-de-golfe-juan-a-pu-jouer-un-match-avec-deux-internationaux-francais-venus-le-voir-en-tribunes-10735982",
-        "title": "« Il ne me parle plus que de ça depuis samedi » : grâce à son père, ce jeune basketteur de Golfe-Juan a pu jouer un match avec... deux internationaux français venus le voir en tribunes",
-        "description": "Licencié à Golfe-Juan, le jeune Marcel Ducrocq (11 ans), a eu le privilège de jouer son dernier match de basket sous les yeux de deux internationaux français : le basketteur Killian Tillie et le volleyeur Benjamin Diez. Une surprise préparée par son père le 3 octobre dernier...",
+        "id": "Mc9FkLEyN1uK",
+        "url": "https://www.ici.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/marseille/a-marseille-notre-dame-de-la-garde-officiellement-inscrite-au-titre-des-monuments-historiques-8755381?at_medium=lien_RSS&at_locale=45",
+        "canonicalUrl": "https://www.ici.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/marseille/a-marseille-notre-dame-de-la-garde-officiellement-inscrite-au-titre-des-monuments-historiques-8755381",
+        "title": "À Marseille, Notre-Dame de la Garde officiellement inscrite au titre des Monuments historiques",
+        "description": "C’est une nouvelle page qui s’écrit pour le symbole de Marseille. La basilique Notre-Dame de la Garde est officiellement inscrite, depuis fin septembre, au titre des Monuments historiques, une protection qui doit contribuer à préserver ce monument emblématique pour les générations futures.",
+        "source": {
+          "id": "ici_pac",
+          "name": "ici Provence, Azur, Vaucluse"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T07:17:34.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/989365c0-eb44-4851-8493-253e4c25747c/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-PAC"
+      },
+      "related": [
+        {
+          "id": "Pf8OTsBWR9zO",
+          "url": "https://madeinmarseille.net/actualite/212156-notre-dame-de-la-garde-enfin-inscrite-officiellement-aux-monuments-historiques/",
+          "canonicalUrl": "https://madeinmarseille.net/actualite/212156-notre-dame-de-la-garde-enfin-inscrite-officiellement-aux-monuments-historiques/",
+          "title": "Notre-Dame de la Garde enfin inscrite officiellement aux monuments historiques",
+          "description": "L’arrêté préfectoral a été publié : la basilique Notre-Dame de la Garde est officiellement inscrite au titre des monuments historiques. Nous vous l’annoncions en avant-première il y a quelques semaines. … Cet article Notre-Dame de la Garde enfin inscrite officiellement aux monuments historiques…",
+          "source": {
+            "id": "madeinmarseille",
+            "name": "Made in Marseille"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T07:33:19.000Z",
+          "imageUrl": "https://madeinmarseille.net/actualites-marseille/bonne-mere-notre-dame-de-la-garde-mathieu-grapeloup-600x400.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T07:33:19.000Z"
+    },
+    {
+      "id": "59UBKL2ndkV6",
+      "representative": {
+        "id": "59UBKL2ndkV6",
+        "url": "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/blocage-sur-le-campus-carlone-a-nice-6870765?at_medium=lien_RSS&at_locale=49",
+        "canonicalUrl": "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/blocage-sur-le-campus-carlone-a-nice-6870765",
+        "title": "Le Campus Carlone bloqué à Nice par des étudiants",
+        "description": "Un blocus est en cours sur le Campus Carlone à Nice, ce mercredi 7 octobre. Une centaine d'étudiants bloquent les entrées.",
+        "source": {
+          "id": "ici_pac",
+          "name": "ici Provence, Azur, Vaucluse"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:15:49.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/45a475d6-7eee-4d63-8ca1-598b95edf1e4/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-PAC"
+      },
+      "related": [
+        {
+          "id": "7cqYRZlaVHAO",
+          "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-colere-etudiante-une-matinee-de-tensions-devant-le-campus-carlone-a-nice-ce-mercredi_VN-202610070258.html",
+          "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-colere-etudiante-une-matinee-de-tensions-devant-le-campus-carlone-a-nice-ce-mercredi_VN-202610070258.html",
+          "title": "Colère étudiante: une matinée de tensions devant le campus Carlone à Nice ce mercredi",
+          "description": "Alors que tous les établissements d’Université Côte d’Azur ont rouvert leurs portes ce mercredi, le campus Carlone à Nice est bloqué depuis 6 heures. Les manifestants ont été dispersés par les forces de l’ordre.",
+          "source": {
+            "id": "bfm_marseille",
+            "name": "BFM Marseille, Côte d'Azur"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T06:52:19.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/p_Mhz1_-QizASt2ysEb_zgAw7V4=/0x0:1280x720/800x0/images/Colere-etudiante-une-matinee-de-tensions-devant-le-campus-Carlone-a-Nice-ce-mercredi-2360746.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T06:52:19.000Z"
+    },
+    {
+      "id": "-smLSqFrrBWk",
+      "representative": {
+        "id": "-smLSqFrrBWk",
+        "url": "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/plus-de-2000-personnes-a-nice-pour-la-manifestation-interprofessionnelle-en-soutien-au-mouvement-des-lyceens-9649720?at_medium=lien_RSS&at_locale=49",
+        "canonicalUrl": "https://www.ici.fr/provence-alpes-cote-d-azur/alpes-maritimes-06/nice/plus-de-2000-personnes-a-nice-pour-la-manifestation-interprofessionnelle-en-soutien-au-mouvement-des-lyceens-9649720",
+        "title": "Mobilisation lycéenne : plus de 2.000 personnes à Nice pour la manifestation de soutien au mouvement",
+        "description": "Lycéens, étudiants, syndicats, mais aussi fédération de parents d'élèves se sont donné rendez-vous place Garibaldi à Nice ce mardi après-midi, dès 14h, pour une grande manifestation en soutien aux revendications des lycéens. Plus de 2.000 personnes ont pris place dans le cortège.",
+        "source": {
+          "id": "ici_pac",
+          "name": "ici Provence, Azur, Vaucluse"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:29:05.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/f5b79fe1-53f2-48d8-8a9e-619be5d5c5c8/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-PAC"
+      },
+      "related": [
+        {
+          "id": "xVhnO5NJD8xZ",
+          "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-mobilisation-lyceenne-plus-de-2-000-manifestants-a-nice_VN-202610070164.html",
+          "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonjour-cote-d-azur/video-mobilisation-lyceenne-plus-de-2-000-manifestants-a-nice_VN-202610070164.html",
+          "title": "Mobilisation lycéenne: plus de 2.000 manifestants à Nice",
+          "description": "Lycéens, étudiants, syndicats et fédérations de parents d’élèves se sont retrouvés ce mardi après-midi place Garibaldi, à Nice. Plus de 2.000 personnes ont participé au cortège pour soutenir les revendications des lycéens.",
+          "source": {
+            "id": "bfm_marseille",
+            "name": "BFM Marseille, Côte d'Azur"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T05:36:52.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/r6_LoVtWFLZUwxP5dSFwr6IaItw=/0x0:1280x720/800x0/images/Mobilisation-lyceenne-plus-de-2-000-manifestants-a-Nice-2360655.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T05:36:52.000Z"
+    },
+    {
+      "id": "qRK9Y_Ppp-8C",
+      "representative": {
+        "id": "qRK9Y_Ppp-8C",
+        "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-vaucluse/une-mobilisation-lyceenne-calme-et-bon-enfant-a-avignon-ce-mardi-3167319?at_medium=lien_RSS&at_locale=48",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-vaucluse/une-mobilisation-lyceenne-calme-et-bon-enfant-a-avignon-ce-mardi-3167319",
+        "title": "Une mobilisation lycéenne \"calme et bon enfant\" à Avignon ce mardi",
+        "description": "Ce mardi 6 octobre 2026, plus d'un millier de personnes ont défilé dans les rues d'Avignon, en cette journée de mobilisation lycéenne. Dans la cité des papes, le cortège s'est déroulé dans le calme.",
+        "source": {
+          "id": "ici_pac",
+          "name": "ici Provence, Azur, Vaucluse"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:32:30.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/1d30362d-c4dc-4ef6-8a33-97acc68dcc6a/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-PAC"
+      },
+      "related": [
+        {
+          "id": "ZRLyA810neoG",
+          "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-mobilisation-lyceenne_VN-202610060806.html",
+          "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-mobilisation-lyceenne_VN-202610060806.html",
+          "title": "Mobilisation lycéenne .",
+          "description": "Mobilisation lycéenne : « La gauche instrumentalise la jeunesse », estime Léa Corradi, responsable adjointe des Jeunes Républicains des Alpes-Maritimes.",
+          "source": {
+            "id": "bfm_marseille",
+            "name": "BFM Marseille, Côte d'Azur"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T16:49:16.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Gf3RhoZ6ocIIaWcbGHKWTWFJXT0=/0x0:1280x720/800x0/images/Mobilisation-lyceenne-2360434.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T05:32:30.000Z"
+    },
+    {
+      "id": "0s5U3DQZ1-ku",
+      "representative": {
+        "id": "0s5U3DQZ1-ku",
+        "url": "https://www.nicematin.com/societe/blocage-des-lycees/incidents-lors-de-cours-en-visioconference-dans-plusieurs-lycees-le-prefet-des-alpes-maritimes-saisit-la-justice-10735916",
+        "canonicalUrl": "https://www.nicematin.com/societe/blocage-des-lycees/incidents-lors-de-cours-en-visioconference-dans-plusieurs-lycees-le-prefet-des-alpes-maritimes-saisit-la-justice-10735916",
+        "title": "Incidents lors de cours en visioconférence dans plusieurs lycées : le préfet des Alpes-Maritimes saisit la justice",
+        "description": "Après des incidents survenus ce mardi 6 octobre 2026 au matin lors de cours en distanciel organisés par plusieurs lycées des Alpes-Maritimes, le préfet indique saisir la justice.",
         "source": {
           "id": "nicematin",
-          "name": "Nice-Matin"
+          "name": "Nice-Matin, Var-Matin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T05:45:02.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/59/82/OG-10735982-1200-800-5345169_upload-1-s1nhodw2g63u-111545.jpg",
+        "publishedAt": "2026-10-06T12:44:24.000Z",
+        "imageUrl": "https://assets.nicematin.com/articles/10/73/59/16/OG-10735916-1200-800-0d30717_upload-1-u6kkp79jpxqz-nicpqrxxq211-cd-jean-44913215.jpg",
         "countryCode": "FR",
         "regionCode": "FR-PAC"
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:45:02.000Z"
+      "related": [
+        {
+          "id": "n0oc17hwG9B3",
+          "url": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-a-nice-des-cours-en-visioconference-perturbes-dans-plusieurs-lycees_VN-202610060803.html",
+          "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/replay-emissions/bonsoir-cote-d-azur/video-a-nice-des-cours-en-visioconference-perturbes-dans-plusieurs-lycees_VN-202610060803.html",
+          "title": "À Nice, des cours en visioconférence perturbés dans plusieurs lycées",
+          "description": "À Nice, des cours en visioconférence perturbés dans plusieurs lycées : injures racistes et sexistes, menaces, provocation à la haine et faits susceptibles de relever de l’apologie du terrorisme. Des enquêtes vont être ouvertes pour identifier les auteurs.",
+          "source": {
+            "id": "bfm_marseille",
+            "name": "BFM Marseille, Côte d'Azur"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T16:44:50.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/3jqOeiDO_8tOw55cXN0WNyyBqlA=/0x0:1280x720/800x0/images/A-Nice-des-cours-en-visioconference-perturbes-dans-plusieurs-lycees-2360431.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T16:44:50.000Z"
     },
     {
-      "id": "iE0FQPViysgj",
+      "id": "5qNFK2LZg4nC",
       "representative": {
-        "id": "iE0FQPViysgj",
-        "url": "https://www.nicematin.com/societe/blocage-des-lycees/blocus-des-lyceens-les-etablissements-et-campus-de-la-cote-d-azur-rouvrent-incertitude-sur-la-suite-des-blocages-dans-les-alpes-maritimes-et-le-var-suivez-notre-direct-10736301",
-        "canonicalUrl": "https://www.nicematin.com/societe/blocage-des-lycees/blocus-des-lyceens-les-etablissements-et-campus-de-la-cote-d-azur-rouvrent-incertitude-sur-la-suite-des-blocages-dans-les-alpes-maritimes-et-le-var-suivez-notre-direct-10736301",
-        "title": "Blocus des lycéens : les établissements de la Côte d’Azur rouvrent, des étudiants bloquent la fac de lettres à Nice, incertitude sur la suite du mouvement dans les Alpes-Maritimes et le Var… Suivez notre direct",
-        "description": "Retour en classe ou poursuite des blocages des lycées ? Après une journée",
+        "id": "5qNFK2LZg4nC",
+        "url": "https://www.ici.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/marseille/professeur-agresse-a-la-ciotat-trois-mineurs-en-garde-a-vue-a-marseille-3263234?at_medium=lien_RSS&at_locale=45",
+        "canonicalUrl": "https://www.ici.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/marseille/professeur-agresse-a-la-ciotat-trois-mineurs-en-garde-a-vue-a-marseille-3263234",
+        "title": "Professeur agressé à La Ciotat : trois mineurs en garde à vue à Marseille",
+        "description": "Trois élèves du lycée de la Méditerranée à la Ciotat sont en garde à vue à Marseille ce mardi 6 octobre. Ils sont soupçonnés d'avoir agressé un professeur lors de la mobilisation lycéenne de vendredi dernier.",
+        "source": {
+          "id": "ici_pac",
+          "name": "ici Provence, Azur, Vaucluse"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T16:11:29.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/4a8a1c6a-6b85-40e5-8d9b-5405c8663ca4/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-PAC"
+      },
+      "related": [
+        {
+          "id": "QKYVS-KSyeYj",
+          "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/la-ciotat/agression-d-un-professeur-a-la-ciotat-trois-lyceens-de-16-ans-en-garde-a-vue-plusieurs-chefs-retenus-par-le-parquet-3429081.html",
+          "canonicalUrl": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/la-ciotat/agression-d-un-professeur-a-la-ciotat-trois-lyceens-de-16-ans-en-garde-a-vue-plusieurs-chefs-retenus-par-le-parquet-3429081.html",
+          "title": "Agression d’un professeur à La Ciotat : trois lycéens de 16 ans en garde à vue, plusieurs chefs retenus par le parquet",
+          "description": "Trois lycéens de 16 ans sont actuellement en garde à vue à Marseille dans l’enquête sur l’agression d’un professeur, survenue en marge de la manifestation des lycéens le vendredi 2 octobre dernier, devant le lycée de la Méditerranée à La Ciotat. L’un d’eux est soupçonné d’avoir aspergé d’essence…",
+          "source": {
+            "id": "france3_pac",
+            "name": "France 3 Provence-Alpes-Côte d'Azur"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T16:40:53.000Z",
+          "imageUrl": "https://france3-regions.franceinfo.fr/image/onoE-0ImBNg8LE5vcjmPScJK2-w/930x620/filters:format(webp)/regions/2026/10/04/6ac268f2ceb19296296457.png",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T16:40:53.000Z"
+    },
+    {
+      "id": "pZHPEqVwUA-V",
+      "representative": {
+        "id": "pZHPEqVwUA-V",
+        "url": "https://www.nicematin.com/societe/blocage-des-lycees/insultes-et-references-terroristes-lors-des-cours-a-distance-dans-les-alpes-maritimes-5-lycees-concernes-le-rectorat-riposte-colere-du-prefet-et-d-eric-ciotti-10735899",
+        "canonicalUrl": "https://www.nicematin.com/societe/blocage-des-lycees/insultes-et-references-terroristes-lors-des-cours-a-distance-dans-les-alpes-maritimes-5-lycees-concernes-le-rectorat-riposte-colere-du-prefet-et-d-eric-ciotti-10735899",
+        "title": "Insultes et références terroristes lors des cours à distance dans les Alpes-Maritimes : 5 lycées concernés, le rectorat riposte, colère du préfet et d’Eric Ciotti",
+        "description": "Des internautes ont utilisé des pseudonymes à consonance terroriste, pour mieux perturber les cours organisés en visioconférence pour des lycéens. Ce mardi 6 octobre 2026, le rectorat annonce des signalements au procureur et dépôts de plainte.",
         "source": {
           "id": "nicematin",
-          "name": "Nice-Matin"
+          "name": "Nice-Matin, Var-Matin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T05:42:55.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/63/01/OG-10736301-1200-800-aaa2331_upload-1-ht3v8lostoij-whatsapp-image-2026-10-07-at-08-08-55.jpg",
+        "publishedAt": "2026-10-06T12:48:17.000Z",
+        "imageUrl": "https://assets.nicematin.com/articles/10/73/58/99/OG-10735899-1200-800-4e9cfb6_ftp-1-81nkwhchbwp4-rcanicxxq502-dm-lyceens-a-domicile.jpg",
         "countryCode": "FR",
         "regionCode": "FR-PAC"
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:42:55.000Z"
+      "related": [
+        {
+          "id": "-UJNfyi2SFmA",
+          "url": "https://www.bfmtv.com/cote-d-azur/le-prefet-des-alpes-maritimes-et-eric-ciotti-denoncent-l-utilisation-de-pseudonymes-faisant-reference-au-terrorisme-lors-des-cours-en-visio-a-nice_AN-202610060722.html",
+          "canonicalUrl": "https://www.bfmtv.com/cote-d-azur/le-prefet-des-alpes-maritimes-et-eric-ciotti-denoncent-l-utilisation-de-pseudonymes-faisant-reference-au-terrorisme-lors-des-cours-en-visio-a-nice_AN-202610060722.html",
+          "title": "Le préfet des Alpes-Maritimes et Éric Ciotti dénoncent l'utilisation de pseudonymes faisant référence au terrorisme lors des cours en visio à Nice",
+          "description": "Mardi 6 octobre, Éric Ciotti, maire de Nice a dénoncé l'utilisation de pseudonymes faisant référence à des terroristes lors de cours dispensés en visio à Nice.",
+          "source": {
+            "id": "bfm_marseille",
+            "name": "BFM Marseille, Côte d'Azur"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T15:19:52.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/z0ilo0CrprT61othd3nSw0j8Kdw=/0x40:768x472/800x0/images/Un-homme-en-teletravail-chez-lui-participe-a-une-visioconference-le-14-mai-2020-a-Vertou-pres-de-Nantes-365683.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-PAC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:19:52.000Z"
     },
     {
-      "id": "VXTtHLR8CYU1",
+      "id": "gmNxtePJIU6D",
       "representative": {
-        "id": "VXTtHLR8CYU1",
-        "url": "https://www.bfmtv.com/marseille/replay-emissions/bonjour-marseille/video-j-ai-teste-pour-vous-le-metier-de-boulanger-a-plan-de-campagne_VN-202610070165.html",
-        "canonicalUrl": "https://www.bfmtv.com/marseille/replay-emissions/bonjour-marseille/video-j-ai-teste-pour-vous-le-metier-de-boulanger-a-plan-de-campagne_VN-202610070165.html",
-        "title": "J'ai testé pour vous: le métier de boulanger à Plan-de-Campagne",
-        "description": "Le métier de boulanger, en quoi ça consiste réellement ? Notre journaliste Thomas a mis la main à la pâte dans j'ai testé pour vous du mercredi 7 octobre.",
-        "source": {
-          "id": "bfm_marseille",
-          "name": "BFM Marseille"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-07T05:34:17.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/PAzRXg_C-Uzm3vH7zF8V89jB6Ws=/0x0:1280x720/800x0/images/J-ai-teste-pour-vous-le-metier-de-boulanger-a-Plan-de-Campagne-2360656.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-PAC"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:34:17.000Z"
-    },
-    {
-      "id": "N6xmxc-4hI7a",
-      "representative": {
-        "id": "N6xmxc-4hI7a",
-        "url": "https://www.nicematin.com/societe/transports/bus-geolocalises-tickets-sur-iphone-lignes-d-azur-sort-sa-nouvelle-appli-ce-qui-va-changer-dans-les-transports-de-la-metropole-de-nice-10735936",
-        "canonicalUrl": "https://www.nicematin.com/societe/transports/bus-geolocalises-tickets-sur-iphone-lignes-d-azur-sort-sa-nouvelle-appli-ce-qui-va-changer-dans-les-transports-de-la-metropole-de-nice-10735936",
-        "title": "Bus géolocalisés, tickets sur iPhone… Lignes d’Azur sort sa nouvelle appli, ce qui va changer dans les transports de la Métropole de Nice",
-        "description": "Suivi des bus en temps réel, abonnements 100 % numériques et intégration du covoiturage : la régie métropolitaine Ligne d’Azur modernise ses services ce jeudi 8 octobre 2026.",
+        "id": "gmNxtePJIU6D",
+        "url": "https://www.nicematin.com/environnement/le-cout-exorbitant-du-mauvais-tri-dans-les-poubelles-du-golfe-de-saint-tropez-10736355",
+        "canonicalUrl": "https://www.nicematin.com/environnement/le-cout-exorbitant-du-mauvais-tri-dans-les-poubelles-du-golfe-de-saint-tropez-10736355",
+        "title": "Le coût exorbitant du mauvais tri dans les poubelles du golfe de Saint-Tropez",
+        "description": "Vos poubelles peuvent coûter très cher à la Communauté de Communes du Golfe de Saint-Tropez si le tri n’est pas parfaitement effectué par les administrés, engendrant des refus de la part de l’organisme de traitement.",
         "source": {
           "id": "nicematin",
-          "name": "Nice-Matin"
+          "name": "Nice-Matin, Var-Matin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T05:15:06.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/59/36/OG-10735936-1200-800-03eb6de_upload-1-ilcgfg4ayiht-maxmatinarchtwo260426.jpg",
+        "publishedAt": "2026-10-07T10:45:08.000Z",
+        "imageUrl": "https://assets.nicematin.com/articles/10/73/63/55/OG-10736355-1200-800-2168d6d_ftp-1-jucp4xaekkrv-troxx100-ns-tri-poubelles.jpg",
         "countryCode": "FR",
         "regionCode": "FR-PAC"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:15:06.000Z"
+      "latestPublishedAt": "2026-10-07T10:45:08.000Z"
     },
     {
-      "id": "8MTZw3BGfbiy",
+      "id": "pYX0l-V7b74o",
       "representative": {
-        "id": "8MTZw3BGfbiy",
-        "url": "https://www.nicematin.com/meteo/alerte-meteo/meteo-les-alpes-maritimes-placees-en-vigilance-jaune-orages-et-pluie-inondation-ce-mercredi-10736268",
-        "canonicalUrl": "https://www.nicematin.com/meteo/alerte-meteo/meteo-les-alpes-maritimes-placees-en-vigilance-jaune-orages-et-pluie-inondation-ce-mercredi-10736268",
-        "title": "Météo : les Alpes-Maritimes placées en vigilance jaune orages et pluie-inondation ce mercredi",
-        "description": "Météo-France a placé le département en vigilance jaune pluie-inondation et orages ce mercredi 7 octobre.",
+        "id": "pYX0l-V7b74o",
+        "url": "https://www.ici.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/marseille/blocus-dans-un-lycee-deux-eleves-blesses-apres-une-charge-des-crs-a-marseille-3451381?at_medium=lien_RSS&at_locale=45",
+        "canonicalUrl": "https://www.ici.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/marseille/blocus-dans-un-lycee-deux-eleves-blesses-apres-une-charge-des-crs-a-marseille-3451381",
+        "title": "Blocus dans un lycée : un lycéen de 17 ans blessé à la tête à Marseille, des enseignants dénoncent une \"charge des CRS\"",
+        "description": "Des lycéens et des enseignants du lycée Marie Curie, à Marseille, dénoncent ce mercredi une charge des CRS, après une action de mobilisation devant l'établissement. Un jeune lycéen de 17 ans a été envoyé aux urgences, un autre a été interpellé, quatre CRS blessés selon la police.",
         "source": {
-          "id": "nicematin",
-          "name": "Nice-Matin"
+          "id": "ici_pac",
+          "name": "ici Provence, Azur, Vaucluse"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T04:52:13.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/62/68/OG-10736268-1200-800-7f0bcb9_upload-1-gfumt9zvybi3-maxmatinarchtwo250487.jpg",
+        "publishedAt": "2026-10-07T10:36:24.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/19657ccd-a266-4cbb-8c77-475c364e2f44/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-PAC"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:52:13.000Z"
+      "latestPublishedAt": "2026-10-07T10:36:24.000Z"
     },
     {
-      "id": "FuWThQbcVJ35",
+      "id": "dP4yU0iPMSPO",
       "representative": {
-        "id": "FuWThQbcVJ35",
-        "url": "https://www.nicematin.com/societe/vie-locale/pres-d-un-an-de-travaux-a-proximite-de-l-aeroport-de-nice-le-chantier-a-commence-ce-qui-change-pour-circuler-10732091",
-        "canonicalUrl": "https://www.nicematin.com/societe/vie-locale/pres-d-un-an-de-travaux-a-proximite-de-l-aeroport-de-nice-le-chantier-a-commence-ce-qui-change-pour-circuler-10732091",
-        "title": "Près d’un an de travaux à proximité de l’aéroport de Nice : le chantier a commencé, ce qui change pour circuler",
-        "description": "Depuis vendredi 2 octobre 2026, la circulation est modifiée au niveau du pont Mercantour situé sur la promenade des Anglais et qui franchit le boulevard du Mercantour près de l’aéroport de Nice à l’ouest de la ville.",
+        "id": "dP4yU0iPMSPO",
+        "url": "https://www.nicematin.com/economie/un-terrazzo-qui-reutilise-les-sarments-et-ceps-de-vigne-cette-innovation-portee-par-var-poncage-a-la-farlede-et-son-partenaire-les-princes-sarments-seduit-hotels-de-luxe-et-domaines-viticoles-10736341",
+        "canonicalUrl": "https://www.nicematin.com/economie/un-terrazzo-qui-reutilise-les-sarments-et-ceps-de-vigne-cette-innovation-portee-par-var-poncage-a-la-farlede-et-son-partenaire-les-princes-sarments-seduit-hotels-de-luxe-et-domaines-viticoles-10736341",
+        "title": "Un terrazzo qui réutilise les sarments et ceps de vigne : cette innovation portée par Var ponçage, à La Farlède, et son partenaire Les princes sarments, séduit hôtels de luxe et domaines viticoles",
+        "description": "Tombé en désuétude dans les années quatre-vingt-dix, le terrazzo, matériau star des années soixante-dix, revient en force et même sous forme d’innovation, dans le Var, où il permet de valoriser les bois de vignes plutôt que de les brûler.",
         "source": {
           "id": "nicematin",
-          "name": "Nice-Matin"
+          "name": "Nice-Matin, Var-Matin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T04:45:04.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/20/91/OG-10732091-1200-800-288c13e_upload-1-zvebip5zg34y-img-7353.jpg",
+        "publishedAt": "2026-10-07T10:35:26.000Z",
+        "imageUrl": "https://assets.nicematin.com/articles/10/73/63/41/OG-10736341-1200-800-3942e9a_upload-1-bg3nrizy7xeh-img-5028.jpg",
         "countryCode": "FR",
         "regionCode": "FR-PAC"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:45:04.000Z"
+      "latestPublishedAt": "2026-10-07T10:35:26.000Z"
     },
     {
-      "id": "Pw_ouoh_xKw4",
+      "id": "0ijcDX0IX4at",
       "representative": {
-        "id": "Pw_ouoh_xKw4",
-        "url": "https://www.nicematin.com/societe/dans-quelle-commune-des-alpes-maritimes-gagne-t-on-vraiment-le-mieux-sa-vie-testez-notre-match-des-villes-dans-notre-comparateur-10735990",
-        "canonicalUrl": "https://www.nicematin.com/societe/dans-quelle-commune-des-alpes-maritimes-gagne-t-on-vraiment-le-mieux-sa-vie-testez-notre-match-des-villes-dans-notre-comparateur-10735990",
-        "title": "Dans quelle commune des Alpes-Maritimes gagne-t-on vraiment le mieux sa vie ? Testez notre match des villes dans notre comparateur",
-        "description": "Où vivent les habitants les plus aisés des Alpes-Maritimes ? La réponse ne se trouve pas forcément sur le littoral. Selon les dernières données de l’Insee, publiées en 2026, certaines communes de l’arrière-pays affichent un niveau de vie médian très supérieur à celui de Nice ou Cannes. Et les…",
+        "id": "0ijcDX0IX4at",
+        "url": "https://www.ici.fr/provence-alpes-cote-d-azur/vaucluse-84/le-proces-pelicot-n-a-pas-ete-filme-il-fallait-le-dessiner-elle-raconte-en-bd-le-proces-des-viols-de-mazan-1974583?at_medium=lien_RSS&at_locale=48",
+        "canonicalUrl": "https://www.ici.fr/provence-alpes-cote-d-azur/vaucluse-84/le-proces-pelicot-n-a-pas-ete-filme-il-fallait-le-dessiner-elle-raconte-en-bd-le-proces-des-viols-de-mazan-1974583",
+        "title": "\"Le procès Pelicot n'a pas été filmé, il fallait le dessiner\" : elle raconte en BD le procès des viols de Mazan",
+        "description": "La journaliste Marion Dubreuil publie ce mercredi 7 octobre 2026 la bande dessinée \"Pelicot, un procès pour l'histoire\", aux éditions Futuropolis.",
         "source": {
-          "id": "nicematin",
-          "name": "Nice-Matin"
+          "id": "ici_pac",
+          "name": "ici Provence, Azur, Vaucluse"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T04:10:02.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/59/90/OG-10735990-1200-800-6a5f15f_upload-from-url-1-bdrvzduvn9ac-archive-photo-1-55388-5538853.jpg",
+        "publishedAt": "2026-10-07T10:26:18.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/68f8d772-dfa2-4e60-ab44-826dc10d7c2e/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-PAC"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:10:02.000Z"
+      "latestPublishedAt": "2026-10-07T10:26:18.000Z"
     },
     {
-      "id": "sCBIQ4QlH_gu",
+      "id": "rXn7JqoIIf_n",
       "representative": {
-        "id": "sCBIQ4QlH_gu",
-        "url": "https://www.nicematin.com/societe/securite/la-colere-dans-les-lycees-est-partie-un-peu-dans-tous-les-sens-et-malheureusement-les-policiers-sont-toujours-pris-pour-cible-delegue-du-syndicat-alliance-06-jean-luc-bragato-evoque-les-difficultes-des-policiers-azureens-10735938",
-        "canonicalUrl": "https://www.nicematin.com/societe/securite/la-colere-dans-les-lycees-est-partie-un-peu-dans-tous-les-sens-et-malheureusement-les-policiers-sont-toujours-pris-pour-cible-delegue-du-syndicat-alliance-06-jean-luc-bragato-evoque-les-difficultes-des-policiers-azureens-10735938",
-        "title": "« La colère dans les lycées est partie un peu dans tous les sens et malheureusement, les policiers sont toujours pris pour cible » : délégué du syndicat Alliance 06, Jean-Luc Bragato évoque les difficultés des policiers azuréens",
-        "description": "Invité des déjeuners Cannes Radio-Nice-Matin, Jean-Luc Bragato, délégué départemental d’Alliance 06, dénonce la violence des mouvements lycéens, une réponse judiciaire insuffisante et des moyens humains et matériels qui dépriment les policiers.",
+        "id": "rXn7JqoIIf_n",
+        "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-vaucluse/une-plainte-pour-homicide-involontaire-et-non-assistance-a-personne-en-peril-vise-un-ehpad-de-bedarrides-8015587?at_medium=lien_RSS&at_locale=48",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-vaucluse/une-plainte-pour-homicide-involontaire-et-non-assistance-a-personne-en-peril-vise-un-ehpad-de-bedarrides-8015587",
+        "title": "\"Je l'ai entendue hurler de douleur\", une femme porte plainte après la mort de sa mère dans un Ehpad de Bédarrides",
+        "description": "Une plainte contre X déposée mi-septembre pour \"homicide involontaire\" et \"non-assistance à personne en péril\" vise l’Ehpad \"Les 7 Rivières\", de Bédarrides (Vaucluse). La fille d’une résidente de 79 ans, décédée le 16 avril 2026, dénonce plusieurs dysfonctionnements présumés dans la prise en charge.",
         "source": {
-          "id": "nicematin",
-          "name": "Nice-Matin"
+          "id": "ici_pac",
+          "name": "ici Provence, Azur, Vaucluse"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-07T04:00:01.000Z",
-        "imageUrl": "https://assets.nicematin.com/articles/10/73/59/38/OG-10735938-1200-800-d29b27f_ftp-1-kymc5ywmrqey-canxxq500-carini-jean-luc-bragato-et-emilie-singama.jpg",
+        "publishedAt": "2026-10-07T10:21:05.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/45b58d59-1a64-4e06-96e3-d6f3cd1f8a87/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-PAC"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:00:01.000Z"
+      "latestPublishedAt": "2026-10-07T10:21:05.000Z"
     }
   ]
 }

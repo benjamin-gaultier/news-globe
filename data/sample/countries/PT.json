@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PT",
   "countryName": "Portugal",
-  "updatedAt": "2026-10-07T11:57:59.426Z",
+  "updatedAt": "2026-10-07T12:15:45.751Z",
   "clusters": [
     {
       "id": "GwZ2Zpqh4Axv",
@@ -77,6 +77,257 @@
       "latestPublishedAt": "2026-10-06T12:56:36.000Z"
     },
     {
+      "id": "2I8432uaC2VT",
+      "representative": {
+        "id": "2I8432uaC2VT",
+        "url": "https://eco.sapo.pt/2026/10/06/para-passos-coelho-e-mais-facil-falar-do-que-fazer-diz-carlos-moedas/",
+        "canonicalUrl": "https://eco.sapo.pt/2026/10/06/para-passos-coelho-e-mais-facil-falar-do-que-fazer-diz-carlos-moedas/",
+        "title": "“Para Passos Coelho é mais fácil falar do que fazer”, diz Carlos Moedas",
+        "description": "O presidente da Câmara de Lisboa considera que Pedro Passos Coelho “está a ser injusto” nas críticas ao governo de Luís Montenegro, nomeadamente quando o ex-primeiro-ministro afirma que o tempo para fazer reformas está a esgotar-se. Em entrevista à Antena 1, Carlos Moedas explica que o atual…",
+        "source": {
+          "id": "eco",
+          "name": "ECO"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:37:46.000Z",
+        "imageUrl": "https://eco.imgix.net/uploads/2026/02/cropped-plano-europeu-habitacao04-1.jpg",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:37:46.000Z"
+    },
+    {
+      "id": "iiuCqoOF3fdS",
+      "representative": {
+        "id": "iiuCqoOF3fdS",
+        "url": "https://www.rtp.pt/noticias/pais/um-morto-e-um-ferido-grave-em-incendio-urbano-no-montijo_n1769874",
+        "canonicalUrl": "https://www.rtp.pt/noticias/pais/um-morto-e-um-ferido-grave-em-incendio-urbano-no-montijo_n1769874",
+        "title": "Um morto e um ferido grave em incêndio urbano no Montijo",
+        "description": "Uma pessoa morreu e outra sofreu ferimentos graves num incêndio urbano que deflagrou hoje de manhã no primeiro andar de um prédio na Rua José Joaquim Marques, no Montijo, distrito de Setúbal, informou a Proteção Civil.",
+        "source": {
+          "id": "rtp",
+          "name": "RTP Notícias"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:30:44.000Z",
+        "imageUrl": "https://cdn-images.rtp.pt/noticias/images/default_rtpnoticias.png?w=350&amp;q=50&amp;auto=format",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:30:44.000Z"
+    },
+    {
+      "id": "3FWprOOYLg3s",
+      "representative": {
+        "id": "3FWprOOYLg3s",
+        "url": "https://eco.sapo.pt/2026/10/06/parlamento-europeu-aprova-programa-financeiro-de-115-milhoes-para-defesa/",
+        "canonicalUrl": "https://eco.sapo.pt/2026/10/06/parlamento-europeu-aprova-programa-financeiro-de-115-milhoes-para-defesa/",
+        "title": "Parlamento Europeu aprova programa financeiro de 115 milhões para defesa",
+        "description": "O Parlamento Europeu (PE) aprovou esta terça-feira a criação do programa financeiro na área da defesa AGILE, com 115 milhões de euros para responder ao novo ambiente de segurança e apoiar tecnologias inovadoras. A legislação, adotada esta terça-feira em sessão plenária do PE por 536 votos a favor…",
+        "source": {
+          "id": "eco",
+          "name": "ECO"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:30:10.000Z",
+        "imageUrl": "https://eco.imgix.net/uploads/2026/10/cropped-47892086-scaled-1.jpg",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:30:10.000Z"
+    },
+    {
+      "id": "IC7D3D7HFOlu",
+      "representative": {
+        "id": "IC7D3D7HFOlu",
+        "url": "https://eco.sapo.pt/2026/10/06/zurich-conclui-compra-da-beazley-e-cria-maior-seguradora-de-riscos-especializados-do-mundo/",
+        "canonicalUrl": "https://eco.sapo.pt/2026/10/06/zurich-conclui-compra-da-beazley-e-cria-maior-seguradora-de-riscos-especializados-do-mundo/",
+        "title": "Zurich conclui compra da Beazley e cria maior seguradora de riscos especializados do mundo",
+        "description": "A Zurich Insurance Group (Zurich) anunciou na quinta-feira a conclusão do processo de aquisição da britânica Beazley Plc (Beazley). A fusão destas duas operações complementares resulta na criação da maior empresa global do ramo de riscos especializados (specialty insurance), cuja sede operacional…",
+        "source": {
+          "id": "eco",
+          "name": "ECO"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:25:28.000Z",
+        "imageUrl": "https://eco.imgix.net/uploads/2026/03/cropped-zurich-hq.jpg",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:25:28.000Z"
+    },
+    {
+      "id": "dNtOsRiDhd_9",
+      "representative": {
+        "id": "dNtOsRiDhd_9",
+        "url": "https://www.publico.pt/2026/10/06/local/noticia/cacem-shopping-fecha-20h30-problema-ha-auditorio-eventos-noite-2190137",
+        "canonicalUrl": "https://www.publico.pt/2026/10/06/local/noticia/cacem-shopping-fecha-20h30-problema-ha-auditorio-eventos-noite-2190137",
+        "title": "No Cacém, shopping fecha às 20h30. Problema: há lá um auditório com eventos à noite",
+        "description": "Propriedade da Câmara de Sintra e dentro do shopping , Auditório Municipal António Silva é usado pelo teatromosca. Novo horário não permite actividades à noite, o que traz preocupações sobre o futuro.",
+        "source": {
+          "id": "publico",
+          "name": "Público"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T11:58:30.000Z",
+        "imageUrl": null,
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:58:30.000Z"
+    },
+    {
+      "id": "BO2D0yVd2shL",
+      "representative": {
+        "id": "BO2D0yVd2shL",
+        "url": "https://www.publico.pt/2026/10/06/video/devida-venia-caso-carrilho-vs-barreto-pavao-provincia-20261002-125311",
+        "canonicalUrl": "https://www.publico.pt/2026/10/06/video/devida-venia-caso-carrilho-vs-barreto-pavao-provincia-20261002-125311",
+        "title": "Devida Vénia: o caso Carrilho vs. Barreto e o \"pavão de província\"",
+        "description": "Neste episódio do Devida Vénia recordamos o caso de um artigo de opinião que levou Manuel Maria Carrilho a abrir um processo contra o PÚBLICO.",
+        "source": {
+          "id": "publico",
+          "name": "Público"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T11:53:00.000Z",
+        "imageUrl": null,
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:53:00.000Z"
+    },
+    {
+      "id": "Y-sDuMvqkYp7",
+      "representative": {
+        "id": "Y-sDuMvqkYp7",
+        "url": "https://www.publico.pt/2026/10/06/mundo/noticia/antigo-chefe-servicos-secretos-alemanha-detido-suspeitas-espionagem-2190417",
+        "canonicalUrl": "https://www.publico.pt/2026/10/06/mundo/noticia/antigo-chefe-servicos-secretos-alemanha-detido-suspeitas-espionagem-2190417",
+        "title": "Antigo chefe dos serviços secretos da Alemanha detido por suspeitas de espionagem",
+        "description": "Director do Serviço Federal de Informações entre 1998 e 2005, August Hanning é acusado de “divulgação de segredos de Estado” a serviços secretos estrangeiros. Não foi revelado o país destinatário.",
+        "source": {
+          "id": "publico",
+          "name": "Público"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T11:30:13.000Z",
+        "imageUrl": null,
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "yzfNQ1ZOuvZ-",
+          "url": "https://eco.sapo.pt/2026/10/06/antigo-chefe-da-secreta-alema-detido-por-suspeita-de-espionagem-e-traicao/",
+          "canonicalUrl": "https://eco.sapo.pt/2026/10/06/antigo-chefe-da-secreta-alema-detido-por-suspeita-de-espionagem-e-traicao/",
+          "title": "Antigo chefe da secreta alemã detido por suspeita de espionagem e traição",
+          "description": "O antigo chefe dos serviços de informações externas da Alemanha (BND, na sigla original) August Hanning foi detido por suspeita de espionagem e traição, anunciou esta terça-feira a procuradoria-geral federal alemã. “Hanning é fortemente suspeito de espionagem constitutiva de traição, (…) recolha…",
+          "source": {
+            "id": "eco",
+            "name": "ECO"
+          },
+          "sourceCountry": "PT",
+          "language": "pt",
+          "publishedAt": "2026-10-06T10:27:39.000Z",
+          "imageUrl": "https://eco.imgix.net/uploads/2026/10/cropped-47891641-scaled-1.jpg",
+          "countryCode": "PT",
+          "regionCode": null
+        },
+        {
+          "id": "XGU9xbwzIIkn",
+          "url": "https://observador.pt/2026/10/06/ex-chefe-dos-servicos-secretos-alemaes-detido-por-suspeita-de-espionagem-e-traicao-ao-estado/",
+          "canonicalUrl": "https://observador.pt/2026/10/06/ex-chefe-dos-servicos-secretos-alemaes-detido-por-suspeita-de-espionagem-e-traicao-ao-estado/",
+          "title": "Ex-chefe das secretas alemãs detido por alegada espionagem",
+          "description": "August Hanning liderou o BND entre 1998 e 2005. É suspeito de ter usado centenas de documentos secretos fornecidos pelo seu chefe de gabinete e de os ter partilhado com um serviço secreto estrangeiro.",
+          "source": {
+            "id": "observador",
+            "name": "Observador"
+          },
+          "sourceCountry": "PT",
+          "language": "pt",
+          "publishedAt": "2026-10-06T09:59:31.000Z",
+          "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:3000:1687:nowe:0:156/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/06104243/gettyimages-53340401.jpg",
+          "countryCode": "PT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T11:30:13.000Z"
+    },
+    {
+      "id": "Y0duN7MOTdgO",
+      "representative": {
+        "id": "Y0duN7MOTdgO",
+        "url": "https://www.rtp.pt/noticias/pais/dia-de-greve-dos-tecnicos-de-reinsercao-dos-servicos-prisionais_n1769850",
+        "canonicalUrl": "https://www.rtp.pt/noticias/pais/dia-de-greve-dos-tecnicos-de-reinsercao-dos-servicos-prisionais_n1769850",
+        "title": "Dia de greve dos técnicos de reinserção dos serviços prisionais",
+        "description": "Para além do dia de greve, foi marcada uma manifestação junto à cadeia do Porto. As duas ações de protesto foram convocadas pelo Sindicato dos Técnicos da Direção-Geral de Reinserção e Serviços Prisionais (SinDGRSP). Estes profissionais desempenham funções na reabilitação, reeducação e reinserção…",
+        "source": {
+          "id": "rtp",
+          "name": "RTP Notícias"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T08:35:52.000Z",
+        "imageUrl": "https://cdn-images.rtp.pt/icm/noticias/images/07/07ae6be3c27fba57aefd27851bb112fd?w=350&amp;q=50&amp;rect=0,147,4048,2219&amp;auto=format",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:35:52.000Z"
+    },
+    {
+      "id": "YiUcIeBlDbLZ",
+      "representative": {
+        "id": "YiUcIeBlDbLZ",
+        "url": "https://www.rtp.pt/noticias/pais/clima-intimidatorio-trabalhadores-da-aima-em-greve-por-aumentos-e-carreira_n1769845",
+        "canonicalUrl": "https://www.rtp.pt/noticias/pais/clima-intimidatorio-trabalhadores-da-aima-em-greve-por-aumentos-e-carreira_n1769845",
+        "title": "\"Clima intimidatório\". Trabalhadores da AIMA em greve por aumentos e carreira",
+        "description": "A paralisação foi convocada pelo Sindicato dos Técnicos de Migração, que reivindica uma resposta urgente por parte da tutela. A presidente da estrutura sindical admite que a situação precária dos trabalhadores pode contribuir para que estes não se juntem ao protesto.",
+        "source": {
+          "id": "rtp",
+          "name": "RTP Notícias"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T07:46:49.000Z",
+        "imageUrl": "https://cdn-images.rtp.pt/icm/noticias/images/d2/d2688046dba97393ab774881eb2b6be3?w=350&amp;q=50&amp;rect=0,23,1560,855&amp;auto=format",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T07:46:49.000Z"
+    },
+    {
       "id": "vwGAG8Sh5JLG",
       "representative": {
         "id": "vwGAG8Sh5JLG",
@@ -147,240 +398,6 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:49:17.000Z"
-    },
-    {
-      "id": "2I8432uaC2VT",
-      "representative": {
-        "id": "2I8432uaC2VT",
-        "url": "https://eco.sapo.pt/2026/10/06/para-passos-coelho-e-mais-facil-falar-do-que-fazer-diz-carlos-moedas/",
-        "canonicalUrl": "https://eco.sapo.pt/2026/10/06/para-passos-coelho-e-mais-facil-falar-do-que-fazer-diz-carlos-moedas/",
-        "title": "“Para Passos Coelho é mais fácil falar do que fazer”, diz Carlos Moedas",
-        "description": "O presidente da Câmara de Lisboa considera que Pedro Passos Coelho “está a ser injusto” nas críticas ao governo de Luís Montenegro, nomeadamente quando o ex-primeiro-ministro afirma que o tempo para fazer reformas está a esgotar-se. Em entrevista à Antena 1, Carlos Moedas explica que o atual…",
-        "source": {
-          "id": "eco",
-          "name": "ECO"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:37:46.000Z",
-        "imageUrl": "https://eco.imgix.net/uploads/2026/02/cropped-plano-europeu-habitacao04-1.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:37:46.000Z"
-    },
-    {
-      "id": "MvcJbXpVdiSJ",
-      "representative": {
-        "id": "MvcJbXpVdiSJ",
-        "url": "https://observador.pt/2026/10/06/gnr-apreendeu-cinco-carros-durante-concentracao-de-tuning-em-vagos/",
-        "canonicalUrl": "https://observador.pt/2026/10/06/gnr-apreendeu-cinco-carros-durante-concentracao-de-tuning-em-vagos/",
-        "title": "GNR apreendeu cinco carros durante concentração de tuning",
-        "description": "Numa ação de policiamento, em Vagos, a GNR apreendeu cinco carros com alterações nas suas características e que realizavam manobras ilegais. Foram detetadas outras irregularidades nas viaturas.",
-        "source": {
-          "id": "observador",
-          "name": "Observador"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:34:21.000Z",
-        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/02/23230732/27720404-scaled_770x433_acf_cropped.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:34:21.000Z"
-    },
-    {
-      "id": "ZbVbqgXhHtiO",
-      "representative": {
-        "id": "ZbVbqgXhHtiO",
-        "url": "https://observador.pt/2026/10/06/revista-observador-lifestyle-casas-remodeladas-ja-nas-bancas/",
-        "canonicalUrl": "https://observador.pt/2026/10/06/revista-observador-lifestyle-casas-remodeladas-ja-nas-bancas/",
-        "title": "Revista Observador Lifestyle, casas remodeladas, nas bancas",
-        "description": "Na edição 33 destacamos casas remodeladas que convidam a deitar mãos à obra e visitamos o primeiro projeto de Siza Vieira, agora aberto a estadias. Sugerimos hotéis, restaurantes e design português.",
-        "source": {
-          "id": "observador",
-          "name": "Observador"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:32:37.000Z",
-        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/06133148/lifestyle-33-art-770x433-1.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:32:37.000Z"
-    },
-    {
-      "id": "OzAbt2vNO4Rj",
-      "representative": {
-        "id": "OzAbt2vNO4Rj",
-        "url": "https://observador.pt/2026/10/06/tribunal-de-penafiel-condenou-13-arguidos-por-burla-de-14-milhoes-de-euros-a-entidades-bancarias/",
-        "canonicalUrl": "https://observador.pt/2026/10/06/tribunal-de-penafiel-condenou-13-arguidos-por-burla-de-14-milhoes-de-euros-a-entidades-bancarias/",
-        "title": "Condenados 13 arguidos por burla de 14 milhões a bancos",
-        "description": "Empresários ligados à indústria da transformação de papel e produtos alimentares realizaram operações fictícias de venda de máquinas a intermediários, que as revenderam a instituições financeiras.",
-        "source": {
-          "id": "observador",
-          "name": "Observador"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:32:15.000Z",
-        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:2438:1371:nowe:148:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/07/10094332/captura-de-ecra-2026-07-10-as-094312.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:32:15.000Z"
-    },
-    {
-      "id": "EBKHD5YUmeH4",
-      "representative": {
-        "id": "EBKHD5YUmeH4",
-        "url": "https://observador.pt/2026/10/06/sete-jovens-acusados-de-agredir-homem-na-estacao-ferroviaria-de-paredes/",
-        "canonicalUrl": "https://observador.pt/2026/10/06/sete-jovens-acusados-de-agredir-homem-na-estacao-ferroviaria-de-paredes/",
-        "title": "Sete jovens acusados de agredir homem na estação de Paredes",
-        "description": "Os arguidos, \"após visualizarem o ofendido na estação de comboios de Paredes, decidiram, de comum acordo, agredi-lo\" e \"apropriarem-se de objetos\" de valor que lhes interessassem, refere a acusação.",
-        "source": {
-          "id": "observador",
-          "name": "Observador"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:31:56.000Z",
-        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1349:756:nowe:651:199/q:70/plain/https://s3.observador.pt/wp-content/uploads/2024/01/02194528/42079219.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:31:56.000Z"
-    },
-    {
-      "id": "iiuCqoOF3fdS",
-      "representative": {
-        "id": "iiuCqoOF3fdS",
-        "url": "https://www.rtp.pt/noticias/pais/um-morto-e-um-ferido-grave-em-incendio-urbano-no-montijo_n1769874",
-        "canonicalUrl": "https://www.rtp.pt/noticias/pais/um-morto-e-um-ferido-grave-em-incendio-urbano-no-montijo_n1769874",
-        "title": "Um morto e um ferido grave em incêndio urbano no Montijo",
-        "description": "Uma pessoa morreu e outra sofreu ferimentos graves num incêndio urbano que deflagrou hoje de manhã no primeiro andar de um prédio na Rua José Joaquim Marques, no Montijo, distrito de Setúbal, informou a Proteção Civil.",
-        "source": {
-          "id": "rtp",
-          "name": "RTP Notícias"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:30:44.000Z",
-        "imageUrl": "https://cdn-images.rtp.pt/noticias/images/default_rtpnoticias.png?w=350&amp;q=50&amp;auto=format",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:30:44.000Z"
-    },
-    {
-      "id": "3FWprOOYLg3s",
-      "representative": {
-        "id": "3FWprOOYLg3s",
-        "url": "https://eco.sapo.pt/2026/10/06/parlamento-europeu-aprova-programa-financeiro-de-115-milhoes-para-defesa/",
-        "canonicalUrl": "https://eco.sapo.pt/2026/10/06/parlamento-europeu-aprova-programa-financeiro-de-115-milhoes-para-defesa/",
-        "title": "Parlamento Europeu aprova programa financeiro de 115 milhões para defesa",
-        "description": "O Parlamento Europeu (PE) aprovou esta terça-feira a criação do programa financeiro na área da defesa AGILE, com 115 milhões de euros para responder ao novo ambiente de segurança e apoiar tecnologias inovadoras. A legislação, adotada esta terça-feira em sessão plenária do PE por 536 votos a favor…",
-        "source": {
-          "id": "eco",
-          "name": "ECO"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:30:10.000Z",
-        "imageUrl": "https://eco.imgix.net/uploads/2026/10/cropped-47892086-scaled-1.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:30:10.000Z"
-    },
-    {
-      "id": "RtJISqwfS9z1",
-      "representative": {
-        "id": "RtJISqwfS9z1",
-        "url": "https://observador.pt/2026/10/06/erc-e-comissao-da-carteira-profissional-de-jornalista-averiguam-suspeitas-de-irregularidades-na-centrotv/",
-        "canonicalUrl": "https://observador.pt/2026/10/06/erc-e-comissao-da-carteira-profissional-de-jornalista-averiguam-suspeitas-de-irregularidades-na-centrotv/",
-        "title": "CentroTV. ERC averigua suspeitas de irregularidades",
-        "description": "CentroTV passou a assegurar a cobertura na região de Coimbra da TVI/CNN Portugal, sendo aquele órgão detido pela mesma empresa que assegura a transmissão de reuniões da Câmara de Coimbra desde 2023.",
-        "source": {
-          "id": "observador",
-          "name": "Observador"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T10:18:25.000Z",
-        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/07/22110216/13770154_770x433_acf_cropped-1.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "yyILdHaIgmkv",
-          "url": "https://eco.sapo.pt/2026/10/06/erc-e-ccpj-averiguam-suspeitas-de-irregularidades-na-centrotv/",
-          "canonicalUrl": "https://eco.sapo.pt/2026/10/06/erc-e-ccpj-averiguam-suspeitas-de-irregularidades-na-centrotv/",
-          "title": "ERC e CCPJ averiguam suspeitas de irregularidades na CentroTV",
-          "description": "A Entidade Reguladora para a Comunicação Social (ERC) e a Comissão da Carteira Profissional de Jornalista (CCPJ) estão a averiguar suspeitas de irregularidades na CentroTV, que assegura a cobertura jornalística da TVI/CNN Portugal na região de Coimbra. A CentroTV passou a assegurar a cobertura na…",
-          "source": {
-            "id": "eco",
-            "name": "ECO"
-          },
-          "sourceCountry": "PT",
-          "language": "pt",
-          "publishedAt": "2026-10-06T12:28:26.000Z",
-          "imageUrl": "https://eco.imgix.net/uploads/2026/10/cropped-centro-tv-scaled-1.png",
-          "countryCode": "PT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:28:26.000Z"
-    },
-    {
-      "id": "Os8FmFKDlwNu",
-      "representative": {
-        "id": "Os8FmFKDlwNu",
-        "url": "https://observador.pt/2026/10/06/associacao-denuncia-paralisacao-do-arrendamento-acessivel-por-ausencia-de-portaria/",
-        "canonicalUrl": "https://observador.pt/2026/10/06/associacao-denuncia-paralisacao-do-arrendamento-acessivel-por-ausencia-de-portaria/",
-        "title": "Associação denuncia paralisação do arrendamento acessível",
-        "description": "Novo Regime Simplificado do Arrendamento Acessível entrou em vigor a 1 de setembro, mas continua por regulamentar, o que é indispensável à sua aplicação.",
-        "source": {
-          "id": "observador",
-          "name": "Observador"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:26:32.000Z",
-        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:213/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/08/06162130/dventura-habitacao-social-vale-formoso-11-scaled.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:26:32.000Z"
     }
   ]
 }
