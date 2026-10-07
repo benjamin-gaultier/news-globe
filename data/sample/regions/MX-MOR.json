@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "MX",
+  "countryName": "Mexico",
+  "regionCode": "MX-MOR",
+  "regionName": "Morelos",
+  "updatedAt": "2026-10-07T16:47:49.768Z",
+  "clusters": [
+    {
+      "id": "X7YpZuXypSnv",
+      "representative": {
+        "id": "X7YpZuXypSnv",
+        "url": "https://www.lajornadamorelos.mx/salud/reportan-17-casos-graves-de-dengue-en-el-estado/?utm_source=rss&utm_medium=rss&utm_campaign=reportan-17-casos-graves-de-dengue-en-el-estado",
+        "canonicalUrl": "https://www.lajornadamorelos.mx/salud/reportan-17-casos-graves-de-dengue-en-el-estado/",
+        "title": "Reportan 17 casos graves de dengue en el estado",
+        "description": "Morelos acumula 36 casos de dengue hasta la Semana Epidemiológica 38, de los cuales 17 presentan signos de alarma y cuadros graves y 19 se clasificaron como no graves, informó la Secretaría de Salud, a través de Servicios de Salud de Morelos (SSM). Ante el incremento de casos que requieren mayor…",
+        "source": {
+          "id": "mx_mor_jornada",
+          "name": "La Jornada Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T06:41:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [
+        {
+          "id": "KzJbxf1V082i",
+          "url": "https://morelos.quadratin.com.mx/reportan-17-nuevos-casos-de-dengue-en-morelos/",
+          "canonicalUrl": "https://morelos.quadratin.com.mx/reportan-17-nuevos-casos-de-dengue-en-morelos/",
+          "title": "Reportan 17 nuevos casos de dengue en Morelos",
+          "description": "Morelos acumula 561 casos de dengue y cuatro defunciones hasta la semana epidemiológica 48, según datos de la Secretaría de Salud federal.",
+          "source": {
+            "id": "mx_mor_quadratin",
+            "name": "Quadratín Morelos"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T15:57:49.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-MOR"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:57:49.000Z"
+    },
+    {
+      "id": "gyzDhIuwhhHr",
+      "representative": {
+        "id": "gyzDhIuwhhHr",
+        "url": "https://www.lajornadamorelos.mx/sociedad/apoyos-de-hasta-75-mil-pesos-para-afectados-por-incendio-en-el-alm/?utm_source=rss&utm_medium=rss&utm_campaign=apoyos-de-hasta-75-mil-pesos-para-afectados-por-incendio-en-el-alm",
+        "canonicalUrl": "https://www.lajornadamorelos.mx/sociedad/apoyos-de-hasta-75-mil-pesos-para-afectados-por-incendio-en-el-alm/",
+        "title": "Apoyos de hasta 75 mil pesos para afectados por incendio en el ALM",
+        "description": "Alrededor de 85 comerciantes afectados por el incendio del pasado 14 de septiembre en el Mercado Adolfo López Mateos (ALM), en Cuernavaca, han sido identificados por el Gobierno de Morelos para recibir apoyos económicos de hasta 75 mil pesos, de acuerdo con el nivel de afectación de sus negocios…",
+        "source": {
+          "id": "mx_mor_jornada",
+          "name": "La Jornada Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T06:47:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [
+        {
+          "id": "TDWMXGz4t6Pc",
+          "url": "https://morelos.quadratin.com.mx/define-gobierno-apoyos-tras-incendio-del-alm/",
+          "canonicalUrl": "https://morelos.quadratin.com.mx/define-gobierno-apoyos-tras-incendio-del-alm/",
+          "title": "Define gobierno apoyos tras incendio del ALM",
+          "description": "El gobierno estatal anunció 75 mil pesos para pérdidas totales y 50 mil para parciales, pero aún no precisa la bolsa global.",
+          "source": {
+            "id": "mx_mor_quadratin",
+            "name": "Quadratín Morelos"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T15:47:27.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-MOR"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:47:27.000Z"
+    },
+    {
+      "id": "bu8NtJRoMres",
+      "representative": {
+        "id": "bu8NtJRoMres",
+        "url": "https://www.diariodemorelos.com/noticias/canaco-detecta-cambio-abismal-en-gobierno-morelos-dos-anos-gestion",
+        "canonicalUrl": "https://www.diariodemorelos.com/noticias/canaco-detecta-cambio-abismal-en-gobierno-morelos-dos-anos-gestion",
+        "title": "Canaco detecta un cambio \"abismal\" en el gobierno de Morelos tras dos años de gestión",
+        "description": "El presidente de la Canaco ServyTUR Cuernavaca, David Ricardo López Jiménez, afirmó que existe una apertura real al diálogo con las autoridades locales para atender las inquietudes del comercio formal.",
+        "source": {
+          "id": "mx_mor_diariomorelos",
+          "name": "Diario de Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T01:12:03.000Z",
+        "imageUrl": "https://www.diariodemorelos.com/uploads/s1/26/31/35/6/ca-2026-10-06t191052-338.jpeg",
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [
+        {
+          "id": "OuRG3wHwyvNN",
+          "url": "https://www.lajornadamorelos.mx/sociedad/destaca-canaco-avances-en-dos-anos-de-gobierno-en-morelos/?utm_source=rss&utm_medium=rss&utm_campaign=destaca-canaco-avances-en-dos-anos-de-gobierno-en-morelos",
+          "canonicalUrl": "https://www.lajornadamorelos.mx/sociedad/destaca-canaco-avances-en-dos-anos-de-gobierno-en-morelos/",
+          "title": "Destaca Canaco avances en dos años de Gobierno en Morelos",
+          "description": "Tras el informe por los dos primeros años de gobierno de Margarita González Saravia, el sector empresarial reconoció que existen avances y buenas intenciones, pero consideró que todavía faltan resultados suficientes para responder a los principales problemas que enfrenta Morelos. El presidente de…",
+          "source": {
+            "id": "mx_mor_jornada",
+            "name": "La Jornada Morelos"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T06:45:00.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-MOR"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T06:45:00.000Z"
+    },
+    {
+      "id": "3iH40abgkdt1",
+      "representative": {
+        "id": "3iH40abgkdt1",
+        "url": "https://oem.com.mx/elsoldecuernavaca/turismo/paseo-ribereno-en-cuernavaca-buscan-su-reapertura-con-recorridos-tematicos-antes-de-terminar-2026-32463987",
+        "canonicalUrl": "https://oem.com.mx/elsoldecuernavaca/turismo/paseo-ribereno-en-cuernavaca-buscan-su-reapertura-con-recorridos-tematicos-antes-de-terminar-2026-32463987",
+        "title": "Paseo Ribereño en Cuernavaca: Buscan su reapertura con recorridos antes de terminar 2026",
+        "description": "El secretario de Desarrollo Económico y Turismo, Marcos Manuel, destacó la posibilidad de realizar recorridos temáticos en este espacio, que se prevé, reabra parcialmente antes de terminar el año",
+        "source": {
+          "id": "mx_mor_solcuernavaca",
+          "name": "El Sol de Cuernavaca"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T01:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [
+        {
+          "id": "_M96aeOKpWOm",
+          "url": "https://www.lajornadamorelos.mx/municipios/preparan-reapertura-parcial-del-paseo-ribereno/?utm_source=rss&utm_medium=rss&utm_campaign=preparan-reapertura-parcial-del-paseo-ribereno",
+          "canonicalUrl": "https://www.lajornadamorelos.mx/municipios/preparan-reapertura-parcial-del-paseo-ribereno/",
+          "title": "Preparan reapertura parcial del Paseo Ribereño",
+          "description": "El Paseo Ribereño podría reabrir sus puertas en las próximas semanas, una vez que concluyan los detalles pendientes y el Ayuntamiento de Cuernavaca reciba formalmente la operación del espacio, informó Marcos Manuel Suárez Gerard, secretario de Desarrollo Económico y Turismo de la capital. El…",
+          "source": {
+            "id": "mx_mor_jornada",
+            "name": "La Jornada Morelos"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T06:31:00.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-MOR"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T06:31:00.000Z"
+    },
+    {
+      "id": "xcnKybbMVMEG",
+      "representative": {
+        "id": "xcnKybbMVMEG",
+        "url": "https://www.diariodemorelos.com/noticias/bankaool-abre-en-cuernavaca-su-primer-centro-negocios-en-morelos",
+        "canonicalUrl": "https://www.diariodemorelos.com/noticias/bankaool-abre-en-cuernavaca-su-primer-centro-negocios-en-morelos",
+        "title": "Bankaool abre en Cuernavaca su primer Centro de Negocios en Morelos",
+        "description": "Bankaool inauguró su primer Centro de Negocios en Morelos, ubicado sobre la Avenida Río Mayo en Cuernavaca, combinando servicios bancarios con espacios de coworking.",
+        "source": {
+          "id": "mx_mor_diariomorelos",
+          "name": "Diario de Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:11:49.000Z",
+        "imageUrl": "https://www.diariodemorelos.com/uploads/s1/26/31/87/7/bankaool.jpeg",
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:11:49.000Z"
+    },
+    {
+      "id": "kyk_gVCVijaC",
+      "representative": {
+        "id": "kyk_gVCVijaC",
+        "url": "https://www.diariodemorelos.com/noticias/uiix-anuncia-capacitacion-obligatoria-sobre-nueva-reforma-bachillerato-en-morelos",
+        "canonicalUrl": "https://www.diariodemorelos.com/noticias/uiix-anuncia-capacitacion-obligatoria-sobre-nueva-reforma-bachillerato-en-morelos",
+        "title": "UIIX anuncia capacitación obligatoria sobre nueva reforma de bachillerato en Morelos",
+        "description": "Instituciones públicas y privadas de bachillerato en Morelos deben adaptar sus planes al Marco Curricular Común de la Educación Media Superior (MCCEMS) para conservar su RVOE.",
+        "source": {
+          "id": "mx_mor_diariomorelos",
+          "name": "Diario de Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:04:33.000Z",
+        "imageUrl": "https://www.diariodemorelos.com/uploads/s1/26/31/86/1/uiix.jpeg",
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:04:33.000Z"
+    },
+    {
+      "id": "_2P_kzKX9nLv",
+      "representative": {
+        "id": "_2P_kzKX9nLv",
+        "url": "https://oem.com.mx/elsoldecuernavaca/cultura/denuncian-destruccion-de-acueducto-historico-en-morelos-y-omision-municipal-32447753",
+        "canonicalUrl": "https://oem.com.mx/elsoldecuernavaca/cultura/denuncian-destruccion-de-acueducto-historico-en-morelos-y-omision-municipal-32447753",
+        "title": "Denuncian destrucción de acueducto histórico en Zacatepec y omisión de autoridades",
+        "description": "Moisés Cruz Arredondo denunció la destrucción de un tramo del acueducto histórico en Zacatepec y las omisiones municipales en la protección del patrimonio",
+        "source": {
+          "id": "mx_mor_solcuernavaca",
+          "name": "El Sol de Cuernavaca"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T01:29:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [
+        {
+          "id": "FLS0qP1ojAij",
+          "url": "https://www.diariodemorelos.com/noticias/acueducto-historico-zacatepec-sufre-danos-por-construcciones-omisiones-municipales",
+          "canonicalUrl": "https://www.diariodemorelos.com/noticias/acueducto-historico-zacatepec-sufre-danos-por-construcciones-omisiones-municipales",
+          "title": "Acueducto histórico de Zacatepec sufre daños por construcciones y omisiones municipales",
+          "description": "El acueducto histórico de Zacatepec sufre afectaciones graves debido a construcciones particulares y la omisión de administraciones municipales.",
+          "source": {
+            "id": "mx_mor_diariomorelos",
+            "name": "Diario de Morelos"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T16:04:28.000Z",
+          "imageUrl": "https://www.diariodemorelos.com/uploads/s1/26/31/84/5/acueducto.jpeg",
+          "countryCode": "MX",
+          "regionCode": "MX-MOR"
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T16:04:28.000Z"
+    },
+    {
+      "id": "oacwPYcIPc61",
+      "representative": {
+        "id": "oacwPYcIPc61",
+        "url": "https://www.diariodemorelos.com/noticias/sergio-perez-flores-pide-armonizar-protesta-social-movilidad-en-cuernavaca",
+        "canonicalUrl": "https://www.diariodemorelos.com/noticias/sergio-perez-flores-pide-armonizar-protesta-social-movilidad-en-cuernavaca",
+        "title": "Sergio Pérez Flores pide armonizar protesta social y movilidad en Cuernavaca",
+        "description": "El polítólogo Sergio \"Checo\" Pérez Flores propuso armonizar el derecho constitucional a la protesta con la libertad de tránsito de los ciudadanos.",
+        "source": {
+          "id": "mx_mor_diariomorelos",
+          "name": "Diario de Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:04:25.000Z",
+        "imageUrl": "https://www.diariodemorelos.com/uploads/s1/26/31/82/9/checo-perez.jpeg",
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:04:25.000Z"
+    },
+    {
+      "id": "Z8Gd_E54wjtR",
+      "representative": {
+        "id": "Z8Gd_E54wjtR",
+        "url": "https://morelos.quadratin.com.mx/pide-canacintra-orientar-inversion-publica-a-infraestructura/",
+        "canonicalUrl": "https://morelos.quadratin.com.mx/pide-canacintra-orientar-inversion-publica-a-infraestructura/",
+        "title": "Pide Canacintra orientar inversión pública a infraestructura",
+        "description": "Alejandro Villarreal llamó a incluir al sector empresarial en decisiones económicas y mejorar conectividad para atraer inversiones a Morelos.",
+        "source": {
+          "id": "mx_mor_quadratin",
+          "name": "Quadratín Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:52:24.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:52:24.000Z"
+    },
+    {
+      "id": "4KRt-U3KxkVP",
+      "representative": {
+        "id": "4KRt-U3KxkVP",
+        "url": "https://oem.com.mx/elsoldecuernavaca/local/vecinos-advierten-barricadas-en-la-mexico-cuernavaca-por-falta-de-poda-de-arboles-32462997",
+        "canonicalUrl": "https://oem.com.mx/elsoldecuernavaca/local/vecinos-advierten-barricadas-en-la-mexico-cuernavaca-por-falta-de-poda-de-arboles-32462997",
+        "title": "Vecinos advierten barricadas en la México-Cuernavaca por falta de poda de árboles",
+        "description": "Vecinos de Santa María Ahucatitlán exigieron a la Secretaría de Infraestructura podar los árboles junto a la México-Cuernavaca; advirtieron que colocarán barricadas si no atienden la demanda",
+        "source": {
+          "id": "mx_mor_solcuernavaca",
+          "name": "El Sol de Cuernavaca"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T15:32:01.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [
+        {
+          "id": "SRAPSQqezLA9",
+          "url": "https://morelos.quadratin.com.mx/reclaman-poda-de-arboles-y-advierten-bloqueo-en-la-mexico-cuernavaca/",
+          "canonicalUrl": "https://morelos.quadratin.com.mx/reclaman-poda-de-arboles-y-advierten-bloqueo-en-la-mexico-cuernavaca/",
+          "title": "Reclaman poda de árboles y advierten bloqueo en la México-Cuernavaca",
+          "description": "Vecinos de Santa María Ahuacatitlán exigieron a la SICT atender los trabajos y advirtieron que colocarán barricadas sin anunciarlo.",
+          "source": {
+            "id": "mx_mor_quadratin",
+            "name": "Quadratín Morelos"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T15:41:38.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-MOR"
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:41:38.000Z"
+    },
+    {
+      "id": "br09GM0CvWLJ",
+      "representative": {
+        "id": "br09GM0CvWLJ",
+        "url": "https://morelos.quadratin.com.mx/se-mantienen-lluvias-para-hoy-en-morelos/",
+        "canonicalUrl": "https://morelos.quadratin.com.mx/se-mantienen-lluvias-para-hoy-en-morelos/",
+        "title": "Se mantienen lluvias para hoy en Morelos",
+        "description": "El SMN pronostica lluvias de 50 a 75 milímetros en Morelos, con posibles encharcamientos, inundaciones y deslaves.",
+        "source": {
+          "id": "mx_mor_quadratin",
+          "name": "Quadratín Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:47:53.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:47:53.000Z"
+    },
+    {
+      "id": "WjE_SomS2pCi",
+      "representative": {
+        "id": "WjE_SomS2pCi",
+        "url": "https://oem.com.mx/elsoldecuernavaca/local/ticuman-pide-al-inpi-reconocerlo-como-pueblo-indigena-originario-32473239",
+        "canonicalUrl": "https://oem.com.mx/elsoldecuernavaca/local/ticuman-pide-al-inpi-reconocerlo-como-pueblo-indigena-originario-32473239",
+        "title": "Ticumán pide al INPI reconocerlo como pueblo indígena originario",
+        "description": "Habitantes de Ticumán señalan que cuevas, pinturas rupestres y vestigios arqueológicos forman parte de la memoria histórica que sustenta su identidad como pueblo originario",
+        "source": {
+          "id": "mx_mor_solcuernavaca",
+          "name": "El Sol de Cuernavaca"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T11:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:00:00.000Z"
+    },
+    {
+      "id": "6rMfj_pGfpol",
+      "representative": {
+        "id": "6rMfj_pGfpol",
+        "url": "https://www.lajornadamorelos.mx/editorial/apoyar-a-los-jovenes-tiene-sentido-economico-y-social/?utm_source=rss&utm_medium=rss&utm_campaign=apoyar-a-los-jovenes-tiene-sentido-economico-y-social",
+        "canonicalUrl": "https://www.lajornadamorelos.mx/editorial/apoyar-a-los-jovenes-tiene-sentido-economico-y-social/",
+        "title": "Apoyar a los jóvenes tiene sentido económico y social",
+        "description": "En su conferencia de prensa se esta semana, la gobernadora Margarita González Saravia informó de los apoyos para las juventudes que se han ido ampliando a medida que avanza la administración estatal. El respaldo va desde el subsidio al transporte público hasta los créditos a la juventud…",
+        "source": {
+          "id": "mx_mor_jornada",
+          "name": "La Jornada Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T07:11:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T07:11:00.000Z"
+    },
+    {
+      "id": "Vk1Jj12ifUT0",
+      "representative": {
+        "id": "Vk1Jj12ifUT0",
+        "url": "https://www.lajornadamorelos.mx/foto-ciudadana/una-tecnica-impecable-refleja-meses-de-entrenamiento/?utm_source=rss&utm_medium=rss&utm_campaign=una-tecnica-impecable-refleja-meses-de-entrenamiento",
+        "canonicalUrl": "https://www.lajornadamorelos.mx/foto-ciudadana/una-tecnica-impecable-refleja-meses-de-entrenamiento/",
+        "title": "Una técnica impecable refleja meses de entrenamiento",
+        "description": "Niñas, niños y jóvenes de Yecapixtla demostraron disciplina, esfuerzo y constancia durante el Examen de Kups de Taekwondo, como parte del taller gratuito impulsado por el Ayuntamiento. Durante los combates, las y los participantes pusieron a prueba sus conocimientos, habilidades y fortalecieron…",
+        "source": {
+          "id": "mx_mor_jornada",
+          "name": "La Jornada Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T07:09:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T07:09:00.000Z"
+    },
+    {
+      "id": "7FXTJO8Eg8tx",
+      "representative": {
+        "id": "7FXTJO8Eg8tx",
+        "url": "https://www.lajornadamorelos.mx/seguridad-y-justicia/seprac-prepara-mapas-sobre-la-incidencia-delictiva-en-cuernavaca/?utm_source=rss&utm_medium=rss&utm_campaign=seprac-prepara-mapas-sobre-la-incidencia-delictiva-en-cuernavaca",
+        "canonicalUrl": "https://www.lajornadamorelos.mx/seguridad-y-justicia/seprac-prepara-mapas-sobre-la-incidencia-delictiva-en-cuernavaca/",
+        "title": "Seprac prepara mapas sobre la incidencia delictiva en Cuernavaca",
+        "description": "Tras su llegada como comisionado de la Subsecretaría de Seguridad de la Secretaría de Protección y Auxilio Ciudadano (Seprac), Sergio Eduardo Garduño Díaz, afirmó que se están elaborando mapas de calor y análisis de incidencia delictiva para identificar focos rojos, a fin de reforzar ahí la…",
+        "source": {
+          "id": "mx_mor_jornada",
+          "name": "La Jornada Morelos"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T07:05:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-MOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T07:05:00.000Z"
+    }
+  ]
+}

@@ -76,6 +76,30 @@ const SOURCES = {
     code: (p) => (p.iso_a2 === 'BR' ? p.iso_3166_2 : undefined),
     expected: 27,
   },
+  // Mexico's 31 states and Mexico City: Natural Earth 1:10m admin-1 (public domain), whose
+  // Mexico City is still MX-DIF (ISO's MX-CMX since 2016). MX-X01~ (an unassigned islet) is left out.
+  mx: {
+    url: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson',
+    code: (p) =>
+      p.iso_a2 === 'MX' && /^MX-[A-Z]{3}$/.test(p.iso_3166_2) ? (p.iso_3166_2 === 'MX-DIF' ? 'MX-CMX' : p.iso_3166_2) : undefined,
+    expected: 32,
+  },
+  // Argentina's 23 provinces and the City of Buenos Aires: Natural Earth 1:10m admin-1 (public domain).
+  ar: {
+    url: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson',
+    code: (p) => (p.iso_a2 === 'AR' ? p.iso_3166_2 : undefined),
+    expected: 24,
+  },
+  // India's 28 states and 8 union territories: Natural Earth 1:50m admin-1 (public domain).
+  // Four codes are updated to ISO 3166-2's 2023 ones.
+  in: {
+    url: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_admin_1_states_provinces.geojson',
+    code: (p) =>
+      p.iso_a2 === 'IN'
+        ? ({ 'IN-CT': 'IN-CG', 'IN-OR': 'IN-OD', 'IN-TG': 'IN-TS', 'IN-UT': 'IN-UK' }[p.iso_3166_2] ?? p.iso_3166_2)
+        : undefined,
+    expected: 36,
+  },
 };
 
 const cc = process.argv[2];

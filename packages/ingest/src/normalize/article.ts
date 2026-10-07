@@ -216,6 +216,39 @@ const NOT_NEWS: RegExp[] = [
   /^[^-–]{2,40}\s[-–]\s(?:(?:segunda|terça|quarta|quinta|sexta|sábado|domingo)\S*\s)?\d{1,2}\/\d{1,2}\/\d{4}$/i,
   /\s[-–]\s*ed\.\s*\d+\s*[-–]/i,
   /^(?:lista de )?falecimentos\b/i,
+  // Mexican court notices, forecasts, exchange rates, print editions and named columns: "EDICTO 187/2026",
+  // "Edicto primer aviso …", "Clima en Zapopan hoy: el pronóstico para …", "Clima en Monterrey con Gaby Lozoya: …",
+  // "Pronostican cielo despejado para este jueves", "Tipo de cambio en Tijuana", "Diario digital | 7 de octubre de 2026",
+  // "Edición impresa 07 de octubre de 2026", "Contraportada del 7 de octubre de 2026", "Bajo Reserva 07 de octubre de 2026",
+  // "OFF THE RECORD 07-10-2026", "Corren Rumores / …", "Columna Descomplicado/Jorge Robledo", "Obituario 05 octubre de 2026".
+  /^edicto\b/i,
+  /^clima en [^:]{2,40} (?:hoy|con [^:]{2,30}):(?!.*(?:tormenta|huracán|ciclón|frente frío))/i,
+  /^pronostican\b.{0,60}\bpara este (?:lunes|martes|miércoles|jueves|viernes|sábado|domingo)$/i,
+  /^tipo de cambio en\b/i,
+  /^(?:diario digital\s*\||edición impresa\b|bajo reserva\b|off the record \d|obituario\b)/i,
+  /^(?:portada|contraportada)\b[^:|]{0,40}\d{1,2}(?:\/\d{1,2}\/\d{2,4}| de \w+ de \d{4})$/i,
+  /^(?:columna\b|(?:clase política|corren rumores|el muro|crónica del poder)\s*\/)/i,
+  /\bcasino online\b/i,
+  // Indian job posts, event series, government listings and live-update headers: "Meghalaya Jobs 2026 : …",
+  // "MP Police Driver Recruitment 2026: 1,000 Posts", "… | Urban Adda 2026", "Chhattisgarh Government Events on October 7: …",
+  // "Raipur Job Fair 2026: 11,700 Vacancies, …", "News Live Updates: …", "West Bengal LIVE News Update: …".
+  /^[\w ]{2,30} jobs 20\d\d\s*:/i,
+  /\brecruitment 20\d\d\s*:/i,
+  /\burban adda \d{4}$/i,
+  /^[\w ]{2,30} government events on \w+ \d{1,2}\s*:/i,
+  /\bjob fair 20\d\d\s*:/i,
+  /^(?:[\w ]{2,25} )?(?:live news update|news live updates?)\s*:/i,
+  // Argentine portals: death notices, lottery draws, games and bank-discount service pieces.
+  // "HUGO RUBEN MURABITO (Q.E.P.D)", "Quiniela de Mendoza: estos son los resultados del sorteo…",
+  // "Resultado de la Quiniela de La Neuquina de HOY 7 de octubre de 2026", "Quiniela nocturna",
+  // "Tómbola Santiagueña: los números de este martes…", "Reto del día: …", "Feriado",
+  // "Cuenta DNI del Banco Provincia: los descuentos de hoy miércoles 7 de octubre del 2026".
+  /\(q\.?e\.?p\.?d\.?\)$/i,
+  /^(?:resultados? de la )?quiniela\b(?:[^:]{0,40}:\s*(?:estos son )?(?:los )?(?:resultados|números)|[^:]{0,40}\bde hoy\b|\s(?:nocturna|matutina|vespertina|de la (?:tarde|mañana|noche|primera))$)/i,
+  /^(?:loterías y quinielas|turf\W+programas y resultados|feriado)$/i,
+  /^tómbola [^:]{2,20}: los números\b/i,
+  /^reto del día\s*:/i,
+  /^cuenta dni\b[^:]{0,40}:\s*(?:los|todos los) descuentos\b/i,
 ];
 
 /**

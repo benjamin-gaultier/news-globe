@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "MX",
+  "countryName": "Mexico",
+  "regionCode": "MX-TAM",
+  "regionName": "Tamaulipas",
+  "updatedAt": "2026-10-07T16:47:49.768Z",
+  "clusters": [
+    {
+      "id": "c7QiQenx70Ex",
+      "representative": {
+        "id": "c7QiQenx70Ex",
+        "url": "https://oem.com.mx/elsoldetampico/local/isaias-ya-es-tormenta-tropical-en-el-atlantico-cual-es-su-trayectoria-y-como-afecta-a-tamaulipas-32459281",
+        "canonicalUrl": "https://oem.com.mx/elsoldetampico/local/isaias-ya-es-tormenta-tropical-en-el-atlantico-cual-es-su-trayectoria-y-como-afecta-a-tamaulipas-32459281",
+        "title": "Isaías ya es tormenta tropical en el Atlántico, ¿cuál es su trayectoria y cómo afecta a Tamaulipas?",
+        "description": "Inicio como un disturbio, ahora ya se convirtió en tormentra tropical; se prevén lluvias intensas tanto en Veracruz como en nuestra entidad",
+        "source": {
+          "id": "mx_tam_oem",
+          "name": "El Sol de Tampico"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T09:44:42.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [
+        {
+          "id": "oKF5MbHizuJt",
+          "url": "https://expreso.press/2026/10/07/se-forma-la-tormenta-tropical-isaias-pronostican-precipitaciones-muy-fuertes-en-la-costa-de-tamaulipas/",
+          "canonicalUrl": "https://expreso.press/2026/10/07/se-forma-la-tormenta-tropical-isaias-pronostican-precipitaciones-muy-fuertes-en-la-costa-de-tamaulipas/",
+          "title": "Se forma la tormenta tropical Isaías; pronostican precipitaciones muy fuertes en la costa de Tamaulipas",
+          "description": "Debido a su distancia y trayectoria, el SMN señaló que el huracán Rachel (categoría 1) ya no afecta al territorio mexicano",
+          "source": {
+            "id": "mx_tam_expreso",
+            "name": "Expreso (Ciudad Victoria)"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T13:59:20.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-TAM"
+        },
+        {
+          "id": "VxjwP4oyqQzq",
+          "url": "https://www.posta.com.mx/tamaulipas/depresion-tropical-se-forma-frente-a-las-costas-de-tamaulipas-podria-intensificar-a-tormenta-tropical/vl2263426",
+          "canonicalUrl": "https://www.posta.com.mx/tamaulipas/depresion-tropical-se-forma-frente-a-las-costas-de-tamaulipas-podria-intensificar-a-tormenta-tropical/vl2263426",
+          "title": "Depresión tropical se forma frente a las costas de Tamaulipas; podría intensificar a tormenta tropical",
+          "description": null,
+          "source": {
+            "id": "mx_tam_posta",
+            "name": "Posta Tamaulipas"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T21:58:00.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-TAM"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T13:59:20.000Z"
+    },
+    {
+      "id": "lRilQ7Vf4D4I",
+      "representative": {
+        "id": "lRilQ7Vf4D4I",
+        "url": "https://www.posta.com.mx/tamaulipas/alertan-por-cocodrilos-fuera-de-lagunas-en-ciudad-madero-tras-lluvias/vl2263676",
+        "canonicalUrl": "https://www.posta.com.mx/tamaulipas/alertan-por-cocodrilos-fuera-de-lagunas-en-ciudad-madero-tras-lluvias/vl2263676",
+        "title": "Alertan por cocodrilos fuera de lagunas en Ciudad Madero tras lluvias",
+        "description": null,
+        "source": {
+          "id": "mx_tam_posta",
+          "name": "Posta Tamaulipas"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:19:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:19:00.000Z"
+    },
+    {
+      "id": "yxJApe3mpn7X",
+      "representative": {
+        "id": "yxJApe3mpn7X",
+        "url": "https://www.posta.com.mx/tamaulipas/jesse--joy-tendra-uno-de-sus-ultimos-conciertos-en-tampico-tras-cambio-de-fecha/vl2263601",
+        "canonicalUrl": "https://www.posta.com.mx/tamaulipas/jesse--joy-tendra-uno-de-sus-ultimos-conciertos-en-tampico-tras-cambio-de-fecha/vl2263601",
+        "title": "Jesse & Joy tendrá uno de sus últimos conciertos en Tampico tras cambio de fecha",
+        "description": null,
+        "source": {
+          "id": "mx_tam_posta",
+          "name": "Posta Tamaulipas"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:16:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:16:00.000Z"
+    },
+    {
+      "id": "ICJkYgWe_Ilx",
+      "representative": {
+        "id": "ICJkYgWe_Ilx",
+        "url": "https://expreso.press/2026/10/07/destacan-bears-en-nacional/",
+        "canonicalUrl": "https://expreso.press/2026/10/07/destacan-bears-en-nacional/",
+        "title": "Destacan Bears en Nacional",
+        "description": "Bears renuevo Victoria, presente en el Hoop It Up 3X3 México 2026",
+        "source": {
+          "id": "mx_tam_expreso",
+          "name": "Expreso (Ciudad Victoria)"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:13:09.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:13:09.000Z"
+    },
+    {
+      "id": "bGm05VOpf6dh",
+      "representative": {
+        "id": "bGm05VOpf6dh",
+        "url": "https://expreso.press/2026/10/07/llega-marvel-a-ciudad-victoria/",
+        "canonicalUrl": "https://expreso.press/2026/10/07/llega-marvel-a-ciudad-victoria/",
+        "title": "Llega Marvel a Ciudad Victoria",
+        "description": "El universo del cómic, manga e ilustración tendrá una cita especial este 24 y 25 de octubre con el Primer Festival Autores y Creadores “Tamaulipas entre viñetas”.",
+        "source": {
+          "id": "mx_tam_expreso",
+          "name": "Expreso (Ciudad Victoria)"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:10:14.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:10:14.000Z"
+    },
+    {
+      "id": "823qOO0H8P93",
+      "representative": {
+        "id": "823qOO0H8P93",
+        "url": "https://expreso.press/2026/10/07/estos-detalles-ha-revelo-la-oms-sobre-la-peste-neumonica-en-rusia/",
+        "canonicalUrl": "https://expreso.press/2026/10/07/estos-detalles-ha-revelo-la-oms-sobre-la-peste-neumonica-en-rusia/",
+        "title": "Estos detalles ha reveló la OMS sobre la peste neumónica en Rusia",
+        "description": "La Organización Mundial de la Salud (OMS) considera que el riesgo para otros países es muy bajo.",
+        "source": {
+          "id": "mx_tam_expreso",
+          "name": "Expreso (Ciudad Victoria)"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:06:54.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:06:54.000Z"
+    },
+    {
+      "id": "6V5kLOQNkLul",
+      "representative": {
+        "id": "6V5kLOQNkLul",
+        "url": "https://www.posta.com.mx/tamaulipas/matan-a-cuchilladas-a-konan-un-perro-de-5-anos-en-tampico-duena-denuncia-ataque/vl2263600",
+        "canonicalUrl": "https://www.posta.com.mx/tamaulipas/matan-a-cuchilladas-a-konan-un-perro-de-5-anos-en-tampico-duena-denuncia-ataque/vl2263600",
+        "title": "Matan a cuchilladas a Konan, un perro de 5 años en Tampico; dueña denuncia ataque",
+        "description": null,
+        "source": {
+          "id": "mx_tam_posta",
+          "name": "Posta Tamaulipas"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T14:19:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:19:00.000Z"
+    },
+    {
+      "id": "8bl8d5aL4V4a",
+      "representative": {
+        "id": "8bl8d5aL4V4a",
+        "url": "https://oem.com.mx/elsoldetampico/gossip/parrillas-caballo-dorado-y-el-payaso-de-rodeo-mas-grande-de-tamaulipas-tampico-prepara-campeonato-nacional-con-bolsa-de-mas-de-260-mil-pesos-32466679",
+        "canonicalUrl": "https://oem.com.mx/elsoldetampico/gossip/parrillas-caballo-dorado-y-el-payaso-de-rodeo-mas-grande-de-tamaulipas-tampico-prepara-campeonato-nacional-con-bolsa-de-mas-de-260-mil-pesos-32466679",
+        "title": "Parrillas, Caballo Dorado y el Payaso de Rodeo más grande de Tamaulipas: Tampico prepara campeonato nacional con bolsa de más de 260 mil pesos",
+        "description": "La sexta edición del Campeonato de Parrillas Tampico se realizará el 7 de noviembre en el Recinto Ferial, con la participación de 30 equipos",
+        "source": {
+          "id": "mx_tam_oem",
+          "name": "El Sol de Tampico"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T10:25:07.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:25:07.000Z"
+    },
+    {
+      "id": "KiRhcr3z8gj8",
+      "representative": {
+        "id": "KiRhcr3z8gj8",
+        "url": "https://oem.com.mx/elsoldetampico/local/cuando-llueve-es-un-caos-falta-de-proyectos-y-recursos-frenan-obras-pluviales-en-la-zona-sur-de-tamaulipas-32467268",
+        "canonicalUrl": "https://oem.com.mx/elsoldetampico/local/cuando-llueve-es-un-caos-falta-de-proyectos-y-recursos-frenan-obras-pluviales-en-la-zona-sur-de-tamaulipas-32467268",
+        "title": "“Cuando llueve es un caos”: falta de proyectos y recursos frenan obras pluviales en la zona sur de Tamaulipas",
+        "description": "La Mesa Ciudadana del Agua hizo un llamado a legisladores para gestionar los recursos para las obras",
+        "source": {
+          "id": "mx_tam_oem",
+          "name": "El Sol de Tampico"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T01:01:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T01:01:00.000Z"
+    },
+    {
+      "id": "nw_8_Dd-OXnA",
+      "representative": {
+        "id": "nw_8_Dd-OXnA",
+        "url": "https://oem.com.mx/elsoldetampico/ciencia-y-salud/vigilancia-en-mercados-de-pescados-y-mariscos-tras-presencia-de-hidrocarburo-en-el-rio-panuco-32462796",
+        "canonicalUrl": "https://oem.com.mx/elsoldetampico/ciencia-y-salud/vigilancia-en-mercados-de-pescados-y-mariscos-tras-presencia-de-hidrocarburo-en-el-rio-panuco-32462796",
+        "title": "Vigilancia en mercados de pescados y mariscos tras presencia de hidrocarburo en el río Pánuco",
+        "description": "Las lluvias pueden movilizar los residuos hacia cuerpos de agua, por lo que se reforzará la revisión en mercados de Tampico y Ciudad Madero",
+        "source": {
+          "id": "mx_tam_oem",
+          "name": "El Sol de Tampico"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T01:01:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T01:01:00.000Z"
+    },
+    {
+      "id": "IZgJwaHAC7dB",
+      "representative": {
+        "id": "IZgJwaHAC7dB",
+        "url": "https://expreso.press/2026/10/07/ruta-a-la-gloria/",
+        "canonicalUrl": "https://expreso.press/2026/10/07/ruta-a-la-gloria/",
+        "title": "Ruta a la gloria",
+        "description": "Ximena Zurita: de seis horas en la ruta a campeona nacional",
+        "source": {
+          "id": "mx_tam_expreso",
+          "name": "Expreso (Ciudad Victoria)"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T14:40:07.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:40:07.000Z"
+    },
+    {
+      "id": "Wl13veq8QtR9",
+      "representative": {
+        "id": "Wl13veq8QtR9",
+        "url": "https://expreso.press/2026/10/07/proyecto-de-la-uat-es-finalista-en-certamen-internacional-educativo/",
+        "canonicalUrl": "https://expreso.press/2026/10/07/proyecto-de-la-uat-es-finalista-en-certamen-internacional-educativo/",
+        "title": "Proyecto de la UAT es finalista en certamen internacional educativo",
+        "description": "El proyecto XR-UAT, desarrollado por docentes y estudiantes de la Unidad Académica Reynosa Aztlán, fue seleccionado entre 2 mil 226 propuestas y competirá en la categoría Immersive Experiential Learning.",
+        "source": {
+          "id": "mx_tam_expreso",
+          "name": "Expreso (Ciudad Victoria)"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:54:47.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:54:47.000Z"
+    },
+    {
+      "id": "yYP4okMZjTBB",
+      "representative": {
+        "id": "yYP4okMZjTBB",
+        "url": "https://expreso.press/2026/10/07/empujan-nueva-legalizacion-de-autos-chuecos/",
+        "canonicalUrl": "https://expreso.press/2026/10/07/empujan-nueva-legalizacion-de-autos-chuecos/",
+        "title": "“Empujan” nueva legalización de autos “chuecos”",
+        "description": "La ONAPAFA demanda un decreto para regularizar autos americanos en Tamaulipas, entregan al gobernador la solicitud para que gestione ese beneficio ante la federación",
+        "source": {
+          "id": "mx_tam_expreso",
+          "name": "Expreso (Ciudad Victoria)"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:50:43.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:50:43.000Z"
+    },
+    {
+      "id": "CK1ks215lhfi",
+      "representative": {
+        "id": "CK1ks215lhfi",
+        "url": "https://expreso.press/2026/10/07/refuerza-el-dif-prevencion-contra-cancer-de-mama/",
+        "canonicalUrl": "https://expreso.press/2026/10/07/refuerza-el-dif-prevencion-contra-cancer-de-mama/",
+        "title": "Refuerza el DIF prevención contra cáncer de mama",
+        "description": "El DIF Tamaulipas ofrece estudios gratuitos durante octubre para detectar oportunamente cáncer de mama y cervicouterino.",
+        "source": {
+          "id": "mx_tam_expreso",
+          "name": "Expreso (Ciudad Victoria)"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:47:17.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:47:17.000Z"
+    },
+    {
+      "id": "IWyBs8Txiq2X",
+      "representative": {
+        "id": "IWyBs8Txiq2X",
+        "url": "https://expreso.press/2026/10/07/escondian-combustible-en-productos-de-limpieza/",
+        "canonicalUrl": "https://expreso.press/2026/10/07/escondian-combustible-en-productos-de-limpieza/",
+        "title": "Escondían combustible en productos de limpieza",
+        "description": "Empowering People importó casi 142 millones de kilos de mercancías declaradas como productos químicos y de limpieza en solo cuatro meses",
+        "source": {
+          "id": "mx_tam_expreso",
+          "name": "Expreso (Ciudad Victoria)"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:43:46.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-TAM"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:43:46.000Z"
+    }
+  ]
+}

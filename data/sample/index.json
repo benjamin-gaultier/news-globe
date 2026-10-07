@@ -2043,6 +2043,540 @@
       "name": "Rio Grande do Sul",
       "updatedAt": "2026-10-07T15:31:44.023Z",
       "clusterCount": 15
+    },
+    {
+      "code": "MX-BCN",
+      "name": "Baja California",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-BCS",
+      "name": "Baja California Sur",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-SON",
+      "name": "Sonora",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-CHH",
+      "name": "Chihuahua",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-COA",
+      "name": "Coahuila",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-NLE",
+      "name": "Nuevo León",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-TAM",
+      "name": "Tamaulipas",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-SIN",
+      "name": "Sinaloa",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-DUR",
+      "name": "Durango",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-ZAC",
+      "name": "Zacatecas",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-SLP",
+      "name": "San Luis Potosí",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-AGU",
+      "name": "Aguascalientes",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-NAY",
+      "name": "Nayarit",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-JAL",
+      "name": "Jalisco",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-COL",
+      "name": "Colima",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-GUA",
+      "name": "Guanajuato",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-CMX",
+      "name": "Mexico City",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-MEX",
+      "name": "State of Mexico",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-QUE",
+      "name": "Querétaro",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-HID",
+      "name": "Hidalgo",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-MIC",
+      "name": "Michoacán",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-MOR",
+      "name": "Morelos",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-PUE",
+      "name": "Puebla",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-TLA",
+      "name": "Tlaxcala",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-GRO",
+      "name": "Guerrero",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-OAX",
+      "name": "Oaxaca",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-VER",
+      "name": "Veracruz",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-TAB",
+      "name": "Tabasco",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-CHP",
+      "name": "Chiapas",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-CAM",
+      "name": "Campeche",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 13
+    },
+    {
+      "code": "MX-YUC",
+      "name": "Yucatán",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "MX-ROO",
+      "name": "Quintana Roo",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-A",
+      "name": "Salta",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-B",
+      "name": "Buenos Aires Province",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-C",
+      "name": "Buenos Aires City",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-D",
+      "name": "San Luis",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-E",
+      "name": "Entre Ríos",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-F",
+      "name": "La Rioja",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-G",
+      "name": "Santiago del Estero",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-H",
+      "name": "Chaco",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-J",
+      "name": "San Juan",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-K",
+      "name": "Catamarca",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-L",
+      "name": "La Pampa",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-M",
+      "name": "Mendoza",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-N",
+      "name": "Misiones",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-P",
+      "name": "Formosa",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-Q",
+      "name": "Neuquén",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-R",
+      "name": "Río Negro",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-S",
+      "name": "Santa Fe",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-T",
+      "name": "Tucumán",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-U",
+      "name": "Chubut",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-V",
+      "name": "Tierra del Fuego",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-W",
+      "name": "Corrientes",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-X",
+      "name": "Córdoba",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-Y",
+      "name": "Jujuy",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AR-Z",
+      "name": "Santa Cruz",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-JK",
+      "name": "Jammu and Kashmir",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-LA",
+      "name": "Ladakh",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 6
+    },
+    {
+      "code": "IN-HP",
+      "name": "Himachal Pradesh",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 12
+    },
+    {
+      "code": "IN-PB",
+      "name": "Punjab",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-CH",
+      "name": "Chandigarh",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-HR",
+      "name": "Haryana",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-DL",
+      "name": "Delhi",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-UK",
+      "name": "Uttarakhand",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 11
+    },
+    {
+      "code": "IN-UP",
+      "name": "Uttar Pradesh",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-RJ",
+      "name": "Rajasthan",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-GJ",
+      "name": "Gujarat",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-MH",
+      "name": "Maharashtra",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-GA",
+      "name": "Goa",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-MP",
+      "name": "Madhya Pradesh",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-CG",
+      "name": "Chhattisgarh",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 12
+    },
+    {
+      "code": "IN-BR",
+      "name": "Bihar",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-JH",
+      "name": "Jharkhand",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-WB",
+      "name": "West Bengal",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-OD",
+      "name": "Odisha",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-AS",
+      "name": "Assam",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-AR",
+      "name": "Arunachal Pradesh",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-NL",
+      "name": "Nagaland",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-MN",
+      "name": "Manipur",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-MZ",
+      "name": "Mizoram",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 5
+    },
+    {
+      "code": "IN-TR",
+      "name": "Tripura",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 14
+    },
+    {
+      "code": "IN-ML",
+      "name": "Meghalaya",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-AP",
+      "name": "Andhra Pradesh",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-TS",
+      "name": "Telangana",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-KA",
+      "name": "Karnataka",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-KL",
+      "name": "Kerala",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-TN",
+      "name": "Tamil Nadu",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "IN-PY",
+      "name": "Puducherry",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 14
+    },
+    {
+      "code": "IN-AN",
+      "name": "Andaman and Nicobar Islands",
+      "updatedAt": "2026-10-07T16:47:49.768Z",
+      "clusterCount": 15
     }
   ]
 }

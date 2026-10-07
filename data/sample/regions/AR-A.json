@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "AR",
+  "countryName": "Argentina",
+  "regionCode": "AR-A",
+  "regionName": "Salta",
+  "updatedAt": "2026-10-07T16:47:49.768Z",
+  "clusters": [
+    {
+      "id": "DLvAm4mzY2gV",
+      "representative": {
+        "id": "DLvAm4mzY2gV",
+        "url": "https://fm899.com.ar/reportan-movimiento-de-gendarmeria-en-la-sede-de-la-policia-federal-por-presuntos-delitos/",
+        "canonicalUrl": "https://fm899.com.ar/reportan-movimiento-de-gendarmeria-en-la-sede-de-la-policia-federal-por-presuntos-delitos/",
+        "title": "Reportan movimiento de Gendarmería en la sede de la Policía Federal por presuntos delitos",
+        "description": "Fuentes que están en el lugar aseguran que se trata de un allanamiento por una supuesta denuncia por coimas en rutas. En la mañana de este miércoles hubo un fuerte movimiento de Gendarmería Nacional en la sede de la Policía Federal que está ubicado en calle Santiago del Estero al 900. En las…",
+        "source": {
+          "id": "ar_a_fm899",
+          "name": "FM 89.9 Salta"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T14:41:31.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [
+        {
+          "id": "t_7WHRp54bFC",
+          "url": "https://informatesalta.com.ar/policiales/gendarmeria-realiza-un-allanamiento-en-la-sede-de-la-policia-federal-en-salta_a6ac662fd902625d43514e895",
+          "canonicalUrl": "https://informatesalta.com.ar/policiales/gendarmeria-realiza-un-allanamiento-en-la-sede-de-la-policia-federal-en-salta_a6ac662fd902625d43514e895",
+          "title": "Gendarmería realiza un allanamiento en la sede de la Policía Federal en Salta",
+          "description": null,
+          "source": {
+            "id": "ar_a_informate",
+            "name": "Informate Salta"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-07T16:00:00.000Z",
+          "imageUrl": null,
+          "countryCode": "AR",
+          "regionCode": "AR-A"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T16:00:00.000Z"
+    },
+    {
+      "id": "lVFe2wx-nU5o",
+      "representative": {
+        "id": "lVFe2wx-nU5o",
+        "url": "https://informatesalta.com.ar/deportes/el-gol-de-lionel-messi-a-benin-en-su-despedida-de-la-seleccion_a6ac5a1ad6b27e8e08edb6de9",
+        "canonicalUrl": "https://informatesalta.com.ar/deportes/el-gol-de-lionel-messi-a-benin-en-su-despedida-de-la-seleccion_a6ac5a1ad6b27e8e08edb6de9",
+        "title": "El gol de Lionel Messi a Benín en su despedida de la Selección",
+        "description": null,
+        "source": {
+          "id": "ar_a_informate",
+          "name": "Informate Salta"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T01:23:47.431Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [
+        {
+          "id": "BK3vQkCxa6aj",
+          "url": "https://fm899.com.ar/alejandro-dominguez-le-dio-regalos-exclusivos-a-lionel-messi-y-antonella-roccuzzo/",
+          "canonicalUrl": "https://fm899.com.ar/alejandro-dominguez-le-dio-regalos-exclusivos-a-lionel-messi-y-antonella-roccuzzo/",
+          "title": "Alejandro Domínguez le dio regalos exclusivos a Lionel Messi por su despedida de la Selección",
+          "description": "El presidente le entregó al capitán argentino varios regalos y reconoció a Antonela Roccuzzo. En uno de los pasillos del Monumental, tras la despedida de Lionel Messi de la Selección argentina, la familia del capitán vivió un momento especial. El presidente de la Conmebol, Alejandro Domínguez, se…",
+          "source": {
+            "id": "ar_a_fm899",
+            "name": "FM 89.9 Salta"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-07T14:43:04.000Z",
+          "imageUrl": null,
+          "countryCode": "AR",
+          "regionCode": "AR-A"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T14:43:04.000Z"
+    },
+    {
+      "id": "HShnMLpK0F75",
+      "representative": {
+        "id": "HShnMLpK0F75",
+        "url": "https://www.eltribuno.com/salta/2026-10-6-14-2-0-karina-milei-y-santilli-inauguraron-una-nueva-planta-de-posco-en-salta",
+        "canonicalUrl": "https://www.eltribuno.com/salta/2026-10-6-14-2-0-karina-milei-y-santilli-inauguraron-una-nueva-planta-de-posco-en-salta",
+        "title": "Karina Milei y Santilli inauguraron una nueva planta de POSCO en el Salar del Hombre Muerto",
+        "description": "La Planta II de Sal de Oro, en el Salar del Hombre Muerto, producirá 23.000 toneladas anuales de carbonato de litio. Durante el acto se acordó avanzar con nuevas etapas para llevar la producción a 100.000 toneladas.",
+        "source": {
+          "id": "ar_a_eltribuno",
+          "name": "El Tribuno (Salta)"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T17:02:00.000Z",
+        "imageUrl": "https://uscdn.eltribuno.com/102026/1791307631571.jpg?cw=1170&ch=645",
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [
+        {
+          "id": "hi-61SVdldlR",
+          "url": "https://www.pagina12.com.ar/2026/10/07/karina-milei-y-santilli-bajaron-a-salta-con-un-gesto-para-saenz-y-jalil/",
+          "canonicalUrl": "https://www.pagina12.com.ar/2026/10/07/karina-milei-y-santilli-bajaron-a-salta-con-un-gesto-para-saenz-y-jalil/",
+          "title": "Karina Milei y Santilli bajaron a Salta con un gesto para Sáenz y Jalil",
+          "description": "La Casa Rosada busca asegurarse aliados para el Presupuesto 2027 y la reforma electoral. La visita de la hermana del Presidente y el jefe de Gabinete tuvo como escenario la inauguración de la nueva planta de litio de Posco. La ausencia de la senadora nacional Emilia Orozco, enfrentada con el…",
+          "source": {
+            "id": "ar_a_salta12",
+            "name": "Salta/12 (Página/12)"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-07T04:44:53.000Z",
+          "imageUrl": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/2222WKMBSFAQVMHBNA5CQJRD5I.webp?auth=02797ab551abb99754cbdad0adf28fb70fceadc85c9f0c0a18ef94116ae90614&smart=true&width=1066&height=600",
+          "countryCode": "AR",
+          "regionCode": "AR-A"
+        },
+        {
+          "id": "B2ORy_Ke8PJN",
+          "url": "https://informatesalta.com.ar/gobierno/karina-milei-y-santilli-llegan-a-salta-para-la-inauguracion-de-la-planta-2-de-posco_a6ac4cc166b27e8e08ea2022b",
+          "canonicalUrl": "https://informatesalta.com.ar/gobierno/karina-milei-y-santilli-llegan-a-salta-para-la-inauguracion-de-la-planta-2-de-posco_a6ac4cc166b27e8e08ea2022b",
+          "title": "Karina Milei y Santilli llegan a Salta para la inauguración de la Planta 2 de Posco",
+          "description": null,
+          "source": {
+            "id": "ar_a_informate",
+            "name": "Informate Salta"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-06T10:27:59.799Z",
+          "imageUrl": null,
+          "countryCode": "AR",
+          "regionCode": "AR-A"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T04:44:53.000Z"
+    },
+    {
+      "id": "Px8id9Ty39O2",
+      "representative": {
+        "id": "Px8id9Ty39O2",
+        "url": "https://www.eltribuno.com/salta/2026-10-6-20-35-0-salta-desembarca-en-rio-de-janeiro-y-prepara-la-llegada-del-vuelo-directo-de-gol-desde-brasil",
+        "canonicalUrl": "https://www.eltribuno.com/salta/2026-10-6-20-35-0-salta-desembarca-en-rio-de-janeiro-y-prepara-la-llegada-del-vuelo-directo-de-gol-desde-brasil",
+        "title": "Salta desembarca en Río de Janeiro y prepara la llegada del vuelo directo de GOL desde Brasil",
+        "description": "La provincia presentó su oferta turística en el Consulado General argentino en Río de Janeiro, en la antesala del inicio de la nueva conexión aérea de GOL. El vuelo tendrá dos frecuencias semanales y el servicio inaugural hacia Salta ya está casi completamente vendido a turistas brasileños.",
+        "source": {
+          "id": "ar_a_eltribuno",
+          "name": "El Tribuno (Salta)"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T23:35:00.000Z",
+        "imageUrl": "https://uscdn.eltribuno.com/102026/1791329816462.jpg?cw=1170&ch=645",
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [
+        {
+          "id": "Id4kZ0pbtuom",
+          "url": "https://informatesalta.com.ar/turismo/rio-de-janeiro--promocionaron-el-nuevo-vuelo-que-une-a-salta-con-el-destino-carioca-_a6ac568986b27e8e08ecd7e3f",
+          "canonicalUrl": "https://informatesalta.com.ar/turismo/rio-de-janeiro--promocionaron-el-nuevo-vuelo-que-une-a-salta-con-el-destino-carioca-_a6ac568986b27e8e08ecd7e3f",
+          "title": "Río de Janeiro: promocionaron el nuevo vuelo que une a Salta con el destino carioca",
+          "description": null,
+          "source": {
+            "id": "ar_a_informate",
+            "name": "Informate Salta"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-06T21:45:00.000Z",
+          "imageUrl": null,
+          "countryCode": "AR",
+          "regionCode": "AR-A"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T23:35:00.000Z"
+    },
+    {
+      "id": "Zgih-5dioNmA",
+      "representative": {
+        "id": "Zgih-5dioNmA",
+        "url": "https://www.eltribuno.com/salta/2026-10-6-15-49-0-agrotecnica-fueguina-seguira-a-cargo-de-la-higiene-urbana-por-cuatro-anos-mas",
+        "canonicalUrl": "https://www.eltribuno.com/salta/2026-10-6-15-49-0-agrotecnica-fueguina-seguira-a-cargo-de-la-higiene-urbana-por-cuatro-anos-mas",
+        "title": "Agrotécnica Fueguina seguirá a cargo de la higiene urbana por cuatro años más",
+        "description": "La Municipalidad de Salta acordó la continuidad del servicio. La nueva etapa ampliará la cobertura e incorporará contenedores, recolección diferenciada y nuevas prestaciones.",
+        "source": {
+          "id": "ar_a_eltribuno",
+          "name": "El Tribuno (Salta)"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T18:49:00.000Z",
+        "imageUrl": "https://uscdn.eltribuno.com/102026/1791312945595.jpg?cw=1170&ch=645",
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [
+        {
+          "id": "Uqxr5yzRDUzF",
+          "url": "https://informatesalta.com.ar/municipal/agrotecnica-fueguina-continuara-a-cargo-del-servicio-de-higiene-urbana-tras-un-acuerdo-con-la-municipalidad_a6ac539396b27e8e08ec07d26",
+          "canonicalUrl": "https://informatesalta.com.ar/municipal/agrotecnica-fueguina-continuara-a-cargo-del-servicio-de-higiene-urbana-tras-un-acuerdo-con-la-municipalidad_a6ac539396b27e8e08ec07d26",
+          "title": "Agrotécnica Fueguina continuará a cargo del servicio de higiene urbana tras un acuerdo con la Municipalidad",
+          "description": null,
+          "source": {
+            "id": "ar_a_informate",
+            "name": "Informate Salta"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-06T18:10:00.000Z",
+          "imageUrl": null,
+          "countryCode": "AR",
+          "regionCode": "AR-A"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T18:49:00.000Z"
+    },
+    {
+      "id": "M8ISvO_v2_VK",
+      "representative": {
+        "id": "M8ISvO_v2_VK",
+        "url": "https://fm899.com.ar/directivos-de-una-escuela-saltena-preocupados-por-el-merodeo-de-personas-en-situacion-de-calle/",
+        "canonicalUrl": "https://fm899.com.ar/directivos-de-una-escuela-saltena-preocupados-por-el-merodeo-de-personas-en-situacion-de-calle/",
+        "title": "Directivos de una escuela salteña preocupados por el merodeo de personas sospechosas",
+        "description": "Desde la Técnica 3107 “Juana Azurduy de Padilla” manifestaron su preocupación ante el reciente asalto a un menor de 15 años a metros del establecimiento. En los últimos días por las redes sociales se pudo ver cómo un menor era asaltado por un adulto que encapuchado y amenazándolo logró apoderarse…",
+        "source": {
+          "id": "ar_a_fm899",
+          "name": "FM 89.9 Salta"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:46:51.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:46:51.000Z"
+    },
+    {
+      "id": "KKQgkT-oVVWM",
+      "representative": {
+        "id": "KKQgkT-oVVWM",
+        "url": "https://fm899.com.ar/este-jueves-se-realizara-un-nuevo-descacharrado-en-barrio-ciudad-del-milagro/",
+        "canonicalUrl": "https://fm899.com.ar/este-jueves-se-realizara-un-nuevo-descacharrado-en-barrio-ciudad-del-milagro/",
+        "title": "Este jueves se realizará un nuevo descacharrado en barrio Ciudad del Milagro",
+        "description": "Será de 8 a 12 en el cuadrante comprendido por: Av. Héroes de la Patria, 17 de Junio, De la Libertad y Ejército Argentino. Los vecinos deberán sacar a la vereda los elementos en desuso que puedan acumular agua. La Municipalidad de Salta realizará un nuevo operativo de descacharrado, en esta…",
+        "source": {
+          "id": "ar_a_fm899",
+          "name": "FM 89.9 Salta"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:45:44.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:45:44.000Z"
+    },
+    {
+      "id": "jWLcc1Ij107l",
+      "representative": {
+        "id": "jWLcc1Ij107l",
+        "url": "https://fm899.com.ar/caso-andis-las-empresas-se-quedaron-con-el-40-de-los-pagos-por-medicamentos-e-insumos/",
+        "canonicalUrl": "https://fm899.com.ar/caso-andis-las-empresas-se-quedaron-con-el-40-de-los-pagos-por-medicamentos-e-insumos/",
+        "title": "Caso Andis: las empresas se quedaron con el 40% de los pagos por medicamentos e insumos",
+        "description": "La auditoría y dos informes oficiales revelaron que las empresas involucradas recibieron $192.000 millones. Avanza la investigación por una presunta asociación ilícita durante la gestión de Diego Spagnuolo. El 40% de los pagos que la disuelta Agencia Nacional de Discapacidad (Andis) realizó para…",
+        "source": {
+          "id": "ar_a_fm899",
+          "name": "FM 89.9 Salta"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:33:24.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:33:24.000Z"
+    },
+    {
+      "id": "MlALZXXBTEOf",
+      "representative": {
+        "id": "MlALZXXBTEOf",
+        "url": "https://informatesalta.com.ar/sociedad/a-un-ano-de-la-muerte-de-vicente-cordeyro--convocan-a-una-misa-y-marcha-del-silencio_a6ac64c8e902625d4350ec4fc",
+        "canonicalUrl": "https://informatesalta.com.ar/sociedad/a-un-ano-de-la-muerte-de-vicente-cordeyro--convocan-a-una-misa-y-marcha-del-silencio_a6ac64c8e902625d4350ec4fc",
+        "title": "A un año de la muerte de Vicente Cordeyro, convocan a una misa y marcha del silencio",
+        "description": null,
+        "source": {
+          "id": "ar_a_informate",
+          "name": "Informate Salta"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:30:00.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:30:00.000Z"
+    },
+    {
+      "id": "LS9jemWd9bDQ",
+      "representative": {
+        "id": "LS9jemWd9bDQ",
+        "url": "https://informatesalta.com.ar/sociedad/violencia-en-la-balcarce--una-pelea-termino-con-sangre-y-danos-en-una-vivienda_a6ac64172902625d4350baead",
+        "canonicalUrl": "https://informatesalta.com.ar/sociedad/violencia-en-la-balcarce--una-pelea-termino-con-sangre-y-danos-en-una-vivienda_a6ac64172902625d4350baead",
+        "title": "Violencia en La Balcarce: una pelea terminó con sangre y daños en una vivienda",
+        "description": null,
+        "source": {
+          "id": "ar_a_informate",
+          "name": "Informate Salta"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:00:00.000Z"
+    },
+    {
+      "id": "TIsBF5-UQ1fm",
+      "representative": {
+        "id": "TIsBF5-UQ1fm",
+        "url": "https://informatesalta.com.ar/deportes/gimnasia-y-tiro--con-tres-bajas-para-visitar-al-lobo-en-un-partido-clave_a6ac65448902625d43510c66f",
+        "canonicalUrl": "https://informatesalta.com.ar/deportes/gimnasia-y-tiro--con-tres-bajas-para-visitar-al-lobo-en-un-partido-clave_a6ac65448902625d43510c66f",
+        "title": "Gimnasia y Tiro, con tres bajas para visitar al Lobo en un partido clave",
+        "description": null,
+        "source": {
+          "id": "ar_a_informate",
+          "name": "Informate Salta"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T14:45:00.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:45:00.000Z"
+    },
+    {
+      "id": "7TvUwsFG82rc",
+      "representative": {
+        "id": "7TvUwsFG82rc",
+        "url": "https://www.eltribuno.com/salta/2026-10-7-10-47-0-un-sismo-de-magnitud-4-3-sacudio-los-valles-calchaquies-y-se-sintio-en-tres-provincias",
+        "canonicalUrl": "https://www.eltribuno.com/salta/2026-10-7-10-47-0-un-sismo-de-magnitud-4-3-sacudio-los-valles-calchaquies-y-se-sintio-en-tres-provincias",
+        "title": "Un sismo de magnitud 4,3 sacudió los Valles Calchaquíes y se sintió en tres provincias",
+        "description": "El epicentro tuvo una profundidad de apenas 5 kilómetros. Fue percibido en localidades de Salta, Catamarca y Tucumán, con mayor intensidad en la zona de Tacuil.",
+        "source": {
+          "id": "ar_a_eltribuno",
+          "name": "El Tribuno (Salta)"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:47:00.000Z",
+        "imageUrl": "https://uscdn.eltribuno.com/102026/1791381193865.jpg?cw=1170&ch=645",
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:47:00.000Z"
+    },
+    {
+      "id": "o98rTMrNheaw",
+      "representative": {
+        "id": "o98rTMrNheaw",
+        "url": "https://www.eltribuno.com/municipios/2026-10-7-10-14-0-justina-lopez-95-anos-de-caminos-por-los-valles-calchaquies",
+        "canonicalUrl": "https://www.eltribuno.com/municipios/2026-10-7-10-14-0-justina-lopez-95-anos-de-caminos-por-los-valles-calchaquies",
+        "title": "Justina López, 95 años de caminos por los Valles Calchaquíes",
+        "description": "Nació en los cerros y durante décadas recorrió a pie los caminos que unen San Carlos con San Lucas. La mujer es reconocida por la comunidad indígena Cóndor Huasi, del pueblo Diaguita, como una mujer que guarda en su propia historia parte de la memoria, los saberes y la relación con el territorio…",
+        "source": {
+          "id": "ar_a_eltribuno",
+          "name": "El Tribuno (Salta)"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:14:00.000Z",
+        "imageUrl": "https://uscdn.eltribuno.com/102026/1791379197478.jpg?cw=1170&ch=645",
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:14:00.000Z"
+    },
+    {
+      "id": "xrLOLc-tQ53D",
+      "representative": {
+        "id": "xrLOLc-tQ53D",
+        "url": "https://www.eltribuno.com/policiales/2026-10-7-8-26-0-varios-heridos-tras-un-quintuple-choque-en-avenida-asuncion",
+        "canonicalUrl": "https://www.eltribuno.com/policiales/2026-10-7-8-26-0-varios-heridos-tras-un-quintuple-choque-en-avenida-asuncion",
+        "title": "Varios heridos tras un quíntuple choque en avenida Asunción",
+        "description": "El siniestro ocurrió en avenida Asunción y Delgadillo, en la zona de ingreso a barrio Autódromo. Chocaron un camión, tres autos y una motocicleta.",
+        "source": {
+          "id": "ar_a_eltribuno",
+          "name": "El Tribuno (Salta)"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T11:26:00.000Z",
+        "imageUrl": "https://uscdn.eltribuno.com/102026/1791381415020.jpg?cw=1170&ch=645",
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:26:00.000Z"
+    },
+    {
+      "id": "ucFB7pXDJ9an",
+      "representative": {
+        "id": "ucFB7pXDJ9an",
+        "url": "https://www.pagina12.com.ar/2026/10/07/documentan-la-destruccion-del-monte-nativo-con-cadenas/",
+        "canonicalUrl": "https://www.pagina12.com.ar/2026/10/07/documentan-la-destruccion-del-monte-nativo-con-cadenas/",
+        "title": "Documentan la destrucción del monte nativo con cadenas",
+        "description": "Comunidades indígenas protegen sus cementerios del paso de las topadoras que arrastran cadenas de grandes dimensiones con las que arrollan todo a su paso.",
+        "source": {
+          "id": "ar_a_salta12",
+          "name": "Salta/12 (Página/12)"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T04:44:44.000Z",
+        "imageUrl": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/V277SE32LBESDKACE2OWVP6ABM.jpg?auth=f32c5d2c916484eb700964e03fc3f77f795d786319bbb6496a2b3ad3cdfc5341&smart=true&width=1000&height=666",
+        "countryCode": "AR",
+        "regionCode": "AR-A"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:44:44.000Z"
+    }
+  ]
+}

@@ -7,6 +7,11 @@ import { CA_PROVINCES } from './sources/ca-provinces';
 import { AU_STATES } from './sources/au-states';
 import { BR_STATES_NORTH } from './sources/br-states-north';
 import { BR_STATES_SOUTH } from './sources/br-states-south';
+import { MX_STATES_NORTH } from './sources/mx-states-north';
+import { MX_STATES_SOUTH } from './sources/mx-states-south';
+import { AR_PROVINCES } from './sources/ar-provinces';
+import { IN_STATES_NORTH } from './sources/in-states-north';
+import { IN_STATES_SOUTH } from './sources/in-states-south';
 import { US_STATES_MIDWEST } from './sources/us-states-midwest';
 import { US_STATES_NORTHEAST } from './sources/us-states-northeast';
 import { US_STATES_SOUTH } from './sources/us-states-south';
@@ -8495,6 +8500,11 @@ export const SOURCES: SourceConfig[] = [
   ...AU_STATES,
   ...BR_STATES_NORTH,
   ...BR_STATES_SOUTH,
+  ...MX_STATES_NORTH,
+  ...MX_STATES_SOUTH,
+  ...AR_PROVINCES,
+  ...IN_STATES_NORTH,
+  ...IN_STATES_SOUTH,
 ];
 
 export const INGEST_SETTINGS = {

@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "MX",
+  "countryName": "Mexico",
+  "regionCode": "MX-JAL",
+  "regionName": "Jalisco",
+  "updatedAt": "2026-10-07T16:47:49.768Z",
+  "clusters": [
+    {
+      "id": "nbDOvx0qUcsH",
+      "representative": {
+        "id": "nbDOvx0qUcsH",
+        "url": "https://www.informador.mx/jalisco/siapa-en-guadalajara-jalisco-lemus-anuncia-cortes-de-agua-por-seis-meses-20261006-0158.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/siapa-en-guadalajara-jalisco-lemus-anuncia-cortes-de-agua-por-seis-meses-20261006-0158.html",
+        "title": "Lemus anuncia rotación de servicio con cortes de agua en la ZMG por seis meses",
+        "description": "Pablo Lemus anunció rotación del servicio de agua durante seis meses en Guadalajara para mejorar la calidad del suministro mientras avanzan nuevas obras",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T23:20:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [
+        {
+          "id": "myFD6bglpMru",
+          "url": "https://concienciapublica.com.mx/2026/10/07/lemus-reconoce-el-colapso-del-agua-y-abre-seis-meses-de-tandeos/",
+          "canonicalUrl": "https://concienciapublica.com.mx/2026/10/07/lemus-reconoce-el-colapso-del-agua-y-abre-seis-meses-de-tandeos/",
+          "title": "Lemus reconoce el colapso del agua y abre seis meses de tandeos",
+          "description": "Los Juegos del Poder, por Gabriel Ibarra Bourjac: La crisis del agua en la Zona Metropolitana de Guadalajara (ZMG) ha dejado de ser un problema técnico para convertirse en el desafío político más complejo de las últimas cuatro décadas. Tras meses de incertidumbre, suministro de agua fétida y una…",
+          "source": {
+            "id": "mx_jal_concienciapublica",
+            "name": "Conciencia Pública"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T14:01:10.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        },
+        {
+          "id": "2hHVYb-GfDO-",
+          "url": "https://www.notisistema.com/noticias/implementaran-rotacion-del-servicio-del-agua-en-zmg-durante-seis-meses-lemus/",
+          "canonicalUrl": "https://www.notisistema.com/noticias/implementaran-rotacion-del-servicio-del-agua-en-zmg-durante-seis-meses-lemus/",
+          "title": "Implementarán rotación del servicio del agua en ZMG por seis meses: Lemus",
+          "description": "La Zona Metropolitana de Guadalajara tendrá un esquema de rotación en el suministro de agua durante aproximadamente seis meses para enfrentar los problemas de calidad registrados en distintas zonas, informa el gobernador Pablo Lemus. La medida permitirá reducir temporalmente el uso de... Nota…",
+          "source": {
+            "id": "mx_jal_notisistema",
+            "name": "Notisistema"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T23:57:07.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        },
+        {
+          "id": "Hb-pdJaNLlBr",
+          "url": "https://oem.com.mx/eloccidental/local/anuncia-gobernador-rotacion-del-servicio-de-agua-potable-por-seis-meses-32468084",
+          "canonicalUrl": "https://oem.com.mx/eloccidental/local/anuncia-gobernador-rotacion-del-servicio-de-agua-potable-por-seis-meses-32468084",
+          "title": "Anuncia gobernador rotación del servicio de agua potable por seis meses",
+          "description": "Las obras permitirán dejar de usar el agua de la presa Las Pintas cuando no sea de buena calidad, según el mandatario",
+          "source": {
+            "id": "mx_jal_oem",
+            "name": "El Occidental"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T18:39:43.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-07T14:01:10.000Z"
+    },
+    {
+      "id": "AWd4XOBcsHXg",
+      "representative": {
+        "id": "AWd4XOBcsHXg",
+        "url": "https://www.informador.mx/jalisco/cortes-de-agua-del-siapa-cuanto-tiempo-duraran-y-como-seran-los-tandeos-en-la-zmg-mientras-mejoran-la-calidad-del-liquido-20261006-0179.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/cortes-de-agua-del-siapa-cuanto-tiempo-duraran-y-como-seran-los-tandeos-en-la-zmg-mientras-mejoran-la-calidad-del-liquido-20261006-0179.html",
+        "title": "¿Cuánto tiempo durarán los tandeos en la ZMG, mientras mejoran la calidad del agua?",
+        "description": "Se descartó que estas acciones a corto, mediano y largo plazo no representen un incremento en las tarifas del SIAPA",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T01:19:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [
+        {
+          "id": "LCWoQSLPyv2x",
+          "url": "https://www.notisistema.com/noticias/tandeos-de-agua-podrian-afectar-a-950-mil-habitantes-de-la-zmg/",
+          "canonicalUrl": "https://www.notisistema.com/noticias/tandeos-de-agua-podrian-afectar-a-950-mil-habitantes-de-la-zmg/",
+          "title": "Tandeos de agua podrían afectar a 950 mil habitantes de la ZMG",
+          "description": "Hasta 950 mil habitantes de la Zona Metropolitana de Guadalajara podrían verse afectados por los tandeos de agua previstos durante los próximos seis meses, estimaron especialistas. La medida responde a la suspensión temporal del Sistema Antiguo de Abasto Chapala-Guadalajara, debido a problemas…",
+          "source": {
+            "id": "mx_jal_notisistema",
+            "name": "Notisistema"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T13:51:16.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        },
+        {
+          "id": "_id0Sx_MFp8V",
+          "url": "https://www.mural.com.mx/decretan-tandeos-por-agua-sucia-en-la-zmg/ar3289744",
+          "canonicalUrl": "https://www.mural.com.mx/decretan-tandeos-por-agua-sucia-en-la-zmg/ar3289744",
+          "title": "Decretan tandeos por agua sucia en la ZMG",
+          "description": "El Gobernador Pablo Lemus anunció que dejará de utilizarse agua de la Presa Las Pintas y se aplicará un esquema de rotación del servicio.",
+          "source": {
+            "id": "mx_jal_mural",
+            "name": "Mural"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T11:00:42.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T13:51:16.000Z"
+    },
+    {
+      "id": "EynlTUJlIVzc",
+      "representative": {
+        "id": "EynlTUJlIVzc",
+        "url": "https://www.informador.mx/jalisco/pide-coparmex-jalisco-certeza-ante-tandeos-de-agua-20261007-0070.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/pide-coparmex-jalisco-certeza-ante-tandeos-de-agua-20261007-0070.html",
+        "title": "Pide Coparmex Jalisco certeza ante tandeos de agua",
+        "description": "Consideran necesario establecer protocolos para actividades esenciales y mecanismos de atención a las MiPyMEs",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:59:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [
+        {
+          "id": "1t5GruCusrLD",
+          "url": "https://www.notisistema.com/noticias/coparmex-jalisco-pide-certeza-sobre-el-esquema-de-tandeos-de-agua-en-la-zona-metropolitana/",
+          "canonicalUrl": "https://www.notisistema.com/noticias/coparmex-jalisco-pide-certeza-sobre-el-esquema-de-tandeos-de-agua-en-la-zona-metropolitana/",
+          "title": "Coparmex Jalisco pide certeza sobre el esquema de tandeos de agua en la zona metropolitana",
+          "description": "Coparmex Jalisco pidió certeza sobre el esquema de rotación en el suministro de agua que podría extenderse durante 6 meses en la Zona Metropolitana de Guadalajara. Su presidente, Luis Beas, señaló que familias y empresas necesitan información anticipada sobre las zonas afectadas,... Nota completa »",
+          "source": {
+            "id": "mx_jal_notisistema",
+            "name": "Notisistema"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T16:12:15.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T16:12:15.000Z"
+    },
+    {
+      "id": "Lpx0McE_SpaK",
+      "representative": {
+        "id": "Lpx0McE_SpaK",
+        "url": "https://www.informador.mx/jalisco/chapala-asi-se-distribuye-el-abastecimiento-de-agua-a-guadalajara-20261006-0196.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/chapala-asi-se-distribuye-el-abastecimiento-de-agua-a-guadalajara-20261006-0196.html",
+        "title": "Así se distribuye el abastecimiento de agua a Guadalajara",
+        "description": "Esta es la aportación de las fuentes de abasto para la Zona Metropolitana de Guadalajara",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T02:52:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [
+        {
+          "id": "Bhq6xEP6MSPN",
+          "url": "https://www.notisistema.com/noticias/diputada-insiste-en-alerta-sanitaria-por-mala-calidad-del-agua/",
+          "canonicalUrl": "https://www.notisistema.com/noticias/diputada-insiste-en-alerta-sanitaria-por-mala-calidad-del-agua/",
+          "title": "Diputada insiste en alerta sanitaria por mala calidad del agua",
+          "description": "La diputada local Valeria Ávila reiteró su propuesta para emitir una alerta sanitaria en Jalisco por la mala calidad del agua suministrada por el SIAPA en distintas colonias de la Zona Metropolitana de Guadalajara. La legisladora señaló que la medida permitiría informar... Nota completa »",
+          "source": {
+            "id": "mx_jal_notisistema",
+            "name": "Notisistema"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T13:23:35.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        },
+        {
+          "id": "RuPKuZ9-kMi6",
+          "url": "https://oem.com.mx/eloccidental/analisis/agua-contaminada-en-guadalajara-32465355",
+          "canonicalUrl": "https://oem.com.mx/eloccidental/analisis/agua-contaminada-en-guadalajara-32465355",
+          "title": "Agua contaminada en Guadalajara",
+          "description": null,
+          "source": {
+            "id": "mx_jal_oem",
+            "name": "El Occidental"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T16:11:41.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T16:02:00.000Z"
+    },
+    {
+      "id": "0_K0KawAa1fZ",
+      "representative": {
+        "id": "0_K0KawAa1fZ",
+        "url": "https://oem.com.mx/eloccidental/local/fiestas-de-octubre-stands-de-gobierno-ofrecen-tramites-vacunacion-y-orientacion-juridica-32477180",
+        "canonicalUrl": "https://oem.com.mx/eloccidental/local/fiestas-de-octubre-stands-de-gobierno-ofrecen-tramites-vacunacion-y-orientacion-juridica-32477180",
+        "title": "Fiestas de Octubre: stands de gobierno ofrecen trámites, vacunación y orientación jurídica",
+        "description": "Dependencias estatales, federales y municipales participan con módulos de salud, trámites, justicia, movilidad y artesanías, bajo el lema “Gobierno, más cerca de ti”",
+        "source": {
+          "id": "mx_jal_oem",
+          "name": "El Occidental"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T09:29:22.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [
+        {
+          "id": "4zJAFRBd4lLV",
+          "url": "https://www.notisistema.com/noticias/fiestas-de-octubre-ofrecen-tramites-servicios-de-salud-y-orientacion-juridica/",
+          "canonicalUrl": "https://www.notisistema.com/noticias/fiestas-de-octubre-ofrecen-tramites-servicios-de-salud-y-orientacion-juridica/",
+          "title": "Fiestas de Octubre ofrecen trámites, servicios de salud y orientación jurídica",
+          "description": "Dependencias estatales y federales instalaron módulos de atención en las Fiestas de Octubre 2026 para acercar trámites y servicios a los visitantes. Entre las opciones disponibles están el refrendo vehicular, la renovación de licencias, la expedición de actas del Registro Civil, la... Nota…",
+          "source": {
+            "id": "mx_jal_notisistema",
+            "name": "Notisistema"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T14:56:52.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T14:56:52.000Z"
+    },
+    {
+      "id": "oz-HOQzcw4Rk",
+      "representative": {
+        "id": "oz-HOQzcw4Rk",
+        "url": "https://www.informador.mx/jalisco/trabajador-muere-electrocutado-en-guadalajara-20261007-0045.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/trabajador-muere-electrocutado-en-guadalajara-20261007-0045.html",
+        "title": "Trabajador muere electrocutado en Guadalajara",
+        "description": "Se requirió de una unidad especializada de rescate urbano para lo cual, el personal de emergencias llevó a cabo técnicas de rescate vertical urbano para poder hacer la evacuación del cuerpo del hombre",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:57:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [
+        {
+          "id": "Na_cnVuuyz33",
+          "url": "https://www.notisistema.com/noticias/muere-trabajador-electrocutado-mientras-pintaba-una-finca-en-guadalajara/",
+          "canonicalUrl": "https://www.notisistema.com/noticias/muere-trabajador-electrocutado-mientras-pintaba-una-finca-en-guadalajara/",
+          "title": "Muere trabajador electrocutado mientras pintaba una finca en Guadalajara",
+          "description": "Un trabajador de la construcción murió este martes tras recibir una descarga eléctrica mientras realizaba labores de pintura en una finca de la colonia Villa Hermosa, en Guadalajara. El accidente ocurrió en el tercer piso de una vivienda ubicada en Tomás del... Nota completa »",
+          "source": {
+            "id": "mx_jal_notisistema",
+            "name": "Notisistema"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T13:25:02.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:57:00.000Z"
+    },
+    {
+      "id": "B1EgcNG4Fjic",
+      "representative": {
+        "id": "B1EgcNG4Fjic",
+        "url": "https://oem.com.mx/eloccidental/local/mas-de-285-parejas-formalizan-su-union-en-el-salto-32477507",
+        "canonicalUrl": "https://oem.com.mx/eloccidental/local/mas-de-285-parejas-formalizan-su-union-en-el-salto-32477507",
+        "title": "Más de 285 parejas formalizan su unión en El Salto",
+        "description": "El Gobierno de El Salto informó que continuará con acciones encaminadas a facilitar el acceso de la población a trámites y servicios",
+        "source": {
+          "id": "mx_jal_oem",
+          "name": "El Occidental"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T09:40:01.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [
+        {
+          "id": "erJeEfSTiP-f",
+          "url": "https://www.notisistema.com/noticias/285-parejas-contraen-matrimonio-civil-en-ceremonia-colectiva-de-el-salto/",
+          "canonicalUrl": "https://www.notisistema.com/noticias/285-parejas-contraen-matrimonio-civil-en-ceremonia-colectiva-de-el-salto/",
+          "title": "285 parejas contraen matrimonio civil en ceremonia colectiva de El Salto",
+          "description": "Un total de doscientas ochenta y cinco parejas contrajeron matrimonio civil durante una ceremonia colectiva realizada en el Domo de Las Pintas, en el municipio de El Salto. El acto reunió a más de novecientos familiares, amigos y testigos, y permitió a... Nota completa »",
+          "source": {
+            "id": "mx_jal_notisistema",
+            "name": "Notisistema"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T13:05:00.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:05:00.000Z"
+    },
+    {
+      "id": "t22-HX5gCdYO",
+      "representative": {
+        "id": "t22-HX5gCdYO",
+        "url": "https://www.informador.mx/jalisco/reconocen-a-asociaciones-civiles-y-benefactores-sociales-en-la-quinta-edicion-del-premio-a-la-generosidad-20261006-0203.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/reconocen-a-asociaciones-civiles-y-benefactores-sociales-en-la-quinta-edicion-del-premio-a-la-generosidad-20261006-0203.html",
+        "title": "Premio a la Generosidad 2026 reconoce a asociaciones civiles y benefactores sociales",
+        "description": "La ceremonia del Banco de Alimentos de Guadalajara destacó su trabajo en favor de personas con enfermedades y familias que requieren apoyo",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T03:30:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [
+        {
+          "id": "TVvNGP8TmAoT",
+          "url": "https://oem.com.mx/eloccidental/local/durante-el-premio-a-la-generosidad-el-gobernador-lemus-anuncio-mas-apoyos-a-asociaciones-civiles-32472586",
+          "canonicalUrl": "https://oem.com.mx/eloccidental/local/durante-el-premio-a-la-generosidad-el-gobernador-lemus-anuncio-mas-apoyos-a-asociaciones-civiles-32472586",
+          "title": "Durante el Premio a la Generosidad el gobernador Lemus anunció más apoyos a asociaciones civiles",
+          "description": "Dijo que el apoyo que dan las asociaciones civiles es fundamental para el Gobierno y dijo que los ingresos de los depósitos vehiculares serán distribuidos entre las asociaciones legalmente constituidas",
+          "source": {
+            "id": "mx_jal_oem",
+            "name": "El Occidental"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T23:35:45.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T03:30:00.000Z"
+    },
+    {
+      "id": "tGLvvgAxpqZS",
+      "representative": {
+        "id": "tGLvvgAxpqZS",
+        "url": "https://www.informador.mx/jalisco/mery-pozos-exige-declarar-crisis-sanitaria-por-agua-turbia-20261006-0193.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/mery-pozos-exige-declarar-crisis-sanitaria-por-agua-turbia-20261006-0193.html",
+        "title": "Mery Pozos exige declarar crisis sanitaria por agua turbia",
+        "description": "La diputada por Morena afirmó que su equipo en jurídico ya trabaja en el acompañamiento a las personas afectadas",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T02:39:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [
+        {
+          "id": "YPVgBlP9LKT0",
+          "url": "https://concienciapublica.com.mx/2026/10/06/mery-gomez-pozos-exige-declarar-crisis-sanitaria-por-problemas-con-el-agua-en-la-zmg/",
+          "canonicalUrl": "https://concienciapublica.com.mx/2026/10/06/mery-gomez-pozos-exige-declarar-crisis-sanitaria-por-problemas-con-el-agua-en-la-zmg/",
+          "title": "Mery Gómez Pozos exige declarar crisis sanitaria por problemas con el agua en la ZMG",
+          "description": "Por Redacción Conciencia Pública: La diputada federal de Morena, Mery Gómez Pozos, exigió al Gobierno de Jalisco declarar una crisis sanitaria ante los problemas de calidad del agua que, denunció, enfrentan desde hace meses habitantes de distintas colonias de la Zona Metropolitana de Guadalajara…",
+          "source": {
+            "id": "mx_jal_concienciapublica",
+            "name": "Conciencia Pública"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T01:54:23.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T02:39:00.000Z"
+    },
+    {
+      "id": "KJP2KjZ-ISO4",
+      "representative": {
+        "id": "KJP2KjZ-ISO4",
+        "url": "https://www.informador.mx/jalisco/beca-rita-cetina-inician-en-jalisco-asambleas-informativas-e-inscripciones-20261006-0102.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/beca-rita-cetina-inician-en-jalisco-asambleas-informativas-e-inscripciones-20261006-0102.html",
+        "title": "Inician en Jalisco asambleas informativas e inscripciones a la Beca Rita Cetina",
+        "description": "En estos encuentros, madres, padres, tutoras y tutores recibirán orientación sobre la beca, los requisitos y el procedimiento que deberán seguir para solicitar el apoyo",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T19:01:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [
+        {
+          "id": "a_6aZi87Ie3S",
+          "url": "https://www.notisistema.com/noticias/inician-asambleas-informativas-sobre-beca-rita-cetina-en-jalisco/",
+          "canonicalUrl": "https://www.notisistema.com/noticias/inician-asambleas-informativas-sobre-beca-rita-cetina-en-jalisco/",
+          "title": "Inician asambleas informativas sobre Beca Rita Cetina en Jalisco",
+          "description": "La Oficina de Representación de Becas para el Bienestar en Jalisco inició las asambleas informativas en escuelas del estado para orientar a padres de familia sobre la incorporación de estudiantes de primaria y secundaria a la Beca Rita Cetina. El titular de... Nota completa »",
+          "source": {
+            "id": "mx_jal_notisistema",
+            "name": "Notisistema"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T23:15:35.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-JAL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T23:15:35.000Z"
+    },
+    {
+      "id": "EenjaW5ZFr6y",
+      "representative": {
+        "id": "EenjaW5ZFr6y",
+        "url": "https://www.informador.mx/jalisco/chapala-aporta-6-de-cada-10-litros-asi-se-distribuye-el-agua-en-guadalajara-ante-la-rotacion-por-el-cierre-del-sistema-antiguo-20261007-0073.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/chapala-aporta-6-de-cada-10-litros-asi-se-distribuye-el-agua-en-guadalajara-ante-la-rotacion-por-el-cierre-del-sistema-antiguo-20261007-0073.html",
+        "title": "Chapala aporta 6 de cada 10 litros; así se distribuye el agua en Guadalajara",
+        "description": "El Gobierno de Jalisco implementará un sistema de rotación del suministro durante medio año para suspender el uso del Sistema Antiguo de Chapala tras detectar severa contaminación por descargas irregulares",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:17:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:17:00.000Z"
+    },
+    {
+      "id": "pIOcnDiWFSck",
+      "representative": {
+        "id": "pIOcnDiWFSck",
+        "url": "https://www.informador.mx/jalisco/zapopan-asi-puedes-esterilizar-a-tu-mascota-gratis-en-valle-de-los-molinos-20261007-0069.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/zapopan-asi-puedes-esterilizar-a-tu-mascota-gratis-en-valle-de-los-molinos-20261007-0069.html",
+        "title": "Así puedes esterilizar a tu mascota GRATIS en Valle de los Molinos",
+        "description": "¡Toma nota! La campaña es el próximo 10 de octubre; te contamos como puedes agendar una cita",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:12:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:12:00.000Z"
+    },
+    {
+      "id": "nW1aDz7PfHOW",
+      "representative": {
+        "id": "nW1aDz7PfHOW",
+        "url": "https://www.mural.com.mx/ip-pide-informacion-sobre-cortes-de-agua-en-zmg/ar3289885",
+        "canonicalUrl": "https://www.mural.com.mx/ip-pide-informacion-sobre-cortes-de-agua-en-zmg/ar3289885",
+        "title": "IP pide información sobre cortes de agua en ZMG",
+        "description": "Tras el anuncio de tandeos de agua en la ZMG por la crisis hídrica, la IP pide que se anticipe zonas afectadas, duración de la medida y más.",
+        "source": {
+          "id": "mx_jal_mural",
+          "name": "Mural"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:52:55.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:52:55.000Z"
+    },
+    {
+      "id": "2mdYd-TIf7YN",
+      "representative": {
+        "id": "2mdYd-TIf7YN",
+        "url": "https://www.informador.mx/jalisco/cine-al-aire-libre-en-guadalajara-cartelera-gratuita-del-7-al-11-de-octubre-20261007-0063.html",
+        "canonicalUrl": "https://www.informador.mx/jalisco/cine-al-aire-libre-en-guadalajara-cartelera-gratuita-del-7-al-11-de-octubre-20261007-0063.html",
+        "title": "Cine al aire libre en Guadalajara: Cartelera gratuita del 7 al 11 de octubre",
+        "description": "Disfruta de una experiencia diferente con las proyecciones gratuitas que Cinema Live trae a los parques de la Zona Metropolitana de Guadalajara esta semana",
+        "source": {
+          "id": "mx_jal_informador",
+          "name": "El Informador"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:16:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:16:00.000Z"
+    },
+    {
+      "id": "eY5UL4SAzNNe",
+      "representative": {
+        "id": "eY5UL4SAzNNe",
+        "url": "https://www.notisistema.com/noticias/persecucion-en-tlaquepaque-termina-con-detenido-por-robo-de-vehiculo/",
+        "canonicalUrl": "https://www.notisistema.com/noticias/persecucion-en-tlaquepaque-termina-con-detenido-por-robo-de-vehiculo/",
+        "title": "Persecución en Tlaquepaque termina con detenido por robo de vehículo",
+        "description": "Una persecución registrada la madrugada de este miércoles en San Pedro Tlaquepaque terminó con la detención de un hombre señalado por el robo con violencia de un vehículo de plataforma. El hecho comenzó en Colón y Periférico, en Santa María Tequepexpan, donde... Nota completa »",
+        "source": {
+          "id": "mx_jal_notisistema",
+          "name": "Notisistema"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:39:39.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-JAL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:39:39.000Z"
+    }
+  ]
+}

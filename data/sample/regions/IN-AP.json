@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "IN",
+  "countryName": "India",
+  "regionCode": "IN-AP",
+  "regionName": "Andhra Pradesh",
+  "updatedAt": "2026-10-07T16:47:49.768Z",
+  "clusters": [
+    {
+      "id": "Q_jWk4OUcXvC",
+      "representative": {
+        "id": "Q_jWk4OUcXvC",
+        "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/07/vijayawada-utsav-20-preparations-begin",
+        "canonicalUrl": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/07/vijayawada-utsav-20-preparations-begin",
+        "title": "Vijayawada Utsav 2.0 preparations begin",
+        "description": null,
+        "source": {
+          "id": "in_ap_nie",
+          "name": "The New Indian Express (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:09:39.000Z",
+        "imageUrl": "https://cf-images.assettype.com/newindianexpress/2026-10-07/mtilkfbb/New-Project-2026-10-07T083729.610.jpg",
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [
+        {
+          "id": "u1aBVNfB0166",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/vijayawada-gears-up-for-saras-mela-dasara-festivities-and-utsav-20/article71555336.ece",
+          "canonicalUrl": "https://www.thehindu.com/news/national/andhra-pradesh/vijayawada-gears-up-for-saras-mela-dasara-festivities-and-utsav-20/article71555336.ece",
+          "title": "Vijayawada gears up for Saras Mela, Dasara festivities and Utsav 2.0",
+          "description": null,
+          "source": {
+            "id": "in_ap_hindu",
+            "name": "The Hindu (Andhra Pradesh)"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T13:50:33.000Z",
+          "imageUrl": "https://th-i.thgim.com/public/incoming/2pgo3v/article71556151.ece/alternates/LANDSCAPE_1200/vjkvg-kesineni%201.JPG",
+          "countryCode": "IN",
+          "regionCode": "IN-AP"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:50:33.000Z"
+    },
+    {
+      "id": "TAqCcDw5_CR9",
+      "representative": {
+        "id": "TAqCcDw5_CR9",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/isro-scientists-lead-space-awareness-rally-in-rajamahendravaram/article71556662.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/andhra-pradesh/isro-scientists-lead-space-awareness-rally-in-rajamahendravaram/article71556662.ece",
+        "title": "ISRO scientists lead space awareness rally in Rajamahendravaram",
+        "description": null,
+        "source": {
+          "id": "in_ap_hindu",
+          "name": "The Hindu (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T16:14:29.000Z",
+        "imageUrl": null,
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:14:29.000Z"
+    },
+    {
+      "id": "TCHZx_YR0Npm",
+      "representative": {
+        "id": "TCHZx_YR0Npm",
+        "url": "https://www.thehindu.com/news/cities/Visakhapatnam/veecycle-works-signs-mou-with-ap-government-for-150-crore-recycling-project-in-visakhapatnam/article71556219.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/cities/Visakhapatnam/veecycle-works-signs-mou-with-ap-government-for-150-crore-recycling-project-in-visakhapatnam/article71556219.ece",
+        "title": "VeeCycle Works signs MoU with A.P. government for ₹150 crore recycling project in Visakhapatnam",
+        "description": null,
+        "source": {
+          "id": "in_ap_hindu",
+          "name": "The Hindu (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:47:33.000Z",
+        "imageUrl": null,
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:47:33.000Z"
+    },
+    {
+      "id": "DzOWAzexGXR7",
+      "representative": {
+        "id": "DzOWAzexGXR7",
+        "url": "https://www.thehindu.com/news/cities/Visakhapatnam/green-asia-impex-makes-debut-on-nse-emerge/article71556307.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/cities/Visakhapatnam/green-asia-impex-makes-debut-on-nse-emerge/article71556307.ece",
+        "title": "Green Asia Impex makes debut on NSE Emerge",
+        "description": null,
+        "source": {
+          "id": "in_ap_hindu",
+          "name": "The Hindu (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:36:20.000Z",
+        "imageUrl": null,
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:36:20.000Z"
+    },
+    {
+      "id": "n_q7lL-k4VuX",
+      "representative": {
+        "id": "n_q7lL-k4VuX",
+        "url": "https://thesouthfirst.com/andhrapradesh/andhra-pradesh-bc-reservation-politics-reaches-delhi-suspense-over-supreme-court-decision/",
+        "canonicalUrl": "https://thesouthfirst.com/andhrapradesh/andhra-pradesh-bc-reservation-politics-reaches-delhi-suspense-over-supreme-court-decision/",
+        "title": "Andhra Pradesh BC reservation politics reaches Delhi: Suspense over Supreme Court decision",
+        "description": "With the High Court directing local body elections to be held within six weeks, the coalition administration is preparing contingency measures should the Supreme Court decline interim relief. The post Andhra Pradesh BC reservation politics reaches Delhi: Suspense over Supreme Court decision…",
+        "source": {
+          "id": "in_ap_southfirst",
+          "name": "The South First (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T07:34:16.000Z",
+        "imageUrl": "https://static.thesouthfirst.com/wp-content/uploads/2026/10/Reservation-1024x576.jpg",
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T07:34:16.000Z"
+    },
+    {
+      "id": "TJFWIbdT7p5f",
+      "representative": {
+        "id": "TJFWIbdT7p5f",
+        "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/07/spdcl-hits-milestone-in-solar-installations-says-andhra-ministergottipati",
+        "canonicalUrl": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/07/spdcl-hits-milestone-in-solar-installations-says-andhra-ministergottipati",
+        "title": "SPDCL hits milestone in solar installations, says Andhra Minister Gottipati",
+        "description": null,
+        "source": {
+          "id": "in_ap_nie",
+          "name": "The New Indian Express (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T05:54:15.000Z",
+        "imageUrl": "https://cf-images.assettype.com/newindianexpress/2026-10-07/75g1hv2e/WhatsApp-Image-2026-10-07-at-9.54.35-AM.jpeg",
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:54:15.000Z"
+    },
+    {
+      "id": "6GaC8bEy6PfP",
+      "representative": {
+        "id": "6GaC8bEy6PfP",
+        "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/07/millet-canteen-set-up-at-gvmc-head-office",
+        "canonicalUrl": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/07/millet-canteen-set-up-at-gvmc-head-office",
+        "title": "Millet canteen set up at GVMC head office",
+        "description": null,
+        "source": {
+          "id": "in_ap_nie",
+          "name": "The New Indian Express (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T05:45:53.000Z",
+        "imageUrl": "https://cf-images.assettype.com/newindianexpress/2026-10-07/c94xc2lr/WhatsApp-Image-2026-10-07-at-10.12.52-AM.jpeg",
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:45:53.000Z"
+    },
+    {
+      "id": "viJ7Buomu_hm",
+      "representative": {
+        "id": "viJ7Buomu_hm",
+        "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/07/asr-district-ryots-to-make-farm-visits-in-odisha",
+        "canonicalUrl": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/07/asr-district-ryots-to-make-farm-visits-in-odisha",
+        "title": "ASR district ryots to make farm visits in Odisha",
+        "description": null,
+        "source": {
+          "id": "in_ap_nie",
+          "name": "The New Indian Express (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T05:41:23.000Z",
+        "imageUrl": "https://cf-images.assettype.com/newindianexpress/2026-10-07/4kuqhrqb/WhatsApp-Image-2026-10-07-at-10.11.00-AM.jpeg",
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:41:23.000Z"
+    },
+    {
+      "id": "ci8nkhTghrg_",
+      "representative": {
+        "id": "ci8nkhTghrg_",
+        "url": "https://thesouthfirst.com/andhrapradesh/south-divide-on-early-matrimony-from-40-child-marriage-in-ap-to-20-teen-motherhood-in-telangana/",
+        "canonicalUrl": "https://thesouthfirst.com/andhrapradesh/south-divide-on-early-matrimony-from-40-child-marriage-in-ap-to-20-teen-motherhood-in-telangana/",
+        "title": "South divide on early matrimony: From 40% child marriage in AP to 20% teen motherhood in Telangana",
+        "description": "The NFHS-6 indicator measured the proportion of women aged 20 to 24 who were married before the age of 18. The post South divide on early matrimony: From 40% child marriage in AP to 20% teen motherhood in Telangana appeared first on The South First | News, Politics, Sports, Entertainment & Live…",
+        "source": {
+          "id": "in_ap_southfirst",
+          "name": "The South First (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T01:30:38.000Z",
+        "imageUrl": "https://static.thesouthfirst.com/wp-content/uploads/2026/10/Wedding-1024x683.jpg",
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T01:30:38.000Z"
+    },
+    {
+      "id": "5TgB8oa5EIf6",
+      "representative": {
+        "id": "5TgB8oa5EIf6",
+        "url": "https://thesouthfirst.com/andhrapradesh/after-navy-sailor-ap-counter-intelligence-police-arrest-civilian-driver-for-alleged-espionage-16-more-under-probe/",
+        "canonicalUrl": "https://thesouthfirst.com/andhrapradesh/after-navy-sailor-ap-counter-intelligence-police-arrest-civilian-driver-for-alleged-espionage-16-more-under-probe/",
+        "title": "After Navy sailor, AP Counter-Intelligence police arrest civilian driver for alleged espionage; 16 more under probe",
+        "description": "Police allege that he shared sensitive and classified information concerning Naval and defence establishments with a Pakistan-based intelligence operative and received money in return. The post After Navy sailor, AP Counter-Intelligence police arrest civilian driver for alleged espionage; 16 more…",
+        "source": {
+          "id": "in_ap_southfirst",
+          "name": "The South First (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:13:06.000Z",
+        "imageUrl": "https://static.thesouthfirst.com/wp-content/uploads/2026/10/Navy-1024x576.jpeg",
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:13:06.000Z"
+    },
+    {
+      "id": "0ByVBfJu9OSU",
+      "representative": {
+        "id": "0ByVBfJu9OSU",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/vmc-rtc-plan-drainage-solution-to-combat-waterlogging-issue-near-bus-station/article71556444.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/andhra-pradesh/vmc-rtc-plan-drainage-solution-to-combat-waterlogging-issue-near-bus-station/article71556444.ece",
+        "title": "VMC, RTC plan drainage solution to combat waterlogging issue near bus station",
+        "description": null,
+        "source": {
+          "id": "in_ap_hindu",
+          "name": "The Hindu (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:25:28.000Z",
+        "imageUrl": null,
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:25:28.000Z"
+    },
+    {
+      "id": "IYcLa1SgWgSk",
+      "representative": {
+        "id": "IYcLa1SgWgSk",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/ysrcp-names-anam-vijaykumar-reddy-arunamma-as-nellore-mayoral-candidates/article71556414.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/andhra-pradesh/ysrcp-names-anam-vijaykumar-reddy-arunamma-as-nellore-mayoral-candidates/article71556414.ece",
+        "title": "YSRCP names Anam Vijaykumar Reddy, Arunamma as Nellore Mayoral candidates",
+        "description": "If the Mayoral seat is reserved for the OC General category, Vijaykumar Reddy will contest, otherwise Arunamma will be in the race if it is reserved for OC Women category",
+        "source": {
+          "id": "in_ap_hindu",
+          "name": "The Hindu (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:23:55.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/jbny0s/article71556669.ece/alternates/LANDSCAPE_1200/10745_7_10_2026_19_28_22_1_IMG_20261007_WA0049.JPG",
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:23:55.000Z"
+    },
+    {
+      "id": "X-UGG5rqq8DG",
+      "representative": {
+        "id": "X-UGG5rqq8DG",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/three-day-amaravati-literature-festival-2026-begins-at-srm-university-ap/article71556452.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/andhra-pradesh/three-day-amaravati-literature-festival-2026-begins-at-srm-university-ap/article71556452.ece",
+        "title": "Three-day Amaravati Literature Festival 2026 begins at SRM University-A.P.",
+        "description": null,
+        "source": {
+          "id": "in_ap_hindu",
+          "name": "The Hindu (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:17:31.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/u1ry9w/article71556696.ece/alternates/LANDSCAPE_1200/10745_7_10_2026_20_21_59_1_IMG_20261007_WA0051.JPG",
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:17:31.000Z"
+    },
+    {
+      "id": "LqhuF5yFzxFZ",
+      "representative": {
+        "id": "LqhuF5yFzxFZ",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/contract-nurses-in-ap-demand-for-regularisation-of-services-gross-salary/article71555927.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/andhra-pradesh/contract-nurses-in-ap-demand-for-regularisation-of-services-gross-salary/article71555927.ece",
+        "title": "Contract nurses in A.P. demand for regularisation of services, gross salary",
+        "description": null,
+        "source": {
+          "id": "in_ap_hindu",
+          "name": "The Hindu (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:12:19.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/20jc4n/article71556593.ece/alternates/LANDSCAPE_1200/vjkvg-nurses%203.JPG",
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:12:19.000Z"
+    },
+    {
+      "id": "sfu4Pf__EV3k",
+      "representative": {
+        "id": "sfu4Pf__EV3k",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-cabinet-adopts-resolution-hailing-prime-minister-narendra-modis-25-years-in-public-service/article71555227.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-cabinet-adopts-resolution-hailing-prime-minister-narendra-modis-25-years-in-public-service/article71555227.ece",
+        "title": "Andhra Cabinet adopts resolution hailing Prime Minister Narendra Modi’s 25 years in public service",
+        "description": "It lauds the Prime Minister’s efforts to make the country proud at the global level; Chief Minister Chandrababu Naidu terms it as a remarkable milestone",
+        "source": {
+          "id": "in_ap_hindu",
+          "name": "The Hindu (Andhra Pradesh)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:09:38.000Z",
+        "imageUrl": null,
+        "countryCode": "IN",
+        "regionCode": "IN-AP"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:09:38.000Z"
+    }
+  ]
+}
