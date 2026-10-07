@@ -17,6 +17,7 @@ const FEATURES = (countriesGeo as { features: Shape[] }).features;
 const REGION_SHAPES: Partial<Record<CountryCode, () => Promise<{ default: unknown }>>> = {
   FR: () => import('../assets/regions-fr.json'),
   DE: () => import('../assets/regions-de.json'),
+  US: () => import('../assets/regions-us.json'),
 };
 
 async function loadRegionShapes(country: CountryCode): Promise<Shape[]> {

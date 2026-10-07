@@ -24,6 +24,13 @@ const SOURCES = {
     code: (p) => (p.iso_a2 === 'DE' ? p.iso_3166_2 : undefined),
     expected: 16,
   },
+  // The 50 US states and DC: Natural Earth 1:50m admin-1 (public domain), which
+  // has the US at a lighter resolution than 10m.
+  us: {
+    url: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_admin_1_states_provinces.geojson',
+    code: (p) => (p.iso_a2 === 'US' ? p.iso_3166_2 : undefined),
+    expected: 51,
+  },
 };
 
 const cc = process.argv[2];

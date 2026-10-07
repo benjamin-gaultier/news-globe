@@ -1,4 +1,8 @@
 import type { CountryCode, RegionCode } from '@news-globe/shared';
+import { US_STATES_MIDWEST } from './sources/us-states-midwest';
+import { US_STATES_NORTHEAST } from './sources/us-states-northeast';
+import { US_STATES_SOUTH } from './sources/us-states-south';
+import { US_STATES_WEST } from './sources/us-states-west';
 
 export interface SourceConfig {
   /** Stable id; also the outlet identity used for "distinct outlets". */
@@ -7682,6 +7686,11 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://www.insuedthueringen.de/.rss.feed'],
     authority: 8,
   },
+  // ---- United States: states (one file per Census region)
+  ...US_STATES_NORTHEAST,
+  ...US_STATES_MIDWEST,
+  ...US_STATES_SOUTH,
+  ...US_STATES_WEST,
 ];
 
 export const INGEST_SETTINGS = {
