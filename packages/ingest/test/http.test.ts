@@ -323,6 +323,8 @@ describe('isNotNews', () => {
       '1/71 Paterson Street, Ainslie',
       '29 Jim Bradley Crescent, Uriarra Village',
       '8 October 2026',
+      'Haddas Ertra 07 October 2026',
+      'Eritrea Alhaditha 06 October 2026',
     ]) {
       expect(isNotNews(t), t).toBe(true);
     }

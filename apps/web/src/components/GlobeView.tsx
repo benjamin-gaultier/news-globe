@@ -11,7 +11,26 @@ interface Shape {
   geometry: { type: string; coordinates: unknown };
 }
 
-const FEATURES = (countriesGeo as { features: Shape[] }).features;
+/** Radius, in degrees, of the marker drawn for a country too small for the 110m map. */
+const MARKER_RADIUS_DEG = 0.6;
+
+/** A small round polygon at the country's centre, so islands like Malta or the Maldives can be clicked. */
+function markerShape(iso2: CountryCode, name: string, lat: number, lng: number): Shape {
+  const ring = Array.from({ length: 13 }, (_, i) => {
+    const a = (-i / 12) * 2 * Math.PI;
+    return [lng + (MARKER_RADIUS_DEG * Math.cos(a)) / Math.cos((lat * Math.PI) / 180), lat + MARKER_RADIUS_DEG * Math.sin(a)];
+  });
+  return { type: 'Feature', properties: { iso2, name }, geometry: { type: 'Polygon', coordinates: [ring] } };
+}
+
+const MAP_FEATURES = (countriesGeo as { features: Shape[] }).features;
+const MAPPED = new Set(MAP_FEATURES.map((f) => f.properties.iso2));
+const FEATURES = [
+  ...MAP_FEATURES,
+  ...Object.values(COUNTRIES)
+    .filter((c) => !MAPPED.has(c.code))
+    .map((c) => markerShape(c.code, c.name, c.lat, c.lng)),
+];
 
 /** Region outlines per country, loaded only when that country is opened. */
 const REGION_SHAPES: Partial<Record<CountryCode, () => Promise<{ default: unknown }>>> = {
