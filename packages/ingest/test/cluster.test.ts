@@ -156,3 +156,24 @@ describe('clusterArticles: chaining guard (average linkage)', () => {
     expect(withBridge.some((a) => newTerm.includes(a))).toBe(false);
   });
 });
+
+describe('clusterArticles: ignoreNames', () => {
+  const de = (source: string, title: string) => article(source, title, T, { language: 'de' });
+  const titles = [
+    'Sachsen-Anhalt: Landtag streitet über Haushalt',
+    'Unfall auf der A14 in Sachsen-Anhalt: Lkw-Fahrer verletzt',
+  ];
+
+  it("a region's own name is not enough to merge two stories", () => {
+    const pair = () => [de('mdr', titles[0]!), de('volksstimme', titles[1]!)];
+    expect(clusterArticles(pair(), { ...opts, ignoreNames: ['Saxony-Anhalt', 'Sachsen-Anhalt'] })).toHaveLength(2);
+  });
+
+  it('still merges the same story told twice', () => {
+    const pair = [
+      de('mdr', 'Sachsen-Anhalt: Landtag streitet über Haushalt 2027'),
+      de('volksstimme', 'Landtag Sachsen-Anhalt streitet weiter über den Haushalt 2027'),
+    ];
+    expect(clusterArticles(pair, { ...opts, ignoreNames: ['Sachsen-Anhalt'] })).toHaveLength(1);
+  });
+});

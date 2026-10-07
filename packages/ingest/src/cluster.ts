@@ -13,6 +13,13 @@ export interface ClusterOptions {
    * plain single-linkage.
    */
   minAverageLink: number;
+  /**
+   * Names whose words don't count toward `minSharedTokens`: a region's own
+   * name, which most of its headlines mention ("Sachsen-Anhalt" would
+   * otherwise be two shared tokens linking any two of its stories). They still
+   * count in the similarity score, so "Tour de Corse" stories still merge.
+   */
+  ignoreNames?: readonly string[];
 }
 
 export function jaccard(a: Set<string>, b: Set<string>): { score: number; shared: number } {
@@ -72,6 +79,12 @@ class UnionFind {
 export function clusterArticles(articles: Article[], opts: ClusterOptions): Article[][] {
   const n = articles.length;
   const tokens = articles.map((a) => titleTokens(a.title, a.language));
+  const nameTokensByLanguage = new Map<string, Set<string>>();
+  const nameTokens = (language: string) => {
+    let set = nameTokensByLanguage.get(language);
+    if (!set) nameTokensByLanguage.set(language, (set = titleTokens((opts.ignoreNames ?? []).join(' '), language)));
+    return set;
+  };
   const sim: Float64Array = new Float64Array(n * n);
   const edges: { i: number; j: number; score: number }[] = [];
 
@@ -80,7 +93,12 @@ export function clusterArticles(articles: Article[], opts: ClusterOptions): Arti
       const { score, shared } = jaccard(tokens[i]!, tokens[j]!);
       sim[i * n + j] = sim[j * n + i] = score;
       const crossOutlet = articles[i]!.source.id !== articles[j]!.source.id;
-      if (crossOutlet && score >= opts.threshold && shared >= opts.minSharedTokens) edges.push({ i, j, score });
+      if (!crossOutlet || score < opts.threshold || shared < opts.minSharedTokens) continue;
+      let evidence = shared;
+      if (opts.ignoreNames?.length) {
+        for (const t of nameTokens(articles[i]!.language)) if (tokens[i]!.has(t) && tokens[j]!.has(t)) evidence--;
+      }
+      if (evidence >= opts.minSharedTokens) edges.push({ i, j, score });
     }
   }
   // Strongest evidence first; index order breaks ties so output is deterministic.
