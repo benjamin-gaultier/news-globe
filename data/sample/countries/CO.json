@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CO",
   "countryName": "Colombia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "DgcW4RyG1av4",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:28:23.000Z"
-    },
-    {
-      "id": "AlNzl8JIswvf",
-      "representative": {
-        "id": "AlNzl8JIswvf",
-        "url": "https://caracol.com.co/2026/10/06/resultado-loteria-cundinamarca-tolima-y-miloto-hoy-5-de-octubre-numeros-ganadores-y-premios/",
-        "canonicalUrl": "https://caracol.com.co/2026/10/06/resultado-loteria-cundinamarca-tolima-y-miloto-hoy-5-de-octubre-numeros-ganadores-y-premios/",
-        "title": "Resultado Lotería Cundinamarca, Tolima y MiLoto HOY 5 de octubre: números ganadores y premios",
-        "description": null,
-        "source": {
-          "id": "caracol",
-          "name": "Caracol Radio"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-06T00:31:44.000Z",
-        "imageUrl": "https://caracol.com.co/resizer/v2/YNSQYWIHANFKHADYYB5Y7EPJPU.png?auth=f4e4d859fde2c472e3b8aa49e2bdf8a78763db60bc7308fa15a9b7ac8d19ef30&smart=true&width=650&height=488",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "LXC0EgbRYVpr",
-          "url": "https://www.semana.com/loterias/articulo/baloto-hoy-estos-son-los-numeros-ganadores-del-sorteo-de-este-lunes-5-de-octubre/202630/",
-          "canonicalUrl": "https://www.semana.com/loterias/articulo/baloto-hoy-estos-son-los-numeros-ganadores-del-sorteo-de-este-lunes-5-de-octubre/202630/",
-          "title": "Baloto hoy: estos son los números ganadores del sorteo de este lunes 5 de octubre",
-          "description": null,
-          "source": {
-            "id": "semana",
-            "name": "Semana"
-          },
-          "sourceCountry": "CO",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:37:30.000Z",
-          "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/QI2EXR6L3JCYHNRMYRVHTT7LOI.png?auth=b36d5a60ff20eb06edcbc9d245ebedd2a06b81cc7a6d237f1ea0049f70456196&smart=true&width=1280&height=720",
-          "countryCode": "CO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:57:30.000Z"
     },
     {
       "id": "kgb5sbR-XbF9",
@@ -417,6 +375,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:55.000Z"
+    },
+    {
+      "id": "jNOz59EJp6h8",
+      "representative": {
+        "id": "jNOz59EJp6h8",
+        "url": "https://www.semana.com/confidenciales/articulo/polemica-por-la-amabilidad-de-magistrados-de-la-jep-con-timochenko-y-exguerrilleros-de-las-farc/202612/",
+        "canonicalUrl": "https://www.semana.com/confidenciales/articulo/polemica-por-la-amabilidad-de-magistrados-de-la-jep-con-timochenko-y-exguerrilleros-de-las-farc/202612/",
+        "title": "Polémica por la “amabilidad” de magistrados de la JEP con Timochenko y exguerrilleros de las Farc",
+        "description": null,
+        "source": {
+          "id": "semana",
+          "name": "Semana"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:52:12.000Z",
+        "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/5XVNGPVNGVB7RITH5RSVNDIPLU.png?auth=aedd27070d8aa72530a1a0483e6493f8c7fa8b21e76c617ead38079dd8af7253&smart=true&width=950&height=530",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:52:12.000Z"
     }
   ]
 }

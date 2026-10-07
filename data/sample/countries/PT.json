@@ -2,151 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "PT",
   "countryName": "Portugal",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "Y-sDuMvqkYp7",
-      "representative": {
-        "id": "Y-sDuMvqkYp7",
-        "url": "https://www.publico.pt/2026/10/06/mundo/noticia/antigo-chefe-servicos-secretos-alemanha-detido-suspeitas-espionagem-2190417",
-        "canonicalUrl": "https://www.publico.pt/2026/10/06/mundo/noticia/antigo-chefe-servicos-secretos-alemanha-detido-suspeitas-espionagem-2190417",
-        "title": "Antigo chefe dos serviços secretos da Alemanha detido por suspeitas de espionagem",
-        "description": "Director do Serviço Federal de Informações entre 1998 e 2005, August Hanning é acusado de “divulgação de segredos de Estado” a serviços secretos estrangeiros. Não foi revelado o país destinatário.",
-        "source": {
-          "id": "publico",
-          "name": "Público"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T11:30:13.000Z",
-        "imageUrl": null,
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "yzfNQ1ZOuvZ-",
-          "url": "https://eco.sapo.pt/2026/10/06/antigo-chefe-da-secreta-alema-detido-por-suspeita-de-espionagem-e-traicao/",
-          "canonicalUrl": "https://eco.sapo.pt/2026/10/06/antigo-chefe-da-secreta-alema-detido-por-suspeita-de-espionagem-e-traicao/",
-          "title": "Antigo chefe da secreta alemã detido por suspeita de espionagem e traição",
-          "description": "O antigo chefe dos serviços de informações externas da Alemanha (BND, na sigla original) August Hanning foi detido por suspeita de espionagem e traição, anunciou esta terça-feira a procuradoria-geral federal alemã. “Hanning é fortemente suspeito de espionagem constitutiva de traição, (…) recolha…",
-          "source": {
-            "id": "eco",
-            "name": "ECO"
-          },
-          "sourceCountry": "PT",
-          "language": "pt",
-          "publishedAt": "2026-10-06T10:27:39.000Z",
-          "imageUrl": "https://eco.imgix.net/uploads/2026/10/cropped-47891641-scaled-1.jpg",
-          "countryCode": "PT",
-          "regionCode": null
-        },
-        {
-          "id": "XGU9xbwzIIkn",
-          "url": "https://observador.pt/2026/10/06/ex-chefe-dos-servicos-secretos-alemaes-detido-por-suspeita-de-espionagem-e-traicao-ao-estado/",
-          "canonicalUrl": "https://observador.pt/2026/10/06/ex-chefe-dos-servicos-secretos-alemaes-detido-por-suspeita-de-espionagem-e-traicao-ao-estado/",
-          "title": "Ex-chefe das secretas alemãs detido por alegada espionagem",
-          "description": "August Hanning liderou o BND entre 1998 e 2005. É suspeito de ter usado centenas de documentos secretos fornecidos pelo seu chefe de gabinete e de os ter partilhado com um serviço secreto estrangeiro.",
-          "source": {
-            "id": "observador",
-            "name": "Observador"
-          },
-          "sourceCountry": "PT",
-          "language": "pt",
-          "publishedAt": "2026-10-06T09:59:31.000Z",
-          "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:3000:1687:nowe:0:156/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/06104243/gettyimages-53340401.jpg",
-          "countryCode": "PT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T11:30:13.000Z"
-    },
-    {
-      "id": "RtJISqwfS9z1",
-      "representative": {
-        "id": "RtJISqwfS9z1",
-        "url": "https://observador.pt/2026/10/06/erc-e-comissao-da-carteira-profissional-de-jornalista-averiguam-suspeitas-de-irregularidades-na-centrotv/",
-        "canonicalUrl": "https://observador.pt/2026/10/06/erc-e-comissao-da-carteira-profissional-de-jornalista-averiguam-suspeitas-de-irregularidades-na-centrotv/",
-        "title": "CentroTV. ERC averigua suspeitas de irregularidades",
-        "description": "CentroTV passou a assegurar a cobertura na região de Coimbra da TVI/CNN Portugal, sendo aquele órgão detido pela mesma empresa que assegura a transmissão de reuniões da Câmara de Coimbra desde 2023.",
-        "source": {
-          "id": "observador",
-          "name": "Observador"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T10:18:25.000Z",
-        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/07/22110216/13770154_770x433_acf_cropped-1.jpg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "yyILdHaIgmkv",
-          "url": "https://eco.sapo.pt/2026/10/06/erc-e-ccpj-averiguam-suspeitas-de-irregularidades-na-centrotv/",
-          "canonicalUrl": "https://eco.sapo.pt/2026/10/06/erc-e-ccpj-averiguam-suspeitas-de-irregularidades-na-centrotv/",
-          "title": "ERC e CCPJ averiguam suspeitas de irregularidades na CentroTV",
-          "description": "A Entidade Reguladora para a Comunicação Social (ERC) e a Comissão da Carteira Profissional de Jornalista (CCPJ) estão a averiguar suspeitas de irregularidades na CentroTV, que assegura a cobertura jornalística da TVI/CNN Portugal na região de Coimbra. A CentroTV passou a assegurar a cobertura na…",
-          "source": {
-            "id": "eco",
-            "name": "ECO"
-          },
-          "sourceCountry": "PT",
-          "language": "pt",
-          "publishedAt": "2026-10-06T12:28:26.000Z",
-          "imageUrl": "https://eco.imgix.net/uploads/2026/10/cropped-centro-tv-scaled-1.png",
-          "countryCode": "PT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:28:26.000Z"
-    },
-    {
-      "id": "mWPFCQ8PA8yE",
-      "representative": {
-        "id": "mWPFCQ8PA8yE",
-        "url": "https://observador.pt/2026/10/06/premio-nobel-da-fisica-distingue-descoberta-de-neutrinos-altamente-energeticos-de-origem-astrofisica/",
-        "canonicalUrl": "https://observador.pt/2026/10/06/premio-nobel-da-fisica-distingue-descoberta-de-neutrinos-altamente-energeticos-de-origem-astrofisica/",
-        "title": "Nobel da Física por descoberta de \"neutrinos energéticos\"",
-        "description": "O prémio Nobel da Física de 2026 foi atribuído ao cientista Francis Halzen pela \"descoberta de neutrinos altamente energéticos de origem astrofísica\" e pela criação do IceCube Neutrino Observatory.",
-        "source": {
-          "id": "observador",
-          "name": "Observador"
-        },
-        "sourceCountry": "PT",
-        "language": "pt",
-        "publishedAt": "2026-10-06T09:51:49.000Z",
-        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:1630:914:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2026/10/06105018/ht8dm-fxyaalqxe.jpeg",
-        "countryCode": "PT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "An_v6s9zzhlj",
-          "url": "https://eco.sapo.pt/2026/10/06/nobel-da-fisica-atribuido-a-descoberta-de-neutrinos-de-origem-astrofisica/",
-          "canonicalUrl": "https://eco.sapo.pt/2026/10/06/nobel-da-fisica-atribuido-a-descoberta-de-neutrinos-de-origem-astrofisica/",
-          "title": "Nobel da Física atribuído a descoberta de neutrinos de origem astrofísica",
-          "description": "O Prémio Nobel da Física foi atribuído ao belga Francis Halzen pelos seus contributos decisivos para a descoberta de neutrinos de alta energia de origem astrofísica, anunciou esta terça-feira a Real Academia Sueca de Ciências. A secretária-geral da academia, Ellen Moons, anunciou que o prémio é…",
-          "source": {
-            "id": "eco",
-            "name": "ECO"
-          },
-          "sourceCountry": "PT",
-          "language": "pt",
-          "publishedAt": "2026-10-06T10:55:12.000Z",
-          "imageUrl": "https://eco.imgix.net/uploads/2026/10/cropped-47892050-scaled-1.jpg",
-          "countryCode": "PT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:55:12.000Z"
-    },
     {
       "id": "GwZ2Zpqh4Axv",
       "representative": {
@@ -434,6 +291,96 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:30:44.000Z"
+    },
+    {
+      "id": "3FWprOOYLg3s",
+      "representative": {
+        "id": "3FWprOOYLg3s",
+        "url": "https://eco.sapo.pt/2026/10/06/parlamento-europeu-aprova-programa-financeiro-de-115-milhoes-para-defesa/",
+        "canonicalUrl": "https://eco.sapo.pt/2026/10/06/parlamento-europeu-aprova-programa-financeiro-de-115-milhoes-para-defesa/",
+        "title": "Parlamento Europeu aprova programa financeiro de 115 milhões para defesa",
+        "description": "O Parlamento Europeu (PE) aprovou esta terça-feira a criação do programa financeiro na área da defesa AGILE, com 115 milhões de euros para responder ao novo ambiente de segurança e apoiar tecnologias inovadoras. A legislação, adotada esta terça-feira em sessão plenária do PE por 536 votos a favor…",
+        "source": {
+          "id": "eco",
+          "name": "ECO"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:30:10.000Z",
+        "imageUrl": "https://eco.imgix.net/uploads/2026/10/cropped-47892086-scaled-1.jpg",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:30:10.000Z"
+    },
+    {
+      "id": "RtJISqwfS9z1",
+      "representative": {
+        "id": "RtJISqwfS9z1",
+        "url": "https://observador.pt/2026/10/06/erc-e-comissao-da-carteira-profissional-de-jornalista-averiguam-suspeitas-de-irregularidades-na-centrotv/",
+        "canonicalUrl": "https://observador.pt/2026/10/06/erc-e-comissao-da-carteira-profissional-de-jornalista-averiguam-suspeitas-de-irregularidades-na-centrotv/",
+        "title": "CentroTV. ERC averigua suspeitas de irregularidades",
+        "description": "CentroTV passou a assegurar a cobertura na região de Coimbra da TVI/CNN Portugal, sendo aquele órgão detido pela mesma empresa que assegura a transmissão de reuniões da Câmara de Coimbra desde 2023.",
+        "source": {
+          "id": "observador",
+          "name": "Observador"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T10:18:25.000Z",
+        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:770:433:nowe:0:0/q:70/plain/https://s3.observador.pt/wp-content/uploads/2020/07/22110216/13770154_770x433_acf_cropped-1.jpg",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "yyILdHaIgmkv",
+          "url": "https://eco.sapo.pt/2026/10/06/erc-e-ccpj-averiguam-suspeitas-de-irregularidades-na-centrotv/",
+          "canonicalUrl": "https://eco.sapo.pt/2026/10/06/erc-e-ccpj-averiguam-suspeitas-de-irregularidades-na-centrotv/",
+          "title": "ERC e CCPJ averiguam suspeitas de irregularidades na CentroTV",
+          "description": "A Entidade Reguladora para a Comunicação Social (ERC) e a Comissão da Carteira Profissional de Jornalista (CCPJ) estão a averiguar suspeitas de irregularidades na CentroTV, que assegura a cobertura jornalística da TVI/CNN Portugal na região de Coimbra. A CentroTV passou a assegurar a cobertura na…",
+          "source": {
+            "id": "eco",
+            "name": "ECO"
+          },
+          "sourceCountry": "PT",
+          "language": "pt",
+          "publishedAt": "2026-10-06T12:28:26.000Z",
+          "imageUrl": "https://eco.imgix.net/uploads/2026/10/cropped-centro-tv-scaled-1.png",
+          "countryCode": "PT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:28:26.000Z"
+    },
+    {
+      "id": "Os8FmFKDlwNu",
+      "representative": {
+        "id": "Os8FmFKDlwNu",
+        "url": "https://observador.pt/2026/10/06/associacao-denuncia-paralisacao-do-arrendamento-acessivel-por-ausencia-de-portaria/",
+        "canonicalUrl": "https://observador.pt/2026/10/06/associacao-denuncia-paralisacao-do-arrendamento-acessivel-por-ausencia-de-portaria/",
+        "title": "Associação denuncia paralisação do arrendamento acessível",
+        "description": "Novo Regime Simplificado do Arrendamento Acessível entrou em vigor a 1 de setembro, mas continua por regulamentar, o que é indispensável à sua aplicação.",
+        "source": {
+          "id": "observador",
+          "name": "Observador"
+        },
+        "sourceCountry": "PT",
+        "language": "pt",
+        "publishedAt": "2026-10-06T12:26:32.000Z",
+        "imageUrl": "https://bordalo.observador.pt/v2/rs:fill:770:403/c:4096:2303:nowe:0:213/q:70/plain/https://s3.observador.pt/wp-content/uploads/2025/08/06162130/dventura-habitacao-social-vale-formoso-11-scaled.jpg",
+        "countryCode": "PT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:26:32.000Z"
     }
   ]
 }

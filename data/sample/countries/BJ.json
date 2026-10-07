@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BJ",
   "countryName": "Benin",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "Iu47Og-_4P2F",
@@ -87,48 +87,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T14:12:31.000Z"
-    },
-    {
-      "id": "EmPovg9h42eX",
-      "representative": {
-        "id": "EmPovg9h42eX",
-        "url": "https://lanouvelletribune.info/2026/10/benin-deux-nouveaux-prevenus-dans-laffaire-steve-wotto/",
-        "canonicalUrl": "https://lanouvelletribune.info/2026/10/benin-deux-nouveaux-prevenus-dans-laffaire-steve-wotto/",
-        "title": "Bénin : Deux nouveaux prévenus dans l’affaire Steve Wotto",
-        "description": "L’affaire Steve Wotto connait de nouveaux rebondissements. En effet, ce lundi 5 octobre, le prévenu a encore comparu à la Criet. Cette fois-ci, deux autres prévenus l’ont rejoint. Selon Libre Express qui a rapporté l’information, c’est bien la première fois qu’ils font leur apparition dans cette…",
-        "source": {
-          "id": "lanouvelletribune",
-          "name": "La Nouvelle Tribune"
-        },
-        "sourceCountry": "BJ",
-        "language": "fr",
-        "publishedAt": "2026-10-06T08:37:49.000Z",
-        "imageUrl": null,
-        "countryCode": "BJ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "mxjP6IiBb6kv",
-          "url": "https://beninwebtv.com/jonction-de-procedures-et-nouveau-renvoi-dans-laffaire-de-lactiviste-steve-wotto-a-la-criet/",
-          "canonicalUrl": "https://beninwebtv.com/jonction-de-procedures-et-nouveau-renvoi-dans-laffaire-de-lactiviste-steve-wotto-a-la-criet/",
-          "title": "Jonction de procédures et nouveau renvoi dans l’affaire de l’activiste Steve Wotto à la CRIET",
-          "description": "Le dossier de l’activiste Steve Wotto a pris une nouvelle tournure ce lundi 5 octobre 2026 devant la chambre correctionnelle de la Cour de répression des infractions économiques et du terrorisme (CRIET). Appelé à la barre en fin d’après-midi, le prévenu s’est présenté en compagnie de deux autres…",
-          "source": {
-            "id": "beninwebtv",
-            "name": "Bénin Web TV"
-          },
-          "sourceCountry": "BJ",
-          "language": "fr",
-          "publishedAt": "2026-10-06T08:12:23.000Z",
-          "imageUrl": "https://beninwebtv.com/wp-content/uploads/2026/05/le-tiktokeur-Steve-Wotto.webp",
-          "countryCode": "BJ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:37:49.000Z"
     },
     {
       "id": "m_SSWZQf6s_C",
@@ -342,7 +300,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:57:22.000Z"
     },
@@ -366,7 +324,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:55:23.000Z"
     },
@@ -390,7 +348,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:55:08.000Z"
     },
@@ -414,9 +372,33 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:53:42.000Z"
+    },
+    {
+      "id": "aOq69kTm37UF",
+      "representative": {
+        "id": "aOq69kTm37UF",
+        "url": "https://beninwebtv.com/le-statut-diplomatique-de-kemi-seba-rejete-en-afrique-du-sud-son-maintien-en-detention-confirme/",
+        "canonicalUrl": "https://beninwebtv.com/le-statut-diplomatique-de-kemi-seba-rejete-en-afrique-du-sud-son-maintien-en-detention-confirme/",
+        "title": "Le statut diplomatique de Kémi Séba rejeté en Afrique du Sud, son maintien en détention confirmé",
+        "description": "Nouveau revers judiciaire pour Kémi Séba. Lors de l’audience tenue ce mardi 6 octobre 2026, la justice sud-africaine a écarté l’argumentaire présenté par la défense de l’activiste panafricaniste, qui revendiquait une immunité liée à des fonctions diplomatiques exercées pour le compte des autorités…",
+        "source": {
+          "id": "beninwebtv",
+          "name": "Bénin Web TV"
+        },
+        "sourceCountry": "BJ",
+        "language": "fr",
+        "publishedAt": "2026-10-06T11:51:23.000Z",
+        "imageUrl": "https://beninwebtv.com/wp-content/uploads/2026/04/Kemi-Seba-.webp",
+        "countryCode": "BJ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:51:23.000Z"
     }
   ]
 }

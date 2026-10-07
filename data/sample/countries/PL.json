@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PL",
   "countryName": "Poland",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "HXkXRqn6kaw5",
@@ -250,132 +250,6 @@
       "latestPublishedAt": "2026-10-06T12:50:00.000Z"
     },
     {
-      "id": "KQTwh4N4iXEU",
-      "representative": {
-        "id": "KQTwh4N4iXEU",
-        "url": "https://www.polsatnews.pl/wiadomosc/2026-10-06/zarzuty-dla-kierowcy-z-nowego-sacza-nielegalny-wyscig-samochodowy/",
-        "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-06/zarzuty-dla-kierowcy-z-nowego-sacza-nielegalny-wyscig-samochodowy/",
-        "title": "Zarzuty dla kierowcy z Nowego Sącza. \"Nielegalny wyścig samochodowy\"",
-        "description": "Prokuratura w Nowym Sączu postawiła zarzut spowodowania wypadku ze skutkiem śmiertelnym kierowcy Volkswagena, który w sobotę potrącił podczas wyprzedzania na przejściu dla pieszych 51-latka. Śledczy uwzględnili okoliczność udziału w nielegalnym wyścigu samochodowym. O udział w wyścigu oskarżony…",
-        "source": {
-          "id": "polsatnews",
-          "name": "Polsat News"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T08:16:00.000Z",
-        "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/i3/i3c8ecoi24ne1g5ottqaph6e66dtniq5.jpeg",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "dgUQfaZMUyuA",
-          "url": "https://wiadomosci.wp.pl/zarzuty-dla-drugiego-kierowcy-final-wyscigu-ulicami-nowego-sacza-7337120869026240a",
-          "canonicalUrl": "https://wiadomosci.wp.pl/zarzuty-dla-drugiego-kierowcy-final-wyscigu-ulicami-nowego-sacza-7337120869026240a",
-          "title": "Zarzuty dla drugiego kierowcy. Finał wyścigu ulicami Nowego Sącza",
-          "description": "Drugi kierowca biorący udział w nielegalnym wyścigu w Nowym Sączu usłyszał prokuratorskie zarzuty. 20-latek z BMW odpowie za przyczynienie się do wypadku, w którym na pasach zginął 50-letni pieszy. Śledczy zawnioskowali już o jego tymczasowe aresztowanie.",
-          "source": {
-            "id": "wp",
-            "name": "Wirtualna Polska"
-          },
-          "sourceCountry": "PL",
-          "language": "pl",
-          "publishedAt": "2026-10-06T13:07:34.000Z",
-          "imageUrl": "https://i.wpimg.pl/308x/filerepo.grupawp.pl/api/v1/display/embed/9fee312d-3be3-45bd-82bf-6c9ec38549bb",
-          "countryCode": "PL",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:07:34.000Z"
-    },
-    {
-      "id": "oWY1qUAitqzy",
-      "representative": {
-        "id": "oWY1qUAitqzy",
-        "url": "https://www.rmf24.pl/fakty/ekonomia/news-maksymalne-ceny-paliw-w-srode-ci-kierowcy-zaplaca-wiecej-na-,nIdn,1020647",
-        "canonicalUrl": "https://www.rmf24.pl/fakty/ekonomia/news-maksymalne-ceny-paliw-w-srode-ci-kierowcy-zaplaca-wiecej-na-,nIdn,1020647",
-        "title": "Maksymalne ceny paliw w środę. Ci kierowcy zapłacą więcej na stacjach",
-        "description": "Maksymalne ceny paliw w środę. Ci kierowcy zapłacą więcej na stacjach",
-        "source": {
-          "id": "rmf24",
-          "name": "RMF24"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T11:06:00.000Z",
-        "imageUrl": "https://rmf.rmffm.pl/news/attachments/37/fc/zdj-636x421-37fc96f0.jpg",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "XyZFgd_Nx7L1",
-          "url": "https://www.polsatnews.pl/wiadomosc/2026-10-06/maksymalne-ceny-paliw-w-srode-minister-oglosil-nowe-stawki/",
-          "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-06/maksymalne-ceny-paliw-w-srode-minister-oglosil-nowe-stawki/",
-          "title": "Maksymalne ceny paliw w środę. Minister ogłosił nowe stawki",
-          "description": "W środę litr benzyny 95 ma kosztować nie więcej niż 6,86 zł, benzyny 98 - 7,74 zł, a oleju napędowego - 7,80 zł. Oznacza to, że ceny maksymalne benzyny będą wyższe niż we wtorek, a diesla - niższe.",
-          "source": {
-            "id": "polsatnews",
-            "name": "Polsat News"
-          },
-          "sourceCountry": "PL",
-          "language": "pl",
-          "publishedAt": "2026-10-06T11:14:00.000Z",
-          "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/rb/rbfz85sf52k26czgqy4jh58oaexzdxwy.jpg",
-          "countryCode": "PL",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:14:00.000Z"
-    },
-    {
-      "id": "78juJjBdr0id",
-      "representative": {
-        "id": "78juJjBdr0id",
-        "url": "https://www.polsatnews.pl/wiadomosc/2026-10-06/prezydent-podjal-decyzje-ws-stanowiska-szefa-sztabu-generalnego-wp/",
-        "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-06/prezydent-podjal-decyzje-ws-stanowiska-szefa-sztabu-generalnego-wp/",
-        "title": "Prezydent podjął decyzję ws. stanowiska Szefa Sztabu Generalnego WP",
-        "description": "Prezydent Karol Nawrocki postanowił mianować z dniem 10 października gen. Wiesława Kukułę na kolejną kadencję na stanowisku Szefa Sztabu Generalnego Wojska Polskiego - poinformował szef Biura Bezpieczeństwa Narodowego Bartosz Grodecki.",
-        "source": {
-          "id": "polsatnews",
-          "name": "Polsat News"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T08:56:00.000Z",
-        "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/ad/adk4wfcggmuxspfqbtjuu3i6q9cxrbig.jpg",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "qhEEGk7aB_WL",
-          "url": "https://www.rmf24.pl/fakty/polska/news-prezydent-nawrocki-mianowal-szefa-sztabu-generalnego-wp,nIdn,1020635",
-          "canonicalUrl": "https://www.rmf24.pl/fakty/polska/news-prezydent-nawrocki-mianowal-szefa-sztabu-generalnego-wp,nIdn,1020635",
-          "title": "Prezydent Nawrocki mianował Szefa Sztabu Generalnego WP",
-          "description": "Prezydent Nawrocki mianował Szefa Sztabu Generalnego WP",
-          "source": {
-            "id": "rmf24",
-            "name": "RMF24"
-          },
-          "sourceCountry": "PL",
-          "language": "pl",
-          "publishedAt": "2026-10-06T09:27:00.000Z",
-          "imageUrl": "https://rmf.rmffm.pl/news/attachments/3e/34/karol-nawrocki-gen-wieslaw-kukula-fot-636x421-3e346e05.jpg",
-          "countryCode": "PL",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:27:00.000Z"
-    },
-    {
       "id": "xh0fM2vqo3h1",
       "representative": {
         "id": "xh0fM2vqo3h1",
@@ -590,6 +464,78 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:30:23.000Z"
+    },
+    {
+      "id": "zAtCga4_7ZuM",
+      "representative": {
+        "id": "zAtCga4_7ZuM",
+        "url": "https://wiadomosci.onet.pl/swiat/francja-wystrzelila-nowy-pocisk-jadrowy-emmanuel-macron-pokazal-nagranie/dc050ht",
+        "canonicalUrl": "https://wiadomosci.onet.pl/swiat/francja-wystrzelila-nowy-pocisk-jadrowy-emmanuel-macron-pokazal-nagranie/dc050ht",
+        "title": "Francja wystrzeliła nowy pocisk jądrowy. Emmanuel Macron pokazał nagranie",
+        "description": "\"Aby być wolnym, musisz budzić strach\" — napisał francuski prezydent w komentarzu do nagrania pokazującego wystrzelenie najnowszego francuskiego pocisku z głowicą termojądrową.",
+        "source": {
+          "id": "onet",
+          "name": "Onet"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:29:25.000Z",
+        "imageUrl": "https://cdn.wiadomosci.onet.pl/1/Uf5k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9iZWNmMjQ2MDAxYmE0ZGE3ZGZkNDI5ZGE2MDBiNDEwMi5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:29:25.000Z"
+    },
+    {
+      "id": "ZBE03lU0hSdO",
+      "representative": {
+        "id": "ZBE03lU0hSdO",
+        "url": "https://www.polsatnews.pl/wiadomosc/2026-10-06/zurek-o-szczegolach-zatrzymania-menadzerow-orlenu-zwrocil-sie-do-obajtka-jak-krol-slonca/",
+        "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-06/zurek-o-szczegolach-zatrzymania-menadzerow-orlenu-zwrocil-sie-do-obajtka-jak-krol-slonca/",
+        "title": "Władza rozlicza za tanie paliwo? Żurek odpowiada Obajtkowi",
+        "description": "- W okresie wyborczym doszło do bezprawnego zaniżania cen hurtowych paliw - powiedział na wtorkowej konferencji prasowej Waldemar Żurek, komentując sprawę zatrzymania pięciu byłych i obecnych menadżerów Orlenu. Prokurator generalny odniósł się także do słów byłego prezesa spółki Daniela Obajtka…",
+        "source": {
+          "id": "polsatnews",
+          "name": "Polsat News"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:28:00.000Z",
+        "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/i3/i3nb4oijsesencsixi7z9rgtovpg8my6.jpg",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:28:00.000Z"
+    },
+    {
+      "id": "ErC8BbZEwilu",
+      "representative": {
+        "id": "ErC8BbZEwilu",
+        "url": "https://wiadomosci.onet.pl/politico/le-pen-wyciaga-stary-plan-tak-skrajna-prawica-chce-uratowac-francje/nfwk16j",
+        "canonicalUrl": "https://wiadomosci.onet.pl/politico/le-pen-wyciaga-stary-plan-tak-skrajna-prawica-chce-uratowac-francje/nfwk16j",
+        "title": "Marine Le Pen straszy bankructwem Francji. Jej asem w rękawie ma być \"stary\" plan",
+        "description": "Liderka skrajnej prawicy próbuje uspokoić rynki zaniepokojone fatalnymi perspektywami budżetowymi Francji, przedstawiając plan oszczędnościowy o wartości 140 mld euro (611,6 mld zł według obecnego kursu walut), ale ten nowy plan bardzo przypomina jej poprzedni.",
+        "source": {
+          "id": "onet",
+          "name": "Onet"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:21:59.000Z",
+        "imageUrl": "https://cdn.wiadomosci.onet.pl/1/Kx2k9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy8yZjNmYjdmZjM5Y2JlM2NiNmU0YjYzZTMwNDNjZjg5MC5qcGeSlQMAzQFSzRBQzQktkwXNCWDNBkDeAAKhMAehMQQ",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:21:59.000Z"
     }
   ]
 }

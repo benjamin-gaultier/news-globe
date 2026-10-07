@@ -4,92 +4,8 @@
   "countryName": "France",
   "regionCode": "FR-IDF",
   "regionName": "Île-de-France",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "3ZS0Ual4bJLl",
-      "representative": {
-        "id": "3ZS0Ual4bJLl",
-        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/la-fete-des-vendanges-de-montmartre-donne-le-rythme-pour-sa-93e-edition-3428154.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/la-fete-des-vendanges-de-montmartre-donne-le-rythme-pour-sa-93e-edition-3428154.html",
-        "title": "La Fête des Vendanges de Montmartre donne le rythme pour sa 93e édition",
-        "description": "Du 7 au 11 octobre 2026, la Fête des Vendanges de Montmartre investit tout le 18e arrondissement pour cinq jours de festivités.",
-        "source": {
-          "id": "france3_idf",
-          "name": "France 3 Paris Île-de-France"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:18:13.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/sWlQBvqyUGT5lIr3FdIRb_VmDoQ/930x620/filters:format(webp)/regions/2026/10/05/6ac37c9a9f209225789984.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-IDF"
-      },
-      "related": [
-        {
-          "id": "XSQSjV0yMIWg",
-          "url": "https://www.20minutes.fr/tempo/sortir/4251705-20261006-fete-vendanges-montmartre-attend-rues-paris?at_medium=display&at_campaign=149",
-          "canonicalUrl": "https://www.20minutes.fr/tempo/sortir/4251705-20261006-fete-vendanges-montmartre-attend-rues-paris",
-          "title": "Fête des Vendanges de Montmartre : ce qui vous attend dans les rues de Paris",
-          "description": "À l’automne, Montmartre a ses habitudes. La Fête des Vendanges revient cette semaine avec cinq jours d’animations au cœur du quartier",
-          "source": {
-            "id": "20minutes_paris",
-            "name": "20 Minutes Paris"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T11:17:36.000Z",
-          "imageUrl": "https://img.20mn.fr/JIcyXj1iRxm1KCC79N3LByk/1200x768_roses-jardin-butte-montmartre-avril-2020",
-          "countryCode": "FR",
-          "regionCode": "FR-IDF"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:18:13.000Z"
-    },
-    {
-      "id": "wZm-oNhR5VYo",
-      "representative": {
-        "id": "wZm-oNhR5VYo",
-        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/yvelines/yvelines-pourquoi-le-chateau-de-versailles-a-ferme-subitement-ses-portes-ce-mardi-3428835.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/yvelines/yvelines-pourquoi-le-chateau-de-versailles-a-ferme-subitement-ses-portes-ce-mardi-3428835.html",
-        "title": "Yvelines : pourquoi le château de Versailles a fermé subitement ses portes ce mardi",
-        "description": "Le château de Versailles et une partie du département des Yvelines, se sont retrouvés dans le noir, ce mardi. Au total 30 000 foyers ont été impactés. On connaît désormais l'origine de l'incident.",
-        "source": {
-          "id": "france3_idf",
-          "name": "France 3 Paris Île-de-France"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:19:55.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/lEKn4FOf8-vP7hOeEpZt51LK4ac/930x620/filters:format(webp)/regions/2026/10/06/6ac4eb5806174992604503.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-IDF"
-      },
-      "related": [
-        {
-          "id": "Wnqmsmb67c4a",
-          "url": "https://www.bfmtv.com/paris/yvelines/le-chateau-de-versailles-ferme-en-raison-d-une-panne-d-electricite-importante-dans-les-yvelines_AN-202610060517.html",
-          "canonicalUrl": "https://www.bfmtv.com/paris/yvelines/le-chateau-de-versailles-ferme-en-raison-d-une-panne-d-electricite-importante-dans-les-yvelines_AN-202610060517.html",
-          "title": "Le château de Versailles fermé en raison d'une panne d'électricité \"importante\" dans les Yvelines",
-          "description": "Après une panne d'électricité dans le département des Yvelines, le château de Versailles a été contraint de fermer ses portes jusqu'à nouvel ordre ce mardi.",
-          "source": {
-            "id": "bfm_paris",
-            "name": "BFM Paris"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T11:21:45.000Z",
-          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/zSSKxSlteOFPDwnJlUZB09l9_PE=/0x186:2048x1338/800x0/images/Le-chateau-de-Versailles-2298617.jpg",
-          "countryCode": "FR",
-          "regionCode": "FR-IDF"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:19:55.000Z"
-    },
     {
       "id": "3XrtC06qe4C-",
       "representative": {
@@ -259,6 +175,48 @@
       "latestPublishedAt": "2026-10-06T16:06:31.000Z"
     },
     {
+      "id": "3ZS0Ual4bJLl",
+      "representative": {
+        "id": "3ZS0Ual4bJLl",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/la-fete-des-vendanges-de-montmartre-donne-le-rythme-pour-sa-93e-edition-3428154.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/la-fete-des-vendanges-de-montmartre-donne-le-rythme-pour-sa-93e-edition-3428154.html",
+        "title": "La Fête des Vendanges de Montmartre donne le rythme pour sa 93e édition",
+        "description": "Du 7 au 11 octobre 2026, la Fête des Vendanges de Montmartre investit tout le 18e arrondissement pour cinq jours de festivités.",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:18:13.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/sWlQBvqyUGT5lIr3FdIRb_VmDoQ/930x620/filters:format(webp)/regions/2026/10/05/6ac37c9a9f209225789984.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [
+        {
+          "id": "XSQSjV0yMIWg",
+          "url": "https://www.20minutes.fr/tempo/sortir/4251705-20261006-fete-vendanges-montmartre-attend-rues-paris?at_medium=display&at_campaign=149",
+          "canonicalUrl": "https://www.20minutes.fr/tempo/sortir/4251705-20261006-fete-vendanges-montmartre-attend-rues-paris",
+          "title": "Fête des Vendanges de Montmartre : ce qui vous attend dans les rues de Paris",
+          "description": "À l’automne, Montmartre a ses habitudes. La Fête des Vendanges revient cette semaine avec cinq jours d’animations au cœur du quartier",
+          "source": {
+            "id": "20minutes_paris",
+            "name": "20 Minutes Paris"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T11:17:36.000Z",
+          "imageUrl": "https://img.20mn.fr/JIcyXj1iRxm1KCC79N3LByk/1200x768_roses-jardin-butte-montmartre-avril-2020",
+          "countryCode": "FR",
+          "regionCode": "FR-IDF"
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:18:13.000Z"
+    },
+    {
       "id": "JY0YvLrO7aXN",
       "representative": {
         "id": "JY0YvLrO7aXN",
@@ -305,6 +263,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:20:26.000Z"
+    },
+    {
+      "id": "wZm-oNhR5VYo",
+      "representative": {
+        "id": "wZm-oNhR5VYo",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/yvelines/yvelines-pourquoi-le-chateau-de-versailles-a-ferme-subitement-ses-portes-ce-mardi-3428835.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/yvelines/yvelines-pourquoi-le-chateau-de-versailles-a-ferme-subitement-ses-portes-ce-mardi-3428835.html",
+        "title": "Yvelines : pourquoi le château de Versailles a fermé subitement ses portes ce mardi",
+        "description": "Le château de Versailles et une partie du département des Yvelines, se sont retrouvés dans le noir, ce mardi. Au total 30 000 foyers ont été impactés. On connaît désormais l'origine de l'incident.",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:19:55.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/lEKn4FOf8-vP7hOeEpZt51LK4ac/930x620/filters:format(webp)/regions/2026/10/06/6ac4eb5806174992604503.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [
+        {
+          "id": "Wnqmsmb67c4a",
+          "url": "https://www.bfmtv.com/paris/yvelines/le-chateau-de-versailles-ferme-en-raison-d-une-panne-d-electricite-importante-dans-les-yvelines_AN-202610060517.html",
+          "canonicalUrl": "https://www.bfmtv.com/paris/yvelines/le-chateau-de-versailles-ferme-en-raison-d-une-panne-d-electricite-importante-dans-les-yvelines_AN-202610060517.html",
+          "title": "Le château de Versailles fermé en raison d'une panne d'électricité \"importante\" dans les Yvelines",
+          "description": "Après une panne d'électricité dans le département des Yvelines, le château de Versailles a été contraint de fermer ses portes jusqu'à nouvel ordre ce mardi.",
+          "source": {
+            "id": "bfm_paris",
+            "name": "BFM Paris"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T11:21:45.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/zSSKxSlteOFPDwnJlUZB09l9_PE=/0x186:2048x1338/800x0/images/Le-chateau-de-Versailles-2298617.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-IDF"
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:19:55.000Z"
     },
     {
       "id": "uTf0tiN1pkq5",
@@ -374,7 +374,7 @@
         "regionCode": "FR-IDF"
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:29:16.000Z"
     },
@@ -398,7 +398,7 @@
         "regionCode": "FR-IDF"
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:29:15.000Z"
     }

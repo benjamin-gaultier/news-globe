@@ -2,8 +2,185 @@
   "schemaVersion": 1,
   "countryCode": "RU",
   "countryName": "Russia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
+    {
+      "id": "K83V6yu_SyfT",
+      "representative": {
+        "id": "K83V6yu_SyfT",
+        "url": "https://tass.ru/politika/28163403",
+        "canonicalUrl": "https://tass.ru/politika/28163403",
+        "title": "Ушаков: проработка встречи Путина и Трампа на саммите АТЭС еще не началась",
+        "description": null,
+        "source": {
+          "id": "tass",
+          "name": "TASS"
+        },
+        "sourceCountry": "RU",
+        "language": "ru",
+        "publishedAt": "2026-10-06T16:00:50.000Z",
+        "imageUrl": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20251016/8529899.jpg",
+        "countryCode": "RU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "9oANogQt2pqQ",
+          "url": "https://www.rbc.ru/rbcfreenews/6ac51d85afca962a25f82e1c",
+          "canonicalUrl": "https://www.rbc.ru/rbcfreenews/6ac51d85afca962a25f82e1c",
+          "title": "Ушаков назвал дату встречи Путина с президентом Ирана",
+          "description": "Президент России Владимир Путин 9 октября проведет двустороннюю встречу с президентом Ирана Масудом Пезешкианом в Туркменистане, сообщил журналистам помощник российского президента Юрий Ушаков, передает корреспондент РБК.",
+          "source": {
+            "id": "rbc",
+            "name": "RBC"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T16:13:29.000Z",
+          "imageUrl": null,
+          "countryCode": "RU",
+          "regionCode": null
+        },
+        {
+          "id": "gP9SajkKDH25",
+          "url": "https://www.interfax.ru/world/1120704",
+          "canonicalUrl": "https://www.interfax.ru/world/1120704",
+          "title": "Проработкой встречи Путина, Трампа и Си Цзиньпина на саммите АТЭС пока никто не занимался",
+          "description": "Практическая проработка трехсторонней встречи президентов РФ Владимира Путина, США Дональда Трампа и председателя КНР Си Цзиньпина еще не начиналась, но об этой идее знают все три лидера, заявили в Кремле.\"Практического обсуждения на этот счёт пока ещё не было, но я подтверждаю, что это интересная…",
+          "source": {
+            "id": "interfax",
+            "name": "Interfax"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T16:05:00.000Z",
+          "imageUrl": null,
+          "countryCode": "RU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T16:13:29.000Z"
+    },
+    {
+      "id": "rYoiju0ryFcA",
+      "representative": {
+        "id": "rYoiju0ryFcA",
+        "url": "https://tass.ru/proisshestviya/28187651",
+        "canonicalUrl": "https://tass.ru/proisshestviya/28187651",
+        "title": "В Белгородской области при атаке дронов пострадали два человека",
+        "description": "Они получили акубаротравмы",
+        "source": {
+          "id": "tass",
+          "name": "TASS"
+        },
+        "sourceCountry": "RU",
+        "language": "ru",
+        "publishedAt": "2026-10-06T15:06:20.000Z",
+        "imageUrl": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20261006/9454659.jpg",
+        "countryCode": "RU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "rcLo40etTlhA",
+          "url": "https://www.kommersant.ru/doc/9007595",
+          "canonicalUrl": "https://www.kommersant.ru/doc/9007595",
+          "title": "Два человека пострадали при ударе дронов в Белгородской области",
+          "description": "Двое мужчин пострадали при ударе беспилотников по Белгородской области. Один получил травму при налете FPV-дрона на сельхозтехнику в селе Белянка Шебекинского округа, другой -- при ударе БПЛА по автомобилю в городе Шебекино.",
+          "source": {
+            "id": "kommersant",
+            "name": "Kommersant"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T16:06:19.000Z",
+          "imageUrl": null,
+          "countryCode": "RU",
+          "regionCode": null
+        },
+        {
+          "id": "TrQsVALWlGFm",
+          "url": "https://www.interfax.ru/russia/1120693",
+          "canonicalUrl": "https://www.interfax.ru/russia/1120693",
+          "title": "Два человека пострадали при ударах дронов в Белгородской области",
+          "description": "Оперативный штаб Белгородской области сообщает о новых атаках украинских дронов на регион во вторник, пострадали два человека.\"В городской больнице №2 Белгорода оказали помощь мужчине, который получил акубаротравму в результате атаки FPV-дрона на сельхозтехнику в селе Белянка Шебекинского округа.",
+          "source": {
+            "id": "interfax",
+            "name": "Interfax"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T15:17:00.000Z",
+          "imageUrl": null,
+          "countryCode": "RU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T16:06:19.000Z"
+    },
+    {
+      "id": "yBt1Nm1CABGf",
+      "representative": {
+        "id": "yBt1Nm1CABGf",
+        "url": "https://www.kommersant.ru/doc/9007289",
+        "canonicalUrl": "https://www.kommersant.ru/doc/9007289",
+        "title": "Бывшего главу разведки ФРГ задержали по подозрению в шпионаже",
+        "description": "В Германии задержан бывший глава Федеральной разведывательной службы (BND) Август Ханнинг. Его подозревают в госизмене и шпионаже, сообщают Bild и Tagesschau.",
+        "source": {
+          "id": "kommersant",
+          "name": "Kommersant"
+        },
+        "sourceCountry": "RU",
+        "language": "ru",
+        "publishedAt": "2026-10-06T11:07:19.000Z",
+        "imageUrl": null,
+        "countryCode": "RU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "KhCdBJJ2sK62",
+          "url": "https://www.rbc.ru/rbcfreenews/6ac500117ef87df7496452f3",
+          "canonicalUrl": "https://www.rbc.ru/rbcfreenews/6ac500117ef87df7496452f3",
+          "title": "В Германии арестовали бывшего главу разведки по обвинению в шпионаже",
+          "description": "Немецкие власти арестовали бывшего главу Федеральной разведывательной службы Германии (BND) Августа Ханнинга по обвинению в шпионаже и пособничестве иностранным правительствам.",
+          "source": {
+            "id": "rbc",
+            "name": "RBC"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T15:05:23.000Z",
+          "imageUrl": "https://s0.rbk.ru/v6_top_pics/media/img/1/48/527912962379481.jpeg",
+          "countryCode": "RU",
+          "regionCode": null
+        },
+        {
+          "id": "k7wEeYQt6fVm",
+          "url": "https://www.vedomosti.ru/politics/news/2026/10/06/1234759-germanii-zaderzhali",
+          "canonicalUrl": "https://www.vedomosti.ru/politics/news/2026/10/06/1234759-germanii-zaderzhali",
+          "title": "В Германии задержали экс-главу разведки по делу о шпионаже",
+          "description": null,
+          "source": {
+            "id": "vedomosti",
+            "name": "Vedomosti"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T14:10:23.000Z",
+          "imageUrl": "https://cdn5.vedomosti.ru/image/2026/7r/11gdj1/normal-1cji.jpg",
+          "countryCode": "RU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T15:05:23.000Z"
+    },
     {
       "id": "MTkVcaPescGs",
       "representative": {
@@ -76,363 +253,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
+      "outletCount24h": 3,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T15:03:24.000Z"
-    },
-    {
-      "id": "K83V6yu_SyfT",
-      "representative": {
-        "id": "K83V6yu_SyfT",
-        "url": "https://tass.ru/politika/28163403",
-        "canonicalUrl": "https://tass.ru/politika/28163403",
-        "title": "Ушаков: проработка встречи Путина и Трампа на саммите АТЭС еще не началась",
-        "description": null,
-        "source": {
-          "id": "tass",
-          "name": "TASS"
-        },
-        "sourceCountry": "RU",
-        "language": "ru",
-        "publishedAt": "2026-10-06T16:00:50.000Z",
-        "imageUrl": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20251016/8529899.jpg",
-        "countryCode": "RU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "9oANogQt2pqQ",
-          "url": "https://www.rbc.ru/rbcfreenews/6ac51d85afca962a25f82e1c",
-          "canonicalUrl": "https://www.rbc.ru/rbcfreenews/6ac51d85afca962a25f82e1c",
-          "title": "Ушаков назвал дату встречи Путина с президентом Ирана",
-          "description": "Президент России Владимир Путин 9 октября проведет двустороннюю встречу с президентом Ирана Масудом Пезешкианом в Туркменистане, сообщил журналистам помощник российского президента Юрий Ушаков, передает корреспондент РБК.",
-          "source": {
-            "id": "rbc",
-            "name": "RBC"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T16:13:29.000Z",
-          "imageUrl": null,
-          "countryCode": "RU",
-          "regionCode": null
-        },
-        {
-          "id": "gP9SajkKDH25",
-          "url": "https://www.interfax.ru/world/1120704",
-          "canonicalUrl": "https://www.interfax.ru/world/1120704",
-          "title": "Проработкой встречи Путина, Трампа и Си Цзиньпина на саммите АТЭС пока никто не занимался",
-          "description": "Практическая проработка трехсторонней встречи президентов РФ Владимира Путина, США Дональда Трампа и председателя КНР Си Цзиньпина еще не начиналась, но об этой идее знают все три лидера, заявили в Кремле.\"Практического обсуждения на этот счёт пока ещё не было, но я подтверждаю, что это интересная…",
-          "source": {
-            "id": "interfax",
-            "name": "Interfax"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T16:05:00.000Z",
-          "imageUrl": null,
-          "countryCode": "RU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T16:13:29.000Z"
-    },
-    {
-      "id": "g9rErErWF5B_",
-      "representative": {
-        "id": "g9rErErWF5B_",
-        "url": "https://tass.ru/politika/28187773",
-        "canonicalUrl": "https://tass.ru/politika/28187773",
-        "title": "Путин в день рождения проведет серию телефонных разговоров с зарубежными лидерами",
-        "description": null,
-        "source": {
-          "id": "tass",
-          "name": "TASS"
-        },
-        "sourceCountry": "RU",
-        "language": "ru",
-        "publishedAt": "2026-10-06T16:01:04.000Z",
-        "imageUrl": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20250128/8033165.jpg",
-        "countryCode": "RU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "DEaGrjaNnHxG",
-          "url": "https://www.vedomosti.ru/politics/news/2026/10/06/1234816-putin-den-rozhdeniya",
-          "canonicalUrl": "https://www.vedomosti.ru/politics/news/2026/10/06/1234816-putin-den-rozhdeniya",
-          "title": "Путин в день рождения проведет телефонные разговоры с зарубежными лидерами",
-          "description": null,
-          "source": {
-            "id": "vedomosti",
-            "name": "Vedomosti"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T16:08:38.000Z",
-          "imageUrl": null,
-          "countryCode": "RU",
-          "regionCode": null
-        },
-        {
-          "id": "LlwNoOsx7prD",
-          "url": "https://www.kommersant.ru/doc/9007325",
-          "canonicalUrl": "https://www.kommersant.ru/doc/9007325",
-          "title": "Песков рассказал о графике Путина в день рождения // Песков: Путин в день рождения 7 октября проведет серию международных звонков",
-          "description": "Президент России Владимир Путин в день рождения 7 октября проведет серию международных телефонных переговоров и поучаствует в других мероприятиях. Полностью праздничным этот день у главы государства бывает редко, рассказал его пресс-секретарь Дмитрий Песков.",
-          "source": {
-            "id": "kommersant",
-            "name": "Kommersant"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T11:55:50.000Z",
-          "imageUrl": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/10/06/KMO_207241_00011_1_t219_151447.jpg",
-          "countryCode": "RU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T16:08:38.000Z"
-    },
-    {
-      "id": "rYoiju0ryFcA",
-      "representative": {
-        "id": "rYoiju0ryFcA",
-        "url": "https://tass.ru/proisshestviya/28187651",
-        "canonicalUrl": "https://tass.ru/proisshestviya/28187651",
-        "title": "В Белгородской области при атаке дронов пострадали два человека",
-        "description": "Они получили акубаротравмы",
-        "source": {
-          "id": "tass",
-          "name": "TASS"
-        },
-        "sourceCountry": "RU",
-        "language": "ru",
-        "publishedAt": "2026-10-06T15:06:20.000Z",
-        "imageUrl": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20261006/9454659.jpg",
-        "countryCode": "RU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rcLo40etTlhA",
-          "url": "https://www.kommersant.ru/doc/9007595",
-          "canonicalUrl": "https://www.kommersant.ru/doc/9007595",
-          "title": "Два человека пострадали при ударе дронов в Белгородской области",
-          "description": "Двое мужчин пострадали при ударе беспилотников по Белгородской области. Один получил травму при налете FPV-дрона на сельхозтехнику в селе Белянка Шебекинского округа, другой -- при ударе БПЛА по автомобилю в городе Шебекино.",
-          "source": {
-            "id": "kommersant",
-            "name": "Kommersant"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T16:06:19.000Z",
-          "imageUrl": null,
-          "countryCode": "RU",
-          "regionCode": null
-        },
-        {
-          "id": "TrQsVALWlGFm",
-          "url": "https://www.interfax.ru/russia/1120693",
-          "canonicalUrl": "https://www.interfax.ru/russia/1120693",
-          "title": "Два человека пострадали при ударах дронов в Белгородской области",
-          "description": "Оперативный штаб Белгородской области сообщает о новых атаках украинских дронов на регион во вторник, пострадали два человека.\"В городской больнице №2 Белгорода оказали помощь мужчине, который получил акубаротравму в результате атаки FPV-дрона на сельхозтехнику в селе Белянка Шебекинского округа.",
-          "source": {
-            "id": "interfax",
-            "name": "Interfax"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T15:17:00.000Z",
-          "imageUrl": null,
-          "countryCode": "RU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T16:06:19.000Z"
-    },
-    {
-      "id": "DI_BIhgxU--s",
-      "representative": {
-        "id": "DI_BIhgxU--s",
-        "url": "https://www.vedomosti.ru/society/news/2026/10/06/1234602-ugolovnoe-delo-vozbuzhdeno",
-        "canonicalUrl": "https://www.vedomosti.ru/society/news/2026/10/06/1234602-ugolovnoe-delo-vozbuzhdeno",
-        "title": "Уголовное дело возбуждено из-за нарушений при производстве «Мультикана-8»",
-        "description": null,
-        "source": {
-          "id": "vedomosti",
-          "name": "Vedomosti"
-        },
-        "sourceCountry": "RU",
-        "language": "ru",
-        "publishedAt": "2026-10-06T08:26:35.000Z",
-        "imageUrl": "https://cdn5.vedomosti.ru/image/2026/7r/o2ky6/normal-v73.jpg",
-        "countryCode": "RU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "lSUVreUPyRBl",
-          "url": "https://www.kommersant.ru/doc/9007579",
-          "canonicalUrl": "https://www.kommersant.ru/doc/9007579",
-          "title": "После проверки вакцины «Мультикан-8» возбуждено уголовное дело",
-          "description": "Как стало известно “Ъ”, на основании материалов прокурорской проверки частной компании—изготовителя вакцин «Ветбиохим» полицией Москвы возбуждено уголовное дело. Пока речь идет об использовании поддельного паспорта продукции при вводе в оборот вакцины для собак.",
-          "source": {
-            "id": "kommersant",
-            "name": "Kommersant"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T15:36:00.000Z",
-          "imageUrl": null,
-          "countryCode": "RU",
-          "regionCode": null
-        },
-        {
-          "id": "tc7DZkKX3Rti",
-          "url": "https://meduza.io/news/2026/10/06/prokuratura-vozbudila-ugolovnoe-delo-iz-za-narusheniy-pri-proizvodstve-multikana-8-eto-vaktsina-iz-za-kotoroy-pogibli-desyatki-sobak",
-          "canonicalUrl": "https://meduza.io/news/2026/10/06/prokuratura-vozbudila-ugolovnoe-delo-iz-za-narusheniy-pri-proizvodstve-multikana-8-eto-vaktsina-iz-za-kotoroy-pogibli-desyatki-sobak",
-          "title": "Возбуждено уголовное дело из-за нарушений при производстве «Мультикана-8». Это вакцина, из-за которой погибли десятки собак",
-          "description": "По материалам прокуратуры Москвы возбуждено уголовное дело об использовании заведомо подложного документа компанией-производителем вакцины для ветеринарного применения.",
-          "source": {
-            "id": "meduza",
-            "name": "Meduza"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T09:32:28.000Z",
-          "imageUrl": "https://meduza.io/imgly/share/1791282856/news/2026/10/06/prokuratura-vozbudila-ugolovnoe-delo-iz-za-narusheniy-pri-proizvodstve-multikana-8-eto-vaktsina-iz-za-kotoroy-pogibli-desyatki-sobak",
-          "countryCode": "RU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T15:36:00.000Z"
-    },
-    {
-      "id": "VssHxLyHCG5k",
-      "representative": {
-        "id": "VssHxLyHCG5k",
-        "url": "https://www.interfax.ru/world/1120694",
-        "canonicalUrl": "https://www.interfax.ru/world/1120694",
-        "title": "Фон дер Ляйен настаивает, что к концу 2027 года ЕС сведет к нулю импорт газа из РФ",
-        "description": "Председатель Еврокомиссии Урсула фон дер Ляйен заявила, что благополучие Евросоюза остаётся уязвимым перед событиями, которые он не в состоянии контролировать, пока ЕС зависит от поставок нефти и газа.\"Импортируя ископаемое топливо, мы импортируем и сопутствующие ему потрясения и кризисы.",
-        "source": {
-          "id": "interfax",
-          "name": "Interfax"
-        },
-        "sourceCountry": "RU",
-        "language": "ru",
-        "publishedAt": "2026-10-06T15:26:00.000Z",
-        "imageUrl": null,
-        "countryCode": "RU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "7TtX2KKXFu_z",
-          "url": "https://www.kommersant.ru/doc/9007469",
-          "canonicalUrl": "https://www.kommersant.ru/doc/9007469",
-          "title": "Глава ЕК анонсировала полный отказ от российского газа к концу 2027 года // Фон дер Ляйен: ЕК сведет к нулю закупки российского газа к концу 2027 года",
-          "description": "Рост цен на газ в странах Евросоюза (ЕС) с начала года составил 140%. При этом Еврокомиссия (ЕК) продолжает требовать от союзников полностью отказаться от закупок российского газа до конца 2027 года.",
-          "source": {
-            "id": "kommersant",
-            "name": "Kommersant"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T13:50:05.000Z",
-          "imageUrl": null,
-          "countryCode": "RU",
-          "regionCode": null
-        },
-        {
-          "id": "bULNcJQVWaFe",
-          "url": "https://www.vedomosti.ru/business/news/2026/10/06/1234640-polnostyu-otkazhetsya",
-          "canonicalUrl": "https://www.vedomosti.ru/business/news/2026/10/06/1234640-polnostyu-otkazhetsya",
-          "title": "Фон дер Ляйен: ЕС полностью откажется от импорта газа из России к концу года",
-          "description": null,
-          "source": {
-            "id": "vedomosti",
-            "name": "Vedomosti"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T10:27:44.000Z",
-          "imageUrl": "https://cdn5.vedomosti.ru/image/2026/7r/qxn1i/normal-ywn.jpg",
-          "countryCode": "RU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T15:26:00.000Z"
-    },
-    {
-      "id": "yBt1Nm1CABGf",
-      "representative": {
-        "id": "yBt1Nm1CABGf",
-        "url": "https://www.kommersant.ru/doc/9007289",
-        "canonicalUrl": "https://www.kommersant.ru/doc/9007289",
-        "title": "Бывшего главу разведки ФРГ задержали по подозрению в шпионаже",
-        "description": "В Германии задержан бывший глава Федеральной разведывательной службы (BND) Август Ханнинг. Его подозревают в госизмене и шпионаже, сообщают Bild и Tagesschau.",
-        "source": {
-          "id": "kommersant",
-          "name": "Kommersant"
-        },
-        "sourceCountry": "RU",
-        "language": "ru",
-        "publishedAt": "2026-10-06T11:07:19.000Z",
-        "imageUrl": null,
-        "countryCode": "RU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "KhCdBJJ2sK62",
-          "url": "https://www.rbc.ru/rbcfreenews/6ac500117ef87df7496452f3",
-          "canonicalUrl": "https://www.rbc.ru/rbcfreenews/6ac500117ef87df7496452f3",
-          "title": "В Германии арестовали бывшего главу разведки по обвинению в шпионаже",
-          "description": "Немецкие власти арестовали бывшего главу Федеральной разведывательной службы Германии (BND) Августа Ханнинга по обвинению в шпионаже и пособничестве иностранным правительствам.",
-          "source": {
-            "id": "rbc",
-            "name": "RBC"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T15:05:23.000Z",
-          "imageUrl": "https://s0.rbk.ru/v6_top_pics/media/img/1/48/527912962379481.jpeg",
-          "countryCode": "RU",
-          "regionCode": null
-        },
-        {
-          "id": "k7wEeYQt6fVm",
-          "url": "https://www.vedomosti.ru/politics/news/2026/10/06/1234759-germanii-zaderzhali",
-          "canonicalUrl": "https://www.vedomosti.ru/politics/news/2026/10/06/1234759-germanii-zaderzhali",
-          "title": "В Германии задержали экс-главу разведки по делу о шпионаже",
-          "description": null,
-          "source": {
-            "id": "vedomosti",
-            "name": "Vedomosti"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T14:10:23.000Z",
-          "imageUrl": "https://cdn5.vedomosti.ru/image/2026/7r/11gdj1/normal-1cji.jpg",
-          "countryCode": "RU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T15:05:23.000Z"
     },
     {
       "id": "57Ky8G8BATU4",
@@ -494,65 +317,6 @@
       "latestPublishedAt": "2026-10-06T14:53:45.000Z"
     },
     {
-      "id": "0LjdzGppTreE",
-      "representative": {
-        "id": "0LjdzGppTreE",
-        "url": "https://www.kommersant.ru/doc/9006339",
-        "canonicalUrl": "https://www.kommersant.ru/doc/9006339",
-        "title": "Нобелевскую премию по медицине присудили за исследования в области оптогенетики",
-        "description": "Нобелевская премия 2026 года по медицине и физиологии присуждена Карлу Дейссероту, Георгу Нагелю и Петеру Хегеману. Как объявил Нобелевский комитет в Стокгольме, ученые награждены за исследования светоуправляемых ионных каналов и оптогенетики.",
-        "source": {
-          "id": "kommersant",
-          "name": "Kommersant"
-        },
-        "sourceCountry": "RU",
-        "language": "ru",
-        "publishedAt": "2026-10-05T09:43:05.000Z",
-        "imageUrl": null,
-        "countryCode": "RU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "qg1oFPYVs768",
-          "url": "https://novayagazeta.eu/articles/2026/10/06/nobelevskuiu-premiiu-po-fizike-prisudili-za-issledovaniia-neitrino-news",
-          "canonicalUrl": "https://novayagazeta.eu/articles/2026/10/06/nobelevskuiu-premiiu-po-fizike-prisudili-za-issledovaniia-neitrino-news",
-          "title": "Нобелевскую премию по физике присудили за исследования нейтрино",
-          "description": "Бельгийско-американский физик Фрэнсис Халзен получил Нобелевскую премию по физике за вклад в создание нейтринной обсерватории IceCube и открытие высокоэнергетических нейтрино астрофизического происхождения. Об этом сообщается на сайте премии. Исследования. Халзен предложил использовать лед Южного…",
-          "source": {
-            "id": "novayagazeta_eu",
-            "name": "Novaya Gazeta Europe"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T10:33:53.000Z",
-          "imageUrl": null,
-          "countryCode": "RU",
-          "regionCode": null
-        },
-        {
-          "id": "IBh_yG2cqx7O",
-          "url": "https://www.vedomosti.ru/society/news/2026/10/06/1234650-nobelevskuyu-premiyu-fizike",
-          "canonicalUrl": "https://www.vedomosti.ru/society/news/2026/10/06/1234650-nobelevskuyu-premiyu-fizike",
-          "title": "Нобелевскую премию по физике присудили за обсерваторию на Южном полюсе",
-          "description": null,
-          "source": {
-            "id": "vedomosti",
-            "name": "Vedomosti"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T09:59:18.000Z",
-          "imageUrl": "https://cdn5.vedomosti.ru/image/2026/7r/rs4mx/normal-1006.jpg",
-          "countryCode": "RU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T10:33:53.000Z"
-    },
-    {
       "id": "Rez8wq7u-WrD",
       "representative": {
         "id": "Rez8wq7u-WrD",
@@ -595,6 +359,65 @@
       "latestPublishedAt": "2026-10-06T16:09:41.000Z"
     },
     {
+      "id": "g9rErErWF5B_",
+      "representative": {
+        "id": "g9rErErWF5B_",
+        "url": "https://tass.ru/politika/28187773",
+        "canonicalUrl": "https://tass.ru/politika/28187773",
+        "title": "Путин в день рождения проведет серию телефонных разговоров с зарубежными лидерами",
+        "description": null,
+        "source": {
+          "id": "tass",
+          "name": "TASS"
+        },
+        "sourceCountry": "RU",
+        "language": "ru",
+        "publishedAt": "2026-10-06T16:01:04.000Z",
+        "imageUrl": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20250128/8033165.jpg",
+        "countryCode": "RU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "DEaGrjaNnHxG",
+          "url": "https://www.vedomosti.ru/politics/news/2026/10/06/1234816-putin-den-rozhdeniya",
+          "canonicalUrl": "https://www.vedomosti.ru/politics/news/2026/10/06/1234816-putin-den-rozhdeniya",
+          "title": "Путин в день рождения проведет телефонные разговоры с зарубежными лидерами",
+          "description": null,
+          "source": {
+            "id": "vedomosti",
+            "name": "Vedomosti"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T16:08:38.000Z",
+          "imageUrl": null,
+          "countryCode": "RU",
+          "regionCode": null
+        },
+        {
+          "id": "LlwNoOsx7prD",
+          "url": "https://www.kommersant.ru/doc/9007325",
+          "canonicalUrl": "https://www.kommersant.ru/doc/9007325",
+          "title": "Песков рассказал о графике Путина в день рождения // Песков: Путин в день рождения 7 октября проведет серию международных звонков",
+          "description": "Президент России Владимир Путин в день рождения 7 октября проведет серию международных телефонных переговоров и поучаствует в других мероприятиях. Полностью праздничным этот день у главы государства бывает редко, рассказал его пресс-секретарь Дмитрий Песков.",
+          "source": {
+            "id": "kommersant",
+            "name": "Kommersant"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T11:55:50.000Z",
+          "imageUrl": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/10/06/KMO_207241_00011_1_t219_151447.jpg",
+          "countryCode": "RU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T16:08:38.000Z"
+    },
+    {
       "id": "uBTsca6xwPDy",
       "representative": {
         "id": "uBTsca6xwPDy",
@@ -635,48 +458,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T16:02:21.000Z"
-    },
-    {
-      "id": "5EOUa_0WTlwa",
-      "representative": {
-        "id": "5EOUa_0WTlwa",
-        "url": "https://tass.ru/sport/28187767",
-        "canonicalUrl": "https://tass.ru/sport/28187767",
-        "title": "Довел до конфликта. \"Металлург\" отстранил от работы тренера команды Разина",
-        "description": "Исполняющим обязанности главного тренера магнитогорской команды стал Владимир Воробьев",
-        "source": {
-          "id": "tass",
-          "name": "TASS"
-        },
-        "sourceCountry": "RU",
-        "language": "ru",
-        "publishedAt": "2026-10-06T16:01:13.000Z",
-        "imageUrl": "https://cdn-media.tass.ru/fit/400x300_b2b00b17/tass/m2/uploads/i/20261006/9454767.jpg",
-        "countryCode": "RU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Ke6Zyg9d09qC",
-          "url": "https://www.kommersant.ru/doc/9007197",
-          "canonicalUrl": "https://www.kommersant.ru/doc/9007197",
-          "title": "Клуб КХЛ «Металлург» отстранил от работы главного тренера Андрея Разина",
-          "description": "Магнитогорский хоккейный клуб «Металлург» отстранил от работы главного тренера Андрея Разина. Исполняющим обязанности назначен Владимир Воробьев.",
-          "source": {
-            "id": "kommersant",
-            "name": "Kommersant"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T09:27:37.000Z",
-          "imageUrl": "https://im2.kommersant.ru/Issues.photo2/NEWS/2026/10/06/KMO_198920_00132_1_t219_123255.jpg",
-          "countryCode": "RU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:01:13.000Z"
     },
     {
       "id": "xjBnif6fcrwc",
@@ -763,38 +544,38 @@
       "latestPublishedAt": "2026-10-06T15:57:39.000Z"
     },
     {
-      "id": "3LnCxbg-PFKA",
+      "id": "lDX-kIh44iis",
       "representative": {
-        "id": "3LnCxbg-PFKA",
-        "url": "https://tass.ru/proisshestviya/28187701",
-        "canonicalUrl": "https://tass.ru/proisshestviya/28187701",
-        "title": "В Горловке при ударе дрона ВСУ пострадал человек",
-        "description": "Украинские войска атаковали Никитовский район города",
+        "id": "lDX-kIh44iis",
+        "url": "https://www.rbc.ru/business/06/10/2026/6ac507ac30b03f2c7b24f453",
+        "canonicalUrl": "https://www.rbc.ru/business/06/10/2026/6ac507ac30b03f2c7b24f453",
+        "title": "Крупнейший энерготрейдер мира сообщил об исчерпании нефти на Западе",
+        "description": "На Западе исчерпаны запасы нефти, которые можно было бы использовать, заявил глава Vitol. Напряженная ситуация на рынке нефтепродуктов, по его словам, сохранится в ближайшие месяцы",
         "source": {
-          "id": "tass",
-          "name": "TASS"
+          "id": "rbc",
+          "name": "RBC"
         },
         "sourceCountry": "RU",
         "language": "ru",
-        "publishedAt": "2026-10-06T15:37:34.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T14:57:08.000Z",
+        "imageUrl": "https://s0.rbk.ru/v6_top_pics/media/img/5/11/197912991027115.jpeg",
         "countryCode": "RU",
         "regionCode": null
       },
       "related": [
         {
-          "id": "WPPv33hGWcxe",
-          "url": "https://www.kommersant.ru/doc/9007143",
-          "canonicalUrl": "https://www.kommersant.ru/doc/9007143",
-          "title": "Семь человек пострадали при ударе дрона по автобусу в Горловке",
-          "description": "Дрон ВСУ атаковал в Горловке автобус, который перевозил работников молочного предприятия, семь пассажиров получили ранения. Об этом сообщил мэр города Иван Приходько.",
+          "id": "e5I8eMNsPgiI",
+          "url": "https://www.vedomosti.ru/business/news/2026/10/06/1234801-ob-ischerpanii-zapasov",
+          "canonicalUrl": "https://www.vedomosti.ru/business/news/2026/10/06/1234801-ob-ischerpanii-zapasov",
+          "title": "Глава Vitol заявил об исчерпании запасов нефти на Западе",
+          "description": null,
           "source": {
-            "id": "kommersant",
-            "name": "Kommersant"
+            "id": "vedomosti",
+            "name": "Vedomosti"
           },
           "sourceCountry": "RU",
           "language": "ru",
-          "publishedAt": "2026-10-06T09:00:08.000Z",
+          "publishedAt": "2026-10-06T15:36:32.000Z",
           "imageUrl": null,
           "countryCode": "RU",
           "regionCode": null
@@ -802,7 +583,192 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:37:34.000Z"
+      "latestPublishedAt": "2026-10-06T15:36:32.000Z"
+    },
+    {
+      "id": "VssHxLyHCG5k",
+      "representative": {
+        "id": "VssHxLyHCG5k",
+        "url": "https://www.interfax.ru/world/1120694",
+        "canonicalUrl": "https://www.interfax.ru/world/1120694",
+        "title": "Фон дер Ляйен настаивает, что к концу 2027 года ЕС сведет к нулю импорт газа из РФ",
+        "description": "Председатель Еврокомиссии Урсула фон дер Ляйен заявила, что благополучие Евросоюза остаётся уязвимым перед событиями, которые он не в состоянии контролировать, пока ЕС зависит от поставок нефти и газа.\"Импортируя ископаемое топливо, мы импортируем и сопутствующие ему потрясения и кризисы.",
+        "source": {
+          "id": "interfax",
+          "name": "Interfax"
+        },
+        "sourceCountry": "RU",
+        "language": "ru",
+        "publishedAt": "2026-10-06T15:26:00.000Z",
+        "imageUrl": null,
+        "countryCode": "RU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "7TtX2KKXFu_z",
+          "url": "https://www.kommersant.ru/doc/9007469",
+          "canonicalUrl": "https://www.kommersant.ru/doc/9007469",
+          "title": "Глава ЕК анонсировала полный отказ от российского газа к концу 2027 года // Фон дер Ляйен: ЕК сведет к нулю закупки российского газа к концу 2027 года",
+          "description": "Рост цен на газ в странах Евросоюза (ЕС) с начала года составил 140%. При этом Еврокомиссия (ЕК) продолжает требовать от союзников полностью отказаться от закупок российского газа до конца 2027 года.",
+          "source": {
+            "id": "kommersant",
+            "name": "Kommersant"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T13:50:05.000Z",
+          "imageUrl": null,
+          "countryCode": "RU",
+          "regionCode": null
+        },
+        {
+          "id": "bULNcJQVWaFe",
+          "url": "https://www.vedomosti.ru/business/news/2026/10/06/1234640-polnostyu-otkazhetsya",
+          "canonicalUrl": "https://www.vedomosti.ru/business/news/2026/10/06/1234640-polnostyu-otkazhetsya",
+          "title": "Фон дер Ляйен: ЕС полностью откажется от импорта газа из России к концу года",
+          "description": null,
+          "source": {
+            "id": "vedomosti",
+            "name": "Vedomosti"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T10:27:44.000Z",
+          "imageUrl": "https://cdn5.vedomosti.ru/image/2026/7r/qxn1i/normal-ywn.jpg",
+          "countryCode": "RU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T15:26:00.000Z"
+    },
+    {
+      "id": "jK0SIZuuUsqN",
+      "representative": {
+        "id": "jK0SIZuuUsqN",
+        "url": "https://www.interfax.ru/world/1120682",
+        "canonicalUrl": "https://www.interfax.ru/world/1120682",
+        "title": "Власти Калифорнии раскритиковали Трампа, которого не огорчило бы уничтожение Лос-Анджелеса",
+        "description": "Губернатор Калифорнии Гэвин Ньюсом и мэр Лос-Анджелеса Карен Басс раскритиковали высказывания президента США Дональда Трампа о том, что он не стал бы сожалеть, если бы враги его страны уничтожили Лос-Анджелес и Сан-Диего, сообщают американские СМИ.\"Давайте внесём ясность: президент призывает к…",
+        "source": {
+          "id": "interfax",
+          "name": "Interfax"
+        },
+        "sourceCountry": "RU",
+        "language": "ru",
+        "publishedAt": "2026-10-06T14:24:00.000Z",
+        "imageUrl": "https://www.interfax.ru/ftproot/textphotos/2026/10/06/don1000.jpg",
+        "countryCode": "RU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "b47TduvHEk6i",
+          "url": "https://www.rbc.ru/politics/06/10/2026/6ac50ee4389826371d8ff6ce",
+          "canonicalUrl": "https://www.rbc.ru/politics/06/10/2026/6ac50ee4389826371d8ff6ce",
+          "title": "В Калифорнии назвали Трампа опасным после идеи уничтожения Лос-Анджелеса",
+          "description": "Губернатор Калифорнии назвал Трампа невменяемым и опасным, а мэры Сан-Диего и Лос-Анджелеса обвинили его в создании угрозы для городов. Накануне Трамп допустил уничтожение Лос-Анджелеса и Сан-Диего Ираном",
+          "source": {
+            "id": "rbc",
+            "name": "RBC"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T15:17:38.000Z",
+          "imageUrl": "https://s0.rbk.ru/v6_top_pics/media/img/6/12/117912997232126.jpeg",
+          "countryCode": "RU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:17:38.000Z"
+    },
+    {
+      "id": "TPYM7ZKfE9Qh",
+      "representative": {
+        "id": "TPYM7ZKfE9Qh",
+        "url": "https://www.vedomosti.ru/politics/news/2026/10/06/1234774-ek-predlozhila",
+        "canonicalUrl": "https://www.vedomosti.ru/politics/news/2026/10/06/1234774-ek-predlozhila",
+        "title": "ЕК предложила отказаться от права вето стран ЕС по санкциям и расширению",
+        "description": null,
+        "source": {
+          "id": "vedomosti",
+          "name": "Vedomosti"
+        },
+        "sourceCountry": "RU",
+        "language": "ru",
+        "publishedAt": "2026-10-06T14:44:40.000Z",
+        "imageUrl": null,
+        "countryCode": "RU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "XjzzUxlTXE0M",
+          "url": "https://www.kommersant.ru/doc/9007556",
+          "canonicalUrl": "https://www.kommersant.ru/doc/9007556",
+          "title": "Еврокомиссия предложила отменить право вето стран ЕС в решениях по санкциям",
+          "description": "Еврокомиссия предложила отменить право вето стран-участниц Евросоюза при принятии решений по санкциям, расширению и другим вопросам. Инициативу представила еврокомиссар по расширению Марта Кос на сессии Европарламента в Страсбурге, передает The Guardian.",
+          "source": {
+            "id": "kommersant",
+            "name": "Kommersant"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T15:17:11.000Z",
+          "imageUrl": null,
+          "countryCode": "RU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:17:11.000Z"
+    },
+    {
+      "id": "tWLPxl7Oz2yU",
+      "representative": {
+        "id": "tWLPxl7Oz2yU",
+        "url": "https://www.rbc.ru/sport/06/10/2026/6ac5044d9a794735b6cb2b04",
+        "canonicalUrl": "https://www.rbc.ru/sport/06/10/2026/6ac5044d9a794735b6cb2b04",
+        "title": "Валиева так и не подала в CAS апелляцию на отзыв нейтрального статуса",
+        "description": "В CAS сообщили, что не получили апелляцию российской фигуристки на решение ISU. Время на обжалование истекло",
+        "source": {
+          "id": "rbc",
+          "name": "RBC"
+        },
+        "sourceCountry": "RU",
+        "language": "ru",
+        "publishedAt": "2026-10-06T14:37:41.000Z",
+        "imageUrl": "https://s0.rbk.ru/v6_top_pics/media/img/3/45/347912966503453.jpeg",
+        "countryCode": "RU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "BVXjof2xHEGU",
+          "url": "https://www.kommersant.ru/doc/9007565",
+          "canonicalUrl": "https://www.kommersant.ru/doc/9007565",
+          "title": "Фигуристка Валиева не стала обжаловать в CAS отзыв нейтрального статуса",
+          "description": "Спортивный арбитражный суд (CAS) не получил апелляцию российской фигуристки Камилы Валиевой на решение Международного союза конькобежцев (ISU) об отзыве нейтрального статуса. Об этом ТАСС сообщили в пресс-службе инстанции.",
+          "source": {
+            "id": "kommersant",
+            "name": "Kommersant"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T15:16:09.000Z",
+          "imageUrl": null,
+          "countryCode": "RU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:16:09.000Z"
     }
   ]
 }

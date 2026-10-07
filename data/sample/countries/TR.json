@@ -2,177 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "TR",
   "countryName": "Turkey",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "Lt2yIt7GZh9N",
-      "representative": {
-        "id": "Lt2yIt7GZh9N",
-        "url": "https://www.ntv.com.tr/turkiye/bekir-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-1745073",
-        "canonicalUrl": "https://www.ntv.com.tr/turkiye/bekir-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-1745073",
-        "title": "Bekir Bozdağ TBMM Başkanvekilliği görevinden istifa etti",
-        "description": "AK Parti Şanlıurfa Milletvekili Bekir Bozdağ, Meclis Başkanvekilliği görevinden sağlık sorunları nedeniyle istifa etti.",
-        "source": {
-          "id": "ntv_tr",
-          "name": "NTV"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T10:13:52.000Z",
-        "imageUrl": "https://images.ntv.com.tr/images/thumbs_b_c_4cc81cecbaac10943de6e909cdc96a2b-793507.jpg?width=930&format=webp",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "nD8SZSpBo9Gk",
-          "url": "https://www.cnnturk.com/turkiye/ak-partili-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-3475599",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/ak-partili-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-3475599",
-          "title": "AK Parti'li Bozdağ, TBMM Başkanvekilliği görevinden istifa etti",
-          "description": "AK Parti Şanlıurfa Milletvekili Bekir Bozdağ, sağlık sorunları gerekçesiyle TBMM Başkanvekilliği görevinden istifa etti.",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T12:30:12.000Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "jdot9go35NAJ",
-          "url": "https://www.hurriyet.com.tr/gundem/bekir-bozdag-tbmm-baskan-vekilligi-gorevinden-istifa-etti-43331430",
-          "canonicalUrl": "https://www.hurriyet.com.tr/gundem/bekir-bozdag-tbmm-baskan-vekilligi-gorevinden-istifa-etti-43331430",
-          "title": "Bekir Bozdağ, TBMM Başkan Vekilliği görevinden istifa etti",
-          "description": "AK Parti Şanlıurfa Milletvekili Bekir Bozdağ, Türkiye Büyük Millet Meclisi (TBMM) Başkan Vekilliği görevinden istifa etti",
-          "source": {
-            "id": "hurriyet",
-            "name": "Hürriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T10:36:04.000Z",
-          "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4cecd983ec8bbc1174f85.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "dgmZwl3hA2jD",
-          "url": "https://www.cumhuriyet.com.tr/siyaset/akp-li-bekir-bozdag-tbmm-baskanvekilligi-nden-istifa-etti-2544179",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/siyaset/akp-li-bekir-bozdag-tbmm-baskanvekilligi-nden-istifa-etti-2544179",
-          "title": "AKP'li Bekir Bozdağ, TBMM Başkanvekilliği'nden istifa etti",
-          "description": "AKP Şanlıurfa Milletvekili Bekir Bozdağ, TBMM Başkanvekilli görevinden istifa etti. Bozdağ'ın \"sağlık sorunlarını\" gerekçe gösterdiği öğrenildi.",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T10:18:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/46c4e1c8-21ea-4606-8cef-5fe6280f3567.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "BHJPpmUx81Rf",
-          "url": "https://www.sozcu.com.tr/bekir-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-p366623",
-          "canonicalUrl": "https://www.sozcu.com.tr/bekir-bozdag-tbmm-baskanvekilligi-gorevinden-istifa-etti-p366623",
-          "title": "Bekir Bozdağ, TBMM Başkanvekilliği görevinden istifa etti",
-          "description": "AKP Şanlıurfa Milletvekili Bekir Bozdağ, sağlık sorunları gerekçesiyle TBMM Başkanvekilliği görevinden istifa etti.",
-          "source": {
-            "id": "sozcu",
-            "name": "Sözcü"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T10:06:59.000Z",
-          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/t25bozdagtbmmbaskanvekilli599webp-Z42s_RijTU6OIzLmO40eaQ.webp",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 5,
-      "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T12:30:12.000Z"
-    },
-    {
-      "id": "R58XjA88-uGy",
-      "representative": {
-        "id": "R58XjA88-uGy",
-        "url": "https://www.trthaber.com/haber/gundem/devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-959263.html",
-        "canonicalUrl": "https://www.trthaber.com/haber/gundem/devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-959263.html",
-        "title": "Devlet Bahçeli: Cumhurbaşkanı Erdoğan bir kez daha aday olmalı",
-        "description": "MHP Genel Başkanı Devlet Bahçeli, \"Cumhurbaşkanı Sayın Erdoğan'ın bir daha aday olabilmesi için TBMM'de uygun zamanda ve azami mutabakatla seçimlerin yenilenmesi kararı alınmalıdır\" dedi.",
-        "source": {
-          "id": "trthaber",
-          "name": "TRT Haber"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T08:08:00.000Z",
-        "imageUrl": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2450000/devlet-bahceli-aa-2451999.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "u0NiEjnS_cRw",
-          "url": "https://www.cnnturk.com/video/turkiye/son-dakika-devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-3475428",
-          "canonicalUrl": "https://www.cnnturk.com/video/turkiye/son-dakika-devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-3475428",
-          "title": "SON DAKİKA! Devlet Bahçeli: \"Cumhurbaşkanı Erdoğan bir kez daha aday olmalı\"",
-          "description": "Son dakika haberine göre; MHP Genel Başkanı Devlet Bahçeli, partisinin grup toplantısında açıklamalarda bulundu. Bahçeli, seçimlerin 2028 yılında yapılması gerektiğini söyledi. \"Erdoğan bir kez daha aday olmalı\" diye de ekledi.",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T15:26:50.000Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "tDS1fD81Wo73",
-          "url": "https://www.ntv.com.tr/turkiye/mhp-genel-baskani-devlet-bahceli-erdogan-bir-kez-daha-aday-olmali-1745017",
-          "canonicalUrl": "https://www.ntv.com.tr/turkiye/mhp-genel-baskani-devlet-bahceli-erdogan-bir-kez-daha-aday-olmali-1745017",
-          "title": "MHP Genel Başkanı Devlet Bahçeli: Erdoğan bir kez daha aday olmalı",
-          "description": "MHP Genel Başkanı Bahçeli, Recep Tayyip Erdoğan'ın bir kez daha Cumhurbaşkanı adayı olması gerektiğine yönelik çağrıda bulunarak bunun için de gerekli hukuki ve toplumsal yapının bulunduğunu belirtti.",
-          "source": {
-            "id": "ntv_tr",
-            "name": "NTV"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T09:30:12.000Z",
-          "imageUrl": "https://images.ntv.com.tr/images/bahcelidevletbah%C3%A7eli-681529(13).jpg?width=930&format=webp",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "nIzGNaZqGzE-",
-          "url": "https://www.hurriyet.com.tr/gundem/mhp-grup-toplantisi-devlet-bahceliden-onemli-aciklamalar-43330974",
-          "canonicalUrl": "https://www.hurriyet.com.tr/gundem/mhp-grup-toplantisi-devlet-bahceliden-onemli-aciklamalar-43330974",
-          "title": "MHP Grup Toplantısı! Devlet Bahçeli: Cumhurbaşkanı Erdoğan bir kez daha aday olmalıdır",
-          "description": "MHP Genel Başkanı Devlet Bahçeli, partisinin TBMM'deki grup toplantısında iç ve dış siyasete dair önemli açıklamalarda bulundu. Devlet Bahçeli, \"Cumhurbaşkanı Erdoğan, bir kez daha aday olmalıdır. Adaylığı Türkiye ve bölgemiz hayrına olacaktır. Seçimler 2028 yılında yapılmalıdır.\" ifadelerini…",
-          "source": {
-            "id": "hurriyet",
-            "name": "Hürriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T07:35:00.000Z",
-          "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac498c13d67cfbce946f4b2.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T15:26:50.000Z"
-    },
     {
       "id": "T0S0hXz_B4bi",
       "representative": {
@@ -250,276 +81,6 @@
       "latestPublishedAt": "2026-10-06T13:18:08.000Z"
     },
     {
-      "id": "GGsv_ewBYRTY",
-      "representative": {
-        "id": "GGsv_ewBYRTY",
-        "url": "https://www.hurriyet.com.tr/gundem/mardinli-marilyn-monroe-davasinda-karar-cikti-1-yil-3-ay-hapis-cezasi-43331329",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/mardinli-marilyn-monroe-davasinda-karar-cikti-1-yil-3-ay-hapis-cezasi-43331329",
-        "title": "‘Mardinli Marilyn Monroe’ davasında karar çıktı: 1 yıl 3 ay hapis cezası",
-        "description": "Mardin’de ‘Marilyn Monroe’ olarak tanınan Melek Karahan (50), sosyal medya hesabından yaptığı paylaşım nedeniyle yargılandığı davada 1 yıl 3 ay hapis cezasına çarptırıldı.",
-        "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T09:29:38.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4bf2a3d67cfbce946f545.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "5jigKp_9NOBc",
-          "url": "https://www.ntv.com.tr/turkiye/mardinli-marilyn-monroeya-hapis-cezasi-1745084",
-          "canonicalUrl": "https://www.ntv.com.tr/turkiye/mardinli-marilyn-monroeya-hapis-cezasi-1745084",
-          "title": "Mardinli Marilyn Monroe'ya hapis cezası",
-          "description": "Mardinli Marilyn Monroe olarak bilinen Melek Karahan, bir sosyal medya paylaşımı gerekçe gösterilerek açılan davada 1 yıl 3 ay hapis cezasına çarptırıldı.",
-          "source": {
-            "id": "ntv_tr",
-            "name": "NTV"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T11:20:32.000Z",
-          "imageUrl": "https://images.ntv.com.tr/images/MardinliMarilynMonroe-185366.png?width=930&format=webp",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "vDc47J58pzwY",
-          "url": "https://www.cumhuriyet.com.tr/turkiye/mardinli-marilyn-monroe-hapis-cezasina-carptirildi-2544168",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/mardinli-marilyn-monroe-hapis-cezasina-carptirildi-2544168",
-          "title": "‘Mardinli Marilyn Monroe’ hapis cezasına çarptırıldı",
-          "description": "Mardinli ‘Marilyn Monroe’ olarak bilinen Melek Karahan (50) FETÖ’nün 15 Temmuz darbe girişimine ilişkin sosyal medya hesabından yaptığı paylaşım nedeniyle yargılandığı davada 1 yıl 3 ay hapis cezasına çarptırıldı.",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T09:52:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/fa262590-d145-4b73-b361-f3bb9998270e.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "AgPENNCXy1Qt",
-          "url": "https://www.sozcu.com.tr/mardinli-marilyn-monroe-ya-1-yil-3-ay-hapis-p366618",
-          "canonicalUrl": "https://www.sozcu.com.tr/mardinli-marilyn-monroe-ya-1-yil-3-ay-hapis-p366618",
-          "title": "‘Mardinli Marilyn Monroe’ya, 1 yıl 3 ay hapis!",
-          "description": "Mardinli ‘Marilyn Monroe’ olarak bilinen Melek Karahan (50), FETÖ’nün 15 Temmuz darbe girişimine ilişkin sanal medya hes...",
-          "source": {
-            "id": "sozcu",
-            "name": "Sözcü"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T09:30:08.000Z",
-          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/yeni-proje-20261006t122926635png-3JwEktGQT0KJeFvnbWEfDg.png",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T11:20:32.000Z"
-    },
-    {
-      "id": "_gxadCfi_3cm",
-      "representative": {
-        "id": "_gxadCfi_3cm",
-        "url": "https://www.aa.com.tr/tr/gundem/istanbulun-isgalden-kurtulusunun-103-yil-donumu-taksimde-torenle-kutlandi/4079521",
-        "canonicalUrl": "https://www.aa.com.tr/tr/gundem/istanbulun-isgalden-kurtulusunun-103-yil-donumu-taksimde-torenle-kutlandi/4079521",
-        "title": "İstanbul'un işgalden kurtuluşunun 103. yıl dönümü Taksim'de törenle kutlandı",
-        "description": "İstanbul Valiliğince, kentin düşman işgalinden kurtuluşunun 103'üncü yıl dönümü dolayısıyla Taksim Cumhuriyet Anıtı'nda tören düzenlendi.",
-        "source": {
-          "id": "aa",
-          "name": "Anadolu Ajansı"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T09:37:44.000Z",
-        "imageUrl": null,
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "_gWrKWokJSM6",
-          "url": "https://www.cumhuriyet.com.tr/turkiye/taksim-de-imamoglu-suz-bir-toren-daha-istanbul-un-kurtulusunun-103-yildonumu-kutlandi-2544166",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/taksim-de-imamoglu-suz-bir-toren-daha-istanbul-un-kurtulusunun-103-yildonumu-kutlandi-2544166",
-          "title": "Taksim'de 'İmamoğlu'suz' bir tören daha: İstanbul’un kurtuluşunun 103. yıldönümü kutlandı",
-          "description": "İstanbul’un Kurtuluşu’nun 103. yılı, Taksim Cumhuriyet Anıtı’nda düzenlenen resmi törenle kutlandı. İBB Başkanvekili Nuri Aslan, duygularını Anıt Özel Defterine, “İstanbul'un muhafızlığını yapmaktan, bu aziz şehre hizmet etmekten onur duyuyoruz” ifadelerini kaydetti. Silivri'de tutuklu bulunan…",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T09:48:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/2b235e43-c8c3-4261-9cf9-f35f89498350.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "fD5CH2ZTEr6c",
-          "url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-istanbulun-kurtulusunun-yil-donumunu-kutladi-43331291",
-          "canonicalUrl": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-istanbulun-kurtulusunun-yil-donumunu-kutladi-43331291",
-          "title": "Cumhurbaşkanı Erdoğan, İstanbul'un kurtuluşunun yıl dönümünü kutladı",
-          "description": "Cumhurbaşkanı Recep Tayyip Erdoğan, İstanbul'un düşman işgalinden kurtuluşunun 103'üncü yılını kutladı.",
-          "source": {
-            "id": "hurriyet",
-            "name": "Hürriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T09:12:00.000Z",
-          "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4bb7475376faf778498d5.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "YDCDWF7_9kCA",
-          "url": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-istanbulun-isgalden-kurtulusunun-103-yilini-kutladi-959281.html",
-          "canonicalUrl": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-istanbulun-isgalden-kurtulusunun-103-yilini-kutladi-959281.html",
-          "title": "Cumhurbaşkanı Erdoğan, İstanbul'un işgalden kurtuluşunun 103. yılını kutladı",
-          "description": "Cumhurbaşkanı Recep Tayyip Erdoğan, İstanbul'un düşman işgalinden kurtuluşunun 103'üncü yılını kutladı.",
-          "source": {
-            "id": "trthaber",
-            "name": "TRT Haber"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T09:09:00.000Z",
-          "imageUrl": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2468000/erdogan-aa-2469001.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T09:48:00.000Z"
-    },
-    {
-      "id": "wASwsAoJYe4J",
-      "representative": {
-        "id": "wASwsAoJYe4J",
-        "url": "https://www.hurriyet.com.tr/gundem/eski-mke-baskani-ismet-sayhana-tahliye-karari-askeri-casusluk-davasinda-ara-karar-aciklandi-43331487",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/eski-mke-baskani-ismet-sayhana-tahliye-karari-askeri-casusluk-davasinda-ara-karar-aciklandi-43331487",
-        "title": "Eski MKE Başkanı İsmet Sayhan'a tahliye kararı: Askeri casusluk davasında ara karar açıklandı",
-        "description": "ASSAN Group’a yönelik ‘askeri casusluk’ davasında eski Makine ve Kimya Endüstrisi Yönetim Kurulu Başkanı İsmet Sayhan’ın tahliyesine karar verildi. Duruşma ileri bir tarihe ertelendi.",
-        "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T11:20:41.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4d92f3d67cfbce946f5ee.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "5N8wWF6VxYnA",
-          "url": "https://www.cnnturk.com/turkiye/eski-mke-baskani-ismet-sayhan-hakkinda-tahliye-karari-3475647",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/eski-mke-baskani-ismet-sayhan-hakkinda-tahliye-karari-3475647",
-          "title": "Eski MKE Başkanı İsmet Sayhan hakkında tahliye kararı",
-          "description": "'ASSAN Group’a yönelik ‘askeri casusluk’ davasında eski Makine ve Kimya Endüstrisi Yönetim Kurulu Başkanı İsmet Sayhan’ın tahliyesine karar verildi. Duruşma ileri bir tarihe ertelendi.",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T14:16:36.000Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "74tXDFdFeSji",
-          "url": "https://www.cumhuriyet.com.tr/turkiye/askeri-casusluk-davasinda-yeni-gelisme-eski-mke-baskani-ismet-sayhan-a-tahliye-karari-2544204",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/askeri-casusluk-davasinda-yeni-gelisme-eski-mke-baskani-ismet-sayhan-a-tahliye-karari-2544204",
-          "title": "‘Askeri casusluk’ davasında yeni gelişme: Eski MKE Başkanı İsmet Sayhan'a tahliye kararı!",
-          "description": "‘ASSAN Group’a yönelik “askeri casusluk” davasında tutuklu yargılanan eski Makine ve Kimya Endüstrisi Yönetim Kurulu Başkanı İsmet Sayhan’ın tahliyesine karar verildi. Sayhan, hakkındaki suçlamaların TCK’nin 326’ncı maddesi kapsamında değerlendirilemeyeceğini savunarak tahliyesini talep etmişti.",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T11:35:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/8b6154dd-c5fc-4112-a836-e15eaf510b25.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T14:16:36.000Z"
-    },
-    {
-      "id": "eb0zYEP_TSHd",
-      "representative": {
-        "id": "eb0zYEP_TSHd",
-        "url": "https://www.hurriyet.com.tr/gundem/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-43331411",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-43331411",
-        "title": "Tokat'ta yol çöktü: 2 katlı ev tahliye edildi",
-        "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
-        "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T10:27:20.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4cce9983ec8bbc1174f52.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "LQEGOppfUw85",
-          "url": "https://www.cnnturk.com/turkiye/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-3475620",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-3475620",
-          "title": "Tokat'ta yol çöktü, 2 katlı ev tahliye edildi",
-          "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T13:38:39.000Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "jzsiSeSQWMb-",
-          "url": "https://www.cumhuriyet.com.tr/turkiye/tokat-ta-faciadan-donuldu-yol-coktu-2-katli-ev-tahliye-edildi-2544182",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/tokat-ta-faciadan-donuldu-yol-coktu-2-katli-ev-tahliye-edildi-2544182",
-          "title": "Tokat'ta faciadan dönüldü! Yol çöktü: 2 katlı ev tahliye edildi",
-          "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T10:32:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/1cb53bbe-f151-4c37-915a-8b22de4a8fd5.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:38:39.000Z"
-    },
-    {
       "id": "vk026WA2ZZyC",
       "representative": {
         "id": "vk026WA2ZZyC",
@@ -594,107 +155,6 @@
       "outletCount24h": 3,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T13:18:31.000Z"
-    },
-    {
-      "id": "hjqjQUFL4JfO",
-      "representative": {
-        "id": "hjqjQUFL4JfO",
-        "url": "https://www.hurriyet.com.tr/gundem/dugun-gunu-evlilikten-vazgecen-damada-yargitaydan-buyuk-sok-43331190",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/dugun-gunu-evlilikten-vazgecen-damada-yargitaydan-buyuk-sok-43331190",
-        "title": "Düğün günü evlilikten vazgeçen damada Yargıtay'dan büyük şok!",
-        "description": "İstanbul'da kına gecesi damadın eline konulacak altın konusunda tartışma çıkınca erkek tarafı ertesi gün evlilikten vazgeçti. Damat, geline telefon açıp \"Ben evlilikten korkuyorum, yapamayacağım\" diyerek düğüne gelmeyeceğini bildirdi. Bunun üzerine iki taraf da birbirine dava açtı. Yargıtay 2'nci…",
-        "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T08:30:00.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4b18475376faf7784979f.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Vle0eYsArlVA",
-          "url": "https://www.ntv.com.tr/turkiye/dugun-gunu-evlenmekten-vazgecen-tazminat-odeyecek-1745054",
-          "canonicalUrl": "https://www.ntv.com.tr/turkiye/dugun-gunu-evlenmekten-vazgecen-tazminat-odeyecek-1745054",
-          "title": "Düğün günü evlenmekten vazgeçen tazminat ödeyecek",
-          "description": "Yargıtay, düğün günü evlenmekten vazgeçen erkeğin nişanlısının kişilik haklarını ihlal ettiği gerekçesiyle manevi tazminat ödemesine karar verdi.",
-          "source": {
-            "id": "ntv_tr",
-            "name": "NTV"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T09:30:06.000Z",
-          "imageUrl": "https://images.ntv.com.tr/images/YARGITAY%E2%80%99DAN-DUGUN-GUNU-EVLENMEKTEN-VAZ_1539857_458279-525757.jpg?width=930&format=webp",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "yinF0kbj3Kn0",
-          "url": "https://www.sozcu.com.tr/dugun-gunu-telefon-acip-evlenmekten-vazgecen-damada-yargitay-dan-sok-p366596",
-          "canonicalUrl": "https://www.sozcu.com.tr/dugun-gunu-telefon-acip-evlenmekten-vazgecen-damada-yargitay-dan-sok-p366596",
-          "title": "Düğün günü telefon açıp evlenmekten vazgeçen damada Yargıtay'dan şok",
-          "description": "İstanbul'da düğün günü telefon açarak \"Evlilikten korkuyorum, yapamayacağım\" diyerek nişanı bozan erkek hakkında Yargıta...",
-          "source": {
-            "id": "sozcu",
-            "name": "Sözcü"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T08:34:50.000Z",
-          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/yeni-proje-20261006t113421530png-QUt07j5hWEGCXOkpXZYIUA.png",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T09:30:06.000Z"
-    },
-    {
-      "id": "NQl0K9ydaaif",
-      "representative": {
-        "id": "NQl0K9ydaaif",
-        "url": "https://www.hurriyet.com.tr/gundem/adalet-bakani-gurlek-gundeme-iliskin-sorulari-yanitliyor-43331116",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/adalet-bakani-gurlek-gundeme-iliskin-sorulari-yanitliyor-43331116",
-        "title": "Adalet Bakanı Gürlek'ten fon soruşturması açıklaması: Haksız kazançlar inceleniyor",
-        "description": "Adalet Bakanı Akın Gürlek, fon soruşturmasına ilişkin yaptığı açıklamada, \"Kısa sürede manipülatif hareketlerle, inanılmaz, mesela 2 ayda girilmiş çok yüksek miktarlarda çıkış yapmış. Yani bir kar çıkışı yapmış. Bunlarla ilgili bir çalışmamız var. Listemiz var. TMSF'de de bir hesap iadesi açıldı…",
-        "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T09:15:00.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4cba675376faf778498ee.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "K8EHecTPzicc",
-          "url": "https://www.cnnturk.com/video/turkiye/son-dakika-akin-gurlekten-fon-sorusturmasi-aciklamasi-haksiz-kazanclar-inceleniyor-3475595",
-          "canonicalUrl": "https://www.cnnturk.com/video/turkiye/son-dakika-akin-gurlekten-fon-sorusturmasi-aciklamasi-haksiz-kazanclar-inceleniyor-3475595",
-          "title": "SON DAKİKA! Akın Gürlek'ten fon soruşturması açıklaması: Haksız kazançlar inceleniyor",
-          "description": "Son dakika haberine göre; Adalet Bakanı Akın Gürlek, hakemler dosyası, nafaka tartışmaları ve şüpheli ölüm soruşturmalarına ilişkin önemli açıklamalarda bulundu. Fon krizine dair ise \"Haksız kazançlar inceleniyor\" dedi. İşte o açıklamanın detayları...",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T16:14:36.000Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:14:36.000Z"
     },
     {
       "id": "EjKCLvf9IOx-",
@@ -823,88 +283,384 @@
       "latestPublishedAt": "2026-10-06T12:24:00.000Z"
     },
     {
-      "id": "_dztKvG2V0_k",
+      "id": "NQl0K9ydaaif",
       "representative": {
-        "id": "_dztKvG2V0_k",
-        "url": "https://www.hurriyet.com.tr/gundem/oyuncak-tabancayla-kuyumcu-soymaya-kalkti-kadin-calisanin-cesareti-plani-bozdu-43331509",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/oyuncak-tabancayla-kuyumcu-soymaya-kalkti-kadin-calisanin-cesareti-plani-bozdu-43331509",
-        "title": "Oyuncak tabancayla kuyumcu soymaya kalktı: Kadın çalışanın cesareti planı bozdu",
-        "description": "Tekirdağ'ın Kapaklı ilçesinde oyuncak tabancayla kuyumcu soymak isteyen şüpheli, kadın görevlinin alarma basması üzerine panikleyerek kaçtı. O anlar iş yerinin güvenlik kamerasına yansıdı.",
+        "id": "NQl0K9ydaaif",
+        "url": "https://www.hurriyet.com.tr/gundem/adalet-bakani-gurlek-gundeme-iliskin-sorulari-yanitliyor-43331116",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/adalet-bakani-gurlek-gundeme-iliskin-sorulari-yanitliyor-43331116",
+        "title": "Adalet Bakanı Gürlek'ten fon soruşturması açıklaması: Haksız kazançlar inceleniyor",
+        "description": "Adalet Bakanı Akın Gürlek, fon soruşturmasına ilişkin yaptığı açıklamada, \"Kısa sürede manipülatif hareketlerle, inanılmaz, mesela 2 ayda girilmiş çok yüksek miktarlarda çıkış yapmış. Yani bir kar çıkışı yapmış. Bunlarla ilgili bir çalışmamız var. Listemiz var. TMSF'de de bir hesap iadesi açıldı…",
         "source": {
           "id": "hurriyet",
           "name": "Hürriyet"
         },
         "sourceCountry": "TR",
         "language": "tr",
-        "publishedAt": "2026-10-06T11:33:00.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4dbe93d67cfbce946f605.jpg",
+        "publishedAt": "2026-10-06T09:15:00.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4cba675376faf778498ee.jpg",
         "countryCode": "TR",
         "regionCode": null
       },
       "related": [
         {
-          "id": "cWdNbpPw8cSU",
-          "url": "https://www.sozcu.com.tr/oyuncak-tabancayla-kuyumcu-soymaya-kalkti-alarmi-duyunca-kacti-p366652",
-          "canonicalUrl": "https://www.sozcu.com.tr/oyuncak-tabancayla-kuyumcu-soymaya-kalkti-alarmi-duyunca-kacti-p366652",
-          "title": "Oyuncak tabancayla kuyumcu soymaya kalktı alarmı duyunca kaçtı",
-          "description": "Kapaklı'da bir kuyumcuya oyuncak tabancayla soygun girişiminde bulunan şüpheli, kadın çalışanın alarma basması üzerine k...",
+          "id": "K8EHecTPzicc",
+          "url": "https://www.cnnturk.com/video/turkiye/son-dakika-akin-gurlekten-fon-sorusturmasi-aciklamasi-haksiz-kazanclar-inceleniyor-3475595",
+          "canonicalUrl": "https://www.cnnturk.com/video/turkiye/son-dakika-akin-gurlekten-fon-sorusturmasi-aciklamasi-haksiz-kazanclar-inceleniyor-3475595",
+          "title": "SON DAKİKA! Akın Gürlek'ten fon soruşturması açıklaması: Haksız kazançlar inceleniyor",
+          "description": "Son dakika haberine göre; Adalet Bakanı Akın Gürlek, hakemler dosyası, nafaka tartışmaları ve şüpheli ölüm soruşturmalarına ilişkin önemli açıklamalarda bulundu. Fon krizine dair ise \"Haksız kazançlar inceleniyor\" dedi. İşte o açıklamanın detayları...",
           "source": {
-            "id": "sozcu",
-            "name": "Sözcü"
+            "id": "cnnturk",
+            "name": "CNN Türk"
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T11:47:20.000Z",
-          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/oyuncaktabancaylakuyumcusoymayakalktialarmiduyuncakactikapak5f4c175be9a5ef8ejpg-LSUe7KrWKUS8P2IDRYwLuQ.jpg",
+          "publishedAt": "2026-10-06T16:14:36.000Z",
+          "imageUrl": null,
           "countryCode": "TR",
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
+      "outletCount24h": 1,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:47:20.000Z"
+      "latestPublishedAt": "2026-10-06T16:14:36.000Z"
     },
     {
-      "id": "j__FI_D3vgpY",
+      "id": "Md9bE4urL6u3",
       "representative": {
-        "id": "j__FI_D3vgpY",
-        "url": "https://www.hurriyet.com.tr/gundem/yalovada-korkunc-olay-gemi-guvertesindeki-bos-tanka-dusen-tersane-iscisi-hayatini-kaybetti-43331527",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/yalovada-korkunc-olay-gemi-guvertesindeki-bos-tanka-dusen-tersane-iscisi-hayatini-kaybetti-43331527",
-        "title": "Yalova'da korkunç olay! Gemi güvertesindeki boş tanka düşen tersane işçisi hayatını kaybetti",
-        "description": "Yalova’nın Altınova ilçesinde tersanede çalışan 20 yaşındaki Yılmaz Çelikbilek, geminin güvertesinde yaptığı çalışma sırasında boş tanka düşüp hayatını kaybetti. Çelikbilek’in 10 gün önce çalışmak için Şanlıurfa'dan Yalova’ya geldiği belirtildi.",
+        "id": "Md9bE4urL6u3",
+        "url": "https://www.cnnturk.com/turkiye/basaksehirde-okulda-kavga-8-yarali-3475497",
+        "canonicalUrl": "https://www.cnnturk.com/turkiye/basaksehirde-okulda-kavga-8-yarali-3475497",
+        "title": "Bakan Tekin duyurdu: Başakşehir'de okuldaki kavgadan acı haber",
+        "description": "Başakşehir Kayaşehir'de bir ortaokulda öğrenciler arasında çıkan kavgada 8 öğrenci yaralanmıştı. Milli Eğitim Bakanı Yusuf Tekin \"Başakşehir'de okuldaki kavgada bir öğrencimizi kaybettik.\" dedi. Ambulansla hastaneye kaldırılan yararılar tedaviye alındı. Olayla ilgili soruşturma başladı. Radyo ve…",
+        "source": {
+          "id": "cnnturk",
+          "name": "CNN Türk"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T15:50:41.000Z",
+        "imageUrl": null,
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:50:41.000Z"
+    },
+    {
+      "id": "R58XjA88-uGy",
+      "representative": {
+        "id": "R58XjA88-uGy",
+        "url": "https://www.trthaber.com/haber/gundem/devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-959263.html",
+        "canonicalUrl": "https://www.trthaber.com/haber/gundem/devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-959263.html",
+        "title": "Devlet Bahçeli: Cumhurbaşkanı Erdoğan bir kez daha aday olmalı",
+        "description": "MHP Genel Başkanı Devlet Bahçeli, \"Cumhurbaşkanı Sayın Erdoğan'ın bir daha aday olabilmesi için TBMM'de uygun zamanda ve azami mutabakatla seçimlerin yenilenmesi kararı alınmalıdır\" dedi.",
+        "source": {
+          "id": "trthaber",
+          "name": "TRT Haber"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T08:08:00.000Z",
+        "imageUrl": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2450000/devlet-bahceli-aa-2451999.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "u0NiEjnS_cRw",
+          "url": "https://www.cnnturk.com/video/turkiye/son-dakika-devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-3475428",
+          "canonicalUrl": "https://www.cnnturk.com/video/turkiye/son-dakika-devlet-bahceli-cumhurbaskani-erdogan-bir-kez-daha-aday-olmali-3475428",
+          "title": "SON DAKİKA! Devlet Bahçeli: \"Cumhurbaşkanı Erdoğan bir kez daha aday olmalı\"",
+          "description": "Son dakika haberine göre; MHP Genel Başkanı Devlet Bahçeli, partisinin grup toplantısında açıklamalarda bulundu. Bahçeli, seçimlerin 2028 yılında yapılması gerektiğini söyledi. \"Erdoğan bir kez daha aday olmalı\" diye de ekledi.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T15:26:50.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "tDS1fD81Wo73",
+          "url": "https://www.ntv.com.tr/turkiye/mhp-genel-baskani-devlet-bahceli-erdogan-bir-kez-daha-aday-olmali-1745017",
+          "canonicalUrl": "https://www.ntv.com.tr/turkiye/mhp-genel-baskani-devlet-bahceli-erdogan-bir-kez-daha-aday-olmali-1745017",
+          "title": "MHP Genel Başkanı Devlet Bahçeli: Erdoğan bir kez daha aday olmalı",
+          "description": "MHP Genel Başkanı Bahçeli, Recep Tayyip Erdoğan'ın bir kez daha Cumhurbaşkanı adayı olması gerektiğine yönelik çağrıda bulunarak bunun için de gerekli hukuki ve toplumsal yapının bulunduğunu belirtti.",
+          "source": {
+            "id": "ntv_tr",
+            "name": "NTV"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T09:30:12.000Z",
+          "imageUrl": "https://images.ntv.com.tr/images/bahcelidevletbah%C3%A7eli-681529(13).jpg?width=930&format=webp",
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "nIzGNaZqGzE-",
+          "url": "https://www.hurriyet.com.tr/gundem/mhp-grup-toplantisi-devlet-bahceliden-onemli-aciklamalar-43330974",
+          "canonicalUrl": "https://www.hurriyet.com.tr/gundem/mhp-grup-toplantisi-devlet-bahceliden-onemli-aciklamalar-43330974",
+          "title": "MHP Grup Toplantısı! Devlet Bahçeli: Cumhurbaşkanı Erdoğan bir kez daha aday olmalıdır",
+          "description": "MHP Genel Başkanı Devlet Bahçeli, partisinin TBMM'deki grup toplantısında iç ve dış siyasete dair önemli açıklamalarda bulundu. Devlet Bahçeli, \"Cumhurbaşkanı Erdoğan, bir kez daha aday olmalıdır. Adaylığı Türkiye ve bölgemiz hayrına olacaktır. Seçimler 2028 yılında yapılmalıdır.\" ifadelerini…",
+          "source": {
+            "id": "hurriyet",
+            "name": "Hürriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T07:35:00.000Z",
+          "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac498c13d67cfbce946f4b2.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T15:26:50.000Z"
+    },
+    {
+      "id": "kOPRfDJjQVkk",
+      "representative": {
+        "id": "kOPRfDJjQVkk",
+        "url": "https://www.cnnturk.com/turkiye/ozgur-ozel-satip-gidenler-haindir-3475688",
+        "canonicalUrl": "https://www.cnnturk.com/turkiye/ozgur-ozel-satip-gidenler-haindir-3475688",
+        "title": "Özgür Özel: Satıp gidenler haindir",
+        "description": "YENİ Parti Genel Başkanı Özgür Özel, \"Baskılara boyun eğmeyip de içeride aslanlar gibi yatıp arkadaşlarını ve partisini satmayanlar ölene kadar kardeşimizdir. Satıp gidenler haindir, hain oğlu haindir. Onu satın alan da milli irade hırsızıdır\" dedi.",
+        "source": {
+          "id": "cnnturk",
+          "name": "CNN Türk"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T15:26:26.000Z",
+        "imageUrl": null,
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:26:26.000Z"
+    },
+    {
+      "id": "U8O8wvS-iL8e",
+      "representative": {
+        "id": "U8O8wvS-iL8e",
+        "url": "https://www.cnnturk.com/video/turkiye/hibrit-calisma-resmen-basladi-calisanlari-ne-bekliyor-3475655",
+        "canonicalUrl": "https://www.cnnturk.com/video/turkiye/hibrit-calisma-resmen-basladi-calisanlari-ne-bekliyor-3475655",
+        "title": "Hibrit çalışma resmen başladı: Çalışanları ne bekliyor?",
+        "description": "Uzaktan Çalışma Yönetmeliği'nde yapılan değişiklikle hibrit çalışma modeli de resmen çalışma şekilleri arasına alındı. Çalışanın hangi günler evden, hangi günler iş yerinden çalışacağı ve mesai saatleri iş sözleşmesinde belirlenecek. Uzaktan çalışanların yıllık izin, hastalık izni, analık izni…",
+        "source": {
+          "id": "cnnturk",
+          "name": "CNN Türk"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T14:59:08.000Z",
+        "imageUrl": null,
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:59:08.000Z"
+    },
+    {
+      "id": "CPkg52MTANL3",
+      "representative": {
+        "id": "CPkg52MTANL3",
+        "url": "https://www.cnnturk.com/turkiye/kpss-lisans-ne-zaman-aciklanacak-kpss-lisans-sonuclari-son-dakika-osym-kpss-lisans-sonuclari-tarihi-3475404",
+        "canonicalUrl": "https://www.cnnturk.com/turkiye/kpss-lisans-ne-zaman-aciklanacak-kpss-lisans-sonuclari-son-dakika-osym-kpss-lisans-sonuclari-tarihi-3475404",
+        "title": "KPSS LİSANS NE ZAMAN AÇIKLANACAK? KPSS Lisans Sonuçları Son Dakika | ÖSYM KPSS Lisans Sonuçları Tarihi!",
+        "description": "KPSS Lisans sınavına katılan adayların sonuç heyecanı sürüyor. Sınav maratonunu geride bırakan binlerce aday, “KPSS Lisans sonuçları ne zaman açıklanacak?” sorusuna yanıt ararken gözler ÖSYM’nin duyurduğu sonuç takvimine çevrildi. Kamu kurumlarında görev almak isteyen adaylar için büyük önem…",
+        "source": {
+          "id": "cnnturk",
+          "name": "CNN Türk"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T14:20:58.000Z",
+        "imageUrl": null,
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:20:58.000Z"
+    },
+    {
+      "id": "wASwsAoJYe4J",
+      "representative": {
+        "id": "wASwsAoJYe4J",
+        "url": "https://www.hurriyet.com.tr/gundem/eski-mke-baskani-ismet-sayhana-tahliye-karari-askeri-casusluk-davasinda-ara-karar-aciklandi-43331487",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/eski-mke-baskani-ismet-sayhana-tahliye-karari-askeri-casusluk-davasinda-ara-karar-aciklandi-43331487",
+        "title": "Eski MKE Başkanı İsmet Sayhan'a tahliye kararı: Askeri casusluk davasında ara karar açıklandı",
+        "description": "ASSAN Group’a yönelik ‘askeri casusluk’ davasında eski Makine ve Kimya Endüstrisi Yönetim Kurulu Başkanı İsmet Sayhan’ın tahliyesine karar verildi. Duruşma ileri bir tarihe ertelendi.",
         "source": {
           "id": "hurriyet",
           "name": "Hürriyet"
         },
         "sourceCountry": "TR",
         "language": "tr",
-        "publishedAt": "2026-10-06T11:43:16.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4de0475376faf77849983.jpg",
+        "publishedAt": "2026-10-06T11:20:41.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4d92f3d67cfbce946f5ee.jpg",
         "countryCode": "TR",
         "regionCode": null
       },
       "related": [
         {
-          "id": "D6BbEcOUC_iF",
-          "url": "https://www.sozcu.com.tr/gemi-guvertesindeki-bos-tanka-dusen-isci-can-verdi-p366651",
-          "canonicalUrl": "https://www.sozcu.com.tr/gemi-guvertesindeki-bos-tanka-dusen-isci-can-verdi-p366651",
-          "title": "Gemi güvertesindeki boş tanka düşen işçi can verdi",
-          "description": "Yalova’nın Altınova ilçesinde tersanede çalışan 20 yaşındaki Yılmaz Çelikbilek, geminin güvertesinde yaptığı çalışma sır...",
+          "id": "5N8wWF6VxYnA",
+          "url": "https://www.cnnturk.com/turkiye/eski-mke-baskani-ismet-sayhan-hakkinda-tahliye-karari-3475647",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/eski-mke-baskani-ismet-sayhan-hakkinda-tahliye-karari-3475647",
+          "title": "Eski MKE Başkanı İsmet Sayhan hakkında tahliye kararı",
+          "description": "'ASSAN Group’a yönelik ‘askeri casusluk’ davasında eski Makine ve Kimya Endüstrisi Yönetim Kurulu Başkanı İsmet Sayhan’ın tahliyesine karar verildi. Duruşma ileri bir tarihe ertelendi.",
           "source": {
-            "id": "sozcu",
-            "name": "Sözcü"
+            "id": "cnnturk",
+            "name": "CNN Türk"
           },
           "sourceCountry": "TR",
           "language": "tr",
-          "publishedAt": "2026-10-06T11:12:44.000Z",
-          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/yeni-proje-20261006t141231417png-YFyxyjt7R0erKEDF0zD9mQ.png",
+          "publishedAt": "2026-10-06T14:16:36.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "74tXDFdFeSji",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/askeri-casusluk-davasinda-yeni-gelisme-eski-mke-baskani-ismet-sayhan-a-tahliye-karari-2544204",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/askeri-casusluk-davasinda-yeni-gelisme-eski-mke-baskani-ismet-sayhan-a-tahliye-karari-2544204",
+          "title": "‘Askeri casusluk’ davasında yeni gelişme: Eski MKE Başkanı İsmet Sayhan'a tahliye kararı!",
+          "description": "‘ASSAN Group’a yönelik “askeri casusluk” davasında tutuklu yargılanan eski Makine ve Kimya Endüstrisi Yönetim Kurulu Başkanı İsmet Sayhan’ın tahliyesine karar verildi. Sayhan, hakkındaki suçlamaların TCK’nin 326’ncı maddesi kapsamında değerlendirilemeyeceğini savunarak tahliyesini talep etmişti.",
+          "source": {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T11:35:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/8b6154dd-c5fc-4112-a836-e15eaf510b25.jpg",
           "countryCode": "TR",
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:43:16.000Z"
+      "outletCount24h": 1,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T14:16:36.000Z"
+    },
+    {
+      "id": "eb0zYEP_TSHd",
+      "representative": {
+        "id": "eb0zYEP_TSHd",
+        "url": "https://www.hurriyet.com.tr/gundem/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-43331411",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-43331411",
+        "title": "Tokat'ta yol çöktü: 2 katlı ev tahliye edildi",
+        "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T10:27:20.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4cce9983ec8bbc1174f52.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "LQEGOppfUw85",
+          "url": "https://www.cnnturk.com/turkiye/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-3475620",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/tokatta-yol-coktu-2-katli-ev-tahliye-edildi-3475620",
+          "title": "Tokat'ta yol çöktü, 2 katlı ev tahliye edildi",
+          "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T13:38:39.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        },
+        {
+          "id": "jzsiSeSQWMb-",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/tokat-ta-faciadan-donuldu-yol-coktu-2-katli-ev-tahliye-edildi-2544182",
+          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/tokat-ta-faciadan-donuldu-yol-coktu-2-katli-ev-tahliye-edildi-2544182",
+          "title": "Tokat'ta faciadan dönüldü! Yol çöktü: 2 katlı ev tahliye edildi",
+          "description": "Tokat'ta bir inşaat çalışmasının yanındaki yolda çökme meydana geldi. Çökmenin ardından bölgedeki 2 katlı ev, tedbir amacıyla tahliye edildi.",
+          "source": {
+            "id": "cumhuriyet",
+            "name": "Cumhuriyet"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T10:32:00.000Z",
+          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/1cb53bbe-f151-4c37-915a-8b22de4a8fd5.jpg",
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:38:39.000Z"
+    },
+    {
+      "id": "Uz2uJLFuMEOa",
+      "representative": {
+        "id": "Uz2uJLFuMEOa",
+        "url": "https://www.aa.com.tr/tr/dunya/abdnin-dis-ticaret-acigi-agustosta-17-ayin-zirvesine-cikti/4079844",
+        "canonicalUrl": "https://www.aa.com.tr/tr/dunya/abdnin-dis-ticaret-acigi-agustosta-17-ayin-zirvesine-cikti/4079844",
+        "title": "ABD'nin dış ticaret açığı ağustosta 17 ayın zirvesine çıktı",
+        "description": "Ülkenin ihracatı ağustosta aylık bazda yüzde 1,4, ithalatı yüzde 4,3 yükseldi.",
+        "source": {
+          "id": "aa",
+          "name": "Anadolu Ajansı"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T13:12:41.000Z",
+        "imageUrl": null,
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:12:41.000Z"
+    },
+    {
+      "id": "llyHA-Sj4ASR",
+      "representative": {
+        "id": "llyHA-Sj4ASR",
+        "url": "https://www.hurriyet.com.tr/gundem/burdurda-yerel-internet-haber-sitesinin-sahibi-yaniltici-bilgiyi-yayma-sucundan-tutuklandi-43331643",
+        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/burdurda-yerel-internet-haber-sitesinin-sahibi-yaniltici-bilgiyi-yayma-sucundan-tutuklandi-43331643",
+        "title": "Burdur'da yerel internet haber sitesinin sahibi ‘yanıltıcı bilgiyi yayma’ suçundan tutuklandı",
+        "description": "Burdur'da yayın yapan yerel internet haber sitesinin sahibi Hasan Güraksu, 'Halkı yanıltıcı bilgiyi alenen yayma' suçundan tutuklanarak Isparta Cezaevi'ne teslim edildi.",
+        "source": {
+          "id": "hurriyet",
+          "name": "Hürriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T13:09:00.000Z",
+        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4f3ca75376faf77849a74.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:09:00.000Z"
     }
   ]
 }

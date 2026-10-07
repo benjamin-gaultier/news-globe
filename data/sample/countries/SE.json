@@ -2,101 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "SE",
   "countryName": "Sweden",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "kQfyzmTqYVk6",
-      "representative": {
-        "id": "kQfyzmTqYVk6",
-        "url": "https://www.svd.se/a/4O7BL9/rodgrona-overens-om-stopp-for-tonarsutvisningar?utm_medium=rss",
-        "canonicalUrl": "https://www.svd.se/a/4O7BL9/rodgrona-overens-om-stopp-for-tonarsutvisningar",
-        "title": "Rödgröna överens om stopp för tonårsutvisningar",
-        "description": "De rödgröna partierna S, V, C och MP är överens om en stopplag mot tonårsutvisningarna.",
-        "source": {
-          "id": "svd",
-          "name": "Svenska Dagbladet"
-        },
-        "sourceCountry": "SE",
-        "language": "sv",
-        "publishedAt": "2026-10-06T10:06:22.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/99117f4c-6f7f-3ef9-8f0f-d225d86c8b41?format=auto&w=1000&s=e4c808d4c0373afdf37eda220f5db9f86fde8428",
-        "countryCode": "SE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rBYTG6eU5Vrl",
-          "url": "https://www.expressen.se/nyheter/politik/strommers-stod-till-de-rodgrona-om-tonarsutvisningarna/",
-          "canonicalUrl": "https://www.expressen.se/nyheter/politik/strommers-stod-till-de-rodgrona-om-tonarsutvisningarna/",
-          "title": "Strömmers stöd till de rödgröna – om tonårsutvisningarna",
-          "description": "De rödgröna partierna har enats för att stoppa tonårsutvisningarna. Nu får de stöd från justitieminister Gunnar Strömmer (M). – Det finns en väldigt stor öppenhet att åstadkomma det.",
-          "source": {
-            "id": "expressen",
-            "name": "Expressen"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T13:41:03.000Z",
-          "imageUrl": "https://static.bonniernews.se/images/6d/6c/6d6c3632bdcd49abb8f24780077e6517/16x9/265@70.png",
-          "countryCode": "SE",
-          "regionCode": null
-        },
-        {
-          "id": "b9DtsGddunmN",
-          "url": "https://www.sverigesradio.se/artikel/9314048",
-          "canonicalUrl": "https://www.sverigesradio.se/artikel/9314048",
-          "title": "De rödgröna överens om stopplag för tonårsutvisningar",
-          "description": "Socialdemokraterna, Vänsterpartiet, Miljöpartiet och Centerpartiet enades under tisdagen om att ta fram ett förslag till stopplag till de uppmärksammade tonårsutvisningarna. Det är den första frågan som de rödgröna är överens om efter valet. ”Vi har enats om det bland de fyra partierna. Det här…",
-          "source": {
-            "id": "ekot",
-            "name": "Ekot (Sveriges Radio)"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T11:41:00.000Z",
-          "imageUrl": "https://static-cdn.sr.se/images/83/05bb1f1d-29bb-440a-9e43-d527e1ab3369.jpg?preset=api-default-rectangle",
-          "countryCode": "SE",
-          "regionCode": null
-        },
-        {
-          "id": "s2SJgKqtLdYv",
-          "url": "https://www.dn.se/sverige/de-rodgrona-overens-tonarsutvisningarna-stoppas/",
-          "canonicalUrl": "https://www.dn.se/sverige/de-rodgrona-overens-tonarsutvisningarna-stoppas/",
-          "title": "De rödgröna överens: Tonårsutvisningarna stoppas",
-          "description": "De fyra rödgröna partierna är överens om att tillfälligt stoppa de så kallade tonårsutvisningarna. – Det här är ett väldigt tydligt besked om att Sveriges riksdag så fort som möjligt vill sätta stopp för de här utvisningarna, säger V-ledaren Nooshi Dadgostar.",
-          "source": {
-            "id": "dn",
-            "name": "Dagens Nyheter"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T11:15:37.000Z",
-          "imageUrl": "https://static.bonniernews.se/ba/9cc5f678-2370-4223-b923-f89f37bdbf37.jpeg?io=1&width=1000",
-          "countryCode": "SE",
-          "regionCode": null
-        },
-        {
-          "id": "H102eiORo3OD",
-          "url": "https://www.aftonbladet.se/nyheter/a/OgroEV/rodgrona-overens-om-stopp-for-tonarsutvisningar?utm_medium=rss",
-          "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/OgroEV/rodgrona-overens-om-stopp-for-tonarsutvisningar",
-          "title": "Rödgröna överens om stopp för tonårsutvisningar",
-          "description": "De rödgröna partierna S, V, C och MP är överens om en stopplag mot tonårsutvisningarna.",
-          "source": {
-            "id": "aftonbladet",
-            "name": "Aftonbladet"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T10:06:22.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/99117f4c-6f7f-3ef9-8f0f-d225d86c8b41?format=auto&w=1000&s=e4c808d4c0373afdf37eda220f5db9f86fde8428",
-          "countryCode": "SE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 5,
-      "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T13:41:03.000Z"
-    },
     {
       "id": "eLdccxGcb4_b",
       "representative": {
@@ -172,200 +79,6 @@
       "outletCount24h": 4,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T13:31:09.000Z"
-    },
-    {
-      "id": "_wL8QJG5UBHx",
-      "representative": {
-        "id": "_wL8QJG5UBHx",
-        "url": "https://www.svd.se/a/8GQQgG/francis-halzen-far-nobelpriset-i-fysik?utm_medium=rss",
-        "canonicalUrl": "https://www.svd.se/a/8GQQgG/francis-halzen-far-nobelpriset-i-fysik",
-        "title": "Francis Halzen får fysikpriset – för ”tokig idé”",
-        "description": "En gigantisk isbit på Sydpolen som fångar spöklika budbärare från rymden.",
-        "source": {
-          "id": "svd",
-          "name": "Svenska Dagbladet"
-        },
-        "sourceCountry": "SE",
-        "language": "sv",
-        "publishedAt": "2026-10-06T09:49:49.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/1b5232d9-9c3a-309c-aa39-4b05fd67404c?format=auto&w=1000&s=fa6676d8c6867b0b65c91d2d31f07db919433349",
-        "countryCode": "SE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "hdqwjHVBqoNl",
-          "url": "https://www.expressen.se/nyheter/varlden/francis-halzen-far-fysikpriset-for-tokig-ide/",
-          "canonicalUrl": "https://www.expressen.se/nyheter/varlden/francis-halzen-far-fysikpriset-for-tokig-ide/",
-          "title": "Francis Halzen får fysikpriset – för ”tokig idé”",
-          "description": "En gigantisk isbit på Sydpolen som fångar spöklika budbärare från rymden. Ingen ”respektabel fysiker” borde ha gått med på det samarbetet. Men nu får Francis Halzen Nobelpriset i fysik för idén. – Det känns konstigt, säger han vid pressträffen.",
-          "source": {
-            "id": "expressen",
-            "name": "Expressen"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T12:01:30.000Z",
-          "imageUrl": "https://static.bonniernews.se/images/7c/a6/7ca6a2108a53420495dd58eefc2ce2cb/16x9/265@70.jpg",
-          "countryCode": "SE",
-          "regionCode": null
-        },
-        {
-          "id": "3CFnHt0livqy",
-          "url": "https://www.dn.se/sverige/observatoriet-i-antarktis-gav-francis-halzen-nobelpriset-i-fysik/",
-          "canonicalUrl": "https://www.dn.se/sverige/observatoriet-i-antarktis-gav-francis-halzen-nobelpriset-i-fysik/",
-          "title": "Iskall fälla för spökpartiklar gav Francis Halzen fysikpriset",
-          "description": "Årets Nobelpris i fysik tilldelas Francis Halzen för bidragen till IceCube-observatoriet i Antarktis och för upptäckten av neutriner med extrem energi, meddelar Kungliga vetenskapsakademien.",
-          "source": {
-            "id": "dn",
-            "name": "Dagens Nyheter"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T10:50:34.000Z",
-          "imageUrl": "https://static.bonniernews.se/ba/7862283e-f7ff-43ad-b104-bd5dcaafa655.jpeg?io=1&width=1000",
-          "countryCode": "SE",
-          "regionCode": null
-        },
-        {
-          "id": "Qnd0oUNGFoRa",
-          "url": "https://www.aftonbladet.se/nyheter/a/qyWW01/francis-halzen-far-nobelpriset-i-fysik?utm_medium=rss",
-          "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/qyWW01/francis-halzen-far-nobelpriset-i-fysik",
-          "title": "Francis Halzen får fysikpriset – för ”tokig idé”",
-          "description": "En gigantisk isbit på Sydpolen som fångar spöklika budbärare från rymden.",
-          "source": {
-            "id": "aftonbladet",
-            "name": "Aftonbladet"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T09:49:49.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/1b5232d9-9c3a-309c-aa39-4b05fd67404c?format=auto&w=1000&s=fa6676d8c6867b0b65c91d2d31f07db919433349",
-          "countryCode": "SE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:01:30.000Z"
-    },
-    {
-      "id": "2WNunPnjXTRN",
-      "representative": {
-        "id": "2WNunPnjXTRN",
-        "url": "https://www.svd.se/a/wA9Gmd/senaste-nytt?pinnedEntry=78474&utm_medium=rss",
-        "canonicalUrl": "https://www.svd.se/a/wA9Gmd/senaste-nytt?pinnedEntry=78474",
-        "title": "Flera skadade i bussolycka i Malmö",
-        "description": null,
-        "source": {
-          "id": "svd",
-          "name": "Svenska Dagbladet"
-        },
-        "sourceCountry": "SE",
-        "language": "sv",
-        "publishedAt": "2026-10-06T10:36:12.000Z",
-        "imageUrl": null,
-        "countryCode": "SE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "MG0dsqdloHbb",
-          "url": "https://www.aftonbladet.se/nyheter/a/64649z/buss-i-krock-i-malmo-flera-skadade?utm_medium=rss",
-          "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/64649z/buss-i-krock-i-malmo-flera-skadade",
-          "title": "Buss i krock i Malmö – flera skadade",
-          "description": "En buss har krockat med ett träd i Oxie, i Malmö. Fyra passagerare och en förare är ombord, enligt…",
-          "source": {
-            "id": "aftonbladet",
-            "name": "Aftonbladet"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T10:28:00.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/f5bc7006-8c55-3509-811b-6a90f26f9c42?format=auto&w=1000&s=237327ef4642f8bf7b22cbbacc24710b97bb300d",
-          "countryCode": "SE",
-          "regionCode": null
-        },
-        {
-          "id": "egqcBSRZJ2Ka",
-          "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=d941c0b2-8ab3-4fc5-b5ad-cac31907122d",
-          "canonicalUrl": "https://www.expressen.se/nyheter/expressen-direkt/?post=d941c0b2-8ab3-4fc5-b5ad-cac31907122d",
-          "title": "Buss i krock med träd",
-          "description": "Fem skadade i Malmö",
-          "source": {
-            "id": "expressen",
-            "name": "Expressen"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T10:23:49.000Z",
-          "imageUrl": "https://static.bonniernews.se/images/c0/e4/c0e419838c8e4f808e19b5f6137f1fdd/16x9/265@70.jpg",
-          "countryCode": "SE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T10:36:12.000Z"
-    },
-    {
-      "id": "rSafoCgs7Rok",
-      "representative": {
-        "id": "rSafoCgs7Rok",
-        "url": "https://www.svt.se/nyheter/utrikes/uppgift-tidigare-spionchef-gripen-for-spionage",
-        "canonicalUrl": "https://www.svt.se/nyheter/utrikes/uppgift-tidigare-spionchef-gripen-for-spionage",
-        "title": "Tysklands tidigare spionchef gripen för spionage",
-        "description": "August Hanning, tidigare chef för Tysklands underrättelsetjänst BND, har gripits misstänkt för spionage, rapporterar Welt.",
-        "source": {
-          "id": "svt",
-          "name": "SVT Nyheter"
-        },
-        "sourceCountry": "SE",
-        "language": "sv",
-        "publishedAt": "2026-10-06T08:39:09.000Z",
-        "imageUrl": null,
-        "countryCode": "SE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "K_esv1W-Vl_S",
-          "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=5f1fb21b-7a82-47bf-b358-c91f4d9b88ce",
-          "canonicalUrl": "https://www.expressen.se/nyheter/expressen-direkt/?post=5f1fb21b-7a82-47bf-b358-c91f4d9b88ce",
-          "title": "Tidigare spionchef gripen",
-          "description": "Arbetade för tyska BND",
-          "source": {
-            "id": "expressen",
-            "name": "Expressen"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T09:25:30.000Z",
-          "imageUrl": null,
-          "countryCode": "SE",
-          "regionCode": null
-        },
-        {
-          "id": "ClCqgMFdWd1E",
-          "url": "https://www.sverigesradio.se/artikel/9313889",
-          "canonicalUrl": "https://www.sverigesradio.se/artikel/9313889",
-          "title": "Tidigare spionchef gripen – anklagas för landsförräderi",
-          "description": "En tidigare chef för Tysklands utrikesunderrättelsetjänst, BND, greps i morse, misstänkt för spioneri. Detta enligt uppgifter till tyska medier. Han anklagas för att ha försökt lämna ut känslig information till utländska underrättelsetjänster, uppgav åklagare. August Hanning, som ledde BND mellan…",
-          "source": {
-            "id": "ekot",
-            "name": "Ekot (Sveriges Radio)"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T09:17:00.000Z",
-          "imageUrl": "https://static-cdn.sr.se/images/83/036482ef-7a56-4a3c-b982-d74182666fb1.jpg?preset=api-default-rectangle",
-          "countryCode": "SE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T09:25:30.000Z"
     },
     {
       "id": "SrfzzAR0KzSY",
@@ -494,172 +207,97 @@
       "latestPublishedAt": "2026-10-06T12:46:22.000Z"
     },
     {
-      "id": "TDKFVnSvFl8D",
+      "id": "kQfyzmTqYVk6",
       "representative": {
-        "id": "TDKFVnSvFl8D",
-        "url": "https://www.svd.se/a/314E7q/darfor-protesterar-studenterna-i-frankrike?utm_medium=rss",
-        "canonicalUrl": "https://www.svd.se/a/314E7q/darfor-protesterar-studenterna-i-frankrike",
-        "title": "Därför protesterar studenterna i Frankrike",
-        "description": "Tusentals minderåriga har gripits och en 15-åring har fått handen bortsprängd – men franska…",
+        "id": "kQfyzmTqYVk6",
+        "url": "https://www.svd.se/a/4O7BL9/rodgrona-overens-om-stopp-for-tonarsutvisningar?utm_medium=rss",
+        "canonicalUrl": "https://www.svd.se/a/4O7BL9/rodgrona-overens-om-stopp-for-tonarsutvisningar",
+        "title": "Rödgröna överens om stopp för tonårsutvisningar",
+        "description": "De rödgröna partierna S, V, C och MP är överens om en stopplag mot tonårsutvisningarna.",
         "source": {
           "id": "svd",
           "name": "Svenska Dagbladet"
         },
         "sourceCountry": "SE",
         "language": "sv",
-        "publishedAt": "2026-10-06T09:56:50.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/0dd11147-edb5-34d0-92e4-b8108fe1a6b9?format=auto&w=1000&s=6a95085088aa5c5a4818a8ed193c758067144124",
+        "publishedAt": "2026-10-06T10:06:22.000Z",
+        "imageUrl": "https://akamai.vgc.no/v2/images/99117f4c-6f7f-3ef9-8f0f-d225d86c8b41?format=auto&w=1000&s=e4c808d4c0373afdf37eda220f5db9f86fde8428",
         "countryCode": "SE",
         "regionCode": null
       },
       "related": [
         {
-          "id": "jspRU0CMjcbt",
-          "url": "https://www.aftonbladet.se/nyheter/a/X9qbno/darfor-protesterar-studenterna-i-frankrike?utm_medium=rss",
-          "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/X9qbno/darfor-protesterar-studenterna-i-frankrike",
-          "title": "Därför protesterar studenterna i Frankrike",
-          "description": "Tusentals minderåriga har gripits och en 15-åring har fått handen bortsprängd – men franska…",
-          "source": {
-            "id": "aftonbladet",
-            "name": "Aftonbladet"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T09:56:50.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/dd22460e-727a-30a2-854d-a42bf1551ad9?format=auto&w=1000&s=0b7fad00e7e05933f5c3bb89c6f78e01218d3100",
-          "countryCode": "SE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:56:50.000Z"
-    },
-    {
-      "id": "XRovgD1PAJ-f",
-      "representative": {
-        "id": "XRovgD1PAJ-f",
-        "url": "https://www.svd.se/a/0BG4GG/kinnunen-om-utskotten-vissa-ar-sakert-missnojda?utm_medium=rss",
-        "canonicalUrl": "https://www.svd.se/a/0BG4GG/kinnunen-om-utskotten-vissa-ar-sakert-missnojda",
-        "title": "SD-topp om ommöbleringen - ”inget missnöje”",
-        "description": "Flera av SD:s främsta företrädare i riksdagen får nya uppdrag. – Det finns inget missnöje med…",
-        "source": {
-          "id": "svd",
-          "name": "Svenska Dagbladet"
-        },
-        "sourceCountry": "SE",
-        "language": "sv",
-        "publishedAt": "2026-10-06T09:30:51.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/b9997f24-e3c6-322c-95ab-f30cba6b084e?format=auto&w=1000&s=d282bccbf87c114be00455369344ef8aabcc44a9",
-        "countryCode": "SE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "_0MUDJDGHk2G",
-          "url": "https://www.aftonbladet.se/nyheter/a/Gr3Q3l/kinnunen-om-utskotten-vissa-ar-sakert-missnojda?utm_medium=rss",
-          "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/Gr3Q3l/kinnunen-om-utskotten-vissa-ar-sakert-missnojda",
-          "title": "SD-topp om ommöbleringen - ”inget missnöje”",
-          "description": "Flera av SD:s främsta företrädare i riksdagen får nya uppdrag. – Det finns inget missnöje med…",
-          "source": {
-            "id": "aftonbladet",
-            "name": "Aftonbladet"
-          },
-          "sourceCountry": "SE",
-          "language": "sv",
-          "publishedAt": "2026-10-06T09:30:51.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/b9997f24-e3c6-322c-95ab-f30cba6b084e?format=auto&w=1000&s=d282bccbf87c114be00455369344ef8aabcc44a9",
-          "countryCode": "SE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:30:51.000Z"
-    },
-    {
-      "id": "pbcEuXneARoF",
-      "representative": {
-        "id": "pbcEuXneARoF",
-        "url": "https://www.aftonbladet.se/nyheter/a/77dlv4/livstidsstraff-faststalls-for-foxtrotman?utm_medium=rss",
-        "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/77dlv4/livstidsstraff-faststalls-for-foxtrotman",
-        "title": "Livstidsstraff fastställs för Foxtrotman",
-        "description": "Livstidsstraffet för Poya Shafie, högt uppsatt inom Foxtrotnätverket, fastställs av Svea hovrätt.",
-        "source": {
-          "id": "aftonbladet",
-          "name": "Aftonbladet"
-        },
-        "sourceCountry": "SE",
-        "language": "sv",
-        "publishedAt": "2026-10-06T09:03:27.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/a8b08cf4-9385-3686-a3a9-3e37384a5e45?format=auto&w=1000&s=a18d5238004df9a3354dad77e45df1d8f69cb0bb",
-        "countryCode": "SE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "0qmJvlvyUSY1",
-          "url": "https://www.expressen.se/nyheter/krim/livstidsstraff-faststalls-for-foxtrotmannen-poya-shafie/",
-          "canonicalUrl": "https://www.expressen.se/nyheter/krim/livstidsstraff-faststalls-for-foxtrotmannen-poya-shafie/",
-          "title": "Livstidsstraff fastställs för Foxtrotmannen Poya Shafie",
-          "description": "Livstidsstraffet för Poya Shafie, högt uppsatt inom Foxtrotnätverket, fastställs av Svea hovrätt.",
+          "id": "rBYTG6eU5Vrl",
+          "url": "https://www.expressen.se/nyheter/politik/strommers-stod-till-de-rodgrona-om-tonarsutvisningarna/",
+          "canonicalUrl": "https://www.expressen.se/nyheter/politik/strommers-stod-till-de-rodgrona-om-tonarsutvisningarna/",
+          "title": "Strömmers stöd till de rödgröna – om tonårsutvisningarna",
+          "description": "De rödgröna partierna har enats för att stoppa tonårsutvisningarna. Nu får de stöd från justitieminister Gunnar Strömmer (M). – Det finns en väldigt stor öppenhet att åstadkomma det.",
           "source": {
             "id": "expressen",
             "name": "Expressen"
           },
           "sourceCountry": "SE",
           "language": "sv",
-          "publishedAt": "2026-10-06T09:07:36.000Z",
-          "imageUrl": "https://static.bonniernews.se/images/1c/86/1c86d90066ce4485b14e0ed533a04303/16x9/265@70.png",
+          "publishedAt": "2026-10-06T13:41:03.000Z",
+          "imageUrl": "https://static.bonniernews.se/images/6d/6c/6d6c3632bdcd49abb8f24780077e6517/16x9/265@70.png",
           "countryCode": "SE",
           "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:07:36.000Z"
-    },
-    {
-      "id": "SGXbooQJx8_k",
-      "representative": {
-        "id": "SGXbooQJx8_k",
-        "url": "https://www.svd.se/a/0BGEB2/kritik-mot-c-s-mote-riskerar-bli-teoretiskt?utm_medium=rss",
-        "canonicalUrl": "https://www.svd.se/a/0BGEB2/kritik-mot-c-s-mote-riskerar-bli-teoretiskt",
-        "title": "Dadgostar tänker ta upp regeringsfrågan: ”Behöver ske”",
-        "description": "V-ledaren Nooshi Dadgostar tänker ta upp regeringsfrågan på C:s möte på fredag – trots att mötet…",
-        "source": {
-          "id": "svd",
-          "name": "Svenska Dagbladet"
         },
-        "sourceCountry": "SE",
-        "language": "sv",
-        "publishedAt": "2026-10-06T08:57:57.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/6861c4ac-77dd-338e-9a9a-d9e3479579fa?format=auto&w=1000&s=e43a5595362cfca2351e3aee7d1db15e2c872619",
-        "countryCode": "SE",
-        "regionCode": null
-      },
-      "related": [
         {
-          "id": "O1b7PYnpjiiX",
-          "url": "https://www.aftonbladet.se/nyheter/a/zl7Llq/kritik-mot-c-s-mote-riskerar-bli-teoretiskt?utm_medium=rss",
-          "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/zl7Llq/kritik-mot-c-s-mote-riskerar-bli-teoretiskt",
-          "title": "Dadgostar tänker ta upp regeringsfrågan: ”Behöver ske”",
-          "description": "V-ledaren Nooshi Dadgostar tänker ta upp regeringsfrågan på C:s möte på fredag – trots att mötet…",
+          "id": "b9DtsGddunmN",
+          "url": "https://www.sverigesradio.se/artikel/9314048",
+          "canonicalUrl": "https://www.sverigesradio.se/artikel/9314048",
+          "title": "De rödgröna överens om stopplag för tonårsutvisningar",
+          "description": "Socialdemokraterna, Vänsterpartiet, Miljöpartiet och Centerpartiet enades under tisdagen om att ta fram ett förslag till stopplag till de uppmärksammade tonårsutvisningarna. Det är den första frågan som de rödgröna är överens om efter valet. ”Vi har enats om det bland de fyra partierna. Det här…",
+          "source": {
+            "id": "ekot",
+            "name": "Ekot (Sveriges Radio)"
+          },
+          "sourceCountry": "SE",
+          "language": "sv",
+          "publishedAt": "2026-10-06T11:41:00.000Z",
+          "imageUrl": "https://static-cdn.sr.se/images/83/05bb1f1d-29bb-440a-9e43-d527e1ab3369.jpg?preset=api-default-rectangle",
+          "countryCode": "SE",
+          "regionCode": null
+        },
+        {
+          "id": "s2SJgKqtLdYv",
+          "url": "https://www.dn.se/sverige/de-rodgrona-overens-tonarsutvisningarna-stoppas/",
+          "canonicalUrl": "https://www.dn.se/sverige/de-rodgrona-overens-tonarsutvisningarna-stoppas/",
+          "title": "De rödgröna överens: Tonårsutvisningarna stoppas",
+          "description": "De fyra rödgröna partierna är överens om att tillfälligt stoppa de så kallade tonårsutvisningarna. – Det här är ett väldigt tydligt besked om att Sveriges riksdag så fort som möjligt vill sätta stopp för de här utvisningarna, säger V-ledaren Nooshi Dadgostar.",
+          "source": {
+            "id": "dn",
+            "name": "Dagens Nyheter"
+          },
+          "sourceCountry": "SE",
+          "language": "sv",
+          "publishedAt": "2026-10-06T11:15:37.000Z",
+          "imageUrl": "https://static.bonniernews.se/ba/9cc5f678-2370-4223-b923-f89f37bdbf37.jpeg?io=1&width=1000",
+          "countryCode": "SE",
+          "regionCode": null
+        },
+        {
+          "id": "H102eiORo3OD",
+          "url": "https://www.aftonbladet.se/nyheter/a/OgroEV/rodgrona-overens-om-stopp-for-tonarsutvisningar?utm_medium=rss",
+          "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/OgroEV/rodgrona-overens-om-stopp-for-tonarsutvisningar",
+          "title": "Rödgröna överens om stopp för tonårsutvisningar",
+          "description": "De rödgröna partierna S, V, C och MP är överens om en stopplag mot tonårsutvisningarna.",
           "source": {
             "id": "aftonbladet",
             "name": "Aftonbladet"
           },
           "sourceCountry": "SE",
           "language": "sv",
-          "publishedAt": "2026-10-06T08:57:56.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/6861c4ac-77dd-338e-9a9a-d9e3479579fa?format=auto&w=1000&s=e43a5595362cfca2351e3aee7d1db15e2c872619",
+          "publishedAt": "2026-10-06T10:06:22.000Z",
+          "imageUrl": "https://akamai.vgc.no/v2/images/99117f4c-6f7f-3ef9-8f0f-d225d86c8b41?format=auto&w=1000&s=e4c808d4c0373afdf37eda220f5db9f86fde8428",
           "countryCode": "SE",
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:57:57.000Z"
+      "outletCount24h": 1,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-06T13:41:03.000Z"
     },
     {
       "id": "5R7zxCJee7_W",
@@ -732,6 +370,174 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:34:15.000Z"
+    },
+    {
+      "id": "mNL2YDAU1WvL",
+      "representative": {
+        "id": "mNL2YDAU1WvL",
+        "url": "https://www.svt.se/sport/bordtennis/truls-moregardh-slog-ut-kines-i-peking-nu-vantar-baste-kinesen",
+        "canonicalUrl": "https://www.svt.se/sport/bordtennis/truls-moregardh-slog-ut-kines-i-peking-nu-vantar-baste-kinesen",
+        "title": "Truls Möregårdh slog ut kines i Peking – nu väntar bäste kinesen",
+        "description": "Truls Möregårdh är klar för åttondel i China Smash i Peking efter att ha besegrat en hemmaspelare. Nu väntar ännu en kines, den bäst rankade i turneringen, Wen Ruibo. – Det är otroligt dålig tajming, säger J-O Waldner om matchens häftigaste duell.",
+        "source": {
+          "id": "svt",
+          "name": "SVT Nyheter"
+        },
+        "sourceCountry": "SE",
+        "language": "sv",
+        "publishedAt": "2026-10-06T13:23:23.000Z",
+        "imageUrl": null,
+        "countryCode": "SE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:23:23.000Z"
+    },
+    {
+      "id": "jdcV68LYl7Lm",
+      "representative": {
+        "id": "jdcV68LYl7Lm",
+        "url": "https://www.svt.se/nyheter/lokalt/ost/doms-for-dataintrang-i-129-patientjournaler",
+        "canonicalUrl": "https://www.svt.se/nyheter/lokalt/ost/doms-for-dataintrang-i-129-patientjournaler",
+        "title": "Döms för dataintrång i 129 patientjournaler",
+        "description": "En tidigare anställd inom Region Östergötland döms för att utan behörigt skäl ha gått in i 129 patientjournaler. Påföljden blir villkorlig dom och 288 000 kronor i skadestånd till 36 patienter.",
+        "source": {
+          "id": "svt",
+          "name": "SVT Nyheter"
+        },
+        "sourceCountry": "SE",
+        "language": "sv",
+        "publishedAt": "2026-10-06T13:22:06.000Z",
+        "imageUrl": null,
+        "countryCode": "SE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:22:06.000Z"
+    },
+    {
+      "id": "RRFHHvKFyKpu",
+      "representative": {
+        "id": "RRFHHvKFyKpu",
+        "url": "https://www.aftonbladet.se/nyheter/a/58GeME/man-gripen-efter-handelse-vid-flygbas?utm_medium=rss",
+        "canonicalUrl": "https://www.aftonbladet.se/nyheter/a/58GeME/man-gripen-efter-handelse-vid-flygbas",
+        "title": "Man gripen efter händelse vid flygbas",
+        "description": "Brittisk polis bekräftar att en 22-årig man har gripits i London, misstänkt för inblandning i…",
+        "source": {
+          "id": "aftonbladet",
+          "name": "Aftonbladet"
+        },
+        "sourceCountry": "SE",
+        "language": "sv",
+        "publishedAt": "2026-10-06T13:21:03.000Z",
+        "imageUrl": "https://akamai.vgc.no/v2/images/5d2d80af-9b92-3877-841e-93695cded5ca?format=auto&w=1000&s=9675aef21ef6aaad1e71b040f8e58f777d32b97f",
+        "countryCode": "SE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:21:03.000Z"
+    },
+    {
+      "id": "nPyXp7dlY0iC",
+      "representative": {
+        "id": "nPyXp7dlY0iC",
+        "url": "https://www.sverigesradio.se/artikel/9314160",
+        "canonicalUrl": "https://www.sverigesradio.se/artikel/9314160",
+        "title": "Daniel Alling om Patriot-beskedet: ”Tydligt budskap till Ryssland”",
+        "description": "Sverige skickar Patriotluftvärn till Polen för att försvara Natos östra gräns, det meddelade statsminister Ulf Kristersson under en pressträff med försvarsministern, utrikesministern och justitieministern. Enligt Daniel Alling, Sveriges Radios internationella korrespondent, vill…",
+        "source": {
+          "id": "ekot",
+          "name": "Ekot (Sveriges Radio)"
+        },
+        "sourceCountry": "SE",
+        "language": "sv",
+        "publishedAt": "2026-10-06T13:20:00.000Z",
+        "imageUrl": "https://static-cdn.sr.se/images/83/dbc5be90-4d5d-40cf-ad33-f7ad4af92a4b.jpg?preset=api-default-rectangle",
+        "countryCode": "SE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:20:00.000Z"
+    },
+    {
+      "id": "gkGmpIRbX1nW",
+      "representative": {
+        "id": "gkGmpIRbX1nW",
+        "url": "https://www.gp.se/sport/fotboll/ifk-goteborg/mittbackskris-i-ifk-goteborg-emil-fasth-18-kan-fa-chansen-mot-vasteras.fc772c3a-660c-52fe-ba73-5816ae6ff5be",
+        "canonicalUrl": "https://www.gp.se/sport/fotboll/ifk-goteborg/mittbackskris-i-ifk-goteborg-emil-fasth-18-kan-fa-chansen-mot-vasteras.fc772c3a-660c-52fe-ba73-5816ae6ff5be",
+        "title": "Emil Fasth, 18, kan få chansen i IFK Göteborg",
+        "description": "Skador och avstängningar har lett till en mittbackskris i IFK Göteborg. Lösningen kan bli Emil Fasth, 18, som nyligen flyttades upp i A-laget.",
+        "source": {
+          "id": "gp",
+          "name": "Göteborgs-Posten"
+        },
+        "sourceCountry": "SE",
+        "language": "sv",
+        "publishedAt": "2026-10-06T13:12:48.000Z",
+        "imageUrl": "https://vcdn.polarismedia.no/35664d8a-7310-34f4-972d-facb007139af",
+        "countryCode": "SE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:12:48.000Z"
+    },
+    {
+      "id": "gTADPOTG1t9e",
+      "representative": {
+        "id": "gTADPOTG1t9e",
+        "url": "https://www.dn.se/insandare/svar-p4s-trafikredaktion-ar-livsviktig/",
+        "canonicalUrl": "https://www.dn.se/insandare/svar-p4s-trafikredaktion-ar-livsviktig/",
+        "title": "Insändare. Svar: P4:s trafikredaktion är livsviktig",
+        "description": "SVAR PÅ INSÄNDARE. Att köra bil från Sollentuna till Huddinge med en tid att passa kräver planering och ständiga uppdateringar. Min fru får inte komma för sent till sin cancerbehandling och för henne är P4:s trafikredaktion ovärderlig, skriver Örjan Sahlin.",
+        "source": {
+          "id": "dn",
+          "name": "Dagens Nyheter"
+        },
+        "sourceCountry": "SE",
+        "language": "sv",
+        "publishedAt": "2026-10-06T13:12:28.000Z",
+        "imageUrl": "https://static.bonniernews.se/ba/c538f8d9-f001-4ab1-bf3d-97e5d4d36858.jpeg?io=1&width=1000",
+        "countryCode": "SE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:12:28.000Z"
+    },
+    {
+      "id": "6Ehd3Tj6sRFg",
+      "representative": {
+        "id": "6Ehd3Tj6sRFg",
+        "url": "https://www.svd.se/a/yl7a1K/morgonolen-pa-flygplatsen-hotas-personal-trakasseras-av-fulla-passagerare?utm_medium=rss",
+        "canonicalUrl": "https://www.svd.se/a/yl7a1K/morgonolen-pa-flygplatsen-hotas-personal-trakasseras-av-fulla-passagerare",
+        "title": "”Heliga” morgonölen på flygplatsen hotas",
+        "description": "Att inleda semesterresan med en öl är en viktig tradition för många. Men nu börjar flygplatspersonal…",
+        "source": {
+          "id": "svd",
+          "name": "Svenska Dagbladet"
+        },
+        "sourceCountry": "SE",
+        "language": "sv",
+        "publishedAt": "2026-10-06T13:05:39.000Z",
+        "imageUrl": "https://akamai.vgc.no/v2/images/a9dc01c9-5585-3347-8b8f-85207bf048f0?format=auto&w=1000&s=1615ac4d876629e5666f60230a2355dfe8f6f174",
+        "countryCode": "SE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:05:39.000Z"
     }
   ]
 }

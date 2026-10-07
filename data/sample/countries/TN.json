@@ -2,151 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "TN",
   "countryName": "Tunisia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "spmnZ8FX495b",
-      "representative": {
-        "id": "spmnZ8FX495b",
-        "url": "https://www.mosaiquefm.net/fr/actualite-regional-tunisie/1532517/la-station-de-dessalement-de-sousse-entre-en-exploitation",
-        "canonicalUrl": "https://www.mosaiquefm.net/fr/actualite-regional-tunisie/1532517/la-station-de-dessalement-de-sousse-entre-en-exploitation",
-        "title": "La station de dessalement de Sousse entre en exploitation",
-        "description": "La station de dessalement de Sousse entre en exploitation",
-        "source": {
-          "id": "mosaiquefm",
-          "name": "Mosaïque FM"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T09:34:00.000Z",
-        "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791279357.webp",
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "yPyM5l_B4Pxt",
-          "url": "https://businessnews.com.tn/2026/10/06/sousse-apres-huit-ans-dattente-et-plusieurs-reports-la-station-de-dessalement-entre-enfin-en-service/1421574/",
-          "canonicalUrl": "https://businessnews.com.tn/2026/10/06/sousse-apres-huit-ans-dattente-et-plusieurs-reports-la-station-de-dessalement-entre-enfin-en-service/1421574/",
-          "title": "Sousse : après huit ans d’attente et plusieurs reports, la station de dessalement entre enfin en service",
-          "description": "Lancée en 2018 pour renforcer la sécurité hydrique du Sahel, la station de dessalement d’eau de mer de Sidi Abdelhamid, à Sousse, est finalement entrée en exploitation effective le 28 septembre 2026, a-t-on annoncé mardi 6 octobre 2026. Sa mise en service intervient après plusieurs reports, des…",
-          "source": {
-            "id": "businessnews_tn",
-            "name": "Business News"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T10:48:58.000Z",
-          "imageUrl": null,
-          "countryCode": "TN",
-          "regionCode": null
-        },
-        {
-          "id": "kJAt_y6Cs_bl",
-          "url": "https://www.webdo.tn/fr/actualite/regions/station-de-dessalement-de-sousse-apres-des-annees-dattente-leau-arrive-enfin-dans-le-reseau/405063/",
-          "canonicalUrl": "https://www.webdo.tn/fr/actualite/regions/station-de-dessalement-de-sousse-apres-des-annees-dattente-leau-arrive-enfin-dans-le-reseau/405063/",
-          "title": "Station de dessalement de Sousse : Après des années d’attente, l’eau arrive enfin dans le réseau",
-          "description": "La station de dessalement d’eau de mer de Sidi Abdelhamid, à Sousse, est entrée en exploitation effective le 28 septembre 2026. Après plusieurs années de travaux et une longue phase d’essais techniques, les premières quantités d’eau dessalée ont commencé à être injectées dans le réseau de…",
-          "source": {
-            "id": "webdo",
-            "name": "Webdo"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T09:24:48.000Z",
-          "imageUrl": null,
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T10:48:58.000Z"
-    },
-    {
-      "id": "VVTZMILhlvEh",
-      "representative": {
-        "id": "VVTZMILhlvEh",
-        "url": "https://www.lapresse.tn/2026/10/06/le-physicien-belgo-americain-francis-halzen-decroche-le-prix-nobel-de-physique-2026/",
-        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/le-physicien-belgo-americain-francis-halzen-decroche-le-prix-nobel-de-physique-2026/",
-        "title": "Le physicien belgo-américain Francis Halzen décroche le prix Nobel de physique 2026",
-        "description": "Le physicien des particules belgo-américain Francis Halzen a été récompensé par le prix Nobel de physique 2026, en reconnaissance de son travail pionnier consistant à concevoir un observatoire pour traquer certains des particules les plus insaisissables de l’univers : les neutrinos de haute…",
-        "source": {
-          "id": "lapresse_tn",
-          "name": "La Presse de Tunisie"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:05:05.000Z",
-        "imageUrl": null,
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "SAc3vIas4spC",
-          "url": "https://www.mosaiquefm.net/fr/actualites-internationales/1532528/le-nobel-de-physique-au-belge-francis-halzen",
-          "canonicalUrl": "https://www.mosaiquefm.net/fr/actualites-internationales/1532528/le-nobel-de-physique-au-belge-francis-halzen",
-          "title": "Le Nobel de physique au Belge Francis Halzen",
-          "description": "Le prix Nobel de physique 2026 a été décerné, ce mardi, au Belge Francis Halzen pour ses travaux sur les neutrinos au coeur de l'Antarctique.",
-          "source": {
-            "id": "mosaiquefm",
-            "name": "Mosaïque FM"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T10:19:00.000Z",
-          "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791282377.webp",
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:05:05.000Z"
-    },
-    {
-      "id": "pIp8ReNCYNAv",
-      "representative": {
-        "id": "pIp8ReNCYNAv",
-        "url": "https://www.mosaiquefm.net/fr/actualite-regional-tunisie/1532527/medenine-enquete-apres-le-deces-d-un-homme-seropositif-de-94-ans",
-        "canonicalUrl": "https://www.mosaiquefm.net/fr/actualite-regional-tunisie/1532527/medenine-enquete-apres-le-deces-d-un-homme-seropositif-de-94-ans",
-        "title": "Médenine: Décès d’un transfusé séropositif de 94 ans...Enquête ouverte",
-        "description": "Médenine : Enquête après le décès d’un homme séropositif de 94 ans",
-        "source": {
-          "id": "mosaiquefm",
-          "name": "Mosaïque FM"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T10:14:00.000Z",
-        "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791282281.webp",
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "cWMGeJ0VDQpP",
-          "url": "https://www.webdo.tn/fr/actualite/divers/medenine-une-enquete-ouverte-apres-le-deces-dun-patient-de-94-ans-infecte-par-le-vih/405069/",
-          "canonicalUrl": "https://www.webdo.tn/fr/actualite/divers/medenine-une-enquete-ouverte-apres-le-deces-dun-patient-de-94-ans-infecte-par-le-vih/405069/",
-          "title": "Médenine : Une enquête ouverte après le décès d’un patient de 94 ans, infecté par le VIH",
-          "description": "Une enquête sanitaire et épidémiologique a été ouverte à Médenine après le décès, le 4 octobre, d’un homme âgé de 94 ans dont une infection par le VIH a été confirmée quelques heures avant sa mort. Une plainte a également été déposée par sa famille afin que les circonstances de son décès et de son…",
-          "source": {
-            "id": "webdo",
-            "name": "Webdo"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T10:53:26.000Z",
-          "imageUrl": null,
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:53:26.000Z"
-    },
     {
       "id": "XuqLwZEziD3O",
       "representative": {
@@ -452,6 +309,96 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:53.000Z"
+    },
+    {
+      "id": "xf1uQ8dOc-lY",
+      "representative": {
+        "id": "xf1uQ8dOc-lY",
+        "url": "https://www.lapresse.tn/2026/10/06/infractions-routieres-la-campagne-des-agents-en-civil-commence-a-porter-ses-fruits-et-nepargne-personne/",
+        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/infractions-routieres-la-campagne-des-agents-en-civil-commence-a-porter-ses-fruits-et-nepargne-personne/",
+        "title": "Infractions routières : la campagne des agents en civil commence à porter ses fruits et n’épargne personne",
+        "description": "La police de la circulation renforce son dispositif de contrôle dans le Grand Tunis, avec le déploiement d’agents en civil chargés de constater les infractions au Code de la route, notamment durant les périodes de forte affluence. Le directeur de la police de la circulation au ministère de…",
+        "source": {
+          "id": "lapresse_tn",
+          "name": "La Presse de Tunisie"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:49:50.000Z",
+        "imageUrl": null,
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:49:50.000Z"
+    },
+    {
+      "id": "xDAQWfbhHEyH",
+      "representative": {
+        "id": "xDAQWfbhHEyH",
+        "url": "https://www.mosaiquefm.net/fr/national-tunisie/1532552/l-ariana-demantelement-d-un-reseau-de-trafic-de-drogue",
+        "canonicalUrl": "https://www.mosaiquefm.net/fr/national-tunisie/1532552/l-ariana-demantelement-d-un-reseau-de-trafic-de-drogue",
+        "title": "L'Ariana: Démantèlement d'un réseau de trafic de drogue",
+        "description": "Les unités du district de sûreté nationale de l'Ariana ont démantelé un réseau de trafic de stupéfiants et procédé à l’arrestation d’un individu faisa",
+        "source": {
+          "id": "mosaiquefm",
+          "name": "Mosaïque FM"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:30:00.000Z",
+        "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791289008.webp",
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:30:00.000Z"
+    },
+    {
+      "id": "VVTZMILhlvEh",
+      "representative": {
+        "id": "VVTZMILhlvEh",
+        "url": "https://www.lapresse.tn/2026/10/06/le-physicien-belgo-americain-francis-halzen-decroche-le-prix-nobel-de-physique-2026/",
+        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/le-physicien-belgo-americain-francis-halzen-decroche-le-prix-nobel-de-physique-2026/",
+        "title": "Le physicien belgo-américain Francis Halzen décroche le prix Nobel de physique 2026",
+        "description": "Le physicien des particules belgo-américain Francis Halzen a été récompensé par le prix Nobel de physique 2026, en reconnaissance de son travail pionnier consistant à concevoir un observatoire pour traquer certains des particules les plus insaisissables de l’univers : les neutrinos de haute…",
+        "source": {
+          "id": "lapresse_tn",
+          "name": "La Presse de Tunisie"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:05:05.000Z",
+        "imageUrl": null,
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "SAc3vIas4spC",
+          "url": "https://www.mosaiquefm.net/fr/actualites-internationales/1532528/le-nobel-de-physique-au-belge-francis-halzen",
+          "canonicalUrl": "https://www.mosaiquefm.net/fr/actualites-internationales/1532528/le-nobel-de-physique-au-belge-francis-halzen",
+          "title": "Le Nobel de physique au Belge Francis Halzen",
+          "description": "Le prix Nobel de physique 2026 a été décerné, ce mardi, au Belge Francis Halzen pour ses travaux sur les neutrinos au coeur de l'Antarctique.",
+          "source": {
+            "id": "mosaiquefm",
+            "name": "Mosaïque FM"
+          },
+          "sourceCountry": "TN",
+          "language": "fr",
+          "publishedAt": "2026-10-06T10:19:00.000Z",
+          "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791282377.webp",
+          "countryCode": "TN",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:05:05.000Z"
     }
   ]
 }

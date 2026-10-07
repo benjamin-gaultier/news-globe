@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TH",
   "countryName": "Thailand",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "ae7sl6flmS1L",
@@ -62,65 +62,6 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T15:16:22.000Z"
-    },
-    {
-      "id": "7vIHp1LH07w1",
-      "representative": {
-        "id": "7vIHp1LH07w1",
-        "url": "https://www.thairath.co.th/news/crime/2964559",
-        "canonicalUrl": "https://www.thairath.co.th/news/crime/2964559",
-        "title": "“พล.ต.อ.สำราญ” แต่งตั้ง “พล.ต.ต.ศิริวัฒน์ ดีพอ” โฆษก ตร.คนใหม่ มีปรับทัพทีมสื่อสาร",
-        "description": "ผบ.ตร.แต่งตั้ง “พล.ต.ต.ศิริวัฒน์ ดีพอ” โฆษก ตร.คนใหม่ ปรับทัพทีมสื่อสาร เปิดตัว 5 รองโฆษก ตร. เข้าถึงทุกเจเนอเรชัน พร้อมชูวิสัยทัศน์ “สื่อสารเชิงรุก เตือนชัดทุกภัย ใส่ใจทุกปัญหา”",
-        "source": {
-          "id": "thairath",
-          "name": "Thairath"
-        },
-        "sourceCountry": "TH",
-        "language": "th",
-        "publishedAt": "2026-10-06T11:15:03.000Z",
-        "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2E9Kzce49K9ArP.jpg",
-        "countryCode": "TH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "huermpJcA93q",
-          "url": "https://www.khaosod.co.th/crime/news_10427914",
-          "canonicalUrl": "https://www.khaosod.co.th/crime/news_10427914",
-          "title": "ผบ.ตร. แต่งตั้ง ทีมโฆษกตร.ชุดใหม่ ปรับทัพทีมสื่อสารรุ่นใหม่ เน้นเชิงรุก ทันสถานการณ์",
-          "description": "ผบ.ตร. แต่งตั้ง ทีมโฆษกตร.ชุดใหม่ ปรับทัพทีมสื่อสารรุ่นใหม่ เน้นเชิงรุก ทันสถานการณ์ มอบ“พล.ต.ต.ศิริวัฒน์ ดีพอ” รองจเรตำรวจ นำทัพทีมสื่อสาร วันที่ 6 ต.ค.2569 พล.ต.อ.สำราญ นวลมา ผบ.ตร. มีคำสั่งแต่งตั้งทีมโฆษกสำนักงานตำรวจแห่งชาติ โดยแต่งตั้ง “พล.ต.ต.ศิริวัฒน์ ดีพอ” รองจเรตำรวจ เป็น…",
-          "source": {
-            "id": "khaosod",
-            "name": "Khaosod"
-          },
-          "sourceCountry": "TH",
-          "language": "th",
-          "publishedAt": "2026-10-06T13:32:49.000Z",
-          "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/polcall1.jpg",
-          "countryCode": "TH",
-          "regionCode": null
-        },
-        {
-          "id": "Mv8ooZU7fX9X",
-          "url": "https://www.matichon.co.th/local/crime/news_5921734",
-          "canonicalUrl": "https://www.matichon.co.th/local/crime/news_5921734",
-          "title": "ผบ.ตร. ตั้ง ศิริวัฒน์ ดีพอ นั่งโฆษก ตร.คนใหม่ เปิดทีม 5 รองโฆษกฯ ชูสื่อสารเชิงรุก",
-          "description": "ผบ.ตร. ตั้ง ศิริวัฒน์ ดีพอ นั่งโฆษก ตร.คนใหม่ เปิดทีม 5 […]",
-          "source": {
-            "id": "matichon",
-            "name": "Matichon"
-          },
-          "sourceCountry": "TH",
-          "language": "th",
-          "publishedAt": "2026-10-06T11:54:05.000Z",
-          "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/perdtuaaa1.jpg",
-          "countryCode": "TH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:32:49.000Z"
     },
     {
       "id": "WvnBvxEeFd5v",
@@ -205,48 +146,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:06:46.000Z"
-    },
-    {
-      "id": "FwI-dWGdBkiU",
-      "representative": {
-        "id": "FwI-dWGdBkiU",
-        "url": "https://www.khaosod.co.th/monitor-news/news_10428006",
-        "canonicalUrl": "https://www.khaosod.co.th/monitor-news/news_10428006",
-        "title": "น้อมรำลึกถึงสมเด็จย่า เรียนรู้พื้นที่แห่งพระเมตตา ไร่แม่ฟ้าหลวง ในนิทรรศการ ‘คิดถึงสมเด็จย่า’ ครั้งที่ 29",
-        "description": "บริษัท ไอคอนสยาม จำกัด ซึ่งเป็นบริษัทในเครือสยามพิวรรธน์กรุ๊ป ร่วมกับ มูลนิธิแม่ฟ้าหลวง ในพระบรมราชูปถัมภ์ บริษัท ไทยเบฟเวอเรจ จำกัด (มหาชน) และบริษัท เฟรเซอร์ส พร็อพเพอร์ตี้ (ประเทศไทย) จำกัด (มหาชน) ร่วมน้อมรำลึกถึงพระมหากรุณาธิคุณของสมเด็จพระศรีนครินทราบรมราชชนนี จัดนิทรรศการ “คิดถึงสมเด็จย่า…",
-        "source": {
-          "id": "khaosod",
-          "name": "Khaosod"
-        },
-        "sourceCountry": "TH",
-        "language": "th",
-        "publishedAt": "2026-10-06T15:05:43.000Z",
-        "imageUrl": "https://www.khaosod.co.th/wpapp/uploads/2026/10/ya.jpg",
-        "countryCode": "TH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "jbpAc-pAqX1W",
-          "url": "https://www.prachachat.net/biz-movement/news-2077098",
-          "canonicalUrl": "https://www.prachachat.net/biz-movement/news-2077098",
-          "title": "น้อมรำลึกถึงสมเด็จย่า เรียนรู้พื้นที่แห่งพระเมตตา“ไร่แม่ฟ้าหลวง” ในนิทรรศการ“คิดถึงสมเด็จย่า” ครั้งที่ 29",
-          "description": "บริษัท ไอคอนสยาม จำกัด ในเครือสยามพิวรรธน์กรุ๊ป ร่วมกับ มูลนิธิแม่ฟ้าหลวง ในพระบรมราชูปถัมภ์ บริษัท ไทยเบฟเวอเรจ จำกัด (มหาชน) และบริษัท เฟรเซอร์ส พร็อพเพอร์ตี้ (ประเทศไทย) จำกัด (มหาชน) ร่วมน้อมรำลึกถึงพระมหากรุณาธิคุณของสมเด็จพระศรีนครินทราบรมราชชน … อ่านข่าวต้นฉบับ: น้อมรำลึกถึงสมเด็จย่า…",
-          "source": {
-            "id": "prachachat",
-            "name": "Prachachat"
-          },
-          "sourceCountry": "TH",
-          "language": "th",
-          "publishedAt": "2026-10-06T08:36:10.000Z",
-          "imageUrl": "https://www.prachachat.net/wp-content/uploads/2026/10/%E0%B8%9B%E0%B8%81.jpg",
-          "countryCode": "TH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:05:43.000Z"
     },
     {
       "id": "0_MXtvHshbwC",
@@ -541,6 +440,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T16:01:32.000Z"
+    },
+    {
+      "id": "H3dotoj1BI8y",
+      "representative": {
+        "id": "H3dotoj1BI8y",
+        "url": "https://www.matichon.co.th/entertainment/thai-entertainment/news_5922019",
+        "canonicalUrl": "https://www.matichon.co.th/entertainment/thai-entertainment/news_5922019",
+        "title": "ปุ้ย-กวินท์ ตัดสินใจยุติสถานะสามี-ภรรยา ยันไม่มีเรื่องมือที่สาม ขอทุกคนมอบความรักให้กวินท์แทนปุ้ยด้วย",
+        "description": "ปุ้ย-กวินท์ ตัดสินใจ ยุติสถานะสามี-ภรรยา เผยย้อนเวลากลั […]",
+        "source": {
+          "id": "matichon",
+          "name": "Matichon"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T15:55:05.000Z",
+        "imageUrl": "https://www.matichon.co.th/wp-content/uploads/2026/10/a32-2.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:55:05.000Z"
+    },
+    {
+      "id": "b_Q7lkii3guc",
+      "representative": {
+        "id": "b_Q7lkii3guc",
+        "url": "https://www.thairath.co.th/news/foreign/2964592",
+        "canonicalUrl": "https://www.thairath.co.th/news/foreign/2964592",
+        "title": "เยอรมนีจับกุมอดีต ผอ.หน่วยข่าวกรอง ข้อหากบฏ-จารกรรมข้อมูล",
+        "description": "เยอรมนีจับกุมอดีตผู้อำนวยการหน่วยข่าวกรอง ฐานจารกรรมข้อมูลลับไปให้ต่างชาติและเป็นกบฏต่อแผ่นดิน นอกจากนั้นยังจับกุมผู้สมรู้ร่วมคิดได้อีกคนด้วย",
+        "source": {
+          "id": "thairath",
+          "name": "Thairath"
+        },
+        "sourceCountry": "TH",
+        "language": "th",
+        "publishedAt": "2026-10-06T15:53:17.000Z",
+        "imageUrl": "https://static.thairath.co.th/media/CiHZjUdJ5HPNXJ92O2yL2FDah1n8ThYl9A.jpg",
+        "countryCode": "TH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:53:17.000Z"
     }
   ]
 }

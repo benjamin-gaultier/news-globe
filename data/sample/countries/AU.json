@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "AU",
   "countryName": "Australia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "tn0Qg8FYoGsE",
-      "representative": {
-        "id": "tn0Qg8FYoGsE",
-        "url": "https://www.abc.net.au/news/2026-10-06/veteran-news-anchor-richard-morecroft-dies/107236404",
-        "canonicalUrl": "https://www.abc.net.au/news/2026-10-06/veteran-news-anchor-richard-morecroft-dies/107236404",
-        "title": "Veteran news anchor Richard Morecroft dies, aged 70",
-        "description": "Morecroft was a regular presence on television screens for more than 30 years.",
-        "source": {
-          "id": "abc_au",
-          "name": "ABC News"
-        },
-        "sourceCountry": "AU",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:04:21.000Z",
-        "imageUrl": null,
-        "countryCode": "AU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "7N9wdfuQNztW",
-          "url": "https://www.theguardian.com/media/2026/oct/06/richard-morecroft-veteran-abc-news-presenter-dies-age-70-after-cancer-diagnosis",
-          "canonicalUrl": "https://www.theguardian.com/media/2026/oct/06/richard-morecroft-veteran-abc-news-presenter-dies-age-70-after-cancer-diagnosis",
-          "title": "Richard Morecroft, veteran ABC news presenter, dies age 70 after cancer diagnosis",
-          "description": "Michael Rowland and Leigh Sales lead tributes to newsreader who read the ABC’s 7pm bulletin for 20 years Get our new political email , free app or daily news podcast Former ABC news presenter Richard Morecroft has died at the age of 70. Morecroft presented ABC’s 7pm news bulletin for almost 20…",
-          "source": {
-            "id": "guardian_au",
-            "name": "Guardian Australia"
-          },
-          "sourceCountry": "AU",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:44:48.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/b11af72e58b65f33bc7b9a66191d159cf571ef2a/24_0_2008_1606/master/2008.jpg?width=700&quality=85&auto=format&fit=max&s=a3495131b974de5a0e125d31dd6505e4",
-          "countryCode": "AU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:44:48.000Z"
-    },
     {
       "id": "pZtvmLVPvRbx",
       "representative": {
@@ -114,7 +72,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:36:12.000Z"
     },
@@ -138,7 +96,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:30:00.000Z"
     },
@@ -162,7 +120,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:12:41.000Z"
     },
@@ -186,9 +144,51 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:07:55.000Z"
+    },
+    {
+      "id": "tn0Qg8FYoGsE",
+      "representative": {
+        "id": "tn0Qg8FYoGsE",
+        "url": "https://www.abc.net.au/news/2026-10-06/veteran-news-anchor-richard-morecroft-dies/107236404",
+        "canonicalUrl": "https://www.abc.net.au/news/2026-10-06/veteran-news-anchor-richard-morecroft-dies/107236404",
+        "title": "Veteran news anchor Richard Morecroft dies, aged 70",
+        "description": "Morecroft was a regular presence on television screens for more than 30 years.",
+        "source": {
+          "id": "abc_au",
+          "name": "ABC News"
+        },
+        "sourceCountry": "AU",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:04:21.000Z",
+        "imageUrl": null,
+        "countryCode": "AU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "7N9wdfuQNztW",
+          "url": "https://www.theguardian.com/media/2026/oct/06/richard-morecroft-veteran-abc-news-presenter-dies-age-70-after-cancer-diagnosis",
+          "canonicalUrl": "https://www.theguardian.com/media/2026/oct/06/richard-morecroft-veteran-abc-news-presenter-dies-age-70-after-cancer-diagnosis",
+          "title": "Richard Morecroft, veteran ABC news presenter, dies age 70 after cancer diagnosis",
+          "description": "Michael Rowland and Leigh Sales lead tributes to newsreader who read the ABC’s 7pm bulletin for 20 years Get our new political email , free app or daily news podcast Former ABC news presenter Richard Morecroft has died at the age of 70. Morecroft presented ABC’s 7pm news bulletin for almost 20…",
+          "source": {
+            "id": "guardian_au",
+            "name": "Guardian Australia"
+          },
+          "sourceCountry": "AU",
+          "language": "en",
+          "publishedAt": "2026-10-06T10:44:48.000Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/b11af72e58b65f33bc7b9a66191d159cf571ef2a/24_0_2008_1606/master/2008.jpg?width=700&quality=85&auto=format&fit=max&s=a3495131b974de5a0e125d31dd6505e4",
+          "countryCode": "AU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T10:44:48.000Z"
     },
     {
       "id": "_W25wF2hKSnC",
@@ -210,7 +210,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:35:26.000Z"
     },
@@ -234,7 +234,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:24:11.000Z"
     },
@@ -258,7 +258,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:12:01.000Z"
     },
@@ -282,7 +282,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:00:00.000Z"
     },
@@ -306,7 +306,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:56:45.000Z"
     },
@@ -330,7 +330,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:35:00.000Z"
     },
@@ -354,7 +354,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:05:54.000Z"
     },
@@ -378,7 +378,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:00:23.000Z"
     }

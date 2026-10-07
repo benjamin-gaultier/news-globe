@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "KE",
   "countryName": "Kenya",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "6NaTt_HPy4nK",
@@ -76,93 +76,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
+      "outletCount24h": 2,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T13:12:47.000Z"
-    },
-    {
-      "id": "5f0iGsfThufj",
-      "representative": {
-        "id": "5f0iGsfThufj",
-        "url": "https://nation.africa/kenya/news/education/court-suspends-new-ksl-admission-rules-for-trainee-lawyer-5621708",
-        "canonicalUrl": "https://nation.africa/kenya/news/education/court-suspends-new-ksl-admission-rules-for-trainee-lawyer-5621708",
-        "title": "Court suspends new KSL admission rules for trainee lawyer",
-        "description": "High Court halts implementation of disputed criteria pending hearing of a petition.",
-        "source": {
-          "id": "nation_ke",
-          "name": "Daily Nation"
-        },
-        "sourceCountry": "KE",
-        "language": "en",
-        "publishedAt": "2026-10-06T11:26:01.000Z",
-        "imageUrl": null,
-        "countryCode": "KE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "YMMMUD68vc9u",
-          "url": "https://capitalfm.africa/high-court-halts-ksl-2027-28-atp-admissions-over-disputed-entry-rules/",
-          "canonicalUrl": "https://capitalfm.africa/high-court-halts-ksl-2027-28-atp-admissions-over-disputed-entry-rules/",
-          "title": "High Court halts KSL 2027/28 ATP admissions over disputed entry rules",
-          "description": "The court has restrained KSL and CLE from implementing the contested criteria, processing applications or admitting and enrolling students under the disputed requirements pending an inter partes hearing.",
-          "source": {
-            "id": "capitalfm",
-            "name": "Capital FM"
-          },
-          "sourceCountry": "KE",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:56:50.000Z",
-          "imageUrl": null,
-          "countryCode": "KE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:26:01.000Z"
-    },
-    {
-      "id": "g9FrjI_8tulE",
-      "representative": {
-        "id": "g9FrjI_8tulE",
-        "url": "https://www.kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape",
-        "canonicalUrl": "https://www.kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape",
-        "title": "Kenya Railways Seeks Experts as Nairobi Electric Train Project Takes Shape",
-        "description": "Under the wider plan, the Ksh65 billion railway network is expected to serve parts of Nairobi, Kiambu, Machakos, Kajiado and Murang’a counties.",
-        "source": {
-          "id": "kenyans",
-          "name": "Kenyans.co.ke"
-        },
-        "sourceCountry": "KE",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:53:12.000Z",
-        "imageUrl": null,
-        "countryCode": "KE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "z8C9IYLBJGNT",
-          "url": "https://www.tuko.co.ke/business-economy/642178-kenya-railways-invites-experts-apply-nairobi-electric-train-project/",
-          "canonicalUrl": "https://www.tuko.co.ke/business-economy/642178-kenya-railways-invites-experts-apply-nairobi-electric-train-project/",
-          "title": "Kenya Railways invites experts to apply for KSh 65 billion Nairobi electric train project",
-          "description": "Kenya Railways seeks consultants for Nairobi commuter rail electrification, a KSh 65bn World Bank-backed project, and applications close on 26-27 October.",
-          "source": {
-            "id": "tuko",
-            "name": "Tuko"
-          },
-          "sourceCountry": "KE",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:06:37.000Z",
-          "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/9ecb08ed79afbef2.jpeg?v=1",
-          "countryCode": "KE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:06:37.000Z"
     },
     {
       "id": "ErMRQn1ZLql4",
@@ -451,6 +367,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:32:57.000Z"
+    },
+    {
+      "id": "IBQWcORMAmc0",
+      "representative": {
+        "id": "IBQWcORMAmc0",
+        "url": "https://www.tuko.co.ke/entertainment/celebrities/642175-machachari-actress-cindy-narrates-battle-alcoholism-shares-how-tv-show-led-addiction/",
+        "canonicalUrl": "https://www.tuko.co.ke/entertainment/celebrities/642175-machachari-actress-cindy-narrates-battle-alcoholism-shares-how-tv-show-led-addiction/",
+        "title": "Machachari actress Cindy narrates battle with alcoholism, shares how TV show led to addiction",
+        "description": "Machachari actress Cindy, who played Mama Stella, reveals how fame fuelled her alcohol addiction, the toll it took and the turning point that led to sobriety.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:25:20.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/a65f85da9323ebb8.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:25:20.000Z"
+    },
+    {
+      "id": "_hfB8qQq99zF",
+      "representative": {
+        "id": "_hfB8qQq99zF",
+        "url": "https://www.tuko.co.ke/politics/642187-fred-ogola-rips-ldp-alleged-replacement-by-james-orengo-history-judge/",
+        "canonicalUrl": "https://www.tuko.co.ke/politics/642187-fred-ogola-rips-ldp-alleged-replacement-by-james-orengo-history-judge/",
+        "title": "Fred Ogola rips into LDP after alleged replacement by James Orengo: \"History will judge\"",
+        "description": "Professor Fred Ogola claimed Governor James Orengo replaced him as LDP leader, condemning its Ukombozi/Linda Mwananchi alliance as a threat to the party’s identity.",
+        "source": {
+          "id": "tuko",
+          "name": "Tuko"
+        },
+        "sourceCountry": "KE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:24:42.000Z",
+        "imageUrl": "https://cdn.tuko.co.ke/images/1200x675/57ea326961227018.jpeg?v=1",
+        "countryCode": "KE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:24:42.000Z"
     }
   ]
 }

@@ -2,67 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "SY",
   "countryName": "Syria",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "DWQddjJTEVZh",
-      "representative": {
-        "id": "DWQddjJTEVZh",
-        "url": "https://sana.sy/video/2599092/",
-        "canonicalUrl": "https://sana.sy/video/2599092/",
-        "title": "“الكلمة تبني”.. وعيٌ رقمي لمواجهة خطاب الكراهية",
-        "description": "\"الكلمة تبني\".. وعيٌ رقمي لمواجهة خطاب الكراهية",
-        "source": {
-          "id": "sana",
-          "name": "SANA"
-        },
-        "sourceCountry": "SY",
-        "language": "ar",
-        "publishedAt": "2026-10-06T16:43:53.000Z",
-        "imageUrl": "https://cdn.sananews.sy/2026/10/photo_2026-10-06_19-41-08.jpg",
-        "countryCode": "SY",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "3ANjd5rQV1Qy",
-          "url": "https://www.syria.tv/%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A9-%D8%AA%D8%A8%D9%86%D9%8A-%D8%AD%D9%85%D9%84%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AE%D8%B7%D8%A7%D8%A8-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%87%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B6%D9%84%D9%84%D8%A9-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7",
-          "canonicalUrl": "https://www.syria.tv/%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A9-%D8%AA%D8%A8%D9%86%D9%8A-%D8%AD%D9%85%D9%84%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AE%D8%B7%D8%A7%D8%A8-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%87%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B6%D9%84%D9%84%D8%A9-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7",
-          "title": "\"الكلمة تبني\".. حملة لمواجهة خطاب الكراهية والمعلومات المضللة في سوريا",
-          "description": "حملة الكلمة تبني تضع خطاب الكراهية والتضليل تحت الضوء في سوريا.. فهل يتغير المحتوى؟",
-          "source": {
-            "id": "syriatv",
-            "name": "Syria TV"
-          },
-          "sourceCountry": "SY",
-          "language": "ar",
-          "publishedAt": "2026-10-06T15:28:38.000Z",
-          "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2026-10/705757644_864386883373361_7408122726854207723_n.jpg?itok=W5A_Ax6P",
-          "countryCode": "SY",
-          "regionCode": null
-        },
-        {
-          "id": "RTvftcfuHBDj",
-          "url": "https://alwatan.sy/%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d8%aa%d8%a8%d9%86%d9%8a-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%ae%d8%b7%d8%a7%d8%a8-%d8%a7%d9%84%d9%83%d8%b1%d8%a7%d9%87%d9%8a%d8%a9-%d9%88%d8%a7/",
-          "canonicalUrl": "https://alwatan.sy/%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d8%aa%d8%a8%d9%86%d9%8a-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%ae%d8%b7%d8%a7%d8%a8-%d8%a7%d9%84%d9%83%d8%b1%d8%a7%d9%87%d9%8a%d8%a9-%d9%88%d8%a7/",
-          "title": "“الكلمة تبني” لمواجهة خطاب الكراهية والعنف والتحريض",
-          "description": "أطلقت الأكاديمية السورية للإعلام، بالشراكة مع وزارة الإعلام وبرنامج الأمم المتحدة الإنمائي (UNDP)، حملتها الإعلامية للتوعية بمخاطر خطاب الكراهية والتحريض والمعلومات المضللة، وتعزيز الممارسات المسؤولة في تداول المحتوى ونشره، وذلك تحت عنوان “الكلمة تبني”. أكدت الأكاديمية في بيان لها نشرته على…",
-          "source": {
-            "id": "alwatan_sy",
-            "name": "Al-Watan"
-          },
-          "sourceCountry": "SY",
-          "language": "ar",
-          "publishedAt": "2026-10-06T11:34:07.000Z",
-          "imageUrl": "https://alwatan.sy/wp-content/uploads/2026/05/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85.jpg",
-          "countryCode": "SY",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T16:43:53.000Z"
-    },
     {
       "id": "_tLMohHoUJ-c",
       "representative": {
@@ -121,6 +62,65 @@
       "outletCount24h": 3,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T16:03:54.000Z"
+    },
+    {
+      "id": "DWQddjJTEVZh",
+      "representative": {
+        "id": "DWQddjJTEVZh",
+        "url": "https://sana.sy/video/2599092/",
+        "canonicalUrl": "https://sana.sy/video/2599092/",
+        "title": "“الكلمة تبني”.. وعيٌ رقمي لمواجهة خطاب الكراهية",
+        "description": "\"الكلمة تبني\".. وعيٌ رقمي لمواجهة خطاب الكراهية",
+        "source": {
+          "id": "sana",
+          "name": "SANA"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:43:53.000Z",
+        "imageUrl": "https://cdn.sananews.sy/2026/10/photo_2026-10-06_19-41-08.jpg",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "3ANjd5rQV1Qy",
+          "url": "https://www.syria.tv/%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A9-%D8%AA%D8%A8%D9%86%D9%8A-%D8%AD%D9%85%D9%84%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AE%D8%B7%D8%A7%D8%A8-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%87%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B6%D9%84%D9%84%D8%A9-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7",
+          "canonicalUrl": "https://www.syria.tv/%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A9-%D8%AA%D8%A8%D9%86%D9%8A-%D8%AD%D9%85%D9%84%D8%A9-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AE%D8%B7%D8%A7%D8%A8-%D8%A7%D9%84%D9%83%D8%B1%D8%A7%D9%87%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B6%D9%84%D9%84%D8%A9-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7",
+          "title": "\"الكلمة تبني\".. حملة لمواجهة خطاب الكراهية والمعلومات المضللة في سوريا",
+          "description": "حملة الكلمة تبني تضع خطاب الكراهية والتضليل تحت الضوء في سوريا.. فهل يتغير المحتوى؟",
+          "source": {
+            "id": "syriatv",
+            "name": "Syria TV"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T15:28:38.000Z",
+          "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2026-10/705757644_864386883373361_7408122726854207723_n.jpg?itok=W5A_Ax6P",
+          "countryCode": "SY",
+          "regionCode": null
+        },
+        {
+          "id": "RTvftcfuHBDj",
+          "url": "https://alwatan.sy/%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d8%aa%d8%a8%d9%86%d9%8a-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%ae%d8%b7%d8%a7%d8%a8-%d8%a7%d9%84%d9%83%d8%b1%d8%a7%d9%87%d9%8a%d8%a9-%d9%88%d8%a7/",
+          "canonicalUrl": "https://alwatan.sy/%d8%a7%d9%84%d9%83%d9%84%d9%85%d8%a9-%d8%aa%d8%a8%d9%86%d9%8a-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%ae%d8%b7%d8%a7%d8%a8-%d8%a7%d9%84%d9%83%d8%b1%d8%a7%d9%87%d9%8a%d8%a9-%d9%88%d8%a7/",
+          "title": "“الكلمة تبني” لمواجهة خطاب الكراهية والعنف والتحريض",
+          "description": "أطلقت الأكاديمية السورية للإعلام، بالشراكة مع وزارة الإعلام وبرنامج الأمم المتحدة الإنمائي (UNDP)، حملتها الإعلامية للتوعية بمخاطر خطاب الكراهية والتحريض والمعلومات المضللة، وتعزيز الممارسات المسؤولة في تداول المحتوى ونشره، وذلك تحت عنوان “الكلمة تبني”. أكدت الأكاديمية في بيان لها نشرته على…",
+          "source": {
+            "id": "alwatan_sy",
+            "name": "Al-Watan"
+          },
+          "sourceCountry": "SY",
+          "language": "ar",
+          "publishedAt": "2026-10-06T11:34:07.000Z",
+          "imageUrl": "https://alwatan.sy/wp-content/uploads/2026/05/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85.jpg",
+          "countryCode": "SY",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T16:43:53.000Z"
     },
     {
       "id": "-GbmpnCFeq4h",
@@ -247,48 +247,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T16:04:10.000Z"
-    },
-    {
-      "id": "3Q0YXbM0jX3F",
-      "representative": {
-        "id": "3Q0YXbM0jX3F",
-        "url": "https://www.syria.tv/3-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D9%88%D8%A3%D8%B6%D8%B1%D8%A7%D8%B1-%D9%85%D8%A7%D8%AF%D9%8A%D8%A9-%D8%A5%D8%AB%D8%B1-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D8%B7%D8%A7%D8%B1%D9%8A-%D8%AC%D8%A7%D8%B2%D8%A7%D9%86-%D9%88%D9%86%D8%AC%D8%B1%D8%A7%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-        "canonicalUrl": "https://www.syria.tv/3-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D9%88%D8%A3%D8%B6%D8%B1%D8%A7%D8%B1-%D9%85%D8%A7%D8%AF%D9%8A%D8%A9-%D8%A5%D8%AB%D8%B1-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D8%B7%D8%A7%D8%B1%D9%8A-%D8%AC%D8%A7%D8%B2%D8%A7%D9%86-%D9%88%D9%86%D8%AC%D8%B1%D8%A7%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-        "title": "3 إصابات وأضرار مادية إثر استهداف مطاري جازان ونجران في السعودية",
-        "description": "أعلنت الهيئة العامة للطيران المدني السعودية، اليوم الثلاثاء، إصابة ثلاثة أشخاص بجروح طفيفة ووقوع أضرار مادية جراء هجومين استهدفا مطاري جازان ونجران",
-        "source": {
-          "id": "syriatv",
-          "name": "Syria TV"
-        },
-        "sourceCountry": "SY",
-        "language": "ar",
-        "publishedAt": "2026-10-06T12:07:05.000Z",
-        "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2026-10/gylrjyfs.png?itok=mxqLtUsI",
-        "countryCode": "SY",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "fUtevQQCTWdK",
-          "url": "https://npasyria.com/246794/",
-          "canonicalUrl": "https://npasyria.com/246794/",
-          "title": "السعودية: إصابات وأضرار جراء استهداف مطاري جازان ونجران",
-          "description": "دمشق – نورث برس أعلنت الهيئة العامة للطيران المدني في السعودية، الثلاثاء، تعرض مطار الملك عبد الله بن عبد العزيز الدولي في جازان، ومطار نجران الدولي، جنوبي المملكة، “لاعتداءين” استهدفا مرافقهما، مساء أمس الإثنين. وقالت الهيئة في بيان، إن “فرق الطوارئ والجهات المختصة باشرت التعامل مع الاعتداءين فور…",
-          "source": {
-            "id": "npasyria",
-            "name": "North Press"
-          },
-          "sourceCountry": "SY",
-          "language": "ar",
-          "publishedAt": "2026-10-06T09:03:01.000Z",
-          "imageUrl": "https://npasyria.com/wp-content/uploads/2026/10/297e195491bc-63578.jpg.webp",
-          "countryCode": "SY",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:07:05.000Z"
     },
     {
       "id": "3YAL3B9Q1A1T",
@@ -505,6 +463,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T16:26:15.000Z"
+    },
+    {
+      "id": "F59vxbQlGUEm",
+      "representative": {
+        "id": "F59vxbQlGUEm",
+        "url": "https://www.syria.tv/%D9%82%D8%A8%D9%84%D8%A7%D9%88%D9%8A-%D8%AE%D8%B7-%D8%A3%D9%86%D8%A7%D8%A8%D9%8A%D8%A8-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%88%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D9%82%D8%AF-%D9%8A%D8%A8%D8%AF%D8%A3-%D9%85%D8%B7%D9%84%D8%B9-2027",
+        "canonicalUrl": "https://www.syria.tv/%D9%82%D8%A8%D9%84%D8%A7%D9%88%D9%8A-%D8%AE%D8%B7-%D8%A3%D9%86%D8%A7%D8%A8%D9%8A%D8%A8-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%88%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D9%82%D8%AF-%D9%8A%D8%A8%D8%AF%D8%A3-%D9%85%D8%B7%D9%84%D8%B9-2027",
+        "title": "قبلاوي: خط أنابيب النفط بين العراق وسوريا قد يبدأ مطلع 2027",
+        "description": "قال الرئيس التنفيذي للشركة السورية للبترول، يوسف قبلاوي، إن أعمال مد خط أنابيب لنقل النفط من العراق إلى الساحل السوري على البحر المتوسط قد تبدأ خلال الربع الأول",
+        "source": {
+          "id": "syriatv",
+          "name": "Syria TV"
+        },
+        "sourceCountry": "SY",
+        "language": "ar",
+        "publishedAt": "2026-10-06T16:26:03.000Z",
+        "imageUrl": "https://www.syria.tv/sites/default/files/styles/article_870_490/public/2026-06/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%20%D9%84%D9%84%D8%B4%D8%B1%D9%83%D8%A9%20%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9%20%D9%84%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%84%D8%8C%20%D9%8A%D9%88%D8%B3%D9%81%20%D9%82%D8%A8%D9%84%D8%A7%D9%88%D9%8A%20-%20%D9%81%D9%8A%D8%B3%20%D8%A8%D9%88%D9%83.jpg?itok=Cc0l2-_U",
+        "countryCode": "SY",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:26:03.000Z"
     }
   ]
 }

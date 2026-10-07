@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "SR",
   "countryName": "Suriname",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "3wwB3RY3pPIU",
-      "representative": {
-        "id": "3wwB3RY3pPIU",
-        "url": "https://www.waterkant.net/suriname/2026/10/06/politie-ontdekt-illegale-landingsbaan-uitgebrand-drugsvliegtuig-en-begraven-motoren-in-binnenland-suriname/#utm_source=rss&utm_medium=rss&utm_campaign=politie-ontdekt-illegale-landingsbaan-uitgebrand-drugsvliegtuig-en-begraven-motoren-in-binnenland-suriname",
-        "canonicalUrl": "https://www.waterkant.net/suriname/2026/10/06/politie-ontdekt-illegale-landingsbaan-uitgebrand-drugsvliegtuig-en-begraven-motoren-in-binnenland-suriname/",
-        "title": "Politie ontdekt illegale landingsbaan, uitgebrand drugsvliegtuig en begraven motoren in binnenland Suriname",
-        "description": "Waterkant Een gemengd team van het Korps Politie Suriname heeft zondag 4 oktober in het Goliathgebied in het district Para een illegale landingsbaan ontdekt. Daarbij werden recente vliegtuigbandensporen, brandstofvaten en een uitgebrand tweemotorig vliegtuig aangetroffen. Het team, bestaande uit…",
-        "source": {
-          "id": "waterkant",
-          "name": "Waterkant"
-        },
-        "sourceCountry": "SR",
-        "language": "nl",
-        "publishedAt": "2026-10-06T11:00:00.000Z",
-        "imageUrl": null,
-        "countryCode": "SR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "OPA4c00i9fvp",
-          "url": "https://www.srherald.com/suriname/2026/10/06/illegale-landingsbaan-en-uitgebrand-vliegtuig-ontdekt-in-goliathgebied/",
-          "canonicalUrl": "https://www.srherald.com/suriname/2026/10/06/illegale-landingsbaan-en-uitgebrand-vliegtuig-ontdekt-in-goliathgebied/",
-          "title": "Illegale landingsbaan en uitgebrand vliegtuig ontdekt in Goliathgebied",
-          "description": "In het Goliathgebied in Para heeft een gemengd politieteam een illegale landingsbaan met recente vliegtuigbandensporen ontdekt. In de omgeving lag een uitgebrand tweemotorig vliegtuig, waarvan de motoren ter plaatse waren begraven. Vaten met vermoedelijke vliegtuigbrandstof zijn vernietigd. De…",
-          "source": {
-            "id": "srherald",
-            "name": "Suriname Herald"
-          },
-          "sourceCountry": "SR",
-          "language": "nl",
-          "publishedAt": "2026-10-06T16:33:30.000Z",
-          "imageUrl": null,
-          "countryCode": "SR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T16:33:30.000Z"
-    },
     {
       "id": "zbRTHHnjOmPL",
       "representative": {
@@ -141,6 +99,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T17:00:00.000Z"
+    },
+    {
+      "id": "3wwB3RY3pPIU",
+      "representative": {
+        "id": "3wwB3RY3pPIU",
+        "url": "https://www.waterkant.net/suriname/2026/10/06/politie-ontdekt-illegale-landingsbaan-uitgebrand-drugsvliegtuig-en-begraven-motoren-in-binnenland-suriname/#utm_source=rss&utm_medium=rss&utm_campaign=politie-ontdekt-illegale-landingsbaan-uitgebrand-drugsvliegtuig-en-begraven-motoren-in-binnenland-suriname",
+        "canonicalUrl": "https://www.waterkant.net/suriname/2026/10/06/politie-ontdekt-illegale-landingsbaan-uitgebrand-drugsvliegtuig-en-begraven-motoren-in-binnenland-suriname/",
+        "title": "Politie ontdekt illegale landingsbaan, uitgebrand drugsvliegtuig en begraven motoren in binnenland Suriname",
+        "description": "Waterkant Een gemengd team van het Korps Politie Suriname heeft zondag 4 oktober in het Goliathgebied in het district Para een illegale landingsbaan ontdekt. Daarbij werden recente vliegtuigbandensporen, brandstofvaten en een uitgebrand tweemotorig vliegtuig aangetroffen. Het team, bestaande uit…",
+        "source": {
+          "id": "waterkant",
+          "name": "Waterkant"
+        },
+        "sourceCountry": "SR",
+        "language": "nl",
+        "publishedAt": "2026-10-06T11:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "SR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "OPA4c00i9fvp",
+          "url": "https://www.srherald.com/suriname/2026/10/06/illegale-landingsbaan-en-uitgebrand-vliegtuig-ontdekt-in-goliathgebied/",
+          "canonicalUrl": "https://www.srherald.com/suriname/2026/10/06/illegale-landingsbaan-en-uitgebrand-vliegtuig-ontdekt-in-goliathgebied/",
+          "title": "Illegale landingsbaan en uitgebrand vliegtuig ontdekt in Goliathgebied",
+          "description": "In het Goliathgebied in Para heeft een gemengd politieteam een illegale landingsbaan met recente vliegtuigbandensporen ontdekt. In de omgeving lag een uitgebrand tweemotorig vliegtuig, waarvan de motoren ter plaatse waren begraven. Vaten met vermoedelijke vliegtuigbrandstof zijn vernietigd. De…",
+          "source": {
+            "id": "srherald",
+            "name": "Suriname Herald"
+          },
+          "sourceCountry": "SR",
+          "language": "nl",
+          "publishedAt": "2026-10-06T16:33:30.000Z",
+          "imageUrl": null,
+          "countryCode": "SR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T16:33:30.000Z"
     },
     {
       "id": "LGvpoAZUHDam",

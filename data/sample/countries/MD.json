@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MD",
   "countryName": "Moldova",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "0TqLTU9yQNQq",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:49:24.000Z"
-    },
-    {
-      "id": "0eBFW5teE8KC",
-      "representative": {
-        "id": "0eBFW5teE8KC",
-        "url": "https://www.zdg.md/stiri/robinetele-care-alimentau-vechile-practici-se-inchid-dan-perciun-despre-excluderea-premierii-rezultatelor-obtinute-la-probele-neolimpice/",
-        "canonicalUrl": "https://www.zdg.md/stiri/robinetele-care-alimentau-vechile-practici-se-inchid-dan-perciun-despre-excluderea-premierii-rezultatelor-obtinute-la-probele-neolimpice/",
-        "title": "„Robinetele care alimentau vechile practici se închid” – Dan Perciun, despre excluderea premierii rezultatelor obținute la probele neolimpice",
-        "description": "Ministrul educației, Dan Perciun, a venit cu o reacție după valul de nemulțumiri în urma deciziei Guvernului de a exclude premierea rezultatelor obținute la ramurile și probele sportive nerecunoscute de Comitetul Internațional Olimpic (CIO). „Robinetele care alimentau vechile practici se închid”…",
-        "source": {
-          "id": "zdg",
-          "name": "Ziarul de Gardă"
-        },
-        "sourceCountry": "MD",
-        "language": "ro",
-        "publishedAt": "2026-10-06T10:23:50.000Z",
-        "imageUrl": null,
-        "countryCode": "MD",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "wEU_4XSfy4_-",
-          "url": "https://unimedia.info/ro/news/9389ac5b85953878/foto-sportivii-au-iesit-din-nou-in-strada-nemultumiti-de-anularea-premiilor-pentru-probele-neolimpice-perciun-robinetele-care-alimentau-vechile-practici-se-inchid-nu-vom-reveni.html?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-          "canonicalUrl": "https://unimedia.info/ro/news/9389ac5b85953878/foto-sportivii-au-iesit-din-nou-in-strada-nemultumiti-de-anularea-premiilor-pentru-probele-neolimpice-perciun-robinetele-care-alimentau-vechile-practici-se-inchid-nu-vom-reveni.html",
-          "title": "(foto) Sportivii au ieșit, din nou, în stradă, nemulțumiți de anularea premiilor pentru probele neolimpice. Perciun: „Robinetele care alimentau vechile practici se închid. Nu vom reveni”",
-          "description": "Protest în fața Parlamentului, după ce autoritățile au decis să elimine premiile pentru performanțele obținute în probele sportive neolimpice. Zeci de sportivi au cerut duminică, 4 octombrie, demisia secretarului de stat Sergiu Gurin, acuzând autoritățile că îi privează de susținerea financiară…",
-          "source": {
-            "id": "unimedia",
-            "name": "Unimedia"
-          },
-          "sourceCountry": "MD",
-          "language": "ro",
-          "publishedAt": "2026-10-06T08:33:59.000Z",
-          "imageUrl": "https://cdn.digita.media/unimedia/2026100611108/b31fedc500d5880a511daec790634aa9ab23dc50f09b37772b30d6e26dd291e3.png",
-          "countryCode": "MD",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:23:50.000Z"
     },
     {
       "id": "n9Lm-EoWhz2q",
@@ -399,6 +357,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:45:00.000Z"
+    },
+    {
+      "id": "XvHJ8JKojlq8",
+      "representative": {
+        "id": "XvHJ8JKojlq8",
+        "url": "https://www.zdg.md/stiri/video-csm-a-acceptat-rapoartele-pozitive-in-privinta-a-doua-magistrate-de-la-judecatoria-chisinau/",
+        "canonicalUrl": "https://www.zdg.md/stiri/video-csm-a-acceptat-rapoartele-pozitive-in-privinta-a-doua-magistrate-de-la-judecatoria-chisinau/",
+        "title": "VIDEO/ CSM a acceptat rapoartele pozitive în privința a două magistrate de la Judecătoria Chișinău",
+        "description": "Membrii Consiliului Superior al Magistraturii (CSM) se întrunesc marți, 6 octombrie, în ședință plenară. Pe ordinea de zi figurează 11 subiecte, printre care desfășurarea concursului pentru suplinirea funcțiilor vacante de judecător la Curtea Supremă de Justiție (CSJ) și rapoartele de evaluare…",
+        "source": {
+          "id": "zdg",
+          "name": "Ziarul de Gardă"
+        },
+        "sourceCountry": "MD",
+        "language": "ro",
+        "publishedAt": "2026-10-06T13:44:13.000Z",
+        "imageUrl": null,
+        "countryCode": "MD",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:44:13.000Z"
     }
   ]
 }

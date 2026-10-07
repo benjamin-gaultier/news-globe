@@ -15,6 +15,8 @@ const TRACKING_PARAMS = new Set([
   'at_platform',
   'at_creation',
   'at_send_date',
+  // ici (Radio France) tags each local station's copy of a shared story differently.
+  'at_locale',
   'cmpid',
   'smid',
   'smtyp',

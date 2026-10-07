@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "RS",
   "countryName": "Serbia",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "bAB1y3G_mfUL",
@@ -383,132 +383,6 @@
       "latestPublishedAt": "2026-10-06T12:22:36.000Z"
     },
     {
-      "id": "P3FXGPkQdIIo",
-      "representative": {
-        "id": "P3FXGPkQdIIo",
-        "url": "https://n1info.rs/vesti/savet-rem-a-pokrece-istrazne-postupke-protiv-informera/",
-        "canonicalUrl": "https://n1info.rs/vesti/savet-rem-a-pokrece-istrazne-postupke-protiv-informera/",
-        "title": "Savet REM-a pokreće istražne postupke protiv Informera",
-        "description": "Na današnjoj sednici Saveta Regulatornog tela za elektronske medije doneta je odluka da se pokrenu dva istražna postupka protiv televizije Informer.",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T11:51:40.000Z",
-        "imageUrl": "https://n1info.rs/media/images/2026/6/16/1781618254_Informer_televizija_zgrada_foto_TV_NOVA.width-1200.jpg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "30OMuM4mxVKm",
-          "url": "https://www.danas.rs/vesti/drustvo/savet-rem-informer/",
-          "canonicalUrl": "https://www.danas.rs/vesti/drustvo/savet-rem-informer/",
-          "title": "Savet REM pokreće istražne postupke protiv Informera",
-          "description": "Savet Regulatornog tela za elektronske medije (REM) doneo je odluku na današnjoj sednici da pokrene dva istražna postupka protiv televizije Informer.",
-          "source": {
-            "id": "danas",
-            "name": "Danas"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T12:07:50.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2023/03/1-158-e1680448853113-300x169.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:07:50.000Z"
-    },
-    {
-      "id": "1u9deBLKDXFW",
-      "representative": {
-        "id": "1u9deBLKDXFW",
-        "url": "https://n1info.rs/vesti/jovanovic-autenticna-desnica-nismo-zadovoljni-promenom-vlasti-trazimo-promenu-politike/",
-        "canonicalUrl": "https://n1info.rs/vesti/jovanovic-autenticna-desnica-nismo-zadovoljni-promenom-vlasti-trazimo-promenu-politike/",
-        "title": "Jovanović (Autentična desnica): Nismo zadovoljni promenom vlasti, tražimo promenu politike",
-        "description": "Nosilac liste \"Autentična desnica\" i predsednik Nove demokratske stranke Srbije Miloš Jovanović izjavio je danas da se ta lista ne zadovoljava promeno",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T11:54:41.000Z",
-        "imageUrl": "https://n1info.rs/media/images/2026/10/5/1791184751_milos_jovanovicn1.width-1200.jpg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "nRdFZl6OxWQF",
-          "url": "https://www.danas.rs/vesti/politika/jovanovic-autenticna-desnica-nismo-zadovoljni-promenom-vlasti-trazimo-promenu-politike/",
-          "canonicalUrl": "https://www.danas.rs/vesti/politika/jovanovic-autenticna-desnica-nismo-zadovoljni-promenom-vlasti-trazimo-promenu-politike/",
-          "title": "Jovanović (Autentična desnica): Nismo zadovoljni promenom vlasti, tražimo promenu politike",
-          "description": "Nosilac liste \"Autentična desnica\" i predsednik Nove demokratske stranke Srbije Miloš Jovanović izjavio je danas da se ta lista ne zadovoljava promenom vlasti nego traži i promenu politike.Jovanović je naveo da se posle smene autoritarne vlasti Aleksandra Vučića \"postavlja logično pitanje kuda…",
-          "source": {
-            "id": "danas",
-            "name": "Danas"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T12:04:59.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/10/5-2-e1791288282778-300x169.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:04:59.000Z"
-    },
-    {
-      "id": "E0LOFBGR3LWu",
-      "representative": {
-        "id": "E0LOFBGR3LWu",
-        "url": "https://n1info.rs/vesti/vucic-strahuje-od-glasova-dijaspore-evropske-demokrate-osudile-prepreke-biracima-iz-srbije/",
-        "canonicalUrl": "https://n1info.rs/vesti/vucic-strahuje-od-glasova-dijaspore-evropske-demokrate-osudile-prepreke-biracima-iz-srbije/",
-        "title": "\"Vučić strahuje od glasova dijaspore\": Evropske demokrate osudile prepreke biračima iz Srbije",
-        "description": "Evropska demokratska partija (EDP) osudila je danas \"prepreke nametnute državljanima Srbije\" koji glasaju iz inostranstva na parlamentarnim izborima z",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T11:01:42.000Z",
-        "imageUrl": "https://n1info.rs/media/images/2025/10/1761073885_sandro_goci_2.width-1200.jpg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "-8E-lV-9IfRC",
-          "url": "https://www.danas.rs/vesti/politika/sandro-goci-vucic-strahuje-od-glasova-dijaspore/",
-          "canonicalUrl": "https://www.danas.rs/vesti/politika/sandro-goci-vucic-strahuje-od-glasova-dijaspore/",
-          "title": "Sandro Goci: Vučić strahuje od glasova dijaspore",
-          "description": "Evropska demokratska partija (EDP) osudila je danas \"prepreke nametnute državljanima Srbije\" koji glasaju iz inostranstva na parlamentarnim izborima zakazanim za 25. oktobar, oceniši da nosilac liste Ujedinjena Srbija i bivši predsednik Srbije Aleksandar Vučić strahuje od glasova dijaspore.",
-          "source": {
-            "id": "danas",
-            "name": "Danas"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T11:31:01.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2025/10/12247933-e1791286111350-300x169.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:31:01.000Z"
-    },
-    {
       "id": "VwqABJwjg9_Q",
       "representative": {
         "id": "VwqABJwjg9_Q",
@@ -579,6 +453,78 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:55:09.000Z"
+    },
+    {
+      "id": "rHgmvhsNhsrL",
+      "representative": {
+        "id": "rHgmvhsNhsrL",
+        "url": "https://www.danas.rs/sport/evroliga-crvena-zvezda-partizan-fransize/",
+        "canonicalUrl": "https://www.danas.rs/sport/evroliga-crvena-zvezda-partizan-fransize/",
+        "title": "Zvezda i Partizan čekaju rasplet: Evroliga objasnila šta sledi u trci za franšize",
+        "description": "Crvena zvezda i Partizan i dalje čekaju odluku o svojoj budućnosti u Evroligi, nakon što vlasnici klubova akcionara nisu doneli konačnu odluku o proširenju takmičenja.",
+        "source": {
+          "id": "danas",
+          "name": "Danas"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:55:07.000Z",
+        "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/04/partizan-zvezda-aba-688094-e1776620711596-300x169.jpg",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:55:07.000Z"
+    },
+    {
+      "id": "ZR6GoYNLvQbF",
+      "representative": {
+        "id": "ZR6GoYNLvQbF",
+        "url": "https://www.blic.rs/kultura/netfliks-objavio-finalni-trejler-za-novi-triler-bena-afleka-u-sredistu-price-je-brak/fljscyw",
+        "canonicalUrl": "https://www.blic.rs/kultura/netfliks-objavio-finalni-trejler-za-novi-triler-bena-afleka-u-sredistu-price-je-brak/fljscyw",
+        "title": "Netfliks objavio finalni trejler za novi triler Bena Afleka: Šta znači imati pravi brak? (VIDEO)",
+        "description": "Netflix je uoči premijere objavio finalni trejler za film „Animals“, novi kriminalistički triler Bena Afleka.",
+        "source": {
+          "id": "blic",
+          "name": "Blic"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:52:54.000Z",
+        "imageUrl": null,
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:52:54.000Z"
+    },
+    {
+      "id": "dZ6Dn62PCn8Y",
+      "representative": {
+        "id": "dZ6Dn62PCn8Y",
+        "url": "https://www.blic.rs/slobodno-vreme/tri-generacije-jedan-koncert-kako-andre-riju-osvaja-publiku-svih-generacija/jmg4qjk",
+        "canonicalUrl": "https://www.blic.rs/slobodno-vreme/tri-generacije-jedan-koncert-kako-andre-riju-osvaja-publiku-svih-generacija/jmg4qjk",
+        "title": "Tri generacije, jedan koncert: Kako Andre Riju osvaja publiku svih generacija?",
+        "description": "Dva meseca uoči spektakla u Beogradskoj areni interesovanje ne jenjava, a u prodaji je ostao samo ograničen broj ulaznica",
+        "source": {
+          "id": "blic",
+          "name": "Blic"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:51:18.000Z",
+        "imageUrl": null,
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:51:18.000Z"
     }
   ]
 }

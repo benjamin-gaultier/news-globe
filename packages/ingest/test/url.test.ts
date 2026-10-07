@@ -9,6 +9,10 @@ describe('canonicalizeUrl', () => {
       ),
     ).toBe('https://www.lemonde.fr/politique/article/2026/10/06/x_123.html');
     expect(canonicalizeUrl('https://example.com/a?fbclid=abc&gclid=def')).toBe('https://example.com/a');
+    // ici stations share stories; only at_locale differs between their feeds.
+    expect(canonicalizeUrl('https://www.ici.fr/infos/x-123?at_medium=lien_RSS&at_locale=37')).toBe(
+      'https://www.ici.fr/infos/x-123',
+    );
   });
 
   it('lower-cases the host but not the path', () => {

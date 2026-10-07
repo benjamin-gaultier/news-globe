@@ -4,367 +4,403 @@
   "countryName": "France",
   "regionCode": "FR-NOR",
   "regionName": "Normandy",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
-      "id": "fzCuk65e5HOA",
+      "id": "e_HO-2gMtPe5",
       "representative": {
-        "id": "fzCuk65e5HOA",
-        "url": "https://france3-regions.franceinfo.fr/normandie/calvados/caen/en-images-decouvrez-les-pancartes-des-lyceens-dans-les-manifestations-du-6-octobre-2026-3429072.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/calvados/caen/en-images-decouvrez-les-pancartes-des-lyceens-dans-les-manifestations-du-6-octobre-2026-3429072.html",
-        "title": "EN IMAGES. Découvrez les pancartes des lycéens dans les manifestations du 6 octobre 2026",
-        "description": "Les lycéens étaient nombreux à brandir leurs slogans dans les cortèges des manifestations en Normandie. L'écran du smartphone a été surclassé ce 6 octobre 2026 par des pancartes en carton. En quelques mots, les jeunes ont exprimé leur volonté, leur révolte et leur craintes d'un avenir sans espoir.",
+        "id": "e_HO-2gMtPe5",
+        "url": "https://www.ici.fr/normandie/seine-maritime-76/rouen/un-homme-de-88-ans-meurt-dans-un-incendie-d-appartement-a-rouen-7694534?at_medium=lien_RSS&at_locale=38",
+        "canonicalUrl": "https://www.ici.fr/normandie/seine-maritime-76/rouen/un-homme-de-88-ans-meurt-dans-un-incendie-d-appartement-a-rouen-7694534",
+        "title": "Un homme de 88 ans meurt dans l'incendie d'un appartement à Rouen, sa femme en urgence absolue",
+        "description": "Un homme de 88 ans a perdu la vie, mercredi 7 octobre 2026, dans le feu de son appartement avenue de la Porte des Champs à Rouen. Sa femme, qui a donné l'alerte, a été héliportée en urgence absolue à l'hôpital.",
         "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T18:02:26.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/leCDuMkgtp1_ADacEdEWxQ7bNSY/930x620/filters:format(webp)/regions/2026/10/06/6ac51ce211f2b808981419.png",
+        "publishedAt": "2026-10-07T08:13:54.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/9d05bcdc-4c25-471b-8052-a84eb7d328df/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-NOR"
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T18:02:26.000Z"
+      "related": [
+        {
+          "id": "Vfc6QbvUNHmW",
+          "url": "https://www.bfmtv.com/normandie/un-mort-et-une-femme-en-urgence-absolue-apres-un-incendie-d-appartement-a-rouen_AN-202610070401.html",
+          "canonicalUrl": "https://www.bfmtv.com/normandie/un-mort-et-une-femme-en-urgence-absolue-apres-un-incendie-d-appartement-a-rouen_AN-202610070401.html",
+          "title": "Un mort et une femme en urgence absolue après un incendie d'appartement à Rouen",
+          "description": "Un feu d'appartement s'est déclaré ce mercredi matin à Rouen (Seine-Maritime). Un couple de personnes âgées vivaient à l'intérieur. L'homme a été retrouvé mort. La femme, a, elle, été transportée à l'hôpital en urgence absolue.",
+          "source": {
+            "id": "bfm_normandie",
+            "name": "BFM Normandie"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T09:21:58.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/EJRVhnP2wzdRE2aeqaA8v-UTXow=/4x3:1252x705/800x0/images/-125912.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-NOR"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T09:21:58.000Z"
     },
     {
-      "id": "Sw4pqYv5GVnS",
+      "id": "yDxwTfw7agtr",
       "representative": {
-        "id": "Sw4pqYv5GVnS",
-        "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/rouen/temoignages-les-lyceens-sont-inquiets-et-ils-ont-bien-raison-entre-soutien-et-inquietude-quel-est-l-etat-d-esprit-des-parents-d-eleves-3429027.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/rouen/temoignages-les-lyceens-sont-inquiets-et-ils-ont-bien-raison-entre-soutien-et-inquietude-quel-est-l-etat-d-esprit-des-parents-d-eleves-3429027.html",
-        "title": "TEMOIGNAGES. \"Les lycéens sont inquiets, et ils ont bien raison\" : entre soutien et inquiétude, quel est l'état d'esprit des parents d'élèves ?",
-        "description": "Blocus, affrontements, cours à distance… À Rouen et à Caen, des parents de lycéens ont répondu à nos questions en ce jour de manifestation. S’ils soutiennent la mobilisation, tous s'interrogent sur la sécurité de leurs enfants.",
+        "id": "yDxwTfw7agtr",
+        "url": "https://www.ici.fr/normandie/eure-27/courbepine/camion-couche-sur-l-a28-a-courbepine-l-autoroute-coupee-dans-les-deux-sens-4953173?at_medium=lien_RSS&at_locale=38",
+        "canonicalUrl": "https://www.ici.fr/normandie/eure-27/courbepine/camion-couche-sur-l-a28-a-courbepine-l-autoroute-coupee-dans-les-deux-sens-4953173",
+        "title": "Camion couché sur l'A28 à Courbépine : l'autoroute coupée dans le sens Rouen-Alençon",
+        "description": "L'autoroute A28 est coupée dans le sens Rouen-Alençon à hauteur de Courbépine, dans l'Eure ce mardi 6 octobre 2026. Un camion s'est couché sur la chaussée. Une déviation est mise en place. La circulation devrait être rétablie vers 22 heures.",
         "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T16:37:05.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/OJ434ztS0kwt4kdk6ODHmOcSqUA/930x620/filters:format(webp)/regions/2026/10/06/6ac4c28daf074366305216.jpg",
+        "publishedAt": "2026-10-06T12:45:45.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/f2b2fac7-37db-4633-af39-bafdab1fe682/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-NOR"
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:37:05.000Z"
-    },
-    {
-      "id": "ulYIP2vHKm6r",
-      "representative": {
-        "id": "ulYIP2vHKm6r",
-        "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/rouen/christophe-cressent-meilleur-ouvrier-de-france-et-parrain-de-rouen-a-table-une-vie-consacree-a-la-boulangerie-3428304.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/rouen/christophe-cressent-meilleur-ouvrier-de-france-et-parrain-de-rouen-a-table-une-vie-consacree-a-la-boulangerie-3428304.html",
-        "title": "Christophe Cressent, Meilleur ouvrier de France et parrain de Rouen à table : une vie consacrée à la boulangerie",
-        "description": "Christophe Cressent est le parrain de l’évènement Rouen à Table. Un rendez-vous sur plusieurs jours qui met en lumière la gastronomie française et donc normande. Il était notre invité pour nous parler de sa passion : rendre heureux ses clients en proposant des produits de qualité.",
-        "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T16:25:17.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/8Nzn41aHZib7psjjEibJP8R22ys/930x620/filters:format(webp)/regions/2026/10/05/6ac3a6f050459575440182.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-NOR"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:25:17.000Z"
-    },
-    {
-      "id": "uGfilKGlqs7s",
-      "representative": {
-        "id": "uGfilKGlqs7s",
-        "url": "https://france3-regions.franceinfo.fr/normandie/calvados/caen/annulations-de-vols-en-cascade-a-l-aeroport-de-caen-que-fait-volotea-3428715.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/calvados/caen/annulations-de-vols-en-cascade-a-l-aeroport-de-caen-que-fait-volotea-3428715.html",
-        "title": "Annulations de vols en cascade à l'aéroport de Caen : que fait Volotea ?",
-        "description": "La compagnie Volotea annonce l'annulation de centaines de vols depuis plusieurs aéroports français, dont 63 au départ de Caen-Carpiquet d'ici la fin de l'année. La compagnie se réorganise et les voyageurs vont devoir eux aussi modifier leurs plans.",
-        "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T16:07:02.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/1HaU73Yq062dUm_bDUnhVcjAEYM/930x620/filters:format(webp)/regions/2026/10/06/6ac4bd8d0cd40921077160.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-NOR"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:07:02.000Z"
-    },
-    {
-      "id": "mB-4GiUoo5AJ",
-      "representative": {
-        "id": "mB-4GiUoo5AJ",
-        "url": "https://france3-regions.franceinfo.fr/normandie/eure/evreux/qui-est-cet-ukrainien-dont-la-photo-est-desormais-affichee-partout-dans-les-rues-de-louviers-3428766.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/eure/evreux/qui-est-cet-ukrainien-dont-la-photo-est-desormais-affichee-partout-dans-les-rues-de-louviers-3428766.html",
-        "title": "Qui est cet Ukrainien dont la photo est désormais affichée partout dans les rues de Louviers ?",
-        "description": "Le visage de Damian Omelianenko interpelle les habitants de Louviers (Eure). Sa photographie est affichée depuis le 5 octobre 2026 dans une vingtaine rues. La ville de l'Eure est la première en France à parrainer un prisonnier civil détenu par les forces russes dans le cadre de la campagne…",
-        "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:53:32.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/KLpfmWUVFJXNj5hBFUuJEHbWREE/930x620/filters:format(webp)/regions/2026/10/06/6ac4bf0905cf2363303756.png",
-        "countryCode": "FR",
-        "regionCode": "FR-NOR"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:53:32.000Z"
-    },
-    {
-      "id": "9X3RPOJat4-w",
-      "representative": {
-        "id": "9X3RPOJat4-w",
-        "url": "https://france3-regions.franceinfo.fr/normandie/calvados/caen/on-les-rejoint-sur-la-majorite-de-leurs-revendications-le-regard-des-enseignants-sur-la-mobilisation-lyceenne-a-caen-3428667.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/calvados/caen/on-les-rejoint-sur-la-majorite-de-leurs-revendications-le-regard-des-enseignants-sur-la-mobilisation-lyceenne-a-caen-3428667.html",
-        "title": "\"On les rejoint sur la majorité de leurs revendications\" : le regard des enseignants sur la mobilisation lycéenne à Caen",
-        "description": "Alors que la mobilisation lycéenne se poursuit, des professeurs des lycées Jean-Rostand et Augustin-Fresnel, à Caen (Calvados), racontent les deux journées de mobilisation des 1er et 2 octobre. Ils reviennent sur les tensions, mais aussi sur un mouvement qu'ils jugent largement pacifique et sur…",
-        "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:48:29.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/CvP4NxrKlxN8GIlOdFuf20ygtkE/930x620/filters:format(webp)/regions/2026/10/06/6ac51842965ac491248366.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-NOR"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:48:29.000Z"
-    },
-    {
-      "id": "H-K4bnMll4oS",
-      "representative": {
-        "id": "H-K4bnMll4oS",
-        "url": "https://france3-regions.franceinfo.fr/normandie/eure/l-image-un-poids-lourd-se-couche-dans-le-secteur-de-bernay-l-a28-coupee-dans-le-sens-rouen-alencon-3428967.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/eure/l-image-un-poids-lourd-se-couche-dans-le-secteur-de-bernay-l-a28-coupee-dans-le-sens-rouen-alencon-3428967.html",
-        "title": "L'IMAGE. Un poids lourd se couche dans le secteur de Bernay : l'A28 coupée dans le sens Rouen-Alençon",
-        "description": "Le camion transportait de l'urée, un produit utilisé principalement comme engrais, lorsqu'il s'est couché sur la route pour une raison inconnue. Des opérations de secours sont toujours en cours.",
-        "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:22:10.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/7s6Ewv9ENLyOHyPGVcPN5NCL_0o/930x620/filters:format(webp)/regions/2026/10/06/6ac50799c8bdd159255527.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-NOR"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
+      "related": [
+        {
+          "id": "H-K4bnMll4oS",
+          "url": "https://france3-regions.franceinfo.fr/normandie/eure/l-image-un-poids-lourd-se-couche-dans-le-secteur-de-bernay-l-a28-coupee-dans-le-sens-rouen-alencon-3428967.html",
+          "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/eure/l-image-un-poids-lourd-se-couche-dans-le-secteur-de-bernay-l-a28-coupee-dans-le-sens-rouen-alencon-3428967.html",
+          "title": "L'IMAGE. Un poids lourd se couche dans le secteur de Bernay : l'A28 coupée dans le sens Rouen-Alençon",
+          "description": "Le camion transportait de l'urée, un produit utilisé principalement comme engrais, lorsqu'il s'est couché sur la route pour une raison inconnue. Des opérations de secours sont toujours en cours.",
+          "source": {
+            "id": "france3_normandie",
+            "name": "France 3 Normandie"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T15:22:10.000Z",
+          "imageUrl": "https://france3-regions.franceinfo.fr/image/7s6Ewv9ENLyOHyPGVcPN5NCL_0o/930x620/filters:format(webp)/regions/2026/10/06/6ac50799c8bdd159255527.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-NOR"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:22:10.000Z"
     },
     {
-      "id": "F5XfclJws4Q3",
+      "id": "hA6RwkKd64Op",
       "representative": {
-        "id": "F5XfclJws4Q3",
-        "url": "https://france3-regions.franceinfo.fr/normandie/orne/alencon/flers-un-mort-dans-un-accident-de-trottinette-electrique-face-a-un-bus-3428565.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/orne/alencon/flers-un-mort-dans-un-accident-de-trottinette-electrique-face-a-un-bus-3428565.html",
-        "title": "\"Un drame d'une immense tristesse\" : un adolescent meurt dans un accident de trottinette électrique face à un bus à Flers",
-        "description": "Une personne est morte lundi 5 octobre en début de soirée à Flers dans l'Orne dans un accident impliquant une trottinette et un bus, place Claudius. Le parquet est désormais en charge de la communication dans cette affaire.",
+        "id": "hA6RwkKd64Op",
+        "url": "https://www.ici.fr/normandie/calvados-14/rots/info-ici-normandie-un-animateur-du-centre-de-loisirs-de-rots-dans-le-calvados-suspendu-pour-agression-sexuelle-8073918?at_medium=lien_RSS&at_locale=37",
+        "canonicalUrl": "https://www.ici.fr/normandie/calvados-14/rots/info-ici-normandie-un-animateur-du-centre-de-loisirs-de-rots-dans-le-calvados-suspendu-pour-agression-sexuelle-8073918",
+        "title": "INFO ICI NORMANDIE - Un animateur du centre de loisirs de Rots dans le Calvados suspendu pour agression sexuelle",
+        "description": "Une enquête pour agression sexuelle est en cours à Rots dans le Calvados. Un animateur du centre de loisirs a été suspendu. Deux plaintes ont été déposées. Les auditions des enfants sont en cours. La Brigade de Recherche de la gendarmerie de Caen est en charge de l'enquête.",
         "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T15:20:35.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/20WWTDDaQ2f2FZPfnq6ltVe2Vtg/930x620/filters:format(webp)/regions/2026/10/06/6ac488183ae30927531421.jpg",
+        "publishedAt": "2026-10-07T11:48:17.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/373abdd8-1a8d-4892-b638-e3f125c44daf/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-NOR"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:20:35.000Z"
+      "latestPublishedAt": "2026-10-07T11:48:17.000Z"
     },
     {
-      "id": "eCu3V6rHnkQa",
+      "id": "DIlHcELbpNgu",
       "representative": {
-        "id": "eCu3V6rHnkQa",
-        "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/rouen/pourquoi-le-rappeur-rouennais-riles-s-est-lance-le-defi-de-recopier-la-bible-a-la-main-pendant-huit-heures-par-jour-3428874.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/rouen/pourquoi-le-rappeur-rouennais-riles-s-est-lance-le-defi-de-recopier-la-bible-a-la-main-pendant-huit-heures-par-jour-3428874.html",
-        "title": "Pourquoi le rappeur rouennais Rilès s'est lancé le défi de recopier la Bible à la main pendant huit heures par jour",
-        "description": "Depuis lundi 5 octobre 2026, Rilès s'applique à écrire la Bible à la main, huit heures par jour, derrière la vitrine d'une galerie londonienne. Dans un décor épuré : l'œuvre, c'est lui, le rappeur Rouennais, exposé au regard des passants.",
+        "id": "DIlHcELbpNgu",
+        "url": "https://www.ici.fr/normandie/seine-maritime-76/rouen/il-se-balade-avec-un-ordinateur-qu-il-vient-de-voler-dans-une-voiture-un-homme-arrete-sur-les-quais-de-seine-a-rouen-4481209?at_medium=lien_RSS&at_locale=38",
+        "canonicalUrl": "https://www.ici.fr/normandie/seine-maritime-76/rouen/il-se-balade-avec-un-ordinateur-qu-il-vient-de-voler-dans-une-voiture-un-homme-arrete-sur-les-quais-de-seine-a-rouen-4481209",
+        "title": "Il se balade avec un ordinateur qu'il vient de voler dans une voiture : un homme arrêté sur les quais de Seine à Rouen",
+        "description": "Un homme a été arrêté ce mardi soir à Rouen après avoir volé un ordinateur dans une voiture : il a été géolocalisé, alors qu'il se baladait avec l'appareil sur les quais de Seine.",
         "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T15:20:11.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/VvOY50DUe4cYyk3l-4l5xNjauLQ/930x620/filters:format(webp)/regions/2026/10/06/6ac500cea8cd4146973982.jpg",
+        "publishedAt": "2026-10-07T09:40:17.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/7153d86e-0539-4c25-8062-6403e5e1d345/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-NOR"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:20:11.000Z"
+      "latestPublishedAt": "2026-10-07T09:40:17.000Z"
     },
     {
-      "id": "Ky8o_mHZEYud",
+      "id": "oy7hJXwdu9aV",
       "representative": {
-        "id": "Ky8o_mHZEYud",
-        "url": "https://france3-regions.franceinfo.fr/normandie/meteo-des-averses-parfois-fortes-et-orageuses-traverseront-la-normandie-d-ouest-en-est-ce-mercredi-3428985.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/meteo-des-averses-parfois-fortes-et-orageuses-traverseront-la-normandie-d-ouest-en-est-ce-mercredi-3428985.html",
-        "title": "MÉTÉO. Des averses parfois fortes et orageuses traverseront la Normandie d'ouest en est ce mercredi",
-        "description": "Temps perturbé sur notre mercredi, les averses circuleront sous un vent qui se renforcera et soufflera localement en rafales, et les températures baisseront",
+        "id": "oy7hJXwdu9aV",
+        "url": "https://www.ici.fr/normandie/calvados-14/cabourg/course-poursuite-entre-cabourg-et-colombelles-peine-alourdie-en-appel-pour-le-chauffard-2840162?at_medium=lien_RSS&at_locale=37",
+        "canonicalUrl": "https://www.ici.fr/normandie/calvados-14/cabourg/course-poursuite-entre-cabourg-et-colombelles-peine-alourdie-en-appel-pour-le-chauffard-2840162",
+        "title": "Course poursuite entre Cabourg et Colombelles : peine alourdie en appel pour le chauffard",
+        "description": "Dans la nuit du 8 mars 2026, il avait parcouru une vingtaine de kms entre Cabourg et Colombelles à vive allure, sans permis et en percutant des véhicules des forces de l'ordre. Un Calvadosien de 40 ans a vu sa peine alourdie en appel ce 7 octobre 2026. Il écope de 14 mois de prison ferme.",
         "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T15:09:41.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/AUaiS6weuCjVULxHRvhyEtZJ5_M/930x620/filters:format(webp)/regions/2026/10/06/6ac5096bd4fe0414213724.jpg",
+        "publishedAt": "2026-10-07T09:29:12.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/be5f4cb1-b3f3-4593-a571-c21725db5e63/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-NOR"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:09:41.000Z"
+      "latestPublishedAt": "2026-10-07T09:29:12.000Z"
     },
     {
-      "id": "jwg9sAvb3myc",
+      "id": "B9_0XPPup230",
       "representative": {
-        "id": "jwg9sAvb3myc",
-        "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/dieppe/il-faut-leur-montrer-qu-on-les-soutient-des-salaries-du-prive-et-du-public-aux-cotes-des-lyceens-a-dieppe-3428724.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/dieppe/il-faut-leur-montrer-qu-on-les-soutient-des-salaries-du-prive-et-du-public-aux-cotes-des-lyceens-a-dieppe-3428724.html",
-        "title": "\"Il faut leur montrer qu'on les soutient\" : des salariés du privé et du public aux côtés des lycéens à Dieppe",
-        "description": "Ce mardi 6 octobre, de nombreux élus de la CGT ont rejoint le défilé parti du lycée Jean Ango à Dieppe. L'objectif est double : soutenir les revendications et assurer la sécurité affirment ces représentants syndicaux.",
+        "id": "B9_0XPPup230",
+        "url": "https://www.ici.fr/normandie/seine-maritime-76/universites-lycees-greves-quelle-est-la-situation-en-seine-maritime-ce-mercredi-9582275?at_medium=lien_RSS&at_locale=38",
+        "canonicalUrl": "https://www.ici.fr/normandie/seine-maritime-76/universites-lycees-greves-quelle-est-la-situation-en-seine-maritime-ce-mercredi-9582275",
+        "title": "Universités, lycées, grèves... quelle est la situation en Seine-Maritime ce mercredi ?",
+        "description": "Plusieurs sites universitaires et lycées de l'agglomération rouennaise sont bloqués ce mercredi 7 octobre 2026, notamment le campus de Mont-Saint-Aignan.",
         "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T11:49:08.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/1QNSqeFClJMgJK66ez1xr4S13yU/930x620/filters:format(webp)/regions/2026/10/06/6ac4cd111b86b058947213.jpg",
+        "publishedAt": "2026-10-07T09:15:57.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/ed668b8e-1628-4baa-ba2a-e1c8fbe6bfbb/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-NOR"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:49:08.000Z"
+      "latestPublishedAt": "2026-10-07T09:15:57.000Z"
     },
     {
-      "id": "Aw_MNvMWemkc",
+      "id": "wZo024eDthTk",
       "representative": {
-        "id": "Aw_MNvMWemkc",
-        "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/rouen/il-roulait-a-150-km-h-sur-une-route-departementale-un-autre-conduisait-avec-3-06-grammes-d-alcool-dans-le-sang-une-nuit-agitee-a-bolbec-3428778.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/rouen/il-roulait-a-150-km-h-sur-une-route-departementale-un-autre-conduisait-avec-3-06-grammes-d-alcool-dans-le-sang-une-nuit-agitee-a-bolbec-3428778.html",
-        "title": "Il roulait à 150 km/h sur une route départementale, un autre conduisait avec 3,06 grammes d'alcool dans le sang : une nuit agitée à Bolbec",
-        "description": "Dans la nuit du lundi 5 au mardi 6 octobre 2026, les policiers ont interpellé deux conducteurs à moins d'une heure d'intervalle à Bolbec : le premier filait à plus de 150 km/h sur une route départementale, l'autre, en centre-ville, zigzaguait au ralenti, avec un taux d'alcool record dans le sang.",
+        "id": "wZo024eDthTk",
+        "url": "https://www.bfmtv.com/normandie/replay-emissions/bfm-normandie-dans-les-territoires/video-100-normands-du-mercredi-7-octobre-2026-thiers-orthopedie_VN-202610070358.html",
+        "canonicalUrl": "https://www.bfmtv.com/normandie/replay-emissions/bfm-normandie-dans-les-territoires/video-100-normands-du-mercredi-7-octobre-2026-thiers-orthopedie_VN-202610070358.html",
+        "title": "100% Normands du mercredi 7 octobre 2026 - Thiers Orthopédie",
+        "description": "Dans 100% Normands, partez à la découverte de celles et ceux qui font vivre la Normandie au quotidien. Entre savoir-faire traditionnels et innovations audacieuses, la région se révèle dynamique et inspirante. Agriculteurs, artisans, entrepreneurs ou créateurs ouvrent leurs portes et partagent leur…",
         "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
+          "id": "bfm_normandie",
+          "name": "BFM Normandie"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T10:36:05.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/ARjb-F4WrCUCR_8tyJAsudXFGjQ/930x620/filters:format(webp)/regions/2026/10/06/6ac4ca833bd71186496574.jpg",
+        "publishedAt": "2026-10-07T08:13:22.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/wQHwvZ22GdwH80-cSDsIsexM5hY=/0x0:1280x720/800x0/images/100-Normands-du-mercredi-7-octobre-2026-Thiers-Orthopedie-2360829.jpg",
         "countryCode": "FR",
         "regionCode": "FR-NOR"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:36:05.000Z"
+      "latestPublishedAt": "2026-10-07T08:13:22.000Z"
     },
     {
-      "id": "znOZrFzzokWi",
+      "id": "ocLlswS7Z3FW",
       "representative": {
-        "id": "znOZrFzzokWi",
-        "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/rouen/blocus-des-lycees-les-cours-en-distanciel-la-galere-pour-les-professeurs-et-les-eleves-3428232.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/rouen/blocus-des-lycees-les-cours-en-distanciel-la-galere-pour-les-professeurs-et-les-eleves-3428232.html",
-        "title": "Blocus des lycées : les cours en distanciel, la galère pour les professeurs et les élèves",
-        "description": "Avec la fermeture de plusieurs établissements pendant la mobilisation lycéenne, les cours des élèves sont censés basculer \"en distanciel\". Mais sur le terrain, enseignants et syndicats décrivent une tout autre réalité : pas de visio, pas de cours, et aucune nouvelle de nombreux élèves.",
+        "id": "ocLlswS7Z3FW",
+        "url": "https://www.bfmtv.com/normandie/replay-emissions/bonjour-la-normandie/video-l-actu-du-7-octobre-2026_VN-202610070304.html",
+        "canonicalUrl": "https://www.bfmtv.com/normandie/replay-emissions/bonjour-la-normandie/video-l-actu-du-7-octobre-2026_VN-202610070304.html",
+        "title": "L'actu du 7 octobre 2026",
+        "description": "Ce 7 octobre 2026, tout ce qu'il faut savoir pour bien débuter la journée avec l'info proximité, le trafic, la météo et l'invité du jour.",
         "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
+          "id": "bfm_normandie",
+          "name": "BFM Normandie"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T09:56:34.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/3smHoWOfepoow-RQ5lDZBRI5uEM/930x620/filters:format(webp)/regions/2026/10/05/6ac3ab98bbe16412816023.jpg",
+        "publishedAt": "2026-10-07T08:00:00.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/PsMqTAlb1QKuXrFAMApzpFwB6Lc=/0x0:1280x720/800x0/images/L-actu-du-7-octobre-2026-2360777.jpg",
         "countryCode": "FR",
         "regionCode": "FR-NOR"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:56:34.000Z"
+      "latestPublishedAt": "2026-10-07T08:00:00.000Z"
     },
     {
-      "id": "Lab7np8XcvJP",
+      "id": "0O0iuqtzqcBO",
       "representative": {
-        "id": "Lab7np8XcvJP",
-        "url": "https://france3-regions.franceinfo.fr/normandie/eure/evreux/un-motard-de-21-ans-meurt-dans-une-collision-avec-un-engin-agricole-dans-l-eure-3428649.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/eure/evreux/un-motard-de-21-ans-meurt-dans-une-collision-avec-un-engin-agricole-dans-l-eure-3428649.html",
-        "title": "Un motard de 21 ans meurt dans une collision avec un engin agricole dans l'Eure",
-        "description": "Un jeune homme de 21 ans circulait à motocross sur une route départementale à Marbois (Eure) lundi 5 octobre en fin d'après-midi. Il a percuté un engin agricole, il est décédé.",
+        "id": "0O0iuqtzqcBO",
+        "url": "https://www.ici.fr/normandie/manche-50/isigny-le-buat/un-automobiliste-intercepte-a-168km-h-sur-une-route-limitee-a-80-km-h-dans-la-manche-1807602?at_medium=lien_RSS&at_locale=22",
+        "canonicalUrl": "https://www.ici.fr/normandie/manche-50/isigny-le-buat/un-automobiliste-intercepte-a-168km-h-sur-une-route-limitee-a-80-km-h-dans-la-manche-1807602",
+        "title": "Un automobiliste intercepté à 168 km/h sur une route limitée à 80 km/h dans la Manche",
+        "description": "Les gendarmes de la Manche ont intercepté le 1er octobre dernier un automobiliste à Isigny-le-Buat. Il roulait à 168 km/h sur une départementale, soit plus du double de la vitesse autorisée.",
         "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T09:26:12.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/GCfnFUn3d-HJGCG7kLYqvJ6R9Io/930x620/filters:format(webp)/regions/2026/10/06/6ac4ad45d576c441037548.jpg",
+        "publishedAt": "2026-10-07T07:09:50.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/b954164d-2e2d-4117-9122-dc6df5a12153/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-NOR"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T09:26:12.000Z"
+      "latestPublishedAt": "2026-10-07T07:09:50.000Z"
     },
     {
-      "id": "Dc5jZSNuSYM9",
+      "id": "A86aw2ME6oNM",
       "representative": {
-        "id": "Dc5jZSNuSYM9",
-        "url": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/grande-mobilisation-lyceenne-annoncee-mardi-6-octobre-a-quoi-s-attendre-en-normandie-3428328.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/normandie/seine-maritime/grande-mobilisation-lyceenne-annoncee-mardi-6-octobre-a-quoi-s-attendre-en-normandie-3428328.html",
-        "title": "Grande mobilisation lycéenne annoncée mardi 6 octobre : à quoi s’attendre en Normandie ?",
-        "description": "Après plus de deux semaines de blocus, de manifestations et de tensions, les lycéens normands doivent descendre dans la rue mardi 6 octobre 2026. Manifestations, blocus... La mobilisation sera très scrutée. Voici ce qui est annoncé en Normandie.",
+        "id": "A86aw2ME6oNM",
+        "url": "https://www.ici.fr/normandie/calvados-14/herouville-saint-clair/la-mairie-d-herouville-saint-clair-contrainte-de-prendre-des-mesures-face-a-des-depots-sauvages-incessants-2252312?at_medium=lien_RSS&at_locale=37",
+        "canonicalUrl": "https://www.ici.fr/normandie/calvados-14/herouville-saint-clair/la-mairie-d-herouville-saint-clair-contrainte-de-prendre-des-mesures-face-a-des-depots-sauvages-incessants-2252312",
+        "title": "La mairie d'Hérouville-Saint-Clair contrainte de prendre des mesures face à des dépôts sauvages incessants",
+        "description": "Armoires, chaises, matelas, appareils électroménagers… Chaque année, deux à trois tonnes de déchets sont déposées sur la voie publique à Hérouville-Saint-Clair (Calvados). La mairie va donc installer dès 2027 des caméras mobiles dans les zones où il y en a beaucoup afin d'éradiquer le problème.",
         "source": {
-          "id": "france3_normandie",
-          "name": "France 3 Normandie"
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T04:50:48.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/jQixi74OSxHpYtKc74NqCZg5DRk/930x620/filters:format(webp)/regions/2026/10/05/6ac3a7a2ab263652729942.jpg",
+        "publishedAt": "2026-10-07T07:03:12.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/d98f3a2a-d138-4d92-b238-ce820f45da99/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-NOR"
       },
       "related": [],
-      "outletCount24h": 0,
+      "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T04:50:48.000Z"
+      "latestPublishedAt": "2026-10-07T07:03:12.000Z"
+    },
+    {
+      "id": "7CXqOAEI1eIH",
+      "representative": {
+        "id": "7CXqOAEI1eIH",
+        "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-normandie-calvados-orne/dans-l-orne-des-eleveurs-louent-une-partie-de-leurs-vaches-pour-alleger-leurs-finances-1196331?at_medium=lien_RSS&at_locale=37",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-normandie-calvados-orne/dans-l-orne-des-eleveurs-louent-une-partie-de-leurs-vaches-pour-alleger-leurs-finances-1196331",
+        "title": "Dans l'Orne, des éleveurs louent une partie de leurs vaches pour alléger leurs finances",
+        "description": "À Rémalard-en-Perche dans l'Orne, Benjamin Pelleray loue près des deux tiers de ses vaches en cet automne 2026. Cette solution présente un double avantage : elle lui permet de préserver ses finances tout en investissant dans son exploitation, comme il l'a expliqué à Edouard Marguier.",
+        "source": {
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T07:02:10.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/a4256274-407a-4db3-a88d-12f42fe81719/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-NOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T07:02:10.000Z"
+    },
+    {
+      "id": "X5H0a5fSeXtZ",
+      "representative": {
+        "id": "X5H0a5fSeXtZ",
+        "url": "https://www.bfmtv.com/normandie/replay-emissions/bonjour-la-normandie/video-le-journal-de-8h-du-mercredi-7-octobre-2026_VN-202610070264.html",
+        "canonicalUrl": "https://www.bfmtv.com/normandie/replay-emissions/bonjour-la-normandie/video-le-journal-de-8h-du-mercredi-7-octobre-2026_VN-202610070264.html",
+        "title": "Le journal de 8h du mercredi 7 octobre 2026",
+        "description": "Bonjour Normandie présentée par Aubert Guinamard, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole. Au sommaire : Covid-19, hausse des cas en Normandie. Des milliers de…",
+        "source": {
+          "id": "bfm_normandie",
+          "name": "BFM Normandie"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:52:18.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/TGQVOE_mAda9AC9CuywthcbEU8s=/0x0:1280x720/800x0/images/Le-journal-de-8h-du-mercredi-7-octobre-2026-2360750.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-NOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:52:18.000Z"
+    },
+    {
+      "id": "8juYEo31CzbU",
+      "representative": {
+        "id": "8juYEo31CzbU",
+        "url": "https://www.bfmtv.com/normandie/replay-emissions/bonjour-la-normandie/video-le-cafe-sante-faire-son-depistage-du-cancer-du-sein-durant-le-mois-d-octobre-rose_VN-202610070251.html",
+        "canonicalUrl": "https://www.bfmtv.com/normandie/replay-emissions/bonjour-la-normandie/video-le-cafe-sante-faire-son-depistage-du-cancer-du-sein-durant-le-mois-d-octobre-rose_VN-202610070251.html",
+        "title": "Le Café Santé: faire son dépistage du cancer du sein durant le mois d'octobre rose",
+        "description": "Faire son dépistage du cancer du sein durant le mois d'octobre rose, au menu du café santé du mercredi 7 octobre.",
+        "source": {
+          "id": "bfm_normandie",
+          "name": "BFM Normandie"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:48:27.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/rXr5C1E93qkZHkNdifQ4xFun1Zs=/0x0:1280x720/800x0/images/Le-Cafe-Sante-faire-son-depistage-du-cancer-du-sein-durant-le-mois-d-octobre-rose-2360740.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-NOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:48:27.000Z"
+    },
+    {
+      "id": "6TPqgXfyP7jK",
+      "representative": {
+        "id": "6TPqgXfyP7jK",
+        "url": "https://www.ici.fr/normandie/calvados-14/caen/universite-de-caen-le-blocage-s-etend-a-trois-campus-les-batiments-de-nouveau-fermes-pour-la-journee-1732935?at_medium=lien_RSS&at_locale=37",
+        "canonicalUrl": "https://www.ici.fr/normandie/calvados-14/caen/universite-de-caen-le-blocage-s-etend-a-trois-campus-les-batiments-de-nouveau-fermes-pour-la-journee-1732935",
+        "title": "Université de Caen : le blocage s'étend à trois campus, les bâtiments de nouveau fermés pour la journée",
+        "description": "L'université de Caen Normandie annonce ce mercredi matin qu'elle ferme, de nouveau, plusieurs de ses bâtiments. Une mesure qui concerne cette fois trois campus caennais. Une décision justifiée par le blocage des accès par des manifestants.",
+        "source": {
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:39:37.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/08ed6213-ea95-432f-8b10-843a0bbf5e73/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-NOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:39:37.000Z"
+    },
+    {
+      "id": "I68lOQUk2KE5",
+      "representative": {
+        "id": "I68lOQUk2KE5",
+        "url": "https://www.ici.fr/emissions/l-invite-ici-matin-normandie/etat-des-lycees-normands-le-vice-president-de-la-region-normandie-repond-aux-critiques-6069867?at_medium=lien_RSS&at_locale=37",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-ici-matin-normandie/etat-des-lycees-normands-le-vice-president-de-la-region-normandie-repond-aux-critiques-6069867",
+        "title": "État des lycées normands : le vice-président de la région Normandie répond aux critiques",
+        "description": "Au lendemain d'une nouvelle mobilisation lycéenne, Bertrand Deniau, vice-président de la région Normandie chargé des lycées, a fait le point ce mercredi sur la situation des établissements scolaires. Il assure que les investissements en mobilier et en équipements sont suffisants.",
+        "source": {
+          "id": "ici_normandie",
+          "name": "ici Normandie, Cotentin"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:45:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/7188df92-3f64-4ef8-983e-dbb1aae1bbdc/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-NOR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:45:00.000Z"
     }
   ]
 }

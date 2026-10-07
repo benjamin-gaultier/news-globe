@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "CU",
   "countryName": "Cuba",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "pBbV9MKGn-UE",
-      "representative": {
-        "id": "pBbV9MKGn-UE",
-        "url": "https://diariodecuba.com/cuba/1791278538_69272.html",
-        "canonicalUrl": "https://diariodecuba.com/cuba/1791278538_69272.html",
-        "title": "La Iglesia Episcopal de Cuba apoya a Anna Bensi y pide al régimen escuchar al pueblo",
-        "description": "#SOSCuba: La #IglesiaEpiscopalDeCuba expresa solidaridad con #AnnaBensi, rechaza la violencia policial contra los cubanos que ejercen la #LibertadDeExpresión y pide al #RégimenCubano escuchar al pueblo.",
-        "source": {
-          "id": "diariodecuba",
-          "name": "Diario de Cuba"
-        },
-        "sourceCountry": "CU",
-        "language": "es",
-        "publishedAt": "2026-10-06T09:22:18.000Z",
-        "imageUrl": null,
-        "countryCode": "CU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "k3nEpPnalSwO",
-          "url": "https://www.14ymedio.com/cuba/iglesia-episcopal-cuba-expresa-solidaridad_1_1131583.html",
-          "canonicalUrl": "https://www.14ymedio.com/cuba/iglesia-episcopal-cuba-expresa-solidaridad_1_1131583.html",
-          "title": "La Iglesia Episcopal de Cuba expresa su “solidaridad” con Anna Bensi y su madre",
-          "description": "\"No podemos permanecer en silencio ante el dolor que todos estamos sufriendo en esta hora de nuestra historia”, señala en una carta abierta",
-          "source": {
-            "id": "14ymedio",
-            "name": "14ymedio"
-          },
-          "sourceCountry": "CU",
-          "language": "es",
-          "publishedAt": "2026-10-06T10:06:14.000Z",
-          "imageUrl": "https://static.14ymedio.com/clip/6b31c0c8-7b84-4965-b5b2-598c21acf640_source-aspect-ratio_default_0.png",
-          "countryCode": "CU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:06:14.000Z"
-    },
     {
       "id": "tCJRD--fHbJu",
       "representative": {
@@ -381,6 +339,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:10:26.000Z"
+    },
+    {
+      "id": "q4vWQTsog0SL",
+      "representative": {
+        "id": "q4vWQTsog0SL",
+        "url": "http://www.granma.cu/cuba/2026-10-06/rusia-dona-ambulancias-a-cuba-para-fortalecer-la-atencion-materno-infantil-06-10-2026-10-10-00",
+        "canonicalUrl": "http://www.granma.cu/cuba/2026-10-06/rusia-dona-ambulancias-a-cuba-para-fortalecer-la-atencion-materno-infantil-06-10-2026-10-10-00",
+        "title": "Rusia dona ambulancias a Cuba para fortalecer la atención materno-infantil",
+        "description": "Los vehículos serán destinados a instituciones de salud de La Habana, Matanzas y Santiago de Cuba, con prioridad para el programa de atención materno-infantil",
+        "source": {
+          "id": "granma",
+          "name": "Granma"
+        },
+        "sourceCountry": "CU",
+        "language": "es",
+        "publishedAt": "2026-10-06T14:10:00.000Z",
+        "imageUrl": null,
+        "countryCode": "CU",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:10:00.000Z"
     }
   ]
 }

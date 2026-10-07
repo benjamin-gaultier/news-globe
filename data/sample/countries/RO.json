@@ -2,8 +2,50 @@
   "schemaVersion": 1,
   "countryCode": "RO",
   "countryName": "Romania",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
+    {
+      "id": "E0e1brKSRudK",
+      "representative": {
+        "id": "E0e1brKSRudK",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/cristela-georgescu-pe-treptele-diicot-suntem-o-familie-obisnuita-si-am-fost-supusi-unor-interventii-brutale-3980699",
+        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/politica/cristela-georgescu-pe-treptele-diicot-suntem-o-familie-obisnuita-si-am-fost-supusi-unor-interventii-brutale-3980699",
+        "title": "Cristela Georgescu, pe treptele DIICOT: „Suntem o familie obișnuită și am fost supuși unor intervenții brutale”",
+        "description": "Cristela Georgescu a acuzat autoritățile de abuzuri și a clasificat dosarul DIICOT, în care soțul său este arestat preventiv după ce ar fi înșelat un om de afaceri cu peste un milion de euro, drept un dosar politic. Soția lui Călin Georgescu a lăsat să se înțeleagă că familia fostului candidat la…",
+        "source": {
+          "id": "digi24",
+          "name": "Digi24"
+        },
+        "sourceCountry": "RO",
+        "language": "ro",
+        "publishedAt": "2026-10-06T13:44:56.000Z",
+        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjUl/MkYwMiUyRjI2JTJGMjE5ODk3NV8yMTk4/OTc1X0lEMjk0ODQzX0lOUVVBTV9QaG90/b3NfR2VvcmdlX0NhbGluLmpwZyZoYXNo/PTQ1NWZkNjM3NDg4NzIzNTkwMWI1NTg5NzBhMzI4ODI5.jpg",
+        "countryCode": "RO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "vCzRdes_ye7B",
+          "url": "https://adevarul.ro/stiri-interne/evenimente/cristela-georgescu-discurs-vehement-in-fata-2562189.html",
+          "canonicalUrl": "https://adevarul.ro/stiri-interne/evenimente/cristela-georgescu-discurs-vehement-in-fata-2562189.html",
+          "title": "Cristela Georgescu, discurs vehement în fața sediului DIICOT: „Suntem o familie obișnuită și am fost supuși unor intervenții brutale”. Perchezițiile continuă",
+          "description": "Cristela Georgescu, soția lui Călin Georgescu, a fost audiată marți, 6 octombrie, la DIICOT, în calitate de martor, în dosarul în care fostul candidat la alegerile prezidențiale se află în arest preventiv.",
+          "source": {
+            "id": "adevarul",
+            "name": "Adevărul"
+          },
+          "sourceCountry": "RO",
+          "language": "ro",
+          "publishedAt": "2026-10-06T12:57:21.000Z",
+          "imageUrl": "https://cdn.adh.reperio.news/image-4/4be80742-58ff-430e-8e7e-9cff2d5854bc/index.jpeg?p=w%3D1000%26h%3D600%26a%3D0%26c%3D0%252C0%252C1%252C0.783%26f%3Djpeg&file=image.jpeg",
+          "countryCode": "RO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:44:56.000Z"
+    },
     {
       "id": "KNOcdig08HFW",
       "representative": {
@@ -59,9 +101,51 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T13:26:39.000Z"
+    },
+    {
+      "id": "PXLB6KTIKMnW",
+      "representative": {
+        "id": "PXLB6KTIKMnW",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/aur-respinge-sustinerea-guvernului-niculescu-petrisor-peiu-avem-majoritate-pentru-alegeri-anticipate-3980835",
+        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/politica/aur-respinge-sustinerea-guvernului-niculescu-petrisor-peiu-avem-majoritate-pentru-alegeri-anticipate-3980835",
+        "title": "AUR respinge susținerea Guvernului Niculescu. Petrișor Peiu: „Avem majoritate pentru alegeri anticipate”",
+        "description": "Liderul senatorilor AUR, Petrişor Peiu, a declarat, marţi, că i-a transmis preşedintelui Nicuşor Dan, la consultările de la Palatul Cotroceni, că partidul său „are o majoritate, care poate fi probată, pentru alegeri anticipate”, relatează Agerpres.",
+        "source": {
+          "id": "digi24",
+          "name": "Digi24"
+        },
+        "sourceCountry": "RO",
+        "language": "ro",
+        "publishedAt": "2026-10-06T13:21:42.000Z",
+        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNiUyRjE2JTJGMjc4OTk3MF8yNzg5/OTcwX01DWm9ZWE5vUFdRd1pqQTFOMkZo/WW1RME9XTXpOemRpWWpnek1UWmhNekUy/WkRnelpUWTVfdGh1bWJfLTEuanBnJmhh/c2g9Njc1OGIwOTRiOWNiYzI2MGRiYWFjYmRjMTU3NWUxN2Y=.jpg",
+        "countryCode": "RO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "rERcMUHYRBnq",
+          "url": "https://adevarul.ro/politica/petrisor-peiu-avem-o-majoritate-pentru-alegeri-2562196.html",
+          "canonicalUrl": "https://adevarul.ro/politica/petrisor-peiu-avem-o-majoritate-pentru-alegeri-2562196.html",
+          "title": "Petrișor Peiu: „Avem o majoritate pentru alegeri anticipate”. Avertismentul transmis președintelui Nicușor Dan",
+          "description": "Petrișor Peiu, liderul senatorilor AUR, a declarat marți că, în cadrul consultărilor de la Palatul Cotroceni, i-a transmis președintelui Nicușor Dan că există o majoritate parlamentară favorabilă organizării de alegeri anticipate.",
+          "source": {
+            "id": "adevarul",
+            "name": "Adevărul"
+          },
+          "sourceCountry": "RO",
+          "language": "ro",
+          "publishedAt": "2026-10-06T13:20:50.000Z",
+          "imageUrl": "https://cdn.adh.reperio.news/image-d/dc7e8e1c-1192-4d14-bb92-6ece9fe8d522/index.jpeg?p=w%3D1000%26h%3D600%26a%3D0%26f%3Djpeg&file=image.jpeg",
+          "countryCode": "RO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:21:42.000Z"
     },
     {
       "id": "2schZnVq0Ddd",
@@ -118,236 +202,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 2,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T13:10:03.000Z"
-    },
-    {
-      "id": "jgpcYBSca8fn",
-      "representative": {
-        "id": "jgpcYBSca8fn",
-        "url": "https://www.digi24.ro/stiri/mihai-chirica-a-fost-audiat-de-dna-in-dosarul-pacura-edilul-ar-fi-devenit-inculpat-surse-3980231",
-        "canonicalUrl": "https://www.digi24.ro/stiri/mihai-chirica-a-fost-audiat-de-dna-in-dosarul-pacura-edilul-ar-fi-devenit-inculpat-surse-3980231",
-        "title": "DNA: Mihai Chirica este inculpat pentru abuz în serviciu în dosarul „Păcura”. Acuzațiile procurorilor",
-        "description": "Mihai Chirica a fost audiat marți de procurorii Direcției Naționale Anticorupție în dosarul „Păcura”, în care se fac cercetări cu privire la dispariția unei cantități importante de păcură din depozitele CET Iași.",
-        "source": {
-          "id": "digi24",
-          "name": "Digi24"
-        },
-        "sourceCountry": "RO",
-        "language": "ro",
-        "publishedAt": "2026-10-06T11:57:32.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjMxJTJGMjg3NjM5NF8yODc2/Mzk0X21paGFpLWNoaXJpY2EtaW5xdWFt/LW9jdGF2LWdhbmVhLmpwZyZoYXNoPTk1/NmMwNGNlZDhiMzkzN2YxNTllZTk5NTRkZTFlMjY3.jpg",
-        "countryCode": "RO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "TyHL9Ev1yZqA",
-          "url": "https://hotnews.ro/primarul-din-iasi-mihai-chirica-inculpat-de-dna-intr-un-nou-dosar-care-sunt-acuzatiile-procurorilor-2368624",
-          "canonicalUrl": "https://hotnews.ro/primarul-din-iasi-mihai-chirica-inculpat-de-dna-intr-un-nou-dosar-care-sunt-acuzatiile-procurorilor-2368624",
-          "title": "VIDEO Primarul din Iași, Mihai Chirica, inculpat de DNA într-un nou dosar. Care sunt acuzațiile / Câte dosare mai are și câte au fost închise",
-          "description": "Primarul liberal Mihai Chirica este urmărit penal de DNA pentru abuz în serviciu cu consecinţe deosebit de grave în dosarul „Păcura” privind dispariţia unei cantităţi importante de păcură din depozitele CET Iaşi. Nu este primul dosar în care Chirica este vizat de DNA. Într-unul dintre ele, a fost…",
-          "source": {
-            "id": "hotnews",
-            "name": "HotNews.ro"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T12:09:51.000Z",
-          "imageUrl": null,
-          "countryCode": "RO",
-          "regionCode": null
-        },
-        {
-          "id": "3lK5kSl_pg1P",
-          "url": "https://adevarul.ro/stiri-interne/evenimente/mihai-chirica-la-dna-primarul-iasiului-ar-fi-2562125.html",
-          "canonicalUrl": "https://adevarul.ro/stiri-interne/evenimente/mihai-chirica-la-dna-primarul-iasiului-ar-fi-2562125.html",
-          "title": "Dosarul „Păcura” îl lovește pe Mihai Chirica: primarul Iașiului, pus sub acuzare pentru abuz în serviciu. Alți nouă funcționari sunt cercetați",
-          "description": "Primarul municipiului Iași, Mihai Chirica, a ajuns marți, 6 octombrie, la sediul DNA Iași, unde a stat aproximativ o oră. Edilul ar fi fost înștiințat că este inculpat în dosarul „Păcura”.",
-          "source": {
-            "id": "adevarul",
-            "name": "Adevărul"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T09:38:40.000Z",
-          "imageUrl": "https://cdn.adh.reperio.news/image-4/40648bf3-cac3-4390-b1a3-9bbc0aa5508e/index.jpeg?p=w%3D1000%26h%3D600%26a%3D0%26c%3D0%252C0%252C1%252C0.842%26f%3Djpeg&file=image.jpeg",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:09:51.000Z"
-    },
-    {
-      "id": "E0e1brKSRudK",
-      "representative": {
-        "id": "E0e1brKSRudK",
-        "url": "https://www.digi24.ro/stiri/actualitate/politica/cristela-georgescu-pe-treptele-diicot-suntem-o-familie-obisnuita-si-am-fost-supusi-unor-interventii-brutale-3980699",
-        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/politica/cristela-georgescu-pe-treptele-diicot-suntem-o-familie-obisnuita-si-am-fost-supusi-unor-interventii-brutale-3980699",
-        "title": "Cristela Georgescu, pe treptele DIICOT: „Suntem o familie obișnuită și am fost supuși unor intervenții brutale”",
-        "description": "Cristela Georgescu a acuzat autoritățile de abuzuri și a clasificat dosarul DIICOT, în care soțul său este arestat preventiv după ce ar fi înșelat un om de afaceri cu peste un milion de euro, drept un dosar politic. Soția lui Călin Georgescu a lăsat să se înțeleagă că familia fostului candidat la…",
-        "source": {
-          "id": "digi24",
-          "name": "Digi24"
-        },
-        "sourceCountry": "RO",
-        "language": "ro",
-        "publishedAt": "2026-10-06T13:44:56.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjUl/MkYwMiUyRjI2JTJGMjE5ODk3NV8yMTk4/OTc1X0lEMjk0ODQzX0lOUVVBTV9QaG90/b3NfR2VvcmdlX0NhbGluLmpwZyZoYXNo/PTQ1NWZkNjM3NDg4NzIzNTkwMWI1NTg5NzBhMzI4ODI5.jpg",
-        "countryCode": "RO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "vCzRdes_ye7B",
-          "url": "https://adevarul.ro/stiri-interne/evenimente/cristela-georgescu-discurs-vehement-in-fata-2562189.html",
-          "canonicalUrl": "https://adevarul.ro/stiri-interne/evenimente/cristela-georgescu-discurs-vehement-in-fata-2562189.html",
-          "title": "Cristela Georgescu, discurs vehement în fața sediului DIICOT: „Suntem o familie obișnuită și am fost supuși unor intervenții brutale”. Perchezițiile continuă",
-          "description": "Cristela Georgescu, soția lui Călin Georgescu, a fost audiată marți, 6 octombrie, la DIICOT, în calitate de martor, în dosarul în care fostul candidat la alegerile prezidențiale se află în arest preventiv.",
-          "source": {
-            "id": "adevarul",
-            "name": "Adevărul"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T12:57:21.000Z",
-          "imageUrl": "https://cdn.adh.reperio.news/image-4/4be80742-58ff-430e-8e7e-9cff2d5854bc/index.jpeg?p=w%3D1000%26h%3D600%26a%3D0%26c%3D0%252C0%252C1%252C0.783%26f%3Djpeg&file=image.jpeg",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:44:56.000Z"
-    },
-    {
-      "id": "PXLB6KTIKMnW",
-      "representative": {
-        "id": "PXLB6KTIKMnW",
-        "url": "https://www.digi24.ro/stiri/actualitate/politica/aur-respinge-sustinerea-guvernului-niculescu-petrisor-peiu-avem-majoritate-pentru-alegeri-anticipate-3980835",
-        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/politica/aur-respinge-sustinerea-guvernului-niculescu-petrisor-peiu-avem-majoritate-pentru-alegeri-anticipate-3980835",
-        "title": "AUR respinge susținerea Guvernului Niculescu. Petrișor Peiu: „Avem majoritate pentru alegeri anticipate”",
-        "description": "Liderul senatorilor AUR, Petrişor Peiu, a declarat, marţi, că i-a transmis preşedintelui Nicuşor Dan, la consultările de la Palatul Cotroceni, că partidul său „are o majoritate, care poate fi probată, pentru alegeri anticipate”, relatează Agerpres.",
-        "source": {
-          "id": "digi24",
-          "name": "Digi24"
-        },
-        "sourceCountry": "RO",
-        "language": "ro",
-        "publishedAt": "2026-10-06T13:21:42.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNiUyRjE2JTJGMjc4OTk3MF8yNzg5/OTcwX01DWm9ZWE5vUFdRd1pqQTFOMkZo/WW1RME9XTXpOemRpWWpnek1UWmhNekUy/WkRnelpUWTVfdGh1bWJfLTEuanBnJmhh/c2g9Njc1OGIwOTRiOWNiYzI2MGRiYWFjYmRjMTU3NWUxN2Y=.jpg",
-        "countryCode": "RO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rERcMUHYRBnq",
-          "url": "https://adevarul.ro/politica/petrisor-peiu-avem-o-majoritate-pentru-alegeri-2562196.html",
-          "canonicalUrl": "https://adevarul.ro/politica/petrisor-peiu-avem-o-majoritate-pentru-alegeri-2562196.html",
-          "title": "Petrișor Peiu: „Avem o majoritate pentru alegeri anticipate”. Avertismentul transmis președintelui Nicușor Dan",
-          "description": "Petrișor Peiu, liderul senatorilor AUR, a declarat marți că, în cadrul consultărilor de la Palatul Cotroceni, i-a transmis președintelui Nicușor Dan că există o majoritate parlamentară favorabilă organizării de alegeri anticipate.",
-          "source": {
-            "id": "adevarul",
-            "name": "Adevărul"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T13:20:50.000Z",
-          "imageUrl": "https://cdn.adh.reperio.news/image-d/dc7e8e1c-1192-4d14-bb92-6ece9fe8d522/index.jpeg?p=w%3D1000%26h%3D600%26a%3D0%26f%3Djpeg&file=image.jpeg",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:21:42.000Z"
-    },
-    {
-      "id": "KMrqvPFCqS3m",
-      "representative": {
-        "id": "KMrqvPFCqS3m",
-        "url": "https://www.digi24.ro/stiri/economie/euro-a-atins-un-nou-record-in-fata-leului-cursul-bnr-a-ajuns-la-53527-lei-euro-3980473",
-        "canonicalUrl": "https://www.digi24.ro/stiri/economie/euro-a-atins-un-nou-record-in-fata-leului-cursul-bnr-a-ajuns-la-53527-lei-euro-3980473",
-        "title": "Euro a atins un nou record în fața leului. Cursul BNR a ajuns la 5,3527 lei/euro",
-        "description": "Euro a atins marți, 6 octombrie, un nou maxim istoric în raport cu leul. Banca Națională a României (BNR) a anunțat un curs de 5,3527 lei/euro, cu 2,21 bani peste cotația de luni și cu 0,8 bani peste recordul stabilit vineri.",
-        "source": {
-          "id": "digi24",
-          "name": "Digi24"
-        },
-        "sourceCountry": "RO",
-        "language": "ro",
-        "publishedAt": "2026-10-06T12:43:39.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjUl/MkYwNSUyRjEyJTJGMjI1NjIwOF8yMjU2/MjA4X0dldHR5SW1hZ2VzLTE2NjU5MTI3/MTcuanBnJmhhc2g9YjZmZjQwYjU3ZDkxODZiNGNiZTkwYTkwMDhkNzYxM2I=.jpg",
-        "countryCode": "RO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "OXjAhyDYhnFC",
-          "url": "https://www.libertatea.ro/stiri/curs-bnr-euro-record-desemnare-premier-luca-niculescu-r61ht6w",
-          "canonicalUrl": "https://www.libertatea.ro/stiri/curs-bnr-euro-record-desemnare-premier-luca-niculescu-r61ht6w",
-          "title": "Euro atinge un nou record după desemnarea lui Luca Niculescu pentru funcția de premier. Cursul BNR a sărit de 5,35 lei",
-          "description": "Euro a atins marți, 6 octombrie 2026, un nou record pe piața valutară din România, fiind cotat de Banca Națională a României (BNR) la 5,3527 lei. Aceasta reprezintă o creștere de 2,21 bani față de cotația anterioară, marcând o apreciere continuă a monedei europene, potrivit Știrile ProTV .",
-          "source": {
-            "id": "libertatea",
-            "name": "Libertatea"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T11:42:43.000Z",
-          "imageUrl": "https://ocdn.eu/pulscms-transforms/1/fpfktkpTURBXy8yOWI2N2ZmNDI0Mjc3ZGNjNjJhZWMxM2FkODAyMGI0Yi5qcGeRlQMAJc0EsM0Cow",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:43:39.000Z"
-    },
-    {
-      "id": "zcjEfTwnewqW",
-      "representative": {
-        "id": "zcjEfTwnewqW",
-        "url": "https://www.digi24.ro/stiri/actualitate/evenimente/accident-grav-intr-o-benzinarie-de-pe-valea-oltului-un-camion-a-lovit-pompele-de-carburant-intervine-si-o-autospeciala-cbrn-3980543",
-        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/evenimente/accident-grav-intr-o-benzinarie-de-pe-valea-oltului-un-camion-a-lovit-pompele-de-carburant-intervine-si-o-autospeciala-cbrn-3980543",
-        "title": "Accident grav într-o benzinărie de pe Valea Oltului: un camion a lovit pompele de carburant. Intervine și o autospecială CBRN",
-        "description": "Pompierii şi poliţiştii intervin, marţi, la un accident rutier care s-a produs într-o benzinărie de pe DN 7, în afara localităţii Călimăneşti, într-o zonă cu trafic intens. Un autocamion a provocat distrugeri la pompele de carburant, aşa încât la accident a intervenit şi o autospecială de…",
-        "source": {
-          "id": "digi24",
-          "name": "Digi24"
-        },
-        "sourceCountry": "RO",
-        "language": "ro",
-        "publishedAt": "2026-10-06T12:41:17.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYxMCUyRjA2JTJGMzAwMDkzOF8zMDAw/OTM4X3doYXRzYXBwLWltYWdlLTIwMjYt/MTAtMDYtYXQtMTMtNTMtMjEuanBnJmhh/c2g9YmQyM2RkOTZjM2JkZDVkMjQ3MjEyMjU3MzMxZmU5ZDA=.jpg",
-        "countryCode": "RO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "eT8JTxkRDpPt",
-          "url": "https://adevarul.ro/stiri-interne/evenimente/accident-grav-pe-valea-oltului-un-tir-a-lovit-o-2562169.html",
-          "canonicalUrl": "https://adevarul.ro/stiri-interne/evenimente/accident-grav-pe-valea-oltului-un-tir-a-lovit-o-2562169.html",
-          "title": "Accident grav pe Valea Oltului. Un TIR a lovit o pompă într-o benzinărie, iar combustibilul s-a scurs pe asfalt. Şoferul a rămas încarcerat",
-          "description": "Un camion a avariat o pompă de carburant într-o benzinărie de pe DN 7, la Călimănești. Combustibilul s-a scurs în cantitate mare pe asfalt, iar traficul este oprit în zonă. Se intervin şi pentru descarcerarea şoferului.",
-          "source": {
-            "id": "adevarul",
-            "name": "Adevărul"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T11:30:50.000Z",
-          "imageUrl": "https://cdn.adh.reperio.news/image-6/68067a80-4276-41a5-83cf-ac86fe307ada/index.jpeg?p=w%3D1000%26h%3D600%26a%3D0%26f%3Djpeg&file=image.jpeg",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:41:17.000Z"
     },
     {
       "id": "VSE8_pblipqH",
@@ -392,298 +249,244 @@
       "latestPublishedAt": "2026-10-06T12:28:11.000Z"
     },
     {
-      "id": "BRL2rTkvlJRt",
+      "id": "pm-wBmk9ZpiO",
       "representative": {
-        "id": "BRL2rTkvlJRt",
-        "url": "https://www.digi24.ro/stiri/externe/rusia/rusia-testeaza-o-tactica-din-al-doilea-razboi-mondial-pentru-a-se-apara-impotriva-dronelor-ucrainene-baloanele-pentru-baraj-3980337",
-        "canonicalUrl": "https://www.digi24.ro/stiri/externe/rusia/rusia-testeaza-o-tactica-din-al-doilea-razboi-mondial-pentru-a-se-apara-impotriva-dronelor-ucrainene-baloanele-pentru-baraj-3980337",
-        "title": "Rusia testează o tactică din Al Doilea Război Mondial pentru a se apăra împotriva dronelor ucrainene: baloanele pentru baraj",
-        "description": "Rusia a început să testeze un nou sistem de apărare împotriva dronelor ucrainene: baloane suspendate deasupra solului și legate între ele prin cabluri, menite să prindă aeronavele care se apropie, relatează Kyiv Post.",
+        "id": "pm-wBmk9ZpiO",
+        "url": "https://www.g4media.ro/ce-ramane-uman-in-era-ai-si-cum-cultivam-gandirea-critica-intr-o-lume-modelata-de-tehnologie-mirabela-gradinaru-si-profesionisti-din-industriile-creative-la-creative-romania-in-cadrul-rcw-x-buchare.html",
+        "canonicalUrl": "https://www.g4media.ro/ce-ramane-uman-in-era-ai-si-cum-cultivam-gandirea-critica-intr-o-lume-modelata-de-tehnologie-mirabela-gradinaru-si-profesionisti-din-industriile-creative-la-creative-romania-in-cadrul-rcw-x-buchare.html",
+        "title": "Ce rămâne uman în era AI și cum cultivăm gândirea critică într-o lume modelată de tehnologie? Mirabela Grădinaru și profesioniști din industriile creative, la Creative Romania, în cadrul RCW X Bucharest 2026",
+        "description": "Cum poate România să transforme creativitatea pe care o are deja într-un ecosistem capabil să susțină artiștii și industriile creative pe termen lung? Aceasta a fost miza celor două ore de dezbatere de la „CREATIVE ROMANIA: Observator & Laborator al Ecologiilor Creative”, masa rotundă desfășurată…",
+        "source": {
+          "id": "g4media",
+          "name": "G4Media"
+        },
+        "sourceCountry": "RO",
+        "language": "ro",
+        "publishedAt": "2026-10-06T13:52:33.000Z",
+        "imageUrl": "https://www.g4media.ro//wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-16.45.32.jpeg",
+        "countryCode": "RO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:52:33.000Z"
+    },
+    {
+      "id": "MlEEeHK0P20E",
+      "representative": {
+        "id": "MlEEeHK0P20E",
+        "url": "https://hotnews.ro/liderul-udmr-anunta-ca-a-vorbit-cu-luca-niculescu-avem-o-singura-linie-rosie-2368821",
+        "canonicalUrl": "https://hotnews.ro/liderul-udmr-anunta-ca-a-vorbit-cu-luca-niculescu-avem-o-singura-linie-rosie-2368821",
+        "title": "Liderul UDMR anunță că a vorbit cu Luca Niculescu: „Avem o singură linie roșie”",
+        "description": "Kelemen Hunor a anunțat marți că a avut o primă discuție cu premierul desemnat Luca Niculescu și că are încredere că acesta va putea forma o majoritate parlamentară pentru a trece Guvernul. „În această dimineață am vorbit la telefon cu noul candidat la premier, Luca Niculescu. Ca diplomat, a fost…",
+        "source": {
+          "id": "hotnews",
+          "name": "HotNews.ro"
+        },
+        "sourceCountry": "RO",
+        "language": "ro",
+        "publishedAt": "2026-10-06T13:51:58.000Z",
+        "imageUrl": null,
+        "countryCode": "RO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:51:58.000Z"
+    },
+    {
+      "id": "AnvycMZ1JB5n",
+      "representative": {
+        "id": "AnvycMZ1JB5n",
+        "url": "https://www.digi24.ro/stiri/actualitate/video-comisari-ai-garzii-de-mediu-au-fost-amenintati-cu-un-pistol-in-timpul-unui-control-la-o-balastiera-ilegala-din-olt-3980911",
+        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/video-comisari-ai-garzii-de-mediu-au-fost-amenintati-cu-un-pistol-in-timpul-unui-control-la-o-balastiera-ilegala-din-olt-3980911",
+        "title": "Comisari ai Gărzii de Mediu au fost ameninţaţi cu un pistol, în timpul unui control la o balastieră ilegală din Olt",
+        "description": "Comisari ai Gărzii de Mediu din Olt au fost agresaţi verbal şi ameninţaţi de administratorul unei balastiere ilegale. Bărbatul a folosit şi un pistol, într-o tentativă de intimidare. La faţa locului au intervenit poliţişti şi jandarmi.",
         "source": {
           "id": "digi24",
           "name": "Digi24"
         },
         "sourceCountry": "RO",
         "language": "ro",
-        "publishedAt": "2026-10-06T09:49:43.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOCUyRjE1JTJGMjkwODkzNF8yOTA4/OTM0X0dldHR5SW1hZ2VzLTIyMzU1MDEy/OTguanBnJmhhc2g9ZDM4MDNkMmU2NzQzNTMwNjFlNDY2NzA1ZWMwMTg0N2U=.jpg",
+        "publishedAt": "2026-10-06T13:49:39.000Z",
+        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYxMCUyRjA2JTJGMzAwMTI1OF8zMDAx/MjU4X2JhbGFzdGllcmEuanBnJmhhc2g9/MzQ3MWRhNzg5NmUxNDc4ZGU1NDkxMjZkMjA3ODQ1YTk=.jpg",
         "countryCode": "RO",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "1eqBbr5znitg",
-          "url": "https://www.libertatea.ro/stiri/baloane-de-baraj-rusia-noua-metoda-din-al-doilea-razboi-mondial-impotriva-dronelor-ucrainene-2h5ppgt",
-          "canonicalUrl": "https://www.libertatea.ro/stiri/baloane-de-baraj-rusia-noua-metoda-din-al-doilea-razboi-mondial-impotriva-dronelor-ucrainene-2h5ppgt",
-          "title": "Rusia folosește o tactică din Al Doilea Război Mondial pentru a opri dronele ucrainene: ce sunt baloanele de baraj și cum funcționează cablurile din kevlar",
-          "description": "Armata rusă a început să testeze o metodă neconvențională de protecție împotriva atacurilor constante cu drone lansate de Ucraina: suspendarea unor baloane de baraj ancorate prin cabluri rezistente, menite să agațe și să doboare aeronavele fără pilot. Soluția, prezentată recent de televiziunea de…",
-          "source": {
-            "id": "libertatea",
-            "name": "Libertatea"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T12:23:48.000Z",
-          "imageUrl": "https://ocdn.eu/pulscms-transforms/1/0DdktkpTURBXy9mYjUyNjRjNDAyZmNhODJjYzc4N2MzODNkN2UwZThkYy5qcGeRlQMAJc0EsM0Cow",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:23:48.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:49:39.000Z"
     },
     {
-      "id": "saNk3ljrrjmR",
+      "id": "Y-74A4QIljt8",
       "representative": {
-        "id": "saNk3ljrrjmR",
-        "url": "https://www.digi24.ro/stiri/actualitate/politica/mesajul-lui-luca-niculescu-premierul-desemnat-inaintea-inceperii-negocierilor-cu-partidele-3980175",
-        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/politica/mesajul-lui-luca-niculescu-premierul-desemnat-inaintea-inceperii-negocierilor-cu-partidele-3980175",
-        "title": "„Respect ideile bune, indiferent de unde vin”. Mesajul lui Luca Niculescu, premierul desemnat, înaintea începerii negocierilor politice",
-        "description": "Premierul desemnat, Luca Niculescu, a făcut o paralelă între procesul de aderare a României la OCDE și negocierile pentru formarea noului Executiv. Diplomatul „speră să găsească aceeași deschidere în formarea Guvernului ca în cazul negocierilor pentru Organizația pentru Cooperare și Dezvoltare…",
+        "id": "Y-74A4QIljt8",
+        "url": "https://hotnews.ro/pnl-si-usr-sesizeaza-curtea-constitutionala-in-privinta-desemnarii-conducerii-tvr-2368784",
+        "canonicalUrl": "https://hotnews.ro/pnl-si-usr-sesizeaza-curtea-constitutionala-in-privinta-desemnarii-conducerii-tvr-2368784",
+        "title": "PNL și USR sesizează Curtea Constituțională în privința desemnării conducerii TVR",
+        "description": "PNL şi USR au depus o sesizare la Curtea Constituţională cu privire la numirea conducerii interimare a Societăţii Române de Televiziune, a anunţat marţi deputata liberală Raluca Turcan, citată de Agerpres. „Numirea interimară realizată în Birourile permanente reunite încalcă atât legislaţia…",
+        "source": {
+          "id": "hotnews",
+          "name": "HotNews.ro"
+        },
+        "sourceCountry": "RO",
+        "language": "ro",
+        "publishedAt": "2026-10-06T13:48:29.000Z",
+        "imageUrl": null,
+        "countryCode": "RO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:48:29.000Z"
+    },
+    {
+      "id": "2JrtyJXUpCYh",
+      "representative": {
+        "id": "2JrtyJXUpCYh",
+        "url": "https://www.g4media.ro/guvernul-spaniei-a-aprobat-doua-decrete-privind-locuintele-a-caror-respingere-de-catre-parlament-l-a-determinat-pe-premierul-pedro-sanchez-sa-convoace-alegeri-anticipate.html",
+        "canonicalUrl": "https://www.g4media.ro/guvernul-spaniei-a-aprobat-doua-decrete-privind-locuintele-a-caror-respingere-de-catre-parlament-l-a-determinat-pe-premierul-pedro-sanchez-sa-convoace-alegeri-anticipate.html",
+        "title": "Guvernul Spaniei a aprobat două decrete privind locuinţele, a căror respingere de către parlament l-a determinat pe premierul Pedro Sanchez să convoace alegeri anticipate",
+        "description": "Guvernul Spaniei a aprobat marţi două decrete privind locuinţele, a căror respingere de către parlament săptămâna trecută l-a determinat pe premierul Pedro Sanchez să convoace alegeri anticipate, relatează agenția de știri Reuters, citată de Agerpres. Măsurile – care includ plafonarea chiriilor…",
+        "source": {
+          "id": "g4media",
+          "name": "G4Media"
+        },
+        "sourceCountry": "RO",
+        "language": "ro",
+        "publishedAt": "2026-10-06T13:47:29.000Z",
+        "imageUrl": "https://www.g4media.ro//wp-content/uploads/2021/11/244726534_422523939240162_4861608384320617805_n-e1658854428866.jpg",
+        "countryCode": "RO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:47:29.000Z"
+    },
+    {
+      "id": "infuxWrrHYup",
+      "representative": {
+        "id": "infuxWrrHYup",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/sedinta-cruciala-in-psd-pentru-soarta-guvernului-propus-de-luca-niculescu-social-democratii-ar-putea-intra-la-guvernare-surse-3979979",
+        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/politica/sedinta-cruciala-in-psd-pentru-soarta-guvernului-propus-de-luca-niculescu-social-democratii-ar-putea-intra-la-guvernare-surse-3979979",
+        "title": "Sorin Grindeanu vrea să discute întâi cu Luca Niculescu: „PSD nu va da voturi pentru continuarea unor măsuri de tip Bolojan”",
+        "description": "Conducerea Partidului Social Democrat (PSD) s-a reunit, marți, într-o ședință pentru a discuta care sunt pașii următori ai partidului, după ce Luca Niculescu a fost nominalizat de președintele Nicușor Dan pentru funcția de prim-ministru. La finalul ședinței, liderul PSD a anunțat că a primit un…",
         "source": {
           "id": "digi24",
           "name": "Digi24"
         },
         "sourceCountry": "RO",
         "language": "ro",
-        "publishedAt": "2026-10-06T08:40:04.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOSUyRjA3JTJGMjk0OTk0N18yOTQ5/OTQ3X2x1Y2EtbmljdWxlc2N1LUlEMjMz/MDcxLUlOUVVBTS1QSE9UT1MtTUFMSU5B/LU5PUk9DRUEucG5nJmhhc2g9YTkzNDcy/MmFiM2M4OWQ1NTg1NDIyOGM3ZWZhMzkwMDk=.png",
+        "publishedAt": "2026-10-06T13:43:33.000Z",
+        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYxMCUyRjA1JTJGMjk5OTc1Nl8yOTk5/NzU2X3NvcmluLWdyaW5kZWFudS1pbnF1/YW0uanBnJmhhc2g9MTQ0OTJiYmYwZmQwZjQ0ZGM3NmQ3ZTE1YjI0NDYwZWI=.jpg",
         "countryCode": "RO",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "ktEKQJmwcmd-",
-          "url": "https://www.libertatea.ro/stiri/luca-niculescu-mesaj-transmis-partide-inainte-negocieri-formare-guvern-dx6xmmh",
-          "canonicalUrl": "https://www.libertatea.ro/stiri/luca-niculescu-mesaj-transmis-partide-inainte-negocieri-formare-guvern-dx6xmmh",
-          "title": "Luca Niculescu, mesajul transmis partidelor înainte de negocierile pentru formarea noului Guvern: „Respect ideile bune, indiferent de unde vin”",
-          "description": "Luca Niculescu a transmis un mesaj partidelor politice înaintea negocierilor pentru formarea noului Guvern, subliniind importanța „ideilor bune”, indiferent de sursa lor. Premierul desemnat dă asigurări că este „deschis la discuții” cu partidele. Luca Niculescu a coordonat timp de patru ani…",
-          "source": {
-            "id": "libertatea",
-            "name": "Libertatea"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T10:41:17.000Z",
-          "imageUrl": "https://ocdn.eu/pulscms-transforms/1/QoOktkpTURBXy83NTQ0YjVkMWUyY2RlNjAxNDYzNjAzOWJhODQ0NGE5My5qcGeRlQMAB80EsM0Cow",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:41:17.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:43:33.000Z"
     },
     {
-      "id": "otKBgtUXxc5q",
+      "id": "f4f9R8NsC-m9",
       "representative": {
-        "id": "otKBgtUXxc5q",
-        "url": "https://adevarul.ro/stil-de-viata/stiinta/un-cercetator-belgian-a-primit-premiul-nobel-2562144.html",
-        "canonicalUrl": "https://adevarul.ro/stil-de-viata/stiinta/un-cercetator-belgian-a-primit-premiul-nobel-2562144.html",
-        "title": "Un cercetător belgian a primit Premiul Nobel pentru Fizică 2026. A folosit gheața de la Polul Sud pentru a detecta neutrinii",
-        "description": "Francis Halzen a primit marți, 6 octombrie, Premiul Nobel pentru Fizică în 2026, „pentru contribuțiile decisive aduse Observatorului de neutrini IceCube și descoperirii neutrinilor de înaltă energie de origine astrofizică”.",
+        "id": "f4f9R8NsC-m9",
+        "url": "https://www.g4media.ro/dispozitiile-legale-ce-impiedica-unii-functionari-publici-sa-candideze-la-functii-de-demnitate-publica-sunt-neconstitutionale-a-decis-ccr.html",
+        "canonicalUrl": "https://www.g4media.ro/dispozitiile-legale-ce-impiedica-unii-functionari-publici-sa-candideze-la-functii-de-demnitate-publica-sunt-neconstitutionale-a-decis-ccr.html",
+        "title": "Dispoziţiile legale ce împiedică unii funcţionari publici să candideze la funcţii de demnitate publică sunt neconstituţionale, a decis CCR",
+        "description": "Curtea Constituţională a României a stabilit, marţi, că sunt neconstituţionale dispoziţiile potrivit cărora înalţii funcţionari publici şi funcţionarii publici de conducere pot candida pentru funcţii de demnitate publică numai după încetarea raporturilor de serviciu, transmite Agerpres. Potrivit…",
+        "source": {
+          "id": "g4media",
+          "name": "G4Media"
+        },
+        "sourceCountry": "RO",
+        "language": "ro",
+        "publishedAt": "2026-10-06T13:41:21.000Z",
+        "imageUrl": "https://www.g4media.ro//wp-content/uploads/2025/09/SEP_CCR_ILUSTRATIE_15_INQUAM_Photos_Octav_Ganea.jpg",
+        "countryCode": "RO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:41:21.000Z"
+    },
+    {
+      "id": "kQ8pfDUNkxHG",
+      "representative": {
+        "id": "kQ8pfDUNkxHG",
+        "url": "https://adevarul.ro/politica/sorin-grindeanu-il-cunosc-pe-luca-de-mult-timp-2562204.html",
+        "canonicalUrl": "https://adevarul.ro/politica/sorin-grindeanu-il-cunosc-pe-luca-de-mult-timp-2562204.html",
+        "title": "Sorin Grindeanu: „Îl cunosc pe Luca de mult timp, am toată deschiderea”. Ce îi cere PSD noului premier desemnat",
+        "description": "Sorin Grindeanu spune că este deschis discuțiilor cu Luca Niculescu, pe care îl cunoaște de mai mult timp și despre care are o părere bună, însă acest lucru nu înseamnă că PSD îi va acorda automat sprijinul pentru funcția de premier.",
         "source": {
           "id": "adevarul",
           "name": "Adevărul"
         },
         "sourceCountry": "RO",
         "language": "ro",
-        "publishedAt": "2026-10-06T10:40:11.000Z",
-        "imageUrl": "https://cdn.adh.reperio.news/image-b/b2125fd8-de88-42e9-968d-66666f18bb20/index.png?p=w%3D1000%26h%3D600%26a%3D0%26f%3Djpeg&file=image.jpeg",
+        "publishedAt": "2026-10-06T13:40:10.000Z",
+        "imageUrl": "https://cdn.adh.reperio.news/image-d/d0a01678-31b8-4c11-b4f6-8e740987731b/index.png?p=w%3D1000%26h%3D600%26a%3D0%26f%3Djpeg&file=image.jpeg",
         "countryCode": "RO",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "F9dIWIw2Ifmc",
-          "url": "https://www.libertatea.ro/stiri/premiul-nobel-fizica-2026-francis-halzen-icecube-neutrini-2026-jx4fbm7",
-          "canonicalUrl": "https://www.libertatea.ro/stiri/premiul-nobel-fizica-2026-francis-halzen-icecube-neutrini-2026-jx4fbm7",
-          "title": "Premiul Nobel pentru Fizică 2026 a fost câștigat de Francis Halzen. Fizicianul belgian a transformat gheața de la Polul Sud într-un detector de neutrini",
-          "description": "Academia Regală Suedeză de Științe a anunțat acordarea Premiului Nobel pentru Fizică pe anul 2026 cercetătorului belgian Francis Halzen. Distincția i-a fost oferită pentru contribuțiile sale decisive la realizarea Observatorului de Neutrini IceCube și pentru descoperirea neutrinilor de înaltă…",
-          "source": {
-            "id": "libertatea",
-            "name": "Libertatea"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T10:36:52.000Z",
-          "imageUrl": "https://ocdn.eu/pulscms-transforms/1/0aBktkpTURBXy8wMzhiY2E0OGQwNjUyODE1YWIwOTEyM2ViMWEzMjFmYy5qcGeRlQMAAM0FAM0C0A",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:40:11.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:40:10.000Z"
     },
     {
-      "id": "UaVCuHgbaXvc",
+      "id": "Wvq0S-yGg11o",
       "representative": {
-        "id": "UaVCuHgbaXvc",
-        "url": "https://www.digi24.ro/stiri/externe/ue/doua-nave-au-fost-lovite-de-drone-in-zona-economica-a-bulgariei-una-dintre-ele-s-a-scufundat-sedinta-convocata-de-rumen-radev-3980075",
-        "canonicalUrl": "https://www.digi24.ro/stiri/externe/ue/doua-nave-au-fost-lovite-de-drone-in-zona-economica-a-bulgariei-una-dintre-ele-s-a-scufundat-sedinta-convocata-de-rumen-radev-3980075",
-        "title": "Două nave au fost lovite de drone în zona economică a Bulgariei: una dintre ele s-a scufundat. Radev: „Un atac absolut inacceptabil”",
-        "description": "Două nave comerciale au fost lovite de drone în zona economică exclusivă a Bulgariei din Marea Neagră; una dintre acestea s-a scufundat, iar cei 18 membri ai echipajului celeilalte nave au fost salvați, potrivit informațiilor furnizate de autoritățile bulgare, relatează Novinite.",
+        "id": "Wvq0S-yGg11o",
+        "url": "https://www.g4media.ro/romania-in-cadere-libera-in-clasamentul-fifa-uzbekistan-si-burkina-faso-printre-vecinele-de-ierarhie.html",
+        "canonicalUrl": "https://www.g4media.ro/romania-in-cadere-libera-in-clasamentul-fifa-uzbekistan-si-burkina-faso-printre-vecinele-de-ierarhie.html",
+        "title": "România, în cădere liberă în clasamentul FIFA: Uzbekistan și Burkina Faso, printre „vecinele” de ierarhie",
+        "description": "După patru înfrângeri consecutive în Liga Națiunilor, naționala de fotbal a României a coborât șase locuri în clasamentul FIFA. Echipa antrenată de Gheorghe Hagi se află în ierarhia live pe locul 58. Cu 1428,88 de puncte, România a coborât șase locuri față de ultima ierarhie dată publicității…",
         "source": {
-          "id": "digi24",
-          "name": "Digi24"
+          "id": "g4media",
+          "name": "G4Media"
         },
         "sourceCountry": "RO",
         "language": "ro",
-        "publishedAt": "2026-10-06T10:19:20.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYxMCUyRjA2JTJGMzAwMDQxOV8zMDAw/NDE5X25hdmEtYnVsZ2FyaWEucG5nJmhh/c2g9M2M4M2M5NmNhYzdiYTI0YjI5NTBhM2FjYzg4NzBhYWU=.png",
+        "publishedAt": "2026-10-06T13:37:39.000Z",
+        "imageUrl": "https://www.g4media.ro//wp-content/uploads/2025/10/profimedia-1044493616.jpg",
         "countryCode": "RO",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "b1cG9G7sh1x9",
-          "url": "https://adevarul.ro/stiri-externe/europa/doua-nave-comerciale-lovite-de-drone-in-zona-2562107.html",
-          "canonicalUrl": "https://adevarul.ro/stiri-externe/europa/doua-nave-comerciale-lovite-de-drone-in-zona-2562107.html",
-          "title": "Două nave comerciale, lovite de drone în zona economică a Bulgariei. Una s-a scufundat și două persoane au murit",
-          "description": "Două nave comerciale au fost lovite de drone marți, 6 octombrie, în zona economică exclusivă a Bulgariei din Marea Neagră. Una dintre ele s-a scufundat, iar, potrivit autorităților române, două persoane au murit, în timp ce alte 11 au fost salvate.",
-          "source": {
-            "id": "adevarul",
-            "name": "Adevărul"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T08:31:27.000Z",
-          "imageUrl": "https://cdn.adh.reperio.news/image-7/7b86656f-efd8-4b6d-afa1-b6954477e58a/index.jpeg?p=w%3D1000%26h%3D600%26a%3D0%26f%3Djpeg&file=image.jpeg",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:19:20.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:37:39.000Z"
     },
     {
-      "id": "srh2vmeX0Qex",
+      "id": "RO5Lid8AdXqO",
       "representative": {
-        "id": "srh2vmeX0Qex",
-        "url": "https://www.digi24.ro/stiri/economie/radu-miruta-anunta-reguli-noi-in-portul-constanta-transporturile-de-cereale-vor-fi-programate-dupa-capacitatea-navelor-3980117",
-        "canonicalUrl": "https://www.digi24.ro/stiri/economie/radu-miruta-anunta-reguli-noi-in-portul-constanta-transporturile-de-cereale-vor-fi-programate-dupa-capacitatea-navelor-3980117",
-        "title": "Radu Miruță anunță reguli noi în Portul Constanța: transporturile de cereale vor fi programate după capacitatea navelor",
-        "description": "Problemele semnalate de fermieri în transportul cerealelor către Portul Constanța nu sunt provocate de lipsa capacității feroviare, ci de programarea și coordonarea necorespunzătoare a operațiunilor, a afirmat marți ministrul interimar al Transporturilor, Radu Miruță. El a anunțat emiterea unui…",
+        "id": "RO5Lid8AdXqO",
+        "url": "https://hotnews.ro/primul-parlamentar-exclus-din-grupul-pnl-pentru-ca-nu-a-votat-guvernul-muresan-e-primul-sunt-patru-suspecti-2368797",
+        "canonicalUrl": "https://hotnews.ro/primul-parlamentar-exclus-din-grupul-pnl-pentru-ca-nu-a-votat-guvernul-muresan-e-primul-sunt-patru-suspecti-2368797",
+        "title": "Primul parlamentar exclus din grupul PNL pentru că nu a votat Guvernul Mureșan. „E primul. Sunt patru suspecți”",
+        "description": "Deputatul Eduard Mititelu a fost exclus din grupul PNL de la Camera Deputaților pentru că nu a votat Guvernul Mureșan. Mititelu nu era la prima abatere, el acceptase în iunie un post de ministru în Guvernul Veștea, în ciuda deciziilor partidului. HotNews l-a contactat pe Eduard Mititelu, dar…",
         "source": {
-          "id": "digi24",
-          "name": "Digi24"
+          "id": "hotnews",
+          "name": "HotNews.ro"
         },
         "sourceCountry": "RO",
         "language": "ro",
-        "publishedAt": "2026-10-06T08:24:43.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwMyUyRjI3JTJGMjY1NjQ3M18yNjU2/NDczX3JhZHUtbWlydXRhLTIuanBnJmhh/c2g9OTBiODliZmUyOGJkMWFhMGFjYjU3OGViMzgzYTVhZjI=.jpg",
+        "publishedAt": "2026-10-06T13:37:20.000Z",
+        "imageUrl": null,
         "countryCode": "RO",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "N0w3JNu66MG4",
-          "url": "https://www.libertatea.ro/stiri/noi-reguli-in-portul-constanta-pentru-programarea-incarcarilor-mesaj-radu-miruta-nfewxpp",
-          "canonicalUrl": "https://www.libertatea.ro/stiri/noi-reguli-in-portul-constanta-pentru-programarea-incarcarilor-mesaj-radu-miruta-nfewxpp",
-          "title": "Noi reguli în Portul Constanța pentru programarea încărcărilor. Radu Miruță: „Problema este lipsa de coordonare\"",
-          "description": "Ministrul interimar al transporturilor, Radu Miruță, a transmis marți, 6 octombrie 2026, un mesaj pe pagina sa de Facebook, în care spune că a decis emiterea unui ordin de ministru care să oblige programările pe lanț pentru încărcarea vapoarelor în Portul Constanța.",
-          "source": {
-            "id": "libertatea",
-            "name": "Libertatea"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T09:44:22.000Z",
-          "imageUrl": "https://ocdn.eu/pulscms-transforms/1/-KBktkpTURBXy9mY2Q0ODRjMzYyYTFkOTZhNTJmNThmOWU2MDZmNTUxNi5qcGeRlQMAB80EsM0Cow",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:44:22.000Z"
-    },
-    {
-      "id": "Y7Pqby0hCJ5z",
-      "representative": {
-        "id": "Y7Pqby0hCJ5z",
-        "url": "https://www.digi24.ro/stiri/actualitate/sanatate/cele-sapte-tipuri-de-cancer-a-caror-incidenta-a-crescut-rapid-in-randul-tinerilor-o-bomba-cu-ceas-pe-care-trebuie-sa-o-dezamorsam-3980071",
-        "canonicalUrl": "https://www.digi24.ro/stiri/actualitate/sanatate/cele-sapte-tipuri-de-cancer-a-caror-incidenta-a-crescut-rapid-in-randul-tinerilor-o-bomba-cu-ceas-pe-care-trebuie-sa-o-dezamorsam-3980071",
-        "title": "Cele șapte tipuri de cancer a căror incidență a crescut rapid în rândul tinerilor. „O bombă cu ceas pe care trebuie să o dezamorsăm”",
-        "description": "Un nou studiu de amploare a relevat că incidenţa a şapte tipuri de cancer a crescut brusc în rândul tinerilor, ceea ce a determinat avertismente conform cărora alegerile legate de stilul de viaţă costă mii de vieţi în fiecare an, scrie The Guardian.",
-        "source": {
-          "id": "digi24",
-          "name": "Digi24"
-        },
-        "sourceCountry": "RO",
-        "language": "ro",
-        "publishedAt": "2026-10-06T07:57:23.000Z",
-        "imageUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjUl/MkYxMSUyRjAxJTJGMjQxMzQ2Ml8yNDEz/NDYyX0dldHR5SW1hZ2VzLTE0NDE3MDc2/NTEuanBnJmhhc2g9M2ZiMThmNmRlYTg3NjgzYWQzZDNmMmIyZTFjOTNkMDI=.jpg",
-        "countryCode": "RO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "iGlI4_FGRnBV",
-          "url": "https://adevarul.ro/stiri-externe/europa/cazurile-de-cancer-cu-debut-precoce-au-crescut-2562117.html",
-          "canonicalUrl": "https://adevarul.ro/stiri-externe/europa/cazurile-de-cancer-cu-debut-precoce-au-crescut-2562117.html",
-          "title": "Cazurile de cancer cu debut precoce au crescut semnificativ în rândul tinerilor. Care sunt cele șapte tipuri de cancer în creștere",
-          "description": "Incidența mai multor tipuri de cancer în rândul persoanelor sub 50 de ani a crescut semnificativ în ultimii ani, potrivit unei analize realizate de World Cancer Research Fund (WCRF).",
-          "source": {
-            "id": "adevarul",
-            "name": "Adevărul"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T09:42:44.000Z",
-          "imageUrl": "https://cdn.adh.reperio.news/image-b/b1906dad-ae89-4435-9b13-fa9f67dc36ea/index.jpeg?p=w%3D1000%26h%3D600%26a%3D0%26f%3Djpeg&file=image.jpeg",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:42:44.000Z"
-    },
-    {
-      "id": "1WvmzbDzYZNV",
-      "representative": {
-        "id": "1WvmzbDzYZNV",
-        "url": "https://adevarul.ro/politica/ce-scrie-presa-internationala-despre-desemnarea-2562100.html",
-        "canonicalUrl": "https://adevarul.ro/politica/ce-scrie-presa-internationala-despre-desemnarea-2562100.html",
-        "title": "Ce scrie presa internațională despre desemnarea lui Luca Niculescu: „Va trebui să găsească o cale de compromis între partidele profund divizate”",
-        "description": "Desemnarea diplomatului Luca Niculescu pentru funcția de prim-ministru al României a atras atenția presei internaționale, care prezintă nominalizarea drept o nouă încercare de a pune capăt crizei politice începute în luna mai.",
-        "source": {
-          "id": "adevarul",
-          "name": "Adevărul"
-        },
-        "sourceCountry": "RO",
-        "language": "ro",
-        "publishedAt": "2026-10-06T09:01:42.000Z",
-        "imageUrl": "https://cdn.adh.reperio.news/image-0/0f06417e-fb78-4001-97c5-c7acb5144bb9/index.jpeg?p=w%3D1000%26h%3D600%26a%3D0%26f%3Djpeg&file=image.jpeg",
-        "countryCode": "RO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ArkRWMpKUWBM",
-          "url": "https://www.libertatea.ro/stiri/presa-internationala-scrie-despre-desemnarea-luca-niculescu-premier-romania-whsfhyd",
-          "canonicalUrl": "https://www.libertatea.ro/stiri/presa-internationala-scrie-despre-desemnarea-luca-niculescu-premier-romania-whsfhyd",
-          "title": "„Tehnocratul care trebuie să împace partidele”. Ce scrie presa internațională despre desemnarea lui Luca Niculescu ca premier",
-          "description": "Președintele Nicușor Dan l-a desemnat premier pe Luca Niculescu, decizia a fost anunțată luni seara, 5 octombrie 2026. Diplomatul român a fost nominalizat pentru funcția de prim-ministru la exact 5 luni de la începutul crizei politice din România. Numirea sa a captat atenția presei internaționale…",
-          "source": {
-            "id": "libertatea",
-            "name": "Libertatea"
-          },
-          "sourceCountry": "RO",
-          "language": "ro",
-          "publishedAt": "2026-10-06T08:27:36.000Z",
-          "imageUrl": "https://ocdn.eu/pulscms-transforms/1/msGktkpTURBXy8yOTkzMDE0N2YyZWUyNWJjYWI2MTc4OGE5NDE4N2FlMC5qcGeRlQMAB80EsM0Cow",
-          "countryCode": "RO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:01:42.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:37:20.000Z"
     }
   ]
 }

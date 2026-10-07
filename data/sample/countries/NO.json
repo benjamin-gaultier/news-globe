@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "NO",
   "countryName": "Norway",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "Gg9V8aOmgsGn",
@@ -333,174 +333,6 @@
       "latestPublishedAt": "2026-10-06T12:49:06.000Z"
     },
     {
-      "id": "SSJLU7q9vPzQ",
-      "representative": {
-        "id": "SSJLU7q9vPzQ",
-        "url": "https://www.nrk.no/stor-oslo/oslo-rod-ungdom-trekker-seg-fra-palestina-markering-1.18046864",
-        "canonicalUrl": "https://www.nrk.no/stor-oslo/oslo-rod-ungdom-trekker-seg-fra-palestina-markering-1.18046864",
-        "title": "Oslo Rød Ungdom trekker seg fra Palestina-markering",
-        "description": "Oslo Rød Ungdom skriver i et Facebook-innlegg at ungdomspartiet trekker seg fra den planlagte demonstrasjonen «Støtt den palestinske motstandskampen» i Oslo den 7. oktober. Årsaken er ifølge RU at partiet Fred og rettferdighet (FOR), som er blant arrangørene av demonstrasjonen, ikke ville…",
-        "source": {
-          "id": "nrk",
-          "name": "NRK"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T11:47:14.000Z",
-        "imageUrl": null,
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "uXEIHsM60_uL",
-          "url": "https://www.nettavisen.no/nyheter/ru-trekker-seg-fra-7-oktober-demonstrasjon/s/80-95-135729",
-          "canonicalUrl": "https://www.nettavisen.no/nyheter/ru-trekker-seg-fra-7-oktober-demonstrasjon/s/80-95-135729",
-          "title": "Rød ungdom trekker seg fra 7. oktober-demonstrasjon",
-          "description": "Rød ungdom trekker seg fra den planlagte demonstrasjonen «Støtt den palestinske motstandskampen».",
-          "source": {
-            "id": "nettavisen",
-            "name": "Nettavisen"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T12:00:14.000Z",
-          "imageUrl": null,
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:00:14.000Z"
-    },
-    {
-      "id": "RwZcs5VArs4Q",
-      "representative": {
-        "id": "RwZcs5VArs4Q",
-        "url": "https://www.nrk.no/nyheter/krever-millionerstatning-fra-natur-og-ungdom-1.18046562",
-        "canonicalUrl": "https://www.nrk.no/nyheter/krever-millionerstatning-fra-natur-og-ungdom-1.18046562",
-        "title": "Krever millionerstatning fra Natur og Ungdom",
-        "description": "Nordic Mining har sendt brev til Natur og Ungdom hvor de ber om rundt 1 million kroner per døgn aktivistene har aksjonert ved anlegget ved Førdefjorden den siste tiden. Kommunikasjonssjef i Nordic Mining, Tone Løfuft, sier at selskapet kommer til å gå videre med søksmålet, og at det dreier seg om…",
-        "source": {
-          "id": "nrk",
-          "name": "NRK"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T10:28:35.000Z",
-        "imageUrl": "https://gfx.nrk.no/Ac-QGnerM_JIgbjaaOpGRQLfCriV9PLV4twakObTGmHA.jpg",
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "zhbqZAcNZbJb",
-          "url": "https://www.aftenposten.no/norge/i/gd6dW9/nordic-mining-krever-millionerstatning-fra-natur-og-ungdom-aksjonister?utm_medium=rss",
-          "canonicalUrl": "https://www.aftenposten.no/norge/i/gd6dW9/nordic-mining-krever-millionerstatning-fra-natur-og-ungdom-aksjonister",
-          "title": "Nordic Mining krever millionerstatning fra Natur og Ungdom-aksjonister",
-          "description": "Nordic Mining har sendt brev til Natur og Ungdom hvor de ber om rundt 1 million kroner pr.",
-          "source": {
-            "id": "aftenposten",
-            "name": "Aftenposten"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T10:26:57.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/b6079bb2-15fb-3937-bb45-c3053081c1fb?format=auto&w=1000&s=506a69642f208a84c80851b55c39fa2010f0ac34",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:28:35.000Z"
-    },
-    {
-      "id": "Oc1tpZFjTP7w",
-      "representative": {
-        "id": "Oc1tpZFjTP7w",
-        "url": "https://www.aftenposten.no/e24/i/w38M85?utm_medium=rss",
-        "canonicalUrl": "https://www.aftenposten.no/e24/i/w38M85",
-        "title": "– Bør velge Norgespris også neste år",
-        "description": "Norgepris økes, men er fortsatt gunstig, mener eksperter. Analytiker tror ordningen vil bli dyrere…",
-        "source": {
-          "id": "aftenposten",
-          "name": "Aftenposten"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T09:25:57.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/96a72435-1a8e-32e5-93b8-ea5db829a29c?format=auto&w=1000&s=71f5198a44b913426cd08b88474ec7470abc7ba4",
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "BgOK0gOOmKvw",
-          "url": "https://e24.no/energi-og-klima/i/w38M85/boer-velge-norgespris-ogsaa-neste-aar?utm_medium=rss",
-          "canonicalUrl": "https://e24.no/energi-og-klima/i/w38M85/boer-velge-norgespris-ogsaa-neste-aar",
-          "title": "– Bør velge Norgespris også neste år",
-          "description": "Norgepris økes, men er fortsatt gunstig, mener eksperter. Analytiker tror ordningen vil bli dyrere…",
-          "source": {
-            "id": "e24",
-            "name": "E24"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T09:25:55.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/96a72435-1a8e-32e5-93b8-ea5db829a29c?format=auto&w=1000&s=71f5198a44b913426cd08b88474ec7470abc7ba4",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:25:57.000Z"
-    },
-    {
-      "id": "63D71Zr2fj8t",
-      "representative": {
-        "id": "63D71Zr2fj8t",
-        "url": "https://www.nrk.no/nyheter/tidligere-tysk-etterretningssjef-pagrepet-for-spionasje-1.18046674",
-        "canonicalUrl": "https://www.nrk.no/nyheter/tidligere-tysk-etterretningssjef-pagrepet-for-spionasje-1.18046674",
-        "title": "Tidligere tysk etterretningssjef pågrepet for spionasje",
-        "description": "Tidligere sjef for den tyske etterretningstjenesten, August Hanning (80), er pågrepet og siktet for spionasje og forsøk på forræderi, står det i en pressemelding fra den tyske riksadvokaten. Hanning var sjef for etterretningstjenesten (BND) fra 1998 til 2005. Avisen Bild meldte først om…",
-        "source": {
-          "id": "nrk",
-          "name": "NRK"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T08:45:27.000Z",
-        "imageUrl": "https://gfx.nrk.no/L3FfUwQKTaz__tMlPzQ4rQ41d-7sbCTLxzcJL7i4veYg.jpg",
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "H4ThYmz-eJ84",
-          "url": "https://www.aftenposten.no/verden/i/d7n57B/tidligere-tysk-etterretningssjef-paagrepet-for-spionasje?utm_medium=rss",
-          "canonicalUrl": "https://www.aftenposten.no/verden/i/d7n57B/tidligere-tysk-etterretningssjef-paagrepet-for-spionasje",
-          "title": "Tidligere tysk etterretningssjef pågrepet for spionasje",
-          "description": "Tidligere sjef for den tyske etterretningstjenesten, August Hanning, er pågrepet og siktet for…",
-          "source": {
-            "id": "aftenposten",
-            "name": "Aftenposten"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T08:45:25.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/8da4726b-b044-397f-9197-19baeacb74d8?format=auto&w=1000&s=e225a6e31cd8dc75581716a1f8c728c3538c8e1a",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T08:45:27.000Z"
-    },
-    {
       "id": "4nMxvjLkj6Fq",
       "representative": {
         "id": "4nMxvjLkj6Fq",
@@ -595,6 +427,102 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:40:30.000Z"
+    },
+    {
+      "id": "L2CtOH8X9ijr",
+      "representative": {
+        "id": "L2CtOH8X9ijr",
+        "url": "https://www.aftenposten.no/oslo/i/6qJ31r/oslo-ap-vil-automatisk-melde-1-aaringer-inn-i-barnehagen?utm_medium=rss",
+        "canonicalUrl": "https://www.aftenposten.no/oslo/i/6qJ31r/oslo-ap-vil-automatisk-melde-1-aaringer-inn-i-barnehagen",
+        "title": "Sterke reaksjoner mot Ap-forslag om å melde ettåringer automatisk inn i barnehage. – Topper kaken av overformynderi.",
+        "description": "Oslo Ap-topp vil ha automatisk innmelding av ettåringer i barnehage i bydelene med lav deltagelse.",
+        "source": {
+          "id": "aftenposten",
+          "name": "Aftenposten"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:35:21.000Z",
+        "imageUrl": "https://akamai.vgc.no/v2/images/d288876e-7efe-36c3-9a11-359601599324?format=auto&w=1000&s=db9c092d60eda0afd643592b080c7fae1cb4de2d",
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:35:21.000Z"
+    },
+    {
+      "id": "MW7Yw0nsGW_7",
+      "representative": {
+        "id": "MW7Yw0nsGW_7",
+        "url": "https://www.nettavisen.no/nyheter/paramounts-warner-kjop-er-offisielt-blir-hollywood-gigant/s/80-95-136071",
+        "canonicalUrl": "https://www.nettavisen.no/nyheter/paramounts-warner-kjop-er-offisielt-blir-hollywood-gigant/s/80-95-136071",
+        "title": "Gigantisk Hollywood-kjøp bekreftet",
+        "description": "Paramount har fullført oppkjøpet av Warner Bros. Discovery og danner selskapet Skydance, som nå kontrollerer en rekke av Hollywoods mest verdifulle strømmetjenester.",
+        "source": {
+          "id": "nettavisen",
+          "name": "Nettavisen"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:32:30.000Z",
+        "imageUrl": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791294175565/nettav/2026/10/6/13/+N.bin",
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:32:30.000Z"
+    },
+    {
+      "id": "WLtj_wclpofT",
+      "representative": {
+        "id": "WLtj_wclpofT",
+        "url": "https://www.nrk.no/mr/koyrde-gjennom-gjerde-og-hamna-hengande-ut-fra-takparkering-i-kristiansund-1.18046996",
+        "canonicalUrl": "https://www.nrk.no/mr/koyrde-gjennom-gjerde-og-hamna-hengande-ut-fra-takparkering-i-kristiansund-1.18046996",
+        "title": "Køyrde gjennom gjerde og hamna hengande ut frå takparkering i Kristiansund",
+        "description": "Politiet og brannvesenet er i Kristiansund sentrum etter at ein bil skal ha køyrt gjennom eit gjerde og delvis ut av eit garasjetak. –Føraren er ute av bilen og bilen er sikra, fortel operasjonsleiar Ragnvald Knut Rasmussen i politiet. Bilbergar er straks på staden. Politiet fekk melding om…",
+        "source": {
+          "id": "nrk",
+          "name": "NRK"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:30:11.000Z",
+        "imageUrl": null,
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:30:11.000Z"
+    },
+    {
+      "id": "jas6V97rregK",
+      "representative": {
+        "id": "jas6V97rregK",
+        "url": "https://www.nettavisen.no/nyheter/politiet-vi-har-flere-hypoteser/s/30-95-23427",
+        "canonicalUrl": "https://www.nettavisen.no/nyheter/politiet-vi-har-flere-hypoteser/s/30-95-23427",
+        "title": "Politiet: – Vi har flere hypoteser",
+        "description": "Søndag morgen ble to menn skutt og drept i Halden. Politiet etterforsker flere spor.",
+        "source": {
+          "id": "nettavisen",
+          "name": "Nettavisen"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:29:47.000Z",
+        "imageUrl": "http://g.api.no/obscura/API/image/r1/cmx/tr_1920x1332_l_f/1791294175566/nettav/2026/10/06/c3c97af4-ff06-4159-bbfb-c2f1dee615db",
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:29:47.000Z"
     }
   ]
 }

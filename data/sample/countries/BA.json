@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "BA",
   "countryName": "Bosnia and Herzegovina",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
       "id": "D8ZDH3Yhi5SM",
@@ -190,48 +190,6 @@
       "latestPublishedAt": "2026-10-06T15:21:00.000Z"
     },
     {
-      "id": "tjBBP0Kr1Bb7",
-      "representative": {
-        "id": "tjBBP0Kr1Bb7",
-        "url": "https://n1info.ba/crna-hronika/samo-u-bih-pusku-poslao-brzom-postom-za-gorazde-opalila-u-paketu-i-ranila-postara/",
-        "canonicalUrl": "https://n1info.ba/crna-hronika/samo-u-bih-pusku-poslao-brzom-postom-za-gorazde-opalila-u-paketu-i-ranila-postara/",
-        "title": "Samo u BiH: Pušku poslao brzom poštom za Goražde, opalila u paketu i ranila poštara",
-        "description": "Dvadesettrogodišnji D.P. iz Trebinja optužen je nakon što je brzom poštom poslao vazdušnu pušku za Goražde, koja je tokom pretovara opalila i ranila r",
-        "source": {
-          "id": "n1_ba",
-          "name": "N1 BiH"
-        },
-        "sourceCountry": "BA",
-        "language": "bs",
-        "publishedAt": "2026-10-06T14:33:15.000Z",
-        "imageUrl": "https://n1info.ba/media/images/2025/8/1755856906_warehouse-9006780_1280.width-1200.jpg",
-        "countryCode": "BA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Lz1_0HYEIfbm",
-          "url": "https://www.fokus.ba/vijesti/crna-hronika/nevjerovatan-slucaj-u-bih-poslao-pusku-postom-ona-opalila-i-pogodila-radnika/3581911/",
-          "canonicalUrl": "https://www.fokus.ba/vijesti/crna-hronika/nevjerovatan-slucaj-u-bih-poslao-pusku-postom-ona-opalila-i-pogodila-radnika/3581911/",
-          "title": "Nevjerovatan slučaj u BiH: Poslao pušku poštom, ona opalila i pogodila radnika",
-          "description": "Protiv Trebinjca je podignuta optužnica nakon što je vazdušna puška poslana poštom opalila i pogodila radnika u Foči",
-          "source": {
-            "id": "fokus_ba",
-            "name": "Fokus.ba"
-          },
-          "sourceCountry": "BA",
-          "language": "bs",
-          "publishedAt": "2026-10-06T10:53:54.000Z",
-          "imageUrl": "https://cdn.fokus.ba/wp-content/uploads/2026/02/muprs.jpg",
-          "countryCode": "BA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:33:15.000Z"
-    },
-    {
       "id": "Yckr_pwsvCiC",
       "representative": {
         "id": "Yckr_pwsvCiC",
@@ -314,48 +272,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:49:00.000Z"
-    },
-    {
-      "id": "vwvunf8eUKTg",
-      "representative": {
-        "id": "vwvunf8eUKTg",
-        "url": "https://n1info.ba/vijesti/milan-mijic-oslobodjen-optuzbi-za-zlocine-na-podrucju-zvornika/",
-        "canonicalUrl": "https://n1info.ba/vijesti/milan-mijic-oslobodjen-optuzbi-za-zlocine-na-podrucju-zvornika/",
-        "title": "Milan Mijić oslobođen optužbi za zločine na području Zvornika",
-        "description": "Sud Bosne i Hercegovine izrekao je prvostepenu presudu kojom je Milan Mijić oslobođen optužbi za zločine u selu Jusići u maju 1992. na području Zvorni",
-        "source": {
-          "id": "n1_ba",
-          "name": "N1 BiH"
-        },
-        "sourceCountry": "BA",
-        "language": "bs",
-        "publishedAt": "2026-10-06T11:14:35.000Z",
-        "imageUrl": "https://n1info.ba/media/original_images/2026/8/31/1788173568_1642679076-sud-bih.format-avif.width-1200.avif",
-        "countryCode": "BA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "PKNiTQemCffQ",
-          "url": "https://www.fokus.ba/vijesti/bih/milan-mijic-oslobodjen-optuzbi-za-zlocine-protiv-covjecnosti/3581918/",
-          "canonicalUrl": "https://www.fokus.ba/vijesti/bih/milan-mijic-oslobodjen-optuzbi-za-zlocine-protiv-covjecnosti/3581918/",
-          "title": "Milan Mijić oslobođen optužbi za zločine protiv čovječnosti",
-          "description": "Sud BiH prvostepeno je oslobodio Milana Mijića optužbi za zločine protiv čovječnosti na području Zvornika 1992. godine",
-          "source": {
-            "id": "fokus_ba",
-            "name": "Fokus.ba"
-          },
-          "sourceCountry": "BA",
-          "language": "bs",
-          "publishedAt": "2026-10-06T11:47:15.000Z",
-          "imageUrl": "https://cdn.fokus.ba/wp-content/uploads/2024/11/sud-tuzilastvo-bih-1-1.jpg",
-          "countryCode": "BA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:47:15.000Z"
     },
     {
       "id": "8gHVJyN1PsG7",
@@ -524,6 +440,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:46:24.000Z"
+    },
+    {
+      "id": "DIy8NvKy0OTy",
+      "representative": {
+        "id": "DIy8NvKy0OTy",
+        "url": "https://avaz.ba/vijesti/bih/1078047/direktor-civilne-zastite-se-pocastio-automobilom-od-165-000-km",
+        "canonicalUrl": "https://avaz.ba/vijesti/bih/1078047/direktor-civilne-zastite-se-pocastio-automobilom-od-165-000-km",
+        "title": "Direktor Civilne zaštite se počastio automobilom od 165.000 KM",
+        "description": "Direktor Civilne zaštite se počastio automobilom od 165.000 KM - S obzirom na to da je ugovor zaključen 25. septembra, direktor se najvjerovatnije već vozi u novom automobilu",
+        "source": {
+          "id": "avaz",
+          "name": "Dnevni avaz"
+        },
+        "sourceCountry": "BA",
+        "language": "bs",
+        "publishedAt": "2026-10-06T15:45:46.000Z",
+        "imageUrl": "https://gale-s3-bucket.s3.eu-central-1.amazonaws.com/8b014a97-20b3-444c-8886-34c0c88f542a.jpeg",
+        "countryCode": "BA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:45:46.000Z"
+    },
+    {
+      "id": "pU4l1BWuzxMr",
+      "representative": {
+        "id": "pU4l1BWuzxMr",
+        "url": "https://www.klix.ba/sport/nogomet/bajraktarevic-se-s-novim-brojem-na-ledima-poigravao-s-poljacima-pogledajte-dribling-koji-je-odusevio-bh-navijace/261006148",
+        "canonicalUrl": "https://www.klix.ba/sport/nogomet/bajraktarevic-se-s-novim-brojem-na-ledima-poigravao-s-poljacima-pogledajte-dribling-koji-je-odusevio-bh-navijace/261006148",
+        "title": "Bajraktarević se s novim brojem na leđima poigravao s Poljacima, pogledajte dribling koji je oduševio bh. navijače",
+        "description": "Bosanskohercegovački nogometni reprezentativac Esmir Bajraktarević još jednom je oduševio bh. navijače.",
+        "source": {
+          "id": "klix",
+          "name": "Klix.ba"
+        },
+        "sourceCountry": "BA",
+        "language": "bs",
+        "publishedAt": "2026-10-06T15:42:00.000Z",
+        "imageUrl": "https://static.klix.ba/media/images/vijesti/img32_261006148.jpg",
+        "countryCode": "BA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:42:00.000Z"
     }
   ]
 }

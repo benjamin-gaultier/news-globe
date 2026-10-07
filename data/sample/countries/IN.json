@@ -2,101 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "IN",
   "countryName": "India",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "8eqCr04HRU1M",
-      "representative": {
-        "id": "8eqCr04HRU1M",
-        "url": "https://www.thehindu.com/news/national/indian-crew-attacked-in-mt-on-peace-vessel-attack-strait-of-hormuz/article71551158.ece",
-        "canonicalUrl": "https://www.thehindu.com/news/national/indian-crew-attacked-in-mt-on-peace-vessel-attack-strait-of-hormuz/article71551158.ece",
-        "title": "11 Indian crew injured after ship hit by projectile in Strait of Hormuz; India condemns attack",
-        "description": "Ministry of External Affairs said that 12 crew members, including 11 Indians, were injured after Panama-flagged vessel MT On Peace was hit by a projectile",
-        "source": {
-          "id": "thehindu",
-          "name": "The Hindu"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T11:23:32.000Z",
-        "imageUrl": null,
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Qdcg5MTCbKXm",
-          "url": "https://indianexpress.com/article/india/11-indians-injured-after-attack-on-ship-near-oman-mea-condemns-strike-10909226/",
-          "canonicalUrl": "https://indianexpress.com/article/india/11-indians-injured-after-attack-on-ship-near-oman-mea-condemns-strike-10909226/",
-          "title": "11 Indians injured after attack on ship near Oman, MEA condemns strike",
-          "description": null,
-          "source": {
-            "id": "indianexpress",
-            "name": "The Indian Express"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:46:50.000Z",
-          "imageUrl": "https://images.indianexpress.com/2026/10/hormuz-vessel.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        },
-        {
-          "id": "G1FEhTVGIG_j",
-          "url": "https://www.ndtv.com/india-news/11-indians-injured-after-panama-flagged-vessel-attacked-in-hormuz-centre-12145899#publisher=newsstand",
-          "canonicalUrl": "https://www.ndtv.com/india-news/11-indians-injured-after-panama-flagged-vessel-attacked-in-hormuz-centre-12145899",
-          "title": "11 Indians Injured After Panama-Flagged Vessel Attacked In Hormuz: Centre",
-          "description": "The vessel, MT On Peace, carried 19 crew members, including 17 Indian nationals. In total, 12 crew members -- 11 of them Indian -- sustained injuries in the strike, according to the Ministry of External Affairs.",
-          "source": {
-            "id": "ndtv",
-            "name": "NDTV"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:16:32.000Z",
-          "imageUrl": "https://c.ndtvimg.com/2026-05/3olir1c4_hormuz_625x300_11_May_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-          "countryCode": "IN",
-          "regionCode": null
-        },
-        {
-          "id": "8pXDpuL6gCJu",
-          "url": "https://www.hindustantimes.com/india-news/india-condemns-attack-on-panama-flagged-vessel-off-oman-coast-after-11-citizens-injured-101791284106852.html",
-          "canonicalUrl": "https://www.hindustantimes.com/india-news/india-condemns-attack-on-panama-flagged-vessel-off-oman-coast-after-11-citizens-injured-101791284106852.html",
-          "title": "India condemns attack on Panama-flagged vessel off Oman coast after 11 citizens injured",
-          "description": "Randhir Jaiswal said 12 crew members, including 11 Indians, were injured. He added that 17 of the vessel’s 19 crew members were Indian nationals.",
-          "source": {
-            "id": "hindustantimes",
-            "name": "Hindustan Times"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:01:20.000Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/jaiswal_1791284241006_S2d2_1791284241107_PqBe_40244bc9-3701-4ace-b533-d4ffd352c4fd_M1ND.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        },
-        {
-          "id": "4b8lrxu-CyrV",
-          "url": "https://timesofindia.indiatimes.com/india/attacks-must-end-mea-says-11-indian-crew-members-injured-in-hormuz-vessel-strike/articleshow/134737779.cms",
-          "canonicalUrl": "https://timesofindia.indiatimes.com/india/attacks-must-end-mea-says-11-indian-crew-members-injured-in-hormuz-vessel-strike/articleshow/134737779.cms",
-          "title": "'Attacks must end': MEA says 11 Indian crew members injured in Hormuz vessel strike",
-          "description": null,
-          "source": {
-            "id": "toi",
-            "name": "Times of India"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:45:53.000Z",
-          "imageUrl": "https://static.toiimg.com/photo/msid-134737808,imgsize-647469.cms",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 5,
-      "outletCount": 5,
-      "latestPublishedAt": "2026-10-06T12:46:50.000Z"
-    },
     {
       "id": "tEjf21-zYjpn",
       "representative": {
@@ -180,216 +87,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:39:52.000Z"
-    },
-    {
-      "id": "Y4e_mcqeVQ7w",
-      "representative": {
-        "id": "Y4e_mcqeVQ7w",
-        "url": "https://timesofindia.indiatimes.com/india/once-a-skunk-always-a-skunk-dmk-questions-rahul-gandhis-stand-on-tamil-nadu-sir-deletions-amid-anti-cec-protest/articleshow/134739393.cms",
-        "canonicalUrl": "https://timesofindia.indiatimes.com/india/once-a-skunk-always-a-skunk-dmk-questions-rahul-gandhis-stand-on-tamil-nadu-sir-deletions-amid-anti-cec-protest/articleshow/134739393.cms",
-        "title": "'Once a skunk, always a skunk': DMK questions Rahul Gandhi's stand on Tamil Nadu SIR deletions amid anti-CEC protest",
-        "description": null,
-        "source": {
-          "id": "toi",
-          "name": "Times of India"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:27:01.000Z",
-        "imageUrl": "https://static.toiimg.com/photo/msid-134740509,imgsize-65584.cms",
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "FWwZv1yQZfC_",
-          "url": "https://www.ndtv.com/india-news/what-about-sir-in-tamil-nadu-dmks-jibe-at-rahul-gandhi-amid-delhi-protest-12145872#publisher=newsstand",
-          "canonicalUrl": "https://www.ndtv.com/india-news/what-about-sir-in-tamil-nadu-dmks-jibe-at-rahul-gandhi-amid-delhi-protest-12145872",
-          "title": "What About SIR In Tamil Nadu: DMK's Jibe At Rahul Gandhi Amid Delhi Protest",
-          "description": "\"What is the stand of Rahul Gandhi with regard to the deletions through SIR in Tamil Nadu,\" DMK leader Saravanan Annadurai has questioned",
-          "source": {
-            "id": "ndtv",
-            "name": "NDTV"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:35:48.000Z",
-          "imageUrl": "https://c.ndtvimg.com/2026-10/ggv15mcc_rahul-gandhi-pgv_625x300_06_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:27:01.000Z"
-    },
-    {
-      "id": "7maRCEX37MCc",
-      "representative": {
-        "id": "7maRCEX37MCc",
-        "url": "https://timesofindia.indiatimes.com/india/mayawati-says-no-more-expulsions-for-nephew-akash-after-father-in-laws-political-sanyas/articleshow/134739995.cms",
-        "canonicalUrl": "https://timesofindia.indiatimes.com/india/mayawati-says-no-more-expulsions-for-nephew-akash-after-father-in-laws-political-sanyas/articleshow/134739995.cms",
-        "title": "Mayawati says no more expulsions for nephew Akash after father-in-law’s political ‘sanyas’",
-        "description": null,
-        "source": {
-          "id": "toi",
-          "name": "Times of India"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:08:25.000Z",
-        "imageUrl": "https://static.toiimg.com/photo/msid-134740009,imgsize-135540.cms",
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "7oe1OjCfmaNb",
-          "url": "https://www.hindustantimes.com/india-news/after-sanyas-of-his-father-in-law-no-more-need-to-separate-akash-anand-from-bsp-mayawati-101791284198156.html",
-          "canonicalUrl": "https://www.hindustantimes.com/india-news/after-sanyas-of-his-father-in-law-no-more-need-to-separate-akash-anand-from-bsp-mayawati-101791284198156.html",
-          "title": "After 'sanyas' of his father-in-law, no more need to separate Akash Anand from BSP: Mayawati",
-          "description": "After 'sanyas' of his father-in-law, no more need to separate Akash Anand from BSP: Mayawati",
-          "source": {
-            "id": "hindustantimes",
-            "name": "Hindustan Times"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:56:37.000Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/ht-generic_india1_1751287243850_1751287256749.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:08:25.000Z"
-    },
-    {
-      "id": "7XOsxjqlwVUN",
-      "representative": {
-        "id": "7XOsxjqlwVUN",
-        "url": "https://www.thehindu.com/news/national/cabinet-approves-proposal-to-set-up-integrated-transport-and-logistics-authority/article71551117.ece",
-        "canonicalUrl": "https://www.thehindu.com/news/national/cabinet-approves-proposal-to-set-up-integrated-transport-and-logistics-authority/article71551117.ece",
-        "title": "Cabinet approves proposal to set up Integrated Transport and Logistics Authority",
-        "description": "The ITLA will prepare a long-term Transport Plan covering roads, railways, ports, civil aviation and urban mobility, and evaluate government infrastructure projects worth ₹500 crore or more",
-        "source": {
-          "id": "thehindu",
-          "name": "The Hindu"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:01:45.000Z",
-        "imageUrl": "https://th-i.thgim.com/public/incoming/cbiykh/article71551137.ece/alternates/LANDSCAPE_1200/CANINET%20PC%20%2010.JPG",
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "_5giFclIbSYp",
-          "url": "https://www.hindustantimes.com/india-news/cabinet-approves-integrated-transport-logistics-authority-for-unified-road-rail-planning-101791285499542.html",
-          "canonicalUrl": "https://www.hindustantimes.com/india-news/cabinet-approves-integrated-transport-logistics-authority-for-unified-road-rail-planning-101791285499542.html",
-          "title": "Cabinet approves Integrated Transport Logistics Authority for unified road, rail planning",
-          "description": "ITLA will prepare 10-year-plus transport master plans, appraise projects worth ₹500 crore or more and integrate data across roads, railways, ports and aviation.",
-          "source": {
-            "id": "hindustantimes",
-            "name": "Hindustan Times"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:18:19.000Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/The-new-authority-will-coordinate-long-term-transp_1791285493289_fcDz.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:01:45.000Z"
-    },
-    {
-      "id": "KgrG9vlOXwiR",
-      "representative": {
-        "id": "KgrG9vlOXwiR",
-        "url": "https://timesofindia.indiatimes.com/india/abhijeet-dipke-claims-cjp-activists-receiving-police-notices-threatening-october-10-protest-could-turn-violent/articleshow/134727079.cms",
-        "canonicalUrl": "https://timesofindia.indiatimes.com/india/abhijeet-dipke-claims-cjp-activists-receiving-police-notices-threatening-october-10-protest-could-turn-violent/articleshow/134727079.cms",
-        "title": "Abhijeet Dipke claims CJP activists receiving police notices threatening October 10 protest 'could turn violent'",
-        "description": null,
-        "source": {
-          "id": "toi",
-          "name": "Times of India"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:53:50.000Z",
-        "imageUrl": "https://static.toiimg.com/photo/msid-134727166,imgsize-149266.cms",
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Vm6RtS5w62Z2",
-          "url": "https://scroll.in/latest/1096221/maharashtra-police-pressuring-cjp-volunteers-against-joining-october-10-delhi-protest-alleges-dipke?utm_source=rss&utm_medium=public",
-          "canonicalUrl": "https://scroll.in/latest/1096221/maharashtra-police-pressuring-cjp-volunteers-against-joining-october-10-delhi-protest-alleges-dipke",
-          "title": "Maharashtra Police pressuring CJP volunteers not to join October 10 Delhi protest, alleges Dipke",
-          "description": "Abhijeet Dipke shared a photo of the notice issued to a supporter, which asked why he wanted to join the agitation and who was funding his participation.",
-          "source": {
-            "id": "scroll",
-            "name": "Scroll.in"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:20:52.000Z",
-          "imageUrl": "https://sc0.blr1.cdn.digitaloceanspaces.com/article/214747-hemkavyqel-1785210615.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:20:52.000Z"
-    },
-    {
-      "id": "jmRdd1Pad0hq",
-      "representative": {
-        "id": "jmRdd1Pad0hq",
-        "url": "https://timesofindia.indiatimes.com/india/watch-rahul-gandhi-climbs-barricades-waves-tricolour-as-cops-stop-india-bloc-march-against-cec/articleshow/134726025.cms",
-        "canonicalUrl": "https://timesofindia.indiatimes.com/india/watch-rahul-gandhi-climbs-barricades-waves-tricolour-as-cops-stop-india-bloc-march-against-cec/articleshow/134726025.cms",
-        "title": "Watch: Rahul Gandhi climbs barricades, waves Tricolour as cops stop INDIA bloc march against CEC",
-        "description": null,
-        "source": {
-          "id": "toi",
-          "name": "Times of India"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:11:18.000Z",
-        "imageUrl": "https://static.toiimg.com/photo/msid-134726648,imgsize-110439.cms",
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Sf4XWjZXydP6",
-          "url": "https://www.hindustantimes.com/india-news/rahul-gandhi-climbs-police-barricades-waves-tricolour-during-opposition-india-bloc-march-to-eci-we-are-going-to-destroy-them-101791277773082.html",
-          "canonicalUrl": "https://www.hindustantimes.com/india-news/rahul-gandhi-climbs-police-barricades-waves-tricolour-during-opposition-india-bloc-march-to-eci-we-are-going-to-destroy-them-101791277773082.html",
-          "title": "Rahul Gandhi climbs barricades, waves Tricolour during Oppn march to ECI: 'We are going to destroy them'",
-          "description": "Rahul, along with Congress president Mallikarjun Kharge, party MP Priyanka Gandhi and other leaders, joined the march from the Parliament House complex.",
-          "source": {
-            "id": "hindustantimes",
-            "name": "Hindustan Times"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:14:44.000Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/MP-Protest-9_1791286566983_sRDn_1791286589498_ZtBu_c9b3f009-eb9c-4ab3-86ed-88d8d2b4f7a4_ZeMy.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:14:44.000Z"
     },
     {
       "id": "KsBvcveudfGM",
@@ -558,6 +255,150 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:01:22.000Z"
+    },
+    {
+      "id": "Gor-gX2w8Kjy",
+      "representative": {
+        "id": "Gor-gX2w8Kjy",
+        "url": "https://www.thehindu.com/news/national/kerala/rubber-board-set-to-launch-platform-to-tackle-tapper-shortage-in-keralam/article71551540.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/kerala/rubber-board-set-to-launch-platform-to-tackle-tapper-shortage-in-keralam/article71551540.ece",
+        "title": "Rubber Board set to launch platform to tackle tapper shortage in Keralam",
+        "description": "INR Konnect aims at ensuring the availability of skilled workers in plantations. Rubber Board has also launched special training programmes to encourage greater participation of women in rubber tapping .",
+        "source": {
+          "id": "thehindu",
+          "name": "The Hindu"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:00:53.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/m4gzuk/article71551673.ece/alternates/LANDSCAPE_1200/80687_12_4_2025_19_30_41_1_IMG_20250412_190023.JPG",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:53.000Z"
+    },
+    {
+      "id": "YmbMjwv2CHdn",
+      "representative": {
+        "id": "YmbMjwv2CHdn",
+        "url": "https://www.thehindu.com/news/national/arunachal-pradesh/anti-dam-protests-withdraw-forces-from-siang-belt-demands-arunachal-youth-body/article71551362.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/arunachal-pradesh/anti-dam-protests-withdraw-forces-from-siang-belt-demands-arunachal-youth-body/article71551362.ece",
+        "title": "Anti-dam protests: Withdraw forces from Siang belt, demands Arunachal youth body",
+        "description": "The youth body reacts to clashes between security personnel and people against the proposed Siang Upper Multipurpose Project, estimated to generate at least 11,000 MW of hydropower",
+        "source": {
+          "id": "thehindu",
+          "name": "The Hindu"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:57:55.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/o921c5/article71551596.ece/alternates/LANDSCAPE_1200/IMG_WhatsApp_Image_2025-_2_1_L2EEKIET.jpg",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:57:55.000Z"
+    },
+    {
+      "id": "iT8WHN0d02B3",
+      "representative": {
+        "id": "iT8WHN0d02B3",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/ysrcp-leader-accuses-government-of-misleading-bcs-over-34-quota/article71551318.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/andhra-pradesh/ysrcp-leader-accuses-government-of-misleading-bcs-over-34-quota/article71551318.ece",
+        "title": "YSRCP leader accuses government of misleading BCs over 34% quota",
+        "description": "Venugopala Krishna says a G.O. and celebrations cannot ensure legally valid reservation for BCs in local body elections",
+        "source": {
+          "id": "thehindu",
+          "name": "The Hindu"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:56:16.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/pxlox2/article71551650.ece/alternates/LANDSCAPE_1200/10215_24_11_2023_20_11_59_1_DSC_23621.JPG",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:56:16.000Z"
+    },
+    {
+      "id": "j_SrkFns-SDw",
+      "representative": {
+        "id": "j_SrkFns-SDw",
+        "url": "https://timesofindia.indiatimes.com/india/the-india-mood-confidence-in-the-country-anxiety-about-careers/articleshow/134740782.cms",
+        "canonicalUrl": "https://timesofindia.indiatimes.com/india/the-india-mood-confidence-in-the-country-anxiety-about-careers/articleshow/134740782.cms",
+        "title": "The India mood: Confidence in the country, anxiety about careers",
+        "description": "India leads in consumer confidence, yet respondents express significant worries about unemployment and education quality. Many Indians believe the country is on the right track, despite job market uncertainties. The disconnect between economic optimism and job security highlights ongoing issues…",
+        "source": {
+          "id": "toi",
+          "name": "Times of India"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:54:46.000Z",
+        "imageUrl": "https://static.toiimg.com/photo/msid-134741001,imgsize-2089738.cms",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:54:46.000Z"
+    },
+    {
+      "id": "8stt-0_-lcPD",
+      "representative": {
+        "id": "8stt-0_-lcPD",
+        "url": "https://www.thehindu.com/news/national/kerala//article71551456.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/kerala//article71551456.ece",
+        "title": "Three-member panel to probe woman’s death at Kottayam Medical College Hospital in Keralam",
+        "description": "The 49-year-old woman, a native of Changanassery, died on October 2 after her condition deteriorated following a hernia surgery at the hospital",
+        "source": {
+          "id": "thehindu",
+          "name": "The Hindu"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:54:43.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/w7iuci/article71551611.ece/alternates/LANDSCAPE_1200/IMG_IMG_iStock-156010016_2_1_95EKJ684.jpg",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:54:43.000Z"
+    },
+    {
+      "id": "YY01aLgap34w",
+      "representative": {
+        "id": "YY01aLgap34w",
+        "url": "https://www.hindustantimes.com/india-news/ht-evening-news-brief-october-6-rahul-gandhi-led-oppn-march-to-eci-nobel-prize-in-physics-and-more-101791289334427.html",
+        "canonicalUrl": "https://www.hindustantimes.com/india-news/ht-evening-news-brief-october-6-rahul-gandhi-led-oppn-march-to-eci-nobel-prize-in-physics-and-more-101791289334427.html",
+        "title": "HT evening news brief October 6: Rahul Gandhi-led Oppn march to ECI, Nobel Prize in Physics and more",
+        "description": "Rahul Gandhi led an Opposition march to the Election Commission as the row over CEC Gyanesh Kumar and the SIR exercise intensified.",
+        "source": {
+          "id": "hindustantimes",
+          "name": "Hindustan Times"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:53:34.000Z",
+        "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/MixCollage-06-Oct-2026-06-05-PM-3824_1791290267870_kzPc_1791290274544_KXew_e19886d0-9f56-4da9-9237-0c4335146fc1_gBIj.jpg",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:53:34.000Z"
     }
   ]
 }

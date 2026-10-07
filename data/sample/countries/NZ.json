@@ -2,109 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "NZ",
   "countryName": "New Zealand",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "qcHBlOJg__1_",
-      "representative": {
-        "id": "qcHBlOJg__1_",
-        "url": "https://www.1news.co.nz/2026/10/06/luxon-looking-forward-to-leaders-debate-hipkins-vows-hes-pm-in-waiting/",
-        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/luxon-looking-forward-to-leaders-debate-hipkins-vows-hes-pm-in-waiting/",
-        "title": "Luxon 'looking forward to' Leaders Debate, Hipkins vows he's PM-in-waiting",
-        "description": "The campaign’s biggest head-to-head arrives tonight, with Christopher Luxon and Chris Hipkins facing off in their only one-on-one debate.",
-        "source": {
-          "id": "1news",
-          "name": "1News"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-05T17:00:18.000Z",
-        "imageUrl": "https://www.1news.co.nz/resizer/v2/XBZYJU6K3ZCWLBA44SULP7MGSE.png?auth=fa86b7c80e29c7f78c1a3ddc189cf7103bed4731eb21428168adb51b32f2221a&smart=true&width=1024&height=576",
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "1VOu4fh1f4jn",
-          "url": "https://newsroom.co.nz/2026/10/06/hipkins-edges-luxon-on-relatability-in-first-2026-election-leaders-debate/",
-          "canonicalUrl": "https://newsroom.co.nz/2026/10/06/hipkins-edges-luxon-on-relatability-in-first-2026-election-leaders-debate/",
-          "title": "Hipkins edges Luxon on relatability in first 2026 election leaders’ debate",
-          "description": "Analysis: Christopher Luxon kept his foot well clear of his mouth and Chris Hipkins leashed his attack dog temptations, but neither excelled in the debate The post Hipkins edges Luxon on relatability in first 2026 election leaders’ debate appeared first on Newsroom .",
-          "source": {
-            "id": "newsroom_nz",
-            "name": "Newsroom"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T09:35:45.000Z",
-          "imageUrl": "https://i0.wp.com/newsroom.co.nz/wp-content/uploads/2026/10/chris-hipkins-christopher-luxon-tvnz-leaders-debate-election-2026-nz-scaled.jpg?fit=1024%2C683&amp;ssl=1",
-          "countryCode": "NZ",
-          "regionCode": null
-        },
-        {
-          "id": "5LiNVZAk9hwA",
-          "url": "https://www.nzherald.co.nz/nz/politics/election-2026-herald-experts-pick-which-chris-won-the-tvnz-leaders-debate/premium/Y76GEYLRXZDY5ECGS5SNLZU7QA/",
-          "canonicalUrl": "https://www.nzherald.co.nz/nz/politics/election-2026-herald-experts-pick-which-chris-won-the-tvnz-leaders-debate/premium/Y76GEYLRXZDY5ECGS5SNLZU7QA/",
-          "title": "Election 2026: Herald experts pick which Chris won the TVNZ Leaders’ Debate",
-          "description": "Christopher Luxon and Chris Hipkins went head-to-head in TVNZ's first Leaders' Debate.",
-          "source": {
-            "id": "nzherald",
-            "name": "NZ Herald"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T09:09:28.000Z",
-          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/7BDM7PVXVBEEDJ6EN57VF5PRWQ.JPG?auth=739aaa94c73e9f25af898664e9179d5964507ab6753b9eb4a28beb73ac0f6a1a&smart=true&width=1280&height=720",
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T09:35:45.000Z"
-    },
-    {
-      "id": "NO78IzpXlVmt",
-      "representative": {
-        "id": "NO78IzpXlVmt",
-        "url": "https://www.rnz.co.nz/news/emergencies_local/1758895/firefighters-battling-large-vegetation-fire-in-queenstown-stand-down-for-night",
-        "canonicalUrl": "https://www.rnz.co.nz/news/emergencies_local/1758895/firefighters-battling-large-vegetation-fire-in-queenstown-stand-down-for-night",
-        "title": "Firefighters battling large vegetation fire in Queenstown stand down for night",
-        "description": "The fire, which has been burning on steep slopes above the shores of Lake Wakatipu since Tuesday morning, is not yet contained or controlled.",
-        "source": {
-          "id": "rnz",
-          "name": "RNZ"
-        },
-        "sourceCountry": "NZ",
-        "language": "en",
-        "publishedAt": "2026-10-06T07:50:38.000Z",
-        "imageUrl": null,
-        "countryCode": "NZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "OcVliMQH2CAH",
-          "url": "https://www.stuff.co.nz/nz-news/361042958/helicopters-monsoon-buckets-tackle-queenstown-blaze",
-          "canonicalUrl": "https://www.stuff.co.nz/nz-news/361042958/helicopters-monsoon-buckets-tackle-queenstown-blaze",
-          "title": "Amazing images capture Queenstown vegetation fire as night falls",
-          "description": "A large vegetation fire has broken out on Walter Peak, on the shores of Lake Wakatipu near Queenstown.",
-          "source": {
-            "id": "stuff",
-            "name": "Stuff"
-          },
-          "sourceCountry": "NZ",
-          "language": "en",
-          "publishedAt": "2026-10-06T09:24:24.000Z",
-          "imageUrl": null,
-          "countryCode": "NZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:24:24.000Z"
-    },
     {
       "id": "i58GC4jUmQZB",
       "representative": {
@@ -173,7 +72,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T10:19:46.000Z"
     },
@@ -197,9 +96,110 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T09:59:55.000Z"
+    },
+    {
+      "id": "qcHBlOJg__1_",
+      "representative": {
+        "id": "qcHBlOJg__1_",
+        "url": "https://www.1news.co.nz/2026/10/06/luxon-looking-forward-to-leaders-debate-hipkins-vows-hes-pm-in-waiting/",
+        "canonicalUrl": "https://www.1news.co.nz/2026/10/06/luxon-looking-forward-to-leaders-debate-hipkins-vows-hes-pm-in-waiting/",
+        "title": "Luxon 'looking forward to' Leaders Debate, Hipkins vows he's PM-in-waiting",
+        "description": "The campaign’s biggest head-to-head arrives tonight, with Christopher Luxon and Chris Hipkins facing off in their only one-on-one debate.",
+        "source": {
+          "id": "1news",
+          "name": "1News"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-05T17:00:18.000Z",
+        "imageUrl": "https://www.1news.co.nz/resizer/v2/XBZYJU6K3ZCWLBA44SULP7MGSE.png?auth=fa86b7c80e29c7f78c1a3ddc189cf7103bed4731eb21428168adb51b32f2221a&smart=true&width=1024&height=576",
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "1VOu4fh1f4jn",
+          "url": "https://newsroom.co.nz/2026/10/06/hipkins-edges-luxon-on-relatability-in-first-2026-election-leaders-debate/",
+          "canonicalUrl": "https://newsroom.co.nz/2026/10/06/hipkins-edges-luxon-on-relatability-in-first-2026-election-leaders-debate/",
+          "title": "Hipkins edges Luxon on relatability in first 2026 election leaders’ debate",
+          "description": "Analysis: Christopher Luxon kept his foot well clear of his mouth and Chris Hipkins leashed his attack dog temptations, but neither excelled in the debate The post Hipkins edges Luxon on relatability in first 2026 election leaders’ debate appeared first on Newsroom .",
+          "source": {
+            "id": "newsroom_nz",
+            "name": "Newsroom"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:35:45.000Z",
+          "imageUrl": "https://i0.wp.com/newsroom.co.nz/wp-content/uploads/2026/10/chris-hipkins-christopher-luxon-tvnz-leaders-debate-election-2026-nz-scaled.jpg?fit=1024%2C683&amp;ssl=1",
+          "countryCode": "NZ",
+          "regionCode": null
+        },
+        {
+          "id": "5LiNVZAk9hwA",
+          "url": "https://www.nzherald.co.nz/nz/politics/election-2026-herald-experts-pick-which-chris-won-the-tvnz-leaders-debate/premium/Y76GEYLRXZDY5ECGS5SNLZU7QA/",
+          "canonicalUrl": "https://www.nzherald.co.nz/nz/politics/election-2026-herald-experts-pick-which-chris-won-the-tvnz-leaders-debate/premium/Y76GEYLRXZDY5ECGS5SNLZU7QA/",
+          "title": "Election 2026: Herald experts pick which Chris won the TVNZ Leaders’ Debate",
+          "description": "Christopher Luxon and Chris Hipkins went head-to-head in TVNZ's first Leaders' Debate.",
+          "source": {
+            "id": "nzherald",
+            "name": "NZ Herald"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:09:28.000Z",
+          "imageUrl": "https://www.nzherald.co.nz/resizer/v2/7BDM7PVXVBEEDJ6EN57VF5PRWQ.JPG?auth=739aaa94c73e9f25af898664e9179d5964507ab6753b9eb4a28beb73ac0f6a1a&smart=true&width=1280&height=720",
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T09:35:45.000Z"
+    },
+    {
+      "id": "NO78IzpXlVmt",
+      "representative": {
+        "id": "NO78IzpXlVmt",
+        "url": "https://www.rnz.co.nz/news/emergencies_local/1758895/firefighters-battling-large-vegetation-fire-in-queenstown-stand-down-for-night",
+        "canonicalUrl": "https://www.rnz.co.nz/news/emergencies_local/1758895/firefighters-battling-large-vegetation-fire-in-queenstown-stand-down-for-night",
+        "title": "Firefighters battling large vegetation fire in Queenstown stand down for night",
+        "description": "The fire, which has been burning on steep slopes above the shores of Lake Wakatipu since Tuesday morning, is not yet contained or controlled.",
+        "source": {
+          "id": "rnz",
+          "name": "RNZ"
+        },
+        "sourceCountry": "NZ",
+        "language": "en",
+        "publishedAt": "2026-10-06T07:50:38.000Z",
+        "imageUrl": null,
+        "countryCode": "NZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "OcVliMQH2CAH",
+          "url": "https://www.stuff.co.nz/nz-news/361042958/helicopters-monsoon-buckets-tackle-queenstown-blaze",
+          "canonicalUrl": "https://www.stuff.co.nz/nz-news/361042958/helicopters-monsoon-buckets-tackle-queenstown-blaze",
+          "title": "Amazing images capture Queenstown vegetation fire as night falls",
+          "description": "A large vegetation fire has broken out on Walter Peak, on the shores of Lake Wakatipu near Queenstown.",
+          "source": {
+            "id": "stuff",
+            "name": "Stuff"
+          },
+          "sourceCountry": "NZ",
+          "language": "en",
+          "publishedAt": "2026-10-06T09:24:24.000Z",
+          "imageUrl": null,
+          "countryCode": "NZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T09:24:24.000Z"
     },
     {
       "id": "2KFbQADkXTlU",
@@ -221,7 +221,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T08:28:01.000Z"
     },
@@ -245,7 +245,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T08:25:03.000Z"
     },

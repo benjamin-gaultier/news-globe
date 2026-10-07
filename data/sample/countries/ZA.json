@@ -2,126 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "ZA",
   "countryName": "South Africa",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
-    {
-      "id": "cZ1xD6E6HQ2B",
-      "representative": {
-        "id": "cZ1xD6E6HQ2B",
-        "url": "https://www.sabcnews.com/sabcnews/khans-in-camera-appearance-at-madlanga-commission-postponed/",
-        "canonicalUrl": "https://www.sabcnews.com/sabcnews/khans-in-camera-appearance-at-madlanga-commission-postponed/",
-        "title": "Khan’s in camera appearance at Madlanga Commission postponed",
-        "description": "He was also expected to face questions about his finances and property.",
-        "source": {
-          "id": "sabc",
-          "name": "SABC News"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:00:11.000Z",
-        "imageUrl": null,
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ZkfpgJQ_f7Dz",
-          "url": "https://www.dailymaverick.co.za/article/2026-10-06-feroz-khans-commission-testimony-postponed-after-uncle-murdered/",
-          "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-feroz-khans-commission-testimony-postponed-after-uncle-murdered/",
-          "title": "MADLANGA COMMISSION: Feroz Khan’s commission testimony postponed after uncle murdered",
-          "description": "Just before then Crime Intelligence deputy Feroz Khan was meant to testify before the Madlanga Commission of Inquiry earlier this year, he was wounded in a shooting. Now, Khan’s uncle has been killed on the eve of Khan’s anticipated testimony, which, as a result, has again been postponed.",
-          "source": {
-            "id": "dailymaverick",
-            "name": "Daily Maverick"
-          },
-          "sourceCountry": "ZA",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:58:02.000Z",
-          "imageUrl": "https://cdn.dailymaverick.co.za/i/-R6PQEyS-Wh0EcfSIUKaG232JO4=/800x0/smart/filters:strip_exif()/file/attachments/orphans/khan-uncle-caryn1_794911.jpg",
-          "countryCode": "ZA",
-          "regionCode": null
-        },
-        {
-          "id": "vkORrftOAK6U",
-          "url": "https://www.enca.com/news-top-stories/update-feroz-khan-camera-testimony-postponed",
-          "canonicalUrl": "https://www.enca.com/news-top-stories/update-feroz-khan-camera-testimony-postponed",
-          "title": "UPDATE: Feroz Khan in-camera testimony postponed",
-          "description": "UPDATE: Feroz Khan in-camera testimony postponed Nokuthula Khanyile Tue, 10/06/2026 - 12:10 PRETORIA - The testimony of disgraced former Crime Intelligence boss Feroz Khan before the Madlanga Commission has been postponed. Khan was expected to begin his testimony remotely on Tuesday, but…",
-          "source": {
-            "id": "enca",
-            "name": "eNCA"
-          },
-          "sourceCountry": "ZA",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:10:00.000Z",
-          "imageUrl": "https://www.enca.com/sites/default/files/styles/banner_image/public/2026-09/ED_608569.jpg.webp?itok=SKvgUt5z",
-          "countryCode": "ZA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T11:58:02.000Z"
-    },
-    {
-      "id": "NOhrEZ40QtJ7",
-      "representative": {
-        "id": "NOhrEZ40QtJ7",
-        "url": "https://www.sabcnews.com/sabcnews/accused-1-2-in-reiger-park-mass-shooting-denied-bail/",
-        "canonicalUrl": "https://www.sabcnews.com/sabcnews/accused-1-2-in-reiger-park-mass-shooting-denied-bail/",
-        "title": "Bail denied for two main suspects in Reiger Park murder case",
-        "description": "Four people are accused of killing two women and two anti-gang unit officers in August.",
-        "source": {
-          "id": "sabc",
-          "name": "SABC News"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:39:57.000Z",
-        "imageUrl": null,
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "6z0d2xi6yA19",
-          "url": "https://www.timeslive.co.za/news/south-africa/2026-10-06-two-denied-bail-two-granted-r5000-bail-in-reiger-park-killings/",
-          "canonicalUrl": "https://www.timeslive.co.za/news/south-africa/2026-10-06-two-denied-bail-two-granted-r5000-bail-in-reiger-park-killings/",
-          "title": "Two denied bail, two granted R5,000 bail in Reiger Park killings",
-          "description": "Two of the four men accused of killing two anti-gang unit police officers and two women in Reiger Park have been denied bail",
-          "source": {
-            "id": "timeslive",
-            "name": "TimesLIVE"
-          },
-          "sourceCountry": "ZA",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:04:05.000Z",
-          "imageUrl": "https://www.timeslive.co.za/resizer/v2/ZNW4RDBG7NDNZF5NJUFLSKSORE.jpg?auth=f38b231dd6a4eea05539eb36c93850a16f5a4c96532c836eb0a1834c0ea66ae0&smart=true&width=1200&height=800",
-          "countryCode": "ZA",
-          "regionCode": null
-        },
-        {
-          "id": "gV6kmQTz9zGk",
-          "url": "https://www.enca.com/news-top-stories-videos/update-two-four-accused-reiger-park-shooting-denied-bail",
-          "canonicalUrl": "https://www.enca.com/news-top-stories-videos/update-two-four-accused-reiger-park-shooting-denied-bail",
-          "title": "UPDATE: Two of four accused in Reiger Park shooting denied bail",
-          "description": "UPDATE: Two of four accused in Reiger Park shooting denied bail Nokuthula Khanyile Tue, 10/06/2026 - 12:25 JOHANNESBURG - Two of the four accused in the killing of four people in Reiger Park, including two Anti-Gang Unit officers, have been denied bail. Regan Collis and his co-accused, Jamal…",
-          "source": {
-            "id": "enca",
-            "name": "eNCA"
-          },
-          "sourceCountry": "ZA",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:25:00.000Z",
-          "imageUrl": "https://www.enca.com/sites/default/files/styles/banner_image/public/2026-08/WhatsApp%20Image%202026-08-25%20at%2021.16.07.jpeg.webp?itok=lqgz-Tpn",
-          "countryCode": "ZA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T11:04:05.000Z"
-    },
     {
       "id": "P6J3-WEi7ijs",
       "representative": {
@@ -163,132 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:17:00.000Z"
-    },
-    {
-      "id": "HZWya0RcD3hS",
-      "representative": {
-        "id": "HZWya0RcD3hS",
-        "url": "https://www.timeslive.co.za/news/africa/2026-10-06-kenya-confirms-first-ebola-case-man-dies-after-returning-from-drc/",
-        "canonicalUrl": "https://www.timeslive.co.za/news/africa/2026-10-06-kenya-confirms-first-ebola-case-man-dies-after-returning-from-drc/",
-        "title": "Kenya confirms first Ebola case: man dies after returning from DRC",
-        "description": "Kenya has recorded its first confirmed Ebola case, a Kenyan citizen who had been living in the Democratic Republic of the Congo who arrived in Nairobi on Saturday, health minister Aden Duale said",
-        "source": {
-          "id": "timeslive",
-          "name": "TimesLIVE"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:16:37.000Z",
-        "imageUrl": "https://www.timeslive.co.za/resizer/v2/UHU2W5OSKRFJLBW5TETVOH25FY.JPG?auth=6b8c5b0e920c128c2b9c6393016e9c2c887519301b158231cd5eb0dcacea0963&smart=true&width=1200&height=800",
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "PyWt05RkTBLy",
-          "url": "https://www.dailymaverick.co.za/article/2026-10-06-kenya-confirms-first-ebola-case-imported-from-congo/",
-          "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-kenya-confirms-first-ebola-case-imported-from-congo/",
-          "title": "Kenya confirms first Ebola case imported from Congo",
-          "description": "Kenya confirmed its first Ebola case on Tuesday after a Kenyan citizen who had travelled from the Democratic Republic of Congo died in Nairobi.",
-          "source": {
-            "id": "dailymaverick",
-            "name": "Daily Maverick"
-          },
-          "sourceCountry": "ZA",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:45:17.000Z",
-          "imageUrl": "https://cdn.dailymaverick.co.za/i/erU-7FFQKu0aGlToOR39LPgNOa0=/800x0/smart/filters:strip_exif()/file/attachments/2998/14196769_299357.jpg",
-          "countryCode": "ZA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:45:17.000Z"
-    },
-    {
-      "id": "JGTHxuSFe48L",
-      "representative": {
-        "id": "JGTHxuSFe48L",
-        "url": "https://www.sabcnews.com/sabcnews/mbeki-zuma-to-appear-before-trc-cases-inquiry-soon/",
-        "canonicalUrl": "https://www.sabcnews.com/sabcnews/mbeki-zuma-to-appear-before-trc-cases-inquiry-soon/",
-        "title": "Mbeki, Zuma to appear before TRC Cases Inquiry soon",
-        "description": "The TRC cases inquiry is probing claims of delays on the prosecution of apartheid-era crimes.",
-        "source": {
-          "id": "sabc",
-          "name": "SABC News"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T10:51:58.000Z",
-        "imageUrl": null,
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Gz1v_G6TF9-Q",
-          "url": "https://www.enca.com/news-top-stories/mbeki-zuma-testify-trc-cases-inquiry",
-          "canonicalUrl": "https://www.enca.com/news-top-stories/mbeki-zuma-testify-trc-cases-inquiry",
-          "title": "Mbeki, Zuma to testify before TRC cases inquiry",
-          "description": "Mbeki, Zuma to testify before TRC cases inquiry Vusi.Bafetane Tue, 10/06/2026 - 14:30 JOHANNESBURG - Former presidents Thabo Mbeki and Jacob Zuma are set to testify before the TRC cases inquiry after all. Mbeki will appear before Justice Sisi Khampepe on 19 and 20 October, while his successor Zuma…",
-          "source": {
-            "id": "enca",
-            "name": "eNCA"
-          },
-          "sourceCountry": "ZA",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:30:46.000Z",
-          "imageUrl": "https://www.enca.com/sites/default/files/styles/banner_image/public/2026-08/000075142.jpg.webp?itok=T6fcCZUb",
-          "countryCode": "ZA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:30:46.000Z"
-    },
-    {
-      "id": "apqZW5-978fe",
-      "representative": {
-        "id": "apqZW5-978fe",
-        "url": "https://www.sabcnews.com/sabcnews/former-eskom-spokesperson-khulu-phasiwe-has-passed-away/",
-        "canonicalUrl": "https://www.sabcnews.com/sabcnews/former-eskom-spokesperson-khulu-phasiwe-has-passed-away/",
-        "title": "Former Eskom spokesperson Khulu Phasiwe has passed away",
-        "description": "Former Eskom spokesperson Khulu Phasiwe passed away after suffering a seizure.",
-        "source": {
-          "id": "sabc",
-          "name": "SABC News"
-        },
-        "sourceCountry": "ZA",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:49:17.000Z",
-        "imageUrl": null,
-        "countryCode": "ZA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "tekmxm1ssXLU",
-          "url": "https://www.timeslive.co.za/news/south-africa/2026-10-06-former-eskom-spokesperson-khulu-phasiwe-dies/",
-          "canonicalUrl": "https://www.timeslive.co.za/news/south-africa/2026-10-06-former-eskom-spokesperson-khulu-phasiwe-dies/",
-          "title": "Former Eskom spokesperson Khulu Phasiwe dies",
-          "description": "AMCF pays tribute to Khulu Phasiwe’s impact on African media",
-          "source": {
-            "id": "timeslive",
-            "name": "TimesLIVE"
-          },
-          "sourceCountry": "ZA",
-          "language": "en",
-          "publishedAt": "2026-10-06T08:18:32.000Z",
-          "imageUrl": "https://www.timeslive.co.za/resizer/v2/XB7Z24CH2BOEDDRAMO3ICLTCL4.jpg?auth=77c9bd43d10c9147f931fa5c6aa306498000489b30615711e802c7200ebde0c4&smart=true&width=1200&height=800",
-          "countryCode": "ZA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:49:17.000Z"
     },
     {
       "id": "VXA51BbNWudE",
@@ -505,6 +261,162 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:45:26.000Z"
+    },
+    {
+      "id": "HZWya0RcD3hS",
+      "representative": {
+        "id": "HZWya0RcD3hS",
+        "url": "https://www.timeslive.co.za/news/africa/2026-10-06-kenya-confirms-first-ebola-case-man-dies-after-returning-from-drc/",
+        "canonicalUrl": "https://www.timeslive.co.za/news/africa/2026-10-06-kenya-confirms-first-ebola-case-man-dies-after-returning-from-drc/",
+        "title": "Kenya confirms first Ebola case: man dies after returning from DRC",
+        "description": "Kenya has recorded its first confirmed Ebola case, a Kenyan citizen who had been living in the Democratic Republic of the Congo who arrived in Nairobi on Saturday, health minister Aden Duale said",
+        "source": {
+          "id": "timeslive",
+          "name": "TimesLIVE"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T09:16:37.000Z",
+        "imageUrl": "https://www.timeslive.co.za/resizer/v2/UHU2W5OSKRFJLBW5TETVOH25FY.JPG?auth=6b8c5b0e920c128c2b9c6393016e9c2c887519301b158231cd5eb0dcacea0963&smart=true&width=1200&height=800",
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "PyWt05RkTBLy",
+          "url": "https://www.dailymaverick.co.za/article/2026-10-06-kenya-confirms-first-ebola-case-imported-from-congo/",
+          "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-kenya-confirms-first-ebola-case-imported-from-congo/",
+          "title": "Kenya confirms first Ebola case imported from Congo",
+          "description": "Kenya confirmed its first Ebola case on Tuesday after a Kenyan citizen who had travelled from the Democratic Republic of Congo died in Nairobi.",
+          "source": {
+            "id": "dailymaverick",
+            "name": "Daily Maverick"
+          },
+          "sourceCountry": "ZA",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:45:17.000Z",
+          "imageUrl": "https://cdn.dailymaverick.co.za/i/erU-7FFQKu0aGlToOR39LPgNOa0=/800x0/smart/filters:strip_exif()/file/attachments/2998/14196769_299357.jpg",
+          "countryCode": "ZA",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:45:17.000Z"
+    },
+    {
+      "id": "R8rBv-ieknX4",
+      "representative": {
+        "id": "R8rBv-ieknX4",
+        "url": "https://www.dailymaverick.co.za/article/2026-10-06-kremlin-warns-lithuania-that-its-move-to-lift-a-nuclear-arms-ban-risks-further-escalation/",
+        "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-kremlin-warns-lithuania-that-its-move-to-lift-a-nuclear-arms-ban-risks-further-escalation/",
+        "title": "Kremlin warns Lithuania that its move to lift a nuclear arms ban risks further escalation",
+        "description": "The Kremlin on Tuesday warned that a preliminary decision by NATO member Lithuania to lift a constitutional ban on hosting nuclear arms on its territory could lead to a new round of escalation in the region.",
+        "source": {
+          "id": "dailymaverick",
+          "name": "Daily Maverick"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:45:08.000Z",
+        "imageUrl": "https://cdn.dailymaverick.co.za/i/HLa57mFp8IpI0Qotdo3fnr0SE4g=/800x0/smart/filters:strip_exif()/file/attachments/2998/14247754_968968.jpg",
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:45:08.000Z"
+    },
+    {
+      "id": "lEtHFC5bZR8A",
+      "representative": {
+        "id": "lEtHFC5bZR8A",
+        "url": "https://www.dailymaverick.co.za/article/2026-10-06-former-german-spy-chief-arrested-over-alleged-buying-of-classified-information/",
+        "canonicalUrl": "https://www.dailymaverick.co.za/article/2026-10-06-former-german-spy-chief-arrested-over-alleged-buying-of-classified-information/",
+        "title": "Former German spy chief arrested over alleged buying of classified information",
+        "description": "Former German foreign intelligence chief August Hanning was arrested on Tuesday on suspicion of paying for access to classified documents and using them to prepare an analysis for a foreign intelligence service, federal prosecutors said.",
+        "source": {
+          "id": "dailymaverick",
+          "name": "Daily Maverick"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:44:58.000Z",
+        "imageUrl": "https://cdn.dailymaverick.co.za/i/TIVbSiS3AsycpkueabGVEpDYYzg=/800x0/smart/filters:strip_exif()/file/attachments/2998/14341715_830355.jpg",
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:44:58.000Z"
+    },
+    {
+      "id": "zrb7ozcx8spO",
+      "representative": {
+        "id": "zrb7ozcx8spO",
+        "url": "https://www.timeslive.co.za/news/world/2026-10-06-spain-approves-housing-decrees-that-sparked-snap-election/",
+        "canonicalUrl": "https://www.timeslive.co.za/news/world/2026-10-06-spain-approves-housing-decrees-that-sparked-snap-election/",
+        "title": "Spain approves housing decrees that sparked snap election",
+        "description": "Public broadly in favour of intervention in the property market, says prime minister",
+        "source": {
+          "id": "timeslive",
+          "name": "TimesLIVE"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:38:37.000Z",
+        "imageUrl": "https://www.timeslive.co.za/resizer/v2/VJNNPE227FEZ7EJVPUCGCEU2BI.JPG?auth=fd487cb2ca575daafc1c48f259f52e4c4ee3e1bbb3f5eb49ca1e2905b78bf425&smart=true&width=1200&height=800",
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:38:37.000Z"
+    },
+    {
+      "id": "JGTHxuSFe48L",
+      "representative": {
+        "id": "JGTHxuSFe48L",
+        "url": "https://www.sabcnews.com/sabcnews/mbeki-zuma-to-appear-before-trc-cases-inquiry-soon/",
+        "canonicalUrl": "https://www.sabcnews.com/sabcnews/mbeki-zuma-to-appear-before-trc-cases-inquiry-soon/",
+        "title": "Mbeki, Zuma to appear before TRC Cases Inquiry soon",
+        "description": "The TRC cases inquiry is probing claims of delays on the prosecution of apartheid-era crimes.",
+        "source": {
+          "id": "sabc",
+          "name": "SABC News"
+        },
+        "sourceCountry": "ZA",
+        "language": "en",
+        "publishedAt": "2026-10-06T10:51:58.000Z",
+        "imageUrl": null,
+        "countryCode": "ZA",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "Gz1v_G6TF9-Q",
+          "url": "https://www.enca.com/news-top-stories/mbeki-zuma-testify-trc-cases-inquiry",
+          "canonicalUrl": "https://www.enca.com/news-top-stories/mbeki-zuma-testify-trc-cases-inquiry",
+          "title": "Mbeki, Zuma to testify before TRC cases inquiry",
+          "description": "Mbeki, Zuma to testify before TRC cases inquiry Vusi.Bafetane Tue, 10/06/2026 - 14:30 JOHANNESBURG - Former presidents Thabo Mbeki and Jacob Zuma are set to testify before the TRC cases inquiry after all. Mbeki will appear before Justice Sisi Khampepe on 19 and 20 October, while his successor Zuma…",
+          "source": {
+            "id": "enca",
+            "name": "eNCA"
+          },
+          "sourceCountry": "ZA",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:30:46.000Z",
+          "imageUrl": "https://www.enca.com/sites/default/files/styles/banner_image/public/2026-08/000075142.jpg.webp?itok=T6fcCZUb",
+          "countryCode": "ZA",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:30:46.000Z"
     }
   ]
 }

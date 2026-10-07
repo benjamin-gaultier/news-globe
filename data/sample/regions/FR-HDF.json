@@ -4,49 +4,103 @@
   "countryName": "France",
   "regionCode": "FR-HDF",
   "regionName": "Hauts-de-France",
-  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "updatedAt": "2026-10-07T11:57:59.426Z",
   "clusters": [
     {
-      "id": "A17nDv4y6C0-",
+      "id": "G0OxjlcH9ITE",
       "representative": {
-        "id": "A17nDv4y6C0-",
-        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/calais/plage-preferee-des-francais-calais-et-de-berck-sur-mer-se-departagent-en-finale-c-est-le-grand-jour-pour-voter-3428646.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/calais/plage-preferee-des-francais-calais-et-de-berck-sur-mer-se-departagent-en-finale-c-est-le-grand-jour-pour-voter-3428646.html",
-        "title": "\"Plage préférée des Français\" : Calais et Berck-sur-Mer se départagent en finale, c'est le grand jour pour voter",
-        "description": "Pendant 24 heures, à compter de ce mardi 6 octobre à 10h, l'association Surfrider France propose de voter pour la plage préférée des Français. Deux plages de la Côte d'opale sont en finale. Celle de Calais et celle de Berck-sur-Mer.",
+        "id": "G0OxjlcH9ITE",
+        "url": "https://www.ici.fr/hauts-de-france/somme-80/amiens/le-zoo-d-amiens-celebre-la-naissance-de-quatre-gazelles-6979745?at_medium=lien_RSS&at_locale=44",
+        "canonicalUrl": "https://www.ici.fr/hauts-de-france/somme-80/amiens/le-zoo-d-amiens-celebre-la-naissance-de-quatre-gazelles-6979745",
+        "title": "Le Zoo d'Amiens célèbre la naissance de quatre gazelles",
+        "description": "C'est une première sur le territoire français. Le Zoo d'Amiens Métropole célèbre la naissance en captivité de quatre gazelles dorcas, une espèce originaire d'Afrique du Nord et du Sahel considérée aujourd'hui comme vulnérable.",
         "source": {
-          "id": "france3_hdf",
-          "name": "France 3 Hauts-de-France"
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T13:05:52.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/ffupcf14wwWkIzr_H1MtTSQ-CAQ/930x620/filters:format(webp)/regions/2026/10/06/6ac4b9bf2c806888333454.png",
+        "publishedAt": "2026-10-07T10:38:17.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/ad7a1446-4bd8-48e9-94ba-727b625ce25d/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-HDF"
       },
-      "related": [
-        {
-          "id": "zV853oIe2nnC",
-          "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonjour-lille/video-berck-et-calais-quelle-sera-la-plage-preferee-des-francais_VN-202610060334.html",
-          "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonjour-lille/video-berck-et-calais-quelle-sera-la-plage-preferee-des-francais_VN-202610060334.html",
-          "title": "Berck et Calais, quelle sera la plage préférée des français ?",
-          "description": "Berck et Calais, quelle sera la plage préférée des français ? Place à la finale 100% Pas-de-Calais organisé par l’ONG Surfrider Foundation. Vous pouvez voter jusqu'à demain.",
-          "source": {
-            "id": "bfm_lille",
-            "name": "BFM Grand Lille"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T08:03:30.000Z",
-          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/A8MZs9FOyGbKdjZ6FM23uhkbULQ=/0x0:1280x720/800x0/images/Berck-et-Calais-quelle-sera-la-plage-preferee-des-francais-2360092.jpg",
-          "countryCode": "FR",
-          "regionCode": "FR-HDF"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:05:52.000Z"
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:38:17.000Z"
+    },
+    {
+      "id": "RsPwVpl68SrE",
+      "representative": {
+        "id": "RsPwVpl68SrE",
+        "url": "https://www.ici.fr/hauts-de-france/somme-80/villers-bretonneux/une-fuite-de-gaz-entraine-l-evacuation-de-44-enfants-accueillis-a-l-ecole-saint-exupery-de-villers-bretonneux-7157646?at_medium=lien_RSS&at_locale=44",
+        "canonicalUrl": "https://www.ici.fr/hauts-de-france/somme-80/villers-bretonneux/une-fuite-de-gaz-entraine-l-evacuation-de-44-enfants-accueillis-a-l-ecole-saint-exupery-de-villers-bretonneux-7157646",
+        "title": "Une fuite de gaz entraine l'évacuation de 44 enfants accueillis à l'école Saint-Exupéry de Villers-Bretonneux",
+        "description": "17 pompiers sont mobilisés ce mercredi en fin de matinée à Villers-Bretonneux, après une fuite de gaz au niveau de l'école Saint-Exupéry. Des enfants ont été évacués au marché couvert.",
+        "source": {
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T09:56:42.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/ea6e6a86-8267-49fd-bcab-afdcdebdd21b/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:56:42.000Z"
+    },
+    {
+      "id": "flmByCd4zF6t",
+      "representative": {
+        "id": "flmByCd4zF6t",
+        "url": "https://www.ici.fr/hauts-de-france/somme-80/amiens/blocage-des-lycees-la-mobilisation-repart-a-amiens-pour-le-sixieme-jour-de-suite-malgre-l-appel-a-retourner-en-classe-4038028?at_medium=lien_RSS&at_locale=44",
+        "canonicalUrl": "https://www.ici.fr/hauts-de-france/somme-80/amiens/blocage-des-lycees-la-mobilisation-repart-a-amiens-pour-le-sixieme-jour-de-suite-malgre-l-appel-a-retourner-en-classe-4038028",
+        "title": "Blocage des lycées : la mobilisation repart à Amiens pour le sixième jour de suite malgré l'appel à retourner en classe",
+        "description": "Malgré les appels à retourner en classe et le retour des cours ce 7 octobre dans tous les lycées de l'académie d'Amiens, le mouvement de colère lycéenne a repris à Amiens (Somme) avec des actions dans les cités scolaires sud et nord de la ville.",
+        "source": {
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T08:44:05.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/73bac9b7-ac4d-4b88-8280-0a83c565fc09/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T08:44:05.000Z"
+    },
+    {
+      "id": "PXIJ5S_icrsM",
+      "representative": {
+        "id": "PXIJ5S_icrsM",
+        "url": "https://www.ici.fr/hauts-de-france/pas-de-calais-62/lens/blocage-des-lycees-le-ministre-de-l-interieur-suspend-l-usage-des-grenades-assourdissantes-5157400?at_medium=lien_RSS&at_locale=36",
+        "canonicalUrl": "https://www.ici.fr/hauts-de-france/pas-de-calais-62/lens/blocage-des-lycees-le-ministre-de-l-interieur-suspend-l-usage-des-grenades-assourdissantes-5157400",
+        "title": "Blocage des lycées : le ministre de l'Intérieur suspend l'usage des grenades assourdissantes",
+        "description": "Le ministre de l’Intérieur, Laurent Nuñez, a annoncé ce mercredi sur RTL la suspension de l’usage des grenades assourdissantes lors des manifestations lycéennes, après qu’un lycéen de Lens a eu la main gauche arrachée lundi.",
+        "source": {
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T07:57:54.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/53789fd6-ce8e-4542-b3a0-446bdf63895d/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T07:57:54.000Z"
     },
     {
       "id": "vLuTEzQYt3fD",
@@ -121,6 +175,30 @@
       "latestPublishedAt": "2026-10-07T06:02:26.000Z"
     },
     {
+      "id": "7nvXMd2A4QOL",
+      "representative": {
+        "id": "7nvXMd2A4QOL",
+        "url": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-picardie/nicolas-brusadelli-maitre-de-conferences-en-sciences-de-l-education-a-l-upjv-8924745?at_medium=lien_RSS&at_locale=44",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-picardie/nicolas-brusadelli-maitre-de-conferences-en-sciences-de-l-education-a-l-upjv-8924745",
+        "title": "Mobilisation lycéenne : \"Des ados qui n'ont connu que la baisse des moyens depuis le collège\" rappelle un prof de l'UPJV",
+        "description": "Ce mercredi signe-t-il le retour au calme après cinq jours de mobilisation lycéenne ? Les cours reprennent dans tous les lycées de l'académie d'Amiens ce 7 octobre, mais la colère n'est pas retombée. Le regard sur ICI Picardie d'un enseignant en sciences de l'éducation à la fac d'Amiens.",
+        "source": {
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:47:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/8a13dd1f-d7e4-41ad-b05e-c4eae5e075db/920x517?webp=false",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:47:00.000Z"
+    },
+    {
       "id": "ksBMHHTG99-E",
       "representative": {
         "id": "ksBMHHTG99-E",
@@ -145,244 +223,148 @@
       "latestPublishedAt": "2026-10-07T05:45:25.000Z"
     },
     {
-      "id": "WTPXdK9isnaF",
+      "id": "Lu3Ka-zcvw-U",
       "representative": {
-        "id": "WTPXdK9isnaF",
-        "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-l-actu-du-6-octobre-2026_VN-202610060895.html",
-        "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-l-actu-du-6-octobre-2026_VN-202610060895.html",
-        "title": "L'actu du 6 octobre 2026",
-        "description": "Ce 6 octobre 2026, Noor Oulladi revient en détails sur les temps forts de la journée avec chroniques, invités et journalistes sur le terrain.",
+        "id": "Lu3Ka-zcvw-U",
+        "url": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-nord/blocage-des-lycees-cette-jeunesse-a-besoin-d-ecoute-estime-la-rectrice-sophie-bejean-6874349?at_medium=lien_RSS&at_locale=36",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-invite-d-ici-matin-ici-nord/blocage-des-lycees-cette-jeunesse-a-besoin-d-ecoute-estime-la-rectrice-sophie-bejean-6874349",
+        "title": "Blocage des lycées : \"Cette jeunesse a besoin d'écoute\", estime la rectrice Sophie Béjean",
+        "description": "Après dix jours de manifestations, comment l'Éducation nationale va-t-elle répondre aux revendications des lycéens ? La rectrice de l'académie de Lille, Sophie Béjean, répond ce mercredi aux questions d'ICI Nord.",
         "source": {
-          "id": "bfm_lille",
-          "name": "BFM Grand Lille"
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T18:00:00.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/uGXVXKN1dqHV4U2MxOXN_MLH1QI=/0x0:1280x720/800x0/images/L-actu-du-6-octobre-2026-2360498.jpg",
+        "publishedAt": "2026-10-07T05:45:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/bacfe2e4-2cd3-4302-9742-be489f0af9a4/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-HDF"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T18:00:00.000Z"
+      "latestPublishedAt": "2026-10-07T05:45:00.000Z"
     },
     {
-      "id": "tqHiIDKIl-VF",
+      "id": "8uyh36c2PZzL",
       "representative": {
-        "id": "tqHiIDKIl-VF",
-        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/bethune/un-reseau-de-proxenetisme-violent-demantele-par-la-justice-16-victimes-identifiees-dont-une-de-13-ans-3429084.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/bethune/un-reseau-de-proxenetisme-violent-demantele-par-la-justice-16-victimes-identifiees-dont-une-de-13-ans-3429084.html",
-        "title": "Un \"réseau de proxénétisme violent\" démantelé par la justice, 16 victimes identifiées dont une de 13 ans",
-        "description": "Les faits se sont déroulés sur Douai (Nord) ou Lens (Pas-de-Calais) et autour de cette dernière commune, jusqu'en septembre 2026.",
+        "id": "8uyh36c2PZzL",
+        "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-nord/des-milliers-de-lyceens-et-de-lyceennes-dans-les-rues-du-nord-pas-de-calais-pour-l-acte-iii-de-leur-mobilisation-6760389?at_medium=lien_RSS&at_locale=36",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-nord/des-milliers-de-lyceens-et-de-lyceennes-dans-les-rues-du-nord-pas-de-calais-pour-l-acte-iii-de-leur-mobilisation-6760389",
+        "title": "Des milliers de lycéens et de lycéennes dans les rues du Nord-Pas-de-Calais pour l'acte III de leur mobilisation",
+        "description": "Plusieurs milliers de lycéens et de lycéennes ont manifesté dans les rues du Nord-Pas-de-Calais, mardi 6 octobre, à Lille, Calais, Douai, Valenciennes ou encore Roubaix, pour l'acte III de leur mobilisation.",
         "source": {
-          "id": "france3_hdf",
-          "name": "France 3 Hauts-de-France"
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T17:32:20.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/ckvChSe_IYYs6FkF8_TXFX3a-2o/930x620/filters:format(webp)/regions/2026/10/06/6ac52f7d97872869124820.jpg",
+        "publishedAt": "2026-10-07T05:32:30.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/e82128ee-78d7-4725-bba0-58d065c6e527/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-HDF"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:32:20.000Z"
+      "latestPublishedAt": "2026-10-07T05:32:30.000Z"
     },
     {
-      "id": "BrmxxpjL1Oj2",
+      "id": "ci21awTc4wP2",
       "representative": {
-        "id": "BrmxxpjL1Oj2",
-        "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-le-journal-de-18h-du-mardi-6-octobre-2026_VN-202610060840.html",
-        "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-le-journal-de-18h-du-mardi-6-octobre-2026_VN-202610060840.html",
-        "title": "Le journal de 18h du mardi 6 octobre 2026",
-        "description": "Bonsoir Lille, présenté par Noor Oulladi, accompagne les téléspectateurs de BFM Lille dans leur soirée avec un focus sur l'actualité locale : infos, météo, sport, trafic. Au sommaire : Mobilisation : entre 5 800 et 25 000 manifestants à Lille. À Calais, lycéens et syndicats de concert. Berck ou…",
+        "id": "ci21awTc4wP2",
+        "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-picardie/mobilisation-lyceenne-jusqu-a-3-000-manifestants-dans-les-rues-d-amiens-un-mouvement-soutenu-par-les-syndicats-5273658?at_medium=lien_RSS&at_locale=44",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-picardie/mobilisation-lyceenne-jusqu-a-3-000-manifestants-dans-les-rues-d-amiens-un-mouvement-soutenu-par-les-syndicats-5273658",
+        "title": "Mobilisation lycéenne : jusqu'à 3.000 manifestants dans les rues d'Amiens, un mouvement soutenu par les syndicats",
+        "description": "Après une matinée de blocages dans plusieurs établissements, 3.000 manifestants ont défilé dans les rues d'Amiens, ce mardi 6 octobre 2026. Les lycéens mobilisés ont été rejoints par des professeurs, des étudiants et des parents d'élèves.",
         "source": {
-          "id": "bfm_lille",
-          "name": "BFM Grand Lille"
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T17:25:52.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/v69HsT3f2C40ResqXFOGG4Wae2w=/0x0:1280x720/800x0/images/Le-journal-de-18h-du-mardi-6-octobre-2026-2360470.jpg",
+        "publishedAt": "2026-10-07T05:32:30.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/ee1bcf6a-af12-4528-8de8-cbbc628bbf52/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-HDF"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T17:25:52.000Z"
+      "latestPublishedAt": "2026-10-07T05:32:30.000Z"
     },
     {
-      "id": "oAd48Cg9cIDG",
+      "id": "w4pO2be6GzYE",
       "representative": {
-        "id": "oAd48Cg9cIDG",
-        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/somme/on-doit-avoir-les-memes-droits-et-les-memes-chances-je-me-battrai-toujours-pour-ca-rencontre-avec-deux-lyceens-mobilises-a-amiens-3429015.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/somme/on-doit-avoir-les-memes-droits-et-les-memes-chances-je-me-battrai-toujours-pour-ca-rencontre-avec-deux-lyceens-mobilises-a-amiens-3429015.html",
-        "title": "\"On doit avoir les mêmes droits et les mêmes chances, je me battrai toujours pour ça\" : rencontre avec deux lycéens mobilisés à Amiens",
-        "description": "Quelles sont les motivations des lycéens mobilisés ? Pourquoi poursuivent-ils leur mouvement ? Comment s'organisent-ils ? Pour le comprendre, rencontre avec deux lycéens qui parlent de leur engagement, au cours de la grande journée de mobilisation du 6 octobre.",
+        "id": "w4pO2be6GzYE",
+        "url": "https://www.ici.fr/emissions/l-eco-d-ici-ici-nord/drache-outdoor-une-marque-qui-habille-les-enfants-pour-la-pluie-2369782?at_medium=lien_RSS&at_locale=36",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-eco-d-ici-ici-nord/drache-outdoor-une-marque-qui-habille-les-enfants-pour-la-pluie-2369782",
+        "title": "Drache outdoor : une marque qui habille les enfants pour la pluie",
+        "description": "Sous la marque Drache, cette jeune société a mis au point des combinaisons à enfiler très facilement dans une matière technique baptisée le softshell, déperlante et respirante et évite de changer l'enfant des pieds à la tête à chaque fois qu'il rentre d'un ballade arrosée en forêt.",
         "source": {
-          "id": "france3_hdf",
-          "name": "France 3 Hauts-de-France"
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T16:57:57.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/__2mqyzWI0gNMFvxRDEwXAGx-rk/930x620/filters:format(webp)/regions/2026/10/06/6ac523e651f11735249834.jpg",
+        "publishedAt": "2026-10-07T05:24:00.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/b2aa3816-5d43-44d2-94fc-b7742cd12a25/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-HDF"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:57:57.000Z"
+      "latestPublishedAt": "2026-10-07T05:24:00.000Z"
     },
     {
-      "id": "yjjc_KunVqUV",
+      "id": "U_s67eRsVa_a",
       "representative": {
-        "id": "yjjc_KunVqUV",
-        "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-la-ligue-des-droits-de-l-homme-invitee-de-bonsoir-le-nord_VN-202610060798.html",
-        "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-la-ligue-des-droits-de-l-homme-invitee-de-bonsoir-le-nord_VN-202610060798.html",
-        "title": "La Ligue des Droits de l'Homme invitée de Bonsoir le Nord",
-        "description": "Mobilisation lycéenne : la Ligue des Droits de l'Homme, invitée de Bonsoir le Nord, dénonce une \"répression sans précédent d'enfants\" et annonce saisir les Nations Unies.",
+        "id": "U_s67eRsVa_a",
+        "url": "https://www.ici.fr/infos/economie-social/carte-station-service-moins-chere-prix-des-carburants-autour-de-vous-4934700?at_medium=lien_RSS&at_locale=44",
+        "canonicalUrl": "https://www.ici.fr/infos/economie-social/carte-station-service-moins-chere-prix-des-carburants-autour-de-vous-4934700",
+        "title": "Prix des carburants : trouvez la station-service la moins chère près de chez vous",
+        "description": "Les prix des carburants continuent de grimper en France en raison de la guerre au Moyen-Orient. De nouveaux records ont été atteints. Suivez l'évolution du prix des carburants près de chez vous avec ICI.",
         "source": {
-          "id": "bfm_lille",
-          "name": "BFM Grand Lille"
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T16:40:45.000Z",
-        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/gzJGgDMtONuxGaAC8M0gIC4p44g=/0x0:1280x720/800x0/images/La-Ligue-des-Droits-de-l-Homme-invitee-de-Bonsoir-le-Nord-2360428.jpg",
+        "publishedAt": "2026-10-07T05:15:06.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/ebfc797c-eb1b-46a6-8a82-4f9ddcf97e79/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-HDF"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T16:40:45.000Z"
+      "latestPublishedAt": "2026-10-07T05:15:06.000Z"
     },
     {
-      "id": "VSIRz8Tzo3Eq",
+      "id": "1yuOa-L61euy",
       "representative": {
-        "id": "VSIRz8Tzo3Eq",
-        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/certains-y-ont-vu-une-incitation-a-la-maltraitance-animale-il-fait-le-buzz-avec-un-pochoir-de-chat-qui-est-le-street-artiste-mos-art-3428487.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/certains-y-ont-vu-une-incitation-a-la-maltraitance-animale-il-fait-le-buzz-avec-un-pochoir-de-chat-qui-est-le-street-artiste-mos-art-3428487.html",
-        "title": "\"Certains y ont vu une incitation à la maltraitance animale\" : il fait le buzz avec un pochoir de chat, qui est le street artiste Mos Art ?",
-        "description": "Depuis 2009, Mos Art transforme les rues de la métropole lilloise en galerie à ciel ouvert. À 41 ans, cet artiste originaire de Comines a disséminé près de 2 000 pochoirs dans l’espace public. Des visages joyeux, des personnages décalés… Derrière ces œuvres peintes en quelques minutes se cache un…",
+        "id": "1yuOa-L61euy",
+        "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-nord/je-suis-un-peu-stressee-des-seniors-profitent-de-cours-de-conduite-gratuits-a-esquelbecq-2809870?at_medium=lien_RSS&at_locale=36",
+        "canonicalUrl": "https://www.ici.fr/emissions/l-info-d-ici-ici-nord/je-suis-un-peu-stressee-des-seniors-profitent-de-cours-de-conduite-gratuits-a-esquelbecq-2809870",
+        "title": "\"Je suis un peu stressée\" : des seniors profitent de cours de conduite gratuits à Esquelbecq",
+        "description": "La mairie d'Esquelbecq proposait ce mardi des cours gratuits à destination des seniors et des personnes porteuses d'un handicap de plus de 55 ans, en partenariat avec une auto-école adaptée. Trois personnes ont pu en profiter, pour mettre à jour leurs connaissances et reprendre confiance.",
         "source": {
-          "id": "france3_hdf",
-          "name": "France 3 Hauts-de-France"
+          "id": "ici_hdf",
+          "name": "ici Nord, Picardie"
         },
         "sourceCountry": "FR",
         "language": "fr",
-        "publishedAt": "2026-10-06T15:55:10.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/RmjfhyCW5rFKn-UfGs3gkKYoThw/930x620/filters:format(webp)/regions/2026/10/05/6ac3c9871cb6b108391181.jpg",
+        "publishedAt": "2026-10-07T04:32:30.000Z",
+        "imageUrl": "https://www.ici.fr/pikapi/images/d2264a57-5d2f-498f-89cd-72be9cbf243c/920x517?webp=false",
         "countryCode": "FR",
         "regionCode": "FR-HDF"
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:55:10.000Z"
-    },
-    {
-      "id": "xmhkI4pUD_ed",
-      "representative": {
-        "id": "xmhkI4pUD_ed",
-        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/sans-eux-pas-de-vie-sur-terre-comestibles-toxiques-ou-mortels-ce-que-revelent-les-champignons-sur-notre-biodiversite-3428688.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/sans-eux-pas-de-vie-sur-terre-comestibles-toxiques-ou-mortels-ce-que-revelent-les-champignons-sur-notre-biodiversite-3428688.html",
-        "title": "\"Sans eux, pas de vie sur Terre\" : comestibles, toxiques ou mortels, ce que révèlent les champignons sur notre biodiversité",
-        "description": "En forêt ou dans les sous-bois, ils forment parfois un tapis ou colonisent un tronc d'arbre. Les champignons sont parfois étranges mais toujours fascinants lorsqu'ils se révèlent. Dans la forêt de Marchiennes, un expert passionné a emmené un groupe de pharmaciens impatients d'en apprendre…",
-        "source": {
-          "id": "france3_hdf",
-          "name": "France 3 Hauts-de-France"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:54:49.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/sWHP6urY9R6EybRzZAcGFcJ4p2A/930x620/filters:format(webp)/regions/2026/10/06/6ac515178199c869463824.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-HDF"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:54:49.000Z"
-    },
-    {
-      "id": "0dTVbh8ptH1d",
-      "representative": {
-        "id": "0dTVbh8ptH1d",
-        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/lens/entretien-violences-entre-forces-de-l-ordre-et-lyceens-on-doit-faire-preuve-du-plus-grand-discernement-cet-ancien-general-de-gendarmerie-s-exprime-sur-la-gestion-des-manifestations-3428730.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/lens/entretien-violences-entre-forces-de-l-ordre-et-lyceens-on-doit-faire-preuve-du-plus-grand-discernement-cet-ancien-general-de-gendarmerie-s-exprime-sur-la-gestion-des-manifestations-3428730.html",
-        "title": "ENTRETIEN. Violences entre forces de l'ordre et lycéens : \"On doit faire preuve du plus grand discernement\", cet ancien général de gendarmerie s'exprime sur la gestion des manifestations",
-        "description": "Au lendemain du drame qui s'est déroulé à Lens (Pas-de-Calais), lundi 5 octobre 2026, au cours duquel la main d'un lycéen a été arrachée par une grenade policière, la question se pose sur les limites du maintien de l'ordre. Richard Caminade, ancien général de gendarmerie, répond sur les règles qui…",
-        "source": {
-          "id": "france3_hdf",
-          "name": "France 3 Hauts-de-France"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:32:17.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/iW5QAe82Y7Jk873lq8MzRGg8sDE/930x620/filters:format(webp)/regions/2026/10/06/6ac5025a31b90674667815.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-HDF"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:32:17.000Z"
-    },
-    {
-      "id": "fh_PW-QpRrTo",
-      "representative": {
-        "id": "fh_PW-QpRrTo",
-        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/video-blocage-des-lycees-a-lille-des-parents-mobilises-pour-encadrer-et-soutenir-les-eleves-3428982.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/video-blocage-des-lycees-a-lille-des-parents-mobilises-pour-encadrer-et-soutenir-les-eleves-3428982.html",
-        "title": "VIDEO. Blocage des lycées à Lille : des parents mobilisés pour encadrer et soutenir les élèves",
-        "description": "Alors que plusieurs lycées sont bloqués à Lille, des parents d’élèves se mobilisent eux aussi. Présente sur les lieux de manifestation, cette mère explique comment les parents s’organisent pour encadrer les lycéens, mais aussi leur apporter leur soutien.",
-        "source": {
-          "id": "france3_hdf",
-          "name": "France 3 Hauts-de-France"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:26:12.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/JWdEA8RL8j1CC2jfnKiLetaX6pY/930x620/filters:format(webp)/regions/2026/10/06/6ac5089f374c8110803081.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-HDF"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:26:12.000Z"
-    },
-    {
-      "id": "Ptwy3RRy887h",
-      "representative": {
-        "id": "Ptwy3RRy887h",
-        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/oise/emmanuel-maurel-tente-de-convaincre-les-electeurs-beauvaisiens-a-quelques-jours-de-la-primaire-socialiste-pour-la-presidentielle-3428751.html",
-        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/oise/emmanuel-maurel-tente-de-convaincre-les-electeurs-beauvaisiens-a-quelques-jours-de-la-primaire-socialiste-pour-la-presidentielle-3428751.html",
-        "title": "Emmanuel Maurel tente de convaincre les électeurs beauvaisiens à quelques jours de la primaire socialiste pour la présidentielle",
-        "description": "Lundi soir à Beauvais a eu lieu une rencontre entre des militants de gauche de l'Oise et un candidat à la primaire, Emmanuel Maurel. Le député (GDR) du Val-d'Oise, ancien du PS, est le moins connu des cinq candidats. Mais les débats télé lui ont permis d'émerger. Un déplacement en physique peut…",
-        "source": {
-          "id": "france3_hdf",
-          "name": "France 3 Hauts-de-France"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T15:24:34.000Z",
-        "imageUrl": "https://france3-regions.franceinfo.fr/image/u500dAseU56IKqH7VVyQF5UOtSM/930x620/filters:format(webp)/regions/2026/10/06/6ac507a9de34c041302208.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-HDF"
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:24:34.000Z"
+      "latestPublishedAt": "2026-10-07T04:32:30.000Z"
     }
   ]
 }
