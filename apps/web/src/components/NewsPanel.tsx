@@ -85,7 +85,7 @@ function Body({
     return (
       <div className="panel-message">
         <p>No headlines for {country.name} right now.</p>
-        <p className="panel-detail">Feeds are checked every 15 minutes — try again shortly.</p>
+        <p className="panel-detail">Feeds are checked every hour — try again shortly.</p>
       </div>
     );
   }
