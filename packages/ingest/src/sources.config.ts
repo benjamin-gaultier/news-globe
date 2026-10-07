@@ -6611,6 +6611,45 @@ export const SOURCES: SourceConfig[] = [
     feedUrls: ['https://www.sibconline.com.sb/feed/'],
     authority: 8,
   },
+  // Djibouti. Two outlets only, both state media, a few items a day. ADI 404.
+  {
+    id: 'lanation_dj',
+    name: 'La Nation',
+    type: 'rss',
+    country: 'DJ',
+    language: 'fr',
+    feedUrls: ['https://www.lanation.dj/feed/'],
+    authority: 8,
+  },
+  {
+    id: 'rtd',
+    name: 'RTD',
+    type: 'rss',
+    country: 'DJ',
+    language: 'fr',
+    feedUrls: ['https://www.rtd.dj/feed'],
+    authority: 8,
+  },
+  // Congo-Brazzaville. Two outlets only, a few items a day. Adiac's feed only lists its e-paper;
+  // Les Echos du Congo-Brazzaville unreachable.
+  {
+    id: 'voxcg',
+    name: 'Vox',
+    type: 'rss',
+    country: 'CG',
+    language: 'fr',
+    feedUrls: ['https://www.vox.cg/feed/'],
+    authority: 7,
+  },
+  {
+    id: 'journaldebrazza',
+    name: 'Journal de Brazza',
+    type: 'rss',
+    country: 'CG',
+    language: 'fr',
+    feedUrls: ['https://www.journaldebrazza.com/feed/'],
+    authority: 7,
+  },
   // ---- France: regions (see REGIONS). Local-section feeds only: the main
   // feeds of regional papers carry national and world news too. ----
   {
