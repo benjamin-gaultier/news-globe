@@ -675,6 +675,12 @@
       "clusterCount": 15
     },
     {
+      "code": "CN",
+      "name": "China",
+      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "clusterCount": 15
+    },
+    {
       "code": "BY",
       "name": "Belarus",
       "updatedAt": "2026-10-07T13:39:18.564Z",
@@ -705,10 +711,28 @@
       "clusterCount": 15
     },
     {
+      "code": "LY",
+      "name": "Libya",
+      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "clusterCount": 15
+    },
+    {
       "code": "IQ",
       "name": "Iraq",
       "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 10
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "clusterCount": 15
     },
     {
       "code": "NA",
@@ -739,6 +763,12 @@
       "name": "DR Congo",
       "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 10
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "clusterCount": 15
     },
     {
       "code": "TZ",
@@ -799,6 +829,48 @@
       "name": "Togo",
       "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 2
+    },
+    {
+      "code": "SS",
+      "name": "South Sudan",
+      "updatedAt": "2026-10-07T13:10:40.792Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "CF",
+      "name": "Central African Republic",
+      "updatedAt": "2026-10-07T13:10:40.792Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "updatedAt": "2026-10-07T13:10:40.792Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "updatedAt": "2026-10-07T13:31:24.946Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "updatedAt": "2026-10-07T13:31:24.946Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "updatedAt": "2026-10-07T13:31:24.946Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "updatedAt": "2026-10-07T13:31:24.946Z",
+      "clusterCount": 15
     }
   ],
   "regions": [

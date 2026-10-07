@@ -245,6 +245,10 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   SS: { code: 'SS', name: 'South Sudan', lat: 7.3, lng: 30.3, altitude: 1.0 },
   CF: { code: 'CF', name: 'Central African Republic', lat: 6.6, lng: 20.9, altitude: 1.0 },
   ET: { code: 'ET', name: 'Ethiopia', lat: 9.1, lng: 40.5, altitude: 1.2 },
+  AE: { code: 'AE', name: 'United Arab Emirates', lat: 24.2, lng: 54.4, altitude: 0.6 },
+  JO: { code: 'JO', name: 'Jordan', lat: 31.2, lng: 36.5, altitude: 0.6 },
+  NI: { code: 'NI', name: 'Nicaragua', lat: 12.9, lng: -85.2, altitude: 0.7 },
+  SL: { code: 'SL', name: 'Sierra Leone', lat: 8.5, lng: -11.8, altitude: 0.5 },
 };
 
 export interface RegionMeta {
