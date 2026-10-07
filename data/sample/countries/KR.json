@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "KR",
   "countryName": "South Korea",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "pKZdeg4p4Opl",
@@ -173,48 +173,6 @@
       "latestPublishedAt": "2026-10-06T15:46:00.000Z"
     },
     {
-      "id": "hCyZ82eMe3EH",
-      "representative": {
-        "id": "hCyZ82eMe3EH",
-        "url": "https://www.yna.co.kr/view/AKR20261006199100054",
-        "canonicalUrl": "https://www.yna.co.kr/view/AKR20261006199100054",
-        "title": "나주 주택서 60대 부부 숨진 채 발견…용의자 추적 중",
-        "description": "(나주=연합뉴스) 정다움 기자 = 전남광주 나주에서 부부가 숨진 채 발견돼 경찰이 수사에 나섰다.",
-        "source": {
-          "id": "yonhap",
-          "name": "Yonhap"
-        },
-        "sourceCountry": "KR",
-        "language": "ko",
-        "publishedAt": "2026-10-06T13:20:39.000Z",
-        "imageUrl": "https://img.yna.co.kr/photo/cms/2015/09/29/01/C0A8CA3C00000150176F63A400015A73_P2.jpeg",
-        "countryCode": "KR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "HW4qinzXKqvr",
-          "url": "https://www.khan.co.kr/article/202610062232001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "canonicalUrl": "https://www.khan.co.kr/article/202610062232001/",
-          "title": "나주에서 60대 부부 결박된 상태로 숨진 채 발견···경찰 용의자 추적",
-          "description": "경찰 마크전남광주 나주에서 부부가 숨진 채 발견돼 경찰이 수사에 착수했다.전남 나주경찰서는 6일 오후 7시49분쯤 나주시의 한 주택에서 60대 부부가 숨진 채 발견됐다고 이날 밝혔다.부부는 발견 당시 결박된 상태로 숨져 있었던 것으로 알려졌다.경찰은 이들이 흉기에 찔려 숨진 것으로 보고 용의자를 추적 중이다.",
-          "source": {
-            "id": "khan",
-            "name": "Kyunghyang Shinmun"
-          },
-          "sourceCountry": "KR",
-          "language": "ko",
-          "publishedAt": "2026-10-06T13:32:00.000Z",
-          "imageUrl": null,
-          "countryCode": "KR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:59:48.000Z"
-    },
-    {
       "id": "0gMNru_rNqgQ",
       "representative": {
         "id": "0gMNru_rNqgQ",
@@ -255,48 +213,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T14:18:22.000Z"
-    },
-    {
-      "id": "ZsWT_8BLn0yC",
-      "representative": {
-        "id": "ZsWT_8BLn0yC",
-        "url": "https://www.yna.co.kr/view/AKR20261006193400017",
-        "canonicalUrl": "https://www.yna.co.kr/view/AKR20261006193400017",
-        "title": "대형 교회 2곳 사이버 공격 정황…교인정보 대규모 유출 가능성",
-        "description": "(서울=연합뉴스) 권하영 기자 = 국내 대형 교회 2곳이 사이버 공격을 받아 교인 개인정보와 헌금·회계 자료, 내부 문서 등이 외부로 유출된 정...",
-        "source": {
-          "id": "yonhap",
-          "name": "Yonhap"
-        },
-        "sourceCountry": "KR",
-        "language": "ko",
-        "publishedAt": "2026-10-06T12:16:29.000Z",
-        "imageUrl": "https://img.yna.co.kr/photo/cms/2026/10/06/12/PCM20261006000212990_P2.jpg",
-        "countryCode": "KR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "G8qwZSIULIFj",
-          "url": "https://www.khan.co.kr/article/202610062212001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-          "canonicalUrl": "https://www.khan.co.kr/article/202610062212001/",
-          "title": "국내 대형 교회 두 곳, 사이버 공격받았나…교인정보 유출 가능성",
-          "description": "일러스트 | NEWS IMAGE국내 대형 교회 두 곳이 사이버 공격을 받아 교인 개인정보와 헌금·회계 자료, 내부 문서 등이 외부로 유출된 정황이 발견된 것으로 알려졌다.6일 연합뉴스에 따르면, 사이버 보안 기업인 오아시스시큐리티는 해외 공격자 서버에서 확보한 공격 도구와 기록, 자료, 계정 정보 등을 분석한 결과 국내 대형 교회 두 곳과 관련된 대규모 교···",
-          "source": {
-            "id": "khan",
-            "name": "Kyunghyang Shinmun"
-          },
-          "sourceCountry": "KR",
-          "language": "ko",
-          "publishedAt": "2026-10-06T13:12:00.000Z",
-          "imageUrl": null,
-          "countryCode": "KR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:28:32.000Z"
     },
     {
       "id": "2JiKYn1e4L49",
@@ -489,6 +405,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T17:36:40.000Z"
+    },
+    {
+      "id": "_dptWxQ8jFPf",
+      "representative": {
+        "id": "_dptWxQ8jFPf",
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008785537",
+        "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008785537",
+        "title": "'검찰 개혁' 놓고…이번에는 청와대·조국혁신당 정면충돌",
+        "description": "범여권 내부의 검찰개혁 갈등이 또 다른 국면을 맞고 있습니다. 이번에는 청와대와 조국혁신당이 정면으로 충돌했는데요. 중수청과 공소청의 소속 부처 문제, 검사의 보완수사권 폐지와 같은 검찰개혁의 과정을 놓고 청와대가 심야 입장문을 내놨습니다.박예린 기자입니다.",
+        "source": {
+          "id": "sbs_kr",
+          "name": "SBS News"
+        },
+        "sourceCountry": "KR",
+        "language": "ko",
+        "publishedAt": "2026-10-06T16:28:00.000Z",
+        "imageUrl": "https://img.sbs.co.kr/newimg/news/20261006/202229065.jpg",
+        "countryCode": "KR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:28:00.000Z"
+    },
+    {
+      "id": "o43qAUQ-q3g3",
+      "representative": {
+        "id": "o43qAUQ-q3g3",
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008785801",
+        "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008785801",
+        "title": "체육 특례에 칼 빼 든다…\"단계적 폐지 공감대\"",
+        "description": "이번 아시안게임으로 병역 특례를 받게 될 인원은 57명인데 최근 몇몇 선수들이 부적절한 행태를 보이면서 관련 논란이 뜨거워졌습니다. 국방부는 감…",
+        "source": {
+          "id": "sbs_kr",
+          "name": "SBS News"
+        },
+        "sourceCountry": "KR",
+        "language": "ko",
+        "publishedAt": "2026-10-06T15:56:00.000Z",
+        "imageUrl": "https://img.sbs.co.kr/newimg/news/20261007/202229100.jpg",
+        "countryCode": "KR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:56:00.000Z"
     }
   ]
 }

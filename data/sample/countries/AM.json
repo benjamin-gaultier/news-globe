@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "AM",
   "countryName": "Armenia",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "aBDMGYHaKSUS",
@@ -249,48 +249,6 @@
       "latestPublishedAt": "2026-10-06T15:25:59.000Z"
     },
     {
-      "id": "dBNPxx8lw8kj",
-      "representative": {
-        "id": "dBNPxx8lw8kj",
-        "url": "https://news.am/hy/news/1066129",
-        "canonicalUrl": "https://news.am/hy/news/1066129",
-        "title": "Մհեր Գրիգորյանի գլխավորությամբ տեղի է ունեցել Համաշխարհային բանկի ծրագրային պորտֆելի քննարկում",
-        "description": null,
-        "source": {
-          "id": "news_am",
-          "name": "News.am"
-        },
-        "sourceCountry": "AM",
-        "language": "hy",
-        "publishedAt": "2026-10-06T13:32:00.000Z",
-        "imageUrl": "https://news.am/storage/media/26/10/06/62FeWOZ36hfdCWs4.webp",
-        "countryCode": "AM",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "6AlKklAtjea_",
-          "url": "https://hetq.am/hy/article/184478",
-          "canonicalUrl": "https://hetq.am/hy/article/184478",
-          "title": "Փոխվարչապետ Մհերի Գրիգորյանի գլխավորությամբ տեղի է ունեցել Համաշխարհային բանկի ծրագրային պորտֆելի քննարկում",
-          "description": "Կողմերը մտքեր են փոխանակել ընթացիկ վարկային և դրամաշնորհային ծրագրերի կատարողականի շուրջ, որոնց ընդհանուր արժեքը կազմում է շուրջ 818 միլիոն ԱՄՆ դոլար։",
-          "source": {
-            "id": "hetq",
-            "name": "Hetq"
-          },
-          "sourceCountry": "AM",
-          "language": "hy",
-          "publishedAt": "2026-10-06T13:51:00.000Z",
-          "imageUrl": "https://hetq.am/static/articles/18/44/78/l-vE1CQnG3Ms.jpg",
-          "countryCode": "AM",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:51:00.000Z"
-    },
-    {
       "id": "gU67GlIR534p",
       "representative": {
         "id": "gU67GlIR534p",
@@ -505,6 +463,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T16:24:00.000Z"
+    },
+    {
+      "id": "5JvCXIkpYfAG",
+      "representative": {
+        "id": "5JvCXIkpYfAG",
+        "url": "https://www.aravot.am/2026/10/06/1584846/",
+        "canonicalUrl": "https://www.aravot.am/2026/10/06/1584846/",
+        "title": "Բնակարան Երևանում, 9 միլիոն դրամից ավել աշխատավարձ․ ի՞նչ ունեցվածք ունի գեներալ Մանվելի սանիկը",
+        "description": "Գեներալ Մանվել Գրիգորյանի սանիկը՝ Արթիկի ՏԻՄ ընտրություններում ՔՊ-ի ցուցակը գլխավորող Անանիկ Ոսկանյանը ո՛չ շարժական, ո՛չ էլ թանկարժեք գույք է հայտարարագրել։",
+        "source": {
+          "id": "aravot",
+          "name": "Aravot"
+        },
+        "sourceCountry": "AM",
+        "language": "hy",
+        "publishedAt": "2026-10-06T16:22:17.000Z",
+        "imageUrl": null,
+        "countryCode": "AM",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:22:17.000Z"
     }
   ]
 }

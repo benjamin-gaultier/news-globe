@@ -1,0 +1,512 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "US",
+  "countryName": "United States",
+  "regionCode": "US-FL",
+  "regionName": "Florida",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
+  "clusters": [
+    {
+      "id": "lPGvBXo2J9Kg",
+      "representative": {
+        "id": "lPGvBXo2J9Kg",
+        "url": "https://www.clickorlando.com/news/florida/2026/10/07/florida-gov-desantis-declares-state-of-emergency-ahead-of-tropical-depression/",
+        "canonicalUrl": "https://www.clickorlando.com/news/florida/2026/10/07/florida-gov-desantis-declares-state-of-emergency-ahead-of-tropical-depression/",
+        "title": "Florida Gov. DeSantis declares state of emergency ahead of tropical depression",
+        "description": "Ahead of Tropical Depression Nine, Florida Gov. Ron DeSantis has issued an executive order to declare a state of emergency.",
+        "source": {
+          "id": "us_fl_clickorlando",
+          "name": "WKMG News 6 ClickOrlando"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T00:30:12.000Z",
+        "imageUrl": "https://bc.gmg.io/image/upload/f_jpg/q_auto/c_thumb,w_700/media/video/wkmg/8d755784-c34e-4246-8e08-ddb1f8355173/image.jpg?api_key=clickorlando_488cff2bcc157b2e",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [
+        {
+          "id": "gNY2c8zUs4M3",
+          "url": "https://www.wctv.tv/2026/10/07/desantis-declares-state-emergency-25-fl-counties-ahead-tropical-depression-nine-including-big-bend/",
+          "canonicalUrl": "https://www.wctv.tv/2026/10/07/desantis-declares-state-emergency-25-fl-counties-ahead-tropical-depression-nine-including-big-bend/",
+          "title": "DeSantis declares state of emergency in 25 FL counties ahead of Tropical Depression Nine, including Big Bend",
+          "description": "Florida Gov. Ron DeSantis has declared a state of emergency in 25 counties ahead of Tropical Depression Nine, including the Big Bend.",
+          "source": {
+            "id": "us_fl_wctv",
+            "name": "WCTV"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-07T02:14:02.000Z",
+          "imageUrl": "https://gray-wctv-prod.gtv-cdn.com/resizer/v2//BBZ7EYFADBFVDDXVDPX2WRXNS4.png?auth=cded856991efe07b2275921fce6ecdf1b5a89c5348d810ff7c076e8cc5794336&smart=false",
+          "countryCode": "US",
+          "regionCode": "US-FL"
+        },
+        {
+          "id": "_i9v7Cq-FuU4",
+          "url": "https://www.wfla.com/news/florida/desantis-declares-state-of-emergency-for-25-florida-counties-ahead-of-growing-gulf-storm/",
+          "canonicalUrl": "https://www.wfla.com/news/florida/desantis-declares-state-of-emergency-for-25-florida-counties-ahead-of-growing-gulf-storm/",
+          "title": "DeSantis declares state of emergency for 25 Florida counties ahead of growing Gulf storm",
+          "description": "Tropical Depression Nine officially formed on Tuesday afternoon and is expected to start drifting toward the northeast later this week. It's currently forecast to develop into a hurricane on Thursday and hit the northern Gulf Coast on Friday afternoon.",
+          "source": {
+            "id": "us_fl_wfla",
+            "name": "WFLA News Channel 8"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-07T00:49:06.000Z",
+          "imageUrl": "https://www.wfla.com/wp-content/uploads/sites/71/2026/10/TROPICAL-TRACK-2-1-e1791342362190.png?w=800",
+          "countryCode": "US",
+          "regionCode": "US-FL"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T02:14:02.000Z"
+    },
+    {
+      "id": "AepWssxupmv_",
+      "representative": {
+        "id": "AepWssxupmv_",
+        "url": "https://www.tampabay.com/news/florida-politics/elections/2026/10/07/trump-florida-voter-registration-privacy-law/",
+        "canonicalUrl": "https://www.tampabay.com/news/florida-politics/elections/2026/10/07/trump-florida-voter-registration-privacy-law/",
+        "title": "Florida removes Trump’s personal info from voter file after he wrongly cites law",
+        "description": null,
+        "source": {
+          "id": "us_fl_tampa_bay_times",
+          "name": "Tampa Bay Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:04:24.000Z",
+        "imageUrl": "https://www.tampabay.com/resizer/v2/OFVCQ7AYEZBQ5E7PRNKS4276FE.jpg?auth=3270d06b2ee949fe2268203958f39890652fd24588cd42a252bdf29031b166e1&height=675&width=1200&smart=true",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [
+        {
+          "id": "cct3l6UeTyIS",
+          "url": "https://www.wusf.org/politics-issues/2026-10-07/florida-removes-trump-personal-information-voter-files-after-president-wrongly-cites-new-law",
+          "canonicalUrl": "https://www.wusf.org/politics-issues/2026-10-07/florida-removes-trump-personal-information-voter-files-after-president-wrongly-cites-new-law",
+          "title": "Florida removes Trump's personal information from voter files, after president wrongly cites new law",
+          "description": "Election officials in Florida removed President Donald Trump's personal information from public voter registration records, after Trump cited a new state privacy law that does not apply to him as the president.",
+          "source": {
+            "id": "us_fl_wusf",
+            "name": "WUSF"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-07T10:15:38.000Z",
+          "imageUrl": "https://npr.brightspotcdn.com/dims4/default/26dd36e/2147483647/strip/false/crop/5250x3500+0+0/resize/792x528!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F84%2Fc0%2F9b7e809f486cb43e58a9562972b1%2F071824-rnc-day-4-al-07.jpg",
+          "countryCode": "US",
+          "regionCode": "US-FL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:04:24.000Z"
+    },
+    {
+      "id": "NvCYfMtW6M08",
+      "representative": {
+        "id": "NvCYfMtW6M08",
+        "url": "https://www.tampabay.com/hurricane/2026/10/07/tropical-storm-isaias-hurricane-florida/",
+        "canonicalUrl": "https://www.tampabay.com/hurricane/2026/10/07/tropical-storm-isaias-hurricane-florida/",
+        "title": "Tropical Storm Isaias forms. It’s likely to become a hurricane, threaten Florida",
+        "description": null,
+        "source": {
+          "id": "us_fl_tampa_bay_times",
+          "name": "Tampa Bay Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:39:57.000Z",
+        "imageUrl": "https://www.tampabay.com/resizer/v2/GTD6ND7N2FBSNPGPKBKOTWS73A.jpg?auth=0d7563e7f50900be0623ee9a85a53cdd60f6820544d0b0c2f7bdb1427985c0c7&height=675&width=1200&smart=true",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [
+        {
+          "id": "4Ok1v5sj9YJJ",
+          "url": "https://www.wfla.com/weather/tracking-the-tropics/tropical-storm-isaias-forms-in-the-gulf-nhc/",
+          "canonicalUrl": "https://www.wfla.com/weather/tracking-the-tropics/tropical-storm-isaias-forms-in-the-gulf-nhc/",
+          "title": "Tropical Storm Isaias forms, expected to rapidly strengthen: NHC",
+          "description": "Tropical Storm Isaias has formed and is expected to rapidly strengthen over the next few days, the National Hurricane Center announced.",
+          "source": {
+            "id": "us_fl_wfla",
+            "name": "WFLA News Channel 8"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-07T09:12:24.000Z",
+          "imageUrl": "https://www.wfla.com/wp-content/uploads/sites/71/2026/10/TROPICAL-TRACK-1-5.png?w=900",
+          "countryCode": "US",
+          "regionCode": "US-FL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T12:39:57.000Z"
+    },
+    {
+      "id": "oPiiiBzY6ehy",
+      "representative": {
+        "id": "oPiiiBzY6ehy",
+        "url": "https://www.wfla.com/news/forget-buc-ees-this-is-the-uss-favorite-convenience-store-new-report-shows/",
+        "canonicalUrl": "https://www.wfla.com/news/forget-buc-ees-this-is-the-uss-favorite-convenience-store-new-report-shows/",
+        "title": "Forget Buc-ee's, this is the US's favorite convenience store, new report shows",
+        "description": "Depending on where you live, you may not have even been aware that this brand offers gas.",
+        "source": {
+          "id": "us_fl_wfla",
+          "name": "WFLA News Channel 8"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T17:08:22.000Z",
+        "imageUrl": "https://www.wfla.com/wp-content/uploads/sites/71/2026/10/GettyImages-1242560584.jpg?w=900",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [
+        {
+          "id": "h9qEa9UO02UE",
+          "url": "https://www.clickorlando.com/features/2026/10/07/report-this-convenience-store-just-beat-buc-ees-wawa-as-americas-no-1/",
+          "canonicalUrl": "https://www.clickorlando.com/features/2026/10/07/report-this-convenience-store-just-beat-buc-ees-wawa-as-americas-no-1/",
+          "title": "REPORT: This convenience store just beat Buc-ee’s, Wawa as America’s No. 1",
+          "description": "A new report has revealed which convenience stores are leaving customers the most satisfied.",
+          "source": {
+            "id": "us_fl_clickorlando",
+            "name": "WKMG News 6 ClickOrlando"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-07T09:00:01.000Z",
+          "imageUrl": "https://bc.gmg.io/image/upload/f_jpg/q_auto/c_thumb,w_700/media/gmg/UT4EGRSBGJAL5PMD2VRDCCOSQM.png?api_key=clickorlando_488cff2bcc157b2e",
+          "countryCode": "US",
+          "regionCode": "US-FL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T09:00:01.000Z"
+    },
+    {
+      "id": "8fVZzHfsIBcH",
+      "representative": {
+        "id": "8fVZzHfsIBcH",
+        "url": "https://www.tampabay.com/news/education/2026/10/06/pinellas-sexton-elementary-closure-enrollment/",
+        "canonicalUrl": "https://www.tampabay.com/news/education/2026/10/06/pinellas-sexton-elementary-closure-enrollment/",
+        "title": "Sexton Elementary wins reprieve in Pinellas school closure plan",
+        "description": null,
+        "source": {
+          "id": "us_fl_tampa_bay_times",
+          "name": "Tampa Bay Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T17:43:30.000Z",
+        "imageUrl": "https://www.tampabay.com/resizer/v2/VVQMFEDG7VAIRH7M66U4M2XDOY.JPG?auth=a786cadea8a19a36b5b8f4b6fd42b039a31245d859b0c22b9095dfa6128e7796&height=675&width=1200&smart=true",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [
+        {
+          "id": "bTS8DnTsKiL1",
+          "url": "https://www.wfla.com/news/pinellas-county/sexton-elementary-school-closure-delayed-by-pinellas-county-school-board/",
+          "canonicalUrl": "https://www.wfla.com/news/pinellas-county/sexton-elementary-school-closure-delayed-by-pinellas-county-school-board/",
+          "title": "Sexton Elementary School closure delayed by Pinellas County school board",
+          "description": "The clock is ticking for some Pinellas County schools. A vote is expected next Tuesday that could close six schools in an attempt to save money.",
+          "source": {
+            "id": "us_fl_wfla",
+            "name": "WFLA News Channel 8"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-07T02:24:02.000Z",
+          "imageUrl": "https://www.wfla.com/wp-content/uploads/sites/71/2026/09/Screenshot-2026-09-15-212850.png?w=555",
+          "countryCode": "US",
+          "regionCode": "US-FL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T02:24:02.000Z"
+    },
+    {
+      "id": "CeSrjDlagwnF",
+      "representative": {
+        "id": "CeSrjDlagwnF",
+        "url": "https://www.tampabay.com/news/florida/2026/10/05/polk-crash-bus-fatal-student/",
+        "canonicalUrl": "https://www.tampabay.com/news/florida/2026/10/05/polk-crash-bus-fatal-student/",
+        "title": "Crash flips Polk school bus on its roof. 2 killed, including student",
+        "description": null,
+        "source": {
+          "id": "us_fl_tampa_bay_times",
+          "name": "Tampa Bay Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-05T15:15:11.000Z",
+        "imageUrl": "https://www.tampabay.com/resizer/v2/LXZUN7LQLVC4NE2ZIBSW2FNHPI.jpg?auth=29cfb3af268d9707f66b8b0aec160cba3e5e79977019e3f78db8d463a66117c8&height=675&width=1200&smart=true",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [
+        {
+          "id": "XnVbQI1-stiL",
+          "url": "https://www.wfla.com/news/polk-county/winter-haven-high-school-mourns-16-year-old-killed-in-school-bus-crash/",
+          "canonicalUrl": "https://www.wfla.com/news/polk-county/winter-haven-high-school-mourns-16-year-old-killed-in-school-bus-crash/",
+          "title": "Winter Haven High School mourns 16-year-old killed in school bus crash",
+          "description": "A Winter Haven High School community is mourning the loss of a 16-year-old sophomore killed in Monday morning’s school bus crash, as new details emerge about the teenager and the classmates who tried to help her.",
+          "source": {
+            "id": "us_fl_wfla",
+            "name": "WFLA News Channel 8"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T22:04:02.000Z",
+          "imageUrl": "https://www.wfla.com/wp-content/uploads/sites/71/2026/10/337d6952-1b71-4185-b222-8a7c72d167da-e1791324137715.jpg?w=900",
+          "countryCode": "US",
+          "regionCode": "US-FL"
+        },
+        {
+          "id": "M6UkREa3KC5G",
+          "url": "https://www.clickorlando.com/news/local/2026/10/06/support-these-kids-father-of-friend-of-winter-haven-student-killed-in-bus-crash-calls-on-community-for-help/",
+          "canonicalUrl": "https://www.clickorlando.com/news/local/2026/10/06/support-these-kids-father-of-friend-of-winter-haven-student-killed-in-bus-crash-calls-on-community-for-help/",
+          "title": "‘Support these kids:’ Father of friend of Winter Haven student killed in bus crash calls on community for help",
+          "description": "The father of a Winter Haven High School student who was friends with the sophomore who was killed in Monday’s fatal school bus crash is calling on the community to do more for the students.",
+          "source": {
+            "id": "us_fl_clickorlando",
+            "name": "WKMG News 6 ClickOrlando"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T20:08:29.000Z",
+          "imageUrl": "https://bc.gmg.io/image/upload/f_jpg/q_auto/c_thumb,w_700/media/video/wkmg/33ab2ed6-1ffe-45f2-ab26-d0871212bbdd/image.jpg?api_key=clickorlando_488cff2bcc157b2e",
+          "countryCode": "US",
+          "regionCode": "US-FL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T22:04:02.000Z"
+    },
+    {
+      "id": "QzYgm1BgfDt5",
+      "representative": {
+        "id": "QzYgm1BgfDt5",
+        "url": "https://www.wfla.com/bloom-tampa-bay/bloom-health-and-wellness/too-young-for-cancer-mother-defies-stage-4-diagnosis-welcomes-second-child/",
+        "canonicalUrl": "https://www.wfla.com/bloom-tampa-bay/bloom-health-and-wellness/too-young-for-cancer-mother-defies-stage-4-diagnosis-welcomes-second-child/",
+        "title": "'Too young for cancer': Mother defies Stage 4 diagnosis, welcomes second child",
+        "description": "These are the moments Maralee Lellio fought to live for -- taking professional family photos with two little girls she once feared she would never get the chance to raise together.",
+        "source": {
+          "id": "us_fl_wfla",
+          "name": "WFLA News Channel 8"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:10:00.000Z",
+        "imageUrl": "https://www.wfla.com/wp-content/uploads/sites/71/2026/10/Maralee-Lellio-e1791342919362.png?w=900",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:10:00.000Z"
+    },
+    {
+      "id": "6PBTvKpP7atA",
+      "representative": {
+        "id": "6PBTvKpP7atA",
+        "url": "https://www.tampabay.com/life-culture/2026/10/07/tampa-riverwalk-hotel-cala-sheraton-opening/",
+        "canonicalUrl": "https://www.tampabay.com/life-culture/2026/10/07/tampa-riverwalk-hotel-cala-sheraton-opening/",
+        "title": "The new Hotel Cala will open on Tampa’s riverwalk next year",
+        "description": null,
+        "source": {
+          "id": "us_fl_tampa_bay_times",
+          "name": "Tampa Bay Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:00:00.000Z",
+        "imageUrl": "https://www.tampabay.com/resizer/v2/BYRDRF6XBBCMHES26ZFZOSGX2Q.JPG?auth=2467f9b8f5f0513296ea505457d201bc4c04afba5df2bc1a211ec46841c65714&height=675&width=1200&smart=true",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:00:00.000Z"
+    },
+    {
+      "id": "XdCwGF6ZjmHo",
+      "representative": {
+        "id": "XdCwGF6ZjmHo",
+        "url": "https://www.wfla.com/news/world/plague-in-russia-sparks-concern-covid-19-pandemic-memories-5-things-to-know/",
+        "canonicalUrl": "https://www.wfla.com/news/world/plague-in-russia-sparks-concern-covid-19-pandemic-memories-5-things-to-know/",
+        "title": "Plague in Russia sparks concern, COVID-19 pandemic memories: 5 things to know",
+        "description": "The death of a Russian lab technician researching the plague has set off alarms abroad and at home as observers note resemblances to the conditions that some theorized preceded the COVID-19 pandemic.",
+        "source": {
+          "id": "us_fl_wfla",
+          "name": "WFLA News Channel 8"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:58:06.000Z",
+        "imageUrl": "https://www.wfla.com/wp-content/uploads/sites/71/2026/10/AP24192624421025-e1791331736714.jpg?w=900",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:58:06.000Z"
+    },
+    {
+      "id": "vmL4O8tNQ7Oi",
+      "representative": {
+        "id": "vmL4O8tNQ7Oi",
+        "url": "https://www.clickorlando.com/weather/2026/10/07/rainy-pattern-continues-isaias-nears-florida-this-weekend/",
+        "canonicalUrl": "https://www.clickorlando.com/weather/2026/10/07/rainy-pattern-continues-isaias-nears-florida-this-weekend/",
+        "title": "Rainy pattern continues as Isaias nears Florida this weekend",
+        "description": "More rain is ahead through Friday as a stalled front keeps Central Florida wet. Then, attention turns to Isaias, with tropical moisture and higher rain chances returning this weekend.",
+        "source": {
+          "id": "us_fl_clickorlando",
+          "name": "WKMG News 6 ClickOrlando"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:37:33.000Z",
+        "imageUrl": "https://bc.gmg.io/image/upload/f_jpg/q_auto/c_thumb,w_700/media/video/wkmg/f64b607f-a380-4d79-b04e-4fbad62a2604/image.jpg?api_key=clickorlando_488cff2bcc157b2e",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:37:33.000Z"
+    },
+    {
+      "id": "lzeTAcV_lX0E",
+      "representative": {
+        "id": "lzeTAcV_lX0E",
+        "url": "https://www.clickorlando.com/news/local/2026/10/07/lakeland-man-arrested-at-walt-disney-world-backstage-in-child-predator-sting/",
+        "canonicalUrl": "https://www.clickorlando.com/news/local/2026/10/07/lakeland-man-arrested-at-walt-disney-world-backstage-in-child-predator-sting/",
+        "title": "Lakeland man arrested at Walt Disney World backstage in child predator sting",
+        "description": "An undercover sting at Disney World led to the arrest of a Lakeland man facing multiple felony charges after he allegedly sent explicit images to a detective posing as a 13-year-old boy on Snapchat, the Orange County Sheriff's Office said.",
+        "source": {
+          "id": "us_fl_clickorlando",
+          "name": "WKMG News 6 ClickOrlando"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:28:31.000Z",
+        "imageUrl": "https://bc.gmg.io/image/upload/f_jpg/q_auto/c_thumb,w_700/media/gmg/6LXNPAYFIJHSZLS4M2I4SXTTIY.png?api_key=clickorlando_488cff2bcc157b2e",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:28:31.000Z"
+    },
+    {
+      "id": "25BAnY7PKaSO",
+      "representative": {
+        "id": "25BAnY7PKaSO",
+        "url": "https://www.local10.com/news/local/2026/10/07/man-killed-after-being-struck-by-driver-in-fort-lauderdale-police-say/",
+        "canonicalUrl": "https://www.local10.com/news/local/2026/10/07/man-killed-after-being-struck-by-driver-in-fort-lauderdale-police-say/",
+        "title": "Man killed after being struck by driver in Fort Lauderdale, police say",
+        "description": "A man was killed early Wednesday after being struck by a driver in Fort Lauderdale, police said.",
+        "source": {
+          "id": "us_fl_local10",
+          "name": "WPLG Local 10"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:21:09.000Z",
+        "imageUrl": "https://www.local10.com/resizer/v2/OMF4FT5BUOAGB2IHDDLIHYZZDA.jpg?auth=b114c85b889d5aee1b1fdc36c49cdad6e2e69c421177fb3e0356ad81fbd06ffe&smart=true&width=1200&height=900",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:21:09.000Z"
+    },
+    {
+      "id": "90PJcamJOOW9",
+      "representative": {
+        "id": "90PJcamJOOW9",
+        "url": "https://www.tampabay.com/sports/rays/2026/10/07/tampa-bay-rays-baseball-development-experience-westshore/",
+        "canonicalUrl": "https://www.tampabay.com/sports/rays/2026/10/07/tampa-bay-rays-baseball-development-experience-westshore/",
+        "title": "New Tampa Bay Rays ‘experience center’ will offer first glimpse at the ballpark",
+        "description": null,
+        "source": {
+          "id": "us_fl_tampa_bay_times",
+          "name": "Tampa Bay Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:00:00.000Z",
+        "imageUrl": "https://www.tampabay.com/resizer/v2/K6VQCKPG7VH3NJFGQ2EYNNTUBY.jpg?auth=2486b5960a5eef134f96425cf749b4d0484d1f778fd5adc9128cf3f5a77068bf&height=675&width=1200&smart=true",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "wwKbEMz67OuF",
+      "representative": {
+        "id": "wwKbEMz67OuF",
+        "url": "https://www.clickorlando.com/theme-parks/2026/10/07/build-a-bear-to-open-largest-ever-workshop-at-orlandos-icon-park/",
+        "canonicalUrl": "https://www.clickorlando.com/theme-parks/2026/10/07/build-a-bear-to-open-largest-ever-workshop-at-orlandos-icon-park/",
+        "title": "Build-A-Bear to open largest-ever workshop at Orlando’s ICON Park",
+        "description": "Build-A-Bear is set to open a first-of-its-kind three-story workshop at Orlando's ICON Park in November, featuring exclusive attractions including a Design Studio, Bakeshop, and personalization options not available at any other location.",
+        "source": {
+          "id": "us_fl_clickorlando",
+          "name": "WKMG News 6 ClickOrlando"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:57:25.000Z",
+        "imageUrl": "https://bc.gmg.io/image/upload/f_jpg/q_auto/c_thumb,w_700/media/video/wkmg/2dbfebe4-554c-4c8d-8502-1cb5a4ddc821/image.jpg?api_key=clickorlando_488cff2bcc157b2e",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:57:25.000Z"
+    },
+    {
+      "id": "molw63i-D6y9",
+      "representative": {
+        "id": "molw63i-D6y9",
+        "url": "https://www.wusf.org/health-news-florida/2026-10-07/amid-dengue-outbreak-mosquito-control-experts-are-wary-of-a-wet-winter-fueled-by-el-nino",
+        "canonicalUrl": "https://www.wusf.org/health-news-florida/2026-10-07/amid-dengue-outbreak-mosquito-control-experts-are-wary-of-a-wet-winter-fueled-by-el-nino",
+        "title": "Amid dengue outbreak, mosquito control experts are wary of a wet winter fueled by El Niño",
+        "description": "\" We have so many folks who are walking around who have dengue. They're pretty much asymptomatic. They don't even know that they have it,\" says Carla Fry, with the Hillsborough health department.",
+        "source": {
+          "id": "us_fl_wusf",
+          "name": "WUSF"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:45:30.000Z",
+        "imageUrl": "https://npr.brightspotcdn.com/dims4/default/0c0f9c2/2147483647/strip/false/crop/1200x674+0+0/resize/792x445!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb6%2F3f%2F64bd610946608f478aa916d8891d%2Fzika-pinecrest-gdc-03.jpeg",
+        "countryCode": "US",
+        "regionCode": "US-FL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:45:30.000Z"
+    }
+  ]
+}

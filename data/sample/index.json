@@ -1,1027 +1,1285 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "countries": [
     {
       "code": "FR",
       "name": "France",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "US",
       "name": "United States",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "GB",
       "name": "United Kingdom",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE",
       "name": "Germany",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "ES",
       "name": "Spain",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "IT",
       "name": "Italy",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "CA",
       "name": "Canada",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BR",
       "name": "Brazil",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "TR",
       "name": "Turkey",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "AU",
       "name": "Australia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "IN",
       "name": "India",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "MX",
       "name": "Mexico",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "JP",
       "name": "Japan",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "IE",
       "name": "Ireland",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "ZA",
       "name": "South Africa",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "NZ",
       "name": "New Zealand",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "AR",
       "name": "Argentina",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "PT",
       "name": "Portugal",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "AT",
       "name": "Austria",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "CH",
       "name": "Switzerland",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "CO",
       "name": "Colombia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "CL",
       "name": "Chile",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "NG",
       "name": "Nigeria",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "KE",
       "name": "Kenya",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "PE",
       "name": "Peru",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "UY",
       "name": "Uruguay",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "PH",
       "name": "Philippines",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SG",
       "name": "Singapore",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "PK",
       "name": "Pakistan",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "GH",
       "name": "Ghana",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "NL",
       "name": "Netherlands",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BE",
       "name": "Belgium",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SE",
       "name": "Sweden",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "NO",
       "name": "Norway",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DK",
       "name": "Denmark",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "PL",
       "name": "Poland",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "MY",
       "name": "Malaysia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "UA",
       "name": "Ukraine",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "CZ",
       "name": "Czechia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "RO",
       "name": "Romania",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "ZW",
       "name": "Zimbabwe",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "UG",
       "name": "Uganda",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "JM",
       "name": "Jamaica",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "GR",
       "name": "Greece",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "HU",
       "name": "Hungary",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FI",
       "name": "Finland",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BG",
       "name": "Bulgaria",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "HR",
       "name": "Croatia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "RS",
       "name": "Serbia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SK",
       "name": "Slovakia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "EE",
       "name": "Estonia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "LV",
       "name": "Latvia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "LT",
       "name": "Lithuania",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "MA",
       "name": "Morocco",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DZ",
       "name": "Algeria",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "TN",
       "name": "Tunisia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "EG",
       "name": "Egypt",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SA",
       "name": "Saudi Arabia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "LB",
       "name": "Lebanon",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "VE",
       "name": "Venezuela",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "GT",
       "name": "Guatemala",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DO",
       "name": "Dominican Republic",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "EC",
       "name": "Ecuador",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "CR",
       "name": "Costa Rica",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SN",
       "name": "Senegal",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "CI",
       "name": "Côte d'Ivoire",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BF",
       "name": "Burkina Faso",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "ML",
       "name": "Mali",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BJ",
       "name": "Benin",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "MG",
       "name": "Madagascar",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "ZM",
       "name": "Zambia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "MW",
       "name": "Malawi",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "LK",
       "name": "Sri Lanka",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SI",
       "name": "Slovenia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BA",
       "name": "Bosnia and Herzegovina",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "IS",
       "name": "Iceland",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "CY",
       "name": "Cyprus",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "LU",
       "name": "Luxembourg",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "MD",
       "name": "Moldova",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "RU",
       "name": "Russia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "KZ",
       "name": "Kazakhstan",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "XK",
       "name": "Kosovo",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "MK",
       "name": "North Macedonia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "ID",
       "name": "Indonesia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "VN",
       "name": "Vietnam",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "TW",
       "name": "Taiwan",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "HK",
       "name": "Hong Kong",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "AM",
       "name": "Armenia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "AZ",
       "name": "Azerbaijan",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "UZ",
       "name": "Uzbekistan",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "IR",
       "name": "Iran",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "NP",
       "name": "Nepal",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SY",
       "name": "Syria",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SD",
       "name": "Sudan",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "CU",
       "name": "Cuba",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "PR",
       "name": "Puerto Rico",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "IL",
       "name": "Israel",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "TJ",
       "name": "Tajikistan",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "AF",
       "name": "Afghanistan",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "KR",
       "name": "South Korea",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "TH",
       "name": "Thailand",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BD",
       "name": "Bangladesh",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "GN",
       "name": "Guinea",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "GA",
       "name": "Gabon",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "TD",
       "name": "Chad",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "MR",
       "name": "Mauritania",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "GM",
       "name": "The Gambia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "LR",
       "name": "Liberia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SO",
       "name": "Somalia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "GY",
       "name": "Guyana",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SR",
       "name": "Suriname",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "YE",
       "name": "Yemen",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
-      "clusterCount": 15
-    },
-    {
-      "code": "CN",
-      "name": "China",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BY",
       "name": "Belarus",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "GE",
       "name": "Georgia",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "ME",
       "name": "Montenegro",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "AL",
       "name": "Albania",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "PS",
       "name": "Palestine",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
-      "clusterCount": 15
-    },
-    {
-      "code": "LY",
-      "name": "Libya",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "IQ",
       "name": "Iraq",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
-      "clusterCount": 15
-    },
-    {
-      "code": "MM",
-      "name": "Myanmar",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
-      "clusterCount": 15
-    },
-    {
-      "code": "KG",
-      "name": "Kyrgyzstan",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
-      "clusterCount": 15
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 10
     },
     {
       "code": "NA",
       "name": "Namibia",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "HN",
       "name": "Honduras",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BO",
       "name": "Bolivia",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "SV",
       "name": "El Salvador",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
-      "clusterCount": 15
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 10
     },
     {
       "code": "CD",
       "name": "DR Congo",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
-      "clusterCount": 15
-    },
-    {
-      "code": "CM",
-      "name": "Cameroon",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
-      "clusterCount": 15
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 10
     },
     {
       "code": "TZ",
       "name": "Tanzania",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
-      "clusterCount": 15
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 10
     },
     {
       "code": "RW",
       "name": "Rwanda",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
-      "clusterCount": 15
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 9
     },
     {
       "code": "HT",
       "name": "Haiti",
-      "updatedAt": "2026-10-07T12:57:09.368Z",
-      "clusterCount": 15
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 13
     },
     {
       "code": "PY",
       "name": "Paraguay",
-      "updatedAt": "2026-10-07T13:10:40.792Z",
-      "clusterCount": 15
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 9
     },
     {
       "code": "PA",
       "name": "Panama",
-      "updatedAt": "2026-10-07T13:10:40.792Z",
-      "clusterCount": 15
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 9
     },
     {
       "code": "KH",
       "name": "Cambodia",
-      "updatedAt": "2026-10-07T13:10:40.792Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "MZ",
       "name": "Mozambique",
-      "updatedAt": "2026-10-07T13:10:40.792Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BS",
       "name": "Bahamas",
-      "updatedAt": "2026-10-07T13:10:40.792Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "BZ",
       "name": "Belize",
-      "updatedAt": "2026-10-07T13:10:40.792Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "TG",
       "name": "Togo",
-      "updatedAt": "2026-10-07T13:10:40.792Z",
-      "clusterCount": 15
-    },
-    {
-      "code": "SS",
-      "name": "South Sudan",
-      "updatedAt": "2026-10-07T13:10:40.792Z",
-      "clusterCount": 15
-    },
-    {
-      "code": "CF",
-      "name": "Central African Republic",
-      "updatedAt": "2026-10-07T13:10:40.792Z",
-      "clusterCount": 15
-    },
-    {
-      "code": "ET",
-      "name": "Ethiopia",
-      "updatedAt": "2026-10-07T13:10:40.792Z",
-      "clusterCount": 15
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 2
     }
   ],
   "regions": [
     {
       "code": "FR-ARA",
       "name": "Auvergne-Rhône-Alpes",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-BFC",
       "name": "Bourgogne-Franche-Comté",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-BRE",
       "name": "Brittany",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-CVL",
       "name": "Centre-Val de Loire",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-20R",
       "name": "Corsica",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-GES",
       "name": "Grand Est",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-HDF",
       "name": "Hauts-de-France",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-IDF",
       "name": "Île-de-France",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-NOR",
       "name": "Normandy",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-NAQ",
       "name": "Nouvelle-Aquitaine",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-OCC",
       "name": "Occitanie",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-PDL",
       "name": "Pays de la Loire",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "FR-PAC",
       "name": "Provence-Alpes-Côte d'Azur",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-BW",
       "name": "Baden-Württemberg",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-BY",
       "name": "Bavaria",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-BE",
       "name": "Berlin",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-BB",
       "name": "Brandenburg",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-HB",
       "name": "Bremen",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-HH",
       "name": "Hamburg",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-HE",
       "name": "Hesse",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-MV",
       "name": "Mecklenburg-Western Pomerania",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-NI",
       "name": "Lower Saxony",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-NW",
       "name": "North Rhine-Westphalia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-RP",
       "name": "Rhineland-Palatinate",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-SL",
       "name": "Saarland",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-SN",
       "name": "Saxony",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-ST",
       "name": "Saxony-Anhalt",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-SH",
       "name": "Schleswig-Holstein",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     },
     {
       "code": "DE-TH",
       "name": "Thuringia",
-      "updatedAt": "2026-10-07T13:10:34.169Z",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-CT",
+      "name": "Connecticut",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-ME",
+      "name": "Maine",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-MA",
+      "name": "Massachusetts",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-NH",
+      "name": "New Hampshire",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-RI",
+      "name": "Rhode Island",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-VT",
+      "name": "Vermont",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-NJ",
+      "name": "New Jersey",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-NY",
+      "name": "New York",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-PA",
+      "name": "Pennsylvania",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-IL",
+      "name": "Illinois",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-IN",
+      "name": "Indiana",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-MI",
+      "name": "Michigan",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-OH",
+      "name": "Ohio",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-WI",
+      "name": "Wisconsin",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-IA",
+      "name": "Iowa",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-KS",
+      "name": "Kansas",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-MN",
+      "name": "Minnesota",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-MO",
+      "name": "Missouri",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-NE",
+      "name": "Nebraska",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-ND",
+      "name": "North Dakota",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-SD",
+      "name": "South Dakota",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-DE",
+      "name": "Delaware",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-DC",
+      "name": "District of Columbia",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-FL",
+      "name": "Florida",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-GA",
+      "name": "Georgia",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-MD",
+      "name": "Maryland",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-NC",
+      "name": "North Carolina",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-SC",
+      "name": "South Carolina",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-VA",
+      "name": "Virginia",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-WV",
+      "name": "West Virginia",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-AL",
+      "name": "Alabama",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-KY",
+      "name": "Kentucky",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-MS",
+      "name": "Mississippi",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-TN",
+      "name": "Tennessee",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-AR",
+      "name": "Arkansas",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-LA",
+      "name": "Louisiana",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-OK",
+      "name": "Oklahoma",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-TX",
+      "name": "Texas",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-AZ",
+      "name": "Arizona",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-CO",
+      "name": "Colorado",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-ID",
+      "name": "Idaho",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-MT",
+      "name": "Montana",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-NV",
+      "name": "Nevada",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-NM",
+      "name": "New Mexico",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-UT",
+      "name": "Utah",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-WY",
+      "name": "Wyoming",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-AK",
+      "name": "Alaska",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-CA",
+      "name": "California",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-HI",
+      "name": "Hawaii",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-OR",
+      "name": "Oregon",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
+      "clusterCount": 15
+    },
+    {
+      "code": "US-WA",
+      "name": "Washington",
+      "updatedAt": "2026-10-07T13:39:18.564Z",
       "clusterCount": 15
     }
   ]

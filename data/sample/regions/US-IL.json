@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "US",
+  "countryName": "United States",
+  "regionCode": "US-IL",
+  "regionName": "Illinois",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
+  "clusters": [
+    {
+      "id": "zONEKQUmN1v1",
+      "representative": {
+        "id": "zONEKQUmN1v1",
+        "url": "https://chicago.suntimes.com/crime/2026/10/06/chicago-police-cpd-shooting-little-village",
+        "canonicalUrl": "https://chicago.suntimes.com/crime/2026/10/06/chicago-police-cpd-shooting-little-village",
+        "title": "Chicago cop fired 2 guns during off-duty shooting that left person wounded in Little Village, COPA says",
+        "description": "An off-duty Chicago police officer shot a person while firing two guns at the same time during an argument this weekend in Little Village, the Civilian Office for Police Accountability announced Tuesday. The officer was driving in the 2600 block of West 24th Street and encountered a group of…",
+        "source": {
+          "id": "us_il_suntimes",
+          "name": "Chicago Sun-Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T21:05:47.059Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [
+        {
+          "id": "2j77rkEPRb3u",
+          "url": "https://blockclubchicago.org/2026/10/06/copa-says-off-duty-chicago-officer-fired-2-guns-at-same-time-during-little-village-shooting/",
+          "canonicalUrl": "https://blockclubchicago.org/2026/10/06/copa-says-off-duty-chicago-officer-fired-2-guns-at-same-time-during-little-village-shooting/",
+          "title": "COPA Says Off-Duty Chicago Officer Fired 2 Guns At Same Time During Little Village Shooting",
+          "description": "The off-duty officer fired at man on two occasions after \"an exchange of words\" early Sunday morning, according to the civilian review board.",
+          "source": {
+            "id": "us_il_blockclub",
+            "name": "Block Club Chicago"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-07T00:36:31.000Z",
+          "imageUrl": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2025/09/091325-Mexican-Independence-Day-Colin-Boyle-2181.jpg?fit=1024%2C681&amp;ssl=1",
+          "countryCode": "US",
+          "regionCode": "US-IL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T00:36:31.000Z"
+    },
+    {
+      "id": "xZZPurQBFiK6",
+      "representative": {
+        "id": "xZZPurQBFiK6",
+        "url": "https://chicago.suntimes.com/crime/2026/10/06/4-year-old-critical-condition-after-shot-in-head",
+        "canonicalUrl": "https://chicago.suntimes.com/crime/2026/10/06/4-year-old-critical-condition-after-shot-in-head",
+        "title": "4-year-old boy critically wounded in South Deering shooting",
+        "description": "A 4-year-old boy is in critical condition after he was shot in his head in South Deering Tuesday night, according to Chicago police. Officers responded to a residence in the 2200 block of East 99th Street at 4:01 p.m. and found the boy, police said. He was taken to Comer Children’s Hospital in…",
+        "source": {
+          "id": "us_il_suntimes",
+          "name": "Chicago Sun-Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T00:00:24.393Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [
+        {
+          "id": "HiNM0LsCcRSQ",
+          "url": "https://wgntv.com/news/chicagocrime/four-year-old-critically-injured-chicago-shooting/",
+          "canonicalUrl": "https://wgntv.com/news/chicagocrime/four-year-old-critically-injured-chicago-shooting/",
+          "title": "4-year-old boy critically injured in Far South Side shooting",
+          "description": "A 4-year-old boy was critically injured after being shot in the head Tuesday afternoon on the Far South Side.",
+          "source": {
+            "id": "us_il_wgn",
+            "name": "WGN-TV"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-07T00:10:32.000Z",
+          "imageUrl": "https://wgntv.com/wp-content/uploads/sites/5/2022/11/snapshot-18-1.jpg?w=900",
+          "countryCode": "US",
+          "regionCode": "US-IL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T00:10:32.000Z"
+    },
+    {
+      "id": "t-hFOweFSc64",
+      "representative": {
+        "id": "t-hFOweFSc64",
+        "url": "https://blockclubchicago.org/2026/10/06/chicago-named-best-big-city-in-u-s-for-10th-straight-year/",
+        "canonicalUrl": "https://blockclubchicago.org/2026/10/06/chicago-named-best-big-city-in-u-s-for-10th-straight-year/",
+        "title": "Chicago Named Best Big City In U.S. For 10th Straight Year",
+        "description": "To celebrate the honor from Conde Nast Traveler, city leaders are dubbing this Saturday “Best Big City Day” with promotions that include a special beer and festivities on the Riverwalk.",
+        "source": {
+          "id": "us_il_blockclub",
+          "name": "Block Club Chicago"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T17:01:46.000Z",
+        "imageUrl": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2026/06/060926-South-Pond-Nature-Colin-Boyle-3136.jpg?fit=1024%2C682&amp;ssl=1",
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [
+        {
+          "id": "xpg0ml_SvPNb",
+          "url": "https://wgntv.com/news/chicago-news/chicago-named-best-big-city-in-us-for-10th-consecutive-year/",
+          "canonicalUrl": "https://wgntv.com/news/chicago-news/chicago-named-best-big-city-in-us-for-10th-consecutive-year/",
+          "title": "Chicago named 'Best Big City' in US for 10th consecutive year",
+          "description": "The lakefront, museums, architecture and food are all big hits with readers.",
+          "source": {
+            "id": "us_il_wgn",
+            "name": "WGN-TV"
+          },
+          "sourceCountry": "US",
+          "language": "en",
+          "publishedAt": "2026-10-06T23:52:59.000Z",
+          "imageUrl": "https://wgntv.com/wp-content/uploads/sites/5/2026/04/CHICAGO-SKYLINE-WEATHER-04092026.png?w=900",
+          "countryCode": "US",
+          "regionCode": "US-IL"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T23:52:59.000Z"
+    },
+    {
+      "id": "xR-8UQ5lQOQI",
+      "representative": {
+        "id": "xR-8UQ5lQOQI",
+        "url": "https://blockclubchicago.org/2026/10/07/irving-park-food-pantry-moving-to-new-home-as-demand-spikes/",
+        "canonicalUrl": "https://blockclubchicago.org/2026/10/07/irving-park-food-pantry-moving-to-new-home-as-demand-spikes/",
+        "title": "Irving Park Food Pantry Moving To New Home As Demand Spikes",
+        "description": "The Irving Park Community Food Pantry is looking to raise $255,000 for the project after securing more than $1.5 million so far.",
+        "source": {
+          "id": "us_il_blockclub",
+          "name": "Block Club Chicago"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:19:00.000Z",
+        "imageUrl": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2024/11/IrvingPantry2024-11-16-at-5.45.39%E2%80%AFPM.jpg?fit=1024%2C688&amp;ssl=1",
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:19:00.000Z"
+    },
+    {
+      "id": "6LrJZDuGjvV7",
+      "representative": {
+        "id": "6LrJZDuGjvV7",
+        "url": "https://blockclubchicago.org/2026/10/07/5-must-see-art-exhibits-to-check-out-in-october/",
+        "canonicalUrl": "https://blockclubchicago.org/2026/10/07/5-must-see-art-exhibits-to-check-out-in-october/",
+        "title": "5 Must-See Art Exhibits To Check Out In October",
+        "description": "This month’s selected exhibits draw inspiration from Greek myths, Black veterans and tattoo art.",
+        "source": {
+          "id": "us_il_blockclub",
+          "name": "Block Club Chicago"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:17:00.000Z",
+        "imageUrl": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2026/10/TheModernTemptation_-Yianna-Foufas-scaled.jpg?fit=1024%2C758&amp;ssl=1",
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:17:00.000Z"
+    },
+    {
+      "id": "6gVjQRjn8SwG",
+      "representative": {
+        "id": "6gVjQRjn8SwG",
+        "url": "https://blockclubchicago.org/2026/10/07/missing-middle-housing-program-finishes-1st-homes-in-north-lawndale-with-hundreds-more-to-come/",
+        "canonicalUrl": "https://blockclubchicago.org/2026/10/07/missing-middle-housing-program-finishes-1st-homes-in-north-lawndale-with-hundreds-more-to-come/",
+        "title": "‘Missing Middle’ Housing Program Finishes 1st Homes In North Lawndale, With Hundreds More To Come",
+        "description": "Seven two-flats have been completed in North Lawn as part of a program that looks to bring for-sale housing affordable to the middle class in areas where such housing is sparse.",
+        "source": {
+          "id": "us_il_blockclub",
+          "name": "Block Club Chicago"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T13:00:00.000Z",
+        "imageUrl": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2026/10/IMG_4894-scaled.jpg?fit=1024%2C683&amp;ssl=1",
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:00:00.000Z"
+    },
+    {
+      "id": "I_-Bw-M4GTjZ",
+      "representative": {
+        "id": "I_-Bw-M4GTjZ",
+        "url": "https://wgntv.com/news/chicagocrime/chicago-man-accused-of-shooting-victim-during-argument-on-southwest-side/",
+        "canonicalUrl": "https://wgntv.com/news/chicagocrime/chicago-man-accused-of-shooting-victim-during-argument-on-southwest-side/",
+        "title": "Chicago man accused of shooting victim during argument on Southwest Side",
+        "description": "CHICAGO — Felony charges have been filed against a Chicago man accused of shooting another man during an argument on the city's Southwest Side late last month. Chicago police say 62-year-old Tommie Griffin has been charged with one felony count of attempted first-degree murder and one felony count…",
+        "source": {
+          "id": "us_il_wgn",
+          "name": "WGN-TV"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:38:18.000Z",
+        "imageUrl": "https://wgntv.com/wp-content/uploads/sites/5/2026/10/NO-NEED-TO-CHANGE-THIS-24.png?w=900",
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:38:18.000Z"
+    },
+    {
+      "id": "wPLSZyTqQKrQ",
+      "representative": {
+        "id": "wPLSZyTqQKrQ",
+        "url": "https://www.wcbu.org/local-news/2026-10-07/east-peoria-council-staunchly-defends-use-of-flock-cameras-approves-10-camera-expansion",
+        "canonicalUrl": "https://www.wcbu.org/local-news/2026-10-07/east-peoria-council-staunchly-defends-use-of-flock-cameras-approves-10-camera-expansion",
+        "title": "East Peoria council staunchly defends use of Flock cameras, approves 10-camera expansion",
+        "description": "Council members voted unanimously to approve a five-year contract adding 10 Flock license plate readers in East Peoria, despite opposition in and outside the council chambers.",
+        "source": {
+          "id": "us_il_wcbu",
+          "name": "WCBU Peoria"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:16:08.000Z",
+        "imageUrl": "https://npr.brightspotcdn.com/dims4/default/d745ff0/2147483647/strip/false/crop/6000x4000+0+0/resize/792x528!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F68%2F70%2F25c8fb5640449dbe8ec37cce6615%2Fimg-3612.JPG",
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:16:08.000Z"
+    },
+    {
+      "id": "MGFb_ln9XIiO",
+      "representative": {
+        "id": "MGFb_ln9XIiO",
+        "url": "https://capitolnewsillinois.com/news/bailey-trying-to-stay-on-message-as-attacks-from-pritzker-mount/",
+        "canonicalUrl": "https://capitolnewsillinois.com/news/bailey-trying-to-stay-on-message-as-attacks-from-pritzker-mount/",
+        "title": "Bailey trying to stay on message as attacks from Pritzker mount",
+        "description": "Bailey said he thinks voters are more frustrated with Pritzker than worried about Trump.",
+        "source": {
+          "id": "us_il_capitolnews",
+          "name": "Capitol News Illinois"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T12:00:10.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:00:10.000Z"
+    },
+    {
+      "id": "eWZSGntO_YDB",
+      "representative": {
+        "id": "eWZSGntO_YDB",
+        "url": "https://chicago.suntimes.com/crime/2026/10/07/3-shot-at-west-pullman-gas-station-overnight",
+        "canonicalUrl": "https://chicago.suntimes.com/crime/2026/10/07/3-shot-at-west-pullman-gas-station-overnight",
+        "title": "3 shot at West Pullman gas station overnight",
+        "description": "Three people were wounded in a shooting early Wednesday at a gas station in West Pullman on the Far South Side. Around 1:30 a.m., three people — 17, 18 and 24, were at the gas station in the 11600 block of South Michigan Avenue when a black SUV pulled up and someone inside opened fire, Chicago…",
+        "source": {
+          "id": "us_il_suntimes",
+          "name": "Chicago Sun-Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:13:35.661Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:13:35.661Z"
+    },
+    {
+      "id": "rw1jCwBKxA3a",
+      "representative": {
+        "id": "rw1jCwBKxA3a",
+        "url": "https://wgntv.com/news/chicagocrime/3-injured-in-drive-by-shooting-at-far-south-side-gas-station/",
+        "canonicalUrl": "https://wgntv.com/news/chicagocrime/3-injured-in-drive-by-shooting-at-far-south-side-gas-station/",
+        "title": "3 injured in drive-by shooting at Far South Side gas station",
+        "description": "CHICAGO — Police say three people, including a teen boy, are recovering in the hospital on Wednesday morning following a drive-by shooting at a Far South Side gas station. According to Chicago police, the shooting unfolded around 1:30 a.m. Wednesday in the 11600 block of South Michigan Avenue in…",
+        "source": {
+          "id": "us_il_wgn",
+          "name": "WGN-TV"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T11:08:33.000Z",
+        "imageUrl": "https://wgntv.com/wp-content/uploads/sites/5/2022/11/snapshot-18-1.jpg?w=900",
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:08:33.000Z"
+    },
+    {
+      "id": "J_bu8iXGJSDf",
+      "representative": {
+        "id": "J_bu8iXGJSDf",
+        "url": "https://chicago.suntimes.com/architecture-design/2026/10/07/chinatown-city-hall-on-leong-merchants-750000-restoration-grant",
+        "canonicalUrl": "https://chicago.suntimes.com/architecture-design/2026/10/07/chinatown-city-hall-on-leong-merchants-750000-restoration-grant",
+        "title": "Chinatown's former 'City Hall' gets $750,000 restoration grant",
+        "description": "The Pui Tak Center — Chinatown's polychromatic bonanza of Chinese Eclectic architecture — has received a $750,000 grant to help restore the 98-year-old landmark. The matching grant was announced Thursday. The center, 2216 S. Wentworth, is among 24 sites awarded grants through the Save America's…",
+        "source": {
+          "id": "us_il_suntimes",
+          "name": "Chicago Sun-Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T10:30:00.000Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:30:00.000Z"
+    },
+    {
+      "id": "-ZqjGq4W6qSG",
+      "representative": {
+        "id": "-ZqjGq4W6qSG",
+        "url": "https://wgntv.com/hispanic-heritage-month/documenting-elgins-latino-history/",
+        "canonicalUrl": "https://wgntv.com/hispanic-heritage-month/documenting-elgins-latino-history/",
+        "title": "Documenting Elgin’s Latino History",
+        "description": "The long-shuttered Elgin Watch Factory gave the city its motto, \"The City to Watch.\"",
+        "source": {
+          "id": "us_il_wgn",
+          "name": "WGN-TV"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:07:47.000Z",
+        "imageUrl": "https://wgntv.com/wp-content/uploads/sites/5/2026/10/snapshot-2026-10-06T215837.500.jpg?w=900",
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T03:07:47.000Z"
+    },
+    {
+      "id": "Or2ryenn4p7N",
+      "representative": {
+        "id": "Or2ryenn4p7N",
+        "url": "https://chicago.suntimes.com/crime/2026/10/06/man-sentenced-to-15-years-for-selling-gun-to-undercover-cop-used-in-fatal-shooting",
+        "canonicalUrl": "https://chicago.suntimes.com/crime/2026/10/06/man-sentenced-to-15-years-for-selling-gun-to-undercover-cop-used-in-fatal-shooting",
+        "title": "Man sentenced to 15 years for selling gun to undercover cop used in fatal shooting",
+        "description": "A man has been sentenced to 15 years in federal prison for selling an undercover Chicago police officer a gun he had used to fatally shoot a man in Greater Grand Crossing, according to the U.S. Attorney's Office for the Northern District of Illinois. Levion Thomas was sentenced last Thursday by…",
+        "source": {
+          "id": "us_il_suntimes",
+          "name": "Chicago Sun-Times"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-07T01:03:37.232Z",
+        "imageUrl": null,
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T01:03:37.232Z"
+    },
+    {
+      "id": "zGOL5IF2bXZC",
+      "representative": {
+        "id": "zGOL5IF2bXZC",
+        "url": "https://www.wcbu.org/local-news/2026-10-06/after-two-decades-washington-plans-to-change-bondurant-street-to-two-way-during-busy-high-school-hours",
+        "canonicalUrl": "https://www.wcbu.org/local-news/2026-10-06/after-two-decades-washington-plans-to-change-bondurant-street-to-two-way-during-busy-high-school-hours",
+        "title": "After two decades, Washington plans to change Bondurant Street to two-way during busy high school hours",
+        "description": "Changes could be coming to the busy intersection of West Jefferson and Bondurant streets during student arrival and pickup times at Washington Community High School.",
+        "source": {
+          "id": "us_il_wcbu",
+          "name": "WCBU Peoria"
+        },
+        "sourceCountry": "US",
+        "language": "en",
+        "publishedAt": "2026-10-06T19:47:34.000Z",
+        "imageUrl": "https://npr.brightspotcdn.com/dims4/default/82fe956/2147483647/strip/false/crop/6237x3898+0+0/resize/792x495!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffa%2Fb4%2F0273214b4eb7aeb10d11e8fd3833%2Fwashingtoncityhall-washington-bollinger02.jpg",
+        "countryCode": "US",
+        "regionCode": "US-IL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:47:34.000Z"
+    }
+  ]
+}

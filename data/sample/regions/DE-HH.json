@@ -4,7 +4,7 @@
   "countryName": "Germany",
   "regionCode": "DE-HH",
   "regionName": "Hamburg",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "iEkVf7hRdgtq",
@@ -251,48 +251,6 @@
       "latestPublishedAt": "2026-10-07T05:00:00.000Z"
     },
     {
-      "id": "2OhqFT76Dvqj",
-      "representative": {
-        "id": "2OhqFT76Dvqj",
-        "url": "https://www.mopo.de/hamburg/politik/hamburg-macht-ns-gedenkstaettenbesuch-fuer-schueler-zur-pflicht/5023469",
-        "canonicalUrl": "https://www.mopo.de/hamburg/politik/hamburg-macht-ns-gedenkstaettenbesuch-fuer-schueler-zur-pflicht/5023469",
-        "title": "Hamburg macht NS-Gedenkstättenbesuch für Schüler zur Pflicht",
-        "description": "„Die Erinnerung am Küchentisch gibt es nicht mehr“, sagt Bildungssenatorin Bekeris. Kultursenator Brosda weist mit aktuellen Parallelen auf die „Wichtigkeit historischer Bildung“ hin.",
-        "source": {
-          "id": "mopo",
-          "name": "Hamburger Morgenpost"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T13:25:55.000Z",
-        "imageUrl": "https://image.mopo.de/4003994.jpg?imageId=4003994&width=1300&height=742&format=jpg",
-        "countryCode": "DE",
-        "regionCode": "DE-HH"
-      },
-      "related": [
-        {
-          "id": "ujmAmjZLHtLC",
-          "url": "https://www.ndr.de/nachrichten/hamburg/ns-gedenkstaetten-besuche-fuer-hamburger-schueler-kuenftig-pflicht,gedenkstaettenbesuch-100.html",
-          "canonicalUrl": "https://www.ndr.de/nachrichten/hamburg/ns-gedenkstaetten-besuche-fuer-hamburger-schueler-kuenftig-pflicht,gedenkstaettenbesuch-100.html",
-          "title": "NS-Gedenkstätten: Besuche für Hamburger Schüler künftig Pflicht",
-          "description": "Mindestens einmal sollen sie eine Gedenkstätte besuchen, die an die Verbrechen des Nationalsozialismus erinnert. Das haben Bildungs- und Kulturbehörde angekündigt.",
-          "source": {
-            "id": "ndr_hamburg",
-            "name": "NDR Hamburg"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T18:57:35.000Z",
-          "imageUrl": null,
-          "countryCode": "DE",
-          "regionCode": "DE-HH"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T18:57:35.000Z"
-    },
-    {
       "id": "zqAL6a1_CSau",
       "representative": {
         "id": "zqAL6a1_CSau",
@@ -525,6 +483,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T11:43:42.000Z"
+    },
+    {
+      "id": "oDy-VBs6Lj7T",
+      "representative": {
+        "id": "oDy-VBs6Lj7T",
+        "url": "https://www.ndr.de/nachrichten/hamburg/Artikelvorlage-HH,cosco-120.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/hamburg/Artikelvorlage-HH,cosco-120.html",
+        "title": "Bund untersagt Zippel-Übernahme durch chinesische Staatsreederei",
+        "description": "Demnach darf Cosco wegen Sicherheitsbedenken nicht 80 Prozent der Anteile des Hamburger Logistikunternehmens Zippel übernehmen.",
+        "source": {
+          "id": "ndr_hamburg",
+          "name": "NDR Hamburg"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:30:14.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:30:14.000Z"
     }
   ]
 }

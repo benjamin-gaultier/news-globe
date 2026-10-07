@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "NL",
   "countryName": "Netherlands",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
-    {
-      "id": "ugXauqHNKOin",
-      "representative": {
-        "id": "ugXauqHNKOin",
-        "url": "https://www.ad.nl/buitenland/live-midden-oosten-strijd-in-jemen-kost-270-levens-in-24-uur-tijd~ac528ac3/",
-        "canonicalUrl": "https://www.ad.nl/buitenland/live-midden-oosten-strijd-in-jemen-kost-270-levens-in-24-uur-tijd~ac528ac3/",
-        "title": "LIVE Midden-Oosten | Strijd in Jemen kost 270 levens in 24 uur tijd",
-        "description": "De strijd in Jemen heeft in 24 uur tijd meer dan 270 levens gekost. Bronnen melden persbureau AFP dat 115 militairen uit het regeringskamp sneuvelden. Aan de zijde van de Houthi’s vielen 160 doden. Volg alle ontwikkelingen over het Midden-Oosten in ons liveblog.",
-        "source": {
-          "id": "ad",
-          "name": "AD"
-        },
-        "sourceCountry": "NL",
-        "language": "nl",
-        "publishedAt": "2026-10-06T13:16:00.000Z",
-        "imageUrl": "https://images.ad.nl/NWQ2NzBjYjIwN2I1ZTQxZDk1YjAvZGlvLzI3ODU1NTI3Ni9maXQtd2lkdGgvNDAw/de-regering-van-jemen-zegt-na-gevechten-met-de-houthi-s-de-controle-te-hebben-heroverd-over-de-strategische-zeestraat-bab-el-mandeb",
-        "countryCode": "NL",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "nWWO-d91dWWk",
-          "url": "https://www.telegraaf.nl/buitenland/live-bloederige-escalatie-van-strijd-in-jemen-meer-dan-270-doden-in-24-uur/162633702.html",
-          "canonicalUrl": "https://www.telegraaf.nl/buitenland/live-bloederige-escalatie-van-strijd-in-jemen-meer-dan-270-doden-in-24-uur/162633702.html",
-          "title": "LIVE | Bloederige escalatie van strijd in Jemen: meer dan 270 doden in 24 uur",
-          "description": "De vredesonderhandelingen tussen Iran en de Verenigde Staten staan op losse schroeven en het blijft onrustig in het Midden-Oosten. Volg de laatste ontwikkelingen in de regio in ons liveblog.",
-          "source": {
-            "id": "telegraaf",
-            "name": "De Telegraaf"
-          },
-          "sourceCountry": "NL",
-          "language": "nl",
-          "publishedAt": "2026-10-06T13:20:00.000Z",
-          "imageUrl": "https://prod-img.telegraaf.nl/public/incoming/vdhf08-anp-571672692.jpg/alternates/BASE_SIXTEEN_NINE/ANP-571672692.jpg",
-          "countryCode": "NL",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:20:00.000Z"
-    },
     {
       "id": "ECW8ooRCVTlF",
       "representative": {
@@ -66,7 +24,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:30:23.000Z"
     },
@@ -90,7 +48,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:26:00.000Z"
     },
@@ -114,7 +72,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:25:00.000Z"
     },
@@ -138,7 +96,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:25:00.000Z"
     },
@@ -197,7 +155,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T13:23:00.000Z"
     },
@@ -239,7 +197,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:21:04.000Z"
     },
@@ -281,7 +239,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:21:00.000Z"
     },
@@ -305,7 +263,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:20:51.000Z"
     },
@@ -329,9 +287,51 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:20:20.000Z"
+    },
+    {
+      "id": "ugXauqHNKOin",
+      "representative": {
+        "id": "ugXauqHNKOin",
+        "url": "https://www.ad.nl/buitenland/live-midden-oosten-strijd-in-jemen-kost-270-levens-in-24-uur-tijd~ac528ac3/",
+        "canonicalUrl": "https://www.ad.nl/buitenland/live-midden-oosten-strijd-in-jemen-kost-270-levens-in-24-uur-tijd~ac528ac3/",
+        "title": "LIVE Midden-Oosten | Strijd in Jemen kost 270 levens in 24 uur tijd",
+        "description": "De strijd in Jemen heeft in 24 uur tijd meer dan 270 levens gekost. Bronnen melden persbureau AFP dat 115 militairen uit het regeringskamp sneuvelden. Aan de zijde van de Houthi’s vielen 160 doden. Volg alle ontwikkelingen over het Midden-Oosten in ons liveblog.",
+        "source": {
+          "id": "ad",
+          "name": "AD"
+        },
+        "sourceCountry": "NL",
+        "language": "nl",
+        "publishedAt": "2026-10-06T13:16:00.000Z",
+        "imageUrl": "https://images.ad.nl/NWQ2NzBjYjIwN2I1ZTQxZDk1YjAvZGlvLzI3ODU1NTI3Ni9maXQtd2lkdGgvNDAw/de-regering-van-jemen-zegt-na-gevechten-met-de-houthi-s-de-controle-te-hebben-heroverd-over-de-strategische-zeestraat-bab-el-mandeb",
+        "countryCode": "NL",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "nWWO-d91dWWk",
+          "url": "https://www.telegraaf.nl/buitenland/live-bloederige-escalatie-van-strijd-in-jemen-meer-dan-270-doden-in-24-uur/162633702.html",
+          "canonicalUrl": "https://www.telegraaf.nl/buitenland/live-bloederige-escalatie-van-strijd-in-jemen-meer-dan-270-doden-in-24-uur/162633702.html",
+          "title": "LIVE | Bloederige escalatie van strijd in Jemen: meer dan 270 doden in 24 uur",
+          "description": "De vredesonderhandelingen tussen Iran en de Verenigde Staten staan op losse schroeven en het blijft onrustig in het Midden-Oosten. Volg de laatste ontwikkelingen in de regio in ons liveblog.",
+          "source": {
+            "id": "telegraaf",
+            "name": "De Telegraaf"
+          },
+          "sourceCountry": "NL",
+          "language": "nl",
+          "publishedAt": "2026-10-06T13:20:00.000Z",
+          "imageUrl": "https://prod-img.telegraaf.nl/public/incoming/vdhf08-anp-571672692.jpg/alternates/BASE_SIXTEEN_NINE/ANP-571672692.jpg",
+          "countryCode": "NL",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:20:00.000Z"
     },
     {
       "id": "WceQY8cvxHyP",
@@ -353,7 +353,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:15:55.000Z"
     },
@@ -377,7 +377,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:15:26.000Z"
     },
@@ -401,7 +401,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:14:57.000Z"
     },
@@ -425,7 +425,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:13:00.000Z"
     },

@@ -2,176 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "NO",
   "countryName": "Norway",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
-    {
-      "id": "KqZDL0TjeKZ9",
-      "representative": {
-        "id": "KqZDL0TjeKZ9",
-        "url": "https://www.vg.no/nyheter/i/JrxxQX/flertall-for-lovfesting-av-barnehageplass-for-desemberbarna-i-desember",
-        "canonicalUrl": "https://www.vg.no/nyheter/i/JrxxQX/flertall-for-lovfesting-av-barnehageplass-for-desemberbarna-i-desember",
-        "title": "Flertall på Stortinget: Får rett til barnehageplass",
-        "description": "Desemberbarn kan få rett til barnehageplass før de fyller ett år. Høyre har fått flertall for en lovendring. – Helt fantastisk, sier trebarnsmamma Siri Jensen (34).",
-        "source": {
-          "id": "vg",
-          "name": "VG"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T13:14:24.000Z",
-        "imageUrl": null,
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "D4CuADJrs4vC",
-          "url": "https://www.aftenposten.no/norge/i/Vg9261/flertall-paa-stortinget-for-aa-gi-desemberbarn-barnehageplass?utm_medium=rss",
-          "canonicalUrl": "https://www.aftenposten.no/norge/i/Vg9261/flertall-paa-stortinget-for-aa-gi-desemberbarn-barnehageplass",
-          "title": "Flertall på Stortinget for å gi desemberbarn barnehageplass",
-          "description": "Det er flertall på Stortinget for å gi desemberbarn rett til barnehageplass før de fyller ett år.",
-          "source": {
-            "id": "aftenposten",
-            "name": "Aftenposten"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T13:42:45.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/6a171c66-d18d-39d1-afec-f4018b962bdd?format=auto&w=1000&s=cd4bb0b12aa1c30594cc50fa51374ff24b729449",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:42:45.000Z"
-    },
-    {
-      "id": "FwvbtaMNgpD6",
-      "representative": {
-        "id": "FwvbtaMNgpD6",
-        "url": "https://www.nrk.no/nyheter/paramounts-warner-kjop-er-offisielt-_-blir-hollywood-gigant-1.18047073",
-        "canonicalUrl": "https://www.nrk.no/nyheter/paramounts-warner-kjop-er-offisielt-_-blir-hollywood-gigant-1.18047073",
-        "title": "Paramounts Warner-kjøp er offisielt – blir Hollywood-gigant",
-        "description": "Paramount har fullført oppkjøpet av Warner Bros. Discovery og danner selskapet Skydance, som nå kontrollerer en rekke av Hollywoods mest verdifulle strømmetjenester. Det nye selskapet, ledet av teknologiarvingen David Ellison, plasserer seg blant de fremste konkurrentene til strømmegiganter som…",
-        "source": {
-          "id": "nrk",
-          "name": "NRK"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T13:35:13.000Z",
-        "imageUrl": "https://gfx.nrk.no/vOB0LomzRkaCYjHxWlFG2AEsxFyI7plOxWDrfMGzWhEQ.jpg",
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "HqXtcr2s2Wn8",
-          "url": "https://www.vg.no/rampelys/i/b8GwJd/paramount-kjoeper-warner-blir-hollywood-gigant",
-          "canonicalUrl": "https://www.vg.no/rampelys/i/b8GwJd/paramount-kjoeper-warner-blir-hollywood-gigant",
-          "title": "Paramount kjøper Warner – blir Hollywood-gigant",
-          "description": "Paramount har fullført oppkjøpet av Warner Bros. Discovery og danner selskapet Skydance, som nå kontrollerer en rekke av Hollywoods mest verdifulle strømmetjenester.",
-          "source": {
-            "id": "vg",
-            "name": "VG"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T13:35:00.000Z",
-          "imageUrl": null,
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:35:13.000Z"
-    },
-    {
-      "id": "aWP58JN_zq0O",
-      "representative": {
-        "id": "aWP58JN_zq0O",
-        "url": "https://www.vg.no/i/KrzKeG/oppgang-paa-wall-street",
-        "canonicalUrl": "https://www.vg.no/i/KrzKeG/oppgang-paa-wall-street",
-        "title": "Ny rekordnotering på Wall Street",
-        "description": "USA-børsene slår rekorder.",
-        "source": {
-          "id": "vg",
-          "name": "VG"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T13:31:59.000Z",
-        "imageUrl": null,
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "WdNqNIaKbgW2",
-          "url": "https://e24.no/boers-og-finans/i/qyWX7O/oppgang-paa-wall-street?utm_medium=rss",
-          "canonicalUrl": "https://e24.no/boers-og-finans/i/qyWX7O/oppgang-paa-wall-street",
-          "title": "Ny rekordnotering på Wall Street",
-          "description": "USA-børsene slår rekorder.",
-          "source": {
-            "id": "e24",
-            "name": "E24"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T13:31:58.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/877299be-b30a-3876-991c-6b5c70370c75?format=auto&w=1000&s=2e5c1cebde450ef1a255498094db409e7db0c0cb",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:31:59.000Z"
-    },
-    {
-      "id": "vNMpN8OyEgOf",
-      "representative": {
-        "id": "vNMpN8OyEgOf",
-        "url": "https://www.aftenposten.no/verden/i/0BGqoo/nye-paagripelser-i-fairford-saken-i-england?utm_medium=rss",
-        "canonicalUrl": "https://www.aftenposten.no/verden/i/0BGqoo/nye-paagripelser-i-fairford-saken-i-england",
-        "title": "Nye pågripelser i Fairford-saken i England",
-        "description": "Politiet har pågrepet en 22 år gammel britisk statsborger i forbindelse med det som etterforskes som…",
-        "source": {
-          "id": "aftenposten",
-          "name": "Aftenposten"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T13:19:46.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/0bb059ae-659b-37d3-8924-11c94088663e?format=auto&w=1000&s=54049c19d358bbd9e5271802f0ac1bade15cc2be",
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "crsNFdA32afP",
-          "url": "https://www.vg.no/nyheter/i/WgjX1a/nye-paagripelser-i-fairford-saken-i-england",
-          "canonicalUrl": "https://www.vg.no/nyheter/i/WgjX1a/nye-paagripelser-i-fairford-saken-i-england",
-          "title": "Nye pågripelser i Fairford-saken i England",
-          "description": "Politiet har pågrepet en 22 år gammel britisk statsborger i forbindelse med det som etterforskes som terrorplaner mot flybasen RAF Fairford i England.",
-          "source": {
-            "id": "vg",
-            "name": "VG"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T13:22:53.000Z",
-          "imageUrl": null,
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:22:53.000Z"
-    },
     {
       "id": "4nMxvjLkj6Fq",
       "representative": {
@@ -245,6 +77,48 @@
       "latestPublishedAt": "2026-10-06T13:44:22.687Z"
     },
     {
+      "id": "KqZDL0TjeKZ9",
+      "representative": {
+        "id": "KqZDL0TjeKZ9",
+        "url": "https://www.vg.no/nyheter/i/JrxxQX/flertall-for-lovfesting-av-barnehageplass-for-desemberbarna-i-desember",
+        "canonicalUrl": "https://www.vg.no/nyheter/i/JrxxQX/flertall-for-lovfesting-av-barnehageplass-for-desemberbarna-i-desember",
+        "title": "Flertall på Stortinget: Får rett til barnehageplass",
+        "description": "Desemberbarn kan få rett til barnehageplass før de fyller ett år. Høyre har fått flertall for en lovendring. – Helt fantastisk, sier trebarnsmamma Siri Jensen (34).",
+        "source": {
+          "id": "vg",
+          "name": "VG"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:14:24.000Z",
+        "imageUrl": null,
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "D4CuADJrs4vC",
+          "url": "https://www.aftenposten.no/norge/i/Vg9261/flertall-paa-stortinget-for-aa-gi-desemberbarn-barnehageplass?utm_medium=rss",
+          "canonicalUrl": "https://www.aftenposten.no/norge/i/Vg9261/flertall-paa-stortinget-for-aa-gi-desemberbarn-barnehageplass",
+          "title": "Flertall på Stortinget for å gi desemberbarn barnehageplass",
+          "description": "Det er flertall på Stortinget for å gi desemberbarn rett til barnehageplass før de fyller ett år.",
+          "source": {
+            "id": "aftenposten",
+            "name": "Aftenposten"
+          },
+          "sourceCountry": "NO",
+          "language": "nb",
+          "publishedAt": "2026-10-06T13:42:45.000Z",
+          "imageUrl": "https://akamai.vgc.no/v2/images/6a171c66-d18d-39d1-afec-f4018b962bdd?format=auto&w=1000&s=cd4bb0b12aa1c30594cc50fa51374ff24b729449",
+          "countryCode": "NO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:42:45.000Z"
+    },
+    {
       "id": "zaqu508AdKAZ",
       "representative": {
         "id": "zaqu508AdKAZ",
@@ -288,9 +162,51 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:35:21.000Z"
+    },
+    {
+      "id": "FwvbtaMNgpD6",
+      "representative": {
+        "id": "FwvbtaMNgpD6",
+        "url": "https://www.nrk.no/nyheter/paramounts-warner-kjop-er-offisielt-_-blir-hollywood-gigant-1.18047073",
+        "canonicalUrl": "https://www.nrk.no/nyheter/paramounts-warner-kjop-er-offisielt-_-blir-hollywood-gigant-1.18047073",
+        "title": "Paramounts Warner-kjøp er offisielt – blir Hollywood-gigant",
+        "description": "Paramount har fullført oppkjøpet av Warner Bros. Discovery og danner selskapet Skydance, som nå kontrollerer en rekke av Hollywoods mest verdifulle strømmetjenester. Det nye selskapet, ledet av teknologiarvingen David Ellison, plasserer seg blant de fremste konkurrentene til strømmegiganter som…",
+        "source": {
+          "id": "nrk",
+          "name": "NRK"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:35:13.000Z",
+        "imageUrl": "https://gfx.nrk.no/vOB0LomzRkaCYjHxWlFG2AEsxFyI7plOxWDrfMGzWhEQ.jpg",
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "HqXtcr2s2Wn8",
+          "url": "https://www.vg.no/rampelys/i/b8GwJd/paramount-kjoeper-warner-blir-hollywood-gigant",
+          "canonicalUrl": "https://www.vg.no/rampelys/i/b8GwJd/paramount-kjoeper-warner-blir-hollywood-gigant",
+          "title": "Paramount kjøper Warner – blir Hollywood-gigant",
+          "description": "Paramount har fullført oppkjøpet av Warner Bros. Discovery og danner selskapet Skydance, som nå kontrollerer en rekke av Hollywoods mest verdifulle strømmetjenester.",
+          "source": {
+            "id": "vg",
+            "name": "VG"
+          },
+          "sourceCountry": "NO",
+          "language": "nb",
+          "publishedAt": "2026-10-06T13:35:00.000Z",
+          "imageUrl": null,
+          "countryCode": "NO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:35:13.000Z"
     },
     {
       "id": "MW7Yw0nsGW_7",
@@ -312,9 +228,51 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:32:30.000Z"
+    },
+    {
+      "id": "aWP58JN_zq0O",
+      "representative": {
+        "id": "aWP58JN_zq0O",
+        "url": "https://www.vg.no/i/KrzKeG/oppgang-paa-wall-street",
+        "canonicalUrl": "https://www.vg.no/i/KrzKeG/oppgang-paa-wall-street",
+        "title": "Ny rekordnotering på Wall Street",
+        "description": "USA-børsene slår rekorder.",
+        "source": {
+          "id": "vg",
+          "name": "VG"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:31:59.000Z",
+        "imageUrl": null,
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "WdNqNIaKbgW2",
+          "url": "https://e24.no/boers-og-finans/i/qyWX7O/oppgang-paa-wall-street?utm_medium=rss",
+          "canonicalUrl": "https://e24.no/boers-og-finans/i/qyWX7O/oppgang-paa-wall-street",
+          "title": "Ny rekordnotering på Wall Street",
+          "description": "USA-børsene slår rekorder.",
+          "source": {
+            "id": "e24",
+            "name": "E24"
+          },
+          "sourceCountry": "NO",
+          "language": "nb",
+          "publishedAt": "2026-10-06T13:31:58.000Z",
+          "imageUrl": "https://akamai.vgc.no/v2/images/877299be-b30a-3876-991c-6b5c70370c75?format=auto&w=1000&s=2e5c1cebde450ef1a255498094db409e7db0c0cb",
+          "countryCode": "NO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:31:59.000Z"
     },
     {
       "id": "WLtj_wclpofT",
@@ -336,7 +294,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:30:11.000Z"
     },
@@ -360,7 +318,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:29:47.000Z"
     },
@@ -384,9 +342,51 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:28:58.000Z"
+    },
+    {
+      "id": "vNMpN8OyEgOf",
+      "representative": {
+        "id": "vNMpN8OyEgOf",
+        "url": "https://www.aftenposten.no/verden/i/0BGqoo/nye-paagripelser-i-fairford-saken-i-england?utm_medium=rss",
+        "canonicalUrl": "https://www.aftenposten.no/verden/i/0BGqoo/nye-paagripelser-i-fairford-saken-i-england",
+        "title": "Nye pågripelser i Fairford-saken i England",
+        "description": "Politiet har pågrepet en 22 år gammel britisk statsborger i forbindelse med det som etterforskes som…",
+        "source": {
+          "id": "aftenposten",
+          "name": "Aftenposten"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:19:46.000Z",
+        "imageUrl": "https://akamai.vgc.no/v2/images/0bb059ae-659b-37d3-8924-11c94088663e?format=auto&w=1000&s=54049c19d358bbd9e5271802f0ac1bade15cc2be",
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "crsNFdA32afP",
+          "url": "https://www.vg.no/nyheter/i/WgjX1a/nye-paagripelser-i-fairford-saken-i-england",
+          "canonicalUrl": "https://www.vg.no/nyheter/i/WgjX1a/nye-paagripelser-i-fairford-saken-i-england",
+          "title": "Nye pågripelser i Fairford-saken i England",
+          "description": "Politiet har pågrepet en 22 år gammel britisk statsborger i forbindelse med det som etterforskes som terrorplaner mot flybasen RAF Fairford i England.",
+          "source": {
+            "id": "vg",
+            "name": "VG"
+          },
+          "sourceCountry": "NO",
+          "language": "nb",
+          "publishedAt": "2026-10-06T13:22:53.000Z",
+          "imageUrl": null,
+          "countryCode": "NO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:22:53.000Z"
     },
     {
       "id": "MkqC0xzOWENt",
@@ -408,68 +408,33 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:19:38.000Z"
     },
     {
-      "id": "Gg9V8aOmgsGn",
+      "id": "7Dv7Nal_y2_U",
       "representative": {
-        "id": "Gg9V8aOmgsGn",
-        "url": "https://www.nrk.no/nyheter/-jaktdrapet_-vil-ha-full-judisiell-observasjon-1.18046994",
-        "canonicalUrl": "https://www.nrk.no/nyheter/-jaktdrapet_-vil-ha-full-judisiell-observasjon-1.18046994",
-        "title": "Jaktdrapet: Vil ha full judisiell observasjon",
-        "description": "Den dobbeltdrapssiktede mannen i 20-årene ønsker fortsatt ikke å forklare seg for politiet. Mannens forsvarer, Ole Richard Holm-Olsen sier at det er besluttet en full judisiell observasjon av siktede. – Påtalemyndigheten har varslet at det blir besluttet fullstendig judisiell observasjon. Det er…",
+        "id": "7Dv7Nal_y2_U",
+        "url": "https://www.nettavisen.no/sport/norge-mot-israel-i-jattavagen-ekstra-sikkerhetstiltak-og-stengte-dorer-ved-lyse-arena/s/80-95-135939",
+        "canonicalUrl": "https://www.nettavisen.no/sport/norge-mot-israel-i-jattavagen-ekstra-sikkerhetstiltak-og-stengte-dorer-ved-lyse-arena/s/80-95-135939",
+        "title": "Stengte dører før Norge møter Israel",
+        "description": "Ansatte og presse som skulle inn på Lyse Arena tirsdag, ble først møtt med låste dører og vakthold.",
         "source": {
-          "id": "nrk",
-          "name": "NRK"
+          "id": "nettavisen",
+          "name": "Nettavisen"
         },
         "sourceCountry": "NO",
         "language": "nb",
-        "publishedAt": "2026-10-06T12:26:13.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T13:13:17.000Z",
+        "imageUrl": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791294175566/nettav/2026/10/6/12/c54346c2-93d7-4bf2-915f-2023a2286c9c.jpeg",
         "countryCode": "NO",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "9gsmmAp9dOK_",
-          "url": "https://www.aftenposten.no/norge/i/xl8y1R/nrk-siktede-i-halden-drapene-skal-gjennom-full-judisiell-observasjon?utm_medium=rss",
-          "canonicalUrl": "https://www.aftenposten.no/norge/i/xl8y1R/nrk-siktede-i-halden-drapene-skal-gjennom-full-judisiell-observasjon",
-          "title": "NRK: Siktede i Halden-drapene skal gjennom full judisiell observasjon",
-          "description": "Det er varslet en grundig rettspsykiatrisk undersøkelse av mannen som er siktet for dobbeltdrapet i…",
-          "source": {
-            "id": "aftenposten",
-            "name": "Aftenposten"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T13:18:24.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/b549b8ef-24ef-324c-b41a-49988615dc0a?format=auto&w=1000&s=237baa173f23261cad77518be6cb545c02425a64",
-          "countryCode": "NO",
-          "regionCode": null
-        },
-        {
-          "id": "5YBvwXOXh1vt",
-          "url": "https://www.nettavisen.no/jaktdrapet-vil-ha-full-judisiell-observasjon-av-drapssiktede/s/30-95-23447",
-          "canonicalUrl": "https://www.nettavisen.no/jaktdrapet-vil-ha-full-judisiell-observasjon-av-drapssiktede/s/30-95-23447",
-          "title": "Jaktdrapet: Vil ha full judisiell observasjon av drapssiktede",
-          "description": "Det opplyser mannens forsvarer til Nettavisen.",
-          "source": {
-            "id": "nettavisen",
-            "name": "Nettavisen"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T12:36:03.000Z",
-          "imageUrl": "http://g.api.no/obscura/API/image/r1/cmx/tr_1920x1332_l_f/1791294175568/nettav/2026/10/06/288f4201-a0d2-4d36-b769-b4163efae53b",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:18:24.000Z"
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:13:17.000Z"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "countryName": "France",
   "regionCode": "FR-BFC",
   "regionName": "Bourgogne-Franche-Comté",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "SWP4SOtGnXws",
@@ -106,48 +106,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-07T06:47:22.000Z"
-    },
-    {
-      "id": "WQ-iWlrtxrui",
-      "representative": {
-        "id": "WQ-iWlrtxrui",
-        "url": "https://www.bienpublic.com/economie/2026/10/06/pratique-du-velo-la-region-veut-mettre-la-gomme",
-        "canonicalUrl": "https://www.bienpublic.com/economie/2026/10/06/pratique-du-velo-la-region-veut-mettre-la-gomme",
-        "title": "Bourgogne-Franche-Comté. Pratique du vélo : la Région veut « mettre la gomme »",
-        "description": "Le conseil régional accueillait, ce mardi 6 octobre à Dijon, les premières « Rencontres des acteurs du vélo en Bourgogne-Franche-Comté ». Objectif : promouvoir la pratique du vélo et fédérer les structures qui œuvrent à son développement sur un territoire particulièrement rural.",
-        "source": {
-          "id": "bienpublic",
-          "name": "Le Bien Public"
-        },
-        "sourceCountry": "FR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T14:45:50.000Z",
-        "imageUrl": "https://cdn-s-www.bienpublic.com/images/6594AF1F-1772-4E4C-8CA9-BCC299CE6637/NW_listB/pratique-du-velo-la-region-veut-mettre-la-gomme-1791310956.jpg",
-        "countryCode": "FR",
-        "regionCode": "FR-BFC"
-      },
-      "related": [
-        {
-          "id": "6iYYneSn6DSN",
-          "url": "https://www.lejsl.com/economie/2026/10/06/pratique-du-velo-la-region-veut-mettre-la-gomme",
-          "canonicalUrl": "https://www.lejsl.com/economie/2026/10/06/pratique-du-velo-la-region-veut-mettre-la-gomme",
-          "title": "Bourgogne-Franche-Comté. Pratique du vélo : la Région veut « mettre la gomme »",
-          "description": "Le Conseil régional accueillait, ce mardi 6 octobre à Dijon, les premières Rencontres des acteurs du vélo en Bourgogne-Franche-Comté. Objectif : promouvoir la pratique du vélo et fédérer les structures qui œuvrent à son développement sur un territoire particulièrement rural.",
-          "source": {
-            "id": "lejsl",
-            "name": "Le Journal de Saône-et-Loire"
-          },
-          "sourceCountry": "FR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T19:11:22.000Z",
-          "imageUrl": "https://cdn-s-www.lejsl.com/images/6158786F-0E91-417B-AFB2-44AD6C759334/NW_listB/pratique-du-velo-la-region-veut-mettre-la-gomme-1791313880.jpg",
-          "countryCode": "FR",
-          "regionCode": "FR-BFC"
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T19:11:22.000Z"
     },
     {
       "id": "PawLOmo87qzG",
@@ -454,6 +412,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-07T05:00:00.000Z"
+    },
+    {
+      "id": "RJmMRi99yWG6",
+      "representative": {
+        "id": "RJmMRi99yWG6",
+        "url": "https://www.bienpublic.com/faits-divers-justice/2026/10/07/meurtre-de-gregory-sapet-la-defense-de-l-un-des-suspects-plaide-l-erreur-judiciaire",
+        "canonicalUrl": "https://www.bienpublic.com/faits-divers-justice/2026/10/07/meurtre-de-gregory-sapet-la-defense-de-l-un-des-suspects-plaide-l-erreur-judiciaire",
+        "title": "Chenôve. Meurtre de Grégory Sapet : la défense de l’un des suspects plaide « l’erreur judiciaire »",
+        "description": "Les juges de la chambre de l’instruction de Dijon ont examiné, mercredi 30 septembre, la demande de mise en liberté d’un Chenevelier accusé d’avoir participé à la mort de Grégory Sapet, en mai 2024. Mais le mis en cause nie toute implication et son avocat avance le risque pour la justice de faire…",
+        "source": {
+          "id": "bienpublic",
+          "name": "Le Bien Public"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T04:30:00.000Z",
+        "imageUrl": "https://cdn-s-www.bienpublic.com/images/62C7B1F0-FA23-4FA9-A488-FD75A846C4EB/NW_listB/meurtre-de-gregory-sapet-la-defense-de-l-un-des-suspects-plaide-l-erreur-judiciaire-1791355902.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-BFC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:30:00.000Z"
     }
   ]
 }

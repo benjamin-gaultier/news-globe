@@ -16,7 +16,7 @@ import { adapterFor } from './adapters';
 import { clusterArticles } from './cluster';
 import { HttpCache } from './http';
 import { mapLimit } from './limit';
-import { dedupeByCanonicalUrl, isMisdecoded, isNotNews, isUnrenderedTemplate, toArticle } from './normalize/article';
+import { dedupeByCanonicalUrl, dropRepublished, isMisdecoded, isNotNews, isUnrenderedTemplate, toArticle } from './normalize/article';
 import { buildCluster, rankClusters } from './rank';
 import { INGEST_SETTINGS, SOURCES, type SourceConfig } from './sources.config';
 import { writeJsonAtomic } from './write';
@@ -127,9 +127,11 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
     const indexList = unit.kind === 'country' ? index.countries : index.regions!;
     const summaryList = unit.kind === 'country' ? summary.countries : summary.regions;
     // Newest first so dedupe keeps the freshest copy and cluster order is stable.
-    const articles = dedupeByCanonicalUrl(
+    const unique = dedupeByCanonicalUrl(
       (byUnit.get(code) ?? []).sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)),
     );
+    // Regional partners rerun each other's stories under the same headline.
+    const articles = unit.kind === 'region' ? dropRepublished(unique) : unique;
 
     if (articles.length === 0) {
       // Every feed failed and nothing is cached: keep the previous file rather than blanking it.

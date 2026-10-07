@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ES",
   "countryName": "Spain",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "TvYUQ5Mh9f1x",
@@ -42,7 +42,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:17:44.000Z"
     },
@@ -66,7 +66,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:14:39.000Z"
     },
@@ -90,33 +90,9 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:14:35.000Z"
-    },
-    {
-      "id": "yEBl3dCGFaJg",
-      "representative": {
-        "id": "yEBl3dCGFaJg",
-        "url": "https://www.abc.es/espana/galicia/investigado-hombre-anos-incendio-intencionado-neves-obligo-20261006144717-nt.html",
-        "canonicalUrl": "https://www.abc.es/espana/galicia/investigado-hombre-anos-incendio-intencionado-neves-obligo-20261006144717-nt.html",
-        "title": "Investigado un hombre de 65 años por un incendio intencionado en As Neves que obligó a desalojar aldeas y cortar la A-52",
-        "description": "Un vecino de Ponteareas (Pontevedra) de 65 años es el supuesto responsable de un incendio que en el verano de 2025 obligó a desalojar a una docena de personas en el municipio de As Neves y a confinar varias aldeas próximas al fuego. Así, al menos, lo ha determinado la Guardia Civil en una…",
-        "source": {
-          "id": "abc_es",
-          "name": "ABC"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-06T13:14:32.000Z",
-        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/20261005%20INVESSTIGADO%20INCENDIO%20SEPRONA-RPdFap9AdRnrl6VP4sIXALP-1200x840@diario_abc.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:14:32.000Z"
     },
     {
       "id": "3M4pigwXBPaP",
@@ -190,7 +166,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T13:13:52.000Z"
     },
@@ -232,7 +208,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:10:45.000Z"
     },
@@ -521,6 +497,30 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:31:52.000Z"
+    },
+    {
+      "id": "KPyokx-VeGYM",
+      "representative": {
+        "id": "KPyokx-VeGYM",
+        "url": "https://www.eldiario.es/politica/sanchez-aval-constitucional-amnistiar-puigdemont-no-hicimos-lider-convivencia_1_13566194.html",
+        "canonicalUrl": "https://www.eldiario.es/politica/sanchez-aval-constitucional-amnistiar-puigdemont-no-hicimos-lider-convivencia_1_13566194.html",
+        "title": "Sánchez, tras el aval del Constitucional a amnistiar a Puigdemont: \"No lo hicimos por ningún líder, sino por la convivencia\"",
+        "description": "El presidente comparece en la Moncloa tras el Consejo de Ministros que ha rescatado los decretos de vivienda que tumbó la derecha en el Congreso el pasado viernes Puigdemont ya puede volver a España tras retirar el Supremo su orden de detención El presidente del Gobierno, Pedro Sánchez…",
+        "source": {
+          "id": "eldiario",
+          "name": "elDiario.es"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:01:48.000Z",
+        "imageUrl": "https://static.eldiario.es/clip/0a5956a2-4669-4f3f-b84e-352062e6e642_16-9-discover-aspect-ratio_default_0_x618y265.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:01:48.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SN",
   "countryName": "Senegal",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "KIyBHbXWHYfX",
@@ -429,28 +429,46 @@
       "latestPublishedAt": "2026-10-06T13:52:49.000Z"
     },
     {
-      "id": "4HZnNvMfOV_G",
+      "id": "bWrg-NDSjBEu",
       "representative": {
-        "id": "4HZnNvMfOV_G",
-        "url": "https://lequotidien.sn/les-coupures-reviennent-ce-qui-manque-cest-une-reserve/",
-        "canonicalUrl": "https://lequotidien.sn/les-coupures-reviennent-ce-qui-manque-cest-une-reserve/",
-        "title": "Les coupures reviennent : ce qui manque, c’est une réserve",
-        "description": "Ni le solaire ni les batteries ne font passer la pointe du soir. La réserve la moins chère est chez nos voisins Le 1er...",
+        "id": "bWrg-NDSjBEu",
+        "url": "https://www.dakaractu.com/Avec-1375-mm-a-Yoff-la-pluie-du-4-octobre-se-classe-troisieme-depuis-1981_a276751.html",
+        "canonicalUrl": "https://www.dakaractu.com/Avec-1375-mm-a-Yoff-la-pluie-du-4-octobre-se-classe-troisieme-depuis-1981_a276751.html",
+        "title": "Avec 137,5 mm à Yoff, la pluie du 4 octobre se classe troisième depuis 1981",
+        "description": "L’épisode du 4 octobre figure parmi les plus fortes pluies journalières enregistrées à Dakar-Yoff depuis 1981. Selon les données de l’Anacim rapportées par L’Observateur, 137,5 mm sont tombés en 24 heures. Les prévisions maintiennent un risque de pluie, tout en annonçant une intensité moindre que…",
         "source": {
-          "id": "lequotidien_sn",
-          "name": "Le Quotidien"
+          "id": "dakaractu",
+          "name": "Dakaractu"
         },
         "sourceCountry": "SN",
         "language": "fr",
-        "publishedAt": "2026-10-06T13:41:44.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T11:35:00.000Z",
+        "imageUrl": "https://www.dakaractu.com/photo/art/default/98283547-68509638.jpg?v=1791286710",
         "countryCode": "SN",
         "regionCode": null
       },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:41:44.000Z"
+      "related": [
+        {
+          "id": "1MpiXXe4f6rK",
+          "url": "https://senego.com/yoff-1375-mm-de-pluie-troisieme-plus-fort-cumul-journalier-depuis-1981_2009739.html",
+          "canonicalUrl": "https://senego.com/yoff-1375-mm-de-pluie-troisieme-plus-fort-cumul-journalier-depuis-1981_2009739.html",
+          "title": "Yoff : 137,5 mm de pluie, troisième plus fort cumul journalier depuis 1981",
+          "description": "À Yoff, les 137,5 mm du 4 octobre placent l’épisode au troisième rang des plus fortes pluies journalières depuis 1981. Les cumuls varient fortement selon les stations.",
+          "source": {
+            "id": "senego",
+            "name": "Senego"
+          },
+          "sourceCountry": "SN",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:51:17.000Z",
+          "imageUrl": "https://senego.com/wp-content/uploads/2026/10/tmp18xqj2bt.jpg",
+          "countryCode": "SN",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:51:17.000Z"
     }
   ]
 }

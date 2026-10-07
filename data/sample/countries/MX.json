@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MX",
   "countryName": "Mexico",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
       "id": "qjjiak0elBDJ",
@@ -42,7 +42,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:14:07.000Z"
     },
@@ -66,7 +66,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:13:40.000Z"
     },
@@ -311,65 +311,6 @@
       "latestPublishedAt": "2026-10-06T11:00:53.000Z"
     },
     {
-      "id": "5HUopp0WwYAv",
-      "representative": {
-        "id": "5HUopp0WwYAv",
-        "url": "https://www.eluniversal.com.mx/nacion/morena-define-a-andrea-chavez-como-coordinadora-municipal-en-ciudad-juarez-competira-por-la-alcaldia/",
-        "canonicalUrl": "https://www.eluniversal.com.mx/nacion/morena-define-a-andrea-chavez-como-coordinadora-municipal-en-ciudad-juarez-competira-por-la-alcaldia/",
-        "title": "Morena define a Andrea Chávez como \"coordinadora municipal\" en Ciudad Juárez; no hubo convocatoria ni encuesta",
-        "description": "En sus redes sociales, la senadora con licencia aceptó esta designación “sin egos, sin protagonismos y sin ambiciones personales”",
-        "source": {
-          "id": "eluniversal",
-          "name": "El Universal"
-        },
-        "sourceCountry": "MX",
-        "language": "es",
-        "publishedAt": "2026-10-05T17:12:49.000Z",
-        "imageUrl": "https://www.eluniversal.com.mx/resizer/v2/QXM52IN4MZDEXHHGWISQ2CDEDY.jpg?auth=58f2ba1e6c353f2bc931fc840879d37346b5a3e09e82d504ed26c976f003f6c2&smart=true&width=500",
-        "countryCode": "MX",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "oaCBUE2VbjTj",
-          "url": "https://www.jornada.com.mx/2026/10/06/politica/007n3pol?partner=rss",
-          "canonicalUrl": "https://www.jornada.com.mx/2026/10/06/politica/007n3pol",
-          "title": "Sin encuesta, el guinda da a Andrea Chávez la coordinación en Juárez",
-          "description": "La dirigencia nacional de Morena designó ayer a Andrea Chávez Treviño coordinadora de la defensa de la transformación en Ciudad Juárez, Chihuahua, sin que el partido haya emitido alguna convocatoria para los municipios y sin realizar encuestas en esa demarcación. Con eso, se proyecta como la…",
-          "source": {
-            "id": "jornada",
-            "name": "La Jornada"
-          },
-          "sourceCountry": "MX",
-          "language": "es",
-          "publishedAt": "2026-10-06T08:49:54.000Z",
-          "imageUrl": null,
-          "countryCode": "MX",
-          "regionCode": null
-        },
-        {
-          "id": "UzAgWtUJBfRT",
-          "url": "https://www.elfinanciero.com.mx/nacional/2026/10/05/premio-de-consolacion-para-andrea-chavez-morena-le-da-candidatura-para-alcaldia-de-ciudad-juarez/",
-          "canonicalUrl": "https://www.elfinanciero.com.mx/nacional/2026/10/05/premio-de-consolacion-para-andrea-chavez-morena-le-da-candidatura-para-alcaldia-de-ciudad-juarez/",
-          "title": "‘Premio de consolación’ para Andrea Chávez: Morena le da candidatura para alcaldía de Ciudad Juárez",
-          "description": "El Partido del Trabajo, que criticó a Morena por su designación de coordinadores estatales, 'tentó' a Andrea Chávez para que fuera su candidata en la elección a gobernador en Chihuahua.",
-          "source": {
-            "id": "elfinanciero",
-            "name": "El Financiero"
-          },
-          "sourceCountry": "MX",
-          "language": "es",
-          "publishedAt": "2026-10-05T20:37:01.000Z",
-          "imageUrl": "https://elfinanciero-elfinanciero-prod.cdn.arcpublishing.com/resizer/dO7iwOo1RQpICYqnyLRE1ZXPd5M=/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/WSH7N5NMGBHQDLHG6UG23TIE7M.png",
-          "countryCode": "MX",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 0,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T08:49:54.000Z"
-    },
-    {
       "id": "m9uPAmO1R8oV",
       "representative": {
         "id": "m9uPAmO1R8oV",
@@ -419,6 +360,30 @@
         "canonicalUrl": "https://www.jornada.com.mx/2026/10/06/politica/014a1pol",
         "title": "Magdiel Sánchez Quiroz*: Brasil, elecciones y problemas de la izquierda",
         "description": "El resultado de las elecciones en Brasil sorprendieron a la mayoría de las personas que se autodefinen de izquierda. ¿Cómo es posible que el hijo del ex presidente Jair Bolsonaro, hoy preso por intentar un golpe de Estado contra Lula, haya ganado? La respuesta inmediata desde ese sector fue: por…",
+        "source": {
+          "id": "jornada",
+          "name": "La Jornada"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T08:49:54.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:49:54.000Z"
+    },
+    {
+      "id": "-syEgYARR4Py",
+      "representative": {
+        "id": "-syEgYARR4Py",
+        "url": "https://www.jornada.com.mx/2026/10/06/politica/003n3pol?partner=rss",
+        "canonicalUrl": "https://www.jornada.com.mx/2026/10/06/politica/003n3pol",
+        "title": "Gobernador y diplomático se contradicen",
+        "description": "El gobernador de Querétaro, Mauricio Kuri (PAN), notificó en tiempo y forma a la cancillería sobre la visita a la entidad del embajador de Estados Unidos en México, Ronald Johnson. Sin embargo, aseguró que se trataría de una misión “protocolaria” y que “de ninguna forma” implicaría cooperación…",
         "source": {
           "id": "jornada",
           "name": "La Jornada"

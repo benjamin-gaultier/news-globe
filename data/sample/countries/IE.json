@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "IE",
   "countryName": "Ireland",
-  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
-    {
-      "id": "LPKgfcDHphhF",
-      "representative": {
-        "id": "LPKgfcDHphhF",
-        "url": "https://www.rte.ie/news/budget-2027/2026/1006/1594222-education-budget-2027/",
-        "canonicalUrl": "https://www.rte.ie/news/budget-2027/2026/1006/1594222-education-budget-2027/",
-        "title": "Third level student contribution fee to be cut by €150",
-        "description": "The student contribution fee at third level will be permanently reduced by €150 under a range of measures aimed at the education sector in Budget 2027.",
-        "source": {
-          "id": "rte",
-          "name": "RTÉ News"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:13:38.000Z",
-        "imageUrl": "https://www.rte.ie/images/001720c2-800.jpg",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "DvoZSvPDDBhG",
-          "url": "https://www.thejournal.ie/budget-2027-student-fees-cut-susi-grants-7183773-Oct2026/",
-          "canonicalUrl": "https://www.thejournal.ie/budget-2027-student-fees-cut-susi-grants-7183773-Oct2026/",
-          "title": "Government announces €150 cut to annual student contribution fee in budget",
-          "description": "There is no change to annual PhD stipends.",
-          "source": {
-            "id": "thejournal",
-            "name": "TheJournal.ie"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T13:16:08.000Z",
-          "imageUrl": "https://c2.thejournal.ie/media/2026/10/college_-university_-students-1-alamy-960b5a3f-340c-439c-a73e-fc8425ef6d3d-630x419.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:16:08.000Z"
-    },
     {
       "id": "_fvGggzXsbJ7",
       "representative": {
@@ -84,9 +42,51 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:17:52.000Z"
+    },
+    {
+      "id": "LPKgfcDHphhF",
+      "representative": {
+        "id": "LPKgfcDHphhF",
+        "url": "https://www.rte.ie/news/budget-2027/2026/1006/1594222-education-budget-2027/",
+        "canonicalUrl": "https://www.rte.ie/news/budget-2027/2026/1006/1594222-education-budget-2027/",
+        "title": "Third level student contribution fee to be cut by €150",
+        "description": "The student contribution fee at third level will be permanently reduced by €150 under a range of measures aimed at the education sector in Budget 2027.",
+        "source": {
+          "id": "rte",
+          "name": "RTÉ News"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:13:38.000Z",
+        "imageUrl": "https://www.rte.ie/images/001720c2-800.jpg",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "DvoZSvPDDBhG",
+          "url": "https://www.thejournal.ie/budget-2027-student-fees-cut-susi-grants-7183773-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/budget-2027-student-fees-cut-susi-grants-7183773-Oct2026/",
+          "title": "Government announces €150 cut to annual student contribution fee in budget",
+          "description": "There is no change to annual PhD stipends.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:16:08.000Z",
+          "imageUrl": "https://c2.thejournal.ie/media/2026/10/college_-university_-students-1-alamy-960b5a3f-340c-439c-a73e-fc8425ef6d3d-630x419.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:16:08.000Z"
     },
     {
       "id": "txzBWhlhzWsA",
@@ -108,7 +108,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:15:19.000Z"
     },
@@ -150,7 +150,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:15:00.000Z"
     },
@@ -174,7 +174,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:13:10.000Z"
     },
@@ -430,80 +430,28 @@
       "latestPublishedAt": "2026-10-06T12:48:20.000Z"
     },
     {
-      "id": "i_ezQjmDfveC",
+      "id": "iz3wXmSeVSZy",
       "representative": {
-        "id": "i_ezQjmDfveC",
-        "url": "https://www.rte.ie/news/ulster/2026/1006/1594213-a5-road-ruling/",
-        "canonicalUrl": "https://www.rte.ie/news/ulster/2026/1006/1594213-a5-road-ruling/",
-        "title": "A5 upgrade can proceed following Court of Appeal ruling",
-        "description": "A court ruling that halted Northern Ireland's biggest roads project has been overturned.",
+        "id": "iz3wXmSeVSZy",
+        "url": "https://www.independent.ie/entertainment/music/beoga-announce-three-gigs-in-dublin-after-exiting-ed-sheeran-tour/a/162654003.html",
+        "canonicalUrl": "https://www.independent.ie/entertainment/music/beoga-announce-three-gigs-in-dublin-after-exiting-ed-sheeran-tour/a/162654003.html",
+        "title": "Beoga announce three gigs in Dublin after exiting Ed Sheeran tour",
+        "description": null,
         "source": {
-          "id": "rte",
-          "name": "RTÉ News"
+          "id": "independent_ie",
+          "name": "Irish Independent"
         },
         "sourceCountry": "IE",
         "language": "en",
-        "publishedAt": "2026-10-06T10:43:59.000Z",
-        "imageUrl": "https://www.rte.ie/images/0025203a-800.jpg",
+        "publishedAt": "2026-10-06T12:42:06.000Z",
+        "imageUrl": "https://prod-img.independent.ie/public/incoming/wfwpow-gettyimages-950483556.jpg/alternates/BASE_SIXTEEN_NINE/GettyImages-950483556.jpg",
         "countryCode": "IE",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "dXpq_RrZlTUB",
-          "url": "https://www.thejournal.ie/a5-road-upgrade-court-ruling-7183953-Oct2026/",
-          "canonicalUrl": "https://www.thejournal.ie/a5-road-upgrade-court-ruling-7183953-Oct2026/",
-          "title": "A5 road from the Tyrone border to Derry set for major upgrade after Belfast court ruling",
-          "description": "The plan was originally rejected by the Belfast High Court due to an apparent conflict with climate laws.",
-          "source": {
-            "id": "thejournal",
-            "name": "TheJournal.ie"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:47:11.000Z",
-          "imageUrl": "https://c2.thejournal.ie/media/2026/10/cross-border-projects-51b49555-840b-410a-b754-08faa92be685-630x419.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        },
-        {
-          "id": "Q1utnQ9x71dM",
-          "url": "https://www.irishmirror.ie/news/irish-news/appeal-court-quashes-ruling-a5-37740376",
-          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/appeal-court-quashes-ruling-a5-37740376",
-          "title": "Appeal Court quashes ruling that A5 project cannot proceed",
-          "description": "In the Appeal Court on Tuesday, Lady Chief Justice Dame Siobhan Keegan delivered judgment",
-          "source": {
-            "id": "irishmirror",
-            "name": "Irish Mirror"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:23:50.000Z",
-          "imageUrl": "https://i2-prod.irishmirror.ie/incoming/article37740419.ece/ALTERNATES/s615/0_01M489XYACB5QQFQAVQ7W9H07J.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        },
-        {
-          "id": "k00sJlDPWLr5",
-          "url": "https://www.irishtimes.com/ireland/2026/10/06/belfast-court-quashes-ruling-blocking-upgrade-of-a5-road/",
-          "canonicalUrl": "https://www.irishtimes.com/ireland/2026/10/06/belfast-court-quashes-ruling-blocking-upgrade-of-a5-road/",
-          "title": "Belfast appeals court quashes ruling blocking upgrade of A5 road",
-          "description": "€2 billion upgrade would be Northern Ireland’s largest ever road project",
-          "source": {
-            "id": "irishtimes",
-            "name": "The Irish Times"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T10:53:36.000Z",
-          "imageUrl": "https://www.irishtimes.com/resizer/v2/IO42GLNFOVWPSM37OTUAHHCRXQ.jpg?auth=abffffc214b86340604fe3a45f7e68f3367bc74bb4a36240c436d67ee8ea6857&smart=true&width=630&height=350",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
+      "related": [],
       "outletCount24h": 0,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:47:11.000Z"
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:42:06.000Z"
     }
   ]
 }

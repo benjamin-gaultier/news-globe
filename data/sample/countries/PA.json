@@ -2,457 +2,223 @@
   "schemaVersion": 1,
   "countryCode": "PA",
   "countryName": "Panama",
-  "updatedAt": "2026-10-07T13:10:40.792Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
-      "id": "7Zd_ptdZzeg3",
+      "id": "XXwV5cpuWVuE",
       "representative": {
-        "id": "7Zd_ptdZzeg3",
-        "url": "https://www.prensa.com/economia/panama-y-vietnam-firman-acuerdos-para-fortalecer-relaciones-comerciales/",
-        "canonicalUrl": "https://www.prensa.com/economia/panama-y-vietnam-firman-acuerdos-para-fortalecer-relaciones-comerciales/",
-        "title": "Panamá y Vietnam firman acuerdos para fortalecer relaciones comerciales",
-        "description": "Así trascendió luego de la reunión que sostuvo este miércoles 7 de octubre el presidente de la República, José Raúl Mulino, con el primer ministro de Vietnam, Le Minh Hung, en la Oficina de Gobierno de la nación asiática.",
-        "source": {
-          "id": "prensa_pa",
-          "name": "La Prensa"
-        },
-        "sourceCountry": "PA",
-        "language": "es",
-        "publishedAt": "2026-10-07T12:32:40.000Z",
-        "imageUrl": "https://www.prensa.com/resizer/v2/H3YY32L7NRBTBGNAOCRQA2VWNE.jpeg?auth=865d83b1dd9372189c1ae494250fb4cc37568c36571b7746045b547ffdd599ff&smart=true&width=1280&height=854",
-        "countryCode": "PA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "8n2aqjcGIxEV",
-          "url": "https://www.tvn-2.com/nacionales/panama-vietnam-acuerdos-inversiones-zona-libre-de-colon_1_2264754.html",
-          "canonicalUrl": "https://www.tvn-2.com/nacionales/panama-vietnam-acuerdos-inversiones-zona-libre-de-colon_1_2264754.html",
-          "title": "Relanzamientos de las relaciones de Panamá y Vietnam: Acuerdos, inversiones y la Zona Libre de Colón",
-          "description": "El mandatario panameño afirmó que el acercamiento con este órgano del Estado de Vietnam es importante y fundamental en momentos en que Panamá y Vietnam tienen unos 10 acuerdos que deben ser puestos en ejecución lo antes posible.",
-          "source": {
-            "id": "tvn_pa",
-            "name": "TVN"
-          },
-          "sourceCountry": "PA",
-          "language": "es",
-          "publishedAt": "2026-10-07T12:14:33.000Z",
-          "imageUrl": "https://static.tvn-2.com/clip/c3fbf3e7-6d3d-4805-8f5b-9cd2321a62e7_16-9-aspect-ratio_default_0.webp",
-          "countryCode": "PA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T12:32:40.000Z"
-    },
-    {
-      "id": "RJPHFaQ9g2Gj",
-      "representative": {
-        "id": "RJPHFaQ9g2Gj",
-        "url": "https://www.tvn-2.com/nacionales/tribunal-electoral-avanza-coordinacion-plan_1_2264671.html",
-        "canonicalUrl": "https://www.tvn-2.com/nacionales/tribunal-electoral-avanza-coordinacion-plan_1_2264671.html",
-        "title": "Tribunal Electoral avanza en la coordinación del Plan General del Elecciones de 2029",
-        "description": "De acuerdo con el Tribunal Electoral, estos encuentros buscan homologar los estándares de trabajo entre las distintas oficinas y fortalecer la planificación de la logística electoral.",
-        "source": {
-          "id": "tvn_pa",
-          "name": "TVN"
-        },
-        "sourceCountry": "PA",
-        "language": "es",
-        "publishedAt": "2026-10-06T22:16:17.000Z",
-        "imageUrl": "https://static.tvn-2.com/clip/d0e1c48f-4962-48b2-8b1e-f6c8c5bf2966_16-9-aspect-ratio_default_0.webp",
-        "countryCode": "PA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "cYdUomJCx3uZ",
-          "url": "https://www.critica.com.pa/nacional/arranca-la-coordinacion-del-plan-general-de-elecciones-2029-517679",
-          "canonicalUrl": "https://www.critica.com.pa/nacional/arranca-la-coordinacion-del-plan-general-de-elecciones-2029-517679",
-          "title": "Arranca la coordinación del Plan General de Elecciones 2029",
-          "description": "Arranca la coordinación del Plan General de Elecciones 2029 practicante Mar, 06/10/2026 - 22:38",
-          "source": {
-            "id": "critica",
-            "name": "Crítica"
-          },
-          "sourceCountry": "PA",
-          "language": "es",
-          "publishedAt": "2026-10-07T03:38:13.000Z",
-          "imageUrl": null,
-          "countryCode": "PA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T03:38:13.000Z"
-    },
-    {
-      "id": "TdEap9cJ8z4Y",
-      "representative": {
-        "id": "TdEap9cJ8z4Y",
-        "url": "https://www.prensa.com/politica/maria-corina-machado-reitera-que-regresara-a-venezuela-para-contribuir-a-la-transicion/",
-        "canonicalUrl": "https://www.prensa.com/politica/maria-corina-machado-reitera-que-regresara-a-venezuela-para-contribuir-a-la-transicion/",
-        "title": "María Corina Machado reitera que regresará a Venezuela para ‘contribuir’ a la transición",
-        "description": "La líder opositora y premio Nobel de la Paz 2025, María Corina Machado, reiteró este martes que regresará a Venezuela para “contribuir a facilitar” la transición.",
-        "source": {
-          "id": "prensa_pa",
-          "name": "La Prensa"
-        },
-        "sourceCountry": "PA",
-        "language": "es",
-        "publishedAt": "2026-10-07T01:52:57.000Z",
-        "imageUrl": "https://www.prensa.com/resizer/v2/EOPXCKY3LFAUFBLF7ZJFH3EY7Q.jpg?auth=3330a7214ffc7cd63550ce69d8b515f393547e8f3a318837fc4b69c701eaebec&smart=true&width=1920&height=1093",
-        "countryCode": "PA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Z6tp_QfB09JM",
-          "url": "https://www.critica.com.pa/mundo/maria-corina-reitera-que-regresara-venezuela-para-impulsar-la-transicion-517677",
-          "canonicalUrl": "https://www.critica.com.pa/mundo/maria-corina-reitera-que-regresara-venezuela-para-impulsar-la-transicion-517677",
-          "title": "María Corina reitera que regresará a Venezuela para impulsar la transición",
-          "description": "María Corina reitera que regresará a Venezuela para impulsar la transición practicante Mar, 06/10/2026 - 21:37",
-          "source": {
-            "id": "critica",
-            "name": "Crítica"
-          },
-          "sourceCountry": "PA",
-          "language": "es",
-          "publishedAt": "2026-10-07T02:37:06.000Z",
-          "imageUrl": null,
-          "countryCode": "PA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T02:37:06.000Z"
-    },
-    {
-      "id": "keH6OK-g3fh8",
-      "representative": {
-        "id": "keH6OK-g3fh8",
-        "url": "https://www.tvn-2.com/nacionales/mop-solicita-43-1-millones-comision-presupuesto-obras-en-ejecucion_1_2264626.html",
-        "canonicalUrl": "https://www.tvn-2.com/nacionales/mop-solicita-43-1-millones-comision-presupuesto-obras-en-ejecucion_1_2264626.html",
-        "title": "MOP solicita $43.1 millones para pagar compromisos y continuar obras en ejecución",
-        "description": "La discusión también estuvo marcada por un intercambio entre diputados, luego de que el diputado Luis Duke cuestionara que el MOP y otras entidades continúen contratando empresas señaladas en casos de sobornos y otras prácticas de corrupción.",
-        "source": {
-          "id": "tvn_pa",
-          "name": "TVN"
-        },
-        "sourceCountry": "PA",
-        "language": "es",
-        "publishedAt": "2026-10-06T18:57:35.000Z",
-        "imageUrl": "https://static.tvn-2.com/clip/09499de2-db38-47c7-b56d-2a8cd11f1d9d_16-9-aspect-ratio_default_0.webp",
-        "countryCode": "PA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "fWo0F0mzSXP8",
-          "url": "https://www.critica.com.pa/nacional/mop-pide-b431-millones-para-obras-viales-y-pagos-exfuncionarios-517676",
-          "canonicalUrl": "https://www.critica.com.pa/nacional/mop-pide-b431-millones-para-obras-viales-y-pagos-exfuncionarios-517676",
-          "title": "MOP pide B/.43.1 millones para obras viales y pagos a exfuncionarios",
-          "description": "MOP pide B/.43.1 millones para obras viales y pagos a exfuncionarios practicante Mar, 06/10/2026 - 21:21",
-          "source": {
-            "id": "critica",
-            "name": "Crítica"
-          },
-          "sourceCountry": "PA",
-          "language": "es",
-          "publishedAt": "2026-10-07T02:21:22.000Z",
-          "imageUrl": null,
-          "countryCode": "PA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T02:21:22.000Z"
-    },
-    {
-      "id": "X04ef-l5pjN4",
-      "representative": {
-        "id": "X04ef-l5pjN4",
-        "url": "https://www.prensa.com/deportes/gracias-argentina-el-mensaje-de-messi-antes-de-su-partido-despedida-de-la-seleccion/",
-        "canonicalUrl": "https://www.prensa.com/deportes/gracias-argentina-el-mensaje-de-messi-antes-de-su-partido-despedida-de-la-seleccion/",
-        "title": "‘Gracias Argentina’: el mensaje de Messi antes de su partido despedida de la selección",
-        "description": null,
-        "source": {
-          "id": "prensa_pa",
-          "name": "La Prensa"
-        },
-        "sourceCountry": "PA",
-        "language": "es",
-        "publishedAt": "2026-10-06T22:31:28.000Z",
-        "imageUrl": "https://www.prensa.com/resizer/v2/SHBP2OP2Z5GA3BHF5GJ2XR2HNE.jpg?auth=8189ebae698bfcecfaf713bb1ffe04fab92f6109b1b2a279dd18a4c5e054df89&smart=true&width=2720&height=1780",
-        "countryCode": "PA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "U87PZzOijO7X",
-          "url": "https://www.tvn-2.com/tvmax/futbol-internacional/lionel-messi-despedida-argentina-vs-benin-en-vivo-estadio-monumental-buenos-aires_6_2264650.html",
-          "canonicalUrl": "https://www.tvn-2.com/tvmax/futbol-internacional/lionel-messi-despedida-argentina-vs-benin-en-vivo-estadio-monumental-buenos-aires_6_2264650.html",
-          "title": "¡Emotivo! Lionel Messi tiene una despedida triunfal de la selección de Argentina",
-          "description": "El astro argentino cerró su etapa con la Albiceleste con cifras récord de 126 goles y 70 asistencias.",
-          "source": {
-            "id": "tvn_pa",
-            "name": "TVN"
-          },
-          "sourceCountry": "PA",
-          "language": "es",
-          "publishedAt": "2026-10-06T22:00:42.000Z",
-          "imageUrl": "https://static.tvn-2.com/clip/544398e2-8ac2-4cc0-8004-50a1802b4886_16-9-aspect-ratio_default_0.webp",
-          "countryCode": "PA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T22:31:28.000Z"
-    },
-    {
-      "id": "-FVeZ1jJ7a3G",
-      "representative": {
-        "id": "-FVeZ1jJ7a3G",
-        "url": "https://www.tvn-2.com/mundo/oms-advierte-tratamientos-antiobesidad-menores_1_2264758.html",
-        "canonicalUrl": "https://www.tvn-2.com/mundo/oms-advierte-tratamientos-antiobesidad-menores_1_2264758.html",
-        "title": "La OMS advierte contra los tratamientos antiobesidad en menores de 10 años",
-        "description": "En diciembre de 2025, la OMS recomendó el uso de medicamentos GLP-1 como medicación contra la obesidad para los adultos.",
-        "source": {
-          "id": "tvn_pa",
-          "name": "TVN"
-        },
-        "sourceCountry": "PA",
-        "language": "es",
-        "publishedAt": "2026-10-07T12:20:12.000Z",
-        "imageUrl": "https://static.tvn-2.com/clip/e4381ea7-08d1-4001-a617-56e59f331b9f_16-9-aspect-ratio_default_0.webp",
-        "countryCode": "PA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:20:12.000Z"
-    },
-    {
-      "id": "6MgTHR5s-AAQ",
-      "representative": {
-        "id": "6MgTHR5s-AAQ",
-        "url": "https://www.tvn-2.com/mundo/medio-oriente/israel-recuerda-victimas-7-octubre_1_2264757.html",
-        "canonicalUrl": "https://www.tvn-2.com/mundo/medio-oriente/israel-recuerda-victimas-7-octubre_1_2264757.html",
-        "title": "Israel recuerda a las víctimas del 7 de octubre antes de las elecciones",
-        "description": null,
-        "source": {
-          "id": "tvn_pa",
-          "name": "TVN"
-        },
-        "sourceCountry": "PA",
-        "language": "es",
-        "publishedAt": "2026-10-07T12:05:54.000Z",
-        "imageUrl": "https://static.tvn-2.com/clip/14ba5fb5-ef3f-4c04-9c24-4bb065f2ff1e_16-9-aspect-ratio_default_0.webp",
-        "countryCode": "PA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:05:54.000Z"
-    },
-    {
-      "id": "aBQUsVHLL5aK",
-      "representative": {
-        "id": "aBQUsVHLL5aK",
-        "url": "https://www.critica.com.pa/sucesos/que-paso-en-esa-casa-investigan-hallazgo-de-cadaver-en-burunga-517684",
-        "canonicalUrl": "https://www.critica.com.pa/sucesos/que-paso-en-esa-casa-investigan-hallazgo-de-cadaver-en-burunga-517684",
-        "title": "¿Qué pasó en esa casa? Investigan hallazgo de cadáver en Burunga",
-        "description": "¿Qué pasó en esa casa? Investigan hallazgo de cadáver en Burunga mmontenegro Mié, 07/10/2026 - 07:02",
+        "id": "XXwV5cpuWVuE",
+        "url": "https://www.critica.com.pa/nacional/cae-exdirector-de-css-enrique-lau-por-presunto-enriquecimiento-injustificado-517624",
+        "canonicalUrl": "https://www.critica.com.pa/nacional/cae-exdirector-de-css-enrique-lau-por-presunto-enriquecimiento-injustificado-517624",
+        "title": "Cae exdirector de CSS , Enrique Lau por presunto enriquecimiento injustificado",
+        "description": "Cae exdirector de CSS , Enrique Lau por presunto enriquecimiento injustificado mmontenegro Mar, 06/10/2026 - 07:07",
         "source": {
           "id": "critica",
           "name": "Crítica"
         },
         "sourceCountry": "PA",
         "language": "es",
-        "publishedAt": "2026-10-07T12:02:22.000Z",
+        "publishedAt": "2026-10-06T12:07:04.000Z",
         "imageUrl": null,
         "countryCode": "PA",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:02:22.000Z"
+      "latestPublishedAt": "2026-10-06T12:07:04.000Z"
     },
     {
-      "id": "A4b7E72MpTcZ",
+      "id": "38VeIlZ5DxCZ",
       "representative": {
-        "id": "A4b7E72MpTcZ",
-        "url": "https://www.tvn-2.com/mundo/eeuu-prohibe-alcohol-decreta-toque_1_2264753.html",
-        "canonicalUrl": "https://www.tvn-2.com/mundo/eeuu-prohibe-alcohol-decreta-toque_1_2264753.html",
-        "title": "EEUU prohíbe el alcohol y decreta toque de queda a soldados en Japón tras asesinato de una mujer",
-        "description": "l caso trascendió el domingo, cuando la policía informó del arresto de un marino estadounidense en Okinawa sospechoso de matar y robar la cartera de una mujer de 39 años en un hotel en Naha, la principal ciudad de la isla.",
+        "id": "38VeIlZ5DxCZ",
+        "url": "https://www.critica.com.pa/nacional/mulino-refuerza-alianza-maritima-con-vietnam-y-anuncia-oficina-de-panama-517623",
+        "canonicalUrl": "https://www.critica.com.pa/nacional/mulino-refuerza-alianza-maritima-con-vietnam-y-anuncia-oficina-de-panama-517623",
+        "title": "Mulino refuerza alianza marítima con Vietnam y anuncia oficina de Panamá",
+        "description": "Mulino refuerza alianza marítima con Vietnam y anuncia oficina de Panamá mmontenegro Mar, 06/10/2026 - 06:35",
         "source": {
-          "id": "tvn_pa",
-          "name": "TVN"
+          "id": "critica",
+          "name": "Crítica"
         },
         "sourceCountry": "PA",
         "language": "es",
-        "publishedAt": "2026-10-07T11:50:44.000Z",
-        "imageUrl": "https://static.tvn-2.com/clip/51bc0d5e-7eb1-44bf-a0de-6c8c7547dec2_16-9-aspect-ratio_default_0.webp",
+        "publishedAt": "2026-10-06T11:35:13.000Z",
+        "imageUrl": null,
         "countryCode": "PA",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:50:44.000Z"
+      "latestPublishedAt": "2026-10-06T11:35:13.000Z"
     },
     {
-      "id": "3JI39vCFO8JE",
+      "id": "e8J2ozA9F1_Q",
       "representative": {
-        "id": "3JI39vCFO8JE",
-        "url": "https://www.prensa.com/politica/el-caso-enrique-lau-cortes-dos-expedientes-y-casi-35-millones-bajo-investigacion/",
-        "canonicalUrl": "https://www.prensa.com/politica/el-caso-enrique-lau-cortes-dos-expedientes-y-casi-35-millones-bajo-investigacion/",
-        "title": "El caso Enrique Lau Cortés: dos expedientes y casi $3.5 millones bajo investigación",
-        "description": "La aprehensión de Lau se produjo en Santa María. La Fiscalía Anticorrupción también realizó allanamientos en Paitilla, Dos Mares, Chanis y Playa Blanca.",
-        "source": {
-          "id": "prensa_pa",
-          "name": "La Prensa"
-        },
-        "sourceCountry": "PA",
-        "language": "es",
-        "publishedAt": "2026-10-07T05:03:00.000Z",
-        "imageUrl": "https://www.prensa.com/resizer/v2/4OVPNEAJERETDA7J6R2G2PFNPI.jpeg?auth=e92d49327d86aa83daddd775dded59d5b83162cd4907727b1af672bebd30e45f&smart=true&width=1600&height=1176",
-        "countryCode": "PA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:03:00.000Z"
-    },
-    {
-      "id": "AcpOXPal7m8D",
-      "representative": {
-        "id": "AcpOXPal7m8D",
-        "url": "https://www.prensa.com/mundo/el-creciente-acercamiento-de-espana-a-china-y-las-tensiones-que-provoca-en-la-union-europea/",
-        "canonicalUrl": "https://www.prensa.com/mundo/el-creciente-acercamiento-de-espana-a-china-y-las-tensiones-que-provoca-en-la-union-europea/",
-        "title": "El creciente acercamiento de España a China y las tensiones que provoca en la Unión Europea",
-        "description": "En medio de la agitación mundial, las estrechas relaciones entre ambos países despiertan recelos dentro de la Unión Europea.",
-        "source": {
-          "id": "prensa_pa",
-          "name": "La Prensa"
-        },
-        "sourceCountry": "PA",
-        "language": "es",
-        "publishedAt": "2026-10-07T05:02:00.000Z",
-        "imageUrl": "https://www.prensa.com/resizer/v2/VI4FF3AVHJG6XOO7XHN7E53IPI.jpg?auth=dc4a47bb1e13d2155c32315903f2ef5b212e4644945671bdca073c5891d9fb77&smart=true&width=1920&height=1080",
-        "countryCode": "PA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:02:00.000Z"
-    },
-    {
-      "id": "6Hn7pAJmbSpO",
-      "representative": {
-        "id": "6Hn7pAJmbSpO",
-        "url": "https://www.prensa.com/vivir/de-isla-carenero-al-mundo-el-festival-que-revive-el-legado-de-luis-russell-en-bocas-del-toro/",
-        "canonicalUrl": "https://www.prensa.com/vivir/de-isla-carenero-al-mundo-el-festival-que-revive-el-legado-de-luis-russell-en-bocas-del-toro/",
-        "title": "De Isla Carenero al mundo: El festival que revive el legado de Luis Russell en Bocas del Toro",
-        "description": "El festival busca recuperar el legado de Luis Russell y mostrar otra cara de la historia cultural y afrocaribeña de Bocas del Toro.",
-        "source": {
-          "id": "prensa_pa",
-          "name": "La Prensa"
-        },
-        "sourceCountry": "PA",
-        "language": "es",
-        "publishedAt": "2026-10-07T05:01:00.000Z",
-        "imageUrl": "https://www.prensa.com/resizer/v2/GMI3JBFTURHL3PZIKMTS3T2KW4.png?auth=e4f8ac323dd202e47feb05f84091641cbefe42f49d024348590af114dd76f53d&smart=true&width=1280&height=720",
-        "countryCode": "PA",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:01:00.000Z"
-    },
-    {
-      "id": "wRMyL79pvj7d",
-      "representative": {
-        "id": "wRMyL79pvj7d",
-        "url": "https://www.critica.com.pa/escucha/se-escucha-por-ahi-517683",
-        "canonicalUrl": "https://www.critica.com.pa/escucha/se-escucha-por-ahi-517683",
+        "id": "e8J2ozA9F1_Q",
+        "url": "https://www.critica.com.pa/escucha/se-escucha-por-ahi-517622",
+        "canonicalUrl": "https://www.critica.com.pa/escucha/se-escucha-por-ahi-517622",
         "title": "Se escucha por ahí",
-        "description": "Se escucha por ahí cargadecierre Mié, 07/10/2026 - 00:00",
+        "description": "Se escucha por ahí cargadecierre Mar, 06/10/2026 - 00:20",
         "source": {
           "id": "critica",
           "name": "Crítica"
         },
         "sourceCountry": "PA",
         "language": "es",
-        "publishedAt": "2026-10-07T05:00:01.000Z",
+        "publishedAt": "2026-10-06T05:20:01.000Z",
         "imageUrl": null,
         "countryCode": "PA",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T05:00:01.000Z"
+      "latestPublishedAt": "2026-10-06T05:20:01.000Z"
     },
     {
-      "id": "cNkUl66PivA1",
+      "id": "F7NPWVaLBZyj",
       "representative": {
-        "id": "cNkUl66PivA1",
-        "url": "https://www.critica.com.pa/nacional/andrade-reta-duke-si-son-amanadas-pruebalo-517681",
-        "canonicalUrl": "https://www.critica.com.pa/nacional/andrade-reta-duke-si-son-amanadas-pruebalo-517681",
-        "title": "Andrade reta a Duke: “Si son amañadas, pruébalo”",
-        "description": "Andrade reta a Duke: “Si son amañadas, pruébalo” cargadecierre Mar, 06/10/2026 - 23:15",
+        "id": "F7NPWVaLBZyj",
+        "url": "https://www.critica.com.pa/nacional/mulino-arranca-su-agenda-en-vietnam-visitando-el-templo-de-la-literatura-517621",
+        "canonicalUrl": "https://www.critica.com.pa/nacional/mulino-arranca-su-agenda-en-vietnam-visitando-el-templo-de-la-literatura-517621",
+        "title": "Mulino arranca su agenda en Vietnam visitando el Templo de la Literatura",
+        "description": "Mulino arranca su agenda en Vietnam visitando el Templo de la Literatura mmontenegro Lun, 05/10/2026 - 23:52",
         "source": {
           "id": "critica",
           "name": "Crítica"
         },
         "sourceCountry": "PA",
         "language": "es",
-        "publishedAt": "2026-10-07T04:15:01.000Z",
+        "publishedAt": "2026-10-06T04:52:11.000Z",
         "imageUrl": null,
         "countryCode": "PA",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T04:15:01.000Z"
+      "latestPublishedAt": "2026-10-06T04:52:11.000Z"
     },
     {
-      "id": "4ATiUeZNRiRA",
+      "id": "DP8LUlMzvtke",
       "representative": {
-        "id": "4ATiUeZNRiRA",
-        "url": "https://www.tvn-2.com/mundo/europa/veintena-muertos-ucrania-bombardeos-rusos_1_2264752.html",
-        "canonicalUrl": "https://www.tvn-2.com/mundo/europa/veintena-muertos-ucrania-bombardeos-rusos_1_2264752.html",
-        "title": "Una veintena de muertos en Ucrania tras bombardeos rusos",
-        "description": "Rusia lanzó durante la noche un ataque masivo con al menos 50 misiles y 130 drones contra regiones como Dnipropetrovsk, Kiev, Járkov y Poltava:",
+        "id": "DP8LUlMzvtke",
+        "url": "https://www.critica.com.pa/nacional/bts-viene-panama-517619",
+        "canonicalUrl": "https://www.critica.com.pa/nacional/bts-viene-panama-517619",
+        "title": "¿BTS VIENE A PANAMÁ?",
+        "description": "¿BTS VIENE A PANAMÁ? cargadecierre Lun, 05/10/2026 - 23:40",
         "source": {
-          "id": "tvn_pa",
-          "name": "TVN"
+          "id": "critica",
+          "name": "Crítica"
         },
         "sourceCountry": "PA",
         "language": "es",
-        "publishedAt": "2026-10-07T11:36:40.000Z",
-        "imageUrl": "https://static.tvn-2.com/clip/7b08e1f6-7b32-496e-9315-1532c0ca9944_16-9-aspect-ratio_default_0.webp",
+        "publishedAt": "2026-10-06T04:40:01.000Z",
+        "imageUrl": null,
         "countryCode": "PA",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:36:40.000Z"
+      "latestPublishedAt": "2026-10-06T04:40:01.000Z"
+    },
+    {
+      "id": "Uoy_fp-IsmQI",
+      "representative": {
+        "id": "Uoy_fp-IsmQI",
+        "url": "https://www.critica.com.pa/nacional/jubilados-van-otra-vez-por-descuentos-tras-veto-del-presidente-mulino-517620",
+        "canonicalUrl": "https://www.critica.com.pa/nacional/jubilados-van-otra-vez-por-descuentos-tras-veto-del-presidente-mulino-517620",
+        "title": "Jubilados van otra vez por descuentos tras veto del presidente Mulino",
+        "description": "Jubilados van otra vez por descuentos tras veto del presidente Mulino cargadecierre Lun, 05/10/2026 - 23:40",
+        "source": {
+          "id": "critica",
+          "name": "Crítica"
+        },
+        "sourceCountry": "PA",
+        "language": "es",
+        "publishedAt": "2026-10-06T04:40:01.000Z",
+        "imageUrl": null,
+        "countryCode": "PA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T04:40:01.000Z"
+    },
+    {
+      "id": "PEhQtWaw5xu1",
+      "representative": {
+        "id": "PEhQtWaw5xu1",
+        "url": "https://www.critica.com.pa/sucesos/hallan-65-paquetes-de-presunta-droga-en-contenedor-procedente-de-eeuu-517618",
+        "canonicalUrl": "https://www.critica.com.pa/sucesos/hallan-65-paquetes-de-presunta-droga-en-contenedor-procedente-de-eeuu-517618",
+        "title": "Hallan 65 paquetes de presunta droga en contenedor procedente de EE.UU.",
+        "description": "Hallan 65 paquetes de presunta droga en contenedor procedente de EE.UU. practicante Lun, 05/10/2026 - 23:28",
+        "source": {
+          "id": "critica",
+          "name": "Crítica"
+        },
+        "sourceCountry": "PA",
+        "language": "es",
+        "publishedAt": "2026-10-06T04:28:57.000Z",
+        "imageUrl": null,
+        "countryCode": "PA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T04:28:57.000Z"
+    },
+    {
+      "id": "bJw5r-gqXDRj",
+      "representative": {
+        "id": "bJw5r-gqXDRj",
+        "url": "https://www.critica.com.pa/nacional/metro-de-panama-entra-la-asociacion-internacional-de-transporte-publico-517617",
+        "canonicalUrl": "https://www.critica.com.pa/nacional/metro-de-panama-entra-la-asociacion-internacional-de-transporte-publico-517617",
+        "title": "Metro de Panamá entra a la Asociación Internacional de Transporte Público",
+        "description": "Metro de Panamá entra a la Asociación Internacional de Transporte Público practicante Lun, 05/10/2026 - 23:11",
+        "source": {
+          "id": "critica",
+          "name": "Crítica"
+        },
+        "sourceCountry": "PA",
+        "language": "es",
+        "publishedAt": "2026-10-06T04:11:17.000Z",
+        "imageUrl": null,
+        "countryCode": "PA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T04:11:17.000Z"
+    },
+    {
+      "id": "BKLqcVznnFaA",
+      "representative": {
+        "id": "BKLqcVznnFaA",
+        "url": "https://www.critica.com.pa/sucesos/condenan-11-anos-de-prision-tres-extranjeros-por-trafico-de-drogas-517616",
+        "canonicalUrl": "https://www.critica.com.pa/sucesos/condenan-11-anos-de-prision-tres-extranjeros-por-trafico-de-drogas-517616",
+        "title": "Condenan a 11 años de prisión a tres extranjeros por tráfico de drogas",
+        "description": "Condenan a 11 años de prisión a tres extranjeros por tráfico de drogas practicante Lun, 05/10/2026 - 22:54",
+        "source": {
+          "id": "critica",
+          "name": "Crítica"
+        },
+        "sourceCountry": "PA",
+        "language": "es",
+        "publishedAt": "2026-10-06T03:54:08.000Z",
+        "imageUrl": null,
+        "countryCode": "PA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T03:54:08.000Z"
     }
   ]
 }

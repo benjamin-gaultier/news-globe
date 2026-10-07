@@ -2,161 +2,23 @@
   "schemaVersion": 1,
   "countryCode": "MZ",
   "countryName": "Mozambique",
-  "updatedAt": "2026-10-07T13:10:40.792Z",
+  "updatedAt": "2026-10-07T13:39:18.564Z",
   "clusters": [
     {
-      "id": "2aQJrjLSayNp",
+      "id": "OZJO-8pt92ry",
       "representative": {
-        "id": "2aQJrjLSayNp",
-        "url": "https://aimnews.org/2026/10/07/over-730000-internally-displaced-people-return-home/",
-        "canonicalUrl": "https://aimnews.org/2026/10/07/over-730000-internally-displaced-people-return-home/",
-        "title": "Over 730,000 internally displaced people return home",
-        "description": "Maputo, 07 Oct (AIM) – Over 730,000 internally displaced people have returned to their areas of origin in",
-        "source": {
-          "id": "aimnews",
-          "name": "AIM"
-        },
-        "sourceCountry": "MZ",
-        "language": "en",
-        "publishedAt": "2026-10-07T07:56:37.000Z",
-        "imageUrl": null,
-        "countryCode": "MZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "k1czDC533MqZ",
-          "url": "https://clubofmozambique.com/news/mozambique-over-730000-internally-displaced-people-return-home/",
-          "canonicalUrl": "https://clubofmozambique.com/news/mozambique-over-730000-internally-displaced-people-return-home/",
-          "title": "Mozambique | Over 730,000 internally displaced people return home",
-          "description": "Over 730,000 internally displaced people have returned to their areas of origin in Mozambique, according to the latest Displacement Tracking Matrix (DTM) assessment by the International Organization for Migration (IOM). The assessment, conducted between May and June in partnership with the…",
-          "source": {
-            "id": "clubofmozambique",
-            "name": "Club of Mozambique"
-          },
-          "sourceCountry": "MZ",
-          "language": "en",
-          "publishedAt": "2026-10-07T12:24:43.000Z",
-          "imageUrl": null,
-          "countryCode": "MZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T12:24:43.000Z"
-    },
-    {
-      "id": "IEtHW5HC7qr5",
-      "representative": {
-        "id": "IEtHW5HC7qr5",
-        "url": "https://clubofmozambique.com/news/mozambique-seeks-national-pipeline-of-bankable-climate-projects/",
-        "canonicalUrl": "https://clubofmozambique.com/news/mozambique-seeks-national-pipeline-of-bankable-climate-projects/",
-        "title": "Mozambique seeks national pipeline of bankable climate projects",
-        "description": "“This conference must contribute to building a national pipeline of bankable climate projects capable of connecting project developers, Government, banks, climate funds, and investors,” said Minister Salim Valá during the opening of the 2nd National Climate Finance Conference, running through…",
-        "source": {
-          "id": "clubofmozambique",
-          "name": "Club of Mozambique"
-        },
-        "sourceCountry": "MZ",
-        "language": "en",
-        "publishedAt": "2026-10-07T12:45:10.000Z",
-        "imageUrl": null,
-        "countryCode": "MZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:45:10.000Z"
-    },
-    {
-      "id": "xj-ufRfYhsyW",
-      "representative": {
-        "id": "xj-ufRfYhsyW",
-        "url": "https://evidencias.co.mz/2026/10/07/rasaque-manhique-diz-que-organizar-cidade-nao-significa-combater-quem-procura-sustento/?utm_source=rss&utm_medium=rss&utm_campaign=rasaque-manhique-diz-que-organizar-cidade-nao-significa-combater-quem-procura-sustento",
-        "canonicalUrl": "https://evidencias.co.mz/2026/10/07/rasaque-manhique-diz-que-organizar-cidade-nao-significa-combater-quem-procura-sustento/",
-        "title": "Rasaque Manhique diz que “Organizar cidade não significa combater quem procura sustento”",
-        "description": "O Presidente do Conselho Municipal de Maputo, Rasaque Manhique, defende que a organização da cidade deve ser conciliada com a necessidade de garantir meios de subsistência aos cidadãos, sublinhando que a actividade económica não pode ser exercida em prejuízo do direito dos munícipes à circulação e…",
-        "source": {
-          "id": "evidencias",
-          "name": "Evidências"
-        },
-        "sourceCountry": "MZ",
-        "language": "pt",
-        "publishedAt": "2026-10-07T12:38:26.000Z",
-        "imageUrl": null,
-        "countryCode": "MZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:38:26.000Z"
-    },
-    {
-      "id": "7L1AL2FPQ3DK",
-      "representative": {
-        "id": "7L1AL2FPQ3DK",
-        "url": "https://clubofmozambique.com/news/united-arab-emirates-investors-seek-acquisition-of-mozambican-titanium-mine/",
-        "canonicalUrl": "https://clubofmozambique.com/news/united-arab-emirates-investors-seek-acquisition-of-mozambican-titanium-mine/",
-        "title": "United Arab Emirates investors seek acquisition of Mozambican titanium mine",
-        "description": "Investors from the United Arab Emirates are seeking to acquire one of the world’s largest titanium mines in Mozambique, having submitted a proposal to purchase Kenmare Resources plc, owner of the Moma concession, the Irish company announced today. In a statement to financial markets, Kenmare…",
-        "source": {
-          "id": "clubofmozambique",
-          "name": "Club of Mozambique"
-        },
-        "sourceCountry": "MZ",
-        "language": "en",
-        "publishedAt": "2026-10-07T12:35:26.000Z",
-        "imageUrl": null,
-        "countryCode": "MZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:35:26.000Z"
-    },
-    {
-      "id": "2qaA_1XL8vR3",
-      "representative": {
-        "id": "2qaA_1XL8vR3",
-        "url": "https://evidencias.co.mz/2026/10/07/incm-desenvolve-novo-sistema-de-gestao-de-tarifas/?utm_source=rss&utm_medium=rss&utm_campaign=incm-desenvolve-novo-sistema-de-gestao-de-tarifas",
-        "canonicalUrl": "https://evidencias.co.mz/2026/10/07/incm-desenvolve-novo-sistema-de-gestao-de-tarifas/",
-        "title": "INCM desenvolve novo sistema de gestão de tarifas",
-        "description": "O Instituto Nacional das Comunicações de Moçambique (INCM) está a desenvolver com os operadores um novo sistema de gestão de tarifas e a reestruturação dos pacotes de dados, numa altura em que o país debate os desafios da inclusão digital e da qualidade de acesso. O anúncio foi feito pela PCA do…",
-        "source": {
-          "id": "evidencias",
-          "name": "Evidências"
-        },
-        "sourceCountry": "MZ",
-        "language": "pt",
-        "publishedAt": "2026-10-07T12:20:48.000Z",
-        "imageUrl": null,
-        "countryCode": "MZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T12:20:48.000Z"
-    },
-    {
-      "id": "xyrNUivzfPYs",
-      "representative": {
-        "id": "xyrNUivzfPYs",
-        "url": "https://opais.co.mz/xai-xai-celebra-65-anos-pos-cheias-que-deixaram-prejuizos-de-usd-100-milhoes/",
-        "canonicalUrl": "https://opais.co.mz/xai-xai-celebra-65-anos-pos-cheias-que-deixaram-prejuizos-de-usd-100-milhoes/",
-        "title": "Xai-Xai celebra 65 anos pós cheias que deixaram prejuízos de USD 100 milhões",
-        "description": "O município de Xai-Xai festeja 65 anos enquanto se reconstrói das piores inundações dos últimos 26 anos. Nove meses depois de mais de 30 mil famílias terem sido afectadas e de os prejuízos serem estimados em 100 milhões de dólares, a cidade retoma a sua marcha. O edil, Ossemane Adamo, aponta novos…",
+        "id": "OZJO-8pt92ry",
+        "url": "https://opais.co.mz/renato-matusse-e-inacio-dina-assumem-novos-cargos-no-ministerio-do-interior/",
+        "canonicalUrl": "https://opais.co.mz/renato-matusse-e-inacio-dina-assumem-novos-cargos-no-ministerio-do-interior/",
+        "title": "Renato Matusse e Inácio Dina assumem novos cargos no Ministério do Interior",
+        "description": "Renato Matusse e Inácio Dina foram empossados, esta terça-feira, na cidade de Maputo, para os cargos de Comandante Nacional do Serviço de Salvação Pública e Director de Logística e Finanças do Comando-Geral, respectivamente. O Ministro do Interior, Paulo Chachine, desafiou os empossados a melhorar…",
         "source": {
           "id": "opais_mz",
           "name": "O País"
         },
         "sourceCountry": "MZ",
         "language": "pt",
-        "publishedAt": "2026-10-07T11:07:17.000Z",
+        "publishedAt": "2026-10-06T17:51:12.000Z",
         "imageUrl": null,
         "countryCode": "MZ",
         "regionCode": null
@@ -164,23 +26,23 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T11:07:17.000Z"
+      "latestPublishedAt": "2026-10-06T17:51:12.000Z"
     },
     {
-      "id": "vQ7qCY_Uu0cC",
+      "id": "2FcdBbIMsq2i",
       "representative": {
-        "id": "vQ7qCY_Uu0cC",
-        "url": "https://jornalnoticias.co.mz/destaque/mambas-entre-as-100-melhores-seleccoes-do-mundo/",
-        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/mambas-entre-as-100-melhores-seleccoes-do-mundo/",
-        "title": "“MAMBAS” ENTRE AS 100 MELHORES SELECÇÕES DO MUNDO",
-        "description": "Os “Mambas” regressaram ao grupo das 100 melhores selecções do mundo, ao subirem cinco lugares na mais recente actualização do “ranking” da… O conteúdo “MAMBAS” ENTRE AS 100 MELHORES SELECÇÕES DO MUNDO aparece primeiro em Jornal Notícias .",
+        "id": "2FcdBbIMsq2i",
+        "url": "https://jornalnoticias.co.mz/destaque/belga-halzem-e-nobel-da-fisica-2026/",
+        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/belga-halzem-e-nobel-da-fisica-2026/",
+        "title": "Belga Halzem é Nóbel da Física 2026",
+        "description": "O físico belga, Francis Halzen, 82 anos, foi galardoado hoje com o Prémio Nobel da Física de 2026 pelo trabalho pioneiro que… O conteúdo Belga Halzem é Nóbel da Física 2026 aparece primeiro em Jornal Notícias .",
         "source": {
           "id": "noticias_mz",
           "name": "Notícias"
         },
         "sourceCountry": "MZ",
         "language": "pt",
-        "publishedAt": "2026-10-07T10:33:24.000Z",
+        "publishedAt": "2026-10-06T17:42:10.000Z",
         "imageUrl": null,
         "countryCode": "MZ",
         "regionCode": null
@@ -188,47 +50,23 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:33:24.000Z"
+      "latestPublishedAt": "2026-10-06T17:42:10.000Z"
     },
     {
-      "id": "E-FMaiKgxA3j",
+      "id": "_cNqcOyqzq9d",
       "representative": {
-        "id": "E-FMaiKgxA3j",
-        "url": "https://aimnews.org/2026/10/07/interior-minister-calls-for-responsible-management-across-prm-branches/",
-        "canonicalUrl": "https://aimnews.org/2026/10/07/interior-minister-calls-for-responsible-management-across-prm-branches/",
-        "title": "Interior Minister calls for responsible management across PRM branches",
-        "description": "Maputo, 07 Oct (AIM) – The Interior Minister Paulo Chachine calls for responsible administrative management across the various",
-        "source": {
-          "id": "aimnews",
-          "name": "AIM"
-        },
-        "sourceCountry": "MZ",
-        "language": "en",
-        "publishedAt": "2026-10-07T10:13:50.000Z",
-        "imageUrl": null,
-        "countryCode": "MZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:13:50.000Z"
-    },
-    {
-      "id": "Sfrv49o5l2BT",
-      "representative": {
-        "id": "Sfrv49o5l2BT",
-        "url": "https://jornalnoticias.co.mz/destaque/presidente-da-republica-trabalha-em-point-noire/",
-        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/presidente-da-republica-trabalha-em-point-noire/",
-        "title": "Presidente da República trabalha em Point Noire",
-        "description": "O Presidente da República, Daniel Chapo, efectua uma deslocação à Point Noire, zona económica da República do Congo, onde vai trabalhar grande… O conteúdo Presidente da República trabalha em Point Noire aparece primeiro em Jornal Notícias .",
+        "id": "_cNqcOyqzq9d",
+        "url": "https://jornalnoticias.co.mz/destaque/presidente-chapo-ja-esta-em-brazzaville/",
+        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/presidente-chapo-ja-esta-em-brazzaville/",
+        "title": "Presidente Chapo já está em Brazzaville",
+        "description": "O Presidente da República, Daniel Chapo, já se encontra em Brazzaville, capital da República do Congo, onde hoje e amanhã, efectua uma… O conteúdo Presidente Chapo já está em Brazzaville aparece primeiro em Jornal Notícias .",
         "source": {
           "id": "noticias_mz",
           "name": "Notícias"
         },
         "sourceCountry": "MZ",
         "language": "pt",
-        "publishedAt": "2026-10-07T09:56:35.000Z",
+        "publishedAt": "2026-10-06T17:34:15.000Z",
         "imageUrl": null,
         "countryCode": "MZ",
         "regionCode": null
@@ -236,95 +74,23 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:56:35.000Z"
+      "latestPublishedAt": "2026-10-06T17:34:15.000Z"
     },
     {
-      "id": "FPAeCJb94ftc",
+      "id": "A9brUc8i1yRz",
       "representative": {
-        "id": "FPAeCJb94ftc",
-        "url": "https://aimnews.org/2026/10/07/four-terrorist-victims-released-after-ransom-payment/",
-        "canonicalUrl": "https://aimnews.org/2026/10/07/four-terrorist-victims-released-after-ransom-payment/",
-        "title": "Four terrorist victims released after ransom payment",
-        "description": "Maputo, 07 Oct (AIM) – At least four people that had been kidnapped by the Islamist terrorists last",
-        "source": {
-          "id": "aimnews",
-          "name": "AIM"
-        },
-        "sourceCountry": "MZ",
-        "language": "en",
-        "publishedAt": "2026-10-07T09:44:44.000Z",
-        "imageUrl": null,
-        "countryCode": "MZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:44:44.000Z"
-    },
-    {
-      "id": "_PGa2En0xWby",
-      "representative": {
-        "id": "_PGa2En0xWby",
-        "url": "https://clubofmozambique.com/news/plague-epidemic-risk-in-russia-low-after-death-of-lab-technician-who-says/",
-        "canonicalUrl": "https://clubofmozambique.com/news/plague-epidemic-risk-in-russia-low-after-death-of-lab-technician-who-says/",
-        "title": "Plague epidemic risk in Russia low after death of lab technician, WHO says",
-        "description": "The World Health Organization has said the risk of an epidemic in Russia is low after the sudden death of a lab technician who worked at a plague research institute in Siberia. Darya Shipilova, who was 28, died last week, two days after falling ill. Russian media reports suggested she may have…",
-        "source": {
-          "id": "clubofmozambique",
-          "name": "Club of Mozambique"
-        },
-        "sourceCountry": "MZ",
-        "language": "en",
-        "publishedAt": "2026-10-07T09:12:49.000Z",
-        "imageUrl": null,
-        "countryCode": "MZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:12:49.000Z"
-    },
-    {
-      "id": "wOkuB8XEdmhr",
-      "representative": {
-        "id": "wOkuB8XEdmhr",
-        "url": "https://aimnews.org/2026/10/07/government-calls-for-greater-use-of-maritime-transport/",
-        "canonicalUrl": "https://aimnews.org/2026/10/07/government-calls-for-greater-use-of-maritime-transport/",
-        "title": "Government calls for greater use of maritime transport",
-        "description": "Maputo, 07 Oct (AIM) – Mozambican minister of Transport and Logistics, João Matlombe, believes that making greater use",
-        "source": {
-          "id": "aimnews",
-          "name": "AIM"
-        },
-        "sourceCountry": "MZ",
-        "language": "en",
-        "publishedAt": "2026-10-07T09:06:40.000Z",
-        "imageUrl": null,
-        "countryCode": "MZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T09:06:40.000Z"
-    },
-    {
-      "id": "xa8_GBuAt5KQ",
-      "representative": {
-        "id": "xa8_GBuAt5KQ",
-        "url": "https://opais.co.mz/ue-suspende-importacoes-de-carne-da-namibia-devido-a-febre-aftosa/",
-        "canonicalUrl": "https://opais.co.mz/ue-suspende-importacoes-de-carne-da-namibia-devido-a-febre-aftosa/",
-        "title": "UE suspende importações de carne da Namíbia devido à febre aftosa",
-        "description": "O maior mercado para a carne bovina da Namíbia, a União Europeia, anunciou na segunda-feira a suspensão das importações após um surto de febre aftosa, doença que devastou a Europa há 25 anos. No mês passado, a Namíbia anunciou seu primeiro surto de febre aftosa em sua principal zona de criação…",
+        "id": "A9brUc8i1yRz",
+        "url": "https://opais.co.mz/mobilidade-e-turismo-ganham-impulso-com-novas-estradas-em-xai-xai/",
+        "canonicalUrl": "https://opais.co.mz/mobilidade-e-turismo-ganham-impulso-com-novas-estradas-em-xai-xai/",
+        "title": "Mobilidade e turismo ganham impulso com novas estradas em Xai-Xai",
+        "description": "O Presidente do Município de Xai-Xai, Ossemane Adamo, inaugurou, nesta terça-feira, duas estradas avaliadas globalmente em 66 milhões de meticais, para melhorar a mobilidade e dinamizar o turismo na cidade. As vias ligam a Baixa ao Terceiro Bairro, em Patrice Lumumba, e dão acesso à zona turística…",
         "source": {
           "id": "opais_mz",
           "name": "O País"
         },
         "sourceCountry": "MZ",
         "language": "pt",
-        "publishedAt": "2026-10-07T08:42:46.000Z",
+        "publishedAt": "2026-10-06T16:00:38.000Z",
         "imageUrl": null,
         "countryCode": "MZ",
         "regionCode": null
@@ -332,23 +98,23 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T08:42:46.000Z"
+      "latestPublishedAt": "2026-10-06T16:00:38.000Z"
     },
     {
-      "id": "6MYyxfT9H2hF",
+      "id": "sOYBgHVmrcEM",
       "representative": {
-        "id": "6MYyxfT9H2hF",
-        "url": "https://cartamz.com/noticias/54008/preco-de-referencia-para-compra-do-caju-em-debate-hoje-em-maputo/",
-        "canonicalUrl": "https://cartamz.com/noticias/54008/preco-de-referencia-para-compra-do-caju-em-debate-hoje-em-maputo/",
-        "title": "Preço de referência para compra do caju em debate hoje em Maputo",
-        "description": "O Ministério da Agricultura, Ambiente e Pescas realiza, esta quarta-feira, a primeira Sessão do Comité de Amêndoas, um órgão de concertação e consulta tutelado pelo Instituto de Amêndoas de Moçambique, que junta produtores, comerciantes, processadores e Governo para debater e definir estratégias…",
+        "id": "sOYBgHVmrcEM",
+        "url": "https://opais.co.mz/proazul-participa-no-14-congresso-internacional-da-conxemar-na-espanha/",
+        "canonicalUrl": "https://opais.co.mz/proazul-participa-no-14-congresso-internacional-da-conxemar-na-espanha/",
+        "title": "PROAZUL participa no 14° Congresso Internacional da Conxemar na Espanha",
+        "description": "O Fundo de Desenvolvimento da Economia Azul (PROAZUL) participa desde esta segunda até quinta-feira, no 14.º Congresso Internacional Conxemar e na 27ª Feira Internacional de Productos de Mar, dois fóruns internacionais de reflexão e debate sobre o futuro da indústria do pescado, da economia azul e…",
         "source": {
-          "id": "cartamz",
-          "name": "Carta de Moçambique"
+          "id": "opais_mz",
+          "name": "O País"
         },
         "sourceCountry": "MZ",
         "language": "pt",
-        "publishedAt": "2026-10-07T08:17:13.000Z",
+        "publishedAt": "2026-10-06T15:06:18.000Z",
         "imageUrl": null,
         "countryCode": "MZ",
         "regionCode": null
@@ -356,31 +122,247 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T08:17:13.000Z"
+      "latestPublishedAt": "2026-10-06T15:06:18.000Z"
     },
     {
-      "id": "1O7Yz3nIRLh1",
+      "id": "u7pr0OrtUWMr",
       "representative": {
-        "id": "1O7Yz3nIRLh1",
-        "url": "https://cartamz.com/destaque/54005/populacao-contesta-instalacao-de-estaleiro-da-fabrica-de-explosivos-em-ancuabe/",
-        "canonicalUrl": "https://cartamz.com/destaque/54005/populacao-contesta-instalacao-de-estaleiro-da-fabrica-de-explosivos-em-ancuabe/",
-        "title": "População contesta instalação de estaleiro da Fábrica de Explosivos em Ancuabe",
-        "description": "A população da sede da Localidade de Salaue, também conhecida por Silva Macua, no Posto Administrativo de Metoro, distrito de Ancuabe, sul da província de Cabo Delgado, juntou-se esta segunda-feira para contestar a instalação de um estaleiro pertencente à Fábrica de Explosivos de Moçambique (FEM)…",
+        "id": "u7pr0OrtUWMr",
+        "url": "https://jornalnoticias.co.mz/destaque/sn-com-novos-gestores/",
+        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/sn-com-novos-gestores/",
+        "title": "SN com novos gestores",
+        "description": "A Sociedade do Notícias, proprietária dos jornais Notícias, Domingo, Desafio e Unidade Gráfica conta desde hoje com novos gestores. Trata-se de Félix… O conteúdo SN com novos gestores aparece primeiro em Jornal Notícias .",
         "source": {
-          "id": "cartamz",
-          "name": "Carta de Moçambique"
+          "id": "noticias_mz",
+          "name": "Notícias"
         },
         "sourceCountry": "MZ",
         "language": "pt",
-        "publishedAt": "2026-10-07T08:13:32.000Z",
+        "publishedAt": "2026-10-06T12:07:05.000Z",
         "imageUrl": null,
         "countryCode": "MZ",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T08:13:32.000Z"
+      "latestPublishedAt": "2026-10-06T12:07:05.000Z"
+    },
+    {
+      "id": "qSld6KHp2O1w",
+      "representative": {
+        "id": "qSld6KHp2O1w",
+        "url": "https://opais.co.mz/construcao-da-estrada-alternativa-para-aliviar-caos-na-n6-ainda-nao-arrancou-na-beira/",
+        "canonicalUrl": "https://opais.co.mz/construcao-da-estrada-alternativa-para-aliviar-caos-na-n6-ainda-nao-arrancou-na-beira/",
+        "title": "Construção da estrada alternativa para aliviar caos na N6 ainda não arrancou na Beira",
+        "description": "Entrar na cidade da Beira e no Porto tornou-se um suplício diário. Os últimos 20 quilómetros da Estrada Nacional Número 6 (N6), principal corredor logístico do país, registam um congestionamento crónico de camiões pesados que chegam e saem do Porto da Beira. Para resolver o problema, o Governo…",
+        "source": {
+          "id": "opais_mz",
+          "name": "O País"
+        },
+        "sourceCountry": "MZ",
+        "language": "pt",
+        "publishedAt": "2026-10-06T13:26:26.000Z",
+        "imageUrl": null,
+        "countryCode": "MZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:26:26.000Z"
+    },
+    {
+      "id": "4AeT_LJI2423",
+      "representative": {
+        "id": "4AeT_LJI2423",
+        "url": "https://jornalnoticias.co.mz/destaque/morreu-o-jornalista-egidio-pascoal/",
+        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/morreu-o-jornalista-egidio-pascoal/",
+        "title": "Morreu o jornalista Egídio Pascoal",
+        "description": "Morreu esta manhã, vítima da doença, Egídio Pascoal, jornalista e locutor da Rádio Moçambique, afecto ao emissora provincial de Tete. Segundo uma… O conteúdo Morreu o jornalista Egídio Pascoal aparece primeiro em Jornal Notícias .",
+        "source": {
+          "id": "noticias_mz",
+          "name": "Notícias"
+        },
+        "sourceCountry": "MZ",
+        "language": "pt",
+        "publishedAt": "2026-10-06T10:33:48.000Z",
+        "imageUrl": null,
+        "countryCode": "MZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:33:48.000Z"
+    },
+    {
+      "id": "x4ls-D2TjsH7",
+      "representative": {
+        "id": "x4ls-D2TjsH7",
+        "url": "https://jornalnoticias.co.mz/destaque/pr-ja-partiu-para-a-republica-do-congo/",
+        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/pr-ja-partiu-para-a-republica-do-congo/",
+        "title": "PR já partiu para a República do Congo",
+        "description": "O Presidente da República, Daniel Chapo, já partiu para o Congo, onde efectua uma visita de Estado de dois dias, em resposta… O conteúdo PR já partiu para a República do Congo aparece primeiro em Jornal Notícias .",
+        "source": {
+          "id": "noticias_mz",
+          "name": "Notícias"
+        },
+        "sourceCountry": "MZ",
+        "language": "pt",
+        "publishedAt": "2026-10-06T10:24:31.000Z",
+        "imageUrl": null,
+        "countryCode": "MZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:24:31.000Z"
+    },
+    {
+      "id": "w9xMRVFHL6tL",
+      "representative": {
+        "id": "w9xMRVFHL6tL",
+        "url": "https://opais.co.mz/sao-precisos-mais-50-milhoes-de-professores-para-garantir-educacao/",
+        "canonicalUrl": "https://opais.co.mz/sao-precisos-mais-50-milhoes-de-professores-para-garantir-educacao/",
+        "title": "São precisos mais 50 milhões de professores para garantir educação",
+        "description": "A UNESCO alertou nesta segunda-feira para a necessidade de juntar mais 50 milhões aos actuais 107 milhões de professores em todo o mundo para garantir o acesso universal à educação pré-escolar, primária e secundária até 2030. Os números foram divulgados pela Organização das Nações Unidas para a…",
+        "source": {
+          "id": "opais_mz",
+          "name": "O País"
+        },
+        "sourceCountry": "MZ",
+        "language": "pt",
+        "publishedAt": "2026-10-06T10:02:53.000Z",
+        "imageUrl": null,
+        "countryCode": "MZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:02:53.000Z"
+    },
+    {
+      "id": "lo18ny9_KyzG",
+      "representative": {
+        "id": "lo18ny9_KyzG",
+        "url": "https://jornalnoticias.co.mz/destaque/niassa-adolescente-usa-ia-para-aprender-linguas-estrangeiras/",
+        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/niassa-adolescente-usa-ia-para-aprender-linguas-estrangeiras/",
+        "title": "NIASSA: Adolescente usa IA para aprender línguas estrangeiras",
+        "description": "Um adolescente de 12 anos de idade destaca-se, na cidade de Lichinga, pelo seu extraordinário interesse e domínio de cinco línguas estrangeiras:… O conteúdo NIASSA: Adolescente usa IA para aprender línguas estrangeiras aparece primeiro em Jornal Notícias .",
+        "source": {
+          "id": "noticias_mz",
+          "name": "Notícias"
+        },
+        "sourceCountry": "MZ",
+        "language": "pt",
+        "publishedAt": "2026-10-06T09:24:43.000Z",
+        "imageUrl": null,
+        "countryCode": "MZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:24:43.000Z"
+    },
+    {
+      "id": "Ne0lFPeGwujQ",
+      "representative": {
+        "id": "Ne0lFPeGwujQ",
+        "url": "https://jornalnoticias.co.mz/destaque/cidade-de-maputo-com-novos-gestores-publicos/",
+        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/cidade-de-maputo-com-novos-gestores-publicos/",
+        "title": "Cidade de Maputo com novos gestores públicos",
+        "description": "O secretário de Estado na cidade de Maputo, Vicente Joaquim, empossa esta manhã novos quadros de diversos sectores nesta urbe.Trata-se do novo… O conteúdo Cidade de Maputo com novos gestores públicos aparece primeiro em Jornal Notícias .",
+        "source": {
+          "id": "noticias_mz",
+          "name": "Notícias"
+        },
+        "sourceCountry": "MZ",
+        "language": "pt",
+        "publishedAt": "2026-10-06T09:16:41.000Z",
+        "imageUrl": null,
+        "countryCode": "MZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T09:16:41.000Z"
+    },
+    {
+      "id": "V-Fyt71eYZNO",
+      "representative": {
+        "id": "V-Fyt71eYZNO",
+        "url": "https://jornalnoticias.co.mz/destaque/mocambique-defende-reforco-de-estrategias-contra-crime-organizado-e-transnacional/",
+        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/mocambique-defende-reforco-de-estrategias-contra-crime-organizado-e-transnacional/",
+        "title": "Moçambique defende reforço de estratégias contra crime organizado e transnacional",
+        "description": "O vice-comandante-geral da Polícia da República de Moçambique (PRM), Aquilasse Kapangula Manda, defendeu, na tarde de ontem, em Dar-Es-Salaam, Tanzania, o reforço… O conteúdo Moçambique defende reforço de estratégias contra crime organizado e transnacional aparece primeiro em Jornal Notícias .",
+        "source": {
+          "id": "noticias_mz",
+          "name": "Notícias"
+        },
+        "sourceCountry": "MZ",
+        "language": "pt",
+        "publishedAt": "2026-10-06T08:58:45.000Z",
+        "imageUrl": null,
+        "countryCode": "MZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:58:45.000Z"
+    },
+    {
+      "id": "Dh5mWGudv46A",
+      "representative": {
+        "id": "Dh5mWGudv46A",
+        "url": "https://jornalnoticias.co.mz/destaque/conferencia-discute-paz-e-coesao-social-em-chiure/",
+        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/conferencia-discute-paz-e-coesao-social-em-chiure/",
+        "title": "Conferência discute paz e coesão social em Chiúre",
+        "description": "Uma conferência distrital organizada pela associação Dimongo, reúne esta manhã, na vila autárquica de Chiúre, líderes comunitários, religiosos, representantes de partidos políticos… O conteúdo Conferência discute paz e coesão social em Chiúre aparece primeiro em Jornal Notícias .",
+        "source": {
+          "id": "noticias_mz",
+          "name": "Notícias"
+        },
+        "sourceCountry": "MZ",
+        "language": "pt",
+        "publishedAt": "2026-10-06T08:08:22.000Z",
+        "imageUrl": null,
+        "countryCode": "MZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:08:22.000Z"
+    },
+    {
+      "id": "bZ16GNimRAes",
+      "representative": {
+        "id": "bZ16GNimRAes",
+        "url": "https://jornalnoticias.co.mz/destaque/cote-encerra-audicoes-publicas-na-diaspora/",
+        "canonicalUrl": "https://jornalnoticias.co.mz/destaque/cote-encerra-audicoes-publicas-na-diaspora/",
+        "title": "COTE encerra audições públicas na diáspora",
+        "description": "A Comissão Técnica (COTE) do Diálogo Nacional Inclusivo concluiu, esta segunda-feira, o processo de audições públicas junto das comunidades moçambicanas na diáspora,… O conteúdo COTE encerra audições públicas na diáspora aparece primeiro em Jornal Notícias .",
+        "source": {
+          "id": "noticias_mz",
+          "name": "Notícias"
+        },
+        "sourceCountry": "MZ",
+        "language": "pt",
+        "publishedAt": "2026-10-06T08:06:55.000Z",
+        "imageUrl": null,
+        "countryCode": "MZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T08:06:55.000Z"
     }
   ]
 }
