@@ -57,6 +57,25 @@ const SOURCES = {
     code: (p) => (p.iso_a2 === 'IT' ? p.region_cod : undefined),
     expected: 20,
   },
+  // Canada's 10 provinces and 3 territories: Natural Earth 1:50m admin-1 (public domain).
+  ca: {
+    url: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_admin_1_states_provinces.geojson',
+    code: (p) => (p.iso_a2 === 'CA' ? p.iso_3166_2 : undefined),
+    expected: 13,
+  },
+  // Australia's 6 states and 2 mainland territories (Jervis Bay Territory, AU-X02~, is left
+  // out): Natural Earth 1:50m admin-1 (public domain).
+  au: {
+    url: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_admin_1_states_provinces.geojson',
+    code: (p) => (p.iso_a2 === 'AU' && /^AU-[A-Z]+$/.test(p.iso_3166_2) ? p.iso_3166_2 : undefined),
+    expected: 8,
+  },
+  // Brazil's 26 states and the Federal District: Natural Earth 1:50m admin-1 (public domain).
+  br: {
+    url: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_admin_1_states_provinces.geojson',
+    code: (p) => (p.iso_a2 === 'BR' ? p.iso_3166_2 : undefined),
+    expected: 27,
+  },
 };
 
 const cc = process.argv[2];
