@@ -1,4 +1,8 @@
 import type { CountryCode, RegionCode } from '@news-globe/shared';
+import { ES_REGIONS_NORTH } from './sources/es-regions-north';
+import { ES_REGIONS_SOUTH } from './sources/es-regions-south';
+import { IT_REGIONS_NORTH } from './sources/it-regions-north';
+import { IT_REGIONS_SOUTH } from './sources/it-regions-south';
 import { US_STATES_MIDWEST } from './sources/us-states-midwest';
 import { US_STATES_NORTHEAST } from './sources/us-states-northeast';
 import { US_STATES_SOUTH } from './sources/us-states-south';
@@ -7845,6 +7849,10 @@ export const SOURCES: SourceConfig[] = [
   ...US_STATES_MIDWEST,
   ...US_STATES_SOUTH,
   ...US_STATES_WEST,
+  ...ES_REGIONS_NORTH,
+  ...ES_REGIONS_SOUTH,
+  ...IT_REGIONS_NORTH,
+  ...IT_REGIONS_SOUTH,
 ];
 
 export const INGEST_SETTINGS = {

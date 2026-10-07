@@ -1,9 +1,13 @@
 // Downloads a country's region outlines and writes a trimmed copy to
 // src/assets/regions-{cc}.json, keyed by ISO 3166-2 code. Run once per country;
 // the output is committed and loaded only when that country is selected.
+// Sources split finer than regions (Spain's and Italy's provinces) are merged
+// into one outline per region along their shared borders.
 //   node scripts/prepare-regions.mjs fr
 //   node scripts/prepare-regions.mjs de
 import { writeFile, mkdir } from 'node:fs/promises';
+import { topology } from 'topojson-server';
+import { merge } from 'topojson-client';
 
 const SOURCES = {
   // France's 13 metropolitan regions: IGN Admin Express via
@@ -31,6 +35,28 @@ const SOURCES = {
     code: (p) => (p.iso_a2 === 'US' ? p.iso_3166_2 : undefined),
     expected: 51,
   },
+  // Spain's 17 autonomous communities (Ceuta and Melilla, ES.CE, are left out), merged from
+  // Natural Earth 1:10m provinces. Its region codes are Natural Earth's own;
+  // a few differ from ISO 3166-2 (ES.PM is ES-IB, ES.LO is ES-RI…).
+  es: {
+    url: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson',
+    code: (p) =>
+      p.iso_a2 === 'ES'
+        ? {
+            'ES.AN': 'ES-AN', 'ES.AR': 'ES-AR', 'ES.AS': 'ES-AS', 'ES.CN': 'ES-CN', 'ES.CB': 'ES-CB', 'ES.CM': 'ES-CM',
+            'ES.CL': 'ES-CL', 'ES.CT': 'ES-CT', 'ES.EX': 'ES-EX', 'ES.GA': 'ES-GA', 'ES.PM': 'ES-IB', 'ES.LO': 'ES-RI',
+            'ES.MD': 'ES-MD', 'ES.MU': 'ES-MC', 'ES.NA': 'ES-NC', 'ES.PV': 'ES-PV', 'ES.VC': 'ES-VC',
+          }[p.region_cod]
+        : undefined,
+    expected: 17,
+  },
+  // Italy's 20 regions, merged from Natural Earth 1:10m provinces; there
+  // `region_cod` is already the ISO 3166-2 region code (IT-21 Piemonte…).
+  it: {
+    url: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson',
+    code: (p) => (p.iso_a2 === 'IT' ? p.region_cod : undefined),
+    expected: 20,
+  },
 };
 
 const cc = process.argv[2];
@@ -57,12 +83,21 @@ const res = await fetch(source.url, { headers: { 'User-Agent': 'NewsGlobeBot/0.1
 if (!res.ok) throw new Error(`HTTP ${res.status}`);
 const geo = await res.json();
 
-const features = geo.features.flatMap((f) => {
+const parts = new Map();
+for (const f of geo.features) {
   const code = source.code(f.properties);
-  if (!code) return [];
-  const { type, coordinates } = f.geometry;
+  if (code) parts.set(code, [...(parts.get(code) ?? []), f]);
+}
+// One part is used as is; several (provinces) are merged along shared arcs, so no seams are left inside a region.
+const geometryOf = (fs) => {
+  if (fs.length === 1) return fs[0].geometry;
+  const topo = topology({ parts: { type: 'FeatureCollection', features: fs } });
+  return merge(topo, topo.objects.parts.geometries);
+};
+const features = [...parts].map(([code, fs]) => {
+  const { type, coordinates } = geometryOf(fs);
   const polygons = (type === 'Polygon' ? [coordinates] : coordinates).map(roundPolygon).filter((p) => p.length > 0);
-  return [{ type: 'Feature', properties: { region: code }, geometry: { type: 'MultiPolygon', coordinates: polygons } }];
+  return { type: 'Feature', properties: { region: code }, geometry: { type: 'MultiPolygon', coordinates: polygons } };
 });
 if (features.length !== source.expected) throw new Error(`expected ${source.expected} regions, got ${features.length}`);
 

@@ -158,6 +158,32 @@ questo questa questi queste quello quella quelli quelle suo sua suoi sue loro mi
 lui lei noi voi essi e sono era erano stato stata stati essere ha hanno aveva avere fa fare dopo
 prima ancora gia solo tutto tutti tutta tutte molto poi cosa ecco oggi nuovo nuova ora diretta`;
 
+// Spain's regional languages, for regional outlets that publish in them.
+// Folded like the other lists; each includes weekdays and months.
+const STOPWORDS_CA = `
+el la els les lo un una uns unes i o pero que de del dels al als a en amb per sense sobre entre fins
+des cap contra segons despres abans com quan on qui quin quina quins quines es se seu seva seus seves
+li ens us em et aquest aquesta aquests aquestes aquell aquella aixo son va van ser sera ha han hi
+havia estar esta estan era eren molt mes menys ja no si tambe tot tota tots totes altre altra altres
+mateix cada encara nou nova nous noves avui ahir dema ara directe diu diuen dilluns dimarts dimecres
+dijous divendres dissabte diumenge gener febrer marc abril maig juny juliol agost setembre octubre
+novembre desembre`;
+
+const STOPWORDS_GL = `
+o a os as un unha uns unhas e ou pero que de do da dos das ao aos en no na nos nas con por para sen
+sobre entre ata desde contra segundo tras como cando onde quen cal cales se seu sua seus suas lle lles
+me te este esta estes estas ese esa isto iso son foi foron ser sera hai habia estar estan era eran
+moi mais menos xa non si tamen todo toda todos todas outro outra outros outras mesmo cada ainda novo
+nova hoxe onte mana agora directo di din luns martes mercores xoves venres sabado domingo xaneiro
+febreiro marzo abril maio xuno xullo agosto setembro outubro novembro decembro`;
+
+const STOPWORDS_EU = `
+eta edo baina ez bai da dira zen ziren du dute zuen zuten izan egin dago daude hau hori hura honek
+horrek bere beren gure nire zure ere oso gehiago gutxiago dela duela baino bezala non noiz nor zer
+zein nola gaur atzo bihar orain berri esan dio diote astelehena asteartea asteazkena osteguna
+ostirala larunbata igandea urtarrila otsaila martxoa apirila maiatza ekaina uztaila abuztua iraila
+urria azaroa abendua`;
+
 const STOPWORDS_PT = `
 o a os as um uma uns umas e ou mas que de do da dos das em no na nos nas ao aos a as pelo pela pelos
 pelas por para com sem sobre entre ate apos contra desde se seu sua seus suas ele ela eles elas
@@ -492,6 +518,9 @@ const STOPWORDS_BY_LANGUAGE: Record<string, Set<string>> = {
   es: wordSet(STOPWORDS_ES, CALENDAR_ES, STOPWORDS_EN, BOILERPLATE),
   it: wordSet(STOPWORDS_IT, STOPWORDS_EN, BOILERPLATE),
   pt: wordSet(STOPWORDS_PT, CALENDAR_PT, STOPWORDS_EN, BOILERPLATE),
+  ca: wordSet(foldedWords(STOPWORDS_CA), STOPWORDS_ES, CALENDAR_ES, STOPWORDS_EN, BOILERPLATE),
+  gl: wordSet(foldedWords(STOPWORDS_GL), STOPWORDS_ES, CALENDAR_ES, STOPWORDS_EN, BOILERPLATE),
+  eu: wordSet(foldedWords(STOPWORDS_EU), STOPWORDS_ES, CALENDAR_ES, STOPWORDS_EN, BOILERPLATE),
   tr: wordSet(STOPWORDS_TR, STOPWORDS_EN, BOILERPLATE),
   ja: wordSet(STOPWORDS_JA, STOPWORDS_EN, BOILERPLATE),
   nl: wordSet(STOPWORDS_NL, STOPWORDS_EN, BOILERPLATE),
