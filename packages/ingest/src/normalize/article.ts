@@ -133,6 +133,38 @@ const NOT_NEWS: RegExp[] = [
   // Podcast episodes: "PODCAST: …", "Nashvillager Podcast: …", "… | Banner Ravens Podcast".
   /^[\w’' ]{0,30}?\bpodcast\s*:/i,
   /\|\s*[^|]{0,40}\bpodcast$/i,
+  // Spanish, Catalan and Italian regional feeds. Broadcast episodes named by their date: RAI TGR's
+  // "GR Lazio del 07/10/2026 ore 12:10", "Meteo Calabria del 06/10/2026 ore 19:30",
+  // "Buongiorno Regione Umbria del 07/10/2026", "Tgr in 60 secondi del 6 ottobre";
+  // IB3's "RESUM IB3 NOTÍCIES MIGDIA 07/10/2026"; À Punt's "07.10.2026 | Informatiu migdia | L'oratge";
+  // NewSicilia's "… | TG Flash 13:30".
+  /^[^:|]{2,60} del \d{1,2}\/\d{1,2}\/\d{4}(?: ore \d{1,2}[:.]\d{2})?$/i,
+  /^tgr in 60 secondi\b/i,
+  /^resum ib3\b/i,
+  /^\d{1,2}\.\d{1,2}\.\d{4}\s*\|/,
+  /\|\s*tg flash\b[^|]*$/i,
+  // Press reviews and digests: "Rassegna stampa 07-10-2026 edizioni Calabria",
+  // "Estas son las noticias más leídas este lunes en El Progreso",
+  // "Las noticias más importantes en Salamanca hoy lunes 5 de octubre", "Las noticias imprescindibles",
+  // "Así te hemos contado la actualidad de Valladolid durante la mañana del martes, 6 de octubre".
+  /^rassegna stampa\b/i,
+  /\bnoticias más (?:leídas|importantes)\b/i,
+  /^las noticias imprescindibles$/i,
+  /^así te hemos contado la actualidad\b/i,
+  // Daily forecasts (weather news such as storm warnings stays): "El tiempo en Asturias para este martes, 6 de octubre: …",
+  // "Meteo in Veneto, le previsioni per martedì 6 ottobre: …", "Previsioni meteo giovedì 8 ottobre, a Milano …".
+  /^el tiempo en [^:]{2,30} para (?:este|el|hoy)\b/i,
+  /^(?:meteo in [^,]{2,30}, le previsioni per|previsioni meteo (?:lunedì|martedì|mercoledì|giovedì|venerdì|sabato|domenica|oggi|domani))(?=[\s,:]|$)/i,
+  // Horoscopes, agendas, TV listings and opinion: "Horóscopo", "l'oroscopo di oggi",
+  // "Què fer a Barcelona? Agenda d’activitats…", "Concerts de Barcelona el 2026: Agenda completa…",
+  // "Cosa fare a Milano oggi 7 ottobre: …", "Cosa fare oggi in Umbria", "Qué hacer hoy en Vigo",
+  // "…: card completa, data, orario e dove vederlo in diretta tv e streaming", "Opinión | …".
+  /^(?:horóscopo|oroscopo)\b/i,
+  /\boroscopo di oggi\b/i,
+  /^(?:què fer a [^?]{2,30}\?|qué hacer hoy\b|cosa fare (?:a [^ ]+ )?oggi\b)/i,
+  /\bagenda (?:completa d['’]|d['’]activitats\b)/i,
+  /\bdove veder(?:lo|la|li|le) in (?:diretta )?tv\b/i,
+  /^(?:opinión|opinió|opinione)\s*[|:]/i,
 ];
 
 /**
@@ -148,6 +180,9 @@ export function isNotNews(title: string): boolean {
  * public radio station reruns a partner nonprofit's story (CT Mirror on CT
  * Public, Spotlight PA on WESA). The earliest copy, usually the original, is
  * kept. Without this a single story counts as covered by several outlets.
+ * An outlet's own repeats go too (ANSA posting a story twice under two URLs,
+ * a press release published four times): stories from one outlet never
+ * cluster, so each copy would take its own place in the top stories.
  * Titles are compared ignoring case, punctuation and spacing.
  */
 export function dropRepublished(articles: Article[]): Article[] {
@@ -158,10 +193,7 @@ export function dropRepublished(articles: Article[]): Article[] {
     const seen = first.get(k);
     if (!seen || Date.parse(a.publishedAt) < Date.parse(seen.publishedAt)) first.set(k, a);
   }
-  return articles.filter((a) => {
-    const original = first.get(key(a.title))!;
-    return original === a || original.source.id === a.source.id;
-  });
+  return articles.filter((a) => first.get(key(a.title)) === a);
 }
 
 /** Exact dedupe on canonical URL; the first occurrence wins. */

@@ -1,0 +1,724 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "IT",
+  "countryName": "Italy",
+  "regionCode": "IT-72",
+  "regionName": "Campania",
+  "updatedAt": "2026-10-07T15:02:06.730Z",
+  "clusters": [
+    {
+      "id": "nYpXvjpFfYMU",
+      "representative": {
+        "id": "nYpXvjpFfYMU",
+        "url": "https://napoli.repubblica.it/cronaca/2026/10/07/news/operaio_morto_benevento_salerno-425632005/?rss",
+        "canonicalUrl": "https://napoli.repubblica.it/cronaca/2026/10/07/news/operaio_morto_benevento_salerno-425632005/?rss=",
+        "title": "Cede un muro nel cantiere, operaio morto nel Beneventano: aveva 46 anni",
+        "description": "Area sotto sequestro, in corso le indagini dei carabinieri",
+        "source": {
+          "id": "it_72_repubblica",
+          "name": "la Repubblica Napoli"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:56:50.000Z",
+        "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-napoli/2026/10/07/155645330-699233a0-0f39-4847-b5a7-f4ef33ab86f3.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "EWHJmWbUy_rI",
+          "url": "https://www.ansa.it/campania/notizie/2026/10/07/cede-un-muro-nel-cantiere-operaio-morto-nel-beneventano_d14955bd-3d98-49ed-a43d-20ea296cf94f.html",
+          "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/07/cede-un-muro-nel-cantiere-operaio-morto-nel-beneventano_d14955bd-3d98-49ed-a43d-20ea296cf94f.html",
+          "title": "Cede un muro nel cantiere, operaio morto nel Beneventano",
+          "description": "Area sotto sequestro, in corso le indagini dei carabinieri",
+          "source": {
+            "id": "it_72_ansa",
+            "name": "ANSA Campania"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T13:47:07.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        },
+        {
+          "id": "430_VtNu5g4q",
+          "url": "https://www.rainews.it/tgr/campania/articoli/2026/10/cede-muro-in-un-cantiere-muore-un-operaio-defb0c26-1f6a-4b5a-b79c-d57ed35ffc2a.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/campania/articoli/2026/10/cede-muro-in-un-cantiere-muore-un-operaio-defb0c26-1f6a-4b5a-b79c-d57ed35ffc2a.html",
+          "title": "Cede muro in un cantiere, muore un operaio",
+          "description": "È accaduto in un'azienda di Apollosa, in provincia di Benevento, la vittima aveva 46 anni",
+          "source": {
+            "id": "it_72_tgr",
+            "name": "TGR Campania (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T13:46:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791383022886_WhatsApp_Image__at_...jpeg",
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        },
+        {
+          "id": "tI6iZB3OV3Jz",
+          "url": "https://www.anteprima24.it/benevento/apollosa-incidente-lavoro-operaio-46-anni-morto-muretto/",
+          "canonicalUrl": "https://www.anteprima24.it/benevento/apollosa-incidente-lavoro-operaio-46-anni-morto-muretto/",
+          "title": "Cede un muretto e lo schiaccia: operaio di 46 anni muore sul lavoro",
+          "description": "Incidente sul lavoro questa mattina ad Apollosa. Intorno alle 10 ha perso la vita un operaio di 46 anni, dipendente di una ditta che operava presso un’azienda della filiera zootecnica. L’uomo è rimasto schiacciato in seguito al cedimento di un muretto, per cause ancora in corso di accertamento da…",
+          "source": {
+            "id": "it_72_anteprima24",
+            "name": "Anteprima24"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T12:45:52.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-07T13:56:50.000Z"
+    },
+    {
+      "id": "eubk2HzTp2vn",
+      "representative": {
+        "id": "eubk2HzTp2vn",
+        "url": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_07/mamma-a-59-anni-e-papa-a-70-francesca-pia-e-una-bimba-di-4-5-kg-il-parto-a-salerno-c16439b7-2a3c-4d4f-b003-caf899a2bxlk.shtml",
+        "canonicalUrl": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_07/mamma-a-59-anni-e-papa-a-70-francesca-pia-e-una-bimba-di-4-5-kg-il-parto-a-salerno-c16439b7-2a3c-4d4f-b003-caf899a2bxlk.shtml",
+        "title": "Mamma a 59 anni e papà a 70, Francesca Pia è una bimba di 4,5 kg: il parto a Salerno",
+        "description": "Polichetti: «Caso raro con genitori di questa età, orgogliosi che la bambina stia in ottime condizioni»",
+        "source": {
+          "id": "it_72_corriere",
+          "name": "Corriere del Mezzogiorno (Napoli)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T09:28:58.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_572_429/uploads/2025/11/24/692479075057b.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "D_58EdKj0mC0",
+          "url": "https://www.ansa.it/campania/notizie/2026/10/07/mamma-a-59-anni-il-papa-ne-ha-70-e-nata-la-piccola-francesca-pia_8d778ede-ca55-40ff-9b14-5c0242243469.html",
+          "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/07/mamma-a-59-anni-il-papa-ne-ha-70-e-nata-la-piccola-francesca-pia_8d778ede-ca55-40ff-9b14-5c0242243469.html",
+          "title": "Mamma a 59 anni, il papà ne ha 70: è nata la piccola Francesca Pia",
+          "description": "La bimba sta bene, soddisfatta l'équipe medica",
+          "source": {
+            "id": "it_72_ansa",
+            "name": "ANSA Campania"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T13:23:30.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        },
+        {
+          "id": "AAlS-C2pPPuO",
+          "url": "https://napoli.repubblica.it/cronaca/2026/10/07/news/parto_salerno_mamma_bambina-425631712/?rss",
+          "canonicalUrl": "https://napoli.repubblica.it/cronaca/2026/10/07/news/parto_salerno_mamma_bambina-425631712/?rss=",
+          "title": "Parto eccezionale a Salerno: diventa mamma di una bimba a 59 anni, il papà ne ha 70",
+          "description": "Il parto è stato eseguito dall’équipe del professor Mario Polichetti",
+          "source": {
+            "id": "it_72_repubblica",
+            "name": "la Repubblica Napoli"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T10:59:45.000Z",
+          "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-napoli/2026/10/07/125939677-7b8b315f-8342-4647-a939-6cf9b504871d.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T13:23:30.000Z"
+    },
+    {
+      "id": "tbVq4IbYenFN",
+      "representative": {
+        "id": "tbVq4IbYenFN",
+        "url": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_06/napoli-in-un-bene-confiscato-all-arenaccia-nasce-la-ludoteca-sociale-a-voce-d-e-creature-piantedosi-al-taglio-del-nastro-bf49e8a8-1c8d-439d-8177-640870ef5xlk.shtml",
+        "canonicalUrl": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_06/napoli-in-un-bene-confiscato-all-arenaccia-nasce-la-ludoteca-sociale-a-voce-d-e-creature-piantedosi-al-taglio-del-nastro-bf49e8a8-1c8d-439d-8177-640870ef5xlk.shtml",
+        "title": "Napoli, in un bene confiscato all'Arenaccia nasce la ludoteca sociale 'A voce d'e Creature. Piantedosi al taglio del nastro",
+        "description": "Con il ministro dell'Interno anche il sindaco e il prefetto. Don Luigi Merola: «Formare oggi un bambino a Napoli significa non punire un adulto un domani»",
+        "source": {
+          "id": "it_72_corriere",
+          "name": "Corriere del Mezzogiorno (Napoli)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T17:07:29.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_572_429/uploads/2026/10/06/6ac52abb5ffb8.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "_MenH1oc3yHI",
+          "url": "https://www.rainews.it/tgr/campania/video/2026/10/ludoteca-don-merola-piantedosi-413c8f63-14a4-4311-8e38-d0e2d74bc2a7.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/campania/video/2026/10/ludoteca-don-merola-piantedosi-413c8f63-14a4-4311-8e38-d0e2d74bc2a7.html",
+          "title": "Napoli, una ludoteca nel bene confiscato alla criminalità",
+          "description": "La struttura permetterà alla fondazione di don Merola di accogliere anche i bambini fino a 5 anni. L'inaugurazione con il ministro Piantedosi",
+          "source": {
+            "id": "it_72_tgr",
+            "name": "TGR Campania (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T17:33:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/10/06/1791308258646_ludoteca.png",
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        },
+        {
+          "id": "0OEzDytCxVCg",
+          "url": "https://www.ansa.it/campania/notizie/2026/10/06/a-napoli-ludoteca-in-un-bene-confiscato-alla-camorra-apertura-con-piantedosi_5c243abd-0925-4c4d-b56b-d6637a7fef2b.html",
+          "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/06/a-napoli-ludoteca-in-un-bene-confiscato-alla-camorra-apertura-con-piantedosi_5c243abd-0925-4c4d-b56b-d6637a7fef2b.html",
+          "title": "A Napoli ludoteca in un bene confiscato alla camorra, apertura con Piantedosi",
+          "description": "Il progetto promosso dalla fondazione di don Luigi Merola",
+          "source": {
+            "id": "it_72_ansa",
+            "name": "ANSA Campania"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T17:27:28.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T17:33:00.000Z"
+    },
+    {
+      "id": "RdPIyF4fb_n8",
+      "representative": {
+        "id": "RdPIyF4fb_n8",
+        "url": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_07/napoli-inchiesta-universita-telematiche-unipegaso-ministra-stampa-9e5c7f9d-1e4c-4b28-9f51-4c2e823fexlk.shtml",
+        "canonicalUrl": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_07/napoli-inchiesta-universita-telematiche-unipegaso-ministra-stampa-9e5c7f9d-1e4c-4b28-9f51-4c2e823fexlk.shtml",
+        "title": "Napoli, inchiesta sulle università telematiche: «Pressioni della UniPegaso sulla ministra Bernini e la stampa». Inviati 22 avvisi di garanzia",
+        "description": "Fabio Domenico Vaccarono, presidente del gruppo UniPegaso-Multiversity, è stato perquisito su mandato della Procura di Napoli: avrebbe fatto pressioni sulla ministra dell'Università e della Ricerca (non indagata) e su diversi editori",
+        "source": {
+          "id": "it_72_corriere",
+          "name": "Corriere del Mezzogiorno (Napoli)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T11:03:52.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_572_429/uploads/2026/10/07/6ac62703af434.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "fWN0nQWSIDZW",
+          "url": "https://napoli.repubblica.it/cronaca/2026/10/07/news/unipegaso_ministra_bernini_inchiesta_napol-425632133/?rss",
+          "canonicalUrl": "https://napoli.repubblica.it/cronaca/2026/10/07/news/unipegaso_ministra_bernini_inchiesta_napol-425632133/?rss=",
+          "title": "UniPegaso, doppia inchiesta: “pressioni” sulla ministra Bernini e rapporti con i media",
+          "description": "Quaranta indagati, anche manager e direttori di testate nazionali. Perquisito il presidente dell’università telematica Fabio Vaccarono",
+          "source": {
+            "id": "it_72_repubblica",
+            "name": "la Repubblica Napoli"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T14:31:58.000Z",
+          "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-napoli/2026/10/07/161903935-1361834c-6f1c-4c6f-bf85-888be7ee862c.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T14:31:58.000Z"
+    },
+    {
+      "id": "JpiTrDDGsIwc",
+      "representative": {
+        "id": "JpiTrDDGsIwc",
+        "url": "https://napoli.repubblica.it/cronaca/2026/10/07/news/caporalato_casrta_arresti-425631380/?rss",
+        "canonicalUrl": "https://napoli.repubblica.it/cronaca/2026/10/07/news/caporalato_casrta_arresti-425631380/?rss=",
+        "title": "Braccianti-schiavi clandestini nel Casertano, al lavoro per 14 ore: 80 centesimi a cassetta",
+        "description": "Inchiesta dei pm di Santa Maria Capua Vetere. Nessun contratto, nessun orario: solo un mezzo scassato e la corsa verso i campi",
+        "source": {
+          "id": "it_72_repubblica",
+          "name": "la Repubblica Napoli"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T09:12:36.000Z",
+        "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-napoli/2026/10/07/110235653-762ae6ce-dd31-44fa-8cf2-8470c61e4567.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "sc6JkiIVoioi",
+          "url": "https://www.ansa.it/campania/notizie/2026/10/07/braccianti-schiavi-clandestini-nel-casertano-a-lavoro-per-14-ore_04534938-c8ed-4127-95dc-40beb5fef0d5.html",
+          "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/07/braccianti-schiavi-clandestini-nel-casertano-a-lavoro-per-14-ore_04534938-c8ed-4127-95dc-40beb5fef0d5.html",
+          "title": "Braccianti-schiavi clandestini nel Casertano, a lavoro per 14 ore",
+          "description": "Pagati 80 centesimi a cassetta. Inchiesta dei pm di Santa Maria Capua Vetere",
+          "source": {
+            "id": "it_72_ansa",
+            "name": "ANSA Campania"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T14:02:38.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T14:02:38.000Z"
+    },
+    {
+      "id": "parrmf4Jl19v",
+      "representative": {
+        "id": "parrmf4Jl19v",
+        "url": "https://napoli.repubblica.it/cronaca/2026/10/07/news/campi_flegrei_dodici_bus_verso_roma_i_sindaci_in_piazza_decreto_sia_efficace-425631961/?rss",
+        "canonicalUrl": "https://napoli.repubblica.it/cronaca/2026/10/07/news/campi_flegrei_dodici_bus_verso_roma_i_sindaci_in_piazza_decreto_sia_efficace-425631961/?rss=",
+        "title": "Campi Flegrei, dodici bus verso Roma. I sindaci in piazza: \"Decreto? Sia efficace\"",
+        "description": "Centinaia di cittadini partiranno domani da Pozzuoli e Bacoli per la manifestazione davanti a Palazzo Chigi. Con loro anche i primi cittadini dell’area flegrea: \"Servono risposte agli sfollati, alle attività e sulla sicurezza degli edifici\". E a Pozzuoli saracinesche abbassate",
+        "source": {
+          "id": "it_72_repubblica",
+          "name": "la Repubblica Napoli"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:39:03.000Z",
+        "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-napoli/2026/10/07/153856674-ec350afc-7093-4016-8c28-ec48b2ab684f.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "4X9cS1vP3ltg",
+          "url": "https://www.ansa.it/campania/notizie/2026/10/07/campi-flegrei-sindaci-bene-passi-avanti-sul-decreto-sia-efficace_51f20e04-0eda-4ddc-b3ec-5a2e152dc27a.html",
+          "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/07/campi-flegrei-sindaci-bene-passi-avanti-sul-decreto-sia-efficace_51f20e04-0eda-4ddc-b3ec-5a2e152dc27a.html",
+          "title": "Campi Flegrei: sindaci, bene passi avanti sul decreto, sia efficace",
+          "description": "'Domani a Roma al fianco delle nostre comunità'",
+          "source": {
+            "id": "it_72_ansa",
+            "name": "ANSA Campania"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T11:13:54.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:39:03.000Z"
+    },
+    {
+      "id": "rLamBS9BDT4J",
+      "representative": {
+        "id": "rLamBS9BDT4J",
+        "url": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_07/domenico-caliendo-i-giudici-del-riesame-oppido-spregiudicato-e-ostinato-fe3fc831-b3f7-4d61-8a21-bc6d49954xlk.shtml",
+        "canonicalUrl": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_07/domenico-caliendo-i-giudici-del-riesame-oppido-spregiudicato-e-ostinato-fe3fc831-b3f7-4d61-8a21-bc6d49954xlk.shtml",
+        "title": "Domenico Caliendo, i giudici del Riesame: «Oppido spregiudicato e ostinato»",
+        "description": "Note le motivazioni con cui al cardiochirurgo sotto inchiesta per il decesso del piccolo dopo il mancato trapianto di cuore al Monaldi è stata negata la sospensione dalla professione per un anno",
+        "source": {
+          "id": "it_72_corriere",
+          "name": "Corriere del Mezzogiorno (Napoli)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T11:59:34.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_572_429/files/fp/uploads/2026/02/28/69a2896a9a128.r_d.804-338-0.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "OlD-LBPG6osp",
+          "url": "https://www.ansa.it/campania/notizie/2026/10/07/la-morte-di-domenico-giudici-oppido-spregiudicato-e-ostinato_8182be3b-e0cb-4eb8-8700-6a35015bb189.html",
+          "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/07/la-morte-di-domenico-giudici-oppido-spregiudicato-e-ostinato_8182be3b-e0cb-4eb8-8700-6a35015bb189.html",
+          "title": "La morte di Domenico: giudici, Oppido spregiudicato e ostinato",
+          "description": "Confermata l'interdizione dalla professione medica di 12 mesi del gip",
+          "source": {
+            "id": "it_72_ansa",
+            "name": "ANSA Campania"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T11:09:56.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:59:34.000Z"
+    },
+    {
+      "id": "G2q7XGp59vD2",
+      "representative": {
+        "id": "G2q7XGp59vD2",
+        "url": "https://www.ansa.it/campania/notizie/2026/10/07/coldiretti-morto-salvatore-loffreda-50-anni-dentro-e-per-lassociazione_ce0b5ea9-3aaf-481b-9315-426d7eac0f12.html",
+        "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/07/coldiretti-morto-salvatore-loffreda-50-anni-dentro-e-per-lassociazione_ce0b5ea9-3aaf-481b-9315-426d7eac0f12.html",
+        "title": "Coldiretti, 'morto Salvatore Loffreda, 50 anni dentro e per l'associazione'",
+        "description": "'Ha lavorato incessantemente per il bene di tutto il settore agricolo'",
+        "source": {
+          "id": "it_72_ansa",
+          "name": "ANSA Campania"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T10:51:54.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "D9vf1GvQc3H8",
+          "url": "https://www.rainews.it/tgr/campania/articoli/2026/10/lutto-in-coldiretti-addio-a-salvatore-loffreda-221614dc-8306-4df1-ae1e-2d4336e15daa.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/campania/articoli/2026/10/lutto-in-coldiretti-addio-a-salvatore-loffreda-221614dc-8306-4df1-ae1e-2d4336e15daa.html",
+          "title": "Lutto in Coldiretti, addio a Salvatore Loffreda",
+          "description": "Per cinquant'anni è stato direttore regionale dell'associazione degli agricoltori e allevatori",
+          "source": {
+            "id": "it_72_tgr",
+            "name": "TGR Campania (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T11:19:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791372489050_salvatore_loffreda__.png",
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:19:00.000Z"
+    },
+    {
+      "id": "hz1-YfoNenEn",
+      "representative": {
+        "id": "hz1-YfoNenEn",
+        "url": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_06/meteo-campania-temporali-in-arrivo-allerta-gialla-dal-pomeriggio-e-fino-alle-14-di-mercoledi-48e74b7c-0e06-4760-ab11-5d14308f8xlk.shtml",
+        "canonicalUrl": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_06/meteo-campania-temporali-in-arrivo-allerta-gialla-dal-pomeriggio-e-fino-alle-14-di-mercoledi-48e74b7c-0e06-4760-ab11-5d14308f8xlk.shtml",
+        "title": "Meteo Campania, temporali in arrivo: allerta Gialla dal pomeriggio e fino alle 14 di mercoledì",
+        "description": "Avviso della Protezione Civile Regionale, il quadro muta dalle ore 16 su tutto il territorio eccetto Sannio, Alta Irpinia e l'area del Tanagro. A Napoli per tutta la durata dell’allerta saranno chiusi i parchi cittadini e sarà interdetto l’accesso alle spiagge pubbliche cittadine.",
+        "source": {
+          "id": "it_72_corriere",
+          "name": "Corriere del Mezzogiorno (Napoli)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T11:25:26.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_572_429/uploads/2024/01/24/65b128586540a.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "wkHtlUTz88ZN",
+          "url": "https://www.rainews.it/tgr/campania/articoli/2026/10/domani-allerta-meteo-gialla-sulla-campania-db49b871-7e02-4e42-ba1b-39fba1586051.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/campania/articoli/2026/10/domani-allerta-meteo-gialla-sulla-campania-db49b871-7e02-4e42-ba1b-39fba1586051.html",
+          "title": "Domani allerta meteo gialla sulla Campania",
+          "description": "Avviso in vigore da mezzanotte fino alle 15, su parte della regione tra fascia costiera e zone interne",
+          "source": {
+            "id": "it_72_tgr",
+            "name": "TGR Campania (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T10:19:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/01/01/1767282332777_allerta_meteo.jpeg",
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        },
+        {
+          "id": "QnmXkUjhl2te",
+          "url": "https://napoli.repubblica.it/cronaca/2026/10/07/news/allerta_meteo_gialla_per_temporali_su_parte_della_campania-425631571/?rss",
+          "canonicalUrl": "https://napoli.repubblica.it/cronaca/2026/10/07/news/allerta_meteo_gialla_per_temporali_su_parte_della_campania-425631571/?rss=",
+          "title": "Allerta meteo gialla per temporali su parte della Campania",
+          "description": "Valida da mezzanotte alle 15 di domani",
+          "source": {
+            "id": "it_72_repubblica",
+            "name": "la Repubblica Napoli"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T10:13:33.000Z",
+          "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-napoli/2026/10/07/121328001-144fd60f-de82-4e1b-848c-66d9c575fd0d.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        },
+        {
+          "id": "DcQgbB2QTPEF",
+          "url": "https://www.ansa.it/campania/notizie/2026/10/06/temporali-in-arrivo-in-campania-da-oggi-pomeriggio-e-allerta_dfb0dafc-c2d9-47bd-b547-b32cf1680c6c.html",
+          "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/06/temporali-in-arrivo-in-campania-da-oggi-pomeriggio-e-allerta_dfb0dafc-c2d9-47bd-b547-b32cf1680c6c.html",
+          "title": "Temporali in arrivo in Campania, da oggi pomeriggio è allerta",
+          "description": "Fino alle 14 di domani su quasi tutta la regione previsti anche grandine e vento",
+          "source": {
+            "id": "it_72_ansa",
+            "name": "ANSA Campania"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T11:43:26.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-07T10:19:00.000Z"
+    },
+    {
+      "id": "FUNlz2K3qfbp",
+      "representative": {
+        "id": "FUNlz2K3qfbp",
+        "url": "https://www.ansa.it/campania/notizie/2026/10/07/spari-nel-centro-storico-carabinieri-trovano-sette-bossoli_6ad392a9-3a80-44c0-82a0-a3b3225437f3.html",
+        "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/07/spari-nel-centro-storico-carabinieri-trovano-sette-bossoli_6ad392a9-3a80-44c0-82a0-a3b3225437f3.html",
+        "title": "Spari nel centro storico, carabinieri trovano sette bossoli",
+        "description": "In Vicoletto Zuroli, non ci sono feriti né danni rilevati",
+        "source": {
+          "id": "it_72_ansa",
+          "name": "ANSA Campania"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T07:14:26.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "ps_uH4sZZUSA",
+          "url": "https://www.rainews.it/tgr/campania/articoli/2026/10/forcella-spari-nella-notte-a-terra-sette-bossoli-ab887e86-922b-44c4-8cc0-51855786bfde.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/campania/articoli/2026/10/forcella-spari-nella-notte-a-terra-sette-bossoli-ab887e86-922b-44c4-8cc0-51855786bfde.html",
+          "title": "Forcella, spari nella notte: a terra sette bossoli",
+          "description": "L'episodio è avvenuto in vico Zuroli. Non si registrano feriti né danni. Indagini in corso da parte dei carabinieri",
+          "source": {
+            "id": "it_72_tgr",
+            "name": "TGR Campania (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T10:07:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/9/29/1790670561354_Carabinieri.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T10:07:00.000Z"
+    },
+    {
+      "id": "NgIffEBlvVUL",
+      "representative": {
+        "id": "NgIffEBlvVUL",
+        "url": "https://www.rainews.it/tgr/campania/articoli/2026/10/sorpresi-a-fabbricare-banconote-false-tre-arresti-ec0a80e4-f6bb-4d31-93d9-19d71880e5b5.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/campania/articoli/2026/10/sorpresi-a-fabbricare-banconote-false-tre-arresti-ec0a80e4-f6bb-4d31-93d9-19d71880e5b5.html",
+        "title": "Sorpresi a fabbricare banconote false: tre arresti",
+        "description": "Sequestrati 12.000 pezzi per un valore facciale complessivo di 400mila euro. La tecnica di contraffazione è simile a quella del Napoli Group",
+        "source": {
+          "id": "it_72_tgr",
+          "name": "TGR Campania (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T07:01:00.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791356788659_Gdf.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "1eqYpn7anHb0",
+          "url": "https://www.ansa.it/campania/notizie/2026/10/07/maxi-sequestro-di-banconote-false-per-400mila-euro-a-napoli-tre-arresti_754e9b75-9c4a-431e-9c88-cdb7fd9e6246.html",
+          "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/07/maxi-sequestro-di-banconote-false-per-400mila-euro-a-napoli-tre-arresti_754e9b75-9c4a-431e-9c88-cdb7fd9e6246.html",
+          "title": "Maxi sequestro di banconote false per 400mila euro a Napoli, tre arresti",
+          "description": "Trovato anche materiale per falsificare passaporti e carte d'identità elettroniche",
+          "source": {
+            "id": "it_72_ansa",
+            "name": "ANSA Campania"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T07:13:46.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T07:13:46.000Z"
+    },
+    {
+      "id": "j6TTaLk9PP4n",
+      "representative": {
+        "id": "j6TTaLk9PP4n",
+        "url": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_06/giugliano-lite-in-una-casa-famiglia-per-minori-due-ragazzi-accoltellati-l-aggressore-e-in-fuga-41fcc85c-b779-48f3-bd3e-21667bb1fxlk.shtml",
+        "canonicalUrl": "https://napoli.corriere.it/notizie/cronaca/26_ottobre_06/giugliano-lite-in-una-casa-famiglia-per-minori-due-ragazzi-accoltellati-l-aggressore-e-in-fuga-41fcc85c-b779-48f3-bd3e-21667bb1fxlk.shtml",
+        "title": "Giugliano, lite in una casa famiglia per minori: due ragazzi accoltellati, l'aggressore è in fuga",
+        "description": "Sul posto sono intervenuti i sanitari del 118, una dell vittime dell'aggressione è stata condotta in ospedale in codice rosso. Indagano i carabinieri",
+        "source": {
+          "id": "it_72_corriere",
+          "name": "Corriere del Mezzogiorno (Napoli)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T18:58:57.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_572_429/uploads/2026/10/06/6ac544b954d23.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "xomJVnkqUwbZ",
+          "url": "https://www.rainews.it/tgr/campania/articoli/2026/10/giugliano-lite-in-comunita-per-minori-due-ragazzi-feriti-con-un-coltello-4e586f91-51c8-42e3-bbf1-2ee47d622255.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/campania/articoli/2026/10/giugliano-lite-in-comunita-per-minori-due-ragazzi-feriti-con-un-coltello-4e586f91-51c8-42e3-bbf1-2ee47d622255.html",
+          "title": "Giugliano, lite in comunità per minori: due ragazzi feriti con un coltello",
+          "description": "Uno dei due giovani è stato trasportato in codice rosso all’ospedale San Giuliano. L’altro è stato medicato sul posto",
+          "source": {
+            "id": "it_72_tgr",
+            "name": "TGR Campania (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T17:16:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/10/06/1791307277553_TRIBUNALI_MINORI.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T18:58:57.000Z"
+    },
+    {
+      "id": "XMy9BNYoN5i2",
+      "representative": {
+        "id": "XMy9BNYoN5i2",
+        "url": "https://www.rainews.it/tgr/campania/articoli/2026/10/incendio-a-pianura-valori-diossine-nettamente-inferiori-alla-media--464be099-d192-4015-aede-aa6c3a316ffa.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/campania/articoli/2026/10/incendio-a-pianura-valori-diossine-nettamente-inferiori-alla-media--464be099-d192-4015-aede-aa6c3a316ffa.html",
+        "title": "Incendio a Pianura: \"Valori diossine nettamente inferiori alla soglia\"",
+        "description": "E' quanto fa sapere l'Arpac. Le fiamme divampate in un'isola ecologica. Riaprono le scuole e riprendono le attività sportive",
+        "source": {
+          "id": "it_72_tgr",
+          "name": "TGR Campania (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T16:30:00.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2026/10/05/1791198303842_n.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "CJvU_iuIrblI",
+          "url": "https://www.ansa.it/campania/notizie/2026/10/06/incendio-a-pianura-arpac-valori-diossine-nettamente-sotto-la-soglia_6c526ab9-df1e-48d9-93c6-2187e7d2129b.html",
+          "canonicalUrl": "https://www.ansa.it/campania/notizie/2026/10/06/incendio-a-pianura-arpac-valori-diossine-nettamente-sotto-la-soglia_6c526ab9-df1e-48d9-93c6-2187e7d2129b.html",
+          "title": "Incendio a Pianura, Arpac 'valori diossine nettamente sotto la soglia'",
+          "description": "Risultati dei campionamenti tra il 4 e il 5 ottobre",
+          "source": {
+            "id": "it_72_ansa",
+            "name": "ANSA Campania"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T17:28:12.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T17:28:12.000Z"
+    },
+    {
+      "id": "6sjSuVq-CMfq",
+      "representative": {
+        "id": "6sjSuVq-CMfq",
+        "url": "https://napoli.corriere.it/notizie/sport/26_ottobre_06/napoli-allegri-perde-anche-vergara-lesione-al-polpaccio-dopo-italia-turchia-ca506db3-8811-499e-8274-3a75236e2xlk.shtml",
+        "canonicalUrl": "https://napoli.corriere.it/notizie/sport/26_ottobre_06/napoli-allegri-perde-anche-vergara-lesione-al-polpaccio-dopo-italia-turchia-ca506db3-8811-499e-8274-3a75236e2xlk.shtml",
+        "title": "Napoli, Allegri perde anche Vergara: lesione al polpaccio dopo Italia-Turchia",
+        "description": "Il forfait per alcune settimane del giovane talento azzurro si aggiunge a quelli di Favasuli e Olivera, usciti anche loro malconci dagli impegni con le nazionali",
+        "source": {
+          "id": "it_72_corriere",
+          "name": "Corriere del Mezzogiorno (Napoli)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T16:30:03.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_572_429/uploads/2026/10/06/6ac5219e39d2d.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [
+        {
+          "id": "4DN_iLAn3FWg",
+          "url": "https://www.rainews.it/tgr/campania/articoli/2026/10/vergara-ce-lesione-il-talento-del-napoli-si-ferma-b92c09a4-caee-4d7a-bb75-60fc957f67a1.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/campania/articoli/2026/10/vergara-ce-lesione-il-talento-del-napoli-si-ferma-b92c09a4-caee-4d7a-bb75-60fc957f67a1.html",
+          "title": "Vergara, c'è lesione. Il talento del Napoli si ferma",
+          "description": "Per il giocatore distrazione di medio grado del soleo destro. Si è infortunato durante Italia - Turchia di Nations League",
+          "source": {
+            "id": "it_72_tgr",
+            "name": "TGR Campania (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T15:42:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/10/06/1791281947642_vergara_infortunio.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-72"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T16:30:03.000Z"
+    },
+    {
+      "id": "X3C3GWAjaHok",
+      "representative": {
+        "id": "X3C3GWAjaHok",
+        "url": "https://napoli.repubblica.it/cronaca/2026/10/07/news/vasco_rossi_dottorato_universita_salerno-425632190/?rss",
+        "canonicalUrl": "https://napoli.repubblica.it/cronaca/2026/10/07/news/vasco_rossi_dottorato_universita_salerno-425632190/?rss=",
+        "title": "Vasco Rossi, dottorato a Salerno: “Ora ho i voti”. Ovazione all’università",
+        "description": "L’artista ha ricevuto il titolo sulle note di “Vado al massimo”",
+        "source": {
+          "id": "it_72_repubblica",
+          "name": "la Repubblica Napoli"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T14:35:30.000Z",
+        "imageUrl": "https://www.repstatic.it/content/localirep/img/rep-napoli/2026/10/07/163517165-dd372065-c564-4dcc-a6b4-ea29bd270ea3.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-72"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:35:30.000Z"
+    }
+  ]
+}

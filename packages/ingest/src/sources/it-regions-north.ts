@@ -26,8 +26,10 @@ const src = (
  * outlets, one region per source. ANSA's regional desks 8, main dailies' local
  * editions 9 (smaller dailies 8), digital locals and local TV 7.
  *
- * Unusable here: RAI TGR has no regional feeds on rainews.it (only national
- * topic feeds); Il Gazzettino's feeds have no dates; the NEM papers (Messaggero
+ * RAI TGR (8) is at rainews.it/tgr/<region>/rss/tutti; Trentino-Alto Adige has
+ * two newsrooms, Trento and Bolzano, used as one source.
+ *
+ * Unusable here: Il Gazzettino's feeds have no dates; the NEM papers (Messaggero
  * Veneto, Il Piccolo, Mattino di Padova, Nuova Venezia, Tribuna di Treviso) have
  * no feeds; L'Adige's and Alto Adige's only feeds are mostly national wire copy,
  * and stol.it (Dolomiten) and Südtirol News mix in a lot of world news;
@@ -36,8 +38,11 @@ const src = (
  * Targato CN) mix in national press-agency copy; Corriere's old
  * xml2.corriereobjects.it local feeds are years stale.
  */
+const tgr = (slug: string) => `https://www.rainews.it/tgr/${slug}/rss/tutti`;
+
 export const IT_REGIONS_NORTH: SourceConfig[] = [
   // ---- Piemonte ----
+  src('it_21_tgr', 'TGR Piemonte (RAI)', '21', [tgr('piemonte')], 8),
   src('it_21_ansa', 'ANSA Piemonte', '21', ['https://www.ansa.it/piemonte/notizie/piemonte_rss.xml'], 8),
   src('it_21_corriere_torino', 'Corriere Torino', '21', [
     'https://www.corriere.it/dynamic-feed/rss/section/Torino.xml',
@@ -50,6 +55,7 @@ export const IT_REGIONS_NORTH: SourceConfig[] = [
   src('it_21_novaratoday', 'NovaraToday', '21', ['https://www.novaratoday.it/rss'], 7),
 
   // ---- Valle d'Aosta ----
+  src('it_23_tgr', 'TGR Valle d\'Aosta (RAI)', '23', [tgr('vda')], 8),
   src('it_23_ansa', 'ANSA Valle d\'Aosta', '23', ['https://www.ansa.it/valledaosta/notizie/valledaosta_rss.xml'], 8),
   src('it_23_aostasera', 'AostaSera', '23', ['https://www.aostasera.it/feed/'], 7),
   src('it_23_glocal', 'Valle d\'Aosta Glocal', '23', [
@@ -59,6 +65,7 @@ export const IT_REGIONS_NORTH: SourceConfig[] = [
   src('it_23_gazzetta_matin', 'Gazzetta Matin', '23', ['https://www.gazzettamatin.com/feed/'], 7),
 
   // ---- Lombardia ----
+  src('it_25_tgr', 'TGR Lombardia (RAI)', '25', [tgr('lombardia')], 8),
   src('it_25_ansa', 'ANSA Lombardia', '25', ['https://www.ansa.it/lombardia/notizie/lombardia_rss.xml'], 8),
   // Corriere's Milano, Bergamo and Brescia editions: one outlet, different cities.
   src('it_25_corriere', 'Corriere della Sera (Milano, Bergamo, Brescia)', '25', [
@@ -80,6 +87,7 @@ export const IT_REGIONS_NORTH: SourceConfig[] = [
   ], 7),
 
   // ---- Trentino-Alto Adige / Südtirol ----
+  src('it_32_tgr', 'TGR Trento and Bolzano (RAI)', '32', [tgr('trento'), tgr('bolzano')], 8),
   src('it_32_ansa', 'ANSA Trentino-Alto Adige', '32', ['https://www.ansa.it/trentino/notizie/trentino_rss.xml'], 8),
   src('it_32_corriere', 'Corriere del Trentino / Corriere dell\'Alto Adige', '32', [
     'https://www.corriere.it/dynamic-feed/rss/section/Trentino.xml',
@@ -90,6 +98,7 @@ export const IT_REGIONS_NORTH: SourceConfig[] = [
   src('it_32_salto', 'salto.bz', '32', ['https://salto.bz/de/rss.xml'], 7, 'de'),
 
   // ---- Veneto ----
+  src('it_34_tgr', 'TGR Veneto (RAI)', '34', [tgr('veneto')], 8),
   src('it_34_ansa', 'ANSA Veneto', '34', ['https://www.ansa.it/veneto/notizie/veneto_rss.xml'], 8),
   src('it_34_corriere_veneto', 'Corriere del Veneto', '34', [
     'https://www.corriere.it/dynamic-feed/rss/section/Veneto.xml',
@@ -102,6 +111,7 @@ export const IT_REGIONS_NORTH: SourceConfig[] = [
   src('it_34_nuovo_terraglio', 'Il Nuovo Terraglio (Treviso)', '34', ['https://www.ilnuovoterraglio.it/feed/'], 7),
 
   // ---- Friuli-Venezia Giulia ----
+  src('it_36_tgr', 'TGR Friuli Venezia Giulia (RAI)', '36', [tgr('fvg')], 8),
   src('it_36_ansa', 'ANSA Friuli Venezia Giulia', '36', [
     'https://www.ansa.it/friuliveneziagiulia/notizie/friuliveneziagiulia_rss.xml',
   ], 8),
@@ -112,6 +122,7 @@ export const IT_REGIONS_NORTH: SourceConfig[] = [
   src('it_36_pordenoneoggi', 'Pordenone Oggi', '36', ['https://www.pordenoneoggi.it/feed/'], 7),
 
   // ---- Liguria ----
+  src('it_42_tgr', 'TGR Liguria (RAI)', '42', [tgr('liguria')], 8),
   src('it_42_ansa', 'ANSA Liguria', '42', ['https://www.ansa.it/liguria/notizie/liguria_rss.xml'], 8),
   src('it_42_repubblica_genova', 'la Repubblica Genova', '42', [
     'https://genova.repubblica.it/rss/cronaca/rss2.0.xml',
@@ -127,6 +138,7 @@ export const IT_REGIONS_NORTH: SourceConfig[] = [
   src('it_42_levantenews', 'Levante News (Tigullio)', '42', ['https://www.levantenews.it/feed/'], 7),
 
   // ---- Emilia-Romagna ----
+  src('it_45_tgr', 'TGR Emilia-Romagna (RAI)', '45', [tgr('emiliaromagna')], 8),
   src('it_45_ansa', 'ANSA Emilia-Romagna', '45', ['https://www.ansa.it/emiliaromagna/notizie/emiliaromagna_rss.xml'], 8),
   src('it_45_corriere_bologna', 'Corriere di Bologna', '45', [
     'https://www.corriere.it/dynamic-feed/rss/section/Bologna.xml',

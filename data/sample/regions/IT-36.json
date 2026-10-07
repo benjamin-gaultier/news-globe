@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "IT",
+  "countryName": "Italy",
+  "regionCode": "IT-36",
+  "regionName": "Friuli-Venezia Giulia",
+  "updatedAt": "2026-10-07T15:02:06.730Z",
+  "clusters": [
+    {
+      "id": "PnfcrWUvuXyR",
+      "representative": {
+        "id": "PnfcrWUvuXyR",
+        "url": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/10/07/sequestro-da-3-milioni-di-beni-per-indagati-per-ammanchi-in-seminario_54fc2c11-86a4-49f2-aac2-2958cb9acb23.html",
+        "canonicalUrl": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/10/07/sequestro-da-3-milioni-di-beni-per-indagati-per-ammanchi-in-seminario_54fc2c11-86a4-49f2-aac2-2958cb9acb23.html",
+        "title": "Sequestro da 3 milioni di beni per indagati per ammanchi in seminario",
+        "description": "Tribunale civile di Udine su richiesta istituto San Luigi Scrosoppi di Udine",
+        "source": {
+          "id": "it_36_ansa",
+          "name": "ANSA Friuli Venezia Giulia"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T06:26:28.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [
+        {
+          "id": "DQL2BzZYVxJc",
+          "url": "https://www.friulioggi.it/cronaca/seminario-udine-sequestrati-beni-3-milioni-indagati/",
+          "canonicalUrl": "https://www.friulioggi.it/cronaca/seminario-udine-sequestrati-beni-3-milioni-indagati/",
+          "title": "Buco ai danni del Seminario di Udine: sequestrati 3 milioni agli indagati",
+          "description": "Nuovo sviluppo nella vicenda degli ammanchi emersi nella precedente gestione economica del Seminario arcivescovile “San Luigi Scrosoppi” di Udine. Il Tribunale civile di Udine ha... Read More→",
+          "source": {
+            "id": "it_36_friulioggi",
+            "name": "Friuli Oggi"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T08:16:31.000Z",
+          "imageUrl": "https://www.friulioggi.it/wp-content/uploads/2026/02/Seminario-arcivescovile-Viale-Ungheria-1024x568.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-36"
+        },
+        {
+          "id": "6hs1rTikgpC9",
+          "url": "https://www.rainews.it/tgr/fvg/articoli/2026/10/ammanchi-al-seminario-di-udine-sequestrati-3-milioni-agli-indagati-e5fc93ba-52e3-4220-ac2e-5d4989973568.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/fvg/articoli/2026/10/ammanchi-al-seminario-di-udine-sequestrati-3-milioni-agli-indagati-e5fc93ba-52e3-4220-ac2e-5d4989973568.html",
+          "title": "Ammanchi al seminario di Udine, sequestrati 3 milioni agli indagati",
+          "description": "In attesa del procedimento penale, l'ente ha ottenuto dal Tribunale la misura cautelare come risarcimento delle somme sottratte",
+          "source": {
+            "id": "it_36_tgr",
+            "name": "TGR Friuli Venezia Giulia (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T06:49:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/02/19/1771506553272_seminario.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-36"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T08:16:31.000Z"
+    },
+    {
+      "id": "Perlc0VgKOov",
+      "representative": {
+        "id": "Perlc0VgKOov",
+        "url": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/10/06/cade-da-impalcatura-grave-operaio-20enne-in-friuli_a0888181-52bb-4a6a-9630-a0676ca054d1.html",
+        "canonicalUrl": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/10/06/cade-da-impalcatura-grave-operaio-20enne-in-friuli_a0888181-52bb-4a6a-9630-a0676ca054d1.html",
+        "title": "Cade da impalcatura, grave operaio 20enne in Friuli",
+        "description": "Ricoverato in ospedale con l'elicottero sanitario",
+        "source": {
+          "id": "it_36_ansa",
+          "name": "ANSA Friuli Venezia Giulia"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T15:27:21.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [
+        {
+          "id": "gIPQW24CQgIs",
+          "url": "https://www.rainews.it/tgr/fvg/articoli/2026/10/operaio-ventenne-cade-da-unimpalcatura-in-una-ditta-a-torviscosa-2b3bd4d1-a45f-4976-9a59-060ea39c71c2.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/fvg/articoli/2026/10/operaio-ventenne-cade-da-unimpalcatura-in-una-ditta-a-torviscosa-2b3bd4d1-a45f-4976-9a59-060ea39c71c2.html",
+          "title": "Operaio ventenne cade da un'impalcatura in una ditta a Torviscosa",
+          "description": "Si è procurato diversi traumi, ma non è in pericolo di vita. L'infortunio è avvenuto all'interno dell'azienda per cui lavora",
+          "source": {
+            "id": "it_36_tgr",
+            "name": "TGR Friuli Venezia Giulia (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T17:08:57.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2025/04/20/1745151376559_elisoccorso.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-36"
+        },
+        {
+          "id": "fxSPTQQJoDUV",
+          "url": "https://www.friulioggi.it/cronaca/incidente-lavoro-torviscosa-operaio-cade-impalcatura/",
+          "canonicalUrl": "https://www.friulioggi.it/cronaca/incidente-lavoro-torviscosa-operaio-cade-impalcatura/",
+          "title": "Cade da un’impalcatura: operaio 20enne elitrasportato in ospedale",
+          "description": "Incidente sul lavoro a Torviscosa, dove un operaio è caduto da un’impalcatura alta circa tre metri. Il giovane, un 20enne di nazionalità bengalese, è rimasto... Read More→",
+          "source": {
+            "id": "it_36_friulioggi",
+            "name": "Friuli Oggi"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T16:21:58.000Z",
+          "imageUrl": "https://www.friulioggi.it/wp-content/uploads/2023/07/elisoccorso-1024x461.jpg?v=1690549817",
+          "countryCode": "IT",
+          "regionCode": "IT-36"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T17:08:57.000Z"
+    },
+    {
+      "id": "OnzthGIYn41K",
+      "representative": {
+        "id": "OnzthGIYn41K",
+        "url": "https://www.rainews.it/tgr/fvg/articoli/2026/10/autostrade-alto-adriatico-i-pedaggi-non-aumenteranno-a0d5f68e-b94a-46c1-a32a-6ab82c4daebb.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/fvg/articoli/2026/10/autostrade-alto-adriatico-i-pedaggi-non-aumenteranno-a0d5f68e-b94a-46c1-a32a-6ab82c4daebb.html",
+        "title": "Autostrade Alto Adriatico: i pedaggi non aumenteranno",
+        "description": "Secondo il nuovo piano economico finanziario resteranno invariati almeno fino al 2029. Continuano intanto i lavori per la terza corsia",
+        "source": {
+          "id": "it_36_tgr",
+          "name": "TGR Friuli Venezia Giulia (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T11:41:00.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791374898615_autostrade.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [
+        {
+          "id": "Wzdicd8TBggW",
+          "url": "https://www.triesteallnews.it/2026/10/autostrade-alto-adriatico-i-pedaggi-non-aumenteranno-nel-2027/",
+          "canonicalUrl": "https://www.triesteallnews.it/2026/10/autostrade-alto-adriatico-i-pedaggi-non-aumenteranno-nel-2027/",
+          "title": "Autostrade Alto Adriatico, i pedaggi non aumenteranno nel 2027",
+          "description": "TRIESTE.news 7 ottobre 2026 – ore 15:30 – Una buona notizia per automobilisti e autotrasportati. Autostrade Alto Adriatico non chiederà al Ministero delle Infrastrutture e dei Trasporti l’aumento dei pedaggi sulla propria rete anche nel 2027, nonostante sia dovuto, visto il notevole aumento…",
+          "source": {
+            "id": "it_36_triestenews",
+            "name": "Trieste News"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T13:31:15.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-36"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:31:15.000Z"
+    },
+    {
+      "id": "7X-mHl_hyvvC",
+      "representative": {
+        "id": "7X-mHl_hyvvC",
+        "url": "https://www.triesteallnews.it/2026/10/villa-russiz-apre-una-nuova-casa-per-il-futuro-turismo-lavoro-e-autonomia-per-i-ragazzi-di-casa-elvine-video/",
+        "canonicalUrl": "https://www.triesteallnews.it/2026/10/villa-russiz-apre-una-nuova-casa-per-il-futuro-turismo-lavoro-e-autonomia-per-i-ragazzi-di-casa-elvine-video/",
+        "title": "Villa Russiz apre una nuova casa per il futuro: turismo, lavoro e autonomia per i ragazzi di Casa Elvine – VIDEO",
+        "description": "TRIESTE.news 7 ottobre 2026 – ore 07:50 – Una camicia bianca, il colletto aperto e le maniche arrotolate. Una scelta volutamente informale per il presidente della Fondazione Villa Russiz, Antonio Paoletti, nel giorno in cui la storica realtà di Capriva del Friuli inaugura una nuova fase della…",
+        "source": {
+          "id": "it_36_triestenews",
+          "name": "Trieste News"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T05:59:10.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [
+        {
+          "id": "iJ9VQz9H_OYV",
+          "url": "https://www.friulioggi.it/capriva-del-friuli/villa-russiz-country-house-ristorante-capriva/",
+          "canonicalUrl": "https://www.friulioggi.it/capriva-del-friuli/villa-russiz-country-house-ristorante-capriva/",
+          "title": "Villa Russiz apre le porte all’ospitalità: così i ragazzi di Casa Elvine guardano al futuro",
+          "description": "Non solo camere, ristorante e nuovi servizi. A Villa Russiz, a Capriva del Friuli, l’apertura della nuova Country House e del ristorante con bistrot porta... Read More→",
+          "source": {
+            "id": "it_36_friulioggi",
+            "name": "Friuli Oggi"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T09:14:39.000Z",
+          "imageUrl": "https://www.friulioggi.it/wp-content/uploads/2026/10/inaugurazione-villa-russiz-1024x522.jpg?v=1791361859",
+          "countryCode": "IT",
+          "regionCode": "IT-36"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T09:14:39.000Z"
+    },
+    {
+      "id": "nf4lKRLhEsN2",
+      "representative": {
+        "id": "nf4lKRLhEsN2",
+        "url": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/10/06/calcio-alaba-a-udine-mi-sento-gia-a-casa-scelta-corretta-per-la-mia_d4e0f626-cde8-483e-9067-ed4c68bfe032.html",
+        "canonicalUrl": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/10/06/calcio-alaba-a-udine-mi-sento-gia-a-casa-scelta-corretta-per-la-mia_d4e0f626-cde8-483e-9067-ed4c68bfe032.html",
+        "title": "Calcio: Alaba, 'a Udine mi sento già a casa, scelta corretta per la mia carriera'",
+        "description": "\"Metterò esperienza e qualità a disposizione della squadra\"",
+        "source": {
+          "id": "it_36_ansa",
+          "name": "ANSA Friuli Venezia Giulia"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T15:05:40.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [
+        {
+          "id": "pPbR8kukKmwZ",
+          "url": "https://www.rainews.it/tgr/fvg/articoli/2026/10/david-alaba-udinese-scelta-corretta-per-questo-momento-della-mia-carriera-fd74aa17-227b-4bbc-9544-2b4c8f28f619.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/fvg/articoli/2026/10/david-alaba-udinese-scelta-corretta-per-questo-momento-della-mia-carriera-fd74aa17-227b-4bbc-9544-2b4c8f28f619.html",
+          "title": "David Alaba: \"Udinese scelta corretta per questo momento della mia carriera\"",
+          "description": "Il difensore austriaco con un passato nel Bayern e nel Real sì è presentato alla presenza del d.g. Franco Collavino, del group technical director Gian Luca Nani e del d.s. Gökhan Inler",
+          "source": {
+            "id": "it_36_tgr",
+            "name": "TGR Friuli Venezia Giulia (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T17:34:32.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/10/06/1791308227602_alaba.png",
+          "countryCode": "IT",
+          "regionCode": "IT-36"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T17:34:32.000Z"
+    },
+    {
+      "id": "OYZEMz197nsm",
+      "representative": {
+        "id": "OYZEMz197nsm",
+        "url": "https://www.rainews.it/tgr/fvg/articoli/2026/10/il-costumista-premio-oscar-bridges-gli-abiti-rivelano-come-sei-dentro-2539b5e9-227b-4ec3-b8ba-d70251f9e04b.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/fvg/articoli/2026/10/il-costumista-premio-oscar-bridges-gli-abiti-rivelano-come-sei-dentro-2539b5e9-227b-4ec3-b8ba-d70251f9e04b.html",
+        "title": "Il costumista Premio Oscar Bridges: \"Gli abiti rivelano come sei dentro\"",
+        "description": "E' l'ospite d'onore delle Giornate del cinema muto di Pordenone",
+        "source": {
+          "id": "it_36_tgr",
+          "name": "TGR Friuli Venezia Giulia (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T14:51:16.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791384748412_costumista.png",
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:51:16.000Z"
+    },
+    {
+      "id": "OJCQWIsAKosW",
+      "representative": {
+        "id": "OJCQWIsAKosW",
+        "url": "https://www.rainews.it/tgr/fvg/articoli/2026/10/futuri-capitani-a-lezione-di-cybersicurezza-anche-per-imparare-a-sfruttare-lia-170078aa-9f72-40e6-be42-fa64f0894a1b.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/fvg/articoli/2026/10/futuri-capitani-a-lezione-di-cybersicurezza-anche-per-imparare-a-sfruttare-lia-170078aa-9f72-40e6-be42-fa64f0894a1b.html",
+        "title": "Futuri capitani a lezione di cybersicurezza. Anche per imparare a sfruttare l'IA",
+        "description": "La Polizia postale incontra gli studenti dell'Istituto nautico di Trieste, dove sono vietati i cellulari in classe per non spegnere la curiosità dei ragazzi",
+        "source": {
+          "id": "it_36_tgr",
+          "name": "TGR Friuli Venezia Giulia (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T14:39:35.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791384034759_nautico.png",
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:39:35.000Z"
+    },
+    {
+      "id": "TjoAM_ZLBXP2",
+      "representative": {
+        "id": "TjoAM_ZLBXP2",
+        "url": "https://www.rainews.it/tgr/fvg/articoli/2026/10/colf-babysitter-e-badanti-una-su-due-lavora-in-nero-50fb8b4b-6fb2-4c9a-99c3-b9d81bf90af9.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/fvg/articoli/2026/10/colf-babysitter-e-badanti-una-su-due-lavora-in-nero-50fb8b4b-6fb2-4c9a-99c3-b9d81bf90af9.html",
+        "title": "Colf, babysitter e badanti: una su due lavora in nero",
+        "description": "La Regione eroga contributi per l'aiuto familiare, ma per Isee sotto i 30mila euro e solo in presenza di un contratto regolare",
+        "source": {
+          "id": "it_36_tgr",
+          "name": "TGR Friuli Venezia Giulia (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T14:27:00.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791383328481_colf.png",
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:27:00.000Z"
+    },
+    {
+      "id": "1Y8VcVanB1xB",
+      "representative": {
+        "id": "1Y8VcVanB1xB",
+        "url": "https://www.triesteallnews.it/2026/10/lanalisi-il-conflitto-in-ucraina-tra-utopia-e-poche-certezze/",
+        "canonicalUrl": "https://www.triesteallnews.it/2026/10/lanalisi-il-conflitto-in-ucraina-tra-utopia-e-poche-certezze/",
+        "title": "L’analisi – Il conflitto in Ucraina: tra utopia e poche certezze",
+        "description": "TRIESTE.news 7 ottobre 2026 – ore 16:00 – Premessa – Mentre si commemora in Israele il ricordo del massacro compiuto da Hamas, il conflitto in Ucraina continua, e la propaganda sembra prevalere nei dibattiti pubblici, possiamo sostanzialmente affermare, senza timore di smentita che: l’esaltazione…",
+        "source": {
+          "id": "it_36_triestenews",
+          "name": "Trieste News"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T14:00:59.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:00:59.000Z"
+    },
+    {
+      "id": "fBTz5uk8UAC7",
+      "representative": {
+        "id": "fBTz5uk8UAC7",
+        "url": "https://www.friulioggi.it/cronaca/droga-pordenone-controlli-cane-keila-bilancio-7-ottobre-2026/",
+        "canonicalUrl": "https://www.friulioggi.it/cronaca/droga-pordenone-controlli-cane-keila-bilancio-7-ottobre-2026/",
+        "title": "Droga a Pordenone, tre mesi di controlli con Keila: 39 segnalati e 9 denunce per spaccio",
+        "description": "Tre mesi di controlli antidroga nelle zone più frequentate di Pordenone hanno portato a 39 persone segnalate per possesso di stupefacenti a uso personale e... Read More→",
+        "source": {
+          "id": "it_36_friulioggi",
+          "name": "Friuli Oggi"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:33:27.000Z",
+        "imageUrl": "https://www.friulioggi.it/wp-content/uploads/2023/08/keila-polizia-locale-pordenone-1024x768.jpg?v=1691760457",
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:33:27.000Z"
+    },
+    {
+      "id": "EiRrCaZIPE2f",
+      "representative": {
+        "id": "EiRrCaZIPE2f",
+        "url": "https://www.triesteallnews.it/2026/10/ater-gorizia-bullian-cc-moretti-pd-serve-un-piano-straordinario-per-ledilizia/",
+        "canonicalUrl": "https://www.triesteallnews.it/2026/10/ater-gorizia-bullian-cc-moretti-pd-serve-un-piano-straordinario-per-ledilizia/",
+        "title": "Ater Gorizia, Bullian (Cc)-Moretti (Pd): ‘Serve un piano straordinario per l’edilizia’",
+        "description": "TRIESTE.news 7 ottobre 2026 – ore 15:30 – “Il presidente di Ater Gorizia, Sergon, vuole fare il furbetto con i numeri, ma non gli riesce bene. Troviamo infatti desolante la difesa d’ufficio fornita, anche perché non è un problema legato alla sua persona in sé, ma di una gestione di lungo periodo…",
+        "source": {
+          "id": "it_36_triestenews",
+          "name": "Trieste News"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:30:44.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:30:44.000Z"
+    },
+    {
+      "id": "5dFlI-N0glSE",
+      "representative": {
+        "id": "5dFlI-N0glSE",
+        "url": "https://www.ilfriuli.it/cronaca/malore-al-volante-in-borgo-stazione-muore-un-58enne/",
+        "canonicalUrl": "https://www.ilfriuli.it/cronaca/malore-al-volante-in-borgo-stazione-muore-un-58enne/",
+        "title": "Malore al volante in Borgo Stazione: muore un 58enne",
+        "description": "Ha perso il controllo dell’auto dopo un grave malore, finendo contro una vettura in sosta. È morto così un 58enne… The post Malore al volante in Borgo Stazione: muore un 58enne appeared first on Il Friuli .",
+        "source": {
+          "id": "it_36_ilfriuli",
+          "name": "Il Friuli"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:18:39.000Z",
+        "imageUrl": "https://www.ilfriuli.it/wp-content/uploads/2026/10/37619_Malore-al-volante-in-Borgo-Stazione-muore-un-58enne_1791379122-300x169.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:18:39.000Z"
+    },
+    {
+      "id": "MQ4ckB3ghU8P",
+      "representative": {
+        "id": "MQ4ckB3ghU8P",
+        "url": "https://www.ilfriuli.it/territorio/maltempo-in-arrivo-allerta-gialla-per-pioggia-e-temporali-in-fvg/",
+        "canonicalUrl": "https://www.ilfriuli.it/territorio/maltempo-in-arrivo-allerta-gialla-per-pioggia-e-temporali-in-fvg/",
+        "title": "Maltempo in arrivo, allerta gialla per pioggia e temporali in FVG",
+        "description": "Scatta l’allerta gialla in Friuli Venezia Giulia per l’arrivo di una perturbazione che porterà piogge abbondanti e temporali. L’avviso della… The post Maltempo in arrivo, allerta gialla per pioggia e temporali in FVG appeared first on Il Friuli .",
+        "source": {
+          "id": "it_36_ilfriuli",
+          "name": "Il Friuli"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:06:29.000Z",
+        "imageUrl": "https://www.ilfriuli.it/wp-content/uploads/2026/10/37614_Maltempo-in-arrivo-allerta-gialla-per-pioggia-e-temporali-in-FVG_1791378392-300x169.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:06:29.000Z"
+    },
+    {
+      "id": "A4RCsiZ7G9UD",
+      "representative": {
+        "id": "A4RCsiZ7G9UD",
+        "url": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/10/07/regata-giro-dellitalia-a-vela-in-10-in-vista-di-trieste_cd35c9fe-f87a-4394-bdf4-f48d15d6b629.html",
+        "canonicalUrl": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/10/07/regata-giro-dellitalia-a-vela-in-10-in-vista-di-trieste_cd35c9fe-f87a-4394-bdf4-f48d15d6b629.html",
+        "title": "Regata Giro dell'Italia a Vela, in 10 in vista di Trieste",
+        "description": "Marina Militare Nastro Rosa Veloce 2026, lungo il doppio di Middle Sea Race",
+        "source": {
+          "id": "it_36_ansa",
+          "name": "ANSA Friuli Venezia Giulia"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:02:44.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:02:44.000Z"
+    },
+    {
+      "id": "7BMKpcxJi7w6",
+      "representative": {
+        "id": "7BMKpcxJi7w6",
+        "url": "https://www.friulioggi.it/friuli/casa-moderna-saperi-sapori-fvg-arrivo-il-secondo-weekend-170-aziende-tanti-eventi-7-ottobre-2026/",
+        "canonicalUrl": "https://www.friulioggi.it/friuli/casa-moderna-saperi-sapori-fvg-arrivo-il-secondo-weekend-170-aziende-tanti-eventi-7-ottobre-2026/",
+        "title": "Casa Moderna e Saperi & Sapori FVG, in arrivo il secondo weekend: 170 aziende e tanti eventi",
+        "description": "Secondo e ultimo weekend per Casa Moderna e Saperi & Sapori FVG, che da venerdì 9 a lunedì 12 ottobre riapriranno le porte del Campus... Read More→",
+        "source": {
+          "id": "it_36_friulioggi",
+          "name": "Friuli Oggi"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:02:41.000Z",
+        "imageUrl": "https://www.friulioggi.it/wp-content/uploads/2026/10/casa-moderna-1024x576.jpg?v=1791378139",
+        "countryCode": "IT",
+        "regionCode": "IT-36"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:02:41.000Z"
+    }
+  ]
+}

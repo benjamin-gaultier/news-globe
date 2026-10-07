@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "IT",
+  "countryName": "Italy",
+  "regionCode": "IT-34",
+  "regionName": "Veneto",
+  "updatedAt": "2026-10-07T15:02:06.730Z",
+  "clusters": [
+    {
+      "id": "FSb1nShHqrM1",
+      "representative": {
+        "id": "FSb1nShHqrM1",
+        "url": "https://corrieredelveneto.corriere.it/notizie/venezia-mestre/cronaca/26_ottobre_07/mafia-dei-casalesi-ad-eraclea-30-anni-a-donadio-in-cassazione-tutti-i-condannati-si-costituiscono-ee7bb77a-b698-4e45-aa5c-e47758f86xlk.shtml",
+        "canonicalUrl": "https://corrieredelveneto.corriere.it/notizie/venezia-mestre/cronaca/26_ottobre_07/mafia-dei-casalesi-ad-eraclea-30-anni-a-donadio-in-cassazione-tutti-i-condannati-si-costituiscono-ee7bb77a-b698-4e45-aa5c-e47758f86xlk.shtml",
+        "title": "Mafia dei Casalesi ad Eraclea, 30 anni a Donadio in Cassazione: tutti i condannati si costituiscono",
+        "description": "Confermate le pene per Luciano Donadio, considerato il capo, e per il braccio destro Raffaele Buonanno. Il governatore Stefani: l’attenzione va tenuta alta anche in Veneto",
+        "source": {
+          "id": "it_34_corriere_veneto",
+          "name": "Corriere del Veneto"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T12:06:30.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_572_429/uploads/2026/10/07/6ac62ac1ec30c.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [
+        {
+          "id": "eUnW4j9o7FuS",
+          "url": "https://www.tviweb.it/casalesi-a-eraclea-la-cassazione-conferma-limpianto-accusatorio-30-anni-al-boss-donadio/",
+          "canonicalUrl": "https://www.tviweb.it/casalesi-a-eraclea-la-cassazione-conferma-limpianto-accusatorio-30-anni-al-boss-donadio/",
+          "title": "Casalesi a Eraclea, la Cassazione conferma l’impianto accusatorio: 30 anni al boss Donadio",
+          "description": "VENEZIA 7 OTTOBRE 2026 – La quinta sezione della Corte di Cassazione ha confermato l’impianto accusatorio del processo sull’infiltrazione mafiosa dei Casalesi a Eraclea, nel Veneziano, e la condanna a 30 anni per il presunto boss Luciano Donadio. Pena ridotta ... Leggi tutto L'articolo Casalesi a…",
+          "source": {
+            "id": "it_34_tviweb",
+            "name": "TViWeb (Vicenza)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T07:49:09.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-34"
+        },
+        {
+          "id": "zgV_Wv3_UA1S",
+          "url": "https://www.veneziatoday.it/cronaca/sentenza-cassazione-casalesi-eraclea-conferma-associazione-mafiosa-donadio-condatta-trenta-anni.html",
+          "canonicalUrl": "https://www.veneziatoday.it/cronaca/sentenza-cassazione-casalesi-eraclea-conferma-associazione-mafiosa-donadio-condatta-trenta-anni.html",
+          "title": "Casalesi a Eraclea, trent'anni al presunto boss Donadio",
+          "description": "Confermati l'impianto accusatorio e l'associazione mafiosa. Su una trentina di imputati, per due di loro, entrambi direttori di banca, è stata annullata la sentenza e disposto un nuovo processo d'appello",
+          "source": {
+            "id": "it_34_citynews",
+            "name": "VeneziaToday / TrevisoToday"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T17:48:53.000Z",
+          "imageUrl": "https://citynews-veneziatoday.stgy.ovh/~media/original-hi/9736235028286/luciano-donadio-casalesi-veneto.jpeg",
+          "countryCode": "IT",
+          "regionCode": "IT-34"
+        },
+        {
+          "id": "_QKRPheJeWW6",
+          "url": "https://www.ansa.it/veneto/notizie/2026/10/06/casalesi-a-eraclea-la-cassazione-conferma-lassociazione-mafiosa_714545b8-8e8a-4f8f-9f73-df8d1f8381ea.html",
+          "canonicalUrl": "https://www.ansa.it/veneto/notizie/2026/10/06/casalesi-a-eraclea-la-cassazione-conferma-lassociazione-mafiosa_714545b8-8e8a-4f8f-9f73-df8d1f8381ea.html",
+          "title": "Casalesi a Eraclea, la Cassazione conferma l'associazione mafiosa",
+          "description": "Trent'anni al presunto boss Donadio, annullata la sentenza per due direttori di banca",
+          "source": {
+            "id": "it_34_ansa",
+            "name": "ANSA Veneto"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T17:46:16.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-34"
+        },
+        {
+          "id": "rn98Ok8_QvoU",
+          "url": "https://www.rainews.it/tgr/veneto/video/2026/10/eraclea-cassazione-mafia-casalesi-luciano-donadio-buonanno-4aa8e1b9-428a-451f-afda-c7f1ffb37403.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/veneto/video/2026/10/eraclea-cassazione-mafia-casalesi-luciano-donadio-buonanno-4aa8e1b9-428a-451f-afda-c7f1ffb37403.html",
+          "title": "Le infiltrazioni del clan dei Casalesi a Eraclea, la Cassazione conferma le condanne: fu mafia",
+          "description": "Per la magistratura i fenomeni criminali importati dagli imputati, fatti propri e anche subiti dal tessuto locale per un ventennio, sono da ascrivere al reato di mafia",
+          "source": {
+            "id": "it_34_tgr",
+            "name": "TGR Veneto (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T15:32:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2023/06/27/1687855176182_Corte_di_Cassazione_Ansa.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-34"
+        }
+      ],
+      "outletCount24h": 5,
+      "outletCount": 5,
+      "latestPublishedAt": "2026-10-07T12:06:30.000Z"
+    },
+    {
+      "id": "ZtpyNxejevTg",
+      "representative": {
+        "id": "ZtpyNxejevTg",
+        "url": "https://www.ansa.it/veneto/notizie/2026/10/06/precipita-in-un-canale-sulle-tofane-morto-escursionista-di-63-anni_2f6bf370-042a-448c-b706-3c3f911d50e7.html",
+        "canonicalUrl": "https://www.ansa.it/veneto/notizie/2026/10/06/precipita-in-un-canale-sulle-tofane-morto-escursionista-di-63-anni_2f6bf370-042a-448c-b706-3c3f911d50e7.html",
+        "title": "Precipita in un canale sulle Tofane, morto escursionista di 63 anni",
+        "description": "A dare l'allarme i familiari che non riuscivano più a contattarlo",
+        "source": {
+          "id": "it_34_ansa",
+          "name": "ANSA Veneto"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T18:17:00.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [
+        {
+          "id": "2qWC_VqMGDSa",
+          "url": "https://www.veneziatoday.it/cronaca/morto-caduto-tofane.html",
+          "canonicalUrl": "https://www.veneziatoday.it/cronaca/morto-caduto-tofane.html",
+          "title": "Precipita in un canale sulle Tofane, muore imprenditore di 63 anni",
+          "description": "Enrico Angelucci, di origini umbre, viveva tra Conegliano e Jesolo. È stato trovato a 70 metri dal sentiero che conduce dalle creste di Cima Formenton, vicino a Cortina",
+          "source": {
+            "id": "it_34_citynews",
+            "name": "VeneziaToday / TrevisoToday"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T06:29:56.000Z",
+          "imageUrl": "https://citynews-veneziatoday.stgy.ovh/~media/original-hi/32210385771201/14443879534299666025.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-34"
+        },
+        {
+          "id": "nIpamreL0aRs",
+          "url": "https://www.tviweb.it/tragedia-sulle-tofane-escursionista-precipita-in-un-canale-e-muore/",
+          "canonicalUrl": "https://www.tviweb.it/tragedia-sulle-tofane-escursionista-precipita-in-un-canale-e-muore/",
+          "title": "Tragedia sulle Tofane: escursionista precipita in un canale e muore",
+          "description": "Un escursionista italiano di 63 anni ha perso la vita nel pomeriggio di martedì 6 ottobre sulle Tofane, a Cortina d’Ampezzo. L’uomo è precipitato in un canale durante un’escursione nella zona della Tofana di Dentro ed è stato individuato ormai ... Leggi tutto L'articolo Tragedia sulle Tofane…",
+          "source": {
+            "id": "it_34_tviweb",
+            "name": "TViWeb (Vicenza)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T06:23:00.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-34"
+        },
+        {
+          "id": "46rO5OnICpHW",
+          "url": "https://www.rainews.it/tgr/veneto/articoli/2026/10/tofane-escursionista-63-anni-morto-caduta-canale-cortina-2b5c6469-f366-43c0-9af0-ff7edf62db78.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/veneto/articoli/2026/10/tofane-escursionista-63-anni-morto-caduta-canale-cortina-2b5c6469-f366-43c0-9af0-ff7edf62db78.html",
+          "title": "Cortina d'Ampezzo, escursionista di 63 anni muore precipitando in un canale sulle Tofane",
+          "description": "Il corpo è stato individuato circa 70 metri sotto il tracciato tra Cima Formenton e il Bivacco Baracca degli Alpini. Inutili i soccorsi",
+          "source": {
+            "id": "it_34_tgr",
+            "name": "TGR Veneto (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T18:26:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/10/05/1791189677404_Elicottero_del_Suem_.jfif",
+          "countryCode": "IT",
+          "regionCode": "IT-34"
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-07T06:29:56.000Z"
+    },
+    {
+      "id": "ctNxAg1sXOdq",
+      "representative": {
+        "id": "ctNxAg1sXOdq",
+        "url": "https://www.ansa.it/veneto/notizie/2026/10/07/caso-di-dengue-nel-veneziano-via-alla-disinfestazione_2e9a163f-2cf2-45d8-a36f-df0e5eadcc79.html",
+        "canonicalUrl": "https://www.ansa.it/veneto/notizie/2026/10/07/caso-di-dengue-nel-veneziano-via-alla-disinfestazione_2e9a163f-2cf2-45d8-a36f-df0e5eadcc79.html",
+        "title": "Caso di Dengue nel Veneziano, via alla disinfestazione",
+        "description": "Un residente di Pramaggiore ha contratto l'infezione all'estero",
+        "source": {
+          "id": "it_34_ansa",
+          "name": "ANSA Veneto"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T11:28:16.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [
+        {
+          "id": "mLJjdFDO9Q3l",
+          "url": "https://www.veneziatoday.it/cronaca/caso-dengue-via-la-disinfestazione.html",
+          "canonicalUrl": "https://www.veneziatoday.it/cronaca/caso-dengue-via-la-disinfestazione.html",
+          "title": "Caso di Dengue a Pramaggiore, al via la disinfestazione",
+          "description": "Gli interventi nell'area delimitata dalla sera del 7 ottobre al 9 ottobre. Fondamentale la collaborazione dei residenti. Si tratta di una misura precauzionale per evitare che altre zanzare trasmettano il virus",
+          "source": {
+            "id": "it_34_citynews",
+            "name": "VeneziaToday / TrevisoToday"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T09:25:27.000Z",
+          "imageUrl": "https://citynews-veneziatoday.stgy.ovh/~media/original-hi/9354032334073/chiesa-pramaggiore-2.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-34"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:28:16.000Z"
+    },
+    {
+      "id": "9EELtscWtYjC",
+      "representative": {
+        "id": "9EELtscWtYjC",
+        "url": "https://corrieredelveneto.corriere.it/notizie/verona/cronaca/26_ottobre_07/violenza-in-caserma-su-una-sottoposta-caporalmaggiore-dell-aeronautica-condannato-per-i-baci-e-le-carezze-f11f36b1-7043-4c2a-895a-7ae12af85xlk.shtml",
+        "canonicalUrl": "https://corrieredelveneto.corriere.it/notizie/verona/cronaca/26_ottobre_07/violenza-in-caserma-su-una-sottoposta-caporalmaggiore-dell-aeronautica-condannato-per-i-baci-e-le-carezze-f11f36b1-7043-4c2a-895a-7ae12af85xlk.shtml",
+        "title": "Violenza in caserma su una sottoposta: caporalmaggiore dell'aeronautica condannato per i baci e le carezze",
+        "description": "Verona, un anno di reclusione per il sottoufficiale che ha tentato l'approccio nella camera della donna. I legali: «Ricorreremo in Appello»",
+        "source": {
+          "id": "it_34_corriere_veneto",
+          "name": "Corriere del Veneto"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T14:24:23.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_572_429/uploads/2026/10/07/6ac62d82a3719.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:24:23.000Z"
+    },
+    {
+      "id": "y9wAQ5_eF_HM",
+      "representative": {
+        "id": "y9wAQ5_eF_HM",
+        "url": "https://www.rainews.it/tgr/veneto/video/2026/10/start-cup-padova-25-edizione-premio-nazionale-innovazione-6992effa-ef29-48b1-91b4-aa5b295331aa.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/veneto/video/2026/10/start-cup-padova-25-edizione-premio-nazionale-innovazione-6992effa-ef29-48b1-91b4-aa5b295331aa.html",
+        "title": "Start Cup Padova, 25 anni di idee innovative: i vincitori verso il premio nazionale",
+        "description": "Dalla prima edizione a oggi sono stati oltre 5 mila i business plan selezionati per la competizione finanziata e realizzata dall'Università",
+        "source": {
+          "id": "it_34_tgr",
+          "name": "TGR Veneto (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T14:06:00.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791381972013_Start_Cup_Padova.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:06:00.000Z"
+    },
+    {
+      "id": "J97e8MmEbmkS",
+      "representative": {
+        "id": "J97e8MmEbmkS",
+        "url": "https://www.rainews.it/tgr/veneto/video/2026/10/tragedia-bus-mestre-strage-patteggiamento-sette-imputati-rinviato-b12c0185-dc08-46a8-8140-82286dc77ce4.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/veneto/video/2026/10/tragedia-bus-mestre-strage-patteggiamento-sette-imputati-rinviato-b12c0185-dc08-46a8-8140-82286dc77ce4.html",
+        "title": "La strage del bus di Mestre: rinviata a sorpresa l’udienza per il patteggiamento dei sette imputati",
+        "description": "Il giudice non ha ancora ratificato la richiesta e ha rinviato la sua decisione al 28 ottobre. Fuori dall'aula stupore e perplessità da parte dei legali",
+        "source": {
+          "id": "it_34_tgr",
+          "name": "TGR Veneto (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:58:00.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2024/06/21/1718971553234_Cattura.PNG",
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:58:00.000Z"
+    },
+    {
+      "id": "CJ6cltSLKWRT",
+      "representative": {
+        "id": "CJ6cltSLKWRT",
+        "url": "https://www.ansa.it/veneto/notizie/2026/10/07/a-pieve-del-grappa-uno-spettacolo-ricorda-merlin-e-il-vajont_0e82f359-d1bf-4653-900d-868ed59d8a08.html",
+        "canonicalUrl": "https://www.ansa.it/veneto/notizie/2026/10/07/a-pieve-del-grappa-uno-spettacolo-ricorda-merlin-e-il-vajont_0e82f359-d1bf-4653-900d-868ed59d8a08.html",
+        "title": "A Pieve del Grappa uno spettacolo ricorda Merlin e il Vajont",
+        "description": "Un reading teatrale nell'anniversario del disastro in cui morirono quasi duemila persone",
+        "source": {
+          "id": "it_34_ansa",
+          "name": "ANSA Veneto"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:50:55.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:50:55.000Z"
+    },
+    {
+      "id": "ifJerfCNiooz",
+      "representative": {
+        "id": "ifJerfCNiooz",
+        "url": "https://www.ansa.it/veneto/notizie/2026/10/07/sicuramente-il-teatro-nelle-scuole-del-veneto-contro-la-violenza-di-genere_44c64294-acd5-4bfc-a405-ff3d454aedb5.html",
+        "canonicalUrl": "https://www.ansa.it/veneto/notizie/2026/10/07/sicuramente-il-teatro-nelle-scuole-del-veneto-contro-la-violenza-di-genere_44c64294-acd5-4bfc-a405-ff3d454aedb5.html",
+        "title": "'SicuraMente', il teatro nelle scuole del Veneto contro la violenza di genere",
+        "description": "Progetto di Regione e Fondazione Cecchettin con la pièce 'Noi' di Zelda Teatro",
+        "source": {
+          "id": "it_34_ansa",
+          "name": "ANSA Veneto"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:50:30.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:50:30.000Z"
+    },
+    {
+      "id": "zGs4DwOadJ7V",
+      "representative": {
+        "id": "zGs4DwOadJ7V",
+        "url": "https://www.ansa.it/veneto/notizie/2026/10/07/russell-crowe-in-concerto-al-marostica-summer-festival-l1-luglio-2027_af1e9da7-17e8-4345-9596-6f1ee71af3b4.html",
+        "canonicalUrl": "https://www.ansa.it/veneto/notizie/2026/10/07/russell-crowe-in-concerto-al-marostica-summer-festival-l1-luglio-2027_af1e9da7-17e8-4345-9596-6f1ee71af3b4.html",
+        "title": "Russell Crowe in concerto al Marostica Summer Festival l'1 luglio 2027",
+        "description": "Il 'gladiatore' live con la sua band e l'Indoor Garden Party",
+        "source": {
+          "id": "it_34_ansa",
+          "name": "ANSA Veneto"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:44:57.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:44:57.000Z"
+    },
+    {
+      "id": "Dg6YIC-9stmW",
+      "representative": {
+        "id": "Dg6YIC-9stmW",
+        "url": "https://ilnuovoterraglio.it/lafrica-nella-venezia-del-seicento-e-settecento-il-nuovo-terraglio-porta-la-ricerca-di-giovanni-fanton-a-treviso/",
+        "canonicalUrl": "https://ilnuovoterraglio.it/lafrica-nella-venezia-del-seicento-e-settecento-il-nuovo-terraglio-porta-la-ricerca-di-giovanni-fanton-a-treviso/",
+        "title": "L’Africa nella Venezia del Seicento e Settecento: Il Nuovo Terraglio porta la ricerca di Giovanni Fanton a Treviso",
+        "description": "Dal Monumento Pesaro ai Frari fino al ritratto di Lazzaro Zen di Francesco Guardi, lo storico dell’arte ha mostrato come la figura... L'articolo L’Africa nella Venezia del Seicento e Settecento: Il Nuovo Terraglio porta la ricerca di Giovanni Fanton a Treviso proviene da Il Nuovo Terraglio .",
+        "source": {
+          "id": "it_34_nuovo_terraglio",
+          "name": "Il Nuovo Terraglio (Treviso)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:41:53.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:41:53.000Z"
+    },
+    {
+      "id": "dgNDlNQYLg0t",
+      "representative": {
+        "id": "dgNDlNQYLg0t",
+        "url": "https://corrieredelveneto.corriere.it/notizie/vicenza/cronaca/26_ottobre_07/picoman-il-ladro-seriale-col-piccone-ha-gia-messo-a-segno-50-colpi-e-l-incubo-dei-negozianti-in-provincia-di-vicenza-b46ac4cb-1c57-4d87-b438-599fe7968xlk.shtml",
+        "canonicalUrl": "https://corrieredelveneto.corriere.it/notizie/vicenza/cronaca/26_ottobre_07/picoman-il-ladro-seriale-col-piccone-ha-gia-messo-a-segno-50-colpi-e-l-incubo-dei-negozianti-in-provincia-di-vicenza-b46ac4cb-1c57-4d87-b438-599fe7968xlk.shtml",
+        "title": "Picoman, il ladro seriale col piccone ha già messo a segno 50 colpi: «È l'incubo dei negozianti in provincia di Vicenza»",
+        "description": "Si muove in bicicletta, agisce a volto scoperto, sfonda porte e portoni di negozi e ristoranti tra Altavilla, Creazzo e Sovizzo e fugge coi soldi",
+        "source": {
+          "id": "it_34_corriere_veneto",
+          "name": "Corriere del Veneto"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:40:01.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_572_429/uploads/2026/10/07/6ac630a8c0601.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:40:01.000Z"
+    },
+    {
+      "id": "5c9_C50PDXSx",
+      "representative": {
+        "id": "5c9_C50PDXSx",
+        "url": "https://video.corrieredelveneto.corriere.it/vicenza-il-ladro-seriale-col-piccone-che-si-muove-in-bicicletta-i-video-dei-colpi-ripresi-dalle-telecamere-di-sorveglianza/807a91c2-196d-421f-9a67-299c1f747xlk",
+        "canonicalUrl": "https://video.corrieredelveneto.corriere.it/vicenza-il-ladro-seriale-col-piccone-che-si-muove-in-bicicletta-i-video-dei-colpi-ripresi-dalle-telecamere-di-sorveglianza/807a91c2-196d-421f-9a67-299c1f747xlk",
+        "title": "Vicenza, il ladro seriale col piccone che si muove in bicicletta: i video dei colpi ripresi dalle telecamere di sorveglianza",
+        "description": "Decine di blitz tra Creazzo, Sovizzo e Altavilla Vicentina: è l'incubo di commercianti ed esercenti",
+        "source": {
+          "id": "it_34_corriere_veneto",
+          "name": "Corriere del Veneto"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:37:03.000Z",
+        "imageUrl": "https://dimages2.corriereobjects.it/files/image_655_368/uploads/2026/10/06/6ac54f89df4b4.jpeg",
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:37:03.000Z"
+    },
+    {
+      "id": "pO99-GRYDnzY",
+      "representative": {
+        "id": "pO99-GRYDnzY",
+        "url": "https://www.tviweb.it/tragedia-del-bus-di-mestre-istanza-di-patteggiamento-per-i-funzionari-del-comune/",
+        "canonicalUrl": "https://www.tviweb.it/tragedia-del-bus-di-mestre-istanza-di-patteggiamento-per-i-funzionari-del-comune/",
+        "title": "Tragedia del bus di Mestre, istanza di patteggiamento per i funzionari del Comune",
+        "description": "VENETO, 7 OTTOBRE 2026 – Hanno concordato pene inferiori a due anni per omicidio stradale plurimo i sette funzionari e dirigenti del Comune indagati per la strage del bus di Mestre, precipitato dal cavalcavia di Marghera il 3 ottobre 2023. ... Leggi tutto L'articolo Tragedia del bus di Mestre…",
+        "source": {
+          "id": "it_34_tviweb",
+          "name": "TViWeb (Vicenza)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:33:52.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:33:52.000Z"
+    },
+    {
+      "id": "z5b_nDwRynsF",
+      "representative": {
+        "id": "z5b_nDwRynsF",
+        "url": "https://www.tviweb.it/dengue-a-pramaggiore-scatta-la-disinfestazione-interventi-entro-300-metri-dallabitazione-del-paziente/",
+        "canonicalUrl": "https://www.tviweb.it/dengue-a-pramaggiore-scatta-la-disinfestazione-interventi-entro-300-metri-dallabitazione-del-paziente/",
+        "title": "Dengue a Pramaggiore, scatta la disinfestazione: interventi entro 300 metri dall’abitazione del paziente",
+        "description": "VENEZIA, 7 OTTOBRE 2026 – A Pramaggiore, in provincia di Venezia, è stato accertato un caso di febbre Dengue in un residente che ha contratto l’infezione all’estero. Lo rende noto l’Ulss 4 Veneto orientale, che per precauzione ha disposto un ... Leggi tutto L'articolo Dengue a Pramaggiore, scatta…",
+        "source": {
+          "id": "it_34_tviweb",
+          "name": "TViWeb (Vicenza)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:30:29.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:30:29.000Z"
+    },
+    {
+      "id": "l_2DOcYAzl7a",
+      "representative": {
+        "id": "l_2DOcYAzl7a",
+        "url": "https://www.tviweb.it/fondi-europei-donazzan-fdi-il-buon-lavoro-dei-nostri-amministratori-porta-frutti-concreti-al-territorio/",
+        "canonicalUrl": "https://www.tviweb.it/fondi-europei-donazzan-fdi-il-buon-lavoro-dei-nostri-amministratori-porta-frutti-concreti-al-territorio/",
+        "title": "Fondi europei, Donazzan (FdI): “Il buon lavoro dei nostri amministratori porta frutti concreti al territorio”",
+        "description": "Strasburgo, 7 ottobre 2026 – «Desidero esprimere il mio plauso alla consigliera comunale di Fratelli d’Italia Cinzia Mannoia. Se oggi Valdagno e tutta la Valle dell’Agno possono contare su un Ufficio Europa e sull’accreditamento presso Casa Veneto, la sede di ... Leggi tutto L'articolo Fondi…",
+        "source": {
+          "id": "it_34_tviweb",
+          "name": "TViWeb (Vicenza)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:28:01.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-34"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:28:01.000Z"
+    }
+  ]
+}

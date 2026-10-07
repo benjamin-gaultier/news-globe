@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "IT",
+  "countryName": "Italy",
+  "regionCode": "IT-88",
+  "regionName": "Sardinia",
+  "updatedAt": "2026-10-07T15:02:06.730Z",
+  "clusters": [
+    {
+      "id": "eUQrgB4AuFNl",
+      "representative": {
+        "id": "eUQrgB4AuFNl",
+        "url": "https://www.ansa.it/sardegna/notizie/2026/10/07/topi-e-blatte-nelle-scuole-di-terramaini-studenti-cagliari-in-sciopero_b6b9019e-ffa9-425a-9b8a-1b75ca28036c.html",
+        "canonicalUrl": "https://www.ansa.it/sardegna/notizie/2026/10/07/topi-e-blatte-nelle-scuole-di-terramaini-studenti-cagliari-in-sciopero_b6b9019e-ffa9-425a-9b8a-1b75ca28036c.html",
+        "title": "Topi e blatte nelle scuole di Terramaini, studenti Cagliari in sciopero",
+        "description": "Interventi disinfestazione già eseguiti, 'ma non bastano'",
+        "source": {
+          "id": "it_88_ansa",
+          "name": "ANSA Sardegna"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T08:13:01.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [
+        {
+          "id": "AJ7Cmlat2P_r",
+          "url": "https://www.vistanet.it/cagliari/2026/10/07/cagliari-topi-e-blatte-nelle-scuole-studenti-in-sciopero-nella-zona-di-terramaini/",
+          "canonicalUrl": "https://www.vistanet.it/cagliari/2026/10/07/cagliari-topi-e-blatte-nelle-scuole-studenti-in-sciopero-nella-zona-di-terramaini/",
+          "title": "Cagliari, topi e blatte nelle scuole: studenti in sciopero nella zona di Terramaini",
+          "description": "Protesta questa mattina tra gli studenti delle scuole superiori della zona di Terramaini, a Cagliari, dove diversi ragazzi hanno aderito a uno sciopero autogestito per denunciare le condizioni igienico-sanitarie di alcuni istituti. A far scattare la mobilitazione è stata L'articolo Cagliari, topi…",
+          "source": {
+            "id": "it_88_vistanet",
+            "name": "Vistanet Cagliari"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T09:39:00.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-88"
+        },
+        {
+          "id": "JaiJN6Ly4d2a",
+          "url": "https://www.rainews.it/tgr/sardegna/articoli/2026/10/topi-e-blatte-a-scuola-studenti-in-sciopero-a-cagliari-270e96f6-656d-442d-b1fb-2e5a4a8e041c.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/sardegna/articoli/2026/10/topi-e-blatte-a-scuola-studenti-in-sciopero-a-cagliari-270e96f6-656d-442d-b1fb-2e5a4a8e041c.html",
+          "title": "Topi e blatte a scuola, studenti in sciopero a Cagliari",
+          "description": "La protesta partita dall'istituto Martini, sede di Monserrato, cui si sono aggiunti altri nel capoluogo",
+          "source": {
+            "id": "it_88_tgr",
+            "name": "TGR Sardegna (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T08:20:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791361226145_La_protesta_degli_studenti.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-88"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T09:39:00.000Z"
+    },
+    {
+      "id": "t1TGsCINwj-2",
+      "representative": {
+        "id": "t1TGsCINwj-2",
+        "url": "https://www.rainews.it/tgr/sardegna/video/2026/10/sbarchi-nel-sud-sardegna-4-gruppi-di-migranti-in-poche-ore--1878fc8e-046a-4c77-b116-53e202bc5695.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/sardegna/video/2026/10/sbarchi-nel-sud-sardegna-4-gruppi-di-migranti-in-poche-ore--1878fc8e-046a-4c77-b116-53e202bc5695.html",
+        "title": "Sbarchi nel Sud Sardegna, 4 gruppi di migranti in poche ore",
+        "description": "Le condizioni meteomarine hanno favorito le partenze dalle coste africane. Un gruppo di 5 donne, 2 bambini e 7 uomini è rimasto bloccato in una caletta impervia a Sant'Antioco. Due di loro hanno dato l'allarme e sono stati messi in salvo",
+        "source": {
+          "id": "it_88_tgr",
+          "name": "TGR Sardegna (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T20:55:00.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2026/10/06/1791320441588_GUARDIA_COSTIERA.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [
+        {
+          "id": "dx4L_k6L_d1u",
+          "url": "https://www.ansa.it/sardegna/notizie/2026/10/07/sbarchi-nel-sud-sardegna-migranti-costretti-a-tuffarsi-in-mare-da-scafisti_5c611d75-748d-4cfe-8562-e7f367b83234.html",
+          "canonicalUrl": "https://www.ansa.it/sardegna/notizie/2026/10/07/sbarchi-nel-sud-sardegna-migranti-costretti-a-tuffarsi-in-mare-da-scafisti_5c611d75-748d-4cfe-8562-e7f367b83234.html",
+          "title": "Sbarchi nel sud Sardegna, migranti costretti a tuffarsi in mare da scafisti",
+          "description": "Sono 114 gli stranieri arrivati, tra cui donne e bambini",
+          "source": {
+            "id": "it_88_ansa",
+            "name": "ANSA Sardegna"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T11:54:05.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": "IT-88"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:01:39.000Z"
+    },
+    {
+      "id": "_j1Dedf5U_Z5",
+      "representative": {
+        "id": "_j1Dedf5U_Z5",
+        "url": "https://www.ansa.it/sardegna/notizie/2026/10/07/giornate-fai-dautunno-nellisola-10-siti-aperti-alle-visite-in-8-comuni_9f11a66f-f060-48c5-b983-974b6d6f536e.html",
+        "canonicalUrl": "https://www.ansa.it/sardegna/notizie/2026/10/07/giornate-fai-dautunno-nellisola-10-siti-aperti-alle-visite-in-8-comuni_9f11a66f-f060-48c5-b983-974b6d6f536e.html",
+        "title": "Giornate Fai d'Autunno, nell'Isola 10 siti aperti alle visite in 8 comuni",
+        "description": "Appuntamento sabato 10 e domenica 11 ottobre",
+        "source": {
+          "id": "it_88_ansa",
+          "name": "ANSA Sardegna"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T10:38:35.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [
+        {
+          "id": "19DCsySDGNtW",
+          "url": "https://www.rainews.it/tgr/sardegna/articoli/2026/10/giornate-fai-dautunno-dieci-siti-aperti-alle-visite-in-otto-comuni-dfc4c735-325f-49cf-917d-08a4846f170e.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/sardegna/articoli/2026/10/giornate-fai-dautunno-dieci-siti-aperti-alle-visite-in-otto-comuni-dfc4c735-325f-49cf-917d-08a4846f170e.html",
+          "title": "Giornate Fai d'Autunno, dieci siti aperti alle visite in otto comuni",
+          "description": "Appuntamento sabato 10 e domenica 11 ottobre",
+          "source": {
+            "id": "it_88_tgr",
+            "name": "TGR Sardegna (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T10:59:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791370759691_Giornate_Fai.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-88"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T10:59:00.000Z"
+    },
+    {
+      "id": "Q_L9IjgkgHHR",
+      "representative": {
+        "id": "Q_L9IjgkgHHR",
+        "url": "https://www.ansa.it/sardegna/notizie/2026/10/07/evade-da-domiciliari-forzando-braccialetto-ricerche-in-tutta-la-sardegna_db322d7e-ae9f-401a-84b9-cdb46b75a1ce.html",
+        "canonicalUrl": "https://www.ansa.it/sardegna/notizie/2026/10/07/evade-da-domiciliari-forzando-braccialetto-ricerche-in-tutta-la-sardegna_db322d7e-ae9f-401a-84b9-cdb46b75a1ce.html",
+        "title": "Evade da domiciliari forzando braccialetto, ricerche in tutta la Sardegna",
+        "description": "Roberto Arzu indagato per favoreggiamento per un omicidio nel 2024",
+        "source": {
+          "id": "it_88_ansa",
+          "name": "ANSA Sardegna"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T09:48:01.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [
+        {
+          "id": "a9G8eZfLq0YS",
+          "url": "https://www.rainews.it/tgr/sardegna/articoli/2026/10/roberto-arzu-evade-dai-domiciliari-forzando-il-braccialetto-elettronico-8d7ee653-4c75-42ba-b8f9-2ec4ae2fb871.html",
+          "canonicalUrl": "https://www.rainews.it/tgr/sardegna/articoli/2026/10/roberto-arzu-evade-dai-domiciliari-forzando-il-braccialetto-elettronico-8d7ee653-4c75-42ba-b8f9-2ec4ae2fb871.html",
+          "title": "Roberto Arzu evade dai domiciliari forzando il braccialetto elettronico",
+          "description": "L'uomo è indagato per favoreggiamento per l'omicidio Marongiu nel 2024",
+          "source": {
+            "id": "it_88_tgr",
+            "name": "TGR Sardegna (RAI)"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-07T10:52:00.000Z",
+          "imageUrl": "https://www.rainews.it/dl/img/2025/05/27/1748381273150_RILIEVI.jpg",
+          "countryCode": "IT",
+          "regionCode": "IT-88"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T10:52:00.000Z"
+    },
+    {
+      "id": "yWz45eaK5k-X",
+      "representative": {
+        "id": "yWz45eaK5k-X",
+        "url": "https://www.galluraoggi.it/arzachena/blackout-internet-centro-arzachena-7-ottobre-2026/",
+        "canonicalUrl": "https://www.galluraoggi.it/arzachena/blackout-internet-centro-arzachena-7-ottobre-2026/",
+        "title": "Blackout internet nel centro storico di Arzachena, tanti disagi",
+        "description": "Disagi e disservizi per chi opera o vive nel centro storico di Arzachena a causa di un blackout della rete Internet. Il prolungato isolamento telematico che sta interessando da alcuni... Read More→",
+        "source": {
+          "id": "it_88_galluraoggi",
+          "name": "Gallura Oggi"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T14:21:22.000Z",
+        "imageUrl": "https://www.galluraoggi.it/wp-content/uploads/2026/10/blackout-internet-arzachena-1024x674.jpeg?v=1791382615",
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:21:22.000Z"
+    },
+    {
+      "id": "Vu1Shhe-lWAV",
+      "representative": {
+        "id": "Vu1Shhe-lWAV",
+        "url": "https://www.rainews.it/tgr/sardegna/video/2026/10/affitti-a-cagliari-prezzi-in-aumento-e-offerta-sempre-piu-ridotta-36105bd8-a460-4a97-83c9-c067f52cfe7b.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/sardegna/video/2026/10/affitti-a-cagliari-prezzi-in-aumento-e-offerta-sempre-piu-ridotta-36105bd8-a460-4a97-83c9-c067f52cfe7b.html",
+        "title": "Affitti a Cagliari, prezzi in aumento e offerta sempre più ridotta",
+        "description": "Canoni cresciuti del 30 per cento negli ultimi anni. Per le famiglie monoreddito meno del 10 per cento degli immobili disponibili sarebbe accessibile. Si punta ad allargare il canone concordato a tutta la Città Metropolitana",
+        "source": {
+          "id": "it_88_tgr",
+          "name": "TGR Sardegna (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:58:00.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2022/06/23/1655972579246_fedccfeffdccfdaaeae.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:58:00.000Z"
+    },
+    {
+      "id": "0RPdoN581yO6",
+      "representative": {
+        "id": "0RPdoN581yO6",
+        "url": "https://www.castedduonline.it/cagliari-fuochi-artificiali-e-petardi-svegliano-interi-quartieri-se-qualcuno-si-fara-male-la-responsabilita-sara-delle-istituzioni/",
+        "canonicalUrl": "https://www.castedduonline.it/cagliari-fuochi-artificiali-e-petardi-svegliano-interi-quartieri-se-qualcuno-si-fara-male-la-responsabilita-sara-delle-istituzioni/",
+        "title": "Cagliari, fuochi artificiali e petardi svegliano interi quartieri: “Se qualcuno si farà male la responsabilità sarà delle istituzioni”",
+        "description": "Fuochi d’artificio e petardi che in piena notte turbano la quiete di interi quartieri nel cuore di Cagliari come San Michele e Monte Urpinu. A documentare l’ennesimo episodio, questa volta in zona via Sonnino è la parlamentare Movimento 5 Stelle Emanuela Corda, che pubblica un video…",
+        "source": {
+          "id": "it_88_casteddu",
+          "name": "Casteddu Online"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:35:24.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:35:24.000Z"
+    },
+    {
+      "id": "yp4Vool1BJYS",
+      "representative": {
+        "id": "yp4Vool1BJYS",
+        "url": "https://www.rainews.it/tgr/sardegna/video/2026/10/kofler-dalle-montagne-al-mare-a-cagliari-mi-sono-sentito-subito-a-casa-23e2dfcd-7a52-4ab1-ae30-6c8207607138.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/sardegna/video/2026/10/kofler-dalle-montagne-al-mare-a-cagliari-mi-sono-sentito-subito-a-casa-23e2dfcd-7a52-4ab1-ae30-6c8207607138.html",
+        "title": "Kofler dalle montagne al mare: «A Cagliari mi sono sentito subito a casa»",
+        "description": "Il giovane rossoblù racconta i primi giorni in Sardegna e l’emozione per le parole di mister Pisacane",
+        "source": {
+          "id": "it_88_tgr",
+          "name": "TGR Sardegna (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:28:21.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2026/10/07/1791380344308_kofler.JPG",
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:28:21.000Z"
+    },
+    {
+      "id": "0e5WVGBm8AmP",
+      "representative": {
+        "id": "0e5WVGBm8AmP",
+        "url": "https://www.rainews.it/tgr/sardegna/video/2026/10/coniugi-morti-in-via-ghibli-morti-per-avvelenamento-a11ed206-917c-44ac-8667-00f13c3dfe44.html",
+        "canonicalUrl": "https://www.rainews.it/tgr/sardegna/video/2026/10/coniugi-morti-in-via-ghibli-morti-per-avvelenamento-a11ed206-917c-44ac-8667-00f13c3dfe44.html",
+        "title": "Coniugi morti in via Ghibli, avvelenamento la causa più probabile",
+        "description": "In Aula le testimonianze del medico legale e dall'anatomopatologa",
+        "source": {
+          "id": "it_88_tgr",
+          "name": "TGR Sardegna (RAI)"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T13:08:00.000Z",
+        "imageUrl": "https://www.rainews.it/dl/img/2025/05/12/1747052240358_GULISANO_VIA_GHIBLI.jpg",
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:08:00.000Z"
+    },
+    {
+      "id": "CTNCnWvm1jzx",
+      "representative": {
+        "id": "CTNCnWvm1jzx",
+        "url": "https://www.galluraoggi.it/arzachena/borse-di-studio-arzachena-7-ottobre-2026/",
+        "canonicalUrl": "https://www.galluraoggi.it/arzachena/borse-di-studio-arzachena-7-ottobre-2026/",
+        "title": "Arzachena premia l’eccellenza scolastica, consegnate le borse di studio",
+        "description": "Ad Arzachena le borse di studio per merito Con le borse di studio Comune di Arzachena ha celebrato l’impegno e la dedizione scolastica dei suoi giovani talenti. Loro i protagonisti... Read More→",
+        "source": {
+          "id": "it_88_galluraoggi",
+          "name": "Gallura Oggi"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T12:34:20.000Z",
+        "imageUrl": "https://www.galluraoggi.it/wp-content/uploads/2026/10/arzachena-premia-eccellenza-scolastica-1024x679.jpeg?v=1791376054",
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:34:20.000Z"
+    },
+    {
+      "id": "f7ZGT_kD-hz0",
+      "representative": {
+        "id": "f7ZGT_kD-hz0",
+        "url": "https://www.galluraoggi.it/cronaca/case-prezzo-calmierato-approvata-graduatoria-olbia-7-ottobre-2026/",
+        "canonicalUrl": "https://www.galluraoggi.it/cronaca/case-prezzo-calmierato-approvata-graduatoria-olbia-7-ottobre-2026/",
+        "title": "Case a prezzo calmierato a Olbia, approvata la graduatoria",
+        "description": "La graduatoria per le case a prezzo calmierato a Olbia. Per 11 famiglie di Olbia si apre una concreta possibilità di avere una casa senza dover affrontare subito i costi... Read More→",
+        "source": {
+          "id": "it_88_galluraoggi",
+          "name": "Gallura Oggi"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T12:15:22.000Z",
+        "imageUrl": "https://www.galluraoggi.it/wp-content/uploads/2023/07/comune-olbia-municipio-1024x639.jpg?v=1688457528",
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:15:22.000Z"
+    },
+    {
+      "id": "YshpfvQ0qMff",
+      "representative": {
+        "id": "YshpfvQ0qMff",
+        "url": "https://www.castedduonline.it/nel-primo-anno-dalla-scomparsa-dal-caro-e-indimenticabile-felice-leppori-la-famiglia-lo-ricorda/",
+        "canonicalUrl": "https://www.castedduonline.it/nel-primo-anno-dalla-scomparsa-dal-caro-e-indimenticabile-felice-leppori-la-famiglia-lo-ricorda/",
+        "title": "Nel primo anno dalla scomparsa dal caro e indimenticabile Felice Leppori la famiglia lo ricorda",
+        "description": "1° ANNIVERSARIO Nel 1° anno dalla scomparsa del caro e indimenticabile Felice Leppori la moglie Ciccina i figli Luigi con Anna Maria, Maria Antonietta con Alberto, Rita e gli adorati nipoti Felice con Roberta e Sara con Valerio il fratello Magno con Antonina e familiari tutti, invitano ad unirsi…",
+        "source": {
+          "id": "it_88_casteddu",
+          "name": "Casteddu Online"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T12:10:26.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:10:26.000Z"
+    },
+    {
+      "id": "11flYG7Hc-Pl",
+      "representative": {
+        "id": "11flYG7Hc-Pl",
+        "url": "https://www.ansa.it/sardegna/notizie/2026/10/07/a-sassari-il-primo-student-festival-eunicoast_c70d6f0b-e882-4f32-b345-38cefb5ac244.html",
+        "canonicalUrl": "https://www.ansa.it/sardegna/notizie/2026/10/07/a-sassari-il-primo-student-festival-eunicoast_c70d6f0b-e882-4f32-b345-38cefb5ac244.html",
+        "title": "A Sassari il primo Student Festival Eunicoast",
+        "description": "Coinvolti più di 100 studenti provenienti dalle 13 università del partenariato",
+        "source": {
+          "id": "it_88_ansa",
+          "name": "ANSA Sardegna"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T12:06:46.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:06:46.000Z"
+    },
+    {
+      "id": "oZAOjiN4f1_0",
+      "representative": {
+        "id": "oZAOjiN4f1_0",
+        "url": "https://www.castedduonline.it/incubo-plastica-ecco-la-svolta-a-macchiareddu-un-maxi-impianto-per-la-raccolta/",
+        "canonicalUrl": "https://www.castedduonline.it/incubo-plastica-ecco-la-svolta-a-macchiareddu-un-maxi-impianto-per-la-raccolta/",
+        "title": "Incubo plastica, ecco la svolta: a Macchiareddu un maxi impianto per la raccolta",
+        "description": "Entrerà in esercizio entro la fine di ottobre il nuovo impianto per il trattamento della plastica realizzato a Macchiareddu, nell’area industriale di Cagliari: la struttura, costata 22 milioni di euro, di cui 18 finanziati dal Pnrr, avrà una capacità di circa 4mila tonnellate l’anno e sarà la più…",
+        "source": {
+          "id": "it_88_casteddu",
+          "name": "Casteddu Online"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T12:04:41.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:04:41.000Z"
+    },
+    {
+      "id": "T07Kt5kg2DQB",
+      "representative": {
+        "id": "T07Kt5kg2DQB",
+        "url": "https://www.ansa.it/sardegna/notizie/2026/10/07/in-consiglio-regionale-proposta-per-commissione-inchiesta-su-fenomeni-mafia_e6bacccc-ff3c-4f55-aadf-928ef630d69b.html",
+        "canonicalUrl": "https://www.ansa.it/sardegna/notizie/2026/10/07/in-consiglio-regionale-proposta-per-commissione-inchiesta-su-fenomeni-mafia_e6bacccc-ff3c-4f55-aadf-928ef630d69b.html",
+        "title": "In Consiglio regionale proposta per commissione inchiesta su fenomeni mafia",
+        "description": "L'Aula si riunirà il 15 alle 10.30. Primo punto il documento sui servizi alla persona",
+        "source": {
+          "id": "it_88_ansa",
+          "name": "ANSA Sardegna"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-07T11:53:07.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": "IT-88"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:53:07.000Z"
+    }
+  ]
+}

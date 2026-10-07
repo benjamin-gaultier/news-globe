@@ -260,6 +260,29 @@ describe('isNotNews', () => {
       'Nashvillager Podcast: Utopian Tennessee',
       'Ravens beat Titans, but at what cost? | Banner Ravens Podcast',
       'Sponsored: Two Weekends. A Whole Lotta Boo.',
+      'GR Lazio del 07/10/2026 ore 12:10',
+      'Meteo Calabria del 06/10/2026 ore 19:30',
+      'Buongiorno Regione Valle d’Aosta del 07/10/2026',
+      'Tgr in 60 secondi del 6 ottobre',
+      'RESUM IB3 NOTÍCIES MIGDIA 07/10/2026',
+      '07.10.2026 | Informatiu migdia | L’oratge',
+      'Crisi Schifani-Minardo, dimissioni in standby? | TG Flash 13:30',
+      'Rassegna stampa 07-10-2026 edizioni Calabria',
+      'Estas son las noticias más leídas este lunes en El Progreso',
+      'Las noticias más importantes en Salamanca hoy lunes 5 de octubre',
+      'Las noticias imprescindibles',
+      'Así te hemos contado la actualidad de Valladolid durante la mañana del martes, 6 de octubre',
+      'El tiempo en Asturias para este martes, 6 de octubre: lluvias por la tarde',
+      'Meteo in Veneto, le previsioni per martedì 6 ottobre: nubi sparse',
+      'Previsioni meteo giovedì 8 ottobre, a Milano e in Lombardia tempo instabile',
+      'Horóscopo',
+      'Giornale di Sicilia: l’oroscopo di oggi',
+      'Què fer a Barcelona? Agenda d’activitats actualitzada per a avui, demà i més dies',
+      'Concerts de Barcelona el 2026: Agenda completa d’actuacions musicals',
+      'Cosa fare a Milano oggi 7 ottobre: El Tri ai Magazzini',
+      'Cosa fare oggi in Umbria',
+      'WWE Money in the Bank 2026: card completa, data, orario e dove vederlo in diretta tv e streaming',
+      'Opinión | Cartagena, ‘Ciudad de Submarinos’, debería pedir ya su S-80',
     ]) {
       expect(isNotNews(t), t).toBe(true);
     }
@@ -299,6 +322,16 @@ describe('isNotNews', () => {
       'Upper Arlington school podcasters named finalists in NPR’s Student Podcast Challenge',
       'Detroit Evening Report: Comerica Park receives a new name',
       'Morning commute snarled after crash on I-95',
+      'Meteo Campania, temporali in arrivo: allerta Gialla dal pomeriggio',
+      'Meteocat emet un avís per temps violent al Pla d’Urgell',
+      'El tiempo cambia en Sevilla a partir de hoy: Aemet anuncia una subida de temperaturas',
+      'Así te hemos contado la protesta de los taxis que ha colapsado el tráfico en Donostia',
+      'Qué hacer si te encuentras con un jabalí en la carretera',
+      'Cine sobre artesanías y cultura popular llega a Cuenca y Paute: agenda completa',
+      'Incidencias en Rodalies, última hora en directo: el temporal mantiene cinco vías sin circulación',
+      'Proroga a graduatorie per concorso oss 2024, presidio Usb in Regione',
+      'Botricello, minacce alla troupe de La Vita in Diretta',
+      'Il sindaco annuncia il calendario del 12/10/2026 per le scuole',
     ]) {
       expect(isNotNews(t), t).toBe(false);
     }
@@ -306,11 +339,11 @@ describe('isNotNews', () => {
 });
 
 describe('dropRepublished', () => {
-  it("keeps the earliest copy of a headline another outlet reruns, and the outlet's own repeats", () => {
+  it('keeps only the earliest copy of a headline, whichever outlet repeats it', () => {
     const original = article('ctmirror', 'CT effort to support SNAP recipients stalls', '2026-10-07T08:00:00Z');
     const rerun = article('ctpublic', 'CT effort to support SNAP recipients stalls.', '2026-10-07T10:00:00Z');
     const other = article('wshu', 'CT lawmakers weigh SNAP backup plan', '2026-10-07T09:00:00Z');
     const update = article('ctmirror', 'CT Effort to Support SNAP Recipients Stalls', '2026-10-07T11:00:00Z');
-    expect(dropRepublished([rerun, update, other, original])).toEqual([update, other, original]);
+    expect(dropRepublished([rerun, update, other, original])).toEqual([other, original]);
   });
 });

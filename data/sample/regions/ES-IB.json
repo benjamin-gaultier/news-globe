@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "ES",
+  "countryName": "Spain",
+  "regionCode": "ES-IB",
+  "regionName": "Balearic Islands",
+  "updatedAt": "2026-10-07T15:02:06.730Z",
+  "clusters": [
+    {
+      "id": "o1xqSLQZmwIW",
+      "representative": {
+        "id": "o1xqSLQZmwIW",
+        "url": "https://www.arabalears.cat/societat/home-80-anys-mor-d-infart-volant-provoca-accident-multiple-son-ferriol_1_5872395.html",
+        "canonicalUrl": "https://www.arabalears.cat/societat/home-80-anys-mor-d-infart-volant-provoca-accident-multiple-son-ferriol_1_5872395.html",
+        "title": "Un home de 80 anys mor d’un infart al volant i provoca un accident múltiple a Son Ferriol",
+        "description": "Un home de 80 anys morí quest dimarts vespre després de patir un infart mentre conduïa per la rotonda flotant de Son Ferriol, a Palma. L’emergència mèdica va provocar que perdés el control del vehicle i acabàs provocant un accident múltiple en què dues persones més varen resultar ferides lleus.",
+        "source": {
+          "id": "es_ib_arabalears",
+          "name": "Ara Balears"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T13:08:40.000Z",
+        "imageUrl": "https://static1.ara.cat/clip/016f9316-97f8-49c4-ac43-728b9c68a6ff_16-9-aspect-ratio_default_0.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [
+        {
+          "id": "S7NA8GsuwY37",
+          "url": "https://www.europapress.es/illes-balears/noticia-anciano-80-anos-muere-ataque-corazon-cuando-iba-volante-provoca-accidente-multiple-20261007143756.html",
+          "canonicalUrl": "https://www.europapress.es/illes-balears/noticia-anciano-80-anos-muere-ataque-corazon-cuando-iba-volante-provoca-accidente-multiple-20261007143756.html",
+          "title": "Un anciano de 80 años muere de un ataque al corazón cuando iba al volante y provoca un accidente múltiple",
+          "description": "Un anciano de 80 años ha muerto de un ataque al corazón cuando iba al volante de su vehículo y ha provocado un accidente múltiple en el que dos personas más han resultado heridas leves.",
+          "source": {
+            "id": "es_ib_europapress",
+            "name": "Europa Press Illes Balears"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-07T12:37:56.000Z",
+          "imageUrl": "https://img.europapress.es/fotoweb/fotonoticia_20261007143756_120.jpg",
+          "countryCode": "ES",
+          "regionCode": "ES-IB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:08:40.000Z"
+    },
+    {
+      "id": "OFtdIIG5BHsb",
+      "representative": {
+        "id": "OFtdIIG5BHsb",
+        "url": "https://www.ultimahora.es/noticias/local/2026/10/07/2724429/izquierda-balear-apoya-huelga-general-derecha-critica-sea-contra-oposicion.html",
+        "canonicalUrl": "https://www.ultimahora.es/noticias/local/2026/10/07/2724429/izquierda-balear-apoya-huelga-general-derecha-critica-sea-contra-oposicion.html",
+        "title": "La izquierda balear apoya la huelga general y la derecha critica que sea «contra la oposición»",
+        "description": "La izquierda balear ha mostrado este miércoles su apoyo a la convocatoria de huelga general para el 11 de noviembre mientras que PP y Vox censuran que se convierta en una movilización «contra la oposición» en el Congreso. Más allá de la vivienda, el PSIB ha ligado la huelga con la mejora de…",
+        "source": {
+          "id": "es_ib_ultimahora",
+          "name": "Última Hora"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T12:40:55.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [
+        {
+          "id": "Nuxjio7fVKbw",
+          "url": "https://www.europapress.es/illes-balears/noticia-mes-per-mallorca-anima-ciudadania-participar-huelga-general-sea-movilizacion-historica-20261007124159.html",
+          "canonicalUrl": "https://www.europapress.es/illes-balears/noticia-mes-per-mallorca-anima-ciudadania-participar-huelga-general-sea-movilizacion-historica-20261007124159.html",
+          "title": "La izquierda apoya la huelga general, mientras que Vox y PP critican que sea \"contra la oposición\"",
+          "description": "MÉS per Mallorca y el PSIB han trasladado su apoyo a la huelga general que tienen previsto convocar CCOO, UGT y el Sindicato de Inquilinas el 11 de noviembre, mientras que PP y Vox han cuestionado que \"vaya en contra\" de los partidos de la oposición.",
+          "source": {
+            "id": "es_ib_europapress",
+            "name": "Europa Press Illes Balears"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-07T10:41:59.000Z",
+          "imageUrl": "https://img.europapress.es/fotoweb/fotonoticia_20261007124159_120_v2.jpg",
+          "countryCode": "ES",
+          "regionCode": "ES-IB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T12:40:55.000Z"
+    },
+    {
+      "id": "fLzzNVhv-PDw",
+      "representative": {
+        "id": "fLzzNVhv-PDw",
+        "url": "https://www.ara.cat/economia/vaga-general-crisi-l-habitatge-sera-l-11-novembre_1_5872137.html",
+        "canonicalUrl": "https://www.ara.cat/economia/vaga-general-crisi-l-habitatge-sera-l-11-novembre_1_5872137.html",
+        "title": "Els sindicats estudien convocar la vaga general per la crisi de l'habitatge l'11 de novembre",
+        "description": "Els sindicats estudien convocar la vaga general a l'Estat per la crisi de l'habitatge l'11 de novembre, dos dies abans que comenci la campanya electoral del 29-N, segons ha informat la UGT en un comunicat fet públic aquest dimecres. Aquesta data és la que guanya més pes, si bé els sindicats –CCOO…",
+        "source": {
+          "id": "es_ib_arabalears",
+          "name": "Ara Balears"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T09:52:57.000Z",
+        "imageUrl": "https://static1.ara.cat/clip/9ce586c9-89da-4290-9b1e-31ce4323db90_16-9-aspect-ratio_default_0.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [
+        {
+          "id": "jecwbzLYSohy",
+          "url": "https://ib3.org/els-sindicats-ultimen-la-vaga-general-per-a-l11-de-novembre",
+          "canonicalUrl": "https://ib3.org/els-sindicats-ultimen-la-vaga-general-per-a-l11-de-novembre",
+          "title": "Els sindicats ultimen la vaga general per a l’11 de novembre",
+          "description": "La vaga general de 24 hores convocada pels sindicats CCOO i UGT, entre d’altres, per reivindicar salaris suficients que permetin accedir a un habitatge digne, està prevista per al dimecres 11 de novembre, és a dir, 18 dies abans de les eleccions generals. Tal com ha confirmat en una entrevista a…",
+          "source": {
+            "id": "es_ib_ib3",
+            "name": "IB3"
+          },
+          "sourceCountry": "ES",
+          "language": "ca",
+          "publishedAt": "2026-10-07T12:09:15.000Z",
+          "imageUrl": null,
+          "countryCode": "ES",
+          "regionCode": "ES-IB"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T12:09:15.000Z"
+    },
+    {
+      "id": "kVHKMjDQgI8H",
+      "representative": {
+        "id": "kVHKMjDQgI8H",
+        "url": "https://www.arabalears.cat/societat/brussel-aprova-750-000-euros-ajuts-als-pagesos-balears-combustible_1_5872487.html",
+        "canonicalUrl": "https://www.arabalears.cat/societat/brussel-aprova-750-000-euros-ajuts-als-pagesos-balears-combustible_1_5872487.html",
+        "title": "Brussel·les aprova 750.000 euros en ajuts als pagesos balears per al combustible",
+        "description": "La Comissió Europea ha autoritzat aquest dimecres un programa d’ajuts de 750.000 euros per compensar els agricultors de les Balears per l’encariment del combustible arran de la crisi a l’Orient Pròxim. Les subvencions seran directes, de deu cèntims per litre, i cobriran els costs addicionals…",
+        "source": {
+          "id": "es_ib_arabalears",
+          "name": "Ara Balears"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T14:28:31.000Z",
+        "imageUrl": "https://static1.ara.cat/clip/00f569cc-9595-4c3c-8d0c-02313e2a4326_16-9-aspect-ratio_default_0.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:28:31.000Z"
+    },
+    {
+      "id": "T1s_Fm0bzUol",
+      "representative": {
+        "id": "T1s_Fm0bzUol",
+        "url": "https://www.europapress.es/illes-balears/noticia-salud-asegura-supuesto-colapso-sanitario-baleares-debe-cronicidad-aumento-poblacional-20261007161910.html",
+        "canonicalUrl": "https://www.europapress.es/illes-balears/noticia-salud-asegura-supuesto-colapso-sanitario-baleares-debe-cronicidad-aumento-poblacional-20261007161910.html",
+        "title": "Salud asegura que el \"supuesto\" colapso sanitario en Baleares se debe a la cronicidad y al aumento poblacional",
+        "description": "La consellera de Salud, Manuela García, ha asegurado este miércoles que el \"supuesto\" colapso sanitario en los centros hospitalarios de Baleares se debe a que cada vez hay más personas con derecho a la asistencia sanitaria y a que cada vez el ser humano vive más.",
+        "source": {
+          "id": "es_ib_europapress",
+          "name": "Europa Press Illes Balears"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T14:19:10.000Z",
+        "imageUrl": "https://img.europapress.es/fotoweb/fotonoticia_20261007161910_120.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:19:10.000Z"
+    },
+    {
+      "id": "mxMNbHGELUbV",
+      "representative": {
+        "id": "mxMNbHGELUbV",
+        "url": "https://www.arabalears.cat/economia/palma-avanca-desenvolupament-son-puigdorfila-preveuen-623-vivendes_1_5872475.html",
+        "canonicalUrl": "https://www.arabalears.cat/economia/palma-avanca-desenvolupament-son-puigdorfila-preveuen-623-vivendes_1_5872475.html",
+        "title": "Palma avança en el desenvolupament de Son Puigdorfila, on es preveuen 623 habitatges",
+        "description": "La Junta de Govern de Palma ha aprovat aquest dimecres la constitució de la Junta de Compensació del Projecte Residencial Estratègic (PRE) de Son Puigdorfila, un àmbit on està prevista la construcció de fins a 623 habitatges, 320 dels quals tindran algun grau de protecció.",
+        "source": {
+          "id": "es_ib_arabalears",
+          "name": "Ara Balears"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T14:18:34.000Z",
+        "imageUrl": "https://static1.ara.cat/clip/b85c6039-da21-402e-8f78-828f17710353_16-9-aspect-ratio_default_0.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:18:34.000Z"
+    },
+    {
+      "id": "xJc5esSM3ZcJ",
+      "representative": {
+        "id": "xJc5esSM3ZcJ",
+        "url": "https://www.noudiari.es/noticias-ibiza-formentera-sidebar/la-nueva-almazara-de-formentera-inicia-su-primera-campana-con-40-productores/",
+        "canonicalUrl": "https://www.noudiari.es/noticias-ibiza-formentera-sidebar/la-nueva-almazara-de-formentera-inicia-su-primera-campana-con-40-productores/",
+        "title": "La nueva almazara de Formentera inicia su primera campaña con 40 productores",
+        "description": "La nueva tafona de la Cooperativa del Camp de Formentera ha iniciado su primera campaña de elaboración de aceite con 40 productores de la isla, que hasta ahora tenían que trasladar sus aceitunas a Ibiza para su molturación. El conseller de Agricultura, Pesca y Medio Natural, Joan Simonet, ha…",
+        "source": {
+          "id": "es_ib_noudiari",
+          "name": "Noudiari (Eivissa)"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T14:05:35.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:05:35.000Z"
+    },
+    {
+      "id": "HBs5zzBTiaM7",
+      "representative": {
+        "id": "HBs5zzBTiaM7",
+        "url": "https://www.arabalears.cat/societat/tirme-nega-beneficis-estratosferics-defensa-aportacions-consell_1_5872368.html",
+        "canonicalUrl": "https://www.arabalears.cat/societat/tirme-nega-beneficis-estratosferics-defensa-aportacions-consell_1_5872368.html",
+        "title": "Tirme nega tenir \"beneficis estratosfèrics\" i defensa les aportacions del Consell",
+        "description": "Tirme rebutja que obtingui \"beneficis estratosfèrics\" per la gestió dels residus de Mallorca i defensa que les aportacions econòmiques del Consell serveixen per abaratir el servei als ajuntaments. La concessionària ha respost aquest dimecres a l’informe de la Intervenció General de la institució…",
+        "source": {
+          "id": "es_ib_arabalears",
+          "name": "Ara Balears"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T13:45:42.000Z",
+        "imageUrl": "https://static1.ara.cat/clip/cb4c69fd-c4ea-4f7c-aea1-d403a2c0548f_16-9-aspect-ratio_default_0.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:45:42.000Z"
+    },
+    {
+      "id": "sFZ6PojsIo3F",
+      "representative": {
+        "id": "sFZ6PojsIo3F",
+        "url": "https://www.noudiari.es/local-ibiza/el-consell-de-ibiza-facilitara-la-construccion-de-vivienda-para-temporeros-en-suelo-turistico-privado-sin-explotar/",
+        "canonicalUrl": "https://www.noudiari.es/local-ibiza/el-consell-de-ibiza-facilitara-la-construccion-de-vivienda-para-temporeros-en-suelo-turistico-privado-sin-explotar/",
+        "title": "El Consell de Ibiza facilitará la construcción de vivienda para temporeros en suelo turístico privado sin explotar",
+        "description": "El conseller de Territori de Ibiza, Mariano Juan, ha planteado una llamativa propuesta en el Tourism Innovation Summit (en español, Cubmbre de Innovación Turística) para resolver los problemas de vivienda para trabajadores y trabajadoras de temporada turística en Ibiza: que las empresas hosteleras…",
+        "source": {
+          "id": "es_ib_noudiari",
+          "name": "Noudiari (Eivissa)"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:44:58.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:44:58.000Z"
+    },
+    {
+      "id": "48rlqHkF62-W",
+      "representative": {
+        "id": "48rlqHkF62-W",
+        "url": "https://ib3.org/el-violinista-joan-fellows-morey-prepara-un-concert-solidari-a-lermita-de-portals",
+        "canonicalUrl": "https://ib3.org/el-violinista-joan-fellows-morey-prepara-un-concert-solidari-a-lermita-de-portals",
+        "title": "El violinista Joan Fellows Morey prepara un concert solidari a l’Ermita de Portals",
+        "description": "Nascut i resident a Alemanya, de pare britànic i mare mallorquina, les inquietuds musicals de John (Joan, com li agradada l’anomenin a Mallorca) Fellows Morey són tan eclèctiques com les seves arrels. Això sí, sempre dins la música clàssica i amb el seu violí, instrument que toca des dels 3 anys…",
+        "source": {
+          "id": "es_ib_ib3",
+          "name": "IB3"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T13:40:28.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:40:28.000Z"
+    },
+    {
+      "id": "s5-fAK-6wuKP",
+      "representative": {
+        "id": "s5-fAK-6wuKP",
+        "url": "https://ib3.org/salvem-sa-badia-alerta-de-nous-episodis-de-contaminacio-despres-de-les-pluges",
+        "canonicalUrl": "https://ib3.org/salvem-sa-badia-alerta-de-nous-episodis-de-contaminacio-despres-de-les-pluges",
+        "title": "Salvem sa Badia alerta de nous episodis de contaminació després de les pluges",
+        "description": "La costa de la badia de Portmany ha quedat afectada per nous vessaments després de les fortes pluges del cap de setmana. Tovalloletes, restes orgàniques i fins i tot rates mortes son alguns dels residus que es poden veure a aquestes imatges enviades per vesins de Cala de Bou a l’associació. La…",
+        "source": {
+          "id": "es_ib_ib3",
+          "name": "IB3"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T13:01:33.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:01:33.000Z"
+    },
+    {
+      "id": "LucjIQqgFhEj",
+      "representative": {
+        "id": "LucjIQqgFhEj",
+        "url": "https://ib3.org/david-guetta-procalamat-numero-u-del-mon-per-sisena-vegada-al-top-100-djs",
+        "canonicalUrl": "https://ib3.org/david-guetta-procalamat-numero-u-del-mon-per-sisena-vegada-al-top-100-djs",
+        "title": "David Guetta, proclamat número u del món per sisena vegada al Top 100 DJs",
+        "description": "David Guetta ha estat escollit número u del món per sisena vegada al Top 100 DJs de DJ Mag, un rècord absolut. El resultat s’ha anunciat aquesta nit a la discoteca [UNVRS], a Eivissa, escollit també millor club del món en el seu primer any. El DJ i productor francès revalida així el títol després…",
+        "source": {
+          "id": "es_ib_ib3",
+          "name": "IB3"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T13:00:08.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:00:08.000Z"
+    },
+    {
+      "id": "XIrtNaFGjh3d",
+      "representative": {
+        "id": "XIrtNaFGjh3d",
+        "url": "https://www.noudiari.es/local-ibiza/choque-entre-dos-autobuses-de-pasajeros-en-una-rotonda-de-ibiza/",
+        "canonicalUrl": "https://www.noudiari.es/local-ibiza/choque-entre-dos-autobuses-de-pasajeros-en-una-rotonda-de-ibiza/",
+        "title": "Choque entre dos autobuses de pasajeros en una rotonda de Ibiza",
+        "description": "Dos autobuses de pasajeros del servicio público de Ibiza se han visto involucrados en un accidente en la rotonda de Can Ramon en dirección a Santa Eulària (muy próxima al restaurante Sa Fonda), sobre las 16 horas de esta tarde. Según ha podido saber Noudiari.es a través de un ciudadano en la zona…",
+        "source": {
+          "id": "es_ib_noudiari",
+          "name": "Noudiari (Eivissa)"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:00:00.000Z"
+    },
+    {
+      "id": "QyMQkCKQJ09I",
+      "representative": {
+        "id": "QyMQkCKQJ09I",
+        "url": "https://www.ultimahora.es/noticias/local/2026/10/07/2724409/ara-mes-mueve-ficha-otros-partidos-deja-claro-quiere-encabezar-lista.html",
+        "canonicalUrl": "https://www.ultimahora.es/noticias/local/2026/10/07/2724409/ara-mes-mueve-ficha-otros-partidos-deja-claro-quiere-encabezar-lista.html",
+        "title": "Ara Més ya mueve ficha con otros partidos y deja claro que quiere encabezar la lista",
+        "description": "La plataforma Ara Més ya ha iniciado contactos con otras formaciones para lograr la ansiada papeleta única de la izquierda alternativa en las elecciones del 29 de noviembre, y aunque de momento no anticipa sus líneas rojas para pactar sí deja claro que quiere encabezar la lista. Así lo ha…",
+        "source": {
+          "id": "es_ib_ultimahora",
+          "name": "Última Hora"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T12:20:00.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:20:00.000Z"
+    },
+    {
+      "id": "NCuoAadCFCZ1",
+      "representative": {
+        "id": "NCuoAadCFCZ1",
+        "url": "https://www.eldiario.es/illes-balears/sociedad/activista-calavera-mado-farta-denuncia-amenazas-lucha-turistificacion-no-haran-callar_1_13569278.html",
+        "canonicalUrl": "https://www.eldiario.es/illes-balears/sociedad/activista-calavera-mado-farta-denuncia-amenazas-lucha-turistificacion-no-haran-callar_1_13569278.html",
+        "title": "La activista tras la calavera 'Madò Farta' denuncia amenazas por su lucha contra la turistificación: \"No me harán callar\"",
+        "description": "La integrante del movimiento contra el actual modelo turístico balear ha hecho pública la situación a través de un vídeo publicado en su cuenta de Instagram ENTREVISTA - Madò Farta, la activista anónima detrás de la calavera: “No protestamos contra el visitante, sino contra el modelo turístico” La…",
+        "source": {
+          "id": "es_ib_eldiario",
+          "name": "elDiario.es Illes Balears"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T12:19:06.000Z",
+        "imageUrl": "https://static.eldiario.es/clip/7284f0da-e456-4715-b2b5-c7ef514a2526_16-9-discover-aspect-ratio_default_0_x262y120.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-IB"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:19:06.000Z"
+    }
+  ]
+}

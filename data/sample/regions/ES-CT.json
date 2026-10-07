@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "ES",
+  "countryName": "Spain",
+  "regionCode": "ES-CT",
+  "regionName": "Catalonia",
+  "updatedAt": "2026-10-07T15:02:06.730Z",
+  "clusters": [
+    {
+      "id": "FTX5hwjoIW_1",
+      "representative": {
+        "id": "FTX5hwjoIW_1",
+        "url": "https://www.lavanguardia.com/local/barcelona/20261007/11653317/hallado-cadaver-hombre-coche-zona-inundada-les-franqueses.html",
+        "canonicalUrl": "https://www.lavanguardia.com/local/barcelona/20261007/11653317/hallado-cadaver-hombre-coche-zona-inundada-les-franqueses.html",
+        "title": "Hallado el cadáver de un hombre en un coche en una zona inundada en Les Franqueses",
+        "description": "El cadáver, que se ha descartado que sea el del menor desaparecido, ha sido localizado en una zona inundada del túnel de la Ronda Nord, en la carretera C-352",
+        "source": {
+          "id": "es_ct_lavanguardia",
+          "name": "La Vanguardia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-07T11:11:31.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/07/6ac6474b5870c.jpeg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [
+        {
+          "id": "oHyRf-l23uu3",
+          "url": "https://www.eldiario.es/catalunya/hallado-muerto-zona-inundada-temporal-les-franqueses-valles-barcelona_1_13569297.html",
+          "canonicalUrl": "https://www.eldiario.es/catalunya/hallado-muerto-zona-inundada-temporal-les-franqueses-valles-barcelona_1_13569297.html",
+          "title": "Hallado un muerto en una zona inundada por el temporal en les Franqueses del Vallès (Barcelona)",
+          "description": "Operarios de limpieza encuentran el cadáver dentro de un coche localizado en un túnel de la localidad Los maquinistas ponen en marcha los trenes de Rodalies tras un plantón en hora punta Un hombre ha aparecido sido hallado muerto en el interior de un vehículo en un paso subterráneo que se inundó…",
+          "source": {
+            "id": "es_ct_eldiario",
+            "name": "elDiario.es Catalunya"
+          },
+          "sourceCountry": "ES",
+          "language": "es",
+          "publishedAt": "2026-10-07T12:10:31.000Z",
+          "imageUrl": "https://static.eldiario.es/clip/a55c62b5-aa04-41c1-9960-e9e5ac5c79bf_16-9-discover-aspect-ratio_default_0.jpg",
+          "countryCode": "ES",
+          "regionCode": "ES-CT"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T12:10:31.000Z"
+    },
+    {
+      "id": "pFth65Dy4R-F",
+      "representative": {
+        "id": "pFth65Dy4R-F",
+        "url": "https://www.lavanguardia.com/local/barcelona/20261006/11652643/festival-arquitectura-48h-open-house-regresa-24-25-octubre.html",
+        "canonicalUrl": "https://www.lavanguardia.com/local/barcelona/20261006/11652643/festival-arquitectura-48h-open-house-regresa-24-25-octubre.html",
+        "title": "El festival de arquitectura 48h Open House regresa el 24 y 25 de octubre",
+        "description": "La cita anual abre las puertas de 217 edificios de Barcelona y otras poblaciones y propone imaginar una vida sin arquitectura",
+        "source": {
+          "id": "es_ct_lavanguardia",
+          "name": "La Vanguardia"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T16:30:24.000Z",
+        "imageUrl": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/10/06/6ac520e3a3ff6.jpeg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [
+        {
+          "id": "PIMsnFvnyjjl",
+          "url": "https://beteve.cat/agenda/48h-open-house-barcelona/",
+          "canonicalUrl": "https://beteve.cat/agenda/48h-open-house-barcelona/",
+          "title": "48h Open House BCN 2026: Dates i programa del festival d’Arquitectura",
+          "description": "Torna el 48h Open House Barcelona. Un cop l’any, quan arriba l’octubre, se celebra aquest festival d’arquitectura, tant a Barcelona com a l’àrea metropolitana. La 17a edició es farà el 24 i 25 d’octubre del 2026 i com sempre convidarà la ciutadania a conèixer edificis i espais que habitualment no…",
+          "source": {
+            "id": "es_ct_beteve",
+            "name": "betevé"
+          },
+          "sourceCountry": "ES",
+          "language": "ca",
+          "publishedAt": "2026-10-07T11:40:08.000Z",
+          "imageUrl": "https://img.beteve.cat/wp-content/uploads/2026/10/cartell-open-house-2026-2026-10-07.jpg",
+          "countryCode": "ES",
+          "regionCode": "ES-CT"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:40:08.000Z"
+    },
+    {
+      "id": "-8jirOEkzBM6",
+      "representative": {
+        "id": "-8jirOEkzBM6",
+        "url": "https://beteve.cat/economia/manifestacio-treballadors-sector-social-vaga-barcelona/",
+        "canonicalUrl": "https://beteve.cat/economia/manifestacio-treballadors-sector-social-vaga-barcelona/",
+        "title": "Treballadors del sector social es manifesten per reclamar condicions laborals i salarials dignes",
+        "description": "(ACN) Treballadors del sector social s’han manifestat aquest dimecres al matí pel centre de Barcelona per reclamar condicions laborals i salarials dignes. La manifestació s’emmarca en la jornada de vaga convocada al conjunt dels serveis socials. Els manifestants reclamen que es compleixi l’acord…",
+        "source": {
+          "id": "es_ct_beteve",
+          "name": "betevé"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T11:33:41.000Z",
+        "imageUrl": "https://img.beteve.cat/wp-content/uploads/2026/10/manifestacio-sector-social-2026-10-07.jpeg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [
+        {
+          "id": "HxnHL7P29sRx",
+          "url": "https://naciodigital.cat/societat/el-sector-social-collapsa-barcelona-per-reclamar-salaris-dignes.html",
+          "canonicalUrl": "https://naciodigital.cat/societat/el-sector-social-collapsa-barcelona-per-reclamar-salaris-dignes.html",
+          "title": "El sector social col·lapsa Barcelona per reclamar salaris dignes",
+          "description": "La mobilització conjunta esperona la vaga general per l'habitatge prevista per l'11 de novembre a les portes de la campanya electoral",
+          "source": {
+            "id": "es_ct_naciodigital",
+            "name": "Nació Digital"
+          },
+          "sourceCountry": "ES",
+          "language": "ca",
+          "publishedAt": "2026-10-07T10:40:18.000Z",
+          "imageUrl": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-766427.jpg",
+          "countryCode": "ES",
+          "regionCode": "ES-CT"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:33:41.000Z"
+    },
+    {
+      "id": "p0nwpKaF23j8",
+      "representative": {
+        "id": "p0nwpKaF23j8",
+        "url": "https://www.3cat.cat/3catinfo/troben-el-cos-dun-home-en-una-furgoneta-en-un-tunel-inundat-de-les-franqueses-del-valles/noticia/3432915/",
+        "canonicalUrl": "https://www.3cat.cat/3catinfo/troben-el-cos-dun-home-en-una-furgoneta-en-un-tunel-inundat-de-les-franqueses-del-valles/noticia/3432915/",
+        "title": "Troben el cos d'un home en una furgoneta en un túnel inundat de les Franqueses del Vallès",
+        "description": "Podria ser la tercera víctima mortal d'aquest episodi de pluges torrencials que han afectat el litoral i prelitoral",
+        "source": {
+          "id": "es_ct_3cat",
+          "name": "3Cat"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T11:10:56.000Z",
+        "imageUrl": "https://img.3cat.cat/multimedia/jpg/7/7/1791374049477.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [
+        {
+          "id": "WoQZYguoAxht",
+          "url": "https://naciodigital.cat/societat/troben-el-cos-dun-home-atrapat-en-una-zona-inundada-a-les-franqueses-del-valles.html",
+          "canonicalUrl": "https://naciodigital.cat/societat/troben-el-cos-dun-home-atrapat-en-una-zona-inundada-a-les-franqueses-del-valles.html",
+          "title": "Troben el cos d'un home atrapat en una zona inundada a les Franqueses del Vallès",
+          "description": "Una empresa de gestió de l'aigua localitza el cadàver a l'interior d'un cotxe i no hi ha indicis de mort criminal",
+          "source": {
+            "id": "es_ct_naciodigital",
+            "name": "Nació Digital"
+          },
+          "sourceCountry": "ES",
+          "language": "ca",
+          "publishedAt": "2026-10-07T11:14:24.000Z",
+          "imageUrl": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-766444.jpg",
+          "countryCode": "ES",
+          "regionCode": "ES-CT"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:14:24.000Z"
+    },
+    {
+      "id": "5CjxQ1zUxvpY",
+      "representative": {
+        "id": "5CjxQ1zUxvpY",
+        "url": "https://www.segre.com/ca/nacional-internacional/261007/proposen-l-11-novembre-per-vaga-general-per-l-habitatge_1356488.html",
+        "canonicalUrl": "https://www.segre.com/ca/nacional-internacional/261007/proposen-l-11-novembre-per-vaga-general-per-l-habitatge_1356488.html",
+        "title": "Proposen l’11 de novembre per a la vaga general per l’habitatge",
+        "description": "La Confederació de Sindicats d’Inquilines portarà la data aquesta tarda a la reunió amb la resta de sindicats",
+        "source": {
+          "id": "es_ct_segre",
+          "name": "Segre"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T10:36:14.000Z",
+        "imageUrl": "https://imagenes.segre.com/files/og_thumbnail/uploads/2026/10/07/6ac620387a924.jpeg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [
+        {
+          "id": "3P9-ExeGdtSm",
+          "url": "https://naciodigital.cat/societat/la-vaga-general-sera-l11-de-novembre-dos-dies-abans-de-linici-de-la-campanya-del-29-n.html",
+          "canonicalUrl": "https://naciodigital.cat/societat/la-vaga-general-sera-l11-de-novembre-dos-dies-abans-de-linici-de-la-campanya-del-29-n.html",
+          "title": "La vaga general serà l'11 de novembre, dos dies abans de l'inici de la campanya electoral",
+          "description": "Els sindicats convoquen l'aturada pel dret a l'habitatge i salaris dignes a les portes de l'obertura oficial de l'embat electoral a l'Estat",
+          "source": {
+            "id": "es_ct_naciodigital",
+            "name": "Nació Digital"
+          },
+          "sourceCountry": "ES",
+          "language": "ca",
+          "publishedAt": "2026-10-07T10:04:18.000Z",
+          "imageUrl": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-765914.jpg",
+          "countryCode": "ES",
+          "regionCode": "ES-CT"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T10:36:14.000Z"
+    },
+    {
+      "id": "D4dMGLYdvnnS",
+      "representative": {
+        "id": "D4dMGLYdvnnS",
+        "url": "https://www.elpuntavui.cat/societat/article/5-societat/2680474-mes-d-un-centenar-de-persones-intenten-impedir-el-desnonament-d-un-bloc-amb-mes-de-50-veins-a-sant-andreu.html",
+        "canonicalUrl": "https://www.elpuntavui.cat/societat/article/5-societat/2680474-mes-d-un-centenar-de-persones-intenten-impedir-el-desnonament-d-un-bloc-amb-mes-de-50-veins-a-sant-andreu.html",
+        "title": "Més d’un centenar de persones intenten impedir el desnonament d’un bloc a Sant Andreu",
+        "description": "Una hora després de l’hora prevista per al llançament no havia arribat la comitiva judicial ni hi havia presència policial",
+        "source": {
+          "id": "es_ct_elpuntavui",
+          "name": "El Punt Avui"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T09:07:58.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [
+        {
+          "id": "PNS63fBWl_0A",
+          "url": "https://naciodigital.cat/societat/mobilitzacio-multitudinaria-contra-un-desnonament-de-50-persones-a-sant-andreu-barcelona.html",
+          "canonicalUrl": "https://naciodigital.cat/societat/mobilitzacio-multitudinaria-contra-un-desnonament-de-50-persones-a-sant-andreu-barcelona.html",
+          "title": "Mobilització multitudinària contra un desnonament de 50 persones, a Sant Andreu (Barcelona)",
+          "description": null,
+          "source": {
+            "id": "es_ct_naciodigital",
+            "name": "Nació Digital"
+          },
+          "sourceCountry": "ES",
+          "language": "ca",
+          "publishedAt": "2026-10-07T05:48:56.000Z",
+          "imageUrl": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-766185.jpg",
+          "countryCode": "ES",
+          "regionCode": "ES-CT"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T09:07:58.000Z"
+    },
+    {
+      "id": "W3bHo5EluBji",
+      "representative": {
+        "id": "W3bHo5EluBji",
+        "url": "https://www.segre.com/ca/societat/261007/tribunal-constitucional-ordena-suprem-amnistiar-els-liders-proces_1356042.html",
+        "canonicalUrl": "https://www.segre.com/ca/societat/261007/tribunal-constitucional-ordena-suprem-amnistiar-els-liders-proces_1356042.html",
+        "title": "El Tribunal Constitucional ordena al Suprem amnistiar els líders del procés",
+        "description": "Llarena aixeca l’ordre de detenció sobre Puigdemont i els exconsellers",
+        "source": {
+          "id": "es_ct_segre",
+          "name": "Segre"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T03:34:36.000Z",
+        "imageUrl": "https://imagenes.segre.com/files/og_thumbnail/uploads/2026/10/07/6ac5bf745ab5d.webp",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [
+        {
+          "id": "AHQhkJX4_q3v",
+          "url": "https://naciodigital.cat/politica/el-constitucional-notifica-al-suprem-la-sentencia-que-avala-lamnistia-als-liders-del-proces.html",
+          "canonicalUrl": "https://naciodigital.cat/politica/el-constitucional-notifica-al-suprem-la-sentencia-que-avala-lamnistia-als-liders-del-proces.html",
+          "title": "El Constitucional notifica al Suprem la sentència que avala l'amnistia als líders del procés",
+          "description": null,
+          "source": {
+            "id": "es_ct_naciodigital",
+            "name": "Nació Digital"
+          },
+          "sourceCountry": "ES",
+          "language": "ca",
+          "publishedAt": "2026-10-07T07:53:43.000Z",
+          "imageUrl": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-765751.jpg",
+          "countryCode": "ES",
+          "regionCode": "ES-CT"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T07:53:43.000Z"
+    },
+    {
+      "id": "NT5vMFrc92ez",
+      "representative": {
+        "id": "NT5vMFrc92ez",
+        "url": "https://beteve.cat/la-porteria/la-porteria-1905/",
+        "canonicalUrl": "https://beteve.cat/la-porteria/la-porteria-1905/",
+        "title": "La porteria",
+        "description": "Tertúlia de futbol que gira entorn de l’actualitat del FC Barcelona, amb atenció als equips catalans de Segona, Primera federació i Segona federació, el futbol femení i un cop d’ull a la informació poliesportiva. Els dijous inclou les seccions de la Cristianpèdia i els Mesetazos.",
+        "source": {
+          "id": "es_ct_beteve",
+          "name": "betevé"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T14:23:07.000Z",
+        "imageUrl": "https://img.beteve.cat/wp-content/uploads/2017/04/betev%C3%A9-print-horitzontal-02.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:23:07.000Z"
+    },
+    {
+      "id": "Gu8F1lUUYq_n",
+      "representative": {
+        "id": "Gu8F1lUUYq_n",
+        "url": "https://naciodigital.cat/esports/pedro-rodriguez-es-retira-del-futbol-formar-part-del-millor-barca-de-la-historia-va-ser-un-privilegi.html",
+        "canonicalUrl": "https://naciodigital.cat/esports/pedro-rodriguez-es-retira-del-futbol-formar-part-del-millor-barca-de-la-historia-va-ser-un-privilegi.html",
+        "title": "Pedro Rodríguez es retira del futbol: «Formar part del millor Barça de la història va ser un privilegi»",
+        "description": null,
+        "source": {
+          "id": "es_ct_naciodigital",
+          "name": "Nació Digital"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T14:20:28.000Z",
+        "imageUrl": "https://d5r1tkwwv7d5g.cloudfront.net/articulos/articulos-587080.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:20:28.000Z"
+    },
+    {
+      "id": "oUPPhpY3mbJE",
+      "representative": {
+        "id": "oUPPhpY3mbJE",
+        "url": "https://www.segre.com/ca/lleida/261007/comencen-les-millores-camp-annex-per-fer-util-pels-clubs-i-aixi-reservar-camp-d-esports-pels-partits_1356981.html",
+        "canonicalUrl": "https://www.segre.com/ca/lleida/261007/comencen-les-millores-camp-annex-per-fer-util-pels-clubs-i-aixi-reservar-camp-d-esports-pels-partits_1356981.html",
+        "title": "Comencen les millores del Camp Annex per fer-lo útil pels clubs i així reservar el Camp d'Esports pels partits",
+        "description": "Preveuen enllestir-lo per a principis de l'any vinent. La Paeria treballa amb l'Atlètic Lleida i el Lleida CF per formalitzar convenis per l'ús de les instal·lacions. Volen que l'Annex s'utilitzi per als entrenaments",
+        "source": {
+          "id": "es_ct_segre",
+          "name": "Segre"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T14:19:24.000Z",
+        "imageUrl": "https://imagenes.segre.com/files/og_thumbnail/files/fp/uploads/2026/10/07/6ac65446b3f2f.r_d.1024-768-0.jpeg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:19:24.000Z"
+    },
+    {
+      "id": "AMPFgf5wIpW-",
+      "representative": {
+        "id": "AMPFgf5wIpW-",
+        "url": "https://beteve.cat/societat/veins-can-rectoret-preocupats-arbre-mig-caigut-perill/",
+        "canonicalUrl": "https://beteve.cat/societat/veins-can-rectoret-preocupats-arbre-mig-caigut-perill/",
+        "title": "Veïns de Can Rectoret, preocupats per un arbre mig caigut: “És un perill”",
+        "description": "Des de fa tres dies un pi blanc mig tombat i de grans dimensions creua el carrer de la Costa del Bruc per l’aire, a l’altura del número 5. La caiguda de l’arbre es deu a la pluja intensa dels últims dies i, tot i que els veïns han trucat a la Guàrdia Urbana i […]",
+        "source": {
+          "id": "es_ct_beteve",
+          "name": "betevé"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T14:12:47.000Z",
+        "imageUrl": "https://img.beteve.cat/wp-content/uploads/2026/10/arbre-caigut-canrectoret-2026-10-07-1.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:12:47.000Z"
+    },
+    {
+      "id": "_O3bOjdd8lyw",
+      "representative": {
+        "id": "_O3bOjdd8lyw",
+        "url": "https://beteve.cat/esports/europa-fa-caixa-visita-saragossa-primera-rfef/",
+        "canonicalUrl": "https://beteve.cat/esports/europa-fa-caixa-visita-saragossa-primera-rfef/",
+        "title": "L’Europa fa caixa amb la visita del Saragossa: l’afició aragonesa esgota 700 entrades en dues hores",
+        "description": "L’Europa ha aprofitat la visita del Saragossa abans, fins i tot que es disputi el partit. Els aficionats del conjunt aragonès han esgotat en dues hores les 700 entrades que l’Europa els havia cedit per al partit del 23 d’octubre a les 21.15 h corresponent a la novena jornada de la Primera RFEF. El…",
+        "source": {
+          "id": "es_ct_beteve",
+          "name": "betevé"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T14:04:25.000Z",
+        "imageUrl": "https://img.beteve.cat/wp-content/uploads/2026/03/270326-aficio-europa-can-drago.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:04:25.000Z"
+    },
+    {
+      "id": "hdZzBTtGbyDZ",
+      "representative": {
+        "id": "hdZzBTtGbyDZ",
+        "url": "https://www.3cat.cat/3catinfo/lestiu-molt-sec-i-amb-records-de-calor-porta-els-quatre-grans-rius-de-lleida-a-la-sequera/noticia/3432911/",
+        "canonicalUrl": "https://www.3cat.cat/3catinfo/lestiu-molt-sec-i-amb-records-de-calor-porta-els-quatre-grans-rius-de-lleida-a-la-sequera/noticia/3432911/",
+        "title": "L'estiu molt sec i amb rècords de calor porta els quatre grans rius de Lleida a la sequera",
+        "description": "Segons la CHE, el cabal del Segre, la Noguera Pallaresa i la Ribagorçana, i el riu Garona, a la Vall d'Aran, ha baixat els últims tres mesos",
+        "source": {
+          "id": "es_ct_3cat",
+          "name": "3Cat"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T13:25:28.000Z",
+        "imageUrl": "https://img.3cat.cat/multimedia/jpg/1/7/1791370815671.jpg",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:25:28.000Z"
+    },
+    {
+      "id": "0PU58AmoPjXw",
+      "representative": {
+        "id": "0PU58AmoPjXw",
+        "url": "https://www.elpuntavui.cat/societat/article/5-societat/2680597-jordi-valls-el-regidor-d-habitatge-de-collboni-diu-que-barcelona-necessita-els-fons-d-inversio.html",
+        "canonicalUrl": "https://www.elpuntavui.cat/societat/article/5-societat/2680597-jordi-valls-el-regidor-d-habitatge-de-collboni-diu-que-barcelona-necessita-els-fons-d-inversio.html",
+        "title": "Jordi Valls, el regidor d’Habitatge de Collboni, diu que Barcelona necessita els fons d’inversió",
+        "description": "El quart tinent d’alcaldia i regidor d’Habitatge de l’Ajuntament de Barcelona, Jordi Valls, ha defensat que la capital catalana necessita els fons d’inversió en el mercat de l’habitatge que...",
+        "source": {
+          "id": "es_ct_elpuntavui",
+          "name": "El Punt Avui"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T13:17:32.000Z",
+        "imageUrl": null,
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:17:32.000Z"
+    },
+    {
+      "id": "jCBQH340OlNx",
+      "representative": {
+        "id": "jCBQH340OlNx",
+        "url": "https://www.segre.com/ca/lleida/261007/detingut-jove-19-anys-lleida-amenaca-amb-ganivet-i-cinturo-dona-i-agredeix-agent_1356890.html",
+        "canonicalUrl": "https://www.segre.com/ca/lleida/261007/detingut-jove-19-anys-lleida-amenaca-amb-ganivet-i-cinturo-dona-i-agredeix-agent_1356890.html",
+        "title": "Detingut un jove de 19 anys a Lleida: amenaça a una dona amb un ganivet i un cinturó i agredeix a un agent",
+        "description": "Va quedar detingut com a presumpte autor d’un delicte d’amenaces i atemptat contra agents de l’autoritat",
+        "source": {
+          "id": "es_ct_segre",
+          "name": "Segre"
+        },
+        "sourceCountry": "ES",
+        "language": "ca",
+        "publishedAt": "2026-10-07T13:08:18.000Z",
+        "imageUrl": "https://imagenes.segre.com/files/og_thumbnail/uploads/2026/02/19/699693ffb32ed.webp",
+        "countryCode": "ES",
+        "regionCode": "ES-CT"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:08:18.000Z"
+    }
+  ]
+}
