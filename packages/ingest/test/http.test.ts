@@ -3,7 +3,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { RawItem } from '../src/adapters/types';
-import { isMisdecoded, isUnrenderedTemplate } from '../src/normalize/article';
+import { isMisdecoded, isNotNews, isUnrenderedTemplate } from '../src/normalize/article';
 import { decodeBody, HttpCache } from '../src/http';
 
 const URL_A = 'https://feeds.example/a.xml';
@@ -152,5 +152,39 @@ describe('isUnrenderedTemplate', () => {
     expect(isUnrenderedTemplate('Hello {{ title }}')).toBe(true);
     expect(isUnrenderedTemplate('Tesla stock hits $300. Analysts react')).toBe(false);
     expect(isUnrenderedTemplate('Govt. launches $40B Guyana Development Bank')).toBe(false);
+  });
+});
+
+describe('isNotNews', () => {
+  it('flags programmes, service pages and paid content', () => {
+    for (const t of [
+      'Le journal de 8h du mercredi 7 octobre 2026',
+      'Le journal de 18h du lundi 5 octobre 2026',
+      "L'actu du 6 octobre 2026",
+      'L’actu du 1er octobre 2026',
+      'Émission du 6 octobre 2026',
+      'Le Café Normand: un concours national de cuisine est organisé ce lundi dans les Ehpad',
+      'Le Café Conso: les complémentaires santé, les bons plans pour être mieux remboursés',
+      'BFM Nord et Vous: quelles sont les solutions pour lutter contre la flambée des prix du carburant ?',
+      'Prix des carburants : trouvez la station-service la moins chère près de chez vous',
+      'Contenu sponsorisé : les meilleures offres de rentrée',
+      '[Partenariat] Découvrez la nouvelle saison',
+    ]) {
+      expect(isNotNews(t), t).toBe(true);
+    }
+  });
+
+  it('keeps real stories that share words with shows', () => {
+    for (const t of [
+      'Le journal de bord du skipper Thomas Coville publié ce lundi',
+      "L'actu des lycéens : 1.500 manifestants au Mans",
+      'Meurthe-et-Moselle. Flambée du prix des carburants : une confiserie de Liverdun passe à la semaine de quatre jours',
+      'DIRECT - Colère des lycéens : en France, des appels à la poursuite de la mobilisation',
+      'Météo : les Alpes-Maritimes placées en vigilance jaune orages et pluie-inondation ce mercredi',
+      'Blaye : la Ville lance des Petits-déjeuners partenaires pour renforcer la solidarité locale',
+      'Le café de la gare ferme ses portes après 80 ans',
+    ]) {
+      expect(isNotNews(t), t).toBe(false);
+    }
   });
 });

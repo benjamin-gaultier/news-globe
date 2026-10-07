@@ -48,6 +48,32 @@ export function isUnrenderedTemplate(title: string): boolean {
   return /\$[A-Za-z_]+\.[A-Za-z_]+|\{\{[^}]*\}\}/.test(title);
 }
 
+const MONTHS_FR = 'janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre';
+const DAYS_FR = 'lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche';
+const NOT_NEWS: RegExp[] = [
+  // A programme episode named only by its date: BFM's "Le journal de 8h du
+  // mercredi 7 octobre 2026", "L'actu du 6 octobre 2026", "Émission du 6 octobre 2026".
+  new RegExp(
+    String.raw`^(?:le |la |l['’])?(?:journal|actu|émission|emission|flash|bulletin|édition|edition)(?: de \d{1,2}h\d{0,2})?` +
+      String.raw` d[ue] (?:(?:${DAYS_FR}) )?\d{1,2}(?:er)? (?:${MONTHS_FR}) \d{4}$`,
+    'i',
+  ),
+  // Named magazine segments on BFM regional channels: "Le Café Normand: …", "BFM Nord et Vous: …".
+  /^(?:le café [^:]{1,25}|bfm [^:]{1,25} et vous)\s*:/i,
+  // ici's evergreen fuel-price finder, re-dated daily.
+  /trouvez la station(?:-service)? la moins ch[eè]re/i,
+  // Paid content.
+  /^\s*[[(]?(?:contenu sponsoris[ée]|sponsoris[ée]|publi-?(?:rédactionnel|reportage|communiqué)|partenariat|en partenariat avec|publicité)(?![a-zà-ÿ])/i,
+];
+
+/**
+ * A feed item that is a programme, service page or ad rather than a story:
+ * broadcasters' regional feeds (BFM, ici) list their shows next to articles.
+ */
+export function isNotNews(title: string): boolean {
+  return NOT_NEWS.some((re) => re.test(title.trim()));
+}
+
 /** Exact dedupe on canonical URL; the first occurrence wins. */
 export function dedupeByCanonicalUrl(articles: Article[]): Article[] {
   const seen = new Set<string>();

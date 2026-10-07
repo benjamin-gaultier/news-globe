@@ -16,7 +16,7 @@ import { adapterFor } from './adapters';
 import { clusterArticles } from './cluster';
 import { HttpCache } from './http';
 import { mapLimit } from './limit';
-import { dedupeByCanonicalUrl, isMisdecoded, isUnrenderedTemplate, toArticle } from './normalize/article';
+import { dedupeByCanonicalUrl, isMisdecoded, isNotNews, isUnrenderedTemplate, toArticle } from './normalize/article';
 import { buildCluster, rankClusters } from './rank';
 import { INGEST_SETTINGS, SOURCES, type SourceConfig } from './sources.config';
 import { writeJsonAtomic } from './write';
@@ -99,7 +99,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       for (const item of items) {
         const article = toArticle(item, source, retrievedAt, now);
         if (Date.parse(article.publishedAt) < minTime) continue;
-        if (isMisdecoded(article.title) || isUnrenderedTemplate(article.title)) continue;
+        if (isMisdecoded(article.title) || isUnrenderedTemplate(article.title) || isNotNews(article.title)) continue;
         const key = source.region ?? source.country;
         const list = byUnit.get(key) ?? [];
         list.push(article);
