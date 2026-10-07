@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "IN",
+  "countryName": "India",
+  "regionCode": "IN-TS",
+  "regionName": "Telangana",
+  "updatedAt": "2026-10-07T16:47:49.768Z",
+  "clusters": [
+    {
+      "id": "JZAHUwk3F3qE",
+      "representative": {
+        "id": "JZAHUwk3F3qE",
+        "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/07/tgsrtc-to-run-special-buses-for-students",
+        "canonicalUrl": "https://www.newindianexpress.com/states/telangana/2026/Oct/07/tgsrtc-to-run-special-buses-for-students",
+        "title": "TGSRTC to run special buses for students",
+        "description": null,
+        "source": {
+          "id": "in_ts_nie",
+          "name": "The New Indian Express (Telangana)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T01:46:25.000Z",
+        "imageUrl": "https://cf-images.assettype.com/newindianexpress/2026-01-23/p37w0odt/C_23_1_CH1236_3441794.jpg",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "xhGn77T4nnjP",
+          "url": "https://telanganatoday.com/tgsrtc-to-operate-7000-special-buses-for-dasara-festival-rush",
+          "canonicalUrl": "https://telanganatoday.com/tgsrtc-to-operate-7000-special-buses-for-dasara-festival-rush",
+          "title": "TGSRTC to operate 7,000 special buses for Dasara festival rush",
+          "description": "The state transporter will operate 7,000 special buses across the State to cater to the increased passenger demand during the Dasara festival. The corporation has also revised fares for special services on select peak-travel days, while regular services will continue to charge normal fares.",
+          "source": {
+            "id": "in_ts_telanganatoday",
+            "name": "Telangana Today"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T14:16:35.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        },
+        {
+          "id": "ozKVspTKvJ6g",
+          "url": "https://www.thehindu.com/news/national/telangana/7000-rtc-buses-deployed-for-dasara/article71555934.ece",
+          "canonicalUrl": "https://www.thehindu.com/news/national/telangana/7000-rtc-buses-deployed-for-dasara/article71555934.ece",
+          "title": "TGSRTC to deploy 7,000 special buses for Dasara",
+          "description": null,
+          "source": {
+            "id": "in_ts_hindu",
+            "name": "The Hindu (Telangana)"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T14:05:43.000Z",
+          "imageUrl": "https://th-i.thgim.com/public/incoming/jd4iba/article71556224.ece/alternates/LANDSCAPE_1200/DSC_4417_edited-1.jpg",
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T14:16:35.000Z"
+    },
+    {
+      "id": "WYFbVyrNaBoY",
+      "representative": {
+        "id": "WYFbVyrNaBoY",
+        "url": "https://telanganatoday.com/bandi-sanjays-son-moves-telangana-hc-to-restrain-media-social-platforms-over-pocso-case",
+        "canonicalUrl": "https://telanganatoday.com/bandi-sanjays-son-moves-telangana-hc-to-restrain-media-social-platforms-over-pocso-case",
+        "title": "Bandi Sanjay’s son moves Telangana HC to restrain media, social platforms over POCSO case",
+        "description": "Bandi Sai Bhageerath, son of Union Minister Bandi Sanjay Kumar, has approached the Telangana High Court seeking directions to media outlets and social media platforms to restrain circulation of content relating to a POCSO case registered against him.",
+        "source": {
+          "id": "in_ts_telanganatoday",
+          "name": "Telangana Today"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:01:55.000Z",
+        "imageUrl": null,
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "a7nUJtP4cNIx",
+          "url": "https://www.siasat.com/bandi-sanjays-son-sai-bageerath-seeks-media-gag-in-pocso-case-3553722/",
+          "canonicalUrl": "https://www.siasat.com/bandi-sanjays-son-sai-bageerath-seeks-media-gag-in-pocso-case-3553722/",
+          "title": "Bandi Sanjay’s son Sai Bageerath seeks media gag in POCSO case",
+          "description": "Hyderabad: Bandi Sai Bageerath, son of Union Minister of State for Home Affairs Bandi Sanjay Kumar, has asked the Telangana High Court to stop television channels, social media platforms and digital outlets from carrying content on the Protection of Children from Sexual Offences (POCSO) Act case…",
+          "source": {
+            "id": "in_ts_siasat",
+            "name": "The Siasat Daily (Telangana)"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T09:54:33.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        },
+        {
+          "id": "exNO_lwQ8QUr",
+          "url": "https://thesouthfirst.com/telangana/pocso-case-bandi-bageerath-requests-telangana-hc-to-restrain-media-houses-social-media/",
+          "canonicalUrl": "https://thesouthfirst.com/telangana/pocso-case-bandi-bageerath-requests-telangana-hc-to-restrain-media-houses-social-media/",
+          "title": "POCSO case: Bandi Bageerath requests Telangana HC to restrain media houses, social media",
+          "description": "Bageerath argued that the coverage amounted to a media trial and that publishing \"defamatory, sensationalised, morphed, AI-generated and unverified\" material while the investigation is pending violates Article 21 of the Constitution. The post POCSO case: Bandi Bageerath requests Telangana HC to…",
+          "source": {
+            "id": "in_ts_southfirst",
+            "name": "The South First (Telangana)"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T08:30:45.000Z",
+          "imageUrl": "https://static.thesouthfirst.com/wp-content/uploads/2026/05/Bandi-Bageerath-1024x512.jpg",
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T09:54:33.000Z"
+    },
+    {
+      "id": "O3BEKqVoeJYY",
+      "representative": {
+        "id": "O3BEKqVoeJYY",
+        "url": "https://www.thehindu.com/news/national/telangana/harish-hits-out-at-bhattis-response-to-brs-power-questions/article71556121.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/telangana/harish-hits-out-at-bhattis-response-to-brs-power-questions/article71556121.ece",
+        "title": "Harish hits out at Bhatti’s response to BRS power questions",
+        "description": null,
+        "source": {
+          "id": "in_ts_hindu",
+          "name": "The Hindu (Telangana)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:42:31.000Z",
+        "imageUrl": null,
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "jp4kBzgh97vo",
+          "url": "https://telanganatoday.com/bhatti-deflects-true-up-questions-blames-brs-for-power-sector-woes",
+          "canonicalUrl": "https://telanganatoday.com/bhatti-deflects-true-up-questions-blames-brs-for-power-sector-woes",
+          "title": "Bhatti deflects true-up questions, blames BRS for power sector woes",
+          "description": "Telangana Deputy Chief Minister Mallu Bhatti Vikramarka defended the Congress government’s handling of the power sector and blamed the previous BRS regime for financial and operational problems. He also ruled out privatisation of GENCO, TRANSCO and discoms",
+          "source": {
+            "id": "in_ts_telanganatoday",
+            "name": "Telangana Today"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T12:17:33.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:42:31.000Z"
+    },
+    {
+      "id": "CwoAjGOAaBXM",
+      "representative": {
+        "id": "CwoAjGOAaBXM",
+        "url": "https://timesofindia.indiatimes.com/city/hyderabad/revanth-condemns-detention-of-rahul-gandhi-kharge-and-other-aicc-leaders-in-new-delhi/articleshow/134749400.cms",
+        "canonicalUrl": "https://timesofindia.indiatimes.com/city/hyderabad/revanth-condemns-detention-of-rahul-gandhi-kharge-and-other-aicc-leaders-in-new-delhi/articleshow/134749400.cms",
+        "title": "Revanth Condemns detention of Rahul Gandhi, Kharge and other AICC Leaders’ in New Delhi",
+        "description": null,
+        "source": {
+          "id": "in_ts_toi",
+          "name": "Times of India (Hyderabad)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T19:06:28.000Z",
+        "imageUrl": "https://static.toiimg.com/photo/msid-47529300.cms",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "h0rnIfc21gvG",
+          "url": "https://www.siasat.com/delhi-police-stops-cm-revanth-from-meeting-rahul-gandhi-3553944/",
+          "canonicalUrl": "https://www.siasat.com/delhi-police-stops-cm-revanth-from-meeting-rahul-gandhi-3553944/",
+          "title": "Delhi Police stops CM Revanth from meeting Rahul Gandhi",
+          "description": "Hyderabad/New Delhi: The Delhi Police on Wednesday, October 7, stopped Telangana Chief Minister A Revanth Reddy from meeting senior Congress leader Rahul Gandhi. He, along with Telangana Minister for Revenue, Housing, Information and Public Relations Ponguleti Srinivasa Reddy, was stopped. The…",
+          "source": {
+            "id": "in_ts_siasat",
+            "name": "The Siasat Daily (Telangana)"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T15:34:26.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:34:26.000Z"
+    },
+    {
+      "id": "_35NpkHDS-TU",
+      "representative": {
+        "id": "_35NpkHDS-TU",
+        "url": "https://timesofindia.indiatimes.com/city/hyderabad/de-shaw-india-to-expand-hyderabad-presence-with-new-6-lakh-sq-ft-facility-in-neopolis/articleshow/134768106.cms",
+        "canonicalUrl": "https://timesofindia.indiatimes.com/city/hyderabad/de-shaw-india-to-expand-hyderabad-presence-with-new-6-lakh-sq-ft-facility-in-neopolis/articleshow/134768106.cms",
+        "title": "DE Shaw India to expand Hyderabad presence with new 6 Lakh sq ft facility in Neopolis",
+        "description": null,
+        "source": {
+          "id": "in_ts_toi",
+          "name": "Times of India (Hyderabad)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T14:02:45.000Z",
+        "imageUrl": "https://static.toiimg.com/photo/msid-134768105,imgsize-77235.cms",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "DHu7H5fKV7np",
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/d-e-shaw-to-open-6-lakh-sq-ft-office-in-hyderabad-next-year/article71556084.ece",
+          "canonicalUrl": "https://www.thehindu.com/news/cities/Hyderabad/d-e-shaw-to-open-6-lakh-sq-ft-office-in-hyderabad-next-year/article71556084.ece",
+          "title": "D. E. Shaw to open 6-lakh sq. ft. office in Hyderabad next year",
+          "description": null,
+          "source": {
+            "id": "in_ts_hindu",
+            "name": "The Hindu (Telangana)"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T15:24:59.000Z",
+          "imageUrl": "https://th-i.thgim.com/public/news/national/telangana/p8wq56/article71556093.ece/alternates/LANDSCAPE_1200/07.10.2026%20%20D%20E%20Shaw.jpeg",
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:24:59.000Z"
+    },
+    {
+      "id": "yGC5jM9dXPLI",
+      "representative": {
+        "id": "yGC5jM9dXPLI",
+        "url": "https://www.thehindu.com/news/national/telangana/four-pharmacies-in-hyderabad-face-notices-over-sale-records-of-habit-forming-drugs/article71555707.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/telangana/four-pharmacies-in-hyderabad-face-notices-over-sale-records-of-habit-forming-drugs/article71555707.ece",
+        "title": "Four pharmacies in Hyderabad face notices over sale records of habit-forming drugs",
+        "description": null,
+        "source": {
+          "id": "in_ts_hindu",
+          "name": "The Hindu (Telangana)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:20:49.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/news/national/telangana/waw8h8/article71555691.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-07%20at%205.03.31%20PM.jpeg",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "5C029-zr7eBI",
+          "url": "https://telanganatoday.com/four-hyderabad-pharmacies-face-show-cause-notices",
+          "canonicalUrl": "https://telanganatoday.com/four-hyderabad-pharmacies-face-show-cause-notices",
+          "title": "Four Hyderabad pharmacies face show-cause notices",
+          "description": "The EAGLE Force and TG SAFE inspected four medical establishments in Hyderabad and found alleged deficiencies in mandatory drug registers, sale bills and records. Show-cause notices were issued to all four establishments, with further action expected under applicable provisions.",
+          "source": {
+            "id": "in_ts_telanganatoday",
+            "name": "Telangana Today"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T12:05:05.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:20:49.000Z"
+    },
+    {
+      "id": "xY38E4J1lidO",
+      "representative": {
+        "id": "xY38E4J1lidO",
+        "url": "https://www.thehindu.com/news/national/telangana/jagtial-government-medical-college-students-launch-protest-over-delay-in-construction-of-permanent-college-hostel-buildings/article71556167.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/telangana/jagtial-government-medical-college-students-launch-protest-over-delay-in-construction-of-permanent-college-hostel-buildings/article71556167.ece",
+        "title": "Jagtial Government Medical College students launch protest over ‘delay’ in construction of permanent college, hostel buildings",
+        "description": null,
+        "source": {
+          "id": "in_ts_hindu",
+          "name": "The Hindu (Telangana)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T15:13:04.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/q92j9o/article71556649.ece/alternates/LANDSCAPE_1200/IMG-20261007-WA0008.jpg",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "OulSSOD6neri",
+          "url": "https://thesouthfirst.com/telangana/will-we-study-under-trees-telangana-medical-students-protest-as-college-building-hostels-remain-unfinished/",
+          "canonicalUrl": "https://thesouthfirst.com/telangana/will-we-study-under-trees-telangana-medical-students-protest-as-college-building-hostels-remain-unfinished/",
+          "title": "‘Will we study under trees?’ Telangana medical students protest as college building, hostels remain unfinished",
+          "description": "According to the students, only three lecture halls are currently available for multiple batches. One of the original lecture halls has reportedly become unusable because of ongoing construction. The post ‘Will we study under trees?’ Telangana medical students protest as college building, hostels…",
+          "source": {
+            "id": "in_ts_southfirst",
+            "name": "The South First (Telangana)"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T14:57:29.000Z",
+          "imageUrl": "https://static.thesouthfirst.com/wp-content/uploads/2026/10/New-Project-7-1024x683.jpg",
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:13:04.000Z"
+    },
+    {
+      "id": "FNyckhxfVPoW",
+      "representative": {
+        "id": "FNyckhxfVPoW",
+        "url": "https://www.thehindu.com/news/national/telangana/two-held-with-35-kg-ganja-in-amangal/article71555724.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/telangana/two-held-with-35-kg-ganja-in-amangal/article71555724.ece",
+        "title": "Two held with 35 kg ganja in Amangal",
+        "description": null,
+        "source": {
+          "id": "in_ts_hindu",
+          "name": "The Hindu (Telangana)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T14:55:35.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/news/national/telangana/8sjdpo/article71555720.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-07%20at%206.09.12%20PM.jpeg",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "g94st6R6Q5jW",
+          "url": "https://telanganatoday.com/hyderabad-two-held-with-35-kg-ganja-worth-rs-17-60-lakh-in-amangal",
+          "canonicalUrl": "https://telanganatoday.com/hyderabad-two-held-with-35-kg-ganja-worth-rs-17-60-lakh-in-amangal",
+          "title": "Hyderabad: Two held with 35 kg ganja worth Rs 17.60 lakh in Amangal",
+          "description": "Amangal police arrested two alleged ganja peddlers and seized 35 kg of ganja worth Rs 17.60 lakh at the market yard on Tuesday. The accused allegedly told police they were paid Rs 50,000 each to transport the contraband",
+          "source": {
+            "id": "in_ts_telanganatoday",
+            "name": "Telangana Today"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T15:08:24.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T15:08:24.000Z"
+    },
+    {
+      "id": "NxPcWVtoeGHF",
+      "representative": {
+        "id": "NxPcWVtoeGHF",
+        "url": "https://timesofindia.indiatimes.com/city/hyderabad/cu-denver-to-set-up-hyderabad-campus-first-us-public-university-in-india/articleshow/134762621.cms",
+        "canonicalUrl": "https://timesofindia.indiatimes.com/city/hyderabad/cu-denver-to-set-up-hyderabad-campus-first-us-public-university-in-india/articleshow/134762621.cms",
+        "title": "CU Denver to set up Hyderabad campus, first US public university in India",
+        "description": "The University of Colorado Denver is poised to launch a new campus in Hyderabad, with plans to welcome its inaugural cohort of students in August 2027. This exciting venture will introduce degree programs spanning business, computing, engineering, and analytics. Through collaboration with global…",
+        "source": {
+          "id": "in_ts_toi",
+          "name": "Times of India (Hyderabad)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T10:20:23.000Z",
+        "imageUrl": "https://static.toiimg.com/photo/msid-134763099,imgsize-178203.cms",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "G6Cgn-VHqFeY",
+          "url": "https://telanganatoday.com/university-of-colorado-denver-to-establish-india-campus-in-hyderabad",
+          "canonicalUrl": "https://telanganatoday.com/university-of-colorado-denver-to-establish-india-campus-in-hyderabad",
+          "title": "University of Colorado Denver to establish India campus in Hyderabad",
+          "description": "The University of Colorado Denver has received a letter of intent from the University Grants Commission to establish a degree-granting campus in Hyderabad. The proposed campus, expected to admit its first batch in August 2027, will be the first American public university campus in India and the…",
+          "source": {
+            "id": "in_ts_telanganatoday",
+            "name": "Telangana Today"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T14:42:39.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T14:42:39.000Z"
+    },
+    {
+      "id": "jUJF3uftSoay",
+      "representative": {
+        "id": "jUJF3uftSoay",
+        "url": "https://www.thehindu.com/news/national/telangana/telangana-govt-announces-release-of-two-da-instalments-payable-with-october-salary-to-employees/article71554894.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/telangana/telangana-govt-announces-release-of-two-da-instalments-payable-with-october-salary-to-employees/article71554894.ece",
+        "title": "Telangana Govt announces release of two DA instalments payable with October salary to employees",
+        "description": "The DA at the revised rates would be paid with the salary of October payable on November 1",
+        "source": {
+          "id": "in_ts_hindu",
+          "name": "The Hindu (Telangana)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T09:20:19.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/w5ho4p/article71554944.ece/alternates/LANDSCAPE_1200/Telangana-_-RelGLUGK2G3K.3.jpg.jpg",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "gib7l9D4w63h",
+          "url": "https://telanganatoday.com/govt-releases-two-da-instalments-arrears-to-be-paid-in-33-instalments",
+          "canonicalUrl": "https://telanganatoday.com/govt-releases-two-da-instalments-arrears-to-be-paid-in-33-instalments",
+          "title": "Govt releases two DA instalments, arrears to be paid in 33 instalments",
+          "description": "Telangana government employees will receive revised Dearness Allowance with their October 2026 salary on November 1. DA arrears for January 2024 to September 2026 will be paid in 33 instalments, while subsequent arrears will be paid in 27 instalments",
+          "source": {
+            "id": "in_ts_telanganatoday",
+            "name": "Telangana Today"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T12:00:08.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T12:00:08.000Z"
+    },
+    {
+      "id": "QzWwJAXBhr_D",
+      "representative": {
+        "id": "QzWwJAXBhr_D",
+        "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/07/form-7-being-used-to-target-muslim-voters-in-hyderabad-mp-owaisi",
+        "canonicalUrl": "https://www.newindianexpress.com/states/telangana/2026/Oct/07/form-7-being-used-to-target-muslim-voters-in-hyderabad-mp-owaisi",
+        "title": "Form-7 being used to target Muslim voters in Hyderabad: MP Owaisi",
+        "description": null,
+        "source": {
+          "id": "in_ts_nie",
+          "name": "The New Indian Express (Telangana)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T02:34:07.000Z",
+        "imageUrl": "https://cf-images.assettype.com/newindianexpress/2026-10-06/75f3wbkj/Form-7-being.jpg",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "uRxE88uVx161",
+          "url": "https://www.thehindu.com/news/national/telangana/pre-filled-form-7-muslim-voter-deletions-linked-to-bjp-alleges-owaisi/article71551885.ece",
+          "canonicalUrl": "https://www.thehindu.com/news/national/telangana/pre-filled-form-7-muslim-voter-deletions-linked-to-bjp-alleges-owaisi/article71551885.ece",
+          "title": "Pre-filled Form 7 Muslim voter deletions linked to BJP, alleges Owaisi",
+          "description": null,
+          "source": {
+            "id": "in_ts_hindu",
+            "name": "The Hindu (Telangana)"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T11:22:59.000Z",
+          "imageUrl": "https://th-i.thgim.com/public/incoming/d8oacv/article71555349.ece/alternates/LANDSCAPE_1200/Asaduddin%20Owaisi%20%2004.JPG",
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:22:59.000Z"
+    },
+    {
+      "id": "y6CHRiKD7I7b",
+      "representative": {
+        "id": "y6CHRiKD7I7b",
+        "url": "https://www.thehindu.com/news/national/telangana/unlawful-detention-of-rahul-gandhi-reflective-of-hubris-of-a-failing-govt-telangana-cm/article71552977.ece",
+        "canonicalUrl": "https://www.thehindu.com/news/national/telangana/unlawful-detention-of-rahul-gandhi-reflective-of-hubris-of-a-failing-govt-telangana-cm/article71552977.ece",
+        "title": "Unlawful detention of Rahul Gandhi reflective of hubris of a failing govt.: Telangana CM",
+        "description": "BJP afraid of Rahul’s leadership, Revanth Reddy said",
+        "source": {
+          "id": "in_ts_hindu",
+          "name": "The Hindu (Telangana)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T05:18:52.000Z",
+        "imageUrl": "https://th-i.thgim.com/public/incoming/k5rxlz/article71554380.ece/alternates/LANDSCAPE_1200/South%20Zone%20Regional%2014.jpg",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "sY6i5Qwa02fz",
+          "url": "https://www.siasat.com/telangana-youth-congress-stages-midnight-protest-over-sir-3553667/",
+          "canonicalUrl": "https://www.siasat.com/telangana-youth-congress-stages-midnight-protest-over-sir-3553667/",
+          "title": "Telangana Youth Congress protest Rahul Gandhi’s detention",
+          "description": "Hyderabad: The Telangana Youth Congress held a midnight protest on Wednesday, October 7, in Nirmal over the Special Intensive Revision (SIR) of electoral rolls and the detention of Lok Sabha Leader of Opposition Rahul Gandhi, Priyanka Gandhi Vadra and other opposition leaders. The protest was…",
+          "source": {
+            "id": "in_ts_siasat",
+            "name": "The Siasat Daily (Telangana)"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T09:57:29.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T09:57:29.000Z"
+    },
+    {
+      "id": "pC-CpKhkAtPT",
+      "representative": {
+        "id": "pC-CpKhkAtPT",
+        "url": "https://telanganatoday.com/telangana-three-of-family-killed-daughter-injured-in-chevella-hit-and-run",
+        "canonicalUrl": "https://telanganatoday.com/telangana-three-of-family-killed-daughter-injured-in-chevella-hit-and-run",
+        "title": "Telangana: Three of family killed, daughter injured in Chevella hit-and-run",
+        "description": "Three members of a family were killed and their young daughter injured after an unidentified truck allegedly rammed their vehicle from behind near Gollapally on the outskirts of Chevella. Police registered a case and launched an investigation to identify the truck.",
+        "source": {
+          "id": "in_ts_telanganatoday",
+          "name": "Telangana Today"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T03:05:22.000Z",
+        "imageUrl": null,
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "fpnb3YJ7dXFg",
+          "url": "https://www.siasat.com/three-killed-in-telanganas-chevella-hit-and-run-3553698/",
+          "canonicalUrl": "https://www.siasat.com/three-killed-in-telanganas-chevella-hit-and-run-3553698/",
+          "title": "Three killed in Telangana’s Chevella hit-and-run",
+          "description": "Hyderabad: Three members of a family were killed and a six-year-old girl was injured when an unidentified lorry hit their motorcycle from behind on Gollapally village road in Chevella on the night of Tuesday, October 6. The deceased were identified as Kummari Madhu, 33, a labourer, his wife…",
+          "source": {
+            "id": "in_ts_siasat",
+            "name": "The Siasat Daily (Telangana)"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T09:37:19.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T09:37:19.000Z"
+    },
+    {
+      "id": "R-PpdQIdv_Ri",
+      "representative": {
+        "id": "R-PpdQIdv_Ri",
+        "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/07/tgcsb-arrests-101-in-multi-state-cybercrime-crackdown-traces-1172-crime-links-across-india",
+        "canonicalUrl": "https://www.newindianexpress.com/states/telangana/2026/Oct/07/tgcsb-arrests-101-in-multi-state-cybercrime-crackdown-traces-1172-crime-links-across-india",
+        "title": "TGCSB arrests 101 in multi-state cybercrime crackdown, traces 1,172 crime links across India",
+        "description": null,
+        "source": {
+          "id": "in_ts_nie",
+          "name": "The New Indian Express (Telangana)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T08:54:10.000Z",
+        "imageUrl": "https://cf-images.assettype.com/newindianexpress/2024-11-19/jqhc65ww/New-Project-2024-11-19T081247.355.jpg",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "CnRToc85kHT8",
+          "url": "https://telanganatoday.com/tgcsb-arrests-101-in-interstate-cybercrime-crackdown-traces-rs-17-crore-fraud",
+          "canonicalUrl": "https://telanganatoday.com/tgcsb-arrests-101-in-interstate-cybercrime-crackdown-traces-rs-17-crore-fraud",
+          "title": "TGCSB arrests 101 in interstate cybercrime crackdown, traces Rs 17 crore fraud",
+          "description": "The Telangana Cyber Security Bureau arrested 101 persons, including 18 women, in a two-week interstate operation across six States and Union Territories. Officials said around Rs 17 crore in fraudulent transactions was traced through mule accounts, with 1,172 cybercrime links identified.",
+          "source": {
+            "id": "in_ts_telanganatoday",
+            "name": "Telangana Today"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T08:45:37.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T08:54:10.000Z"
+    },
+    {
+      "id": "ZAEjbDiGkCKs",
+      "representative": {
+        "id": "ZAEjbDiGkCKs",
+        "url": "https://www.newindianexpress.com/states/telangana/2026/Oct/07/telangana-hc-tells-cops-to-issue-notice-to-brss-krishank-in-social-media-case",
+        "canonicalUrl": "https://www.newindianexpress.com/states/telangana/2026/Oct/07/telangana-hc-tells-cops-to-issue-notice-to-brss-krishank-in-social-media-case",
+        "title": "Telangana HC tells cops to issue notice to BRS's Krishank in social media case",
+        "description": null,
+        "source": {
+          "id": "in_ts_nie",
+          "name": "The New Indian Express (Telangana)"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-07T02:25:35.000Z",
+        "imageUrl": "https://cf-images.assettype.com/newindianexpress/2026-09-03/4uvmcfux/ANI_20260709114723.jpg",
+        "countryCode": "IN",
+        "regionCode": "IN-TS"
+      },
+      "related": [
+        {
+          "id": "d_PYQ1GggjAf",
+          "url": "https://telanganatoday.com/telangana-hc-grants-arrest-protection-to-brs-leader-krishank-in-social-media-case",
+          "canonicalUrl": "https://telanganatoday.com/telangana-hc-grants-arrest-protection-to-brs-leader-krishank-in-social-media-case",
+          "title": "Telangana HC grants arrest protection to BRS leader Krishank in social media case",
+          "description": "The Telangana High Court granted arrest protection to BRS social media convenor Manne Krishank in a case over alleged false social media posts concerning Chief Minister A. Revanth Reddy’s daughter Naimisha Reddy, directing police to issue notice under BNSS Section 35(3).",
+          "source": {
+            "id": "in_ts_telanganatoday",
+            "name": "Telangana Today"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-07T02:51:51.000Z",
+          "imageUrl": null,
+          "countryCode": "IN",
+          "regionCode": "IN-TS"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T02:51:51.000Z"
+    }
+  ]
+}

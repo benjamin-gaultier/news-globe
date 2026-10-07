@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "MX",
+  "countryName": "Mexico",
+  "regionCode": "MX-DUR",
+  "regionName": "Durango",
+  "updatedAt": "2026-10-07T16:47:49.768Z",
+  "clusters": [
+    {
+      "id": "uBgTU-ULUQZR",
+      "representative": {
+        "id": "uBgTU-ULUQZR",
+        "url": "https://oem.com.mx/elsoldedurango/local/blindan-frontera-de-durango-con-zacatecas-jalisco-y-nayarit-32467291",
+        "canonicalUrl": "https://oem.com.mx/elsoldedurango/local/blindan-frontera-de-durango-con-zacatecas-jalisco-y-nayarit-32467291",
+        "title": "Blindan frontera de Durango con Zacatecas, Jalisco y Nayarit",
+        "description": "El acuerdo surgió en una reunión de seguridad que se llevó a cabo en Guadalajara, Jalisco, con el comandante regional de la Sedena",
+        "source": {
+          "id": "mx_dur_oem",
+          "name": "El Sol de Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T20:15:52.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [
+        {
+          "id": "hREtdeyM7zAo",
+          "url": "https://contextodedurango.com.mx/cuatro-estados-refuerzan-seguridad-en-la-zona-serrana-que-comparten-durango-jalisco-zacatecas-y-nayarit/",
+          "canonicalUrl": "https://contextodedurango.com.mx/cuatro-estados-refuerzan-seguridad-en-la-zona-serrana-que-comparten-durango-jalisco-zacatecas-y-nayarit/",
+          "title": "Cuatro estados refuerzan seguridad en la zona serrana que comparten Durango, Jalisco, Zacatecas y Nayarit",
+          "description": "La presencia de Ejército, Guardia Nacional y policías estatales se reforzará de manera permanente en la zona limítrofe de Durango con Jalisco, Zacatecas y Nayarit, particularmente en comunidades indígenas de Mezquital.El secretario de Seguridad, Óscar Galván Villarreal, señaló que el operativo…",
+          "source": {
+            "id": "mx_dur_contexto",
+            "name": "Contexto de Durango"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T01:13:29.000Z",
+          "imageUrl": "https://pub-953d2cb6e6f34525a9d8f5f293fbe95d.r2.dev/2026/10/WhatsApp-Image-2026-10-06-at-16.27.30.jpeg",
+          "countryCode": "MX",
+          "regionCode": "MX-DUR"
+        },
+        {
+          "id": "fpBLaDKc2Wad",
+          "url": "https://www.posta.com.mx/durango/durango-jalisco-zacatecas-y-nayarit-montan-un-operativo-policial-conjunto-y-este-es-su-objetivo/vl2263336",
+          "canonicalUrl": "https://www.posta.com.mx/durango/durango-jalisco-zacatecas-y-nayarit-montan-un-operativo-policial-conjunto-y-este-es-su-objetivo/vl2263336",
+          "title": "Durango, Jalisco, Zacatecas y Nayarit montan un operativo policial conjunto y este es su objetivo",
+          "description": null,
+          "source": {
+            "id": "mx_dur_posta",
+            "name": "Posta Durango"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T18:50:00.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-DUR"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T01:13:29.000Z"
+    },
+    {
+      "id": "Fo2nXO0eAOiD",
+      "representative": {
+        "id": "Fo2nXO0eAOiD",
+        "url": "https://contactohoy.com.mx/local/lluvias-y-calor-asi-cambiara-el-clima-en-durango-durante-esta-semana/",
+        "canonicalUrl": "https://contactohoy.com.mx/local/lluvias-y-calor-asi-cambiara-el-clima-en-durango-durante-esta-semana/",
+        "title": "Lluvias y calor: así cambiará el clima en Durango durante esta semana",
+        "description": "Durango, Dgo.— El clima en Durango tendrá cambios importantes durante los próximos días, con lluvias aisladas al inicio de la semana y un incremento gradual de las temperaturas, de acuerdo con el pronóstico de la Comisión Nacional del Agua (Conagua) emitido este lunes 5 de octubre. Para este lunes…",
+        "source": {
+          "id": "mx_dur_contactohoy",
+          "name": "Contacto Hoy"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-05T19:07:12.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [
+        {
+          "id": "reslp12hgoAb",
+          "url": "https://www.posta.com.mx/durango/lluvias-y-descenso-de-temperatura-asi-sera-el-clima-en-durango-este-7-de-octubre/vl2263602",
+          "canonicalUrl": "https://www.posta.com.mx/durango/lluvias-y-descenso-de-temperatura-asi-sera-el-clima-en-durango-este-7-de-octubre/vl2263602",
+          "title": "Lluvias y descenso de temperatura, así será el clima en Durango este 7 de octubre",
+          "description": null,
+          "source": {
+            "id": "mx_dur_posta",
+            "name": "Posta Durango"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T06:45:00.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-DUR"
+        },
+        {
+          "id": "g9hif9ZEnkaD",
+          "url": "https://contextodedurango.com.mx/que-show-con-el-clima-en-durango-la-lluvia-todavia-tiene-para-rato/",
+          "canonicalUrl": "https://contextodedurango.com.mx/que-show-con-el-clima-en-durango-la-lluvia-todavia-tiene-para-rato/",
+          "title": "¿Qué show con el clima en Durango? La lluvia todavía tiene para rato",
+          "description": "La Conagua pronostica lluvias para distintas regiones del estado durante los próximos días. En la capital se esperan temperaturas de hasta 26 grados este martes, pero las mañanas seguirán frescas, con mínimas de 13 a 16 grados.Las precipitaciones más fuertes se esperan mañana en la región de Las…",
+          "source": {
+            "id": "mx_dur_contexto",
+            "name": "Contexto de Durango"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T00:59:23.000Z",
+          "imageUrl": "https://pub-953d2cb6e6f34525a9d8f5f293fbe95d.r2.dev/2026/10/WhatsApp-Image-2026-10-06-at-15.59.27.jpeg",
+          "countryCode": "MX",
+          "regionCode": "MX-DUR"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T06:45:00.000Z"
+    },
+    {
+      "id": "GOq45xkyCL1z",
+      "representative": {
+        "id": "GOq45xkyCL1z",
+        "url": "https://oem.com.mx/elsoldedurango/local/con-tono-ochoa-el-072-resuelve-el-86-de-reportes-en-menos-de-72-horas-32466346",
+        "canonicalUrl": "https://oem.com.mx/elsoldedurango/local/con-tono-ochoa-el-072-resuelve-el-86-de-reportes-en-menos-de-72-horas-32466346",
+        "title": "Con Toño Ochoa, el 072 resuelve el 86% de reportes en menos de 72 horas",
+        "description": "Reciben entre 5 mil y 6 mil reportes mensuales mediante el Sistema de Atención Ciudadana",
+        "source": {
+          "id": "mx_dur_oem",
+          "name": "El Sol de Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T16:58:25.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [
+        {
+          "id": "BH85jGU0Df9j",
+          "url": "https://www.posta.com.mx/durango/este-es-el-porcentaje-de-solucion-a-reportes-hechos-al-072-en-durango-segun-el-alcalde-tono-ochoa/vl2263445",
+          "canonicalUrl": "https://www.posta.com.mx/durango/este-es-el-porcentaje-de-solucion-a-reportes-hechos-al-072-en-durango-segun-el-alcalde-tono-ochoa/vl2263445",
+          "title": "Este es el porcentaje de solución a reportes hechos al 072 en Durango, según el alcalde Toño Ochoa",
+          "description": null,
+          "source": {
+            "id": "mx_dur_posta",
+            "name": "Posta Durango"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-06T22:22:00.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-DUR"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T22:22:00.000Z"
+    },
+    {
+      "id": "7LGqgKht5alF",
+      "representative": {
+        "id": "7LGqgKht5alF",
+        "url": "https://contextodedurango.com.mx/un-espacio-digno-y-seguro-en-el-tema-emocional-y-de-salud-mental-cecan/",
+        "canonicalUrl": "https://contextodedurango.com.mx/un-espacio-digno-y-seguro-en-el-tema-emocional-y-de-salud-mental-cecan/",
+        "title": "Un espacio digno y seguro en el tema emocional y de salud mental: CECAN",
+        "description": "Lo recaudado de la Marea Rosa 2026 va destinado la ampliación del área de quimioterapia ambulatorio. La directora del Centro Estatal de Cancerología (CECAN), la Dra. Lourdes María José Méndez Salazar, recorrió que el cáncer es una enfermedad que todo el mundo puede padecer, por lo tanto, subrayó…",
+        "source": {
+          "id": "mx_dur_contexto",
+          "name": "Contexto de Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:23:04.000Z",
+        "imageUrl": "https://pub-953d2cb6e6f34525a9d8f5f293fbe95d.r2.dev/2026/10/WhatsApp-Image-2026-10-06-at-18.51.58.jpeg",
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:23:04.000Z"
+    },
+    {
+      "id": "3h4TQrzHU0Zl",
+      "representative": {
+        "id": "3h4TQrzHU0Zl",
+        "url": "https://www.posta.com.mx/durango/cuanto-costara-la-reparacion-de-la-velaria-de-durango-que-no-tendra-mas-conciertos-hasta-su-rehabilitacion/vl2263699",
+        "canonicalUrl": "https://www.posta.com.mx/durango/cuanto-costara-la-reparacion-de-la-velaria-de-durango-que-no-tendra-mas-conciertos-hasta-su-rehabilitacion/vl2263699",
+        "title": "¿Cuánto costará la reparación de la Velaria de Durango, que no tendrá más conciertos hasta su rehabilitación?",
+        "description": null,
+        "source": {
+          "id": "mx_dur_posta",
+          "name": "Posta Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:22:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:22:00.000Z"
+    },
+    {
+      "id": "pfJHi0-U_e8L",
+      "representative": {
+        "id": "pfJHi0-U_e8L",
+        "url": "https://contextodedurango.com.mx/anuncian-primer-festival-western-country-en-rancho-la-luna/",
+        "canonicalUrl": "https://contextodedurango.com.mx/anuncian-primer-festival-western-country-en-rancho-la-luna/",
+        "title": "Anuncian primer Festival Western & Country en Rancho La Luna",
+        "description": "El evento se realizará en Rancho La Luna, ubicado en la Autopista Durango-Mazatlán el próximo 18 de octubre Texto y fotos: Geraldo Rosales Belinda Dávila, organizadora y encargada de Rancho La Luna, anunció la realización del primer Festival Western & Country en Durango, que se llevará a cabo el…",
+        "source": {
+          "id": "mx_dur_contexto",
+          "name": "Contexto de Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:17:46.000Z",
+        "imageUrl": "https://pub-953d2cb6e6f34525a9d8f5f293fbe95d.r2.dev/2026/10/WhatsApp-Image-2026-10-06-at-19.58.53.jpeg",
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:17:46.000Z"
+    },
+    {
+      "id": "_usae3g3PZXb",
+      "representative": {
+        "id": "_usae3g3PZXb",
+        "url": "https://www.posta.com.mx/durango/se-descarrila-el-tren-en-durango-y-este-es-el-saldo-del-atipico-incidente/vl2263669",
+        "canonicalUrl": "https://www.posta.com.mx/durango/se-descarrila-el-tren-en-durango-y-este-es-el-saldo-del-atipico-incidente/vl2263669",
+        "title": "Se descarrila el tren en Durango y este es el saldo del atípico incidente",
+        "description": null,
+        "source": {
+          "id": "mx_dur_posta",
+          "name": "Posta Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:15:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:15:00.000Z"
+    },
+    {
+      "id": "hSRCNEAVM81t",
+      "representative": {
+        "id": "hSRCNEAVM81t",
+        "url": "https://www.posta.com.mx/durango/ine-visitara-viviendas-de-durango-para-verificar-el-padron-electoral-esto-debes-saber-/vl2263605",
+        "canonicalUrl": "https://www.posta.com.mx/durango/ine-visitara-viviendas-de-durango-para-verificar-el-padron-electoral-esto-debes-saber-/vl2263605",
+        "title": "INE visitará viviendas de Durango para verificar el Padrón Electoral; esto debes saber",
+        "description": null,
+        "source": {
+          "id": "mx_dur_posta",
+          "name": "Posta Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T12:26:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:26:00.000Z"
+    },
+    {
+      "id": "Dlvhy6nAMqDj",
+      "representative": {
+        "id": "Dlvhy6nAMqDj",
+        "url": "https://oem.com.mx/elsoldedurango/local/jubilados-del-imss-e-issste-pueden-recibir-hasta-17-mil-al-mes-requisitos-32478159",
+        "canonicalUrl": "https://oem.com.mx/elsoldedurango/local/jubilados-del-imss-e-issste-pueden-recibir-hasta-17-mil-al-mes-requisitos-32478159",
+        "title": "Jubilados del IMSS e ISSSTE pueden recibir hasta $17 mil al mes: requisitos",
+        "description": "El Fondo de Pensiones para el Bienestar contempla un complemento económico para determinados trabajadores que llegan a la jubilación",
+        "source": {
+          "id": "mx_dur_oem",
+          "name": "El Sol de Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T10:42:19.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:42:19.000Z"
+    },
+    {
+      "id": "9HfOAfFXD-Rq",
+      "representative": {
+        "id": "9HfOAfFXD-Rq",
+        "url": "https://oem.com.mx/elsoldedurango/analisis/ya-cayo-la-delegada-del-imss-faltan-los-responsables-de-la-tragedia-32468608",
+        "canonicalUrl": "https://oem.com.mx/elsoldedurango/analisis/ya-cayo-la-delegada-del-imss-faltan-los-responsables-de-la-tragedia-32468608",
+        "title": "Ya “cayó” la delegada del IMSS... Faltan los responsables de la tragedia",
+        "description": null,
+        "source": {
+          "id": "mx_dur_oem",
+          "name": "El Sol de Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T04:00:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:00:00.000Z"
+    },
+    {
+      "id": "s3Z4ZEgOhbX1",
+      "representative": {
+        "id": "s3Z4ZEgOhbX1",
+        "url": "https://oem.com.mx/elsoldedurango/local/se-registra-primer-caso-de-gusano-barrenador-en-la-capital-de-durango-32465503",
+        "canonicalUrl": "https://oem.com.mx/elsoldedurango/local/se-registra-primer-caso-de-gusano-barrenador-en-la-capital-de-durango-32465503",
+        "title": "Se registra primer caso de gusano barrenador en la capital de Durango",
+        "description": "Se confirma el sexto caso de gusano barrenador en la entidad, es un adulto mayor y ya está siendo tratado por las autoridades de salud en el estado",
+        "source": {
+          "id": "mx_dur_oem",
+          "name": "El Sol de Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T16:40:04.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [
+        {
+          "id": "u6U9BvDINHxW",
+          "url": "https://www.posta.com.mx/durango/reportan-el-primer-caso-de-gusano-barrenador-en-el-municipio-de-durango-y-esto-se-sabe/vl2263561",
+          "canonicalUrl": "https://www.posta.com.mx/durango/reportan-el-primer-caso-de-gusano-barrenador-en-el-municipio-de-durango-y-esto-se-sabe/vl2263561",
+          "title": "Reportan el primer caso de gusano barrenador en el municipio de Durango y esto se sabe",
+          "description": null,
+          "source": {
+            "id": "mx_dur_posta",
+            "name": "Posta Durango"
+          },
+          "sourceCountry": "MX",
+          "language": "es",
+          "publishedAt": "2026-10-07T02:52:00.000Z",
+          "imageUrl": null,
+          "countryCode": "MX",
+          "regionCode": "MX-DUR"
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T02:52:00.000Z"
+    },
+    {
+      "id": "9UIeosX2Pdgo",
+      "representative": {
+        "id": "9UIeosX2Pdgo",
+        "url": "https://contextodedurango.com.mx/continuan-reportes-por-omision-de-cuidados-a-personas-de-la-tercera-edad/",
+        "canonicalUrl": "https://contextodedurango.com.mx/continuan-reportes-por-omision-de-cuidados-a-personas-de-la-tercera-edad/",
+        "title": "Continúan reportes por omisión de cuidados a personas de la tercera edad",
+        "description": "Entre 20 a 25 reportes a la semana recibe el DIF Estatal por omisión de cuidados a personas de la tercera edad. Asimismo, como residentes de la Ciudad del Anciano, se contemplan a 114 personas de la tercera edad, quienes habitan ahí por voluntad propia.",
+        "source": {
+          "id": "mx_dur_contexto",
+          "name": "Contexto de Durango"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-07T01:37:19.000Z",
+        "imageUrl": "https://pub-953d2cb6e6f34525a9d8f5f293fbe95d.r2.dev/2026/10/Captura-de-pantalla-2026-10-06-193633.png",
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T01:37:19.000Z"
+    },
+    {
+      "id": "aw_S4D448NbO",
+      "representative": {
+        "id": "aw_S4D448NbO",
+        "url": "https://contactohoy.com.mx/local/de-que-sirve-iluminar-de-rosa-si-la-atencion-es-lenta/",
+        "canonicalUrl": "https://contactohoy.com.mx/local/de-que-sirve-iluminar-de-rosa-si-la-atencion-es-lenta/",
+        "title": "¿De qué sirve iluminar de rosa si la atención es lenta?",
+        "description": "Siempre me ha incomodado que octubre se llene de listones, vasos, sombrillas, luces y monumentos rosas, mientras queda pendiente la pregunta más importante: ¿las mujeres pueden acceder a los estudios y tratamientos que necesitan? La información sí ayuda. Las charlas tienen valor. Aprender a…",
+        "source": {
+          "id": "mx_dur_contactohoy",
+          "name": "Contacto Hoy"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T18:25:50.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:25:50.000Z"
+    },
+    {
+      "id": "Qq-GU2PmD0cd",
+      "representative": {
+        "id": "Qq-GU2PmD0cd",
+        "url": "https://contactohoy.com.mx/local/en-que-momento-me-converti-en-el-banco-en-lugar-del-padre/",
+        "canonicalUrl": "https://contactohoy.com.mx/local/en-que-momento-me-converti-en-el-banco-en-lugar-del-padre/",
+        "title": "“¿En qué momento me convertí en el banco en lugar del padre?”",
+        "description": "Hay una pregunta que a veces dejamos de hacer cuando crecemos: “Papá, ¿cómo estás?”. “Tengo 61 años y me he dado cuenta de que mis hijos llaman a mi esposa cuando necesitan algo y me llaman a mí cuando necesitan dinero, y no sé en qué momento me convertí en el banco en lugar del […]",
+        "source": {
+          "id": "mx_dur_contactohoy",
+          "name": "Contacto Hoy"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T16:17:10.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:17:10.000Z"
+    },
+    {
+      "id": "EdIBsZo2Eapc",
+      "representative": {
+        "id": "EdIBsZo2Eapc",
+        "url": "https://contactohoy.com.mx/policia/llegaron-a-su-casa-la-acusaron-del-robo-de-un-celular-y-la-golpearon/",
+        "canonicalUrl": "https://contactohoy.com.mx/policia/llegaron-a-su-casa-la-acusaron-del-robo-de-un-celular-y-la-golpearon/",
+        "title": "Llegaron a su casa, la acusaron del robo de un celular y la golpearon",
+        "description": "Durango, Dgo.-Una mujer de 36 años de edad resultó con varios golpes al ser agredida por varios sujetos que, repentinamente, llegaron a su casa y la acusaron de haber robado un teléfono celular. La víctima es Linda S. Q., quien tiene su domicilio en el fraccionamiento Rinconada Las Flores, lugar…",
+        "source": {
+          "id": "mx_dur_contactohoy",
+          "name": "Contacto Hoy"
+        },
+        "sourceCountry": "MX",
+        "language": "es",
+        "publishedAt": "2026-10-06T15:37:27.000Z",
+        "imageUrl": null,
+        "countryCode": "MX",
+        "regionCode": "MX-DUR"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:37:27.000Z"
+    }
+  ]
+}

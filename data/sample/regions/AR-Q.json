@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "AR",
+  "countryName": "Argentina",
+  "regionCode": "AR-Q",
+  "regionName": "Neuquén",
+  "updatedAt": "2026-10-07T16:47:49.768Z",
+  "clusters": [
+    {
+      "id": "9ft9E4nFIhQY",
+      "representative": {
+        "id": "9ft9E4nFIhQY",
+        "url": "https://www.lmneuquen.com/neuquen/el-barrio-el-progreso-esta-estreno-inauguraron-cancha-cesped-sintetico-n1256361",
+        "canonicalUrl": "https://www.lmneuquen.com/neuquen/el-barrio-el-progreso-esta-estreno-inauguraron-cancha-cesped-sintetico-n1256361",
+        "title": "El barrio El Progreso está de estreno: inauguraron cancha de césped sintético",
+        "description": "Durante 40 años, las infancias se juntaban en un espacio a jugar a la pelota en un predio de tierra. Cómo quedaron las flamantes instalaciones deportivas.",
+        "source": {
+          "id": "ar_q_lmn",
+          "name": "LMNeuquén"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T22:11:00.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [
+        {
+          "id": "6qrC_lO7R2oe",
+          "url": "https://www.neuquenalinstante.com.ar/noticias/2026/10/07/144060-despues-de-40-anos-de-espera-el-barrio-el-progreso-tiene-una-cancha-de-futbol-sintetico",
+          "canonicalUrl": "https://www.neuquenalinstante.com.ar/noticias/2026/10/07/144060-despues-de-40-anos-de-espera-el-barrio-el-progreso-tiene-una-cancha-de-futbol-sintetico",
+          "title": "Después de 40 años de espera, el barrio El Progreso tiene una cancha de futbol sintético",
+          "description": "Gaido precisó que se trata de \"una inversión de 260 millones de pesos de los neuquinos, de fondos propios, sin endeudamiento; del superávit invertido en deporte, en decirle sí al deporte, a la vida sana, y decirle no a la droga y no al alcohol\".",
+          "source": {
+            "id": "ar_q_alinstante",
+            "name": "Neuquén al Instante"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-07T14:38:29.000Z",
+          "imageUrl": "https://neuquenalinstante-s3.cdn.net.ar/s3i233/2026/10/neuquenalinstante2/images/02/80/32/2803292_c8cd64c5bfabac161ecd10dcb65c4bcd6b42d6afe7bce581dcf2545803ebce1d/sm.jpg",
+          "countryCode": "AR",
+          "regionCode": "AR-Q"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T14:38:29.000Z"
+    },
+    {
+      "id": "mWn4YFixcam0",
+      "representative": {
+        "id": "mWn4YFixcam0",
+        "url": "https://www.laangosturadigital.com.ar/2026/10/06/profundo-dolor-en-pomona-donde-despiden-a-bakari-la-nina-asesinada-en-villa-la-angostura/?utm_source=rss&utm_medium=rss&utm_campaign=profundo-dolor-en-pomona-donde-despiden-a-bakari-la-nina-asesinada-en-villa-la-angostura",
+        "canonicalUrl": "https://www.laangosturadigital.com.ar/2026/10/06/profundo-dolor-en-pomona-donde-despiden-a-bakari-la-nina-asesinada-en-villa-la-angostura/",
+        "title": "Profundo dolor en Pomona donde despidieron a Bakari, la niña asesinada en Villa La Angostura",
+        "description": "Los restos de la pequeña de tres años son velados en la localidad rionegrina desde esta mañana y ahora reciben el último adiós. El crimen… La entrada Profundo dolor en Pomona donde despidieron a Bakari, la niña asesinada en Villa La Angostura se publicó primero en La Angostura Digital .",
+        "source": {
+          "id": "ar_q_angosturadigital",
+          "name": "La Angostura Digital"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T21:15:00.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [
+        {
+          "id": "vw5u8TGALgLA",
+          "url": "https://www.diarioandino.com.ar/noticias/2026/10/07/238296-no-te-quiero-dejar-aca-sola-hijita-mia-sepultaron-en-pomona-a-la-nina-asesinada-en-villa-la-angostura",
+          "canonicalUrl": "https://www.diarioandino.com.ar/noticias/2026/10/07/238296-no-te-quiero-dejar-aca-sola-hijita-mia-sepultaron-en-pomona-a-la-nina-asesinada-en-villa-la-angostura",
+          "title": "“No te quiero dejar acá sola, hijita mía”: sepultaron en Pomona a la niña asesinada en Villa La Angostura",
+          "description": "Aythanna Bakari Eluney, de 3 años, fue despedida este martes. Su madre debió ser asistida durante el velatorio.",
+          "source": {
+            "id": "ar_q_diarioandino",
+            "name": "Diario Andino (Villa La Angostura)"
+          },
+          "sourceCountry": "AR",
+          "language": "es",
+          "publishedAt": "2026-10-07T13:06:03.000Z",
+          "imageUrl": "https://diarioandino-s3.cdn.net.ar/s3i233/2026/10/diarioandino2/images/02/80/30/2803064_d775920ee01264d35b4af811096d485c392efbd3433fcb6f060164691c6215f7/md.webp",
+          "countryCode": "AR",
+          "regionCode": "AR-Q"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T13:06:03.000Z"
+    },
+    {
+      "id": "PaueiyMxR9VX",
+      "representative": {
+        "id": "PaueiyMxR9VX",
+        "url": "https://www.laangosturadigital.com.ar/2026/10/07/ante-una-nueva-orden-de-desalojo-en-el-lote-42-la-lof-melo-convoca-a-movilizaciones-para-este-viernes/?utm_source=rss&utm_medium=rss&utm_campaign=ante-una-nueva-orden-de-desalojo-en-el-lote-42-la-lof-melo-convoca-a-movilizaciones-para-este-viernes",
+        "canonicalUrl": "https://www.laangosturadigital.com.ar/2026/10/07/ante-una-nueva-orden-de-desalojo-en-el-lote-42-la-lof-melo-convoca-a-movilizaciones-para-este-viernes/",
+        "title": "Ante una nueva orden de desalojo, la Lof Melo convoca a movilizaciones para este viernes",
+        "description": "La comunidad llamó a concentrarse desde las 8 de la mañana en El Pedregoso, sobre la Ruta 40, y anunció manifestaciones en distintos puntos de… La entrada Ante una nueva orden de desalojo, la Lof Melo convoca a movilizaciones para este viernes se publicó primero en La Angostura Digital .",
+        "source": {
+          "id": "ar_q_angosturadigital",
+          "name": "La Angostura Digital"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:21:10.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:21:10.000Z"
+    },
+    {
+      "id": "GTBIg0dk6SUP",
+      "representative": {
+        "id": "GTBIg0dk6SUP",
+        "url": "https://www.neuquenalinstante.com.ar/noticias/2026/10/07/144081-fijan-pena-de-12-anos-a-acusado-de-abusar-sexualmente-de-tres-ninas",
+        "canonicalUrl": "https://www.neuquenalinstante.com.ar/noticias/2026/10/07/144081-fijan-pena-de-12-anos-a-acusado-de-abusar-sexualmente-de-tres-ninas",
+        "title": "Fijan pena de 12 años a acusado de abusar sexualmente de tres niñas",
+        "description": "Los hechos fueron cometidos en la ciudad de Zapala entre 2019 y abril de 2025.",
+        "source": {
+          "id": "ar_q_alinstante",
+          "name": "Neuquén al Instante"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:20:16.000Z",
+        "imageUrl": "https://neuquenalinstante-s3.cdn.net.ar/s3i233/2025/07/neuquenalinstante2/images/02/17/49/2174933_2123f80ca4e77587a6443bc1ec214dca944eefd22dfe99fe7631b8ecc732c7cf/lg.jpg",
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:20:16.000Z"
+    },
+    {
+      "id": "F90cyU8Q3jh-",
+      "representative": {
+        "id": "F90cyU8Q3jh-",
+        "url": "https://www.neuquenalinstante.com.ar/noticias/2026/10/07/144078-una-mirada-de-fe-desde-lo-alto-el-cerro-de-la-virgen-de-chos-malal",
+        "canonicalUrl": "https://www.neuquenalinstante.com.ar/noticias/2026/10/07/144078-una-mirada-de-fe-desde-lo-alto-el-cerro-de-la-virgen-de-chos-malal",
+        "title": "Una mirada de fe desde lo alto: el Cerro de la Virgen de Chos Malal",
+        "description": "El monumento a María Auxiliadora es uno de los sitios emblemáticos de Chos Malal y forma parte del Camino de la Fe, un recorrido de más de 800 kilómetros que conecta Ailinco con Villa La Angostura. Entre senderos, paisajes y patrimonio religioso, la propuesta invita a descubrir la huella salesiana…",
+        "source": {
+          "id": "ar_q_alinstante",
+          "name": "Neuquén al Instante"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:05:15.000Z",
+        "imageUrl": "https://neuquenalinstante-s3.cdn.net.ar/s3i233/2026/10/neuquenalinstante2/images/02/80/34/2803419_1e76f3b641dc7211299774bad80e6aeba211e2a327358b9b3506fb16debf693f/md.jpg",
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:05:15.000Z"
+    },
+    {
+      "id": "8V6T37Det2jN",
+      "representative": {
+        "id": "8V6T37Det2jN",
+        "url": "https://www.laangosturadigital.com.ar/2026/10/07/k42-quienes-pelearan-por-el-deseado-podio-en-las-montanas-de-villa-la-angostura/?utm_source=rss&utm_medium=rss&utm_campaign=k42-quienes-pelearan-por-el-deseado-podio-en-las-montanas-de-villa-la-angostura",
+        "canonicalUrl": "https://www.laangosturadigital.com.ar/2026/10/07/k42-quienes-pelearan-por-el-deseado-podio-en-las-montanas-de-villa-la-angostura/",
+        "title": "K42: quiénes pelearán por el deseado podio en las montañas de Villa La Angostura",
+        "description": "Campeones, figuras internacionales y atletas que llegan en pleno crecimiento volverán a encontrarse en noviembre en Villa La Angostura. Luis Valle Barrientos y Fernanda Martínez… La entrada K42: quiénes pelearán por el deseado podio en las montañas de Villa La Angostura se publicó primero en La…",
+        "source": {
+          "id": "ar_q_angosturadigital",
+          "name": "La Angostura Digital"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T16:03:30.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T16:03:30.000Z"
+    },
+    {
+      "id": "hQlK-Y5FrPg_",
+      "representative": {
+        "id": "hQlK-Y5FrPg_",
+        "url": "https://www.neuquenalinstante.com.ar/noticias/2026/10/07/144075-del-28-de-octubre-al-1-de-noviembre-el-fan-v-llega-con-88-obras-de-16-provincias-del-pais",
+        "canonicalUrl": "https://www.neuquenalinstante.com.ar/noticias/2026/10/07/144075-del-28-de-octubre-al-1-de-noviembre-el-fan-v-llega-con-88-obras-de-16-provincias-del-pais",
+        "title": "Del 28 de octubre al 1 de noviembre: el FAN V llega con 88 obras de 16 provincias del país",
+        "description": "La subsecretaria de Empleo, Clara Beverini, destacó la respuesta que tuvo la convocatoria: “Hubo más de 700 obras presentadas”.",
+        "source": {
+          "id": "ar_q_alinstante",
+          "name": "Neuquén al Instante"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:53:12.000Z",
+        "imageUrl": "https://neuquenalinstante-s3.cdn.net.ar/s3i233/2026/10/neuquenalinstante2/images/02/80/34/2803418_7f110ef54e3c3adf286fc0cc00f8dd24baa67ffe986af10906830246751f8246/sm.jpg",
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:53:12.000Z"
+    },
+    {
+      "id": "72qSgURO5X6Y",
+      "representative": {
+        "id": "72qSgURO5X6Y",
+        "url": "https://www.lmneuquen.com/neuquen/neuquen-fortalece-la-educacion-la-entrega-1950-notebooks-y-equipamiento-tecnologico-n1256476",
+        "canonicalUrl": "https://www.lmneuquen.com/neuquen/neuquen-fortalece-la-educacion-la-entrega-1950-notebooks-y-equipamiento-tecnologico-n1256476",
+        "title": "Neuquén fortalece la educación con la entrega de 1.950 notebooks y equipamiento tecnológico",
+        "description": "Como parte de un proyecto conjunto con la UNOPS, el Gobierno provincial distribuyó los elementos, reforzando el acceso a la tecnología en el aula.",
+        "source": {
+          "id": "ar_q_lmn",
+          "name": "LMNeuquén"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T14:14:00.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T14:14:00.000Z"
+    },
+    {
+      "id": "8OLp8TvS7c2-",
+      "representative": {
+        "id": "8OLp8TvS7c2-",
+        "url": "https://www.lmneuquen.com/neuquen/vaca-muerta-despega-el-aeropuerto-neuquen-hace-cola-n1256417",
+        "canonicalUrl": "https://www.lmneuquen.com/neuquen/vaca-muerta-despega-el-aeropuerto-neuquen-hace-cola-n1256417",
+        "title": "Vaca Muerta despega, el aeropuerto de Neuquén hace cola",
+        "description": "Neuquén invita al mundo a conocer Vaca Muerta, su ciudad o sus lugares turísticos, pero el Presidente Perón no acompaña lo que la potencia neuquina desarrolla.",
+        "source": {
+          "id": "ar_q_lmn",
+          "name": "LMNeuquén"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T13:37:00.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T13:37:00.000Z"
+    },
+    {
+      "id": "L-8sd6rYF6Ki",
+      "representative": {
+        "id": "L-8sd6rYF6Ki",
+        "url": "https://www.diarioandino.com.ar/noticias/2026/10/07/238290-las-balsas-renovara-su-junta-vecinal-para-el-periodo-2026-2028",
+        "canonicalUrl": "https://www.diarioandino.com.ar/noticias/2026/10/07/238290-las-balsas-renovara-su-junta-vecinal-para-el-periodo-2026-2028",
+        "title": "Las Balsas renovará su Junta Vecinal para el período 2026-2028",
+        "description": "La elección de las nuevas autoridades barriales se realizará el viernes 6 de noviembre, a las 19 horas, en el espacio ubicado en avenida Arrayanes 2490. La Municipalidad convocó a todos los residentes del sector a participar del proceso.",
+        "source": {
+          "id": "ar_q_diarioandino",
+          "name": "Diario Andino (Villa La Angostura)"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T11:27:52.000Z",
+        "imageUrl": "https://diarioandino-s3.cdn.net.ar/s3i233/2026/10/diarioandino2/images/02/80/28/2802863_27f98e540d2af1db5972ec2ba595866e4766154cea472a154f89d033051372de/md.webp",
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:27:52.000Z"
+    },
+    {
+      "id": "7xBBrrHtRv1m",
+      "representative": {
+        "id": "7xBBrrHtRv1m",
+        "url": "https://www.diarioandino.com.ar/noticias/2026/10/07/238287-vecinos-participaron-de-una-capacitacion-sobre-gestion-de-residuos-y-sostenibilidad",
+        "canonicalUrl": "https://www.diarioandino.com.ar/noticias/2026/10/07/238287-vecinos-participaron-de-una-capacitacion-sobre-gestion-de-residuos-y-sostenibilidad",
+        "title": "Vecinos participaron de una capacitación sobre gestión de residuos y sostenibilidad",
+        "description": "La jornada se realizó en el Centro de Convenciones y estuvo dirigida a juntas vecinales, emprendedores y vecinos. Se abordaron la separación en origen, la recuperación de materiales y los avances previstos para fortalecer el sistema de gestión de residuos en Villa La Angostura",
+        "source": {
+          "id": "ar_q_diarioandino",
+          "name": "Diario Andino (Villa La Angostura)"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T11:22:08.000Z",
+        "imageUrl": "https://diarioandino-s3.cdn.net.ar/s3i233/2026/10/diarioandino2/images/02/80/28/2802856_a8f72b3f8bc6deadd91cdba525a817cf2784c762da784d9adece645ff9e61637/md.webp",
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:22:08.000Z"
+    },
+    {
+      "id": "SuZ4kl4fm-7w",
+      "representative": {
+        "id": "SuZ4kl4fm-7w",
+        "url": "https://www.lmneuquen.com/neuquen/los-fenomenos-mas-intensos-seran-hoy-y-el-viernes-como-seguira-la-lluvia-neuquen-n1256436",
+        "canonicalUrl": "https://www.lmneuquen.com/neuquen/los-fenomenos-mas-intensos-seran-hoy-y-el-viernes-como-seguira-la-lluvia-neuquen-n1256436",
+        "title": "\"Los fenómenos más intensos serán entre hoy y el viernes\": cómo seguirá la lluvia en Neuquén",
+        "description": "La inestabilidad continuará durante varios días en la región, con lluvias, lloviznas y mejoramientos temporarios en Neuquén y el Alto Valle.",
+        "source": {
+          "id": "ar_q_lmn",
+          "name": "LMNeuquén"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T11:15:00.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:15:00.000Z"
+    },
+    {
+      "id": "lW6eosYC1h3g",
+      "representative": {
+        "id": "lW6eosYC1h3g",
+        "url": "https://www.laangosturadigital.com.ar/2026/10/07/actua-ofrecio-su-espacio-al-grupo-serendipia-para-que-pueda-continuar-con-sus-ensayos/?utm_source=rss&utm_medium=rss&utm_campaign=actua-ofrecio-su-espacio-al-grupo-serendipia-para-que-pueda-continuar-con-sus-ensayos",
+        "canonicalUrl": "https://www.laangosturadigital.com.ar/2026/10/07/actua-ofrecio-su-espacio-al-grupo-serendipia-para-que-pueda-continuar-con-sus-ensayos/",
+        "title": "ACTUA ofreció su espacio al Grupo Serendipia para que pueda continuar con sus ensayos",
+        "description": "La asociación expresó su solidaridad con el elenco estable ante las dificultades para contar con un lugar de ensayo y puso a disposición el “Domo”… La entrada ACTUA ofreció su espacio al Grupo Serendipia para que pueda continuar con sus ensayos se publicó primero en La Angostura Digital .",
+        "source": {
+          "id": "ar_q_angosturadigital",
+          "name": "La Angostura Digital"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T10:24:10.000Z",
+        "imageUrl": null,
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:24:10.000Z"
+    },
+    {
+      "id": "koScqlj2d5GD",
+      "representative": {
+        "id": "koScqlj2d5GD",
+        "url": "https://www.diarioandino.com.ar/noticias/2026/10/06/238260-grupo-rbol-celebramos-el-dia-de-creacion-del-parque-nacional-los-arrayanes",
+        "canonicalUrl": "https://www.diarioandino.com.ar/noticias/2026/10/06/238260-grupo-rbol-celebramos-el-dia-de-creacion-del-parque-nacional-los-arrayanes",
+        "title": "Grupo Árbol: Celebramos el día de creación del Parque Nacional Los Arrayanes",
+        "description": "El área protegida fue creada el 11 de octubre de 1971 mediante la Ley N.º 19.292 para preservar uno de los bosques de arrayanes más puros y extensos del país. Con 1.796 hectáreas, forma parte de la Ecorregión Bosques Patagónicos y de la Reserva de Biosfera Andino Norpatagónica.",
+        "source": {
+          "id": "ar_q_diarioandino",
+          "name": "Diario Andino (Villa La Angostura)"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:46:50.000Z",
+        "imageUrl": "https://diarioandino-s3.cdn.net.ar/s3i233/2026/10/diarioandino2/images/02/80/10/2801082_606e919014bd137be0c8ee0ac8b5d38e1afb6bd07195e9f753b0d55805b5a246/md.webp",
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:46:50.000Z"
+    },
+    {
+      "id": "aklgktZNIHZa",
+      "representative": {
+        "id": "aklgktZNIHZa",
+        "url": "https://www.neuquenalinstante.com.ar/noticias/2026/10/07/144069-la-nieve-demostro-su-poder-de-convocatoria-en-neuquen",
+        "canonicalUrl": "https://www.neuquenalinstante.com.ar/noticias/2026/10/07/144069-la-nieve-demostro-su-poder-de-convocatoria-en-neuquen",
+        "title": "La nieve demostró su poder de convocatoria en Neuquén",
+        "description": "El director del producto Nieve de NeuquenTur, Rodrigo Oriolo, destacó el movimiento generado durante el invierno y el crecimiento de la actividad. La temporada movilizó a más de 284 mil turistas equivalentes a 260 mil millones de pesos.",
+        "source": {
+          "id": "ar_q_alinstante",
+          "name": "Neuquén al Instante"
+        },
+        "sourceCountry": "AR",
+        "language": "es",
+        "publishedAt": "2026-10-07T15:13:25.000Z",
+        "imageUrl": "https://neuquenalinstante-s3.cdn.net.ar/s3i233/2026/10/neuquenalinstante2/images/02/80/33/2803323_7bdd1377e3c5a429c956b8f04fafd41b58ddb102daf6f48011977db512881b16/md.jpg",
+        "countryCode": "AR",
+        "regionCode": "AR-Q"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T15:13:25.000Z"
+    }
+  ]
+}

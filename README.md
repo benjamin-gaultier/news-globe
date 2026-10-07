@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers 175 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany, Spain, Italy, the United States, Canada, Australia or Brazil and it splits into its regions (13 French regions, 16 German Länder, 17 Spanish autonomous communities, 20 Italian regions, the 50 US states and DC, 13 Canadian provinces and territories, 8 Australian states and territories, 27 Brazilian states), each with its own headlines from regional and local outlets.
+It covers 175 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany, Spain, Italy, the United States, Canada, Australia, Brazil, Mexico, Argentina or India and it splits into its regions (13 French regions, 16 German Länder, 17 Spanish autonomous communities, 20 Italian regions, the 50 US states and DC, 13 Canadian provinces and territories, 8 Australian states and territories, 27 Brazilian states, 32 Mexican states, 24 Argentine provinces, 36 Indian states and union territories), each with its own headlines from regional and local outlets.
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -37,6 +37,9 @@ apps/web/            React + Vite front end (react-globe.gl)
   src/assets/regions-ca.json       Canada's 13 provinces and territories, Natural Earth 50m admin-1, trimmed (scripts/prepare-regions.mjs ca)
   src/assets/regions-au.json       Australia's 8 states and territories, Natural Earth 50m admin-1, trimmed (scripts/prepare-regions.mjs au)
   src/assets/regions-br.json       Brazil's 26 states and the Federal District, Natural Earth 50m admin-1, trimmed (scripts/prepare-regions.mjs br)
+  src/assets/regions-mx.json       Mexico's 31 states and Mexico City, Natural Earth 10m admin-1, trimmed (scripts/prepare-regions.mjs mx)
+  src/assets/regions-ar.json       Argentina's 23 provinces and the City of Buenos Aires, Natural Earth 10m admin-1, trimmed (scripts/prepare-regions.mjs ar)
+  src/assets/regions-in.json       India's 28 states and 8 union territories, Natural Earth 50m admin-1, trimmed (scripts/prepare-regions.mjs in)
   worker/index.ts, wrangler.jsonc  Cloudflare Worker: static assets + /data/* from KV
 packages/ingest/     Node worker: fetch → normalize → dedupe → cluster → rank → write JSON
   src/sources.config.ts            feeds, authority weights, pipeline settings
@@ -475,6 +478,121 @@ Each of the 26 states and the Federal District has 3–6 outlets (119 in all): g
 Many Brazilian portals answer 403 to our User-Agent, and many dailies have no feed or one that is mostly national news; the feeds were captured in the week after the first round of the 2026 elections, so national campaign stories leak into some states as singletons.
 
 Canadian, Australian and Brazilian feeds list episodes and service pieces next to stories: Radio-Canada's and Global's newscasts ("Le téléjournal Acadie du 6 octobre", "WATCH: Global News Hour at 6 BC: Oct. 6"), La Presse's "Transports en direct" traffic updates, live-blog wraps ("As it happened: WA news on …"), dated podcasts and galleries, columns shared across SaltWire's papers, and Canberra Daily's property listings ("5 Berra Close, Ngunnawal"). g1 publishes a programme page per bulletin per day ("VÍDEOS: Bom Dia PE de quarta-feira, …", "Assista ao GR1") and, after the election, one result page per municipality and polling place ("Resultado das eleições 2026 em Torres (RS): …"), about 1,400 titles on the 2026-10-07 cache; portals add lottery results, job listings, "onde assistir" TV guides, legal notices, obituary lists and dated bulletins ("07/10/2026 - Assista agora ao Tribuna Notícias", "Cartórios - 07/10/2026", which formed a fake cluster on the shared date alone). `isNotNews` drops these; elsewhere its new patterns matched only one Italian magazine issue.
+
+**Mexico — states** (added 2026-10-07)
+
+Each of the 31 states and Mexico City has 1–6 regional outlets (119 in all): OEM's local Soles (`oem.com.mx/<paper>/rss`), El Universal's and La Jornada's state editions, Quadratín's state sites, Posta's state sections (through their Google News sitemaps), and local dailies and portals. The candidate lists, with each rejected feed and why, are in the PRs: [Mexico City, centre and south](https://github.com/benjamin-gaultier/news-globe/pull/62), [north, west and Bajío](https://github.com/benjamin-gaultier/news-globe/pull/63). Sources live in `packages/ingest/src/sources/mx-states-*.ts`.
+
+| State | Outlets | Status |
+| --- | --- | --- |
+| Aguascalientes | El Sol del Centro, El Heraldo de Aguascalientes | ⚠️ two outlets |
+| Baja California | El Sol de Tijuana / La Voz de la Frontera, La Jornada Baja California, Punto Norte | ✅ |
+| Baja California Sur | El Sudcaliforniano, BCS Noticias | ⚠️ two outlets |
+| Campeche | Tribuna Campeche | ⚠️ one outlet |
+| Chiapas | El Heraldo de Chiapas, Diario del Sur (Tapachula), Diario de Chiapas, Alerta Chiapas, Chiapas Paralelo | ✅ |
+| Chihuahua | El Heraldo de Chihuahua / El Heraldo de Juárez, Entrelíneas, Norte Digital (Juárez), Canal 44 (Juárez) | ✅ (Canal 44 masks crime words in its titles) |
+| Coahuila | El Sol de la Laguna, El Heraldo de Saltillo, Posta Coahuila | ✅ |
+| Colima | AF Medios | ⚠️ one outlet |
+| Durango | El Sol de Durango, Contexto de Durango, Contacto Hoy, Posta Durango | ✅ |
+| Guanajuato | AM, El Sol de León / El Sol del Bajío / El Sol de Irapuato / El Sol de Salamanca, Notus | ✅ |
+| Guerrero | El Sol de Acapulco, Quadratín Guerrero, Enfoque Informativo | ⚠️ three outlets |
+| Hidalgo | El Sol de Hidalgo, El Universal Hidalgo, Quadratín Hidalgo, Plaza Juárez | ✅ |
+| Jalisco | El Informador, Mural, El Occidental, Notisistema, Partidero, Conciencia Pública | ✅ |
+| Mexico City | El Universal (Metrópoli), Reforma (Ciudad), La Jornada (Capital), La Prensa, 24 Horas (CDMX), Posta (CDMX) | ✅ (Milenio has no regional feeds; the metro sections also cover the State of Mexico's suburbs) |
+| Michoacán | El Sol de Morelia, La Voz de Michoacán, Quadratín Michoacán, Primera Plana, Respuesta, Changoonga | ✅ |
+| Morelos | Diario de Morelos, El Sol de Cuernavaca, La Jornada Morelos, Quadratín Morelos | ✅ |
+| Nayarit | Meridiano de Nayarit, Enfoque Nayarit | ⚠️ two outlets |
+| Nuevo León | El Norte, Posta Nuevo León, Hora Cero | ⚠️ three outlets (Milenio Monterrey has no feed; Posta is read through its Google News sitemap) |
+| Oaxaca | El Imparcial de Oaxaca, NVI Noticias, Quadratín Oaxaca, Página 3 | ✅ |
+| Puebla | El Sol de Puebla, El Universal Puebla, La Jornada de Oriente, Poblanerías, Urbano Puebla, Status Puebla | ✅ |
+| Querétaro | Diario de Querétaro, El Universal Querétaro, Quadratín Querétaro, Códice Informativo, Plaza de Armas | ✅ |
+| Quintana Roo | Noticaribe, Quadratín Quintana Roo, Quintana Roo Hoy, Quinta Fuerza | ✅ |
+| San Luis Potosí | El Sol de San Luis, La Jornada San Luis, La Orquesta, Metrópoli San Luis | ✅ |
+| Sinaloa | El Sol de Sinaloa / El Sol de Mazatlán, Línea Directa, Los Noticieristas | ✅ |
+| Sonora | El Sol de Hermosillo, Tribuna (Sonora), Proyecto Puente | ✅ |
+| State of Mexico | El Sol de Toluca, Alfa Diario, Así Sucede, Quadratín Estado de México, Plana Mayor | ✅ |
+| Tabasco | El Heraldo de Tabasco, Tabasco Hoy, Quadratín Tabasco | ⚠️ three outlets |
+| Tamaulipas | El Sol de Tampico, Expreso (Ciudad Victoria), Posta Tamaulipas | ✅ |
+| Tlaxcala | El Sol de Tlaxcala, Quadratín Tlaxcala, Gente Tlx, Línea de Contraste | ✅ |
+| Veracruz | Diario de Xalapa, La Jornada Veracruz, Quadratín Veracruz, Plumas Libres, Golpe Político, Formato 7 | ✅ |
+| Yucatán | Diario de Yucatán (Mérida), Posta Yucatán, Infolliteras, Quadratín Yucatán, Yucatán en Corto | ✅ |
+| Zacatecas | El Sol de Zacatecas, Zacatecas Online | ⚠️ two outlets |
+
+**Argentina — provinces** (added 2026-10-07)
+
+Each of the 23 provinces and the City of Buenos Aires has 1–8 outlets (94 in all): the main provincial daily, Página/12's regional editions, and local papers, radios and portals. Many provincial portals publish only site-wide feeds, so national stories (on 2026-10-07, Messi's farewell) form multi-outlet clusters in several provinces next to the local ones. The candidate lists are in [the PR](https://github.com/benjamin-gaultier/news-globe/pull/64). Sources live in `packages/ingest/src/sources/ar-provinces.ts`.
+
+| Province | Outlets | Status |
+| --- | --- | --- |
+| Buenos Aires City | Clarín (Ciudades), Perfil (Ciudad de Buenos Aires), Palermo Online | ⚠️ three outlets; most city news is in the national papers, so the city sections are thin |
+| Buenos Aires Province | El Día (La Plata), La Nueva (Bahía Blanca), Buenos Aires/12 (Página/12), El Eco de Tandil, 0223 (Mar del Plata), La Noticia 1 (Conurbano), El Diario Sur (Conurbano sur), Infoeme (Olavarría) | ✅ |
+| Catamarca | El Ancasti, El Esquiú, Radio Valle Viejo | ⚠️ three outlets |
+| Chaco | Diario Norte, Primera Línea, Chaco Día por Día, Radio Sudamericana (Chaco) | ✅ |
+| Chubut | El Patagónico (Comodoro Rivadavia), El Chubut, El Diario de Madryn, ADN Sur | ✅ |
+| Corrientes | El Litoral (Corrientes), El Libertador, Radio Sudamericana (Corrientes) | ⚠️ three outlets |
+| Córdoba | Puntal (Río Cuarto), El Diario de Carlos Paz, Perfil Córdoba, Hoy Día Córdoba, Cba24n (SRT), La Nueva Mañana | ✅ (La Voz del Interior 403) |
+| Entre Ríos | Uno Entre Ríos, El Entre Ríos, El Heraldo (Concordia), Diario Río Uruguay, Elonce, Entre Ríos Ahora | ✅ |
+| Formosa | Diario Formosa | ⚠️ one outlet |
+| Jujuy | Todo Jujuy, Somos Jujuy, Jujuy al Momento | ⚠️ three outlets |
+| La Pampa | La Arena, Diario Textual, Infopico, Plan B Noticias | ✅ |
+| La Rioja | Nueva Rioja, Medios Rioja, Rioja Virtual, Rioja Libre | ✅ (Rioja Virtual writes its titles in capitals) |
+| Mendoza | Los Andes, Diario Uno (Mendoza), Diario San Rafael, Sitio Andino | ✅ (MDZ's RSS 403 and its news sitemap is mostly national) |
+| Misiones | El Territorio, Primera Edición, Canal 12 Misiones, Misiones Opina, Noticias del 6 | ✅ |
+| Neuquén | LMNeuquén, Neuquén al Instante, La Angostura Digital, Diario Andino (Villa La Angostura) | ✅ |
+| Río Negro | LM Cipolletti, El Cordillerano (Bariloche), ADN Río Negro, Bariloche Opina, ANB (Agencia de Noticias Bariloche) | ✅ |
+| Salta | El Tribuno (Salta), Salta/12 (Página/12), Informate Salta, FM 89.9 Salta | ✅ |
+| San Juan | Diario de Cuyo, Diario La Provincia SJ, Canal 13 San Juan, 0264 Noticias, San Juan 8 | ✅ but all four larger outlets publish site-wide feeds, so national stories cluster next to local ones |
+| San Luis | El Diario de la República, La Voz de San Luis, San Luis 24 | ⚠️ three outlets (El Chorrillero 403) |
+| Santa Cruz | La Opinión Austral, Ahora Calafate | ⚠️ two outlets (La Opinión Austral's sitemap stamps every item 16:00) |
+| Santa Fe | La Capital (Rosario), Rosario/12 (Página/12), Aire de Santa Fe, El Ciudadano (Rosario), Rosario Plus | ✅ (El Litoral's feeds are mostly national) |
+| Santiago del Estero | Nuevo Diario, Diario Panorama | ⚠️ two outlets (El Liberal 403; Diario Panorama has some future-dated items, and its feed needs the token its robots.txt publishes) |
+| Tierra del Fuego | Diario Prensa, Infofueguina, Actualidad TDF, Sur54 | ✅ |
+| Tucumán | Los Primeros, Tucumán a las 7 | ⚠️ two outlets (La Gaceta's feeds are mostly national; Primera Fuente stale) |
+
+**India — states and union territories** (added 2026-10-07)
+
+Each of the 28 states and 8 union territories except Sikkim, Lakshadweep and Dadra and Nagar Haveli and Daman and Diu has 1–7 outlets (98 in all): the state sections of The Hindu, the Times of India, the Hindustan Times, The Indian Express and The New Indian Express, The Tribune in the north-west, Northeast Now in the Northeast, and regional papers. Feeds are in English (and Bengali in West Bengal), since clustering has no stopwords for Hindi or the other Indian languages. Many regional papers answer 403 to our User-Agent. The candidate lists, with each rejected feed and why, are in the PRs: [east, Northeast and south](https://github.com/benjamin-gaultier/news-globe/pull/60), [north and west](https://github.com/benjamin-gaultier/news-globe/pull/61). Sources live in `packages/ingest/src/sources/in-states-*.ts`.
+
+| State or union territory | Outlets | Status |
+| --- | --- | --- |
+| Andaman and Nicobar Islands | Andaman Sheekha, Andaman Chronicle | ⚠️ two outlets |
+| Andhra Pradesh | The Hindu (Andhra Pradesh), The New Indian Express (Andhra Pradesh), The South First (Andhra Pradesh) | ✅ |
+| Arunachal Pradesh | Arunachal24, Northeast Now (Arunachal Pradesh), Arunachal Observer | ✅ |
+| Assam | Times of India (Guwahati), Northeast Now (Assam) | ⚠️ two outlets (The Assam Tribune and EastMojo 403) |
+| Bihar | Times of India (Patna) | ⚠️ one outlet |
+| Chandigarh | The Tribune (Chandigarh) | ⚠️ one outlet, whose Chandigarh section shares Panchkula stories with its Haryana one |
+| Chhattisgarh | Naidunia English (Chhattisgarh), The Hindu (Chhattisgarh) | ⚠️ two outlets |
+| Dadra and Nagar Haveli and Daman and Diu | — | ❌ no outlet with a usable feed (shape kept; hidden in the list) |
+| Delhi | Times of India (Delhi), Hindustan Times (Delhi), The Indian Express (Delhi), India TV (Delhi) | ✅ |
+| Goa | Herald Goa, Times of India (Goa) | ⚠️ two outlets |
+| Gujarat | Times of India (Gujarat), The Indian Express (Ahmedabad), Vibes of India | ✅ |
+| Haryana | The Tribune (Haryana), Times of India (Gurgaon), Hindustan Times (Gurugram), The Hindu (Haryana) | ✅ |
+| Himachal Pradesh | The Tribune (Himachal) | ⚠️ one outlet |
+| Jammu and Kashmir | Greater Kashmir, The Tribune (J&K), The Hindu (Jammu and Kashmir), Kashmir Life | ✅ (Daily Excelsior 403) |
+| Jharkhand | Times of India (Ranchi) | ⚠️ one outlet |
+| Karnataka | The Hindu (Karnataka), Deccan Herald (Karnataka), Times of India (Bengaluru), The Indian Express (Bengaluru), The New Indian Express (Karnataka), Star of Mysore, The South First (Karnataka) | ✅ |
+| Kerala | The Hindu (Kerala), Times of India (Thiruvananthapuram), The New Indian Express (Kerala), Onmanorama, The South First (Kerala) | ✅ |
+| Ladakh | Greater Kashmir (Ladakh), The Hindu (Ladakh) | ⚠️ two outlets |
+| Lakshadweep | — | ❌ no outlet with a usable feed (shape kept; hidden in the list) |
+| Madhya Pradesh | Naidunia English (Madhya Pradesh), The Hindu (Madhya Pradesh) | ⚠️ two outlets |
+| Maharashtra | Times of India (Maharashtra), Hindustan Times (Mumbai, Pune), The Indian Express (Mumbai, Pune), The Hindu (Maharashtra), Mid-Day | ✅ |
+| Manipur | Imphal Times, Northeast Now (Manipur) | ⚠️ two outlets |
+| Meghalaya | Syllad, Highland Post, Northeast Now (Meghalaya) | ✅ |
+| Mizoram | Northeast Now (Mizoram) | ⚠️ one outlet |
+| Nagaland | The Morung Express, Northeast Now (Nagaland) | ⚠️ two outlets |
+| Odisha | Times of India (Bhubaneswar), The New Indian Express (Odisha), OdishaTV, Odisha Bytes | ✅ |
+| Puducherry | The Hindu (Puducherry) | ⚠️ one outlet |
+| Punjab | The Tribune (Punjab), The Indian Express (Chandigarh and Punjab), The Hindu (Punjab), Yes Punjab | ✅ |
+| Rajasthan | Times of India (Jaipur), The Hindu (Rajasthan) | ⚠️ two outlets |
+| Sikkim | — | ❌ no outlet with a usable feed (shape kept; hidden in the list) |
+| Tamil Nadu | The Hindu (Tamil Nadu), Times of India (Chennai), The New Indian Express (Tamil Nadu), DT Next (Tamil Nadu), The South First (Tamil Nadu) | ✅ |
+| Telangana | The Hindu (Telangana), Times of India (Hyderabad), The New Indian Express (Telangana), Telangana Today, The Siasat Daily (Telangana), The South First (Telangana) | ✅ (Deccan Chronicle 403) |
+| Tripura | Tripura Chronicle, Northeast Now (Tripura) | ⚠️ two outlets |
+| Uttar Pradesh | Times of India (Uttar Pradesh), Hindustan Times (Lucknow, Noida), The Indian Express (Lucknow), The Hindu (Uttar Pradesh), India TV (Uttar Pradesh) | ✅ |
+| Uttarakhand | The Hindu (Uttarakhand), Garhwal Post | ⚠️ two outlets |
+| West Bengal | The Hindu (Kolkata), Times of India (Kolkata), The Indian Express (Kolkata), TV9 Bangla, ABP Ananda | ✅ (The Telegraph and The Statesman 403) |
+
+Mexican, Argentine and Indian feeds list service pieces next to stories: legal notices ("EDICTO 455/2024", "Edicto sucesorio: …"), city weather ("Clima en Monterrey hoy: …", "Pronostican cielo despejado para este jueves") and exchange rates, dated editions and gossip columns ("Diario digital | 7 de octubre de 2026", "Bajo Reserva Hidalgo 7/10/26", "Crónica del poder / …"), obituaries and death notices ("… (Q.E.P.D)"), lottery draws ("Quiniela de Mendoza: estos son los resultados…", "Tómbola Santiagueña: los números…"), bank-discount items, casino ads, and Indian job listings ("Meghalaya Jobs 2026 : …", "Raipur Job Fair 2026: …") and live-blog headers. `isNotNews` drops these; storm news in a weather title is kept, and elsewhere the new patterns matched only a Cuban paper's edition and casino ad.
 
 **United States**
 
@@ -2513,7 +2631,7 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 
 **GDELT adapter.** Interface and stub are in [adapters/gdelt.ts](packages/ingest/src/adapters/gdelt.ts). The plan is to query the free GDELT DOC 2.0 API (`mode=ArtList`, `sourcecountry:<FIPS>`, `sourcelang:`, 6 h timespan) through the same `HttpCache` throttle. Each article's domain would count as its outlet, with a domain → authority table. GDELT uses FIPS 10-4 codes rather than ISO, so an ISO→FIPS map is needed. This is the path to covering most countries without curating feeds one by one. It returns no snippets, so `description` would be `null`.
 
-**More regions.** France, Germany, Spain, Italy, the US, Canada, Australia and Brazil have regions (see Sources). Adding a country means adding its entries to `REGIONS` ([shared](packages/shared/src/index.ts)), sources with `region`, and an outline file next to `regions-fr.json`, registered in `REGION_SHAPES` ([GlobeView.tsx](apps/web/src/components/GlobeView.tsx)). Natural Earth 10m admin-1 has states and provinces for most countries. Later, tag national outlets' stories with a region from place names in titles.
+**More regions.** France, Germany, Spain, Italy, the US, Canada, Australia, Brazil, Mexico, Argentina and India have regions (see Sources). Adding a country means adding its entries to `REGIONS` ([shared](packages/shared/src/index.ts)), sources with `region`, and an outline file next to `regions-fr.json`, registered in `REGION_SHAPES` ([GlobeView.tsx](apps/web/src/components/GlobeView.tsx)). Natural Earth 10m admin-1 has states and provinces for most countries. Later, tag national outlets' stories with a region from place names in titles.
 
 **Clustering.** Use the snippet's top tokens as a weaker second signal, and add a time-decay so a story from 40 hours ago doesn't absorb today's follow-up.
 
@@ -2527,4 +2645,5 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 - US state shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:50m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when the United States is opened.
 - Spanish and Italian region shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:10m admin-1 (public domain), whose provinces are merged into regions along their shared borders (topojson), coordinates rounded to 0.01°. Ceuta and Melilla are left out. Loaded only when Spain or Italy is opened.
 - Canadian, Australian and Brazilian region shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:50m admin-1 (public domain), coordinates rounded to 0.01°. Australia's Jervis Bay Territory is left out. Loaded only when Canada, Australia or Brazil is opened.
+- Mexican, Argentine and Indian region shapes: [Natural Earth](https://www.naturalearthdata.com/) admin-1 (public domain), 1:10m for Mexico and Argentina and 1:50m for India, coordinates rounded to 0.01°. Mexico City is relabelled from MX-DIF to MX-CMX and four Indian codes to ISO 3166-2's current ones (IN-CG, IN-OD, IN-TS, IN-UK); Mexico's unassigned islet MX-X01~ is left out. Loaded only when Mexico, Argentina or India is opened.
 - `data/sample/` is a real `pnpm ingest` output from 2026-10-06. Its relative times will read "days ago" until you run an ingest.
