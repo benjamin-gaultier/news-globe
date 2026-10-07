@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "UG",
   "countryName": "Uganda",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "UGh8TwrYt2S4",
@@ -96,7 +96,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:40:28.000Z"
     },
@@ -341,28 +341,28 @@
       "latestPublishedAt": "2026-10-05T17:25:33.000Z"
     },
     {
-      "id": "2xdc3ko5xGqr",
+      "id": "n-TztLYHbGFx",
       "representative": {
-        "id": "2xdc3ko5xGqr",
-        "url": "https://www.kfm.co.ug/adjumani-receives-ultrasound-machines-to-improve-maternal-care/",
-        "canonicalUrl": "https://www.kfm.co.ug/adjumani-receives-ultrasound-machines-to-improve-maternal-care/",
-        "title": "Adjumani receives ultrasound machines to improve maternal care",
-        "description": "By Marko Taibot ADJUMANI: Adjumani District has received five portable Point-of-Care Ultrasound machines to improve antenatal care and enable health workers to detect pregnancy complications early. The equipment, valued at about Shs100 million, was handed over on October 5 through the Ministry of…",
+        "id": "n-TztLYHbGFx",
+        "url": "https://nilepost.co.ug/news/375960/two-kcca-enforcement-officers-remanded-over-rape-cyber-harrasment",
+        "canonicalUrl": "https://nilepost.co.ug/news/375960/two-kcca-enforcement-officers-remanded-over-rape-cyber-harrasment",
+        "title": "Two KCCA Enforcement Officers Remanded Over Rape, Cyber Harrasment",
+        "description": null,
         "source": {
-          "id": "kfm",
-          "name": "KFM"
+          "id": "nilepost",
+          "name": "Nile Post"
         },
         "sourceCountry": "UG",
         "language": "en",
-        "publishedAt": "2026-10-05T13:03:45.000Z",
-        "imageUrl": null,
+        "publishedAt": "2026-10-06T13:29:52.000Z",
+        "imageUrl": "https://nilepost.co.ug/new_cms/wp-content/uploads/2026/03/HIGH-COURT2.jpeg",
         "countryCode": "UG",
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 0,
+      "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-05T13:03:45.000Z"
+      "latestPublishedAt": "2026-10-06T13:29:52.000Z"
     }
   ]
 }

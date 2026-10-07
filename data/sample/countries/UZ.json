@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "UZ",
   "countryName": "Uzbekistan",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "2QYJr2Z4UeOl",
@@ -171,48 +171,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:59:17.000Z"
-    },
-    {
-      "id": "rampwfvrvIxz",
-      "representative": {
-        "id": "rampwfvrvIxz",
-        "url": "https://kun.uz/news/2026/10/06/ozbekiston-milliy-jamoasi-ortoqlik-oyinida-janubiy-koreyaga-yutqazdi",
-        "canonicalUrl": "https://kun.uz/news/2026/10/06/ozbekiston-milliy-jamoasi-ortoqlik-oyinida-janubiy-koreyaga-yutqazdi",
-        "title": "Oʻzbekiston milliy jamoasi oʻrtoqlik oʻyinida Janubiy Koreyaga yutqazdi.",
-        "description": "Yongin shahrida Janubiy Koreya va Oʻzbekiston milliy jamoalari oʻrtoqlik oʻyinini oʻtkazdi. Bosh murabbiy Fabio Kannavaro shogirdlari 0:2 hisobida magʻlub boʻldi..",
-        "source": {
-          "id": "kun_uz",
-          "name": "Kun.uz"
-        },
-        "sourceCountry": "UZ",
-        "language": "uz",
-        "publishedAt": "2026-10-06T12:49:50.000Z",
-        "imageUrl": null,
-        "countryCode": "UZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "A90757oiSDmC",
-          "url": "https://daryo.uz/2026/10/06/ozbekiston-ortoqlik-uchrashuvida-janubiy-koreyaga-maglub-boldi/",
-          "canonicalUrl": "https://daryo.uz/2026/10/06/ozbekiston-ortoqlik-uchrashuvida-janubiy-koreyaga-maglub-boldi/",
-          "title": "O‘zbekiston milliy terma jamoasi o‘rtoqlik uchrashuvida Janubiy Koreyaga mag‘lub bo‘ldi",
-          "description": "Fabio Kannavaro shogirdlari sentyabr-oktyabr oylaridagi FIFA kunlari doirasida o‘tkazilgan so‘nggi uchrashuvda Janubiy Koreyaga 0:2 hisobida imkoniyatni boy berdi.",
-          "source": {
-            "id": "daryo",
-            "name": "Daryo"
-          },
-          "sourceCountry": "UZ",
-          "language": "uz",
-          "publishedAt": "2026-10-06T13:37:13.000Z",
-          "imageUrl": "https://gocdn.daryo.uz/large/2026/10/06/26da793341f9fa9405cbea443dbc43316b3a4a3ee6e553f6e1d6064ec61584e6.webp",
-          "countryCode": "UZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:37:13.000Z"
     },
     {
       "id": "Sr26kd4A7Yqw",
@@ -453,6 +411,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:50:00.000Z"
+    },
+    {
+      "id": "zE_wvzw-TJiI",
+      "representative": {
+        "id": "zE_wvzw-TJiI",
+        "url": "https://kun.uz/news/2026/10/06/sud-tomonidan-tegishli-materiallar-fargona-shahar-prokuroriga-jonatilgan-bogchada-bolani-tok-urish-ishida-aybdorlar-kopayishi-mumkin",
+        "canonicalUrl": "https://kun.uz/news/2026/10/06/sud-tomonidan-tegishli-materiallar-fargona-shahar-prokuroriga-jonatilgan-bogchada-bolani-tok-urish-ishida-aybdorlar-kopayishi-mumkin",
+        "title": "“Sud tomonidan tegishli materiallar Fargʻona shahar prokuroriga joʻnatilgan” – bogʻchada bolani tok urish ishida aybdorlar koʻpayishi mumkin.",
+        "description": "Fargʻona shahridagi davlat bogʻchasida 6 yoshli bola tok urishi oqibatida ogʻir jarohatlangandi. Dastlabki sudda bogʻcha tarbiyachisi, qurilish tashkiloti vakili va tuman elektr tarmoqlari korxonasi mutaxassisi aybdor deb topilgan. Apellyatsiya sudi boshqa masʼullarga nisbatan ham jinoyat ishi…",
+        "source": {
+          "id": "kun_uz",
+          "name": "Kun.uz"
+        },
+        "sourceCountry": "UZ",
+        "language": "uz",
+        "publishedAt": "2026-10-06T15:30:34.000Z",
+        "imageUrl": null,
+        "countryCode": "UZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:30:34.000Z"
     }
   ]
 }

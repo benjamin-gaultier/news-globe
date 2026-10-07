@@ -2,126 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "NO",
   "countryName": "Norway",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "Gg9V8aOmgsGn",
-      "representative": {
-        "id": "Gg9V8aOmgsGn",
-        "url": "https://www.nrk.no/nyheter/-jaktdrapet_-vil-ha-full-judisiell-observasjon-1.18046994",
-        "canonicalUrl": "https://www.nrk.no/nyheter/-jaktdrapet_-vil-ha-full-judisiell-observasjon-1.18046994",
-        "title": "Jaktdrapet: Vil ha full judisiell observasjon",
-        "description": "Den dobbeltdrapssiktede mannen i 20-årene ønsker fortsatt ikke å forklare seg for politiet. Mannens forsvarer, Ole Richard Holm-Olsen sier at det er besluttet en full judisiell observasjon av siktede. – Påtalemyndigheten har varslet at det blir besluttet fullstendig judisiell observasjon. Det er…",
-        "source": {
-          "id": "nrk",
-          "name": "NRK"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T12:26:13.000Z",
-        "imageUrl": null,
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "9gsmmAp9dOK_",
-          "url": "https://www.aftenposten.no/norge/i/xl8y1R/nrk-siktede-i-halden-drapene-skal-gjennom-full-judisiell-observasjon?utm_medium=rss",
-          "canonicalUrl": "https://www.aftenposten.no/norge/i/xl8y1R/nrk-siktede-i-halden-drapene-skal-gjennom-full-judisiell-observasjon",
-          "title": "NRK: Siktede i Halden-drapene skal gjennom full judisiell observasjon",
-          "description": "Det er varslet en grundig rettspsykiatrisk undersøkelse av mannen som er siktet for dobbeltdrapet i…",
-          "source": {
-            "id": "aftenposten",
-            "name": "Aftenposten"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T13:18:24.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/b549b8ef-24ef-324c-b41a-49988615dc0a?format=auto&w=1000&s=237baa173f23261cad77518be6cb545c02425a64",
-          "countryCode": "NO",
-          "regionCode": null
-        },
-        {
-          "id": "5YBvwXOXh1vt",
-          "url": "https://www.nettavisen.no/jaktdrapet-vil-ha-full-judisiell-observasjon-av-drapssiktede/s/30-95-23447",
-          "canonicalUrl": "https://www.nettavisen.no/jaktdrapet-vil-ha-full-judisiell-observasjon-av-drapssiktede/s/30-95-23447",
-          "title": "Jaktdrapet: Vil ha full judisiell observasjon av drapssiktede",
-          "description": "Det opplyser mannens forsvarer til Nettavisen.",
-          "source": {
-            "id": "nettavisen",
-            "name": "Nettavisen"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T12:36:03.000Z",
-          "imageUrl": "http://g.api.no/obscura/API/image/r1/cmx/tr_1920x1332_l_f/1791294175568/nettav/2026/10/06/288f4201-a0d2-4d36-b769-b4163efae53b",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:18:24.000Z"
-    },
-    {
-      "id": "VlQ7A8hlyQmh",
-      "representative": {
-        "id": "VlQ7A8hlyQmh",
-        "url": "https://www.nrk.no/nyheter/sverige-sender-luftvern-til-polen-1.18047007",
-        "canonicalUrl": "https://www.nrk.no/nyheter/sverige-sender-luftvern-til-polen-1.18047007",
-        "title": "Sverige sender luftvern til Polen",
-        "description": "Sverige sender sitt mest avanserte luftvernsystem, Patriot til Natos østflanke. Våpnene skal plasseres i Polen og bidra til forsvaret av en militærbase mot fiendtlige missiler. Rundt 100 svenske soldater og offiserer skal tjenestegjøre i Polen.",
-        "source": {
-          "id": "nrk",
-          "name": "NRK"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T12:34:17.000Z",
-        "imageUrl": null,
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "kFAukmXAmOg0",
-          "url": "https://www.aftenposten.no/verden/i/MALagm/sverige-sender-patriot-luftvern-til-polen?utm_medium=rss",
-          "canonicalUrl": "https://www.aftenposten.no/verden/i/MALagm/sverige-sender-patriot-luftvern-til-polen",
-          "title": "Sverige sender Patriot-luftvern til Polen",
-          "description": "Statsminister Ulf Kristersson (M) innkalte tirsdag ettermiddag til pressekonferanse om…",
-          "source": {
-            "id": "aftenposten",
-            "name": "Aftenposten"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T12:24:08.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/07d3862d-e715-3d24-a8ca-52517bd87e6e?format=auto&w=1000&s=f0abe9af9a4a59aa6e17c1ea4d336042dd82af1c",
-          "countryCode": "NO",
-          "regionCode": null
-        },
-        {
-          "id": "-Ah1E09Sybbl",
-          "url": "https://www.nettavisen.no/nyheter/sverige-sender-patriot-luftvern-til-polen/s/80-95-135741",
-          "canonicalUrl": "https://www.nettavisen.no/nyheter/sverige-sender-patriot-luftvern-til-polen/s/80-95-135741",
-          "title": "Sverige sender Patriot-luftvern til Polen",
-          "description": "Sverige skal sende luftvern og soldater for å sikre Natos østlige ytterflanke.",
-          "source": {
-            "id": "nettavisen",
-            "name": "Nettavisen"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T12:16:57.000Z",
-          "imageUrl": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791294175569/nettav/2026/10/6/12/cueres_scp-mangler_navn_tZQuhTDmG2Q.jpg",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:34:17.000Z"
-    },
     {
       "id": "KqZDL0TjeKZ9",
       "representative": {
@@ -289,48 +171,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:22:53.000Z"
-    },
-    {
-      "id": "s5w-bqxLXEyX",
-      "representative": {
-        "id": "s5w-bqxLXEyX",
-        "url": "https://www.vg.no/sport/i/oKWlo0/slik-blir-fotballsesongen-2027-seriestart-og-kollen-femmila-paa-samme-dag",
-        "canonicalUrl": "https://www.vg.no/sport/i/oKWlo0/slik-blir-fotballsesongen-2027-seriestart-og-kollen-femmila-paa-samme-dag",
-        "title": "Slik blir fotballsesongen 2027 – seriestart og Kollen-femmila på samme dag",
-        "description": "14. mars 2027 sparkes neste års eliteserie i fotball for menn i gang. Det er samtidig med at verdens beste langrennsløpere kjemper om femmilsseier i Holmenkollen. Slik blir sesongen.",
-        "source": {
-          "id": "vg",
-          "name": "VG"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T12:49:06.000Z",
-        "imageUrl": null,
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "bm7VIdMmeRb6",
-          "url": "https://www.nettavisen.no/sport/eliteserien-2027-terminlisten-klar-krasjer-med-holmenkollen/s/80-95-135900",
-          "canonicalUrl": "https://www.nettavisen.no/sport/eliteserien-2027-terminlisten-klar-krasjer-med-holmenkollen/s/80-95-135900",
-          "title": "Slik blir fotballsesongen 2027 – seriestart og Kollen-femmila krasjer",
-          "description": "14. mars 2027 sparkes neste års eliteserie i fotball for menn i gang. Det er samtidig med at verdens beste langrennsløpere kjemper om femmilsseier i Holmenkollen. Slik blir sesongen.",
-          "source": {
-            "id": "nettavisen",
-            "name": "Nettavisen"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T12:48:01.000Z",
-          "imageUrl": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791294175567/nettav/2026/10/6/12/+NTB.bin",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:49:06.000Z"
     },
     {
       "id": "4nMxvjLkj6Fq",
@@ -523,6 +363,113 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:29:47.000Z"
+    },
+    {
+      "id": "0hFKrh6amR2c",
+      "representative": {
+        "id": "0hFKrh6amR2c",
+        "url": "https://www.aftenposten.no/norge/i/mKr69E/lager-ny-rettspsykiatrisk-vurdering-av-22-juli-terroristen?utm_medium=rss",
+        "canonicalUrl": "https://www.aftenposten.no/norge/i/mKr69E/lager-ny-rettspsykiatrisk-vurdering-av-22-juli-terroristen",
+        "title": "Lager ny rettspsykiatrisk vurdering av 22. juli-terroristen",
+        "description": "Terroristen som drepte 77 barn og voksne i 2011, vil ut av fengsel. Nå skal risikoen ved løslatelse…",
+        "source": {
+          "id": "aftenposten",
+          "name": "Aftenposten"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:28:58.000Z",
+        "imageUrl": "https://akamai.vgc.no/v2/images/ecc1efd2-0fe0-3938-9111-1f5f54244a99?format=auto&w=1000&s=71ac9bef61a81fe46d93d1f7fbd32b0440fa3326",
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:28:58.000Z"
+    },
+    {
+      "id": "MkqC0xzOWENt",
+      "representative": {
+        "id": "MkqC0xzOWENt",
+        "url": "https://www.vg.no/nyheter/i/QgyXwQ/lekket-gta-6-detaljer",
+        "canonicalUrl": "https://www.vg.no/nyheter/i/QgyXwQ/lekket-gta-6-detaljer",
+        "title": "Lekket GTA 6-detaljer",
+        "description": null,
+        "source": {
+          "id": "vg",
+          "name": "VG"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:19:38.000Z",
+        "imageUrl": null,
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:19:38.000Z"
+    },
+    {
+      "id": "Gg9V8aOmgsGn",
+      "representative": {
+        "id": "Gg9V8aOmgsGn",
+        "url": "https://www.nrk.no/nyheter/-jaktdrapet_-vil-ha-full-judisiell-observasjon-1.18046994",
+        "canonicalUrl": "https://www.nrk.no/nyheter/-jaktdrapet_-vil-ha-full-judisiell-observasjon-1.18046994",
+        "title": "Jaktdrapet: Vil ha full judisiell observasjon",
+        "description": "Den dobbeltdrapssiktede mannen i 20-årene ønsker fortsatt ikke å forklare seg for politiet. Mannens forsvarer, Ole Richard Holm-Olsen sier at det er besluttet en full judisiell observasjon av siktede. – Påtalemyndigheten har varslet at det blir besluttet fullstendig judisiell observasjon. Det er…",
+        "source": {
+          "id": "nrk",
+          "name": "NRK"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T12:26:13.000Z",
+        "imageUrl": null,
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "9gsmmAp9dOK_",
+          "url": "https://www.aftenposten.no/norge/i/xl8y1R/nrk-siktede-i-halden-drapene-skal-gjennom-full-judisiell-observasjon?utm_medium=rss",
+          "canonicalUrl": "https://www.aftenposten.no/norge/i/xl8y1R/nrk-siktede-i-halden-drapene-skal-gjennom-full-judisiell-observasjon",
+          "title": "NRK: Siktede i Halden-drapene skal gjennom full judisiell observasjon",
+          "description": "Det er varslet en grundig rettspsykiatrisk undersøkelse av mannen som er siktet for dobbeltdrapet i…",
+          "source": {
+            "id": "aftenposten",
+            "name": "Aftenposten"
+          },
+          "sourceCountry": "NO",
+          "language": "nb",
+          "publishedAt": "2026-10-06T13:18:24.000Z",
+          "imageUrl": "https://akamai.vgc.no/v2/images/b549b8ef-24ef-324c-b41a-49988615dc0a?format=auto&w=1000&s=237baa173f23261cad77518be6cb545c02425a64",
+          "countryCode": "NO",
+          "regionCode": null
+        },
+        {
+          "id": "5YBvwXOXh1vt",
+          "url": "https://www.nettavisen.no/jaktdrapet-vil-ha-full-judisiell-observasjon-av-drapssiktede/s/30-95-23447",
+          "canonicalUrl": "https://www.nettavisen.no/jaktdrapet-vil-ha-full-judisiell-observasjon-av-drapssiktede/s/30-95-23447",
+          "title": "Jaktdrapet: Vil ha full judisiell observasjon av drapssiktede",
+          "description": "Det opplyser mannens forsvarer til Nettavisen.",
+          "source": {
+            "id": "nettavisen",
+            "name": "Nettavisen"
+          },
+          "sourceCountry": "NO",
+          "language": "nb",
+          "publishedAt": "2026-10-06T12:36:03.000Z",
+          "imageUrl": "http://g.api.no/obscura/API/image/r1/cmx/tr_1920x1332_l_f/1791294175568/nettav/2026/10/06/288f4201-a0d2-4d36-b769-b4163efae53b",
+          "countryCode": "NO",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:18:24.000Z"
     }
   ]
 }

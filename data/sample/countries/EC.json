@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "EC",
   "countryName": "Ecuador",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "VQbkK47a2pYd",
-      "representative": {
-        "id": "VQbkK47a2pYd",
-        "url": "https://eluniverso.com/economia/produccion/sote-reanudacion-bombeo-incendio-estacion-de-bombeo-de-baeza-napo-petroecuador-ecuador-2026-nota/",
-        "canonicalUrl": "https://eluniverso.com/economia/produccion/sote-reanudacion-bombeo-incendio-estacion-de-bombeo-de-baeza-napo-petroecuador-ecuador-2026-nota/",
-        "title": "Petroecuador reanuda el bombeo por el SOTE tras superar el incendio en la estación Baeza",
-        "description": "Se recuperó la capacidad de transporte de 220.000 barriles diarios y se garantiza el abastecimiento a las refinerías, así como los compromisos de exportación.",
-        "source": {
-          "id": "eluniverso",
-          "name": "El Universo"
-        },
-        "sourceCountry": "EC",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:38:26.000Z",
-        "imageUrl": "https://eluniverso.com/resizer/GoG-MeKzv5kQSLX3jUT5C6HAVe4=/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/AMD4462GDZADVNSO5EMKM2MGHA.jpg",
-        "countryCode": "EC",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rKD-rXeHImqL",
-          "url": "https://www.elcomercio.com/actualidad/negocios/petroecuador-reactiva-sote-tras-incendio-estacion-bombeo-napo/",
-          "canonicalUrl": "https://www.elcomercio.com/actualidad/negocios/petroecuador-reactiva-sote-tras-incendio-estacion-bombeo-napo/",
-          "title": "Petroecuador reactiva el Sote tras incendio en una estación de bombeo de Napo",
-          "description": "El sistema volverá a incrementar su capacidad este miércoles con una unidad adicional de bombeo.",
-          "source": {
-            "id": "elcomercio_ec",
-            "name": "El Comercio"
-          },
-          "sourceCountry": "EC",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:29:19.000Z",
-          "imageUrl": null,
-          "countryCode": "EC",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:38:26.000Z"
-    },
     {
       "id": "zcObcIw8UT1i",
       "representative": {
@@ -210,7 +168,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:59:50.000Z"
     },
@@ -374,6 +332,30 @@
         "language": "es",
         "publishedAt": "2026-10-06T14:00:00.000Z",
         "imageUrl": "https://eluniverso.com/resizer/viUCYPeplCVJzBzNzpVDWkFpPYY=/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/323MMEHYAVDVVID2JLUAT357PE.jpg",
+        "countryCode": "EC",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:00:00.000Z"
+    },
+    {
+      "id": "MRKgKbOCRm_A",
+      "representative": {
+        "id": "MRKgKbOCRm_A",
+        "url": "https://eluniverso.com/comunidad/quito/de-el-labrador-a-quitopia-la-lluvia-desnuda-las-vulnerabilidades-del-drenaje-y-prevencion-de-quito-nota/",
+        "canonicalUrl": "https://eluniverso.com/comunidad/quito/de-el-labrador-a-quitopia-la-lluvia-desnuda-las-vulnerabilidades-del-drenaje-y-prevencion-de-quito-nota/",
+        "title": "De El Labrador a Quitopía: la lluvia desnuda las vulnerabilidades del drenaje y prevención de Quito",
+        "description": "Según el Municipio, las inundaciones en Metro y Quitopía no dejaron afectaciones económicas.",
+        "source": {
+          "id": "eluniverso",
+          "name": "El Universo"
+        },
+        "sourceCountry": "EC",
+        "language": "es",
+        "publishedAt": "2026-10-06T14:00:00.000Z",
+        "imageUrl": "https://eluniverso.com/resizer/k0_gD1lxHr_YT-7bVVaSDThFuRc=/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/IO6XO5HGORDAXGILSWNVTNZHYY.jpg",
         "countryCode": "EC",
         "regionCode": null
       },

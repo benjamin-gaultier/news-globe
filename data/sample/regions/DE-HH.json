@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "DE",
+  "countryName": "Germany",
+  "regionCode": "DE-HH",
+  "regionName": "Hamburg",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "clusters": [
+    {
+      "id": "iEkVf7hRdgtq",
+      "representative": {
+        "id": "iEkVf7hRdgtq",
+        "url": "https://www.mopo.de/hamburg/entscheidung-ueber-bahnstrecke-hannover-hamburg-steht-bevor/5023880",
+        "canonicalUrl": "https://www.mopo.de/hamburg/entscheidung-ueber-bahnstrecke-hannover-hamburg-steht-bevor/5023880",
+        "title": "Entscheidung über Bahnstrecke Hannover-Hamburg steht bevor",
+        "description": "Seit vielen Jahren wird über das Projekt gestritten, nun könnte eine Entscheidung fallen. Es geht um eine Bahn-Neubaustrecke zwischen Hannover und Hamburg.",
+        "source": {
+          "id": "mopo",
+          "name": "Hamburger Morgenpost"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T19:43:35.000Z",
+        "imageUrl": "https://image.mopo.de/4003994.jpg?imageId=4003994&width=1300&height=742&format=jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [
+        {
+          "id": "KJVwS94wv5D8",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/verkehrsausschuss-stimmt-fuer-neubaustrecke-hannover-hamburg,neubaustrecke-132.html",
+          "canonicalUrl": "https://www.ndr.de/nachrichten/niedersachsen/verkehrsausschuss-stimmt-fuer-neubaustrecke-hannover-hamburg,neubaustrecke-132.html",
+          "title": "Bahnstrecke Hannover-Hamburg: Verkehrsausschuss stimmt dafür",
+          "description": "Lange wurde über die umstrittene Bahntrasse beraten. Heute hat der Verkehrsausschuss dafür gestimmt, morgen entscheidet der Bundestag.",
+          "source": {
+            "id": "ndr_hamburg",
+            "name": "NDR Hamburg"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T10:14:53.000Z",
+          "imageUrl": null,
+          "countryCode": "DE",
+          "regionCode": "DE-HH"
+        },
+        {
+          "id": "L1buUIan_62V",
+          "url": "https://hannover.t-online.de/region/hannover/id_101469908/bahnstrecke-hannover-hamburg-bundestag-entscheidet-ueber-milliardenprojekt.html",
+          "canonicalUrl": "https://hannover.t-online.de/region/hannover/id_101469908/bahnstrecke-hannover-hamburg-bundestag-entscheidet-ueber-milliardenprojekt.html",
+          "title": "Bahnstrecke Hannover-Hamburg: Bundestag entscheidet über Milliardenprojekt",
+          "description": "Eine neue Bahnverbindung soll zwischen Hannover und Hamburg entstehen. Der Bundestag hat offenbar dafür gestimmt.",
+          "source": {
+            "id": "tonline_hamburg",
+            "name": "t-online Hamburg"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T08:20:32.000Z",
+          "imageUrl": "https://images.t-online.de/2026/10/q279wFNJAG3R/0x88:2048x1152/fit-in/1200x0/ein-ice-der-deutschen-bahn-faehrt-auf-der-strecke-goettingen-hannover-hamburg-zu-dpa-weg-frei-fuer-bahn-neubaustrecke-hannover-hamburg.jpg",
+          "countryCode": "DE",
+          "regionCode": "DE-HH"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T10:14:53.000Z"
+    },
+    {
+      "id": "MTvwmc3ZguOm",
+      "representative": {
+        "id": "MTvwmc3ZguOm",
+        "url": "https://www.abendblatt.de/hamburg/politik/article411392506/christina-block-verdeckter-ermittler-hat-ex-bnd-chef-august-hanning-ausgespaeht-was-er-herausfand-2.html",
+        "canonicalUrl": "https://www.abendblatt.de/hamburg/politik/article411392506/christina-block-verdeckter-ermittler-hat-ex-bnd-chef-august-hanning-ausgespaeht-was-er-herausfand-2.html",
+        "title": "Fall Block: Verdeckter Ermittler hat Ex-BND-Chef Hanning ausgespäht",
+        "description": "Spion gegen Spion: Staatsanwaltschaft und Polizei bereiteten Razzia heimlich vor. Es geht um die Hintergründe zu Christina Block. Innensenator Grote äußert sich.",
+        "source": {
+          "id": "abendblatt",
+          "name": "Hamburger Abendblatt"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T09:40:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/410342176/410342176_1772921047_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [
+        {
+          "id": "65oefxKRPPSx",
+          "url": "https://www.mopo.de/hamburg/spionageverdacht-ex-bnd-chef-hanning-muss-in-u-haft/5024964",
+          "canonicalUrl": "https://www.mopo.de/hamburg/spionageverdacht-ex-bnd-chef-hanning-muss-in-u-haft/5024964",
+          "title": "Spionageverdacht: Ex-BND-Chef Hanning muss in U-Haft",
+          "description": "Wegen Spionageverdacht muss der ehemalige Chef des Bundesnachrichtendiensts, August Hanning, in U-Haft.",
+          "source": {
+            "id": "mopo",
+            "name": "Hamburger Morgenpost"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T12:00:00.000Z",
+          "imageUrl": "https://image.mopo.de/4003994.jpg?imageId=4003994&width=1300&height=742&format=jpg",
+          "countryCode": "DE",
+          "regionCode": "DE-HH"
+        },
+        {
+          "id": "hT747XkrOgBv",
+          "url": "https://www.ndr.de/fernsehen/sendungen/hamburg_journal/spionageverdacht-ex-bnd-praesident-hanning-festgenommen,hamj-15292.html",
+          "canonicalUrl": "https://www.ndr.de/fernsehen/sendungen/hamburg_journal/spionageverdacht-ex-bnd-praesident-hanning-festgenommen,hamj-15292.html",
+          "title": "Spionageverdacht: Ex-BND-Präsident Hanning festgenommen",
+          "description": "August Hanning soll Dokumente an fremde Nachrichtendienste veräußert haben. Die Beweismittel tauchten am Rande des Block-Prozesses auf.",
+          "source": {
+            "id": "ndr_hamburg",
+            "name": "NDR Hamburg"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T17:47:45.000Z",
+          "imageUrl": null,
+          "countryCode": "DE",
+          "regionCode": "DE-HH"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "PyT8ekE3CmM-",
+      "representative": {
+        "id": "PyT8ekE3CmM-",
+        "url": "https://www.abendblatt.de/hamburg/altona/article413334382/steffen-henssler-hamburger-tv-koch-verraet-den-trick-so-schmeckt-die-pasta-wie-beim-italiener.html",
+        "canonicalUrl": "https://www.abendblatt.de/hamburg/altona/article413334382/steffen-henssler-hamburger-tv-koch-verraet-den-trick-so-schmeckt-die-pasta-wie-beim-italiener.html",
+        "title": "Steffen Henssler verrät den Trick: So schmeckt die Pasta wie beim Italiener",
+        "description": "In seinem neuen Kochbuch widmet sich der Gastronom Nudelgerichten aus der ganzen Welt. Was der 54-jährige Unternehmer ansonsten plant.",
+        "source": {
+          "id": "abendblatt",
+          "name": "Hamburger Abendblatt"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T14:31:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413347182/413347182_1791295878_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [
+        {
+          "id": "6ZKefremP8JL",
+          "url": "https://hamburg.t-online.de/region/hamburg/id_101469694/zum-nachkochen-hamburger-steffen-henssler-verraet-trick-fuer-leckere-nudeln.html",
+          "canonicalUrl": "https://hamburg.t-online.de/region/hamburg/id_101469694/zum-nachkochen-hamburger-steffen-henssler-verraet-trick-fuer-leckere-nudeln.html",
+          "title": "Zum Nachkochen: Hamburger Steffen Henssler verrät Trick für leckere Nudeln",
+          "description": "In Hamburg stellt Steffen Henssler sein neues Nudel-Kochbuch vor. Dabei nennt der TV-Koch den Fehler, den Hobbyköche unbedingt vermeiden sollten.",
+          "source": {
+            "id": "tonline_hamburg",
+            "name": "t-online Hamburg"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T11:03:01.000Z",
+          "imageUrl": "https://images.t-online.de/2026/05/bcSInJZXcPCS/317x222:3455x1944/fit-in/1200x0/neben-den-nudelgerichten-enthaelt-sein-neues-buch-ein-kurzes-nudel-know-how-und-grundrezepte-fuer-verschiedene-nudelteige.jpg",
+          "countryCode": "DE",
+          "regionCode": "DE-HH"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:03:01.000Z"
+    },
+    {
+      "id": "7rthsLN1Dv3u",
+      "representative": {
+        "id": "7rthsLN1Dv3u",
+        "url": "https://www.abendblatt.de/hamburg/hamburg-mitte/article413352409/angriff-am-hamburger-hauptbahnhof-mann-schlaegt-um-sich-und-verletzt-db-mitarbeitende.html",
+        "canonicalUrl": "https://www.abendblatt.de/hamburg/hamburg-mitte/article413352409/angriff-am-hamburger-hauptbahnhof-mann-schlaegt-um-sich-und-verletzt-db-mitarbeitende.html",
+        "title": "Angriff am Hauptbahnhof: Mann schlägt um sich und verletzt DB-Mitarbeitende",
+        "description": "30-Jähriger soll den Hauptbahnhof verlassen. Als er wiederkommt, eskaliert die Situation und er schlägt um sich. Bundespolizei muss einschreiten.",
+        "source": {
+          "id": "abendblatt",
+          "name": "Hamburger Abendblatt"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T08:47:40.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/411742504/411742504_1791362859_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [
+        {
+          "id": "kco0xPF6Zr6v",
+          "url": "https://www.ndr.de/nachrichten/hamburg/hauptbahnhof-mann-schlaegt-mitarbeiter-des-sicherheitsdienstes,kurzehh-4530.html",
+          "canonicalUrl": "https://www.ndr.de/nachrichten/hamburg/hauptbahnhof-mann-schlaegt-mitarbeiter-des-sicherheitsdienstes,kurzehh-4530.html",
+          "title": "Hauptbahnhof: Mann schlägt Mitarbeiter des Sicherheitsdienstes",
+          "description": "Im Hamburger Hauptbahnhof soll ein Mann am Dienstagmorgen zwei Sicherheitsleute der Bahn geschlagen haben. Gegen ihn wird wegen Körperverletzung ermittelt.",
+          "source": {
+            "id": "ndr_hamburg",
+            "name": "NDR Hamburg"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T08:19:18.000Z",
+          "imageUrl": null,
+          "countryCode": "DE",
+          "regionCode": "DE-HH"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T08:47:40.000Z"
+    },
+    {
+      "id": "SXZ9b2N6s6D_",
+      "representative": {
+        "id": "SXZ9b2N6s6D_",
+        "url": "https://www.mopo.de/hamburg/ausgerechnet-heute-verfassungsschutz-warnt-vor-gaza-demo-in-hamburg/5018348",
+        "canonicalUrl": "https://www.mopo.de/hamburg/ausgerechnet-heute-verfassungsschutz-warnt-vor-gaza-demo-in-hamburg/5018348",
+        "title": "Ausgerechnet heute: Verfassungsschutz warnt vor Gaza-Demo in Hamburg",
+        "description": "Der Verfassungsschutz hat eine propalästinensische Demonstration am 7. Oktober im Auge.",
+        "source": {
+          "id": "mopo",
+          "name": "Hamburger Morgenpost"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T05:00:00.000Z",
+        "imageUrl": "https://image.mopo.de/4003994.jpg?imageId=4003994&width=1300&height=742&format=jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [
+        {
+          "id": "6S0FGxuRa6qi",
+          "url": "https://hamburg.t-online.de/region/hamburg/id_101469128/-genozid-demo-in-hamburg-verfassungsschutz-warnt-vor-israel-feinden.html",
+          "canonicalUrl": "https://hamburg.t-online.de/region/hamburg/id_101469128/-genozid-demo-in-hamburg-verfassungsschutz-warnt-vor-israel-feinden.html",
+          "title": "\"Genozid\"-Demo in Hamburg: Verfassungsschutz warnt vor Israel-Feinden",
+          "description": "Am Jahrestag des Hamas-Terrorangriffs ist eine propalästinensische Demonstration geplant. Verfassungsschutz, Antisemitismusbeauftragte und Politiker reagieren deutlich.",
+          "source": {
+            "id": "tonline_hamburg",
+            "name": "t-online Hamburg"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T14:55:00.000Z",
+          "imageUrl": "https://images.t-online.de/2026/10/jsLrWinceqKt/1138x321:4346x2445/fit-in/1200x0/teilnehmer-einer-pro-palaestina-demonstration-von-thawra-hamburg-archivbild-die-gruppe-gilt-als-extremistischer-verdachtsfall.jpg",
+          "countryCode": "DE",
+          "regionCode": "DE-HH"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T05:00:00.000Z"
+    },
+    {
+      "id": "2OhqFT76Dvqj",
+      "representative": {
+        "id": "2OhqFT76Dvqj",
+        "url": "https://www.mopo.de/hamburg/politik/hamburg-macht-ns-gedenkstaettenbesuch-fuer-schueler-zur-pflicht/5023469",
+        "canonicalUrl": "https://www.mopo.de/hamburg/politik/hamburg-macht-ns-gedenkstaettenbesuch-fuer-schueler-zur-pflicht/5023469",
+        "title": "Hamburg macht NS-Gedenkstättenbesuch für Schüler zur Pflicht",
+        "description": "„Die Erinnerung am Küchentisch gibt es nicht mehr“, sagt Bildungssenatorin Bekeris. Kultursenator Brosda weist mit aktuellen Parallelen auf die „Wichtigkeit historischer Bildung“ hin.",
+        "source": {
+          "id": "mopo",
+          "name": "Hamburger Morgenpost"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T13:25:55.000Z",
+        "imageUrl": "https://image.mopo.de/4003994.jpg?imageId=4003994&width=1300&height=742&format=jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [
+        {
+          "id": "ujmAmjZLHtLC",
+          "url": "https://www.ndr.de/nachrichten/hamburg/ns-gedenkstaetten-besuche-fuer-hamburger-schueler-kuenftig-pflicht,gedenkstaettenbesuch-100.html",
+          "canonicalUrl": "https://www.ndr.de/nachrichten/hamburg/ns-gedenkstaetten-besuche-fuer-hamburger-schueler-kuenftig-pflicht,gedenkstaettenbesuch-100.html",
+          "title": "NS-Gedenkstätten: Besuche für Hamburger Schüler künftig Pflicht",
+          "description": "Mindestens einmal sollen sie eine Gedenkstätte besuchen, die an die Verbrechen des Nationalsozialismus erinnert. Das haben Bildungs- und Kulturbehörde angekündigt.",
+          "source": {
+            "id": "ndr_hamburg",
+            "name": "NDR Hamburg"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T18:57:35.000Z",
+          "imageUrl": null,
+          "countryCode": "DE",
+          "regionCode": "DE-HH"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T18:57:35.000Z"
+    },
+    {
+      "id": "zqAL6a1_CSau",
+      "representative": {
+        "id": "zqAL6a1_CSau",
+        "url": "https://www.abendblatt.de/hamburg/kultur/article413225705/jazz-in-hamburg-diese-sechs-konzerte-sollten-sie-im-oktober-nicht-verpassen.html",
+        "canonicalUrl": "https://www.abendblatt.de/hamburg/kultur/article413225705/jazz-in-hamburg-diese-sechs-konzerte-sollten-sie-im-oktober-nicht-verpassen.html",
+        "title": "Jazzhauptstadt Hamburg: Diese Konzerte lohnen sich im Oktober ganz besonders",
+        "description": "Eine Bassistin mit Jazzfunk im Blut, ein Schlagzeuger, den auch Rockfans lieben, eine Legende neu entdeckt: Diese Konzerte dürften sich lohnen.",
+        "source": {
+          "id": "abendblatt",
+          "name": "Hamburger Abendblatt"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T14:01:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413348854/413348854_1791295266_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [
+        {
+          "id": "YI7BWilUXwbU",
+          "url": "https://hamburg.t-online.de/region/hamburg/id_101469056/konzerte-in-hamburg-diese-stars-kommen-im-oktober-2026-uebersicht.html",
+          "canonicalUrl": "https://hamburg.t-online.de/region/hamburg/id_101469056/konzerte-in-hamburg-diese-stars-kommen-im-oktober-2026-uebersicht.html",
+          "title": "Konzerte in Hamburg: Diese Stars kommen im Oktober 2026 – Übersicht",
+          "description": "Große Arena-Shows, enge Clubnächte und Klassik dazwischen: Hamburg bietet im Oktober Konzertabende für sehr unterschiedliche Geschmäcker.",
+          "source": {
+            "id": "tonline_hamburg",
+            "name": "t-online Hamburg"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-06T14:22:43.000Z",
+          "imageUrl": "https://images.t-online.de/2026/10/IqhiAvKRBU5U/615x322:2819x1586/fit-in/1200x0/apache-207-auf-der-buehne-archivbild-der-erfolgreiche-rapper-tritt-im-oktober-gleich-zweimal-in-hamburg-auf.jpg",
+          "countryCode": "DE",
+          "regionCode": "DE-HH"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:22:43.000Z"
+    },
+    {
+      "id": "UxVW8ZZwTS_n",
+      "representative": {
+        "id": "UxVW8ZZwTS_n",
+        "url": "https://www.mopo.de/hamburg/polizei/kontrolle-in-waffenverbotszone-polizei-wird-fuendig-und-nimmt-einen-mann-fest/5024918",
+        "canonicalUrl": "https://www.mopo.de/hamburg/polizei/kontrolle-in-waffenverbotszone-polizei-wird-fuendig-und-nimmt-einen-mann-fest/5024918",
+        "title": "Kontrolle in Waffenverbotszone: Polizei wird fündig – und nimmt einen Mann fest",
+        "description": "Kontrolle rund um den S-Bahnhof Jungfernstieg: Dabei werden auch ein Teleskopschlagstock und eine Pfefferspray-Pistole entdeckt.",
+        "source": {
+          "id": "mopo",
+          "name": "Hamburger Morgenpost"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:48:25.000Z",
+        "imageUrl": "https://image.mopo.de/4003994.jpg?imageId=4003994&width=1300&height=742&format=jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:48:25.000Z"
+    },
+    {
+      "id": "urM6sBN96zWc",
+      "representative": {
+        "id": "urM6sBN96zWc",
+        "url": "https://www.abendblatt.de/hamburg/politik/article413352548/hamburg-hannover-wie-fahrgaeste-und-wirtschaft-vom-strecken-neubau-profitieren.html",
+        "canonicalUrl": "https://www.abendblatt.de/hamburg/politik/article413352548/hamburg-hannover-wie-fahrgaeste-und-wirtschaft-vom-strecken-neubau-profitieren.html",
+        "title": "Hamburg-Hannover: Wie Fahrgäste und Wirtschaft vom Strecken-Neubau profitieren",
+        "description": "ICE werden schneller, Regionalbahnen pünktlicher – das ist das Versprechen der Deutschen Bahn. Doch der Neubau Hamburg-Hannover hat auch Tücken.",
+        "source": {
+          "id": "abendblatt",
+          "name": "Hamburger Abendblatt"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:45:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/401362542/401362542_1791377086_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:45:00.000Z"
+    },
+    {
+      "id": "ViFdjF6NI0L6",
+      "representative": {
+        "id": "ViFdjF6NI0L6",
+        "url": "https://www.abendblatt.de/hamburg/wirtschaft/article413354149/machtwort-aus-berlin-chinesen-duerfen-nicht-bei-hamburger-spedition-einsteigen.html",
+        "canonicalUrl": "https://www.abendblatt.de/hamburg/wirtschaft/article413354149/machtwort-aus-berlin-chinesen-duerfen-nicht-bei-hamburger-spedition-einsteigen.html",
+        "title": "„Sicherheit gefährdet“: Chinesen dürfen nicht bei Hamburger Spedition einsteigen",
+        "description": "Bundesregierung untersagt chinesischer Reederei Cosco die Übernahme von 80 Prozent der Hamburger Zippel Gruppe. So reagieren die Eigentümer.",
+        "source": {
+          "id": "abendblatt",
+          "name": "Hamburger Abendblatt"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:45:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/412839096/412839096_1786530281_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:45:00.000Z"
+    },
+    {
+      "id": "j7kHVjhS5RBq",
+      "representative": {
+        "id": "j7kHVjhS5RBq",
+        "url": "https://www.ndr.de/nachrichten/hamburg/drei-jahre-nach-hamas-angriff-gedenken-und-demos-in-hamburg,gedenken-israel-104.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/hamburg/drei-jahre-nach-hamas-angriff-gedenken-und-demos-in-hamburg,gedenken-israel-104.html",
+        "title": "Drei Jahre nach Hamas-Angriff: Gedenken und Demos in Hamburg",
+        "description": "Der Terrorangriff der Hamas auf Israel jährt sich zum dritten Mal. In Hamburg wird heute an die antisemitischen Angriffe erinnert. Es gibt auch eine propalästinensische Demo.",
+        "source": {
+          "id": "ndr_hamburg",
+          "name": "NDR Hamburg"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:31:18.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:31:18.000Z"
+    },
+    {
+      "id": "t23L9Fh3FlZh",
+      "representative": {
+        "id": "t23L9Fh3FlZh",
+        "url": "https://www.abendblatt.de/hamburg/wandsbek/article413340634/polizei-hamburg-geld-schmuck-auto-ein-tresor-dreiste-diebe-brechen-in-dulsberger-haus-ein-1.html",
+        "canonicalUrl": "https://www.abendblatt.de/hamburg/wandsbek/article413340634/polizei-hamburg-geld-schmuck-auto-ein-tresor-dreiste-diebe-brechen-in-dulsberger-haus-ein-1.html",
+        "title": "Geld, Schmuck, Auto, ein Tresor – dreiste Diebe brechen in Hamburger Haus ein",
+        "description": "Bewohner waren zwei Wochen nicht zu Hause, als die Täter in Dulsberg zuschlugen. Was sie stahlen. „Dunkle Jahreszeit“ beginnt.",
+        "source": {
+          "id": "abendblatt",
+          "name": "Hamburger Abendblatt"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:22:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413215142/413215142_1791213412_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:22:00.000Z"
+    },
+    {
+      "id": "Lc4pgYca67eR",
+      "representative": {
+        "id": "Lc4pgYca67eR",
+        "url": "https://www.ndr.de/nachrichten/hamburg/schulausschuss-dabattiert-ueber-kuerzungen-in-hamburger-ganztagsgrundschulen,schulausschuss-100.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/hamburg/schulausschuss-dabattiert-ueber-kuerzungen-in-hamburger-ganztagsgrundschulen,schulausschuss-100.html",
+        "title": "Schulausschuss dabattiert über Kürzungen in Hamburger Ganztagsgrundschulen",
+        "description": "An gebundenen Ganztagsschulen sollen bald Erzieher den Nachmittagsunterricht übernehmen. Das wollen Eltern verhindern.",
+        "source": {
+          "id": "ndr_hamburg",
+          "name": "NDR Hamburg"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:05:17.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:05:17.000Z"
+    },
+    {
+      "id": "I7BFOxiNLne2",
+      "representative": {
+        "id": "I7BFOxiNLne2",
+        "url": "https://hamburg.t-online.de/region/hamburg/id_101470418/er-ist-83-ddr-schlagerstar-tritt-im-dezember-in-hamburg-auf.html",
+        "canonicalUrl": "https://hamburg.t-online.de/region/hamburg/id_101470418/er-ist-83-ddr-schlagerstar-tritt-im-dezember-in-hamburg-auf.html",
+        "title": "Er ist 83: DDR-Schlagerstar tritt im Dezember in Hamburg auf",
+        "description": "Noch in diesem Jahr tritt Frank Schöbel in Hamburg auf. Der DDR-Star kommt mit seinem Weihnachtsprogramm in die Laeiszhalle, kurz vor seinem 84. Geburtstag.",
+        "source": {
+          "id": "tonline_hamburg",
+          "name": "t-online Hamburg"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:57:06.000Z",
+        "imageUrl": "https://images.t-online.de/2026/10/y0gmEdE46Eu9/0x0:6208x3492/fit-in/1200x0/inzwischen-lebt-der-musiker-mit-seiner-partnerin-in-der-hauptstadt.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:57:06.000Z"
+    },
+    {
+      "id": "mSaRjSlAyaau",
+      "representative": {
+        "id": "mSaRjSlAyaau",
+        "url": "https://www.mopo.de/hamburg/gleich-zwei-u-bahnstrecken-in-hamburg-fuer-mehrere-wochen-gesperrt/5024627",
+        "canonicalUrl": "https://www.mopo.de/hamburg/gleich-zwei-u-bahnstrecken-in-hamburg-fuer-mehrere-wochen-gesperrt/5024627",
+        "title": "Gleich zwei U-Bahnstrecken in Hamburg für mehrere Wochen gesperrt",
+        "description": "Auf Fahrgäste der U-Bahn-Linie U3 kommen in den nächsten Wochen gleich zwei größere Sperrungen zu. Die Hochbahn erneuert Gleise und Schwellen. Welche Streckenabschnitte betroffen sind.",
+        "source": {
+          "id": "mopo",
+          "name": "Hamburger Morgenpost"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:43:42.000Z",
+        "imageUrl": "https://image.mopo.de/4003994.jpg?imageId=4003994&width=1300&height=742&format=jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-HH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:43:42.000Z"
+    }
+  ]
+}

@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "BF",
   "countryName": "Burkina Faso",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "HHAMyQJhLM7K",
-      "representative": {
-        "id": "HHAMyQJhLM7K",
-        "url": "https://burkina24.com/2026/10/06/mamadou-zongo-dit-bebeto-entraine-desormais-les-etalons-u17/",
-        "canonicalUrl": "https://burkina24.com/2026/10/06/mamadou-zongo-dit-bebeto-entraine-desormais-les-etalons-u17/",
-        "title": "Mamadou Zongo dit Bébéto entraîne désormais les Étalons U17",
-        "description": "Mamadou Zongo dit Bébéto est désormais le sélectionneur des Etalons U17. La Fédération burkinabè de football (FBF) l’a annoncé à travers un communiqué ce mardi 06 octobre 2026. La nomination de Mamadou Zongo dit Bébéto, également entraîneur de Vitesse FC, club de première division, intervient…",
-        "source": {
-          "id": "burkina24",
-          "name": "Burkina24"
-        },
-        "sourceCountry": "BF",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:35:22.000Z",
-        "imageUrl": null,
-        "countryCode": "BF",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "G5Ow2RK4Btip",
-          "url": "https://www.wakatsera.com/entraineurs-des-etalons-issa-balbone-pour-les-dames-mamadou-zongo-pour-les-u17/",
-          "canonicalUrl": "https://www.wakatsera.com/entraineurs-des-etalons-issa-balbone-pour-les-dames-mamadou-zongo-pour-les-u17/",
-          "title": "Entraîneurs des Etalons: Issa Balboné pour les Dames, Mamadou Zongo pour les U17",
-          "description": "La Fédération burkinabè de football (FBF) a retenu l’entraineur Issa Balboné pour coacher les Etalons Dames de l’équipe A et Mamadou Zongo comme nouveau sélectionneur des Etalons U17, selon un communiqué, ce mardi 6 octobre 2026. COMMUNIQUÉ La Fédération Burkinabè de Football (FBF) informe…",
-          "source": {
-            "id": "wakatsera",
-            "name": "Wakat Séra"
-          },
-          "sourceCountry": "BF",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:34:51.000Z",
-          "imageUrl": null,
-          "countryCode": "BF",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:56:13.000Z"
-    },
     {
       "id": "VlCtQgd8Y2Hx",
       "representative": {
@@ -167,6 +125,48 @@
       "latestPublishedAt": "2026-10-06T14:14:24.000Z"
     },
     {
+      "id": "HHAMyQJhLM7K",
+      "representative": {
+        "id": "HHAMyQJhLM7K",
+        "url": "https://burkina24.com/2026/10/06/mamadou-zongo-dit-bebeto-entraine-desormais-les-etalons-u17/",
+        "canonicalUrl": "https://burkina24.com/2026/10/06/mamadou-zongo-dit-bebeto-entraine-desormais-les-etalons-u17/",
+        "title": "Mamadou Zongo dit Bébéto entraîne désormais les Étalons U17",
+        "description": "Mamadou Zongo dit Bébéto est désormais le sélectionneur des Etalons U17. La Fédération burkinabè de football (FBF) l’a annoncé à travers un communiqué ce mardi 06 octobre 2026. La nomination de Mamadou Zongo dit Bébéto, également entraîneur de Vitesse FC, club de première division, intervient…",
+        "source": {
+          "id": "burkina24",
+          "name": "Burkina24"
+        },
+        "sourceCountry": "BF",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:35:22.000Z",
+        "imageUrl": null,
+        "countryCode": "BF",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "G5Ow2RK4Btip",
+          "url": "https://www.wakatsera.com/entraineurs-des-etalons-issa-balbone-pour-les-dames-mamadou-zongo-pour-les-u17/",
+          "canonicalUrl": "https://www.wakatsera.com/entraineurs-des-etalons-issa-balbone-pour-les-dames-mamadou-zongo-pour-les-u17/",
+          "title": "Entraîneurs des Etalons: Issa Balboné pour les Dames, Mamadou Zongo pour les U17",
+          "description": "La Fédération burkinabè de football (FBF) a retenu l’entraineur Issa Balboné pour coacher les Etalons Dames de l’équipe A et Mamadou Zongo comme nouveau sélectionneur des Etalons U17, selon un communiqué, ce mardi 6 octobre 2026. COMMUNIQUÉ La Fédération Burkinabè de Football (FBF) informe…",
+          "source": {
+            "id": "wakatsera",
+            "name": "Wakat Séra"
+          },
+          "sourceCountry": "BF",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:34:51.000Z",
+          "imageUrl": null,
+          "countryCode": "BF",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:56:13.000Z"
+    },
+    {
       "id": "nNIlbdYKaxJ3",
       "representative": {
         "id": "nNIlbdYKaxJ3",
@@ -210,7 +210,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:48:37.000Z"
     },
@@ -239,30 +239,6 @@
       "latestPublishedAt": "2026-10-06T12:08:53.000Z"
     },
     {
-      "id": "9LCjNyF6xdsy",
-      "representative": {
-        "id": "9LCjNyF6xdsy",
-        "url": "https://burkina24.com/2026/10/06/port-du-casque-les-controles-sintensifient/",
-        "canonicalUrl": "https://burkina24.com/2026/10/06/port-du-casque-les-controles-sintensifient/",
-        "title": "Port du casque : Les contrôles s’intensifient",
-        "description": "Le lundi 5 octobre 2026, la Direction régionale de la police du Kadiogo a déployé des patrouilles dans plusieurs carrefours stratégiques de Ouagadougou. L’objectif était de vérifier l’application stricte du port du casque obligatoire par les conducteurs d’engins à deux et trois roues, une mesure…",
-        "source": {
-          "id": "burkina24",
-          "name": "Burkina24"
-        },
-        "sourceCountry": "BF",
-        "language": "fr",
-        "publishedAt": "2026-10-06T11:24:17.000Z",
-        "imageUrl": null,
-        "countryCode": "BF",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:24:17.000Z"
-    },
-    {
       "id": "Uyc_5RipI9Vn",
       "representative": {
         "id": "Uyc_5RipI9Vn",
@@ -285,6 +261,30 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:58:38.000Z"
+    },
+    {
+      "id": "9LCjNyF6xdsy",
+      "representative": {
+        "id": "9LCjNyF6xdsy",
+        "url": "https://burkina24.com/2026/10/06/port-du-casque-les-controles-sintensifient/",
+        "canonicalUrl": "https://burkina24.com/2026/10/06/port-du-casque-les-controles-sintensifient/",
+        "title": "Port du casque : Les contrôles s’intensifient",
+        "description": "Le lundi 5 octobre 2026, la Direction régionale de la police du Kadiogo a déployé des patrouilles dans plusieurs carrefours stratégiques de Ouagadougou. L’objectif était de vérifier l’application stricte du port du casque obligatoire par les conducteurs d’engins à deux et trois roues, une mesure…",
+        "source": {
+          "id": "burkina24",
+          "name": "Burkina24"
+        },
+        "sourceCountry": "BF",
+        "language": "fr",
+        "publishedAt": "2026-10-06T11:24:17.000Z",
+        "imageUrl": null,
+        "countryCode": "BF",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:24:17.000Z"
     },
     {
       "id": "6uJHj6j7V_rk",

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DK",
   "countryName": "Denmark",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "M7oxBX7512mb",
@@ -59,7 +59,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 3,
+      "outletCount24h": 1,
       "outletCount": 3,
       "latestPublishedAt": "2026-10-06T13:42:45.000Z"
     },
@@ -251,7 +251,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:59:24.000Z"
     },
@@ -275,7 +275,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:24.000Z"
     },
@@ -299,7 +299,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:49:37.000Z"
     },
@@ -341,33 +341,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:27:29.000Z"
-    },
-    {
-      "id": "1ClL9SECMVjw",
-      "representative": {
-        "id": "1ClL9SECMVjw",
-        "url": "https://politiken.dk/danmark/sundhed/art10995749/Det-er-ikke-super-gener-der-redder-franskm%C3%A6ndenes-hjerter-fra-osten",
-        "canonicalUrl": "https://politiken.dk/danmark/sundhed/art10995749/Det-er-ikke-super-gener-der-redder-franskm%C3%A6ndenes-hjerter-fra-osten",
-        "title": "Klarlund til læser: Det er ikke super-gener, der redder franskmændenes hjerter fra osten",
-        "description": "Bente Klarlund svarer på spørgsmål fra læserne. Denne gang om hvorvidt kaffe tæller som væske, og om det såkaldt ’franske paradoks’.",
-        "source": {
-          "id": "politiken",
-          "name": "Politiken"
-        },
-        "sourceCountry": "DK",
-        "language": "da",
-        "publishedAt": "2026-10-06T12:09:19.000Z",
-        "imageUrl": "https://politiken.dk/incoming/img10996259.3341qy/ORIGINALS/original_960/STUDIE-produkttest%20af%20haloumi-og%20Danbo-ost",
-        "countryCode": "DK",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:09:19.000Z"
     },
     {
       "id": "UuAkxCn6ZDVH",
@@ -389,7 +365,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:06:48.000Z"
     },
@@ -413,9 +389,33 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:01:01.000Z"
+    },
+    {
+      "id": "H5Aoma2COCEf",
+      "representative": {
+        "id": "H5Aoma2COCEf",
+        "url": "https://www.berlingske.dk/politik/seneste-nyt-om-dansk-politik--foelg-udviklingen-her-4?referrer=RSS",
+        "canonicalUrl": "https://www.berlingske.dk/politik/seneste-nyt-om-dansk-politik--foelg-udviklingen-her-4?referrer=RSS",
+        "title": "Seneste nyt om dansk politik – følg udviklingen her",
+        "description": "Folketinget åbner i dag, tirsdag den 6. oktober, og næste års finanslov er på vej – få seneste nyt om dansk politik her.",
+        "source": {
+          "id": "berlingske",
+          "name": "Berlingske"
+        },
+        "sourceCountry": "DK",
+        "language": "da",
+        "publishedAt": "2026-10-06T13:00:19.000Z",
+        "imageUrl": "https://akamai-aptoma-production.bmcdn.dk/users/berlingske/images/163615925.webp?t[strip]=true&t[quality]=70&accessToken=cef6ade3e7940ff67acd3d07b049ff26e1b3a208749b8d36b6ac2200b75038d0",
+        "countryCode": "DK",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:19.000Z"
     }
   ]
 }

@@ -2,109 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "EE",
   "countryName": "Estonia",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "yo3Xy8S54iLG",
-      "representative": {
-        "id": "yo3Xy8S54iLG",
-        "url": "https://www.err.ee/1610158009/politsei-pidas-kinni-kuus-ebaseadusliku-rande-korraldamises-kahtlustatavat",
-        "canonicalUrl": "https://www.err.ee/1610158009/politsei-pidas-kinni-kuus-ebaseadusliku-rande-korraldamises-kahtlustatavat",
-        "title": "Politsei pidas kinni kuus ebaseadusliku rände korraldamises kahtlustatavat",
-        "description": "Viimasel paaril päeval on politsei kinni pidanud kuus välismaalast, keda kahtlustatakse ebaseadusliku rände korraldamises ja lisaks 19 inimest, kes on nendega koos Eestisse seadusliku aluseta tulnud välismaalased. Prokuratuur taotleb kuue kahtlustatava vahistamist või kohest karistamist…",
-        "source": {
-          "id": "err",
-          "name": "ERR"
-        },
-        "sourceCountry": "EE",
-        "language": "et",
-        "publishedAt": "2026-10-06T11:35:00.000Z",
-        "imageUrl": "https://s.err.ee/photo/crop/2026/10/06/3831949h75fft4.png",
-        "countryCode": "EE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "NVgR5ousikDh",
-          "url": "https://www.ohtuleht.ee/1168417/politsei-pidas-parnus-kinni-kaks-tapmises-kahtlustatavat-meest",
-          "canonicalUrl": "https://www.ohtuleht.ee/1168417/politsei-pidas-parnus-kinni-kaks-tapmises-kahtlustatavat-meest",
-          "title": "Politsei pidas Pärnus kinni kaks tapmises kahtlustatavat meest",
-          "description": "Politseinikud pidasid esmaspäeva õhtul Pärnus kinni 23aastase mehe, keda kahtlustatakse oma tuttava tapmises. Teisipäeval peeti kinni ka 39aastane mees, kelle seost juhtunuga politsei selgitab.",
-          "source": {
-            "id": "ohtuleht",
-            "name": "Õhtuleht"
-          },
-          "sourceCountry": "EE",
-          "language": "et",
-          "publishedAt": "2026-10-06T13:01:49.000Z",
-          "imageUrl": "https://p.ohtuleht.ee/webp/60/i/2026/10/6/bbeqjgip.tai.jpg",
-          "countryCode": "EE",
-          "regionCode": null
-        },
-        {
-          "id": "yY49blcc0R3a",
-          "url": "https://pmo.ee/8559476",
-          "canonicalUrl": "https://pmo.ee/8559476",
-          "title": "Politsei pidas Pärnus kinni kaks tapmises kahtlustatavat meest",
-          "description": "Politseinikud pidasid eile õhtul Pärnus kinni 23aastase mehe, keda kahtlustatakse oma tuttava tapmises. Täna võeti kinni ka 39aastane mees, kelle seost juhtunuga politsei selgitab.",
-          "source": {
-            "id": "postimees",
-            "name": "Postimees"
-          },
-          "sourceCountry": "EE",
-          "language": "et",
-          "publishedAt": "2026-10-06T13:01:04.000Z",
-          "imageUrl": "https://f12.pmo.ee/KJxAELwcpj8WMaoW_0yhZJiqlwA=/480x270/filters:focal(1530x863:4139x1455)/nginx/o/2026/09/28/17943918t1h615e.jpg",
-          "countryCode": "EE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:01:49.000Z"
-    },
-    {
-      "id": "eXjcwSVbv5yr",
-      "representative": {
-        "id": "eXjcwSVbv5yr",
-        "url": "https://www.err.ee/1610158072/ida-virumaa-kutsehariduskeskuse-direktor-hendrik-agur-sai-kahtlustuse-kelmuses",
-        "canonicalUrl": "https://www.err.ee/1610158072/ida-virumaa-kutsehariduskeskuse-direktor-hendrik-agur-sai-kahtlustuse-kelmuses",
-        "title": "Ida-Virumaa kutsehariduskeskuse direktor Hendrik Agur sai kahtlustuse kelmuses",
-        "description": "Ida-Virumaa kutsehariduskeskuse direktor Hendrik Agur sai kuriteokahtluse kelmuses ametiisikuna. Kahtlustuse järgi esitas Agur valeandmeid isikliku auto hüvitise saamiseks.",
-        "source": {
-          "id": "err",
-          "name": "ERR"
-        },
-        "sourceCountry": "EE",
-        "language": "et",
-        "publishedAt": "2026-10-06T13:00:00.000Z",
-        "imageUrl": "https://s.err.ee/photo/crop/2026/03/06/3241790h91abt4.jpg",
-        "countryCode": "EE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "BYYn-jL96XpZ",
-          "url": "https://www.ohtuleht.ee/1168413/sahkermahker-autohuvitisega-pikaaegne-haridusjuht-hendrik-agur-sai-kahtlustuse-kelmuses",
-          "canonicalUrl": "https://www.ohtuleht.ee/1168413/sahkermahker-autohuvitisega-pikaaegne-haridusjuht-hendrik-agur-sai-kahtlustuse-kelmuses",
-          "title": "SAHKERMAHKER AUTOHÜVITISEGA | Pikaaegne haridusjuht Hendrik Agur sai kahtlustuse kelmuses",
-          "description": "Ida-Virumaa Kutsehariduskeskuse direktor Hendrik Agur on saanud kahtlustuse valeandmete esitamises eesmärgiga saada hüvitist isikliku sõiduauto kasutamise eest.",
-          "source": {
-            "id": "ohtuleht",
-            "name": "Õhtuleht"
-          },
-          "sourceCountry": "EE",
-          "language": "et",
-          "publishedAt": "2026-10-06T12:58:17.000Z",
-          "imageUrl": "https://p.ohtuleht.ee/webp/60/i/2026/10/6/2l5uyhpp.4zo.jpg",
-          "countryCode": "EE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:00:00.000Z"
-    },
     {
       "id": "bdJhLHYM9o1F",
       "representative": {
@@ -416,6 +315,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:25:00.000Z"
+    },
+    {
+      "id": "4cjc4P-GF2Tj",
+      "representative": {
+        "id": "4cjc4P-GF2Tj",
+        "url": "https://pmo.ee/8559465",
+        "canonicalUrl": "https://pmo.ee/8559465",
+        "title": "WSJ ⟩ Vabariiklased sidusid senatilootused Sununu dünastiaga sinises New Hampshire’is",
+        "description": "Esimest korda valiti John E. Sununu senatisse 11. septembri terrorirünnakute kiiluvees ning ta oli seal kõige noorem liige kuni oma ainsaks jäänud ametiaja lõpuni.",
+        "source": {
+          "id": "postimees",
+          "name": "Postimees"
+        },
+        "sourceCountry": "EE",
+        "language": "et",
+        "publishedAt": "2026-10-06T13:22:42.000Z",
+        "imageUrl": "https://f11.pmo.ee/wNCZSVWDcbooAtNr-sxJe8DLK5Q=/480x270/smart/nginx/o/2026/10/06/17959141t1h5be3.jpg",
+        "countryCode": "EE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:22:42.000Z"
+    },
+    {
+      "id": "L5AT9p1qCI6J",
+      "representative": {
+        "id": "L5AT9p1qCI6J",
+        "url": "https://pmo.ee/8559504",
+        "canonicalUrl": "https://pmo.ee/8559504",
+        "title": "RKIK maksis võltsarve alusel petistele ligi 60 000 eurot",
+        "description": "Riigi kaitseinvesteeringute keskus (RKIK) tasus kahe aasta eest võltsarve eest ligi 60 000 eurot ning viivitas politseile teatamisega nii kaua, et kriminaalasi lõpetati tulemuseta, kirjutab Äripäev.",
+        "source": {
+          "id": "postimees",
+          "name": "Postimees"
+        },
+        "sourceCountry": "EE",
+        "language": "et",
+        "publishedAt": "2026-10-06T13:21:50.000Z",
+        "imageUrl": "https://f9.pmo.ee/Tl_9_etxesdA63AK1AT48kCrjno=/480x270/filters:focal(1335x1521:1876x2651)/nginx/o/2026/10/06/17959165t1hd758.jpg",
+        "countryCode": "EE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:21:50.000Z"
     }
   ]
 }

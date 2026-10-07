@@ -16,6 +16,7 @@ const FEATURES = (countriesGeo as { features: Shape[] }).features;
 /** Region outlines per country, loaded only when that country is opened. */
 const REGION_SHAPES: Partial<Record<CountryCode, () => Promise<{ default: unknown }>>> = {
   FR: () => import('../assets/regions-fr.json'),
+  DE: () => import('../assets/regions-de.json'),
 };
 
 async function loadRegionShapes(country: CountryCode): Promise<Shape[]> {

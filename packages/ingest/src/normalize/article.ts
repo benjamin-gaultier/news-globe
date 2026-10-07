@@ -73,6 +73,29 @@ const NOT_NEWS: RegExp[] = [
   /trouvez la station(?:-service)? la moins ch[eè]re/i,
   // Paid content.
   /^\s*[[(]?(?:contenu sponsoris[ée]|sponsoris[ée]|publi-?(?:rédactionnel|reportage|communiqué)|partenariat|en partenariat avec|publicité)(?![a-zà-ÿ])/i,
+  // German broadcasters' feeds list bulletins and programmes next to stories:
+  // NDR's "Nachrichten aus dem Studio Lüneburg", "Regionalnachrichten aus Rostock",
+  // "NDR 1 Radio MV Nachrichten", episodes dated after a pipe ("Nordmagazin | 06.10.2026",
+  // "Niedersachsen 18.00 | 06.10.2026"), buten un binnen's "Dein Audio-Update am 7.10.2026"
+  // and "buten un binnen kompakt vom 6. Oktober 2026", tagesschau's "Der Nachrichtenüberblick",
+  // MDR's "Die Nachrichten aus Thüringen".
+  /^(?:nachrichten aus (?:dem|den) studios? |regionalnachrichten aus |ndr 1 [^:]{0,30}nachrichten$|dein audio-update\b|der nachrichtenüberblick$|die nachrichten aus [a-zäöüß-]+$)/i,
+  /^[^|]{2,40}\s\|\s\d{1,2}\.\d{1,2}\.\d{4}$/,
+  /^buten un binnen kompakt\b/i,
+  // Section pages MDR re-dates as items: "Meldungen", "Wetter", "Region Mitte".
+  /^(?:meldungen|wetter|bahn fahren|region (?:mitte|nord|ost|süd|west))$/i,
+  // Daily roundups and evergreen tickers rather than stories: "NL-Tagesticker: News, Infos…",
+  // "Weimar am Mittwoch – die Nachrichten des Tages", "Nachrichten aus dem Wartburgkreis",
+  // "Abend-Nachrichten: Der Kreis Sömmerda am Dienstag", "News zu Eintracht Frankfurt",
+  // "Live-Verkehrsticker: Die aktuelle Lage…", "BW-Newsticker am Morgen: …",
+  // "Hessen am Morgen: Die Nachrichten im Ticker vom 07.10.2026".
+  /^(?:nl-tagesticker\b|nachrichten (?:aus|für) (?:dem|den|der) |abend-nachrichten:|news zu |live-verkehrsticker\b|[a-z-]{2,25}-newsticker am (?:morgen|abend)\b)/i,
+  /(?:die nachrichten des tages$|am (?:morgen|abend): die nachrichten im ticker\b|aktuelle nachrichten aus [^ ]+ im überblick$)/i,
+  // Giveaways, lottery numbers, stream listings, podcast episodes and ads:
+  // "OZ verlost Tickets", "Eurojackpot … Gewinnzahlen", "Spielen Sie um Geld…",
+  // "3. Liga live: … | Stream & TV", "Podcast \"Feel Hamburg\" …", "Anzeige: …".
+  /(?:\bverlost (?:tickets|karten|freikarten)\b|\bgewinnspiel\b|\bgewinnzahlen\b|spielen sie um geld|\|\s*stream & tv$|^podcast\s*["„]|morgen-podcast\b)/i,
+  /^\s*[[(]?(?:anzeige|werbung|sponsored)(?![a-zà-ÿ])/i,
 ];
 
 /**

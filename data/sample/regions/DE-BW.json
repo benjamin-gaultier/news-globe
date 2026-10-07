@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "DE",
+  "countryName": "Germany",
+  "regionCode": "DE-BW",
+  "regionName": "Baden-Württemberg",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "clusters": [
+    {
+      "id": "ucOIU0q4dUX9",
+      "representative": {
+        "id": "ucOIU0q4dUX9",
+        "url": "https://www.rnz.de/politik/suedwest_artikel,-Zu-wenige-Trauben-im-Keller-Weinjahrgang-2026-Tolle-Qualitaet-aber-starke-Ernteeinbussen-_arid,2449026.html",
+        "canonicalUrl": "https://www.rnz.de/politik/suedwest_artikel,-Zu-wenige-Trauben-im-Keller-Weinjahrgang-2026-Tolle-Qualitaet-aber-starke-Ernteeinbussen-_arid,2449026.html",
+        "title": "Zu wenige Trauben im Keller: Weinjahrgang 2026 - Tolle Qualität, aber starke Ernteeinbußen",
+        "description": "Die Winzer im Südwesten haben eine qualitativ hochwertige Weinernte eingefahren. Nur leider waren es in diesem Jahr sehr wenige Trauben.",
+        "source": {
+          "id": "rnz_heidelberg",
+          "name": "Rhein-Neckar-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:34:00.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [
+        {
+          "id": "LB0kalVjwGVL",
+          "url": "https://stuttgart.t-online.de/region/stuttgart/id_101470578/weinjahrgang-2026-tolle-qualitaet-aber-starke-ernteeinbussen.html",
+          "canonicalUrl": "https://stuttgart.t-online.de/region/stuttgart/id_101470578/weinjahrgang-2026-tolle-qualitaet-aber-starke-ernteeinbussen.html",
+          "title": "Weinjahrgang 2026: Tolle Qualität, aber starke Ernteeinbußen",
+          "description": "Die Winzer im Südwesten haben eine qualitativ hochwertige Weinernte eingefahren. Nur leider waren es in diesem Jahr sehr wenige Trauben.",
+          "source": {
+            "id": "tonline_stuttgart",
+            "name": "t-online Stuttgart"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T11:32:23.000Z",
+          "imageUrl": "https://images.t-online.de/2026/10/522tgDw4HGIr/0x107:2048x1152/fit-in/1200x0/die-grosse-hitze-und-trockenheit-sorge-fuer-drastische-ernteeinbussen-teilte-der-baden-wuerttembergische-genossenschaftsverband-mit.jpg",
+          "countryCode": "DE",
+          "regionCode": "DE-BW"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T11:34:00.000Z"
+    },
+    {
+      "id": "tzfqC9uZTA7g",
+      "representative": {
+        "id": "tzfqC9uZTA7g",
+        "url": "https://bnn.de/karlsruhe/karlsruhe-stadt/mehr-als-niedlich-was-eisbaer-mika-wirklich-hinterlaesst",
+        "canonicalUrl": "https://bnn.de/karlsruhe/karlsruhe-stadt/mehr-als-niedlich-was-eisbaer-mika-wirklich-hinterlaesst",
+        "title": "Mehr als niedlich: Was Eisbär Mika wirklich hinterlässt",
+        "description": "Karlsruhe verdankt Eisbär Mika mehr als hohe Besucherzahlen. Der junge Zoostar macht den Klimawandel für viele greifbar.",
+        "source": {
+          "id": "bnn_karlsruhe",
+          "name": "Badische Neueste Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:54:17.000Z",
+        "imageUrl": "https://bnn.de/img/17238899/gsTLz1KUUQKrTS2AzennKg/3Q2A2067b.jpeg?size=400&format=jpeg&variant=LANDSCAPE_16x9",
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:54:17.000Z"
+    },
+    {
+      "id": "-VOfGojRu2BH",
+      "representative": {
+        "id": "-VOfGojRu2BH",
+        "url": "https://bnn.de/karlsruhe/karlsruhe-stadt/umzug-in-die-suedstadt-esg-frankonia-fuerchtet-vereinssport-am-containerdorf",
+        "canonicalUrl": "https://bnn.de/karlsruhe/karlsruhe-stadt/umzug-in-die-suedstadt-esg-frankonia-fuerchtet-vereinssport-am-containerdorf",
+        "title": "Umzug in die Südstadt: ESG Frankonia fürchtet Vereinssport am Containerdorf",
+        "description": "Die ESG Frankonia sieht dem Umzug in die Südstadt mit Bangen entgegen. Einen Hochbau soll es vorerst nicht geben. Der ist zu teuer, sagt die Stadt.",
+        "source": {
+          "id": "bnn_karlsruhe",
+          "name": "Badische Neueste Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:44:00.000Z",
+        "imageUrl": "https://bnn.de/img/18366634/x9NSFaY5sfUsGqnJidWZGw/20260907_200422.jpeg?size=400&format=jpeg&variant=LANDSCAPE_16x9",
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:44:00.000Z"
+    },
+    {
+      "id": "cAScsCCbzRwL",
+      "representative": {
+        "id": "cAScsCCbzRwL",
+        "url": "https://bnn.de/karlsruhe/karlsruhe-stadt/fuer-den-gescheiterten-plan-der-stadt-karlsruhe-zahlt-die-esg-frankonia-die-zeche",
+        "canonicalUrl": "https://bnn.de/karlsruhe/karlsruhe-stadt/fuer-den-gescheiterten-plan-der-stadt-karlsruhe-zahlt-die-esg-frankonia-die-zeche",
+        "title": "Für den gescheiterten Plan der Stadt Karlsruhe zahlt die ESG Frankonia die Zeche",
+        "description": "Lange wurden die Pläne für einen Umzug des Sportvereins gewälzt. Nun, da es endlich soweit sein soll, fehlt der Stadt das Geld.",
+        "source": {
+          "id": "bnn_karlsruhe",
+          "name": "Badische Neueste Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:44:00.000Z",
+        "imageUrl": "https://bnn.de/img/18366633/YHRvyqteMtwuxbV9RcNzdg/20260907_200701.jpeg?size=400&format=jpeg&variant=LANDSCAPE_16x9",
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:44:00.000Z"
+    },
+    {
+      "id": "CpdDEMwqvdpe",
+      "representative": {
+        "id": "CpdDEMwqvdpe",
+        "url": "https://www.rnz.de/region/regionalticker/polizeiberichte_artikel,-Umleitung-B292-bei-Helmstadt-Bargen-nach-Unfall-voll-gesperrt-_arid,2449145.html",
+        "canonicalUrl": "https://www.rnz.de/region/regionalticker/polizeiberichte_artikel,-Umleitung-B292-bei-Helmstadt-Bargen-nach-Unfall-voll-gesperrt-_arid,2449145.html",
+        "title": "Umleitung: B292 bei Helmstadt-Bargen nach Unfall voll gesperrt",
+        "description": "Der Verkehr in Richtung Sinsheim wird an der Ausfahrt zur L530 nach Epfenbach aus- und innerörtlich umgeleitet.",
+        "source": {
+          "id": "rnz_heidelberg",
+          "name": "Rhein-Neckar-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:38:00.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:38:00.000Z"
+    },
+    {
+      "id": "4exCGWeMBt0s",
+      "representative": {
+        "id": "4exCGWeMBt0s",
+        "url": "https://stuttgart.t-online.de/region/stuttgart/id_101470256/zu-wenig-tickets-verkauft-creatorin-cancelt-tour-auch-stopp-in-stuttgart.html",
+        "canonicalUrl": "https://stuttgart.t-online.de/region/stuttgart/id_101470256/zu-wenig-tickets-verkauft-creatorin-cancelt-tour-auch-stopp-in-stuttgart.html",
+        "title": "Zu wenig Tickets verkauft: Creatorin cancelt Tour – auch Stopp in Stuttgart",
+        "description": "Hami Hasun wollte im Dezember mit ihrem ersten Buch nach Stuttgart kommen. Doch daraus wird nichts. Die Creatorin geht mit ihren Gedanken dazu offen um.",
+        "source": {
+          "id": "tonline_stuttgart",
+          "name": "t-online Stuttgart"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:37:00.000Z",
+        "imageUrl": "https://images.t-online.de/2026/10/PnmE4AmLUDg2/344x1016:5529x3110/fit-in/1200x0/mikrofon-mit-bunter-buehnenbeleuchtung-symbolbild-kuenstlerin-und-creatorin-hami-hasun-musste-ihre-tour-absagen.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:37:00.000Z"
+    },
+    {
+      "id": "gZpZuebFKr-B",
+      "representative": {
+        "id": "gZpZuebFKr-B",
+        "url": "https://stuttgart.t-online.de/region/stuttgart/id_101470706/mutmasslich-rechtsextremer-angriff-wir-bringen-dich-um-.html",
+        "canonicalUrl": "https://stuttgart.t-online.de/region/stuttgart/id_101470706/mutmasslich-rechtsextremer-angriff-wir-bringen-dich-um-.html",
+        "title": "Mutmaßlich rechtsextremer Angriff: \"Wir bringen dich um!\"",
+        "description": "Zwei Freunde sollen ein vermeintliches Antifa-Mitglied in Stuttgart lebensgefährlich verletzt haben. Dabei sei es auch um Anerkennung in der rechten Szene gegangen, vermutet die Staatsanwaltschaft.",
+        "source": {
+          "id": "tonline_stuttgart",
+          "name": "t-online Stuttgart"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:04:48.000Z",
+        "imageUrl": "https://images.t-online.de/2026/10/mPuHnTvGRO5s/0x107:2048x1152/fit-in/1200x0/in-handschellen-wurden-die-beiden-angeklagten-in-den-verhandlungssaal-gefuehrt.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:04:48.000Z"
+    },
+    {
+      "id": "kfdKZxoF1Rhd",
+      "representative": {
+        "id": "kfdKZxoF1Rhd",
+        "url": "https://www.rnz.de/region/regionalticker/polizeiberichte_artikel,-Mannheim-Erneut-Mobiltelefone-fuer-sechsstellige-Summe-aus-Lager-gestohlen-_arid,2449089.html",
+        "canonicalUrl": "https://www.rnz.de/region/regionalticker/polizeiberichte_artikel,-Mannheim-Erneut-Mobiltelefone-fuer-sechsstellige-Summe-aus-Lager-gestohlen-_arid,2449089.html",
+        "title": "Mannheim: Erneut Mobiltelefone für sechsstellige Summe aus Lager gestohlen",
+        "description": "Sechs Unbekannte sollen Kartons mit Smartphones abtransportiert haben. Die Polizei prüft einen Zusammenhang mit einem früheren Coup und sucht Zeugen.",
+        "source": {
+          "id": "rnz_heidelberg",
+          "name": "Rhein-Neckar-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:45:00.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:45:00.000Z"
+    },
+    {
+      "id": "JUe_UfUNcWR6",
+      "representative": {
+        "id": "JUe_UfUNcWR6",
+        "url": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-gewitter-und-regen-statt-goldenem-herbst-wetterumschwung-in-baden-wuerttemberg-100.html",
+        "canonicalUrl": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-gewitter-und-regen-statt-goldenem-herbst-wetterumschwung-in-baden-wuerttemberg-100.html",
+        "title": "Gewitter und Regen statt goldenem Herbst: Wetterumschwung in Baden-Württemberg",
+        "description": "Ab Mittwochabend ist im Land mit Unwetter und Starkregen zu rechnen. In den kommenden Tagen sinken die Temperaturen zudem spürbar und es regnet weiter.",
+        "source": {
+          "id": "swr_bw",
+          "name": "SWR Aktuell Baden-Württemberg"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:57:08.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:57:08.000Z"
+    },
+    {
+      "id": "-FSw7Ha2j3G-",
+      "representative": {
+        "id": "-FSw7Ha2j3G-",
+        "url": "https://stuttgart.t-online.de/region/stuttgart/id_101470440/stuttgart-mercedes-verkauft-weniger-autos-aber-eine-sparte-boomt.html",
+        "canonicalUrl": "https://stuttgart.t-online.de/region/stuttgart/id_101470440/stuttgart-mercedes-verkauft-weniger-autos-aber-eine-sparte-boomt.html",
+        "title": "Stuttgart: Mercedes verkauft weniger Autos – aber eine Sparte boomt",
+        "description": "Der Stuttgarter Autobauer verzeichnet erneut einen Absatzrückgang. Besonders ein Markt bereitet große Probleme.",
+        "source": {
+          "id": "tonline_stuttgart",
+          "name": "t-online Stuttgart"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:54:01.000Z",
+        "imageUrl": "https://images.t-online.de/2026/10/ENu30IdeyGwm/0x66:2048x1152/fit-in/1200x0/mercedes-benz-hat-im-dritten-quartal-weniger-autos-verkauft-archivbild.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:54:01.000Z"
+    },
+    {
+      "id": "YynwfhLVbVZR",
+      "representative": {
+        "id": "YynwfhLVbVZR",
+        "url": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-kampf-gegen-brustkrebs-uniklinik-freiburg-investiert-millionen-betrag-in-neues-zentrum-100.html",
+        "canonicalUrl": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-kampf-gegen-brustkrebs-uniklinik-freiburg-investiert-millionen-betrag-in-neues-zentrum-100.html",
+        "title": "Kampf gegen Brustkrebs: Uniklinik Freiburg investiert Millionen-Betrag in neues Zentrum",
+        "description": "Die Uniklinik Freiburg hat zwei Standorte zu einem Brustzentrum zusammengeführt. Neue Geräte sollen schnellere Diagnosen und Behandlungen ermöglichen.",
+        "source": {
+          "id": "swr_bw",
+          "name": "SWR Aktuell Baden-Württemberg"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:45:00.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:45:00.000Z"
+    },
+    {
+      "id": "odvqulndGioc",
+      "representative": {
+        "id": "odvqulndGioc",
+        "url": "https://www.rnz.de/region/regionalticker/polizeiberichte_artikel,-Schockanruf-Wertheimer-Seniorin-durchschaut-Betrug-und-ruft-die-Polizei-_arid,2448899.html",
+        "canonicalUrl": "https://www.rnz.de/region/regionalticker/polizeiberichte_artikel,-Schockanruf-Wertheimer-Seniorin-durchschaut-Betrug-und-ruft-die-Polizei-_arid,2448899.html",
+        "title": "Schockanruf: Wertheimer Seniorin durchschaut Betrug und ruft die Polizei",
+        "description": "Nach einem Schockanruf nimmt die Polizei einen Mann fest, der eine Tasche mit Geld abholen will. Doch dann stellt sich heraus: Er wusste von nichts.",
+        "source": {
+          "id": "rnz_heidelberg",
+          "name": "Rhein-Neckar-Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:30:00.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:30:00.000Z"
+    },
+    {
+      "id": "DtBaqNrIyBch",
+      "representative": {
+        "id": "DtBaqNrIyBch",
+        "url": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-jahrestag-des-hamas-angriffs-juden-in-bw-fuehlen-sich-nicht-mehr-sicher-100.html",
+        "canonicalUrl": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-jahrestag-des-hamas-angriffs-juden-in-bw-fuehlen-sich-nicht-mehr-sicher-100.html",
+        "title": "Jahrestag des Hamas-Angriffs: Juden in BW fühlen sich nicht mehr sicher",
+        "description": "Jüdische Organisationen berichten von mehr Drohungen und Hass seit dem Überfall der Hamas auf Israel vor drei Jahren. Betroffene fordern mehr Aufmerksamkeit für Antisemitismus.",
+        "source": {
+          "id": "swr_bw",
+          "name": "SWR Aktuell Baden-Württemberg"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T08:32:20.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T08:32:20.000Z"
+    },
+    {
+      "id": "9v7eWcz00Zib",
+      "representative": {
+        "id": "9v7eWcz00Zib",
+        "url": "https://bnn.de/karlsruhe/ettlingen/malsch/gegen-raser-malsch-investiert-200000-euro-in-blitzer-anhaenger",
+        "canonicalUrl": "https://bnn.de/karlsruhe/ettlingen/malsch/gegen-raser-malsch-investiert-200000-euro-in-blitzer-anhaenger",
+        "title": "Gegen Raser: Malsch investiert 200.000 Euro in Blitzer-Anhänger",
+        "description": "Um die Verkehrssicherheit, insbesondere vor Schulen, Kindergärten und Spielplätzen zu erhöhen, wird die Gemeinde Malsch einen Enforcement-Trailer kaufen.",
+        "source": {
+          "id": "bnn_karlsruhe",
+          "name": "Badische Neueste Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:40:00.000Z",
+        "imageUrl": "https://bnn.de/img/9505725/TMI-idFMs7TjwPK7OEhvSw/Tempo.jpeg?size=400&format=jpeg&variant=LANDSCAPE_16x9",
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:40:00.000Z"
+    },
+    {
+      "id": "ndBj1cY-qaZ4",
+      "representative": {
+        "id": "ndBj1cY-qaZ4",
+        "url": "https://bnn.de/karlsruhe/karlsruhe-stadt/ex-bnd-praesident-muss-wegen-spionageverdacht-in-u-haft",
+        "canonicalUrl": "https://bnn.de/karlsruhe/karlsruhe-stadt/ex-bnd-praesident-muss-wegen-spionageverdacht-in-u-haft",
+        "title": "Ex-BND-Präsident muss wegen Spionageverdachts in U-Haft",
+        "description": "In Karlsruhe setzt der BGH den Haftbefehl gegen Ex-BND-Präsident August Hanning in Vollzug. Die Bundesanwaltschaft wirft ihm unter anderem Spionage vor.",
+        "source": {
+          "id": "bnn_karlsruhe",
+          "name": "Badische Neueste Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:44:37.000Z",
+        "imageUrl": "https://bnn.de/img/18374224/NPYGoYOdgTOmZpiD_O2phg/623742079.jpeg?size=400&format=jpeg&variant=LANDSCAPE_16x9",
+        "countryCode": "DE",
+        "regionCode": "DE-BW"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:44:37.000Z"
+    }
+  ]
+}

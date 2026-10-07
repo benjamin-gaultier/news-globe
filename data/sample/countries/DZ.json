@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "DZ",
   "countryName": "Algeria",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "pSdZ_M3Ctegn",
-      "representative": {
-        "id": "pSdZ_M3Ctegn",
-        "url": "https://www.tsa-algerie.com/lalgerie-va-importer-35-millions-de-pneus-durant-le-1er-trimestre-2027/",
-        "canonicalUrl": "https://www.tsa-algerie.com/lalgerie-va-importer-35-millions-de-pneus-durant-le-1er-trimestre-2027/",
-        "title": "L’Algérie va importer 3,5 millions de pneus durant le 1er trimestre 2027",
-        "description": "L’Algérie va importer 3,5 millions de pneumatiques durant le 1er trimestre 2027, a annoncé lundi à Oran, le ministre des Hydrocarbures, Mohamed Arkab. Ce dernier a fait cette annonce lors de sa visite au stand de Naftal au Salon et de la Conférence sur l’énergie et l’hydrogène en Afrique et en…",
-        "source": {
-          "id": "tsa",
-          "name": "TSA Algérie"
-        },
-        "sourceCountry": "DZ",
-        "language": "fr",
-        "publishedAt": "2026-10-06T12:42:07.000Z",
-        "imageUrl": null,
-        "countryCode": "DZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "_F_oZYKk_Ze8",
-          "url": "https://www.algerie360.com/pneus-algerie-naftal-importation-2027/",
-          "canonicalUrl": "https://www.algerie360.com/pneus-algerie-naftal-importation-2027/",
-          "title": "Pneus en Algérie : 3,5 millions d’unités seront importées début 2027",
-          "description": "Une nouvelle opération d’achat de pneumatiques à l’étranger va être lancée. L’annonce émane de Mohamed Arkab, ministre d’État chargé des Hydrocarbures et des Mines, qui […] L’article Pneus en Algérie : 3,5 millions d’unités seront importées début 2027 est apparu en premier sur .",
-          "source": {
-            "id": "algerie360",
-            "name": "Algérie360"
-          },
-          "sourceCountry": "DZ",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:41:28.000Z",
-          "imageUrl": "https://www.algerie360.com/wp-content/uploads/2025/09/pneus-speculation.jpg",
-          "countryCode": "DZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:42:07.000Z"
-    },
     {
       "id": "UgOqlqaTL5ir",
       "representative": {
@@ -191,6 +149,48 @@
       "latestPublishedAt": "2026-10-06T13:19:07.000Z"
     },
     {
+      "id": "pSdZ_M3Ctegn",
+      "representative": {
+        "id": "pSdZ_M3Ctegn",
+        "url": "https://www.tsa-algerie.com/lalgerie-va-importer-35-millions-de-pneus-durant-le-1er-trimestre-2027/",
+        "canonicalUrl": "https://www.tsa-algerie.com/lalgerie-va-importer-35-millions-de-pneus-durant-le-1er-trimestre-2027/",
+        "title": "L’Algérie va importer 3,5 millions de pneus durant le 1er trimestre 2027",
+        "description": "L’Algérie va importer 3,5 millions de pneumatiques durant le 1er trimestre 2027, a annoncé lundi à Oran, le ministre des Hydrocarbures, Mohamed Arkab. Ce dernier a fait cette annonce lors de sa visite au stand de Naftal au Salon et de la Conférence sur l’énergie et l’hydrogène en Afrique et en…",
+        "source": {
+          "id": "tsa",
+          "name": "TSA Algérie"
+        },
+        "sourceCountry": "DZ",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:42:07.000Z",
+        "imageUrl": null,
+        "countryCode": "DZ",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "_F_oZYKk_Ze8",
+          "url": "https://www.algerie360.com/pneus-algerie-naftal-importation-2027/",
+          "canonicalUrl": "https://www.algerie360.com/pneus-algerie-naftal-importation-2027/",
+          "title": "Pneus en Algérie : 3,5 millions d’unités seront importées début 2027",
+          "description": "Une nouvelle opération d’achat de pneumatiques à l’étranger va être lancée. L’annonce émane de Mohamed Arkab, ministre d’État chargé des Hydrocarbures et des Mines, qui […] L’article Pneus en Algérie : 3,5 millions d’unités seront importées début 2027 est apparu en premier sur .",
+          "source": {
+            "id": "algerie360",
+            "name": "Algérie360"
+          },
+          "sourceCountry": "DZ",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:41:28.000Z",
+          "imageUrl": "https://www.algerie360.com/wp-content/uploads/2025/09/pneus-speculation.jpg",
+          "countryCode": "DZ",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:42:07.000Z"
+    },
+    {
       "id": "Ckfu7xKJnkYi",
       "representative": {
         "id": "Ckfu7xKJnkYi",
@@ -210,7 +210,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:40:07.000Z"
     },
@@ -329,30 +329,6 @@
       "latestPublishedAt": "2026-10-06T10:48:55.000Z"
     },
     {
-      "id": "4vinJhAB6IqU",
-      "representative": {
-        "id": "4vinJhAB6IqU",
-        "url": "https://www.tsa-algerie.com/manifestations-de-lyceens-en-france-appels-a-ne-pas-brandir-le-drapeau-algerien/",
-        "canonicalUrl": "https://www.tsa-algerie.com/manifestations-de-lyceens-en-france-appels-a-ne-pas-brandir-le-drapeau-algerien/",
-        "title": "Manifestations de lycéens en France : appels à ne pas brandir le drapeau algérien",
-        "description": "Le drapeau algérien n’a pas sa place dans les manifestations des lycéens en France où l’algérophobie ne cesse de prendre de l’ampleur sur fond de crise entre les deux pays. Tel est le message livré par des membres de la diaspora pour couper l’herbe sous les pieds de ceux qui ont déjà entrepris de…",
-        "source": {
-          "id": "tsa",
-          "name": "TSA Algérie"
-        },
-        "sourceCountry": "DZ",
-        "language": "fr",
-        "publishedAt": "2026-10-06T10:48:39.000Z",
-        "imageUrl": null,
-        "countryCode": "DZ",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 0,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T10:48:39.000Z"
-    },
-    {
       "id": "RVRWs8df-lYJ",
       "representative": {
         "id": "RVRWs8df-lYJ",
@@ -399,6 +375,30 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-05T20:36:36.000Z"
+    },
+    {
+      "id": "mJkWmC3pqkTp",
+      "representative": {
+        "id": "mJkWmC3pqkTp",
+        "url": "https://algerie-eco.com/2026/10/05/lg-electronics-algerie-devoile-sa-nouvelle-generation-de-televiseurs-2026/",
+        "canonicalUrl": "https://algerie-eco.com/2026/10/05/lg-electronics-algerie-devoile-sa-nouvelle-generation-de-televiseurs-2026/",
+        "title": "LG Electronics Algérie dévoile sa nouvelle génération de téléviseurs 2026",
+        "description": "Une nouvelle génération de téléviseurs pensée pour offrir une expérience visuelle plus immersive, du cinéma au gaming, en passant par le sport et les divertissements du quotidien des Algériens. Alger, 05 Octobre 2026 – Le téléviseur occupe aujourd’hui une place centrale dans les moments de…",
+        "source": {
+          "id": "algerieeco",
+          "name": "Algérie Eco"
+        },
+        "sourceCountry": "DZ",
+        "language": "fr",
+        "publishedAt": "2026-10-05T19:37:45.000Z",
+        "imageUrl": null,
+        "countryCode": "DZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-05T19:37:45.000Z"
     }
   ]
 }

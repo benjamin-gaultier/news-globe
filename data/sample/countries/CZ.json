@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CZ",
   "countryName": "Czechia",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "1PYMBYPnr0PS",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:18:42.000Z"
-    },
-    {
-      "id": "gDXPoqnSTlW8",
-      "representative": {
-        "id": "gDXPoqnSTlW8",
-        "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nato-pripravuje-plan-jak-odrazit-rusky-utok-pomoci-dronu-a-ai-316905",
-        "canonicalUrl": "https://www.seznamzpravy.cz/clanek/zahranicni-nato-pripravuje-plan-jak-odrazit-rusky-utok-pomoci-dronu-a-ai-316905",
-        "title": "NATO připravuje plán, jak odrazit ruský útok pomocí dronů a AI",
-        "description": "NATO představí dokument, který vysvětlí, jak by postupovalo v případě možného vpádu Ruska na území aliance. Podle dokumentu je cílem aliance svou připraveností přimět protivníka k závěru, že nemůže zvítězit.",
-        "source": {
-          "id": "seznamzpravy",
-          "name": "Seznam Zprávy"
-        },
-        "sourceCountry": "CZ",
-        "language": "cs",
-        "publishedAt": "2026-10-06T12:27:00.000Z",
-        "imageUrl": null,
-        "countryCode": "CZ",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Ajisr5lY6_Kp",
-          "url": "https://zpravy.aktualne.cz/zahranici/kombinace-pechoty-dronu-a-ai-nato-ma-plan-jak-odrazit-rusky-utok/r~aaa291576f202d8a0948ff087f9203d7/",
-          "canonicalUrl": "https://zpravy.aktualne.cz/zahranici/kombinace-pechoty-dronu-a-ai-nato-ma-plan-jak-odrazit-rusky-utok/r~aaa291576f202d8a0948ff087f9203d7/",
-          "title": "Kombinace pěchoty, dronů a AI. NATO má plán, jak odrazit ruský útok",
-          "description": "NATO pracuje na strategii, jejímž cílem je dosáhnout rychlého vítězství v případě ruského útoku na východní křídlo aliance. Důraz přitom klade na integraci nových technologií, jako jsou drony a umělá inteligence, do tradičních vojenských schopností. Informovala o tom agentura Bloomberg.",
-          "source": {
-            "id": "aktualne",
-            "name": "Aktuálně.cz"
-          },
-          "sourceCountry": "CZ",
-          "language": "cs",
-          "publishedAt": "2026-10-06T12:56:00.000Z",
-          "imageUrl": "https://media.eco-files.cz/economia/production/files/2026/10/06/12/57/28/7019cdac-3c0b-463f-b173-bdaf8906d729/p2026100105991-original-f69d5a.jpg",
-          "countryCode": "CZ",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:56:00.000Z"
     },
     {
       "id": "SucEZmkTtrtc",
@@ -399,6 +357,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:17:00.000Z"
+    },
+    {
+      "id": "Mhmm_bJn74aS",
+      "representative": {
+        "id": "Mhmm_bJn74aS",
+        "url": "https://magazin.aktualne.cz/z-lekaren-mizi-sprej-na-astma-vyrobce-stahuje-sarzi-berodualu/r~aaa2946a873f74d0341934e2b2ebb076/",
+        "canonicalUrl": "https://magazin.aktualne.cz/z-lekaren-mizi-sprej-na-astma-vyrobce-stahuje-sarzi-berodualu/r~aaa2946a873f74d0341934e2b2ebb076/",
+        "title": "Z lékáren mizí sprej na astma. Výrobce stahuje šarži Berodualu",
+        "description": "Dýchací sprej, který mnoha lidem ulevuje při záchvatech dušnosti, mizí z některých lékáren. Výrobce stahuje jednu šarži, přestože žádnou závadu zatím nenašel. O jaký lék jde a co dělat, pokud ho máte doma?",
+        "source": {
+          "id": "aktualne",
+          "name": "Aktuálně.cz"
+        },
+        "sourceCountry": "CZ",
+        "language": "cs",
+        "publishedAt": "2026-10-06T13:15:00.000Z",
+        "imageUrl": "https://media.eco-files.cz/economia/production/files/2026/10/06/12/42/24/9037ad9e-2311-465f-9fa2-212648e833b3/shutterstock_2760439711.jpg",
+        "countryCode": "CZ",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:15:00.000Z"
     }
   ]
 }

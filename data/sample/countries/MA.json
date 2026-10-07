@@ -2,67 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "MA",
   "countryName": "Morocco",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "nk3iJhXP7qLT",
-      "representative": {
-        "id": "nk3iJhXP7qLT",
-        "url": "https://fr.hespress.com/491277-alerte-meteo-fortes-averses-orageuses-avec-grele-et-rafales-de-vent-mardi-et-mercredi.html",
-        "canonicalUrl": "https://fr.hespress.com/491277-alerte-meteo-fortes-averses-orageuses-avec-grele-et-rafales-de-vent-mardi-et-mercredi.html",
-        "title": "Alerte météo : fortes averses orageuses avec grêle et rafales de vent, mardi et mercredi",
-        "description": "La Direction générale de la météorologie (DGM), a annoncé des averses orageuses fortes avec de la grêle et des rafales de vent sous orages attendues, mardi et mercredi, dans plusieurs provinces du Royaume. Dans un bulletin d’alerte météorologique de niveau de vigilance orange, la DGM précise…",
-        "source": {
-          "id": "hespress_fr",
-          "name": "Hespress FR"
-        },
-        "sourceCountry": "MA",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:15:36.000Z",
-        "imageUrl": "https://f2.hespress.com/wp-content/uploads/2022/12/pluies.jpg",
-        "countryCode": "MA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "J0OJ4TCZLdvb",
-          "url": "https://www.lavieeco.com/influences/climat/meteo-pluies-intenses-grele-et-rafales-de-vent-attendues/",
-          "canonicalUrl": "https://www.lavieeco.com/influences/climat/meteo-pluies-intenses-grele-et-rafales-de-vent-attendues/",
-          "title": "Météo : Pluies intenses, grêle et rafales de vent attendues",
-          "description": "Un épisode pluvio-orageux marqué est attendu dans plusieurs régions du Maroc, avec des cumuls pouvant atteindre 60 mm dans certaines provinces du Sud, selon la Direction générale de la météorologie. L’article Météo : Pluies intenses, grêle et rafales de vent attendues est apparu en premier sur La…",
-          "source": {
-            "id": "lavieeco",
-            "name": "La Vie éco"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-06T13:10:30.000Z",
-          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/Boulevard-cotier-sous-la-pluie-1024x683.png",
-          "countryCode": "MA",
-          "regionCode": null
-        },
-        {
-          "id": "H44UrjqlTBNQ",
-          "url": "https://telquel.ma/instant-t/2026/10/05/fortes-averses-orageuses-avec-grele-et-rafales-de-vent-lundi-et-mardi-dans-plusieurs-provinces-du-royaume_2011476/",
-          "canonicalUrl": "https://telquel.ma/instant-t/2026/10/05/fortes-averses-orageuses-avec-grele-et-rafales-de-vent-lundi-et-mardi-dans-plusieurs-provinces-du-royaume_2011476/",
-          "title": "Fortes averses orageuses avec grêle et rafales de vent, lundi et mardi, dans plusieurs provinces du Royaume",
-          "description": "Des averses orageuses fortes avec risque de grêle et de rafales de vent sous orages sont attendues, lundi et mardi, dans plusieurs provinces du Royaume, a indiqué la Direction générale de la météorologie (DGM). Avec des hauteurs entre 50 et 80 mm, ces averses orageuses sont prévues, à partir de…",
-          "source": {
-            "id": "telquel",
-            "name": "TelQuel"
-          },
-          "sourceCountry": "MA",
-          "language": "fr",
-          "publishedAt": "2026-10-05T14:48:48.000Z",
-          "imageUrl": "https://static.telquel.ma/content/uploads/2024/09/663881378bedc0d0441038e082950c63.jpg",
-          "countryCode": "MA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:15:36.000Z"
-    },
     {
       "id": "nOPh3ghabc8H",
       "representative": {
@@ -226,6 +167,65 @@
       "latestPublishedAt": "2026-10-06T13:25:32.000Z"
     },
     {
+      "id": "nk3iJhXP7qLT",
+      "representative": {
+        "id": "nk3iJhXP7qLT",
+        "url": "https://fr.hespress.com/491277-alerte-meteo-fortes-averses-orageuses-avec-grele-et-rafales-de-vent-mardi-et-mercredi.html",
+        "canonicalUrl": "https://fr.hespress.com/491277-alerte-meteo-fortes-averses-orageuses-avec-grele-et-rafales-de-vent-mardi-et-mercredi.html",
+        "title": "Alerte météo : fortes averses orageuses avec grêle et rafales de vent, mardi et mercredi",
+        "description": "La Direction générale de la météorologie (DGM), a annoncé des averses orageuses fortes avec de la grêle et des rafales de vent sous orages attendues, mardi et mercredi, dans plusieurs provinces du Royaume. Dans un bulletin d’alerte météorologique de niveau de vigilance orange, la DGM précise…",
+        "source": {
+          "id": "hespress_fr",
+          "name": "Hespress FR"
+        },
+        "sourceCountry": "MA",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:15:36.000Z",
+        "imageUrl": "https://f2.hespress.com/wp-content/uploads/2022/12/pluies.jpg",
+        "countryCode": "MA",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "J0OJ4TCZLdvb",
+          "url": "https://www.lavieeco.com/influences/climat/meteo-pluies-intenses-grele-et-rafales-de-vent-attendues/",
+          "canonicalUrl": "https://www.lavieeco.com/influences/climat/meteo-pluies-intenses-grele-et-rafales-de-vent-attendues/",
+          "title": "Météo : Pluies intenses, grêle et rafales de vent attendues",
+          "description": "Un épisode pluvio-orageux marqué est attendu dans plusieurs régions du Maroc, avec des cumuls pouvant atteindre 60 mm dans certaines provinces du Sud, selon la Direction générale de la météorologie. L’article Météo : Pluies intenses, grêle et rafales de vent attendues est apparu en premier sur La…",
+          "source": {
+            "id": "lavieeco",
+            "name": "La Vie éco"
+          },
+          "sourceCountry": "MA",
+          "language": "fr",
+          "publishedAt": "2026-10-06T13:10:30.000Z",
+          "imageUrl": "https://www.lavieeco.com/wp-content/uploads/2026/10/Boulevard-cotier-sous-la-pluie-1024x683.png",
+          "countryCode": "MA",
+          "regionCode": null
+        },
+        {
+          "id": "H44UrjqlTBNQ",
+          "url": "https://telquel.ma/instant-t/2026/10/05/fortes-averses-orageuses-avec-grele-et-rafales-de-vent-lundi-et-mardi-dans-plusieurs-provinces-du-royaume_2011476/",
+          "canonicalUrl": "https://telquel.ma/instant-t/2026/10/05/fortes-averses-orageuses-avec-grele-et-rafales-de-vent-lundi-et-mardi-dans-plusieurs-provinces-du-royaume_2011476/",
+          "title": "Fortes averses orageuses avec grêle et rafales de vent, lundi et mardi, dans plusieurs provinces du Royaume",
+          "description": "Des averses orageuses fortes avec risque de grêle et de rafales de vent sous orages sont attendues, lundi et mardi, dans plusieurs provinces du Royaume, a indiqué la Direction générale de la météorologie (DGM). Avec des hauteurs entre 50 et 80 mm, ces averses orageuses sont prévues, à partir de…",
+          "source": {
+            "id": "telquel",
+            "name": "TelQuel"
+          },
+          "sourceCountry": "MA",
+          "language": "fr",
+          "publishedAt": "2026-10-05T14:48:48.000Z",
+          "imageUrl": "https://static.telquel.ma/content/uploads/2024/09/663881378bedc0d0441038e082950c63.jpg",
+          "countryCode": "MA",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:15:36.000Z"
+    },
+    {
       "id": "EfTRStOZ5M1C",
       "representative": {
         "id": "EfTRStOZ5M1C",
@@ -287,7 +287,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:10:00.000Z"
     },
@@ -311,7 +311,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:08:00.000Z"
     },
@@ -335,7 +335,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:05:28.000Z"
     },
@@ -359,7 +359,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:52:00.000Z"
     },
@@ -383,7 +383,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:42:28.000Z"
     },
@@ -407,7 +407,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:22:00.000Z"
     },

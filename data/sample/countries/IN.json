@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "IN",
   "countryName": "India",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "tEjf21-zYjpn",
-      "representative": {
-        "id": "tEjf21-zYjpn",
-        "url": "https://indianexpress.com/article/india/air-marshal-ashutosh-dixit-appointed-new-chief-indian-air-force-10909441/",
-        "canonicalUrl": "https://indianexpress.com/article/india/air-marshal-ashutosh-dixit-appointed-new-chief-indian-air-force-10909441/",
-        "title": "Air Marshal Ashutosh Dixit appointed new Chief of Indian Air Force",
-        "description": null,
-        "source": {
-          "id": "indianexpress",
-          "name": "The Indian Express"
-        },
-        "sourceCountry": "IN",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:08:41.000Z",
-        "imageUrl": "https://images.indianexpress.com/2026/10/Breaking-News-1600-900_c44deb.jpg",
-        "countryCode": "IN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "sg9_qAOAeqsI",
-          "url": "https://www.hindustantimes.com/india-news/air-marshal-ashutosh-dixit-appointed-new-chief-of-the-indian-air-force-101791291473287.html",
-          "canonicalUrl": "https://www.hindustantimes.com/india-news/air-marshal-ashutosh-dixit-appointed-new-chief-of-the-indian-air-force-101791291473287.html",
-          "title": "Air Marshal Ashutosh Dixit appointed new Chief of Air Staff, to assume office October 31",
-          "description": "Air Marshal Ashutosh Dixit has been appointed as the new Chief of the Indian Air Force.",
-          "source": {
-            "id": "hindustantimes",
-            "name": "Hindustan Times"
-          },
-          "sourceCountry": "IN",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:58:47.000Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/ANI-20260922269-0_1791291813904_8llb_1791291824623_KZbY_00b5733e-54fd-4d06-a9d2-b74ee0a949af_mziq.jpg",
-          "countryCode": "IN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:08:41.000Z"
-    },
     {
       "id": "KsBvcveudfGM",
       "representative": {
@@ -90,9 +48,51 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:08:45.000Z"
+    },
+    {
+      "id": "tEjf21-zYjpn",
+      "representative": {
+        "id": "tEjf21-zYjpn",
+        "url": "https://indianexpress.com/article/india/air-marshal-ashutosh-dixit-appointed-new-chief-indian-air-force-10909441/",
+        "canonicalUrl": "https://indianexpress.com/article/india/air-marshal-ashutosh-dixit-appointed-new-chief-indian-air-force-10909441/",
+        "title": "Air Marshal Ashutosh Dixit appointed new Chief of Indian Air Force",
+        "description": null,
+        "source": {
+          "id": "indianexpress",
+          "name": "The Indian Express"
+        },
+        "sourceCountry": "IN",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:08:41.000Z",
+        "imageUrl": "https://images.indianexpress.com/2026/10/Breaking-News-1600-900_c44deb.jpg",
+        "countryCode": "IN",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "sg9_qAOAeqsI",
+          "url": "https://www.hindustantimes.com/india-news/air-marshal-ashutosh-dixit-appointed-new-chief-of-the-indian-air-force-101791291473287.html",
+          "canonicalUrl": "https://www.hindustantimes.com/india-news/air-marshal-ashutosh-dixit-appointed-new-chief-of-the-indian-air-force-101791291473287.html",
+          "title": "Air Marshal Ashutosh Dixit appointed new Chief of Air Staff, to assume office October 31",
+          "description": "Air Marshal Ashutosh Dixit has been appointed as the new Chief of the Indian Air Force.",
+          "source": {
+            "id": "hindustantimes",
+            "name": "Hindustan Times"
+          },
+          "sourceCountry": "IN",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:58:47.000Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/ANI-20260922269-0_1791291813904_8llb_1791291824623_KZbY_00b5733e-54fd-4d06-a9d2-b74ee0a949af_mziq.jpg",
+          "countryCode": "IN",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:08:41.000Z"
     },
     {
       "id": "sKOHwdzANViN",
@@ -114,7 +114,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:08:21.000Z"
     },
@@ -138,7 +138,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:07:23.000Z"
     },
@@ -162,7 +162,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:06:32.000Z"
     },
@@ -186,7 +186,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:05:15.000Z"
     },
@@ -210,7 +210,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:54:46.000Z"
     },
@@ -252,7 +252,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:27:01.000Z"
     },
@@ -276,7 +276,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:16:56.000Z"
     },

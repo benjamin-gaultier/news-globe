@@ -2,286 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "TR",
   "countryName": "Turkey",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "T0S0hXz_B4bi",
-      "representative": {
-        "id": "T0S0hXz_B4bi",
-        "url": "https://www.hurriyet.com.tr/gundem/kubilay-kaan-kundakci-cinayeti-davasi-aleyna-kalaycioglu-hakkinda-tahliye-talebi-43331662",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/kubilay-kaan-kundakci-cinayeti-davasi-aleyna-kalaycioglu-hakkinda-tahliye-talebi-43331662",
-        "title": "Kubilay Kaan Kundakçı cinayeti davası | Aleyna Kalaycıoğlu hakkında tahliye talebi",
-        "description": "İstanbul Ümraniye'de futbolcu Kubilay Kaan Kundakçı'nın silahlı saldırıda öldürülmesine ilişkin davada Cumhuriyet savcısı esas hakkındaki mütalaasını açıkladı. Mütalaada, tutuklu sanık Alaattin Kadayıfçıoğlu'nun 'Kasten öldürme' suçundan müebbet hapis cezasına çarptırılması ve tutukluluk halinin…",
-        "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T13:07:00.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac4f26075376faf77849a5d.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "NBotRHL7QGWx",
-          "url": "https://www.ntv.com.tr/turkiye/galeri-futbolcu-kubilay-kaan-kundakci-cinayetinde-bir-muebbet-ve-bir-tahliye-talebi-1745110",
-          "canonicalUrl": "https://www.ntv.com.tr/turkiye/galeri-futbolcu-kubilay-kaan-kundakci-cinayetinde-bir-muebbet-ve-bir-tahliye-talebi-1745110",
-          "title": "Futbolcu Kubilay Kaan Kundakçı cinayetinde bir müebbet ve bir tahliye talebi",
-          "description": "Futbolcu Kubilay Kaan Kundakçı'nın öldürülmesine ilişkin davada sanık Alaattin Kadayıfçıoğlu'nun müebbet hapis cezasına çarptırılması istendi. Aleyna Kalaycıoğlu hakkında ise tahliye talep edildi.",
-          "source": {
-            "id": "ntv_tr",
-            "name": "NTV"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T13:18:08.000Z",
-          "imageUrl": "https://images.ntv.com.tr/images/kubilaykaankundak%C3%A7%C4%B1cinayeti2-396452.png?width=930&format=webp",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "8p239Qs2MT_m",
-          "url": "https://www.sozcu.com.tr/muebbet-hapisle-yargilanan-aleyna-kalaycioglu-icin-tahliye-talebi-p366668",
-          "canonicalUrl": "https://www.sozcu.com.tr/muebbet-hapisle-yargilanan-aleyna-kalaycioglu-icin-tahliye-talebi-p366668",
-          "title": "Müebbet hapisle yargılanan Aleyna Kalaycıoğlu için tahliye talebi",
-          "description": "Ümraniye'de futbolcu Kubilay Kaan Kundakçı'nın silahlı saldırıda öldürülmesine ilişkin davada Cumhuriyet savcısı esas ha...",
-          "source": {
-            "id": "sozcu",
-            "name": "Sözcü"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T13:09:47.000Z",
-          "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/muebbet-hapisle-yargilanan-aleyna-kalaycioglu-icin-tahliye-talebipng-7CuBMnqS80m7lGJMJIbNVw.png",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "l-kXsClv13Ph",
-          "url": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-futbolcu-kubilay-kaan-kundakci-cinayeti-davasinda-mutalaa-izzet-yildizhan-icin-beraat-aleyna-kalaycioglu-icin-tahliye-talebi-2544239",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/son-dakika-futbolcu-kubilay-kaan-kundakci-cinayeti-davasinda-mutalaa-izzet-yildizhan-icin-beraat-aleyna-kalaycioglu-icin-tahliye-talebi-2544239",
-          "title": "Son Dakika... Futbolcu Kubilay Kaan Kundakçı cinayeti davasında mütalaa: İzzet Yıldızhan için beraat, Aleyna Kalaycıoğlu için tahliye talebi",
-          "description": "Son dakika gelişmesi... Futbolcu Kubilay Kaan Kundakçı’nın öldürülmesine ilişkin davada savcı esas hakkındaki mütalaasını sundu. Sanık Alaattin Kadayıfçıoğlu hakkında “kasten öldürme” suçundan müebbet hapis cezası talep edilirken, Aleyna Kalaycıoğlu’nun adli kontrolle tahliyesi, İzzet Yıldızhan ve…",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T12:29:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/4a3a2f46-d463-4c56-90fb-d6d13450220e.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T13:18:08.000Z"
-    },
-    {
-      "id": "vk026WA2ZZyC",
-      "representative": {
-        "id": "vk026WA2ZZyC",
-        "url": "https://www.hurriyet.com.tr/gundem/basaksehirde-ortaokulda-bicakli-saldiri-yarali-ogrenciler-var-43330956",
-        "canonicalUrl": "https://www.hurriyet.com.tr/gundem/basaksehirde-ortaokulda-bicakli-saldiri-yarali-ogrenciler-var-43330956",
-        "title": "Başakşehir'de ortaokulda bıçaklı saldırı: Yaralı öğrenciler var, 1 öğrenci hayatını kaybetti",
-        "description": "Başakşehir'de bir ortaokul gelen F.M.(15) öğrenci, 8 öğrenciyi bıçaklayarak yaraladı. Hastaneye kaldırılan yaralıların tedavisi sürerken olayı gerçekleştirdiği belirlenen F.M. (15) gözaltına alındı. Milli Eğitim Bakanlığı olayın araştırılması için 2 müfettiş görevlendirdi. Milli Eğitim Bakanı…",
-        "source": {
-          "id": "hurriyet",
-          "name": "Hürriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T06:33:00.000Z",
-        "imageUrl": "https://image.hurimg.com/i/hurriyet/90/620x350/6ac49789983ec8bbc1174cca.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "mJbR3_gAOziZ",
-          "url": "https://www.ntv.com.tr/turkiye/galeri-basaksehirde-ortaokulda-bicakli-saldiri-bir-can-kaybi-7-ogrenci-yarali-1745010",
-          "canonicalUrl": "https://www.ntv.com.tr/turkiye/galeri-basaksehirde-ortaokulda-bicakli-saldiri-bir-can-kaybi-7-ogrenci-yarali-1745010",
-          "title": "Başakşehir'de ortaokulda bıçaklı saldırı. Bir can kaybı, 7 öğrenci yaralı",
-          "description": "İstanbul Başakşehir'deki bir ortaokulda çıkan bıçaklı kavgada yaralanan öğrencilerden biri hayatını kaybetti. 7 öğrencinin ise tedavisi devam ediyor.",
-          "source": {
-            "id": "ntv_tr",
-            "name": "NTV"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T13:18:31.000Z",
-          "imageUrl": "https://images.ntv.com.tr/images/AW803523_05-951831.jpg?width=930&format=webp",
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "T790uBu9snj1",
-          "url": "https://www.cnnturk.com/turkiye/basaksehirde-ortaokulda-bicakli-saldiri-mebden-aciklama-8-ogrenci-yaralandi-konuyla-ilgili-sorusturma-baslatildi-3475605",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/basaksehirde-ortaokulda-bicakli-saldiri-mebden-aciklama-8-ogrenci-yaralandi-konuyla-ilgili-sorusturma-baslatildi-3475605",
-          "title": "Başakşehir'de ortaokulda bıçaklı saldırı! MEB'den açıklama: 8 öğrenci yaralandı, soruşturma başlatıldı",
-          "description": "Başakşehir'de bir ortaokulda meydana gelen bıçaklı saldırıya dair MEB'den yazılı açıklama geldi. Olayda 8 öğrencinin yaralandığı, bıçaklama olayını gerçekleştirdiği belirlenen lise öğrencisinin ise yakalandığı belirtildi. Açıklamada, \"konuyla ilgili adli ve idari soruşturma başlatılmıştır.\" denildi.",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T13:01:43.000Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        },
-        {
-          "id": "8JVSoN6CswCe",
-          "url": "https://www.cumhuriyet.com.tr/turkiye/istanbul-basaksehir-de-ortaokulda-bicakli-saldiri-yusuf-tekin-acikladi-bir-ogrenci-hayatini-kaybetti-2544229",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/istanbul-basaksehir-de-ortaokulda-bicakli-saldiri-yusuf-tekin-acikladi-bir-ogrenci-hayatini-kaybetti-2544229",
-          "title": "İstanbul Başakşehir'de ortaokulda bıçaklı saldırı... Yusuf Tekin açıkladı: Bir öğrenci hayatını kaybetti",
-          "description": "Son dakika haberi... Milli Eğitim Bakanı Yusuf Tekin, İstanbul Başakşehir'de bir okulda düzenlenen bıçaklı saldırı sonucu 1 öğrencinin hayatını kaybettiğini bildirdi.",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T12:26:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/87cf0039-8ff5-4fdd-a8ba-06bc6623787f.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T13:18:31.000Z"
-    },
-    {
-      "id": "EjKCLvf9IOx-",
-      "representative": {
-        "id": "EjKCLvf9IOx-",
-        "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-yapay-zeka-emegi-devre-disi-birakti-1745088",
-        "canonicalUrl": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-yapay-zeka-emegi-devre-disi-birakti-1745088",
-        "title": "Cumhurbaşkanı Erdoğan: Yapay zeka emeği devre dışı bıraktı",
-        "description": "Cumhurbaşkanı Recep Tayyip Erdoğan, yapay zekanın emeği devre dışı bıraktığını ve sınayıcı olduğuna işaret edip \"Akademik süreçlerde de insan faktörü azalıyor.\" dedi.",
-        "source": {
-          "id": "ntv_tr",
-          "name": "NTV"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T12:29:23.000Z",
-        "imageUrl": "https://images.ntv.com.tr/images/AA-20261006-42664197-42664196-CUMHURBASKANI_RECEP_TAYYIP_ERDOGAN-237698.jpg?width=930&format=webp",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "R5UVlfC4UdZV",
-          "url": "https://www.cnnturk.com/turkiye/son-dakika-cumhurbaskani-erdogandan-aciklamalar-3475643",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/son-dakika-cumhurbaskani-erdogandan-aciklamalar-3475643",
-          "title": "SON DAKİKA... Cumhurbaşkanı Erdoğan'dan yapay zeka uyarısı: Emeği devre dışı bıraktı",
-          "description": "Son dakika haberine göre; Cumhurbaşkanı Erdoğan, Beştepe Millet Kongre ve Kültür Merkezi'nde “2026-2027 Akademik Yılı Açılış Töreni”ne katıldı. Erdoğan \"Yapay zekadaki baş döndürücü gelişmeler üniversitelerdeki bazı alanlarda sınayıcı hal aldı. Kaynağa ve bilgiye yapay zekâ modelleri üzerinden…",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T15:08:19.000Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:08:19.000Z"
-    },
-    {
-      "id": "o6Vyu9z8w0yT",
-      "representative": {
-        "id": "o6Vyu9z8w0yT",
-        "url": "https://www.cumhuriyet.com.tr/turkiye/marmara-denizi-ni-kirleten-kati-atik-tesisine-5-milyon-tl-ceza-2544244",
-        "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/marmara-denizi-ni-kirleten-kati-atik-tesisine-5-milyon-tl-ceza-2544244",
-        "title": "Marmara Denizi'ni kirleten katı atık tesisine 5 milyon TL ceza",
-        "description": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, katı atık depolama tesisinden kaynaklanan sızıntı sularının Marmara Denizi'ne karışması nedeniyle Yalova İli Yerel Yönetimleri Katı Atık Tesisleri Yapma ve İşletme Birliği'ne (YAKAB) 5 milyon 34 bin TL ceza uyguladı.",
-        "source": {
-          "id": "cumhuriyet",
-          "name": "Cumhuriyet"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T12:36:00.000Z",
-        "imageUrl": "https://media.cumhuriyet.com.tr/Archive/15fa7eb7-a0e9-46d8-85f6-548c02a0f72f.jpg",
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "8hrFvwbZHCo3",
-          "url": "https://www.cnnturk.com/turkiye/marmara-denizini-kirleten-tesise-iliskin-5-milyon-lira-idari-ceza-3475649",
-          "canonicalUrl": "https://www.cnnturk.com/turkiye/marmara-denizini-kirleten-tesise-iliskin-5-milyon-lira-idari-ceza-3475649",
-          "title": "Marmara Denizi'ni kirleten tesise ilişkin 5 milyon lira idari ceza",
-          "description": "Çevre Şehircilik ve İklim Değişikliği Bakanlığı, katı atık depolama tesisinden kaynaklanan sızıntı sularının Marmara Denizi'ne karışması nedeniyle Yalova İli Yerel Yönetimleri Katı Atık Tesisleri Yapma ve İşletme Birliği'ne (YAKAB) 5 milyon 34 bin TL ceza uyguladı.",
-          "source": {
-            "id": "cnnturk",
-            "name": "CNN Türk"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T14:17:52.000Z",
-          "imageUrl": null,
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:17:52.000Z"
-    },
-    {
-      "id": "inuL4lSzdsIJ",
-      "representative": {
-        "id": "inuL4lSzdsIJ",
-        "url": "https://www.aa.com.tr/tr/spor/tff-yonetim-kurulu-uyesi-mevlut-aktan-gorevinden-istifa-etti/4079784",
-        "canonicalUrl": "https://www.aa.com.tr/tr/spor/tff-yonetim-kurulu-uyesi-mevlut-aktan-gorevinden-istifa-etti/4079784",
-        "title": "TFF Yönetim Kurulu Üyesi Mevlüt Aktan, görevinden istifa etti",
-        "description": "Türkiye Futbol Federasyonu (TFF) Yönetim Kurulu Üyesi Mevlüt Aktan, görevinden istifa ettiğini duyurdu.",
-        "source": {
-          "id": "aa",
-          "name": "Anadolu Ajansı"
-        },
-        "sourceCountry": "TR",
-        "language": "tr",
-        "publishedAt": "2026-10-06T12:22:58.000Z",
-        "imageUrl": null,
-        "countryCode": "TR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "OL8Ld7iASVaP",
-          "url": "https://www.cumhuriyet.com.tr/spor/mevlut-aktan-kimdir-tff-yonetim-kurulu-uyesi-mevlut-aktan-kac-yasinda-nereli-mevlut-aktan-tff-den-neden-istifa-etti-2544225",
-          "canonicalUrl": "https://www.cumhuriyet.com.tr/spor/mevlut-aktan-kimdir-tff-yonetim-kurulu-uyesi-mevlut-aktan-kac-yasinda-nereli-mevlut-aktan-tff-den-neden-istifa-etti-2544225",
-          "title": "Mevlüt Aktan kimdir? TFF Yönetim Kurulu Üyesi Mevlüt Aktan kaç yaşında, nereli? Mevlüt Aktan TFF'den neden istifa etti?",
-          "description": "Türkiye Futbol Federasyonu Yönetim Kurulu Üyesi Mevlüt Aktan, görevinden istifa etti. Peki, Mevlüt Aktan kimdir? TFF Yönetim Kurulu Üyesi Mevlüt Aktan kaç yaşında, nereli? Mevlüt Aktan TFF'den neden istifa etti?",
-          "source": {
-            "id": "cumhuriyet",
-            "name": "Cumhuriyet"
-          },
-          "sourceCountry": "TR",
-          "language": "tr",
-          "publishedAt": "2026-10-06T12:24:00.000Z",
-          "imageUrl": "https://media.cumhuriyet.com.tr/Archive/5e88a4bc-d87a-45bb-8deb-9b675cc07b9f.jpg",
-          "countryCode": "TR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:24:00.000Z"
-    },
     {
       "id": "NQl0K9ydaaif",
       "representative": {
@@ -449,6 +171,48 @@
       "latestPublishedAt": "2026-10-06T15:26:26.000Z"
     },
     {
+      "id": "EjKCLvf9IOx-",
+      "representative": {
+        "id": "EjKCLvf9IOx-",
+        "url": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-yapay-zeka-emegi-devre-disi-birakti-1745088",
+        "canonicalUrl": "https://www.ntv.com.tr/turkiye/cumhurbaskani-erdogan-yapay-zeka-emegi-devre-disi-birakti-1745088",
+        "title": "Cumhurbaşkanı Erdoğan: Yapay zeka emeği devre dışı bıraktı",
+        "description": "Cumhurbaşkanı Recep Tayyip Erdoğan, yapay zekanın emeği devre dışı bıraktığını ve sınayıcı olduğuna işaret edip \"Akademik süreçlerde de insan faktörü azalıyor.\" dedi.",
+        "source": {
+          "id": "ntv_tr",
+          "name": "NTV"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T12:29:23.000Z",
+        "imageUrl": "https://images.ntv.com.tr/images/AA-20261006-42664197-42664196-CUMHURBASKANI_RECEP_TAYYIP_ERDOGAN-237698.jpg?width=930&format=webp",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "R5UVlfC4UdZV",
+          "url": "https://www.cnnturk.com/turkiye/son-dakika-cumhurbaskani-erdogandan-aciklamalar-3475643",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/son-dakika-cumhurbaskani-erdogandan-aciklamalar-3475643",
+          "title": "SON DAKİKA... Cumhurbaşkanı Erdoğan'dan yapay zeka uyarısı: Emeği devre dışı bıraktı",
+          "description": "Son dakika haberine göre; Cumhurbaşkanı Erdoğan, Beştepe Millet Kongre ve Kültür Merkezi'nde “2026-2027 Akademik Yılı Açılış Töreni”ne katıldı. Erdoğan \"Yapay zekadaki baş döndürücü gelişmeler üniversitelerdeki bazı alanlarda sınayıcı hal aldı. Kaynağa ve bilgiye yapay zekâ modelleri üzerinden…",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T15:08:19.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:08:19.000Z"
+    },
+    {
       "id": "U8O8wvS-iL8e",
       "representative": {
         "id": "U8O8wvS-iL8e",
@@ -471,6 +235,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:59:08.000Z"
+    },
+    {
+      "id": "o6Vyu9z8w0yT",
+      "representative": {
+        "id": "o6Vyu9z8w0yT",
+        "url": "https://www.cumhuriyet.com.tr/turkiye/marmara-denizi-ni-kirleten-kati-atik-tesisine-5-milyon-tl-ceza-2544244",
+        "canonicalUrl": "https://www.cumhuriyet.com.tr/turkiye/marmara-denizi-ni-kirleten-kati-atik-tesisine-5-milyon-tl-ceza-2544244",
+        "title": "Marmara Denizi'ni kirleten katı atık tesisine 5 milyon TL ceza",
+        "description": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, katı atık depolama tesisinden kaynaklanan sızıntı sularının Marmara Denizi'ne karışması nedeniyle Yalova İli Yerel Yönetimleri Katı Atık Tesisleri Yapma ve İşletme Birliği'ne (YAKAB) 5 milyon 34 bin TL ceza uyguladı.",
+        "source": {
+          "id": "cumhuriyet",
+          "name": "Cumhuriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T12:36:00.000Z",
+        "imageUrl": "https://media.cumhuriyet.com.tr/Archive/15fa7eb7-a0e9-46d8-85f6-548c02a0f72f.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "8hrFvwbZHCo3",
+          "url": "https://www.cnnturk.com/turkiye/marmara-denizini-kirleten-tesise-iliskin-5-milyon-lira-idari-ceza-3475649",
+          "canonicalUrl": "https://www.cnnturk.com/turkiye/marmara-denizini-kirleten-tesise-iliskin-5-milyon-lira-idari-ceza-3475649",
+          "title": "Marmara Denizi'ni kirleten tesise ilişkin 5 milyon lira idari ceza",
+          "description": "Çevre Şehircilik ve İklim Değişikliği Bakanlığı, katı atık depolama tesisinden kaynaklanan sızıntı sularının Marmara Denizi'ne karışması nedeniyle Yalova İli Yerel Yönetimleri Katı Atık Tesisleri Yapma ve İşletme Birliği'ne (YAKAB) 5 milyon 34 bin TL ceza uyguladı.",
+          "source": {
+            "id": "cnnturk",
+            "name": "CNN Türk"
+          },
+          "sourceCountry": "TR",
+          "language": "tr",
+          "publishedAt": "2026-10-06T14:17:52.000Z",
+          "imageUrl": null,
+          "countryCode": "TR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:17:52.000Z"
     },
     {
       "id": "wASwsAoJYe4J",
@@ -634,7 +440,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:08:00.000Z"
     },
@@ -658,9 +464,81 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:07:24.000Z"
+    },
+    {
+      "id": "aUeWZqHAkT5v",
+      "representative": {
+        "id": "aUeWZqHAkT5v",
+        "url": "https://www.sozcu.com.tr/istanbul-daki-ortaokulda-bicakli-saldirida-aci-haber-p366671",
+        "canonicalUrl": "https://www.sozcu.com.tr/istanbul-daki-ortaokulda-bicakli-saldirida-aci-haber-p366671",
+        "title": "İstanbul'daki ortaokulda bıçaklı saldırıda acı haber",
+        "description": "İstanbul Başakşehir'de bir okulda düzenlenen bıçaklı saldırıda bir öğrencinin hayatını kaybettiği öğrenildi.",
+        "source": {
+          "id": "sozcu",
+          "name": "Sözcü"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T13:03:12.000Z",
+        "imageUrl": "https://sozcu01.sozcucdn.com/sozcu/production/uploads/images/2026/10/son-dakikajpg-6VIfs78LYU2PngmchnYQMw.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:03:12.000Z"
+    },
+    {
+      "id": "5L4qf0wA-lvI",
+      "representative": {
+        "id": "5L4qf0wA-lvI",
+        "url": "https://www.cumhuriyet.com.tr/astroloji/sevgiyi-kanitlamaktan-yorulanlar-iliskilerde-hep-verip-karsilik-alamayan-5-burc-2544251",
+        "canonicalUrl": "https://www.cumhuriyet.com.tr/astroloji/sevgiyi-kanitlamaktan-yorulanlar-iliskilerde-hep-verip-karsilik-alamayan-5-burc-2544251",
+        "title": "Sevgiyi kanıtlamaktan yorulanlar: İlişkilerde hep verip karşılık alamayan 5 burç",
+        "description": "Karşısındaki insanları mutlu etmek için çırpınan ancak gösterdiği çabanın karşılığını aynı yoğunlukta alamadığında derin bir hayal kırıklığı yaşayan bazı insanlar vardır. İçten içe \"Acaba yeterince seviliyor muyum?\" sorgulamasıyla kendini yiyip bitiren o kırılgan ruhlar...",
+        "source": {
+          "id": "cumhuriyet",
+          "name": "Cumhuriyet"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T13:03:00.000Z",
+        "imageUrl": "https://media.cumhuriyet.com.tr/Archive/c0d5db5d-b5ad-45b1-9cae-183218280e07.jpg",
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:03:00.000Z"
+    },
+    {
+      "id": "NONbW9M7tfVx",
+      "representative": {
+        "id": "NONbW9M7tfVx",
+        "url": "https://www.aa.com.tr/tr/dunya/kuzey-koreden-tampon-bolgede-mayin-temizleyen-guney-koreye-yeni-savas-tehlikesi-mesaji/4079834",
+        "canonicalUrl": "https://www.aa.com.tr/tr/dunya/kuzey-koreden-tampon-bolgede-mayin-temizleyen-guney-koreye-yeni-savas-tehlikesi-mesaji/4079834",
+        "title": "Kuzey Kore'den tampon bölgede mayın temizleyen Güney Kore'ye \"yeni savaş tehlikesi\" mesajı",
+        "description": "Kuzey Kore, Güney Kore'nin 21 Eylül'de iki ülkeyi ayıran Askerden Arındırılmış Bölge'de (DMZ) yürüttüğü mayın temizleme çalışmasının ardından \"yeni savaş tehlikesinin\" ortaya çıktığını bildirdi.",
+        "source": {
+          "id": "aa",
+          "name": "Anadolu Ajansı"
+        },
+        "sourceCountry": "TR",
+        "language": "tr",
+        "publishedAt": "2026-10-06T13:01:36.000Z",
+        "imageUrl": null,
+        "countryCode": "TR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:01:36.000Z"
     }
   ]
 }

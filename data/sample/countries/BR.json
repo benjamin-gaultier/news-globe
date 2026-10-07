@@ -2,8 +2,74 @@
   "schemaVersion": 1,
   "countryCode": "BR",
   "countryName": "Brazil",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
+    {
+      "id": "HCO9DjWGZt1D",
+      "representative": {
+        "id": "HCO9DjWGZt1D",
+        "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/10/material-radioativo-roubado-de-van-e-achado-em-terreno-baldio-em-sao-paulo.shtml",
+        "canonicalUrl": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/10/material-radioativo-roubado-de-van-e-achado-em-terreno-baldio-em-sao-paulo.shtml",
+        "title": "Material radioativo roubado de van é achado em terreno baldio em São Paulo",
+        "description": "O material radioativo roubado de uma van na noite de quinta-feira (1º) na Vila Maria, em São Paulo , foi localizado pela Polícia Civil , na noite de segunda-feira (5), de acordo com a ANSN (Autoridade Nacional de Segurança Nuclear). Leia mais (10/06/2026 - 08h08)",
+        "source": {
+          "id": "folha",
+          "name": "Folha de S.Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T11:08:00.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "mUlK9i31qpPo",
+          "url": "https://www.poder360.com.br/poder-seguranca-publica/material-radioativo-roubado-e-recuperado-em-sao-paulo/",
+          "canonicalUrl": "https://www.poder360.com.br/poder-seguranca-publica/material-radioativo-roubado-e-recuperado-em-sao-paulo/",
+          "title": "Material radioativo roubado é recuperado em São Paulo",
+          "description": "Actínio-225 foi extraviado quando veículo que realizava seu transporte foi roubado; substância é usada no tratamento de câncer",
+          "source": {
+            "id": "poder360",
+            "name": "Poder360"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-06T13:16:45.000Z",
+          "imageUrl": null,
+          "countryCode": "BR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:16:45.000Z"
+    },
+    {
+      "id": "skbUenjYjQsL",
+      "representative": {
+        "id": "skbUenjYjQsL",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-terca-feira-6",
+        "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-terca-feira-6",
+        "title": "Confira a agenda dos presidenciáveis nesta terça-feira (6)",
+        "description": "Os candidatos que disputam o segundo turno das eleições à Presidência da República participam de reuniões em Brasília e Goiânia nesta terça-feira (6). Flávio Bolsonaro (PL) Participa de reuniões internas de campanha em Brasília. Às 14h, tem encontro com Ronaldo Caiado (PSD) e Daniel Vilela (MDB)…",
+        "source": {
+          "id": "agenciabrasil",
+          "name": "Agência Brasil"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-06T13:10:00.000Z",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:10:00.000Z"
+    },
     {
       "id": "WGReK7rMfYcS",
       "representative": {
@@ -76,75 +142,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 4,
+      "outletCount24h": 0,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T13:09:17.000Z"
-    },
-    {
-      "id": "HCO9DjWGZt1D",
-      "representative": {
-        "id": "HCO9DjWGZt1D",
-        "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/10/material-radioativo-roubado-de-van-e-achado-em-terreno-baldio-em-sao-paulo.shtml",
-        "canonicalUrl": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/10/material-radioativo-roubado-de-van-e-achado-em-terreno-baldio-em-sao-paulo.shtml",
-        "title": "Material radioativo roubado de van é achado em terreno baldio em São Paulo",
-        "description": "O material radioativo roubado de uma van na noite de quinta-feira (1º) na Vila Maria, em São Paulo , foi localizado pela Polícia Civil , na noite de segunda-feira (5), de acordo com a ANSN (Autoridade Nacional de Segurança Nuclear). Leia mais (10/06/2026 - 08h08)",
-        "source": {
-          "id": "folha",
-          "name": "Folha de S.Paulo"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-06T11:08:00.000Z",
-        "imageUrl": null,
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "mUlK9i31qpPo",
-          "url": "https://www.poder360.com.br/poder-seguranca-publica/material-radioativo-roubado-e-recuperado-em-sao-paulo/",
-          "canonicalUrl": "https://www.poder360.com.br/poder-seguranca-publica/material-radioativo-roubado-e-recuperado-em-sao-paulo/",
-          "title": "Material radioativo roubado é recuperado em São Paulo",
-          "description": "Actínio-225 foi extraviado quando veículo que realizava seu transporte foi roubado; substância é usada no tratamento de câncer",
-          "source": {
-            "id": "poder360",
-            "name": "Poder360"
-          },
-          "sourceCountry": "BR",
-          "language": "pt",
-          "publishedAt": "2026-10-06T13:16:45.000Z",
-          "imageUrl": null,
-          "countryCode": "BR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:16:45.000Z"
-    },
-    {
-      "id": "skbUenjYjQsL",
-      "representative": {
-        "id": "skbUenjYjQsL",
-        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-terca-feira-6",
-        "canonicalUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-terca-feira-6",
-        "title": "Confira a agenda dos presidenciáveis nesta terça-feira (6)",
-        "description": "Os candidatos que disputam o segundo turno das eleições à Presidência da República participam de reuniões em Brasília e Goiânia nesta terça-feira (6). Flávio Bolsonaro (PL) Participa de reuniões internas de campanha em Brasília. Às 14h, tem encontro com Ronaldo Caiado (PSD) e Daniel Vilela (MDB)…",
-        "source": {
-          "id": "agenciabrasil",
-          "name": "Agência Brasil"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-06T13:10:00.000Z",
-        "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/abr/assets/images/logo-agenciabrasil.svg",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:10:00.000Z"
     },
     {
       "id": "s3bCSaOc1EX3",
@@ -166,7 +166,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:06:00.000Z"
     },
@@ -190,7 +190,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:02:00.000Z"
     },
@@ -214,7 +214,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:00:00.000Z"
     },
@@ -238,7 +238,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:57:09.000Z"
     },
@@ -262,7 +262,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:56:54.000Z"
     },
@@ -286,7 +286,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:48.000Z"
     },
@@ -310,7 +310,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:00.000Z"
     },
@@ -334,33 +334,9 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:49:41.000Z"
-    },
-    {
-      "id": "UJDxifQWYSF5",
-      "representative": {
-        "id": "UJDxifQWYSF5",
-        "url": "https://g1.globo.com/rr/roraima/eleicoes/2026/noticia/2026/10/06/senadora-eleita-por-roraima-teresa-surita-quer-combater-crise-na-saude-nao-e-falta-de-recurso.ghtml",
-        "canonicalUrl": "https://g1.globo.com/rr/roraima/eleicoes/2026/noticia/2026/10/06/senadora-eleita-por-roraima-teresa-surita-quer-combater-crise-na-saude-nao-e-falta-de-recurso.ghtml",
-        "title": "Senadora eleita por Roraima, Teresa Surita quer combater crise na saúde: 'não é falta de recurso'",
-        "description": "Senadora eleita, Teresa Surita (MDB) é entrevistada no Bom Dia Roraima Senadora eleita por Roraima nas eleições de 2026, Teresa Surita (MDB), afirmou que a eficiência na gestão pública será o foco do mandato e classificou a área da saúde como \"prioridade zero\". A declaração foi dada na primeira…",
-        "source": {
-          "id": "g1",
-          "name": "g1"
-        },
-        "sourceCountry": "BR",
-        "language": "pt",
-        "publishedAt": "2026-10-06T12:34:53.000Z",
-        "imageUrl": "https://s2-g1.glbimg.com/uYQTei4aWWZ24ZCXDal7sbIjgdo=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/A/zk26XNSsA7o4liKqlLSw/teresa.png",
-        "countryCode": "BR",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:34:53.000Z"
     },
     {
       "id": "1ZOXD2jfKd9k",
@@ -382,7 +358,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:30:20.000Z"
     },
@@ -406,7 +382,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:19:17.000Z"
     },
@@ -433,6 +409,48 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:07:09.000Z"
+    },
+    {
+      "id": "L4GRfp65Nk_D",
+      "representative": {
+        "id": "L4GRfp65Nk_D",
+        "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/veja-quem-ganha-e-quem-perde-com-o-resultado-do-1o-turno-das-eleicoes.shtml",
+        "canonicalUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/veja-quem-ganha-e-quem-perde-com-o-resultado-do-1o-turno-das-eleicoes.shtml",
+        "title": "Veja quem ganha e quem perde com o resultado do 1º turno das eleições",
+        "description": "O primeiro turno das eleições deste domingo (4) fortaleceu o PL no Congresso e confirmou a reeleição de Tarcísio de Freitas (Republicanos) em São Paulo . O resultado também ampliou a presença da família Bolsonaro na política, com quatro parentes do ex-presidente eleitos para a Câmara e o Senado…",
+        "source": {
+          "id": "folha",
+          "name": "Folha de S.Paulo"
+        },
+        "sourceCountry": "BR",
+        "language": "pt",
+        "publishedAt": "2026-10-05T21:34:00.000Z",
+        "imageUrl": null,
+        "countryCode": "BR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "65eXRGLTCg_M",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/live-poder-eleicoes-assista-as-analises-dos-resultados-do-1o-turno/",
+          "canonicalUrl": "https://www.poder360.com.br/poder-eleicoes-2026/live-poder-eleicoes-assista-as-analises-dos-resultados-do-1o-turno/",
+          "title": "Live Poder Eleições: assista às análises dos resultados do 1º turno",
+          "description": "Valdemar Costa Neto, Janio de Freitas, Pedro Rossi, Marilda Silveira e outros convidados analisaram os resultados",
+          "source": {
+            "id": "poder360",
+            "name": "Poder360"
+          },
+          "sourceCountry": "BR",
+          "language": "pt",
+          "publishedAt": "2026-10-06T11:45:51.000Z",
+          "imageUrl": null,
+          "countryCode": "BR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:45:51.000Z"
     }
   ]
 }

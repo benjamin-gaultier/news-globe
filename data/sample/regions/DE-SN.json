@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "DE",
+  "countryName": "Germany",
+  "regionCode": "DE-SN",
+  "regionName": "Saxony",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "clusters": [
+    {
+      "id": "OSrMsHE-YM3x",
+      "representative": {
+        "id": "OSrMsHE-YM3x",
+        "url": "https://www.freiepresse.de/chemnitz/limbach-oberfrohna-e-bike-fahrerin-schwer-verletzt-wie-kam-es-zum-unfall-artikel14436341?ref=rss-fp-chemnitz",
+        "canonicalUrl": "https://www.freiepresse.de/chemnitz/limbach-oberfrohna-e-bike-fahrerin-schwer-verletzt-wie-kam-es-zum-unfall-artikel14436341",
+        "title": "Limbach-Oberfrohna: E-Bike-Fahrerin schwer verletzt – wie kam es zum Unfall?",
+        "description": "Der Unfall passierte am Montagnachmittag. Die Polizei sucht Zeugen. Am Montagnachmittag ist in Limbach-Oberfrohna bei einem Unfall eine 58-jährige E-Bike-Fahrerin schwer verletzt worden. Nach Angaben aus der zuständigen Polizeidirektion in Zwickau passierte der Unfall um 13.50 Uhr an der…",
+        "source": {
+          "id": "freiepresse",
+          "name": "Freie Presse"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T11:30:00.000Z",
+        "imageUrl": "https://www.freiepresse.de/DYNIMG/76/79/19537679_M2040x1360C2040x1360o0x0.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [
+        {
+          "id": "bc82uUhCV86n",
+          "url": "https://www.lvz.de/lokales/leipzig/leipzig-von-auto-erfasst-e-bike-fahrerin-bei-unfall-in-gohlis-schwer-verletzt-BCLKTRSQKFGUVKX7SCMFSRSA3Y.html",
+          "canonicalUrl": "https://www.lvz.de/lokales/leipzig/leipzig-von-auto-erfasst-e-bike-fahrerin-bei-unfall-in-gohlis-schwer-verletzt-BCLKTRSQKFGUVKX7SCMFSRSA3Y.html",
+          "title": "Leipzig: Von Auto erfasst - E-Bike-Fahrerin bei Unfall in Gohlis schwer verletzt",
+          "description": "Eine 76 Jahre alte E-Bike-Fahrerin ist am Dienstag in Gohlis-Mitte von einem Auto erfasst worden. Dabei zog sich die Frau schwere Verletzungen zu.",
+          "source": {
+            "id": "lvz",
+            "name": "Leipziger Volkszeitung"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T11:34:28.000Z",
+          "imageUrl": "https://www.lvz.de/resizer/v2/N3MIAEM4C2OKCP4QPBE7VJSYTQ.jpg?auth=2a0aedd57e0fdecc7033d972df7365db7f87a979e1b78ea9eed5469d7bd3e6c1&quality=70&width=596",
+          "countryCode": "DE",
+          "regionCode": "DE-SN"
+        },
+        {
+          "id": "BhBrFby8rb7A",
+          "url": "https://www.mdr.de/nachrichten/sachsen/dresden/dippoldiswalde-sebnitz/news-polizei-verletzter,unfall-rollstuhlfahrer-100.html",
+          "canonicalUrl": "https://www.mdr.de/nachrichten/sachsen/dresden/dippoldiswalde-sebnitz/news-polizei-verletzter,unfall-rollstuhlfahrer-100.html",
+          "title": "Rollstuhlfahrer in Dippoldiswalde von Auto erfasst und schwer verletzt",
+          "description": "Ein 81-Jähriger im Rollstuhl wurde in Dippoldiswalde bei einem Unfall schwer verletzt. Er war auf der B170 unterwegs, als ihn ein Auto erfasste.",
+          "source": {
+            "id": "mdr_sachsen",
+            "name": "MDR Sachsen"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T06:25:57.000Z",
+          "imageUrl": null,
+          "countryCode": "DE",
+          "regionCode": "DE-SN"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T11:34:28.000Z"
+    },
+    {
+      "id": "TpUiq7iG6ww_",
+      "representative": {
+        "id": "TpUiq7iG6ww_",
+        "url": "https://www.dnn.de/lokales/dresden/dresden-ruth-liebscher-ist-das-stollenmaedchen-2026-6FWAPED3UZCC5DC673IU2H6ISI.html",
+        "canonicalUrl": "https://www.dnn.de/lokales/dresden/dresden-ruth-liebscher-ist-das-stollenmaedchen-2026-6FWAPED3UZCC5DC673IU2H6ISI.html",
+        "title": "Dresden: Ruth Liebscher ist das Stollenmädchen 2026",
+        "description": "Ruth Liebscher wird als Stollenmädchen zur Botschafterin für Dresdens berühmtes Weihnachtsgebäck. Was sie mit dem Traditionshandwerk verbindet und welche Leidenschaft das neue Stollenmädchen noch hat.",
+        "source": {
+          "id": "dnn",
+          "name": "Dresdner Neueste Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T15:42:54.000Z",
+        "imageUrl": "https://www.dnn.de/resizer/v2/F46SRPOL6BBKBIOKH56BFUZ5OA.jpeg?auth=75f640a0476f710fc9d2e8fa38216b717038e07ecc669d406863c552693ede84&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [
+        {
+          "id": "B6caIEHZ1DNq",
+          "url": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/ruth-liebscher-backen,weihnachten-stollenmaedchen-100.html",
+          "canonicalUrl": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/ruth-liebscher-backen,weihnachten-stollenmaedchen-100.html",
+          "title": "Ruth Liebscher aus Weinböhla ist neues Dresdner Stollenmädchen",
+          "description": "Die Auszubildende Ruth Liebscher wirbt im kommenen Advent als Stollenmädchen für das Gebäck. Die 18-Jährige wird auch das Stollenfest in Dresden eröffnen.",
+          "source": {
+            "id": "mdr_sachsen",
+            "name": "MDR Sachsen"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T06:35:19.000Z",
+          "imageUrl": null,
+          "countryCode": "DE",
+          "regionCode": "DE-SN"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T06:35:19.000Z"
+    },
+    {
+      "id": "p1f6NqbS1LKs",
+      "representative": {
+        "id": "p1f6NqbS1LKs",
+        "url": "https://www.lvz.de/wirtschaft/regional/porsche-chef-lobt-leipzig-geringere-kosten-als-im-stammwerk-zuffenhausen-N272UAQ4JJAA5NL5IOME5ZMAAA.html",
+        "canonicalUrl": "https://www.lvz.de/wirtschaft/regional/porsche-chef-lobt-leipzig-geringere-kosten-als-im-stammwerk-zuffenhausen-N272UAQ4JJAA5NL5IOME5ZMAAA.html",
+        "title": "Porsche-Chef lobt Leipzig: Deutlich geringere Kosten - neue Modelle in Sicht.",
+        "description": "Der Sportwagenbauer Porsche hat jetzt seine Strategie bis 2035 vorgestellt. Das Unternehmen will mit weniger gefertigten Fahrzeugen deutlich mehr verdienen. Für das Werk in Leipzig gibt es gute Noten – verbunden mit der Hoffnung auf weitere Modelle.",
+        "source": {
+          "id": "lvz",
+          "name": "Leipziger Volkszeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:39:51.000Z",
+        "imageUrl": "https://www.lvz.de/resizer/v2/XRKDHOYQQREB5BSXNCDMVNPPAM.jpeg?auth=69568be7875ed1875c612889e99a7f453fd335afe3d7ed37a5b041816c79b6d5&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:39:51.000Z"
+    },
+    {
+      "id": "151IBHuM_KhD",
+      "representative": {
+        "id": "151IBHuM_KhD",
+        "url": "https://www.dnn.de/lokales/dresden/pro-palaestina-demo-in-dresden-gegen-constantin-schreiber-und-sein-neues-buch-ueber-den-islam-CNP75ZO6GBEKXIGIQ5ED4GRAXU.html",
+        "canonicalUrl": "https://www.dnn.de/lokales/dresden/pro-palaestina-demo-in-dresden-gegen-constantin-schreiber-und-sein-neues-buch-ueber-den-islam-CNP75ZO6GBEKXIGIQ5ED4GRAXU.html",
+        "title": "Pro-Palästina-Demo in Dresden gegen Constantin Schreiber und sein neues Buch über den Islam",
+        "description": "Der Journalist Constantin Schreiber stellt am Mittwochabend in Dresden sein Buch „Die Kraft des Islams“ vor. Palästina-Aktivisten rufen zu einer Demo auf und nennen ihn einen „Genozidleugner und Israel-Propagandist“. Wie der Autor reagiert.",
+        "source": {
+          "id": "dnn",
+          "name": "Dresdner Neueste Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:25:42.000Z",
+        "imageUrl": "https://www.dnn.de/resizer/v2/A67ZPTEZ45C2ZNCB4T2QGEZSOM.jpg?auth=01a4bbbe043460a51fa829c5fe977381f4a8034f5b6b4b3e5715a38743efc095&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:25:42.000Z"
+    },
+    {
+      "id": "lN4cI5K1KjTc",
+      "representative": {
+        "id": "lN4cI5K1KjTc",
+        "url": "https://www.lvz.de/lokales/leipzig/lvb-servicecenter-am-wilhelm-leuschner-platz-zieht-voruebergehend-um-ECXU5ZOMKJDQDD7DTFPZ65NGSE.html",
+        "canonicalUrl": "https://www.lvz.de/lokales/leipzig/lvb-servicecenter-am-wilhelm-leuschner-platz-zieht-voruebergehend-um-ECXU5ZOMKJDQDD7DTFPZ65NGSE.html",
+        "title": "LVB-Servicecenter am Wilhelm-Leuschner-Platz zieht vorübergehend um",
+        "description": "Das Servicecenter der Leipziger Verkehrsbetriebe am Wilhelm-Leuschner-Platz wird umfassend modernisiert, um Wartezeiten zu verkürzen. Wegen der monatelangen Bauarbeiten zieht das Center vorübergehend an einen anderen Standort.",
+        "source": {
+          "id": "lvz",
+          "name": "Leipziger Volkszeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:25:28.000Z",
+        "imageUrl": "https://www.lvz.de/resizer/v2/6LZFDVQFXJDCBNYDHLYFU5DZ3I.jpg?auth=a666f524b03ff3c8aa4b0c5b8f969669e3289d5bf05d929a12d91350c225bbc3&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:25:28.000Z"
+    },
+    {
+      "id": "4B5FwvgE2Xae",
+      "representative": {
+        "id": "4B5FwvgE2Xae",
+        "url": "https://www.lvz.de/lokales/leipzig/leipzig-und-frankfurt-am-main-nationalbibliothek-macht-interviews-zum-hamas-ueberfall-zugaenglich-KZQZFTR6WJEPPOIHQO2JCWV7Q4.html",
+        "canonicalUrl": "https://www.lvz.de/lokales/leipzig/leipzig-und-frankfurt-am-main-nationalbibliothek-macht-interviews-zum-hamas-ueberfall-zugaenglich-KZQZFTR6WJEPPOIHQO2JCWV7Q4.html",
+        "title": "Leipzig und Frankfurt am Main: Nationalbibliothek macht Interviews zum Hamas-Überfall zugänglich",
+        "description": "Der Hamas-Überfall auf Israel jährt sich am Mittwoch zum dritten Mal. Die Deutsche Nationalbibliothek nimmt diesen Tag zum Anlass und macht mehr als 50.000 Zeitzeugenberichte zugänglich. Diese können an den Standorten in Leipzig und Frankfurt am Main eingesehen werden.",
+        "source": {
+          "id": "lvz",
+          "name": "Leipziger Volkszeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:22:03.000Z",
+        "imageUrl": "https://www.lvz.de/resizer/v2/QAFJDDNEMAL2MLROJFQGIKI25E.jpg?auth=6c733302f5cb267ad3bb569b370f2a0831826a48da3607d10c32392b0d51b3cb&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:22:03.000Z"
+    },
+    {
+      "id": "CrIHRVIEGHYW",
+      "representative": {
+        "id": "CrIHRVIEGHYW",
+        "url": "https://www.dnn.de/lokales/dresden/rechtsextreme-hj-in-dresden-gruene-verlangen-strategie-von-ob-hilbert-FD2G5PWNBJFRVB6Q4FT2QIHYYY.html",
+        "canonicalUrl": "https://www.dnn.de/lokales/dresden/rechtsextreme-hj-in-dresden-gruene-verlangen-strategie-von-ob-hilbert-FD2G5PWNBJFRVB6Q4FT2QIHYYY.html",
+        "title": "Rechtsextreme „HJ\" in Dresden – Grüne verlangen Strategie von OB Hilbert",
+        "description": "In Dresden soll der Stadtrat erstmals über die vom sächsischen Verfassungsschutz als rechtsextrem eingestufte „Hochland Jugend“ diskutieren. Die Grünen fordern vom OB eine Strategie – mit Rückhalt der Hochland-CDU. Dazu kursiert ein offener Brief.",
+        "source": {
+          "id": "dnn",
+          "name": "Dresdner Neueste Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:15:21.000Z",
+        "imageUrl": "https://www.dnn.de/resizer/v2/MKRWZY5Q3ND4JB4AWJFOVKMKRU.jpg?auth=2de98fd58e93e434822e89662f1484556f75d4834915f7d994e049d165d32479&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:15:21.000Z"
+    },
+    {
+      "id": "Nb2eJyEqKLBh",
+      "representative": {
+        "id": "Nb2eJyEqKLBh",
+        "url": "https://www.freiepresse.de/chemnitz/autonomes-fahren-in-chemnitz-wie-ein-visionaer-ein-menschenkenner-und-ein-pragmatist-darueber-denken-artikel14437704?ref=rss-fp-chemnitz",
+        "canonicalUrl": "https://www.freiepresse.de/chemnitz/autonomes-fahren-in-chemnitz-wie-ein-visionaer-ein-menschenkenner-und-ein-pragmatist-darueber-denken-artikel14437704",
+        "title": "Autonomes Fahren in Chemnitz? – Wie ein Visionär, ein Menschenkenner und ein Pragmatist darüber denken",
+        "description": "Auf Einladung der CVAG trafen sich Experten, Forscher und Praktiker zu einer Fachtagung über autonomes Fahren im ÖPNV. Auf dem abschließenden „Freie Presse“-Podium wurde deutlich: Klingt alles super, aber das wird kein Selbstläufer. Ein Satz steht an diesem Abend exemplarisch im Raum. „Lassen Sie…",
+        "source": {
+          "id": "freiepresse",
+          "name": "Freie Presse"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:15:00.000Z",
+        "imageUrl": "https://www.freiepresse.de/DYNIMG/21/70/19542170_M2040x1360C2040x1360o0x0.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:15:00.000Z"
+    },
+    {
+      "id": "Uf_x3Xw3xEIx",
+      "representative": {
+        "id": "Uf_x3Xw3xEIx",
+        "url": "https://www.dnn.de/lokales/dresden/dresden-zaeunt-kompletten-park-ein-selbst-der-sandkasten-ist-zu-YPCI553FX5EC7JHMUN62N7HCLQ.html",
+        "canonicalUrl": "https://www.dnn.de/lokales/dresden/dresden-zaeunt-kompletten-park-ein-selbst-der-sandkasten-ist-zu-YPCI553FX5EC7JHMUN62N7HCLQ.html",
+        "title": "Dresden zäunt kompletten Park ein: Selbst der Sandkasten ist zu",
+        "description": "Das Drama um einen von Grundschülern genutzten Park an der Würzburger Straße geht weiter. Fast alle Grünflächen sind eingezäunt. Erst in einem Jahr soll sich die Situation bessern.",
+        "source": {
+          "id": "dnn",
+          "name": "Dresdner Neueste Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:13:10.000Z",
+        "imageUrl": "https://www.dnn.de/resizer/v2/VU4MIYO5SVFW3JBWLR3PESDFFM.jpg?auth=0185abff08bb0c0745527b9ebd91c95480cf87e039102a1d48c23ca02fab3b06&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:13:10.000Z"
+    },
+    {
+      "id": "d_9-FAXtmHHI",
+      "representative": {
+        "id": "d_9-FAXtmHHI",
+        "url": "https://www.freiepresse.de/chemnitz/herbstferien-was-ist-in-den-chemnitzer-schwimmbaedern-los-artikel14437644?ref=rss-fp-chemnitz",
+        "canonicalUrl": "https://www.freiepresse.de/chemnitz/herbstferien-was-ist-in-den-chemnitzer-schwimmbaedern-los-artikel14437644",
+        "title": "Herbstferien: Was ist in den Chemnitzer Schwimmbädern los?",
+        "description": "Wer die Herbstferien für ein Schwimmanzeichen nutzen oder ins Bernsdorfer Bad will, sollte diese Hinweise der Stadt Chemnitz beachten. Chemnitz. Die Stadt Chemnitz kündigt für die kommunalen Schwimmhallen zusätzliche Öffnungszeiten, aber auch zusätzliche Schließzeiten an. So hat die Halle im…",
+        "source": {
+          "id": "freiepresse",
+          "name": "Freie Presse"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:30:00.000Z",
+        "imageUrl": "https://www.freiepresse.de/DYNIMG/19/86/19541986_M2040x1360C2040x1360o0x0.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:30:00.000Z"
+    },
+    {
+      "id": "KCwyB_J3eWL3",
+      "representative": {
+        "id": "KCwyB_J3eWL3",
+        "url": "https://www.mdr.de/nachrichten/sachsen/leipzig/news-veranstaltungen-lichterfest-augustusplatz-,lichtfest-feier-100.html",
+        "canonicalUrl": "https://www.mdr.de/nachrichten/sachsen/leipzig/news-veranstaltungen-lichterfest-augustusplatz-,lichtfest-feier-100.html",
+        "title": "Lichtfest in Leipzig 2026: Was Sie dazu heute wissen müssen",
+        "description": "Leipzig feiert am Freitag Lichtfest. Bei der großen Gedenk-Veranstaltung ohne Eintritt erinnern sich die Leipziger an ihren Mut und die Friedliche Revolution von 1989. Das Motto heißt diesmal: \"Unsere VerANTWORTung…\"",
+        "source": {
+          "id": "mdr_sachsen",
+          "name": "MDR Sachsen"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T09:42:07.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:42:07.000Z"
+    },
+    {
+      "id": "ogBhT2P0gZq5",
+      "representative": {
+        "id": "ogBhT2P0gZq5",
+        "url": "https://www.freiepresse.de/chemnitz/zimtschnecken-als-trostpflaster-chemnitzer-baeckermeister-ueber-einen-wettbewerb-in-shanghai-artikel14437329?ref=rss-fp-chemnitz",
+        "canonicalUrl": "https://www.freiepresse.de/chemnitz/zimtschnecken-als-trostpflaster-chemnitzer-baeckermeister-ueber-einen-wettbewerb-in-shanghai-artikel14437329",
+        "title": "Zimtschnecken als Trostpflaster: Chemnitzer Bäckermeister über einen Wettbewerb in Shanghai",
+        "description": "Bei den Worldskills in Shanghai – der Weltmeisterschaft der Berufe – vertrat ein junger Chemnitzer das Bäckerhandwerk. Warum sein Resümee nicht ohne Frust ausfällt. Bäckermeister Tobias Karl Miklos hat eine Reise um die halbe Welt hinter sich, um in China sein Können unter Beweis stellen. Der…",
+        "source": {
+          "id": "freiepresse",
+          "name": "Freie Presse"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T09:35:00.000Z",
+        "imageUrl": "https://www.freiepresse.de/DYNIMG/11/50/19541150_M2040x1360C2040x1360o0x0.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:35:00.000Z"
+    },
+    {
+      "id": "FYvt0wuw2FPs",
+      "representative": {
+        "id": "FYvt0wuw2FPs",
+        "url": "https://www.mdr.de/nachrichten/sachsen/bautzen/goerlitz-weisswasser-zittau/niesky-felix-holtschke-stasi-,friedliche-revolution-zeitzeuge-100.html",
+        "canonicalUrl": "https://www.mdr.de/nachrichten/sachsen/bautzen/goerlitz-weisswasser-zittau/niesky-felix-holtschke-stasi-,friedliche-revolution-zeitzeuge-100.html",
+        "title": "Warum ein Nieskyer für seinen Freiheitswunsch in Haft kam",
+        "description": "Felix Holtschke wurde in der DDR überwacht und inhaftiert. Der gebürtige Nieskyer geriet auch wegen eines Briefes von Horst Köhler ins Visier der Stasi. Am Mittwoch erzählt er in Görlitz von seinen Erfahrungen.",
+        "source": {
+          "id": "mdr_sachsen",
+          "name": "MDR Sachsen"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T09:21:47.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:21:47.000Z"
+    },
+    {
+      "id": "2I_lLOTRgXfm",
+      "representative": {
+        "id": "2I_lLOTRgXfm",
+        "url": "https://www.mdr.de/nachrichten/sachsen/leipzig/heidenau-kritik-gedenksteine-verlegung,stolpersteine-akt-100.html",
+        "canonicalUrl": "https://www.mdr.de/nachrichten/sachsen/leipzig/heidenau-kritik-gedenksteine-verlegung,stolpersteine-akt-100.html",
+        "title": "Gedenken: 20 neue Stolpersteine in Leipzig zum Gedenken an NS-Opfer verlegt",
+        "description": "In Leipzig sind 20 neue Stolpersteine für Opfer des Nationalsozialismus verlegt worden, darunter der 900. der Stadt. Die Organisatoren kritisieren, dass Heidenau keine weiteren Stolpersteine will.",
+        "source": {
+          "id": "mdr_sachsen",
+          "name": "MDR Sachsen"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T09:17:51.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T09:17:51.000Z"
+    },
+    {
+      "id": "KZ5oLigQ0lU2",
+      "representative": {
+        "id": "KZ5oLigQ0lU2",
+        "url": "https://www.dnn.de/lokales/dresden/dresden-reicker-strasse-nach-unfall-am-mittwochmittag-gesperrt-HT6QINM675EGJMI35FZYCTLJKU.html",
+        "canonicalUrl": "https://www.dnn.de/lokales/dresden/dresden-reicker-strasse-nach-unfall-am-mittwochmittag-gesperrt-HT6QINM675EGJMI35FZYCTLJKU.html",
+        "title": "Dresden: Reicker Straße nach Unfall am Mittwochmittag gesperrt",
+        "description": "Auf der Reicker Straße in Dresden ist am Mittwochmittag ein Autofahrer gegen einen parkenden Anhänger geknallt. Die Straße musste über eine Stunde lang gesperrt werden.",
+        "source": {
+          "id": "dnn",
+          "name": "Dresdner Neueste Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:11:18.000Z",
+        "imageUrl": "https://www.dnn.de/resizer/v2/CV24U54E4NFDXJSBF4LEVQFARM.jpg?auth=5dc324a37606218aebfbb3706d805f577666993079a89fa65367eb679acafcbe&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SN"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:11:18.000Z"
+    }
+  ]
+}
