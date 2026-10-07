@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "RS",
   "countryName": "Serbia",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "bAB1y3G_mfUL",
@@ -47,48 +47,6 @@
       "latestPublishedAt": "2026-10-06T13:54:56.000Z"
     },
     {
-      "id": "keJVqGUvhhEM",
-      "representative": {
-        "id": "keJVqGUvhhEM",
-        "url": "https://n1info.rs/vesti/arhiv-javnih-skupova-predizborni-skup-studentske-liste-u-cacku/",
-        "canonicalUrl": "https://n1info.rs/vesti/arhiv-javnih-skupova-predizborni-skup-studentske-liste-u-cacku/",
-        "title": "Arhiv javnih skupova objavio koliko ljudi je bilo na skupu Studentske liste u Čačku",
-        "description": "Na centralnom programu predizbornog skupa Studentske liste u Čačku bilo je prisutno oko 2.800 ljudi, saopštio je danas Arhiv javnih skupova.",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T13:54:24.000Z",
-        "imageUrl": "https://n1info.rs/media/images/2026/10/5/1791229500_predizborni_skup_cacak_studenti.width-1200.png",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "MfTj0w4HtfgD",
-          "url": "https://www.danas.rs/vesti/drustvo/arhiv-javnih-skupova-skup-studentska-lista-cacak/",
-          "canonicalUrl": "https://www.danas.rs/vesti/drustvo/arhiv-javnih-skupova-skup-studentska-lista-cacak/",
-          "title": "Arhiv javnih skupova izneo procenu koliko je ljudi bilo na predizbornom skupu Studentske liste u Čačku",
-          "description": "Arhiv javnih skupova izneo je procenu koliko je ljudi bilo na predizbornom skupu Studentske liste – Studenti pobeđuju 5. oktobra u Čačku.",
-          "source": {
-            "id": "danas",
-            "name": "Danas"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T13:07:47.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2025/10/0601foto-FoNet-Nebojsa-Jovanovic-1-300x169.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:54:24.000Z"
-    },
-    {
       "id": "P5Ju4Dm-lwMn",
       "representative": {
         "id": "P5Ju4Dm-lwMn",
@@ -129,174 +87,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:48:56.000Z"
-    },
-    {
-      "id": "11cCFt13637z",
-      "representative": {
-        "id": "11cCFt13637z",
-        "url": "https://n1info.rs/svet/vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize-nakon-nereda-u-barseloni/",
-        "canonicalUrl": "https://n1info.rs/svet/vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize-nakon-nereda-u-barseloni/",
-        "title": "Vlada Španije usvojila hitne mere za rešavanje stambene krize nakon nereda u Barseloni",
-        "description": "Vlada Španije je danas usvojila hitne mere za rešavanje stambene krize u zemlji, nakon što su prethodne noći na ulice Barselone izašle desetine hilja",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T13:42:07.000Z",
-        "imageUrl": "https://n1info.rs/media/images/1791294001_2026-10-06T015114Z_2050166223_RC28XNAR2HFP_RTRMADP_3_.width-1200.JPG",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "JArIic6WW6sf",
-          "url": "https://www.danas.rs/svet/nakon-sinocnih-nereda-u-barseloni-vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize/",
-          "canonicalUrl": "https://www.danas.rs/svet/nakon-sinocnih-nereda-u-barseloni-vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize/",
-          "title": "Nakon nereda u Barseloni Vlada Španije usvojila hitne mere za rešavanje stambene krize",
-          "description": "Vlada Španije je danas usvojila hitne mere za rešavanje stambene krize u zemlji, nakon što su prethodne noći na ulice Barselone izašle desetine hiljada ljudi i izbili neredi.",
-          "source": {
-            "id": "danas",
-            "name": "Danas"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T12:36:57.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/10/143411631-e1791290205855-300x169.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:42:07.000Z"
-    },
-    {
-      "id": "ufOwY6_2BMH3",
-      "representative": {
-        "id": "ufOwY6_2BMH3",
-        "url": "https://www.b92.net/info/politika/273868/vucic-blokaderi-su-strasno-hrabri-kad-misle-da-odgovora-nema-kamen-za-kupus-ih-odlicno-predstavlja-video/vest",
-        "canonicalUrl": "https://www.b92.net/info/politika/273868/vucic-blokaderi-su-strasno-hrabri-kad-misle-da-odgovora-nema-kamen-za-kupus-ih-odlicno-predstavlja-video/vest",
-        "title": "Vučić: \"Blokaderi su strašno hrabri kad misle da odgovora nema\"; \"Kamen za kupus ih odlično predstavlja\" VIDEO",
-        "description": "Nosilac liste \"Aleksandar Vučić - Ujedinjena Srbija\" Aleksandar Vučić objavio je video na Instagramu gde se obratio građanima Srbije.",
-        "source": {
-          "id": "b92",
-          "name": "B92"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T12:20:00.000Z",
-        "imageUrl": "https://www.b92.net/data/images/2026-10-06/277156_image-20261006-144841-786_f.jpeg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "DKP9RwEdGdDv",
-          "url": "https://www.blic.rs/vesti/politika/vucic-kad-ih-pozovete-na-dijalog-i-debatu-svi-junaci-nikom-ponikose-video/e2rxbbt",
-          "canonicalUrl": "https://www.blic.rs/vesti/politika/vucic-kad-ih-pozovete-na-dijalog-i-debatu-svi-junaci-nikom-ponikose-video/e2rxbbt",
-          "title": "\"SHVATIM DA IH ONAJ KAMEN ZA KUPUS ODLIČNO PREDSTAVLJA\" Vučić: \"Kad ih pozovete na dijalog i debatu, svi junaci nikom ponikoše, ipak, strašno su hrabri kad misle da odgovora nema\" (VIDEO)",
-          "description": "Nosilac liste \"Ujedinjena Srbija\" i kandidat SNS za premijera Srbije Aleksandar komentarisao je izjave pojedinaca upućene njemu, nakon što je objavio snimak debate sa slikom Ilije Srdanovića, prvog na studentskoj listi i kamenom za potapanje kupusa.",
-          "source": {
-            "id": "blic",
-            "name": "Blic"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T13:01:49.000Z",
-          "imageUrl": null,
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:01:49.000Z"
-    },
-    {
-      "id": "8_AF8n4cWy2r",
-      "representative": {
-        "id": "8_AF8n4cWy2r",
-        "url": "https://www.blic.rs/vesti/politika/kancelarija-za-kim-o-hapsenju-srbina-iz-suvog-grla-cilj-je-dodatni-pritisak-na-srpski/65f846f",
-        "canonicalUrl": "https://www.blic.rs/vesti/politika/kancelarija-za-kim-o-hapsenju-srbina-iz-suvog-grla-cilj-je-dodatni-pritisak-na-srpski/65f846f",
-        "title": "Kancelarija za KiM o hapšenju Srbina iz Suvog Grla: Cilj je dodatni pritisak na srpski narod",
-        "description": "Kancelarija za Kosovo i Metohiju navela je da je hapšenje Radenka T. iz mesta Suvo Grlo u opštini Srbica, koje je izvedeno po nalogu Aljbina Kurtija, izvršeno sa ciljem dodatnih pritisaka na srpski narod na Kosovu i Metohiji, ali i kako bi režim u Prištini u jeku političke krize pokušao da stvori…",
-        "source": {
-          "id": "blic",
-          "name": "Blic"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T12:28:56.000Z",
-        "imageUrl": null,
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "IHR_pJQ573v2",
-          "url": "https://www.b92.net/info/kosovo/273865/uhapsen-srbin-na-kim-kancelarija-izvrseno-po-nalogu-kurtija-cilj-pritisak-na-srpski-narod/vest",
-          "canonicalUrl": "https://www.b92.net/info/kosovo/273865/uhapsen-srbin-na-kim-kancelarija-izvrseno-po-nalogu-kurtija-cilj-pritisak-na-srpski-narod/vest",
-          "title": "Uhapšen Srbin na KiM; Kancelarija: \"Izvršeno po nalogu Kurtija\"; \"Cilj – pritisak na srpski narod\"",
-          "description": "Kancelarija za Kosovo i Metohiju saopštila je da je hapšenje Radenka T. iz mesta Suvo Grlo u opštini Srbica, koje je izvedeno po nalogu Aljbina Kurtija, izvršeno je s ciljem dodatnih pritisaka na srpski narod na Kosovu i Metohiji.",
-          "source": {
-            "id": "b92",
-            "name": "B92"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T12:36:00.000Z",
-          "imageUrl": "https://www.b92.net/data/images/2024-09-23/65126_11742588_f.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:36:00.000Z"
-    },
-    {
-      "id": "S8L3KfFNT6nG",
-      "representative": {
-        "id": "S8L3KfFNT6nG",
-        "url": "https://n1info.rs/vesti/pretucen-navijac-partizana-policija-batinasi/",
-        "canonicalUrl": "https://n1info.rs/vesti/pretucen-navijac-partizana-policija-batinasi/",
-        "title": "Navijač Partizana koji je pretučen ispred Beogradske Arene: Policija još nije otkrila batinaše koji su mi naneli teške povrede",
-        "description": "Navijač Partizana Nikola Jovanović (46) izjavio je da policija još uvek nije pronašla batinaše koji su mu 25. septembra ispred beogradske Arene naneli",
-        "source": {
-          "id": "n1_rs",
-          "name": "N1"
-        },
-        "sourceCountry": "RS",
-        "language": "sr",
-        "publishedAt": "2026-10-06T12:27:29.000Z",
-        "imageUrl": "https://n1info.rs/media/images/2025/11/1764190633_7I5A5541_copy.width-1200.jpg",
-        "countryCode": "RS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "e9LQRuEV9DUo",
-          "url": "https://www.danas.rs/vesti/drustvo/navijac-partizana-nikola-jovanovic-pretucen/",
-          "canonicalUrl": "https://www.danas.rs/vesti/drustvo/navijac-partizana-nikola-jovanovic-pretucen/",
-          "title": "Navijač Partizana Nikola Jovanović: Policija još nije otkrila batinaše koji su mi naneli teške povrede",
-          "description": "Navijač Partizana Nikola Jovanović (46) izjavio je danas da policija još uvek nije pronašla batinaše koji su mu 25. septembra ispred beogradske Arene naneli povrede opasne po život.",
-          "source": {
-            "id": "danas",
-            "name": "Danas"
-          },
-          "sourceCountry": "RS",
-          "language": "sr",
-          "publishedAt": "2026-10-06T12:24:04.000Z",
-          "imageUrl": "https://www.danas.rs/wp-content/uploads/2025/10/PARTIZAN-PARIS_14-e1764261326623-300x169.jpg",
-          "countryCode": "RS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:27:29.000Z"
     },
     {
       "id": "VwqABJwjg9_Q",
@@ -369,6 +159,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:55:09.000Z"
+    },
+    {
+      "id": "keJVqGUvhhEM",
+      "representative": {
+        "id": "keJVqGUvhhEM",
+        "url": "https://n1info.rs/vesti/arhiv-javnih-skupova-predizborni-skup-studentske-liste-u-cacku/",
+        "canonicalUrl": "https://n1info.rs/vesti/arhiv-javnih-skupova-predizborni-skup-studentske-liste-u-cacku/",
+        "title": "Arhiv javnih skupova objavio koliko ljudi je bilo na skupu Studentske liste u Čačku",
+        "description": "Na centralnom programu predizbornog skupa Studentske liste u Čačku bilo je prisutno oko 2.800 ljudi, saopštio je danas Arhiv javnih skupova.",
+        "source": {
+          "id": "n1_rs",
+          "name": "N1"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:54:24.000Z",
+        "imageUrl": "https://n1info.rs/media/images/2026/10/5/1791229500_predizborni_skup_cacak_studenti.width-1200.png",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "MfTj0w4HtfgD",
+          "url": "https://www.danas.rs/vesti/drustvo/arhiv-javnih-skupova-skup-studentska-lista-cacak/",
+          "canonicalUrl": "https://www.danas.rs/vesti/drustvo/arhiv-javnih-skupova-skup-studentska-lista-cacak/",
+          "title": "Arhiv javnih skupova izneo procenu koliko je ljudi bilo na predizbornom skupu Studentske liste u Čačku",
+          "description": "Arhiv javnih skupova izneo je procenu koliko je ljudi bilo na predizbornom skupu Studentske liste – Studenti pobeđuju 5. oktobra u Čačku.",
+          "source": {
+            "id": "danas",
+            "name": "Danas"
+          },
+          "sourceCountry": "RS",
+          "language": "sr",
+          "publishedAt": "2026-10-06T13:07:47.000Z",
+          "imageUrl": "https://www.danas.rs/wp-content/uploads/2025/10/0601foto-FoNet-Nebojsa-Jovanovic-1-300x169.jpg",
+          "countryCode": "RS",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:54:24.000Z"
     },
     {
       "id": "ZR6GoYNLvQbF",
@@ -467,28 +299,142 @@
       "latestPublishedAt": "2026-10-06T13:48:09.000Z"
     },
     {
-      "id": "K5Q7g6ih8Tfg",
+      "id": "11cCFt13637z",
       "representative": {
-        "id": "K5Q7g6ih8Tfg",
-        "url": "https://n1info.rs/vesti/novi-protest-u-pristini-traze-drugo-glasanje-o-izmenama-zakona-o-specijalizovanim-vecima/",
-        "canonicalUrl": "https://n1info.rs/vesti/novi-protest-u-pristini-traze-drugo-glasanje-o-izmenama-zakona-o-specijalizovanim-vecima/",
-        "title": "Novi protest u Prištini - traže drugo glasanje o izmenama Zakona o specijalizovanim većima",
-        "description": "Ispred Skupštine Kosova okupila se veća grupa građana koja zahteva da drugo glasanje o izmenama Zakona o specijalizovanim većima sa sedištem u Hagu bu",
+        "id": "11cCFt13637z",
+        "url": "https://n1info.rs/svet/vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize-nakon-nereda-u-barseloni/",
+        "canonicalUrl": "https://n1info.rs/svet/vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize-nakon-nereda-u-barseloni/",
+        "title": "Vlada Španije usvojila hitne mere za rešavanje stambene krize nakon nereda u Barseloni",
+        "description": "Vlada Španije je danas usvojila hitne mere za rešavanje stambene krize u zemlji, nakon što su prethodne noći na ulice Barselone izašle desetine hilja",
         "source": {
           "id": "n1_rs",
           "name": "N1"
         },
         "sourceCountry": "RS",
         "language": "sr",
-        "publishedAt": "2026-10-06T13:40:57.000Z",
-        "imageUrl": "https://n1info.rs/media/images/1791293935_2026-10-05T112527Z_1906140407_RC2YWNAHLG6K_RTRMADP_3_.width-1200.JPG",
+        "publishedAt": "2026-10-06T13:42:07.000Z",
+        "imageUrl": "https://n1info.rs/media/images/1791294001_2026-10-06T015114Z_2050166223_RC28XNAR2HFP_RTRMADP_3_.width-1200.JPG",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "JArIic6WW6sf",
+          "url": "https://www.danas.rs/svet/nakon-sinocnih-nereda-u-barseloni-vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize/",
+          "canonicalUrl": "https://www.danas.rs/svet/nakon-sinocnih-nereda-u-barseloni-vlada-spanije-usvojila-hitne-mere-za-resavanje-stambene-krize/",
+          "title": "Nakon nereda u Barseloni Vlada Španije usvojila hitne mere za rešavanje stambene krize",
+          "description": "Vlada Španije je danas usvojila hitne mere za rešavanje stambene krize u zemlji, nakon što su prethodne noći na ulice Barselone izašle desetine hiljada ljudi i izbili neredi.",
+          "source": {
+            "id": "danas",
+            "name": "Danas"
+          },
+          "sourceCountry": "RS",
+          "language": "sr",
+          "publishedAt": "2026-10-06T12:36:57.000Z",
+          "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/10/143411631-e1791290205855-300x169.jpg",
+          "countryCode": "RS",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:42:07.000Z"
+    },
+    {
+      "id": "Rp1d19TWSWa-",
+      "representative": {
+        "id": "Rp1d19TWSWa-",
+        "url": "https://www.b92.net/info/svet/273721/rat-u-ukrajini-1685-dan/vest",
+        "canonicalUrl": "https://www.b92.net/info/svet/273721/rat-u-ukrajini-1685-dan/vest",
+        "title": "\"Patrioti\" stižu na granicu; Kolaps Rusije; Moskva pogođena; Gore mostovi FOTO/VIDEO",
+        "description": "Rat u Ukrajini – 1.685. dan. Ukrajinske snage izvele udare na Moskvu i oblast oko nje. Nemački šef diplomatije upozorava da Rusija ima \"šire planove\". Moskva, s druge strane, nastavlja da bombarduje Ukrajinu.",
+        "source": {
+          "id": "b92",
+          "name": "B92"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:30:00.000Z",
+        "imageUrl": "https://www.b92.net/data/images/2025-10-17/178967_najnovija-vest-b92_f.jpg",
         "countryCode": "RS",
         "regionCode": null
       },
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:40:57.000Z"
+      "latestPublishedAt": "2026-10-06T13:30:00.000Z"
+    },
+    {
+      "id": "ZXkMI7j6GtCD",
+      "representative": {
+        "id": "ZXkMI7j6GtCD",
+        "url": "https://www.b92.net/info/politika/273794/vucic-nastavio-obilazak-srbije-6-oktobar/vest",
+        "canonicalUrl": "https://www.b92.net/info/politika/273794/vucic-nastavio-obilazak-srbije-6-oktobar/vest",
+        "title": "Vučić obilazi Srbiju; Razgovarao sa građanima Lajkovca: \"Ne mogu da obećam ono što ne mogu da ispunim\"",
+        "description": "Nosilac liste \"Aleksandar Vučić - Ujedinjena Srbija\" Aleksandar Vučić nastavio je svoj obilazak Srbije.",
+        "source": {
+          "id": "b92",
+          "name": "B92"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:30:00.000Z",
+        "imageUrl": "https://www.b92.net/data/images/2026-10-06/277171_photo-collagepng_f.png",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:30:00.000Z"
+    },
+    {
+      "id": "h7M8Li1XS0H6",
+      "representative": {
+        "id": "h7M8Li1XS0H6",
+        "url": "https://www.b92.net/info/politika/273889/jovanov-mogli-ste-jednostavno-da-prihvatite-debatu-ali-lakse-vam-je-da-vredjate/vest",
+        "canonicalUrl": "https://www.b92.net/info/politika/273889/jovanov-mogli-ste-jednostavno-da-prihvatite-debatu-ali-lakse-vam-je-da-vredjate/vest",
+        "title": "Jovanov: \"Mogli ste jednostavno da prihvatite debatu, ali lakše vam je da vređate\"",
+        "description": "lan Predsedništva Srpske napredne stranke (SNS) Milenko Jovanov odgovorio je blokaderima na uvrede upućene nosiocu liste \"Aleksandar Vučić - Ujedinjena Srbija\" Aleksandaru Vučiću, navode mediji.",
+        "source": {
+          "id": "b92",
+          "name": "B92"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:29:00.000Z",
+        "imageUrl": "https://www.b92.net/data/images/2025-08-11/157727_oluja-loznica-03082024-0062_f.JPG",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:29:00.000Z"
+    },
+    {
+      "id": "rHgmvhsNhsrL",
+      "representative": {
+        "id": "rHgmvhsNhsrL",
+        "url": "https://www.danas.rs/sport/evroliga-crvena-zvezda-partizan-fransize/",
+        "canonicalUrl": "https://www.danas.rs/sport/evroliga-crvena-zvezda-partizan-fransize/",
+        "title": "Zvezda i Partizan čekaju rasplet: Evroliga objasnila šta sledi u trci za franšize",
+        "description": "Crvena zvezda i Partizan i dalje čekaju odluku o svojoj budućnosti u Evroligi, nakon što vlasnici klubova akcionara nisu doneli konačnu odluku o proširenju takmičenja.",
+        "source": {
+          "id": "danas",
+          "name": "Danas"
+        },
+        "sourceCountry": "RS",
+        "language": "sr",
+        "publishedAt": "2026-10-06T13:55:07.000Z",
+        "imageUrl": "https://www.danas.rs/wp-content/uploads/2026/04/partizan-zvezda-aba-688094-e1776620711596-300x169.jpg",
+        "countryCode": "RS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:55:07.000Z"
     }
   ]
 }

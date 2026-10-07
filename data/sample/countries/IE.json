@@ -2,67 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "IE",
   "countryName": "Ireland",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "PmkkgdRRF7tC",
-      "representative": {
-        "id": "PmkkgdRRF7tC",
-        "url": "https://www.irishtimes.com/crime-law/courts/2026/10/06/armed-gardai-shot-xl-bully-dog-four-times-after-it-attacked-and-killed-owner-inquest-told/",
-        "canonicalUrl": "https://www.irishtimes.com/crime-law/courts/2026/10/06/armed-gardai-shot-xl-bully-dog-four-times-after-it-attacked-and-killed-owner-inquest-told/",
-        "title": "Armed gardaí shot XL Bully dog four times after it attacked and killed owner, inquest told",
-        "description": "Gardaí reviewed CCTV footage of the attack and the Director of Public Prosecutions ruled no criminal prosecution would follow",
-        "source": {
-          "id": "irishtimes",
-          "name": "The Irish Times"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:31:28.000Z",
-        "imageUrl": "https://www.irishtimes.com/resizer/v2/5V4K25GDK5EWRKXAR7YKHV6B5U.jpg?auth=21775ab86626d73a60517e424cdeca48b6e0428934c5a66ed7cda9c82e8f8e60&smart=true&width=630&height=350",
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "KKBfy8WaRc8A",
-          "url": "https://www.independent.ie/irish-news/courts/armed-gardai-shot-xl-bully-dog-four-times-after-attack-that-killed-nicole-morey-inquest-told/a/162657976.html",
-          "canonicalUrl": "https://www.independent.ie/irish-news/courts/armed-gardai-shot-xl-bully-dog-four-times-after-attack-that-killed-nicole-morey-inquest-told/a/162657976.html",
-          "title": "Armed gardaí shot XL Bully dog four times after attack that killed Nicole Morey, inquest told",
-          "description": "Limerick woman’s death was one of the inciting incidents in move to ban breed",
-          "source": {
-            "id": "independent_ie",
-            "name": "Irish Independent"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T13:02:49.000Z",
-          "imageUrl": "https://prod-img.independent.ie/public/incoming/ooxyeu-nicole-morey-was-23-when-she-died./alternates/BASE_SIXTEEN_NINE/Nicole%20Morey%20was%2023%20when%20she%20died.",
-          "countryCode": "IE",
-          "regionCode": null
-        },
-        {
-          "id": "g-Zs5g3G3hKs",
-          "url": "https://www.thejournal.ie/nicole-morey-inquest-7183970-Oct2026/",
-          "canonicalUrl": "https://www.thejournal.ie/nicole-morey-inquest-7183970-Oct2026/",
-          "title": "Armed gardaí shot an XL Bully dog after it killed Limerick woman, inquest hears",
-          "description": "Nicole Morey was killed in the fatal attack at her home in June 2024.",
-          "source": {
-            "id": "thejournal",
-            "name": "TheJournal.ie"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T12:45:54.000Z",
-          "imageUrl": "https://c2.thejournal.ie/media/2026/10/screenshot-2026-10-06-at-13-41-22-dacd2665-bd84-41d1-87c4-cfd0c593706d-630x392.png",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:02:49.000Z"
-    },
     {
       "id": "LPKgfcDHphhF",
       "representative": {
@@ -104,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:16:08.000Z"
-    },
-    {
-      "id": "UbXPP9R9Y6Lz",
-      "representative": {
-        "id": "UbXPP9R9Y6Lz",
-        "url": "https://www.irishexaminer.com/news/politics/arid-41920438.html",
-        "canonicalUrl": "https://www.irishexaminer.com/news/politics/arid-41920438.html",
-        "title": "Budget 2027: Social welfare rates to rise by €10 a week as disability supports increase",
-        "description": "The measures include increases to welfare rates, Fuel Allowance and Living Alone Allowance, alongside targeted child poverty supports",
-        "source": {
-          "id": "examiner",
-          "name": "Irish Examiner"
-        },
-        "sourceCountry": "IE",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:15:00.000Z",
-        "imageUrl": null,
-        "countryCode": "IE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "PcxHvaNCHRPd",
-          "url": "https://www.irishmirror.ie/news/irish-news/politics/budget-2027-full-list-social-37740456",
-          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/politics/budget-2027-full-list-social-37740456",
-          "title": "Budget 2027: Full list of social welfare payments as €10 rise announced",
-          "description": "Core social welfare rates will rise by €10, it has been announced in Budget 2027",
-          "source": {
-            "id": "irishmirror",
-            "name": "Irish Mirror"
-          },
-          "sourceCountry": "IE",
-          "language": "en",
-          "publishedAt": "2026-10-06T13:07:06.000Z",
-          "imageUrl": "https://i2-prod.irishmirror.ie/news/irish-news/article37677098.ece/ALTERNATES/s615/0_PA-62919169.jpg",
-          "countryCode": "IE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:15:00.000Z"
     },
     {
       "id": "_fvGggzXsbJ7",
@@ -214,6 +113,48 @@
       "latestPublishedAt": "2026-10-06T13:15:19.000Z"
     },
     {
+      "id": "UbXPP9R9Y6Lz",
+      "representative": {
+        "id": "UbXPP9R9Y6Lz",
+        "url": "https://www.irishexaminer.com/news/politics/arid-41920438.html",
+        "canonicalUrl": "https://www.irishexaminer.com/news/politics/arid-41920438.html",
+        "title": "Budget 2027: Social welfare rates to rise by €10 a week as disability supports increase",
+        "description": "The measures include increases to welfare rates, Fuel Allowance and Living Alone Allowance, alongside targeted child poverty supports",
+        "source": {
+          "id": "examiner",
+          "name": "Irish Examiner"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:15:00.000Z",
+        "imageUrl": null,
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "PcxHvaNCHRPd",
+          "url": "https://www.irishmirror.ie/news/irish-news/politics/budget-2027-full-list-social-37740456",
+          "canonicalUrl": "https://www.irishmirror.ie/news/irish-news/politics/budget-2027-full-list-social-37740456",
+          "title": "Budget 2027: Full list of social welfare payments as €10 rise announced",
+          "description": "Core social welfare rates will rise by €10, it has been announced in Budget 2027",
+          "source": {
+            "id": "irishmirror",
+            "name": "Irish Mirror"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:07:06.000Z",
+          "imageUrl": "https://i2-prod.irishmirror.ie/news/irish-news/article37677098.ece/ALTERNATES/s615/0_PA-62919169.jpg",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:15:00.000Z"
+    },
+    {
       "id": "2TpJb8xr0BYl",
       "representative": {
         "id": "2TpJb8xr0BYl",
@@ -257,7 +198,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:10:00.000Z"
     },
@@ -281,9 +222,68 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:03:00.000Z"
+    },
+    {
+      "id": "PmkkgdRRF7tC",
+      "representative": {
+        "id": "PmkkgdRRF7tC",
+        "url": "https://www.irishtimes.com/crime-law/courts/2026/10/06/armed-gardai-shot-xl-bully-dog-four-times-after-it-attacked-and-killed-owner-inquest-told/",
+        "canonicalUrl": "https://www.irishtimes.com/crime-law/courts/2026/10/06/armed-gardai-shot-xl-bully-dog-four-times-after-it-attacked-and-killed-owner-inquest-told/",
+        "title": "Armed gardaí shot XL Bully dog four times after it attacked and killed owner, inquest told",
+        "description": "Gardaí reviewed CCTV footage of the attack and the Director of Public Prosecutions ruled no criminal prosecution would follow",
+        "source": {
+          "id": "irishtimes",
+          "name": "The Irish Times"
+        },
+        "sourceCountry": "IE",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:31:28.000Z",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/5V4K25GDK5EWRKXAR7YKHV6B5U.jpg?auth=21775ab86626d73a60517e424cdeca48b6e0428934c5a66ed7cda9c82e8f8e60&smart=true&width=630&height=350",
+        "countryCode": "IE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "KKBfy8WaRc8A",
+          "url": "https://www.independent.ie/irish-news/courts/armed-gardai-shot-xl-bully-dog-four-times-after-attack-that-killed-nicole-morey-inquest-told/a/162657976.html",
+          "canonicalUrl": "https://www.independent.ie/irish-news/courts/armed-gardai-shot-xl-bully-dog-four-times-after-attack-that-killed-nicole-morey-inquest-told/a/162657976.html",
+          "title": "Armed gardaí shot XL Bully dog four times after attack that killed Nicole Morey, inquest told",
+          "description": "Limerick woman’s death was one of the inciting incidents in move to ban breed",
+          "source": {
+            "id": "independent_ie",
+            "name": "Irish Independent"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:02:49.000Z",
+          "imageUrl": "https://prod-img.independent.ie/public/incoming/ooxyeu-nicole-morey-was-23-when-she-died./alternates/BASE_SIXTEEN_NINE/Nicole%20Morey%20was%2023%20when%20she%20died.",
+          "countryCode": "IE",
+          "regionCode": null
+        },
+        {
+          "id": "g-Zs5g3G3hKs",
+          "url": "https://www.thejournal.ie/nicole-morey-inquest-7183970-Oct2026/",
+          "canonicalUrl": "https://www.thejournal.ie/nicole-morey-inquest-7183970-Oct2026/",
+          "title": "Armed gardaí shot an XL Bully dog after it killed Limerick woman, inquest hears",
+          "description": "Nicole Morey was killed in the fatal attack at her home in June 2024.",
+          "source": {
+            "id": "thejournal",
+            "name": "TheJournal.ie"
+          },
+          "sourceCountry": "IE",
+          "language": "en",
+          "publishedAt": "2026-10-06T12:45:54.000Z",
+          "imageUrl": "https://c2.thejournal.ie/media/2026/10/screenshot-2026-10-06-at-13-41-22-dacd2665-bd84-41d1-87c4-cfd0c593706d-630x392.png",
+          "countryCode": "IE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 0,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-06T13:02:49.000Z"
     },
     {
       "id": "rje7nsfFH2rw",
@@ -305,7 +305,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:59:10.000Z"
     },
@@ -329,7 +329,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:29.000Z"
     },
@@ -353,7 +353,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:04.000Z"
     },
@@ -377,7 +377,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:52:36.000Z"
     },
@@ -401,7 +401,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:50:29.000Z"
     },
@@ -425,7 +425,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:48:20.000Z"
     },
@@ -501,7 +501,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T12:47:11.000Z"
     }

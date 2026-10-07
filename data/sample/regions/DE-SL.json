@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "DE",
+  "countryName": "Germany",
+  "regionCode": "DE-SL",
+  "regionName": "Saarland",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "clusters": [
+    {
+      "id": "MbNeYf0WYx_t",
+      "representative": {
+        "id": "MbNeYf0WYx_t",
+        "url": "https://www.tagesschau.de/inland/regional/saarland/sr-luxemburg-will-im-kommenden-jahr-ueber-eine-halbe-milliarde-euro-schulden-machen-100.html",
+        "canonicalUrl": "https://www.tagesschau.de/inland/regional/saarland/sr-luxemburg-will-im-kommenden-jahr-ueber-eine-halbe-milliarde-euro-schulden-machen-100.html",
+        "title": "Luxemburg will im kommenden Jahr über eine halbe Milliarde Euro Schulden machen",
+        "description": "Die Regierung in Luxemburg plant für das kommende Jahr offenbar eine Haushaltslücke von rund 570 Millionen Euro. Gleichzeitig sind Milliarden-Investitionen vorgesehen sowie eine Senkung der Unternehmenssteuer.",
+        "source": {
+          "id": "sr",
+          "name": "SR"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:39:00.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:39:00.000Z"
+    },
+    {
+      "id": "5vEIgVV6Fv_1",
+      "representative": {
+        "id": "5vEIgVV6Fv_1",
+        "url": "https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/verkehrsunfall-mit-zwei-schwerverletzten_aid-156126293",
+        "canonicalUrl": "https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/verkehrsunfall-mit-zwei-schwerverletzten_aid-156126293",
+        "title": "Unfälle: Verkehrsunfall mit zwei Schwerverletzten",
+        "description": "Nach einem Überholmanöver verliert eine Autofahrerin die Kontrolle und überschlägt sich. Sie und ein Kind werden schwer verletzt.",
+        "source": {
+          "id": "saarbruecker_zeitung",
+          "name": "Saarbrücker Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:28:53.000Z",
+        "imageUrl": "https://www.saarbruecker-zeitung.de/imgs/03/2/8/4/0/0/6/6/6/7/tok_6fc91088f028dfda18235d5dcffd21ae/w950_h950_x1796_y1197_51fbcf7cf536f0c8.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:28:53.000Z"
+    },
+    {
+      "id": "c-E8BjQHaHOe",
+      "representative": {
+        "id": "c-E8BjQHaHOe",
+        "url": "https://www.saarbruecker-zeitung.de/saarland/neunkirchen/spiesen-elversberg/spiesen-elversberg-padel-tennis-auf-freizeitgelaende-langdell_aid-155439029",
+        "canonicalUrl": "https://www.saarbruecker-zeitung.de/saarland/neunkirchen/spiesen-elversberg/spiesen-elversberg-padel-tennis-auf-freizeitgelaende-langdell_aid-155439029",
+        "title": "Freizeitgelände Langdell: Bald soll es los gehen – Trendsport Padel-Tennis kommt auch nach Spiesen-Elversberg",
+        "description": "Vor rund einem Jahr wurde das Freizeitgelände hinter der Sporthalle Langdell im Ortsteil Spiesen eröffnet. Die Resonanz ist groß. Bald gibt es dort auch eine Padel-Anlage. Wir fragen nach den Details.",
+        "source": {
+          "id": "saarbruecker_zeitung",
+          "name": "Saarbrücker Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:19:00.000Z",
+        "imageUrl": "https://www.saarbruecker-zeitung.de/imgs/03/2/8/2/5/7/9/9/5/9/tok_37cbbdcc03cf73e8a03eb855b0a1f547/w950_h950_x1857_y1730_20261001_131819-b7e317f070971cde.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:19:00.000Z"
+    },
+    {
+      "id": "-mRemfkGFiFM",
+      "representative": {
+        "id": "-mRemfkGFiFM",
+        "url": "https://www.saarbruecker-zeitung.de/saarland/saarbruecken/heusweiler/neue-pizzeria-galerie-61-in-heusweiler-wirkt-wie-ein-kleines-museum_aid-155725869",
+        "canonicalUrl": "https://www.saarbruecker-zeitung.de/saarland/saarbruecken/heusweiler/neue-pizzeria-galerie-61-in-heusweiler-wirkt-wie-ein-kleines-museum_aid-155725869",
+        "title": "Italienische Küche: Pizza zwischen 200 Jahre alten Schätzen – Was die „Galerie 61“ in Heusweiler bietet",
+        "description": "Ein Kofferradio, antike Gemälde und Pizza: In Heusweiler eröffnet die „Galerie 61“. Betreiber Ezzeddin Naoulou verbindet dort seine Sammelleidenschaft mit italienischer Küche. Was Gäste dort erwartet.",
+        "source": {
+          "id": "saarbruecker_zeitung",
+          "name": "Saarbrücker Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:11:00.000Z",
+        "imageUrl": "https://www.saarbruecker-zeitung.de/imgs/03/2/8/3/1/9/2/0/0/3/tok_279f66edd668222ade758d2f7b38472d/w950_h950_x1500_y998_sz_Pizzeria30092603-25ecdaa2e9fe0ea9.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:11:00.000Z"
+    },
+    {
+      "id": "DRyWmj9EkMXc",
+      "representative": {
+        "id": "DRyWmj9EkMXc",
+        "url": "https://www.tagesschau.de/inland/regional/saarland/sr-sprunghafter-anstieg-rechtsextremistischer-gewalttaten-im-saarland-100.html",
+        "canonicalUrl": "https://www.tagesschau.de/inland/regional/saarland/sr-sprunghafter-anstieg-rechtsextremistischer-gewalttaten-im-saarland-100.html",
+        "title": "Sprunghafter Anstieg rechtsextremistischer Gewalttaten im Saarland",
+        "description": "Die Zahl der rechtsextremistischen Gewalttaten im Saarland hat sich im Vergleich zu 2024 fast verdoppelt. Auch die Zahl linksextremistischer Straftaten fiel höher aus. Der Verfassungsschutz rechnet auch für die Zukunft mit einer steigenden Tendenz.",
+        "source": {
+          "id": "sr",
+          "name": "SR"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:49:00.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:49:00.000Z"
+    },
+    {
+      "id": "GJmSIcePhs-R",
+      "representative": {
+        "id": "GJmSIcePhs-R",
+        "url": "https://www.tagesschau.de/inland/regional/saarland/sr-haus-in-riegelsberg-eingestuerzt-thw-durchsucht-truemmer-102.html",
+        "canonicalUrl": "https://www.tagesschau.de/inland/regional/saarland/sr-haus-in-riegelsberg-eingestuerzt-thw-durchsucht-truemmer-102.html",
+        "title": "Haus in Riegelsberg eingestürzt – keine Verletzten gefunden",
+        "description": "In Riegelsberg haben THW und Polizei seit Dienstagabend ein eingestürztes Haus nach möglicherweise verschütteten Personen durchsucht. Das Gebäude war nicht mehr bewohnt und im Begriff abgerissen zu werden. Verletzt wurde offenbar niemand.",
+        "source": {
+          "id": "sr",
+          "name": "SR"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:22:00.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:22:00.000Z"
+    },
+    {
+      "id": "NMT8wau0cvub",
+      "representative": {
+        "id": "NMT8wau0cvub",
+        "url": "https://www.saarnews.com/service/wetter-im-saarland-am-07-10-2026-die-aktuelle-vorhersage/",
+        "canonicalUrl": "https://www.saarnews.com/service/wetter-im-saarland-am-07-10-2026-die-aktuelle-vorhersage/",
+        "title": "Wetter im Saarland am 07.10.2026: die aktuelle Vorhersage",
+        "description": "Der Deutsche Wetterdienst erwartet für die erfassten Orte im Saarland am 07.10.2026 Höchstwerte zwischen 22 und 23 Grad. Die folgende Übersicht zeigt die aktuelle Vorhersage für acht Orte. Die Werte beziehen sich auf die noch verfügbaren Vorhersagestunden; sie sind keine gemessenen Temperaturen…",
+        "source": {
+          "id": "saarnews",
+          "name": "Saarnews"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T04:30:18.000Z",
+        "imageUrl": "https://usercontent.one/wp/www.saarnews.com/wp-content/uploads/2026/10/Wetter-Saarland-2026-10-07-day.png?media=1791263113",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:30:18.000Z"
+    },
+    {
+      "id": "-UGwMrEBOZmW",
+      "representative": {
+        "id": "-UGwMrEBOZmW",
+        "url": "https://www.saarnews.com/feature/bulgarien-revanchiert-sich-balov-und-iliev-bestrafen-luxemburgs-chancenwucher/",
+        "canonicalUrl": "https://www.saarnews.com/feature/bulgarien-revanchiert-sich-balov-und-iliev-bestrafen-luxemburgs-chancenwucher/",
+        "title": "Bulgarien revanchiert sich: Balov und Iliev bestrafen Luxemburgs Chancenwucher",
+        "description": "Luxemburg hat im Kampf um Platz zwei in Gruppe 4 der Liga C der UEFA Nations League 2026/27 einen Rückschlag erlitten. Die Mannschaft von Jeff Strasser verlor im Stade de Luxembourg gegen Bulgarien mit 0:2 (0:2). Die Gastgeber waren über weite Strecken mindestens ebenbürtig, ließen jedoch die…",
+        "source": {
+          "id": "saarnews",
+          "name": "Saarnews"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T20:50:31.000Z",
+        "imageUrl": "https://usercontent.one/wp/www.saarnews.com/wp-content/uploads/2026/10/261006-LUX-BG-5.jpg?media=1791263113",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T20:50:31.000Z"
+    },
+    {
+      "id": "qVPjTrhweLIg",
+      "representative": {
+        "id": "qVPjTrhweLIg",
+        "url": "https://www.saarnews.com/landkreise/regionalverband/saarbruecken/alt-saarbruecken-fahrbahnarbeiten-in-der-praesident-baltz-strasse-ab-7-oktober/",
+        "canonicalUrl": "https://www.saarnews.com/landkreise/regionalverband/saarbruecken/alt-saarbruecken-fahrbahnarbeiten-in-der-praesident-baltz-strasse-ab-7-oktober/",
+        "title": "Alt-Saarbrücken: Fahrbahnarbeiten in der Präsident-Baltz-Straße ab 7. Oktober",
+        "description": "Am Mittwoch, 7. Oktober, beginnt die Landeshauptstadt Saarbrücken mit Arbeiten in der Präsident-Baltz-Straße in Alt-Saarbrücken. Instandgesetzt wird die stadteinwärts führende Fahrbahn zwischen der Einmündung der Straße „An der Christ-König-Kirche“ und dem Bismarckkreisel. Während der Arbeiten…",
+        "source": {
+          "id": "saarnews",
+          "name": "Saarnews"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T15:29:30.000Z",
+        "imageUrl": "https://usercontent.one/wp/www.saarnews.com/wp-content/uploads/2026/10/symbolfoto-d4571700-2112-4aef-9c47-9499045cdc2d.jpg?media=1791263113",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:29:30.000Z"
+    },
+    {
+      "id": "ChB9a8dcelGS",
+      "representative": {
+        "id": "ChB9a8dcelGS",
+        "url": "https://www.saarbruecker-zeitung.de/nachrichten/wirtschaft/basf-interesse-an-evonik-spd-schlaegt-landesbeteiligung-vor_aid-156116795",
+        "canonicalUrl": "https://www.saarbruecker-zeitung.de/nachrichten/wirtschaft/basf-interesse-an-evonik-spd-schlaegt-landesbeteiligung-vor_aid-156116795",
+        "title": "Freiwilliges Übernahmeangebot: BASF-Interesse an Evonik: SPD schlägt Landesbeteiligung vor",
+        "description": "Soll das Land NRW bei Evonik einsteigen? Die SPD sieht darin einen Weg, Arbeitsplätze und Standorte langfristig abzusichern.",
+        "source": {
+          "id": "saarbruecker_zeitung",
+          "name": "Saarbrücker Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:09:28.000Z",
+        "imageUrl": "https://www.saarbruecker-zeitung.de/imgs/03/2/8/3/9/8/3/6/7/1/tok_afd75b90604289e137ed5f9d632a27fe/w950_h950_x1796_y1197_968eb2ff7b8a440e.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:09:28.000Z"
+    },
+    {
+      "id": "P2klk_FucMxx",
+      "representative": {
+        "id": "P2klk_FucMxx",
+        "url": "https://www.saarbruecker-zeitung.de/saarland/st-wendel/st-wendel-wendelskirmes-vom-17-2510-lockt-mit-riesenrad-und-karussells_aid-155569551",
+        "canonicalUrl": "https://www.saarbruecker-zeitung.de/saarland/st-wendel/st-wendel-wendelskirmes-vom-17-2510-lockt-mit-riesenrad-und-karussells_aid-155569551",
+        "title": "17. - 25. Oktober: 48 Meter über St. Wendel – das Grand Soleil kehrt zur Wendelskirmes zurück",
+        "description": "Ab 17. Oktober steht das 48 Meter hohe Riesenrad „Grand Soleil“ wieder auf dem Festplatz Bosenbach. Neun Tage lang lockt die Wendelskirmes – die Veranstalter rechnen mit mehr Gästen. Alle Infos zum Fest.",
+        "source": {
+          "id": "saarbruecker_zeitung",
+          "name": "Saarbrücker Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:08:00.000Z",
+        "imageUrl": "https://www.saarbruecker-zeitung.de/imgs/03/2/8/2/8/3/9/0/2/1/tok_3ef2345d9954a4e5f8a2f270ac3689d0/w950_h950_x1796_y1315_Wendelskirmes-26-10-2025-_bo-3d-a3f942fb14092451.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:08:00.000Z"
+    },
+    {
+      "id": "QgzMxmfRLfUv",
+      "representative": {
+        "id": "QgzMxmfRLfUv",
+        "url": "https://www.saarbruecker-zeitung.de/saarland/saarlouis/haushalt-wofuer-wallerfangen-2026-millionen-investiert_aid-155648787",
+        "canonicalUrl": "https://www.saarbruecker-zeitung.de/saarland/saarlouis/haushalt-wofuer-wallerfangen-2026-millionen-investiert_aid-155648787",
+        "title": "Haushalt beschlossen: Wofür Wallerfangen in 2026 fast 10 Millionen Euro investiert",
+        "description": "Die Gemeinde Wallerfangen hat den Haushalt 2026 beschlossen. Im Plan stehen auch fast 10 Millionen Euro an Investitionen – wofür diese Gelder genutzt werden sollen.",
+        "source": {
+          "id": "saarbruecker_zeitung",
+          "name": "Saarbrücker Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:07:00.000Z",
+        "imageUrl": "https://www.saarbruecker-zeitung.de/imgs/03/2/8/3/0/1/8/7/9/7/tok_25646ab74bd9446132971d73cbe172e0/w950_h950_x1063_y708_1._Rathaus_Wallerfangen-58c6e854ca3bdd36.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:07:00.000Z"
+    },
+    {
+      "id": "veLafFJBu63G",
+      "representative": {
+        "id": "veLafFJBu63G",
+        "url": "https://www.saarbruecker-zeitung.de/saarland/neunkirchen/ottweiler/ottweiler-vrilissia-bruecke-sperrung-bleibt_aid-155647241",
+        "canonicalUrl": "https://www.saarbruecker-zeitung.de/saarland/neunkirchen/ottweiler/ottweiler-vrilissia-bruecke-sperrung-bleibt_aid-155647241",
+        "title": "Nach Verzögerung: Dauer-Baustelle in Ottweiler hat ein Ende – und verzögert sich schon wieder",
+        "description": "Nadelöhr in Ottweiler verschwindet: So lautete die Ankündigung vom Landesbetrieb für Straßenbau (LfS). Mittwochvormittag sollte eine Baustelle für den Durchgangsverkehr zwischen Neunkirchen und St. Wendel frei sein. Dann kam es zu neuer Verzögerung.",
+        "source": {
+          "id": "saarbruecker_zeitung",
+          "name": "Saarbrücker Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:02:00.000Z",
+        "imageUrl": "https://www.saarbruecker-zeitung.de/imgs/03/2/8/3/0/1/4/8/2/3/tok_2e60856e2d8e8efc7e99d3e45a4d2e0c/w950_h950_x800_y600_OTW6-bffe466d0862a610.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:02:00.000Z"
+    },
+    {
+      "id": "aSdCSpndiwbg",
+      "representative": {
+        "id": "aSdCSpndiwbg",
+        "url": "https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/subdir/luxemburg-reisemarathon-fuer-grossherzog-von-mosel-bis-new-york_aid-156123893",
+        "canonicalUrl": "https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/subdir/luxemburg-reisemarathon-fuer-grossherzog-von-mosel-bis-new-york_aid-156123893",
+        "title": "Sprengt er das Budget?: Zwischen New York und Mosel – Luxemburger Großherzog im Reisemarathon",
+        "description": "Reisemarathon für Luxemburgs Großherzog: Nach der Rede vor der Uno und dem Treffen mit dem Papst gibt er sich jetzt volksnah. Doch Guillaume muss auf sein Budget achten.",
+        "source": {
+          "id": "saarbruecker_zeitung",
+          "name": "Saarbrücker Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:01:19.000Z",
+        "imageUrl": "https://www.saarbruecker-zeitung.de/imgs/03/2/8/4/0/0/0/7/9/9/tok_9cf7125aac1bd70e7deb6ba17c2432f8/w950_h950_x1796_y1197_dsc-9684-3626a31c62facb3a.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:01:19.000Z"
+    },
+    {
+      "id": "t78WZIhgZK5U",
+      "representative": {
+        "id": "t78WZIhgZK5U",
+        "url": "https://www.saarbruecker-zeitung.de/saarland/mietbelastung-im-saarland-wo-die-miete-am-staerksten-aufs-einkommen-drueckt_aid-156048541",
+        "canonicalUrl": "https://www.saarbruecker-zeitung.de/saarland/mietbelastung-im-saarland-wo-die-miete-am-staerksten-aufs-einkommen-drueckt_aid-156048541",
+        "title": "Mietbelastung im Vergleich: Mieten im Saarland – in diesem Kreis stieg die Belastung am stärksten",
+        "description": "Eine neue Studie zeigt: Rund ein Fünftel des Nettolohns geht im Saarland für die Miete drauf. Die Belastung variiert je nach Kreis. Wo sie am höchsten ist – und wo vergleichsweise wenig Einkommen fürs Wohnen draufgeht.",
+        "source": {
+          "id": "saarbruecker_zeitung",
+          "name": "Saarbrücker Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:01:00.000Z",
+        "imageUrl": "https://www.saarbruecker-zeitung.de/imgs/03/2/8/3/8/3/9/0/4/9/tok_789c19db7e03d2a0da32dacf58c39e28/w950_h950_x1500_y989_DPA_bfunk_dpa_14965A00DEB0D1FB-d242bd2b8426cca0.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SL"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:01:00.000Z"
+    }
+  ]
+}

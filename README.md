@@ -2,7 +2,7 @@
 
 An interactive 3D globe. Click a country and you get its top national headlines right now, grouped by story and ranked by how many outlets are covering them.
 
-It covers 131 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France and it splits into its 13 regions, each with its own regional headlines from regional outlets.
+It covers 131 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France or Germany and it splits into its regions (13 French regions, 16 German Länder), each with its own headlines from regional outlets.
 
 - No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
@@ -29,7 +29,8 @@ After the first `pnpm ingest`, the dev server serves your fresh output instead o
 ```
 apps/web/            React + Vite front end (react-globe.gl)
   src/assets/countries-110m.json   Natural Earth 110m countries, trimmed (scripts/prepare-countries.mjs)
-  src/assets/regions-fr.json       France's 13 regions, IGN Admin Express, trimmed (scripts/prepare-regions.mjs)
+  src/assets/regions-fr.json       France's 13 regions, IGN Admin Express, trimmed (scripts/prepare-regions.mjs fr)
+  src/assets/regions-de.json       Germany's 16 Länder, Natural Earth 10m admin-1, trimmed (scripts/prepare-regions.mjs de)
   worker/index.ts, wrangler.jsonc  Cloudflare Worker: static assets + /data/* from KV
 packages/ingest/     Node worker: fetch → normalize → dedupe → cluster → rank → write JSON
   src/sources.config.ts            feeds, authority weights, pipeline settings
@@ -243,6 +244,33 @@ Broadcasters' regional feeds list their programmes next to their articles: BFM's
 Some local outlets post in bursts (TV Vendée, Lyon Capitale) and would fill a region's list with their latest items, so each outlet gets at most 3 single-outlet stories in a top 15 (`maxSoloStoriesPerOutlet`) before the others; the overflow only fills slots left empty. It applies to countries too.
 
 Each region's ici (ex-France Bleu) stations are one outlet with several feeds (their `rubrique/infos.xml` feeds; slugs don't always match the station name: Paris is `107-1`, Occitanie is `toulouse`). The stations share regional stories, so separate entries would make one station's story look like coverage by several outlets. The copies' URLs differ only by `at_locale`, which is stripped as a tracking param so they dedupe. BFM's Marseille and Côte d'Azur channels, and Nice-Matin's Alpes-Maritimes and Var sections, are likewise one outlet each with two feeds. maville's city sites carry Ouest-France copy, so they are one Ouest-France outlet.
+
+**Germany — Länder** (added 2026-10-07)
+
+Each Land has one public-broadcaster outlet: either its own regional feed or tagesschau.de's regional page for it (`tagesschau.de/inland/regional/<land>/index~rss2.xml`), never both, since the page republishes that broadcaster. tagesschau.de is used where the broadcaster's own feed mixes in national news (SWR) or is thin (WDR) or missing (SR). Papers use their local or Land section feeds; the main feeds carry national and world news. Papers of one group (Funke, Madsack, Ippen) share copy, so a Land gets at most one per group unless they cover different areas.
+
+| Land | Outlets (feed) | Status |
+| --- | --- | --- |
+| Baden-Württemberg | SWR (tagesschau.de BW page), Badische Neueste Nachrichten (`karlsruhe`), Rhein-Neckar-Zeitung (regio ticker), t-online Stuttgart | ✅ (SWR's own BW feed mixes in tagesschau national stories; Stuttgarter Zeitung/Nachrichten, Südkurier, Heilbronner Stimme, gea.de, Schwarzwälder Bote have no feed (404); Badische Zeitung 410; Schwäbische 404/403; Mannheimer Morgen 403; SWP has no feed; ka-news mixes in national news; pz-news 410) |
+| Bavaria | BR24 (its seven Regierungsbezirk boards), Süddeutsche Zeitung (`Bayern`), Augsburger Allgemeine (`bayern`), Nürnberger Nachrichten (`region`), Abendzeitung München, Merkur (`bayern`) | ✅ (BR24's homepage feed carries national and world news; tagesschau.de's Bavaria page has about two items a day; SZ München feed 404) |
+| Berlin | rbb24 Berlin, Tagesspiegel (`berlin`), Berliner Morgenpost (`berlin`), t-online Berlin | ✅ (B.Z. feeds 404; Berliner Zeitung only has its mixed main feed; Tagesspiegel's Berlin feed carries a few non-Berlin dpa items) |
+| Brandenburg | rbb24 Brandenburg, Märkische Allgemeine (`brandenburg`), Tagesspiegel Potsdam, Niederlausitz aktuell | ✅ (MOZ and Lausitzer Rundschau have no feed) |
+| Bremen | buten un binnen, Weser-Kurier (`bremen`), Kreiszeitung (`lokales/bremen`), t-online Bremen | ✅ |
+| Hamburg | NDR Hamburg, Hamburger Abendblatt (`hamburg`), Hamburger Morgenpost (`hamburg`), t-online Hamburg | ✅ |
+| Hesse | hessenschau, FAZ Rhein-Main, Frankfurter Rundschau (`frankfurt`), HNA (`kassel`) | ✅ (FR and HNA are both Ippen, but Frankfurt and North Hesse) |
+| Mecklenburg-Vorpommern | NDR MV, Ostsee-Zeitung (`mecklenburg-vorpommern`) | ⚠️ two outlets (Nordkurier and SVZ, which now redirects to it, have no feed found, `.xml` 403; Katapult MV had no item in 24 h; Ostseewelle 404; Antenne MV redirects to another station) |
+| Lower Saxony | NDR Niedersachsen, Hannoversche Allgemeine (`lokales/hannover`), Neue Osnabrücker Zeitung (`lokales/osnabrueck`), Braunschweiger Zeitung (`niedersachsen`), t-online Hannover | ✅ (HAZ category feeds empty; Braunschweiger's `braunschweig` feed is stale and the main one mixed; Göttinger Tageblatt category empty; NWZ has no feed found) |
+| North Rhine-Westphalia | WDR (tagesschau.de NRW page), Rheinische Post (`nrw`), Kölner Stadt-Anzeiger (`koeln`), Westfälische Nachrichten (`wn_muenster`) | ✅ (WDR's own feeds have 5–11 items a day, the tagesschau.de page several times that; WAZ `rhein-und-ruhr` has two a day; WN's main feed is national and world) |
+| Rhineland-Palatinate | SWR (tagesschau.de RP page), Rhein-Zeitung (Koblenz), Trierischer Volksfreund (`region`), Allgemeine Zeitung (`lokales/mainz`), lokalo.de | ✅ (Rheinpfalz has no feed found; Pfalz-Express mixes in national news; the Volksfreund shares some RP Mediengruppe copy with the Saarbrücker Zeitung) |
+| Saarland | SR (tagesschau.de Saarland page), Saarbrücker Zeitung (`saarland`), Saarnews | ⚠️ three outlets (SR publishes no news feed of its own; sol.de 403) |
+| Saxony | MDR Sachsen, Leipziger Volkszeitung (`lokales/leipzig`), Dresdner Neueste Nachrichten (`lokales/dresden`), Freie Presse (`chemnitz`) | ✅ (LVZ and DNN are both Madsack, but Leipzig and Dresden; Sächsische Zeitung 403; Freie Presse's Sachsen feed has three items a day) |
+| Saxony-Anhalt | MDR Sachsen-Anhalt, Altmark Zeitung (`altmark`), Du bist Halle, Halle Spektrum | ✅ (Volksstimme and Mitteldeutsche Zeitung have no feed, only news sitemaps; magdeburg-klickt stale; Halle Spektrum posts about five times a day) |
+| Schleswig-Holstein | NDR Schleswig-Holstein, Kieler Nachrichten (`schleswig-holstein`), shz | ⚠️ three outlets (Lübecker Nachrichten works but is Madsack like the KN) |
+| Thuringia | MDR Thüringen, Thüringer Allgemeine (`lokales`), inSüdthüringen | ⚠️ three outlets (OTZ and TLZ are Funke like the TA; TA's `thueringen` feed 404) |
+
+Broadcasters' feeds list bulletins and programmes next to stories (NDR's "Nachrichten aus dem Studio Lüneburg", "Regionalnachrichten aus Rostock", "Nordmagazin | 06.10.2026"; buten un binnen's "Dein Audio-Update am …"; MDR Thüringen's section pages "Meldungen", "Region Mitte"), and papers post daily roundups, giveaways and lottery numbers. `isNotNews` drops these; on the 2026-10-07 cache its German patterns matched 58 titles, all from German feeds.
+
+Hyphenated Land names split into two title tokens ("Sachsen-Anhalt" → `sachsen`, `anhalt`), which meets the two-shared-token minimum on its own; one DE-ST cluster joins two unrelated Sachsen-Anhalt headlines for that reason.
 
 **United States**
 
@@ -1859,4 +1887,5 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 
 - Country shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:110m admin-0 (public domain), bundled locally, coordinates rounded to 0.01°. In Natural Earth, `ISO_A2` is `-99` for France and Norway, so the build script uses `ISO_A2_EH`.
 - French region shapes: IGN Admin Express (2018), via [france-geojson](https://github.com/gregoiredavid/france-geojson), under the [Licence Ouverte / Etalab](https://www.etalab.gouv.fr/licence-ouverte-open-licence/); coordinates rounded to 0.01°. Loaded only when France is opened.
+- German Länder shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:10m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when Germany is opened.
 - `data/sample/` is a real `pnpm ingest` output from 2026-10-06. Its relative times will read "days ago" until you run an ingest.

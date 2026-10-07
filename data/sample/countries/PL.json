@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PL",
   "countryName": "Poland",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "HXkXRqn6kaw5",
@@ -93,161 +93,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 5,
+      "outletCount24h": 4,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T13:27:32.000Z"
-    },
-    {
-      "id": "55l1tgA6vCQk",
-      "representative": {
-        "id": "55l1tgA6vCQk",
-        "url": "https://tvn24.pl/polska/cba-w-biurze-rzecznika-praw-dziecka-st9272533?source=rss",
-        "canonicalUrl": "https://tvn24.pl/polska/cba-w-biurze-rzecznika-praw-dziecka-st9272533?source=rss",
-        "title": "CBA w biurze Rzecznika Praw Dziecka",
-        "description": "Funkcjonariusze CBA prowadzą czynności w biurze Rzecznika Praw Dziecka - potwierdził rzecznik prasowy ministra koordynatora służb specjalnych Jacek Dobrzyński. Monika Horna-Cieślak poinformowała o przekazaniu właściwym organom dokumentów związanych ze sprawą dzieci z Białołęki.",
-        "source": {
-          "id": "tvn24",
-          "name": "TVN24"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T13:00:56.000Z",
-        "imageUrl": "https://tvn24.pl/najnowsze/cdn-zdjecie-6604036-funkcjonariusze-cba-ph5555550/alternates/LANDSCAPE_1280",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "YIzYqcICsDIQ",
-          "url": "https://wiadomosci.onet.pl/kraj/cba-weszlo-do-biura-rzecznika-praw-dziecka-waldemar-zurek-reaguje/01gb32x",
-          "canonicalUrl": "https://wiadomosci.onet.pl/kraj/cba-weszlo-do-biura-rzecznika-praw-dziecka-waldemar-zurek-reaguje/01gb32x",
-          "title": "CBA weszło do biura Rzecznika Praw Dziecka. Waldemar Żurek reaguje",
-          "description": "Funkcjonariusze CBA wkroczyli do biura Rzecznika Praw Dziecka. Do sprawy odniósł się minister sprawiedliwości Waldemar Żurek. — Zapewne te działania są po to, żeby zebrać dowody: czy rzeczywiście była wywierana presja, czy była ona mieszcząca się w wykonywaniu funkcji RPD, czy stanowiła…",
-          "source": {
-            "id": "onet",
-            "name": "Onet"
-          },
-          "sourceCountry": "PL",
-          "language": "pl",
-          "publishedAt": "2026-10-06T13:09:00.000Z",
-          "imageUrl": "https://cdn.wiadomosci.onet.pl/1/uJkk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy85MDY1MGQyNDg5NzY2MmM3NGNjYjc4YmFjZjhkZmFjMC5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
-          "countryCode": "PL",
-          "regionCode": null
-        },
-        {
-          "id": "2YIW32DlH3ed",
-          "url": "https://wiadomosci.wp.pl/cba-w-biurze-rzecznika-praw-dziecka-chodzi-o-sprawe-z-bialoleki-7337128466602432a",
-          "canonicalUrl": "https://wiadomosci.wp.pl/cba-w-biurze-rzecznika-praw-dziecka-chodzi-o-sprawe-z-bialoleki-7337128466602432a",
-          "title": "CBA w biurze Rzecznika Praw Dziecka. Chodzi o sprawę z Białołęki",
-          "description": "Rzecznik Praw Dziecka przekazał, że akcja CBA w jego biurze wiąże się ze sprawą z warszawskiej Białołęki. W sierpniu Monika Horna-Cieślak była świadkiem, jak kobieta szarpała swoje dziecko. Wobec rodziców zastosowano nadzwyczajne środki.",
-          "source": {
-            "id": "wp",
-            "name": "Wirtualna Polska"
-          },
-          "sourceCountry": "PL",
-          "language": "pl",
-          "publishedAt": "2026-10-06T12:54:35.000Z",
-          "imageUrl": "https://i.wpimg.pl/308x/filerepo.grupawp.pl/api/v1/display/embed/a73941eb-fc4b-4a9f-8c8f-e252e0c50d7c",
-          "countryCode": "PL",
-          "regionCode": null
-        },
-        {
-          "id": "S5n1mi57TWl-",
-          "url": "https://www.rp.pl/spoleczenstwo/art45259561-cba-w-biurze-rzecznika-praw-dziecka-agenci-zabezpieczaja-dowody-dla-prokuratury",
-          "canonicalUrl": "https://www.rp.pl/spoleczenstwo/art45259561-cba-w-biurze-rzecznika-praw-dziecka-agenci-zabezpieczaja-dowody-dla-prokuratury",
-          "title": "CBA w Biurze Rzecznika Praw Dziecka. Agenci zabezpieczają dowody dla prokuratury",
-          "description": "Funkcjonariusze Centralnego Biura Antykorupcyjnego wkroczyli do siedziby Biura Rzecznika Praw Dziecka – poinformowała Wirtualna Polska. Czynności realizowane są na polecenie Prokuratury Okręgowej w Szczecinie. Służby zabezpieczają materiał dowodowy.",
-          "source": {
-            "id": "rp",
-            "name": "Rzeczpospolita"
-          },
-          "sourceCountry": "PL",
-          "language": "pl",
-          "publishedAt": "2026-10-06T12:42:00.000Z",
-          "imageUrl": "https://i.gremicdn.pl/image/free/3c8baaf8d8b283823f5b167eb82b3448/?t=crop:4480:1958:nowe:0:513,resize:fill:600:300,enlarge:1",
-          "countryCode": "PL",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T13:09:00.000Z"
-    },
-    {
-      "id": "TxD9xjmeSsc0",
-      "representative": {
-        "id": "TxD9xjmeSsc0",
-        "url": "https://tvn24.pl/swiat/szwecja-wysle-do-polski-systemy-patriot-premier-o-decyzji-st9272486?source=rss",
-        "canonicalUrl": "https://tvn24.pl/swiat/szwecja-wysle-do-polski-systemy-patriot-premier-o-decyzji-st9272486?source=rss",
-        "title": "Szwecja wyśle do Polski systemy Patriot. Premier o decyzji",
-        "description": "Wyślemy systemy obrony powietrznej Patriot na wschodnią granicę Polski w ramach misji NATO - poinformował premier Szwecji Ulf Kristersson.",
-        "source": {
-          "id": "tvn24",
-          "name": "TVN24"
-        },
-        "sourceCountry": "PL",
-        "language": "pl",
-        "publishedAt": "2026-10-06T12:38:29.000Z",
-        "imageUrl": "https://tvn24.pl/najnowsze/cdn-zdjecie-ulf-kristersson-ph9272532/alternates/LANDSCAPE_1280",
-        "countryCode": "PL",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "5EHV0WgSrJtd",
-          "url": "https://www.rp.pl/dyplomacja/art45259641-szwecja-wysle-patrioty-do-polski",
-          "canonicalUrl": "https://www.rp.pl/dyplomacja/art45259641-szwecja-wysle-patrioty-do-polski",
-          "title": "Szwecja wyśle Patrioty do Polski",
-          "description": "Zestawy obrony powietrznej Patriot wyśle do Polski Szwecja. Taką informację przekazał szwedzki premier Ulf Kristersson.",
-          "source": {
-            "id": "rp",
-            "name": "Rzeczpospolita"
-          },
-          "sourceCountry": "PL",
-          "language": "pl",
-          "publishedAt": "2026-10-06T12:50:00.000Z",
-          "imageUrl": "https://i.gremicdn.pl/image/free/1c2938e64b69beeef4404251aabd3db9/zestaw-patriot?t=crop:3840:1679:nowe:0:441,resize:fill:600:300,enlarge:1",
-          "countryCode": "PL",
-          "regionCode": null
-        },
-        {
-          "id": "q925JammU878",
-          "url": "https://wiadomosci.onet.pl/kraj/szwecja-wysle-do-polski-systemy-patriot-sztokholm-oglasza/c3gkwk4",
-          "canonicalUrl": "https://wiadomosci.onet.pl/kraj/szwecja-wysle-do-polski-systemy-patriot-sztokholm-oglasza/c3gkwk4",
-          "title": "Szwecja wzmacnia flankę wschodnią NATO. Wyśle do Polski systemy Patriot",
-          "description": "— Wyślemy systemy obrony powietrznej Patriot na wschodnią granicę Polski w ramach misji NATO — przekazał premier Szwecji Ulf Kristersson.",
-          "source": {
-            "id": "onet",
-            "name": "Onet"
-          },
-          "sourceCountry": "PL",
-          "language": "pl",
-          "publishedAt": "2026-10-06T12:43:23.000Z",
-          "imageUrl": "https://cdn.wiadomosci.onet.pl/1/W0kk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy82Zjk2ZjJiOTNhM2ZiZDNlMzcyMmViZDI4YmI4YTEwZS5qcGeSlQMAAM0GQM0DhJMFzQlgzQZA3gACoTAHoTEE",
-          "countryCode": "PL",
-          "regionCode": null
-        },
-        {
-          "id": "FdNBKQolUuo8",
-          "url": "https://wiadomosci.wp.pl/szwecja-pomoze-polsce-dostarczy-systemy-patriot-7337124747823520a",
-          "canonicalUrl": "https://wiadomosci.wp.pl/szwecja-pomoze-polsce-dostarczy-systemy-patriot-7337124747823520a",
-          "title": "Szwecja pomoże Polsce. Dostarczy systemy Patriot",
-          "description": "Premier Szwecji Ulf Kristersson poinformował, że jego kraj wyśle systemy obrony powietrznej Patriot na wschodnią granicę Polski w ramach misji NATO. Jak podkreślił, ma to na celu zapewnienie \"ochrony NATO-wskiego hubu logistycznego\".",
-          "source": {
-            "id": "wp",
-            "name": "Wirtualna Polska"
-          },
-          "sourceCountry": "PL",
-          "language": "pl",
-          "publishedAt": "2026-10-06T12:38:24.000Z",
-          "imageUrl": "https://i.wpimg.pl/308x/filerepo.grupawp.pl/api/v1/display/embed/83822867-06a2-4e5a-a174-c14fa2a2fd13",
-          "countryCode": "PL",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T12:50:00.000Z"
     },
     {
       "id": "xh0fM2vqo3h1",
@@ -536,6 +384,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:21:48.000Z"
+    },
+    {
+      "id": "hrwI3pAnJBa7",
+      "representative": {
+        "id": "hrwI3pAnJBa7",
+        "url": "https://wiadomosci.onet.pl/swiat/rosja-gromadzi-srodki-do-poteznego-ataku-zelenski-dostal-ostrzezenie/q754d3w",
+        "canonicalUrl": "https://wiadomosci.onet.pl/swiat/rosja-gromadzi-srodki-do-poteznego-ataku-zelenski-dostal-ostrzezenie/q754d3w",
+        "title": "Rosja przerzuca bombowce strategiczne. Ukraina spodziewa się zmasowanego ataku",
+        "description": "Ukraina spodziewa się w najbliższym czasie zmasowanego ataku rakietowego na podstawie danych wywiadowczych. Wcześniej pojawiły się doniesienia o przebazowaniu rosyjskich bombowców strategicznych oraz gromadzonych pociskach balistycznych i manewrujących. Potencjalnym celem może być infrastruktura…",
+        "source": {
+          "id": "onet",
+          "name": "Onet"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:21:47.000Z",
+        "imageUrl": "https://cdn.wiadomosci.onet.pl/1/rgok9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy9jZTQ0OTk2ZDI4MzQxNzNkMTljNzA2ZjJmMGY3YzlkYS5wbmeSlQMAAM0HgM0EOJMFzQlgzQZA3gACoTAHoTEE",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:21:47.000Z"
+    },
+    {
+      "id": "UECN4R_Gdl8O",
+      "representative": {
+        "id": "UECN4R_Gdl8O",
+        "url": "https://www.rmf24.pl/fakty/ekonomia/news-bank-swiatowy-zmienil-prognozy-dla-polskiej-gospodarki-ukaza,nIdn,1020697",
+        "canonicalUrl": "https://www.rmf24.pl/fakty/ekonomia/news-bank-swiatowy-zmienil-prognozy-dla-polskiej-gospodarki-ukaza,nIdn,1020697",
+        "title": "Bank Światowy zmienił prognozy dla polskiej gospodarki. Ukazał się najnowszy raport",
+        "description": "Bank Światowy zmienił prognozy dla polskiej gospodarki. Ukazał się najnowszy raport",
+        "source": {
+          "id": "rmf24",
+          "name": "RMF24"
+        },
+        "sourceCountry": "PL",
+        "language": "pl",
+        "publishedAt": "2026-10-06T13:21:00.000Z",
+        "imageUrl": "https://rmf.rmffm.pl/news/attachments/7e/0a/zdjecie-ilustracyjne-636x421-7e0a5839.jpg",
+        "countryCode": "PL",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:21:00.000Z"
     }
   ]
 }

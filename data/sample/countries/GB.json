@@ -2,8 +2,50 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
+    {
+      "id": "UN8LhbvlF3o6",
+      "representative": {
+        "id": "UN8LhbvlF3o6",
+        "url": "https://www.standard.co.uk/news/uk/asos-hacked-alert-customers-app-snowflake-compromised-b1299696.html",
+        "canonicalUrl": "https://www.standard.co.uk/news/uk/asos-hacked-alert-customers-app-snowflake-compromised-b1299696.html",
+        "title": "ASOS Hacked Notification: Customers sent alarming 'Snowflake' app alert - latest updates",
+        "description": "Worrying notification sent to ASOS customers that appears to be from hackers",
+        "source": {
+          "id": "standard",
+          "name": "Evening Standard"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:19:12.000Z",
+        "imageUrl": "https://static.standard.co.uk/2026/10/06/9/17/Asos-hack.png?width=1200&auto=webp&crop=3%3A2",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "PoLPq_H7cTOw",
+          "url": "https://www.mirror.co.uk/news/uk-news/asos-hacked-notification-snowflake-app-37739601",
+          "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/asos-hacked-notification-snowflake-app-37739601",
+          "title": "ASOS 'hacked' live updates: Customers sent bizarre 'snowflake' notification",
+          "description": "Several ASOS customers have received a sinister push notification to their phones indicating that the online fashion retailer has been hacked",
+          "source": {
+            "id": "mirror",
+            "name": "Daily Mirror"
+          },
+          "sourceCountry": "GB",
+          "language": "en",
+          "publishedAt": "2026-10-06T13:15:05.000Z",
+          "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37232384.ece/ALTERNATES/s615/1_GettyImages-2237921959.jpg",
+          "countryCode": "GB",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:15:05.000Z"
+    },
     {
       "id": "gNIVgrBYxC0j",
       "representative": {
@@ -110,51 +152,129 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 6,
+      "outletCount24h": 1,
       "outletCount": 6,
       "latestPublishedAt": "2026-10-06T13:14:29.000Z"
     },
     {
-      "id": "UN8LhbvlF3o6",
+      "id": "noWK0mEYqjGD",
       "representative": {
-        "id": "UN8LhbvlF3o6",
-        "url": "https://www.standard.co.uk/news/uk/asos-hacked-alert-customers-app-snowflake-compromised-b1299696.html",
-        "canonicalUrl": "https://www.standard.co.uk/news/uk/asos-hacked-alert-customers-app-snowflake-compromised-b1299696.html",
-        "title": "ASOS Hacked Notification: Customers sent alarming 'Snowflake' app alert - latest updates",
-        "description": "Worrying notification sent to ASOS customers that appears to be from hackers",
+        "id": "noWK0mEYqjGD",
+        "url": "https://www.mirror.co.uk/money/long-awaited-good-news-borrowers-37740996",
+        "canonicalUrl": "https://www.mirror.co.uk/money/long-awaited-good-news-borrowers-37740996",
+        "title": "Long-awaited good news for borrowers as UK lender cuts mortgage rates",
+        "description": "After weeks of rises, one lender has made a move",
         "source": {
-          "id": "standard",
-          "name": "Evening Standard"
+          "id": "mirror",
+          "name": "Daily Mirror"
         },
         "sourceCountry": "GB",
         "language": "en",
-        "publishedAt": "2026-10-06T12:19:12.000Z",
-        "imageUrl": "https://static.standard.co.uk/2026/10/06/9/17/Asos-hack.png?width=1200&auto=webp&crop=3%3A2",
+        "publishedAt": "2026-10-06T13:08:46.000Z",
+        "imageUrl": "https://i2-prod.mirror.co.uk/money/article37740994.ece/ALTERNATES/s615/1_Asian-Couple-Having-a-Serious-Discussion-While-Using-a-Tablet-at-Home.jpg",
         "countryCode": "GB",
         "regionCode": null
       },
-      "related": [
-        {
-          "id": "PoLPq_H7cTOw",
-          "url": "https://www.mirror.co.uk/news/uk-news/asos-hacked-notification-snowflake-app-37739601",
-          "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/asos-hacked-notification-snowflake-app-37739601",
-          "title": "ASOS 'hacked' live updates: Customers sent bizarre 'snowflake' notification",
-          "description": "Several ASOS customers have received a sinister push notification to their phones indicating that the online fashion retailer has been hacked",
-          "source": {
-            "id": "mirror",
-            "name": "Daily Mirror"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T13:15:05.000Z",
-          "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37232384.ece/ALTERNATES/s615/1_GettyImages-2237921959.jpg",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:15:05.000Z"
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:08:46.000Z"
+    },
+    {
+      "id": "xAddTq7ClJff",
+      "representative": {
+        "id": "xAddTq7ClJff",
+        "url": "https://www.independent.co.uk/news/uk/home-news/queen-camilla-jeffrey-archer-death-b3062150.html",
+        "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/queen-camilla-jeffrey-archer-death-b3062150.html",
+        "title": "Queen Camilla remembers late Jeffrey Archer as 'irrepressible life force'",
+        "description": "The novelist and MP was ‘an exception to the end’, Camilla wrote",
+        "source": {
+          "id": "independent",
+          "name": "The Independent"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:07:43.000Z",
+        "imageUrl": "https://static.independent.co.uk/2023/08/25/15/3_2.png?width=1200&auto=webp&crop=3%3A2",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:07:43.000Z"
+    },
+    {
+      "id": "LylSOyPHNHtQ",
+      "representative": {
+        "id": "LylSOyPHNHtQ",
+        "url": "https://www.theguardian.com/business/2026/oct/06/lego-insurance-scam-highlights-uk-fraud",
+        "canonicalUrl": "https://www.theguardian.com/business/2026/oct/06/lego-insurance-scam-highlights-uk-fraud",
+        "title": "Lego collector’s insurance scam highlights UK’s £1.3bn fraud problem",
+        "description": "Industry leaders say bogus claims rose 14% last year, pushing up premiums for all customers A insurance fraudster who pocketed more than £14,000 for the supposed theft of Lego sets, fishing gear and gaming consoles was behind one of last year’s most high-profile bogus claims. Investigators…",
+        "source": {
+          "id": "guardian",
+          "name": "The Guardian"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:07:23.000Z",
+        "imageUrl": null,
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:07:23.000Z"
+    },
+    {
+      "id": "wZpQQ-J6_TAv",
+      "representative": {
+        "id": "wZpQQ-J6_TAv",
+        "url": "https://www.independent.co.uk/news/uk/politics/holborn-st-pancras-by-election-candidates-policies-manifesto-b3062086.html",
+        "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/holborn-st-pancras-by-election-candidates-policies-manifesto-b3062086.html",
+        "title": "Who is standing in the Holborn and St Pancras by-election?",
+        "description": "The contest in the north London constituency is a major test for both Zack Polanski and new Labour leader Andy Burnham",
+        "source": {
+          "id": "independent",
+          "name": "The Independent"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:03:31.000Z",
+        "imageUrl": "https://static.independent.co.uk/2026/10/06/13/2298260288..?width=1200&auto=webp&crop=3%3A2",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:03:31.000Z"
+    },
+    {
+      "id": "ZjFtj_G2haxE",
+      "representative": {
+        "id": "ZjFtj_G2haxE",
+        "url": "https://www.bbc.co.uk/news/articles/cmn9rxy32xpgo?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cmn9rxy32xpgo",
+        "title": "Teenager bled to death in street after zombie knife attack, court hears",
+        "description": "Witnesses describe one of the accused as acting like a gangster as the victim was attacked.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:00:36.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e817/live/b222c850-05a6-11f1-9dae-f73a03519d1f.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:36.000Z"
     },
     {
       "id": "k5JhOOR6MRLZ",
@@ -194,129 +314,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 2,
+      "outletCount24h": 0,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T12:58:17.000Z"
-    },
-    {
-      "id": "noWK0mEYqjGD",
-      "representative": {
-        "id": "noWK0mEYqjGD",
-        "url": "https://www.mirror.co.uk/money/long-awaited-good-news-borrowers-37740996",
-        "canonicalUrl": "https://www.mirror.co.uk/money/long-awaited-good-news-borrowers-37740996",
-        "title": "Long-awaited good news for borrowers as UK lender cuts mortgage rates",
-        "description": "After weeks of rises, one lender has made a move",
-        "source": {
-          "id": "mirror",
-          "name": "Daily Mirror"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:08:46.000Z",
-        "imageUrl": "https://i2-prod.mirror.co.uk/money/article37740994.ece/ALTERNATES/s615/1_Asian-Couple-Having-a-Serious-Discussion-While-Using-a-Tablet-at-Home.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:08:46.000Z"
-    },
-    {
-      "id": "xAddTq7ClJff",
-      "representative": {
-        "id": "xAddTq7ClJff",
-        "url": "https://www.independent.co.uk/news/uk/home-news/queen-camilla-jeffrey-archer-death-b3062150.html",
-        "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/queen-camilla-jeffrey-archer-death-b3062150.html",
-        "title": "Queen Camilla remembers late Jeffrey Archer as 'irrepressible life force'",
-        "description": "The novelist and MP was ‘an exception to the end’, Camilla wrote",
-        "source": {
-          "id": "independent",
-          "name": "The Independent"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:07:43.000Z",
-        "imageUrl": "https://static.independent.co.uk/2023/08/25/15/3_2.png?width=1200&auto=webp&crop=3%3A2",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:07:43.000Z"
-    },
-    {
-      "id": "LylSOyPHNHtQ",
-      "representative": {
-        "id": "LylSOyPHNHtQ",
-        "url": "https://www.theguardian.com/business/2026/oct/06/lego-insurance-scam-highlights-uk-fraud",
-        "canonicalUrl": "https://www.theguardian.com/business/2026/oct/06/lego-insurance-scam-highlights-uk-fraud",
-        "title": "Lego collector’s insurance scam highlights UK’s £1.3bn fraud problem",
-        "description": "Industry leaders say bogus claims rose 14% last year, pushing up premiums for all customers A insurance fraudster who pocketed more than £14,000 for the supposed theft of Lego sets, fishing gear and gaming consoles was behind one of last year’s most high-profile bogus claims. Investigators…",
-        "source": {
-          "id": "guardian",
-          "name": "The Guardian"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:07:23.000Z",
-        "imageUrl": null,
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:07:23.000Z"
-    },
-    {
-      "id": "wZpQQ-J6_TAv",
-      "representative": {
-        "id": "wZpQQ-J6_TAv",
-        "url": "https://www.independent.co.uk/news/uk/politics/holborn-st-pancras-by-election-candidates-policies-manifesto-b3062086.html",
-        "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/holborn-st-pancras-by-election-candidates-policies-manifesto-b3062086.html",
-        "title": "Who is standing in the Holborn and St Pancras by-election?",
-        "description": "The contest in the north London constituency is a major test for both Zack Polanski and new Labour leader Andy Burnham",
-        "source": {
-          "id": "independent",
-          "name": "The Independent"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:03:31.000Z",
-        "imageUrl": "https://static.independent.co.uk/2026/10/06/13/2298260288..?width=1200&auto=webp&crop=3%3A2",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:03:31.000Z"
-    },
-    {
-      "id": "ZjFtj_G2haxE",
-      "representative": {
-        "id": "ZjFtj_G2haxE",
-        "url": "https://www.bbc.co.uk/news/articles/cmn9rxy32xpgo?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cmn9rxy32xpgo",
-        "title": "Teenager bled to death in street after zombie knife attack, court hears",
-        "description": "Witnesses describe one of the accused as acting like a gangster as the victim was attacked.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T13:00:36.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e817/live/b222c850-05a6-11f1-9dae-f73a03519d1f.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:00:36.000Z"
     },
     {
       "id": "r__q1fJAJ7uv",
@@ -338,7 +338,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:55:52.000Z"
     },
@@ -362,7 +362,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:52:06.000Z"
     },
@@ -386,33 +386,9 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:48:05.000Z"
-    },
-    {
-      "id": "p-7iCEoROYeV",
-      "representative": {
-        "id": "p-7iCEoROYeV",
-        "url": "https://www.bbc.co.uk/news/articles/cwe8ry2dn6z7o?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cwe8ry2dn6z7o",
-        "title": "PCs who Tasered amputee, 92, used excessive force",
-        "description": "A misconduct hearing finds both officers used unnecessary force on Donald Burgess at his care home.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:47:31.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7cb7/live/421f5c20-c172-11f1-b328-ff5d39da8090.png",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [],
-      "outletCount24h": 1,
-      "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:47:31.000Z"
     },
     {
       "id": "qpSwVbf5_2Jk",
@@ -434,51 +410,9 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:44:14.000Z"
-    },
-    {
-      "id": "Ey-5a_capDjh",
-      "representative": {
-        "id": "Ey-5a_capDjh",
-        "url": "https://www.bbc.co.uk/news/articles/cx4g1z2ydqp4o?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cx4g1z2ydqp4o",
-        "title": "Woman found dead in home named as GP",
-        "description": "Dr Hannah Terry was working as a GP at a nearby practice, which has been closed since the weekend.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T12:36:13.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/645b/live/9d3522d0-c16c-11f1-a64c-550be9e3c66b.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rJ_LhxhADx3O",
-          "url": "https://www.independent.co.uk/news/uk/crime/hannah-terry-murder-death-sandringham-norfolk-b3062027.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/crime/hannah-terry-murder-death-sandringham-norfolk-b3062027.html",
-          "title": "GP found dead in home near Sandringham Estate named locally as murder investigation continues",
-          "description": "A man in his 40s was arrested on suspicion of murder and taken to King’s Lynn Police Investigation Centre for questioning",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T09:39:28.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/06/9/18/geograph-4275584-by-Mat-Fascione.jpeg?width=1200&auto=webp&trim=2%2C0%2C2%2C0",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 1,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:36:13.000Z"
     },
     {
       "id": "rKuN89iFcv7D",
@@ -500,9 +434,57 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:34:26.000Z"
+    },
+    {
+      "id": "FmJAHbprjqlS",
+      "representative": {
+        "id": "FmJAHbprjqlS",
+        "url": "https://www.theguardian.com/business/2026/oct/06/asos-hack-notification-website-app",
+        "canonicalUrl": "https://www.theguardian.com/business/2026/oct/06/asos-hack-notification-website-app",
+        "title": "Asos customers receive ‘hack’ notification threatening to leak data",
+        "description": "Push message claims fashion company’s data has been ‘fully compromised’, but website and app remain online Business live – latest updates Asos is investigating after users of its mobile app received a notification claiming hackers had “fully compromised” the online fashion retailer’s data. The…",
+        "source": {
+          "id": "guardian",
+          "name": "The Guardian"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T12:26:16.000Z",
+        "imageUrl": "https://i.guim.co.uk/img/media/821c0d8f486bde0335fe5d90a13160fa0e838ab2/722_176_4748_3799/master/4748.jpg?width=700&quality=85&auto=format&fit=max&s=d1959d1691117a87c19bdf56722778e0",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:26:16.000Z"
+    },
+    {
+      "id": "40vZIgh4hrF_",
+      "representative": {
+        "id": "40vZIgh4hrF_",
+        "url": "https://inews.co.uk/news/world/netanyahu-victory-gaza-may-become-long-term-defeat-4801452",
+        "canonicalUrl": "https://inews.co.uk/news/world/netanyahu-victory-gaza-may-become-long-term-defeat-4801452",
+        "title": "Netanyahu’s ‘victory’ in Gaza may become a long-term defeat",
+        "description": "Three years on from 7 October, Israel's response has divided it from its traditional allies",
+        "source": {
+          "id": "inews",
+          "name": "The i Paper"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T11:35:05.000Z",
+        "imageUrl": "https://inews.co.uk/wp-content/uploads/2026/10/SEI_234970908.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:35:05.000Z"
     }
   ]
 }

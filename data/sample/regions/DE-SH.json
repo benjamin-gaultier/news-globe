@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "DE",
+  "countryName": "Germany",
+  "regionCode": "DE-SH",
+  "regionName": "Schleswig-Holstein",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "clusters": [
+    {
+      "id": "9i_da_Ce7hgj",
+      "representative": {
+        "id": "9i_da_Ce7hgj",
+        "url": "https://www.shz.de/lokales/sylt/artikel/blackout-auf-sylt-warum-haendler-wuetend-auf-die-evs-sind-51554606",
+        "canonicalUrl": "https://www.shz.de/lokales/sylt/artikel/blackout-auf-sylt-warum-haendler-wuetend-auf-die-evs-sind-51554606",
+        "title": "Blackout auf Sylt: Stromausfall legt Westerland lahm",
+        "description": "Flächendeckender Stromausfall in Westerland: seit mehr als 14 Stunden ist es zappenduster. Während die erste Kühlware entsorgt wird, wächst der Ärger über die Kommunikation des Inselversorgers.",
+        "source": {
+          "id": "shz",
+          "name": "shz"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T06:55:35.000Z",
+        "imageUrl": "https://images.noz-mhn.de/img/51554703/crop/cbase_16_9-w1820-h1022/2094321062/1900952312/geschlossen.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [
+        {
+          "id": "cv6YjSffWtoy",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/flensburg_nordfriesland_schleswig-flensburg/sylt-stromausfall-legt-seit-stunden-teile-von-westerland-lahm,sylt-stromausfall-100.html",
+          "canonicalUrl": "https://www.ndr.de/nachrichten/schleswig-holstein/flensburg_nordfriesland_schleswig-flensburg/sylt-stromausfall-legt-seit-stunden-teile-von-westerland-lahm,sylt-stromausfall-100.html",
+          "title": "Stromausfall auf Sylt: Teile Westerlands seit Stunden lahmgelegt",
+          "description": "Ein Kabelschaden schneidet seit Dienstagabend Teile von Westerland vom Stromnetz ab. Der Ausfall dauerte auch am frühen Nachmittag noch an.",
+          "source": {
+            "id": "ndr_sh",
+            "name": "NDR Schleswig-Holstein"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T09:29:00.000Z",
+          "imageUrl": null,
+          "countryCode": "DE",
+          "regionCode": "DE-SH"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T09:29:00.000Z"
+    },
+    {
+      "id": "mqc48iH4xTVx",
+      "representative": {
+        "id": "mqc48iH4xTVx",
+        "url": "https://www.shz.de/lokales/eckernfoerde/artikel/mobilfunk-eckernfoerde-warum-das-handynetz-weiterhin-schlecht-ist-51548409",
+        "canonicalUrl": "https://www.shz.de/lokales/eckernfoerde/artikel/mobilfunk-eckernfoerde-warum-das-handynetz-weiterhin-schlecht-ist-51548409",
+        "title": "Funkloch-Streit am Rundsilo: Wer blockiert den Mobilfunk in Eckernförde?",
+        "description": "Das Funkloch in der Eckernförder Innenstadt sorgt weiter für Frust. Während die Telekom den Eigentümer des Silos in der Pflicht sieht, erzählt die zuständige Betreibergesellschaft etwas anderes. Wer trägt die Verantwortung für die Empfangsstörung?",
+        "source": {
+          "id": "shz",
+          "name": "shz"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:35:00.000Z",
+        "imageUrl": "https://images.noz-mhn.de/img/51552088/crop/cbase_16_9-w1820-h1022/683919231/1301023456/silo.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:35:00.000Z"
+    },
+    {
+      "id": "YlJhSJfD5WCI",
+      "representative": {
+        "id": "YlJhSJfD5WCI",
+        "url": "https://www.kn-online.de/schleswig-holstein/schleswig-holstein-land-will-jura-studierenden-bachelor-ermoeglichen-Z2AKSV7BQRGVRPXD3Z73E5RRCY.html",
+        "canonicalUrl": "https://www.kn-online.de/schleswig-holstein/schleswig-holstein-land-will-jura-studierenden-bachelor-ermoeglichen-Z2AKSV7BQRGVRPXD3Z73E5RRCY.html",
+        "title": "Schleswig-Holstein: Land will Jura-Studierenden Bachelor ermöglichen",
+        "description": "Schleswig-Holstein will das Studium der Rechtswissenschaften attraktiver machen: Jura-Studierende können neben dem Staatsexamen bald auch einen Bachelor-Abschluss machen. Das gilt dann sogar rückwirkend.",
+        "source": {
+          "id": "kn",
+          "name": "Kieler Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:34:21.000Z",
+        "imageUrl": "https://www.kn-online.de/resizer/v2/SCPUUXKYCX2IYMBP6ZIRG6OZIE.jpg?auth=987c91e846351458cad038982f6b37899231a0616ec5abdb85bd74c970941476&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:34:21.000Z"
+    },
+    {
+      "id": "BIX0yIyrUg7g",
+      "representative": {
+        "id": "BIX0yIyrUg7g",
+        "url": "https://www.shz.de/lokales/elmshorn-barmstedt/artikel/bahnchaos-bei-elmshorn-mehr-sorgfalt-bei-bauarbeiten-angemahnt-51553062",
+        "canonicalUrl": "https://www.shz.de/lokales/elmshorn-barmstedt/artikel/bahnchaos-bei-elmshorn-mehr-sorgfalt-bei-bauarbeiten-angemahnt-51553062",
+        "title": "18 Stunden Bahnchaos zwischen Elmshorn und Neumünster: Nah.SH mahnt mehr Sorgfalt bei Bauarbeiten an",
+        "description": "Bei Bauarbeiten zwischen Elmshorn und Neumünster wird ein wichtiges Kabel durchtrennt. Die vielbefahrene Strecke muss daraufhin stundenlang gesperrt werden. Auf Bahnhöfen wie Elmshorn herrscht Chaos, weil es kaum sinnvolle Alternativrouten gibt.",
+        "source": {
+          "id": "shz",
+          "name": "shz"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:30:00.000Z",
+        "imageUrl": "https://images.noz-mhn.de/img/51557086/crop/cbase_16_9-w1820-h1022/1693758327/523391592/elmshorn-neumnster-wrist-strung-bahn-sperrung-3.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:30:00.000Z"
+    },
+    {
+      "id": "cXd4kSH5urMU",
+      "representative": {
+        "id": "cXd4kSH5urMU",
+        "url": "https://www.shz.de/lokales/flensburg/artikel/flensburg-shipyard-plant-serienproduktion-von-militaer-seedrohnen-51556374",
+        "canonicalUrl": "https://www.shz.de/lokales/flensburg/artikel/flensburg-shipyard-plant-serienproduktion-von-militaer-seedrohnen-51556374",
+        "title": "Ist dieses unbemannte Kampfboot die Zukunft der FSG?",
+        "description": "Die Flensburger Werft bereitet sich auf die Serienproduktion von unbemannten Militärbooten vor. Noch gibt es aber keine Bestellungen.",
+        "source": {
+          "id": "shz",
+          "name": "shz"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:22:04.000Z",
+        "imageUrl": "https://images.noz-mhn.de/img/51556648/crop/cbase_16_9-w1820-h1022/1812592770/1371222729/fsg129.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:22:04.000Z"
+    },
+    {
+      "id": "1ZJ8AczcSGa-",
+      "representative": {
+        "id": "1ZJ8AczcSGa-",
+        "url": "https://www.kn-online.de/schleswig-holstein/impfaktion-am-luebecker-flughafen-olg-hebt-freispruch-auf-WKDY5C4SRISWIKRAGE3C7MAONM.html",
+        "canonicalUrl": "https://www.kn-online.de/schleswig-holstein/impfaktion-am-luebecker-flughafen-olg-hebt-freispruch-auf-WKDY5C4SRISWIKRAGE3C7MAONM.html",
+        "title": "Impfaktion am Lübecker Flughafen: OLG hebt Freispruch von Winfried Stöcker auf",
+        "description": "Das Oberlandesgericht hat den Freispruch des Euroimmun-Gründers und Flughafenbesitzers Winfried Stöcker aufgehoben. Das Landgericht Lübeck muss die Impfaktion mit einem nicht zugelassenen Corona-Impfstoff nun erneut bewerten.",
+        "source": {
+          "id": "kn",
+          "name": "Kieler Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:13:53.000Z",
+        "imageUrl": "https://www.kn-online.de/resizer/v2/O2FVL3ABP4GMMM2MVS5SQFSYEE.jpg?auth=29103a477bade0114b2df23c812aad2e8fa9d06bf55908bbd01d863ca1aa21b0&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:13:53.000Z"
+    },
+    {
+      "id": "mWVrdG9qkCgB",
+      "representative": {
+        "id": "mWVrdG9qkCgB",
+        "url": "https://www.kn-online.de/schleswig-holstein/nach-pandemie-warum-sich-in-sh-wieder-mehr-menschen-gegen-grippe-impfen-lassen-HS2ZSHE7FFBKDOJM6S7OYQX7VA.html",
+        "canonicalUrl": "https://www.kn-online.de/schleswig-holstein/nach-pandemie-warum-sich-in-sh-wieder-mehr-menschen-gegen-grippe-impfen-lassen-HS2ZSHE7FFBKDOJM6S7OYQX7VA.html",
+        "title": "Nach Pandemie: Warum sich in SH wieder mehr Menschen gegen Grippe impfen lassen",
+        "description": "Die Grippeimpfquote in Schleswig-Holstein ist gestiegen: 44 Prozent der TK-Versicherten ab 60 Jahren ließen sich im vergangenen Winter impfen. Das ist der erste Anstieg seit den Jahren der Corona-Pandemie. Warum Experten trotzdem von großen Impflücken sprechen.",
+        "source": {
+          "id": "kn",
+          "name": "Kieler Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:04:09.000Z",
+        "imageUrl": "https://www.kn-online.de/resizer/v2/3FYPG3WYYVAZRCQQXT2JOSVJDY.jpeg?auth=60ac0c6aeeac94e774eefc1a8d6bb54e039375bd7015cb6390ff8015c30c4ac7&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:04:09.000Z"
+    },
+    {
+      "id": "feFbiBPGdm_R",
+      "representative": {
+        "id": "feFbiBPGdm_R",
+        "url": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel-keine-exzellenzuniversitaet-was-kann-politik-fuer-forschung-tun,exzellenz-106.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/schleswig-holstein/kiel-keine-exzellenzuniversitaet-was-kann-politik-fuer-forschung-tun,exzellenz-106.html",
+        "title": "Kiel keine Exzellenzuniversität: Was kann Politik für Forschung tun?",
+        "description": "Darüber debattierten die Abgeordneten - nach der verpassten Bewerbung der Kieler Uni auf den Titel einer Exzellenzuniversität.",
+        "source": {
+          "id": "ndr_sh",
+          "name": "NDR Schleswig-Holstein"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:16:26.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:16:26.000Z"
+    },
+    {
+      "id": "cWjwC1CxOug9",
+      "representative": {
+        "id": "cWjwC1CxOug9",
+        "url": "https://www.ndr.de/nachrichten/schleswig-holstein/flensburg_nordfriesland_schleswig-flensburg/schleifaehre-missunde-iii-faellt-erneut-aus,regionflensburgnews-3536.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/schleswig-holstein/flensburg_nordfriesland_schleswig-flensburg/schleifaehre-missunde-iii-faellt-erneut-aus,regionflensburgnews-3536.html",
+        "title": "Schleifähre \"Missunde III\" fällt erneut aus",
+        "description": "Laut Landesbetrieb für Küstenschutz, Nationalpark und Meeresschutz ist ein Motor an den Landkeilen ausgefallen.",
+        "source": {
+          "id": "ndr_sh",
+          "name": "NDR Schleswig-Holstein"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:34:38.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:34:38.000Z"
+    },
+    {
+      "id": "DMaqBo7YEBQ5",
+      "representative": {
+        "id": "DMaqBo7YEBQ5",
+        "url": "https://www.ndr.de/nachrichten/schleswig-holstein/drei-jahre-nach-hamas-angriff-so-gedenkt-sh-opfern,gedenken-israel-106.html",
+        "canonicalUrl": "https://www.ndr.de/nachrichten/schleswig-holstein/drei-jahre-nach-hamas-angriff-so-gedenkt-sh-opfern,gedenken-israel-106.html",
+        "title": "Drei Jahre nach Hamas-Angriff: Gedenken und Mahnwachen in SH",
+        "description": "Drei Jahre nach dem Überfall der Hamas-Terroristen auf Israel mit mehr als 1.200 Toten, wird in Schleswig-Holstein der Opfer gedacht.",
+        "source": {
+          "id": "ndr_sh",
+          "name": "NDR Schleswig-Holstein"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:00:16.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:00:16.000Z"
+    },
+    {
+      "id": "a1mRS0w3vT_e",
+      "representative": {
+        "id": "a1mRS0w3vT_e",
+        "url": "https://www.shz.de/lokales/pinneberg-schenefeld/artikel/unfall-in-schenefeld-paketwagen-kracht-in-laden-schaufenster-51556825",
+        "canonicalUrl": "https://www.shz.de/lokales/pinneberg-schenefeld/artikel/unfall-in-schenefeld-paketwagen-kracht-in-laden-schaufenster-51556825",
+        "title": "Unfall in Schenefeld: Paketwagen kracht in Schaufenster von Spielwarengeschäft",
+        "description": "Ein Paketwagenfahrer ist in Schenefeld in ein Schaufenster gekracht. Der Sachschaden am Geschäft ist hoch. Das ist bislang zu dem Vorfall bekannt.",
+        "source": {
+          "id": "shz",
+          "name": "shz"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:45:58.000Z",
+        "imageUrl": "https://images.noz-mhn.de/img/51556968/crop/cbase_16_9-w1820-h1022/841844185/1739381139/unfall-schenefeld.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:45:58.000Z"
+    },
+    {
+      "id": "9ydChlb4S_s_",
+      "representative": {
+        "id": "9ydChlb4S_s_",
+        "url": "https://www.shz.de/lokales/rendsburg/artikel/einbruchsserie-in-westerroenfeld-polizei-sucht-junge-taeter-51556434",
+        "canonicalUrl": "https://www.shz.de/lokales/rendsburg/artikel/einbruchsserie-in-westerroenfeld-polizei-sucht-junge-taeter-51556434",
+        "title": "Einbruchsserie geht weiter: Polizei sucht nach zwei jungen Männern – einer mit Rad",
+        "description": "Die Serie von Einbrüchen in der Region Rendsburg setzt sich fort. Bewohner waren während eines Einbruchs am Dienstag, 6. Oktober, in Westerrönfeld zu Hause, als Täter Scheiben einschlugen.",
+        "source": {
+          "id": "shz",
+          "name": "shz"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:44:13.000Z",
+        "imageUrl": "https://images.noz-mhn.de/img/51556632/crop/cbase_16_9-w1820-h1022/1076343922/409137065/file81xx7c1sdoi118ndz1hhv-1.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:44:13.000Z"
+    },
+    {
+      "id": "aV-rQmMcDmh9",
+      "representative": {
+        "id": "aV-rQmMcDmh9",
+        "url": "https://www.shz.de/sport/schleswig-holstein/artikel/nach-festnahme-in-der-pause-polizei-und-dsc-hanseat-aeussern-sich-51556192",
+        "canonicalUrl": "https://www.shz.de/sport/schleswig-holstein/artikel/nach-festnahme-in-der-pause-polizei-und-dsc-hanseat-aeussern-sich-51556192",
+        "title": "Spieler in der Halbzeitpause verhaftet: DSC Hanseat, Polizei und Gegner TBS Pinneberg äußern sich",
+        "description": "Am Sonntag wurde ein Akteur des DSC Hanseat im Bezirksliga-Spiel gegen Hamburger SV III verhaftet. In einem anderen EU-Land wurde er wegen Vergewaltigung verurteilt, spielte aber am Dienstag gegen TBS Pinneberg wieder mit.",
+        "source": {
+          "id": "shz",
+          "name": "shz"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:09:29.000Z",
+        "imageUrl": "https://images.noz-mhn.de/img/51556431/crop/cbase_16_9-w1820-h1022/611250669/755718634/dsc-hanseat-teamkreis.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:09:29.000Z"
+    },
+    {
+      "id": "XHo6mmIf5Gve",
+      "representative": {
+        "id": "XHo6mmIf5Gve",
+        "url": "https://www.kn-online.de/kultur/regional/klassische-musik-konzert-tipps-in-kiel-und-region-im-oktober-2026-C2DQW65U2BFC3INK4D55JOMAFY.html",
+        "canonicalUrl": "https://www.kn-online.de/kultur/regional/klassische-musik-konzert-tipps-in-kiel-und-region-im-oktober-2026-C2DQW65U2BFC3INK4D55JOMAFY.html",
+        "title": "Klassische Musik: Konzert-Tipps in Kiel und Region im Oktober 2026",
+        "description": "Sie lieben es, ins Konzert mit klassischer Musik zu gehen? Dann lassen Sie sich von unseren ausgewählten, wöchentlich aktualisierten und ergänzten Tipps inspirieren. Welche Konzerte in Kiel und der Region, für die es noch Karten gibt, sind bis in den Oktober 2026 die Höhepunkte?",
+        "source": {
+          "id": "kn",
+          "name": "Kieler Nachrichten"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:21:47.000Z",
+        "imageUrl": "https://www.kn-online.de/resizer/v2/TXYF2ODLOVE3TH3MEUFJGVLN5M.jpg?auth=62f2814437465b29778fdef1b4180ce05d807c0c853bf898b6703bf9833dd54f&quality=70&width=596",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:21:47.000Z"
+    },
+    {
+      "id": "D6-07iAr7qyx",
+      "representative": {
+        "id": "D6-07iAr7qyx",
+        "url": "https://www.shz.de/lokales/flensburg/artikel/toedlicher-motorrad-unfall-in-flensburg-gericht-stellt-ein-51552128",
+        "canonicalUrl": "https://www.shz.de/lokales/flensburg/artikel/toedlicher-motorrad-unfall-in-flensburg-gericht-stellt-ein-51552128",
+        "title": "„Ich zucke bei jedem Motorradfahrer zusammen“: Emotionaler Prozess um Tod eines 18-Jährigen",
+        "description": "Ein 18-jähriger Motorradfahrer ist im Oktober 2024 auf der Marienallee in Flensburg nach einem Unfall gestorben. Angeklagt wegen fahrlässiger Tötung war eine heute 47-jährige Autofahrerin. Gegen Auflagen wurde das Verfahren am Dienstag vorläufig eingestellt.",
+        "source": {
+          "id": "shz",
+          "name": "shz"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:15:01.000Z",
+        "imageUrl": "https://images.noz-mhn.de/img/47864857/crop/cbase_16_9-w1820-h1022/1033670736/763369653/marienallee-unfall-motorradfahrer.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-SH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:15:01.000Z"
+    }
+  ]
+}

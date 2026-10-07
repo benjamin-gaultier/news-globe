@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "KR",
   "countryName": "South Korea",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
     {
       "id": "pKZdeg4p4Opl",
@@ -87,48 +87,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T16:46:56.000Z"
-    },
-    {
-      "id": "FRDoqbSEHWnW",
-      "representative": {
-        "id": "FRDoqbSEHWnW",
-        "url": "https://www.khan.co.kr/article/202610062159025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-        "canonicalUrl": "https://www.khan.co.kr/article/202610062159025/",
-        "title": "조희대 “대통령·국회의 대법원장 제청 관여는 위헌”",
-        "description": "법사위 국감 출석해 증인 선서 거부대법원장 제청권 법적 정당성 강조청와대 “신속히 재제청” 기존 입장조희대 대법원장(사진)은 6일 국회 국정감사에서 헌법상 대통령과 국회가 자신의 대법관 제청에 관여할 수 없다고 직접 밝혔다. 청와대는 “최대한 신속하게 재제청 절차를 진행해주기를 바란다”고 요청하며 평행선을 달렸다.조 대법원장은 이날 국회 법제사법위원회의 대···",
-        "source": {
-          "id": "khan",
-          "name": "Kyunghyang Shinmun"
-        },
-        "sourceCountry": "KR",
-        "language": "ko",
-        "publishedAt": "2026-10-06T12:59:02.000Z",
-        "imageUrl": null,
-        "countryCode": "KR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "KvgKky2BuicJ",
-          "url": "https://www.chosun.com/politics/politics_general/2026/10/07/OX54HZIT3RAUHJWLFUCVF7WKGI/",
-          "canonicalUrl": "https://www.chosun.com/politics/politics_general/2026/10/07/OX54HZIT3RAUHJWLFUCVF7WKGI/",
-          "title": "“대통령, 제청 관여 못해” 조희대 작심 반격",
-          "description": null,
-          "source": {
-            "id": "chosun",
-            "name": "Chosun Ilbo"
-          },
-          "sourceCountry": "KR",
-          "language": "ko",
-          "publishedAt": "2026-10-06T15:55:00.000Z",
-          "imageUrl": null,
-          "countryCode": "KR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:55:00.000Z"
     },
     {
       "id": "WPh7eG5gXQuU",
@@ -507,6 +465,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T17:37:00.000Z"
+    },
+    {
+      "id": "v2VcelOeUq_r",
+      "representative": {
+        "id": "v2VcelOeUq_r",
+        "url": "https://www.donga.com/news/Society/article/all/20261007/134798382/1",
+        "canonicalUrl": "https://www.donga.com/news/Society/article/all/20261007/134798382/1",
+        "title": "“고3 아들에 주식 500만원 줬다”…매일 주식창 보는 수험생, 괜찮을까?",
+        "description": "고등학교 3학년 자녀에게 주식 계좌를 터주고 직접 투자를 맡긴 부모의 사연을 두고 온라인상에서 논쟁이 벌어지고 있다. 조기 금융 교육의 긍정적인 사례라는 의견과 입시를 앞둔 시기에 부적절하다는 우려가 팽팽하게 맞서는 모양새다.지난 5일 사회관계망서비스(SNS)에는 “고3 아들에게 주식을 시켜 매일 주식 시장을 들여다보게 하는 것에 대해 어떻게 생각하냐”는 내용의 글이 올라왔다. 작성자 A씨는 “고3 아들에게 계좌를 만들어주고 500만 원을 줬다는 이야기를 들었다”며, “매일 아침 주식 시장을 확인하면서 하루를 시작한다는데 좀…",
+        "source": {
+          "id": "donga",
+          "name": "Dong-A Ilbo"
+        },
+        "sourceCountry": "KR",
+        "language": "ko",
+        "publishedAt": "2026-10-06T17:36:40.000Z",
+        "imageUrl": "https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/07/134798383.1.jpg",
+        "countryCode": "KR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:36:40.000Z"
     }
   ]
 }

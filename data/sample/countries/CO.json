@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "CO",
   "countryName": "Colombia",
-  "updatedAt": "2026-10-07T12:15:45.751Z",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
   "clusters": [
-    {
-      "id": "DgcW4RyG1av4",
-      "representative": {
-        "id": "DgcW4RyG1av4",
-        "url": "https://www.semana.com/nacion/cali/articulo/cuatro-delincuentes-se-fugaron-de-la-estacion-de-policia-de-la-flora-en-cali-ya-los-buscan-para-recapturarlos/202603/",
-        "canonicalUrl": "https://www.semana.com/nacion/cali/articulo/cuatro-delincuentes-se-fugaron-de-la-estacion-de-policia-de-la-flora-en-cali-ya-los-buscan-para-recapturarlos/202603/",
-        "title": "Cuatro delincuentes se fugaron de la estación de Policía de La Flora, en Cali: ya los buscan para recapturarlos",
-        "description": null,
-        "source": {
-          "id": "semana",
-          "name": "Semana"
-        },
-        "sourceCountry": "CO",
-        "language": "es",
-        "publishedAt": "2026-10-06T12:18:03.000Z",
-        "imageUrl": "https://semana-semana-prod.web.arc-cdn.net/resizer/v2/RBVXMG5QFVFY5IX6V4AVCAY7T4.jpg?auth=01807fd1e7872e1a246d590eab0c0ed13f002725c630e424484b470127a63fbe&smart=true&width=1280&height=720",
-        "countryCode": "CO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "VL-cwxySWEuq",
-          "url": "https://caracol.com.co/2026/10/06/cuatro-presos-intimidaron-a-un-policia-y-se-fugaron-de-una-estacion-del-norte-de-cali/",
-          "canonicalUrl": "https://caracol.com.co/2026/10/06/cuatro-presos-intimidaron-a-un-policia-y-se-fugaron-de-una-estacion-del-norte-de-cali/",
-          "title": "Cuatro presos intimidaron a un policía y se fugaron de una estación del norte de Cali",
-          "description": null,
-          "source": {
-            "id": "caracol",
-            "name": "Caracol Radio"
-          },
-          "sourceCountry": "CO",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:28:23.000Z",
-          "imageUrl": "https://caracol.com.co/resizer/v2/RHRATTE7FBI7TA6HW3FC7MOIGQ.jpg?auth=e9792696d8043abb2da96a9d830eedbfbb21274bf06ea5ee538b59736a41545d&smart=true&width=1080&height=624",
-          "countryCode": "CO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:28:23.000Z"
-    },
     {
       "id": "kgb5sbR-XbF9",
       "representative": {
@@ -162,7 +120,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:04:14.000Z"
     },
@@ -186,7 +144,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:03:21.000Z"
     },
@@ -210,7 +168,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:43:51.000Z"
     },
@@ -234,7 +192,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:22:07.000Z"
     },
@@ -258,7 +216,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:21:00.000Z"
     },
@@ -381,6 +339,30 @@
       "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T11:47:15.000Z"
+    },
+    {
+      "id": "C9zo8nO9ZxV0",
+      "representative": {
+        "id": "C9zo8nO9ZxV0",
+        "url": "https://www.eltiempo.com/politica/partidos-politicos/por-jalar-de-la-chaqueta-a-daniel-briceno-del-centro-democratico-sera-investigada-veronica-estrada-del-pacto-historico-en-la-comision-de-etica-3591521",
+        "canonicalUrl": "https://www.eltiempo.com/politica/partidos-politicos/por-jalar-de-la-chaqueta-a-daniel-briceno-del-centro-democratico-sera-investigada-veronica-estrada-del-pacto-historico-en-la-comision-de-etica-3591521",
+        "title": "Por jalar de la chaqueta a Daniel Briceño, del Centro Democrático, será investigada Verónica Estrada, del Pacto Histórico, en la Comisión de Ética",
+        "description": "El hecho ocurrió en una sesión de la Cámara de Representantes durante un tenso debate.",
+        "source": {
+          "id": "eltiempo",
+          "name": "El Tiempo"
+        },
+        "sourceCountry": "CO",
+        "language": "es",
+        "publishedAt": "2026-10-06T11:30:00.000Z",
+        "imageUrl": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/10/06/6ac4dab3101cd.r_d.536-423-0.jpeg",
+        "countryCode": "CO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 0,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T11:30:00.000Z"
     }
   ]
 }

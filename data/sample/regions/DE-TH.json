@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "DE",
+  "countryName": "Germany",
+  "regionCode": "DE-TH",
+  "regionName": "Thuringia",
+  "updatedAt": "2026-10-07T13:10:34.169Z",
+  "clusters": [
+    {
+      "id": "9gYYacQ3DV7O",
+      "representative": {
+        "id": "9gYYacQ3DV7O",
+        "url": "https://www.thueringer-allgemeine.de/lokales/erfurt/article413352408/toedlicher-unfall-in-erfurt-69-jaehriger-faehrt-in-gegenverkehr-und-stirbt.html",
+        "canonicalUrl": "https://www.thueringer-allgemeine.de/lokales/erfurt/article413352408/toedlicher-unfall-in-erfurt-69-jaehriger-faehrt-in-gegenverkehr-und-stirbt.html",
+        "title": "Tödlicher Unfall in Erfurt: 69-Jähriger fährt in Gegenverkehr und stirbt",
+        "description": "Bei einem Unfall nahe Erfurt ist am Dienstagvormittag ein 69 Jahre alter Mann ums Leben gekommen. Er geriet aus unbekannter Ursache in den Gegenverkehr.",
+        "source": {
+          "id": "thueringer_allgemeine",
+          "name": "Thüringer Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T07:55:26.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413352377/413352377_1791359726_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [
+        {
+          "id": "32t3hPMqs8n6",
+          "url": "https://www.mdr.de/nachrichten/thueringen/mitte-thueringen/erfurt/zusammenstoss-mann-tot,unfall-2160.html",
+          "canonicalUrl": "https://www.mdr.de/nachrichten/thueringen/mitte-thueringen/erfurt/zusammenstoss-mann-tot,unfall-2160.html",
+          "title": "Autofahrer kracht in Erfurt in Gegenverkehr und stirbt",
+          "description": "Aus bisher ungeklärter Ursache ist ein 69-Jähriger in Erfurt in den Gegenverkehr geraten und tödlich verunglückt. Zwei weitere Fahrer wurden verletzt. Die Straße war stundenlang gesperrt.",
+          "source": {
+            "id": "mdr_thueringen",
+            "name": "MDR Thüringen"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T09:26:21.000Z",
+          "imageUrl": null,
+          "countryCode": "DE",
+          "regionCode": "DE-TH"
+        },
+        {
+          "id": "qVBXx4OfyJxH",
+          "url": "https://www.insuedthueringen.de/inhalt.verkehrsunfall-autofahrer-kracht-in-gegenverkehr-und-stirbt.5347877b-3dac-4b76-b156-11ad4b80922a.html",
+          "canonicalUrl": "https://www.insuedthueringen.de/inhalt.verkehrsunfall-autofahrer-kracht-in-gegenverkehr-und-stirbt.5347877b-3dac-4b76-b156-11ad4b80922a.html",
+          "title": "Schwerer Unfall: Autofahrer kracht in Gegenverkehr und stirbt",
+          "description": "Nach einem Frontalzusammenstoß stirbt ein Autofahrer, ein weiterer wird schwer verletzt. Was bekannt ist.",
+          "source": {
+            "id": "insuedthueringen",
+            "name": "inSüdthüringen"
+          },
+          "sourceCountry": "DE",
+          "language": "de",
+          "publishedAt": "2026-10-07T07:31:04.000Z",
+          "imageUrl": "https://www.insuedthueringen.de/media.imagefile.41766632-ca6f-4d7b-97d9-dfc21b6ba310.thumbnail.jpg",
+          "countryCode": "DE",
+          "regionCode": "DE-TH"
+        }
+      ],
+      "outletCount24h": 3,
+      "outletCount": 3,
+      "latestPublishedAt": "2026-10-07T09:26:21.000Z"
+    },
+    {
+      "id": "EL3hMs7w3VUw",
+      "representative": {
+        "id": "EL3hMs7w3VUw",
+        "url": "https://www.insuedthueringen.de/inhalt.am-bahnhof-muenchen-schlafender-thueringer-wird-auf-oktoberfest-tripp-beklaut.49fa7927-0800-4851-8029-292f645afb20.html",
+        "canonicalUrl": "https://www.insuedthueringen.de/inhalt.am-bahnhof-muenchen-schlafender-thueringer-wird-auf-oktoberfest-tripp-beklaut.49fa7927-0800-4851-8029-292f645afb20.html",
+        "title": "Am Bahnhof München: Schlafender Thüringer wird auf Oktoberfest-Trip beklaut",
+        "description": "Kurz weggenickt und plötzlich um ein Smartphone ärmer ist ein Thüringer, der zuvor auf dem Oktoberfest Party gemacht hat. Nun soll ein Video helfen.",
+        "source": {
+          "id": "insuedthueringen",
+          "name": "inSüdthüringen"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:31:00.000Z",
+        "imageUrl": "https://www.insuedthueringen.de/media.imagefile.d3aaedd1-355a-46a4-bccf-de4db3af2d72.thumbnail.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:31:00.000Z"
+    },
+    {
+      "id": "T4i_oRc89BCb",
+      "representative": {
+        "id": "T4i_oRc89BCb",
+        "url": "https://www.thueringer-allgemeine.de/lokales/blaulicht/article413355628/frau-zuendelt-viermal-in-appartmenthaus-in-gera-was-das-gericht-entschieden-hat.html",
+        "canonicalUrl": "https://www.thueringer-allgemeine.de/lokales/blaulicht/article413355628/frau-zuendelt-viermal-in-appartmenthaus-in-gera-was-das-gericht-entschieden-hat.html",
+        "title": "Frau zündelt viermal in Appartmenthaus in Gera: Was das Gericht entschieden hat",
+        "description": "Eine 37-Jährige wollte jemand befreien, den sie liebt. Die Entscheidung der ersten Strafkammer am Landgericht Gera fällt klar aus.",
+        "source": {
+          "id": "thueringer_allgemeine",
+          "name": "Thüringer Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:30:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413103799/413103799_1788946835_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:30:00.000Z"
+    },
+    {
+      "id": "_8jzixJ67ifP",
+      "representative": {
+        "id": "_8jzixJ67ifP",
+        "url": "https://www.thueringer-allgemeine.de/lokales/weimar-und-weimarer-land/article413355232/brand-in-ehemaliger-ziegelei-in-weimar-polizei-schliesst-brandstiftung-nicht-aus.html",
+        "canonicalUrl": "https://www.thueringer-allgemeine.de/lokales/weimar-und-weimarer-land/article413355232/brand-in-ehemaliger-ziegelei-in-weimar-polizei-schliesst-brandstiftung-nicht-aus.html",
+        "title": "Brand in ehemaliger Ziegelei in Weimar: Polizei schließt Brandstiftung nicht aus",
+        "description": "In Weimar brennt es seit Tagen immer wieder – Mülltonnen, ein Auto, jetzt ein leerstehendes Gebäude im Norden der Stadt. Ob es einen Zusammenhang gibt, ließ die Polizei offen.",
+        "source": {
+          "id": "thueringer_allgemeine",
+          "name": "Thüringer Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:23:26.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413355116/413355116_1791375852_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:23:26.000Z"
+    },
+    {
+      "id": "R3YXlfI851KU",
+      "representative": {
+        "id": "R3YXlfI851KU",
+        "url": "https://www.thueringer-allgemeine.de/lokales/unstrut-hainich-kreis/article413355916/unfall-vollsperrung-blaulichteinsatz-kleinbus-kracht-in-gebaeude-im-unstrut-hainich-kreis.html",
+        "canonicalUrl": "https://www.thueringer-allgemeine.de/lokales/unstrut-hainich-kreis/article413355916/unfall-vollsperrung-blaulichteinsatz-kleinbus-kracht-in-gebaeude-im-unstrut-hainich-kreis.html",
+        "title": "Unfall, Vollsperrung, Blaulichteinsatz: Kleinbus kracht in Gebäude im Unstrut-Hainich-Kreis",
+        "description": "Ein Mann wird bei einem schweren Verkehrsunfall im Unstrut-Hainich-Kreis verletzt. Ein Kleinbus kommt in Unstruttal von der Straße ab. Feuerwehr, Rettungsdienst und Polizei rücken aus.",
+        "source": {
+          "id": "thueringer_allgemeine",
+          "name": "Thüringer Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:14:39.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413356460/413356460_1791375279_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:14:39.000Z"
+    },
+    {
+      "id": "h4uVliPno1rE",
+      "representative": {
+        "id": "h4uVliPno1rE",
+        "url": "https://www.insuedthueringen.de/inhalt.gastronomie-afrikanische-kueche-in-schmalkalden.21ddc093-9762-4255-a726-ce1881d7cafd.html",
+        "canonicalUrl": "https://www.insuedthueringen.de/inhalt.gastronomie-afrikanische-kueche-in-schmalkalden.21ddc093-9762-4255-a726-ce1881d7cafd.html",
+        "title": "Gastronomie Schmalkalden: Krankenschwester serviert jetzt Afrikanische Küche",
+        "description": "In Schmalkalden hat jetzt ein neues Restaurant eröffnet. In einem ehemaligen syrischen Imbiss befindet sich nun das „Akwaaba“. Die Szezialität: afrikanische Gerichte.",
+        "source": {
+          "id": "insuedthueringen",
+          "name": "inSüdthüringen"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:00:00.000Z",
+        "imageUrl": "https://www.insuedthueringen.de/media.imagefile.dcc051e4-87df-4dd2-95f9-8897b4ff6455.thumbnail.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "2nrGd4961VIN",
+      "representative": {
+        "id": "2nrGd4961VIN",
+        "url": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/saale-holzland/porzellan-kein-investor-gefunden,kahla-insolvenz-100.html",
+        "canonicalUrl": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/saale-holzland/porzellan-kein-investor-gefunden,kahla-insolvenz-100.html",
+        "title": "Insolvenz bei Kahla-Porzellan: Produktion endet zum Jahresende",
+        "description": "Kahla-Porzellan stellt zum Jahresende den Betrieb ein. Es konnte kein Investor für das Traditionsunternehmen gefunden werden. 96 Menschen verlieren ihren Job.",
+        "source": {
+          "id": "mdr_thueringen",
+          "name": "MDR Thüringen"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:54:50.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:54:50.000Z"
+    },
+    {
+      "id": "VguRjBx9tCKa",
+      "representative": {
+        "id": "VguRjBx9tCKa",
+        "url": "https://www.mdr.de/nachrichten/thueringen/neuwahl-abstimmung-afd,landtag-588.html",
+        "canonicalUrl": "https://www.mdr.de/nachrichten/thueringen/neuwahl-abstimmung-afd,landtag-588.html",
+        "title": "Thüringen: AfD wollte Selbstauflösung des Landtags - so lief die Abstimmung",
+        "description": "Die AfD wollte den Thüringer Landtag auflösen und damit Neuwahlen erzwingen. An diesem Mittwoch stimmten die Abgeordneten darüber ab - mit dem erwarteten Ergebnis.",
+        "source": {
+          "id": "mdr_thueringen",
+          "name": "MDR Thüringen"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:04:41.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:04:41.000Z"
+    },
+    {
+      "id": "WnLak0OO2iIx",
+      "representative": {
+        "id": "WnLak0OO2iIx",
+        "url": "https://www.insuedthueringen.de/inhalt.verkehr-ladenetz-fuer-e-autos-an-autobahnparkplaetzen-wird-ausgebaut.420586c8-8598-4520-a951-71bb3732fffa.html",
+        "canonicalUrl": "https://www.insuedthueringen.de/inhalt.verkehr-ladenetz-fuer-e-autos-an-autobahnparkplaetzen-wird-ausgebaut.420586c8-8598-4520-a951-71bb3732fffa.html",
+        "title": "An der A73: Neuer Schnellladepark jetzt in Betrieb",
+        "description": "Bisher gab es an Thüringens Autobahnen nur an sogenannten bewirtschafteten Rastanlagen Ladesäulen für E-Autos. Nun gibt es die ersten Ladepunkte an einem Parkplatz an der A73.",
+        "source": {
+          "id": "insuedthueringen",
+          "name": "inSüdthüringen"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T11:01:04.000Z",
+        "imageUrl": "https://www.insuedthueringen.de/media.imagefile.5173a0c0-d043-4ace-a25d-c53032e7ea11.thumbnail.jpg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T11:01:04.000Z"
+    },
+    {
+      "id": "k6NNUfV8rSBi",
+      "representative": {
+        "id": "k6NNUfV8rSBi",
+        "url": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/gera/ddr-ausstellung-wochen-kinder-,wochenkrippen-kultur-news-100.html",
+        "canonicalUrl": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/gera/ddr-ausstellung-wochen-kinder-,wochenkrippen-kultur-news-100.html",
+        "title": "Gera: Ausstellung über Wochenkrippen in der DDR",
+        "description": "Montags abgeben und Freitag erst wieder abholen. Was heute unvorstellbar klingt, war in den Wochenkrippen der DDR normal. Eine neue Ausstellung in Gera beleuchtet die Erlebnisse – mit Zeitzeugen und berührender Kunst.",
+        "source": {
+          "id": "mdr_thueringen",
+          "name": "MDR Thüringen"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T10:34:57.000Z",
+        "imageUrl": null,
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T10:34:57.000Z"
+    },
+    {
+      "id": "F96N3g7yBUqi",
+      "representative": {
+        "id": "F96N3g7yBUqi",
+        "url": "https://www.thueringer-allgemeine.de/lokales/blaulicht/article413356252/schon-wieder-auto-faehrt-sich-an-gleicher-stelle-fest-strassenbahnverkehr-in-gera-gestoppt.html",
+        "canonicalUrl": "https://www.thueringer-allgemeine.de/lokales/blaulicht/article413356252/schon-wieder-auto-faehrt-sich-an-gleicher-stelle-fest-strassenbahnverkehr-in-gera-gestoppt.html",
+        "title": "Schon wieder! Auto fährt sich an gleicher Stelle fest - Straßenbahnverkehr in Gera erneut gestoppt (mit weiteren Fotos)",
+        "description": "Es sorgte wieder für einiges Interesse bei Passanten: Der Unfall an fast genau der Stelle wie einem Tag zuvor. Die Baufirma will nun reagieren.",
+        "source": {
+          "id": "thueringer_allgemeine",
+          "name": "Thüringer Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:01:05.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413356433/413356433_1791374465_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:01:05.000Z"
+    },
+    {
+      "id": "dlrpjqkkaODB",
+      "representative": {
+        "id": "dlrpjqkkaODB",
+        "url": "https://www.thueringer-allgemeine.de/lokales/eichsfeld/article413352784/eichsfelder-senioren-entdecken-verblueffendes-kapitel-der-dorfgeschichte.html",
+        "canonicalUrl": "https://www.thueringer-allgemeine.de/lokales/eichsfeld/article413352784/eichsfelder-senioren-entdecken-verblueffendes-kapitel-der-dorfgeschichte.html",
+        "title": "Eichsfelder Senioren entdecken verblüffendes Kapitel der Dorfgeschichte",
+        "description": "Zwei Jahre Seniorennachmittag in Rüdigershagen: Beim Jubiläum gab es Oktoberfest-Stimmung – und eine erstaunliche Entdeckung zur Dorfgeschichte.",
+        "source": {
+          "id": "thueringer_allgemeine",
+          "name": "Thüringer Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:00:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413353009/413353009_1791361682_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "GWahaZDxq-BS",
+      "representative": {
+        "id": "GWahaZDxq-BS",
+        "url": "https://www.thueringer-allgemeine.de/lokales/nordhausen/article413353743/nordhausen-spielplaetze-werden-genau-unter-die-lupe-genommen.html",
+        "canonicalUrl": "https://www.thueringer-allgemeine.de/lokales/nordhausen/article413353743/nordhausen-spielplaetze-werden-genau-unter-die-lupe-genommen.html",
+        "title": "Nordhausen: Spielplätze werden genau unter die Lupe genommen",
+        "description": "Ein Nordhäuser Wohnungsunternehmen lässt regelmäßig seine Spielanlagen überprüfen. Warum die Kontrollen notwendig sind und was dabei herauskam.",
+        "source": {
+          "id": "thueringer_allgemeine",
+          "name": "Thüringer Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:00:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413353973/413353973_1791368528_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "Qp36HuQmMdRp",
+      "representative": {
+        "id": "Qp36HuQmMdRp",
+        "url": "https://www.thueringer-allgemeine.de/lokales/gotha/article413354224/gothaer-zeigen-grosses-interesse-am-glasfaserausbau.html",
+        "canonicalUrl": "https://www.thueringer-allgemeine.de/lokales/gotha/article413354224/gothaer-zeigen-grosses-interesse-am-glasfaserausbau.html",
+        "title": "Gothaer zeigen großes Interesse am Glasfaserausbau",
+        "description": "Knapp 300 Interessierte informieren sich in Gotha über den Glasfaserausbau. Der Ausbau schreitet voran, doch einige müssen noch lange warten.",
+        "source": {
+          "id": "thueringer_allgemeine",
+          "name": "Thüringer Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:00:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413354190/413354190_fc_1791366366_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "uQ_iH5uewNi_",
+      "representative": {
+        "id": "uQ_iH5uewNi_",
+        "url": "https://www.thueringer-allgemeine.de/lokales/kyffhaeuserkreis/article413355233/vereinsvorsitzender-aus-artern-leichter-100-euro-zu-bekommen-als-ein-neues-vereinsmitglied.html",
+        "canonicalUrl": "https://www.thueringer-allgemeine.de/lokales/kyffhaeuserkreis/article413355233/vereinsvorsitzender-aus-artern-leichter-100-euro-zu-bekommen-als-ein-neues-vereinsmitglied.html",
+        "title": "Vereinsvorsitzender aus Artern: „Leichter, 100 Euro zu bekommen als ein neues Vereinsmitglied“",
+        "description": "Der limitierte Nostalgie-Kalender mit historischen Ansichten aus Artern ist restlos ausverkauft. Unsere Redaktion sprach mit Andreas Schmölling zu Nachdruck, neuen Ideen und Zukunftssorgen.",
+        "source": {
+          "id": "thueringer_allgemeine",
+          "name": "Thüringer Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-07T12:00:00.000Z",
+        "imageUrl": "https://img.sparknews.funkemedien.de/413355434/413355434_1791373846_v16_9_600.jpeg",
+        "countryCode": "DE",
+        "regionCode": "DE-TH"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T12:00:00.000Z"
+    }
+  ]
+}
