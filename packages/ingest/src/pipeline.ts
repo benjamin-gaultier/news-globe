@@ -15,6 +15,7 @@ import {
 import { adapterFor } from './adapters';
 import { clusterArticles } from './cluster';
 import { HttpCache } from './http';
+import { mapLimit } from './limit';
 import { dedupeByCanonicalUrl, isMisdecoded, isUnrenderedTemplate, toArticle } from './normalize/article';
 import { buildCluster, rankClusters } from './rank';
 import { INGEST_SETTINGS, SOURCES, type SourceConfig } from './sources.config';
@@ -77,14 +78,12 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
     offline: opts.offline,
   });
 
-  // Fetch: outlets in parallel, feeds within an outlet sequentially.
+  // Fetch: a few outlets at a time, feeds within an outlet sequentially.
   const lines: string[] = [];
-  const perSource = await Promise.all(
-    sources.map(async (source) => {
-      const results = await adapterFor(source).fetch(source, { http, log: (m) => lines.push(m) });
-      return { source, results };
-    }),
-  );
+  const perSource = await mapLimit(sources, settings.fetchConcurrency, async (source) => {
+    const results = await adapterFor(source).fetch(source, { http, log: (m) => lines.push(m) });
+    return { source, results };
+  });
   log(lines.sort().join('\n'));
   await http.save();
 

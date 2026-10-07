@@ -5669,6 +5669,12 @@ export const INGEST_SETTINGS = {
    */
   fetchIntervalSlackMs: 5_000,
   fetchTimeoutMs: 20_000,
+  /**
+   * Outlets fetched at once. With all ~500 in flight, the Pi spent the run
+   * parsing, and ~40 feeds that answer 200 in under a second (Dawn, Meduza,
+   * Vietnamnet…) timed out mid-download on every run.
+   */
+  fetchConcurrency: 16,
   /** Ignore articles older than this. */
   maxArticleAgeHours: 48,
   /** Window for counting distinct outlets when ranking. */
