@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "FR",
+  "countryName": "France",
+  "regionCode": "FR-IDF",
+  "regionName": "Île-de-France",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "clusters": [
+    {
+      "id": "3ZS0Ual4bJLl",
+      "representative": {
+        "id": "3ZS0Ual4bJLl",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/la-fete-des-vendanges-de-montmartre-donne-le-rythme-pour-sa-93e-edition-3428154.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/la-fete-des-vendanges-de-montmartre-donne-le-rythme-pour-sa-93e-edition-3428154.html",
+        "title": "La Fête des Vendanges de Montmartre donne le rythme pour sa 93e édition",
+        "description": "Du 7 au 11 octobre 2026, la Fête des Vendanges de Montmartre investit tout le 18e arrondissement pour cinq jours de festivités.",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:18:13.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/sWlQBvqyUGT5lIr3FdIRb_VmDoQ/930x620/filters:format(webp)/regions/2026/10/05/6ac37c9a9f209225789984.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [
+        {
+          "id": "XSQSjV0yMIWg",
+          "url": "https://www.20minutes.fr/tempo/sortir/4251705-20261006-fete-vendanges-montmartre-attend-rues-paris?at_medium=display&at_campaign=149",
+          "canonicalUrl": "https://www.20minutes.fr/tempo/sortir/4251705-20261006-fete-vendanges-montmartre-attend-rues-paris",
+          "title": "Fête des Vendanges de Montmartre : ce qui vous attend dans les rues de Paris",
+          "description": "À l’automne, Montmartre a ses habitudes. La Fête des Vendanges revient cette semaine avec cinq jours d’animations au cœur du quartier",
+          "source": {
+            "id": "20minutes_paris",
+            "name": "20 Minutes Paris"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T11:17:36.000Z",
+          "imageUrl": "https://img.20mn.fr/JIcyXj1iRxm1KCC79N3LByk/1200x768_roses-jardin-butte-montmartre-avril-2020",
+          "countryCode": "FR",
+          "regionCode": "FR-IDF"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:18:13.000Z"
+    },
+    {
+      "id": "wZm-oNhR5VYo",
+      "representative": {
+        "id": "wZm-oNhR5VYo",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/yvelines/yvelines-pourquoi-le-chateau-de-versailles-a-ferme-subitement-ses-portes-ce-mardi-3428835.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/yvelines/yvelines-pourquoi-le-chateau-de-versailles-a-ferme-subitement-ses-portes-ce-mardi-3428835.html",
+        "title": "Yvelines : pourquoi le château de Versailles a fermé subitement ses portes ce mardi",
+        "description": "Le château de Versailles et une partie du département des Yvelines, se sont retrouvés dans le noir, ce mardi. Au total 30 000 foyers ont été impactés. On connaît désormais l'origine de l'incident.",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:19:55.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/lEKn4FOf8-vP7hOeEpZt51LK4ac/930x620/filters:format(webp)/regions/2026/10/06/6ac4eb5806174992604503.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [
+        {
+          "id": "Wnqmsmb67c4a",
+          "url": "https://www.bfmtv.com/paris/yvelines/le-chateau-de-versailles-ferme-en-raison-d-une-panne-d-electricite-importante-dans-les-yvelines_AN-202610060517.html",
+          "canonicalUrl": "https://www.bfmtv.com/paris/yvelines/le-chateau-de-versailles-ferme-en-raison-d-une-panne-d-electricite-importante-dans-les-yvelines_AN-202610060517.html",
+          "title": "Le château de Versailles fermé en raison d'une panne d'électricité \"importante\" dans les Yvelines",
+          "description": "Après une panne d'électricité dans le département des Yvelines, le château de Versailles a été contraint de fermer ses portes jusqu'à nouvel ordre ce mardi.",
+          "source": {
+            "id": "bfm_paris",
+            "name": "BFM Paris"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T11:21:45.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/zSSKxSlteOFPDwnJlUZB09l9_PE=/0x186:2048x1338/800x0/images/Le-chateau-de-Versailles-2298617.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-IDF"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:19:55.000Z"
+    },
+    {
+      "id": "3XrtC06qe4C-",
+      "representative": {
+        "id": "3XrtC06qe4C-",
+        "url": "https://www.20minutes.fr/planete/canicule/4251442-20261007-teste-vivre-sous-50-logement-bouilloire-aime-cerveau-non-plus?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/planete/canicule/4251442-20261007-teste-vivre-sous-50-logement-bouilloire-aime-cerveau-non-plus",
+        "title": "On a testé vivre sous 50 °C dans un logement bouilloire… et on n’a pas aimé (notre cerveau non plus)",
+        "description": "Alors que l’examen du projet de loi de finances commence cette semaine à l’Assemblée nationale, la Fondation pour le logement veut remettre en avant le sujet de l’adaptation des bouilloires thermiques au réchauffement climatique",
+        "source": {
+          "id": "20minutes_paris",
+          "name": "20 Minutes Paris"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:32:36.000Z",
+        "imageUrl": "https://img.20mn.fr/_-0HZD35S0Ko-7S0NCm1oik/1200x768_photo-illustration-canicule-allilimourad-dsc-9391-credit-mourad-allili-sipa-2606211228",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:32:36.000Z"
+    },
+    {
+      "id": "zB6qu6IQvEs_",
+      "representative": {
+        "id": "zB6qu6IQvEs_",
+        "url": "https://www.20minutes.fr/societe/4252019-20261007-colere-lyceens-maire-paris-fustige-violences-policieres?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4252019-20261007-colere-lyceens-maire-paris-fustige-violences-policieres",
+        "title": "Colère des lycéens : Le maire de Paris fustige les « violences policières »",
+        "description": "Le maire socialiste de Paris Emmanuel Grégoire a provoqué la colère des maires de droite en proposant d’ouvrir les mairies d’arrondissements aux lycéens mobilisés pour se réunir sans subir de « violences policières »",
+        "source": {
+          "id": "20minutes_paris",
+          "name": "20 Minutes Paris"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:14:07.000Z",
+        "imageUrl": "https://img.20mn.fr/4592rga0R-WWvLbObVwE-Sk/1200x768_emmanuel-gregoire-maire-de-paris-derouda-10201-credit-franck-derouda-sipa-2608260904",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:14:07.000Z"
+    },
+    {
+      "id": "CM10QkmUtIHN",
+      "representative": {
+        "id": "CM10QkmUtIHN",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/blocus-lyceen-emmanuel-gregoire-lance-l-operation-mairie-ouverte-provoquant-la-colere-des-maires-d-arrondissement-de-droite-3429108.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/blocus-lyceen-emmanuel-gregoire-lance-l-operation-mairie-ouverte-provoquant-la-colere-des-maires-d-arrondissement-de-droite-3429108.html",
+        "title": "Blocus lycéen : Emmanuel Grégoire lance \"l'opération mairie ouverte\" provoquant la colère des maires d'arrondissement de droite",
+        "description": "Le maire PS de Paris propose d’ouvrir les mairies parisiennes aux lycéens mobilisés afin qu’ils puissent se réunir en toute sécurité. La droite parisienne refuse l’ouverture des mairies d’arrondissement qu'elle détient et dénonce une instrumentalisation politique du mouvement.",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:10:57.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/BOrIjOB-k5efNrwOLvcensS6cwo/930x620/filters:format(webp)/regions/2026/10/07/6ac5dc79efe14804414497.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:10:57.000Z"
+    },
+    {
+      "id": "wKgH1L2BgyfD",
+      "representative": {
+        "id": "wKgH1L2BgyfD",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/une-enseignante-lance-une-plateforme-en-ligne-independante-pour-recueillir-la-parole-des-lyceens-3428844.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/une-enseignante-lance-une-plateforme-en-ligne-independante-pour-recueillir-la-parole-des-lyceens-3428844.html",
+        "title": "Une enseignante lance une plateforme en ligne \"indépendante\" pour recueillir la parole des lycéens",
+        "description": "Alors que le gouvernement a lancé ce lundi, Agora, une consultation nationale auprès des lycéens, Claudia Vieira, professeure à Montreuil en Seine-Saint-Denis, a créé de son côté une plateforme en ligne pour recueillir les doléances des lycéens. Une initiative qui se veut \"apolitique et…",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:27:35.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/0weyQeKrJqngYHGw1kJBF5R7dGk/930x620/filters:format(webp)/regions/2026/10/06/6ac5221192ab5707134529.png",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:27:35.000Z"
+    },
+    {
+      "id": "G9zfDz1ykUaV",
+      "representative": {
+        "id": "G9zfDz1ykUaV",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/20-km-de-paris-tout-savoir-sur-la-course-avant-le-depart-de-dimanche-3428532.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/20-km-de-paris-tout-savoir-sur-la-course-avant-le-depart-de-dimanche-3428532.html",
+        "title": "20 KM de Paris : tout savoir sur la course avant le départ de dimanche",
+        "description": "Ce dimanche, Paris va se transformer en immense terrain de course. Pour sa 48e édition, l’Harmonie Mutuelle 20km de Paris attend plus de 35 000 participants, venus de 110 nationalités. Une nouvelle édition qui mêlera performance sportive, découverte des monuments parisiens, solidarité et ambiance…",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T19:20:50.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/r36G16kwegaVJm54lfjBXwvsRX8/930x620/filters:format(webp)/regions/2026/10/06/6ac4bf4dafec2265131671.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:20:50.000Z"
+    },
+    {
+      "id": "fPF-iRrRbPuQ",
+      "representative": {
+        "id": "fPF-iRrRbPuQ",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/val-d-oise/jeune-de-14-ans-blesse-a-saint-ouen-l-aumone-le-policier-auteur-du-tir-place-en-garde-a-vue-3428991.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/val-d-oise/jeune-de-14-ans-blesse-a-saint-ouen-l-aumone-le-policier-auteur-du-tir-place-en-garde-a-vue-3428991.html",
+        "title": "\"S'il n'est pas mort, c'est parce qu'il a eu beaucoup de chance\", jeune de 14 ans blessé à Saint-Ouen-l'Aumône : le policier, auteur du tir, placé en garde à vue",
+        "description": "Le policier auteur du tir de lance-grenade contre le jeune Eden, âgé de 14 ans, lors d'un blocus devant un lycée à Saint-Ouen-l'Aumône dans le Val d'Oise, vient d'être mis en examen pour violences. L'avocate de la famille d'Eden y voit la reconnaissance de la gravité des faits.",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T18:03:06.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/KeSnJhNWNszuFsoUubXCZc0JqVg/930x620/filters:format(webp)/regions/2026/10/06/6ac5122c670fe000285252.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:03:06.000Z"
+    },
+    {
+      "id": "YbhL-z7HxtNL",
+      "representative": {
+        "id": "YbhL-z7HxtNL",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/yvelines/petit-on-voyait-vraiment-les-policiers-comme-nos-heros-au-coeur-d-un-rassemblement-lyceens-a-conflans-saint-honorine-3428748.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/yvelines/petit-on-voyait-vraiment-les-policiers-comme-nos-heros-au-coeur-d-un-rassemblement-lyceens-a-conflans-saint-honorine-3428748.html",
+        "title": "\"Petit, on voyait vraiment les policiers comme nos héros\" : au coeur d'un rassemblement lycéens à Conflans-Saint-Honorine",
+        "description": "À Conflans-Saint-Honorine, dans les Yvelines, des parents et des enseignants se sont immergés dans une manifestation lycéenne aux abords du lycée Jules-Ferry. Une présence qui permet de rassurer les élèves échaudés par les tensions survenus lors d'un précédent rassemblement. Reportage.",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T16:06:31.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/22pdsLtS99oWz_hLOvesVY1fuzY/930x620/filters:format(webp)/regions/2026/10/06/6ac50d37eee5d526835178.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:06:31.000Z"
+    },
+    {
+      "id": "JY0YvLrO7aXN",
+      "representative": {
+        "id": "JY0YvLrO7aXN",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/blocus-des-lyceens-suspension-des-cours-nouvelle-manifestation-ce-jeudi-a-quoi-faut-il-s-attendre-en-fin-de-semaine-3428919.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/blocus-des-lyceens-suspension-des-cours-nouvelle-manifestation-ce-jeudi-a-quoi-faut-il-s-attendre-en-fin-de-semaine-3428919.html",
+        "title": "Blocus des lycéens : suspension des cours, nouvelle manifestation ce jeudi, à quoi faut-il s'attendre en fin de semaine ?",
+        "description": "Alors que les manifestations se poursuivent ce mardi, un nouvel appel à se mobiliser a été lancé par plusieurs organisations étudiantes et lycéennes ce jeudi. En outre, le Premier ministre Sébastien Lecornu a annoncé la suspension des cours au lycée jusqu'à la fin de la semaine.",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T14:40:28.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/mAAlcLEjvjRdkQtLlqWDj1_NTU0/930x620/filters:format(webp)/regions/2026/10/06/6ac5066abe49c939933803.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T14:40:28.000Z"
+    },
+    {
+      "id": "GASDT34oj7EQ",
+      "representative": {
+        "id": "GASDT34oj7EQ",
+        "url": "https://www.20minutes.fr/faits_divers/faits-divers-paris/4251852-20261006-paris-soupconne-etre-frotteur-visiteur-tour-eiffel-jure-souffrir-priapisme?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/faits_divers/faits-divers-paris/4251852-20261006-paris-soupconne-etre-frotteur-visiteur-tour-eiffel-jure-souffrir-priapisme",
+        "title": "Paris : Soupçonné d’être un « frotteur », un visiteur de la tour Eiffel jure souffrir de priapisme",
+        "description": "Un touriste saoudien accusé par deux femmes de s’être frotté contre elles dans l’ascenseur de la tour Eiffel. Selon « Le Parisien », il a expliqué aux policiers qu’il souffrait d’une maladie caractérisée par une érection anormale et prolongée",
+        "source": {
+          "id": "20minutes_paris",
+          "name": "20 Minutes Paris"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:20:26.000Z",
+        "imageUrl": "https://img.20mn.fr/buzxG3dESXeTeVb2_xMZ4ik/1200x768_la-tour-eiffel-s-eclaire-en-rose-lors-du-lancement-d-octobre-rose-a-paris-ambiance-et-touristes-paris-france-30-09-2026-smithwilliam-08441249-credit-william-smith-sipa-2610010844",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:20:26.000Z"
+    },
+    {
+      "id": "uTf0tiN1pkq5",
+      "representative": {
+        "id": "uTf0tiN1pkq5",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/cette-mesure-vise-a-museler-la-contestation-en-seine-saint-denis-des-syndicats-saisissent-la-justice-contre-les-arretes-interdisant-les-rassemblements-devant-les-lycees-3428721.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/cette-mesure-vise-a-museler-la-contestation-en-seine-saint-denis-des-syndicats-saisissent-la-justice-contre-les-arretes-interdisant-les-rassemblements-devant-les-lycees-3428721.html",
+        "title": "\"Cette mesure vise à museler la contestation\" : des syndicats saisissent la justice contre les arrêtés interdisant les rassemblements devant les lycées",
+        "description": "La préfecture de police de Paris a reconduit et élargit, ce mardi, les interdictions de rassemblement devant les lycées en Ile-de-France. En Seine-Saint-Denis, les syndicats de lycéens et des étudiants saisissent la justice pour faire annuler les arrêtés préfectoraux.",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:41:05.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/5QfqsVJRxH1RWpkPmJFWFbnFg0c/930x620/filters:format(webp)/regions/2026/10/06/6ac4d274c0f5a830691047.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:41:05.000Z"
+    },
+    {
+      "id": "ziSaIN4VNKbz",
+      "representative": {
+        "id": "ziSaIN4VNKbz",
+        "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/une-censure-politique-denonce-le-collectif-urgence-palestine-apres-l-interdiction-d-une-manifestation-contre-le-genocide-a-gaza-ce-7-octobre-3428808.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/une-censure-politique-denonce-le-collectif-urgence-palestine-apres-l-interdiction-d-une-manifestation-contre-le-genocide-a-gaza-ce-7-octobre-3428808.html",
+        "title": "\"Une censure politique\", dénonce le collectif Urgence Palestine après l'interdiction d'une manifestation \"contre le génocide à Gaza\" ce 7 octobre",
+        "description": "Une manifestation à l'appel du collectif Urgence Palestine \"contre le génocide à Gaza et pour le respect du cessez-le-feu\", prévue mercredi à Paris, le jour des commémorations du 7-Octobre, a été interdite, a annoncé sur X le préfet de police. Le collectif dénonce \"une censure politique\" et…",
+        "source": {
+          "id": "france3_idf",
+          "name": "France 3 Paris Île-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:35:05.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/VrL2rR-GUz1574R_USD2JIRLR0o/930x620/filters:format(webp)/regions/2026/10/06/6ac4da9798fe9158694073.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:35:05.000Z"
+    },
+    {
+      "id": "oEKPMJsa3xe4",
+      "representative": {
+        "id": "oEKPMJsa3xe4",
+        "url": "https://www.bfmtv.com/paris/emmanuel-gregoire-maire-de-paris_DN-202603250470.html",
+        "canonicalUrl": "https://www.bfmtv.com/paris/emmanuel-gregoire-maire-de-paris_DN-202603250470.html",
+        "title": "Emmanuel Grégoire, maire de Paris",
+        "description": "Emmanuel Grégoire a été élu maire de Paris en mars 2026 en battant Rachida Dati et Sophia Chikirou au second tour. Avant cette date, il a été le premier adjoint d'Anne Hidalgo et député de la 7e circonscription de Paris sous l'étiquette du Parti socialiste.",
+        "source": {
+          "id": "bfm_paris",
+          "name": "BFM Paris"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T10:29:16.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ylq6G3VGdashSdBe1RrNGATITJE=/0x106:2048x1258/800x0/images/Emmanuel-Gregoire-a-Paris-le-22-mars-2026-2257533.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:29:16.000Z"
+    },
+    {
+      "id": "rmD8UnJyTGmQ",
+      "representative": {
+        "id": "rmD8UnJyTGmQ",
+        "url": "https://www.bfmtv.com/paris/colere-lyceenne-emmanuel-gregoire-annonce-ouvrir-les-mairies-pour-que-les-jeunes-puissent-s-organiser-democratiquement_AD-202610060474.html",
+        "canonicalUrl": "https://www.bfmtv.com/paris/colere-lyceenne-emmanuel-gregoire-annonce-ouvrir-les-mairies-pour-que-les-jeunes-puissent-s-organiser-democratiquement_AD-202610060474.html",
+        "title": "Colère lycéenne: Emmanuel Grégoire annonce ouvrir les mairies pour que les jeunes puissent s'\"organiser démocratiquement\"",
+        "description": "Dans une lettre ouverte publiée sur LinkedIn, le maire de Paris Emmanuel Grégoire annonce que la ville proposera au rectorat et à la région \"de réunir autour de la même table les lycéens, les personnels et les parents pour identifier les besoins prioritaires\".",
+        "source": {
+          "id": "bfm_paris",
+          "name": "BFM Paris"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T10:29:15.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/KBfbA0Yne4IR_p9ZOnEwR8ZeMQY=/0x36:768x468/800x0/images/Le-maire-de-Paris-Emmanuel-Gregoire-a-Paris-le-18-mai-2026-2349076.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-IDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T10:29:15.000Z"
+    }
+  ]
+}

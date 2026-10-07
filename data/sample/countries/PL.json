@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "PL",
   "countryName": "Poland",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "HXkXRqn6kaw5",
@@ -292,39 +292,39 @@
       "latestPublishedAt": "2026-10-06T13:07:34.000Z"
     },
     {
-      "id": "kS1ejRxi8JW9",
+      "id": "oWY1qUAitqzy",
       "representative": {
-        "id": "kS1ejRxi8JW9",
-        "url": "https://www.polsatnews.pl/wiadomosc/2026-10-05/x-2/",
-        "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-05/x-2/",
-        "title": "Ceny paliw na poniedziałek. Wiadomo, ile kierowcy zapłacą na stacjach",
-        "description": "W poniedziałek kierowcy ponownie zatankują paliwo po cenach objętych limitem w ramach programu CPN. Maksymalna cena wynosi 6,73 zł za litr benzyny 95, 7,59 zł za litr benzyny 98 i 7,88 zł za litr oleju napędowego. Minister energii Miłosz Motyka zapowiada, że w kolejnych dniach ceny paliw na…",
+        "id": "oWY1qUAitqzy",
+        "url": "https://www.rmf24.pl/fakty/ekonomia/news-maksymalne-ceny-paliw-w-srode-ci-kierowcy-zaplaca-wiecej-na-,nIdn,1020647",
+        "canonicalUrl": "https://www.rmf24.pl/fakty/ekonomia/news-maksymalne-ceny-paliw-w-srode-ci-kierowcy-zaplaca-wiecej-na-,nIdn,1020647",
+        "title": "Maksymalne ceny paliw w środę. Ci kierowcy zapłacą więcej na stacjach",
+        "description": "Maksymalne ceny paliw w środę. Ci kierowcy zapłacą więcej na stacjach",
         "source": {
-          "id": "polsatnews",
-          "name": "Polsat News"
+          "id": "rmf24",
+          "name": "RMF24"
         },
         "sourceCountry": "PL",
         "language": "pl",
-        "publishedAt": "2026-10-05T05:24:00.000Z",
-        "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/ix/ixem4dv2io83ki23faq3ywsz1d7i9ogo.jpg",
+        "publishedAt": "2026-10-06T11:06:00.000Z",
+        "imageUrl": "https://rmf.rmffm.pl/news/attachments/37/fc/zdj-636x421-37fc96f0.jpg",
         "countryCode": "PL",
         "regionCode": null
       },
       "related": [
         {
-          "id": "oWY1qUAitqzy",
-          "url": "https://www.rmf24.pl/fakty/ekonomia/news-maksymalne-ceny-paliw-w-srode-ci-kierowcy-zaplaca-wiecej-na-,nIdn,1020647",
-          "canonicalUrl": "https://www.rmf24.pl/fakty/ekonomia/news-maksymalne-ceny-paliw-w-srode-ci-kierowcy-zaplaca-wiecej-na-,nIdn,1020647",
-          "title": "Maksymalne ceny paliw w środę. Ci kierowcy zapłacą więcej na stacjach",
-          "description": "Maksymalne ceny paliw w środę. Ci kierowcy zapłacą więcej na stacjach",
+          "id": "XyZFgd_Nx7L1",
+          "url": "https://www.polsatnews.pl/wiadomosc/2026-10-06/maksymalne-ceny-paliw-w-srode-minister-oglosil-nowe-stawki/",
+          "canonicalUrl": "https://www.polsatnews.pl/wiadomosc/2026-10-06/maksymalne-ceny-paliw-w-srode-minister-oglosil-nowe-stawki/",
+          "title": "Maksymalne ceny paliw w środę. Minister ogłosił nowe stawki",
+          "description": "W środę litr benzyny 95 ma kosztować nie więcej niż 6,86 zł, benzyny 98 - 7,74 zł, a oleju napędowego - 7,80 zł. Oznacza to, że ceny maksymalne benzyny będą wyższe niż we wtorek, a diesla - niższe.",
           "source": {
-            "id": "rmf24",
-            "name": "RMF24"
+            "id": "polsatnews",
+            "name": "Polsat News"
           },
           "sourceCountry": "PL",
           "language": "pl",
-          "publishedAt": "2026-10-06T11:06:00.000Z",
-          "imageUrl": "https://rmf.rmffm.pl/news/attachments/37/fc/zdj-636x421-37fc96f0.jpg",
+          "publishedAt": "2026-10-06T11:14:00.000Z",
+          "imageUrl": "https://ipla.pluscdn.pl/dituel/cp/rb/rbfz85sf52k26czgqy4jh58oaexzdxwy.jpg",
           "countryCode": "PL",
           "regionCode": null
         }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "NO",
   "countryName": "Norway",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "Gg9V8aOmgsGn",
@@ -501,90 +501,6 @@
       "latestPublishedAt": "2026-10-06T08:45:27.000Z"
     },
     {
-      "id": "YCxrh8RiC5Mh",
-      "representative": {
-        "id": "YCxrh8RiC5Mh",
-        "url": "https://www.aftenposten.no/e24/i/b8zly3?utm_medium=rss",
-        "canonicalUrl": "https://www.aftenposten.no/e24/i/b8zly3",
-        "title": "DNB kutter ansatte – satser på AI",
-        "description": "Om lag 400 årsverk forsvinner. DNB vil ikke svare på om banken blir billigere.",
-        "source": {
-          "id": "aftenposten",
-          "name": "Aftenposten"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T07:02:04.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/d8891e03-fa1f-3bf7-bfe5-186bc6ac12bb?format=auto&w=1000&s=747273544ba0b71658b25d3b1a817382bbb69b99",
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "L-WQ_xCTpNx7",
-          "url": "https://e24.no/boers-og-finans/i/b8zly3/dnb-varsler-nedbemanning-kutter-400-aarsverk?utm_medium=rss",
-          "canonicalUrl": "https://e24.no/boers-og-finans/i/b8zly3/dnb-varsler-nedbemanning-kutter-400-aarsverk",
-          "title": "DNB kutter ansatte – satser på AI",
-          "description": "Om lag 400 årsverk forsvinner. DNB vil ikke svare på om banken blir billigere.",
-          "source": {
-            "id": "e24",
-            "name": "E24"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T07:01:39.000Z",
-          "imageUrl": "https://akamai.vgc.no/v2/images/d470b6ee-b88c-3940-8b21-5c0dd9727413?format=auto&w=1000&s=ef58232b3fbb029442608fa033a3e72ce2d12694",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T07:02:04.000Z"
-    },
-    {
-      "id": "6G5pN8UMv-hg",
-      "representative": {
-        "id": "6G5pN8UMv-hg",
-        "url": "https://www.aftenposten.no/verden/i/8GB7rw/trump-godkjenner-henrettelse-ved-skyting-av-doedsdoemt-militaerlege?utm_medium=rss",
-        "canonicalUrl": "https://www.aftenposten.no/verden/i/8GB7rw/trump-godkjenner-henrettelse-ved-skyting-av-doedsdoemt-militaerlege",
-        "title": "Trump godkjenner henrettelse ved skyting av dødsdømt militærlege",
-        "description": "USAs president Donald Trump har godkjent at den tidligere militærpsykiateren Nidal Hasan skal…",
-        "source": {
-          "id": "aftenposten",
-          "name": "Aftenposten"
-        },
-        "sourceCountry": "NO",
-        "language": "nb",
-        "publishedAt": "2026-10-06T04:00:03.000Z",
-        "imageUrl": "https://akamai.vgc.no/v2/images/a8d7e8a6-0453-3f9b-b9b4-ae69034eb7fe?format=auto&w=1000&s=5ef211ef046ca5ddbb1b4cd83f243105ebaeabe7",
-        "countryCode": "NO",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "QT_g5qtPObyK",
-          "url": "https://www.dagbladet.no/nyheter/trump-godkjenner-henrettelse-av-dodsdomt-militaerlege/85247713",
-          "canonicalUrl": "https://www.dagbladet.no/nyheter/trump-godkjenner-henrettelse-av-dodsdomt-militaerlege/85247713",
-          "title": "Godkjenner henrettelse",
-          "description": "USAs president Donald Trump har godkjent at den tidligere militærpsykiateren Nidal Hasan skal henrettes ved skyting for massedrapet på Fort Hood i 2009.",
-          "source": {
-            "id": "dagbladet",
-            "name": "Dagbladet"
-          },
-          "sourceCountry": "NO",
-          "language": "nb",
-          "publishedAt": "2026-10-06T01:34:36.000Z",
-          "imageUrl": "https://www.dagbladet.no/images/85239285.webp?imageId=85239285&width=1058&height=478&format=jpg",
-          "countryCode": "NO",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T04:00:03.000Z"
-    },
-    {
       "id": "4nMxvjLkj6Fq",
       "representative": {
         "id": "4nMxvjLkj6Fq",
@@ -631,6 +547,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:44:22.687Z"
+    },
+    {
+      "id": "dI_N1-r-46KJ",
+      "representative": {
+        "id": "dI_N1-r-46KJ",
+        "url": "https://www.dagbladet.no/nyheter/to-pagrepet-i-savnetsak-siktet-for-drap-og-likskjending/85249077",
+        "canonicalUrl": "https://www.dagbladet.no/nyheter/to-pagrepet-i-savnetsak-siktet-for-drap-og-likskjending/85249077",
+        "title": "Rikke savnet: Har sperret av område",
+        "description": null,
+        "source": {
+          "id": "dagbladet",
+          "name": "Dagbladet"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:44:22.687Z",
+        "imageUrl": "https://www.dagbladet.no/images/85249891.webp?imageId=85249891&width=1058&height=478&format=jpg",
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:44:22.687Z"
+    },
+    {
+      "id": "zaqu508AdKAZ",
+      "representative": {
+        "id": "zaqu508AdKAZ",
+        "url": "https://www.nrk.no/nyheter/frankrike_-statsministeren-ut-mot-skuleprotestar-1.18047111",
+        "canonicalUrl": "https://www.nrk.no/nyheter/frankrike_-statsministeren-ut-mot-skuleprotestar-1.18047111",
+        "title": "Frankrike: Statsministeren ut mot skuleprotestar",
+        "description": "Frankrikes statsminister Sébastien Lecornu seier styresmaktene ikkje har toleranse for vald, melder AFP. Utsegna kjem etter at titusenvis av elevar over heile landet har gått ut i gatene for å protestere mot forholda i skulen. – Å brenne ned ein vidaregåande skule betrar ikkje tilstanden til…",
+        "source": {
+          "id": "nrk",
+          "name": "NRK"
+        },
+        "sourceCountry": "NO",
+        "language": "nb",
+        "publishedAt": "2026-10-06T13:40:30.000Z",
+        "imageUrl": null,
+        "countryCode": "NO",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:40:30.000Z"
     }
   ]
 }

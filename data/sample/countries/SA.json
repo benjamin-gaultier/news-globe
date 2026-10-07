@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SA",
   "countryName": "Saudi Arabia",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "MHevhrQHuAhY",
@@ -129,48 +129,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T11:27:51.000Z"
-    },
-    {
-      "id": "aTz5JzCEeqD3",
-      "representative": {
-        "id": "aTz5JzCEeqD3",
-        "url": "https://www.alwatan.com.sa/article/1186757",
-        "canonicalUrl": "https://www.alwatan.com.sa/article/1186757",
-        "title": "نائب أمير مكة يرعى تخريج الدفعة الـ56 بجامعة الملك عبدالعزيز",
-        "description": "تحت رعاية صاحب السمو الملكي الأمير خالد الفيصل مستشار خادم الحرمين الشريفين أمير منطقة مكة المكرمة، ونيابةً عن سموه، شهد صاحب السمو الملكي الأمير سعود بن مشعل بن عبدالعزيز نائب أمير منطقة مكة المكرمة، حفل تخريج الدفعة الـ56 من طلاب وطالبات جامعة الملك عبدالعزيز، والبالغ عددهم 25,489 خريج وخريجة،…",
-        "source": {
-          "id": "alwatan_sa",
-          "name": "Al-Watan"
-        },
-        "sourceCountry": "SA",
-        "language": "ar",
-        "publishedAt": "2026-10-05T22:31:00.000Z",
-        "imageUrl": "https://www.alwatan.com.sa/uploads/images/2026/10/06/1291819.jpeg",
-        "countryCode": "SA",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "iu538oXkAnko",
-          "url": "https://www.al-madina.com/article/1008117/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%B3%D8%B9%D9%88%D8%AF-%D8%A8%D9%86-%D9%85%D8%B4%D8%B9%D9%84-%D9%8A%D8%B1%D8%B9%D9%89-%D8%AA%D8%AE%D8%B1%D9%8A%D8%AC-%D8%A7%D9%84%D8%AF%D9%81%D8%B9%D8%A9-%D8%A7%D9%8456-%D8%A8%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2",
-          "canonicalUrl": "https://www.al-madina.com/article/1008117/%D9%85%D8%AD%D9%84%D9%8A%D8%A7%D8%AA/%D8%B3%D8%B9%D9%88%D8%AF-%D8%A8%D9%86-%D9%85%D8%B4%D8%B9%D9%84-%D9%8A%D8%B1%D8%B9%D9%89-%D8%AA%D8%AE%D8%B1%D9%8A%D8%AC-%D8%A7%D9%84%D8%AF%D9%81%D8%B9%D8%A9-%D8%A7%D9%8456-%D8%A8%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2",
-          "title": "سعود بن مشعل يرعى تخريج الدفعة الـ(56) بجامعة الملك عبدالعزيز",
-          "description": "تحت رعاية صاحب السمو الملكي الأمير خالد الفيصل، مستشار خادم الحرمين الشريفين، أمير منطقة مكة المكرمة، ونيابةً عن سموه، شهد صاحب السمو الملكي الأمير سعود بن مشعل بن عبدالعزيز نائب أمير منطقة مكة المكرمة، حفل تخريج الدفعة الـ56 من طلاب وطالبات جامعة الملك عبدالعزيز، والبالغ عددهم 25,489 خريج وخريجة،…",
-          "source": {
-            "id": "almadina",
-            "name": "Al-Madina"
-          },
-          "sourceCountry": "SA",
-          "language": "ar",
-          "publishedAt": "2026-10-05T23:15:00.000Z",
-          "imageUrl": "https://www.al-madina.com/uploads/images/2026/10/05/2668983.jpg",
-          "countryCode": "SA",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T23:15:00.000Z"
     },
     {
       "id": "pVILOoWWPSEh",
@@ -435,6 +393,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:30:13.000Z"
+    },
+    {
+      "id": "3SgswWu5jyg5",
+      "representative": {
+        "id": "3SgswWu5jyg5",
+        "url": "https://aawsat.com/node/5326628",
+        "canonicalUrl": "https://aawsat.com/node/5326628",
+        "title": "علماء يفسرون سبب استعادة الوزن بعد اتباع الحميات الغذائية",
+        "description": "دراسة جديدة وجدت سبباً لسرعة استعادة الوزن لدى الأشخاص الذين يتبعون حميات غذائية أو يتناولون أدوية لإنقاص الوزن بمجرد توقفهم عن ذلك.",
+        "source": {
+          "id": "aawsat",
+          "name": "Asharq Al-Awsat"
+        },
+        "sourceCountry": "SA",
+        "language": "ar",
+        "publishedAt": "2026-10-06T13:29:03.000Z",
+        "imageUrl": "https://static.srpcdigital.com/styles/414x217/public/2026-10/1812746.jpeg.webp?VersionId=jIicabSWtaZEuI8jZ1Yv_jKCw16vK82Q",
+        "countryCode": "SA",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:29:03.000Z"
     }
   ]
 }

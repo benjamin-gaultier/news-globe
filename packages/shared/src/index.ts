@@ -2,7 +2,8 @@
  * Data contract between the ingest worker and the web app.
  *
  * The worker writes these shapes as static JSON (`data/index.json`,
- * `data/countries/{CC}.json`); the web app only ever reads them. Bump
+ * `data/countries/{CC}.json`, `data/regions/{CC}-{R}.json`); the web app only
+ * ever reads them. Bump
  * `SCHEMA_VERSION` on any breaking change.
  */
 
@@ -10,6 +11,9 @@ export const SCHEMA_VERSION = 1;
 
 /** ISO 3166-1 alpha-2 country code, upper case (e.g. "FR"). */
 export type CountryCode = string;
+
+/** ISO 3166-2 subdivision code, upper case (e.g. "FR-BRE"). */
+export type RegionCode = string;
 
 export interface SourceRef {
   /** Stable id from sources.config.ts, e.g. "lemonde". */
@@ -39,8 +43,8 @@ export interface Article {
   imageUrl: string | null;
   /** Country the story is filed under. */
   countryCode: CountryCode;
-  /** Sub-national region (ISO 3166-2). Reserved for regional headlines; always null for now. */
-  regionCode: string | null;
+  /** Sub-national region (ISO 3166-2) of a regional outlet's story; null for national outlets. */
+  regionCode: RegionCode | null;
 }
 
 /** A group of articles from different outlets about the same story. */
@@ -63,6 +67,9 @@ export interface CountryFile {
   schemaVersion: number;
   countryCode: CountryCode;
   countryName: string;
+  /** Set on regional files (`regions/{code}.json`), which share this shape. */
+  regionCode?: RegionCode;
+  regionName?: string;
   /** ISO 8601 time this file was generated. */
   updatedAt: string;
   /** Ranked, best first. */
@@ -70,7 +77,8 @@ export interface CountryFile {
 }
 
 export interface IndexEntry {
-  code: CountryCode;
+  /** Country code, or region code in `IndexFile.regions`. */
+  code: CountryCode | RegionCode;
   name: string;
   updatedAt: string;
   clusterCount: number;
@@ -80,6 +88,8 @@ export interface IndexFile {
   schemaVersion: number;
   updatedAt: string;
   countries: IndexEntry[];
+  /** Regions with a file. Optional: older index files have none. */
+  regions?: IndexEntry[];
 }
 
 export interface CountryMeta {
@@ -206,4 +216,37 @@ export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   GY: { code: 'GY', name: 'Guyana', lat: 4.9, lng: -58.9, altitude: 0.8 },
   SR: { code: 'SR', name: 'Suriname', lat: 4, lng: -56, altitude: 0.6 },
   YE: { code: 'YE', name: 'Yemen', lat: 15.5, lng: 47.5, altitude: 1.1 },
+};
+
+export interface RegionMeta {
+  code: RegionCode;
+  /** Country the region belongs to. */
+  country: CountryCode;
+  name: string;
+  /** Where the globe camera points when the region is selected. */
+  lat: number;
+  lng: number;
+  /** Camera altitude in globe radii. */
+  altitude: number;
+}
+
+/**
+ * Regions with regional headlines. A region's outlets (sources with `region`)
+ * feed its own file instead of the national one. Outlines come from
+ * apps/web/src/assets/regions-{cc}.json.
+ */
+export const REGIONS: Record<RegionCode, RegionMeta> = {
+  'FR-ARA': { code: 'FR-ARA', country: 'FR', name: 'Auvergne-Rhône-Alpes', lat: 45.4, lng: 4.6, altitude: 0.55 },
+  'FR-BFC': { code: 'FR-BFC', country: 'FR', name: 'Bourgogne-Franche-Comté', lat: 47.2, lng: 4.8, altitude: 0.5 },
+  'FR-BRE': { code: 'FR-BRE', country: 'FR', name: 'Brittany', lat: 48.2, lng: -2.9, altitude: 0.45 },
+  'FR-CVL': { code: 'FR-CVL', country: 'FR', name: 'Centre-Val de Loire', lat: 47.5, lng: 1.7, altitude: 0.5 },
+  'FR-20R': { code: 'FR-20R', country: 'FR', name: 'Corsica', lat: 42.15, lng: 9.1, altitude: 0.35 },
+  'FR-GES': { code: 'FR-GES', country: 'FR', name: 'Grand Est', lat: 48.7, lng: 5.6, altitude: 0.5 },
+  'FR-HDF': { code: 'FR-HDF', country: 'FR', name: 'Hauts-de-France', lat: 50.0, lng: 2.8, altitude: 0.45 },
+  'FR-IDF': { code: 'FR-IDF', country: 'FR', name: 'Île-de-France', lat: 48.7, lng: 2.5, altitude: 0.3 },
+  'FR-NOR': { code: 'FR-NOR', country: 'FR', name: 'Normandy', lat: 49.1, lng: 0.1, altitude: 0.45 },
+  'FR-NAQ': { code: 'FR-NAQ', country: 'FR', name: 'Nouvelle-Aquitaine', lat: 45.2, lng: 0.2, altitude: 0.6 },
+  'FR-OCC': { code: 'FR-OCC', country: 'FR', name: 'Occitanie', lat: 43.7, lng: 2.2, altitude: 0.55 },
+  'FR-PDL': { code: 'FR-PDL', country: 'FR', name: 'Pays de la Loire', lat: 47.4, lng: -0.8, altitude: 0.45 },
+  'FR-PAC': { code: 'FR-PAC', country: 'FR', name: "Provence-Alpes-Côte d'Azur", lat: 43.95, lng: 6.05, altitude: 0.45 },
 };

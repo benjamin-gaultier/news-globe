@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SR",
   "countryName": "Suriname",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "3wwB3RY3pPIU",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T16:33:30.000Z"
-    },
-    {
-      "id": "CPoikBsCnpTP",
-      "representative": {
-        "id": "CPoikBsCnpTP",
-        "url": "https://dwtonline.com/vhp-geen-nieuwe-beloften-maar-concrete-resultaten/",
-        "canonicalUrl": "https://dwtonline.com/vhp-geen-nieuwe-beloften-maar-concrete-resultaten/",
-        "title": "VHP: ‘Geen nieuwe beloften, maar concrete resultaten’",
-        "description": "INGEZONDEN De Jaarrede van president Jennifer Simons voor het dienstjaar 2027 bevat tal van ambities. De regering presenteert plannen voor economische groei, goed bestuur, sociale ontwikkeling, institutionele versterking en de voorbereiding op de verwachte olie- en gasinkomsten. Voor de VHP is de…",
-        "source": {
-          "id": "dwtonline",
-          "name": "De Ware Tijd"
-        },
-        "sourceCountry": "SR",
-        "language": "nl",
-        "publishedAt": "2026-10-06T01:08:52.000Z",
-        "imageUrl": null,
-        "countryCode": "SR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "bX9mdALHFoHv",
-          "url": "https://www.starnieuws.com/index.php/welcome/index/nieuwsitem/94233",
-          "canonicalUrl": "https://www.starnieuws.com/index.php/welcome/index/nieuwsitem/94233",
-          "title": "VHP: Geen nieuwe beloften, maar concrete resultaten",
-          "description": "De jaarrede van president Jennifer Simons voor het dienstjaar 2027 bevat tal van ambities. De regering presenteert plannen voor economische groei, goed bestuur, sociale ontwikkeling, institutionele versterking en de voorbereiding op de verwachte olie- en gasinkomsten.Voor de VHP is de ...",
-          "source": {
-            "id": "starnieuws",
-            "name": "Starnieuws"
-          },
-          "sourceCountry": "SR",
-          "language": "nl",
-          "publishedAt": "2026-10-06T14:53:00.000Z",
-          "imageUrl": null,
-          "countryCode": "SR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:53:00.000Z"
     },
     {
       "id": "zbRTHHnjOmPL",
@@ -303,6 +261,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:00:00.000Z"
+    },
+    {
+      "id": "CPoikBsCnpTP",
+      "representative": {
+        "id": "CPoikBsCnpTP",
+        "url": "https://dwtonline.com/vhp-geen-nieuwe-beloften-maar-concrete-resultaten/",
+        "canonicalUrl": "https://dwtonline.com/vhp-geen-nieuwe-beloften-maar-concrete-resultaten/",
+        "title": "VHP: ‘Geen nieuwe beloften, maar concrete resultaten’",
+        "description": "INGEZONDEN De Jaarrede van president Jennifer Simons voor het dienstjaar 2027 bevat tal van ambities. De regering presenteert plannen voor economische groei, goed bestuur, sociale ontwikkeling, institutionele versterking en de voorbereiding op de verwachte olie- en gasinkomsten. Voor de VHP is de…",
+        "source": {
+          "id": "dwtonline",
+          "name": "De Ware Tijd"
+        },
+        "sourceCountry": "SR",
+        "language": "nl",
+        "publishedAt": "2026-10-06T01:08:52.000Z",
+        "imageUrl": null,
+        "countryCode": "SR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "bX9mdALHFoHv",
+          "url": "https://www.starnieuws.com/index.php/welcome/index/nieuwsitem/94233",
+          "canonicalUrl": "https://www.starnieuws.com/index.php/welcome/index/nieuwsitem/94233",
+          "title": "VHP: Geen nieuwe beloften, maar concrete resultaten",
+          "description": "De jaarrede van president Jennifer Simons voor het dienstjaar 2027 bevat tal van ambities. De regering presenteert plannen voor economische groei, goed bestuur, sociale ontwikkeling, institutionele versterking en de voorbereiding op de verwachte olie- en gasinkomsten.Voor de VHP is de ...",
+          "source": {
+            "id": "starnieuws",
+            "name": "Starnieuws"
+          },
+          "sourceCountry": "SR",
+          "language": "nl",
+          "publishedAt": "2026-10-06T14:53:00.000Z",
+          "imageUrl": null,
+          "countryCode": "SR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:53:00.000Z"
     },
     {
       "id": "po9WA7py572c",

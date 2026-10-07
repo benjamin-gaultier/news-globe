@@ -26,7 +26,7 @@ export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: stri
     publishedAt: new Date(published).toISOString(),
     imageUrl: item.imageUrl,
     countryCode: source.country,
-    regionCode: null,
+    regionCode: source.region ?? null,
   };
 }
 
@@ -37,6 +37,15 @@ export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: stri
  */
 export function isMisdecoded(title: string): boolean {
   return title.includes('�');
+}
+
+/**
+ * A title that is an unrendered CMS template, e.g. the EBRA papers' (L'Alsace,
+ * L'Est Républicain) "Vidéo. $content.TitleNoTags": identical across outlets,
+ * so it would otherwise cluster into a top story.
+ */
+export function isUnrenderedTemplate(title: string): boolean {
+  return /\$[A-Za-z_]+\.[A-Za-z_]+|\{\{[^}]*\}\}/.test(title);
 }
 
 /** Exact dedupe on canonical URL; the first occurrence wins. */

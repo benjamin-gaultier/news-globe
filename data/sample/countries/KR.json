@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "KR",
   "countryName": "South Korea",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "pKZdeg4p4Opl",
@@ -341,48 +341,6 @@
       "latestPublishedAt": "2026-10-06T14:23:16.000Z"
     },
     {
-      "id": "XgdqoqRLX-e1",
-      "representative": {
-        "id": "XgdqoqRLX-e1",
-        "url": "https://www.yna.co.kr/view/AKR20261006200100071",
-        "canonicalUrl": "https://www.yna.co.kr/view/AKR20261006200100071",
-        "title": "트럼프, 포트후드 총기난사범에 2차대전후 첫 미군 총살형 승인",
-        "description": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령이 텍사스 포트후드 미군기지 총기난사범에 대한 총살형을 승인했다.",
-        "source": {
-          "id": "yonhap",
-          "name": "Yonhap"
-        },
-        "sourceCountry": "KR",
-        "language": "ko",
-        "publishedAt": "2026-10-06T14:21:21.000Z",
-        "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/10/06/AKR20261006200100071_01_i_P2.jpg",
-        "countryCode": "KR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "0ZcKTOWiibE2",
-          "url": "https://www.chosun.com/international/us/2026/10/06/4KK5JNLKYBGF7KIPOV77RIR6OY/",
-          "canonicalUrl": "https://www.chosun.com/international/us/2026/10/06/4KK5JNLKYBGF7KIPOV77RIR6OY/",
-          "title": "총기난사 테러범에 총살형... 트럼프식 ‘이에는 이’ 조치",
-          "description": null,
-          "source": {
-            "id": "chosun",
-            "name": "Chosun Ilbo"
-          },
-          "sourceCountry": "KR",
-          "language": "ko",
-          "publishedAt": "2026-10-06T06:29:04.000Z",
-          "imageUrl": "https://www.chosun.com/resizer/v2/3UWF7HALINGVVI5NXWB2UIAJVQ.jpg?auth=fee371a8b93dd7405054d53bf44511a12459e01c9399d8e0779e85af3826824c&smart=true&width=3000&height=1688",
-          "countryCode": "KR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:21:21.000Z"
-    },
-    {
       "id": "0gMNru_rNqgQ",
       "representative": {
         "id": "0gMNru_rNqgQ",
@@ -590,6 +548,30 @@
         "language": "ko",
         "publishedAt": "2026-10-06T18:00:00.000Z",
         "imageUrl": "https://www.chosun.com/resizer/v2/JYBGS5VUBVGLJFQXVAJ6TK56SY.png?auth=1994fd05f371783fffb6d31778c4637f6a0c607dc3070e276dbfd0eb7273f6dd&smart=true&width=461&height=350",
+        "countryCode": "KR",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:00:00.000Z"
+    },
+    {
+      "id": "B-82UwC5tw7q",
+      "representative": {
+        "id": "B-82UwC5tw7q",
+        "url": "https://www.chosun.com/national/education/2026/10/07/E6BRHXENRVAJJJQULBMLMWG35Q/",
+        "canonicalUrl": "https://www.chosun.com/national/education/2026/10/07/E6BRHXENRVAJJJQULBMLMWG35Q/",
+        "title": "“이야, 옛날 생각 나네”… ‘remind’에는 감성이 없다고?",
+        "description": null,
+        "source": {
+          "id": "chosun",
+          "name": "Chosun Ilbo"
+        },
+        "sourceCountry": "KR",
+        "language": "ko",
+        "publishedAt": "2026-10-06T18:00:00.000Z",
+        "imageUrl": "https://www.chosun.com/resizer/v2/XSTRQJZ64VBZFKILW4RT7GQF3U.png?auth=8059dc6697462fd7f0a71a18224ca0e9c859b16c1275d96e06d35a1959bb7848&smart=true&width=1800&height=1012",
         "countryCode": "KR",
         "regionCode": null
       },

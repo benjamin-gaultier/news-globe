@@ -33,15 +33,16 @@ export function publishConfigFromEnv(env: NodeJS.ProcessEnv = process.env): Publ
 
 /** KV keys that make up the public data contract, as found in dataDir. */
 async function publicKeys(dataDir: string): Promise<string[]> {
-  let countries: string[] = [];
-  try {
-    countries = (await readdir(join(dataDir, 'countries')))
-      .filter((f) => /^[A-Z]{2}\.json$/.test(f))
-      .map((f) => `countries/${f}`);
-  } catch {
-    // No countries written yet.
-  }
-  return ['index.json', ...countries.sort()];
+  const list = async (dir: string, name: RegExp) => {
+    try {
+      return (await readdir(join(dataDir, dir))).filter((f) => name.test(f)).map((f) => `${dir}/${f}`);
+    } catch {
+      return []; // Nothing written there yet.
+    }
+  };
+  const countries = await list('countries', /^[A-Z]{2}\.json$/);
+  const regions = await list('regions', /^[A-Z]{2}-[A-Z0-9]{1,3}\.json$/);
+  return ['index.json', ...countries.sort(), ...regions.sort()];
 }
 
 export interface PublishResult {

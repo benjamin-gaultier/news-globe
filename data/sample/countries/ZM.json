@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "ZM",
   "countryName": "Zambia",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
-    {
-      "id": "CiJSGlZWk39Y",
-      "representative": {
-        "id": "CiJSGlZWk39Y",
-        "url": "https://www.lusakatimes.com/2026/10/06/zambia-ready-to-sign-us1-5-billion-us-health-deal-after-specimen-sharing-clause-is-dropped/",
-        "canonicalUrl": "https://www.lusakatimes.com/2026/10/06/zambia-ready-to-sign-us1-5-billion-us-health-deal-after-specimen-sharing-clause-is-dropped/",
-        "title": "Zambia Ready To Sign US$1.5 Billion US Health Deal After Specimen-Sharing Clause Is Dropped",
-        "description": "Zambia is set to sign a five-year, US$1.5 billion health agreement with the United States this week. Minister of Health Prof Roma Chilengi said negotiators removed a clause that would have required the country to send specimens from its disease surveillance system to America. Prof Chilengi said…",
-        "source": {
-          "id": "lusakatimes",
-          "name": "Lusaka Times"
-        },
-        "sourceCountry": "ZM",
-        "language": "en",
-        "publishedAt": "2026-10-06T06:03:23.000Z",
-        "imageUrl": null,
-        "countryCode": "ZM",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "spSp2tQn1vPo",
-          "url": "https://www.mwebantu.com/govt-removes-specimen-sharing-clause-from-us1-5bn-health-mou/",
-          "canonicalUrl": "https://www.mwebantu.com/govt-removes-specimen-sharing-clause-from-us1-5bn-health-mou/",
-          "title": "Govt Removes Specimen-Sharing Clause from US$1.5bn Health MoU",
-          "description": "GOVERNMENT has removed the specimen-sharing requirement from the US$1.5 billion Memorandum of Understanding (MoU) with the United States Government. Minister of Health, Professor Roma Chilengi, disclosed this at a media briefing, saying the two governments have agreed on a revised MoU following…",
-          "source": {
-            "id": "mwebantu",
-            "name": "Mwebantu"
-          },
-          "sourceCountry": "ZM",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:50:16.000Z",
-          "imageUrl": null,
-          "countryCode": "ZM",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:50:16.000Z"
-    },
     {
       "id": "dZ2eBrvvACsc",
       "representative": {
@@ -93,6 +51,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T14:33:02.000Z"
+    },
+    {
+      "id": "CiJSGlZWk39Y",
+      "representative": {
+        "id": "CiJSGlZWk39Y",
+        "url": "https://www.lusakatimes.com/2026/10/06/zambia-ready-to-sign-us1-5-billion-us-health-deal-after-specimen-sharing-clause-is-dropped/",
+        "canonicalUrl": "https://www.lusakatimes.com/2026/10/06/zambia-ready-to-sign-us1-5-billion-us-health-deal-after-specimen-sharing-clause-is-dropped/",
+        "title": "Zambia Ready To Sign US$1.5 Billion US Health Deal After Specimen-Sharing Clause Is Dropped",
+        "description": "Zambia is set to sign a five-year, US$1.5 billion health agreement with the United States this week. Minister of Health Prof Roma Chilengi said negotiators removed a clause that would have required the country to send specimens from its disease surveillance system to America. Prof Chilengi said…",
+        "source": {
+          "id": "lusakatimes",
+          "name": "Lusaka Times"
+        },
+        "sourceCountry": "ZM",
+        "language": "en",
+        "publishedAt": "2026-10-06T06:03:23.000Z",
+        "imageUrl": null,
+        "countryCode": "ZM",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "spSp2tQn1vPo",
+          "url": "https://www.mwebantu.com/govt-removes-specimen-sharing-clause-from-us1-5bn-health-mou/",
+          "canonicalUrl": "https://www.mwebantu.com/govt-removes-specimen-sharing-clause-from-us1-5bn-health-mou/",
+          "title": "Govt Removes Specimen-Sharing Clause from US$1.5bn Health MoU",
+          "description": "GOVERNMENT has removed the specimen-sharing requirement from the US$1.5 billion Memorandum of Understanding (MoU) with the United States Government. Minister of Health, Professor Roma Chilengi, disclosed this at a media briefing, saying the two governments have agreed on a revised MoU following…",
+          "source": {
+            "id": "mwebantu",
+            "name": "Mwebantu"
+          },
+          "sourceCountry": "ZM",
+          "language": "en",
+          "publishedAt": "2026-10-06T11:50:16.000Z",
+          "imageUrl": null,
+          "countryCode": "ZM",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T11:50:16.000Z"
     },
     {
       "id": "HenF9Li3tbvH",
@@ -378,7 +378,7 @@
         "regionCode": null
       },
       "related": [],
-      "outletCount24h": 1,
+      "outletCount24h": 0,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T07:00:39.000Z"
     }

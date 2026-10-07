@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SI",
   "countryName": "Slovenia",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "UIG5ZfNi4DWc",
@@ -460,48 +460,6 @@
       "latestPublishedAt": "2026-10-06T14:56:10.000Z"
     },
     {
-      "id": "Ycebyl_8RLpN",
-      "representative": {
-        "id": "Ycebyl_8RLpN",
-        "url": "https://www.rtvslo.si/svet/vojna-v-ukrajini/ukrajina-z-vec-sto-letalniki-nad-moskvo-in-okolico/796011",
-        "canonicalUrl": "https://www.rtvslo.si/svet/vojna-v-ukrajini/ukrajina-z-vec-sto-letalniki-nad-moskvo-in-okolico/796011",
-        "title": "Ukrajina z več sto letalniki nad Moskvo in okolico",
-        "description": "Ukrajinska vojska je ponoči izvedla obsežen napad z brezpilotnimi letalniki na Moskvo in okoliško regijo. Po navedbah moskovskega župana Sergeja Sobjanina je proti Moskvi in okolici poletelo okoli 650 letalnikov, pri čemer sta umrla najmanj dva človeka.",
-        "source": {
-          "id": "rtvslo",
-          "name": "RTV Slovenija"
-        },
-        "sourceCountry": "SI",
-        "language": "sl",
-        "publishedAt": "2026-10-06T13:59:00.000Z",
-        "imageUrl": "https://img.rtvcdn.si/_up/upload/2026/10/06/67110215.jpg",
-        "countryCode": "SI",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "XSgCW-h-_zp3",
-          "url": "https://www.delo.si/novice/svet/ukrajina-z-vec-sto-droni-nad-moskvo-in-okolico-ena-smrtna-zrtev-vec-ranjenih",
-          "canonicalUrl": "https://www.delo.si/novice/svet/ukrajina-z-vec-sto-droni-nad-moskvo-in-okolico-ena-smrtna-zrtev-vec-ranjenih",
-          "title": "Ukrajina z več sto droni nad Moskvo in okolico, ena smrtna žrtev, več ranjenih",
-          "description": "Poletelo je okoli 650 brezpilotnikov, večino so jih menda prestregli, še preden so se približali Moskvi. Umrl je 20-letni moški, ranjenih je bilo šest oseb.",
-          "source": {
-            "id": "delo",
-            "name": "Delo"
-          },
-          "sourceCountry": "SI",
-          "language": "sl",
-          "publishedAt": "2026-10-06T05:58:00.000Z",
-          "imageUrl": "https://www.delo.si/media/images/20261006/3741198.width-660.format-webp.webp",
-          "countryCode": "SI",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:59:00.000Z"
-    },
-    {
       "id": "_Zss2Z-O3Rlx",
       "representative": {
         "id": "_Zss2Z-O3Rlx",
@@ -628,48 +586,6 @@
       "latestPublishedAt": "2026-10-06T07:44:23.000Z"
     },
     {
-      "id": "xevGRSWQ-hJa",
-      "representative": {
-        "id": "xevGRSWQ-hJa",
-        "url": "https://n1info.si/novice/crna-kronika/policija-isce-voznika-ki-je-pri-mariborski-supernovi-trcil-v-otroka/",
-        "canonicalUrl": "https://n1info.si/novice/crna-kronika/policija-isce-voznika-ki-je-pri-mariborski-supernovi-trcil-v-otroka/",
-        "title": "Policija išče voznika, ki je pri mariborski Supernovi trčil v otroka",
-        "description": "Mariborski policisti iščejo očividce prometne nesreče, ki se je v ponedeljek popoldne zgodila pri Supernovi. V trčenju z neznanim voznikom sivega Merc",
-        "source": {
-          "id": "n1_si",
-          "name": "N1 Slovenija"
-        },
-        "sourceCountry": "SI",
-        "language": "sl",
-        "publishedAt": "2026-10-06T06:02:28.000Z",
-        "imageUrl": "https://n1info.si/media/images/1650043863-PRO20181018_GIL1391gf.width-1200.jpg",
-        "countryCode": "SI",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "5JqTKmGkKJo4",
-          "url": "https://vecer.com/kronika/supernova-maribor-nesreca-otrok-pobeg-price-ocividci-policija-10429428",
-          "canonicalUrl": "https://vecer.com/kronika/supernova-maribor-nesreca-otrok-pobeg-price-ocividci-policija-10429428",
-          "title": "Nesreča pri mariborski Supernovi: Voznik Mercedesa trčil v otroka in odpeljal",
-          "description": "KRONIKA",
-          "source": {
-            "id": "vecer",
-            "name": "Večer"
-          },
-          "sourceCountry": "SI",
-          "language": "sl",
-          "publishedAt": "2026-10-06T06:19:00.000Z",
-          "imageUrl": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/35/74/64/22/35746422qD0740329F0629096AA5AB3EBA931F6BD_1200.jpg",
-          "countryCode": "SI",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:19:00.000Z"
-    },
-    {
       "id": "aFj2wOGNfrOV",
       "representative": {
         "id": "aFj2wOGNfrOV",
@@ -716,6 +632,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:48:29.000Z"
+    },
+    {
+      "id": "SdwIDJFQhstR",
+      "representative": {
+        "id": "SdwIDJFQhstR",
+        "url": "https://siol.net/novice/slovenija/golob-pricakujem-se-kaksen-posvetovalni-referendum-703350",
+        "canonicalUrl": "https://siol.net/novice/slovenija/golob-pricakujem-se-kaksen-posvetovalni-referendum-703350",
+        "title": "Golob: Pričakujem še kakšen posvetovalni referendum",
+        "description": "Predsednik stranke Gibanje Svoboda Robert Golob napoved referenduma o javnem sektorju pripisuje poskusu groženj tam zaposlenim in manipulacije volivcev. Posvetovalni referendumi so strategija koalicije ob predlaganih zakonodajnih referendumih, kar se kaže tudi že v treh, ki bodo to nedeljo, meni…",
+        "source": {
+          "id": "siol",
+          "name": "Siol.net"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T15:47:00.000Z",
+        "imageUrl": "https://siol.net/media/img/86/f4/37b783a7b90543a999f8.jpeg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:47:00.000Z"
+    },
+    {
+      "id": "s0VRVeCqRwOf",
+      "representative": {
+        "id": "s0VRVeCqRwOf",
+        "url": "https://vecer.com/svet/strateski-bombniki-zda-velika-britanija-b1-umik-iran-fairford-10429525",
+        "canonicalUrl": "https://vecer.com/svet/strateski-bombniki-zda-velika-britanija-b1-umik-iran-fairford-10429525",
+        "title": "Zakaj so ZDA na hitro umaknile bombnike iz britanske baze?",
+        "description": "SVET",
+        "source": {
+          "id": "vecer",
+          "name": "Večer"
+        },
+        "sourceCountry": "SI",
+        "language": "sl",
+        "publishedAt": "2026-10-06T15:42:00.000Z",
+        "imageUrl": "https://iasstorage.vecer.com/data/Resources/00/00/00/00/00/00/42/79/50/00/42795000q68E83A2BFD4092D7B0A207508046BBEA_1200.jpg",
+        "countryCode": "SI",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:42:00.000Z"
     }
   ]
 }

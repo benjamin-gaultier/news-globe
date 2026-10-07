@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "RU",
   "countryName": "Russia",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "MTkVcaPescGs",
@@ -553,65 +553,6 @@
       "latestPublishedAt": "2026-10-06T10:33:53.000Z"
     },
     {
-      "id": "Aabf2ZUOZm-T",
-      "representative": {
-        "id": "Aabf2ZUOZm-T",
-        "url": "https://www.vedomosti.ru/society/news/2026/10/05/1234523-minoboroni-vzaimodeistvuet",
-        "canonicalUrl": "https://www.vedomosti.ru/society/news/2026/10/05/1234523-minoboroni-vzaimodeistvuet",
-        "title": "Минобороны взаимодействует со следствием по делу директора парка «Патриот»",
-        "description": null,
-        "source": {
-          "id": "vedomosti",
-          "name": "Vedomosti"
-        },
-        "sourceCountry": "RU",
-        "language": "ru",
-        "publishedAt": "2026-10-05T20:57:59.000Z",
-        "imageUrl": "https://cdn5.vedomosti.ru/image/2026/7q/1f1at3/normal-1u56.jpg",
-        "countryCode": "RU",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "7DNBpuuvONia",
-          "url": "https://novayagazeta.eu/articles/2026/10/06/novogo-gendirektora-parka-minoborony-patriot-i-ego-zamestitelei-zaderzhali-po-delu-o-vziatkakh-news",
-          "canonicalUrl": "https://novayagazeta.eu/articles/2026/10/06/novogo-gendirektora-parka-minoborony-patriot-i-ego-zamestitelei-zaderzhali-po-delu-o-vziatkakh-news",
-          "title": "Нового гендиректора парка Минобороны «Патриот» и его заместителей задержали по делу о взятках",
-          "description": "Подробности. Силовики задержали гендиректора парка Минобороны «Патриот» Игоря Васильева, сообщила «Фонтанка». По данным издания, ему вменяют получение взяток в размере 80 млн рублей. «Коммерсант» уточняет , что речь идет об откатах от поставщиков парка. Мера пресечения. Сегодня 235-й гарнизонный…",
-          "source": {
-            "id": "novayagazeta_eu",
-            "name": "Novaya Gazeta Europe"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T07:46:44.000Z",
-          "imageUrl": null,
-          "countryCode": "RU",
-          "regionCode": null
-        },
-        {
-          "id": "hxZ3GOSMGc8L",
-          "url": "https://www.kommersant.ru/doc/9006919",
-          "canonicalUrl": "https://www.kommersant.ru/doc/9006919",
-          "title": "Минобороны содействует следствию в деле гендиректора парка «Патриот» Васильева",
-          "description": "Минобороны России оказывает максимальное содействие военно-следственным органам для расследования дела в отношении гендиректора парка «Патриот» Игоря Васильева. «Нетерпимость к любым коррупционным проявлениям должностных лиц органов управления и организаций военного ведомства является безусловным…",
-          "source": {
-            "id": "kommersant",
-            "name": "Kommersant"
-          },
-          "sourceCountry": "RU",
-          "language": "ru",
-          "publishedAt": "2026-10-06T00:01:57.000Z",
-          "imageUrl": null,
-          "countryCode": "RU",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T07:46:44.000Z"
-    },
-    {
       "id": "Rez8wq7u-WrD",
       "representative": {
         "id": "Rez8wq7u-WrD",
@@ -820,6 +761,48 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T15:57:39.000Z"
+    },
+    {
+      "id": "3LnCxbg-PFKA",
+      "representative": {
+        "id": "3LnCxbg-PFKA",
+        "url": "https://tass.ru/proisshestviya/28187701",
+        "canonicalUrl": "https://tass.ru/proisshestviya/28187701",
+        "title": "В Горловке при ударе дрона ВСУ пострадал человек",
+        "description": "Украинские войска атаковали Никитовский район города",
+        "source": {
+          "id": "tass",
+          "name": "TASS"
+        },
+        "sourceCountry": "RU",
+        "language": "ru",
+        "publishedAt": "2026-10-06T15:37:34.000Z",
+        "imageUrl": null,
+        "countryCode": "RU",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "WPPv33hGWcxe",
+          "url": "https://www.kommersant.ru/doc/9007143",
+          "canonicalUrl": "https://www.kommersant.ru/doc/9007143",
+          "title": "Семь человек пострадали при ударе дрона по автобусу в Горловке",
+          "description": "Дрон ВСУ атаковал в Горловке автобус, который перевозил работников молочного предприятия, семь пассажиров получили ранения. Об этом сообщил мэр города Иван Приходько.",
+          "source": {
+            "id": "kommersant",
+            "name": "Kommersant"
+          },
+          "sourceCountry": "RU",
+          "language": "ru",
+          "publishedAt": "2026-10-06T09:00:08.000Z",
+          "imageUrl": null,
+          "countryCode": "RU",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T15:37:34.000Z"
     }
   ]
 }

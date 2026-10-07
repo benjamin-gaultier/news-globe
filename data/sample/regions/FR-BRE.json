@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "FR",
+  "countryName": "France",
+  "regionCode": "FR-BRE",
+  "regionName": "Brittany",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "clusters": [
+    {
+      "id": "cRU8_Pqq2Bdj",
+      "representative": {
+        "id": "cRU8_Pqq2Bdj",
+        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/emmanuel-macron-dans-le-finistere-pour-assister-au-tir-de-missile-exclusif-7132467.php",
+        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/emmanuel-macron-dans-le-finistere-pour-assister-au-tir-de-missile-exclusif-7132467.php",
+        "title": "Emmanuel Macron dans le Finistère pour assister au tir de missile [Exclusif]",
+        "description": "INFO LE TÉLÉGRAMME. Arrivé lundi soir dans le Finistère, le président de la République Emmanuel Macron a assisté, ce mardi matin, au tir de missile annoncé depuis plusieurs jours en Bretagne.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T08:55:00.000Z",
+        "imageUrl": "https://medialb.ultimedia.com/multi/s3x5v/3m58v0u-O.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [
+        {
+          "id": "z6k_rLZXl3Gc",
+          "url": "https://france3-regions.franceinfo.fr/bretagne/finistere/quimper/emmanuel-macron-dans-le-finistere-ce-6-octobre-pour-le-tir-d-un-missile-intercontinental-3428772.html",
+          "canonicalUrl": "https://france3-regions.franceinfo.fr/bretagne/finistere/quimper/emmanuel-macron-dans-le-finistere-ce-6-octobre-pour-le-tir-d-un-missile-intercontinental-3428772.html",
+          "title": "Emmanuel Macron dans le Finistère ce 6 octobre pour le tir d'un missile intercontinental",
+          "description": "Emmanuel Macron a assisté ce mardi 6 octobre à un \"premier tir\" d'exercice d'un missile intercontinental lancé depuis un sous-marin nucléaire lanceur d'engins au large du Finistère. L'information a été faite par l'Elysée et le ministère des Armées.",
+          "source": {
+            "id": "france3_bretagne",
+            "name": "France 3 Bretagne"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:50:16.000Z",
+          "imageUrl": "https://france3-regions.franceinfo.fr/image/38BaLPoEVYMLnbIy7gQWGrDAXGg/930x620/filters:format(webp)/regions/2026/10/06/6ac4ee595bdaf843252888.png",
+          "countryCode": "FR",
+          "regionCode": "FR-BRE"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:50:16.000Z"
+    },
+    {
+      "id": "TDqQCxtml1ig",
+      "representative": {
+        "id": "TDqQCxtml1ig",
+        "url": "https://www.letelegramme.fr/finistere/brest-29200/direct-des-blocus-en-place-aux-lycees-de-lharteloire-et-lesven-a-brest-7133135.php",
+        "canonicalUrl": "https://www.letelegramme.fr/finistere/brest-29200/direct-des-blocus-en-place-aux-lycees-de-lharteloire-et-lesven-a-brest-7133135.php",
+        "title": "DIRECT - Des blocus en place aux lycées de l'Harteloire et Lesven à Brest",
+        "description": "La mobilisation lycéenne se poursuit ce mercredi matin à Brest. Comme annoncé, les manifestants ont mis en place des blocus au petit matin, comme à l'Harteloire et à Lesven.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:42:58.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac5e9a13055c79a7c003e74/web_golden_xxl/6ac5e9a13055c79a7c003e74.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:42:58.000Z"
+    },
+    {
+      "id": "llKRZ5eJuqto",
+      "representative": {
+        "id": "llKRZ5eJuqto",
+        "url": "https://www.letelegramme.fr/france/direct-mobilisation-des-lyceens-le-ministre-de-leducation-auditionne-a-lassemblee-ce-mercredi-7133118.php",
+        "canonicalUrl": "https://www.letelegramme.fr/france/direct-mobilisation-des-lyceens-le-ministre-de-leducation-auditionne-a-lassemblee-ce-mercredi-7133118.php",
+        "title": "DIRECT - Mobilisation des lycéens : deux blocus à Brest, le ministre de l'Education à l'Assemblée",
+        "description": "Au lendemain d'une journée d'action, où 250 000 manifestants ont battu le pavé en France, les lycéens continuent de réclamer des moyens pour l'éducation et veulent poursuivre leur mobilisation, malgré l'appel du gouvernement à retourner dans leurs établissements pour dialoguer. Suivez notre direct.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:42:00.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac5e93ab4ee5ee51a0e2d2c/web_golden_xxl/6ac5e93ab4ee5ee51a0e2d2c.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:42:00.000Z"
+    },
+    {
+      "id": "g_EiPIEaKbNN",
+      "representative": {
+        "id": "g_EiPIEaKbNN",
+        "url": "https://www.letelegramme.fr/bretagne/meurtre-de-veronique-duchesne-suivez-le-proces-de-thierry-meunier-7122112.php",
+        "canonicalUrl": "https://www.letelegramme.fr/bretagne/meurtre-de-veronique-duchesne-suivez-le-proces-de-thierry-meunier-7122112.php",
+        "title": "Meurtre de Véronique Duchesne : suivez le procès de Thierry Meunier",
+        "description": "C'est un procès hors norme qui s'est ouvert à Saint-Brieuc le lundi 21 septembre. Pendant trois semaines, la cour d’assises des Côtes-d’Armor juge Thierry Meunier, accusé du meurtre de son épouse, Véronique Duchesne. Son corps a été retrouvé en octobre 2010, rejeté par la mer, sur la grève de la…",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:24:13.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ab0fbf640f1f304cb0159d3/web_golden_xxl/6ab0fbf640f1f304cb0159d3.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:24:13.000Z"
+    },
+    {
+      "id": "gyN7KX10-Inc",
+      "representative": {
+        "id": "gyN7KX10-Inc",
+        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/meteo-en-bretagne-un-mercredi-dans-le-vent-et-sous-les-averses-7133131.php",
+        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/meteo-en-bretagne-un-mercredi-dans-le-vent-et-sous-les-averses-7133131.php",
+        "title": "Météo en Bretagne : un mercredi dans le vent, et sous les averses",
+        "description": "Des averses, des nuages et du vent sont attendus sur la Bretagne, ce mercredi 7 octobre, avec des températures sous les 20 °C.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:25:00.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac5e2e2d5e87deaa10dd9c3/web_golden_xxl/6ac5e2e2d5e87deaa10dd9c3.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:25:00.000Z"
+    },
+    {
+      "id": "UUsnYL7r7wWR",
+      "representative": {
+        "id": "UUsnYL7r7wWR",
+        "url": "https://www.20minutes.fr/societe/4251950-20261007-colere-lyceens-personne-veut-pourquoi-lyceens-aucun-cours-distanciel?at_medium=display&at_campaign=149",
+        "canonicalUrl": "https://www.20minutes.fr/societe/4251950-20261007-colere-lyceens-personne-veut-pourquoi-lyceens-aucun-cours-distanciel",
+        "title": "Colère des lycéens : « Personne n’en veut »… Pourquoi les lycéens n’ont aucun cours en distanciel",
+        "description": "La promesse de l’Education nationale de proposer de l’enseignement à distance pendant les fermetures de lycées n’est absolument pas tenue",
+        "source": {
+          "id": "20minutes_rennes",
+          "name": "20 Minutes Rennes"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T04:17:36.000Z",
+        "imageUrl": "https://img.20mn.fr/hwg06UlsRmCaZU5eDrVTwSk/1200x768_les-cours-en-distanciel-promis-par-le-ministre-de-l-education-nationale-edouard-geffray-n-ont-pas-lieu-dans-la-plupart-des-lycees-les-eleves-n-ont-aucun-cours-depuis-le-debut-des-blocages",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T04:17:36.000Z"
+    },
+    {
+      "id": "uY6WralMAOuV",
+      "representative": {
+        "id": "uY6WralMAOuV",
+        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/13-million-de-bretons-exposes-votre-commune-est-elle-concernee-par-ce-phenomene-qui-fissure-les-maisons-carte-7133092.php",
+        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/13-million-de-bretons-exposes-votre-commune-est-elle-concernee-par-ce-phenomene-qui-fissure-les-maisons-carte-7133092.php",
+        "title": "1,3 million de Bretons exposés : votre commune est-elle concernée par ce phénomène inquiétant qui fissure les maisons ? [Carte]",
+        "description": "Fléau méconnu, le retrait-gonflement des argiles n’épargne pas les Bretons. Un risque auquel 1,3 million d’habitants sont exposés dans la région, plus ou moins fortement. Et qui s’aggravera avec le réchauffement climatique, préviennent les experts.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T03:30:00.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac5e575a75aa245a3002fc0/web_golden_xxl/6ac5e575a75aa245a3002fc0.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T03:30:00.000Z"
+    },
+    {
+      "id": "tKKnSi4FWKL-",
+      "representative": {
+        "id": "tKKnSi4FWKL-",
+        "url": "https://www.letelegramme.fr/france/direct-lyceens-en-colere-des-dizaines-de-milliers-de-lyceens-sappretent-a-manifester-ce-mardi-dans-toute-la-france-7132244.php",
+        "canonicalUrl": "https://www.letelegramme.fr/france/direct-lyceens-en-colere-des-dizaines-de-milliers-de-lyceens-sappretent-a-manifester-ce-mardi-dans-toute-la-france-7132244.php",
+        "title": "DIRECT - Colère des lycéens : en France, des appels à la poursuite de la mobilisation",
+        "description": "Ce mardi, \"l'acte III\" a démarré avec un bilan alourdi de blessés graves. Dans un climat social tendu, les élèves, qui réclament plus de moyens pour leurs établissements, ont reçu le soutien des syndicats. Revivez notre direct.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T19:56:20.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac4d5ba10957c277b052710/web_golden_xxl/6ac4d5ba10957c277b052710.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:56:20.000Z"
+    },
+    {
+      "id": "F1X9t5laVocS",
+      "representative": {
+        "id": "F1X9t5laVocS",
+        "url": "https://www.letelegramme.fr/cotes-d-armor/saint-quay-portrieux-22410/proces-thierry-meunier-moi-je-me-suis-fait-abuser-financierement-mais-veronique-est-allee-plus-loin-avec-lui-7133114.php",
+        "canonicalUrl": "https://www.letelegramme.fr/cotes-d-armor/saint-quay-portrieux-22410/proces-thierry-meunier-moi-je-me-suis-fait-abuser-financierement-mais-veronique-est-allee-plus-loin-avec-lui-7133114.php",
+        "title": "Procès Thierry Meunier : « Moi, je me suis fait abuser financièrement mais Véronique est allée plus loin avec lui »",
+        "description": "L’examen de la personnalité de l’accusé s’est achevé, ce mardi après-midi, devant la cour d’assises des Côtes-d’Armor. Le récit d’E., décrivant un homme oisif et vindicatif vivant à ses crochets, a captivé l’audience.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T19:09:00.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac54804068468fe0c0e96c2/web_golden_xxl/6ac54804068468fe0c0e96c2.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T19:09:00.000Z"
+    },
+    {
+      "id": "y-IXCAbZnCQH",
+      "representative": {
+        "id": "y-IXCAbZnCQH",
+        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/treize-ans-de-prison-pour-le-beau-pere-reconnu-coupable-de-viols-incestueux-dans-le-morbihan-7133105.php",
+        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/treize-ans-de-prison-pour-le-beau-pere-reconnu-coupable-de-viols-incestueux-dans-le-morbihan-7133105.php",
+        "title": "Treize ans de prison pour le beau-père reconnu coupable de viols incestueux dans le Morbihan",
+        "description": "La cour d’assises du Morbihan a condamné, à treize ans de réclusion criminelle, un homme de 51 ans jugé, depuis lundi, pour les viols et les agressions sexuelles commis sur sa belle-fille, en 2016 et 2017, près de Vannes. Elle avait 10 ans.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T18:39:00.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac540efdcf5b40dc5000b92/web_golden_xxl/6ac540efdcf5b40dc5000b92.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:39:00.000Z"
+    },
+    {
+      "id": "nSsRv1xw7hoI",
+      "representative": {
+        "id": "nSsRv1xw7hoI",
+        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/en-ille-et-vilaine-la-justice-maintient-linterdiction-de-rassemblements-autour-de-36-lycees-7133087.php",
+        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/en-ille-et-vilaine-la-justice-maintient-linterdiction-de-rassemblements-autour-de-36-lycees-7133087.php",
+        "title": "En Ille-et-Vilaine, la justice maintient l’interdiction de rassemblements autour de 36 lycées",
+        "description": "Le tribunal administratif de Rennes a rejeté, ce mardi, les recours contre l’interdiction de rassemblement autour de 36 lycées d’Ille-et-Vilaine. La mesure, prise par la préfète, est donc maintenue.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T17:24:00.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac52edc72d822c862075ad0/web_golden_xxl/6ac52edc72d822c862075ad0.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:24:00.000Z"
+    },
+    {
+      "id": "BcfNf0m5dgKD",
+      "representative": {
+        "id": "BcfNf0m5dgKD",
+        "url": "https://france3-regions.franceinfo.fr/bretagne/ille-et-vilaine/rennes/octobre-rose-garder-confiance-en-soi-malgre-la-maladie-3429030.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/bretagne/ille-et-vilaine/rennes/octobre-rose-garder-confiance-en-soi-malgre-la-maladie-3429030.html",
+        "title": "Octobre rose : Garder confiance en soi malgré la maladie",
+        "description": "Penser à son bien-être, à sa féminité, pas toujours simple quand le corps et le moral sont affectés par le cancer. En ce mois d'Octobre Rose, des ateliers pour reprendre confiance sont proposés à des femmes suivies en cancérologie au centre Eugène Marquis de Rennes.",
+        "source": {
+          "id": "france3_bretagne",
+          "name": "France 3 Bretagne"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T17:16:55.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/h--3WSTBlM3ZOnn8qmVRuP0t8mE/930x620/filters:format(webp)/regions/2026/10/06/6ac5175971e3f680893638.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:16:55.000Z"
+    },
+    {
+      "id": "hBDp_8bhTkAo",
+      "representative": {
+        "id": "hBDp_8bhTkAo",
+        "url": "https://www.letelegramme.fr/finistere/quimper-29000/cest-une-complicite-qui-se-cree-ce-quimperois-senvole-pour-madagascar-dans-le-but-dappareiller-enfants-sourds-et-malentendants-7133076.php",
+        "canonicalUrl": "https://www.letelegramme.fr/finistere/quimper-29000/cest-une-complicite-qui-se-cree-ce-quimperois-senvole-pour-madagascar-dans-le-but-dappareiller-enfants-sourds-et-malentendants-7133076.php",
+        "title": "« C’est une complicité qui se crée » : ce Quimpérois s’envole pour Madagascar dans le but d’appareiller enfants sourds et malentendants",
+        "description": "Quinze professionnels de l’audition, tous mécènes de l’association Audition Solidarité, prennent le cap vers la capitale de Madagascar, dont le Quimpérois Mathieu Le Treut, avec pour objectif d’appareiller, contrôler et remplacer le suivi de près de 200 enfants sourds et malentendants du 13 au 21…",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T17:15:00.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac54bf04df34f047e0b4c3c/web_golden_xxl/6ac54bf04df34f047e0b4c3c.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:15:00.000Z"
+    },
+    {
+      "id": "liccLY47_AC5",
+      "representative": {
+        "id": "liccLY47_AC5",
+        "url": "https://www.letelegramme.fr/finistere/declassement-nitrates-dans-les-monts-darree-des-associations-attaquent-en-justice-la-decision-du-prefet-7133081.php",
+        "canonicalUrl": "https://www.letelegramme.fr/finistere/declassement-nitrates-dans-les-monts-darree-des-associations-attaquent-en-justice-la-decision-du-prefet-7133081.php",
+        "title": "Déclassement nitrates dans les monts d’Arrée : des associations attaquent en justice la décision du préfet",
+        "description": "L’exclusion de neuf communes des monts d’Arrée (29) du classement « zones vulnérables à la pollution par les nitrates d’origine agricole » ne passe pas pour deux associations environnementales qui ont décidé de saisir le juge administratif afin de faire annuler cette décision.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T17:14:00.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac537998e11b4fb28043780/web_golden_xxl/6ac537998e11b4fb28043780.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:14:00.000Z"
+    },
+    {
+      "id": "jVCw9HrmrTu4",
+      "representative": {
+        "id": "jVCw9HrmrTu4",
+        "url": "https://www.letelegramme.fr/bretagne/toutes-les-infos/cette-operation-permet-de-soulager-la-population-la-gendarmerie-interpelle-six-suspects-dans-laffaire-des-motos-volees-autour-de-henon-7133078.php",
+        "canonicalUrl": "https://www.letelegramme.fr/bretagne/toutes-les-infos/cette-operation-permet-de-soulager-la-population-la-gendarmerie-interpelle-six-suspects-dans-laffaire-des-motos-volees-autour-de-henon-7133078.php",
+        "title": "« Cette opération permet de soulager la population » : la gendarmerie interpelle six suspects dans l’affaire des motos volées autour d’Hénon",
+        "description": "Après des mois d’angoisse et d’exaspération dans le secteur d’Hénon (22), l’enquête sur la vague de vols de motos a donné lieu à une importante opération de gendarmerie, lundi. Six suspects ont été interpellés et placés en garde à vue.",
+        "source": {
+          "id": "letelegramme",
+          "name": "Le Télégramme"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T17:10:00.000Z",
+        "imageUrl": "https://media.letelegramme.fr/api/v1/images/view/6ac52d5ecb071da73d004e5f/web_golden_xxl/6ac52d5ecb071da73d004e5f.1",
+        "countryCode": "FR",
+        "regionCode": "FR-BRE"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:10:00.000Z"
+    }
+  ]
+}

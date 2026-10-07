@@ -2,8 +2,84 @@
   "schemaVersion": 1,
   "countryCode": "PE",
   "countryName": "Peru",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
+    {
+      "id": "rzR7gnnrSs4X",
+      "representative": {
+        "id": "rzR7gnnrSs4X",
+        "url": "https://elcomercio.pe/elecciones/resultados-onpe-elecciones-regionales-y-municipales-2026-en-vivo-conteo-oficial-para-saber-quien-gana-las-elecciones-de-alcaldes-y-gobernadores-en-el-peru-erm-2026-lbposting-noticia/",
+        "canonicalUrl": "https://elcomercio.pe/elecciones/resultados-onpe-elecciones-regionales-y-municipales-2026-en-vivo-conteo-oficial-para-saber-quien-gana-las-elecciones-de-alcaldes-y-gobernadores-en-el-peru-erm-2026-lbposting-noticia/",
+        "title": "Resultados ONPE al 92.71%: Conteos oficiales de las Elecciones Regionales y Municipales",
+        "description": null,
+        "source": {
+          "id": "elcomercio",
+          "name": "El Comercio"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T12:35:15.000Z",
+        "imageUrl": "https://elcomercio.pe/resizer/v2/R32AFW42JJBPTFDMBMAPUYQ5OY.jpg?auth=1093f280197329b1e26174850e03767a8a1291a5dcb16ad643886534284ef179&smart=true&width=1200&height=800",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "O_LU3MwYijh-",
+          "url": "https://larepublica.pe/politica/2026/10/04/primeros-resultados-onpe-en-vivo-conoce-quienes-lideran-las-elecciones-regionales-y-municipales-2026-hnews-301384",
+          "canonicalUrl": "https://larepublica.pe/politica/2026/10/04/primeros-resultados-onpe-en-vivo-conoce-quienes-lideran-las-elecciones-regionales-y-municipales-2026-hnews-301384",
+          "title": "Últimos resultados ONPE EN VIVO: conoce quiénes lideran las elecciones regionales y municipales 2026",
+          "description": "La ONPE publicó los primeros resultados oficiales de las elecciones regionales y municipales 2026 luego del cierre de las mesas de votación. Conoce el avance de las cifras y los resultados por regiones, provincias y distritos del país.",
+          "source": {
+            "id": "larepublica",
+            "name": "La República"
+          },
+          "sourceCountry": "PE",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:24:38.000Z",
+          "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/04/6ac2ef9c994602347b08d8e8.jpg",
+          "countryCode": "PE",
+          "regionCode": null
+        },
+        {
+          "id": "GA8RyrrDp74l",
+          "url": "https://gestion.pe/peru/erm-2026-conteo-oficial-onpe-resultados-de-la-elecciones-a-la-alcaldia-de-lima-rafael-lopez-aliaga-y-francis-allison-noticia/",
+          "canonicalUrl": "https://gestion.pe/peru/erm-2026-conteo-oficial-onpe-resultados-de-la-elecciones-a-la-alcaldia-de-lima-rafael-lopez-aliaga-y-francis-allison-noticia/",
+          "title": "Conteo oficial de la ONPE: resultados de elecciones a la Alcaldía de Lima al 92.710%",
+          "description": "Conteo oficial ONPE: Resultados de la elecciones a la alcaldía de Lima. El 4 de octubre se llevaron acabo las elecciones municipales y regionales. El conteo lo encabeza Renovación Popular de Rafael López Aliaga y Francis Allison de Avanza País.",
+          "source": {
+            "id": "gestion",
+            "name": "Gestión"
+          },
+          "sourceCountry": "PE",
+          "language": "es",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "imageUrl": "https://gestion.pe/resizer/v2/EUQLF4L5ZZDYRBWIVZN4T3BRYI.jpg?auth=7a7717f720adb9a13b481d6e5fb2e0a9ea301c8d51d0b889f27faad309f268ab&smart=true&width=1200&height=800",
+          "countryCode": "PE",
+          "regionCode": null
+        },
+        {
+          "id": "STE3KVkllL8R",
+          "url": "https://rpp.pe/politica/elecciones/resultados-onpe-en-vivo-lima-2026-hoy-conteo-de-votos-actualizado-rafael-lopez-aliaga-francis-allison-elecciones-peru-noticia-1710818",
+          "canonicalUrl": "https://rpp.pe/politica/elecciones/resultados-onpe-en-vivo-lima-2026-hoy-conteo-de-votos-actualizado-rafael-lopez-aliaga-francis-allison-elecciones-peru-noticia-1710818",
+          "title": "Resultados ONPE 2026 al 92.710%: revisa AQUÍ el conteo oficial de los candidatos para Lima Metropolitana",
+          "description": "Revisa en tiempo real el conteo de actas con los resultados de las Elecciones Regionales y Municipales 2026. Renovación Popular mantiene el primer lugar para la alcaldía de Lima.",
+          "source": {
+            "id": "rpp",
+            "name": "RPP Noticias"
+          },
+          "sourceCountry": "PE",
+          "language": "es",
+          "publishedAt": "2026-10-06T11:15:10.000Z",
+          "imageUrl": "https://f.rpp-noticias.io/2026/10/04/571557_1914788.jpg?imgdimension=look",
+          "countryCode": "PE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 4,
+      "outletCount": 4,
+      "latestPublishedAt": "2026-10-06T13:13:10.000Z"
+    },
     {
       "id": "-LP_bHDnIo5z",
       "representative": {
@@ -93,186 +169,9 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 5,
+      "outletCount24h": 4,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T12:31:14.000Z"
-    },
-    {
-      "id": "-W8OFxuIv3AI",
-      "representative": {
-        "id": "-W8OFxuIv3AI",
-        "url": "https://elcomercio.pe/elecciones/lima/flash-datum-en-santiago-de-surco-resultados-de-la-elecciones-regionales-y-municipales-2026-erm-2026-noticia/",
-        "canonicalUrl": "https://elcomercio.pe/elecciones/lima/flash-datum-en-santiago-de-surco-resultados-de-la-elecciones-regionales-y-municipales-2026-erm-2026-noticia/",
-        "title": "Flash Datum en Santiago de Surco: resultados de la Elecciones Regionales y Municipales 2026 | ERM 2026",
-        "description": "[CANDIDATO], de [PARTIDO/ORGANIZACIÓN POLÍTICA], obtiene [XX%] de las preferencias en el distrito de Santiago de Surco, según el primer resultado de la boca de urna de Datum para las Elecciones Regionales y Municipales 2026. [SEGUNDO CANDIDATO] ocupa el segundo lugar con [XX%], seguido de [TERCER…",
-        "source": {
-          "id": "elcomercio",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-04T23:07:53.000Z",
-        "imageUrl": "https://elcomercio.pe/resizer/v2/52BQDNNJUJA3PFSDFDX4QRZAO4.png?auth=26e6472e3eb077dbcfe563b287c832fcb0626b93ba76b06dbff26ea82a41f4b3&smart=true&width=1374&height=719",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "O_LU3MwYijh-",
-          "url": "https://larepublica.pe/politica/2026/10/04/primeros-resultados-onpe-en-vivo-conoce-quienes-lideran-las-elecciones-regionales-y-municipales-2026-hnews-301384",
-          "canonicalUrl": "https://larepublica.pe/politica/2026/10/04/primeros-resultados-onpe-en-vivo-conoce-quienes-lideran-las-elecciones-regionales-y-municipales-2026-hnews-301384",
-          "title": "Últimos resultados ONPE EN VIVO: conoce quiénes lideran las elecciones regionales y municipales 2026",
-          "description": "La ONPE publicó los primeros resultados oficiales de las elecciones regionales y municipales 2026 luego del cierre de las mesas de votación. Conoce el avance de las cifras y los resultados por regiones, provincias y distritos del país.",
-          "source": {
-            "id": "larepublica",
-            "name": "La República"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:24:38.000Z",
-          "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/04/6ac2ef9c994602347b08d8e8.jpg",
-          "countryCode": "PE",
-          "regionCode": null
-        },
-        {
-          "id": "GA8RyrrDp74l",
-          "url": "https://gestion.pe/peru/erm-2026-conteo-oficial-onpe-resultados-de-la-elecciones-a-la-alcaldia-de-lima-rafael-lopez-aliaga-y-francis-allison-noticia/",
-          "canonicalUrl": "https://gestion.pe/peru/erm-2026-conteo-oficial-onpe-resultados-de-la-elecciones-a-la-alcaldia-de-lima-rafael-lopez-aliaga-y-francis-allison-noticia/",
-          "title": "Conteo oficial de la ONPE: resultados de elecciones a la Alcaldía de Lima al 92.710%",
-          "description": "Conteo oficial ONPE: Resultados de la elecciones a la alcaldía de Lima. El 4 de octubre se llevaron acabo las elecciones municipales y regionales. El conteo lo encabeza Renovación Popular de Rafael López Aliaga y Francis Allison de Avanza País.",
-          "source": {
-            "id": "gestion",
-            "name": "Gestión"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "imageUrl": "https://gestion.pe/resizer/v2/EUQLF4L5ZZDYRBWIVZN4T3BRYI.jpg?auth=7a7717f720adb9a13b481d6e5fb2e0a9ea301c8d51d0b889f27faad309f268ab&smart=true&width=1200&height=800",
-          "countryCode": "PE",
-          "regionCode": null
-        },
-        {
-          "id": "STE3KVkllL8R",
-          "url": "https://rpp.pe/politica/elecciones/resultados-onpe-en-vivo-lima-2026-hoy-conteo-de-votos-actualizado-rafael-lopez-aliaga-francis-allison-elecciones-peru-noticia-1710818",
-          "canonicalUrl": "https://rpp.pe/politica/elecciones/resultados-onpe-en-vivo-lima-2026-hoy-conteo-de-votos-actualizado-rafael-lopez-aliaga-francis-allison-elecciones-peru-noticia-1710818",
-          "title": "Resultados ONPE 2026 al 92.710%: revisa AQUÍ el conteo oficial de los candidatos para Lima Metropolitana",
-          "description": "Revisa en tiempo real el conteo de actas con los resultados de las Elecciones Regionales y Municipales 2026. Renovación Popular mantiene el primer lugar para la alcaldía de Lima.",
-          "source": {
-            "id": "rpp",
-            "name": "RPP Noticias"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T11:15:10.000Z",
-          "imageUrl": "https://f.rpp-noticias.io/2026/10/04/571557_1914788.jpg?imgdimension=look",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T13:13:10.000Z"
-    },
-    {
-      "id": "BTHHS4UE9vQo",
-      "representative": {
-        "id": "BTHHS4UE9vQo",
-        "url": "https://elcomercio.pe/politica/gobierno/ejecutivo-pide-autorizacion-para-viajes-de-keiko-fujimori-a-el-salvador-y-espana-ultimas-noticia/",
-        "canonicalUrl": "https://elcomercio.pe/politica/gobierno/ejecutivo-pide-autorizacion-para-viajes-de-keiko-fujimori-a-el-salvador-y-espana-ultimas-noticia/",
-        "title": "Ejecutivo pide autorización para viajes de Keiko Fujimori a El Salvador y España",
-        "description": "El Ejecutivo solicitó al Senado de la República autorización para que la presidenta Keiko Fujimori pueda salir del país y realizar dos viajes oficiales entre finales de octubre e inicios de noviembre.",
-        "source": {
-          "id": "elcomercio",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-05T20:37:03.000Z",
-        "imageUrl": "https://elcomercio.pe/resizer/v2/4C4RNFYHNJHIBOXYFH34LN3L7M.png?auth=49de7575942014c6361b9ac0a72f25e66ac18dcdbfa7bbde3c3112d55e557d2c&smart=true&width=1280&height=720",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "HX2xvE41Uef1",
-          "url": "https://gestion.pe/peru/politica/poder-ejecutivo-pide-al-senado-autorizacion-para-viajes-de-keiko-fujimori-a-el-salvador-y-espana-noticia/",
-          "canonicalUrl": "https://gestion.pe/peru/politica/poder-ejecutivo-pide-al-senado-autorizacion-para-viajes-de-keiko-fujimori-a-el-salvador-y-espana-noticia/",
-          "title": "Poder Ejecutivo pide al Senado autorización para viajes de Keiko Fujimori a El Salvador y España",
-          "description": "El Poder Ejecutivo solicitó al Senado autorizar la salida del país de la presidenta Keiko Fujimori, para viajar a la República de El Salvador para realizar una visita oficial y sostener un encuentro con el presidente Nayib Bukele, y a la ciudad de Madrid, España, con la finalidad de participar en…",
-          "source": {
-            "id": "gestion",
-            "name": "Gestión"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T01:45:00.000Z",
-          "imageUrl": "https://gestion.pe/resizer/v2/QIUL5ZG2MJDMHCTCEQ4JVO5BBQ.jpg?auth=3e68bb36490320b8ef8453d62e83038b6eb0d12331ec1aa00c3f3ea97dbc559e&smart=true&width=2047&height=1365",
-          "countryCode": "PE",
-          "regionCode": null
-        },
-        {
-          "id": "NKjq49Bq7UOz",
-          "url": "https://larepublica.pe/politica/2026/10/05/keiko-fujimori-solicita-al-senado-autorizacion-para-viajar-a-el-salvador-y-espana-en-octubre-y-noviembre-hnews-446320",
-          "canonicalUrl": "https://larepublica.pe/politica/2026/10/05/keiko-fujimori-solicita-al-senado-autorizacion-para-viajar-a-el-salvador-y-espana-en-octubre-y-noviembre-hnews-446320",
-          "title": "Keiko Fujimori solicita al Senado autorización para viajar a El Salvador y España en octubre y noviembre",
-          "description": "El pedido incluye una reunión con Nayib Bukele y una visita al CECOT el 29 de octubre, además de la Cumbre Iberoamericana en Madrid. Entre ambos viajes, la presidenta pasaría solo un día en el país.",
-          "source": {
-            "id": "larepublica",
-            "name": "La República"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-05T21:37:13.000Z",
-          "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/05/6ac41870994602347b08d8fc.jpg",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T12:19:56.000Z"
-    },
-    {
-      "id": "qOLrgJZZcODN",
-      "representative": {
-        "id": "qOLrgJZZcODN",
-        "url": "https://larepublica.pe/politica/2026/10/04/resultados-onpe-cajamarca-2026-quien-es-el-virtual-gobernador-regional-160940",
-        "canonicalUrl": "https://larepublica.pe/politica/2026/10/04/resultados-onpe-cajamarca-2026-quien-es-el-virtual-gobernador-regional-160940",
-        "title": "Resultados en la región de Cajamarca: Edison Carrasco y Moisés González disputarán una segunda vuelta, según la ONPE",
-        "description": "La población de la región de Cajamarca ya eligió a sus nuevas autoridades en estas Elecciones 2026. Somos Perú y Alianza Para el Progreso se ubicaron en los primeros lugares en las votaciones.",
-        "source": {
-          "id": "larepublica",
-          "name": "La República"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-05T20:47:04.000Z",
-        "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/02/6ac0423d37ba73030a0b301d.jpg",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "haxNy5PmgLgc",
-          "url": "https://andina.pe/agencia/noticia-resultados-onpe-loreto-somos-peru-y-alianza-para-progreso-disputaran-segunda-vuelta-1094813.aspx",
-          "canonicalUrl": "https://andina.pe/agencia/noticia-resultados-onpe-loreto-somos-peru-y-alianza-para-progreso-disputaran-segunda-vuelta-1094813.aspx",
-          "title": "Resultados ONPE en Loreto: Somos Perú y Alianza para el Progreso disputarán segunda vuelta",
-          "description": "Loreto será una de las regiones que volverá a las urnas en noviembre para elegir a su gobernador y vicegobernador regional, luego de que ninguna de las fórmulas alcanzara el 30 % de los votos válidos requerido por la legislación electoral.",
-          "source": {
-            "id": "andina",
-            "name": "Andina"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T13:13:39.000Z",
-          "imageUrl": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/06/001321285W.jpg",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:13:39.000Z"
     },
     {
       "id": "8iya_mzeppc9",
@@ -315,334 +214,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T13:00:43.000Z"
-    },
-    {
-      "id": "Xj6nJixIMDo7",
-      "representative": {
-        "id": "Xj6nJixIMDo7",
-        "url": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-06-de-octubre-del-2026-noticia-1711014",
-        "canonicalUrl": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-06-de-octubre-del-2026-noticia-1711014",
-        "title": "Precio del dólar Perú y tipo de cambio hoy 06 de octubre del 2026",
-        "description": "En Perú, el tipo de cambio para hoy martes 06 de octubre es de S/3.44 según el Banco Central de Reserva Del Perú.",
-        "source": {
-          "id": "rpp",
-          "name": "RPP Noticias"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-06T11:05:39.000Z",
-        "imageUrl": "https://f.rpp-noticias.io/2025/08/25/472947_1784711.jpg?imgdimension=look",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Vk9gnyBU-hqR",
-          "url": "https://gestion.pe/economia/mercados/tipo-de-cambio-dolar-hoy-en-peru-cuanto-esta-el-precio-del-dolar-este-lunes-5-de-octubre-dolares-a-soles-compra-y-venta-bcrp-noticia/",
-          "canonicalUrl": "https://gestion.pe/economia/mercados/tipo-de-cambio-dolar-hoy-en-peru-cuanto-esta-el-precio-del-dolar-este-lunes-5-de-octubre-dolares-a-soles-compra-y-venta-bcrp-noticia/",
-          "title": "Tipo de cambio hoy en Perú: ¿En cuánto cerró el dólar este lunes 5 de octubre?",
-          "description": "El lunes 5 de octubre, el dólar en Perú comenzó el día con un descenso, mientras los inversionistas evalúan las perspectivas de las tasas de interés de la Reserva Federal.",
-          "source": {
-            "id": "gestion",
-            "name": "Gestión"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-05T18:56:51.000Z",
-          "imageUrl": "https://gestion.pe/resizer/v2/IQJX3DYHX5GIFCPOWR3LOI5NK4.jpg?auth=97c3e802f396eac8cb3e4005b5c99151d579925cf1286e00b9ab7d875aec686a&smart=true&width=1200&height=800",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:05:39.000Z"
-    },
-    {
-      "id": "P_gPP-t30nkp",
-      "representative": {
-        "id": "P_gPP-t30nkp",
-        "url": "https://elcomercio.pe/peru/temblor-en-peru-hoy-segun-reportes-del-igp-lugar-magnitud-y-hora-del-sismo-ultimo-minuto-tdpe-noticia/",
-        "canonicalUrl": "https://elcomercio.pe/peru/temblor-en-peru-hoy-segun-reportes-del-igp-lugar-magnitud-y-hora-del-sismo-ultimo-minuto-tdpe-noticia/",
-        "title": "Último temblor en Perú hoy, lunes 5 de octubre: epicentro, magnitud y hora del sismo vía IGP",
-        "description": "Último temblor en el Perú: revisa en la siguiente nota los últimos reportes del IGP sobre sismos registrados en el país.",
-        "source": {
-          "id": "elcomercio",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-05T11:00:01.000Z",
-        "imageUrl": "https://elcomercio.pe/resizer/v2/N722SJPCRNATPGADNVUOZHB7BA.png?auth=42e73e1e48013178b1b9fac05b23f347235ceed1661f35073cc5f57c6e365c69&smart=true&width=1300&height=800",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "NkeEVyiPDtUa",
-          "url": "https://gestion.pe/mix/respuestas/temblor-en-mexico-en-vivo-hoy-05-y-06-de-octubre-2026-hora-exacta-magnitud-y-donde-fue-el-epicentro-del-ultimo-sismo-segun-el-ssn-nnda-nnrt-noticia/",
-          "canonicalUrl": "https://gestion.pe/mix/respuestas/temblor-en-mexico-en-vivo-hoy-05-y-06-de-octubre-2026-hora-exacta-magnitud-y-donde-fue-el-epicentro-del-ultimo-sismo-segun-el-ssn-nnda-nnrt-noticia/",
-          "title": "Temblor en México EN VIVO hoy, lunes 5 de octubre: hora exacta, magnitud y dónde fue el epicentro del último sismo",
-          "description": "¿Dónde tembló en México hoy? Revisa el reporte del SSN sobre el último movimiento sísmico del lunes 5 de octubre: hora, magnitud y epicentro.",
-          "source": {
-            "id": "gestion",
-            "name": "Gestión"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-05T23:20:00.000Z",
-          "imageUrl": "https://gestion.pe/resizer/v2/ME4ZRLJTINCBVF6EHCY6C7NNDY.jpg?auth=e4365c574eab7f27a0ad8573c2b21443bf3b6bee9c56e047b575478d6862e6d6&smart=true&width=2400&height=1620",
-          "countryCode": "PE",
-          "regionCode": null
-        },
-        {
-          "id": "GO0tUnLfNWc2",
-          "url": "https://rpp.pe/lima/desastres-naturales/temblor-en-peru-hoy-4-de-octubre-magnitud-y-epicentro-del-sismo-segun-igp-live-3646",
-          "canonicalUrl": "https://rpp.pe/lima/desastres-naturales/temblor-en-peru-hoy-4-de-octubre-magnitud-y-epicentro-del-sismo-segun-igp-live-3646",
-          "title": "Temblor en Perú, hoy 6 de octubre: magnitud y epicentro del sismo según IGP",
-          "description": "Actualización EN VIVO del último sismo en Perú hoy, martes 6 de octubre según las últimas actualizaciones del Instituto Geofísico del Perú IGP",
-          "source": {
-            "id": "rpp",
-            "name": "RPP Noticias"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-05T01:30:58.000Z",
-          "imageUrl": "https://f.rpp-noticias.io/2024/11/04/372237_1665153.jpg?imgdimension=look",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T11:00:01.000Z"
-    },
-    {
-      "id": "F2TCTr6R-3LX",
-      "representative": {
-        "id": "F2TCTr6R-3LX",
-        "url": "https://rpp.pe/peru/ica/nasca-indecopi-sanciona-a-empresa-de-tubulares-por-accidente-que-dejo-un-fallecido-y-cuatro-heridos-noticia-1711000",
-        "canonicalUrl": "https://rpp.pe/peru/ica/nasca-indecopi-sanciona-a-empresa-de-tubulares-por-accidente-que-dejo-un-fallecido-y-cuatro-heridos-noticia-1711000",
-        "title": "Nasca: Indecopi sanciona a empresa de tubulares por accidente que dejó un fallecido y cuatro heridos",
-        "description": "Las multas de Indecopi alcanzan tanto a Edunastours Nasca, como a su gerente. La decisión puede ser apelada en un plazo de 15 días.",
-        "source": {
-          "id": "rpp",
-          "name": "RPP Noticias"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-06T05:46:49.000Z",
-        "imageUrl": "https://f.rpp-noticias.io/2026/10/06/134613_1915136.jpg?imgdimension=look",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "6ZFWrN0d0rq9",
-          "url": "https://gestion.pe/peru/indecopi-multa-con-s-25-millones-a-empresa-de-tubulares-por-accidente-fatal-en-nasca-noticia/",
-          "canonicalUrl": "https://gestion.pe/peru/indecopi-multa-con-s-25-millones-a-empresa-de-tubulares-por-accidente-fatal-en-nasca-noticia/",
-          "title": "Indecopi multa con S/ 2.5 millones a empresa de tubulares por accidente fatal en Nasca",
-          "description": "La Comisión de la Oficina Regional del Indecopi en Ica impuso, en primera instancia, una multa total de 455 UIT, equivalente a S/ 2 millones 502,500, contra la empresa Edunastours Nasca E.I.R.L. y su gerente, César Eduardo Asto Llamocca, por brindar el servicio de paseos en vehículos tubulares en…",
-          "source": {
-            "id": "gestion",
-            "name": "Gestión"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-05T20:37:03.000Z",
-          "imageUrl": "https://gestion.pe/resizer/v2/JRFQHO7IKZCMHEWLIHW4HVN7FA.jpg?auth=56bdc6184f1fd428f257a2d841ff877825981ff0dce0dfb56a5adf55c459c62a&smart=true&width=1200&height=675",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T05:46:49.000Z"
-    },
-    {
-      "id": "PxBCRcgIXJdv",
-      "representative": {
-        "id": "PxBCRcgIXJdv",
-        "url": "https://elcomercio.pe/politica/congreso/diputados-comision-de-constitucion-acuerda-citar-al-canciller-carlos-espa-para-el-proximo-19-de-octubre-escudo-de-las-americas-ultimas-noticia/",
-        "canonicalUrl": "https://elcomercio.pe/politica/congreso/diputados-comision-de-constitucion-acuerda-citar-al-canciller-carlos-espa-para-el-proximo-19-de-octubre-escudo-de-las-americas-ultimas-noticia/",
-        "title": "Diputados: Comisión de Constitución acuerda citar al canciller Carlos Espá para el próximo 19 de octubre",
-        "description": "Por unanimidad, la Comisión de Constitución, Reglamento y Relaciones Exteriores de la Cámara de Diputados, que preside la legisladora Giannina Avendaño (Juntos por el Perú), aprobó invitar, para el próximo 19 de octubre, al ministro de Relaciones Exteriores, Carlos Espá.",
-        "source": {
-          "id": "elcomercio",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-06T01:31:28.000Z",
-        "imageUrl": "https://elcomercio.pe/resizer/v2/FFQ6IUSE45CDJFA3SO4UKOOY2U.jpg?auth=abe4de7d11427e438a04714c6a5e5502e27e2f4dc14b13bef307da496223ceb6&smart=true&width=1070&height=800",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rLPLZkj77hZT",
-          "url": "https://rpp.pe/politica/congreso/comision-de-constitucion-cita-al-canciller-carlos-espa-para-el-19-de-octubre-noticia-1710993",
-          "canonicalUrl": "https://rpp.pe/politica/congreso/comision-de-constitucion-cita-al-canciller-carlos-espa-para-el-19-de-octubre-noticia-1710993",
-          "title": "Comisión de Constitución de Diputados acordó citar a Carlos Espá para el 19 de octubre",
-          "description": "El grupo parlamentario aprobó por unanimidad citar al canciller para informar sobre el Escudo de las Américas y la llegada del Papa León XIV, entre otros temas.",
-          "source": {
-            "id": "rpp",
-            "name": "RPP Noticias"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T03:18:46.000Z",
-          "imageUrl": "https://f.rpp-noticias.io/2026/10/05/030603_1915114.jpg?imgdimension=look",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T03:18:46.000Z"
-    },
-    {
-      "id": "zpTroNa-V6Ys",
-      "representative": {
-        "id": "zpTroNa-V6Ys",
-        "url": "https://larepublica.pe/politica/2026/10/05/muere-en-venezuela-mujer-implicada-en-crimen-de-china-polo-alexandra-toro-montezuma-susy-aponte-polo-ronald-toro-ardila-luis-obispo-diaz-hnews-479280",
-        "canonicalUrl": "https://larepublica.pe/politica/2026/10/05/muere-en-venezuela-mujer-implicada-en-crimen-de-china-polo-alexandra-toro-montezuma-susy-aponte-polo-ronald-toro-ardila-luis-obispo-diaz-hnews-479280",
-        "title": "Muere en Venezuela mujer implicada en crimen de “China Polo”",
-        "description": "Alexandra Toro Montezuma era parte del grupo que acompañó al sicario Luis Obispo Díaz cuando asesinó a la candidata y periodista en Caraz. Toro pereció en un accidente de tránsito, cuando viajaba en compañía de su pareja, Adrián Azuaje Solís, quien quedó gravemente herido. Azuaje fue el que…",
-        "source": {
-          "id": "larepublica",
-          "name": "La República"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-05T22:51:16.000Z",
-        "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/05/6ac429cd994602347b08d8fe.jpg",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Jm-INcoLyEhY",
-          "url": "https://rpp.pe/peru/ancash/ancash-muere-en-accidente-la-mujer-sindicada-de-participar-en-el-asesinato-de-china-polo-noticia-1710991",
-          "canonicalUrl": "https://rpp.pe/peru/ancash/ancash-muere-en-accidente-la-mujer-sindicada-de-participar-en-el-asesinato-de-china-polo-noticia-1710991",
-          "title": "Muere en accidente en Venezuela la mujer sindicada de participar en el asesinato de 'China Polo'",
-          "description": "Beangel Toro Montecinos habría sido parte del grupo que acompañó al sicario Luis Obispo Díaz cuando asesinó a la candidata y periodista en Caraz. Ella murió en un accidente de tránsito.",
-          "source": {
-            "id": "rpp",
-            "name": "RPP Noticias"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T03:02:56.000Z",
-          "imageUrl": "https://f.rpp-noticias.io/2026/10/05/514751_1915111.jpg?imgdimension=look",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T03:02:56.000Z"
-    },
-    {
-      "id": "ns9cplnJ5SRH",
-      "representative": {
-        "id": "ns9cplnJ5SRH",
-        "url": "https://elcomercio.pe/elecciones/lima/flash-datum-en-san-juan-de-lurigancho-resultados-de-la-elecciones-regionales-y-municipales-2026-erm-2026-noticia/",
-        "canonicalUrl": "https://elcomercio.pe/elecciones/lima/flash-datum-en-san-juan-de-lurigancho-resultados-de-la-elecciones-regionales-y-municipales-2026-erm-2026-noticia/",
-        "title": "Jesus Maldonado lidera las elecciones en San Juan de Lurigancho según boca de urna de Datum | ERM 2026",
-        "description": "[CANDIDATO], de [PARTIDO/ORGANIZACIÓN POLÍTICA], obtiene [XX%] de las preferencias en el distrito de San Juan de Lurigancho, según el primer resultado de la boca de urna de Datum para las Elecciones Regionales y Municipales 2026. [SEGUNDO CANDIDATO] ocupa el segundo lugar con [XX%], seguido de…",
-        "source": {
-          "id": "elcomercio",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-04T22:58:22.000Z",
-        "imageUrl": "https://elcomercio.pe/resizer/v2/SD7BLRUUN5BCXPYGO57HAVMJHQ.png?auth=0742d14d82098f7ea4f13bac3bc3e0a0f1db75012a1989c63de46929ce22e120&smart=true&width=1374&height=719",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "1SyKkha0BPVv",
-          "url": "https://larepublica.pe/politica/2026/10/04/resultados-onpe-san-juan-de-miraflores-2026-quien-es-el-virtual-alcalde-185134",
-          "canonicalUrl": "https://larepublica.pe/politica/2026/10/04/resultados-onpe-san-juan-de-miraflores-2026-quien-es-el-virtual-alcalde-185134",
-          "title": "Resultados en San Juan de Miraflores, según la ONPE: conoce quién es el virtual alcalde del distrito",
-          "description": "La población del distrito de San Juan de Miraflores ya eligió a sus nuevas autoridades en estas Elecciones 2026. Conoce los resultados de la ONPE tras la elección del domingo 4 de octubre.",
-          "source": {
-            "id": "larepublica",
-            "name": "La República"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-06T02:11:58.000Z",
-          "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/03/6ac08e62994602347b08d8a3.jpg",
-          "countryCode": "PE",
-          "regionCode": null
-        },
-        {
-          "id": "H4TWAzk8tBo8",
-          "url": "https://gestion.pe/mix/respuestas/quien-es-el-nuevo-alcalde-de-san-martin-de-porres-smp-peter-jaime-cori-luis-cardenas-o-adolfo-mattos-resultados-elecciones-municipales-2026-nnda-nnrt-noticia/",
-          "canonicalUrl": "https://gestion.pe/mix/respuestas/quien-es-el-nuevo-alcalde-de-san-martin-de-porres-smp-peter-jaime-cori-luis-cardenas-o-adolfo-mattos-resultados-elecciones-municipales-2026-nnda-nnrt-noticia/",
-          "title": "¿Quién es el nuevo alcalde de San Martín de Porres (SMP)? Resultados oficiales de la ONPE",
-          "description": "Las Elecciones Regionales y Municipales 2026 se realizaron este domingo 4 de octubre. Revisa los resultados oficiales de la ONPE para la alcaldía de San Martín de Porres.",
-          "source": {
-            "id": "gestion",
-            "name": "Gestión"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-05T23:06:40.000Z",
-          "imageUrl": "https://gestion.pe/resizer/v2/LCUKN73UHVGPDMMZXIRJIFSG5Y.png?auth=915977c329deb80b3a7b0b07a4c12b941d6d99e374b4ff450a49193804d239bc&smart=true&width=2320&height=1320",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T02:11:58.000Z"
-    },
-    {
-      "id": "NVrjB8RXpNU4",
-      "representative": {
-        "id": "NVrjB8RXpNU4",
-        "url": "https://elcomercio.pe/elecciones/arequipa-unico-candidato-para-alcaldia-del-distrito-de-lari-perdio-ante-los-votos-blancos-y-nulos-elecciones-regionales-y-municipales-2026-apuesplan-ultimas-noticia/",
-        "canonicalUrl": "https://elcomercio.pe/elecciones/arequipa-unico-candidato-para-alcaldia-del-distrito-de-lari-perdio-ante-los-votos-blancos-y-nulos-elecciones-regionales-y-municipales-2026-apuesplan-ultimas-noticia/",
-        "title": "Arequipa: único candidato para alcaldía del distrito de Lari perdió ante los votos blancos y nulos",
-        "description": "El único candidato a la alcaldía del distrito de Lari, provincia de Caylloma, en la región Arequipa, perdió frente a los votos blancos y nulos, en el marco de las Elecciones Regionales y Municipales 2026 llevadas a cabo el último domingo 4 de octubre.",
-        "source": {
-          "id": "elcomercio",
-          "name": "El Comercio"
-        },
-        "sourceCountry": "PE",
-        "language": "es",
-        "publishedAt": "2026-10-06T01:07:01.000Z",
-        "imageUrl": "https://elcomercio.pe/resizer/v2/R74M5542OBHPVOQEF3LWHOSM54.jpg?auth=a652ae7b8ed8fffc47e1f5cc54752c8f1161bc2581a437fc2a2ff16bf39284b1&smart=true&width=378&height=380",
-        "countryCode": "PE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "GjNBikDM5Lk6",
-          "url": "https://larepublica.pe/politica/2026/10/05/arequipa-votos-blancos-y-nulos-ganan-a-unico-candidato-que-postulaba-para-ser-alcalde-de-lari-hnews-456560",
-          "canonicalUrl": "https://larepublica.pe/politica/2026/10/05/arequipa-votos-blancos-y-nulos-ganan-a-unico-candidato-que-postulaba-para-ser-alcalde-de-lari-hnews-456560",
-          "title": "Arequipa: votos blancos y nulos ganan a único candidato que postulaba para ser alcalde de Lari",
-          "description": "El joven candidato Rómulo Suyco Panta enfrenta por segunda vez el mismo resultado electoral, pese a ser el único postulante a la alcaldía del distrito de Lari en Caylloma.",
-          "source": {
-            "id": "larepublica",
-            "name": "La República"
-          },
-          "sourceCountry": "PE",
-          "language": "es",
-          "publishedAt": "2026-10-05T22:24:45.000Z",
-          "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/05/6ac4233e9e17e11ebb0bee24.jpg",
-          "countryCode": "PE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T01:07:01.000Z"
     },
     {
       "id": "CKUueeYyjA40",
@@ -715,6 +286,240 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:20:30.000Z"
+    },
+    {
+      "id": "xlehnq5D6shN",
+      "representative": {
+        "id": "xlehnq5D6shN",
+        "url": "https://andina.pe/agencia/noticia-activa-esta-opcion-y-evita-te-roben-tu-cuenta-whatsapp-1094757.aspx",
+        "canonicalUrl": "https://andina.pe/agencia/noticia-activa-esta-opcion-y-evita-te-roben-tu-cuenta-whatsapp-1094757.aspx",
+        "title": "Activa esta opción y evita que te roben tu cuenta de WhatsApp",
+        "description": "En las últimas semanas se han viralizado casos de robos de cuentas de WhatsApp a través de redes sociales, sobre todo TikTok. Descubre cuál es la opción que debes activar para evitar que los ciberdelincuentes se apoderen de tu perfil en la app de mensajería instantánea.",
+        "source": {
+          "id": "andina",
+          "name": "Andina"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:17:00.000Z",
+        "imageUrl": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/07/19/001299652W.webp",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:17:00.000Z"
+    },
+    {
+      "id": "AJesr4X6IrxK",
+      "representative": {
+        "id": "AJesr4X6IrxK",
+        "url": "https://gestion.pe/economia/credito-suplementario-por-mas-de-s-8000-millones-a-que-se-destinaran-estos-recursos-esto-dice-el-mef-y-otros-ministros-noticia/",
+        "canonicalUrl": "https://gestion.pe/economia/credito-suplementario-por-mas-de-s-8000-millones-a-que-se-destinaran-estos-recursos-esto-dice-el-mef-y-otros-ministros-noticia/",
+        "title": "Crédito suplementario por más de S/ 8,000 millones: ¿a qué se destinarían estos recursos?",
+        "description": null,
+        "source": {
+          "id": "gestion",
+          "name": "Gestión"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:15:39.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/4WU4Y5PEIJBMDBXPFTCFEAQBYM.jpg?auth=29a6d6ca77923712ccebd9199f60dcfc9eef3294afaf2b4fc3d44cc86e14224f&smart=true&width=1200&height=800",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:15:39.000Z"
+    },
+    {
+      "id": "qOLrgJZZcODN",
+      "representative": {
+        "id": "qOLrgJZZcODN",
+        "url": "https://larepublica.pe/politica/2026/10/04/resultados-onpe-cajamarca-2026-quien-es-el-virtual-gobernador-regional-160940",
+        "canonicalUrl": "https://larepublica.pe/politica/2026/10/04/resultados-onpe-cajamarca-2026-quien-es-el-virtual-gobernador-regional-160940",
+        "title": "Resultados en la región de Cajamarca: Edison Carrasco y Moisés González disputarán una segunda vuelta, según la ONPE",
+        "description": "La población de la región de Cajamarca ya eligió a sus nuevas autoridades en estas Elecciones 2026. Somos Perú y Alianza Para el Progreso se ubicaron en los primeros lugares en las votaciones.",
+        "source": {
+          "id": "larepublica",
+          "name": "La República"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-05T20:47:04.000Z",
+        "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/10/02/6ac0423d37ba73030a0b301d.jpg",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "haxNy5PmgLgc",
+          "url": "https://andina.pe/agencia/noticia-resultados-onpe-loreto-somos-peru-y-alianza-para-progreso-disputaran-segunda-vuelta-1094813.aspx",
+          "canonicalUrl": "https://andina.pe/agencia/noticia-resultados-onpe-loreto-somos-peru-y-alianza-para-progreso-disputaran-segunda-vuelta-1094813.aspx",
+          "title": "Resultados ONPE en Loreto: Somos Perú y Alianza para el Progreso disputarán segunda vuelta",
+          "description": "Loreto será una de las regiones que volverá a las urnas en noviembre para elegir a su gobernador y vicegobernador regional, luego de que ninguna de las fórmulas alcanzara el 30 % de los votos válidos requerido por la legislación electoral.",
+          "source": {
+            "id": "andina",
+            "name": "Andina"
+          },
+          "sourceCountry": "PE",
+          "language": "es",
+          "publishedAt": "2026-10-06T13:13:39.000Z",
+          "imageUrl": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/06/001321285W.jpg",
+          "countryCode": "PE",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:13:39.000Z"
+    },
+    {
+      "id": "TBqsOsdqlD6t",
+      "representative": {
+        "id": "TBqsOsdqlD6t",
+        "url": "https://rpp.pe/economia/economia/industria-gana-nueva-batalla-a-china-indecopi-impone-derechos-antidumping-a-inodoros-chinos-tras-detectar-precios-hasta-40-menores-a-los-nacionales-noticia-1711036",
+        "canonicalUrl": "https://rpp.pe/economia/economia/industria-gana-nueva-batalla-a-china-indecopi-impone-derechos-antidumping-a-inodoros-chinos-tras-detectar-precios-hasta-40-menores-a-los-nacionales-noticia-1711036",
+        "title": "Industria gana nueva batalla a China: Indecopi impone derechos antidumping a inodoros chinos tras detectar precios hasta 40% menores a los nacionales",
+        "description": "La medida alcanza a los inodoros de cerámica tipo “one piece” provenientes de China. Indecopi determinó que estas importaciones aumentaron 56,9% entre 2021 y 2024 y afectaron los precios y la situación económica de los productores peruanos.",
+        "source": {
+          "id": "rpp",
+          "name": "RPP Noticias"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:12:13.000Z",
+        "imageUrl": "https://f.rpp-noticias.io/2026/10/06/482448_1915200.jpg?imgdimension=look",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:12:13.000Z"
+    },
+    {
+      "id": "Jy07eX5sYY19",
+      "representative": {
+        "id": "Jy07eX5sYY19",
+        "url": "https://andina.pe/agencia/noticia-carlos-alcaraz-gano-torneo-tokio-primer-titulo-desde-su-regreso-de-lesion-1094815.aspx",
+        "canonicalUrl": "https://andina.pe/agencia/noticia-carlos-alcaraz-gano-torneo-tokio-primer-titulo-desde-su-regreso-de-lesion-1094815.aspx",
+        "title": "Carlos Alcaraz ganó el torneo de Tokio, primer título desde su regreso de la lesión",
+        "description": "El tenista español Carlos Alcaraz conquistó el torneo de Tokio, el primer título desde la lesión de muñeca que lo tuvo apartado del circuito más de cuatro meses, tras derrotar este martes al checo Jiri Lehecka en dos sets, por 7-6 (7/4) y 6-4.",
+        "source": {
+          "id": "andina",
+          "name": "Andina"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:10:01.000Z",
+        "imageUrl": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/06/001321284W.jpg",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:10:01.000Z"
+    },
+    {
+      "id": "bFy9jhfpDGwl",
+      "representative": {
+        "id": "bFy9jhfpDGwl",
+        "url": "https://rpp.pe/futbol/futbol-mundial/uruguay-vs-india-en-vivo-a-que-hora-canal-y-como-ver-amistoso-fecha-fifa-2026-via-dsports-y-auftv-partidos-de-hoy-noticia-1710939",
+        "canonicalUrl": "https://rpp.pe/futbol/futbol-mundial/uruguay-vs-india-en-vivo-a-que-hora-canal-y-como-ver-amistoso-fecha-fifa-2026-via-dsports-y-auftv-partidos-de-hoy-noticia-1710939",
+        "title": "Uruguay vs India EN VIVO: ¿a qué hora juegan en Calcuta y dónde ver el amistoso internacional por fecha FIFA?",
+        "description": "Uruguay vs India EN VIVO: sigue la transmisión del partido amistoso internacional por fecha FIFA que se jugará en Calcuta.",
+        "source": {
+          "id": "rpp",
+          "name": "RPP Noticias"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:06:11.000Z",
+        "imageUrl": "https://f.rpp-noticias.io/2026/10/05/463846_1915057.jpg?imgdimension=look",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:06:11.000Z"
+    },
+    {
+      "id": "4KLWIA8Lnuv6",
+      "representative": {
+        "id": "4KLWIA8Lnuv6",
+        "url": "https://rpp.pe/futbol/seleccion-peruana/carlos-zambrano-sobre-el-momento-de-la-bicolor-va-a-ser-muy-duro-para-la-seleccion-peruana-por-el-recambio-noticia-1711027",
+        "canonicalUrl": "https://rpp.pe/futbol/seleccion-peruana/carlos-zambrano-sobre-el-momento-de-la-bicolor-va-a-ser-muy-duro-para-la-seleccion-peruana-por-el-recambio-noticia-1711027",
+        "title": "\"Va a ser muy duro para la Selección Peruana por el recambio\": Carlos Zambrano sobre el momento de la Bicolor",
+        "description": "El defensa de Sport Boys pidió apoyo total para la Selección Peruana y afirmó que las Eliminatorias serán más duras para la Bicolor.",
+        "source": {
+          "id": "rpp",
+          "name": "RPP Noticias"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:05:23.000Z",
+        "imageUrl": "https://f.rpp-noticias.io/2026/10/06/095409_1915188.jpg?imgdimension=look",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:05:23.000Z"
+    },
+    {
+      "id": "zywDW9RSlBeu",
+      "representative": {
+        "id": "zywDW9RSlBeu",
+        "url": "https://gestion.pe/tu-dinero/finanzas-personales/nuevo-retiro-de-afp-se-debatira-en-el-congreso-se-perderia-el-acceso-a-la-pension-minima-noticia/",
+        "canonicalUrl": "https://gestion.pe/tu-dinero/finanzas-personales/nuevo-retiro-de-afp-se-debatira-en-el-congreso-se-perderia-el-acceso-a-la-pension-minima-noticia/",
+        "title": "Nuevo retiro de AFP se debatirá en el Congreso, ¿se perdería el acceso a la pensión mínima?",
+        "description": "El motivo de disponer un retiro de 4 UIT de los fondos de AFP es el impacto económico que podría tener El Niño en las familias, indica la iniciativa legislativa.",
+        "source": {
+          "id": "gestion",
+          "name": "Gestión"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:04:38.000Z",
+        "imageUrl": "https://gestion.pe/resizer/v2/Y5GC3ABSYNGLPGJB5BCPADS4SE.jpg?auth=6fcd0a71d08f493e34fed1d293f4faa0dd49968fcd172d7a3c52bad3222dde3e&smart=true&width=1575&height=1050",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:04:38.000Z"
+    },
+    {
+      "id": "aihxMtmtr8lv",
+      "representative": {
+        "id": "aihxMtmtr8lv",
+        "url": "https://larepublica.pe/politica/2026/08/15/carlos-infante-la-matanza-de-uchuraccay-es-un-golpe-terrible-a-la-memoria-de-los-periodistas-hnews-1405080",
+        "canonicalUrl": "https://larepublica.pe/politica/2026/08/15/carlos-infante-la-matanza-de-uchuraccay-es-un-golpe-terrible-a-la-memoria-de-los-periodistas-hnews-1405080",
+        "title": "Carlos Infante: “La matanza de Uchuraccay es un golpe terrible a la memoria de los periodistas”",
+        "description": "El periodista Carlos Infante, entre la memoria personal y la memoria histórica, nos ofrece en \"Dame tu cámara carajo\" una nueva versión sobre lo que pudo haber sucedido en la matanza de Uchuraccay, en la que murieron 10 personas, entre ellas su padre, el periodista Octavio Infante.",
+        "source": {
+          "id": "larepublica",
+          "name": "La República"
+        },
+        "sourceCountry": "PE",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:03:16.000Z",
+        "imageUrl": "https://larepublica.cronosmedia.glr.pe/original/2026/08/15/6a809392093b2292970fe1b8.jpg",
+        "countryCode": "PE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:03:16.000Z"
     }
   ]
 }

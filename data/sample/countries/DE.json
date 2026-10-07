@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "DE",
   "countryName": "Germany",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "4bGMGAkftpDf",
@@ -208,82 +208,6 @@
       "latestPublishedAt": "2026-10-06T12:16:50.000Z"
     },
     {
-      "id": "fuOn7SLdX-n_",
-      "representative": {
-        "id": "fuOn7SLdX-n_",
-        "url": "https://www.tagesschau.de/inland/kriegsdienstverweigerer-124.html",
-        "canonicalUrl": "https://www.tagesschau.de/inland/kriegsdienstverweigerer-124.html",
-        "title": "Neuer Wehrdienst: Zahl der Kriegsdienstverweigerer stark angestiegen",
-        "description": "Die Wehrpflicht ist immer noch ausgesetzt in Deutschland. Und doch steigt die Zahl der Anträge auf Kriegsdienstverweigerung stark an. Dafür gibt es Gründe.",
-        "source": {
-          "id": "tagesschau",
-          "name": "tagesschau"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T03:25:07.000Z",
-        "imageUrl": null,
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "NVWjsKpXu-XL",
-          "url": "https://www.spiegel.de/politik/deutschland/wehrdienst-zahl-der-kriegsdienstverweigerer-schnellt-weiter-nach-oben-a-9e3785bd-ff6e-48ea-925d-fed7482df2f0#ref=rss",
-          "canonicalUrl": "https://www.spiegel.de/politik/deutschland/wehrdienst-zahl-der-kriegsdienstverweigerer-schnellt-weiter-nach-oben-a-9e3785bd-ff6e-48ea-925d-fed7482df2f0",
-          "title": "Wehrdienst: Zahl der Kriegsdienstverweigerer schnellt weiter nach oben",
-          "description": "Immer mehr junge Männer verweigern den Dienst an der Waffe. Dieser Trend ist zwar nicht neu. Aktuelle Zahlen des zuständigen Bundesamts zeigen aber: Die Entwicklung ist drastisch. Und viele Anträge gehen unbearbeitet zurück.",
-          "source": {
-            "id": "spiegel",
-            "name": "DER SPIEGEL"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T01:13:00.000Z",
-          "imageUrl": "https://cdn.prod.www.spiegel.de/images/e10e725c-df04-46b8-b3b7-59a67f269539_w520_r2.08_fpx50.68_fpy50.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "-arSIPf_Aqev",
-          "url": "https://www.faz.net/aktuell/politik/inland/wehrdienst-zahl-der-kriegsdienstverweigerer-steigt-weiter-stark-an-201291263.html",
-          "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/wehrdienst-zahl-der-kriegsdienstverweigerer-steigt-weiter-stark-an-201291263.html",
-          "title": "Wehrdienst: Zahl der Kriegsdienstverweigerer steigt weiter stark an",
-          "description": "Die Zahl der Anträge ist in diesem Jahr bereits dreimal so hoch wie im Vorjahr. Doch viele Kriegsdienstverweigerer machen einen Fehler. Ihre Anträge werden unbearbeitet zurückgesandt.",
-          "source": {
-            "id": "faz",
-            "name": "Frankfurter Allgemeine"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-05T23:54:40.000Z",
-          "imageUrl": "https://media0.faz.net/image/595cd1476b62/w5161h2903x0y0/202606/43601.0.2220605802/soldaten-der-bundeswehr.webp",
-          "countryCode": "DE",
-          "regionCode": null
-        },
-        {
-          "id": "mi5xjydk8EKZ",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/kriegsdienstverweigerung-antraege-bundeswehr-wehrdienst-reservisten",
-          "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/kriegsdienstverweigerung-antraege-bundeswehr-wehrdienst-reservisten",
-          "title": "Wehrdienst: Zahl der Kriegsdienstverweigerer steigt stark an",
-          "description": "Bis August 2026 sind mehr als dreimal so viele Anträge auf Kriegsdienstverweigerung eingegangen wie 2025. Doch auch die Zahl der Bewerbungen und Einstellungen wächst.",
-          "source": {
-            "id": "zeit",
-            "name": "ZEIT ONLINE"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-05T22:01:23.000Z",
-          "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/kriegsdienstverweigerung-antraege-bundeswehr-wehrdienst-reservisten-foto-1/original__640x360",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 4,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T03:25:07.000Z"
-    },
-    {
       "id": "6Qr8vJmXLwez",
       "representative": {
         "id": "6Qr8vJmXLwez",
@@ -366,48 +290,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T11:51:27.000Z"
-    },
-    {
-      "id": "KaIL2FuUemd2",
-      "representative": {
-        "id": "KaIL2FuUemd2",
-        "url": "https://www.zeit.de/politik/deutschland/2026-10/vorzeitige-rente-abschlaege-altersgrenze-rentenhoehe",
-        "canonicalUrl": "https://www.zeit.de/politik/deutschland/2026-10/vorzeitige-rente-abschlaege-altersgrenze-rentenhoehe",
-        "title": "Vorzeitige Rente: Abschläge bei vorzeitiger Rente steigen schnell",
-        "description": "Wer vor dem Regelalter in Rente geht, bekommt einen festen Prozentsatz abgezogen. In Euro hat sich dieser Abschlag aber binnen fünf Jahren um 57 Prozent vergrößert.",
-        "source": {
-          "id": "zeit",
-          "name": "ZEIT ONLINE"
-        },
-        "sourceCountry": "DE",
-        "language": "de",
-        "publishedAt": "2026-10-06T01:13:18.000Z",
-        "imageUrl": "https://img.zeit.de/politik/deutschland/2026-10/vorzeitige-rente-abschlaege-altersgrenze-rentenhoehe-foto-1/original__640x360",
-        "countryCode": "DE",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "JkHJph31HRCS",
-          "url": "https://www.n-tv.de/politik/Abschlaege-bei-vorzeitiger-Rente-steigen-deutlich-id31384855.html",
-          "canonicalUrl": "https://www.n-tv.de/politik/Abschlaege-bei-vorzeitiger-Rente-steigen-deutlich-id31384855.html",
-          "title": "Deutsche verzichten auf Geld: Abschläge bei vorzeitiger Rente steigen deutlich",
-          "description": "Rund 30 Prozent der Deutschen gehen zwischen 2020 und 2025 bereits vorzeitig in Rente und nehmen dabei Einbußen in Kauf. Die Abschläge für den vorgezogenen Ruhestand steigen in diesem Zeitraum um über 50 Prozent.",
-          "source": {
-            "id": "ntv",
-            "name": "n-tv"
-          },
-          "sourceCountry": "DE",
-          "language": "de",
-          "publishedAt": "2026-10-06T04:49:51.000Z",
-          "imageUrl": "https://www.n-tv.de/img/31384859/1791267053/Img_4_3/250/621738628.jpg",
-          "countryCode": "DE",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T04:49:51.000Z"
     },
     {
       "id": "YsJWB4YemDKC",
@@ -624,6 +506,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:52:00.000Z"
+    },
+    {
+      "id": "FZyxa67nn-SG",
+      "representative": {
+        "id": "FZyxa67nn-SG",
+        "url": "https://www.sueddeutsche.de/projekte/artikel/politik/wirtschaftsministerin-reiche-interview-erneuerbare-innovation-e899175/",
+        "canonicalUrl": "https://www.sueddeutsche.de/projekte/artikel/politik/wirtschaftsministerin-reiche-interview-erneuerbare-innovation-e899175/",
+        "title": "Wirtschaftsministerin: „Wir müssen wieder gewinnen wollen“",
+        "description": "Die Deutschen, findet Bundeswirtschaftsministerin Katherina Reiche, reden Erfolge gern kaputt. Ein Gespräch über Aufbruch, die Kosten des kommenden Winters – und das Trainertalent des Kanzlers.",
+        "source": {
+          "id": "sz",
+          "name": "Süddeutsche Zeitung"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:49:00.000Z",
+        "imageUrl": "https://www.sueddeutsche.de/2026/10/06/914ea95e-a62d-49f3-bb6f-dc91795080ab.jpg?rect=550%2C428%2C2984%2C2238&width=1000&fm=jpg&q=60",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:49:00.000Z"
+    },
+    {
+      "id": "UmCpEhQKcfSb",
+      "representative": {
+        "id": "UmCpEhQKcfSb",
+        "url": "https://www.faz.net/aktuell/politik/inland/ex-bnd-chef-hanning-der-ruestige-aufstocker-201293046.html",
+        "canonicalUrl": "https://www.faz.net/aktuell/politik/inland/ex-bnd-chef-hanning-der-ruestige-aufstocker-201293046.html",
+        "title": "Festnahme Hannings: Der rüstige Aufstocker – Mission impossible",
+        "description": "Eine neue Dimension: Ein ehemaliger Präsident des BND und ein Dauer-Büroleiter stehen im Verdacht der Spionage. Der Schaden ist kaum zu ermessen.",
+        "source": {
+          "id": "faz",
+          "name": "Frankfurter Allgemeine"
+        },
+        "sourceCountry": "DE",
+        "language": "de",
+        "publishedAt": "2026-10-06T12:39:59.000Z",
+        "imageUrl": "https://media0.faz.net/image/6cb2433c1080/w6144h3456x0y640/202610/43601.0.2633474020/unter-spionageverdacht-in.webp",
+        "countryCode": "DE",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:39:59.000Z"
     }
   ]
 }

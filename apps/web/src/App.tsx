@@ -1,10 +1,10 @@
-import { COUNTRIES, type CountryCode } from '@news-globe/shared';
+import { COUNTRIES, REGIONS, type CountryCode, type RegionCode } from '@news-globe/shared';
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { NewsPanel } from './components/NewsPanel';
 import { useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
-import { fetchCountry, fetchIndex } from './lib/data';
+import { fetchCountry, fetchIndex, fetchRegion } from './lib/data';
 import { relativeTime } from './lib/time';
 
 // three.js is most of the bundle; load it after the shell renders.
@@ -16,6 +16,7 @@ export function App() {
   const now = useNow();
   const isMobile = useMediaQuery(MOBILE_QUERY);
   const [selected, setSelected] = useState<CountryCode | null>(null);
+  const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(null);
   const [retryKey, setRetryKey] = useState(0);
   const [indexTick, setIndexTick] = useState(0);
   const [sheetFraction, setSheetFraction] = useState(0);
@@ -35,13 +36,31 @@ export function App() {
     [indexData],
   );
 
-  // Refetch the open country when the index reports a newer file.
-  const selectedUpdatedAt = indexData?.countries.find((c) => c.code === selected)?.updatedAt;
-  const country = useAsync(selected ? (signal) => fetchCountry(selected, signal) : null, [
-    selected,
-    selectedUpdatedAt,
-    retryKey,
-  ]);
+  // Regions of the open country that have a file, in REGIONS order.
+  const regions = useMemo(() => {
+    const withData = new Set((indexData?.regions ?? []).map((r) => r.code));
+    return Object.values(REGIONS).filter((r) => r.country === selected && withData.has(r.code));
+  }, [indexData, selected]);
+  const region = selectedRegion ? REGIONS[selectedRegion] : undefined;
+
+  // Selecting a country (or closing) always starts from its national view.
+  const selectCountry = useCallback((code: CountryCode | null) => {
+    setSelected(code);
+    setSelectedRegion(null);
+  }, []);
+
+  // Refetch the open country or region when the index reports a newer file.
+  const selectedUpdatedAt = selectedRegion
+    ? indexData?.regions?.find((r) => r.code === selectedRegion)?.updatedAt
+    : indexData?.countries.find((c) => c.code === selected)?.updatedAt;
+  const country = useAsync(
+    selectedRegion
+      ? (signal) => fetchRegion(selectedRegion, signal)
+      : selected
+        ? (signal) => fetchCountry(selected, signal)
+        : null,
+    [selected, selectedRegion, selectedUpdatedAt, retryKey],
+  );
 
   const showToast = useCallback((message: string) => {
     setToast(message);
@@ -50,7 +69,7 @@ export function App() {
   }, []);
 
   const handleUnavailable = useCallback((name: string) => showToast(`${name} — coming soon`), [showToast]);
-  const handleClose = useCallback(() => setSelected(null), []);
+  const handleClose = useCallback(() => selectCountry(null), [selectCountry]);
   const retry = useCallback(() => setRetryKey((k) => k + 1), []);
   const meta = selected ? COUNTRIES[selected] : undefined;
 
@@ -82,7 +101,7 @@ export function App() {
               className="chip"
               aria-pressed={selected === c.code}
               disabled={!available.has(c.code)}
-              onClick={() => setSelected(selected === c.code ? null : c.code)}
+              onClick={() => selectCountry(selected === c.code ? null : c.code)}
             >
               {c.name}
             </button>
@@ -95,7 +114,10 @@ export function App() {
           <GlobeView
             available={available}
             selected={selected}
-            onSelect={setSelected}
+            onSelect={selectCountry}
+            regions={regions}
+            selectedRegion={selectedRegion}
+            onSelectRegion={setSelectedRegion}
             onUnavailable={handleUnavailable}
             isMobile={isMobile}
             sheetFraction={sheetFraction}
@@ -107,6 +129,9 @@ export function App() {
       {meta && (
         <NewsPanel
           country={meta}
+          region={region}
+          regions={regions}
+          onSelectRegion={setSelectedRegion}
           state={country}
           now={now}
           isMobile={isMobile}

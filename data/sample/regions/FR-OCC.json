@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "FR",
+  "countryName": "France",
+  "regionCode": "FR-OCC",
+  "regionName": "Occitanie",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "clusters": [
+    {
+      "id": "1CF-tvwZ0Mxy",
+      "representative": {
+        "id": "1CF-tvwZ0Mxy",
+        "url": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/pluies-intenses-grele-phenomenes-tourbillonnaires-ces-deux-departements-du-sud-basculent-a-nouveau-en-alerte-orange-3428628.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/pluies-intenses-grele-phenomenes-tourbillonnaires-ces-deux-departements-du-sud-basculent-a-nouveau-en-alerte-orange-3428628.html",
+        "title": "\"Pluies intenses, grêle, phénomènes tourbillonnaires\" : ces deux départements du sud basculent à nouveau en alerte orange",
+        "description": "Nouvel épisode méditerranéen en vue dans le Gard et l'Hérault, qui passeront en vigilance orange pour pluies, inondations et orages, ce mardi 6 octobre 2026, à partir de 22 heures. Météo France prévoit des pluies intenses, des phénomènes tourbillonnaires et même de la grêle.",
+        "source": {
+          "id": "france3_occitanie",
+          "name": "France 3 Occitanie"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:50:40.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/QXnPO-vGzzp1vg7Jm2ux32iaNl0/930x620/filters:format(webp)/regions/2026/10/06/6ac4af18be781767248935.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [
+        {
+          "id": "3nPKtOjOY2cd",
+          "url": "https://www.20minutes.fr/planete/4252026-20261007-intemperies-pluie-orages-crues-quatre-departements-sud-alerte-orange?at_medium=display&at_campaign=149",
+          "canonicalUrl": "https://www.20minutes.fr/planete/4252026-20261007-intemperies-pluie-orages-crues-quatre-departements-sud-alerte-orange",
+          "title": "Intempéries : Pluie, orages, crues… Quatre départements du sud en alerte orange",
+          "description": "Dans le Gard, l’Hérault et le Var, les habitants sont appelés à limiter leurs déplacements",
+          "source": {
+            "id": "20minutes_montpellier",
+            "name": "20 Minutes Montpellier"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-07T05:37:39.000Z",
+          "imageUrl": "https://img.20mn.fr/yYa5CQcBSLmwlf3BvCUc4Ck/1200x768_vigilance-orange-pluies-inondations-dans-les-alpes-maritimes-promenade-des-anglais-nice-france-16-11-2025-syspeo-sys-a021-credit-syspeo-sipa-2511161854",
+          "countryCode": "FR",
+          "regionCode": "FR-OCC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-07T05:37:39.000Z"
+    },
+    {
+      "id": "qxc3AHxKrFFc",
+      "representative": {
+        "id": "qxc3AHxKrFFc",
+        "url": "https://www.midilibre.fr/2026/10/06/episode-mediterraneen-de-lorage-de-la-pluie-et-un-risque-dinondations-le-gard-et-lherault-de-nouveau-places-en-vigilance-orange-13586349.php",
+        "canonicalUrl": "https://www.midilibre.fr/2026/10/06/episode-mediterraneen-de-lorage-de-la-pluie-et-un-risque-dinondations-le-gard-et-lherault-de-nouveau-places-en-vigilance-orange-13586349.php",
+        "title": "Épisode méditerranéen : de l’orage, de la pluie et un risque d’inondations… le Gard et l’Hérault de nouveau placés en vigilance orange",
+        "description": "Météo-France placera le Gard et l’Hérault en vigilance orange pluie-inondations et orages ce mardi 6 octobre à partir de 21 heures Ce nouvel épisode méditerranéen menace particulièrement les reliefs, où des cumuls de...",
+        "source": {
+          "id": "midilibre",
+          "name": "Midi Libre"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T06:26:56.000Z",
+        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac4861fd6ef927d320fa8c5/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [
+        {
+          "id": "9KsbHnh8N5j7",
+          "url": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/nouvel-episode-cevenol-les-transports-scolaires-suspendus-dans-le-gard-en-raison-du-passage-en-vigilance-orange-pluie-inondation-et-orages-3429075.html",
+          "canonicalUrl": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/nouvel-episode-cevenol-les-transports-scolaires-suspendus-dans-le-gard-en-raison-du-passage-en-vigilance-orange-pluie-inondation-et-orages-3429075.html",
+          "title": "Nouvel épisode cévenol : les transports scolaires suspendus dans le Gard en raison du passage en vigilance orange pluie-inondation et orages",
+          "description": "Face à la dégradation météorologique qui s'annonce ce mardi 6 octobre 2026 à partir de 22 h, la préfète du Gard a pris la décision de suspendre les transports scolaires dans tout le département. Le Gard et l'Hérault ont été placés en vigilance orange pluie-inondation et orages.",
+          "source": {
+            "id": "france3_occitanie",
+            "name": "France 3 Occitanie"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T16:35:11.000Z",
+          "imageUrl": "https://france3-regions.franceinfo.fr/image/hLcjMj7_MM-MY-W8NanHk67A2Qo/930x620/filters:format(webp)/regions/2026/10/06/6ac5201be804a773651089.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-OCC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T16:35:11.000Z"
+    },
+    {
+      "id": "vNzc7-iegkE6",
+      "representative": {
+        "id": "vNzc7-iegkE6",
+        "url": "https://www.ladepeche.fr/2026/10/06/nouvelle-fusillade-a-empalot-plusieurs-blesses-dont-un-homme-dans-un-etat-desespere-13586890.php",
+        "canonicalUrl": "https://www.ladepeche.fr/2026/10/06/nouvelle-fusillade-a-empalot-plusieurs-blesses-dont-un-homme-dans-un-etat-desespere-13586890.php",
+        "title": "Nouvelle fusillade dans le quartier Empalot à Toulouse, plusieurs blessés, dont un homme dans un état désespéré",
+        "description": "EXCLUSIF. Une nouvelle fusillade a éclaté ce mardi dans le quartier d'Empalot, à Toulouse. Comme dimanche soir et lundi, les coups de feu ont été tirés au cœur du quartier peu avant 13 heures. Au moins deux hommes ont...",
+        "source": {
+          "id": "ladepeche",
+          "name": "La Dépêche du Midi"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T14:18:14.000Z",
+        "imageUrl": "https://images.ladepeche.fr/api/v1/images/view/6ac4eded08836995c00cdde8/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [
+        {
+          "id": "YTlaotIVMyJx",
+          "url": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/un-homme-dans-un-etat-critique-un-autre-blesse-par-balles-bilan-d-une-nouvelle-fusillade-a-toulouse-la-troisieme-en-trois-jours-3428871.html",
+          "canonicalUrl": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/un-homme-dans-un-etat-critique-un-autre-blesse-par-balles-bilan-d-une-nouvelle-fusillade-a-toulouse-la-troisieme-en-trois-jours-3428871.html",
+          "title": "Un homme dans un état critique, un autre blessé par balles : bilan d'une nouvelle fusillade à Toulouse, la troisième en trois jours",
+          "description": "Ce mardi 6 octobre vers 12h30, des coups de feu ont visé un commerce de l’avenue Jean-Moulin, quartier d'Empalot à Toulouse, faisant au moins deux blessés, dont un dans un état critique. Il s'agit de la troisième fusillade en trois jours au même endroit.",
+          "source": {
+            "id": "france3_occitanie",
+            "name": "France 3 Occitanie"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T14:34:50.000Z",
+          "imageUrl": "https://france3-regions.franceinfo.fr/image/0RzA9TdOg8HQ6QUBHjdEuFCF3Wk/930x620/filters:format(webp)/regions/2026/10/06/6ac5036751135399536579.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-OCC"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T14:34:50.000Z"
+    },
+    {
+      "id": "EMQ-Y8LjZO8a",
+      "representative": {
+        "id": "EMQ-Y8LjZO8a",
+        "url": "https://www.ladepeche.fr/2026/10/07/direct-blocage-des-lycees-ce-mercredi-matin-le-mouvement-se-poursuit-par-endroits-des-rassemblements-ont-lieu-devant-des-etablissements-13588363.php",
+        "canonicalUrl": "https://www.ladepeche.fr/2026/10/07/direct-blocage-des-lycees-ce-mercredi-matin-le-mouvement-se-poursuit-par-endroits-des-rassemblements-ont-lieu-devant-des-etablissements-13588363.php",
+        "title": "DIRECT. Blocage des lycées en Haute-Garonne : ce mercredi matin, le mouvement se poursuit par endroits, des rassemblements ont lieu devant des établissements",
+        "description": "Les blocages des lycées à Toulouse et dans la Haute-Garonne continuent. Suivez avec nous cette journée du 7 octobre en live.",
+        "source": {
+          "id": "ladepeche",
+          "name": "La Dépêche du Midi"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:49:39.000Z",
+        "imageUrl": "https://images.ladepeche.fr/api/v1/images/view/6ac5e3adce5f3d103c039e72/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:49:39.000Z"
+    },
+    {
+      "id": "lmz3P1VdoI1z",
+      "representative": {
+        "id": "lmz3P1VdoI1z",
+        "url": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-le-policier-dans-la-tourmente-apres-des-propos-racistes-venait-darriver-a-perpignan-depuis-trois-semaines-13588378.php",
+        "canonicalUrl": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-le-policier-dans-la-tourmente-apres-des-propos-racistes-venait-darriver-a-perpignan-depuis-trois-semaines-13588378.php",
+        "title": "Mobilisation des lycéens : le policier dans la tourmente après des propos racistes venait \"d’arriver à Perpignan depuis trois semaines\"",
+        "description": "Lors de la manifestation du vendredi 2 octobre, un policier national arborait des symboles et une devise en vogue dans les groupuscules d’extrême droite sur son gilet et avait été filmé en train de tenir des propos...",
+        "source": {
+          "id": "lindependant",
+          "name": "L'Indépendant"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:37:52.000Z",
+        "imageUrl": "https://images.lindependant.fr/api/v1/images/view/6ac5e8460dc99118ce07d8b4/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:37:52.000Z"
+    },
+    {
+      "id": "856F1NpXizKu",
+      "representative": {
+        "id": "856F1NpXizKu",
+        "url": "https://www.midilibre.fr/2026/10/07/la-seule-solution-cest-leducation-en-occitanie-hommage-a-valentin-tue-le-7-octobre-et-lutte-contre-les-mythes-antisemites-13587493.php",
+        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/la-seule-solution-cest-leducation-en-occitanie-hommage-a-valentin-tue-le-7-octobre-et-lutte-contre-les-mythes-antisemites-13587493.php",
+        "title": "\"La seule solution c’est l’éducation\" : en Occitanie, hommage à Valentin tué le 7 octobre et lutte contre les mythes antisémites",
+        "description": "Ce mercredi 7 octobre, voilà trois ans que les attentats en Israël ont tué 1200 personnes dont 42 Français. Un hommage est prévu à Montpellier pour l’ancien étudiant en droit Valentin Ghnassia, tué alors qu’il tentait...",
+        "source": {
+          "id": "midilibre",
+          "name": "Midi Libre"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:31:02.000Z",
+        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac56142ce3ca532cc0ee6a2/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:31:02.000Z"
+    },
+    {
+      "id": "DTwgPp06FEkM",
+      "representative": {
+        "id": "DTwgPp06FEkM",
+        "url": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-un-policier-blesse-en-marge-des-rassemblements-du-mardi-6-octobre-a-perpignan-13588372.php",
+        "canonicalUrl": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-un-policier-blesse-en-marge-des-rassemblements-du-mardi-6-octobre-a-perpignan-13588372.php",
+        "title": "Mobilisation des lycéens : un policier blessé en marge des rassemblements du mardi 6 octobre à Perpignan",
+        "description": "Le bilan de la journée de mobilisation du mardi 6 octobre établissait une quinzaine d’interpellations chez les manifestants alors qu’un policier a été blessé.",
+        "source": {
+          "id": "lindependant",
+          "name": "L'Indépendant"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:26:51.000Z",
+        "imageUrl": "https://images.lindependant.fr/api/v1/images/view/6ac5e553c0b56d4c0007bbbc/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:26:51.000Z"
+    },
+    {
+      "id": "CrQ2fzRy6VyZ",
+      "representative": {
+        "id": "CrQ2fzRy6VyZ",
+        "url": "https://www.midilibre.fr/2026/10/06/mobilisation-lyceenne-ce-mardi-a-nimes-toutes-les-generations-rassemblees-autour-des-lyceens-13587558.php",
+        "canonicalUrl": "https://www.midilibre.fr/2026/10/06/mobilisation-lyceenne-ce-mardi-a-nimes-toutes-les-generations-rassemblees-autour-des-lyceens-13587558.php",
+        "title": "Mobilisation lycéenne : ce mardi, à Nîmes, toutes les générations rassemblées autour des lycéens",
+        "description": "La contestation lycéenne a connu ce mardi un nouveau développement avec une grande marche en centre-ville. Enseignants, délégués syndicaux, parents et même grands-parents, étaient au rendez-vous.",
+        "source": {
+          "id": "midilibre",
+          "name": "Midi Libre"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:16:16.000Z",
+        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac528b1dcf92aca6d06185a/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:16:16.000Z"
+    },
+    {
+      "id": "TSSqqMOqCAzx",
+      "representative": {
+        "id": "TSSqqMOqCAzx",
+        "url": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-des-appels-a-bloquer-luniversite-de-perpignan-ce-mercredi-matin-suivez-levolution-de-la-situation-13588364.php",
+        "canonicalUrl": "https://www.lindependant.fr/2026/10/07/mobilisation-des-lyceens-des-appels-a-bloquer-luniversite-de-perpignan-ce-mercredi-matin-suivez-levolution-de-la-situation-13588364.php",
+        "title": "Mobilisation des lycéens : des appels à bloquer l'Université de Perpignan, ce mercredi matin... Suivez l'évolution de la situation",
+        "description": "Après le succès de la mobilisation de ce mardi entre l'université et le centre-ville de Perpignan, le mouvement restait actif ce mercredi matin où des appels à bloquer le site universitaire du Moulin-à-Vent avaient...",
+        "source": {
+          "id": "lindependant",
+          "name": "L'Indépendant"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:15:29.000Z",
+        "imageUrl": "https://images.lindependant.fr/api/v1/images/view/6ac5e2a52e9ac1bedb0ab8be/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:15:29.000Z"
+    },
+    {
+      "id": "PsCFG1gJbngD",
+      "representative": {
+        "id": "PsCFG1gJbngD",
+        "url": "https://www.midilibre.fr/2026/10/07/en-direct-episode-mediterraneen-le-gard-et-lherault-en-vigilance-orange-de-violents-orages-ont-frappe-cette-nuit-les-dernieres-infos-en-images-13587683.php",
+        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/en-direct-episode-mediterraneen-le-gard-et-lherault-en-vigilance-orange-de-violents-orages-ont-frappe-cette-nuit-les-dernieres-infos-en-images-13587683.php",
+        "title": "EN DIRECT Épisode méditerranéen : accident sur l’A9, routes inondées, village isolé… les dernières infos sur les orages de la nuit en images",
+        "description": "Ce mercredi 7 octobre 2026, les intempéries touchent l’hexagone et notamment l’Occitanie. Plusieurs départements de la région sont en vigilance orange pour pluie-inondation et orages. Suivez l’évolution de situation...",
+        "source": {
+          "id": "midilibre",
+          "name": "Midi Libre"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:08:35.000Z",
+        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac542dd7f9ddfc5c80b3591/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:08:35.000Z"
+    },
+    {
+      "id": "DL3ZY-cDhDbk",
+      "representative": {
+        "id": "DL3ZY-cDhDbk",
+        "url": "https://www.midilibre.fr/2026/10/07/pour-les-costieres-de-nimes-2026-est-le-millesime-de-la-bonne-surprise-13586875.php",
+        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/pour-les-costieres-de-nimes-2026-est-le-millesime-de-la-bonne-surprise-13586875.php",
+        "title": "Pour les Costières de Nîmes, \"2026 est le millésime de la (bonne) surprise !\"",
+        "description": "Le millésime est prometteur mais le contexte reste exigeant qui pousse les Costières a toujours s’adapter. Le réchauffement climatique oblige à l’adaptation du vignoble et le tassement des marchés à la recherche de...",
+        "source": {
+          "id": "midilibre",
+          "name": "Midi Libre"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:05:02.000Z",
+        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac507c479743fd91c09bddc/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:05:02.000Z"
+    },
+    {
+      "id": "mFJM0nBUXx2T",
+      "representative": {
+        "id": "mFJM0nBUXx2T",
+        "url": "https://www.midilibre.fr/2026/10/07/presidentielle-2027-qui-sont-ces-elus-sans-etiquette-doccitanie-qui-veulent-faire-barrage-aux-extremes-derriere-raphael-glucksmann-13587487.php",
+        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/presidentielle-2027-qui-sont-ces-elus-sans-etiquette-doccitanie-qui-veulent-faire-barrage-aux-extremes-derriere-raphael-glucksmann-13587487.php",
+        "title": "Présidentielle 2027 : qui sont ces élus \"sans étiquette\" d’Occitanie qui veulent faire barrage aux \"extrêmes\" derrière Raphaël Glucksmann",
+        "description": "Patrice Canayer, Jalil Benabdillah, plusieurs maires et conseillers régionaux, mais aussi des chefs d’entreprise ou des personnalités de la société civile : ils annoncent leur soutien à Raphaël Glucksmann et refusent...",
+        "source": {
+          "id": "midilibre",
+          "name": "Midi Libre"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:02:02.000Z",
+        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac51d1df9dc32251606f781/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:02:02.000Z"
+    },
+    {
+      "id": "PkxaMF4kXGvO",
+      "representative": {
+        "id": "PkxaMF4kXGvO",
+        "url": "https://www.midilibre.fr/2026/10/07/gestion-des-dechets-de-la-metropole-montpellieraine-prise-de-risque-ou-meilleure-des-solutions-deux-visions-irreconciliables-autour-du-csr-13587311.php",
+        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/gestion-des-dechets-de-la-metropole-montpellieraine-prise-de-risque-ou-meilleure-des-solutions-deux-visions-irreconciliables-autour-du-csr-13587311.php",
+        "title": "Gestion des déchets de la métropole Montpelliéraine : prise de risque ou meilleure des solutions, deux visions irréconciliables autour du CSR",
+        "description": "Le conseil municipal de Montpellier a donné un avis favorable, ce mardi 6 octobre, au projet de transformation de l’usine Ametyst en filière de valorisation des Combustibles solides de récupération (CSR). La majorité...",
+        "source": {
+          "id": "midilibre",
+          "name": "Midi Libre"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:01:02.000Z",
+        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac527e19714f0cb8e0c34b3/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:01:02.000Z"
+    },
+    {
+      "id": "BWr7HobisPvI",
+      "representative": {
+        "id": "BWr7HobisPvI",
+        "url": "https://www.ladepeche.fr/2026/10/07/bouchons-la-circulation-est-dense-ce-mercredi-matin-voici-les-axes-a-eviter-13588346.php",
+        "canonicalUrl": "https://www.ladepeche.fr/2026/10/07/bouchons-la-circulation-est-dense-ce-mercredi-matin-voici-les-axes-a-eviter-13588346.php",
+        "title": "Bouchons : la circulation est dense ce mercredi matin, voici les axes à éviter aux abords de Toulouse",
+        "description": "La circulation est particulièrement dense ce mercredi sur l'ensemble du réseau toulousain. Des kilomètres de bouchons se sont déjà accumulés sur l'A620, l'A64 et la RN124. Soyez prudents et patients.",
+        "source": {
+          "id": "ladepeche",
+          "name": "La Dépêche du Midi"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:47:16.000Z",
+        "imageUrl": "https://images.ladepeche.fr/api/v1/images/view/6ac5d99539c5b3fd93084f8e/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:47:16.000Z"
+    },
+    {
+      "id": "AqwpEuoQsDIn",
+      "representative": {
+        "id": "AqwpEuoQsDIn",
+        "url": "https://www.midilibre.fr/2026/10/07/lhumidite-cest-une-folie-4e-aux-jo-de-paris-pierre-le-corre-se-lance-dans-la-course-la-plus-dure-de-sa-vie-lironman-dhawai-13587104.php",
+        "canonicalUrl": "https://www.midilibre.fr/2026/10/07/lhumidite-cest-une-folie-4e-aux-jo-de-paris-pierre-le-corre-se-lance-dans-la-course-la-plus-dure-de-sa-vie-lironman-dhawai-13587104.php",
+        "title": "\"L’humidité, c’est une folie\" : 4e aux JO de Paris, Pierre Le Corre se lance dans la course la plus dure de sa vie, l’Ironman d’Hawaï",
+        "description": "Le triathlète montpelliérain Pierre Le Corre participe ce dimanche aux Championnats du monde d’Ironman à Kailua-Kona (Hawaï). Quatrième aux JO de Paris 2024, le sportif de 36 ans va se tester sur un parcours extrême...",
+        "source": {
+          "id": "midilibre",
+          "name": "Midi Libre"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:38:02.000Z",
+        "imageUrl": "https://images.midilibre.fr/api/v1/images/view/6ac4f832d76918304f0ad000/standard/image.jpg?v=1",
+        "countryCode": "FR",
+        "regionCode": "FR-OCC"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:38:02.000Z"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IS",
   "countryName": "Iceland",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "Y90-XbcGmTNd",
@@ -45,90 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T14:52:20.000Z"
-    },
-    {
-      "id": "oLczY6QGU8PN",
-      "representative": {
-        "id": "oLczY6QGU8PN",
-        "url": "https://www.visir.is/g/20262944359d/mun-conte-taka-vid-manchester-united-",
-        "canonicalUrl": "https://www.visir.is/g/20262944359d/mun-conte-taka-vid-manchester-united-",
-        "title": "Mun Conte taka við Manchester United?",
-        "description": "Antonio Conte hefur þjálfað mörg af bestu félögum heims og hefur náð miklum árangri með þeim. Hann er þekktur fyrir að stoppa ekki lengi hjá félögum en hann segist hafa augastað á að ganga til félags sem er með langa sögu af því að vinna titla.",
-        "source": {
-          "id": "visir",
-          "name": "Vísir"
-        },
-        "sourceCountry": "IS",
-        "language": "is",
-        "publishedAt": "2026-10-05T19:45:44.000Z",
-        "imageUrl": null,
-        "countryCode": "IS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "MCrM21wPNJKV",
-          "url": "https://www.dv.is/433/2026/10/06/antonio-conte-virdist-gefa-thvi-undir-fotinn-ad-taka-vid-united-af-carrick",
-          "canonicalUrl": "https://www.dv.is/433/2026/10/06/antonio-conte-virdist-gefa-thvi-undir-fotinn-ad-taka-vid-united-af-carrick",
-          "title": "Antonio Conte virðist gefa því undir fótinn að taka við United af Carrick",
-          "description": "Antonio Conte segist vilja taka við félagi sem hefur misst sjónar á eigin sögu, orð sem hafa vakið athygli í tengslum við Manchester United.",
-          "source": {
-            "id": "dv_is",
-            "name": "DV"
-          },
-          "sourceCountry": "IS",
-          "language": "is",
-          "publishedAt": "2026-10-06T14:00:00.000Z",
-          "imageUrl": null,
-          "countryCode": "IS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T14:00:00.000Z"
-    },
-    {
-      "id": "_Xl7f_4mHdH0",
-      "representative": {
-        "id": "_Xl7f_4mHdH0",
-        "url": "https://www.visir.is/g/20262944400d/milljarda-innflaedi-gaeti-fylgt-amaroq-inn-i-ftse-250",
-        "canonicalUrl": "https://www.visir.is/g/20262944400d/milljarda-innflaedi-gaeti-fylgt-amaroq-inn-i-ftse-250",
-        "title": "Milljarða inn­flæði gæti fylgt Amaroq inn í FTSE 250",
-        "description": "Amaroq verður tekið inn í FTSE 250 vísitöluna síðar í vikunni, stuttu eftir að auðlindafélagið komst fyrst inn í helstu vísitölur FTSE Russell í kjölfar flutnings þess yfir á aðalmarkaðinn í London. Breytingin ætti að kalla fram nýja eftirspurn frá alþjóðlegum vísitölusjóðum og gæti leitt til…",
-        "source": {
-          "id": "visir",
-          "name": "Vísir"
-        },
-        "sourceCountry": "IS",
-        "language": "is",
-        "publishedAt": "2026-10-05T22:25:15.000Z",
-        "imageUrl": null,
-        "countryCode": "IS",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "y0QhcvQQjcfi",
-          "url": "https://www.vb.is/frettir/amaroq-tekid-inn-i-ftse-250/",
-          "canonicalUrl": "https://www.vb.is/frettir/amaroq-tekid-inn-i-ftse-250/",
-          "title": "Amaroq tekið inn í FTSE 250",
-          "description": "Eldur segir að þetta opin fyrir aukna þátttöku vísitölusjóða með tilheyrandi áhrifum á veltu með bréf félagsins.",
-          "source": {
-            "id": "vb_is",
-            "name": "Viðskiptablaðið"
-          },
-          "sourceCountry": "IS",
-          "language": "is",
-          "publishedAt": "2026-10-06T09:32:24.000Z",
-          "imageUrl": null,
-          "countryCode": "IS",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:32:24.000Z"
     },
     {
       "id": "WPkrx4iOR53B",
@@ -417,6 +333,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:17:00.000Z"
+    },
+    {
+      "id": "CC3hlKJQe-d1",
+      "representative": {
+        "id": "CC3hlKJQe-d1",
+        "url": "https://www.visir.is/g/20262944595d/fimmtan-leikmenn-meiddir-er-lengra-landsleikjahle-betra-eda-verra-",
+        "canonicalUrl": "https://www.visir.is/g/20262944595d/fimmtan-leikmenn-meiddir-er-lengra-landsleikjahle-betra-eda-verra-",
+        "title": "Fimm­tán leik­menn meiddir: Er lengra landsleikjahlé betra eða verra?",
+        "description": "Fyrsta landsliðshlé tímabilsins 2026/27 er senn á enda en það hefur verið óvenju langt eins og margir hafa tekið eftir. Í fyrsta sinn var gert þriggja vikna hlé á stærstu deildum Evrópu í stað tveggja vikna eins og hefur verið undanfarin ár.",
+        "source": {
+          "id": "visir",
+          "name": "Vísir"
+        },
+        "sourceCountry": "IS",
+        "language": "is",
+        "publishedAt": "2026-10-06T15:15:44.000Z",
+        "imageUrl": null,
+        "countryCode": "IS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:15:44.000Z"
+    },
+    {
+      "id": "EIwQzj4h6P_S",
+      "representative": {
+        "id": "EIwQzj4h6P_S",
+        "url": "https://www.vb.is/frettir/gervigreind-mogulega-notud-i-arasum-a-banka/",
+        "canonicalUrl": "https://www.vb.is/frettir/gervigreind-mogulega-notud-i-arasum-a-banka/",
+        "title": "Gervigreind mögulega notuð í árásum á banka",
+        "description": "Suðurkóresk yfirvöld rannsaka nú hvort gervigreind hafi verið notuð í nýlegum netárásum á banka.",
+        "source": {
+          "id": "vb_is",
+          "name": "Viðskiptablaðið"
+        },
+        "sourceCountry": "IS",
+        "language": "is",
+        "publishedAt": "2026-10-06T15:14:30.000Z",
+        "imageUrl": null,
+        "countryCode": "IS",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:14:30.000Z"
     }
   ]
 }

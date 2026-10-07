@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "MR",
   "countryName": "Mauritania",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "CImRuL0egwTX",
@@ -45,48 +45,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T16:22:23.000Z"
-    },
-    {
-      "id": "yBvLbDpHJsgf",
-      "representative": {
-        "id": "yBvLbDpHJsgf",
-        "url": "https://lecalame.info/?q=node/19008",
-        "canonicalUrl": "https://lecalame.info/?q=node%2F19008",
-        "title": "Le ministre de l’Économie supervise l'ouverture du Forum économique mauritano-américain",
-        "description": null,
-        "source": {
-          "id": "lecalame",
-          "name": "Le Calame"
-        },
-        "sourceCountry": "MR",
-        "language": "fr",
-        "publishedAt": "2026-10-06T00:46:41.000Z",
-        "imageUrl": null,
-        "countryCode": "MR",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "aExATGVxQ_VK",
-          "url": "https://rimweb.net/2026/10/06/le-ministre-de-leconomie-supervise-louverture-du-forum-economique-mauritano-americain/",
-          "canonicalUrl": "https://rimweb.net/2026/10/06/le-ministre-de-leconomie-supervise-louverture-du-forum-economique-mauritano-americain/",
-          "title": "Le ministre de l’Économie supervise l’ouverture du Forum économique mauritano-américain",
-          "description": "Son Excellence le ministre des Affaires économiques et du Développement, Dr Abdallah Ould Souleymane Ould Cheikh Sidia, a présidé, lundi",
-          "source": {
-            "id": "rimweb",
-            "name": "Rimweb"
-          },
-          "sourceCountry": "MR",
-          "language": "fr",
-          "publishedAt": "2026-10-06T12:37:29.000Z",
-          "imageUrl": null,
-          "countryCode": "MR",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:37:29.000Z"
     },
     {
       "id": "DOy5OzqbYsr0",
@@ -399,6 +357,48 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:14:42.000Z"
+    },
+    {
+      "id": "bMEsQ336DdNc",
+      "representative": {
+        "id": "bMEsQ336DdNc",
+        "url": "https://fr.saharamedias.net/la-ministre-de-la-fonction-publique-du-diagnostic-issu-de-linspection-du-travail-nous-passons-a-la-reforme/",
+        "canonicalUrl": "https://fr.saharamedias.net/la-ministre-de-la-fonction-publique-du-diagnostic-issu-de-linspection-du-travail-nous-passons-a-la-reforme/",
+        "title": "La ministre de la Fonction publique : « Du diagnostic issu de l’inspection du travail nous passons à la réforme »",
+        "description": "La ministre de la Fonction publique et du Travail, Marieme Boydiel Houmeid, a déclaré que l’organisation de deux ateliers consacrés à l’amélioration des performances de l’inspection du travail et à l’élaboration de la politique nationale de sécurité et de santé au travail marquait le passage d’une…",
+        "source": {
+          "id": "saharamedias",
+          "name": "Sahara Medias"
+        },
+        "sourceCountry": "MR",
+        "language": "fr",
+        "publishedAt": "2026-10-05T17:53:00.000Z",
+        "imageUrl": null,
+        "countryCode": "MR",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "zME13ooBPc1w",
+          "url": "https://rimweb.net/2026/10/06/la-ministre-de-la-fonction-publique-du-diagnostic-issu-de-linspection-du-travail-nous-passons-a-la-reforme/",
+          "canonicalUrl": "https://rimweb.net/2026/10/06/la-ministre-de-la-fonction-publique-du-diagnostic-issu-de-linspection-du-travail-nous-passons-a-la-reforme/",
+          "title": "La ministre de la Fonction publique : « Du diagnostic issu de l’inspection du travail nous passons à la réforme »",
+          "description": "La ministre de la Fonction publique et du Travail, Marieme Boydiel Houmeid, a déclaré que l’organisation de deux ateliers consacrés",
+          "source": {
+            "id": "rimweb",
+            "name": "Rimweb"
+          },
+          "sourceCountry": "MR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T12:40:08.000Z",
+          "imageUrl": null,
+          "countryCode": "MR",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:40:08.000Z"
     }
   ]
 }

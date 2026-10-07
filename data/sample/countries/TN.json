@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "TN",
   "countryName": "Tunisia",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "spmnZ8FX495b",
@@ -64,48 +64,6 @@
       "latestPublishedAt": "2026-10-06T10:48:58.000Z"
     },
     {
-      "id": "JelM2-e1JH6D",
-      "representative": {
-        "id": "JelM2-e1JH6D",
-        "url": "https://www.lapresse.tn/2026/10/06/gestion-des-risques-un-systeme-precoce-dalertes-multirisques-bientot-a-la-manouba/",
-        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/gestion-des-risques-un-systeme-precoce-dalertes-multirisques-bientot-a-la-manouba/",
-        "title": "Gestion des risques : un système précoce d’alertes multirisques bientôt à la Manouba",
-        "description": "Lors d’une réunion de la Commission régionale de prévention, de lutte contre les catastrophes et d’organisation des secours de la Manouba, tenue hier soir, une délégation d’experts relevant de la Banque mondiale et d’un bureau d’études français, a présenté un exposé sur les résultats de…",
-        "source": {
-          "id": "lapresse_tn",
-          "name": "La Presse de Tunisie"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T13:04:32.000Z",
-        "imageUrl": null,
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "tOheY2q25mYN",
-          "url": "https://www.mosaiquefm.net/fr/national-tunisie/1532493/tunis-vers-un-systeme-d-alerte-precoce-contre-les-risques-naturels",
-          "canonicalUrl": "https://www.mosaiquefm.net/fr/national-tunisie/1532493/tunis-vers-un-systeme-d-alerte-precoce-contre-les-risques-naturels",
-          "title": "Tunis : vers un système d’alerte précoce contre les risques naturels",
-          "description": "Gouvernorat de Tunis : un système d’alerte précoce face aux risques naturels",
-          "source": {
-            "id": "mosaiquefm",
-            "name": "Mosaïque FM"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-05T21:18:00.000Z",
-          "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791235266.webp",
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:04:32.000Z"
-    },
-    {
       "id": "VVTZMILhlvEh",
       "representative": {
         "id": "VVTZMILhlvEh",
@@ -148,48 +106,6 @@
       "latestPublishedAt": "2026-10-06T12:05:05.000Z"
     },
     {
-      "id": "PT6vcLo2eSXc",
-      "representative": {
-        "id": "PT6vcLo2eSXc",
-        "url": "https://www.mosaiquefm.net/fr/national-tunisie/1532500/kais-saied-le-chomage-n-etait-pas-un-choix-mais-une-injustic",
-        "canonicalUrl": "https://www.mosaiquefm.net/fr/national-tunisie/1532500/kais-saied-le-chomage-n-etait-pas-un-choix-mais-une-injustic",
-        "title": "Kais Saïed: Le chômage n'était pas un choix mais une injustice",
-        "description": "Kais Saïed: Le chômage n'était pas un choix mais une injustice",
-        "source": {
-          "id": "mosaiquefm",
-          "name": "Mosaïque FM"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T06:18:00.000Z",
-        "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791268300.webp",
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "s_4aoegzYezL",
-          "url": "https://realites.com.tn/fr/kais-saied-le-chomeur-daujourdhui-netait-pas-chomeur-de-son-plein-gre/",
-          "canonicalUrl": "https://realites.com.tn/fr/kais-saied-le-chomeur-daujourdhui-netait-pas-chomeur-de-son-plein-gre/",
-          "title": "Kaïs Saïed : « Le chômeur d’aujourd’hui n’était pas chômeur de son plein gré »",
-          "description": "Le président de la République, Kaïs Saïed, a reçu lundi 5 octobre 2026 au palais de Carthage la cheffe du gouvernement, Sarra Zaafrani Zenzri, et le ministre de l’Emploi et… The post Kaïs Saïed : « Le chômeur d’aujourd’hui n’était pas chômeur de son plein gré » appeared first on Réalités Magazine .",
-          "source": {
-            "id": "realites",
-            "name": "Réalités"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T10:54:39.000Z",
-          "imageUrl": null,
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:54:39.000Z"
-    },
-    {
       "id": "pIp8ReNCYNAv",
       "representative": {
         "id": "pIp8ReNCYNAv",
@@ -230,48 +146,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T10:53:26.000Z"
-    },
-    {
-      "id": "GFiKfb_IRgiQ",
-      "representative": {
-        "id": "GFiKfb_IRgiQ",
-        "url": "https://businessnews.com.tn/2026/10/06/recrutement-des-diplomes-chomeurs-kais-saied-appelle-a-appliquer-la-loi-n18-de-2025/1421544/",
-        "canonicalUrl": "https://businessnews.com.tn/2026/10/06/recrutement-des-diplomes-chomeurs-kais-saied-appelle-a-appliquer-la-loi-n18-de-2025/1421544/",
-        "title": "Recrutement des diplômés chômeurs : Kaïs Saïed appelle à appliquer la loi n°18 de 2025",
-        "description": "Le président de la République, Kaïs Saïed, a consacré une partie de sa rencontre, lundi 5 octobre 2026 au palais de Carthage, avec la cheffe du gouvernement, Sarra Zaâfrani Zenzri, et le ministre de l’Emploi et de la Formation professionnelle, Riadh Chaoued, au suivi de l’application de la loi…",
-        "source": {
-          "id": "businessnews_tn",
-          "name": "Business News"
-        },
-        "sourceCountry": "TN",
-        "language": "fr",
-        "publishedAt": "2026-10-06T07:18:59.000Z",
-        "imageUrl": null,
-        "countryCode": "TN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "KxVVz971Nzu8",
-          "url": "https://www.webdo.tn/fr/actualite/national/loi-18-kais-saied-fait-le-point-sur-les-recrutements-des-diplomes-chomeurs/405053/",
-          "canonicalUrl": "https://www.webdo.tn/fr/actualite/national/loi-18-kais-saied-fait-le-point-sur-les-recrutements-des-diplomes-chomeurs/405053/",
-          "title": "Loi 18 : Kaïs Saïed fait le point sur les recrutements des diplômés chômeurs",
-          "description": "Le président de la République, Kaïs Saïed, a consacré une réunion tenue lundi 5 octobre 2026 au palais de Carthage au suivi de l’application de la loi n°18 de 2025 relative au recrutement exceptionnel des diplômés de l’enseignement supérieur dont le chômage s’est prolongé. La réunion s’est tenue…",
-          "source": {
-            "id": "webdo",
-            "name": "Webdo"
-          },
-          "sourceCountry": "TN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T05:52:26.000Z",
-          "imageUrl": null,
-          "countryCode": "TN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T07:18:59.000Z"
     },
     {
       "id": "XuqLwZEziD3O",
@@ -466,6 +340,48 @@
       "latestPublishedAt": "2026-10-06T13:08:00.000Z"
     },
     {
+      "id": "JelM2-e1JH6D",
+      "representative": {
+        "id": "JelM2-e1JH6D",
+        "url": "https://www.lapresse.tn/2026/10/06/gestion-des-risques-un-systeme-precoce-dalertes-multirisques-bientot-a-la-manouba/",
+        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/gestion-des-risques-un-systeme-precoce-dalertes-multirisques-bientot-a-la-manouba/",
+        "title": "Gestion des risques : un système précoce d’alertes multirisques bientôt à la Manouba",
+        "description": "Lors d’une réunion de la Commission régionale de prévention, de lutte contre les catastrophes et d’organisation des secours de la Manouba, tenue hier soir, une délégation d’experts relevant de la Banque mondiale et d’un bureau d’études français, a présenté un exposé sur les résultats de…",
+        "source": {
+          "id": "lapresse_tn",
+          "name": "La Presse de Tunisie"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:04:32.000Z",
+        "imageUrl": null,
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "tOheY2q25mYN",
+          "url": "https://www.mosaiquefm.net/fr/national-tunisie/1532493/tunis-vers-un-systeme-d-alerte-precoce-contre-les-risques-naturels",
+          "canonicalUrl": "https://www.mosaiquefm.net/fr/national-tunisie/1532493/tunis-vers-un-systeme-d-alerte-precoce-contre-les-risques-naturels",
+          "title": "Tunis : vers un système d’alerte précoce contre les risques naturels",
+          "description": "Gouvernorat de Tunis : un système d’alerte précoce face aux risques naturels",
+          "source": {
+            "id": "mosaiquefm",
+            "name": "Mosaïque FM"
+          },
+          "sourceCountry": "TN",
+          "language": "fr",
+          "publishedAt": "2026-10-05T21:18:00.000Z",
+          "imageUrl": "https://content.mosaiquefm.net/uploads/content/large/1791235266.webp",
+          "countryCode": "TN",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:04:32.000Z"
+    },
+    {
       "id": "dM9mfnxxXXTk",
       "representative": {
         "id": "dM9mfnxxXXTk",
@@ -488,6 +404,54 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:02:15.000Z"
+    },
+    {
+      "id": "tYVOnFJe1kLR",
+      "representative": {
+        "id": "tYVOnFJe1kLR",
+        "url": "https://www.lapresse.tn/2026/10/06/siliana-issam-lahmar-supervise-les-aides-scolaires-et-anticipe-les-dispositifs-contre-la-vague-de-froid/",
+        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/siliana-issam-lahmar-supervise-les-aides-scolaires-et-anticipe-les-dispositifs-contre-la-vague-de-froid/",
+        "title": "Siliana : Issam Lahmar supervise les aides scolaires et anticipe les dispositifs contre la vague de froid",
+        "description": "Le ministre des Affaires sociales, Issam Lahmar, a effectué aujourd’hui, mardi 6 octobre 2026, une visite dans le gouvernorat de Siliana. Le ministre s’est certes rendu à Siliana pour procéder à l’inauguration de plusieurs sièges relevant de son département des Affaires sociales ainsi que celle…",
+        "source": {
+          "id": "lapresse_tn",
+          "name": "La Presse de Tunisie"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:58:53.000Z",
+        "imageUrl": null,
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:58:53.000Z"
+    },
+    {
+      "id": "7fklRbWvEJbM",
+      "representative": {
+        "id": "7fklRbWvEJbM",
+        "url": "https://www.lapresse.tn/2026/10/06/gnv-awards-2026-une-croissance-portee-par-lafrique-du-nord-et-le-renouvellement-de-la-flotte/",
+        "canonicalUrl": "https://www.lapresse.tn/2026/10/06/gnv-awards-2026-une-croissance-portee-par-lafrique-du-nord-et-le-renouvellement-de-la-flotte/",
+        "title": "GNV Awards 2026 : une croissance portée par l’Afrique du Nord et le renouvellement de la flotte",
+        "description": "À Marrakech, GNV a choisi de réunir ses partenaires du secteur du voyage pour faire le point sur une année 2026 marquée par la progression des volumes, le renforcement de sa présence en Afrique du Nord et la poursuite d’un vaste programme de renouvellement de sa flotte. La septième édition des GNV…",
+        "source": {
+          "id": "lapresse_tn",
+          "name": "La Presse de Tunisie"
+        },
+        "sourceCountry": "TN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:55:53.000Z",
+        "imageUrl": null,
+        "countryCode": "TN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:55:53.000Z"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "SN",
   "countryName": "Senegal",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "NGuQmU3ovs_k",
@@ -79,65 +79,6 @@
       "outletCount24h": 4,
       "outletCount": 4,
       "latestPublishedAt": "2026-10-06T14:50:42.000Z"
-    },
-    {
-      "id": "n1PP3IHm_gqY",
-      "representative": {
-        "id": "n1PP3IHm_gqY",
-        "url": "https://www.dakaractu.com/Enseignement-superieur-Les-precisions-du-MESRI-sur-la-liste-noire-des-EPES-non-reconnus_a276741.html",
-        "canonicalUrl": "https://www.dakaractu.com/Enseignement-superieur-Les-precisions-du-MESRI-sur-la-liste-noire-des-EPES-non-reconnus_a276741.html",
-        "title": "Enseignement supérieur : Les précisions du MESRI sur la liste \"noire\" des EPES non reconnus",
-        "description": "Le Ministère de l'Enseignement supérieur, de la Recherche et de l'Innovation (MESRI) a apporté des éclaircissements ce 05 octobre 2026, concernant la liste dite \"noire\" d'Établissements Privés d'Enseignement Supérieur (EPES) non reconnus, largement relayée par la presse. Dans un communiqué signé…",
-        "source": {
-          "id": "dakaractu",
-          "name": "Dakaractu"
-        },
-        "sourceCountry": "SN",
-        "language": "fr",
-        "publishedAt": "2026-10-05T21:55:00.000Z",
-        "imageUrl": "https://www.dakaractu.com/photo/art/default/98277727-68502389.jpg?v=1791237552",
-        "countryCode": "SN",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "ZRZqxgAAIo3a",
-          "url": "https://lequotidien.sn/liste-noire-des-epes-le-mesri-met-sa-note-a-la-poubelle/",
-          "canonicalUrl": "https://lequotidien.sn/liste-noire-des-epes-le-mesri-met-sa-note-a-la-poubelle/",
-          "title": "Liste noire des Epes : Le Mesri met sa note à la poubelle",
-          "description": "Dans un communiqué daté du 5 octobre 2026, la Direction générale de l’enseignement supérieur dément l’émission officielle d’un document recensant des établissements privés non...",
-          "source": {
-            "id": "lequotidien_sn",
-            "name": "Le Quotidien"
-          },
-          "sourceCountry": "SN",
-          "language": "fr",
-          "publishedAt": "2026-10-06T13:02:05.000Z",
-          "imageUrl": null,
-          "countryCode": "SN",
-          "regionCode": null
-        },
-        {
-          "id": "wYNMYJFNS9ed",
-          "url": "https://emedia.sn/enseignement-superieur-le-mesri-dement-lexistence-dune-liste-noire-des-etablissements-prives/",
-          "canonicalUrl": "https://emedia.sn/enseignement-superieur-le-mesri-dement-lexistence-dune-liste-noire-des-etablissements-prives/",
-          "title": "Enseignement supérieur : le MESRI dément l’existence d’une « liste noire » des établissements privés",
-          "description": "Le ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation (MESRI) a apporté, ce lundi 5 octobre 2026, des précisions sur un document présenté récemment dans la presse comme une prétendue « liste noire » d’Établissements privés d’Enseignement supérieur (EPES) non reconnus. Dans…",
-          "source": {
-            "id": "emedia_sn",
-            "name": "E-Media"
-          },
-          "sourceCountry": "SN",
-          "language": "fr",
-          "publishedAt": "2026-10-05T20:00:07.000Z",
-          "imageUrl": null,
-          "countryCode": "SN",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:02:05.000Z"
     },
     {
       "id": "mmOkQF_hPC8Y",
@@ -592,6 +533,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T15:09:43.000Z"
+    },
+    {
+      "id": "2no7y0r-w9OT",
+      "representative": {
+        "id": "2no7y0r-w9OT",
+        "url": "https://aps.sn/la-reinsertion-socio-economique-des-enfants-en-conflit-avec-la-loi-au-menu-dun-atelier/",
+        "canonicalUrl": "https://aps.sn/la-reinsertion-socio-economique-des-enfants-en-conflit-avec-la-loi-au-menu-dun-atelier/",
+        "title": "La réinsertion socio-économique des enfants en conflit avec la loi au menu d’un atelier",
+        "description": "Dakar, 6 oct (APS) – Un atelier consacré à la problématique de la réinsertion socio-économique des enfants en conflit avec la loi s’est tenu mardi à Dakar, à l’initiative de la direction générale de la protection judiciaire et sociale, une structure rattachée au ministère de la justice. Des…",
+        "source": {
+          "id": "aps_sn",
+          "name": "APS"
+        },
+        "sourceCountry": "SN",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:05:33.000Z",
+        "imageUrl": null,
+        "countryCode": "SN",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:05:33.000Z"
     }
   ]
 }

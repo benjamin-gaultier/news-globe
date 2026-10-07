@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "ES",
   "countryName": "Spain",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "3M4pigwXBPaP",
@@ -544,48 +544,6 @@
       "latestPublishedAt": "2026-10-06T07:27:43.000Z"
     },
     {
-      "id": "msRlwyrh3c7P",
-      "representative": {
-        "id": "msRlwyrh3c7P",
-        "url": "https://www.elmundo.es/espana/2026/10/05/6ac3f6fdfdddff4f438b458b.html",
-        "canonicalUrl": "https://www.elmundo.es/espana/2026/10/05/6ac3f6fdfdddff4f438b458b.html",
-        "title": "El adelanto electoral retrasará la imputación del PSOE como persona jurídica en el caso de las cloacas de Ferraz",
-        "description": "Anticorrupción no solicitará la investigación del partido antes de las generales para no interferir en la cita con las urnas Leer",
-        "source": {
-          "id": "elmundo",
-          "name": "El Mundo"
-        },
-        "sourceCountry": "ES",
-        "language": "es",
-        "publishedAt": "2026-10-05T20:43:42.000Z",
-        "imageUrl": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/10/05/17912278373678.jpg",
-        "countryCode": "ES",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "W7PD2W5EgwSe",
-          "url": "https://www.20minutos.es/nacional/adelanto-electoral-no-frenara-causa-las-cloacas-pero-aleja-escenario-posible-imputacion-psoe_7044989_0.html",
-          "canonicalUrl": "https://www.20minutos.es/nacional/adelanto-electoral-no-frenara-causa-las-cloacas-pero-aleja-escenario-posible-imputacion-psoe_7044989_0.html",
-          "title": "El adelanto electoral no frenará la causa de las cloacas pero aleja el escenario de la posible imputación del PSOE",
-          "description": "Los investigadores consideran que los hechos atribuidos a Santos Cerdán podrían arrastrar a la imputación del partido por cohecho y tráfico de influencias, pero descartan dar el paso antes de los comicios.",
-          "source": {
-            "id": "20minutos_es",
-            "name": "20minutos"
-          },
-          "sourceCountry": "ES",
-          "language": "es",
-          "publishedAt": "2026-10-06T03:00:00.000Z",
-          "imageUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/10/02/6abfea3fdd9b46-96886472.jpeg",
-          "countryCode": "ES",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T03:00:00.000Z"
-    },
-    {
       "id": "ciXoNhFVgP8P",
       "representative": {
         "id": "ciXoNhFVgP8P",
@@ -680,6 +638,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:14:15.000Z"
+    },
+    {
+      "id": "0DrY0HL5IqT5",
+      "representative": {
+        "id": "0DrY0HL5IqT5",
+        "url": "https://www.abc.es/espana/castilla-la-mancha/nunez-propondra-debate-estado-region-soluciones-mal-20261006151405-nt.html",
+        "canonicalUrl": "https://www.abc.es/espana/castilla-la-mancha/nunez-propondra-debate-estado-region-soluciones-mal-20261006151405-nt.html",
+        "title": "Núñez propondrá en el Debate del estado de la región soluciones a «todo lo que está mal»",
+        "description": "El presidente del Partido Popular de Castilla-La Mancha, Paco Núñez, ha adelantado que propondrá en el Debate del Estado de la Región , que tiene lugar el 14 y 15 de octubre, las soluciones a «todo lo que está pasando mal en la región» para plantear «la Castilla-La Mancha que queremos».A preguntas…",
+        "source": {
+          "id": "abc_es",
+          "name": "ABC"
+        },
+        "sourceCountry": "ES",
+        "language": "es",
+        "publishedAt": "2026-10-06T13:14:06.000Z",
+        "imageUrl": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/10/06/Paco%20Nunez%20PP-RmsnX6aBG2jhvlovosuuiyH-1200x840@diario_abc.jpg",
+        "countryCode": "ES",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:14:06.000Z"
     }
   ]
 }

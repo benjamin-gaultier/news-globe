@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "CH",
   "countryName": "Switzerland",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "uAiKU_zZjUY1",
@@ -213,48 +213,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T11:21:20.000Z"
-    },
-    {
-      "id": "P3kepUYV99Df",
-      "representative": {
-        "id": "P3kepUYV99Df",
-        "url": "https://www.srf.ch/news/dialog/laut-eth-studie-schlimmstes-klimaszenario-fuer-die-schweiz-wird-wahrscheinlicher",
-        "canonicalUrl": "https://www.srf.ch/news/dialog/laut-eth-studie-schlimmstes-klimaszenario-fuer-die-schweiz-wird-wahrscheinlicher",
-        "title": "Laut ETH-Studie – Schlimmstes Klimaszenario für die Schweiz wird wahrscheinlicher",
-        "description": "Neue Forschungsergebnisse deuten darauf hin, dass sich die Erde stärker erwärmt, als Prognosen bisher voraussagten.",
-        "source": {
-          "id": "srf",
-          "name": "SRF News"
-        },
-        "sourceCountry": "CH",
-        "language": "de",
-        "publishedAt": "2026-10-06T03:50:16.000Z",
-        "imageUrl": "https://www.srf.ch/static/cms/images//320ws/d9a306.webp",
-        "countryCode": "CH",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "3fRu4pJdqddt",
-          "url": "https://www.tagesanzeiger.ch/eth-studie-erde-erwaermt-sich-bis-2100-um-3-25-grad-129688621725",
-          "canonicalUrl": "https://www.tagesanzeiger.ch/eth-studie-erde-erwaermt-sich-bis-2100-um-3-25-grad-129688621725",
-          "title": "Neue ETH-Studie: Globale Erwärmung um 3 Grad wird immer wahrscheinlicher – in der Schweiz soll es noch mehr sein",
-          "description": "Eine Studie der ETH korrigiert die Klimaprognosen massiv nach oben, weil die in der Atmosphäre gespeicherte Wärmemenge sich deutlich schneller erhöht als bisher angenommen.",
-          "source": {
-            "id": "tagesanzeiger",
-            "name": "Tages-Anzeiger"
-          },
-          "sourceCountry": "CH",
-          "language": "de",
-          "publishedAt": "2026-10-06T09:14:23.000Z",
-          "imageUrl": "https://cdn.unitycms.io/images/Bg3IRzLw4lIBJ6Ex46eA2f.jpg",
-          "countryCode": "CH",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:14:23.000Z"
     },
     {
       "id": "plyzxGcTPp0r",
@@ -471,6 +429,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:42:58.000Z"
+    },
+    {
+      "id": "n3sk3bCJl79x",
+      "representative": {
+        "id": "n3sk3bCJl79x",
+        "url": "https://www.letemps.ch/articles/boum-les-opposants-a-l-interdiction-des-feux-d-artifice-allument-la-meche",
+        "canonicalUrl": "https://www.letemps.ch/articles/boum-les-opposants-a-l-interdiction-des-feux-d-artifice-allument-la-meche",
+        "title": "«Boum!»: les opposants à l’interdiction des feux d’artifice allument la mèche",
+        "description": "A 8 semaines de la votation du 29 novembre, le Centre, le PLR, l’UDC, l’Usam et la branche pyrotechnique ont lancé leur campagne contre l’initiative sur les feux d’artifice. Leur position: laisser les cantons et les communes décider «Boum!» C’est par cette onomatopée que Benjamin Roduit (Le…",
+        "source": {
+          "id": "letemps",
+          "name": "Le Temps"
+        },
+        "sourceCountry": "CH",
+        "language": "fr",
+        "publishedAt": "2026-10-06T12:31:27.000Z",
+        "imageUrl": "https://letemps-17455.kxcdn.com/photos/9c84d50f-1291-4c27-b295-e60fa9f0af10/medium",
+        "countryCode": "CH",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:31:27.000Z"
     }
   ]
 }

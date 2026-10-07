@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "IT",
   "countryName": "Italy",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "JjekBcF_1Kfk",
@@ -93,7 +93,7 @@
           "regionCode": null
         }
       ],
-      "outletCount24h": 5,
+      "outletCount24h": 4,
       "outletCount": 5,
       "latestPublishedAt": "2026-10-06T13:16:57.000Z"
     },
@@ -182,48 +182,6 @@
       "latestPublishedAt": "2026-10-06T12:13:08.000Z"
     },
     {
-      "id": "dXI8oF4HniKZ",
-      "representative": {
-        "id": "dXI8oF4HniKZ",
-        "url": "https://www.repubblica.it/cronaca/2026/10/05/news/richard_gere_matteo_salvini_video_migranti_lezioni_italiani-425628250/?rss",
-        "canonicalUrl": "https://www.repubblica.it/cronaca/2026/10/05/news/richard_gere_matteo_salvini_video_migranti_lezioni_italiani-425628250/?rss=",
-        "title": "Migranti, Salvini dopo il video di Richard Gere: “Fai l’attore, non dare lezioni agli italiani”",
-        "description": "La stella di Hollywood aveva registrato un filmato a sostegno di ActionAid. “Difendiamo la comune umanità”",
-        "source": {
-          "id": "repubblica",
-          "name": "la Repubblica"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-05T20:38:30.000Z",
-        "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/223817957-6c2293d2-534e-4cff-94b4-3fddd682db84.jpg",
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "rT9NuI4wH2_9",
-          "url": "https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere",
-          "canonicalUrl": "https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere",
-          "title": "Migranti, Salvini: \"Gere continui a fare l'attore senza dare lezioni agli italiani\"",
-          "description": "Lo ha scritto sui social il leader della Lega, a commento di un recente video sul tema dell'immigrazione che il popolare attore ed attivista americano ha diffuso a sostegno di ActionAid",
-          "source": {
-            "id": "skytg24",
-            "name": "Sky TG24"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "imageUrl": null,
-          "countryCode": "IT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
-    },
-    {
       "id": "R2X7hZvXc67H",
       "representative": {
         "id": "R2X7hZvXc67H",
@@ -308,48 +266,6 @@
       "latestPublishedAt": "2026-10-06T11:44:20.000Z"
     },
     {
-      "id": "MBmfOYGwGRo8",
-      "representative": {
-        "id": "MBmfOYGwGRo8",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/in-arrivo-due-fronti-perturbati-con-piogge-da-nord-a-sud_63adcf40-cad8-4aa9-a16b-c23233533256.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/in-arrivo-due-fronti-perturbati-con-piogge-da-nord-a-sud_63adcf40-cad8-4aa9-a16b-c23233533256.html",
-        "title": "In arrivo due fronti perturbati con piogge da Nord a Sud",
-        "description": "iLMeteo.it, rovesci anche intensi fino a venerdì",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-06T10:47:37.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "Bh5uuUd8xUcp",
-          "url": "https://www.repubblica.it/cronaca/2026/10/06/news/previsioni_meteo_piogge_nord_centro_sud-425628218/?rss",
-          "canonicalUrl": "https://www.repubblica.it/cronaca/2026/10/06/news/previsioni_meteo_piogge_nord_centro_sud-425628218/?rss=",
-          "title": "Previsioni meteo, cambio di circolazione: in arrivo due fronti perturbati con piogge da Nord a Sud",
-          "description": "Rovesci anche intensi tra Liguria, Toscana, Lazio e Sardegna, con successiva estensione verso la Campania",
-          "source": {
-            "id": "repubblica",
-            "name": "la Repubblica"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-05T22:01:00.000Z",
-          "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/221525896-dfd11e08-4157-4790-820a-e684aa103ef3.jpg",
-          "countryCode": "IT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T10:47:37.000Z"
-    },
-    {
       "id": "ae9ODaFgrSIp",
       "representative": {
         "id": "ae9ODaFgrSIp",
@@ -432,48 +348,6 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T09:31:51.000Z"
-    },
-    {
-      "id": "1xzAAv-eJfKe",
-      "representative": {
-        "id": "1xzAAv-eJfKe",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/esplosione-in-una-casa-a-bergamo-due-feriti-in-codice-rosso_75cbeddf-927f-4964-93b2-3ea23573c46f.html",
-        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/05/esplosione-in-una-casa-a-bergamo-due-feriti-in-codice-rosso_75cbeddf-927f-4964-93b2-3ea23573c46f.html",
-        "title": "Esplosione in una casa a Bergamo, due feriti in codice rosso",
-        "description": "All'origine dello scoppio una probabile fuga di gas",
-        "source": {
-          "id": "ansa",
-          "name": "ANSA"
-        },
-        "sourceCountry": "IT",
-        "language": "it",
-        "publishedAt": "2026-10-05T19:00:08.000Z",
-        "imageUrl": null,
-        "countryCode": "IT",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "PXbSLXcwKj3z",
-          "url": "https://www.ilsole24ore.com/art/bergamo-esplosione-una-palazzina-9-feriti-AJ4VmXaB",
-          "canonicalUrl": "https://www.ilsole24ore.com/art/bergamo-esplosione-una-palazzina-9-feriti-AJ4VmXaB",
-          "title": "Bergamo, esplosione in una palazzina: 9 feriti",
-          "description": "Cinquanta evacuati a Borgo Santa Cateria a causa dello scoppio di una cucina. Una coppia è in gravi condizioni",
-          "source": {
-            "id": "sole24ore",
-            "name": "Il Sole 24 Ore"
-          },
-          "sourceCountry": "IT",
-          "language": "it",
-          "publishedAt": "2026-10-06T06:22:13.000Z",
-          "imageUrl": "https://i2.res.24o.it/images2010/S24/Documenti/2026/10/07/Immagini/Ritagli/muvmt6mqzmkpjfnn5ll-U13546847668TJI-1440x752@IlSole24Ore-Web.jpg",
-          "countryCode": "IT",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T06:22:13.000Z"
     },
     {
       "id": "XC66kgcywnLz",
@@ -594,6 +468,96 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T12:50:37.000Z"
+    },
+    {
+      "id": "OhpSDjG-X_kc",
+      "representative": {
+        "id": "OhpSDjG-X_kc",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/cade-da-una-impalcatura-a-rimini-operaio-muore-in-ospedale_21349845-7d8e-4133-a994-d4737e02bd72.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/cade-da-una-impalcatura-a-rimini-operaio-muore-in-ospedale_21349845-7d8e-4133-a994-d4737e02bd72.html",
+        "title": "Cade da una impalcatura a Rimini, operaio muore in ospedale",
+        "description": "Sindaco, 'profondo cordoglio, morti bianche una piaga inaccettabile'",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T12:19:42.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:19:42.000Z"
+    },
+    {
+      "id": "_1oseAo9C1s4",
+      "representative": {
+        "id": "_1oseAo9C1s4",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/muore-dopo-essere-stato-investito-da-un-bus-a-piombino_ffcd54df-b18d-4d0e-9c4d-20bba8889fdb.html",
+        "canonicalUrl": "https://www.ansa.it/sito/notizie/cronaca/2026/10/06/muore-dopo-essere-stato-investito-da-un-bus-a-piombino_ffcd54df-b18d-4d0e-9c4d-20bba8889fdb.html",
+        "title": "Muore dopo essere stato investito da un bus a Piombino",
+        "description": "Vittima è un 89enne",
+        "source": {
+          "id": "ansa",
+          "name": "ANSA"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-06T12:18:05.000Z",
+        "imageUrl": null,
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T12:18:05.000Z"
+    },
+    {
+      "id": "dXI8oF4HniKZ",
+      "representative": {
+        "id": "dXI8oF4HniKZ",
+        "url": "https://www.repubblica.it/cronaca/2026/10/05/news/richard_gere_matteo_salvini_video_migranti_lezioni_italiani-425628250/?rss",
+        "canonicalUrl": "https://www.repubblica.it/cronaca/2026/10/05/news/richard_gere_matteo_salvini_video_migranti_lezioni_italiani-425628250/?rss=",
+        "title": "Migranti, Salvini dopo il video di Richard Gere: “Fai l’attore, non dare lezioni agli italiani”",
+        "description": "La stella di Hollywood aveva registrato un filmato a sostegno di ActionAid. “Difendiamo la comune umanità”",
+        "source": {
+          "id": "repubblica",
+          "name": "la Repubblica"
+        },
+        "sourceCountry": "IT",
+        "language": "it",
+        "publishedAt": "2026-10-05T20:38:30.000Z",
+        "imageUrl": "https://www.repstatic.it/content/nazionale/img/2026/10/05/223817957-6c2293d2-534e-4cff-94b4-3fddd682db84.jpg",
+        "countryCode": "IT",
+        "regionCode": null
+      },
+      "related": [
+        {
+          "id": "rT9NuI4wH2_9",
+          "url": "https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere",
+          "canonicalUrl": "https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere",
+          "title": "Migranti, Salvini: \"Gere continui a fare l'attore senza dare lezioni agli italiani\"",
+          "description": "Lo ha scritto sui social il leader della Lega, a commento di un recente video sul tema dell'immigrazione che il popolare attore ed attivista americano ha diffuso a sostegno di ActionAid",
+          "source": {
+            "id": "skytg24",
+            "name": "Sky TG24"
+          },
+          "sourceCountry": "IT",
+          "language": "it",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "imageUrl": null,
+          "countryCode": "IT",
+          "regionCode": null
+        }
+      ],
+      "outletCount24h": 1,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T12:00:00.000Z"
     }
   ]
 }

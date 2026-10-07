@@ -2,50 +2,8 @@
   "schemaVersion": 1,
   "countryCode": "SD",
   "countryName": "Sudan",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
-    {
-      "id": "RLfOWPRCR25U",
-      "representative": {
-        "id": "RLfOWPRCR25U",
-        "url": "https://sudantribune.net/article/319634",
-        "canonicalUrl": "https://sudantribune.net/article/319634",
-        "title": "مجلس حقوق الإنسان يمدد تفويض بعثة تقصي الحقائق في السودان لعام",
-        "description": "جنيف 5 أكتوبر 2026 – صوت مجلس حقوق الإنسان التابع للأمم المتحدة، الاثنين، على تمديد ولاية بعثة تقصي الحقائق لعام إضافي، حيث وافق غالبية الأعضاء على القرار. ويرفض السودان التعامل مع البعثة بحجة وجود آليات أخرى للأمم المتحدة تعمل في مجال حقوق الإنسان، كما امتنع عن منح أعضائها تأشيرات دخول لزيارة…",
-        "source": {
-          "id": "sudantribune",
-          "name": "Sudan Tribune"
-        },
-        "sourceCountry": "SD",
-        "language": "ar",
-        "publishedAt": "2026-10-05T16:12:54.000Z",
-        "imageUrl": "https://sudantribune.net/wp-content/uploads/2026/10/%D9%85%D8%AC%D9%84%D8%B3-%D8%AD%D9%82%D9%88%D9%82-%D8%A7%D9%84%D8%A7%D9%86%D8%B3%D8%A7%D9%86-88x88.jpg",
-        "countryCode": "SD",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "UfWD5QZQfy9b",
-          "url": "https://www.altaghyeer.info/ar/2026/10/06/%d9%85%d8%ac%d9%84%d8%b3-%d8%ad%d9%82%d9%88%d9%82-%d8%a7%d9%84%d8%a5%d9%86%d8%b3%d8%a7%d9%86-%d9%8a%d8%ac%d8%af%d8%af-%d9%88%d9%84%d8%a7%d9%8a%d8%a9-%d8%a8%d8%b9%d8%ab%d8%a9-%d8%aa%d9%82%d8%b5%d9%8a/",
-          "canonicalUrl": "https://www.altaghyeer.info/ar/2026/10/06/%d9%85%d8%ac%d9%84%d8%b3-%d8%ad%d9%82%d9%88%d9%82-%d8%a7%d9%84%d8%a5%d9%86%d8%b3%d8%a7%d9%86-%d9%8a%d8%ac%d8%af%d8%af-%d9%88%d9%84%d8%a7%d9%8a%d8%a9-%d8%a8%d8%b9%d8%ab%d8%a9-%d8%aa%d9%82%d8%b5%d9%8a/",
-          "title": "مجلس حقوق الإنسان يجدد ولاية بعثة تقصي الحقائق بشأن السودان",
-          "description": "جدد مجلس حقوق الإنسان التابع للأمم المتحدة، اليوم الاثنين، ولاية البعثة الدولية المستقلة لتقصي الحقائق بشأن السودان لمدة عام، بعد اعتماد قرار بأغلبية 28 صوتًا مقابل 10 أصوات، وامتناع 9 دول عن التصويت. التغيير ــ وكالات واعتمد المجلس القرار رقم A/HRC/RES/63/2، تحت عنوان “الاستجابة لأزمة حقوق…",
-          "source": {
-            "id": "altaghyeer",
-            "name": "Al-Taghyeer"
-          },
-          "sourceCountry": "SD",
-          "language": "ar",
-          "publishedAt": "2026-10-05T22:31:54.000Z",
-          "imageUrl": null,
-          "countryCode": "SD",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-05T22:31:54.000Z"
-    },
     {
       "id": "Qhn6Ojb5qWJ1",
       "representative": {
@@ -381,6 +339,30 @@
       "outletCount24h": 1,
       "outletCount": 1,
       "latestPublishedAt": "2026-10-06T13:55:54.000Z"
+    },
+    {
+      "id": "LDZl3fktiix3",
+      "representative": {
+        "id": "LDZl3fktiix3",
+        "url": "https://www.dabangasudan.org/ar/all-news/article/%d8%ad%d8%af%d9%8a%d8%ab-%d8%a7%d9%84%d9%8a%d9%88%d9%85-6-10-2026",
+        "canonicalUrl": "https://www.dabangasudan.org/ar/all-news/article/%d8%ad%d8%af%d9%8a%d8%ab-%d8%a7%d9%84%d9%8a%d9%88%d9%85-6-10-2026",
+        "title": "حديث اليوم | 6-10-2026",
+        "description": "برنامج حديث اليوم كل يوم، المواطن السوداني بيصحى على سعر جديد، واحتياجات أكتر، ودخل ثابت... The post حديث اليوم | 6-10-2026 appeared first on Dabanga Radio TV Online .",
+        "source": {
+          "id": "dabanga",
+          "name": "Dabanga"
+        },
+        "sourceCountry": "SD",
+        "language": "ar",
+        "publishedAt": "2026-10-06T13:28:31.000Z",
+        "imageUrl": null,
+        "countryCode": "SD",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:28:31.000Z"
     }
   ]
 }

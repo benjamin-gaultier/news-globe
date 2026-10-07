@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "countryCode": "GB",
   "countryName": "United Kingdom",
-  "updatedAt": "2026-10-06T18:44:54.918Z",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
   "clusters": [
     {
       "id": "gNIVgrBYxC0j",
@@ -113,141 +113,6 @@
       "outletCount24h": 6,
       "outletCount": 6,
       "latestPublishedAt": "2026-10-06T13:14:29.000Z"
-    },
-    {
-      "id": "lvuSNuPg4Ipy",
-      "representative": {
-        "id": "lvuSNuPg4Ipy",
-        "url": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckj0l401dvpgo",
-        "title": "Author and former politician Jeffrey Archer dies aged 86",
-        "description": "Archer sold more than 300 million books in his five-decade writing career, and his last book, Adam and Eve, was due to be released later this month.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:17:05.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b61/live/11641640-c15c-11f1-babe-4199b0e7ccea.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "IsKKEPKA8Xqe",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
-          "canonicalUrl": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
-          "title": "Jeffrey Archer, former Conservative politician and novelist, dies aged 86",
-          "description": "Publisher says author died peacefully at home ‘between writing sessions’ Jeffrey Archer, the bestselling author and former MP whose political career ended in disgrace when he was imprisoned for perjury, has died at the age of 86. Archer, who was a Conservative MP for five years before serving as…",
-          "source": {
-            "id": "guardian",
-            "name": "The Guardian"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T22:31:47.000Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/bc73da7e3d57ad9ebd762af793298118083bc159/944_270_3786_3031/master/3786.jpg?width=700&quality=85&auto=format&fit=max&s=6d886213c7a7236a65d4fbf0764347cd",
-          "countryCode": "GB",
-          "regionCode": null
-        },
-        {
-          "id": "lhWZtFuXB-mI",
-          "url": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/jeffrey-archer-death-conservatives-novelist-b3061793.html",
-          "title": "Jeffrey Archer, novelist and former Conservative MP, dies aged 86",
-          "description": "Archer died peacefully at his home, his publisher said in a statement",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T21:33:08.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/05/21/c6d1176584779cce96089f8f067d0e32Y29udGVudHNlYXJjaGFwaSwxNzkxMzE4Mjgw-2.66559363.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T09:17:05.000Z"
-    },
-    {
-      "id": "rGUNBDm5Qeyw",
-      "representative": {
-        "id": "rGUNBDm5Qeyw",
-        "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo",
-        "title": "No 10 insists RAF Fairford is safe after US withdraws bombers",
-        "description": "US media reported a new threat led to the bombers being removed on Sunday, following an incident near the base last week.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T16:13:35.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6efe/live/e16fb630-c0be-11f1-885f-4f9e8c6dce17.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "QoNnJ_uc5b6c",
-          "url": "https://www.standard.co.uk/news/uk/donald-trump-marco-rubio-jd-vance-white-house-iranian-b1299637.html",
-          "canonicalUrl": "https://www.standard.co.uk/news/uk/donald-trump-marco-rubio-jd-vance-white-house-iranian-b1299637.html",
-          "title": "US bombers pulled from RAF Fairford in face of ‘some threats’, says Trump",
-          "description": "The US president said the military aircraft ‘didn’t fly out by accident’.",
-          "source": {
-            "id": "standard",
-            "name": "Evening Standard"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T08:15:24.000Z",
-          "imageUrl": "https://static.standard.co.uk/2026/10/05/20/7e031abf6a9a7567201e19481c9c3279Y29udGVudHNlYXJjaGFwaSwxNzkxMzE1ODU4-2.86013694.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
-        },
-        {
-          "id": "TAF0PI6Z5BIK",
-          "url": "https://www.independent.co.uk/news/uk/home-news/trump-iran-raf-fairford-threats-b3061771.html",
-          "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/trump-iran-raf-fairford-threats-b3061771.html",
-          "title": "Trump says ‘threats’ led to US decision to remove bombers from RAF Fairford",
-          "description": "Donald Trump said he believed the Fairford plot may have been linked to Iran, without providing evidence",
-          "source": {
-            "id": "independent",
-            "name": "The Independent"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T21:57:57.000Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/05/21/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "countryCode": "GB",
-          "regionCode": null
-        },
-        {
-          "id": "eZSIut-mjzS1",
-          "url": "https://news.sky.com/story/us-removes-all-air-force-bombers-from-raf-fairford-after-suspected-terror-plot-13595162",
-          "canonicalUrl": "https://news.sky.com/story/us-removes-all-air-force-bombers-from-raf-fairford-after-suspected-terror-plot-13595162",
-          "title": "'Reported threat of possible Iranian drone attack' led US to remove bombers from RAF Fairford",
-          "description": "The US removed its bombers from RAF Fairford partly because of a reported threat of a possible Iranian drone attack against the base, American officials have said.",
-          "source": {
-            "id": "sky",
-            "name": "Sky News"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T13:10:00.000Z",
-          "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-bomber-fairford_7368726.jpg?20261006002221",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 3,
-      "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T08:15:24.000Z"
     },
     {
       "id": "UN8LhbvlF3o6",
@@ -544,90 +409,6 @@
       "latestPublishedAt": "2026-10-06T11:29:55.000Z"
     },
     {
-      "id": "ALdkzmwshPx0",
-      "representative": {
-        "id": "ALdkzmwshPx0",
-        "url": "https://news.sky.com/story/boys-aged-12-and-14-arrested-after-fire-in-nottingham-city-centre-13595607",
-        "canonicalUrl": "https://news.sky.com/story/boys-aged-12-and-14-arrested-after-fire-in-nottingham-city-centre-13595607",
-        "title": "Boys aged 12 and 14 arrested after fire in Nottingham city centre",
-        "description": "Two boys aged 12 and 14 have been arrested on suspicion of arson after a large fire in Nottingham city centre.",
-        "source": {
-          "id": "sky",
-          "name": "Sky News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T05:28:00.000Z",
-        "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-nottingham-fire-uk_7369302.png?20261006065845",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "FVVuyJ8HD754",
-          "url": "https://www.mirror.co.uk/news/uk-news/nottingham-fire-arrests-boys-arson-37740277",
-          "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/nottingham-fire-arrests-boys-arson-37740277",
-          "title": "Boys aged 12 and 14 arrested over Nottingham city centre fire which shut down city roads",
-          "description": "Two children aged 12 and 14 have been arrested on suspicion of arson after a 'large-scale blaze' in Nottingham city centre as an investigation is now underway",
-          "source": {
-            "id": "mirror",
-            "name": "Daily Mirror"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:26:14.000Z",
-          "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37740405.ece/ALTERNATES/s615/0_JAJ_TEM_061026Fire_008JPG.jpg",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:26:14.000Z"
-    },
-    {
-      "id": "pz-Za94MBRfO",
-      "representative": {
-        "id": "pz-Za94MBRfO",
-        "url": "https://www.bbc.co.uk/news/articles/cwm2686gl6kno?at_medium=RSS&at_campaign=rss",
-        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cwm2686gl6kno",
-        "title": "MPs call for investigation after Lutnick-Epstein whistleblower dies",
-        "description": "Simon Andriesz said he felt let down by the UK's Financial Conduct Authority before his death last month.",
-        "source": {
-          "id": "bbc",
-          "name": "BBC News"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-05T23:29:02.000Z",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8133/live/322b5c80-c16b-11f1-bc2e-018d645d8d21.jpg",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "YGUYjuX2CXYC",
-          "url": "https://www.mirror.co.uk/news/uk-news/mps-call-investigation-after-brit-37739718",
-          "canonicalUrl": "https://www.mirror.co.uk/news/uk-news/mps-call-investigation-after-brit-37739718",
-          "title": "MPs call for investigation after Brit Epstein whistleblower dies",
-          "description": "British whistleblower Simon Andriesz, 57, who claimed to have discovered emails linking US commerce secretary Howard Lutnick and Jeffrey Epstein, was found dead last month",
-          "source": {
-            "id": "mirror",
-            "name": "Daily Mirror"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-06T11:18:38.000Z",
-          "imageUrl": "https://i2-prod.mirror.co.uk/incoming/article37740260.ece/ALTERNATES/s615/0_9IoQf9TJ_400x400.jpg",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:18:38.000Z"
-    },
-    {
       "id": "h1x0LUcQUbgN",
       "representative": {
         "id": "h1x0LUcQUbgN",
@@ -670,48 +451,6 @@
       "latestPublishedAt": "2026-10-06T10:15:31.000Z"
     },
     {
-      "id": "6ryb-NYcU2Br",
-      "representative": {
-        "id": "6ryb-NYcU2Br",
-        "url": "https://www.theguardian.com/music/2026/oct/06/george-fenton-oscar-nominated-british-composer-dies-aged-76-gandhi-groundhog-day-ken-loach",
-        "canonicalUrl": "https://www.theguardian.com/music/2026/oct/06/george-fenton-oscar-nominated-british-composer-dies-aged-76-gandhi-groundhog-day-ken-loach",
-        "title": "George Fenton, Oscar-nominated British composer for more than 100 films, dies aged 76",
-        "description": "Fenton’s successes include scores for Gandhi, Groundhog Day and 18 Ken Loach films, plus BBC TV news themes, Blue Planet and more George Fenton, the British composer who earned five Oscar nominations for scores to films such as Gandhi and Dangerous Liaisons, has died aged 76. A statement from his…",
-        "source": {
-          "id": "guardian",
-          "name": "The Guardian"
-        },
-        "sourceCountry": "GB",
-        "language": "en",
-        "publishedAt": "2026-10-06T09:24:56.000Z",
-        "imageUrl": "https://i.guim.co.uk/img/media/767b2ba56685ec09f4bbef89ab8ef7a0d6cb98cd/56_0_1388_1110/master/1388.jpg?width=700&quality=85&auto=format&fit=max&s=5718906b5509d36783fb62562b8087fb",
-        "countryCode": "GB",
-        "regionCode": null
-      },
-      "related": [
-        {
-          "id": "LZM8SDbz1qRO",
-          "url": "https://www.standard.co.uk/news/uk/george-fenton-david-attenborough-jane-alan-bennett-ken-loach-b1299636.html",
-          "canonicalUrl": "https://www.standard.co.uk/news/uk/george-fenton-david-attenborough-jane-alan-bennett-ken-loach-b1299636.html",
-          "title": "Composer George Fenton dies aged 76",
-          "description": "Fenton died unexpectedly on Monday, CMG management said.",
-          "source": {
-            "id": "standard",
-            "name": "Evening Standard"
-          },
-          "sourceCountry": "GB",
-          "language": "en",
-          "publishedAt": "2026-10-05T22:01:01.000Z",
-          "imageUrl": "https://static.standard.co.uk/2026/10/05/20/6e2a5c1e588682e1b3f35fd8e95a0da4Y29udGVudHNlYXJjaGFwaSwxNzkxMzE0NDE4-2.81975361.jpg?width=1200&auto=webp&crop=3%3A2",
-          "countryCode": "GB",
-          "regionCode": null
-        }
-      ],
-      "outletCount24h": 2,
-      "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T09:24:56.000Z"
-    },
-    {
       "id": "FI4MmBiCjF2G",
       "representative": {
         "id": "FI4MmBiCjF2G",
@@ -752,6 +491,126 @@
       "outletCount24h": 2,
       "outletCount": 2,
       "latestPublishedAt": "2026-10-06T09:19:45.000Z"
+    },
+    {
+      "id": "noWK0mEYqjGD",
+      "representative": {
+        "id": "noWK0mEYqjGD",
+        "url": "https://www.mirror.co.uk/money/long-awaited-good-news-borrowers-37740996",
+        "canonicalUrl": "https://www.mirror.co.uk/money/long-awaited-good-news-borrowers-37740996",
+        "title": "Long-awaited good news for borrowers as UK lender cuts mortgage rates",
+        "description": "After weeks of rises, one lender has made a move",
+        "source": {
+          "id": "mirror",
+          "name": "Daily Mirror"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:08:46.000Z",
+        "imageUrl": "https://i2-prod.mirror.co.uk/money/article37740994.ece/ALTERNATES/s615/1_Asian-Couple-Having-a-Serious-Discussion-While-Using-a-Tablet-at-Home.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:08:46.000Z"
+    },
+    {
+      "id": "xAddTq7ClJff",
+      "representative": {
+        "id": "xAddTq7ClJff",
+        "url": "https://www.independent.co.uk/news/uk/home-news/queen-camilla-jeffrey-archer-death-b3062150.html",
+        "canonicalUrl": "https://www.independent.co.uk/news/uk/home-news/queen-camilla-jeffrey-archer-death-b3062150.html",
+        "title": "Queen Camilla remembers late Jeffrey Archer as 'irrepressible life force'",
+        "description": "The novelist and MP was ‘an exception to the end’, Camilla wrote",
+        "source": {
+          "id": "independent",
+          "name": "The Independent"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:07:43.000Z",
+        "imageUrl": "https://static.independent.co.uk/2023/08/25/15/3_2.png?width=1200&auto=webp&crop=3%3A2",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:07:43.000Z"
+    },
+    {
+      "id": "LylSOyPHNHtQ",
+      "representative": {
+        "id": "LylSOyPHNHtQ",
+        "url": "https://www.theguardian.com/business/2026/oct/06/lego-insurance-scam-highlights-uk-fraud",
+        "canonicalUrl": "https://www.theguardian.com/business/2026/oct/06/lego-insurance-scam-highlights-uk-fraud",
+        "title": "Lego collector’s insurance scam highlights UK’s £1.3bn fraud problem",
+        "description": "Industry leaders say bogus claims rose 14% last year, pushing up premiums for all customers A insurance fraudster who pocketed more than £14,000 for the supposed theft of Lego sets, fishing gear and gaming consoles was behind one of last year’s most high-profile bogus claims. Investigators…",
+        "source": {
+          "id": "guardian",
+          "name": "The Guardian"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:07:23.000Z",
+        "imageUrl": null,
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:07:23.000Z"
+    },
+    {
+      "id": "wZpQQ-J6_TAv",
+      "representative": {
+        "id": "wZpQQ-J6_TAv",
+        "url": "https://www.independent.co.uk/news/uk/politics/holborn-st-pancras-by-election-candidates-policies-manifesto-b3062086.html",
+        "canonicalUrl": "https://www.independent.co.uk/news/uk/politics/holborn-st-pancras-by-election-candidates-policies-manifesto-b3062086.html",
+        "title": "Who is standing in the Holborn and St Pancras by-election?",
+        "description": "The contest in the north London constituency is a major test for both Zack Polanski and new Labour leader Andy Burnham",
+        "source": {
+          "id": "independent",
+          "name": "The Independent"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:03:31.000Z",
+        "imageUrl": "https://static.independent.co.uk/2026/10/06/13/2298260288..?width=1200&auto=webp&crop=3%3A2",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:03:31.000Z"
+    },
+    {
+      "id": "ZjFtj_G2haxE",
+      "representative": {
+        "id": "ZjFtj_G2haxE",
+        "url": "https://www.bbc.co.uk/news/articles/cmn9rxy32xpgo?at_medium=RSS&at_campaign=rss",
+        "canonicalUrl": "https://www.bbc.co.uk/news/articles/cmn9rxy32xpgo",
+        "title": "Teenager bled to death in street after zombie knife attack, court hears",
+        "description": "Witnesses describe one of the accused as acting like a gangster as the victim was attacked.",
+        "source": {
+          "id": "bbc",
+          "name": "BBC News"
+        },
+        "sourceCountry": "GB",
+        "language": "en",
+        "publishedAt": "2026-10-06T13:00:36.000Z",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e817/live/b222c850-05a6-11f1-9dae-f73a03519d1f.jpg",
+        "countryCode": "GB",
+        "regionCode": null
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T13:00:36.000Z"
     }
   ]
 }

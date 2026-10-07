@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "countryCode": "FR",
+  "countryName": "France",
+  "regionCode": "FR-HDF",
+  "regionName": "Hauts-de-France",
+  "updatedAt": "2026-10-07T07:09:31.218Z",
+  "clusters": [
+    {
+      "id": "A17nDv4y6C0-",
+      "representative": {
+        "id": "A17nDv4y6C0-",
+        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/calais/plage-preferee-des-francais-calais-et-de-berck-sur-mer-se-departagent-en-finale-c-est-le-grand-jour-pour-voter-3428646.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/calais/plage-preferee-des-francais-calais-et-de-berck-sur-mer-se-departagent-en-finale-c-est-le-grand-jour-pour-voter-3428646.html",
+        "title": "\"Plage préférée des Français\" : Calais et Berck-sur-Mer se départagent en finale, c'est le grand jour pour voter",
+        "description": "Pendant 24 heures, à compter de ce mardi 6 octobre à 10h, l'association Surfrider France propose de voter pour la plage préférée des Français. Deux plages de la Côte d'opale sont en finale. Celle de Calais et celle de Berck-sur-Mer.",
+        "source": {
+          "id": "france3_hdf",
+          "name": "France 3 Hauts-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T13:05:52.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/ffupcf14wwWkIzr_H1MtTSQ-CAQ/930x620/filters:format(webp)/regions/2026/10/06/6ac4b9bf2c806888333454.png",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [
+        {
+          "id": "zV853oIe2nnC",
+          "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonjour-lille/video-berck-et-calais-quelle-sera-la-plage-preferee-des-francais_VN-202610060334.html",
+          "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonjour-lille/video-berck-et-calais-quelle-sera-la-plage-preferee-des-francais_VN-202610060334.html",
+          "title": "Berck et Calais, quelle sera la plage préférée des français ?",
+          "description": "Berck et Calais, quelle sera la plage préférée des français ? Place à la finale 100% Pas-de-Calais organisé par l’ONG Surfrider Foundation. Vous pouvez voter jusqu'à demain.",
+          "source": {
+            "id": "bfm_lille",
+            "name": "BFM Grand Lille"
+          },
+          "sourceCountry": "FR",
+          "language": "fr",
+          "publishedAt": "2026-10-06T08:03:30.000Z",
+          "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/A8MZs9FOyGbKdjZ6FM23uhkbULQ=/0x0:1280x720/800x0/images/Berck-et-Calais-quelle-sera-la-plage-preferee-des-francais-2360092.jpg",
+          "countryCode": "FR",
+          "regionCode": "FR-HDF"
+        }
+      ],
+      "outletCount24h": 2,
+      "outletCount": 2,
+      "latestPublishedAt": "2026-10-06T13:05:52.000Z"
+    },
+    {
+      "id": "vLuTEzQYt3fD",
+      "representative": {
+        "id": "vLuTEzQYt3fD",
+        "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonjour-lille/video-le-cafe-des-animaux-quelles-sont-les-missions-d-un-auxiliaire-veterinaire_VN-202610070246.html",
+        "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonjour-lille/video-le-cafe-des-animaux-quelles-sont-les-missions-d-un-auxiliaire-veterinaire_VN-202610070246.html",
+        "title": "Le Café des Animaux: quelles sont les missions d'un auxiliaire vétérinaire ?",
+        "description": "Quelles sont les missions d'un auxiliaire/ infirmier vétérinaire ? au menu du café des animaux du mercredi 7 octobre.",
+        "source": {
+          "id": "bfm_lille",
+          "name": "BFM Grand Lille"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:38:50.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Ccd5TW5l9uERNcD37aLRPfZKHes=/0x0:1280x720/800x0/images/Le-Cafe-des-Animaux-quelles-sont-les-missions-d-un-auxiliaire-veterinaire-2360734.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:38:50.000Z"
+    },
+    {
+      "id": "v_5NCwpM-RcZ",
+      "representative": {
+        "id": "v_5NCwpM-RcZ",
+        "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonjour-lille/video-le-journal-de-8h-du-mercredi-7-octobre-2026_VN-202610070217.html",
+        "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonjour-lille/video-le-journal-de-8h-du-mercredi-7-octobre-2026_VN-202610070217.html",
+        "title": "Le journal de 8h du mercredi 7 octobre 2026",
+        "description": "Bonjour Lille présentée par Adrien Lanoy, c’est le rendez-vous info en direct pour démarrer la journée avec un tour de l’actualité locale, la météo, les conditions de circulation et un journal dédié à la métropole. Au sommaire : MEL, des milliers de lycéens ont manifesté. Handicap, un appel aux…",
+        "source": {
+          "id": "bfm_lille",
+          "name": "BFM Grand Lille"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:19:02.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/yGTI33gxvTqqgLGTggiavbHyvg4=/0x0:1280x720/800x0/images/Le-journal-de-8h-du-mercredi-7-octobre-2026-2360700.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:19:02.000Z"
+    },
+    {
+      "id": "Zt5tZJCFUrM_",
+      "representative": {
+        "id": "Zt5tZJCFUrM_",
+        "url": "https://www.bfmtv.com/grand-lille/videos/video-l-invitee-de-bonjour-lille-du-mercredi-7-octobre-2026-chloe-fruy_VN-202610070193.html",
+        "canonicalUrl": "https://www.bfmtv.com/grand-lille/videos/video-l-invitee-de-bonjour-lille-du-mercredi-7-octobre-2026-chloe-fruy_VN-202610070193.html",
+        "title": "L'invitée de Bonjour Lille du mercredi 7 octobre 2026 - Chloé Fruy",
+        "description": "Chloé Fruy, lauréate nordiste du prix L’Oréal-UNESCO, était l'invitée de Bonjour Lille ce mercredi 7 octobre 2026. Elle a parlé de ses recherches en physique quantique sur la détection de la matière noire, qui lui ont valu le prix L’Oréal-UNESCO.",
+        "source": {
+          "id": "bfm_lille",
+          "name": "BFM Grand Lille"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T06:02:26.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/1Iqr7U9kbYMIJzOIGkv5ADfBTeI=/0x0:1280x720/800x0/images/L-invitee-de-Bonjour-Lille-du-mercredi-7-octobre-2026-Chloe-Fruy-2360677.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T06:02:26.000Z"
+    },
+    {
+      "id": "ksBMHHTG99-E",
+      "representative": {
+        "id": "ksBMHHTG99-E",
+        "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonjour-lille/video-bfm-nord-et-vous-des-bouchons-de-liege-pour-soutenir-la-recherche-sur-le-cancer-du-sein_VN-202610070180.html",
+        "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonjour-lille/video-bfm-nord-et-vous-des-bouchons-de-liege-pour-soutenir-la-recherche-sur-le-cancer-du-sein_VN-202610070180.html",
+        "title": "BFM Nord et Vous: des bouchons de liège pour soutenir la recherche sur le cancer du sein",
+        "description": "Des bouchons de liège pour soutenir la recherche sur le cancer du sein ? dans BFM Nord et Vous du mercredi 7 octobre.",
+        "source": {
+          "id": "bfm_lille",
+          "name": "BFM Grand Lille"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-07T05:45:25.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/PFaxt_jD7RlIIz0w5a3RWv4HMv8=/0x0:1280x720/800x0/images/BFM-Nord-et-Vous-des-bouchons-de-liege-pour-soutenir-la-recherche-sur-le-cancer-du-sein-2360667.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-07T05:45:25.000Z"
+    },
+    {
+      "id": "WTPXdK9isnaF",
+      "representative": {
+        "id": "WTPXdK9isnaF",
+        "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-l-actu-du-6-octobre-2026_VN-202610060895.html",
+        "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-l-actu-du-6-octobre-2026_VN-202610060895.html",
+        "title": "L'actu du 6 octobre 2026",
+        "description": "Ce 6 octobre 2026, Noor Oulladi revient en détails sur les temps forts de la journée avec chroniques, invités et journalistes sur le terrain.",
+        "source": {
+          "id": "bfm_lille",
+          "name": "BFM Grand Lille"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T18:00:00.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/uGXVXKN1dqHV4U2MxOXN_MLH1QI=/0x0:1280x720/800x0/images/L-actu-du-6-octobre-2026-2360498.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T18:00:00.000Z"
+    },
+    {
+      "id": "tqHiIDKIl-VF",
+      "representative": {
+        "id": "tqHiIDKIl-VF",
+        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/bethune/un-reseau-de-proxenetisme-violent-demantele-par-la-justice-16-victimes-identifiees-dont-une-de-13-ans-3429084.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/bethune/un-reseau-de-proxenetisme-violent-demantele-par-la-justice-16-victimes-identifiees-dont-une-de-13-ans-3429084.html",
+        "title": "Un \"réseau de proxénétisme violent\" démantelé par la justice, 16 victimes identifiées dont une de 13 ans",
+        "description": "Les faits se sont déroulés sur Douai (Nord) ou Lens (Pas-de-Calais) et autour de cette dernière commune, jusqu'en septembre 2026.",
+        "source": {
+          "id": "france3_hdf",
+          "name": "France 3 Hauts-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T17:32:20.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/ckvChSe_IYYs6FkF8_TXFX3a-2o/930x620/filters:format(webp)/regions/2026/10/06/6ac52f7d97872869124820.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:32:20.000Z"
+    },
+    {
+      "id": "BrmxxpjL1Oj2",
+      "representative": {
+        "id": "BrmxxpjL1Oj2",
+        "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-le-journal-de-18h-du-mardi-6-octobre-2026_VN-202610060840.html",
+        "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-le-journal-de-18h-du-mardi-6-octobre-2026_VN-202610060840.html",
+        "title": "Le journal de 18h du mardi 6 octobre 2026",
+        "description": "Bonsoir Lille, présenté par Noor Oulladi, accompagne les téléspectateurs de BFM Lille dans leur soirée avec un focus sur l'actualité locale : infos, météo, sport, trafic. Au sommaire : Mobilisation : entre 5 800 et 25 000 manifestants à Lille. À Calais, lycéens et syndicats de concert. Berck ou…",
+        "source": {
+          "id": "bfm_lille",
+          "name": "BFM Grand Lille"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T17:25:52.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/v69HsT3f2C40ResqXFOGG4Wae2w=/0x0:1280x720/800x0/images/Le-journal-de-18h-du-mardi-6-octobre-2026-2360470.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T17:25:52.000Z"
+    },
+    {
+      "id": "oAd48Cg9cIDG",
+      "representative": {
+        "id": "oAd48Cg9cIDG",
+        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/somme/on-doit-avoir-les-memes-droits-et-les-memes-chances-je-me-battrai-toujours-pour-ca-rencontre-avec-deux-lyceens-mobilises-a-amiens-3429015.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/somme/on-doit-avoir-les-memes-droits-et-les-memes-chances-je-me-battrai-toujours-pour-ca-rencontre-avec-deux-lyceens-mobilises-a-amiens-3429015.html",
+        "title": "\"On doit avoir les mêmes droits et les mêmes chances, je me battrai toujours pour ça\" : rencontre avec deux lycéens mobilisés à Amiens",
+        "description": "Quelles sont les motivations des lycéens mobilisés ? Pourquoi poursuivent-ils leur mouvement ? Comment s'organisent-ils ? Pour le comprendre, rencontre avec deux lycéens qui parlent de leur engagement, au cours de la grande journée de mobilisation du 6 octobre.",
+        "source": {
+          "id": "france3_hdf",
+          "name": "France 3 Hauts-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T16:57:57.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/__2mqyzWI0gNMFvxRDEwXAGx-rk/930x620/filters:format(webp)/regions/2026/10/06/6ac523e651f11735249834.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:57:57.000Z"
+    },
+    {
+      "id": "yjjc_KunVqUV",
+      "representative": {
+        "id": "yjjc_KunVqUV",
+        "url": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-la-ligue-des-droits-de-l-homme-invitee-de-bonsoir-le-nord_VN-202610060798.html",
+        "canonicalUrl": "https://www.bfmtv.com/grand-lille/replay-emissions/bonsoir-lille/video-la-ligue-des-droits-de-l-homme-invitee-de-bonsoir-le-nord_VN-202610060798.html",
+        "title": "La Ligue des Droits de l'Homme invitée de Bonsoir le Nord",
+        "description": "Mobilisation lycéenne : la Ligue des Droits de l'Homme, invitée de Bonsoir le Nord, dénonce une \"répression sans précédent d'enfants\" et annonce saisir les Nations Unies.",
+        "source": {
+          "id": "bfm_lille",
+          "name": "BFM Grand Lille"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T16:40:45.000Z",
+        "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/gzJGgDMtONuxGaAC8M0gIC4p44g=/0x0:1280x720/800x0/images/La-Ligue-des-Droits-de-l-Homme-invitee-de-Bonsoir-le-Nord-2360428.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T16:40:45.000Z"
+    },
+    {
+      "id": "VSIRz8Tzo3Eq",
+      "representative": {
+        "id": "VSIRz8Tzo3Eq",
+        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/certains-y-ont-vu-une-incitation-a-la-maltraitance-animale-il-fait-le-buzz-avec-un-pochoir-de-chat-qui-est-le-street-artiste-mos-art-3428487.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/certains-y-ont-vu-une-incitation-a-la-maltraitance-animale-il-fait-le-buzz-avec-un-pochoir-de-chat-qui-est-le-street-artiste-mos-art-3428487.html",
+        "title": "\"Certains y ont vu une incitation à la maltraitance animale\" : il fait le buzz avec un pochoir de chat, qui est le street artiste Mos Art ?",
+        "description": "Depuis 2009, Mos Art transforme les rues de la métropole lilloise en galerie à ciel ouvert. À 41 ans, cet artiste originaire de Comines a disséminé près de 2 000 pochoirs dans l’espace public. Des visages joyeux, des personnages décalés… Derrière ces œuvres peintes en quelques minutes se cache un…",
+        "source": {
+          "id": "france3_hdf",
+          "name": "France 3 Hauts-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:55:10.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/RmjfhyCW5rFKn-UfGs3gkKYoThw/930x620/filters:format(webp)/regions/2026/10/05/6ac3c9871cb6b108391181.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:55:10.000Z"
+    },
+    {
+      "id": "xmhkI4pUD_ed",
+      "representative": {
+        "id": "xmhkI4pUD_ed",
+        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/sans-eux-pas-de-vie-sur-terre-comestibles-toxiques-ou-mortels-ce-que-revelent-les-champignons-sur-notre-biodiversite-3428688.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/sans-eux-pas-de-vie-sur-terre-comestibles-toxiques-ou-mortels-ce-que-revelent-les-champignons-sur-notre-biodiversite-3428688.html",
+        "title": "\"Sans eux, pas de vie sur Terre\" : comestibles, toxiques ou mortels, ce que révèlent les champignons sur notre biodiversité",
+        "description": "En forêt ou dans les sous-bois, ils forment parfois un tapis ou colonisent un tronc d'arbre. Les champignons sont parfois étranges mais toujours fascinants lorsqu'ils se révèlent. Dans la forêt de Marchiennes, un expert passionné a emmené un groupe de pharmaciens impatients d'en apprendre…",
+        "source": {
+          "id": "france3_hdf",
+          "name": "France 3 Hauts-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:54:49.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/sWHP6urY9R6EybRzZAcGFcJ4p2A/930x620/filters:format(webp)/regions/2026/10/06/6ac515178199c869463824.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:54:49.000Z"
+    },
+    {
+      "id": "0dTVbh8ptH1d",
+      "representative": {
+        "id": "0dTVbh8ptH1d",
+        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/lens/entretien-violences-entre-forces-de-l-ordre-et-lyceens-on-doit-faire-preuve-du-plus-grand-discernement-cet-ancien-general-de-gendarmerie-s-exprime-sur-la-gestion-des-manifestations-3428730.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/lens/entretien-violences-entre-forces-de-l-ordre-et-lyceens-on-doit-faire-preuve-du-plus-grand-discernement-cet-ancien-general-de-gendarmerie-s-exprime-sur-la-gestion-des-manifestations-3428730.html",
+        "title": "ENTRETIEN. Violences entre forces de l'ordre et lycéens : \"On doit faire preuve du plus grand discernement\", cet ancien général de gendarmerie s'exprime sur la gestion des manifestations",
+        "description": "Au lendemain du drame qui s'est déroulé à Lens (Pas-de-Calais), lundi 5 octobre 2026, au cours duquel la main d'un lycéen a été arrachée par une grenade policière, la question se pose sur les limites du maintien de l'ordre. Richard Caminade, ancien général de gendarmerie, répond sur les règles qui…",
+        "source": {
+          "id": "france3_hdf",
+          "name": "France 3 Hauts-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:32:17.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/iW5QAe82Y7Jk873lq8MzRGg8sDE/930x620/filters:format(webp)/regions/2026/10/06/6ac5025a31b90674667815.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:32:17.000Z"
+    },
+    {
+      "id": "fh_PW-QpRrTo",
+      "representative": {
+        "id": "fh_PW-QpRrTo",
+        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/video-blocage-des-lycees-a-lille-des-parents-mobilises-pour-encadrer-et-soutenir-les-eleves-3428982.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/video-blocage-des-lycees-a-lille-des-parents-mobilises-pour-encadrer-et-soutenir-les-eleves-3428982.html",
+        "title": "VIDEO. Blocage des lycées à Lille : des parents mobilisés pour encadrer et soutenir les élèves",
+        "description": "Alors que plusieurs lycées sont bloqués à Lille, des parents d’élèves se mobilisent eux aussi. Présente sur les lieux de manifestation, cette mère explique comment les parents s’organisent pour encadrer les lycéens, mais aussi leur apporter leur soutien.",
+        "source": {
+          "id": "france3_hdf",
+          "name": "France 3 Hauts-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:26:12.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/JWdEA8RL8j1CC2jfnKiLetaX6pY/930x620/filters:format(webp)/regions/2026/10/06/6ac5089f374c8110803081.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:26:12.000Z"
+    },
+    {
+      "id": "Ptwy3RRy887h",
+      "representative": {
+        "id": "Ptwy3RRy887h",
+        "url": "https://france3-regions.franceinfo.fr/hauts-de-france/oise/emmanuel-maurel-tente-de-convaincre-les-electeurs-beauvaisiens-a-quelques-jours-de-la-primaire-socialiste-pour-la-presidentielle-3428751.html",
+        "canonicalUrl": "https://france3-regions.franceinfo.fr/hauts-de-france/oise/emmanuel-maurel-tente-de-convaincre-les-electeurs-beauvaisiens-a-quelques-jours-de-la-primaire-socialiste-pour-la-presidentielle-3428751.html",
+        "title": "Emmanuel Maurel tente de convaincre les électeurs beauvaisiens à quelques jours de la primaire socialiste pour la présidentielle",
+        "description": "Lundi soir à Beauvais a eu lieu une rencontre entre des militants de gauche de l'Oise et un candidat à la primaire, Emmanuel Maurel. Le député (GDR) du Val-d'Oise, ancien du PS, est le moins connu des cinq candidats. Mais les débats télé lui ont permis d'émerger. Un déplacement en physique peut…",
+        "source": {
+          "id": "france3_hdf",
+          "name": "France 3 Hauts-de-France"
+        },
+        "sourceCountry": "FR",
+        "language": "fr",
+        "publishedAt": "2026-10-06T15:24:34.000Z",
+        "imageUrl": "https://france3-regions.franceinfo.fr/image/u500dAseU56IKqH7VVyQF5UOtSM/930x620/filters:format(webp)/regions/2026/10/06/6ac507a9de34c041302208.jpg",
+        "countryCode": "FR",
+        "regionCode": "FR-HDF"
+      },
+      "related": [],
+      "outletCount24h": 1,
+      "outletCount": 1,
+      "latestPublishedAt": "2026-10-06T15:24:34.000Z"
+    }
+  ]
+}

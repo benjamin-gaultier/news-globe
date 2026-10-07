@@ -15,6 +15,8 @@ beforeEach(async () => {
   await writeFile(join(dir, 'countries', 'FR.json'), '{"fr":1}');
   await writeFile(join(dir, 'countries', 'US.json'), '{"us":1}');
   await writeFile(join(dir, 'countries', 'notes.txt'), 'not public');
+  await mkdir(join(dir, 'regions'));
+  await writeFile(join(dir, 'regions', 'FR-BRE.json'), '{"bre":1}');
 });
 
 afterEach(async () => {
@@ -39,7 +41,10 @@ describe('publishToKv', () => {
   it('writes all public files as one bundle value', async () => {
     const fetchImpl = okFetch();
     const res = await publishToKv(dir, cfg, { fetchImpl, log: quiet });
-    expect(res).toEqual({ uploaded: true, keys: ['index.json', 'countries/FR.json', 'countries/US.json'] });
+    expect(res).toEqual({
+      uploaded: true,
+      keys: ['index.json', 'countries/FR.json', 'countries/US.json', 'regions/FR-BRE.json'],
+    });
     expect(fetchImpl).toHaveBeenCalledTimes(1);
 
     const [url, init] = fetchImpl.mock.calls[0]!;
@@ -50,6 +55,7 @@ describe('publishToKv', () => {
     expect(text(readBundleEntry(bundle, 'index.json'))).toBe('{"i":1}');
     expect(text(readBundleEntry(bundle, 'countries/FR.json'))).toBe('{"fr":1}');
     expect(text(readBundleEntry(bundle, 'countries/US.json'))).toBe('{"us":1}');
+    expect(text(readBundleEntry(bundle, 'regions/FR-BRE.json'))).toBe('{"bre":1}');
     expect(readBundleEntry(bundle, 'countries/notes.txt')).toBeNull();
   });
 
