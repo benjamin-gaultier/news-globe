@@ -55,7 +55,7 @@ packages/ingest/     Node worker: fetch → normalize → dedupe → cluster →
 packages/shared/     Types for the data contract + country metadata (used by both sides)
 data/
   sample/            committed sample output (served until the first ingest)
-  index.json, countries/*.json, regions/*.json, .cache/   generated, gitignored
+  index.json, countries/*.json, regions/*.json, archive/, .cache/   generated, gitignored
 deploy/raspberry-pi/ systemd unit for the ingest
 ```
 
@@ -162,6 +162,14 @@ Runs on a Raspberry Pi 4 (64-bit Raspberry Pi OS / Debian 13). Steps 2–4 need 
 Only one machine should run the ingest. Two pollers would double the requests to every feed.
 
 Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` and `CLOUDFLARE_API_TOKEN` are all set, either in the environment or in the repo-root `.env`. If none are set, the ingest only writes local files, as in development. If the upload fails (network, token), the run still writes `data/` and the next run retries; [publish.ts](packages/ingest/src/publish.ts) keeps the last bundle's hash in `data/.cache/publish.json`.
+
+### History archive
+
+After each run (not `--offline`), [archive.ts](packages/ingest/src/archive.ts) folds the ranked stories of every country and region into one file per UTC day, `data/archive/YYYY-MM-DD.json.gz`, and uploads it to the same KV namespace as `archive/YYYY-MM-DD`. Each story gets one record per day and unit (headline, link, outlet ids, first and last run that ranked it, best rank, peak outlet count). A cluster in a later run that shares any article with a story continues that story. Each run also stores its ranked list per unit, so the day can be replayed hour by hour. The format is `ArchiveDay` in [shared](packages/shared/src/index.ts). The Worker does not serve it yet.
+
+- Writes: the current day is re-uploaded after every run, at most 24 KV writes a day on top of the bundle's 24. Yesterday's file is also re-sent after midnight if its last upload failed (state in `data/.cache/archive-publish.json`).
+- Size: a day built from the sample is about 0.7 MB gzipped, and real days, with new stories every hour, should be about 1.5–2 MB. KV's free 1 GB therefore holds roughly 18 months. Before that, move older days to R2 or start pruning.
+- Archiving never fails a run: errors are logged and the public files are published regardless. The Pi's local `data/archive/` is the primary copy, and KV is the backup the front end will read.
 
 To update the Pi (e.g. after adding a country; merging it to `main` already redeployed the Worker): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile`. No restart is needed: the watcher starts every run as a fresh `cli.ts` process, so the next run uses the new code and feeds. Only a change to `watch.ts` itself, or to its schedule, needs `sudo systemctl restart news-globe-ingest`.
 

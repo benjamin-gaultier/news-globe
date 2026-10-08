@@ -96,6 +96,41 @@ export interface IndexFile {
   regions?: IndexEntry[];
 }
 
+/**
+ * History: one file per UTC day (`archive/YYYY-MM-DD`), built up by every
+ * ingest run that day. Not served by the Worker yet.
+ */
+export const ARCHIVE_SCHEMA_VERSION = 1;
+
+/** One story as it stood across the day's runs, in one country or region. */
+export interface ArchiveStory {
+  /** Country or region code the story ranked in. */
+  unit: CountryCode | RegionCode;
+  /** Headline and link of its representative article, as last seen. */
+  title: string;
+  url: string;
+  /** Outlets that covered it during the day. */
+  sources: string[];
+  /** Article ids seen in it during the day; a later run's cluster sharing one is the same story. */
+  articleIds: string[];
+  /** ISO 8601 times of the first and last run that ranked it. */
+  firstSeen: string;
+  lastSeen: string;
+  /** Best rank it reached (1 = top story). */
+  bestRank: number;
+  /** Highest `outletCount24h` it reached. */
+  peakOutlets: number;
+}
+
+export interface ArchiveDay {
+  schemaVersion: number;
+  /** UTC date, `YYYY-MM-DD`. */
+  date: string;
+  stories: ArchiveStory[];
+  /** Run time (ISO 8601) → unit code → indexes into `stories`, best ranked first. */
+  runs: Record<string, Record<string, number[]>>;
+}
+
 export interface CountryMeta {
   code: CountryCode;
   name: string;
