@@ -1,0 +1,64 @@
+name: Claude review
+
+# An LLM code review on every pull request, signed in with a Claude subscription
+# (CLAUDE_CODE_OAUTH_TOKEN, from `claude setup-token`). It comments; it never
+# pushes or approves. The final comment ends with a verdict line.
+# The LLM is only used for reviewing code here: the ingest pipeline itself makes no LLM calls.
+
+on:
+  pull_request:
+    types: [opened, synchronize, ready_for_review, reopened]
+
+concurrency:
+  group: claude-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            REPO: ${{ github.repository }}
+            PR NUMBER: ${{ github.event.pull_request.number }}
+
+            Review this pull request. Read the diff with `gh pr diff`, and read the
+            surrounding code and README.md wherever you need context.
+
+            Look for, in this order:
+            1. Bugs: wrong logic, unhandled errors, edge cases (empty feeds, missing
+               files, time zones, an index.json from before a field existed).
+            2. Breaks of this project's rules:
+               - No LLM calls and no paid APIs in the pipeline or the app.
+               - Store and show metadata only (headline, feed snippet, URL, source, time,
+                 image URL), never article text; every headline links to the publisher.
+               - Polite fetching: at most one request per feed every 15 minutes.
+               - Changes to the data contract in packages/shared stay readable by the
+                 deployed front end, or bump SCHEMA_VERSION.
+               - Cloudflare free tier: KV writes stay well under 1,000 a day.
+            3. Missing or weak tests for new logic.
+            4. Anything a reader would trip over: misleading names, comments that no longer match the code, an out-of-date README.
+
+            Leave inline comments on specific lines with
+            `mcp__github_inline_comment__create_inline_comment`, only for real
+            problems. Start each with 🔴 (must fix before merging) or 🟡 (worth
+            fixing, not blocking). Skip praise and style nits a formatter would catch.
+
+            Then post one summary with `gh pr comment`: a few lines on what the PR does,
+            the 🔴 items if any, and as its very last line exactly one of:
+            Verdict: ✅ no blocking issues
+            Verdict: ❌ blocking issues
+          claude_args: |
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Read,Glob,Grep"
