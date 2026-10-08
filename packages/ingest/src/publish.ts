@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import { existsSync } from 'node:fs';
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { BUNDLE_KEY, encodeBundle } from '@news-globe/shared/bundle';
@@ -42,7 +43,8 @@ async function publicKeys(dataDir: string): Promise<string[]> {
   };
   const countries = await list('countries', /^[A-Z]{2}\.json$/);
   const regions = await list('regions', /^[A-Z]{2}-[A-Z0-9]{1,3}\.json$/);
-  return ['index.json', ...countries.sort(), ...regions.sort()];
+  const status = existsSync(join(dataDir, 'status.json')) ? ['status.json'] : [];
+  return ['index.json', ...status, ...countries.sort(), ...regions.sort()];
 }
 
 export interface PublishResult {

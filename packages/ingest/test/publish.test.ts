@@ -38,6 +38,14 @@ function sentBundle(fetchImpl: ReturnType<typeof okFetch>, call = 0): Uint8Array
 const text = (bytes: Uint8Array | null) => (bytes ? new TextDecoder().decode(bytes) : null);
 
 describe('publishToKv', () => {
+  it('includes status.json when the run wrote one', async () => {
+    await writeFile(join(dir, 'status.json'), '{"s":1}');
+    const fetchImpl = okFetch();
+    const res = await publishToKv(dir, cfg, { fetchImpl, log: quiet });
+    expect(res.keys).toContain('status.json');
+    expect(text(readBundleEntry(sentBundle(fetchImpl), 'status.json'))).toBe('{"s":1}');
+  });
+
   it('writes all public files as one bundle value', async () => {
     const fetchImpl = okFetch();
     const res = await publishToKv(dir, cfg, { fetchImpl, log: quiet });

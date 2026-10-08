@@ -112,6 +112,31 @@ export interface WorldStory {
   latestPublishedAt: string;
 }
 
+/** `status.json`: feed health after each run, read by the hourly health check (.github/workflows/health.yml). */
+export interface StatusFile {
+  schemaVersion: number;
+  /** ISO 8601 time of the run. */
+  updatedAt: string;
+  feeds: {
+    total: number;
+    /** Feeds whose last request failed (HTTP error, timeout, unparsable body), longest failing first. */
+    failing: FailingFeed[];
+  };
+  /** Countries and regions none of whose feeds currently works: their headlines are frozen. */
+  darkUnits: { code: CountryCode | RegionCode; since: string | null }[];
+}
+
+export interface FailingFeed {
+  source: string;
+  /** Country or region the feed serves. */
+  unit: CountryCode | RegionCode;
+  url: string;
+  /** HTTP status or error message of the last attempt. */
+  lastStatus: number | string | null;
+  /** Last successful fetch; null if it never worked. */
+  lastOkAt: string | null;
+}
+
 /**
  * History: one file per UTC day (`archive/YYYY-MM-DD`), built up by every
  * ingest run that day. Not served by the Worker yet.

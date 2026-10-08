@@ -9,7 +9,7 @@ import { defineConfig, type Plugin } from 'vite';
 const DATA_DIR = fileURLToPath(new URL('../../data', import.meta.url));
 const SAMPLE_DIR = path.join(DATA_DIR, 'sample');
 // Only the public contract is served — never data/.cache or anything else.
-const PUBLIC_FILE = /^\/(index\.json|countries\/[A-Z]{2}\.json|regions\/[A-Z]{2}-[A-Z0-9]{1,3}\.json)$/;
+const PUBLIC_FILE = /^\/(index\.json|status\.json|countries\/[A-Z]{2}\.json|regions\/[A-Z]{2}-[A-Z0-9]{1,3}\.json)$/;
 
 /**
  * Serves the ingest output at /data/* during `vite dev` and `vite preview`,

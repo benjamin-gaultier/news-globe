@@ -59,7 +59,7 @@ packages/ingest/     Node worker: fetch → normalize → dedupe → cluster →
 packages/shared/     Types for the data contract + country metadata (used by both sides)
 data/
   sample/            committed sample output (served until the first ingest)
-  index.json, countries/*.json, regions/*.json, archive/, .cache/   generated, gitignored
+  index.json, status.json, countries/*.json, regions/*.json, archive/, .cache/   generated, gitignored
 deploy/raspberry-pi/ systemd unit for the ingest
 ```
 
@@ -166,6 +166,17 @@ Runs on a Raspberry Pi 4 (64-bit Raspberry Pi OS / Debian 13). Steps 2–4 need 
 Only one machine should run the ingest. Two pollers would double the requests to every feed.
 
 Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` and `CLOUDFLARE_API_TOKEN` are all set, either in the environment or in the repo-root `.env`. If none are set, the ingest only writes local files, as in development. If the upload fails (network, token), the run still writes `data/` and the next run retries; [publish.ts](packages/ingest/src/publish.ts) keeps the last bundle's hash in `data/.cache/publish.json`.
+
+### Health check
+
+After each run (not `--offline`), [health.ts](packages/ingest/src/health.ts) writes `data/status.json`, which is published with the other files at `/data/status.json`. It lists every feed whose last request failed (an HTTP error, a timeout, or a body that would not parse) with its last status and last success, plus the **dark** countries and regions: those with no working feed left, whose headlines are therefore frozen.
+
+[.github/workflows/health.yml](.github/workflows/health.yml) checks the live site every hour, at :23 ([check-health.mjs](.github/scripts/check-health.mjs), plain Node). The run **fails** when:
+
+- `index.json` is more than 3 hours old, meaning the Pi is offline or publishing broke, or
+- a country or region has been dark for more than 12 hours.
+
+A failed scheduled run makes GitHub email whoever last changed the workflow's schedule (Settings → Notifications → Actions controls this). Shorter outages and single failing feeds show up as warnings and in a table on each run's summary page. Run it on demand with Actions → Health → Run workflow. Set the `SITE_URL` repository variable to check a different deployment.
 
 ### History archive
 
@@ -2679,7 +2690,7 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 
 **Clustering.** Use the snippet's top tokens as a weaker second signal, and add a time-decay so a story from 40 hours ago doesn't absorb today's follow-up.
 
-**Ops.** Alert when a feed returns errors for more than an hour (`lastStatus` in the cache file) or when `index.json` in KV goes stale (the Pi is offline). Later, move the ingest off the Pi, e.g. to a Workers Paid cron trigger with feeds fanned out across invocations.
+**Ops.** Done: the hourly health check (see [Health check](#health-check)). Later, move the ingest off the Pi, e.g. to a Workers Paid cron trigger with feeds fanned out across invocations.
 
 ## Notes
 
