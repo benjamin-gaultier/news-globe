@@ -114,4 +114,44 @@ describe('PanelShell', () => {
     rerender({ sheetKey: 'DE', scrollKey: 'DE' });
     expect(panel.style.height).toBe(`${SHEET_SNAPS.half * 100}dvh`);
   });
+
+  describe('sideways swipes on phones', () => {
+    const swipe = (el: Element, dx: number, dy = 0) => {
+      fireEvent.pointerDown(el, { clientX: 200, clientY: 400, pointerId: 2, pointerType: 'touch' });
+      fireEvent.pointerUp(el, { clientX: 200 + dx, clientY: 400 + dy, pointerId: 2, pointerType: 'touch' });
+    };
+
+    it('reports a swipe on the body or the header, left as next', () => {
+      const onSwipe = vi.fn();
+      const { panel, header } = renderShell({ isMobile: true, onSwipe });
+      expect(panel.classList.contains('panel-swipeable')).toBe(true);
+      swipe(screen.getByText('Body'), -120);
+      swipe(screen.getByText('Body'), 90, 20);
+      expect(onSwipe.mock.calls).toEqual([[1], [-1]]);
+
+      // On the header it is a swipe, not a tap: the sheet stays at half height.
+      swipe(header, -100);
+      expect(onSwipe).toHaveBeenLastCalledWith(1);
+      expect(panel.style.height).toBe(`${SHEET_SNAPS.half * 100}dvh`);
+    });
+
+    it('ignores short, mostly vertical and mouse gestures, and desktop', () => {
+      const onSwipe = vi.fn();
+      renderShell({ isMobile: true, onSwipe });
+      const body = screen.getByText('Body');
+      swipe(body, -40);
+      swipe(body, -100, 80);
+      fireEvent.pointerDown(body, { clientX: 200, clientY: 400, pointerId: 3, pointerType: 'mouse' });
+      fireEvent.pointerUp(body, { clientX: 50, clientY: 400, pointerId: 3, pointerType: 'mouse' });
+      expect(onSwipe).not.toHaveBeenCalled();
+    });
+
+    it('is off without a handler or on desktop', () => {
+      const onSwipe = vi.fn();
+      const { panel } = renderShell({ isMobile: false, onSwipe });
+      expect(panel.classList.contains('panel-swipeable')).toBe(false);
+      swipe(screen.getByText('Body'), -120);
+      expect(onSwipe).not.toHaveBeenCalled();
+    });
+  });
 });

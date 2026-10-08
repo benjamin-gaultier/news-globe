@@ -243,6 +243,14 @@ export function App() {
     return () => window.removeEventListener('popstate', onPopState);
   }, []);
 
+  // Keep the open country's chip in view (a swipe or a link can open one far along the row).
+  useEffect(() => {
+    if (!selected) return;
+    document
+      .querySelector('.country-picker [aria-pressed="true"]')
+      ?.scrollIntoView?.({ inline: 'center', block: 'nearest', behavior: 'smooth' });
+  }, [selected]);
+
   useEffect(() => {
     const name = selectedRegion
       ? REGIONS[selectedRegion]?.name
@@ -317,6 +325,16 @@ export function App() {
 
   const handleUnavailable = useCallback((name: string) => showToast(`${name} — coming soon`), [showToast]);
   const handleClose = useCallback(() => selectCountry(null), [selectCountry]);
+  /** Phones: a sideways swipe on a country's panel opens the next or previous country with headlines, in the list's order. */
+  const swipeCountry = useCallback(
+    (direction: 1 | -1) => {
+      const codes = Object.keys(COUNTRIES).filter((c) => available.has(c));
+      const at = selected ? codes.indexOf(selected) : -1;
+      if (at < 0 || codes.length < 2) return;
+      selectCountry(codes[(at + direction + codes.length) % codes.length]!);
+    },
+    [available, selected, selectCountry],
+  );
   /** A story's counterpart in another country: that country's panel, on the story's page. */
   const openStoryIn = useCallback(
     (code: CountryCode, clusterId: string) => {
@@ -381,6 +399,7 @@ export function App() {
           <button
             type="button"
             className="tool-btn"
+            aria-label="Today"
             aria-pressed={todayOpen && !historyDate}
             onClick={() => (todayOpen && !historyDate ? selectCountry(null) : (closeHistory(), openToday()))}
           >
@@ -390,6 +409,7 @@ export function App() {
           <button
             type="button"
             className="tool-btn"
+            aria-label="History"
             aria-pressed={historyDate !== null}
             onClick={() => (historyDate ? closeHistory() : openHistory())}
           >
@@ -470,6 +490,7 @@ export function App() {
           runAt={runOfDay}
           timeline={historyBar}
           animate={animatePanel}
+          onSwipe={swipeCountry}
           isMobile={isMobile}
           onClose={handleClose}
           onSheetChange={setSheetFraction}
@@ -497,6 +518,7 @@ export function App() {
           focusTitle={focusTitle}
           timeline={<LiveBar onHistory={openHistory} />}
           animate={animatePanel}
+          onSwipe={swipeCountry}
         />
       )}
       {searchOpen && !meta && (

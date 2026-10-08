@@ -230,6 +230,24 @@ describe('App', () => {
     expect(location.hash).toBe('#US/c2');
   });
 
+  it('moves to the next country with headlines on a sideways swipe (phones)', async () => {
+    const mq = vi.spyOn(window, 'matchMedia').mockImplementation(
+      (query) => ({ matches: true, media: query, addEventListener() {}, removeEventListener() {} }) as unknown as MediaQueryList,
+    );
+    try {
+      await renderApp('#FR');
+      const body = (await screen.findByRole('link', { name: 'Le budget adopté' })).closest('.panel-body')!;
+      act(() => {
+        body.dispatchEvent(Object.assign(new MouseEvent('pointerdown', { bubbles: true, clientX: 300, clientY: 400 }), { pointerType: 'touch' }));
+        body.dispatchEvent(Object.assign(new MouseEvent('pointerup', { bubbles: true, clientX: 100, clientY: 400 }), { pointerType: 'touch' }));
+      });
+      // France → the next available country in the list: the United States.
+      await waitFor(() => expect(location.hash).toBe('#US'));
+    } finally {
+      mq.mockRestore();
+    }
+  });
+
   describe('Story pages', () => {
     beforeEach(() => {
       files['countries/FR.json'] = () =>

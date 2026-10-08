@@ -18,6 +18,7 @@ export interface HistoryPanelProps {
   /** The timeline, above the stories. */
   timeline: ReactNode;
   animate?: boolean;
+  onSwipe?: (direction: 1 | -1) => void;
   isMobile: boolean;
   onClose: () => void;
   onSheetChange: (fraction: number) => void;
@@ -34,6 +35,7 @@ export function HistoryPanel({
   runAt,
   timeline,
   animate,
+  onSwipe,
   isMobile,
   onClose,
   onSheetChange,
@@ -58,6 +60,7 @@ export function HistoryPanel({
       scrollKey={`${unit.code}@${runAt}`}
       toolbar={timeline}
       animate={animate}
+      onSwipe={onSwipe}
       isMobile={isMobile}
       onClose={onClose}
       onSheetChange={onSheetChange}

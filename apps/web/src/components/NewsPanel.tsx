@@ -47,6 +47,8 @@ interface NewsPanelProps {
   /** The bar above the headlines (live, and the way into History). */
   timeline?: ReactNode;
   animate?: boolean;
+  /** Phones: a sideways swipe on the list moves to the next or previous country. */
+  onSwipe?: (direction: 1 | -1) => void;
 }
 
 function Skeleton() {
@@ -180,6 +182,7 @@ export function NewsPanel({
   focusTitle,
   timeline,
   animate,
+  onSwipe,
 }: NewsPanelProps) {
   const view = region ?? country;
   const [languageMode, setLanguageMode] = useState<LanguageMode>(readLanguageMode);
@@ -277,6 +280,7 @@ export function NewsPanel({
       scrollKey={`${view.code}/${story ?? ''}`}
       toolbar={story ? undefined : timeline}
       animate={animate}
+      onSwipe={story ? undefined : onSwipe}
       isMobile={isMobile}
       onClose={onClose}
       onSheetChange={onSheetChange}

@@ -68,8 +68,25 @@ function serveData(): Plugin {
   };
 }
 
+/**
+ * The globe is a lazy chunk so the shell renders first, but nothing in the
+ * HTML names it: the browser would only start on it once the app's script has
+ * run. A modulepreload link starts both downloads together.
+ */
+function preloadGlobe(): Plugin {
+  return {
+    name: 'news-globe-preload-globe',
+    apply: 'build',
+    transformIndexHtml(_html, ctx) {
+      const chunk = Object.values(ctx.bundle ?? {}).find((c) => c.type === 'chunk' && c.name === 'GlobeView');
+      if (!chunk) return [];
+      return [{ tag: 'link', attrs: { rel: 'modulepreload', href: `/${chunk.fileName}` }, injectTo: 'head' }];
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [react(), serveData()],
+  plugins: [react(), serveData(), preloadGlobe()],
   // Expose DATA_BASE_URL (unprefixed) to the client as import.meta.env.DATA_BASE_URL.
   envPrefix: ['VITE_', 'DATA_BASE_URL'],
   server: { host: true },

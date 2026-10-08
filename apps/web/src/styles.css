@@ -518,6 +518,11 @@ button {
   box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.2);
 }
 
+/* Phones: sideways swipes on the list move between countries (PanelShell); vertical scrolling stays native. */
+.panel-swipeable .panel-body {
+  touch-action: pan-y;
+}
+
 /* The same place switching between live and History: no slide-in. */
 .panel.panel-quiet {
   animation: none;
@@ -1218,6 +1223,49 @@ button {
 .toast.visible {
   opacity: 1;
   translate: -50% 0;
+}
+
+/* ---------- Small phones: a compact top bar ---------- */
+
+@media (max-width: 520px) {
+  .topbar {
+    gap: 8px 10px;
+    padding-bottom: 8px;
+  }
+
+  .brand h1 {
+    font-size: 1.05rem;
+  }
+
+  .updated {
+    font-size: 0.75rem;
+  }
+
+  /* Icons only; the buttons keep their names for screen readers (aria-label). */
+  .topbar-tools .tool-btn {
+    min-height: 38px;
+    min-width: 40px;
+    padding: 0 10px;
+  }
+
+  .topbar-tools .tool-btn > span {
+    display: none;
+  }
+
+  .topbar-tools {
+    gap: 6px;
+  }
+
+  .search-box input {
+    min-height: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .chip {
+    min-height: 32px;
+    padding: 5px 11px;
+  }
 }
 
 /* ---------- Desktop: side panel ---------- */
