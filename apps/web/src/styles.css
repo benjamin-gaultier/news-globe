@@ -108,6 +108,59 @@ button {
   backdrop-filter: blur(6px);
 }
 
+/* Phones: centred above the hint. From 768px: bottom left (see the media query). */
+.heat-legend {
+  position: absolute;
+  left: 50%;
+  bottom: calc(64px + var(--safe-bottom));
+  translate: -50% 0;
+  margin: 0;
+  padding: 6px 12px 8px;
+  border-radius: 10px;
+  background: rgba(13, 22, 38, 0.8);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  pointer-events: none;
+  backdrop-filter: blur(6px);
+}
+
+.heat-legend figcaption {
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.heat-legend ol {
+  display: flex;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.heat-legend li {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  font-variant-numeric: tabular-nums;
+}
+
+.heat-legend .swatch {
+  width: 28px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.globe-tip em {
+  max-width: 280px;
+  font-style: normal;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 /* ---------- Top bar ---------- */
 
 .topbar {
@@ -588,6 +641,12 @@ button {
   .story-thumb {
     width: 88px;
     height: 66px;
+  }
+
+  .heat-legend {
+    left: 24px;
+    bottom: calc(20px + var(--safe-bottom));
+    translate: none;
   }
 }
 

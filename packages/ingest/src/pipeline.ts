@@ -8,8 +8,10 @@ import {
   type Article,
   type CountryCode,
   type CountryFile,
+  type IndexEntry,
   type IndexFile,
   type RegionCode,
+  type StoryCluster,
   type RegionMeta,
 } from '@news-globe/shared';
 import { adapterFor } from './adapters';
@@ -51,6 +53,18 @@ type Unit = { code: string; name: string; file: string } & (
   | { kind: 'country' }
   | { kind: 'region'; region: RegionMeta }
 );
+
+/** The index line for one file, with its top story so the globe can show it without opening the file. */
+export function indexEntry(code: string, name: string, updatedAt: string, clusters: StoryCluster[]): IndexEntry {
+  const top = clusters[0];
+  return {
+    code,
+    name,
+    updatedAt,
+    clusterCount: clusters.length,
+    ...(top && { topTitle: top.representative.title, topOutlets: top.outletCount24h }),
+  };
+}
 
 async function readJson<T>(file: string): Promise<T | null> {
   try {
@@ -138,7 +152,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       const previous = await readJson<CountryFile>(file);
       log(`${code}: no articles — ${previous ? 'keeping previous file' : 'nothing to write'}`);
       if (previous) {
-        indexList.push({ code, name, updatedAt: previous.updatedAt, clusterCount: previous.clusters.length });
+        indexList.push(indexEntry(code, name, previous.updatedAt, previous.clusters));
       }
       summaryList.push({ code, articles: 0, clusters: previous?.clusters.length ?? 0, written: false });
       continue;
@@ -169,7 +183,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
             clusters,
           };
     await writeJsonAtomic(file, out);
-    indexList.push({ code, name, updatedAt, clusterCount: clusters.length });
+    indexList.push(indexEntry(code, name, updatedAt, clusters));
     summaryList.push({ code, articles: articles.length, clusters: clusters.length, written: true });
 
     const multi = groups.filter((g) => new Set(g.map((a) => a.source.id)).size > 1).length;

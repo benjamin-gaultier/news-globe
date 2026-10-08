@@ -26,6 +26,8 @@ After the first `pnpm ingest`, the dev server serves your fresh output instead o
 
 CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs `pnpm typecheck`, `pnpm test` and a Vite build on every pull request and every push to `main`.
 
+**Shading.** Each country on the globe is shaded by how many outlets covered its top story in the last 24 hours (≤1, 2, 3, 4, 5+; a legend sits in the corner), and hovering shows that headline. The regions of an open country get the same treatment in amber. Both read `topTitle` and `topOutlets` from `index.json`, so no country file is fetched until a click ([lib/heat.ts](apps/web/src/lib/heat.ts)).
+
 **Links.** The open view lives in the URL hash, so it can be shared: `/#FR` opens France and `/#FR-BRE` opens Brittany (a region code names its country). Codes are case-insensitive. Back and Forward step through the views you opened. A link to a country or region with no data falls back to the globe or to the country ([lib/route.ts](apps/web/src/lib/route.ts)).
 
 ## Layout
@@ -185,7 +187,11 @@ Types live in [packages/shared/src/index.ts](packages/shared/src/index.ts). `sch
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-06T08:11:52.000Z",
-  "countries": [{ "code": "FR", "name": "France", "updatedAt": "…", "clusterCount": 15 }],
+  "countries": [{
+    "code": "FR", "name": "France", "updatedAt": "…", "clusterCount": 15,
+    "topTitle": "…",   // the top story's headline        (optional: older files have neither)
+    "topOutlets": 4    // its outletCount24h
+  }],
   "regions": [{ "code": "FR-BRE", "name": "Brittany", "updatedAt": "…", "clusterCount": 15 }]  // optional
 }
 ```
