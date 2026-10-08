@@ -8,6 +8,10 @@ export interface PanelShellProps {
   /** Heading content: crumb, title, subtitle, toggles. The title element needs id="panel-title". */
   heading: ReactNode;
   children: ReactNode;
+  /** A bar between the heading and the scrolling body (the history timeline). */
+  toolbar?: ReactNode;
+  /** false: no slide-in, when the same place's panel only switched between live and History. */
+  animate?: boolean;
   /** Changing it starts the sheet at half height again (a new country, the world view). */
   sheetKey: string;
   /** Changing it scrolls the body back to the top (a new country or region). */
@@ -18,7 +22,17 @@ export interface PanelShellProps {
 }
 
 /** The side panel (desktop) or draggable bottom sheet (mobile) that every view opens in. */
-export function PanelShell({ heading, children, sheetKey, scrollKey, isMobile, onClose, onSheetChange }: PanelShellProps) {
+export function PanelShell({
+  heading,
+  children,
+  toolbar,
+  animate = true,
+  sheetKey,
+  scrollKey,
+  isMobile,
+  onClose,
+  onSheetChange,
+}: PanelShellProps) {
   const [snap, setSnap] = useState<Snap>('half');
   const [dragHeight, setDragHeight] = useState<number | null>(null);
   // Live drag state lives in a ref: pointerup can fire before React re-renders after the last move.
@@ -84,7 +98,7 @@ export function PanelShell({ heading, children, sheetKey, scrollKey, isMobile, o
   return (
     <aside
       ref={panelRef}
-      className={`panel${dragHeight !== null ? ' dragging' : ''}`}
+      className={`panel${dragHeight !== null ? ' dragging' : ''}${animate ? '' : ' panel-quiet'}`}
       style={style}
       aria-labelledby="panel-title"
     >
@@ -103,6 +117,7 @@ export function PanelShell({ heading, children, sheetKey, scrollKey, isMobile, o
           </svg>
         </button>
       </div>
+      {toolbar}
       <div className="panel-body">{children}</div>
     </aside>
   );

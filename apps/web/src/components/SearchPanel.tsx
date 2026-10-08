@@ -1,10 +1,12 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useMemo } from 'react';
 import { useAsync } from '../hooks/useAsync';
 import { fetchSearch } from '../lib/data';
 import { indexSearch, searchHeadlines } from '../lib/search';
 import { PanelShell } from './PanelShell';
 
 export interface SearchPanelProps {
+  /** What is typed in the top bar's search box. */
+  query: string;
   isMobile: boolean;
   onClose: () => void;
   onSheetChange: (fraction: number) => void;
@@ -12,30 +14,18 @@ export interface SearchPanelProps {
   onOpenStory: (unit: string, title: string) => void;
 }
 
-/** Searches every current headline (search.json, loaded when the panel opens). */
-export function SearchPanel({ isMobile, onClose, onSheetChange, onOpenStory }: SearchPanelProps) {
-  const [query, setQuery] = useState('');
-  const input = useRef<HTMLInputElement>(null);
+/** Results for the top bar's search box, over every current headline (search.json, loaded when the panel opens). */
+export function SearchPanel({ query, isMobile, onClose, onSheetChange, onOpenStory }: SearchPanelProps) {
   const file = useAsync((signal) => fetchSearch(signal), []);
   const index = useMemo(() => (file.status === 'ready' && file.data ? indexSearch(file.data) : null), [file]);
   const results = useMemo(() => (index ? searchHeadlines(index, query) : { groups: [], total: 0 }), [index, query]);
 
-  useEffect(() => {
-    input.current?.focus();
-  }, []);
-
   const heading = (
     <>
-      <h2 id="panel-title">Search headlines</h2>
-      <input
-        ref={input}
-        className="search-input"
-        type="search"
-        placeholder="A name, a place, a topic…"
-        aria-label="Search every country’s current headlines"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-      />
+      <h2 id="panel-title">Search results</h2>
+      <p className="panel-sub" dir="auto">
+        {query.trim() ? <>Current headlines matching “{query.trim()}”</> : 'Current headlines of every country and region'}
+      </p>
     </>
   );
 
@@ -43,7 +33,7 @@ export function SearchPanel({ isMobile, onClose, onSheetChange, onOpenStory }: S
   if (file.status === 'error') body = <p className="panel-message">Couldn’t load the headlines to search.</p>;
   else if (file.status === 'ready' && !file.data) body = <p className="panel-message">Search isn’t available yet.</p>;
   else if (!index) body = <p className="panel-message">Loading…</p>;
-  else if (!query.trim()) body = <p className="panel-note">Searches the current headlines of every country and region.</p>;
+  else if (!query.trim()) body = <p className="panel-note">Type a name, a place or a topic.</p>;
   else if (!results.total) body = <p className="panel-message">No current headline matches “{query.trim()}”.</p>;
   else
     body = (

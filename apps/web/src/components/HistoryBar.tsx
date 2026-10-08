@@ -61,3 +61,28 @@ export function HistoryBar({ date, runs, runAt, status, canGoForward, onShiftDay
     </div>
   );
 }
+
+/** The live counterpart, at the top of a live panel: where the timeline appears, and the way in. */
+export function LiveBar({ onHistory }: { onHistory: () => void }) {
+  return (
+    <div className="history-bar history-live" role="group" aria-label="Time">
+      <span className="live-label">
+        <span className="live-dot" aria-hidden="true" />
+        Live
+      </span>
+      <button type="button" className="chip chip-small history-open" onClick={onHistory}>
+        <ClockIcon />
+        Earlier headlines
+      </button>
+    </div>
+  );
+}
+
+export function ClockIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+      <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" strokeWidth="2" />
+      <path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  );
+}

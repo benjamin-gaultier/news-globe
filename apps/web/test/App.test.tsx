@@ -230,7 +230,7 @@ describe('App', () => {
     it('replays a day’s runs on the globe and in the panel', async () => {
       files.archive = () => true;
       await renderApp();
-      await userEvent.click(chip('History'));
+      await userEvent.click(screen.getByRole('button', { name: 'History' }));
 
       const slider = await screen.findByRole('slider');
       const today = new Date().toISOString().slice(0, 10);
@@ -238,7 +238,7 @@ describe('App', () => {
       // Opens on the day's latest run.
       expect((slider as HTMLInputElement).value).toBe('1');
       await waitFor(() => expect(location.hash).toBe(`#@${today}T09:00`));
-      expect(chip('History').getAttribute('aria-pressed')).toBe('true');
+      expect(screen.getByRole('button', { name: 'History' }).getAttribute('aria-pressed')).toBe('true');
       expect(screen.queryByRole('button', { name: 'Across borders' })).toBeNull();
       expect([...globe.props!.entries.keys()]).toEqual(['FR']);
       expect(globe.props!.entries.get('FR')!.updatedAt).toBe(`${today}T09:00:00.000Z`);
@@ -246,6 +246,8 @@ describe('App', () => {
       await userEvent.click(chip('France'));
       expect(await screen.findByRole('link', { name: 'Archived budget story' })).toBeTruthy();
       expect(location.hash).toBe(`#FR@${today}T09:00`);
+      // The timeline moved into the panel, above the headlines.
+      expect(within(panel()!).getByRole('slider')).toBe(screen.getByRole('slider'));
       // History never loads the live file.
       expect(requested()).not.toContain('/data/countries/FR.json');
 
@@ -258,6 +260,16 @@ describe('App', () => {
       expect(screen.queryByRole('slider')).toBeNull();
       expect(await screen.findByRole('link', { name: 'Le budget adopté' })).toBeTruthy();
       expect(location.hash).toBe('#FR');
+    });
+
+    it('goes back in time from a live panel, keeping the place', async () => {
+      files.archive = () => true;
+      await renderApp('#FR');
+      await screen.findByRole('link', { name: 'Le budget adopté' });
+      await userEvent.click(within(panel()!).getByRole('button', { name: 'Earlier headlines' }));
+      expect(await screen.findByRole('link', { name: 'Archived budget story' })).toBeTruthy();
+      expect(within(panel()!).getByRole('slider')).toBeTruthy();
+      expect(location.hash.startsWith('#FR@')).toBe(true);
     });
 
     it('opens a shared link on the run it names', async () => {
@@ -340,30 +352,52 @@ describe('Search', () => {
 
   it('finds a headline and opens its panel on that story', async () => {
     await renderApp();
-    await userEvent.click(chip('Search'));
-    const box = await screen.findByRole('searchbox');
+    const box = screen.getByRole('searchbox', { name: /Search every country/ });
+    expect(panel()).toBeNull();
     await userEvent.type(box, 'budget');
+    expect(await screen.findByRole('heading', { name: 'Search results' })).toBeTruthy();
     await userEvent.click(await screen.findByRole('button', { name: /Le budget adopté/ }));
 
     const link = await screen.findByRole('link', { name: 'Le budget adopté' });
     expect(link.closest('li')!.className).toContain('story-focused');
     expect(location.hash).toBe('#FR');
-    expect(screen.queryByRole('searchbox')).toBeNull();
+    // The query stays in the box: focusing it shows the results again.
+    await userEvent.click(box);
+    expect(await screen.findByRole('heading', { name: 'Search results' })).toBeTruthy();
+  });
+
+  it('closes the results on Escape, emptying the box', async () => {
+    await renderApp();
+    const box = screen.getByRole('searchbox');
+    await userEvent.type(box, 'budget');
+    await screen.findByRole('heading', { name: 'Search results' });
+    await userEvent.keyboard('{Escape}');
+    expect(panel()).toBeNull();
+    expect((box as HTMLInputElement).value).toBe('');
+  });
+
+  it('opens a result live from History', async () => {
+    files.archive = () => true;
+    await renderApp('#@2026-10-07');
+    await userEvent.type(screen.getByRole('searchbox'), 'budget');
+    await userEvent.click(await screen.findByRole('button', { name: /Le budget adopté/ }));
+    expect(await screen.findByRole('link', { name: 'Le budget adopté' })).toBeTruthy();
+    expect(location.hash).toBe('#FR');
   });
 
   it('opens a region result in its region', async () => {
     await renderApp();
-    await userEvent.click(chip('Search'));
-    await userEvent.type(await screen.findByRole('searchbox'), 'metro');
+    await userEvent.type(screen.getByRole('searchbox'), 'metro');
     await userEvent.click(await screen.findByRole('button', { name: /Rennes/ }));
     expect(await screen.findByRole('heading', { name: 'Brittany' })).toBeTruthy();
     expect(location.hash).toBe('#FR-BRE');
   });
 
-  it('opens with "/" unless typing in a field', async () => {
+  it('jumps to the search box with "/" unless typing in a field', async () => {
     await renderApp();
     await userEvent.keyboard('/');
-    const box = await screen.findByRole('searchbox');
+    const box = screen.getByRole('searchbox');
+    expect(document.activeElement).toBe(box);
     await userEvent.type(box, 'a/b');
     expect((box as HTMLInputElement).value).toBe('a/b');
   });

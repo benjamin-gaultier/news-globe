@@ -3,7 +3,7 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it, vi } from 'vitest';
 import type { ArchiveStory } from '@news-globe/shared';
-import { clock, dayLabel, HistoryBar, type HistoryBarProps } from '../src/components/HistoryBar';
+import { clock, dayLabel, HistoryBar, LiveBar, type HistoryBarProps } from '../src/components/HistoryBar';
 import { HistoryPanel, type HistoryPanelProps } from '../src/components/HistoryPanel';
 
 const RUNS = ['2026-10-07T08:00:00.000Z', '2026-10-07T09:00:00.000Z', '2026-10-07T10:00:00.000Z'];
@@ -84,6 +84,8 @@ function renderHistoryPanel(props: Partial<HistoryPanelProps> = {}) {
     <HistoryPanel
       unit={{ code: 'FR', name: 'France' }}
       stories={[]}
+      note="No history for this day."
+      timeline={null}
       date="2026-10-07"
       runAt={RUNS[1]!}
       isMobile={false}
@@ -95,7 +97,26 @@ function renderHistoryPanel(props: Partial<HistoryPanelProps> = {}) {
   return { onClose };
 }
 
+describe('LiveBar', () => {
+  it('opens History', async () => {
+    const onHistory = vi.fn();
+    render(<LiveBar onHistory={onHistory} />);
+    expect(screen.getByText('Live')).toBeTruthy();
+    await userEvent.click(screen.getByRole('button', { name: 'Earlier headlines' }));
+    expect(onHistory).toHaveBeenCalled();
+  });
+});
+
 describe('HistoryPanel', () => {
+  it('shows the note while there are no stories to show, under the timeline', () => {
+    renderHistoryPanel({ stories: null, runAt: null, note: 'Loading…', timeline: <div role="group" aria-label="History" /> });
+    expect(screen.getByText('Loading…')).toBeTruthy();
+    expect(screen.getByText(dayLabel('2026-10-07'))).toBeTruthy();
+    // The timeline sits above the scrolling headlines, not in them.
+    const timeline = screen.getByRole('group', { name: 'History' });
+    expect(timeline.nextElementSibling?.className).toBe('panel-body');
+  });
+
   it('lists the stories ranked at that run', () => {
     renderHistoryPanel({ stories: [archived('Budget adopté'), archived('Grève SNCF', { sources: ['lemonde'], bestRank: 3 })] });
     expect(screen.getByText(`Top stories at ${clock(RUNS[1]!)} · ${dayLabel('2026-10-07')}`)).toBeTruthy();
