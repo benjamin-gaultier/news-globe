@@ -17,17 +17,22 @@ pnpm install
 pnpm dev            # web app on http://localhost:5173 (shows the committed sample data)
 pnpm ingest         # one-off run: fetch feeds → data/countries/*.json, data/regions/*.json + data/index.json
 pnpm ingest:watch   # run now, then every hour (node-cron)
-pnpm test           # vitest (ingest pipeline)
+pnpm test           # vitest (ingest pipeline, web app routing)
 pnpm typecheck      # all packages
 pnpm build          # production build of the web app → apps/web/dist
 ```
 
 After the first `pnpm ingest`, the dev server serves your fresh output instead of the sample.
 
+CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs `pnpm typecheck`, `pnpm test` and a Vite build on every pull request and every push to `main`.
+
+**Links.** The open view lives in the URL hash, so it can be shared: `/#FR` opens France and `/#FR-BRE` opens Brittany (a region code names its country). Codes are case-insensitive. Back and Forward step through the views you opened. A link to a country or region with no data falls back to the globe or to the country ([lib/route.ts](apps/web/src/lib/route.ts)).
+
 ## Layout
 
 ```
 apps/web/            React + Vite front end (react-globe.gl)
+  src/lib/route.ts                 the URL hash (#FR, #FR-BRE) ↔ the open country or region
   src/assets/countries-110m.json   Natural Earth 110m countries, trimmed (scripts/prepare-countries.mjs)
   src/assets/regions-fr.json       France's 13 regions, IGN Admin Express, trimmed (scripts/prepare-regions.mjs fr)
   src/assets/regions-de.json       Germany's 16 Länder, Natural Earth 10m admin-1, trimmed (scripts/prepare-regions.mjs de)
