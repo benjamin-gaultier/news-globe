@@ -28,10 +28,10 @@ const story = (countries: WorldStory['countries'], names = ['warner bros', 'para
 });
 
 function renderWorld(stories: WorldStory[]) {
-  const onOpenCountry = vi.fn();
+  const onOpenStory = vi.fn();
   const onClose = vi.fn();
-  render(<WorldPanel stories={stories} now={NOW} isMobile={false} onClose={onClose} onSheetChange={vi.fn()} onOpenCountry={onOpenCountry} />);
-  return { onOpenCountry, onClose };
+  render(<WorldPanel stories={stories} now={NOW} isMobile={false} onClose={onClose} onSheetChange={vi.fn()} onOpenStory={onOpenStory} />);
+  return { onOpenStory, onClose };
 }
 
 const items = () => screen.getAllByRole('listitem').filter((li) => li.classList.contains('world-story'));
@@ -44,7 +44,7 @@ describe('WorldPanel', () => {
   });
 
   it('lists each story with its shared names, countries and their headlines', async () => {
-    const { onOpenCountry } = renderWorld([
+    const { onOpenStory } = renderWorld([
       story([entry('DE', 'Warner Bros kauft Paramount', 'de', 4), entry('US', 'Warner Bros buys Paramount', 'en', 1), entry('ZZ', 'Unknown', 'xx')]),
     ]);
     const [item] = items();
@@ -58,7 +58,7 @@ describe('WorldPanel', () => {
     expect(within(item!).queryByText('· 1 outlets')).toBeNull();
 
     await userEvent.click(within(item!).getByRole('button', { name: 'Germany' }));
-    expect(onOpenCountry).toHaveBeenCalledWith('DE');
+    expect(onOpenStory).toHaveBeenCalledWith('DE', 'DE-1');
   });
 
   it('translates the best-covered headline when no country is English-speaking', async () => {

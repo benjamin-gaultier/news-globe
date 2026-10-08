@@ -26,6 +26,8 @@ export function App() {
   const isMobile = useMediaQuery(MOBILE_QUERY);
   const [selected, setSelected] = useState<CountryCode | null>(() => parseRoute(location.hash).country);
   const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(() => parseRoute(location.hash).region);
+  // A story's page in the country or region panel (its cluster id); live only.
+  const [story, setStory] = useState<string | null>(() => parseRoute(location.hash).story ?? null);
   // The cross-border stories panel (#world); never open together with a country.
   const [world, setWorld] = useState(() => parseRoute(location.hash).world);
   // The search box's text, its results panel, and the headline a result opened (scrolled to and highlighted).
@@ -109,19 +111,26 @@ export function App() {
   const selectCountry = useCallback((code: CountryCode | null) => {
     setSelected(code);
     setSelectedRegion(null);
+    setStory(null);
     setWorld(false);
     setSearchOpen(false);
     setFocusTitle(null);
   }, []);
+  const selectRegion = useCallback((code: RegionCode | null) => {
+    setSelectedRegion(code);
+    setStory(null);
+  }, []);
   const openWorld = useCallback(() => {
     setSelected(null);
     setSelectedRegion(null);
+    setStory(null);
     setWorld(true);
     setSearchOpen(false);
   }, []);
   const openSearch = useCallback(() => {
     setSelected(null);
     setSelectedRegion(null);
+    setStory(null);
     setWorld(false);
     setSearchOpen(true);
   }, []);
@@ -130,6 +139,7 @@ export function App() {
     const region = REGIONS[unit];
     setSelected(region?.country ?? unit);
     setSelectedRegion(region ? unit : null);
+    setStory(null);
     setWorld(false);
     setSearchOpen(false);
     setFocusTitle(title);
@@ -184,7 +194,7 @@ export function App() {
   const runOfDay = historyDate && historyRun?.startsWith(historyDate) ? historyRun : null;
   const at = historyDate ? (runOfDay ? runToAt(runOfDay) : (wantedAt.current ?? historyDate)) : null;
   useEffect(() => {
-    const route = { country: selected, region: selectedRegion, world, at };
+    const route = { country: selected, region: selectedRegion, world, at, story: (!at && story) || undefined };
     const hash = formatRoute(route);
     if (location.hash === hash) return;
     const url = hash || location.pathname + location.search;
@@ -195,16 +205,18 @@ export function App() {
       current.country === route.country &&
       current.region === route.region &&
       current.world === route.world &&
+      current.story === route.story &&
       (current.at?.slice(0, 10) ?? null) === (at?.slice(0, 10) ?? null);
     if (sameView) history.replaceState(null, '', url);
     else history.pushState(null, '', url);
-  }, [selected, selectedRegion, world, at]);
+  }, [selected, selectedRegion, world, at, story]);
 
   useEffect(() => {
     const onPopState = () => {
       const route = parseRoute(location.hash);
       setSelected(route.country);
       setSelectedRegion(route.region);
+      setStory(route.story ?? null);
       setWorld(route.world);
       wantedAt.current = route.at;
       setHistoryDate(route.at?.slice(0, 10) ?? null);
@@ -268,6 +280,7 @@ export function App() {
   }, [indexData, available, regions, selected, selectedRegion, selectCountry, showToast, historyDate]);
 
   const openHistory = useCallback(() => {
+    setStory(null);
     setWorld(false);
     setSearchOpen(false);
     setHistoryRun(null);
@@ -284,7 +297,18 @@ export function App() {
 
   const handleUnavailable = useCallback((name: string) => showToast(`${name} — coming soon`), [showToast]);
   const handleClose = useCallback(() => selectCountry(null), [selectCountry]);
-  const openCountry = useCallback((code: CountryCode) => selectCountry(available.has(code) ? code : null), [selectCountry, available]);
+  /** A story's counterpart in another country: that country's panel, on the story's page. */
+  const openStoryIn = useCallback(
+    (code: CountryCode, clusterId: string) => {
+      if (!available.has(code)) {
+        handleUnavailable(COUNTRIES[code]?.name ?? code);
+        return;
+      }
+      selectCountry(code);
+      setStory(clusterId);
+    },
+    [selectCountry, available, handleUnavailable],
+  );
   const retry = useCallback(() => setRetryKey((k) => k + 1), []);
   const meta = selected ? COUNTRIES[selected] : undefined;
 
@@ -377,7 +401,7 @@ export function App() {
             onSelect={selectCountry}
             regions={regions}
             selectedRegion={selectedRegion}
-            onSelectRegion={setSelectedRegion}
+            onSelectRegion={selectRegion}
             onUnavailable={handleUnavailable}
             isMobile={isMobile}
             sheetFraction={sheetFraction}
@@ -402,7 +426,7 @@ export function App() {
         <HistoryPanel
           unit={region ?? meta}
           countryName={region ? meta.name : undefined}
-          onBackToCountry={() => setSelectedRegion(null)}
+          onBackToCountry={() => selectRegion(null)}
           stories={archiveDay && runOfDay ? storiesAt(archiveDay, runOfDay, selectedRegion ?? meta.code) : null}
           note={
             historyStatus === 'error'
@@ -425,15 +449,20 @@ export function App() {
           country={meta}
           region={region}
           regions={regions}
-          onSelectRegion={setSelectedRegion}
+          onSelectRegion={selectRegion}
           state={country}
           now={now}
           isMobile={isMobile}
           onClose={handleClose}
           onRetry={retry}
           onSheetChange={setSheetFraction}
-          onOpenCountry={openCountry}
+          story={story}
+          onOpenStory={setStory}
+          onOpenStoryIn={openStoryIn}
+          world={worldStories}
+          onToast={showToast}
           trends={unitTrends}
+          trendRuns={unitTrends ? trendsData?.runs : undefined}
           focusTitle={focusTitle}
           timeline={<LiveBar onHistory={openHistory} />}
           animate={animatePanel}
@@ -449,7 +478,7 @@ export function App() {
           isMobile={isMobile}
           onClose={handleClose}
           onSheetChange={setSheetFraction}
-          onOpenCountry={openCountry}
+          onOpenStory={openStoryIn}
         />
       )}
 

@@ -7,7 +7,15 @@ import { PanelShell } from './PanelShell';
 /** "warner bros" → "Warner Bros": names arrive folded to lower case. */
 const titleCase = (name: string) => name.replace(/(^|\s)(\p{L})/gu, (_, space: string, letter: string) => space + letter.toUpperCase());
 
-function WorldItem({ story, now, onOpenCountry }: { story: WorldStory; now: number; onOpenCountry: (code: CountryCode) => void }) {
+function WorldItem({
+  story,
+  now,
+  onOpenStory,
+}: {
+  story: WorldStory;
+  now: number;
+  onOpenStory: (code: CountryCode, clusterId: string) => void;
+}) {
   const countries = story.countries.filter((c) => COUNTRIES[c.code]);
   // An English line for the story: an English-language country's headline when there is one,
   // else the best-covered headline translated on-device where the browser can (see lib/translate.ts).
@@ -29,7 +37,7 @@ function WorldItem({ story, now, onOpenCountry }: { story: WorldStory; now: numb
       <ul className="world-countries">
         {countries.map((c) => (
           <li key={c.code}>
-            <button type="button" className="chip chip-small" onClick={() => onOpenCountry(c.code)}>
+            <button type="button" className="chip chip-small" onClick={() => onOpenStory(c.code, c.clusterId)}>
               {COUNTRIES[c.code]!.name}
             </button>
             <a className="related-title" href={c.url} target="_blank" rel="noopener noreferrer" dir="auto">
@@ -49,11 +57,12 @@ export interface WorldPanelProps {
   isMobile: boolean;
   onClose: () => void;
   onSheetChange: (fraction: number) => void;
-  onOpenCountry: (code: CountryCode) => void;
+  /** Opens the story's page in one of its countries. */
+  onOpenStory: (code: CountryCode, clusterId: string) => void;
 }
 
 /** Stories in several countries' top stories at once. */
-export function WorldPanel({ stories, now, isMobile, onClose, onSheetChange, onOpenCountry }: WorldPanelProps) {
+export function WorldPanel({ stories, now, isMobile, onClose, onSheetChange, onOpenStory }: WorldPanelProps) {
   const heading = (
     <>
       <h2 id="panel-title">Across borders</h2>
@@ -69,7 +78,7 @@ export function WorldPanel({ stories, now, isMobile, onClose, onSheetChange, onO
       ) : (
         <ol className="story-list">
           {stories.map((s) => (
-            <WorldItem key={s.id} story={s} now={now} onOpenCountry={onOpenCountry} />
+            <WorldItem key={s.id} story={s} now={now} onOpenStory={onOpenStory} />
           ))}
         </ol>
       )}
