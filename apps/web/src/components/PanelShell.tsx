@@ -2,6 +2,24 @@ import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent, ty
 
 /** Bottom-sheet snap points, as a fraction of the viewport height. */
 export const SHEET_SNAPS = { half: 0.52, full: 0.9 } as const;
+/** A sideways swipe: at least this far, and mostly sideways. */
+const SWIPE_MIN_PX = 60;
+const isSwipe = (dx: number, dy: number) => Math.abs(dx) >= SWIPE_MIN_PX && Math.abs(dx) > 2 * Math.abs(dy);
+
+/** Swallows the click that follows a swipe, so a swipe over a headline doesn't open it. */
+function swallowNextClick() {
+  const stop = (e: Event) => {
+    e.stopPropagation();
+    e.preventDefault();
+  };
+  // The click, if any, comes right after the pointerup: the next touch means none came, so don't eat its click.
+  const done = () => {
+    window.removeEventListener('click', stop, { capture: true });
+    window.removeEventListener('pointerdown', done, { capture: true });
+  };
+  window.addEventListener('click', stop, { capture: true, once: true });
+  window.addEventListener('pointerdown', done, { capture: true, once: true });
+}
 type Snap = keyof typeof SHEET_SNAPS;
 
 export interface PanelShellProps {
@@ -12,6 +30,8 @@ export interface PanelShellProps {
   toolbar?: ReactNode;
   /** false: no slide-in, when the same place's panel only switched between live and History. */
   animate?: boolean;
+  /** Phones: a sideways swipe on the sheet; 1 is a swipe to the left (next), -1 to the right (previous). */
+  onSwipe?: (direction: 1 | -1) => void;
   /** Changing it starts the sheet at half height again (a new country, the world view). */
   sheetKey: string;
   /** Changing it scrolls the body back to the top (a new country or region). */
@@ -27,6 +47,7 @@ export function PanelShell({
   children,
   toolbar,
   animate = true,
+  onSwipe,
   sheetKey,
   scrollKey,
   isMobile,
@@ -36,7 +57,10 @@ export function PanelShell({
   const [snap, setSnap] = useState<Snap>('half');
   const [dragHeight, setDragHeight] = useState<number | null>(null);
   // Live drag state lives in a ref: pointerup can fire before React re-renders after the last move.
-  const drag = useRef<{ startY: number; startHeight: number; height: number; moved: boolean } | null>(null);
+  const drag = useRef<{ startX: number; startY: number; startHeight: number; height: number; moved: boolean } | null>(null);
+  // A touch on the body that may turn into a sideways swipe.
+  const touch = useRef<{ x: number; y: number } | null>(null);
+  const swipeable = isMobile && !!onSwipe;
   const panelRef = useRef<HTMLElement>(null);
 
   useEffect(() => onSheetChange(isMobile ? SHEET_SNAPS[snap] : 0), [snap, isMobile, onSheetChange]);
@@ -63,7 +87,7 @@ export function PanelShell({
       // Not fatal: we still get moves while the pointer stays over the header.
     }
     const startHeight = panelRef.current?.getBoundingClientRect().height ?? 0;
-    drag.current = { startY: e.clientY, startHeight, height: startHeight, moved: false };
+    drag.current = { startX: e.clientX, startY: e.clientY, startHeight, height: startHeight, moved: false };
   };
 
   const onPointerMove = (e: ReactPointerEvent<HTMLDivElement>) => {
@@ -81,6 +105,10 @@ export function PanelShell({
     drag.current = null;
     setDragHeight(null);
     if (!d) return;
+    if (swipeable && e.type === 'pointerup' && isSwipe(e.clientX - d.startX, e.clientY - d.startY)) {
+      onSwipe!(e.clientX < d.startX ? 1 : -1);
+      return;
+    }
     if (!d.moved) {
       // A tap on the handle toggles between the two heights.
       if (e.type === 'pointerup') setSnap((s) => (s === 'half' ? 'full' : 'half'));
@@ -91,6 +119,22 @@ export function PanelShell({
     else setSnap(fraction > (SHEET_SNAPS.half + SHEET_SNAPS.full) / 2 ? 'full' : 'half');
   };
 
+  const onBodyPointerDown = (e: ReactPointerEvent<HTMLDivElement>) => {
+    // Rows that scroll sideways themselves keep their gesture.
+    if (!swipeable || e.pointerType === 'mouse' || (e.target as HTMLElement).closest('.region-picker, .history-bar, input')) {
+      touch.current = null;
+      return;
+    }
+    touch.current = { x: e.clientX, y: e.clientY };
+  };
+  const onBodyPointerUp = (e: ReactPointerEvent<HTMLDivElement>) => {
+    const t = touch.current;
+    touch.current = null;
+    if (!t || !isSwipe(e.clientX - t.x, e.clientY - t.y)) return;
+    swallowNextClick();
+    onSwipe!(e.clientX < t.x ? 1 : -1);
+  };
+
   const style = isMobile
     ? { height: dragHeight !== null ? `${dragHeight}px` : `${SHEET_SNAPS[snap] * 100}dvh` }
     : undefined;
@@ -98,7 +142,7 @@ export function PanelShell({
   return (
     <aside
       ref={panelRef}
-      className={`panel${dragHeight !== null ? ' dragging' : ''}${animate ? '' : ' panel-quiet'}`}
+      className={`panel${dragHeight !== null ? ' dragging' : ''}${animate ? '' : ' panel-quiet'}${swipeable ? ' panel-swipeable' : ''}`}
       style={style}
       aria-labelledby="panel-title"
     >
@@ -118,7 +162,16 @@ export function PanelShell({
         </button>
       </div>
       {toolbar}
-      <div className="panel-body">{children}</div>
+      <div
+        className="panel-body"
+        onPointerDown={onBodyPointerDown}
+        onPointerUp={onBodyPointerUp}
+        onPointerCancel={() => {
+          touch.current = null;
+        }}
+      >
+        {children}
+      </div>
     </aside>
   );
 }
