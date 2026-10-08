@@ -140,6 +140,26 @@ export default function GlobeView({
     return () => ro.disconnect();
   }, []);
 
+  // globe.gl keeps hit-testing the last pointer position every frame. After a tap that is
+  // where the finger was, so while the camera flies to the country, whatever passes under
+  // that spot would light up as hovered. Once a touch lifts (and its click has fired), move
+  // the pointer off the canvas.
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const onPointerUp = (ev: PointerEvent) => {
+      if (ev.pointerType === 'mouse') return;
+      // globe.gl fires its click in the next frame; queue behind it so the tap still lands.
+      requestAnimationFrame(() => {
+        el.querySelector('canvas')?.dispatchEvent(
+          new PointerEvent('pointermove', { bubbles: true, clientX: -1e5, clientY: -1e5, pointerType: ev.pointerType }),
+        );
+      });
+    };
+    el.addEventListener('pointerup', onPointerUp);
+    return () => el.removeEventListener('pointerup', onPointerUp);
+  }, []);
+
   // Load the open country's region outlines once it has regional headlines.
   const hasRegions = regions.length > 0;
   useEffect(() => {
