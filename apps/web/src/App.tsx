@@ -1,12 +1,15 @@
 import { COUNTRIES, REGIONS, type CountryCode, type RegionCode } from '@news-globe/shared';
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { HeatLegend } from './components/HeatLegend';
+import { HistoryBar } from './components/HistoryBar';
+import { HistoryPanel } from './components/HistoryPanel';
 import { NewsPanel } from './components/NewsPanel';
 import { WorldPanel } from './components/WorldPanel';
 import { useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
-import { fetchCountry, fetchIndex, fetchRegion } from './lib/data';
+import { fetchArchive, fetchCountry, fetchIndex, fetchRegion } from './lib/data';
+import { entriesAt, runTimes, shiftDate, storiesAt, todayUtc } from './lib/history';
 import { formatRoute, parseRoute } from './lib/route';
 import { relativeTime } from './lib/time';
 
@@ -22,6 +25,9 @@ export function App() {
   const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(() => parseRoute(location.hash).region);
   // The cross-border stories panel (#world); never open together with a country.
   const [world, setWorld] = useState(() => parseRoute(location.hash).world);
+  // History mode: the UTC day shown and the run picked on its timeline; null is live.
+  const [historyDate, setHistoryDate] = useState<string | null>(null);
+  const [historyRun, setHistoryRun] = useState<string | null>(null);
   const [retryKey, setRetryKey] = useState(0);
   const [indexTick, setIndexTick] = useState(0);
   const [sheetFraction, setSheetFraction] = useState(0);
@@ -36,21 +42,43 @@ export function App() {
   const index = useAsync(fetchIndex, [indexTick, retryKey]);
   const indexData = index.status === 'ready' ? index.data : index.status === 'loading' ? index.previous : undefined;
 
-  const available = useMemo(
-    () => new Set((indexData?.countries ?? []).map((c) => c.code).filter((c) => COUNTRIES[c])),
-    [indexData],
+  // Today's file grows every run, so it is re-read with the index.
+  const today = todayUtc(now);
+  const archive = useAsync(historyDate ? (signal) => fetchArchive(historyDate, signal) : null, [
+    historyDate,
+    historyDate === today ? indexTick : 0,
+  ]);
+  const archiveDay = archive.status === 'ready' ? archive.data : undefined;
+  const runs = useMemo(() => (archiveDay ? runTimes(archiveDay) : []), [archiveDay]);
+  // A newly loaded day opens on its latest run.
+  useEffect(() => {
+    if (runs.length && (!historyRun || !runs.includes(historyRun))) setHistoryRun(runs.at(-1)!);
+  }, [runs, historyRun]);
+  const historyEntries = useMemo(
+    () => (archiveDay && historyRun && archiveDay.runs[historyRun] ? entriesAt(archiveDay, historyRun) : null),
+    [archiveDay, historyRun],
   );
 
-  const entries = useMemo(
+  const liveEntries = useMemo(
     () => new Map([...(indexData?.countries ?? []), ...(indexData?.regions ?? [])].map((e) => [e.code, e])),
     [indexData],
+  );
+  // In history mode the globe shows the picked run (nothing while it loads).
+  const entries = historyDate ? (historyEntries ?? new Map()) : liveEntries;
+
+  const available = useMemo(
+    () =>
+      historyDate
+        ? new Set([...entries.keys()].filter((c) => COUNTRIES[c]))
+        : new Set((indexData?.countries ?? []).map((c) => c.code).filter((c) => COUNTRIES[c])),
+    [historyDate, entries, indexData],
   );
 
   // Regions of the open country that have a file, in REGIONS order.
   const regions = useMemo(() => {
-    const withData = new Set((indexData?.regions ?? []).map((r) => r.code));
+    const withData = historyDate ? new Set(entries.keys()) : new Set((indexData?.regions ?? []).map((r) => r.code));
     return Object.values(REGIONS).filter((r) => r.country === selected && withData.has(r.code));
-  }, [indexData, selected]);
+  }, [historyDate, entries, indexData, selected]);
   const region = selectedRegion ? REGIONS[selectedRegion] : undefined;
 
   // Selecting a country (or closing) always starts from its national view.
@@ -115,12 +143,14 @@ export function App() {
     ? indexData?.regions?.find((r) => r.code === selectedRegion)?.updatedAt
     : indexData?.countries.find((c) => c.code === selected)?.updatedAt;
   const country = useAsync(
-    selectedRegion
+    historyDate
+      ? null
+      : selectedRegion
       ? (signal) => fetchRegion(selectedRegion, signal)
       : selected
         ? (signal) => fetchCountry(selected, signal)
         : null,
-    [selected, selectedRegion, selectedUpdatedAt, retryKey],
+    [historyDate, selected, selectedRegion, selectedUpdatedAt, retryKey],
   );
 
   const showToast = useCallback((message: string) => {
@@ -132,7 +162,7 @@ export function App() {
   // A link may name a country or region that has no data (yet). Once the index is in,
   // fall back to the nearest view that has some, replacing the entry so Back doesn't return to it.
   useEffect(() => {
-    if (!indexData || !selected) return;
+    if (!indexData || !selected || historyDate) return;
     if (!available.has(selected)) {
       history.replaceState(null, '', location.pathname + location.search);
       selectCountry(null);
@@ -141,7 +171,21 @@ export function App() {
       history.replaceState(null, '', formatRoute({ country: selected, region: null, world: false }));
       setSelectedRegion(null);
     }
-  }, [indexData, available, regions, selected, selectedRegion, selectCountry, showToast]);
+  }, [indexData, available, regions, selected, selectedRegion, selectCountry, showToast, historyDate]);
+
+  const openHistory = useCallback(() => {
+    setWorld(false);
+    setHistoryRun(null);
+    setHistoryDate(todayUtc());
+  }, []);
+  const closeHistory = useCallback(() => {
+    setHistoryDate(null);
+    setHistoryRun(null);
+  }, []);
+  const shiftHistoryDay = useCallback((days: number) => {
+    setHistoryRun(null);
+    setHistoryDate((d) => (d ? shiftDate(d, days) : d));
+  }, []);
 
   const handleUnavailable = useCallback((name: string) => showToast(`${name} — coming soon`), [showToast]);
   const handleClose = useCallback(() => selectCountry(null), [selectCountry]);
@@ -150,7 +194,7 @@ export function App() {
   const meta = selected ? COUNTRIES[selected] : undefined;
 
   return (
-    <div className={`app${meta || world ? ' has-panel' : ''}`}>
+    <div className={`app${world || (meta && (!historyDate || (archiveDay && historyRun))) ? ' has-panel' : ''}`}>
       <header className="topbar">
         <div className="brand">
           <h1>News Globe</h1>
@@ -170,7 +214,15 @@ export function App() {
           </p>
         </div>
         <nav className="country-picker" aria-label="Countries">
-          {worldStories.length > 0 && (
+          <button
+            type="button"
+            className="chip chip-world"
+            aria-pressed={historyDate !== null}
+            onClick={() => (historyDate ? closeHistory() : openHistory())}
+          >
+            History
+          </button>
+          {worldStories.length > 0 && !historyDate && (
             <button
               type="button"
               className="chip chip-world"
@@ -211,12 +263,41 @@ export function App() {
             arcs={arcs}
           />
         </Suspense>
-        {!meta && !world && <p className="hint">Tap a highlighted country to see its top headlines</p>}
+        {!meta && !world && !historyDate && <p className="hint">Tap a highlighted country to see its top headlines</p>}
         {/* An index from before the ingest wrote counts shades everything alike: no key then. */}
-        {!meta && !world && indexData?.countries.some((c) => c.topOutlets !== undefined) && <HeatLegend />}
+        {!meta && !world && !(historyDate && isMobile) && [...entries.values()].some((e) => e.topOutlets !== undefined) && (
+          <HeatLegend />
+        )}
+        {historyDate && (
+          <HistoryBar
+            date={historyDate}
+            runs={runs}
+            runAt={historyRun}
+            status={
+              archive.status === 'error' ? 'error' : archive.status === 'ready' ? (archive.data ? 'ready' : 'empty') : 'loading'
+            }
+            canGoForward={historyDate < today}
+            onShiftDay={shiftHistoryDay}
+            onRun={setHistoryRun}
+            onLive={closeHistory}
+          />
+        )}
       </main>
 
-      {meta && (
+      {meta && historyDate && archiveDay && historyRun && (
+        <HistoryPanel
+          unit={region ?? meta}
+          countryName={region ? meta.name : undefined}
+          onBackToCountry={() => setSelectedRegion(null)}
+          stories={storiesAt(archiveDay, historyRun, selectedRegion ?? meta.code)}
+          date={historyDate}
+          runAt={historyRun}
+          isMobile={isMobile}
+          onClose={handleClose}
+          onSheetChange={setSheetFraction}
+        />
+      )}
+      {meta && !historyDate && (
         <NewsPanel
           country={meta}
           region={region}

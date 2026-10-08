@@ -1,0 +1,63 @@
+/** "14:05" in the viewer's time zone. */
+export const clock = (iso: string) => new Date(iso).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+/** "Wed 8 Oct" for a UTC `YYYY-MM-DD` (archive days are UTC days). */
+export const dayLabel = (date: string) =>
+  new Date(`${date}T12:00:00Z`).toLocaleDateString([], { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' });
+
+export interface HistoryBarProps {
+  date: string;
+  /** The day's run times, oldest first; empty while loading or when the day has none. */
+  runs: string[];
+  runAt: string | null;
+  status: 'loading' | 'ready' | 'empty' | 'error';
+  canGoForward: boolean;
+  onShiftDay: (days: number) => void;
+  onRun: (runAt: string) => void;
+  onLive: () => void;
+}
+
+/** Day arrows and a slider over the day's hourly runs: the globe shows the run picked. */
+export function HistoryBar({ date, runs, runAt, status, canGoForward, onShiftDay, onRun, onLive }: HistoryBarProps) {
+  const index = runAt ? runs.indexOf(runAt) : -1;
+  return (
+    <div className="history-bar" role="group" aria-label="History">
+      <div className="history-day">
+        <button type="button" className="icon-btn" onClick={() => onShiftDay(-1)} aria-label="Previous day">
+          ‹
+        </button>
+        <span className="history-date">{dayLabel(date)}</span>
+        <button
+          type="button"
+          className="icon-btn"
+          onClick={() => onShiftDay(1)}
+          disabled={!canGoForward}
+          aria-label="Next day"
+        >
+          ›
+        </button>
+      </div>
+      {status === 'ready' && runs.length > 0 ? (
+        <label className="history-time">
+          <input
+            type="range"
+            min={0}
+            max={runs.length - 1}
+            step={1}
+            value={Math.max(index, 0)}
+            onChange={(e) => onRun(runs[Number(e.target.value)]!)}
+            aria-valuetext={runAt ? clock(runAt) : undefined}
+          />
+          <span className="history-clock">{runAt ? clock(runAt) : ''}</span>
+        </label>
+      ) : (
+        <span className="history-note">
+          {status === 'loading' ? 'Loading…' : status === 'error' ? 'Couldn’t load this day' : 'No history for this day'}
+        </span>
+      )}
+      <button type="button" className="chip chip-small" onClick={onLive}>
+        Live
+      </button>
+    </div>
+  );
+}
