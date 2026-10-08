@@ -27,7 +27,7 @@ const ARCHIVE_KEY = /^archive\/(\d{4}-\d{2}-\d{2})\.json$/;
 const PAST_DAY_MAX_AGE_S = 86_400;
 
 /** Files the hourly workflow derives (packages/ingest/src/derived.ts), stored gzipped under their own KV key. */
-const DERIVED: Record<string, string> = { 'trends.json': 'trends', 'search.json': 'search' };
+const DERIVED: Record<string, string> = { 'trends.json': 'trends', 'search.json': 'search', 'today.json': 'today' };
 
 /** A gzipped KV value, sent as stored: the browser inflates it, the Worker never does. */
 async function serveGzipped(env: Env, kvKey: string, maxAge: number, head: boolean): Promise<Response> {

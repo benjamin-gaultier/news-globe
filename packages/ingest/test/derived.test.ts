@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import type { Article, StoryCluster } from '@news-globe/shared';
+import type { Article, ClusterTrend, StoryCluster, TrendsFile } from '@news-globe/shared';
 import { addRun } from '../src/archive';
-import { buildSearch, buildTrends } from '../src/derived';
+import { buildSearch, buildToday, buildTrends } from '../src/derived';
 import { buildCluster } from '../src/rank';
 import { article } from './helpers';
 
@@ -59,5 +59,57 @@ describe('buildSearch', () => {
       ['FR', 'strike', 1],
       ['FR-BRE', 'storm', 1],
     ]);
+  });
+});
+
+describe('buildToday', () => {
+  const runAt = T(14);
+  const story = (code: string, title: string, outlets: number): StoryCluster => ({
+    ...cluster(article(`outlet-${code}-${title}`, title, T(13))),
+    outletCount24h: outlets,
+  });
+  const trendsOf = (units: Record<string, Record<string, Partial<ClusterTrend>>>): TrendsFile => ({
+    schemaVersion: 1,
+    runAt,
+    runs: [T(13), runAt],
+    units: Object.fromEntries(
+      Object.entries(units).map(([u, ts]) => [
+        u,
+        Object.fromEntries(Object.entries(ts).map(([id, t]) => [id, { ranks: [null, 1], firstSeen: runAt, state: null, ...t }])),
+      ]),
+    ),
+    change: {},
+  });
+
+  it('lists the most widely covered national stories, at most two per country', () => {
+    const fr = [story('FR', 'a', 9), story('FR', 'b', 8), story('FR', 'c', 7)];
+    const us = [story('US', 'd', 5)];
+    const bre = [story('FR-BRE', 'regional', 20)];
+    const today = buildToday(trendsOf({}), [
+      { code: 'FR', clusters: fr },
+      { code: 'US', clusters: us },
+      { code: 'FR-BRE', clusters: bre },
+    ]);
+    expect(today.top.map((s) => s.title)).toEqual(['a', 'b', 'd']);
+    expect(today.top[0]).toMatchObject({ unit: 'FR', clusterId: fr[0]!.id, rank: 1, outlets: 9, firstSeen: runAt, state: null });
+    expect(today).toMatchObject({ runAt, countries: 2, stories: 4 });
+  });
+
+  it('lists new and rising stories not already on top, and stories ranked high all day', () => {
+    const fr = [story('FR', 'top', 9), story('FR', 'second', 8), story('FR', 'rising', 2)];
+    const de = [story('DE', 'big', 10), story('DE', 'bigger', 9), story('DE', 'since morning', 3), story('DE', 'new', 1)];
+    const trends = trendsOf({
+      FR: { [fr[0]!.id]: { state: 'rising' }, [fr[2]!.id]: { state: 'rising' } },
+      DE: { [de[2]!.id]: { firstSeen: T(6) }, [de[3]!.id]: { state: 'new' } },
+    });
+    const today = buildToday(trends, [
+      { code: 'FR', clusters: fr },
+      { code: 'DE', clusters: de },
+    ]);
+    // "top" (already in the top list) stays out of Rising.
+    expect(today.rising.map((s) => s.title)).toEqual(['rising', 'new']);
+    expect(today.rising.map((s) => s.state)).toEqual(['rising', 'new']);
+    // #3 since 06:00, 8 h before the run: lasting. The others came in at 14:00 (or rank lower).
+    expect(today.lasting.map((s) => s.title)).toEqual(['since morning']);
   });
 });

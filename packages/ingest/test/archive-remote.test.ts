@@ -1,6 +1,6 @@
 import { gunzipSync } from 'node:zlib';
 import { describe, expect, it } from 'vitest';
-import type { ArchiveDay, CountryFile, IndexFile, SearchFile, TrendsFile } from '@news-globe/shared';
+import type { ArchiveDay, CountryFile, IndexFile, SearchFile, TodayFile, TrendsFile } from '@news-globe/shared';
 import { encodeBundle } from '@news-globe/shared/bundle';
 import { archiveFromKv } from '../src/archive-remote';
 import { buildCluster } from '../src/rank';
@@ -54,12 +54,14 @@ describe('archiveFromKv', () => {
     expect(Object.keys(day(values, '2026-10-08').runs)).toEqual(['2026-10-08T09:00:00.000Z']);
     expect(day(values, '2026-10-08').stories[0]).toMatchObject({ unit: 'FR', title: 'Budget adopté' });
 
-    // Trends and search for the same run, gzipped beside it.
+    // Trends, search and Today for the same run, gzipped beside it.
     const trends = JSON.parse(gunzipSync(values.get('trends')!).toString('utf8')) as TrendsFile;
     expect(trends.runAt).toBe('2026-10-08T09:00:00.000Z');
     expect(Object.keys(trends.units)).toEqual(['FR']);
     const search = JSON.parse(gunzipSync(values.get('search')!).toString('utf8')) as SearchFile;
     expect(search.items).toEqual([['FR', 'Budget adopté', 1]]);
+    const today = JSON.parse(gunzipSync(values.get('today')!).toString('utf8')) as TodayFile;
+    expect(today.top.map((s) => s.title)).toEqual(['Budget adopté']);
 
     // Same run again (the workflow ran before the next ingest): no write.
     kv.calls.length = 0;

@@ -48,6 +48,15 @@ describe('formatRoute', () => {
   });
 });
 
+describe('today route', () => {
+  it('opens the Today page, live only', () => {
+    expect(parseRoute('#today')).toEqual({ ...EMPTY_ROUTE, today: true });
+    expect(parseRoute('#Today@2026-10-08')).toEqual({ ...EMPTY_ROUTE, at: '2026-10-08' });
+    expect(formatRoute({ ...EMPTY_ROUTE, today: true })).toBe('#today');
+    expect(formatRoute({ ...EMPTY_ROUTE, today: true, at: '2026-10-08' })).toBe('#@2026-10-08');
+  });
+});
+
 describe('story routes', () => {
   it('opens a story’s page, keeping the id’s case', () => {
     expect(parseRoute('#FR/EAskgXdmb1-3')).toEqual({ country: 'FR', region: null, world: false, at: null, story: 'EAskgXdmb1-3' });

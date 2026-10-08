@@ -7,6 +7,7 @@ import {
   type IndexFile,
   type RegionCode,
   type SearchFile,
+  type TodayFile,
   type TrendsFile,
 } from '@news-globe/shared';
 
@@ -51,6 +52,9 @@ async function fetchDerived<T extends { schemaVersion: number }>(path: string, s
 
 /** New / Rising badges and rank histories for the latest run. */
 export const fetchTrends = (signal?: AbortSignal) => fetchDerived<TrendsFile>('trends.json', signal);
+
+/** The Today page: the run's biggest, rising and lasting stories. */
+export const fetchToday = (signal?: AbortSignal) => fetchDerived<TodayFile>('today.json', signal);
 
 /** Every headline of the latest run, for search. */
 export const fetchSearch = (signal?: AbortSignal) => fetchDerived<SearchFile>('search.json', signal);
