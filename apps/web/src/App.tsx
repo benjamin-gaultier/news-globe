@@ -1,9 +1,10 @@
 import { COUNTRIES, REGIONS, type CountryCode, type RegionCode } from '@news-globe/shared';
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { HeatLegend, type Shading } from './components/HeatLegend';
-import { HistoryBar } from './components/HistoryBar';
+import { ClockIcon, HistoryBar, LiveBar } from './components/HistoryBar';
 import { HistoryPanel } from './components/HistoryPanel';
 import { NewsPanel } from './components/NewsPanel';
+import { SearchBox } from './components/SearchBox';
 import { SearchPanel } from './components/SearchPanel';
 import { WorldPanel } from './components/WorldPanel';
 import { useAsync } from './hooks/useAsync';
@@ -27,8 +28,10 @@ export function App() {
   const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(() => parseRoute(location.hash).region);
   // The cross-border stories panel (#world); never open together with a country.
   const [world, setWorld] = useState(() => parseRoute(location.hash).world);
-  // The search panel, and the headline a search result opened (scrolled to and highlighted).
+  // The search box's text, its results panel, and the headline a result opened (scrolled to and highlighted).
+  const [query, setQuery] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
+  const searchInput = useRef<HTMLInputElement>(null);
   const [focusTitle, setFocusTitle] = useState<string | null>(null);
   // History mode: the UTC day shown and the run picked on its timeline; null is live.
   const [historyDate, setHistoryDate] = useState<string | null>(() => parseRoute(location.hash).at?.slice(0, 10) ?? null);
@@ -122,7 +125,7 @@ export function App() {
     setWorld(false);
     setSearchOpen(true);
   }, []);
-  /** A search result: its country or region panel, on that story. */
+  /** A search result: its country or region panel, live, on that story. */
   const openStory = useCallback((unit: string, title: string) => {
     const region = REGIONS[unit];
     setSelected(region?.country ?? unit);
@@ -130,20 +133,38 @@ export function App() {
     setWorld(false);
     setSearchOpen(false);
     setFocusTitle(title);
+    setHistoryDate(null);
+    setHistoryRun(null);
+  }, []);
+  // Results show while the box has text; emptying it closes them.
+  const changeQuery = useCallback(
+    (text: string) => {
+      setQuery(text);
+      if (text.trim()) openSearch();
+      else setSearchOpen(false);
+    },
+    [openSearch],
+  );
+  const reopenSearch = useCallback(() => {
+    if (query.trim() && !searchOpen) openSearch();
+  }, [query, searchOpen, openSearch]);
+  const clearSearch = useCallback(() => {
+    setQuery('');
+    setSearchOpen(false);
   }, []);
 
-  // "/" opens search, as on many sites, unless the user is typing somewhere.
+  // "/" jumps to the search box, as on many sites, unless the user is typing somewhere.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement | null;
       if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
       if (target?.closest('input, textarea, select, [contenteditable="true"]')) return;
       e.preventDefault();
-      openSearch();
+      searchInput.current?.focus();
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [openSearch]);
+  }, []);
   const worldStories = useMemo(() => indexData?.world ?? [], [indexData]);
 
   // While the world panel is open, arcs join the countries of each cross-border story.
@@ -267,10 +288,32 @@ export function App() {
   const retry = useCallback(() => setRetryKey((k) => k + 1), []);
   const meta = selected ? COUNTRIES[selected] : undefined;
 
+  // Switching the same place's panel between live and History swaps the panel: no slide-in then.
+  const panelUnit = meta ? (selectedRegion ?? meta.code) : null;
+  const shownUnit = useRef<string | null>(null);
+  const animatePanel = panelUnit === null || shownUnit.current !== panelUnit;
+  useEffect(() => {
+    shownUnit.current = panelUnit;
+  }, [panelUnit]);
+
+  const historyStatus =
+    archive.status === 'error' ? 'error' : archive.status === 'ready' ? (archive.data ? 'ready' : 'empty') : 'loading';
+  // Above the headlines while a place is open; over the globe otherwise.
+  const historyBar = historyDate && (
+    <HistoryBar
+      date={historyDate}
+      runs={runs}
+      runAt={historyRun}
+      status={historyStatus}
+      canGoForward={historyDate < today}
+      onShiftDay={shiftHistoryDay}
+      onRun={setHistoryRun}
+      onLive={closeHistory}
+    />
+  );
+
   return (
-    <div
-      className={`app${world || (searchOpen && !meta) || (meta && (!historyDate || (archiveDay && historyRun))) ? ' has-panel' : ''}`}
-    >
+    <div className={`app${world || (searchOpen && !meta) || meta ? ' has-panel' : ''}`}>
       <header className="topbar">
         <div className="brand">
           <h1>News Globe</h1>
@@ -289,26 +332,17 @@ export function App() {
             )}
           </p>
         </div>
+        <SearchBox ref={searchInput} query={query} onQueryChange={changeQuery} onFocus={reopenSearch} onClear={clearSearch} />
+        <button
+          type="button"
+          className="tool-btn"
+          aria-pressed={historyDate !== null}
+          onClick={() => (historyDate ? closeHistory() : openHistory())}
+        >
+          <ClockIcon />
+          <span>History</span>
+        </button>
         <nav className="country-picker" aria-label="Countries">
-          {!historyDate && (
-            <button
-              type="button"
-              className="chip chip-world"
-              aria-pressed={searchOpen}
-              aria-keyshortcuts="/"
-              onClick={() => (searchOpen ? selectCountry(null) : openSearch())}
-            >
-              Search
-            </button>
-          )}
-          <button
-            type="button"
-            className="chip chip-world"
-            aria-pressed={historyDate !== null}
-            onClick={() => (historyDate ? closeHistory() : openHistory())}
-          >
-            History
-          </button>
           {worldStories.length > 0 && !historyDate && (
             <button
               type="button"
@@ -361,30 +395,26 @@ export function App() {
             onShadingChange={canShadeByChange ? setShading : undefined}
           />
         )}
-        {historyDate && (
-          <HistoryBar
-            date={historyDate}
-            runs={runs}
-            runAt={historyRun}
-            status={
-              archive.status === 'error' ? 'error' : archive.status === 'ready' ? (archive.data ? 'ready' : 'empty') : 'loading'
-            }
-            canGoForward={historyDate < today}
-            onShiftDay={shiftHistoryDay}
-            onRun={setHistoryRun}
-            onLive={closeHistory}
-          />
-        )}
+        {!meta && historyBar}
       </main>
 
-      {meta && historyDate && archiveDay && historyRun && (
+      {meta && historyDate && (
         <HistoryPanel
           unit={region ?? meta}
           countryName={region ? meta.name : undefined}
           onBackToCountry={() => setSelectedRegion(null)}
-          stories={storiesAt(archiveDay, historyRun, selectedRegion ?? meta.code)}
+          stories={archiveDay && runOfDay ? storiesAt(archiveDay, runOfDay, selectedRegion ?? meta.code) : null}
+          note={
+            historyStatus === 'error'
+              ? 'Couldn’t load this day.'
+              : historyStatus === 'empty' || (archiveDay && !runs.length)
+                ? 'No history for this day.'
+                : 'Loading…'
+          }
           date={historyDate}
-          runAt={historyRun}
+          runAt={runOfDay}
+          timeline={historyBar}
+          animate={animatePanel}
           isMobile={isMobile}
           onClose={handleClose}
           onSheetChange={setSheetFraction}
@@ -405,10 +435,12 @@ export function App() {
           onOpenCountry={openCountry}
           trends={unitTrends}
           focusTitle={focusTitle}
+          timeline={<LiveBar onHistory={openHistory} />}
+          animate={animatePanel}
         />
       )}
       {searchOpen && !meta && (
-        <SearchPanel isMobile={isMobile} onClose={handleClose} onSheetChange={setSheetFraction} onOpenStory={openStory} />
+        <SearchPanel query={query} isMobile={isMobile} onClose={handleClose} onSheetChange={setSheetFraction} onOpenStory={openStory} />
       )}
       {world && (
         <WorldPanel

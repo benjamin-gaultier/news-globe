@@ -57,25 +57,25 @@ describe('SearchPanel', () => {
   });
   afterEach(() => vi.unstubAllGlobals());
 
-  it('searches as you type and opens a result', async () => {
+  it('shows the results for the query and opens one', async () => {
     const onOpenStory = vi.fn();
-    render(<SearchPanel isMobile={false} onClose={vi.fn()} onSheetChange={vi.fn()} onOpenStory={onOpenStory} />);
-    const box = screen.getByRole('searchbox', { name: /Search every country/ });
-    expect(document.activeElement).toBe(box);
-    await screen.findByText('Searches the current headlines of every country and region.');
+    const props = { isMobile: false, onClose: vi.fn(), onSheetChange: vi.fn(), onOpenStory };
+    const { rerender } = render(<SearchPanel query="" {...props} />);
+    await screen.findByText('Type a name, a place or a topic.');
 
-    fireEvent.change(box, { target: { value: 'senat' } });
+    rerender(<SearchPanel query="senat" {...props} />);
+    expect(screen.getByText('Current headlines matching “senat”')).toBeTruthy();
     const france = await screen.findByRole('region', { name: 'France' });
     fireEvent.click(within(france).getByRole('button', { name: /Le Sénat adopte le budget/ }));
     expect(onOpenStory).toHaveBeenCalledWith('FR', 'Le Sénat adopte le budget');
 
-    fireEvent.change(box, { target: { value: 'xyzzy' } });
+    rerender(<SearchPanel query="xyzzy" {...props} />);
     expect(screen.getByText('No current headline matches “xyzzy”.')).toBeTruthy();
   });
 
   it('says so before the workflow has written the index', async () => {
     vi.stubGlobal('fetch', vi.fn(async () => new Response('Not found', { status: 404 })));
-    render(<SearchPanel isMobile={false} onClose={vi.fn()} onSheetChange={vi.fn()} onOpenStory={vi.fn()} />);
+    render(<SearchPanel query="budget" isMobile={false} onClose={vi.fn()} onSheetChange={vi.fn()} onOpenStory={vi.fn()} />);
     await waitFor(() => expect(screen.getByText('Search isn’t available yet.')).toBeTruthy());
   });
 });

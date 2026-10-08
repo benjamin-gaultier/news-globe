@@ -1,4 +1,5 @@
 import type { ArchiveStory } from '@news-globe/shared';
+import type { ReactNode } from 'react';
 import { clock, dayLabel } from './HistoryBar';
 import { PanelShell } from './PanelShell';
 
@@ -8,9 +9,15 @@ export interface HistoryPanelProps {
   /** Crumb back to the country while a region is open. */
   countryName?: string;
   onBackToCountry?: () => void;
-  stories: ArchiveStory[];
+  /** The stories at the run picked; null while the day loads or when it has no history. */
+  stories: ArchiveStory[] | null;
+  /** Shown instead of the stories while there are none to show. */
+  note: string;
   date: string;
-  runAt: string;
+  runAt: string | null;
+  /** The timeline, above the stories. */
+  timeline: ReactNode;
+  animate?: boolean;
   isMobile: boolean;
   onClose: () => void;
   onSheetChange: (fraction: number) => void;
@@ -22,8 +29,11 @@ export function HistoryPanel({
   countryName,
   onBackToCountry,
   stories,
+  note,
   date,
   runAt,
+  timeline,
+  animate,
   isMobile,
   onClose,
   onSheetChange,
@@ -37,7 +47,7 @@ export function HistoryPanel({
       )}
       <h2 id="panel-title">{unit.name}</h2>
       <p className="panel-sub">
-        Top stories at {clock(runAt)} · {dayLabel(date)}
+        {runAt ? <>Top stories at {clock(runAt)} · {dayLabel(date)}</> : dayLabel(date)}
       </p>
     </>
   );
@@ -46,11 +56,17 @@ export function HistoryPanel({
       heading={heading}
       sheetKey={`history:${unit.code}`}
       scrollKey={`${unit.code}@${runAt}`}
+      toolbar={timeline}
+      animate={animate}
       isMobile={isMobile}
       onClose={onClose}
       onSheetChange={onSheetChange}
     >
-      {stories.length === 0 ? (
+      {stories === null ? (
+        <div className="panel-message">
+          <p>{note}</p>
+        </div>
+      ) : stories.length === 0 ? (
         <div className="panel-message">
           <p>No headlines for {unit.name} at this time.</p>
         </div>

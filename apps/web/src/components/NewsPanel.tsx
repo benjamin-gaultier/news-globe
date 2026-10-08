@@ -1,5 +1,5 @@
 import type { ClusterTrend, CountryCode, CountryFile, CountryMeta, RegionCode, RegionMeta } from '@news-globe/shared';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import type { AsyncState } from '../hooks/useAsync';
 import { relativeTime } from '../lib/time';
 import { canTranslateOnDevice, getTranslator, TARGET_LANGUAGE } from '../lib/translate';
@@ -26,6 +26,9 @@ interface NewsPanelProps {
   trends?: Record<string, ClusterTrend>;
   /** Headline of the story a search result opened, to scroll to and highlight. */
   focusTitle?: string | null;
+  /** The bar above the headlines (live, and the way into History). */
+  timeline?: ReactNode;
+  animate?: boolean;
 }
 
 function Skeleton() {
@@ -136,6 +139,8 @@ export function NewsPanel({
   onOpenCountry,
   trends,
   focusTitle,
+  timeline,
+  animate,
 }: NewsPanelProps) {
   const view = region ?? country;
   const [languageMode, setLanguageMode] = useState<LanguageMode>(readLanguageMode);
@@ -203,6 +208,8 @@ export function NewsPanel({
       heading={heading}
       sheetKey={country.code}
       scrollKey={view.code}
+      toolbar={timeline}
+      animate={animate}
       isMobile={isMobile}
       onClose={onClose}
       onSheetChange={onSheetChange}

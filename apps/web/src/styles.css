@@ -230,21 +230,80 @@ button {
 
 /* ---------- Search ---------- */
 
-.search-input {
+/* The top bar's search box: a pill with an icon, wider than any chip. */
+.search-box {
+  grid-area: search;
+  position: relative;
+  display: flex;
+  align-items: center;
   width: 100%;
-  margin-top: 10px;
-  padding: 9px 12px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  background: var(--bg);
-  color: var(--text);
-  font: inherit;
-  font-size: 1rem;
+  margin: 0;
 }
 
-.search-input:focus {
-  outline: 2px solid var(--accent);
-  outline-offset: 1px;
+.search-icon {
+  position: absolute;
+  /* Above the input, whose backdrop blur paints it in its own layer. */
+  z-index: 1;
+  left: 15px;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.search-box input {
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 40px 9px 40px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 999px;
+  background: rgba(13, 22, 38, 0.92);
+  color: var(--text);
+  font: inherit;
+  /* 16px or more: iOS doesn't zoom in on focus. */
+  font-size: 1rem;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+}
+
+.search-box input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-box input:hover {
+  border-color: rgba(148, 163, 184, 0.5);
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(63, 167, 255, 0.25);
+}
+
+.search-box:focus-within .search-icon {
+  color: var(--accent);
+}
+
+/* The "/" shortcut hint, on devices with a keyboard; hidden once there is text. */
+.search-key {
+  position: absolute;
+  z-index: 1;
+  right: 12px;
+  display: none;
+  min-width: 20px;
+  padding: 0 6px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 0.75rem;
+  line-height: 18px;
+  text-align: center;
+  pointer-events: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .search-box input:placeholder-shown:not(:focus) ~ .search-key {
+    display: block;
+  }
 }
 
 .search-group {
@@ -290,12 +349,39 @@ button {
 
 /* ---------- History ---------- */
 
-/* Phones: under the top bar, clear of the bottom sheet. From 768px: bottom centre. */
+/* The History button in the top bar: a tool, not a place, so not a chip. */
+.tool-btn {
+  grid-area: tool;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 42px;
+  padding: 0 14px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 10px;
+  background: rgba(13, 22, 38, 0.92);
+  font-size: 0.9rem;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+}
+
+.tool-btn:hover {
+  border-color: var(--accent);
+}
+
+.tool-btn[aria-pressed='true'] {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #04121f;
+  font-weight: 600;
+}
+
+/* Over the globe when no place is open: bottom centre. In a panel: above the headlines. */
 .history-bar {
   position: absolute;
   left: 16px;
   right: 16px;
-  top: 150px;
+  bottom: calc(20px + var(--safe-bottom));
   z-index: 2;
   display: flex;
   flex-wrap: wrap;
@@ -359,6 +445,77 @@ button {
   font-size: 0.85rem;
 }
 
+.panel .history-bar {
+  position: static;
+  z-index: auto;
+  padding: 8px 12px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  background: var(--surface-2);
+  backdrop-filter: none;
+  /* Undo the floating bar's desktop placement. */
+  translate: none;
+  width: auto;
+  /* The day and Live on one line, the slider across the panel under them. */
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    'day . live'
+    'time time time';
+  gap: 4px 12px;
+}
+
+.panel .history-day {
+  grid-area: day;
+}
+
+.panel .history-time,
+.panel .history-note {
+  grid-area: time;
+  padding: 0 4px 4px;
+}
+
+.panel .history-bar > .chip {
+  grid-area: live;
+}
+
+.panel .history-live {
+  display: flex;
+}
+
+.history-live {
+  justify-content: space-between;
+}
+
+.live-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.2);
+}
+
+.history-open {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* The same place switching between live and History: no slide-in. */
+.panel.panel-quiet {
+  animation: none;
+}
+
 /* ---------- Cross-border stories ---------- */
 
 .chip-world {
@@ -417,11 +574,15 @@ button {
   grid-area: 1 / 1;
   align-self: start;
   z-index: 2;
-  display: flex;
-  flex-wrap: wrap;
+  /* Phones: name and History, then the search box, then the places. */
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    'brand tool'
+    'search search'
+    'places places';
   align-items: center;
-  justify-content: space-between;
-  gap: 8px 16px;
+  gap: 10px 12px;
   padding: max(12px, env(safe-area-inset-top)) 16px 12px;
   pointer-events: none;
   background: linear-gradient(to bottom, rgba(5, 11, 22, 0.85), rgba(5, 11, 22, 0));
@@ -444,7 +605,13 @@ button {
   color: var(--text-muted);
 }
 
+.brand {
+  grid-area: brand;
+  min-width: 0;
+}
+
 .country-picker {
+  grid-area: places;
   display: flex;
   gap: 6px;
   /* One scrollable row as the country list grows, instead of wrapping over the globe. */
@@ -851,6 +1018,16 @@ button {
 
   .topbar {
     padding: 18px 24px;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      'brand search tool'
+      'places places places';
+    column-gap: 20px;
+  }
+
+  .search-box {
+    justify-self: center;
+    max-width: 480px;
   }
 
   .brand h1 {
@@ -900,7 +1077,6 @@ button {
   }
 
   .history-bar {
-    top: auto;
     left: 50%;
     right: auto;
     bottom: calc(20px + var(--safe-bottom));
