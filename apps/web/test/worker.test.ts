@@ -107,6 +107,34 @@ describe('worker', () => {
     expect((await call('/data/countries/DE.json', e)).status).toBe(404);
   });
 
+  describe('derived files', () => {
+    const gz = new Uint8Array([0x1f, 0x8b, 8, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+
+    it('serves trends.json and search.json gzipped from their own keys', async () => {
+      for (const [path, key] of [
+        ['/data/trends.json', 'trends'],
+        ['/data/search.json', 'search'],
+      ] as const) {
+        const e = env({ [key]: gz });
+        const res = await call(path, e);
+        expect(res.status).toBe(200);
+        expect(res.headers.get('Content-Encoding')).toBe('gzip');
+        expect(res.headers.get('Cache-Control')).toBe('public, max-age=60');
+        expect(new Uint8Array(await res.arrayBuffer())).toEqual(gz);
+        expect(e.NEWS_DATA.get).toHaveBeenCalledWith(key, expect.objectContaining({ type: 'arrayBuffer' }));
+      }
+    });
+
+    it('404s before the workflow has written them', async () => {
+      expect((await call('/data/trends.json', env())).status).toBe(404);
+    });
+
+    it('never exposes other KV keys', async () => {
+      expect((await call('/data/trends', env({ trends: gz }))).status).toBe(404);
+      expect((await call('/data/bundle', env({ bundle: gz }))).status).toBe(404);
+    });
+  });
+
   describe('archive', () => {
     const gz = new Uint8Array([0x1f, 0x8b, 8, 0, 1, 2, 3]);
 

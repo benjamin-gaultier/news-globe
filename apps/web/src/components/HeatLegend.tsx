@@ -1,12 +1,45 @@
-import { COUNTRY_HEAT, HEAT_STEPS } from '../lib/heat';
+import { CHANGE_STEPS, COUNTRY_HEAT, HEAT_STEPS } from '../lib/heat';
 
-/** Key for the globe's shading: how many outlets cover each country's top story. */
-export function HeatLegend() {
+/** What the globe's shading shows: coverage of the top story, or how much changed this hour. */
+export type Shading = 'coverage' | 'change';
+
+const KEYS: Record<Shading, { caption: string; label: string; steps: readonly string[] }> = {
+  coverage: {
+    caption: 'Outlets on the top story',
+    label: 'Shading: outlets covering each country’s top story in the last 24 hours',
+    steps: HEAT_STEPS,
+  },
+  change: {
+    caption: 'New or rising in the top 5',
+    label: 'Shading: how many of each country’s top 5 stories are new or rising since the previous hour',
+    steps: CHANGE_STEPS,
+  },
+};
+
+/** Key for the globe's shading, with a switch between the two when `onShadingChange` is given. */
+export function HeatLegend({
+  shading = 'coverage',
+  onShadingChange,
+}: {
+  shading?: Shading;
+  onShadingChange?: (shading: Shading) => void;
+}) {
+  const key = KEYS[shading];
   return (
-    <figure className="heat-legend" aria-label="Shading: outlets covering each country’s top story in the last 24 hours">
-      <figcaption>Outlets on the top story</figcaption>
+    <figure className="heat-legend" aria-label={key.label}>
+      {onShadingChange && (
+        <div className="legend-modes" role="group" aria-label="Shade the globe by">
+          <button type="button" aria-pressed={shading === 'coverage'} onClick={() => onShadingChange('coverage')}>
+            Coverage
+          </button>
+          <button type="button" aria-pressed={shading === 'change'} onClick={() => onShadingChange('change')}>
+            Change
+          </button>
+        </div>
+      )}
+      <figcaption>{key.caption}</figcaption>
       <ol>
-        {HEAT_STEPS.map((label, i) => (
+        {key.steps.map((label, i) => (
           <li key={label}>
             <span className="swatch" style={{ background: COUNTRY_HEAT[i] }} />
             {label}

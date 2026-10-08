@@ -113,3 +113,32 @@ describe('StoryItem', () => {
     expect(screen.queryByRole('link', { name: /Read in English/ })).toBeNull();
   });
 });
+
+describe('StoryItem trends', () => {
+  const trendOf = (state: 'new' | 'rising' | null, ranks: (number | null)[]) => ({ ranks, firstSeen: minutesAgo(60), state });
+
+  it('badges new and rising stories', () => {
+    render(
+      <ul>
+        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpenCountry={vi.fn()} trend={trendOf('new', [null, 3])} />
+        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpenCountry={vi.fn()} trend={trendOf('rising', [7, 2])} />
+      </ul>,
+    );
+    expect(screen.getByText('New')).toBeTruthy();
+    expect(screen.getByText('↑ Rising')).toBeTruthy();
+  });
+
+  it('draws the rank history, gaps included, once there are two ranked runs', () => {
+    render(
+      <ul>
+        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpenCountry={vi.fn()} trend={trendOf(null, [2, null, 3, 1])} />
+        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpenCountry={vi.fn()} trend={trendOf(null, [null, 5])} />
+      </ul>,
+    );
+    const imgs = screen.getAllByRole('img');
+    expect(imgs.map((i) => i.getAttribute('aria-label'))).toEqual(["Rank over today's runs: #2, unranked, #3, #1"]);
+    // Two pieces either side of the gap: a lone point, then a line.
+    expect(imgs[0]!.querySelectorAll('polyline')).toHaveLength(1);
+    expect(screen.queryByText('New')).toBeNull();
+  });
+});

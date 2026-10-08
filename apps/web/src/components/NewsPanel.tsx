@@ -1,4 +1,4 @@
-import type { CountryCode, CountryFile, CountryMeta, RegionCode, RegionMeta } from '@news-globe/shared';
+import type { ClusterTrend, CountryCode, CountryFile, CountryMeta, RegionCode, RegionMeta } from '@news-globe/shared';
 import { useEffect, useState } from 'react';
 import type { AsyncState } from '../hooks/useAsync';
 import { relativeTime } from '../lib/time';
@@ -22,6 +22,8 @@ interface NewsPanelProps {
   onSheetChange: (fraction: number) => void;
   /** Opens another country, from a story's "Also in" links. */
   onOpenCountry: (code: CountryCode) => void;
+  /** Cluster id → trend, when trends.json describes the run shown. */
+  trends?: Record<string, ClusterTrend>;
 }
 
 function Skeleton() {
@@ -73,7 +75,8 @@ function Body({
   view,
   english,
   onOpenCountry,
-}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'onOpenCountry'> & {
+  trends,
+}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'onOpenCountry' | 'trends'> & {
   view: { code: string; name: string };
   english: boolean;
 }) {
@@ -102,7 +105,7 @@ function Body({
   return (
     <ol className="story-list">
       {data.clusters.map((c) => (
-        <StoryItem key={c.id} cluster={c} now={now} english={english} onOpenCountry={onOpenCountry} />
+        <StoryItem key={c.id} cluster={c} now={now} english={english} onOpenCountry={onOpenCountry} trend={trends?.[c.id]} />
       ))}
     </ol>
   );
@@ -120,6 +123,7 @@ export function NewsPanel({
   onRetry,
   onSheetChange,
   onOpenCountry,
+  trends,
 }: NewsPanelProps) {
   const view = region ?? country;
   const [languageMode, setLanguageMode] = useState<LanguageMode>(readLanguageMode);
@@ -208,7 +212,15 @@ export function NewsPanel({
           a translated copy of an article.
         </p>
       )}
-      <Body state={state} now={now} onRetry={onRetry} view={view} english={english} onOpenCountry={onOpenCountry} />
+      <Body
+        state={state}
+        now={now}
+        onRetry={onRetry}
+        view={view}
+        english={english}
+        onOpenCountry={onOpenCountry}
+        trends={trends}
+      />
       <p className="panel-footnote">
         Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets
         and ranked by how many outlets covered them in the last 24 hours.
