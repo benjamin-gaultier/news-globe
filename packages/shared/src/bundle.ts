@@ -45,3 +45,10 @@ export function readBundleEntry(bundle: Uint8Array, key: string): Uint8Array | n
   const start = newline + 1 + entry[0];
   return bundle.subarray(start, start + entry[1]);
 }
+
+/** The keys of every file in the bundle. */
+export function bundleKeys(bundle: Uint8Array): string[] {
+  const newline = bundle.indexOf(0x0a);
+  if (newline < 0) return [];
+  return Object.keys(JSON.parse(new TextDecoder().decode(bundle.subarray(0, newline))) as BundleIndex);
+}

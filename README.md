@@ -173,7 +173,7 @@ Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` a
 
 After each run (not `--offline`), [health.ts](packages/ingest/src/health.ts) writes `data/status.json`, which is published with the other files at `/data/status.json`. It lists every feed whose last request failed (an HTTP error, a timeout, or a body that would not parse) with its last status and last success, plus the **dark** countries and regions: those with no working feed left, whose headlines are therefore frozen.
 
-[.github/workflows/health.yml](.github/workflows/health.yml) checks the live site every hour, at :23 ([check-health.mjs](.github/scripts/check-health.mjs), plain Node). The run **fails** when:
+[.github/workflows/health.yml](.github/workflows/health.yml) checks the live site every hour, at :23, and then adds the latest run to the [history archive](#history-archive) ([check-health.mjs](.github/scripts/check-health.mjs), plain Node). The run **fails** when:
 
 - `index.json` is more than 3 hours old, meaning the Pi is offline or publishing broke, or
 - a country or region has been dark for more than 12 hours.
@@ -182,11 +182,14 @@ A failed scheduled run makes GitHub email whoever last changed the workflow's sc
 
 ### History archive
 
-After each run (not `--offline`), [archive.ts](packages/ingest/src/archive.ts) folds the ranked stories of every country and region into one file per UTC day, `data/archive/YYYY-MM-DD.json.gz`, and uploads it to the same KV namespace as `archive/YYYY-MM-DD`. Each story gets one record per day and unit (headline, link, outlet ids, first and last run that ranked it, best rank, peak outlet count). A cluster in a later run that shares any article with a story continues that story. Each run also stores its ranked list per unit, so the day can be replayed hour by hour. The format is `ArchiveDay` in [shared](packages/shared/src/index.ts). The Worker serves each day at `/data/archive/YYYY-MM-DD.json` for the History view, and the dev server serves `data/archive/` the same way.
+Once an hour, the [Health workflow](.github/workflows/health.yml) runs [archive-remote.ts](packages/ingest/src/archive-remote.ts) (`pnpm --filter @news-globe/ingest archive:remote`). It reads the published `bundle` from KV, and [archive.ts](packages/ingest/src/archive.ts) folds that run's ranked stories, for every country and region, into one gzipped file per UTC day, stored in the same KV namespace as `archive/YYYY-MM-DD`. Building it from the published data, rather than on the ingest machine, keeps history growing whatever code that machine runs. The Pi no longer archives.
 
-- Writes: the current day is re-uploaded after every run, at most 24 KV writes a day on top of the bundle's 24. Yesterday's file is also re-sent after midnight if its last upload failed (state in `data/.cache/archive-publish.json`).
+Each story gets one record per day and unit (headline, link, outlet ids, first and last run that ranked it, best rank, peak outlet count). A cluster in a later run that shares any article with a story continues that story. Each run also stores its ranked list per unit, so the day can be replayed hour by hour. The format is `ArchiveDay` in [shared](packages/shared/src/index.ts). The Worker serves each day at `/data/archive/YYYY-MM-DD.json` for the History view, and the dev server serves `data/archive/` the same way.
+
+- Writes: one KV write per new run, at most 24 a day on top of the bundle's 24. A run already in the day (the workflow ran twice before the next ingest) is not uploaded again.
+- Credentials: the workflow uses the `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` secrets of the deploy job. The token's "Edit Cloudflare Workers" template includes Workers KV Storage edit.
 - Size: a day built from the sample is about 0.7 MB gzipped, and real days, with new stories every hour, should be about 1.5–2 MB. KV's free 1 GB therefore holds roughly 18 months. Before that, move older days to R2 or start pruning.
-- Archiving never fails a run: errors are logged and the public files are published regardless. The Pi's local `data/archive/` is the primary copy, and KV is the backup the front end will read.
+- A failed archive step fails the hourly run, so GitHub emails, just like a failed health check.
 
 To update the Pi (e.g. after adding a country; merging it to `main` already redeployed the Worker): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile`. No restart is needed: the watcher starts every run as a fresh `cli.ts` process, so the next run uses the new code and feeds. Only a change to `watch.ts` itself, or to its schedule, needs `sudo systemctl restart news-globe-ingest`.
 
