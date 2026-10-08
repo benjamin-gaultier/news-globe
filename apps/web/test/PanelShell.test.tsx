@@ -1,0 +1,117 @@
+// @vitest-environment jsdom
+import { fireEvent, render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import { describe, expect, it, vi } from 'vitest';
+import { PanelShell, SHEET_SNAPS, type PanelShellProps } from '../src/components/PanelShell';
+
+function renderShell(props: Partial<PanelShellProps> = {}) {
+  const onClose = vi.fn();
+  const onSheetChange = vi.fn();
+  const all: PanelShellProps = {
+    heading: <h2 id="panel-title">France</h2>,
+    children: <p>Body</p>,
+    sheetKey: 'FR',
+    scrollKey: 'FR',
+    isMobile: false,
+    onClose,
+    onSheetChange,
+    ...props,
+  };
+  const view = render(<PanelShell {...all} />);
+  const panel = screen.getByRole('complementary', { name: 'France' });
+  const header = panel.querySelector('.panel-header')!;
+  return { ...view, panel, header, onClose, onSheetChange, rerender: (p: Partial<PanelShellProps>) => view.rerender(<PanelShell {...all} {...p} />) };
+}
+
+/** Drag the sheet header from y=`from` to y=`to` (screen pixels). */
+function drag(header: Element, from: number, to: number) {
+  fireEvent.pointerDown(header, { clientY: from, pointerId: 1 });
+  fireEvent.pointerMove(header, { clientY: to, pointerId: 1 });
+  fireEvent.pointerUp(header, { clientY: to, pointerId: 1 });
+}
+
+describe('PanelShell', () => {
+  it('is a side panel labelled by its heading on desktop', () => {
+    const { panel, onSheetChange } = renderShell();
+    expect(panel.getAttribute('style')).toBeNull();
+    expect(screen.getByText('Body')).toBeTruthy();
+    expect(onSheetChange).toHaveBeenLastCalledWith(0);
+  });
+
+  it('closes from its button and from Escape', async () => {
+    const { onClose } = renderShell();
+    await userEvent.click(screen.getByRole('button', { name: 'Close headlines' }));
+    await userEvent.keyboard('{Escape}');
+    await userEvent.keyboard('a');
+    expect(onClose).toHaveBeenCalledTimes(2);
+  });
+
+  it('opens as a half-height sheet on mobile, and a tap on the handle toggles full height', () => {
+    const { panel, header, onSheetChange } = renderShell({ isMobile: true });
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.half * 100}dvh`);
+    expect(onSheetChange).toHaveBeenLastCalledWith(SHEET_SNAPS.half);
+
+    drag(header, 500, 500);
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.full * 100}dvh`);
+    expect(onSheetChange).toHaveBeenLastCalledWith(SHEET_SNAPS.full);
+
+    drag(header, 500, 502);
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.half * 100}dvh`);
+  });
+
+  it('follows a drag, then snaps to the nearest height or closes when pulled low', () => {
+    window.innerHeight = 1000;
+    const { panel, header, onClose } = renderShell({ isMobile: true });
+    vi.spyOn(panel, 'getBoundingClientRect').mockReturnValue({ height: 520 } as DOMRect);
+
+    fireEvent.pointerDown(header, { clientY: 500, pointerId: 1 });
+    fireEvent.pointerMove(header, { clientY: 400, pointerId: 1 });
+    expect(panel.style.height).toBe('620px');
+    expect(panel.className).toContain('dragging');
+    // Never taller than the full snap.
+    fireEvent.pointerMove(header, { clientY: -1000, pointerId: 1 });
+    expect(panel.style.height).toBe('900px');
+    fireEvent.pointerUp(header, { clientY: -1000, pointerId: 1 });
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.full * 100}dvh`);
+    expect(panel.className).not.toContain('dragging');
+
+    // From full height, a drag to 600px is nearer half.
+    vi.mocked(panel.getBoundingClientRect).mockReturnValue({ height: 900 } as DOMRect);
+    drag(header, 100, 400);
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.half * 100}dvh`);
+    expect(onClose).not.toHaveBeenCalled();
+
+    vi.mocked(panel.getBoundingClientRect).mockReturnValue({ height: 520 } as DOMRect);
+    drag(header, 500, 900);
+    expect(onClose).toHaveBeenCalledOnce();
+  });
+
+  it('ignores drags on desktop', () => {
+    const { panel, header, onClose } = renderShell();
+    drag(header, 500, 1000);
+    expect(onClose).not.toHaveBeenCalled();
+    expect(panel.getAttribute('style')).toBeNull();
+  });
+
+  it('does not take a press on the close button for a tap on the handle', () => {
+    const { panel, header } = renderShell({ isMobile: true });
+    fireEvent.pointerDown(screen.getByRole('button', { name: 'Close headlines' }), { clientY: 500, pointerId: 1 });
+    fireEvent.pointerUp(header, { clientY: 500, pointerId: 1 });
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.half * 100}dvh`);
+  });
+
+  it('starts a new country at half height and scrolls a new view to the top', () => {
+    const scrollTo = vi.spyOn(Element.prototype, 'scrollTo');
+    const { panel, header, rerender } = renderShell({ isMobile: true });
+    drag(header, 500, 500);
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.full * 100}dvh`);
+    scrollTo.mockClear();
+
+    rerender({ scrollKey: 'FR-BRE' });
+    expect(scrollTo).toHaveBeenCalledWith({ top: 0 });
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.full * 100}dvh`);
+
+    rerender({ sheetKey: 'DE', scrollKey: 'DE' });
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.half * 100}dvh`);
+  });
+});
