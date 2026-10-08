@@ -1,5 +1,7 @@
 import { COUNTRIES, type CountryCode, type WorldStory } from '@news-globe/shared';
+import { useTranslated } from '../hooks/useTranslated';
 import { relativeTime } from '../lib/time';
+import { TARGET_LANGUAGE } from '../lib/translate';
 import { PanelShell } from './PanelShell';
 
 /** "warner bros" → "Warner Bros": names arrive folded to lower case. */
@@ -7,9 +9,20 @@ const titleCase = (name: string) => name.replace(/(^|\s)(\p{L})/gu, (_, space: s
 
 function WorldItem({ story, now, onOpenCountry }: { story: WorldStory; now: number; onOpenCountry: (code: CountryCode) => void }) {
   const countries = story.countries.filter((c) => COUNTRIES[c.code]);
+  // An English line for the story: an English-language country's headline when there is one,
+  // else the best-covered headline translated on-device where the browser can (see lib/translate.ts).
+  const english = countries.find((c) => c.language === TARGET_LANGUAGE);
+  const lead = countries[0];
+  const translated = useTranslated(english ? null : (lead?.title ?? null), lead?.language ?? TARGET_LANGUAGE, true);
+  const line = english?.title ?? (translated.translated ? translated.text : null);
   return (
     <li className="story world-story">
       <p className="world-names">{story.names.map(titleCase).join(' · ') || 'Same story'}</p>
+      {line && (
+        <p className="world-english" lang={TARGET_LANGUAGE}>
+          {line}
+        </p>
+      )}
       <p className="story-meta">
         In {countries.length} countries · latest {relativeTime(story.latestPublishedAt, now)}
       </p>

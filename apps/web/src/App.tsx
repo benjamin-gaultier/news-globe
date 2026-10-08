@@ -10,7 +10,7 @@ import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
 import { fetchArchive, fetchCountry, fetchIndex, fetchRegion } from './lib/data';
 import { entriesAt, runTimes, shiftDate, storiesAt, todayUtc } from './lib/history';
-import { formatRoute, parseRoute } from './lib/route';
+import { formatRoute, parseRoute, runForAt, runToAt } from './lib/route';
 import { relativeTime } from './lib/time';
 
 // three.js is most of the bundle; load it after the shell renders.
@@ -26,8 +26,10 @@ export function App() {
   // The cross-border stories panel (#world); never open together with a country.
   const [world, setWorld] = useState(() => parseRoute(location.hash).world);
   // History mode: the UTC day shown and the run picked on its timeline; null is live.
-  const [historyDate, setHistoryDate] = useState<string | null>(null);
+  const [historyDate, setHistoryDate] = useState<string | null>(() => parseRoute(location.hash).at?.slice(0, 10) ?? null);
   const [historyRun, setHistoryRun] = useState<string | null>(null);
+  // The run a link or Back/Forward asked for (`at`), picked once its day has loaded.
+  const wantedAt = useRef<string | null>(parseRoute(location.hash).at);
   const [retryKey, setRetryKey] = useState(0);
   const [indexTick, setIndexTick] = useState(0);
   const [sheetFraction, setSheetFraction] = useState(0);
@@ -48,11 +50,14 @@ export function App() {
     historyDate,
     historyDate === today ? indexTick : 0,
   ]);
-  const archiveDay = archive.status === 'ready' ? archive.data : undefined;
+  // Right after the day changes, the loader still holds the previous day for one render: ignore it.
+  const archiveDay = archive.status === 'ready' && archive.data?.date === historyDate ? archive.data : undefined;
   const runs = useMemo(() => (archiveDay ? runTimes(archiveDay) : []), [archiveDay]);
-  // A newly loaded day opens on its latest run.
+  // A newly loaded day opens on the run asked for, else its latest.
   useEffect(() => {
-    if (runs.length && (!historyRun || !runs.includes(historyRun))) setHistoryRun(runs.at(-1)!);
+    if (!runs.length || (historyRun && runs.includes(historyRun))) return;
+    setHistoryRun(wantedAt.current ? runForAt(runs, wantedAt.current) : runs.at(-1)!);
+    wantedAt.current = null;
   }, [runs, historyRun]);
   const historyEntries = useMemo(
     () => (archiveDay && historyRun && archiveDay.runs[historyRun] ? entriesAt(archiveDay, historyRun) : null),
@@ -107,14 +112,25 @@ export function App() {
   );
 
   // Keep the URL hash in step with the open view, so it can be shared and Back closes it.
+  // In History, `at` names the day until a run is picked, then the run.
+  const runOfDay = historyDate && historyRun?.startsWith(historyDate) ? historyRun : null;
+  const at = historyDate ? (runOfDay ? runToAt(runOfDay) : (wantedAt.current ?? historyDate)) : null;
   useEffect(() => {
-    const hash = formatRoute({ country: selected, region: selectedRegion, world });
+    const route = { country: selected, region: selectedRegion, world, at };
+    const hash = formatRoute(route);
     if (location.hash === hash) return;
     const url = hash || location.pathname + location.search;
-    // A link written differently (#fr) is the same view: tidy it without a new entry.
-    if (formatRoute(parseRoute(location.hash)) === hash) history.replaceState(null, '', url);
+    // The same view and day (a link written differently, or another run picked on the
+    // timeline) replaces the entry, so Back skips slider moves.
+    const current = parseRoute(location.hash);
+    const sameView =
+      current.country === route.country &&
+      current.region === route.region &&
+      current.world === route.world &&
+      (current.at?.slice(0, 10) ?? null) === (at?.slice(0, 10) ?? null);
+    if (sameView) history.replaceState(null, '', url);
     else history.pushState(null, '', url);
-  }, [selected, selectedRegion, world]);
+  }, [selected, selectedRegion, world, at]);
 
   useEffect(() => {
     const onPopState = () => {
@@ -122,6 +138,9 @@ export function App() {
       setSelected(route.country);
       setSelectedRegion(route.region);
       setWorld(route.world);
+      wantedAt.current = route.at;
+      setHistoryDate(route.at?.slice(0, 10) ?? null);
+      setHistoryRun(null);
     };
     window.addEventListener('popstate', onPopState);
     return () => window.removeEventListener('popstate', onPopState);
@@ -168,7 +187,7 @@ export function App() {
       selectCountry(null);
       showToast(`${COUNTRIES[selected]!.name} — coming soon`);
     } else if (selectedRegion && !regions.some((r) => r.code === selectedRegion)) {
-      history.replaceState(null, '', formatRoute({ country: selected, region: null, world: false }));
+      history.replaceState(null, '', formatRoute({ country: selected, region: null, world: false, at: null }));
       setSelectedRegion(null);
     }
   }, [indexData, available, regions, selected, selectedRegion, selectCountry, showToast, historyDate]);
