@@ -32,10 +32,33 @@ jobs:
       # vite build only: `pnpm build` would typecheck the web app a second time.
       - run: pnpm --filter @news-globe/web exec vite build
 
-  # The front end and Worker go live only from main, and only once `check` has passed.
+  # The globe in a real browser (Playwright, software WebGL): clicks, hovers and the camera.
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @news-globe/web exec playwright install --with-deps chromium
+      - run: pnpm --filter @news-globe/web e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: |
+            apps/web/playwright-report/
+            apps/web/test-results/
+          retention-days: 7
+
+  # The front end and Worker go live only from main, and only once `check` and `e2e` have passed.
   # The news data is not part of this: the Pi publishes it to KV on its own schedule.
   deploy:
-    needs: check
+    needs: [check, e2e]
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 15

@@ -17,14 +17,16 @@ pnpm install
 pnpm dev            # web app on http://localhost:5173 (shows the committed sample data)
 pnpm ingest         # one-off run: fetch feeds → data/countries/*.json, data/regions/*.json + data/index.json
 pnpm ingest:watch   # run now, then every hour (node-cron)
-pnpm test           # vitest (ingest pipeline, web app routing)
+pnpm test           # vitest (ingest pipeline, Worker, web app and its components)
+pnpm coverage       # the same, with a coverage report per package
+pnpm --filter @news-globe/web e2e   # Playwright: the WebGL globe in Chromium (once: `pnpm --filter @news-globe/web exec playwright install chromium`)
 pnpm typecheck      # all packages
 pnpm build          # production build of the web app → apps/web/dist
 ```
 
 After the first `pnpm ingest`, the dev server serves your fresh output instead of the sample.
 
-CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs `pnpm typecheck`, `pnpm test` and a Vite build on every pull request and every push to `main`, then deploys `main` to Cloudflare (see [Deploy](#deploy)).
+CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs `pnpm typecheck`, `pnpm test`, a Vite build and the Playwright tests on every pull request and every push to `main`, then deploys `main` to Cloudflare (see [Deploy](#deploy)).
 
 **LLM review.** [.github/workflows/claude-review.yml](.github/workflows/claude-review.yml) has Claude review every pull request, with inline comments marked 🔴 (blocking) or 🟡 (not blocking) and a summary that ends with `Verdict: ✅ no blocking issues` or `Verdict: ❌ blocking issues`. It only comments: it never pushes, approves or merges. Until the secret below exists, it skips with a notice instead of failing. It signs in with a Claude subscription. Run `claude setup-token` on a machine logged in to Claude Code and save the token as the `CLAUDE_CODE_OAUTH_TOKEN` repository secret. Each review counts against that plan's usage. The workflow needs the Claude GitHub App installed on the repo. It is the only LLM in the project, and it reviews code only: the pipeline and the app still make no LLM calls.
 

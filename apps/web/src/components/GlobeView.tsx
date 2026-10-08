@@ -127,6 +127,8 @@ export default function GlobeView({
   const [size, setSize] = useState({ width: 0, height: 0 });
   const [hovered, setHovered] = useState<Shape | null>(null);
   const [regionShapes, setRegionShapes] = useState<Shape[]>([]);
+  // The camera can only move once globe.gl is ready; a shared link opens a country before that.
+  const [ready, setReady] = useState(false);
   const selectedRef = useRef(selected);
   selectedRef.current = selected;
 
@@ -199,6 +201,7 @@ export default function GlobeView({
     if (selectedRef.current === null) {
       globe.pointOfView({ ...INITIAL_VIEW, altitude: INITIAL_VIEW.altitude + (isMobile ? MOBILE_ALTITUDE_BOOST : 0) }, 0);
     }
+    setReady(true);
   }, [isMobile]);
 
   // Stop auto-rotating while a country is open; resume when the panel closes.
@@ -210,7 +213,7 @@ export default function GlobeView({
   // Fly to the selected region or country; zoom back out (staying over the same spot) when it closes.
   useEffect(() => {
     const globe = globeRef.current;
-    if (!globe) return;
+    if (!globe || !ready) return;
     if (!selected) {
       const { lat, lng } = globe.pointOfView();
       globe.pointOfView({ lat, lng, altitude: INITIAL_VIEW.altitude + (isMobile ? MOBILE_ALTITUDE_BOOST : 0) }, 800);
@@ -222,7 +225,7 @@ export default function GlobeView({
     const latOffset = isMobile ? -meta.altitude * 28 * sheetFraction : 0;
     const altitude = meta.altitude + (isMobile ? (selectedRegion ? 0.3 : 0.6) : 0);
     globe.pointOfView({ lat: meta.lat + latOffset, lng: meta.lng, altitude }, 1000);
-  }, [selected, selectedRegion, isMobile, sheetFraction]);
+  }, [ready, selected, selectedRegion, isMobile, sheetFraction]);
 
   const isRegion = (f: Shape) => !!f.properties.region;
   // Features without an ISO code (Somaliland, N. Cyprus) must not match `selected === null`.
