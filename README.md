@@ -4,7 +4,7 @@ An interactive 3D globe. Click a country and you get its top national headlines 
 
 It covers 175 countries (see [Sources](#sources)); the others are greyed out and marked "coming soon". Open France, Germany, Spain, Italy, the United States, Canada, Australia, Brazil, Mexico, Argentina or India and it splits into its regions (13 French regions, 16 German Länder, 17 Spanish autonomous communities, 20 Italian regions, the 50 US states and DC, 13 Canadian provinces and territories, 8 Australian states and territories, 27 Brazilian states, 32 Mexican states, 24 Argentine provinces, 36 Indian states and union territories), each with its own headlines from regional and local outlets.
 
-- No LLM calls and no paid APIs anywhere. The pipeline is RSS plus hand-written text processing.
+- No LLM calls and no paid APIs in the pipeline or the app. The pipeline is RSS plus hand-written text processing. (An LLM only reviews pull requests; see [Quick start](#quick-start).)
 - It stores metadata only: headline, the feed's own short snippet, URL, source, time and image URL. It never stores or displays article text, and every headline links out to the publisher.
 - Polite fetching: a descriptive User-Agent, conditional GET (ETag / Last-Modified), and **at most one request per feed every 15 minutes**.
 
@@ -25,6 +25,8 @@ pnpm build          # production build of the web app → apps/web/dist
 After the first `pnpm ingest`, the dev server serves your fresh output instead of the sample.
 
 CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs `pnpm typecheck`, `pnpm test` and a Vite build on every pull request and every push to `main`, then deploys `main` to Cloudflare (see [Deploy](#deploy)).
+
+**LLM review.** [.github/workflows/claude-review.yml](.github/workflows/claude-review.yml) has Claude review every pull request, with inline comments marked 🔴 (blocking) or 🟡 (not blocking) and a summary that ends with `Verdict: ✅ no blocking issues` or `Verdict: ❌ blocking issues`. It only comments: it never pushes, approves or merges. Until the secret below exists, it skips with a notice instead of failing. It signs in with a Claude subscription. Run `claude setup-token` on a machine logged in to Claude Code and save the token as the `CLAUDE_CODE_OAUTH_TOKEN` repository secret. Each review counts against that plan's usage. The workflow needs the Claude GitHub App installed on the repo. It is the only LLM in the project, and it reviews code only: the pipeline and the app still make no LLM calls.
 
 **Shading.** Each country on the globe is shaded by how many outlets covered its top story in the last 24 hours (≤1, 2, 3, 4, 5+; a legend sits in the corner), and hovering shows that headline. The regions of an open country get the same treatment in amber. Both read `topTitle` and `topOutlets` from `index.json`, so no country file is fetched until a click ([lib/heat.ts](apps/web/src/lib/heat.ts)).
 
