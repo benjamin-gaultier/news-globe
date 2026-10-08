@@ -6,6 +6,7 @@ import { HistoryPanel } from './components/HistoryPanel';
 import { NewsPanel } from './components/NewsPanel';
 import { SearchBox } from './components/SearchBox';
 import { SearchPanel } from './components/SearchPanel';
+import { TodayIcon, TodayPanel } from './components/TodayPanel';
 import { WorldPanel } from './components/WorldPanel';
 import { useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
@@ -28,6 +29,8 @@ export function App() {
   const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(() => parseRoute(location.hash).region);
   // A story's page in the country or region panel (its cluster id); live only.
   const [story, setStory] = useState<string | null>(() => parseRoute(location.hash).story ?? null);
+  // The Today page (#today); like the world view, never open together with a country.
+  const [todayOpen, setToday] = useState(() => !!parseRoute(location.hash).today);
   // The cross-border stories panel (#world); never open together with a country.
   const [world, setWorld] = useState(() => parseRoute(location.hash).world);
   // The search box's text, its results panel, and the headline a result opened (scrolled to and highlighted).
@@ -113,6 +116,7 @@ export function App() {
     setSelectedRegion(null);
     setStory(null);
     setWorld(false);
+    setToday(false);
     setSearchOpen(false);
     setFocusTitle(null);
   }, []);
@@ -124,14 +128,24 @@ export function App() {
     setSelected(null);
     setSelectedRegion(null);
     setStory(null);
+    setToday(false);
     setWorld(true);
     setSearchOpen(false);
+  }, []);
+  const openToday = useCallback(() => {
+    setSelected(null);
+    setSelectedRegion(null);
+    setStory(null);
+    setWorld(false);
+    setSearchOpen(false);
+    setToday(true);
   }, []);
   const openSearch = useCallback(() => {
     setSelected(null);
     setSelectedRegion(null);
     setStory(null);
     setWorld(false);
+    setToday(false);
     setSearchOpen(true);
   }, []);
   /** A search result: its country or region panel, live, on that story. */
@@ -141,6 +155,7 @@ export function App() {
     setSelectedRegion(region ? unit : null);
     setStory(null);
     setWorld(false);
+    setToday(false);
     setSearchOpen(false);
     setFocusTitle(title);
     setHistoryDate(null);
@@ -194,7 +209,7 @@ export function App() {
   const runOfDay = historyDate && historyRun?.startsWith(historyDate) ? historyRun : null;
   const at = historyDate ? (runOfDay ? runToAt(runOfDay) : (wantedAt.current ?? historyDate)) : null;
   useEffect(() => {
-    const route = { country: selected, region: selectedRegion, world, at, story: (!at && story) || undefined };
+    const route = { country: selected, region: selectedRegion, world, at, story: (!at && story) || undefined, today: (!at && todayOpen) || undefined };
     const hash = formatRoute(route);
     if (location.hash === hash) return;
     const url = hash || location.pathname + location.search;
@@ -206,10 +221,11 @@ export function App() {
       current.region === route.region &&
       current.world === route.world &&
       current.story === route.story &&
+      !!current.today === !!route.today &&
       (current.at?.slice(0, 10) ?? null) === (at?.slice(0, 10) ?? null);
     if (sameView) history.replaceState(null, '', url);
     else history.pushState(null, '', url);
-  }, [selected, selectedRegion, world, at, story]);
+  }, [selected, selectedRegion, world, at, story, todayOpen]);
 
   useEffect(() => {
     const onPopState = () => {
@@ -218,6 +234,7 @@ export function App() {
       setSelectedRegion(route.region);
       setStory(route.story ?? null);
       setWorld(route.world);
+      setToday(!!route.today);
       wantedAt.current = route.at;
       setHistoryDate(route.at?.slice(0, 10) ?? null);
       setHistoryRun(null);
@@ -233,9 +250,11 @@ export function App() {
         ? COUNTRIES[selected]?.name
         : world
           ? 'Across borders'
-          : undefined;
+          : todayOpen
+            ? 'Today'
+            : undefined;
     document.title = name ? `${name} · News Globe` : 'News Globe';
-  }, [selected, selectedRegion, world]);
+  }, [selected, selectedRegion, world, todayOpen]);
 
   // Refetch the open country or region when the index reports a newer file.
   const selectedUpdatedAt = selectedRegion
@@ -282,6 +301,7 @@ export function App() {
   const openHistory = useCallback(() => {
     setStory(null);
     setWorld(false);
+    setToday(false);
     setSearchOpen(false);
     setHistoryRun(null);
     setHistoryDate(todayUtc());
@@ -337,7 +357,7 @@ export function App() {
   );
 
   return (
-    <div className={`app${world || (searchOpen && !meta) || meta ? ' has-panel' : ''}`}>
+    <div className={`app${world || (todayOpen && !historyDate) || (searchOpen && !meta) || meta ? ' has-panel' : ''}`}>
       <header className="topbar">
         <div className="brand">
           <h1>News Globe</h1>
@@ -357,15 +377,26 @@ export function App() {
           </p>
         </div>
         <SearchBox ref={searchInput} query={query} onQueryChange={changeQuery} onFocus={reopenSearch} onClear={clearSearch} />
-        <button
-          type="button"
-          className="tool-btn"
-          aria-pressed={historyDate !== null}
-          onClick={() => (historyDate ? closeHistory() : openHistory())}
-        >
-          <ClockIcon />
-          <span>History</span>
-        </button>
+        <div className="topbar-tools">
+          <button
+            type="button"
+            className="tool-btn"
+            aria-pressed={todayOpen && !historyDate}
+            onClick={() => (todayOpen && !historyDate ? selectCountry(null) : (closeHistory(), openToday()))}
+          >
+            <TodayIcon />
+            <span>Today</span>
+          </button>
+          <button
+            type="button"
+            className="tool-btn"
+            aria-pressed={historyDate !== null}
+            onClick={() => (historyDate ? closeHistory() : openHistory())}
+          >
+            <ClockIcon />
+            <span>History</span>
+          </button>
+        </div>
         <nav className="country-picker" aria-label="Countries">
           {worldStories.length > 0 && !historyDate && (
             <button
@@ -409,7 +440,7 @@ export function App() {
             arcs={arcs}
           />
         </Suspense>
-        {!meta && !world && !searchOpen && !historyDate && (
+        {!meta && !world && !todayOpen && !searchOpen && !historyDate && (
           <p className="hint">Tap a highlighted country to see its top headlines</p>
         )}
         {/* An index from before the ingest wrote counts shades everything alike: no key then. */}
@@ -470,6 +501,17 @@ export function App() {
       )}
       {searchOpen && !meta && (
         <SearchPanel query={query} isMobile={isMobile} onClose={handleClose} onSheetChange={setSheetFraction} onOpenStory={openStory} />
+      )}
+      {todayOpen && !historyDate && !meta && (
+        <TodayPanel
+          world={worldStories}
+          now={now}
+          isMobile={isMobile}
+          onClose={handleClose}
+          onSheetChange={setSheetFraction}
+          onOpenStory={openStoryIn}
+          onOpenWorld={openWorld}
+        />
       )}
       {world && (
         <WorldPanel

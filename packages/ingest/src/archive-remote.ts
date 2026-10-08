@@ -5,7 +5,7 @@ import { gunzipSync, gzipSync } from 'node:zlib';
 import type { ArchiveDay, IndexFile } from '@news-globe/shared';
 import { BUNDLE_KEY, bundleKeys, readBundleEntry } from '@news-globe/shared/bundle';
 import { archiveFile, archiveRun, publishArchiveToKv, readRun } from './archive';
-import { buildSearch, buildTrends } from './derived';
+import { buildSearch, buildToday, buildTrends } from './derived';
 import { publishConfigFromEnv, type PublishConfig } from './publish';
 
 /**
@@ -16,9 +16,9 @@ import { publishConfigFromEnv, type PublishConfig } from './publish';
  * keeps growing whatever code the Pi runs. A run already in the archive is
  * not uploaded twice.
  *
- * It then derives `trends` and `search` from the same run (see derived.ts) and
- * stores them gzipped in KV; the Worker serves them as /data/trends.json and
- * /data/search.json.
+ * It then derives `trends`, `search` and `today` from the same run (see
+ * derived.ts) and stores them gzipped in KV; the Worker serves them as
+ * /data/trends.json, /data/search.json and /data/today.json.
  */
 
 export type RemoteArchiveOutcome = 'archived' | 'already-archived' | 'nothing-published';
@@ -89,13 +89,15 @@ export async function archiveFromKv(
     const gzipped = await readFile(archiveFile(dir, date));
     log(`[archive] added run ${index.updatedAt} to ${date} (${Math.round(gzipped.length / 1024)} KiB)`);
 
-    // Trends and search for this run, from the day just written and the published files.
+    // Trends, search and Today for this run, from the day just written and the published files.
     const day = JSON.parse(gunzipSync(gzipped).toString('utf8')) as ArchiveDay;
     const run = await readRun(dir);
     const units = run?.units ?? [];
+    const trends = buildTrends(day, index.updatedAt, units);
     for (const [key, value] of [
-      ['trends', buildTrends(day, index.updatedAt, units)],
+      ['trends', trends],
       ['search', buildSearch(index.updatedAt, units)],
+      ['today', buildToday(trends, units)],
     ] as const) {
       const body = gzipSync(JSON.stringify(value));
       await kvPut(cfg, key, body, doFetch);

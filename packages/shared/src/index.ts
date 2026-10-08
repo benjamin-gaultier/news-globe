@@ -217,6 +217,44 @@ export interface SearchFile {
   items: [string, string, number][];
 }
 
+/** A story as the Today page lists it: enough to show it and open its page. */
+export interface TodayStory {
+  /** Country (or region) it ranks in, and its cluster id there, for its story page. */
+  unit: string;
+  clusterId: string;
+  title: string;
+  url: string;
+  /** The headline's outlet. */
+  source: string;
+  language: string;
+  imageUrl: string | null;
+  /** Outlets covering it in the last 24 h (`outletCount24h`). */
+  outlets: number;
+  /** Its rank in its unit at this run (1 = top story). */
+  rank: number;
+  /** ISO 8601 of today's first run that ranked it. */
+  firstSeen: string;
+  state: 'new' | 'rising' | null;
+}
+
+/**
+ * `today.json`: the Today page, derived hourly with `trends` and `search`
+ * (packages/ingest/src/derived.ts) from the latest run and the day's archive.
+ */
+export interface TodayFile {
+  schemaVersion: number;
+  runAt: string;
+  /** National stories, most widely covered first, at most two per country. */
+  top: TodayStory[];
+  /** National stories new or rising since the previous run, most widely covered first. */
+  rising: TodayStory[];
+  /** National top-3 stories ranked since earliest today. */
+  lasting: TodayStory[];
+  /** Countries and ranked national stories in the run. */
+  countries: number;
+  stories: number;
+}
+
 export interface CountryMeta {
   code: CountryCode;
   name: string;

@@ -205,6 +205,31 @@ describe('App', () => {
     expect(location.hash).toBe('#US/c2');
   });
 
+  it('opens Today from the top bar, and a story from it', async () => {
+    files['today.json'] = () => ({
+      schemaVersion: SCHEMA_VERSION,
+      runAt: ago(10),
+      top: [
+        { unit: 'US', clusterId: 'c2', title: 'Senate passes bill', url: 'https://us.example/s', source: 'AP', language: 'en', imageUrl: null, outlets: 3, rank: 1, firstSeen: ago(60), state: null },
+      ],
+      rising: [],
+      lasting: [],
+      countries: 2,
+      stories: 3,
+    });
+    files['countries/US.json'] = () =>
+      countryFile([cluster(article({ title: 'Senate passes bill', language: 'en' }), [], { id: 'c2' })], { countryCode: 'US', countryName: 'United States' });
+    await renderApp();
+    await userEvent.click(screen.getByRole('button', { name: 'Today' }));
+    expect(await screen.findByRole('heading', { level: 2, name: 'Today' })).toBeTruthy();
+    expect(location.hash).toBe('#today');
+    expect(document.title).toBe('Today · News Globe');
+
+    await userEvent.click(await screen.findByRole('button', { name: /Senate passes bill/ }));
+    expect(await screen.findByRole('heading', { level: 2, name: 'Senate passes bill' })).toBeTruthy();
+    expect(location.hash).toBe('#US/c2');
+  });
+
   describe('Story pages', () => {
     beforeEach(() => {
       files['countries/FR.json'] = () =>
