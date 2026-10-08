@@ -8,6 +8,7 @@
     "ingest:watch": "tsx src/watch.ts",
     "probe": "tsx src/probe.ts",
     "cache:merge": "tsx src/merge-cache.ts",
+    "archive:remote": "tsx src/archive-remote.ts",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json"
   },

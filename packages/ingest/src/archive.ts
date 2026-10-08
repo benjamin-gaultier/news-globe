@@ -10,13 +10,14 @@ import {
   type IndexFile,
   type StoryCluster,
 } from '@news-globe/shared';
-import { publishConfigFromEnv, type PublishConfig } from './publish';
+import type { PublishConfig } from './publish';
 import { writeJsonAtomic } from './write';
 
 /**
- * History. After each run, the ranked stories of every country and region are
- * folded into one gzipped file per UTC day, `data/archive/YYYY-MM-DD.json.gz`,
- * which is then uploaded to KV as `archive/YYYY-MM-DD`. A story keeps one
+ * History. Each run's ranked stories of every country and region are folded
+ * into one gzipped file per UTC day, `archive/YYYY-MM-DD.json.gz`, uploaded to
+ * KV as `archive/YYYY-MM-DD`. The hourly workflow does this from the
+ * published data (see archive-remote.ts), not the ingest machine. A story keeps one
  * record for the day while consecutive runs' clusters share an article with
  * it; each run also records its ranked list per unit, for a time slider.
  *
@@ -204,16 +205,4 @@ export async function publishArchiveToKv(
   const kept = Object.fromEntries(Object.entries(state).sort(([a], [b]) => b.localeCompare(a)).slice(0, KEEP_STATE_DAYS));
   if (uploaded.length) await writeJsonAtomic(stateFile, kept);
   return uploaded;
-}
-
-/** Archives the run in dataDir and uploads it when KV publishing is configured; never throws. */
-export async function archiveIfPossible(dataDir: string): Promise<void> {
-  try {
-    if (!(await archiveRun(dataDir))) return;
-    const cfg = publishConfigFromEnv();
-    if (cfg) await publishArchiveToKv(dataDir, cfg);
-  } catch (err) {
-    // History is a bonus: the run's public files are written and published either way.
-    console.error('[archive] failed:', err instanceof Error ? err.message : err);
-  }
 }
