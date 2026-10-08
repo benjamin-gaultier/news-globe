@@ -12,13 +12,14 @@ vi.mock('../src/lib/translate', () => import('./translate-mock').then((m) => m.t
 beforeEach(resetTranslator);
 
 function renderStory(c: StoryCluster, english = false) {
-  const onOpenCountry = vi.fn();
+  const onOpen = vi.fn();
+  const onOpenStoryIn = vi.fn();
   render(
     <ul>
-      <StoryItem cluster={c} now={NOW} english={english} onOpenCountry={onOpenCountry} />
+      <StoryItem cluster={c} now={NOW} english={english} onOpen={onOpen} onOpenStoryIn={onOpenStoryIn} />
     </ul>,
   );
-  return { onOpenCountry, item: screen.getAllByRole('listitem')[0]! };
+  return { onOpen, onOpenStoryIn, item: screen.getAllByRole('listitem')[0]! };
 }
 
 describe('StoryItem', () => {
@@ -34,7 +35,7 @@ describe('StoryItem', () => {
     expect(screen.getByText('Le Monde')).toBeTruthy();
     expect(screen.getByText('2 hours ago').getAttribute('datetime')).toBe(rep.publishedAt);
     expect(screen.getByText('Les députés ont voté.').getAttribute('lang')).toBe('fr');
-    expect(screen.queryByRole('button')).toBeNull();
+    expect(screen.getAllByRole('button').map((b) => b.textContent)).toEqual(['Story details']);
     expect(screen.queryByRole('link', { name: /Read in English/ })).toBeNull();
   });
 
@@ -47,27 +48,13 @@ describe('StoryItem', () => {
     expect(item.querySelector('img')).toBeNull();
   });
 
-  it('expands and collapses the other outlets covering the story', async () => {
-    const related = [
-      article({ source: { id: 'figaro', name: 'Le Figaro' }, title: 'Budget : le vote', publishedAt: minutesAgo(30) }),
-      article({ source: { id: 'liberation', name: 'Libération' }, title: 'Le budget passe' }),
-    ];
-    renderStory(cluster(article(), related));
-
-    const toggle = screen.getByRole('button', { name: '+2 other sources' });
-    expect(toggle.getAttribute('aria-expanded')).toBe('false');
+  it('opens the story page from its other sources', async () => {
+    const related = [article({ source: { id: 'figaro', name: 'Le Figaro' } }), article({ source: { id: 'liberation', name: 'Libération' } })];
+    const { onOpen } = renderStory(cluster(article(), related));
+    // The other outlets are on the story page, not in the list.
     expect(screen.queryByText('Le Figaro')).toBeNull();
-
-    await userEvent.click(toggle);
-    expect(toggle.getAttribute('aria-expanded')).toBe('true');
-    expect(toggle.textContent).toContain('Hide other sources');
-    const list = document.getElementById(toggle.getAttribute('aria-controls')!)!;
-    expect(within(list).getByText('Le Figaro')).toBeTruthy();
-    expect(within(list).getByRole('link', { name: 'Budget : le vote' }).getAttribute('href')).toBe(related[0]!.url);
-    expect(within(list).getByText('· 30 minutes ago')).toBeTruthy();
-
-    await userEvent.click(toggle);
-    expect(screen.queryByText('Le Figaro')).toBeNull();
+    await userEvent.click(screen.getByRole('button', { name: '+2 other sources' }));
+    expect(onOpen).toHaveBeenCalled();
   });
 
   it('says "source" for a single other outlet', () => {
@@ -76,13 +63,14 @@ describe('StoryItem', () => {
   });
 
   it('links to the same story in other countries, skipping unknown codes', async () => {
-    const { onOpenCountry } = renderStory(
+    const { onOpenStoryIn, item } = renderStory(
       cluster(article(), [], { alsoIn: [{ code: 'DE', clusterId: 'x' }, { code: 'ZZ', clusterId: 'y' }, { code: 'CL', clusterId: 'z' }] }),
     );
     expect(screen.getByText('Also in')).toBeTruthy();
-    expect(screen.getAllByRole('button').map((b) => b.textContent)).toEqual(['Germany', 'Chile']);
+    const also = item.querySelector('.story-also') as HTMLElement;
+    expect(within(also).getAllByRole('button').map((b) => b.textContent)).toEqual(['Germany', 'Chile']);
     await userEvent.click(screen.getByRole('button', { name: 'Chile' }));
-    expect(onOpenCountry).toHaveBeenCalledWith('CL');
+    expect(onOpenStoryIn).toHaveBeenCalledWith('CL', 'z');
   });
 
   it('in English, shows translated text with the original as a tooltip and a translated-page link', async () => {
@@ -120,8 +108,8 @@ describe('StoryItem trends', () => {
   it('badges new and rising stories', () => {
     render(
       <ul>
-        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpenCountry={vi.fn()} trend={trendOf('new', [null, 3])} />
-        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpenCountry={vi.fn()} trend={trendOf('rising', [7, 2])} />
+        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpen={vi.fn()} onOpenStoryIn={vi.fn()} trend={trendOf('new', [null, 3])} />
+        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpen={vi.fn()} onOpenStoryIn={vi.fn()} trend={trendOf('rising', [7, 2])} />
       </ul>,
     );
     expect(screen.getByText('New')).toBeTruthy();
@@ -131,8 +119,8 @@ describe('StoryItem trends', () => {
   it('draws the rank history, gaps included, once there are two ranked runs', () => {
     render(
       <ul>
-        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpenCountry={vi.fn()} trend={trendOf(null, [2, null, 3, 1])} />
-        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpenCountry={vi.fn()} trend={trendOf(null, [null, 5])} />
+        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpen={vi.fn()} onOpenStoryIn={vi.fn()} trend={trendOf(null, [2, null, 3, 1])} />
+        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpen={vi.fn()} onOpenStoryIn={vi.fn()} trend={trendOf(null, [null, 5])} />
       </ul>,
     );
     const imgs = screen.getAllByRole('img');

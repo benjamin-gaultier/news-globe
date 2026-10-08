@@ -1,5 +1,5 @@
 import { COUNTRIES, type Article, type ClusterTrend, type CountryCode, type StoryCluster } from '@news-globe/shared';
-import { useEffect, useId, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslated } from '../hooks/useTranslated';
 import { relativeTime } from '../lib/time';
 import { TARGET_LANGUAGE, translatedPageUrl } from '../lib/translate';
@@ -94,15 +94,21 @@ function Trend({ trend }: { trend?: ClusterTrend }) {
   );
 }
 
-/** "Also in Germany · Chile": the same story in other countries' top stories. */
-function AlsoIn({ cluster, onOpenCountry }: { cluster: StoryCluster; onOpenCountry: (code: CountryCode) => void }) {
+/** "Also in Germany · Chile": the same story in other countries' top stories, each opening its page there. */
+function AlsoIn({
+  cluster,
+  onOpenStoryIn,
+}: {
+  cluster: StoryCluster;
+  onOpenStoryIn: (code: CountryCode, clusterId: string) => void;
+}) {
   const countries = (cluster.alsoIn ?? []).filter((a) => COUNTRIES[a.code]);
   if (!countries.length) return null;
   return (
     <p className="story-also">
       <span className="story-also-label">Also in</span>
       {countries.map((a) => (
-        <button key={a.code} type="button" className="chip chip-small" onClick={() => onOpenCountry(a.code)}>
+        <button key={a.code} type="button" className="chip chip-small" onClick={() => onOpenStoryIn(a.code, a.clusterId)}>
           {COUNTRIES[a.code]!.name}
         </button>
       ))}
@@ -114,25 +120,26 @@ export function StoryItem({
   cluster,
   now,
   english,
-  onOpenCountry,
+  onOpen,
+  onOpenStoryIn,
   trend,
   focused = false,
 }: {
   cluster: StoryCluster;
   now: number;
   english: boolean;
-  onOpenCountry: (code: CountryCode) => void;
+  /** Opens this story's page: every outlet, its rank today, the same story elsewhere. */
+  onOpen: () => void;
+  onOpenStoryIn: (code: CountryCode, clusterId: string) => void;
   /** This story's trend in the latest run, from trends.json. */
   trend?: ClusterTrend;
   /** Scrolled into view and highlighted: the story a search result opened. */
   focused?: boolean;
 }) {
-  const [expanded, setExpanded] = useState(false);
   const item = useRef<HTMLLIElement>(null);
   useEffect(() => {
     if (focused) item.current?.scrollIntoView?.({ block: 'center', behavior: 'smooth' });
   }, [focused]);
-  const listId = useId();
   const { representative: rep, related } = cluster;
   const others = related.length;
   const description = useTranslated(rep.description, rep.language, english);
@@ -172,33 +179,11 @@ export function StoryItem({
         </div>
         <Thumbnail src={rep.imageUrl} />
       </div>
-      <AlsoIn cluster={cluster} onOpenCountry={onOpenCountry} />
-
-      {others > 0 && (
-        <>
-          <button
-            type="button"
-            className="story-more"
-            aria-expanded={expanded}
-            aria-controls={listId}
-            onClick={() => setExpanded((v) => !v)}
-          >
-            {expanded ? 'Hide' : `+${others}`} other source{others === 1 ? '' : 's'}
-            <span className="chevron" aria-hidden="true" />
-          </button>
-          {expanded && (
-            <ul id={listId} className="story-related">
-              {related.map((a) => (
-                <li key={a.id}>
-                  <span className="story-source">{a.source.name}</span>
-                  <span className="related-time"> · {relativeTime(a.publishedAt, now)}</span>
-                  <ArticleLink article={a} className="related-title" english={english} />
-                </li>
-              ))}
-            </ul>
-          )}
-        </>
-      )}
+      <AlsoIn cluster={cluster} onOpenStoryIn={onOpenStoryIn} />
+      <button type="button" className="story-more" onClick={onOpen}>
+        {others > 0 ? `+${others} other source${others === 1 ? '' : 's'}` : 'Story details'}
+        <span className="chevron chevron-right" aria-hidden="true" />
+      </button>
     </li>
   );
 }

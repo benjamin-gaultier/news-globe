@@ -48,6 +48,22 @@ describe('formatRoute', () => {
   });
 });
 
+describe('story routes', () => {
+  it('opens a story’s page, keeping the id’s case', () => {
+    expect(parseRoute('#FR/EAskgXdmb1-3')).toEqual({ country: 'FR', region: null, world: false, at: null, story: 'EAskgXdmb1-3' });
+    expect(parseRoute('#fr-bre/aB_9xyz')).toEqual({ country: 'FR', region: 'FR-BRE', world: false, at: null, story: 'aB_9xyz' });
+    expect(formatRoute({ country: 'FR', region: null, world: false, at: null, story: 'EAskgXdmb1-3' })).toBe('#FR/EAskgXdmb1-3');
+    expect(formatRoute({ country: 'FR', region: 'FR-BRE', world: false, at: null, story: 'aB_9xyz' })).toBe('#FR-BRE/aB_9xyz');
+  });
+
+  it('drops a malformed id, a story without a place, and stories in History', () => {
+    expect(parseRoute('#FR/not a story!').story).toBeUndefined();
+    expect(parseRoute('#XX/EAskgXdmb1-3')).toEqual(EMPTY_ROUTE);
+    expect(parseRoute('#FR/EAskgXdmb1-3@2026-10-08').story).toBeUndefined();
+    expect(formatRoute({ country: 'FR', region: null, world: false, at: '2026-10-08', story: 'EAskgXdmb1-3' })).toBe('#FR@2026-10-08');
+  });
+});
+
 describe('history routes', () => {
   it('reads a view with a time', () => {
     expect(parseRoute('#FR@2026-10-08T14:05')).toEqual({ country: 'FR', region: null, world: false, at: '2026-10-08T14:05' });

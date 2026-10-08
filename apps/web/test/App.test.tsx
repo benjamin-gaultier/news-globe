@@ -187,6 +187,8 @@ describe('App', () => {
   });
 
   it('shows the cross-border stories with arcs between their countries', async () => {
+    files['countries/US.json'] = () =>
+      countryFile([cluster(article({ title: 'Senate passes bill', language: 'en' }), [], { id: 'c2' })], { countryCode: 'US', countryName: 'United States' });
     await renderApp();
     await userEvent.click(chip('Across borders'));
 
@@ -196,11 +198,49 @@ describe('App', () => {
     expect(document.title).toBe('Across borders · News Globe');
     expect(globe.props!.arcs).toEqual([{ startLat: 46.6, startLng: 2.4, endLat: 39.5, endLng: -98.4 }]);
 
-    // A country from a story replaces the world view.
+    // A country from a story opens that story's page there, replacing the world view.
     await userEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: 'United States' }));
-    expect(await screen.findByRole('link', { name: 'Senate passes bill' })).toBeTruthy();
+    expect(await screen.findByRole('heading', { level: 2, name: 'Senate passes bill' })).toBeTruthy();
     expect(globe.props!.arcs).toEqual([]);
-    expect(location.hash).toBe('#US');
+    expect(location.hash).toBe('#US/c2');
+  });
+
+  describe('Story pages', () => {
+    beforeEach(() => {
+      files['countries/FR.json'] = () =>
+        countryFile([
+          cluster(article({ title: 'Le budget adopté' }), [article({ title: 'Budget : le vote', source: { id: 'figaro', name: 'Le Figaro' } })], {
+            id: 'bud1',
+          }),
+        ]);
+    });
+
+    it('opens a story’s page, with its own link, and Back returns to the list', async () => {
+      await renderApp('#FR');
+      await userEvent.click(await screen.findByRole('button', { name: '+1 other source' }));
+      expect(await screen.findByRole('heading', { level: 2, name: 'Le budget adopté' })).toBeTruthy();
+      expect(location.hash).toBe('#FR/bud1');
+      expect(screen.getByRole('link', { name: 'Budget : le vote' })).toBeTruthy();
+
+      act(() => history.back());
+      await waitFor(() => expect(location.hash).toBe('#FR'));
+      expect(await screen.findByRole('heading', { level: 2, name: 'France' })).toBeTruthy();
+    });
+
+    it('opens a shared story link', async () => {
+      await renderApp('#FR/bud1');
+      expect(await screen.findByRole('heading', { level: 2, name: 'Le budget adopté' })).toBeTruthy();
+      expect(location.hash).toBe('#FR/bud1');
+    });
+
+    it('leaves the story page for the list, History or another country', async () => {
+      files.archive = () => true;
+      await renderApp('#FR/bud1');
+      await screen.findByRole('heading', { level: 2, name: 'Le budget adopté' });
+      await userEvent.click(screen.getByRole('button', { name: 'History' }));
+      expect(await screen.findByRole('link', { name: 'Archived budget story' })).toBeTruthy();
+      expect(location.hash).not.toContain('bud1');
+    });
   });
 
   it('reports an unreachable index and retries', async () => {
@@ -266,7 +306,7 @@ describe('App', () => {
       files.archive = () => true;
       await renderApp('#FR');
       await screen.findByRole('link', { name: 'Le budget adopté' });
-      await userEvent.click(within(panel()!).getByRole('button', { name: 'Earlier headlines' }));
+      await userEvent.click(within(panel()!).getByRole('button', { name: 'History' }));
       expect(await screen.findByRole('link', { name: 'Archived budget story' })).toBeTruthy();
       expect(within(panel()!).getByRole('slider')).toBeTruthy();
       expect(location.hash.startsWith('#FR@')).toBe(true);

@@ -23,7 +23,9 @@ function renderPanel(props: Partial<Props> = {}) {
     onClose: vi.fn(),
     onRetry: vi.fn(),
     onSheetChange: vi.fn(),
-    onOpenCountry: vi.fn(),
+    onOpenStory: vi.fn(),
+    onOpenStoryIn: vi.fn(),
+    onToast: vi.fn(),
     onSelectRegion: vi.fn(),
   };
   const all: Props = {
@@ -32,6 +34,8 @@ function renderPanel(props: Partial<Props> = {}) {
     state: { status: 'loading' },
     now: NOW,
     isMobile: false,
+    story: null,
+    world: [],
     ...handlers,
     ...props,
   };
@@ -97,10 +101,86 @@ describe('NewsPanel', () => {
     expect(onSelectRegion).toHaveBeenLastCalledWith(null);
   });
 
-  it('opens other countries from a story', async () => {
-    const { onOpenCountry } = renderPanel({ state: ready(countryFile([cluster(article(), [], { alsoIn: [{ code: 'DE', clusterId: 'x' }] })])) });
+  it('opens a story’s counterpart in another country', async () => {
+    const { onOpenStoryIn } = renderPanel({ state: ready(countryFile([cluster(article(), [], { alsoIn: [{ code: 'DE', clusterId: 'x' }] })])) });
     await userEvent.click(screen.getByRole('button', { name: 'Germany' }));
-    expect(onOpenCountry).toHaveBeenCalledWith('DE');
+    expect(onOpenStoryIn).toHaveBeenCalledWith('DE', 'x');
+  });
+
+  describe('story page', () => {
+    const one = article({ title: 'Le budget adopté', source: { id: 'lemonde', name: 'Le Monde' }, publishedAt: '2026-10-08T11:00:00Z' });
+    const two = article({ title: 'Budget : le vote', source: { id: 'figaro', name: 'Le Figaro' }, publishedAt: '2026-10-08T10:00:00Z' });
+    const file = () =>
+      countryFile([cluster(article({ title: 'Other story' })), cluster(one, [two], { alsoIn: [{ code: 'US', clusterId: 'us1' }] })]);
+
+    it('opens from a story’s sources button', async () => {
+      const { onOpenStory } = renderPanel({ state: ready(file()) });
+      await userEvent.click(screen.getByRole('button', { name: '+1 other source' }));
+      expect(onOpenStory).toHaveBeenCalledWith(one.id);
+    });
+
+    it('shows the story: headline, every outlet earliest first, the same story elsewhere', async () => {
+      const world = [
+        {
+          id: 'w',
+          names: ['budget'],
+          countries: [
+            { code: 'FR', clusterId: one.id, title: 'Le budget adopté', url: one.url, outletCount24h: 2 },
+            { code: 'US', clusterId: 'us1', title: 'French budget passes', url: 'https://us.example/b', outletCount24h: 3, language: 'en' },
+          ],
+          latestPublishedAt: one.publishedAt,
+        },
+      ];
+      const { onOpenStoryIn, onOpenStory } = renderPanel({ state: ready(file()), story: one.id, world });
+      expect(screen.getByRole('heading', { level: 2, name: 'Le budget adopté' })).toBeTruthy();
+      expect(screen.getByText('Story · Le Monde')).toBeTruthy();
+      expect(screen.getByRole('link', { name: 'Read at Le Monde ↗' }).getAttribute('href')).toBe(one.url);
+      // No list, no region picker: just the story.
+      expect(screen.queryByText('Other story')).toBeNull();
+
+      const coverage = screen.getByRole('region', { name: 'Coverage · 2 outlets' });
+      expect([...coverage.querySelectorAll('.story-source')].map((s) => s.textContent)).toEqual(['Le Figaro', 'Le Monde']);
+      expect(within(coverage).getByText('First')).toBeTruthy();
+
+      const elsewhere = screen.getByRole('region', { name: 'In other countries' });
+      expect(within(elsewhere).getByRole('link', { name: 'French budget passes' }).getAttribute('href')).toBe('https://us.example/b');
+      await userEvent.click(within(elsewhere).getByRole('button', { name: 'United States' }));
+      expect(onOpenStoryIn).toHaveBeenCalledWith('US', 'us1');
+
+      await userEvent.click(screen.getByRole('button', { name: '‹ France' }));
+      expect(onOpenStory).toHaveBeenCalledWith(null);
+    });
+
+    it('finds the story by any of its articles, and draws its rank today', () => {
+      const runs = ['2026-10-08T09:00:00.000Z', '2026-10-08T10:00:00.000Z', '2026-10-08T11:00:00.000Z'];
+      const c = file().clusters[1]!;
+      renderPanel({
+        state: ready(file()),
+        story: two.id,
+        trends: { [c.id]: { ranks: [null, 4, 2], firstSeen: runs[1]!, state: 'rising' } },
+        trendRuns: runs,
+      });
+      expect(screen.getByRole('heading', { level: 2, name: 'Le budget adopté' })).toBeTruthy();
+      expect(screen.getByText(/#2 in France now/)).toBeTruthy();
+      expect(screen.getByText('↑ Rising')).toBeTruthy();
+      expect(screen.getByRole('img', { name: /^Rank at each run today: .* not ranked, .* #4, .* #2$/ })).toBeTruthy();
+    });
+
+    it('says when the story has left the top stories', async () => {
+      const { onOpenStory } = renderPanel({ state: ready(file()), story: 'gone123' });
+      expect(screen.getByText('This story is no longer among France’s top stories.')).toBeTruthy();
+      await userEvent.click(screen.getByRole('button', { name: 'See today’s top stories' }));
+      expect(onOpenStory).toHaveBeenCalledWith(null);
+    });
+
+    it('copies the link when the browser has no share sheet', async () => {
+      const writeText = vi.fn(async () => {});
+      Object.defineProperty(navigator, 'clipboard', { value: { writeText }, configurable: true });
+      const { onToast } = renderPanel({ state: ready(file()), story: one.id });
+      await userEvent.click(screen.getByRole('button', { name: 'Share' }));
+      expect(writeText).toHaveBeenCalledWith(location.href);
+      expect(onToast).toHaveBeenCalledWith('Link copied');
+    });
   });
 
   describe('headline language', () => {

@@ -1,9 +1,20 @@
-import type { ClusterTrend, CountryCode, CountryFile, CountryMeta, RegionCode, RegionMeta } from '@news-globe/shared';
+import type {
+  ClusterTrend,
+  CountryCode,
+  CountryFile,
+  CountryMeta,
+  RegionCode,
+  RegionMeta,
+  StoryCluster,
+  WorldStory,
+} from '@news-globe/shared';
 import { useEffect, useState, type ReactNode } from 'react';
 import type { AsyncState } from '../hooks/useAsync';
 import { relativeTime } from '../lib/time';
 import { canTranslateOnDevice, getTranslator, TARGET_LANGUAGE } from '../lib/translate';
+import { useTranslated } from '../hooks/useTranslated';
 import { PanelShell } from './PanelShell';
+import { findStory, StoryDetail } from './StoryDetail';
 import { StoryItem } from './StoryItem';
 
 interface NewsPanelProps {
@@ -20,10 +31,17 @@ interface NewsPanelProps {
   onClose: () => void;
   onRetry: () => void;
   onSheetChange: (fraction: number) => void;
-  /** Opens another country, from a story's "Also in" links. */
-  onOpenCountry: (code: CountryCode) => void;
-  /** Cluster id → trend, when trends.json describes the run shown. */
+  /** The open story page (a cluster id), or null for the list. */
+  story: string | null;
+  onOpenStory: (id: string | null) => void;
+  /** Opens a story's counterpart in another country, from "Also in" and a story page. */
+  onOpenStoryIn: (code: CountryCode, clusterId: string) => void;
+  /** Today's cross-border stories, for a story page's "In other countries". */
+  world: readonly WorldStory[];
+  onToast: (message: string) => void;
+  /** Cluster id → trend, when trends.json describes the run shown, and the run times of its ranks. */
   trends?: Record<string, ClusterTrend>;
+  trendRuns?: string[];
   /** Headline of the story a search result opened, to scroll to and highlight. */
   focusTitle?: string | null;
   /** The bar above the headlines (live, and the way into History). */
@@ -79,12 +97,16 @@ function Body({
   onRetry,
   view,
   english,
-  onOpenCountry,
+  onOpenStory,
+  onOpenStoryIn,
   trends,
   focusTitle,
-}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'onOpenCountry' | 'trends' | 'focusTitle'> & {
+  focusId,
+}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'onOpenStory' | 'onOpenStoryIn' | 'trends' | 'focusTitle'> & {
   view: { code: string; name: string };
   english: boolean;
+  /** The story whose page was just closed: scrolled back into view. */
+  focusId: string | null;
 }) {
   const data = visibleData(state, view.code);
 
@@ -116,12 +138,24 @@ function Body({
           cluster={c}
           now={now}
           english={english}
-          onOpenCountry={onOpenCountry}
+          onOpen={() => onOpenStory(c.id)}
+          onOpenStoryIn={onOpenStoryIn}
           trend={trends?.[c.id]}
-          focused={!!focusTitle && c.representative.title === focusTitle}
+          focused={c.id === focusId || (!!focusTitle && c.representative.title === focusTitle)}
         />
       ))}
     </ol>
+  );
+}
+
+/** A story page's title: its headline, in English when that is on. */
+function StoryTitle({ cluster, english }: { cluster: StoryCluster; english: boolean }) {
+  const rep = cluster.representative;
+  const title = useTranslated(rep.title, rep.language, english);
+  return (
+    <h2 id="panel-title" className="story-detail-title" lang={title.translated ? TARGET_LANGUAGE : rep.language} dir="auto">
+      {title.text}
+    </h2>
   );
 }
 
@@ -136,8 +170,13 @@ export function NewsPanel({
   onClose,
   onRetry,
   onSheetChange,
-  onOpenCountry,
+  story,
+  onOpenStory,
+  onOpenStoryIn,
+  world,
+  onToast,
   trends,
+  trendRuns,
   focusTitle,
   timeline,
   animate,
@@ -146,7 +185,15 @@ export function NewsPanel({
   const [languageMode, setLanguageMode] = useState<LanguageMode>(readLanguageMode);
 
   const file = state.status === 'ready' ? state.data : null;
-  const languages = foreignLanguages(visibleData(state, view.code));
+  const shown = visibleData(state, view.code);
+  const cluster = story && shown ? findStory(shown.clusters, story) : undefined;
+  // Back from a story page: the list scrolls to the story just closed.
+  const [focusId, setFocusId] = useState<string | null>(null);
+  const backToList = () => {
+    setFocusId(cluster?.id ?? story);
+    onOpenStory(null);
+  };
+  const languages = foreignLanguages(shown);
   const english = languageMode === 'en' && languages.length > 0;
   const languagesKey = languages.join(',');
   // Whether on-device translators exist for every language shown: drives the "Translating…" / fallback notes.
@@ -180,15 +227,35 @@ export function NewsPanel({
   };
   const heading = (
     <>
-      {region && (
-        <button type="button" className="crumb" onClick={() => onSelectRegion(null)}>
-          ‹ {country.name}
+      {story ? (
+        <button type="button" className="crumb" onClick={backToList}>
+          ‹ {view.name}
         </button>
+      ) : (
+        region && (
+          <button type="button" className="crumb" onClick={() => onSelectRegion(null)}>
+            ‹ {country.name}
+          </button>
+        )
       )}
-      <h2 id="panel-title">{view.name}</h2>
+      {story && cluster ? (
+        <StoryTitle cluster={cluster} english={english} />
+      ) : (
+        <h2 id="panel-title">{view.name}</h2>
+      )}
       <p className="panel-sub">
-        Top {region ? 'regional' : 'national'} headlines
-        {file && <> · updated {relativeTime(file.updatedAt, now)}</>}
+        {story ? (
+          cluster ? (
+            <>Story · {cluster.representative.source.name}</>
+          ) : (
+            'Story'
+          )
+        ) : (
+          <>
+            Top {region ? 'regional' : 'national'} headlines
+            {file && <> · updated {relativeTime(file.updatedAt, now)}</>}
+          </>
+        )}
       </p>
       {languages.length > 0 && (
         <div className="lang-toggle" role="group" aria-label="Headline language">
@@ -207,14 +274,14 @@ export function NewsPanel({
     <PanelShell
       heading={heading}
       sheetKey={country.code}
-      scrollKey={view.code}
-      toolbar={timeline}
+      scrollKey={`${view.code}/${story ?? ''}`}
+      toolbar={story ? undefined : timeline}
       animate={animate}
       isMobile={isMobile}
       onClose={onClose}
       onSheetChange={onSheetChange}
     >
-      {!region && regions.length > 0 && (
+      {!story && !region && regions.length > 0 && (
         <nav className="region-picker" aria-label={`Regions of ${country.name}`}>
           <span className="region-picker-label">Regions</span>
           {regions.map((r) => (
@@ -231,16 +298,39 @@ export function NewsPanel({
           a translated copy of an article.
         </p>
       )}
-      <Body
-        state={state}
-        now={now}
-        onRetry={onRetry}
-        view={view}
-        english={english}
-        onOpenCountry={onOpenCountry}
-        trends={trends}
-        focusTitle={focusTitle}
-      />
+      {story && cluster ? (
+        <StoryDetail
+          cluster={cluster}
+          unit={view}
+          now={now}
+          english={english}
+          trend={trends?.[cluster.id]}
+          runs={trendRuns}
+          world={world}
+          onOpenStoryIn={onOpenStoryIn}
+          onToast={onToast}
+        />
+      ) : story && shown ? (
+        <div className="panel-message">
+          <p>This story is no longer among {view.name}’s top stories.</p>
+          <button type="button" className="btn" onClick={backToList}>
+            See today’s top stories
+          </button>
+        </div>
+      ) : (
+        <Body
+          state={state}
+          now={now}
+          onRetry={onRetry}
+          view={view}
+          english={english}
+          onOpenStory={onOpenStory}
+          onOpenStoryIn={onOpenStoryIn}
+          trends={trends}
+          focusTitle={focusTitle}
+          focusId={focusId}
+        />
+      )}
       <p className="panel-footnote">
         Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets
         and ranked by how many outlets covered them in the last 24 hours.
