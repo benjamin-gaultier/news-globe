@@ -1,5 +1,6 @@
 import { COUNTRIES, REGIONS, type CountryCode, type RegionCode } from '@news-globe/shared';
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { HeatLegend } from './components/HeatLegend';
 import { NewsPanel } from './components/NewsPanel';
 import { useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
@@ -34,6 +35,11 @@ export function App() {
 
   const available = useMemo(
     () => new Set((indexData?.countries ?? []).map((c) => c.code).filter((c) => COUNTRIES[c])),
+    [indexData],
+  );
+
+  const entries = useMemo(
+    () => new Map([...(indexData?.countries ?? []), ...(indexData?.regions ?? [])].map((e) => [e.code, e])),
     [indexData],
   );
 
@@ -153,6 +159,7 @@ export function App() {
         <Suspense fallback={<div className="globe globe-loading" aria-hidden="true" />}>
           <GlobeView
             available={available}
+            entries={entries}
             selected={selected}
             onSelect={selectCountry}
             regions={regions}
@@ -164,6 +171,8 @@ export function App() {
           />
         </Suspense>
         {!meta && <p className="hint">Tap a highlighted country to see its top headlines</p>}
+        {/* An index from before the ingest wrote counts shades everything alike: no key then. */}
+        {!meta && indexData?.countries.some((c) => c.topOutlets !== undefined) && <HeatLegend />}
       </main>
 
       {meta && (

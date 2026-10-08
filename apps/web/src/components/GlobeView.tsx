@@ -1,8 +1,9 @@
-import { COUNTRIES, REGIONS, type CountryCode, type RegionCode, type RegionMeta } from '@news-globe/shared';
+import { COUNTRIES, REGIONS, type CountryCode, type IndexEntry, type RegionCode, type RegionMeta } from '@news-globe/shared';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Globe, { type GlobeMethods } from 'react-globe.gl';
 import { MeshPhongMaterial } from 'three';
 import countriesGeo from '../assets/countries-110m.json';
+import { COUNTRY_HEAT, heatStep, REGION_HEAT } from '../lib/heat';
 
 interface Shape {
   type: 'Feature';
@@ -59,13 +60,14 @@ async function loadRegionShapes(country: CountryCode): Promise<Shape[]> {
 }
 
 const COLORS = {
-  available: '#3fa7ff',
-  availableHover: '#8ccaff',
+  /** Available countries and regions take their shade from COUNTRY_HEAT / REGION_HEAT. */
+  /** Pale amber: the brightest heat steps are near-white, so hover borrows the selection's hue. */
+  availableHover: '#ffd894',
   selected: '#ffb547',
   /** The open country under its regions: still reads as selected, but the regions stand out. */
   selectedUnder: 'rgba(255, 181, 71, 0.35)',
   /** Regions of the open country: amber like the country, lighter on hover, dimmed while another is open. */
-  regionHover: '#ffd894',
+  regionHover: '#ffffff',
   regionDim: 'rgba(255, 181, 71, 0.45)',
   unavailable: 'rgba(148, 163, 184, 0.28)',
   side: 'rgba(8, 20, 40, 0.6)',
@@ -84,6 +86,8 @@ function escapeHtml(s: string): string {
 
 export interface GlobeViewProps {
   available: ReadonlySet<CountryCode>;
+  /** Index lines by country or region code, for each one's top story. */
+  entries: ReadonlyMap<string, IndexEntry>;
   selected: CountryCode | null;
   onSelect: (code: CountryCode) => void;
   onUnavailable: (name: string) => void;
@@ -99,6 +103,7 @@ export interface GlobeViewProps {
 
 export default function GlobeView({
   available,
+  entries,
   selected,
   onSelect,
   onUnavailable,
@@ -205,18 +210,24 @@ export default function GlobeView({
     [available, availableRegions],
   );
 
+  const entryOf = useCallback(
+    (f: Shape) => entries.get(f.properties.region ?? f.properties.iso2 ?? ''),
+    [entries],
+  );
+
   const capColor = useCallback(
     (obj: object) => {
       const f = obj as Shape;
       if (isSelected(f)) return isRegion(f) || !showingRegions ? COLORS.selected : COLORS.selectedUnder;
       if (!isAvailable(f)) return COLORS.unavailable;
+      const step = heatStep(entryOf(f)?.topOutlets);
       if (isRegion(f)) {
         if (f === hovered) return COLORS.regionHover;
-        return selectedRegion ? COLORS.regionDim : COLORS.selected;
+        return selectedRegion ? COLORS.regionDim : REGION_HEAT[step]!;
       }
-      return f === hovered ? COLORS.availableHover : COLORS.available;
+      return f === hovered ? COLORS.availableHover : COUNTRY_HEAT[step]!;
     },
-    [isSelected, hovered, isAvailable, showingRegions, selectedRegion],
+    [isSelected, hovered, isAvailable, showingRegions, selectedRegion, entryOf],
   );
 
   const altitude = useCallback(
@@ -245,9 +256,13 @@ export default function GlobeView({
           : isAvailable(f)
             ? 'Tap for top headlines'
             : 'Coming soon';
-      return `<div class="globe-tip"><strong>${escapeHtml(f.properties.name)}</strong><span>${hint}</span></div>`;
+      const entry = isAvailable(f) ? entryOf(f) : undefined;
+      const headline = entry?.topTitle ? `<em>${escapeHtml(entry.topTitle)}</em>` : '';
+      const n = entry?.topOutlets;
+      const count = n ? `${n} outlet${n === 1 ? '' : 's'} on this story · ` : '';
+      return `<div class="globe-tip"><strong>${escapeHtml(f.properties.name)}</strong>${headline}<span>${count}${hint}</span></div>`;
     },
-    [isAvailable, isSelected, showingRegions],
+    [isAvailable, isSelected, showingRegions, entryOf],
   );
 
   const handleClick = useCallback(

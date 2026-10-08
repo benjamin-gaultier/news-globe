@@ -82,6 +82,10 @@ export interface IndexEntry {
   name: string;
   updatedAt: string;
   clusterCount: number;
+  /** Headline of the top-ranked story. Optional: older index files have none. */
+  topTitle?: string;
+  /** Distinct outlets covering the top story in the last 24 h (its `outletCount24h`). */
+  topOutlets?: number;
 }
 
 export interface IndexFile {
