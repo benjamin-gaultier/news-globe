@@ -41,7 +41,8 @@ export function PanelShell({ heading, children, sheetKey, scrollKey, isMobile, o
   }, [onClose]);
 
   const onPointerDown = (e: ReactPointerEvent<HTMLDivElement>) => {
-    if (!isMobile || (e.target as HTMLElement).closest('button')) return;
+    // Buttons and fields in the header (close, crumb, the search box) stay usable: no drag from them.
+    if (!isMobile || (e.target as HTMLElement).closest('button, input')) return;
     try {
       e.currentTarget.setPointerCapture(e.pointerId);
     } catch {

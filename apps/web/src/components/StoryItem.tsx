@@ -1,5 +1,5 @@
 import { COUNTRIES, type Article, type ClusterTrend, type CountryCode, type StoryCluster } from '@news-globe/shared';
-import { useId, useState } from 'react';
+import { useEffect, useId, useRef, useState } from 'react';
 import { useTranslated } from '../hooks/useTranslated';
 import { relativeTime } from '../lib/time';
 import { TARGET_LANGUAGE, translatedPageUrl } from '../lib/translate';
@@ -116,6 +116,7 @@ export function StoryItem({
   english,
   onOpenCountry,
   trend,
+  focused = false,
 }: {
   cluster: StoryCluster;
   now: number;
@@ -123,8 +124,14 @@ export function StoryItem({
   onOpenCountry: (code: CountryCode) => void;
   /** This story's trend in the latest run, from trends.json. */
   trend?: ClusterTrend;
+  /** Scrolled into view and highlighted: the story a search result opened. */
+  focused?: boolean;
 }) {
   const [expanded, setExpanded] = useState(false);
+  const item = useRef<HTMLLIElement>(null);
+  useEffect(() => {
+    if (focused) item.current?.scrollIntoView?.({ block: 'center', behavior: 'smooth' });
+  }, [focused]);
   const listId = useId();
   const { representative: rep, related } = cluster;
   const others = related.length;
@@ -132,7 +139,7 @@ export function StoryItem({
   const foreign = rep.language !== TARGET_LANGUAGE;
 
   return (
-    <li className="story">
+    <li ref={item} className={`story${focused ? ' story-focused' : ''}`}>
       <div className="story-main">
         <div className="story-text">
           <ArticleLink article={rep} className="story-title" english={english} />
