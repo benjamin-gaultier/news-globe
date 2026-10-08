@@ -242,7 +242,21 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-05T15:07:11.000Z"
+      "latestPublishedAt": "2026-10-05T15:07:11.000Z",
+      "alsoIn": [
+        {
+          "code": "EC",
+          "clusterId": "kmWtTdYVbWRp"
+        },
+        {
+          "code": "CL",
+          "clusterId": "PLCNoL8c3ic6"
+        },
+        {
+          "code": "BR",
+          "clusterId": "BOWsxo7V46IH"
+        }
+      ]
     }
   ]
 }

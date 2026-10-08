@@ -157,7 +157,13 @@
       ],
       "outletCount24h": 0,
       "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T13:23:00.000Z"
+      "latestPublishedAt": "2026-10-06T13:23:00.000Z",
+      "alsoIn": [
+        {
+          "code": "GT",
+          "clusterId": "ED0LghRX6jNF"
+        }
+      ]
     },
     {
       "id": "TvoNXwm4SwfE",

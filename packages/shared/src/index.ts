@@ -61,6 +61,8 @@ export interface StoryCluster {
   outletCount: number;
   /** ISO 8601 of the most recent article in the cluster. */
   latestPublishedAt: string;
+  /** The same story in other countries' top stories. Optional: national files only, and older files have none. */
+  alsoIn?: { code: CountryCode; clusterId: string }[];
 }
 
 export interface CountryFile {
@@ -94,6 +96,20 @@ export interface IndexFile {
   countries: IndexEntry[];
   /** Regions with a file. Optional: older index files have none. */
   regions?: IndexEntry[];
+  /** Stories in several countries' top stories, most countries first. Optional: older index files have none. */
+  world?: WorldStory[];
+}
+
+/** One story found in several countries' top stories (see packages/ingest/src/world.ts). */
+export interface WorldStory {
+  /** Stable for the story's lifetime only as long as its clusters keep their ids. */
+  id: string;
+  /** Names the countries' headlines share (folded, e.g. "francis halzen"). */
+  names: string[];
+  /** One entry per country, best covered first. */
+  countries: { code: CountryCode; clusterId: string; title: string; url: string; outletCount24h: number }[];
+  /** ISO 8601 of the most recent article across the countries. */
+  latestPublishedAt: string;
 }
 
 /**

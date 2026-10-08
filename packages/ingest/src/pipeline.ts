@@ -21,6 +21,7 @@ import { mapLimit } from './limit';
 import { dedupeByCanonicalUrl, dropRepublished, isMisdecoded, isNotNews, isUnrenderedTemplate, toArticle } from './normalize/article';
 import { buildCluster, rankClusters } from './rank';
 import { INGEST_SETTINGS, SOURCES, type SourceConfig } from './sources.config';
+import { buildWorld } from './world';
 import { writeJsonAtomic } from './write';
 
 /** Repo-root `data/` unless DATA_DIR is set. */
@@ -135,6 +136,8 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   const updatedAt = new Date(now).toISOString();
   const summary: IngestSummary = { countries: [], regions: [] };
   const index: Pick<IndexFile, 'countries' | 'regions'> = { countries: [], regions: [] };
+  // National files wait for cross-border linking, which adds `alsoIn` to their clusters.
+  const nationalFiles: { file: string; out: CountryFile }[] = [];
 
   for (const unit of units) {
     const { code, name, file } = unit;
@@ -182,7 +185,8 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
             updatedAt,
             clusters,
           };
-    await writeJsonAtomic(file, out);
+    if (unit.kind === 'country') nationalFiles.push({ file, out });
+    else await writeJsonAtomic(file, out);
     indexList.push(indexEntry(code, name, updatedAt, clusters));
     summaryList.push({ code, articles: articles.length, clusters: clusters.length, written: true });
 
@@ -190,7 +194,11 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
     log(`${code}: ${articles.length} articles → ${groups.length} clusters (${multi} multi-outlet), wrote top ${clusters.length}`);
   }
 
-  const indexFile: IndexFile = { schemaVersion: SCHEMA_VERSION, updatedAt, ...index };
+  const world = buildWorld(nationalFiles.map(({ out }) => ({ code: out.countryCode, clusters: out.clusters })));
+  for (const { file, out } of nationalFiles) await writeJsonAtomic(file, out);
+  log(`world: ${world.length} cross-border stories${world[0] ? `, top in ${world[0].countries.length} countries` : ''}`);
+
+  const indexFile: IndexFile = { schemaVersion: SCHEMA_VERSION, updatedAt, ...index, world };
   await writeJsonAtomic(join(dataDir, 'index.json'), indexFile);
   return summary;
 }

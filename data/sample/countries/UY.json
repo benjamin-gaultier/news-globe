@@ -308,7 +308,29 @@
       ],
       "outletCount24h": 0,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T11:51:00.000Z"
+      "latestPublishedAt": "2026-10-06T11:51:00.000Z",
+      "alsoIn": [
+        {
+          "code": "DO",
+          "clusterId": "TXCoa7h9Gvtz"
+        },
+        {
+          "code": "HN",
+          "clusterId": "TIaAS64ECITX"
+        },
+        {
+          "code": "MA",
+          "clusterId": "IdUmMcdU71iX"
+        },
+        {
+          "code": "CA",
+          "clusterId": "saoe-rljOWgF"
+        },
+        {
+          "code": "CL",
+          "clusterId": "1nJ1OVrx5rWq"
+        }
+      ]
     },
     {
       "id": "00kq3xrunxgu",
@@ -380,7 +402,13 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:40:26.000Z"
+      "latestPublishedAt": "2026-10-06T11:40:26.000Z",
+      "alsoIn": [
+        {
+          "code": "ES",
+          "clusterId": "fXfk_dWG0dxC"
+        }
+      ]
     }
   ]
 }

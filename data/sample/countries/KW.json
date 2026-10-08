@@ -445,7 +445,13 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-07T10:53:00.000Z"
+      "latestPublishedAt": "2026-10-07T10:53:00.000Z",
+      "alsoIn": [
+        {
+          "code": "AE",
+          "clusterId": "wYE7IXd2xGp2"
+        }
+      ]
     },
     {
       "id": "3UIW2PoKfaTP",

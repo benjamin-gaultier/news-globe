@@ -30,6 +30,8 @@ CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs `pnpm typecheck`,
 
 **Shading.** Each country on the globe is shaded by how many outlets covered its top story in the last 24 hours (≤1, 2, 3, 4, 5+; a legend sits in the corner), and hovering shows that headline. The regions of an open country get the same treatment in amber. Both read `topTitle` and `topOutlets` from `index.json`, so no country file is fetched until a click ([lib/heat.ts](apps/web/src/lib/heat.ts)).
 
+**Across borders.** When the same story is in several countries' top headlines, the **Across borders** chip (`/#world`) lists those stories with each country's headline, and arcs join the countries on the globe. A story in a country's list that runs elsewhere too shows "Also in" links to those countries. The matching uses no translation: see **Link** under [Pipeline details](#pipeline-details).
+
 **Links.** The open view lives in the URL hash, so it can be shared: `/#FR` opens France and `/#FR-BRE` opens Brittany (a region code names its country). Codes are case-insensitive. Back and Forward step through the views you opened. A link to a country or region with no data falls back to the globe or to the country ([lib/route.ts](apps/web/src/lib/route.ts)).
 
 ## Layout
@@ -185,6 +187,7 @@ To update the Pi (e.g. after adding a country; merging it to `main` already rede
 | **Dedupe** | Exact match on canonical URL. Outlets often list the same article in two section feeds. |
 | **Cluster** | Titles are folded (NFD, accents stripped, lowercase, punctuation removed) and FR+EN stopwords and live-blog boilerplate ("EN DIRECT", "LIVE") are dropped. Light suffix folding means *inscrites* ≡ *inscrits* and *lycées* ≡ *lycée*. The pipeline then computes pairwise token-set Jaccard within a country. A cross-outlet pair is a candidate link when similarity ≥ `clusterThreshold` (0.3) **and** the titles share ≥ 2 tokens; two articles from the same outlet are never linked directly. Links are applied strongest first with union-find, and two existing groups only merge if their **average** pairwise similarity is ≥ `clusterMinAverageLink` (0.2). That guard stops one bridging headline from chaining two stories together. |
 | **Rank** | First by distinct outlets in the last 24 h, then by most recent article. The representative is the highest-authority outlet, with ties going to the earliest article. "+N other sources" shows one article per other outlet. The top 15 clusters are kept. |
+| **Link** | Across countries, without translation: clusters whose headlines share two separate names (people, places, organisations), one of them rare in the run, are the same story. Names are runs of capitalised words, joined across particles ("Corée du Sud") but not punctuation; in title-case headlines, and for a title's first word, only words seen capitalised mid-sentence elsewhere count. Groups merge only on a high average link, as in clustering. Linked clusters get `alsoIn`; the top 20 groups go into `index.json` as `world` ([world.ts](packages/ingest/src/world.ts)). |
 | **Write** | Atomic: write to a tmp file, then rename. If every feed for a country fails and nothing is cached, the previous file is kept rather than blanked. |
 
 **Why the threshold is 0.3, not 0.4:** on the live feeds (2026-10-06), headlines about the same story from different outlets mostly scored 0.3–0.5, because French headlines in particular are long and worded differently. On ~200 raw FR feed items, 0.4 produced 5 multi-outlet clusters and 0.3 produced 11. Only one of the 11 was borderline: two different Édouard Philippe pieces. The cluster tests use real headline pairs at the configured threshold.
@@ -213,7 +216,13 @@ Types live in [packages/shared/src/index.ts](packages/shared/src/index.ts). `sch
     "topTitle": "…",   // the top story's headline        (optional: older files have neither)
     "topOutlets": 4    // its outletCount24h
   }],
-  "regions": [{ "code": "FR-BRE", "name": "Brittany", "updatedAt": "…", "clusterCount": 15 }]  // optional
+  "regions": [{ "code": "FR-BRE", "name": "Brittany", "updatedAt": "…", "clusterCount": 15 }],  // optional
+  "world": [{                       // optional: cross-border stories, most countries first, ≤ 20
+    "id": "…",
+    "names": ["francis halzen", "nobel"],   // names the countries' headlines share (folded)
+    "countries": [{ "code": "UY", "clusterId": "…", "title": "…", "url": "…", "outletCount24h": 2 }],
+    "latestPublishedAt": "…"
+  }]
 }
 ```
 
@@ -232,7 +241,8 @@ Types live in [packages/shared/src/index.ts](packages/shared/src/index.ts). `sch
       "related": [Article],         // one per other outlet, newest first
       "outletCount24h": 4,
       "outletCount": 4,
-      "latestPublishedAt": "…"
+      "latestPublishedAt": "…",
+      "alsoIn": [{ "code": "DE", "clusterId": "…" }]   // optional: the same story in other countries
     }
   ]
 }
@@ -2664,6 +2674,8 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 **GDELT adapter.** Interface and stub are in [adapters/gdelt.ts](packages/ingest/src/adapters/gdelt.ts). The plan is to query the free GDELT DOC 2.0 API (`mode=ArtList`, `sourcecountry:<FIPS>`, `sourcelang:`, 6 h timespan) through the same `HttpCache` throttle. Each article's domain would count as its outlet, with a domain → authority table. GDELT uses FIPS 10-4 codes rather than ISO, so an ISO→FIPS map is needed. This is the path to covering most countries without curating feeds one by one. It returns no snippets, so `description` would be `null`.
 
 **More regions.** France, Germany, Spain, Italy, the US, Canada, Australia, Brazil, Mexico, Argentina and India have regions (see Sources). Adding a country means adding its entries to `REGIONS` ([shared](packages/shared/src/index.ts)), sources with `region`, and an outline file next to `regions-fr.json`, registered in `REGION_SHAPES` ([GlobeView.tsx](apps/web/src/components/GlobeView.tsx)). Natural Earth 10m admin-1 has states and provinces for most countries. Later, tag national outlets' stories with a region from place names in titles.
+
+**Cross-border stories.** Use the history archive as a background corpus, so words that make the news every day (ministries, leaders' names) weigh less than this week's names. Link regions too, and match names across scripts (Трамп ↔ Trump) with a small transliteration table.
 
 **Clustering.** Use the snippet's top tokens as a weaker second signal, and add a time-decay so a story from 40 hours ago doesn't absorb today's follow-up.
 

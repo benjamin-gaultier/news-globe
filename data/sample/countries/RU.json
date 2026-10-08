@@ -541,7 +541,13 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T15:57:39.000Z"
+      "latestPublishedAt": "2026-10-06T15:57:39.000Z",
+      "alsoIn": [
+        {
+          "code": "KZ",
+          "clusterId": "iGmIznY6NEn_"
+        }
+      ]
     },
     {
       "id": "lDX-kIh44iis",

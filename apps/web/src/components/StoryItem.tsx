@@ -1,4 +1,4 @@
-import type { Article, StoryCluster } from '@news-globe/shared';
+import { COUNTRIES, type Article, type CountryCode, type StoryCluster } from '@news-globe/shared';
 import { useId, useState } from 'react';
 import { useTranslated } from '../hooks/useTranslated';
 import { relativeTime } from '../lib/time';
@@ -38,7 +38,33 @@ function ArticleLink({ article, className, english }: { article: Article; classN
   );
 }
 
-export function StoryItem({ cluster, now, english }: { cluster: StoryCluster; now: number; english: boolean }) {
+/** "Also in Germany · Chile": the same story in other countries' top stories. */
+function AlsoIn({ cluster, onOpenCountry }: { cluster: StoryCluster; onOpenCountry: (code: CountryCode) => void }) {
+  const countries = (cluster.alsoIn ?? []).filter((a) => COUNTRIES[a.code]);
+  if (!countries.length) return null;
+  return (
+    <p className="story-also">
+      <span className="story-also-label">Also in</span>
+      {countries.map((a) => (
+        <button key={a.code} type="button" className="chip chip-small" onClick={() => onOpenCountry(a.code)}>
+          {COUNTRIES[a.code]!.name}
+        </button>
+      ))}
+    </p>
+  );
+}
+
+export function StoryItem({
+  cluster,
+  now,
+  english,
+  onOpenCountry,
+}: {
+  cluster: StoryCluster;
+  now: number;
+  english: boolean;
+  onOpenCountry: (code: CountryCode) => void;
+}) {
   const [expanded, setExpanded] = useState(false);
   const listId = useId();
   const { representative: rep, related } = cluster;
@@ -79,6 +105,7 @@ export function StoryItem({ cluster, now, english }: { cluster: StoryCluster; no
         </div>
         <Thumbnail src={rep.imageUrl} />
       </div>
+      <AlsoIn cluster={cluster} onOpenCountry={onOpenCountry} />
 
       {others > 0 && (
         <>

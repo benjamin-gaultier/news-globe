@@ -50,7 +50,21 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:24:51.000Z"
+      "latestPublishedAt": "2026-10-06T13:24:51.000Z",
+      "alsoIn": [
+        {
+          "code": "SV",
+          "clusterId": "vVRPVDhKc8bF"
+        },
+        {
+          "code": "EC",
+          "clusterId": "kmWtTdYVbWRp"
+        },
+        {
+          "code": "BR",
+          "clusterId": "BOWsxo7V46IH"
+        }
+      ]
     },
     {
       "id": "g8tBC2CYlJX0",
@@ -194,7 +208,29 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:14:42.000Z"
+      "latestPublishedAt": "2026-10-06T13:14:42.000Z",
+      "alsoIn": [
+        {
+          "code": "UY",
+          "clusterId": "ffnXnnbZGpvA"
+        },
+        {
+          "code": "DO",
+          "clusterId": "TXCoa7h9Gvtz"
+        },
+        {
+          "code": "HN",
+          "clusterId": "TIaAS64ECITX"
+        },
+        {
+          "code": "MA",
+          "clusterId": "IdUmMcdU71iX"
+        },
+        {
+          "code": "CA",
+          "clusterId": "saoe-rljOWgF"
+        }
+      ]
     },
     {
       "id": "W7iuq2MQVlEq",

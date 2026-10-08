@@ -1,13 +1,10 @@
-import type { CountryFile, CountryMeta, RegionCode, RegionMeta } from '@news-globe/shared';
-import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react';
+import type { CountryCode, CountryFile, CountryMeta, RegionCode, RegionMeta } from '@news-globe/shared';
+import { useEffect, useState } from 'react';
 import type { AsyncState } from '../hooks/useAsync';
 import { relativeTime } from '../lib/time';
 import { canTranslateOnDevice, getTranslator, TARGET_LANGUAGE } from '../lib/translate';
+import { PanelShell } from './PanelShell';
 import { StoryItem } from './StoryItem';
-
-/** Bottom-sheet snap points, as a fraction of the viewport height. */
-export const SHEET_SNAPS = { half: 0.52, full: 0.9 } as const;
-type Snap = keyof typeof SHEET_SNAPS;
 
 interface NewsPanelProps {
   country: CountryMeta;
@@ -23,6 +20,8 @@ interface NewsPanelProps {
   onClose: () => void;
   onRetry: () => void;
   onSheetChange: (fraction: number) => void;
+  /** Opens another country, from a story's "Also in" links. */
+  onOpenCountry: (code: CountryCode) => void;
 }
 
 function Skeleton() {
@@ -73,7 +72,11 @@ function Body({
   onRetry,
   view,
   english,
-}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry'> & { view: { code: string; name: string }; english: boolean }) {
+  onOpenCountry,
+}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'onOpenCountry'> & {
+  view: { code: string; name: string };
+  english: boolean;
+}) {
   const data = visibleData(state, view.code);
 
   if (state.status === 'error') {
@@ -99,7 +102,7 @@ function Body({
   return (
     <ol className="story-list">
       {data.clusters.map((c) => (
-        <StoryItem key={c.id} cluster={c} now={now} english={english} />
+        <StoryItem key={c.id} cluster={c} now={now} english={english} onOpenCountry={onOpenCountry} />
       ))}
     </ol>
   );
@@ -116,66 +119,10 @@ export function NewsPanel({
   onClose,
   onRetry,
   onSheetChange,
+  onOpenCountry,
 }: NewsPanelProps) {
   const view = region ?? country;
-  const [snap, setSnap] = useState<Snap>('half');
-  const [dragHeight, setDragHeight] = useState<number | null>(null);
-  // Live drag state lives in a ref: pointerup can fire before React re-renders after the last move.
-  const drag = useRef<{ startY: number; startHeight: number; height: number; moved: boolean } | null>(null);
-  const panelRef = useRef<HTMLElement>(null);
   const [languageMode, setLanguageMode] = useState<LanguageMode>(readLanguageMode);
-
-  useEffect(() => onSheetChange(isMobile ? SHEET_SNAPS[snap] : 0), [snap, isMobile, onSheetChange]);
-
-  // Start each country at half height, scrolled to the top; switching region only scrolls.
-  useEffect(() => {
-    setSnap('half');
-  }, [country.code]);
-  useEffect(() => {
-    panelRef.current?.querySelector('.panel-body')?.scrollTo({ top: 0 });
-  }, [view.code]);
-
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose();
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [onClose]);
-
-  const onPointerDown = (e: ReactPointerEvent<HTMLDivElement>) => {
-    if (!isMobile || (e.target as HTMLElement).closest('button')) return;
-    try {
-      e.currentTarget.setPointerCapture(e.pointerId);
-    } catch {
-      // Not fatal: we still get moves while the pointer stays over the header.
-    }
-    const startHeight = panelRef.current?.getBoundingClientRect().height ?? 0;
-    drag.current = { startY: e.clientY, startHeight, height: startHeight, moved: false };
-  };
-
-  const onPointerMove = (e: ReactPointerEvent<HTMLDivElement>) => {
-    const d = drag.current;
-    if (!d) return;
-    const dy = e.clientY - d.startY;
-    if (Math.abs(dy) > 4) d.moved = true;
-    const max = window.innerHeight * SHEET_SNAPS.full;
-    d.height = Math.max(80, Math.min(max, d.startHeight - dy));
-    setDragHeight(d.height);
-  };
-
-  const endDrag = (e: ReactPointerEvent<HTMLDivElement>) => {
-    const d = drag.current;
-    drag.current = null;
-    setDragHeight(null);
-    if (!d) return;
-    if (!d.moved) {
-      // A tap on the handle toggles between the two heights.
-      if (e.type === 'pointerup') setSnap((s) => (s === 'half' ? 'full' : 'half'));
-      return;
-    }
-    const fraction = d.height / window.innerHeight;
-    if (fraction < SHEET_SNAPS.half * 0.6) onClose();
-    else setSnap(fraction > (SHEET_SNAPS.half + SHEET_SNAPS.full) / 2 ? 'full' : 'half');
-  };
 
   const file = state.status === 'ready' ? state.data : null;
   const languages = foreignLanguages(visibleData(state, view.code));
@@ -210,77 +157,62 @@ export function NewsPanel({
     // Create translators inside the click: downloading a model needs a user gesture.
     if (mode === 'en') for (const lang of languages) void getTranslator(lang);
   };
-  const style = isMobile
-    ? { height: dragHeight !== null ? `${dragHeight}px` : `${SHEET_SNAPS[snap] * 100}dvh` }
-    : undefined;
+  const heading = (
+    <>
+      {region && (
+        <button type="button" className="crumb" onClick={() => onSelectRegion(null)}>
+          ‹ {country.name}
+        </button>
+      )}
+      <h2 id="panel-title">{view.name}</h2>
+      <p className="panel-sub">
+        Top {region ? 'regional' : 'national'} headlines
+        {file && <> · updated {relativeTime(file.updatedAt, now)}</>}
+      </p>
+      {languages.length > 0 && (
+        <div className="lang-toggle" role="group" aria-label="Headline language">
+          <button type="button" aria-pressed={!english} onClick={() => chooseLanguage('original')}>
+            Original
+          </button>
+          <button type="button" aria-pressed={english} onClick={() => chooseLanguage('en')}>
+            English
+          </button>
+        </div>
+      )}
+    </>
+  );
 
   return (
-    <aside
-      ref={panelRef}
-      className={`panel${dragHeight !== null ? ' dragging' : ''}`}
-      style={style}
-      aria-labelledby="panel-title"
+    <PanelShell
+      heading={heading}
+      sheetKey={country.code}
+      scrollKey={view.code}
+      isMobile={isMobile}
+      onClose={onClose}
+      onSheetChange={onSheetChange}
     >
-      <div
-        className="panel-header"
-        onPointerDown={onPointerDown}
-        onPointerMove={onPointerMove}
-        onPointerUp={endDrag}
-        onPointerCancel={endDrag}
-      >
-        <div className="sheet-handle" aria-hidden="true" />
-        <div className="panel-heading">
-          {region && (
-            <button type="button" className="crumb" onClick={() => onSelectRegion(null)}>
-              ‹ {country.name}
+      {!region && regions.length > 0 && (
+        <nav className="region-picker" aria-label={`Regions of ${country.name}`}>
+          <span className="region-picker-label">Regions</span>
+          {regions.map((r) => (
+            <button key={r.code} type="button" className="chip chip-small" onClick={() => onSelectRegion(r.code)}>
+              {r.name}
             </button>
-          )}
-          <h2 id="panel-title">{view.name}</h2>
-          <p className="panel-sub">
-            Top {region ? 'regional' : 'national'} headlines
-            {file && <> · updated {relativeTime(file.updatedAt, now)}</>}
-          </p>
-          {languages.length > 0 && (
-            <div className="lang-toggle" role="group" aria-label="Headline language">
-              <button type="button" aria-pressed={!english} onClick={() => chooseLanguage('original')}>
-                Original
-              </button>
-              <button type="button" aria-pressed={english} onClick={() => chooseLanguage('en')}>
-                English
-              </button>
-            </div>
-          )}
-        </div>
-        <button type="button" className="icon-btn" onClick={onClose} aria-label="Close headlines">
-          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-            <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-          </svg>
-        </button>
-      </div>
-      <div className="panel-body">
-        {!region && regions.length > 0 && (
-          <nav className="region-picker" aria-label={`Regions of ${country.name}`}>
-            <span className="region-picker-label">Regions</span>
-            {regions.map((r) => (
-              <button key={r.code} type="button" className="chip chip-small" onClick={() => onSelectRegion(r.code)}>
-                {r.name}
-              </button>
-            ))}
-          </nav>
-        )}
-        {english && translation === 'pending' && <p className="panel-note">Translating headlines on this device…</p>}
-        {english && translation === 'unavailable' && (
-          <p className="panel-note">
-            This browser can’t translate headlines on-device (Chrome 138+ on desktop can). Use “Read in English” to open
-            a translated copy of an article.
-          </p>
-        )}
-        <Body state={state} now={now} onRetry={onRetry} view={view} english={english} />
-        <p className="panel-footnote">
-          Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets
-          and ranked by how many outlets covered them in the last 24 hours.
+          ))}
+        </nav>
+      )}
+      {english && translation === 'pending' && <p className="panel-note">Translating headlines on this device…</p>}
+      {english && translation === 'unavailable' && (
+        <p className="panel-note">
+          This browser can’t translate headlines on-device (Chrome 138+ on desktop can). Use “Read in English” to open
+          a translated copy of an article.
         </p>
-      </div>
-    </aside>
+      )}
+      <Body state={state} now={now} onRetry={onRetry} view={view} english={english} onOpenCountry={onOpenCountry} />
+      <p className="panel-footnote">
+        Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets
+        and ranked by how many outlets covered them in the last 24 hours.
+      </p>
+    </PanelShell>
   );
 }

@@ -209,7 +209,13 @@
       ],
       "outletCount24h": 1,
       "outletCount": 3,
-      "latestPublishedAt": "2026-10-06T15:44:36.000Z"
+      "latestPublishedAt": "2026-10-06T15:44:36.000Z",
+      "alsoIn": [
+        {
+          "code": "GH",
+          "clusterId": "r9gwE8ikJorO"
+        }
+      ]
     },
     {
       "id": "s0VRVeCqRwOf",

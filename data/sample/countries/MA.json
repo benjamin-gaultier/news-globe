@@ -433,7 +433,29 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:10:32.000Z"
+      "latestPublishedAt": "2026-10-06T12:10:32.000Z",
+      "alsoIn": [
+        {
+          "code": "UY",
+          "clusterId": "ffnXnnbZGpvA"
+        },
+        {
+          "code": "DO",
+          "clusterId": "TXCoa7h9Gvtz"
+        },
+        {
+          "code": "HN",
+          "clusterId": "TIaAS64ECITX"
+        },
+        {
+          "code": "CA",
+          "clusterId": "saoe-rljOWgF"
+        },
+        {
+          "code": "CL",
+          "clusterId": "1nJ1OVrx5rWq"
+        }
+      ]
     }
   ]
 }

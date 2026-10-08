@@ -391,7 +391,29 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T15:47:00.000Z"
+      "latestPublishedAt": "2026-10-06T15:47:00.000Z",
+      "alsoIn": [
+        {
+          "code": "NO",
+          "clusterId": "FwvbtaMNgpD6"
+        },
+        {
+          "code": "LT",
+          "clusterId": "9IlVmx8i8X6-"
+        },
+        {
+          "code": "GR",
+          "clusterId": "h7LYnjuxTk8o"
+        },
+        {
+          "code": "PR",
+          "clusterId": "Pbp5AJukkAxe"
+        },
+        {
+          "code": "CZ",
+          "clusterId": "1PYMBYPnr0PS"
+        }
+      ]
     },
     {
       "id": "ri-V51V2-KHo",

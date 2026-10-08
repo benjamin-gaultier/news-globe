@@ -398,7 +398,25 @@
       "related": [],
       "outletCount24h": 1,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T14:06:48.000Z"
+      "latestPublishedAt": "2026-10-06T14:06:48.000Z",
+      "alsoIn": [
+        {
+          "code": "GN",
+          "clusterId": "sENg9npFZysX"
+        },
+        {
+          "code": "ML",
+          "clusterId": "jh88dynqhOua"
+        },
+        {
+          "code": "BJ",
+          "clusterId": "m_SSWZQf6s_C"
+        },
+        {
+          "code": "BF",
+          "clusterId": "mpMoTRAk07q0"
+        }
+      ]
     }
   ]
 }
