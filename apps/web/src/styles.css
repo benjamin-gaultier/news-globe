@@ -369,6 +369,14 @@ button {
   border-color: var(--accent);
 }
 
+.tool-btn-small {
+  min-height: 34px;
+  padding: 0 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  backdrop-filter: none;
+}
+
 .tool-btn[aria-pressed='true'] {
   border-color: var(--accent);
   background: var(--accent);
@@ -503,12 +511,6 @@ button {
   border-radius: 50%;
   background: #4ade80;
   box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.2);
-}
-
-.history-open {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
 }
 
 /* The same place switching between live and History: no slide-in. */

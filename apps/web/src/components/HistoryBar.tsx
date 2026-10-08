@@ -70,9 +70,9 @@ export function LiveBar({ onHistory }: { onHistory: () => void }) {
         <span className="live-dot" aria-hidden="true" />
         Live
       </span>
-      <button type="button" className="chip chip-small history-open" onClick={onHistory}>
+      <button type="button" className="tool-btn tool-btn-small" onClick={onHistory}>
         <ClockIcon />
-        Earlier headlines
+        History
       </button>
     </div>
   );

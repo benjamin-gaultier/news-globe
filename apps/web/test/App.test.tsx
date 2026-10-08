@@ -306,7 +306,7 @@ describe('App', () => {
       files.archive = () => true;
       await renderApp('#FR');
       await screen.findByRole('link', { name: 'Le budget adopté' });
-      await userEvent.click(within(panel()!).getByRole('button', { name: 'Earlier headlines' }));
+      await userEvent.click(within(panel()!).getByRole('button', { name: 'History' }));
       expect(await screen.findByRole('link', { name: 'Archived budget story' })).toBeTruthy();
       expect(within(panel()!).getByRole('slider')).toBeTruthy();
       expect(location.hash.startsWith('#FR@')).toBe(true);

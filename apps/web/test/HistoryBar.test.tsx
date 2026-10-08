@@ -102,7 +102,7 @@ describe('LiveBar', () => {
     const onHistory = vi.fn();
     render(<LiveBar onHistory={onHistory} />);
     expect(screen.getByText('Live')).toBeTruthy();
-    await userEvent.click(screen.getByRole('button', { name: 'Earlier headlines' }));
+    await userEvent.click(screen.getByRole('button', { name: 'History' }));
     expect(onHistory).toHaveBeenCalled();
   });
 });
