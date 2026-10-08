@@ -149,20 +149,37 @@ export default function GlobeView({
   // where the finger was, so while the camera flies to the country, whatever passes under
   // that spot would light up as hovered. Once a touch lifts (and its click has fired), move
   // the pointer off the canvas.
+  //
+  // Only once the last finger lifts: while another is still down (a pinch ending one finger
+  // at a time), the orbit controls are tracking it and would read the far-off move as a
+  // huge drag, spinning the globe.
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
+    const down = new Set<number>();
+    const onPointerDown = (ev: PointerEvent) => {
+      if (ev.pointerType !== 'mouse') down.add(ev.pointerId);
+    };
     const onPointerUp = (ev: PointerEvent) => {
-      if (ev.pointerType === 'mouse') return;
+      if (ev.pointerType === 'mouse' || !down.delete(ev.pointerId) || down.size > 0) return;
       // globe.gl fires its click in the next frame; queue behind it so the tap still lands.
       requestAnimationFrame(() => {
+        if (down.size > 0) return; // a new touch began meanwhile
         el.querySelector('canvas')?.dispatchEvent(
           new PointerEvent('pointermove', { bubbles: true, clientX: -1e5, clientY: -1e5, pointerType: ev.pointerType }),
         );
       });
     };
-    el.addEventListener('pointerup', onPointerUp);
-    return () => el.removeEventListener('pointerup', onPointerUp);
+    // Touches start on the globe, but a finger may lift anywhere (over the panel, say): listen
+    // for the end on the window, in the capture phase so nothing stops it first.
+    el.addEventListener('pointerdown', onPointerDown, true);
+    window.addEventListener('pointerup', onPointerUp, true);
+    window.addEventListener('pointercancel', onPointerUp, true);
+    return () => {
+      el.removeEventListener('pointerdown', onPointerDown, true);
+      window.removeEventListener('pointerup', onPointerUp, true);
+      window.removeEventListener('pointercancel', onPointerUp, true);
+    };
   }, []);
 
   // Load the open country's region outlines once it has regional headlines.

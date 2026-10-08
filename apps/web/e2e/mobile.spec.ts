@@ -59,4 +59,41 @@ test.describe('globe on a phone', () => {
       await expect(tooltip(page)).toBeHidden({ timeout: 0 });
     }
   });
+
+  test('stays put when a pinch ends one finger at a time', async ({ page }) => {
+    test.setTimeout(60_000); // two scans of the globe
+    await serveData(page, { countries: { US: 1, FR: 1 } });
+    await page.goto('/#US');
+    await expect(page.getByRole('heading', { name: 'United States' })).toBeVisible();
+    await page.waitForTimeout(2_500);
+    await page.getByRole('button', { name: 'Close headlines' }).click();
+    await expect(page.locator('.panel')).toHaveCount(0);
+    await page.waitForTimeout(1_000);
+
+    const canvas = (await page.locator('.globe canvas').boundingBox())!;
+    const spot = await find(page, 'United States', canvas.y + canvas.height);
+    await page.mouse.move(0, 0);
+
+    // Two fingers spread apart around the spot (zoom in), then lift one before the other,
+    // as fingers do: real touch events, so the globe's controls see a genuine pinch.
+    const cdp = await page.context().newCDPSession(page);
+    const fingers = (gap: number) => [
+      { x: spot.x - gap, y: spot.y, id: 1 },
+      { x: spot.x + gap, y: spot.y, id: 2 },
+    ];
+    // A small zoom, so the United States stays in view.
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: fingers(30) });
+    for (let gap = 31; gap <= 36; gap++) {
+      await cdp.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: fingers(gap) });
+    }
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [fingers(36)[1]!] });
+    await page.waitForTimeout(100);
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+    await page.waitForTimeout(1_000); // let damping settle
+
+    // Lifting the first finger used to spin the globe to the South Pole, when the tap
+    // clean-up's far-off pointer move reached the controls. After a small zoom the United
+    // States is still in view (find throws if it is not).
+    await find(page, 'United States', canvas.y + canvas.height);
+  });
 });
