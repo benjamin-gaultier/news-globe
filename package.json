@@ -14,6 +14,7 @@
     "probe": "pnpm --filter @news-globe/ingest probe",
     "cache:merge": "pnpm --filter @news-globe/ingest cache:merge",
     "test": "pnpm -r --if-present test",
+    "coverage": "pnpm -r --if-present coverage",
     "typecheck": "pnpm -r --if-present typecheck"
   }
 }

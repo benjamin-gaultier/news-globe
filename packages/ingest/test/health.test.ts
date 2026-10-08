@@ -1,6 +1,10 @@
-import { describe, expect, it } from 'vitest';
-import { buildStatus } from '../src/health';
-import type { SourceConfig } from '../src/sources.config';
+import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import type { StatusFile } from '@news-globe/shared';
+import { buildStatus, writeStatus } from '../src/health';
+import { SOURCES, type SourceConfig } from '../src/sources.config';
 
 const source = (id: string, country: string, feedUrls: string[], region?: string): SourceConfig => ({
   id,
@@ -71,5 +75,45 @@ describe('buildStatus', () => {
     const status = buildStatus({ 'https://lesoir/a': failed(T2, T1, 200) }, sources, T2);
     expect(status.feeds.failing).toEqual([{ source: 'lesoir', unit: 'BE', url: 'https://lesoir/a', lastStatus: 200, lastOkAt: T1 }]);
     expect(status.darkUnits).toEqual([{ code: 'BE', since: T1 }]);
+  });
+});
+
+describe('writeStatus', () => {
+  let dir: string;
+
+  beforeEach(async () => {
+    dir = await mkdtemp(join(tmpdir(), 'news-globe-health-'));
+  });
+
+  afterEach(async () => {
+    await rm(dir, { recursive: true, force: true });
+    vi.restoreAllMocks();
+  });
+
+  it('writes status.json from the HTTP cache the run left behind', async () => {
+    const [first] = SOURCES.filter((s) => s.type === 'rss');
+    const url = first!.feedUrls[0]!;
+    await mkdir(join(dir, '.cache'));
+    await writeFile(join(dir, '.cache', 'http.json'), JSON.stringify({ version: 1, entries: { [url]: failed(T2, T0, 503) } }));
+    const log = vi.spyOn(console, 'log').mockImplementation(() => {});
+
+    await writeStatus(dir, T2);
+
+    const status = JSON.parse(await readFile(join(dir, 'status.json'), 'utf8')) as StatusFile;
+    expect(status.updatedAt).toBe(T2);
+    expect(status.feeds.failing).toEqual([
+      { source: first!.id, unit: first!.region ?? first!.country, url, lastStatus: 503, lastOkAt: T0 },
+    ]);
+    expect(status.feeds.total).toBe(SOURCES.filter((s) => s.type === 'rss').reduce((n, s) => n + s.feedUrls.length, 0));
+    expect(log).toHaveBeenCalledWith(expect.stringMatching(/^\[status\] 1\/\d+ feeds failing/));
+  });
+
+  it('logs instead of throwing when there is no cache yet', async () => {
+    const error = vi.spyOn(console, 'error').mockImplementation(() => {});
+
+    await expect(writeStatus(dir, T2)).resolves.toBeUndefined();
+
+    expect(error).toHaveBeenCalledWith('[status] failed:', expect.stringContaining('ENOENT'));
+    await expect(readFile(join(dir, 'status.json'))).rejects.toThrow();
   });
 });
