@@ -16,7 +16,7 @@ interface Env {
 }
 
 // Same public contract as the Vite dev plugin: nothing else in KV is reachable.
-const PUBLIC_KEY = /^(index\.json|countries\/[A-Z]{2}\.json|regions\/[A-Z]{2}-[A-Z0-9]{1,3}\.json)$/;
+const PUBLIC_KEY = /^(index\.json|status\.json|countries\/[A-Z]{2}\.json|regions\/[A-Z]{2}-[A-Z0-9]{1,3}\.json)$/;
 
 /** Browsers/CDN may reuse a response for a minute; the ingest only runs every 15. */
 const MAX_AGE_S = 60;
