@@ -91,9 +91,68 @@ test.describe('globe on a phone', () => {
     await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
     await page.waitForTimeout(1_000); // let damping settle
 
+    // The release is not a tap: nothing opens, and the camera doesn't fly off to the
+    // country under the fingers (it used to: globe.gl took the pinch's end for a tap).
+    await expect(page.locator('.panel')).toHaveCount(0);
+    await expect(page).not.toHaveURL(/#[A-Z]/);
     // Lifting the first finger used to spin the globe to the South Pole, when the tap
     // clean-up's far-off pointer move reached the controls. After a small zoom the United
     // States is still in view (find throws if it is not).
     await find(page, 'United States', canvas.y + canvas.height);
+  });
+
+  test('opens nothing when a pinch zoom ends over a country', async ({ page }) => {
+    test.setTimeout(90_000); // each touch move waits for a (software-rendered) frame
+    await serveData(page, { countries: { US: 1, CA: 1, FR: 1 } });
+    await page.goto('/');
+    await page.waitForTimeout(4_000); // globe load
+    await expect(page.locator('.panel')).toHaveCount(0);
+
+    // A zoom as a thumb and finger make it: diagonal, four times wider, over half a second,
+    // above-left of the centre, over North America on the opening view. Both lift together.
+    const cdp = await page.context().newCDPSession(page);
+    const c = { x: 120, y: 250 };
+    const fingers = (gap: number) => [
+      { x: c.x - gap * 0.6, y: c.y - gap * 0.8, id: 1 },
+      { x: c.x + gap * 0.6, y: c.y + gap * 0.8, id: 2 },
+    ];
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: fingers(40) });
+    for (let i = 1; i <= 60; i++) {
+      await cdp.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: fingers(40 + i * 2) });
+      await page.waitForTimeout(16);
+    }
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+    await page.waitForTimeout(1_000);
+
+    // globe.gl used to take the end of the pinch for a tap, opening the country under the
+    // fingers and flying the camera to it: the globe seemed to spin on every zoom.
+    await expect(page.locator('.panel')).toHaveCount(0);
+    await expect(page).not.toHaveURL(/#[A-Z]/);
+  });
+
+  test('opens nothing when a one-finger drag ends over a country', async ({ page }) => {
+    test.setTimeout(60_000);
+    await serveData(page, { countries: { US: 1, FR: 1 } });
+    await page.goto('/#US');
+    await expect(page.getByRole('heading', { name: 'United States' })).toBeVisible();
+    await page.waitForTimeout(2_500);
+    await page.getByRole('button', { name: 'Close headlines' }).click();
+    await expect(page.locator('.panel')).toHaveCount(0);
+    await page.waitForTimeout(1_000);
+
+    const canvas = (await page.locator('.globe canvas').boundingBox())!;
+    const spot = await find(page, 'United States', canvas.y + canvas.height);
+    await page.mouse.move(0, 0);
+
+    // A short sideways drag that starts and ends on the United States.
+    const cdp = await page.context().newCDPSession(page);
+    const at = (dx: number) => [{ x: spot.x + dx, y: spot.y, id: 1 }];
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: at(-30) });
+    for (let dx = -25; dx <= 30; dx += 5) await cdp.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: at(dx) });
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+    await page.waitForTimeout(800);
+
+    await expect(page.locator('.panel')).toHaveCount(0);
+    await expect(page).not.toHaveURL(/#[A-Z]/);
   });
 });

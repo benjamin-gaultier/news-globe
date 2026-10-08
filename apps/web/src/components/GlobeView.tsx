@@ -80,6 +80,8 @@ const COLORS = {
 };
 
 const INITIAL_VIEW = { lat: 32, lng: -45, altitude: 2.6 };
+/** A touch that moves further than this is a drag, not a tap. */
+const TAP_SLOP_PX = 10;
 /** Portrait phones are narrow: pull the camera back so the whole globe fits the width. */
 const MOBILE_ALTITUDE_BOOST = 1.1;
 
@@ -124,6 +126,8 @@ export default function GlobeView({
 }: GlobeViewProps) {
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const containerRef = useRef<HTMLDivElement>(null);
+  // The current (or last) touch was a drag or a pinch, not a tap: its release must not select anything.
+  const touchGesture = useRef(false);
   const [size, setSize] = useState({ width: 0, height: 0 });
   const [hovered, setHovered] = useState<Shape | null>(null);
   const [regionShapes, setRegionShapes] = useState<Shape[]>([]);
@@ -145,20 +149,35 @@ export default function GlobeView({
     return () => ro.disconnect();
   }, []);
 
-  // globe.gl keeps hit-testing the last pointer position every frame. After a tap that is
-  // where the finger was, so while the camera flies to the country, whatever passes under
-  // that spot would light up as hovered. Once a touch lifts (and its click has fired), move
-  // the pointer off the canvas.
+  // Touches on the globe, tracked for two things:
   //
-  // Only once the last finger lifts: while another is still down (a pinch ending one finger
-  // at a time), the orbit controls are tracking it and would read the far-off move as a
-  // huge drag, spinning the globe.
+  // - Telling taps from gestures. globe.gl counts a touch as a drag only when the browser
+  //   reports its movement (movementX), which touch events often leave at 0: the end of a
+  //   pinch or a drag then reads as a tap on whatever country is under the finger, opening it
+  //   and flying the camera there. A touch that moves more than TAP_SLOP_PX, or a second
+  //   finger, makes it a gesture, and handleClick ignores its release.
+  //
+  // - Clearing the hover a tap leaves behind. globe.gl keeps hit-testing the last pointer
+  //   position every frame: after a tap that is where the finger was, so while the camera
+  //   flies, whatever passes under it would light up. Once the last finger lifts (and the
+  //   click has fired), move the pointer off the canvas. Not before: while a finger is still
+  //   down, the orbit controls would read the far-off move as a huge drag and spin the globe.
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
-    const down = new Set<number>();
+    const down = new Map<number, { x: number; y: number }>();
     const onPointerDown = (ev: PointerEvent) => {
-      if (ev.pointerType !== 'mouse') down.add(ev.pointerId);
+      if (ev.pointerType === 'mouse') {
+        touchGesture.current = false;
+        return;
+      }
+      if (down.size === 0) touchGesture.current = false;
+      down.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
+      if (down.size > 1) touchGesture.current = true;
+    };
+    const onPointerMove = (ev: PointerEvent) => {
+      const start = down.get(ev.pointerId);
+      if (start && Math.hypot(ev.clientX - start.x, ev.clientY - start.y) > TAP_SLOP_PX) touchGesture.current = true;
     };
     const onPointerUp = (ev: PointerEvent) => {
       if (ev.pointerType === 'mouse' || !down.delete(ev.pointerId) || down.size > 0) return;
@@ -173,10 +192,12 @@ export default function GlobeView({
     // Touches start on the globe, but a finger may lift anywhere (over the panel, say): listen
     // for the end on the window, in the capture phase so nothing stops it first.
     el.addEventListener('pointerdown', onPointerDown, true);
+    window.addEventListener('pointermove', onPointerMove, true);
     window.addEventListener('pointerup', onPointerUp, true);
     window.addEventListener('pointercancel', onPointerUp, true);
     return () => {
       el.removeEventListener('pointerdown', onPointerDown, true);
+      window.removeEventListener('pointermove', onPointerMove, true);
       window.removeEventListener('pointerup', onPointerUp, true);
       window.removeEventListener('pointercancel', onPointerUp, true);
     };
@@ -317,6 +338,7 @@ export default function GlobeView({
 
   const handleClick = useCallback(
     (obj: object) => {
+      if (touchGesture.current) return; // the end of a drag or pinch, not a tap
       const f = obj as Shape;
       if (f.properties.region) {
         if (isAvailable(f)) onSelectRegion(f.properties.region);
