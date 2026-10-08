@@ -8,6 +8,7 @@
     "build": "pnpm typecheck && vite build",
     "preview": "vite preview",
     "test": "vitest run",
+    "coverage": "vitest run --coverage",
     "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.node.json && tsc -p tsconfig.worker.json",
     "deploy": "pnpm build && wrangler deploy",
     "preview:worker": "pnpm build && wrangler dev"
@@ -26,6 +27,7 @@
     "@types/react-dom": "^19.3.0",
     "@types/three": "^0.186.0",
     "@vitejs/plugin-react": "^6.1.1",
+    "@vitest/coverage-v8": "5.0.3",
     "topojson-client": "^3.1.0",
     "topojson-server": "^3.0.1",
     "typescript": "^7.0.2",

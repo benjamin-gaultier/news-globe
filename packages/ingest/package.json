@@ -10,6 +10,7 @@
     "cache:merge": "tsx src/merge-cache.ts",
     "archive:remote": "tsx src/archive-remote.ts",
     "test": "vitest run",
+    "coverage": "vitest run --coverage",
     "typecheck": "tsc -p tsconfig.json"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.6.4",
+    "@vitest/coverage-v8": "5.0.3",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vitest": "^5.0.3"

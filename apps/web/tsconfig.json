@@ -14,5 +14,9 @@
   "include": [
     "src",
     "test"
+  ],
+  // Typechecked against the Workers runtime types instead (tsconfig.worker.json).
+  "exclude": [
+    "test/worker.test.ts"
   ]
 }
