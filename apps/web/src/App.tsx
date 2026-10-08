@@ -5,6 +5,7 @@ import { useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
 import { fetchCountry, fetchIndex, fetchRegion } from './lib/data';
+import { formatRoute, parseRoute } from './lib/route';
 import { relativeTime } from './lib/time';
 
 // three.js is most of the bundle; load it after the shell renders.
@@ -15,8 +16,8 @@ const INDEX_REFRESH_MS = 5 * 60_000;
 export function App() {
   const now = useNow();
   const isMobile = useMediaQuery(MOBILE_QUERY);
-  const [selected, setSelected] = useState<CountryCode | null>(null);
-  const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(null);
+  const [selected, setSelected] = useState<CountryCode | null>(() => parseRoute(location.hash).country);
+  const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(() => parseRoute(location.hash).region);
   const [retryKey, setRetryKey] = useState(0);
   const [indexTick, setIndexTick] = useState(0);
   const [sheetFraction, setSheetFraction] = useState(0);
@@ -49,6 +50,31 @@ export function App() {
     setSelectedRegion(null);
   }, []);
 
+  // Keep the URL hash in step with the open view, so it can be shared and Back closes it.
+  useEffect(() => {
+    const hash = formatRoute({ country: selected, region: selectedRegion });
+    if (location.hash === hash) return;
+    const url = hash || location.pathname + location.search;
+    // A link written differently (#fr) is the same view: tidy it without a new entry.
+    if (formatRoute(parseRoute(location.hash)) === hash) history.replaceState(null, '', url);
+    else history.pushState(null, '', url);
+  }, [selected, selectedRegion]);
+
+  useEffect(() => {
+    const onPopState = () => {
+      const route = parseRoute(location.hash);
+      setSelected(route.country);
+      setSelectedRegion(route.region);
+    };
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, []);
+
+  useEffect(() => {
+    const name = selectedRegion ? REGIONS[selectedRegion]?.name : selected ? COUNTRIES[selected]?.name : undefined;
+    document.title = name ? `${name} · News Globe` : 'News Globe';
+  }, [selected, selectedRegion]);
+
   // Refetch the open country or region when the index reports a newer file.
   const selectedUpdatedAt = selectedRegion
     ? indexData?.regions?.find((r) => r.code === selectedRegion)?.updatedAt
@@ -67,6 +93,20 @@ export function App() {
     clearTimeout(toastTimer.current);
     toastTimer.current = setTimeout(() => setToast(null), 2200);
   }, []);
+
+  // A link may name a country or region that has no data (yet). Once the index is in,
+  // fall back to the nearest view that has some, replacing the entry so Back doesn't return to it.
+  useEffect(() => {
+    if (!indexData || !selected) return;
+    if (!available.has(selected)) {
+      history.replaceState(null, '', location.pathname + location.search);
+      selectCountry(null);
+      showToast(`${COUNTRIES[selected]!.name} — coming soon`);
+    } else if (selectedRegion && !regions.some((r) => r.code === selectedRegion)) {
+      history.replaceState(null, '', formatRoute({ country: selected, region: null }));
+      setSelectedRegion(null);
+    }
+  }, [indexData, available, regions, selected, selectedRegion, selectCountry, showToast]);
 
   const handleUnavailable = useCallback((name: string) => showToast(`${name} — coming soon`), [showToast]);
   const handleClose = useCallback(() => selectCountry(null), [selectCountry]);

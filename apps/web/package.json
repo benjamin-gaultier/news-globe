@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "pnpm typecheck && vite build",
     "preview": "vite preview",
+    "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.node.json && tsc -p tsconfig.worker.json",
     "deploy": "pnpm build && wrangler deploy",
     "preview:worker": "pnpm build && wrangler dev"
@@ -29,6 +30,7 @@
     "topojson-server": "^3.0.1",
     "typescript": "^7.0.2",
     "vite": "^8.3.2",
+    "vitest": "^5.0.3",
     "wrangler": "^4.147.0"
   }
 }
