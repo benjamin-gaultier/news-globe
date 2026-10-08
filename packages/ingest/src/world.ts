@@ -261,6 +261,7 @@ export function buildWorld(countries: CountryClusters[], limit = MAX_WORLD_STORI
       title: c.representative.title,
       url: c.representative.url,
       outletCount24h: c.outletCount24h,
+      language: c.representative.language,
     }));
     stories.push({
       id: [...entries.map((e) => e.clusterId)].sort()[0]!,

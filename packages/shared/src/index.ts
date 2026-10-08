@@ -107,7 +107,15 @@ export interface WorldStory {
   /** Names the countries' headlines share (folded, e.g. "francis halzen"). */
   names: string[];
   /** One entry per country, best covered first. */
-  countries: { code: CountryCode; clusterId: string; title: string; url: string; outletCount24h: number }[];
+  countries: {
+    code: CountryCode;
+    clusterId: string;
+    title: string;
+    url: string;
+    outletCount24h: number;
+    /** BCP 47 language of `title`. Optional: older index files have none. */
+    language?: string;
+  }[];
   /** ISO 8601 of the most recent article across the countries. */
   latestPublishedAt: string;
 }

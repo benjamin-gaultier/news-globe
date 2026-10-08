@@ -1,20 +1,20 @@
 import { describe, expect, it } from 'vitest';
-import { EMPTY_ROUTE, formatRoute, parseRoute } from '../src/lib/route';
+import { EMPTY_ROUTE, formatRoute, parseRoute, runForAt } from '../src/lib/route';
 
 describe('parseRoute', () => {
   it('reads a country', () => {
-    expect(parseRoute('#FR')).toEqual({ country: 'FR', region: null, world: false });
+    expect(parseRoute('#FR')).toEqual({ country: 'FR', region: null, world: false, at: null });
   });
 
   it('reads a region and its country', () => {
-    expect(parseRoute('#FR-BRE')).toEqual({ country: 'FR', region: 'FR-BRE', world: false });
-    expect(parseRoute('#IT-82')).toEqual({ country: 'IT', region: 'IT-82', world: false });
+    expect(parseRoute('#FR-BRE')).toEqual({ country: 'FR', region: 'FR-BRE', world: false, at: null });
+    expect(parseRoute('#IT-82')).toEqual({ country: 'IT', region: 'IT-82', world: false, at: null });
   });
 
   it('ignores case, a leading slash and surrounding spaces', () => {
-    expect(parseRoute('#fr-bre')).toEqual({ country: 'FR', region: 'FR-BRE', world: false });
-    expect(parseRoute('#/us')).toEqual({ country: 'US', region: null, world: false });
-    expect(parseRoute('#%20de%20')).toEqual({ country: 'DE', region: null, world: false });
+    expect(parseRoute('#fr-bre')).toEqual({ country: 'FR', region: 'FR-BRE', world: false, at: null });
+    expect(parseRoute('#/us')).toEqual({ country: 'US', region: null, world: false, at: null });
+    expect(parseRoute('#%20de%20')).toEqual({ country: 'DE', region: null, world: false, at: null });
   });
 
   it('gives the empty route for no hash or an unknown code', () => {
@@ -38,12 +38,44 @@ describe('formatRoute', () => {
   });
 
   it('prefers the region when both are set', () => {
-    expect(formatRoute({ country: 'DE', region: 'DE-TH', world: false })).toBe('#DE-TH');
+    expect(formatRoute({ country: 'DE', region: 'DE-TH', world: false, at: null })).toBe('#DE-TH');
   });
 
   it('writes and reads the world view', () => {
-    expect(formatRoute({ country: null, region: null, world: true })).toBe('#world');
-    expect(parseRoute('#world')).toEqual({ country: null, region: null, world: true });
-    expect(parseRoute('#WORLD')).toEqual({ country: null, region: null, world: true });
+    expect(formatRoute({ country: null, region: null, world: true, at: null })).toBe('#world');
+    expect(parseRoute('#world')).toEqual({ country: null, region: null, world: true, at: null });
+    expect(parseRoute('#WORLD')).toEqual({ country: null, region: null, world: true, at: null });
+  });
+});
+
+describe('history routes', () => {
+  it('reads a view with a time', () => {
+    expect(parseRoute('#FR@2026-10-08T14:05')).toEqual({ country: 'FR', region: null, world: false, at: '2026-10-08T14:05' });
+    expect(parseRoute('#fr-bre@2026-10-08')).toEqual({ country: 'FR', region: 'FR-BRE', world: false, at: '2026-10-08' });
+    expect(parseRoute('#@2026-10-08')).toEqual({ ...EMPTY_ROUTE, at: '2026-10-08' });
+  });
+
+  it('drops a malformed time and keeps the view', () => {
+    expect(parseRoute('#FR@yesterday')).toEqual({ country: 'FR', region: null, world: false, at: null });
+    expect(parseRoute('#FR@2026-10-08T14')).toEqual({ country: 'FR', region: null, world: false, at: null });
+  });
+
+  it('has no world view in history', () => {
+    expect(parseRoute('#world@2026-10-08')).toEqual({ ...EMPTY_ROUTE, at: '2026-10-08' });
+    expect(formatRoute({ country: null, region: null, world: true, at: '2026-10-08' })).toBe('#@2026-10-08');
+  });
+
+  it('round-trips', () => {
+    for (const hash of ['#FR@2026-10-08T14:05', '#FR-BRE@2026-10-08', '#@2026-10-08T00:05']) {
+      expect(formatRoute(parseRoute(hash))).toBe(hash);
+    }
+  });
+
+  it('finds the run an at names, or the closest one', () => {
+    const runs = ['2026-10-08T08:05:11.000Z', '2026-10-08T09:05:09.000Z', '2026-10-08T10:05:12.000Z'];
+    expect(runForAt(runs, '2026-10-08T09:05')).toBe(runs[1]);
+    expect(runForAt(runs, '2026-10-08T09:50')).toBe(runs[2]);
+    expect(runForAt(runs, '2026-10-08')).toBe(runs[2]);
+    expect(runForAt([], '2026-10-08T09:05')).toBeNull();
   });
 });
