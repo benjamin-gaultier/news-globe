@@ -305,7 +305,13 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T07:23:22.000Z"
+      "latestPublishedAt": "2026-10-06T07:23:22.000Z",
+      "alsoIn": [
+        {
+          "code": "CH",
+          "clusterId": "JzzG2XksxvyJ"
+        }
+      ]
     },
     {
       "id": "FwePNcxHxs--",
@@ -329,7 +335,13 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T07:19:11.000Z"
+      "latestPublishedAt": "2026-10-06T07:19:11.000Z",
+      "alsoIn": [
+        {
+          "code": "NZ",
+          "clusterId": "mriC-F7CmWXT"
+        }
+      ]
     },
     {
       "id": "Uvj2T8oVlMpc",

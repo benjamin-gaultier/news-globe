@@ -206,7 +206,29 @@
       ],
       "outletCount24h": 0,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-06T13:35:13.000Z"
+      "latestPublishedAt": "2026-10-06T13:35:13.000Z",
+      "alsoIn": [
+        {
+          "code": "LT",
+          "clusterId": "9IlVmx8i8X6-"
+        },
+        {
+          "code": "GR",
+          "clusterId": "h7LYnjuxTk8o"
+        },
+        {
+          "code": "PR",
+          "clusterId": "Pbp5AJukkAxe"
+        },
+        {
+          "code": "CZ",
+          "clusterId": "1PYMBYPnr0PS"
+        },
+        {
+          "code": "BA",
+          "clusterId": "hJ4gApFdNl8t"
+        }
+      ]
     },
     {
       "id": "MW7Yw0nsGW_7",

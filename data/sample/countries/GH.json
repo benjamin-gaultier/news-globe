@@ -266,7 +266,13 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T12:45:43.000Z"
+      "latestPublishedAt": "2026-10-06T12:45:43.000Z",
+      "alsoIn": [
+        {
+          "code": "SI",
+          "clusterId": "NNOfGOTDQTeJ"
+        }
+      ]
     },
     {
       "id": "XsTKbB6E49Rb",

@@ -266,7 +266,13 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T11:55:33.000Z"
+      "latestPublishedAt": "2026-10-06T11:55:33.000Z",
+      "alsoIn": [
+        {
+          "code": "MM",
+          "clusterId": "ug79deQQSJvm"
+        }
+      ]
     },
     {
       "id": "-hPGKZXWxMFu",

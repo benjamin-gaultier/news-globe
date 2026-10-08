@@ -126,7 +126,17 @@
       ],
       "outletCount24h": 0,
       "outletCount": 4,
-      "latestPublishedAt": "2026-10-06T13:12:47.000Z"
+      "latestPublishedAt": "2026-10-06T13:12:47.000Z",
+      "alsoIn": [
+        {
+          "code": "MG",
+          "clusterId": "Cn-ESl0SNoVg"
+        },
+        {
+          "code": "ZA",
+          "clusterId": "HZWya0RcD3hS"
+        }
+      ]
     },
     {
       "id": "dGtiEscedcxA",

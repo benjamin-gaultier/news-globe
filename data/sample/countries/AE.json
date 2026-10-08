@@ -246,7 +246,13 @@
       ],
       "outletCount24h": 2,
       "outletCount": 2,
-      "latestPublishedAt": "2026-10-07T10:25:18.000Z"
+      "latestPublishedAt": "2026-10-07T10:25:18.000Z",
+      "alsoIn": [
+        {
+          "code": "KW",
+          "clusterId": "IUTZxpy82jWU"
+        }
+      ]
     },
     {
       "id": "bWY8ERupOuJb",

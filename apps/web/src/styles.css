@@ -161,6 +161,51 @@ button {
   overflow: hidden;
 }
 
+/* ---------- Cross-border stories ---------- */
+
+.chip-world {
+  border-color: rgba(255, 181, 71, 0.5);
+}
+
+.story-also {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+
+.story-also-label,
+.world-names {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+
+.world-names {
+  margin: 0 0 2px;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.world-countries {
+  display: grid;
+  gap: 8px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* The country chip starts its headline's first line; the text wraps beneath. */
+.world-countries .chip {
+  margin-right: 8px;
+  vertical-align: baseline;
+}
+
+.world-countries .related-title {
+  display: inline;
+}
+
 /* ---------- Top bar ---------- */
 
 .topbar {

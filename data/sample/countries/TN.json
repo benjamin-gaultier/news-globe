@@ -194,7 +194,13 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:08:00.000Z"
+      "latestPublishedAt": "2026-10-06T13:08:00.000Z",
+      "alsoIn": [
+        {
+          "code": "BJ",
+          "clusterId": "7tOcTmbNX2yi"
+        }
+      ]
     },
     {
       "id": "xDAQWfbhHEyH",

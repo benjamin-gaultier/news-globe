@@ -2,6 +2,7 @@ import { COUNTRIES, REGIONS, type CountryCode, type RegionCode } from '@news-glo
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { HeatLegend } from './components/HeatLegend';
 import { NewsPanel } from './components/NewsPanel';
+import { WorldPanel } from './components/WorldPanel';
 import { useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
@@ -19,6 +20,8 @@ export function App() {
   const isMobile = useMediaQuery(MOBILE_QUERY);
   const [selected, setSelected] = useState<CountryCode | null>(() => parseRoute(location.hash).country);
   const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(() => parseRoute(location.hash).region);
+  // The cross-border stories panel (#world); never open together with a country.
+  const [world, setWorld] = useState(() => parseRoute(location.hash).world);
   const [retryKey, setRetryKey] = useState(0);
   const [indexTick, setIndexTick] = useState(0);
   const [sheetFraction, setSheetFraction] = useState(0);
@@ -54,32 +57,58 @@ export function App() {
   const selectCountry = useCallback((code: CountryCode | null) => {
     setSelected(code);
     setSelectedRegion(null);
+    setWorld(false);
   }, []);
+  const openWorld = useCallback(() => {
+    setSelected(null);
+    setSelectedRegion(null);
+    setWorld(true);
+  }, []);
+  const worldStories = useMemo(() => indexData?.world ?? [], [indexData]);
+
+  // While the world panel is open, arcs join the countries of each cross-border story.
+  const arcs = useMemo(
+    () =>
+      world
+        ? worldStories.flatMap((story) => {
+            const [hub, ...rest] = story.countries.map((c) => COUNTRIES[c.code]).filter((m) => m !== undefined);
+            return hub ? rest.map((m) => ({ startLat: hub.lat, startLng: hub.lng, endLat: m.lat, endLng: m.lng })) : [];
+          })
+        : [],
+    [world, worldStories],
+  );
 
   // Keep the URL hash in step with the open view, so it can be shared and Back closes it.
   useEffect(() => {
-    const hash = formatRoute({ country: selected, region: selectedRegion });
+    const hash = formatRoute({ country: selected, region: selectedRegion, world });
     if (location.hash === hash) return;
     const url = hash || location.pathname + location.search;
     // A link written differently (#fr) is the same view: tidy it without a new entry.
     if (formatRoute(parseRoute(location.hash)) === hash) history.replaceState(null, '', url);
     else history.pushState(null, '', url);
-  }, [selected, selectedRegion]);
+  }, [selected, selectedRegion, world]);
 
   useEffect(() => {
     const onPopState = () => {
       const route = parseRoute(location.hash);
       setSelected(route.country);
       setSelectedRegion(route.region);
+      setWorld(route.world);
     };
     window.addEventListener('popstate', onPopState);
     return () => window.removeEventListener('popstate', onPopState);
   }, []);
 
   useEffect(() => {
-    const name = selectedRegion ? REGIONS[selectedRegion]?.name : selected ? COUNTRIES[selected]?.name : undefined;
+    const name = selectedRegion
+      ? REGIONS[selectedRegion]?.name
+      : selected
+        ? COUNTRIES[selected]?.name
+        : world
+          ? 'Across borders'
+          : undefined;
     document.title = name ? `${name} · News Globe` : 'News Globe';
-  }, [selected, selectedRegion]);
+  }, [selected, selectedRegion, world]);
 
   // Refetch the open country or region when the index reports a newer file.
   const selectedUpdatedAt = selectedRegion
@@ -109,18 +138,19 @@ export function App() {
       selectCountry(null);
       showToast(`${COUNTRIES[selected]!.name} — coming soon`);
     } else if (selectedRegion && !regions.some((r) => r.code === selectedRegion)) {
-      history.replaceState(null, '', formatRoute({ country: selected, region: null }));
+      history.replaceState(null, '', formatRoute({ country: selected, region: null, world: false }));
       setSelectedRegion(null);
     }
   }, [indexData, available, regions, selected, selectedRegion, selectCountry, showToast]);
 
   const handleUnavailable = useCallback((name: string) => showToast(`${name} — coming soon`), [showToast]);
   const handleClose = useCallback(() => selectCountry(null), [selectCountry]);
+  const openCountry = useCallback((code: CountryCode) => selectCountry(available.has(code) ? code : null), [selectCountry, available]);
   const retry = useCallback(() => setRetryKey((k) => k + 1), []);
   const meta = selected ? COUNTRIES[selected] : undefined;
 
   return (
-    <div className={`app${meta ? ' has-panel' : ''}`}>
+    <div className={`app${meta || world ? ' has-panel' : ''}`}>
       <header className="topbar">
         <div className="brand">
           <h1>News Globe</h1>
@@ -140,6 +170,16 @@ export function App() {
           </p>
         </div>
         <nav className="country-picker" aria-label="Countries">
+          {worldStories.length > 0 && (
+            <button
+              type="button"
+              className="chip chip-world"
+              aria-pressed={world}
+              onClick={() => (world ? selectCountry(null) : openWorld())}
+            >
+              Across borders
+            </button>
+          )}
           {Object.values(COUNTRIES).map((c) => (
             <button
               key={c.code}
@@ -168,11 +208,12 @@ export function App() {
             onUnavailable={handleUnavailable}
             isMobile={isMobile}
             sheetFraction={sheetFraction}
+            arcs={arcs}
           />
         </Suspense>
-        {!meta && <p className="hint">Tap a highlighted country to see its top headlines</p>}
+        {!meta && !world && <p className="hint">Tap a highlighted country to see its top headlines</p>}
         {/* An index from before the ingest wrote counts shades everything alike: no key then. */}
-        {!meta && indexData?.countries.some((c) => c.topOutlets !== undefined) && <HeatLegend />}
+        {!meta && !world && indexData?.countries.some((c) => c.topOutlets !== undefined) && <HeatLegend />}
       </main>
 
       {meta && (
@@ -187,6 +228,17 @@ export function App() {
           onClose={handleClose}
           onRetry={retry}
           onSheetChange={setSheetFraction}
+          onOpenCountry={openCountry}
+        />
+      )}
+      {world && (
+        <WorldPanel
+          stories={worldStories}
+          now={now}
+          isMobile={isMobile}
+          onClose={handleClose}
+          onSheetChange={setSheetFraction}
+          onOpenCountry={openCountry}
         />
       )}
 

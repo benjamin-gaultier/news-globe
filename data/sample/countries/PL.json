@@ -359,7 +359,13 @@
       "related": [],
       "outletCount24h": 0,
       "outletCount": 1,
-      "latestPublishedAt": "2026-10-06T13:21:59.000Z"
+      "latestPublishedAt": "2026-10-06T13:21:59.000Z",
+      "alsoIn": [
+        {
+          "code": "FR",
+          "clusterId": "DjQaONef7nm0"
+        }
+      ]
     },
     {
       "id": "hrwI3pAnJBa7",

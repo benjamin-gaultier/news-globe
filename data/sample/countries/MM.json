@@ -61,7 +61,13 @@
       ],
       "outletCount24h": 3,
       "outletCount": 3,
-      "latestPublishedAt": "2026-10-07T08:28:19.000Z"
+      "latestPublishedAt": "2026-10-07T08:28:19.000Z",
+      "alsoIn": [
+        {
+          "code": "MY",
+          "clusterId": "oDBDqcHqkh9E"
+        }
+      ]
     },
     {
       "id": "0cle4yJywQPf",

@@ -73,6 +73,9 @@ const COLORS = {
   side: 'rgba(8, 20, 40, 0.6)',
   stroke: 'rgba(5, 11, 22, 0.9)',
   ocean: '#0b1f38',
+  /** World-view arcs run from the story's best-covered country (amber) to the others (light blue). */
+  arcStart: 'rgba(255, 181, 71, 0.95)',
+  arcEnd: 'rgba(140, 202, 255, 0.95)',
   atmosphere: '#5fb4ff',
 };
 
@@ -99,6 +102,8 @@ export interface GlobeViewProps {
   isMobile: boolean;
   /** Fraction of the viewport height covered by the bottom sheet (mobile), so the country stays visible above it. */
   sheetFraction: number;
+  /** Arcs between countries sharing a story (the world view). */
+  arcs: readonly { startLat: number; startLng: number; endLat: number; endLng: number }[];
 }
 
 export default function GlobeView({
@@ -112,6 +117,7 @@ export default function GlobeView({
   onSelectRegion,
   isMobile,
   sheetFraction,
+  arcs,
 }: GlobeViewProps) {
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -315,6 +321,14 @@ export default function GlobeView({
           polygonLabel={label}
           onPolygonClick={handleClick}
           onPolygonHover={handleHover}
+          arcsData={arcs as object[]}
+          arcColor={() => [COLORS.arcStart, COLORS.arcEnd]}
+          arcStroke={0.5}
+          arcAltitudeAutoScale={0.35}
+          arcDashLength={0.5}
+          arcDashGap={0.15}
+          arcDashAnimateTime={3000}
+          arcsTransitionDuration={0}
         />
       )}
     </div>
