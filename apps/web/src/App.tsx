@@ -4,6 +4,7 @@ import { HeatLegend, type Shading } from './components/HeatLegend';
 import { HistoryBar } from './components/HistoryBar';
 import { HistoryPanel } from './components/HistoryPanel';
 import { NewsPanel } from './components/NewsPanel';
+import { SearchPanel } from './components/SearchPanel';
 import { WorldPanel } from './components/WorldPanel';
 import { useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
@@ -26,6 +27,9 @@ export function App() {
   const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(() => parseRoute(location.hash).region);
   // The cross-border stories panel (#world); never open together with a country.
   const [world, setWorld] = useState(() => parseRoute(location.hash).world);
+  // The search panel, and the headline a search result opened (scrolled to and highlighted).
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [focusTitle, setFocusTitle] = useState<string | null>(null);
   // History mode: the UTC day shown and the run picked on its timeline; null is live.
   const [historyDate, setHistoryDate] = useState<string | null>(() => parseRoute(location.hash).at?.slice(0, 10) ?? null);
   const [historyRun, setHistoryRun] = useState<string | null>(null);
@@ -103,12 +107,43 @@ export function App() {
     setSelected(code);
     setSelectedRegion(null);
     setWorld(false);
+    setSearchOpen(false);
+    setFocusTitle(null);
   }, []);
   const openWorld = useCallback(() => {
     setSelected(null);
     setSelectedRegion(null);
     setWorld(true);
+    setSearchOpen(false);
   }, []);
+  const openSearch = useCallback(() => {
+    setSelected(null);
+    setSelectedRegion(null);
+    setWorld(false);
+    setSearchOpen(true);
+  }, []);
+  /** A search result: its country or region panel, on that story. */
+  const openStory = useCallback((unit: string, title: string) => {
+    const region = REGIONS[unit];
+    setSelected(region?.country ?? unit);
+    setSelectedRegion(region ? unit : null);
+    setWorld(false);
+    setSearchOpen(false);
+    setFocusTitle(title);
+  }, []);
+
+  // "/" opens search, as on many sites, unless the user is typing somewhere.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+      if (target?.closest('input, textarea, select, [contenteditable="true"]')) return;
+      e.preventDefault();
+      openSearch();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [openSearch]);
   const worldStories = useMemo(() => indexData?.world ?? [], [indexData]);
 
   // While the world panel is open, arcs join the countries of each cross-border story.
@@ -213,6 +248,7 @@ export function App() {
 
   const openHistory = useCallback(() => {
     setWorld(false);
+    setSearchOpen(false);
     setHistoryRun(null);
     setHistoryDate(todayUtc());
   }, []);
@@ -232,7 +268,9 @@ export function App() {
   const meta = selected ? COUNTRIES[selected] : undefined;
 
   return (
-    <div className={`app${world || (meta && (!historyDate || (archiveDay && historyRun))) ? ' has-panel' : ''}`}>
+    <div
+      className={`app${world || (searchOpen && !meta) || (meta && (!historyDate || (archiveDay && historyRun))) ? ' has-panel' : ''}`}
+    >
       <header className="topbar">
         <div className="brand">
           <h1>News Globe</h1>
@@ -252,6 +290,17 @@ export function App() {
           </p>
         </div>
         <nav className="country-picker" aria-label="Countries">
+          {!historyDate && (
+            <button
+              type="button"
+              className="chip chip-world"
+              aria-pressed={searchOpen}
+              aria-keyshortcuts="/"
+              onClick={() => (searchOpen ? selectCountry(null) : openSearch())}
+            >
+              Search
+            </button>
+          )}
           <button
             type="button"
             className="chip chip-world"
@@ -302,7 +351,9 @@ export function App() {
             arcs={arcs}
           />
         </Suspense>
-        {!meta && !world && !historyDate && <p className="hint">Tap a highlighted country to see its top headlines</p>}
+        {!meta && !world && !searchOpen && !historyDate && (
+          <p className="hint">Tap a highlighted country to see its top headlines</p>
+        )}
         {/* An index from before the ingest wrote counts shades everything alike: no key then. */}
         {!meta && !world && !(historyDate && isMobile) && [...entries.values()].some((e) => e.topOutlets !== undefined) && (
           <HeatLegend
@@ -353,7 +404,11 @@ export function App() {
           onSheetChange={setSheetFraction}
           onOpenCountry={openCountry}
           trends={unitTrends}
+          focusTitle={focusTitle}
         />
+      )}
+      {searchOpen && !meta && (
+        <SearchPanel isMobile={isMobile} onClose={handleClose} onSheetChange={setSheetFraction} onOpenStory={openStory} />
       )}
       {world && (
         <WorldPanel

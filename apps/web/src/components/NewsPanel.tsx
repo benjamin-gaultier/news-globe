@@ -24,6 +24,8 @@ interface NewsPanelProps {
   onOpenCountry: (code: CountryCode) => void;
   /** Cluster id → trend, when trends.json describes the run shown. */
   trends?: Record<string, ClusterTrend>;
+  /** Headline of the story a search result opened, to scroll to and highlight. */
+  focusTitle?: string | null;
 }
 
 function Skeleton() {
@@ -76,7 +78,8 @@ function Body({
   english,
   onOpenCountry,
   trends,
-}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'onOpenCountry' | 'trends'> & {
+  focusTitle,
+}: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'onOpenCountry' | 'trends' | 'focusTitle'> & {
   view: { code: string; name: string };
   english: boolean;
 }) {
@@ -105,7 +108,15 @@ function Body({
   return (
     <ol className="story-list">
       {data.clusters.map((c) => (
-        <StoryItem key={c.id} cluster={c} now={now} english={english} onOpenCountry={onOpenCountry} trend={trends?.[c.id]} />
+        <StoryItem
+          key={c.id}
+          cluster={c}
+          now={now}
+          english={english}
+          onOpenCountry={onOpenCountry}
+          trend={trends?.[c.id]}
+          focused={!!focusTitle && c.representative.title === focusTitle}
+        />
       ))}
     </ol>
   );
@@ -124,6 +135,7 @@ export function NewsPanel({
   onSheetChange,
   onOpenCountry,
   trends,
+  focusTitle,
 }: NewsPanelProps) {
   const view = region ?? country;
   const [languageMode, setLanguageMode] = useState<LanguageMode>(readLanguageMode);
@@ -220,6 +232,7 @@ export function NewsPanel({
         english={english}
         onOpenCountry={onOpenCountry}
         trends={trends}
+        focusTitle={focusTitle}
       />
       <p className="panel-footnote">
         Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets

@@ -325,3 +325,46 @@ describe('Trends', () => {
     expect(screen.queryByRole('button', { name: 'Change' })).toBeNull();
   });
 });
+
+describe('Search', () => {
+  beforeEach(() => {
+    files['search.json'] = () => ({
+      schemaVersion: SCHEMA_VERSION,
+      runAt: ago(10),
+      items: [
+        ['FR', 'Le budget adopté', 3],
+        ['FR-BRE', 'Rennes : le métro', 1],
+      ],
+    });
+  });
+
+  it('finds a headline and opens its panel on that story', async () => {
+    await renderApp();
+    await userEvent.click(chip('Search'));
+    const box = await screen.findByRole('searchbox');
+    await userEvent.type(box, 'budget');
+    await userEvent.click(await screen.findByRole('button', { name: /Le budget adopté/ }));
+
+    const link = await screen.findByRole('link', { name: 'Le budget adopté' });
+    expect(link.closest('li')!.className).toContain('story-focused');
+    expect(location.hash).toBe('#FR');
+    expect(screen.queryByRole('searchbox')).toBeNull();
+  });
+
+  it('opens a region result in its region', async () => {
+    await renderApp();
+    await userEvent.click(chip('Search'));
+    await userEvent.type(await screen.findByRole('searchbox'), 'metro');
+    await userEvent.click(await screen.findByRole('button', { name: /Rennes/ }));
+    expect(await screen.findByRole('heading', { name: 'Brittany' })).toBeTruthy();
+    expect(location.hash).toBe('#FR-BRE');
+  });
+
+  it('opens with "/" unless typing in a field', async () => {
+    await renderApp();
+    await userEvent.keyboard('/');
+    const box = await screen.findByRole('searchbox');
+    await userEvent.type(box, 'a/b');
+    expect((box as HTMLInputElement).value).toBe('a/b');
+  });
+});
