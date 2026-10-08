@@ -21,6 +21,29 @@ const PUBLIC_KEY = /^(index\.json|status\.json|countries\/[A-Z]{2}\.json|regions
 /** Browsers/CDN may reuse a response for a minute; the ingest only runs every 15. */
 const MAX_AGE_S = 60;
 
+/** History: `/data/archive/YYYY-MM-DD.json`, stored gzipped in KV as `archive/YYYY-MM-DD`. */
+const ARCHIVE_KEY = /^archive\/(\d{4}-\d{2}-\d{2})\.json$/;
+/** A finished day never changes; today's file grows every run. */
+const PAST_DAY_MAX_AGE_S = 86_400;
+
+async function serveArchive(env: Env, date: string, head: boolean): Promise<Response> {
+  const today = new Date().toISOString().slice(0, 10);
+  const maxAge = date < today ? PAST_DAY_MAX_AGE_S : MAX_AGE_S;
+  const gzipped = await env.NEWS_DATA.get(`archive/${date}`, { type: 'arrayBuffer', cacheTtl: maxAge });
+  if (gzipped === null) return new Response('Not found', { status: 404 });
+  // Sent as stored: the browser inflates it, the Worker never does.
+  return new Response(head ? null : gzipped, {
+    encodeBody: 'manual',
+    headers: {
+      'Content-Type': 'application/json; charset=utf-8',
+      'Content-Encoding': 'gzip',
+      'Cache-Control': `public, max-age=${maxAge}`,
+      'Access-Control-Allow-Origin': '*',
+      'X-Content-Type-Options': 'nosniff',
+    },
+  });
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
@@ -30,6 +53,8 @@ export default {
     }
 
     const key = url.pathname.slice('/data/'.length);
+    const archive = ARCHIVE_KEY.exec(key);
+    if (archive) return serveArchive(env, archive[1]!, request.method === 'HEAD');
     if (!PUBLIC_KEY.test(key)) return new Response('Not found', { status: 404 });
 
     // cacheTtl keeps the bundle in the colo's cache, saving KV reads.

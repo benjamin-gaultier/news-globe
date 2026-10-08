@@ -32,6 +32,8 @@ CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs `pnpm typecheck`,
 
 **Across borders.** When the same story is in several countries' top headlines, the **Across borders** chip (`/#world`) lists those stories with each country's headline, and arcs join the countries on the globe. A story in a country's list that runs elsewhere too shows "Also in" links to those countries. The matching uses no translation: see **Link** under [Pipeline details](#pipeline-details).
 
+**History.** The **History** chip replays the day: a timeline under the globe steps through the day's hourly runs, from the [history archive](#history-archive), and the globe's shading, hover headlines and country panels show that hour. Each story in a panel says when it was in the top list and its best rank. The arrows step through earlier days. **Live** returns to the current data. The Worker serves `/data/archive/YYYY-MM-DD.json` straight from KV, still gzipped. Finished days are cached for a day.
+
 **Links.** The open view lives in the URL hash, so it can be shared: `/#FR` opens France and `/#FR-BRE` opens Brittany (a region code names its country). Codes are case-insensitive. Back and Forward step through the views you opened. A link to a country or region with no data falls back to the globe or to the country ([lib/route.ts](apps/web/src/lib/route.ts)).
 
 ## Layout
@@ -180,7 +182,7 @@ A failed scheduled run makes GitHub email whoever last changed the workflow's sc
 
 ### History archive
 
-After each run (not `--offline`), [archive.ts](packages/ingest/src/archive.ts) folds the ranked stories of every country and region into one file per UTC day, `data/archive/YYYY-MM-DD.json.gz`, and uploads it to the same KV namespace as `archive/YYYY-MM-DD`. Each story gets one record per day and unit (headline, link, outlet ids, first and last run that ranked it, best rank, peak outlet count). A cluster in a later run that shares any article with a story continues that story. Each run also stores its ranked list per unit, so the day can be replayed hour by hour. The format is `ArchiveDay` in [shared](packages/shared/src/index.ts). The Worker does not serve it yet.
+After each run (not `--offline`), [archive.ts](packages/ingest/src/archive.ts) folds the ranked stories of every country and region into one file per UTC day, `data/archive/YYYY-MM-DD.json.gz`, and uploads it to the same KV namespace as `archive/YYYY-MM-DD`. Each story gets one record per day and unit (headline, link, outlet ids, first and last run that ranked it, best rank, peak outlet count). A cluster in a later run that shares any article with a story continues that story. Each run also stores its ranked list per unit, so the day can be replayed hour by hour. The format is `ArchiveDay` in [shared](packages/shared/src/index.ts). The Worker serves each day at `/data/archive/YYYY-MM-DD.json` for the History view, and the dev server serves `data/archive/` the same way.
 
 - Writes: the current day is re-uploaded after every run, at most 24 KV writes a day on top of the bundle's 24. Yesterday's file is also re-sent after midnight if its last upload failed (state in `data/.cache/archive-publish.json`).
 - Size: a day built from the sample is about 0.7 MB gzipped, and real days, with new stories every hour, should be about 1.5–2 MB. KV's free 1 GB therefore holds roughly 18 months. Before that, move older days to R2 or start pruning.

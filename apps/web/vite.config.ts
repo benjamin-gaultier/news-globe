@@ -21,6 +21,23 @@ function serveData(): Plugin {
     const { pathname } = new URL(req.url ?? '/', 'http://localhost');
     if (!pathname.startsWith('/data/')) return next();
     const rel = pathname.slice('/data'.length);
+    // History days are stored gzipped (data/archive/YYYY-MM-DD.json.gz); send them as such.
+    const archive = /^\/archive\/(\d{4}-\d{2}-\d{2})\.json$/.exec(rel);
+    if (archive) {
+      readFile(path.join(DATA_DIR, 'archive', `${archive[1]}.json.gz`)).then(
+        (body) => {
+          res.setHeader('Content-Type', 'application/json; charset=utf-8');
+          res.setHeader('Content-Encoding', 'gzip');
+          res.setHeader('Cache-Control', 'no-cache');
+          res.end(body);
+        },
+        () => {
+          res.statusCode = 404;
+          res.end('Not found');
+        },
+      );
+      return;
+    }
     const file = PUBLIC_FILE.test(rel)
       ? [DATA_DIR, SAMPLE_DIR].map((dir) => path.join(dir, rel)).find((f) => existsSync(f))
       : undefined;
