@@ -24,7 +24,7 @@ pnpm build          # production build of the web app → apps/web/dist
 
 After the first `pnpm ingest`, the dev server serves your fresh output instead of the sample.
 
-CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs `pnpm typecheck`, `pnpm test` and a Vite build on every pull request and every push to `main`.
+CI ([.github/workflows/ci.yml](.github/workflows/ci.yml)) runs `pnpm typecheck`, `pnpm test` and a Vite build on every pull request and every push to `main`, then deploys `main` to Cloudflare (see [Deploy](#deploy)).
 
 **Shading.** Each country on the globe is shaded by how many outlets covered its top story in the last 24 hours (≤1, 2, 3, 4, 5+; a legend sits in the corner), and hovering shows that headline. The regions of an open country get the same treatment in amber. Both read `topTitle` and `topOutlets` from `index.json`, so no country file is fetched until a click ([lib/heat.ts](apps/web/src/lib/heat.ts)).
 
@@ -102,6 +102,17 @@ Why the ingest runs on the Pi rather than on a Cloudflare Cron Trigger: a free-p
 
 Config is in [apps/web/wrangler.jsonc](apps/web/wrangler.jsonc) and the Worker in [apps/web/worker/index.ts](apps/web/worker/index.ts). Static files never invoke the Worker; only `/data/*` does (`run_worker_first`), and it serves only the two public key shapes.
 
+Every push to `main` deploys it: the `deploy` job in [.github/workflows/ci.yml](.github/workflows/ci.yml) runs `vite build` and `wrangler deploy` once the `check` job (typecheck, tests, build) has passed. Pull requests are checked but never deployed. To redeploy without a new commit, run the workflow by hand (Actions → CI → Run workflow, on `main`).
+
+It needs two repository secrets (repo → Settings → Secrets and variables → Actions):
+
+- `CLOUDFLARE_API_TOKEN`: a token made from the **Edit Cloudflare Workers** template at dash.cloudflare.com → My Profile → API Tokens, limited to your account. Keep it separate from the Pi's KV-only token.
+- `CLOUDFLARE_ACCOUNT_ID`: the account ID shown on the Workers overview page.
+
+Cloudflare's own Git integration (Workers Builds) should stay disconnected (Worker → Settings → Build), or both would deploy every push.
+
+To deploy from your machine instead:
+
 ```bash
 npx wrangler login                          # once, from apps/web
 pnpm --filter @news-globe/web run deploy    # typecheck + vite build + wrangler deploy
@@ -152,7 +163,7 @@ Only one machine should run the ingest. Two pollers would double the requests to
 
 Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` and `CLOUDFLARE_API_TOKEN` are all set, either in the environment or in the repo-root `.env`. If none are set, the ingest only writes local files, as in development. If the upload fails (network, token), the run still writes `data/` and the next run retries; [publish.ts](packages/ingest/src/publish.ts) keeps the last bundle's hash in `data/.cache/publish.json`.
 
-To update the Pi (e.g. after adding a country, which also needs a Worker redeploy): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile`. No restart is needed: the watcher starts every run as a fresh `cli.ts` process, so the next run uses the new code and feeds. Only a change to `watch.ts` itself, or to its schedule, needs `sudo systemctl restart news-globe-ingest`.
+To update the Pi (e.g. after adding a country; merging it to `main` already redeployed the Worker): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile`. No restart is needed: the watcher starts every run as a fresh `cli.ts` process, so the next run uses the new code and feeds. Only a change to `watch.ts` itself, or to its schedule, needs `sudo systemctl restart news-globe-ingest`.
 
 ### Pipeline details
 
@@ -2635,7 +2646,7 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 2. Probe candidate feeds and add 4–6 national outlets to `SOURCES`. Skip outlets that reprint another's copy (The Age/SMH, BusinessDay/TimesLIVE): they fake multi-outlet clusters.
 3. If its language has no stopword list yet, add one to `STOPWORDS_BY_LANGUAGE` in [normalize/text.ts](packages/ingest/src/normalize/text.ts). Otherwise clustering will match on function words.
 4. Run `pnpm ingest --offline` and read the multi-outlet clusters.
-5. Merge, then redeploy the Worker (`COUNTRIES` is bundled into the front end).
+5. Merge. CI redeploys the Worker (`COUNTRIES` is bundled into the front end).
 6. Hand your probe history to the Pi, so it won't fetch a feed you probed less than 15 minutes ago: copy your `data/.cache/http.json` to the Pi (e.g. `scp data/.cache/http.json pi:/tmp/probe-cache.json`) and run `pnpm cache:merge /tmp/probe-cache.json` there, between two runs (not at the top of the hour). Then `git pull && pnpm install --frozen-lockfile`. The next run publishes the new country.
 
 ## Next steps

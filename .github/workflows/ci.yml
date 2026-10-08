@@ -4,10 +4,13 @@ on:
   push:
     branches: [main]
   pull_request:
+  # Redeploy main by hand (Actions → CI → Run workflow), e.g. after adding a country.
+  workflow_dispatch:
 
 concurrency:
   group: ci-${{ github.ref }}
-  cancel-in-progress: true
+  # Supersede stale PR runs, but never cut a deploy short.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 permissions:
   contents: read
@@ -28,3 +31,30 @@ jobs:
       - run: pnpm test
       # vite build only: `pnpm build` would typecheck the web app a second time.
       - run: pnpm --filter @news-globe/web exec vite build
+
+  # The front end and Worker go live only from main, and only once `check` has passed.
+  # The news data is not part of this: the Pi publishes it to KV on its own schedule.
+  deploy:
+    needs: check
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - name: Check Cloudflare secrets
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Set the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID repository secrets (README → Deploy)."
+            exit 1
+          fi
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @news-globe/web exec vite build
+      - run: pnpm --filter @news-globe/web exec wrangler deploy
