@@ -1,7 +1,9 @@
+import './env';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import cron from 'node-cron';
 import { INGEST_SETTINGS } from './sources.config';
+import { selfUpdate } from './update';
 
 // Each run is a fresh `cli.ts` process, so a `git pull` (new feeds, new
 // countries, code fixes) takes effect at the next run without restarting the
@@ -10,12 +12,24 @@ const CLI = fileURLToPath(new URL('./cli.ts', import.meta.url));
 
 let running = false;
 
+/** AUTO_UPDATE=1: pull merged changes from origin/main before each run (see update.ts). */
+const AUTO_UPDATE = process.env.AUTO_UPDATE === '1';
+/**
+ * Exit code asking systemd to start the watcher again (Restart=on-failure),
+ * when an update changed the watcher itself. The service runs the next tick on start.
+ */
+const EXIT_FOR_RESTART = 75;
+
 function tick(): void {
   if (running) {
     console.log('[ingest:watch] previous run still in progress, skipping');
     return;
   }
   running = true;
+  if (AUTO_UPDATE && selfUpdate() === 'restart') {
+    console.log('[ingest:watch] the watcher itself changed: restarting to load it');
+    process.exit(EXIT_FOR_RESTART);
+  }
   console.log(`[ingest:watch] run at ${new Date().toISOString()}`);
   const child = spawn(process.execPath, [...process.execArgv, CLI], { stdio: 'inherit' });
   child.on('error', (err) => {
@@ -28,6 +42,8 @@ function tick(): void {
   });
 }
 
-console.log(`[ingest:watch] schedule "${INGEST_SETTINGS.cronSchedule}" — running once now`);
+console.log(
+  `[ingest:watch] schedule "${INGEST_SETTINGS.cronSchedule}"${AUTO_UPDATE ? ', auto-update on' : ''} — running once now`,
+);
 cron.schedule(INGEST_SETTINGS.cronSchedule, tick);
 tick();

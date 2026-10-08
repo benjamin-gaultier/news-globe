@@ -191,7 +191,9 @@ Each story gets one record per day and unit (headline, link, outlet ids, first a
 - Size: a day built from the sample is about 0.7 MB gzipped, and real days, with new stories every hour, should be about 1.5–2 MB. KV's free 1 GB therefore holds roughly 18 months. Before that, move older days to R2 or start pruning.
 - A failed archive step fails the hourly run, so GitHub emails, just like a failed health check.
 
-To update the Pi (e.g. after adding a country; merging it to `main` already redeployed the Worker): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile`. No restart is needed: the watcher starts every run as a fresh `cli.ts` process, so the next run uses the new code and feeds. Only a change to `watch.ts` itself, or to its schedule, needs `sudo systemctl restart news-globe-ingest`.
+To update the Pi by hand (e.g. after adding a country; merging it to `main` already redeployed the Worker): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile`. No restart is needed: the watcher starts every run as a fresh `cli.ts` process, so the next run uses the new code and feeds. Only a change to `watch.ts` itself, or to its schedule, needs `sudo systemctl restart news-globe-ingest`.
+
+**Auto-update.** With `AUTO_UPDATE=1` in `.env`, the watcher keeps the Pi on `main` by itself ([update.ts](packages/ingest/src/update.ts)). Before each hourly run it fetches `origin/main` and fast-forwards, then reruns `pnpm install --frozen-lockfile` when `package.json` or the lockfile changed. When `watch.ts` or `update.ts` itself changed, it exits with code 75, so systemd (`Restart=on-failure`) starts it again a minute later on the new code. It never merges, rebases or discards anything: with local changes, a diverged branch, another branch checked out or a failed fetch, it logs why in the journal and runs the code it has. `main` only moves through pull requests whose CI passed. Turning it on takes one last manual update: `git pull && pnpm install --frozen-lockfile`, add `AUTO_UPDATE=1` to `.env`, then `sudo systemctl restart news-globe-ingest`.
 
 ### Pipeline details
 
