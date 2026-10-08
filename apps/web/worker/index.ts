@@ -26,12 +26,13 @@ const ARCHIVE_KEY = /^archive\/(\d{4}-\d{2}-\d{2})\.json$/;
 /** A finished day never changes; today's file grows every run. */
 const PAST_DAY_MAX_AGE_S = 86_400;
 
-async function serveArchive(env: Env, date: string, head: boolean): Promise<Response> {
-  const today = new Date().toISOString().slice(0, 10);
-  const maxAge = date < today ? PAST_DAY_MAX_AGE_S : MAX_AGE_S;
-  const gzipped = await env.NEWS_DATA.get(`archive/${date}`, { type: 'arrayBuffer', cacheTtl: maxAge });
+/** Files the hourly workflow derives (packages/ingest/src/derived.ts), stored gzipped under their own KV key. */
+const DERIVED: Record<string, string> = { 'trends.json': 'trends', 'search.json': 'search' };
+
+/** A gzipped KV value, sent as stored: the browser inflates it, the Worker never does. */
+async function serveGzipped(env: Env, kvKey: string, maxAge: number, head: boolean): Promise<Response> {
+  const gzipped = await env.NEWS_DATA.get(kvKey, { type: 'arrayBuffer', cacheTtl: maxAge });
   if (gzipped === null) return new Response('Not found', { status: 404 });
-  // Sent as stored: the browser inflates it, the Worker never does.
   return new Response(head ? null : gzipped, {
     encodeBody: 'manual',
     headers: {
@@ -53,8 +54,14 @@ export default {
     }
 
     const key = url.pathname.slice('/data/'.length);
+    const head = request.method === 'HEAD';
     const archive = ARCHIVE_KEY.exec(key);
-    if (archive) return serveArchive(env, archive[1]!, request.method === 'HEAD');
+    if (archive) {
+      const date = archive[1]!;
+      const today = new Date().toISOString().slice(0, 10);
+      return serveGzipped(env, `archive/${date}`, date < today ? PAST_DAY_MAX_AGE_S : MAX_AGE_S, head);
+    }
+    if (Object.hasOwn(DERIVED, key)) return serveGzipped(env, DERIVED[key]!, MAX_AGE_S, head);
     if (!PUBLIC_KEY.test(key)) return new Response('Not found', { status: 404 });
 
     // cacheTtl keeps the bundle in the colo's cache, saving KV reads.

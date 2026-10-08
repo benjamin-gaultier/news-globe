@@ -1,6 +1,6 @@
 import { COUNTRIES, REGIONS, type CountryCode, type RegionCode } from '@news-globe/shared';
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { HeatLegend } from './components/HeatLegend';
+import { HeatLegend, type Shading } from './components/HeatLegend';
 import { HistoryBar } from './components/HistoryBar';
 import { HistoryPanel } from './components/HistoryPanel';
 import { NewsPanel } from './components/NewsPanel';
@@ -8,7 +8,8 @@ import { WorldPanel } from './components/WorldPanel';
 import { useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
-import { fetchArchive, fetchCountry, fetchIndex, fetchRegion } from './lib/data';
+import { fetchArchive, fetchCountry, fetchIndex, fetchRegion, fetchTrends } from './lib/data';
+import { changeStep } from './lib/heat';
 import { entriesAt, runTimes, shiftDate, storiesAt, todayUtc } from './lib/history';
 import { formatRoute, parseRoute, runForAt, runToAt } from './lib/route';
 import { relativeTime } from './lib/time';
@@ -62,6 +63,17 @@ export function App() {
   const historyEntries = useMemo(
     () => (archiveDay && historyRun && archiveDay.runs[historyRun] ? entriesAt(archiveDay, historyRun) : null),
     [archiveDay, historyRun],
+  );
+
+  // Trends for the latest run: badges, sparklines and the "change" shading (live only).
+  const trends = useAsync(historyDate ? null : (signal) => fetchTrends(signal), [historyDate, indexTick]);
+  const trendsData = trends.status === 'ready' ? trends.data : trends.status === 'loading' ? trends.previous : undefined;
+  const [shading, setShading] = useState<Shading>('coverage');
+  const canShadeByChange = !historyDate && !!trendsData;
+  const shadeStep = useMemo(
+    () =>
+      canShadeByChange && shading === 'change' ? (code: string) => changeStep(trendsData!.change[code] ?? 0) : undefined,
+    [canShadeByChange, shading, trendsData],
   );
 
   const liveEntries = useMemo(
@@ -172,6 +184,13 @@ export function App() {
     [historyDate, selected, selectedRegion, selectedUpdatedAt, retryKey],
   );
 
+  // Trends apply only to the run they describe: the file shown must be that run's.
+  const shownFile = country.status === 'ready' ? country.data : undefined;
+  const unitTrends =
+    trendsData && shownFile && trendsData.runAt === shownFile.updatedAt
+      ? trendsData.units[shownFile.regionCode ?? shownFile.countryCode]
+      : undefined;
+
   const showToast = useCallback((message: string) => {
     setToast(message);
     clearTimeout(toastTimer.current);
@@ -279,13 +298,17 @@ export function App() {
             onUnavailable={handleUnavailable}
             isMobile={isMobile}
             sheetFraction={sheetFraction}
+            shadeStep={shadeStep}
             arcs={arcs}
           />
         </Suspense>
         {!meta && !world && !historyDate && <p className="hint">Tap a highlighted country to see its top headlines</p>}
         {/* An index from before the ingest wrote counts shades everything alike: no key then. */}
         {!meta && !world && !(historyDate && isMobile) && [...entries.values()].some((e) => e.topOutlets !== undefined) && (
-          <HeatLegend />
+          <HeatLegend
+            shading={canShadeByChange ? shading : 'coverage'}
+            onShadingChange={canShadeByChange ? setShading : undefined}
+          />
         )}
         {historyDate && (
           <HistoryBar
@@ -329,6 +352,7 @@ export function App() {
           onRetry={retry}
           onSheetChange={setSheetFraction}
           onOpenCountry={openCountry}
+          trends={unitTrends}
         />
       )}
       {world && (

@@ -1,8 +1,8 @@
 // @vitest-environment jsdom
 import { render, screen } from '@testing-library/react';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { HeatLegend } from '../src/components/HeatLegend';
-import { COUNTRY_HEAT, HEAT_STEPS } from '../src/lib/heat';
+import { CHANGE_STEPS, COUNTRY_HEAT, HEAT_STEPS } from '../src/lib/heat';
 
 describe('HeatLegend', () => {
   it('keys each heat step to its globe colour', () => {
@@ -15,5 +15,25 @@ describe('HeatLegend', () => {
     expect(steps.map((li) => (li.querySelector('.swatch') as HTMLElement).style.background)).toEqual(
       COUNTRY_HEAT.map((c) => ((probe.style.background = c), probe.style.background)),
     );
+  });
+});
+
+describe('HeatLegend shading switch', () => {
+  it('switches the key between coverage and change', async () => {
+    const { fireEvent } = await import('@testing-library/react');
+    const onShadingChange = vi.fn();
+    const { rerender } = render(<HeatLegend shading="coverage" onShadingChange={onShadingChange} />);
+    expect(screen.getByRole('button', { name: 'Coverage' }).getAttribute('aria-pressed')).toBe('true');
+    fireEvent.click(screen.getByRole('button', { name: 'Change' }));
+    expect(onShadingChange).toHaveBeenCalledWith('change');
+
+    rerender(<HeatLegend shading="change" onShadingChange={onShadingChange} />);
+    expect(screen.getByText('New or rising in the top 5')).toBeTruthy();
+    expect(screen.getAllByRole('listitem').map((li) => li.textContent)).toEqual([...CHANGE_STEPS]);
+  });
+
+  it('has no switch without a handler', () => {
+    render(<HeatLegend />);
+    expect(screen.queryByRole('button')).toBeNull();
   });
 });

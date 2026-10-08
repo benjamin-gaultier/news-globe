@@ -277,3 +277,51 @@ describe('App', () => {
     });
   });
 });
+
+describe('Trends', () => {
+  function withTrends(runAtOffset = 0) {
+    const c = cluster(article({ title: 'Le budget adopté' }));
+    const fr = countryFile([c]);
+    files['countries/FR.json'] = () => fr;
+    files['trends.json'] = () => ({
+      schemaVersion: SCHEMA_VERSION,
+      runAt: new Date(Date.parse(fr.updatedAt) + runAtOffset).toISOString(),
+      runs: [ago(70), fr.updatedAt],
+      units: { FR: { [c.id]: { ranks: [4, 1], firstSeen: ago(70), state: 'rising' } } },
+      change: { FR: 2 },
+    });
+  }
+
+  it('badges a story that rose since the previous run, with its rank history', async () => {
+    withTrends();
+    await renderApp('#FR');
+    expect(await screen.findByText('↑ Rising')).toBeTruthy();
+    expect(screen.getByRole('img', { name: "Rank over today's runs: #4, #1" })).toBeTruthy();
+  });
+
+  it('ignores trends describing another run than the file shown', async () => {
+    withTrends(-3_600_000);
+    await renderApp('#FR');
+    await screen.findByRole('link', { name: 'Le budget adopté' });
+    await waitFor(() => expect(requested()).toContain('/data/trends.json'));
+    expect(screen.queryByText('↑ Rising')).toBeNull();
+    expect(screen.queryByRole('img', { name: /Rank over/ })).toBeNull();
+  });
+
+  it('shades the globe by change on request', async () => {
+    withTrends();
+    await renderApp();
+    await userEvent.click(await screen.findByRole('button', { name: 'Change' }));
+    expect(globe.props!.shadeStep?.('FR')).toBe(2);
+    expect(globe.props!.shadeStep?.('US')).toBe(0);
+    expect(screen.getByRole('figure', { name: /new or rising/ })).toBeTruthy();
+    await userEvent.click(screen.getByRole('button', { name: 'Coverage' }));
+    expect(globe.props!.shadeStep).toBeUndefined();
+  });
+
+  it('offers no change shading before the workflow has written trends', async () => {
+    await renderApp();
+    await waitFor(() => expect(requested()).toContain('/data/trends.json'));
+    expect(screen.queryByRole('button', { name: 'Change' })).toBeNull();
+  });
+});

@@ -161,6 +161,73 @@ button {
   overflow: hidden;
 }
 
+/* ---------- Trends ---------- */
+
+.story-badge {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0 6px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.5;
+  vertical-align: 1px;
+}
+
+.story-badge-new {
+  background: rgba(255, 181, 71, 0.18);
+  color: #ffcb7d;
+}
+
+.story-badge-rising {
+  background: rgba(82, 178, 255, 0.18);
+  color: #8ccdff;
+}
+
+.rank-sparkline {
+  margin-right: 6px;
+  vertical-align: -5px;
+  overflow: visible;
+}
+
+.rank-sparkline polyline {
+  stroke: var(--text-muted);
+  stroke-width: 1.4;
+  stroke-linejoin: round;
+}
+
+.rank-sparkline circle {
+  fill: var(--text-muted);
+}
+
+.rank-sparkline .rank-now {
+  fill: var(--accent);
+}
+
+.legend-modes {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 6px;
+  pointer-events: auto;
+}
+
+.legend-modes button {
+  flex: 1;
+  padding: 2px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  cursor: pointer;
+}
+
+.legend-modes button[aria-pressed='true'] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #04121f;
+}
+
 /* ---------- History ---------- */
 
 /* Phones: under the top bar, clear of the bottom sheet. From 768px: bottom centre. */

@@ -6,6 +6,8 @@ import {
   type CountryFile,
   type IndexFile,
   type RegionCode,
+  type SearchFile,
+  type TrendsFile,
 } from '@news-globe/shared';
 
 /** Base URL for the static data files; swap for S3/CloudFront at build time. */
@@ -37,6 +39,21 @@ export async function fetchArchive(date: string, signal?: AbortSignal): Promise<
   }
   return day;
 }
+
+/** A file the hourly workflow derives; null until it has written one. */
+async function fetchDerived<T extends { schemaVersion: number }>(path: string, signal?: AbortSignal): Promise<T | null> {
+  const res = await fetch(`${DATA_BASE_URL}/${path}`, { signal, cache: 'no-cache' });
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`Couldn't load ${path} (HTTP ${res.status})`);
+  const json = (await res.json()) as T;
+  return json.schemaVersion === SCHEMA_VERSION ? json : null;
+}
+
+/** New / Rising badges and rank histories for the latest run. */
+export const fetchTrends = (signal?: AbortSignal) => fetchDerived<TrendsFile>('trends.json', signal);
+
+/** Every headline of the latest run, for search. */
+export const fetchSearch = (signal?: AbortSignal) => fetchDerived<SearchFile>('search.json', signal);
 
 /** Regional files share the country file's shape, plus `regionCode` / `regionName`. */
 export const fetchRegion = (code: RegionCode, signal?: AbortSignal) =>

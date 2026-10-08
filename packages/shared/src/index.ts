@@ -180,6 +180,43 @@ export interface ArchiveDay {
   runs: Record<string, Record<string, number[]>>;
 }
 
+/**
+ * `trends.json`: how the latest run's stories moved through today's runs.
+ * Built hourly from the history archive (packages/ingest/src/derived.ts).
+ */
+export interface TrendsFile {
+  schemaVersion: number;
+  /** The run it describes; apply it only to files with this `updatedAt`. */
+  runAt: string;
+  /** Today's run times the rank histories cover, oldest first (at most the last 12). */
+  runs: string[];
+  /** Unit code → cluster id (of this run) → its trend. */
+  units: Record<string, Record<string, ClusterTrend>>;
+  /** Unit code → how many of its top 5 stories are new or rising this run. */
+  change: Record<string, number>;
+}
+
+export interface ClusterTrend {
+  /** Rank (1 = top) at each of `runs`, null where the story wasn't ranked. */
+  ranks: (number | null)[];
+  /** ISO 8601 of today's first run that ranked it. */
+  firstSeen: string;
+  /** "new": first ranked this run. "rising": up 3 or more places since the previous run. */
+  state: 'new' | 'rising' | null;
+}
+
+/**
+ * `search.json`: every ranked headline of the latest run, for client-side
+ * search. Kept small (no links): a result opens its country or region panel,
+ * which has the story with its link.
+ */
+export interface SearchFile {
+  schemaVersion: number;
+  runAt: string;
+  /** [country or region code, headline, outlets in 24 h], best ranked first within each unit. */
+  items: [string, string, number][];
+}
+
 export interface CountryMeta {
   code: CountryCode;
   name: string;

@@ -1,4 +1,4 @@
-import { COUNTRIES, type Article, type CountryCode, type StoryCluster } from '@news-globe/shared';
+import { COUNTRIES, type Article, type ClusterTrend, type CountryCode, type StoryCluster } from '@news-globe/shared';
 import { useId, useState } from 'react';
 import { useTranslated } from '../hooks/useTranslated';
 import { relativeTime } from '../lib/time';
@@ -38,6 +38,62 @@ function ArticleLink({ article, className, english }: { article: Article; classN
   );
 }
 
+/** The story's rank over today's runs (top = 1 at the top), with gaps where it wasn't ranked. */
+export function RankSparkline({ ranks }: { ranks: (number | null)[] }) {
+  const known = ranks.filter((r): r is number => r !== null);
+  if (known.length < 2) return null;
+  const width = 56;
+  const height = 20;
+  const worst = Math.max(...known, 2);
+  const x = (i: number) => (ranks.length === 1 ? width / 2 : (i / (ranks.length - 1)) * (width - 4) + 2);
+  const y = (rank: number) => ((rank - 1) / (worst - 1)) * (height - 4) + 2;
+  // One polyline per unbroken run of ranked hours.
+  const segments: string[] = [];
+  let current: string[] = [];
+  ranks.forEach((r, i) => {
+    if (r === null) {
+      if (current.length) segments.push(current.join(' '));
+      current = [];
+    } else current.push(`${x(i).toFixed(1)},${y(r).toFixed(1)}`);
+  });
+  if (current.length) segments.push(current.join(' '));
+  const last = ranks.at(-1);
+  const label = `Rank over today's runs: ${ranks.map((r) => (r === null ? 'unranked' : `#${r}`)).join(', ')}`;
+  return (
+    <svg
+      className="rank-sparkline"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
+      role="img"
+      aria-label={label}
+    >
+      <title>{label}</title>
+      {segments.map((points) =>
+        points.includes(' ') ? (
+          <polyline key={points} points={points} fill="none" />
+        ) : (
+          <circle key={points} cx={points.split(',')[0]} cy={points.split(',')[1]} r={1.5} />
+        ),
+      )}
+      {last != null && <circle className="rank-now" cx={x(ranks.length - 1)} cy={y(last)} r={2.2} />}
+    </svg>
+  );
+}
+
+/** "New" or "↑ Rising" since the previous run, and the rank history, when the hourly trends cover this story. */
+function Trend({ trend }: { trend?: ClusterTrend }) {
+  if (!trend) return null;
+  return (
+    <>
+      {trend.state && (
+        <span className={`story-badge story-badge-${trend.state}`}>{trend.state === 'new' ? 'New' : '↑ Rising'}</span>
+      )}
+      <RankSparkline ranks={trend.ranks} />
+    </>
+  );
+}
+
 /** "Also in Germany · Chile": the same story in other countries' top stories. */
 function AlsoIn({ cluster, onOpenCountry }: { cluster: StoryCluster; onOpenCountry: (code: CountryCode) => void }) {
   const countries = (cluster.alsoIn ?? []).filter((a) => COUNTRIES[a.code]);
@@ -59,11 +115,14 @@ export function StoryItem({
   now,
   english,
   onOpenCountry,
+  trend,
 }: {
   cluster: StoryCluster;
   now: number;
   english: boolean;
   onOpenCountry: (code: CountryCode) => void;
+  /** This story's trend in the latest run, from trends.json. */
+  trend?: ClusterTrend;
 }) {
   const [expanded, setExpanded] = useState(false);
   const listId = useId();
@@ -78,6 +137,7 @@ export function StoryItem({
         <div className="story-text">
           <ArticleLink article={rep} className="story-title" english={english} />
           <div className="story-meta">
+            <Trend trend={trend} />
             <span className="story-source">{rep.source.name}</span>
             <span aria-hidden="true"> · </span>
             <time dateTime={rep.publishedAt} title={new Date(rep.publishedAt).toLocaleString()}>
