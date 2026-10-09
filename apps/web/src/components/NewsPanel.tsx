@@ -190,8 +190,9 @@ export function NewsPanel({
   const view = region ?? country;
   const [languageMode, setLanguageMode] = useState<LanguageMode>(readLanguageMode);
 
-  const file = state.status === 'ready' ? state.data : null;
   const shown = visibleData(state, view.code);
+  // This view's fresh file (not one kept from before, nor the previous place's): its time goes in the header.
+  const file = state.status === 'ready' && state.data === shown ? state.data : null;
   const cluster = story && shown ? findStory(shown.clusters, story) : undefined;
   // Back from a story page: the list scrolls to the story just closed.
   const [focusId, setFocusId] = useState<string | null>(null);

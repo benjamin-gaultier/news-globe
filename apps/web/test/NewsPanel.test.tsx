@@ -89,6 +89,7 @@ describe('NewsPanel', () => {
     const france = countryFile([cluster(article({ title: 'National' }))]);
     renderPanel({ country: COUNTRIES.US!, state: ready(france) });
     expect(headlines()).toEqual([]);
+    expect(screen.queryByText(/updated/)).toBeNull();
     expect(document.querySelectorAll('.skeleton')).toHaveLength(6);
   });
 
