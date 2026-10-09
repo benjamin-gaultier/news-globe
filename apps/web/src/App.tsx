@@ -9,7 +9,7 @@ import { SearchPanel } from './components/SearchPanel';
 import { TodayIcon, TodayPanel } from './components/TodayPanel';
 import { WorldPanel } from './components/WorldPanel';
 import { useAsync } from './hooks/useAsync';
-import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
+import { MOBILE_QUERY, REDUCED_MOTION_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
 import { fetchArchive, fetchCountry, fetchIndex, fetchRegion, fetchTranslations, fetchTrends } from './lib/data';
 import { changeStep, pulsesFrom } from './lib/heat';
@@ -26,7 +26,7 @@ const INDEX_REFRESH_MS = 5 * 60_000;
 export function App() {
   const now = useNow();
   const isMobile = useMediaQuery(MOBILE_QUERY);
-  const reducedMotion = useMediaQuery('(prefers-reduced-motion: reduce)');
+  const reducedMotion = useMediaQuery(REDUCED_MOTION_QUERY);
   const [selected, setSelected] = useState<CountryCode | null>(() => parseRoute(location.hash).country);
   const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(() => parseRoute(location.hash).region);
   // A story's page in the country or region panel (its cluster id); live only.

@@ -4,6 +4,7 @@ import Globe, { type GlobeMethods } from 'react-globe.gl';
 import { MeshPhongMaterial } from 'three';
 import countriesGeo from '../assets/countries-110m.json';
 import { COUNTRY_HEAT, heatStep, REGION_HEAT, type Pulse } from '../lib/heat';
+import { REDUCED_MOTION_QUERY, useMediaQuery } from '../hooks/useMediaQuery';
 import { TranslationsContext } from '../lib/translations';
 
 interface Shape {
@@ -82,6 +83,9 @@ const COLORS = {
 
 /** A pulse's ring, fading as it spreads (t runs from the centre, 0, to the edge, 1). */
 const pulseColor = (t: number) => `rgba(255, 128, 0, ${Math.sqrt(1 - t)})`;
+const ringColor = () => pulseColor;
+/** Stable empties, so globe.gl doesn't rebuild its rings layer on every render. */
+const NO_PULSES: readonly Pulse[] = [];
 
 const INITIAL_VIEW = { lat: 32, lng: -45, altitude: 2.6 };
 /** A touch that moves further than this is a drag, not a tap. */
@@ -129,7 +133,7 @@ export default function GlobeView({
   sheetFraction,
   shadeStep,
   arcs,
-  pulses = [],
+  pulses = NO_PULSES,
 }: GlobeViewProps) {
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -143,6 +147,10 @@ export default function GlobeView({
   const [ready, setReady] = useState(false);
   const selectedRef = useRef(selected);
   selectedRef.current = selected;
+  // With reduced motion the globe holds still until dragged (and pulses don't ring).
+  const reducedMotion = useMediaQuery(REDUCED_MOTION_QUERY);
+  const autoRotate = useRef(false);
+  autoRotate.current = selected === null && !reducedMotion;
 
   // Track the container size (the desktop panel narrows it).
   useEffect(() => {
@@ -239,7 +247,7 @@ export default function GlobeView({
     // Cap resolution: high-DPR phones otherwise render 9x the pixels for little visible gain.
     globe.renderer().setPixelRatio(Math.min(window.devicePixelRatio, isMobile ? 1.5 : 2));
     const controls = globe.controls();
-    controls.autoRotate = selectedRef.current === null;
+    controls.autoRotate = autoRotate.current;
     controls.autoRotateSpeed = 0.35;
     controls.enableDamping = true;
     controls.minDistance = 115;
@@ -250,11 +258,11 @@ export default function GlobeView({
     setReady(true);
   }, [isMobile]);
 
-  // Stop auto-rotating while a country is open; resume when the panel closes.
+  // Stop auto-rotating while a country is open (or with reduced motion); resume when the panel closes.
   useEffect(() => {
     const globe = globeRef.current;
-    if (globe) globe.controls().autoRotate = selected === null;
-  }, [selected]);
+    if (globe) globe.controls().autoRotate = selected === null && !reducedMotion;
+  }, [selected, reducedMotion]);
 
   // Fly to the selected region or country; zoom back out (staying over the same spot) when it closes.
   useEffect(() => {
@@ -409,8 +417,8 @@ export default function GlobeView({
           arcDashGap={0.15}
           arcDashAnimateTime={3000}
           arcsTransitionDuration={0}
-          ringsData={selected ? [] : (pulses as object[])}
-          ringColor={() => pulseColor}
+          ringsData={(selected ? NO_PULSES : pulses) as object[]}
+          ringColor={ringColor}
           ringAltitude={0.03}
           ringMaxRadius={6}
           ringPropagationSpeed={3}

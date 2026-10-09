@@ -14,3 +14,6 @@ export function useMediaQuery(query: string): boolean {
 
 /** Matches the CSS breakpoint where the side panel becomes a bottom sheet. */
 export const MOBILE_QUERY = '(max-width: 767px)';
+
+/** The user asked for less motion: no spinning globe, no pulsing rings. */
+export const REDUCED_MOTION_QUERY = '(prefers-reduced-motion: reduce)';
