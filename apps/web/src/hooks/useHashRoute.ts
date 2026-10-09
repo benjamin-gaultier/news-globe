@@ -11,13 +11,12 @@ import { formatRoute, parseRoute, type Route } from '../lib/route';
  */
 export function useHashRoute(route: Route, onPop: (route: Route) => void): void {
   const hash = formatRoute(route);
+  // biome-ignore lint/correctness/useExhaustiveDependencies: the hash covers every part of the route.
   useEffect(() => {
     if (location.hash === hash) return;
     const url = hash || location.pathname + location.search;
     if (sameView(parseRoute(location.hash), route)) history.replaceState(null, '', url);
     else history.pushState(null, '', url);
-    // The hash covers every part of the route.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [hash]);
 
   const popped = useRef(onPop);

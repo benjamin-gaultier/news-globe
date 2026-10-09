@@ -55,7 +55,7 @@ const NOT_NEWS: RegExp[] = [
   // mercredi 7 octobre 2026", "L'actu du 6 octobre 2026", "Émission du 6 octobre 2026",
   // TV Vendée's "Le journal de la Vendée du 7 octobre 2026 – Edition de la mi-journée".
   new RegExp(
-    String.raw`^(?:le |la |l['’])?(?:journal|actu|émission|emission|flash|bulletin|édition|edition)(?: [^:]{0,40}?)?` +
+    "^(?:le |la |l['’])?(?:journal|actu|émission|emission|flash|bulletin|édition|edition)(?: [^:]{0,40}?)?" +
       String.raw` d[ue] (?:(?:${DAYS_FR}) )?\d{1,2}(?:er)? (?:${MONTHS_FR})(?: \d{4})?(?:\s*[–—|-].*)?$`,
     'i',
   ),

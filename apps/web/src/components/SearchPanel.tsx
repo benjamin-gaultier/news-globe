@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { type ReactNode, useMemo } from 'react';
 import { useAsync } from '../hooks/useAsync';
 import { fetchSearch } from '../lib/data';
 import { indexSearch, searchHeadlines } from '../lib/search';
@@ -23,7 +23,7 @@ export function SearchPanel({ query, isMobile, onClose, onSheetChange, onOpenSto
 
   const subtitle = query.trim() ? <>Current headlines matching “{query.trim()}”</> : 'Current headlines of every country and region';
 
-  let body;
+  let body: ReactNode;
   if (file.status === 'error') body = <p className="panel-message">Couldn’t load the headlines to search.</p>;
   else if (file.status === 'ready' && !file.data) body = <p className="panel-message">Search isn’t available yet.</p>;
   else if (!index) body = <p className="panel-message">Loading…</p>;

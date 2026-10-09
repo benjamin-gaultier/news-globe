@@ -76,9 +76,11 @@ export function PanelShell({
 
   useEffect(() => onSheetChange(isMobile ? SHEET_SNAPS[snap] : 0), [snap, isMobile, onSheetChange]);
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: runs when the key changes, by design.
   useEffect(() => {
     setSnap('half');
   }, [sheetKey]);
+  // biome-ignore lint/correctness/useExhaustiveDependencies: runs when the key changes, by design.
   useEffect(() => {
     panelRef.current?.querySelector('.panel-body')?.scrollTo({ top: 0 });
   }, [scrollKey]);

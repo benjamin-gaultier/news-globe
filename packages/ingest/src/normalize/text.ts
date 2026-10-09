@@ -695,7 +695,7 @@ const KHMER_SEGMENTER = new Intl.Segmenter('km', { granularity: 'word' });
 function khmerTokens(title: string): string[] {
   const text = title
     .normalize('NFC')
-    .replace(/[​‌‍﻿]/g, '')
+    .replace(/[\u200B-\u200D\uFEFF]/g, '') // zero-width spaces and joiners
     .replace(/[០-៩]/g, (d) => String(d.charCodeAt(0) - 0x17e0));
   return [...KHMER_SEGMENTER.segment(text)]
     .filter((seg) => seg.isWordLike)

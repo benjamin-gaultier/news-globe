@@ -13,7 +13,10 @@ describe('HeatLegend', () => {
     // jsdom normalises colours to rgb(); compare through a probe element.
     const probe = document.createElement('span');
     expect(steps.map((li) => (li.querySelector('.swatch') as HTMLElement).style.background)).toEqual(
-      COUNTRY_HEAT.map((c) => ((probe.style.background = c), probe.style.background)),
+      COUNTRY_HEAT.map((c) => {
+        probe.style.background = c;
+        return probe.style.background;
+      }),
     );
   });
 });

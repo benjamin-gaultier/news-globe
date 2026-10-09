@@ -55,6 +55,7 @@ function Skeleton() {
   return (
     <ul className="story-list" aria-hidden="true">
       {Array.from({ length: 6 }, (_, i) => (
+        // biome-ignore lint/suspicious/noArrayIndexKey: a fixed list of placeholders.
         <li key={i} className="story skeleton">
           <div className="sk-line" style={{ width: '92%' }} />
           <div className="sk-line" style={{ width: '70%' }} />

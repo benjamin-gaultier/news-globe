@@ -1,7 +1,6 @@
 import {
   ARCHIVE_SCHEMA_VERSION,
   type ArchiveDay,
-  type ArchiveStory,
   type CountryFile,
   type IndexFile,
   type StoryCluster,

@@ -125,7 +125,9 @@ describe('useMediaQuery', () => {
     expect(matchMedia).toHaveBeenCalledWith('(max-width: 767px)');
 
     matches = true;
-    act(() => listeners.forEach((l) => l()));
+    act(() => {
+      for (const l of listeners) l();
+    });
     expect(result.current).toBe(true);
 
     unmount();

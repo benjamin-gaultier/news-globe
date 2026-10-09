@@ -1,0 +1,33 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.15/schema.json",
+  "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+  "files": {
+    "includes": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.mjs", "!**/dist", "!**/node_modules", "!data"]
+  },
+  "formatter": { "enabled": true, "indentStyle": "space", "indentWidth": 2, "lineWidth": 140 },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "jsxQuoteStyle": "double",
+      "trailingCommas": "all",
+      "semicolons": "always",
+      "arrowParentheses": "always"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "preset": "recommended",
+      "style": {
+        // With noUncheckedIndexedAccess, `xs[i]!` after a bounds check is the idiom, not a smell.
+        "noNonNullAssertion": "off"
+      },
+      "a11y": {
+        // role="group" / role="search" on a div or form is correct ARIA; <fieldset> and <search>
+        // would bring their own styling and semantics for no gain here.
+        "useSemanticElements": "off"
+      }
+    }
+  },
+  "assist": { "enabled": false }
+}

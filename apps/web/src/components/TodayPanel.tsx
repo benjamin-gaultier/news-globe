@@ -1,4 +1,5 @@
 import { COUNTRIES, type CountryCode, type TodayStory, type WorldStory } from '@news-globe/shared';
+import type { ReactNode } from 'react';
 import { useAsync } from '../hooks/useAsync';
 import { useTranslated } from '../hooks/useTranslated';
 import { fetchToday } from '../lib/data';
@@ -96,7 +97,7 @@ export function TodayPanel({ world, now, isMobile, onClose, onSheetChange, onOpe
     'The day’s news at a glance'
   );
 
-  let body;
+  let body: ReactNode;
   if (file.status === 'error') body = <p className="panel-message">Couldn’t load today’s stories.</p>;
   else if (file.status === 'loading') body = <p className="panel-message">Loading…</p>;
   else if (!today) body = <p className="panel-message">Today’s overview isn’t available yet. It appears after the next hourly update.</p>;

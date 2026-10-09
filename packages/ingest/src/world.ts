@@ -100,7 +100,10 @@ export function namesIn(title: string, known?: ReadonlySet<string>): string[][] 
     const f = nameWord(i);
     if (f) {
       if (run && joined(i)) run.push(f);
-      else names.push((run = [f]));
+      else {
+        run = [f];
+        names.push(run);
+      }
       continue;
     }
     // A particle between two name words keeps the name going.
@@ -200,7 +203,12 @@ export function linkAcrossCountries(countries: CountryClusters[]): Doc[][] {
   const pairWeight = new Map(links.flatMap(({ a, b, w }) => [[`${a},${b}`, w] as const, [`${b},${a}`, w] as const]));
   const group = docs.map((_, i) => i);
   const members = new Map(docs.map((_, i) => [i, [i]]));
-  const root = (i: number): number => (group[i] === i ? i : (group[i] = root(group[i]!)));
+  const root = (i: number): number => {
+    if (group[i] === i) return i;
+    const r = root(group[i]!);
+    group[i] = r; // path compression
+    return r;
+  };
   for (const { a, b } of links) {
     const ra = root(a);
     const rb = root(b);

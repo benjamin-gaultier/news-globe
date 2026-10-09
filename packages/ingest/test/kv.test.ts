@@ -12,7 +12,7 @@ describe('kvClient', () => {
     const [url, init] = fetchImpl.mock.calls[0]!;
     expect(url).toBe('https://api.cloudflare.com/client/v4/accounts/acc/storage/kv/namespaces/ns/values/archive%2F2026-10-08');
     expect(init?.method).toBe('PUT');
-    expect((init?.headers as Record<string, string>).Authorization).toBe('Bearer tok');
+    expect((init!.headers as Record<string, string>).Authorization).toBe('Bearer tok');
   });
 
   it('throws with Cloudflare’s message when a write is refused', async () => {

@@ -85,6 +85,8 @@ const TAP_SLOP_PX = 10;
 /** Portrait phones are narrow: pull the camera back so the whole globe fits the width. */
 const MOBILE_ALTITUDE_BOOST = 1.1;
 
+const isRegion = (f: Shape) => !!f.properties.region;
+
 function escapeHtml(s: string): string {
   return s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 }
@@ -279,7 +281,6 @@ export default memo(function GlobeView({
     globe.pointOfView({ lat: meta.lat + latOffset, lng: meta.lng, altitude }, 1000);
   }, [ready, selected, selectedRegion, isMobile, sheetFraction]);
 
-  const isRegion = (f: Shape) => !!f.properties.region;
   // Features without an ISO code (Somaliland, N. Cyprus) must not match `selected === null`.
   const isSelected = useCallback(
     (f: Shape) =>

@@ -40,9 +40,10 @@ export const SearchBox = forwardRef<HTMLInputElement, SearchBoxProps>(function S
           e.currentTarget.blur();
         }}
       />
-      <kbd className="search-key" aria-hidden="true">
+      {/* Decorative: the shortcut is announced by the field's aria-keyshortcuts. */}
+      <span className="search-key" aria-hidden="true">
         /
-      </kbd>
+      </span>
     </form>
   );
 });
