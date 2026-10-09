@@ -23,8 +23,15 @@ function swallowNextClick() {
 type Snap = keyof typeof SHEET_SNAPS;
 
 export interface PanelShellProps {
-  /** Heading content: crumb, title, subtitle, toggles. The title element needs id="panel-title". */
-  heading: ReactNode;
+  /** A link back up a level, above the title ("‹ France"). */
+  crumb?: { label: string; onClick: () => void };
+  /** The panel's name, as its heading; it also labels the panel. */
+  title: ReactNode;
+  titleClassName?: string;
+  /** One line under the title. */
+  subtitle: ReactNode;
+  /** Controls under the subtitle (the headline language toggle). */
+  controls?: ReactNode;
   children: ReactNode;
   /** A bar between the heading and the scrolling body (the history timeline). */
   toolbar?: ReactNode;
@@ -43,7 +50,11 @@ export interface PanelShellProps {
 
 /** The side panel (desktop) or draggable bottom sheet (mobile) that every view opens in. */
 export function PanelShell({
-  heading,
+  crumb,
+  title,
+  titleClassName,
+  subtitle,
+  controls,
   children,
   toolbar,
   animate = true,
@@ -154,7 +165,20 @@ export function PanelShell({
         onPointerCancel={endDrag}
       >
         <div className="sheet-handle" aria-hidden="true" />
-        <div className="panel-heading">{heading}</div>
+        <div className="panel-heading">
+          {crumb && (
+            <button type="button" className="crumb" onClick={crumb.onClick}>
+              ‹ {crumb.label}
+            </button>
+          )}
+          <h2 id="panel-title" className={titleClassName}>
+            {title}
+          </h2>
+          <p className="panel-sub" dir="auto">
+            {subtitle}
+          </p>
+          {controls}
+        </div>
         <button type="button" className="icon-btn" onClick={onClose} aria-label="Close headlines">
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
             <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />

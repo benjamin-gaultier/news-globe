@@ -41,22 +41,11 @@ export function HistoryPanel({
   onClose,
   onSheetChange,
 }: HistoryPanelProps) {
-  const heading = (
-    <>
-      {countryName && onBackToCountry && (
-        <button type="button" className="crumb" onClick={onBackToCountry}>
-          ‹ {countryName}
-        </button>
-      )}
-      <h2 id="panel-title">{unit.name}</h2>
-      <p className="panel-sub">
-        {runAt ? <>Top stories at {clock(runAt)} · {dayLabel(date)}</> : dayLabel(date)}
-      </p>
-    </>
-  );
   return (
     <PanelShell
-      heading={heading}
+      crumb={countryName && onBackToCountry ? { label: countryName, onClick: onBackToCountry } : undefined}
+      title={unit.name}
+      subtitle={runAt ? <>Top stories at {clock(runAt)} · {dayLabel(date)}</> : dayLabel(date)}
       sheetKey={`history:${unit.code}`}
       scrollKey={`${unit.code}@${runAt}`}
       toolbar={timeline}

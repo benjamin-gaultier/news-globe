@@ -88,19 +88,12 @@ export function TodayPanel({ world, now, isMobile, onClose, onSheetChange, onOpe
   const file = useAsync((signal) => fetchToday(signal), []);
   const today = file.status === 'ready' ? file.data : null;
 
-  const heading = (
+  const subtitle = today ? (
     <>
-      <h2 id="panel-title">Today</h2>
-      <p className="panel-sub">
-        {today ? (
-          <>
-            {today.countries} countries · {today.stories.toLocaleString('en')} stories · updated {relativeTime(today.runAt, now)}
-          </>
-        ) : (
-          'The day’s news at a glance'
-        )}
-      </p>
+      {today.countries} countries · {today.stories.toLocaleString('en')} stories · updated {relativeTime(today.runAt, now)}
     </>
+  ) : (
+    'The day’s news at a glance'
   );
 
   let body;
@@ -184,7 +177,7 @@ export function TodayPanel({ world, now, isMobile, onClose, onSheetChange, onOpe
     );
 
   return (
-    <PanelShell heading={heading} sheetKey="today" scrollKey="today" isMobile={isMobile} onClose={onClose} onSheetChange={onSheetChange}>
+    <PanelShell title="Today" subtitle={subtitle} sheetKey="today" scrollKey="today" isMobile={isMobile} onClose={onClose} onSheetChange={onSheetChange}>
       {body}
     </PanelShell>
   );
