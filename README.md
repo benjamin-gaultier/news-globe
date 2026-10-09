@@ -194,7 +194,9 @@ A failed scheduled run makes GitHub email whoever last changed the workflow's sc
 
 ### History archive
 
-Once an hour, the [Health workflow](.github/workflows/health.yml) runs [archive-remote.ts](packages/ingest/src/archive-remote.ts) (`pnpm --filter @news-globe/ingest archive:remote`). It reads the published `bundle` from KV, and [archive.ts](packages/ingest/src/archive.ts) folds that run's ranked stories, for every country and region, into one gzipped file per UTC day, stored in the same KV namespace as `archive/YYYY-MM-DD`. Building it from the published data, rather than on the ingest machine, keeps history growing whatever code that machine runs. The Pi no longer archives.
+[archive-remote.ts](packages/ingest/src/archive-remote.ts) (`pnpm --filter @news-globe/ingest archive:remote`) reads the published `bundle` from KV, and [archive.ts](packages/ingest/src/archive.ts) folds that run's ranked stories, for every country and region, into one gzipped file per UTC day, stored in the same KV namespace as `archive/YYYY-MM-DD`. Two things run it:
+- **The Pi, right after each run**, with `ARCHIVE_AFTER_RUN=1` in its `.env` ([watch.ts](packages/ingest/src/watch.ts)). History, trends, Today and translations then follow every run. Put `AZURE_TRANSLATOR_KEY` and `AZURE_TRANSLATOR_REGION` in the same `.env` for translations. This is the preferred setup: it costs no GitHub Actions minutes, and GitHub often delays or skips scheduled workflows.
+- **The [Health workflow](.github/workflows/health.yml)**, as a fallback (and the only archiver until the Pi does it). A run the Pi already archived is skipped, so running both is safe.
 
 Each story gets one record per day and unit (headline, link, outlet ids, first and last run that ranked it, best rank, peak outlet count). A cluster in a later run that shares any article with a story continues that story. Each run also stores its ranked list per unit, so the day can be replayed hour by hour. The format is `ArchiveDay` in [shared](packages/shared/src/index.ts). The Worker serves each day at `/data/archive/YYYY-MM-DD.json` for the History view, and the dev server serves `data/archive/` the same way.
 
@@ -207,6 +209,8 @@ Each story gets one record per day and unit (headline, link, outlet ids, first a
 To update the Pi by hand (e.g. after adding a country; merging it to `main` already redeployed the Worker): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile`. No restart is needed: the watcher starts every run as a fresh `cli.ts` process, so the next run uses the new code and feeds. Only a change to `watch.ts` itself, or to its schedule, needs `sudo systemctl restart news-globe-ingest`.
 
 **Auto-update.** With `AUTO_UPDATE=1` in `.env`, the watcher keeps the Pi on `main` by itself ([update.ts](packages/ingest/src/update.ts)). Before each hourly run it fetches `origin/main` and fast-forwards, then reruns `pnpm install --frozen-lockfile` when `package.json` or the lockfile changed. When `watch.ts` or `update.ts` itself changed, it exits with code 75, so systemd (`Restart=on-failure`) starts it again a minute later on the new code. It never merges, rebases or discards anything: with local changes, a diverged branch, another branch checked out or a failed fetch, it logs why in the journal and runs the code it has. `main` only moves through pull requests whose CI passed. Turning it on takes one last manual update: `git pull && pnpm install --frozen-lockfile`, add `AUTO_UPDATE=1` to `.env`, then `sudo systemctl restart news-globe-ingest`.
+
+**Archive after each run.** With `ARCHIVE_AFTER_RUN=1` in `.env`, the watcher runs the [history archive](#history-archive) step after each successful run (plus translations when the Azure variables are set). A failed archive step is logged and left to the Health workflow.
 
 ### Pipeline details
 
