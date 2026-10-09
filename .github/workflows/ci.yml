@@ -27,6 +27,8 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      # Lint and formatting (biome.jsonc); `pnpm check` locally, `pnpm format` to fix formatting.
+      - run: pnpm exec biome ci .
       - run: pnpm typecheck
       - run: pnpm test
       # vite build only: `pnpm build` would typecheck the web app a second time.
