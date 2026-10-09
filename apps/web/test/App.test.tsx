@@ -542,6 +542,32 @@ describe('Search', () => {
     expect(location.hash).toBe('#FR-BRE');
   });
 
+  it('leaves the results and the highlight on Back and Forward', async () => {
+    const go = (hash: string) =>
+      act(() => {
+        history.replaceState(null, '', `/${hash}`);
+        window.dispatchEvent(new PopStateEvent('popstate'));
+      });
+    await renderApp();
+    await userEvent.type(screen.getByRole('searchbox'), 'budget');
+    await userEvent.click(await screen.findByRole('button', { name: /Le budget adopté/ }));
+    await screen.findByRole('link', { name: 'Le budget adopté' });
+
+    go('#US');
+    await screen.findByRole('link', { name: 'Senate passes bill' });
+    go('#FR');
+    const link = await screen.findByRole('link', { name: 'Le budget adopté' });
+    expect(link.closest('li')!.className).not.toContain('story-focused');
+
+    // Results open over the globe, then Back to a country and Forward to the plain globe.
+    await userEvent.click(screen.getByRole('searchbox'));
+    await screen.findByRole('heading', { name: 'Search results' });
+    go('#US');
+    await screen.findByRole('link', { name: 'Senate passes bill' });
+    go('');
+    await waitFor(() => expect(panel()).toBeNull());
+  });
+
   it('jumps to the search box with "/" unless typing in a field', async () => {
     await renderApp();
     await userEvent.keyboard('/');

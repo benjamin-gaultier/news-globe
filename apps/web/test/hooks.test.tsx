@@ -1,7 +1,7 @@
 // @vitest-environment jsdom
 import { act, renderHook, waitFor } from '@testing-library/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
-import { useAsync } from '../src/hooks/useAsync';
+import { latestData, useAsync } from '../src/hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from '../src/hooks/useMediaQuery';
 import { useNow } from '../src/hooks/useNow';
 
@@ -42,6 +42,20 @@ describe('useAsync', () => {
     rerender({ k: 2 });
     await act(async () => calls[1]!.reject('plain'));
     expect(result.current).toEqual({ status: 'error', error: 'plain' });
+  });
+
+  it('keeps the previous data through a failed reload and the next one', async () => {
+    const { load, calls } = deferredLoader<string>();
+    const { result, rerender } = renderHook(({ k }) => useAsync(load, [k]), { initialProps: { k: 1 } });
+    await act(async () => calls[0]!.resolve('one'));
+
+    rerender({ k: 2 });
+    await act(async () => calls[1]!.reject(new Error('offline')));
+    expect(result.current).toEqual({ status: 'error', error: 'offline', previous: 'one' });
+    expect(latestData(result.current)).toBe('one');
+
+    rerender({ k: 3 });
+    expect(result.current).toEqual({ status: 'loading', previous: 'one' });
   });
 
   it('reloads on a dependency change, keeping the previous data and aborting the stale request', async () => {

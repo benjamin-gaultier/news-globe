@@ -1,6 +1,7 @@
 import type { ArchiveStory } from '@news-globe/shared';
 import type { ReactNode } from 'react';
-import { clock, dayLabel } from './HistoryBar';
+import { plural } from '../lib/text';
+import { clock, dayLabel } from '../lib/time';
 import { PanelShell } from './PanelShell';
 
 export interface HistoryPanelProps {
@@ -81,7 +82,7 @@ export function HistoryPanel({
                 {s.title}
               </a>
               <div className="story-meta">
-                {s.sources.length} outlet{s.sources.length === 1 ? '' : 's'}
+                {plural(s.sources.length, 'outlet')}
                 <span aria-hidden="true"> · </span>
                 in the top list {clock(s.firstSeen)}–{clock(s.lastSeen)}
                 <span aria-hidden="true"> · </span>

@@ -1,42 +1,10 @@
-import { COUNTRIES, type Article, type ClusterTrend, type CountryCode, type StoryCluster } from '@news-globe/shared';
-import { useEffect, useRef, useState } from 'react';
+import { COUNTRIES, type ClusterTrend, type CountryCode, type StoryCluster } from '@news-globe/shared';
+import { useEffect, useRef } from 'react';
 import { useTranslated } from '../hooks/useTranslated';
+import { headlineText, plural } from '../lib/text';
 import { relativeTime } from '../lib/time';
 import { TARGET_LANGUAGE, translatedPageUrl, translatedTextUrl } from '../lib/translate';
-
-function Thumbnail({ src }: { src: string | null }) {
-  const [failed, setFailed] = useState(false);
-  if (!src || failed) return null;
-  return (
-    <img
-      className="story-thumb"
-      src={src}
-      alt=""
-      loading="lazy"
-      decoding="async"
-      referrerPolicy="no-referrer"
-      onError={() => setFailed(true)}
-    />
-  );
-}
-
-/** Always links to the publisher, whatever language the title is shown in. */
-function ArticleLink({ article, className, english }: { article: Article; className: string; english: boolean }) {
-  const title = useTranslated(article.title, article.language, english);
-  return (
-    <a
-      className={className}
-      href={article.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      lang={title.translated ? TARGET_LANGUAGE : article.language}
-      dir="auto"
-      title={title.translated ? article.title : undefined}
-    >
-      {title.text}
-    </a>
-  );
-}
+import { ArticleLink, Thumbnail, TrendBadge } from './StoryParts';
 
 /** The story's rank over today's runs (top = 1 at the top), with gaps where it wasn't ranked. */
 export function RankSparkline({ ranks }: { ranks: (number | null)[] }) {
@@ -81,17 +49,12 @@ export function RankSparkline({ ranks }: { ranks: (number | null)[] }) {
   );
 }
 
-/** The headline and its snippet, as one text to translate. */
-export const headlineText = (a: Article) => (a.description ? `${a.title}\n\n${a.description}` : a.title);
-
 /** "New" or "↑ Rising" since the previous run, and the rank history, when the hourly trends cover this story. */
 function Trend({ trend }: { trend?: ClusterTrend }) {
   if (!trend) return null;
   return (
     <>
-      {trend.state && (
-        <span className={`story-badge story-badge-${trend.state}`}>{trend.state === 'new' ? 'New' : '↑ Rising'}</span>
-      )}
+      <TrendBadge state={trend.state} />
       <RankSparkline ranks={trend.ranks} />
     </>
   );
@@ -198,11 +161,11 @@ export function StoryItem({
             </p>
           )}
         </div>
-        <Thumbnail src={rep.imageUrl} />
+        <Thumbnail src={rep.imageUrl} className="story-thumb" />
       </div>
       <AlsoIn cluster={cluster} onOpenStoryIn={onOpenStoryIn} />
       <button type="button" className="story-more" onClick={onOpen}>
-        {others > 0 ? `+${others} other source${others === 1 ? '' : 's'}` : 'Story details'}
+        {others > 0 ? `+${plural(others, 'other source')}` : 'Story details'}
         <span className="chevron chevron-right" aria-hidden="true" />
       </button>
     </li>

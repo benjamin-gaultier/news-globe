@@ -71,5 +71,8 @@ jobs:
             the 🔴 items if any, and as its very last line exactly one of:
             Verdict: ✅ no blocking issues
             Verdict: ❌ blocking issues
+          # Opus for the review itself (the action defaults to Sonnet); Claude Code
+          # may still use Haiku for small background tasks.
           claude_args: |
+            --model claude-opus-5-5
             --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Read,Glob,Grep"

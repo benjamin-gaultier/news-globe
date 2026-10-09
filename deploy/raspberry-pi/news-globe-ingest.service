@@ -1,4 +1,4 @@
-# systemd unit: runs the ingest every 15 minutes and publishes to Cloudflare KV.
+# systemd unit: runs the ingest hourly and publishes to Cloudflare KV.
 # Install: see README "Ingest on a Raspberry Pi". Assumes user `pi` with Node in
 # ~/.local/node (nodejs.org tarball) and pnpm shims from `corepack enable
 # --install-directory ~/.local/bin`; the README's sed command swaps in your user.

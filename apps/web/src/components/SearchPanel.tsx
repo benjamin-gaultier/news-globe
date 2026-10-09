@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { useAsync } from '../hooks/useAsync';
 import { fetchSearch } from '../lib/data';
 import { indexSearch, searchHeadlines } from '../lib/search';
+import { plural } from '../lib/text';
 import { PanelShell } from './PanelShell';
 
 export interface SearchPanelProps {
@@ -39,7 +40,7 @@ export function SearchPanel({ query, isMobile, onClose, onSheetChange, onOpenSto
     body = (
       <>
         <p className="panel-note" aria-live="polite">
-          {results.total} headline{results.total === 1 ? '' : 's'}
+          {plural(results.total, 'headline')}
           {results.total > 60 ? ', most widely covered first' : ''}
         </p>
         {results.groups.map((g) => (

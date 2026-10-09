@@ -3,7 +3,8 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it, vi } from 'vitest';
 import type { ArchiveStory } from '@news-globe/shared';
-import { clock, dayLabel, HistoryBar, LiveBar, type HistoryBarProps } from '../src/components/HistoryBar';
+import { HistoryBar, LiveBar, type HistoryBarProps } from '../src/components/HistoryBar';
+import { clock, dayLabel } from '../src/lib/time';
 import { HistoryPanel, type HistoryPanelProps } from '../src/components/HistoryPanel';
 
 const RUNS = ['2026-10-07T08:00:00.000Z', '2026-10-07T09:00:00.000Z', '2026-10-07T10:00:00.000Z'];
