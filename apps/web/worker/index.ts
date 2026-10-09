@@ -35,20 +35,39 @@ const DERIVED: Record<string, string> = Object.fromEntries(
   [KV_KEYS.trends, KV_KEYS.search, KV_KEYS.today, KV_KEYS.translations].map((k) => [`${k}.json`, k]),
 );
 
-/** A gzipped KV value, sent as stored: the browser inflates it, the Worker never does. */
-async function serveGzipped(env: Env, kvKey: string, maxAge: number, head: boolean): Promise<Response> {
+/** A weak validator from the body's hash: a browser revalidating after max-age gets a 304 when nothing changed. */
+async function etagOf(body: ArrayBuffer | Uint8Array): Promise<string> {
+  const digest = new Uint8Array(await crypto.subtle.digest('SHA-256', body));
+  return `W/"${[...digest.subarray(0, 12)].map((b) => b.toString(16).padStart(2, '0')).join('')}"`;
+}
+
+/** A JSON file, gzipped when stored that way (sent as stored: the browser inflates it, the Worker never does). */
+async function respond(
+  request: Request,
+  body: ArrayBuffer | Uint8Array,
+  opts: { maxAge: number; gzipped: boolean },
+): Promise<Response> {
+  const etag = await etagOf(body);
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json; charset=utf-8',
+    'Cache-Control': `public, max-age=${opts.maxAge}`,
+    ETag: etag,
+    'Access-Control-Allow-Origin': '*',
+    'X-Content-Type-Options': 'nosniff',
+  };
+  if (opts.gzipped) headers['Content-Encoding'] = 'gzip';
+  const known = request.headers.get('If-None-Match');
+  if (known && known.split(',').some((tag) => tag.trim() === etag || tag.trim() === '*')) {
+    return new Response(null, { status: 304, headers });
+  }
+  return new Response(request.method === 'HEAD' ? null : body, { headers, ...(opts.gzipped && { encodeBody: 'manual' as const }) });
+}
+
+/** A gzipped KV value under its own key. */
+async function serveGzipped(request: Request, env: Env, kvKey: string, maxAge: number): Promise<Response> {
   const gzipped = await env.NEWS_DATA.get(kvKey, { type: 'arrayBuffer', cacheTtl: maxAge });
   if (gzipped === null) return new Response('Not found', { status: 404 });
-  return new Response(head ? null : gzipped, {
-    encodeBody: 'manual',
-    headers: {
-      'Content-Type': 'application/json; charset=utf-8',
-      'Content-Encoding': 'gzip',
-      'Cache-Control': `public, max-age=${maxAge}`,
-      'Access-Control-Allow-Origin': '*',
-      'X-Content-Type-Options': 'nosniff',
-    },
-  });
+  return respond(request, gzipped, { maxAge, gzipped: true });
 }
 
 export default {
@@ -60,31 +79,19 @@ export default {
     }
 
     const key = url.pathname.slice('/data/'.length);
-    const head = request.method === 'HEAD';
     const archive = ARCHIVE_KEY.exec(key);
     if (archive) {
       const date = archive[1]!;
       const yesterday = new Date(Date.now() - 86_400_000).toISOString().slice(0, 10);
-      return serveGzipped(env, archiveKey(date), date < yesterday ? PAST_DAY_MAX_AGE_S : MAX_AGE_S, head);
+      return serveGzipped(request, env, archiveKey(date), date < yesterday ? PAST_DAY_MAX_AGE_S : MAX_AGE_S);
     }
-    if (Object.hasOwn(DERIVED, key)) return serveGzipped(env, DERIVED[key]!, MAX_AGE_S, head);
+    if (Object.hasOwn(DERIVED, key)) return serveGzipped(request, env, DERIVED[key]!, MAX_AGE_S);
     if (!PUBLIC_KEY.test(key)) return new Response('Not found', { status: 404 });
 
     // cacheTtl keeps the bundle in the colo's cache, saving KV reads.
     const bundle = await env.NEWS_DATA.get(BUNDLE_KEY, { type: 'arrayBuffer', cacheTtl: MAX_AGE_S });
-    // Before the first bundle was written, files were stored one key each; fall back to those.
-    const value = bundle
-      ? readBundleEntry(new Uint8Array(bundle), key)
-      : await env.NEWS_DATA.get(key, { type: 'stream', cacheTtl: MAX_AGE_S });
-    if (value === null) return new Response('Not found', { status: 404 });
-
-    return new Response(request.method === 'HEAD' ? null : value, {
-      headers: {
-        'Content-Type': 'application/json; charset=utf-8',
-        'Cache-Control': `public, max-age=${MAX_AGE_S}`,
-        'Access-Control-Allow-Origin': '*',
-        'X-Content-Type-Options': 'nosniff',
-      },
-    });
+    const value = bundle && readBundleEntry(new Uint8Array(bundle), key);
+    if (!value) return new Response('Not found', { status: 404 });
+    return respond(request, value, { maxAge: MAX_AGE_S, gzipped: false });
   },
 } satisfies ExportedHandler<Env>;

@@ -97,14 +97,47 @@ describe('worker', () => {
     expect(res.body).toBeNull();
   });
 
-  it('falls back to one key per file before the first bundle was written', async () => {
-    const e = env({ 'countries/FR.json': '{"legacy":1}' });
+  it('404s everything public before the first bundle is written', async () => {
+    expect((await call('/data/index.json', env())).status).toBe(404);
+  });
 
-    const res = await call('/data/countries/FR.json', e);
+  describe('revalidation', () => {
+    const get = (path: string, e: ReturnType<typeof env>, etag: string) =>
+      worker.fetch(
+        new Request(`https://globe.example${path}`, { headers: { 'If-None-Match': etag } }),
+        e as unknown as Parameters<typeof worker.fetch>[1],
+      );
 
-    expect(await res.text()).toBe('{"legacy":1}');
-    expect(e.NEWS_DATA.get).toHaveBeenLastCalledWith('countries/FR.json', { type: 'stream', cacheTtl: 60 });
-    expect((await call('/data/countries/DE.json', e)).status).toBe(404);
+    it('answers 304 when the file is unchanged, and the new file when it changed', async () => {
+      const e = bundled({ 'index.json': '{"i":1}' });
+      const etag = (await call('/data/index.json', e)).headers.get('ETag')!;
+      expect(etag).toMatch(/^W\/"[0-9a-f]{24}"$/);
+
+      const same = await get('/data/index.json', e, etag);
+      expect(same.status).toBe(304);
+      expect(same.body).toBeNull();
+      expect(same.headers.get('ETag')).toBe(etag);
+      expect(same.headers.get('Cache-Control')).toBe('public, max-age=60');
+
+      const changed = await get('/data/index.json', bundled({ 'index.json': '{"i":2}' }), etag);
+      expect(changed.status).toBe(200);
+      expect(await changed.text()).toBe('{"i":2}');
+    });
+
+    it('gives each file of the bundle its own validator', async () => {
+      const e = bundled({ 'index.json': '{"i":1}', 'countries/FR.json': '{"fr":1}' });
+      const index = (await call('/data/index.json', e)).headers.get('ETag');
+      const fr = (await call('/data/countries/FR.json', e)).headers.get('ETag');
+      expect(index).not.toBe(fr);
+    });
+
+    it('revalidates gzipped files too', async () => {
+      const e = env({ today: new Uint8Array([0x1f, 0x8b, 8, 0]) });
+      const etag = (await call('/data/today.json', e)).headers.get('ETag')!;
+      const res = await get('/data/today.json', e, `W/"other", ${etag}`);
+      expect(res.status).toBe(304);
+      expect(res.headers.get('Content-Encoding')).toBe('gzip');
+    });
   });
 
   describe('derived files', () => {
