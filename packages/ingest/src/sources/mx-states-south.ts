@@ -18,13 +18,7 @@ type SouthState =
   | 'YUC'
   | 'ROO';
 
-const src = (
-  id: string,
-  name: string,
-  region: SouthState,
-  feedUrls: string[],
-  authority: number,
-): SourceConfig => ({
+const src = (id: string, name: string, region: SouthState, feedUrls: string[], authority: number): SourceConfig => ({
   id,
   name,
   type: 'rss',
@@ -130,7 +124,13 @@ export const MX_STATES_SOUTH: SourceConfig[] = [
   src('mx_mic_changoonga', 'Changoonga', 'MIC', ['https://www.changoonga.com/feed/'], 7),
 
   // ---- Morelos ----
-  src('mx_mor_diariomorelos', 'Diario de Morelos', 'MOR', ['https://www.diariodemorelos.com/uploads/feeds/feed_diario-de-morelos_es.xml'], 9),
+  src(
+    'mx_mor_diariomorelos',
+    'Diario de Morelos',
+    'MOR',
+    ['https://www.diariodemorelos.com/uploads/feeds/feed_diario-de-morelos_es.xml'],
+    9,
+  ),
   src('mx_mor_solcuernavaca', 'El Sol de Cuernavaca', 'MOR', [oem('elsoldecuernavaca')], 9),
   src('mx_mor_jornada', 'La Jornada Morelos', 'MOR', ['https://www.lajornadamorelos.mx/feed/'], 8),
   src('mx_mor_quadratin', 'Quadratín Morelos', 'MOR', quadratin('morelos'), 7),

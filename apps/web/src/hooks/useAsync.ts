@@ -39,7 +39,7 @@ export function useAsync<T>(load: ((signal: AbortSignal) => Promise<T>) | null, 
       },
     );
     return () => ctrl.abort();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // biome-ignore lint/correctness/useExhaustiveDependencies: the caller lists what `load` depends on.
   }, deps);
 
   return state;

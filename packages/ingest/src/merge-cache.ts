@@ -1,7 +1,8 @@
 import './env';
-import { readFile, rename, writeFile } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { DEFAULT_DATA_DIR } from './pipeline';
+import { writeJsonAtomic } from './write';
 
 /**
  * `pnpm cache:merge <other http.json>`: bring another machine's fetch history
@@ -43,6 +44,6 @@ for (const [url, entry] of Object.entries(incoming.entries)) {
     bumped++;
   }
 }
-await writeFile(`${file}.tmp`, JSON.stringify(local));
-await rename(`${file}.tmp`, file);
+// The same atomic write the cache itself uses (creates data/.cache, retries a busy rename).
+await writeJsonAtomic(file, local);
 console.log(`[cache:merge] ${added} feeds added, ${bumped} last-attempt times moved forward`);

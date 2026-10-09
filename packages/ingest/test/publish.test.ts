@@ -25,8 +25,9 @@ afterEach(async () => {
 });
 
 function okFetch() {
-  return vi.fn(async (_url: string | URL | Request, _init?: RequestInit) =>
-    new Response(JSON.stringify({ success: true, errors: [] }), { status: 200 }),
+  return vi.fn(
+    async (_url: string | URL | Request, _init?: RequestInit) =>
+      new Response(JSON.stringify({ success: true, errors: [] }), { status: 200 }),
   );
 }
 
@@ -59,7 +60,7 @@ describe('publishToKv', () => {
     const [url, init] = fetchImpl.mock.calls[0]!;
     expect(url).toBe('https://api.cloudflare.com/client/v4/accounts/acc/storage/kv/namespaces/ns/values/bundle');
     expect(init?.method).toBe('PUT');
-    expect((init?.headers as Record<string, string>).Authorization).toBe('Bearer tok');
+    expect((init!.headers as Record<string, string>).Authorization).toBe('Bearer tok');
     const bundle = sentBundle(fetchImpl);
     expect(text(readBundleEntry(bundle, 'index.json'))).toBe('{"i":1}');
     expect(text(readBundleEntry(bundle, 'countries/FR.json'))).toBe('{"fr":1}');
@@ -82,8 +83,8 @@ describe('publishToKv', () => {
   });
 
   it('throws on API failure and retries next time', async () => {
-    const failing = vi.fn(async () =>
-      new Response(JSON.stringify({ success: false, errors: [{ message: 'Authentication error' }] }), { status: 403 }),
+    const failing = vi.fn(
+      async () => new Response(JSON.stringify({ success: false, errors: [{ message: 'Authentication error' }] }), { status: 403 }),
     );
     await expect(publishToKv(dir, cfg, { fetchImpl: failing, log: quiet })).rejects.toThrow('Authentication error');
 

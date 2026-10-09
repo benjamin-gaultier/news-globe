@@ -22,7 +22,7 @@ export interface ClusterOptions {
   ignoreNames?: readonly string[];
 }
 
-export function jaccard(a: Set<string>, b: Set<string>): { score: number; shared: number } {
+function jaccard(a: Set<string>, b: Set<string>): { score: number; shared: number } {
   if (a.size === 0 || b.size === 0) return { score: 0, shared: 0 };
   let shared = 0;
   for (const t of a) if (b.has(t)) shared++;
@@ -33,7 +33,8 @@ export function titleSimilarity(a: string, b: string, language?: string): { scor
   return jaccard(titleTokens(a, language), titleTokens(b, language));
 }
 
-class UnionFind {
+/** Union-find over 0..n-1 with each root's members (shared with world.ts). */
+export class UnionFind {
   private readonly parent: number[];
   /** Members of each root's group, kept in index order. */
   readonly members: number[][];
@@ -82,7 +83,10 @@ export function clusterArticles(articles: Article[], opts: ClusterOptions): Arti
   const nameTokensByLanguage = new Map<string, Set<string>>();
   const nameTokens = (language: string) => {
     let set = nameTokensByLanguage.get(language);
-    if (!set) nameTokensByLanguage.set(language, (set = titleTokens((opts.ignoreNames ?? []).join(' '), language)));
+    if (!set) {
+      set = titleTokens((opts.ignoreNames ?? []).join(' '), language);
+      nameTokensByLanguage.set(language, set);
+    }
     return set;
   };
   const sim: Float64Array = new Float64Array(n * n);

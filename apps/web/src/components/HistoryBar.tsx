@@ -22,13 +22,7 @@ export function HistoryBar({ date, runs, runAt, status, canGoForward, onShiftDay
           ‹
         </button>
         <span className="history-date">{dayLabel(date)}</span>
-        <button
-          type="button"
-          className="icon-btn"
-          onClick={() => onShiftDay(1)}
-          disabled={!canGoForward}
-          aria-label="Next day"
-        >
+        <button type="button" className="icon-btn" onClick={() => onShiftDay(1)} disabled={!canGoForward} aria-label="Next day">
           ›
         </button>
       </div>

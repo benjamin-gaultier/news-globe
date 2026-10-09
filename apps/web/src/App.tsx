@@ -71,8 +71,7 @@ export function App() {
   const translations = useMemo(() => new Map(Object.entries(translationsData?.items ?? {})), [translationsData]);
   const canShadeByChange = !historyDate && !!trendsData;
   const shadeStep = useMemo(
-    () =>
-      canShadeByChange && shading === 'change' ? (code: string) => changeStep(trendsData!.change[code] ?? 0) : undefined,
+    () => (canShadeByChange && shading === 'change' ? (code: string) => changeStep(trendsData!.change[code] ?? 0) : undefined),
     [canShadeByChange, shading, trendsData],
   );
 
@@ -106,8 +105,7 @@ export function App() {
   // Selecting a country (or closing) always starts from its national view.
   const selectCountry = useCallback((code: CountryCode | null) => setView(code ? place(code) : GLOBE), []);
   const selectRegion = useCallback(
-    (code: RegionCode | null) =>
-      setView((v) => (v.kind === 'place' ? { ...v, region: code, story: null, focusTitle: null } : v)),
+    (code: RegionCode | null) => setView((v) => (v.kind === 'place' ? { ...v, region: code, story: null, focusTitle: null } : v)),
     [],
   );
   /** A story's page in the open panel, or back to its list (null). */
@@ -181,7 +179,8 @@ export function App() {
       ?.scrollIntoView?.({ inline: 'center', block: 'nearest', behavior: 'smooth' });
   }, [selected]);
 
-  const pageTitle = region?.name ?? (selected ? COUNTRIES[selected]?.name : world ? 'Across borders' : view.kind === 'today' ? 'Today' : undefined);
+  const pageTitle =
+    region?.name ?? (selected ? COUNTRIES[selected]?.name : world ? 'Across borders' : view.kind === 'today' ? 'Today' : undefined);
   useEffect(() => {
     document.title = pageTitle ? `${pageTitle} · News Globe` : 'News Globe';
   }, [pageTitle]);
@@ -194,10 +193,10 @@ export function App() {
     historyDate
       ? null
       : selectedRegion
-      ? (signal) => fetchRegion(selectedRegion, signal)
-      : selected
-        ? (signal) => fetchCountry(selected, signal)
-        : null,
+        ? (signal) => fetchRegion(selectedRegion, signal)
+        : selected
+          ? (signal) => fetchCountry(selected, signal)
+          : null,
     [historyDate, selected, selectedRegion, selectedUpdatedAt, retryKey],
   );
 

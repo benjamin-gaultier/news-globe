@@ -3,13 +3,19 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { RawItem } from '../src/adapters/types';
-import { dropRepublished, isMisdecoded, isNotNews, isUnrenderedTemplate } from '../src/normalize/article';
+import { dropOwnRepeats, dropRepublished, isMisdecoded, isNotNews, isUnrenderedTemplate } from '../src/normalize/article';
 import { article } from './helpers';
 import { decodeBody, HttpCache, newest } from '../src/http';
 
 const URL_A = 'https://feeds.example/a.xml';
 const MIN = 60_000;
-const item = (title: string): RawItem => ({ title, url: `https://x.example/${title}`, description: null, publishedAt: null, imageUrl: null });
+const item = (title: string): RawItem => ({
+  title,
+  url: `https://x.example/${title}`,
+  description: null,
+  publishedAt: null,
+  imageUrl: null,
+});
 
 let dir: string;
 let now: number;
@@ -31,7 +37,9 @@ function makeCache(fetchImpl: typeof fetch) {
 
 describe('HttpCache', () => {
   it('sends the User-Agent, stores validators, and parses on 200', async () => {
-    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200, headers: { ETag: '"v1"', 'Last-Modified': 'Tue, 06 Oct 2026 09:00:00 GMT' } }));
+    const fetchImpl = vi.fn<typeof fetch>(
+      async () => new Response('<rss/>', { status: 200, headers: { ETag: '"v1"', 'Last-Modified': 'Tue, 06 Oct 2026 09:00:00 GMT' } }),
+    );
     const cache = await makeCache(fetchImpl);
     const res = await cache.getItems(URL_A, async () => [item('one')]);
     expect(res.outcome).toBe('fetched');
@@ -43,6 +51,17 @@ describe('HttpCache', () => {
     await cache.save();
     const saved = JSON.parse(await readFile(join(dir, 'http.json'), 'utf8'));
     expect(saved.entries[URL_A].etag).toBe('"v1"');
+  });
+
+  it('records why a feed failed when its 200 response does not parse', async () => {
+    const cache = await makeCache(vi.fn<typeof fetch>(async () => new Response('<html>Not a feed</html>', { status: 200 })));
+    const res = await cache.getItems(URL_A, async () => {
+      throw new Error('Unexpected root element: html');
+    });
+    expect(res.outcome).toBe('error');
+    await cache.save();
+    const saved = JSON.parse(await readFile(join(dir, 'http.json'), 'utf8'));
+    expect(saved.entries[URL_A].lastStatus).toBe('Unexpected root element: html');
   });
 
   it('does not hit the network again within 15 minutes, even from a fresh process', async () => {
@@ -62,7 +81,9 @@ describe('HttpCache', () => {
   it('sends conditional headers after the interval and reuses cached items on 304', async () => {
     const fetchImpl = vi
       .fn<typeof fetch>()
-      .mockResolvedValueOnce(new Response('<rss/>', { status: 200, headers: { ETag: '"v1"', 'Last-Modified': 'Tue, 06 Oct 2026 09:00:00 GMT' } }))
+      .mockResolvedValueOnce(
+        new Response('<rss/>', { status: 200, headers: { ETag: '"v1"', 'Last-Modified': 'Tue, 06 Oct 2026 09:00:00 GMT' } }),
+      )
       .mockResolvedValueOnce(new Response(null, { status: 304 }));
     const cache = await makeCache(fetchImpl);
     await cache.getItems(URL_A, async () => [item('one')]);
@@ -124,7 +145,12 @@ describe('HttpCache', () => {
 describe('newest', () => {
   const at = (title: string, publishedAt: string | null): RawItem => ({ ...item(title), publishedAt });
   it('keeps the most recent items when a feed lists its whole archive', () => {
-    const items = [at('old', '2026-10-01T00:00:00Z'), at('new', '2026-10-07T00:00:00Z'), at('undated', null), at('mid', '2026-10-05T00:00:00Z')];
+    const items = [
+      at('old', '2026-10-01T00:00:00Z'),
+      at('new', '2026-10-07T00:00:00Z'),
+      at('undated', null),
+      at('mid', '2026-10-05T00:00:00Z'),
+    ];
     expect(newest(items, 2).map((i) => i.title)).toEqual(['undated', 'new']);
     expect(newest(items, 4)).toBe(items);
   });
@@ -439,5 +465,14 @@ describe('dropRepublished', () => {
     const other = article('wshu', 'CT lawmakers weigh SNAP backup plan', '2026-10-07T09:00:00Z');
     const update = article('ctmirror', 'CT Effort to Support SNAP Recipients Stalls', '2026-10-07T11:00:00Z');
     expect(dropRepublished([rerun, update, other, original])).toEqual([other, original]);
+  });
+});
+
+describe('dropOwnRepeats', () => {
+  it("drops an outlet's own repeated headline but keeps other outlets running the same one", () => {
+    const first = article('ansa', 'Manovra, via libera del Cdm', '2026-10-07T08:00:00Z');
+    const repeat = article('ansa', 'Manovra: via libera del CdM', '2026-10-07T09:00:00Z');
+    const wire = article('rainews', 'Manovra, via libera del Cdm', '2026-10-07T08:30:00Z');
+    expect(dropOwnRepeats([repeat, wire, first])).toEqual([wire, first]);
   });
 });

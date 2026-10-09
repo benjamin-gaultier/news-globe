@@ -55,6 +55,7 @@ function Skeleton() {
   return (
     <ul className="story-list" aria-hidden="true">
       {Array.from({ length: 6 }, (_, i) => (
+        // biome-ignore lint/suspicious/noArrayIndexKey: a fixed list of placeholders.
         <li key={i} className="story skeleton">
           <div className="sk-line" style={{ width: '92%' }} />
           <div className="sk-line" style={{ width: '70%' }} />
@@ -76,12 +77,14 @@ function readLanguageMode(): LanguageMode {
   }
 }
 
-/** The file to render: fresh data, or the previous data for this view while it refreshes or after a refresh failed. */
+/**
+ * The file to render: this view's data, fresh or kept from before while it refreshes or after a
+ * refresh failed. Another view's file is never shown: right after a switch, the loader still holds
+ * the previous country's 'ready' data for one render.
+ */
 function visibleData(state: AsyncState<CountryFile>, viewCode: string): CountryFile | null {
-  if (state.status === 'ready') return state.data;
-  const previous = latestData(state);
-  if (previous && (previous.regionCode ?? previous.countryCode) === viewCode) return previous;
-  return null;
+  const data = latestData(state);
+  return data && (data.regionCode ?? data.countryCode) === viewCode ? data : null;
 }
 
 /** Languages other than English among the visible stories. */
@@ -187,8 +190,9 @@ export function NewsPanel({
   const view = region ?? country;
   const [languageMode, setLanguageMode] = useState<LanguageMode>(readLanguageMode);
 
-  const file = state.status === 'ready' ? state.data : null;
   const shown = visibleData(state, view.code);
+  // This view's fresh file (not one kept from before, nor the previous place's): its time goes in the header.
+  const file = state.status === 'ready' && state.data === shown ? state.data : null;
   const cluster = story && shown ? findStory(shown.clusters, story) : undefined;
   // Back from a story page: the list scrolls to the story just closed.
   const [focusId, setFocusId] = useState<string | null>(null);
@@ -285,8 +289,8 @@ export function NewsPanel({
       {english && translation === 'pending' && <p className="panel-note">Translating headlines on this device…</p>}
       {english && translation === 'unavailable' && (
         <p className="panel-note">
-          This browser can’t translate on the device (Chrome on a computer can). “Translate” opens a story’s headline in
-          Google Translate; its story page also links to the whole article translated.
+          This browser can’t translate on the device (Chrome on a computer can). “Translate” opens a story’s headline in Google Translate;
+          its story page also links to the whole article translated.
         </p>
       )}
       {story && cluster ? (
@@ -323,8 +327,8 @@ export function NewsPanel({
         />
       )}
       <p className="panel-footnote">
-        Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets
-        and ranked by how many outlets covered them in the last 24 hours.
+        Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets and ranked by how
+        many outlets covered them in the last 24 hours.
       </p>
     </PanelShell>
   );

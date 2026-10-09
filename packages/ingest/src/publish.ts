@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import { existsSync } from 'node:fs';
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { BUNDLE_KEY, encodeBundle } from '@news-globe/shared/bundle';
+import { BUNDLE_KEY, encodeBundle, PUBLIC_FILE } from '@news-globe/shared/bundle';
 import { kvClient, kvConfigFromEnv, type KvConfig } from './kv';
 import { writeJsonAtomic } from './write';
 
@@ -13,17 +13,18 @@ import { writeJsonAtomic } from './write';
 
 /** KV keys that make up the public data contract, as found in dataDir. */
 async function publicKeys(dataDir: string): Promise<string[]> {
-  const list = async (dir: string, name: RegExp) => {
+  const list = async (dir: string) => {
     try {
-      return (await readdir(join(dataDir, dir))).filter((f) => name.test(f)).map((f) => `${dir}/${f}`);
+      return (await readdir(join(dataDir, dir))).map((f) => `${dir}/${f}`);
     } catch {
       return []; // Nothing written there yet.
     }
   };
-  const countries = await list('countries', /^[A-Z]{2}\.json$/);
-  const regions = await list('regions', /^[A-Z]{2}-[A-Z0-9]{1,3}\.json$/);
+  const countries = await list('countries');
+  const regions = await list('regions');
   const status = existsSync(join(dataDir, 'status.json')) ? ['status.json'] : [];
-  return ['index.json', ...status, ...countries.sort(), ...regions.sort()];
+  // Only what the Worker will serve (PUBLIC_FILE): a stray file can't slip into the bundle.
+  return ['index.json', ...status, ...countries.sort(), ...regions.sort()].filter((k) => PUBLIC_FILE.test(k));
 }
 
 export interface PublishResult {

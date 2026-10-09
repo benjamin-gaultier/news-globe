@@ -1,7 +1,5 @@
 # Sources
 
-Every outlet the ingest polls, by country and region, with what probing each candidate feed found. The config itself is [sources.config.ts](../packages/ingest/src/sources.config.ts); this records why each feed was picked or dropped.
-
 Every candidate feed was fetched and parsed with the real User-Agent on 2026-10-06 before it went into [sources.config.ts](../packages/ingest/src/sources.config.ts). Where an outlet has them, it uses two section feeds (politics plus national/society) rather than an "all news" feed, which would mix in international stories.
 
 **France**
@@ -135,7 +133,7 @@ Whole groups are unreachable to our User-Agent: every States Newsroom site (the 
 - Gray TV and Nexstar stations' main feeds carry group-wide national stories; their `category/news/local` (or `category/news`) feeds don't.
 - Sister stations and papers share copy (Gray stations in one state, Bridge Michigan and BridgeDetroit, Oil City News and County 17), so a state gets at most one of each pair.
 
-Partners also rerun each other's stories under the same headline (CT Mirror on Connecticut Public and WSHU, Spotlight PA on WESA, NHPR on the Concord Monitor). In region files only the earliest copy of a headline is kept (`dropRepublished`), so a rerun doesn't count as a second outlet covering the story. An outlet's own repeats go too (ANSA posting a story twice under two URLs, Pamplona Actual one press release four times), since stories from one outlet never cluster and each copy would take its own place in the top stories.
+Partners also rerun each other's stories under the same headline (CT Mirror on Connecticut Public and WSHU, Spotlight PA on WESA, NHPR on the Concord Monitor). In region files only the earliest copy of a headline is kept (`dropRepublished`), so a rerun doesn't count as a second outlet covering the story. An outlet's own repeats go too (ANSA posting a story twice under two URLs, Pamplona Actual one press release four times), since stories from one outlet never cluster and each copy would take its own place in the top stories. National files drop only an outlet's own repeats (`dropOwnRepeats`): there the same headline from different outlets is usually wire copy each chose to run, which counts as coverage.
 
 US local feeds carry recurring segments next to stories: forecasts ("Q2 Billings Area Weather: …", "Your Mississippi forecast for Wednesday, October 7"), newscasts ("WHYY Newscast for Tuesday 5:00 p.m."), daily headline digests, opinion and letters, obituaries and death notices, arrest reports, lottery numbers, "things to do" lists, restaurant inspections, photo galleries and podcast episodes. `isNotNews` drops these; on the 2026-10-07 cache the English patterns matched 182 US titles, and outside the US only the Globe and Mail's "Morning Update" newsletter, a few editorials and one NDR podcast.
 
@@ -2388,3 +2386,42 @@ Not added yet, for lack of usable feeds: Bahrain (feeds 404 or malformed, and no
 **Malformed feeds.** Many feeds are not well-formed XML: bare `&`, junk before the first tag, or HTML attributes without values (`<iframe allowfullscreen>`). `parseFeedXml` in [adapters/rss.ts](../packages/ingest/src/adapters/rss.ts) tries a strict parse, then a repaired one (leading junk dropped, bare `&` escaped), then sax's loose mode. Loose mode can turn unescaped HTML in a description into child elements, so only string titles and snippets are kept. Each parse attempt has a 10-second timeout: xml2js can drop its callback, and a promise that never settles let Node exit mid-run without saving.
 
 **Encodings.** Feeds are decoded with their declared charset: the `Content-Type` header first, then the XML declaration, else UTF-8 (`decodeBody` in [http.ts](../packages/ingest/src/http.ts)). Folha serves ISO-8859-1, which `Response.text()` would garble ("Fl�vio").
+
+When probing a feed, count `<item>`/`<entry>` tags, not lines. Several feeds (The Independent, Süddeutsche, El Mundo) are served on a single line and look empty to `grep -c`. Also check that the newest item is recent: Corriere and The Telegraph return well-formed but stale feeds.
+
+Items without a date take the date from their URL (`/2026/10/06/` or `/20261006/`, see `dateFromUrl` in [normalize/url.ts](../packages/ingest/src/normalize/url.ts)) and fall back to the fetch time only if there isn't one. Otherwise an undated feed like Sky TG24's would look entirely brand-new on every run.
+
+Authority weights are editorial judgment calls. They only decide which outlet's headline represents a cluster, not ranking.
+
+## Adding a feed or a country
+
+The Pi is the only machine that polls feeds. On a dev machine, probe the candidates once and then build from the cache:
+
+```bash
+pnpm probe <feed-url> [feed-url...]   # one polite request per URL: status, item count, newest/oldest item
+pnpm ingest --offline                 # rebuild data/ from data/.cache only: no requests, no publishing
+```
+
+`pnpm probe` goes through the same cache as the ingest, so it records each request (the 15-minute limit holds) and keeps the parsed items for `--offline`. To test against current data, first copy the Pi's `data/.cache/http.json` to your machine.
+
+**A feed for an existing country:** add an entry to `SOURCES` in [sources.config.ts](../packages/ingest/src/sources.config.ts) with a stable `id`, display `name`, `country`, `language`, `feedUrls` and `authority`.
+
+**A new country:**
+
+1. Add it to `COUNTRIES` in [packages/shared/src/index.ts](../packages/shared/src/index.ts) with its ISO 3166-1 alpha-2 code, name, and the camera `lat` / `lng` / `altitude` for the globe.
+2. Probe candidate feeds and add 4–6 national outlets to `SOURCES`. Skip outlets that reprint another's copy (The Age/SMH, BusinessDay/TimesLIVE): they fake multi-outlet clusters.
+3. If its language has no stopword list yet, add one to `STOPWORDS_BY_LANGUAGE` in [normalize/text.ts](../packages/ingest/src/normalize/text.ts). Otherwise clustering will match on function words.
+4. Run `pnpm ingest --offline` and read the multi-outlet clusters.
+5. Merge. CI redeploys the Worker (`COUNTRIES` is bundled into the front end).
+6. Hand your probe history to the Pi, so it won't fetch a feed you probed less than 15 minutes ago: copy your `data/.cache/http.json` to the Pi (e.g. `scp data/.cache/http.json pi:/tmp/probe-cache.json`) and run `pnpm cache:merge /tmp/probe-cache.json` there, between two runs (not at the top of the hour). Then `git pull && pnpm install --frozen-lockfile`. The next run publishes the new country.
+
+## Map shapes
+
+- Country shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:110m admin-0 (public domain), bundled locally, coordinates rounded to 0.01°. In Natural Earth, `ISO_A2` is `-99` for France and Norway, so the build script uses `ISO_A2_EH`.
+- French region shapes: IGN Admin Express (2018), via [france-geojson](https://github.com/gregoiredavid/france-geojson), under the [Licence Ouverte / Etalab](https://www.etalab.gouv.fr/licence-ouverte-open-licence/); coordinates rounded to 0.01°. Loaded only when France is opened.
+- German Länder shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:10m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when Germany is opened.
+- US state shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:50m admin-1 (public domain), coordinates rounded to 0.01°. Loaded only when the United States is opened.
+- Spanish and Italian region shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:10m admin-1 (public domain), whose provinces are merged into regions along their shared borders (topojson), coordinates rounded to 0.01°. Ceuta and Melilla are left out. Loaded only when Spain or Italy is opened.
+- Canadian, Australian and Brazilian region shapes: [Natural Earth](https://www.naturalearthdata.com/) 1:50m admin-1 (public domain), coordinates rounded to 0.01°. Australia's Jervis Bay Territory is left out. Loaded only when Canada, Australia or Brazil is opened.
+- Mexican, Argentine and Indian region shapes: [Natural Earth](https://www.naturalearthdata.com/) admin-1 (public domain), 1:10m for Mexico and Argentina and 1:50m for India, coordinates rounded to 0.01°. Mexico City is relabelled from MX-DIF to MX-CMX and four Indian codes to ISO 3166-2's current ones (IN-CG, IN-OD, IN-TS, IN-UK); Mexico's unassigned islet MX-X01~ is left out. Loaded only when Mexico, Argentina or India is opened.
+- `data/sample/` is a real `pnpm ingest` output from 2026-10-06, trimmed to 25 countries (those of three cross-border stories plus a few large ones) and France's regions. Its relative times will read "days ago" until you run an ingest. Headlines and snippets belong to their publishers.

@@ -64,10 +64,11 @@ describe('TodayPanel', () => {
   it('shows the most covered, rising, cross-border and lasting stories', async () => {
     renderToday();
     const top = await screen.findByRole('region', { name: 'Most covered' });
-    expect(within(top).getAllByRole('button').map((b) => b.querySelector('.today-title')!.textContent)).toEqual([
-      'Budget passes',
-      'Senate vote',
-    ]);
+    expect(
+      within(top)
+        .getAllByRole('button')
+        .map((b) => b.querySelector('.today-title')!.textContent),
+    ).toEqual(['Budget passes', 'Senate vote']);
     expect(within(top).getByText('1 outlet · Le Monde')).toBeTruthy();
     expect(screen.getByText('175 countries · 2,547 stories · updated 20 minutes ago')).toBeTruthy();
 
@@ -102,10 +103,21 @@ describe('TodayPanel', () => {
 
   it('shows the workflow’s English on any device, without a Translate link', async () => {
     translator.available = false;
-    vi.stubGlobal('fetch', vi.fn(async () => new Response(JSON.stringify({ ...file, top: [item('FR', 'Le budget adopté', { language: 'fr' })] }))));
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => new Response(JSON.stringify({ ...file, top: [item('FR', 'Le budget adopté', { language: 'fr' })] }))),
+    );
     render(
       <TranslationsContext.Provider value={new Map([['Le budget adopté', 'Budget passed']])}>
-        <TodayPanel world={[]} now={NOW} isMobile={false} onClose={vi.fn()} onSheetChange={vi.fn()} onOpenStory={vi.fn()} onOpenWorld={vi.fn()} />
+        <TodayPanel
+          world={[]}
+          now={NOW}
+          isMobile={false}
+          onClose={vi.fn()}
+          onSheetChange={vi.fn()}
+          onOpenStory={vi.fn()}
+          onOpenWorld={vi.fn()}
+        />
       </TranslationsContext.Provider>,
     );
     const title = await screen.findByText('Budget passed');

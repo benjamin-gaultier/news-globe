@@ -103,7 +103,7 @@ describe('runFromBundle', () => {
     expect(run?.runAt).toBe(T1);
     // A unit listed in the index without a file is skipped.
     expect(run?.units.map((u) => u.code)).toEqual(['FR']);
-    expect(run?.units[0]!.clusters[0]!.representative.title).toBe('Budget adopté');
+    expect(run!.units[0]!.clusters[0]!.representative.title).toBe('Budget adopté');
   });
 
   it('is null without an index', () => {

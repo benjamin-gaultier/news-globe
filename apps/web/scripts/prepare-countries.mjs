@@ -3,8 +3,7 @@
 //   node scripts/prepare-countries.mjs
 import { writeFile, mkdir } from 'node:fs/promises';
 
-const SRC =
-  'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_110m_admin_0_countries.geojson';
+const SRC = 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_110m_admin_0_countries.geojson';
 const OUT = new URL('../src/assets/countries-110m.json', import.meta.url);
 
 const round = (c) => (typeof c[0] === 'number' ? [+c[0].toFixed(2), +c[1].toFixed(2)] : c.map(round));

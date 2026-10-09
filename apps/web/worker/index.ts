@@ -8,15 +8,12 @@
  * (one KV value for all files; see @news-globe/shared/bundle).
  */
 
-import { archiveKey, BUNDLE_KEY, KV_KEYS, readBundleEntry } from '@news-globe/shared/bundle';
+import { archiveKey, BUNDLE_KEY, PUBLIC_DERIVED, PUBLIC_FILE, readBundleEntry } from '@news-globe/shared/bundle';
 
 interface Env {
   NEWS_DATA: KVNamespace;
   ASSETS: Fetcher;
 }
-
-// Same public contract as the Vite dev plugin: nothing else in KV is reachable.
-const PUBLIC_KEY = /^(index\.json|status\.json|countries\/[A-Z]{2}\.json|regions\/[A-Z]{2}-[A-Z0-9]{1,3}\.json)$/;
 
 /** Browsers/CDN may reuse a response for a minute; the ingest only runs hourly. */
 const MAX_AGE_S = 60;
@@ -31,9 +28,7 @@ const ARCHIVE_KEY = /^archive\/(\d{4}-\d{2}-\d{2})\.json$/;
 const PAST_DAY_MAX_AGE_S = 86_400;
 
 /** Files the archive step derives (packages/ingest/src/derived.ts), stored gzipped under their own KV key. */
-const DERIVED: Record<string, string> = Object.fromEntries(
-  [KV_KEYS.trends, KV_KEYS.search, KV_KEYS.today, KV_KEYS.translations].map((k) => [`${k}.json`, k]),
-);
+const DERIVED: Record<string, string> = Object.fromEntries(PUBLIC_DERIVED.map((k) => [`${k}.json`, k]));
 
 /** A weak validator from the body's hash: a browser revalidating after max-age gets a 304 when nothing changed. */
 async function etagOf(body: ArrayBuffer | Uint8Array): Promise<string> {
@@ -58,7 +53,7 @@ async function respond(
     const etag = await etagOf(body);
     headers.ETag = etag;
     const known = request.headers.get('If-None-Match');
-    if (known && known.split(',').some((tag) => tag.trim() === etag || tag.trim() === '*')) {
+    if (known?.split(',').some((tag) => tag.trim() === etag || tag.trim() === '*')) {
       return new Response(null, { status: 304, headers });
     }
   }
@@ -91,7 +86,8 @@ export default {
       return serveGzipped(request, env, archiveKey(date), date < yesterday ? PAST_DAY_MAX_AGE_S : MAX_AGE_S, false);
     }
     if (Object.hasOwn(DERIVED, key)) return serveGzipped(request, env, DERIVED[key]!, MAX_AGE_S, true);
-    if (!PUBLIC_KEY.test(key)) return new Response('Not found', { status: 404 });
+    // Nothing else in KV is reachable (the same contract as the Vite dev plugin).
+    if (!PUBLIC_FILE.test(key)) return new Response('Not found', { status: 404 });
 
     // cacheTtl keeps the bundle in the colo's cache, saving KV reads.
     const bundle = await env.NEWS_DATA.get(BUNDLE_KEY, { type: 'arrayBuffer', cacheTtl: MAX_AGE_S });

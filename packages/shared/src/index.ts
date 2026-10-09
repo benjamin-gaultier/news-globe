@@ -278,6 +278,7 @@ export interface CountryMeta {
 }
 
 /** Countries the MVP covers. Both the worker and the globe read this. */
+// biome-ignore format: one country per line reads as a table
 export const COUNTRIES: Record<CountryCode, CountryMeta> = {
   FR: { code: 'FR', name: 'France', lat: 46.6, lng: 2.4, altitude: 1.4 },
   US: { code: 'US', name: 'United States', lat: 39.5, lng: -98.4, altitude: 1.9 },
@@ -479,6 +480,7 @@ export interface RegionMeta {
  * feed its own file instead of the national one. Outlines come from
  * apps/web/src/assets/regions-{cc}.json.
  */
+// biome-ignore format: one region per line reads as a table
 export const REGIONS: Record<RegionCode, RegionMeta> = {
   'FR-ARA': { code: 'FR-ARA', country: 'FR', name: 'Auvergne-Rhône-Alpes', lat: 45.4, lng: 4.6, altitude: 0.55, localNames: ['Auvergne-Rhône-Alpes'] },
   'FR-BFC': { code: 'FR-BFC', country: 'FR', name: 'Bourgogne-Franche-Comté', lat: 47.2, lng: 4.8, altitude: 0.5, localNames: ['Bourgogne-Franche-Comté'] },

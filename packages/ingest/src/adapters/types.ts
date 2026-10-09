@@ -27,7 +27,7 @@ export interface AdapterContext {
 }
 
 /**
- * A kind of news source (RSS, GDELT, …). Add a new type by implementing this
+ * A kind of news source (only RSS so far). Add a new type by implementing this
  * interface and registering it in `adapters/index.ts`.
  */
 export interface SourceAdapter {

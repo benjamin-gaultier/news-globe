@@ -41,14 +41,3 @@ describe('rss adapter', () => {
     expect(log.mock.calls[1]![0]).toMatch(/outlet\s+error\s+0 items {2}https:\/\/b\/rss \(HTTP 500\)$/);
   });
 });
-
-describe('gdelt adapter', () => {
-  it('is a stub that fetches nothing', async () => {
-    const http = fakeHttp({});
-    const log = vi.fn();
-    const outlet = source('gdelt', []);
-    expect(await adapterFor(outlet).fetch(outlet, { http, log })).toEqual([]);
-    expect(http.getItems).not.toHaveBeenCalled();
-    expect(log).toHaveBeenCalledWith(expect.stringContaining('not implemented'));
-  });
-});

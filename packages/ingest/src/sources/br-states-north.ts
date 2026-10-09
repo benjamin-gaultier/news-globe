@@ -1,16 +1,8 @@
 import type { SourceConfig } from '../sources.config';
 
-type NorthState =
-  | 'AC' | 'AM' | 'AP' | 'PA' | 'RO' | 'RR' | 'TO'
-  | 'MA' | 'PI' | 'CE' | 'RN' | 'PB' | 'PE' | 'AL' | 'SE' | 'BA';
+type NorthState = 'AC' | 'AM' | 'AP' | 'PA' | 'RO' | 'RR' | 'TO' | 'MA' | 'PI' | 'CE' | 'RN' | 'PB' | 'PE' | 'AL' | 'SE' | 'BA';
 
-const src = (
-  id: string,
-  name: string,
-  region: NorthState,
-  feedUrls: string[],
-  authority: number,
-): SourceConfig => ({
+const src = (id: string, name: string, region: NorthState, feedUrls: string[], authority: number): SourceConfig => ({
   id,
   name,
   type: 'rss',
@@ -129,13 +121,7 @@ export const BR_STATES_NORTH: SourceConfig[] = [
 
   // ---- Pernambuco ----
   src('br_pe_g1', 'g1 Pernambuco', 'PE', [g1('pe/pernambuco'), g1('pe/caruaru-regiao'), g1('pe/petrolina-regiao')], 8),
-  src(
-    'br_pe_jc',
-    'Jornal do Commercio',
-    'PE',
-    ['https://jc.uol.com.br/pernambuco/rss.xml', 'https://jc.uol.com.br/politica/rss.xml'],
-    9,
-  ),
+  src('br_pe_jc', 'Jornal do Commercio', 'PE', ['https://jc.uol.com.br/pernambuco/rss.xml', 'https://jc.uol.com.br/politica/rss.xml'], 9),
   src('br_pe_carlosbritto', 'Blog do Carlos Britto (Petrolina)', 'PE', ['https://www.carlosbritto.com/feed/'], 7),
   src('br_pe_nilljunior', 'Blog do Nill Júnior (Pajeú)', 'PE', ['https://www.nilljunior.com.br/feed/'], 7),
 

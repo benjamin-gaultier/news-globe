@@ -7,8 +7,7 @@ const time = (a: Article) => Date.parse(a.publishedAt);
 /** Highest authority wins; ties go to whoever published first. */
 export function pickRepresentative(articles: Article[], authorityOf: (sourceId: string) => number): Article {
   const sorted = [...articles].sort(
-    (a, b) =>
-      authorityOf(b.source.id) - authorityOf(a.source.id) || time(a) - time(b) || a.id.localeCompare(b.id),
+    (a, b) => authorityOf(b.source.id) - authorityOf(a.source.id) || time(a) - time(b) || a.id.localeCompare(b.id),
   );
   return sorted[0]!;
 }

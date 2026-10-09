@@ -2,14 +2,7 @@ import type { SourceConfig } from '../sources.config';
 
 type Province = 'AB' | 'BC' | 'MB' | 'NB' | 'NL' | 'NS' | 'NT' | 'NU' | 'ON' | 'PE' | 'QC' | 'SK' | 'YT';
 
-const src = (
-  id: string,
-  name: string,
-  province: Province,
-  language: 'en' | 'fr',
-  feedUrls: string[],
-  authority: number,
-): SourceConfig => ({
+const src = (id: string, name: string, province: Province, language: 'en' | 'fr', feedUrls: string[], authority: number): SourceConfig => ({
   id,
   name,
   type: 'rss',

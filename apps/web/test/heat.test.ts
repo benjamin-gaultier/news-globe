@@ -19,7 +19,11 @@ describe('heatStep', () => {
 
 describe('pulsesFrom', () => {
   const RUN = '2026-10-09T10:00:00Z';
-  const trend = (ranks: (number | null)[], state: ClusterTrend['state']): ClusterTrend => ({ ranks, firstSeen: '2026-10-09T08:00:00Z', state });
+  const trend = (ranks: (number | null)[], state: ClusterTrend['state']): ClusterTrend => ({
+    ranks,
+    firstSeen: '2026-10-09T08:00:00Z',
+    state,
+  });
   const entry = (code: string, topOutlets: number): [string, IndexEntry] => [
     code,
     { code, name: code, updatedAt: RUN, clusterCount: 3, topOutlets },

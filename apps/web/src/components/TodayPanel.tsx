@@ -1,4 +1,5 @@
 import { COUNTRIES, type CountryCode, type TodayStory, type WorldStory } from '@news-globe/shared';
+import type { ReactNode } from 'react';
 import { useAsync } from '../hooks/useAsync';
 import { useTranslated } from '../hooks/useTranslated';
 import { fetchToday } from '../lib/data';
@@ -96,7 +97,7 @@ export function TodayPanel({ world, now, isMobile, onClose, onSheetChange, onOpe
     'The day’s news at a glance'
   );
 
-  let body;
+  let body: ReactNode;
   if (file.status === 'error') body = <p className="panel-message">Couldn’t load today’s stories.</p>;
   else if (file.status === 'loading') body = <p className="panel-message">Loading…</p>;
   else if (!today) body = <p className="panel-message">Today’s overview isn’t available yet. It appears after the next hourly update.</p>;
@@ -169,15 +170,22 @@ export function TodayPanel({ world, now, isMobile, onClose, onSheetChange, onOpe
           </section>
         )}
         <p className="panel-footnote">
-          “Most covered” counts each country’s own outlets, so it favours stories a country’s whole press is following.
-          Headlines are translated on this device where the browser can; elsewhere “Translate” opens one in Google
-          Translate.
+          “Most covered” counts each country’s own outlets, so it favours stories a country’s whole press is following. Headlines are
+          translated on this device where the browser can; elsewhere “Translate” opens one in Google Translate.
         </p>
       </>
     );
 
   return (
-    <PanelShell title="Today" subtitle={subtitle} sheetKey="today" scrollKey="today" isMobile={isMobile} onClose={onClose} onSheetChange={onSheetChange}>
+    <PanelShell
+      title="Today"
+      subtitle={subtitle}
+      sheetKey="today"
+      scrollKey="today"
+      isMobile={isMobile}
+      onClose={onClose}
+      onSheetChange={onSheetChange}
+    >
       {body}
     </PanelShell>
   );
