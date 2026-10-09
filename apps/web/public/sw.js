@@ -17,6 +17,20 @@ const MAX_ASSETS = 60;
 /** Data files kept: the index and derived files, plus the places and History days opened lately. */
 const MAX_DATA = 80;
 
+/**
+ * Store a copy and drop the oldest entries beyond `max`. cache.put replaces an existing entry by
+ * removing it and appending the new one, so keys() lists the least recently stored first. A failed
+ * write (quota, a body that errors) keeps the old copy and never fails the request it came from.
+ */
+async function store(cache, key, response, max) {
+  try {
+    await cache.put(key, response);
+    await trim(cache, max);
+  } catch {
+    // Offline copies are best effort.
+  }
+}
+
 /** Drop the oldest entries (insertion order) beyond `max`. */
 async function trim(cache, max) {
   const keys = await cache.keys();
@@ -51,13 +65,7 @@ async function networkFirst(request, cacheName, fallbackUrl, accept = () => true
   const cache = await caches.open(cacheName);
   try {
     const response = await fetch(request);
-    if (response.ok && accept(response)) {
-      const key = fallbackUrl ?? request;
-      // Re-inserting moves a refreshed file to the end, so trimming drops the least recently fetched.
-      await cache.delete(key);
-      await cache.put(key, response.clone());
-      if (Number.isFinite(max)) await trim(cache, max);
-    }
+    if (response.ok && accept(response)) await store(cache, fallbackUrl ?? request, response.clone(), max);
     return response;
   } catch (err) {
     const cached = await cache.match(fallbackUrl ?? request);
@@ -71,10 +79,7 @@ async function cacheFirst(request) {
   const cached = await cache.match(request);
   if (cached) return cached;
   const response = await fetch(request);
-  if (response.ok) {
-    await cache.put(request, response.clone());
-    await trim(cache, MAX_ASSETS);
-  }
+  if (response.ok) await store(cache, request, response.clone(), MAX_ASSETS);
   return response;
 }
 
