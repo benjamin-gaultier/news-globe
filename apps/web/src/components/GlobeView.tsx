@@ -1,9 +1,10 @@
 import { COUNTRIES, REGIONS, type CountryCode, type IndexEntry, type RegionCode, type RegionMeta } from '@news-globe/shared';
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import Globe, { type GlobeMethods } from 'react-globe.gl';
 import { MeshPhongMaterial } from 'three';
 import countriesGeo from '../assets/countries-110m.json';
 import { COUNTRY_HEAT, heatStep, REGION_HEAT } from '../lib/heat';
+import { TranslationsContext } from '../lib/translations';
 
 interface Shape {
   type: 'Feature';
@@ -128,6 +129,7 @@ export default function GlobeView({
   const containerRef = useRef<HTMLDivElement>(null);
   // The current (or last) touch was a drag or a pinch, not a tap: its release must not select anything.
   const touchGesture = useRef(false);
+  const translations = useContext(TranslationsContext);
   const [size, setSize] = useState({ width: 0, height: 0 });
   const [hovered, setHovered] = useState<Shape | null>(null);
   const [regionShapes, setRegionShapes] = useState<Shape[]>([]);
@@ -328,12 +330,14 @@ export default function GlobeView({
             ? 'Tap for top headlines'
             : 'Coming soon';
       const entry = isAvailable(f) ? entryOf(f) : undefined;
-      const headline = entry?.topTitle ? `<em>${escapeHtml(entry.topTitle)}</em>` : '';
+      // In English when the hourly workflow translated it.
+      const title = entry?.topTitle && (translations.get(entry.topTitle.trim()) ?? entry.topTitle);
+      const headline = title ? `<em>${escapeHtml(title)}</em>` : '';
       const n = entry?.topOutlets;
       const count = n ? `${n} outlet${n === 1 ? '' : 's'} on this story · ` : '';
       return `<div class="globe-tip"><strong>${escapeHtml(f.properties.name)}</strong>${headline}<span>${count}${hint}</span></div>`;
     },
-    [isAvailable, isSelected, showingRegions, entryOf],
+    [isAvailable, isSelected, showingRegions, entryOf, translations],
   );
 
   const handleClick = useCallback(

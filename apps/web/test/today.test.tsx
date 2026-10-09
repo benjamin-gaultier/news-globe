@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { SCHEMA_VERSION, type TodayFile, type TodayStory, type WorldStory } from '@news-globe/shared';
 import { TodayPanel } from '../src/components/TodayPanel';
+import { TranslationsContext } from '../src/lib/translations';
 import { minutesAgo, NOW } from './fixtures';
 import { resetTranslator, translator } from './translate-mock';
 
@@ -97,6 +98,20 @@ describe('TodayPanel', () => {
     expect(link.getAttribute('href')).toContain('sl=fr');
     // English headlines need none.
     expect(screen.getAllByRole('link', { name: /Google Translate/ })).toHaveLength(1);
+  });
+
+  it('shows the workflow’s English on any device, without a Translate link', async () => {
+    translator.available = false;
+    vi.stubGlobal('fetch', vi.fn(async () => new Response(JSON.stringify({ ...file, top: [item('FR', 'Le budget adopté', { language: 'fr' })] }))));
+    render(
+      <TranslationsContext.Provider value={new Map([['Le budget adopté', 'Budget passed']])}>
+        <TodayPanel world={[]} now={NOW} isMobile={false} onClose={vi.fn()} onSheetChange={vi.fn()} onOpenStory={vi.fn()} onOpenWorld={vi.fn()} />
+      </TranslationsContext.Provider>,
+    );
+    const title = await screen.findByText('Budget passed');
+    expect(title.getAttribute('lang')).toBe('en');
+    expect(title.getAttribute('title')).toBe('Le budget adopté');
+    expect(screen.queryByRole('link', { name: /Google Translate/ })).toBeNull();
   });
 
   it('says so before the workflow has written the file', async () => {

@@ -47,3 +47,6 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           # The NEWS_DATA namespace in apps/web/wrangler.jsonc.
           CLOUDFLARE_KV_NAMESPACE_ID: deb7c288814748e393a3e6a801824f6d
+          # Optional: Azure AI Translator (free F0 tier) for /data/translations.json.
+          AZURE_TRANSLATOR_KEY: ${{ secrets.AZURE_TRANSLATOR_KEY }}
+          AZURE_TRANSLATOR_REGION: ${{ secrets.AZURE_TRANSLATOR_REGION }}

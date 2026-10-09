@@ -8,6 +8,7 @@ import {
   type RegionCode,
   type SearchFile,
   type TodayFile,
+  type TranslationsFile,
   type TrendsFile,
 } from '@news-globe/shared';
 
@@ -55,6 +56,9 @@ export const fetchTrends = (signal?: AbortSignal) => fetchDerived<TrendsFile>('t
 
 /** The Today page: the run's biggest, rising and lasting stories. */
 export const fetchToday = (signal?: AbortSignal) => fetchDerived<TodayFile>('today.json', signal);
+
+/** English for the most-seen headlines (404 → null: no translator configured). */
+export const fetchTranslations = (signal?: AbortSignal) => fetchDerived<TranslationsFile>('translations.json', signal);
 
 /** Every headline of the latest run, for search. */
 export const fetchSearch = (signal?: AbortSignal) => fetchDerived<SearchFile>('search.json', signal);

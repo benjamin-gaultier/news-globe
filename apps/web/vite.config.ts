@@ -23,7 +23,7 @@ function serveData(): Plugin {
     const rel = pathname.slice('/data'.length);
     // History days and the derived trends/search/today files are stored gzipped
     // (data/archive/YYYY-MM-DD.json.gz, data/trends.json.gz, data/search.json.gz, data/today.json.gz); send them as such.
-    const gzipped = /^\/(archive\/\d{4}-\d{2}-\d{2}|trends|search|today)\.json$/.exec(rel);
+    const gzipped = /^\/(archive\/\d{4}-\d{2}-\d{2}|trends|search|today|translations)\.json$/.exec(rel);
     if (gzipped) {
       readFile(path.join(DATA_DIR, `${gzipped[1]}.json.gz`)).then(
         (body) => {
