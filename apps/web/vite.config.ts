@@ -40,9 +40,7 @@ function serveData(): Plugin {
       );
       return;
     }
-    const file = PUBLIC_FILE.test(rel)
-      ? [DATA_DIR, SAMPLE_DIR].map((dir) => path.join(dir, rel)).find((f) => existsSync(f))
-      : undefined;
+    const file = PUBLIC_FILE.test(rel) ? [DATA_DIR, SAMPLE_DIR].map((dir) => path.join(dir, rel)).find((f) => existsSync(f)) : undefined;
     if (!file) {
       res.statusCode = 404;
       res.end('Not found');

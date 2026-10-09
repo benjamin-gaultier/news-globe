@@ -2,16 +2,32 @@ import type { SourceConfig } from '../sources.config';
 
 /** ISO 3166-2:AR letters: A Salta, B Buenos Aires Province, C City of Buenos Aires, D San Luis, … */
 type ProvinceCode =
-  | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'J' | 'K' | 'L' | 'M'
-  | 'N' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z';
+  | 'A'
+  | 'B'
+  | 'C'
+  | 'D'
+  | 'E'
+  | 'F'
+  | 'G'
+  | 'H'
+  | 'J'
+  | 'K'
+  | 'L'
+  | 'M'
+  | 'N'
+  | 'P'
+  | 'Q'
+  | 'R'
+  | 'S'
+  | 'T'
+  | 'U'
+  | 'V'
+  | 'W'
+  | 'X'
+  | 'Y'
+  | 'Z';
 
-const src = (
-  id: string,
-  name: string,
-  region: ProvinceCode,
-  feedUrls: string[],
-  authority: number,
-): SourceConfig => ({
+const src = (id: string, name: string, region: ProvinceCode, feedUrls: string[], authority: number): SourceConfig => ({
   id,
   name,
   type: 'rss',
@@ -23,13 +39,11 @@ const src = (
 });
 
 /** Página/12's regional supplements (Rosario/12, Salta/12, Buenos Aires/12), each its own desk. */
-const pagina12 = (supplement: string) =>
-  `https://www.pagina12.com.ar/arc/outboundfeeds/rss/suplementos/${supplement}/notas`;
+const pagina12 = (supplement: string) => `https://www.pagina12.com.ar/arc/outboundfeeds/rss/suplementos/${supplement}/notas`;
 /** Perfil's provincial and city editions. */
 const perfil = (edition: string) => `https://www.perfil.com/feed/${edition}`;
 /** Section feeds on the "contenidos/rss.html" CMS shared by many provincial papers. */
-const rssPages = (host: string, ...slugs: string[]) =>
-  slugs.map((slug) => `https://${host}/rss/pages/${slug}.xml`);
+const rssPages = (host: string, ...slugs: string[]) => slugs.map((slug) => `https://${host}/rss/pages/${slug}.xml`);
 /** Feeds hosted by the eleco.com.ar CMS provider ("apiv3 feed-notes"). */
 const eleco = (tenant: string) => `https://${tenant}apiv3.eleco.com.ar/feed-notes`;
 
@@ -75,20 +89,26 @@ const eleco = (tenant: string) => `https://${tenant}apiv3.eleco.com.ar/feed-note
  */
 export const AR_PROVINCES: SourceConfig[] = [
   // ---- A: Salta ----
-  src('ar_a_eltribuno', 'El Tribuno (Salta)', 'A', [
-    'https://www.eltribuno.com/rss-new/salta.rss',
-    'https://www.eltribuno.com/rss-new/municipios.rss',
-  ], 9),
+  src(
+    'ar_a_eltribuno',
+    'El Tribuno (Salta)',
+    'A',
+    ['https://www.eltribuno.com/rss-new/salta.rss', 'https://www.eltribuno.com/rss-new/municipios.rss'],
+    9,
+  ),
   src('ar_a_salta12', 'Salta/12 (Página/12)', 'A', [pagina12('salta12')], 8),
   src('ar_a_informate', 'Informate Salta', 'A', ['https://informatesalta.com.ar/sitemap-news.xml'], 7),
   src('ar_a_fm899', 'FM 89.9 Salta', 'A', ['https://fm899.com.ar/feed/'], 7),
 
   // ---- B: Buenos Aires Province (Conurbano and interior, not the City) ----
   src('ar_b_eldia', 'El Día (La Plata)', 'B', ['https://www.eldia.com/news_1.xml'], 9),
-  src('ar_b_lanueva', 'La Nueva (Bahía Blanca)', 'B', [
-    'https://www.lanueva.com/news/rss/category/1',
-    'https://www.lanueva.com/news/rss/category/3',
-  ], 9),
+  src(
+    'ar_b_lanueva',
+    'La Nueva (Bahía Blanca)',
+    'B',
+    ['https://www.lanueva.com/news/rss/category/1', 'https://www.lanueva.com/news/rss/category/3'],
+    9,
+  ),
   src('ar_b_ba12', 'Buenos Aires/12 (Página/12)', 'B', [pagina12('buenos-aires12')], 8),
   src('ar_b_eleco', 'El Eco de Tandil', 'B', [eleco('artic')], 8),
   src('ar_b_0223', '0223 (Mar del Plata)', 'B', ['https://www.0223.com.ar/sitemaps_news.xml'], 7),
@@ -151,18 +171,24 @@ export const AR_PROVINCES: SourceConfig[] = [
 
   // ---- M: Mendoza ----
   src('ar_m_losandes', 'Los Andes', 'M', rssPages('www.losandes.com.ar', 'sociedad'), 9),
-  src('ar_m_uno', 'Diario Uno (Mendoza)', 'M', [
-    'https://www.diariouno.com.ar/rss/sociedad.xml',
-    'https://www.diariouno.com.ar/rss/policiales.xml',
-  ], 8),
+  src(
+    'ar_m_uno',
+    'Diario Uno (Mendoza)',
+    'M',
+    ['https://www.diariouno.com.ar/rss/sociedad.xml', 'https://www.diariouno.com.ar/rss/policiales.xml'],
+    8,
+  ),
   src('ar_m_sanrafael', 'Diario San Rafael', 'M', ['https://diariosanrafael.com.ar/feed/'], 8),
   src('ar_m_sitioandino', 'Sitio Andino', 'M', rssPages('www.sitioandino.com.ar', 'departamentales', 'politica'), 7),
 
   // ---- N: Misiones ----
-  src('ar_n_elterritorio', 'El Territorio', 'N', [
-    'https://www.elterritorio.com.ar/rss/misiones',
-    'https://www.elterritorio.com.ar/rss/policiales',
-  ], 9),
+  src(
+    'ar_n_elterritorio',
+    'El Territorio',
+    'N',
+    ['https://www.elterritorio.com.ar/rss/misiones', 'https://www.elterritorio.com.ar/rss/policiales'],
+    9,
+  ),
   src('ar_n_primeraedicion', 'Primera Edición', 'N', ['https://www.primeraedicion.com.ar/feed/'], 8),
   src('ar_n_canal12', 'Canal 12 Misiones', 'N', ['https://www.canal12misiones.com/feed'], 7),
   src('ar_n_misionesopina', 'Misiones Opina', 'N', ['https://www.misionesopina.com.ar/feed/'], 7),
@@ -173,11 +199,17 @@ export const AR_PROVINCES: SourceConfig[] = [
 
   // ---- Q: Neuquén ----
   src('ar_q_lmn', 'LMNeuquén', 'Q', ['https://www.lmneuquen.com/rss/neuquen.xml'], 9),
-  src('ar_q_alinstante', 'Neuquén al Instante', 'Q', [
-    'https://www.neuquenalinstante.com.ar/rss/ciudad',
-    'https://www.neuquenalinstante.com.ar/rss/provinciales',
-    'https://www.neuquenalinstante.com.ar/rss/policiales',
-  ], 7),
+  src(
+    'ar_q_alinstante',
+    'Neuquén al Instante',
+    'Q',
+    [
+      'https://www.neuquenalinstante.com.ar/rss/ciudad',
+      'https://www.neuquenalinstante.com.ar/rss/provinciales',
+      'https://www.neuquenalinstante.com.ar/rss/policiales',
+    ],
+    7,
+  ),
   src('ar_q_angosturadigital', 'La Angostura Digital', 'Q', ['https://www.laangosturadigital.com.ar/feed/'], 7),
   src('ar_q_diarioandino', 'Diario Andino (Villa La Angostura)', 'Q', ['https://www.diarioandino.com.ar/rss/sociedad'], 7),
 
@@ -201,10 +233,13 @@ export const AR_PROVINCES: SourceConfig[] = [
   src('ar_t_alas7', 'Tucumán a las 7', 'T', ['https://tucumanalas7.com.ar/feed/'], 7),
 
   // ---- U: Chubut ----
-  src('ar_u_elpatagonico', 'El Patagónico (Comodoro Rivadavia)', 'U', [
-    'https://www.elpatagonico.com/rss/regionales.xml',
-    'https://www.elpatagonico.com/rss/policiales.xml',
-  ], 9),
+  src(
+    'ar_u_elpatagonico',
+    'El Patagónico (Comodoro Rivadavia)',
+    'U',
+    ['https://www.elpatagonico.com/rss/regionales.xml', 'https://www.elpatagonico.com/rss/policiales.xml'],
+    9,
+  ),
   src('ar_u_elchubut', 'El Chubut', 'U', ['https://www.elchubut.com.ar/sitemap-news.xml'], 9),
   src('ar_u_madryn', 'El Diario de Madryn', 'U', ['https://www.eldiarioweb.com/feed'], 8),
   src('ar_u_adnsur', 'ADN Sur', 'U', ['https://www.adnsur.com.ar/sitemap-news.xml'], 7),
@@ -213,10 +248,7 @@ export const AR_PROVINCES: SourceConfig[] = [
   src('ar_v_prensa', 'Diario Prensa', 'V', ['https://www.diarioprensa.com.ar/feed/'], 8),
   src('ar_v_infofueguina', 'Infofueguina', 'V', ['https://www.infofueguina.com/feeds/rss'], 7),
   src('ar_v_actualidadtdf', 'Actualidad TDF', 'V', ['https://www.actualidadtdf.com.ar/feed/'], 7),
-  src('ar_v_sur54', 'Sur54', 'V', [
-    'https://www.sur54.com/rss/provinciales',
-    'https://www.sur54.com/rss/municipales',
-  ], 7),
+  src('ar_v_sur54', 'Sur54', 'V', ['https://www.sur54.com/rss/provinciales', 'https://www.sur54.com/rss/municipales'], 7),
 
   // ---- W: Corrientes ----
   src('ar_w_ellitoral', 'El Litoral (Corrientes)', 'W', ['https://www.ellitoral.com.ar/sitemaps_news.xml'], 9),
@@ -224,10 +256,13 @@ export const AR_PROVINCES: SourceConfig[] = [
   src('ar_w_sudamericana', 'Radio Sudamericana (Corrientes)', 'W', ['https://www.radiosudamericana.com/sitemap-noticias.xml'], 7),
 
   // ---- X: Córdoba ----
-  src('ar_x_puntal', 'Puntal (Río Cuarto)', 'X', [
-    'https://www.puntal.com.ar/rss/rio-cuarto.xml',
-    'https://www.puntal.com.ar/rss/provincia.xml',
-  ], 8),
+  src(
+    'ar_x_puntal',
+    'Puntal (Río Cuarto)',
+    'X',
+    ['https://www.puntal.com.ar/rss/rio-cuarto.xml', 'https://www.puntal.com.ar/rss/provincia.xml'],
+    8,
+  ),
   src('ar_x_carlospaz', 'El Diario de Carlos Paz', 'X', ['https://www.eldiariodecarlospaz.com.ar/feeds/rss'], 8),
   src('ar_x_perfil', 'Perfil Córdoba', 'X', [perfil('cordoba')], 8),
   src('ar_x_hoydia', 'Hoy Día Córdoba', 'X', ['https://hoydia.com.ar/feed/'], 7),

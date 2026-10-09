@@ -33,7 +33,9 @@ await Promise.all(
     const dates = r.items.flatMap((i) => (i.publishedAt ? [i.publishedAt] : [])).sort();
     const age = dates.length ? `newest ${hours(dates.at(-1)!)} oldest ${hours(dates[0]!)}` : 'no dates';
     const undated = r.items.length - dates.length;
-    console.log(`${r.outcome.padEnd(12)} ${String(r.items.length).padStart(3)} items  ${age}${undated ? ` (${undated} undated)` : ''}${r.error ? `  ${r.error}` : ''}  ${url}`);
+    console.log(
+      `${r.outcome.padEnd(12)} ${String(r.items.length).padStart(3)} items  ${age}${undated ? ` (${undated} undated)` : ''}${r.error ? `  ${r.error}` : ''}  ${url}`,
+    );
   }),
 );
 await http.save();

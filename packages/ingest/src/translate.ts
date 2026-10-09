@@ -125,7 +125,8 @@ export async function translateHeadlines(
     affordable.push(t);
     left -= t.length;
   }
-  if (affordable.length < missing.length) log(`[translate] monthly budget reached: ${missing.length - affordable.length} headlines left untranslated`);
+  if (affordable.length < missing.length)
+    log(`[translate] monthly budget reached: ${missing.length - affordable.length} headlines left untranslated`);
 
   let sent = 0;
   for (const batch of batches(affordable)) {

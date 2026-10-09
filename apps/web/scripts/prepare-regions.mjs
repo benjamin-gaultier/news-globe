@@ -17,8 +17,19 @@ const SOURCES = {
     /** INSEE region code → ISO 3166-2 (Corsica is FR-20R in ISO, not FR-COR). */
     code: (p) =>
       ({
-        11: 'FR-IDF', 24: 'FR-CVL', 27: 'FR-BFC', 28: 'FR-NOR', 32: 'FR-HDF', 44: 'FR-GES', 52: 'FR-PDL',
-        53: 'FR-BRE', 75: 'FR-NAQ', 76: 'FR-OCC', 84: 'FR-ARA', 93: 'FR-PAC', 94: 'FR-20R',
+        11: 'FR-IDF',
+        24: 'FR-CVL',
+        27: 'FR-BFC',
+        28: 'FR-NOR',
+        32: 'FR-HDF',
+        44: 'FR-GES',
+        52: 'FR-PDL',
+        53: 'FR-BRE',
+        75: 'FR-NAQ',
+        76: 'FR-OCC',
+        84: 'FR-ARA',
+        93: 'FR-PAC',
+        94: 'FR-20R',
       })[p.code],
     expected: 13,
   },
@@ -43,9 +54,23 @@ const SOURCES = {
     code: (p) =>
       p.iso_a2 === 'ES'
         ? {
-            'ES.AN': 'ES-AN', 'ES.AR': 'ES-AR', 'ES.AS': 'ES-AS', 'ES.CN': 'ES-CN', 'ES.CB': 'ES-CB', 'ES.CM': 'ES-CM',
-            'ES.CL': 'ES-CL', 'ES.CT': 'ES-CT', 'ES.EX': 'ES-EX', 'ES.GA': 'ES-GA', 'ES.PM': 'ES-IB', 'ES.LO': 'ES-RI',
-            'ES.MD': 'ES-MD', 'ES.MU': 'ES-MC', 'ES.NA': 'ES-NC', 'ES.PV': 'ES-PV', 'ES.VC': 'ES-VC',
+            'ES.AN': 'ES-AN',
+            'ES.AR': 'ES-AR',
+            'ES.AS': 'ES-AS',
+            'ES.CN': 'ES-CN',
+            'ES.CB': 'ES-CB',
+            'ES.CM': 'ES-CM',
+            'ES.CL': 'ES-CL',
+            'ES.CT': 'ES-CT',
+            'ES.EX': 'ES-EX',
+            'ES.GA': 'ES-GA',
+            'ES.PM': 'ES-IB',
+            'ES.LO': 'ES-RI',
+            'ES.MD': 'ES-MD',
+            'ES.MU': 'ES-MC',
+            'ES.NA': 'ES-NC',
+            'ES.PV': 'ES-PV',
+            'ES.VC': 'ES-VC',
           }[p.region_cod]
         : undefined,
     expected: 17,
@@ -146,4 +171,9 @@ if (features.length !== source.expected) throw new Error(`expected ${source.expe
 
 await mkdir(new URL('.', OUT), { recursive: true });
 await writeFile(OUT, JSON.stringify({ type: 'FeatureCollection', features }));
-console.log(`wrote ${features.length} regions: ${features.map((f) => f.properties.region).sort().join(' ')}`);
+console.log(
+  `wrote ${features.length} regions: ${features
+    .map((f) => f.properties.region)
+    .sort()
+    .join(' ')}`,
+);

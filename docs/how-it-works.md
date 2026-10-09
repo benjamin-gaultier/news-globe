@@ -64,7 +64,7 @@ apps/web/            React + Vite front end (react-globe.gl)
   worker/index.ts, wrangler.jsonc  Cloudflare Worker: static assets + /data/* from KV
 packages/ingest/     Node worker: fetch → normalize → dedupe → cluster → rank → write JSON
   src/sources.config.ts            feeds, authority weights, pipeline settings
-  src/adapters/                    SourceAdapter interface, RSS adapter, GDELT stub
+  src/adapters/                    SourceAdapter interface and the RSS adapter
   src/publish.ts                   uploads the JSON to Cloudflare KV as one bundle after each run
   src/kv.ts                        the Cloudflare KV REST client publish.ts and archive-remote.ts share
 packages/shared/     Types for the data contract + country metadata (used by both sides)
@@ -144,7 +144,7 @@ Types live in [packages/shared/src/index.ts](../packages/shared/src/index.ts). `
 
 ## Next steps
 
-**GDELT adapter.** Interface and stub are in [adapters/gdelt.ts](../packages/ingest/src/adapters/gdelt.ts). The plan is to query the free GDELT DOC 2.0 API (`mode=ArtList`, `sourcecountry:<FIPS>`, `sourcelang:`, 6 h timespan) through the same `HttpCache` throttle. Each article's domain would count as its outlet, with a domain → authority table. GDELT uses FIPS 10-4 codes rather than ISO, so an ISO→FIPS map is needed. This is the path to covering most countries without curating feeds one by one. It returns no snippets, so `description` would be `null`.
+**GDELT adapter.** A second `SourceAdapter` ([adapters/types.ts](../packages/ingest/src/adapters/types.ts)) next to RSS. The plan is to query the free GDELT DOC 2.0 API (`mode=ArtList`, `sourcecountry:<FIPS>`, `sourcelang:`, 6 h timespan) through the same `HttpCache` throttle. Each article's domain would count as its outlet, with a domain → authority table. GDELT uses FIPS 10-4 codes rather than ISO, so an ISO→FIPS map is needed. This is the path to covering most countries without curating feeds one by one. It returns no snippets, so `description` would be `null`.
 
 **More regions.** France, Germany, Spain, Italy, the US, Canada, Australia, Brazil, Mexico, Argentina and India have regions (see [Sources](sources.md)). Adding a country means adding its entries to `REGIONS` ([shared](../packages/shared/src/index.ts)), sources with `region`, and an outline file next to `regions-fr.json` (named `regions-xx.json`; [GlobeView.tsx](../apps/web/src/components/GlobeView.tsx) picks it up by name). Natural Earth 10m admin-1 has states and provinces for most countries. Later, tag national outlets' stories with a region from place names in titles.
 

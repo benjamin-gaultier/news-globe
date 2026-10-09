@@ -15,6 +15,12 @@
     "cache:merge": "pnpm --filter @news-globe/ingest cache:merge",
     "test": "pnpm -r --if-present test",
     "coverage": "pnpm -r --if-present coverage",
-    "typecheck": "pnpm -r --if-present typecheck"
+    "typecheck": "pnpm -r --if-present typecheck",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "check": "biome check ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.15"
   }
 }

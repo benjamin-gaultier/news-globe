@@ -55,7 +55,7 @@ const NOT_NEWS: RegExp[] = [
   // mercredi 7 octobre 2026", "L'actu du 6 octobre 2026", "Émission du 6 octobre 2026",
   // TV Vendée's "Le journal de la Vendée du 7 octobre 2026 – Edition de la mi-journée".
   new RegExp(
-    String.raw`^(?:le |la |l['’])?(?:journal|actu|émission|emission|flash|bulletin|édition|edition)(?: [^:]{0,40}?)?` +
+    "^(?:le |la |l['’])?(?:journal|actu|émission|emission|flash|bulletin|édition|edition)(?: [^:]{0,40}?)?" +
       String.raw` d[ue] (?:(?:${DAYS_FR}) )?\d{1,2}(?:er)? (?:${MONTHS_FR})(?: \d{4})?(?:\s*[–—|-].*)?$`,
     'i',
   ),
@@ -270,7 +270,11 @@ export function isNotNews(title: string): boolean {
  * Titles are compared ignoring case, punctuation and spacing.
  */
 export function dropRepublished(articles: Article[]): Article[] {
-  const key = (title: string) => title.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const key = (title: string) =>
+    title
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .trim();
   const first = new Map<string, Article>();
   for (const a of articles) {
     const k = key(a.title);

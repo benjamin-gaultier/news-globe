@@ -100,7 +100,10 @@ export function namesIn(title: string, known?: ReadonlySet<string>): string[][] 
     const f = nameWord(i);
     if (f) {
       if (run && joined(i)) run.push(f);
-      else names.push((run = [f]));
+      else {
+        run = [f];
+        names.push(run);
+      }
       continue;
     }
     // A particle between two name words keeps the name going.
@@ -157,7 +160,7 @@ export interface CountryClusters {
  * Groups of clusters from different countries about the same story, as lists
  * of [country, cluster], best linked first. Clusters in no group are left out.
  */
-export function linkAcrossCountries(countries: CountryClusters[]): Doc[][] {
+function linkAcrossCountries(countries: CountryClusters[]): Doc[][] {
   const allTitles = countries.flatMap((c) => c.clusters.flatMap(titlesOf));
   const known = knownNames(allTitles);
   const docs: Doc[] = countries.flatMap(({ code, clusters }) =>
@@ -200,7 +203,12 @@ export function linkAcrossCountries(countries: CountryClusters[]): Doc[][] {
   const pairWeight = new Map(links.flatMap(({ a, b, w }) => [[`${a},${b}`, w] as const, [`${b},${a}`, w] as const]));
   const group = docs.map((_, i) => i);
   const members = new Map(docs.map((_, i) => [i, [i]]));
-  const root = (i: number): number => (group[i] === i ? i : (group[i] = root(group[i]!)));
+  const root = (i: number): number => {
+    if (group[i] === i) return i;
+    const r = root(group[i]!);
+    group[i] = r; // path compression
+    return r;
+  };
   for (const { a, b } of links) {
     const ra = root(a);
     const rb = root(b);
@@ -215,9 +223,7 @@ export function linkAcrossCountries(countries: CountryClusters[]): Doc[][] {
     members.delete(ra);
   }
 
-  return [...members.values()]
-    .map((ids) => ids.map((i) => docs[i]!))
-    .filter((g) => new Set(g.map((d) => d.country)).size > 1);
+  return [...members.values()].map((ids) => ids.map((i) => docs[i]!)).filter((g) => new Set(g.map((d) => d.country)).size > 1);
 }
 
 /**
@@ -267,11 +273,12 @@ export function buildWorld(countries: CountryClusters[], limit = MAX_WORLD_STORI
       id: [...entries.map((e) => e.clusterId)].sort()[0]!,
       names,
       countries: entries.sort((p, q) => q.outletCount24h - p.outletCount24h),
-      latestPublishedAt: [...byCountry.values()].map((c) => c.latestPublishedAt).sort().at(-1)!,
+      latestPublishedAt: [...byCountry.values()]
+        .map((c) => c.latestPublishedAt)
+        .sort()
+        .at(-1)!,
     });
   }
   const outlets = (s: WorldStory) => s.countries.reduce((n, c) => n + c.outletCount24h, 0);
-  return stories
-    .sort((p, q) => q.countries.length - p.countries.length || outlets(q) - outlets(p))
-    .slice(0, limit);
+  return stories.sort((p, q) => q.countries.length - p.countries.length || outlets(q) - outlets(p)).slice(0, limit);
 }

@@ -10,9 +10,7 @@ describe('canonicalizeUrl', () => {
     ).toBe('https://www.lemonde.fr/politique/article/2026/10/06/x_123.html');
     expect(canonicalizeUrl('https://example.com/a?fbclid=abc&gclid=def')).toBe('https://example.com/a');
     // ici stations share stories; only at_locale differs between their feeds.
-    expect(canonicalizeUrl('https://www.ici.fr/infos/x-123?at_medium=lien_RSS&at_locale=37')).toBe(
-      'https://www.ici.fr/infos/x-123',
-    );
+    expect(canonicalizeUrl('https://www.ici.fr/infos/x-123?at_medium=lien_RSS&at_locale=37')).toBe('https://www.ici.fr/infos/x-123');
   });
 
   it('lower-cases the host but not the path', () => {
@@ -44,9 +42,7 @@ describe('articleId', () => {
 
 describe('dateFromUrl', () => {
   it('reads /YYYY/MM/DD/ and /YYYYMMDD/ paths', () => {
-    expect(dateFromUrl('https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere')).toBe(
-      '2026-10-06T12:00:00.000Z',
-    );
+    expect(dateFromUrl('https://tg24.sky.it/politica/2026/10/06/migranti-salvini-richard-gere')).toBe('2026-10-06T12:00:00.000Z');
     expect(dateFromUrl('https://www.elespanol.com/espana/politica/20261006/ultima-hora/1003744409738_10.html')).toBe(
       '2026-10-06T12:00:00.000Z',
     );

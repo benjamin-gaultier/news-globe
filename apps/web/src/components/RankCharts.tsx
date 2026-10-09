@@ -37,8 +37,10 @@ function Lines({ p, dot, now }: { p: NonNullable<ReturnType<typeof plot>>; dot: 
     <>
       {p.segments.map((points, i) =>
         points.length > 1 ? (
+          // biome-ignore lint/suspicious/noArrayIndexKey: segments never reorder; they are redrawn whole.
           <polyline key={i} className="rank-line" points={points.map((q) => `${q.x.toFixed(1)},${q.y.toFixed(1)}`).join(' ')} />
         ) : (
+          // biome-ignore lint/suspicious/noArrayIndexKey: as above.
           <circle key={i} className="rank-dot" cx={points[0]!.x} cy={points[0]!.y} r={dot} />
         ),
       )}

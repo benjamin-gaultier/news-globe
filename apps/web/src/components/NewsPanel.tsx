@@ -55,6 +55,7 @@ function Skeleton() {
   return (
     <ul className="story-list" aria-hidden="true">
       {Array.from({ length: 6 }, (_, i) => (
+        // biome-ignore lint/suspicious/noArrayIndexKey: a fixed list of placeholders.
         <li key={i} className="story skeleton">
           <div className="sk-line" style={{ width: '92%' }} />
           <div className="sk-line" style={{ width: '70%' }} />
@@ -285,8 +286,8 @@ export function NewsPanel({
       {english && translation === 'pending' && <p className="panel-note">Translating headlines on this device…</p>}
       {english && translation === 'unavailable' && (
         <p className="panel-note">
-          This browser can’t translate on the device (Chrome on a computer can). “Translate” opens a story’s headline in
-          Google Translate; its story page also links to the whole article translated.
+          This browser can’t translate on the device (Chrome on a computer can). “Translate” opens a story’s headline in Google Translate;
+          its story page also links to the whole article translated.
         </p>
       )}
       {story && cluster ? (
@@ -323,8 +324,8 @@ export function NewsPanel({
         />
       )}
       <p className="panel-footnote">
-        Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets
-        and ranked by how many outlets covered them in the last 24 hours.
+        Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets and ranked by how
+        many outlets covered them in the last 24 hours.
       </p>
     </PanelShell>
   );

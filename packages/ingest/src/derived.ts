@@ -35,7 +35,10 @@ export interface PublishedUnit {
  * ranked story).
  */
 export function buildTrends(day: ArchiveDay, runAt: string, units: PublishedUnit[]): TrendsFile {
-  const runs = Object.keys(day.runs).sort().filter((r) => r <= runAt).slice(-TREND_RUNS);
+  const runs = Object.keys(day.runs)
+    .sort()
+    .filter((r) => r <= runAt)
+    .slice(-TREND_RUNS);
   const current = day.runs[runAt] ?? {};
   const previousRun = runs.at(-2);
   const out: TrendsFile = { schemaVersion: SCHEMA_VERSION, runAt, runs, units: {}, change: {} };

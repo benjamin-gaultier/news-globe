@@ -47,7 +47,17 @@ function archiveDay(date: string): ArchiveDay {
     schemaVersion: ARCHIVE_SCHEMA_VERSION,
     date,
     stories: [
-      { unit: 'FR', title: 'Archived budget story', url: 'https://fr.example/old', sources: ['a', 'b'], articleIds: ['x'], firstSeen: run, lastSeen: run, bestRank: 1, peakOutlets: 2 },
+      {
+        unit: 'FR',
+        title: 'Archived budget story',
+        url: 'https://fr.example/old',
+        sources: ['a', 'b'],
+        articleIds: ['x'],
+        firstSeen: run,
+        lastSeen: run,
+        bestRank: 1,
+        peakOutlets: 2,
+      },
     ],
     runs: { [`${date}T08:00:00.000Z`]: { FR: [0] }, [run]: { FR: [0] } },
   };
@@ -66,9 +76,12 @@ const requested = () => fetchMock.mock.calls.map(([url]) => String(url));
 beforeEach(() => {
   files = {
     'index.json': indexFile,
-    'countries/FR.json': () => countryFile([cluster(article({ title: 'Le budget adopté' }), [], { alsoIn: [{ code: 'US', clusterId: 'c2' }] })]),
-    'countries/US.json': () => countryFile([cluster(article({ title: 'Senate passes bill', language: 'en' }))], { countryCode: 'US', countryName: 'United States' }),
-    'regions/FR-BRE.json': () => countryFile([cluster(article({ title: 'Rennes : le métro' }))], { regionCode: 'FR-BRE', regionName: 'Brittany' }),
+    'countries/FR.json': () =>
+      countryFile([cluster(article({ title: 'Le budget adopté' }), [], { alsoIn: [{ code: 'US', clusterId: 'c2' }] })]),
+    'countries/US.json': () =>
+      countryFile([cluster(article({ title: 'Senate passes bill', language: 'en' }))], { countryCode: 'US', countryName: 'United States' }),
+    'regions/FR-BRE.json': () =>
+      countryFile([cluster(article({ title: 'Rennes : le métro' }))], { regionCode: 'FR-BRE', regionName: 'Brittany' }),
   };
   fetchMock.mockClear();
   vi.stubGlobal('fetch', fetchMock);
@@ -135,7 +148,9 @@ describe('App', () => {
 
   it('opens a region and returns to the country', async () => {
     await renderApp('#FR');
-    await userEvent.click(within(await screen.findByRole('navigation', { name: 'Regions of France' })).getByRole('button', { name: 'Brittany' }));
+    await userEvent.click(
+      within(await screen.findByRole('navigation', { name: 'Regions of France' })).getByRole('button', { name: 'Brittany' }),
+    );
 
     expect(await screen.findByRole('link', { name: 'Rennes : le métro' })).toBeTruthy();
     expect(location.hash).toBe('#FR-BRE');
@@ -188,7 +203,10 @@ describe('App', () => {
 
   it('shows the cross-border stories with arcs between their countries', async () => {
     files['countries/US.json'] = () =>
-      countryFile([cluster(article({ title: 'Senate passes bill', language: 'en' }), [], { id: 'c2' })], { countryCode: 'US', countryName: 'United States' });
+      countryFile([cluster(article({ title: 'Senate passes bill', language: 'en' }), [], { id: 'c2' })], {
+        countryCode: 'US',
+        countryName: 'United States',
+      });
     await renderApp();
     await userEvent.click(chip('Across borders'));
 
@@ -221,7 +239,19 @@ describe('App', () => {
       schemaVersion: SCHEMA_VERSION,
       runAt: ago(10),
       top: [
-        { unit: 'US', clusterId: 'c2', title: 'Senate passes bill', url: 'https://us.example/s', source: 'AP', language: 'en', imageUrl: null, outlets: 3, rank: 1, firstSeen: ago(60), state: null },
+        {
+          unit: 'US',
+          clusterId: 'c2',
+          title: 'Senate passes bill',
+          url: 'https://us.example/s',
+          source: 'AP',
+          language: 'en',
+          imageUrl: null,
+          outlets: 3,
+          rank: 1,
+          firstSeen: ago(60),
+          state: null,
+        },
       ],
       rising: [],
       lasting: [],
@@ -229,7 +259,10 @@ describe('App', () => {
       stories: 3,
     });
     files['countries/US.json'] = () =>
-      countryFile([cluster(article({ title: 'Senate passes bill', language: 'en' }), [], { id: 'c2' })], { countryCode: 'US', countryName: 'United States' });
+      countryFile([cluster(article({ title: 'Senate passes bill', language: 'en' }), [], { id: 'c2' })], {
+        countryCode: 'US',
+        countryName: 'United States',
+      });
     await renderApp();
     await userEvent.click(screen.getByRole('button', { name: 'Today' }));
     expect(await screen.findByRole('heading', { level: 2, name: 'Today' })).toBeTruthy();
@@ -242,15 +275,21 @@ describe('App', () => {
   });
 
   it('moves to the next country with headlines on a sideways swipe (phones)', async () => {
-    const mq = vi.spyOn(window, 'matchMedia').mockImplementation(
-      (query) => ({ matches: true, media: query, addEventListener() {}, removeEventListener() {} }) as unknown as MediaQueryList,
-    );
+    const mq = vi
+      .spyOn(window, 'matchMedia')
+      .mockImplementation(
+        (query) => ({ matches: true, media: query, addEventListener() {}, removeEventListener() {} }) as unknown as MediaQueryList,
+      );
     try {
       await renderApp('#FR');
       const body = (await screen.findByRole('link', { name: 'Le budget adopté' })).closest('.panel-body')!;
       act(() => {
-        body.dispatchEvent(Object.assign(new MouseEvent('pointerdown', { bubbles: true, clientX: 300, clientY: 400 }), { pointerType: 'touch' }));
-        body.dispatchEvent(Object.assign(new MouseEvent('pointerup', { bubbles: true, clientX: 100, clientY: 400 }), { pointerType: 'touch' }));
+        body.dispatchEvent(
+          Object.assign(new MouseEvent('pointerdown', { bubbles: true, clientX: 300, clientY: 400 }), { pointerType: 'touch' }),
+        );
+        body.dispatchEvent(
+          Object.assign(new MouseEvent('pointerup', { bubbles: true, clientX: 100, clientY: 400 }), { pointerType: 'touch' }),
+        );
       });
       // France → the next available country in the list: the United States.
       await waitFor(() => expect(location.hash).toBe('#US'));
@@ -263,9 +302,13 @@ describe('App', () => {
     beforeEach(() => {
       files['countries/FR.json'] = () =>
         countryFile([
-          cluster(article({ title: 'Le budget adopté' }), [article({ title: 'Budget : le vote', source: { id: 'figaro', name: 'Le Figaro' } })], {
-            id: 'bud1',
-          }),
+          cluster(
+            article({ title: 'Le budget adopté' }),
+            [article({ title: 'Budget : le vote', source: { id: 'figaro', name: 'Le Figaro' } })],
+            {
+              id: 'bud1',
+            },
+          ),
         ]);
     });
 
@@ -461,7 +504,12 @@ describe('Trends', () => {
 
     const matchMedia = window.matchMedia;
     window.matchMedia = (query: string) =>
-      ({ matches: query.includes('reduced-motion'), media: query, addEventListener() {}, removeEventListener() {} }) as unknown as MediaQueryList;
+      ({
+        matches: query.includes('reduced-motion'),
+        media: query,
+        addEventListener() {},
+        removeEventListener() {},
+      }) as unknown as MediaQueryList;
     try {
       await renderApp();
       await waitFor(() => expect(requested()).toContain('/data/trends.json'));

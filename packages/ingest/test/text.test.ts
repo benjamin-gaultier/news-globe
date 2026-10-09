@@ -52,15 +52,8 @@ describe('titleTokens: per-language stopwords', () => {
   });
 
   it('drops Spanish stopwords and live-blog markers for es', () => {
-    expect([...titleTokens('Sánchez adelanta las elecciones al 29 de noviembre', 'es')]).toEqual([
-      'sanchez',
-      'adelanta',
-      'eleccion',
-      '29',
-    ]);
-    expect(titleTokens('Última hora: elecciones generales, en directo', 'es')).toEqual(
-      titleTokens('elecciones generales', 'es'),
-    );
+    expect([...titleTokens('Sánchez adelanta las elecciones al 29 de noviembre', 'es')]).toEqual(['sanchez', 'adelanta', 'eleccion', '29']);
+    expect(titleTokens('Última hora: elecciones generales, en directo', 'es')).toEqual(titleTokens('elecciones generales', 'es'));
   });
 
   it('drops Italian stopwords for it', () => {
@@ -75,9 +68,7 @@ describe('titleTokens: per-language stopwords', () => {
   });
 
   it('drops Portuguese stopwords and "veja/saiba" list markers for pt', () => {
-    expect(titleTokens('Veja quem são os deputados estaduais eleitos', 'pt')).toEqual(
-      titleTokens('deputados estaduais eleitos', 'pt'),
-    );
+    expect(titleTokens('Veja quem são os deputados estaduais eleitos', 'pt')).toEqual(titleTokens('deputados estaduais eleitos', 'pt'));
   });
 
   it('folds Turkish letters, including dotless ı, and apostrophe suffixes for tr', () => {
@@ -92,9 +83,7 @@ describe('titleTokens: per-language stopwords', () => {
 
   it('ignores Turkish light verbs and police-blotter formula words', () => {
     // Two different raids on 2026-10-06 that used to merge on "suç örgütüne operasyon: N gözaltı".
-    expect(titleTokens('Daltonlar suç örgütüne operasyon: 26 gözaltı', 'tr')).toEqual(
-      titleTokens('Daltonlar suç örgütüne 26', 'tr'),
-    );
+    expect(titleTokens('Daltonlar suç örgütüne operasyon: 26 gözaltı', 'tr')).toEqual(titleTokens('Daltonlar suç örgütüne 26', 'tr'));
     expect(titleTokens('Cumhurbaşkanı Erdoğan AileFest’i ziyaret etti', 'tr').has('etti')).toBe(false);
   });
 
@@ -123,9 +112,7 @@ describe('titleTokens: Dutch', () => {
 
 describe('titleTokens: Scandinavian and Polish', () => {
   it('drops stopwords after folding, keeping ø and ł', () => {
-    expect(titleTokens('Regeringen säger nej till förslaget på måndag', 'sv')).toEqual(
-      titleTokens('Regeringen: nej till förslaget', 'sv'),
-    );
+    expect(titleTokens('Regeringen säger nej till förslaget på måndag', 'sv')).toEqual(titleTokens('Regeringen: nej till förslaget', 'sv'));
     expect(titleTokens('Stortinget stemmer over budsjettet på søndag', 'nb').has('søndag')).toBe(false);
     expect(titleTokens('Folketinget har vedtaget loven i dag', 'da').has('har')).toBe(false);
     expect(titleTokens('Sejm przyjął ustawę, która będzie obowiązywać', 'pl')).toEqual(
@@ -139,9 +126,7 @@ describe('titleTokens: Czech and Romanian', () => {
     expect(titleTokens('Vláda schválila rozpočet, který bude platit od ledna', 'cs').has('ktery')).toBe(false);
     expect(titleTokens('Vláda schválila rozpočet', 'cs')).toEqual(new Set(['vlada', 'schvalila', 'rozpocet']));
     expect(titleTokens('Guvernul a aprobat bugetul pentru anul viitor', 'ro').has('pentru')).toBe(false);
-    expect(titleTokens('Președintele în vizită la București', 'ro')).toEqual(
-      titleTokens('Presedintele vizita Bucuresti', 'ro'),
-    );
+    expect(titleTokens('Președintele în vizită la București', 'ro')).toEqual(titleTokens('Presedintele vizita Bucuresti', 'ro'));
   });
 });
 
@@ -213,7 +198,9 @@ describe('titleTokens: Armenian, Azerbaijani and Uzbek', () => {
     expect(titleTokens('Bu gün Bakıda', 'az').has('bu')).toBe(false);
   });
   it('makes Uzbek oʻ/gʻ spellings agree', () => {
-    expect(titleTokens('Fargʻona shahrida yangi boʻlim ochildi', 'uz')).toEqual(titleTokens("Farg'ona shahrida yangi bo’lim ochildi", 'uz'));
+    expect(titleTokens('Fargʻona shahrida yangi boʻlim ochildi', 'uz')).toEqual(
+      titleTokens("Farg'ona shahrida yangi bo’lim ochildi", 'uz'),
+    );
     expect(titleTokens('Toshkentda yangi bino boʻldi', 'uz').has('boldi')).toBe(false);
   });
 });
@@ -247,9 +234,7 @@ describe('titleTokens: Korean, Thai, Bengali and Khmer', () => {
     expect(b.has('대통') && b.has('국회') && b.has('방문')).toBe(true);
   });
   it('segments Thai words and drops stopwords', () => {
-    expect(titleTokens('นายกรัฐมนตรีเดินทางไปกรุงเทพฯวันนี้', 'th')).toEqual(
-      new Set(['นายก', 'รัฐมนตรี', 'เดิน', 'ทาง', 'กรุงเทพฯ']),
-    );
+    expect(titleTokens('นายกรัฐมนตรีเดินทางไปกรุงเทพฯวันนี้', 'th')).toEqual(new Set(['นายก', 'รัฐมนตรี', 'เดิน', 'ทาง', 'กรุงเทพฯ']));
   });
   it('keeps Bengali vowel signs and converts digits', () => {
     expect(titleTokens('ঢাকায় ৫ জন আহত হয়েছে', 'bn')).toEqual(new Set(['ঢাকায়', '5', 'জন', 'আহত']));
@@ -312,9 +297,7 @@ describe('titleTokens: Arabic', () => {
 
 describe('titleTokens: Japanese', () => {
   it('cuts kanji runs into bigrams, keeps katakana words and drops hiragana', () => {
-    expect([...titleTokens('石破首相がワシントンを訪問', 'ja')].sort()).toEqual(
-      ['ワシントン', '破首', '石破', '訪問', '首相'].sort(),
-    );
+    expect([...titleTokens('石破首相がワシントンを訪問', 'ja')].sort()).toEqual(['ワシントン', '破首', '石破', '訪問', '首相'].sort());
   });
 
   it('folds full-width digits and Latin, and keeps dakuten distinct', () => {
@@ -357,8 +340,25 @@ describe('HTML and truncation', () => {
 
 describe('titleTokens: Spain’s regional languages', () => {
   it('drops Catalan, Galician and Basque function words and dates', () => {
-    expect([...titleTokens('El Govern aprova els pressupostos de la Generalitat dimecres', 'ca')]).toEqual(['govern', 'aprova', 'pressuposto', 'generalitat']);
-    expect([...titleTokens('A Xunta aproba unha nova lei de vivenda para Galicia', 'gl')]).toEqual(['xunta', 'aproba', 'lei', 'vivenda', 'galicia']);
-    expect([...titleTokens('Eusko Jaurlaritzak eta sindikatuek akordioa sinatu dute gaur', 'eu')]).toEqual(['eusko', 'jaurlaritzak', 'sindikatuek', 'akordioa', 'sinatu']);
+    expect([...titleTokens('El Govern aprova els pressupostos de la Generalitat dimecres', 'ca')]).toEqual([
+      'govern',
+      'aprova',
+      'pressuposto',
+      'generalitat',
+    ]);
+    expect([...titleTokens('A Xunta aproba unha nova lei de vivenda para Galicia', 'gl')]).toEqual([
+      'xunta',
+      'aproba',
+      'lei',
+      'vivenda',
+      'galicia',
+    ]);
+    expect([...titleTokens('Eusko Jaurlaritzak eta sindikatuek akordioa sinatu dute gaur', 'eu')]).toEqual([
+      'eusko',
+      'jaurlaritzak',
+      'sindikatuek',
+      'akordioa',
+      'sinatu',
+    ]);
   });
 });

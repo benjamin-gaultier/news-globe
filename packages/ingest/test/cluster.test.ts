@@ -46,10 +46,7 @@ describe('clustering: shared topic word, different story', () => {
       'Primaire à gauche : plus de 140 000 personnes inscrites',
       'Primaire à gauche : les candidats se déchirent sur la stratégie face à Mélenchon',
     ],
-    [
-      'Supreme Court rejects appeal over school sweatshirt ban',
-      'Supreme Court hears climate change case against oil companies',
-    ],
+    ['Supreme Court rejects appeal over school sweatshirt ban', 'Supreme Court hears climate change case against oil companies'],
     ['Trump signs executive order on tariffs', 'Trump rally in Pennsylvania draws protesters'],
   ])('%s ≠ %s', (a, b) => {
     expect(sameCluster(a, b)).toBe(false);
@@ -159,10 +156,7 @@ describe('clusterArticles: chaining guard (average linkage)', () => {
 
 describe('clusterArticles: ignoreNames', () => {
   const de = (source: string, title: string) => article(source, title, T, { language: 'de' });
-  const titles = [
-    'Sachsen-Anhalt: Landtag streitet über Haushalt',
-    'Unfall auf der A14 in Sachsen-Anhalt: Lkw-Fahrer verletzt',
-  ];
+  const titles = ['Sachsen-Anhalt: Landtag streitet über Haushalt', 'Unfall auf der A14 in Sachsen-Anhalt: Lkw-Fahrer verletzt'];
 
   it("a region's own name is not enough to merge two stories", () => {
     const pair = () => [de('mdr', titles[0]!), de('volksstimme', titles[1]!)];

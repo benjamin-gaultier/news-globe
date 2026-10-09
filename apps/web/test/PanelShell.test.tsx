@@ -21,7 +21,14 @@ function renderShell(props: Partial<PanelShellProps> = {}) {
   const view = render(<PanelShell {...all} />);
   const panel = screen.getByRole('complementary', { name: 'France' });
   const header = panel.querySelector('.panel-header')!;
-  return { ...view, panel, header, onClose, onSheetChange, rerender: (p: Partial<PanelShellProps>) => view.rerender(<PanelShell {...all} {...p} />) };
+  return {
+    ...view,
+    panel,
+    header,
+    onClose,
+    onSheetChange,
+    rerender: (p: Partial<PanelShellProps>) => view.rerender(<PanelShell {...all} {...p} />),
+  };
 }
 
 /** Drag the sheet header from y=`from` to y=`to` (screen pixels). */

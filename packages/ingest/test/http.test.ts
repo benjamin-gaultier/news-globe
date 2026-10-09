@@ -9,7 +9,13 @@ import { decodeBody, HttpCache, newest } from '../src/http';
 
 const URL_A = 'https://feeds.example/a.xml';
 const MIN = 60_000;
-const item = (title: string): RawItem => ({ title, url: `https://x.example/${title}`, description: null, publishedAt: null, imageUrl: null });
+const item = (title: string): RawItem => ({
+  title,
+  url: `https://x.example/${title}`,
+  description: null,
+  publishedAt: null,
+  imageUrl: null,
+});
 
 let dir: string;
 let now: number;
@@ -31,7 +37,9 @@ function makeCache(fetchImpl: typeof fetch) {
 
 describe('HttpCache', () => {
   it('sends the User-Agent, stores validators, and parses on 200', async () => {
-    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200, headers: { ETag: '"v1"', 'Last-Modified': 'Tue, 06 Oct 2026 09:00:00 GMT' } }));
+    const fetchImpl = vi.fn<typeof fetch>(
+      async () => new Response('<rss/>', { status: 200, headers: { ETag: '"v1"', 'Last-Modified': 'Tue, 06 Oct 2026 09:00:00 GMT' } }),
+    );
     const cache = await makeCache(fetchImpl);
     const res = await cache.getItems(URL_A, async () => [item('one')]);
     expect(res.outcome).toBe('fetched');
@@ -62,7 +70,9 @@ describe('HttpCache', () => {
   it('sends conditional headers after the interval and reuses cached items on 304', async () => {
     const fetchImpl = vi
       .fn<typeof fetch>()
-      .mockResolvedValueOnce(new Response('<rss/>', { status: 200, headers: { ETag: '"v1"', 'Last-Modified': 'Tue, 06 Oct 2026 09:00:00 GMT' } }))
+      .mockResolvedValueOnce(
+        new Response('<rss/>', { status: 200, headers: { ETag: '"v1"', 'Last-Modified': 'Tue, 06 Oct 2026 09:00:00 GMT' } }),
+      )
       .mockResolvedValueOnce(new Response(null, { status: 304 }));
     const cache = await makeCache(fetchImpl);
     await cache.getItems(URL_A, async () => [item('one')]);
@@ -124,7 +134,12 @@ describe('HttpCache', () => {
 describe('newest', () => {
   const at = (title: string, publishedAt: string | null): RawItem => ({ ...item(title), publishedAt });
   it('keeps the most recent items when a feed lists its whole archive', () => {
-    const items = [at('old', '2026-10-01T00:00:00Z'), at('new', '2026-10-07T00:00:00Z'), at('undated', null), at('mid', '2026-10-05T00:00:00Z')];
+    const items = [
+      at('old', '2026-10-01T00:00:00Z'),
+      at('new', '2026-10-07T00:00:00Z'),
+      at('undated', null),
+      at('mid', '2026-10-05T00:00:00Z'),
+    ];
     expect(newest(items, 2).map((i) => i.title)).toEqual(['undated', 'new']);
     expect(newest(items, 4)).toBe(items);
   });

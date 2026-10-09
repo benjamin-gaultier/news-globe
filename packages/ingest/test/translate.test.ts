@@ -1,14 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 import { SCHEMA_VERSION, type IndexFile, type TodayFile, type TodayStory } from '@news-globe/shared';
 import { buildCluster } from '../src/rank';
-import {
-  azureConfigFromEnv,
-  azureTranslator,
-  emptyCache,
-  headlinesToTranslate,
-  translateHeadlines,
-  type Headline,
-} from '../src/translate';
+import { azureConfigFromEnv, azureTranslator, emptyCache, headlinesToTranslate, translateHeadlines, type Headline } from '../src/translate';
 import { article } from './helpers';
 
 const RUN = '2026-10-09T10:00:00.000Z';

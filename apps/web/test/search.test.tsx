@@ -53,7 +53,10 @@ describe('search', () => {
 
 describe('SearchPanel', () => {
   beforeEach(() => {
-    vi.stubGlobal('fetch', vi.fn(async () => new Response(JSON.stringify(file))));
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => new Response(JSON.stringify(file))),
+    );
   });
   afterEach(() => vi.unstubAllGlobals());
 
@@ -74,7 +77,10 @@ describe('SearchPanel', () => {
   });
 
   it('says so before the workflow has written the index', async () => {
-    vi.stubGlobal('fetch', vi.fn(async () => new Response('Not found', { status: 404 })));
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => new Response('Not found', { status: 404 })),
+    );
     render(<SearchPanel query="budget" isMobile={false} onClose={vi.fn()} onSheetChange={vi.fn()} onOpenStory={vi.fn()} />);
     await waitFor(() => expect(screen.getByText('Search isn’t available yet.')).toBeTruthy());
   });

@@ -18,13 +18,7 @@ type NorthState =
   | 'COL'
   | 'GUA';
 
-const src = (
-  id: string,
-  name: string,
-  region: NorthState,
-  feedUrls: string[],
-  authority: number,
-): SourceConfig => ({
+const src = (id: string, name: string, region: NorthState, feedUrls: string[], authority: number): SourceConfig => ({
   id,
   name,
   type: 'rss',
@@ -102,7 +96,13 @@ export const MX_STATES_NORTH: SourceConfig[] = [
   // ---- Chihuahua: Chihuahua city and Ciudad Juárez ----
   src('mx_chh_oem', 'El Heraldo de Chihuahua / El Heraldo de Juárez', 'CHH', oem('elheraldodechihuahua', 'elheraldodejuarez'), 9),
   src('mx_chh_entrelineas', 'Entrelíneas', 'CHH', ['https://www.entrelineas.com.mx/feed/'], 7),
-  src('mx_chh_nortedigital', 'Norte Digital (Juárez)', 'CHH', wp('nortedigital.mx', 'category/frontera', 'category/estado', 'category/policiaca'), 7),
+  src(
+    'mx_chh_nortedigital',
+    'Norte Digital (Juárez)',
+    'CHH',
+    wp('nortedigital.mx', 'category/frontera', 'category/estado', 'category/policiaca'),
+    7,
+  ),
   src('mx_chh_canal44', 'Canal 44 (Juárez)', 'CHH', ['https://canal44.com/feed/'], 7),
 
   // ---- Coahuila: Saltillo and La Laguna (Torreón) ----
@@ -162,6 +162,12 @@ export const MX_STATES_NORTH: SourceConfig[] = [
 
   // ---- Guanajuato: León and the Bajío ----
   src('mx_gua_am', 'AM', 'GUA', wp('www.am.com.mx', 'leon', 'guanajuato', 'celaya', 'irapuato', 'guanajuato-sur'), 9),
-  src('mx_gua_oem', 'El Sol de León / El Sol del Bajío / El Sol de Irapuato / El Sol de Salamanca', 'GUA', oem('elsoldeleon', 'elsoldelbajio', 'elsoldeirapuato', 'elsoldesalamanca'), 8),
+  src(
+    'mx_gua_oem',
+    'El Sol de León / El Sol del Bajío / El Sol de Irapuato / El Sol de Salamanca',
+    'GUA',
+    oem('elsoldeleon', 'elsoldelbajio', 'elsoldeirapuato', 'elsoldesalamanca'),
+    8,
+  ),
   src('mx_gua_notus', 'Notus', 'GUA', ['https://www.notus.com.mx/feed/'], 7),
 ];

@@ -19,13 +19,7 @@ function Trend({ trend }: { trend?: ClusterTrend }) {
 }
 
 /** "Also in Germany · Chile": the same story in other countries' top stories, each opening its page there. */
-function AlsoIn({
-  cluster,
-  onOpenStoryIn,
-}: {
-  cluster: StoryCluster;
-  onOpenStoryIn: (code: CountryCode, clusterId: string) => void;
-}) {
+function AlsoIn({ cluster, onOpenStoryIn }: { cluster: StoryCluster; onOpenStoryIn: (code: CountryCode, clusterId: string) => void }) {
   const countries = (cluster.alsoIn ?? []).filter((a) => COUNTRIES[a.code]);
   if (!countries.length) return null;
   return (
@@ -102,12 +96,7 @@ export function StoryItem({
             {english && foreign && !offerTranslate && (
               <>
                 <span aria-hidden="true"> · </span>
-                <a
-                  className="story-translate"
-                  href={translatedPageUrl(rep.url, rep.language)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a className="story-translate" href={translatedPageUrl(rep.url, rep.language)} target="_blank" rel="noopener noreferrer">
                   Read in English ↗
                 </a>
               </>

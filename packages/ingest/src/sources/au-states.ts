@@ -2,13 +2,7 @@ import type { SourceConfig } from '../sources.config';
 
 type AuRegion = 'ACT' | 'NSW' | 'NT' | 'QLD' | 'SA' | 'TAS' | 'VIC' | 'WA';
 
-const src = (
-  id: string,
-  name: string,
-  region: AuRegion,
-  feedUrls: string[],
-  authority: number,
-): SourceConfig => ({
+const src = (id: string, name: string, region: AuRegion, feedUrls: string[], authority: number): SourceConfig => ({
   id,
   name,
   type: 'rss',

@@ -39,9 +39,13 @@ const src = (
 export const ES_REGIONS_SOUTH: SourceConfig[] = [
   // ---- Comunidad de Madrid (Comunidad and city desks, not national politics) ----
   src('es_md_telemadrid', 'Telemadrid', 'MD', ['https://www.telemadrid.es/rss/section/6/'], 8),
-  src('es_md_elpais', 'El País (Madrid)', 'MD', [
-    'https://feeds.elpais.com/mrss-s/list/ep/site/elpais.com/section/espana/subsection/madrid',
-  ], 9),
+  src(
+    'es_md_elpais',
+    'El País (Madrid)',
+    'MD',
+    ['https://feeds.elpais.com/mrss-s/list/ep/site/elpais.com/section/espana/subsection/madrid'],
+    9,
+  ),
   src('es_md_elmundo', 'El Mundo (Madrid)', 'MD', ['https://e00-elmundo.uecdn.es/elmundo/rss/madrid.xml'], 9),
   src('es_md_abc', 'ABC (Madrid)', 'MD', ['https://www.abc.es/rss/2.0/espana/madrid/'], 9),
   src('es_md_madridiario', 'Madridiario', 'MD', ['https://www.madridiario.es/rss/ultimasNoticias/'], 7),
@@ -50,9 +54,7 @@ export const ES_REGIONS_SOUTH: SourceConfig[] = [
   src('es_md_europapress', 'Europa Press Madrid', 'MD', ['https://www.europapress.es/rss/rss.aspx?ch=289'], 7),
 
   // ---- Castilla-La Mancha ----
-  src('es_cm_eldigital', 'El Digital Castilla-La Mancha', 'CM', [
-    'https://www.elespanol.com/rss/eldigitalcastillalamancha/',
-  ], 7),
+  src('es_cm_eldigital', 'El Digital Castilla-La Mancha', 'CM', ['https://www.elespanol.com/rss/eldigitalcastillalamancha/'], 7),
   src('es_cm_lanza', 'Lanza (Ciudad Real)', 'CM', ['https://www.lanzadigital.com/feed/'], 8),
   src('es_cm_nueva_alcarria', 'Nueva Alcarria (Guadalajara)', 'CM', ['https://nuevaalcarria.com/secciones/rss/5'], 8),
   src('es_cm_encastillalamancha', 'encastillalamancha.es', 'CM', ['https://www.encastillalamancha.es/feed/'], 7),
@@ -66,9 +68,7 @@ export const ES_REGIONS_SOUTH: SourceConfig[] = [
 
   // ---- Andalucía ----
   src('es_an_canalsur', 'Canal Sur', 'AN', ['https://www.canalsur.es/rss/category/section/8010/'], 8),
-  src('es_an_diario_sevilla', 'Diario de Sevilla', 'AN', [
-    'https://www.diariodesevilla.es/rss/category/section/140006/',
-  ], 9),
+  src('es_an_diario_sevilla', 'Diario de Sevilla', 'AN', ['https://www.diariodesevilla.es/rss/category/section/140006/'], 9),
   // Grupo Joly, like Diario de Sevilla, but the Cádiz city desk.
   src('es_an_diario_cadiz', 'Diario de Cádiz', 'AN', ['https://www.diariodecadiz.es/rss/category/section/140180/'], 8),
   src('es_an_abc_sevilla', 'ABC Sevilla', 'AN', ['https://www.abc.es/rss/2.0/sevilla/'], 9),
@@ -91,16 +91,15 @@ export const ES_REGIONS_SOUTH: SourceConfig[] = [
   src('es_vc_apunt', 'À Punt', 'VC', ['https://www.apuntmedia.es/rss/category/section/1100/'], 8, 'ca'),
   src('es_vc_lasprovincias', 'Las Provincias', 'VC', ['https://www.lasprovincias.es/rss/2.0/?section=comunitat'], 9),
   // Sister papers of one group, one source so their shared regional stories don't count twice.
-  src('es_vc_plaza', 'Valencia Plaza / Alicante Plaza', 'VC', [
-    'https://valenciaplaza.com/noticias/rss/valenciaplaza',
-    'https://alicanteplaza.es/noticias/rss/alicanteplaza',
-  ], 7),
-  src('es_vc_eldiario', 'elDiario.es Comunitat Valenciana', 'VC', [
-    'https://www.eldiario.es/rss/comunitat-valenciana/',
-  ], 7),
-  src('es_vc_europapress', 'Europa Press Comunitat Valenciana', 'VC', [
-    'https://www.europapress.es/rss/rss.aspx?ch=292',
-  ], 7),
+  src(
+    'es_vc_plaza',
+    'Valencia Plaza / Alicante Plaza',
+    'VC',
+    ['https://valenciaplaza.com/noticias/rss/valenciaplaza', 'https://alicanteplaza.es/noticias/rss/alicanteplaza'],
+    7,
+  ),
+  src('es_vc_eldiario', 'elDiario.es Comunitat Valenciana', 'VC', ['https://www.eldiario.es/rss/comunitat-valenciana/'], 7),
+  src('es_vc_europapress', 'Europa Press Comunitat Valenciana', 'VC', ['https://www.europapress.es/rss/rss.aspx?ch=292'], 7),
 
   // ---- Illes Balears ----
   src('es_ib_ib3', 'IB3', 'IB', ['https://ib3.org/feed'], 8, 'ca'),
@@ -114,8 +113,6 @@ export const ES_REGIONS_SOUTH: SourceConfig[] = [
   src('es_cn_canarias7', 'Canarias7', 'CN', ['https://www.canarias7.es/rss/2.0/?section=canarias'], 9),
   src('es_cn_diariodeavisos', 'Diario de Avisos', 'CN', ['https://diariodeavisos.elespanol.com/tenerife/feed/'], 8),
   src('es_cn_canariasahora', 'Canarias Ahora (elDiario.es)', 'CN', ['https://www.eldiario.es/rss/canariasahora/'], 7),
-  src('es_cn_atlanticohoy', 'Atlántico Hoy', 'CN', [
-    'https://www.atlanticohoy.com/uploads/feeds/feed_atlantico-hoy_es.xml',
-  ], 7),
+  src('es_cn_atlanticohoy', 'Atlántico Hoy', 'CN', ['https://www.atlanticohoy.com/uploads/feeds/feed_atlantico-hoy_es.xml'], 7),
   src('es_cn_europapress', 'Europa Press Canarias', 'CN', ['https://www.europapress.es/rss/rss.aspx?ch=287'], 7),
 ];

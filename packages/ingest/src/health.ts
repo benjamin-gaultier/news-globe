@@ -22,11 +22,7 @@ interface CacheEntry {
   lastStatus?: number | string;
 }
 
-export function buildStatus(
-  entries: Record<string, CacheEntry>,
-  sources: readonly SourceConfig[],
-  updatedAt: string,
-): StatusFile {
+export function buildStatus(entries: Record<string, CacheEntry>, sources: readonly SourceConfig[], updatedAt: string): StatusFile {
   const failing: FailingFeed[] = [];
   // Unit → whether any of its feeds was requested yet, whether one works, and its latest success.
   const units = new Map<string, { requested: boolean; working: boolean; lastOkAt: string | null }>();

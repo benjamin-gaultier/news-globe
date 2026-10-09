@@ -46,8 +46,7 @@ async function seedCache(feeds: Record<string, RawItem[]>, retrievedAt = hoursAg
   await writeFile(join(dir, '.cache', 'http.json'), JSON.stringify({ version: 1, entries }));
 }
 
-const readJson = async <T>(...parts: string[]): Promise<T> =>
-  JSON.parse(await readFile(join(dir, ...parts), 'utf8')) as T;
+const readJson = async <T>(...parts: string[]): Promise<T> => JSON.parse(await readFile(join(dir, ...parts), 'utf8')) as T;
 
 const exists = (...parts: string[]) =>
   readFile(join(dir, ...parts)).then(
@@ -121,7 +120,12 @@ describe('runIngest', () => {
     await seedCache({
       [lemonde.feedUrls[0]!]: [
         item('lemonde', 'fresh', 'Le Sénat adopte la réforme des retraites en première lecture', hoursAgo(1)),
-        item('lemonde', 'old', 'Une très vieille histoire publiée il y a plusieurs jours déjà', hoursAgo(INGEST_SETTINGS.maxArticleAgeHours + 1)),
+        item(
+          'lemonde',
+          'old',
+          'Une très vieille histoire publiée il y a plusieurs jours déjà',
+          hoursAgo(INGEST_SETTINGS.maxArticleAgeHours + 1),
+        ),
         item('lemonde', 'tpl', 'Vidéo. $content.TitleNoTags', hoursAgo(1)),
         item('lemonde', 'bad', 'Pol�cia prende suspeito em opera��o', hoursAgo(1)),
       ],
@@ -131,9 +135,7 @@ describe('runIngest', () => {
 
     expect(summary.countries).toEqual([{ code: 'FR', articles: 1, clusters: 1, written: true }]);
     const fr = await readJson<CountryFile>('countries', 'FR.json');
-    expect(fr.clusters.map((c) => c.representative.title)).toEqual([
-      'Le Sénat adopte la réforme des retraites en première lecture',
-    ]);
+    expect(fr.clusters.map((c) => c.representative.title)).toEqual(['Le Sénat adopte la réforme des retraites en première lecture']);
   });
 
   it('routes regional outlets to their region file and drops republished copies', async () => {
@@ -221,7 +223,12 @@ describe('runIngest', () => {
       {
         [lemonde.feedUrls[0]!]: [
           item('lemonde', 'undated', 'Le Conseil constitutionnel valide la loi sur l’immigration', null),
-          item('lemonde', 'future', 'Les agriculteurs manifestent à nouveau devant les préfectures', new Date(NOW + 3_600_000).toISOString()),
+          item(
+            'lemonde',
+            'future',
+            'Les agriculteurs manifestent à nouveau devant les préfectures',
+            new Date(NOW + 3_600_000).toISOString(),
+          ),
         ],
       },
       retrievedAt,

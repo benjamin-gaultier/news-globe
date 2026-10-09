@@ -1,30 +1,8 @@
 import type { SourceConfig } from '../sources.config';
 
-type NorthState =
-  | 'JK'
-  | 'LA'
-  | 'HP'
-  | 'PB'
-  | 'CH'
-  | 'HR'
-  | 'DL'
-  | 'UK'
-  | 'UP'
-  | 'RJ'
-  | 'GJ'
-  | 'DH'
-  | 'MH'
-  | 'GA'
-  | 'MP'
-  | 'CG';
+type NorthState = 'JK' | 'LA' | 'HP' | 'PB' | 'CH' | 'HR' | 'DL' | 'UK' | 'UP' | 'RJ' | 'GJ' | 'DH' | 'MH' | 'GA' | 'MP' | 'CG';
 
-const src = (
-  id: string,
-  name: string,
-  region: NorthState,
-  feedUrls: string[],
-  authority: number,
-): SourceConfig => ({
+const src = (id: string, name: string, region: NorthState, feedUrls: string[], authority: number): SourceConfig => ({
   id,
   name,
   type: 'rss',
@@ -48,8 +26,7 @@ const hinduCity = (slug: string) => `https://www.thehindu.com/news/cities/${slug
  */
 const toi = (...ids: string[]) => ids.map((id) => `https://timesofindia.indiatimes.com/rssfeeds/${id}.cms`);
 /** Hindustan Times city sections. */
-const ht = (...cities: string[]) =>
-  cities.map((city) => `https://www.hindustantimes.com/feeds/rss/cities/${city}-news/rssfeed.xml`);
+const ht = (...cities: string[]) => cities.map((city) => `https://www.hindustantimes.com/feeds/rss/cities/${city}-news/rssfeed.xml`);
 /** The Indian Express city sections. */
 const ie = (...cities: string[]) => cities.map((city) => `https://indianexpress.com/section/cities/${city}/feed/`);
 /** The Tribune's state and city sections. */
@@ -95,10 +72,13 @@ const naidunia = (path: string) => `https://english.dainikjagranmpcg.com/states/
  */
 export const IN_STATES_NORTH: SourceConfig[] = [
   // ---- Jammu and Kashmir ----
-  src('in_jk_greaterkashmir', 'Greater Kashmir', 'JK', [
-    'https://www.greaterkashmir.com/kashmir/feed/',
-    'https://www.greaterkashmir.com/jammu/feed/',
-  ], 8),
+  src(
+    'in_jk_greaterkashmir',
+    'Greater Kashmir',
+    'JK',
+    ['https://www.greaterkashmir.com/kashmir/feed/', 'https://www.greaterkashmir.com/jammu/feed/'],
+    8,
+  ),
   src('in_jk_tribune', 'The Tribune (J&K)', 'JK', tribune('state/j-k'), 9),
   src('in_jk_hindu', 'The Hindu (Jammu and Kashmir)', 'JK', [hinduState('jammu-and-kashmir')], 9),
   src('in_jk_kashmirlife', 'Kashmir Life', 'JK', ['https://kashmirlife.net/feed/'], 7),
@@ -112,14 +92,13 @@ export const IN_STATES_NORTH: SourceConfig[] = [
   src('in_hp_tribune', 'The Tribune (Himachal)', 'HP', tribune('state/himachal'), 9),
 
   // ---- Punjab ----
-  src('in_pb_tribune', 'The Tribune (Punjab)', 'PB', tribune(
-    'state/punjab',
-    'city/amritsar',
-    'city/jalandhar',
-    'city/ludhiana',
-    'city/patiala',
-    'city/bathinda',
-  ), 9),
+  src(
+    'in_pb_tribune',
+    'The Tribune (Punjab)',
+    'PB',
+    tribune('state/punjab', 'city/amritsar', 'city/jalandhar', 'city/ludhiana', 'city/patiala', 'city/bathinda'),
+    9,
+  ),
   src('in_pb_ie', 'The Indian Express (Chandigarh and Punjab)', 'PB', ie('chandigarh'), 9),
   src('in_pb_hindu', 'The Hindu (Punjab)', 'PB', [hinduState('punjab')], 9),
   src('in_pb_yespunjab', 'Yes Punjab', 'PB', ['https://yespunjab.com/category/punjab/feed/'], 7),
@@ -172,10 +151,13 @@ export const IN_STATES_NORTH: SourceConfig[] = [
   src('in_ga_toi', 'Times of India (Goa)', 'GA', toi('3012535'), 9),
 
   // ---- Madhya Pradesh ----
-  src('in_mp_naidunia', 'Naidunia English (Madhya Pradesh)', 'MP', [
-    naidunia('madhya-pradesh/category-18'),
-    naidunia('madhya-pradesh/vindhya-rewa/category-15252'),
-  ], 7),
+  src(
+    'in_mp_naidunia',
+    'Naidunia English (Madhya Pradesh)',
+    'MP',
+    [naidunia('madhya-pradesh/category-18'), naidunia('madhya-pradesh/vindhya-rewa/category-15252')],
+    7,
+  ),
   src('in_mp_hindu', 'The Hindu (Madhya Pradesh)', 'MP', [hinduState('madhya-pradesh')], 9),
 
   // ---- Chhattisgarh ----

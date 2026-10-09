@@ -25,7 +25,11 @@ describe('buildTrends', () => {
     const at8 = ranked('budget', 'strike', 'storm', 'trial', 'election');
     const at9 = ranked('budget', 'strike', 'storm', 'trial', 'election');
     const at10 = ranked('election', 'fire', 'budget', 'strike');
-    const day = dayOf([[8, at8], [9, at9], [10, at10]]);
+    const day = dayOf([
+      [8, at8],
+      [9, at9],
+      [10, at10],
+    ]);
     const trends = buildTrends(day, T(10), [{ code: 'FR', clusters: at10 }]);
 
     expect(trends.runs).toEqual([T(8), T(9), T(10)]);
@@ -53,7 +57,10 @@ describe('buildTrends', () => {
 
 describe('buildSearch', () => {
   it('lists every ranked headline with its unit and outlets', () => {
-    const search = buildSearch(T(10), [{ code: 'FR', clusters: ranked('budget', 'strike') }, { code: 'FR-BRE', clusters: ranked('storm') }]);
+    const search = buildSearch(T(10), [
+      { code: 'FR', clusters: ranked('budget', 'strike') },
+      { code: 'FR-BRE', clusters: ranked('storm') },
+    ]);
     expect(search.items).toEqual([
       ['FR', 'budget', 1],
       ['FR', 'strike', 1],
