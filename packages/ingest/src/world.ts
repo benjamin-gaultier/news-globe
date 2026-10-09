@@ -1,4 +1,5 @@
 import type { CountryCode, StoryCluster, WorldStory } from '@news-globe/shared';
+import { UnionFind } from './cluster';
 import { foldText } from './normalize/text';
 
 /**
@@ -201,29 +202,23 @@ function linkAcrossCountries(countries: CountryClusters[]): Doc[][] {
   // Strongest first, merging groups only while their average pairwise weight stays high.
   links.sort((p, q) => q.w - p.w);
   const pairWeight = new Map(links.flatMap(({ a, b, w }) => [[`${a},${b}`, w] as const, [`${b},${a}`, w] as const]));
-  const group = docs.map((_, i) => i);
-  const members = new Map(docs.map((_, i) => [i, [i]]));
-  const root = (i: number): number => {
-    if (group[i] === i) return i;
-    const r = root(group[i]!);
-    group[i] = r; // path compression
-    return r;
-  };
+  const groups = new UnionFind(docs.length);
   for (const { a, b } of links) {
-    const ra = root(a);
-    const rb = root(b);
+    const ra = groups.find(a);
+    const rb = groups.find(b);
     if (ra === rb) continue;
-    const A = members.get(ra)!;
-    const B = members.get(rb)!;
+    const A = groups.members[ra]!;
+    const B = groups.members[rb]!;
     let total = 0;
     for (const x of A) for (const y of B) total += pairWeight.get(`${x},${y}`) ?? 0;
     if (total / (A.length * B.length) < MIN_AVERAGE_LINK) continue;
-    group[ra] = rb;
-    members.set(rb, [...B, ...A]);
-    members.delete(ra);
+    groups.union(ra, rb);
   }
 
-  return [...members.values()].map((ids) => ids.map((i) => docs[i]!)).filter((g) => new Set(g.map((d) => d.country)).size > 1);
+  return groups.members
+    .filter((ids) => ids.length > 0)
+    .map((ids) => ids.map((i) => docs[i]!))
+    .filter((g) => new Set(g.map((d) => d.country)).size > 1);
 }
 
 /**

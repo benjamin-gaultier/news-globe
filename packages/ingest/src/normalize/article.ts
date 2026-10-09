@@ -270,18 +270,35 @@ export function isNotNews(title: string): boolean {
  * Titles are compared ignoring case, punctuation and spacing.
  */
 export function dropRepublished(articles: Article[]): Article[] {
-  const key = (title: string) =>
-    title
-      .toLowerCase()
-      .replace(/[^\p{L}\p{N}]+/gu, ' ')
-      .trim();
+  return keepEarliest(articles, (a) => titleKey(a.title));
+}
+
+/**
+ * Drop an outlet's own repeats only (the same headline under two URLs, as ANSA
+ * does across its section feeds). For national files: there the same headline
+ * from different outlets is usually wire copy each of them chose to run, which
+ * is real coverage and must still count.
+ */
+export function dropOwnRepeats(articles: Article[]): Article[] {
+  return keepEarliest(articles, (a) => `${a.source.id}\n${titleKey(a.title)}`);
+}
+
+/** Titles compared ignoring case, punctuation and spacing. */
+const titleKey = (title: string) =>
+  title
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .trim();
+
+/** One article per key: the earliest published. Order is otherwise kept. */
+function keepEarliest(articles: Article[], key: (a: Article) => string): Article[] {
   const first = new Map<string, Article>();
   for (const a of articles) {
-    const k = key(a.title);
+    const k = key(a);
     const seen = first.get(k);
     if (!seen || Date.parse(a.publishedAt) < Date.parse(seen.publishedAt)) first.set(k, a);
   }
-  return articles.filter((a) => first.get(key(a.title)) === a);
+  return articles.filter((a) => first.get(key(a)) === a);
 }
 
 /** Exact dedupe on canonical URL; the first occurrence wins. */

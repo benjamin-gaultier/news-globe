@@ -77,12 +77,14 @@ function readLanguageMode(): LanguageMode {
   }
 }
 
-/** The file to render: fresh data, or the previous data for this view while it refreshes or after a refresh failed. */
+/**
+ * The file to render: this view's data, fresh or kept from before while it refreshes or after a
+ * refresh failed. Another view's file is never shown: right after a switch, the loader still holds
+ * the previous country's 'ready' data for one render.
+ */
 function visibleData(state: AsyncState<CountryFile>, viewCode: string): CountryFile | null {
-  if (state.status === 'ready') return state.data;
-  const previous = latestData(state);
-  if (previous && (previous.regionCode ?? previous.countryCode) === viewCode) return previous;
-  return null;
+  const data = latestData(state);
+  return data && (data.regionCode ?? data.countryCode) === viewCode ? data : null;
 }
 
 /** Languages other than English among the visible stories. */

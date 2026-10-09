@@ -23,6 +23,15 @@ export const KV_KEYS = {
   translateCache: 'translate-cache',
 } as const;
 
+/** The derived files served gzipped from their own KV key, as /data/<key>.json. */
+export const PUBLIC_DERIVED = [KV_KEYS.trends, KV_KEYS.search, KV_KEYS.today, KV_KEYS.translations] as const;
+
+/**
+ * The files the ingest publishes in the bundle, and the only bundle keys the Worker (and the
+ * dev server) will serve under /data/: the index, the health report, and country and region files.
+ */
+export const PUBLIC_FILE = /^(index\.json|status\.json|countries\/[A-Z]{2}\.json|regions\/[A-Z]{2}-[A-Z0-9]{1,3}\.json)$/;
+
 /** A UTC day's history, served as /data/archive/YYYY-MM-DD.json. */
 export const archiveKey = (date: string) => `archive/${date}`;
 

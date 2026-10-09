@@ -5,11 +5,13 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import react from '@vitejs/plugin-react';
 import { defineConfig, type Plugin } from 'vite';
+import { PUBLIC_DERIVED, PUBLIC_FILE } from '@news-globe/shared/bundle';
 
 const DATA_DIR = fileURLToPath(new URL('../../data', import.meta.url));
 const SAMPLE_DIR = path.join(DATA_DIR, 'sample');
-// Only the public contract is served — never data/.cache or anything else.
-const PUBLIC_FILE = /^\/(index\.json|status\.json|countries\/[A-Z]{2}\.json|regions\/[A-Z]{2}-[A-Z0-9]{1,3}\.json)$/;
+// Only the public contract is served (PUBLIC_FILE, as in the Worker): never data/.cache or anything else.
+/** History days and the derived files, stored gzipped. */
+const GZIPPED_FILE = new RegExp(`^/(archive/\\d{4}-\\d{2}-\\d{2}|${PUBLIC_DERIVED.join('|')})\\.json$`);
 
 /**
  * Serves the ingest output at /data/* during `vite dev` and `vite preview`,
@@ -24,7 +26,7 @@ function serveData(): Plugin {
     // History days and the derived trends/search/today files live gzipped in KV, written by the
     // archive step, never locally: copies saved as data/archive/YYYY-MM-DD.json.gz, data/today.json.gz
     // etc. are sent as such.
-    const gzipped = /^\/(archive\/\d{4}-\d{2}-\d{2}|trends|search|today|translations)\.json$/.exec(rel);
+    const gzipped = GZIPPED_FILE.exec(rel);
     if (gzipped) {
       readFile(path.join(DATA_DIR, `${gzipped[1]}.json.gz`)).then(
         (body) => {
@@ -40,7 +42,9 @@ function serveData(): Plugin {
       );
       return;
     }
-    const file = PUBLIC_FILE.test(rel) ? [DATA_DIR, SAMPLE_DIR].map((dir) => path.join(dir, rel)).find((f) => existsSync(f)) : undefined;
+    const file = PUBLIC_FILE.test(rel.slice(1))
+      ? [DATA_DIR, SAMPLE_DIR].map((dir) => path.join(dir, rel)).find((f) => existsSync(f))
+      : undefined;
     if (!file) {
       res.statusCode = 404;
       res.end('Not found');

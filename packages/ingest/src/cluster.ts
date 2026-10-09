@@ -33,7 +33,8 @@ export function titleSimilarity(a: string, b: string, language?: string): { scor
   return jaccard(titleTokens(a, language), titleTokens(b, language));
 }
 
-class UnionFind {
+/** Union-find over 0..n-1 with each root's members (shared with world.ts). */
+export class UnionFind {
   private readonly parent: number[];
   /** Members of each root's group, kept in index order. */
   readonly members: number[][];
