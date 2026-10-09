@@ -1135,7 +1135,7 @@ button {
   font-size: 10px;
 }
 
-.rank-line {
+.rank-chart .rank-line {
   fill: none;
   stroke: var(--accent);
   stroke-width: 2;
@@ -1143,7 +1143,7 @@ button {
   stroke-linecap: round;
 }
 
-.rank-dot {
+.rank-chart .rank-dot {
   fill: var(--accent);
 }
 

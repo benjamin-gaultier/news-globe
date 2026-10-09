@@ -4,6 +4,7 @@ import { useTranslated } from '../hooks/useTranslated';
 import { headlineText, plural } from '../lib/text';
 import { clock, relativeTime } from '../lib/time';
 import { TARGET_LANGUAGE, translatedPageUrl, translatedTextUrl } from '../lib/translate';
+import { RankChart } from './RankCharts';
 import { ArticleLink, CountryStoryRow, TrendBadge } from './StoryParts';
 
 /** The cluster a story link names: by its id, else by any of its articles (the headline article may have changed). */
@@ -17,52 +18,6 @@ export function findStory(clusters: readonly StoryCluster[], id: string): StoryC
 /** The cross-border story this cluster belongs to, if any. */
 export function worldStoryOf(world: readonly WorldStory[], code: string, clusterId: string): WorldStory | undefined {
   return world.find((s) => s.countries.some((c) => c.code === code && c.clusterId === clusterId));
-}
-
-const CHART = { width: 320, height: 96, left: 30, right: 10, top: 10, bottom: 22 };
-
-/** The story's rank at each of today's runs, #1 at the top, with the first and last run's times. */
-export function RankChart({ ranks, runs }: { ranks: (number | null)[]; runs: string[] }) {
-  const known = ranks.filter((r): r is number => r !== null);
-  if (known.length < 2 || runs.length !== ranks.length) return null;
-  const worst = Math.max(...known, 5);
-  const { width, height, left, right, top, bottom } = CHART;
-  const x = (i: number) => left + (i / (ranks.length - 1)) * (width - left - right);
-  const y = (rank: number) => top + ((rank - 1) / (worst - 1)) * (height - top - bottom);
-  const segments: { x: number; y: number }[][] = [[]];
-  ranks.forEach((r, i) => {
-    if (r === null) segments.push([]);
-    else segments.at(-1)!.push({ x: x(i), y: y(r) });
-  });
-  const label = `Rank at each run today: ${ranks.map((r, i) => `${clock(runs[i]!)} ${r === null ? 'not ranked' : `#${r}`}`).join(', ')}`;
-  const ticks = [...new Set([1, Math.ceil(worst / 2), worst])];
-  return (
-    <svg className="rank-chart" viewBox={`0 0 ${width} ${height}`} role="img" aria-label={label}>
-      <title>{label}</title>
-      {ticks.map((t) => (
-        <g key={t}>
-          <line className="rank-grid" x1={left} x2={width - right} y1={y(t)} y2={y(t)} />
-          <text className="rank-label" x={left - 6} y={y(t)} textAnchor="end" dominantBaseline="middle">
-            #{t}
-          </text>
-        </g>
-      ))}
-      <text className="rank-label" x={left} y={height - 4} textAnchor="start">
-        {clock(runs[0]!)}
-      </text>
-      <text className="rank-label" x={width - right} y={height - 4} textAnchor="end">
-        {clock(runs.at(-1)!)}
-      </text>
-      {segments.map((points, i) =>
-        points.length > 1 ? (
-          <polyline key={i} className="rank-line" points={points.map((p) => `${p.x},${p.y}`).join(' ')} />
-        ) : points.length === 1 ? (
-          <circle key={i} className="rank-dot" cx={points[0]!.x} cy={points[0]!.y} r={2.5} />
-        ) : null,
-      )}
-      {ranks.at(-1) != null && <circle className="rank-now" cx={x(ranks.length - 1)} cy={y(ranks.at(-1)!)} r={4} />}
-    </svg>
-  );
 }
 
 function CoverageItem({ article, now, english, first }: { article: Article; now: number; english: boolean; first: boolean }) {
