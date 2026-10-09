@@ -43,11 +43,12 @@ async function etagOf(body: ArrayBuffer | Uint8Array): Promise<string> {
  */
 const pastDayEtag = (date: string) => `W/"archive-v${ARCHIVE_SCHEMA_VERSION}-${date}"`;
 
-const matches = (request: Request, etag: string) =>
+/** Whether the request names this validator; `*` ("any version") only counts once the file is known to exist. */
+const matches = (request: Request, etag: string, exists: boolean) =>
   request.headers
     .get('If-None-Match')
     ?.split(',')
-    .some((tag) => tag.trim() === etag || tag.trim() === '*') ?? false;
+    .some((tag) => tag.trim() === etag || (exists && tag.trim() === '*')) ?? false;
 
 function jsonHeaders(maxAge: number, gzipped: boolean, etag: string | null): Record<string, string> {
   return {
@@ -71,7 +72,7 @@ async function respond(
 ): Promise<Response> {
   const etag = opts.etag === 'hash' ? await etagOf(body) : opts.etag;
   const headers = jsonHeaders(opts.maxAge, opts.gzipped, etag);
-  if (etag && matches(request, etag)) return new Response(null, { status: 304, headers });
+  if (etag && matches(request, etag, true)) return new Response(null, { status: 304, headers });
   return new Response(request.method === 'HEAD' ? null : body, { headers, ...(opts.gzipped && { encodeBody: 'manual' as const }) });
 }
 
@@ -99,7 +100,7 @@ export default {
       if (date >= yesterday) return serveGzipped(request, env, archiveKey(date), MAX_AGE_S, null);
       const etag = pastDayEtag(date);
       // The browser already has this finished day: no need to read KV at all.
-      if (matches(request, etag)) return new Response(null, { status: 304, headers: jsonHeaders(PAST_DAY_MAX_AGE_S, true, etag) });
+      if (matches(request, etag, false)) return new Response(null, { status: 304, headers: jsonHeaders(PAST_DAY_MAX_AGE_S, true, etag) });
       return serveGzipped(request, env, archiveKey(date), PAST_DAY_MAX_AGE_S, etag);
     }
     if (Object.hasOwn(DERIVED, key)) return serveGzipped(request, env, DERIVED[key]!, MAX_AGE_S, 'hash');

@@ -151,6 +151,12 @@ describe('worker', () => {
       expect(e.NEWS_DATA.get).not.toHaveBeenCalled();
     });
 
+    it('answers If-None-Match: * for a past day only once the day is known to exist', async () => {
+      expect((await get('/data/archive/1990-01-01.json', env(), '*')).status).toBe(404);
+      const e = env({ 'archive/2026-10-06': new Uint8Array([0x1f, 0x8b]) });
+      expect((await get('/data/archive/2026-10-06.json', e, '*')).status).toBe(304);
+    });
+
     it('gives today and yesterday no validator, as they still grow', async () => {
       for (const date of ['2026-10-07', '2026-10-08']) {
         const res = await call(`/data/archive/${date}.json`, env({ [`archive/${date}`]: new Uint8Array([0x1f, 0x8b]) }));
