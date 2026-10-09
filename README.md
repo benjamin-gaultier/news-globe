@@ -1,8 +1,12 @@
 # news-globe
 
+[![CI](https://github.com/benjamin-gaultier/news-globe/actions/workflows/ci.yml/badge.svg)](https://github.com/benjamin-gaultier/news-globe/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 An interactive 3D globe of the news. Click a country to see its top national headlines right now, grouped by story and ranked by how many outlets cover them.
 
 **Live:** https://news-globe.maze-td.workers.dev
+
+![France open on the globe: its regions shaded, and its top stories in the side panel](docs/images/fr.webp)
 
 It covers 175 countries. Eleven of them (France, Germany, Spain, Italy, the US, Canada, Australia, Brazil, Mexico, Argentina and India) also split into regions with their own local headlines.
 
@@ -22,6 +26,8 @@ It covers 175 countries. Eleven of them (France, Germany, Spain, Italy, the US, 
 - **Phones:** a bottom sheet, swipe between countries, installable, works offline.
 - **Shareable links:** `/#FR`, `/#FR-BRE`, `/#FR/<story>`, `/#FR@2026-10-08T14:05`.
 
+![Across borders: the same stories in several countries' headlines, joined by arcs](docs/images/world.webp)
+
 ## Quick start
 
 Requires Node ≥ 20.11 and pnpm (`corepack enable`).
@@ -33,6 +39,7 @@ pnpm ingest         # fetch the feeds once → data/
 pnpm ingest:watch   # run now, then every hour
 pnpm test           # unit tests
 pnpm typecheck
+pnpm check          # lint + formatting (Biome); `pnpm format` fixes formatting
 pnpm --filter @news-globe/web e2e   # browser tests (Playwright)
 ```
 
@@ -62,3 +69,7 @@ docs/              the details
 - [How it works](docs/how-it-works.md): each feature, the architecture, the pipeline's steps and thresholds, the data files, next steps.
 - [Operations](docs/operations.md): deploying, the Raspberry Pi setup, the health check, the history archive, auto-update, translation and the LLM review.
 - [Sources](docs/sources.md): every feed and outlet by country, feed quirks, how to add a feed or a country, and map credits.
+
+## License
+
+The code is [MIT](LICENSE). Headlines, snippets and images belong to their publishers; the site only links to them. Security issues: see [SECURITY.md](SECURITY.md).
