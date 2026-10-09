@@ -29,7 +29,6 @@ export function buildStatus(entries: Record<string, CacheEntry>, sources: readon
   let total = 0;
 
   for (const source of sources) {
-    if (source.type !== 'rss') continue;
     const unit = source.region ?? source.country;
     const state = units.get(unit) ?? { requested: false, working: false, lastOkAt: null };
     units.set(unit, state);

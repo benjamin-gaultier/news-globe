@@ -84,6 +84,15 @@ describe('NewsPanel', () => {
     expect(document.querySelectorAll('.skeleton')).toHaveLength(6);
   });
 
+  it('does not show the previous country’s file, still marked ready, right after a switch', () => {
+    // For one render after picking another country, the loader still holds France's file as 'ready'.
+    const france = countryFile([cluster(article({ title: 'National' }))]);
+    renderPanel({ country: COUNTRIES.US!, state: ready(france) });
+    expect(headlines()).toEqual([]);
+    expect(screen.queryByText(/updated/)).toBeNull();
+    expect(document.querySelectorAll('.skeleton')).toHaveLength(6);
+  });
+
   it('says when there are no headlines', () => {
     renderPanel({ state: ready(countryFile([])) });
     expect(screen.getByText('No headlines for France right now.')).toBeTruthy();

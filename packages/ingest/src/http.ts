@@ -119,7 +119,8 @@ export class HttpCache {
       return { outcome: 'fetched', items, retrievedAt: attemptAt };
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
-      if (typeof next.lastStatus !== 'number') next.lastStatus = message;
+      // A network error, or a 200 whose body didn't parse: say what went wrong rather than "200".
+      if (typeof next.lastStatus !== 'number' || next.lastStatus === 200) next.lastStatus = message;
       // Serve the last good items (if any) rather than dropping the outlet.
       return { outcome: 'error', items: next.items, retrievedAt: next.retrievedAt, error: message };
     }

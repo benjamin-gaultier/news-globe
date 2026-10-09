@@ -3,7 +3,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { RawItem } from '../src/adapters/types';
-import { dropRepublished, isMisdecoded, isNotNews, isUnrenderedTemplate } from '../src/normalize/article';
+import { dropOwnRepeats, dropRepublished, isMisdecoded, isNotNews, isUnrenderedTemplate } from '../src/normalize/article';
 import { article } from './helpers';
 import { decodeBody, HttpCache, newest } from '../src/http';
 
@@ -51,6 +51,17 @@ describe('HttpCache', () => {
     await cache.save();
     const saved = JSON.parse(await readFile(join(dir, 'http.json'), 'utf8'));
     expect(saved.entries[URL_A].etag).toBe('"v1"');
+  });
+
+  it('records why a feed failed when its 200 response does not parse', async () => {
+    const cache = await makeCache(vi.fn<typeof fetch>(async () => new Response('<html>Not a feed</html>', { status: 200 })));
+    const res = await cache.getItems(URL_A, async () => {
+      throw new Error('Unexpected root element: html');
+    });
+    expect(res.outcome).toBe('error');
+    await cache.save();
+    const saved = JSON.parse(await readFile(join(dir, 'http.json'), 'utf8'));
+    expect(saved.entries[URL_A].lastStatus).toBe('Unexpected root element: html');
   });
 
   it('does not hit the network again within 15 minutes, even from a fresh process', async () => {
@@ -454,5 +465,14 @@ describe('dropRepublished', () => {
     const other = article('wshu', 'CT lawmakers weigh SNAP backup plan', '2026-10-07T09:00:00Z');
     const update = article('ctmirror', 'CT Effort to Support SNAP Recipients Stalls', '2026-10-07T11:00:00Z');
     expect(dropRepublished([rerun, update, other, original])).toEqual([other, original]);
+  });
+});
+
+describe('dropOwnRepeats', () => {
+  it("drops an outlet's own repeated headline but keeps other outlets running the same one", () => {
+    const first = article('ansa', 'Manovra, via libera del Cdm', '2026-10-07T08:00:00Z');
+    const repeat = article('ansa', 'Manovra: via libera del CdM', '2026-10-07T09:00:00Z');
+    const wire = article('rainews', 'Manovra, via libera del Cdm', '2026-10-07T08:30:00Z');
+    expect(dropOwnRepeats([repeat, wire, first])).toEqual([wire, first]);
   });
 });

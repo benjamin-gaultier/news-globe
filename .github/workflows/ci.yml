@@ -35,9 +35,9 @@ jobs:
       - run: pnpm --filter @news-globe/web exec vite build
 
   # The globe in a real browser (Playwright, software WebGL): clicks, hovers and the camera.
-  # Always on main (deploys wait for it). On a PR only when it touches what the browser tests
-  # cover, as they take most of CI's Actions minutes (the repo is private): otherwise the job
-  # passes at once, so a required `e2e` check still resolves.
+  # Always on main (deploys wait for it). On a PR only when it touches the web app or what it is
+  # built from (apps/web, packages/shared, the lockfile), as the tests take most of CI's minutes:
+  # an ingest- or docs-only PR passes the job at once, so a required `e2e` check still resolves.
   e2e:
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -53,7 +53,7 @@ jobs:
           if [ "${{ github.event_name }}" != "pull_request" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; exit 0; fi
           changed=$(git diff --name-only "$BASE" HEAD)
           echo "$changed"
-          if echo "$changed" | grep -qE '^(apps/web/e2e/|apps/web/playwright\.config\.ts|apps/web/vite\.config\.ts|apps/web/index\.html|apps/web/package\.json|pnpm-lock\.yaml|apps/web/src/(App\.tsx|main\.tsx|styles\.css|components/(GlobeView|PanelShell|NewsPanel)\.tsx|hooks/|lib/route\.ts)|\.github/workflows/ci\.yml)'; then
+          if echo "$changed" | grep -qE '^(apps/web/(e2e|src|public)/|apps/web/[^/]+\.(ts|json|html)$|packages/shared/|pnpm-lock\.yaml|\.github/workflows/ci\.yml)'; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
