@@ -11,6 +11,7 @@ describe('planUpdate', () => {
     expect(planUpdate(['pnpm-lock.yaml'])).toEqual({ install: true, restart: false });
     expect(planUpdate(['apps/web/package.json'])).toEqual({ install: true, restart: false });
     expect(planUpdate(['packages/ingest/src/watch.ts'])).toEqual({ install: false, restart: true });
+    expect(planUpdate(['packages/ingest/src/env.ts'])).toEqual({ install: false, restart: true });
     expect(planUpdate(['packages/ingest/src/update.ts', 'package.json'])).toEqual({ install: true, restart: true });
   });
 });

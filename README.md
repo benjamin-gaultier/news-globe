@@ -179,7 +179,7 @@ Runs on a Raspberry Pi 4 (64-bit Raspberry Pi OS / Debian 13). Steps 2–4 need 
 
 Only one machine should run the ingest. Two pollers would double the requests to every feed.
 
-Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` and `CLOUDFLARE_API_TOKEN` are all set, either in the environment or in the repo-root `.env`. If none are set, the ingest only writes local files, as in development. If the upload fails (network, token), the run still writes `data/` and the next run retries; [publish.ts](packages/ingest/src/publish.ts) keeps the last bundle's hash in `data/.cache/publish.json`.
+Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` and `CLOUDFLARE_API_TOKEN` are all set, either in the environment or in the repo-root `.env`. If none are set, the ingest only writes local files, as in development. If the upload fails (network, token), the run still writes `data/` but exits with code 1, so it shows as failed (and with `ARCHIVE_AFTER_RUN=1` the watcher skips that run's archive step); the next run retries; [publish.ts](packages/ingest/src/publish.ts) keeps the last bundle's hash in `data/.cache/publish.json`.
 
 ### Health check
 
@@ -208,7 +208,7 @@ Each story gets one record per day and unit (headline, link, outlet ids, first a
 
 To update the Pi by hand (e.g. after adding a country; merging it to `main` already redeployed the Worker): `cd ~/news-globe && git pull && pnpm install --frozen-lockfile`. No restart is needed: the watcher starts every run as a fresh `cli.ts` process, so the next run uses the new code and feeds. Only a change to `watch.ts` itself, or to its schedule, needs `sudo systemctl restart news-globe-ingest`.
 
-**Auto-update.** With `AUTO_UPDATE=1` in `.env`, the watcher keeps the Pi on `main` by itself ([update.ts](packages/ingest/src/update.ts)). Before each hourly run it fetches `origin/main` and fast-forwards, then reruns `pnpm install --frozen-lockfile` when `package.json` or the lockfile changed. When `watch.ts` or `update.ts` itself changed, it exits with code 75, so systemd (`Restart=on-failure`) starts it again a minute later on the new code. It never merges, rebases or discards anything: with local changes, a diverged branch, another branch checked out or a failed fetch, it logs why in the journal and runs the code it has. `main` only moves through pull requests whose CI passed. Turning it on takes one last manual update: `git pull && pnpm install --frozen-lockfile`, add `AUTO_UPDATE=1` to `.env`, then `sudo systemctl restart news-globe-ingest`.
+**Auto-update.** With `AUTO_UPDATE=1` in `.env`, the watcher keeps the Pi on `main` by itself ([update.ts](packages/ingest/src/update.ts)). Before each hourly run it fetches `origin/main` and fast-forwards, then reruns `pnpm install --frozen-lockfile` when `package.json` or the lockfile changed. When the watcher itself changed (`watch.ts`, `update.ts`, `env.ts`, or the schedule, which lives in `watch.ts`), it exits with code 75, so systemd (`Restart=on-failure`) starts it again a minute later on the new code. It never merges, rebases or discards anything: with local changes, a diverged branch, another branch checked out or a failed fetch, it logs why in the journal and runs the code it has. `main` only moves through pull requests whose CI passed. Turning it on takes one last manual update: `git pull && pnpm install --frozen-lockfile`, add `AUTO_UPDATE=1` to `.env`, then `sudo systemctl restart news-globe-ingest`.
 
 **Archive after each run.** With `ARCHIVE_AFTER_RUN=1` in `.env`, the watcher runs the [history archive](#history-archive) step after each successful run (plus translations when the Azure variables are set). A failed archive step is logged and left to the Health workflow.
 
@@ -772,7 +772,7 @@ Canada is bilingual, and clustering only compares titles within a language, so a
 | Outlet | Feeds | Authority | Status |
 | --- | --- | --- | --- |
 | g1 | política | 10 | ✅ (`/rss/g1/brasil/` dropped: stale since 2023) |
-| Folha de S.Paulo | poder, cotidiano | 9 | ✅ (ISO-8859-1 encoded, see below) |
+| Folha de S.Paulo | poder (cotidiano is the São Paulo source) | 9 | ✅ (ISO-8859-1 encoded, see below) |
 | Estadão | política | 9 | ✅ |
 | O Globo | main feed | 8 | ✅ (general feed, includes sport and world) |
 | Agência Brasil | política, geral | 7 | ✅ (10 items each) |

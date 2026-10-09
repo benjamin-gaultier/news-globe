@@ -17,8 +17,11 @@ const BRANCH = 'main';
 
 /** Changed paths that need `pnpm install` before the next run. */
 const NEEDS_INSTALL = /(^|\/)(package\.json|pnpm-lock\.yaml|pnpm-workspace\.yaml)$/;
-/** Changed paths that only take effect when the watcher process itself restarts. */
-const NEEDS_RESTART = /^packages\/ingest\/src\/(watch|update)\.ts$/;
+/**
+ * Changed paths that only take effect when the watcher process itself restarts:
+ * the watcher and what it imports (each run is a fresh process and needs nothing).
+ */
+const NEEDS_RESTART = /^packages\/ingest\/src\/(watch|update|env)\.ts$/;
 
 export interface UpdatePlan {
   install: boolean;

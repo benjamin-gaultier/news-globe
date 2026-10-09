@@ -111,13 +111,12 @@ export async function publishToKv(
   return { uploaded: true, keys };
 }
 
-/** Publishes to KV when the Cloudflare env vars are set; never throws. */
+/**
+ * Publishes to KV when the Cloudflare env vars are set. A failed upload throws,
+ * so the run exits non-zero and shows as failed (the local files are written
+ * either way, and the next run retries the upload).
+ */
 export async function publishIfConfigured(dataDir: string): Promise<void> {
-  try {
-    const cfg = publishConfigFromEnv();
-    if (cfg) await publishToKv(dataDir, cfg);
-  } catch (err) {
-    // The local files are written either way; the next run retries the upload.
-    console.error('[publish] failed:', err instanceof Error ? err.message : err);
-  }
+  const cfg = publishConfigFromEnv();
+  if (cfg) await publishToKv(dataDir, cfg);
 }

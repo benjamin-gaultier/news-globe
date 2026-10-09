@@ -513,7 +513,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feedUrls: ['https://feeds.folha.uol.com.br/poder/rss091.xml', 'https://feeds.folha.uol.com.br/cotidiano/rss091.xml'],
+    feedUrls: ['https://feeds.folha.uol.com.br/poder/rss091.xml'],
     authority: 9,
   },
   {
@@ -8553,10 +8553,4 @@ export const INGEST_SETTINGS = {
    */
   maxSoloStoriesPerOutlet: 3,
   descriptionMaxChars: 300,
-  /**
-   * node-cron schedule for `pnpm ingest:watch`: hourly, which is plenty for a
-   * front page and keeps the load on publishers (and the Pi) low.
-   * minFetchIntervalMs stays the hard floor for manual runs and probes.
-   */
-  cronSchedule: '0 * * * *',
 };

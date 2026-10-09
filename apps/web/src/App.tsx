@@ -8,7 +8,7 @@ import { SearchBox } from './components/SearchBox';
 import { SearchPanel } from './components/SearchPanel';
 import { TodayIcon, TodayPanel } from './components/TodayPanel';
 import { WorldPanel } from './components/WorldPanel';
-import { useAsync } from './hooks/useAsync';
+import { latestData, useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
 import { fetchArchive, fetchCountry, fetchIndex, fetchRegion, fetchTranslations, fetchTrends } from './lib/data';
@@ -56,7 +56,7 @@ export function App() {
     return () => clearInterval(id);
   }, []);
   const index = useAsync(fetchIndex, [indexTick, retryKey]);
-  const indexData = index.status === 'ready' ? index.data : index.status === 'loading' ? index.previous : undefined;
+  const indexData = latestData(index);
 
   // Today's file grows every run, so it is re-read with the index.
   const today = todayUtc(now);
@@ -80,13 +80,12 @@ export function App() {
 
   // Trends for the latest run: badges, sparklines and the "change" shading (live only).
   const trends = useAsync(historyDate ? null : (signal) => fetchTrends(signal), [historyDate, indexTick]);
-  const trendsData = trends.status === 'ready' ? trends.data : trends.status === 'loading' ? trends.previous : undefined;
+  const trendsData = latestData(trends);
   const [shading, setShading] = useState<Shading>('coverage');
 
   // English for the most-seen headlines, from the hourly workflow (none until it is set up).
   const translationsFile = useAsync((signal) => fetchTranslations(signal), [indexTick]);
-  const translationsData =
-    translationsFile.status === 'ready' ? translationsFile.data : translationsFile.status === 'loading' ? translationsFile.previous : undefined;
+  const translationsData = latestData(translationsFile);
   const translations = useMemo(() => new Map(Object.entries(translationsData?.items ?? {})), [translationsData]);
   const canShadeByChange = !historyDate && !!trendsData;
   const shadeStep = useMemo(
@@ -130,6 +129,7 @@ export function App() {
   const selectRegion = useCallback((code: RegionCode | null) => {
     setSelectedRegion(code);
     setStory(null);
+    setFocusTitle(null);
   }, []);
   const openWorld = useCallback(() => {
     setSelected(null);
@@ -242,6 +242,9 @@ export function App() {
       setStory(route.story ?? null);
       setWorld(route.world);
       setToday(!!route.today);
+      // Search isn't in the URL: going back or forward leaves it.
+      setSearchOpen(false);
+      setFocusTitle(null);
       wantedAt.current = route.at;
       setHistoryDate(route.at?.slice(0, 10) ?? null);
       setHistoryRun(null);
@@ -387,14 +390,15 @@ export function App() {
         <header className="topbar">
           <div className="brand">
             <h1>News Globe</h1>
-            <p className="updated" aria-live="polite">
+            {/* No live region here: "Updated N minutes ago" ticks every 30 s. Only the error is announced. */}
+            <p className="updated">
               {index.status === 'error' && !indexData ? (
-                <>
+                <span role="alert">
                   Couldn’t reach the news data.{' '}
                   <button type="button" className="link-btn" onClick={retry}>
                     Retry
                   </button>
-                </>
+                </span>
               ) : indexData ? (
                 <>Updated {relativeTime(indexData.updatedAt, now)}</>
               ) : (

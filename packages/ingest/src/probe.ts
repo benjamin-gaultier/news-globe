@@ -1,3 +1,4 @@
+import './env';
 import { join } from 'node:path';
 import { parseFeed } from './adapters/rss';
 import { HttpCache } from './http';

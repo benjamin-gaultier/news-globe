@@ -9,7 +9,7 @@ import type {
   WorldStory,
 } from '@news-globe/shared';
 import { useEffect, useState, type ReactNode } from 'react';
-import type { AsyncState } from '../hooks/useAsync';
+import { latestData, type AsyncState } from '../hooks/useAsync';
 import { relativeTime } from '../lib/time';
 import { canTranslateOnDevice, getTranslator, TARGET_LANGUAGE } from '../lib/translate';
 import { useTranslated } from '../hooks/useTranslated';
@@ -76,10 +76,10 @@ function readLanguageMode(): LanguageMode {
   }
 }
 
-/** The file to render: fresh data, or the previous data for this view while it refreshes. */
+/** The file to render: fresh data, or the previous data for this view while it refreshes or after a refresh failed. */
 function visibleData(state: AsyncState<CountryFile>, viewCode: string): CountryFile | null {
   if (state.status === 'ready') return state.data;
-  const previous = state.status === 'loading' ? state.previous : undefined;
+  const previous = latestData(state);
   if (previous && (previous.regionCode ?? previous.countryCode) === viewCode) return previous;
   return null;
 }
@@ -112,7 +112,7 @@ function Body({
 }) {
   const data = visibleData(state, view.code);
 
-  if (state.status === 'error') {
+  if (state.status === 'error' && !data) {
     return (
       <div className="panel-message" role="alert">
         <p>Couldn’t load headlines for {view.name}.</p>
