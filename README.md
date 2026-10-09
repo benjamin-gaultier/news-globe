@@ -119,7 +119,7 @@ Why the ingest runs on the Pi rather than on a Cloudflare Cron Trigger: a free-p
 
 ### Front end (Worker + static assets)
 
-Config is in [apps/web/wrangler.jsonc](apps/web/wrangler.jsonc) and the Worker in [apps/web/worker/index.ts](apps/web/worker/index.ts). Static files never invoke the Worker; only `/data/*` does (`run_worker_first`), and it serves only the public files: the bundle's, the history days and the derived files. Each response carries a weak `ETag` from its body's hash, so a browser revalidating after `max-age` gets a body-less 304 when the file hasn't changed.
+Config is in [apps/web/wrangler.jsonc](apps/web/wrangler.jsonc) and the Worker in [apps/web/worker/index.ts](apps/web/worker/index.ts). Static files never invoke the Worker; only `/data/*` does (`run_worker_first`), and it serves only the public files: the bundle's, the history days and the derived files. Each response but the history days (too big to hash on every request) carries a weak `ETag` from its body's hash, so a browser revalidating after `max-age` gets a body-less 304 when the file hasn't changed.
 
 Every push to `main` deploys it: the `deploy` job in [.github/workflows/ci.yml](.github/workflows/ci.yml) runs `vite build` and `wrangler deploy` once the `check` job (typecheck, tests, build) has passed. Pull requests are checked but never deployed. To redeploy without a new commit, run the workflow by hand (Actions → CI → Run workflow, on `main`).
 

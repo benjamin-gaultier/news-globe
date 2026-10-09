@@ -45,29 +45,34 @@ async function etagOf(body: ArrayBuffer | Uint8Array): Promise<string> {
 async function respond(
   request: Request,
   body: ArrayBuffer | Uint8Array,
-  opts: { maxAge: number; gzipped: boolean },
+  opts: { maxAge: number; gzipped: boolean; etag: boolean },
 ): Promise<Response> {
-  const etag = await etagOf(body);
   const headers: Record<string, string> = {
     'Content-Type': 'application/json; charset=utf-8',
     'Cache-Control': `public, max-age=${opts.maxAge}`,
-    ETag: etag,
     'Access-Control-Allow-Origin': '*',
     'X-Content-Type-Options': 'nosniff',
   };
   if (opts.gzipped) headers['Content-Encoding'] = 'gzip';
-  const known = request.headers.get('If-None-Match');
-  if (known && known.split(',').some((tag) => tag.trim() === etag || tag.trim() === '*')) {
-    return new Response(null, { status: 304, headers });
+  if (opts.etag) {
+    const etag = await etagOf(body);
+    headers.ETag = etag;
+    const known = request.headers.get('If-None-Match');
+    if (known && known.split(',').some((tag) => tag.trim() === etag || tag.trim() === '*')) {
+      return new Response(null, { status: 304, headers });
+    }
   }
   return new Response(request.method === 'HEAD' ? null : body, { headers, ...(opts.gzipped && { encodeBody: 'manual' as const }) });
 }
 
-/** A gzipped KV value under its own key. */
-async function serveGzipped(request: Request, env: Env, kvKey: string, maxAge: number): Promise<Response> {
+/**
+ * A gzipped KV value under its own key. History days (1–2 MB) get no ETag: hashing one
+ * on every request would use much of a free-plan invocation's 10 ms of CPU.
+ */
+async function serveGzipped(request: Request, env: Env, kvKey: string, maxAge: number, etag: boolean): Promise<Response> {
   const gzipped = await env.NEWS_DATA.get(kvKey, { type: 'arrayBuffer', cacheTtl: maxAge });
   if (gzipped === null) return new Response('Not found', { status: 404 });
-  return respond(request, gzipped, { maxAge, gzipped: true });
+  return respond(request, gzipped, { maxAge, gzipped: true, etag });
 }
 
 export default {
@@ -83,15 +88,15 @@ export default {
     if (archive) {
       const date = archive[1]!;
       const yesterday = new Date(Date.now() - 86_400_000).toISOString().slice(0, 10);
-      return serveGzipped(request, env, archiveKey(date), date < yesterday ? PAST_DAY_MAX_AGE_S : MAX_AGE_S);
+      return serveGzipped(request, env, archiveKey(date), date < yesterday ? PAST_DAY_MAX_AGE_S : MAX_AGE_S, false);
     }
-    if (Object.hasOwn(DERIVED, key)) return serveGzipped(request, env, DERIVED[key]!, MAX_AGE_S);
+    if (Object.hasOwn(DERIVED, key)) return serveGzipped(request, env, DERIVED[key]!, MAX_AGE_S, true);
     if (!PUBLIC_KEY.test(key)) return new Response('Not found', { status: 404 });
 
     // cacheTtl keeps the bundle in the colo's cache, saving KV reads.
     const bundle = await env.NEWS_DATA.get(BUNDLE_KEY, { type: 'arrayBuffer', cacheTtl: MAX_AGE_S });
     const value = bundle && readBundleEntry(new Uint8Array(bundle), key);
     if (!value) return new Response('Not found', { status: 404 });
-    return respond(request, value, { maxAge: MAX_AGE_S, gzipped: false });
+    return respond(request, value, { maxAge: MAX_AGE_S, gzipped: false, etag: true });
   },
 } satisfies ExportedHandler<Env>;

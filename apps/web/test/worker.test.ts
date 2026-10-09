@@ -138,6 +138,12 @@ describe('worker', () => {
       expect(res.status).toBe(304);
       expect(res.headers.get('Content-Encoding')).toBe('gzip');
     });
+
+    it('gives history days no ETag (too big to hash on every request)', async () => {
+      const res = await call('/data/archive/2026-10-08.json', env({ 'archive/2026-10-08': new Uint8Array([0x1f, 0x8b]) }));
+      expect(res.status).toBe(200);
+      expect(res.headers.get('ETag')).toBeNull();
+    });
   });
 
   describe('derived files', () => {
