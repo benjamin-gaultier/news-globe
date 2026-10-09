@@ -1,14 +1,11 @@
 import './env';
-import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
-import { tmpdir } from 'node:os';
-import { dirname, join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { gunzipSync, gzipSync } from 'node:zlib';
-import type { ArchiveDay, IndexFile, TodayFile } from '@news-globe/shared';
-import { BUNDLE_KEY, bundleKeys, readBundleEntry } from '@news-globe/shared/bundle';
-import { archiveFile, archiveRun, publishArchiveToKv, readRun } from './archive';
+import type { ArchiveDay, TodayFile } from '@news-globe/shared';
+import { archiveKey, BUNDLE_KEY, KV_KEYS } from '@news-globe/shared/bundle';
+import { addRun, runFromBundle } from './archive';
 import { buildSearch, buildToday, buildTrends } from './derived';
-import { publishConfigFromEnv, type PublishConfig } from './publish';
+import { kvClient, kvConfigFromEnv, type KvConfig } from './kv';
 import {
   azureConfigFromEnv,
   azureTranslator,
@@ -36,128 +33,79 @@ import {
 
 export type RemoteArchiveOutcome = 'archived' | 'already-archived' | 'nothing-published';
 
-const valueUrl = (cfg: PublishConfig, key: string) =>
-  `https://api.cloudflare.com/client/v4/accounts/${cfg.accountId}/storage/kv/namespaces/${cfg.namespaceId}/values/${encodeURIComponent(key)}`;
-
-async function kvPut(cfg: PublishConfig, key: string, body: Uint8Array, doFetch: typeof fetch): Promise<void> {
-  const res = await doFetch(valueUrl(cfg, key), {
-    method: 'PUT',
-    headers: { Authorization: `Bearer ${cfg.apiToken}`, 'Content-Type': 'application/octet-stream' },
-    body,
-    signal: AbortSignal.timeout(30_000),
-  });
-  const json = (await res.json().catch(() => null)) as { success?: boolean; errors?: { message: string }[] } | null;
-  if (!res.ok || !json?.success) {
-    throw new Error(`KV write of ${key} failed: ${json?.errors?.map((e) => e.message).join('; ') || `HTTP ${res.status}`}`);
-  }
-}
-
-async function kvGet(cfg: PublishConfig, key: string, doFetch: typeof fetch): Promise<Uint8Array | null> {
-  const res = await doFetch(valueUrl(cfg, key), {
-    headers: { Authorization: `Bearer ${cfg.apiToken}` },
-    signal: AbortSignal.timeout(30_000),
-  });
-  if (res.status === 404) return null;
-  if (!res.ok) throw new Error(`KV read of ${key} failed: HTTP ${res.status}`);
-  return new Uint8Array(await res.arrayBuffer());
-}
+const unzipJson = <T>(bytes: Uint8Array): T => JSON.parse(gunzipSync(bytes).toString('utf8')) as T;
+const zipJson = (value: unknown) => gzipSync(JSON.stringify(value));
 
 export async function archiveFromKv(
-  cfg: PublishConfig,
+  cfg: KvConfig,
   opts: { fetchImpl?: typeof fetch; log?: (msg: string) => void; translator?: Translator } = {},
 ): Promise<RemoteArchiveOutcome> {
-  const doFetch = opts.fetchImpl ?? fetch;
+  const kv = kvClient(cfg, opts.fetchImpl);
   const log = opts.log ?? console.log;
-  const bundle = await kvGet(cfg, BUNDLE_KEY, doFetch);
-  const indexBytes = bundle && readBundleEntry(bundle, 'index.json');
-  if (!bundle || !indexBytes) {
+  const bundle = await kv.get(BUNDLE_KEY);
+  const run = bundle && runFromBundle(bundle);
+  if (!run) {
     log('[archive] nothing published yet');
     return 'nothing-published';
   }
-  const index = JSON.parse(new TextDecoder().decode(indexBytes)) as IndexFile;
-  const date = index.updatedAt.slice(0, 10);
+  const { runAt, units, index } = run;
+  const date = runAt.slice(0, 10);
+  const upload = async (key: string, body: Uint8Array) => {
+    await kv.put(key, body);
+    log(`[archive] uploaded ${key} (${Math.round(body.length / 1024)} KiB)`);
+  };
 
-  const dir = await mkdtemp(join(tmpdir(), 'news-globe-archive-'));
-  try {
-    // The run as published: index.json plus every country and region file.
-    for (const key of bundleKeys(bundle)) {
-      const bytes = readBundleEntry(bundle, key);
-      if (!bytes) continue;
-      await mkdir(dirname(join(dir, key)), { recursive: true });
-      await writeFile(join(dir, key), bytes);
+  // The day first: history can't be rebuilt later, unlike the files derived from it.
+  // `today` goes up last and marks the run as complete, so a retry after a failed
+  // derived upload rebuilds them instead of stopping at "already archived".
+  const existing = await kv.get(archiveKey(date));
+  const known = existing ? unzipJson<ArchiveDay>(existing) : null;
+  let day: ArchiveDay;
+  if (known?.runs[runAt]) {
+    const today = await kv.get(KV_KEYS.today);
+    if (today && unzipJson<TodayFile>(today).runAt === runAt) {
+      log(`[archive] run ${runAt} already archived`);
+      return 'already-archived';
     }
-    // The day first: history can't be rebuilt later, unlike the files derived from it.
-    // `today` goes up last and marks the run as complete, so a retry after a failed
-    // derived upload rebuilds them instead of stopping at "already archived".
-    const existing = await kvGet(cfg, `archive/${date}`, doFetch);
-    const known = existing ? (JSON.parse(gunzipSync(existing).toString('utf8')) as ArchiveDay) : null;
-    let day: ArchiveDay;
-    if (known?.runs[index.updatedAt]) {
-      const todayBytes = await kvGet(cfg, 'today', doFetch);
-      const done = todayBytes && (JSON.parse(gunzipSync(todayBytes).toString('utf8')) as TodayFile).runAt === index.updatedAt;
-      if (done) {
-        log(`[archive] run ${index.updatedAt} already archived`);
-        return 'already-archived';
-      }
-      log(`[archive] run ${index.updatedAt} already in ${date}; rebuilding what is derived from it`);
-      day = known;
-    } else {
-      if (existing) {
-        await mkdir(dirname(archiveFile(dir, date)), { recursive: true });
-        await writeFile(archiveFile(dir, date), existing);
-      }
-      await archiveRun(dir);
-      await publishArchiveToKv(dir, cfg, { now: Date.parse(index.updatedAt), fetchImpl: doFetch, log });
-      const gzipped = await readFile(archiveFile(dir, date));
-      log(`[archive] added run ${index.updatedAt} to ${date} (${Math.round(gzipped.length / 1024)} KiB)`);
-      day = JSON.parse(gunzipSync(gzipped).toString('utf8')) as ArchiveDay;
-    }
-
-    // Trends, search and Today for this run, from the day and the published files.
-    const run = await readRun(dir);
-    const units = run?.units ?? [];
-    const trends = buildTrends(day, index.updatedAt, units);
-    const today = buildToday(trends, units);
-    const upload = async (key: string, value: unknown) => {
-      const body = gzipSync(JSON.stringify(value));
-      await kvPut(cfg, key, body, doFetch);
-      log(`[archive] uploaded ${key} (${Math.round(body.length / 1024)} KiB)`);
-    };
-    await upload('trends', trends);
-    await upload('search', buildSearch(index.updatedAt, units));
-
-    // English for the most-seen headlines: new ones translated, the rest remembered.
-    // A failure here only leaves the previous translations up: it never blocks the run.
-    if (opts.translator) {
-      try {
-        const cached = await kvGet(cfg, 'translate-cache', doFetch);
-        const previous = cached ? (JSON.parse(gunzipSync(cached).toString('utf8')) as TranslateCache) : null;
-        const result = await translateHeadlines(headlinesToTranslate(today, index, units), previous, opts.translator, {
-          runAt: index.updatedAt,
-          log,
-        });
-        // The cache first: it records the characters just sent, which count against the month's budget.
-        if (result.changed) await kvPut(cfg, 'translate-cache', gzipSync(JSON.stringify(result.cache)), doFetch);
-        await kvPut(cfg, 'translations', gzipSync(JSON.stringify(result.file)), doFetch);
-        log(
-          `[translate] ${Object.keys(result.file.items).length} headlines in English; ${result.sent} characters sent ` +
-            `(${result.cache.usage.chars} this month)`,
-        );
-      } catch (err) {
-        log(`[translate] failed, keeping the previous translations: ${err instanceof Error ? err.message : String(err)}`);
-      }
-    }
-
-    await upload('today', today);
-    return 'archived';
-  } finally {
-    await rm(dir, { recursive: true, force: true });
+    log(`[archive] run ${runAt} already in ${date}; rebuilding what is derived from it`);
+    day = known;
+  } else {
+    day = addRun(known, run);
+    await upload(archiveKey(date), zipJson(day));
   }
+
+  // Trends, search and Today for this run, from the day and the published files.
+  const trends = buildTrends(day, runAt, units);
+  const today = buildToday(trends, units);
+  await upload(KV_KEYS.trends, zipJson(trends));
+  await upload(KV_KEYS.search, zipJson(buildSearch(runAt, units)));
+
+  // English for the most-seen headlines: new ones translated, the rest remembered.
+  // A failure here only leaves the previous translations up: it never blocks the run.
+  if (opts.translator) {
+    try {
+      const cached = await kv.get(KV_KEYS.translateCache);
+      const previous = cached ? unzipJson<TranslateCache>(cached) : null;
+      const result = await translateHeadlines(headlinesToTranslate(today, index, units), previous, opts.translator, { runAt, log });
+      // The cache first: it records the characters just sent, which count against the month's budget.
+      if (result.changed) await kv.put(KV_KEYS.translateCache, zipJson(result.cache));
+      await kv.put(KV_KEYS.translations, zipJson(result.file));
+      log(
+        `[translate] ${Object.keys(result.file.items).length} headlines in English; ${result.sent} characters sent ` +
+          `(${result.cache.usage.chars} this month)`,
+      );
+    } catch (err) {
+      log(`[translate] failed, keeping the previous translations: ${err instanceof Error ? err.message : String(err)}`);
+    }
+  }
+
+  await upload(KV_KEYS.today, zipJson(today));
+  return 'archived';
 }
 
 // `pnpm --filter @news-globe/ingest archive:remote`
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  const cfg = publishConfigFromEnv();
+  const cfg = kvConfigFromEnv();
   if (!cfg) {
     console.error('[archive] set CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_KV_NAMESPACE_ID and CLOUDFLARE_API_TOKEN');
     process.exitCode = 1;

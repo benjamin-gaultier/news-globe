@@ -1,10 +1,7 @@
-import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
-import { tmpdir } from 'node:os';
-import { join } from 'node:path';
-import { gunzipSync } from 'node:zlib';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import type { Article, ArchiveDay, CountryFile, IndexFile } from '@news-globe/shared';
-import { addRun, archiveFile, archiveRun, publishArchiveToKv } from '../src/archive';
+import { describe, expect, it } from 'vitest';
+import type { Article, CountryFile, IndexFile } from '@news-globe/shared';
+import { encodeBundle } from '@news-globe/shared/bundle';
+import { addRun, runFromBundle } from '../src/archive';
 import { buildCluster } from '../src/rank';
 import { article } from './helpers';
 
@@ -84,80 +81,32 @@ describe('addRun', () => {
   });
 });
 
-describe('archiveRun and publishArchiveToKv', () => {
-  let dir: string;
-  const cfg = { accountId: 'acc', namespaceId: 'ns', apiToken: 'tok' };
-  const quiet = () => {};
-
-  async function writeRun(runAt: string) {
+describe('runFromBundle', () => {
+  it('reads the run and its units from a published bundle', () => {
     const fr: CountryFile = {
       schemaVersion: 1,
       countryCode: 'FR',
       countryName: 'France',
-      updatedAt: runAt,
-      clusters: [cluster(article('lemonde', 'Budget adopté', runAt))],
+      updatedAt: T1,
+      clusters: [cluster(article('lemonde', 'Budget adopté', T1))],
     };
     const index: IndexFile = {
       schemaVersion: 1,
-      updatedAt: runAt,
-      countries: [{ code: 'FR', name: 'France', updatedAt: runAt, clusterCount: 1 }],
+      updatedAt: T1,
+      countries: [
+        { code: 'FR', name: 'France', updatedAt: T1, clusterCount: 1 },
+        { code: 'DE', name: 'Germany', updatedAt: T1, clusterCount: 0 },
+      ],
       regions: [],
     };
-    await mkdir(join(dir, 'countries'), { recursive: true });
-    await writeFile(join(dir, 'countries', 'FR.json'), JSON.stringify(fr));
-    await writeFile(join(dir, 'index.json'), JSON.stringify(index));
-  }
-
-  const readDay = async (date: string) =>
-    JSON.parse(gunzipSync(await readFile(archiveFile(dir, date))).toString('utf8')) as ArchiveDay;
-
-  const okFetch = () =>
-    vi.fn(async (_url: string | URL | Request, _init?: RequestInit) =>
-      new Response(JSON.stringify({ success: true, errors: [] }), { status: 200 }),
-    );
-
-  beforeEach(async () => {
-    dir = await mkdtemp(join(tmpdir(), 'news-globe-archive-'));
+    const run = runFromBundle(encodeBundle({ 'index.json': JSON.stringify(index), 'countries/FR.json': JSON.stringify(fr) }));
+    expect(run?.runAt).toBe(T1);
+    // A unit listed in the index without a file is skipped.
+    expect(run?.units.map((u) => u.code)).toEqual(['FR']);
+    expect(run?.units[0]!.clusters[0]!.representative.title).toBe('Budget adopté');
   });
 
-  afterEach(async () => {
-    await rm(dir, { recursive: true, force: true });
-  });
-
-  it('appends each run to the day file', async () => {
-    await writeRun(T1);
-    expect(await archiveRun(dir)).toBe('2026-10-08');
-    await writeRun(T2);
-    await archiveRun(dir);
-    const day = await readDay('2026-10-08');
-    expect(Object.keys(day.runs)).toEqual([T1, T2]);
-  });
-
-  it('does nothing without an index', async () => {
-    expect(await archiveRun(dir)).toBeNull();
-  });
-
-  it('uploads a changed day once, and retries yesterday after a failed upload', async () => {
-    await writeRun('2026-10-07T23:00:00.000Z');
-    await archiveRun(dir);
-
-    const failing = vi.fn(async () => new Response(JSON.stringify({ success: false, errors: [{ message: 'nope' }] }), { status: 500 }));
-    await expect(publishArchiveToKv(dir, cfg, { now: Date.parse('2026-10-07T23:00:00Z'), fetchImpl: failing, log: quiet })).rejects.toThrow(
-      'KV write of archive/2026-10-07 failed: nope',
-    );
-
-    // After midnight: yesterday's file is retried and today's is uploaded.
-    await writeRun('2026-10-08T00:00:00.000Z');
-    await archiveRun(dir);
-    const fetchImpl = okFetch();
-    const opts = { now: Date.parse('2026-10-08T00:00:00Z'), fetchImpl, log: quiet };
-    expect(await publishArchiveToKv(dir, cfg, opts)).toEqual(['2026-10-07', '2026-10-08']);
-    expect(fetchImpl.mock.calls[1]![0]).toBe(
-      'https://api.cloudflare.com/client/v4/accounts/acc/storage/kv/namespaces/ns/values/archive%2F2026-10-08',
-    );
-
-    // Nothing changed since: no writes.
-    expect(await publishArchiveToKv(dir, cfg, opts)).toEqual([]);
-    expect(fetchImpl).toHaveBeenCalledTimes(2);
+  it('is null without an index', () => {
+    expect(runFromBundle(encodeBundle({}))).toBeNull();
   });
 });

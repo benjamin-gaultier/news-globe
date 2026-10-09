@@ -3,34 +3,13 @@ import { existsSync } from 'node:fs';
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { BUNDLE_KEY, encodeBundle } from '@news-globe/shared/bundle';
+import { kvClient, kvConfigFromEnv, type KvConfig } from './kv';
 import { writeJsonAtomic } from './write';
 
 /**
- * Publishes the public data files to a Cloudflare Workers KV namespace, which
- * the Worker in apps/web serves at /data/*. Uses the Cloudflare REST API
- * directly so the machine running the ingest (e.g. a Raspberry Pi) needs no
- * wrangler install — just an API token scoped to "Workers KV Storage: Edit".
+ * Publishes the public data files to Workers KV (see kv.ts), which the Worker
+ * in apps/web serves at /data/*.
  */
-
-export interface PublishConfig {
-  accountId: string;
-  namespaceId: string;
-  apiToken: string;
-}
-
-export function publishConfigFromEnv(env: NodeJS.ProcessEnv = process.env): PublishConfig | null {
-  const accountId = env.CLOUDFLARE_ACCOUNT_ID;
-  const namespaceId = env.CLOUDFLARE_KV_NAMESPACE_ID;
-  const apiToken = env.CLOUDFLARE_API_TOKEN;
-  if (!accountId && !namespaceId && !apiToken) return null;
-  const missing = [
-    !accountId && 'CLOUDFLARE_ACCOUNT_ID',
-    !namespaceId && 'CLOUDFLARE_KV_NAMESPACE_ID',
-    !apiToken && 'CLOUDFLARE_API_TOKEN',
-  ].filter(Boolean);
-  if (missing.length) throw new Error(`KV publishing is half-configured; missing ${missing.join(', ')}`);
-  return { accountId: accountId!, namespaceId: namespaceId!, apiToken: apiToken! };
-}
 
 /** KV keys that make up the public data contract, as found in dataDir. */
 async function publicKeys(dataDir: string): Promise<string[]> {
@@ -62,11 +41,10 @@ export interface PublishResult {
  */
 export async function publishToKv(
   dataDir: string,
-  cfg: PublishConfig,
+  cfg: KvConfig,
   opts: { fetchImpl?: typeof fetch; log?: (msg: string) => void } = {},
 ): Promise<PublishResult> {
   const log = opts.log ?? console.log;
-  const doFetch = opts.fetchImpl ?? fetch;
   const stateFile = join(dataDir, '.cache', 'publish.json');
 
   let published: Record<string, string> = {};
@@ -92,18 +70,7 @@ export async function publishToKv(
     return { uploaded: false, keys };
   }
 
-  const url = `https://api.cloudflare.com/client/v4/accounts/${cfg.accountId}/storage/kv/namespaces/${cfg.namespaceId}/values/${BUNDLE_KEY}`;
-  const res = await doFetch(url, {
-    method: 'PUT',
-    headers: { Authorization: `Bearer ${cfg.apiToken}`, 'Content-Type': 'application/octet-stream' },
-    body: bundle,
-    signal: AbortSignal.timeout(30_000),
-  });
-  const body = (await res.json().catch(() => null)) as { success?: boolean; errors?: { message: string }[] } | null;
-  if (!res.ok || !body?.success) {
-    const detail = body?.errors?.map((e) => e.message).join('; ') || `HTTP ${res.status}`;
-    throw new Error(`KV write failed: ${detail}`);
-  }
+  await kvClient(cfg, opts.fetchImpl).put(BUNDLE_KEY, bundle);
 
   // Only remember the hash once Cloudflare confirmed the write, so failures retry next run.
   await writeJsonAtomic(stateFile, { [BUNDLE_KEY]: hash });
@@ -117,6 +84,6 @@ export async function publishToKv(
  * either way, and the next run retries the upload).
  */
 export async function publishIfConfigured(dataDir: string): Promise<void> {
-  const cfg = publishConfigFromEnv();
+  const cfg = kvConfigFromEnv();
   if (cfg) await publishToKv(dataDir, cfg);
 }
