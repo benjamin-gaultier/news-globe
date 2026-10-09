@@ -12,7 +12,7 @@ import { useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
 import { fetchArchive, fetchCountry, fetchIndex, fetchRegion, fetchTranslations, fetchTrends } from './lib/data';
-import { changeStep } from './lib/heat';
+import { changeStep, pulsesFrom } from './lib/heat';
 import { entriesAt, runTimes, shiftDate, storiesAt, todayUtc } from './lib/history';
 import { formatRoute, parseRoute, runForAt, runToAt } from './lib/route';
 import { TranslationsContext } from './lib/translations';
@@ -26,6 +26,7 @@ const INDEX_REFRESH_MS = 5 * 60_000;
 export function App() {
   const now = useNow();
   const isMobile = useMediaQuery(MOBILE_QUERY);
+  const reducedMotion = useMediaQuery('(prefers-reduced-motion: reduce)');
   const [selected, setSelected] = useState<CountryCode | null>(() => parseRoute(location.hash).country);
   const [selectedRegion, setSelectedRegion] = useState<RegionCode | null>(() => parseRoute(location.hash).region);
   // A story's page in the country or region panel (its cluster id); live only.
@@ -101,6 +102,11 @@ export function App() {
   );
   // In history mode the globe shows the picked run (nothing while it loads).
   const entries = historyDate ? (historyEntries ?? new Map()) : liveEntries;
+  // Rings over the countries whose #1 story is new or rising this hour (live, overview only; not with reduced motion).
+  const pulses = useMemo(
+    () => (!historyDate && !world && !reducedMotion && trendsData ? pulsesFrom(trendsData, liveEntries) : []),
+    [historyDate, world, reducedMotion, trendsData, liveEntries],
+  );
 
   const available = useMemo(
     () =>
@@ -466,6 +472,7 @@ export function App() {
               sheetFraction={sheetFraction}
               shadeStep={shadeStep}
               arcs={arcs}
+              pulses={pulses}
             />
           </Suspense>
           {!meta && !world && !todayOpen && !searchOpen && !historyDate && (
@@ -476,6 +483,7 @@ export function App() {
             <HeatLegend
               shading={canShadeByChange ? shading : 'coverage'}
               onShadingChange={canShadeByChange ? setShading : undefined}
+              pulsing={pulses.length > 0}
             />
           )}
           {!meta && historyBar}

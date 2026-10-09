@@ -8,6 +8,8 @@ export interface Scenario {
   countries: Record<string, number>;
   /** Regions with headlines. */
   regions?: string[];
+  /** Countries whose #1 story is new this hour (served as trends). */
+  pulses?: string[];
 }
 
 export const topTitle = (code: string) => `Top story in ${COUNTRIES[code]?.name ?? REGIONS[code]?.name ?? code}`;
@@ -66,6 +68,12 @@ export async function serveData(page: Page, scenario: Scenario): Promise<void> {
   await page.route('**/data/**', (route) => {
     const path = new URL(route.request().url()).pathname.replace(/^\/data\//, '');
     if (path === 'index.json') return route.fulfill({ json: index });
+    if (path === 'trends.json' && scenario.pulses) {
+      const units = Object.fromEntries(
+        scenario.pulses.map((code) => [code, { [code]: { ranks: [null, 1], firstSeen: ago(10), state: 'new' } }]),
+      );
+      return route.fulfill({ json: { schemaVersion: SCHEMA_VERSION, runAt: ago(10), runs: [ago(70), ago(10)], units, change: {} } });
+    }
     const m = /^(?:countries|regions)\/([A-Z0-9-]+)\.json$/.exec(path);
     const known = m && (scenario.countries[m[1]!] !== undefined || regions.includes(m[1]!));
     return known ? route.fulfill({ json: file(m[1]!) }) : route.fulfill({ status: 404, body: 'Not found' });

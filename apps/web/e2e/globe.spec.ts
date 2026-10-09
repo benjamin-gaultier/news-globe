@@ -48,6 +48,15 @@ test.describe('globe', () => {
     await expect(page.locator('.globe')).toHaveCSS('cursor', 'pointer');
   });
 
+  test('pulses a country whose #1 story is new this hour, and says so', async ({ page }) => {
+    await serveData(page, { countries: { FR: 5, US: 1 }, pulses: ['FR'] });
+    await centerOn(page, '#FR', 'France');
+    await expect(page.getByText('New #1 story this hour')).toBeVisible();
+
+    await hoverCenter(page);
+    await expect(tooltip(page)).toContainText('New #1 this hour');
+  });
+
   test('opens a country’s headlines when it is clicked', async ({ page }) => {
     await serveData(page, { countries: { FR: 1, US: 1 } });
     await centerOn(page, '#FR', 'France');

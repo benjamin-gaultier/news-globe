@@ -3,7 +3,7 @@ import { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'r
 import Globe, { type GlobeMethods } from 'react-globe.gl';
 import { MeshPhongMaterial } from 'three';
 import countriesGeo from '../assets/countries-110m.json';
-import { COUNTRY_HEAT, heatStep, REGION_HEAT } from '../lib/heat';
+import { COUNTRY_HEAT, heatStep, REGION_HEAT, type Pulse } from '../lib/heat';
 import { TranslationsContext } from '../lib/translations';
 
 interface Shape {
@@ -80,6 +80,9 @@ const COLORS = {
   atmosphere: '#5fb4ff',
 };
 
+/** A pulse's ring, fading as it spreads (t runs from the centre, 0, to the edge, 1). */
+const pulseColor = (t: number) => `rgba(255, 128, 0, ${Math.sqrt(1 - t)})`;
+
 const INITIAL_VIEW = { lat: 32, lng: -45, altitude: 2.6 };
 /** A touch that moves further than this is a drag, not a tap. */
 const TAP_SLOP_PX = 10;
@@ -109,6 +112,8 @@ export interface GlobeViewProps {
   shadeStep?: (code: string) => number;
   /** Arcs between countries sharing a story (the world view). */
   arcs: readonly { startLat: number; startLng: number; endLat: number; endLng: number }[];
+  /** Countries whose #1 story is new or rising this hour, drawn as pulsing rings while no country is open. */
+  pulses?: readonly Pulse[];
 }
 
 export default function GlobeView({
@@ -124,6 +129,7 @@ export default function GlobeView({
   sheetFraction,
   shadeStep,
   arcs,
+  pulses = [],
 }: GlobeViewProps) {
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -282,6 +288,8 @@ export default function GlobeView({
     [available, availableRegions],
   );
 
+  const pulseOf = useMemo(() => new Map(pulses.map((p) => [p.code as string, p])), [pulses]);
+
   const entryOf = useCallback(
     (f: Shape) => entries.get(f.properties.region ?? f.properties.iso2 ?? ''),
     [entries],
@@ -335,9 +343,11 @@ export default function GlobeView({
       const headline = title ? `<em>${escapeHtml(title)}</em>` : '';
       const n = entry?.topOutlets;
       const count = n ? `${n} outlet${n === 1 ? '' : 's'} on this story · ` : '';
-      return `<div class="globe-tip"><strong>${escapeHtml(f.properties.name)}</strong>${headline}<span>${count}${hint}</span></div>`;
+      const pulse = !selected && f.properties.iso2 ? pulseOf.get(f.properties.iso2) : undefined;
+      const fresh = pulse ? `<b class="globe-tip-pulse">${pulse.state === 'new' ? 'New #1 this hour' : '↑ Rose to #1 this hour'}</b>` : '';
+      return `<div class="globe-tip"><strong>${escapeHtml(f.properties.name)}</strong>${fresh}${headline}<span>${count}${hint}</span></div>`;
     },
-    [isAvailable, isSelected, showingRegions, entryOf, translations],
+    [isAvailable, isSelected, showingRegions, entryOf, translations, selected, pulseOf],
   );
 
   const handleClick = useCallback(
@@ -399,6 +409,12 @@ export default function GlobeView({
           arcDashGap={0.15}
           arcDashAnimateTime={3000}
           arcsTransitionDuration={0}
+          ringsData={selected ? [] : (pulses as object[])}
+          ringColor={() => pulseColor}
+          ringAltitude={0.03}
+          ringMaxRadius={6}
+          ringPropagationSpeed={3}
+          ringRepeatPeriod={700}
         />
       )}
     </div>

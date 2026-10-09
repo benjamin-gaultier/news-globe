@@ -425,6 +425,14 @@ describe('Trends', () => {
     expect(globe.props!.shadeStep).toBeUndefined();
   });
 
+  it('pulses the countries whose #1 story is new or rising, while no country is open', async () => {
+    withTrends();
+    await renderApp();
+    await waitFor(() => expect(globe.props!.pulses?.map((p) => p.code)).toEqual(['FR']));
+    expect(globe.props!.pulses![0]).toMatchObject({ state: 'rising', outlets: 3 });
+    expect(screen.getByText('New #1 story this hour')).toBeTruthy();
+  });
+
   it('offers no change shading before the workflow has written trends', async () => {
     await renderApp();
     await waitFor(() => expect(requested()).toContain('/data/trends.json'));
