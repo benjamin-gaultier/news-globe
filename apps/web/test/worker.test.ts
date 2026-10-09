@@ -139,16 +139,23 @@ describe('worker', () => {
     const gz = new Uint8Array([0x1f, 0x8b, 8, 0, 1, 2, 3]);
 
     it('sends a past day gzipped as stored, cached for a day', async () => {
-      const e = env({ 'archive/2026-10-07': gz });
+      const e = env({ 'archive/2026-10-06': gz });
 
-      const res = await call('/data/archive/2026-10-07.json', e);
+      const res = await call('/data/archive/2026-10-06.json', e);
 
       expect(res.status).toBe(200);
       expect(new Uint8Array(await res.arrayBuffer())).toEqual(gz);
       expect(res.headers.get('Content-Encoding')).toBe('gzip');
       expect(res.headers.get('Content-Type')).toBe('application/json; charset=utf-8');
       expect(res.headers.get('Cache-Control')).toBe('public, max-age=86400');
-      expect(e.NEWS_DATA.get).toHaveBeenCalledWith('archive/2026-10-07', { type: 'arrayBuffer', cacheTtl: 86_400 });
+      expect(e.NEWS_DATA.get).toHaveBeenCalledWith('archive/2026-10-06', { type: 'arrayBuffer', cacheTtl: 86_400 });
+    });
+
+    it('caches yesterday for a minute only, since its last run can be archived after midnight', async () => {
+      const e = env({ 'archive/2026-10-07': gz });
+      const res = await call('/data/archive/2026-10-07.json', e);
+      expect(res.headers.get('Cache-Control')).toBe('public, max-age=60');
+      expect(e.NEWS_DATA.get).toHaveBeenCalledWith('archive/2026-10-07', { type: 'arrayBuffer', cacheTtl: 60 });
     });
 
     it('caches today for a minute only, since it still grows', async () => {

@@ -2,6 +2,7 @@ import './env';
 import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { gunzipSync, gzipSync } from 'node:zlib';
 import type { ArchiveDay, IndexFile } from '@news-globe/shared';
 import { BUNDLE_KEY, bundleKeys, readBundleEntry } from '@news-globe/shared/bundle';
@@ -97,9 +98,7 @@ export async function archiveFromKv(
       await writeFile(archiveFile(dir, date), existing);
     }
     await archiveRun(dir);
-    await publishArchiveToKv(dir, cfg, { now: Date.parse(index.updatedAt), fetchImpl: doFetch, log });
     const gzipped = await readFile(archiveFile(dir, date));
-    log(`[archive] added run ${index.updatedAt} to ${date} (${Math.round(gzipped.length / 1024)} KiB)`);
 
     // Trends, search and Today for this run, from the day just written and the published files.
     const day = JSON.parse(gunzipSync(gzipped).toString('utf8')) as ArchiveDay;
@@ -125,13 +124,19 @@ export async function archiveFromKv(
         runAt: index.updatedAt,
         log,
       });
-      await kvPut(cfg, 'translations', gzipSync(JSON.stringify(result.file)), doFetch);
+      // The cache first: it records the characters just sent, which count against the month's budget.
       if (result.changed) await kvPut(cfg, 'translate-cache', gzipSync(JSON.stringify(result.cache)), doFetch);
+      await kvPut(cfg, 'translations', gzipSync(JSON.stringify(result.file)), doFetch);
       log(
         `[translate] ${Object.keys(result.file.items).length} headlines in English; ${result.sent} characters sent ` +
           `(${result.cache.usage.chars} this month)`,
       );
     }
+
+    // The day last: once it holds this run, a retry stops at "already archived",
+    // so everything derived from the run must be uploaded before it.
+    await publishArchiveToKv(dir, cfg, { now: Date.parse(index.updatedAt), fetchImpl: doFetch, log });
+    log(`[archive] added run ${index.updatedAt} to ${date} (${Math.round(gzipped.length / 1024)} KiB)`);
     return 'archived';
   } finally {
     await rm(dir, { recursive: true, force: true });
@@ -139,7 +144,7 @@ export async function archiveFromKv(
 }
 
 // `pnpm --filter @news-globe/ingest archive:remote`
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const cfg = publishConfigFromEnv();
   if (!cfg) {
     console.error('[archive] set CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_KV_NAMESPACE_ID and CLOUDFLARE_API_TOKEN');

@@ -66,6 +66,13 @@ describe('NewsPanel', () => {
     expect(headlines()).toEqual(['Earlier']);
   });
 
+  it('keeps showing the previous data when a refresh fails', () => {
+    const previous = countryFile([cluster(article({ title: 'Earlier' }))]);
+    renderPanel({ state: { status: 'error', error: 'HTTP 503', previous } });
+    expect(headlines()).toEqual(['Earlier']);
+    expect(screen.queryByRole('alert')).toBeNull();
+  });
+
   it('does not show another view’s data while the new one loads', () => {
     const previous = countryFile([cluster(article({ title: 'National' }))]);
     renderPanel({ region: BRE, state: { status: 'loading', previous } });

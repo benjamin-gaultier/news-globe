@@ -772,7 +772,7 @@ Canada is bilingual, and clustering only compares titles within a language, so a
 | Outlet | Feeds | Authority | Status |
 | --- | --- | --- | --- |
 | g1 | política | 10 | ✅ (`/rss/g1/brasil/` dropped: stale since 2023) |
-| Folha de S.Paulo | poder, cotidiano | 9 | ✅ (ISO-8859-1 encoded, see below) |
+| Folha de S.Paulo | poder (cotidiano is the São Paulo source) | 9 | ✅ (ISO-8859-1 encoded, see below) |
 | Estadão | política | 9 | ✅ |
 | O Globo | main feed | 8 | ✅ (general feed, includes sport and world) |
 | Agência Brasil | política, geral | 7 | ✅ (10 items each) |

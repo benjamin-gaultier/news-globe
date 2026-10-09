@@ -104,7 +104,7 @@ export function TodayPanel({ world, now, isMobile, onClose, onSheetChange, onOpe
       <p className="panel-sub">
         {today ? (
           <>
-            {today.countries} countries · {today.stories.toLocaleString()} stories · updated {relativeTime(today.runAt, now)}
+            {today.countries} countries · {today.stories.toLocaleString('en')} stories · updated {relativeTime(today.runAt, now)}
           </>
         ) : (
           'The day’s news at a glance'

@@ -18,12 +18,16 @@ interface Env {
 // Same public contract as the Vite dev plugin: nothing else in KV is reachable.
 const PUBLIC_KEY = /^(index\.json|status\.json|countries\/[A-Z]{2}\.json|regions\/[A-Z]{2}-[A-Z0-9]{1,3}\.json)$/;
 
-/** Browsers/CDN may reuse a response for a minute; the ingest only runs every 15. */
+/** Browsers/CDN may reuse a response for a minute; the ingest only runs hourly. */
 const MAX_AGE_S = 60;
 
 /** History: `/data/archive/YYYY-MM-DD.json`, stored gzipped in KV as `archive/YYYY-MM-DD`. */
 const ARCHIVE_KEY = /^archive\/(\d{4}-\d{2}-\d{2})\.json$/;
-/** A finished day never changes; today's file grows every run. */
+/**
+ * A finished day never changes; today's file grows every run. Yesterday counts
+ * as still growing: its last run can be archived after midnight UTC (a late
+ * archive step, or the health workflow's retry).
+ */
 const PAST_DAY_MAX_AGE_S = 86_400;
 
 /** Files the hourly workflow derives (packages/ingest/src/derived.ts), stored gzipped under their own KV key. */
@@ -63,8 +67,8 @@ export default {
     const archive = ARCHIVE_KEY.exec(key);
     if (archive) {
       const date = archive[1]!;
-      const today = new Date().toISOString().slice(0, 10);
-      return serveGzipped(env, `archive/${date}`, date < today ? PAST_DAY_MAX_AGE_S : MAX_AGE_S, head);
+      const yesterday = new Date(Date.now() - 86_400_000).toISOString().slice(0, 10);
+      return serveGzipped(env, `archive/${date}`, date < yesterday ? PAST_DAY_MAX_AGE_S : MAX_AGE_S, head);
     }
     if (Object.hasOwn(DERIVED, key)) return serveGzipped(env, DERIVED[key]!, MAX_AGE_S, head);
     if (!PUBLIC_KEY.test(key)) return new Response('Not found', { status: 404 });

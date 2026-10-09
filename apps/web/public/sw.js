@@ -7,7 +7,8 @@
 // - /data/*: network first, the last copy when offline.
 // Everything else (publishers' images, translation) goes straight to the network.
 
-const SHELL = 'shell-v1';
+// shell-v2: v1 could hold a non-page response (see isPage) in place of the app.
+const SHELL = 'shell-v2';
 const ASSETS = 'assets-v1';
 const DATA = 'data-v1';
 const KEEP = [SHELL, ASSETS, DATA];
@@ -27,11 +28,17 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-async function networkFirst(request, cacheName, fallbackUrl) {
+/**
+ * Opening /data/index.json or an icon in a tab is a navigation too: only an
+ * HTML page may become the offline shell.
+ */
+const isPage = (response) => (response.headers.get('Content-Type') ?? '').startsWith('text/html');
+
+async function networkFirst(request, cacheName, fallbackUrl, accept = () => true) {
   const cache = await caches.open(cacheName);
   try {
     const response = await fetch(request);
-    if (response.ok) await cache.put(fallbackUrl ?? request, response.clone());
+    if (response.ok && accept(response)) await cache.put(fallbackUrl ?? request, response.clone());
     return response;
   } catch (err) {
     const cached = await cache.match(fallbackUrl ?? request);
@@ -59,7 +66,7 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
-  if (request.mode === 'navigate') event.respondWith(networkFirst(request, SHELL, '/'));
+  if (request.mode === 'navigate') event.respondWith(networkFirst(request, SHELL, '/', isPage));
   else if (url.pathname.startsWith('/assets/')) event.respondWith(cacheFirst(request));
   else if (url.pathname.startsWith('/data/')) event.respondWith(networkFirst(request, DATA));
 });
