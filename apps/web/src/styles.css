@@ -193,6 +193,7 @@ button {
 }
 
 .rank-sparkline polyline {
+  fill: none;
   stroke: var(--text-muted);
   stroke-width: 1.4;
   stroke-linejoin: round;
@@ -1170,7 +1171,7 @@ button {
   font-size: 10px;
 }
 
-.rank-line {
+.rank-chart .rank-line {
   fill: none;
   stroke: var(--accent);
   stroke-width: 2;
@@ -1178,7 +1179,7 @@ button {
   stroke-linecap: round;
 }
 
-.rank-dot {
+.rank-chart .rank-dot {
   fill: var(--accent);
 }
 

@@ -1,7 +1,3 @@
-import { createHash } from 'node:crypto';
-import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
-import { gunzipSync, gzipSync } from 'node:zlib';
 import {
   ARCHIVE_SCHEMA_VERSION,
   type ArchiveDay,
@@ -10,16 +6,14 @@ import {
   type IndexFile,
   type StoryCluster,
 } from '@news-globe/shared';
-import type { PublishConfig } from './publish';
-import { writeJsonAtomic } from './write';
+import { readBundleEntry } from '@news-globe/shared/bundle';
 
 /**
  * History. Each run's ranked stories of every country and region are folded
- * into one gzipped file per UTC day, `archive/YYYY-MM-DD.json.gz`, uploaded to
- * KV as `archive/YYYY-MM-DD`. The hourly workflow does this from the
- * published data (see archive-remote.ts), not the ingest machine. A story keeps one
- * record for the day while consecutive runs' clusters share an article with
- * it; each run also records its ranked list per unit, for a time slider.
+ * into one gzipped value per UTC day, KV's `archive/YYYY-MM-DD`, from the
+ * published bundle (see archive-remote.ts). A story keeps one record for the
+ * day while consecutive runs' clusters share an article with it; each run
+ * also records its ranked list per unit, for a time slider.
  *
  * Only metadata the public files already carry is kept: headline, link,
  * outlet ids and times — never article text.
@@ -101,17 +95,13 @@ export function addRun(day: ArchiveDay | null, run: RunSnapshot): ArchiveDay {
   return { ...base, stories, runs: { ...base.runs, [run.runAt]: ranked } };
 }
 
-async function readJson<T>(file: string): Promise<T | null> {
-  try {
-    return JSON.parse(await readFile(file, 'utf8')) as T;
-  } catch {
-    return null;
-  }
-}
-
-/** The run currently in dataDir, from index.json and the files it lists. */
-export async function readRun(dataDir: string): Promise<RunSnapshot | null> {
-  const index = await readJson<IndexFile>(join(dataDir, 'index.json'));
+/** The run in a published bundle, from index.json and the files it lists, with the index. */
+export function runFromBundle(bundle: Uint8Array): (RunSnapshot & { index: IndexFile }) | null {
+  const read = <T>(key: string): T | null => {
+    const bytes = readBundleEntry(bundle, key);
+    return bytes ? (JSON.parse(new TextDecoder().decode(bytes)) as T) : null;
+  };
+  const index = read<IndexFile>('index.json');
   if (!index) return null;
   const units: RunSnapshot['units'] = [];
   for (const [dir, entries] of [
@@ -119,90 +109,9 @@ export async function readRun(dataDir: string): Promise<RunSnapshot | null> {
     ['regions', index.regions ?? []],
   ] as const) {
     for (const { code } of entries) {
-      const file = await readJson<CountryFile>(join(dataDir, dir, `${code}.json`));
+      const file = read<CountryFile>(`${dir}/${code}.json`);
       if (file) units.push({ code, clusters: file.clusters });
     }
   }
-  return { runAt: index.updatedAt, units };
-}
-
-export const archiveFile = (dataDir: string, date: string) => join(dataDir, 'archive', `${date}.json.gz`);
-
-async function readDay(dataDir: string, date: string): Promise<ArchiveDay | null> {
-  try {
-    return JSON.parse(gunzipSync(await readFile(archiveFile(dataDir, date))).toString('utf8')) as ArchiveDay;
-  } catch {
-    return null;
-  }
-}
-
-/** Adds the run in dataDir to its day's archive file. Returns the day's date, or null if there was no run. */
-export async function archiveRun(dataDir: string): Promise<string | null> {
-  const run = await readRun(dataDir);
-  if (!run) return null;
-  const date = run.runAt.slice(0, 10);
-  const day = addRun(await readDay(dataDir, date), run);
-  const file = archiveFile(dataDir, date);
-  await mkdir(join(dataDir, 'archive'), { recursive: true });
-  const tmp = `${file}.${process.pid}.tmp`;
-  await writeFile(tmp, gzipSync(JSON.stringify(day)));
-  await rename(tmp, file).catch(async (err) => {
-    await rm(tmp, { force: true });
-    throw err;
-  });
-  return date;
-}
-
-const DAY_MS = 86_400_000;
-/** Days whose upload state is remembered; older entries are dropped. */
-const KEEP_STATE_DAYS = 7;
-
-/**
- * Uploads today's and yesterday's archive files to KV when they changed since
- * their last upload: yesterday too, so a failed upload of the day's last run
- * is retried after midnight.
- */
-export async function publishArchiveToKv(
-  dataDir: string,
-  cfg: PublishConfig,
-  opts: { now?: number; fetchImpl?: typeof fetch; log?: (msg: string) => void } = {},
-): Promise<string[]> {
-  const log = opts.log ?? console.log;
-  const doFetch = opts.fetchImpl ?? fetch;
-  const now = opts.now ?? Date.now();
-  const stateFile = join(dataDir, '.cache', 'archive-publish.json');
-  const state = (await readJson<Record<string, string>>(stateFile)) ?? {};
-
-  const uploaded: string[] = [];
-  for (const date of [new Date(now - DAY_MS), new Date(now)].map((d) => d.toISOString().slice(0, 10))) {
-    let body: Buffer;
-    try {
-      body = await readFile(archiveFile(dataDir, date));
-    } catch {
-      continue; // No runs that day.
-    }
-    const hash = createHash('sha256').update(body).digest('hex');
-    if (state[date] === hash) continue;
-
-    const key = encodeURIComponent(`archive/${date}`);
-    const url = `https://api.cloudflare.com/client/v4/accounts/${cfg.accountId}/storage/kv/namespaces/${cfg.namespaceId}/values/${key}`;
-    const res = await doFetch(url, {
-      method: 'PUT',
-      headers: { Authorization: `Bearer ${cfg.apiToken}`, 'Content-Type': 'application/octet-stream' },
-      body,
-      signal: AbortSignal.timeout(30_000),
-    });
-    const json = (await res.json().catch(() => null)) as { success?: boolean; errors?: { message: string }[] } | null;
-    if (!res.ok || !json?.success) {
-      const detail = json?.errors?.map((e) => e.message).join('; ') || `HTTP ${res.status}`;
-      throw new Error(`KV write of archive/${date} failed: ${detail}`);
-    }
-    state[date] = hash;
-    uploaded.push(date);
-    log(`[archive] uploaded archive/${date} (${Math.round(body.length / 1024)} KiB)`);
-  }
-
-  const kept = Object.fromEntries(Object.entries(state).sort(([a], [b]) => b.localeCompare(a)).slice(0, KEEP_STATE_DAYS));
-  if (uploaded.length) await writeJsonAtomic(stateFile, kept);
-  return uploaded;
+  return { runAt: index.updatedAt, units, index };
 }

@@ -155,9 +155,9 @@ function StoryTitle({ cluster, english }: { cluster: StoryCluster; english: bool
   const rep = cluster.representative;
   const title = useTranslated(rep.title, rep.language, english);
   return (
-    <h2 id="panel-title" className="story-detail-title" lang={title.translated ? TARGET_LANGUAGE : rep.language} dir="auto">
+    <span lang={title.translated ? TARGET_LANGUAGE : rep.language} dir="auto">
       {title.text}
-    </h2>
+    </span>
   );
 }
 
@@ -228,54 +228,41 @@ export function NewsPanel({
     // Create translators inside the click: downloading a model needs a user gesture.
     if (mode === 'en') for (const lang of languages) void getTranslator(lang);
   };
-  const heading = (
+  const crumb = story
+    ? { label: view.name, onClick: backToList }
+    : region
+      ? { label: country.name, onClick: () => onSelectRegion(null) }
+      : undefined;
+  const subtitle = story ? (
+    cluster ? (
+      <>Story · {cluster.representative.source.name}</>
+    ) : (
+      'Story'
+    )
+  ) : (
     <>
-      {story ? (
-        <button type="button" className="crumb" onClick={backToList}>
-          ‹ {view.name}
-        </button>
-      ) : (
-        region && (
-          <button type="button" className="crumb" onClick={() => onSelectRegion(null)}>
-            ‹ {country.name}
-          </button>
-        )
-      )}
-      {story && cluster ? (
-        <StoryTitle cluster={cluster} english={english} />
-      ) : (
-        <h2 id="panel-title">{view.name}</h2>
-      )}
-      <p className="panel-sub">
-        {story ? (
-          cluster ? (
-            <>Story · {cluster.representative.source.name}</>
-          ) : (
-            'Story'
-          )
-        ) : (
-          <>
-            Top {region ? 'regional' : 'national'} headlines
-            {file && <> · updated {relativeTime(file.updatedAt, now)}</>}
-          </>
-        )}
-      </p>
-      {languages.length > 0 && (
-        <div className="lang-toggle" role="group" aria-label="Headline language">
-          <button type="button" aria-pressed={!english} onClick={() => chooseLanguage('original')}>
-            Original
-          </button>
-          <button type="button" aria-pressed={english} onClick={() => chooseLanguage('en')}>
-            English
-          </button>
-        </div>
-      )}
+      Top {region ? 'regional' : 'national'} headlines
+      {file && <> · updated {relativeTime(file.updatedAt, now)}</>}
     </>
+  );
+  const languageToggle = languages.length > 0 && (
+    <div className="lang-toggle" role="group" aria-label="Headline language">
+      <button type="button" aria-pressed={!english} onClick={() => chooseLanguage('original')}>
+        Original
+      </button>
+      <button type="button" aria-pressed={english} onClick={() => chooseLanguage('en')}>
+        English
+      </button>
+    </div>
   );
 
   return (
     <PanelShell
-      heading={heading}
+      crumb={crumb}
+      title={story && cluster ? <StoryTitle cluster={cluster} english={english} /> : view.name}
+      titleClassName={story && cluster ? 'story-detail-title' : undefined}
+      subtitle={subtitle}
+      controls={languageToggle}
       sheetKey={country.code}
       scrollKey={`${view.code}/${story ?? ''}`}
       toolbar={story ? undefined : timeline}

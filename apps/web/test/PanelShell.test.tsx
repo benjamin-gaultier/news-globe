@@ -8,7 +8,8 @@ function renderShell(props: Partial<PanelShellProps> = {}) {
   const onClose = vi.fn();
   const onSheetChange = vi.fn();
   const all: PanelShellProps = {
-    heading: <h2 id="panel-title">France</h2>,
+    title: 'France',
+    subtitle: 'Top national headlines',
     children: <p>Body</p>,
     sheetKey: 'FR',
     scrollKey: 'FR',

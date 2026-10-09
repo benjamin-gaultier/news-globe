@@ -21,14 +21,7 @@ export function SearchPanel({ query, isMobile, onClose, onSheetChange, onOpenSto
   const index = useMemo(() => (file.status === 'ready' && file.data ? indexSearch(file.data) : null), [file]);
   const results = useMemo(() => (index ? searchHeadlines(index, query) : { groups: [], total: 0 }), [index, query]);
 
-  const heading = (
-    <>
-      <h2 id="panel-title">Search results</h2>
-      <p className="panel-sub" dir="auto">
-        {query.trim() ? <>Current headlines matching “{query.trim()}”</> : 'Current headlines of every country and region'}
-      </p>
-    </>
-  );
+  const subtitle = query.trim() ? <>Current headlines matching “{query.trim()}”</> : 'Current headlines of every country and region';
 
   let body;
   if (file.status === 'error') body = <p className="panel-message">Couldn’t load the headlines to search.</p>;
@@ -62,7 +55,7 @@ export function SearchPanel({ query, isMobile, onClose, onSheetChange, onOpenSto
     );
 
   return (
-    <PanelShell heading={heading} sheetKey="search" scrollKey={query} isMobile={isMobile} onClose={onClose} onSheetChange={onSheetChange}>
+    <PanelShell title="Search results" subtitle={subtitle} sheetKey="search" scrollKey={query} isMobile={isMobile} onClose={onClose} onSheetChange={onSheetChange}>
       {body}
     </PanelShell>
   );

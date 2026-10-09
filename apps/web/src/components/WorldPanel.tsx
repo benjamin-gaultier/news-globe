@@ -56,14 +56,11 @@ export interface WorldPanelProps {
 
 /** Stories in several countries' top stories at once. */
 export function WorldPanel({ stories, now, isMobile, onClose, onSheetChange, onOpenStory }: WorldPanelProps) {
-  const heading = (
-    <>
-      <h2 id="panel-title">Across borders</h2>
-      <p className="panel-sub">Stories in several countries’ top headlines right now</p>
-    </>
-  );
   return (
-    <PanelShell heading={heading} sheetKey="world" scrollKey="world" isMobile={isMobile} onClose={onClose} onSheetChange={onSheetChange}>
+    <PanelShell
+      title="Across borders"
+      subtitle="Stories in several countries’ top headlines right now"
+      sheetKey="world" scrollKey="world" isMobile={isMobile} onClose={onClose} onSheetChange={onSheetChange}>
       {stories.length === 0 ? (
         <div className="panel-message">
           <p>No story is in several countries’ top headlines right now.</p>

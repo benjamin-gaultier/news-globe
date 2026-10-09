@@ -3,9 +3,10 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { encodeBundle, readBundleEntry } from '@news-globe/shared/bundle';
-import { publishConfigFromEnv, publishToKv, type PublishConfig } from '../src/publish';
+import type { KvConfig } from '../src/kv';
+import { publishToKv } from '../src/publish';
 
-const cfg: PublishConfig = { accountId: 'acc', namespaceId: 'ns', apiToken: 'tok' };
+const cfg: KvConfig = { accountId: 'acc', namespaceId: 'ns', apiToken: 'tok' };
 let dir: string;
 
 beforeEach(async () => {
@@ -98,21 +99,5 @@ describe('bundle', () => {
     expect(text(readBundleEntry(bundle, 'b.json'))).toBe('{}');
     expect(readBundleEntry(bundle, 'toString')).toBeNull();
     expect(readBundleEntry(bundle, 'c.json')).toBeNull();
-  });
-});
-
-describe('publishConfigFromEnv', () => {
-  it('is off when nothing is set', () => {
-    expect(publishConfigFromEnv({})).toBeNull();
-  });
-
-  it('reads all three variables', () => {
-    expect(
-      publishConfigFromEnv({ CLOUDFLARE_ACCOUNT_ID: 'a', CLOUDFLARE_KV_NAMESPACE_ID: 'n', CLOUDFLARE_API_TOKEN: 't' }),
-    ).toEqual({ accountId: 'a', namespaceId: 'n', apiToken: 't' });
-  });
-
-  it('refuses a half-configured setup', () => {
-    expect(() => publishConfigFromEnv({ CLOUDFLARE_ACCOUNT_ID: 'a' })).toThrow(/CLOUDFLARE_API_TOKEN/);
   });
 });

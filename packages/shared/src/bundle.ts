@@ -11,6 +11,21 @@
 
 export const BUNDLE_KEY = 'bundle';
 
+/**
+ * The other KV values, written by the archive step (packages/ingest/src/archive-remote.ts),
+ * each gzipped JSON. All but `translateCache` are public, as /data/<key>.json.
+ */
+export const KV_KEYS = {
+  trends: 'trends',
+  search: 'search',
+  today: 'today',
+  translations: 'translations',
+  translateCache: 'translate-cache',
+} as const;
+
+/** A UTC day's history, served as /data/archive/YYYY-MM-DD.json. */
+export const archiveKey = (date: string) => `archive/${date}`;
+
 export type BundleIndex = Record<string, [offset: number, length: number]>;
 
 export function encodeBundle(files: Record<string, string>): Uint8Array {
