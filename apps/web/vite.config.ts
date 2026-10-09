@@ -21,8 +21,9 @@ function serveData(): Plugin {
     const { pathname } = new URL(req.url ?? '/', 'http://localhost');
     if (!pathname.startsWith('/data/')) return next();
     const rel = pathname.slice('/data'.length);
-    // History days and the derived trends/search/today files are stored gzipped
-    // (data/archive/YYYY-MM-DD.json.gz, data/trends.json.gz, data/search.json.gz, data/today.json.gz); send them as such.
+    // History days and the derived trends/search/today files live gzipped in KV, written by the
+    // archive step, never locally: copies saved as data/archive/YYYY-MM-DD.json.gz, data/today.json.gz
+    // etc. are sent as such.
     const gzipped = /^\/(archive\/\d{4}-\d{2}-\d{2}|trends|search|today|translations)\.json$/.exec(rel);
     if (gzipped) {
       readFile(path.join(DATA_DIR, `${gzipped[1]}.json.gz`)).then(

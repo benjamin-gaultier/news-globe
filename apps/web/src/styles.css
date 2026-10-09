@@ -191,6 +191,7 @@ button {
 }
 
 .rank-sparkline polyline {
+  fill: none;
   stroke: var(--text-muted);
   stroke-width: 1.4;
   stroke-linejoin: round;

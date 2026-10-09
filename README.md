@@ -70,10 +70,11 @@ packages/ingest/     Node worker: fetch → normalize → dedupe → cluster →
   src/sources.config.ts            feeds, authority weights, pipeline settings
   src/adapters/                    SourceAdapter interface, RSS adapter, GDELT stub
   src/publish.ts                   uploads the JSON to Cloudflare KV as one bundle after each run
+  src/kv.ts                        the Cloudflare KV REST client publish.ts and archive-remote.ts share
 packages/shared/     Types for the data contract + country metadata (used by both sides)
 data/
   sample/            committed sample output (served until the first ingest)
-  index.json, status.json, countries/*.json, regions/*.json, archive/, .cache/   generated, gitignored
+  index.json, status.json, countries/*.json, regions/*.json, .cache/   generated, gitignored
 deploy/raspberry-pi/ systemd unit for the ingest
 ```
 
@@ -194,11 +195,11 @@ A failed scheduled run makes GitHub email whoever last changed the workflow's sc
 
 ### History archive
 
-[archive-remote.ts](packages/ingest/src/archive-remote.ts) (`pnpm --filter @news-globe/ingest archive:remote`) reads the published `bundle` from KV, and [archive.ts](packages/ingest/src/archive.ts) folds that run's ranked stories, for every country and region, into one gzipped file per UTC day, stored in the same KV namespace as `archive/YYYY-MM-DD`. Two things run it:
+[archive-remote.ts](packages/ingest/src/archive-remote.ts) (`pnpm --filter @news-globe/ingest archive:remote`) reads the published `bundle` from KV, and [archive.ts](packages/ingest/src/archive.ts) folds that run's ranked stories, for every country and region, into one gzipped value per UTC day, stored in the same KV namespace as `archive/YYYY-MM-DD`. Two things run it:
 - **The Pi, right after each run**, with `ARCHIVE_AFTER_RUN=1` in its `.env` ([watch.ts](packages/ingest/src/watch.ts)). History, trends, Today and translations then follow every run. Put `AZURE_TRANSLATOR_KEY` and `AZURE_TRANSLATOR_REGION` in the same `.env` for translations. This is the preferred setup: it costs no GitHub Actions minutes, and GitHub often delays or skips scheduled workflows.
 - **The [Health workflow](.github/workflows/health.yml)**, as a fallback (and the only archiver until the Pi does it). A run the Pi already archived is skipped, so running both is safe.
 
-Each story gets one record per day and unit (headline, link, outlet ids, first and last run that ranked it, best rank, peak outlet count). A cluster in a later run that shares any article with a story continues that story. Each run also stores its ranked list per unit, so the day can be replayed hour by hour. The format is `ArchiveDay` in [shared](packages/shared/src/index.ts). The Worker serves each day at `/data/archive/YYYY-MM-DD.json` for the History view, and the dev server serves `data/archive/` the same way.
+Each story gets one record per day and unit (headline, link, outlet ids, first and last run that ranked it, best rank, peak outlet count). A cluster in a later run that shares any article with a story continues that story. Each run also stores its ranked list per unit, so the day can be replayed hour by hour. The format is `ArchiveDay` in [shared](packages/shared/src/index.ts). The Worker serves each day at `/data/archive/YYYY-MM-DD.json` for the History view. Nothing writes the archive locally; to try History with `vite dev`, save a day from KV as `data/archive/YYYY-MM-DD.json.gz` and the dev server serves it the same way.
 
 - Derived files: after archiving, the same step writes `trends` (badges, rank histories and change scores for the latest run, about 80 KB gzipped), `search` (every ranked headline with its country or region, about 270 KB gzipped) and `today` (the Today page, about 4 KB gzipped). All three are stored gzipped in KV and served by the Worker as `/data/trends.json`, `/data/search.json` and `/data/today.json`.
 - Writes: four KV writes per new run (the day, `trends`, `search`, `today`), plus up to two with translation on (`translations`, `translate-cache`): at most 144 a day on top of the bundle's 24. A run already in the day (the workflow ran twice before the next ingest) is not uploaded again.
