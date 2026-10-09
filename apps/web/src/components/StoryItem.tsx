@@ -2,7 +2,7 @@ import { COUNTRIES, type Article, type ClusterTrend, type CountryCode, type Stor
 import { useEffect, useRef, useState } from 'react';
 import { useTranslated } from '../hooks/useTranslated';
 import { relativeTime } from '../lib/time';
-import { TARGET_LANGUAGE, translatedPageUrl } from '../lib/translate';
+import { TARGET_LANGUAGE, translatedPageUrl, translatedTextUrl } from '../lib/translate';
 
 function Thumbnail({ src }: { src: string | null }) {
   const [failed, setFailed] = useState(false);
@@ -81,6 +81,9 @@ export function RankSparkline({ ranks }: { ranks: (number | null)[] }) {
   );
 }
 
+/** The headline and its snippet, as one text to translate. */
+export const headlineText = (a: Article) => (a.description ? `${a.title}\n\n${a.description}` : a.title);
+
 /** "New" or "↑ Rising" since the previous run, and the rank history, when the hourly trends cover this story. */
 function Trend({ trend }: { trend?: ClusterTrend }) {
   if (!trend) return null;
@@ -142,8 +145,11 @@ export function StoryItem({
   }, [focused]);
   const { representative: rep, related } = cluster;
   const others = related.length;
+  const title = useTranslated(rep.title, rep.language, english);
   const description = useTranslated(rep.description, rep.language, english);
   const foreign = rep.language !== TARGET_LANGUAGE;
+  // English asked for, but this browser can't translate on the device (phones): Google Translate.
+  const offerTranslate = english && foreign && !title.translated;
 
   return (
     <li ref={item} className={`story${focused ? ' story-focused' : ''}`}>
@@ -157,7 +163,22 @@ export function StoryItem({
             <time dateTime={rep.publishedAt} title={new Date(rep.publishedAt).toLocaleString()}>
               {relativeTime(rep.publishedAt, now)}
             </time>
-            {english && foreign && (
+            {offerTranslate && (
+              <>
+                <span aria-hidden="true"> · </span>
+                <a
+                  className="story-translate"
+                  href={translatedTextUrl(headlineText(rep), rep.language)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Translate “${rep.title}” with Google Translate`}
+                >
+                  Translate ↗
+                </a>
+              </>
+            )}
+            {/* The whole article translated: on the story page too, so the list keeps one link. */}
+            {english && foreign && !offerTranslate && (
               <>
                 <span aria-hidden="true"> · </span>
                 <a

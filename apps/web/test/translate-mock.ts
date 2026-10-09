@@ -22,6 +22,7 @@ export const translateModule = {
     return `[en] ${text}`;
   }),
   translatedPageUrl: (url: string, lang: string) => `https://translate.example/?sl=${lang}&u=${encodeURIComponent(url)}`,
+  translatedTextUrl: (text: string, lang: string) => `https://translate.example/?sl=${lang}&text=${encodeURIComponent(text)}`,
 };
 
 export function resetTranslator() {

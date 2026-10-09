@@ -2,8 +2,9 @@
  * On-device headline translation through the browser's built-in Translator API
  * (Chrome 138+ desktop). The browser downloads the language model once, and
  * text never leaves the device. No translation service is involved, so the
- * pipeline stays free of LLM and paid APIs. Elsewhere the API is missing and
- * headlines stay in their original language.
+ * pipeline stays free of LLM and paid APIs. Elsewhere (phones, Safari, Firefox)
+ * the API is missing: headlines stay in their original language, with links
+ * that open them in Google Translate (translatedTextUrl, translatedPageUrl).
  */
 
 export const TARGET_LANGUAGE = 'en';
@@ -67,6 +68,12 @@ export function translateText(text: string, sourceLanguage: string): Promise<str
     translations.set(key, pending);
   }
   return pending;
+}
+
+/** A headline (or any short text) in Google Translate: the app on phones that have it, else the website. */
+export function translatedTextUrl(text: string, sourceLanguage: string): string {
+  const params = new URLSearchParams({ sl: sourceLanguage, tl: TARGET_LANGUAGE, text, op: 'translate' });
+  return `https://translate.google.com/?${params}`;
 }
 
 /** The publisher's page, machine-translated by Google Translate's web proxy. */

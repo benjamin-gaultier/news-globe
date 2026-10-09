@@ -646,6 +646,18 @@ button {
   font-size: 0.78rem;
 }
 
+.today-translate {
+  display: inline-block;
+  margin: -6px 0 8px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+
+.today-translate:hover {
+  text-decoration: underline;
+}
+
 .today-thumb {
   width: 64px;
   height: 48px;
@@ -1415,6 +1427,7 @@ button {
   color: var(--text-muted);
   text-decoration: underline;
   text-underline-offset: 2px;
+  white-space: nowrap;
 }
 
 .story-translate:hover {

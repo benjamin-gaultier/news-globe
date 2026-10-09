@@ -229,7 +229,8 @@ To update the Pi by hand (e.g. after adding a country; merging it to `main` alre
 
 For non-English countries the panel has an **Original / English** toggle. The choice is remembered in `localStorage`.
 - Headlines and snippets are translated **in the browser** with the built-in [Translator API](https://developer.chrome.com/docs/ai/translator-api) (Chrome 138+ on desktop). The model runs on-device, nothing is sent to a translation service, and the ingest stays free of LLM and paid APIs ([lib/translate.ts](apps/web/src/lib/translate.ts)).
-- Headline links always go to the publisher. In English mode each foreign story also gets a "Read in English ↗" link that opens the article through Google Translate's web proxy.
+- Where the browser can't translate on-device (phones, Safari, Firefox), foreign headlines get a **Translate ↗** link that opens the headline and snippet in Google Translate (the app on phones that have it): on a country's list in English mode, on every story page, and on Today. Nothing is sent anywhere until the link is tapped.
+- Headline links always go to the publisher. A foreign story's page also has **Read in English ↗**, which opens the whole article through Google Translate's web proxy; in a country's list it shows in English mode when the browser translates on-device.
 - Browsers without the API (Safari, Firefox, most phones) keep the original headlines and show a note pointing to that link.
 
 ## Data contract

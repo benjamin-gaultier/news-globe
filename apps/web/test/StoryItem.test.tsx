@@ -91,14 +91,32 @@ describe('StoryItem', () => {
     await Promise.resolve();
     const link = screen.getByRole('link', { name: 'Le budget adopté' });
     expect(link.getAttribute('title')).toBeNull();
-    // The publisher's page can still be read through the web translator.
-    expect(screen.getByRole('link', { name: 'Read in English ↗' })).toBeTruthy();
+    // Google Translate instead, for the headline (the whole article is on the story page).
+    expect(screen.getByRole('link', { name: /with Google Translate/ })).toBeTruthy();
+    expect(screen.queryByRole('link', { name: 'Read in English ↗' })).toBeNull();
+  });
+
+  it('without on-device translation, opens the headline and snippet in Google Translate', async () => {
+    translator.available = false;
+    const rep = article({ title: 'Le budget adopté', description: 'Les députés ont voté.' });
+    renderStory(cluster(rep), true);
+    const link = await screen.findByRole('link', { name: 'Translate “Le budget adopté” with Google Translate' });
+    expect(link.getAttribute('href')).toBe(
+      `https://translate.example/?sl=fr&text=${encodeURIComponent('Le budget adopté\n\nLes députés ont voté.')}`,
+    );
+    expect(link.getAttribute('target')).toBe('_blank');
+  });
+
+  it('offers Google Translate only when English is asked for and not done on the device', async () => {
+    renderStory(cluster(article({ title: 'Le budget adopté' })), false);
+    expect(screen.queryByRole('link', { name: /Google Translate/ })).toBeNull();
   });
 
   it('never offers to translate English', () => {
     renderStory(cluster(article({ language: 'en', title: 'Budget passes' })), true);
     expect(screen.getByRole('link', { name: 'Budget passes' })).toBeTruthy();
     expect(screen.queryByRole('link', { name: /Read in English/ })).toBeNull();
+    expect(screen.queryByRole('link', { name: /Google Translate/ })).toBeNull();
   });
 });
 

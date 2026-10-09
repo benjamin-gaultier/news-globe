@@ -2,7 +2,8 @@ import { COUNTRIES, type Article, type ClusterTrend, type CountryCode, type Stor
 import { useState } from 'react';
 import { useTranslated } from '../hooks/useTranslated';
 import { relativeTime } from '../lib/time';
-import { TARGET_LANGUAGE, translatedPageUrl } from '../lib/translate';
+import { TARGET_LANGUAGE, translatedPageUrl, translatedTextUrl } from '../lib/translate';
+import { headlineText } from './StoryItem';
 import { clock } from './HistoryBar';
 
 /** The cluster a story link names: by its id, else by any of its articles (the headline article may have changed). */
@@ -114,6 +115,8 @@ export function StoryDetail({ cluster, unit, now, english, trend, runs, world, o
   const rep = cluster.representative;
   const [imageFailed, setImageFailed] = useState(false);
   const description = useTranslated(rep.description, rep.language, english);
+  const title = useTranslated(rep.title, rep.language, english);
+  const foreign = rep.language !== TARGET_LANGUAGE;
   const coverage = [rep, ...cluster.related].sort((a, b) => Date.parse(a.publishedAt) - Date.parse(b.publishedAt));
   const elsewhere = (worldStoryOf(world, unit.code, cluster.id)?.countries ?? []).filter(
     (c) => c.code !== unit.code && COUNTRIES[c.code],
@@ -166,7 +169,12 @@ export function StoryDetail({ cluster, unit, now, english, trend, runs, world, o
         <a className="btn" href={rep.url} target="_blank" rel="noopener noreferrer">
           Read at {rep.source.name} ↗
         </a>
-        {english && rep.language !== TARGET_LANGUAGE && (
+        {foreign && !title.translated && (
+          <a className="btn btn-quiet" href={translatedTextUrl(headlineText(rep), rep.language)} target="_blank" rel="noopener noreferrer">
+            Translate ↗
+          </a>
+        )}
+        {foreign && (
           <a className="btn btn-quiet" href={translatedPageUrl(rep.url, rep.language)} target="_blank" rel="noopener noreferrer">
             Read in English ↗
           </a>

@@ -4,7 +4,7 @@ import { useAsync } from '../hooks/useAsync';
 import { useTranslated } from '../hooks/useTranslated';
 import { fetchToday } from '../lib/data';
 import { relativeTime } from '../lib/time';
-import { TARGET_LANGUAGE } from '../lib/translate';
+import { TARGET_LANGUAGE, translatedTextUrl } from '../lib/translate';
 import { clock } from './HistoryBar';
 import { PanelShell } from './PanelShell';
 
@@ -63,6 +63,18 @@ function TodayItem({
         </span>
         {image && <Thumb src={story.imageUrl} />}
       </button>
+      {/* No on-device translation (phones): the headline in Google Translate. Beside the button, not in it. */}
+      {story.language !== TARGET_LANGUAGE && !title.translated && (
+        <a
+          className="today-translate"
+          href={translatedTextUrl(story.title, story.language)}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Translate “${story.title}” with Google Translate`}
+        >
+          Translate ↗
+        </a>
+      )}
     </li>
   );
 }
@@ -175,7 +187,8 @@ export function TodayPanel({ world, now, isMobile, onClose, onSheetChange, onOpe
         )}
         <p className="panel-footnote">
           “Most covered” counts each country’s own outlets, so it favours stories a country’s whole press is following.
-          Headlines are translated on this device where the browser can.
+          Headlines are translated on this device where the browser can; elsewhere “Translate” opens one in Google
+          Translate.
         </p>
       </>
     );
