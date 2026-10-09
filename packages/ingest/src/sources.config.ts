@@ -42,7 +42,7 @@ export interface SourceConfig {
 
 /**
  * Curated national outlets. Every URL below was fetched and parsed with the
- * real User-Agent on 2026-10-06 — see the README ("Sources") for what was
+ * real User-Agent on 2026-10-06 — see docs/sources.md for what was
  * swapped or dropped and why.
  */
 export const SOURCES: SourceConfig[] = [
