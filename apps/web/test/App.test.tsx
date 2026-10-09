@@ -1,8 +1,8 @@
 // @vitest-environment jsdom
-import { act, render, screen, waitFor, within } from '@testing-library/react';
+import { act, cleanup, render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { ARCHIVE_SCHEMA_VERSION, SCHEMA_VERSION, type ArchiveDay, type IndexFile } from '@news-globe/shared';
+import { ARCHIVE_SCHEMA_VERSION, SCHEMA_VERSION, type ArchiveDay, type CountryFile, type IndexFile } from '@news-globe/shared';
 import { App } from '../src/App';
 import type { GlobeViewProps } from '../src/components/GlobeView';
 import { article, cluster, countryFile } from './fixtures';
@@ -398,6 +398,15 @@ describe('Trends', () => {
     });
   }
 
+  /** Trends whose run is the one the index's FR line describes: France's #1 rose, so it pulses. */
+  function withPulse() {
+    withTrends();
+    const runAt = (files['countries/FR.json']!() as CountryFile).updatedAt;
+    const index = indexFile();
+    index.countries[0]!.updatedAt = runAt;
+    files['index.json'] = () => index;
+  }
+
   it('badges a story that rose since the previous run, with its rank history', async () => {
     withTrends();
     await renderApp('#FR');
@@ -423,6 +432,52 @@ describe('Trends', () => {
     expect(screen.getByRole('figure', { name: /new or rising/ })).toBeTruthy();
     await userEvent.click(screen.getByRole('button', { name: 'Coverage' }));
     expect(globe.props!.shadeStep).toBeUndefined();
+  });
+
+  it('pulses the countries whose #1 story is new or rising, while no country is open', async () => {
+    withPulse();
+    await renderApp();
+    await waitFor(() => expect(globe.props!.pulses?.map((p) => p.code)).toEqual(['FR']));
+    expect(globe.props!.pulses![0]).toMatchObject({ state: 'rising', outlets: 3 });
+    expect(screen.getByText('New or rising #1 story')).toBeTruthy();
+  });
+
+  it('pulses nothing in the world view, in history or with reduced motion', async () => {
+    withPulse();
+    await renderApp('#world');
+    await waitFor(() => expect(requested()).toContain('/data/trends.json'));
+    expect(globe.props!.pulses).toEqual([]);
+    const again = () => {
+      cleanup();
+      globe.props = null;
+      fetchMock.mockClear();
+    };
+
+    again();
+    await renderApp('#@2026-10-07');
+    expect(globe.props!.pulses).toEqual([]);
+
+    again();
+
+    const matchMedia = window.matchMedia;
+    window.matchMedia = (query: string) =>
+      ({ matches: query.includes('reduced-motion'), media: query, addEventListener() {}, removeEventListener() {} }) as unknown as MediaQueryList;
+    try {
+      await renderApp();
+      await waitFor(() => expect(requested()).toContain('/data/trends.json'));
+      await screen.findByRole('button', { name: 'Change' }); // the trends are in
+      expect(globe.props!.pulses).toEqual([]);
+      expect(screen.queryByText('New or rising #1 story')).toBeNull();
+    } finally {
+      window.matchMedia = matchMedia;
+    }
+  });
+
+  it('pulses nothing from trends of another run than the index', async () => {
+    withTrends(); // the index's FR line is from another run
+    await renderApp();
+    await waitFor(() => expect(requested()).toContain('/data/trends.json'));
+    expect(globe.props!.pulses).toEqual([]);
   });
 
   it('offers no change shading before the workflow has written trends', async () => {

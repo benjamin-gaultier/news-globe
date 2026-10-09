@@ -16,13 +16,16 @@ const KEYS: Record<Shading, { caption: string; label: string; steps: readonly st
   },
 };
 
-/** Key for the globe's shading, with a switch between the two when `onShadingChange` is given. */
+/** Key for the globe's shading, with a switch between the two when `onShadingChange` is given, and for its pulses. */
 export function HeatLegend({
   shading = 'coverage',
   onShadingChange,
+  pulsing = false,
 }: {
   shading?: Shading;
   onShadingChange?: (shading: Shading) => void;
+  /** Some countries pulse: explain the rings. */
+  pulsing?: boolean;
 }) {
   const key = KEYS[shading];
   return (
@@ -46,6 +49,7 @@ export function HeatLegend({
           </li>
         ))}
       </ol>
+      {pulsing && <p className="legend-pulse">New or rising #1 story</p>}
     </figure>
   );
 }

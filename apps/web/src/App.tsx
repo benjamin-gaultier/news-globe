@@ -11,10 +11,10 @@ import { WorldPanel } from './components/WorldPanel';
 import { latestData, useAsync } from './hooks/useAsync';
 import { useHashRoute } from './hooks/useHashRoute';
 import { useHistoryMode } from './hooks/useHistoryMode';
-import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
+import { MOBILE_QUERY, REDUCED_MOTION_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
 import { fetchCountry, fetchIndex, fetchRegion, fetchTranslations, fetchTrends } from './lib/data';
-import { changeStep } from './lib/heat';
+import { changeStep, pulsesFrom } from './lib/heat';
 import { storiesAt, todayUtc } from './lib/history';
 import { formatRoute, parseRoute } from './lib/route';
 import { TranslationsContext } from './lib/translations';
@@ -31,6 +31,7 @@ const NO_ENTRIES = new Map<string, IndexEntry>();
 export function App() {
   const now = useNow();
   const isMobile = useMediaQuery(MOBILE_QUERY);
+  const reducedMotion = useMediaQuery(REDUCED_MOTION_QUERY);
   const [initialRoute] = useState(() => parseRoute(location.hash));
   const [view, setView] = useState<View>(() => viewFromRoute(initialRoute));
   const placeView = view.kind === 'place' ? view : null;
@@ -81,6 +82,11 @@ export function App() {
   );
   // In history mode the globe shows the picked run (nothing while it loads).
   const entries = historyDate ? (history.entries ?? NO_ENTRIES) : liveEntries;
+  // Rings over the countries whose #1 story is new or rising this hour (live, overview only; not with reduced motion).
+  const pulses = useMemo(
+    () => (!historyDate && !world && !reducedMotion && trendsData ? pulsesFrom(trendsData, liveEntries) : []),
+    [historyDate, world, reducedMotion, trendsData, liveEntries],
+  );
 
   const available = useMemo(
     () =>
@@ -357,6 +363,7 @@ export function App() {
               sheetFraction={sheetFraction}
               shadeStep={shadeStep}
               arcs={arcs}
+              pulses={pulses}
             />
           </Suspense>
           {view.kind === 'globe' && !historyDate && <p className="hint">Tap a highlighted country to see its top headlines</p>}
@@ -365,6 +372,7 @@ export function App() {
             <HeatLegend
               shading={canShadeByChange ? shading : 'coverage'}
               onShadingChange={canShadeByChange ? setShading : undefined}
+              pulsing={pulses.length > 0}
             />
           )}
           {!meta && historyBar}

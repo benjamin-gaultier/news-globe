@@ -24,6 +24,9 @@ async function find(page: Page, name: string, bottom: number) {
 }
 
 test.describe('globe on a phone', () => {
+  // A still globe: scans for a country (find) are slow on CI, and a spinning globe moves it off the scan line.
+  test.use({ reducedMotion: 'reduce' });
+
   test('keeps the open country in view above the bottom sheet', async ({ page }) => {
     await serveData(page, { countries: { US: 1, FR: 1 } });
     await page.goto('/#US');
