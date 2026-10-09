@@ -1,10 +1,10 @@
 import { COUNTRIES, type Article, type ClusterTrend, type CountryCode, type StoryCluster, type WorldStory } from '@news-globe/shared';
 import { useState } from 'react';
 import { useTranslated } from '../hooks/useTranslated';
-import { relativeTime } from '../lib/time';
+import { headlineText, plural } from '../lib/text';
+import { clock, relativeTime } from '../lib/time';
 import { TARGET_LANGUAGE, translatedPageUrl, translatedTextUrl } from '../lib/translate';
-import { headlineText } from './StoryItem';
-import { clock } from './HistoryBar';
+import { ArticleLink, CountryStoryRow, TrendBadge } from './StoryParts';
 
 /** The cluster a story link names: by its id, else by any of its articles (the headline article may have changed). */
 export function findStory(clusters: readonly StoryCluster[], id: string): StoryCluster | undefined {
@@ -66,7 +66,6 @@ export function RankChart({ ranks, runs }: { ranks: (number | null)[]; runs: str
 }
 
 function CoverageItem({ article, now, english, first }: { article: Article; now: number; english: boolean; first: boolean }) {
-  const title = useTranslated(article.title, article.language, english);
   return (
     <li>
       <div className="coverage-meta">
@@ -79,17 +78,7 @@ function CoverageItem({ article, now, english, first }: { article: Article; now:
         </span>
         {first && <span className="coverage-first">First</span>}
       </div>
-      <a
-        className="related-title"
-        href={article.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        lang={title.translated ? TARGET_LANGUAGE : article.language}
-        dir="auto"
-        title={title.translated ? article.title : undefined}
-      >
-        {title.text}
-      </a>
+      <ArticleLink article={article} className="related-title" english={english} />
     </li>
   );
 }
@@ -153,11 +142,11 @@ export function StoryDetail({ cluster, unit, now, english, trend, runs, world, o
         />
       )}
       <p className="story-detail-facts">
-        {cluster.outletCount} outlet{cluster.outletCount === 1 ? '' : 's'}
+        {plural(cluster.outletCount, 'outlet')}
         {rank != null && <> · #{rank} in {unit.name} now</>}
         {trend && <> · in the top list since {clock(trend.firstSeen)}</>}
         {trend?.state && (
-          <span className={`story-badge story-badge-${trend.state}`}>{trend.state === 'new' ? 'New' : '↑ Rising'}</span>
+          <TrendBadge state={trend.state} />
         )}
       </p>
       {description.text && (
@@ -193,7 +182,7 @@ export function StoryDetail({ cluster, unit, now, english, trend, runs, world, o
 
       <section className="story-section" aria-labelledby="story-coverage">
         <h3 id="story-coverage">
-          Coverage · {coverage.length} outlet{coverage.length === 1 ? '' : 's'}
+          Coverage · {plural(coverage.length, 'outlet')}
         </h3>
         <ol className="coverage-list">
           {coverage.map((a, i) => (
@@ -207,15 +196,7 @@ export function StoryDetail({ cluster, unit, now, english, trend, runs, world, o
           <h3 id="story-elsewhere">In other countries</h3>
           <ul className="world-countries">
             {elsewhere.map((c) => (
-              <li key={c.code}>
-                <button type="button" className="chip chip-small" onClick={() => onOpenStoryIn(c.code, c.clusterId)}>
-                  {COUNTRIES[c.code]!.name}
-                </button>
-                <a className="related-title" href={c.url} target="_blank" rel="noopener noreferrer" lang={c.language} dir="auto">
-                  {c.title}
-                </a>
-                {c.outletCount24h > 1 && <span className="related-time"> · {c.outletCount24h} outlets</span>}
-              </li>
+              <CountryStoryRow key={c.code} story={c} onOpen={onOpenStoryIn} />
             ))}
             {namesOnly.map((a) => (
               <li key={a.code}>

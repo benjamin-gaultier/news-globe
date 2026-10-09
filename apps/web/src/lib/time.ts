@@ -16,3 +16,10 @@ export function relativeTime(iso: string, now: number): string {
   }
   return 'just now';
 }
+
+/** "14:05" in the viewer's time zone. */
+export const clock = (iso: string) => new Date(iso).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+/** "Wed 8 Oct" for a UTC `YYYY-MM-DD` (archive days are UTC days). */
+export const dayLabel = (date: string) =>
+  new Date(`${date}T12:00:00Z`).toLocaleDateString([], { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' });

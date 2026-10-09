@@ -1,12 +1,12 @@
 import { COUNTRIES, type CountryCode, type TodayStory, type WorldStory } from '@news-globe/shared';
-import { useState } from 'react';
 import { useAsync } from '../hooks/useAsync';
 import { useTranslated } from '../hooks/useTranslated';
 import { fetchToday } from '../lib/data';
-import { relativeTime } from '../lib/time';
+import { plural } from '../lib/text';
+import { clock, relativeTime } from '../lib/time';
 import { TARGET_LANGUAGE, translatedTextUrl } from '../lib/translate';
-import { clock } from './HistoryBar';
 import { PanelShell } from './PanelShell';
+import { Thumbnail, TrendBadge } from './StoryParts';
 
 const WORLD_SHOWN = 4;
 
@@ -16,14 +16,6 @@ export function TodayIcon() {
       <rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="currentColor" strokeWidth="2" />
       <path d="M4 10h16M9 3v4M15 3v4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
     </svg>
-  );
-}
-
-function Thumb({ src }: { src: string | null }) {
-  const [failed, setFailed] = useState(false);
-  if (!src || failed) return null;
-  return (
-    <img className="today-thumb" src={src} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" onError={() => setFailed(true)} />
   );
 }
 
@@ -47,9 +39,7 @@ function TodayItem({
         <span className="today-text">
           <span className="today-place">
             {country}
-            {story.state && (
-              <span className={`story-badge story-badge-${story.state}`}>{story.state === 'new' ? 'New' : '↑ Rising'}</span>
-            )}
+            <TrendBadge state={story.state} />
           </span>
           <span
             className="today-title"
@@ -61,7 +51,7 @@ function TodayItem({
           </span>
           <span className="today-meta">{detail}</span>
         </span>
-        {image && <Thumb src={story.imageUrl} />}
+        {image && <Thumbnail src={story.imageUrl} className="today-thumb" />}
       </button>
       {/* No on-device translation (phones): the headline in Google Translate. Beside the button, not in it. */}
       {story.language !== TARGET_LANGUAGE && !title.translated && (
@@ -79,7 +69,7 @@ function TodayItem({
   );
 }
 
-const outlets = (s: TodayStory) => `${s.outlets} outlet${s.outlets === 1 ? '' : 's'} · ${s.source}`;
+const outlets = (s: TodayStory) => `${plural(s.outlets, 'outlet')} · ${s.source}`;
 
 export interface TodayPanelProps {
   /** Cross-border stories from the index. */

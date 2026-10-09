@@ -5,6 +5,7 @@ import { MeshPhongMaterial } from 'three';
 import countriesGeo from '../assets/countries-110m.json';
 import { COUNTRY_HEAT, heatStep, REGION_HEAT } from '../lib/heat';
 import { TranslationsContext } from '../lib/translations';
+import { plural } from '../lib/text';
 
 interface Shape {
   type: 'Feature';
@@ -334,7 +335,7 @@ export default function GlobeView({
       const title = entry?.topTitle && (translations.get(entry.topTitle.trim()) ?? entry.topTitle);
       const headline = title ? `<em>${escapeHtml(title)}</em>` : '';
       const n = entry?.topOutlets;
-      const count = n ? `${n} outlet${n === 1 ? '' : 's'} on this story · ` : '';
+      const count = n ? `${plural(n, 'outlet')} on this story · ` : '';
       return `<div class="globe-tip"><strong>${escapeHtml(f.properties.name)}</strong>${headline}<span>${count}${hint}</span></div>`;
     },
     [isAvailable, isSelected, showingRegions, entryOf, translations],
