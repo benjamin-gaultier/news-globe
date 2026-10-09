@@ -1,10 +1,11 @@
 import { COUNTRIES, REGIONS, type CountryCode, type IndexEntry, type RegionCode, type RegionMeta } from '@news-globe/shared';
-import { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
+import { memo, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import Globe, { type GlobeMethods } from 'react-globe.gl';
 import { MeshPhongMaterial } from 'three';
 import countriesGeo from '../assets/countries-110m.json';
 import { COUNTRY_HEAT, heatStep, REGION_HEAT } from '../lib/heat';
 import { TranslationsContext } from '../lib/translations';
+import { plural } from '../lib/text';
 
 interface Shape {
   type: 'Feature';
@@ -34,23 +35,14 @@ const FEATURES = [
     .map((c) => markerShape(c.code, c.name, c.lat, c.lng)),
 ];
 
-/** Region outlines per country, loaded only when that country is opened. */
-const REGION_SHAPES: Partial<Record<CountryCode, () => Promise<{ default: unknown }>>> = {
-  FR: () => import('../assets/regions-fr.json'),
-  DE: () => import('../assets/regions-de.json'),
-  US: () => import('../assets/regions-us.json'),
-  ES: () => import('../assets/regions-es.json'),
-  IT: () => import('../assets/regions-it.json'),
-  CA: () => import('../assets/regions-ca.json'),
-  AU: () => import('../assets/regions-au.json'),
-  BR: () => import('../assets/regions-br.json'),
-  MX: () => import('../assets/regions-mx.json'),
-  AR: () => import('../assets/regions-ar.json'),
-  IN: () => import('../assets/regions-in.json'),
-};
+/**
+ * Region outlines per country (assets/regions-xx.json, made by
+ * scripts/prepare-regions.mjs), each loaded only when its country is opened.
+ */
+const REGION_SHAPES = import.meta.glob<{ default: unknown }>('../assets/regions-*.json');
 
 async function loadRegionShapes(country: CountryCode): Promise<Shape[]> {
-  const load = REGION_SHAPES[country];
+  const load = REGION_SHAPES[`../assets/regions-${country.toLowerCase()}.json`];
   if (!load) return [];
   const geo = (await load()).default as { features: { properties: { region: RegionCode }; geometry: Shape['geometry'] }[] };
   return geo.features.map((f) => ({
@@ -111,7 +103,13 @@ export interface GlobeViewProps {
   arcs: readonly { startLat: number; startLng: number; endLat: number; endLng: number }[];
 }
 
-export default function GlobeView({
+// Constant accessors: a new function each render would make globe.gl update every polygon and arc.
+const sideColor = () => COLORS.side;
+const strokeColor = () => COLORS.stroke;
+const arcColor = () => [COLORS.arcStart, COLORS.arcEnd];
+
+// Memoised: App re-renders on every keystroke and clock tick, and the globe's props rarely change.
+export default memo(function GlobeView({
   available,
   entries,
   selected,
@@ -334,7 +332,7 @@ export default function GlobeView({
       const title = entry?.topTitle && (translations.get(entry.topTitle.trim()) ?? entry.topTitle);
       const headline = title ? `<em>${escapeHtml(title)}</em>` : '';
       const n = entry?.topOutlets;
-      const count = n ? `${n} outlet${n === 1 ? '' : 's'} on this story · ` : '';
+      const count = n ? `${plural(n, 'outlet')} on this story · ` : '';
       return `<div class="globe-tip"><strong>${escapeHtml(f.properties.name)}</strong>${headline}<span>${count}${hint}</span></div>`;
     },
     [isAvailable, isSelected, showingRegions, entryOf, translations],
@@ -383,8 +381,8 @@ export default function GlobeView({
           rendererConfig={{ antialias: !isMobile, alpha: true, powerPreference: 'high-performance' }}
           polygonsData={polygons}
           polygonCapColor={capColor}
-          polygonSideColor={() => COLORS.side}
-          polygonStrokeColor={() => COLORS.stroke}
+          polygonSideColor={sideColor}
+          polygonStrokeColor={strokeColor}
           polygonAltitude={altitude}
           polygonCapCurvatureResolution={isMobile ? 8 : 5}
           polygonsTransitionDuration={250}
@@ -392,7 +390,7 @@ export default function GlobeView({
           onPolygonClick={handleClick}
           onPolygonHover={handleHover}
           arcsData={arcs as object[]}
-          arcColor={() => [COLORS.arcStart, COLORS.arcEnd]}
+          arcColor={arcColor}
           arcStroke={0.5}
           arcAltitudeAutoScale={0.35}
           arcDashLength={0.5}
@@ -403,4 +401,4 @@ export default function GlobeView({
       )}
     </div>
   );
-}
+});

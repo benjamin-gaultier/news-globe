@@ -3,6 +3,7 @@ import { useTranslated } from '../hooks/useTranslated';
 import { relativeTime } from '../lib/time';
 import { TARGET_LANGUAGE } from '../lib/translate';
 import { PanelShell } from './PanelShell';
+import { CountryStoryRow } from './StoryParts';
 
 /** "warner bros" → "Warner Bros": names arrive folded to lower case. */
 const titleCase = (name: string) => name.replace(/(^|\s)(\p{L})/gu, (_, space: string, letter: string) => space + letter.toUpperCase());
@@ -36,15 +37,7 @@ function WorldItem({
       </p>
       <ul className="world-countries">
         {countries.map((c) => (
-          <li key={c.code}>
-            <button type="button" className="chip chip-small" onClick={() => onOpenStory(c.code, c.clusterId)}>
-              {COUNTRIES[c.code]!.name}
-            </button>
-            <a className="related-title" href={c.url} target="_blank" rel="noopener noreferrer" dir="auto">
-              {c.title}
-            </a>
-            {c.outletCount24h > 1 && <span className="related-time"> · {c.outletCount24h} outlets</span>}
-          </li>
+          <CountryStoryRow key={c.code} story={c} onOpen={onOpenStory} />
         ))}
       </ul>
     </li>
