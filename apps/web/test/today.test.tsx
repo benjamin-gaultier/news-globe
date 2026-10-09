@@ -5,7 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { SCHEMA_VERSION, type TodayFile, type TodayStory, type WorldStory } from '@news-globe/shared';
 import { TodayPanel } from '../src/components/TodayPanel';
 import { minutesAgo, NOW } from './fixtures';
-import { resetTranslator } from './translate-mock';
+import { resetTranslator, translator } from './translate-mock';
 
 vi.mock('../src/lib/translate', () => import('./translate-mock').then((m) => m.translateModule));
 
@@ -88,6 +88,15 @@ describe('TodayPanel', () => {
     expect(onOpenStory).toHaveBeenCalledWith('FR', 'FR-Budget passes');
     await userEvent.click(screen.getByRole('button', { name: /NATO meets/ }));
     expect(onOpenStory).toHaveBeenCalledWith('US', 'c2');
+  });
+
+  it('offers Google Translate for headlines it can’t translate on the device', async () => {
+    translator.available = false;
+    renderToday({ ...file, top: [item('FR', 'Le budget adopté', { language: 'fr' }), item('US', 'Senate vote')] });
+    const link = await screen.findByRole('link', { name: 'Translate “Le budget adopté” with Google Translate' });
+    expect(link.getAttribute('href')).toContain('sl=fr');
+    // English headlines need none.
+    expect(screen.getAllByRole('link', { name: /Google Translate/ })).toHaveLength(1);
   });
 
   it('says so before the workflow has written the file', async () => {

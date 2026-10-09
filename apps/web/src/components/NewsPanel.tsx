@@ -298,8 +298,8 @@ export function NewsPanel({
       {english && translation === 'pending' && <p className="panel-note">Translating headlines on this device…</p>}
       {english && translation === 'unavailable' && (
         <p className="panel-note">
-          This browser can’t translate headlines on-device (Chrome 138+ on desktop can). Use “Read in English” to open
-          a translated copy of an article.
+          This browser can’t translate on the device (Chrome on a computer can). “Translate” opens a story’s headline in
+          Google Translate; its story page also links to the whole article translated.
         </p>
       )}
       {story && cluster ? (

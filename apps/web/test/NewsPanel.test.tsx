@@ -228,7 +228,7 @@ describe('NewsPanel', () => {
 
       expect(screen.getByText('Translating headlines on this device…')).toBeTruthy();
       resolve({});
-      expect(await screen.findByText(/can’t translate headlines on-device/)).toBeTruthy();
+      expect(await screen.findByText(/can’t translate on the device/)).toBeTruthy();
       expect(screen.queryByText('Translating headlines on this device…')).toBeNull();
     });
 
@@ -236,7 +236,7 @@ describe('NewsPanel', () => {
       translator.available = false;
       localStorage.setItem('news-globe:language', 'en');
       renderPanel({ state: foreign() });
-      expect(screen.getByText(/can’t translate headlines on-device/)).toBeTruthy();
+      expect(screen.getByText(/can’t translate on the device/)).toBeTruthy();
     });
   });
 });

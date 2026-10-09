@@ -84,6 +84,13 @@ describe('translate', () => {
     expect(factory.create).not.toHaveBeenCalled();
   });
 
+  it('opens a headline in Google Translate', async () => {
+    const t = await load(undefined);
+    expect(t.translatedTextUrl('Le budget & la dette', 'fr')).toBe(
+      'https://translate.google.com/?sl=fr&tl=en&text=Le+budget+%26+la+dette&op=translate',
+    );
+  });
+
   it('links to the publisher page through Google Translate', async () => {
     const t = await load(undefined);
     expect(t.translatedPageUrl('https://lemonde.fr/a?b=1&c=2', 'fr')).toBe(
