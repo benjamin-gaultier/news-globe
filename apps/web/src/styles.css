@@ -8,6 +8,8 @@
   --text-muted: #94a3b8;
   --accent: #3fa7ff;
   --accent-2: #ffb547;
+  /* The globe's pulsing rings: deeper than --accent-2, which a 1 px ring loses on pale countries. */
+  --pulse: #ff8000;
   --danger: #ff7a7a;
   --radius: 14px;
   --panel-width: 420px;
@@ -242,16 +244,16 @@ button {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  border: 2px solid var(--accent-2);
+  border: 2px solid var(--pulse);
   animation: legend-pulse 1.6s ease-out infinite;
 }
 
 @keyframes legend-pulse {
   from {
-    box-shadow: 0 0 0 0 rgba(255, 181, 71, 0.8);
+    box-shadow: 0 0 0 0 rgba(255, 128, 0, 0.8);
   }
   to {
-    box-shadow: 0 0 0 7px rgba(255, 181, 71, 0);
+    box-shadow: 0 0 0 7px rgba(255, 128, 0, 0);
   }
 }
 
@@ -809,7 +811,7 @@ button {
 }
 
 .globe-tip-pulse {
-  color: var(--accent-2);
+  color: var(--pulse);
   font-size: 0.75rem;
   font-weight: 600;
 }

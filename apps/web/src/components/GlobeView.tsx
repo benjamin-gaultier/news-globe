@@ -81,7 +81,7 @@ const COLORS = {
   atmosphere: '#5fb4ff',
 };
 
-/** A pulse's ring, fading as it spreads (t runs from the centre, 0, to the edge, 1). */
+/** A pulse's ring, fading as it spreads (t runs from the centre, 0, to the edge, 1). The CSS --pulse colour. */
 const pulseColor = (t: number) => `rgba(255, 128, 0, ${Math.sqrt(1 - t)})`;
 const ringColor = () => pulseColor;
 /** Stable empties, so globe.gl doesn't rebuild its rings layer on every render. */
