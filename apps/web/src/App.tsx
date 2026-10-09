@@ -11,10 +11,11 @@ import { WorldPanel } from './components/WorldPanel';
 import { useAsync } from './hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
-import { fetchArchive, fetchCountry, fetchIndex, fetchRegion, fetchTrends } from './lib/data';
+import { fetchArchive, fetchCountry, fetchIndex, fetchRegion, fetchTranslations, fetchTrends } from './lib/data';
 import { changeStep } from './lib/heat';
 import { entriesAt, runTimes, shiftDate, storiesAt, todayUtc } from './lib/history';
 import { formatRoute, parseRoute, runForAt, runToAt } from './lib/route';
+import { TranslationsContext } from './lib/translations';
 import { relativeTime } from './lib/time';
 
 // three.js is most of the bundle; load it after the shell renders.
@@ -81,6 +82,12 @@ export function App() {
   const trends = useAsync(historyDate ? null : (signal) => fetchTrends(signal), [historyDate, indexTick]);
   const trendsData = trends.status === 'ready' ? trends.data : trends.status === 'loading' ? trends.previous : undefined;
   const [shading, setShading] = useState<Shading>('coverage');
+
+  // English for the most-seen headlines, from the hourly workflow (none until it is set up).
+  const translationsFile = useAsync((signal) => fetchTranslations(signal), [indexTick]);
+  const translationsData =
+    translationsFile.status === 'ready' ? translationsFile.data : translationsFile.status === 'loading' ? translationsFile.previous : undefined;
+  const translations = useMemo(() => new Map(Object.entries(translationsData?.items ?? {})), [translationsData]);
   const canShadeByChange = !historyDate && !!trendsData;
   const shadeStep = useMemo(
     () =>
@@ -375,180 +382,182 @@ export function App() {
   );
 
   return (
-    <div className={`app${world || (todayOpen && !historyDate) || (searchOpen && !meta) || meta ? ' has-panel' : ''}`}>
-      <header className="topbar">
-        <div className="brand">
-          <h1>News Globe</h1>
-          <p className="updated" aria-live="polite">
-            {index.status === 'error' && !indexData ? (
-              <>
-                Couldn’t reach the news data.{' '}
-                <button type="button" className="link-btn" onClick={retry}>
-                  Retry
-                </button>
-              </>
-            ) : indexData ? (
-              <>Updated {relativeTime(indexData.updatedAt, now)}</>
-            ) : (
-              <>Loading…</>
+    <TranslationsContext.Provider value={translations}>
+      <div className={`app${world || (todayOpen && !historyDate) || (searchOpen && !meta) || meta ? ' has-panel' : ''}`}>
+        <header className="topbar">
+          <div className="brand">
+            <h1>News Globe</h1>
+            <p className="updated" aria-live="polite">
+              {index.status === 'error' && !indexData ? (
+                <>
+                  Couldn’t reach the news data.{' '}
+                  <button type="button" className="link-btn" onClick={retry}>
+                    Retry
+                  </button>
+                </>
+              ) : indexData ? (
+                <>Updated {relativeTime(indexData.updatedAt, now)}</>
+              ) : (
+                <>Loading…</>
+              )}
+            </p>
+          </div>
+          <SearchBox ref={searchInput} query={query} onQueryChange={changeQuery} onFocus={reopenSearch} onClear={clearSearch} />
+          <div className="topbar-tools">
+            <button
+              type="button"
+              className="tool-btn"
+              aria-label="Today"
+              aria-pressed={todayOpen && !historyDate}
+              onClick={() => (todayOpen && !historyDate ? selectCountry(null) : (closeHistory(), openToday()))}
+            >
+              <TodayIcon />
+              <span>Today</span>
+            </button>
+            <button
+              type="button"
+              className="tool-btn"
+              aria-label="History"
+              aria-pressed={historyDate !== null}
+              onClick={() => (historyDate ? closeHistory() : openHistory())}
+            >
+              <ClockIcon />
+              <span>History</span>
+            </button>
+          </div>
+          <nav className="country-picker" aria-label="Countries">
+            {worldStories.length > 0 && !historyDate && (
+              <button
+                type="button"
+                className="chip chip-world"
+                aria-pressed={world}
+                onClick={() => (world ? selectCountry(null) : openWorld())}
+              >
+                Across borders
+              </button>
             )}
-          </p>
-        </div>
-        <SearchBox ref={searchInput} query={query} onQueryChange={changeQuery} onFocus={reopenSearch} onClear={clearSearch} />
-        <div className="topbar-tools">
-          <button
-            type="button"
-            className="tool-btn"
-            aria-label="Today"
-            aria-pressed={todayOpen && !historyDate}
-            onClick={() => (todayOpen && !historyDate ? selectCountry(null) : (closeHistory(), openToday()))}
-          >
-            <TodayIcon />
-            <span>Today</span>
-          </button>
-          <button
-            type="button"
-            className="tool-btn"
-            aria-label="History"
-            aria-pressed={historyDate !== null}
-            onClick={() => (historyDate ? closeHistory() : openHistory())}
-          >
-            <ClockIcon />
-            <span>History</span>
-          </button>
-        </div>
-        <nav className="country-picker" aria-label="Countries">
-          {worldStories.length > 0 && !historyDate && (
-            <button
-              type="button"
-              className="chip chip-world"
-              aria-pressed={world}
-              onClick={() => (world ? selectCountry(null) : openWorld())}
-            >
-              Across borders
-            </button>
+            {Object.values(COUNTRIES).map((c) => (
+              <button
+                key={c.code}
+                type="button"
+                className="chip"
+                aria-pressed={selected === c.code}
+                disabled={!available.has(c.code)}
+                onClick={() => selectCountry(selected === c.code ? null : c.code)}
+              >
+                {c.name}
+              </button>
+            ))}
+          </nav>
+        </header>
+
+        <main className="stage">
+          <Suspense fallback={<div className="globe globe-loading" aria-hidden="true" />}>
+            <GlobeView
+              available={available}
+              entries={entries}
+              selected={selected}
+              onSelect={selectCountry}
+              regions={regions}
+              selectedRegion={selectedRegion}
+              onSelectRegion={selectRegion}
+              onUnavailable={handleUnavailable}
+              isMobile={isMobile}
+              sheetFraction={sheetFraction}
+              shadeStep={shadeStep}
+              arcs={arcs}
+            />
+          </Suspense>
+          {!meta && !world && !todayOpen && !searchOpen && !historyDate && (
+            <p className="hint">Tap a highlighted country to see its top headlines</p>
           )}
-          {Object.values(COUNTRIES).map((c) => (
-            <button
-              key={c.code}
-              type="button"
-              className="chip"
-              aria-pressed={selected === c.code}
-              disabled={!available.has(c.code)}
-              onClick={() => selectCountry(selected === c.code ? null : c.code)}
-            >
-              {c.name}
-            </button>
-          ))}
-        </nav>
-      </header>
+          {/* An index from before the ingest wrote counts shades everything alike: no key then. */}
+          {!meta && !world && !(historyDate && isMobile) && [...entries.values()].some((e) => e.topOutlets !== undefined) && (
+            <HeatLegend
+              shading={canShadeByChange ? shading : 'coverage'}
+              onShadingChange={canShadeByChange ? setShading : undefined}
+            />
+          )}
+          {!meta && historyBar}
+        </main>
 
-      <main className="stage">
-        <Suspense fallback={<div className="globe globe-loading" aria-hidden="true" />}>
-          <GlobeView
-            available={available}
-            entries={entries}
-            selected={selected}
-            onSelect={selectCountry}
-            regions={regions}
-            selectedRegion={selectedRegion}
-            onSelectRegion={selectRegion}
-            onUnavailable={handleUnavailable}
+        {meta && historyDate && (
+          <HistoryPanel
+            unit={region ?? meta}
+            countryName={region ? meta.name : undefined}
+            onBackToCountry={() => selectRegion(null)}
+            stories={archiveDay && runOfDay ? storiesAt(archiveDay, runOfDay, selectedRegion ?? meta.code) : null}
+            note={
+              historyStatus === 'error'
+                ? 'Couldn’t load this day.'
+                : historyStatus === 'empty' || (archiveDay && !runs.length)
+                  ? 'No history for this day.'
+                  : 'Loading…'
+            }
+            date={historyDate}
+            runAt={runOfDay}
+            timeline={historyBar}
+            animate={animatePanel}
+            onSwipe={swipeCountry}
             isMobile={isMobile}
-            sheetFraction={sheetFraction}
-            shadeStep={shadeStep}
-            arcs={arcs}
-          />
-        </Suspense>
-        {!meta && !world && !todayOpen && !searchOpen && !historyDate && (
-          <p className="hint">Tap a highlighted country to see its top headlines</p>
-        )}
-        {/* An index from before the ingest wrote counts shades everything alike: no key then. */}
-        {!meta && !world && !(historyDate && isMobile) && [...entries.values()].some((e) => e.topOutlets !== undefined) && (
-          <HeatLegend
-            shading={canShadeByChange ? shading : 'coverage'}
-            onShadingChange={canShadeByChange ? setShading : undefined}
+            onClose={handleClose}
+            onSheetChange={setSheetFraction}
           />
         )}
-        {!meta && historyBar}
-      </main>
+        {meta && !historyDate && (
+          <NewsPanel
+            country={meta}
+            region={region}
+            regions={regions}
+            onSelectRegion={selectRegion}
+            state={country}
+            now={now}
+            isMobile={isMobile}
+            onClose={handleClose}
+            onRetry={retry}
+            onSheetChange={setSheetFraction}
+            story={story}
+            onOpenStory={setStory}
+            onOpenStoryIn={openStoryIn}
+            world={worldStories}
+            onToast={showToast}
+            trends={unitTrends}
+            trendRuns={unitTrends ? trendsData?.runs : undefined}
+            focusTitle={focusTitle}
+            timeline={<LiveBar onHistory={openHistory} />}
+            animate={animatePanel}
+            onSwipe={swipeCountry}
+          />
+        )}
+        {searchOpen && !meta && (
+          <SearchPanel query={query} isMobile={isMobile} onClose={handleClose} onSheetChange={setSheetFraction} onOpenStory={openStory} />
+        )}
+        {todayOpen && !historyDate && !meta && (
+          <TodayPanel
+            world={worldStories}
+            now={now}
+            isMobile={isMobile}
+            onClose={handleClose}
+            onSheetChange={setSheetFraction}
+            onOpenStory={openStoryIn}
+            onOpenWorld={openWorld}
+          />
+        )}
+        {world && (
+          <WorldPanel
+            stories={worldStories}
+            now={now}
+            isMobile={isMobile}
+            onClose={handleClose}
+            onSheetChange={setSheetFraction}
+            onOpenStory={openStoryIn}
+          />
+        )}
 
-      {meta && historyDate && (
-        <HistoryPanel
-          unit={region ?? meta}
-          countryName={region ? meta.name : undefined}
-          onBackToCountry={() => selectRegion(null)}
-          stories={archiveDay && runOfDay ? storiesAt(archiveDay, runOfDay, selectedRegion ?? meta.code) : null}
-          note={
-            historyStatus === 'error'
-              ? 'Couldn’t load this day.'
-              : historyStatus === 'empty' || (archiveDay && !runs.length)
-                ? 'No history for this day.'
-                : 'Loading…'
-          }
-          date={historyDate}
-          runAt={runOfDay}
-          timeline={historyBar}
-          animate={animatePanel}
-          onSwipe={swipeCountry}
-          isMobile={isMobile}
-          onClose={handleClose}
-          onSheetChange={setSheetFraction}
-        />
-      )}
-      {meta && !historyDate && (
-        <NewsPanel
-          country={meta}
-          region={region}
-          regions={regions}
-          onSelectRegion={selectRegion}
-          state={country}
-          now={now}
-          isMobile={isMobile}
-          onClose={handleClose}
-          onRetry={retry}
-          onSheetChange={setSheetFraction}
-          story={story}
-          onOpenStory={setStory}
-          onOpenStoryIn={openStoryIn}
-          world={worldStories}
-          onToast={showToast}
-          trends={unitTrends}
-          trendRuns={unitTrends ? trendsData?.runs : undefined}
-          focusTitle={focusTitle}
-          timeline={<LiveBar onHistory={openHistory} />}
-          animate={animatePanel}
-          onSwipe={swipeCountry}
-        />
-      )}
-      {searchOpen && !meta && (
-        <SearchPanel query={query} isMobile={isMobile} onClose={handleClose} onSheetChange={setSheetFraction} onOpenStory={openStory} />
-      )}
-      {todayOpen && !historyDate && !meta && (
-        <TodayPanel
-          world={worldStories}
-          now={now}
-          isMobile={isMobile}
-          onClose={handleClose}
-          onSheetChange={setSheetFraction}
-          onOpenStory={openStoryIn}
-          onOpenWorld={openWorld}
-        />
-      )}
-      {world && (
-        <WorldPanel
-          stories={worldStories}
-          now={now}
-          isMobile={isMobile}
-          onClose={handleClose}
-          onSheetChange={setSheetFraction}
-          onOpenStory={openStoryIn}
-        />
-      )}
-
-      <div className={`toast${toast ? ' visible' : ''}`} role="status">
-        {toast}
+        <div className={`toast${toast ? ' visible' : ''}`} role="status">
+          {toast}
+        </div>
       </div>
-    </div>
+    </TranslationsContext.Provider>
   );
 }

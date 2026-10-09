@@ -255,6 +255,18 @@ export interface TodayFile {
   stories: number;
 }
 
+/**
+ * `translations.json`: English for the headlines most people see (Today, each
+ * country's top story, cross-border stories), machine-translated by the hourly
+ * workflow (packages/ingest/src/translate.ts). Absent until it is configured.
+ */
+export interface TranslationsFile {
+  schemaVersion: number;
+  runAt: string;
+  /** Original headline → English. Headlines already in English are not listed. */
+  items: Record<string, string>;
+}
+
 export interface CountryMeta {
   code: CountryCode;
   name: string;

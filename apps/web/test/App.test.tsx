@@ -205,6 +205,17 @@ describe('App', () => {
     expect(location.hash).toBe('#US/c2');
   });
 
+  it('shows the workflow’s English for a story in English mode', async () => {
+    files['translations.json'] = () => ({ schemaVersion: SCHEMA_VERSION, runAt: ago(10), items: { 'Le budget adopté': 'Budget passed' } });
+    localStorage.setItem('news-globe:language', 'en');
+    try {
+      await renderApp('#FR');
+      expect(await screen.findByRole('link', { name: 'Budget passed' })).toBeTruthy();
+    } finally {
+      localStorage.removeItem('news-globe:language');
+    }
+  });
+
   it('opens Today from the top bar, and a story from it', async () => {
     files['today.json'] = () => ({
       schemaVersion: SCHEMA_VERSION,

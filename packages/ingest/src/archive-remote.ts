@@ -7,6 +7,14 @@ import { BUNDLE_KEY, bundleKeys, readBundleEntry } from '@news-globe/shared/bund
 import { archiveFile, archiveRun, publishArchiveToKv, readRun } from './archive';
 import { buildSearch, buildToday, buildTrends } from './derived';
 import { publishConfigFromEnv, type PublishConfig } from './publish';
+import {
+  azureConfigFromEnv,
+  azureTranslator,
+  headlinesToTranslate,
+  translateHeadlines,
+  type TranslateCache,
+  type Translator,
+} from './translate';
 
 /**
  * Builds the history archive from what is already published, so it does not
@@ -18,7 +26,10 @@ import { publishConfigFromEnv, type PublishConfig } from './publish';
  *
  * It then derives `trends`, `search` and `today` from the same run (see
  * derived.ts) and stores them gzipped in KV; the Worker serves them as
- * /data/trends.json, /data/search.json and /data/today.json.
+ * /data/trends.json, /data/search.json and /data/today.json. With a
+ * translator (Azure, see translate.ts), it also publishes `translations`
+ * (/data/translations.json), remembering what it translated in
+ * `translate-cache`.
  */
 
 export type RemoteArchiveOutcome = 'archived' | 'already-archived' | 'nothing-published';
@@ -51,7 +62,7 @@ async function kvGet(cfg: PublishConfig, key: string, doFetch: typeof fetch): Pr
 
 export async function archiveFromKv(
   cfg: PublishConfig,
-  opts: { fetchImpl?: typeof fetch; log?: (msg: string) => void } = {},
+  opts: { fetchImpl?: typeof fetch; log?: (msg: string) => void; translator?: Translator } = {},
 ): Promise<RemoteArchiveOutcome> {
   const doFetch = opts.fetchImpl ?? fetch;
   const log = opts.log ?? console.log;
@@ -94,14 +105,31 @@ export async function archiveFromKv(
     const run = await readRun(dir);
     const units = run?.units ?? [];
     const trends = buildTrends(day, index.updatedAt, units);
+    const today = buildToday(trends, units);
     for (const [key, value] of [
       ['trends', trends],
       ['search', buildSearch(index.updatedAt, units)],
-      ['today', buildToday(trends, units)],
+      ['today', today],
     ] as const) {
       const body = gzipSync(JSON.stringify(value));
       await kvPut(cfg, key, body, doFetch);
       log(`[archive] uploaded ${key} (${Math.round(body.length / 1024)} KiB)`);
+    }
+
+    // English for the most-seen headlines: new ones translated, the rest remembered.
+    if (opts.translator) {
+      const cached = await kvGet(cfg, 'translate-cache', doFetch);
+      const previous = cached ? (JSON.parse(gunzipSync(cached).toString('utf8')) as TranslateCache) : null;
+      const result = await translateHeadlines(headlinesToTranslate(today, index, units), previous, opts.translator, {
+        runAt: index.updatedAt,
+        log,
+      });
+      await kvPut(cfg, 'translations', gzipSync(JSON.stringify(result.file)), doFetch);
+      if (result.changed) await kvPut(cfg, 'translate-cache', gzipSync(JSON.stringify(result.cache)), doFetch);
+      log(
+        `[translate] ${Object.keys(result.file.items).length} headlines in English; ${result.sent} characters sent ` +
+          `(${result.cache.usage.chars} this month)`,
+      );
     }
     return 'archived';
   } finally {
@@ -116,7 +144,9 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     console.error('[archive] set CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_KV_NAMESPACE_ID and CLOUDFLARE_API_TOKEN');
     process.exitCode = 1;
   } else {
-    archiveFromKv(cfg).catch((err) => {
+    const azure = azureConfigFromEnv();
+    if (!azure) console.log('[translate] AZURE_TRANSLATOR_KEY not set: no translations');
+    archiveFromKv(cfg, { translator: azure ? azureTranslator(azure) : undefined }).catch((err) => {
       console.error('[archive] failed:', err instanceof Error ? err.message : err);
       process.exitCode = 1;
     });
