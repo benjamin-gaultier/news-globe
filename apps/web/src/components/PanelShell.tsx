@@ -171,7 +171,7 @@ export function PanelShell({
               ‹ {crumb.label}
             </button>
           )}
-          <h2 id="panel-title" className={titleClassName}>
+          <h2 id="panel-title" className={titleClassName} dir="auto">
             {title}
           </h2>
           <p className="panel-sub" dir="auto">
