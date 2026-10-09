@@ -22,7 +22,7 @@ export interface ClusterOptions {
   ignoreNames?: readonly string[];
 }
 
-export function jaccard(a: Set<string>, b: Set<string>): { score: number; shared: number } {
+function jaccard(a: Set<string>, b: Set<string>): { score: number; shared: number } {
   if (a.size === 0 || b.size === 0) return { score: 0, shared: 0 };
   let shared = 0;
   for (const t of a) if (b.has(t)) shared++;

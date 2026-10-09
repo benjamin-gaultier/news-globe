@@ -756,7 +756,7 @@ function indicTokens(title: string): string[] {
  * e, so "inscrites"/"inscrits", "lycees"/"lycee" and "charges"/"charge" match.
  * Short tokens are left alone to avoid collisions.
  */
-export function stem(token: string, language?: string): string {
+function stem(token: string, language?: string): string {
   let t = token;
   // German and Dutch plurals and inflections: Grünen/Grüne, Parteien/Partei,
   // Wahlen/Wahl, verkiezingen/verkiezing.

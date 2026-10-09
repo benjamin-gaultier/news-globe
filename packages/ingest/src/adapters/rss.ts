@@ -124,7 +124,7 @@ function tagText(xml: string, tag: string): string | undefined {
  * outlets publish instead of RSS (Kuwait Times, Arab Times). Entries have a
  * title and publication date but no summary.
  */
-export function parseNewsSitemap(body: string, feedUrl: string): RawItem[] {
+function parseNewsSitemap(body: string, feedUrl: string): RawItem[] {
   const items: RawItem[] = [];
   for (const [, entry = ''] of body.matchAll(/<url>([\s\S]*?)<\/url>/g)) {
     const url = absoluteHttpUrl(tagText(entry, 'loc'), feedUrl);

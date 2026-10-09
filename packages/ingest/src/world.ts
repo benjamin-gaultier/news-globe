@@ -160,7 +160,7 @@ export interface CountryClusters {
  * Groups of clusters from different countries about the same story, as lists
  * of [country, cluster], best linked first. Clusters in no group are left out.
  */
-export function linkAcrossCountries(countries: CountryClusters[]): Doc[][] {
+function linkAcrossCountries(countries: CountryClusters[]): Doc[][] {
   const allTitles = countries.flatMap((c) => c.clusters.flatMap(titlesOf));
   const known = knownNames(allTitles);
   const docs: Doc[] = countries.flatMap(({ code, clusters }) =>

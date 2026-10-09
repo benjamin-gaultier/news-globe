@@ -21,8 +21,8 @@ export interface SourceConfig {
   /** Stable id; also the outlet identity used for "distinct outlets". */
   id: string;
   name: string;
-  /** Adapter that fetches this source. Only "rss" is implemented. */
-  type: 'rss' | 'gdelt';
+  /** Adapter that fetches this source (see adapters/). */
+  type: 'rss';
   country: CountryCode;
   language: string;
   /**

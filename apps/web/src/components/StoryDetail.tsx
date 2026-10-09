@@ -13,7 +13,7 @@ export function findStory(clusters: readonly StoryCluster[], id: string): StoryC
 }
 
 /** The cross-border story this cluster belongs to, if any. */
-export function worldStoryOf(world: readonly WorldStory[], code: string, clusterId: string): WorldStory | undefined {
+function worldStoryOf(world: readonly WorldStory[], code: string, clusterId: string): WorldStory | undefined {
   return world.find((s) => s.countries.some((c) => c.code === code && c.clusterId === clusterId));
 }
 
