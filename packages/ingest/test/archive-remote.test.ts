@@ -89,16 +89,30 @@ describe('archiveFromKv', () => {
     expect(translator).not.toHaveBeenCalled();
   });
 
-  it('uploads the day last, so a retry after a failed upload rebuilds what is derived from the run', async () => {
+  it('archives the day even when a derived upload fails, and a retry rebuilds what is derived', async () => {
     const values = new Map([['bundle', publishedBundle('2026-10-08T09:00:00.000Z')]]);
     const failPut = new Set(['today']);
     await expect(archiveFromKv(cfg, { fetchImpl: fakeKv(values, failPut).fetchImpl, log: quiet })).rejects.toThrow(/today/);
-    expect(values.has('archive/2026-10-08')).toBe(false);
+    expect(Object.keys(day(values, '2026-10-08').runs)).toEqual(['2026-10-08T09:00:00.000Z']);
 
     failPut.clear();
-    expect(await archiveFromKv(cfg, { fetchImpl: fakeKv(values).fetchImpl, log: quiet })).toBe('archived');
+    const kv = fakeKv(values);
+    expect(await archiveFromKv(cfg, { fetchImpl: kv.fetchImpl, log: quiet })).toBe('archived');
     expect(values.has('today')).toBe(true);
+    // The day already held the run: it isn't uploaded again.
+    expect(kv.calls).not.toContain('PUT archive/2026-10-08');
     expect(Object.keys(day(values, '2026-10-08').runs)).toEqual(['2026-10-08T09:00:00.000Z']);
+  });
+
+  it('publishes Today even when the translation step fails', async () => {
+    const values = new Map([
+      ['bundle', publishedBundle('2026-10-08T09:00:00.000Z')],
+      ['translate-cache', new Uint8Array([1, 2, 3])], // not gzip
+    ]);
+    const translator = async (texts: string[]) => texts;
+    expect(await archiveFromKv(cfg, { fetchImpl: fakeKv(values).fetchImpl, log: quiet, translator })).toBe('archived');
+    expect(values.has('today')).toBe(true);
+    expect(values.has('translations')).toBe(false);
   });
 
   it('records the characters sent before publishing the translations', async () => {
