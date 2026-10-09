@@ -145,9 +145,7 @@ export function StoryDetail({ cluster, unit, now, english, trend, runs, world, o
         {plural(cluster.outletCount, 'outlet')}
         {rank != null && <> · #{rank} in {unit.name} now</>}
         {trend && <> · in the top list since {clock(trend.firstSeen)}</>}
-        {trend?.state && (
-          <TrendBadge state={trend.state} />
-        )}
+        <TrendBadge state={trend?.state} />
       </p>
       {description.text && (
         <p className="story-detail-desc" lang={description.translated ? TARGET_LANGUAGE : rep.language} dir="auto">
