@@ -1,3 +1,4 @@
+import './env';
 import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
@@ -17,12 +18,12 @@ import {
 } from './translate';
 
 /**
- * Builds the history archive from what is already published, so it does not
- * depend on the machine running the ingest: reads the bundle from KV, adds its
- * run to that day's archive (also in KV), and uploads the day again. The
- * hourly health workflow (.github/workflows/health.yml) runs it, so history
- * keeps growing whatever code the Pi runs. A run already in the archive is
- * not uploaded twice.
+ * Builds the history archive from what is already published: reads the bundle
+ * from KV, adds its run to that day's archive (also in KV), and uploads the day
+ * again. The ingest watcher runs it right after each successful run when
+ * ARCHIVE_AFTER_RUN=1 (watch.ts), and the health workflow
+ * (.github/workflows/health.yml) runs it too, as a fallback. A run already in
+ * the archive is not uploaded twice, so running both is safe.
  *
  * It then derives `trends`, `search` and `today` from the same run (see
  * derived.ts) and stores them gzipped in KV; the Worker serves them as

@@ -33,19 +33,43 @@ jobs:
       - run: pnpm --filter @news-globe/web exec vite build
 
   # The globe in a real browser (Playwright, software WebGL): clicks, hovers and the camera.
+  # Always on main (deploys wait for it). On a PR only when it touches what the browser tests
+  # cover, as they take most of CI's Actions minutes (the repo is private): otherwise the job
+  # passes at once, so a required `e2e` check still resolves.
   e2e:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Decide whether the browser tests run
+        id: scope
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if [ "${{ github.event_name }}" != "pull_request" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          changed=$(git diff --name-only "$BASE" HEAD)
+          echo "$changed"
+          if echo "$changed" | grep -qE '^(apps/web/e2e/|apps/web/playwright\.config\.ts|apps/web/vite\.config\.ts|apps/web/index\.html|apps/web/package\.json|pnpm-lock\.yaml|apps/web/src/(App\.tsx|main\.tsx|styles\.css|components/(GlobeView|PanelShell|NewsPanel)\.tsx|hooks/|lib/route\.ts)|\.github/workflows/ci\.yml)'; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::No change the browser tests cover: skipped (they run on main before deploying)."
+          fi
       - uses: pnpm/action-setup@v4
+        if: steps.scope.outputs.run == 'true'
       - uses: actions/setup-node@v5
+        if: steps.scope.outputs.run == 'true'
         with:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+        if: steps.scope.outputs.run == 'true'
       - run: pnpm --filter @news-globe/web exec playwright install --with-deps chromium
+        if: steps.scope.outputs.run == 'true'
       - run: pnpm --filter @news-globe/web e2e
+        if: steps.scope.outputs.run == 'true'
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
