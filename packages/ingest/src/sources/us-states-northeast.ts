@@ -204,9 +204,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NH',
-    feedUrls: [
-      'https://www.sentinelsource.com/search/?f=rss&t=article&c=news/local&l=50&s=start_time&sd=desc',
-    ],
+    feedUrls: ['https://www.sentinelsource.com/search/?f=rss&t=article&c=news/local&l=50&s=start_time&sd=desc'],
     authority: 8,
   },
   {

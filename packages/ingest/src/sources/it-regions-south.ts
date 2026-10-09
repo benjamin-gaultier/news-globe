@@ -2,13 +2,7 @@ import type { SourceConfig } from '../sources.config';
 
 type SouthRegion = '52' | '55' | '57' | '62' | '65' | '67' | '72' | '75' | '77' | '78' | '82' | '88';
 
-const src = (
-  id: string,
-  name: string,
-  region: SouthRegion,
-  feedUrls: string[],
-  authority: number,
-): SourceConfig => ({
+const src = (id: string, name: string, region: SouthRegion, feedUrls: string[], authority: number): SourceConfig => ({
   id,
   name,
   type: 'rss',
@@ -69,12 +63,18 @@ export const IT_REGIONS_SOUTH: SourceConfig[] = [
   // ---- Marche ----
   src('it_57_tgr', 'TGR Marche (RAI)', '57', [tgr('marche')], 8),
   src('it_57_ansa', 'ANSA Marche', '57', [ansa('marche')], 8),
-  src('it_57_carlino', 'il Resto del Carlino (Marche)', '57', [
-    'https://www.ilrestodelcarlino.it/ancona/rss',
-    'https://www.ilrestodelcarlino.it/pesaro/rss',
-    'https://www.ilrestodelcarlino.it/macerata/rss',
-    'https://www.ilrestodelcarlino.it/ascoli/rss',
-  ], 9),
+  src(
+    'it_57_carlino',
+    'il Resto del Carlino (Marche)',
+    '57',
+    [
+      'https://www.ilrestodelcarlino.it/ancona/rss',
+      'https://www.ilrestodelcarlino.it/pesaro/rss',
+      'https://www.ilrestodelcarlino.it/macerata/rss',
+      'https://www.ilrestodelcarlino.it/ascoli/rss',
+    ],
+    9,
+  ),
   src('it_57_cronache_maceratesi', 'Cronache Maceratesi', '57', ['https://www.cronachemaceratesi.it/feed/'], 7),
   src('it_57_centropagina', 'CentroPagina', '57', ['https://www.centropagina.it/feed/'], 7),
 
@@ -84,10 +84,13 @@ export const IT_REGIONS_SOUTH: SourceConfig[] = [
   src('it_62_repubblica', 'la Repubblica Roma', '62', [repubblica('roma')], 9),
   src('it_62_romatoday', 'RomaToday', '62', ['https://www.romatoday.it/rss'], 7),
   // Sister dailies for the provinces of Latina and Frosinone: one source.
-  src('it_62_oggi', 'Latina Oggi / Ciociaria Oggi', '62', [
-    'https://www.latinaoggi.eu/rss.jsp?sezione=909',
-    'https://www.ciociariaoggi.it/rss.jsp?sezione=909',
-  ], 8),
+  src(
+    'it_62_oggi',
+    'Latina Oggi / Ciociaria Oggi',
+    '62',
+    ['https://www.latinaoggi.eu/rss.jsp?sezione=909', 'https://www.ciociariaoggi.it/rss.jsp?sezione=909'],
+    8,
+  ),
   src('it_62_faro', 'Il Faro online', '62', ['https://www.ilfaroonline.it/feed/'], 7),
 
   // ---- Abruzzo ----
@@ -134,12 +137,18 @@ export const IT_REGIONS_SOUTH: SourceConfig[] = [
   // ---- Calabria ----
   src('it_78_tgr', 'TGR Calabria (RAI)', '78', [tgr('calabria')], 8),
   src('it_78_ansa', 'ANSA Calabria', '78', [ansa('calabria')], 8),
-  src('it_78_gazzettadelsud', 'Gazzetta del Sud (Calabria)', '78', [
-    ses('calabria.gazzettadelsud.it', 'calabria'),
-    ses('cosenza.gazzettadelsud.it', 'cosenza'),
-    ses('catanzaro.gazzettadelsud.it', 'catanzaro'),
-    ses('reggio.gazzettadelsud.it', 'reggio'),
-  ], 9),
+  src(
+    'it_78_gazzettadelsud',
+    'Gazzetta del Sud (Calabria)',
+    '78',
+    [
+      ses('calabria.gazzettadelsud.it', 'calabria'),
+      ses('cosenza.gazzettadelsud.it', 'cosenza'),
+      ses('catanzaro.gazzettadelsud.it', 'catanzaro'),
+      ses('reggio.gazzettadelsud.it', 'reggio'),
+    ],
+    9,
+  ),
   src('it_78_corrieredellacalabria', 'Corriere della Calabria', '78', ['https://www.corrieredellacalabria.it/feed/'], 7),
   src('it_78_catanzaroinforma', 'CatanzaroInforma', '78', ['https://www.catanzaroinforma.it/feed/'], 7),
 

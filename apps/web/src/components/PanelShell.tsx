@@ -148,9 +148,7 @@ export function PanelShell({
     onSwipe!(e.clientX < t.x ? 1 : -1);
   };
 
-  const style = isMobile
-    ? { height: dragHeight !== null ? `${dragHeight}px` : `${SHEET_SNAPS[snap] * 100}dvh` }
-    : undefined;
+  const style = isMobile ? { height: dragHeight !== null ? `${dragHeight}px` : `${SHEET_SNAPS[snap] * 100}dvh` } : undefined;
 
   return (
     <aside

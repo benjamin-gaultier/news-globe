@@ -270,7 +270,11 @@ export function isNotNews(title: string): boolean {
  * Titles are compared ignoring case, punctuation and spacing.
  */
 export function dropRepublished(articles: Article[]): Article[] {
-  const key = (title: string) => title.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const key = (title: string) =>
+    title
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .trim();
   const first = new Map<string, Article>();
   for (const a of articles) {
     const k = key(a.title);

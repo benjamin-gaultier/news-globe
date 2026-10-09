@@ -44,7 +44,11 @@ function renderPanel(props: Partial<Props> = {}) {
 }
 
 const ready = (data: CountryFile): AsyncState<CountryFile> => ({ status: 'ready', data });
-const headlines = () => screen.queryAllByRole('link').filter((a) => a.classList.contains('story-title')).map((a) => a.textContent);
+const headlines = () =>
+  screen
+    .queryAllByRole('link')
+    .filter((a) => a.classList.contains('story-title'))
+    .map((a) => a.textContent);
 
 describe('NewsPanel', () => {
   it('shows a placeholder while the first load is in flight', () => {
@@ -109,7 +113,9 @@ describe('NewsPanel', () => {
   });
 
   it('opens a story’s counterpart in another country', async () => {
-    const { onOpenStoryIn } = renderPanel({ state: ready(countryFile([cluster(article(), [], { alsoIn: [{ code: 'DE', clusterId: 'x' }] })])) });
+    const { onOpenStoryIn } = renderPanel({
+      state: ready(countryFile([cluster(article(), [], { alsoIn: [{ code: 'DE', clusterId: 'x' }] })])),
+    });
     await userEvent.click(screen.getByRole('button', { name: 'Germany' }));
     expect(onOpenStoryIn).toHaveBeenCalledWith('DE', 'x');
   });

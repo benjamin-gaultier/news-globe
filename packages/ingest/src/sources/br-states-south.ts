@@ -2,13 +2,7 @@ import type { SourceConfig } from '../sources.config';
 
 type SouthState = 'DF' | 'GO' | 'MT' | 'MS' | 'ES' | 'MG' | 'RJ' | 'SP' | 'PR' | 'SC' | 'RS';
 
-const src = (
-  id: string,
-  name: string,
-  region: SouthState,
-  feedUrls: string[],
-  authority: number,
-): SourceConfig => ({
+const src = (id: string, name: string, region: SouthState, feedUrls: string[], authority: number): SourceConfig => ({
   id,
   name,
   type: 'rss',
@@ -84,7 +78,13 @@ export const BR_STATES_SOUTH: SourceConfig[] = [
   src('br_mg_bhaz', 'BHAZ', 'MG', ['https://bhaz.com.br/feed/'], 7),
 
   // ---- Rio de Janeiro ----
-  src('br_rj_g1', 'g1 Rio de Janeiro', 'RJ', g1('rj/rio-de-janeiro', 'rj/regiao-serrana', 'rj/norte-fluminense', 'rj/sul-do-rio-costa-verde'), 8),
+  src(
+    'br_rj_g1',
+    'g1 Rio de Janeiro',
+    'RJ',
+    g1('rj/rio-de-janeiro', 'rj/regiao-serrana', 'rj/norte-fluminense', 'rj/sul-do-rio-costa-verde'),
+    8,
+  ),
   src('br_rj_odia', 'O Dia', 'RJ', ['https://odia.ig.com.br/_conteudo/rio-de-janeiro/rss.xml'], 9),
   src('br_rj_osaogoncalo', 'O São Gonçalo', 'RJ', ['https://www.osaogoncalo.com.br/feed'], 8),
   src('br_rj_agendadopoder', 'Agenda do Poder', 'RJ', ['https://www.agendadopoder.com.br/feed/'], 7),
@@ -95,7 +95,14 @@ export const BR_STATES_SOUTH: SourceConfig[] = [
     'br_sp_g1',
     'g1 São Paulo',
     'SP',
-    g1('sp/sao-paulo', 'sp/campinas-regiao', 'sp/ribeirao-preto-franca', 'sp/vale-do-paraiba-regiao', 'sp/santos-regiao', 'sp/sorocaba-jundiai'),
+    g1(
+      'sp/sao-paulo',
+      'sp/campinas-regiao',
+      'sp/ribeirao-preto-franca',
+      'sp/vale-do-paraiba-regiao',
+      'sp/santos-regiao',
+      'sp/sorocaba-jundiai',
+    ),
     8,
   ),
   src(

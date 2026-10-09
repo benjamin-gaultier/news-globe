@@ -60,7 +60,12 @@ export function WorldPanel({ stories, now, isMobile, onClose, onSheetChange, onO
     <PanelShell
       title="Across borders"
       subtitle="Stories in several countries’ top headlines right now"
-      sheetKey="world" scrollKey="world" isMobile={isMobile} onClose={onClose} onSheetChange={onSheetChange}>
+      sheetKey="world"
+      scrollKey="world"
+      isMobile={isMobile}
+      onClose={onClose}
+      onSheetChange={onSheetChange}
+    >
       {stories.length === 0 ? (
         <div className="panel-message">
           <p>No story is in several countries’ top headlines right now.</p>
@@ -73,8 +78,8 @@ export function WorldPanel({ stories, now, isMobile, onClose, onSheetChange, onO
         </ol>
       )}
       <p className="panel-footnote">
-        Headlines link to the original publishers. Stories are matched across countries and languages by the names their
-        headlines share (people, places, organisations), without translation.
+        Headlines link to the original publishers. Stories are matched across countries and languages by the names their headlines share
+        (people, places, organisations), without translation.
       </p>
     </PanelShell>
   );

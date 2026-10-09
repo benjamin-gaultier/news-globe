@@ -98,19 +98,21 @@ export function cleanTitle(raw: string): string {
 
 /** Lower-case, strip accents (NFD + drop combining marks), turn punctuation into spaces. */
 export function foldText(input: string): string {
-  return input
-    .normalize('NFD')
-    .replace(/\p{M}+/gu, '')
-    // Soft hyphens and zero-width characters sit inside words (Vísir: "Guð­mundur").
-    .replace(/[\u00AD\u200B-\u200D\u2060\uFEFF]/g, '')
-    .toLowerCase()
-    // Turkish dotless ı has no decomposition; fold it so "IĞDIR" and "Iğdır" match.
-    .replace(/ı/g, 'i')
-    // Greek final sigma: "εκλογές" and "εκλογέσ" are the same word.
-    .replace(/ς/g, 'σ')
-    .replace(/[’'`]/g, ' ')
-    .replace(/[^\p{L}\p{N}]+/gu, ' ')
-    .trim();
+  return (
+    input
+      .normalize('NFD')
+      .replace(/\p{M}+/gu, '')
+      // Soft hyphens and zero-width characters sit inside words (Vísir: "Guð­mundur").
+      .replace(/[\u00AD\u200B-\u200D\u2060\uFEFF]/g, '')
+      .toLowerCase()
+      // Turkish dotless ı has no decomposition; fold it so "IĞDIR" and "Iğdır" match.
+      .replace(/ı/g, 'i')
+      // Greek final sigma: "εκλογές" and "εκλογέσ" are the same word.
+      .replace(/ς/g, 'σ')
+      .replace(/[’'`]/g, ' ')
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .trim()
+  );
 }
 
 // Accent-folded, so they match folded tokens.
@@ -592,9 +594,13 @@ const KANA_OR_HAN = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}ー]/u
  * are kept (NFKC, not foldText's NFD + mark stripping), so バス ≠ パス.
  */
 function japaneseTokens(title: string): string[] {
-  const text = title.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ');
+  const text = title
+    .normalize('NFKC')
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, ' ');
   const out: string[] = [];
-  const runs = /\p{Script=Han}+|[\p{Script=Katakana}ー]+|\p{Script=Hiragana}+|[^\s\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}ー]+/gu;
+  const runs =
+    /\p{Script=Han}+|[\p{Script=Katakana}ー]+|\p{Script=Hiragana}+|[^\s\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}ー]+/gu;
   for (const [run] of text.matchAll(runs)) {
     if (HAN.test(run)) {
       for (let i = 0; i + 1 < run.length; i++) out.push(run.slice(i, i + 2));
@@ -663,7 +669,10 @@ function persianTokens(title: string): string[] {
  */
 function koreanTokens(title: string): string[] {
   const out: string[] = [];
-  for (const [run] of title.normalize('NFC').toLowerCase().matchAll(/\p{Script=Hangul}+|[^\s\p{Script=Hangul}]+/gu)) {
+  for (const [run] of title
+    .normalize('NFC')
+    .toLowerCase()
+    .matchAll(/\p{Script=Hangul}+|[^\s\p{Script=Hangul}]+/gu)) {
     if (/\p{Script=Hangul}/u.test(run)) {
       if (run.length === 1) continue;
       for (let i = 0; i + 1 < run.length; i++) out.push(run.slice(i, i + 2));
@@ -773,18 +782,18 @@ export function titleTokens(title: string, language?: string): Set<string> {
           : language === 'he'
             ? hebrewTokens(title)
             : language === 'fa'
-            ? persianTokens(title)
-            : language === 'ne' || language === 'bn'
-              ? indicTokens(title)
-              : language === 'ko'
-                ? koreanTokens(title)
-                : language === 'th'
-                  ? thaiTokens(title)
-                  : language === 'km'
-                    ? khmerTokens(title)
-                    : language === 'lo'
-                      ? laoTokens(title)
-              : foldText(title).split(' ');
+              ? persianTokens(title)
+              : language === 'ne' || language === 'bn'
+                ? indicTokens(title)
+                : language === 'ko'
+                  ? koreanTokens(title)
+                  : language === 'th'
+                    ? thaiTokens(title)
+                    : language === 'km'
+                      ? khmerTokens(title)
+                      : language === 'lo'
+                        ? laoTokens(title)
+                        : foldText(title).split(' ');
   for (const raw of words) {
     if (!raw || stopwords.has(raw)) continue;
     if (raw.length < 2 && !/\d/.test(raw)) continue;

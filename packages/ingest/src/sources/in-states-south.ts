@@ -1,17 +1,28 @@
 import type { SourceConfig } from '../sources.config';
 
 type SouthState =
-  | 'AN' | 'AP' | 'AR' | 'AS' | 'BR' | 'JH' | 'KA' | 'KL' | 'LD' | 'ML'
-  | 'MN' | 'MZ' | 'NL' | 'OD' | 'PY' | 'SK' | 'TN' | 'TR' | 'TS' | 'WB';
+  | 'AN'
+  | 'AP'
+  | 'AR'
+  | 'AS'
+  | 'BR'
+  | 'JH'
+  | 'KA'
+  | 'KL'
+  | 'LD'
+  | 'ML'
+  | 'MN'
+  | 'MZ'
+  | 'NL'
+  | 'OD'
+  | 'PY'
+  | 'SK'
+  | 'TN'
+  | 'TR'
+  | 'TS'
+  | 'WB';
 
-const src = (
-  id: string,
-  name: string,
-  region: SouthState,
-  feedUrls: string[],
-  authority: number,
-  language = 'en',
-): SourceConfig => ({
+const src = (id: string, name: string, region: SouthState, feedUrls: string[], authority: number, language = 'en'): SourceConfig => ({
   id,
   name,
   type: 'rss',
@@ -27,8 +38,7 @@ const hindu = (path: string) => `https://www.thehindu.com/news/${path}/feeder/de
 /** Times of India city sections, by section id. */
 const toi = (id: string) => `https://timesofindia.indiatimes.com/rssfeeds/${id}.cms`;
 /** The New Indian Express state and city sections (legacy feed ids still served). */
-const nie = (path: string, id: number) =>
-  `https://www.newindianexpress.com/${path}/rssfeed/?id=${id}&getXmlFeed=true`;
+const nie = (path: string, id: number) => `https://www.newindianexpress.com/${path}/rssfeed/?id=${id}&getXmlFeed=true`;
 /** The Indian Express city sections. */
 const ie = (city: string) => `https://indianexpress.com/section/cities/${city}/feed/`;
 /** Northeast Now's state sections. */
@@ -81,14 +91,7 @@ export const IN_STATES_SOUTH: SourceConfig[] = [
   src('in_wb_hindu', 'The Hindu (Kolkata)', 'WB', [hindu('cities/kolkata')], 9),
   src('in_wb_toi', 'Times of India (Kolkata)', 'WB', [toi('-2128830821')], 9),
   src('in_wb_ie', 'The Indian Express (Kolkata)', 'WB', [ie('kolkata')], 9),
-  src(
-    'in_wb_tv9bangla',
-    'TV9 Bangla',
-    'WB',
-    ['https://tv9bangla.com/west-bengal/feed', 'https://tv9bangla.com/kolkata/feed'],
-    7,
-    'bn',
-  ),
+  src('in_wb_tv9bangla', 'TV9 Bangla', 'WB', ['https://tv9bangla.com/west-bengal/feed', 'https://tv9bangla.com/kolkata/feed'], 7, 'bn'),
   src(
     'in_wb_abpananda',
     'ABP Ananda',
@@ -148,13 +151,7 @@ export const IN_STATES_SOUTH: SourceConfig[] = [
   // ---- Telangana ----
   src('in_ts_hindu', 'The Hindu (Telangana)', 'TS', [hindu('national/telangana'), hindu('cities/Hyderabad')], 9),
   src('in_ts_toi', 'Times of India (Hyderabad)', 'TS', [toi('-2128816011')], 9),
-  src(
-    'in_ts_nie',
-    'The New Indian Express (Telangana)',
-    'TS',
-    [nie('states/telangana', 183), nie('cities/hyderabad', 186)],
-    9,
-  ),
+  src('in_ts_nie', 'The New Indian Express (Telangana)', 'TS', [nie('states/telangana', 183), nie('cities/hyderabad', 186)], 9),
   src(
     'in_ts_telanganatoday',
     'Telangana Today',
@@ -166,23 +163,11 @@ export const IN_STATES_SOUTH: SourceConfig[] = [
   src('in_ts_southfirst', 'The South First (Telangana)', 'TS', [southFirst('telangana')], 7),
 
   // ---- Karnataka ----
-  src(
-    'in_ka_hindu',
-    'The Hindu (Karnataka)',
-    'KA',
-    [hindu('national/karnataka'), hindu('cities/bangalore'), hindu('cities/Mangalore')],
-    9,
-  ),
+  src('in_ka_hindu', 'The Hindu (Karnataka)', 'KA', [hindu('national/karnataka'), hindu('cities/bangalore'), hindu('cities/Mangalore')], 9),
   src('in_ka_deccanherald', 'Deccan Herald (Karnataka)', 'KA', ['https://www.deccanherald.com/stories.rss?section=karnataka'], 9),
   src('in_ka_toi', 'Times of India (Bengaluru)', 'KA', [toi('-2128833038')], 9),
   src('in_ka_ie', 'The Indian Express (Bengaluru)', 'KA', [ie('bangalore')], 9),
-  src(
-    'in_ka_nie',
-    'The New Indian Express (Karnataka)',
-    'KA',
-    [nie('states/karnataka', 180), nie('cities/bengaluru', 185)],
-    9,
-  ),
+  src('in_ka_nie', 'The New Indian Express (Karnataka)', 'KA', [nie('states/karnataka', 180), nie('cities/bengaluru', 185)], 9),
   src('in_ka_starofmysore', 'Star of Mysore', 'KA', ['https://starofmysore.com/feed/'], 7),
   src('in_ka_southfirst', 'The South First (Karnataka)', 'KA', [southFirst('karnataka')], 7),
 
@@ -220,13 +205,7 @@ export const IN_STATES_SOUTH: SourceConfig[] = [
     9,
   ),
   src('in_tn_toi', 'Times of India (Chennai)', 'TN', [toi('2950623')], 9),
-  src(
-    'in_tn_nie',
-    'The New Indian Express (Tamil Nadu)',
-    'TN',
-    [nie('states/tamil-nadu', 178), nie('cities/chennai', 184)],
-    9,
-  ),
+  src('in_tn_nie', 'The New Indian Express (Tamil Nadu)', 'TN', [nie('states/tamil-nadu', 178), nie('cities/chennai', 184)], 9),
   src('in_tn_dtnext', 'DT Next (Tamil Nadu)', 'TN', ['https://www.dtnext.in/stories.rss?section=tamilnadu'], 8),
   src('in_tn_southfirst', 'The South First (Tamil Nadu)', 'TN', [southFirst('tamilnadu')], 7),
 

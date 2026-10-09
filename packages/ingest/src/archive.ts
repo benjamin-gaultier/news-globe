@@ -1,10 +1,4 @@
-import {
-  ARCHIVE_SCHEMA_VERSION,
-  type ArchiveDay,
-  type CountryFile,
-  type IndexFile,
-  type StoryCluster,
-} from '@news-globe/shared';
+import { ARCHIVE_SCHEMA_VERSION, type ArchiveDay, type CountryFile, type IndexFile, type StoryCluster } from '@news-globe/shared';
 import { readBundleEntry } from '@news-globe/shared/bundle';
 
 /**
@@ -45,8 +39,7 @@ function union(into: string[], more: string[]): string[] {
  */
 export function addRun(day: ArchiveDay | null, run: RunSnapshot): ArchiveDay {
   const date = run.runAt.slice(0, 10);
-  const base: ArchiveDay =
-    day && day.date === date ? day : { schemaVersion: ARCHIVE_SCHEMA_VERSION, date, stories: [], runs: {} };
+  const base: ArchiveDay = day && day.date === date ? day : { schemaVersion: ARCHIVE_SCHEMA_VERSION, date, stories: [], runs: {} };
   if (base.runs[run.runAt]) return base;
 
   const stories = base.stories.map((s) => ({ ...s }));

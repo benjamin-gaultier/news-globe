@@ -1,7 +1,11 @@
 import { COUNTRIES, REGIONS, type SearchFile } from '@news-globe/shared';
 
 /** Lower case without accents: "Sénat" and "senat" match. */
-export const foldForSearch = (s: string) => s.normalize('NFD').replace(/\p{M}+/gu, '').toLowerCase();
+export const foldForSearch = (s: string) =>
+  s
+    .normalize('NFD')
+    .replace(/\p{M}+/gu, '')
+    .toLowerCase();
 
 /** A place's display name: "Brittany, France" for a region, "France" for a country. */
 export function placeName(code: string): string {
@@ -41,7 +45,9 @@ export function indexSearch(file: SearchFile): SearchIndex {
  * with the most widely covered match first, at most `limit` headlines in all.
  */
 export function searchHeadlines(index: SearchIndex, query: string, limit = 60): { groups: SearchGroup[]; total: number } {
-  const words = foldForSearch(query).split(/\s+/).filter((w) => w.length > 0);
+  const words = foldForSearch(query)
+    .split(/\s+/)
+    .filter((w) => w.length > 0);
   if (!words.length) return { groups: [], total: 0 };
   const hits = index.rows.filter((r) => words.every((w) => r.text.includes(w))).map((r) => r.hit);
   const groups = new Map<string, SearchGroup>();

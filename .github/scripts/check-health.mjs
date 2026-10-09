@@ -29,7 +29,9 @@ try {
     problems.push('index.json is missing: nothing has been published.');
   } else {
     const age = hoursSince(index.updatedAt);
-    summary.push(`- Data updated ${fmt(age)} ago (${index.updatedAt}), ${index.countries.length} countries, ${index.regions?.length ?? 0} regions`);
+    summary.push(
+      `- Data updated ${fmt(age)} ago (${index.updatedAt}), ${index.countries.length} countries, ${index.regions?.length ?? 0} regions`,
+    );
     if (age > MAX_DATA_AGE_H) {
       problems.push(`Data is ${fmt(age)} old (limit ${MAX_DATA_AGE_H} h): is the Pi's ingest running and publishing?`);
     }

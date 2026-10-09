@@ -45,14 +45,22 @@ describe('WorldPanel', () => {
 
   it('lists each story with its shared names, countries and their headlines', async () => {
     const { onOpenStory } = renderWorld([
-      story([entry('DE', 'Warner Bros kauft Paramount', 'de', 4), entry('US', 'Warner Bros buys Paramount', 'en', 1), entry('ZZ', 'Unknown', 'xx')]),
+      story([
+        entry('DE', 'Warner Bros kauft Paramount', 'de', 4),
+        entry('US', 'Warner Bros buys Paramount', 'en', 1),
+        entry('ZZ', 'Unknown', 'xx'),
+      ]),
     ]);
     const [item] = items();
     expect(item!.querySelector('.world-names')!.textContent).toBe('Warner Bros · Paramount');
     // An English-language country's headline leads.
     expect(item!.querySelector('.world-english')!.textContent).toBe('Warner Bros buys Paramount');
     expect(within(item!).getByText('In 2 countries · latest 15 minutes ago')).toBeTruthy();
-    expect(within(item!).getAllByRole('button').map((b) => b.textContent)).toEqual(['Germany', 'United States']);
+    expect(
+      within(item!)
+        .getAllByRole('button')
+        .map((b) => b.textContent),
+    ).toEqual(['Germany', 'United States']);
     expect(within(item!).getByRole('link', { name: 'Warner Bros kauft Paramount' }).getAttribute('href')).toBe('https://de.example/story');
     expect(within(item!).getByText('· 4 outlets')).toBeTruthy();
     expect(within(item!).queryByText('· 1 outlets')).toBeNull();

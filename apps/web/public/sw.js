@@ -16,7 +16,12 @@ const KEEP = [SHELL, ASSETS, DATA];
 const MAX_ASSETS = 60;
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(SHELL).then((c) => c.add('/')).then(() => self.skipWaiting()));
+  event.waitUntil(
+    caches
+      .open(SHELL)
+      .then((c) => c.add('/'))
+      .then(() => self.skipWaiting()),
+  );
 });
 
 self.addEventListener('activate', (event) => {

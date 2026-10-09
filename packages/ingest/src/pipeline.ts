@@ -50,10 +50,7 @@ export interface IngestSummary {
 }
 
 /** A country or region: one output file, clustered on its own. */
-type Unit = { code: string; name: string; file: string } & (
-  | { kind: 'country' }
-  | { kind: 'region'; region: RegionMeta }
-);
+type Unit = { code: string; name: string; file: string } & ({ kind: 'country' } | { kind: 'region'; region: RegionMeta });
 
 /** The index line for one file, with its top story so the globe can show it without opening the file. */
 export function indexEntry(code: string, name: string, updatedAt: string, clusters: StoryCluster[]): IndexEntry {
@@ -144,9 +141,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
     const indexList = unit.kind === 'country' ? index.countries : index.regions!;
     const summaryList = unit.kind === 'country' ? summary.countries : summary.regions;
     // Newest first so dedupe keeps the freshest copy and cluster order is stable.
-    const unique = dedupeByCanonicalUrl(
-      (byUnit.get(code) ?? []).sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)),
-    );
+    const unique = dedupeByCanonicalUrl((byUnit.get(code) ?? []).sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)));
     // Regional partners rerun each other's stories under the same headline.
     const articles = unit.kind === 'region' ? dropRepublished(unique) : unique;
 

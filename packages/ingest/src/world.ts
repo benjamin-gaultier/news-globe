@@ -223,9 +223,7 @@ export function linkAcrossCountries(countries: CountryClusters[]): Doc[][] {
     members.delete(ra);
   }
 
-  return [...members.values()]
-    .map((ids) => ids.map((i) => docs[i]!))
-    .filter((g) => new Set(g.map((d) => d.country)).size > 1);
+  return [...members.values()].map((ids) => ids.map((i) => docs[i]!)).filter((g) => new Set(g.map((d) => d.country)).size > 1);
 }
 
 /**
@@ -275,11 +273,12 @@ export function buildWorld(countries: CountryClusters[], limit = MAX_WORLD_STORI
       id: [...entries.map((e) => e.clusterId)].sort()[0]!,
       names,
       countries: entries.sort((p, q) => q.outletCount24h - p.outletCount24h),
-      latestPublishedAt: [...byCountry.values()].map((c) => c.latestPublishedAt).sort().at(-1)!,
+      latestPublishedAt: [...byCountry.values()]
+        .map((c) => c.latestPublishedAt)
+        .sort()
+        .at(-1)!,
     });
   }
   const outlets = (s: WorldStory) => s.countries.reduce((n, c) => n + c.outletCount24h, 0);
-  return stories
-    .sort((p, q) => q.countries.length - p.countries.length || outlets(q) - outlets(p))
-    .slice(0, limit);
+  return stories.sort((p, q) => q.countries.length - p.countries.length || outlets(q) - outlets(p)).slice(0, limit);
 }

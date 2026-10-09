@@ -13,9 +13,7 @@ afterEach(() => {
 /** A load function whose calls can be settled by hand. */
 function deferredLoader<T>() {
   const calls: { signal: AbortSignal; resolve: (v: T) => void; reject: (e: unknown) => void }[] = [];
-  const load = vi.fn(
-    (signal: AbortSignal) => new Promise<T>((resolve, reject) => calls.push({ signal, resolve, reject })),
-  );
+  const load = vi.fn((signal: AbortSignal) => new Promise<T>((resolve, reject) => calls.push({ signal, resolve, reject })));
   return { load, calls };
 }
 

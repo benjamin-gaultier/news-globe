@@ -283,24 +283,18 @@ export default memo(function GlobeView({
 
   // Features without an ISO code (Somaliland, N. Cyprus) must not match `selected === null`.
   const isSelected = useCallback(
-    (f: Shape) =>
-      f.properties.region ? f.properties.region === selectedRegion : !!selected && f.properties.iso2 === selected,
+    (f: Shape) => (f.properties.region ? f.properties.region === selectedRegion : !!selected && f.properties.iso2 === selected),
     [selected, selectedRegion],
   );
   const isAvailable = useCallback(
     (f: Shape) =>
-      f.properties.region
-        ? availableRegions.has(f.properties.region)
-        : !!f.properties.iso2 && available.has(f.properties.iso2),
+      f.properties.region ? availableRegions.has(f.properties.region) : !!f.properties.iso2 && available.has(f.properties.iso2),
     [available, availableRegions],
   );
 
   const pulseOf = useMemo(() => new Map(pulses.map((p) => [p.code as string, p])), [pulses]);
 
-  const entryOf = useCallback(
-    (f: Shape) => entries.get(f.properties.region ?? f.properties.iso2 ?? ''),
-    [entries],
-  );
+  const entryOf = useCallback((f: Shape) => entries.get(f.properties.region ?? f.properties.iso2 ?? ''), [entries]);
 
   const capColor = useCallback(
     (obj: object) => {

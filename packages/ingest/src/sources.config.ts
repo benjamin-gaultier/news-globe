@@ -53,10 +53,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feedUrls: [
-      'https://www.lemonde.fr/politique/rss_full.xml',
-      'https://www.lemonde.fr/societe/rss_full.xml',
-    ],
+    feedUrls: ['https://www.lemonde.fr/politique/rss_full.xml', 'https://www.lemonde.fr/societe/rss_full.xml'],
     authority: 10,
   },
   {
@@ -74,10 +71,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feedUrls: [
-      'https://www.lefigaro.fr/rss/figaro_politique.xml',
-      'https://www.lefigaro.fr/rss/figaro_actualite-france.xml',
-    ],
+    feedUrls: ['https://www.lefigaro.fr/rss/figaro_politique.xml', 'https://www.lefigaro.fr/rss/figaro_actualite-france.xml'],
     authority: 8,
   },
   {
@@ -108,10 +102,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feedUrls: [
-      'https://www.20minutes.fr/feeds/rss-politique.xml',
-      'https://www.20minutes.fr/feeds/rss-societe.xml',
-    ],
+    feedUrls: ['https://www.20minutes.fr/feeds/rss-politique.xml', 'https://www.20minutes.fr/feeds/rss-societe.xml'],
     authority: 5,
   },
 
@@ -123,10 +114,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feedUrls: [
-      'https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml',
-      'https://rss.nytimes.com/services/xml/rss/nyt/US.xml',
-    ],
+    feedUrls: ['https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml', 'https://rss.nytimes.com/services/xml/rss/nyt/US.xml'],
     authority: 10,
   },
   {
@@ -135,10 +123,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feedUrls: [
-      'https://feeds.washingtonpost.com/rss/politics',
-      'https://feeds.washingtonpost.com/rss/national',
-    ],
+    feedUrls: ['https://feeds.washingtonpost.com/rss/politics', 'https://feeds.washingtonpost.com/rss/national'],
     authority: 9,
   },
   {
@@ -156,10 +141,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feedUrls: [
-      'https://www.pbs.org/newshour/feeds/rss/politics',
-      'https://www.pbs.org/newshour/feeds/rss/nation',
-    ],
+    feedUrls: ['https://www.pbs.org/newshour/feeds/rss/politics', 'https://www.pbs.org/newshour/feeds/rss/nation'],
     authority: 8,
   },
   // CBS and ABC stand in for AP as wire-like, high-volume national coverage.
@@ -178,10 +160,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feedUrls: [
-      'https://abcnews.com/abcnews/politicsheadlines',
-      'https://abcnews.com/abcnews/usheadlines',
-    ],
+    feedUrls: ['https://abcnews.com/abcnews/politicsheadlines', 'https://abcnews.com/abcnews/usheadlines'],
     authority: 7,
   },
   // ---- United Kingdom ----
@@ -447,7 +426,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CA',
     language: 'en',
-    feedUrls: ['https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/', 'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/'],
+    feedUrls: [
+      'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/',
+      'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/',
+    ],
     authority: 10,
   },
   {
@@ -1833,7 +1815,7 @@ export const SOURCES: SourceConfig[] = [
   },
   {
     id: 'lavenir',
-    name: 'L\'Avenir',
+    name: "L'Avenir",
     type: 'rss',
     country: 'BE',
     language: 'fr',
@@ -5321,10 +5303,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CN',
     language: 'zh',
-    feedUrls: [
-      'https://www.chinanews.com.cn/rss/china.xml',
-      'https://www.chinanews.com.cn/rss/society.xml',
-    ],
+    feedUrls: ['https://www.chinanews.com.cn/rss/china.xml', 'https://www.chinanews.com.cn/rss/society.xml'],
     authority: 9,
   },
   {
@@ -7283,10 +7262,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BFC',
-    feedUrls: [
-      'https://www.ici.fr/rss/bourgogne/rubrique/infos.xml',
-      'https://www.ici.fr/rss/besancon/rubrique/infos.xml',
-    ],
+    feedUrls: ['https://www.ici.fr/rss/bourgogne/rubrique/infos.xml', 'https://www.ici.fr/rss/besancon/rubrique/infos.xml'],
     authority: 8,
   },
   {
@@ -7336,10 +7312,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BRE',
-    feedUrls: [
-      'https://www.ici.fr/rss/armorique/rubrique/infos.xml',
-      'https://www.ici.fr/rss/breizh-izel/rubrique/infos.xml',
-    ],
+    feedUrls: ['https://www.ici.fr/rss/armorique/rubrique/infos.xml', 'https://www.ici.fr/rss/breizh-izel/rubrique/infos.xml'],
     authority: 8,
   },
   {
@@ -7508,10 +7481,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-HDF',
-    feedUrls: [
-      'https://www.ici.fr/rss/nord/rubrique/infos.xml',
-      'https://www.ici.fr/rss/picardie/rubrique/infos.xml',
-    ],
+    feedUrls: ['https://www.ici.fr/rss/nord/rubrique/infos.xml', 'https://www.ici.fr/rss/picardie/rubrique/infos.xml'],
     authority: 8,
   },
   {
@@ -7834,9 +7804,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BW',
-    feedUrls: [
-      'https://www.tagesschau.de/inland/regional/badenwuerttemberg/index~rss2.xml',
-    ],
+    feedUrls: ['https://www.tagesschau.de/inland/regional/badenwuerttemberg/index~rss2.xml'],
     authority: 8,
   },
   {
@@ -7926,9 +7894,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BY',
-    feedUrls: [
-      'https://www.abendzeitung-muenchen.de/storage/rss/rss/muenchen-news-abendzeitung.xml',
-    ],
+    feedUrls: ['https://www.abendzeitung-muenchen.de/storage/rss/rss/muenchen-news-abendzeitung.xml'],
     authority: 8,
   },
   {
@@ -8028,9 +7994,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HB',
-    feedUrls: [
-      'https://www.butenunbinnen.de/feed/rss/nachrichten/neuste-nachrichten100.xml',
-    ],
+    feedUrls: ['https://www.butenunbinnen.de/feed/rss/nachrichten/neuste-nachrichten100.xml'],
     authority: 8,
   },
   {
@@ -8161,9 +8125,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-MV',
-    feedUrls: [
-      'https://www.ostsee-zeitung.de/arc/outboundfeeds/rss/category/mecklenburg-vorpommern/',
-    ],
+    feedUrls: ['https://www.ostsee-zeitung.de/arc/outboundfeeds/rss/category/mecklenburg-vorpommern/'],
     authority: 9,
   },
   {
@@ -8224,9 +8186,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-NW',
-    feedUrls: [
-      'https://www.tagesschau.de/inland/regional/nordrheinwestfalen/index~rss2.xml',
-    ],
+    feedUrls: ['https://www.tagesschau.de/inland/regional/nordrheinwestfalen/index~rss2.xml'],
     authority: 8,
   },
   {
@@ -8266,9 +8226,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-RP',
-    feedUrls: [
-      'https://www.tagesschau.de/inland/regional/rheinlandpfalz/index~rss2.xml',
-    ],
+    feedUrls: ['https://www.tagesschau.de/inland/regional/rheinlandpfalz/index~rss2.xml'],
     authority: 8,
   },
   {
@@ -8278,9 +8236,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-RP',
-    feedUrls: [
-      'https://www.rhein-zeitung.de/feed/9-Newsletter_-_Rhein-Zeitung_Koblenz_und_Region.xml',
-    ],
+    feedUrls: ['https://www.rhein-zeitung.de/feed/9-Newsletter_-_Rhein-Zeitung_Koblenz_und_Region.xml'],
     authority: 9,
   },
   {
@@ -8442,9 +8398,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SH',
-    feedUrls: [
-      'https://www.kn-online.de/arc/outboundfeeds/rss/category/schleswig-holstein/',
-    ],
+    feedUrls: ['https://www.kn-online.de/arc/outboundfeeds/rss/category/schleswig-holstein/'],
     authority: 9,
   },
   {
@@ -8508,8 +8462,7 @@ export const SOURCES: SourceConfig[] = [
 ];
 
 export const INGEST_SETTINGS = {
-  userAgent:
-    'NewsGlobeBot/0.1 (+https://github.com/benjamin-gaultier/news-globe; headline metadata only)',
+  userAgent: 'NewsGlobeBot/0.1 (+https://github.com/benjamin-gaultier/news-globe; headline metadata only)',
   /** Never request the same feed more often than this, even on manual runs. */
   minFetchIntervalMs: 15 * 60 * 1000,
   /**

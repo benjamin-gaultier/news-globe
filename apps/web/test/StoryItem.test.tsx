@@ -49,7 +49,10 @@ describe('StoryItem', () => {
   });
 
   it('opens the story page from its other sources', async () => {
-    const related = [article({ source: { id: 'figaro', name: 'Le Figaro' } }), article({ source: { id: 'liberation', name: 'Libération' } })];
+    const related = [
+      article({ source: { id: 'figaro', name: 'Le Figaro' } }),
+      article({ source: { id: 'liberation', name: 'Libération' } }),
+    ];
     const { onOpen } = renderStory(cluster(article(), related));
     // The other outlets are on the story page, not in the list.
     expect(screen.queryByText('Le Figaro')).toBeNull();
@@ -64,11 +67,21 @@ describe('StoryItem', () => {
 
   it('links to the same story in other countries, skipping unknown codes', async () => {
     const { onOpenStoryIn, item } = renderStory(
-      cluster(article(), [], { alsoIn: [{ code: 'DE', clusterId: 'x' }, { code: 'ZZ', clusterId: 'y' }, { code: 'CL', clusterId: 'z' }] }),
+      cluster(article(), [], {
+        alsoIn: [
+          { code: 'DE', clusterId: 'x' },
+          { code: 'ZZ', clusterId: 'y' },
+          { code: 'CL', clusterId: 'z' },
+        ],
+      }),
     );
     expect(screen.getByText('Also in')).toBeTruthy();
     const also = item.querySelector('.story-also') as HTMLElement;
-    expect(within(also).getAllByRole('button').map((b) => b.textContent)).toEqual(['Germany', 'Chile']);
+    expect(
+      within(also)
+        .getAllByRole('button')
+        .map((b) => b.textContent),
+    ).toEqual(['Germany', 'Chile']);
     await userEvent.click(screen.getByRole('button', { name: 'Chile' }));
     expect(onOpenStoryIn).toHaveBeenCalledWith('CL', 'z');
   });
@@ -126,8 +139,22 @@ describe('StoryItem trends', () => {
   it('badges new and rising stories', () => {
     render(
       <ul>
-        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpen={vi.fn()} onOpenStoryIn={vi.fn()} trend={trendOf('new', [null, 3])} />
-        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpen={vi.fn()} onOpenStoryIn={vi.fn()} trend={trendOf('rising', [7, 2])} />
+        <StoryItem
+          cluster={cluster(article())}
+          now={NOW}
+          english={false}
+          onOpen={vi.fn()}
+          onOpenStoryIn={vi.fn()}
+          trend={trendOf('new', [null, 3])}
+        />
+        <StoryItem
+          cluster={cluster(article())}
+          now={NOW}
+          english={false}
+          onOpen={vi.fn()}
+          onOpenStoryIn={vi.fn()}
+          trend={trendOf('rising', [7, 2])}
+        />
       </ul>,
     );
     expect(screen.getByText('New')).toBeTruthy();
@@ -137,8 +164,22 @@ describe('StoryItem trends', () => {
   it('draws the rank history, gaps included, once there are two ranked runs', () => {
     render(
       <ul>
-        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpen={vi.fn()} onOpenStoryIn={vi.fn()} trend={trendOf(null, [2, null, 3, 1])} />
-        <StoryItem cluster={cluster(article())} now={NOW} english={false} onOpen={vi.fn()} onOpenStoryIn={vi.fn()} trend={trendOf(null, [null, 5])} />
+        <StoryItem
+          cluster={cluster(article())}
+          now={NOW}
+          english={false}
+          onOpen={vi.fn()}
+          onOpenStoryIn={vi.fn()}
+          trend={trendOf(null, [2, null, 3, 1])}
+        />
+        <StoryItem
+          cluster={cluster(article())}
+          now={NOW}
+          english={false}
+          onOpen={vi.fn()}
+          onOpenStoryIn={vi.fn()}
+          trend={trendOf(null, [null, 5])}
+        />
       </ul>,
     );
     const imgs = screen.getAllByRole('img');

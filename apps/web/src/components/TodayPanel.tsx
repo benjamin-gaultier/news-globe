@@ -170,15 +170,22 @@ export function TodayPanel({ world, now, isMobile, onClose, onSheetChange, onOpe
           </section>
         )}
         <p className="panel-footnote">
-          “Most covered” counts each country’s own outlets, so it favours stories a country’s whole press is following.
-          Headlines are translated on this device where the browser can; elsewhere “Translate” opens one in Google
-          Translate.
+          “Most covered” counts each country’s own outlets, so it favours stories a country’s whole press is following. Headlines are
+          translated on this device where the browser can; elsewhere “Translate” opens one in Google Translate.
         </p>
       </>
     );
 
   return (
-    <PanelShell title="Today" subtitle={subtitle} sheetKey="today" scrollKey="today" isMobile={isMobile} onClose={onClose} onSheetChange={onSheetChange}>
+    <PanelShell
+      title="Today"
+      subtitle={subtitle}
+      sheetKey="today"
+      scrollKey="today"
+      isMobile={isMobile}
+      onClose={onClose}
+      onSheetChange={onSheetChange}
+    >
       {body}
     </PanelShell>
   );

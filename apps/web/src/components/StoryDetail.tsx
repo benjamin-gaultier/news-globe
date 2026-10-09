@@ -9,10 +9,7 @@ import { ArticleLink, CountryStoryRow, TrendBadge } from './StoryParts';
 
 /** The cluster a story link names: by its id, else by any of its articles (the headline article may have changed). */
 export function findStory(clusters: readonly StoryCluster[], id: string): StoryCluster | undefined {
-  return (
-    clusters.find((c) => c.id === id) ??
-    clusters.find((c) => c.representative.id === id || c.related.some((a) => a.id === id))
-  );
+  return clusters.find((c) => c.id === id) ?? clusters.find((c) => c.representative.id === id || c.related.some((a) => a.id === id));
 }
 
 /** The cross-border story this cluster belongs to, if any. */
@@ -62,9 +59,7 @@ export function StoryDetail({ cluster, unit, now, english, trend, runs, world, o
   const title = useTranslated(rep.title, rep.language, english);
   const foreign = rep.language !== TARGET_LANGUAGE;
   const coverage = [rep, ...cluster.related].sort((a, b) => Date.parse(a.publishedAt) - Date.parse(b.publishedAt));
-  const elsewhere = (worldStoryOf(world, unit.code, cluster.id)?.countries ?? []).filter(
-    (c) => c.code !== unit.code && COUNTRIES[c.code],
-  );
+  const elsewhere = (worldStoryOf(world, unit.code, cluster.id)?.countries ?? []).filter((c) => c.code !== unit.code && COUNTRIES[c.code]);
   // Countries linked by the ingest that the world index doesn't list (older index): names only.
   const namesOnly = (cluster.alsoIn ?? []).filter((a) => COUNTRIES[a.code] && !elsewhere.some((c) => c.code === a.code));
   const rank = trend?.ranks.at(-1);
@@ -98,7 +93,12 @@ export function StoryDetail({ cluster, unit, now, english, trend, runs, world, o
       )}
       <p className="story-detail-facts">
         {plural(cluster.outletCount, 'outlet')}
-        {rank != null && <> · #{rank} in {unit.name} now</>}
+        {rank != null && (
+          <>
+            {' '}
+            · #{rank} in {unit.name} now
+          </>
+        )}
         {trend && <> · in the top list since {clock(trend.firstSeen)}</>}
         <TrendBadge state={trend?.state} />
       </p>
@@ -134,9 +134,7 @@ export function StoryDetail({ cluster, unit, now, english, trend, runs, world, o
       )}
 
       <section className="story-section" aria-labelledby="story-coverage">
-        <h3 id="story-coverage">
-          Coverage · {plural(coverage.length, 'outlet')}
-        </h3>
+        <h3 id="story-coverage">Coverage · {plural(coverage.length, 'outlet')}</h3>
         <ol className="coverage-list">
           {coverage.map((a, i) => (
             <CoverageItem key={a.id} article={a} now={now} english={english} first={i === 0 && coverage.length > 1} />

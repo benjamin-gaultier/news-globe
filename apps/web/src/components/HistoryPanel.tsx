@@ -45,7 +45,15 @@ export function HistoryPanel({
     <PanelShell
       crumb={countryName && onBackToCountry ? { label: countryName, onClick: onBackToCountry } : undefined}
       title={unit.name}
-      subtitle={runAt ? <>Top stories at {clock(runAt)} · {dayLabel(date)}</> : dayLabel(date)}
+      subtitle={
+        runAt ? (
+          <>
+            Top stories at {clock(runAt)} · {dayLabel(date)}
+          </>
+        ) : (
+          dayLabel(date)
+        )
+      }
       sheetKey={`history:${unit.code}`}
       scrollKey={`${unit.code}@${runAt}`}
       toolbar={timeline}
@@ -82,8 +90,7 @@ export function HistoryPanel({
         </ol>
       )}
       <p className="panel-footnote">
-        From the hourly history archive: the headline as last seen that day, linking to the publisher. Times are in your time
-        zone.
+        From the hourly history archive: the headline as last seen that day, linking to the publisher. Times are in your time zone.
       </p>
     </PanelShell>
   );

@@ -10,10 +10,7 @@ export interface SearchBoxProps {
 }
 
 /** The search bar in the top bar: results open in the panel as you type. */
-export const SearchBox = forwardRef<HTMLInputElement, SearchBoxProps>(function SearchBox(
-  { query, onQueryChange, onFocus, onClear },
-  ref,
-) {
+export const SearchBox = forwardRef<HTMLInputElement, SearchBoxProps>(function SearchBox({ query, onQueryChange, onFocus, onClear }, ref) {
   return (
     <form className="search-box" role="search" onSubmit={(e) => e.preventDefault()}>
       <svg className="search-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">

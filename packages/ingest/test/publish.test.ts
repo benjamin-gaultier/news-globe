@@ -25,8 +25,9 @@ afterEach(async () => {
 });
 
 function okFetch() {
-  return vi.fn(async (_url: string | URL | Request, _init?: RequestInit) =>
-    new Response(JSON.stringify({ success: true, errors: [] }), { status: 200 }),
+  return vi.fn(
+    async (_url: string | URL | Request, _init?: RequestInit) =>
+      new Response(JSON.stringify({ success: true, errors: [] }), { status: 200 }),
   );
 }
 
@@ -82,8 +83,8 @@ describe('publishToKv', () => {
   });
 
   it('throws on API failure and retries next time', async () => {
-    const failing = vi.fn(async () =>
-      new Response(JSON.stringify({ success: false, errors: [{ message: 'Authentication error' }] }), { status: 403 }),
+    const failing = vi.fn(
+      async () => new Response(JSON.stringify({ success: false, errors: [{ message: 'Authentication error' }] }), { status: 403 }),
     );
     await expect(publishToKv(dir, cfg, { fetchImpl: failing, log: quiet })).rejects.toThrow('Authentication error');
 

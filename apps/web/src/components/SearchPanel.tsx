@@ -55,7 +55,15 @@ export function SearchPanel({ query, isMobile, onClose, onSheetChange, onOpenSto
     );
 
   return (
-    <PanelShell title="Search results" subtitle={subtitle} sheetKey="search" scrollKey={query} isMobile={isMobile} onClose={onClose} onSheetChange={onSheetChange}>
+    <PanelShell
+      title="Search results"
+      subtitle={subtitle}
+      sheetKey="search"
+      scrollKey={query}
+      isMobile={isMobile}
+      onClose={onClose}
+      onSheetChange={onSheetChange}
+    >
       {body}
     </PanelShell>
   );
