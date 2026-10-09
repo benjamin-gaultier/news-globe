@@ -18,12 +18,13 @@ describe('heatStep', () => {
 });
 
 describe('pulsesFrom', () => {
+  const RUN = '2026-10-09T10:00:00Z';
   const trend = (ranks: (number | null)[], state: ClusterTrend['state']): ClusterTrend => ({ ranks, firstSeen: '2026-10-09T08:00:00Z', state });
   const entry = (code: string, topOutlets: number): [string, IndexEntry] => [
     code,
-    { code, name: code, updatedAt: '2026-10-09T10:00:00Z', clusterCount: 3, topOutlets },
+    { code, name: code, updatedAt: RUN, clusterCount: 3, topOutlets },
   ];
-  const trends = (units: TrendsFile['units']): TrendsFile => ({ schemaVersion: SCHEMA_VERSION, runAt: '2026-10-09T10:00:00Z', runs: [], units, change: {} });
+  const trends = (units: TrendsFile['units']): TrendsFile => ({ schemaVersion: SCHEMA_VERSION, runAt: RUN, runs: [], units, change: {} });
 
   it('pulses countries whose #1 is new or rising and covered by 2+ outlets, best-covered first', () => {
     const units = {
@@ -38,6 +39,12 @@ describe('pulsesFrom', () => {
       { code: 'DE', lat: 51.2, lng: 10.4, state: 'new', outlets: 6 },
       { code: 'FR', lat: 46.6, lng: 2.4, state: 'rising', outlets: 3 },
     ]);
+  });
+
+  it('ignores a country whose index line is from another run than the trends', () => {
+    const entries = new Map([entry('FR', 5)]);
+    entries.get('FR')!.updatedAt = '2026-10-09T09:00:00Z';
+    expect(pulsesFrom(trends({ FR: { a: trend([null, 1], 'new') } }), entries)).toEqual([]);
   });
 
   it('keeps the globe calm: at most PULSE_MAX pulses', () => {

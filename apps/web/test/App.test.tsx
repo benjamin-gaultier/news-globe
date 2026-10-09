@@ -2,7 +2,7 @@
 import { act, render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { ARCHIVE_SCHEMA_VERSION, SCHEMA_VERSION, type ArchiveDay, type IndexFile } from '@news-globe/shared';
+import { ARCHIVE_SCHEMA_VERSION, SCHEMA_VERSION, type ArchiveDay, type CountryFile, type IndexFile } from '@news-globe/shared';
 import { App } from '../src/App';
 import type { GlobeViewProps } from '../src/components/GlobeView';
 import { article, cluster, countryFile } from './fixtures';
@@ -427,10 +427,21 @@ describe('Trends', () => {
 
   it('pulses the countries whose #1 story is new or rising, while no country is open', async () => {
     withTrends();
+    const runAt = (files['countries/FR.json']!() as CountryFile).updatedAt;
+    const index = indexFile();
+    index.countries[0]!.updatedAt = runAt; // the index line of the run the trends describe
+    files['index.json'] = () => index;
     await renderApp();
     await waitFor(() => expect(globe.props!.pulses?.map((p) => p.code)).toEqual(['FR']));
     expect(globe.props!.pulses![0]).toMatchObject({ state: 'rising', outlets: 3 });
-    expect(screen.getByText('New #1 story this hour')).toBeTruthy();
+    expect(screen.getByText('New or rising #1 story')).toBeTruthy();
+  });
+
+  it('pulses nothing from trends of another run than the index', async () => {
+    withTrends(); // the index's FR line is from another run
+    await renderApp();
+    await waitFor(() => expect(requested()).toContain('/data/trends.json'));
+    expect(globe.props!.pulses).toEqual([]);
   });
 
   it('offers no change shading before the workflow has written trends', async () => {

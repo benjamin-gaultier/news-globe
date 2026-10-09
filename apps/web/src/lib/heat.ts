@@ -43,14 +43,17 @@ export const PULSE_MIN_OUTLETS = 2;
 /** At most this many pulses, the best-covered first, so the globe doesn't flicker all over. */
 export const PULSE_MAX = 10;
 
-/** Countries whose top story is new or rising in the latest run, best-covered first. */
+/** Countries whose top story is new or rising in the run `trends` describes, best-covered first. */
 export function pulsesFrom(trends: TrendsFile, entries: ReadonlyMap<string, IndexEntry>): Pulse[] {
   const out: Pulse[] = [];
   for (const [code, clusters] of Object.entries(trends.units)) {
     const meta = COUNTRIES[code];
     if (!meta) continue; // regions don't pulse
+    // Trends from another run than the country's index line (one file fetched before the other) would pulse a stale #1.
+    const entry = entries.get(code);
+    if (entry?.updatedAt !== trends.runAt) continue;
     const top = Object.values(clusters).find((t) => t.ranks.at(-1) === 1);
-    const outlets = entries.get(code)?.topOutlets ?? 0;
+    const outlets = entry.topOutlets ?? 0;
     if (!top?.state || outlets < PULSE_MIN_OUTLETS) continue;
     out.push({ code: meta.code, lat: meta.lat, lng: meta.lng, state: top.state, outlets });
   }

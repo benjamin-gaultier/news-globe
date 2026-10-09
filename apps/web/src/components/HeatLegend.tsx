@@ -49,7 +49,7 @@ export function HeatLegend({
           </li>
         ))}
       </ol>
-      {pulsing && <p className="legend-pulse">New #1 story this hour</p>}
+      {pulsing && <p className="legend-pulse">New or rising #1 story</p>}
     </figure>
   );
 }

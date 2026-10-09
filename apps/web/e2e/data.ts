@@ -2,6 +2,8 @@ import type { Page } from '@playwright/test';
 import { COUNTRIES, REGIONS, SCHEMA_VERSION, type CountryFile, type IndexEntry, type IndexFile } from '@news-globe/shared';
 
 const ago = (minutes: number) => new Date(Date.now() - minutes * 60_000).toISOString();
+/** The latest run: index lines, country files and trends all describe it. */
+const RUN_AT = ago(10);
 
 export interface Scenario {
   /** Countries with headlines, and the outlets on each one's top story. */
@@ -16,7 +18,7 @@ export const topTitle = (code: string) => `Top story in ${COUNTRIES[code]?.name 
 
 function entry(code: string, topOutlets: number): IndexEntry {
   const name = COUNTRIES[code]?.name ?? REGIONS[code]!.name;
-  return { code, name, updatedAt: ago(10), clusterCount: 1, topTitle: topTitle(code), topOutlets };
+  return { code, name, updatedAt: RUN_AT, clusterCount: 1, topTitle: topTitle(code), topOutlets };
 }
 
 function file(code: string): CountryFile {
@@ -28,7 +30,7 @@ function file(code: string): CountryFile {
     countryCode: country,
     countryName: COUNTRIES[country]!.name,
     ...(region && { regionCode: code, regionName: region.name }),
-    updatedAt: ago(10),
+    updatedAt: RUN_AT,
     clusters: [
       {
         id: code,
@@ -60,7 +62,7 @@ export async function serveData(page: Page, scenario: Scenario): Promise<void> {
   const regions = scenario.regions ?? [];
   const index: IndexFile = {
     schemaVersion: SCHEMA_VERSION,
-    updatedAt: ago(10),
+    updatedAt: RUN_AT,
     countries: Object.entries(scenario.countries).map(([code, outlets]) => entry(code, outlets)),
     regions: regions.map((code) => entry(code, 1)),
     world: [],
@@ -72,7 +74,7 @@ export async function serveData(page: Page, scenario: Scenario): Promise<void> {
       const units = Object.fromEntries(
         scenario.pulses.map((code) => [code, { [code]: { ranks: [null, 1], firstSeen: ago(10), state: 'new' } }]),
       );
-      return route.fulfill({ json: { schemaVersion: SCHEMA_VERSION, runAt: ago(10), runs: [ago(70), ago(10)], units, change: {} } });
+      return route.fulfill({ json: { schemaVersion: SCHEMA_VERSION, runAt: RUN_AT, runs: [ago(70), RUN_AT], units, change: {} } });
     }
     const m = /^(?:countries|regions)\/([A-Z0-9-]+)\.json$/.exec(path);
     const known = m && (scenario.countries[m[1]!] !== undefined || regions.includes(m[1]!));

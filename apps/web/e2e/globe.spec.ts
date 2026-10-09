@@ -51,7 +51,7 @@ test.describe('globe', () => {
   test('pulses a country whose #1 story is new this hour, and says so', async ({ page }) => {
     await serveData(page, { countries: { FR: 5, US: 1 }, pulses: ['FR'] });
     await centerOn(page, '#FR', 'France');
-    await expect(page.getByText('New #1 story this hour')).toBeVisible();
+    await expect(page.getByText('New or rising #1 story')).toBeVisible();
 
     await hoverCenter(page);
     await expect(tooltip(page)).toContainText('New #1 this hour');
