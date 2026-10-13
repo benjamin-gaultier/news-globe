@@ -59,7 +59,7 @@ jobs:
             echo "run=false" >> "$GITHUB_OUTPUT"
             echo "::notice::No change the browser tests cover: skipped (they run on main before deploying)."
           fi
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
         if: steps.scope.outputs.run == 'true'
       - uses: actions/setup-node@v5
         if: steps.scope.outputs.run == 'true'
