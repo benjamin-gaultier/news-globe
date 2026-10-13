@@ -142,7 +142,7 @@ describe('worker', () => {
     it('gives a finished day a validator from its date, and answers 304 without reading KV', async () => {
       const e = env({ 'archive/2026-10-06': new Uint8Array([0x1f, 0x8b]) });
       const etag = (await call('/data/archive/2026-10-06.json', e)).headers.get('ETag')!;
-      expect(etag).toBe('W/"archive-v1-2026-10-06"');
+      expect(etag).toBe('W/"archive-v1.1-2026-10-06"');
 
       e.NEWS_DATA.get.mockClear();
       const res = await get('/data/archive/2026-10-06.json', e, etag);

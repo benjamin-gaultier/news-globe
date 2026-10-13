@@ -147,7 +147,10 @@ export interface FailingFeed {
 
 /**
  * History: one file per UTC day (`archive/YYYY-MM-DD`), built up by every
- * ingest run that day. Not served by the Worker yet.
+ * ingest run that day, served at /data/archive/YYYY-MM-DD.json. Finished days'
+ * ETags include it, so changing the format reaches browsers that already hold a day
+ * (to rewrite a day's content without a format change, bump ARCHIVE_ETAG_REV in
+ * apps/web/worker/index.ts).
  */
 export const ARCHIVE_SCHEMA_VERSION = 1;
 

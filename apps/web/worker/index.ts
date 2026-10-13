@@ -38,10 +38,16 @@ async function etagOf(body: ArrayBuffer | Uint8Array): Promise<string> {
 }
 
 /**
- * A finished day's validator, from its date alone: the day never changes, and hashing 1–2 MB
- * on every request would use much of a free-plan invocation's 10 ms of CPU.
+ * Bump when a finished day is rewritten in KV (a fix, a removed headline, a new field):
+ * browsers holding the old day revalidate with the old ETag, and only a new one reaches them.
  */
-const pastDayEtag = (date: string) => `W/"archive-v${ARCHIVE_SCHEMA_VERSION}-${date}"`;
+const ARCHIVE_ETAG_REV = 1;
+
+/**
+ * A finished day's validator, from its date, the archive format version and ARCHIVE_ETAG_REV: the day never changes,
+ * and hashing 1–2 MB on every request would use much of a free-plan invocation's 10 ms of CPU.
+ */
+const pastDayEtag = (date: string) => `W/"archive-v${ARCHIVE_SCHEMA_VERSION}.${ARCHIVE_ETAG_REV}-${date}"`;
 
 /** Whether the request names this validator; `*` ("any version") only counts once the file is known to exist. */
 const matches = (request: Request, etag: string, exists: boolean) =>
