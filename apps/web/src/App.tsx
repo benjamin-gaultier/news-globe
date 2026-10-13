@@ -308,6 +308,10 @@ export function App() {
               ) : (
                 <>Loading…</>
               )}
+              <span className="credit">
+                {' · by '}
+                <a href="https://benjamingaultier.com/">Benjamin Gaultier</a>
+              </span>
             </p>
           </div>
           <SearchBox ref={searchInput} query={query} onQueryChange={changeQuery} onFocus={reopenSearch} onClear={clearSearch} />

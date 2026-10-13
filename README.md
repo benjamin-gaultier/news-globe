@@ -4,7 +4,7 @@
 
 An interactive 3D globe of the news. Click a country to see its top national headlines right now, grouped by story and ranked by how many outlets cover them.
 
-**Live:** https://news-globe.maze-td.workers.dev
+**Live:** https://news-globe.maze-td.workers.dev · built by [Benjamin Gaultier](https://benjamingaultier.com/)
 
 ![France open on the globe: its regions shaded, and its top stories in the side panel](docs/images/fr.webp)
 
@@ -69,6 +69,10 @@ docs/              the details
 - [How it works](docs/how-it-works.md): each feature, the architecture, the pipeline's steps and thresholds, the data files, next steps.
 - [Operations](docs/operations.md): deploying, the Raspberry Pi setup, the health check, the history archive, auto-update, translation and the LLM review.
 - [Sources](docs/sources.md): every feed and outlet by country, feed quirks, how to add a feed or a country, and map credits.
+
+## Author
+
+Built by [Benjamin Gaultier](https://benjamingaultier.com/), a full stack engineer in Paris. Issues and pull requests are welcome.
 
 ## License
 
