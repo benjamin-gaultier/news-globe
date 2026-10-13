@@ -22,9 +22,9 @@ const MAX_AGE_S = 60;
 /** History: `/data/archive/YYYY-MM-DD.json`, stored gzipped in KV as `archive/YYYY-MM-DD`. */
 const ARCHIVE_KEY = /^archive\/(\d{4}-\d{2}-\d{2})\.json$/;
 /**
- * A finished day never changes; today's file grows every run. Yesterday counts
- * as still growing: its last run can be archived after midnight UTC (a late
- * archive step, or the health workflow's retry).
+ * A finished day stays as it is unless someone rewrites it (see ARCHIVE_ETAG_REV);
+ * today's file grows every run. Yesterday counts as still growing: its last run can
+ * be archived after midnight UTC (a late archive step, or the health workflow's retry).
  */
 const PAST_DAY_MAX_AGE_S = 86_400;
 
@@ -40,11 +40,13 @@ async function etagOf(body: ArrayBuffer | Uint8Array): Promise<string> {
 /**
  * Bump when a finished day is rewritten in KV (a fix, a removed headline, a new field):
  * browsers holding the old day revalidate with the old ETag, and only a new one reaches them.
+ * The new content is served within a minute of the deploy: KV values are edge-cached for
+ * MAX_AGE_S only, so rewrite the day first, then bump and deploy.
  */
 const ARCHIVE_ETAG_REV = 1;
 
 /**
- * A finished day's validator, from its date, the archive format version and ARCHIVE_ETAG_REV: the day never changes,
+ * A finished day's validator, from its date, the archive format version and ARCHIVE_ETAG_REV: a finished day only changes when someone rewrites it (then the rev is bumped),
  * and hashing 1–2 MB on every request would use much of a free-plan invocation's 10 ms of CPU.
  */
 const pastDayEtag = (date: string) => `W/"archive-v${ARCHIVE_SCHEMA_VERSION}.${ARCHIVE_ETAG_REV}-${date}"`;
@@ -82,9 +84,13 @@ async function respond(
   return new Response(request.method === 'HEAD' ? null : body, { headers, ...(opts.gzipped && { encodeBody: 'manual' as const }) });
 }
 
-/** A gzipped KV value under its own key. */
+/**
+ * A gzipped KV value under its own key. Edge-cached for a minute whatever the browser's max-age,
+ * so a rewritten past day is served soon after its rev bump (past days are only read on a
+ * browser's first view: later ones get a 304 without reading KV).
+ */
 async function serveGzipped(request: Request, env: Env, kvKey: string, maxAge: number, etag: string | 'hash' | null): Promise<Response> {
-  const gzipped = await env.NEWS_DATA.get(kvKey, { type: 'arrayBuffer', cacheTtl: maxAge });
+  const gzipped = await env.NEWS_DATA.get(kvKey, { type: 'arrayBuffer', cacheTtl: MAX_AGE_S });
   if (gzipped === null) return new Response('Not found', { status: 404 });
   return respond(request, gzipped, { maxAge, gzipped: true, etag });
 }

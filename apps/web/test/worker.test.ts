@@ -207,7 +207,8 @@ describe('worker', () => {
       expect(res.headers.get('Content-Encoding')).toBe('gzip');
       expect(res.headers.get('Content-Type')).toBe('application/json; charset=utf-8');
       expect(res.headers.get('Cache-Control')).toBe('public, max-age=86400');
-      expect(e.NEWS_DATA.get).toHaveBeenCalledWith('archive/2026-10-06', { type: 'arrayBuffer', cacheTtl: 86_400 });
+      // Edge-cached for a minute only, so a rewritten day is served soon after its ETag rev is bumped.
+      expect(e.NEWS_DATA.get).toHaveBeenCalledWith('archive/2026-10-06', { type: 'arrayBuffer', cacheTtl: 60 });
     });
 
     it('caches yesterday for a minute only, since its last run can be archived after midnight', async () => {
