@@ -739,6 +739,15 @@ button {
   min-width: 0;
 }
 
+.credit a {
+  color: inherit;
+  text-underline-offset: 2px;
+}
+
+.credit a:hover {
+  color: var(--text);
+}
+
 .country-picker {
   grid-area: places;
   display: flex;
@@ -1287,6 +1296,10 @@ button {
 
   .updated {
     font-size: 0.75rem;
+  }
+
+  .credit {
+    display: none;
   }
 
   /* Icons only; the buttons keep their names for screen readers (aria-label). */

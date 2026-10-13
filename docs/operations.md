@@ -52,7 +52,14 @@ Runs on a Raspberry Pi 4 (64-bit Raspberry Pi OS / Debian 13). Steps 2–4 need 
    echo 'export PATH=$HOME/.local/bin:$HOME/.local/node/bin:$PATH' >> ~/.profile && . ~/.profile
    mkdir -p ~/.local/bin && corepack enable --install-directory ~/.local/bin
    ```
-3. The repo is private, so give the Pi a **read-only deploy key** for this repo only:
+3. Clone the repo and fill in `.env`:
+   ```bash
+   git clone https://github.com/benjamin-gaultier/news-globe.git ~/news-globe
+   cd ~/news-globe && pnpm install --frozen-lockfile
+   cp .env.example .env && chmod 600 .env && nano .env   # the account ID, the KV namespace ID and the token
+   pnpm ingest                                         # should end with "[publish] uploaded ... as one bundle"
+   ```
+   Running from a private fork? Give the Pi a **read-only deploy key** for that repo only, and clone through it:
    ```bash
    ssh-keygen -t ed25519 -N "" -f ~/.ssh/news_globe_deploy
    printf "Host github-news-globe
@@ -63,10 +70,7 @@ Runs on a Raspberry Pi 4 (64-bit Raspberry Pi OS / Debian 13). Steps 2–4 need 
 " >> ~/.ssh/config
    # then add ~/.ssh/news_globe_deploy.pub on GitHub (repo → Settings → Deploy keys, write access off),
    # or from a machine with gh: gh repo deploy-key add news_globe_deploy.pub --title "pi (read-only)"
-   git clone github-news-globe:benjamin-gaultier/news-globe.git ~/news-globe
-   cd ~/news-globe && pnpm install --frozen-lockfile
-   cp .env.example .env && chmod 600 .env && nano .env   # paste the token into CLOUDFLARE_API_TOKEN
-   pnpm ingest                                         # should end with "[publish] uploaded ... as one bundle"
+   git clone github-news-globe:<you>/news-globe.git ~/news-globe
    ```
    When moving the ingest from another machine, copy its `data/.cache/` over first. The Pi then knows when each feed was last fetched (and its ETag), so the 15-minute limit holds across the switch.
 4. Install the service. [deploy/raspberry-pi/news-globe-ingest.service](../deploy/raspberry-pi/news-globe-ingest.service) assumes user `pi`; replace `pi` with your user name:

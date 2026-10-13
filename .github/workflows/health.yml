@@ -4,8 +4,8 @@ name: Health
 # history archive (a fallback once the Pi archives after each run, with
 # ARCHIVE_AFTER_RUN=1: a run it already archived is skipped). A failed run makes GitHub email whoever last changed this
 # schedule (and anyone watching Actions), so stale data, a dark country or a
-# broken archive is noticed within the hour. Both live in one job to keep
-# Actions minutes down (the repo is private).
+# broken archive is noticed within the hour. Both live in one job, which
+# keeps the schedule to a single runner start an hour.
 on:
   schedule:
     - cron: '23 * * * *'
