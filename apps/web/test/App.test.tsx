@@ -553,10 +553,10 @@ describe('App', () => {
   });
 
   describe('History', () => {
-    it('replays a day’s runs on the globe and in the panel', async () => {
+    it('replays a day’s runs on the globe and in the panel, from the briefing', async () => {
       files.archive = () => true;
       await renderApp();
-      await userEvent.click(screen.getByRole('button', { name: 'History' }));
+      await userEvent.click(within(panel()!).getByRole('button', { name: 'History' }));
 
       const slider = await screen.findByRole('slider');
       const today = new Date().toISOString().slice(0, 10);
@@ -564,7 +564,7 @@ describe('App', () => {
       // Opens on the day's latest run.
       expect((slider as HTMLInputElement).value).toBe('1');
       await waitFor(() => expect(location.hash).toBe(`#@${today}T09:00`));
-      expect(screen.getByRole('button', { name: 'History' }).getAttribute('aria-pressed')).toBe('true');
+      expect(within(screen.getByRole('banner')).getByRole('button', { name: 'History' }).getAttribute('aria-pressed')).toBe('true');
       // The briefing is live only.
       expect(briefing()).toBeNull();
       expect([...globe.props!.entries.keys()]).toEqual(['FR']);

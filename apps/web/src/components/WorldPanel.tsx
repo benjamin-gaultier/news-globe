@@ -110,13 +110,25 @@ export interface WorldPanelProps {
   onOpenStory: OpenStory;
   /** The countries of the story pointed at or focused, for the globe; null when there is none. */
   onHighlight: Highlight;
+  /** The bar under the heading: Live, and the way into History. */
+  timeline?: ReactNode;
 }
 
 /**
  * The world briefing, and the landing view: the top stories worldwide right now, each with the countries whose
  * headlines carry it, then what is rising this hour and what has stayed on top all day.
  */
-export function WorldPanel({ world, refreshKey, now, isMobile, onClose, onSheetChange, onOpenStory, onHighlight }: WorldPanelProps) {
+export function WorldPanel({
+  world,
+  refreshKey,
+  now,
+  isMobile,
+  onClose,
+  onSheetChange,
+  onOpenStory,
+  onHighlight,
+  timeline,
+}: WorldPanelProps) {
   const file = useAsync((signal) => fetchToday(signal), [refreshKey]);
   // Kept while it is re-read; undefined until the first read is in (null: the workflow hasn't written it yet).
   const loaded = latestData(file);
@@ -208,6 +220,7 @@ export function WorldPanel({ world, refreshKey, now, isMobile, onClose, onSheetC
       isMobile={isMobile}
       onClose={onClose}
       onSheetChange={onSheetChange}
+      toolbar={timeline}
     >
       {body}
     </PanelShell>

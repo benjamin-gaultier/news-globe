@@ -483,6 +483,7 @@ export function App() {
             onSheetChange={setSheetFraction}
             onOpenStory={openStoryIn}
             onHighlight={setHighlight}
+            timeline={<LiveBar onHistory={openHistory} />}
           />
         )}
 
