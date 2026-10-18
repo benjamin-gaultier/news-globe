@@ -1,5 +1,5 @@
 import type { CountryCode, TodayStory, WorldStory } from '@news-globe/shared';
-import { type PointerEvent, type ReactNode, useCallback, useEffect, useMemo, useRef } from 'react';
+import { type FocusEvent, type PointerEvent, type ReactNode, useCallback, useEffect, useMemo, useRef } from 'react';
 import { latestData, useAsync } from '../hooks/useAsync';
 import { useTranslated } from '../hooks/useTranslated';
 import { briefOf, notIn, topStories, type Brief } from '../lib/briefing';
@@ -71,14 +71,11 @@ function BriefItem({
     [onLight],
   );
   const hover = (on: boolean) => (e: PointerEvent) => e.pointerType !== 'touch' && light('pointer', on);
+  // Focus moving between the line's own links and chips leaves it lit, rather than clearing the globe for a moment.
+  const focusIn = (e: FocusEvent) => !lit.current.focus && e.target.matches(':focus-visible') && light('focus', true);
+  const focusOut = (e: FocusEvent) => lit.current.focus && !e.currentTarget.contains(e.relatedTarget) && light('focus', false);
   return (
-    <li
-      className="story brief"
-      onPointerEnter={hover(true)}
-      onPointerLeave={hover(false)}
-      onFocus={(e) => e.target.matches(':focus-visible') && light('focus', true)}
-      onBlur={() => lit.current.focus && light('focus', false)}
-    >
+    <li className="story brief" onPointerEnter={hover(true)} onPointerLeave={hover(false)} onFocus={focusIn} onBlur={focusOut}>
       <div className="story-main">
         <div className="story-text">
           <button

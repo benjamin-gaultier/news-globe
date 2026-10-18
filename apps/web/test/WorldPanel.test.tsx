@@ -150,6 +150,11 @@ describe('WorldPanel', () => {
     await userEvent.tab();
     expect(document.activeElement).toBe(within(top).getByRole('button', { name: 'Senate vote' }));
     expect(onHighlight).toHaveBeenLastCalledWith(['US']);
+    // Within the line, focus moves without the globe clearing.
+    onHighlight.mockClear();
+    await userEvent.tab();
+    expect(document.activeElement).toBe(screen.getByRole('link', { name: 'Read “Senate vote” at its publisher' }));
+    expect(onHighlight).not.toHaveBeenCalled();
     // The mouse passing over another story leaves it lit.
     fireEvent.pointerEnter(nato, { pointerType: 'mouse' });
     expect(onHighlight).toHaveBeenLastCalledWith(['FR', 'US']);
