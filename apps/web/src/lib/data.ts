@@ -1,7 +1,9 @@
 import {
   ARCHIVE_SCHEMA_VERSION,
   SCHEMA_VERSION,
+  fileStem,
   type ArchiveDay,
+  type Category,
   type CountryCode,
   type CountryFile,
   type IndexFile,
@@ -27,8 +29,9 @@ async function fetchJson<T extends { schemaVersion: number }>(path: string, sign
 
 export const fetchIndex = (signal?: AbortSignal) => fetchJson<IndexFile>('index.json', signal);
 
-export const fetchCountry = (code: CountryCode, signal?: AbortSignal) =>
-  fetchJson<CountryFile>(`countries/${encodeURIComponent(code)}.json`, signal);
+/** A country's top headlines, or one of its sections (`countries/FR.sport.json`). */
+export const fetchCountry = (code: CountryCode, category: Category = 'top', signal?: AbortSignal) =>
+  fetchJson<CountryFile>(`countries/${encodeURIComponent(fileStem(code, category))}.json`, signal);
 
 /** One UTC day of history (`YYYY-MM-DD`), or null when nothing was archived that day. */
 export async function fetchArchive(date: string, signal?: AbortSignal): Promise<ArchiveDay | null> {
@@ -63,6 +66,6 @@ export const fetchTranslations = (signal?: AbortSignal) => fetchDerived<Translat
 /** Every headline of the latest run, for search. */
 export const fetchSearch = (signal?: AbortSignal) => fetchDerived<SearchFile>('search.json', signal);
 
-/** Regional files share the country file's shape, plus `regionCode` / `regionName`. */
-export const fetchRegion = (code: RegionCode, signal?: AbortSignal) =>
-  fetchJson<CountryFile>(`regions/${encodeURIComponent(code)}.json`, signal);
+/** Regional files share the country file's shape, plus `regionCode` / `regionName`; so do their sections (`regions/FR-BRE.sport.json`). */
+export const fetchRegion = (code: RegionCode, category: Category = 'top', signal?: AbortSignal) =>
+  fetchJson<CountryFile>(`regions/${encodeURIComponent(fileStem(code, category))}.json`, signal);

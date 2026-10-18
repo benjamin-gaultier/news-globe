@@ -15,7 +15,7 @@ Live at **https://news-globe.maze-td.workers.dev**.
                                              └──────────────────────────────────────┘
 ```
 
-Why the ingest runs on the Pi rather than on a Cloudflare Cron Trigger: a free-plan Worker gets 10 ms of CPU per invocation, and parsing ~25 feeds and clustering ~400 titles takes far more than that. KV's free tier allows 1,000 writes a day, so the publisher packs `index.json` and every `countries/{CC}.json` into a single `bundle` value (a JSON offset table, then the files back to back; see [bundle.ts](../packages/shared/src/bundle.ts)) and uploads it only when its hash changed: at most 24 writes a day, whatever the number of countries. The Worker slices the requested file out of the bundle.
+Why the ingest runs on the Pi rather than on a Cloudflare Cron Trigger: a free-plan Worker gets 10 ms of CPU per invocation, and parsing ~25 feeds and clustering ~400 titles takes far more than that. KV's free tier allows 1,000 writes a day, so the publisher packs `index.json` and every country and region file, section files included, into a single `bundle` value (a JSON offset table, then the files back to back; see [bundle.ts](../packages/shared/src/bundle.ts)) and uploads it only when its hash changed: at most 24 writes a day, whatever the number of countries. The Worker slices the requested file out of the bundle.
 
 ## Front end (Worker + static assets)
 
@@ -88,14 +88,14 @@ Publishing turns on when `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_KV_NAMESPACE_ID` a
 
 ## Health check
 
-After each run (not `--offline`), [health.ts](../packages/ingest/src/health.ts) writes `data/status.json`, which is published with the other files at `/data/status.json`. It lists every feed whose last request failed (an HTTP error, a timeout, or a body that would not parse) with its last status and last success, plus the **dark** countries and regions: those with no working feed left, whose headlines are therefore frozen.
+After each run (not `--offline`), [health.ts](../packages/ingest/src/health.ts) writes `data/status.json`, which is published with the other files at `/data/status.json`. It lists every feed whose last request failed (an HTTP error, a timeout, or a body that would not parse) with its last status and last success, plus the **dark** files: a country's or region's top or section file (`DE`, `DE.sport`) with no working feed left, whose headlines are therefore frozen.
 
 [.github/workflows/health.yml](../.github/workflows/health.yml) checks the live site every hour, at :23, and then adds the latest run to the [history archive](#history-archive) ([check-health.mjs](../.github/scripts/check-health.mjs), plain Node). The run **fails** when:
 
 - `index.json` is more than 3 hours old, meaning the Pi is offline or publishing broke, or
-- a country or region has been dark for more than 12 hours.
+- a country's or region's top file has been dark for more than 12 hours.
 
-A failed scheduled run makes GitHub email whoever last changed the workflow's schedule (Settings → Notifications → Actions controls this). Shorter outages and single failing feeds show up as warnings and in a table on each run's summary page. Run it on demand with Actions → Health → Run workflow. Set the `SITE_URL` repository variable to check a different deployment.
+A failed scheduled run makes GitHub email whoever last changed the workflow's schedule (Settings → Notifications → Actions controls this). Shorter outages, single failing feeds and dark section files show up as warnings and in a table on each run's summary page. Run it on demand with Actions → Health → Run workflow. Set the `SITE_URL` repository variable to check a different deployment.
 
 ## History archive
 

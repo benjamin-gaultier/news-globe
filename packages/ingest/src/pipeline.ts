@@ -2,10 +2,13 @@ import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
+  CATEGORIES,
   COUNTRIES,
+  fileStem,
   REGIONS,
   SCHEMA_VERSION,
   type Article,
+  type Category,
   type CountryCode,
   type CountryFile,
   type IndexEntry,
@@ -28,7 +31,7 @@ import {
   toArticle,
 } from './normalize/article';
 import { buildCluster, rankClusters } from './rank';
-import { feedUrlsOf, INGEST_SETTINGS, SOURCES, type SourceConfig } from './sources.config';
+import { FETCHED_CATEGORIES, feedUrlsOf, INGEST_SETTINGS, SOURCES, type SourceConfig } from './sources.config';
 import { buildWorld } from './world';
 import { writeJsonAtomic } from './write';
 
@@ -39,6 +42,8 @@ export interface IngestOptions {
   dataDir?: string;
   sources?: SourceConfig[];
   settings?: typeof INGEST_SETTINGS;
+  /** Categories to fetch and write files for; FETCHED_CATEGORIES by default. */
+  categories?: readonly Category[];
   now?: () => number;
   log?: (msg: string) => void;
   /** Build from the HTTP cache only, without any request. */
@@ -47,6 +52,7 @@ export interface IngestOptions {
 
 interface UnitSummary {
   code: CountryCode | RegionCode;
+  category: Category;
   articles: number;
   clusters: number;
   written: boolean;
@@ -57,8 +63,11 @@ export interface IngestSummary {
   regions: UnitSummary[];
 }
 
-/** A country or region: one output file, clustered on its own. */
-type Unit = { code: string; name: string; file: string } & ({ kind: 'country' } | { kind: 'region'; region: RegionMeta });
+/** A country's or region's file in one category: clustered and ranked on its own. */
+type Unit = { code: string; name: string; category: Category; file: string } & (
+  | { kind: 'country' }
+  | { kind: 'region'; region: RegionMeta }
+);
 
 /** The index line for one file, with its top story so the globe can show it without opening the file. */
 export function indexEntry(code: string, name: string, updatedAt: string, clusters: StoryCluster[]): IndexEntry {
@@ -82,8 +91,9 @@ async function readJson<T>(file: string): Promise<T | null> {
 
 export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary> {
   const dataDir = opts.dataDir ?? DEFAULT_DATA_DIR;
-  // Outlets with no feed in a fetched category (a sports daily) stay out until their category does.
-  const sources = (opts.sources ?? SOURCES).filter((s) => feedUrlsOf(s).length > 0);
+  const categories = opts.categories ?? FETCHED_CATEGORIES;
+  // Outlets with no feed in a fetched category stay out until their category is fetched.
+  const sources = (opts.sources ?? SOURCES).filter((s) => feedUrlsOf(s, categories).length > 0);
   const settings = opts.settings ?? INGEST_SETTINGS;
   const clock = opts.now ?? Date.now;
   const log = opts.log ?? console.log;
@@ -102,7 +112,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   // Fetch: a few outlets at a time, feeds within an outlet sequentially.
   const lines: string[] = [];
   const perSource = await mapLimit(sources, settings.fetchConcurrency, async (source) => {
-    const results = await adapterFor(source).fetch(source, { http, log: (m) => lines.push(m) });
+    const results = await adapterFor(source).fetch(source, { http, categories, log: (m) => lines.push(m) });
     return { source, results };
   });
   log(lines.sort().join('\n'));
@@ -113,44 +123,59 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   const authority = new Map(sources.map((s) => [s.id, s.authority]));
   const authorityOf = (id: string) => authority.get(id) ?? 0;
 
-  // Regional outlets feed their region's file, national ones their country's.
-  const byUnit = new Map<string, Article[]>();
+  // A feed's articles go to its category's file: regional outlets' to their region's, national ones' to their country's.
+  const byFile = new Map<string, Article[]>();
   for (const { source, results } of perSource) {
-    for (const { items, retrievedAt } of results) {
+    for (const { category, items, retrievedAt } of results) {
+      const key = fileStem(source.region ?? source.country, category);
+      const list = byFile.get(key) ?? [];
       for (const item of items) {
         const article = toArticle(item, source, retrievedAt, now);
         if (Date.parse(article.publishedAt) < minTime) continue;
         if (isMisdecoded(article.title) || isUnrenderedTemplate(article.title) || isNotNews(article.title)) continue;
-        const key = source.region ?? source.country;
-        const list = byUnit.get(key) ?? [];
         list.push(article);
-        byUnit.set(key, list);
       }
+      byFile.set(key, list);
     }
   }
 
+  // One file per unit and category its outlets have feeds in. A source counts toward a category only
+  // through its feeds in it: a sports daily makes (or keeps) no top file, and a unit with no business
+  // feed gets no business file.
   const units: Unit[] = [];
-  for (const code of new Set(sources.filter((s) => !s.region).map((s) => s.country))) {
-    const meta = COUNTRIES[code];
-    if (meta) units.push({ kind: 'country', code, name: meta.name, file: join(dataDir, 'countries', `${code}.json`) });
-  }
-  for (const code of new Set(sources.flatMap((s) => (s.region ? [s.region] : [])))) {
-    const meta = REGIONS[code];
-    if (meta) units.push({ kind: 'region', code, name: meta.name, file: join(dataDir, 'regions', `${code}.json`), region: meta });
+  for (const category of categories) {
+    const inCategory = sources.filter((s) => feedUrlsOf(s, [category]).length > 0);
+    const file = (dir: string, code: string) => join(dataDir, dir, `${fileStem(code, category)}.json`);
+    for (const code of new Set(inCategory.filter((s) => !s.region).map((s) => s.country))) {
+      const meta = COUNTRIES[code];
+      if (meta) units.push({ kind: 'country', code, name: meta.name, category, file: file('countries', code) });
+    }
+    for (const code of new Set(inCategory.flatMap((s) => (s.region ? [s.region] : [])))) {
+      const meta = REGIONS[code];
+      if (meta) units.push({ kind: 'region', code, name: meta.name, category, file: file('regions', code), region: meta });
+    }
   }
 
   const updatedAt = new Date(now).toISOString();
   const summary: IngestSummary = { countries: [], regions: [] };
   const index: Pick<IndexFile, 'countries' | 'regions'> = { countries: [], regions: [] };
-  // National files wait for cross-border linking, which adds `alsoIn` to their clusters.
+  // National top files wait for cross-border linking, which adds `alsoIn` to their clusters.
   const nationalFiles: { file: string; out: CountryFile }[] = [];
+  // Unit code → the categories it has a file in after this run.
+  const filed = new Map<string, Set<Category>>();
+  // The index lists top files; a section file only adds its category to its unit's entry.
+  const addToIndex = (unit: Unit, at: string, clusters: StoryCluster[]) => {
+    filed.set(unit.code, (filed.get(unit.code) ?? new Set()).add(unit.category));
+    if (unit.category !== 'top') return;
+    (unit.kind === 'country' ? index.countries : index.regions!).push(indexEntry(unit.code, unit.name, at, clusters));
+  };
 
   for (const unit of units) {
-    const { code, name, file } = unit;
-    const indexList = unit.kind === 'country' ? index.countries : index.regions!;
+    const { code, name, category, file } = unit;
+    const label = fileStem(code, category);
     const summaryList = unit.kind === 'country' ? summary.countries : summary.regions;
     // Newest first so dedupe keeps the freshest copy and cluster order is stable.
-    const unique = dedupeByCanonicalUrl((byUnit.get(code) ?? []).sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)));
+    const unique = dedupeByCanonicalUrl((byFile.get(label) ?? []).sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)));
     // Regional partners rerun each other's stories under the same headline; nationally, only an
     // outlet's own repeats go (the same wire headline from several outlets is real coverage).
     const articles = unit.kind === 'region' ? dropRepublished(unique) : dropOwnRepeats(unique);
@@ -158,11 +183,9 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
     if (articles.length === 0) {
       // Every feed failed and nothing is cached: keep the previous file rather than blanking it.
       const previous = await readJson<CountryFile>(file);
-      log(`${code}: no articles — ${previous ? 'keeping previous file' : 'nothing to write'}`);
-      if (previous) {
-        indexList.push(indexEntry(code, name, previous.updatedAt, previous.clusters));
-      }
-      summaryList.push({ code, articles: 0, clusters: previous?.clusters.length ?? 0, written: false });
+      log(`${label}: no articles — ${previous ? 'keeping previous file' : 'nothing to write'}`);
+      if (previous) addToIndex(unit, previous.updatedAt, previous.clusters);
+      summaryList.push({ code, category, articles: 0, clusters: previous?.clusters.length ?? 0, written: false });
       continue;
     }
 
@@ -178,25 +201,33 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       settings.maxSoloStoriesPerOutlet,
     );
 
+    const section = category === 'top' ? {} : { category };
     const out: CountryFile =
       unit.kind === 'country'
-        ? { schemaVersion: SCHEMA_VERSION, countryCode: code, countryName: name, updatedAt, clusters }
+        ? { schemaVersion: SCHEMA_VERSION, countryCode: code, countryName: name, ...section, updatedAt, clusters }
         : {
             schemaVersion: SCHEMA_VERSION,
             countryCode: unit.region.country,
             countryName: COUNTRIES[unit.region.country]?.name ?? unit.region.country,
             regionCode: code,
             regionName: name,
+            ...section,
             updatedAt,
             clusters,
           };
-    if (unit.kind === 'country') nationalFiles.push({ file, out });
+    if (unit.kind === 'country' && category === 'top') nationalFiles.push({ file, out });
     else await writeJsonAtomic(file, out);
-    indexList.push(indexEntry(code, name, updatedAt, clusters));
-    summaryList.push({ code, articles: articles.length, clusters: clusters.length, written: true });
+    addToIndex(unit, updatedAt, clusters);
+    summaryList.push({ code, category, articles: articles.length, clusters: clusters.length, written: true });
 
     const multi = groups.filter((g) => new Set(g.map((a) => a.source.id)).size > 1).length;
-    log(`${code}: ${articles.length} articles → ${groups.length} clusters (${multi} multi-outlet), wrote top ${clusters.length}`);
+    log(`${label}: ${articles.length} articles → ${groups.length} clusters (${multi} multi-outlet), wrote top ${clusters.length}`);
+  }
+
+  // Each entry names its unit's section files, so the web app offers only those that exist.
+  for (const entry of [...index.countries, ...index.regions!]) {
+    const has = CATEGORIES.filter((c) => filed.get(entry.code)?.has(c));
+    if (has.length > 1) entry.categories = has;
   }
 
   const world = buildWorld(nationalFiles.map(({ out }) => ({ code: out.countryCode, clusters: out.clusters })));

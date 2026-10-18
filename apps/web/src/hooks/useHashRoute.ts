@@ -34,6 +34,7 @@ function sameView(a: Route, b: Route): boolean {
     a.region === b.region &&
     a.world === b.world &&
     a.story === b.story &&
+    (a.category ?? 'top') === (b.category ?? 'top') &&
     !!a.today === !!b.today &&
     (a.at?.slice(0, 10) ?? null) === (b.at?.slice(0, 10) ?? null)
   );

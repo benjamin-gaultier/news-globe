@@ -2,7 +2,8 @@
  * Data contract between the ingest worker and the web app.
  *
  * The worker writes these shapes as static JSON (`data/index.json`,
- * `data/countries/{CC}.json`, `data/regions/{CC}-{R}.json`); the web app only
+ * `data/countries/{CC}.json`, `data/regions/{CC}-{R}.json`, and section files
+ * such as `data/countries/{CC}.sport.json`); the web app only
  * ever reads them. Bump
  * `SCHEMA_VERSION` on any breaking change.
  */
@@ -14,6 +15,22 @@ export type CountryCode = string;
 
 /** ISO 3166-2 subdivision code, upper case (e.g. "FR-BRE"). */
 export type RegionCode = string;
+
+/**
+ * What a country's or region's file covers. `top` is its main headlines; the
+ * others are sections (sport, business), each clustered and ranked on its own
+ * from the outlets' section feeds.
+ */
+export const CATEGORIES = ['top', 'sport', 'business'] as const;
+export type Category = (typeof CATEGORIES)[number];
+
+/**
+ * A unit's file name in `countries/` or `regions/`, without `.json`: `FR` for
+ * its top headlines, `FR.sport` for a section. Top files keep the name they
+ * always had, and a dot never occurs in a code, so a section file can't be
+ * mistaken for another unit's.
+ */
+export const fileStem = (code: CountryCode | RegionCode, category: Category = 'top') => (category === 'top' ? code : `${code}.${category}`);
 
 export interface SourceRef {
   /** Stable id from sources.config.ts, e.g. "lemonde". */
@@ -72,6 +89,8 @@ export interface CountryFile {
   /** Set on regional files (`regions/{code}.json`), which share this shape. */
   regionCode?: RegionCode;
   regionName?: string;
+  /** Set on section files (`countries/{CC}.sport.json`), which share it too; absent on top files. */
+  category?: Exclude<Category, 'top'>;
   /** ISO 8601 time this file was generated. */
   updatedAt: string;
   /** Ranked, best first. */
@@ -88,13 +107,20 @@ export interface IndexEntry {
   topTitle?: string;
   /** Distinct outlets covering the top story in the last 24 h (its `outletCount24h`). */
   topOutlets?: number;
+  /**
+   * Categories it has a file in, in CATEGORIES order (`['top', 'sport']`: `FR.json` and
+   * `FR.sport.json`). The entry itself describes the `top` file. Absent when that is its only
+   * file, and in older index files.
+   */
+  categories?: Category[];
 }
 
 export interface IndexFile {
   schemaVersion: number;
   updatedAt: string;
+  /** Countries with a top file; their section files are listed in each entry's `categories`. */
   countries: IndexEntry[];
-  /** Regions with a file. Optional: older index files have none. */
+  /** Regions with a top file. Optional: older index files have none. */
   regions?: IndexEntry[];
   /** Stories in several countries' top stories, most countries first. Optional: older index files have none. */
   world?: WorldStory[];
@@ -130,14 +156,17 @@ export interface StatusFile {
     /** Feeds whose last request failed (HTTP error, timeout, unparsable body), longest failing first. */
     failing: FailingFeed[];
   };
-  /** Countries and regions none of whose feeds currently works: their headlines are frozen. */
-  darkUnits: { code: CountryCode | RegionCode; since: string | null }[];
+  /**
+   * Files none of whose feeds currently works: their headlines are frozen. Each is named by its
+   * `fileStem`: `FR` is France's top file, `DE.sport` Germany's sport file.
+   */
+  darkUnits: { code: string; since: string | null }[];
 }
 
 export interface FailingFeed {
   source: string;
-  /** Country or region the feed serves. */
-  unit: CountryCode | RegionCode;
+  /** The file the feed serves, by its `fileStem`: `FR`, `FR-BRE`, `DE.sport`. */
+  unit: string;
   url: string;
   /** HTTP status or error message of the last attempt. */
   lastStatus: number | string | null;

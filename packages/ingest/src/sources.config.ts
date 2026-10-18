@@ -1,4 +1,4 @@
-import type { CountryCode, RegionCode } from '@news-globe/shared';
+import { CATEGORIES, type Category, type CountryCode, type RegionCode } from '@news-globe/shared';
 import { ES_REGIONS_NORTH } from './sources/es-regions-north';
 import { ES_REGIONS_SOUTH } from './sources/es-regions-south';
 import { IT_REGIONS_NORTH } from './sources/it-regions-north';
@@ -18,19 +18,17 @@ import { US_STATES_SOUTH } from './sources/us-states-south';
 import { US_STATES_WEST } from './sources/us-states-west';
 
 /**
- * What a feed covers. `top` is the country's or region's main headlines, the
- * only file written so far; the others are section feeds (sport, business)
- * that will get files of their own.
+ * What a feed covers. `top` is the country's or region's main headlines
+ * (`countries/FR.json`); the others are section feeds (sport, business), each
+ * clustered into a file of its own (`countries/FR.sport.json`).
  */
-export const CATEGORIES = ['top', 'sport', 'business'] as const;
-export type Category = (typeof CATEGORIES)[number];
+export { CATEGORIES, type Category };
 
 /**
- * Categories the ingest fetches. The others' feeds are checked with
- * `pnpm probe` and listed in SOURCES, but not requested until the pipeline
- * writes a file per category.
+ * Categories the ingest fetches and writes files for. A category left out
+ * keeps its feeds in SOURCES (checked with `pnpm probe`) without requesting them.
  */
-export const FETCHED_CATEGORIES: readonly Category[] = ['top'];
+export const FETCHED_CATEGORIES: readonly Category[] = CATEGORIES;
 
 /** A source's feed URLs in the given categories, in category order. */
 export function feedUrlsOf(source: SourceConfig, categories: readonly Category[] = FETCHED_CATEGORIES): string[] {
@@ -397,8 +395,6 @@ export const SOURCES: SourceConfig[] = [
     feeds: { sport: ['https://newsfeed.kicker.de/news/aktuell'] },
     authority: 10,
   },
-  // TODO(isNotNews): drop its "Live hören: …" radio listings before 'sport' is fetched. They are
-  // dated at kick-off, and future dates become `now`, so they would rank as the newest stories.
   {
     id: 'sportschau',
     name: 'Sportschau',
