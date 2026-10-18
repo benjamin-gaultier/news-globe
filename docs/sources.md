@@ -2395,7 +2395,7 @@ Authority weights are editorial judgment calls. They only decide which outlet's 
 
 ## Sport and business feeds
 
-First batch probed on 2026-10-18, a Sunday, so business feeds were quieter than on a weekday. A feed was kept if it parsed, every item had a date, and it posts several items a day. These feeds sit under `feeds.sport` and `feeds.business` in [sources.config.ts](../packages/ingest/src/sources.config.ts), and each category is clustered into files of its own, next to the top file (`countries/FR.sport.json`; see **Sections** under [Pipeline](how-it-works.md#pipeline)). Specialist outlets (sports dailies, a business daily) have no `top` feed, so they appear only in their category's file; their authority is set for their category, with the leading sports daily at 10.
+First batch (France to Italy) probed on 2026-10-18, a Sunday, so business feeds were quieter than on a weekday; the second batch (Canada to Belgium) was probed the same day. A feed was kept if it parsed, every item had a date, and it posts several items a day: about 4 a day was the floor, counted over 3 and 7 days. These feeds sit under `feeds.sport` and `feeds.business` in [sources.config.ts](../packages/ingest/src/sources.config.ts), and each category is clustered into files of its own, next to the top file (`countries/FR.sport.json`; see **Sections** under [Pipeline](how-it-works.md#pipeline)). Specialist outlets (sports dailies and sites, business-only outlets) have no `top` feed, so they appear only in their category's file; their authority is set for their category. A country's leading sport outlet is at 10 where one clearly leads: its sports daily (Marca, La Gazzetta, A Bola, Olé, Récord, Nikkan Sports), or kicker, ESPN and ge. Where none does, as in Canada, Ireland, the Netherlands and Belgium, sport specialists are at 8 or 9, below the country's leading national outlet. A business-only outlet is kept only if most of its feed is business: Valor Econômico and Het Financieele Dagblad, with one mixed feed each, were dropped, as was NDTV Profit. A specialist from the same group as a national outlet was checked against that outlet's section in the probe cache, as L'Avenir was against DH: only word-for-word reprints get a feed dropped.
 
 **France** (added 2026-10-18)
 
@@ -2456,6 +2456,181 @@ First batch probed on 2026-10-18, a Sunday, so business feeds were quieter than 
 | ANSA | sport | economia | 10 | ✅ (economia: about 9 items a day) |
 | la Repubblica | calcio | economia | 9 | ✅ (`rss/sport/rss2.0.xml` is still listed on its RSS page but 404s; the calcio feed is used) |
 | La Gazzetta dello Sport | latest news (`section/last.xml`) | — | 10 | ➕ **added** (`rss/home.xml` is stale, newest item from December 2023; `last.xml` had 30 items in 3 h) |
+
+**Canada** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| The Globe and Mail | sports | business | 10 | ✅ |
+| CTV News | sports | business | 9 | ✅ |
+| Radio-Canada | Sports (771) | Économie (5717) | 9 | ✅ (économie: 23 items in 3 days) |
+| Global News | — | — | 8 | ❌ sports: 7 items in 7 days; money: 3 |
+| National Post | — | — | 7 | ❌ `category/sports/feed` and `category/business/feed` are stale (newest items from July and from 2015), and its section pages advertise no feed |
+| La Presse | sports | affaires | 7 | ✅ |
+| Sportsnet | main | — | 9 | ➕ **added** (77 items in 24 h, nearly half of them NHL) |
+| ~~Financial Post~~ | — | — | — | ❌ **not added**: half of its feed is GlobeNewswire press releases |
+
+**Australia** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| ABC News | Sport | Business | 10 | ✅ |
+| Guardian Australia | au/sport | — | 9 | ✅ sport; ❌ au/business: 10 items in 3 days, 22 in 7, and 11 of its 28 items general Australian news |
+| Sydney Morning Herald | sport | business | 9 | ✅ |
+| SBS News | — | — | 8 | ❌ `topic/sport/feed` and `topic/business/feed` 404; SBS has no RSS page and its sport page advertises no feed |
+| Australian Financial Review | — | markets | 7 | ✅ (about 5 items a day; `rss/companies.xml` 404s and the site has no RSS page) |
+
+**Ireland** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| RTÉ News | sport | news/business | 10 | ✅ |
+| The Irish Times | feed-sport | feed-business | 10 | ✅ |
+| Irish Independent | sport | business | 8 | ✅ |
+| TheJournal.ie | — | — | 8 | ❌ `business/feed/` 404, and it advertises only its main feed; its sport is The42 (below) |
+| Irish Examiner | — | — | 8 | ❌ `feed/35-sport.xml` and `feed/35-business.xml` return the same 9 mixed headlines; its pages advertise only top news |
+| Irish Mirror | sport | — | 6 | ✅ |
+| The42 | main | — | 8 | ➕ **added**: TheJournal's sports site (28 items in 24 h) |
+
+**New Zealand** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| RNZ | sport | business | 10 | ✅ (business: 16 items in 3 days) |
+| NZ Herald | sport | business | 9 | ✅ (10-item feeds; all 10 sport items within 13 h) |
+| 1News | — | — | 9 | ❌ `category/sport` has 2 items and `category/business` none; its section pages advertise no feed |
+| Stuff | — | — | 8 | ❌ `/sport/rss` and `/business/rss` return 410 Gone, and the site advertises no feed |
+| Newsroom | — | — | 7 | ❌ `category/sport/feed/` 404; `category/business/feed/`: 14 items in 7 days |
+
+**Brazil** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| g1 | — | economia | 10 | ✅ (Globo's sport is ge, below) |
+| Folha de S.Paulo | esporte | mercado | 9 | ✅ |
+| Estadão | esportes | economia | 9 | ✅ |
+| O Globo | — | — | 8 | ❌ `rss/esportes/` and `rss/economia/` return 400; its section pages advertise only the main feed |
+| Agência Brasil | esportes | economia | 7 | ✅ (about 4 items a day each) |
+| Poder360 | — | — | 7 | ❌ `economia/feed/` and the section page return 403 to non-browser clients |
+| ge | main | — | 10 | ➕ **added**: Globo's sports site (100 items in 12 h) |
+| ~~Valor Econômico~~ | — | — | — | ❌ **not added**: its only feed (`rss/valor/`, 41 items in 24 h) is mixed: of 100 items, 40 were politics (the presidential run-off) and only 25 companies and finance. Its section pages advertise only that feed |
+| ~~Lance!~~ | — | — | — | ❌ **not added**: `/feed/` 404, and the site advertises no feed |
+
+**Mexico** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| El Universal | deportes | cartera | 10 | ✅ |
+| La Jornada | deportes | economía | 9 | ✅ (the print edition, posted at once each morning: 9 and 7 items) |
+| Reforma | cancha | negocios | 9 | ✅ (`rss/deportes.xml` is stale, from 2005; its RSS page lists `cancha.xml`) |
+| Excélsior | — | — | 8 | ❌ `rss/adrenalina` and `rss/dinero` return the same mixed feed (sport, entertainment, national news); no section feeds advertised |
+| El Financiero | — | — | 8 | ❌ `category/deportes` and `category/economia` have 2 and 3 items; `/rss/` redirects to the main feed, already `top` |
+| Expansión | — | empresas | 7 | ✅ (about 4 items a day) |
+| El Sol de México | — | — | 7 | ❌ section feeds and section pages return 403 |
+| Récord | articles | — | 10 | ➕ **added** (`rss-articles.xml`, from its RSS page; 99 items in 24 h) |
+
+**Argentina** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| Clarín | deportes | — | 10 | ✅ deportes; ❌ economía: all 10 items were automated "Euro hoy en …" exchange-rate pages |
+| La Nación | deportes | economía | 10 | ✅ |
+| Infobae | deportes | economía | 9 | ✅ |
+| TN | deportes | economía | 8 | ✅ |
+| Perfil | deportes | economía | 7 | ✅ |
+| Ámbito | — | economía | 7 | ✅ |
+| Olé | últimas noticias | — | 10 | ➕ **added** (Grupo Clarín, like Clarín: none of the 10 Clarín deportes headlines matched Olé's, word for word or nearly, over the 7 h both feeds covered) |
+| ~~El Cronista~~ | — | — | — | ❌ **not added**: the site advertises no feed (`/rss/` redirects to the home page) |
+
+**India** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| The Hindu | sport | business | 10 | ✅ |
+| The Indian Express | sports | business | 9 | ✅ |
+| Times of India | sports | business | 9 | ✅ |
+| Hindustan Times | sports | business | 8 | ✅ (business: a 5-item feed, all within 21 h) |
+| NDTV | sports | — | 8 | ✅ sports; ❌ business: NDTV Profit's feed mixes in sport, tech and entertainment (8 of 20 items about business or markets), and ndtv.com/rss returns 403 |
+| The Economic Times | — | economy, industry | 10 | ➕ **added** (both from its RSS page; its top-stories feed mixes in general news. Times Group, like the Times of India: none of the 20 TOI business headlines was ET's word for word; the stories both covered, such as ICICI Bank's results, had their own headlines) |
+
+**Japan** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| Asahi Shimbun | sports | business | 10 | ✅ (about 9 items a day each) |
+| Mainichi Shimbun | sports | — | 9 | ✅ sports; ❌ business: its RSS page lists none |
+| Kyodo News | — | — | 9 | ❌ kyodo.co.jp has only a corporate feed |
+| Sankei Shimbun | sports | economy | 8 | ✅ |
+| Jiji Press | — | — | 8 | ❌ its RSS page returns 403 |
+| TBS News Dig | — | — | 8 | ❌ no section feeds advertised |
+| Nikkan Sports | baseball, soccer, other sports | — | 10 | ➕ **added** (from its RSS page; 40 items in 12 h across the three. Asahi affiliate: the two cached feeds covered different days (Asahi sports Oct 16–17, Nikkan Oct 18), so no headlines could be compared; all 20 Asahi items are on asahi.com) |
+| ~~Nikkei~~ | — | — | — | ❌ **not added**: nikkei.com has no RSS |
+
+**Portugal** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| RTP Notícias | desporto | economia | 10 | ✅ |
+| Público | — | — | 10 | ❌ its RSS page returns 403 to non-browser clients |
+| Observador | — | — | 9 | ❌ `seccao/desporto/feed/` and `seccao/economia/feed/` return the main feed, and its section pages advertise only that |
+| ECO | — | — | 7 | — a business outlet whose main feed is already `top` |
+| Correio da Manhã | — | — | 6 | ❌ `rss/desporto` and `rss/economia` 404; its RSS page lists only the main feed |
+| A Bola | articles | — | 10 | ➕ **added** (`rss-articles.xml`, advertised in its pages; 148 items in 24 h) |
+| Record | main | — | 9 | ➕ **added** (20 items in 4 h) |
+| Jornal de Negócios | — | main | 10 | ➕ **added** (20 items in 21 h) |
+| ~~O Jogo~~ | — | — | — | ❌ **not added**: ojogo.pt returns 403 to non-browser clients |
+
+**Austria** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| ORF | sport | — | 10 | ✅ (`rss.orf.at/sport.xml`) |
+| Der Standard | sport | wirtschaft | 10 | ✅ |
+| Die Presse | — | — | 9 | ❌ sport: 17 items in 7 days; wirtschaft: 14 |
+| Kurier | sport | wirtschaft | 8 | ✅ |
+| Kleine Zeitung | sport | wirtschaft | 7 | ✅ |
+| Kronen Zeitung | — | — | 7 | ❌ its pages advertise no section feeds |
+
+**Switzerland** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| SRF News | Sport | — | 10 | ✅ Sport; ❌ Wirtschaft (`bnf/rss/1926`): 21 items in 7 days |
+| NZZ | sport | wirtschaft | 9 | ✅ (sport: about 4 items a day) |
+| RTS Info | sport | — | 9 | ✅ sport; ❌ économie: 21 items in 7 days |
+| Tages-Anzeiger | — | — | 8 | ❌ `sport/rss.html` is stale (newest item 3 months old); `wirtschaft/rss.html` has 8 items in 3 days |
+| Le Temps | — | économie | 8 | ✅ économie (15 items in 3 days); ❌ sport: 16 items in 7 days, none in 24 h |
+| Blick | sport | wirtschaft | 7 | ✅ |
+| watson | Sport | Wirtschaft | 6 | ✅ (`api/2.0/rss/index.xml?tag=…`, the feed its home page advertises with another tag) |
+
+**Netherlands** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| NOS | sport | — | 10 | ✅ sport; ❌ economie: 20 items over 5½ days, none in 24 h |
+| NU.nl | Sport | Economie | 9 | ✅ |
+| NRC | — | — | 9 | ❌ `sectie/sport/rss/` and `sectie/economie/rss/` are stale (newest items from 2019); its RSS page lists only the main feed |
+| de Volkskrant | — | economie | 9 | ✅ economie; ❌ sport: 7 items in 3 days |
+| De Telegraaf | sport | financieel | 8 | ✅ |
+| AD | sport | economie | 8 | ✅ |
+| RTL Nieuws | — | — | 8 | ❌ no section feeds advertised |
+| Trouw | — | — | 7 | ❌ economie: 1 item in 7 days |
+| ~~Het Financieele Dagblad~~ | — | — | — | ❌ **not added**: its only feed (`fd.nl/?rss`) is mixed: of 38 items, 14 were economy, markets and companies and 20 society, politics and opinion. Its section pages advertise no feed |
+| Voetbal International | news | — | 9 | ➕ **added** (from its RSS page; 24 items in 7 h) |
+
+**Belgium** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| VRT NWS | — | — | 10 | — no business feed advertised; VRT's sport is Sporza (below) |
+| RTBF Info | sport | économie | 10 | ✅ (both from its RSS page) |
+| HLN | sport | — | 8 | ✅ sport; ❌ economie: 21 items in 7 days |
+| De Morgen | — | — | 8 | ❌ sport: 16 items in 6 days, none in 24 h; economie 404 |
+| La Libre Belgique | sports | économie | 8 | ✅ |
+| L'Avenir | — | — | 7 | ❌ sports: 13 of its 100 headlines were word for word DH's (both IPM), so only DH is kept |
+| Sporza | main | — | 9 | ➕ **added**: VRT's sports desk (20 items in 19 h) |
+| DH Les Sports+ | sports | — | 9 | ➕ **added** (40 items in 24 h) |
+| ~~De Tijd~~, ~~L'Echo~~ | — | — | — | ❌ **not added**: both return 403 to non-browser clients |
 
 ## Adding a feed or a country
 
