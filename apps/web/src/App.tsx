@@ -476,6 +476,7 @@ export function App() {
         {world && (
           <WorldPanel
             world={worldStories}
+            runAt={indexData?.updatedAt ?? null}
             refreshKey={indexTick}
             now={now}
             isMobile={isMobile}

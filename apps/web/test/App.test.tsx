@@ -256,9 +256,11 @@ describe('App', () => {
   });
 
   it('lists Today’s stories in the briefing, and opens one', async () => {
+    const index = indexFile();
+    files['index.json'] = () => index;
     files['today.json'] = () => ({
       schemaVersion: SCHEMA_VERSION,
-      runAt: ago(10),
+      runAt: index.updatedAt,
       top: [
         {
           unit: 'US',
@@ -291,7 +293,9 @@ describe('App', () => {
     expect(requested()).toContain('/data/today.json');
 
     // The Senate story is the American half of the NATO story, so it shows once, as that.
-    await userEvent.click(await screen.findByRole('button', { name: 'NATO meets' }));
+    const nato = await screen.findByRole('button', { name: 'NATO meets' });
+    expect(screen.queryByRole('button', { name: 'Senate passes bill' })).toBeNull();
+    await userEvent.click(nato);
     expect(await screen.findByRole('heading', { level: 2, name: 'Senate passes bill' })).toBeTruthy();
     expect(location.hash).toBe('#US/c2');
   });
