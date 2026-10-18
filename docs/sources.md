@@ -2395,7 +2395,7 @@ Authority weights are editorial judgment calls. They only decide which outlet's 
 
 ## Sport and business feeds
 
-First batch (France to Italy) probed on 2026-10-18, a Sunday, so business feeds were quieter than on a weekday; the second batch (Canada to Belgium) was probed the same day. A feed was kept if it parsed, every item had a date, and it posts several items a day: about 4 a day was the floor, counted over 3 and 7 days. These feeds sit under `feeds.sport` and `feeds.business` in [sources.config.ts](../packages/ingest/src/sources.config.ts) but are not requested yet: `FETCHED_CATEGORIES` is `['top']` until the pipeline writes a file per category. Specialist outlets (sports dailies, a business daily) have no `top` feed, so `runIngest` leaves them out until then; their authority is set for their category. A country's leading sport outlet is at 10 where one clearly leads: its sports daily (Marca, La Gazzetta, A Bola, Olé, Récord, Nikkan Sports), or kicker, ESPN and ge. Where none does, as in Canada, Ireland, the Netherlands and Belgium, sport specialists are at 8 or 9, level with or below the national outlets' own sport sections. A business-only outlet is kept only if most of its feed is business: Valor Econômico and Het Financieele Dagblad, with one mixed feed each, were dropped, as was NDTV Profit.
+First batch (France to Italy) probed on 2026-10-18, a Sunday, so business feeds were quieter than on a weekday; the second batch (Canada to Belgium) was probed the same day. A feed was kept if it parsed, every item had a date, and it posts several items a day: about 4 a day was the floor, counted over 3 and 7 days. These feeds sit under `feeds.sport` and `feeds.business` in [sources.config.ts](../packages/ingest/src/sources.config.ts) but are not requested yet: `FETCHED_CATEGORIES` is `['top']` until the pipeline writes a file per category. Specialist outlets (sports dailies and sites, business outlets) have no `top` feed, so `runIngest` leaves them out until then; their authority is set for their category. A country's leading sport outlet is at 10 where one clearly leads: its sports daily (Marca, La Gazzetta, A Bola, Olé, Récord, Nikkan Sports), or kicker, ESPN and ge. Where none does, as in Canada, Ireland, the Netherlands and Belgium, sport specialists are at 8 or 9, level with or below the national outlets' own sport sections. A business-only outlet is kept only if most of its feed is business: Valor Econômico and Het Financieele Dagblad, with one mixed feed each, were dropped, as was NDTV Profit. A specialist from the same group as a national outlet was checked against that outlet's section in the probe cache, as L'Avenir was against DH: only word-for-word reprints get a feed dropped.
 
 **France** (added 2026-10-18)
 
@@ -2539,7 +2539,7 @@ First batch (France to Italy) probed on 2026-10-18, a Sunday, so business feeds 
 | TN | deportes | economía | 8 | ✅ |
 | Perfil | deportes | economía | 7 | ✅ |
 | Ámbito | — | economía | 7 | ✅ |
-| Olé | últimas noticias | — | 10 | ➕ **added** |
+| Olé | últimas noticias | — | 10 | ➕ **added** (Grupo Clarín, like Clarín: none of the 10 Clarín deportes headlines matched Olé's, word for word or nearly, over the 7 h both feeds covered) |
 | ~~El Cronista~~ | — | — | — | ❌ **not added**: the site advertises no feed (`/rss/` redirects to the home page) |
 
 **India** (added 2026-10-18)
@@ -2551,7 +2551,7 @@ First batch (France to Italy) probed on 2026-10-18, a Sunday, so business feeds 
 | Times of India | sports | business | 9 | ✅ |
 | Hindustan Times | sports | business | 8 | ✅ (business: a 5-item feed, all within 21 h) |
 | NDTV | sports | — | 8 | ✅ sports; ❌ business: NDTV Profit's feed mixes in sport, tech and entertainment (8 of 20 items about business or markets), and ndtv.com/rss returns 403 |
-| The Economic Times | — | economy, industry | 10 | ➕ **added** (both from its RSS page; its top-stories feed mixes in general news) |
+| The Economic Times | — | economy, industry | 10 | ➕ **added** (both from its RSS page; its top-stories feed mixes in general news. Times Group, like the Times of India: none of the 20 TOI business headlines was ET's word for word; the stories both covered, such as ICICI Bank's results, had their own headlines) |
 
 **Japan** (added 2026-10-18)
 
@@ -2563,7 +2563,7 @@ First batch (France to Italy) probed on 2026-10-18, a Sunday, so business feeds 
 | Sankei Shimbun | sports | economy | 8 | ✅ |
 | Jiji Press | — | — | 8 | ❌ its RSS page returns 403 |
 | TBS News Dig | — | — | 8 | ❌ no section feeds advertised |
-| Nikkan Sports | baseball, soccer, other sports | — | 10 | ➕ **added** (from its RSS page; 40 items in 12 h across the three) |
+| Nikkan Sports | baseball, soccer, other sports | — | 10 | ➕ **added** (from its RSS page; 40 items in 12 h across the three. Asahi affiliate: the two cached feeds covered different days (Asahi sports Oct 16–17, Nikkan Oct 18), so no headlines could be compared; all 20 Asahi items are on asahi.com) |
 | ~~Nikkei~~ | — | — | — | ❌ **not added**: nikkei.com has no RSS |
 
 **Portugal** (added 2026-10-18)
