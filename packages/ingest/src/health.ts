@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { SCHEMA_VERSION, type FailingFeed, type StatusFile } from '@news-globe/shared';
-import { SOURCES, type SourceConfig } from './sources.config';
+import { feedUrlsOf, SOURCES, type SourceConfig } from './sources.config';
 import { writeJsonAtomic } from './write';
 
 /**
@@ -32,7 +32,7 @@ export function buildStatus(entries: Record<string, CacheEntry>, sources: readon
     const unit = source.region ?? source.country;
     const state = units.get(unit) ?? { requested: false, working: false, lastOkAt: null };
     units.set(unit, state);
-    for (const url of source.feedUrls) {
+    for (const url of feedUrlsOf(source)) {
       total++;
       const entry = entries[url];
       // A feed never requested yet (just added) is neither working nor failing.

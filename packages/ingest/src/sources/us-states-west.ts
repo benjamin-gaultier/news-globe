@@ -9,7 +9,7 @@ const src = (id: string, name: string, state: WestState, feedUrls: string[], aut
   country: 'US',
   language: 'en',
   region: `US-${state}`,
-  feedUrls,
+  feeds: { top: feedUrls },
   authority,
 });
 

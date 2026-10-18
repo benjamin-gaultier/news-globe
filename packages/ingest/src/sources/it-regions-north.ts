@@ -16,7 +16,7 @@ const src = (
   country: 'IT',
   language,
   region: `IT-${region}`,
-  feedUrls,
+  feeds: { top: feedUrls },
   authority,
 });
 

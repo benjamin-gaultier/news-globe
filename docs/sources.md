@@ -2404,7 +2404,7 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 
 `pnpm probe` goes through the same cache as the ingest, so it records each request (the 15-minute limit holds) and keeps the parsed items for `--offline`. To test against current data, first copy the Pi's `data/.cache/http.json` to your machine.
 
-**A feed for an existing country:** add an entry to `SOURCES` in [sources.config.ts](../packages/ingest/src/sources.config.ts) with a stable `id`, display `name`, `country`, `language`, `feedUrls` and `authority`.
+**A feed for an existing country:** add an entry to `SOURCES` in [sources.config.ts](../packages/ingest/src/sources.config.ts) with a stable `id`, display `name`, `country`, `language`, `feeds` and `authority`. Its main feeds go under `feeds.top`; section feeds under `feeds.sport` or `feeds.business` (listed, but not fetched until the pipeline writes per-category files: see `FETCHED_CATEGORIES`).
 
 **A new country:**
 

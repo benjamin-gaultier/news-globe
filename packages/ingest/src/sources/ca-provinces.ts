@@ -9,7 +9,7 @@ const src = (id: string, name: string, province: Province, language: 'en' | 'fr'
   country: 'CA',
   language,
   region: `CA-${province}`,
-  feedUrls,
+  feeds: { top: feedUrls },
   authority,
 });
 

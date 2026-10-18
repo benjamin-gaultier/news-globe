@@ -9,7 +9,7 @@ const src = (id: string, name: string, region: AuRegion, feedUrls: string[], aut
   country: 'AU',
   language: 'en',
   region: `AU-${region}`,
-  feedUrls,
+  feeds: { top: feedUrls },
   authority,
 });
 

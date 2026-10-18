@@ -10,7 +10,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IL',
-    feedUrls: ['https://chicago.suntimes.com/rss/news/index.xml'],
+    feeds: { top: ['https://chicago.suntimes.com/rss/news/index.xml'] },
     authority: 9,
   },
   {
@@ -20,7 +20,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IL',
-    feedUrls: ['https://blockclubchicago.org/feed/'],
+    feeds: { top: ['https://blockclubchicago.org/feed/'] },
     authority: 7,
   },
   {
@@ -30,7 +30,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IL',
-    feedUrls: ['https://capitolnewsillinois.com/feed/'],
+    feeds: { top: ['https://capitolnewsillinois.com/feed/'] },
     authority: 7,
   },
   {
@@ -40,7 +40,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IL',
-    feedUrls: ['https://www.wcbu.org/local-news.rss'],
+    feeds: { top: ['https://www.wcbu.org/local-news.rss'] },
     authority: 8,
   },
   {
@@ -50,7 +50,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IL',
-    feedUrls: ['https://wgntv.com/news/chicago-news/feed/'],
+    feeds: { top: ['https://wgntv.com/news/chicago-news/feed/'] },
     authority: 7,
   },
 
@@ -62,7 +62,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IN',
-    feedUrls: ['https://mirrorindy.org/feed/'],
+    feeds: { top: ['https://mirrorindy.org/feed/'] },
     authority: 7,
   },
   {
@@ -72,7 +72,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IN',
-    feedUrls: ['https://fox59.com/news/feed/'],
+    feeds: { top: ['https://fox59.com/news/feed/'] },
     authority: 7,
   },
   {
@@ -82,7 +82,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IN',
-    feedUrls: ['https://www.wishtv.com/feed/'],
+    feeds: { top: ['https://www.wishtv.com/feed/'] },
     authority: 7,
   },
   {
@@ -92,7 +92,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IN',
-    feedUrls: ['https://www.wane.com/news/local-news/feed/'],
+    feeds: { top: ['https://www.wane.com/news/local-news/feed/'] },
     authority: 7,
   },
 
@@ -104,7 +104,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MI',
-    feedUrls: ['https://www.michiganpublic.org/news.rss'],
+    feeds: { top: ['https://www.michiganpublic.org/news.rss'] },
     authority: 8,
   },
   {
@@ -115,11 +115,13 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     language: 'en',
     region: 'US-MI',
     // Metro sections: the main and "news" feeds mix in national wire and advice columns.
-    feedUrls: [
-      'https://www.mlive.com/arc/outboundfeeds/rss/category/news/detroit/?outputType=xml',
-      'https://www.mlive.com/arc/outboundfeeds/rss/category/news/grand-rapids/?outputType=xml',
-      'https://www.mlive.com/arc/outboundfeeds/rss/category/news/ann-arbor/?outputType=xml',
-    ],
+    feeds: {
+      top: [
+        'https://www.mlive.com/arc/outboundfeeds/rss/category/news/detroit/?outputType=xml',
+        'https://www.mlive.com/arc/outboundfeeds/rss/category/news/grand-rapids/?outputType=xml',
+        'https://www.mlive.com/arc/outboundfeeds/rss/category/news/ann-arbor/?outputType=xml',
+      ],
+    },
     authority: 9,
   },
   {
@@ -129,7 +131,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MI',
-    feedUrls: ['https://www.bridgemi.com/rss.xml'],
+    feeds: { top: ['https://www.bridgemi.com/rss.xml'] },
     authority: 7,
   },
   {
@@ -139,7 +141,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MI',
-    feedUrls: ['https://wdet.org/feed/'],
+    feeds: { top: ['https://wdet.org/feed/'] },
     authority: 8,
   },
   {
@@ -149,7 +151,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MI',
-    feedUrls: ['https://www.wxyz.com/news/local-news.rss'],
+    feeds: { top: ['https://www.wxyz.com/news/local-news.rss'] },
     authority: 7,
   },
 
@@ -161,7 +163,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-OH',
-    feedUrls: ['https://www.cleveland.com/arc/outboundfeeds/rss/category/metro/?outputType=xml'],
+    feeds: { top: ['https://www.cleveland.com/arc/outboundfeeds/rss/category/metro/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -171,7 +173,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-OH',
-    feedUrls: ['https://www.wosu.org/news.rss'],
+    feeds: { top: ['https://www.wosu.org/news.rss'] },
     authority: 8,
   },
   {
@@ -181,7 +183,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-OH',
-    feedUrls: ['https://www.wvxu.org/local-news.rss'],
+    feeds: { top: ['https://www.wvxu.org/local-news.rss'] },
     authority: 8,
   },
   {
@@ -191,7 +193,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-OH',
-    feedUrls: ['https://signalcleveland.org/feed/'],
+    feeds: { top: ['https://signalcleveland.org/feed/'] },
     authority: 7,
   },
   {
@@ -201,7 +203,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-OH',
-    feedUrls: ['https://www.wcpo.com/news/local-news.rss'],
+    feeds: { top: ['https://www.wcpo.com/news/local-news.rss'] },
     authority: 7,
   },
 
@@ -213,7 +215,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-WI',
-    feedUrls: ['https://www.wpr.org/feed'],
+    feeds: { top: ['https://www.wpr.org/feed'] },
     authority: 8,
   },
   {
@@ -223,7 +225,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-WI',
-    feedUrls: ['https://wisconsinwatch.org/feed/'],
+    feeds: { top: ['https://wisconsinwatch.org/feed/'] },
     authority: 7,
   },
   {
@@ -233,7 +235,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-WI',
-    feedUrls: ['https://urbanmilwaukee.com/feed/'],
+    feeds: { top: ['https://urbanmilwaukee.com/feed/'] },
     authority: 7,
   },
   {
@@ -243,7 +245,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-WI',
-    feedUrls: ['https://www.tmj4.com/news/local-news.rss'],
+    feeds: { top: ['https://www.tmj4.com/news/local-news.rss'] },
     authority: 7,
   },
 
@@ -255,7 +257,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IA',
-    feedUrls: ['https://www.iowapublicradio.org/ipr-news.rss'],
+    feeds: { top: ['https://www.iowapublicradio.org/ipr-news.rss'] },
     authority: 8,
   },
   {
@@ -265,7 +267,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IA',
-    feedUrls: ['https://qctimes.com/search/?f=rss&t=article&c=news/local&l=50&s=start_time&sd=desc'],
+    feeds: { top: ['https://qctimes.com/search/?f=rss&t=article&c=news/local&l=50&s=start_time&sd=desc'] },
     authority: 8,
   },
   {
@@ -275,7 +277,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IA',
-    feedUrls: ['https://www.kcrg.com/arc/outboundfeeds/rss/category/news/local/?outputType=xml'],
+    feeds: { top: ['https://www.kcrg.com/arc/outboundfeeds/rss/category/news/local/?outputType=xml'] },
     authority: 7,
   },
   {
@@ -285,7 +287,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-IA',
-    feedUrls: ['https://who13.com/news/iowa-news/feed/'],
+    feeds: { top: ['https://who13.com/news/iowa-news/feed/'] },
     authority: 7,
   },
 
@@ -297,7 +299,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-KS',
-    feedUrls: ['https://www.kmuw.org/news.rss'],
+    feeds: { top: ['https://www.kmuw.org/news.rss'] },
     authority: 8,
   },
   {
@@ -307,7 +309,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-KS',
-    feedUrls: ['https://lawrencekstimes.com/feed/'],
+    feeds: { top: ['https://lawrencekstimes.com/feed/'] },
     authority: 7,
   },
   {
@@ -317,7 +319,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-KS',
-    feedUrls: ['https://www.ksn.com/news/local/feed/'],
+    feeds: { top: ['https://www.ksn.com/news/local/feed/'] },
     authority: 7,
   },
   {
@@ -327,7 +329,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-KS',
-    feedUrls: ['https://www.kwch.com/arc/outboundfeeds/rss/category/news/local/?outputType=xml'],
+    feeds: { top: ['https://www.kwch.com/arc/outboundfeeds/rss/category/news/local/?outputType=xml'] },
     authority: 7,
   },
   {
@@ -337,7 +339,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-KS',
-    feedUrls: ['https://www.ksal.com/feed/'],
+    feeds: { top: ['https://www.ksal.com/feed/'] },
     authority: 6,
   },
 
@@ -349,7 +351,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MN',
-    feedUrls: ['https://www.mprnews.org/feed/minnesota'],
+    feeds: { top: ['https://www.mprnews.org/feed/minnesota'] },
     authority: 8,
   },
   {
@@ -359,7 +361,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MN',
-    feedUrls: ['https://www.startribune.com/local/index.rss2'],
+    feeds: { top: ['https://www.startribune.com/local/index.rss2'] },
     authority: 9,
   },
   {
@@ -369,7 +371,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MN',
-    feedUrls: ['https://www.minnpost.com/feed/'],
+    feeds: { top: ['https://www.minnpost.com/feed/'] },
     authority: 7,
   },
   {
@@ -379,7 +381,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MN',
-    feedUrls: ['https://sahanjournal.com/feed/'],
+    feeds: { top: ['https://sahanjournal.com/feed/'] },
     authority: 7,
   },
   {
@@ -389,7 +391,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MN',
-    feedUrls: ['https://bringmethenews.com/.rss/full/'],
+    feeds: { top: ['https://bringmethenews.com/.rss/full/'] },
     authority: 6,
   },
 
@@ -401,7 +403,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MO',
-    feedUrls: ['https://www.stlpr.org/news.rss'],
+    feeds: { top: ['https://www.stlpr.org/news.rss'] },
     authority: 8,
   },
   {
@@ -411,7 +413,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MO',
-    feedUrls: ['https://www.stlamerican.com/feed/'],
+    feeds: { top: ['https://www.stlamerican.com/feed/'] },
     authority: 7,
   },
   {
@@ -421,7 +423,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MO',
-    feedUrls: ['https://www.missourinet.com/feed/'],
+    feeds: { top: ['https://www.missourinet.com/feed/'] },
     authority: 7,
   },
   {
@@ -431,7 +433,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MO',
-    feedUrls: ['https://www.kshb.com/news/local-news.rss'],
+    feeds: { top: ['https://www.kshb.com/news/local-news.rss'] },
     authority: 7,
   },
   {
@@ -441,7 +443,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MO',
-    feedUrls: ['https://www.ky3.com/arc/outboundfeeds/rss/category/news/local/?outputType=xml'],
+    feeds: { top: ['https://www.ky3.com/arc/outboundfeeds/rss/category/news/local/?outputType=xml'] },
     authority: 7,
   },
 
@@ -453,7 +455,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NE',
-    feedUrls: ['https://flatwaterfreepress.org/feed/'],
+    feeds: { top: ['https://flatwaterfreepress.org/feed/'] },
     authority: 7,
   },
   {
@@ -463,7 +465,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NE',
-    feedUrls: ['https://www.3newsnow.com/news/local-news.rss'],
+    feeds: { top: ['https://www.3newsnow.com/news/local-news.rss'] },
     authority: 7,
   },
   {
@@ -473,7 +475,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NE',
-    feedUrls: ['https://www.klkntv.com/feed/'],
+    feeds: { top: ['https://www.klkntv.com/feed/'] },
     authority: 7,
   },
   {
@@ -483,7 +485,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NE',
-    feedUrls: ['https://www.1011now.com/arc/outboundfeeds/rss/category/news/?outputType=xml'],
+    feeds: { top: ['https://www.1011now.com/arc/outboundfeeds/rss/category/news/?outputType=xml'] },
     authority: 7,
   },
 
@@ -495,7 +497,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-ND',
-    feedUrls: ['https://www.kxnet.com/news/local-news/feed/'],
+    feeds: { top: ['https://www.kxnet.com/news/local-news/feed/'] },
     authority: 7,
   },
   {
@@ -505,7 +507,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-ND',
-    feedUrls: ['https://www.valleynewslive.com/arc/outboundfeeds/rss/category/news/?outputType=xml'],
+    feeds: { top: ['https://www.valleynewslive.com/arc/outboundfeeds/rss/category/news/?outputType=xml'] },
     authority: 7,
   },
   {
@@ -515,7 +517,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-ND',
-    feedUrls: ['https://www.minotdailynews.com/feed/'],
+    feeds: { top: ['https://www.minotdailynews.com/feed/'] },
     authority: 8,
   },
 
@@ -527,7 +529,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-SD',
-    feedUrls: ['https://www.sdnewswatch.org/feed'],
+    feeds: { top: ['https://www.sdnewswatch.org/feed'] },
     authority: 7,
   },
   {
@@ -537,7 +539,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-SD',
-    feedUrls: ['https://www.keloland.com/news/local-news/feed/'],
+    feeds: { top: ['https://www.keloland.com/news/local-news/feed/'] },
     authority: 7,
   },
   {
@@ -547,7 +549,7 @@ export const US_STATES_MIDWEST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-SD',
-    feedUrls: ['https://www.dakotanewsnow.com/arc/outboundfeeds/rss/category/news/?outputType=xml'],
+    feeds: { top: ['https://www.dakotanewsnow.com/arc/outboundfeeds/rss/category/news/?outputType=xml'] },
     authority: 7,
   },
 ];
