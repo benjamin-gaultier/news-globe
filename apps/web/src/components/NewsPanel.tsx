@@ -383,7 +383,7 @@ export function NewsPanel({
       <p className="panel-footnote">
         Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets and ranked by how
         many outlets covered them in the last 24 hours.
-        {section && <> New and rising badges, History, search and Today cover top headlines only.</>}
+        {section && <> New and rising badges, History, search and the World briefing cover top headlines only.</>}
       </p>
     </PanelShell>
   );

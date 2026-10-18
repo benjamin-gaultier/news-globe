@@ -1,5 +1,15 @@
 import type { Page } from '@playwright/test';
-import { COUNTRIES, REGIONS, SCHEMA_VERSION, type CountryFile, type IndexEntry, type IndexFile } from '@news-globe/shared';
+import {
+  COUNTRIES,
+  REGIONS,
+  SCHEMA_VERSION,
+  type CountryFile,
+  type IndexEntry,
+  type IndexFile,
+  type TodayFile,
+  type TodayStory,
+  type WorldStory,
+} from '@news-globe/shared';
 
 const ago = (minutes: number) => new Date(Date.now() - minutes * 60_000).toISOString();
 /** The latest run: index lines, country files and trends all describe it. */
@@ -12,6 +22,8 @@ export interface Scenario {
   regions?: string[];
   /** Countries whose #1 story is new this hour (served as trends). */
   pulses?: string[];
+  /** Stories carried by several countries' top headlines: each one's countries, whose top stories it joins. */
+  world?: string[][];
 }
 
 export const topTitle = (code: string) => `Top story in ${COUNTRIES[code]?.name ?? REGIONS[code]?.name ?? code}`;
@@ -57,6 +69,40 @@ function file(code: string): CountryFile {
   };
 }
 
+/** Each country's top story, most outlets first, as Today's file lists them. */
+function today(scenario: Scenario): TodayFile {
+  const top = Object.entries(scenario.countries)
+    .sort(([, a], [, b]) => b - a)
+    .map(
+      ([code, outlets]): TodayStory => ({
+        unit: code,
+        clusterId: code,
+        title: topTitle(code),
+        url: `https://news.example/${code}`,
+        source: 'Outlet',
+        language: 'en',
+        imageUrl: null,
+        outlets,
+        rank: 1,
+        firstSeen: ago(30),
+        state: scenario.pulses?.includes(code) ? 'new' : null,
+      }),
+    );
+  return { schemaVersion: SCHEMA_VERSION, runAt: RUN_AT, top, rising: [], lasting: [], countries: top.length, stories: top.length };
+}
+
+function worldStory(scenario: Scenario, codes: string[], i: number): WorldStory {
+  const countries = codes.map((code) => ({
+    code,
+    clusterId: code,
+    title: topTitle(code),
+    url: `https://news.example/${code}`,
+    outletCount24h: scenario.countries[code] ?? 1,
+    language: 'en',
+  }));
+  return { id: `w${i}`, names: [], countries, latestPublishedAt: ago(30) };
+}
+
 /** Serve /data/* for `scenario` instead of the dev server's files. */
 export async function serveData(page: Page, scenario: Scenario): Promise<void> {
   const regions = scenario.regions ?? [];
@@ -65,11 +111,12 @@ export async function serveData(page: Page, scenario: Scenario): Promise<void> {
     updatedAt: RUN_AT,
     countries: Object.entries(scenario.countries).map(([code, outlets]) => entry(code, outlets)),
     regions: regions.map((code) => entry(code, 1)),
-    world: [],
+    world: (scenario.world ?? []).map((codes, i) => worldStory(scenario, codes, i)),
   };
   await page.route('**/data/**', (route) => {
     const path = new URL(route.request().url()).pathname.replace(/^\/data\//, '');
     if (path === 'index.json') return route.fulfill({ json: index });
+    if (path === 'today.json') return route.fulfill({ json: today(scenario) });
     if (path === 'trends.json' && scenario.pulses) {
       const units = Object.fromEntries(
         scenario.pulses.map((code) => [code, { [code]: { ranks: [null, 1], firstSeen: ago(10), state: 'new' } }]),

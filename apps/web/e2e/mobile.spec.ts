@@ -3,6 +3,14 @@ import { serveData } from './data';
 
 const tooltip = (page: Page) => page.locator('.globe-tip');
 
+/** Close the open country, then the world briefing it returns to: the bare globe. */
+async function closePanels(page: Page) {
+  await page.getByRole('button', { name: 'Close headlines' }).click();
+  await expect(page.getByRole('heading', { level: 2, name: 'World' })).toBeVisible();
+  await page.getByRole('button', { name: 'Close headlines' }).click();
+  await expect(page.locator('.panel')).toHaveCount(0);
+}
+
 /**
  * Where `name` is on screen: scans up the globe's vertical centre line from
  * `bottom`, hovering, and returns the middle of the stretch globe.gl's tooltip
@@ -27,6 +35,27 @@ test.describe('globe on a phone', () => {
   // A still globe: scans for a country (find) are slow on CI, and a spinning globe moves it off the scan line.
   test.use({ reducedMotion: 'reduce' });
 
+  test('opens on the world briefing in a low sheet, the globe in view above it', async ({ page }) => {
+    await serveData(page, { countries: { US: 3, FR: 1 } });
+    await page.goto('/');
+    const sheet = page.locator('.panel');
+    await expect(sheet.getByRole('heading', { level: 2, name: 'World' })).toBeVisible();
+    await expect(sheet.getByRole('region', { name: 'Top stories' }).getByRole('listitem')).toHaveCount(2);
+    await page.waitForTimeout(500); // the sheet's slide-in
+    const viewport = page.viewportSize()!;
+    const { y, height } = (await sheet.boundingBox())!;
+    expect(height / viewport.height).toBeCloseTo(0.36, 1);
+    expect(y + height).toBeCloseTo(viewport.height, 0);
+
+    // A tap on a story opens its page, and the globe flies to its country above the sheet.
+    await sheet.getByRole('button', { name: 'Top story in United States' }).click();
+    await expect(sheet.getByRole('heading', { level: 2, name: 'Top story in United States' })).toBeVisible();
+    await expect(page).toHaveURL(/#US\/US$/);
+    await page.waitForTimeout(2_500); // globe load and camera flight
+    const sheetTop = (await sheet.boundingBox())!.y;
+    expect((await find(page, 'United States', sheetTop)).y).toBeLessThan(sheetTop);
+  });
+
   test('keeps the open country in view above the bottom sheet', async ({ page }) => {
     await serveData(page, { countries: { US: 1, FR: 1 } });
     await page.goto('/#US');
@@ -44,8 +73,7 @@ test.describe('globe on a phone', () => {
     await page.goto('/#US');
     await expect(page.getByRole('heading', { name: 'United States' })).toBeVisible();
     await page.waitForTimeout(2_500);
-    await page.getByRole('button', { name: 'Close headlines' }).click();
-    await expect(page.locator('.panel')).toHaveCount(0);
+    await closePanels(page);
     await page.waitForTimeout(1_000);
 
     const canvas = (await page.locator('.globe canvas').boundingBox())!;
@@ -69,8 +97,7 @@ test.describe('globe on a phone', () => {
     await page.goto('/#US');
     await expect(page.getByRole('heading', { name: 'United States' })).toBeVisible();
     await page.waitForTimeout(2_500);
-    await page.getByRole('button', { name: 'Close headlines' }).click();
-    await expect(page.locator('.panel')).toHaveCount(0);
+    await closePanels(page);
     await page.waitForTimeout(1_000);
 
     const canvas = (await page.locator('.globe canvas').boundingBox())!;
@@ -108,6 +135,7 @@ test.describe('globe on a phone', () => {
     test.setTimeout(90_000); // each touch move waits for a (software-rendered) frame
     await serveData(page, { countries: { US: 1, CA: 1, FR: 1 } });
     await page.goto('/');
+    await page.getByRole('button', { name: 'Close headlines' }).click(); // the world briefing
     await page.waitForTimeout(4_000); // globe load
     await expect(page.locator('.panel')).toHaveCount(0);
 
@@ -139,8 +167,7 @@ test.describe('globe on a phone', () => {
     await page.goto('/#US');
     await expect(page.getByRole('heading', { name: 'United States' })).toBeVisible();
     await page.waitForTimeout(2_500);
-    await page.getByRole('button', { name: 'Close headlines' }).click();
-    await expect(page.locator('.panel')).toHaveCount(0);
+    await closePanels(page);
     await page.waitForTimeout(1_000);
 
     const canvas = (await page.locator('.globe canvas').boundingBox())!;

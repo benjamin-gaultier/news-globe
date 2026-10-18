@@ -7,6 +7,7 @@ import type { Route } from './route';
  * live or in History.
  */
 export type View =
+  /** No panel: the globe alone (the world briefing closed, or History with no place open). */
   | { kind: 'globe' }
   | {
       kind: 'place';
@@ -19,11 +20,15 @@ export type View =
       /** The headline a search result opened: scrolled to and highlighted. */
       focusTitle: string | null;
     }
+  /** The world briefing: the landing view (live only). */
   | { kind: 'world' }
-  | { kind: 'today' }
   | { kind: 'search' };
 
 export const GLOBE: View = { kind: 'globe' };
+export const WORLD: View = { kind: 'world' };
+
+/** Where closing a panel leads: the world briefing, or the globe in History (which has no briefing). */
+export const home = (at: string | null): View => (at ? GLOBE : WORLD);
 
 /** A country or region panel on its list, or on one of its stories; on its top headlines unless a category is given. */
 export const place = (
@@ -45,24 +50,20 @@ export const CATEGORY_NAMES: Record<Category, string> = { top: 'Top', sport: 'Sp
 export const categoryIn = (entry: IndexEntry | undefined, category: Category): Category =>
   entry?.categories?.includes(category) ? category : 'top';
 
-/** The view a URL hash names (search is never in the URL). */
+/** The view a URL hash names: a place, else the world briefing (the globe in History). Search is never in the URL. */
 export function viewFromRoute(route: Route): View {
   if (route.country) return place(route.country, { region: route.region, category: route.category, story: route.story });
-  if (route.world) return { kind: 'world' };
-  if (route.today) return { kind: 'today' };
-  return GLOBE;
+  return home(route.at);
 }
 
-/** The URL hash's route for a view, at a History time (`at`) or live (null). */
+/** The URL hash's route for a view, at a History time (`at`) or live (null). The briefing and the bare globe share the plain URL. */
 export function routeOf(view: View, at: string | null): Route {
   const isPlace = view.kind === 'place';
   return {
     country: isPlace ? view.country : null,
     region: isPlace ? view.region : null,
-    world: view.kind === 'world',
     at,
     story: (!at && isPlace && view.story) || undefined,
     category: (!at && isPlace && view.category !== 'top' && view.category) || undefined,
-    today: (!at && view.kind === 'today') || undefined,
   };
 }

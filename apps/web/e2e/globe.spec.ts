@@ -8,6 +8,7 @@ async function globeCenter(page: Page) {
 }
 
 const tooltip = (page: Page) => page.locator('.globe-tip');
+const briefing = (page: Page) => page.getByRole('heading', { level: 2, name: 'World' });
 
 /** Hover the globe's centre until globe.gl reports a shape there (it hit-tests once per frame). */
 async function hoverCenter(page: Page) {
@@ -26,15 +27,64 @@ async function arriveAt(page: Page, name: string) {
   await page.waitForTimeout(1_000);
 }
 
-/** Open a country by its link, let the camera arrive, then close the panel: the globe stays over it. */
+/** Open a country by its link, let the camera arrive, then close it and the briefing it returns to: the globe stays over it. */
 async function centerOn(page: Page, hash: string, name: string) {
   await page.goto(`/${hash}`);
   await expect(page.getByRole('heading', { name })).toBeVisible();
   await arriveAt(page, name);
   await page.keyboard.press('Escape');
+  await expect(briefing(page)).toBeVisible();
+  await page.keyboard.press('Escape');
   await expect(page.locator('.panel')).toHaveCount(0);
   await page.waitForTimeout(1_000); // zoom out while the globe re-fills the width
 }
+
+test.describe('world briefing', () => {
+  test('opens first, with the top stories worldwide and their countries; old Today and Across borders links open it too', async ({
+    page,
+  }) => {
+    await serveData(page, { countries: { FR: 5, DE: 2, US: 3 }, world: [['DE', 'FR']] });
+    await page.goto('/');
+    await expect(briefing(page)).toBeVisible();
+    const top = page.getByRole('region', { name: 'Top stories' }).getByRole('listitem');
+    // France's story runs in Germany too: one line, both countries, the outlets added up.
+    await expect(top).toHaveCount(2);
+    await expect(top.nth(0)).toContainText(topTitle('DE'));
+    await expect(top.nth(0)).toContainText('7 outlets in 2 countries');
+    await expect(top.nth(0).getByRole('button', { name: 'France', exact: true })).toBeVisible();
+    await expect(top.nth(0).getByRole('button', { name: 'Germany', exact: true })).toBeVisible();
+    await expect(top.nth(1)).toContainText(topTitle('US'));
+    await expect(page.locator('.hint')).toHaveCount(0);
+
+    // A story's country opens its page there.
+    await top.nth(0).getByRole('button', { name: 'France', exact: true }).click();
+    await expect(page.getByRole('heading', { level: 2, name: topTitle('FR') })).toBeVisible();
+    await expect(page).toHaveURL(/#FR\/FR$/);
+
+    for (const hash of ['#today', '#world']) {
+      await page.goto(`/${hash}`);
+      await expect(briefing(page)).toBeVisible();
+      await expect(page).toHaveURL(/\/$/);
+    }
+  });
+
+  test('turns the globe to a story’s countries while it is pointed at', async ({ page }) => {
+    await serveData(page, { countries: { FR: 5, US: 3 } });
+    await page.goto('/');
+    await expect(briefing(page)).toBeVisible();
+    await page.waitForTimeout(2_000); // globe load
+
+    for (const [code, name] of [
+      ['US', 'United States'],
+      ['FR', 'France'],
+    ] as const) {
+      await page.getByRole('button', { name: topTitle(code) }).hover();
+      await page.waitForTimeout(1_500); // the turn waits a moment, then takes a second
+      await hoverCenter(page);
+      await expect(tooltip(page)).toContainText(name);
+    }
+  });
+});
 
 test.describe('globe', () => {
   test('describes a country on hover, with its top story and coverage', async ({ page }) => {

@@ -6,8 +6,7 @@ import { HistoryPanel } from './components/HistoryPanel';
 import { NewsPanel } from './components/NewsPanel';
 import { SearchBox } from './components/SearchBox';
 import { SearchPanel } from './components/SearchPanel';
-import { TodayIcon, TodayPanel } from './components/TodayPanel';
-import { WorldPanel } from './components/WorldPanel';
+import { WorldIcon, WorldPanel } from './components/WorldPanel';
 import { latestData, useAsync } from './hooks/useAsync';
 import { useHashRoute } from './hooks/useHashRoute';
 import { useHistoryMode } from './hooks/useHistoryMode';
@@ -19,7 +18,7 @@ import { storiesAt, todayUtc } from './lib/history';
 import { formatRoute, parseRoute } from './lib/route';
 import { TranslationsContext } from './lib/translations';
 import { relativeTime } from './lib/time';
-import { CATEGORY_NAMES, categoryIn, GLOBE, place, routeOf, viewFromRoute, type View } from './lib/view';
+import { CATEGORY_NAMES, categoryIn, GLOBE, home, place, routeOf, viewFromRoute, WORLD, type View } from './lib/view';
 
 // three.js is most of the bundle; load it after the shell renders.
 const GlobeView = lazy(() => import('./components/GlobeView'));
@@ -27,6 +26,14 @@ const GlobeView = lazy(() => import('./components/GlobeView'));
 const INDEX_REFRESH_MS = 5 * 60_000;
 /** The globe's entries while a History run loads: one empty map, so the globe isn't handed a new one every render. */
 const NO_ENTRIES = new Map<string, IndexEntry>();
+type GlobeArc = { startLat: number; startLng: number; endLat: number; endLng: number };
+const NO_ARCS: GlobeArc[] = [];
+
+/** Arcs from a story's first (best-covered) country to each of the others. */
+function arcsBetween(codes: readonly CountryCode[]): GlobeArc[] {
+  const [hub, ...rest] = codes.map((c) => COUNTRIES[c]).filter((m) => m !== undefined);
+  return hub ? rest.map((m) => ({ startLat: hub.lat, startLng: hub.lng, endLat: m.lat, endLng: m.lng })) : [];
+}
 
 export function App() {
   const now = useNow();
@@ -47,6 +54,9 @@ export function App() {
   const [sheetFraction, setSheetFraction] = useState(0);
   const [toast, setToast] = useState<string | null>(null);
   const toastTimer = useRef<ReturnType<typeof setTimeout>>(undefined);
+  // The countries of the briefing's story under the pointer (or focused), lit on the globe.
+  const [highlight, setHighlight] = useState<readonly CountryCode[] | null>(null);
+  const highlighted = world ? highlight : null;
 
   // Re-read index.json periodically so "updated" times and data stay current.
   useEffect(() => {
@@ -85,10 +95,10 @@ export function App() {
   liveEntriesRef.current = liveEntries;
   // In history mode the globe shows the picked run (nothing while it loads).
   const entries = historyDate ? (history.entries ?? NO_ENTRIES) : liveEntries;
-  // Rings over the countries whose #1 story is new or rising this hour (live, overview only; not with reduced motion).
+  // Rings over the countries whose #1 story is new or rising this hour (live, no country open; not with reduced motion).
   const pulses = useMemo(
-    () => (!historyDate && !world && !reducedMotion && trendsData ? pulsesFrom(trendsData, liveEntries) : []),
-    [historyDate, world, reducedMotion, trendsData, liveEntries],
+    () => (!historyDate && !reducedMotion && trendsData ? pulsesFrom(trendsData, liveEntries) : []),
+    [historyDate, reducedMotion, trendsData, liveEntries],
   );
 
   const available = useMemo(
@@ -106,8 +116,9 @@ export function App() {
   }, [historyDate, entries, indexData, selected]);
   const region = selectedRegion ? REGIONS[selectedRegion] : undefined;
 
-  // Selecting a country (or closing) always starts from its national top headlines; so does a swipe to the next one.
-  const selectCountry = useCallback((code: CountryCode | null) => setView(code ? place(code) : GLOBE), []);
+  // Selecting a country always starts from its national top headlines; so does a swipe to the next one.
+  // Closing (null) returns to the world briefing, or to the globe in History.
+  const selectCountry = useCallback((code: CountryCode | null) => setView(code ? place(code) : home(historyDate)), [historyDate]);
   /** A region of the open country, or back to the country (null), in the same section when that place has one. */
   const selectRegion = useCallback(
     (code: RegionCode | null) =>
@@ -131,9 +142,8 @@ export function App() {
   );
   /** A story's page in the open panel, or back to its list (null). */
   const showStory = useCallback((story: string | null) => setView((v) => (v.kind === 'place' ? { ...v, story } : v)), []);
-  const openWorld = useCallback(() => setView({ kind: 'world' }), []);
   const openSearch = useCallback(() => setView({ kind: 'search' }), []);
-  const closeSearch = useCallback(() => setView((v) => (v.kind === 'search' ? GLOBE : v)), []);
+  const closeSearch = useCallback(() => setView((v) => (v.kind === 'search' ? home(historyDate) : v)), [historyDate]);
   /** A search result: its country or region panel, live, on that story. */
   const openSearchResult = useCallback(
     (unit: string, title: string) => {
@@ -174,17 +184,12 @@ export function App() {
   }, []);
   const worldStories = useMemo(() => indexData?.world ?? [], [indexData]);
 
-  // While the world panel is open, arcs join the countries of each cross-border story.
-  const arcs = useMemo(
-    () =>
-      world
-        ? worldStories.flatMap((story) => {
-            const [hub, ...rest] = story.countries.map((c) => COUNTRIES[c.code]).filter((m) => m !== undefined);
-            return hub ? rest.map((m) => ({ startLat: hub.lat, startLng: hub.lng, endLat: m.lat, endLng: m.lng })) : [];
-          })
-        : [],
-    [world, worldStories],
-  );
+  // While the world briefing is open, arcs join the countries of each cross-border story; only the lit story's while one is.
+  const arcs = useMemo(() => {
+    if (!world) return NO_ARCS;
+    if (highlighted) return arcsBetween(highlighted);
+    return worldStories.flatMap((story) => arcsBetween(story.countries.map((c) => c.code)));
+  }, [world, worldStories, highlighted]);
 
   // The URL hash follows the open view and History time; Back and Forward restore them.
   useHashRoute(routeOf(view, history.at), (route) => {
@@ -201,13 +206,7 @@ export function App() {
   }, [selected]);
 
   const placeName = region?.name ?? (selected ? COUNTRIES[selected]?.name : undefined);
-  const pageTitle = placeName
-    ? `${placeName}${category === 'top' ? '' : ` · ${CATEGORY_NAMES[category]}`}`
-    : world
-      ? 'Across borders'
-      : view.kind === 'today'
-        ? 'Today'
-        : undefined;
+  const pageTitle = placeName ? `${placeName}${category === 'top' ? '' : ` · ${CATEGORY_NAMES[category]}`}` : undefined;
   useEffect(() => {
     document.title = pageTitle ? `${pageTitle} · News Globe` : 'News Globe';
   }, [pageTitle]);
@@ -265,16 +264,23 @@ export function App() {
     setView((v) => (v.kind === 'place' ? { ...v, category: 'top', story: null } : GLOBE));
     startHistory();
   }, [startHistory]);
-  const toggleHistory = () => (historyDate ? closeHistory() : openHistory());
-  // Today is live only: opening it leaves History.
-  const toggleToday = () => {
-    if (view.kind === 'today') return selectCountry(null);
+  /** Back to live: the open place stays; with none, the world briefing (History has none) opens again. */
+  const goLive = useCallback(() => {
     closeHistory();
-    setView({ kind: 'today' });
+    setView((v) => (v.kind === 'globe' ? WORLD : v));
+  }, [closeHistory]);
+  const toggleHistory = () => (historyDate ? goLive() : openHistory());
+  // The briefing is live only: opening it leaves History.
+  const toggleWorld = () => {
+    if (world) return setView(GLOBE);
+    closeHistory();
+    setView(WORLD);
   };
 
   const handleUnavailable = useCallback((name: string) => showToast(`${name} — coming soon`), [showToast]);
   const handleClose = useCallback(() => selectCountry(null), [selectCountry]);
+  // Closing the briefing leaves the globe alone; the World button brings it back.
+  const closeWorld = useCallback(() => setView(GLOBE), []);
   /** Phones: a sideways swipe on a country's panel opens the next or previous country with headlines, in the list's order. */
   const swipeCountry = useCallback(
     (direction: 1 | -1) => {
@@ -317,7 +323,7 @@ export function App() {
       canGoForward={historyDate < today}
       onShiftDay={history.shiftDay}
       onRun={history.pickRun}
-      onLive={closeHistory}
+      onLive={goLive}
     />
   );
 
@@ -349,9 +355,9 @@ export function App() {
           </div>
           <SearchBox ref={searchInput} query={query} onQueryChange={changeQuery} onFocus={reopenSearch} onClear={clearSearch} />
           <div className="topbar-tools">
-            <button type="button" className="tool-btn" aria-label="Today" aria-pressed={view.kind === 'today'} onClick={toggleToday}>
-              <TodayIcon />
-              <span>Today</span>
+            <button type="button" className="tool-btn" aria-label="World" aria-pressed={world} onClick={toggleWorld}>
+              <WorldIcon />
+              <span>World</span>
             </button>
             <button type="button" className="tool-btn" aria-label="History" aria-pressed={historyDate !== null} onClick={toggleHistory}>
               <ClockIcon />
@@ -359,16 +365,6 @@ export function App() {
             </button>
           </div>
           <nav className="country-picker" aria-label="Countries">
-            {worldStories.length > 0 && !historyDate && (
-              <button
-                type="button"
-                className="chip chip-world"
-                aria-pressed={world}
-                onClick={() => (world ? selectCountry(null) : openWorld())}
-              >
-                Across borders
-              </button>
-            )}
             {Object.values(COUNTRIES).map((c) => (
               <button
                 key={c.code}
@@ -400,17 +396,20 @@ export function App() {
               shadeStep={shadeStep}
               arcs={arcs}
               pulses={pulses}
+              highlighted={highlighted ?? undefined}
             />
           </Suspense>
           {view.kind === 'globe' && !historyDate && <p className="hint">Tap a highlighted country to see its top headlines</p>}
-          {/* An index from before the ingest wrote counts shades everything alike: no key then. */}
-          {!meta && !world && !(historyDate && isMobile) && [...entries.values()].some((e) => e.topOutlets !== undefined) && (
-            <HeatLegend
-              shading={canShadeByChange ? shading : 'coverage'}
-              onShadingChange={canShadeByChange ? setShading : undefined}
-              pulsing={pulses.length > 0}
-            />
-          )}
+          {/* An index from before the ingest wrote counts shades everything alike: no key then. On phones, not under a sheet. */}
+          {!meta &&
+            !(isMobile && (historyDate || view.kind !== 'globe')) &&
+            [...entries.values()].some((e) => e.topOutlets !== undefined) && (
+              <HeatLegend
+                shading={canShadeByChange ? shading : 'coverage'}
+                onShadingChange={canShadeByChange ? setShading : undefined}
+                pulsing={pulses.length > 0}
+              />
+            )}
           {!meta && historyBar}
         </main>
 
@@ -474,25 +473,16 @@ export function App() {
             onOpenStory={openSearchResult}
           />
         )}
-        {view.kind === 'today' && (
-          <TodayPanel
-            world={worldStories}
-            now={now}
-            isMobile={isMobile}
-            onClose={handleClose}
-            onSheetChange={setSheetFraction}
-            onOpenStory={openStoryIn}
-            onOpenWorld={openWorld}
-          />
-        )}
         {world && (
           <WorldPanel
-            stories={worldStories}
+            world={worldStories}
+            refreshKey={indexTick}
             now={now}
             isMobile={isMobile}
-            onClose={handleClose}
+            onClose={closeWorld}
             onSheetChange={setSheetFraction}
             onOpenStory={openStoryIn}
+            onHighlight={setHighlight}
           />
         )}
 

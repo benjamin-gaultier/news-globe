@@ -379,7 +379,7 @@ button {
 
 /* ---------- History ---------- */
 
-/* Today and History in the top bar: tools, not places, so not chips. */
+/* World and History in the top bar: tools, not places, so not chips. */
 .topbar-tools {
   grid-area: tool;
   display: flex;
@@ -558,10 +558,37 @@ button {
   animation: none;
 }
 
-/* ---------- Cross-border stories ---------- */
+/* ---------- World briefing ---------- */
 
-.chip-world {
-  border-color: rgba(255, 181, 71, 0.5);
+.world-section {
+  padding-top: 16px;
+}
+
+.world-section h3 {
+  margin: 0 16px 4px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* The headline opens the story's page; it reads as a link. */
+.brief-open {
+  display: inline;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 600;
+  text-align: start;
+  cursor: pointer;
+}
+
+/* The story whose countries the globe lights. */
+.brief:hover,
+.brief:focus-within {
+  background: rgba(255, 181, 71, 0.06);
 }
 
 .story-also {
@@ -572,26 +599,12 @@ button {
   margin: 10px 0 0;
 }
 
-.story-also-label,
-.world-names {
+.story-also-label {
   color: var(--text-muted);
   font-size: 0.78rem;
 }
 
-.world-names {
-  margin: 0 0 2px;
-  color: var(--text);
-  font-weight: 600;
-  font-size: 0.95rem;
-}
-
-.world-english {
-  margin: 4px 0 2px;
-  color: var(--text);
-  font-size: 0.92rem;
-  line-height: 1.35;
-}
-
+/* A story's page: its headline in each country that carries it. */
 .world-countries {
   display: grid;
   gap: 8px;
@@ -608,93 +621,6 @@ button {
 
 .world-countries .related-title {
   display: inline;
-}
-
-/* ---------- Today ---------- */
-
-.today-section {
-  padding: 16px 16px 4px;
-}
-
-.today-section h3 {
-  margin: 0 0 4px;
-  color: var(--text-muted);
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-
-.today-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.today-item + .today-item {
-  border-top: 1px solid var(--border);
-}
-
-.today-open {
-  display: flex;
-  gap: 12px;
-  width: 100%;
-  padding: 10px 0;
-  border: 0;
-  background: none;
-  text-align: start;
-  cursor: pointer;
-}
-
-.today-open:hover .today-title {
-  text-decoration: underline;
-}
-
-.today-text {
-  display: grid;
-  flex: 1;
-  min-width: 0;
-  gap: 2px;
-}
-
-.today-place {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  color: var(--accent-2);
-  font-size: 0.75rem;
-  font-weight: 600;
-}
-
-.today-title {
-  font-weight: 600;
-  line-height: 1.3;
-}
-
-.today-meta {
-  color: var(--text-muted);
-  font-size: 0.78rem;
-}
-
-.today-translate {
-  display: inline-block;
-  margin: -6px 0 8px;
-  color: var(--accent);
-  font-size: 0.78rem;
-  text-decoration: none;
-}
-
-.today-translate:hover {
-  text-decoration: underline;
-}
-
-.today-thumb {
-  width: 64px;
-  height: 48px;
-  flex: none;
-  border-radius: 8px;
-  object-fit: cover;
-  background: var(--surface-2);
 }
 
 /* ---------- Top bar ---------- */

@@ -6,8 +6,9 @@ import { formatRoute, parseRoute, type Route } from '../lib/route';
  * closes it, and calls `onPop` with the route of an entry reached by Back or
  * Forward.
  *
- * The same view and day (a link written differently, or another run picked on
- * the timeline) replaces the entry, so Back skips slider moves.
+ * The same view and day (a link written differently, such as an old `#today`
+ * link to the world briefing, or another run picked on the timeline) replaces
+ * the entry, so Back skips slider moves.
  */
 export function useHashRoute(route: Route, onPop: (route: Route) => void): void {
   const hash = formatRoute(route);
@@ -22,7 +23,13 @@ export function useHashRoute(route: Route, onPop: (route: Route) => void): void 
   const popped = useRef(onPop);
   popped.current = onPop;
   useEffect(() => {
-    const onPopState = () => popped.current(parseRoute(location.hash));
+    const onPopState = () => {
+      const route = parseRoute(location.hash);
+      // A link written differently (an old `#today`, a lower-case code) takes the canonical form.
+      const canonical = formatRoute(route);
+      if (location.hash !== canonical) history.replaceState(null, '', canonical || location.pathname + location.search);
+      popped.current(route);
+    };
     window.addEventListener('popstate', onPopState);
     return () => window.removeEventListener('popstate', onPopState);
   }, []);
@@ -32,10 +39,8 @@ function sameView(a: Route, b: Route): boolean {
   return (
     a.country === b.country &&
     a.region === b.region &&
-    a.world === b.world &&
     a.story === b.story &&
     (a.category ?? 'top') === (b.category ?? 'top') &&
-    !!a.today === !!b.today &&
     (a.at?.slice(0, 10) ?? null) === (b.at?.slice(0, 10) ?? null)
   );
 }
