@@ -101,8 +101,13 @@ export function App() {
     return Object.values(REGIONS).filter((r) => r.country === selected && withData.has(r.code));
   }, [historyDate, entries, indexData, selected]);
   const region = selectedRegion ? REGIONS[selectedRegion] : undefined;
-  // Shortcuts to the countries opened lately (not to a link's country that turns out to have no headlines).
-  const recent = useRecentCountries(selected && available.has(selected) ? selected : null);
+  // The country a phone swipe moved to: browsed past, not picked. Opening it any other way makes it a shortcut again.
+  const [swipedTo, setSwipedTo] = useState<CountryCode | null>(null);
+  useEffect(() => {
+    if (selected !== swipedTo) setSwipedTo(null);
+  }, [selected, swipedTo]);
+  // Shortcuts to the countries picked lately (not a swipe's, nor a link's country that turns out to have no headlines).
+  const recent = useRecentCountries(selected && selected !== swipedTo && available.has(selected) ? selected : null);
 
   // Selecting a country (or closing) always starts from its national top headlines; so does a swipe to the next one.
   const selectCountry = useCallback((code: CountryCode | null) => setView(code ? place(code) : GLOBE), []);
@@ -283,7 +288,9 @@ export function App() {
       const codes = Object.keys(COUNTRIES).filter((c) => available.has(c));
       const current = selected ? codes.indexOf(selected) : -1;
       if (current < 0 || codes.length < 2) return;
-      selectCountry(codes[(current + direction + codes.length) % codes.length]!);
+      const next = codes[(current + direction + codes.length) % codes.length]!;
+      setSwipedTo(next);
+      selectCountry(next);
     },
     [available, selected, selectCountry],
   );
@@ -363,7 +370,7 @@ export function App() {
               <span>Today</span>
             </button>
           </div>
-          <nav className="country-picker" aria-label="Recent countries">
+          <nav className="country-picker" aria-label="Shortcuts">
             {worldStories.length > 0 && !historyDate && (
               <button
                 type="button"

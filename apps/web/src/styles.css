@@ -679,7 +679,7 @@ button {
   grid-area: 1 / 1;
   align-self: start;
   z-index: 2;
-  /* Phones: name and History, then the search box, then the places. */
+  /* Phones: name and Today, then the search box, then the shortcuts. */
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   grid-template-areas:
@@ -728,7 +728,7 @@ button {
   grid-area: places;
   display: flex;
   gap: 6px;
-  /* One scrollable row as the country list grows, instead of wrapping over the globe. */
+  /* One scrollable row when the shortcuts are wider than a phone, instead of wrapping over the globe. */
   min-width: 0;
   max-width: 100%;
   overflow-x: auto;

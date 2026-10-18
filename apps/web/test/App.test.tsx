@@ -100,7 +100,13 @@ async function renderApp(hash = '') {
   await waitFor(() => expect(globe.props).not.toBeNull());
 }
 
-const chip = (name: string) => within(screen.getByRole('navigation', { name: 'Recent countries' })).getByRole('button', { name });
+const chip = (name: string) => within(screen.getByRole('navigation', { name: 'Shortcuts' })).getByRole('button', { name });
+/** The top bar's recent countries, in their order. */
+const shortcuts = () =>
+  within(screen.getByRole('navigation', { name: 'Shortcuts' }))
+    .getAllByRole('button')
+    .map((b) => b.textContent)
+    .filter((name) => name !== 'Across borders');
 const panel = () => screen.queryByRole('complementary');
 
 describe('App', () => {
@@ -140,11 +146,6 @@ describe('App', () => {
   });
 
   it('keeps the last countries opened as shortcuts, in this browser', async () => {
-    const shortcuts = () =>
-      within(screen.getByRole('navigation', { name: 'Recent countries' }))
-        .getAllByRole('button')
-        .map((b) => b.textContent)
-        .filter((name) => name !== 'Across borders');
     await renderApp('#FR');
     await screen.findByRole('link', { name: 'Le budget adopté' });
     act(() => globe.props!.onSelect('US'));
@@ -481,6 +482,28 @@ describe('App', () => {
         swipeLeft((await screen.findByRole('link', { name: 'Le PSG s’impose' })).closest('.panel-body')!);
         await waitFor(() => expect(location.hash).toBe('#US'));
         expect(await screen.findByRole('link', { name: 'Senate passes bill' })).toBeTruthy();
+      } finally {
+        mq.mockRestore();
+      }
+    });
+
+    it('leaves a country reached by a swipe out of the shortcuts, until it is picked', async () => {
+      const mq = vi
+        .spyOn(window, 'matchMedia')
+        .mockImplementation(
+          (query) => ({ matches: true, media: query, addEventListener() {}, removeEventListener() {} }) as unknown as MediaQueryList,
+        );
+      try {
+        await renderApp('#FR');
+        swipeLeft((await screen.findByRole('link', { name: 'Le budget adopté' })).closest('.panel-body')!);
+        await waitFor(() => expect(location.hash).toBe('#US'));
+        await screen.findByRole('link', { name: 'Senate passes bill' });
+        expect(shortcuts()).toEqual(['France']);
+
+        await userEvent.click(screen.getByRole('button', { name: 'Close headlines' }));
+        act(() => globe.props!.onSelect('US'));
+        await screen.findByRole('link', { name: 'Senate passes bill' });
+        expect(shortcuts()).toEqual(['United States', 'France']);
       } finally {
         mq.mockRestore();
       }
