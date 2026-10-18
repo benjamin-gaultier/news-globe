@@ -99,6 +99,10 @@ const NOT_NEWS: RegExp[] = [
   // "3. Liga live: … | Stream & TV", "Podcast \"Feel Hamburg\" …", "Anzeige: …".
   /(?:\bverlost (?:tickets|karten|freikarten)\b|\bgewinnspiel\b|\bgewinnzahlen\b|spielen sie um geld|\|\s*stream & tv$|^podcast\s*["„]|morgen-podcast\b)/i,
   /^\s*[[(]?(?:anzeige|werbung|sponsored)(?![a-zà-ÿ])/i,
+  // Sportschau's radio commentaries of upcoming matches: "Live hören: Bayer Leverkusen gegen SC Freiburg - Bundesliga",
+  // "Live hören: Die Konferenz - 8. Spieltag | Fußball 2. Bundesliga". Each is dated at kick-off; a future date
+  // becomes `now`, so they would rank as the newest stories.
+  /^live hören\s*:/i,
   // US local outlets' feeds carry recurring segments next to stories.
   // Forecasts: "Michigan Weather: …", "Q2 Billings Area Forecast: …", "Wednesday's weather: …",
   // "Weather Eye: …", "Your Mississippi forecast for Wednesday, October 7", "Maui Surf Forecast for …", "LIVE RADAR: …".

@@ -1,7 +1,8 @@
 // Hourly health check of the live site (see .github/workflows/health.yml).
 // Fails, so GitHub emails the repo owner, when the data has stopped updating
-// (the Pi is offline or publishing broke) or a country or region has had no
-// working feed for too long. Feeds failing on their own are listed as warnings.
+// (the Pi is offline or publishing broke) or a country's or region's file (top,
+// or a section such as DE.sport) has had no working feed for too long. Feeds
+// failing on their own are listed as warnings.
 // Plain Node (fetch is built in), no dependencies.
 
 const SITE = (process.env.SITE_URL || 'https://news-globe.maze-td.workers.dev').replace(/\/+$/, '');
@@ -42,7 +43,9 @@ try {
     summary.push('- status.json not published yet (needs an ingest run with the health report)');
   } else {
     const { total, failing } = status.feeds;
-    summary.push(`- ${failing.length} of ${total} feeds failing, ${status.darkUnits.length} countries/regions with no working feed`);
+    summary.push(
+      `- ${failing.length} of ${total} feeds failing, ${status.darkUnits.length} files (countries, regions, sections) with no working feed`,
+    );
     for (const unit of status.darkUnits) {
       const h = hoursSince(unit.since);
       const line = `${unit.code} has had no working feed for ${fmt(h)}`;

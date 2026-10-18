@@ -2,7 +2,8 @@ import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { encodeBundle, readBundleEntry } from '@news-globe/shared/bundle';
+import { CATEGORIES, fileStem } from '@news-globe/shared';
+import { encodeBundle, PUBLIC_FILE, readBundleEntry } from '@news-globe/shared/bundle';
 import type { KvConfig } from '../src/kv';
 import { publishToKv } from '../src/publish';
 
@@ -14,10 +15,13 @@ beforeEach(async () => {
   await mkdir(join(dir, 'countries'));
   await writeFile(join(dir, 'index.json'), '{"i":1}');
   await writeFile(join(dir, 'countries', 'FR.json'), '{"fr":1}');
+  await writeFile(join(dir, 'countries', 'FR.sport.json'), '{"frSport":1}');
   await writeFile(join(dir, 'countries', 'US.json'), '{"us":1}');
   await writeFile(join(dir, 'countries', 'notes.txt'), 'not public');
+  await writeFile(join(dir, 'countries', 'FR.weather.json'), 'not a category');
   await mkdir(join(dir, 'regions'));
   await writeFile(join(dir, 'regions', 'FR-BRE.json'), '{"bre":1}');
+  await writeFile(join(dir, 'regions', 'FR-BRE.business.json'), '{"breBusiness":1}');
 });
 
 afterEach(async () => {
@@ -39,6 +43,15 @@ function sentBundle(fetchImpl: ReturnType<typeof okFetch>, call = 0): Uint8Array
 
 const text = (bytes: Uint8Array | null) => (bytes ? new TextDecoder().decode(bytes) : null);
 
+describe('PUBLIC_FILE', () => {
+  it('takes every category’s files, so none is written and left unpublished', () => {
+    for (const category of CATEGORIES) {
+      expect(PUBLIC_FILE.test(`countries/${fileStem('FR', category)}.json`), category).toBe(true);
+      expect(PUBLIC_FILE.test(`regions/${fileStem('FR-BRE', category)}.json`), category).toBe(true);
+    }
+  });
+});
+
 describe('publishToKv', () => {
   it('includes status.json when the run wrote one', async () => {
     await writeFile(join(dir, 'status.json'), '{"s":1}');
@@ -53,7 +66,14 @@ describe('publishToKv', () => {
     const res = await publishToKv(dir, cfg, { fetchImpl, log: quiet });
     expect(res).toEqual({
       uploaded: true,
-      keys: ['index.json', 'countries/FR.json', 'countries/US.json', 'regions/FR-BRE.json'],
+      keys: [
+        'index.json',
+        'countries/FR.json',
+        'countries/FR.sport.json',
+        'countries/US.json',
+        'regions/FR-BRE.business.json',
+        'regions/FR-BRE.json',
+      ],
     });
     expect(fetchImpl).toHaveBeenCalledTimes(1);
 
@@ -66,7 +86,10 @@ describe('publishToKv', () => {
     expect(text(readBundleEntry(bundle, 'countries/FR.json'))).toBe('{"fr":1}');
     expect(text(readBundleEntry(bundle, 'countries/US.json'))).toBe('{"us":1}');
     expect(text(readBundleEntry(bundle, 'regions/FR-BRE.json'))).toBe('{"bre":1}');
+    expect(text(readBundleEntry(bundle, 'countries/FR.sport.json'))).toBe('{"frSport":1}');
+    expect(text(readBundleEntry(bundle, 'regions/FR-BRE.business.json'))).toBe('{"breBusiness":1}');
     expect(readBundleEntry(bundle, 'countries/notes.txt')).toBeNull();
+    expect(readBundleEntry(bundle, 'countries/FR.weather.json')).toBeNull();
   });
 
   it('skips the write when nothing changed', async () => {

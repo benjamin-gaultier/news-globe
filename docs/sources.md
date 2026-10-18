@@ -2395,7 +2395,7 @@ Authority weights are editorial judgment calls. They only decide which outlet's 
 
 ## Sport and business feeds
 
-First batch probed on 2026-10-18, a Sunday, so business feeds were quieter than on a weekday. A feed was kept if it parsed, every item had a date, and it posts several items a day. These feeds sit under `feeds.sport` and `feeds.business` in [sources.config.ts](../packages/ingest/src/sources.config.ts) but are not requested yet: `FETCHED_CATEGORIES` is `['top']` until the pipeline writes a file per category. Specialist outlets (sports dailies, a business daily) have no `top` feed, so `runIngest` leaves them out until then; their authority is set for their category, with the leading sports daily at 10.
+First batch probed on 2026-10-18, a Sunday, so business feeds were quieter than on a weekday. A feed was kept if it parsed, every item had a date, and it posts several items a day. These feeds sit under `feeds.sport` and `feeds.business` in [sources.config.ts](../packages/ingest/src/sources.config.ts), and each category is clustered into files of its own, next to the top file (`countries/FR.sport.json`; see **Sections** under [Pipeline](how-it-works.md#pipeline)). Specialist outlets (sports dailies, a business daily) have no `top` feed, so they appear only in their category's file; their authority is set for their category, with the leading sports daily at 10.
 
 **France** (added 2026-10-18)
 
@@ -2421,7 +2421,7 @@ First batch probed on 2026-10-18, a Sunday, so business feeds were quieter than 
 | WELT | Sport | Wirtschaft | 7 | ✅ |
 | n-tv | Sport | Wirtschaft | 6 | ✅ |
 | kicker | news/aktuell | — | 10 | ➕ **added** |
-| Sportschau | main | — | 9 | ➕ **added** (lists upcoming radio commentaries, "Live hören: Bayer Leverkusen gegen SC Freiburg", dated at kick-off, so in the future; `isNotNews` does not drop them yet, see the TODO in `SOURCES`) |
+| Sportschau | main | — | 9 | ➕ **added** (lists upcoming radio commentaries, "Live hören: Bayer Leverkusen gegen SC Freiburg", dated at kick-off, so in the future; `isNotNews` drops them) |
 | Handelsblatt | — | Top-Themen | 10 | ➕ **added** (its top stories: mostly business, some politics) |
 
 **United Kingdom** (added 2026-10-18)
@@ -2468,7 +2468,7 @@ pnpm ingest --offline                 # rebuild data/ from data/.cache only: no 
 
 `pnpm probe` goes through the same cache as the ingest, so it records each request (the 15-minute limit holds) and keeps the parsed items for `--offline`. To test against current data, first copy the Pi's `data/.cache/http.json` to your machine.
 
-**A feed for an existing country:** add an entry to `SOURCES` in [sources.config.ts](../packages/ingest/src/sources.config.ts) with a stable `id`, display `name`, `country`, `language`, `feeds` and `authority`. Its main feeds go under `feeds.top`; section feeds under `feeds.sport` or `feeds.business` (listed, but not fetched until the pipeline writes per-category files: see `FETCHED_CATEGORIES`).
+**A feed for an existing country:** add an entry to `SOURCES` in [sources.config.ts](../packages/ingest/src/sources.config.ts) with a stable `id`, display `name`, `country`, `language`, `feeds` and `authority`. Its main feeds go under `feeds.top`; section feeds under `feeds.sport` or `feeds.business`, which make the country's (or region's) sport and business files. An outlet with section feeds only, like a sports daily, never touches the top file.
 
 **A new country:**
 

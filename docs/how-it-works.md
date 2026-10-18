@@ -87,6 +87,8 @@ deploy/raspberry-pi/ systemd unit for the ingest
 | **Link** | Across countries, without translation: clusters whose headlines share two separate names (people, places, organisations), one of them rare in the run, are the same story. Names are runs of capitalised words, joined across particles ("Corée du Sud") but not punctuation; in title-case headlines, and for a title's first word, only words seen capitalised mid-sentence elsewhere count. Groups merge only on a high average link, as in clustering. Linked clusters get `alsoIn`; the top 20 groups go into `index.json` as `world` ([world.ts](../packages/ingest/src/world.ts)). |
 | **Write** | Atomic: write to a tmp file, then rename. If every feed for a country fails and nothing is cached, the previous file is kept rather than blanked. |
 
+**Sections.** Sport and business feeds go through the same steps, each category on its own, per country and region, into a file of its own next to the top file: `countries/FR.sport.json`, `countries/DE.business.json`, `regions/FR-BRE.sport.json`. A source counts toward a category only through its feeds in that category (`feeds.sport`; see `feedUrlsOf`), so a sports daily like kicker makes Germany's sport file and never touches its top file, and a country with no feed in a category gets no file for it. `FETCHED_CATEGORIES` in [sources.config.ts](../packages/ingest/src/sources.config.ts) lists the categories a run fetches. Section files are not linked across borders, and the history archive, trends, search and Today read only the top files.
+
 **Why the threshold is 0.3, not 0.4:** on the live feeds (2026-10-06), headlines about the same story from different outlets mostly scored 0.3–0.5, because French headlines in particular are long and worded differently. On ~200 raw FR feed items, 0.4 produced 5 multi-outlet clusters and 0.3 produced 11. Only one of the 11 was borderline: two different Édouard Philippe pieces. The cluster tests use real headline pairs at the configured threshold.
 
 **Chaining guard (average linkage):** plain union-find is transitive. On the live US feeds, NPR's "Supreme Court's new term kicks off with blockbuster climate change case" scored 0.30 against WaPo's "6 things to watch in the Supreme Court's new term". That one link merged the climate-case story and the new-term story into a single 15-article cluster, headlined by a midterms piece. Requiring an average similarity of 0.2 between the groups being merged splits them back into "climate case" (11) and "new term" (4), while every genuine multi-outlet story (e.g. Hastert, 6 outlets) stays whole. At 0.25, real members started dropping out. [cluster.test.ts](../packages/ingest/test/cluster.test.ts) reproduces the chain with those real headlines.
@@ -104,7 +106,8 @@ Types live in [packages/shared/src/index.ts](../packages/shared/src/index.ts). `
   "countries": [{
     "code": "FR", "name": "France", "updatedAt": "…", "clusterCount": 15,
     "topTitle": "…",   // the top story's headline        (optional: older files have neither)
-    "topOutlets": 4    // its outletCount24h
+    "topOutlets": 4,   // its outletCount24h
+    "categories": ["top", "sport", "business"]   // optional: the files it has, when it has section files
   }],
   "regions": [{ "code": "FR-BRE", "name": "Brittany", "updatedAt": "…", "clusterCount": 15 }],  // optional
   "world": [{                       // optional: cross-border stories, most countries first, ≤ 20
@@ -139,6 +142,8 @@ Types live in [packages/shared/src/index.ts](../packages/shared/src/index.ts). `
 ```
 
 `data/regions/{CC}-{R}.json` (ISO 3166-2 code, e.g. `FR-BRE`; Corsica is `FR-20R`) has the same shape plus `regionCode` and `regionName`. It is built from regional outlets only (sources with a `region` in the config), clustered and ranked on its own, so regional papers never crowd the national file.
+
+Section files, `data/countries/{CC}.{category}.json` and `data/regions/{CC}-{R}.{category}.json` with `category` `sport` or `business` (`FR.sport.json`), have the same shape plus `category`, and no `alsoIn`. Top files keep their plain name and have no `category`. A code never contains a dot, so the name is unambiguous, and the same stem (`DE.sport`) names the file in `status.json`. An index entry lists its place's files in `categories`; a section with no top file isn't listed.
 
 `Article`: `id, url, canonicalUrl, title, description (≤ ~300 chars or null), source {id, name}, sourceCountry, language, publishedAt, imageUrl (or null), countryCode, regionCode (the outlet's region, or null for national outlets)`.
 

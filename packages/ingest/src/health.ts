@@ -1,14 +1,15 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { SCHEMA_VERSION, type FailingFeed, type StatusFile } from '@news-globe/shared';
-import { feedUrlsOf, SOURCES, type SourceConfig } from './sources.config';
+import { fileStem, SCHEMA_VERSION, type Category, type FailingFeed, type StatusFile } from '@news-globe/shared';
+import { FETCHED_CATEGORIES, feedUrlsOf, SOURCES, type SourceConfig } from './sources.config';
 import { writeJsonAtomic } from './write';
 
 /**
  * Feed health, from the HTTP cache the run just updated. A feed is failing
  * when its last attempt was not also its last success: an HTTP error, a
- * timeout, or a body that would not parse. A country or region is dark when
- * all its feeds are failing, so its file is no longer refreshed.
+ * timeout, or a body that would not parse. A file (a country's or region's
+ * top headlines, or one of its sections) is dark when all its feeds are
+ * failing, so it is no longer refreshed.
  *
  * Written to `data/status.json` and published with the other public files;
  * the hourly health check (.github/workflows/health.yml) reads it and fails,
@@ -22,29 +23,39 @@ interface CacheEntry {
   lastStatus?: number | string;
 }
 
-export function buildStatus(entries: Record<string, CacheEntry>, sources: readonly SourceConfig[], updatedAt: string): StatusFile {
+export function buildStatus(
+  entries: Record<string, CacheEntry>,
+  sources: readonly SourceConfig[],
+  updatedAt: string,
+  categories: readonly Category[] = FETCHED_CATEGORIES,
+): StatusFile {
   const failing: FailingFeed[] = [];
-  // Unit → whether any of its feeds was requested yet, whether one works, and its latest success.
+  // File (`FR`, `DE.sport`) → whether any of its feeds was requested yet, whether one works, and its
+  // latest success. Each file on its own: a working sport feed must not hide a frozen top file.
   const units = new Map<string, { requested: boolean; working: boolean; lastOkAt: string | null }>();
   let total = 0;
 
   for (const source of sources) {
-    const unit = source.region ?? source.country;
-    const state = units.get(unit) ?? { requested: false, working: false, lastOkAt: null };
-    units.set(unit, state);
-    for (const url of feedUrlsOf(source)) {
-      total++;
-      const entry = entries[url];
-      // A feed never requested yet (just added) is neither working nor failing.
-      if (!entry) continue;
-      state.requested = true;
-      const lastOkAt = entry.retrievedAt ?? null;
-      if (lastOkAt && (!state.lastOkAt || lastOkAt > state.lastOkAt)) state.lastOkAt = lastOkAt;
-      if (entry.retrievedAt === entry.lastAttemptAt) {
-        state.working = true;
-        continue;
+    for (const category of categories) {
+      const urls = feedUrlsOf(source, [category]);
+      if (!urls.length) continue;
+      const unit = fileStem(source.region ?? source.country, category);
+      const state = units.get(unit) ?? { requested: false, working: false, lastOkAt: null };
+      units.set(unit, state);
+      for (const url of urls) {
+        total++;
+        const entry = entries[url];
+        // A feed never requested yet (just added) is neither working nor failing.
+        if (!entry) continue;
+        state.requested = true;
+        const lastOkAt = entry.retrievedAt ?? null;
+        if (lastOkAt && (!state.lastOkAt || lastOkAt > state.lastOkAt)) state.lastOkAt = lastOkAt;
+        if (entry.retrievedAt === entry.lastAttemptAt) {
+          state.working = true;
+          continue;
+        }
+        failing.push({ source: source.id, unit, url, lastStatus: entry.lastStatus ?? null, lastOkAt });
       }
-      failing.push({ source: source.id, unit, url, lastStatus: entry.lastStatus ?? null, lastOkAt });
     }
   }
 
