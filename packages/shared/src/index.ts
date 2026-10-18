@@ -246,7 +246,7 @@ export interface SearchFile {
   items: [string, string, number][];
 }
 
-/** A story as the Today page lists it: enough to show it and open its page. */
+/** A story as the world briefing lists it: enough to show it and open its page. */
 export interface TodayStory {
   /** Country (or region) it ranks in, and its cluster id there, for its story page. */
   unit: string;
@@ -267,7 +267,7 @@ export interface TodayStory {
 }
 
 /**
- * `today.json`: the Today page, derived hourly with `trends` and `search`
+ * `today.json`: the national stories of the world briefing, derived hourly with `trends` and `search`
  * (packages/ingest/src/derived.ts) from the latest run and the day's archive.
  */
 export interface TodayFile {

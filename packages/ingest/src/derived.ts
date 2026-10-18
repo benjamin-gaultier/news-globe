@@ -14,7 +14,7 @@ import {
  * Small files derived each hour from the published run and the history
  * archive, next to them in KV (see archive-remote.ts): `trends` for the
  * New / Rising badges, rank sparklines and the globe's "change" shading, and
- * `search` for searching every headline, `today` for the Today page.
+ * `search` for searching every headline, `today` for the world briefing.
  */
 
 /** Rank histories cover at most this many of today's latest runs. */
@@ -85,7 +85,7 @@ export function buildSearch(runAt: string, units: PublishedUnit[]): SearchFile {
   };
 }
 
-/** Today page sizes. */
+/** Sizes of the `today` lists. */
 export const TODAY_TOP = 12;
 export const TODAY_PER_COUNTRY = 2;
 export const TODAY_RISING = 8;
@@ -94,7 +94,7 @@ export const TODAY_LASTING = 6;
 export const LASTING_HOURS = 6;
 const LASTING_TOP = 3;
 
-/** The Today page for the run at `runAt`, from its national stories and their trends (see buildTrends). */
+/** The `today` file for the run at `runAt`, from its national stories and their trends (see buildTrends). */
 export function buildToday(trends: TrendsFile, units: PublishedUnit[]): TodayFile {
   const runAt = trends.runAt;
   const all: TodayStory[] = [];

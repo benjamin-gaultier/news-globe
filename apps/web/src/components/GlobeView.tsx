@@ -3,6 +3,7 @@ import { memo, useCallback, useContext, useEffect, useMemo, useRef, useState } f
 import Globe, { type GlobeMethods } from 'react-globe.gl';
 import { MeshPhongMaterial } from 'three';
 import countriesGeo from '../assets/countries-110m.json';
+import { middleOf } from '../lib/geo';
 import { COUNTRY_HEAT, heatStep, REGION_HEAT, type Pulse } from '../lib/heat';
 import { REDUCED_MOTION_QUERY, useMediaQuery } from '../hooks/useMediaQuery';
 import { TranslationsContext } from '../lib/translations';
@@ -82,22 +83,6 @@ const NO_COUNTRIES: readonly CountryCode[] = [];
 
 /** How long the pointer rests on a story before the globe turns to its countries, so sweeping down the list doesn't spin it. */
 const HIGHLIGHT_TURN_DELAY_MS = 300;
-
-/** The point between `codes`' countries on the sphere: the camera aims there to show them together. */
-function middleOf(codes: readonly CountryCode[]): { lat: number; lng: number } {
-  const rad = Math.PI / 180;
-  let x = 0;
-  let y = 0;
-  let z = 0;
-  for (const code of codes) {
-    const c = COUNTRIES[code];
-    if (!c) continue;
-    x += Math.cos(c.lat * rad) * Math.cos(c.lng * rad);
-    y += Math.cos(c.lat * rad) * Math.sin(c.lng * rad);
-    z += Math.sin(c.lat * rad);
-  }
-  return { lat: Math.atan2(z, Math.hypot(x, y)) / rad, lng: Math.atan2(y, x) / rad };
-}
 
 const INITIAL_VIEW = { lat: 32, lng: -45, altitude: 2.6 };
 /** A touch that moves further than this is a drag, not a tap. */
