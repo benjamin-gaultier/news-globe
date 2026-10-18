@@ -1,7 +1,7 @@
 import { COUNTRIES, REGIONS, type Category, type CountryCode, type IndexEntry, type RegionCode } from '@news-globe/shared';
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { HeatLegend, type Shading } from './components/HeatLegend';
-import { ClockIcon, HistoryBar, LiveBar } from './components/HistoryBar';
+import { HeatLegend } from './components/HeatLegend';
+import { HistoryBar, LiveBar } from './components/HistoryBar';
 import { HistoryPanel } from './components/HistoryPanel';
 import { NewsPanel } from './components/NewsPanel';
 import { SearchBox } from './components/SearchBox';
@@ -13,10 +13,12 @@ import { useHashRoute } from './hooks/useHashRoute';
 import { useHistoryMode } from './hooks/useHistoryMode';
 import { MOBILE_QUERY, REDUCED_MOTION_QUERY, useMediaQuery } from './hooks/useMediaQuery';
 import { useNow } from './hooks/useNow';
+import { useRecentCountries } from './hooks/useRecentCountries';
 import { fetchCountry, fetchIndex, fetchRegion, fetchTranslations, fetchTrends } from './lib/data';
-import { changeStep, pulsesFrom } from './lib/heat';
+import { pulsesFrom } from './lib/heat';
 import { storiesAt, todayUtc } from './lib/history';
 import { formatRoute, parseRoute } from './lib/route';
+import { searchPlaces } from './lib/search';
 import { TranslationsContext } from './lib/translations';
 import { relativeTime } from './lib/time';
 import { CATEGORY_NAMES, categoryIn, GLOBE, place, routeOf, viewFromRoute, type View } from './lib/view';
@@ -61,20 +63,14 @@ export function App() {
   const historyDate = history.date;
   const { open: startHistory, close: closeHistory, goTo: historyGoTo } = history;
 
-  // Trends for the latest run: badges, sparklines and the "change" shading (live only).
+  // Trends for the latest run: badges, sparklines and pulses (live only).
   const trends = useAsync(historyDate ? null : (signal) => fetchTrends(signal), [historyDate, indexTick]);
   const trendsData = latestData(trends);
-  const [shading, setShading] = useState<Shading>('coverage');
 
   // English for the most-seen headlines, from the hourly workflow (none until it is set up).
   const translationsFile = useAsync((signal) => fetchTranslations(signal), [indexTick]);
   const translationsData = latestData(translationsFile);
   const translations = useMemo(() => new Map(Object.entries(translationsData?.items ?? {})), [translationsData]);
-  const canShadeByChange = !historyDate && !!trendsData;
-  const shadeStep = useMemo(
-    () => (canShadeByChange && shading === 'change' ? (code: string) => changeStep(trendsData!.change[code] ?? 0) : undefined),
-    [canShadeByChange, shading, trendsData],
-  );
 
   const liveEntries = useMemo(
     () => new Map([...(indexData?.countries ?? []), ...(indexData?.regions ?? [])].map((e) => [e.code, e])),
@@ -105,6 +101,8 @@ export function App() {
     return Object.values(REGIONS).filter((r) => r.country === selected && withData.has(r.code));
   }, [historyDate, entries, indexData, selected]);
   const region = selectedRegion ? REGIONS[selectedRegion] : undefined;
+  // Shortcuts to the countries opened lately (not to a link's country that turns out to have no headlines).
+  const recent = useRecentCountries(selected && available.has(selected) ? selected : null);
 
   // Selecting a country (or closing) always starts from its national top headlines; so does a swipe to the next one.
   const selectCountry = useCallback((code: CountryCode | null) => setView(code ? place(code) : GLOBE), []);
@@ -134,9 +132,9 @@ export function App() {
   const openWorld = useCallback(() => setView({ kind: 'world' }), []);
   const openSearch = useCallback(() => setView({ kind: 'search' }), []);
   const closeSearch = useCallback(() => setView((v) => (v.kind === 'search' ? GLOBE : v)), []);
-  /** A search result: its country or region panel, live, on that story. */
+  /** A search result: its country or region panel, live, on that story if it is a headline. */
   const openSearchResult = useCallback(
-    (unit: string, title: string) => {
+    (unit: string, title?: string) => {
       const region = REGIONS[unit];
       setView(place(region?.country ?? unit, { region: region ? unit : null, focusTitle: title }));
       closeHistory();
@@ -159,6 +157,11 @@ export function App() {
     setQuery('');
     closeSearch();
   }, [closeSearch]);
+  // Places with live headlines whose name matches the query; Enter opens the first.
+  const places = useMemo(() => searchPlaces(query, (code) => liveEntries.has(code)), [query, liveEntries]);
+  const submitSearch = useCallback(() => {
+    if (places[0]) openSearchResult(places[0]);
+  }, [places, openSearchResult]);
 
   // "/" jumps to the search box, as on many sites, unless the user is typing somewhere.
   useEffect(() => {
@@ -192,7 +195,7 @@ export function App() {
     historyGoTo(route.at);
   });
 
-  // Keep the open country's chip in view (a swipe or a link can open one far along the row).
+  // Keep the open country's chip in view (on a phone the row can be wider than the screen).
   useEffect(() => {
     if (!selected) return;
     document
@@ -260,12 +263,11 @@ export function App() {
     setView(next);
   }, [indexData, available, regions, liveEntries, placeView, selectCountry, showToast, historyDate]);
 
-  // History keeps the open place (on its top list: History has no sections); any other panel closes.
+  // History opens from a live panel's timeline and keeps its place (on the top list: History has no sections).
   const openHistory = useCallback(() => {
     setView((v) => (v.kind === 'place' ? { ...v, category: 'top', story: null } : GLOBE));
     startHistory();
   }, [startHistory]);
-  const toggleHistory = () => (historyDate ? closeHistory() : openHistory());
   // Today is live only: opening it leaves History.
   const toggleToday = () => {
     if (view.kind === 'today') return selectCountry(null);
@@ -347,18 +349,21 @@ export function App() {
               </span>
             </p>
           </div>
-          <SearchBox ref={searchInput} query={query} onQueryChange={changeQuery} onFocus={reopenSearch} onClear={clearSearch} />
+          <SearchBox
+            ref={searchInput}
+            query={query}
+            onQueryChange={changeQuery}
+            onFocus={reopenSearch}
+            onClear={clearSearch}
+            onSubmit={submitSearch}
+          />
           <div className="topbar-tools">
             <button type="button" className="tool-btn" aria-label="Today" aria-pressed={view.kind === 'today'} onClick={toggleToday}>
               <TodayIcon />
               <span>Today</span>
             </button>
-            <button type="button" className="tool-btn" aria-label="History" aria-pressed={historyDate !== null} onClick={toggleHistory}>
-              <ClockIcon />
-              <span>History</span>
-            </button>
           </div>
-          <nav className="country-picker" aria-label="Countries">
+          <nav className="country-picker" aria-label="Recent countries">
             {worldStories.length > 0 && !historyDate && (
               <button
                 type="button"
@@ -369,16 +374,16 @@ export function App() {
                 Across borders
               </button>
             )}
-            {Object.values(COUNTRIES).map((c) => (
+            {recent.map((code) => (
               <button
-                key={c.code}
+                key={code}
                 type="button"
                 className="chip"
-                aria-pressed={selected === c.code}
-                disabled={!available.has(c.code)}
-                onClick={() => selectCountry(selected === c.code ? null : c.code)}
+                aria-pressed={selected === code}
+                disabled={!available.has(code)}
+                onClick={() => selectCountry(selected === code ? null : code)}
               >
-                {c.name}
+                {COUNTRIES[code]?.name ?? code}
               </button>
             ))}
           </nav>
@@ -397,7 +402,6 @@ export function App() {
               onUnavailable={handleUnavailable}
               isMobile={isMobile}
               sheetFraction={sheetFraction}
-              shadeStep={shadeStep}
               arcs={arcs}
               pulses={pulses}
             />
@@ -405,11 +409,7 @@ export function App() {
           {view.kind === 'globe' && !historyDate && <p className="hint">Tap a highlighted country to see its top headlines</p>}
           {/* An index from before the ingest wrote counts shades everything alike: no key then. */}
           {!meta && !world && !(historyDate && isMobile) && [...entries.values()].some((e) => e.topOutlets !== undefined) && (
-            <HeatLegend
-              shading={canShadeByChange ? shading : 'coverage'}
-              onShadingChange={canShadeByChange ? setShading : undefined}
-              pulsing={pulses.length > 0}
-            />
+            <HeatLegend pulsing={pulses.length > 0} />
           )}
           {!meta && historyBar}
         </main>
@@ -468,10 +468,12 @@ export function App() {
         {view.kind === 'search' && (
           <SearchPanel
             query={query}
+            places={places}
             isMobile={isMobile}
             onClose={handleClose}
             onSheetChange={setSheetFraction}
             onOpenStory={openSearchResult}
+            onOpenPlace={openSearchResult}
           />
         )}
         {view.kind === 'today' && (

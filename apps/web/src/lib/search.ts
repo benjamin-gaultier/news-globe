@@ -7,6 +7,30 @@ export const foldForSearch = (s: string) =>
     .replace(/\p{M}+/gu, '')
     .toLowerCase();
 
+/** Words of a folded name or query: "Côte d'Ivoire" → cote, d, ivoire. */
+const wordsOf = (s: string) =>
+  foldForSearch(s)
+    .split(/[^\p{L}\p{N}]+/u)
+    .filter((w) => w.length > 0);
+
+/**
+ * Countries, then regions, that have headlines (`has`) and whose own name (or a region's local
+ * name) has a word starting with each word of the query: "uni" finds the United States and the
+ * United Kingdom, "bayern" Bavaria.
+ */
+export function searchPlaces(query: string, has: (code: string) => boolean, limit = 6): string[] {
+  const words = wordsOf(query);
+  if (!words.length) return [];
+  const matches = (names: readonly string[]) =>
+    names.some((name) => {
+      const parts = wordsOf(name);
+      return words.every((w) => parts.some((p) => p.startsWith(w)));
+    });
+  const countries = Object.values(COUNTRIES).filter((c) => has(c.code) && matches([c.name]));
+  const regions = Object.values(REGIONS).filter((r) => has(r.code) && matches([r.name, ...(r.localNames ?? [])]));
+  return [...countries, ...regions].slice(0, limit).map((p) => p.code);
+}
+
 /** A place's display name: "Brittany, France" for a region, "France" for a country. */
 export function placeName(code: string): string {
   const region = REGIONS[code];

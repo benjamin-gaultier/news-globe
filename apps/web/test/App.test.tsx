@@ -86,6 +86,7 @@ beforeEach(() => {
   fetchMock.mockClear();
   vi.stubGlobal('fetch', fetchMock);
   globe.props = null;
+  localStorage.removeItem('news-globe:recent');
 });
 
 afterEach(() => {
@@ -99,7 +100,7 @@ async function renderApp(hash = '') {
   await waitFor(() => expect(globe.props).not.toBeNull());
 }
 
-const chip = (name: string) => within(screen.getByRole('navigation', { name: 'Countries' })).getByRole('button', { name });
+const chip = (name: string) => within(screen.getByRole('navigation', { name: 'Recent countries' })).getByRole('button', { name });
 const panel = () => screen.queryByRole('complementary');
 
 describe('App', () => {
@@ -109,9 +110,8 @@ describe('App', () => {
     expect(screen.getByText('Loading…')).toBeTruthy();
     await screen.findByText('Updated 10 minutes ago');
 
-    expect((chip('France') as HTMLButtonElement).disabled).toBe(false);
-    expect((chip('United States') as HTMLButtonElement).disabled).toBe(false);
-    expect((chip('Germany') as HTMLButtonElement).disabled).toBe(true);
+    // No country shortcuts before one has been opened.
+    expect(screen.queryByRole('button', { name: 'France' })).toBeNull();
     expect(screen.getByText('Tap a highlighted country to see its top headlines')).toBeTruthy();
     expect(screen.getByRole('figure', { name: /Shading/ })).toBeTruthy();
     await waitFor(() => expect([...globe.props!.available].sort()).toEqual(['FR', 'US']));
@@ -122,7 +122,7 @@ describe('App', () => {
 
   it('opens a country’s headlines, keeps the URL in step, and closes again', async () => {
     await renderApp();
-    await userEvent.click(chip('France'));
+    act(() => globe.props!.onSelect('FR'));
 
     expect(await screen.findByRole('link', { name: 'Le budget adopté' })).toBeTruthy();
     expect(screen.getByRole('heading', { name: 'France' })).toBeTruthy();
@@ -137,6 +137,29 @@ describe('App', () => {
     expect(panel()).toBeNull();
     expect(location.hash).toBe('');
     expect(document.title).toBe('News Globe');
+  });
+
+  it('keeps the last countries opened as shortcuts, in this browser', async () => {
+    const shortcuts = () =>
+      within(screen.getByRole('navigation', { name: 'Recent countries' }))
+        .getAllByRole('button')
+        .map((b) => b.textContent)
+        .filter((name) => name !== 'Across borders');
+    await renderApp('#FR');
+    await screen.findByRole('link', { name: 'Le budget adopté' });
+    act(() => globe.props!.onSelect('US'));
+    await screen.findByRole('link', { name: 'Senate passes bill' });
+    expect(shortcuts()).toEqual(['United States', 'France']);
+
+    // Opening one already listed leaves the row as it is.
+    await userEvent.click(chip('France'));
+    await screen.findByRole('link', { name: 'Le budget adopté' });
+    expect(shortcuts()).toEqual(['United States', 'France']);
+
+    cleanup();
+    globe.props = null;
+    await renderApp();
+    expect(shortcuts()).toEqual(['United States', 'France']);
   });
 
   it('closes the panel from its close button', async () => {
@@ -174,6 +197,7 @@ describe('App', () => {
     expect(await screen.findByText('Germany — coming soon')).toBeTruthy();
     expect(panel()).toBeNull();
     expect(location.hash).toBe('');
+    expect(screen.queryByRole('button', { name: 'Germany' })).toBeNull();
   });
 
   it('falls back from a link to a region without headlines to its country', async () => {
@@ -190,7 +214,7 @@ describe('App', () => {
 
   it('follows Back and Forward', async () => {
     await renderApp();
-    await userEvent.click(chip('France'));
+    act(() => globe.props!.onSelect('FR'));
     await screen.findByRole('link', { name: 'Le budget adopté' });
 
     act(() => {
@@ -329,15 +353,6 @@ describe('App', () => {
       expect(await screen.findByRole('heading', { level: 2, name: 'Le budget adopté' })).toBeTruthy();
       expect(location.hash).toBe('#FR/bud1');
     });
-
-    it('leaves the story page for the list, History or another country', async () => {
-      files.archive = () => true;
-      await renderApp('#FR/bud1');
-      await screen.findByRole('heading', { level: 2, name: 'Le budget adopté' });
-      await userEvent.click(screen.getByRole('button', { name: 'History' }));
-      expect(await screen.findByRole('link', { name: 'Archived budget story' })).toBeTruthy();
-      expect(location.hash).not.toContain('bud1');
-    });
   });
 
   describe('Sections', () => {
@@ -470,19 +485,6 @@ describe('App', () => {
         mq.mockRestore();
       }
     });
-
-    it('opens History on the top headlines, and Live returns to them', async () => {
-      files.archive = () => true;
-      await renderApp('#FR.sport');
-      await screen.findByRole('link', { name: 'Le PSG s’impose' });
-      await userEvent.click(screen.getByRole('button', { name: 'History' }));
-      expect(await screen.findByRole('link', { name: 'Archived budget story' })).toBeTruthy();
-      expect(location.hash).toMatch(/^#FR@/);
-
-      await userEvent.click(screen.getByRole('button', { name: 'Live' }));
-      expect(await screen.findByRole('link', { name: 'Le budget adopté' })).toBeTruthy();
-      expect(location.hash).toBe('#FR');
-    });
   });
 
   it('reports an unreachable index and retries', async () => {
@@ -511,25 +513,31 @@ describe('App', () => {
   describe('History', () => {
     it('replays a day’s runs on the globe and in the panel', async () => {
       files.archive = () => true;
-      await renderApp();
-      await userEvent.click(screen.getByRole('button', { name: 'History' }));
+      await renderApp('#FR');
+      await screen.findByRole('link', { name: 'Le budget adopté' });
+      await userEvent.click(within(panel()!).getByRole('button', { name: 'History' }));
 
       const slider = await screen.findByRole('slider');
       const today = new Date().toISOString().slice(0, 10);
       expect(requested()).toContain(`/data/archive/${today}.json`);
-      // Opens on the day's latest run.
+      // Opens on the day's latest run, with the timeline in the panel above the headlines.
       expect((slider as HTMLInputElement).value).toBe('1');
+      await waitFor(() => expect(location.hash).toBe(`#FR@${today}T09:00`));
+      expect(await screen.findByRole('link', { name: 'Archived budget story' })).toBeTruthy();
+      expect(within(panel()!).getByRole('slider')).toBe(slider);
+
+      // Closing the panel stays in History, on the globe.
+      await userEvent.click(screen.getByRole('button', { name: 'Close headlines' }));
       await waitFor(() => expect(location.hash).toBe(`#@${today}T09:00`));
-      expect(screen.getByRole('button', { name: 'History' }).getAttribute('aria-pressed')).toBe('true');
+      expect(screen.getByRole('slider')).toBeTruthy();
       expect(screen.queryByRole('button', { name: 'Across borders' })).toBeNull();
       expect([...globe.props!.entries.keys()]).toEqual(['FR']);
       expect(globe.props!.entries.get('FR')!.updatedAt).toBe(`${today}T09:00:00.000Z`);
 
-      await userEvent.click(chip('France'));
+      fetchMock.mockClear();
+      act(() => globe.props!.onSelect('FR'));
       expect(await screen.findByRole('link', { name: 'Archived budget story' })).toBeTruthy();
       expect(location.hash).toBe(`#FR@${today}T09:00`);
-      // The timeline moved into the panel, above the headlines.
-      expect(within(panel()!).getByRole('slider')).toBe(screen.getByRole('slider'));
       // History never loads the live file.
       expect(requested()).not.toContain('/data/countries/FR.json');
 
@@ -611,17 +619,6 @@ describe('Trends', () => {
     expect(screen.queryByRole('img', { name: /Rank over/ })).toBeNull();
   });
 
-  it('shades the globe by change on request', async () => {
-    withTrends();
-    await renderApp();
-    await userEvent.click(await screen.findByRole('button', { name: 'Change' }));
-    expect(globe.props!.shadeStep?.('FR')).toBe(2);
-    expect(globe.props!.shadeStep?.('US')).toBe(0);
-    expect(screen.getByRole('figure', { name: /new or rising/ })).toBeTruthy();
-    await userEvent.click(screen.getByRole('button', { name: 'Coverage' }));
-    expect(globe.props!.shadeStep).toBeUndefined();
-  });
-
   it('pulses the countries whose #1 story is new or rising, while no country is open', async () => {
     withPulse();
     await renderApp();
@@ -656,9 +653,9 @@ describe('Trends', () => {
         removeEventListener() {},
       }) as unknown as MediaQueryList;
     try {
-      await renderApp();
-      await waitFor(() => expect(requested()).toContain('/data/trends.json'));
-      await screen.findByRole('button', { name: 'Change' }); // the trends are in
+      await renderApp('#FR');
+      await screen.findByText('↑ Rising'); // the trends are in
+      await userEvent.click(screen.getByRole('button', { name: 'Close headlines' }));
       expect(globe.props!.pulses).toEqual([]);
       expect(screen.queryByText('New or rising #1 story')).toBeNull();
     } finally {
@@ -671,12 +668,6 @@ describe('Trends', () => {
     await renderApp();
     await waitFor(() => expect(requested()).toContain('/data/trends.json'));
     expect(globe.props!.pulses).toEqual([]);
-  });
-
-  it('offers no change shading before the workflow has written trends', async () => {
-    await renderApp();
-    await waitFor(() => expect(requested()).toContain('/data/trends.json'));
-    expect(screen.queryByRole('button', { name: 'Change' })).toBeNull();
   });
 });
 
@@ -694,7 +685,7 @@ describe('Search', () => {
 
   it('finds a headline and opens its panel on that story', async () => {
     await renderApp();
-    const box = screen.getByRole('searchbox', { name: /Search every country/ });
+    const box = screen.getByRole('searchbox', { name: /Search countries, regions and every current headline/ });
     expect(panel()).toBeNull();
     await userEvent.type(box, 'budget');
     expect(await screen.findByRole('heading', { name: 'Search results' })).toBeTruthy();
@@ -706,6 +697,21 @@ describe('Search', () => {
     // The query stays in the box: focusing it shows the results again.
     await userEvent.click(box);
     expect(await screen.findByRole('heading', { name: 'Search results' })).toBeTruthy();
+  });
+
+  it('finds a place by name and opens it, and Enter opens the first place', async () => {
+    await renderApp();
+    await userEvent.type(screen.getByRole('searchbox'), 'brit');
+    const places = within(await screen.findByRole('region', { name: 'Places' }));
+    await userEvent.click(places.getByRole('button', { name: 'Brittany, France' }));
+    expect(await screen.findByRole('link', { name: 'Rennes : le métro' })).toBeTruthy();
+    expect(location.hash).toBe('#FR-BRE');
+
+    // The United Kingdom has no headlines: only the United States.
+    await userEvent.clear(screen.getByRole('searchbox'));
+    await userEvent.type(screen.getByRole('searchbox'), 'united{Enter}');
+    expect(await screen.findByRole('link', { name: 'Senate passes bill' })).toBeTruthy();
+    expect(location.hash).toBe('#US');
   });
 
   it('closes the results on Escape, emptying the box', async () => {
