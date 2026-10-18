@@ -212,9 +212,10 @@ export function App() {
     document.title = pageTitle ? `${pageTitle} · News Globe` : 'News Globe';
   }, [pageTitle]);
 
-  // Refetch the open country or region when the index reports a newer file (a run writes its sections with it).
+  // Refetch the open country or region when the index reports a newer file. The index dates only top files, and a run
+  // that keeps a place's previous top file can still rewrite its sections: a section follows every run (304 if unchanged).
   const selectedEntry = selected ? liveEntries.get(selectedRegion ?? selected) : undefined;
-  const selectedUpdatedAt = selectedEntry?.updatedAt;
+  const selectedUpdatedAt = category === 'top' ? selectedEntry?.updatedAt : indexData?.updatedAt;
   const country = useAsync(
     historyDate
       ? null

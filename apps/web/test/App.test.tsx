@@ -407,6 +407,23 @@ describe('App', () => {
       expect(within(sections()).getByRole('button', { name: 'Sport' }).getAttribute('aria-pressed')).toBe('true');
     });
 
+    it('reloads an open section on every run, even one that kept the place’s top file', async () => {
+      const setIntervalSpy = vi.spyOn(globalThis, 'setInterval');
+      try {
+        await renderApp('#FR.sport');
+        await screen.findByRole('link', { name: 'Le PSG s’impose' });
+        // The next run: France's top file kept (its index line unchanged), its sport file rewritten.
+        const index = files['index.json']!() as IndexFile;
+        files['index.json'] = () => ({ ...index, updatedAt: new Date().toISOString() });
+        files['countries/FR.sport.json'] = () => countryFile([cluster(article({ title: 'Le PSG enchaîne' }))], { category: 'sport' });
+        const reloadIndex = setIntervalSpy.mock.calls.find(([, ms]) => ms === 5 * 60_000)![0] as () => void;
+        act(() => reloadIndex());
+        expect(await screen.findByRole('link', { name: 'Le PSG enchaîne' })).toBeTruthy();
+      } finally {
+        setIntervalSpy.mockRestore();
+      }
+    });
+
     it('falls back from a link to a section a place doesn’t have to its top headlines', async () => {
       await renderApp('#US.sport');
       expect(await screen.findByRole('link', { name: 'Senate passes bill' })).toBeTruthy();

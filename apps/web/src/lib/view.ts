@@ -41,7 +41,7 @@ export const place = (
 /** A category's name in the panel's switch and the page title. */
 export const CATEGORY_NAMES: Record<Category, string> = { top: 'Top', sport: 'Sport', business: 'Business' };
 
-/** The category to show for a place:the one asked for when the place has that file, else its top headlines. */
+/** The category to show for a place: the one asked for when the place has that file, else its top headlines. */
 export const categoryIn = (entry: IndexEntry | undefined, category: Category): Category =>
   entry?.categories?.includes(category) ? category : 'top';
 
