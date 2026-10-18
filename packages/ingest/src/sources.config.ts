@@ -63,8 +63,8 @@ export interface SourceConfig {
 
 /**
  * Curated national outlets. Every URL below was fetched and parsed with the
- * real User-Agent on 2026-10-06 — see docs/sources.md for what was
- * swapped or dropped and why.
+ * real User-Agent on 2026-10-06 (sport and business feeds on 2026-10-18) —
+ * see docs/sources.md for what was swapped or dropped and why.
  */
 export const SOURCES: SourceConfig[] = [
   // ---- France ----
@@ -74,7 +74,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feeds: { top: ['https://www.lemonde.fr/politique/rss_full.xml', 'https://www.lemonde.fr/societe/rss_full.xml'] },
+    feeds: {
+      top: ['https://www.lemonde.fr/politique/rss_full.xml', 'https://www.lemonde.fr/societe/rss_full.xml'],
+      sport: ['https://www.lemonde.fr/sport/rss_full.xml'],
+      business: ['https://www.lemonde.fr/economie/rss_full.xml'],
+    },
     authority: 10,
   },
   {
@@ -83,7 +87,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feeds: { top: ['https://www.franceinfo.fr/politique.rss', 'https://www.franceinfo.fr/france.rss'] },
+    feeds: {
+      top: ['https://www.franceinfo.fr/politique.rss', 'https://www.franceinfo.fr/france.rss'],
+      sport: ['https://www.franceinfo.fr/sports.rss'],
+      business: ['https://www.franceinfo.fr/economie.rss'],
+    },
     authority: 9,
   },
   {
@@ -92,7 +100,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feeds: { top: ['https://www.lefigaro.fr/rss/figaro_politique.xml', 'https://www.lefigaro.fr/rss/figaro_actualite-france.xml'] },
+    feeds: {
+      top: ['https://www.lefigaro.fr/rss/figaro_politique.xml', 'https://www.lefigaro.fr/rss/figaro_actualite-france.xml'],
+      sport: ['https://www.lefigaro.fr/rss/figaro_sport.xml'],
+      business: ['https://www.lefigaro.fr/rss/figaro_economie.xml'],
+    },
     authority: 8,
   },
   {
@@ -106,6 +118,7 @@ export const SOURCES: SourceConfig[] = [
         'https://www.liberation.fr/arc/outboundfeeds/rss-all/category/politique/?outputType=xml',
         'https://www.liberation.fr/arc/outboundfeeds/rss-all/category/societe/?outputType=xml',
       ],
+      business: ['https://www.liberation.fr/arc/outboundfeeds/rss-all/category/economie/?outputType=xml'],
     },
     authority: 7,
   },
@@ -116,7 +129,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feeds: { top: ['https://www.ouest-france.fr/rss/france'] },
+    feeds: { top: ['https://www.ouest-france.fr/rss/france'], sport: ['https://www.ouest-france.fr/rss/sport'] },
     authority: 6,
   },
   {
@@ -125,8 +138,22 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feeds: { top: ['https://www.20minutes.fr/feeds/rss-politique.xml', 'https://www.20minutes.fr/feeds/rss-societe.xml'] },
+    feeds: {
+      top: ['https://www.20minutes.fr/feeds/rss-politique.xml', 'https://www.20minutes.fr/feeds/rss-societe.xml'],
+      sport: ['https://www.20minutes.fr/feeds/rss-sport.xml'],
+      business: ['https://www.20minutes.fr/feeds/rss-economie.xml'],
+    },
     authority: 5,
+  },
+  // lequipe.fr returns 403 to non-browser clients; its feeds are served from dwh.lequipe.fr.
+  {
+    id: 'lequipe',
+    name: "L'Équipe",
+    type: 'rss',
+    country: 'FR',
+    language: 'fr',
+    feeds: { sport: ['https://dwh.lequipe.fr/api/edito/rss?path=/'] },
+    authority: 10,
   },
 
   // ---- United States ----
@@ -137,7 +164,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feeds: { top: ['https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml', 'https://rss.nytimes.com/services/xml/rss/nyt/US.xml'] },
+    feeds: {
+      top: ['https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml', 'https://rss.nytimes.com/services/xml/rss/nyt/US.xml'],
+      business: ['https://rss.nytimes.com/services/xml/rss/nyt/Business.xml'],
+    },
     authority: 10,
   },
   {
@@ -186,6 +216,26 @@ export const SOURCES: SourceConfig[] = [
     feeds: { top: ['https://abcnews.com/abcnews/politicsheadlines', 'https://abcnews.com/abcnews/usheadlines'] },
     authority: 7,
   },
+  {
+    id: 'espn',
+    name: 'ESPN',
+    type: 'rss',
+    country: 'US',
+    language: 'en',
+    feeds: { sport: ['https://www.espn.com/espn/rss/news'] },
+    authority: 10,
+  },
+  // The New York Times' sports desk is The Athletic: its Sports.xml is empty and
+  // its sport sub-feeds (Soccer.xml) stale.
+  {
+    id: 'theathletic',
+    name: 'The Athletic',
+    type: 'rss',
+    country: 'US',
+    language: 'en',
+    feeds: { sport: ['https://www.nytimes.com/athletic/rss/news/'] },
+    authority: 9,
+  },
   // ---- United Kingdom ----
   // The Telegraph's feed is stale (newest item months old); The Times has no
   // public RSS; ITV's feed doesn't respond. The i Paper and the Mirror replace them.
@@ -195,7 +245,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GB',
     language: 'en',
-    feeds: { top: ['https://feeds.bbci.co.uk/news/uk/rss.xml', 'https://feeds.bbci.co.uk/news/politics/rss.xml'] },
+    feeds: {
+      top: ['https://feeds.bbci.co.uk/news/uk/rss.xml', 'https://feeds.bbci.co.uk/news/politics/rss.xml'],
+      sport: ['https://feeds.bbci.co.uk/sport/rss.xml'],
+      business: ['https://feeds.bbci.co.uk/news/business/rss.xml'],
+    },
     authority: 10,
   },
   {
@@ -204,7 +258,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GB',
     language: 'en',
-    feeds: { top: ['https://www.theguardian.com/uk-news/rss', 'https://www.theguardian.com/politics/rss'] },
+    feeds: {
+      top: ['https://www.theguardian.com/uk-news/rss', 'https://www.theguardian.com/politics/rss'],
+      sport: ['https://www.theguardian.com/uk/sport/rss'],
+      business: ['https://www.theguardian.com/uk/business/rss'],
+    },
     authority: 9,
   },
   {
@@ -259,7 +317,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feeds: { top: ['https://www.tagesschau.de/inland/innenpolitik/index~rss2.xml', 'https://www.tagesschau.de/inland/index~rss2.xml'] },
+    feeds: {
+      top: ['https://www.tagesschau.de/inland/innenpolitik/index~rss2.xml', 'https://www.tagesschau.de/inland/index~rss2.xml'],
+      business: ['https://www.tagesschau.de/wirtschaft/index~rss2.xml'],
+    },
     authority: 10,
   },
   {
@@ -268,7 +329,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feeds: { top: ['https://www.spiegel.de/politik/deutschland/index.rss'] },
+    feeds: {
+      top: ['https://www.spiegel.de/politik/deutschland/index.rss'],
+      sport: ['https://www.spiegel.de/sport/index.rss'],
+      business: ['https://www.spiegel.de/wirtschaft/index.rss'],
+    },
     authority: 9,
   },
   {
@@ -277,7 +342,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feeds: { top: ['https://rss.sueddeutsche.de/rss/Politik'] },
+    feeds: {
+      top: ['https://rss.sueddeutsche.de/rss/Politik'],
+      sport: ['https://rss.sueddeutsche.de/rss/Sport'],
+      business: ['https://rss.sueddeutsche.de/rss/Wirtschaft'],
+    },
     authority: 9,
   },
   {
@@ -286,7 +355,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feeds: { top: ['https://www.faz.net/rss/aktuell/politik/inland/'] },
+    feeds: {
+      top: ['https://www.faz.net/rss/aktuell/politik/inland/'],
+      sport: ['https://www.faz.net/rss/aktuell/sport/'],
+      business: ['https://www.faz.net/rss/aktuell/wirtschaft/'],
+    },
     authority: 8,
   },
   {
@@ -295,7 +368,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feeds: { top: ['https://newsfeed.zeit.de/politik/deutschland/index'] },
+    feeds: { top: ['https://newsfeed.zeit.de/politik/deutschland/index'], business: ['https://newsfeed.zeit.de/wirtschaft/index'] },
     authority: 8,
   },
   {
@@ -304,7 +377,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feeds: { top: ['https://www.welt.de/feeds/section/politik/deutschland.rss'] },
+    feeds: {
+      top: ['https://www.welt.de/feeds/section/politik/deutschland.rss'],
+      sport: ['https://www.welt.de/feeds/section/sport.rss'],
+      business: ['https://www.welt.de/feeds/section/wirtschaft.rss'],
+    },
     authority: 7,
   },
   {
@@ -313,8 +390,39 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feeds: { top: ['https://www.n-tv.de/politik/rss'] },
+    feeds: {
+      top: ['https://www.n-tv.de/politik/rss'],
+      sport: ['https://www.n-tv.de/sport/rss'],
+      business: ['https://www.n-tv.de/wirtschaft/rss'],
+    },
     authority: 6,
+  },
+  {
+    id: 'kicker',
+    name: 'kicker',
+    type: 'rss',
+    country: 'DE',
+    language: 'de',
+    feeds: { sport: ['https://newsfeed.kicker.de/news/aktuell'] },
+    authority: 10,
+  },
+  {
+    id: 'sportschau',
+    name: 'Sportschau',
+    type: 'rss',
+    country: 'DE',
+    language: 'de',
+    feeds: { sport: ['https://www.sportschau.de/index~rss2.xml'] },
+    authority: 9,
+  },
+  {
+    id: 'handelsblatt',
+    name: 'Handelsblatt',
+    type: 'rss',
+    country: 'DE',
+    language: 'de',
+    feeds: { business: ['https://www.handelsblatt.com/contentexport/feed/top-themen'] },
+    authority: 10,
   },
   // ---- Spain ----
   // RTVE's public feeds are stale (newest items from 2022); Europa Press doesn't respond.
@@ -324,7 +432,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ES',
     language: 'es',
-    feeds: { top: ['https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada'] },
+    feeds: {
+      top: ['https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada'],
+      sport: ['https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/deportes/portada'],
+      business: ['https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada'],
+    },
     authority: 10,
   },
   {
@@ -381,6 +493,25 @@ export const SOURCES: SourceConfig[] = [
     feeds: { top: ['https://www.20minutos.es/rss/nacional/'] },
     authority: 5,
   },
+  // Marca's portada feed is stale (newest item five days old); its LaLiga feed is current.
+  {
+    id: 'marca',
+    name: 'Marca',
+    type: 'rss',
+    country: 'ES',
+    language: 'es',
+    feeds: { sport: ['https://objetos.estaticos-marca.com/rss/futbol/primera-division.xml'] },
+    authority: 10,
+  },
+  {
+    id: 'as',
+    name: 'AS',
+    type: 'rss',
+    country: 'ES',
+    language: 'es',
+    feeds: { sport: ['https://feeds.as.com/mrss-s/pages/as/site/as.com/portada/'] },
+    authority: 9,
+  },
   // ---- Italy ----
   // Corriere della Sera's feeds are abandoned (last built 2024); La Stampa's
   // redirect to HTML; Il Fatto Quotidiano's section feed is empty.
@@ -393,6 +524,8 @@ export const SOURCES: SourceConfig[] = [
     language: 'it',
     feeds: {
       top: ['https://www.ansa.it/sito/notizie/politica/politica_rss.xml', 'https://www.ansa.it/sito/notizie/cronaca/cronaca_rss.xml'],
+      sport: ['https://www.ansa.it/sito/notizie/sport/sport_rss.xml'],
+      business: ['https://www.ansa.it/sito/notizie/economia/economia_rss.xml'],
     },
     authority: 10,
   },
@@ -402,7 +535,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IT',
     language: 'it',
-    feeds: { top: ['https://www.repubblica.it/rss/politica/rss2.0.xml', 'https://www.repubblica.it/rss/cronaca/rss2.0.xml'] },
+    feeds: {
+      top: ['https://www.repubblica.it/rss/politica/rss2.0.xml', 'https://www.repubblica.it/rss/cronaca/rss2.0.xml'],
+      sport: ['https://www.repubblica.it/rss/sport/calcio/rss2.0.xml'],
+      business: ['https://www.repubblica.it/rss/economia/rss2.0.xml'],
+    },
     authority: 9,
   },
   {
@@ -440,6 +577,16 @@ export const SOURCES: SourceConfig[] = [
     language: 'it',
     feeds: { top: ['https://www.ilpost.it/italia/feed/'] },
     authority: 6,
+  },
+  // Gazzetta's rss/home.xml is stale (newest item from 2023); `last` is its latest-news feed.
+  {
+    id: 'gazzetta',
+    name: 'La Gazzetta dello Sport',
+    type: 'rss',
+    country: 'IT',
+    language: 'it',
+    feeds: { sport: ['https://www.gazzetta.it/dynamic-feed/rss/section/last.xml'] },
+    authority: 10,
   },
   // ---- Canada ----
   // CBC's webfeed endpoints hang for non-browser clients (cbc.ca itself responds);

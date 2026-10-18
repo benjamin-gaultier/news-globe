@@ -1,7 +1,7 @@
 import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { SCHEMA_VERSION, type CountryFile, type IndexFile } from '@news-globe/shared';
 import type { RawItem } from '../src/adapters';
 import { runIngest } from '../src/pipeline';
@@ -17,6 +17,7 @@ beforeEach(async () => {
 });
 
 afterEach(async () => {
+  vi.unstubAllGlobals();
   await rm(dir, { recursive: true, force: true });
 });
 
@@ -54,9 +55,9 @@ const exists = (...parts: string[]) =>
     () => false,
   );
 
-function ingest(sources: SourceConfig[]) {
+function ingest(sources: SourceConfig[], offline = true) {
   const lines: string[] = [];
-  const run = runIngest({ dataDir: dir, sources, offline: true, now: () => NOW, log: (m) => lines.push(m) });
+  const run = runIngest({ dataDir: dir, sources, offline, now: () => NOW, log: (m) => lines.push(m) });
   return run.then((summary) => ({ summary, log: lines.join('\n') }));
 }
 
@@ -239,5 +240,34 @@ describe('runIngest', () => {
     const fr = await readJson<CountryFile>('countries', 'FR.json');
     const published = Object.fromEntries(fr.clusters.map((c) => [c.representative.url.split('/').pop(), c.representative.publishedAt]));
     expect(published).toEqual({ undated: retrievedAt, future: new Date(NOW).toISOString() });
+  });
+
+  it('requests only feeds in fetched categories, and leaves out outlets with none', async () => {
+    const topUrl = 'https://lemonde.example/rss';
+    const sportUrl = 'https://lemonde.example/sport/rss';
+    const lemonde = source('lemonde', 'FR', { feeds: { top: [topUrl], sport: [sportUrl] } });
+    const gazzetta = source('gazzetta', 'IT', { language: 'it', feeds: { sport: ['https://gazzetta.example/rss'] } });
+    // Every feed serves a story of its own, so any feed that is read shows up as an article.
+    const stories: Record<string, string> = {
+      [topUrl]: STORY,
+      [sportUrl]: 'Le PSG s’impose face à Marseille au Parc des Princes',
+      'https://gazzetta.example/rss': 'L’Inter vince il derby e torna in testa al campionato',
+    };
+    const fetchMock = vi.fn<typeof fetch>(async (input) => {
+      const url = String(input);
+      return new Response(
+        `<?xml version="1.0"?><rss version="2.0"><channel><title>${url}</title><item><title>${stories[url]}</title>` +
+          `<link>${url}/story</link><pubDate>${new Date(NOW - 3_600_000).toUTCString()}</pubDate></item></channel></rss>`,
+      );
+    });
+    vi.stubGlobal('fetch', fetchMock);
+
+    const { summary } = await ingest([lemonde, gazzetta], false);
+
+    expect(fetchMock.mock.calls.map(([input]) => String(input))).toEqual([topUrl]);
+    const cache = await readJson<{ entries: Record<string, unknown> }>('.cache', 'http.json');
+    expect(Object.keys(cache.entries)).toEqual([topUrl]);
+    // The sport-only outlet adds no unit, and the sport feed no article.
+    expect(summary).toEqual({ countries: [{ code: 'FR', articles: 1, clusters: 1, written: true }], regions: [] });
   });
 });

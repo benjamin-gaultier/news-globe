@@ -2393,6 +2393,70 @@ Items without a date take the date from their URL (`/2026/10/06/` or `/20261006/
 
 Authority weights are editorial judgment calls. They only decide which outlet's headline represents a cluster, not ranking.
 
+## Sport and business feeds
+
+First batch probed on 2026-10-18, a Sunday, so business feeds were quieter than on a weekday. A feed was kept if it parsed, every item had a date, and it posts several items a day. These feeds sit under `feeds.sport` and `feeds.business` in [sources.config.ts](../packages/ingest/src/sources.config.ts) but are not requested yet: `FETCHED_CATEGORIES` is `['top']` until the pipeline writes a file per category. Specialist outlets (sports dailies, a business daily) have no `top` feed, so `runIngest` leaves them out until then; their authority is set for their category, with the leading sports daily at 10.
+
+**France** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| Le Monde | sport | économie | 10 | ✅ (sport: about 4 items a day) |
+| franceinfo | sports | économie | 9 | ✅ |
+| Le Figaro | sport | économie | 8 | ✅ |
+| Libération | — | économie | 7 | ✅ économie; ❌ sports: about 2 items a day |
+| Ouest-France | sport | — | 6 | ✅ sport (about 180 items a day, much of it regional amateur sport); ❌ économie: `/rss/economie` 404, and its RSS page lists only une, france and sport |
+| 20 Minutes | sport | économie | 5 | ✅ |
+| L'Équipe | latest news | — | 10 | ➕ **added** (`lequipe.fr/rss/actu_rss.xml` 403 and lequipe.fr's RSS page is gone; `dwh.lequipe.fr/api/edito/rss?path=/` had 50 items in 7 h) |
+
+**Germany** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| tagesschau | — | Wirtschaft | 10 | ✅ (ARD's sport is Sportschau, below) |
+| DER SPIEGEL | Sport | Wirtschaft | 9 | ✅ |
+| Süddeutsche Zeitung | Sport | Wirtschaft | 9 | ✅ |
+| Frankfurter Allgemeine | Sport | Wirtschaft | 8 | ✅ |
+| ZEIT ONLINE | — | Wirtschaft | 8 | ✅ Wirtschaft; ❌ sport: 8 items in 4 days, the rest of the feed weeks old |
+| WELT | Sport | Wirtschaft | 7 | ✅ |
+| n-tv | Sport | Wirtschaft | 6 | ✅ |
+| kicker | news/aktuell | — | 10 | ➕ **added** |
+| Sportschau | main | — | 9 | ➕ **added** (lists upcoming radio commentaries, "Live hören: Bayer Leverkusen gegen SC Freiburg", dated at kick-off, so in the future; `isNotNews` does not drop them yet) |
+| Handelsblatt | — | Top-Themen | 10 | ➕ **added** (its top stories: mostly business, some politics) |
+
+**United Kingdom** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| BBC News | Sport | Business | 10 | ✅ |
+| The Guardian | uk/sport | uk/business | 9 | ✅ |
+| Sky News | — | — | 8 | ❌ business: 10 items over 3½ days, none in the last 24 h |
+
+**United States** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| The New York Times | — | Business | 10 | ✅ Business; ❌ sport: `Sports.xml` parses but is empty, and its sport sub-feeds are stale (`Soccer.xml`'s newest item is from August); see The Athletic |
+| NPR | — | — | 8 | ❌ business: Business (1006) has 10 items over 5 days; Economy (1017) also 10, none in the last 38 h |
+| ESPN | news | — | 10 | ➕ **added** |
+| The Athletic | news | — | 9 | ➕ **added**: the New York Times' sports desk (`nytimes.com/athletic/rss/news/`, 86 items in 24 h) |
+
+**Spain** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| El País | Deportes | Economía | 10 | ✅ |
+| Marca | Primera División | — | 10 | ➕ **added** (`e00-marca.uecdn.es/rss/portada.xml`, and the `objetos.estaticos-marca.com` portada its RSS page links to, are stale: newest item 5 days old; the LaLiga feed had 28 items in 24 h) |
+| AS | portada | — | 9 | ➕ **added** (`as.com/rss/tags/ultimas_noticias.xml` parses but is empty; `feeds.as.com/mrss-s/pages/as/site/as.com/portada/` had 48 items in 24 h, all sports; its RSS page also lists a football-only portada) |
+
+**Italy** (added 2026-10-18)
+
+| Outlet | Sport | Business | Authority | Status |
+| --- | --- | --- | --- | --- |
+| ANSA | sport | economia | 10 | ✅ (economia: about 9 items a day) |
+| la Repubblica | calcio | economia | 9 | ✅ (`rss/sport/rss2.0.xml` is still listed on its RSS page but 404s; the calcio feed is used) |
+| La Gazzetta dello Sport | latest news (`section/last.xml`) | — | 10 | ➕ **added** (`rss/home.xml` is stale, newest item from December 2023; `last.xml` had 30 items in 3 h) |
+
 ## Adding a feed or a country
 
 The Pi is the only machine that polls feeds. On a dev machine, probe the candidates once and then build from the cache:
