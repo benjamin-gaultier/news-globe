@@ -90,6 +90,14 @@ describe('WorldPanel', () => {
     expect(lines(screen.getByRole('region', { name: 'On top all day' }))).toEqual([{ title: 'Election day', countries: ['Japan'] }]);
   });
 
+  it('shows a story that rose this hour and has stayed on top all day once, under Rising', async () => {
+    const storm = file.rising[0]!;
+    renderWorld({ body: { ...file, lasting: [{ ...storm, state: null }, ...file.lasting] } });
+    await screen.findByRole('region', { name: 'Top stories' });
+    expect(lines(screen.getByRole('region', { name: 'Rising this hour' })).map((l) => l.title)).toEqual(['Storm warning']);
+    expect(lines(screen.getByRole('region', { name: 'On top all day' })).map((l) => l.title)).toEqual(['Election day']);
+  });
+
   it('shows a national story that crosses borders once, as its cross-border story', async () => {
     const shared = item('US', 'NATO meets', { clusterId: 'c2', outlets: 2, state: 'new', imageUrl: 'https://us.example/nato.jpg' });
     renderWorld({ body: { ...file, top: [shared], rising: [shared], lasting: [] } });

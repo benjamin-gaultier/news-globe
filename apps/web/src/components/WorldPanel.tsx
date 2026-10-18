@@ -159,7 +159,7 @@ export function WorldPanel({
   const today = loaded ?? null;
   const top = useMemo(() => topStories(today?.top ?? [], world), [today, world]);
   const rising = notIn(top, today?.rising ?? []);
-  const lasting = notIn(top, today?.lasting ?? []);
+  const lasting = notIn([...top, ...rising.map(briefOf)], today?.lasting ?? []);
   // The story pointed at lights the globe, else the one with keyboard focus: the mouse passing over the list
   // leaves the focused story lit once it has gone.
   const lit = useRef<Record<LitBy, readonly CountryCode[] | null>>({ pointer: null, focus: null });
