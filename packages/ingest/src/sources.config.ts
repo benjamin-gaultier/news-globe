@@ -46,7 +46,7 @@ export interface SourceConfig {
   /**
    * Feed URLs for this outlet, by category. For `top`, prefer national /
    * politics / society section feeds over "all news" feeds, which mix in
-   * international stories. A specialist outlet (a sports daily) has no `top`.
+   * international stories. A specialist outlet (a sports daily, a business-only outlet) has no `top`.
    */
   feeds: Partial<Record<Category, string[]>>;
   /** Relative editorial authority, used to pick a cluster's representative. Higher wins. */
@@ -592,6 +592,8 @@ export const SOURCES: SourceConfig[] = [
         'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/',
         'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/',
       ],
+      sport: ['https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/sports/'],
+      business: ['https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/business/'],
     },
     authority: 10,
   },
@@ -601,7 +603,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CA',
     language: 'en',
-    feeds: { top: ['https://www.ctvnews.ca/arc/outboundfeeds/rss/category/canada/?outputType=xml'] },
+    feeds: {
+      top: ['https://www.ctvnews.ca/arc/outboundfeeds/rss/category/canada/?outputType=xml'],
+      sport: ['https://www.ctvnews.ca/arc/outboundfeeds/rss/category/sports/?outputType=xml'],
+      business: ['https://www.ctvnews.ca/arc/outboundfeeds/rss/category/business/?outputType=xml'],
+    },
     authority: 9,
   },
   {
@@ -610,7 +616,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CA',
     language: 'fr',
-    feeds: { top: ['https://ici.radio-canada.ca/rss/4159'] },
+    feeds: {
+      top: ['https://ici.radio-canada.ca/rss/4159'],
+      sport: ['https://ici.radio-canada.ca/rss/771'],
+      business: ['https://ici.radio-canada.ca/rss/5717'],
+    },
     authority: 9,
   },
   {
@@ -637,8 +647,21 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CA',
     language: 'fr',
-    feeds: { top: ['https://www.lapresse.ca/actualites/politique/rss'] },
+    feeds: {
+      top: ['https://www.lapresse.ca/actualites/politique/rss'],
+      sport: ['https://www.lapresse.ca/sports/rss'],
+      business: ['https://www.lapresse.ca/affaires/rss'],
+    },
     authority: 7,
+  },
+  {
+    id: 'sportsnet',
+    name: 'Sportsnet',
+    type: 'rss',
+    country: 'CA',
+    language: 'en',
+    feeds: { sport: ['https://www.sportsnet.ca/feed/'] },
+    authority: 9,
   },
   // ---- Brazil ----
   // CNN Brasil's section feed returns 404; g1's /brasil feed is stale (2023).
@@ -649,7 +672,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feeds: { top: ['https://g1.globo.com/rss/g1/politica/'] },
+    feeds: {
+      top: ['https://g1.globo.com/rss/g1/politica/'],
+      business: ['https://g1.globo.com/rss/g1/economia/'],
+    },
     authority: 10,
   },
   {
@@ -658,7 +684,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feeds: { top: ['https://feeds.folha.uol.com.br/poder/rss091.xml'] },
+    feeds: {
+      top: ['https://feeds.folha.uol.com.br/poder/rss091.xml'],
+      sport: ['https://feeds.folha.uol.com.br/esporte/rss091.xml'],
+      business: ['https://feeds.folha.uol.com.br/mercado/rss091.xml'],
+    },
     authority: 9,
   },
   {
@@ -667,7 +697,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feeds: { top: ['https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/politica/'] },
+    feeds: {
+      top: ['https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/politica/'],
+      sport: ['https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/esportes/'],
+      business: ['https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/economia/'],
+    },
     authority: 9,
   },
   {
@@ -685,7 +719,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feeds: { top: ['https://agenciabrasil.ebc.com.br/rss/politica/feed.xml', 'https://agenciabrasil.ebc.com.br/rss/geral/feed.xml'] },
+    feeds: {
+      top: ['https://agenciabrasil.ebc.com.br/rss/politica/feed.xml', 'https://agenciabrasil.ebc.com.br/rss/geral/feed.xml'],
+      sport: ['https://agenciabrasil.ebc.com.br/rss/esportes/feed.xml'],
+      business: ['https://agenciabrasil.ebc.com.br/rss/economia/feed.xml'],
+    },
     authority: 7,
   },
   {
@@ -696,6 +734,16 @@ export const SOURCES: SourceConfig[] = [
     language: 'pt',
     feeds: { top: ['https://www.poder360.com.br/feed/'] },
     authority: 7,
+  },
+  // Globo's sports site. Lance! advertises no feed.
+  {
+    id: 'ge',
+    name: 'ge',
+    type: 'rss',
+    country: 'BR',
+    language: 'pt',
+    feeds: { sport: ['https://ge.globo.com/rss/ge/'] },
+    authority: 10,
   },
   // ---- Turkey ----
   // Mixes state (AA, TRT), mainstream and opposition (Sözcü, Cumhuriyet) outlets.
@@ -774,7 +822,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AU',
     language: 'en',
-    feeds: { top: ['https://www.abc.net.au/news/feed/51120/rss.xml'] },
+    feeds: {
+      top: ['https://www.abc.net.au/news/feed/51120/rss.xml'],
+      sport: ['https://www.abc.net.au/news/feed/2942460/rss.xml'],
+      business: ['https://www.abc.net.au/news/feed/51892/rss.xml'],
+    },
     authority: 10,
   },
   {
@@ -783,7 +835,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AU',
     language: 'en',
-    feeds: { top: ['https://www.theguardian.com/australia-news/rss'] },
+    feeds: {
+      top: ['https://www.theguardian.com/australia-news/rss'],
+      sport: ['https://www.theguardian.com/au/sport/rss'],
+    },
     authority: 9,
   },
   {
@@ -792,7 +847,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AU',
     language: 'en',
-    feeds: { top: ['https://www.smh.com.au/rss/national.xml'] },
+    feeds: {
+      top: ['https://www.smh.com.au/rss/national.xml'],
+      sport: ['https://www.smh.com.au/rss/sport.xml'],
+      business: ['https://www.smh.com.au/rss/business.xml'],
+    },
     authority: 9,
   },
   {
@@ -810,7 +869,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AU',
     language: 'en',
-    feeds: { top: ['https://www.afr.com/rss/feed.xml'] },
+    feeds: {
+      top: ['https://www.afr.com/rss/feed.xml'],
+      business: ['https://www.afr.com/rss/markets.xml'],
+    },
     authority: 7,
   },
   // ---- India ----
@@ -821,7 +883,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feeds: { top: ['https://www.thehindu.com/news/national/feeder/default.rss'] },
+    feeds: {
+      top: ['https://www.thehindu.com/news/national/feeder/default.rss'],
+      sport: ['https://www.thehindu.com/sport/feeder/default.rss'],
+      business: ['https://www.thehindu.com/business/feeder/default.rss'],
+    },
     authority: 10,
   },
   {
@@ -830,7 +896,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feeds: { top: ['https://indianexpress.com/section/india/feed/'] },
+    feeds: {
+      top: ['https://indianexpress.com/section/india/feed/'],
+      sport: ['https://indianexpress.com/section/sports/feed/'],
+      business: ['https://indianexpress.com/section/business/feed/'],
+    },
     authority: 9,
   },
   {
@@ -839,7 +909,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feeds: { top: ['https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms'] },
+    feeds: {
+      top: ['https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms'],
+      sport: ['https://timesofindia.indiatimes.com/rssfeeds/4719148.cms'],
+      business: ['https://timesofindia.indiatimes.com/rssfeeds/1898055.cms'],
+    },
     authority: 9,
   },
   {
@@ -848,7 +922,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feeds: { top: ['https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml'] },
+    feeds: {
+      top: ['https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml'],
+      sport: ['https://www.hindustantimes.com/feeds/rss/sports/rssfeed.xml'],
+      business: ['https://www.hindustantimes.com/feeds/rss/business/rssfeed.xml'],
+    },
     authority: 8,
   },
   {
@@ -857,7 +935,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feeds: { top: ['https://feeds.feedburner.com/ndtvnews-india-news'] },
+    feeds: {
+      top: ['https://feeds.feedburner.com/ndtvnews-india-news'],
+      sport: ['https://feeds.feedburner.com/ndtvsports-latest'],
+    },
     authority: 8,
   },
   {
@@ -869,6 +950,20 @@ export const SOURCES: SourceConfig[] = [
     feeds: { top: ['https://feeds.feedburner.com/ScrollinArticles.rss'] },
     authority: 6,
   },
+  {
+    id: 'economictimes',
+    name: 'The Economic Times',
+    type: 'rss',
+    country: 'IN',
+    language: 'en',
+    feeds: {
+      business: [
+        'https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms',
+        'https://economictimes.indiatimes.com/industry/rssfeeds/13352306.cms',
+      ],
+    },
+    authority: 10,
+  },
   // ---- Mexico ----
   // Milenio, Animal Político and Proceso/SinEmbargo (403) have no usable feed.
   {
@@ -877,7 +972,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feeds: { top: ['https://www.eluniversal.com.mx/arc/outboundfeeds/rss/category/nacion/?outputType=xml'] },
+    feeds: {
+      top: ['https://www.eluniversal.com.mx/arc/outboundfeeds/rss/category/nacion/?outputType=xml'],
+      sport: ['https://www.eluniversal.com.mx/arc/outboundfeeds/rss/category/deportes/?outputType=xml'],
+      business: ['https://www.eluniversal.com.mx/arc/outboundfeeds/rss/category/cartera/?outputType=xml'],
+    },
     authority: 10,
   },
   {
@@ -886,7 +985,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feeds: { top: ['https://www.jornada.com.mx/rss/politica.xml'] },
+    feeds: {
+      top: ['https://www.jornada.com.mx/rss/politica.xml'],
+      sport: ['https://www.jornada.com.mx/rss/deportes.xml'],
+      business: ['https://www.jornada.com.mx/rss/economia.xml'],
+    },
     authority: 9,
   },
   {
@@ -895,7 +998,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feeds: { top: ['https://www.reforma.com/rss/portada.xml'] },
+    feeds: {
+      top: ['https://www.reforma.com/rss/portada.xml'],
+      sport: ['https://www.reforma.com/rss/cancha.xml'],
+      business: ['https://www.reforma.com/rss/negocios.xml'],
+    },
     authority: 9,
   },
   {
@@ -922,7 +1029,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feeds: { top: ['https://expansion.mx/rss'] },
+    feeds: {
+      top: ['https://expansion.mx/rss'],
+      business: ['https://expansion.mx/rss/empresas'],
+    },
     authority: 7,
   },
   {
@@ -934,6 +1044,15 @@ export const SOURCES: SourceConfig[] = [
     feeds: { top: ['https://oem.com.mx/elsoldemexico/rss'] },
     authority: 7,
   },
+  {
+    id: 'record_mx',
+    name: 'Récord',
+    type: 'rss',
+    country: 'MX',
+    language: 'es',
+    feeds: { sport: ['https://www.record.com.mx/rss-articles.xml'] },
+    authority: 10,
+  },
   // ---- Japan ----
   // NHK's RSS feeds are abandoned (newest items ~2 months old). Yomiuri, Nikkei,
   // Tokyo Shimbun and FNN have no public feed (404); Nippon TV's RDF feed has
@@ -944,7 +1063,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JP',
     language: 'ja',
-    feeds: { top: ['https://www.asahi.com/rss/asahi/newsheadlines.rdf'] },
+    feeds: {
+      top: ['https://www.asahi.com/rss/asahi/newsheadlines.rdf'],
+      sport: ['https://www.asahi.com/rss/asahi/sports.rdf'],
+      business: ['https://www.asahi.com/rss/asahi/business.rdf'],
+    },
     authority: 10,
   },
   {
@@ -953,7 +1076,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JP',
     language: 'ja',
-    feeds: { top: ['https://mainichi.jp/rss/etc/mainichi-flash.rss'] },
+    feeds: {
+      top: ['https://mainichi.jp/rss/etc/mainichi-flash.rss'],
+      sport: ['https://mainichi.jp/rss/etc/mainichi-sports.rss'],
+    },
     authority: 9,
   },
   {
@@ -971,7 +1097,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JP',
     language: 'ja',
-    feeds: { top: ['https://www.sankei.com/arc/outboundfeeds/rss/?outputType=xml'] },
+    feeds: {
+      top: ['https://www.sankei.com/arc/outboundfeeds/rss/?outputType=xml'],
+      sport: ['https://www.sankei.com/arc/outboundfeeds/rss/category/sports/?outputType=xml'],
+      business: ['https://www.sankei.com/arc/outboundfeeds/rss/category/economy/?outputType=xml'],
+    },
     authority: 8,
   },
   {
@@ -1001,6 +1131,21 @@ export const SOURCES: SourceConfig[] = [
     feeds: { top: ['https://www.huffingtonpost.jp/feeds/index.xml'] },
     authority: 6,
   },
+  {
+    id: 'nikkansports',
+    name: 'Nikkan Sports',
+    type: 'rss',
+    country: 'JP',
+    language: 'ja',
+    feeds: {
+      sport: [
+        'https://www.nikkansports.com/baseball/atom.xml',
+        'https://www.nikkansports.com/soccer/atom.xml',
+        'https://www.nikkansports.com/sports/atom.xml',
+      ],
+    },
+    authority: 10,
+  },
   // ---- Ireland ----
   // BreakingNews.ie's feed returns 404.
   {
@@ -1009,7 +1154,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IE',
     language: 'en',
-    feeds: { top: ['https://www.rte.ie/feeds/rss/?index=/news/'] },
+    feeds: {
+      top: ['https://www.rte.ie/feeds/rss/?index=/news/'],
+      sport: ['https://www.rte.ie/feeds/rss/?index=/sport/'],
+      business: ['https://www.rte.ie/feeds/rss/?index=/news/business/'],
+    },
     authority: 10,
   },
   {
@@ -1018,7 +1167,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IE',
     language: 'en',
-    feeds: { top: ['https://www.irishtimes.com/arc/outboundfeeds/feed-irish-news/?outputType=xml'] },
+    feeds: {
+      top: ['https://www.irishtimes.com/arc/outboundfeeds/feed-irish-news/?outputType=xml'],
+      sport: ['https://www.irishtimes.com/arc/outboundfeeds/feed-sport/?outputType=xml'],
+      business: ['https://www.irishtimes.com/arc/outboundfeeds/feed-business/?outputType=xml'],
+    },
     authority: 10,
   },
   {
@@ -1027,7 +1180,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IE',
     language: 'en',
-    feeds: { top: ['https://www.independent.ie/irish-news/rss/'] },
+    feeds: {
+      top: ['https://www.independent.ie/irish-news/rss/'],
+      sport: ['https://www.independent.ie/sport/rss/'],
+      business: ['https://www.independent.ie/business/rss/'],
+    },
     authority: 8,
   },
   {
@@ -1054,8 +1211,21 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IE',
     language: 'en',
-    feeds: { top: ['https://www.irishmirror.ie/news/irish-news/?service=rss'] },
+    feeds: {
+      top: ['https://www.irishmirror.ie/news/irish-news/?service=rss'],
+      sport: ['https://www.irishmirror.ie/sport/?service=rss'],
+    },
     authority: 6,
+  },
+  // TheJournal's sports site.
+  {
+    id: 'the42',
+    name: 'The42',
+    type: 'rss',
+    country: 'IE',
+    language: 'en',
+    feeds: { sport: ['https://www.the42.ie/feed/'] },
+    authority: 8,
   },
   // ---- South Africa ----
   // News24 and The Citizen return 403 to bots; EWN and Mail & Guardian 404.
@@ -1113,7 +1283,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NZ',
     language: 'en',
-    feeds: { top: ['https://www.rnz.co.nz/rss/national.xml'] },
+    feeds: {
+      top: ['https://www.rnz.co.nz/rss/national.xml'],
+      sport: ['https://www.rnz.co.nz/rss/sport.xml'],
+      business: ['https://www.rnz.co.nz/rss/business.xml'],
+    },
     authority: 10,
   },
   {
@@ -1122,7 +1296,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NZ',
     language: 'en',
-    feeds: { top: ['https://www.nzherald.co.nz/arc/outboundfeeds/rss/section/nz/?outputType=xml'] },
+    feeds: {
+      top: ['https://www.nzherald.co.nz/arc/outboundfeeds/rss/section/nz/?outputType=xml'],
+      sport: ['https://www.nzherald.co.nz/arc/outboundfeeds/rss/section/sport/?outputType=xml'],
+      business: ['https://www.nzherald.co.nz/arc/outboundfeeds/rss/section/business/?outputType=xml'],
+    },
     authority: 9,
   },
   {
@@ -1160,7 +1338,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feeds: { top: ['https://www.clarin.com/rss/politica/'] },
+    feeds: {
+      top: ['https://www.clarin.com/rss/politica/'],
+      sport: ['https://www.clarin.com/rss/deportes/'],
+    },
     authority: 10,
   },
   {
@@ -1169,7 +1350,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feeds: { top: ['https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml'] },
+    feeds: {
+      top: ['https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml'],
+      sport: ['https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/deportes/?outputType=xml'],
+      business: ['https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/economia/?outputType=xml'],
+    },
     authority: 10,
   },
   {
@@ -1178,7 +1363,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feeds: { top: ['https://www.infobae.com/arc/outboundfeeds/rss/category/politica/?outputType=xml'] },
+    feeds: {
+      top: ['https://www.infobae.com/arc/outboundfeeds/rss/category/politica/?outputType=xml'],
+      sport: ['https://www.infobae.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml'],
+      business: ['https://www.infobae.com/arc/outboundfeeds/rss/category/economia/?outputType=xml'],
+    },
     authority: 9,
   },
   {
@@ -1187,7 +1376,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feeds: { top: ['https://tn.com.ar/arc/outboundfeeds/rss/?outputType=xml'] },
+    feeds: {
+      top: ['https://tn.com.ar/arc/outboundfeeds/rss/?outputType=xml'],
+      sport: ['https://tn.com.ar/arc/outboundfeeds/rss/category/deportes/?outputType=xml'],
+      business: ['https://tn.com.ar/arc/outboundfeeds/rss/category/economia/?outputType=xml'],
+    },
     authority: 8,
   },
   {
@@ -1196,7 +1389,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feeds: { top: ['https://www.perfil.com/feed/politica'] },
+    feeds: {
+      top: ['https://www.perfil.com/feed/politica'],
+      sport: ['https://www.perfil.com/feed/deportes'],
+      business: ['https://www.perfil.com/feed/economia'],
+    },
     authority: 7,
   },
   {
@@ -1205,8 +1402,20 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feeds: { top: ['https://www.ambito.com/rss/pages/politica.xml'] },
+    feeds: {
+      top: ['https://www.ambito.com/rss/pages/politica.xml'],
+      business: ['https://www.ambito.com/rss/pages/economia.xml'],
+    },
     authority: 7,
+  },
+  {
+    id: 'ole',
+    name: 'Olé',
+    type: 'rss',
+    country: 'AR',
+    language: 'es',
+    feeds: { sport: ['https://www.ole.com.ar/rss/ultimas-noticias/'] },
+    authority: 10,
   },
   // ---- Portugal ----
   // Expresso, JN and SIC Notícias return 403 to bots; DN's feed 404.
@@ -1216,7 +1425,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PT',
     language: 'pt',
-    feeds: { top: ['https://www.rtp.pt/noticias/rss/pais'] },
+    feeds: {
+      top: ['https://www.rtp.pt/noticias/rss/pais'],
+      sport: ['https://www.rtp.pt/noticias/rss/desporto'],
+      business: ['https://www.rtp.pt/noticias/rss/economia'],
+    },
     authority: 10,
   },
   {
@@ -1255,6 +1468,33 @@ export const SOURCES: SourceConfig[] = [
     feeds: { top: ['https://www.cmjornal.pt/rss'] },
     authority: 6,
   },
+  {
+    id: 'abola',
+    name: 'A Bola',
+    type: 'rss',
+    country: 'PT',
+    language: 'pt',
+    feeds: { sport: ['https://www.abola.pt/rss-articles.xml'] },
+    authority: 10,
+  },
+  {
+    id: 'record_pt',
+    name: 'Record',
+    type: 'rss',
+    country: 'PT',
+    language: 'pt',
+    feeds: { sport: ['https://www.record.pt/rss'] },
+    authority: 9,
+  },
+  {
+    id: 'negocios',
+    name: 'Jornal de Negócios',
+    type: 'rss',
+    country: 'PT',
+    language: 'pt',
+    feeds: { business: ['https://www.jornaldenegocios.pt/rss'] },
+    authority: 10,
+  },
   // ---- Austria ----
   // profil and Heute have no feed (404).
   {
@@ -1263,7 +1503,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AT',
     language: 'de',
-    feeds: { top: ['https://rss.orf.at/news.xml'] },
+    feeds: {
+      top: ['https://rss.orf.at/news.xml'],
+      sport: ['https://rss.orf.at/sport.xml'],
+    },
     authority: 10,
   },
   {
@@ -1272,7 +1515,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AT',
     language: 'de',
-    feeds: { top: ['https://www.derstandard.at/rss/inland'] },
+    feeds: {
+      top: ['https://www.derstandard.at/rss/inland'],
+      sport: ['https://www.derstandard.at/rss/sport'],
+      business: ['https://www.derstandard.at/rss/wirtschaft'],
+    },
     authority: 10,
   },
   {
@@ -1290,7 +1537,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AT',
     language: 'de',
-    feeds: { top: ['https://kurier.at/xml/rss'] },
+    feeds: {
+      top: ['https://kurier.at/xml/rss'],
+      sport: ['https://kurier.at/sport/xml/rss'],
+      business: ['https://kurier.at/wirtschaft/xml/rss'],
+    },
     authority: 8,
   },
   {
@@ -1299,7 +1550,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AT',
     language: 'de',
-    feeds: { top: ['https://www.kleinezeitung.at/rss/politik'] },
+    feeds: {
+      top: ['https://www.kleinezeitung.at/rss/politik'],
+      sport: ['https://www.kleinezeitung.at/rss/sport'],
+      business: ['https://www.kleinezeitung.at/rss/wirtschaft'],
+    },
     authority: 7,
   },
   {
@@ -1320,7 +1575,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'de',
-    feeds: { top: ['https://www.srf.ch/news/bnf/rss/1646'] },
+    feeds: {
+      top: ['https://www.srf.ch/news/bnf/rss/1646'],
+      sport: ['https://www.srf.ch/sport/bnf/rss/718'],
+    },
     authority: 10,
   },
   {
@@ -1329,7 +1587,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'de',
-    feeds: { top: ['https://www.nzz.ch/schweiz.rss'] },
+    feeds: {
+      top: ['https://www.nzz.ch/schweiz.rss'],
+      sport: ['https://www.nzz.ch/sport.rss'],
+      business: ['https://www.nzz.ch/wirtschaft.rss'],
+    },
     authority: 9,
   },
   {
@@ -1338,7 +1600,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'fr',
-    feeds: { top: ['https://www.rts.ch/info/suisse/?format=rss/news'] },
+    feeds: {
+      top: ['https://www.rts.ch/info/suisse/?format=rss/news'],
+      sport: ['https://www.rts.ch/sport/?format=rss/news'],
+    },
     authority: 9,
   },
   {
@@ -1356,7 +1621,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'fr',
-    feeds: { top: ['https://www.letemps.ch/articles.rss'] },
+    feeds: {
+      top: ['https://www.letemps.ch/articles.rss'],
+      business: ['https://www.letemps.ch/economie.rss'],
+    },
     authority: 8,
   },
   {
@@ -1365,7 +1633,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'de',
-    feeds: { top: ['https://www.blick.ch/schweiz/rss.xml'] },
+    feeds: {
+      top: ['https://www.blick.ch/schweiz/rss.xml'],
+      sport: ['https://www.blick.ch/sport/rss.xml'],
+      business: ['https://www.blick.ch/wirtschaft/rss.xml'],
+    },
     authority: 7,
   },
   {
@@ -1374,7 +1646,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'de',
-    feeds: { top: ['https://www.watson.ch/api/1.0/rss/index.xml'] },
+    feeds: {
+      top: ['https://www.watson.ch/api/1.0/rss/index.xml'],
+      sport: ['https://www.watson.ch/api/2.0/rss/index.xml?tag=Sport'],
+      business: ['https://www.watson.ch/api/2.0/rss/index.xml?tag=Wirtschaft'],
+    },
     authority: 6,
   },
   // ---- Colombia ----
@@ -1864,7 +2140,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feeds: { top: ['https://feeds.nos.nl/nosnieuwsbinnenland'] },
+    feeds: {
+      top: ['https://feeds.nos.nl/nosnieuwsbinnenland'],
+      sport: ['https://feeds.nos.nl/nossportalgemeen'],
+    },
     authority: 10,
   },
   {
@@ -1873,7 +2152,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feeds: { top: ['https://www.nu.nl/rss/Algemeen'] },
+    feeds: {
+      top: ['https://www.nu.nl/rss/Algemeen'],
+      sport: ['https://www.nu.nl/rss/Sport'],
+      business: ['https://www.nu.nl/rss/Economie'],
+    },
     authority: 9,
   },
   {
@@ -1891,7 +2174,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feeds: { top: ['https://www.volkskrant.nl/voorpagina/rss.xml'] },
+    feeds: {
+      top: ['https://www.volkskrant.nl/voorpagina/rss.xml'],
+      business: ['https://www.volkskrant.nl/economie/rss.xml'],
+    },
     authority: 9,
   },
   {
@@ -1900,7 +2186,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feeds: { top: ['https://www.telegraaf.nl/rss'] },
+    feeds: {
+      top: ['https://www.telegraaf.nl/rss'],
+      sport: ['https://www.telegraaf.nl/sport/rss'],
+      business: ['https://www.telegraaf.nl/financieel/rss'],
+    },
     authority: 8,
   },
   {
@@ -1909,7 +2199,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feeds: { top: ['https://www.ad.nl/home/rss.xml'] },
+    feeds: {
+      top: ['https://www.ad.nl/home/rss.xml'],
+      sport: ['https://www.ad.nl/sport/rss.xml'],
+      business: ['https://www.ad.nl/economie/rss.xml'],
+    },
     authority: 8,
   },
   {
@@ -1930,6 +2224,15 @@ export const SOURCES: SourceConfig[] = [
     feeds: { top: ['https://www.trouw.nl/voorpagina/rss.xml'] },
     authority: 7,
   },
+  {
+    id: 'vi',
+    name: 'Voetbal International',
+    type: 'rss',
+    country: 'NL',
+    language: 'nl',
+    feeds: { sport: ['https://www.vi.nl/feed/news.xml'] },
+    authority: 9,
+  },
   // ---- Belgium ----
   // Dutch- and French-language press; stories cluster only within a language.
   // De Standaard, Le Soir and Sudinfo return 403. 7sur7 is skipped: it is HLN in French.
@@ -1948,7 +2251,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BE',
     language: 'fr',
-    feeds: { top: ['https://rss.rtbf.be/article/rss/highlight_rtbf_info.xml'] },
+    feeds: {
+      top: ['https://rss.rtbf.be/article/rss/highlight_rtbf_info.xml'],
+      sport: ['https://rss.rtbf.be/article/rss/highlight_rtbf_sport.xml'],
+      business: ['https://rss.rtbf.be/article/rss/highlight_rtbfinfo_info-economie.xml'],
+    },
     authority: 10,
   },
   {
@@ -1957,7 +2264,10 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BE',
     language: 'nl',
-    feeds: { top: ['https://www.hln.be/home/rss.xml'] },
+    feeds: {
+      top: ['https://www.hln.be/home/rss.xml'],
+      sport: ['https://www.hln.be/sport/rss.xml'],
+    },
     authority: 8,
   },
   {
@@ -1975,7 +2285,11 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BE',
     language: 'fr',
-    feeds: { top: ['https://www.lalibre.be/arc/outboundfeeds/rss/section/belgique/?outputType=xml'] },
+    feeds: {
+      top: ['https://www.lalibre.be/arc/outboundfeeds/rss/section/belgique/?outputType=xml'],
+      sport: ['https://www.lalibre.be/arc/outboundfeeds/rss/section/sports/?outputType=xml'],
+      business: ['https://www.lalibre.be/arc/outboundfeeds/rss/section/economie/?outputType=xml'],
+    },
     authority: 8,
   },
   {
@@ -1995,6 +2309,25 @@ export const SOURCES: SourceConfig[] = [
     language: 'fr',
     feeds: { top: ['https://www.levif.be/feed/'] },
     authority: 6,
+  },
+  // VRT's sports desk.
+  {
+    id: 'sporza',
+    name: 'Sporza',
+    type: 'rss',
+    country: 'BE',
+    language: 'nl',
+    feeds: { sport: ['https://sporza.be/nl.rss.xml'] },
+    authority: 9,
+  },
+  {
+    id: 'dh',
+    name: 'DH Les Sports+',
+    type: 'rss',
+    country: 'BE',
+    language: 'fr',
+    feeds: { sport: ['https://www.dhnet.be/arc/outboundfeeds/rss/section/sports/?outputType=xml'] },
+    authority: 9,
   },
   // ---- Sweden ----
   {
