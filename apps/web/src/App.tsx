@@ -1,4 +1,4 @@
-import { COUNTRIES, REGIONS, type CountryCode, type IndexEntry, type RegionCode } from '@news-globe/shared';
+import { COUNTRIES, REGIONS, type Category, type CountryCode, type IndexEntry, type RegionCode } from '@news-globe/shared';
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { HeatLegend, type Shading } from './components/HeatLegend';
 import { ClockIcon, HistoryBar, LiveBar } from './components/HistoryBar';
@@ -19,7 +19,7 @@ import { storiesAt, todayUtc } from './lib/history';
 import { formatRoute, parseRoute } from './lib/route';
 import { TranslationsContext } from './lib/translations';
 import { relativeTime } from './lib/time';
-import { GLOBE, place, routeOf, viewFromRoute, type View } from './lib/view';
+import { CATEGORY_NAMES, categoryIn, GLOBE, place, routeOf, viewFromRoute, type View } from './lib/view';
 
 // three.js is most of the bundle; load it after the shell renders.
 const GlobeView = lazy(() => import('./components/GlobeView'));
@@ -37,6 +37,7 @@ export function App() {
   const placeView = view.kind === 'place' ? view : null;
   const selected = placeView?.country ?? null;
   const selectedRegion = placeView?.region ?? null;
+  const category = placeView?.category ?? 'top';
   const world = view.kind === 'world';
   // The search box's text; its results are the 'search' view.
   const [query, setQuery] = useState('');
@@ -79,6 +80,9 @@ export function App() {
     () => new Map([...(indexData?.countries ?? []), ...(indexData?.regions ?? [])].map((e) => [e.code, e])),
     [indexData],
   );
+  // For callbacks that check a place's sections, without changing whenever the index reloads.
+  const liveEntriesRef = useRef(liveEntries);
+  liveEntriesRef.current = liveEntries;
   // In history mode the globe shows the picked run (nothing while it loads).
   const entries = historyDate ? (history.entries ?? NO_ENTRIES) : liveEntries;
   // Rings over the countries whose #1 story is new or rising this hour (live, overview only; not with reduced motion).
@@ -102,10 +106,27 @@ export function App() {
   }, [historyDate, entries, indexData, selected]);
   const region = selectedRegion ? REGIONS[selectedRegion] : undefined;
 
-  // Selecting a country (or closing) always starts from its national view.
+  // Selecting a country (or closing) always starts from its national top headlines; so does a swipe to the next one.
   const selectCountry = useCallback((code: CountryCode | null) => setView(code ? place(code) : GLOBE), []);
+  /** A region of the open country, or back to the country (null), in the same section when that place has one. */
   const selectRegion = useCallback(
-    (code: RegionCode | null) => setView((v) => (v.kind === 'place' ? { ...v, region: code, story: null, focusTitle: null } : v)),
+    (code: RegionCode | null) =>
+      setView((v) =>
+        v.kind === 'place'
+          ? {
+              ...v,
+              region: code,
+              category: categoryIn(liveEntriesRef.current.get(code ?? v.country), v.category),
+              story: null,
+              focusTitle: null,
+            }
+          : v,
+      ),
+    [],
+  );
+  /** The open place's top headlines or one of its sections (the switch only offers the ones it has). */
+  const selectCategory = useCallback(
+    (category: Category) => setView((v) => (v.kind === 'place' ? { ...v, category, story: null, focusTitle: null } : v)),
     [],
   );
   /** A story's page in the open panel, or back to its list (null). */
@@ -179,31 +200,36 @@ export function App() {
       ?.scrollIntoView?.({ inline: 'center', block: 'nearest', behavior: 'smooth' });
   }, [selected]);
 
-  const pageTitle =
-    region?.name ?? (selected ? COUNTRIES[selected]?.name : world ? 'Across borders' : view.kind === 'today' ? 'Today' : undefined);
+  const placeName = region?.name ?? (selected ? COUNTRIES[selected]?.name : undefined);
+  const pageTitle = placeName
+    ? `${placeName}${category === 'top' ? '' : ` · ${CATEGORY_NAMES[category]}`}`
+    : world
+      ? 'Across borders'
+      : view.kind === 'today'
+        ? 'Today'
+        : undefined;
   useEffect(() => {
     document.title = pageTitle ? `${pageTitle} · News Globe` : 'News Globe';
   }, [pageTitle]);
 
-  // Refetch the open country or region when the index reports a newer file.
-  const selectedUpdatedAt = selectedRegion
-    ? indexData?.regions?.find((r) => r.code === selectedRegion)?.updatedAt
-    : indexData?.countries.find((c) => c.code === selected)?.updatedAt;
+  // Refetch the open country or region when the index reports a newer file (a run writes its sections with it).
+  const selectedEntry = selected ? liveEntries.get(selectedRegion ?? selected) : undefined;
+  const selectedUpdatedAt = selectedEntry?.updatedAt;
   const country = useAsync(
     historyDate
       ? null
       : selectedRegion
-        ? (signal) => fetchRegion(selectedRegion, signal)
+        ? (signal) => fetchRegion(selectedRegion, category, signal)
         : selected
-          ? (signal) => fetchCountry(selected, signal)
+          ? (signal) => fetchCountry(selected, category, signal)
           : null,
-    [historyDate, selected, selectedRegion, selectedUpdatedAt, retryKey],
+    [historyDate, selected, selectedRegion, category, selectedUpdatedAt, retryKey],
   );
 
-  // Trends apply only to the run they describe: the file shown must be that run's.
+  // Trends apply only to the run they describe: the file shown must be that run's, and a top file (they don't cover sections).
   const shownFile = country.status === 'ready' ? country.data : undefined;
   const unitTrends =
-    trendsData && shownFile && trendsData.runAt === shownFile.updatedAt
+    trendsData && shownFile && !shownFile.category && trendsData.runAt === shownFile.updatedAt
       ? trendsData.units[shownFile.regionCode ?? shownFile.countryCode]
       : undefined;
 
@@ -213,23 +239,29 @@ export function App() {
     toastTimer.current = setTimeout(() => setToast(null), 2200);
   }, []);
 
-  // A link may name a country or region that has no data (yet). Once the index is in,
-  // fall back to the nearest view that has some, replacing the entry so Back doesn't return to it.
+  // A link may name a country, region or section that has no data (yet). Once the index is in,
+  // fall back to the nearest view that has some, replacing the entry so Back doesn't return to it:
+  // the globe, the region's country, or the place's top headlines.
   useEffect(() => {
-    if (!indexData || !selected || historyDate) return;
-    if (!available.has(selected)) {
+    if (!indexData || !placeView || historyDate) return;
+    const { country: code, region: unit } = placeView;
+    if (!available.has(code)) {
       window.history.replaceState(null, '', location.pathname + location.search);
       selectCountry(null);
-      showToast(`${COUNTRIES[selected]!.name} — coming soon`);
-    } else if (selectedRegion && !regions.some((r) => r.code === selectedRegion)) {
-      window.history.replaceState(null, '', formatRoute({ country: selected, region: null, world: false, at: null }));
-      selectRegion(null);
+      showToast(`${COUNTRIES[code]!.name} — coming soon`);
+      return;
     }
-  }, [indexData, available, regions, selected, selectedRegion, selectCountry, selectRegion, showToast, historyDate]);
+    const region = unit && regions.some((r) => r.code === unit) ? unit : null;
+    const section = categoryIn(liveEntries.get(region ?? code), placeView.category);
+    if (region === unit && section === placeView.category) return;
+    const next = place(code, { region, category: section });
+    window.history.replaceState(null, '', formatRoute(routeOf(next, null)));
+    setView(next);
+  }, [indexData, available, regions, liveEntries, placeView, selectCountry, showToast, historyDate]);
 
-  // History keeps the open place (on its list); any other panel closes.
+  // History keeps the open place (on its top list: History has no sections); any other panel closes.
   const openHistory = useCallback(() => {
-    setView((v) => (v.kind === 'place' ? { ...v, story: null } : GLOBE));
+    setView((v) => (v.kind === 'place' ? { ...v, category: 'top', story: null } : GLOBE));
     startHistory();
   }, [startHistory]);
   const toggleHistory = () => (historyDate ? closeHistory() : openHistory());
@@ -410,6 +442,9 @@ export function App() {
             region={region}
             regions={regions}
             onSelectRegion={selectRegion}
+            category={category}
+            categories={selectedEntry?.categories}
+            onSelectCategory={selectCategory}
             state={country}
             now={now}
             isMobile={isMobile}

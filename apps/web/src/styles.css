@@ -1440,16 +1440,25 @@ button {
   }
 }
 
-/* ---------- Headline language toggle ---------- */
+/* ---------- Section switch and headline language toggle ---------- */
 
+/* Under the panel's subtitle: the section switch (Top / Sport / Business), then the language toggle. */
+.panel-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.category-switch,
 .lang-toggle {
   display: inline-flex;
-  margin-top: 8px;
   border: 1px solid var(--border);
   border-radius: 999px;
   overflow: hidden;
 }
 
+.category-switch button,
 .lang-toggle button {
   border: 0;
   background: transparent;
@@ -1463,6 +1472,13 @@ button {
 .lang-toggle button[aria-pressed='true'] {
   background: var(--accent-2);
   color: #1a1206;
+  font-weight: 600;
+}
+
+/* Light rather than amber, so it doesn't read as one control with the language toggle beside it. */
+.category-switch button[aria-pressed='true'] {
+  background: var(--text);
+  color: var(--bg);
   font-weight: 600;
 }
 
