@@ -3,7 +3,7 @@ import { fireEvent, render, screen, waitFor, within } from '@testing-library/rea
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { SCHEMA_VERSION, type SearchFile } from '@news-globe/shared';
 import { SearchPanel } from '../src/components/SearchPanel';
-import { foldForSearch, indexSearch, placeName, searchHeadlines } from '../src/lib/search';
+import { foldForSearch, indexSearch, placeName, searchHeadlines, searchPlaces } from '../src/lib/search';
 
 const file: SearchFile = {
   schemaVersion: SCHEMA_VERSION,
@@ -44,6 +44,31 @@ describe('search', () => {
     expect(searchHeadlines(index, '   ').total).toBe(0);
   });
 
+  it('finds places with headlines by the start of each word of their name', () => {
+    const has = (code: string) => ['FR', 'FR-BRE', 'FR-IDF', 'US', 'US-AR', 'US-KS', 'GB', 'CI', 'DE-BY'].includes(code);
+    expect(searchPlaces('uni', has).sort()).toEqual(['GB', 'US']);
+    // Accents, case and punctuation don't matter; countries come before regions.
+    expect(searchPlaces('ile de france', has)).toEqual(['FR-IDF']);
+    expect(searchPlaces('COTE d’IVOIRE', has)).toEqual(['CI']);
+    expect(searchPlaces('fr', has)).toEqual(['FR', 'FR-IDF']);
+    // Word starts only: "kansas" is not in "Arkansas".
+    expect(searchPlaces('kansas', has)).toEqual(['US-KS']);
+    // A region's local name.
+    expect(searchPlaces('bretagne', has)).toEqual(['FR-BRE']);
+    expect(searchPlaces('bayern', has)).toEqual(['DE-BY']);
+    // Common short names, and a name that is exactly the query first, then countries before regions.
+    const more = (code: string) => has(code) || ['UA', 'AE', 'CG', 'CD', 'GE', 'US-GA'].includes(code);
+    expect(searchPlaces('uk', more)).toEqual(['GB', 'UA']);
+    expect(searchPlaces('USA', more)).toEqual(['US']);
+    expect(searchPlaces('uae', more)).toEqual(['AE']);
+    expect(searchPlaces('congo', more)).toEqual(['CG', 'CD']);
+    expect(searchPlaces('georgia', more)).toEqual(['GE', 'US-GA']);
+    // Only places with headlines.
+    expect(searchPlaces('germany', has)).toEqual([]);
+    expect(searchPlaces('  ', has)).toEqual([]);
+    expect(searchPlaces('a', () => true, 3)).toHaveLength(3);
+  });
+
   it('caps the results but reports the full count', () => {
     const { groups, total } = searchHeadlines(index, 'e', 2);
     expect(total).toBe(5);
@@ -62,18 +87,37 @@ describe('SearchPanel', () => {
 
   it('shows the results for the query and opens one', async () => {
     const onOpenStory = vi.fn();
-    const props = { isMobile: false, onClose: vi.fn(), onSheetChange: vi.fn(), onOpenStory };
+    const props = { places: [], isMobile: false, onClose: vi.fn(), onSheetChange: vi.fn(), onOpenStory, onOpenPlace: vi.fn() };
     const { rerender } = render(<SearchPanel query="" {...props} />);
-    await screen.findByText('Type a name, a place or a topic.');
+    await screen.findByText('Type a country, a region, a name or a topic.');
 
     rerender(<SearchPanel query="senat" {...props} />);
-    expect(screen.getByText('Current headlines matching “senat”')).toBeTruthy();
+    expect(screen.getByText('Places and current headlines matching “senat”')).toBeTruthy();
+    expect(screen.queryByRole('region', { name: 'Places' })).toBeNull();
     const france = await screen.findByRole('region', { name: 'France' });
     fireEvent.click(within(france).getByRole('button', { name: /Le Sénat adopte le budget/ }));
     expect(onOpenStory).toHaveBeenCalledWith('FR', 'Le Sénat adopte le budget');
 
     rerender(<SearchPanel query="xyzzy" {...props} />);
-    expect(screen.getByText('No current headline matches “xyzzy”.')).toBeTruthy();
+    expect(screen.getByText('No current headline mentions “xyzzy”.')).toBeTruthy();
+  });
+
+  it('lists the places matching by name above the headlines, and opens one', async () => {
+    const onOpenPlace = vi.fn();
+    render(
+      <SearchPanel
+        query="bri"
+        places={['FR-BRE']}
+        isMobile={false}
+        onClose={vi.fn()}
+        onSheetChange={vi.fn()}
+        onOpenStory={vi.fn()}
+        onOpenPlace={onOpenPlace}
+      />,
+    );
+    const places = screen.getByRole('region', { name: 'Places' });
+    fireEvent.click(within(places).getByRole('button', { name: 'Brittany, France' }));
+    expect(onOpenPlace).toHaveBeenCalledWith('FR-BRE');
   });
 
   it('says so before the workflow has written the index', async () => {
@@ -81,7 +125,17 @@ describe('SearchPanel', () => {
       'fetch',
       vi.fn(async () => new Response('Not found', { status: 404 })),
     );
-    render(<SearchPanel query="budget" isMobile={false} onClose={vi.fn()} onSheetChange={vi.fn()} onOpenStory={vi.fn()} />);
+    render(
+      <SearchPanel
+        query="budget"
+        places={[]}
+        isMobile={false}
+        onClose={vi.fn()}
+        onSheetChange={vi.fn()}
+        onOpenStory={vi.fn()}
+        onOpenPlace={vi.fn()}
+      />,
+    );
     await waitFor(() => expect(screen.getByText('Search isn’t available yet.')).toBeTruthy());
   });
 });

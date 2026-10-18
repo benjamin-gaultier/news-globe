@@ -22,12 +22,6 @@ export function heatStep(outlets: number | undefined): number {
   return Math.min(Math.max(Math.floor(outlets), 1), 5) - 1;
 }
 
-/** The globe's other shading: how many of a place's top 5 stories are new or rising this hour. */
-export const CHANGE_STEPS = ['0', '1', '2', '3', '4+'] as const;
-
-/** Step (0–4) for a change count. */
-export const changeStep = (count: number) => Math.min(Math.max(Math.floor(count), 0), 4);
-
 /** A country whose #1 story is new or rising this hour: drawn as a pulsing ring on the globe. */
 export interface Pulse {
   code: CountryCode;
