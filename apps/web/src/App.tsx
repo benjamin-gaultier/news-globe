@@ -277,7 +277,7 @@ export function App() {
 
   const handleUnavailable = useCallback((name: string) => showToast(`${name} — coming soon`), [showToast]);
   const handleClose = useCallback(() => selectCountry(null), [selectCountry]);
-  /** Phones: a sideways swipe on a country's panel opens the next or previous country with headlines, in the list's order. */
+  /** Phones: a sideways swipe on a country's panel opens the next or previous country with headlines, in COUNTRIES order. */
   const swipeCountry = useCallback(
     (direction: 1 | -1) => {
       const codes = Object.keys(COUNTRIES).filter((c) => available.has(c));
