@@ -276,9 +276,10 @@ export default memo(function GlobeView({
   // Turn to a lit story's countries once the pointer has rested on it, keeping the zoom. Not while a country is open.
   useEffect(() => {
     const globe = globeRef.current;
-    if (!globe || !ready || selected || !highlighted.length) return;
+    const aim = middleOf(highlighted);
+    if (!globe || !ready || selected || !aim) return;
     const timer = setTimeout(() => {
-      globe.pointOfView({ ...middleOf(highlighted), altitude: globe.pointOfView().altitude }, reducedMotion ? 0 : 1000);
+      globe.pointOfView({ ...aim, altitude: globe.pointOfView().altitude }, reducedMotion ? 0 : 1000);
     }, HIGHLIGHT_TURN_DELAY_MS);
     return () => clearTimeout(timer);
   }, [ready, selected, highlighted, reducedMotion]);
