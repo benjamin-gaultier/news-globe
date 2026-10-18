@@ -28,7 +28,7 @@ import {
   toArticle,
 } from './normalize/article';
 import { buildCluster, rankClusters } from './rank';
-import { INGEST_SETTINGS, SOURCES, type SourceConfig } from './sources.config';
+import { feedUrlsOf, INGEST_SETTINGS, SOURCES, type SourceConfig } from './sources.config';
 import { buildWorld } from './world';
 import { writeJsonAtomic } from './write';
 
@@ -82,7 +82,8 @@ async function readJson<T>(file: string): Promise<T | null> {
 
 export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary> {
   const dataDir = opts.dataDir ?? DEFAULT_DATA_DIR;
-  const sources = opts.sources ?? SOURCES;
+  // Outlets with no feed in a fetched category (a sports daily) stay out until their category does.
+  const sources = (opts.sources ?? SOURCES).filter((s) => feedUrlsOf(s).length > 0);
   const settings = opts.settings ?? INGEST_SETTINGS;
   const clock = opts.now ?? Date.now;
   const log = opts.log ?? console.log;

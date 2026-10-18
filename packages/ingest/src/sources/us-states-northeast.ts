@@ -12,7 +12,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-CT',
-    feedUrls: ['https://www.ctpublic.org/news/local-news.rss'],
+    feeds: { top: ['https://www.ctpublic.org/news/local-news.rss'] },
     authority: 8,
   },
   {
@@ -22,7 +22,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-CT',
-    feedUrls: ['https://www.wshu.org/connecticut-news.rss'],
+    feeds: { top: ['https://www.wshu.org/connecticut-news.rss'] },
     authority: 8,
   },
   {
@@ -32,7 +32,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-CT',
-    feedUrls: ['https://ctmirror.org/feed/'],
+    feeds: { top: ['https://ctmirror.org/feed/'] },
     authority: 7,
   },
   {
@@ -42,7 +42,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-CT',
-    feedUrls: ['https://ctnewsjunkie.com/feed/'],
+    feeds: { top: ['https://ctnewsjunkie.com/feed/'] },
     authority: 7,
   },
   {
@@ -52,7 +52,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-CT',
-    feedUrls: ['https://www.wtnh.com/news/connecticut/feed/'],
+    feeds: { top: ['https://www.wtnh.com/news/connecticut/feed/'] },
     authority: 7,
   },
   {
@@ -62,7 +62,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-CT',
-    feedUrls: ['https://www.newhavenindependent.org/feed'],
+    feeds: { top: ['https://www.newhavenindependent.org/feed'] },
     authority: 7,
   },
 
@@ -74,7 +74,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-ME',
-    feedUrls: ['https://www.pressherald.com/news/feed/'],
+    feeds: { top: ['https://www.pressherald.com/news/feed/'] },
     authority: 9,
   },
   {
@@ -84,7 +84,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-ME',
-    feedUrls: ['https://www.bangordailynews.com/feed/'],
+    feeds: { top: ['https://www.bangordailynews.com/feed/'] },
     authority: 9,
   },
   // Maine Public's /maine section only gets a couple of items a day; its
@@ -96,7 +96,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-ME',
-    feedUrls: ['https://www.mainepublic.org/maine.rss', 'https://www.mainepublic.org/politics.rss'],
+    feeds: { top: ['https://www.mainepublic.org/maine.rss', 'https://www.mainepublic.org/politics.rss'] },
     authority: 8,
   },
   {
@@ -106,7 +106,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-ME',
-    feedUrls: ['https://themainemonitor.org/feed/'],
+    feeds: { top: ['https://themainemonitor.org/feed/'] },
     authority: 7,
   },
   // Gray TV sites: the whole-site feed mixes in Gray's national desk; the
@@ -118,7 +118,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-ME',
-    feedUrls: ['https://www.wabi.tv/arc/outboundfeeds/rss/category/news/local/?outputType=xml'],
+    feeds: { top: ['https://www.wabi.tv/arc/outboundfeeds/rss/category/news/local/?outputType=xml'] },
     authority: 7,
   },
 
@@ -130,7 +130,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MA',
-    feedUrls: ['https://www.wgbh.org/news/local.rss'],
+    feeds: { top: ['https://www.wgbh.org/news/local.rss'] },
     authority: 8,
   },
   {
@@ -140,7 +140,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MA',
-    feedUrls: ['https://www.boston.com/tag/local-news/feed'],
+    feeds: { top: ['https://www.boston.com/tag/local-news/feed'] },
     authority: 8,
   },
   {
@@ -150,7 +150,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MA',
-    feedUrls: ['https://commonwealthbeacon.org/feed/'],
+    feeds: { top: ['https://commonwealthbeacon.org/feed/'] },
     authority: 7,
   },
   {
@@ -160,7 +160,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MA',
-    feedUrls: ['https://www.nbcboston.com/news/local/feed/'],
+    feeds: { top: ['https://www.nbcboston.com/news/local/feed/'] },
     authority: 7,
   },
   {
@@ -170,7 +170,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-MA',
-    feedUrls: ['https://www.universalhub.com/rss.xml'],
+    feeds: { top: ['https://www.universalhub.com/rss.xml'] },
     authority: 7,
   },
 
@@ -184,7 +184,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NH',
-    feedUrls: ['https://www.nhpr.org/rss.xml'],
+    feeds: { top: ['https://www.nhpr.org/rss.xml'] },
     authority: 8,
   },
   {
@@ -194,7 +194,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NH',
-    feedUrls: ['https://www.concordmonitor.com/feed/'],
+    feeds: { top: ['https://www.concordmonitor.com/feed/'] },
     authority: 8,
   },
   {
@@ -204,7 +204,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NH',
-    feedUrls: ['https://www.sentinelsource.com/search/?f=rss&t=article&c=news/local&l=50&s=start_time&sd=desc'],
+    feeds: { top: ['https://www.sentinelsource.com/search/?f=rss&t=article&c=news/local&l=50&s=start_time&sd=desc'] },
     authority: 8,
   },
   {
@@ -214,7 +214,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NH',
-    feedUrls: ['https://indepthnh.org/feed/'],
+    feeds: { top: ['https://indepthnh.org/feed/'] },
     authority: 7,
   },
   {
@@ -224,7 +224,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NH',
-    feedUrls: ['https://manchesterinklink.com/feed/'],
+    feeds: { top: ['https://manchesterinklink.com/feed/'] },
     authority: 7,
   },
 
@@ -236,7 +236,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-RI',
-    feedUrls: ['https://www.wpri.com/news/local-news/feed/'],
+    feeds: { top: ['https://www.wpri.com/news/local-news/feed/'] },
     authority: 7,
   },
   {
@@ -246,7 +246,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-RI',
-    feedUrls: ['https://upriseri.com/feed/'],
+    feeds: { top: ['https://upriseri.com/feed/'] },
     authority: 7,
   },
   {
@@ -256,7 +256,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-RI',
-    feedUrls: ['https://whatsupnewp.com/feed/'],
+    feeds: { top: ['https://whatsupnewp.com/feed/'] },
     authority: 7,
   },
   {
@@ -266,7 +266,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-RI',
-    feedUrls: ['https://ecori.org/feed/'],
+    feeds: { top: ['https://ecori.org/feed/'] },
     authority: 7,
   },
 
@@ -278,7 +278,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-VT',
-    feedUrls: ['https://www.vermontpublic.org/local-news.rss'],
+    feeds: { top: ['https://www.vermontpublic.org/local-news.rss'] },
     authority: 8,
   },
   // Valley News (West Lebanon, NH) covers the Upper Valley on both sides of the
@@ -291,7 +291,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-VT',
-    feedUrls: ['https://www.vnews.com/category/news/feed/'],
+    feeds: { top: ['https://www.vnews.com/category/news/feed/'] },
     authority: 8,
   },
   {
@@ -301,7 +301,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-VT',
-    feedUrls: ['https://vtdigger.org/feed/'],
+    feeds: { top: ['https://vtdigger.org/feed/'] },
     authority: 7,
   },
   {
@@ -311,7 +311,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-VT',
-    feedUrls: ['https://www.wcax.com/arc/outboundfeeds/rss/category/news/?outputType=xml'],
+    feeds: { top: ['https://www.wcax.com/arc/outboundfeeds/rss/category/news/?outputType=xml'] },
     authority: 7,
   },
 
@@ -323,7 +323,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NJ',
-    feedUrls: ['https://nj1015.com/feed/'],
+    feeds: { top: ['https://nj1015.com/feed/'] },
     authority: 7,
   },
   {
@@ -333,7 +333,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NJ',
-    feedUrls: ['https://jcitytimes.com/feed/'],
+    feeds: { top: ['https://jcitytimes.com/feed/'] },
     authority: 7,
   },
   {
@@ -343,7 +343,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NJ',
-    feedUrls: ['https://www.jerseyshoreonline.com/feed/'],
+    feeds: { top: ['https://www.jerseyshoreonline.com/feed/'] },
     authority: 7,
   },
   {
@@ -353,7 +353,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NJ',
-    feedUrls: ['https://montclairlocal.news/feed/'],
+    feeds: { top: ['https://montclairlocal.news/feed/'] },
     authority: 7,
   },
   {
@@ -363,7 +363,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NJ',
-    feedUrls: ['https://morristowngreen.com/feed/'],
+    feeds: { top: ['https://morristowngreen.com/feed/'] },
     authority: 7,
   },
 
@@ -375,7 +375,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NY',
-    feedUrls: ['https://gothamist.com/feed'],
+    feeds: { top: ['https://gothamist.com/feed'] },
     authority: 8,
   },
   {
@@ -385,7 +385,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NY',
-    feedUrls: ['https://www.amny.com/news/feed/'],
+    feeds: { top: ['https://www.amny.com/news/feed/'] },
     authority: 8,
   },
   {
@@ -395,7 +395,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NY',
-    feedUrls: ['https://www.thecity.nyc/feed/'],
+    feeds: { top: ['https://www.thecity.nyc/feed/'] },
     authority: 7,
   },
   {
@@ -405,7 +405,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NY',
-    feedUrls: ['https://www.syracuse.com/arc/outboundfeeds/rss/category/news/?outputType=xml'],
+    feeds: { top: ['https://www.syracuse.com/arc/outboundfeeds/rss/category/news/?outputType=xml'] },
     authority: 8,
   },
   {
@@ -415,7 +415,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NY',
-    feedUrls: ['https://www.wxxinews.org/local-news.rss'],
+    feeds: { top: ['https://www.wxxinews.org/local-news.rss'] },
     authority: 8,
   },
   {
@@ -425,7 +425,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NY',
-    feedUrls: ['https://www.btpm.org/local.rss'],
+    feeds: { top: ['https://www.btpm.org/local.rss'] },
     authority: 8,
   },
   {
@@ -435,7 +435,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NY',
-    feedUrls: ['https://www.wamc.org/new-york-news.rss'],
+    feeds: { top: ['https://www.wamc.org/new-york-news.rss'] },
     authority: 8,
   },
   {
@@ -445,7 +445,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-NY',
-    feedUrls: ['https://www.wkbw.com/news/local-news.rss'],
+    feeds: { top: ['https://www.wkbw.com/news/local-news.rss'] },
     authority: 7,
   },
 
@@ -457,7 +457,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-PA',
-    feedUrls: ['https://www.post-gazette.com/rss/local'],
+    feeds: { top: ['https://www.post-gazette.com/rss/local'] },
     authority: 9,
   },
   {
@@ -467,7 +467,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-PA',
-    feedUrls: ['https://whyy.org/feed/'],
+    feeds: { top: ['https://whyy.org/feed/'] },
     authority: 8,
   },
   {
@@ -477,7 +477,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-PA',
-    feedUrls: ['https://www.wesanews.org/politics-government.rss'],
+    feeds: { top: ['https://www.wesanews.org/politics-government.rss'] },
     authority: 8,
   },
   {
@@ -487,7 +487,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-PA',
-    feedUrls: ['https://www.spotlightpa.org/feeds/full.xml'],
+    feeds: { top: ['https://www.spotlightpa.org/feeds/full.xml'] },
     authority: 7,
   },
   {
@@ -497,7 +497,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-PA',
-    feedUrls: ['https://www.phillyvoice.com/feed/'],
+    feeds: { top: ['https://www.phillyvoice.com/feed/'] },
     authority: 7,
   },
   {
@@ -507,7 +507,7 @@ export const US_STATES_NORTHEAST: SourceConfig[] = [
     country: 'US',
     language: 'en',
     region: 'US-PA',
-    feedUrls: ['https://www.publicsource.org/feed/'],
+    feeds: { top: ['https://www.publicsource.org/feed/'] },
     authority: 7,
   },
 ];

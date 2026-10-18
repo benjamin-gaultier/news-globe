@@ -25,7 +25,7 @@ const src = (id: string, name: string, region: SouthState, feedUrls: string[], a
   country: 'MX',
   language: 'es',
   region: `MX-${region}`,
-  feedUrls,
+  feeds: { top: feedUrls },
   authority,
 });
 

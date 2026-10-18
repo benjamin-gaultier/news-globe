@@ -9,7 +9,7 @@ const source = (type: SourceConfig['type'], feedUrls: string[]): SourceConfig =>
   type,
   country: 'FR',
   language: 'fr',
-  feedUrls,
+  feeds: { top: feedUrls },
   authority: 1,
 });
 

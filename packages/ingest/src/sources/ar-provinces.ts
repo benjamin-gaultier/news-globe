@@ -34,7 +34,7 @@ const src = (id: string, name: string, region: ProvinceCode, feedUrls: string[],
   country: 'AR',
   language: 'es',
   region: `AR-${region}`,
-  feedUrls,
+  feeds: { top: feedUrls },
   authority,
 });
 

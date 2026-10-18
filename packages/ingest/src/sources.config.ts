@@ -17,6 +17,26 @@ import { US_STATES_NORTHEAST } from './sources/us-states-northeast';
 import { US_STATES_SOUTH } from './sources/us-states-south';
 import { US_STATES_WEST } from './sources/us-states-west';
 
+/**
+ * What a feed covers. `top` is the country's or region's main headlines, the
+ * only file written so far; the others are section feeds (sport, business)
+ * that will get files of their own.
+ */
+export const CATEGORIES = ['top', 'sport', 'business'] as const;
+export type Category = (typeof CATEGORIES)[number];
+
+/**
+ * Categories the ingest fetches. The others' feeds are checked with
+ * `pnpm probe` and listed in SOURCES, but not requested until the pipeline
+ * writes a file per category.
+ */
+export const FETCHED_CATEGORIES: readonly Category[] = ['top'];
+
+/** A source's feed URLs in the given categories, in category order. */
+export function feedUrlsOf(source: SourceConfig, categories: readonly Category[] = FETCHED_CATEGORIES): string[] {
+  return categories.flatMap((c) => source.feeds[c] ?? []);
+}
+
 export interface SourceConfig {
   /** Stable id; also the outlet identity used for "distinct outlets". */
   id: string;
@@ -26,10 +46,11 @@ export interface SourceConfig {
   country: CountryCode;
   language: string;
   /**
-   * Feed URLs for this outlet. Prefer national / politics / society section
-   * feeds over "all news" feeds, which mix in international stories.
+   * Feed URLs for this outlet, by category. For `top`, prefer national /
+   * politics / society section feeds over "all news" feeds, which mix in
+   * international stories. A specialist outlet (a sports daily) has no `top`.
    */
-  feedUrls: string[];
+  feeds: Partial<Record<Category, string[]>>;
   /** Relative editorial authority, used to pick a cluster's representative. Higher wins. */
   authority: number;
   /**
@@ -53,7 +74,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feedUrls: ['https://www.lemonde.fr/politique/rss_full.xml', 'https://www.lemonde.fr/societe/rss_full.xml'],
+    feeds: { top: ['https://www.lemonde.fr/politique/rss_full.xml', 'https://www.lemonde.fr/societe/rss_full.xml'] },
     authority: 10,
   },
   {
@@ -62,7 +83,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feedUrls: ['https://www.franceinfo.fr/politique.rss', 'https://www.franceinfo.fr/france.rss'],
+    feeds: { top: ['https://www.franceinfo.fr/politique.rss', 'https://www.franceinfo.fr/france.rss'] },
     authority: 9,
   },
   {
@@ -71,7 +92,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feedUrls: ['https://www.lefigaro.fr/rss/figaro_politique.xml', 'https://www.lefigaro.fr/rss/figaro_actualite-france.xml'],
+    feeds: { top: ['https://www.lefigaro.fr/rss/figaro_politique.xml', 'https://www.lefigaro.fr/rss/figaro_actualite-france.xml'] },
     authority: 8,
   },
   {
@@ -80,10 +101,12 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feedUrls: [
-      'https://www.liberation.fr/arc/outboundfeeds/rss-all/category/politique/?outputType=xml',
-      'https://www.liberation.fr/arc/outboundfeeds/rss-all/category/societe/?outputType=xml',
-    ],
+    feeds: {
+      top: [
+        'https://www.liberation.fr/arc/outboundfeeds/rss-all/category/politique/?outputType=xml',
+        'https://www.liberation.fr/arc/outboundfeeds/rss-all/category/societe/?outputType=xml',
+      ],
+    },
     authority: 7,
   },
   // Replaces Les Echos (all RSS endpoints return 403 to non-browser clients).
@@ -93,7 +116,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feedUrls: ['https://www.ouest-france.fr/rss/france'],
+    feeds: { top: ['https://www.ouest-france.fr/rss/france'] },
     authority: 6,
   },
   {
@@ -102,7 +125,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FR',
     language: 'fr',
-    feedUrls: ['https://www.20minutes.fr/feeds/rss-politique.xml', 'https://www.20minutes.fr/feeds/rss-societe.xml'],
+    feeds: { top: ['https://www.20minutes.fr/feeds/rss-politique.xml', 'https://www.20minutes.fr/feeds/rss-societe.xml'] },
     authority: 5,
   },
 
@@ -114,7 +137,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feedUrls: ['https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml', 'https://rss.nytimes.com/services/xml/rss/nyt/US.xml'],
+    feeds: { top: ['https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml', 'https://rss.nytimes.com/services/xml/rss/nyt/US.xml'] },
     authority: 10,
   },
   {
@@ -123,7 +146,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feedUrls: ['https://feeds.washingtonpost.com/rss/politics', 'https://feeds.washingtonpost.com/rss/national'],
+    feeds: { top: ['https://feeds.washingtonpost.com/rss/politics', 'https://feeds.washingtonpost.com/rss/national'] },
     authority: 9,
   },
   {
@@ -132,7 +155,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feedUrls: ['https://feeds.npr.org/1014/rss.xml', 'https://feeds.npr.org/1003/rss.xml'],
+    feeds: { top: ['https://feeds.npr.org/1014/rss.xml', 'https://feeds.npr.org/1003/rss.xml'] },
     authority: 8,
   },
   {
@@ -141,7 +164,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feedUrls: ['https://www.pbs.org/newshour/feeds/rss/politics', 'https://www.pbs.org/newshour/feeds/rss/nation'],
+    feeds: { top: ['https://www.pbs.org/newshour/feeds/rss/politics', 'https://www.pbs.org/newshour/feeds/rss/nation'] },
     authority: 8,
   },
   // CBS and ABC stand in for AP as wire-like, high-volume national coverage.
@@ -151,7 +174,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feedUrls: ['https://www.cbsnews.com/latest/rss/politics', 'https://www.cbsnews.com/latest/rss/us'],
+    feeds: { top: ['https://www.cbsnews.com/latest/rss/politics', 'https://www.cbsnews.com/latest/rss/us'] },
     authority: 7,
   },
   {
@@ -160,7 +183,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'US',
     language: 'en',
-    feedUrls: ['https://abcnews.com/abcnews/politicsheadlines', 'https://abcnews.com/abcnews/usheadlines'],
+    feeds: { top: ['https://abcnews.com/abcnews/politicsheadlines', 'https://abcnews.com/abcnews/usheadlines'] },
     authority: 7,
   },
   // ---- United Kingdom ----
@@ -172,7 +195,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GB',
     language: 'en',
-    feedUrls: ['https://feeds.bbci.co.uk/news/uk/rss.xml', 'https://feeds.bbci.co.uk/news/politics/rss.xml'],
+    feeds: { top: ['https://feeds.bbci.co.uk/news/uk/rss.xml', 'https://feeds.bbci.co.uk/news/politics/rss.xml'] },
     authority: 10,
   },
   {
@@ -181,7 +204,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GB',
     language: 'en',
-    feedUrls: ['https://www.theguardian.com/uk-news/rss', 'https://www.theguardian.com/politics/rss'],
+    feeds: { top: ['https://www.theguardian.com/uk-news/rss', 'https://www.theguardian.com/politics/rss'] },
     authority: 9,
   },
   {
@@ -190,7 +213,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GB',
     language: 'en',
-    feedUrls: ['https://www.independent.co.uk/news/uk/politics/rss', 'https://www.independent.co.uk/news/uk/rss'],
+    feeds: { top: ['https://www.independent.co.uk/news/uk/politics/rss', 'https://www.independent.co.uk/news/uk/rss'] },
     authority: 8,
   },
   {
@@ -199,7 +222,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GB',
     language: 'en',
-    feedUrls: ['https://feeds.skynews.com/feeds/rss/uk.xml', 'https://feeds.skynews.com/feeds/rss/politics.xml'],
+    feeds: { top: ['https://feeds.skynews.com/feeds/rss/uk.xml', 'https://feeds.skynews.com/feeds/rss/politics.xml'] },
     authority: 8,
   },
   {
@@ -208,7 +231,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GB',
     language: 'en',
-    feedUrls: ['https://inews.co.uk/news/feed'],
+    feeds: { top: ['https://inews.co.uk/news/feed'] },
     authority: 7,
   },
   {
@@ -217,7 +240,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GB',
     language: 'en',
-    feedUrls: ['https://www.standard.co.uk/news/uk/rss'],
+    feeds: { top: ['https://www.standard.co.uk/news/uk/rss'] },
     authority: 6,
   },
   {
@@ -226,7 +249,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GB',
     language: 'en',
-    feedUrls: ['https://www.mirror.co.uk/news/uk-news/?service=rss'],
+    feeds: { top: ['https://www.mirror.co.uk/news/uk-news/?service=rss'] },
     authority: 5,
   },
   // ---- Germany ----
@@ -236,7 +259,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feedUrls: ['https://www.tagesschau.de/inland/innenpolitik/index~rss2.xml', 'https://www.tagesschau.de/inland/index~rss2.xml'],
+    feeds: { top: ['https://www.tagesschau.de/inland/innenpolitik/index~rss2.xml', 'https://www.tagesschau.de/inland/index~rss2.xml'] },
     authority: 10,
   },
   {
@@ -245,7 +268,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feedUrls: ['https://www.spiegel.de/politik/deutschland/index.rss'],
+    feeds: { top: ['https://www.spiegel.de/politik/deutschland/index.rss'] },
     authority: 9,
   },
   {
@@ -254,7 +277,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feedUrls: ['https://rss.sueddeutsche.de/rss/Politik'],
+    feeds: { top: ['https://rss.sueddeutsche.de/rss/Politik'] },
     authority: 9,
   },
   {
@@ -263,7 +286,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feedUrls: ['https://www.faz.net/rss/aktuell/politik/inland/'],
+    feeds: { top: ['https://www.faz.net/rss/aktuell/politik/inland/'] },
     authority: 8,
   },
   {
@@ -272,7 +295,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feedUrls: ['https://newsfeed.zeit.de/politik/deutschland/index'],
+    feeds: { top: ['https://newsfeed.zeit.de/politik/deutschland/index'] },
     authority: 8,
   },
   {
@@ -281,7 +304,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feedUrls: ['https://www.welt.de/feeds/section/politik/deutschland.rss'],
+    feeds: { top: ['https://www.welt.de/feeds/section/politik/deutschland.rss'] },
     authority: 7,
   },
   {
@@ -290,7 +313,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DE',
     language: 'de',
-    feedUrls: ['https://www.n-tv.de/politik/rss'],
+    feeds: { top: ['https://www.n-tv.de/politik/rss'] },
     authority: 6,
   },
   // ---- Spain ----
@@ -301,7 +324,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ES',
     language: 'es',
-    feedUrls: ['https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada'],
+    feeds: { top: ['https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada'] },
     authority: 10,
   },
   {
@@ -310,7 +333,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ES',
     language: 'es',
-    feedUrls: ['https://e00-elmundo.uecdn.es/elmundo/rss/espana.xml'],
+    feeds: { top: ['https://e00-elmundo.uecdn.es/elmundo/rss/espana.xml'] },
     authority: 9,
   },
   {
@@ -319,7 +342,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ES',
     language: 'es',
-    feedUrls: ['https://www.abc.es/rss/2.0/espana/'],
+    feeds: { top: ['https://www.abc.es/rss/2.0/espana/'] },
     authority: 8,
   },
   {
@@ -328,7 +351,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ES',
     language: 'es',
-    feedUrls: ['https://www.lavanguardia.com/rss/politica.xml'],
+    feeds: { top: ['https://www.lavanguardia.com/rss/politica.xml'] },
     authority: 7,
   },
   {
@@ -337,7 +360,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ES',
     language: 'es',
-    feedUrls: ['https://rss.elconfidencial.com/espana/'],
+    feeds: { top: ['https://rss.elconfidencial.com/espana/'] },
     authority: 7,
   },
   {
@@ -346,7 +369,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ES',
     language: 'es',
-    feedUrls: ['https://www.eldiario.es/rss/politica/'],
+    feeds: { top: ['https://www.eldiario.es/rss/politica/'] },
     authority: 6,
   },
   {
@@ -355,7 +378,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ES',
     language: 'es',
-    feedUrls: ['https://www.20minutos.es/rss/nacional/'],
+    feeds: { top: ['https://www.20minutos.es/rss/nacional/'] },
     authority: 5,
   },
   // ---- Italy ----
@@ -368,7 +391,9 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IT',
     language: 'it',
-    feedUrls: ['https://www.ansa.it/sito/notizie/politica/politica_rss.xml', 'https://www.ansa.it/sito/notizie/cronaca/cronaca_rss.xml'],
+    feeds: {
+      top: ['https://www.ansa.it/sito/notizie/politica/politica_rss.xml', 'https://www.ansa.it/sito/notizie/cronaca/cronaca_rss.xml'],
+    },
     authority: 10,
   },
   {
@@ -377,7 +402,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IT',
     language: 'it',
-    feedUrls: ['https://www.repubblica.it/rss/politica/rss2.0.xml', 'https://www.repubblica.it/rss/cronaca/rss2.0.xml'],
+    feeds: { top: ['https://www.repubblica.it/rss/politica/rss2.0.xml', 'https://www.repubblica.it/rss/cronaca/rss2.0.xml'] },
     authority: 9,
   },
   {
@@ -386,7 +411,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IT',
     language: 'it',
-    feedUrls: ['https://www.rainews.it/rss/politica'],
+    feeds: { top: ['https://www.rainews.it/rss/politica'] },
     authority: 8,
   },
   {
@@ -395,7 +420,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IT',
     language: 'it',
-    feedUrls: ['https://www.ilsole24ore.com/rss/italia.xml'],
+    feeds: { top: ['https://www.ilsole24ore.com/rss/italia.xml'] },
     authority: 7,
   },
   {
@@ -404,7 +429,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IT',
     language: 'it',
-    feedUrls: ['https://tg24.sky.it/rss/tg24_politica.xml'],
+    feeds: { top: ['https://tg24.sky.it/rss/tg24_politica.xml'] },
     authority: 7,
   },
   {
@@ -413,7 +438,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IT',
     language: 'it',
-    feedUrls: ['https://www.ilpost.it/italia/feed/'],
+    feeds: { top: ['https://www.ilpost.it/italia/feed/'] },
     authority: 6,
   },
   // ---- Canada ----
@@ -426,10 +451,12 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CA',
     language: 'en',
-    feedUrls: [
-      'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/',
-      'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/',
-    ],
+    feeds: {
+      top: [
+        'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/',
+        'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/',
+      ],
+    },
     authority: 10,
   },
   {
@@ -438,7 +465,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CA',
     language: 'en',
-    feedUrls: ['https://www.ctvnews.ca/arc/outboundfeeds/rss/category/canada/?outputType=xml'],
+    feeds: { top: ['https://www.ctvnews.ca/arc/outboundfeeds/rss/category/canada/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -447,7 +474,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CA',
     language: 'fr',
-    feedUrls: ['https://ici.radio-canada.ca/rss/4159'],
+    feeds: { top: ['https://ici.radio-canada.ca/rss/4159'] },
     authority: 9,
   },
   {
@@ -456,7 +483,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CA',
     language: 'en',
-    feedUrls: ['https://globalnews.ca/politics/feed/', 'https://globalnews.ca/canada/feed/'],
+    feeds: { top: ['https://globalnews.ca/politics/feed/', 'https://globalnews.ca/canada/feed/'] },
     authority: 8,
   },
   {
@@ -465,7 +492,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CA',
     language: 'en',
-    feedUrls: ['https://nationalpost.com/category/news/politics/feed', 'https://nationalpost.com/category/news/canada/feed'],
+    feeds: { top: ['https://nationalpost.com/category/news/politics/feed', 'https://nationalpost.com/category/news/canada/feed'] },
     authority: 7,
   },
   {
@@ -474,7 +501,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CA',
     language: 'fr',
-    feedUrls: ['https://www.lapresse.ca/actualites/politique/rss'],
+    feeds: { top: ['https://www.lapresse.ca/actualites/politique/rss'] },
     authority: 7,
   },
   // ---- Brazil ----
@@ -486,7 +513,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feedUrls: ['https://g1.globo.com/rss/g1/politica/'],
+    feeds: { top: ['https://g1.globo.com/rss/g1/politica/'] },
     authority: 10,
   },
   {
@@ -495,7 +522,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feedUrls: ['https://feeds.folha.uol.com.br/poder/rss091.xml'],
+    feeds: { top: ['https://feeds.folha.uol.com.br/poder/rss091.xml'] },
     authority: 9,
   },
   {
@@ -504,7 +531,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feedUrls: ['https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/politica/'],
+    feeds: { top: ['https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/politica/'] },
     authority: 9,
   },
   {
@@ -513,7 +540,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feedUrls: ['https://oglobo.globo.com/rss/oglobo'],
+    feeds: { top: ['https://oglobo.globo.com/rss/oglobo'] },
     authority: 8,
   },
   {
@@ -522,7 +549,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feedUrls: ['https://agenciabrasil.ebc.com.br/rss/politica/feed.xml', 'https://agenciabrasil.ebc.com.br/rss/geral/feed.xml'],
+    feeds: { top: ['https://agenciabrasil.ebc.com.br/rss/politica/feed.xml', 'https://agenciabrasil.ebc.com.br/rss/geral/feed.xml'] },
     authority: 7,
   },
   {
@@ -531,7 +558,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BR',
     language: 'pt',
-    feedUrls: ['https://www.poder360.com.br/feed/'],
+    feeds: { top: ['https://www.poder360.com.br/feed/'] },
     authority: 7,
   },
   // ---- Turkey ----
@@ -545,7 +572,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TR',
     language: 'tr',
-    feedUrls: ['https://www.aa.com.tr/tr/rss/default?cat=guncel'],
+    feeds: { top: ['https://www.aa.com.tr/tr/rss/default?cat=guncel'] },
     authority: 10,
   },
   {
@@ -554,7 +581,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TR',
     language: 'tr',
-    feedUrls: ['https://www.trthaber.com/gundem_articles.rss'],
+    feeds: { top: ['https://www.trthaber.com/gundem_articles.rss'] },
     authority: 9,
   },
   {
@@ -563,7 +590,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TR',
     language: 'tr',
-    feedUrls: ['https://www.hurriyet.com.tr/rss/gundem'],
+    feeds: { top: ['https://www.hurriyet.com.tr/rss/gundem'] },
     authority: 8,
   },
   {
@@ -572,7 +599,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TR',
     language: 'tr',
-    feedUrls: ['https://www.ntv.com.tr/gundem.rss'],
+    feeds: { top: ['https://www.ntv.com.tr/gundem.rss'] },
     authority: 8,
   },
   {
@@ -581,7 +608,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TR',
     language: 'tr',
-    feedUrls: ['https://www.sozcu.com.tr/feeds-rss-category-gundem'],
+    feeds: { top: ['https://www.sozcu.com.tr/feeds-rss-category-gundem'] },
     authority: 7,
   },
   {
@@ -590,7 +617,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TR',
     language: 'tr',
-    feedUrls: ['https://www.cumhuriyet.com.tr/rss/son_dakika.xml'],
+    feeds: { top: ['https://www.cumhuriyet.com.tr/rss/son_dakika.xml'] },
     authority: 7,
   },
   {
@@ -599,7 +626,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TR',
     language: 'tr',
-    feedUrls: ['https://www.cnnturk.com/feed/rss/turkiye/news'],
+    feeds: { top: ['https://www.cnnturk.com/feed/rss/turkiye/news'] },
     authority: 7,
   },
   // ---- Australia ----
@@ -611,7 +638,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AU',
     language: 'en',
-    feedUrls: ['https://www.abc.net.au/news/feed/51120/rss.xml'],
+    feeds: { top: ['https://www.abc.net.au/news/feed/51120/rss.xml'] },
     authority: 10,
   },
   {
@@ -620,7 +647,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AU',
     language: 'en',
-    feedUrls: ['https://www.theguardian.com/australia-news/rss'],
+    feeds: { top: ['https://www.theguardian.com/australia-news/rss'] },
     authority: 9,
   },
   {
@@ -629,7 +656,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AU',
     language: 'en',
-    feedUrls: ['https://www.smh.com.au/rss/national.xml'],
+    feeds: { top: ['https://www.smh.com.au/rss/national.xml'] },
     authority: 9,
   },
   {
@@ -638,7 +665,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AU',
     language: 'en',
-    feedUrls: ['https://www.sbs.com.au/news/topic/australia/feed'],
+    feeds: { top: ['https://www.sbs.com.au/news/topic/australia/feed'] },
     authority: 8,
   },
   {
@@ -647,7 +674,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AU',
     language: 'en',
-    feedUrls: ['https://www.afr.com/rss/feed.xml'],
+    feeds: { top: ['https://www.afr.com/rss/feed.xml'] },
     authority: 7,
   },
   // ---- India ----
@@ -658,7 +685,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feedUrls: ['https://www.thehindu.com/news/national/feeder/default.rss'],
+    feeds: { top: ['https://www.thehindu.com/news/national/feeder/default.rss'] },
     authority: 10,
   },
   {
@@ -667,7 +694,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feedUrls: ['https://indianexpress.com/section/india/feed/'],
+    feeds: { top: ['https://indianexpress.com/section/india/feed/'] },
     authority: 9,
   },
   {
@@ -676,7 +703,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feedUrls: ['https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms'],
+    feeds: { top: ['https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms'] },
     authority: 9,
   },
   {
@@ -685,7 +712,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feedUrls: ['https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml'],
+    feeds: { top: ['https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml'] },
     authority: 8,
   },
   {
@@ -694,7 +721,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feedUrls: ['https://feeds.feedburner.com/ndtvnews-india-news'],
+    feeds: { top: ['https://feeds.feedburner.com/ndtvnews-india-news'] },
     authority: 8,
   },
   {
@@ -703,7 +730,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IN',
     language: 'en',
-    feedUrls: ['https://feeds.feedburner.com/ScrollinArticles.rss'],
+    feeds: { top: ['https://feeds.feedburner.com/ScrollinArticles.rss'] },
     authority: 6,
   },
   // ---- Mexico ----
@@ -714,7 +741,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feedUrls: ['https://www.eluniversal.com.mx/arc/outboundfeeds/rss/category/nacion/?outputType=xml'],
+    feeds: { top: ['https://www.eluniversal.com.mx/arc/outboundfeeds/rss/category/nacion/?outputType=xml'] },
     authority: 10,
   },
   {
@@ -723,7 +750,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feedUrls: ['https://www.jornada.com.mx/rss/politica.xml'],
+    feeds: { top: ['https://www.jornada.com.mx/rss/politica.xml'] },
     authority: 9,
   },
   {
@@ -732,7 +759,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feedUrls: ['https://www.reforma.com/rss/portada.xml'],
+    feeds: { top: ['https://www.reforma.com/rss/portada.xml'] },
     authority: 9,
   },
   {
@@ -741,7 +768,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feedUrls: ['https://www.excelsior.com.mx/rss/nacional'],
+    feeds: { top: ['https://www.excelsior.com.mx/rss/nacional'] },
     authority: 8,
   },
   {
@@ -750,7 +777,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feedUrls: ['https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 8,
   },
   {
@@ -759,7 +786,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feedUrls: ['https://expansion.mx/rss'],
+    feeds: { top: ['https://expansion.mx/rss'] },
     authority: 7,
   },
   {
@@ -768,7 +795,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MX',
     language: 'es',
-    feedUrls: ['https://oem.com.mx/elsoldemexico/rss'],
+    feeds: { top: ['https://oem.com.mx/elsoldemexico/rss'] },
     authority: 7,
   },
   // ---- Japan ----
@@ -781,7 +808,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JP',
     language: 'ja',
-    feedUrls: ['https://www.asahi.com/rss/asahi/newsheadlines.rdf'],
+    feeds: { top: ['https://www.asahi.com/rss/asahi/newsheadlines.rdf'] },
     authority: 10,
   },
   {
@@ -790,7 +817,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JP',
     language: 'ja',
-    feedUrls: ['https://mainichi.jp/rss/etc/mainichi-flash.rss'],
+    feeds: { top: ['https://mainichi.jp/rss/etc/mainichi-flash.rss'] },
     authority: 9,
   },
   {
@@ -799,7 +826,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JP',
     language: 'ja',
-    feedUrls: ['https://www.kyodo.co.jp/feed/'],
+    feeds: { top: ['https://www.kyodo.co.jp/feed/'] },
     authority: 9,
   },
   {
@@ -808,7 +835,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JP',
     language: 'ja',
-    feedUrls: ['https://www.sankei.com/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.sankei.com/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 8,
   },
   {
@@ -817,7 +844,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JP',
     language: 'ja',
-    feedUrls: ['https://www.jiji.com/rss/ranking.rdf'],
+    feeds: { top: ['https://www.jiji.com/rss/ranking.rdf'] },
     authority: 8,
   },
   {
@@ -826,7 +853,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JP',
     language: 'ja',
-    feedUrls: ['https://newsdig.tbs.co.jp/list/feed/rss'],
+    feeds: { top: ['https://newsdig.tbs.co.jp/list/feed/rss'] },
     authority: 8,
   },
   {
@@ -835,7 +862,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JP',
     language: 'ja',
-    feedUrls: ['https://www.huffingtonpost.jp/feeds/index.xml'],
+    feeds: { top: ['https://www.huffingtonpost.jp/feeds/index.xml'] },
     authority: 6,
   },
   // ---- Ireland ----
@@ -846,7 +873,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IE',
     language: 'en',
-    feedUrls: ['https://www.rte.ie/feeds/rss/?index=/news/'],
+    feeds: { top: ['https://www.rte.ie/feeds/rss/?index=/news/'] },
     authority: 10,
   },
   {
@@ -855,7 +882,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IE',
     language: 'en',
-    feedUrls: ['https://www.irishtimes.com/arc/outboundfeeds/feed-irish-news/?outputType=xml'],
+    feeds: { top: ['https://www.irishtimes.com/arc/outboundfeeds/feed-irish-news/?outputType=xml'] },
     authority: 10,
   },
   {
@@ -864,7 +891,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IE',
     language: 'en',
-    feedUrls: ['https://www.independent.ie/irish-news/rss/'],
+    feeds: { top: ['https://www.independent.ie/irish-news/rss/'] },
     authority: 8,
   },
   {
@@ -873,7 +900,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IE',
     language: 'en',
-    feedUrls: ['https://www.thejournal.ie/feed/'],
+    feeds: { top: ['https://www.thejournal.ie/feed/'] },
     authority: 8,
   },
   {
@@ -882,7 +909,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IE',
     language: 'en',
-    feedUrls: ['https://www.irishexaminer.com/feed/35-top_news.xml'],
+    feeds: { top: ['https://www.irishexaminer.com/feed/35-top_news.xml'] },
     authority: 8,
   },
   {
@@ -891,7 +918,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IE',
     language: 'en',
-    feedUrls: ['https://www.irishmirror.ie/news/irish-news/?service=rss'],
+    feeds: { top: ['https://www.irishmirror.ie/news/irish-news/?service=rss'] },
     authority: 6,
   },
   // ---- South Africa ----
@@ -903,7 +930,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZA',
     language: 'en',
-    feedUrls: ['https://www.sabcnews.com/sabcnews/south-africa/feed/'],
+    feeds: { top: ['https://www.sabcnews.com/sabcnews/south-africa/feed/'] },
     authority: 10,
   },
   {
@@ -912,7 +939,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZA',
     language: 'en',
-    feedUrls: ['https://www.dailymaverick.co.za/dmrss/'],
+    feeds: { top: ['https://www.dailymaverick.co.za/dmrss/'] },
     authority: 9,
   },
   {
@@ -921,7 +948,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZA',
     language: 'en',
-    feedUrls: ['https://www.timeslive.co.za/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.timeslive.co.za/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -930,7 +957,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZA',
     language: 'en',
-    feedUrls: ['https://iol.co.za/rss/iol/news/south-africa/'],
+    feeds: { top: ['https://iol.co.za/rss/iol/news/south-africa/'] },
     authority: 8,
   },
   {
@@ -939,7 +966,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZA',
     language: 'en',
-    feedUrls: ['https://www.enca.com/rss.xml'],
+    feeds: { top: ['https://www.enca.com/rss.xml'] },
     authority: 8,
   },
   // ---- New Zealand ----
@@ -950,7 +977,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NZ',
     language: 'en',
-    feedUrls: ['https://www.rnz.co.nz/rss/national.xml'],
+    feeds: { top: ['https://www.rnz.co.nz/rss/national.xml'] },
     authority: 10,
   },
   {
@@ -959,7 +986,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NZ',
     language: 'en',
-    feedUrls: ['https://www.nzherald.co.nz/arc/outboundfeeds/rss/section/nz/?outputType=xml'],
+    feeds: { top: ['https://www.nzherald.co.nz/arc/outboundfeeds/rss/section/nz/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -968,7 +995,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NZ',
     language: 'en',
-    feedUrls: ['https://www.1news.co.nz/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.1news.co.nz/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -977,7 +1004,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NZ',
     language: 'en',
-    feedUrls: ['https://www.stuff.co.nz/rss'],
+    feeds: { top: ['https://www.stuff.co.nz/rss'] },
     authority: 8,
   },
   {
@@ -986,7 +1013,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NZ',
     language: 'en',
-    feedUrls: ['https://newsroom.co.nz/feed/'],
+    feeds: { top: ['https://newsroom.co.nz/feed/'] },
     authority: 7,
   },
   // ---- Argentina ----
@@ -997,7 +1024,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feedUrls: ['https://www.clarin.com/rss/politica/'],
+    feeds: { top: ['https://www.clarin.com/rss/politica/'] },
     authority: 10,
   },
   {
@@ -1006,7 +1033,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feedUrls: ['https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 10,
   },
   {
@@ -1015,7 +1042,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feedUrls: ['https://www.infobae.com/arc/outboundfeeds/rss/category/politica/?outputType=xml'],
+    feeds: { top: ['https://www.infobae.com/arc/outboundfeeds/rss/category/politica/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -1024,7 +1051,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feedUrls: ['https://tn.com.ar/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://tn.com.ar/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 8,
   },
   {
@@ -1033,7 +1060,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feedUrls: ['https://www.perfil.com/feed/politica'],
+    feeds: { top: ['https://www.perfil.com/feed/politica'] },
     authority: 7,
   },
   {
@@ -1042,7 +1069,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AR',
     language: 'es',
-    feedUrls: ['https://www.ambito.com/rss/pages/politica.xml'],
+    feeds: { top: ['https://www.ambito.com/rss/pages/politica.xml'] },
     authority: 7,
   },
   // ---- Portugal ----
@@ -1053,7 +1080,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PT',
     language: 'pt',
-    feedUrls: ['https://www.rtp.pt/noticias/rss/pais'],
+    feeds: { top: ['https://www.rtp.pt/noticias/rss/pais'] },
     authority: 10,
   },
   {
@@ -1062,7 +1089,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PT',
     language: 'pt',
-    feedUrls: ['https://feeds.feedburner.com/PublicoRSS'],
+    feeds: { top: ['https://feeds.feedburner.com/PublicoRSS'] },
     authority: 10,
   },
   {
@@ -1071,7 +1098,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PT',
     language: 'pt',
-    feedUrls: ['https://observador.pt/feed/'],
+    feeds: { top: ['https://observador.pt/feed/'] },
     authority: 9,
   },
   {
@@ -1080,7 +1107,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PT',
     language: 'pt',
-    feedUrls: ['https://eco.sapo.pt/feed/'],
+    feeds: { top: ['https://eco.sapo.pt/feed/'] },
     authority: 7,
   },
   {
@@ -1089,7 +1116,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PT',
     language: 'pt',
-    feedUrls: ['https://www.cmjornal.pt/rss'],
+    feeds: { top: ['https://www.cmjornal.pt/rss'] },
     authority: 6,
   },
   // ---- Austria ----
@@ -1100,7 +1127,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AT',
     language: 'de',
-    feedUrls: ['https://rss.orf.at/news.xml'],
+    feeds: { top: ['https://rss.orf.at/news.xml'] },
     authority: 10,
   },
   {
@@ -1109,7 +1136,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AT',
     language: 'de',
-    feedUrls: ['https://www.derstandard.at/rss/inland'],
+    feeds: { top: ['https://www.derstandard.at/rss/inland'] },
     authority: 10,
   },
   {
@@ -1118,7 +1145,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AT',
     language: 'de',
-    feedUrls: ['https://www.diepresse.com/rss/innenpolitik'],
+    feeds: { top: ['https://www.diepresse.com/rss/innenpolitik'] },
     authority: 9,
   },
   {
@@ -1127,7 +1154,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AT',
     language: 'de',
-    feedUrls: ['https://kurier.at/xml/rss'],
+    feeds: { top: ['https://kurier.at/xml/rss'] },
     authority: 8,
   },
   {
@@ -1136,7 +1163,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AT',
     language: 'de',
-    feedUrls: ['https://www.kleinezeitung.at/rss/politik'],
+    feeds: { top: ['https://www.kleinezeitung.at/rss/politik'] },
     authority: 7,
   },
   {
@@ -1145,7 +1172,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AT',
     language: 'de',
-    feedUrls: ['https://www.krone.at/nachrichten/rss.html'],
+    feeds: { top: ['https://www.krone.at/nachrichten/rss.html'] },
     authority: 7,
   },
   // ---- Switzerland ----
@@ -1157,7 +1184,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'de',
-    feedUrls: ['https://www.srf.ch/news/bnf/rss/1646'],
+    feeds: { top: ['https://www.srf.ch/news/bnf/rss/1646'] },
     authority: 10,
   },
   {
@@ -1166,7 +1193,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'de',
-    feedUrls: ['https://www.nzz.ch/schweiz.rss'],
+    feeds: { top: ['https://www.nzz.ch/schweiz.rss'] },
     authority: 9,
   },
   {
@@ -1175,7 +1202,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'fr',
-    feedUrls: ['https://www.rts.ch/info/suisse/?format=rss/news'],
+    feeds: { top: ['https://www.rts.ch/info/suisse/?format=rss/news'] },
     authority: 9,
   },
   {
@@ -1184,7 +1211,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'de',
-    feedUrls: ['https://www.tagesanzeiger.ch/rss.html'],
+    feeds: { top: ['https://www.tagesanzeiger.ch/rss.html'] },
     authority: 8,
   },
   {
@@ -1193,7 +1220,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'fr',
-    feedUrls: ['https://www.letemps.ch/articles.rss'],
+    feeds: { top: ['https://www.letemps.ch/articles.rss'] },
     authority: 8,
   },
   {
@@ -1202,7 +1229,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'de',
-    feedUrls: ['https://www.blick.ch/schweiz/rss.xml'],
+    feeds: { top: ['https://www.blick.ch/schweiz/rss.xml'] },
     authority: 7,
   },
   {
@@ -1211,7 +1238,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CH',
     language: 'de',
-    feedUrls: ['https://www.watson.ch/api/1.0/rss/index.xml'],
+    feeds: { top: ['https://www.watson.ch/api/1.0/rss/index.xml'] },
     authority: 6,
   },
   // ---- Colombia ----
@@ -1222,7 +1249,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CO',
     language: 'es',
-    feedUrls: ['https://www.eltiempo.com/rss/politica.xml'],
+    feeds: { top: ['https://www.eltiempo.com/rss/politica.xml'] },
     authority: 10,
   },
   {
@@ -1231,7 +1258,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CO',
     language: 'es',
-    feedUrls: ['https://www.semana.com/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.semana.com/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -1240,7 +1267,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CO',
     language: 'es',
-    feedUrls: ['https://caracol.com.co/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://caracol.com.co/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -1249,7 +1276,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CO',
     language: 'es',
-    feedUrls: ['https://www.elcolombiano.com/rss/colombia.xml'],
+    feeds: { top: ['https://www.elcolombiano.com/rss/colombia.xml'] },
     authority: 8,
   },
   {
@@ -1258,7 +1285,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CO',
     language: 'es',
-    feedUrls: ['https://www.lasillavacia.com/feed/'],
+    feeds: { top: ['https://www.lasillavacia.com/feed/'] },
     authority: 7,
   },
   {
@@ -1267,7 +1294,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CO',
     language: 'es',
-    feedUrls: ['https://www.portafolio.co/rss/economia.xml'],
+    feeds: { top: ['https://www.portafolio.co/rss/economia.xml'] },
     authority: 6,
   },
   // ---- Chile ----
@@ -1279,7 +1306,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CL',
     language: 'es',
-    feedUrls: ['https://www.latercera.com/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.latercera.com/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 10,
   },
   {
@@ -1288,7 +1315,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CL',
     language: 'es',
-    feedUrls: ['https://www.cooperativa.cl/noticias/site/tax/port/all/rss_3___1.xml'],
+    feeds: { top: ['https://www.cooperativa.cl/noticias/site/tax/port/all/rss_3___1.xml'] },
     authority: 9,
   },
   {
@@ -1297,7 +1324,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CL',
     language: 'es',
-    feedUrls: ['https://www.adnradio.cl/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.adnradio.cl/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 8,
   },
   {
@@ -1306,7 +1333,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CL',
     language: 'es',
-    feedUrls: ['https://www.lanacion.cl/feed/'],
+    feeds: { top: ['https://www.lanacion.cl/feed/'] },
     authority: 7,
   },
   {
@@ -1315,7 +1342,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CL',
     language: 'es',
-    feedUrls: ['https://www.df.cl/noticias/site/list/port/rss.xml'],
+    feeds: { top: ['https://www.df.cl/noticias/site/list/port/rss.xml'] },
     authority: 7,
   },
   {
@@ -1324,7 +1351,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CL',
     language: 'es',
-    feedUrls: ['https://www.theclinic.cl/feed/'],
+    feeds: { top: ['https://www.theclinic.cl/feed/'] },
     authority: 6,
   },
   // ---- Nigeria ----
@@ -1335,7 +1362,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NG',
     language: 'en',
-    feedUrls: ['https://punchng.com/feed/'],
+    feeds: { top: ['https://punchng.com/feed/'] },
     authority: 10,
   },
   {
@@ -1344,7 +1371,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NG',
     language: 'en',
-    feedUrls: ['https://www.premiumtimesng.com/feed'],
+    feeds: { top: ['https://www.premiumtimesng.com/feed'] },
     authority: 9,
   },
   {
@@ -1353,7 +1380,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NG',
     language: 'en',
-    feedUrls: ['https://www.channelstv.com/feed/'],
+    feeds: { top: ['https://www.channelstv.com/feed/'] },
     authority: 9,
   },
   {
@@ -1362,7 +1389,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NG',
     language: 'en',
-    feedUrls: ['https://www.vanguardngr.com/feed/'],
+    feeds: { top: ['https://www.vanguardngr.com/feed/'] },
     authority: 8,
   },
   {
@@ -1371,7 +1398,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NG',
     language: 'en',
-    feedUrls: ['https://dailytrust.com/feed/'],
+    feeds: { top: ['https://dailytrust.com/feed/'] },
     authority: 8,
   },
   // ---- Kenya ----
@@ -1382,7 +1409,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KE',
     language: 'en',
-    feedUrls: ['https://nation.africa/kenya/rss.xml'],
+    feeds: { top: ['https://nation.africa/kenya/rss.xml'] },
     authority: 10,
   },
   {
@@ -1391,7 +1418,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KE',
     language: 'en',
-    feedUrls: ['https://www.standardmedia.co.ke/rss/headlines.php'],
+    feeds: { top: ['https://www.standardmedia.co.ke/rss/headlines.php'] },
     authority: 9,
   },
   {
@@ -1400,7 +1427,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KE',
     language: 'en',
-    feedUrls: ['https://www.capitalfm.co.ke/news/feed/'],
+    feeds: { top: ['https://www.capitalfm.co.ke/news/feed/'] },
     authority: 8,
   },
   {
@@ -1409,7 +1436,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KE',
     language: 'en',
-    feedUrls: ['https://www.kenyans.co.ke/feeds/news'],
+    feeds: { top: ['https://www.kenyans.co.ke/feeds/news'] },
     authority: 7,
   },
   {
@@ -1418,7 +1445,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KE',
     language: 'en',
-    feedUrls: ['https://www.businessdailyafrica.com/bd/rss.xml'],
+    feeds: { top: ['https://www.businessdailyafrica.com/bd/rss.xml'] },
     authority: 6,
   },
   {
@@ -1427,7 +1454,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KE',
     language: 'en',
-    feedUrls: ['https://www.tuko.co.ke/rss/all.rss'],
+    feeds: { top: ['https://www.tuko.co.ke/rss/all.rss'] },
     authority: 6,
   },
   // ---- Peru ----
@@ -1440,10 +1467,12 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PE',
     language: 'es',
-    feedUrls: [
-      'https://elcomercio.pe/arc/outboundfeeds/rss/category/politica/?outputType=xml',
-      'https://elcomercio.pe/arc/outboundfeeds/rss/category/peru/?outputType=xml',
-    ],
+    feeds: {
+      top: [
+        'https://elcomercio.pe/arc/outboundfeeds/rss/category/politica/?outputType=xml',
+        'https://elcomercio.pe/arc/outboundfeeds/rss/category/peru/?outputType=xml',
+      ],
+    },
     authority: 10,
   },
   {
@@ -1452,7 +1481,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PE',
     language: 'es',
-    feedUrls: ['https://larepublica.pe/rss/politica.xml'],
+    feeds: { top: ['https://larepublica.pe/rss/politica.xml'] },
     authority: 9,
   },
   {
@@ -1461,7 +1490,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PE',
     language: 'es',
-    feedUrls: ['https://rpp.pe/feed'],
+    feeds: { top: ['https://rpp.pe/feed'] },
     authority: 9,
   },
   {
@@ -1470,7 +1499,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PE',
     language: 'es',
-    feedUrls: ['https://andina.pe/agencia/rss/3.xml'],
+    feeds: { top: ['https://andina.pe/agencia/rss/3.xml'] },
     authority: 8,
   },
   {
@@ -1479,7 +1508,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PE',
     language: 'es',
-    feedUrls: ['https://gestion.pe/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://gestion.pe/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 7,
   },
   // ---- Uruguay ----
@@ -1490,7 +1519,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UY',
     language: 'es',
-    feedUrls: ['https://ladiaria.com.uy/feeds/articulos/'],
+    feeds: { top: ['https://ladiaria.com.uy/feeds/articulos/'] },
     authority: 9,
   },
   {
@@ -1499,7 +1528,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UY',
     language: 'es',
-    feedUrls: ['https://www.montevideo.com.uy/anxml.aspx?59'],
+    feeds: { top: ['https://www.montevideo.com.uy/anxml.aspx?59'] },
     authority: 8,
   },
   {
@@ -1508,7 +1537,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UY',
     language: 'es',
-    feedUrls: ['https://www.subrayado.com.uy/rss/pages/home.xml'],
+    feeds: { top: ['https://www.subrayado.com.uy/rss/pages/home.xml'] },
     authority: 8,
   },
   {
@@ -1517,7 +1546,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UY',
     language: 'es',
-    feedUrls: ['https://www.teledoce.com/feed/'],
+    feeds: { top: ['https://www.teledoce.com/feed/'] },
     authority: 7,
   },
   // ---- Philippines ----
@@ -1529,7 +1558,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PH',
     language: 'en',
-    feedUrls: ['https://newsinfo.inquirer.net/feed'],
+    feeds: { top: ['https://newsinfo.inquirer.net/feed'] },
     authority: 10,
   },
   {
@@ -1538,7 +1567,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PH',
     language: 'en',
-    feedUrls: ['https://www.rappler.com/feed/'],
+    feeds: { top: ['https://www.rappler.com/feed/'] },
     authority: 9,
   },
   {
@@ -1547,7 +1576,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PH',
     language: 'en',
-    feedUrls: ['https://data.gmanetwork.com/gno/rss/news/feed.xml'],
+    feeds: { top: ['https://data.gmanetwork.com/gno/rss/news/feed.xml'] },
     authority: 9,
   },
   {
@@ -1556,7 +1585,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PH',
     language: 'en',
-    feedUrls: ['https://www.philstar.com/rss/headlines'],
+    feeds: { top: ['https://www.philstar.com/rss/headlines'] },
     authority: 8,
   },
   {
@@ -1565,7 +1594,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PH',
     language: 'en',
-    feedUrls: ['https://www.manilatimes.net/news/feed'],
+    feeds: { top: ['https://www.manilatimes.net/news/feed'] },
     authority: 7,
   },
   // ---- Singapore ----
@@ -1577,7 +1606,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SG',
     language: 'en',
-    feedUrls: ['https://www.straitstimes.com/news/singapore/rss.xml'],
+    feeds: { top: ['https://www.straitstimes.com/news/singapore/rss.xml'] },
     authority: 10,
   },
   {
@@ -1586,7 +1615,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SG',
     language: 'en',
-    feedUrls: ['https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=10416'],
+    feeds: { top: ['https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=10416'] },
     authority: 10,
   },
   {
@@ -1595,7 +1624,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SG',
     language: 'en',
-    feedUrls: ['https://theindependent.sg/feed/'],
+    feeds: { top: ['https://theindependent.sg/feed/'] },
     authority: 6,
   },
   // ---- Pakistan ----
@@ -1606,7 +1635,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PK',
     language: 'en',
-    feedUrls: ['https://www.dawn.com/feeds/home'],
+    feeds: { top: ['https://www.dawn.com/feeds/home'] },
     authority: 10,
   },
   {
@@ -1615,7 +1644,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PK',
     language: 'en',
-    feedUrls: ['https://tribune.com.pk/feed/home'],
+    feeds: { top: ['https://tribune.com.pk/feed/home'] },
     authority: 9,
   },
   {
@@ -1624,7 +1653,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PK',
     language: 'en',
-    feedUrls: ['https://www.geo.tv/rss/1/1'],
+    feeds: { top: ['https://www.geo.tv/rss/1/1'] },
     authority: 8,
   },
   {
@@ -1633,7 +1662,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PK',
     language: 'en',
-    feedUrls: ['https://www.brecorder.com/feeds/latest-news'],
+    feeds: { top: ['https://www.brecorder.com/feeds/latest-news'] },
     authority: 7,
   },
   // ---- Ghana ----
@@ -1644,7 +1673,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GH',
     language: 'en',
-    feedUrls: ['https://www.myjoyonline.com/feed/'],
+    feeds: { top: ['https://www.myjoyonline.com/feed/'] },
     authority: 10,
   },
   {
@@ -1653,7 +1682,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GH',
     language: 'en',
-    feedUrls: ['https://www.graphic.com.gh/news.feed?type=rss'],
+    feeds: { top: ['https://www.graphic.com.gh/news.feed?type=rss'] },
     authority: 9,
   },
   {
@@ -1662,7 +1691,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GH',
     language: 'en',
-    feedUrls: ['https://www.gbcghanaonline.com/feed/'],
+    feeds: { top: ['https://www.gbcghanaonline.com/feed/'] },
     authority: 9,
   },
   {
@@ -1671,7 +1700,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GH',
     language: 'en',
-    feedUrls: ['https://3news.com/feed/'],
+    feeds: { top: ['https://3news.com/feed/'] },
     authority: 8,
   },
   {
@@ -1680,7 +1709,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GH',
     language: 'en',
-    feedUrls: ['https://dailyguidenetwork.com/feed/'],
+    feeds: { top: ['https://dailyguidenetwork.com/feed/'] },
     authority: 7,
   },
   {
@@ -1689,7 +1718,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GH',
     language: 'en',
-    feedUrls: ['https://thehighstreetjournal.com/feed/'],
+    feeds: { top: ['https://thehighstreetjournal.com/feed/'] },
     authority: 6,
   },
   // ---- Netherlands ----
@@ -1699,7 +1728,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feedUrls: ['https://feeds.nos.nl/nosnieuwsbinnenland'],
+    feeds: { top: ['https://feeds.nos.nl/nosnieuwsbinnenland'] },
     authority: 10,
   },
   {
@@ -1708,7 +1737,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feedUrls: ['https://www.nu.nl/rss/Algemeen'],
+    feeds: { top: ['https://www.nu.nl/rss/Algemeen'] },
     authority: 9,
   },
   {
@@ -1717,7 +1746,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feedUrls: ['https://nrc.nl/rss/'],
+    feeds: { top: ['https://nrc.nl/rss/'] },
     authority: 9,
   },
   {
@@ -1726,7 +1755,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feedUrls: ['https://www.volkskrant.nl/voorpagina/rss.xml'],
+    feeds: { top: ['https://www.volkskrant.nl/voorpagina/rss.xml'] },
     authority: 9,
   },
   {
@@ -1735,7 +1764,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feedUrls: ['https://www.telegraaf.nl/rss'],
+    feeds: { top: ['https://www.telegraaf.nl/rss'] },
     authority: 8,
   },
   {
@@ -1744,7 +1773,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feedUrls: ['https://www.ad.nl/home/rss.xml'],
+    feeds: { top: ['https://www.ad.nl/home/rss.xml'] },
     authority: 8,
   },
   {
@@ -1753,7 +1782,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feedUrls: ['https://www.rtl.nl/rss.xml'],
+    feeds: { top: ['https://www.rtl.nl/rss.xml'] },
     authority: 8,
   },
   {
@@ -1762,7 +1791,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NL',
     language: 'nl',
-    feedUrls: ['https://www.trouw.nl/voorpagina/rss.xml'],
+    feeds: { top: ['https://www.trouw.nl/voorpagina/rss.xml'] },
     authority: 7,
   },
   // ---- Belgium ----
@@ -1774,7 +1803,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BE',
     language: 'nl',
-    feedUrls: ['https://www.vrt.be/vrtnws/nl.rss.articles.xml'],
+    feeds: { top: ['https://www.vrt.be/vrtnws/nl.rss.articles.xml'] },
     authority: 10,
   },
   {
@@ -1783,7 +1812,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BE',
     language: 'fr',
-    feedUrls: ['https://rss.rtbf.be/article/rss/highlight_rtbf_info.xml'],
+    feeds: { top: ['https://rss.rtbf.be/article/rss/highlight_rtbf_info.xml'] },
     authority: 10,
   },
   {
@@ -1792,7 +1821,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BE',
     language: 'nl',
-    feedUrls: ['https://www.hln.be/home/rss.xml'],
+    feeds: { top: ['https://www.hln.be/home/rss.xml'] },
     authority: 8,
   },
   {
@@ -1801,7 +1830,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BE',
     language: 'nl',
-    feedUrls: ['https://www.demorgen.be/nieuws/rss.xml'],
+    feeds: { top: ['https://www.demorgen.be/nieuws/rss.xml'] },
     authority: 8,
   },
   {
@@ -1810,7 +1839,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BE',
     language: 'fr',
-    feedUrls: ['https://www.lalibre.be/arc/outboundfeeds/rss/section/belgique/?outputType=xml'],
+    feeds: { top: ['https://www.lalibre.be/arc/outboundfeeds/rss/section/belgique/?outputType=xml'] },
     authority: 8,
   },
   {
@@ -1819,7 +1848,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BE',
     language: 'fr',
-    feedUrls: ['https://www.lavenir.net/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.lavenir.net/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 7,
   },
   {
@@ -1828,7 +1857,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BE',
     language: 'fr',
-    feedUrls: ['https://www.levif.be/feed/'],
+    feeds: { top: ['https://www.levif.be/feed/'] },
     authority: 6,
   },
   // ---- Sweden ----
@@ -1838,7 +1867,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SE',
     language: 'sv',
-    feedUrls: ['https://www.svt.se/nyheter/rss.xml'],
+    feeds: { top: ['https://www.svt.se/nyheter/rss.xml'] },
     authority: 10,
   },
   {
@@ -1847,7 +1876,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SE',
     language: 'sv',
-    feedUrls: ['https://www.dn.se/rss/'],
+    feeds: { top: ['https://www.dn.se/rss/'] },
     authority: 9,
   },
   {
@@ -1856,7 +1885,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SE',
     language: 'sv',
-    feedUrls: ['https://www.svd.se/feed/articles.rss'],
+    feeds: { top: ['https://www.svd.se/feed/articles.rss'] },
     authority: 9,
   },
   {
@@ -1865,7 +1894,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SE',
     language: 'sv',
-    feedUrls: ['https://api.sr.se/api/rss/program/83'],
+    feeds: { top: ['https://api.sr.se/api/rss/program/83'] },
     authority: 9,
   },
   {
@@ -1874,7 +1903,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SE',
     language: 'sv',
-    feedUrls: ['https://rss.aftonbladet.se/rss2/small/pages/sections/senastenytt/'],
+    feeds: { top: ['https://rss.aftonbladet.se/rss2/small/pages/sections/senastenytt/'] },
     authority: 8,
   },
   {
@@ -1883,7 +1912,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SE',
     language: 'sv',
-    feedUrls: ['https://feeds.expressen.se/nyheter/'],
+    feeds: { top: ['https://feeds.expressen.se/nyheter/'] },
     authority: 8,
   },
   {
@@ -1892,7 +1921,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SE',
     language: 'sv',
-    feedUrls: ['https://www.gp.se/rss'],
+    feeds: { top: ['https://www.gp.se/rss'] },
     authority: 7,
   },
   // ---- Norway ----
@@ -1903,7 +1932,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NO',
     language: 'nb',
-    feedUrls: ['https://www.nrk.no/nyheter/siste.rss'],
+    feeds: { top: ['https://www.nrk.no/nyheter/siste.rss'] },
     authority: 10,
   },
   {
@@ -1912,7 +1941,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NO',
     language: 'nb',
-    feedUrls: ['https://www.aftenposten.no/rss'],
+    feeds: { top: ['https://www.aftenposten.no/rss'] },
     authority: 9,
   },
   {
@@ -1921,7 +1950,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NO',
     language: 'nb',
-    feedUrls: ['https://www.vg.no/rss/feed'],
+    feeds: { top: ['https://www.vg.no/rss/feed'] },
     authority: 9,
   },
   {
@@ -1930,7 +1959,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NO',
     language: 'nb',
-    feedUrls: ['https://www.dagbladet.no/?lab_viewport=rss'],
+    feeds: { top: ['https://www.dagbladet.no/?lab_viewport=rss'] },
     authority: 8,
   },
   {
@@ -1939,7 +1968,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NO',
     language: 'nb',
-    feedUrls: ['https://www.tv2.no/rss/nyheter'],
+    feeds: { top: ['https://www.tv2.no/rss/nyheter'] },
     authority: 8,
   },
   {
@@ -1948,7 +1977,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NO',
     language: 'nb',
-    feedUrls: ['https://www.nettavisen.no/service/rich-rss'],
+    feeds: { top: ['https://www.nettavisen.no/service/rich-rss'] },
     authority: 7,
   },
   {
@@ -1957,7 +1986,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NO',
     language: 'nb',
-    feedUrls: ['https://e24.no/rss2'],
+    feeds: { top: ['https://e24.no/rss2'] },
     authority: 6,
   },
   // ---- Denmark ----
@@ -1969,7 +1998,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DK',
     language: 'da',
-    feedUrls: ['https://www.dr.dk/nyheder/service/feeds/senestenyt'],
+    feeds: { top: ['https://www.dr.dk/nyheder/service/feeds/senestenyt'] },
     authority: 10,
   },
   {
@@ -1978,7 +2007,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DK',
     language: 'da',
-    feedUrls: ['https://politiken.dk/rss/senestenyt.rss'],
+    feeds: { top: ['https://politiken.dk/rss/senestenyt.rss'] },
     authority: 9,
   },
   {
@@ -1987,7 +2016,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DK',
     language: 'da',
-    feedUrls: ['https://www.berlingske.dk/content/rss'],
+    feeds: { top: ['https://www.berlingske.dk/content/rss'] },
     authority: 9,
   },
   {
@@ -1996,7 +2025,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DK',
     language: 'da',
-    feedUrls: ['https://ekstrabladet.dk/rssfeed/all/'],
+    feeds: { top: ['https://ekstrabladet.dk/rssfeed/all/'] },
     authority: 7,
   },
   // ---- Poland ----
@@ -2007,7 +2036,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PL',
     language: 'pl',
-    feedUrls: ['https://tvn24.pl/najnowsze.xml'],
+    feeds: { top: ['https://tvn24.pl/najnowsze.xml'] },
     authority: 10,
   },
   {
@@ -2016,7 +2045,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PL',
     language: 'pl',
-    feedUrls: ['https://www.rp.pl/rss_main'],
+    feeds: { top: ['https://www.rp.pl/rss_main'] },
     authority: 9,
   },
   {
@@ -2025,7 +2054,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PL',
     language: 'pl',
-    feedUrls: ['https://rss.gazeta.pl/pub/rss/najnowsze_wyborcza.xml'],
+    feeds: { top: ['https://rss.gazeta.pl/pub/rss/najnowsze_wyborcza.xml'] },
     authority: 9,
   },
   {
@@ -2034,7 +2063,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PL',
     language: 'pl',
-    feedUrls: ['https://www.polsatnews.pl/rss/polska.xml'],
+    feeds: { top: ['https://www.polsatnews.pl/rss/polska.xml'] },
     authority: 8,
   },
   {
@@ -2043,7 +2072,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PL',
     language: 'pl',
-    feedUrls: ['https://www.rmf24.pl/fakty/feed'],
+    feeds: { top: ['https://www.rmf24.pl/fakty/feed'] },
     authority: 8,
   },
   {
@@ -2052,7 +2081,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PL',
     language: 'pl',
-    feedUrls: ['https://wiadomosci.onet.pl/.feed'],
+    feeds: { top: ['https://wiadomosci.onet.pl/.feed'] },
     authority: 7,
   },
   {
@@ -2061,7 +2090,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PL',
     language: 'pl',
-    feedUrls: ['https://wiadomosci.wp.pl/rss.xml'],
+    feeds: { top: ['https://wiadomosci.wp.pl/rss.xml'] },
     authority: 7,
   },
   // ---- Malaysia ----
@@ -2073,7 +2102,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MY',
     language: 'en',
-    feedUrls: ['https://www.malaysiakini.com/rss/en/news.rss'],
+    feeds: { top: ['https://www.malaysiakini.com/rss/en/news.rss'] },
     authority: 10,
   },
   {
@@ -2082,7 +2111,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MY',
     language: 'en',
-    feedUrls: ['https://www.nst.com.my/feed'],
+    feeds: { top: ['https://www.nst.com.my/feed'] },
     authority: 9,
   },
   {
@@ -2091,7 +2120,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MY',
     language: 'en',
-    feedUrls: ['https://www.freemalaysiatoday.com/feed/'],
+    feeds: { top: ['https://www.freemalaysiatoday.com/feed/'] },
     authority: 9,
   },
   {
@@ -2100,7 +2129,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MY',
     language: 'en',
-    feedUrls: ['https://www.malaymail.com/feed/rss/malaysia'],
+    feeds: { top: ['https://www.malaymail.com/feed/rss/malaysia'] },
     authority: 8,
   },
   // ---- Ukraine ----
@@ -2111,7 +2140,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UA',
     language: 'en',
-    feedUrls: ['https://kyivindependent.com/news-archive/rss/'],
+    feeds: { top: ['https://kyivindependent.com/news-archive/rss/'] },
     authority: 10,
   },
   {
@@ -2120,7 +2149,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UA',
     language: 'en',
-    feedUrls: ['https://www.pravda.com.ua/eng/rss/'],
+    feeds: { top: ['https://www.pravda.com.ua/eng/rss/'] },
     authority: 9,
   },
   {
@@ -2129,7 +2158,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UA',
     language: 'en',
-    feedUrls: ['https://www.ukrinform.net/rss/block-lastnews'],
+    feeds: { top: ['https://www.ukrinform.net/rss/block-lastnews'] },
     authority: 8,
   },
   {
@@ -2138,7 +2167,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UA',
     language: 'en',
-    feedUrls: ['https://www.kyivpost.com/feed'],
+    feeds: { top: ['https://www.kyivpost.com/feed'] },
     authority: 8,
   },
   // ---- Czechia ----
@@ -2148,7 +2177,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CZ',
     language: 'cs',
-    feedUrls: ['https://ct24.ceskatelevize.cz/rss/hlavni-zpravy'],
+    feeds: { top: ['https://ct24.ceskatelevize.cz/rss/hlavni-zpravy'] },
     authority: 10,
   },
   {
@@ -2157,7 +2186,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CZ',
     language: 'cs',
-    feedUrls: ['https://www.irozhlas.cz/rss/irozhlas'],
+    feeds: { top: ['https://www.irozhlas.cz/rss/irozhlas'] },
     authority: 9,
   },
   {
@@ -2166,7 +2195,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CZ',
     language: 'cs',
-    feedUrls: ['https://servis.idnes.cz/rss.aspx?c=zpravodaj'],
+    feeds: { top: ['https://servis.idnes.cz/rss.aspx?c=zpravodaj'] },
     authority: 9,
   },
   {
@@ -2175,7 +2204,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CZ',
     language: 'cs',
-    feedUrls: ['https://www.novinky.cz/rss'],
+    feeds: { top: ['https://www.novinky.cz/rss'] },
     authority: 8,
   },
   {
@@ -2184,7 +2213,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CZ',
     language: 'cs',
-    feedUrls: ['https://www.seznamzpravy.cz/rss'],
+    feeds: { top: ['https://www.seznamzpravy.cz/rss'] },
     authority: 8,
   },
   {
@@ -2193,7 +2222,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CZ',
     language: 'cs',
-    feedUrls: ['https://denikn.cz/feed/'],
+    feeds: { top: ['https://denikn.cz/feed/'] },
     authority: 8,
   },
   {
@@ -2202,7 +2231,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CZ',
     language: 'cs',
-    feedUrls: ['https://www.aktualne.cz/rss/'],
+    feeds: { top: ['https://www.aktualne.cz/rss/'] },
     authority: 7,
   },
   // ---- Romania ----
@@ -2213,7 +2242,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RO',
     language: 'ro',
-    feedUrls: ['https://www.digi24.ro/rss'],
+    feeds: { top: ['https://www.digi24.ro/rss'] },
     authority: 9,
   },
   {
@@ -2222,7 +2251,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RO',
     language: 'ro',
-    feedUrls: ['https://www.hotnews.ro/rss'],
+    feeds: { top: ['https://www.hotnews.ro/rss'] },
     authority: 9,
   },
   {
@@ -2231,7 +2260,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RO',
     language: 'ro',
-    feedUrls: ['https://www.g4media.ro/feed'],
+    feeds: { top: ['https://www.g4media.ro/feed'] },
     authority: 8,
   },
   {
@@ -2240,7 +2269,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RO',
     language: 'ro',
-    feedUrls: ['https://adevarul.ro/rss'],
+    feeds: { top: ['https://adevarul.ro/rss'] },
     authority: 8,
   },
   {
@@ -2249,7 +2278,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RO',
     language: 'ro',
-    feedUrls: ['https://www.libertatea.ro/feed'],
+    feeds: { top: ['https://www.libertatea.ro/feed'] },
     authority: 7,
   },
   // ---- Zimbabwe ----
@@ -2260,7 +2289,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZW',
     language: 'en',
-    feedUrls: ['https://www.herald.co.zw/feed/'],
+    feeds: { top: ['https://www.herald.co.zw/feed/'] },
     authority: 10,
   },
   {
@@ -2269,7 +2298,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZW',
     language: 'en',
-    feedUrls: ['https://www.newsday.co.zw/feed/'],
+    feeds: { top: ['https://www.newsday.co.zw/feed/'] },
     authority: 9,
   },
   {
@@ -2278,7 +2307,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZW',
     language: 'en',
-    feedUrls: ['https://www.newzimbabwe.com/feed/'],
+    feeds: { top: ['https://www.newzimbabwe.com/feed/'] },
     authority: 8,
   },
   {
@@ -2287,7 +2316,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZW',
     language: 'en',
-    feedUrls: ['https://www.263chat.com/feed/'],
+    feeds: { top: ['https://www.263chat.com/feed/'] },
     authority: 7,
   },
   // ---- Uganda ----
@@ -2298,7 +2327,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UG',
     language: 'en',
-    feedUrls: ['https://nilepost.co.ug/feed'],
+    feeds: { top: ['https://nilepost.co.ug/feed'] },
     authority: 9,
   },
   {
@@ -2307,7 +2336,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UG',
     language: 'en',
-    feedUrls: ['https://observer.ug/feed'],
+    feeds: { top: ['https://observer.ug/feed'] },
     authority: 8,
   },
   {
@@ -2316,7 +2345,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UG',
     language: 'en',
-    feedUrls: ['https://www.independent.co.ug/feed/'],
+    feeds: { top: ['https://www.independent.co.ug/feed/'] },
     authority: 8,
   },
   {
@@ -2325,7 +2354,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UG',
     language: 'en',
-    feedUrls: ['https://www.softpower.ug/feed/'],
+    feeds: { top: ['https://www.softpower.ug/feed/'] },
     authority: 6,
   },
   {
@@ -2334,7 +2363,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UG',
     language: 'en',
-    feedUrls: ['https://www.kfm.co.ug/feed'],
+    feeds: { top: ['https://www.kfm.co.ug/feed'] },
     authority: 6,
   },
   // ---- Jamaica ----
@@ -2345,7 +2374,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JM',
     language: 'en',
-    feedUrls: ['https://jamaica-gleaner.com/feed/rss.xml'],
+    feeds: { top: ['https://jamaica-gleaner.com/feed/rss.xml'] },
     authority: 10,
   },
   {
@@ -2354,7 +2383,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JM',
     language: 'en',
-    feedUrls: ['https://www.jamaicaobserver.com/feed/'],
+    feeds: { top: ['https://www.jamaicaobserver.com/feed/'] },
     authority: 9,
   },
   {
@@ -2363,7 +2392,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JM',
     language: 'en',
-    feedUrls: ['https://www.nationwideradiojm.com/feed/'],
+    feeds: { top: ['https://www.nationwideradiojm.com/feed/'] },
     authority: 7,
   },
   // ---- Greece ----
@@ -2374,7 +2403,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GR',
     language: 'el',
-    feedUrls: ['https://www.ertnews.gr/feed/'],
+    feeds: { top: ['https://www.ertnews.gr/feed/'] },
     authority: 10,
   },
   {
@@ -2383,7 +2412,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GR',
     language: 'el',
-    feedUrls: ['https://www.kathimerini.gr/infeeds/rss/nx-rss-feed.xml'],
+    feeds: { top: ['https://www.kathimerini.gr/infeeds/rss/nx-rss-feed.xml'] },
     authority: 10,
   },
   {
@@ -2392,7 +2421,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GR',
     language: 'el',
-    feedUrls: ['https://www.tanea.gr/feed/'],
+    feeds: { top: ['https://www.tanea.gr/feed/'] },
     authority: 8,
   },
   {
@@ -2401,7 +2430,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GR',
     language: 'el',
-    feedUrls: ['https://www.protothema.gr/rss/'],
+    feeds: { top: ['https://www.protothema.gr/rss/'] },
     authority: 8,
   },
   {
@@ -2410,7 +2439,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GR',
     language: 'el',
-    feedUrls: ['https://www.efsyn.gr/rss.xml'],
+    feeds: { top: ['https://www.efsyn.gr/rss.xml'] },
     authority: 7,
   },
   {
@@ -2419,7 +2448,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GR',
     language: 'el',
-    feedUrls: ['https://www.iefimerida.gr/rss.xml'],
+    feeds: { top: ['https://www.iefimerida.gr/rss.xml'] },
     authority: 7,
   },
   {
@@ -2428,7 +2457,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GR',
     language: 'el',
-    feedUrls: ['https://www.naftemporiki.gr/feed/'],
+    feeds: { top: ['https://www.naftemporiki.gr/feed/'] },
     authority: 6,
   },
   // ---- Hungary ----
@@ -2439,7 +2468,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HU',
     language: 'hu',
-    feedUrls: ['https://telex.hu/rss'],
+    feeds: { top: ['https://telex.hu/rss'] },
     authority: 10,
   },
   {
@@ -2448,7 +2477,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HU',
     language: 'hu',
-    feedUrls: ['https://hvg.hu/rss'],
+    feeds: { top: ['https://hvg.hu/rss'] },
     authority: 9,
   },
   {
@@ -2457,7 +2486,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HU',
     language: 'hu',
-    feedUrls: ['https://index.hu/24ora/rss/'],
+    feeds: { top: ['https://index.hu/24ora/rss/'] },
     authority: 9,
   },
   {
@@ -2466,7 +2495,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HU',
     language: 'hu',
-    feedUrls: ['https://444.hu/feed'],
+    feeds: { top: ['https://444.hu/feed'] },
     authority: 8,
   },
   {
@@ -2475,7 +2504,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HU',
     language: 'hu',
-    feedUrls: ['https://24.hu/feed/'],
+    feeds: { top: ['https://24.hu/feed/'] },
     authority: 8,
   },
   {
@@ -2484,7 +2513,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HU',
     language: 'hu',
-    feedUrls: ['https://magyarnemzet.hu/feed/'],
+    feeds: { top: ['https://magyarnemzet.hu/feed/'] },
     authority: 8,
   },
   // ---- Finland ----
@@ -2494,7 +2523,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FI',
     language: 'fi',
-    feedUrls: ['https://yle.fi/rss/uutiset/paauutiset'],
+    feeds: { top: ['https://yle.fi/rss/uutiset/paauutiset'] },
     authority: 10,
   },
   {
@@ -2503,7 +2532,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FI',
     language: 'fi',
-    feedUrls: ['https://www.hs.fi/rss/tuoreimmat.xml'],
+    feeds: { top: ['https://www.hs.fi/rss/tuoreimmat.xml'] },
     authority: 10,
   },
   {
@@ -2512,7 +2541,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FI',
     language: 'fi',
-    feedUrls: ['https://www.is.fi/rss/tuoreimmat.xml'],
+    feeds: { top: ['https://www.is.fi/rss/tuoreimmat.xml'] },
     authority: 8,
   },
   {
@@ -2521,7 +2550,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FI',
     language: 'fi',
-    feedUrls: ['https://www.iltalehti.fi/rss/uutiset.xml'],
+    feeds: { top: ['https://www.iltalehti.fi/rss/uutiset.xml'] },
     authority: 8,
   },
   {
@@ -2530,7 +2559,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FI',
     language: 'fi',
-    feedUrls: ['https://www.mtvuutiset.fi/api/feed/rss/uutiset_uusimmat'],
+    feeds: { top: ['https://www.mtvuutiset.fi/api/feed/rss/uutiset_uusimmat'] },
     authority: 8,
   },
   // ---- Bulgaria ----
@@ -2541,7 +2570,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BG',
     language: 'bg',
-    feedUrls: ['https://www.dnevnik.bg/rss/'],
+    feeds: { top: ['https://www.dnevnik.bg/rss/'] },
     authority: 9,
   },
   {
@@ -2550,7 +2579,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BG',
     language: 'bg',
-    feedUrls: ['https://www.capital.bg/rss/'],
+    feeds: { top: ['https://www.capital.bg/rss/'] },
     authority: 8,
   },
   {
@@ -2559,7 +2588,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BG',
     language: 'bg',
-    feedUrls: ['https://www.mediapool.bg/rss/'],
+    feeds: { top: ['https://www.mediapool.bg/rss/'] },
     authority: 8,
   },
   {
@@ -2568,7 +2597,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BG',
     language: 'bg',
-    feedUrls: ['https://www.24chasa.bg/rss'],
+    feeds: { top: ['https://www.24chasa.bg/rss'] },
     authority: 8,
   },
   // ---- Croatia ----
@@ -2579,7 +2608,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HR',
     language: 'hr',
-    feedUrls: ['https://www.index.hr/rss'],
+    feeds: { top: ['https://www.index.hr/rss'] },
     authority: 9,
   },
   {
@@ -2588,7 +2617,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HR',
     language: 'hr',
-    feedUrls: ['https://www.jutarnji.hr/feed'],
+    feeds: { top: ['https://www.jutarnji.hr/feed'] },
     authority: 9,
   },
   {
@@ -2597,7 +2626,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HR',
     language: 'hr',
-    feedUrls: ['https://www.vecernji.hr/feeds/latest'],
+    feeds: { top: ['https://www.vecernji.hr/feeds/latest'] },
     authority: 9,
   },
   {
@@ -2606,7 +2635,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HR',
     language: 'hr',
-    feedUrls: ['https://www.24sata.hr/feeds/aktualno.xml'],
+    feeds: { top: ['https://www.24sata.hr/feeds/aktualno.xml'] },
     authority: 7,
   },
   {
@@ -2615,7 +2644,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HR',
     language: 'hr',
-    feedUrls: ['https://net.hr/feed'],
+    feeds: { top: ['https://net.hr/feed'] },
     authority: 7,
   },
   {
@@ -2624,7 +2653,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HR',
     language: 'hr',
-    feedUrls: ['https://www.tportal.hr/rss'],
+    feeds: { top: ['https://www.tportal.hr/rss'] },
     authority: 7,
   },
   // ---- Serbia ----
@@ -2636,7 +2665,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RS',
     language: 'sr',
-    feedUrls: ['https://n1info.rs/feed/'],
+    feeds: { top: ['https://n1info.rs/feed/'] },
     authority: 10,
   },
   {
@@ -2645,7 +2674,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RS',
     language: 'sr',
-    feedUrls: ['https://www.danas.rs/feed/'],
+    feeds: { top: ['https://www.danas.rs/feed/'] },
     authority: 9,
   },
   {
@@ -2654,7 +2683,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RS',
     language: 'sr',
-    feedUrls: ['https://www.b92.net/info/rss/vesti.xml'],
+    feeds: { top: ['https://www.b92.net/info/rss/vesti.xml'] },
     authority: 8,
   },
   {
@@ -2663,7 +2692,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RS',
     language: 'sr',
-    feedUrls: ['https://www.blic.rs/rss/danasnje-vesti'],
+    feeds: { top: ['https://www.blic.rs/rss/danasnje-vesti'] },
     authority: 8,
   },
   // ---- Slovakia ----
@@ -2674,7 +2703,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SK',
     language: 'sk',
-    feedUrls: ['https://spravy.stvr.sk/feed/'],
+    feeds: { top: ['https://spravy.stvr.sk/feed/'] },
     authority: 10,
   },
   {
@@ -2683,7 +2712,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SK',
     language: 'sk',
-    feedUrls: ['https://dennikn.sk/feed/'],
+    feeds: { top: ['https://dennikn.sk/feed/'] },
     authority: 9,
   },
   {
@@ -2692,7 +2721,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SK',
     language: 'sk',
-    feedUrls: ['https://www.sme.sk/rss-title'],
+    feeds: { top: ['https://www.sme.sk/rss-title'] },
     authority: 9,
   },
   {
@@ -2701,7 +2730,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SK',
     language: 'sk',
-    feedUrls: ['https://www.aktuality.sk/rss/'],
+    feeds: { top: ['https://www.aktuality.sk/rss/'] },
     authority: 8,
   },
   {
@@ -2710,7 +2739,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SK',
     language: 'sk',
-    feedUrls: ['https://spravy.pravda.sk/rss/xml/'],
+    feeds: { top: ['https://spravy.pravda.sk/rss/xml/'] },
     authority: 8,
   },
   {
@@ -2719,7 +2748,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SK',
     language: 'sk',
-    feedUrls: ['https://hnonline.sk/feed'],
+    feeds: { top: ['https://hnonline.sk/feed'] },
     authority: 7,
   },
   // ---- Estonia ----
@@ -2730,7 +2759,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EE',
     language: 'et',
-    feedUrls: ['https://www.err.ee/rss'],
+    feeds: { top: ['https://www.err.ee/rss'] },
     authority: 10,
   },
   {
@@ -2739,7 +2768,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EE',
     language: 'et',
-    feedUrls: ['https://www.postimees.ee/rss'],
+    feeds: { top: ['https://www.postimees.ee/rss'] },
     authority: 9,
   },
   {
@@ -2748,7 +2777,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EE',
     language: 'et',
-    feedUrls: ['https://www.ohtuleht.ee/rss'],
+    feeds: { top: ['https://www.ohtuleht.ee/rss'] },
     authority: 7,
   },
   // ---- Latvia ----
@@ -2759,7 +2788,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LV',
     language: 'lv',
-    feedUrls: ['https://www.lsm.lv/rss/'],
+    feeds: { top: ['https://www.lsm.lv/rss/'] },
     authority: 10,
   },
   {
@@ -2768,7 +2797,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LV',
     language: 'lv',
-    feedUrls: ['https://www.diena.lv/rss/'],
+    feeds: { top: ['https://www.diena.lv/rss/'] },
     authority: 8,
   },
   {
@@ -2777,7 +2806,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LV',
     language: 'lv',
-    feedUrls: ['https://www.tvnet.lv/rss'],
+    feeds: { top: ['https://www.tvnet.lv/rss'] },
     authority: 8,
   },
   {
@@ -2786,7 +2815,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LV',
     language: 'lv',
-    feedUrls: ['https://www.la.lv/feed'],
+    feeds: { top: ['https://www.la.lv/feed'] },
     authority: 7,
   },
   // ---- Lithuania ----
@@ -2797,7 +2826,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LT',
     language: 'lt',
-    feedUrls: ['https://www.15min.lt/rss'],
+    feeds: { top: ['https://www.15min.lt/rss'] },
     authority: 9,
   },
   {
@@ -2806,7 +2835,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LT',
     language: 'lt',
-    feedUrls: ['https://www.lrytas.lt/rss'],
+    feeds: { top: ['https://www.lrytas.lt/rss'] },
     authority: 8,
   },
   {
@@ -2815,7 +2844,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LT',
     language: 'lt',
-    feedUrls: ['https://www.vz.lt/rss'],
+    feeds: { top: ['https://www.vz.lt/rss'] },
     authority: 7,
   },
   // ---- Morocco ----
@@ -2826,7 +2855,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MA',
     language: 'fr',
-    feedUrls: ['https://fr.hespress.com/feed'],
+    feeds: { top: ['https://fr.hespress.com/feed'] },
     authority: 10,
   },
   {
@@ -2835,7 +2864,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MA',
     language: 'fr',
-    feedUrls: ['https://telquel.ma/feed'],
+    feeds: { top: ['https://telquel.ma/feed'] },
     authority: 9,
   },
   {
@@ -2844,7 +2873,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MA',
     language: 'fr',
-    feedUrls: ['https://ledesk.ma/feed/'],
+    feeds: { top: ['https://ledesk.ma/feed/'] },
     authority: 8,
   },
   {
@@ -2853,7 +2882,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MA',
     language: 'fr',
-    feedUrls: ['https://leseco.ma/feed/'],
+    feeds: { top: ['https://leseco.ma/feed/'] },
     authority: 8,
   },
   {
@@ -2862,7 +2891,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MA',
     language: 'fr',
-    feedUrls: ['https://www.lavieeco.com/feed/'],
+    feeds: { top: ['https://www.lavieeco.com/feed/'] },
     authority: 7,
   },
   {
@@ -2871,7 +2900,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MA',
     language: 'fr',
-    feedUrls: ['https://www.yabiladi.com/rss/news.xml'],
+    feeds: { top: ['https://www.yabiladi.com/rss/news.xml'] },
     authority: 7,
   },
   // ---- Algeria ----
@@ -2883,7 +2912,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DZ',
     language: 'fr',
-    feedUrls: ['https://www.tsa-algerie.com/feed/'],
+    feeds: { top: ['https://www.tsa-algerie.com/feed/'] },
     authority: 10,
   },
   {
@@ -2892,7 +2921,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DZ',
     language: 'fr',
-    feedUrls: ['https://www.algerie360.com/feed/'],
+    feeds: { top: ['https://www.algerie360.com/feed/'] },
     authority: 8,
   },
   {
@@ -2901,7 +2930,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DZ',
     language: 'fr',
-    feedUrls: ['https://www.algeriepatriotique.com/feed/'],
+    feeds: { top: ['https://www.algeriepatriotique.com/feed/'] },
     authority: 7,
   },
   {
@@ -2910,7 +2939,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DZ',
     language: 'fr',
-    feedUrls: ['https://www.jeune-independant.net/feed/'],
+    feeds: { top: ['https://www.jeune-independant.net/feed/'] },
     authority: 7,
   },
   {
@@ -2919,7 +2948,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DZ',
     language: 'fr',
-    feedUrls: ['https://www.algerie-eco.com/feed/'],
+    feeds: { top: ['https://www.algerie-eco.com/feed/'] },
     authority: 6,
   },
   {
@@ -2928,7 +2957,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DZ',
     language: 'fr',
-    feedUrls: ['https://www.observalgerie.com/feed/'],
+    feeds: { top: ['https://www.observalgerie.com/feed/'] },
     authority: 6,
   },
   // ---- Tunisia ----
@@ -2939,7 +2968,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TN',
     language: 'fr',
-    feedUrls: ['https://www.lapresse.tn/feed/'],
+    feeds: { top: ['https://www.lapresse.tn/feed/'] },
     authority: 10,
   },
   {
@@ -2948,7 +2977,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TN',
     language: 'fr',
-    feedUrls: ['https://www.mosaiquefm.net/fr/rss'],
+    feeds: { top: ['https://www.mosaiquefm.net/fr/rss'] },
     authority: 9,
   },
   {
@@ -2957,7 +2986,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TN',
     language: 'fr',
-    feedUrls: ['https://www.businessnews.com.tn/feed'],
+    feeds: { top: ['https://www.businessnews.com.tn/feed'] },
     authority: 8,
   },
   {
@@ -2966,7 +2995,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TN',
     language: 'fr',
-    feedUrls: ['https://www.webdo.tn/fr/feed/'],
+    feeds: { top: ['https://www.webdo.tn/fr/feed/'] },
     authority: 7,
   },
   {
@@ -2975,7 +3004,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TN',
     language: 'fr',
-    feedUrls: ['https://www.realites.com.tn/fr/feed/'],
+    feeds: { top: ['https://www.realites.com.tn/fr/feed/'] },
     authority: 7,
   },
   {
@@ -2984,7 +3013,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TN',
     language: 'fr',
-    feedUrls: ['https://www.leaders.com.tn/rss'],
+    feeds: { top: ['https://www.leaders.com.tn/rss'] },
     authority: 7,
   },
   // Arabic-language press (tokenized by arabicTokens in normalize/text.ts).
@@ -2996,7 +3025,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EG',
     language: 'ar',
-    feedUrls: ['https://www.almasryalyoum.com/rss/rssfeeds'],
+    feeds: { top: ['https://www.almasryalyoum.com/rss/rssfeeds'] },
     authority: 10,
   },
   {
@@ -3005,7 +3034,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EG',
     language: 'ar',
-    feedUrls: ['https://www.shorouknews.com/egypt/rss'],
+    feeds: { top: ['https://www.shorouknews.com/egypt/rss'] },
     authority: 9,
   },
   {
@@ -3014,7 +3043,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EG',
     language: 'ar',
-    feedUrls: ['https://www.elbalad.news/rss.aspx'],
+    feeds: { top: ['https://www.elbalad.news/rss.aspx'] },
     authority: 7,
   },
   {
@@ -3023,7 +3052,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EG',
     language: 'ar',
-    feedUrls: ['https://www.vetogate.com/rss.aspx'],
+    feeds: { top: ['https://www.vetogate.com/rss.aspx'] },
     authority: 7,
   },
   {
@@ -3032,7 +3061,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EG',
     language: 'ar',
-    feedUrls: ['https://www.albawabhnews.com/rss.aspx'],
+    feeds: { top: ['https://www.albawabhnews.com/rss.aspx'] },
     authority: 6,
   },
   // Saudi Arabia: Sabq and Al Arabiya return 403. Asharq Al-Awsat is pan-Arab but Saudi-owned.
@@ -3042,7 +3071,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SA',
     language: 'ar',
-    feedUrls: ['https://www.okaz.com.sa/rssFeed/0'],
+    feeds: { top: ['https://www.okaz.com.sa/rssFeed/0'] },
     authority: 9,
   },
   {
@@ -3051,7 +3080,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SA',
     language: 'ar',
-    feedUrls: ['https://aawsat.com/feed'],
+    feeds: { top: ['https://aawsat.com/feed'] },
     authority: 10,
   },
   {
@@ -3060,7 +3089,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SA',
     language: 'ar',
-    feedUrls: ['https://www.alwatan.com.sa/rssFeed/1'],
+    feeds: { top: ['https://www.alwatan.com.sa/rssFeed/1'] },
     authority: 8,
   },
   {
@@ -3069,7 +3098,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SA',
     language: 'ar',
-    feedUrls: ['https://www.al-madina.com/rssFeed/1'],
+    feeds: { top: ['https://www.al-madina.com/rssFeed/1'] },
     authority: 7,
   },
   // Lebanon: Al-Akhbar and Al-Joumhouria return 403; Al Jadeed serves HTML.
@@ -3079,7 +3108,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LB',
     language: 'ar',
-    feedUrls: ['https://www.annahar.com/rss'],
+    feeds: { top: ['https://www.annahar.com/rss'] },
     authority: 10,
   },
   {
@@ -3088,7 +3117,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LB',
     language: 'ar',
-    feedUrls: ['https://www.lbcgroup.tv/Rss/latest-news/ar'],
+    feeds: { top: ['https://www.lbcgroup.tv/Rss/latest-news/ar'] },
     authority: 9,
   },
   {
@@ -3097,7 +3126,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LB',
     language: 'ar',
-    feedUrls: ['https://www.almodon.com/rss'],
+    feeds: { top: ['https://www.almodon.com/rss'] },
     authority: 8,
   },
   // Venezuela. Efecto Cocuyo returns 403.
@@ -3107,7 +3136,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VE',
     language: 'es',
-    feedUrls: ['https://www.elnacional.com/feed/'],
+    feeds: { top: ['https://www.elnacional.com/feed/'] },
     authority: 10,
   },
   {
@@ -3116,7 +3145,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VE',
     language: 'es',
-    feedUrls: ['https://ultimasnoticias.com.ve/feed/'],
+    feeds: { top: ['https://ultimasnoticias.com.ve/feed/'] },
     authority: 8,
   },
   {
@@ -3125,7 +3154,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VE',
     language: 'es',
-    feedUrls: ['https://talcualdigital.com/feed/'],
+    feeds: { top: ['https://talcualdigital.com/feed/'] },
     authority: 8,
   },
   {
@@ -3134,7 +3163,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VE',
     language: 'es',
-    feedUrls: ['https://elpitazo.net/feed/'],
+    feeds: { top: ['https://elpitazo.net/feed/'] },
     authority: 8,
   },
   {
@@ -3143,7 +3172,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VE',
     language: 'es',
-    feedUrls: ['https://cronica.uno/feed/'],
+    feeds: { top: ['https://cronica.uno/feed/'] },
     authority: 7,
   },
   // Guatemala. Soy502 is malformed beyond repair; AGN returns 403; Plaza Pública and Publinews 404.
@@ -3153,7 +3182,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GT',
     language: 'es',
-    feedUrls: ['https://www.prensalibre.com/feed/'],
+    feeds: { top: ['https://www.prensalibre.com/feed/'] },
     authority: 10,
   },
   {
@@ -3162,7 +3191,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GT',
     language: 'es',
-    feedUrls: ['https://republica.gt/feed'],
+    feeds: { top: ['https://republica.gt/feed'] },
     authority: 8,
   },
   {
@@ -3171,7 +3200,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GT',
     language: 'es',
-    feedUrls: ['https://lahora.gt/feed/'],
+    feeds: { top: ['https://lahora.gt/feed/'] },
     authority: 8,
   },
   {
@@ -3180,7 +3209,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GT',
     language: 'es',
-    feedUrls: ['https://emisorasunidas.com/feed/'],
+    feeds: { top: ['https://emisorasunidas.com/feed/'] },
     authority: 6,
   },
   // Dominican Republic. Listín Diario 404; El Caribe, CDN and El Nuevo Diario return 403; Hoy unreachable.
@@ -3190,7 +3219,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DO',
     language: 'es',
-    feedUrls: ['https://www.diariolibre.com/rss/portada.xml'],
+    feeds: { top: ['https://www.diariolibre.com/rss/portada.xml'] },
     authority: 10,
   },
   {
@@ -3199,7 +3228,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DO',
     language: 'es',
-    feedUrls: ['https://eldia.com.do/feed/'],
+    feeds: { top: ['https://eldia.com.do/feed/'] },
     authority: 8,
   },
   {
@@ -3208,7 +3237,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DO',
     language: 'es',
-    feedUrls: ['https://n.com.do/feed/'],
+    feeds: { top: ['https://n.com.do/feed/'] },
     authority: 7,
   },
   // Ecuador. Primicias is malformed beyond repair; GK returns 403; Expreso, El Telégrafo and La Hora 404.
@@ -3218,7 +3247,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EC',
     language: 'es',
-    feedUrls: ['https://www.eluniverso.com/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.eluniverso.com/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 10,
   },
   {
@@ -3227,7 +3256,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EC',
     language: 'es',
-    feedUrls: ['https://www.elcomercio.com/feed/'],
+    feeds: { top: ['https://www.elcomercio.com/feed/'] },
     authority: 9,
   },
   {
@@ -3236,7 +3265,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'EC',
     language: 'es',
-    feedUrls: ['https://elmercurio.com.ec/feed/'],
+    feeds: { top: ['https://elmercurio.com.ec/feed/'] },
     authority: 7,
   },
   // Costa Rica. La Nación, CRHoy, Amelia Rueda and El Financiero 404; Diario Extra returns 403.
@@ -3247,7 +3276,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CR',
     language: 'es',
-    feedUrls: ['https://semanariouniversidad.com/feed/'],
+    feeds: { top: ['https://semanariouniversidad.com/feed/'] },
     authority: 9,
   },
   {
@@ -3256,7 +3285,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CR',
     language: 'es',
-    feedUrls: ['https://delfino.cr/feed'],
+    feeds: { top: ['https://delfino.cr/feed'] },
     authority: 8,
   },
   {
@@ -3265,7 +3294,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CR',
     language: 'es',
-    feedUrls: ['https://observador.cr/feed/'],
+    feeds: { top: ['https://observador.cr/feed/'] },
     authority: 7,
   },
   {
@@ -3274,7 +3303,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CR',
     language: 'es',
-    feedUrls: ['https://www.elmundo.cr/feed/'],
+    feeds: { top: ['https://www.elmundo.cr/feed/'] },
     authority: 7,
   },
   // Senegal. Sud Quotidien unreachable. Leral skipped: it reprints other outlets' copy (Le Soleil).
@@ -3284,7 +3313,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SN',
     language: 'fr',
-    feedUrls: ['https://aps.sn/feed/'],
+    feeds: { top: ['https://aps.sn/feed/'] },
     authority: 10,
   },
   {
@@ -3293,7 +3322,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SN',
     language: 'fr',
-    feedUrls: ['https://lesoleil.sn/feed/'],
+    feeds: { top: ['https://lesoleil.sn/feed/'] },
     authority: 9,
   },
   // Replaces Le Quotidien: lequotidien.sn returns 403 to bots since 2026-10-06.
@@ -3303,7 +3332,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SN',
     language: 'fr',
-    feedUrls: ['https://www.seneplus.com/rss.xml'],
+    feeds: { top: ['https://www.seneplus.com/rss.xml'] },
     authority: 7,
   },
   {
@@ -3312,7 +3341,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SN',
     language: 'fr',
-    feedUrls: ['https://www.dakaractu.com/xml/syndication.rss'],
+    feeds: { top: ['https://www.dakaractu.com/xml/syndication.rss'] },
     authority: 8,
   },
   {
@@ -3321,7 +3350,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SN',
     language: 'fr',
-    feedUrls: ['https://www.pressafrik.com/xml/syndication.rss'],
+    feeds: { top: ['https://www.pressafrik.com/xml/syndication.rss'] },
     authority: 7,
   },
   {
@@ -3330,7 +3359,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SN',
     language: 'fr',
-    feedUrls: ['https://emedia.sn/feed/'],
+    feeds: { top: ['https://emedia.sn/feed/'] },
     authority: 7,
   },
   {
@@ -3339,7 +3368,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SN',
     language: 'fr',
-    feedUrls: ['https://senego.com/feed'],
+    feeds: { top: ['https://senego.com/feed'] },
     authority: 6,
   },
   // Côte d'Ivoire. Fraternité Matin and 7info 404.
@@ -3349,7 +3378,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CI',
     language: 'fr',
-    feedUrls: ['https://www.aip.ci/feed/'],
+    feeds: { top: ['https://www.aip.ci/feed/'] },
     authority: 10,
   },
   {
@@ -3358,7 +3387,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CI',
     language: 'fr',
-    feedUrls: ['https://www.linfodrome.com/rss'],
+    feeds: { top: ['https://www.linfodrome.com/rss'] },
     authority: 8,
   },
   {
@@ -3367,7 +3396,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CI',
     language: 'fr',
-    feedUrls: ['https://www.lintelligentdabidjan.info/news/feed/'],
+    feeds: { top: ['https://www.lintelligentdabidjan.info/news/feed/'] },
     authority: 7,
   },
   {
@@ -3376,7 +3405,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CI',
     language: 'fr',
-    feedUrls: ['https://www.connectionivoirienne.net/feed/'],
+    feeds: { top: ['https://www.connectionivoirienne.net/feed/'] },
     authority: 7,
   },
   {
@@ -3385,7 +3414,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CI',
     language: 'fr',
-    feedUrls: ['https://lebanco.net/feed/'],
+    feeds: { top: ['https://lebanco.net/feed/'] },
     authority: 6,
   },
   // Burkina Faso. Sidwaya unreachable; AIB 404; L'Observateur Paalga malformed beyond repair.
@@ -3395,7 +3424,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BF',
     language: 'fr',
-    feedUrls: ['https://lefaso.net/spip.php?page=backend'],
+    feeds: { top: ['https://lefaso.net/spip.php?page=backend'] },
     authority: 10,
   },
   {
@@ -3404,7 +3433,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BF',
     language: 'fr',
-    feedUrls: ['https://www.burkina24.com/feed/'],
+    feeds: { top: ['https://www.burkina24.com/feed/'] },
     authority: 8,
   },
   {
@@ -3413,7 +3442,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BF',
     language: 'fr',
-    feedUrls: ['https://www.wakatsera.com/feed/'],
+    feeds: { top: ['https://www.wakatsera.com/feed/'] },
     authority: 7,
   },
   // Mali. Maliweb returns 403.
@@ -3423,7 +3452,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ML',
     language: 'fr',
-    feedUrls: ['https://www.studiotamani.org/feed'],
+    feeds: { top: ['https://www.studiotamani.org/feed'] },
     authority: 9,
   },
   {
@@ -3432,7 +3461,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ML',
     language: 'fr',
-    feedUrls: ['https://www.journaldumali.com/feed/'],
+    feeds: { top: ['https://www.journaldumali.com/feed/'] },
     authority: 9,
   },
   {
@@ -3441,7 +3470,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ML',
     language: 'fr',
-    feedUrls: ['https://maliactu.net/feed/'],
+    feeds: { top: ['https://maliactu.net/feed/'] },
     authority: 7,
   },
   {
@@ -3450,7 +3479,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ML',
     language: 'fr',
-    feedUrls: ['https://bamada.net/feed'],
+    feeds: { top: ['https://bamada.net/feed'] },
     authority: 6,
   },
   // Benin. Banouto 404.
@@ -3460,7 +3489,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BJ',
     language: 'fr',
-    feedUrls: ['https://lanouvelletribune.info/feed/'],
+    feeds: { top: ['https://lanouvelletribune.info/feed/'] },
     authority: 9,
   },
   {
@@ -3469,7 +3498,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BJ',
     language: 'fr',
-    feedUrls: ['https://www.24haubenin.info/spip.php?page=backend'],
+    feeds: { top: ['https://www.24haubenin.info/spip.php?page=backend'] },
     authority: 8,
   },
   {
@@ -3478,7 +3507,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BJ',
     language: 'fr',
-    feedUrls: ['https://beninwebtv.com/feed/'],
+    feeds: { top: ['https://beninwebtv.com/feed/'] },
     authority: 7,
   },
   {
@@ -3487,7 +3516,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BJ',
     language: 'fr',
-    feedUrls: ['https://fraternitebj.info/feed'],
+    feeds: { top: ['https://fraternitebj.info/feed'] },
     authority: 7,
   },
   // Madagascar. L'Express de Madagascar malformed beyond repair.
@@ -3497,7 +3526,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MG',
     language: 'fr',
-    feedUrls: ['https://midi-madagasikara.mg/feed/'],
+    feeds: { top: ['https://midi-madagasikara.mg/feed/'] },
     authority: 9,
   },
   {
@@ -3506,7 +3535,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MG',
     language: 'fr',
-    feedUrls: ['https://www.newsmada.com/feed/'],
+    feeds: { top: ['https://www.newsmada.com/feed/'] },
     authority: 8,
   },
   {
@@ -3515,7 +3544,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MG',
     language: 'fr',
-    feedUrls: ['https://www.madagascar-tribune.com/spip.php?page=backend'],
+    feeds: { top: ['https://www.madagascar-tribune.com/spip.php?page=backend'] },
     authority: 8,
   },
   {
@@ -3524,7 +3553,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MG',
     language: 'fr',
-    feedUrls: ['https://www.2424.mg/feed/'],
+    feeds: { top: ['https://www.2424.mg/feed/'] },
     authority: 7,
   },
   // Zambia. ZNBC unreachable.
@@ -3534,7 +3563,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZM',
     language: 'en',
-    feedUrls: ['https://www.daily-mail.co.zm/feed/'],
+    feeds: { top: ['https://www.daily-mail.co.zm/feed/'] },
     authority: 9,
   },
   {
@@ -3543,7 +3572,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZM',
     language: 'en',
-    feedUrls: ['https://www.times.co.zm/?feed=rss2'],
+    feeds: { top: ['https://www.times.co.zm/?feed=rss2'] },
     authority: 9,
   },
   {
@@ -3552,7 +3581,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZM',
     language: 'en',
-    feedUrls: ['https://diggers.news/feed/'],
+    feeds: { top: ['https://diggers.news/feed/'] },
     authority: 8,
   },
   {
@@ -3561,7 +3590,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZM',
     language: 'en',
-    feedUrls: ['https://www.lusakatimes.com/feed/'],
+    feeds: { top: ['https://www.lusakatimes.com/feed/'] },
     authority: 7,
   },
   {
@@ -3570,7 +3599,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ZM',
     language: 'en',
-    feedUrls: ['https://www.mwebantu.com/feed/'],
+    feeds: { top: ['https://www.mwebantu.com/feed/'] },
     authority: 6,
   },
   // Malawi.
@@ -3580,7 +3609,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MW',
     language: 'en',
-    feedUrls: ['https://mwnation.com/feed/'],
+    feeds: { top: ['https://mwnation.com/feed/'] },
     authority: 9,
   },
   {
@@ -3589,7 +3618,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MW',
     language: 'en',
-    feedUrls: ['https://times.mw/feed/'],
+    feeds: { top: ['https://times.mw/feed/'] },
     authority: 9,
   },
   {
@@ -3598,7 +3627,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MW',
     language: 'en',
-    feedUrls: ['https://www.nyasatimes.com/feed/'],
+    feeds: { top: ['https://www.nyasatimes.com/feed/'] },
     authority: 7,
   },
   {
@@ -3607,7 +3636,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MW',
     language: 'en',
-    feedUrls: ['https://malawi24.com/feed/'],
+    feeds: { top: ['https://malawi24.com/feed/'] },
     authority: 7,
   },
   // Sri Lanka. Ada Derana items are undated; Daily Mirror and Daily FT malformed beyond repair.
@@ -3617,7 +3646,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LK',
     language: 'en',
-    feedUrls: ['https://island.lk/feed/'],
+    feeds: { top: ['https://island.lk/feed/'] },
     authority: 9,
   },
   {
@@ -3626,7 +3655,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LK',
     language: 'en',
-    feedUrls: ['https://economynext.com/feed/'],
+    feeds: { top: ['https://economynext.com/feed/'] },
     authority: 8,
   },
   {
@@ -3635,7 +3664,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LK',
     language: 'en',
-    feedUrls: ['https://www.newswire.lk/feed/'],
+    feeds: { top: ['https://www.newswire.lk/feed/'] },
     authority: 7,
   },
   // Slovenia. Dnevnik and Mladina 404.
@@ -3645,7 +3674,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SI',
     language: 'sl',
-    feedUrls: ['https://www.rtvslo.si/feeds/00.xml'],
+    feeds: { top: ['https://www.rtvslo.si/feeds/00.xml'] },
     authority: 10,
   },
   {
@@ -3654,7 +3683,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SI',
     language: 'sl',
-    feedUrls: ['https://www.delo.si/rss'],
+    feeds: { top: ['https://www.delo.si/rss'] },
     authority: 9,
   },
   {
@@ -3663,7 +3692,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SI',
     language: 'sl',
-    feedUrls: ['https://www.24ur.com/rss'],
+    feeds: { top: ['https://www.24ur.com/rss'] },
     authority: 9,
   },
   {
@@ -3672,7 +3701,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SI',
     language: 'sl',
-    feedUrls: ['https://n1info.si/feed/'],
+    feeds: { top: ['https://n1info.si/feed/'] },
     authority: 8,
   },
   {
@@ -3681,7 +3710,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SI',
     language: 'sl',
-    feedUrls: ['https://siol.net/feeds/latest'],
+    feeds: { top: ['https://siol.net/feeds/latest'] },
     authority: 8,
   },
   {
@@ -3690,7 +3719,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SI',
     language: 'sl',
-    feedUrls: ['https://vecer.com/rss'],
+    feeds: { top: ['https://vecer.com/rss'] },
     authority: 8,
   },
   {
@@ -3699,7 +3728,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SI',
     language: 'sl',
-    feedUrls: ['https://www.zurnal24.si/feeds/latest'],
+    feeds: { top: ['https://www.zurnal24.si/feeds/latest'] },
     authority: 7,
   },
   {
@@ -3708,7 +3737,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SI',
     language: 'sl',
-    feedUrls: ['https://nova24tv.si/feed/'],
+    feeds: { top: ['https://nova24tv.si/feed/'] },
     authority: 6,
   },
   // Bosnia and Herzegovina. Nezavisne novine and Hayat return 403; Oslobođenje and Bljesak 404.
@@ -3718,7 +3747,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BA',
     language: 'bs',
-    feedUrls: ['https://www.klix.ba/rss'],
+    feeds: { top: ['https://www.klix.ba/rss'] },
     authority: 10,
   },
   {
@@ -3727,7 +3756,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BA',
     language: 'bs',
-    feedUrls: ['https://n1info.ba/feed/'],
+    feeds: { top: ['https://n1info.ba/feed/'] },
     authority: 9,
   },
   {
@@ -3736,7 +3765,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BA',
     language: 'bs',
-    feedUrls: ['https://avaz.ba/rss'],
+    feeds: { top: ['https://avaz.ba/rss'] },
     authority: 8,
   },
   {
@@ -3745,7 +3774,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BA',
     language: 'bs',
-    feedUrls: ['https://radiosarajevo.ba/rss'],
+    feeds: { top: ['https://radiosarajevo.ba/rss'] },
     authority: 8,
   },
   {
@@ -3754,7 +3783,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BA',
     language: 'bs',
-    feedUrls: ['https://www.fokus.ba/feed/'],
+    feeds: { top: ['https://www.fokus.ba/feed/'] },
     authority: 7,
   },
   {
@@ -3763,7 +3792,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BA',
     language: 'bs',
-    feedUrls: ['https://istraga.ba/feed/'],
+    feeds: { top: ['https://istraga.ba/feed/'] },
     authority: 6,
   },
   // Iceland. Mannlíf items are undated.
@@ -3773,7 +3802,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IS',
     language: 'is',
-    feedUrls: ['https://www.ruv.is/rss/frettir'],
+    feeds: { top: ['https://www.ruv.is/rss/frettir'] },
     authority: 10,
   },
   {
@@ -3782,7 +3811,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IS',
     language: 'is',
-    feedUrls: ['https://www.mbl.is/feeds/innlent/'],
+    feeds: { top: ['https://www.mbl.is/feeds/innlent/'] },
     authority: 9,
   },
   {
@@ -3791,7 +3820,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IS',
     language: 'is',
-    feedUrls: ['https://www.visir.is/rss/allt'],
+    feeds: { top: ['https://www.visir.is/rss/allt'] },
     authority: 9,
   },
   {
@@ -3800,7 +3829,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IS',
     language: 'is',
-    feedUrls: ['https://heimildin.is/rss/'],
+    feeds: { top: ['https://heimildin.is/rss/'] },
     authority: 8,
   },
   {
@@ -3809,7 +3838,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IS',
     language: 'is',
-    feedUrls: ['https://www.dv.is/feed/'],
+    feeds: { top: ['https://www.dv.is/feed/'] },
     authority: 7,
   },
   {
@@ -3818,7 +3847,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IS',
     language: 'is',
-    feedUrls: ['https://vb.is/rss'],
+    feeds: { top: ['https://vb.is/rss'] },
     authority: 7,
   },
   // Cyprus. Kathimerini Cyprus serves HTML; Alpha News and Reporter 404; in-cyprus returns 403.
@@ -3828,7 +3857,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CY',
     language: 'el',
-    feedUrls: ['https://www.philenews.com/feed/'],
+    feeds: { top: ['https://www.philenews.com/feed/'] },
     authority: 10,
   },
   {
@@ -3837,7 +3866,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CY',
     language: 'el',
-    feedUrls: ['https://politis.com.cy/feed/'],
+    feeds: { top: ['https://politis.com.cy/feed/'] },
     authority: 9,
   },
   {
@@ -3846,7 +3875,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CY',
     language: 'el',
-    feedUrls: ['https://www.sigmalive.com/rss'],
+    feeds: { top: ['https://www.sigmalive.com/rss'] },
     authority: 8,
   },
   {
@@ -3855,7 +3884,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CY',
     language: 'el',
-    feedUrls: ['https://www.omegalive.com.cy/rss'],
+    feeds: { top: ['https://www.omegalive.com.cy/rss'] },
     authority: 7,
   },
   {
@@ -3864,7 +3893,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CY',
     language: 'en',
-    feedUrls: ['https://cyprus-mail.com/feed/'],
+    feeds: { top: ['https://cyprus-mail.com/feed/'] },
     authority: 9,
   },
   // Luxembourg: one outlet per language, plus Le Quotidien. RTL serves HTML; L'essentiel and Tageblatt 404.
@@ -3874,7 +3903,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LU',
     language: 'de',
-    feedUrls: ['https://www.wort.lu/rss'],
+    feeds: { top: ['https://www.wort.lu/rss'] },
     authority: 10,
   },
   {
@@ -3883,7 +3912,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LU',
     language: 'en',
-    feedUrls: ['https://www.luxtimes.lu/rss'],
+    feeds: { top: ['https://www.luxtimes.lu/rss'] },
     authority: 8,
   },
   {
@@ -3892,7 +3921,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LU',
     language: 'fr',
-    feedUrls: ['https://lequotidien.lu/feed/'],
+    feeds: { top: ['https://lequotidien.lu/feed/'] },
     authority: 8,
   },
   {
@@ -3901,7 +3930,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LU',
     language: 'fr',
-    feedUrls: ['https://www.virgule.lu/rss'],
+    feeds: { top: ['https://www.virgule.lu/rss'] },
     authority: 7,
   },
   // Moldova. IPN returns 403; Agora, Deschide and Stiri.md 404; Moldpres 500; TV8 unreachable.
@@ -3911,7 +3940,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MD',
     language: 'ro',
-    feedUrls: ['https://www.zdg.md/feed/'],
+    feeds: { top: ['https://www.zdg.md/feed/'] },
     authority: 9,
   },
   {
@@ -3920,7 +3949,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MD',
     language: 'ro',
-    feedUrls: ['https://newsmaker.md/ro/feed/'],
+    feeds: { top: ['https://newsmaker.md/ro/feed/'] },
     authority: 8,
   },
   {
@@ -3929,7 +3958,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MD',
     language: 'ro',
-    feedUrls: ['https://unimedia.info/rss/news.xml'],
+    feeds: { top: ['https://unimedia.info/rss/news.xml'] },
     authority: 8,
   },
   // Russia: wire agencies, business dailies and two outlets publishing from exile (Meduza, Novaya Gazeta Europe).
@@ -3940,7 +3969,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RU',
     language: 'ru',
-    feedUrls: ['https://tass.ru/rss/v2.xml'],
+    feeds: { top: ['https://tass.ru/rss/v2.xml'] },
     authority: 10,
   },
   {
@@ -3949,7 +3978,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RU',
     language: 'ru',
-    feedUrls: ['https://www.interfax.ru/rss.asp'],
+    feeds: { top: ['https://www.interfax.ru/rss.asp'] },
     authority: 10,
   },
   {
@@ -3958,7 +3987,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RU',
     language: 'ru',
-    feedUrls: ['https://www.kommersant.ru/RSS/news.xml'],
+    feeds: { top: ['https://www.kommersant.ru/RSS/news.xml'] },
     authority: 9,
   },
   {
@@ -3967,7 +3996,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RU',
     language: 'ru',
-    feedUrls: ['https://rssexport.rbc.ru/rbcnews/news/30/full.rss'],
+    feeds: { top: ['https://rssexport.rbc.ru/rbcnews/news/30/full.rss'] },
     authority: 9,
   },
   {
@@ -3976,7 +4005,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RU',
     language: 'ru',
-    feedUrls: ['https://www.vedomosti.ru/rss/news'],
+    feeds: { top: ['https://www.vedomosti.ru/rss/news'] },
     authority: 9,
   },
   {
@@ -3985,7 +4014,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RU',
     language: 'ru',
-    feedUrls: ['https://meduza.io/rss/all'],
+    feeds: { top: ['https://meduza.io/rss/all'] },
     authority: 8,
   },
   {
@@ -3994,7 +4023,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RU',
     language: 'ru',
-    feedUrls: ['https://novayagazeta.eu/feed/rss'],
+    feeds: { top: ['https://novayagazeta.eu/feed/rss'] },
     authority: 8,
   },
   // Kazakhstan (Russian-language editions). Zakon.kz and Vlast 404; Informburo returns 403; Orda's feed is stale.
@@ -4004,7 +4033,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KZ',
     language: 'ru',
-    feedUrls: ['https://www.inform.kz/rss/ru.xml'],
+    feeds: { top: ['https://www.inform.kz/rss/ru.xml'] },
     authority: 10,
   },
   {
@@ -4013,7 +4042,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KZ',
     language: 'ru',
-    feedUrls: ['https://tengrinews.kz/news.rss'],
+    feeds: { top: ['https://tengrinews.kz/news.rss'] },
     authority: 9,
   },
   {
@@ -4022,7 +4051,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KZ',
     language: 'ru',
-    feedUrls: ['https://www.nur.kz/rss/all.rss'],
+    feeds: { top: ['https://www.nur.kz/rss/all.rss'] },
     authority: 8,
   },
   {
@@ -4031,7 +4060,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KZ',
     language: 'ru',
-    feedUrls: ['https://kz.kursiv.media/feed/'],
+    feeds: { top: ['https://kz.kursiv.media/feed/'] },
     authority: 8,
   },
   // Kosovo. Kallxo returns 403; Periskopi 404. Insajderi skipped: its titles copy Telegrafi's.
@@ -4041,7 +4070,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'XK',
     language: 'sq',
-    feedUrls: ['https://www.koha.net/rss'],
+    feeds: { top: ['https://www.koha.net/rss'] },
     authority: 10,
   },
   {
@@ -4050,7 +4079,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'XK',
     language: 'sq',
-    feedUrls: ['https://telegrafi.com/feed/'],
+    feeds: { top: ['https://telegrafi.com/feed/'] },
     authority: 8,
   },
   // Replaces Gazeta Express: gazetaexpress.com returns 403 to bots since 2026-10-06.
@@ -4060,7 +4089,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'XK',
     language: 'sq',
-    feedUrls: ['https://www.dukagjini.com/feed/'],
+    feeds: { top: ['https://www.dukagjini.com/feed/'] },
     authority: 7,
   },
   // North Macedonia. MIA 404; Sloboden Pečat and Fokus return 403.
@@ -4070,7 +4099,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MK',
     language: 'mk',
-    feedUrls: ['https://novamakedonija.com.mk/feed/'],
+    feeds: { top: ['https://novamakedonija.com.mk/feed/'] },
     authority: 9,
   },
   {
@@ -4079,7 +4108,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MK',
     language: 'mk',
-    feedUrls: ['https://sitel.com.mk/rss.xml'],
+    feeds: { top: ['https://sitel.com.mk/rss.xml'] },
     authority: 8,
   },
   {
@@ -4088,7 +4117,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MK',
     language: 'mk',
-    feedUrls: ['https://360stepeni.mk/feed/'],
+    feeds: { top: ['https://360stepeni.mk/feed/'] },
     authority: 8,
   },
   {
@@ -4097,7 +4126,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MK',
     language: 'mk',
-    feedUrls: ['https://meta.mk/feed/'],
+    feeds: { top: ['https://meta.mk/feed/'] },
     authority: 8,
   },
   {
@@ -4106,7 +4135,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MK',
     language: 'mk',
-    feedUrls: ['https://libertas.mk/feed/'],
+    feeds: { top: ['https://libertas.mk/feed/'] },
     authority: 7,
   },
   {
@@ -4115,7 +4144,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MK',
     language: 'mk',
-    feedUrls: ['https://kurir.mk/feed/'],
+    feeds: { top: ['https://kurir.mk/feed/'] },
     authority: 7,
   },
   {
@@ -4124,7 +4153,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MK',
     language: 'mk',
-    feedUrls: ['https://plusinfo.mk/rss'],
+    feeds: { top: ['https://plusinfo.mk/rss'] },
     authority: 6,
   },
   // Indonesia. Detik unreachable; Tribunnews returns 403; Suara and Merdeka 404; Tempo's feed is stale.
@@ -4134,7 +4163,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ID',
     language: 'id',
-    feedUrls: ['https://www.antaranews.com/rss/terkini.xml'],
+    feeds: { top: ['https://www.antaranews.com/rss/terkini.xml'] },
     authority: 10,
   },
   {
@@ -4143,7 +4172,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ID',
     language: 'id',
-    feedUrls: ['https://www.cnnindonesia.com/nasional/rss'],
+    feeds: { top: ['https://www.cnnindonesia.com/nasional/rss'] },
     authority: 9,
   },
   {
@@ -4152,7 +4181,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ID',
     language: 'id',
-    feedUrls: ['https://www.republika.co.id/rss'],
+    feeds: { top: ['https://www.republika.co.id/rss'] },
     authority: 8,
   },
   {
@@ -4161,7 +4190,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ID',
     language: 'id',
-    feedUrls: ['https://feed.liputan6.com/rss/news'],
+    feeds: { top: ['https://feed.liputan6.com/rss/news'] },
     authority: 8,
   },
   {
@@ -4170,7 +4199,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ID',
     language: 'id',
-    feedUrls: ['https://www.cnbcindonesia.com/news/rss'],
+    feeds: { top: ['https://www.cnbcindonesia.com/news/rss'] },
     authority: 8,
   },
   {
@@ -4179,7 +4208,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ID',
     language: 'id',
-    feedUrls: ['https://nasional.sindonews.com/rss'],
+    feeds: { top: ['https://nasional.sindonews.com/rss'] },
     authority: 7,
   },
   {
@@ -4188,7 +4217,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ID',
     language: 'id',
-    feedUrls: ['https://sindikasi.okezone.com/index.php/rss/1/RSS2.0'],
+    feeds: { top: ['https://sindikasi.okezone.com/index.php/rss/1/RSS2.0'] },
     authority: 7,
   },
   // Vietnam (current-affairs sections). VnExpress 404; Lao Động not RSS; Dân Trí stale.
@@ -4199,7 +4228,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VN',
     language: 'vi',
-    feedUrls: ['https://tuoitre.vn/rss/thoi-su.rss'],
+    feeds: { top: ['https://tuoitre.vn/rss/thoi-su.rss'] },
     authority: 10,
   },
   {
@@ -4208,7 +4237,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VN',
     language: 'vi',
-    feedUrls: ['https://thanhnien.vn/rss/thoi-su.rss'],
+    feeds: { top: ['https://thanhnien.vn/rss/thoi-su.rss'] },
     authority: 9,
   },
   {
@@ -4217,7 +4246,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VN',
     language: 'vi',
-    feedUrls: ['https://nhandan.vn/rss/chinh-tri.rss'],
+    feeds: { top: ['https://nhandan.vn/rss/chinh-tri.rss'] },
     authority: 9,
   },
   {
@@ -4226,7 +4255,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VN',
     language: 'vi',
-    feedUrls: ['https://vietnamnet.vn/rss/thoi-su.rss'],
+    feeds: { top: ['https://vietnamnet.vn/rss/thoi-su.rss'] },
     authority: 8,
   },
   {
@@ -4235,7 +4264,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VN',
     language: 'vi',
-    feedUrls: ['https://tienphong.vn/rss/xa-hoi.rss'],
+    feeds: { top: ['https://tienphong.vn/rss/xa-hoi.rss'] },
     authority: 8,
   },
   {
@@ -4244,7 +4273,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VN',
     language: 'vi',
-    feedUrls: ['https://vtcnews.vn/rss/thoi-su.rss'],
+    feeds: { top: ['https://vtcnews.vn/rss/thoi-su.rss'] },
     authority: 7,
   },
   // Taiwan (Traditional Chinese). CNA and Storm 404; China Times returns 403; UDN's feed is empty.
@@ -4254,7 +4283,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TW',
     language: 'zh',
-    feedUrls: ['https://news.ltn.com.tw/rss/all.xml'],
+    feeds: { top: ['https://news.ltn.com.tw/rss/all.xml'] },
     authority: 10,
   },
   {
@@ -4263,7 +4292,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TW',
     language: 'zh',
-    feedUrls: ['https://news.pts.org.tw/xml/newsfeed.xml'],
+    feeds: { top: ['https://news.pts.org.tw/xml/newsfeed.xml'] },
     authority: 9,
   },
   {
@@ -4272,7 +4301,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TW',
     language: 'zh',
-    feedUrls: ['https://feeds.feedburner.com/ettoday/realtime'],
+    feeds: { top: ['https://feeds.feedburner.com/ettoday/realtime'] },
     authority: 8,
   },
   // Hong Kong: Chinese-language press plus two English outlets. HK01 404; inmediahk returns 403.
@@ -4282,7 +4311,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HK',
     language: 'zh',
-    feedUrls: ['https://rthk.hk/rthk/news/rss/c_expressnews_clocal.xml'],
+    feeds: { top: ['https://rthk.hk/rthk/news/rss/c_expressnews_clocal.xml'] },
     authority: 10,
   },
   {
@@ -4291,7 +4320,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HK',
     language: 'zh',
-    feedUrls: ['https://news.mingpao.com/rss/ins/s00001.xml'],
+    feeds: { top: ['https://news.mingpao.com/rss/ins/s00001.xml'] },
     authority: 9,
   },
   {
@@ -4300,7 +4329,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HK',
     language: 'zh',
-    feedUrls: ['https://std.stheadline.com/rss'],
+    feeds: { top: ['https://std.stheadline.com/rss'] },
     authority: 8,
   },
   {
@@ -4309,7 +4338,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HK',
     language: 'en',
-    feedUrls: ['https://www.scmp.com/rss/2/feed'],
+    feeds: { top: ['https://www.scmp.com/rss/2/feed'] },
     authority: 9,
   },
   {
@@ -4318,7 +4347,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HK',
     language: 'en',
-    feedUrls: ['https://hongkongfp.com/feed/'],
+    feeds: { top: ['https://hongkongfp.com/feed/'] },
     authority: 8,
   },
   // Armenia. Armenpress and CivilNet return 403; Azatutyun's feed is not XML.
@@ -4328,7 +4357,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AM',
     language: 'hy',
-    feedUrls: ['https://news.am/arm/rss/'],
+    feeds: { top: ['https://news.am/arm/rss/'] },
     authority: 9,
   },
   {
@@ -4337,7 +4366,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AM',
     language: 'hy',
-    feedUrls: ['https://hetq.am/hy/rss'],
+    feeds: { top: ['https://hetq.am/hy/rss'] },
     authority: 9,
   },
   {
@@ -4346,7 +4375,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AM',
     language: 'hy',
-    feedUrls: ['https://www.aravot.am/feed/'],
+    feeds: { top: ['https://www.aravot.am/feed/'] },
     authority: 8,
   },
   {
@@ -4355,7 +4384,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AM',
     language: 'hy',
-    feedUrls: ['https://168.am/feed'],
+    feeds: { top: ['https://168.am/feed'] },
     authority: 8,
   },
   {
@@ -4364,7 +4393,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AM',
     language: 'hy',
-    feedUrls: ['https://factor.am/feed'],
+    feeds: { top: ['https://factor.am/feed'] },
     authority: 7,
   },
   // Azerbaijan, plus Trend's English feed. Oxu.az returns 403; APA's and Musavat's feeds don't parse.
@@ -4374,7 +4403,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AZ',
     language: 'az',
-    feedUrls: ['https://azertag.az/rss'],
+    feeds: { top: ['https://azertag.az/rss'] },
     authority: 10,
   },
   {
@@ -4383,7 +4412,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AZ',
     language: 'az',
-    feedUrls: ['https://report.az/rss/'],
+    feeds: { top: ['https://report.az/rss/'] },
     authority: 9,
   },
   {
@@ -4392,7 +4421,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AZ',
     language: 'az',
-    feedUrls: ['https://qafqazinfo.az/rss'],
+    feeds: { top: ['https://qafqazinfo.az/rss'] },
     authority: 7,
   },
   {
@@ -4401,7 +4430,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AZ',
     language: 'en',
-    feedUrls: ['https://www.trend.az/feeds/index.rss'],
+    feeds: { top: ['https://www.trend.az/feeds/index.rss'] },
     authority: 8,
   },
   // Uzbekistan: Uzbek (UzA in Cyrillic, Kun.uz and Daryo in Latin) and Russian-language outlets.
@@ -4411,7 +4440,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UZ',
     language: 'uz',
-    feedUrls: ['https://uza.uz/uz/rss'],
+    feeds: { top: ['https://uza.uz/uz/rss'] },
     authority: 10,
   },
   {
@@ -4420,7 +4449,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UZ',
     language: 'uz',
-    feedUrls: ['https://kun.uz/news/rss'],
+    feeds: { top: ['https://kun.uz/news/rss'] },
     authority: 9,
   },
   {
@@ -4429,7 +4458,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UZ',
     language: 'uz',
-    feedUrls: ['https://daryo.uz/feed/'],
+    feeds: { top: ['https://daryo.uz/feed/'] },
     authority: 8,
   },
   {
@@ -4438,7 +4467,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UZ',
     language: 'ru',
-    feedUrls: ['https://www.gazeta.uz/ru/rss/'],
+    feeds: { top: ['https://www.gazeta.uz/ru/rss/'] },
     authority: 9,
   },
   {
@@ -4447,7 +4476,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UZ',
     language: 'ru',
-    feedUrls: ['https://podrobno.uz/rss/'],
+    feeds: { top: ['https://podrobno.uz/rss/'] },
     authority: 7,
   },
   {
@@ -4456,7 +4485,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'UZ',
     language: 'ru',
-    feedUrls: ['https://www.spot.uz/ru/rss/'],
+    feeds: { top: ['https://www.spot.uz/ru/rss/'] },
     authority: 7,
   },
   // Iran: state and semi-official agencies, Tehran dailies and Iran International (London).
@@ -4467,7 +4496,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IR',
     language: 'fa',
-    feedUrls: ['https://www.irna.ir/rss'],
+    feeds: { top: ['https://www.irna.ir/rss'] },
     authority: 10,
   },
   {
@@ -4476,7 +4505,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IR',
     language: 'fa',
-    feedUrls: ['https://www.isna.ir/rss'],
+    feeds: { top: ['https://www.isna.ir/rss'] },
     authority: 9,
   },
   {
@@ -4485,7 +4514,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IR',
     language: 'fa',
-    feedUrls: ['https://www.mehrnews.com/rss'],
+    feeds: { top: ['https://www.mehrnews.com/rss'] },
     authority: 8,
   },
   {
@@ -4494,7 +4523,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IR',
     language: 'fa',
-    feedUrls: ['https://www.hamshahrionline.ir/rss'],
+    feeds: { top: ['https://www.hamshahrionline.ir/rss'] },
     authority: 8,
   },
   {
@@ -4503,7 +4532,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IR',
     language: 'fa',
-    feedUrls: ['https://www.khabaronline.ir/rss'],
+    feeds: { top: ['https://www.khabaronline.ir/rss'] },
     authority: 8,
   },
   {
@@ -4512,7 +4541,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IR',
     language: 'fa',
-    feedUrls: ['https://www.donya-e-eqtesad.com/fa/rss/allnews'],
+    feeds: { top: ['https://www.donya-e-eqtesad.com/fa/rss/allnews'] },
     authority: 8,
   },
   {
@@ -4521,7 +4550,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IR',
     language: 'fa',
-    feedUrls: ['https://www.entekhab.ir/fa/rss/allnews'],
+    feeds: { top: ['https://www.entekhab.ir/fa/rss/allnews'] },
     authority: 7,
   },
   {
@@ -4530,7 +4559,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IR',
     language: 'fa',
-    feedUrls: ['https://www.iranintl.com/fa/feed'],
+    feeds: { top: ['https://www.iranintl.com/fa/feed'] },
     authority: 8,
   },
   // Nepal. Kantipur and Naya Patrika 404; Setopati unreachable; Annapurna Post undated; Himal Khabar stale.
@@ -4540,7 +4569,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NP',
     language: 'ne',
-    feedUrls: ['https://onlinekhabar.com/feed'],
+    feeds: { top: ['https://onlinekhabar.com/feed'] },
     authority: 9,
   },
   {
@@ -4549,7 +4578,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NP',
     language: 'ne',
-    feedUrls: ['https://nagariknews.nagariknetwork.com/feed'],
+    feeds: { top: ['https://nagariknews.nagariknetwork.com/feed'] },
     authority: 9,
   },
   {
@@ -4558,7 +4587,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NP',
     language: 'ne',
-    feedUrls: ['https://ratopati.com/feed'],
+    feeds: { top: ['https://ratopati.com/feed'] },
     authority: 8,
   },
   {
@@ -4567,7 +4596,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NP',
     language: 'ne',
-    feedUrls: ['https://deshsanchar.com/feed/'],
+    feeds: { top: ['https://deshsanchar.com/feed/'] },
     authority: 7,
   },
   // Syria (Arabic). Enab Baladi and Al-Jumhuriya return 403; Al-Souria unreachable.
@@ -4577,7 +4606,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SY',
     language: 'ar',
-    feedUrls: ['https://sana.sy/?feed=rss2'],
+    feeds: { top: ['https://sana.sy/?feed=rss2'] },
     authority: 10,
   },
   {
@@ -4586,7 +4615,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SY',
     language: 'ar',
-    feedUrls: ['https://alwatan.sy/feed'],
+    feeds: { top: ['https://alwatan.sy/feed'] },
     authority: 8,
   },
   {
@@ -4595,7 +4624,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SY',
     language: 'ar',
-    feedUrls: ['https://www.syria.tv/rss.xml'],
+    feeds: { top: ['https://www.syria.tv/rss.xml'] },
     authority: 8,
   },
   {
@@ -4604,7 +4633,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SY',
     language: 'ar',
-    feedUrls: ['https://npasyria.com/feed/'],
+    feeds: { top: ['https://npasyria.com/feed/'] },
     authority: 7,
   },
   {
@@ -4613,7 +4642,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SY',
     language: 'ar',
-    feedUrls: ['https://www.halabtodaytv.net/feed'],
+    feeds: { top: ['https://www.halabtodaytv.net/feed'] },
     authority: 7,
   },
   {
@@ -4622,7 +4651,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SY',
     language: 'ar',
-    feedUrls: ['https://www.zamanalwsl.net/rss'],
+    feeds: { top: ['https://www.zamanalwsl.net/rss'] },
     authority: 7,
   },
   // Sudan (Arabic). Al-Rakoba and Sudan Akhbar return 403.
@@ -4632,7 +4661,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SD',
     language: 'ar',
-    feedUrls: ['https://sudantribune.net/feed/'],
+    feeds: { top: ['https://sudantribune.net/feed/'] },
     authority: 9,
   },
   {
@@ -4641,7 +4670,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SD',
     language: 'ar',
-    feedUrls: ['https://www.dabangasudan.org/ar/feed'],
+    feeds: { top: ['https://www.dabangasudan.org/ar/feed'] },
     authority: 8,
   },
   {
@@ -4650,7 +4679,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SD',
     language: 'ar',
-    feedUrls: ['https://www.altaghyeer.info/ar/feed/'],
+    feeds: { top: ['https://www.altaghyeer.info/ar/feed/'] },
     authority: 7,
   },
   {
@@ -4659,7 +4688,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SD',
     language: 'ar',
-    feedUrls: ['https://www.alnilin.com/feed'],
+    feeds: { top: ['https://www.alnilin.com/feed'] },
     authority: 7,
   },
   // Cuba: Granma (state) and two independent outlets. Cubadebate and Radio Rebelde unreachable;
@@ -4670,7 +4699,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CU',
     language: 'es',
-    feedUrls: ['https://www.granma.cu/feed'],
+    feeds: { top: ['https://www.granma.cu/feed'] },
     authority: 9,
   },
   {
@@ -4679,7 +4708,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CU',
     language: 'es',
-    feedUrls: ['https://www.14ymedio.com/rss/'],
+    feeds: { top: ['https://www.14ymedio.com/rss/'] },
     authority: 8,
   },
   {
@@ -4688,7 +4717,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CU',
     language: 'es',
-    feedUrls: ['https://diariodecuba.com/rss.xml'],
+    feeds: { top: ['https://diariodecuba.com/rss.xml'] },
     authority: 8,
   },
   // Puerto Rico. El Vocero and WAPA rate-limit (429); Metro 404; Telemundo's feed is empty.
@@ -4698,7 +4727,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PR',
     language: 'es',
-    feedUrls: ['https://www.elnuevodia.com/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.elnuevodia.com/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 10,
   },
   {
@@ -4707,7 +4736,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PR',
     language: 'es',
-    feedUrls: ['https://www.primerahora.com/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.primerahora.com/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 8,
   },
   {
@@ -4716,7 +4745,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PR',
     language: 'es',
-    feedUrls: ['https://www.noticel.com/rss'],
+    feeds: { top: ['https://www.noticel.com/rss'] },
     authority: 8,
   },
   // Israel (Hebrew). Kan, Haaretz, Davar and Zman Israel return 403; Walla's feed is stale; Times of Israel and Haaretz return 403.
@@ -4726,7 +4755,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IL',
     language: 'he',
-    feedUrls: ['https://www.ynet.co.il/Integration/StoryRss2.xml'],
+    feeds: { top: ['https://www.ynet.co.il/Integration/StoryRss2.xml'] },
     authority: 10,
   },
   {
@@ -4735,7 +4764,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IL',
     language: 'he',
-    feedUrls: ['https://www.israelhayom.co.il/rss.xml'],
+    feeds: { top: ['https://www.israelhayom.co.il/rss.xml'] },
     authority: 9,
   },
   {
@@ -4744,7 +4773,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IL',
     language: 'he',
-    feedUrls: ['https://www.maariv.co.il/Rss/RssChadashot'],
+    feeds: { top: ['https://www.maariv.co.il/Rss/RssChadashot'] },
     authority: 9,
   },
   {
@@ -4753,7 +4782,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IL',
     language: 'he',
-    feedUrls: ['https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2'],
+    feeds: { top: ['https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2'] },
     authority: 8,
   },
   {
@@ -4762,7 +4791,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IL',
     language: 'he',
-    feedUrls: ['https://www.inn.co.il/Rss.aspx'],
+    feeds: { top: ['https://www.inn.co.il/Rss.aspx'] },
     authority: 7,
   },
   {
@@ -4771,7 +4800,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IL',
     language: 'he',
-    feedUrls: ['https://www.srugim.co.il/feed'],
+    feeds: { top: ['https://www.srugim.co.il/feed'] },
     authority: 7,
   },
   // Tajikistan: Russian-language Asia-Plus and Avesta, and the state agency Khovar in Tajik.
@@ -4781,7 +4810,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TJ',
     language: 'tg',
-    feedUrls: ['https://khovar.tj/feed/'],
+    feeds: { top: ['https://khovar.tj/feed/'] },
     authority: 9,
   },
   {
@@ -4790,7 +4819,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TJ',
     language: 'ru',
-    feedUrls: ['https://asiaplus.tj/rss'],
+    feeds: { top: ['https://asiaplus.tj/rss'] },
     authority: 9,
   },
   {
@@ -4799,7 +4828,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TJ',
     language: 'ru',
-    feedUrls: ['https://avesta.tj/feed/'],
+    feeds: { top: ['https://avesta.tj/feed/'] },
     authority: 8,
   },
   // Afghanistan: Dari (Persian) outlets in exile plus Khaama in English. TOLOnews' feed is stale;
@@ -4810,7 +4839,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AF',
     language: 'fa',
-    feedUrls: ['https://8am.media/fa/feed/'],
+    feeds: { top: ['https://8am.media/fa/feed/'] },
     authority: 9,
   },
   {
@@ -4819,7 +4848,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AF',
     language: 'fa',
-    feedUrls: ['https://www.afintl.com/fa/feed'],
+    feeds: { top: ['https://www.afintl.com/fa/feed'] },
     authority: 9,
   },
   {
@@ -4828,7 +4857,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AF',
     language: 'en',
-    feedUrls: ['https://www.khaama.com/feed/'],
+    feeds: { top: ['https://www.khaama.com/feed/'] },
     authority: 8,
   },
   // South Korea (Korean). Newsis skipped: Dong-A's feed carries its wire copy under the same
@@ -4839,7 +4868,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KR',
     language: 'ko',
-    feedUrls: ['https://www.yna.co.kr/rss/news.xml'],
+    feeds: { top: ['https://www.yna.co.kr/rss/news.xml'] },
     authority: 10,
   },
   {
@@ -4848,7 +4877,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KR',
     language: 'ko',
-    feedUrls: ['https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -4857,7 +4886,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KR',
     language: 'ko',
-    feedUrls: ['https://rss.donga.com/total.xml'],
+    feeds: { top: ['https://rss.donga.com/total.xml'] },
     authority: 9,
   },
   {
@@ -4866,7 +4895,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KR',
     language: 'ko',
-    feedUrls: ['https://www.khan.co.kr/rss/rssdata/total_news.xml'],
+    feeds: { top: ['https://www.khan.co.kr/rss/rssdata/total_news.xml'] },
     authority: 9,
   },
   {
@@ -4875,7 +4904,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KR',
     language: 'ko',
-    feedUrls: ['https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01'],
+    feeds: { top: ['https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01'] },
     authority: 8,
   },
   // Thailand (Thai). Thai PBS, Bangkok Biz News and Naew Na 404; Daily News' feed is empty.
@@ -4885,7 +4914,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TH',
     language: 'th',
-    feedUrls: ['https://www.thairath.co.th/rss/news'],
+    feeds: { top: ['https://www.thairath.co.th/rss/news'] },
     authority: 9,
   },
   {
@@ -4894,7 +4923,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TH',
     language: 'th',
-    feedUrls: ['https://www.matichon.co.th/feed'],
+    feeds: { top: ['https://www.matichon.co.th/feed'] },
     authority: 9,
   },
   {
@@ -4903,7 +4932,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TH',
     language: 'th',
-    feedUrls: ['https://www.khaosod.co.th/feed'],
+    feeds: { top: ['https://www.khaosod.co.th/feed'] },
     authority: 8,
   },
   {
@@ -4912,7 +4941,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TH',
     language: 'th',
-    feedUrls: ['https://www.prachachat.net/feed'],
+    feeds: { top: ['https://www.prachachat.net/feed'] },
     authority: 7,
   },
   // Bangladesh (Bengali). Kaler Kantho, Samakal and Ittefaq return 403; bdnews24 and Jugantor fail to parse.
@@ -4922,7 +4951,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BD',
     language: 'bn',
-    feedUrls: ['https://www.prothomalo.com/feed/'],
+    feeds: { top: ['https://www.prothomalo.com/feed/'] },
     authority: 10,
   },
   {
@@ -4931,7 +4960,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BD',
     language: 'bn',
-    feedUrls: ['https://www.banglatribune.com/feed/'],
+    feeds: { top: ['https://www.banglatribune.com/feed/'] },
     authority: 8,
   },
   {
@@ -4940,7 +4969,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BD',
     language: 'bn',
-    feedUrls: ['https://www.dhakapost.com/rss/rss.xml'],
+    feeds: { top: ['https://www.dhakapost.com/rss/rss.xml'] },
     authority: 7,
   },
   {
@@ -4949,7 +4978,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GN',
     language: 'fr',
-    feedUrls: ['https://guineenews.org/feed/'],
+    feeds: { top: ['https://guineenews.org/feed/'] },
     authority: 9,
   },
   {
@@ -4958,7 +4987,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GN',
     language: 'fr',
-    feedUrls: ['https://www.africaguinee.com/feed/'],
+    feeds: { top: ['https://www.africaguinee.com/feed/'] },
     authority: 9,
   },
   {
@@ -4967,7 +4996,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GN',
     language: 'fr',
-    feedUrls: ['https://guinee360.com/feed/'],
+    feeds: { top: ['https://guinee360.com/feed/'] },
     authority: 8,
   },
   {
@@ -4976,7 +5005,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GN',
     language: 'fr',
-    feedUrls: ['https://www.visionguinee.info/feed/'],
+    feeds: { top: ['https://www.visionguinee.info/feed/'] },
     authority: 7,
   },
   {
@@ -4985,7 +5014,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GN',
     language: 'fr',
-    feedUrls: ['https://mosaiqueguinee.com/feed/'],
+    feeds: { top: ['https://mosaiqueguinee.com/feed/'] },
     authority: 7,
   },
   {
@@ -4994,7 +5023,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GA',
     language: 'fr',
-    feedUrls: ['https://www.gabonreview.com/feed/'],
+    feeds: { top: ['https://www.gabonreview.com/feed/'] },
     authority: 9,
   },
   {
@@ -5003,7 +5032,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GA',
     language: 'fr',
-    feedUrls: ['https://agpgabon.ga/feed/'],
+    feeds: { top: ['https://agpgabon.ga/feed/'] },
     authority: 9,
   },
   {
@@ -5012,7 +5041,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GA',
     language: 'fr',
-    feedUrls: ['https://www.gabonactu.com/feed/'],
+    feeds: { top: ['https://www.gabonactu.com/feed/'] },
     authority: 8,
   },
   {
@@ -5021,7 +5050,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GA',
     language: 'fr',
-    feedUrls: ['https://directinfosgabon.com/feed/'],
+    feeds: { top: ['https://directinfosgabon.com/feed/'] },
     authority: 7,
   },
   {
@@ -5030,7 +5059,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GA',
     language: 'fr',
-    feedUrls: ['https://www.gabonclic.info/feed/'],
+    feeds: { top: ['https://www.gabonclic.info/feed/'] },
     authority: 7,
   },
   {
@@ -5039,7 +5068,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TD',
     language: 'fr',
-    feedUrls: ['https://www.alwihdainfo.com/rss/'],
+    feeds: { top: ['https://www.alwihdainfo.com/rss/'] },
     authority: 9,
   },
   {
@@ -5048,7 +5077,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TD',
     language: 'fr',
-    feedUrls: ['https://tchadinfos.com/feed/'],
+    feeds: { top: ['https://tchadinfos.com/feed/'] },
     authority: 8,
   },
   {
@@ -5057,7 +5086,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TD',
     language: 'fr',
-    feedUrls: ['https://www.lepaystchad.com/feed/'],
+    feeds: { top: ['https://www.lepaystchad.com/feed/'] },
     authority: 7,
   },
   {
@@ -5066,7 +5095,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MR',
     language: 'fr',
-    feedUrls: ['https://fr.saharamedias.net/feed/'],
+    feeds: { top: ['https://fr.saharamedias.net/feed/'] },
     authority: 9,
   },
   {
@@ -5075,7 +5104,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MR',
     language: 'fr',
-    feedUrls: ['https://lecalame.info/?q=rss.xml'],
+    feeds: { top: ['https://lecalame.info/?q=rss.xml'] },
     authority: 8,
   },
   {
@@ -5084,7 +5113,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MR',
     language: 'fr',
-    feedUrls: ['https://kassataya.com/feed/'],
+    feeds: { top: ['https://kassataya.com/feed/'] },
     authority: 7,
   },
   {
@@ -5093,7 +5122,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MR',
     language: 'fr',
-    feedUrls: ['https://www.rimweb.net/feed/'],
+    feeds: { top: ['https://www.rimweb.net/feed/'] },
     authority: 7,
   },
   {
@@ -5102,7 +5131,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GM',
     language: 'en',
-    feedUrls: ['https://standard.gm/feed/'],
+    feeds: { top: ['https://standard.gm/feed/'] },
     authority: 9,
   },
   {
@@ -5111,7 +5140,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GM',
     language: 'en',
-    feedUrls: ['https://foroyaa.net/feed/'],
+    feeds: { top: ['https://foroyaa.net/feed/'] },
     authority: 9,
   },
   {
@@ -5120,7 +5149,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GM',
     language: 'en',
-    feedUrls: ['https://kerrfatou.com/feed/'],
+    feeds: { top: ['https://kerrfatou.com/feed/'] },
     authority: 7,
   },
   {
@@ -5129,7 +5158,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LR',
     language: 'en',
-    feedUrls: ['https://frontpageafricaonline.com/feed/'],
+    feeds: { top: ['https://frontpageafricaonline.com/feed/'] },
     authority: 9,
   },
   {
@@ -5138,7 +5167,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LR',
     language: 'en',
-    feedUrls: ['https://thenewdawnliberia.com/feed/'],
+    feeds: { top: ['https://thenewdawnliberia.com/feed/'] },
     authority: 8,
   },
   {
@@ -5147,7 +5176,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LR',
     language: 'en',
-    feedUrls: ['https://smartnewsliberia.com/feed/'],
+    feeds: { top: ['https://smartnewsliberia.com/feed/'] },
     authority: 7,
   },
   {
@@ -5156,7 +5185,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LR',
     language: 'en',
-    feedUrls: ['https://analystliberiaonline.com/feed/'],
+    feeds: { top: ['https://analystliberiaonline.com/feed/'] },
     authority: 7,
   },
   {
@@ -5165,7 +5194,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SO',
     language: 'so',
-    feedUrls: ['https://www.caasimada.net/feed/'],
+    feeds: { top: ['https://www.caasimada.net/feed/'] },
     authority: 9,
   },
   {
@@ -5174,7 +5203,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SO',
     language: 'so',
-    feedUrls: ['https://www.goobjoog.com/feed/'],
+    feeds: { top: ['https://www.goobjoog.com/feed/'] },
     authority: 8,
   },
   {
@@ -5183,7 +5212,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SO',
     language: 'so',
-    feedUrls: ['https://horseedmedia.net/feed/'],
+    feeds: { top: ['https://horseedmedia.net/feed/'] },
     authority: 8,
   },
   {
@@ -5192,7 +5221,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SO',
     language: 'so',
-    feedUrls: ['https://puntlandpost.net/feed/'],
+    feeds: { top: ['https://puntlandpost.net/feed/'] },
     authority: 7,
   },
   {
@@ -5201,7 +5230,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GY',
     language: 'en',
-    feedUrls: ['https://guyanachronicle.com/feed/'],
+    feeds: { top: ['https://guyanachronicle.com/feed/'] },
     authority: 9,
   },
   {
@@ -5210,7 +5239,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GY',
     language: 'en',
-    feedUrls: ['https://www.kaieteurnewsonline.com/feed/'],
+    feeds: { top: ['https://www.kaieteurnewsonline.com/feed/'] },
     authority: 9,
   },
   {
@@ -5219,7 +5248,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GY',
     language: 'en',
-    feedUrls: ['https://www.inewsguyana.com/feed/'],
+    feeds: { top: ['https://www.inewsguyana.com/feed/'] },
     authority: 8,
   },
   {
@@ -5228,7 +5257,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GY',
     language: 'en',
-    feedUrls: ['https://demerarawaves.com/feed/'],
+    feeds: { top: ['https://demerarawaves.com/feed/'] },
     authority: 7,
   },
   {
@@ -5237,7 +5266,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SR',
     language: 'nl',
-    feedUrls: ['https://www.starnieuws.com/rss/starnieuws.rss'],
+    feeds: { top: ['https://www.starnieuws.com/rss/starnieuws.rss'] },
     authority: 9,
   },
   {
@@ -5246,7 +5275,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SR',
     language: 'nl',
-    feedUrls: ['https://www.dwtonline.com/feed/'],
+    feeds: { top: ['https://www.dwtonline.com/feed/'] },
     authority: 9,
   },
   {
@@ -5255,7 +5284,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SR',
     language: 'nl',
-    feedUrls: ['https://www.waterkant.net/feed/'],
+    feeds: { top: ['https://www.waterkant.net/feed/'] },
     authority: 8,
   },
   {
@@ -5264,7 +5293,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SR',
     language: 'nl',
-    feedUrls: ['https://www.srherald.com/feed/'],
+    feeds: { top: ['https://www.srherald.com/feed/'] },
     authority: 8,
   },
   {
@@ -5273,7 +5302,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'YE',
     language: 'ar',
-    feedUrls: ['https://www.adengad.net/feed/'],
+    feeds: { top: ['https://www.adengad.net/feed/'] },
     authority: 8,
   },
   {
@@ -5282,7 +5311,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'YE',
     language: 'ar',
-    feedUrls: ['https://www.yemenmonitor.com/rss'],
+    feeds: { top: ['https://www.yemenmonitor.com/rss'] },
     authority: 8,
   },
   {
@@ -5291,7 +5320,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'YE',
     language: 'ar',
-    feedUrls: ['https://www.alsahwa-yemen.net/rss'],
+    feeds: { top: ['https://www.alsahwa-yemen.net/rss'] },
     authority: 7,
   },
   // China (Chinese and English). China News Service is the only mainland outlet with a current feed
@@ -5303,7 +5332,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CN',
     language: 'zh',
-    feedUrls: ['https://www.chinanews.com.cn/rss/china.xml', 'https://www.chinanews.com.cn/rss/society.xml'],
+    feeds: { top: ['https://www.chinanews.com.cn/rss/china.xml', 'https://www.chinanews.com.cn/rss/society.xml'] },
     authority: 9,
   },
   {
@@ -5312,7 +5341,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CN',
     language: 'en',
-    feedUrls: ['https://www.cgtn.com/subscribe/rss/section/china.xml'],
+    feeds: { top: ['https://www.cgtn.com/subscribe/rss/section/china.xml'] },
     authority: 8,
   },
   {
@@ -5321,7 +5350,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CN',
     language: 'en',
-    feedUrls: ['https://www.scmp.com/rss/4/feed'],
+    feeds: { top: ['https://www.scmp.com/rss/4/feed'] },
     authority: 8,
   },
   {
@@ -5330,7 +5359,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CN',
     language: 'zh',
-    feedUrls: ['https://www.voachinese.com/api/'],
+    feeds: { top: ['https://www.voachinese.com/api/'] },
     authority: 7,
   },
   {
@@ -5339,7 +5368,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CN',
     language: 'zh',
-    feedUrls: ['https://www.rfa.org/mandarin/RSS'],
+    feeds: { top: ['https://www.rfa.org/mandarin/RSS'] },
     authority: 7,
   },
   // Belarus (Russian, Belarusian). Zerkalo and Euroradio 403; Nasha Niva malformed; Belsat 404.
@@ -5349,7 +5378,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BY',
     language: 'ru',
-    feedUrls: ['https://www.belta.by/rss'],
+    feeds: { top: ['https://www.belta.by/rss'] },
     authority: 9,
   },
   {
@@ -5358,7 +5387,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BY',
     language: 'ru',
-    feedUrls: ['https://onliner.by/feed'],
+    feeds: { top: ['https://onliner.by/feed'] },
     authority: 8,
   },
   {
@@ -5367,7 +5396,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BY',
     language: 'be',
-    feedUrls: ['https://www.svaboda.org/api/'],
+    feeds: { top: ['https://www.svaboda.org/api/'] },
     authority: 8,
   },
   // Georgia (Georgian, English). 1TV, Imedi, Tabula and BM.ge 403; Interpressnews and Georgia Today
@@ -5378,7 +5407,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GE',
     language: 'ka',
-    feedUrls: ['https://netgazeti.ge/feed/'],
+    feeds: { top: ['https://netgazeti.ge/feed/'] },
     authority: 8,
   },
   {
@@ -5387,7 +5416,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GE',
     language: 'ka',
-    feedUrls: ['https://publika.ge/feed/'],
+    feeds: { top: ['https://publika.ge/feed/'] },
     authority: 8,
   },
   {
@@ -5396,7 +5425,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GE',
     language: 'ka',
-    feedUrls: ['https://www.radiotavisupleba.ge/api/'],
+    feeds: { top: ['https://www.radiotavisupleba.ge/api/'] },
     authority: 8,
   },
   {
@@ -5405,7 +5434,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GE',
     language: 'en',
-    feedUrls: ['https://civil.ge/feed'],
+    feeds: { top: ['https://civil.ge/feed'] },
     authority: 7,
   },
   // Montenegro (Latin script). RTCG and Dan 404; Pobjeda and Standard serve HTML. IN4S works but
@@ -5416,7 +5445,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ME',
     language: 'sr',
-    feedUrls: ['https://www.vijesti.me/rss'],
+    feeds: { top: ['https://www.vijesti.me/rss'] },
     authority: 9,
   },
   {
@@ -5425,7 +5454,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ME',
     language: 'sr',
-    feedUrls: ['https://www.cdm.me/feed/'],
+    feeds: { top: ['https://www.cdm.me/feed/'] },
     authority: 8,
   },
   {
@@ -5434,7 +5463,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ME',
     language: 'sr',
-    feedUrls: ['https://mina.news/feed/'],
+    feeds: { top: ['https://mina.news/feed/'] },
     authority: 8,
   },
   {
@@ -5443,7 +5472,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ME',
     language: 'sr',
-    feedUrls: ['https://www.aktuelno.me/feed'],
+    feeds: { top: ['https://www.aktuelno.me/feed'] },
     authority: 7,
   },
   {
@@ -5452,7 +5481,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ME',
     language: 'sr',
-    feedUrls: ['https://www.borba.me/feed/'],
+    feeds: { top: ['https://www.borba.me/feed/'] },
     authority: 7,
   },
   // Albania. Top Channel, Panorama, Tema and Ora News 403; A2 and Report TV 404.
@@ -5462,7 +5491,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AL',
     language: 'sq',
-    feedUrls: ['https://euronews.al/feed/'],
+    feeds: { top: ['https://euronews.al/feed/'] },
     authority: 9,
   },
   {
@@ -5471,7 +5500,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AL',
     language: 'sq',
-    feedUrls: ['https://www.balkanweb.com/feed/'],
+    feeds: { top: ['https://www.balkanweb.com/feed/'] },
     authority: 8,
   },
   {
@@ -5480,7 +5509,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AL',
     language: 'sq',
-    feedUrls: ['https://abcnews.al/feed/'],
+    feeds: { top: ['https://abcnews.al/feed/'] },
     authority: 8,
   },
   {
@@ -5489,7 +5518,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AL',
     language: 'sq',
-    feedUrls: ['https://www.vizionplus.tv/feed/'],
+    feeds: { top: ['https://www.vizionplus.tv/feed/'] },
     authority: 7,
   },
   {
@@ -5498,7 +5527,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AL',
     language: 'sq',
-    feedUrls: ['https://gazetashqiptare.al/feed/'],
+    feeds: { top: ['https://gazetashqiptare.al/feed/'] },
     authority: 7,
   },
   {
@@ -5507,7 +5536,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AL',
     language: 'sq',
-    feedUrls: ['https://www.reporter.al/feed/'],
+    feeds: { top: ['https://www.reporter.al/feed/'] },
     authority: 7,
   },
   // Palestine (Arabic). WAFA and Paltoday 404, Maan 403, Al-Ayyam unreachable.
@@ -5517,7 +5546,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PS',
     language: 'ar',
-    feedUrls: ['https://www.alquds.com/rss'],
+    feeds: { top: ['https://www.alquds.com/rss'] },
     authority: 9,
   },
   {
@@ -5526,7 +5555,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PS',
     language: 'ar',
-    feedUrls: ['https://qudsn.co/rss'],
+    feeds: { top: ['https://qudsn.co/rss'] },
     authority: 8,
   },
   {
@@ -5535,7 +5564,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PS',
     language: 'ar',
-    feedUrls: ['https://felesteen.news/rss'],
+    feeds: { top: ['https://felesteen.news/rss'] },
     authority: 7,
   },
   {
@@ -5544,7 +5573,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PS',
     language: 'ar',
-    feedUrls: ['https://palinfo.com/feed/'],
+    feeds: { top: ['https://palinfo.com/feed/'] },
     authority: 7,
   },
   // Libya (Arabic, English). Al-Wasat 403; Libya Observer 404; Libya Al-Ahrar and Afrigate
@@ -5555,7 +5584,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LY',
     language: 'ar',
-    feedUrls: ['https://almarsad.co/feed/'],
+    feeds: { top: ['https://almarsad.co/feed/'] },
     authority: 8,
   },
   {
@@ -5564,7 +5593,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LY',
     language: 'ar',
-    feedUrls: ['https://eanlibya.com/feed/'],
+    feeds: { top: ['https://eanlibya.com/feed/'] },
     authority: 8,
   },
   {
@@ -5573,7 +5602,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LY',
     language: 'en',
-    feedUrls: ['https://libyaherald.com/feed/'],
+    feeds: { top: ['https://libyaherald.com/feed/'] },
     authority: 8,
   },
   // Iraq (Arabic, English). INA and Al-Sabaah 403; Shafaq, Alsumaria, Rudaw and Kurdistan24 serve
@@ -5584,7 +5613,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IQ',
     language: 'ar',
-    feedUrls: ['https://baghdadtoday.news/rss'],
+    feeds: { top: ['https://baghdadtoday.news/rss'] },
     authority: 8,
   },
   {
@@ -5593,7 +5622,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IQ',
     language: 'ar',
-    feedUrls: ['https://almadapaper.net/rss'],
+    feeds: { top: ['https://almadapaper.net/rss'] },
     authority: 8,
   },
   {
@@ -5602,7 +5631,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IQ',
     language: 'ar',
-    feedUrls: ['https://almasalah.com/feed/'],
+    feeds: { top: ['https://almasalah.com/feed/'] },
     authority: 7,
   },
   {
@@ -5611,7 +5640,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'IQ',
     language: 'en',
-    feedUrls: ['https://www.iraqinews.com/feed/'],
+    feeds: { top: ['https://www.iraqinews.com/feed/'] },
     authority: 7,
   },
   // Myanmar (English, mostly exile media). Mizzima 403; the Burmese editions of The Irrawaddy and
@@ -5622,7 +5651,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MM',
     language: 'en',
-    feedUrls: ['https://www.irrawaddy.com/feed'],
+    feeds: { top: ['https://www.irrawaddy.com/feed'] },
     authority: 9,
   },
   {
@@ -5631,7 +5660,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MM',
     language: 'en',
-    feedUrls: ['https://english.dvb.no/feed/'],
+    feeds: { top: ['https://english.dvb.no/feed/'] },
     authority: 8,
   },
   {
@@ -5640,7 +5669,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MM',
     language: 'en',
-    feedUrls: ['https://myanmar-now.org/en/feed/'],
+    feeds: { top: ['https://myanmar-now.org/en/feed/'] },
     authority: 8,
   },
   {
@@ -5649,7 +5678,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MM',
     language: 'en',
-    feedUrls: ['https://www.gnlm.com.mm/feed/'],
+    feeds: { top: ['https://www.gnlm.com.mm/feed/'] },
     authority: 7,
   },
   // Kyrgyzstan (Kyrgyz, Russian). Kaktus and AKIpress 404; 24.kg stale; Kloop posts a few items a
@@ -5660,7 +5689,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KG',
     language: 'ky',
-    feedUrls: ['https://kabar.kg/rss'],
+    feeds: { top: ['https://kabar.kg/rss'] },
     authority: 9,
   },
   {
@@ -5669,7 +5698,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KG',
     language: 'ky',
-    feedUrls: ['https://www.azattyk.org/api/'],
+    feeds: { top: ['https://www.azattyk.org/api/'] },
     authority: 8,
   },
   {
@@ -5678,7 +5707,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KG',
     language: 'ru',
-    feedUrls: ['https://ru.sputnik.kg/export/rss2/archive/index.xml'],
+    feeds: { top: ['https://ru.sputnik.kg/export/rss2/archive/index.xml'] },
     authority: 7,
   },
   // Namibia. Namibian Sun serves HTML; NBC 404.
@@ -5688,7 +5717,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NA',
     language: 'en',
-    feedUrls: ['https://www.namibian.com.na/feed/'],
+    feeds: { top: ['https://www.namibian.com.na/feed/'] },
     authority: 9,
   },
   {
@@ -5697,7 +5726,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NA',
     language: 'en',
-    feedUrls: ['https://neweralive.na/feed/'],
+    feeds: { top: ['https://neweralive.na/feed/'] },
     authority: 8,
   },
   {
@@ -5706,7 +5735,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NA',
     language: 'en',
-    feedUrls: ['https://www.observer24.com.na/feed/'],
+    feeds: { top: ['https://www.observer24.com.na/feed/'] },
     authority: 8,
   },
   // Honduras. La Tribuna and Radio América 403; La Prensa and El Heraldo 404.
@@ -5716,7 +5745,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HN',
     language: 'es',
-    feedUrls: ['https://proceso.hn/feed/'],
+    feeds: { top: ['https://proceso.hn/feed/'] },
     authority: 8,
   },
   {
@@ -5725,7 +5754,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HN',
     language: 'es',
-    feedUrls: ['https://hch.tv/feed/'],
+    feeds: { top: ['https://hch.tv/feed/'] },
     authority: 7,
   },
   {
@@ -5734,7 +5763,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HN',
     language: 'es',
-    feedUrls: ['https://hondudiario.com/feed/'],
+    feeds: { top: ['https://hondudiario.com/feed/'] },
     authority: 7,
   },
   {
@@ -5743,7 +5772,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HN',
     language: 'es',
-    feedUrls: ['https://criterio.hn/feed/'],
+    feeds: { top: ['https://criterio.hn/feed/'] },
     authority: 7,
   },
   // Bolivia. La Razón and El Potosí 403; Los Tiempos and Correo del Sur 404; Página Siete times
@@ -5754,7 +5783,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BO',
     language: 'es',
-    feedUrls: ['https://eldeber.com.bo/feed'],
+    feeds: { top: ['https://eldeber.com.bo/feed'] },
     authority: 9,
   },
   {
@@ -5763,7 +5792,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BO',
     language: 'es',
-    feedUrls: ['https://www.opinion.com.bo/rss/'],
+    feeds: { top: ['https://www.opinion.com.bo/rss/'] },
     authority: 8,
   },
   {
@@ -5772,7 +5801,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BO',
     language: 'es',
-    feedUrls: ['https://www.eldiario.net/portal/feed/'],
+    feeds: { top: ['https://www.eldiario.net/portal/feed/'] },
     authority: 7,
   },
   {
@@ -5781,7 +5810,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BO',
     language: 'es',
-    feedUrls: ['https://www.eju.tv/feed/'],
+    feeds: { top: ['https://www.eju.tv/feed/'] },
     authority: 6,
   },
   // El Salvador. La Prensa Gráfica and El Diario de Hoy 403; El Faro and Diario El Mundo serve
@@ -5792,7 +5821,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SV',
     language: 'es',
-    feedUrls: ['https://www.diariocolatino.com/feed/'],
+    feeds: { top: ['https://www.diariocolatino.com/feed/'] },
     authority: 8,
   },
   {
@@ -5801,7 +5830,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SV',
     language: 'es',
-    feedUrls: ['https://www.lapagina.com.sv/feed/'],
+    feeds: { top: ['https://www.lapagina.com.sv/feed/'] },
     authority: 7,
   },
   {
@@ -5810,7 +5839,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SV',
     language: 'es',
-    feedUrls: ['https://ysuca.org.sv/feed/'],
+    feeds: { top: ['https://ysuca.org.sv/feed/'] },
     authority: 7,
   },
   // DR Congo (French). 7sur7.cd, Mediacongo and Deskeco 404; Zoom Eco 403.
@@ -5820,7 +5849,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CD',
     language: 'fr',
-    feedUrls: ['https://www.radiookapi.net/feed'],
+    feeds: { top: ['https://www.radiookapi.net/feed'] },
     authority: 9,
   },
   {
@@ -5829,7 +5858,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CD',
     language: 'fr',
-    feedUrls: ['https://actualite.cd/feed'],
+    feeds: { top: ['https://actualite.cd/feed'] },
     authority: 8,
   },
   {
@@ -5838,7 +5867,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CD',
     language: 'fr',
-    feedUrls: ['https://www.politico.cd/feed/'],
+    feeds: { top: ['https://www.politico.cd/feed/'] },
     authority: 7,
   },
   {
@@ -5847,7 +5876,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CD',
     language: 'fr',
-    feedUrls: ['https://www.actu30.cd/feed/'],
+    feeds: { top: ['https://www.actu30.cd/feed/'] },
     authority: 6,
   },
   // Cameroon (French). Cameroon Tribune, Actu Cameroun and Mimi Mefo Info 403; Journal du Cameroun
@@ -5858,7 +5887,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CM',
     language: 'fr',
-    feedUrls: ['https://www.camer.be/rss'],
+    feeds: { top: ['https://www.camer.be/rss'] },
     authority: 8,
   },
   {
@@ -5867,7 +5896,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CM',
     language: 'fr',
-    feedUrls: ['https://lebledparle.com/feed/'],
+    feeds: { top: ['https://lebledparle.com/feed/'] },
     authority: 7,
   },
   {
@@ -5876,7 +5905,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CM',
     language: 'fr',
-    feedUrls: ['https://www.237online.com/feed/'],
+    feeds: { top: ['https://www.237online.com/feed/'] },
     authority: 7,
   },
   {
@@ -5885,7 +5914,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CM',
     language: 'fr',
-    feedUrls: ['https://www.investiraucameroun.com/feed'],
+    feeds: { top: ['https://www.investiraucameroun.com/feed'] },
     authority: 6,
   },
   // Tanzania (Swahili, English). The Citizen and Mwananchi 404; IPP Media 403.
@@ -5895,7 +5924,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TZ',
     language: 'en',
-    feedUrls: ['https://dailynews.co.tz/feed/'],
+    feeds: { top: ['https://dailynews.co.tz/feed/'] },
     authority: 9,
   },
   {
@@ -5904,7 +5933,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TZ',
     language: 'sw',
-    feedUrls: ['https://habarileo.co.tz/feed/'],
+    feeds: { top: ['https://habarileo.co.tz/feed/'] },
     authority: 8,
   },
   {
@@ -5913,7 +5942,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TZ',
     language: 'sw',
-    feedUrls: ['https://jamhurimedia.co.tz/feed/'],
+    feeds: { top: ['https://jamhurimedia.co.tz/feed/'] },
     authority: 7,
   },
   {
@@ -5922,7 +5951,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TZ',
     language: 'sw',
-    feedUrls: ['https://globalpublishers.co.tz/feed/'],
+    feeds: { top: ['https://globalpublishers.co.tz/feed/'] },
     authority: 6,
   },
   // Rwanda (Kinyarwanda, English). The New Times serves HTML; IGIHE 404.
@@ -5932,7 +5961,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RW',
     language: 'rw',
-    feedUrls: ['https://www.kigalitoday.com/spip.php?page=backend'],
+    feeds: { top: ['https://www.kigalitoday.com/spip.php?page=backend'] },
     authority: 8,
   },
   {
@@ -5941,7 +5970,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RW',
     language: 'rw',
-    feedUrls: ['https://umuseke.rw/feed'],
+    feeds: { top: ['https://umuseke.rw/feed'] },
     authority: 7,
   },
   {
@@ -5950,7 +5979,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RW',
     language: 'en',
-    feedUrls: ['https://taarifa.rw/feed/'],
+    feeds: { top: ['https://taarifa.rw/feed/'] },
     authority: 7,
   },
   {
@@ -5959,7 +5988,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'RW',
     language: 'en',
-    feedUrls: ['https://www.ktpress.rw/feed/'],
+    feeds: { top: ['https://www.ktpress.rw/feed/'] },
     authority: 7,
   },
   // Haiti (French, English). Le Nouvelliste's feed is its English edition. HaitiLibre 403; Loop
@@ -5970,7 +5999,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HT',
     language: 'en',
-    feedUrls: ['https://lenouvelliste.com/rss'],
+    feeds: { top: ['https://lenouvelliste.com/rss'] },
     authority: 9,
   },
   {
@@ -5979,7 +6008,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HT',
     language: 'fr',
-    feedUrls: ['https://www.alterpresse.org/spip.php?page=backend'],
+    feeds: { top: ['https://www.alterpresse.org/spip.php?page=backend'] },
     authority: 8,
   },
   {
@@ -5988,7 +6017,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'HT',
     language: 'fr',
-    feedUrls: ['https://www.juno7.ht/feed/'],
+    feeds: { top: ['https://www.juno7.ht/feed/'] },
     authority: 7,
   },
   // Paraguay. Última Hora 404. ABC and La Nación are Arc sites and need ?outputType=xml.
@@ -5998,7 +6027,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PY',
     language: 'es',
-    feedUrls: ['https://www.abc.com.py/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.abc.com.py/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -6007,7 +6036,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PY',
     language: 'es',
-    feedUrls: ['https://www.lanacion.com.py/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.lanacion.com.py/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 8,
   },
   {
@@ -6016,7 +6045,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PY',
     language: 'es',
-    feedUrls: ['https://www.elnacional.com.py/feed/'],
+    feeds: { top: ['https://www.elnacional.com.py/feed/'] },
     authority: 7,
   },
   {
@@ -6025,7 +6054,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PY',
     language: 'es',
-    feedUrls: ['https://www.laclave.com.py/feed/'],
+    feeds: { top: ['https://www.laclave.com.py/feed/'] },
     authority: 7,
   },
   // Panama. La Prensa is an Arc site and needs ?outputType=xml.
@@ -6035,7 +6064,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PA',
     language: 'es',
-    feedUrls: ['https://www.prensa.com/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.prensa.com/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -6044,7 +6073,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PA',
     language: 'es',
-    feedUrls: ['https://www.tvn-2.com/rss/'],
+    feeds: { top: ['https://www.tvn-2.com/rss/'] },
     authority: 8,
   },
   {
@@ -6053,7 +6082,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PA',
     language: 'es',
-    feedUrls: ['https://www.critica.com.pa/rss.xml'],
+    feeds: { top: ['https://www.critica.com.pa/rss.xml'] },
     authority: 7,
   },
   // Cambodia (Khmer, English). Phnom Penh Post, Post Khmer and Fresh News 403.
@@ -6063,7 +6092,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KH',
     language: 'km',
-    feedUrls: ['https://www.vodkhmer.news/feed/'],
+    feeds: { top: ['https://www.vodkhmer.news/feed/'] },
     authority: 8,
   },
   {
@@ -6072,7 +6101,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KH',
     language: 'km',
-    feedUrls: ['https://kampucheathmey.com/feed'],
+    feeds: { top: ['https://kampucheathmey.com/feed'] },
     authority: 7,
   },
   {
@@ -6081,7 +6110,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KH',
     language: 'km',
-    feedUrls: ['https://www.dap-news.com/feed/'],
+    feeds: { top: ['https://www.dap-news.com/feed/'] },
     authority: 7,
   },
   {
@@ -6090,7 +6119,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KH',
     language: 'en',
-    feedUrls: ['https://www.khmertimeskh.com/feed/'],
+    feeds: { top: ['https://www.khmertimeskh.com/feed/'] },
     authority: 8,
   },
   {
@@ -6099,7 +6128,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KH',
     language: 'en',
-    feedUrls: ['https://cambojanews.com/feed/'],
+    feeds: { top: ['https://cambojanews.com/feed/'] },
     authority: 7,
   },
   // Mozambique (Portuguese, English).
@@ -6109,7 +6138,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MZ',
     language: 'pt',
-    feedUrls: ['https://www.jornalnoticias.co.mz/feed/'],
+    feeds: { top: ['https://www.jornalnoticias.co.mz/feed/'] },
     authority: 9,
   },
   {
@@ -6118,7 +6147,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MZ',
     language: 'pt',
-    feedUrls: ['https://opais.co.mz/feed/'],
+    feeds: { top: ['https://opais.co.mz/feed/'] },
     authority: 8,
   },
   {
@@ -6127,7 +6156,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MZ',
     language: 'pt',
-    feedUrls: ['https://cartamz.com/feed'],
+    feeds: { top: ['https://cartamz.com/feed'] },
     authority: 8,
   },
   {
@@ -6136,7 +6165,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MZ',
     language: 'pt',
-    feedUrls: ['https://evidencias.co.mz/feed/'],
+    feeds: { top: ['https://evidencias.co.mz/feed/'] },
     authority: 7,
   },
   {
@@ -6145,7 +6174,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MZ',
     language: 'en',
-    feedUrls: ['https://www.clubofmozambique.com/feed/'],
+    feeds: { top: ['https://www.clubofmozambique.com/feed/'] },
     authority: 7,
   },
   {
@@ -6154,7 +6183,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MZ',
     language: 'en',
-    feedUrls: ['https://aimnews.org/feed/'],
+    feeds: { top: ['https://aimnews.org/feed/'] },
     authority: 8,
   },
   // Bahamas. Nassau Guardian 404.
@@ -6164,7 +6193,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BS',
     language: 'en',
-    feedUrls: ['https://znsbahamas.com/feed/'],
+    feeds: { top: ['https://znsbahamas.com/feed/'] },
     authority: 8,
   },
   {
@@ -6173,7 +6202,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BS',
     language: 'en',
-    feedUrls: ['https://www.tribune242.com/rss/headlines/'],
+    feeds: { top: ['https://www.tribune242.com/rss/headlines/'] },
     authority: 9,
   },
   {
@@ -6182,7 +6211,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BS',
     language: 'en',
-    feedUrls: ['https://ournews.bs/feed/'],
+    feeds: { top: ['https://ournews.bs/feed/'] },
     authority: 7,
   },
   {
@@ -6191,7 +6220,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BS',
     language: 'en',
-    feedUrls: ['https://www.bahamaspress.com/feed/'],
+    feeds: { top: ['https://www.bahamaspress.com/feed/'] },
     authority: 6,
   },
   // Belize. Channel 5 unreachable.
@@ -6201,7 +6230,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BZ',
     language: 'en',
-    feedUrls: ['https://www.breakingbelizenews.com/feed/'],
+    feeds: { top: ['https://www.breakingbelizenews.com/feed/'] },
     authority: 8,
   },
   {
@@ -6210,7 +6239,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BZ',
     language: 'en',
-    feedUrls: ['https://amandala.com.bz/news/feed/'],
+    feeds: { top: ['https://amandala.com.bz/news/feed/'] },
     authority: 8,
   },
   {
@@ -6219,7 +6248,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BZ',
     language: 'en',
-    feedUrls: ['https://lovefm.com/feed/'],
+    feeds: { top: ['https://lovefm.com/feed/'] },
     authority: 7,
   },
   {
@@ -6228,7 +6257,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BZ',
     language: 'en',
-    feedUrls: ['https://sanpedrosun.com/feed/'],
+    feeds: { top: ['https://sanpedrosun.com/feed/'] },
     authority: 6,
   },
   // Togo.
@@ -6238,7 +6267,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TG',
     language: 'fr',
-    feedUrls: ['https://www.icilome.com/feed/'],
+    feeds: { top: ['https://www.icilome.com/feed/'] },
     authority: 8,
   },
   {
@@ -6247,7 +6276,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TG',
     language: 'fr',
-    feedUrls: ['https://www.letempstg.com/feed/'],
+    feeds: { top: ['https://www.letempstg.com/feed/'] },
     authority: 7,
   },
   {
@@ -6256,7 +6285,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TG',
     language: 'fr',
-    feedUrls: ['https://www.24heureinfo.com/feed'],
+    feeds: { top: ['https://www.24heureinfo.com/feed'] },
     authority: 7,
   },
   {
@@ -6265,7 +6294,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TG',
     language: 'fr',
-    feedUrls: ['https://www.togotopnews.com/feed'],
+    feeds: { top: ['https://www.togotopnews.com/feed'] },
     authority: 6,
   },
   {
@@ -6274,7 +6303,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TG',
     language: 'fr',
-    feedUrls: ['https://www.togoweb.net/feed'],
+    feeds: { top: ['https://www.togoweb.net/feed'] },
     authority: 6,
   },
   // South Sudan.
@@ -6284,7 +6313,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SS',
     language: 'en',
-    feedUrls: ['https://www.radiotamazuj.org/en/rss'],
+    feeds: { top: ['https://www.radiotamazuj.org/en/rss'] },
     authority: 9,
   },
   {
@@ -6293,7 +6322,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SS',
     language: 'en',
-    feedUrls: ['https://eyeradio.org/feed/'],
+    feeds: { top: ['https://eyeradio.org/feed/'] },
     authority: 8,
   },
   {
@@ -6302,7 +6331,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SS',
     language: 'en',
-    feedUrls: ['https://www.sudanspost.com/feed/'],
+    feeds: { top: ['https://www.sudanspost.com/feed/'] },
     authority: 7,
   },
   // Central African Republic.
@@ -6312,7 +6341,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CF',
     language: 'fr',
-    feedUrls: ['https://www.radiondekeluka.org/feed'],
+    feeds: { top: ['https://www.radiondekeluka.org/feed'] },
     authority: 9,
   },
   {
@@ -6321,7 +6350,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CF',
     language: 'fr',
-    feedUrls: ['https://corbeaunews-centrafrique.org/feed/'],
+    feeds: { top: ['https://corbeaunews-centrafrique.org/feed/'] },
     authority: 7,
   },
   {
@@ -6330,7 +6359,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CF',
     language: 'fr',
-    feedUrls: ['https://oubanguimedias.com/feed/'],
+    feeds: { top: ['https://oubanguimedias.com/feed/'] },
     authority: 7,
   },
   // Ethiopia (Amharic). Fana also has an English feed, not used so the country clusters in one
@@ -6341,7 +6370,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ET',
     language: 'am',
-    feedUrls: ['https://www.fanabc.com/feed/'],
+    feeds: { top: ['https://www.fanabc.com/feed/'] },
     authority: 9,
   },
   {
@@ -6350,7 +6379,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ET',
     language: 'am',
-    feedUrls: ['https://www.ethiopianreporter.com/feed/'],
+    feeds: { top: ['https://www.ethiopianreporter.com/feed/'] },
     authority: 8,
   },
   {
@@ -6359,7 +6388,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ET',
     language: 'am',
-    feedUrls: ['https://feeds.bbci.co.uk/amharic/rss.xml'],
+    feeds: { top: ['https://feeds.bbci.co.uk/amharic/rss.xml'] },
     authority: 8,
   },
   {
@@ -6368,7 +6397,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ET',
     language: 'am',
-    feedUrls: ['https://ethiofm107.com/feed'],
+    feeds: { top: ['https://ethiofm107.com/feed'] },
     authority: 6,
   },
   // United Arab Emirates (English). The National is an Arc site and needs ?outputType=xml. Sky News
@@ -6380,7 +6409,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AE',
     language: 'en',
-    feedUrls: ['https://gulfnews.com/feed'],
+    feeds: { top: ['https://gulfnews.com/feed'] },
     authority: 9,
   },
   {
@@ -6389,7 +6418,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AE',
     language: 'en',
-    feedUrls: ['https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml'],
+    feeds: { top: ['https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml'] },
     authority: 9,
   },
   {
@@ -6398,7 +6427,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AE',
     language: 'en',
-    feedUrls: ['https://www.khaleejtimes.com/stories.rss'],
+    feeds: { top: ['https://www.khaleejtimes.com/stories.rss'] },
     authority: 8,
   },
   // Jordan. Al-Ghad, Addustour, Al-Rai and Jordan Times 403; Ammon, Petra and Assawsana serve no
@@ -6409,7 +6438,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JO',
     language: 'ar',
-    feedUrls: ['https://royanews.tv/rss'],
+    feeds: { top: ['https://royanews.tv/rss'] },
     authority: 9,
   },
   {
@@ -6418,7 +6447,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JO',
     language: 'ar',
-    feedUrls: ['https://www.hala.jo/feed/'],
+    feeds: { top: ['https://www.hala.jo/feed/'] },
     authority: 7,
   },
   {
@@ -6427,7 +6456,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'JO',
     language: 'ar',
-    feedUrls: ['https://alwakeelnews.com/rss'],
+    feeds: { top: ['https://alwakeelnews.com/rss'] },
     authority: 7,
   },
   // Nicaragua. Confidencial, Despacho 505 and Divergentes work from exile. La Prensa, El 19 and
@@ -6438,7 +6467,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NI',
     language: 'es',
-    feedUrls: ['https://www.confidencial.digital/feed/'],
+    feeds: { top: ['https://www.confidencial.digital/feed/'] },
     authority: 9,
   },
   {
@@ -6447,7 +6476,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NI',
     language: 'es',
-    feedUrls: ['https://www.divergentes.com/feed/'],
+    feeds: { top: ['https://www.divergentes.com/feed/'] },
     authority: 8,
   },
   {
@@ -6456,7 +6485,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NI',
     language: 'es',
-    feedUrls: ['https://www.despacho505.com/feed/'],
+    feeds: { top: ['https://www.despacho505.com/feed/'] },
     authority: 7,
   },
   {
@@ -6465,7 +6494,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NI',
     language: 'es',
-    feedUrls: ['https://www.nicaraguainvestiga.com/feed/'],
+    feeds: { top: ['https://www.nicaraguainvestiga.com/feed/'] },
     authority: 7,
   },
   // Sierra Leone. Awoko and SLBC unreachable; AYV stale; Sierra Leone Live 403.
@@ -6475,7 +6504,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SL',
     language: 'en',
-    feedUrls: ['https://thecalabashnewspaper.com/feed/'],
+    feeds: { top: ['https://thecalabashnewspaper.com/feed/'] },
     authority: 8,
   },
   {
@@ -6484,7 +6513,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SL',
     language: 'en',
-    feedUrls: ['https://www.sierraloaded.sl/feed/'],
+    feeds: { top: ['https://www.sierraloaded.sl/feed/'] },
     authority: 7,
   },
   {
@@ -6493,7 +6522,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SL',
     language: 'en',
-    feedUrls: ['https://www.thesierraleonetelegraph.com/feed/'],
+    feeds: { top: ['https://www.thesierraleonetelegraph.com/feed/'] },
     authority: 7,
   },
   // Mongolia. Montsame and Olloo 403; News.mn and Zindaa serve no items; Gogo, iSee, Unuudur and
@@ -6504,7 +6533,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MN',
     language: 'mn',
-    feedUrls: ['https://ikon.mn/rss'],
+    feeds: { top: ['https://ikon.mn/rss'] },
     authority: 8,
   },
   {
@@ -6513,7 +6542,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MN',
     language: 'mn',
-    feedUrls: ['https://www.eguur.mn/feed/'],
+    feeds: { top: ['https://www.eguur.mn/feed/'] },
     authority: 7,
   },
   {
@@ -6522,7 +6551,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MN',
     language: 'mn',
-    feedUrls: ['https://www.ugluu.mn/feed'],
+    feeds: { top: ['https://www.ugluu.mn/feed'] },
     authority: 6,
   },
   // New Caledonia. Two outlets only. RRB and Caledonia 404; NCI and RNC unreachable.
@@ -6532,7 +6561,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NC',
     language: 'fr',
-    feedUrls: ['https://la1ere.franceinfo.fr/nouvellecaledonie/rss'],
+    feeds: { top: ['https://la1ere.franceinfo.fr/nouvellecaledonie/rss'] },
     authority: 9,
   },
   {
@@ -6541,7 +6570,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NC',
     language: 'fr',
-    feedUrls: ['https://www.lnc.nc/rss.xml'],
+    feeds: { top: ['https://www.lnc.nc/rss.xml'] },
     authority: 8,
   },
   // Timor-Leste (Tetum). Two outlets only. Independente 404; Tempo Timor malformed; GMN TV and RTTL
@@ -6552,7 +6581,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TL',
     language: 'tet',
-    feedUrls: ['https://www.tatoli.tl/feed/'],
+    feeds: { top: ['https://www.tatoli.tl/feed/'] },
     authority: 9,
   },
   {
@@ -6561,7 +6590,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TL',
     language: 'tet',
-    feedUrls: ['https://www.timorpost.com/feed'],
+    feeds: { top: ['https://www.timorpost.com/feed'] },
     authority: 8,
   },
   // Fiji. Two outlets only; FBC's main feed is mostly sport and it has no news-only feed. Fiji
@@ -6572,7 +6601,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FJ',
     language: 'en',
-    feedUrls: ['https://www.fijionenews.com.fj/feed/'],
+    feeds: { top: ['https://www.fijionenews.com.fj/feed/'] },
     authority: 8,
   },
   {
@@ -6581,7 +6610,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'FJ',
     language: 'en',
-    feedUrls: ['https://www.fbcnews.com.fj/feed/'],
+    feeds: { top: ['https://www.fbcnews.com.fj/feed/'] },
     authority: 7,
   },
   // Solomon Islands. Two outlets only. Solomon Star 403; Solomon Times 404.
@@ -6591,7 +6620,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SB',
     language: 'en',
-    feedUrls: ['https://www.theislandsun.com.sb/feed/'],
+    feeds: { top: ['https://www.theislandsun.com.sb/feed/'] },
     authority: 8,
   },
   {
@@ -6600,7 +6629,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SB',
     language: 'en',
-    feedUrls: ['https://www.sibconline.com.sb/feed/'],
+    feeds: { top: ['https://www.sibconline.com.sb/feed/'] },
     authority: 8,
   },
   // Djibouti. Two outlets only, both state media, a few items a day. ADI 404.
@@ -6610,7 +6639,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DJ',
     language: 'fr',
-    feedUrls: ['https://www.lanation.dj/feed/'],
+    feeds: { top: ['https://www.lanation.dj/feed/'] },
     authority: 8,
   },
   {
@@ -6619,7 +6648,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'DJ',
     language: 'fr',
-    feedUrls: ['https://www.rtd.dj/feed'],
+    feeds: { top: ['https://www.rtd.dj/feed'] },
     authority: 8,
   },
   // Congo-Brazzaville. Two outlets only, a few items a day. Adiac's feed only lists its e-paper;
@@ -6630,7 +6659,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CG',
     language: 'fr',
-    feedUrls: ['https://www.vox.cg/feed/'],
+    feeds: { top: ['https://www.vox.cg/feed/'] },
     authority: 7,
   },
   {
@@ -6639,7 +6668,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'CG',
     language: 'fr',
-    feedUrls: ['https://www.journaldebrazza.com/feed/'],
+    feeds: { top: ['https://www.journaldebrazza.com/feed/'] },
     authority: 7,
   },
   // Burundi. Two outlets only, a few items a day; SOS Médias Burundi works from exile. Isanganiro
@@ -6650,7 +6679,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BI',
     language: 'fr',
-    feedUrls: ['https://www.iwacu-burundi.org/feed/'],
+    feeds: { top: ['https://www.iwacu-burundi.org/feed/'] },
     authority: 8,
   },
   {
@@ -6659,7 +6688,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BI',
     language: 'fr',
-    feedUrls: ['https://www.sosmediasburundi.org/feed/'],
+    feeds: { top: ['https://www.sosmediasburundi.org/feed/'] },
     authority: 7,
   },
   // Lesotho. Small feeds: Newsday leans to culture and lifestyle, The Reporter and Public Eye post
@@ -6670,7 +6699,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LS',
     language: 'en',
-    feedUrls: ['https://newsdayonline.co.ls/feed/'],
+    feeds: { top: ['https://newsdayonline.co.ls/feed/'] },
     authority: 7,
   },
   {
@@ -6679,7 +6708,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LS',
     language: 'en',
-    feedUrls: ['https://www.thereporter.co.ls/feed/'],
+    feeds: { top: ['https://www.thereporter.co.ls/feed/'] },
     authority: 7,
   },
   {
@@ -6688,7 +6717,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LS',
     language: 'en',
-    feedUrls: ['https://publiceyenews.com/feed/'],
+    feeds: { top: ['https://publiceyenews.com/feed/'] },
     authority: 6,
   },
   // Qatar. Qatar Tribune and Al Raya publish Google News sitemaps (titles and dates, no summaries)
@@ -6700,7 +6729,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'QA',
     language: 'en',
-    feedUrls: ['https://www.qatar-tribune.com/sitemaps/newsSitemap.xml'],
+    feeds: { top: ['https://www.qatar-tribune.com/sitemaps/newsSitemap.xml'] },
     authority: 8,
   },
   {
@@ -6709,7 +6738,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'QA',
     language: 'ar',
-    feedUrls: ['https://www.raya.com/sitemaps/newsSitemap.xml'],
+    feeds: { top: ['https://www.raya.com/sitemaps/newsSitemap.xml'] },
     authority: 8,
   },
   {
@@ -6718,7 +6747,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'QA',
     language: 'en',
-    feedUrls: ['https://dohanews.co/feed/'],
+    feeds: { top: ['https://dohanews.co/feed/'] },
     authority: 6,
   },
   // Kuwait. Kuwait Times, Arab Times and Al Jarida via news sitemaps. Al Rai and Al Qabas 404; KUNA
@@ -6729,7 +6758,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KW',
     language: 'en',
-    feedUrls: ['https://kuwaittimes.com/sitemaps/newsSitemap.xml'],
+    feeds: { top: ['https://kuwaittimes.com/sitemaps/newsSitemap.xml'] },
     authority: 8,
   },
   {
@@ -6738,7 +6767,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KW',
     language: 'en',
-    feedUrls: ['https://www.arabtimesonline.com/sitemaps/newsSitemap.xml'],
+    feeds: { top: ['https://www.arabtimesonline.com/sitemaps/newsSitemap.xml'] },
     authority: 7,
   },
   {
@@ -6747,7 +6776,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KW',
     language: 'ar',
-    feedUrls: ['https://www.aljarida.com/sitemaps/newsSitemap.xml'],
+    feeds: { top: ['https://www.aljarida.com/sitemaps/newsSitemap.xml'] },
     authority: 8,
   },
   {
@@ -6756,7 +6785,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KW',
     language: 'en',
-    feedUrls: ['https://timeskuwait.com/feed/'],
+    feeds: { top: ['https://timeskuwait.com/feed/'] },
     authority: 6,
   },
   // Oman. Oman Observer and Oman Daily via news sitemaps. Times of Oman has only plain sitemaps (no
@@ -6767,7 +6796,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'OM',
     language: 'en',
-    feedUrls: ['https://www.omanobserver.om/sitemaps/newsSitemap.xml'],
+    feeds: { top: ['https://www.omanobserver.om/sitemaps/newsSitemap.xml'] },
     authority: 8,
   },
   {
@@ -6776,7 +6805,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'OM',
     language: 'ar',
-    feedUrls: ['https://www.omandaily.om/sitemaps/newsSitemap.xml'],
+    feeds: { top: ['https://www.omandaily.om/sitemaps/newsSitemap.xml'] },
     authority: 8,
   },
   {
@@ -6785,7 +6814,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'OM',
     language: 'ar',
-    feedUrls: ['https://alroya.om/rss'],
+    feeds: { top: ['https://alroya.om/rss'] },
     authority: 7,
   },
   // Trinidad and Tobago. One outlet only, via its news sitemap. Newsday unreachable; Guardian 404;
@@ -6796,7 +6825,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TT',
     language: 'en',
-    feedUrls: ['https://trinidadexpress.com/tncms/sitemap/news.xml'],
+    feeds: { top: ['https://trinidadexpress.com/tncms/sitemap/news.xml'] },
     authority: 8,
   },
   // Angola. Maka Angola posts a few investigations a week. Novo Jornal, Jornal de Angola, ANGOP, O
@@ -6807,7 +6836,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AO',
     language: 'pt',
-    feedUrls: ['https://correiokianda.info/feed/'],
+    feeds: { top: ['https://correiokianda.info/feed/'] },
     authority: 7,
   },
   {
@@ -6816,7 +6845,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AO',
     language: 'pt',
-    feedUrls: ['https://www.expansao.co.ao/rss'],
+    feeds: { top: ['https://www.expansao.co.ao/rss'] },
     authority: 8,
   },
   {
@@ -6825,7 +6854,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'AO',
     language: 'pt',
-    feedUrls: ['https://www.makaangola.org/feed/'],
+    feeds: { top: ['https://www.makaangola.org/feed/'] },
     authority: 7,
   },
   // Botswana. Small feeds; Sunday Standard and Weekend Post are weeklies. Mmegi news sitemap stale;
@@ -6836,7 +6865,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BW',
     language: 'en',
-    feedUrls: ['https://www.sundaystandard.info/feed/'],
+    feeds: { top: ['https://www.sundaystandard.info/feed/'] },
     authority: 8,
   },
   {
@@ -6845,7 +6874,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BW',
     language: 'en',
-    feedUrls: ['https://www.thegazette.news/feed/'],
+    feeds: { top: ['https://www.thegazette.news/feed/'] },
     authority: 7,
   },
   {
@@ -6854,7 +6883,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BW',
     language: 'en',
-    feedUrls: ['https://www.weekendpost.co.bw/feed/'],
+    feeds: { top: ['https://www.weekendpost.co.bw/feed/'] },
     authority: 7,
   },
   {
@@ -6863,7 +6892,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BW',
     language: 'en',
-    feedUrls: ['https://thevoicebw.com/feed/'],
+    feeds: { top: ['https://thevoicebw.com/feed/'] },
     authority: 6,
   },
   // Papua New Guinea. Two outlets. The National 403 (its news sitemap is empty); EMTV serves no
@@ -6874,7 +6903,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PG',
     language: 'en',
-    feedUrls: ['https://www.postcourier.com.pg/feed/'],
+    feeds: { top: ['https://www.postcourier.com.pg/feed/'] },
     authority: 8,
   },
   {
@@ -6883,7 +6912,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'PG',
     language: 'en',
-    feedUrls: ['https://www.fm100.com.pg/feed/'],
+    feeds: { top: ['https://www.fm100.com.pg/feed/'] },
     authority: 6,
   },
   // Eswatini. One outlet only. Eswatini Observer and Eswatini Post unreachable; Eswatini Daily News
@@ -6894,7 +6923,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'SZ',
     language: 'en',
-    feedUrls: ['http://www.times.co.sz/rss'],
+    feeds: { top: ['http://www.times.co.sz/rss'] },
     authority: 8,
   },
   // Laos. Both in Lao, split into words with Intl.Segmenter. Laotian Times now mostly carries press
@@ -6905,7 +6934,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LA',
     language: 'lo',
-    feedUrls: ['https://laoedaily.com.la/feed/'],
+    feeds: { top: ['https://laoedaily.com.la/feed/'] },
     authority: 7,
   },
   {
@@ -6914,7 +6943,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'LA',
     language: 'lo',
-    feedUrls: ['https://www.rfa.org/lao/rss2.xml'],
+    feeds: { top: ['https://www.rfa.org/lao/rss2.xml'] },
     authority: 7,
   },
   // Bhutan. Small feeds. Kuensel 404.
@@ -6924,7 +6953,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BT',
     language: 'en',
-    feedUrls: ['https://www.bbs.bt/feed/'],
+    feeds: { top: ['https://www.bbs.bt/feed/'] },
     authority: 8,
   },
   {
@@ -6933,7 +6962,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BT',
     language: 'en',
-    feedUrls: ['https://thebhutanese.bt/feed/'],
+    feeds: { top: ['https://thebhutanese.bt/feed/'] },
     authority: 7,
   },
   {
@@ -6942,7 +6971,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'BT',
     language: 'en',
-    feedUrls: ['https://thebhutanlive.com/feed/'],
+    feeds: { top: ['https://thebhutanlive.com/feed/'] },
     authority: 6,
   },
   // Turkmenistan. No independent press inside the country: Azatlyk (RFE/RL, in Turkmen) and two
@@ -6953,7 +6982,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TM',
     language: 'tk',
-    feedUrls: ['https://www.azathabar.com/api/'],
+    feeds: { top: ['https://www.azathabar.com/api/'] },
     authority: 7,
   },
   {
@@ -6962,7 +6991,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TM',
     language: 'ru',
-    feedUrls: ['https://turkmen.news/feed/'],
+    feeds: { top: ['https://turkmen.news/feed/'] },
     authority: 7,
   },
   {
@@ -6971,7 +7000,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'TM',
     language: 'ru',
-    feedUrls: ['https://www.hronikatm.com/feed/'],
+    feeds: { top: ['https://www.hronikatm.com/feed/'] },
     authority: 7,
   },
   // Niger. A few items a day or less each. ActuNiger and Niger Diaspora 404.
@@ -6981,7 +7010,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NE',
     language: 'fr',
-    feedUrls: ['https://www.lesahel.org/feed/'],
+    feeds: { top: ['https://www.lesahel.org/feed/'] },
     authority: 7,
   },
   {
@@ -6990,7 +7019,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NE',
     language: 'fr',
-    feedUrls: ['https://www.tamtaminfo.com/feed/'],
+    feeds: { top: ['https://www.tamtaminfo.com/feed/'] },
     authority: 7,
   },
   {
@@ -6999,7 +7028,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NE',
     language: 'fr',
-    feedUrls: ['https://nigerinter.com/feed/'],
+    feeds: { top: ['https://nigerinter.com/feed/'] },
     authority: 6,
   },
   {
@@ -7008,7 +7037,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'NE',
     language: 'fr',
-    feedUrls: ['https://airinfoagadez.com/feed/'],
+    feeds: { top: ['https://airinfoagadez.com/feed/'] },
     authority: 6,
   },
   // Guinea-Bissau. One outlet only, a news blog. O Democrata, Capital News and gbissau.com 404.
@@ -7018,7 +7047,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GW',
     language: 'pt',
-    feedUrls: ['https://conosaba.blogspot.com/feeds/posts/default?alt=rss'],
+    feeds: { top: ['https://conosaba.blogspot.com/feeds/posts/default?alt=rss'] },
     authority: 6,
   },
   // Equatorial Guinea. Two outlets; Diario Rombe works from exile and posts a few items a week.
@@ -7029,7 +7058,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GQ',
     language: 'es',
-    feedUrls: ['https://www.realequatorialguinea.com/feed/'],
+    feeds: { top: ['https://www.realequatorialguinea.com/feed/'] },
     authority: 6,
   },
   {
@@ -7038,7 +7067,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GQ',
     language: 'es',
-    feedUrls: ['https://diariorombe.es/feed/'],
+    feeds: { top: ['https://diariorombe.es/feed/'] },
     authority: 6,
   },
   // Eritrea. State media only (the Information Ministry). Assenna and Madote unreachable; Eritrea
@@ -7049,7 +7078,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'ER',
     language: 'en',
-    feedUrls: ['https://shabait.com/feed/'],
+    feeds: { top: ['https://shabait.com/feed/'] },
     authority: 7,
   },
   // Vanuatu. One outlet only, via its news sitemap.
@@ -7059,7 +7088,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'VU',
     language: 'en',
-    feedUrls: ['https://www.dailypost.vu/tncms/sitemap/news.xml'],
+    feeds: { top: ['https://www.dailypost.vu/tncms/sitemap/news.xml'] },
     authority: 8,
   },
   // Greenland. One outlet only; its Danish feed has no dates. Sermitsiaq 404.
@@ -7069,7 +7098,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'GL',
     language: 'da',
-    feedUrls: ['https://knr.gl/da/rss'],
+    feeds: { top: ['https://knr.gl/da/rss'] },
     authority: 8,
   },
   // North Korea. No reachable domestic media; both outlets report on the country from Seoul.
@@ -7079,7 +7108,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KP',
     language: 'en',
-    feedUrls: ['https://www.nknews.org/feed/'],
+    feeds: { top: ['https://www.nknews.org/feed/'] },
     authority: 8,
   },
   {
@@ -7088,7 +7117,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'KP',
     language: 'en',
-    feedUrls: ['https://www.dailynk.com/english/feed/'],
+    feeds: { top: ['https://www.dailynk.com/english/feed/'] },
     authority: 7,
   },
   // Malta. Two outlets; Newsbook through its English feed. Times of Malta 403; Malta Today 404;
@@ -7099,7 +7128,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MT',
     language: 'en',
-    feedUrls: ['https://www.newsbook.com.mt/en/feed/'],
+    feeds: { top: ['https://www.newsbook.com.mt/en/feed/'] },
     authority: 8,
   },
   {
@@ -7108,7 +7137,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MT',
     language: 'en',
-    feedUrls: ['https://lovinmalta.com/feed/'],
+    feeds: { top: ['https://lovinmalta.com/feed/'] },
     authority: 7,
   },
   // Mauritius. L Express 403; Le Mauricien stale.
@@ -7118,7 +7147,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MU',
     language: 'fr',
-    feedUrls: ['https://defimedia.info/rss.xml'],
+    feeds: { top: ['https://defimedia.info/rss.xml'] },
     authority: 8,
   },
   {
@@ -7127,7 +7156,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MU',
     language: 'fr',
-    feedUrls: ['https://www.ionnews.mu/feed/'],
+    feeds: { top: ['https://www.ionnews.mu/feed/'] },
     authority: 7,
   },
   {
@@ -7136,7 +7165,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MU',
     language: 'en',
-    feedUrls: ['https://www.newsmoris.com/feed/'],
+    feeds: { top: ['https://www.newsmoris.com/feed/'] },
     authority: 6,
   },
   // Maldives. English editions only: the Dhivehi feeds (Sun, PSM) would need their own tokenizer,
@@ -7147,7 +7176,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MV',
     language: 'en',
-    feedUrls: ['https://en.sun.mv/feed'],
+    feeds: { top: ['https://en.sun.mv/feed'] },
     authority: 8,
   },
   {
@@ -7156,7 +7185,7 @@ export const SOURCES: SourceConfig[] = [
     type: 'rss',
     country: 'MV',
     language: 'en',
-    feedUrls: ['https://atolltimes.mv/feed'],
+    feeds: { top: ['https://atolltimes.mv/feed'] },
     authority: 7,
   },
   // ---- France: regions (see REGIONS). Local-section feeds only: the main
@@ -7168,7 +7197,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-ARA',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/rss'] },
     authority: 8,
   },
   {
@@ -7178,7 +7207,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-ARA',
-    feedUrls: ['https://www.leprogres.fr/rhone/rss'],
+    feeds: { top: ['https://www.leprogres.fr/rhone/rss'] },
     authority: 9,
   },
   {
@@ -7188,7 +7217,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-ARA',
-    feedUrls: ['https://www.ledauphine.com/isere/rss'],
+    feeds: { top: ['https://www.ledauphine.com/isere/rss'] },
     authority: 9,
   },
   {
@@ -7198,7 +7227,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-ARA',
-    feedUrls: ['https://www.bfmtv.com/rss/lyon/'],
+    feeds: { top: ['https://www.bfmtv.com/rss/lyon/'] },
     authority: 7,
   },
   {
@@ -7208,11 +7237,13 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-ARA',
-    feedUrls: [
-      'https://www.ici.fr/rss/isere/rubrique/infos.xml',
-      'https://www.ici.fr/rss/pays-de-savoie/rubrique/infos.xml',
-      'https://www.ici.fr/rss/saint-etienne-loire/rubrique/infos.xml',
-    ],
+    feeds: {
+      top: [
+        'https://www.ici.fr/rss/isere/rubrique/infos.xml',
+        'https://www.ici.fr/rss/pays-de-savoie/rubrique/infos.xml',
+        'https://www.ici.fr/rss/saint-etienne-loire/rubrique/infos.xml',
+      ],
+    },
     authority: 8,
   },
   {
@@ -7222,7 +7253,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-ARA',
-    feedUrls: ['https://www.lyoncapitale.fr/feed'],
+    feeds: { top: ['https://www.lyoncapitale.fr/feed'] },
     authority: 6,
   },
   {
@@ -7232,7 +7263,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BFC',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/bourgogne-franche-comte/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/bourgogne-franche-comte/rss'] },
     authority: 8,
   },
   {
@@ -7242,7 +7273,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BFC',
-    feedUrls: ['https://www.bienpublic.com/cote-d-or/rss'],
+    feeds: { top: ['https://www.bienpublic.com/cote-d-or/rss'] },
     authority: 9,
   },
   {
@@ -7252,7 +7283,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BFC',
-    feedUrls: ['https://www.lejsl.com/saone-et-loire/rss'],
+    feeds: { top: ['https://www.lejsl.com/saone-et-loire/rss'] },
     authority: 9,
   },
   {
@@ -7262,7 +7293,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BFC',
-    feedUrls: ['https://www.ici.fr/rss/bourgogne/rubrique/infos.xml', 'https://www.ici.fr/rss/besancon/rubrique/infos.xml'],
+    feeds: { top: ['https://www.ici.fr/rss/bourgogne/rubrique/infos.xml', 'https://www.ici.fr/rss/besancon/rubrique/infos.xml'] },
     authority: 8,
   },
   {
@@ -7272,7 +7303,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BFC',
-    feedUrls: ['https://www.macommune.info/feed/'],
+    feeds: { top: ['https://www.macommune.info/feed/'] },
     authority: 6,
   },
   {
@@ -7282,7 +7313,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BRE',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/bretagne/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/bretagne/rss'] },
     authority: 8,
   },
   {
@@ -7292,7 +7323,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BRE',
-    feedUrls: ['https://www.letelegramme.fr/bretagne/rss.xml'],
+    feeds: { top: ['https://www.letelegramme.fr/bretagne/rss.xml'] },
     authority: 9,
   },
   {
@@ -7302,7 +7333,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BRE',
-    feedUrls: ['https://www.20minutes.fr/feeds/rss-rennes.xml'],
+    feeds: { top: ['https://www.20minutes.fr/feeds/rss-rennes.xml'] },
     authority: 6,
   },
   {
@@ -7312,7 +7343,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-BRE',
-    feedUrls: ['https://www.ici.fr/rss/armorique/rubrique/infos.xml', 'https://www.ici.fr/rss/breizh-izel/rubrique/infos.xml'],
+    feeds: { top: ['https://www.ici.fr/rss/armorique/rubrique/infos.xml', 'https://www.ici.fr/rss/breizh-izel/rubrique/infos.xml'] },
     authority: 8,
   },
   {
@@ -7322,7 +7353,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-CVL',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/centre-val-de-loire/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/centre-val-de-loire/rss'] },
     authority: 8,
   },
   {
@@ -7332,7 +7363,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-CVL',
-    feedUrls: ['https://www.magcentre.fr/feed/'],
+    feeds: { top: ['https://www.magcentre.fr/feed/'] },
     authority: 6,
   },
   {
@@ -7342,11 +7373,13 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-CVL',
-    feedUrls: [
-      'https://www.ici.fr/rss/orleans/rubrique/infos.xml',
-      'https://www.ici.fr/rss/touraine/rubrique/infos.xml',
-      'https://www.ici.fr/rss/berry/rubrique/infos.xml',
-    ],
+    feeds: {
+      top: [
+        'https://www.ici.fr/rss/orleans/rubrique/infos.xml',
+        'https://www.ici.fr/rss/touraine/rubrique/infos.xml',
+        'https://www.ici.fr/rss/berry/rubrique/infos.xml',
+      ],
+    },
     authority: 8,
   },
   {
@@ -7356,7 +7389,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-CVL',
-    feedUrls: ['https://www.info-tours.fr/feed/'],
+    feeds: { top: ['https://www.info-tours.fr/feed/'] },
     authority: 6,
   },
   {
@@ -7366,7 +7399,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-20R',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/corse/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/corse/rss'] },
     authority: 8,
   },
   {
@@ -7376,7 +7409,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-20R',
-    feedUrls: ['https://www.corsenetinfos.corsica/xml/syndication.rss'],
+    feeds: { top: ['https://www.corsenetinfos.corsica/xml/syndication.rss'] },
     authority: 8,
   },
   {
@@ -7386,7 +7419,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-20R',
-    feedUrls: ['https://www.ici.fr/rss/rcfm/rubrique/infos.xml'],
+    feeds: { top: ['https://www.ici.fr/rss/rcfm/rubrique/infos.xml'] },
     authority: 8,
   },
   {
@@ -7396,7 +7429,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-20R',
-    feedUrls: ['https://www.alta-frequenza.corsica/feed'],
+    feeds: { top: ['https://www.alta-frequenza.corsica/feed'] },
     authority: 6,
   },
   {
@@ -7406,7 +7439,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-GES',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/grand-est/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/grand-est/rss'] },
     authority: 8,
   },
   {
@@ -7416,7 +7449,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-GES',
-    feedUrls: ['https://www.lalsace.fr/haut-rhin/rss'],
+    feeds: { top: ['https://www.lalsace.fr/haut-rhin/rss'] },
     authority: 9,
   },
   {
@@ -7426,7 +7459,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-GES',
-    feedUrls: ['https://www.estrepublicain.fr/meurthe-et-moselle/rss'],
+    feeds: { top: ['https://www.estrepublicain.fr/meurthe-et-moselle/rss'] },
     authority: 9,
   },
   {
@@ -7436,12 +7469,14 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-GES',
-    feedUrls: [
-      'https://www.ici.fr/rss/alsace/rubrique/infos.xml',
-      'https://www.ici.fr/rss/sud-lorraine/rubrique/infos.xml',
-      'https://www.ici.fr/rss/lorraine-nord/rubrique/infos.xml',
-      'https://www.ici.fr/rss/champagne-ardenne/rubrique/infos.xml',
-    ],
+    feeds: {
+      top: [
+        'https://www.ici.fr/rss/alsace/rubrique/infos.xml',
+        'https://www.ici.fr/rss/sud-lorraine/rubrique/infos.xml',
+        'https://www.ici.fr/rss/lorraine-nord/rubrique/infos.xml',
+        'https://www.ici.fr/rss/champagne-ardenne/rubrique/infos.xml',
+      ],
+    },
     authority: 8,
   },
   {
@@ -7451,7 +7486,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-GES',
-    feedUrls: ['https://www.rue89strasbourg.com/feed'],
+    feeds: { top: ['https://www.rue89strasbourg.com/feed'] },
     authority: 6,
   },
   {
@@ -7461,7 +7496,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-HDF',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/hauts-de-france/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/hauts-de-france/rss'] },
     authority: 8,
   },
   {
@@ -7471,7 +7506,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-HDF',
-    feedUrls: ['https://www.bfmtv.com/rss/grand-lille/'],
+    feeds: { top: ['https://www.bfmtv.com/rss/grand-lille/'] },
     authority: 7,
   },
   {
@@ -7481,7 +7516,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-HDF',
-    feedUrls: ['https://www.ici.fr/rss/nord/rubrique/infos.xml', 'https://www.ici.fr/rss/picardie/rubrique/infos.xml'],
+    feeds: { top: ['https://www.ici.fr/rss/nord/rubrique/infos.xml', 'https://www.ici.fr/rss/picardie/rubrique/infos.xml'] },
     authority: 8,
   },
   {
@@ -7491,7 +7526,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-IDF',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/paris-ile-de-france/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/paris-ile-de-france/rss'] },
     authority: 8,
   },
   {
@@ -7501,7 +7536,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-IDF',
-    feedUrls: ['https://www.bfmtv.com/rss/paris/'],
+    feeds: { top: ['https://www.bfmtv.com/rss/paris/'] },
     authority: 7,
   },
   {
@@ -7511,7 +7546,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-IDF',
-    feedUrls: ['https://www.20minutes.fr/feeds/rss-paris.xml'],
+    feeds: { top: ['https://www.20minutes.fr/feeds/rss-paris.xml'] },
     authority: 6,
   },
   {
@@ -7521,7 +7556,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-IDF',
-    feedUrls: ['https://www.ici.fr/rss/107-1/rubrique/infos.xml'],
+    feeds: { top: ['https://www.ici.fr/rss/107-1/rubrique/infos.xml'] },
     authority: 8,
   },
   {
@@ -7531,7 +7566,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-IDF',
-    feedUrls: ['https://94.citoyens.com/feed'],
+    feeds: { top: ['https://94.citoyens.com/feed'] },
     authority: 6,
   },
   {
@@ -7541,7 +7576,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-NOR',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/normandie/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/normandie/rss'] },
     authority: 8,
   },
   {
@@ -7553,11 +7588,13 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-NOR',
-    feedUrls: [
-      'https://www.ici.fr/rss/normandie-caen/rubrique/infos.xml',
-      'https://www.ici.fr/rss/normandie-rouen/rubrique/infos.xml',
-      'https://www.ici.fr/rss/cotentin/rubrique/infos.xml',
-    ],
+    feeds: {
+      top: [
+        'https://www.ici.fr/rss/normandie-caen/rubrique/infos.xml',
+        'https://www.ici.fr/rss/normandie-rouen/rubrique/infos.xml',
+        'https://www.ici.fr/rss/cotentin/rubrique/infos.xml',
+      ],
+    },
     authority: 8,
   },
   {
@@ -7567,7 +7604,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-NOR',
-    feedUrls: ['https://www.bfmtv.com/rss/normandie/'],
+    feeds: { top: ['https://www.bfmtv.com/rss/normandie/'] },
     authority: 7,
   },
   {
@@ -7577,7 +7614,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-NAQ',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/nouvelle-aquitaine/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/nouvelle-aquitaine/rss'] },
     authority: 8,
   },
   {
@@ -7587,7 +7624,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-NAQ',
-    feedUrls: ['https://www.sudouest.fr/gironde/rss.xml'],
+    feeds: { top: ['https://www.sudouest.fr/gironde/rss.xml'] },
     authority: 9,
   },
   {
@@ -7597,7 +7634,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-NAQ',
-    feedUrls: ['https://www.charentelibre.fr/charente/rss.xml'],
+    feeds: { top: ['https://www.charentelibre.fr/charente/rss.xml'] },
     authority: 8,
   },
   {
@@ -7607,7 +7644,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-NAQ',
-    feedUrls: ['https://www.20minutes.fr/feeds/rss-bordeaux.xml'],
+    feeds: { top: ['https://www.20minutes.fr/feeds/rss-bordeaux.xml'] },
     authority: 6,
   },
   {
@@ -7617,11 +7654,13 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-NAQ',
-    feedUrls: [
-      'https://www.ici.fr/rss/pays-basque/rubrique/infos.xml',
-      'https://www.ici.fr/rss/gironde/rubrique/infos.xml',
-      'https://www.ici.fr/rss/limousin/rubrique/infos.xml',
-    ],
+    feeds: {
+      top: [
+        'https://www.ici.fr/rss/pays-basque/rubrique/infos.xml',
+        'https://www.ici.fr/rss/gironde/rubrique/infos.xml',
+        'https://www.ici.fr/rss/limousin/rubrique/infos.xml',
+      ],
+    },
     authority: 8,
   },
   {
@@ -7631,7 +7670,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-OCC',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/occitanie/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/occitanie/rss'] },
     authority: 8,
   },
   {
@@ -7641,7 +7680,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-OCC',
-    feedUrls: ['https://www.ladepeche.fr/communes/toulouse,31555.rss'],
+    feeds: { top: ['https://www.ladepeche.fr/communes/toulouse,31555.rss'] },
     authority: 9,
   },
   {
@@ -7651,7 +7690,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-OCC',
-    feedUrls: ['https://www.midilibre.fr/herault/rss.xml', 'https://www.midilibre.fr/gard/rss.xml'],
+    feeds: { top: ['https://www.midilibre.fr/herault/rss.xml', 'https://www.midilibre.fr/gard/rss.xml'] },
     authority: 9,
   },
   {
@@ -7661,7 +7700,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-OCC',
-    feedUrls: ['https://www.lindependant.fr/pyrenees-orientales/rss.xml'],
+    feeds: { top: ['https://www.lindependant.fr/pyrenees-orientales/rss.xml'] },
     authority: 8,
   },
   {
@@ -7671,7 +7710,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-OCC',
-    feedUrls: ['https://www.20minutes.fr/feeds/rss-montpellier.xml'],
+    feeds: { top: ['https://www.20minutes.fr/feeds/rss-montpellier.xml'] },
     authority: 6,
   },
   {
@@ -7681,11 +7720,13 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-OCC',
-    feedUrls: [
-      'https://www.ici.fr/rss/toulouse/rubrique/infos.xml',
-      'https://www.ici.fr/rss/herault/rubrique/infos.xml',
-      'https://www.ici.fr/rss/roussillon/rubrique/infos.xml',
-    ],
+    feeds: {
+      top: [
+        'https://www.ici.fr/rss/toulouse/rubrique/infos.xml',
+        'https://www.ici.fr/rss/herault/rubrique/infos.xml',
+        'https://www.ici.fr/rss/roussillon/rubrique/infos.xml',
+      ],
+    },
     authority: 8,
   },
   {
@@ -7695,7 +7736,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-PDL',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/pays-de-la-loire/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/pays-de-la-loire/rss'] },
     authority: 8,
   },
   {
@@ -7705,11 +7746,13 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-PDL',
-    feedUrls: [
-      'https://www.ici.fr/rss/loire-ocean/rubrique/infos.xml',
-      'https://www.ici.fr/rss/maine/rubrique/infos.xml',
-      'https://www.ici.fr/rss/mayenne/rubrique/infos.xml',
-    ],
+    feeds: {
+      top: [
+        'https://www.ici.fr/rss/loire-ocean/rubrique/infos.xml',
+        'https://www.ici.fr/rss/maine/rubrique/infos.xml',
+        'https://www.ici.fr/rss/mayenne/rubrique/infos.xml',
+      ],
+    },
     authority: 8,
   },
   {
@@ -7719,11 +7762,13 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-PDL',
-    feedUrls: [
-      'https://nantes.maville.com/flux/rss/actu.php?c=loc',
-      'https://angers.maville.com/flux/rss/actu.php?c=loc',
-      'https://lemans.maville.com/flux/rss/actu.php?c=loc',
-    ],
+    feeds: {
+      top: [
+        'https://nantes.maville.com/flux/rss/actu.php?c=loc',
+        'https://angers.maville.com/flux/rss/actu.php?c=loc',
+        'https://lemans.maville.com/flux/rss/actu.php?c=loc',
+      ],
+    },
     authority: 9,
   },
   {
@@ -7733,7 +7778,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-PDL',
-    feedUrls: ['https://tvvendee.fr/feed/'],
+    feeds: { top: ['https://tvvendee.fr/feed/'] },
     authority: 6,
   },
   {
@@ -7743,7 +7788,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-PAC',
-    feedUrls: ['https://france3-regions.francetvinfo.fr/provence-alpes-cote-d-azur/rss'],
+    feeds: { top: ['https://france3-regions.francetvinfo.fr/provence-alpes-cote-d-azur/rss'] },
     authority: 8,
   },
   {
@@ -7754,7 +7799,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-PAC',
-    feedUrls: ['https://www.nicematin.com/alpes-maritimes/rss', 'https://www.nicematin.com/var/rss'],
+    feeds: { top: ['https://www.nicematin.com/alpes-maritimes/rss', 'https://www.nicematin.com/var/rss'] },
     authority: 9,
   },
   {
@@ -7765,7 +7810,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-PAC',
-    feedUrls: ['https://www.bfmtv.com/rss/marseille/', 'https://www.bfmtv.com/rss/cote-d-azur/'],
+    feeds: { top: ['https://www.bfmtv.com/rss/marseille/', 'https://www.bfmtv.com/rss/cote-d-azur/'] },
     authority: 7,
   },
   {
@@ -7775,11 +7820,13 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-PAC',
-    feedUrls: [
-      'https://www.ici.fr/rss/provence/rubrique/infos.xml',
-      'https://www.ici.fr/rss/azur/rubrique/infos.xml',
-      'https://www.ici.fr/rss/vaucluse/rubrique/infos.xml',
-    ],
+    feeds: {
+      top: [
+        'https://www.ici.fr/rss/provence/rubrique/infos.xml',
+        'https://www.ici.fr/rss/azur/rubrique/infos.xml',
+        'https://www.ici.fr/rss/vaucluse/rubrique/infos.xml',
+      ],
+    },
     authority: 8,
   },
   {
@@ -7789,7 +7836,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'FR',
     language: 'fr',
     region: 'FR-PAC',
-    feedUrls: ['https://madeinmarseille.net/feed/'],
+    feeds: { top: ['https://madeinmarseille.net/feed/'] },
     authority: 6,
   },
   // ---- Germany: Länder (see REGIONS). One public broadcaster per Land (its
@@ -7804,7 +7851,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BW',
-    feedUrls: ['https://www.tagesschau.de/inland/regional/badenwuerttemberg/index~rss2.xml'],
+    feeds: { top: ['https://www.tagesschau.de/inland/regional/badenwuerttemberg/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -7814,7 +7861,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BW',
-    feedUrls: ['https://bnn.de/karlsruhe/feed'],
+    feeds: { top: ['https://bnn.de/karlsruhe/feed'] },
     authority: 8,
   },
   {
@@ -7824,7 +7871,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BW',
-    feedUrls: ['https://www.rnz.de/feed/133-RL_Regioticker_Free.xml'],
+    feeds: { top: ['https://www.rnz.de/feed/133-RL_Regioticker_Free.xml'] },
     authority: 8,
   },
   {
@@ -7834,7 +7881,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BW',
-    feedUrls: ['https://stuttgart.t-online.de/region/stuttgart/feed.rss'],
+    feeds: { top: ['https://stuttgart.t-online.de/region/stuttgart/feed.rss'] },
     authority: 6,
   },
   // BR24's seven Regierungsbezirk boards (Oberbayern … Mittelfranken); its
@@ -7846,15 +7893,17 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BY',
-    feedUrls: [
-      'https://nachrichtenfeeds.br.de/rdf/boards/UZlJdUE',
-      'https://nachrichtenfeeds.br.de/rdf/boards/UZlL3V1',
-      'https://nachrichtenfeeds.br.de/rdf/boards/UZlLX5M',
-      'https://nachrichtenfeeds.br.de/rdf/boards/UZlMIJH',
-      'https://nachrichtenfeeds.br.de/rdf/boards/UZlMw8z',
-      'https://nachrichtenfeeds.br.de/rdf/boards/UZlNKwl',
-      'https://nachrichtenfeeds.br.de/rdf/boards/UZlNk5T',
-    ],
+    feeds: {
+      top: [
+        'https://nachrichtenfeeds.br.de/rdf/boards/UZlJdUE',
+        'https://nachrichtenfeeds.br.de/rdf/boards/UZlL3V1',
+        'https://nachrichtenfeeds.br.de/rdf/boards/UZlLX5M',
+        'https://nachrichtenfeeds.br.de/rdf/boards/UZlMIJH',
+        'https://nachrichtenfeeds.br.de/rdf/boards/UZlMw8z',
+        'https://nachrichtenfeeds.br.de/rdf/boards/UZlNKwl',
+        'https://nachrichtenfeeds.br.de/rdf/boards/UZlNk5T',
+      ],
+    },
     authority: 8,
   },
   {
@@ -7864,7 +7913,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BY',
-    feedUrls: ['https://rss.sueddeutsche.de/rss/Bayern'],
+    feeds: { top: ['https://rss.sueddeutsche.de/rss/Bayern'] },
     authority: 9,
   },
   {
@@ -7874,7 +7923,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BY',
-    feedUrls: ['https://www.augsburger-allgemeine.de/bayern/rss'],
+    feeds: { top: ['https://www.augsburger-allgemeine.de/bayern/rss'] },
     authority: 9,
   },
   {
@@ -7884,7 +7933,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BY',
-    feedUrls: ['https://www.nn.de/region?isRss=true'],
+    feeds: { top: ['https://www.nn.de/region?isRss=true'] },
     authority: 8,
   },
   {
@@ -7894,7 +7943,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BY',
-    feedUrls: ['https://www.abendzeitung-muenchen.de/storage/rss/rss/muenchen-news-abendzeitung.xml'],
+    feeds: { top: ['https://www.abendzeitung-muenchen.de/storage/rss/rss/muenchen-news-abendzeitung.xml'] },
     authority: 8,
   },
   {
@@ -7904,7 +7953,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BY',
-    feedUrls: ['https://www.merkur.de/bayern/rssfeed.rdf'],
+    feeds: { top: ['https://www.merkur.de/bayern/rssfeed.rdf'] },
     authority: 8,
   },
   {
@@ -7914,7 +7963,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BE',
-    feedUrls: ['https://www.rbb24.de/berlin/index.xml/feed=rss.xml'],
+    feeds: { top: ['https://www.rbb24.de/berlin/index.xml/feed=rss.xml'] },
     authority: 8,
   },
   {
@@ -7924,7 +7973,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BE',
-    feedUrls: ['https://www.tagesspiegel.de/contentexport/feed/berlin'],
+    feeds: { top: ['https://www.tagesspiegel.de/contentexport/feed/berlin'] },
     authority: 9,
   },
   {
@@ -7934,7 +7983,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BE',
-    feedUrls: ['https://www.morgenpost.de/berlin/rss'],
+    feeds: { top: ['https://www.morgenpost.de/berlin/rss'] },
     authority: 9,
   },
   {
@@ -7944,7 +7993,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BE',
-    feedUrls: ['https://berlin.t-online.de/region/berlin/feed.rss'],
+    feeds: { top: ['https://berlin.t-online.de/region/berlin/feed.rss'] },
     authority: 6,
   },
   {
@@ -7954,7 +8003,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BB',
-    feedUrls: ['https://www.rbb24.de/brandenburg/index.xml/feed=rss.xml'],
+    feeds: { top: ['https://www.rbb24.de/brandenburg/index.xml/feed=rss.xml'] },
     authority: 8,
   },
   {
@@ -7964,7 +8013,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BB',
-    feedUrls: ['https://www.maz-online.de/arc/outboundfeeds/rss/category/brandenburg/'],
+    feeds: { top: ['https://www.maz-online.de/arc/outboundfeeds/rss/category/brandenburg/'] },
     authority: 9,
   },
   {
@@ -7974,7 +8023,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BB',
-    feedUrls: ['https://www.tagesspiegel.de/contentexport/feed/potsdam'],
+    feeds: { top: ['https://www.tagesspiegel.de/contentexport/feed/potsdam'] },
     authority: 8,
   },
   {
@@ -7984,7 +8033,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-BB',
-    feedUrls: ['https://www.niederlausitz-aktuell.de/feed'],
+    feeds: { top: ['https://www.niederlausitz-aktuell.de/feed'] },
     authority: 6,
   },
   {
@@ -7994,7 +8043,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HB',
-    feedUrls: ['https://www.butenunbinnen.de/feed/rss/nachrichten/neuste-nachrichten100.xml'],
+    feeds: { top: ['https://www.butenunbinnen.de/feed/rss/nachrichten/neuste-nachrichten100.xml'] },
     authority: 8,
   },
   {
@@ -8004,7 +8053,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HB',
-    feedUrls: ['https://www.weser-kurier.de/bremen/?view=rss'],
+    feeds: { top: ['https://www.weser-kurier.de/bremen/?view=rss'] },
     authority: 9,
   },
   {
@@ -8014,7 +8063,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HB',
-    feedUrls: ['https://www.kreiszeitung.de/lokales/bremen/rssfeed.rdf'],
+    feeds: { top: ['https://www.kreiszeitung.de/lokales/bremen/rssfeed.rdf'] },
     authority: 7,
   },
   {
@@ -8024,7 +8073,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HB',
-    feedUrls: ['https://bremen.t-online.de/region/bremen/feed.rss'],
+    feeds: { top: ['https://bremen.t-online.de/region/bremen/feed.rss'] },
     authority: 6,
   },
   {
@@ -8034,7 +8083,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HH',
-    feedUrls: ['https://www.ndr.de/nachrichten/hamburg/index~rss2.xml'],
+    feeds: { top: ['https://www.ndr.de/nachrichten/hamburg/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -8044,7 +8093,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HH',
-    feedUrls: ['https://www.abendblatt.de/hamburg/rss'],
+    feeds: { top: ['https://www.abendblatt.de/hamburg/rss'] },
     authority: 9,
   },
   {
@@ -8054,7 +8103,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HH',
-    feedUrls: ['https://www.mopo.de/hamburg?lab_viewport=rss'],
+    feeds: { top: ['https://www.mopo.de/hamburg?lab_viewport=rss'] },
     authority: 8,
   },
   {
@@ -8064,7 +8113,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HH',
-    feedUrls: ['https://hamburg.t-online.de/region/hamburg/feed.rss'],
+    feeds: { top: ['https://hamburg.t-online.de/region/hamburg/feed.rss'] },
     authority: 6,
   },
   {
@@ -8074,7 +8123,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HE',
-    feedUrls: ['https://www.hessenschau.de/index.rss'],
+    feeds: { top: ['https://www.hessenschau.de/index.rss'] },
     authority: 8,
   },
   {
@@ -8084,7 +8133,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HE',
-    feedUrls: ['https://www.faz.net/rss/aktuell/rhein-main/'],
+    feeds: { top: ['https://www.faz.net/rss/aktuell/rhein-main/'] },
     authority: 9,
   },
   {
@@ -8094,7 +8143,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HE',
-    feedUrls: ['https://www.fr.de/frankfurt/rssfeed.rdf'],
+    feeds: { top: ['https://www.fr.de/frankfurt/rssfeed.rdf'] },
     authority: 9,
   },
   // Ippen like the FR, but North Hesse rather than Frankfurt.
@@ -8105,7 +8154,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-HE',
-    feedUrls: ['https://www.hna.de/kassel/rssfeed.rdf'],
+    feeds: { top: ['https://www.hna.de/kassel/rssfeed.rdf'] },
     authority: 8,
   },
   {
@@ -8115,7 +8164,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-MV',
-    feedUrls: ['https://www.ndr.de/nachrichten/mecklenburg-vorpommern/index~rss2.xml'],
+    feeds: { top: ['https://www.ndr.de/nachrichten/mecklenburg-vorpommern/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -8125,7 +8174,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-MV',
-    feedUrls: ['https://www.ostsee-zeitung.de/arc/outboundfeeds/rss/category/mecklenburg-vorpommern/'],
+    feeds: { top: ['https://www.ostsee-zeitung.de/arc/outboundfeeds/rss/category/mecklenburg-vorpommern/'] },
     authority: 9,
   },
   {
@@ -8135,7 +8184,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-NI',
-    feedUrls: ['https://www.ndr.de/nachrichten/niedersachsen/index~rss2.xml'],
+    feeds: { top: ['https://www.ndr.de/nachrichten/niedersachsen/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -8145,7 +8194,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-NI',
-    feedUrls: ['https://www.haz.de/arc/outboundfeeds/rss/category/lokales/hannover/'],
+    feeds: { top: ['https://www.haz.de/arc/outboundfeeds/rss/category/lokales/hannover/'] },
     authority: 9,
   },
   {
@@ -8155,7 +8204,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-NI',
-    feedUrls: ['https://www.noz.de/lokales/osnabrueck/rss'],
+    feeds: { top: ['https://www.noz.de/lokales/osnabrueck/rss'] },
     authority: 9,
   },
   {
@@ -8165,7 +8214,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-NI',
-    feedUrls: ['https://www.braunschweiger-zeitung.de/niedersachsen/rss'],
+    feeds: { top: ['https://www.braunschweiger-zeitung.de/niedersachsen/rss'] },
     authority: 9,
   },
   {
@@ -8175,7 +8224,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-NI',
-    feedUrls: ['https://hannover.t-online.de/region/hannover/feed.rss'],
+    feeds: { top: ['https://hannover.t-online.de/region/hannover/feed.rss'] },
     authority: 6,
   },
   // tagesschau.de's NRW page (all WDR) has several times the volume of WDR's own feeds.
@@ -8186,7 +8235,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-NW',
-    feedUrls: ['https://www.tagesschau.de/inland/regional/nordrheinwestfalen/index~rss2.xml'],
+    feeds: { top: ['https://www.tagesschau.de/inland/regional/nordrheinwestfalen/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -8196,7 +8245,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-NW',
-    feedUrls: ['https://rp-online.de/nrw/feed.rss'],
+    feeds: { top: ['https://rp-online.de/nrw/feed.rss'] },
     authority: 9,
   },
   {
@@ -8206,7 +8255,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-NW',
-    feedUrls: ['https://feed.ksta.de/feed/rss/koeln/index.rss'],
+    feeds: { top: ['https://feed.ksta.de/feed/rss/koeln/index.rss'] },
     authority: 9,
   },
   {
@@ -8216,7 +8265,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-NW',
-    feedUrls: ['https://www.wn.de/rss/feed/wn_muenster'],
+    feeds: { top: ['https://www.wn.de/rss/feed/wn_muenster'] },
     authority: 8,
   },
   {
@@ -8226,7 +8275,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-RP',
-    feedUrls: ['https://www.tagesschau.de/inland/regional/rheinlandpfalz/index~rss2.xml'],
+    feeds: { top: ['https://www.tagesschau.de/inland/regional/rheinlandpfalz/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -8236,7 +8285,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-RP',
-    feedUrls: ['https://www.rhein-zeitung.de/feed/9-Newsletter_-_Rhein-Zeitung_Koblenz_und_Region.xml'],
+    feeds: { top: ['https://www.rhein-zeitung.de/feed/9-Newsletter_-_Rhein-Zeitung_Koblenz_und_Region.xml'] },
     authority: 9,
   },
   {
@@ -8246,7 +8295,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-RP',
-    feedUrls: ['https://www.volksfreund.de/region/feed.rss'],
+    feeds: { top: ['https://www.volksfreund.de/region/feed.rss'] },
     authority: 9,
   },
   {
@@ -8256,7 +8305,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-RP',
-    feedUrls: ['https://www.allgemeine-zeitung.de/rss/lokales/mainz/'],
+    feeds: { top: ['https://www.allgemeine-zeitung.de/rss/lokales/mainz/'] },
     authority: 8,
   },
   {
@@ -8266,7 +8315,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-RP',
-    feedUrls: ['https://lokalo.de/feed/'],
+    feeds: { top: ['https://lokalo.de/feed/'] },
     authority: 6,
   },
   // SR publishes no news feed of its own; tagesschau.de's Saarland page is SR's.
@@ -8277,7 +8326,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SL',
-    feedUrls: ['https://www.tagesschau.de/inland/regional/saarland/index~rss2.xml'],
+    feeds: { top: ['https://www.tagesschau.de/inland/regional/saarland/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -8287,7 +8336,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SL',
-    feedUrls: ['https://www.saarbruecker-zeitung.de/saarland/feed.rss'],
+    feeds: { top: ['https://www.saarbruecker-zeitung.de/saarland/feed.rss'] },
     authority: 9,
   },
   {
@@ -8297,7 +8346,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SL',
-    feedUrls: ['https://www.saarnews.com/feed/'],
+    feeds: { top: ['https://www.saarnews.com/feed/'] },
     authority: 6,
   },
   {
@@ -8307,7 +8356,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SN',
-    feedUrls: ['https://www.mdr.de/nachrichten/sachsen/index~rss2.xml'],
+    feeds: { top: ['https://www.mdr.de/nachrichten/sachsen/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -8317,7 +8366,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SN',
-    feedUrls: ['https://www.lvz.de/arc/outboundfeeds/rss/category/lokales/leipzig/'],
+    feeds: { top: ['https://www.lvz.de/arc/outboundfeeds/rss/category/lokales/leipzig/'] },
     authority: 9,
   },
   // Madsack like the LVZ, but Dresden rather than Leipzig.
@@ -8328,7 +8377,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SN',
-    feedUrls: ['https://www.dnn.de/arc/outboundfeeds/rss/category/lokales/dresden/'],
+    feeds: { top: ['https://www.dnn.de/arc/outboundfeeds/rss/category/lokales/dresden/'] },
     authority: 8,
   },
   {
@@ -8338,7 +8387,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SN',
-    feedUrls: ['https://www.freiepresse.de/chemnitz/feed.atom'],
+    feeds: { top: ['https://www.freiepresse.de/chemnitz/feed.atom'] },
     authority: 9,
   },
   {
@@ -8348,7 +8397,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-ST',
-    feedUrls: ['https://www.mdr.de/nachrichten/sachsen-anhalt/index~rss2.xml'],
+    feeds: { top: ['https://www.mdr.de/nachrichten/sachsen-anhalt/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -8358,7 +8407,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-ST',
-    feedUrls: ['https://www.az-online.de/altmark/rssfeed.rdf'],
+    feeds: { top: ['https://www.az-online.de/altmark/rssfeed.rdf'] },
     authority: 7,
   },
   {
@@ -8368,7 +8417,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-ST',
-    feedUrls: ['https://dubisthalle.de/feed/'],
+    feeds: { top: ['https://dubisthalle.de/feed/'] },
     authority: 6,
   },
   {
@@ -8378,7 +8427,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-ST',
-    feedUrls: ['https://hallespektrum.de/feed/'],
+    feeds: { top: ['https://hallespektrum.de/feed/'] },
     authority: 6,
   },
   {
@@ -8388,7 +8437,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SH',
-    feedUrls: ['https://www.ndr.de/nachrichten/schleswig-holstein/index~rss2.xml'],
+    feeds: { top: ['https://www.ndr.de/nachrichten/schleswig-holstein/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -8398,7 +8447,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SH',
-    feedUrls: ['https://www.kn-online.de/arc/outboundfeeds/rss/category/schleswig-holstein/'],
+    feeds: { top: ['https://www.kn-online.de/arc/outboundfeeds/rss/category/schleswig-holstein/'] },
     authority: 9,
   },
   {
@@ -8408,7 +8457,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-SH',
-    feedUrls: ['https://www.shz.de/rss'],
+    feeds: { top: ['https://www.shz.de/rss'] },
     authority: 9,
   },
   {
@@ -8418,7 +8467,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-TH',
-    feedUrls: ['https://www.mdr.de/nachrichten/thueringen/index~rss2.xml'],
+    feeds: { top: ['https://www.mdr.de/nachrichten/thueringen/index~rss2.xml'] },
     authority: 8,
   },
   {
@@ -8428,7 +8477,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-TH',
-    feedUrls: ['https://www.thueringer-allgemeine.de/lokales/rss'],
+    feeds: { top: ['https://www.thueringer-allgemeine.de/lokales/rss'] },
     authority: 9,
   },
   {
@@ -8438,7 +8487,7 @@ export const SOURCES: SourceConfig[] = [
     country: 'DE',
     language: 'de',
     region: 'DE-TH',
-    feedUrls: ['https://www.insuedthueringen.de/.rss.feed'],
+    feeds: { top: ['https://www.insuedthueringen.de/.rss.feed'] },
     authority: 8,
   },
   // ---- United States: states (one file per Census region)

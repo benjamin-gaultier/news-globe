@@ -27,7 +27,7 @@ function source(id: string, country: string, extra: Partial<SourceConfig> = {}):
     type: 'rss',
     country,
     language: 'fr',
-    feedUrls: [`https://${id}.example/rss`],
+    feeds: { top: [`https://${id}.example/rss`] },
     authority: 5,
     ...extra,
   };
@@ -68,17 +68,17 @@ describe('runIngest', () => {
     const figaro = source('figaro', 'FR', { authority: 8 });
     const nyt = source('nyt', 'US', { language: 'en' });
     await seedCache({
-      [lemonde.feedUrls[0]!]: [
+      [lemonde.feeds.top![0]!]: [
         item('lemonde', 'budget', STORY, hoursAgo(2)),
         item('lemonde', 'tempete', 'Tempête Alex : des milliers de foyers privés d’électricité en Bretagne', hoursAgo(3)),
       ],
-      [figaro.feedUrls[0]!]: [
+      [figaro.feeds.top![0]!]: [
         item('figaro', 'budget', `${STORY} ce mercredi`, hoursAgo(1)),
         // Same canonical URL twice (tracking parameter): kept once.
         item('figaro', 'greve?utm_source=rss', 'Grève à la SNCF : le trafic sera très perturbé jeudi', hoursAgo(4)),
         item('figaro', 'greve', 'Grève à la SNCF : le trafic sera très perturbé jeudi', hoursAgo(4)),
       ],
-      [nyt.feedUrls[0]!]: [item('nyt', 'senate', 'Senate passes the spending bill after a long night of votes', hoursAgo(1))],
+      [nyt.feeds.top![0]!]: [item('nyt', 'senate', 'Senate passes the spending bill after a long night of votes', hoursAgo(1))],
     });
 
     const { summary, log } = await ingest([lemonde, figaro, nyt]);
@@ -118,7 +118,7 @@ describe('runIngest', () => {
   it('drops stale, templated, misdecoded and non-news items', async () => {
     const lemonde = source('lemonde', 'FR');
     await seedCache({
-      [lemonde.feedUrls[0]!]: [
+      [lemonde.feeds.top![0]!]: [
         item('lemonde', 'fresh', 'Le Sénat adopte la réforme des retraites en première lecture', hoursAgo(1)),
         item(
           'lemonde',
@@ -143,9 +143,9 @@ describe('runIngest', () => {
     const telegramme = source('letelegramme', 'FR', { region: 'FR-BRE' });
     const title = 'Rennes : le nouveau métro attire déjà des milliers de voyageurs';
     await seedCache({
-      [ouest.feedUrls[0]!]: [item('ouestfrance', 'metro', title, hoursAgo(3))],
+      [ouest.feeds.top![0]!]: [item('ouestfrance', 'metro', title, hoursAgo(3))],
       // A partner rerunning the same headline later is not a second outlet covering it.
-      [telegramme.feedUrls[0]!]: [item('letelegramme', 'metro', title.toUpperCase(), hoursAgo(1))],
+      [telegramme.feeds.top![0]!]: [item('letelegramme', 'metro', title.toUpperCase(), hoursAgo(1))],
     });
 
     const { summary } = await ingest([ouest, telegramme]);
@@ -204,8 +204,8 @@ describe('runIngest', () => {
     const nowhere = source('nowhere', 'ZZ');
     const lost = source('lost', 'FR', { region: 'FR-ZZZ' });
     await seedCache({
-      [nowhere.feedUrls[0]!]: [item('nowhere', 'a', 'A story from a country the globe does not know', hoursAgo(1))],
-      [lost.feedUrls[0]!]: [item('lost', 'a', 'A story from a region the globe does not know', hoursAgo(1))],
+      [nowhere.feeds.top![0]!]: [item('nowhere', 'a', 'A story from a country the globe does not know', hoursAgo(1))],
+      [lost.feeds.top![0]!]: [item('lost', 'a', 'A story from a region the globe does not know', hoursAgo(1))],
     });
 
     const { summary } = await ingest([nowhere, lost]);
@@ -221,7 +221,7 @@ describe('runIngest', () => {
     const retrievedAt = hoursAgo(2);
     await seedCache(
       {
-        [lemonde.feedUrls[0]!]: [
+        [lemonde.feeds.top![0]!]: [
           item('lemonde', 'undated', 'Le Conseil constitutionnel valide la loi sur l’immigration', null),
           item(
             'lemonde',

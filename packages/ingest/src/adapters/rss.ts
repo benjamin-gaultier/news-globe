@@ -1,5 +1,5 @@
 import Parser from 'rss-parser';
-import { INGEST_SETTINGS, type SourceConfig } from '../sources.config';
+import { feedUrlsOf, INGEST_SETTINGS, type SourceConfig } from '../sources.config';
 import { cleanDescription, cleanTitle } from '../normalize/text';
 import type { AdapterContext, FetchResult, RawItem, SourceAdapter } from './types';
 
@@ -171,7 +171,7 @@ export const rssAdapter: SourceAdapter = {
   type: 'rss',
   async fetch(source: SourceConfig, ctx: AdapterContext): Promise<FetchResult[]> {
     const results: FetchResult[] = [];
-    for (const feedUrl of source.feedUrls) {
+    for (const feedUrl of feedUrlsOf(source)) {
       const res = await ctx.http.getItems(feedUrl, (body) => parseFeed(body, feedUrl));
       const detail = res.error ? ` (${res.error})` : '';
       ctx.log(`  ${source.id.padEnd(12)} ${res.outcome.padEnd(12)} ${String(res.items.length).padStart(3)} items  ${feedUrl}${detail}`);

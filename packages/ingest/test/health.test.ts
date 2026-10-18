@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { StatusFile } from '@news-globe/shared';
 import { buildStatus, writeStatus } from '../src/health';
-import { SOURCES, type SourceConfig } from '../src/sources.config';
+import { feedUrlsOf, SOURCES, type SourceConfig } from '../src/sources.config';
 
 const source = (id: string, country: string, feedUrls: string[], region?: string): SourceConfig => ({
   id,
@@ -12,7 +12,7 @@ const source = (id: string, country: string, feedUrls: string[], region?: string
   type: 'rss',
   country,
   language: 'fr',
-  feedUrls,
+  feeds: { top: feedUrls },
   authority: 1,
   region,
 });
@@ -92,7 +92,7 @@ describe('writeStatus', () => {
 
   it('writes status.json from the HTTP cache the run left behind', async () => {
     const [first] = SOURCES.filter((s) => s.type === 'rss');
-    const url = first!.feedUrls[0]!;
+    const url = feedUrlsOf(first!)[0]!;
     await mkdir(join(dir, '.cache'));
     await writeFile(join(dir, '.cache', 'http.json'), JSON.stringify({ version: 1, entries: { [url]: failed(T2, T0, 503) } }));
     const log = vi.spyOn(console, 'log').mockImplementation(() => {});
@@ -104,7 +104,7 @@ describe('writeStatus', () => {
     expect(status.feeds.failing).toEqual([
       { source: first!.id, unit: first!.region ?? first!.country, url, lastStatus: 503, lastOkAt: T0 },
     ]);
-    expect(status.feeds.total).toBe(SOURCES.filter((s) => s.type === 'rss').reduce((n, s) => n + s.feedUrls.length, 0));
+    expect(status.feeds.total).toBe(SOURCES.filter((s) => s.type === 'rss').reduce((n, s) => n + feedUrlsOf(s).length, 0));
     expect(log).toHaveBeenCalledWith(expect.stringMatching(/^\[status\] 1\/\d+ feeds failing/));
   });
 
