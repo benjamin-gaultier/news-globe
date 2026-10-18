@@ -128,6 +128,9 @@ function BriefItem({
   );
 }
 
+/** How far Today's file can lag the index and still join the briefing: a run or two, not hours. */
+const TODAY_MAX_LAG_MS = 3 * 3_600_000;
+
 const outlets = (s: TodayStory) => `${plural(s.outlets, 'outlet')} · ${s.source}`;
 const topDetail = (b: Brief) =>
   b.countries.length > 1
@@ -137,6 +140,8 @@ const topDetail = (b: Brief) =>
 export interface WorldPanelProps {
   /** Cross-border stories, from the index. */
   world: readonly WorldStory[];
+  /** When the index was written: Today's file, hours behind it, is left out. */
+  updatedAt?: string;
   /** Changes each time the app re-reads the index: Today's file is re-read with it. */
   refreshKey: number;
   now: number;
@@ -157,6 +162,7 @@ export interface WorldPanelProps {
  */
 export function WorldPanel({
   world,
+  updatedAt,
   refreshKey,
   now,
   isMobile,
@@ -171,8 +177,10 @@ export function WorldPanel({
   const loaded = latestData(file);
   // Today's file is written after the index, so it can be a run or more behind `world`. Its stories still fold into their
   // cross-border lines, as a story keeps its id (its lead article's) from run to run; one whose lead article changed
-  // shows twice until the file catches up, which beats a briefing without them.
-  const today = loaded ?? null;
+  // shows twice until the file catches up, which beats a briefing without them. Hours behind (the archive step and the
+  // Health workflow both stalled), its stories are left out rather than ranked with the current ones.
+  const lag = loaded && updatedAt ? Date.parse(updatedAt) - Date.parse(loaded.runAt) : 0;
+  const today = loaded && lag <= TODAY_MAX_LAG_MS ? loaded : null;
   const top = useMemo(() => topStories(today?.top ?? [], world), [today, world]);
   const rising = notIn(top, today?.rising ?? []);
   const lasting = notIn([...top, ...rising.map(briefOf)], today?.lasting ?? []);

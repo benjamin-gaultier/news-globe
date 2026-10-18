@@ -45,13 +45,16 @@ const nato: WorldStory = {
   latestPublishedAt: minutesAgo(30),
 };
 
+/** The index's run: Today's file is written a little after it, from the same run or one before. */
+const UPDATED_AT = minutesAgo(5);
+
 function renderWorld({ body = file, world = [nato] }: { body?: TodayFile | null; world?: WorldStory[] } = {}) {
   vi.stubGlobal(
     'fetch',
     vi.fn(async () => (body ? new Response(JSON.stringify(body)) : new Response('Not found', { status: 404 }))),
   );
   const handlers = { onClose: vi.fn(), onSheetChange: vi.fn(), onOpenStory: vi.fn(), onHighlight: vi.fn() };
-  const view = render(<WorldPanel world={world} refreshKey={0} now={NOW} isMobile={false} {...handlers} />);
+  const view = render(<WorldPanel world={world} updatedAt={UPDATED_AT} refreshKey={0} now={NOW} isMobile={false} {...handlers} />);
   return { ...handlers, ...view };
 }
 
@@ -271,6 +274,34 @@ describe('WorldPanel', () => {
     const top = await screen.findByRole('region', { name: 'Top stories' });
     expect(lines(top)).toEqual([{ title: 'NATO meets', countries: ['France', 'United States'] }]);
     expect(screen.getByText('The top stories worldwide right now')).toBeTruthy();
+  });
+
+  it('leaves out a Today file hours behind the index, rather than rank its stories with the current ones', async () => {
+    const { onHighlight, rerender } = renderWorld({ body: { ...file, runAt: minutesAgo(5 + 3 * 60 + 1) }, world: [] });
+    await screen.findByText(/Today’s stories aren’t available yet/);
+    const props = {
+      updatedAt: UPDATED_AT,
+      refreshKey: 0,
+      now: NOW,
+      isMobile: false,
+      onClose: vi.fn(),
+      onSheetChange: vi.fn(),
+      onOpenStory: vi.fn(),
+    };
+    rerender(<WorldPanel world={[nato]} {...props} onHighlight={onHighlight} />);
+    expect(lines(screen.getByRole('region', { name: 'Top stories' }))).toEqual([
+      { title: 'NATO meets', countries: ['France', 'United States'] },
+    ]);
+    expect(screen.queryByRole('region', { name: 'Rising this hour' })).toBeNull();
+    expect(screen.queryByRole('region', { name: 'On top all day' })).toBeNull();
+    expect(screen.getByText('The top stories worldwide right now')).toBeTruthy();
+    // Three hours behind, it still joins.
+    rerender(<WorldPanel world={[nato]} {...props} updatedAt={minutesAgo(5 + 3 * 60 - 1)} onHighlight={onHighlight} />);
+    expect(lines(screen.getByRole('region', { name: 'Top stories' })).map((l) => l.title)).toEqual([
+      'Budget passes',
+      'NATO meets',
+      'Senate vote',
+    ]);
   });
 
   it('lists Today’s stories alone when there are no cross-border ones', async () => {
