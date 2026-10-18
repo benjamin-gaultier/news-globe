@@ -31,7 +31,7 @@ let running = false;
 const AUTO_UPDATE = process.env.AUTO_UPDATE === '1';
 /**
  * ARCHIVE_AFTER_RUN=1: after each successful run, add it to the history archive
- * and rebuild trends, search, Today and translations (archive-remote.ts), so
+ * and rebuild trends, search, `today` and translations (archive-remote.ts), so
  * they follow every run instead of waiting for the hourly GitHub workflow,
  * which GitHub often delays or skips. Uses the same Cloudflare settings, plus
  * AZURE_TRANSLATOR_KEY / AZURE_TRANSLATOR_REGION for translations.

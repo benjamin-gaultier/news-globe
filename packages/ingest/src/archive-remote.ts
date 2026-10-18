@@ -74,7 +74,7 @@ export async function archiveFromKv(
     await upload(archiveKey(date), zipJson(day));
   }
 
-  // Trends, search and Today for this run, from the day and the published files.
+  // Trends, search and `today` for this run, from the day and the published files.
   const trends = buildTrends(day, runAt, units);
   const today = buildToday(trends, units);
   await upload(KV_KEYS.trends, zipJson(trends));

@@ -285,8 +285,8 @@ export interface TodayFile {
 }
 
 /**
- * `translations.json`: English for the headlines most people see (Today, each
- * country's top story, cross-border stories), machine-translated by the hourly
+ * `translations.json`: English for the headlines most people see (the world
+ * briefing, each country's top story), machine-translated by the hourly
  * workflow (packages/ingest/src/translate.ts). Absent until it is configured.
  */
 export interface TranslationsFile {
