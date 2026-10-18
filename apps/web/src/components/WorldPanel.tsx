@@ -198,7 +198,8 @@ export function WorldPanel({
   );
 
   let body: ReactNode;
-  if (loaded === undefined && file.status === 'loading') body = <p className="panel-message">Loading…</p>;
+  // The cross-border stories are in as soon as the index is: they show while Today's file loads, and its stories fold in.
+  if (loaded === undefined && file.status === 'loading' && !top.length) body = <p className="panel-message">Loading…</p>;
   else if (!top.length)
     body = (
       <p className="panel-message">

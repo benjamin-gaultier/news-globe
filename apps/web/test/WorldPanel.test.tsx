@@ -242,6 +242,30 @@ describe('WorldPanel', () => {
     expect(screen.queryByRole('link', { name: /Google Translate/ })).toBeNull();
   });
 
+  it('lists the cross-border stories while Today’s file loads', () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(() => new Promise<Response>(() => {})),
+    );
+    const props = {
+      refreshKey: 0,
+      now: NOW,
+      isMobile: false,
+      onClose: vi.fn(),
+      onSheetChange: vi.fn(),
+      onOpenStory: vi.fn(),
+      onHighlight: vi.fn(),
+    };
+    const { rerender } = render(<WorldPanel world={[nato]} {...props} />);
+    expect(screen.queryByText('Loading…')).toBeNull();
+    expect(lines(screen.getByRole('region', { name: 'Top stories' }))).toEqual([
+      { title: 'NATO meets', countries: ['France', 'United States'] },
+    ]);
+    // With none, it waits for Today's.
+    rerender(<WorldPanel world={[]} {...props} />);
+    expect(screen.getByText('Loading…')).toBeTruthy();
+  });
+
   it('lists the cross-border stories before the workflow has written Today’s file', async () => {
     renderWorld({ body: null });
     const top = await screen.findByRole('region', { name: 'Top stories' });
