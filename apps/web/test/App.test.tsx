@@ -340,6 +340,151 @@ describe('App', () => {
     });
   });
 
+  describe('Sections', () => {
+    /** Swipes the panel's list from right to left, as on a phone. */
+    function swipeLeft(body: Element) {
+      act(() => {
+        body.dispatchEvent(
+          Object.assign(new MouseEvent('pointerdown', { bubbles: true, clientX: 300, clientY: 400 }), { pointerType: 'touch' }),
+        );
+        body.dispatchEvent(
+          Object.assign(new MouseEvent('pointerup', { bubbles: true, clientX: 100, clientY: 400 }), { pointerType: 'touch' }),
+        );
+      });
+    }
+    const sections = () => within(panel()!).getByRole('group', { name: 'Section' });
+
+    beforeEach(() => {
+      const index = indexFile();
+      index.countries[0]!.categories = ['top', 'sport', 'business'];
+      index.regions = [
+        { code: 'FR-BRE', name: 'Brittany', updatedAt: ago(10), clusterCount: 1, categories: ['top', 'sport'] },
+        { code: 'FR-NAQ', name: 'Nouvelle-Aquitaine', updatedAt: ago(10), clusterCount: 1 },
+      ];
+      files['index.json'] = () => index;
+      files['countries/FR.sport.json'] = () => countryFile([cluster(article({ title: 'Le PSG s’impose' }))], { category: 'sport' });
+      files['countries/FR.business.json'] = () => countryFile([cluster(article({ title: 'Le CAC 40 recule' }))], { category: 'business' });
+      files['regions/FR-BRE.sport.json'] = () =>
+        countryFile([cluster(article({ title: 'Le Stade rennais gagne' }))], {
+          regionCode: 'FR-BRE',
+          regionName: 'Brittany',
+          category: 'sport',
+        });
+      files['regions/FR-NAQ.json'] = () =>
+        countryFile([cluster(article({ title: 'Bordeaux : le tram' }))], { regionCode: 'FR-NAQ', regionName: 'Nouvelle-Aquitaine' });
+    });
+
+    it('switches a country to a section, with its own link, and Back returns to its top headlines', async () => {
+      await renderApp('#FR');
+      await screen.findByRole('link', { name: 'Le budget adopté' });
+      expect(within(panel()!).getByRole('button', { name: 'History' })).toBeTruthy();
+
+      await userEvent.click(within(sections()).getByRole('button', { name: 'Sport' }));
+      expect(await screen.findByRole('link', { name: 'Le PSG s’impose' })).toBeTruthy();
+      expect(screen.queryByRole('link', { name: 'Le budget adopté' })).toBeNull();
+      expect(location.hash).toBe('#FR.sport');
+      expect(document.title).toBe('France · Sport · News Globe');
+      expect(requested()).toContain('/data/countries/FR.sport.json');
+      // History replays top headlines only: no way into it from a section's panel.
+      expect(within(panel()!).queryByRole('button', { name: 'History' })).toBeNull();
+
+      await userEvent.click(within(sections()).getByRole('button', { name: 'Business' }));
+      expect(await screen.findByRole('link', { name: 'Le CAC 40 recule' })).toBeTruthy();
+      expect(location.hash).toBe('#FR.business');
+
+      act(() => history.back());
+      await waitFor(() => expect(location.hash).toBe('#FR.sport'));
+      expect(await screen.findByRole('link', { name: 'Le PSG s’impose' })).toBeTruthy();
+      act(() => history.back());
+      await waitFor(() => expect(location.hash).toBe('#FR'));
+      expect(await screen.findByRole('link', { name: 'Le budget adopté' })).toBeTruthy();
+    });
+
+    it('opens a shared section link, whatever its case', async () => {
+      await renderApp('#fr.SPORT');
+      expect(await screen.findByRole('link', { name: 'Le PSG s’impose' })).toBeTruthy();
+      expect(location.hash).toBe('#FR.sport');
+      expect(within(sections()).getByRole('button', { name: 'Sport' }).getAttribute('aria-pressed')).toBe('true');
+    });
+
+    it('reloads an open section on every run, even one that kept the place’s top file', async () => {
+      const setIntervalSpy = vi.spyOn(globalThis, 'setInterval');
+      try {
+        await renderApp('#FR.sport');
+        await screen.findByRole('link', { name: 'Le PSG s’impose' });
+        // The next run: France's top file kept (its index line unchanged), its sport file rewritten.
+        const index = files['index.json']!() as IndexFile;
+        files['index.json'] = () => ({ ...index, updatedAt: new Date().toISOString() });
+        files['countries/FR.sport.json'] = () => countryFile([cluster(article({ title: 'Le PSG enchaîne' }))], { category: 'sport' });
+        const reloadIndex = setIntervalSpy.mock.calls.find(([, ms]) => ms === 5 * 60_000)![0] as () => void;
+        act(() => reloadIndex());
+        expect(await screen.findByRole('link', { name: 'Le PSG enchaîne' })).toBeTruthy();
+      } finally {
+        setIntervalSpy.mockRestore();
+      }
+    });
+
+    it('falls back from a link to a section a place doesn’t have to its top headlines', async () => {
+      await renderApp('#US.sport');
+      expect(await screen.findByRole('link', { name: 'Senate passes bill' })).toBeTruthy();
+      expect(location.hash).toBe('#US');
+      expect(within(panel()!).queryByRole('group', { name: 'Section' })).toBeNull();
+    });
+
+    it('keeps the section between a country and its regions where they have it', async () => {
+      await renderApp('#FR.sport');
+      await screen.findByRole('link', { name: 'Le PSG s’impose' });
+      const regions = () => within(screen.getByRole('navigation', { name: 'Regions of France' }));
+
+      await userEvent.click(regions().getByRole('button', { name: 'Brittany' }));
+      expect(await screen.findByRole('link', { name: 'Le Stade rennais gagne' })).toBeTruthy();
+      expect(location.hash).toBe('#FR-BRE.sport');
+      expect(document.title).toBe('Brittany · Sport · News Globe');
+
+      await userEvent.click(screen.getByRole('button', { name: '‹ France' }));
+      expect(await screen.findByRole('link', { name: 'Le PSG s’impose' })).toBeTruthy();
+      expect(location.hash).toBe('#FR.sport');
+
+      // Nouvelle-Aquitaine has no sport file: its top headlines.
+      await userEvent.click(regions().getByRole('button', { name: 'Nouvelle-Aquitaine' }));
+      expect(await screen.findByRole('link', { name: 'Bordeaux : le tram' })).toBeTruthy();
+      expect(location.hash).toBe('#FR-NAQ');
+      expect(requested()).not.toContain('/data/regions/FR-NAQ.sport.json');
+    });
+
+    it('moves to the next country’s top headlines on a swipe, even when it has the section too', async () => {
+      const index = files['index.json']!() as IndexFile;
+      index.countries[1]!.categories = ['top', 'sport'];
+      files['index.json'] = () => index;
+      const mq = vi
+        .spyOn(window, 'matchMedia')
+        .mockImplementation(
+          (query) => ({ matches: true, media: query, addEventListener() {}, removeEventListener() {} }) as unknown as MediaQueryList,
+        );
+      try {
+        await renderApp('#FR.sport');
+        swipeLeft((await screen.findByRole('link', { name: 'Le PSG s’impose' })).closest('.panel-body')!);
+        await waitFor(() => expect(location.hash).toBe('#US'));
+        expect(await screen.findByRole('link', { name: 'Senate passes bill' })).toBeTruthy();
+      } finally {
+        mq.mockRestore();
+      }
+    });
+
+    it('opens History on the top headlines, and Live returns to them', async () => {
+      files.archive = () => true;
+      await renderApp('#FR.sport');
+      await screen.findByRole('link', { name: 'Le PSG s’impose' });
+      await userEvent.click(screen.getByRole('button', { name: 'History' }));
+      expect(await screen.findByRole('link', { name: 'Archived budget story' })).toBeTruthy();
+      expect(location.hash).toMatch(/^#FR@/);
+
+      await userEvent.click(screen.getByRole('button', { name: 'Live' }));
+      expect(await screen.findByRole('link', { name: 'Le budget adopté' })).toBeTruthy();
+      expect(location.hash).toBe('#FR');
+    });
+  });
+
   it('reports an unreachable index and retries', async () => {
     const working = files['index.json']!;
     files['index.json'] = () => undefined;

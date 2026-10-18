@@ -38,6 +38,16 @@ describe('data', () => {
     expect(requested()).toEqual(['/data/countries/FR.json', '/data/regions/FR-BRE.json', '/data/countries/..%2Fx.json']);
   });
 
+  it('loads a section file next to the top file, passing the abort signal through', async () => {
+    fetchMock.mockImplementation(async () => json({ schemaVersion: SCHEMA_VERSION }));
+    const signal = new AbortController().signal;
+    await fetchCountry('FR', 'sport', signal);
+    await fetchRegion('FR-BRE', 'business');
+    await fetchCountry('DE', 'top');
+    expect(requested()).toEqual(['/data/countries/FR.sport.json', '/data/regions/FR-BRE.business.json', '/data/countries/DE.json']);
+    expect(fetchMock.mock.calls[0]![1]).toEqual({ signal, cache: 'no-cache' });
+  });
+
   it('fails on an HTTP error', async () => {
     fetchMock.mockResolvedValueOnce(new Response('nope', { status: 503 }));
     await expect(fetchCountry('FR')).rejects.toThrow("Couldn't load countries/FR.json (HTTP 503)");

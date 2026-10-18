@@ -129,6 +129,118 @@ describe('NewsPanel', () => {
     expect(onOpenStoryIn).toHaveBeenCalledWith('DE', 'x');
   });
 
+  describe('sections', () => {
+    const sport = (clusters = [cluster(article({ title: 'Le PSG s’impose' }))]) => ready(countryFile(clusters, { category: 'sport' }));
+    const sections = () => screen.queryByRole('group', { name: 'Section' });
+
+    it('offers Top, Sport and Business only for a place with section files', async () => {
+      const { rerender } = renderPanel({ state: ready(countryFile([])) });
+      expect(sections()).toBeNull();
+      rerender({ categories: ['top'] });
+      expect(sections()).toBeNull();
+
+      const onSelectCategory = vi.fn();
+      rerender({ categories: ['top', 'sport', 'business'], onSelectCategory });
+      const buttons = within(sections()!).getAllByRole('button');
+      expect(buttons.map((b) => [b.textContent, b.getAttribute('aria-pressed')])).toEqual([
+        ['Top', 'true'],
+        ['Sport', 'false'],
+        ['Business', 'false'],
+      ]);
+      await userEvent.click(within(sections()!).getByRole('button', { name: 'Sport' }));
+      expect(onSelectCategory).toHaveBeenCalledWith('sport');
+      // The open one does nothing.
+      await userEvent.click(within(sections()!).getByRole('button', { name: 'Top' }));
+      expect(onSelectCategory).toHaveBeenCalledOnce();
+    });
+
+    it('lists a section’s stories, saying which section and that trends and History cover top headlines only', () => {
+      renderPanel({ state: sport(), category: 'sport', categories: ['top', 'sport'], onSelectCategory: vi.fn() });
+      expect(headlines()).toEqual(['Le PSG s’impose']);
+      expect(screen.getByText(/National sport headlines/).textContent).toBe('National sport headlines · updated 10 minutes ago');
+      expect(within(sections()!).getByRole('button', { name: 'Sport' }).getAttribute('aria-pressed')).toBe('true');
+      expect(screen.getByText(/cover top headlines only/)).toBeTruthy();
+    });
+
+    it('names the section for a region too', () => {
+      renderPanel({
+        region: BRE,
+        state: ready(countryFile([], { regionCode: 'FR-BRE', category: 'business' })),
+        category: 'business',
+      });
+      expect(screen.getByText('Regional business headlines · updated 10 minutes ago')).toBeTruthy();
+      expect(screen.getByText('No business headlines for Brittany right now.')).toBeTruthy();
+    });
+
+    it('shows no badges, sparklines, History bar or top-story countries in a section', () => {
+      const c = cluster(article({ title: 'Le PSG s’impose' }));
+      renderPanel({
+        state: sport([c]),
+        category: 'sport',
+        trends: { [c.id]: { ranks: [4, 1], firstSeen: '2026-10-08T10:00:00Z', state: 'rising' } },
+        trendRuns: ['2026-10-08T10:00:00Z', '2026-10-08T11:00:00Z'],
+        timeline: <div>Timeline</div>,
+      });
+      expect(headlines()).toEqual(['Le PSG s’impose']);
+      expect(screen.queryByText('↑ Rising')).toBeNull();
+      expect(screen.queryByRole('img', { name: /Rank over/ })).toBeNull();
+      expect(screen.queryByText('Timeline')).toBeNull();
+    });
+
+    it('never shows the top file under a section, nor a section under Top', () => {
+      const top = countryFile([cluster(article({ title: 'Le budget' }))]);
+      // Right after the switch, the loader still holds the top file, ready, for one render; then it loads.
+      const { rerender } = renderPanel({ state: ready(top), category: 'sport' });
+      expect(headlines()).toEqual([]);
+      expect(document.querySelectorAll('.skeleton')).toHaveLength(6);
+      rerender({ state: { status: 'loading', previous: top }, category: 'sport' });
+      expect(headlines()).toEqual([]);
+      rerender({ state: sport(), category: 'top' });
+      expect(headlines()).toEqual([]);
+    });
+
+    it('reports a section that fails to load', () => {
+      renderPanel({ state: { status: 'error', error: 'HTTP 404' }, category: 'sport' });
+      expect(screen.getByRole('alert').textContent).toContain('Couldn’t load sport headlines for France.');
+    });
+
+    it('opens a story’s page without its rank or other countries, and says when it has left the section', async () => {
+      const c = cluster(article({ title: 'Le PSG s’impose' }), [article({ title: 'Victoire du PSG' })]);
+      const world = [
+        {
+          id: 'w',
+          names: ['psg'],
+          countries: [
+            { code: 'FR', clusterId: c.id, title: 'Le PSG s’impose', url: c.representative.url, outletCount24h: 2 },
+            { code: 'US', clusterId: 'us1', title: 'PSG win', url: 'https://us.example/p', outletCount24h: 3, language: 'en' },
+          ],
+          latestPublishedAt: c.representative.publishedAt,
+        },
+      ];
+      const { rerender, onOpenStory } = renderPanel({
+        state: sport([c]),
+        category: 'sport',
+        categories: ['top', 'sport'],
+        onSelectCategory: vi.fn(),
+        story: c.id,
+        world,
+        trends: { [c.id]: { ranks: [4, 1], firstSeen: '2026-10-08T10:00:00Z', state: 'rising' } },
+        trendRuns: ['2026-10-08T10:00:00Z', '2026-10-08T11:00:00Z'],
+      });
+      expect(screen.getByRole('heading', { level: 2, name: 'Le PSG s’impose' })).toBeTruthy();
+      expect(screen.getByRole('region', { name: 'Coverage · 2 outlets' })).toBeTruthy();
+      expect(screen.queryByRole('region', { name: 'In other countries' })).toBeNull();
+      expect(screen.queryByRole('region', { name: 'Rank today' })).toBeNull();
+      expect(screen.queryByText(/in France now/)).toBeNull();
+      expect(sections()).toBeNull();
+
+      rerender({ story: 'gone123' });
+      expect(screen.getByText('This story is no longer among France’s sport stories.')).toBeTruthy();
+      await userEvent.click(screen.getByRole('button', { name: 'See today’s sport stories' }));
+      expect(onOpenStory).toHaveBeenCalledWith(null);
+    });
+  });
+
   describe('story page', () => {
     const one = article({ title: 'Le budget adopté', source: { id: 'lemonde', name: 'Le Monde' }, publishedAt: '2026-10-08T11:00:00Z' });
     const two = article({ title: 'Budget : le vote', source: { id: 'figaro', name: 'Le Figaro' }, publishedAt: '2026-10-08T10:00:00Z' });
