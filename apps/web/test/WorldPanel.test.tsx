@@ -114,7 +114,7 @@ describe('WorldPanel', () => {
     expect(onOpenStory).toHaveBeenLastCalledWith('FR', 'c1');
   });
 
-  it('lights a story’s countries while it is pointed at or focused, and none once closed', async () => {
+  it('lights a story’s countries while it is pointed at or focused from the keyboard, and none once closed', async () => {
     const { onHighlight, unmount } = renderWorld();
     const top = await screen.findByRole('region', { name: 'Top stories' });
     const nato = within(top).getByRole('button', { name: 'NATO meets' }).closest('li')!;
@@ -123,16 +123,29 @@ describe('WorldPanel', () => {
     fireEvent.pointerLeave(nato, { pointerType: 'mouse' });
     expect(onHighlight).toHaveBeenLastCalledWith(null);
 
-    // A tap is no hover: nothing would clear it.
-    onHighlight.mockClear();
-    fireEvent.pointerEnter(nato, { pointerType: 'touch' });
-    expect(onHighlight).not.toHaveBeenCalled();
-
-    within(top).getByRole('button', { name: 'Senate vote' }).focus();
+    // Tab onto the next story, from the last chip of this one.
+    within(nato).getByRole('button', { name: 'United States' }).focus();
+    await userEvent.tab();
+    expect(document.activeElement).toBe(within(top).getByRole('button', { name: 'Senate vote' }));
     expect(onHighlight).toHaveBeenLastCalledWith(['US']);
+    // The mouse passing over another story leaves it lit.
+    fireEvent.pointerEnter(nato, { pointerType: 'mouse' });
+    expect(onHighlight).toHaveBeenLastCalledWith(['FR', 'US']);
+    fireEvent.pointerLeave(nato, { pointerType: 'mouse' });
+    expect(onHighlight).toHaveBeenLastCalledWith(['US']);
+
     onHighlight.mockClear();
     unmount();
-    expect(onHighlight).toHaveBeenCalledWith(null);
+    expect(onHighlight).toHaveBeenLastCalledWith(null);
+  });
+
+  it('lights nothing on a tap, though the tap focuses what it hits', async () => {
+    const { onHighlight } = renderWorld();
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    const button = within(top).getByRole('button', { name: 'NATO meets' });
+    await userEvent.pointer({ keys: '[TouchA]', target: button });
+    expect(document.activeElement).toBe(button);
+    expect(onHighlight).not.toHaveBeenCalledWith(['FR', 'US']);
   });
 
   it('clears the globe when the story pointed at leaves the list on a refresh', async () => {

@@ -1,5 +1,5 @@
 import type { CountryCode, TodayStory, WorldStory } from '@news-globe/shared';
-import { type PointerEvent, type ReactNode, useEffect, useMemo, useRef } from 'react';
+import { type PointerEvent, type ReactNode, useCallback, useEffect, useMemo, useRef } from 'react';
 import { latestData, useAsync } from '../hooks/useAsync';
 import { useTranslated } from '../hooks/useTranslated';
 import { briefOf, notIn, topStories, type Brief } from '../lib/briefing';
@@ -26,47 +26,53 @@ export function WorldIcon() {
 
 type OpenStory = (code: CountryCode, clusterId: string) => void;
 type Highlight = (countries: readonly CountryCode[] | null) => void;
+/** What lights a story: the pointer resting on it, or keyboard focus in it. */
+type LitBy = 'pointer' | 'focus';
+type Light = (by: LitBy, countries: readonly CountryCode[] | null) => void;
 
 /**
  * One story: its headline (an English-speaking country's, else the best-covered one, in English where it can be
  * translated), opening its page in that country, and a chip for each country whose top headlines carry it.
- * Pointing at it (not a tap: touch has no hover), or focusing it, lights those countries up on the globe.
+ * Pointing at it, or focusing it from the keyboard, lights those countries up on the globe. A tap does neither:
+ * touch has no hover, and nothing would clear the focus it leaves (on a Translate link that opened a tab, say).
  */
 function BriefItem({
   brief,
   detail,
   image = false,
   onOpenStory,
-  onHighlight,
+  onLight,
 }: {
   brief: Brief;
   detail: string;
   image?: boolean;
   onOpenStory: OpenStory;
-  onHighlight: Highlight;
+  onLight: Light;
 }) {
   const lead = brief.countries.find((c) => c.language === TARGET_LANGUAGE) ?? brief.countries[0]!;
   const language = lead.language ?? TARGET_LANGUAGE;
   const title = useTranslated(lead.title, language, true);
-  // Whether this line lit the globe: if it leaves the list while lit (a refresh), nothing else would clear it.
-  const lit = useRef(false);
-  const highlight = () => {
-    lit.current = true;
-    onHighlight(brief.countries.map((c) => c.code));
-  };
-  const clear = () => {
-    lit.current = false;
-    onHighlight(null);
+  // What this line lit: if it leaves the list while lit (a refresh), nothing else would clear it.
+  const lit = useRef<Record<LitBy, boolean>>({ pointer: false, focus: false });
+  const light = (by: LitBy, on: boolean) => {
+    lit.current[by] = on;
+    onLight(by, on ? brief.countries.map((c) => c.code) : null);
   };
   useEffect(
     () => () => {
-      if (lit.current) onHighlight(null);
+      for (const by of ['pointer', 'focus'] as const) if (lit.current[by]) onLight(by, null);
     },
-    [onHighlight],
+    [onLight],
   );
-  const hover = (on: () => void) => (e: PointerEvent) => e.pointerType !== 'touch' && on();
+  const hover = (on: boolean) => (e: PointerEvent) => e.pointerType !== 'touch' && light('pointer', on);
   return (
-    <li className="story brief" onPointerEnter={hover(highlight)} onPointerLeave={hover(clear)} onFocus={highlight} onBlur={clear}>
+    <li
+      className="story brief"
+      onPointerEnter={hover(true)}
+      onPointerLeave={hover(false)}
+      onFocus={(e) => e.target.matches(':focus-visible') && light('focus', true)}
+      onBlur={() => lit.current.focus && light('focus', false)}
+    >
       <div className="story-main">
         <div className="story-text">
           <button
@@ -151,6 +157,16 @@ export function WorldPanel({
   const top = useMemo(() => topStories(today?.top ?? [], world), [today, world]);
   const rising = notIn(top, today?.rising ?? []);
   const lasting = notIn(top, today?.lasting ?? []);
+  // The story pointed at lights the globe, else the one with keyboard focus: the mouse passing over the list
+  // leaves the focused story lit once it has gone.
+  const lit = useRef<Record<LitBy, readonly CountryCode[] | null>>({ pointer: null, focus: null });
+  const light = useCallback<Light>(
+    (by, countries) => {
+      lit.current[by] = countries;
+      onHighlight(lit.current.pointer ?? lit.current.focus);
+    },
+    [onHighlight],
+  );
   // No story stays lit once the briefing closes.
   useEffect(() => () => onHighlight(null), [onHighlight]);
 
@@ -179,7 +195,7 @@ export function WorldPanel({
           <h3 id="world-top">Top stories</h3>
           <ol className="story-list">
             {top.map((b) => (
-              <BriefItem key={b.key} brief={b} detail={topDetail(b)} image onOpenStory={onOpenStory} onHighlight={onHighlight} />
+              <BriefItem key={b.key} brief={b} detail={topDetail(b)} image onOpenStory={onOpenStory} onLight={light} />
             ))}
           </ol>
         </section>
@@ -194,7 +210,7 @@ export function WorldPanel({
                   brief={briefOf(s)}
                   detail={`#${s.rank} · ${outlets(s)}`}
                   onOpenStory={onOpenStory}
-                  onHighlight={onHighlight}
+                  onLight={light}
                 />
               ))}
             </ol>
@@ -211,7 +227,7 @@ export function WorldPanel({
                   brief={briefOf(s)}
                   detail={`#${s.rank} · in the top list since ${clock(s.firstSeen)}`}
                   onOpenStory={onOpenStory}
-                  onHighlight={onHighlight}
+                  onLight={light}
                 />
               ))}
             </ol>
