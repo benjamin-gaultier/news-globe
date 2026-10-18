@@ -1,4 +1,4 @@
-import type { SourceConfig } from '../sources.config';
+import type { Category, SourceConfig } from '../sources.config';
 import type { HttpCache } from '../http';
 
 /**
@@ -16,6 +16,8 @@ export interface RawItem {
 }
 
 export interface FetchResult {
+  /** The category of the feed the items came from: it decides the file they go to. */
+  category: Category;
   items: RawItem[];
   /** When the items were last actually retrieved from the network. */
   retrievedAt: string;
@@ -23,6 +25,8 @@ export interface FetchResult {
 
 export interface AdapterContext {
   http: HttpCache;
+  /** Categories whose feeds to fetch (the run's; see FETCHED_CATEGORIES). */
+  categories: readonly Category[];
   log: (msg: string) => void;
 }
 
@@ -32,6 +36,6 @@ export interface AdapterContext {
  */
 export interface SourceAdapter {
   readonly type: SourceConfig['type'];
-  /** Fetch current items for one configured source. Should not throw for a single bad feed. */
+  /** Fetch current items from one configured source's feeds in `ctx.categories`. Should not throw for a single bad feed. */
   fetch(source: SourceConfig, ctx: AdapterContext): Promise<FetchResult[]>;
 }

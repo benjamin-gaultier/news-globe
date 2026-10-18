@@ -62,6 +62,19 @@ describe('worker', () => {
     expect(await (await call('/data/index.json', e)).text()).toBe('{"i":1}');
   });
 
+  it('serves section files like the others', async () => {
+    const e = bundled({ 'countries/FR.json': '{"fr":1}', 'countries/FR.sport.json': '{"s":1}', 'regions/FR-BRE.business.json': '{"b":1}' });
+
+    const res = await call('/data/countries/FR.sport.json', e);
+
+    expect(res.status).toBe(200);
+    expect(await res.text()).toBe('{"s":1}');
+    expect(res.headers.get('Content-Type')).toBe('application/json; charset=utf-8');
+    expect(res.headers.get('Cache-Control')).toBe('public, max-age=60');
+    expect(await (await call('/data/regions/FR-BRE.business.json', e)).text()).toBe('{"b":1}');
+    expect((await call('/data/countries/FR.business.json', e)).status).toBe(404);
+  });
+
   it('404s a public path the bundle does not hold', async () => {
     const res = await call('/data/countries/DE.json', bundled({ 'index.json': '{}' }));
     expect(res.status).toBe(404);
@@ -74,6 +87,10 @@ describe('worker', () => {
     '/data/countries/FR.json.bak',
     '/data/countries%2F..%2F.cache%2Fhttp.json',
     '/data/regions/FR-TOOLONG.json',
+    '/data/countries/FR.top.json',
+    '/data/countries/FR.weather.json',
+    '/data/countries/FR.sport.business.json',
+    '/data/countries/FR.SPORT.json',
     '/data/archive/2026-10-08.json.gz',
   ])('never reads KV for a non-public path: %s', async (path) => {
     const e = bundled({ 'index.json': '{}' });
@@ -129,6 +146,20 @@ describe('worker', () => {
       const index = (await call('/data/index.json', e)).headers.get('ETag');
       const fr = (await call('/data/countries/FR.json', e)).headers.get('ETag');
       expect(index).not.toBe(fr);
+    });
+
+    it('revalidates section files, each with its own validator', async () => {
+      const e = bundled({ 'countries/FR.json': '{"fr":1}', 'countries/FR.sport.json': '{"s":1}' });
+      const top = (await call('/data/countries/FR.json', e)).headers.get('ETag')!;
+      const sport = (await call('/data/countries/FR.sport.json', e)).headers.get('ETag')!;
+      expect(sport).toMatch(/^W\/"[0-9a-f]{24}"$/);
+      expect(sport).not.toBe(top);
+
+      const same = await get('/data/countries/FR.sport.json', e, sport);
+      expect(same.status).toBe(304);
+      expect(same.body).toBeNull();
+      // The top file's validator doesn't stand for the sport file.
+      expect((await get('/data/countries/FR.sport.json', e, top)).status).toBe(200);
     });
 
     it('revalidates gzipped files too', async () => {

@@ -5,7 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { SCHEMA_VERSION, type CountryFile, type IndexFile } from '@news-globe/shared';
 import type { RawItem } from '../src/adapters';
 import { runIngest } from '../src/pipeline';
-import { INGEST_SETTINGS, type SourceConfig } from '../src/sources.config';
+import { FETCHED_CATEGORIES, feedUrlsOf, INGEST_SETTINGS, type Category, type SourceConfig } from '../src/sources.config';
 
 const NOW = Date.parse('2026-10-08T12:00:00Z');
 const hoursAgo = (h: number) => new Date(NOW - h * 3_600_000).toISOString();
@@ -55,9 +55,9 @@ const exists = (...parts: string[]) =>
     () => false,
   );
 
-function ingest(sources: SourceConfig[], offline = true) {
+function ingest(sources: SourceConfig[], { offline = true, categories }: { offline?: boolean; categories?: readonly Category[] } = {}) {
   const lines: string[] = [];
-  const run = runIngest({ dataDir: dir, sources, offline, now: () => NOW, log: (m) => lines.push(m) });
+  const run = runIngest({ dataDir: dir, sources, offline, categories, now: () => NOW, log: (m) => lines.push(m) });
   return run.then((summary) => ({ summary, log: lines.join('\n') }));
 }
 
@@ -85,8 +85,8 @@ describe('runIngest', () => {
     const { summary, log } = await ingest([lemonde, figaro, nyt]);
 
     expect(summary.countries).toEqual([
-      { code: 'FR', articles: 4, clusters: 3, written: true },
-      { code: 'US', articles: 1, clusters: 1, written: true },
+      { code: 'FR', category: 'top', articles: 4, clusters: 3, written: true },
+      { code: 'US', category: 'top', articles: 1, clusters: 1, written: true },
     ]);
     expect(summary.regions).toEqual([]);
     expect(log).toContain('FR: 4 articles → 3 clusters (1 multi-outlet), wrote top 3');
@@ -134,7 +134,7 @@ describe('runIngest', () => {
 
     const { summary } = await ingest([lemonde]);
 
-    expect(summary.countries).toEqual([{ code: 'FR', articles: 1, clusters: 1, written: true }]);
+    expect(summary.countries).toEqual([{ code: 'FR', category: 'top', articles: 1, clusters: 1, written: true }]);
     const fr = await readJson<CountryFile>('countries', 'FR.json');
     expect(fr.clusters.map((c) => c.representative.title)).toEqual(['Le Sénat adopte la réforme des retraites en première lecture']);
   });
@@ -152,7 +152,7 @@ describe('runIngest', () => {
     const { summary } = await ingest([ouest, telegramme]);
 
     expect(summary.countries).toEqual([]);
-    expect(summary.regions).toEqual([{ code: 'FR-BRE', articles: 1, clusters: 1, written: true }]);
+    expect(summary.regions).toEqual([{ code: 'FR-BRE', category: 'top', articles: 1, clusters: 1, written: true }]);
     expect(await exists('countries', 'FR.json')).toBe(false);
 
     const bre = await readJson<CountryFile>('regions', 'FR-BRE.json');
@@ -181,7 +181,7 @@ describe('runIngest', () => {
 
     const { summary, log } = await ingest([lemonde]);
 
-    expect(summary.countries).toEqual([{ code: 'FR', articles: 0, clusters: 0, written: false }]);
+    expect(summary.countries).toEqual([{ code: 'FR', category: 'top', articles: 0, clusters: 0, written: false }]);
     expect(log).toContain('FR: no articles — keeping previous file');
     expect(await readJson<CountryFile>('countries', 'FR.json')).toEqual(previous);
     const index = await readJson<IndexFile>('index.json');
@@ -195,7 +195,7 @@ describe('runIngest', () => {
 
     const { summary, log } = await ingest([lemonde]);
 
-    expect(summary.countries).toEqual([{ code: 'FR', articles: 0, clusters: 0, written: false }]);
+    expect(summary.countries).toEqual([{ code: 'FR', category: 'top', articles: 0, clusters: 0, written: false }]);
     expect(log).toContain('FR: no articles — nothing to write');
     expect(await exists('countries', 'FR.json')).toBe(false);
     expect((await readJson<IndexFile>('index.json')).countries).toEqual([]);
@@ -242,32 +242,175 @@ describe('runIngest', () => {
     expect(published).toEqual({ undated: retrievedAt, future: new Date(NOW).toISOString() });
   });
 
-  it('requests only feeds in fetched categories, and leaves out outlets with none', async () => {
+  it('writes each category to a file of its own, and none for a category without feeds', async () => {
+    const lemonde = source('lemonde', 'FR', {
+      authority: 10,
+      feeds: { top: ['https://lemonde.example/rss'], sport: ['https://lemonde.example/sport/rss'] },
+    });
+    const figaro = source('figaro', 'FR', {
+      feeds: { top: ['https://figaro.example/rss'], sport: ['https://figaro.example/sport/rss'] },
+    });
+    const match = 'Le PSG s’impose face à Marseille au Parc des Princes et prend la tête';
+    await seedCache({
+      'https://lemonde.example/rss': [item('lemonde', 'budget', STORY, hoursAgo(2))],
+      'https://figaro.example/rss': [item('figaro', 'greve', 'Grève à la SNCF : le trafic sera très perturbé jeudi', hoursAgo(1))],
+      'https://lemonde.example/sport/rss': [
+        item('lemonde', 'psg', match, hoursAgo(3)),
+        item('lemonde', 'tour', 'Le parcours du Tour de France 2027 dévoilé à Paris', hoursAgo(4)),
+      ],
+      'https://figaro.example/sport/rss': [item('figaro', 'psg', `${match} de la Ligue 1`, hoursAgo(2))],
+    });
+
+    const { summary, log } = await ingest([lemonde, figaro]);
+
+    expect(summary.countries).toEqual([
+      { code: 'FR', category: 'top', articles: 2, clusters: 2, written: true },
+      { code: 'FR', category: 'sport', articles: 3, clusters: 2, written: true },
+    ]);
+    expect(log).toContain('FR.sport: 3 articles → 2 clusters (1 multi-outlet), wrote top 2');
+
+    // The sport file is clustered and ranked on its own; top stories stay in the top file.
+    const sport = await readJson<CountryFile>('countries', 'FR.sport.json');
+    expect(sport).toMatchObject({ countryCode: 'FR', countryName: 'France', category: 'sport', updatedAt: new Date(NOW).toISOString() });
+    expect(sport.clusters.map((c) => [c.representative.title, c.outletCount])).toEqual([
+      [match, 2],
+      ['Le parcours du Tour de France 2027 dévoilé à Paris', 1],
+    ]);
+    const top = await readJson<CountryFile>('countries', 'FR.json');
+    expect(top.category).toBeUndefined();
+    expect(top.clusters.map((c) => c.representative.title)).toEqual(['Grève à la SNCF : le trafic sera très perturbé jeudi', STORY]);
+
+    // No outlet has a business feed: no business file, and the index lists only what exists.
+    expect(await exists('countries', 'FR.business.json')).toBe(false);
+    const index = await readJson<IndexFile>('index.json');
+    expect(index.countries).toEqual([expect.objectContaining({ code: 'FR', clusterCount: 2, categories: ['top', 'sport'] })]);
+  });
+
+  it('lets a sport-only outlet make a sport file without creating or touching the top file', async () => {
+    const kicker = source('kicker', 'DE', { language: 'de', feeds: { sport: ['https://kicker.example/rss'] } });
+    const stale = '{"stale":true}';
+    await mkdir(join(dir, 'countries'), { recursive: true });
+    await writeFile(join(dir, 'countries', 'DE.json'), stale);
+    await seedCache({
+      'https://kicker.example/rss': [item('kicker', 'bayern', 'Bayern schießt sich gegen Leipzig den Frust von der Seele', hoursAgo(1))],
+    });
+
+    const { summary, log } = await ingest([kicker]);
+
+    expect(summary.countries).toEqual([{ code: 'DE', category: 'sport', articles: 1, clusters: 1, written: true }]);
+    expect(log).not.toMatch(/^DE:/m);
+    expect((await readJson<CountryFile>('countries', 'DE.sport.json')).clusters).toHaveLength(1);
+    expect(await readFile(join(dir, 'countries', 'DE.json'), 'utf8')).toBe(stale);
+    // The index lists top files only: a section with no top file to hang from isn't offered.
+    expect((await readJson<IndexFile>('index.json')).countries).toEqual([]);
+  });
+
+  it('keeps the previous section file, and its place in the index, when its feeds come back empty', async () => {
+    const lemonde = source('lemonde', 'FR', {
+      feeds: { top: ['https://lemonde.example/rss'], business: ['https://lemonde.example/eco/rss'] },
+    });
+    const previous: CountryFile = {
+      schemaVersion: SCHEMA_VERSION,
+      countryCode: 'FR',
+      countryName: 'France',
+      category: 'business',
+      updatedAt: hoursAgo(5),
+      clusters: [],
+    };
+    await mkdir(join(dir, 'countries'), { recursive: true });
+    await writeFile(join(dir, 'countries', 'FR.business.json'), JSON.stringify(previous));
+    await seedCache({ 'https://lemonde.example/rss': [item('lemonde', 'budget', STORY, hoursAgo(1))] });
+
+    const { summary, log } = await ingest([lemonde]);
+
+    expect(summary.countries).toEqual([
+      { code: 'FR', category: 'top', articles: 1, clusters: 1, written: true },
+      { code: 'FR', category: 'business', articles: 0, clusters: 0, written: false },
+    ]);
+    expect(log).toContain('FR.business: no articles — keeping previous file');
+    expect(await readJson<CountryFile>('countries', 'FR.business.json')).toEqual(previous);
+    expect((await readJson<IndexFile>('index.json')).countries).toEqual([
+      expect.objectContaining({ code: 'FR', updatedAt: new Date(NOW).toISOString(), categories: ['top', 'business'] }),
+    ]);
+  });
+
+  it('writes a region’s section files next to its top file', async () => {
+    const ouest = source('ouestfrance', 'FR', {
+      region: 'FR-BRE',
+      feeds: { top: ['https://ouestfrance.example/rss'], sport: ['https://ouestfrance.example/sport/rss'] },
+    });
+    await seedCache({
+      'https://ouestfrance.example/rss': [
+        item('ouestfrance', 'metro', 'Rennes : le nouveau métro attire déjà des milliers de voyageurs', hoursAgo(1)),
+      ],
+      'https://ouestfrance.example/sport/rss': [
+        item('ouestfrance', 'srfc', 'Le Stade Rennais s’offre une victoire de prestige à Lyon', hoursAgo(1)),
+      ],
+    });
+
+    const { summary } = await ingest([ouest]);
+
+    expect(summary.regions.map((u) => `${u.code} ${u.category}`)).toEqual(['FR-BRE top', 'FR-BRE sport']);
+    expect(await readJson<CountryFile>('regions', 'FR-BRE.sport.json')).toMatchObject({ regionCode: 'FR-BRE', category: 'sport' });
+    expect((await readJson<IndexFile>('index.json')).regions).toEqual([
+      expect.objectContaining({ code: 'FR-BRE', categories: ['top', 'sport'] }),
+    ]);
+  });
+
+  describe('requests', () => {
     const topUrl = 'https://lemonde.example/rss';
     const sportUrl = 'https://lemonde.example/sport/rss';
-    const lemonde = source('lemonde', 'FR', { feeds: { top: [topUrl], sport: [sportUrl] } });
-    const gazzetta = source('gazzetta', 'IT', { language: 'it', feeds: { sport: ['https://gazzetta.example/rss'] } });
+    const businessUrl = 'https://lemonde.example/eco/rss';
+    const lemonde = source('lemonde', 'FR', { feeds: { top: [topUrl], sport: [sportUrl], business: [businessUrl] } });
+    const handelsblatt = source('handelsblatt', 'DE', { language: 'de', feeds: { business: ['https://handelsblatt.example/rss'] } });
     // Every feed serves a story of its own, so any feed that is read shows up as an article.
     const stories: Record<string, string> = {
       [topUrl]: STORY,
       [sportUrl]: 'Le PSG s’impose face à Marseille au Parc des Princes',
-      'https://gazzetta.example/rss': 'L’Inter vince il derby e torna in testa al campionato',
+      [businessUrl]: 'La Bourse de Paris termine la semaine en nette hausse',
+      'https://handelsblatt.example/rss': 'Die Bundesbank senkt ihre Prognose für das Wachstum',
     };
-    const fetchMock = vi.fn<typeof fetch>(async (input) => {
-      const url = String(input);
-      return new Response(
-        `<?xml version="1.0"?><rss version="2.0"><channel><title>${url}</title><item><title>${stories[url]}</title>` +
-          `<link>${url}/story</link><pubDate>${new Date(NOW - 3_600_000).toUTCString()}</pubDate></item></channel></rss>`,
-      );
+
+    /** Serves each feed live; returns the URLs requested so far. */
+    function serveFeeds() {
+      const fetchMock = vi.fn<typeof fetch>(async (input) => {
+        const url = String(input);
+        return new Response(
+          `<?xml version="1.0"?><rss version="2.0"><channel><title>${url}</title><item><title>${stories[url]}</title>` +
+            `<link>${url}/story</link><pubDate>${new Date(NOW - 3_600_000).toUTCString()}</pubDate></item></channel></rss>`,
+        );
+      });
+      vi.stubGlobal('fetch', fetchMock);
+      return () => fetchMock.mock.calls.map(([input]) => String(input));
+    }
+
+    it('go to every feed in FETCHED_CATEGORIES by default', async () => {
+      const requested = serveFeeds();
+
+      const { summary } = await ingest([lemonde], { offline: false });
+
+      expect(requested()).toEqual(feedUrlsOf(lemonde, FETCHED_CATEGORIES));
+      expect(summary.countries.map((u) => u.category)).toEqual([...FETCHED_CATEGORIES]);
     });
-    vi.stubGlobal('fetch', fetchMock);
 
-    const { summary } = await ingest([lemonde, gazzetta], false);
+    it('leave out feeds in a category the run doesn’t fetch, and outlets with only those', async () => {
+      const requested = serveFeeds();
 
-    expect(fetchMock.mock.calls.map(([input]) => String(input))).toEqual([topUrl]);
-    const cache = await readJson<{ entries: Record<string, unknown> }>('.cache', 'http.json');
-    expect(Object.keys(cache.entries)).toEqual([topUrl]);
-    // The sport-only outlet adds no unit, and the sport feed no article.
-    expect(summary).toEqual({ countries: [{ code: 'FR', articles: 1, clusters: 1, written: true }], regions: [] });
+      const { summary } = await ingest([lemonde, handelsblatt], { offline: false, categories: ['top', 'sport'] });
+
+      expect(requested()).toEqual([topUrl, sportUrl]);
+      const cache = await readJson<{ entries: Record<string, unknown> }>('.cache', 'http.json');
+      expect(Object.keys(cache.entries)).toEqual([topUrl, sportUrl]);
+      // The business-only outlet adds no unit, and the business feed no file.
+      expect(summary).toEqual({
+        countries: [
+          { code: 'FR', category: 'top', articles: 1, clusters: 1, written: true },
+          { code: 'FR', category: 'sport', articles: 1, clusters: 1, written: true },
+        ],
+        regions: [],
+      });
+      expect(await exists('countries', 'FR.business.json')).toBe(false);
+      expect(await exists('countries', 'DE.business.json')).toBe(false);
+    });
   });
 });

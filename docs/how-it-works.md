@@ -12,6 +12,8 @@ The features in detail, the pipeline and the data files. The overview is in the 
 
 **Story pages.** A story's **+N other sources** (or **Story details**) button opens its page in the panel: the headline and snippet, a link to the publisher and a **Share** button, its rank at each of today's runs, every outlet covering it in the order they published (the first is marked), and the same story in other countries, each opening its page there. **Also in** chips and the **Across borders** list open these pages too. A page has its own link, `/#FR/<story id>`; if that story has since left the top list, the page says so ([StoryDetail.tsx](../apps/web/src/components/StoryDetail.tsx)).
 
+**Sections.** A country or region with sport or business headlines gets a **Top / Sport / Business** switch under its name, offering only the sections it has (its `categories` in `index.json`). A section is clustered and ranked like the top headlines, from the outlets' section feeds (see **Sections** under [Pipeline](#pipeline)), and has its own link, `/#FR.sport`. New and Rising badges, sparklines, **Also in**, History, search and Today cover top headlines only, so a section's panel has no badges and no History bar, and its footnote says so. Moving between a country and its regions keeps the section where the place has it. Opening another country (from the row, the globe or a sideways swipe on a phone) starts on its top headlines: only some countries have sections, so a swipe that kept one would drop back to Top at whichever country lacks it, and this way every route into a country lands on the same view ([NewsPanel.tsx](../apps/web/src/components/NewsPanel.tsx)).
+
 **Rising.** Stories in a country or region panel carry a **New** badge (first ranked this hour) or a **↑ Rising** badge (up 3 or more places since the previous run), and a sparkline of their rank over today's runs. The legend's **Change** switch shades the globe by how many of each place's top 5 stories are new or rising this hour, which shows where the news is moving rather than how widely it's covered. Countries whose #1 story is new or rising this hour, and covered by 2 or more outlets, pulse with an orange ring (the 10 best-covered at most; none while a country is open, in history, or with reduced motion; with reduced motion the globe doesn't spin on its own either), and their tooltip says so. All of this comes from `/data/trends.json`, which the hourly workflow derives from the [history archive](operations.md#history-archive) ([derived.ts](../packages/ingest/src/derived.ts)). Badges only appear when the file describes the run on screen.
 
 **Across borders.** When the same story is in several countries' top headlines, the **Across borders** chip (`/#world`) lists those stories with each country's headline, and arcs join the countries on the globe. Each story gets an English line: an English-language country's headline when there is one, or else the best-covered headline translated (by the hourly workflow, or on-device where the browser supports it; see [Headline translation](operations.md#headline-translation)). A story in a country's list that runs elsewhere too shows "Also in" links to those countries. The matching uses no translation: see **Link** under [Pipeline](#pipeline).
@@ -20,7 +22,7 @@ The features in detail, the pipeline and the data files. The overview is in the 
 
 **On a phone.** Headlines open in a bottom sheet. Swipe sideways on a country's headlines to move to the next or previous country, in the order of the country row. The top bar shrinks on narrow screens (Today and History become icons). The site can be installed ("Add to Home Screen"; [manifest.webmanifest](../apps/web/public/manifest.webmanifest)), and a service worker ([sw.js](../apps/web/public/sw.js), production builds only) keeps the app and the last news it loaded, so repeat visits start straight away and the site still opens offline. The page also starts downloading the globe code (about 600 KB gzipped) together with the app, not after it.
 
-**Links.** The open view lives in the URL hash, so it can be shared: `/#FR` opens France and `/#FR-BRE` opens Brittany (a region code names its country). Codes are case-insensitive. Back and Forward step through the views you opened. A story id after a slash opens its page: `/#FR/EAskgXdmb1-3`. A `@` suffix opens History: `/#FR@2026-10-08T14:05` is France at the run of 14:05 UTC that day (or the closest run), and `/#@2026-10-08` is the globe on that day's latest run. Moving the timeline updates the link without adding Back steps. A link to a country or region with no data falls back to the globe or to the country ([lib/route.ts](../apps/web/src/lib/route.ts)).
+**Links.** The open view lives in the URL hash, so it can be shared: `/#FR` opens France and `/#FR-BRE` opens Brittany (a region code names its country). Codes are case-insensitive. Back and Forward step through the views you opened. A story id after a slash opens its page: `/#FR/EAskgXdmb1-3`. A section after a dot opens it: `/#FR.sport`, `/#FR-BRE.business`, `/#FR.sport/<story id>`. A `@` suffix opens History: `/#FR@2026-10-08T14:05` is France at the run of 14:05 UTC that day (or the closest run), and `/#@2026-10-08` is the globe on that day's latest run. Moving the timeline updates the link without adding Back steps. A link to a country or region with no data falls back to the globe or to the country, and one to a section the place doesn't have falls back to its top headlines. History has no sections, so `/#FR.sport@2026-10-08` is France's top headlines that day ([lib/route.ts](../apps/web/src/lib/route.ts)).
 
 ## Architecture
 
@@ -48,7 +50,7 @@ DATA_BASE_URL=https://dxxxx.cloudfront.net/news pnpm build
 
 ```
 apps/web/            React + Vite front end (react-globe.gl)
-  src/lib/route.ts                 the URL hash (#FR, #FR-BRE) ↔ the open country or region
+  src/lib/route.ts                 the URL hash (#FR, #FR-BRE, #FR.sport) ↔ the open country, region or section
   src/assets/countries-110m.json   Natural Earth 110m countries, trimmed (scripts/prepare-countries.mjs)
   src/assets/regions-fr.json       France's 13 regions, IGN Admin Express, trimmed (scripts/prepare-regions.mjs fr)
   src/assets/regions-de.json       Germany's 16 Länder, Natural Earth 10m admin-1, trimmed (scripts/prepare-regions.mjs de)
@@ -87,6 +89,8 @@ deploy/raspberry-pi/ systemd unit for the ingest
 | **Link** | Across countries, without translation: clusters whose headlines share two separate names (people, places, organisations), one of them rare in the run, are the same story. Names are runs of capitalised words, joined across particles ("Corée du Sud") but not punctuation; in title-case headlines, and for a title's first word, only words seen capitalised mid-sentence elsewhere count. Groups merge only on a high average link, as in clustering. Linked clusters get `alsoIn`; the top 20 groups go into `index.json` as `world` ([world.ts](../packages/ingest/src/world.ts)). |
 | **Write** | Atomic: write to a tmp file, then rename. If every feed for a country fails and nothing is cached, the previous file is kept rather than blanked. |
 
+**Sections.** Sport and business feeds go through the same steps, each category on its own, per country and region, into a file of its own next to the top file: `countries/FR.sport.json`, `countries/DE.business.json`, `regions/FR-BRE.sport.json`. A source counts toward a category only through its feeds in that category (`feeds.sport`; see `feedUrlsOf`), so a sports daily like kicker makes Germany's sport file and never touches its top file, and a country with no feed in a category gets no file for it. `FETCHED_CATEGORIES` in [sources.config.ts](../packages/ingest/src/sources.config.ts) lists the categories a run fetches. Section files are not linked across borders, and the history archive, trends, search and Today read only the top files.
+
 **Why the threshold is 0.3, not 0.4:** on the live feeds (2026-10-06), headlines about the same story from different outlets mostly scored 0.3–0.5, because French headlines in particular are long and worded differently. On ~200 raw FR feed items, 0.4 produced 5 multi-outlet clusters and 0.3 produced 11. Only one of the 11 was borderline: two different Édouard Philippe pieces. The cluster tests use real headline pairs at the configured threshold.
 
 **Chaining guard (average linkage):** plain union-find is transitive. On the live US feeds, NPR's "Supreme Court's new term kicks off with blockbuster climate change case" scored 0.30 against WaPo's "6 things to watch in the Supreme Court's new term". That one link merged the climate-case story and the new-term story into a single 15-article cluster, headlined by a midterms piece. Requiring an average similarity of 0.2 between the groups being merged splits them back into "climate case" (11) and "new term" (4), while every genuine multi-outlet story (e.g. Hastert, 6 outlets) stays whole. At 0.25, real members started dropping out. [cluster.test.ts](../packages/ingest/test/cluster.test.ts) reproduces the chain with those real headlines.
@@ -104,7 +108,8 @@ Types live in [packages/shared/src/index.ts](../packages/shared/src/index.ts). `
   "countries": [{
     "code": "FR", "name": "France", "updatedAt": "…", "clusterCount": 15,
     "topTitle": "…",   // the top story's headline        (optional: older files have neither)
-    "topOutlets": 4    // its outletCount24h
+    "topOutlets": 4,   // its outletCount24h
+    "categories": ["top", "sport", "business"]   // optional: the files it has, when it has section files
   }],
   "regions": [{ "code": "FR-BRE", "name": "Brittany", "updatedAt": "…", "clusterCount": 15 }],  // optional
   "world": [{                       // optional: cross-border stories, most countries first, ≤ 20
@@ -139,6 +144,8 @@ Types live in [packages/shared/src/index.ts](../packages/shared/src/index.ts). `
 ```
 
 `data/regions/{CC}-{R}.json` (ISO 3166-2 code, e.g. `FR-BRE`; Corsica is `FR-20R`) has the same shape plus `regionCode` and `regionName`. It is built from regional outlets only (sources with a `region` in the config), clustered and ranked on its own, so regional papers never crowd the national file.
+
+Section files, `data/countries/{CC}.{category}.json` and `data/regions/{CC}-{R}.{category}.json` with `category` `sport` or `business` (`FR.sport.json`), have the same shape plus `category`, and no `alsoIn`. Top files keep their plain name and have no `category`. A code never contains a dot, so the name is unambiguous, and the same stem (`DE.sport`) names the file in `status.json`. An index entry lists its place's files in `categories`; a section with no top file isn't listed.
 
 `Article`: `id, url, canonicalUrl, title, description (≤ ~300 chars or null), source {id, name}, sourceCountry, language, publishedAt, imageUrl (or null), countryCode, regionCode (the outlet's region, or null for national outlets)`.
 

@@ -1,4 +1,5 @@
 import type {
+  Category,
   ClusterTrend,
   CountryCode,
   CountryFile,
@@ -12,6 +13,7 @@ import { useEffect, useState, type ReactNode } from 'react';
 import { latestData, type AsyncState } from '../hooks/useAsync';
 import { relativeTime } from '../lib/time';
 import { canTranslateOnDevice, getTranslator, TARGET_LANGUAGE } from '../lib/translate';
+import { CATEGORY_NAMES } from '../lib/view';
 import { useTranslated } from '../hooks/useTranslated';
 import { PanelShell } from './PanelShell';
 import { findStory, StoryDetail } from './StoryDetail';
@@ -25,6 +27,11 @@ interface NewsPanelProps {
   regions: readonly RegionMeta[];
   /** null returns to the national headlines. */
   onSelectRegion: (code: RegionCode | null) => void;
+  /** The open category: the top headlines (default) or a section. */
+  category?: Category;
+  /** The categories the place has a file in (its index entry's); the switch shows when there is more than `top`. */
+  categories?: readonly Category[];
+  onSelectCategory?: (category: Category) => void;
   state: AsyncState<CountryFile>;
   now: number;
   isMobile: boolean;
@@ -80,11 +87,32 @@ function readLanguageMode(): LanguageMode {
 /**
  * The file to render: this view's data, fresh or kept from before while it refreshes or after a
  * refresh failed. Another view's file is never shown: right after a switch, the loader still holds
- * the previous country's 'ready' data for one render.
+ * the previous country's (or category's) 'ready' data for one render.
  */
-function visibleData(state: AsyncState<CountryFile>, viewCode: string): CountryFile | null {
+function visibleData(state: AsyncState<CountryFile>, viewCode: string, category: Category): CountryFile | null {
   const data = latestData(state);
-  return data && (data.regionCode ?? data.countryCode) === viewCode ? data : null;
+  return data && (data.regionCode ?? data.countryCode) === viewCode && (data.category ?? 'top') === category ? data : null;
+}
+
+/** The Top / Sport / Business switch, for a place with section files. */
+function CategorySwitch({
+  categories,
+  category,
+  onSelect,
+}: {
+  categories: readonly Category[];
+  category: Category;
+  onSelect: (category: Category) => void;
+}) {
+  return (
+    <div className="category-switch" role="group" aria-label="Section">
+      {categories.map((c) => (
+        <button key={c} type="button" aria-pressed={c === category} onClick={() => c !== category && onSelect(c)}>
+          {CATEGORY_NAMES[c]}
+        </button>
+      ))}
+    </div>
+  );
 }
 
 /** Languages other than English among the visible stories. */
@@ -101,6 +129,7 @@ function Body({
   now,
   onRetry,
   view,
+  category,
   english,
   onOpenStory,
   onOpenStoryIn,
@@ -109,16 +138,20 @@ function Body({
   focusId,
 }: Pick<NewsPanelProps, 'state' | 'now' | 'onRetry' | 'onOpenStory' | 'onOpenStoryIn' | 'trends' | 'focusTitle'> & {
   view: { code: string; name: string };
+  category: Category;
   english: boolean;
   /** The story whose page was just closed: scrolled back into view. */
   focusId: string | null;
 }) {
-  const data = visibleData(state, view.code);
+  const data = visibleData(state, view.code, category);
+  const headlines = category === 'top' ? 'headlines' : `${CATEGORY_NAMES[category].toLowerCase()} headlines`;
 
   if (state.status === 'error' && !data) {
     return (
       <div className="panel-message" role="alert">
-        <p>Couldn’t load headlines for {view.name}.</p>
+        <p>
+          Couldn’t load {headlines} for {view.name}.
+        </p>
         <p className="panel-detail">{state.error}</p>
         <button type="button" className="btn" onClick={onRetry}>
           Try again
@@ -130,7 +163,9 @@ function Body({
   if (data.clusters.length === 0) {
     return (
       <div className="panel-message">
-        <p>No headlines for {view.name} right now.</p>
+        <p>
+          No {headlines} for {view.name} right now.
+        </p>
         <p className="panel-detail">Feeds are checked every hour — try again shortly.</p>
       </div>
     );
@@ -169,6 +204,9 @@ export function NewsPanel({
   region,
   regions,
   onSelectRegion,
+  category = 'top',
+  categories = [],
+  onSelectCategory,
   state,
   now,
   isMobile,
@@ -189,8 +227,11 @@ export function NewsPanel({
 }: NewsPanelProps) {
   const view = region ?? country;
   const [languageMode, setLanguageMode] = useState<LanguageMode>(readLanguageMode);
+  // A section: trends, "Also in", History and the cross-border stories cover the top headlines only.
+  const section = category !== 'top';
+  const sectionName = CATEGORY_NAMES[category].toLowerCase();
 
-  const shown = visibleData(state, view.code);
+  const shown = visibleData(state, view.code, category);
   // This view's fresh file (not one kept from before, nor the previous place's): its time goes in the header.
   const file = state.status === 'ready' && state.data === shown ? state.data : null;
   const cluster = story && shown ? findStory(shown.clusters, story) : undefined;
@@ -245,9 +286,12 @@ export function NewsPanel({
     )
   ) : (
     <>
-      Top {region ? 'regional' : 'national'} headlines
+      {section ? `${region ? 'Regional' : 'National'} ${sectionName} headlines` : `Top ${region ? 'regional' : 'national'} headlines`}
       {file && <> · updated {relativeTime(file.updatedAt, now)}</>}
     </>
+  );
+  const categorySwitch = !story && onSelectCategory && categories.length > 1 && (
+    <CategorySwitch categories={categories} category={category} onSelect={onSelectCategory} />
   );
   const languageToggle = languages.length > 0 && (
     <div className="lang-toggle" role="group" aria-label="Headline language">
@@ -266,10 +310,17 @@ export function NewsPanel({
       title={story && cluster ? <StoryTitle cluster={cluster} english={english} /> : view.name}
       titleClassName={story && cluster ? 'story-detail-title' : undefined}
       subtitle={subtitle}
-      controls={languageToggle}
+      controls={
+        (categorySwitch || languageToggle) && (
+          <div className="panel-controls">
+            {categorySwitch}
+            {languageToggle}
+          </div>
+        )
+      }
       sheetKey={country.code}
-      scrollKey={`${view.code}/${story ?? ''}`}
-      toolbar={story ? undefined : timeline}
+      scrollKey={`${view.code}.${category}/${story ?? ''}`}
+      toolbar={story || section ? undefined : timeline}
       animate={animate}
       onSwipe={story ? undefined : onSwipe}
       isMobile={isMobile}
@@ -299,17 +350,19 @@ export function NewsPanel({
           unit={view}
           now={now}
           english={english}
-          trend={trends?.[cluster.id]}
-          runs={trendRuns}
-          world={world}
+          trend={section ? undefined : trends?.[cluster.id]}
+          runs={section ? undefined : trendRuns}
+          world={section ? [] : world}
           onOpenStoryIn={onOpenStoryIn}
           onToast={onToast}
         />
       ) : story && shown ? (
         <div className="panel-message">
-          <p>This story is no longer among {view.name}’s top stories.</p>
+          <p>
+            This story is no longer among {view.name}’s {sectionName} stories.
+          </p>
           <button type="button" className="btn" onClick={backToList}>
-            See today’s top stories
+            See today’s {sectionName} stories
           </button>
         </div>
       ) : (
@@ -318,10 +371,11 @@ export function NewsPanel({
           now={now}
           onRetry={onRetry}
           view={view}
+          category={category}
           english={english}
           onOpenStory={onOpenStory}
           onOpenStoryIn={onOpenStoryIn}
-          trends={trends}
+          trends={section ? undefined : trends}
           focusTitle={focusTitle}
           focusId={focusId}
         />
@@ -329,6 +383,7 @@ export function NewsPanel({
       <p className="panel-footnote">
         Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets and ranked by how
         many outlets covered them in the last 24 hours.
+        {section && <> New and rising badges, History, search and Today cover top headlines only.</>}
       </p>
     </PanelShell>
   );

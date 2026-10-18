@@ -171,11 +171,13 @@ export const rssAdapter: SourceAdapter = {
   type: 'rss',
   async fetch(source: SourceConfig, ctx: AdapterContext): Promise<FetchResult[]> {
     const results: FetchResult[] = [];
-    for (const feedUrl of feedUrlsOf(source)) {
-      const res = await ctx.http.getItems(feedUrl, (body) => parseFeed(body, feedUrl));
-      const detail = res.error ? ` (${res.error})` : '';
-      ctx.log(`  ${source.id.padEnd(12)} ${res.outcome.padEnd(12)} ${String(res.items.length).padStart(3)} items  ${feedUrl}${detail}`);
-      if (res.retrievedAt) results.push({ items: res.items, retrievedAt: res.retrievedAt });
+    for (const category of ctx.categories) {
+      for (const feedUrl of feedUrlsOf(source, [category])) {
+        const res = await ctx.http.getItems(feedUrl, (body) => parseFeed(body, feedUrl));
+        const detail = res.error ? ` (${res.error})` : '';
+        ctx.log(`  ${source.id.padEnd(12)} ${res.outcome.padEnd(12)} ${String(res.items.length).padStart(3)} items  ${feedUrl}${detail}`);
+        if (res.retrievedAt) results.push({ category, items: res.items, retrievedAt: res.retrievedAt });
+      }
     }
     return results;
   },

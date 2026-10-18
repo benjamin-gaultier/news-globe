@@ -28,9 +28,13 @@ export const PUBLIC_DERIVED = [KV_KEYS.trends, KV_KEYS.search, KV_KEYS.today, KV
 
 /**
  * The files the ingest publishes in the bundle, and the only bundle keys the Worker (and the
- * dev server) will serve under /data/: the index, the health report, and country and region files.
+ * dev server) will serve under /data/: the index, the health report, and country and region
+ * files with their sections (`countries/FR.json`, `countries/FR.sport.json`, `regions/FR-BRE.json`).
+ * The section suffixes are CATEGORIES but `top` (see fileStem), spelled out here: the Vite config
+ * loads this module as is, so it imports nothing.
  */
-export const PUBLIC_FILE = /^(index\.json|status\.json|countries\/[A-Z]{2}\.json|regions\/[A-Z]{2}-[A-Z0-9]{1,3}\.json)$/;
+export const PUBLIC_FILE =
+  /^(index\.json|status\.json|countries\/[A-Z]{2}(\.(sport|business))?\.json|regions\/[A-Z]{2}-[A-Z0-9]{1,3}(\.(sport|business))?\.json)$/;
 
 /** A UTC day's history, served as /data/archive/YYYY-MM-DD.json. */
 export const archiveKey = (date: string) => `archive/${date}`;

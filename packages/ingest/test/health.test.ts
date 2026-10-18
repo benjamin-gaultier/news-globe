@@ -76,6 +76,36 @@ describe('buildStatus', () => {
     expect(status.feeds.failing).toEqual([{ source: 'lesoir', unit: 'BE', url: 'https://lesoir/a', lastStatus: 200, lastOkAt: T1 }]);
     expect(status.darkUnits).toEqual([{ code: 'BE', since: T1 }]);
   });
+
+  it('counts section feeds under their own file, so a working one never hides a frozen top file', () => {
+    const sections: SourceConfig[] = [
+      { ...source('sz', 'DE', ['https://sz/top']), feeds: { top: ['https://sz/top'], sport: ['https://sz/sport'] } },
+      { ...source('kicker', 'DE', []), feeds: { sport: ['https://kicker/a'] } },
+      { ...source('hb', 'DE', []), feeds: { business: ['https://hb/a'] } },
+    ];
+    const entries = {
+      'https://sz/top': failed(T2, T0, 503),
+      'https://sz/sport': failed(T2, T1, 500),
+      'https://kicker/a': ok(T2),
+      'https://hb/a': failed(T2, undefined, 403),
+    };
+
+    const status = buildStatus(entries, sections, T2, ['top', 'sport', 'business']);
+
+    expect(status.feeds.total).toBe(4);
+    expect(status.feeds.failing.map((f) => [f.source, f.unit])).toEqual([
+      ['hb', 'DE.business'],
+      ['sz', 'DE'],
+      ['sz', 'DE.sport'],
+    ]);
+    // kicker keeps DE.sport alive; DE's top file is frozen all the same.
+    expect(status.darkUnits).toEqual([
+      { code: 'DE.business', since: null },
+      { code: 'DE', since: T0 },
+    ]);
+    // A category the ingest doesn't fetch counts for nothing.
+    expect(buildStatus(entries, sections, T2, ['top']).feeds).toEqual({ total: 1, failing: [expect.objectContaining({ unit: 'DE' })] });
+  });
 });
 
 describe('writeStatus', () => {

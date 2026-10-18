@@ -73,6 +73,38 @@ describe('story routes', () => {
   });
 });
 
+describe('section routes', () => {
+  it('opens a place’s sport or business headlines, in any case', () => {
+    expect(parseRoute('#FR.sport')).toEqual({ country: 'FR', region: null, world: false, at: null, category: 'sport' });
+    expect(parseRoute('#fr-bre.Business')).toEqual({ country: 'FR', region: 'FR-BRE', world: false, at: null, category: 'business' });
+    expect(formatRoute({ country: 'FR', region: null, world: false, at: null, category: 'sport' })).toBe('#FR.sport');
+    expect(formatRoute({ country: 'FR', region: 'FR-BRE', world: false, at: null, category: 'business' })).toBe('#FR-BRE.business');
+  });
+
+  it('opens a story’s page in a section', () => {
+    const route = { ...EMPTY_ROUTE, country: 'DE', category: 'sport', story: 'aB_9xyz' } as const;
+    expect(parseRoute('#de.sport/aB_9xyz')).toEqual(route);
+    expect(formatRoute(route)).toBe('#DE.sport/aB_9xyz');
+  });
+
+  it('drops an unknown section, `top`, a section without a place, and sections in History', () => {
+    expect(parseRoute('#FR.weather')).toEqual({ country: 'FR', region: null, world: false, at: null });
+    expect(parseRoute('#FR.top')).toEqual({ country: 'FR', region: null, world: false, at: null });
+    expect(formatRoute({ country: 'FR', region: null, world: false, at: null, category: 'top' })).toBe('#FR');
+    expect(parseRoute('#XX.sport')).toEqual(EMPTY_ROUTE);
+    expect(parseRoute('#world.sport')).toEqual({ ...EMPTY_ROUTE, world: true });
+    expect(formatRoute({ ...EMPTY_ROUTE, world: true, category: 'sport' })).toBe('#world');
+    expect(parseRoute('#FR.sport@2026-10-08')).toEqual({ country: 'FR', region: null, world: false, at: '2026-10-08' });
+    expect(formatRoute({ country: 'FR', region: null, world: false, at: '2026-10-08', category: 'sport' })).toBe('#FR@2026-10-08');
+  });
+
+  it('round-trips', () => {
+    for (const hash of ['#FR.sport', '#US.business', '#FR-BRE.sport', '#GB.sport/EAskgXdmb1-3']) {
+      expect(formatRoute(parseRoute(hash))).toBe(hash);
+    }
+  });
+});
+
 describe('history routes', () => {
   it('reads a view with a time', () => {
     expect(parseRoute('#FR@2026-10-08T14:05')).toEqual({ country: 'FR', region: null, world: false, at: '2026-10-08T14:05' });
