@@ -46,7 +46,7 @@ export interface SourceConfig {
   /**
    * Feed URLs for this outlet, by category. For `top`, prefer national /
    * politics / society section feeds over "all news" feeds, which mix in
-   * international stories. A specialist outlet (a sports daily) has no `top`.
+   * international stories. A specialist outlet (a sports daily, a business-only outlet) has no `top`.
    */
   feeds: Partial<Record<Category, string[]>>;
   /** Relative editorial authority, used to pick a cluster's representative. Higher wins. */
