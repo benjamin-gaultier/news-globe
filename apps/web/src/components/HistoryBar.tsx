@@ -67,7 +67,7 @@ export function LiveBar({ onHistory }: { onHistory: () => void }) {
   );
 }
 
-export function ClockIcon() {
+function ClockIcon() {
   return (
     <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
       <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" strokeWidth="2" />

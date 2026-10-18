@@ -119,10 +119,11 @@ test.describe('globe', () => {
     await expect(page).toHaveURL(/#FR$/);
   });
 
-  test('flies to a country picked from the list and opens its regions from the globe', async ({ page }) => {
+  test('flies to a country found by search and opens its regions from the globe', async ({ page }) => {
     await serveData(page, { countries: { FR: 1, US: 2 }, regions: ['US-KS'] });
     await page.goto('/');
-    await page.getByRole('navigation', { name: 'Countries' }).getByRole('button', { name: 'United States' }).click();
+    await page.getByRole('searchbox').fill('united');
+    await page.getByRole('region', { name: 'Places' }).getByRole('button', { name: 'United States' }).click();
     await expect(page.getByRole('heading', { name: 'United States' })).toBeVisible();
 
     // The camera flies to the middle of the country: Kansas, whose outline has loaded.

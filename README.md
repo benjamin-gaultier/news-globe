@@ -17,11 +17,11 @@ It covers 175 countries. Eleven of them (France, Germany, Spain, Italy, the US, 
 ## Features
 
 - **World briefing:** the first screen. The top stories worldwide right now in one list, each with the countries whose headlines carry it; pointing at a story lights those countries on the globe. Below: rising this hour, and on top all day.
-- **Globe:** countries shaded by how widely their top story is covered, or by how much changed this hour. Countries whose #1 story is new or rising pulse, and arcs join the countries sharing a story.
+- **Globe:** countries shaded by how widely their top story is covered. Countries whose #1 story is new or rising pulse, and arcs join the countries sharing a story.
 - **Country panel:** ranked stories with every outlet covering them, New and ↑ Rising badges, an Original / English toggle, and Sport and Business sections where outlets have those feeds.
 - **Story pages:** rank through the day, all coverage in publishing order, and the same story in other countries.
-- **Search:** every current headline, as you type.
-- **History:** replay any day hour by hour.
+- **Search:** countries and regions by name, and every current headline, as you type. The last countries you opened stay one tap away.
+- **History:** replay any day hour by hour, from the world briefing or a country's panel.
 - **Phones:** a bottom sheet, swipe between countries, installable, works offline.
 - **Shareable links:** `/#FR`, `/#FR-BRE`, `/#FR.sport`, `/#FR/<story>`, `/#FR@2026-10-08T14:05`.
 

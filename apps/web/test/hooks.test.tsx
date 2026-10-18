@@ -1,9 +1,11 @@
 // @vitest-environment jsdom
 import { act, renderHook, waitFor } from '@testing-library/react';
-import { afterEach, describe, expect, it, vi } from 'vitest';
+import type { CountryCode } from '@news-globe/shared';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { latestData, useAsync } from '../src/hooks/useAsync';
 import { MOBILE_QUERY, useMediaQuery } from '../src/hooks/useMediaQuery';
 import { useNow } from '../src/hooks/useNow';
+import { useRecentCountries } from '../src/hooks/useRecentCountries';
 
 afterEach(() => {
   vi.useRealTimers();
@@ -85,6 +87,32 @@ describe('useAsync', () => {
     rerender({ l: load });
     unmount();
     expect(calls[1]!.signal.aborted).toBe(true);
+  });
+});
+
+describe('useRecentCountries', () => {
+  const KEY = 'news-globe:recent';
+  beforeEach(() => localStorage.removeItem(KEY));
+
+  it('lists new countries first, leaves a reopened one in place, and drops the one opened longest ago', () => {
+    const { result, rerender } = renderHook(({ opened }) => useRecentCountries(opened), {
+      initialProps: { opened: null as CountryCode | null },
+    });
+    for (const code of ['FR', 'DE', 'ES', 'IT', 'GB']) rerender({ opened: code });
+    expect(result.current).toEqual(['GB', 'IT', 'ES', 'DE', 'FR']);
+
+    // France reopened: the row stays still, but France is now recent, so the next newcomer pushes out Germany.
+    rerender({ opened: 'FR' });
+    expect(result.current).toEqual(['GB', 'IT', 'ES', 'DE', 'FR']);
+    rerender({ opened: 'US' });
+    expect(result.current).toEqual(['US', 'GB', 'IT', 'ES', 'FR']);
+  });
+
+  it('keeps them across visits, without codes it doesn’t know or junk', () => {
+    localStorage.setItem(KEY, JSON.stringify([['FR', 2], ['XX', 3], 'DE', ['US', 1]]));
+    expect(renderHook(() => useRecentCountries(null)).result.current).toEqual(['FR', 'US']);
+    localStorage.setItem(KEY, '{');
+    expect(renderHook(() => useRecentCountries(null)).result.current).toEqual([]);
   });
 });
 

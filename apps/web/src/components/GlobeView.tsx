@@ -111,8 +111,6 @@ export interface GlobeViewProps {
   isMobile: boolean;
   /** Fraction of the viewport height covered by the bottom sheet (mobile), so the country stays visible above it. */
   sheetFraction: number;
-  /** Overrides the heat step (0–4) of each country or region: the "change" shading. */
-  shadeStep?: (code: string) => number;
   /** Arcs between countries sharing a story (the world briefing). */
   arcs: readonly { startLat: number; startLng: number; endLat: number; endLng: number }[];
   /** Countries whose #1 story is new or rising this hour, drawn as pulsing rings while no country is open. */
@@ -138,7 +136,6 @@ export default memo(function GlobeView({
   onSelectRegion,
   isMobile,
   sheetFraction,
-  shadeStep,
   arcs,
   pulses = NO_PULSES,
   highlighted = NO_COUNTRIES,
@@ -324,15 +321,14 @@ export default memo(function GlobeView({
       if (isSelected(f)) return isRegion(f) || !showingRegions ? COLORS.selected : COLORS.selectedUnder;
       if (isHighlighted(f)) return COLORS.selected;
       if (!isAvailable(f)) return COLORS.unavailable;
-      const code = f.properties.region ?? f.properties.iso2 ?? '';
-      const step = shadeStep ? shadeStep(code) : heatStep(entryOf(f)?.topOutlets);
+      const step = heatStep(entryOf(f)?.topOutlets);
       if (isRegion(f)) {
         if (f === hovered) return COLORS.regionHover;
         return selectedRegion ? COLORS.regionDim : REGION_HEAT[step]!;
       }
       return f === hovered ? COLORS.availableHover : COUNTRY_HEAT[step]!;
     },
-    [isSelected, isHighlighted, hovered, isAvailable, showingRegions, selectedRegion, entryOf, shadeStep],
+    [isSelected, isHighlighted, hovered, isAvailable, showingRegions, selectedRegion, entryOf],
   );
 
   const altitude = useCallback(
