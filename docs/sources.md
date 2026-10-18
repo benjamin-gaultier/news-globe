@@ -2407,7 +2407,7 @@ First batch probed on 2026-10-18, a Sunday, so business feeds were quieter than 
 | Libération | — | économie | 7 | ✅ économie; ❌ sports: about 2 items a day |
 | Ouest-France | sport | — | 6 | ✅ sport (about 180 items a day, much of it regional amateur sport); ❌ économie: `/rss/economie` 404, and its RSS page lists only une, france and sport |
 | 20 Minutes | sport | économie | 5 | ✅ |
-| L'Équipe | latest news | — | 10 | ➕ **added** (`lequipe.fr/rss/actu_rss.xml` 403 and lequipe.fr's RSS page is gone; `dwh.lequipe.fr/api/edito/rss?path=/` had 50 items in 7 h) |
+| ~~L'Équipe~~ | — | — | — | ❌ **dropped**: lequipe.fr returns **403** to non-browser clients (even for `robots.txt`), its RSS page has returned 404 since 2024, and the site links no feed. An API endpoint on another host (`dwh.lequipe.fr/api/edito/rss`) does answer, but L'Équipe doesn't advertise it, and using it would get around the publisher's block |
 
 **Germany** (added 2026-10-18)
 
@@ -2421,7 +2421,7 @@ First batch probed on 2026-10-18, a Sunday, so business feeds were quieter than 
 | WELT | Sport | Wirtschaft | 7 | ✅ |
 | n-tv | Sport | Wirtschaft | 6 | ✅ |
 | kicker | news/aktuell | — | 10 | ➕ **added** |
-| Sportschau | main | — | 9 | ➕ **added** (lists upcoming radio commentaries, "Live hören: Bayer Leverkusen gegen SC Freiburg", dated at kick-off, so in the future; `isNotNews` does not drop them yet) |
+| Sportschau | main | — | 9 | ➕ **added** (lists upcoming radio commentaries, "Live hören: Bayer Leverkusen gegen SC Freiburg", dated at kick-off, so in the future; `isNotNews` does not drop them yet, see the TODO in `SOURCES`) |
 | Handelsblatt | — | Top-Themen | 10 | ➕ **added** (its top stories: mostly business, some politics) |
 
 **United Kingdom** (added 2026-10-18)

@@ -145,16 +145,7 @@ export const SOURCES: SourceConfig[] = [
     },
     authority: 5,
   },
-  // lequipe.fr returns 403 to non-browser clients; its feeds are served from dwh.lequipe.fr.
-  {
-    id: 'lequipe',
-    name: "L'Équipe",
-    type: 'rss',
-    country: 'FR',
-    language: 'fr',
-    feeds: { sport: ['https://dwh.lequipe.fr/api/edito/rss?path=/'] },
-    authority: 10,
-  },
+  // L'Équipe is left out: lequipe.fr returns 403 to non-browser clients and advertises no feed.
 
   // ---- United States ----
   // AP is dropped: it publishes no official RSS and apnews.com returns 403.
@@ -406,6 +397,8 @@ export const SOURCES: SourceConfig[] = [
     feeds: { sport: ['https://newsfeed.kicker.de/news/aktuell'] },
     authority: 10,
   },
+  // TODO(isNotNews): drop its "Live hören: …" radio listings before 'sport' is fetched. They are
+  // dated at kick-off, and future dates become `now`, so they would rank as the newest stories.
   {
     id: 'sportschau',
     name: 'Sportschau',
