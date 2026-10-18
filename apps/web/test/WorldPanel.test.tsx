@@ -156,7 +156,7 @@ describe('WorldPanel', () => {
     expect(onHighlight).not.toHaveBeenCalledWith(['FR', 'US']);
   });
 
-  it('clears the globe when the story pointed at leaves the list on a refresh', async () => {
+  it('follows the story pointed at through a refresh: its new countries, or none once it leaves the list', async () => {
     const quake: WorldStory = {
       ...nato,
       id: 'w2',
@@ -173,6 +173,11 @@ describe('WorldPanel', () => {
     rerender(<WorldPanel world={[nato]} {...props} />);
     expect(within(top).queryByRole('button', { name: 'Quake' })).toBeNull();
     expect(onHighlight).not.toHaveBeenCalled();
+
+    // The story pointed at runs in one more country now.
+    const gb = { code: 'GB', clusterId: 'c9', title: 'NATO summit', url: 'https://gb.example/nato', outletCount24h: 1, language: 'en' };
+    rerender(<WorldPanel world={[{ ...nato, countries: [...nato.countries, gb] }]} {...props} />);
+    expect(onHighlight).toHaveBeenLastCalledWith(['FR', 'US', 'GB']);
 
     rerender(<WorldPanel world={[]} {...props} />);
     expect(within(top).queryByRole('button', { name: 'NATO meets' })).toBeNull();

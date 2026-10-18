@@ -27,7 +27,8 @@ export function WorldIcon() {
 type OpenStory = (code: CountryCode, clusterId: string) => void;
 type Highlight = (countries: readonly CountryCode[] | null) => void;
 /** What lights a story: the pointer resting on it, or keyboard focus in it. */
-type LitBy = 'pointer' | 'focus';
+const LIT_BY = ['pointer', 'focus'] as const;
+type LitBy = (typeof LIT_BY)[number];
 type Light = (by: LitBy, countries: readonly CountryCode[] | null) => void;
 
 /**
@@ -52,15 +53,20 @@ function BriefItem({
   const lead = brief.countries.find((c) => c.language === TARGET_LANGUAGE) ?? brief.countries[0]!;
   const language = lead.language ?? TARGET_LANGUAGE;
   const title = useTranslated(lead.title, language, true);
-  // What this line lit: if it leaves the list while lit (a refresh), nothing else would clear it.
+  // What this line lit. A refresh can change its countries, or drop it from the list, while it is lit: nothing else
+  // would light the new ones, or clear them.
   const lit = useRef<Record<LitBy, boolean>>({ pointer: false, focus: false });
+  const codes = brief.countries.map((c) => c.code).join(' ');
   const light = (by: LitBy, on: boolean) => {
     lit.current[by] = on;
-    onLight(by, on ? brief.countries.map((c) => c.code) : null);
+    onLight(by, on ? codes.split(' ') : null);
   };
+  useEffect(() => {
+    for (const by of LIT_BY) if (lit.current[by]) onLight(by, codes.split(' '));
+  }, [codes, onLight]);
   useEffect(
     () => () => {
-      for (const by of ['pointer', 'focus'] as const) if (lit.current[by]) onLight(by, null);
+      for (const by of LIT_BY) if (lit.current[by]) onLight(by, null);
     },
     [onLight],
   );
