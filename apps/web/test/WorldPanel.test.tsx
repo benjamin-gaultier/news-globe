@@ -122,6 +122,17 @@ describe('WorldPanel', () => {
     expect(onOpenStory).toHaveBeenLastCalledWith('FR', 'c1');
   });
 
+  it('links each line’s headline to its publisher', async () => {
+    renderWorld();
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    const read = (title: string) =>
+      within(top)
+        .getByRole('link', { name: `Read “${title}” at its publisher` })
+        .getAttribute('href');
+    expect(read('NATO meets')).toBe('https://us.example/nato');
+    expect(read('Budget passes')).toBe('https://example.com/Budget passes');
+  });
+
   it('lights a story’s countries while it is pointed at or focused from the keyboard, and none once closed', async () => {
     const { onHighlight, unmount } = renderWorld();
     const top = await screen.findByRole('region', { name: 'Top stories' });

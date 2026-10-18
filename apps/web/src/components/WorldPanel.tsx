@@ -94,6 +94,16 @@ function BriefItem({
           <div className="story-meta">
             <TrendBadge state={brief.state} />
             {detail}
+            <span aria-hidden="true"> · </span>
+            <a
+              className="story-translate"
+              href={lead.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Read “${lead.title}” at its publisher`}
+            >
+              Read ↗
+            </a>
             {/* No on-device translation (phones): the headline in Google Translate. */}
             {language !== TARGET_LANGUAGE && !title.translated && (
               <>

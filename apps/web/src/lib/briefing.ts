@@ -5,6 +5,8 @@ export interface BriefCountry {
   code: CountryCode;
   clusterId: string;
   title: string;
+  /** The headline's article, at its publisher. */
+  url: string;
   /** BCP 47; absent from older index files. */
   language?: string;
   outlets: number;
@@ -27,7 +29,7 @@ const storyKey = (code: string, clusterId: string) => `${code}/${clusterId}`;
 /** A national story from Today's lists, as a line of its own. */
 export const briefOf = (s: TodayStory): Brief => ({
   key: storyKey(s.unit, s.clusterId),
-  countries: [{ code: s.unit, clusterId: s.clusterId, title: s.title, language: s.language, outlets: s.outlets }],
+  countries: [{ code: s.unit, clusterId: s.clusterId, title: s.title, url: s.url, language: s.language, outlets: s.outlets }],
   outlets: s.outlets,
   source: s.source,
   imageUrl: s.imageUrl,
@@ -46,7 +48,7 @@ export function topStories(top: readonly TodayStory[], world: readonly WorldStor
   for (const story of world) {
     const countries = story.countries
       .filter((c) => COUNTRIES[c.code])
-      .map((c) => ({ code: c.code, clusterId: c.clusterId, title: c.title, language: c.language, outlets: c.outletCount24h }));
+      .map((c) => ({ code: c.code, clusterId: c.clusterId, title: c.title, url: c.url, language: c.language, outlets: c.outletCount24h }));
     if (!countries.length) continue;
     const brief: Brief = {
       key: story.id,
