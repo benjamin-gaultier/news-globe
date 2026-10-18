@@ -241,7 +241,7 @@ export function App() {
 
   // A link may name a country, region or section that has no data (yet). Once the index is in,
   // fall back to the nearest view that has some, replacing the entry so Back doesn't return to it:
-  // the globe, the region's country, or the place's top headlines.
+  // the world briefing, the region's country, or the place's top headlines.
   useEffect(() => {
     if (!indexData || !placeView || historyDate) return;
     const { country: code, region: unit } = placeView;
@@ -476,7 +476,6 @@ export function App() {
         {world && (
           <WorldPanel
             world={worldStories}
-            runAt={indexData?.updatedAt ?? null}
             refreshKey={indexTick}
             now={now}
             isMobile={isMobile}

@@ -45,21 +45,13 @@ const nato: WorldStory = {
   latestPublishedAt: minutesAgo(30),
 };
 
-function renderWorld({
-  body = file,
-  world = [nato],
-  runAt = file.runAt,
-}: {
-  body?: TodayFile | null;
-  world?: WorldStory[];
-  runAt?: string | null;
-} = {}) {
+function renderWorld({ body = file, world = [nato] }: { body?: TodayFile | null; world?: WorldStory[] } = {}) {
   vi.stubGlobal(
     'fetch',
     vi.fn(async () => (body ? new Response(JSON.stringify(body)) : new Response('Not found', { status: 404 }))),
   );
   const handlers = { onClose: vi.fn(), onSheetChange: vi.fn(), onOpenStory: vi.fn(), onHighlight: vi.fn() };
-  const view = render(<WorldPanel world={world} runAt={runAt} refreshKey={0} now={NOW} isMobile={false} {...handlers} />);
+  const view = render(<WorldPanel world={world} refreshKey={0} now={NOW} isMobile={false} {...handlers} />);
   return { ...handlers, ...view };
 }
 
@@ -163,16 +155,7 @@ describe('WorldPanel', () => {
       countries: nato.countries.map((c) => ({ ...c, clusterId: `q-${c.code}`, title: 'Quake' })),
     };
     const { onHighlight, rerender } = renderWorld({ world: [nato, quake] });
-    const props = {
-      runAt: file.runAt,
-      refreshKey: 0,
-      now: NOW,
-      isMobile: false,
-      onClose: vi.fn(),
-      onSheetChange: vi.fn(),
-      onOpenStory: vi.fn(),
-      onHighlight,
-    };
+    const props = { refreshKey: 0, now: NOW, isMobile: false, onClose: vi.fn(), onSheetChange: vi.fn(), onOpenStory: vi.fn(), onHighlight };
     const top = await screen.findByRole('region', { name: 'Top stories' });
     fireEvent.pointerEnter(within(top).getByRole('button', { name: 'NATO meets' }).closest('li')!, { pointerType: 'mouse' });
     expect(onHighlight).toHaveBeenLastCalledWith(['FR', 'US']);
@@ -219,7 +202,6 @@ describe('WorldPanel', () => {
       <TranslationsContext.Provider value={new Map([['Le budget adopté', 'Budget passed']])}>
         <WorldPanel
           world={[]}
-          runAt={null}
           refreshKey={0}
           now={NOW}
           isMobile={false}
@@ -243,16 +225,8 @@ describe('WorldPanel', () => {
     expect(screen.getByText('The top stories worldwide right now')).toBeTruthy();
   });
 
-  it('leaves out Today’s stories from another run, which can’t be matched with the cross-border ones', async () => {
-    renderWorld({ runAt: minutesAgo(5) });
-    const top = await screen.findByRole('region', { name: 'Top stories' });
-    expect(lines(top)).toEqual([{ title: 'NATO meets', countries: ['France', 'United States'] }]);
-    expect(screen.queryByRole('region', { name: 'Rising this hour' })).toBeNull();
-    expect(screen.getByText('The top stories worldwide right now')).toBeTruthy();
-  });
-
-  it('lists Today’s stories alone when there are no cross-border ones to match', async () => {
-    renderWorld({ runAt: null, world: [] });
+  it('lists Today’s stories alone when there are no cross-border ones', async () => {
+    renderWorld({ world: [] });
     const top = await screen.findByRole('region', { name: 'Top stories' });
     expect(lines(top).map((l) => l.title)).toEqual(['Budget passes', 'Senate vote']);
   });

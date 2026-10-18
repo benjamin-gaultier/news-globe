@@ -121,8 +121,6 @@ const topDetail = (b: Brief) =>
 export interface WorldPanelProps {
   /** Cross-border stories, from the index. */
   world: readonly WorldStory[];
-  /** The run `world` is from: the index's. */
-  runAt: string | null;
   /** Changes each time the app re-reads the index: Today's file is re-read with it. */
   refreshKey: number;
   now: number;
@@ -143,7 +141,6 @@ export interface WorldPanelProps {
  */
 export function WorldPanel({
   world,
-  runAt,
   refreshKey,
   now,
   isMobile,
@@ -156,9 +153,10 @@ export function WorldPanel({
   const file = useAsync((signal) => fetchToday(signal), [refreshKey]);
   // Kept while it is re-read; undefined until the first read is in (null: the workflow hasn't written it yet).
   const loaded = latestData(file);
-  // Today's file is written after the index (and left an hour old if that fails). From another run, its stories can't
-  // be matched with `world`'s, as cluster ids change between runs: the cross-border stories show alone until it catches up.
-  const today = loaded && (loaded.runAt === runAt || !world.length) ? loaded : null;
+  // Today's file is written after the index, so it can be a run or more behind `world`. Its stories still fold into their
+  // cross-border lines, as a story keeps its id (its lead article's) from run to run; one whose lead article changed
+  // shows twice until the file catches up, which beats a briefing without them.
+  const today = loaded ?? null;
   const top = useMemo(() => topStories(today?.top ?? [], world), [today, world]);
   const rising = notIn(top, today?.rising ?? []);
   const lasting = notIn(top, today?.lasting ?? []);
