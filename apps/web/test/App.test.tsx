@@ -487,7 +487,7 @@ describe('App', () => {
       }
     });
 
-    it('leaves a country reached by a swipe out of the shortcuts, until it is picked', async () => {
+    it('leaves a country reached by a swipe out of the shortcuts, until it is picked, even while open', async () => {
       const mq = vi
         .spyOn(window, 'matchMedia')
         .mockImplementation(
@@ -500,7 +500,7 @@ describe('App', () => {
         await screen.findByRole('link', { name: 'Senate passes bill' });
         expect(shortcuts()).toEqual(['France']);
 
-        await userEvent.click(screen.getByRole('button', { name: 'Close headlines' }));
+        // Picked while still open (here on the globe; search clears it the same way): now a shortcut.
         act(() => globe.props!.onSelect('US'));
         await screen.findByRole('link', { name: 'Senate passes bill' });
         expect(shortcuts()).toEqual(['United States', 'France']);

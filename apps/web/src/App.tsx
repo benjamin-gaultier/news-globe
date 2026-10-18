@@ -101,7 +101,8 @@ export function App() {
     return Object.values(REGIONS).filter((r) => r.country === selected && withData.has(r.code));
   }, [historyDate, entries, indexData, selected]);
   const region = selectedRegion ? REGIONS[selectedRegion] : undefined;
-  // The country a phone swipe moved to: browsed past, not picked. Opening it any other way makes it a shortcut again.
+  // The country a phone swipe moved to: browsed past, not picked. Only the swipe sets it; picking a country (even
+  // the one swiped to, still open) or leaving it clears it, and the country it names becomes a shortcut.
   const [swipedTo, setSwipedTo] = useState<CountryCode | null>(null);
   useEffect(() => {
     if (selected !== swipedTo) setSwipedTo(null);
@@ -110,7 +111,10 @@ export function App() {
   const recent = useRecentCountries(selected && selected !== swipedTo && available.has(selected) ? selected : null);
 
   // Selecting a country (or closing) always starts from its national top headlines; so does a swipe to the next one.
-  const selectCountry = useCallback((code: CountryCode | null) => setView(code ? place(code) : GLOBE), []);
+  const selectCountry = useCallback((code: CountryCode | null) => {
+    setSwipedTo(null);
+    setView(code ? place(code) : GLOBE);
+  }, []);
   /** A region of the open country, or back to the country (null), in the same section when that place has one. */
   const selectRegion = useCallback(
     (code: RegionCode | null) =>
@@ -141,6 +145,7 @@ export function App() {
   const openSearchResult = useCallback(
     (unit: string, title?: string) => {
       const region = REGIONS[unit];
+      setSwipedTo(null);
       setView(place(region?.country ?? unit, { region: region ? unit : null, focusTitle: title }));
       closeHistory();
     },
@@ -289,8 +294,8 @@ export function App() {
       const current = selected ? codes.indexOf(selected) : -1;
       if (current < 0 || codes.length < 2) return;
       const next = codes[(current + direction + codes.length) % codes.length]!;
-      setSwipedTo(next);
       selectCountry(next);
+      setSwipedTo(next); // after selectCountry, which clears it
     },
     [available, selected, selectCountry],
   );
@@ -301,6 +306,7 @@ export function App() {
         handleUnavailable(COUNTRIES[code]?.name ?? code);
         return;
       }
+      setSwipedTo(null);
       setView(place(code, { story: clusterId }));
     },
     [available, handleUnavailable],
