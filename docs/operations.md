@@ -93,9 +93,9 @@ After each run (not `--offline`), [health.ts](../packages/ingest/src/health.ts) 
 [.github/workflows/health.yml](../.github/workflows/health.yml) checks the live site every hour, at :23, and then adds the latest run to the [history archive](#history-archive) ([check-health.mjs](../.github/scripts/check-health.mjs), plain Node). The run **fails** when:
 
 - `index.json` is more than 3 hours old, meaning the Pi is offline or publishing broke, or
-- a country's or region's file (top or section) has been dark for more than 12 hours.
+- a country's or region's top file has been dark for more than 12 hours.
 
-A failed scheduled run makes GitHub email whoever last changed the workflow's schedule (Settings → Notifications → Actions controls this). Shorter outages and single failing feeds show up as warnings and in a table on each run's summary page. Run it on demand with Actions → Health → Run workflow. Set the `SITE_URL` repository variable to check a different deployment.
+A failed scheduled run makes GitHub email whoever last changed the workflow's schedule (Settings → Notifications → Actions controls this). Shorter outages, single failing feeds and dark section files show up as warnings and in a table on each run's summary page. Run it on demand with Actions → Health → Run workflow. Set the `SITE_URL` repository variable to check a different deployment.
 
 ## History archive
 

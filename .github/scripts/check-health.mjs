@@ -1,14 +1,14 @@
 // Hourly health check of the live site (see .github/workflows/health.yml).
 // Fails, so GitHub emails the repo owner, when the data has stopped updating
-// (the Pi is offline or publishing broke) or a country's or region's file (top,
-// or a section such as DE.sport) has had no working feed for too long. Feeds
-// failing on their own are listed as warnings.
+// (the Pi is offline or publishing broke) or a country's or region's top file
+// has had no working feed for too long. Feeds failing on their own, and dark
+// section files (DE.sport), are listed as warnings.
 // Plain Node (fetch is built in), no dependencies.
 
 const SITE = (process.env.SITE_URL || 'https://news-globe.maze-td.workers.dev').replace(/\/+$/, '');
 /** The ingest runs hourly: two missed runs plus slack. */
 const MAX_DATA_AGE_H = Number(process.env.MAX_DATA_AGE_H || 3);
-/** A unit dark this long fails the check; shorter outages are only warnings. */
+/** A top file dark this long fails the check; shorter outages, and sections, are only warnings. */
 const MAX_DARK_H = Number(process.env.MAX_DARK_H || 12);
 
 const now = Date.now();
@@ -49,7 +49,10 @@ try {
     for (const unit of status.darkUnits) {
       const h = hoursSince(unit.since);
       const line = `${unit.code} has had no working feed for ${fmt(h)}`;
-      if (h > MAX_DARK_H) problems.push(line);
+      // A section file is named `DE.sport` (codes never contain a dot). Many rest on one outlet, and
+      // a frozen sport or business list leaves the country's headlines current, so it only warns.
+      const section = unit.code.includes('.');
+      if (h > MAX_DARK_H && !section) problems.push(line);
       else console.log(`::warning::${line}`);
     }
     if (failing.length) {
