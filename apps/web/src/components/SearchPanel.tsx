@@ -32,7 +32,7 @@ export function SearchPanel({ query, places, isMobile, onClose, onSheetChange, o
   else if (file.status === 'ready' && !file.data) body = <p className="panel-message">Search isn’t available yet.</p>;
   else if (!index) body = <p className="panel-message">Loading…</p>;
   else if (!query.trim()) body = <p className="panel-note">Type a country, a region, a name or a topic.</p>;
-  else if (!results.total) body = <p className="panel-message">No current headline matches “{query.trim()}”.</p>;
+  else if (!results.total) body = <p className="panel-message">No current headline mentions “{query.trim()}”.</p>;
   else
     body = (
       <>

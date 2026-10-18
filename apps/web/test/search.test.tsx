@@ -56,6 +56,13 @@ describe('search', () => {
     // A region's local name.
     expect(searchPlaces('bretagne', has)).toEqual(['FR-BRE']);
     expect(searchPlaces('bayern', has)).toEqual(['DE-BY']);
+    // Common short names, and a name that is exactly the query first, then countries before regions.
+    const more = (code: string) => has(code) || ['UA', 'AE', 'CG', 'CD', 'GE', 'US-GA'].includes(code);
+    expect(searchPlaces('uk', more)).toEqual(['GB', 'UA']);
+    expect(searchPlaces('USA', more)).toEqual(['US']);
+    expect(searchPlaces('uae', more)).toEqual(['AE']);
+    expect(searchPlaces('congo', more)).toEqual(['CG', 'CD']);
+    expect(searchPlaces('georgia', more)).toEqual(['GE', 'US-GA']);
     // Only places with headlines.
     expect(searchPlaces('germany', has)).toEqual([]);
     expect(searchPlaces('  ', has)).toEqual([]);
@@ -92,7 +99,7 @@ describe('SearchPanel', () => {
     expect(onOpenStory).toHaveBeenCalledWith('FR', 'Le Sénat adopte le budget');
 
     rerender(<SearchPanel query="xyzzy" {...props} />);
-    expect(screen.getByText('No current headline matches “xyzzy”.')).toBeTruthy();
+    expect(screen.getByText('No current headline mentions “xyzzy”.')).toBeTruthy();
   });
 
   it('lists the places matching by name above the headlines, and opens one', async () => {
