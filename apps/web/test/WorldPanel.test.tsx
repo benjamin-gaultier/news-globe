@@ -118,16 +118,44 @@ describe('WorldPanel', () => {
     const { onHighlight, unmount } = renderWorld();
     const top = await screen.findByRole('region', { name: 'Top stories' });
     const nato = within(top).getByRole('button', { name: 'NATO meets' }).closest('li')!;
-    fireEvent.mouseEnter(nato);
+    fireEvent.pointerEnter(nato, { pointerType: 'mouse' });
     expect(onHighlight).toHaveBeenLastCalledWith(['FR', 'US']);
-    fireEvent.mouseLeave(nato);
+    fireEvent.pointerLeave(nato, { pointerType: 'mouse' });
     expect(onHighlight).toHaveBeenLastCalledWith(null);
+
+    // A tap is no hover: nothing would clear it.
+    onHighlight.mockClear();
+    fireEvent.pointerEnter(nato, { pointerType: 'touch' });
+    expect(onHighlight).not.toHaveBeenCalled();
 
     within(top).getByRole('button', { name: 'Senate vote' }).focus();
     expect(onHighlight).toHaveBeenLastCalledWith(['US']);
     onHighlight.mockClear();
     unmount();
     expect(onHighlight).toHaveBeenCalledWith(null);
+  });
+
+  it('clears the globe when the story pointed at leaves the list on a refresh', async () => {
+    const quake: WorldStory = {
+      ...nato,
+      id: 'w2',
+      countries: nato.countries.map((c) => ({ ...c, clusterId: `q-${c.code}`, title: 'Quake' })),
+    };
+    const { onHighlight, rerender } = renderWorld({ world: [nato, quake] });
+    const props = { refreshKey: 0, now: NOW, isMobile: false, onClose: vi.fn(), onSheetChange: vi.fn(), onOpenStory: vi.fn(), onHighlight };
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    fireEvent.pointerEnter(within(top).getByRole('button', { name: 'NATO meets' }).closest('li')!, { pointerType: 'mouse' });
+    expect(onHighlight).toHaveBeenLastCalledWith(['FR', 'US']);
+
+    // Another line leaving the list leaves the light alone.
+    onHighlight.mockClear();
+    rerender(<WorldPanel world={[nato]} {...props} />);
+    expect(within(top).queryByRole('button', { name: 'Quake' })).toBeNull();
+    expect(onHighlight).not.toHaveBeenCalled();
+
+    rerender(<WorldPanel world={[]} {...props} />);
+    expect(within(top).queryByRole('button', { name: 'NATO meets' })).toBeNull();
+    expect(onHighlight).toHaveBeenLastCalledWith(null);
   });
 
   it('translates the best-covered headline when no country is English-speaking', async () => {

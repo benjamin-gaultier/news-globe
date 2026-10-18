@@ -1,5 +1,5 @@
 import type { CountryCode, TodayStory, WorldStory } from '@news-globe/shared';
-import { useEffect, useMemo, type ReactNode } from 'react';
+import { type PointerEvent, type ReactNode, useEffect, useMemo, useRef } from 'react';
 import { latestData, useAsync } from '../hooks/useAsync';
 import { useTranslated } from '../hooks/useTranslated';
 import { briefOf, notIn, topStories, type Brief } from '../lib/briefing';
@@ -30,7 +30,7 @@ type Highlight = (countries: readonly CountryCode[] | null) => void;
 /**
  * One story: its headline (an English-speaking country's, else the best-covered one, in English where it can be
  * translated), opening its page in that country, and a chip for each country whose top headlines carry it.
- * Pointing at it, or focusing it, lights those countries up on the globe.
+ * Pointing at it (not a tap: touch has no hover), or focusing it, lights those countries up on the globe.
  */
 function BriefItem({
   brief,
@@ -48,10 +48,25 @@ function BriefItem({
   const lead = brief.countries.find((c) => c.language === TARGET_LANGUAGE) ?? brief.countries[0]!;
   const language = lead.language ?? TARGET_LANGUAGE;
   const title = useTranslated(lead.title, language, true);
-  const highlight = () => onHighlight(brief.countries.map((c) => c.code));
-  const clear = () => onHighlight(null);
+  // Whether this line lit the globe: if it leaves the list while lit (a refresh), nothing else would clear it.
+  const lit = useRef(false);
+  const highlight = () => {
+    lit.current = true;
+    onHighlight(brief.countries.map((c) => c.code));
+  };
+  const clear = () => {
+    lit.current = false;
+    onHighlight(null);
+  };
+  useEffect(
+    () => () => {
+      if (lit.current) onHighlight(null);
+    },
+    [onHighlight],
+  );
+  const hover = (on: () => void) => (e: PointerEvent) => e.pointerType !== 'touch' && on();
   return (
-    <li className="story brief" onMouseEnter={highlight} onMouseLeave={clear} onFocus={highlight} onBlur={clear}>
+    <li className="story brief" onPointerEnter={hover(highlight)} onPointerLeave={hover(clear)} onFocus={highlight} onBlur={clear}>
       <div className="story-main">
         <div className="story-text">
           <button
