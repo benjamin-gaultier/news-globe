@@ -749,16 +749,6 @@ export const SOURCES: SourceConfig[] = [
     feeds: { sport: ['https://ge.globo.com/rss/ge/'] },
     authority: 10,
   },
-  // Its only feed: business and markets, plus politics.
-  {
-    id: 'valor',
-    name: 'Valor Econômico',
-    type: 'rss',
-    country: 'BR',
-    language: 'pt',
-    feeds: { business: ['https://valor.globo.com/rss/valor/'] },
-    authority: 10,
-  },
   // ---- Turkey ----
   // Mixes state (AA, TRT), mainstream and opposition (Sözcü, Cumhuriyet) outlets.
   // T24's feed is empty; AA's politika feed is stale (months old). Sabah,
@@ -2237,16 +2227,6 @@ export const SOURCES: SourceConfig[] = [
     language: 'nl',
     feeds: { top: ['https://www.trouw.nl/voorpagina/rss.xml'] },
     authority: 7,
-  },
-  // Its only feed: business and markets, plus politics and society.
-  {
-    id: 'fd',
-    name: 'Het Financieele Dagblad',
-    type: 'rss',
-    country: 'NL',
-    language: 'nl',
-    feeds: { business: ['https://fd.nl/?rss'] },
-    authority: 10,
   },
   {
     id: 'vi',

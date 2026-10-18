@@ -2395,7 +2395,7 @@ Authority weights are editorial judgment calls. They only decide which outlet's 
 
 ## Sport and business feeds
 
-First batch (France to Italy) probed on 2026-10-18, a Sunday, so business feeds were quieter than on a weekday; the second batch (Canada to Belgium) was probed the same day. A feed was kept if it parsed, every item had a date, and it posts several items a day: about 4 a day was the floor, counted over 3 and 7 days. These feeds sit under `feeds.sport` and `feeds.business` in [sources.config.ts](../packages/ingest/src/sources.config.ts) but are not requested yet: `FETCHED_CATEGORIES` is `['top']` until the pipeline writes a file per category. Specialist outlets (sports dailies, a business daily) have no `top` feed, so `runIngest` leaves them out until then; their authority is set for their category, with the leading sports daily at 10.
+First batch (France to Italy) probed on 2026-10-18, a Sunday, so business feeds were quieter than on a weekday; the second batch (Canada to Belgium) was probed the same day. A feed was kept if it parsed, every item had a date, and it posts several items a day: about 4 a day was the floor, counted over 3 and 7 days. These feeds sit under `feeds.sport` and `feeds.business` in [sources.config.ts](../packages/ingest/src/sources.config.ts) but are not requested yet: `FETCHED_CATEGORIES` is `['top']` until the pipeline writes a file per category. Specialist outlets (sports dailies, a business daily) have no `top` feed, so `runIngest` leaves them out until then; their authority is set for their category. A country's leading sport outlet is at 10 where one clearly leads: its sports daily (Marca, La Gazzetta, A Bola, Olé, Récord, Nikkan Sports), or kicker, ESPN and ge. Where none does, as in Canada, Ireland, the Netherlands and Belgium, sport specialists are at 8 or 9, level with or below the national outlets' own sport sections. A business-only outlet is kept only if most of its feed is business: Valor Econômico and Het Financieele Dagblad, with one mixed feed each, were dropped, as was NDTV Profit.
 
 **France** (added 2026-10-18)
 
@@ -2513,7 +2513,7 @@ First batch (France to Italy) probed on 2026-10-18, a Sunday, so business feeds 
 | Agência Brasil | esportes | economia | 7 | ✅ (about 4 items a day each) |
 | Poder360 | — | — | 7 | ❌ `economia/feed/` and the section page return 403 to non-browser clients |
 | ge | main | — | 10 | ➕ **added**: Globo's sports site (100 items in 12 h) |
-| Valor Econômico | — | main | 10 | ➕ **added**: its only feed; of 100 items, 40 were politics (the presidential run-off) and 25 companies and finance |
+| ~~Valor Econômico~~ | — | — | — | ❌ **not added**: its only feed (`rss/valor/`, 41 items in 24 h) is mixed: of 100 items, 40 were politics (the presidential run-off) and only 25 companies and finance. Its section pages advertise only that feed |
 | ~~Lance!~~ | — | — | — | ❌ **not added**: `/feed/` 404, and the site advertises no feed |
 
 **Mexico** (added 2026-10-18)
@@ -2615,7 +2615,7 @@ First batch (France to Italy) probed on 2026-10-18, a Sunday, so business feeds 
 | AD | sport | economie | 8 | ✅ |
 | RTL Nieuws | — | — | 8 | ❌ no section feeds advertised |
 | Trouw | — | — | 7 | ❌ economie: 1 item in 7 days |
-| Het Financieele Dagblad | — | main | 10 | ➕ **added**: its only feed (`fd.nl/?rss`), business and markets plus politics and society |
+| ~~Het Financieele Dagblad~~ | — | — | — | ❌ **not added**: its only feed (`fd.nl/?rss`) is mixed: of 38 items, 14 were economy, markets and companies and 20 society, politics and opinion. Its section pages advertise no feed |
 | Voetbal International | news | — | 9 | ➕ **added** (from its RSS page; 24 items in 7 h) |
 
 **Belgium** (added 2026-10-18)
