@@ -173,7 +173,7 @@ describe('worker', () => {
     it('gives a finished day a validator from its date, and answers 304 without reading KV', async () => {
       const e = env({ 'archive/2026-10-06': new Uint8Array([0x1f, 0x8b]) });
       const etag = (await call('/data/archive/2026-10-06.json', e)).headers.get('ETag')!;
-      expect(etag).toBe('W/"archive-v1-2026-10-06"');
+      expect(etag).toBe('W/"archive-v1.1-2026-10-06"');
 
       e.NEWS_DATA.get.mockClear();
       const res = await get('/data/archive/2026-10-06.json', e, etag);
@@ -238,7 +238,8 @@ describe('worker', () => {
       expect(res.headers.get('Content-Encoding')).toBe('gzip');
       expect(res.headers.get('Content-Type')).toBe('application/json; charset=utf-8');
       expect(res.headers.get('Cache-Control')).toBe('public, max-age=86400');
-      expect(e.NEWS_DATA.get).toHaveBeenCalledWith('archive/2026-10-06', { type: 'arrayBuffer', cacheTtl: 86_400 });
+      // Edge-cached for a minute only, so a rewritten day is served soon after its ETag rev is bumped.
+      expect(e.NEWS_DATA.get).toHaveBeenCalledWith('archive/2026-10-06', { type: 'arrayBuffer', cacheTtl: 60 });
     });
 
     it('caches yesterday for a minute only, since its last run can be archived after midnight', async () => {
