@@ -1,11 +1,11 @@
-import { COUNTRIES, type ClusterTrend, type CountryCode, type StoryCluster } from '@news-globe/shared';
+import type { ClusterTrend, CountryCode, StoryCluster } from '@news-globe/shared';
 import { useEffect, useRef } from 'react';
 import { useTranslated } from '../hooks/useTranslated';
 import { headlineText, plural } from '../lib/text';
 import { relativeTime } from '../lib/time';
 import { TARGET_LANGUAGE, translatedPageUrl, translatedTextUrl } from '../lib/translate';
 import { RankSparkline } from './RankCharts';
-import { ArticleLink, Thumbnail, TrendBadge } from './StoryParts';
+import { ArticleLink, CountryChips, Thumbnail, TrendBadge } from './StoryParts';
 
 /** "New" or "↑ Rising" since the previous run, and the rank history, when the hourly trends cover this story. */
 function Trend({ trend }: { trend?: ClusterTrend }) {
@@ -15,22 +15,6 @@ function Trend({ trend }: { trend?: ClusterTrend }) {
       <TrendBadge state={trend.state} />
       <RankSparkline ranks={trend.ranks} />
     </>
-  );
-}
-
-/** "Also in Germany · Chile": the same story in other countries' top stories, each opening its page there. */
-function AlsoIn({ cluster, onOpenStoryIn }: { cluster: StoryCluster; onOpenStoryIn: (code: CountryCode, clusterId: string) => void }) {
-  const countries = (cluster.alsoIn ?? []).filter((a) => COUNTRIES[a.code]);
-  if (!countries.length) return null;
-  return (
-    <p className="story-also">
-      <span className="story-also-label">Also in</span>
-      {countries.map((a) => (
-        <button key={a.code} type="button" className="chip chip-small" onClick={() => onOpenStoryIn(a.code, a.clusterId)}>
-          {COUNTRIES[a.code]!.name}
-        </button>
-      ))}
-    </p>
   );
 }
 
@@ -110,7 +94,8 @@ export function StoryItem({
         </div>
         <Thumbnail src={rep.imageUrl} className="story-thumb" />
       </div>
-      <AlsoIn cluster={cluster} onOpenStoryIn={onOpenStoryIn} />
+      {/* "Also in Germany · Chile": the same story in other countries' top stories. */}
+      <CountryChips label="Also in" countries={cluster.alsoIn ?? []} onOpen={onOpenStoryIn} />
       <button type="button" className="story-more" onClick={onOpen}>
         {others > 0 ? `+${plural(others, 'other source')}` : 'Story details'}
         <span className="chevron chevron-right" aria-hidden="true" />

@@ -57,7 +57,7 @@ async function fetchDerived<T extends { schemaVersion: number }>(path: string, s
 /** New / Rising badges and rank histories for the latest run. */
 export const fetchTrends = (signal?: AbortSignal) => fetchDerived<TrendsFile>('trends.json', signal);
 
-/** The Today page: the run's biggest, rising and lasting stories. */
+/** Today's file: the run's biggest, rising and lasting national stories, for the world briefing. */
 export const fetchToday = (signal?: AbortSignal) => fetchDerived<TodayFile>('today.json', signal);
 
 /** English for the most-seen headlines (404 → null: no translator configured). */

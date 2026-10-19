@@ -94,6 +94,31 @@ describe('PanelShell', () => {
     expect(onClose).toHaveBeenCalledOnce();
   });
 
+  it('opens a peek sheet lower, toggles it with full height, and snaps it to any of its heights', () => {
+    window.innerHeight = 1000;
+    const { panel, header, onClose, onSheetChange } = renderShell({ isMobile: true, peek: true });
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.peek * 100}dvh`);
+    expect(onSheetChange).toHaveBeenLastCalledWith(SHEET_SNAPS.peek);
+
+    drag(header, 600, 600);
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.full * 100}dvh`);
+    drag(header, 600, 600);
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.peek * 100}dvh`);
+
+    // From peek height, a drag up to 500px is nearest half; down to 250px still peek; below that it closes.
+    const at = (height: number) => vi.spyOn(panel, 'getBoundingClientRect').mockReturnValue({ height } as DOMRect);
+    at(360);
+    drag(header, 640, 500);
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.half * 100}dvh`);
+    at(520);
+    drag(header, 480, 750);
+    expect(panel.style.height).toBe(`${SHEET_SNAPS.peek * 100}dvh`);
+    expect(onClose).not.toHaveBeenCalled();
+    at(360);
+    drag(header, 640, 840);
+    expect(onClose).toHaveBeenCalledOnce();
+  });
+
   it('ignores drags on desktop', () => {
     const { panel, header, onClose } = renderShell();
     drag(header, 500, 1000);

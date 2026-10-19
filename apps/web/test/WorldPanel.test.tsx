@@ -1,84 +1,322 @@
 // @vitest-environment jsdom
-import { render, screen, within } from '@testing-library/react';
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { beforeEach, describe, expect, it, vi } from 'vitest';
-import type { WorldStory } from '@news-globe/shared';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { SCHEMA_VERSION, type TodayFile, type TodayStory, type WorldStory } from '@news-globe/shared';
 import { WorldPanel } from '../src/components/WorldPanel';
+import { TranslationsContext } from '../src/lib/translations';
 import { minutesAgo, NOW } from './fixtures';
 import { resetTranslator, translator } from './translate-mock';
 
 vi.mock('../src/lib/translate', () => import('./translate-mock').then((m) => m.translateModule));
 
-beforeEach(resetTranslator);
-
-const entry = (code: string, title: string, language: string | undefined, outletCount24h = 1) => ({
-  code,
-  clusterId: `${code}-1`,
+const item = (unit: string, title: string, extra: Partial<TodayStory> = {}): TodayStory => ({
+  unit,
+  clusterId: `${unit}-${title}`,
   title,
-  url: `https://${code.toLowerCase()}.example/story`,
-  outletCount24h,
-  ...(language && { language }),
+  url: `https://example.com/${title}`,
+  source: 'Le Monde',
+  language: 'en',
+  imageUrl: null,
+  outlets: 4,
+  rank: 1,
+  firstSeen: minutesAgo(600),
+  state: null,
+  ...extra,
 });
 
-const story = (countries: WorldStory['countries'], names = ['warner bros', 'paramount']): WorldStory => ({
-  id: countries.map((c) => c.clusterId).join('+'),
-  names,
-  countries,
-  latestPublishedAt: minutesAgo(15),
-});
+const file: TodayFile = {
+  schemaVersion: SCHEMA_VERSION,
+  runAt: minutesAgo(20),
+  top: [item('FR', 'Budget passes', { outlets: 6 }), item('US', 'Senate vote', { outlets: 1 })],
+  rising: [item('DE', 'Storm warning', { state: 'rising', rank: 2 })],
+  lasting: [item('JP', 'Election day', { rank: 3 })],
+  countries: 175,
+  stories: 2547,
+};
 
-function renderWorld(stories: WorldStory[]) {
-  const onOpenStory = vi.fn();
-  const onClose = vi.fn();
-  render(<WorldPanel stories={stories} now={NOW} isMobile={false} onClose={onClose} onSheetChange={vi.fn()} onOpenStory={onOpenStory} />);
-  return { onOpenStory, onClose };
+const nato: WorldStory = {
+  id: 'w1',
+  names: ['nato'],
+  countries: [
+    { code: 'FR', clusterId: 'c1', title: 'L’OTAN se réunit', url: 'https://fr.example/otan', outletCount24h: 3, language: 'fr' },
+    { code: 'US', clusterId: 'c2', title: 'NATO meets', url: 'https://us.example/nato', outletCount24h: 2, language: 'en' },
+  ],
+  latestPublishedAt: minutesAgo(30),
+};
+
+/** The index's run: Today's file is written a little after it, from the same run or one before. */
+const UPDATED_AT = minutesAgo(5);
+
+function renderWorld({ body = file, world = [nato] }: { body?: TodayFile | null; world?: WorldStory[] } = {}) {
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(async () => (body ? new Response(JSON.stringify(body)) : new Response('Not found', { status: 404 }))),
+  );
+  const handlers = { onClose: vi.fn(), onSheetChange: vi.fn(), onOpenStory: vi.fn(), onHighlight: vi.fn() };
+  const view = render(<WorldPanel world={world} updatedAt={UPDATED_AT} refreshKey={0} now={NOW} isMobile={false} {...handlers} />);
+  return { ...handlers, ...view };
 }
 
-const items = () => screen.getAllByRole('listitem').filter((li) => li.classList.contains('world-story'));
+/** Each line of a section: its headline and the countries' chips. */
+const lines = (section: HTMLElement) =>
+  within(section)
+    .getAllByRole('listitem')
+    .map((li) => ({
+      title: li.querySelector('.brief-open')!.textContent,
+      countries: [...li.querySelectorAll('.story-also .chip')].map((c) => c.textContent),
+    }));
+
+beforeEach(resetTranslator);
+afterEach(() => vi.unstubAllGlobals());
 
 describe('WorldPanel', () => {
-  it('says when no story crosses borders', () => {
-    renderWorld([]);
-    expect(screen.getByRole('heading', { name: 'Across borders' })).toBeTruthy();
-    expect(screen.getByText(/No story is in several countries/)).toBeTruthy();
+  it('lists the top stories worldwide in one list, each with its countries, then rising and lasting ones', async () => {
+    renderWorld();
+    expect(screen.getByRole('heading', { level: 2, name: 'World' })).toBeTruthy();
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    // A national story and a cross-border one, most outlets first; the cross-border story leads with its English headline.
+    expect(lines(top)).toEqual([
+      { title: 'Budget passes', countries: ['France'] },
+      { title: 'NATO meets', countries: ['France', 'United States'] },
+      { title: 'Senate vote', countries: ['United States'] },
+    ]);
+    expect(within(top).getByText('6 outlets · Le Monde')).toBeTruthy();
+    expect(within(top).getByText('5 outlets in 2 countries')).toBeTruthy();
+    expect(screen.getByText('175 countries · 2,547 stories · updated 20 minutes ago')).toBeTruthy();
+
+    const rising = screen.getByRole('region', { name: 'Rising this hour' });
+    expect(within(rising).getByText('↑ Rising')).toBeTruthy();
+    expect(within(rising).getByText('#2 · 4 outlets · Le Monde')).toBeTruthy();
+    expect(lines(rising)).toEqual([{ title: 'Storm warning', countries: ['Germany'] }]);
+
+    expect(lines(screen.getByRole('region', { name: 'On top all day' }))).toEqual([{ title: 'Election day', countries: ['Japan'] }]);
   });
 
-  it('lists each story with its shared names, countries and their headlines', async () => {
-    const { onOpenStory } = renderWorld([
-      story([
-        entry('DE', 'Warner Bros kauft Paramount', 'de', 4),
-        entry('US', 'Warner Bros buys Paramount', 'en', 1),
-        entry('ZZ', 'Unknown', 'xx'),
-      ]),
-    ]);
-    const [item] = items();
-    expect(item!.querySelector('.world-names')!.textContent).toBe('Warner Bros · Paramount');
-    // An English-language country's headline leads.
-    expect(item!.querySelector('.world-english')!.textContent).toBe('Warner Bros buys Paramount');
-    expect(within(item!).getByText('In 2 countries · latest 15 minutes ago')).toBeTruthy();
-    expect(
-      within(item!)
-        .getAllByRole('button')
-        .map((b) => b.textContent),
-    ).toEqual(['Germany', 'United States']);
-    expect(within(item!).getByRole('link', { name: 'Warner Bros kauft Paramount' }).getAttribute('href')).toBe('https://de.example/story');
-    expect(within(item!).getByText('· 4 outlets')).toBeTruthy();
-    expect(within(item!).queryByText('· 1 outlets')).toBeNull();
+  it('shows a story that rose this hour and has stayed on top all day once, under Rising', async () => {
+    const storm = file.rising[0]!;
+    renderWorld({ body: { ...file, lasting: [{ ...storm, state: null }, ...file.lasting] } });
+    await screen.findByRole('region', { name: 'Top stories' });
+    expect(lines(screen.getByRole('region', { name: 'Rising this hour' })).map((l) => l.title)).toEqual(['Storm warning']);
+    expect(lines(screen.getByRole('region', { name: 'On top all day' })).map((l) => l.title)).toEqual(['Election day']);
+  });
 
-    await userEvent.click(within(item!).getByRole('button', { name: 'Germany' }));
-    expect(onOpenStory).toHaveBeenCalledWith('DE', 'DE-1');
+  it('shows a national story that crosses borders once, as its cross-border story', async () => {
+    const shared = item('US', 'NATO meets', { clusterId: 'c2', outlets: 2, state: 'new', imageUrl: 'https://us.example/nato.jpg' });
+    renderWorld({ body: { ...file, top: [shared], rising: [shared], lasting: [] } });
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    expect(lines(top)).toEqual([{ title: 'NATO meets', countries: ['France', 'United States'] }]);
+    // It takes the national story's badge and image.
+    expect(within(top).getByText('New')).toBeTruthy();
+    expect(top.querySelector('img')!.getAttribute('src')).toBe('https://us.example/nato.jpg');
+    // Nor is it repeated under Rising.
+    expect(screen.queryByRole('region', { name: 'Rising this hour' })).toBeNull();
+  });
+
+  it('opens a story’s page from its headline, in that headline’s country, or in any of its countries', async () => {
+    const { onOpenStory } = renderWorld();
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    await userEvent.click(within(top).getByRole('button', { name: 'Budget passes' }));
+    expect(onOpenStory).toHaveBeenLastCalledWith('FR', 'FR-Budget passes');
+    await userEvent.click(within(top).getByRole('button', { name: 'NATO meets' }));
+    expect(onOpenStory).toHaveBeenLastCalledWith('US', 'c2');
+    const nato = within(top).getByRole('button', { name: 'NATO meets' }).closest('li')!;
+    await userEvent.click(within(nato).getByRole('button', { name: 'France' }));
+    expect(onOpenStory).toHaveBeenLastCalledWith('FR', 'c1');
+  });
+
+  it('links each line’s headline to its publisher', async () => {
+    renderWorld();
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    const read = (title: string) =>
+      within(top)
+        .getByRole('link', { name: `Read “${title}” at its publisher` })
+        .getAttribute('href');
+    expect(read('NATO meets')).toBe('https://us.example/nato');
+    expect(read('Budget passes')).toBe('https://example.com/Budget passes');
+  });
+
+  it('lights a story’s countries while it is pointed at or focused from the keyboard, and none once closed', async () => {
+    const { onHighlight, unmount } = renderWorld();
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    const nato = within(top).getByRole('button', { name: 'NATO meets' }).closest('li')!;
+    fireEvent.pointerEnter(nato, { pointerType: 'mouse' });
+    expect(onHighlight).toHaveBeenLastCalledWith(['FR', 'US']);
+    fireEvent.pointerLeave(nato, { pointerType: 'mouse' });
+    expect(onHighlight).toHaveBeenLastCalledWith(null);
+
+    // Tab onto the next story, from the last chip of this one.
+    within(nato).getByRole('button', { name: 'United States' }).focus();
+    await userEvent.tab();
+    expect(document.activeElement).toBe(within(top).getByRole('button', { name: 'Senate vote' }));
+    expect(onHighlight).toHaveBeenLastCalledWith(['US']);
+    // Within the line, focus moves without the globe clearing.
+    onHighlight.mockClear();
+    await userEvent.tab();
+    expect(document.activeElement).toBe(screen.getByRole('link', { name: 'Read “Senate vote” at its publisher' }));
+    expect(onHighlight).not.toHaveBeenCalled();
+    // The mouse passing over another story leaves it lit.
+    fireEvent.pointerEnter(nato, { pointerType: 'mouse' });
+    expect(onHighlight).toHaveBeenLastCalledWith(['FR', 'US']);
+    fireEvent.pointerLeave(nato, { pointerType: 'mouse' });
+    expect(onHighlight).toHaveBeenLastCalledWith(['US']);
+
+    onHighlight.mockClear();
+    unmount();
+    expect(onHighlight).toHaveBeenLastCalledWith(null);
+  });
+
+  it('lights nothing on a tap, though the tap focuses what it hits', async () => {
+    const { onHighlight } = renderWorld();
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    const button = within(top).getByRole('button', { name: 'NATO meets' });
+    await userEvent.pointer({ keys: '[TouchA]', target: button });
+    expect(document.activeElement).toBe(button);
+    expect(onHighlight).not.toHaveBeenCalledWith(['FR', 'US']);
+  });
+
+  it('follows the story pointed at through a refresh: its new countries, or none once it leaves the list', async () => {
+    const quake: WorldStory = {
+      ...nato,
+      id: 'w2',
+      countries: nato.countries.map((c) => ({ ...c, clusterId: `q-${c.code}`, title: 'Quake' })),
+    };
+    const { onHighlight, rerender } = renderWorld({ world: [nato, quake] });
+    const props = { refreshKey: 0, now: NOW, isMobile: false, onClose: vi.fn(), onSheetChange: vi.fn(), onOpenStory: vi.fn(), onHighlight };
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    fireEvent.pointerEnter(within(top).getByRole('button', { name: 'NATO meets' }).closest('li')!, { pointerType: 'mouse' });
+    expect(onHighlight).toHaveBeenLastCalledWith(['FR', 'US']);
+
+    // Another line leaving the list leaves the light alone.
+    onHighlight.mockClear();
+    rerender(<WorldPanel world={[nato]} {...props} />);
+    expect(within(top).queryByRole('button', { name: 'Quake' })).toBeNull();
+    expect(onHighlight).not.toHaveBeenCalled();
+
+    // The story pointed at runs in one more country now.
+    const gb = { code: 'GB', clusterId: 'c9', title: 'NATO summit', url: 'https://gb.example/nato', outletCount24h: 1, language: 'en' };
+    rerender(<WorldPanel world={[{ ...nato, countries: [...nato.countries, gb] }]} {...props} />);
+    expect(onHighlight).toHaveBeenLastCalledWith(['FR', 'US', 'GB']);
+
+    rerender(<WorldPanel world={[]} {...props} />);
+    expect(within(top).queryByRole('button', { name: 'NATO meets' })).toBeNull();
+    expect(onHighlight).toHaveBeenLastCalledWith(null);
   });
 
   it('translates the best-covered headline when no country is English-speaking', async () => {
-    renderWorld([story([entry('DE', 'Warner Bros kauft Paramount', 'de'), entry('FR', 'Warner Bros rachète Paramount', 'fr')])]);
-    expect(await screen.findByText('[en] Warner Bros kauft Paramount')).toBeTruthy();
+    const story: WorldStory = {
+      ...nato,
+      countries: [
+        { ...nato.countries[0]!, code: 'DE', title: 'Warner Bros kauft Paramount', language: 'de' },
+        { ...nato.countries[0]!, title: 'Warner Bros rachète Paramount' },
+      ],
+    };
+    renderWorld({ body: { ...file, top: [] }, world: [story] });
+    expect(await screen.findByRole('button', { name: '[en] Warner Bros kauft Paramount' })).toBeTruthy();
   });
 
-  it('shows no English line when it can’t translate, and a fallback when no name is shared', async () => {
+  it('offers Google Translate for headlines it can’t translate on the device', async () => {
     translator.available = false;
-    renderWorld([story([entry('DE', 'Ein Satz', 'de'), entry('FR', 'Une phrase', 'fr')], [])]);
-    await Promise.resolve();
-    expect(document.querySelector('.world-english')).toBeNull();
-    expect(screen.getByText('Same story')).toBeTruthy();
+    renderWorld({ body: { ...file, top: [item('FR', 'Le budget adopté', { language: 'fr' }), item('US', 'Senate vote')] }, world: [] });
+    const link = await screen.findByRole('link', { name: 'Translate “Le budget adopté” with Google Translate' });
+    expect(link.getAttribute('href')).toContain('sl=fr');
+    // English headlines need none.
+    expect(screen.getAllByRole('link', { name: /Google Translate/ })).toHaveLength(1);
+  });
+
+  it('shows the workflow’s English on any device, without a Translate link', async () => {
+    translator.available = false;
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => new Response(JSON.stringify({ ...file, top: [item('FR', 'Le budget adopté', { language: 'fr' })] }))),
+    );
+    render(
+      <TranslationsContext.Provider value={new Map([['Le budget adopté', 'Budget passed']])}>
+        <WorldPanel
+          world={[]}
+          refreshKey={0}
+          now={NOW}
+          isMobile={false}
+          onClose={vi.fn()}
+          onSheetChange={vi.fn()}
+          onOpenStory={vi.fn()}
+          onHighlight={vi.fn()}
+        />
+      </TranslationsContext.Provider>,
+    );
+    const title = await screen.findByText('Budget passed');
+    expect(title.getAttribute('lang')).toBe('en');
+    expect(title.getAttribute('title')).toBe('Le budget adopté');
+    expect(screen.queryByRole('link', { name: /Google Translate/ })).toBeNull();
+  });
+
+  it('lists the cross-border stories while Today’s file loads', () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(() => new Promise<Response>(() => {})),
+    );
+    const props = {
+      refreshKey: 0,
+      now: NOW,
+      isMobile: false,
+      onClose: vi.fn(),
+      onSheetChange: vi.fn(),
+      onOpenStory: vi.fn(),
+      onHighlight: vi.fn(),
+    };
+    const { rerender } = render(<WorldPanel world={[nato]} {...props} />);
+    expect(screen.queryByText('Loading…')).toBeNull();
+    expect(lines(screen.getByRole('region', { name: 'Top stories' }))).toEqual([
+      { title: 'NATO meets', countries: ['France', 'United States'] },
+    ]);
+    // With none, it waits for Today's.
+    rerender(<WorldPanel world={[]} {...props} />);
+    expect(screen.getByText('Loading…')).toBeTruthy();
+  });
+
+  it('lists the cross-border stories before the workflow has written Today’s file', async () => {
+    renderWorld({ body: null });
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    expect(lines(top)).toEqual([{ title: 'NATO meets', countries: ['France', 'United States'] }]);
+    expect(screen.getByText('The top stories worldwide right now')).toBeTruthy();
+  });
+
+  it('leaves out a Today file hours behind the index, rather than rank its stories with the current ones', async () => {
+    const { onHighlight, rerender } = renderWorld({ body: { ...file, runAt: minutesAgo(5 + 3 * 60 + 1) }, world: [] });
+    await screen.findByText(/Today’s stories aren’t available yet/);
+    const props = {
+      updatedAt: UPDATED_AT,
+      refreshKey: 0,
+      now: NOW,
+      isMobile: false,
+      onClose: vi.fn(),
+      onSheetChange: vi.fn(),
+      onOpenStory: vi.fn(),
+    };
+    rerender(<WorldPanel world={[nato]} {...props} onHighlight={onHighlight} />);
+    expect(lines(screen.getByRole('region', { name: 'Top stories' }))).toEqual([
+      { title: 'NATO meets', countries: ['France', 'United States'] },
+    ]);
+    expect(screen.queryByRole('region', { name: 'Rising this hour' })).toBeNull();
+    expect(screen.queryByRole('region', { name: 'On top all day' })).toBeNull();
+    expect(screen.getByText('The top stories worldwide right now')).toBeTruthy();
+    // Three hours behind, it still joins.
+    rerender(<WorldPanel world={[nato]} {...props} updatedAt={minutesAgo(5 + 3 * 60 - 1)} onHighlight={onHighlight} />);
+    expect(lines(screen.getByRole('region', { name: 'Top stories' })).map((l) => l.title)).toEqual([
+      'Budget passes',
+      'NATO meets',
+      'Senate vote',
+    ]);
+  });
+
+  it('lists Today’s stories alone when there are no cross-border ones', async () => {
+    renderWorld({ world: [] });
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    expect(lines(top).map((l) => l.title)).toEqual(['Budget passes', 'Senate vote']);
+  });
+
+  it('says so when it has no stories yet', async () => {
+    renderWorld({ body: null, world: [] });
+    await waitFor(() => expect(screen.getByText(/Today’s stories aren’t available yet/)).toBeTruthy());
   });
 });

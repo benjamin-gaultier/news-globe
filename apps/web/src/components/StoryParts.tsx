@@ -4,7 +4,32 @@ import { useTranslated } from '../hooks/useTranslated';
 import { plural } from '../lib/text';
 import { TARGET_LANGUAGE } from '../lib/translate';
 
-/** Small pieces shared by the story lists, the story page and the Today and world panels. */
+/** Small pieces shared by the story lists, the story page and the world briefing. */
+
+/** The countries whose top headlines carry a story: a chip each, opening the story's page there. */
+export function CountryChips({
+  countries,
+  onOpen,
+  label,
+}: {
+  countries: readonly { code: CountryCode; clusterId: string }[];
+  onOpen: (code: CountryCode, clusterId: string) => void;
+  /** A word before the chips ("Also in"). */
+  label?: string;
+}) {
+  const known = countries.filter((c) => COUNTRIES[c.code]);
+  if (!known.length) return null;
+  return (
+    <p className="story-also">
+      {label && <span className="story-also-label">{label}</span>}
+      {known.map((c) => (
+        <button key={c.code} type="button" className="chip chip-small" onClick={() => onOpen(c.code, c.clusterId)}>
+          {COUNTRIES[c.code]!.name}
+        </button>
+      ))}
+    </p>
+  );
+}
 
 /** "New" or "↑ Rising" since the previous run. */
 export function TrendBadge({ state }: { state: 'new' | 'rising' | null | undefined }) {

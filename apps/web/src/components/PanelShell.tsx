@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent, type ReactNode } from 'react';
 
-/** Bottom-sheet snap points, as a fraction of the viewport height. */
-export const SHEET_SNAPS = { half: 0.52, full: 0.9 } as const;
+/** Bottom-sheet snap points, as a fraction of the viewport height. Only sheets that open at `peek` have it. */
+export const SHEET_SNAPS = { peek: 0.36, half: 0.52, full: 0.9 } as const;
 /** A sideways swipe: at least this far, and mostly sideways. */
 const SWIPE_MIN_PX = 60;
 const isSwipe = (dx: number, dy: number) => Math.abs(dx) >= SWIPE_MIN_PX && Math.abs(dx) > 2 * Math.abs(dy);
@@ -21,6 +21,12 @@ function swallowNextClick() {
   window.addEventListener('pointerdown', done, { capture: true, once: true });
 }
 type Snap = keyof typeof SHEET_SNAPS;
+const SNAPS: readonly Snap[] = ['half', 'full'];
+const PEEK_SNAPS: readonly Snap[] = ['peek', 'half', 'full'];
+
+/** The snap whose height is nearest `fraction` of the viewport. */
+const nearest = (snaps: readonly Snap[], fraction: number) =>
+  snaps.reduce((best, s) => (Math.abs(SHEET_SNAPS[s] - fraction) < Math.abs(SHEET_SNAPS[best] - fraction) ? s : best));
 
 export interface PanelShellProps {
   /** A link back up a level, above the title ("‹ France"). */
@@ -39,8 +45,10 @@ export interface PanelShellProps {
   animate?: boolean;
   /** Phones: a sideways swipe on the sheet; 1 is a swipe to the left (next), -1 to the right (previous). */
   onSwipe?: (direction: 1 | -1) => void;
-  /** Changing it starts the sheet at half height again (a new country, the world view). */
+  /** Changing it starts the sheet at its opening height again (a new country). */
   sheetKey: string;
+  /** Phones: the sheet opens lower, at peek height, leaving most of the globe in view (the world briefing). */
+  peek?: boolean;
   /** Changing it scrolls the body back to the top (a new country or region). */
   scrollKey: string;
   isMobile: boolean;
@@ -60,12 +68,15 @@ export function PanelShell({
   animate = true,
   onSwipe,
   sheetKey,
+  peek = false,
   scrollKey,
   isMobile,
   onClose,
   onSheetChange,
 }: PanelShellProps) {
-  const [snap, setSnap] = useState<Snap>('half');
+  const snaps = peek ? PEEK_SNAPS : SNAPS;
+  const lowest = snaps[0]!;
+  const [snap, setSnap] = useState<Snap>(lowest);
   const [dragHeight, setDragHeight] = useState<number | null>(null);
   // Live drag state lives in a ref: pointerup can fire before React re-renders after the last move.
   const drag = useRef<{ startX: number; startY: number; startHeight: number; height: number; moved: boolean } | null>(null);
@@ -78,7 +89,7 @@ export function PanelShell({
 
   // biome-ignore lint/correctness/useExhaustiveDependencies: runs when the key changes, by design.
   useEffect(() => {
-    setSnap('half');
+    setSnap(lowest);
   }, [sheetKey]);
   // biome-ignore lint/correctness/useExhaustiveDependencies: runs when the key changes, by design.
   useEffect(() => {
@@ -123,13 +134,13 @@ export function PanelShell({
       return;
     }
     if (!d.moved) {
-      // A tap on the handle toggles between the two heights.
-      if (e.type === 'pointerup') setSnap((s) => (s === 'half' ? 'full' : 'half'));
+      // A tap on the handle toggles between full height and the opening height.
+      if (e.type === 'pointerup') setSnap((s) => (s === 'full' ? lowest : 'full'));
       return;
     }
     const fraction = d.height / window.innerHeight;
-    if (fraction < SHEET_SNAPS.half * 0.6) onClose();
-    else setSnap(fraction > (SHEET_SNAPS.half + SHEET_SNAPS.full) / 2 ? 'full' : 'half');
+    if (fraction < SHEET_SNAPS[lowest] * 0.6) onClose();
+    else setSnap(nearest(snaps, fraction));
   };
 
   const onBodyPointerDown = (e: ReactPointerEvent<HTMLDivElement>) => {

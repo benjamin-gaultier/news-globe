@@ -3,6 +3,7 @@ import { memo, useCallback, useContext, useEffect, useMemo, useRef, useState } f
 import Globe, { type GlobeMethods } from 'react-globe.gl';
 import { MeshPhongMaterial } from 'three';
 import countriesGeo from '../assets/countries-110m.json';
+import { middleOf } from '../lib/geo';
 import { COUNTRY_HEAT, heatStep, REGION_HEAT, type Pulse } from '../lib/heat';
 import { REDUCED_MOTION_QUERY, useMediaQuery } from '../hooks/useMediaQuery';
 import { TranslationsContext } from '../lib/translations';
@@ -78,6 +79,10 @@ const pulseColor = (t: number) => `rgba(255, 128, 0, ${Math.sqrt(1 - t)})`;
 const ringColor = () => pulseColor;
 /** Stable empties, so globe.gl doesn't rebuild its rings layer on every render. */
 const NO_PULSES: readonly Pulse[] = [];
+const NO_COUNTRIES: readonly CountryCode[] = [];
+
+/** How long the pointer rests on a story before the globe turns to its countries, so sweeping down the list doesn't spin it. */
+const HIGHLIGHT_TURN_DELAY_MS = 300;
 
 const INITIAL_VIEW = { lat: 32, lng: -45, altitude: 2.6 };
 /** A touch that moves further than this is a drag, not a tap. */
@@ -106,10 +111,12 @@ export interface GlobeViewProps {
   isMobile: boolean;
   /** Fraction of the viewport height covered by the bottom sheet (mobile), so the country stays visible above it. */
   sheetFraction: number;
-  /** Arcs between countries sharing a story (the world view). */
+  /** Arcs between countries sharing a story (the world briefing). */
   arcs: readonly { startLat: number; startLng: number; endLat: number; endLng: number }[];
   /** Countries whose #1 story is new or rising this hour, drawn as pulsing rings while no country is open. */
   pulses?: readonly Pulse[];
+  /** The countries of the world briefing's story pointed at: lit up, and turned to while no country is open. */
+  highlighted?: readonly CountryCode[];
 }
 
 // Constant accessors: a new function each render would make globe.gl update every polygon and arc.
@@ -131,6 +138,7 @@ export default memo(function GlobeView({
   sheetFraction,
   arcs,
   pulses = NO_PULSES,
+  highlighted = NO_COUNTRIES,
 }: GlobeViewProps) {
   const globeRef = useRef<GlobeMethods | undefined>(undefined);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -144,10 +152,11 @@ export default memo(function GlobeView({
   const [ready, setReady] = useState(false);
   const selectedRef = useRef(selected);
   selectedRef.current = selected;
-  // With reduced motion the globe holds still until dragged (and pulses don't ring).
+  // With reduced motion the globe holds still until dragged (and pulses don't ring). It also holds still on a lit story.
   const reducedMotion = useMediaQuery(REDUCED_MOTION_QUERY);
+  const lit = highlighted.length > 0;
   const autoRotate = useRef(false);
-  autoRotate.current = selected === null && !reducedMotion;
+  autoRotate.current = selected === null && !reducedMotion && !lit;
 
   // Track the container size (the desktop panel narrows it).
   useEffect(() => {
@@ -255,11 +264,22 @@ export default memo(function GlobeView({
     setReady(true);
   }, [isMobile]);
 
-  // Stop auto-rotating while a country is open (or with reduced motion); resume when the panel closes.
+  // Stop auto-rotating while a country is open or a story lit (or with reduced motion); resume when the panel closes.
   useEffect(() => {
     const globe = globeRef.current;
-    if (globe) globe.controls().autoRotate = selected === null && !reducedMotion;
-  }, [selected, reducedMotion]);
+    if (globe) globe.controls().autoRotate = selected === null && !reducedMotion && !lit;
+  }, [selected, reducedMotion, lit]);
+
+  // Turn to a lit story's countries once the pointer has rested on it, keeping the zoom. Not while a country is open.
+  useEffect(() => {
+    const globe = globeRef.current;
+    const aim = middleOf(highlighted);
+    if (!globe || !ready || selected || !aim) return;
+    const timer = setTimeout(() => {
+      globe.pointOfView({ ...aim, altitude: globe.pointOfView().altitude }, reducedMotion ? 0 : 1000);
+    }, HIGHLIGHT_TURN_DELAY_MS);
+    return () => clearTimeout(timer);
+  }, [ready, selected, highlighted, reducedMotion]);
 
   // Fly to the selected region or country; zoom back out (staying over the same spot) when it closes.
   useEffect(() => {
@@ -290,6 +310,8 @@ export default memo(function GlobeView({
   );
 
   const pulseOf = useMemo(() => new Map(pulses.map((p) => [p.code as string, p])), [pulses]);
+  const highlightedSet = useMemo(() => new Set<string>(highlighted), [highlighted]);
+  const isHighlighted = useCallback((f: Shape) => !!f.properties.iso2 && highlightedSet.has(f.properties.iso2), [highlightedSet]);
 
   const entryOf = useCallback((f: Shape) => entries.get(f.properties.region ?? f.properties.iso2 ?? ''), [entries]);
 
@@ -297,6 +319,7 @@ export default memo(function GlobeView({
     (obj: object) => {
       const f = obj as Shape;
       if (isSelected(f)) return isRegion(f) || !showingRegions ? COLORS.selected : COLORS.selectedUnder;
+      if (isHighlighted(f)) return COLORS.selected;
       if (!isAvailable(f)) return COLORS.unavailable;
       const step = heatStep(entryOf(f)?.topOutlets);
       if (isRegion(f)) {
@@ -305,7 +328,7 @@ export default memo(function GlobeView({
       }
       return f === hovered ? COLORS.availableHover : COUNTRY_HEAT[step]!;
     },
-    [isSelected, hovered, isAvailable, showingRegions, selectedRegion, entryOf],
+    [isSelected, isHighlighted, hovered, isAvailable, showingRegions, selectedRegion, entryOf],
   );
 
   const altitude = useCallback(
@@ -316,10 +339,11 @@ export default memo(function GlobeView({
         return f === hovered && isAvailable(f) ? 0.025 : 0.018;
       }
       if (isSelected(f)) return showingRegions ? 0.008 : 0.05;
+      if (isHighlighted(f)) return 0.05;
       if (!isAvailable(f)) return 0.005;
       return f === hovered ? 0.035 : 0.02;
     },
-    [isSelected, hovered, isAvailable, showingRegions],
+    [isSelected, isHighlighted, hovered, isAvailable, showingRegions],
   );
 
   const label = useCallback(
@@ -406,7 +430,7 @@ export default memo(function GlobeView({
           arcDashGap={0.15}
           arcDashAnimateTime={3000}
           arcsTransitionDuration={0}
-          ringsData={(selected ? NO_PULSES : pulses) as object[]}
+          ringsData={(selected || lit ? NO_PULSES : pulses) as object[]}
           ringColor={ringColor}
           ringAltitude={0.03}
           ringMaxRadius={6}

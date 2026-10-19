@@ -104,26 +104,33 @@ const chip = (name: string) => within(screen.getByRole('navigation', { name: 'Sh
 /** The top bar's recent countries, in their order. */
 const shortcuts = () =>
   within(screen.getByRole('navigation', { name: 'Shortcuts' }))
-    .getAllByRole('button')
-    .map((b) => b.textContent)
-    .filter((name) => name !== 'Across borders');
+    .queryAllByRole('button')
+    .map((b) => b.textContent);
 const panel = () => screen.queryByRole('complementary');
+const briefing = () => screen.queryByRole('heading', { level: 2, name: 'World' });
 
 describe('App', () => {
   it('loads the index and enables the countries that have headlines', async () => {
     history.replaceState(null, '', '/');
     render(<App />);
-    expect(screen.getByText('Loading…')).toBeTruthy();
+    expect(within(screen.getByRole('banner')).getByText('Loading…')).toBeTruthy();
     await screen.findByText('Updated 10 minutes ago');
 
     // No country shortcuts before one has been opened.
-    expect(screen.queryByRole('button', { name: 'France' })).toBeNull();
-    expect(screen.getByText('Tap a highlighted country to see its top headlines')).toBeTruthy();
+    expect(shortcuts()).toEqual([]);
     expect(screen.getByRole('figure', { name: /Shading/ })).toBeTruthy();
     await waitFor(() => expect([...globe.props!.available].sort()).toEqual(['FR', 'US']));
     expect(globe.props!.entries.get('FR')?.topOutlets).toBe(3);
     expect(document.title).toBe('News Globe');
+    // It opens on the world briefing, not on an empty globe.
+    expect(briefing()).toBeTruthy();
+    expect(screen.getByRole('button', { name: 'World' }).getAttribute('aria-pressed')).toBe('true');
+    expect(screen.queryByText(/Tap a highlighted country/)).toBeNull();
+
+    await userEvent.click(screen.getByRole('button', { name: 'Close headlines' }));
     expect(panel()).toBeNull();
+    expect(screen.getByText('Tap a highlighted country to see its top headlines')).toBeTruthy();
+    expect(location.hash).toBe('');
   });
 
   it('opens a country’s headlines, keeps the URL in step, and closes again', async () => {
@@ -139,8 +146,9 @@ describe('App', () => {
     expect(globe.props!.regions.map((r) => r.code)).toEqual(['FR-BRE']);
     expect(screen.queryByText(/Tap a highlighted country/)).toBeNull();
 
+    // Closing a country returns to the world briefing.
     await userEvent.click(chip('France'));
-    expect(panel()).toBeNull();
+    expect(briefing()).toBeTruthy();
     expect(location.hash).toBe('');
     expect(document.title).toBe('News Globe');
   });
@@ -167,7 +175,7 @@ describe('App', () => {
     await renderApp('#US');
     await screen.findByRole('link', { name: 'Senate passes bill' });
     await userEvent.click(screen.getByRole('button', { name: 'Close headlines' }));
-    expect(panel()).toBeNull();
+    expect(briefing()).toBeTruthy();
   });
 
   it('opens a region and returns to the country', async () => {
@@ -196,7 +204,7 @@ describe('App', () => {
   it('falls back from a link to a country without headlines, with a note', async () => {
     await renderApp('#DE');
     expect(await screen.findByText('Germany — coming soon')).toBeTruthy();
-    expect(panel()).toBeNull();
+    expect(briefing()).toBeTruthy();
     expect(location.hash).toBe('');
     expect(screen.queryByRole('button', { name: 'Germany' })).toBeNull();
   });
@@ -232,19 +240,31 @@ describe('App', () => {
         countryCode: 'US',
         countryName: 'United States',
       });
+    files['index.json'] = () => {
+      const index = indexFile();
+      const [story] = index.world!;
+      const again = { ...story!.countries[1]!, clusterId: 'c3', title: 'NATO again' };
+      return { ...index, world: [story!, { ...story!, id: 'w2', countries: [again, { ...story!.countries[0]!, code: 'GB' }] }] };
+    };
     await renderApp();
-    await userEvent.click(chip('Across borders'));
+    const story = (await screen.findByRole('button', { name: 'NATO meets' })).closest('li')!;
+    const fr = { startLat: 46.6, startLng: 2.4, endLat: 39.5, endLng: -98.4 };
+    expect(globe.props!.arcs).toHaveLength(2);
+    expect(globe.props!.arcs![0]).toEqual(fr);
 
-    expect(screen.getByRole('heading', { name: 'Across borders' })).toBeTruthy();
-    expect(screen.getByText('NATO meets', { selector: '.world-english' })).toBeTruthy();
-    expect(location.hash).toBe('#world');
-    expect(document.title).toBe('Across borders · News Globe');
-    expect(globe.props!.arcs).toEqual([{ startLat: 46.6, startLng: 2.4, endLat: 39.5, endLng: -98.4 }]);
+    // Pointing at a story lights its countries and keeps only its arcs.
+    await userEvent.hover(story);
+    expect(globe.props!.highlighted).toEqual(['FR', 'US']);
+    expect(globe.props!.arcs).toEqual([fr]);
+    await userEvent.unhover(story);
+    expect(globe.props!.highlighted).toBeUndefined();
+    expect(globe.props!.arcs).toHaveLength(2);
 
-    // A country from a story opens that story's page there, replacing the world view.
-    await userEvent.click(within(screen.getByRole('complementary')).getByRole('button', { name: 'United States' }));
+    // A country from a story opens that story's page there, replacing the briefing.
+    await userEvent.click(within(story).getByRole('button', { name: 'United States' }));
     expect(await screen.findByRole('heading', { level: 2, name: 'Senate passes bill' })).toBeTruthy();
     expect(globe.props!.arcs).toEqual([]);
+    expect(globe.props!.highlighted).toBeUndefined();
     expect(location.hash).toBe('#US/c2');
   });
 
@@ -259,10 +279,12 @@ describe('App', () => {
     }
   });
 
-  it('opens Today from the top bar, and a story from it', async () => {
+  it('lists Today’s stories in the briefing, and opens one', async () => {
+    const index = indexFile();
+    files['index.json'] = () => index;
     files['today.json'] = () => ({
       schemaVersion: SCHEMA_VERSION,
-      runAt: ago(10),
+      runAt: index.updatedAt,
       top: [
         {
           unit: 'US',
@@ -288,15 +310,40 @@ describe('App', () => {
         countryCode: 'US',
         countryName: 'United States',
       });
-    await renderApp();
-    await userEvent.click(screen.getByRole('button', { name: 'Today' }));
-    expect(await screen.findByRole('heading', { level: 2, name: 'Today' })).toBeTruthy();
-    expect(location.hash).toBe('#today');
-    expect(document.title).toBe('Today · News Globe');
+    // The old Today link opens the briefing, under the plain URL.
+    await renderApp('#today');
+    expect(briefing()).toBeTruthy();
+    expect(location.hash).toBe('');
+    expect(requested()).toContain('/data/today.json');
 
-    await userEvent.click(await screen.findByRole('button', { name: /Senate passes bill/ }));
+    // The Senate story is the American half of the NATO story, so it shows once, as that.
+    const nato = await screen.findByRole('button', { name: 'NATO meets' });
+    expect(screen.queryByRole('button', { name: 'Senate passes bill' })).toBeNull();
+    await userEvent.click(nato);
     expect(await screen.findByRole('heading', { level: 2, name: 'Senate passes bill' })).toBeTruthy();
     expect(location.hash).toBe('#US/c2');
+  });
+
+  it('opens the old Across borders link on the briefing, and toggles it from the top bar', async () => {
+    await renderApp('#world');
+    expect(briefing()).toBeTruthy();
+    expect(location.hash).toBe('');
+    const button = screen.getByRole('button', { name: 'World' });
+    await userEvent.click(button);
+    expect(panel()).toBeNull();
+    expect(button.getAttribute('aria-pressed')).toBe('false');
+    expect(globe.props!.arcs).toEqual([]);
+    await userEvent.click(button);
+    expect(briefing()).toBeTruthy();
+    expect(button.getAttribute('aria-pressed')).toBe('true');
+
+    // An old link followed on the page (no reload) gives way to the plain URL too.
+    act(() => {
+      history.pushState(null, '', '/#today');
+      window.dispatchEvent(new PopStateEvent('popstate'));
+    });
+    expect(location.hash).toBe('');
+    expect(briefing()).toBeTruthy();
   });
 
   it('moves to the next country with headlines on a sideways swipe (phones)', async () => {
@@ -553,7 +600,8 @@ describe('App', () => {
       await userEvent.click(screen.getByRole('button', { name: 'Close headlines' }));
       await waitFor(() => expect(location.hash).toBe(`#@${today}T09:00`));
       expect(screen.getByRole('slider')).toBeTruthy();
-      expect(screen.queryByRole('button', { name: 'Across borders' })).toBeNull();
+      // The briefing is live only.
+      expect(briefing()).toBeNull();
       expect([...globe.props!.entries.keys()]).toEqual(['FR']);
       expect(globe.props!.entries.get('FR')!.updatedAt).toBe(`${today}T09:00:00.000Z`);
 
@@ -573,6 +621,18 @@ describe('App', () => {
       expect(screen.queryByRole('slider')).toBeNull();
       expect(await screen.findByRole('link', { name: 'Le budget adopté' })).toBeTruthy();
       expect(location.hash).toBe('#FR');
+    });
+
+    it('goes back in time from the briefing, onto the globe', async () => {
+      files.archive = () => true;
+      await renderApp();
+      await userEvent.click(within(panel()!).getByRole('button', { name: 'History' }));
+      const today = new Date().toISOString().slice(0, 10);
+      await waitFor(() => expect(location.hash).toBe(`#@${today}T09:00`));
+      expect(screen.getByRole('slider')).toBeTruthy();
+      // The briefing is live only.
+      expect(briefing()).toBeNull();
+      expect(panel()).toBeNull();
     });
 
     it('goes back in time from a live panel, keeping the place', async () => {
@@ -595,10 +655,14 @@ describe('App', () => {
       expect(requested()).toContain('/data/archive/2026-10-07.json');
     });
 
-    it('says when a day has no history', async () => {
+    it('says when a day has no history, and Live returns to the briefing', async () => {
       await renderApp('#@2026-10-07');
       expect(await screen.findByText('No history for this day')).toBeTruthy();
       expect(globe.props!.entries.size).toBe(0);
+      expect(briefing()).toBeNull();
+      await userEvent.click(screen.getByRole('button', { name: 'Live' }));
+      expect(briefing()).toBeTruthy();
+      expect(location.hash).toBe('');
     });
   });
 });
@@ -650,18 +714,14 @@ describe('Trends', () => {
     expect(screen.getByText('New or rising #1 story')).toBeTruthy();
   });
 
-  it('pulses nothing in the world view, in history or with reduced motion', async () => {
+  it('pulses nothing in history or with reduced motion', async () => {
     withPulse();
-    await renderApp('#world');
-    await waitFor(() => expect(requested()).toContain('/data/trends.json'));
-    expect(globe.props!.pulses).toEqual([]);
     const again = () => {
       cleanup();
       globe.props = null;
       fetchMock.mockClear();
     };
 
-    again();
     await renderApp('#@2026-10-07');
     expect(globe.props!.pulses).toEqual([]);
 
@@ -709,7 +769,6 @@ describe('Search', () => {
   it('finds a headline and opens its panel on that story', async () => {
     await renderApp();
     const box = screen.getByRole('searchbox', { name: /Search countries, regions and every current headline/ });
-    expect(panel()).toBeNull();
     await userEvent.type(box, 'budget');
     expect(await screen.findByRole('heading', { name: 'Search results' })).toBeTruthy();
     await userEvent.click(await screen.findByRole('button', { name: /Le budget adopté/ }));
@@ -743,7 +802,7 @@ describe('Search', () => {
     await userEvent.type(box, 'budget');
     await screen.findByRole('heading', { name: 'Search results' });
     await userEvent.keyboard('{Escape}');
-    expect(panel()).toBeNull();
+    expect(briefing()).toBeTruthy();
     expect((box as HTMLInputElement).value).toBe('');
   });
 
@@ -781,13 +840,13 @@ describe('Search', () => {
     const link = await screen.findByRole('link', { name: 'Le budget adopté' });
     expect(link.closest('li')!.className).not.toContain('story-focused');
 
-    // Results open over the globe, then Back to a country and Forward to the plain globe.
+    // Results open over the briefing, then Back to a country and Forward to the briefing.
     await userEvent.click(screen.getByRole('searchbox'));
     await screen.findByRole('heading', { name: 'Search results' });
     go('#US');
     await screen.findByRole('link', { name: 'Senate passes bill' });
     go('');
-    await waitFor(() => expect(panel()).toBeNull());
+    await waitFor(() => expect(briefing()).toBeTruthy());
   });
 
   it('jumps to the search box with "/" unless typing in a field', async () => {
