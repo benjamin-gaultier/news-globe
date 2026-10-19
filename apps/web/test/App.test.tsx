@@ -234,7 +234,7 @@ describe('App', () => {
     expect(globe.props!.selected).toBe('US');
   });
 
-  it('shows the cross-border stories with arcs between their countries', async () => {
+  it('draws arcs between a cross-border story’s countries only while it is pointed at', async () => {
     files['countries/US.json'] = () =>
       countryFile([cluster(article({ title: 'Senate passes bill', language: 'en' }), [], { id: 'c2' })], {
         countryCode: 'US',
@@ -249,16 +249,15 @@ describe('App', () => {
     await renderApp();
     const story = (await screen.findByRole('button', { name: 'NATO meets' })).closest('li')!;
     const fr = { startLat: 46.6, startLng: 2.4, endLat: 39.5, endLng: -98.4 };
-    expect(globe.props!.arcs).toHaveLength(2);
-    expect(globe.props!.arcs![0]).toEqual(fr);
+    expect(globe.props!.arcs).toEqual([]);
 
-    // Pointing at a story lights its countries and keeps only its arcs.
+    // Pointing at a story lights its countries and draws its arcs, not the other story's.
     await userEvent.hover(story);
     expect(globe.props!.highlighted).toEqual(['FR', 'US']);
     expect(globe.props!.arcs).toEqual([fr]);
     await userEvent.unhover(story);
     expect(globe.props!.highlighted).toBeUndefined();
-    expect(globe.props!.arcs).toHaveLength(2);
+    expect(globe.props!.arcs).toEqual([]);
 
     // A country from a story opens that story's page there, replacing the briefing.
     await userEvent.click(within(story).getByRole('button', { name: 'United States' }));

@@ -200,12 +200,9 @@ export function App() {
   }, []);
   const worldStories = useMemo(() => indexData?.world ?? [], [indexData]);
 
-  // While the world briefing is open, arcs join the countries of each cross-border story; only the lit story's while one is.
-  const arcs = useMemo(() => {
-    if (!world) return NO_ARCS;
-    if (highlighted) return arcsBetween(highlighted);
-    return worldStories.flatMap((story) => arcsBetween(story.countries.map((c) => c.code)));
-  }, [world, worldStories, highlighted]);
+  // Arcs join the countries of the briefing story pointed at (or focused), and only then: every story's at once
+  // would be a tangle in front of the globe.
+  const arcs = useMemo(() => (highlighted ? arcsBetween(highlighted) : NO_ARCS), [highlighted]);
 
   // The URL hash follows the open view and History time; Back and Forward restore them.
   useHashRoute(routeOf(view, history.at), (route) => {
