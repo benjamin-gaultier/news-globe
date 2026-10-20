@@ -128,11 +128,13 @@ function BriefItem({
 /** How far Today's file can lag the index and still join the briefing: a run or two, not hours. */
 const TODAY_MAX_LAG_MS = 3 * 3_600_000;
 
-const outlets = (s: TodayStory) => `${plural(s.outlets, 'outlet')} · ${s.source}`;
+/** "3 outlets"; nothing for a story no outlet covered in the last 24 hours, the window every count covers. */
+const outletCount = (n: number) => (n > 0 ? plural(n, 'outlet') : null);
+const details = (...parts: (string | null)[]) => parts.filter(Boolean).join(' · ');
+const outlets = (s: TodayStory) => details(outletCount(s.outlets), s.source);
+// A cross-border line always has outlets: topStories leaves out the ones without.
 const topDetail = (b: Brief) =>
-  b.countries.length > 1
-    ? `${plural(b.outlets, 'outlet')} in ${b.countries.length} countries`
-    : `${plural(b.outlets, 'outlet')}${b.source ? ` · ${b.source}` : ''}`;
+  b.countries.length > 1 ? `${plural(b.outlets, 'outlet')} in ${b.countries.length} countries` : details(outletCount(b.outlets), b.source);
 
 export interface WorldPanelProps {
   /** Cross-border stories, from the index. */

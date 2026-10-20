@@ -108,6 +108,8 @@ export interface GlobeViewProps {
   selectedRegion: RegionCode | null;
   /** null returns to the country's national headlines. */
   onSelectRegion: (code: RegionCode | null) => void;
+  /** The country the globe starts over when none is open (the visitor's); null for the default view. */
+  facing?: CountryCode | null;
   isMobile: boolean;
   /** Fraction of the viewport height covered by the bottom sheet (mobile), so the country stays visible above it. */
   sheetFraction: number;
@@ -134,6 +136,7 @@ export default memo(function GlobeView({
   regions,
   selectedRegion,
   onSelectRegion,
+  facing = null,
   isMobile,
   sheetFraction,
   arcs,
@@ -259,10 +262,11 @@ export default memo(function GlobeView({
     controls.minDistance = 115;
     controls.maxDistance = 600;
     if (selectedRef.current === null) {
-      globe.pointOfView({ ...INITIAL_VIEW, altitude: INITIAL_VIEW.altitude + (isMobile ? MOBILE_ALTITUDE_BOOST : 0) }, 0);
+      const { lat, lng } = (facing && COUNTRIES[facing]) || INITIAL_VIEW;
+      globe.pointOfView({ lat, lng, altitude: INITIAL_VIEW.altitude + (isMobile ? MOBILE_ALTITUDE_BOOST : 0) }, 0);
     }
     setReady(true);
-  }, [isMobile]);
+  }, [isMobile, facing]);
 
   // Stop auto-rotating while a country is open or a story lit (or with reduced motion); resume when the panel closes.
   useEffect(() => {

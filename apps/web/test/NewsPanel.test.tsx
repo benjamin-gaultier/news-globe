@@ -5,6 +5,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { COUNTRIES, REGIONS, type CountryFile } from '@news-globe/shared';
 import { NewsPanel } from '../src/components/NewsPanel';
 import type { AsyncState } from '../src/hooks/useAsync';
+import { SOURCES_URL } from '../src/lib/links';
 import { article, cluster, countryFile, NOW } from './fixtures';
 import { resetTranslator, translateModule, translator } from './translate-mock';
 
@@ -62,6 +63,23 @@ describe('NewsPanel', () => {
     renderPanel({ state: ready(countryFile([cluster(article({ title: 'One' })), cluster(article({ title: 'Two' }))])) });
     expect(headlines()).toEqual(['One', 'Two']);
     expect(screen.getByText(/Top national headlines/).textContent).toBe('Top national headlines · updated 10 minutes ago');
+  });
+
+  it('names the outlets its headlines come from, with a link to every source, under the list only', () => {
+    const lemonde = { id: 'lemonde', name: 'Le Monde' };
+    const first = article({ source: { id: 'liberation', name: 'Libération' } });
+    const file = countryFile([
+      cluster(first, [article({ source: lemonde })]),
+      cluster(article({ source: { id: 'figaro', name: 'Le Figaro' } })),
+      cluster(article({ source: lemonde })),
+    ]);
+    const { rerender } = renderPanel({ state: ready(file) });
+    const line = screen.getByText(/^Headlines from/);
+    expect(line.textContent).toBe('Headlines from Le Figaro, Le Monde, Libération · All sources ↗');
+    expect(within(line).getByRole('link', { name: 'All sources ↗' }).getAttribute('href')).toBe(SOURCES_URL);
+
+    rerender({ state: ready(file), story: first.id });
+    expect(screen.queryByText(/^Headlines from/)).toBeNull();
   });
 
   it('keeps showing the previous data for the same view while it refreshes', () => {

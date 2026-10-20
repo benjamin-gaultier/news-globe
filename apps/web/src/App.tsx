@@ -1,5 +1,6 @@
 import { COUNTRIES, REGIONS, type Category, type CountryCode, type IndexEntry, type RegionCode } from '@news-globe/shared';
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { AboutPanel, InfoIcon } from './components/AboutPanel';
 import { HeatLegend } from './components/HeatLegend';
 import { HistoryBar, LiveBar } from './components/HistoryBar';
 import { HistoryPanel } from './components/HistoryPanel';
@@ -16,11 +17,13 @@ import { useRecentCountries } from './hooks/useRecentCountries';
 import { fetchCountry, fetchIndex, fetchRegion, fetchTranslations, fetchTrends } from './lib/data';
 import { pulsesFrom } from './lib/heat';
 import { storiesAt, todayUtc } from './lib/history';
+import { AUTHOR_URL } from './lib/links';
 import { formatRoute, parseRoute } from './lib/route';
 import { searchPlaces } from './lib/search';
 import { TranslationsContext } from './lib/translations';
 import { relativeTime } from './lib/time';
-import { CATEGORY_NAMES, categoryIn, GLOBE, home, place, routeOf, viewFromRoute, WORLD, type View } from './lib/view';
+import { ABOUT, CATEGORY_NAMES, categoryIn, GLOBE, home, place, routeOf, viewFromRoute, WORLD, type View } from './lib/view';
+import { visitorCountry } from './lib/visitor';
 
 // three.js is most of the bundle; load it after the shell renders.
 const GlobeView = lazy(() => import('./components/GlobeView'));
@@ -30,6 +33,15 @@ const INDEX_REFRESH_MS = 5 * 60_000;
 const NO_ENTRIES = new Map<string, IndexEntry>();
 type GlobeArc = { startLat: number; startLng: number; endLat: number; endLng: number };
 const NO_ARCS: GlobeArc[] = [];
+
+function PinIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true">
+      <path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z" fill="none" stroke="currentColor" strokeWidth="2" />
+      <circle cx="12" cy="10" r="2.2" fill="currentColor" />
+    </svg>
+  );
+}
 
 /** Arcs from a story's first (best-covered) country to each of the others. */
 function arcsBetween(codes: readonly CountryCode[]): GlobeArc[] {
@@ -48,6 +60,10 @@ export function App() {
   const selectedRegion = placeView?.region ?? null;
   const category = placeView?.category ?? 'top';
   const world = view.kind === 'world';
+  const about = view.kind === 'about';
+  // The visitor's country, guessed from this browser's time zone or language: the globe starts over it, and it
+  // leads the shortcuts.
+  const [visitor] = useState(visitorCountry);
   // The search box's text; its results are the 'search' view.
   const [query, setQuery] = useState('');
   const searchInput = useRef<HTMLInputElement>(null);
@@ -119,6 +135,9 @@ export function App() {
   }, [selected, swipedTo]);
   // Shortcuts to the countries picked lately (not a swipe's, nor a link's country that turns out to have no headlines).
   const recent = useRecentCountries(selected && selected !== swipedTo && available.has(selected) ? selected : null);
+  // The visitor's own country first, once it is known to have headlines; it stays first when opened.
+  const ownCountry = visitor && available.has(visitor) ? visitor : null;
+  const shortcuts = ownCountry ? [ownCountry, ...recent.filter((c) => c !== ownCountry)] : recent;
 
   // Selecting a country always starts from its national top headlines; so does a swipe to the next one.
   // Closing (null) returns to the world briefing, or to the globe in History.
@@ -288,6 +307,8 @@ export function App() {
     closeHistory();
     setView(WORLD);
   };
+  const toggleAbout = () => setView(about ? home(historyDate) : ABOUT);
+  const closeAbout = useCallback(() => setView(home(historyDate)), [historyDate]);
 
   const handleUnavailable = useCallback((name: string) => showToast(`${name} — coming soon`), [showToast]);
   const handleClose = useCallback(() => selectCountry(null), [selectCountry]);
@@ -348,6 +369,10 @@ export function App() {
         <header className="topbar">
           <div className="brand">
             <h1>News Globe</h1>
+            <p className="tagline">
+              {indexData ? `Top headlines in ${indexData.countries.length} countries` : 'Top headlines around the world'}
+              <span className="tagline-more">, updated hourly</span>
+            </p>
             {/* No live region here: "Updated N minutes ago" ticks every 30 s. Only the error is announced. */}
             <p className="updated">
               {index.status === 'error' && !indexData ? (
@@ -364,7 +389,7 @@ export function App() {
               )}
               <span className="credit">
                 {' · by '}
-                <a href="https://benjamingaultier.com/">Benjamin Gaultier</a>
+                <a href={AUTHOR_URL}>Benjamin Gaultier</a>
               </span>
             </p>
           </div>
@@ -381,17 +406,23 @@ export function App() {
               <WorldIcon />
               <span>World</span>
             </button>
+            <button type="button" className="tool-btn" aria-label="About" aria-pressed={about} onClick={toggleAbout}>
+              <InfoIcon />
+              <span>About</span>
+            </button>
           </div>
           <nav className="country-picker" aria-label="Shortcuts">
-            {recent.map((code) => (
+            {shortcuts.map((code) => (
               <button
                 key={code}
                 type="button"
-                className="chip"
+                className={code === ownCountry ? 'chip chip-own' : 'chip'}
+                title={code === ownCountry ? 'Your country, going by this browser’s settings' : undefined}
                 aria-pressed={selected === code}
                 disabled={!available.has(code)}
                 onClick={() => selectCountry(selected === code ? null : code)}
               >
+                {code === ownCountry && <PinIcon />}
                 {COUNTRIES[code]?.name ?? code}
               </button>
             ))}
@@ -409,6 +440,7 @@ export function App() {
               selectedRegion={selectedRegion}
               onSelectRegion={selectRegion}
               onUnavailable={handleUnavailable}
+              facing={visitor}
               isMobile={isMobile}
               sheetFraction={sheetFraction}
               arcs={arcs}
@@ -485,6 +517,9 @@ export function App() {
             onOpenStory={openSearchResult}
             onOpenPlace={openSearchResult}
           />
+        )}
+        {about && (
+          <AboutPanel countries={indexData?.countries.length} isMobile={isMobile} onClose={closeAbout} onSheetChange={setSheetFraction} />
         )}
         {world && (
           <WorldPanel

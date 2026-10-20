@@ -22,10 +22,13 @@ export type View =
     }
   /** The world briefing: the landing view (live only). */
   | { kind: 'world' }
-  | { kind: 'search' };
+  | { kind: 'search' }
+  /** What the site is, where its headlines come from, and who made it. Not in the URL, like search. */
+  | { kind: 'about' };
 
 export const GLOBE: View = { kind: 'globe' };
 export const WORLD: View = { kind: 'world' };
+export const ABOUT: View = { kind: 'about' };
 
 /** Where closing a panel leads: the world briefing, or the globe in History (which has no briefing). */
 export const home = (at: string | null): View => (at ? GLOBE : WORLD);

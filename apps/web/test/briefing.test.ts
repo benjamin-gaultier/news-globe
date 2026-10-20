@@ -49,6 +49,14 @@ describe('topStories', () => {
     expect(top[0]!.countries.map((c) => c.code)).toEqual(['BE', 'FR']);
   });
 
+  it('leaves out a cross-border story no outlet covered in the last 24 hours', () => {
+    const top = topStories([national('DE', 'd1', 0)], [across('w1', 'UY/u1 0', 'CL/c1 0'), across('w2', 'FR/f1 1', 'BE/b1 0')]);
+    expect(top.map((b) => [b.key, b.outlets])).toEqual([
+      ['w2', 1],
+      ['DE/d1', 0],
+    ]);
+  });
+
   it('leaves out countries the app doesn’t know', () => {
     const top = topStories([], [across('w1', 'ZZ/z1 4', 'FR/f1 1'), across('w2', 'ZZ/z2 9')]);
     expect(top.map((b) => [b.key, b.countries.map((c) => c.code), b.outlets])).toEqual([['w1', ['FR'], 1]]);

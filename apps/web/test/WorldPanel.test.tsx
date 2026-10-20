@@ -93,6 +93,24 @@ describe('WorldPanel', () => {
     expect(lines(screen.getByRole('region', { name: 'On top all day' }))).toEqual([{ title: 'Election day', countries: ['Japan'] }]);
   });
 
+  it('gives no outlet count for a story no outlet covered in the last 24 hours, and leaves out such a cross-border story', async () => {
+    const stale: WorldStory = {
+      ...nato,
+      id: 'w0',
+      countries: nato.countries.map((c) => ({ ...c, clusterId: `${c.clusterId}-old`, title: 'Old summit', outletCount24h: 0 })),
+    };
+    renderWorld({
+      body: { ...file, top: [item('FR', 'Old news', { outlets: 0 })], rising: [item('DE', 'Storm warning', { outlets: 0, rank: 2 })] },
+      world: [nato, stale],
+    });
+    const top = await screen.findByRole('region', { name: 'Top stories' });
+    expect(lines(top).map((l) => l.title)).toEqual(['NATO meets', 'Old news']);
+    const old = within(top).getByRole('button', { name: 'Old news' }).closest('li')!;
+    expect(within(old).getByText('Le Monde')).toBeTruthy();
+    expect(within(screen.getByRole('region', { name: 'Rising this hour' })).getByText('#2 · Le Monde')).toBeTruthy();
+    expect(screen.queryByText(/0 outlets/)).toBeNull();
+  });
+
   it('shows a story that rose this hour and has stayed on top all day once, under Rising', async () => {
     const storm = file.rising[0]!;
     renderWorld({ body: { ...file, lasting: [{ ...storm, state: null }, ...file.lasting] } });

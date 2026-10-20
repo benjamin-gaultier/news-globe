@@ -11,6 +11,7 @@ import type {
 } from '@news-globe/shared';
 import { useEffect, useState, type ReactNode } from 'react';
 import { latestData, type AsyncState } from '../hooks/useAsync';
+import { SOURCES_URL } from '../lib/links';
 import { relativeTime } from '../lib/time';
 import { canTranslateOnDevice, getTranslator, TARGET_LANGUAGE } from '../lib/translate';
 import { CATEGORY_NAMES } from '../lib/view';
@@ -113,6 +114,12 @@ function CategorySwitch({
       ))}
     </div>
   );
+}
+
+/** The outlets with a headline in the list, A to Z. */
+function outletNames(file: CountryFile): string[] {
+  const names = new Set(file.clusters.flatMap((c) => [c.representative, ...c.related].map((a) => a.source.name)));
+  return [...names].sort((a, b) => a.localeCompare(b));
 }
 
 /** Languages other than English among the visible stories. */
@@ -242,6 +249,8 @@ export function NewsPanel({
     onOpenStory(null);
   };
   const languages = foreignLanguages(shown);
+  // Under the list: which outlets these headlines come from.
+  const outlets = !story && shown ? outletNames(shown) : [];
   const english = languageMode === 'en' && languages.length > 0;
   const languagesKey = languages.join(',');
   // Whether on-device translators exist for every language shown: drives the "Translating…" / fallback notes.
@@ -379,6 +388,14 @@ export function NewsPanel({
           focusTitle={focusTitle}
           focusId={focusId}
         />
+      )}
+      {outlets.length > 0 && (
+        <p className="panel-sources">
+          Headlines from <span className="panel-sources-names">{outlets.join(', ')}</span> ·{' '}
+          <a href={SOURCES_URL} target="_blank" rel="noopener noreferrer">
+            All sources ↗
+          </a>
+        </p>
       )}
       <p className="panel-footnote">
         Headlines and snippets link to the original publishers. Stories are grouped by matching headlines across outlets and ranked by how

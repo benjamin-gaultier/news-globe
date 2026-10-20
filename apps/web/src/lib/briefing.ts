@@ -40,7 +40,8 @@ export const briefOf = (s: TodayStory): Brief => ({
  * The top stories worldwide right now: Today's most covered national stories and
  * the cross-border stories, one line per story. A national story that is also in
  * other countries' headlines joins its cross-border story. Most outlets first,
- * then most countries.
+ * then most countries. A cross-border story no outlet has covered in the last
+ * 24 hours (feeds that post rarely) is left out: it isn't news right now.
  */
 export function topStories(top: readonly TodayStory[], world: readonly WorldStory[]): Brief[] {
   const briefs: Brief[] = [];
@@ -49,11 +50,12 @@ export function topStories(top: readonly TodayStory[], world: readonly WorldStor
     const countries = story.countries
       .filter((c) => COUNTRIES[c.code])
       .map((c) => ({ code: c.code, clusterId: c.clusterId, title: c.title, url: c.url, language: c.language, outlets: c.outletCount24h }));
-    if (!countries.length) continue;
+    const outlets = countries.reduce((n, c) => n + c.outlets, 0);
+    if (!outlets) continue;
     const brief: Brief = {
       key: story.id,
       countries,
-      outlets: countries.reduce((n, c) => n + c.outlets, 0),
+      outlets,
       source: null,
       imageUrl: null,
       state: null,
