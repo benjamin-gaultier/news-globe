@@ -202,6 +202,11 @@ describe('App', () => {
   });
 
   it('says what the site is in the top bar, and more under About', async () => {
+    // A country the index has before the app knows it isn't counted: the globe can't open it.
+    files['index.json'] = () => {
+      const index = indexFile();
+      return { ...index, countries: [...index.countries, { code: 'ZZ', name: 'Nowhere', updatedAt: ago(10), clusterCount: 1 }] };
+    };
     await renderApp();
     expect(within(screen.getByRole('banner')).getByText('Top headlines in 2 countries')).toBeTruthy();
 

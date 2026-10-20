@@ -218,6 +218,8 @@ export function App() {
     return () => window.removeEventListener('keydown', onKey);
   }, []);
   const worldStories = useMemo(() => indexData?.world ?? [], [indexData]);
+  // The countries the globe can open, live (in History, `available` is the day's): the tagline's and About's count.
+  const countryCount = indexData?.countries.filter((c) => COUNTRIES[c.code]).length;
 
   // Arcs join the countries of the briefing story pointed at (or focused), and only then: every story's at once
   // would be a tangle in front of the globe.
@@ -370,7 +372,7 @@ export function App() {
           <div className="brand">
             <h1>News Globe</h1>
             <p className="tagline">
-              {indexData ? `Top headlines in ${indexData.countries.length} countries` : 'Top headlines around the world'}
+              {countryCount ? `Top headlines in ${countryCount} countries` : 'Top headlines around the world'}
               <span className="tagline-more">, updated hourly</span>
             </p>
             {/* No live region here: "Updated N minutes ago" ticks every 30 s. Only the error is announced. */}
@@ -518,9 +520,7 @@ export function App() {
             onOpenPlace={openSearchResult}
           />
         )}
-        {about && (
-          <AboutPanel countries={indexData?.countries.length} isMobile={isMobile} onClose={closeAbout} onSheetChange={setSheetFraction} />
-        )}
+        {about && <AboutPanel countries={countryCount} isMobile={isMobile} onClose={closeAbout} onSheetChange={setSheetFraction} />}
         {world && (
           <WorldPanel
             world={worldStories}

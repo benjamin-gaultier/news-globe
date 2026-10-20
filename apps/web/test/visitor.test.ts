@@ -9,7 +9,7 @@ describe('visitorCountry', () => {
 
   it('falls back to the first language that names a country', () => {
     expect(visitorCountry('UTC', ['en', 'pt-BR', 'fr-FR'])).toBe('BR');
-    expect(visitorCountry(undefined, ['de-DE'])).toBe('DE');
+    expect(visitorCountry('Etc/GMT+3', ['de-DE'])).toBe('DE');
   });
 
   it('is null when neither names a country on the globe', () => {
