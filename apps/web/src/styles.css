@@ -630,6 +630,12 @@ button {
   letter-spacing: 0.01em;
 }
 
+.tagline {
+  margin: 2px 0 0;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
 .updated {
   margin: 2px 0 0;
   font-size: 0.8rem;
@@ -693,6 +699,13 @@ button {
 .chip:disabled {
   opacity: 0.45;
   cursor: default;
+}
+
+/* The visitor's own country, with a pin. */
+.chip-own {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .link-btn {
@@ -858,6 +871,61 @@ button {
   margin: 8px 16px 0;
   font-size: 0.72rem;
   color: var(--text-muted);
+}
+
+/* The outlets a list's headlines come from. */
+.panel-sources {
+  margin: 14px 16px 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.panel-sources-names {
+  color: var(--text);
+}
+
+.panel-sources a,
+.about a {
+  color: var(--accent);
+  text-underline-offset: 2px;
+}
+
+/* ---------- About ---------- */
+
+.about {
+  padding: 4px 16px 0;
+}
+
+.about section {
+  padding-top: 14px;
+}
+
+.about h3 {
+  margin: 0 0 4px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.about p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.about .about-tip {
+  margin-top: 18px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.about kbd {
+  padding: 0 5px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font: inherit;
 }
 
 .panel-message {
@@ -1196,6 +1264,15 @@ button {
     font-size: 1.05rem;
   }
 
+  .tagline {
+    font-size: 0.78rem;
+  }
+
+  /* "Updated N minutes ago" is just below. */
+  .tagline-more {
+    display: none;
+  }
+
   .updated {
     font-size: 0.75rem;
   }
@@ -1305,6 +1382,35 @@ button {
     translate: -50% 0;
     width: min(560px, calc(100% - 300px));
     flex-wrap: nowrap;
+  }
+}
+
+/* Small tablets: icons only and a shorter tagline, as on phones, so the search box keeps room for its placeholder. */
+@media (min-width: 768px) and (max-width: 960px) {
+  .topbar-tools .tool-btn > span,
+  .tagline-more {
+    display: none;
+  }
+}
+
+/* A side panel leaves too little room for one row of name, search and tools: stack them as on phones. */
+@media (min-width: 768px) and (max-width: 1320px) {
+  .app.has-panel .topbar {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'brand tool'
+      'search search'
+      'places places';
+  }
+
+  .app.has-panel .search-box {
+    justify-self: stretch;
+    max-width: none;
+  }
+
+  .app.has-panel .topbar-tools .tool-btn > span,
+  .app.has-panel .tagline-more {
+    display: none;
   }
 }
 

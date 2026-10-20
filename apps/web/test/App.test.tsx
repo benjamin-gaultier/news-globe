@@ -5,6 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { ARCHIVE_SCHEMA_VERSION, SCHEMA_VERSION, type ArchiveDay, type CountryFile, type IndexFile } from '@news-globe/shared';
 import { App } from '../src/App';
 import type { GlobeViewProps } from '../src/components/GlobeView';
+import { SOURCES_URL } from '../src/lib/links';
 import { article, cluster, countryFile } from './fixtures';
 
 // The real globe needs WebGL; this stand-in records what the app hands it.
@@ -15,6 +16,10 @@ vi.mock('../src/components/GlobeView', () => ({
     return <div data-testid="globe" />;
   },
 }));
+
+// The visitor's country, as this browser's time zone or language would name it: none unless a test sets one.
+const visitor = vi.hoisted(() => ({ code: null as string | null }));
+vi.mock('../src/lib/visitor', () => ({ visitorCountry: () => visitor.code }));
 
 const ago = (minutes: number) => new Date(Date.now() - minutes * 60_000).toISOString();
 
@@ -86,6 +91,7 @@ beforeEach(() => {
   fetchMock.mockClear();
   vi.stubGlobal('fetch', fetchMock);
   globe.props = null;
+  visitor.code = null;
   localStorage.removeItem('news-globe:recent');
 });
 
@@ -169,6 +175,54 @@ describe('App', () => {
     globe.props = null;
     await renderApp();
     expect(shortcuts()).toEqual(['United States', 'France']);
+  });
+
+  it('leads the shortcuts with the visitor’s country once it has headlines, and starts the globe over it', async () => {
+    visitor.code = 'US';
+    await renderApp();
+    expect(globe.props!.facing).toBe('US');
+    await waitFor(() => expect(shortcuts()).toEqual(['United States']));
+    expect(chip('United States').title).toMatch(/^Your country/);
+
+    // Countries opened since come after it, and opening it leaves it first.
+    act(() => globe.props!.onSelect('FR'));
+    await screen.findByRole('link', { name: 'Le budget adopté' });
+    expect(shortcuts()).toEqual(['United States', 'France']);
+    await userEvent.click(chip('United States'));
+    await screen.findByRole('link', { name: 'Senate passes bill' });
+    expect(chip('United States').getAttribute('aria-pressed')).toBe('true');
+    expect(shortcuts()).toEqual(['United States', 'France']);
+  });
+
+  it('turns the globe to the visitor’s country without a shortcut when it has no headlines', async () => {
+    visitor.code = 'JP';
+    await renderApp();
+    expect(globe.props!.facing).toBe('JP');
+    expect(shortcuts()).toEqual([]);
+  });
+
+  it('says what the site is in the top bar, and more under About', async () => {
+    // A country the index has before the app knows it isn't counted: the globe can't open it.
+    files['index.json'] = () => {
+      const index = indexFile();
+      return { ...index, countries: [...index.countries, { code: 'ZZ', name: 'Nowhere', updatedAt: ago(10), clusterCount: 1 }] };
+    };
+    await renderApp();
+    expect(within(screen.getByRole('banner')).getByText('Top headlines in 2 countries')).toBeTruthy();
+
+    await userEvent.click(screen.getByRole('button', { name: 'About' }));
+    expect(screen.getByRole('heading', { level: 2, name: 'About' })).toBeTruthy();
+    expect(screen.getByRole('button', { name: 'About' }).getAttribute('aria-pressed')).toBe('true');
+    expect(briefing()).toBeNull();
+    expect(screen.getByRole('link', { name: /^Every outlet, by country/ }).getAttribute('href')).toBe(SOURCES_URL);
+    expect(location.hash).toBe('');
+
+    // Closing it returns to the world briefing; so does the About button.
+    await userEvent.click(screen.getByRole('button', { name: 'Close headlines' }));
+    expect(briefing()).toBeTruthy();
+    await userEvent.click(screen.getByRole('button', { name: 'About' }));
+    await userEvent.click(screen.getByRole('button', { name: 'About' }));
+    expect(briefing()).toBeTruthy();
   });
 
   it('closes the panel from its close button', async () => {
