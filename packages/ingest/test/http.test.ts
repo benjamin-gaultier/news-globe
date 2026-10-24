@@ -162,6 +162,27 @@ describe('first-seen times', () => {
   });
 });
 
+describe('first-seen times on 304', () => {
+  it('stamps undated items cached before first-seen times existed, once', async () => {
+    const fetchImpl = vi
+      .fn<typeof fetch>()
+      .mockResolvedValueOnce(new Response('<rss/>', { status: 200, headers: { ETag: '"v1"' } }))
+      .mockResolvedValue(new Response(null, { status: 304 }));
+    const cache = await makeCache(fetchImpl);
+    const undated = { ...item('evergreen'), publishedAt: null };
+    await cache.getItems(URL_A, async () => [undated]);
+    // As an older ingest would have cached it: no first-seen time.
+    delete (await cache.getItems(URL_A, async () => [])).items[0]!.firstSeenAt;
+
+    now += 16 * MIN;
+    const stampedAt = new Date(now).toISOString();
+    expect((await cache.getItems(URL_A, async () => [])).items).toEqual([{ ...undated, firstSeenAt: stampedAt }]);
+
+    now += 16 * MIN;
+    expect((await cache.getItems(URL_A, async () => [])).items).toEqual([{ ...undated, firstSeenAt: stampedAt }]);
+  });
+});
+
 describe('newest', () => {
   const at = (title: string, publishedAt: string | null): RawItem => ({ ...item(title), publishedAt });
   it('keeps the most recent items when a feed lists its whole archive', () => {

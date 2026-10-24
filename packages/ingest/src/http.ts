@@ -101,6 +101,9 @@ export class HttpCache {
       if (res.status === 304) {
         await res.body?.cancel();
         next.retrievedAt = attemptAt;
+        // Items cached before first-seen times existed get theirs now, or a feed that keeps
+        // answering 304 would date its undated items by every fetch.
+        next.items = stampFirstSeen(next.items, next.items, attemptAt);
         return { outcome: 'not-modified', items: next.items, retrievedAt: attemptAt };
       }
       if (!res.ok) {
