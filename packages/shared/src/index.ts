@@ -141,6 +141,8 @@ export interface WorldStory {
     outletCount24h: number;
     /** BCP 47 language of `title`. Optional: older index files have none. */
     language?: string;
+    /** Share of the country's press on it (0–1, see `coverage` in packages/ingest/src/rank.ts). Optional: older index files have none. */
+    coverage?: number;
   }[];
   /** ISO 8601 of the most recent article across the countries. */
   latestPublishedAt: string;
@@ -259,6 +261,11 @@ export interface TodayStory {
   imageUrl: string | null;
   /** Outlets covering it in the last 24 h (`outletCount24h`). */
   outlets: number;
+  /**
+   * Share of its country's press on it, 0–1 (see `coverage` in packages/ingest/src/rank.ts): what
+   * stories from different countries are ranked by. Optional: older files have none.
+   */
+  coverage?: number;
   /** Its rank in its unit at this run (1 = top story). */
   rank: number;
   /** ISO 8601 of today's first run that ranked it. */
@@ -267,15 +274,30 @@ export interface TodayStory {
 }
 
 /**
+ * What each country beyond the first adds to a cross-border story's score in the world briefing:
+ * one corroborating outlet in a typical country's press (4 outlets, so 1 / (3 + 1); see `coverage`
+ * in packages/ingest/src/rank.ts). Being in another country's headlines is evidence too, and
+ * without it a story carried by one outlet in each of five countries would score 0.
+ */
+export const CROSS_BORDER_COVERAGE = 0.25;
+
+/**
+ * A world briefing line's score, from the coverage of the story in each of its countries:
+ * those added up, plus CROSS_BORDER_COVERAGE for each country beyond the first.
+ */
+export const lineCoverage = (coverages: readonly number[]) =>
+  coverages.reduce((n, c) => n + c, 0) + Math.max(0, coverages.length - 1) * CROSS_BORDER_COVERAGE;
+
+/**
  * `today.json`: the national stories of the world briefing, derived hourly with `trends` and `search`
  * (packages/ingest/src/derived.ts) from the latest run and the day's archive.
  */
 export interface TodayFile {
   schemaVersion: number;
   runAt: string;
-  /** National stories, most widely covered first, at most two per country. */
+  /** National stories, the largest share of their country's press first, at most two per country. */
   top: TodayStory[];
-  /** National stories new or rising since the previous run, most widely covered first. */
+  /** National stories new or rising since the previous run, the largest share of their country's press first. */
   rising: TodayStory[];
   /** National top-3 stories ranked since earliest today. */
   lasting: TodayStory[];

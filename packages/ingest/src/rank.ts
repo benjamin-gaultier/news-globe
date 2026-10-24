@@ -75,3 +75,27 @@ export function rankClusters(clusters: StoryCluster[], limit: number, maxSoloPer
   }
   return [...picked, ...overflow].slice(0, limit);
 }
+
+/**
+ * Pseudo-outlets added to every country's pool in `coverage`. A country with few
+ * feeds gives little evidence that its press agrees on a story, so its share is
+ * pulled down: 2 of 2 outlets scores 0.5 and 8 of 8 scores 0.88, not both 1.
+ */
+export const COVERAGE_PRIOR = 1;
+
+/**
+ * How much of a country's press covers a story, 0–1: the share of its *other*
+ * outlets (beyond the first) that carry it, with COVERAGE_PRIOR added to the pool.
+ * Stories from different countries are compared by this rather than by outlets,
+ * which would favour the countries with the most feeds: with 8 feeds a story can
+ * reach 8 outlets, with 2 never more than 2. A story from one outlet scores 0
+ * whatever the pool, since nothing corroborates it.
+ *
+ * `pool` is the country's outlets with top-headline feeds (see `outletPools`);
+ * a count above it (the config changed under a published file) widens it.
+ */
+export function coverage(outlets: number, pool: number): number {
+  const size = Math.max(pool, outlets);
+  if (outlets <= 1 || size <= 1) return 0;
+  return (outlets - 1) / (size - 1 + COVERAGE_PRIOR);
+}

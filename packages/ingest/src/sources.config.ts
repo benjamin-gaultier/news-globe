@@ -8979,6 +8979,18 @@ export const SOURCES: SourceConfig[] = [
   ...IN_STATES_SOUTH,
 ];
 
+/**
+ * Country → its national outlets with top-headline feeds: the pool a story's
+ * outlets are measured against when countries are compared (`coverage` in rank.ts).
+ * Regional outlets and section-only outlets (a sports daily) are not in it, as
+ * they never count toward a country's top file.
+ */
+export function outletPools(sources: readonly SourceConfig[] = SOURCES): Map<CountryCode, number> {
+  const pools = new Map<CountryCode, number>();
+  for (const s of sources) if (!s.region && feedUrlsOf(s, ['top']).length) pools.set(s.country, (pools.get(s.country) ?? 0) + 1);
+  return pools;
+}
+
 export const INGEST_SETTINGS = {
   userAgent: 'NewsGlobeBot/0.1 (+https://github.com/benjamin-gaultier/news-globe; headline metadata only)',
   /** Never request the same feed more often than this, even on manual runs. */

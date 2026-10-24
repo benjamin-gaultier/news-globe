@@ -9,6 +9,8 @@ import {
   type TodayStory,
   type TrendsFile,
 } from '@news-globe/shared';
+import { coverage } from './rank';
+import { outletPools } from './sources.config';
 
 /**
  * Small files derived each hour from the published run and the history
@@ -94,9 +96,14 @@ export const TODAY_LASTING = 6;
 export const LASTING_HOURS = 6;
 const LASTING_TOP = 3;
 
-/** The `today` file for the run at `runAt`, from its national stories and their trends (see buildTrends). */
-export function buildToday(trends: TrendsFile, units: PublishedUnit[]): TodayFile {
-  const runAt = trends.runAt;
+/** Three decimals are plenty to rank by, and keep the file small. */
+const round3 = (x: number) => Math.round(x * 1000) / 1000;
+
+/**
+ * Every national story of the run, with its trend and coverage (the share of
+ * its country's press on it; `pools` gives each country's outlets).
+ */
+export function nationalStories(trends: TrendsFile, units: PublishedUnit[], pools: ReadonlyMap<string, number>): TodayStory[] {
   const all: TodayStory[] = [];
   for (const { code, clusters } of units) {
     if (!COUNTRIES[code]) continue; // national stories only
@@ -112,23 +119,47 @@ export function buildToday(trends: TrendsFile, units: PublishedUnit[]): TodayFil
         language: rep.language,
         imageUrl: rep.imageUrl,
         outlets: c.outletCount24h,
+        coverage: round3(coverage(c.outletCount24h, pools.get(code) ?? 0)),
         rank: i + 1,
-        firstSeen: trend?.firstSeen ?? runAt,
+        firstSeen: trend?.firstSeen ?? trends.runAt,
         state: trend?.state ?? null,
       });
     });
   }
-  const byCoverage = (a: TodayStory, b: TodayStory) => b.outlets - a.outlets || a.rank - b.rank || a.unit.localeCompare(b.unit);
+  return all;
+}
 
+/**
+ * How stories from different countries are ranked: the largest share of their
+ * country's press first. Equal shares go to the higher-ranked story before the
+ * one with more outlets, which would favour bigger pools again.
+ */
+export const byCoverage = (a: TodayStory, b: TodayStory) =>
+  (b.coverage ?? 0) - (a.coverage ?? 0) || a.rank - b.rank || b.outlets - a.outlets || a.unit.localeCompare(b.unit);
+
+/** Today's top list: the best stories by `compare`, at most TODAY_PER_COUNTRY per country. */
+export function pickTop(all: readonly TodayStory[], compare: (a: TodayStory, b: TodayStory) => number = byCoverage): TodayStory[] {
   const top: TodayStory[] = [];
   const perCountry = new Map<string, number>();
-  for (const s of [...all].sort(byCoverage)) {
+  for (const s of [...all].sort(compare)) {
     if (top.length >= TODAY_TOP) break;
     const n = perCountry.get(s.unit) ?? 0;
     if (n >= TODAY_PER_COUNTRY) continue;
     perCountry.set(s.unit, n + 1);
     top.push(s);
   }
+  return top;
+}
+
+/**
+ * The `today` file for the run at `runAt`, from its national stories and their trends (see buildTrends).
+ * Stories from different countries are ranked by the share of their country's press on them (`coverage`),
+ * not by outlets, so countries with more feeds don't fill the lists. `pools` gives each country's outlets.
+ */
+export function buildToday(trends: TrendsFile, units: PublishedUnit[], pools: ReadonlyMap<string, number> = outletPools()): TodayFile {
+  const runAt = trends.runAt;
+  const all = nationalStories(trends, units, pools);
+  const top = pickTop(all);
   const shown = new Set(top.map((s) => `${s.unit}/${s.clusterId}`));
   const rising = all
     .filter((s) => s.state && !shown.has(`${s.unit}/${s.clusterId}`))
