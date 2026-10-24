@@ -8993,8 +8993,9 @@ export function outletPools(sources: readonly SourceConfig[] = SOURCES): Map<Cou
 
 /**
  * Country → the outlets its stories are measured against: those that published in the run's
- * ranking window (`activeOutlets` in its index entry), else, for an entry from before that
- * field, its configured outlets. A dead or stale feed would otherwise stay in the pool and
+ * ranking window (`activeOutlets` in its index entry), else, for an entry without it (from
+ * before the field, or a country whose feeds all failed and keeps its last file), its
+ * configured outlets. A dead or stale feed would otherwise stay in the pool and
  * pull down every story from its country.
  */
 export function activePools(
