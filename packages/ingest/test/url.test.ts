@@ -91,7 +91,6 @@ describe('isSportUrl', () => {
 describe('isSportCategory', () => {
   it('flags items a feed files under a sports section', () => {
     expect(isSportCategory(['Sports', 'Aston Villa'])).toBe(true);
-    expect(isSportCategory(['Football'])).toBe(true);
     expect(isSportCategory(['Sport News'])).toBe(true);
     expect(isSportCategory(['Deportes'])).toBe(true);
   });
@@ -102,6 +101,9 @@ describe('isSportCategory', () => {
     // Tags that name a sports body are news.
     expect(isSportCategory(['Politics', 'Sports Ministry'])).toBe(false);
     expect(isSportCategory(['Football Federation', 'Cricket Board'])).toBe(false);
+    // So do tags that name a sport: WordPress lists them like sections.
+    expect(isSportCategory(['Politics', 'Football'])).toBe(false);
+    expect(isSportCategory(['Cricket'])).toBe(false);
     expect(isSportCategory([])).toBe(false);
     expect(isSportCategory(undefined)).toBe(false);
   });

@@ -85,11 +85,11 @@ export function dateFromUrl(raw: string): string | null {
   return new Date(iso).toISOString().startsWith(`${m[1]}-${m[2]}-${m[3]}`) ? iso : null;
 }
 
-/**
- * Words that name a sports section, in the languages of the feeds.
- */
-const SPORT_WORD =
-  'sports?|sporti?|spor|deportes?|esportes?|desportos?|futbol|fútbol|football|soccer|calcio|fussball|fußball|fotbal|cricket|tennis|basketball|baseball|béisbol|beisbol';
+/** "Sport" in the languages of the feeds. */
+const SPORT_GENERIC = 'sports?|sporti?|spor|deportes?|esportes?|desportos?';
+
+/** Words that name a sports section, in the languages of the feeds: "sport" or a single sport. */
+const SPORT_WORD = `${SPORT_GENERIC}|futbol|fútbol|football|soccer|calcio|fussball|fußball|fotbal|cricket|tennis|basketball|baseball|béisbol|beisbol`;
 
 /**
  * A URL directory that is a sports section: `/sport/`, `/deportes/`, `/sports/badminton/`,
@@ -100,13 +100,14 @@ const SPORT_WORD =
 const SPORT_SECTION = new RegExp(`^(?:${SPORT_WORD})(?:-[^-]+)?$`, 'i');
 
 /**
- * A feed category that is a sports section: the bare word, or with "news" ("Sport News").
- * Stricter than a URL directory, as feeds list tags here too ("Sports Ministry", "Cricket Board").
+ * A feed category that is a sports section: "sport" alone, or with "news" ("Sport News").
+ * Stricter than a URL directory, as WordPress feeds list tags here too, with nothing to
+ * tell them from sections: a political story can be tagged "Football" or "Sports Ministry".
  */
-const SPORT_CATEGORY = new RegExp(`^(?:${SPORT_WORD})(?:\\s+news)?$`, 'i');
+const SPORT_CATEGORY = new RegExp(`^(?:${SPORT_GENERIC})(?:\\s+news)?$`, 'i');
 
 /**
- * True when one of a feed item's own categories is a sports section ("Sports", "Football",
+ * True when one of a feed item's own categories is a sports section ("Sports", "Sport News",
  * "Deportes"): how whole-site WordPress feeds (Punch, APS, Le Soleil) mark them, with no
  * section in the URL.
  */
