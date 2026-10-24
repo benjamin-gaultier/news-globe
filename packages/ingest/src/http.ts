@@ -151,13 +151,17 @@ export function newest(items: RawItem[], max: number): RawItem[] {
 
 /**
  * Sets `firstSeenAt` on the items without a usable date (none, or one after `at`): the
- * time an earlier fetch first listed the same URL, or `at` for a new item.
+ * time an earlier fetch first listed the same URL, or `at` for a new item. An item that
+ * had one keeps it once its date passes (a preview dated at kick-off, a feed whose clock
+ * runs ahead), so it never jumps forward to that date.
  */
 export function stampFirstSeen(items: RawItem[], previous: readonly RawItem[], at: string): RawItem[] {
   const seen = new Map(previous.flatMap((i) => (i.firstSeenAt ? [[i.url, i.firstSeenAt] as const] : [])));
   return items.map((item) => {
     const dated = item.publishedAt !== null && Date.parse(item.publishedAt) <= Date.parse(at);
-    return dated ? item : { ...item, firstSeenAt: seen.get(item.url) ?? at };
+    const first = seen.get(item.url);
+    if (dated) return first ? { ...item, firstSeenAt: first } : item;
+    return { ...item, firstSeenAt: first ?? at };
   });
 }
 

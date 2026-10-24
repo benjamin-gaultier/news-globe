@@ -162,6 +162,21 @@ describe('first-seen times', () => {
   });
 });
 
+describe('first-seen times after a date passes', () => {
+  it('keeps the first-seen time of an item dated ahead when a 200 refetch comes after its date', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const cache = await makeCache(fetchImpl);
+    const preview = { ...item('preview'), publishedAt: '2026-10-06T20:00:00.000Z' };
+    const firstAt = new Date(now).toISOString();
+    await cache.getItems(URL_A, async () => [preview]);
+
+    // 21:00: the kick-off has passed and the feed answers 200 with the same item.
+    now = Date.parse('2026-10-06T21:00:00Z');
+    const later = await cache.getItems(URL_A, async () => [preview]);
+    expect(later.items).toEqual([{ ...preview, firstSeenAt: firstAt }]);
+  });
+});
+
 describe('first-seen times on 304', () => {
   it('stamps undated items cached before first-seen times existed, once', async () => {
     const fetchImpl = vi
