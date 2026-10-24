@@ -83,6 +83,9 @@ export function rankClusters(clusters: StoryCluster[], limit: number, maxSoloPer
  */
 export const COVERAGE_PRIOR = 1;
 
+/** Three decimals of coverage are plenty to rank by, and keep the files small. */
+export const round3 = (x: number) => Math.round(x * 1000) / 1000;
+
 /**
  * How much of a country's press covers a story, 0–1: the share of its *other*
  * outlets (beyond the first) that carry it, with COVERAGE_PRIOR added to the pool.

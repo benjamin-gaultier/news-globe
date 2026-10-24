@@ -9,7 +9,7 @@ import {
   type TodayStory,
   type TrendsFile,
 } from '@news-globe/shared';
-import { coverage } from './rank';
+import { coverage, round3 } from './rank';
 import { outletPools } from './sources.config';
 
 /**
@@ -95,9 +95,6 @@ export const TODAY_LASTING = 6;
 /** A "lasting" story has been ranked this long today, in its country's top 3. */
 export const LASTING_HOURS = 6;
 const LASTING_TOP = 3;
-
-/** Three decimals are plenty to rank by, and keep the file small. */
-const round3 = (x: number) => Math.round(x * 1000) / 1000;
 
 /**
  * Every national story of the run, with its trend and coverage (the share of

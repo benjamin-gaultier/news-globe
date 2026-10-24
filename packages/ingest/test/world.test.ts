@@ -82,6 +82,41 @@ describe('buildWorld', () => {
     expect(cz[0]!.alsoIn).toContainEqual({ code: 'PR', clusterId: pr.clusterId });
   });
 
+  it('ranks stories in as many countries by coverage before raw outlets', () => {
+    const covered = (title: string, outlets: number) => ({ ...story(title), outletCount24h: outlets });
+    const pools = new Map([
+      ['CZ', 8],
+      ['PR', 8],
+      ['GN', 3],
+      ['MR', 3],
+    ]);
+    const world = buildWorld(
+      [
+        filler('XA', 300),
+        { code: 'CZ', clusters: [covered('Paramount dokončil převzetí Warner Bros. Discovery', 6)] },
+        {
+          code: 'PR',
+          clusters: [covered('“Esta ambición es una realidad”: Paramount Skydance cierra compra de Warner Bros. Discovery por $110', 6)],
+        },
+        { code: 'GN', clusters: [covered('Mali : l’armée reprend le contrôle de Kidal, le FLA annonce un repli', 3)] },
+        { code: 'MR', clusters: [covered('Le FLA annonce un « retrait stratégique » de la ville de Kidal', 3)] },
+      ],
+      undefined,
+      pools,
+    );
+    // Kidal: 2 of 3 outlets in each country (0.667 + 0.667); Paramount: 5 of 8 in each (0.625 + 0.625), with twice the outlets.
+    expect(world.map((s) => s.countries.map((c) => [c.code, c.coverage]).sort())).toEqual([
+      [
+        ['GN', 0.667],
+        ['MR', 0.667],
+      ],
+      [
+        ['CZ', 0.625],
+        ['PR', 0.625],
+      ],
+    ]);
+  });
+
   it('never links two clusters of one country', () => {
     const world = buildWorld([
       filler('XA', 300),
