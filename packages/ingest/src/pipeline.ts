@@ -138,6 +138,18 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
     isSportUrl(a.url) || isSportCategory(item.categories) || inSportFeed.has(`${a.source.id}\n${a.canonicalUrl}`);
   let sportDropped = 0;
 
+  // Each feed's cache entry stamps first-seen times on its own, so an undated item a second feed
+  // starts listing today would look new there; every copy takes the earliest time any feed saw it.
+  const firstSeen = new Map<string, string>();
+  for (const { results } of perSource)
+    for (const { items } of results)
+      for (const { url, firstSeenAt } of items) {
+        if (!firstSeenAt) continue;
+        const key = canonicalizeUrl(url);
+        const known = firstSeen.get(key);
+        if (!known || Date.parse(firstSeenAt) < Date.parse(known)) firstSeen.set(key, firstSeenAt);
+      }
+
   // A feed's articles go to its category's file: regional outlets' to their region's, national ones' to their country's.
   const byFile = new Map<string, Article[]>();
   for (const { source, results } of perSource) {
@@ -145,7 +157,8 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       const key = fileStem(source.region ?? source.country, category);
       const list = byFile.get(key) ?? [];
       for (const item of items) {
-        const article = toArticle(item, source, retrievedAt, now);
+        const seenAt = item.firstSeenAt && firstSeen.get(canonicalizeUrl(item.url));
+        const article = toArticle(seenAt ? { ...item, firstSeenAt: seenAt } : item, source, retrievedAt, now);
         if (Date.parse(article.publishedAt) < minTime) continue;
         if (isMisdecoded(article.title) || isUnrenderedTemplate(article.title) || isNotNews(article.title)) continue;
         if (category === 'top' && isSport(item, article)) {

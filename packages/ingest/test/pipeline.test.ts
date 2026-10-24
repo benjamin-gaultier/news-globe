@@ -279,6 +279,23 @@ describe('runIngest', () => {
     });
   });
 
+  it('dates an undated item by the earliest time any feed listed it', async () => {
+    const lemonde = source('lemonde', 'FR', {
+      feeds: { top: ['https://lemonde.example/une/rss', 'https://lemonde.example/politique/rss'] },
+    });
+    const evergreen = item('lemonde', 'evergreen', 'Les chiffres clés du budget de l’État expliqués', null);
+    await seedCache({
+      'https://lemonde.example/une/rss': [{ ...evergreen, firstSeenAt: hoursAgo(30) }],
+      // The second feed only started listing it this hour.
+      'https://lemonde.example/politique/rss': [{ ...evergreen, firstSeenAt: hoursAgo(1) }],
+    });
+
+    await ingest([lemonde]);
+
+    const fr = await readJson<CountryFile>('countries', 'FR.json');
+    expect(fr.clusters.map((c) => c.representative.publishedAt)).toEqual([hoursAgo(30)]);
+  });
+
   it('leaves sports stories out of top files: in a sports section, filed under a sports category, or in the outlet’s sport feed', async () => {
     const lemonde = source('lemonde', 'FR', {
       feeds: { top: ['https://lemonde.example/rss'], sport: ['https://lemonde.example/sport/rss'] },
