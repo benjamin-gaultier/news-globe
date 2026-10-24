@@ -234,6 +234,11 @@ describe('runIngest', () => {
             'Les agriculteurs manifestent à nouveau devant les préfectures',
             new Date(NOW + 3_600_000).toISOString(),
           ),
+          // A preview first seen 10 hours ago, dated at a kick-off that has since passed.
+          {
+            ...item('lemonde', 'kickoff', 'Le XV de France dévoile sa composition pour le Tournoi', hoursAgo(1)),
+            firstSeenAt: hoursAgo(10),
+          },
         ],
       },
       retrievedAt,
@@ -244,7 +249,7 @@ describe('runIngest', () => {
     const fr = await readJson<CountryFile>('countries', 'FR.json');
     const published = Object.fromEntries(fr.clusters.map((c) => [c.representative.url.split('/').pop(), c.representative.publishedAt]));
     // The evergreen item, listed by every fetch for 30 hours, ranks by that age rather than as new.
-    expect(published).toEqual({ undated: retrievedAt, evergreen: hoursAgo(30), future: retrievedAt });
+    expect(published).toEqual({ undated: retrievedAt, evergreen: hoursAgo(30), future: retrievedAt, kickoff: hoursAgo(10) });
   });
 
   it('leaves sports stories out of top files: in a sports section, filed under a sports category, or in the outlet’s sport feed', async () => {
