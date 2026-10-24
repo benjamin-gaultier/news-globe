@@ -55,9 +55,12 @@ function briefing(top: TodayStory[], world: WorldStory[], by: 'outlets' | 'cover
     lines.push({ title: s.title, countries: [{ code: s.unit, outlets: s.outlets, coverage: s.coverage ?? 0 }] });
   }
   const score = by === 'outlets' ? outletsOf : coverageOf;
-  return lines
-    .sort((a, b) => score(b) - score(a) || b.countries.length - a.countries.length || outletsOf(b) - outletsOf(a))
-    .slice(0, REPORT_TOP);
+  return (
+    lines
+      // As in the app: by coverage, equal lines keep Today's order (stable sort) rather than falling back to outlets.
+      .sort((a, b) => score(b) - score(a) || b.countries.length - a.countries.length)
+      .slice(0, REPORT_TOP)
+  );
 }
 
 /** Spearman's rank correlation, ties given their average rank. */
