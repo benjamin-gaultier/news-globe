@@ -244,6 +244,16 @@ describe('runIngest', () => {
             ),
             firstSeenAt: hoursAgo(5),
           },
+          // Its URL carries the day it was first seen, at 21:00 UTC: the URL's midday is less precise.
+          {
+            ...item(
+              'lemonde',
+              '2026/10/07/evening',
+              'Le gouvernement présente son plan pour le logement',
+              new Date(NOW + 2 * 3_600_000).toISOString(),
+            ),
+            firstSeenAt: hoursAgo(15),
+          },
           // A preview first seen 10 hours ago, dated at a kick-off that has since passed.
           {
             ...item('lemonde', 'kickoff', 'Le XV de France dévoile sa composition pour le Tournoi', hoursAgo(1)),
@@ -264,6 +274,7 @@ describe('runIngest', () => {
       evergreen: hoursAgo(30),
       future: retrievedAt,
       ahead: hoursAgo(5),
+      evening: hoursAgo(15),
       kickoff: hoursAgo(10),
     });
   });
