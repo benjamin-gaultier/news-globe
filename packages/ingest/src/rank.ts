@@ -96,9 +96,10 @@ export const round3 = (x: number) => Math.round(x * 1000) / 1000;
  *
  * `pool` is the country's outlets with top-headline feeds (see `outletPools`);
  * a count above it (the config changed under a published file) widens it.
+ * `prior` is COVERAGE_PRIOR but for trying others (`ranking:report --prior`).
  */
-export function coverage(outlets: number, pool: number): number {
+export function coverage(outlets: number, pool: number, prior = COVERAGE_PRIOR): number {
   const size = Math.max(pool, outlets);
   if (outlets <= 1 || size <= 1) return 0;
-  return (outlets - 1) / (size - 1 + COVERAGE_PRIOR);
+  return (outlets - 1) / (size - 1 + prior);
 }

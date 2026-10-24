@@ -11,18 +11,19 @@ import {
   type WorldStory,
 } from '@news-globe/shared';
 import { nationalStories, pickTop, type PublishedUnit } from './derived';
-import { coverage } from './rank';
+import { coverage, round3 } from './rank';
 import { outletPools } from './sources.config';
 
 /**
- * `pnpm --filter @news-globe/ingest ranking:report [--site URL | --dir DIR]`: how
+ * `pnpm --filter @news-globe/ingest ranking:report [--site URL | --dir DIR] [--prior 0.5,1,2]`: how
  * much the rankings that compare countries follow how many feeds a country has.
  * It reads a published run (the live site by default, or a local `data/`
  * directory) and prints, in Markdown, the world briefing's top stories two ways:
  * by raw outlets (how they were ranked before `coverage`) and as the code ranks
  * them now. For each it gives the share of the list going to countries with
  * few or many feeds next to their share of all countries, and Spearman's ρ
- * between a country's feeds and its best story's score.
+ * between a country's feeds and its best story's score. With `--prior`, it prints a
+ * sweep of COVERAGE_PRIOR values instead (see priorSweep).
  */
 
 /** Lines of the briefing compared: what fits on a screen. */
@@ -207,6 +208,61 @@ export function rankingReport(units: PublishedUnit[], world: WorldStory[], pools
   ].join('\n');
 }
 
+/** Half the summed gap between the slots' split by feed bucket and all countries' split: 0 is no bias, 1 the most. */
+function bucketGap(slots: string[], pools: ReadonlyMap<string, number>, countries: string[]): number {
+  const share = (codes: string[], b: number) => {
+    const [, min, max] = BUCKETS[b]!;
+    return codes.length ? codes.filter((c) => (pools.get(c) ?? 0) >= min && (pools.get(c) ?? 0) <= max).length / codes.length : 0;
+  };
+  return sum(BUCKETS.map((_, b) => Math.abs(share(slots, b) - share(countries, b)))) / 2;
+}
+
+/**
+ * The same run ranked with other values of COVERAGE_PRIOR, one row each: how the top lists split by
+ * feeds (as bucketGap and mean feeds) and Spearman's ρ between feeds and a country's best coverage.
+ * One run's top 12 is a small sample, so read several runs before changing the constant.
+ */
+export function priorSweep(
+  units: PublishedUnit[],
+  world: WorldStory[],
+  pools: ReadonlyMap<string, number>,
+  runAt: string,
+  priors: number[],
+): string {
+  const base = nationalStories({ schemaVersion: SCHEMA_VERSION, runAt, runs: [runAt], units: {}, change: {} }, units, pools);
+  const countries = [...new Set(base.map((s) => s.unit))];
+  const feeds = countries.map((c) => pools.get(c) ?? 0);
+  const meanFeeds = (codes: string[]) => fixed(sum(codes.map((c) => pools.get(c) ?? 0)) / codes.length, 1);
+  const row = (label: string, today: TodayStory[], lines: Line[], best: (code: string) => number) => {
+    const slots = lines.flatMap((l) => l.countries.map((c) => c.code));
+    const units = today.map((s) => s.unit);
+    return `| ${label} | ${fixed(spearman(feeds, countries.map(best)))} | ${fixed(bucketGap(units, pools, countries))} | ${meanFeeds(units)} | ${fixed(bucketGap(slots, pools, countries))} | ${meanFeeds(slots)} |`;
+  };
+  const bestOf = (all: TodayStory[], key: 'outlets' | 'coverage') => (code: string) =>
+    Math.max(0, ...all.filter((s) => s.unit === code).map((s) => s[key] ?? 0));
+
+  const rows = [
+    `### COVERAGE_PRIOR sweep — run ${runAt}`,
+    '',
+    `Gap: half the summed difference between how the top ${REPORT_TOP} and all ${countries.length} countries (mean feeds ${meanFeeds(countries)}) split by feeds; 0 is no bias.`,
+    '',
+    '| Ranking | ρ(feeds, best story) | Today gap | Today mean feeds | Briefing gap | Briefing mean feeds |',
+    '|---|---|---|---|---|---|',
+  ];
+  const today = pickTop(base, byOutlets);
+  rows.push(row('raw outlets (before)', today, briefing(today, world, 'outlets'), bestOf(base, 'outlets')));
+  for (const prior of priors) {
+    const all = base.map((s) => ({ ...s, coverage: round3(coverage(s.outlets, pools.get(s.unit) ?? 0, prior)) }));
+    const worldAt = world.map((w) => ({
+      ...w,
+      countries: w.countries.map((c) => ({ ...c, coverage: round3(coverage(c.outletCount24h, pools.get(c.code) ?? 0, prior)) })),
+    }));
+    const top = pickTop(all);
+    rows.push(row(`coverage, prior ${prior}`, top, briefing(top, worldAt, 'coverage'), bestOf(all, 'coverage')));
+  }
+  return rows.join('\n');
+}
+
 /** A published run: the live site's /data/ or a local data directory. */
 async function loadRun(from: { site?: string; dir?: string }): Promise<{ units: PublishedUnit[]; world: WorldStory[]; runAt: string }> {
   const get = async <T>(path: string): Promise<T | null> => {
@@ -231,7 +287,7 @@ async function loadRun(from: { site?: string; dir?: string }): Promise<{ units: 
   return { units, world: index.world ?? [], runAt: index.updatedAt };
 }
 
-// `pnpm --filter @news-globe/ingest ranking:report [--site URL | --dir DIR]`
+// `pnpm --filter @news-globe/ingest ranking:report [--site URL | --dir DIR] [--prior 0.5,1,2]`
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const arg = (name: string) => {
     const i = process.argv.indexOf(name);
@@ -240,7 +296,11 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   const dir = arg('--dir');
   const site = (arg('--site') ?? process.env.SITE_URL ?? 'https://news-globe.maze-td.workers.dev').replace(/\/+$/, '');
   loadRun(dir ? { dir } : { site })
-    .then(({ units, world, runAt }) => console.log(rankingReport(units, world, outletPools(), runAt)))
+    .then(({ units, world, runAt }) => {
+      const pools = outletPools();
+      const priors = arg('--prior')?.split(',').map(Number);
+      console.log(priors ? priorSweep(units, world, pools, runAt, priors) : rankingReport(units, world, pools, runAt));
+    })
     .catch((err) => {
       console.error('[ranking:report] failed:', err instanceof Error ? err.message : err);
       process.exitCode = 1;

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import type { StoryCluster } from '@news-globe/shared';
 import { buildCluster } from '../src/rank';
-import { rankingReport, spearman } from '../src/ranking-report';
+import { priorSweep, rankingReport, spearman } from '../src/ranking-report';
 import { article } from './helpers';
 
 const T = '2026-10-08T12:00:00.000Z';
@@ -38,5 +38,14 @@ describe('rankingReport', () => {
     expect(before.indexOf('Dutch budget')).toBeLessThan(before.indexOf('Lithuanian strike'));
     expect(after.indexOf('Lithuanian strike')).toBeLessThan(after.indexOf('Dutch budget'));
     expect(report).toContain('| 3 | 1 (50%) |');
+  });
+});
+
+describe('priorSweep', () => {
+  it('gives the raw ranking and one row per prior', () => {
+    const sweep = priorSweep([{ code: 'LT', clusters: [story('LT', 'strike', 3)] }], [], new Map([['LT', 3]]), T, [0.5, 2]);
+    expect(sweep).toContain('| raw outlets (before) |');
+    expect(sweep).toContain('| coverage, prior 0.5 |');
+    expect(sweep).toContain('| coverage, prior 2 |');
   });
 });
