@@ -41,6 +41,13 @@ describe('rankingReport', () => {
   });
 });
 
+describe('rankingReport with nothing to rank', () => {
+  it('throws rather than printing an empty report', () => {
+    expect(() => rankingReport([], [], new Map(), T)).toThrow('no national stories');
+    expect(() => priorSweep([], [], new Map(), T, [1])).toThrow('no national stories');
+  });
+});
+
 describe('priorSweep', () => {
   it('gives the raw ranking and one row per prior', () => {
     const sweep = priorSweep([{ code: 'LT', clusters: [story('LT', 'strike', 3)] }], [], new Map([['LT', 3]]), T, [0.5, 2]);

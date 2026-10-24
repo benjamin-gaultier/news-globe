@@ -158,6 +158,7 @@ export function rankingReport(units: PublishedUnit[], world: WorldStory[], pools
   after.lines = briefing(after.today, worldNow, 'coverage');
 
   const countries = [...new Set(all.map((s) => s.unit))];
+  if (!countries.length) throw new Error('no national stories in the run');
   const best = (code: string, key: 'outlets' | 'coverage') => Math.max(0, ...all.filter((s) => s.unit === code).map((s) => s[key] ?? 0));
   const feeds = countries.map((c) => pools.get(c) ?? 0);
   const rhoOutlets = spearman(
@@ -231,6 +232,7 @@ export function priorSweep(
 ): string {
   const base = nationalStories({ schemaVersion: SCHEMA_VERSION, runAt, runs: [runAt], units: {}, change: {} }, units, pools);
   const countries = [...new Set(base.map((s) => s.unit))];
+  if (!countries.length) throw new Error('no national stories in the run');
   const feeds = countries.map((c) => pools.get(c) ?? 0);
   const meanFeeds = (codes: string[]) => fixed(sum(codes.map((c) => pools.get(c) ?? 0)) / codes.length, 1);
   const row = (label: string, today: TodayStory[], lines: Line[], best: (code: string) => number) => {
@@ -265,12 +267,20 @@ export function priorSweep(
 
 /** A published run: the live site's /data/ or a local data directory. */
 async function loadRun(from: { site?: string; dir?: string }): Promise<{ units: PublishedUnit[]; world: WorldStory[]; runAt: string }> {
+  // Only a missing file is skipped: an unreadable or malformed one stops the report rather than quietly leaving a country out.
   const get = async <T>(path: string): Promise<T | null> => {
-    if (from.dir)
-      return readFile(join(from.dir, path), 'utf8').then(
-        (t) => JSON.parse(t) as T,
-        () => null,
-      );
+    if (from.dir) {
+      const text = await readFile(join(from.dir, path), 'utf8').catch((err: NodeJS.ErrnoException) => {
+        if (err.code === 'ENOENT') return null;
+        throw err;
+      });
+      if (text === null) return null;
+      try {
+        return JSON.parse(text) as T;
+      } catch (err) {
+        throw new Error(`${path}: ${err instanceof Error ? err.message : err}`);
+      }
+    }
     const res = await fetch(`${from.site}/data/${path}`, { headers: { 'Cache-Control': 'no-cache' } });
     if (res.status === 404) return null;
     if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
@@ -279,11 +289,15 @@ async function loadRun(from: { site?: string; dir?: string }): Promise<{ units: 
   const index = await get<IndexFile>('index.json');
   if (!index) throw new Error('no index.json');
   const units: PublishedUnit[] = [];
+  const missing: string[] = [];
   for (const entry of index.countries) {
     if (!COUNTRIES[entry.code]) continue;
     const file = await get<CountryFile>(`countries/${entry.code}.json`);
     if (file) units.push({ code: entry.code, clusters: file.clusters });
+    else missing.push(entry.code);
   }
+  if (missing.length)
+    console.error(`[ranking:report] no file for ${missing.length} countries in the index, left out: ${missing.join(' ')}`);
   return { units, world: index.world ?? [], runAt: index.updatedAt };
 }
 
