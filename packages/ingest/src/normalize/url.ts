@@ -107,7 +107,8 @@ export function isSportCategory(categories: readonly string[] | undefined): bool
 /**
  * True when an article URL sits in a sports section: a directory of its path (not the
  * final slug, which can be any headline) is a sports section name. Whole-site feeds,
- * which many outlets' top feeds are, carry sports stories; sport has files of its own.
+ * which many outlets' top feeds are, carry sports stories; they are dropped from top
+ * files, and reach a sport file only when the outlet also has a sport feed.
  */
 export function isSportUrl(raw: string): boolean {
   let path: string;

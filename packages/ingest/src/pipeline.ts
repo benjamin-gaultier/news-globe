@@ -157,7 +157,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       byFile.set(key, list);
     }
   }
-  if (sportDropped) log(`top files: ${sportDropped} sports stories left to the sport files`);
+  if (sportDropped) log(`top files: ${sportDropped} sports stories dropped (kept only where the outlet has a sport feed)`);
 
   // One file per unit and category its outlets have feeds in. A source counts toward a category only
   // through its feeds in it: a sports daily makes (or keeps) no top file, and a unit with no business

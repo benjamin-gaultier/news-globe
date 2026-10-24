@@ -294,7 +294,7 @@ describe('runIngest', () => {
     expect(top.clusters.map((c) => [c.representative.title, c.outletCount])).toEqual([[STORY, 3]]);
     const sport = await readJson<CountryFile>('countries', 'FR.sport.json');
     expect(sport.clusters.map((c) => c.representative.title)).toEqual([match]);
-    expect(log).toContain('top files: 3 sports stories left to the sport files');
+    expect(log).toContain('top files: 3 sports stories dropped');
   });
 
   it('counts as active only the outlets with a story in the last 24 hours', async () => {
