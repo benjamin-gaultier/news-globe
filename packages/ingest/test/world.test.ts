@@ -104,15 +104,15 @@ describe('buildWorld', () => {
       undefined,
       pools,
     );
-    // Kidal: 2 of 3 outlets in each country (0.667 + 0.667); Paramount: 5 of 8 in each (0.625 + 0.625), with twice the outlets.
+    // Kidal: 3 of 3 outlets in each country (0.8 + 0.8); Paramount: 6 of 8 in each (0.667 + 0.667), with twice the outlets.
     expect(world.map((s) => s.countries.map((c) => [c.code, c.coverage]).sort())).toEqual([
       [
-        ['GN', 0.667],
-        ['MR', 0.667],
+        ['GN', 0.8],
+        ['MR', 0.8],
       ],
       [
-        ['CZ', 0.625],
-        ['PR', 0.625],
+        ['CZ', 0.667],
+        ['PR', 0.667],
       ],
     ]);
   });

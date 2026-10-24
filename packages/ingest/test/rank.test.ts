@@ -80,10 +80,11 @@ describe('rankClusters', () => {
 
 describe('coverage', () => {
   it('is the share of the country’s other outlets on the story, with a small pool pulled down', () => {
-    expect(coverage(2, 2)).toBe(0.5);
-    expect(coverage(8, 8)).toBe(0.875);
-    expect(coverage(4, 8)).toBe(0.375);
-    expect(coverage(3, 4)).toBe(0.5);
+    expect(coverage(2, 2)).toBeCloseTo(0.667, 3);
+    expect(coverage(8, 8)).toBeCloseTo(0.933, 3);
+    expect(coverage(4, 8)).toBe(0.4);
+    expect(coverage(3, 4)).toBeCloseTo(0.571, 3);
+    expect(coverage(4, 8, 1)).toBe(0.375);
   });
 
   it('lets a small country’s story outrank a bigger country’s when more of its press carries it', () => {

@@ -275,8 +275,8 @@ export interface TodayStory {
 
 /**
  * What each country beyond the first adds to a cross-border story's score in the world briefing:
- * one corroborating outlet in a typical country's press (4 outlets, so 1 / (3 + 1); see `coverage`
- * in packages/ingest/src/rank.ts). Being in another country's headlines is evidence too, and
+ * about one corroborating outlet in a typical country's press (4 outlets: 1 / 3.5 ≈ 0.29; see
+ * `coverage` in packages/ingest/src/rank.ts). Being in another country's headlines is evidence too, and
  * without it a story carried by one outlet in each of five countries would score 0.
  */
 export const CROSS_BORDER_COVERAGE = 0.25;

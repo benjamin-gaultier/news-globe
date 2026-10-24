@@ -56,9 +56,9 @@ describe('topStories', () => {
   });
 
   it('keeps Today’s order for equal coverage instead of favouring more outlets', () => {
-    // 2 of 2 and 5 of 8 both score 0.5: LT's comes first in Today's list (its #1 against NL's #2).
-    const lt = { ...national('LT', 'l1', 2), coverage: 0.5 };
-    const nl = { ...national('NL', 'n2', 5), coverage: 0.5, rank: 2 };
+    // 2 of 2 and 6 of 8 both score 0.667: LT's comes first in Today's list (its #1 against NL's #2).
+    const lt = { ...national('LT', 'l1', 2), coverage: 0.667 };
+    const nl = { ...national('NL', 'n2', 6), coverage: 0.667, rank: 2 };
     expect(topStories([lt, nl], []).map((b) => b.key)).toEqual(['LT/l1', 'NL/n2']);
   });
 

@@ -79,9 +79,12 @@ export function rankClusters(clusters: StoryCluster[], limit: number, maxSoloPer
 /**
  * Pseudo-outlets added to every country's pool in `coverage`. A country with few
  * feeds gives little evidence that its press agrees on a story, so its share is
- * pulled down: 2 of 2 outlets scores 0.5 and 8 of 8 scores 0.88, not both 1.
+ * pulled down: 2 of 2 outlets scores 0.67 and 8 of 8 scores 0.93, not both 1.
+ * On the live run of 2026-10-24 (`ranking:report --prior`), 0.5 brought the top
+ * lists closest to how countries split by feeds: 0 tilted them to small pools,
+ * 2 or more back to big ones.
  */
-export const COVERAGE_PRIOR = 1;
+export const COVERAGE_PRIOR = 0.5;
 
 /** Three decimals of coverage are plenty to rank by, and keep the files small. */
 export const round3 = (x: number) => Math.round(x * 1000) / 1000;

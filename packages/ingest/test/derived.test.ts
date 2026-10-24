@@ -117,8 +117,8 @@ describe('buildToday', () => {
       pools,
     );
     expect(today.top.map((s) => [s.title, s.outlets, s.coverage])).toEqual([
-      ['lt', 3, 0.667],
-      ['nl', 4, 0.375],
+      ['lt', 3, 0.8],
+      ['nl', 4, 0.4],
     ]);
   });
 
@@ -127,11 +127,11 @@ describe('buildToday', () => {
       ['NL', 8],
       ['LT', 2],
     ]);
-    // 2 of 2 and 5 of 8 are both 0.5; NL's is its #2 story, LT's its #1.
+    // 2 of 2 and 6 of 8 both score 0.667; NL's is its #2 story, LT's its #1.
     const today = buildToday(
       trendsOf({}),
       [
-        { code: 'NL', clusters: [story('NL', 'nl1', 6), story('NL', 'nl2', 5)] },
+        { code: 'NL', clusters: [story('NL', 'nl1', 7), story('NL', 'nl2', 6)] },
         { code: 'LT', clusters: [story('LT', 'lt', 2)] },
       ],
       pools,
