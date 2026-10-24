@@ -5,9 +5,10 @@ import { decodeEntities } from './text';
 import { articleId, canonicalizeUrl, dateFromUrl } from './url';
 
 /**
- * Turn a raw feed item into an Article. Items without a date take the date in
- * their URL if there is one (e.g. Sky TG24), else when the HTTP cache first saw
- * them (`firstSeenAt`), else the time the feed was retrieved. A date in the
+ * Turn a raw feed item into an Article. Items without a date take the earlier of
+ * the date in their URL (e.g. Sky TG24; midday UTC, so it can run ahead) and
+ * when the HTTP cache first saw them (`firstSeenAt`), else the time the feed
+ * was retrieved. A date in the
  * future (a match dated at kick-off) is replaced the same way, and never moves
  * past `firstSeenAt` once that time comes: a preview first seen at 10:00 and
  * dated at a 20:00 kick-off stays at 10:00. No date passes `now`. Titles and descriptions are decoded again for feeds that escape them
@@ -17,8 +18,10 @@ import { articleId, canonicalizeUrl, dateFromUrl } from './url';
 export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: string, now: number): Article {
   const canonicalUrl = canonicalizeUrl(item.url);
   const given = item.publishedAt ? Date.parse(item.publishedAt) : NaN;
-  const fallback = Date.parse(dateFromUrl(item.url) ?? item.firstSeenAt ?? retrievedAt);
   const seen = item.firstSeenAt ? Date.parse(item.firstSeenAt) : NaN;
+  const fromUrl = Date.parse(dateFromUrl(item.url) ?? '');
+  const known = [seen, fromUrl].filter((t) => !Number.isNaN(t));
+  const fallback = known.length ? Math.min(...known) : Date.parse(retrievedAt);
   const published = Math.min(given <= now ? Math.min(given, Number.isNaN(seen) ? given : seen) : fallback, now);
   return {
     id: articleId(canonicalUrl),
