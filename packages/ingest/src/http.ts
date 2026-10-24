@@ -1,5 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import type { RawItem } from './adapters/types';
+import { canonicalizeUrl } from './normalize/url';
 import { writeJsonAtomic } from './write';
 
 interface CacheEntry {
@@ -154,15 +155,16 @@ export function newest(items: RawItem[], max: number): RawItem[] {
 
 /**
  * Sets `firstSeenAt` on the items without a usable date (none, or one after `at`): the
- * time an earlier fetch first listed the same URL, or `at` for a new item. An item that
+ * time an earlier fetch first listed the same URL (canonical, so a tracking parameter that
+ * changes per fetch doesn't make it new), or `at` for a new item. An item that
  * had one keeps it once its date passes (a preview dated at kick-off, a feed whose clock
  * runs ahead), so it never jumps forward to that date.
  */
 export function stampFirstSeen(items: RawItem[], previous: readonly RawItem[], at: string): RawItem[] {
-  const seen = new Map(previous.flatMap((i) => (i.firstSeenAt ? [[i.url, i.firstSeenAt] as const] : [])));
+  const seen = new Map(previous.flatMap((i) => (i.firstSeenAt ? [[canonicalizeUrl(i.url), i.firstSeenAt] as const] : [])));
   return items.map((item) => {
     const dated = item.publishedAt !== null && Date.parse(item.publishedAt) <= Date.parse(at);
-    const first = seen.get(item.url);
+    const first = seen.get(canonicalizeUrl(item.url));
     if (dated) return first ? { ...item, firstSeenAt: first } : item;
     return { ...item, firstSeenAt: first ?? at };
   });

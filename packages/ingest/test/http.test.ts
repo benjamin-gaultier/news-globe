@@ -162,6 +162,24 @@ describe('first-seen times', () => {
   });
 });
 
+describe('first-seen times with tracking parameters', () => {
+  it('match an item whose tracking parameter changes on every fetch', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const cache = await makeCache(fetchImpl);
+    const undated = (campaign: string) => ({
+      ...item('evergreen'),
+      url: `https://x.example/evergreen?utm_campaign=${campaign}`,
+      publishedAt: null,
+    });
+    const firstAt = new Date(now).toISOString();
+    await cache.getItems(URL_A, async () => [undated('mon')]);
+
+    now += 24 * 60 * MIN;
+    const later = await cache.getItems(URL_A, async () => [undated('tue')]);
+    expect(later.items).toEqual([{ ...undated('tue'), firstSeenAt: firstAt }]);
+  });
+});
+
 describe('first-seen times after a date passes', () => {
   it('keeps the first-seen time of an item dated ahead when a 200 refetch comes after its date', async () => {
     const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
