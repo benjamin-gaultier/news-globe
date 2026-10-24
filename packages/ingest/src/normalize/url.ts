@@ -92,12 +92,14 @@ const SPORT_GENERIC = 'sports?|sporti?|spor|deportes?|esportes?|desportos?';
 const SPORT_WORD = `${SPORT_GENERIC}|futbol|fútbol|football|soccer|calcio|fussball|fußball|fotbal|cricket|tennis|basketball|baseball|béisbol|beisbol`;
 
 /**
- * A URL directory that is a sports section: `/sport/`, `/deportes/`, `/sports/badminton/`,
- * or a sports word with one more word (`/futbol-xeberleri/`). Never longer: some outlets
- * put the headline's slug in a directory (Times of India's `/india/<slug>/articleshow/…`),
- * and "sports-minister-resigns-over-scandal" is national news.
+ * A URL directory that is a sports section: `/sport/`, `/deportes/`, `/sports/badminton/`
+ * anywhere in the path, or as its first directory a sports word with one more word
+ * (`/futbol-xeberleri/`). Not further down or longer: some outlets put the headline's slug
+ * in a directory (Times of India's `/india/<slug>/articleshow/…`), and
+ * "cricket-scandal" or "sports-minister-resigns" is national news.
  */
-const SPORT_SECTION = new RegExp(`^(?:${SPORT_WORD})(?:-[^-]+)?$`, 'i');
+const SPORT_SECTION = new RegExp(`^(?:${SPORT_WORD})$`, 'i');
+const SPORT_SECTION_FIRST = new RegExp(`^(?:${SPORT_WORD})-[^-]+$`, 'i');
 
 /**
  * A feed category that is a sports section: "sport" alone, or with "news" ("Sport News").
@@ -132,5 +134,5 @@ export function isSportUrl(raw: string): boolean {
     .split('/')
     .filter(Boolean)
     .slice(0, -1)
-    .some((segment) => SPORT_SECTION.test(segment));
+    .some((segment, i) => SPORT_SECTION.test(segment) || (i === 0 && SPORT_SECTION_FIRST.test(segment)));
 }

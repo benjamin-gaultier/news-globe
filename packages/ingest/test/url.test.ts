@@ -81,6 +81,8 @@ describe('isSportUrl', () => {
       // Times of India keeps the slug in a directory.
       'https://timesofindia.indiatimes.com/india/sports-minister-resigns-over-scandal/articleshow/123.cms',
       'https://timesofindia.indiatimes.com/city/delhi/football-stadium-stampede-kills-12/articleshow/123.cms',
+      'https://timesofindia.indiatimes.com/india/cricket-scandal/articleshow/123.cms',
+      'https://timesofindia.indiatimes.com/city/delhi/football-stampede/articleshow/123.cms',
       'not a url',
     ]) {
       expect(isSportUrl(url), url).toBe(false);
