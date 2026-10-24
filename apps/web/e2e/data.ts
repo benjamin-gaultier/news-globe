@@ -69,7 +69,7 @@ function file(code: string): CountryFile {
   };
 }
 
-/** Each country's top story, most outlets first, as Today's file lists them. */
+/** Each country's top story, most outlets first. No `coverage`, so the briefing ranks these by outlets, as for older files. */
 function today(scenario: Scenario): TodayFile {
   const top = Object.entries(scenario.countries)
     .sort(([, a], [, b]) => b - a)
