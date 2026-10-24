@@ -138,7 +138,10 @@ export class HttpCache {
  */
 export const MAX_ITEMS_PER_FEED = 200;
 
-/** The `max` most recent items, undated ones (dated later as "now") first, feed order otherwise. */
+/**
+ * The `max` most recent items, undated ones first (their age is unknown until stamped
+ * with `firstSeenAt`, which can date them well before now), feed order otherwise.
+ */
 export function newest(items: RawItem[], max: number): RawItem[] {
   if (items.length <= max) return items;
   const time = (i: RawItem) => (i.publishedAt ? Date.parse(i.publishedAt) || 0 : Infinity);
