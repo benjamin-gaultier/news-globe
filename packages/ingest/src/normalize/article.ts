@@ -4,6 +4,9 @@ import type { SourceConfig } from '../sources.config';
 import { decodeEntities } from './text';
 import { articleId, canonicalizeUrl, dateFromUrl } from './url';
 
+/** Days since the epoch, in UTC. */
+const utcDay = (t: number) => Math.floor(t / 86_400_000);
+
 /**
  * Turn a raw feed item into an Article. Items without a date take when the HTTP
  * cache first saw them (`firstSeenAt`), or the date in their URL (e.g. Sky TG24)
@@ -16,8 +19,6 @@ import { articleId, canonicalizeUrl, dateFromUrl } from './url';
  * again for feeds that escape them twice (Thanh Niên's "&aacute;"), which also
  * fixes items cached before the decoder knew those entities.
  */
-const utcDay = (t: number) => Math.floor(t / 86_400_000);
-
 export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: string, now: number): Article {
   const canonicalUrl = canonicalizeUrl(item.url);
   const given = item.publishedAt ? Date.parse(item.publishedAt) : NaN;
