@@ -749,7 +749,7 @@ export const SOURCES: SourceConfig[] = [
   // Mixes state (AA, TRT), mainstream and opposition (Sözcü, Cumhuriyet) outlets.
   // T24's feed is empty; AA's politika feed is stale (months old). Sabah,
   // Milliyet, Habertürk also work as substitutes. CNN Türk stamps local time
-  // as GMT (dates ~3 h ahead); toArticle clamps them to now.
+  // as GMT (dates ~3 h ahead); toArticle dates them by when first seen.
   {
     id: 'aa',
     name: 'Anadolu Ajansı',
@@ -1963,7 +1963,7 @@ export const SOURCES: SourceConfig[] = [
   },
   // ---- Philippines ----
   // ABS-CBN and Manila Bulletin return 403; PNA's and Manila Standard's feeds are
-  // malformed XML. Inquirer stamps some dates ahead of now (clamped).
+  // malformed XML. Inquirer stamps some dates ahead of now (dated by when first seen).
   {
     id: 'inquirer',
     name: 'Philippine Daily Inquirer',
@@ -3487,7 +3487,7 @@ export const SOURCES: SourceConfig[] = [
   },
   // Arabic-language press (tokenized by arabicTokens in normalize/text.ts).
   // Egypt: Al-Ahram, Akhbar El Yom, Cairo 24 and Al-Wafd return 403; Youm7 items are undated.
-  // Vetogate and Al-Bawaba stamp items ~3h ahead (local time labelled GMT); future dates are clamped.
+  // Vetogate and Al-Bawaba stamp items ~3h ahead (local time labelled GMT); future dates take the first-seen time.
   {
     id: 'almasryalyoum',
     name: 'Al-Masry Al-Youm',
@@ -3738,7 +3738,7 @@ export const SOURCES: SourceConfig[] = [
     authority: 7,
   },
   // Costa Rica. La Nación, CRHoy, Amelia Rueda and El Financiero 404; Diario Extra returns 403.
-  // Delfino stamps items ~6h ahead (local time labelled GMT); future dates are clamped.
+  // Delfino stamps items ~6h ahead (local time labelled GMT); future dates take the first-seen time.
   {
     id: 'semanariouniversidad',
     name: 'Semanario Universidad',
@@ -4690,7 +4690,7 @@ export const SOURCES: SourceConfig[] = [
     authority: 7,
   },
   // Vietnam (current-affairs sections). VnExpress 404; Lao Động not RSS; Dân Trí stale.
-  // Tuổi Trẻ stamps items ~3h ahead; future dates are clamped.
+  // Tuổi Trẻ stamps items ~3h ahead; future dates take the first-seen time.
   {
     id: 'tuoitre',
     name: 'Tuổi Trẻ',

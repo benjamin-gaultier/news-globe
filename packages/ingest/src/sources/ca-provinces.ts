@@ -15,7 +15,7 @@ const src = (id: string, name: string, province: Province, language: 'en' | 'fr'
 
 /** Radio-Canada regional newsroom, every story ("en continu"). */
 const rc = (slug: string) => `https://ici.radio-canada.ca/info/rss/${slug}/en-continu`;
-/** CTV News local site (Bell Media). Dates run a few hours ahead; the pipeline clamps them. */
+/** CTV News local site (Bell Media). Dates run a few hours ahead; the pipeline dates them by when first seen. */
 const ctv = (section: string) => `https://www.ctvnews.ca/arc/outboundfeeds/rss/category/${section}/?outputType=xml`;
 /** Global News city/province page (Corus). */
 const global = (city: string) => `https://globalnews.ca/${city}/feed/`;
