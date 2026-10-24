@@ -75,3 +75,43 @@ export function rankClusters(clusters: StoryCluster[], limit: number, maxSoloPer
   }
   return [...picked, ...overflow].slice(0, limit);
 }
+
+/**
+ * Pseudo-outlets added to every country's pool in `coverage`. A country with few
+ * feeds gives little evidence that its press agrees on a story, so its share is
+ * pulled down: 2 of 2 outlets scores 0.67 and 8 of 8 scores 0.93, not both 1.
+ * On the live run of 2026-10-24 (`ranking:report --prior`), 0.5 brought the top
+ * lists closest to how countries split by feeds: 0 tilted them to small pools,
+ * 2 or more back to big ones.
+ */
+export const COVERAGE_PRIOR = 0.5;
+
+/**
+ * A typical country's pool: countries have 1 to 8 outlets with top feeds, most 3
+ * to 6. A country missing from the config (published by an ingest on another
+ * config) gets at least this, and twice its story's outlets: as if at most half
+ * its press carried the story, so an unknown pool never scores near the top.
+ */
+export const TYPICAL_POOL = 4;
+
+/** Three decimals of coverage are plenty to rank by, and keep the files small. */
+export const round3 = (x: number) => Math.round(x * 1000) / 1000;
+
+/**
+ * How much of a country's press covers a story, 0–1: the share of its *other*
+ * outlets (beyond the first) that carry it, with COVERAGE_PRIOR added to the pool.
+ * Stories from different countries are compared by this rather than by outlets,
+ * which would favour the countries with the most feeds: with 8 feeds a story can
+ * reach 8 outlets, with 2 never more than 2. A story from one outlet scores 0
+ * whatever the pool, since nothing corroborates it.
+ *
+ * `pool` is the country's outlets with top-headline feeds (see `outletPools`);
+ * a count above it (the config changed under a published file) widens it; for
+ * an unknown pool, see TYPICAL_POOL.
+ * `prior` is COVERAGE_PRIOR but for trying others (`ranking:report --prior`).
+ */
+export function coverage(outlets: number, pool: number | undefined, prior = COVERAGE_PRIOR): number {
+  const size = pool === undefined ? Math.max(TYPICAL_POOL, 2 * outlets) : Math.max(pool, outlets);
+  if (outlets <= 1 || size <= 1) return 0;
+  return (outlets - 1) / (size - 1 + prior);
+}

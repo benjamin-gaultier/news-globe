@@ -102,6 +102,43 @@ describe('buildToday', () => {
     expect(today).toMatchObject({ runAt, countries: 2, stories: 4 });
   });
 
+  it('ranks stories by the share of their country’s press, not by outlets', () => {
+    // NL has 8 outlets and LT 3: 4 of NL's is a smaller share than 3 of LT's.
+    const pools = new Map([
+      ['NL', 8],
+      ['LT', 3],
+    ]);
+    const today = buildToday(
+      trendsOf({}),
+      [
+        { code: 'NL', clusters: [story('NL', 'nl', 4)] },
+        { code: 'LT', clusters: [story('LT', 'lt', 3)] },
+      ],
+      pools,
+    );
+    expect(today.top.map((s) => [s.title, s.outlets, s.coverage])).toEqual([
+      ['lt', 3, 0.8],
+      ['nl', 4, 0.4],
+    ]);
+  });
+
+  it('breaks equal shares by rank before outlets', () => {
+    const pools = new Map([
+      ['NL', 8],
+      ['LT', 2],
+    ]);
+    // 2 of 2 and 6 of 8 both score 0.667; NL's is its #2 story, LT's its #1.
+    const today = buildToday(
+      trendsOf({}),
+      [
+        { code: 'NL', clusters: [story('NL', 'nl1', 7), story('NL', 'nl2', 6)] },
+        { code: 'LT', clusters: [story('LT', 'lt', 2)] },
+      ],
+      pools,
+    );
+    expect(today.top.map((s) => s.title)).toEqual(['nl1', 'lt', 'nl2']);
+  });
+
   it('lists new and rising stories not already on top, and stories ranked high all day', () => {
     const fr = [story('FR', 'top', 9), story('FR', 'second', 8), story('FR', 'rising', 2)];
     const de = [story('DE', 'big', 10), story('DE', 'bigger', 9), story('DE', 'since morning', 3), story('DE', 'new', 1)];

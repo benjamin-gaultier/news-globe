@@ -1,6 +1,8 @@
 import type { CountryCode, StoryCluster, WorldStory } from '@news-globe/shared';
 import { UnionFind } from './cluster';
 import { foldText } from './normalize/text';
+import { coverage, round3 } from './rank';
+import { outletPools } from './sources.config';
 
 /**
  * Cross-border stories: the same story in several countries' top lists,
@@ -224,9 +226,14 @@ function linkAcrossCountries(countries: CountryClusters[]): Doc[][] {
 /**
  * Links each country's clusters to the same story elsewhere: sets `alsoIn` on
  * linked clusters (in place) and returns the cross-border stories, most
- * countries first.
+ * countries first, then the most coverage (each country's share of its press,
+ * added up; `pools` gives each country's outlets), then the most outlets.
  */
-export function buildWorld(countries: CountryClusters[], limit = MAX_WORLD_STORIES): WorldStory[] {
+export function buildWorld(
+  countries: CountryClusters[],
+  limit = MAX_WORLD_STORIES,
+  pools: ReadonlyMap<string, number> = outletPools(),
+): WorldStory[] {
   const stories: WorldStory[] = [];
   for (const group of linkAcrossCountries(countries)) {
     // One cluster per country: its best-covered one.
@@ -263,6 +270,7 @@ export function buildWorld(countries: CountryClusters[], limit = MAX_WORLD_STORI
       url: c.representative.url,
       outletCount24h: c.outletCount24h,
       language: c.representative.language,
+      coverage: round3(coverage(c.outletCount24h, pools.get(code))),
     }));
     stories.push({
       id: [...entries.map((e) => e.clusterId)].sort()[0]!,
@@ -275,5 +283,8 @@ export function buildWorld(countries: CountryClusters[], limit = MAX_WORLD_STORI
     });
   }
   const outlets = (s: WorldStory) => s.countries.reduce((n, c) => n + c.outletCount24h, 0);
-  return stories.sort((p, q) => q.countries.length - p.countries.length || outlets(q) - outlets(p)).slice(0, limit);
+  const shares = (s: WorldStory) => s.countries.reduce((n, c) => n + (c.coverage ?? 0), 0);
+  return stories
+    .sort((p, q) => q.countries.length - p.countries.length || shares(q) - shares(p) || outlets(q) - outlets(p))
+    .slice(0, limit);
 }

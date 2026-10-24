@@ -41,6 +41,32 @@ describe('topStories', () => {
     ]);
   });
 
+  it('ranks by coverage, each country’s share of its own press, when the files have it', () => {
+    const nl = { ...national('NL', 'n1', 4), coverage: 0.375 };
+    const lt = { ...national('LT', 'l1', 3), coverage: 0.667 };
+    const w = across('w1', 'NO/no1 2', 'DK/dk1 2');
+    w.countries = w.countries.map((c) => ({ ...c, coverage: 0.25 }));
+    const top = topStories([nl, lt], [w]);
+    // w1: 0.25 in each of its two countries, plus 0.25 for the second country.
+    expect(top.map((b) => [b.key, b.coverage])).toEqual([
+      ['w1', 0.75],
+      ['LT/l1', 0.667],
+      ['NL/n1', 0.375],
+    ]);
+  });
+
+  it('keeps Today’s order for equal coverage instead of favouring more outlets', () => {
+    // 2 of 2 and 6 of 8 both score 0.667: LT's comes first in Today's list (its #1 against NL's #2).
+    const lt = { ...national('LT', 'l1', 2), coverage: 0.667 };
+    const nl = { ...national('NL', 'n2', 6), coverage: 0.667, rank: 2 };
+    expect(topStories([lt, nl], []).map((b) => b.key)).toEqual(['LT/l1', 'NL/n2']);
+  });
+
+  it('falls back to outlets when any story lacks coverage', () => {
+    const top = topStories([{ ...national('LT', 'l1', 3), coverage: 0.667 }, national('NL', 'n1', 4)], []);
+    expect(top.map((b) => b.key)).toEqual(['NL/n1', 'LT/l1']);
+  });
+
   it('folds a national story into the cross-border story it belongs to', () => {
     const fr = { ...national('FR', 'f1', 5), imageUrl: 'https://example.com/f1.jpg', state: 'rising' as const };
     const top = topStories([fr], [across('w1', 'BE/b1 2', 'FR/f1 5')]);

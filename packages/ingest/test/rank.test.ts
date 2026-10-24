@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Article } from '@news-globe/shared';
-import { buildCluster, pickRepresentative, rankClusters } from '../src/rank';
+import { buildCluster, coverage, pickRepresentative, rankClusters, TYPICAL_POOL } from '../src/rank';
 import { article } from './helpers';
 
 const NOW = Date.parse('2026-10-06T12:00:00.000Z');
@@ -75,5 +75,36 @@ describe('rankClusters', () => {
   it('keeps at most `limit` clusters', () => {
     const clusters = Array.from({ length: 20 }, (_, i) => build(article('lemonde', `t${i}`, hoursAgo(i))));
     expect(rankClusters(clusters, 15)).toHaveLength(15);
+  });
+});
+
+describe('coverage', () => {
+  it('is the share of the country’s other outlets on the story, with a small pool pulled down', () => {
+    expect(coverage(2, 2)).toBeCloseTo(0.667, 3);
+    expect(coverage(8, 8)).toBeCloseTo(0.933, 3);
+    expect(coverage(4, 8)).toBe(0.4);
+    expect(coverage(3, 4)).toBeCloseTo(0.571, 3);
+    expect(coverage(4, 8, 1)).toBe(0.375);
+  });
+
+  it('lets a small country’s story outrank a bigger country’s when more of its press carries it', () => {
+    // Raw outlets would put 4 of 8 first; 3 of 3 is the whole of that country's press.
+    expect(coverage(3, 3)).toBeGreaterThan(coverage(4, 8));
+  });
+
+  it('scores a single outlet 0, whatever the pool', () => {
+    expect(coverage(1, 1)).toBe(0);
+    expect(coverage(1, 8)).toBe(0);
+    expect(coverage(0, 5)).toBe(0);
+  });
+
+  it('scores a country missing from the config as if half its press carried the story at most', () => {
+    expect(coverage(2, undefined)).toBe(coverage(2, TYPICAL_POOL));
+    expect(coverage(5, undefined)).toBe(coverage(5, 10));
+    expect(coverage(5, undefined)).toBeLessThan(0.5);
+  });
+
+  it('widens a pool smaller than the outlets counted', () => {
+    expect(coverage(5, 3)).toBe(coverage(5, 5));
   });
 });

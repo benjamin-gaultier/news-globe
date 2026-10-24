@@ -31,7 +31,7 @@ import {
   toArticle,
 } from './normalize/article';
 import { buildCluster, rankClusters } from './rank';
-import { FETCHED_CATEGORIES, feedUrlsOf, INGEST_SETTINGS, SOURCES, type SourceConfig } from './sources.config';
+import { FETCHED_CATEGORIES, feedUrlsOf, INGEST_SETTINGS, outletPools, SOURCES, type SourceConfig } from './sources.config';
 import { buildWorld } from './world';
 import { writeJsonAtomic } from './write';
 
@@ -230,7 +230,11 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
     if (has.length > 1) entry.categories = has;
   }
 
-  const world = buildWorld(nationalFiles.map(({ out }) => ({ code: out.countryCode, clusters: out.clusters })));
+  const world = buildWorld(
+    nationalFiles.map(({ out }) => ({ code: out.countryCode, clusters: out.clusters })),
+    undefined,
+    outletPools(sources),
+  );
   for (const { file, out } of nationalFiles) await writeJsonAtomic(file, out);
   log(`world: ${world.length} cross-border stories${world[0] ? `, top in ${world[0].countries.length} countries` : ''}`);
 

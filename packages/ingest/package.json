@@ -9,6 +9,7 @@
     "probe": "tsx src/probe.ts",
     "cache:merge": "tsx src/merge-cache.ts",
     "archive:remote": "tsx src/archive-remote.ts",
+    "ranking:report": "tsx src/ranking-report.ts",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
     "typecheck": "tsc -p tsconfig.json"
