@@ -259,10 +259,10 @@ export function WorldPanel({
           </section>
         )}
         <p className="panel-footnote">
-          Top stories are ranked by how much of each country’s press covers them, not by outlet counts, so countries with more outlets
-          don’t win on numbers alone; a story in more countries’ top headlines ranks higher. Stories are
-          matched across countries by the names their headlines share (people, places, organisations), without translation. Headlines are
-          translated on this device where the browser can; elsewhere “Translate” opens one in Google Translate.
+          Top stories are ranked by how much of each country’s press covers them, not by outlet counts, so countries with more outlets don’t
+          win on numbers alone; a story in more countries’ top headlines ranks higher. Stories are matched across countries by the names
+          their headlines share (people, places, organisations), without translation. Headlines are translated on this device where the
+          browser can; elsewhere “Translate” opens one in Google Translate.
         </p>
       </>
     );
