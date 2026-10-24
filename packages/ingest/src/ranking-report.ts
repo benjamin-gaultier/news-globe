@@ -150,7 +150,7 @@ export function rankingReport(units: PublishedUnit[], world: WorldStory[], pools
   // An index from before coverage: give its cross-border stories theirs.
   const worldNow = world.map((w) => ({
     ...w,
-    countries: w.countries.map((c) => ({ ...c, coverage: c.coverage ?? coverage(c.outletCount24h, pools.get(c.code) ?? 0) })),
+    countries: w.countries.map((c) => ({ ...c, coverage: c.coverage ?? coverage(c.outletCount24h, pools.get(c.code)) })),
   }));
   const before = { today: pickTop(all, byOutlets), lines: [] as Line[] };
   before.lines = briefing(before.today, worldNow, 'outlets');
@@ -254,10 +254,10 @@ export function priorSweep(
   const today = pickTop(base, byOutlets);
   rows.push(row('raw outlets (before)', today, briefing(today, world, 'outlets'), bestOf(base, 'outlets')));
   for (const prior of priors) {
-    const all = base.map((s) => ({ ...s, coverage: round3(coverage(s.outlets, pools.get(s.unit) ?? 0, prior)) }));
+    const all = base.map((s) => ({ ...s, coverage: round3(coverage(s.outlets, pools.get(s.unit), prior)) }));
     const worldAt = world.map((w) => ({
       ...w,
-      countries: w.countries.map((c) => ({ ...c, coverage: round3(coverage(c.outletCount24h, pools.get(c.code) ?? 0, prior)) })),
+      countries: w.countries.map((c) => ({ ...c, coverage: round3(coverage(c.outletCount24h, pools.get(c.code), prior)) })),
     }));
     const top = pickTop(all);
     rows.push(row(`coverage, prior ${prior}`, top, briefing(top, worldAt, 'coverage'), bestOf(all, 'coverage')));

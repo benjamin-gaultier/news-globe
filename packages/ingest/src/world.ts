@@ -270,7 +270,7 @@ export function buildWorld(
       url: c.representative.url,
       outletCount24h: c.outletCount24h,
       language: c.representative.language,
-      coverage: round3(coverage(c.outletCount24h, pools.get(code) ?? 0)),
+      coverage: round3(coverage(c.outletCount24h, pools.get(code))),
     }));
     stories.push({
       id: [...entries.map((e) => e.clusterId)].sort()[0]!,

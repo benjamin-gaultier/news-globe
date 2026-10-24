@@ -116,7 +116,7 @@ export function nationalStories(trends: TrendsFile, units: PublishedUnit[], pool
         language: rep.language,
         imageUrl: rep.imageUrl,
         outlets: c.outletCount24h,
-        coverage: round3(coverage(c.outletCount24h, pools.get(code) ?? 0)),
+        coverage: round3(coverage(c.outletCount24h, pools.get(code))),
         rank: i + 1,
         firstSeen: trend?.firstSeen ?? trends.runAt,
         state: trend?.state ?? null,

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Article } from '@news-globe/shared';
-import { buildCluster, coverage, pickRepresentative, rankClusters } from '../src/rank';
+import { buildCluster, coverage, pickRepresentative, rankClusters, TYPICAL_POOL } from '../src/rank';
 import { article } from './helpers';
 
 const NOW = Date.parse('2026-10-06T12:00:00.000Z');
@@ -96,6 +96,12 @@ describe('coverage', () => {
     expect(coverage(1, 1)).toBe(0);
     expect(coverage(1, 8)).toBe(0);
     expect(coverage(0, 5)).toBe(0);
+  });
+
+  it('scores a country missing from the config as if half its press carried the story at most', () => {
+    expect(coverage(2, undefined)).toBe(coverage(2, TYPICAL_POOL));
+    expect(coverage(5, undefined)).toBe(coverage(5, 10));
+    expect(coverage(5, undefined)).toBeLessThan(0.5);
   });
 
   it('widens a pool smaller than the outlets counted', () => {
