@@ -108,9 +108,10 @@ export class HttpCache {
         throw new Error(`HTTP ${res.status}`);
       }
 
-      const items = newest(
-        await parse(decodeBody(new Uint8Array(await res.arrayBuffer()), res.headers.get('content-type'))),
-        MAX_ITEMS_PER_FEED,
+      const items = stampFirstSeen(
+        newest(await parse(decodeBody(new Uint8Array(await res.arrayBuffer()), res.headers.get('content-type'))), MAX_ITEMS_PER_FEED),
+        entry?.items ?? [],
+        attemptAt,
       );
       next.items = items;
       next.retrievedAt = attemptAt;
@@ -143,6 +144,18 @@ export function newest(items: RawItem[], max: number): RawItem[] {
     .sort((a, b) => b.t - a.t || a.index - b.index)
     .slice(0, max)
     .map((x) => x.item);
+}
+
+/**
+ * Sets `firstSeenAt` on the items without a usable date (none, or one after `at`): the
+ * time an earlier fetch first listed the same URL, or `at` for a new item.
+ */
+export function stampFirstSeen(items: RawItem[], previous: readonly RawItem[], at: string): RawItem[] {
+  const seen = new Map(previous.flatMap((i) => (i.firstSeenAt ? [[i.url, i.firstSeenAt] as const] : [])));
+  return items.map((item) => {
+    const dated = item.publishedAt !== null && Date.parse(item.publishedAt) <= Date.parse(at);
+    return dated ? item : { ...item, firstSeenAt: seen.get(item.url) ?? at };
+  });
 }
 
 /**

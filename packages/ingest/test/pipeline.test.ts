@@ -109,7 +109,7 @@ describe('runIngest', () => {
     expect(index.schemaVersion).toBe(SCHEMA_VERSION);
     expect(index.updatedAt).toBe(new Date(NOW).toISOString());
     expect(index.countries).toEqual([
-      { code: 'FR', name: 'France', updatedAt: index.updatedAt, clusterCount: 3, topTitle: STORY, topOutlets: 2 },
+      { code: 'FR', name: 'France', updatedAt: index.updatedAt, clusterCount: 3, topTitle: STORY, topOutlets: 2, activeOutlets: 2 },
       expect.objectContaining({ code: 'US', clusterCount: 1 }),
     ]);
     expect(index.regions).toEqual([]);
@@ -217,13 +217,17 @@ describe('runIngest', () => {
     expect(index.regions).toEqual([]);
   });
 
-  it('dates undated items by their retrieval and never into the future', async () => {
+  it('dates undated and future-dated items by when they were first seen, and never into the future', async () => {
     const lemonde = source('lemonde', 'FR');
     const retrievedAt = hoursAgo(2);
     await seedCache(
       {
         [lemonde.feeds.top![0]!]: [
           item('lemonde', 'undated', 'Le Conseil constitutionnel valide la loi sur l’immigration', null),
+          {
+            ...item('lemonde', 'evergreen', 'Les chiffres clés du budget de l’État expliqués', null),
+            firstSeenAt: hoursAgo(30),
+          },
           item(
             'lemonde',
             'future',
@@ -239,7 +243,54 @@ describe('runIngest', () => {
 
     const fr = await readJson<CountryFile>('countries', 'FR.json');
     const published = Object.fromEntries(fr.clusters.map((c) => [c.representative.url.split('/').pop(), c.representative.publishedAt]));
-    expect(published).toEqual({ undated: retrievedAt, future: new Date(NOW).toISOString() });
+    // The evergreen item, listed by every fetch for 30 hours, ranks by that age rather than as new.
+    expect(published).toEqual({ undated: retrievedAt, evergreen: hoursAgo(30), future: retrievedAt });
+  });
+
+  it('leaves sports stories out of top files: in a sports section, filed under a sports category, or in the outlet’s sport feed', async () => {
+    const lemonde = source('lemonde', 'FR', {
+      feeds: { top: ['https://lemonde.example/rss'], sport: ['https://lemonde.example/sport/rss'] },
+    });
+    const aps = source('aps', 'FR');
+    const punch = source('punch', 'FR');
+    const match = 'Premier League : Nicolas Jackson signe un doublé face à Manchester City';
+    await seedCache({
+      'https://lemonde.example/rss': [item('lemonde', 'budget', STORY, hoursAgo(2)), item('lemonde', 'jackson', match, hoursAgo(1))],
+      'https://lemonde.example/sport/rss': [item('lemonde', 'jackson', match, hoursAgo(1))],
+      [aps.feeds.top![0]!]: [
+        item('aps', 'sports/football/jackson', `${match} à Birmingham`, hoursAgo(1)),
+        item('aps', 'budget', `${STORY} ce mercredi`, hoursAgo(1)),
+      ],
+      [punch.feeds.top![0]!]: [
+        { ...item('punch', 'jackson-brace', `${match} : le doublé`, hoursAgo(1)), categories: ['Sports', 'Aston Villa'] },
+        { ...item('punch', 'budget', `${STORY} jeudi`, hoursAgo(1)), categories: ['News'] },
+      ],
+    });
+
+    const { log } = await ingest([lemonde, aps, punch]);
+
+    const top = await readJson<CountryFile>('countries', 'FR.json');
+    expect(top.clusters.map((c) => [c.representative.title, c.outletCount])).toEqual([[STORY, 3]]);
+    const sport = await readJson<CountryFile>('countries', 'FR.sport.json');
+    expect(sport.clusters.map((c) => c.representative.title)).toEqual([match]);
+    expect(log).toContain('top files: 3 sports stories left to the sport files');
+  });
+
+  it('counts as active only the outlets with a story in the last 24 hours', async () => {
+    const lemonde = source('lemonde', 'FR');
+    const figaro = source('figaro', 'FR');
+    const stale = source('stale', 'FR');
+    await seedCache({
+      [lemonde.feeds.top![0]!]: [item('lemonde', 'budget', STORY, hoursAgo(2))],
+      [figaro.feeds.top![0]!]: [item('figaro', 'budget', `${STORY} ce mercredi`, hoursAgo(1))],
+      // A feed that still answers but stopped updating a day and a half ago.
+      [stale.feeds.top![0]!]: [item('stale', 'greve', 'Grève à la SNCF : le trafic sera très perturbé jeudi', hoursAgo(36))],
+    });
+
+    await ingest([lemonde, figaro, stale]);
+
+    const index = await readJson<IndexFile>('index.json');
+    expect(index.countries).toEqual([expect.objectContaining({ code: 'FR', activeOutlets: 2 })]);
   });
 
   it('writes each category to a file of its own, and none for a category without feeds', async () => {

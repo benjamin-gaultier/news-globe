@@ -84,3 +84,38 @@ export function dateFromUrl(raw: string): string | null {
   // Reject impossible dates like 2026-02-31, which Date would roll over.
   return new Date(iso).toISOString().startsWith(`${m[1]}-${m[2]}-${m[3]}`) ? iso : null;
 }
+
+/**
+ * Section names that mark a sports page, in the languages of the feeds: `/sport/`,
+ * `/deportes/`, `/futbol-xeberleri/`, `/sports/badminton/`.
+ */
+const SPORT_SECTION =
+  /^(?:sports?|sporti?|spor|deportes?|esportes?|desportos?|futbol|fútbol|football|soccer|calcio|fussball|fußball|fotbal|cricket|tennis|basketball|baseball|béisbol|beisbol)(?:-|$)/i;
+
+/**
+ * True when one of a feed item's own categories is a sports section ("Sports", "Football",
+ * "Deportes"): how whole-site WordPress feeds (Punch, APS, Le Soleil) mark them, with no
+ * section in the URL.
+ */
+export function isSportCategory(categories: readonly string[] | undefined): boolean {
+  return !!categories?.some((c) => SPORT_SECTION.test(c.trim().replace(/\s+/g, '-')));
+}
+
+/**
+ * True when an article URL sits in a sports section: a directory of its path (not the
+ * final slug, which can be any headline) is a sports section name. Whole-site feeds,
+ * which many outlets' top feeds are, carry sports stories; sport has files of its own.
+ */
+export function isSportUrl(raw: string): boolean {
+  let path: string;
+  try {
+    path = decodeURIComponent(new URL(raw).pathname);
+  } catch {
+    return false;
+  }
+  return path
+    .split('/')
+    .filter(Boolean)
+    .slice(0, -1)
+    .some((segment) => SPORT_SECTION.test(segment));
+}

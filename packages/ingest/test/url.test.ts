@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { articleId, canonicalizeUrl, dateFromUrl } from '../src/normalize/url';
+import { articleId, canonicalizeUrl, dateFromUrl, isSportCategory, isSportUrl } from '../src/normalize/url';
 
 describe('canonicalizeUrl', () => {
   it('strips tracking params and the fragment', () => {
@@ -53,5 +53,50 @@ describe('dateFromUrl', () => {
     expect(dateFromUrl('https://example.com/2026/02/31/x')).toBeNull();
     expect(dateFromUrl('https://example.com/id/1003744409738')).toBeNull();
     expect(dateFromUrl('not a url')).toBeNull();
+  });
+});
+
+describe('isSportUrl', () => {
+  it('flags articles in a sports section, in the languages of the feeds', () => {
+    for (const url of [
+      'https://www.svt.se/sport/fotboll/small-for-sirius-foll-mot-aik',
+      'https://www.prensa.com/deportes/messi-anade-el-premio-princesa-de-asturias',
+      'https://report.az/futbol-xeberleri/fifa-u-15-dunya-cempionati',
+      'https://www.tanea.gr/2026/10/24/sports/football/aston-vila-mantsester-siti-2-1',
+      'https://www.nst.com.my/sports/badminton/2026/10/1562689/pearly-thinaah',
+      'https://www.rtl.nl/nieuws/sport/artikel/5660818/fifa-baas-infantino',
+      'https://www.elnuevodia.com/deportes/beisbol/notas/puerto-rico-recibe',
+    ]) {
+      expect(isSportUrl(url), url).toBe(true);
+    }
+  });
+
+  it('leaves other sections alone, whatever the headline’s slug says', () => {
+    for (const url of [
+      'https://www.lemonde.fr/politique/article/2026/10/06/x_123.html',
+      'https://conosaba.blogspot.com/2026/10/liga-guineense-de-luta-contra-cancro.html',
+      'https://aps.sn/premier-league-nicolas-jackson-signe-un-double',
+      'https://example.com/sports',
+      'https://example.com/sportswashing-row/story',
+      'not a url',
+    ]) {
+      expect(isSportUrl(url), url).toBe(false);
+    }
+  });
+});
+
+describe('isSportCategory', () => {
+  it('flags items a feed files under a sports section', () => {
+    expect(isSportCategory(['Sports', 'Aston Villa'])).toBe(true);
+    expect(isSportCategory(['Football'])).toBe(true);
+    expect(isSportCategory(['Sport News'])).toBe(true);
+    expect(isSportCategory(['Deportes'])).toBe(true);
+  });
+
+  it('leaves other categories, and items without any, alone', () => {
+    expect(isSportCategory(['News', 'Politics'])).toBe(false);
+    expect(isSportCategory(['Sportswashing'])).toBe(false);
+    expect(isSportCategory([])).toBe(false);
+    expect(isSportCategory(undefined)).toBe(false);
   });
 });

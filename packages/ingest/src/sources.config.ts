@@ -8991,6 +8991,21 @@ export function outletPools(sources: readonly SourceConfig[] = SOURCES): Map<Cou
   return pools;
 }
 
+/**
+ * Country → the outlets its stories are measured against: those that published in the run's
+ * ranking window (`activeOutlets` in its index entry), else, for an entry from before that
+ * field, its configured outlets. A dead or stale feed would otherwise stay in the pool and
+ * pull down every story from its country.
+ */
+export function activePools(
+  entries: readonly { code: string; activeOutlets?: number }[],
+  configured: ReadonlyMap<CountryCode, number> = outletPools(),
+): Map<CountryCode, number> {
+  const pools = new Map(configured);
+  for (const e of entries) if (e.activeOutlets !== undefined) pools.set(e.code, e.activeOutlets);
+  return pools;
+}
+
 export const INGEST_SETTINGS = {
   userAgent: 'NewsGlobeBot/0.1 (+https://github.com/benjamin-gaultier/news-globe; headline metadata only)',
   /** Never request the same feed more often than this, even on manual runs. */

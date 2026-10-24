@@ -13,6 +13,14 @@ export interface RawItem {
   /** ISO 8601, or null if the source gave no usable date. */
   publishedAt: string | null;
   imageUrl: string | null;
+  /** The feed's own categories for the item (`<category>`), when it gives any: at most a few, trimmed. */
+  categories?: string[];
+  /**
+   * When the HTTP cache first saw this item, set only for items without a usable date (none, or
+   * one after the fetch). It stands in for the date, and survives refetches: dating them by each
+   * fetch instead would keep an evergreen item in a feed looking new forever.
+   */
+  firstSeenAt?: string;
 }
 
 export interface FetchResult {

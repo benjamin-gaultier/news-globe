@@ -12,7 +12,7 @@ import {
 } from '@news-globe/shared';
 import { nationalStories, pickTop, type PublishedUnit } from './derived';
 import { coverage } from './rank';
-import { outletPools } from './sources.config';
+import { activePools, outletPools } from './sources.config';
 
 /**
  * `pnpm --filter @news-globe/ingest ranking:report [--site URL | --dir DIR]`: how
@@ -141,12 +141,19 @@ function lineList(label: string, lines: Line[], pools: ReadonlyMap<string, numbe
  * The report for one run's national files and cross-border stories, in Markdown: the world briefing's
  * top stories ranked by raw outlets (before) and by coverage (after).
  */
-export function rankingReport(units: PublishedUnit[], world: WorldStory[], pools: ReadonlyMap<string, number>, runAt: string): string {
-  const all = nationalStories({ schemaVersion: SCHEMA_VERSION, runAt, runs: [runAt], units: {}, change: {} }, units, pools);
+export function rankingReport(
+  units: PublishedUnit[],
+  world: WorldStory[],
+  pools: ReadonlyMap<string, number>,
+  runAt: string,
+  /** The outlets stories are measured against (`activePools`); the configured `pools` by default. */
+  active: ReadonlyMap<string, number> = pools,
+): string {
+  const all = nationalStories({ schemaVersion: SCHEMA_VERSION, runAt, runs: [runAt], units: {}, change: {} }, units, active);
   // An index from before coverage: give its cross-border stories theirs.
   const worldNow = world.map((w) => ({
     ...w,
-    countries: w.countries.map((c) => ({ ...c, coverage: c.coverage ?? coverage(c.outletCount24h, pools.get(c.code) ?? 0) })),
+    countries: w.countries.map((c) => ({ ...c, coverage: c.coverage ?? coverage(c.outletCount24h, active.get(c.code) ?? 0) })),
   }));
   const before = { today: pickTop(all, byOutlets), lines: [] as Line[] };
   before.lines = briefing(before.today, worldNow, 'outlets');
@@ -205,7 +212,10 @@ export function rankingReport(units: PublishedUnit[], world: WorldStory[], pools
 }
 
 /** A published run: the live site's /data/ or a local data directory. */
-async function loadRun(from: { site?: string; dir?: string }): Promise<{ units: PublishedUnit[]; world: WorldStory[]; runAt: string }> {
+async function loadRun(from: {
+  site?: string;
+  dir?: string;
+}): Promise<{ units: PublishedUnit[]; world: WorldStory[]; runAt: string; active: Map<string, number> }> {
   const get = async <T>(path: string): Promise<T | null> => {
     if (from.dir)
       return readFile(join(from.dir, path), 'utf8').then(
@@ -225,7 +235,7 @@ async function loadRun(from: { site?: string; dir?: string }): Promise<{ units: 
     const file = await get<CountryFile>(`countries/${entry.code}.json`);
     if (file) units.push({ code: entry.code, clusters: file.clusters });
   }
-  return { units, world: index.world ?? [], runAt: index.updatedAt };
+  return { units, world: index.world ?? [], runAt: index.updatedAt, active: activePools(index.countries) };
 }
 
 // `pnpm --filter @news-globe/ingest ranking:report [--site URL | --dir DIR]`
@@ -237,7 +247,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   const dir = arg('--dir');
   const site = (arg('--site') ?? process.env.SITE_URL ?? 'https://news-globe.maze-td.workers.dev').replace(/\/+$/, '');
   loadRun(dir ? { dir } : { site })
-    .then(({ units, world, runAt }) => console.log(rankingReport(units, world, outletPools(), runAt)))
+    .then(({ units, world, runAt, active }) => console.log(rankingReport(units, world, outletPools(), runAt, active)))
     .catch((err) => {
       console.error('[ranking:report] failed:', err instanceof Error ? err.message : err);
       process.exitCode = 1;

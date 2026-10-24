@@ -13,7 +13,7 @@ const item = (title: string): RawItem => ({
   title,
   url: `https://x.example/${title}`,
   description: null,
-  publishedAt: null,
+  publishedAt: '2026-10-06T08:00:00.000Z',
   imageUrl: null,
 });
 
@@ -139,6 +139,26 @@ describe('HttpCache', () => {
       items: [],
     });
     expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('first-seen times', () => {
+  it('date undated and future-dated items by the fetch that first listed them, across refetches', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const cache = await makeCache(fetchImpl);
+    const undated = { ...item('evergreen'), publishedAt: null };
+    const kickoff = { ...item('match'), publishedAt: '2026-10-07T20:00:00.000Z' };
+    const first = await cache.getItems(URL_A, async () => [undated, kickoff, item('dated')]);
+    const firstAt = new Date(now).toISOString();
+    expect(first.items).toEqual([{ ...undated, firstSeenAt: firstAt }, { ...kickoff, firstSeenAt: firstAt }, item('dated')]);
+
+    // A day later the feed still lists the evergreen item, next to a new undated one.
+    now += 24 * 60 * MIN;
+    const later = await cache.getItems(URL_A, async () => [undated, { ...item('new'), publishedAt: null }]);
+    expect(later.items.map((i) => [i.title, i.firstSeenAt])).toEqual([
+      ['evergreen', firstAt],
+      ['new', new Date(now).toISOString()],
+    ]);
   });
 });
 

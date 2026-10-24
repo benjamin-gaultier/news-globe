@@ -6,14 +6,18 @@ import { articleId, canonicalizeUrl, dateFromUrl } from './url';
 
 /**
  * Turn a raw feed item into an Article. Items without a date take the date in
- * their URL if there is one (e.g. Sky TG24), else the time the feed was
- * retrieved; dates in the future are clamped to `now`. Titles and descriptions are
- * decoded again for feeds that escape them twice (Thanh Niên's "&aacute;"), which also fixes
- * items cached before the decoder knew those entities.
+ * their URL if there is one (e.g. Sky TG24), else when the HTTP cache first saw
+ * them (`firstSeenAt`), else the time the feed was retrieved. A date in the
+ * future (a match dated at kick-off) is replaced the same way; no date passes
+ * `now`. Titles and descriptions are decoded again for feeds that escape them
+ * twice (Thanh Niên's "&aacute;"), which also fixes items cached before the
+ * decoder knew those entities.
  */
 export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: string, now: number): Article {
   const canonicalUrl = canonicalizeUrl(item.url);
-  const published = Math.min(Date.parse(item.publishedAt ?? dateFromUrl(item.url) ?? retrievedAt), now);
+  const given = item.publishedAt ? Date.parse(item.publishedAt) : NaN;
+  const fallback = Date.parse(dateFromUrl(item.url) ?? item.firstSeenAt ?? retrievedAt);
+  const published = Math.min(given <= now ? given : fallback, now);
   return {
     id: articleId(canonicalUrl),
     url: item.url,
