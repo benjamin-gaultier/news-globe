@@ -87,10 +87,13 @@ export function dateFromUrl(raw: string): string | null {
 
 /**
  * Section names that mark a sports page, in the languages of the feeds: `/sport/`,
- * `/deportes/`, `/futbol-xeberleri/`, `/sports/badminton/`.
+ * `/deportes/`, `/sports/badminton/`, and a sports word with one more word
+ * (`/futbol-xeberleri/`, "Sport News"). Never longer: some outlets put the
+ * headline's slug in a directory (Times of India's `/india/<slug>/articleshow/…`),
+ * and "sports-minister-resigns-over-scandal" is national news.
  */
 const SPORT_SECTION =
-  /^(?:sports?|sporti?|spor|deportes?|esportes?|desportos?|futbol|fútbol|football|soccer|calcio|fussball|fußball|fotbal|cricket|tennis|basketball|baseball|béisbol|beisbol)(?:-|$)/i;
+  /^(?:sports?|sporti?|spor|deportes?|esportes?|desportos?|futbol|fútbol|football|soccer|calcio|fussball|fußball|fotbal|cricket|tennis|basketball|baseball|béisbol|beisbol)(?:-[^-]+)?$/i;
 
 /**
  * True when one of a feed item's own categories is a sports section ("Sports", "Football",

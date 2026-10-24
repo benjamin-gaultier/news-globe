@@ -78,6 +78,9 @@ describe('isSportUrl', () => {
       'https://aps.sn/premier-league-nicolas-jackson-signe-un-double',
       'https://example.com/sports',
       'https://example.com/sportswashing-row/story',
+      // Times of India keeps the slug in a directory.
+      'https://timesofindia.indiatimes.com/india/sports-minister-resigns-over-scandal/articleshow/123.cms',
+      'https://timesofindia.indiatimes.com/city/delhi/football-stadium-stampede-kills-12/articleshow/123.cms',
       'not a url',
     ]) {
       expect(isSportUrl(url), url).toBe(false);
