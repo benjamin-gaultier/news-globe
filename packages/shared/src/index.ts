@@ -108,7 +108,8 @@ export interface IndexEntry {
   /** Distinct outlets covering the top story in the last 24 h (its `outletCount24h`). */
   topOutlets?: number;
   /**
-   * Outlets with at least one story in the file from the last 24 h: the press its stories are
+   * Outlets with at least one article in the run from the last 24 h (counted before the cut to the
+   * top stories, so one may appear nowhere in the file): the press its stories are
    * measured against when countries are compared (see `coverage` in packages/ingest/src/rank.ts).
    * Outlets whose feeds are dead or stale are not in it. Optional: older index files have none.
    */
