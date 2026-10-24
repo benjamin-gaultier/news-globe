@@ -103,7 +103,7 @@ export interface IndexEntry {
   name: string;
   updatedAt: string;
   clusterCount: number;
-  /** Headline of the top-ranked story. Optional: older index files have none, nor does a country whose feeds all failed in the run. */
+  /** Headline of the top-ranked story. Optional: older index files have none. */
   topTitle?: string;
   /** Distinct outlets covering the top story in the last 24 h (its `outletCount24h`). */
   topOutlets?: number;
@@ -111,7 +111,8 @@ export interface IndexEntry {
    * Outlets with at least one article in the run from the last 24 h (counted before the cut to the
    * top stories, so one may appear nowhere in the file): the press its stories are
    * measured against when countries are compared (see `coverage` in packages/ingest/src/rank.ts).
-   * Outlets whose feeds are dead or stale are not in it. Optional: older index files have none, nor does a country whose feeds all failed in the run.
+   * Outlets whose feeds are dead or stale are not in it.
+   * Optional: older index files have none, nor does a country whose feeds all failed in the run.
    */
   activeOutlets?: number;
   /**
@@ -127,9 +128,9 @@ export interface IndexFile {
   updatedAt: string;
   /** Countries with a top file; their section files are listed in each entry's `categories`. */
   countries: IndexEntry[];
-  /** Regions with a top file. Optional: older index files have none, nor does a country whose feeds all failed in the run. */
+  /** Regions with a top file. Optional: older index files have none. */
   regions?: IndexEntry[];
-  /** Stories in several countries' top stories, most countries first. Optional: older index files have none, nor does a country whose feeds all failed in the run. */
+  /** Stories in several countries' top stories, most countries first. Optional: older index files have none. */
   world?: WorldStory[];
 }
 
@@ -146,9 +147,9 @@ export interface WorldStory {
     title: string;
     url: string;
     outletCount24h: number;
-    /** BCP 47 language of `title`. Optional: older index files have none, nor does a country whose feeds all failed in the run. */
+    /** BCP 47 language of `title`. Optional: older index files have none. */
     language?: string;
-    /** Share of the country's press on it (0–1, see `coverage` in packages/ingest/src/rank.ts). Optional: older index files have none, nor does a country whose feeds all failed in the run. */
+    /** Share of the country's press on it (0–1, see `coverage` in packages/ingest/src/rank.ts). Optional: older index files have none. */
     coverage?: number;
   }[];
   /** ISO 8601 of the most recent article across the countries. */
