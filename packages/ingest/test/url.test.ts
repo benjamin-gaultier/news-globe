@@ -99,6 +99,9 @@ describe('isSportCategory', () => {
   it('leaves other categories, and items without any, alone', () => {
     expect(isSportCategory(['News', 'Politics'])).toBe(false);
     expect(isSportCategory(['Sportswashing'])).toBe(false);
+    // Tags that name a sports body are news.
+    expect(isSportCategory(['Politics', 'Sports Ministry'])).toBe(false);
+    expect(isSportCategory(['Football Federation', 'Cricket Board'])).toBe(false);
     expect(isSportCategory([])).toBe(false);
     expect(isSportCategory(undefined)).toBe(false);
   });
