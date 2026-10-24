@@ -312,7 +312,13 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   loadRun(dir ? { dir } : { site })
     .then(({ units, world, runAt }) => {
       const pools = outletPools();
-      const priors = arg('--prior')?.split(',').map(Number);
+      const priors = arg('--prior')
+        ?.split(',')
+        .map((p) => {
+          const n = Number(p);
+          if (p.trim() === '' || !Number.isFinite(n) || n < 0) throw new Error(`--prior: not a number ≥ 0: "${p}"`);
+          return n;
+        });
       console.log(priors ? priorSweep(units, world, pools, runAt, priors) : rankingReport(units, world, pools, runAt));
     })
     .catch((err) => {
