@@ -9,7 +9,7 @@ import {
   type TodayStory,
   type TrendsFile,
 } from '@news-globe/shared';
-import { coverage } from './rank';
+import { coverage, round3 } from './rank';
 import { outletPools } from './sources.config';
 
 /**
@@ -96,9 +96,6 @@ export const TODAY_LASTING = 6;
 export const LASTING_HOURS = 6;
 const LASTING_TOP = 3;
 
-/** Three decimals are plenty to rank by, and keep the file small. */
-const round3 = (x: number) => Math.round(x * 1000) / 1000;
-
 /**
  * Every national story of the run, with its trend and coverage (the share of
  * its country's press on it; `pools` gives each country's outlets).
@@ -119,7 +116,7 @@ export function nationalStories(trends: TrendsFile, units: PublishedUnit[], pool
         language: rep.language,
         imageUrl: rep.imageUrl,
         outlets: c.outletCount24h,
-        coverage: round3(coverage(c.outletCount24h, pools.get(code) ?? 0)),
+        coverage: round3(coverage(c.outletCount24h, pools.get(code))),
         rank: i + 1,
         firstSeen: trend?.firstSeen ?? trends.runAt,
         state: trend?.state ?? null,

@@ -1,7 +1,7 @@
 import type { CountryCode, StoryCluster, WorldStory } from '@news-globe/shared';
 import { UnionFind } from './cluster';
 import { foldText } from './normalize/text';
-import { coverage } from './rank';
+import { coverage, round3 } from './rank';
 import { outletPools } from './sources.config';
 
 /**
@@ -270,7 +270,7 @@ export function buildWorld(
       url: c.representative.url,
       outletCount24h: c.outletCount24h,
       language: c.representative.language,
-      coverage: Math.round(coverage(c.outletCount24h, pools.get(code) ?? 0) * 1000) / 1000,
+      coverage: round3(coverage(c.outletCount24h, pools.get(code))),
     }));
     stories.push({
       id: [...entries.map((e) => e.clusterId)].sort()[0]!,

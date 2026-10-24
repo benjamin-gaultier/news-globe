@@ -93,10 +93,13 @@ export function topStories(top: readonly TodayStory[], world: readonly WorldStor
     shared.imageUrl ??= s.imageUrl;
     shared.state ??= s.state;
   }
+  // Ranked by coverage, equal lines keep Today's order (rank before outlets) rather than falling back to outlets,
+  // which would favour bigger pools again. The sort is stable.
   const byCoverage = briefs.every((b) => b.coverage !== null);
-  return briefs.sort(
-    (a, b) =>
-      (byCoverage ? b.coverage! - a.coverage! : b.outlets - a.outlets) || b.countries.length - a.countries.length || b.outlets - a.outlets,
+  return briefs.sort((a, b) =>
+    byCoverage
+      ? b.coverage! - a.coverage! || b.countries.length - a.countries.length
+      : b.outlets - a.outlets || b.countries.length - a.countries.length,
   );
 }
 
