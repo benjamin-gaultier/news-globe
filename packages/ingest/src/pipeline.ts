@@ -160,7 +160,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       const key = fileStem(source.region ?? source.country, category);
       const list = byFile.get(key) ?? [];
       for (const item of items) {
-        const seenAt = item.firstSeenAt && firstSeen.get(firstSeenKey(item));
+        const seenAt = firstSeen.get(firstSeenKey(item));
         const article = toArticle(seenAt ? { ...item, firstSeenAt: seenAt } : item, source, retrievedAt, now);
         if (Date.parse(article.publishedAt) < minTime) continue;
         if (isMisdecoded(article.title) || isUnrenderedTemplate(article.title) || isNotNews(article.title)) continue;

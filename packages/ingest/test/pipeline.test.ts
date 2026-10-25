@@ -290,16 +290,23 @@ describe('runIngest', () => {
       feeds: { top: ['https://lemonde.example/une/rss', 'https://lemonde.example/politique/rss'] },
     });
     const evergreen = item('lemonde', 'evergreen', 'Les chiffres clés du budget de l’État expliqués', null);
+    // A preview dated at a kick-off an hour ago, first seen 10 hours ago by one feed.
+    const preview = item('lemonde', 'preview', 'Le XV de France dévoile sa composition pour le Tournoi', hoursAgo(1));
     await seedCache({
-      'https://lemonde.example/une/rss': [{ ...evergreen, firstSeenAt: hoursAgo(30) }],
-      // The second feed only started listing it this hour.
-      'https://lemonde.example/politique/rss': [{ ...evergreen, firstSeenAt: hoursAgo(1) }],
+      'https://lemonde.example/une/rss': [
+        { ...evergreen, firstSeenAt: hoursAgo(30) },
+        { ...preview, firstSeenAt: hoursAgo(10) },
+      ],
+      // The second feed only started listing them this hour: the evergreen item is stamped
+      // now, and the preview, already past its date, not at all.
+      'https://lemonde.example/politique/rss': [{ ...evergreen, firstSeenAt: hoursAgo(1) }, preview],
     });
 
     await ingest([lemonde]);
 
     const fr = await readJson<CountryFile>('countries', 'FR.json');
-    expect(fr.clusters.map((c) => c.representative.publishedAt)).toEqual([hoursAgo(30)]);
+    const published = Object.fromEntries(fr.clusters.map((c) => [c.representative.url.split('/').pop(), c.representative.publishedAt]));
+    expect(published).toEqual({ evergreen: hoursAgo(30), preview: hoursAgo(10) });
   });
 
   it('leaves sports stories out of top files: in a sports section, filed under a sports category, or in the outlet’s sport feed', async () => {
