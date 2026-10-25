@@ -158,13 +158,16 @@ export function newest(items: RawItem[], max: number): RawItem[] {
  * time an earlier fetch first listed the same URL (canonical, so a tracking parameter that
  * changes per fetch doesn't make it new), or `at` for a new item. An item that
  * had one keeps it once its date passes (a preview dated at kick-off, a feed whose clock
- * runs ahead), so it never jumps forward to that date.
+ * runs ahead), so it never jumps forward to that date; unless the feed itself moves the
+ * date forward (a live blog, an updated story), which makes it a new version, seen now.
  */
 export function stampFirstSeen(items: RawItem[], previous: readonly RawItem[], at: string): RawItem[] {
-  const seen = new Map(previous.flatMap((i) => (i.firstSeenAt ? [[canonicalizeUrl(i.url), i.firstSeenAt] as const] : [])));
+  const seen = new Map(previous.flatMap((i) => (i.firstSeenAt ? [[canonicalizeUrl(i.url), i] as const] : [])));
   return items.map((item) => {
     const dated = item.publishedAt !== null && Date.parse(item.publishedAt) <= Date.parse(at);
-    const first = seen.get(canonicalizeUrl(item.url));
+    const before = seen.get(canonicalizeUrl(item.url));
+    const moved = !!item.publishedAt && !!before?.publishedAt && Date.parse(item.publishedAt) > Date.parse(before.publishedAt);
+    const first = moved ? undefined : before?.firstSeenAt;
     if (dated) return first ? { ...item, firstSeenAt: first } : item;
     return { ...item, firstSeenAt: first ?? at };
   });

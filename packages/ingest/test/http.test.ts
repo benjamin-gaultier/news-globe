@@ -195,6 +195,26 @@ describe('first-seen times after a date passes', () => {
   });
 });
 
+describe('first-seen times when the feed moves a date forward', () => {
+  it('starts again from the fetch that saw the new date', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const cache = await makeCache(fetchImpl);
+    // A live blog from a feed whose clock runs 3 hours ahead.
+    const live = (publishedAt: string) => ({ ...item('live'), publishedAt });
+    await cache.getItems(URL_A, async () => [live('2026-10-06T13:00:00.000Z')]);
+
+    // Two days later the feed re-dates it, again ahead of the fetch.
+    now = Date.parse('2026-10-08T10:00:00Z');
+    const updated = await cache.getItems(URL_A, async () => [live('2026-10-08T13:00:00.000Z')]);
+    expect(updated.items).toEqual([{ ...live('2026-10-08T13:00:00.000Z'), firstSeenAt: '2026-10-08T10:00:00.000Z' }]);
+
+    // Later, re-dated to a time already past: the date stands.
+    now = Date.parse('2026-10-09T10:00:00Z');
+    const past = await cache.getItems(URL_A, async () => [live('2026-10-09T09:00:00.000Z')]);
+    expect(past.items).toEqual([live('2026-10-09T09:00:00.000Z')]);
+  });
+});
+
 describe('first-seen times on 304', () => {
   it('stamps undated items cached before first-seen times existed, once', async () => {
     const fetchImpl = vi

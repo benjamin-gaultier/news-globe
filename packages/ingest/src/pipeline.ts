@@ -139,13 +139,16 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   let sportDropped = 0;
 
   // Each feed's cache entry stamps first-seen times on its own, so an undated item a second feed
-  // starts listing today would look new there; every copy takes the earliest time any feed saw it.
+  // starts listing today would look new there; every copy takes the earliest time any feed saw it
+  // (with the same date: a feed that moved the date forward has a new version).
+  const firstSeenKey = (i: RawItem) => `${canonicalizeUrl(i.url)}\n${i.publishedAt}`;
   const firstSeen = new Map<string, string>();
   for (const { results } of perSource)
     for (const { items } of results)
-      for (const { url, firstSeenAt } of items) {
+      for (const i of items) {
+        const { firstSeenAt } = i;
         if (!firstSeenAt) continue;
-        const key = canonicalizeUrl(url);
+        const key = firstSeenKey(i);
         const known = firstSeen.get(key);
         if (!known || Date.parse(firstSeenAt) < Date.parse(known)) firstSeen.set(key, firstSeenAt);
       }
@@ -157,7 +160,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       const key = fileStem(source.region ?? source.country, category);
       const list = byFile.get(key) ?? [];
       for (const item of items) {
-        const seenAt = item.firstSeenAt && firstSeen.get(canonicalizeUrl(item.url));
+        const seenAt = item.firstSeenAt && firstSeen.get(firstSeenKey(item));
         const article = toArticle(seenAt ? { ...item, firstSeenAt: seenAt } : item, source, retrievedAt, now);
         if (Date.parse(article.publishedAt) < minTime) continue;
         if (isMisdecoded(article.title) || isUnrenderedTemplate(article.title) || isNotNews(article.title)) continue;
