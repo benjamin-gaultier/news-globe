@@ -8980,8 +8980,9 @@ export const SOURCES: SourceConfig[] = [
 ];
 
 /**
- * Country → its national outlets with top-headline feeds: the pool a story's
- * outlets are measured against when countries are compared (`coverage` in rank.ts).
+ * Country → its national outlets with top-headline feeds: the configured pool. Stories
+ * are measured against the outlets that published (`activePools`), which falls back to
+ * this; `ranking:report` groups countries by it.
  * Regional outlets and section-only outlets (a sports daily) are not in it, as
  * they never count toward a country's top file.
  */
