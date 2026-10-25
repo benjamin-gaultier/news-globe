@@ -112,7 +112,8 @@ export interface IndexEntry {
    * top stories, so one may appear nowhere in the file): the press its stories are
    * measured against when countries are compared (see `coverage` in packages/ingest/src/rank.ts).
    * Outlets whose feeds are dead or stale are not in it.
-   * Optional: older index files have none, nor does a country whose feeds all failed in the run.
+   * Country entries only. Optional: older index files have none, nor does a country whose feeds
+   * all failed in the run.
    */
   activeOutlets?: number;
   /**

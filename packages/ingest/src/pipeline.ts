@@ -204,7 +204,9 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   const addToIndex = (unit: Unit, at: string, clusters: StoryCluster[], activeOutlets?: number) => {
     filed.set(unit.code, (filed.get(unit.code) ?? new Set()).add(unit.category));
     if (unit.category !== 'top') return;
-    (unit.kind === 'country' ? index.countries : index.regions!).push(indexEntry(unit.code, unit.name, at, clusters, activeOutlets));
+    // Only countries are compared by coverage, so only their entries carry the pool.
+    if (unit.kind === 'country') index.countries.push(indexEntry(unit.code, unit.name, at, clusters, activeOutlets));
+    else index.regions!.push(indexEntry(unit.code, unit.name, at, clusters));
   };
 
   for (const unit of units) {

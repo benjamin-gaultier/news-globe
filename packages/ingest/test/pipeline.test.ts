@@ -355,6 +355,18 @@ describe('runIngest', () => {
     expect(index.countries).toEqual([expect.objectContaining({ code: 'FR', activeOutlets: 2 })]);
   });
 
+  it('counts no active outlets when a country has stories only from 24 to 48 hours ago', async () => {
+    const stale = source('stale', 'FR');
+    await seedCache({
+      [stale.feeds.top![0]!]: [item('stale', 'greve', 'Grève à la SNCF : le trafic sera très perturbé jeudi', hoursAgo(36))],
+    });
+
+    await ingest([stale]);
+
+    const index = await readJson<IndexFile>('index.json');
+    expect(index.countries).toEqual([expect.objectContaining({ code: 'FR', activeOutlets: 0 })]);
+  });
+
   it('writes each category to a file of its own, and none for a category without feeds', async () => {
     const lemonde = source('lemonde', 'FR', {
       authority: 10,
