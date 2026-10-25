@@ -3,24 +3,27 @@ import { describe, expect, it, vi } from 'vitest';
 import type { ArchiveDay, CountryFile, IndexFile, SearchFile, TodayFile, TranslationsFile, TrendsFile } from '@news-globe/shared';
 import { encodeBundle } from '@news-globe/shared/bundle';
 import { archiveFromKv } from '../src/archive-remote';
-import { buildCluster } from '../src/rank';
+import { buildCluster, coverage, round3 } from '../src/rank';
+import { outletPools } from '../src/sources.config';
 import { article } from './helpers';
 
 const cfg = { accountId: 'acc', namespaceId: 'ns', apiToken: 'tok' };
 const quiet = () => {};
 
-function publishedBundle(runAt: string): Uint8Array {
+function publishedBundle(runAt: string, activeOutlets?: number): Uint8Array {
   const fr: CountryFile = {
     schemaVersion: 1,
     countryCode: 'FR',
     countryName: 'France',
     updatedAt: runAt,
-    clusters: [buildCluster([article('lemonde', 'Budget adopté', runAt)], () => 0, Date.parse(runAt), 24)],
+    clusters: [
+      buildCluster([article('lemonde', 'Budget adopté', runAt), article('figaro', 'Budget adopté', runAt)], () => 0, Date.parse(runAt), 24),
+    ],
   };
   const index: IndexFile = {
     schemaVersion: 1,
     updatedAt: runAt,
-    countries: [{ code: 'FR', name: 'France', updatedAt: runAt, clusterCount: 1 }],
+    countries: [{ code: 'FR', name: 'France', updatedAt: runAt, clusterCount: 1, ...(activeOutlets !== undefined && { activeOutlets }) }],
     regions: [],
   };
   return encodeBundle({ 'index.json': JSON.stringify(index), 'countries/FR.json': JSON.stringify(fr) });
@@ -62,7 +65,7 @@ describe('archiveFromKv', () => {
     expect(trends.runAt).toBe('2026-10-08T09:00:00.000Z');
     expect(Object.keys(trends.units)).toEqual(['FR']);
     const search = JSON.parse(gunzipSync(values.get('search')!).toString('utf8')) as SearchFile;
-    expect(search.items).toEqual([['FR', 'Budget adopté', 1]]);
+    expect(search.items).toEqual([['FR', 'Budget adopté', 2]]);
     const today = JSON.parse(gunzipSync(values.get('today')!).toString('utf8')) as TodayFile;
     expect(today.top.map((s) => s.title)).toEqual(['Budget adopté']);
 
@@ -70,6 +73,18 @@ describe('archiveFromKv', () => {
     kv.calls.length = 0;
     expect(await archiveFromKv(cfg, { fetchImpl: kv.fetchImpl, log: quiet })).toBe('already-archived');
     expect(kv.calls.filter((c) => c.startsWith('PUT'))).toEqual([]);
+  });
+
+  it('measures Today against the outlets the index says were active, else the configured ones', async () => {
+    const runAt = '2026-10-08T09:00:00.000Z';
+    const today = async (activeOutlets?: number) => {
+      const values = new Map([['bundle', publishedBundle(runAt, activeOutlets)]]);
+      await archiveFromKv(cfg, { fetchImpl: fakeKv(values).fetchImpl, log: quiet });
+      return (JSON.parse(gunzipSync(values.get('today')!).toString('utf8')) as TodayFile).top[0]!;
+    };
+    // France's story is on 2 outlets: of the 2 that published, or of all its configured ones.
+    expect((await today(2)).coverage).toBe(round3(coverage(2, 2)));
+    expect((await today()).coverage).toBe(round3(coverage(2, outletPools().get('FR'))));
   });
 
   it('publishes translations with a translator, remembering them for the next run', async () => {

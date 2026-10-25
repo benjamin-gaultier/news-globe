@@ -1,5 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import type { RawItem } from './adapters/types';
+import { canonicalizeUrl } from './normalize/url';
 import { writeJsonAtomic } from './write';
 
 interface CacheEntry {
@@ -101,6 +102,9 @@ export class HttpCache {
       if (res.status === 304) {
         await res.body?.cancel();
         next.retrievedAt = attemptAt;
+        // Items cached before first-seen times existed get theirs now, or a feed that keeps
+        // answering 304 would date its undated items by every fetch.
+        next.items = stampFirstSeen(next.items, next.items, attemptAt);
         return { outcome: 'not-modified', items: next.items, retrievedAt: attemptAt };
       }
       if (!res.ok) {
@@ -108,9 +112,10 @@ export class HttpCache {
         throw new Error(`HTTP ${res.status}`);
       }
 
-      const items = newest(
-        await parse(decodeBody(new Uint8Array(await res.arrayBuffer()), res.headers.get('content-type'))),
-        MAX_ITEMS_PER_FEED,
+      const items = stampFirstSeen(
+        newest(await parse(decodeBody(new Uint8Array(await res.arrayBuffer()), res.headers.get('content-type'))), MAX_ITEMS_PER_FEED),
+        entry?.items ?? [],
+        attemptAt,
       );
       next.items = items;
       next.retrievedAt = attemptAt;
@@ -134,7 +139,10 @@ export class HttpCache {
  */
 export const MAX_ITEMS_PER_FEED = 200;
 
-/** The `max` most recent items, undated ones (dated later as "now") first, feed order otherwise. */
+/**
+ * The `max` most recent items, undated ones first (their age is unknown until stamped
+ * with `firstSeenAt`, which can date them well before now), feed order otherwise.
+ */
 export function newest(items: RawItem[], max: number): RawItem[] {
   if (items.length <= max) return items;
   const time = (i: RawItem) => (i.publishedAt ? Date.parse(i.publishedAt) || 0 : Infinity);
@@ -143,6 +151,27 @@ export function newest(items: RawItem[], max: number): RawItem[] {
     .sort((a, b) => b.t - a.t || a.index - b.index)
     .slice(0, max)
     .map((x) => x.item);
+}
+
+/**
+ * Sets `firstSeenAt` on the items without a usable date (none, or one after `at`): the
+ * time an earlier fetch first listed the same URL (canonical, so a tracking parameter that
+ * changes per fetch doesn't make it new), or `at` for a new item. An item that
+ * had one keeps it once its date passes (a preview dated at kick-off, a feed whose clock
+ * runs ahead), so it never jumps forward to that date; unless the feed itself moves the
+ * date forward (a live blog, an updated story), which makes it a new version, seen now.
+ */
+export function stampFirstSeen(items: RawItem[], previous: readonly RawItem[], at: string): RawItem[] {
+  const seen = new Map(previous.flatMap((i) => (i.firstSeenAt ? [[canonicalizeUrl(i.url), i] as const] : [])));
+  return items.map((item) => {
+    const dated = item.publishedAt !== null && Date.parse(item.publishedAt) <= Date.parse(at);
+    const before = seen.get(canonicalizeUrl(item.url));
+    // Later than the date it had, or, for an item first listed undated, than when it was first seen.
+    const moved = !!item.publishedAt && !!before && Date.parse(item.publishedAt) > Date.parse(before.publishedAt ?? before.firstSeenAt!);
+    const first = moved ? undefined : before?.firstSeenAt;
+    if (dated) return first ? { ...item, firstSeenAt: first } : item;
+    return { ...item, firstSeenAt: first ?? at };
+  });
 }
 
 /**

@@ -84,3 +84,55 @@ export function dateFromUrl(raw: string): string | null {
   // Reject impossible dates like 2026-02-31, which Date would roll over.
   return new Date(iso).toISOString().startsWith(`${m[1]}-${m[2]}-${m[3]}`) ? iso : null;
 }
+
+/** "Sport" in the languages of the feeds. */
+const SPORT_GENERIC = 'sports?|sporti?|spor|deportes?|esportes?|desportos?';
+
+/** Words that name a sports section, in the languages of the feeds: "sport" or a single sport. */
+const SPORT_WORD = `${SPORT_GENERIC}|futbol|fútbol|football|soccer|calcio|fussball|fußball|fotbal|cricket|tennis|basketball|baseball|béisbol|beisbol`;
+
+/**
+ * A URL directory that is a sports section: `/sport/`, `/deportes/`, `/sports/badminton/`
+ * anywhere in the path, or as its first directory a sports word with one more word
+ * (`/futbol-xeberleri/`). Not further down or longer: some outlets put the headline's slug
+ * in a directory (Times of India's `/india/<slug>/articleshow/…`), and
+ * "cricket-scandal" or "sports-minister-resigns" is national news.
+ */
+const SPORT_SECTION = new RegExp(`^(?:${SPORT_WORD})$`, 'i');
+const SPORT_SECTION_FIRST = new RegExp(`^(?:${SPORT_WORD})-[^-]+$`, 'i');
+
+/**
+ * A feed category that is a sports section: "sport" alone, or with "news" ("Sport News").
+ * Stricter than a URL directory, as WordPress feeds list tags here too, with nothing to
+ * tell them from sections: a political story can be tagged "Football" or "Sports Ministry".
+ */
+const SPORT_CATEGORY = new RegExp(`^(?:${SPORT_GENERIC})(?:\\s+news)?$`, 'i');
+
+/**
+ * True when one of a feed item's own categories is a sports section ("Sports", "Sport News",
+ * "Deportes"): how whole-site WordPress feeds (Punch, APS, Le Soleil) mark them, with no
+ * section in the URL.
+ */
+export function isSportCategory(categories: readonly string[] | undefined): boolean {
+  return !!categories?.some((c) => SPORT_CATEGORY.test(c.trim()));
+}
+
+/**
+ * True when an article URL sits in a sports section: a directory of its path (not the
+ * final slug, which can be any headline) is a sports section name. Whole-site feeds,
+ * which many outlets' top feeds are, carry sports stories; they are dropped from top
+ * files, and reach a sport file only when the outlet also has a sport feed.
+ */
+export function isSportUrl(raw: string): boolean {
+  let path: string;
+  try {
+    path = decodeURIComponent(new URL(raw).pathname);
+  } catch {
+    return false;
+  }
+  return path
+    .split('/')
+    .filter(Boolean)
+    .slice(0, -1)
+    .some((segment, i) => SPORT_SECTION.test(segment) || (i === 0 && SPORT_SECTION_FIRST.test(segment)));
+}

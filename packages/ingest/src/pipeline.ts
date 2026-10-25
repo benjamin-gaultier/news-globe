@@ -17,7 +17,7 @@ import {
   type StoryCluster,
   type RegionMeta,
 } from '@news-globe/shared';
-import { adapterFor } from './adapters';
+import { adapterFor, type RawItem } from './adapters';
 import { clusterArticles } from './cluster';
 import { HttpCache } from './http';
 import { mapLimit } from './limit';
@@ -30,8 +30,9 @@ import {
   isUnrenderedTemplate,
   toArticle,
 } from './normalize/article';
+import { canonicalizeUrl, isSportCategory, isSportUrl } from './normalize/url';
 import { buildCluster, rankClusters } from './rank';
-import { FETCHED_CATEGORIES, feedUrlsOf, INGEST_SETTINGS, outletPools, SOURCES, type SourceConfig } from './sources.config';
+import { activePools, FETCHED_CATEGORIES, feedUrlsOf, INGEST_SETTINGS, outletPools, SOURCES, type SourceConfig } from './sources.config';
 import { buildWorld } from './world';
 import { writeJsonAtomic } from './write';
 
@@ -70,7 +71,7 @@ type Unit = { code: string; name: string; category: Category; file: string } & (
 );
 
 /** The index line for one file, with its top story so the globe can show it without opening the file. */
-export function indexEntry(code: string, name: string, updatedAt: string, clusters: StoryCluster[]): IndexEntry {
+export function indexEntry(code: string, name: string, updatedAt: string, clusters: StoryCluster[], activeOutlets?: number): IndexEntry {
   const top = clusters[0];
   return {
     code,
@@ -78,6 +79,7 @@ export function indexEntry(code: string, name: string, updatedAt: string, cluste
     updatedAt,
     clusterCount: clusters.length,
     ...(top && { topTitle: top.representative.title, topOutlets: top.outletCount24h }),
+    ...(activeOutlets !== undefined && { activeOutlets }),
   };
 }
 
@@ -123,6 +125,34 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   const authority = new Map(sources.map((s) => [s.id, s.authority]));
   const authorityOf = (id: string) => authority.get(id) ?? 0;
 
+  // Sports stories stay out of top files: many top feeds are whole-site feeds, and a match would
+  // otherwise rank as national news (and link countries in the world briefing). A story is sport
+  // when its URL is in a sports section, the feed files it under a sports category, or the outlet's
+  // own sport feed lists it.
+  const inSportFeed = new Set(
+    perSource.flatMap(({ source, results }) =>
+      results.filter((r) => r.category === 'sport').flatMap((r) => r.items.map((i) => `${source.id}\n${canonicalizeUrl(i.url)}`)),
+    ),
+  );
+  const isSport = (item: RawItem, a: Article) =>
+    isSportUrl(a.url) || isSportCategory(item.categories) || inSportFeed.has(`${a.source.id}\n${a.canonicalUrl}`);
+  let sportDropped = 0;
+
+  // Each feed's cache entry stamps first-seen times on its own, so an undated item a second feed
+  // starts listing today would look new there; every copy takes the earliest time any feed saw it
+  // (with the same date: a feed that moved the date forward has a new version).
+  const firstSeenKey = (i: RawItem) => `${canonicalizeUrl(i.url)}\n${i.publishedAt}`;
+  const firstSeen = new Map<string, string>();
+  for (const { results } of perSource)
+    for (const { items } of results)
+      for (const i of items) {
+        const { firstSeenAt } = i;
+        if (!firstSeenAt) continue;
+        const key = firstSeenKey(i);
+        const known = firstSeen.get(key);
+        if (!known || Date.parse(firstSeenAt) < Date.parse(known)) firstSeen.set(key, firstSeenAt);
+      }
+
   // A feed's articles go to its category's file: regional outlets' to their region's, national ones' to their country's.
   const byFile = new Map<string, Article[]>();
   for (const { source, results } of perSource) {
@@ -130,14 +160,20 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
       const key = fileStem(source.region ?? source.country, category);
       const list = byFile.get(key) ?? [];
       for (const item of items) {
-        const article = toArticle(item, source, retrievedAt, now);
+        const seenAt = firstSeen.get(firstSeenKey(item));
+        const article = toArticle(seenAt ? { ...item, firstSeenAt: seenAt } : item, source, retrievedAt, now);
         if (Date.parse(article.publishedAt) < minTime) continue;
         if (isMisdecoded(article.title) || isUnrenderedTemplate(article.title) || isNotNews(article.title)) continue;
+        if (category === 'top' && isSport(item, article)) {
+          sportDropped++;
+          continue;
+        }
         list.push(article);
       }
       byFile.set(key, list);
     }
   }
+  if (sportDropped) log(`top files: ${sportDropped} sports stories dropped (kept only where the outlet has a sport feed)`);
 
   // One file per unit and category its outlets have feeds in. A source counts toward a category only
   // through its feeds in it: a sports daily makes (or keeps) no top file, and a unit with no business
@@ -157,6 +193,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   }
 
   const updatedAt = new Date(now).toISOString();
+  const windowStart = now - settings.rankingWindowHours * 3_600_000;
   const summary: IngestSummary = { countries: [], regions: [] };
   const index: Pick<IndexFile, 'countries' | 'regions'> = { countries: [], regions: [] };
   // National top files wait for cross-border linking, which adds `alsoIn` to their clusters.
@@ -164,10 +201,12 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   // Unit code → the categories it has a file in after this run.
   const filed = new Map<string, Set<Category>>();
   // The index lists top files; a section file only adds its category to its unit's entry.
-  const addToIndex = (unit: Unit, at: string, clusters: StoryCluster[]) => {
+  const addToIndex = (unit: Unit, at: string, clusters: StoryCluster[], activeOutlets?: number) => {
     filed.set(unit.code, (filed.get(unit.code) ?? new Set()).add(unit.category));
     if (unit.category !== 'top') return;
-    (unit.kind === 'country' ? index.countries : index.regions!).push(indexEntry(unit.code, unit.name, at, clusters));
+    // Only countries are compared by coverage, so only their entries carry the pool.
+    if (unit.kind === 'country') index.countries.push(indexEntry(unit.code, unit.name, at, clusters, activeOutlets));
+    else index.regions!.push(indexEntry(unit.code, unit.name, at, clusters));
   };
 
   for (const unit of units) {
@@ -217,7 +256,12 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
           };
     if (unit.kind === 'country' && category === 'top') nationalFiles.push({ file, out });
     else await writeJsonAtomic(file, out);
-    addToIndex(unit, updatedAt, clusters);
+    addToIndex(
+      unit,
+      updatedAt,
+      clusters,
+      new Set(articles.filter((a) => Date.parse(a.publishedAt) >= windowStart).map((a) => a.source.id)).size,
+    );
     summaryList.push({ code, category, articles: articles.length, clusters: clusters.length, written: true });
 
     const multi = groups.filter((g) => new Set(g.map((a) => a.source.id)).size > 1).length;
@@ -233,7 +277,7 @@ export async function runIngest(opts: IngestOptions = {}): Promise<IngestSummary
   const world = buildWorld(
     nationalFiles.map(({ out }) => ({ code: out.countryCode, clusters: out.clusters })),
     undefined,
-    outletPools(sources),
+    activePools(index.countries, outletPools(sources)),
   );
   for (const { file, out } of nationalFiles) await writeJsonAtomic(file, out);
   log(`world: ${world.length} cross-border stories${world[0] ? `, top in ${world[0].countries.length} countries` : ''}`);

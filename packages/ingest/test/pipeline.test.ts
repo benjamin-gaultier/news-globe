@@ -109,7 +109,7 @@ describe('runIngest', () => {
     expect(index.schemaVersion).toBe(SCHEMA_VERSION);
     expect(index.updatedAt).toBe(new Date(NOW).toISOString());
     expect(index.countries).toEqual([
-      { code: 'FR', name: 'France', updatedAt: index.updatedAt, clusterCount: 3, topTitle: STORY, topOutlets: 2 },
+      { code: 'FR', name: 'France', updatedAt: index.updatedAt, clusterCount: 3, topTitle: STORY, topOutlets: 2, activeOutlets: 2 },
       expect.objectContaining({ code: 'US', clusterCount: 1 }),
     ]);
     expect(index.regions).toEqual([]);
@@ -217,19 +217,53 @@ describe('runIngest', () => {
     expect(index.regions).toEqual([]);
   });
 
-  it('dates undated items by their retrieval and never into the future', async () => {
+  it('dates undated and future-dated items by when they were first seen, and never into the future', async () => {
     const lemonde = source('lemonde', 'FR');
     const retrievedAt = hoursAgo(2);
     await seedCache(
       {
         [lemonde.feeds.top![0]!]: [
           item('lemonde', 'undated', 'Le Conseil constitutionnel valide la loi sur l’immigration', null),
+          {
+            ...item('lemonde', 'evergreen', 'Les chiffres clés du budget de l’État expliqués', null),
+            firstSeenAt: hoursAgo(30),
+          },
           item(
             'lemonde',
             'future',
             'Les agriculteurs manifestent à nouveau devant les préfectures',
             new Date(NOW + 3_600_000).toISOString(),
           ),
+          // Dated ahead by a feed whose URLs carry tomorrow's local date: first seen wins over the URL's.
+          {
+            ...item(
+              'lemonde',
+              '2026/10/09/ahead',
+              'Le Sénat rejette la réforme des retraites en commission',
+              new Date(NOW + 5 * 3_600_000).toISOString(),
+            ),
+            firstSeenAt: hoursAgo(5),
+          },
+          // Its URL carries the day it was first seen, at 21:00 UTC: the URL's midday is less precise.
+          {
+            ...item(
+              'lemonde',
+              '2026/10/07/evening',
+              'Le gouvernement présente son plan pour le logement',
+              new Date(NOW + 2 * 3_600_000).toISOString(),
+            ),
+            firstSeenAt: hoursAgo(15),
+          },
+          // West of UTC, a 22:00 story carries its local day and is first seen at 03:00 UTC the next.
+          {
+            ...item('lemonde', '2026/10/07/west', 'Le Parlement adopte le budget de la Sécurité sociale', null),
+            firstSeenAt: hoursAgo(9),
+          },
+          // A preview first seen 10 hours ago, dated at a kick-off that has since passed.
+          {
+            ...item('lemonde', 'kickoff', 'Le XV de France dévoile sa composition pour le Tournoi', hoursAgo(1)),
+            firstSeenAt: hoursAgo(10),
+          },
         ],
       },
       retrievedAt,
@@ -239,7 +273,98 @@ describe('runIngest', () => {
 
     const fr = await readJson<CountryFile>('countries', 'FR.json');
     const published = Object.fromEntries(fr.clusters.map((c) => [c.representative.url.split('/').pop(), c.representative.publishedAt]));
-    expect(published).toEqual({ undated: retrievedAt, future: new Date(NOW).toISOString() });
+    // The evergreen item, listed by every fetch for 30 hours, ranks by that age rather than as new.
+    expect(published).toEqual({
+      undated: retrievedAt,
+      evergreen: hoursAgo(30),
+      future: retrievedAt,
+      ahead: hoursAgo(5),
+      evening: hoursAgo(15),
+      west: hoursAgo(9),
+      kickoff: hoursAgo(10),
+    });
+  });
+
+  it('dates an undated item by the earliest time any feed listed it', async () => {
+    const lemonde = source('lemonde', 'FR', {
+      feeds: { top: ['https://lemonde.example/une/rss', 'https://lemonde.example/politique/rss'] },
+    });
+    const evergreen = item('lemonde', 'evergreen', 'Les chiffres clés du budget de l’État expliqués', null);
+    // A preview dated at a kick-off an hour ago, first seen 10 hours ago by one feed.
+    const preview = item('lemonde', 'preview', 'Le XV de France dévoile sa composition pour le Tournoi', hoursAgo(1));
+    await seedCache({
+      'https://lemonde.example/une/rss': [
+        { ...evergreen, firstSeenAt: hoursAgo(30) },
+        { ...preview, firstSeenAt: hoursAgo(10) },
+      ],
+      // The second feed only started listing them this hour: the evergreen item is stamped
+      // now, and the preview, already past its date, not at all.
+      'https://lemonde.example/politique/rss': [{ ...evergreen, firstSeenAt: hoursAgo(1) }, preview],
+    });
+
+    await ingest([lemonde]);
+
+    const fr = await readJson<CountryFile>('countries', 'FR.json');
+    const published = Object.fromEntries(fr.clusters.map((c) => [c.representative.url.split('/').pop(), c.representative.publishedAt]));
+    expect(published).toEqual({ evergreen: hoursAgo(30), preview: hoursAgo(10) });
+  });
+
+  it('leaves sports stories out of top files: in a sports section, filed under a sports category, or in the outlet’s sport feed', async () => {
+    const lemonde = source('lemonde', 'FR', {
+      feeds: { top: ['https://lemonde.example/rss'], sport: ['https://lemonde.example/sport/rss'] },
+    });
+    const aps = source('aps', 'FR');
+    const punch = source('punch', 'FR');
+    const match = 'Premier League : Nicolas Jackson signe un doublé face à Manchester City';
+    await seedCache({
+      'https://lemonde.example/rss': [item('lemonde', 'budget', STORY, hoursAgo(2)), item('lemonde', 'jackson', match, hoursAgo(1))],
+      'https://lemonde.example/sport/rss': [item('lemonde', 'jackson', match, hoursAgo(1))],
+      [aps.feeds.top![0]!]: [
+        item('aps', 'sports/football/jackson', `${match} à Birmingham`, hoursAgo(1)),
+        item('aps', 'budget', `${STORY} ce mercredi`, hoursAgo(1)),
+      ],
+      [punch.feeds.top![0]!]: [
+        { ...item('punch', 'jackson-brace', `${match} : le doublé`, hoursAgo(1)), categories: ['Sports', 'Aston Villa'] },
+        { ...item('punch', 'budget', `${STORY} jeudi`, hoursAgo(1)), categories: ['News'] },
+      ],
+    });
+
+    const { log } = await ingest([lemonde, aps, punch]);
+
+    const top = await readJson<CountryFile>('countries', 'FR.json');
+    expect(top.clusters.map((c) => [c.representative.title, c.outletCount])).toEqual([[STORY, 3]]);
+    const sport = await readJson<CountryFile>('countries', 'FR.sport.json');
+    expect(sport.clusters.map((c) => c.representative.title)).toEqual([match]);
+    expect(log).toContain('top files: 3 sports stories dropped');
+  });
+
+  it('counts as active only the outlets with a story in the last 24 hours', async () => {
+    const lemonde = source('lemonde', 'FR');
+    const figaro = source('figaro', 'FR');
+    const stale = source('stale', 'FR');
+    await seedCache({
+      [lemonde.feeds.top![0]!]: [item('lemonde', 'budget', STORY, hoursAgo(2))],
+      [figaro.feeds.top![0]!]: [item('figaro', 'budget', `${STORY} ce mercredi`, hoursAgo(1))],
+      // A feed that still answers but stopped updating a day and a half ago.
+      [stale.feeds.top![0]!]: [item('stale', 'greve', 'Grève à la SNCF : le trafic sera très perturbé jeudi', hoursAgo(36))],
+    });
+
+    await ingest([lemonde, figaro, stale]);
+
+    const index = await readJson<IndexFile>('index.json');
+    expect(index.countries).toEqual([expect.objectContaining({ code: 'FR', activeOutlets: 2 })]);
+  });
+
+  it('counts no active outlets when a country has stories only from 24 to 48 hours ago', async () => {
+    const stale = source('stale', 'FR');
+    await seedCache({
+      [stale.feeds.top![0]!]: [item('stale', 'greve', 'Grève à la SNCF : le trafic sera très perturbé jeudi', hoursAgo(36))],
+    });
+
+    await ingest([stale]);
+
+    const index = await readJson<IndexFile>('index.json');
+    expect(index.countries).toEqual([expect.objectContaining({ code: 'FR', activeOutlets: 0 })]);
   });
 
   it('writes each category to a file of its own, and none for a category without feeds', async () => {

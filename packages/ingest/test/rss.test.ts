@@ -41,6 +41,23 @@ describe('parseFeed', () => {
   });
 });
 
+describe('parseFeed: categories', () => {
+  it('keeps a WordPress item’s categories, with or without a domain attribute', async () => {
+    const feed = `<?xml version="1.0"?><rss version="2.0"><channel><title>Punch</title>
+      <item>
+        <title>EPL: Jackson brace ends Man City’s winning run as Villa triumph</title>
+        <link>https://punchng.com/epl-jackson-brace-ends-man-citys-winning-run/</link>
+        <category><![CDATA[Sports]]></category>
+        <category domain="post_tag">Aston Villa</category>
+      </item>
+      <item><title>Senate passes the budget</title><link>https://punchng.com/senate-passes-the-budget/</link></item>
+    </channel></rss>`;
+    const items = await parseFeed(feed, 'https://punchng.com/feed/');
+    expect(items[0]!.categories).toEqual(['Sports', 'Aston Villa']);
+    expect(items[1]).not.toHaveProperty('categories');
+  });
+});
+
 describe('parseFeed: malformed feeds', () => {
   const item = (extra = '') => `<item><title>Titre &amp; sous-titre</title><link>https://www.example.ma/a</link>
     <pubDate>Tue, 06 Oct 2026 06:30:00 GMT</pubDate>${extra}

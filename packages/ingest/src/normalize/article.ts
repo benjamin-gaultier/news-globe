@@ -4,16 +4,30 @@ import type { SourceConfig } from '../sources.config';
 import { decodeEntities } from './text';
 import { articleId, canonicalizeUrl, dateFromUrl } from './url';
 
+/** Days since the epoch, in UTC. */
+const utcDay = (t: number) => Math.floor(t / 86_400_000);
+
 /**
- * Turn a raw feed item into an Article. Items without a date take the date in
- * their URL if there is one (e.g. Sky TG24), else the time the feed was
- * retrieved; dates in the future are clamped to `now`. Titles and descriptions are
- * decoded again for feeds that escape them twice (Thanh Niên's "&aacute;"), which also fixes
- * items cached before the decoder knew those entities.
+ * Turn a raw feed item into an Article. Items without a date take when the HTTP
+ * cache first saw them (`firstSeenAt`), or the date in their URL (e.g. Sky TG24)
+ * when that is two or more UTC days earlier: the URL gives only the outlet's local
+ * day, read as midday UTC, so closer than that (an evening story west of UTC is
+ * first seen the next UTC day) first-seen is the more precise. Without either, they take
+ * the time the feed was retrieved. A date in the future (a match dated at
+ * kick-off) is replaced the same way, and never moves past `firstSeenAt` once
+ * that time comes: a preview first seen at 10:00 and dated at a 20:00 kick-off
+ * stays at 10:00. No date passes `now`. Titles and descriptions are decoded
+ * again for feeds that escape them twice (Thanh Niên's "&aacute;"), which also
+ * fixes items cached before the decoder knew those entities.
  */
 export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: string, now: number): Article {
   const canonicalUrl = canonicalizeUrl(item.url);
-  const published = Math.min(Date.parse(item.publishedAt ?? dateFromUrl(item.url) ?? retrievedAt), now);
+  const given = item.publishedAt ? Date.parse(item.publishedAt) : NaN;
+  const seen = item.firstSeenAt ? Date.parse(item.firstSeenAt) : NaN;
+  const fromUrl = Date.parse(dateFromUrl(item.url) ?? '');
+  const urlFirst = !Number.isNaN(fromUrl) && (Number.isNaN(seen) || utcDay(seen) - utcDay(fromUrl) >= 2);
+  const fallback = urlFirst ? fromUrl : Number.isNaN(seen) ? Date.parse(retrievedAt) : seen;
+  const published = Math.min(given <= now ? Math.min(given, Number.isNaN(seen) ? given : seen) : fallback, now);
   return {
     id: articleId(canonicalUrl),
     url: item.url,

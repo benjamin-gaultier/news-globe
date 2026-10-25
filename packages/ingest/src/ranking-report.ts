@@ -12,7 +12,7 @@ import {
 } from '@news-globe/shared';
 import { nationalStories, pickTop, type PublishedUnit } from './derived';
 import { coverage, round3 } from './rank';
-import { outletPools } from './sources.config';
+import { activePools, outletPools } from './sources.config';
 
 /**
  * `pnpm --filter @news-globe/ingest ranking:report [--site URL | --dir DIR] [--prior 0.5,1,2]`: how
@@ -145,12 +145,19 @@ function lineList(label: string, lines: Line[], pools: ReadonlyMap<string, numbe
  * The report for one run's national files and cross-border stories, in Markdown: the world briefing's
  * top stories ranked by raw outlets (before) and by coverage (after).
  */
-export function rankingReport(units: PublishedUnit[], world: WorldStory[], pools: ReadonlyMap<string, number>, runAt: string): string {
-  const all = nationalStories({ schemaVersion: SCHEMA_VERSION, runAt, runs: [runAt], units: {}, change: {} }, units, pools);
+export function rankingReport(
+  units: PublishedUnit[],
+  world: WorldStory[],
+  pools: ReadonlyMap<string, number>,
+  runAt: string,
+  /** The outlets stories are measured against (`activePools`); the configured `pools` by default. */
+  active: ReadonlyMap<string, number> = pools,
+): string {
+  const all = nationalStories({ schemaVersion: SCHEMA_VERSION, runAt, runs: [runAt], units: {}, change: {} }, units, active);
   // An index from before coverage: give its cross-border stories theirs.
   const worldNow = world.map((w) => ({
     ...w,
-    countries: w.countries.map((c) => ({ ...c, coverage: c.coverage ?? coverage(c.outletCount24h, pools.get(c.code)) })),
+    countries: w.countries.map((c) => ({ ...c, coverage: c.coverage ?? coverage(c.outletCount24h, active.get(c.code)) })),
   }));
   const before = { today: pickTop(all, byOutlets), lines: [] as Line[] };
   before.lines = briefing(before.today, worldNow, 'outlets');
@@ -229,8 +236,10 @@ export function priorSweep(
   pools: ReadonlyMap<string, number>,
   runAt: string,
   priors: number[],
+  /** The outlets stories are measured against (`activePools`); the configured `pools` by default. */
+  active: ReadonlyMap<string, number> = pools,
 ): string {
-  const base = nationalStories({ schemaVersion: SCHEMA_VERSION, runAt, runs: [runAt], units: {}, change: {} }, units, pools);
+  const base = nationalStories({ schemaVersion: SCHEMA_VERSION, runAt, runs: [runAt], units: {}, change: {} }, units, active);
   const countries = [...new Set(base.map((s) => s.unit))];
   if (!countries.length) throw new Error('no national stories in the run');
   const feeds = countries.map((c) => pools.get(c) ?? 0);
@@ -254,10 +263,10 @@ export function priorSweep(
   const today = pickTop(base, byOutlets);
   rows.push(row('raw outlets (before)', today, briefing(today, world, 'outlets'), bestOf(base, 'outlets')));
   for (const prior of priors) {
-    const all = base.map((s) => ({ ...s, coverage: round3(coverage(s.outlets, pools.get(s.unit), prior)) }));
+    const all = base.map((s) => ({ ...s, coverage: round3(coverage(s.outlets, active.get(s.unit), prior)) }));
     const worldAt = world.map((w) => ({
       ...w,
-      countries: w.countries.map((c) => ({ ...c, coverage: round3(coverage(c.outletCount24h, pools.get(c.code), prior)) })),
+      countries: w.countries.map((c) => ({ ...c, coverage: round3(coverage(c.outletCount24h, active.get(c.code), prior)) })),
     }));
     const top = pickTop(all);
     rows.push(row(`coverage, prior ${prior}`, top, briefing(top, worldAt, 'coverage'), bestOf(all, 'coverage')));
@@ -266,7 +275,10 @@ export function priorSweep(
 }
 
 /** A published run: the live site's /data/ or a local data directory. */
-async function loadRun(from: { site?: string; dir?: string }): Promise<{ units: PublishedUnit[]; world: WorldStory[]; runAt: string }> {
+async function loadRun(from: {
+  site?: string;
+  dir?: string;
+}): Promise<{ units: PublishedUnit[]; world: WorldStory[]; runAt: string; active: Map<string, number> }> {
   // Only a missing file is skipped: an unreadable or malformed one stops the report rather than quietly leaving a country out.
   const get = async <T>(path: string): Promise<T | null> => {
     if (from.dir) {
@@ -298,7 +310,7 @@ async function loadRun(from: { site?: string; dir?: string }): Promise<{ units: 
   }
   if (missing.length)
     console.error(`[ranking:report] no file for ${missing.length} countries in the index, left out: ${missing.join(' ')}`);
-  return { units, world: index.world ?? [], runAt: index.updatedAt };
+  return { units, world: index.world ?? [], runAt: index.updatedAt, active: activePools(index.countries) };
 }
 
 // `pnpm --filter @news-globe/ingest ranking:report [--site URL | --dir DIR] [--prior 0.5,1,2]`
@@ -310,7 +322,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   const dir = arg('--dir');
   const site = (arg('--site') ?? process.env.SITE_URL ?? 'https://news-globe.maze-td.workers.dev').replace(/\/+$/, '');
   loadRun(dir ? { dir } : { site })
-    .then(({ units, world, runAt }) => {
+    .then(({ units, world, runAt, active }) => {
       const pools = outletPools();
       const priors = arg('--prior')
         ?.split(',')
@@ -319,7 +331,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
           if (p.trim() === '' || !Number.isFinite(n) || n < 0) throw new Error(`--prior: not a number ≥ 0: "${p}"`);
           return n;
         });
-      console.log(priors ? priorSweep(units, world, pools, runAt, priors) : rankingReport(units, world, pools, runAt));
+      console.log(priors ? priorSweep(units, world, pools, runAt, priors, active) : rankingReport(units, world, pools, runAt, active));
     })
     .catch((err) => {
       console.error('[ranking:report] failed:', err instanceof Error ? err.message : err);

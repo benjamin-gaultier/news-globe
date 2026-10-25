@@ -13,7 +13,7 @@ const item = (title: string): RawItem => ({
   title,
   url: `https://x.example/${title}`,
   description: null,
-  publishedAt: null,
+  publishedAt: '2026-10-06T08:00:00.000Z',
   imageUrl: null,
 });
 
@@ -139,6 +139,119 @@ describe('HttpCache', () => {
       items: [],
     });
     expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('first-seen times', () => {
+  it('date undated and future-dated items by the fetch that first listed them, across refetches', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const cache = await makeCache(fetchImpl);
+    const undated = { ...item('evergreen'), publishedAt: null };
+    const kickoff = { ...item('match'), publishedAt: '2026-10-07T20:00:00.000Z' };
+    const first = await cache.getItems(URL_A, async () => [undated, kickoff, item('dated')]);
+    const firstAt = new Date(now).toISOString();
+    expect(first.items).toEqual([{ ...undated, firstSeenAt: firstAt }, { ...kickoff, firstSeenAt: firstAt }, item('dated')]);
+
+    // A day later the feed still lists the evergreen item, next to a new undated one.
+    now += 24 * 60 * MIN;
+    const later = await cache.getItems(URL_A, async () => [undated, { ...item('new'), publishedAt: null }]);
+    expect(later.items.map((i) => [i.title, i.firstSeenAt])).toEqual([
+      ['evergreen', firstAt],
+      ['new', new Date(now).toISOString()],
+    ]);
+  });
+});
+
+describe('first-seen times with tracking parameters', () => {
+  it('match an item whose tracking parameter changes on every fetch', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const cache = await makeCache(fetchImpl);
+    const undated = (campaign: string) => ({
+      ...item('evergreen'),
+      url: `https://x.example/evergreen?utm_campaign=${campaign}`,
+      publishedAt: null,
+    });
+    const firstAt = new Date(now).toISOString();
+    await cache.getItems(URL_A, async () => [undated('mon')]);
+
+    now += 24 * 60 * MIN;
+    const later = await cache.getItems(URL_A, async () => [undated('tue')]);
+    expect(later.items).toEqual([{ ...undated('tue'), firstSeenAt: firstAt }]);
+  });
+});
+
+describe('first-seen times after a date passes', () => {
+  it('keeps the first-seen time of an item dated ahead when a 200 refetch comes after its date', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const cache = await makeCache(fetchImpl);
+    const preview = { ...item('preview'), publishedAt: '2026-10-06T20:00:00.000Z' };
+    const firstAt = new Date(now).toISOString();
+    await cache.getItems(URL_A, async () => [preview]);
+
+    // 21:00: the kick-off has passed and the feed answers 200 with the same item.
+    now = Date.parse('2026-10-06T21:00:00Z');
+    const later = await cache.getItems(URL_A, async () => [preview]);
+    expect(later.items).toEqual([{ ...preview, firstSeenAt: firstAt }]);
+  });
+});
+
+describe('first-seen times when the feed moves a date forward', () => {
+  it('starts again from the fetch that saw the new date', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const cache = await makeCache(fetchImpl);
+    // A live blog from a feed whose clock runs 3 hours ahead.
+    const live = (publishedAt: string) => ({ ...item('live'), publishedAt });
+    await cache.getItems(URL_A, async () => [live('2026-10-06T13:00:00.000Z')]);
+
+    // Two days later the feed re-dates it, again ahead of the fetch.
+    now = Date.parse('2026-10-08T10:00:00Z');
+    const updated = await cache.getItems(URL_A, async () => [live('2026-10-08T13:00:00.000Z')]);
+    expect(updated.items).toEqual([{ ...live('2026-10-08T13:00:00.000Z'), firstSeenAt: '2026-10-08T10:00:00.000Z' }]);
+
+    // Later, re-dated to a time already past: the date stands.
+    now = Date.parse('2026-10-09T10:00:00Z');
+    const past = await cache.getItems(URL_A, async () => [live('2026-10-09T09:00:00.000Z')]);
+    expect(past.items).toEqual([live('2026-10-09T09:00:00.000Z')]);
+  });
+});
+
+describe('first-seen times when the feed dates an undated item', () => {
+  it('lets a date later than the first-seen time stand, and an earlier one keeps it', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const cache = await makeCache(fetchImpl);
+    const page = (url: string, publishedAt: string | null) => ({ ...item(url), publishedAt });
+    await cache.getItems(URL_A, async () => [page('rolling', null), page('old', null)]);
+
+    now += 30 * 60 * MIN;
+    const dated = await cache.getItems(URL_A, async () => [
+      page('rolling', new Date(now - 60 * MIN).toISOString()),
+      page('old', '2026-10-01T08:00:00.000Z'),
+    ]);
+    expect(dated.items).toEqual([
+      page('rolling', new Date(now - 60 * MIN).toISOString()),
+      { ...page('old', '2026-10-01T08:00:00.000Z'), firstSeenAt: '2026-10-06T10:00:00.000Z' },
+    ]);
+  });
+});
+
+describe('first-seen times on 304', () => {
+  it('stamps undated items cached before first-seen times existed, once', async () => {
+    const fetchImpl = vi
+      .fn<typeof fetch>()
+      .mockResolvedValueOnce(new Response('<rss/>', { status: 200, headers: { ETag: '"v1"' } }))
+      .mockResolvedValue(new Response(null, { status: 304 }));
+    const cache = await makeCache(fetchImpl);
+    const undated = { ...item('evergreen'), publishedAt: null };
+    await cache.getItems(URL_A, async () => [undated]);
+    // As an older ingest would have cached it: no first-seen time.
+    delete (await cache.getItems(URL_A, async () => [])).items[0]!.firstSeenAt;
+
+    now += 16 * MIN;
+    const stampedAt = new Date(now).toISOString();
+    expect((await cache.getItems(URL_A, async () => [])).items).toEqual([{ ...undated, firstSeenAt: stampedAt }]);
+
+    now += 16 * MIN;
+    expect((await cache.getItems(URL_A, async () => [])).items).toEqual([{ ...undated, firstSeenAt: stampedAt }]);
   });
 });
 
