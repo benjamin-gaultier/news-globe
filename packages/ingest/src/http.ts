@@ -166,7 +166,8 @@ export function stampFirstSeen(items: RawItem[], previous: readonly RawItem[], a
   return items.map((item) => {
     const dated = item.publishedAt !== null && Date.parse(item.publishedAt) <= Date.parse(at);
     const before = seen.get(canonicalizeUrl(item.url));
-    const moved = !!item.publishedAt && !!before?.publishedAt && Date.parse(item.publishedAt) > Date.parse(before.publishedAt);
+    // Later than the date it had, or, for an item first listed undated, than when it was first seen.
+    const moved = !!item.publishedAt && !!before && Date.parse(item.publishedAt) > Date.parse(before.publishedAt ?? before.firstSeenAt!);
     const first = moved ? undefined : before?.firstSeenAt;
     if (dated) return first ? { ...item, firstSeenAt: first } : item;
     return { ...item, firstSeenAt: first ?? at };

@@ -215,6 +215,25 @@ describe('first-seen times when the feed moves a date forward', () => {
   });
 });
 
+describe('first-seen times when the feed dates an undated item', () => {
+  it('lets a date later than the first-seen time stand, and an earlier one keeps it', async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => new Response('<rss/>', { status: 200 }));
+    const cache = await makeCache(fetchImpl);
+    const page = (url: string, publishedAt: string | null) => ({ ...item(url), publishedAt });
+    await cache.getItems(URL_A, async () => [page('rolling', null), page('old', null)]);
+
+    now += 30 * 60 * MIN;
+    const dated = await cache.getItems(URL_A, async () => [
+      page('rolling', new Date(now - 60 * MIN).toISOString()),
+      page('old', '2026-10-01T08:00:00.000Z'),
+    ]);
+    expect(dated.items).toEqual([
+      page('rolling', new Date(now - 60 * MIN).toISOString()),
+      { ...page('old', '2026-10-01T08:00:00.000Z'), firstSeenAt: '2026-10-06T10:00:00.000Z' },
+    ]);
+  });
+});
+
 describe('first-seen times on 304', () => {
   it('stamps undated items cached before first-seen times existed, once', async () => {
     const fetchImpl = vi
