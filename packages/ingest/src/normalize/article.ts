@@ -10,8 +10,9 @@ const utcDay = (t: number) => Math.floor(t / 86_400_000);
 /**
  * Turn a raw feed item into an Article. Items without a date take when the HTTP
  * cache first saw them (`firstSeenAt`), or the date in their URL (e.g. Sky TG24)
- * when that is an earlier day: the URL gives only the day, read as midday UTC,
- * so on the same day first-seen is the more precise. Without either, they take
+ * when that is two or more UTC days earlier: the URL gives only the outlet's local
+ * day, read as midday UTC, so closer than that (an evening story west of UTC is
+ * first seen the next UTC day) first-seen is the more precise. Without either, they take
  * the time the feed was retrieved. A date in the future (a match dated at
  * kick-off) is replaced the same way, and never moves past `firstSeenAt` once
  * that time comes: a preview first seen at 10:00 and dated at a 20:00 kick-off
@@ -24,7 +25,7 @@ export function toArticle(item: RawItem, source: SourceConfig, retrievedAt: stri
   const given = item.publishedAt ? Date.parse(item.publishedAt) : NaN;
   const seen = item.firstSeenAt ? Date.parse(item.firstSeenAt) : NaN;
   const fromUrl = Date.parse(dateFromUrl(item.url) ?? '');
-  const urlFirst = !Number.isNaN(fromUrl) && (Number.isNaN(seen) || utcDay(fromUrl) < utcDay(seen));
+  const urlFirst = !Number.isNaN(fromUrl) && (Number.isNaN(seen) || utcDay(seen) - utcDay(fromUrl) >= 2);
   const fallback = urlFirst ? fromUrl : Number.isNaN(seen) ? Date.parse(retrievedAt) : seen;
   const published = Math.min(given <= now ? Math.min(given, Number.isNaN(seen) ? given : seen) : fallback, now);
   return {

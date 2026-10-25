@@ -254,6 +254,11 @@ describe('runIngest', () => {
             ),
             firstSeenAt: hoursAgo(15),
           },
+          // West of UTC, a 22:00 story carries its local day and is first seen at 03:00 UTC the next.
+          {
+            ...item('lemonde', '2026/10/07/west', 'Le Parlement adopte le budget de la Sécurité sociale', null),
+            firstSeenAt: hoursAgo(9),
+          },
           // A preview first seen 10 hours ago, dated at a kick-off that has since passed.
           {
             ...item('lemonde', 'kickoff', 'Le XV de France dévoile sa composition pour le Tournoi', hoursAgo(1)),
@@ -275,6 +280,7 @@ describe('runIngest', () => {
       future: retrievedAt,
       ahead: hoursAgo(5),
       evening: hoursAgo(15),
+      west: hoursAgo(9),
       kickoff: hoursAgo(10),
     });
   });
