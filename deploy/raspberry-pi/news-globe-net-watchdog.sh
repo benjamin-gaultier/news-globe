@@ -18,6 +18,7 @@ REBOOT_AFTER=${REBOOT_AFTER:-900}    # still down this long: reboot
 MIN_UPTIME=${MIN_UPTIME:-3600}       # never reboot sooner than this after boot, so a router
                                      # that is down for hours costs at most a reboot an hour
 PUBLIC_HOST=${PUBLIC_HOST:-1.1.1.1}  # tried when the router doesn't answer
+UPTIME_FILE=${UPTIME_FILE:-/proc/uptime}  # test-net-watchdog.sh swaps in a fake clock
 
 answers() {
   ping -q -c 3 -W 2 "$1" >/dev/null 2>&1
@@ -39,7 +40,7 @@ network_up() {
 # its clock jumps forward when NTP syncs after boot).
 uptime_s() {
   local up _
-  read -r up _ </proc/uptime
+  read -r up _ <"$UPTIME_FILE"
   echo "${up%.*}"
 }
 
