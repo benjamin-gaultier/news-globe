@@ -73,7 +73,7 @@ packages/shared/     Types for the data contract + country metadata (used by bot
 data/
   sample/            committed sample output (served until the first ingest)
   index.json, status.json, countries/*.json, regions/*.json, .cache/   generated, gitignored
-deploy/raspberry-pi/ systemd unit for the ingest
+deploy/raspberry-pi/ systemd units for the ingest and its network watchdog
 ```
 
 ## Pipeline
