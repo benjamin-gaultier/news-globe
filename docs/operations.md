@@ -81,13 +81,13 @@ Runs on a Raspberry Pi 4 (64-bit Raspberry Pi OS / Debian 13). Steps 2–4 need 
    sudo systemctl enable --now news-globe-ingest
    journalctl -u news-globe-ingest -f
    ```
-5. Install the network watchdog. A Pi whose Wi-Fi drops can stay up but offline until someone power-cycles it (2.5 days in October 2026). [news-globe-net-watchdog.sh](../deploy/raspberry-pi/news-globe-net-watchdog.sh) pings the router every minute, restarts NetworkManager after 5 minutes without an answer and reboots after 15, never within an hour of booting, so a router that is down for hours costs at most one reboot an hour. It runs as root from `/usr/local/sbin`, so `git pull` and auto-update never change it: rerun the first command after it changes.
+5. Install the network watchdog. A Pi whose Wi-Fi drops can stay up but offline until someone power-cycles it (2.5 days in October 2026). [news-globe-net-watchdog.sh](../deploy/raspberry-pi/news-globe-net-watchdog.sh) pings the router every minute, and `1.1.1.1` when the router doesn't answer. With neither answering, it restarts NetworkManager after 5 minutes and reboots after 15, never within an hour of booting, so a router that is down for hours costs at most one reboot an hour. On a network that drops pings to both, it would reboot the Pi every hour, so check first that `ping -c 3 1.1.1.1` gets replies. It runs as root from `/usr/local/sbin`, so `git pull` and auto-update never change it: after it changes, rerun the first command, then `sudo systemctl restart news-globe-net-watchdog`.
    ```bash
    sudo install -m 755 deploy/raspberry-pi/news-globe-net-watchdog.sh /usr/local/sbin/news-globe-net-watchdog
    sudo cp deploy/raspberry-pi/news-globe-net-watchdog.service /etc/systemd/system/
    sudo systemctl daemon-reload
    sudo systemctl enable --now news-globe-net-watchdog
-   journalctl -u news-globe-net-watchdog   # silent until the router stops answering
+   journalctl -u news-globe-net-watchdog   # silent until the network goes down
    ```
    A frozen Pi is the hardware watchdog's job, and Raspberry Pi OS already turns it on (`RuntimeWatchdogSec=1m`).
 
