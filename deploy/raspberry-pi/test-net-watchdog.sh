@@ -3,6 +3,8 @@
 # ip, systemctl and sleep are stubs, and the sleep stub advances a fake uptime, so
 # hours of watchdog time take a second. CI runs it: bash deploy/raspberry-pi/test-net-watchdog.sh
 set -u
+# The expectations below assume the watchdog's defaults, whatever the caller exported.
+unset CHECK_EVERY RESTART_AFTER REBOOT_AFTER MIN_UPTIME PUBLIC_HOST
 
 watchdog=$(dirname "$0")/news-globe-net-watchdog.sh
 T=$(mktemp -d)
