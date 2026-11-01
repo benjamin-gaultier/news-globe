@@ -59,7 +59,7 @@ Everything is precomputed, so a click never runs a query. Every push to `main` t
 apps/web/          React + Vite front end (react-globe.gl) and the Cloudflare Worker
 packages/ingest/   feeds → normalize → dedupe → cluster → rank → JSON, plus archive and translation
 packages/shared/   data types and country/region metadata
-deploy/            systemd unit for the Pi
+deploy/            systemd units for the Pi: the ingest and its network watchdog
 docs/              the details
 ```
 
