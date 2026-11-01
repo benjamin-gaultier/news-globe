@@ -31,6 +31,7 @@ jobs:
       - run: pnpm exec biome ci .
       # The Pi's shell scripts run as root and outside git pull (shellcheck ships with the runner image).
       - run: shellcheck deploy/raspberry-pi/*.sh
+      - run: bash deploy/raspberry-pi/test-net-watchdog.sh
       - run: pnpm typecheck
       - run: pnpm test
       # vite build only: `pnpm build` would typecheck the web app a second time.
