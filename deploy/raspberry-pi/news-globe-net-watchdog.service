@@ -1,0 +1,15 @@
+# systemd unit: restarts NetworkManager, then reboots the Pi, when the router
+# stays unreachable (see news-globe-net-watchdog.sh). Runs as root, as both need it.
+# Install: see docs/operations.md "Ingest on a Raspberry Pi", step 5.
+[Unit]
+Description=news-globe network watchdog (restart networking, then reboot, if the router stays unreachable)
+After=NetworkManager.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/news-globe-net-watchdog
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target

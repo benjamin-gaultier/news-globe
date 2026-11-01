@@ -81,6 +81,25 @@ Runs on a Raspberry Pi 4 (64-bit Raspberry Pi OS / Debian 13). Steps 2–4 need 
    sudo systemctl enable --now news-globe-ingest
    journalctl -u news-globe-ingest -f
    ```
+5. Install the network watchdog. A Pi whose Wi-Fi drops can stay up but offline until someone power-cycles it (2.5 days in October 2026). [news-globe-net-watchdog.sh](../deploy/raspberry-pi/news-globe-net-watchdog.sh) pings the router every minute, restarts NetworkManager after 5 minutes without an answer and reboots after 15, never within an hour of booting, so a router that is down for hours costs at most one reboot an hour. It runs as root from `/usr/local/sbin`, so `git pull` and auto-update never change it: rerun the first command after it changes.
+   ```bash
+   sudo install -m 755 deploy/raspberry-pi/news-globe-net-watchdog.sh /usr/local/sbin/news-globe-net-watchdog
+   sudo cp deploy/raspberry-pi/news-globe-net-watchdog.service /etc/systemd/system/
+   sudo systemctl daemon-reload
+   sudo systemctl enable --now news-globe-net-watchdog
+   journalctl -u news-globe-net-watchdog   # silent until the router stops answering
+   ```
+   A frozen Pi is the hardware watchdog's job, and Raspberry Pi OS already turns it on (`RuntimeWatchdogSec=1m`).
+
+Prefer Ethernet to Wi-Fi. With both connected, NetworkManager routes over the cable and keeps Wi-Fi as a fallback; reserve the Pi's wired address in the router's DHCP settings so it stays put. Raspberry Pi OS keeps the journal in RAM, so a reboot loses the logs of whatever went wrong. To keep them on disk (capped at 200 MB):
+
+```bash
+sudo mkdir -p /etc/systemd/journald.conf.d
+printf '[Journal]\nStorage=persistent\nSystemMaxUse=200M\n' | sudo tee /etc/systemd/journald.conf.d/50-persistent.conf
+sudo systemctl restart systemd-journald
+```
+
+Without logs, the data still tells when the Pi went offline: `retrievedAt` and `lastStatus` per feed in `data/.cache/http.json` show the last successful fetch, and every feed failing with `fetch failed` means no network.
 
 Only one machine should run the ingest. Two pollers would double the requests to every feed.
 
