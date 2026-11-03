@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { CATEGORIES, feedUrlsOf, outletPools, SOURCES, type SourceConfig } from '../src/sources.config';
+import { activePools, CATEGORIES, feedUrlsOf, outletPools, SOURCES, type SourceConfig } from '../src/sources.config';
 
 const duplicates = (values: string[]) => [...new Set(values.filter((v, i) => values.indexOf(v) !== i))];
 
@@ -53,5 +53,21 @@ describe('outletPools', () => {
     const pools = outletPools();
     const countries = new Set(SOURCES.filter((s) => !s.region && s.feeds.top?.length).map((s) => s.country));
     expect([...countries].filter((c) => !pools.get(c))).toEqual([]);
+  });
+});
+
+describe('activePools', () => {
+  it('takes each country’s active outlets from its index entry, and the configured pool otherwise', () => {
+    const configured = new Map([
+      ['FR', 6],
+      ['DE', 5],
+      ['IT', 4],
+    ]);
+    const pools = activePools([{ code: 'FR', activeOutlets: 4 }, { code: 'DE' }], configured);
+    expect([...pools]).toEqual([
+      ['FR', 4],
+      ['DE', 5],
+      ['IT', 4],
+    ]);
   });
 });

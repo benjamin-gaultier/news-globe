@@ -105,7 +105,8 @@ export const round3 = (x: number) => Math.round(x * 1000) / 1000;
  * reach 8 outlets, with 2 never more than 2. A story from one outlet scores 0
  * whatever the pool, since nothing corroborates it.
  *
- * `pool` is the country's outlets with top-headline feeds (see `outletPools`);
+ * `pool` is the country's outlets that published in the run's window (see
+ * `activePools`; the configured `outletPools` for an index from before it);
  * a count above it (the config changed under a published file) widens it; for
  * an unknown pool, see TYPICAL_POOL.
  * `prior` is COVERAGE_PRIOR but for trying others (`ranking:report --prior`).

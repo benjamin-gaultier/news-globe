@@ -41,6 +41,38 @@ describe('rankingReport', () => {
   });
 });
 
+describe('rankingReport and priorSweep with active pools', () => {
+  // NL has 8 feeds configured, but only 4 published this run: its story on all 4 is
+  // measured against those, while the tables still group NL by its 8 configured feeds.
+  const units = [
+    { code: 'NL', clusters: [story('NL', 'Dutch budget', 4)] },
+    { code: 'LT', clusters: [story('LT', 'Lithuanian strike', 3)] },
+  ];
+  const pools = new Map([
+    ['NL', 8],
+    ['LT', 3],
+  ]);
+  const active = new Map([
+    ['NL', 4],
+    ['LT', 3],
+  ]);
+
+  it('measures coverage against the active outlets and groups countries by the configured ones', () => {
+    const report = rankingReport(units, [], pools, T, active);
+    const after = report.slice(report.indexOf('**After'));
+    expect(after).toContain('| 1 | Dutch budget | NL 4/8 | 4 | 0.86 |');
+    expect(after).toContain('| 2 | Lithuanian strike | LT 3/3 | 3 | 0.80 |');
+    expect(report).toContain('| 7–8 | 1 (50%) |');
+    expect(report).toContain('- by coverage (after): **1.00**');
+  });
+
+  it('sweeps priors the same way', () => {
+    const sweep = priorSweep(units, [], pools, T, [0.5], active);
+    expect(sweep).toContain('all 2 countries (mean feeds 5.5)');
+    expect(sweep).toContain('| coverage, prior 0.5 | 1.00 |');
+  });
+});
+
 describe('rankingReport with nothing to rank', () => {
   it('throws rather than printing an empty report', () => {
     expect(() => rankingReport([], [], new Map(), T)).toThrow('no national stories');

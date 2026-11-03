@@ -749,7 +749,7 @@ export const SOURCES: SourceConfig[] = [
   // Mixes state (AA, TRT), mainstream and opposition (Sözcü, Cumhuriyet) outlets.
   // T24's feed is empty; AA's politika feed is stale (months old). Sabah,
   // Milliyet, Habertürk also work as substitutes. CNN Türk stamps local time
-  // as GMT (dates ~3 h ahead); toArticle clamps them to now.
+  // as GMT (dates ~3 h ahead); toArticle dates them by when first seen.
   {
     id: 'aa',
     name: 'Anadolu Ajansı',
@@ -1963,7 +1963,7 @@ export const SOURCES: SourceConfig[] = [
   },
   // ---- Philippines ----
   // ABS-CBN and Manila Bulletin return 403; PNA's and Manila Standard's feeds are
-  // malformed XML. Inquirer stamps some dates ahead of now (clamped).
+  // malformed XML. Inquirer stamps some dates ahead of now (dated by when first seen).
   {
     id: 'inquirer',
     name: 'Philippine Daily Inquirer',
@@ -3487,7 +3487,7 @@ export const SOURCES: SourceConfig[] = [
   },
   // Arabic-language press (tokenized by arabicTokens in normalize/text.ts).
   // Egypt: Al-Ahram, Akhbar El Yom, Cairo 24 and Al-Wafd return 403; Youm7 items are undated.
-  // Vetogate and Al-Bawaba stamp items ~3h ahead (local time labelled GMT); future dates are clamped.
+  // Vetogate and Al-Bawaba stamp items ~3h ahead (local time labelled GMT); future dates take the first-seen time.
   {
     id: 'almasryalyoum',
     name: 'Al-Masry Al-Youm',
@@ -3738,7 +3738,7 @@ export const SOURCES: SourceConfig[] = [
     authority: 7,
   },
   // Costa Rica. La Nación, CRHoy, Amelia Rueda and El Financiero 404; Diario Extra returns 403.
-  // Delfino stamps items ~6h ahead (local time labelled GMT); future dates are clamped.
+  // Delfino stamps items ~6h ahead (local time labelled GMT); future dates take the first-seen time.
   {
     id: 'semanariouniversidad',
     name: 'Semanario Universidad',
@@ -4690,7 +4690,7 @@ export const SOURCES: SourceConfig[] = [
     authority: 7,
   },
   // Vietnam (current-affairs sections). VnExpress 404; Lao Động not RSS; Dân Trí stale.
-  // Tuổi Trẻ stamps items ~3h ahead; future dates are clamped.
+  // Tuổi Trẻ stamps items ~3h ahead; future dates take the first-seen time.
   {
     id: 'tuoitre',
     name: 'Tuổi Trẻ',
@@ -8980,14 +8980,31 @@ export const SOURCES: SourceConfig[] = [
 ];
 
 /**
- * Country → its national outlets with top-headline feeds: the pool a story's
- * outlets are measured against when countries are compared (`coverage` in rank.ts).
+ * Country → its national outlets with top-headline feeds: the configured pool. Stories
+ * are measured against the outlets that published (`activePools`), which falls back to
+ * this; `ranking:report` groups countries by it.
  * Regional outlets and section-only outlets (a sports daily) are not in it, as
  * they never count toward a country's top file.
  */
 export function outletPools(sources: readonly SourceConfig[] = SOURCES): Map<CountryCode, number> {
   const pools = new Map<CountryCode, number>();
   for (const s of sources) if (!s.region && feedUrlsOf(s, ['top']).length) pools.set(s.country, (pools.get(s.country) ?? 0) + 1);
+  return pools;
+}
+
+/**
+ * Country → the outlets its stories are measured against: those that published in the run's
+ * ranking window (`activeOutlets` in its index entry), else, for an entry without it (from
+ * before the field, or a country whose feeds all failed and keeps its last file), its
+ * configured outlets. A dead or stale feed would otherwise stay in the pool and
+ * pull down every story from its country.
+ */
+export function activePools(
+  entries: readonly { code: string; activeOutlets?: number }[],
+  configured: ReadonlyMap<CountryCode, number> = outletPools(),
+): Map<CountryCode, number> {
+  const pools = new Map(configured);
+  for (const e of entries) if (e.activeOutlets !== undefined) pools.set(e.code, e.activeOutlets);
   return pools;
 }
 

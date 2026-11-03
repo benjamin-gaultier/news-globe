@@ -495,7 +495,7 @@ Canada is bilingual, and clustering only compares titles within a language, so a
 | NTV | gündem | 8 | ✅ (Atom feed) |
 | Sözcü | gündem | 7 | ✅ (opposition) |
 | Cumhuriyet | son dakika | 7 | ✅ (opposition; breaking-news feed) |
-| CNN Türk | Türkiye | 7 | ✅ (dates are local time labelled GMT, ~3 h ahead; clamped to now) |
+| CNN Türk | Türkiye | 7 | ✅ (dates are local time labelled GMT, ~3 h ahead; dated when first seen) |
 | ~~T24~~ | — | — | ❌ **dropped**: feed is empty |
 
 Sabah, Milliyet, Habertürk and BBC Türkçe also work. Turkish folding maps dotless *ı* to *i*, and the stopword list includes the case suffixes that an apostrophe splits off proper nouns (*Erdoğan'ın*, *Meclis'te*). It also covers light verbs (*etti*, *yaptı*) and the formula words of police-blotter headlines (*operasyon: 26 gözaltı*), which otherwise merged unrelated raids.
@@ -730,7 +730,7 @@ El Comercio's main feed carries foreign SEO pieces (Mexican exchange rates, Arge
 
 | Outlet | Feeds | Authority | Status |
 | --- | --- | --- | --- |
-| Philippine Daily Inquirer | newsinfo | 10 | ✅ (some dates ahead of now, clamped) |
+| Philippine Daily Inquirer | newsinfo | 10 | ✅ (some dates ahead of now, dated when first seen) |
 | Rappler | main feed | 9 | ✅ (10 items) |
 | GMA News | news | 9 | ✅ |
 | Philstar | headlines | 8 | ✅ (10 items) |
@@ -1099,8 +1099,8 @@ The Maghreb countries use their French-language press, which the existing French
 | Al-Masry Al-Youm | main feed | 10 | ✅ (ar) |
 | Al-Shorouk | egypt | 9 | ✅ (9 items, ar) |
 | Sada El Balad | main feed | 7 | ✅ (ar) |
-| Veto | main feed | 7 | ✅ (ar; dates ~3h ahead, clamped) |
-| Al-Bawaba News | main feed | 6 | ✅ (ar; dates ~3h ahead, clamped) |
+| Veto | main feed | 7 | ✅ (ar; dates ~3h ahead, dated when first seen) |
+| Al-Bawaba News | main feed | 6 | ✅ (ar; dates ~3h ahead, dated when first seen) |
 | ~~Al-Ahram~~, ~~Akhbar El Yom~~, ~~Cairo 24~~, ~~Al-Wafd~~, ~~Al-Dostor~~ | — | — | ❌ **dropped**: 403 for bots |
 | ~~Youm7~~ | — | — | ❌ **dropped**: undated items |
 | ~~Masrawy~~ | — | — | ❌ **dropped**: serves an HTML page |
@@ -1173,7 +1173,7 @@ An-Nahar and LBCI both run the same wire copy, so their shared stories merge as 
 | Outlet | Feeds | Authority | Status |
 | --- | --- | --- | --- |
 | Semanario Universidad | main feed | 9 | ✅ (10 items, es) |
-| Delfino | main feed | 8 | ✅ (es; dates ~6h ahead, clamped) |
+| Delfino | main feed | 8 | ✅ (es; dates ~6h ahead, dated when first seen) |
 | El Observador | main feed | 7 | ✅ (12 items, es) |
 | El Mundo CR | main feed | 7 | ✅ (10 items, es) |
 | ~~La Nación~~, ~~CRHoy~~, ~~Teletica~~, ~~Amelia Rueda~~, ~~El Financiero~~, ~~Diario Extra~~ | — | — | ❌ **dropped**: 403 / 404 / malformed |
@@ -1418,7 +1418,7 @@ Russia mixes state wire agencies, business dailies and two outlets publishing fr
 
 | Outlet | Feeds | Authority | Status |
 | --- | --- | --- | --- |
-| Tuổi Trẻ | thời sự | 10 | ✅ (dates ~3h ahead, clamped, vi) |
+| Tuổi Trẻ | thời sự | 10 | ✅ (dates ~3h ahead, dated when first seen, vi) |
 | Thanh Niên | thời sự | 9 | ✅ (titles escaped twice, decoded, vi) |
 | Nhân Dân | chính trị | 9 | ✅ (vi) |
 | VietNamNet | thời sự | 8 | ✅ (vi) |
@@ -2068,7 +2068,7 @@ The National is an Arc site, read with `?outputType=xml`. Not used: Sky News Ara
 | Hala Akhbar | main feed | 7 | ✅ (ar) |
 | Al Wakeel News | main feed | 7 | ✅ (ar) |
 
-Al Wakeel's dates run about three hours ahead, so the newest are clamped to the fetch time. Not used: Al-Ghad, Addustour, Al-Rai and Jordan Times 403; Ammon, Petra and Assawsana serve no items; Al-Mamlaka 404.
+Al Wakeel's dates run about three hours ahead, so the newest are dated by when a fetch first saw them. Not used: Al-Ghad, Addustour, Al-Rai and Jordan Times 403; Ammon, Petra and Assawsana serve no items; Al-Mamlaka 404.
 
 **Nicaragua** (added 2026-10-07)
 

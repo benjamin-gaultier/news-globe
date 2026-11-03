@@ -87,6 +87,11 @@ describe('coverage', () => {
     expect(coverage(4, 8, 1)).toBe(0.375);
   });
 
+  it('widens a pool smaller than the story’s outlets, down to none active', () => {
+    expect(coverage(2, 0)).toBe(coverage(2, 2));
+    expect(coverage(1, 0)).toBe(0);
+  });
+
   it('lets a small country’s story outrank a bigger country’s when more of its press carries it', () => {
     // Raw outlets would put 4 of 8 first; 3 of 3 is the whole of that country's press.
     expect(coverage(3, 3)).toBeGreaterThan(coverage(4, 8));

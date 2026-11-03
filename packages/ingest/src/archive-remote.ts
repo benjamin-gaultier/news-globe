@@ -5,6 +5,7 @@ import type { ArchiveDay, TodayFile } from '@news-globe/shared';
 import { archiveKey, BUNDLE_KEY, KV_KEYS } from '@news-globe/shared/bundle';
 import { addRun, runFromBundle } from './archive';
 import { buildSearch, buildToday, buildTrends } from './derived';
+import { activePools } from './sources.config';
 import { kvClient, kvConfigFromEnv, type KvConfig } from './kv';
 import {
   azureConfigFromEnv,
@@ -76,7 +77,7 @@ export async function archiveFromKv(
 
   // Trends, search and `today` for this run, from the day and the published files.
   const trends = buildTrends(day, runAt, units);
-  const today = buildToday(trends, units);
+  const today = buildToday(trends, units, activePools(index.countries));
   await upload(KV_KEYS.trends, zipJson(trends));
   await upload(KV_KEYS.search, zipJson(buildSearch(runAt, units)));
 

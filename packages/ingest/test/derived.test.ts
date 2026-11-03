@@ -3,6 +3,7 @@ import type { Article, ClusterTrend, StoryCluster, TrendsFile } from '@news-glob
 import { addRun } from '../src/archive';
 import { buildSearch, buildToday, buildTrends } from '../src/derived';
 import { buildCluster } from '../src/rank';
+import { activePools } from '../src/sources.config';
 import { article } from './helpers';
 
 const T = (h: number) => `2026-10-08T${String(h).padStart(2, '0')}:00:00.000Z`;
@@ -119,6 +120,30 @@ describe('buildToday', () => {
     expect(today.top.map((s) => [s.title, s.outlets, s.coverage])).toEqual([
       ['lt', 3, 0.8],
       ['nl', 4, 0.4],
+    ]);
+  });
+
+  it('measures a story against the outlets that published, so a dead feed does not sink its country', () => {
+    // NL has 8 outlets configured, but 3 of their feeds are dead: 5 published in the last 24 h.
+    const configured = new Map([
+      ['NL', 8],
+      ['LT', 5],
+    ]);
+    const units = [
+      { code: 'NL', clusters: [story('NL', 'nl', 4)] },
+      { code: 'LT', clusters: [story('LT', 'lt', 4)] },
+    ];
+    const live = activePools([{ code: 'NL', activeOutlets: 5 }, { code: 'LT' }], configured);
+    const before = buildToday(trendsOf({}), units, configured);
+    const after = buildToday(trendsOf({}), units, live);
+    expect(before.top.map((s) => [s.title, s.coverage])).toEqual([
+      ['lt', 0.667],
+      ['nl', 0.4],
+    ]);
+    // Same story, same coverage on both sides once the dead feeds are left out.
+    expect(after.top.map((s) => [s.title, s.coverage])).toEqual([
+      ['lt', 0.667],
+      ['nl', 0.667],
     ]);
   });
 

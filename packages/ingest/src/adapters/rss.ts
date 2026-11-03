@@ -103,6 +103,22 @@ function toIso(item: ParsedItem): string | null {
   return Number.isNaN(t) ? null : new Date(t).toISOString();
 }
 
+/** Categories kept per item: enough to tell a sports story, without filling the cache with tag clouds. */
+const MAX_CATEGORIES = 5;
+
+/**
+ * The item's `<category>` values: strings, or `{ _: text }` when the element has
+ * attributes (`domain`). WordPress feeds give their sections here ("Sports").
+ */
+function categoriesOf(item: ParsedItem): string[] {
+  const raw: unknown[] = Array.isArray(item.categories) ? item.categories : [];
+  return raw
+    .map((c) => (typeof c === 'string' ? c : typeof (c as { _?: unknown })?._ === 'string' ? (c as { _: string })._ : ''))
+    .map((c) => c.trim())
+    .filter((c) => c && c.length <= 40)
+    .slice(0, MAX_CATEGORIES);
+}
+
 function absoluteHttpUrl(value: string | undefined, base: string): string | null {
   if (!value) return null;
   try {
@@ -156,12 +172,14 @@ export async function parseFeed(body: string, feedUrl: string): Promise<RawItem[
     // Prefer the feed's own summary; never fall back to content:encoded, which can be the full article.
     const snippet = [item.description, item.summary, item.contentSnippet].find((v) => typeof v === 'string');
     const image = pickImage(item);
+    const categories = categoriesOf(item);
     items.push({
       title,
       url,
       description: cleanDescription(snippet, INGEST_SETTINGS.descriptionMaxChars),
       publishedAt: toIso(item),
       imageUrl: image ? absoluteHttpUrl(image, url) : null,
+      ...(categories.length && { categories }),
     });
   }
   return items;
