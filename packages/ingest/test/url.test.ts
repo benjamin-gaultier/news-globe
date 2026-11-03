@@ -66,6 +66,13 @@ describe('isSportUrl', () => {
       'https://www.nst.com.my/sports/badminton/2026/10/1562689/pearly-thinaah',
       'https://www.rtl.nl/nieuws/sport/artikel/5660818/fifa-baas-infantino',
       'https://www.elnuevodia.com/deportes/beisbol/notas/puerto-rico-recibe',
+      // Missed on the live run of 2026-11-03.
+      'https://www.koha.net/futboll/barcelona-bindese-ndaj-aston-villas',
+      'https://www.latercera.com/el-deportivo/noticia/en-vivo-barcelona-recibe-a-aston-villa',
+      'https://www.lrytas.lt/sportas/krepsinis/2026/11/03/news/netiketumas-44772926',
+      'https://www.dr.dk/sporten/seneste-sport/danske-ishockeykvinder-taber-stort',
+      'https://www.dailypost.vu/vanuatu_sports/pvfa-ligue-1-and-2-prepare-for-new-season/article_871fc27a.html',
+      'https://siol.net/sportal/nogomet/liga-prvakov-705417',
     ]) {
       expect(isSportUrl(url), url).toBe(true);
     }
