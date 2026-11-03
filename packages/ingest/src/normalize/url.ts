@@ -86,20 +86,20 @@ export function dateFromUrl(raw: string): string | null {
 }
 
 /** "Sport" in the languages of the feeds. */
-const SPORT_GENERIC = 'sports?|sporti?|spor|deportes?|esportes?|desportos?';
+const SPORT_GENERIC = 'sports?|sporti?|spor|sportas|sporten|deportes?|esportes?|desportos?';
 
 /** Words that name a sports section, in the languages of the feeds: "sport" or a single sport. */
-const SPORT_WORD = `${SPORT_GENERIC}|futbol|fútbol|football|soccer|calcio|fussball|fußball|fotbal|cricket|tennis|basketball|baseball|béisbol|beisbol`;
+const SPORT_WORD = `${SPORT_GENERIC}|sportal|deportivo|futbol|fútbol|futboll|fudbal|nogomet|football|soccer|calcio|fussball|fußball|fotbal|cricket|tennis|basketball|baseball|béisbol|beisbol`;
 
 /**
  * A URL directory that is a sports section: `/sport/`, `/deportes/`, `/sports/badminton/`
  * anywhere in the path, or as its first directory a sports word with one more word
- * (`/futbol-xeberleri/`). Not further down or longer: some outlets put the headline's slug
+ * before or after it (`/futbol-xeberleri/`, `/el-deportivo/`, `/vanuatu_sports/`). Not further down or longer: some outlets put the headline's slug
  * in a directory (Times of India's `/india/<slug>/articleshow/…`), and
  * "cricket-scandal" or "sports-minister-resigns" is national news.
  */
 const SPORT_SECTION = new RegExp(`^(?:${SPORT_WORD})$`, 'i');
-const SPORT_SECTION_FIRST = new RegExp(`^(?:${SPORT_WORD})-[^-]+$`, 'i');
+const SPORT_SECTION_FIRST = new RegExp(`^(?:(?:${SPORT_WORD})[-_][^-_]+|[^-_]+[-_](?:${SPORT_WORD}))$`, 'i');
 
 /**
  * A feed category that is a sports section: "sport" alone, or with "news" ("Sport News").
